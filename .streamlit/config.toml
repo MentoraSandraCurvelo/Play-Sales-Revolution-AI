@@ -1,0 +1,17 @@
+# Pega esto en el archivo .streamlit/config.toml
+
+[theme]
+# El color principal para elementos interactivos. Tu rojo de marca.
+primaryColor="#E50914"
+
+# Color de fondo de la aplicación principal. Un gris oscuro muy elegante.
+backgroundColor="#0b0c0f"
+
+# Color de fondo para elementos como la barra lateral.
+secondaryBackgroundColor="#1a1c23"
+
+# Color del texto principal.
+textColor="#FAFAFA"
+
+# Fuente para el texto.
+font="sans serif"
