@@ -50,7 +50,7 @@ if 'stage' not in st.session_state:
     st.session_state.feedback = ""
 
 if st.session_state.stage == 'intro':
-    st.title("🚀 Sales Revolution AI: El Desafío")
+    st.title("🔴 Sales Revolution AI: El Desafío")
     st.write("Bienvenido/a al mundo de las ventas B2B de alto impacto. Estás a punto de cerrar el trimestre y tienes una meta ambiciosa. El mercado es competitivo, pero tienes un as bajo la manga: la Inteligencia Artificial.")
     mentor_quote("Como siempre digo, lo que no se mide, no se puede mejorar. Hoy, vamos a demostrar que la IA no es una amenaza, es el copiloto más potente que puedes tener. ¿Listo/a para redefinir el juego?")
     if st.button("Comenzar mi Jornada"):
