@@ -1,0 +1,28 @@
+# Credenciales — NUNCA subir
+.env
+.env.local
+*.pem
+*.key
+credentials.json
+token.json
+
+# Salidas de la junta (actas, reportes)
+salidas/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Sistema
+.DS_Store
+Thumbs.db
