@@ -1,53 +1,74 @@
 # Mapa de canales de Slack — IAM™ Intelligence · Comfacesar
 
-Workspace: `iamteamespacio.slack.com` · Verificado el 21 de agosto de 2026.
+Workspace: `iamteamespacio.slack.com` · Verificado canal por canal el 21 de agosto de 2026.
 
-El programa trabaja **un canal por área**. Las 26 reuniones a la fecha son la **suma de las sesiones
-de todos los canales**, no las de un área sola. Por eso el pulso NPS se lanza **canal por canal** y
-el reporte se entrega **segmentado por área**.
+El programa trabaja **un canal por área**, y cada área va a su propio ritmo. Las ~26 reuniones a la
+fecha son la **suma de las sesiones de todos los canales**. Por eso el pulso NPS se lanza
+**solo donde ya hubo sesión**, y el reporte se entrega **segmentado por área**.
 
-## Canales por área
+> **Criterio:** un área entra al pulso si en su canal ya hay acta, asistencia o grabación de al menos
+> la Sesión 1. No se le puede pedir a alguien que evalúe una metodología que todavía no ha vivido.
 
-| Área (dashboard) | Canal de Slack | ID | Func. |
-|---|---|---|---|
-| Comunicaciones | `#comunicaciones` | `C0BPC33FM9D` | 5 |
-| Planeación | `#planeacion` | `C0BQPDJD0LQ` | 5 |
-| Mercadeo | `#mercadeo` | `C0BPT4GE8NS` | 3 |
-| Gerencia Financiera | `#gerencia-financiera` | `C0BPV3QQ9SN` | 3 |
-| Cumplimiento | `#cumplimiento` | `C0BRMUV71UJ` | 3 |
-| Subsidio | `#subsidio` | `C0BPDP5SNMD` | 3 |
-| Agencia de Empleo | `#agencia-de-empleo` | `C0BPV2YLLBU` | 2 |
-| Talento Humano | `#talento-humano` | `C0BPCQF8GCX` | 2 |
-| Contabilidad | `#contabilidad` | `C0BPDN9PKPH` | 2 |
-| Tesorería | `#tesoreria` | `C0BPRFGR621` | 2 |
-| Sub Admin Financiera | `#sub-admin-y-financiera-infraestructura` | `C0BPV3TEKB4` | 2 |
-| Jurídica | `#juridica` | `C0BPYQD0UQ4` | 2 |
-| Sub Operativa | `#sub-operativa` | `C0BPYQFRYP6` | 2 |
-| Vivienda | `#vivienda` | `C0BPRGLBTUM` | 2 |
-| Educación | `#educacion` | `C0BPDPF4YMD` | 2 |
-| Servicios Sociales | `#serivcios-sociales` | `C0BPRGNGLJ1` | 2 |
-| Tecnología | `#tecnologia` | `C0BPV433VSN` | 1 |
-| IPS | `#ips` | `C0BPNT6UV8B` | 1 |
-| Crédito | `#credito` | `C0BPT65MLNA` | 1 |
+---
 
-**19 áreas con canal · 43 funcionarios cubiertos.**
+## ✅ Listos para el pulso — 14 áreas · 36 funcionarios
 
-## Inconsistencias detectadas (revisar antes de lanzar)
+| Área | Canal | ID | Última sesión | Func. |
+|---|---|---|---|---|
+| Comunicaciones | `#comunicaciones` | `C0BPC33FM9D` | S2 · 20 ago | 5 |
+| Jurídica | `#juridica` | `C0BPYQD0UQ4` | S2 · 20 ago | 2 |
+| Mercadeo | `#mercadeo` | `C0BPT4GE8NS` | S2 · 19 ago | 3 |
+| Agencia de Empleo | `#agencia-de-empleo` | `C0BPV2YLLBU` | S2 · 20 ago | 2 |
+| Planeación | `#planeacion` | `C0BQPDJD0LQ` | S1 · 18 ago | 5 |
+| Gerencia Financiera | `#gerencia-financiera` | `C0BPV3QQ9SN` | S1 · 18 ago | 3 |
+| Talento Humano | `#talento-humano` | `C0BPCQF8GCX` | S1 · 15 ago | 2 |
+| Contabilidad | `#contabilidad` | `C0BPDN9PKPH` | S1 · 19 ago | 2 |
+| Tesorería | `#tesoreriaa` | `C0BPNSNNGLT` | S1 · 19 ago | 2 |
+| Sub Admin Financiera | `#sub-admin-y-financiera-infraestructura` | `C0BPV3TEKB4` | S1 · 20 ago | 2 |
+| Sub Operativa | `#sub-operativa` | `C0BPYQFRYP6` | S1 · 19 ago | 2 |
+| Servicios Sociales | `#serivcios-sociales` | `C0BPRGNGLJ1` | S1 · 19 ago | 2 |
+| Vivienda | `#vivienda` | `C0BPRGLBTUM` | S1 · 13 ago | 2 |
+| Educación | `#educacion` | `C0BPDPF4YMD` | S1 · 14 ago | 2 |
 
-1. **Dos áreas del dashboard no tienen canal:** **Presupuesto** (1 func.) y **Dirección Admin**
-   (1 func.). O se crean sus canales, o esas 2 personas responden por otra vía.
-2. **`#auditoria-interna`** (`C0BPDPM30UX`) existe como canal pero **no aparece como área en el
-   dashboard**. Falta decidir si entra al programa y al assessment.
-3. **Canal duplicado:** existen `#tesoreria` (`C0BPRFGR621`, público) y `#tesoreriaa`
-   (`C0BPNSNNGLT`, privado). Hay que archivar uno antes de lanzar, o las respuestas se parten.
-4. **Error de tipeo en el nombre:** `#serivcios-sociales` debería ser `#servicios-sociales`.
-   Renombrarlo no rompe nada — el ID del canal no cambia.
+## ⏸️ Todavía no — sin sesión registrada en el canal
 
-También existe **`#todo-iamteam`** (`C0BN3KV3804`, público): es el canal general del equipo IAM, no
-un área de Comfacesar. No entra en el pulso.
+| Área | Canal | ID | Estado | Func. |
+|---|---|---|---|---|
+| Cumplimiento | `#cumplimiento` | `C0BRMUV71UJ` | Canal creado el 20 ago, sin sesión | 3 |
+| Subsidio | `#subsidio` | `C0BPDP5SNMD` | Solo ingresos al canal | 3 |
+| IPS | `#ips` | `C0BPNT6UV8B` | Solo ingresos al canal | 1 |
+| Crédito | `#credito` | `C0BPT65MLNA` | Solo ingresos al canal | 1 |
+| Auditoría Interna | `#auditoria-interna` | `C0BPDPM30UX` | Solo ingresos · no figura como área en el dashboard | — |
+
+## ❓ Por confirmar
+
+**Tecnología** (`#tecnologia`, `C0BPV433VSN`, 1 func.). En el canal hay conversación del 20 de agosto
+— Olga Lucía menciona *"que no se repita lo de la vez pasada"* y que ya quedó agendada la próxima
+reunión — pero **no hay acta ni grabación cargada**. Si la sesión 1 se dio (aunque con problemas
+técnicos), el área entra al pulso y pasan a ser 15 áreas · 37 funcionarios.
+
+---
+
+## Pendientes de estructura
+
+1. **Archivar `#tesoreria`** (`C0BPRFGR621`, público). El canal válido es **`#tesoreriaa`**
+   (`C0BPNSNNGLT`), que es donde están Yohana y Beatriz y donde se cargó la sesión. Archivar el
+   duplicado desde Slack: canal → nombre del canal → *Configuración* → *Archivar canal*.
+2. **Presupuesto y Dirección Admin no tienen canal propio.** Nota: Sandra Milena Hinojosa
+   (`presupuesto@comfacesar.com`) participa dentro de `#planeacion`, así que Presupuesto podría estar
+   ya cubierto ahí. Dirección Admin (Alemar Granadillo) sigue sin canal.
+3. **Error de tipeo:** `#serivcios-sociales` debería ser `#servicios-sociales`. Renombrarlo no rompe
+   nada — el ID del canal no cambia.
+
+También existe `#todo-iamteam` (`C0BN3KV3804`): canal general del equipo IAM, no un área de
+Comfacesar. No entra en el pulso.
+
+---
 
 ## Cómo se lanza
 
-1. Un mensaje por canal de área, con el copy de `slack_mensajes.md`.
-2. Cada área responde en su propio canal → el NPS ya queda segmentado por área desde el origen.
-3. Consolidación: `calcular_nps.py --por-area` para el reporte a María Elvira.
+1. Un mensaje por canal, **solo en los 14 canales listos**, con el copy de `slack_mensajes.md`.
+2. Las 11 reacciones `0️⃣`–`🔟` se pre-cargan en cada mensaje para que responder sea un solo toque.
+3. Cada área responde en su propio canal → el NPS nace ya segmentado por área.
+4. Consolidación: `calcular_nps.py --por-area` para el reporte a María Elvira.
+5. Las 5 áreas en espera entran al pulso **después de su Sesión 1**, con el mismo mensaje.
