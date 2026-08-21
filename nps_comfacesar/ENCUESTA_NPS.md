@@ -1,10 +1,23 @@
-# Encuesta NPS — IAM™ Intelligence · Comfacesar (Grupo Comunicaciones)
+# Encuesta NPS — IAM™ Intelligence · Comfacesar (21 áreas)
 
-**Cliente:** Comfacesar — Área de Comunicaciones
+**Cliente:** Comfacesar — **21 áreas · 47 funcionarios**
 **Programa:** IAM™ Intelligence (agosto → octubre 2026)
-**Momento de medición:** Pulso intermedio, después de la Sesión 2 (20 de agosto)
+**Alcance a la fecha:** **26 reuniones** realizadas con las áreas
+**Momento de medición:** Pulso intermedio del programa (21 de agosto de 2026)
 **Duración estimada para el participante:** 2 minutos
 **Responsable:** Sandra Curvelo — Founder & CSO, IAM™ LATAM
+**Contraparte cliente:** María Elvira Marulanda
+
+### Áreas del programa
+
+Comunicaciones (5) · Planeación (5) · Mercadeo (3) · Gerencia Financiera (3) · Cumplimiento (3) ·
+Subsidio (3) · Agencia de Empleo (2) · Talento Humano (2) · Contabilidad (2) · Tesorería (2) ·
+Sub Admin Financiera (2) · Jurídica (2) · Sub Operativa (2) · Vivienda (2) · Educación (2) ·
+Servicios Sociales (2) · Tecnología (1) · IPS (1) · Presupuesto (1) · Dirección Admin (1) · Crédito (1)
+
+Con 26 reuniones repartidas entre 21 áreas, **el promedio global esconde la realidad**: puede haber
+áreas con NPS de +100 y otras en negativo dentro del mismo número. Por eso la encuesta pregunta
+siempre el área, y el reporte se entrega segmentado.
 
 ---
 
@@ -12,13 +25,17 @@
 
 Medir a mitad del programa tiene tres usos concretos:
 
-1. **Corregir en caliente.** Si el ritmo o la profundidad no encaja, quedan 2 meses para ajustar. Un NPS al final solo sirve para el informe, no para el cliente.
+1. **Corregir en caliente, y por área.** Si el ritmo o la profundidad no encaja en un área concreta, quedan 2 meses para ajustar solo esa. Un NPS al final solo sirve para el informe, no para el cliente.
 2. **Construir el caso de éxito con datos.** El delta entre "confianza en IA antes" y "confianza en IA hoy" es el número que después se convierte en testimonio y en propuesta comercial para el próximo cliente.
 3. **Demostrar método.** Un programa que se mide se percibe como consultoría, no como capacitación. Es diferenciador frente a cualquier competidor que solo dicta sesiones.
 
 ---
 
-## 2. Estructura de la encuesta (6 preguntas)
+## 2. Estructura de la encuesta (6 preguntas + área)
+
+**Pregunta 0 — Área.** Obligatoria, en la pantalla de inicio. No identifica a la persona: agrupa el
+resultado. Es lo que permite entregarle a María Elvira un reporte por área en lugar de un promedio
+que no dice nada.
 
 ### P1 — NPS (la pregunta madre)
 > **En una escala de 0 a 10, ¿qué tan probable es que recomiendes el programa IAM™ Intelligence a un colega de otra área de Comfacesar?**
@@ -48,7 +65,7 @@ Escala 1–5 (1 = Totalmente en desacuerdo · 5 = Totalmente de acuerdo).
 ---
 
 ### P3 — Aprendizaje aplicado (abierta, la más valiosa)
-> **De lo visto en las sesiones 1 y 2, ¿qué ya aplicaste — o vas a aplicar esta semana — en tu trabajo de comunicaciones?**
+> **De lo visto en las sesiones de tu área, ¿qué ya aplicaste — o vas a aplicar esta semana — en tu trabajo?**
 
 Texto libre.
 
@@ -64,11 +81,19 @@ Texto libre.
 
 ---
 
-### P5 — Confianza en IA: antes vs. hoy
+### P5 — Confianza en IA (antes vs. hoy) + ahorro de tiempo percibido
 > **Antes de empezar el programa, ¿qué tan seguro/a te sentías usando IA en tu día a día? (0–10)**
 > **¿Y hoy? (0–10)**
+> **Con lo aplicado hasta hoy, ¿cuánto tiempo estimas que te ahorras?**
+> Todavía no lo noto · <30 min/sem · 30 min–2 h/sem · 2–5 h/sem · >5 h/sem
 
-*Qué mide:* el **delta de confianza**. Es el indicador de impacto del programa y el número que mejor vende el caso Comfacesar hacia afuera (con autorización del cliente).
+*Qué mide:* dos cosas que se refuerzan.
+
+- El **delta de confianza** es el indicador de impacto humano del programa.
+- El **ahorro percibido** cruza directamente con el `Dashboard_IAM_Intelligence_Comfacesar.xlsx`: ahí
+  el ahorro está medido *tarea por tarea* en el assessment; aquí está medido *como lo vive el
+  funcionario*. Cuando ambos números coinciden, el caso de negocio deja de ser una promesa y pasa a
+  ser evidencia con doble fuente. Es el argumento más fuerte que puedes llevar al comité.
 
 ---
 
@@ -85,9 +110,9 @@ Texto libre.
 
 | Momento | Qué se mide | Objetivo |
 |---|---|---|
-| **Pulso 1** — tras Sesión 2 (ahora) | Las 6 preguntas | Línea base + corrección de ritmo |
-| **Pulso 2** — mitad de septiembre | P1, P4, P6 | Verificar que los ajustes funcionaron |
-| **Cierre** — octubre | Las 6 + P5 final | NPS final, delta de confianza, testimonios |
+| **Pulso 1** — reunión 26 (ahora) | Área + las 6 preguntas | Línea base por área + corrección de ritmo |
+| **Pulso 2** — mitad de septiembre | Área + P1, P4, P6 | Verificar que los ajustes funcionaron |
+| **Cierre** — octubre | Área + las 6 | NPS final, delta de confianza, ahorro real, testimonios |
 
 Comparar Pulso 1 → Cierre es lo que convierte el proyecto en caso de éxito publicable.
 
@@ -102,6 +127,7 @@ El NPS se responde con **reacciones de emoji 0️⃣–🔟** sobre el mensaje, 
 - ✅ Se lanza hoy mismo, sin desplegar nada.
 - ✅ Genera conversación visible en el canal (las respuestas en hilo alimentan a todo el grupo).
 - ⚠️ No es anónima: las reacciones y los hilos llevan nombre.
+- ⚠️ Hoy solo existe el canal `#comunicaciones` en Slack, con gente de una sola área. Para cubrir las 21 áreas hay que crear un canal general del programa o replicar el mensaje por área.
 
 Copys listos para pegar: `slack_mensajes.md`.
 
@@ -109,10 +135,14 @@ Copys listos para pegar: `slack_mensajes.md`.
 Encuesta interactiva desplegada en Streamlit, con la identidad IAM™, que guarda respuestas y calcula el NPS en vivo.
 
 - ✅ **Anónima** → respuestas más honestas, sobre todo de detractores.
-- ✅ Panel de resultados con NPS, distribución y delta de confianza.
+- ✅ Panel de resultados con NPS global, **NPS por área**, distribución, delta de confianza y ahorro percibido.
+- ✅ Cubre las 21 áreas con un solo link, sin depender de la estructura de canales de Slack.
 - ✅ Se comparte como un simple link en el canal de Slack.
 - ⚠️ Requiere desplegarla (Streamlit Cloud, 5 min).
 
 Código: `app_nps.py` · Cálculo y reportes: `calcular_nps.py`.
 
-**Recomendación:** empezar con la **Opción A** para el pulso de esta semana (velocidad y participación), y usar la **Opción B** en el cierre de octubre, cuando el anonimato importa más porque el resultado va a informe.
+**Recomendación con 21 áreas involucradas:** la **Opción B** pasa a ser la principal — un solo link
+llega a las 47 personas, es anónimo y ya trae el desglose por área que necesita el reporte a María
+Elvira. La **Opción A** queda como refuerzo dentro de cada canal existente para subir la
+participación ("responde el link, te toma 2 minutos").

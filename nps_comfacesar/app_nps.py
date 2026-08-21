@@ -24,8 +24,24 @@ BLANCO = "#FAFAFA"
 
 RUTA_CSV = os.path.join(os.path.dirname(os.path.abspath(__file__)), "respuestas_nps.csv")
 COLUMNAS = [
-    "timestamp", "nps", "metodologia", "aplicacion",
-    "ritmo", "nivel", "confianza_antes", "confianza_hoy", "necesidad",
+    "timestamp", "area", "nps", "metodologia", "aplicacion",
+    "ritmo", "nivel", "confianza_antes", "confianza_hoy", "ahorro_percibido", "necesidad",
+]
+
+# Las 21 áreas del programa IAM(TM) Intelligence en Comfacesar (47 funcionarios).
+AREAS = [
+    "Comunicaciones", "Mercadeo", "Agencia de Empleo", "Talento Humano", "Planeación",
+    "Contabilidad", "Tesorería", "Gerencia Financiera", "Sub Admin Financiera", "Jurídica",
+    "Cumplimiento", "Sub Operativa", "Tecnología", "Subsidio", "IPS", "Presupuesto",
+    "Vivienda", "Educación", "Servicios Sociales", "Dirección Admin", "Crédito",
+]
+
+AHORRO_OPCIONES = [
+    "Todavía no lo noto",
+    "Menos de 30 min por semana",
+    "Entre 30 min y 2 horas por semana",
+    "Entre 2 y 5 horas por semana",
+    "Más de 5 horas por semana",
 ]
 
 st.set_page_config(page_title="Pulso IAM™ Intelligence · Comfacesar", page_icon="🔴", layout="centered")
@@ -88,7 +104,7 @@ def lectura_nps(valor: int) -> str:
 # ---------------------------------------------------------------- panel admin
 def panel_admin() -> None:
     st.markdown('<p class="iam-kicker">IAM™ INTELLIGENCE · PANEL DE RESULTADOS</p>', unsafe_allow_html=True)
-    st.title("Pulso Comfacesar — Comunicaciones")
+    st.title("Pulso Comfacesar — 21 áreas")
 
     clave_real = st.secrets.get("admin_key", "IAM2026") if hasattr(st, "secrets") else "IAM2026"
     if st.text_input("Clave de acceso", type="password") != clave_real:
@@ -120,10 +136,26 @@ def panel_admin() -> None:
     st.subheader("Distribución de notas NPS")
     st.bar_chart(df["nps"].value_counts().reindex(range(11), fill_value=0))
 
+    st.subheader("NPS por área")
+    filas = []
+    for area, grupo in df.groupby("area"):
+        r_area = calcular_nps(grupo["nps"].tolist())
+        filas.append({
+            "Área": area,
+            "Respuestas": r_area["total"],
+            "NPS": r_area["nps"],
+            "Promotores": r_area["promotores"],
+            "Detractores": r_area["detractores"],
+        })
+    st.dataframe(pd.DataFrame(filas).sort_values("NPS", ascending=False), hide_index=True)
+
     st.subheader("Ritmo y nivel")
     c1, c2 = st.columns(2)
     c1.write(df["ritmo"].value_counts())
     c2.write(df["nivel"].value_counts())
+
+    st.subheader("Ahorro de tiempo percibido")
+    st.write(df["ahorro_percibido"].value_counts())
 
     st.subheader("Qué están aplicando")
     for texto in df["aplicacion"].dropna():
@@ -152,14 +184,21 @@ def encuesta() -> None:
     if paso == 0:
         st.markdown('<p class="iam-kicker">IAM™ INTELLIGENCE · COMFACESAR</p>', unsafe_allow_html=True)
         st.title("Pulso del programa")
-        st.write("Dos sesiones hechas, dos meses por delante. Tomo el pulso **ahora**, "
+        st.write("Llevamos **26 reuniones** con las áreas de Comfacesar. Tomo el pulso **ahora**, "
                  "cuando todavía se puede ajustar — no al final, cuando ya solo sirve para el informe.")
         st.markdown('<div class="iam-quote">"Lo que no se mide, no se puede mejorar. '
                     'Y esto lo estamos midiendo juntos."<br>— Sandra Curvelo</div>', unsafe_allow_html=True)
-        st.caption("6 preguntas · 2 minutos · respuestas anónimas")
+        area = st.selectbox("¿De qué área eres?", AREAS, index=None,
+                            placeholder="Selecciona tu área…")
+        st.caption("6 preguntas · 2 minutos · respuestas anónimas — el área solo se usa para "
+                   "agrupar resultados, no para identificarte.")
         if st.button("Empezar"):
-            st.session_state.paso = 1
-            st.rerun()
+            if area is None:
+                st.warning("Selecciona tu área para continuar.")
+            else:
+                st.session_state.datos["area"] = area
+                st.session_state.paso = 1
+                st.rerun()
         return
 
     if 1 <= paso <= total_pasos:
@@ -189,8 +228,8 @@ def encuesta() -> None:
 
     elif paso == 3:
         st.subheader("Lo que ya estás aplicando")
-        st.write("De lo visto en las sesiones 1 y 2, ¿qué ya aplicaste — o vas a aplicar **esta semana** — "
-                 "en tu trabajo de comunicaciones?")
+        st.write("De lo visto en las sesiones de tu área, ¿qué ya aplicaste — o vas a aplicar "
+                 "**esta semana** — en tu trabajo?")
         texto = st.text_area("Sé concreto/a: esta es la respuesta que más sirve.", height=130)
         if st.button("Siguiente"):
             st.session_state.datos["aplicacion"] = texto.strip()
@@ -210,13 +249,16 @@ def encuesta() -> None:
             st.rerun()
 
     elif paso == 5:
-        st.subheader("Tu confianza usando IA")
+        st.subheader("Tu confianza usando IA — y el tiempo que te ahorra")
         st.write("Aquí medimos el avance real del programa.")
         antes = st.slider("Antes de empezar el programa", 0, 10, 4)
         hoy = st.slider("Hoy", 0, 10, 7)
+        ahorro = st.radio("Con lo aplicado hasta hoy, ¿cuánto tiempo estimas que te ahorras?",
+                          AHORRO_OPCIONES, index=0)
         if st.button("Siguiente"):
             st.session_state.datos["confianza_antes"] = antes
             st.session_state.datos["confianza_hoy"] = hoy
+            st.session_state.datos["ahorro_percibido"] = ahorro
             st.session_state.paso = 6
             st.rerun()
 
@@ -241,7 +283,7 @@ def encuesta() -> None:
                      "Eso es exactamente lo que venimos a construir.")
         st.markdown('<div class="iam-quote">"Los resultados del grupo — y los ajustes que voy a hacer — '
                     'los comparto en el canal el lunes."<br>— Sandra Curvelo</div>', unsafe_allow_html=True)
-        st.caption("IAM™ Intelligence · Comfacesar · agosto–octubre 2026")
+        st.caption("IAM™ Intelligence · Comfacesar · 21 áreas · 47 funcionarios")
 
 
 # ---------------------------------------------------------------- router

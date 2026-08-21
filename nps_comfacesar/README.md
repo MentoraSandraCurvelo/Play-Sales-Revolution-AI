@@ -1,7 +1,10 @@
 # Kit de Encuesta NPS — IAM™ Intelligence · Comfacesar
 
-Kit completo para medir el pulso del programa **IAM™ Intelligence** con el equipo de
-Comunicaciones de Comfacesar y convertir el resultado en decisiones (y en caso de éxito).
+Kit completo para medir el pulso del programa **IAM™ Intelligence** en Comfacesar y convertir el
+resultado en decisiones (y en caso de éxito).
+
+**Alcance del programa:** 21 áreas · 47 funcionarios · **26 reuniones** realizadas (agosto → octubre 2026).
+Contraparte cliente: María Elvira Marulanda.
 
 ## Contenido
 
@@ -9,8 +12,12 @@ Comunicaciones de Comfacesar y convertir el resultado en decisiones (y en caso d
 |---|---|
 | `ENCUESTA_NPS.md` | Diseño de la encuesta: las 6 preguntas, por qué cada una, cómo se lee el NPS y calendario de medición. |
 | `slack_mensajes.md` | Los 4 copys listos para pegar en `#comunicaciones`: lanzamiento, hilo con preguntas, recordatorio y devolución de resultados. |
-| `app_nps.py` | Encuesta web interactiva y **anónima**, con identidad IAM™, más panel de resultados en vivo. |
-| `calcular_nps.py` | Calculadora de NPS desde las reacciones de Slack o desde el CSV de la app. |
+| `app_nps.py` | Encuesta web interactiva y **anónima**, con identidad IAM™, más panel de resultados en vivo con **NPS por área**. |
+| `calcular_nps.py` | Calculadora de NPS desde las reacciones de Slack o desde el CSV, con desglose por área. |
+
+> ⚠️ **Cobertura:** hoy el único canal de Slack con gente de Comfacesar es `#comunicaciones` (5 personas
+> de 47). Para cubrir las 21 áreas: crear un canal general del programa, replicar el mensaje por área,
+> o usar la Opción B (un link para todos).
 
 ## Opción A — Lanzar hoy en Slack (sin desplegar nada)
 
@@ -20,7 +27,11 @@ Comunicaciones de Comfacesar y convertir el resultado en decisiones (y en caso d
 4. Contar las reacciones y calcular:
 
 ```bash
+# desde las reacciones de Slack
 python3 nps_comfacesar/calcular_nps.py --slack "10:2,9:1,8:2,6:1"
+
+# desde el CSV de la app, con desglose por área
+python3 nps_comfacesar/calcular_nps.py --csv nps_comfacesar/respuestas_nps.csv --por-area
 ```
 
 5. Publicar el **Mensaje 4** con los resultados y los ajustes. Este paso no es opcional.
@@ -46,11 +57,15 @@ archivo principal a `nps_comfacesar/app_nps.py` y compartir el link en el canal 
 
 ## Las 6 preguntas, en corto
 
+**0. Área** — obligatoria, en la pantalla de inicio. Agrupa, no identifica. Es lo que permite reportar
+por área en lugar de un promedio que esconde la realidad.
+
 1. **NPS 0–10** — probabilidad de recomendar el programa a otra área de Comfacesar.
 2. **Metodología 1–5** — claridad del formato (vivo + práctica + Slack).
 3. **Aplicación (abierta)** — qué ya aplicaron en su trabajo.
-4. **Ritmo y nivel** — para calibrar las sesiones 3 en adelante.
-5. **Confianza en IA, antes vs. hoy (0–10)** — el delta de impacto del programa.
+4. **Ritmo y nivel** — para calibrar las sesiones que quedan.
+5. **Confianza en IA antes vs. hoy (0–10) + ahorro de tiempo percibido** — el impacto del programa,
+   contrastable con el ahorro medido tarea por tarea en `Dashboard_IAM_Intelligence_Comfacesar.xlsx`.
 6. **Qué necesitan (abierta)** — expectativas no cubiertas.
 
 ## Cómo se lee el resultado
@@ -58,3 +73,6 @@ archivo principal a `nps_comfacesar/app_nps.py` y compartir el link en el canal 
 `NPS = %Promotores (9–10) − %Detractores (0–6)` · rango −100 a +100.
 
 `> 50` excelente · `20–50` bueno · `0–20` a mejorar · `< 0` alerta.
+
+Y siempre en dos niveles: **NPS global** para el comité, **NPS por área** para gestionar. Un área en
+rojo dentro de un global verde es exactamente el problema que esta encuesta existe para detectar.
