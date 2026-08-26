@@ -29,6 +29,13 @@ Lucía alimenta a Elia: cada acta publicada es una sesión verificable, y el con
 sesiones por área es exactamente lo que Elia usa para el avance y para decidir qué áreas
 entran al pulso NPS.
 
+## Quién publica qué
+
+Las dos escriben en los mismos canales de Slack con la misma identidad, así que el
+reparto está escrito y obliga a ambas: **`CONTRATO-SLACK.md`**. En corto — Lucía habla
+de lo que ya pasó (el acta, después de cada sesión); Elia habla de lo que falta
+(áreas en silencio, pulso NPS). Nunca del mismo tema el mismo día.
+
 ## Alcance del programa
 
 21 áreas · 47 funcionarios · agosto → octubre 2026 · un canal de Slack por área.
