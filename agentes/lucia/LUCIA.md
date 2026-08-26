@@ -81,6 +81,10 @@ Dos trampas reales, ambas vistas en Contabilidad S2:
   con el nombre de la dueña de la cuenta. Cuando el nombre de la asistencia no cruza
   con el listado pero el contenido de la transcripción sí corresponde al área, se
   confirma con Sandra antes de dar por ausente a nadie.
+- **Estar en la sesión no es haber hecho el ejercicio.** En Contabilidad S2 los dos
+  ejercicios los operó Carlos; Lisbeth acompañó presencialmente sin tocar las
+  herramientas. El acta distingue entre quien asistió y quien trabajó: la transcripción
+  no basta para decidirlo y se confirma con Sandra antes de atribuir nada.
 - **Los oyentes inflan la asistencia.** El informe decía 7 participantes; del proyecto
   eran 2. El porcentaje de asistencia se calcula siempre sobre el listado del área,
   nunca sobre el total de conectados.
@@ -121,18 +125,24 @@ python3 agentes/lucia/generar_acta.py agentes/lucia/sesiones/subsidio-s1-2026-08
 | Barras de oportunidad | `#1A1A1A` |
 | Tipografía | Cambria (Caladea como equivalente libre, métricas idénticas) |
 
-## 4 · Publicación en Slack
+## 4 · Publicación en Slack — todo en versión gratuita
 
 Un canal por área. El mapa completo con IDs está en `nps_comfacesar/canales_slack.md`
 (rama de Elia). Lucía publica en el canal del área de la sesión:
 
-1. **Mensaje** con el resumen ejecutivo: asistencia, alertas críticas, tareas y plazos.
-2. **Canvas** con el acta completa, legible dentro de Slack sin descargar nada.
-3. **Enlace de la grabación** de Teams, tal cual viene.
-4. **Enlaces** al PDF y al `.docx` en Dropbox.
+1. **Un solo mensaje** con el acta esencial: datos de la sesión, asistencia, alertas
+   críticas, ejercicios cubiertos, tareas con responsable y plazo, y próxima sesión.
+2. **El enlace de la grabación** de Teams, tal cual viene.
 
-> La conexión de Slack envía mensajes y crea Canvas, pero **no sube archivos**.
-> Por eso el acta va como Canvas + enlaces, no como adjunto.
+Nada más. El mensaje queda en el canal, es buscable y no caduca.
+
+> **Sin Canvas.** Los canvas son de plan pago y el workspace pasa a la versión
+> gratuita el 2 de septiembre de 2026. Todo lo que Lucía publique tiene que funcionar
+> en el plan gratuito: mensajes de texto y enlaces, nada más. Decisión de Sandra del
+> 27 de agosto.
+
+El acta completa con la identidad IAM™ vive en la carpeta de la sesión en Dropbox,
+no en Slack. Si el equipo la necesita, se comparte por enlace de Dropbox.
 
 ## 5 · Archivo
 
@@ -157,7 +167,8 @@ cuáles quedaron pendientes de insumos y qué publicó. Es lo que alimenta el ta
 | No existe evento "la reunión terminó" | Se resuelve con la corrida de las 7:00 p.m. |
 | El reporte de asistencia de Teams no se descarga por API | Sandra lo baja a Dropbox; automatizable con Microsoft Graph si TI aprueba |
 | El recap de IA de Teams no es descargable | Lucía escribe el resumen desde la transcripción — sale mejor y no depende de licencia Copilot |
-| Slack no admite subida de archivos por esta vía | Canvas + enlaces de Dropbox |
+| Slack no admite subida de archivos por esta vía | Mensaje de texto + enlaces |
+| Los canvas de Slack son de plan pago | Todo se publica como mensaje, en versión gratuita |
 | Dropbox solo acepta archivos de texto por esta vía | Lucía sube el HTML; el PDF lo guarda Sandra |
 | Lucía no accede al disco del Mac directamente | Accede vía Dropbox, donde ya vive la estructura del proyecto |
 | Teams etiqueta por cuenta, no por persona | Se cruza contra el listado oficial y se confirma lo dudoso con Sandra |

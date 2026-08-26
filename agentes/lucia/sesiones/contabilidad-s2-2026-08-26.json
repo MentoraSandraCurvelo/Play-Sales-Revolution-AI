@@ -60,12 +60,12 @@
     {
       "valor": "2",
       "etiqueta": "Ejercicios",
-      "detalle": "Proyecto Claude · Conciliación real"
+      "detalle": "Los dos, trabajados por Carlos"
     },
     {
       "valor": "10",
       "etiqueta": "Tareas asignadas",
-      "detalle": "Para Sesión 3"
+      "detalle": "Para las individuales"
     },
     {
       "valor": "2",
@@ -109,7 +109,7 @@
       "titulo": "Registro manual de la relación de saldos",
       "nivel": "CRITICO",
       "descripcion": "La información del reporte se transcribe a mano al sistema, código por código. Es el origen de las diferencias que después hay que cazar mes a mes. Automatizar sobre un registro manual solo multiplica el error.",
-      "responsable": "Lisbeth + Sandra / S3"
+      "responsable": "Carlos + Sandra / S3"
     },
     {
       "titulo": "Audio y equipos — media sesión perdida",
@@ -121,13 +121,13 @@
       "titulo": "Partidas sin conciliar que arrastran de meses anteriores",
       "nivel": "ALTO",
       "descripcion": "El reporte de julio trae partidas de junio que nunca se conciliaron. Sin un corte limpio, cada mes hereda el desorden del anterior y la conciliación nunca cierra.",
-      "responsable": "Lisbeth / S3"
+      "responsable": "Carlos / S3"
     },
     {
-      "titulo": "Lisbeth sin acceso propio a Teams",
+      "titulo": "El ejercicio quedó en una sola persona",
       "nivel": "ALTO",
-      "descripcion": "Participó conectada desde el equipo y la cuenta de otra funcionaria. Sin su propio acceso no puede trabajar sus ejercicios ni queda registrada en la asistencia del programa.",
-      "responsable": "Lisbeth + TI / Esta semana"
+      "descripcion": "Los dos ejercicios los trabajó Carlos. Lisbeth acompañó la sesión de forma presencial, pero no operó las herramientas. Si el conocimiento se queda en una sola cabeza, el área no avanza cuando esa persona falta.",
+      "responsable": "Lisbeth / Individual del 1 de septiembre"
     },
     {
       "titulo": "Proyecto de Claude sin los archivos del área",
@@ -154,7 +154,7 @@
       "nivel": "CRITICO",
       "titulo": "Digitalizar el registro antes de automatizar la conciliación",
       "descripcion": "La relación de saldos se alimenta a mano. Antes de montar IA encima hay que mapear de dónde sale cada dato y qué se puede extraer directo del sistema. Un proceso manual automatizado sigue siendo manual, solo que más rápido en equivocarse.",
-      "responsable": "Lisbeth Cuadrado + Sandra",
+      "responsable": "Carlos Lozano + Sandra",
       "plazo": "Sesión 3"
     },
     {
@@ -170,7 +170,7 @@
       "nivel": "ALTO",
       "titulo": "Cerrar las partidas pendientes de junio",
       "descripcion": "Depurar lo que quedó sin conciliar de junio antes de correr julio completo. Con el arrastre limpio, la comparación mes contra mes empieza a dar resultados confiables.",
-      "responsable": "Lisbeth Cuadrado",
+      "responsable": "Carlos Lozano",
       "plazo": "Esta semana"
     },
     {
@@ -178,7 +178,7 @@
       "nivel": "OPORTUNIDAD",
       "titulo": "Conciliación automática de relación de saldos de terceros",
       "descripcion": "Cargando los reportes mensuales a Claude, la IA coteja mes contra mes, marca las partidas que no cruzan y entrega KPIs de alerta con semaforización. Reemplaza el cotejo visual código por código que hoy toma días.",
-      "responsable": "Lisbeth + Carlos + Sandra",
+      "responsable": "Carlos Lozano + Sandra",
       "plazo": "Sesión 3"
     }
   ],
@@ -202,7 +202,7 @@
     },
     {
       "titulo": "Ejercicio B · Conciliación real de relación de saldos de terceros",
-      "duracion": "~50 min · con Lisbeth",
+      "duracion": "~50 min · con Carlos",
       "objetivo": "Trabajar en vivo el caso más pesado del área: cotejar la relación de saldos de terceros de un mes contra el anterior para encontrar las partidas que no cierran, y convertir ese cotejo manual en un reporte con KPIs de alerta.",
       "pasos": [
         "Recorrer el proceso completo: de dónde sale el reporte y cómo se registra hoy",
@@ -238,7 +238,7 @@
       "target": "Sesión 3"
     }
   ],
-  "tareas_intro": "La Sesión 3 se trabaja sobre los reportes reales cargados. Sin los archivos en el proyecto de Claude no se puede avanzar al tablero.",
+  "tareas_intro": "Las sesiones individuales se trabajan sobre datos reales de cada quien. Sin los archivos en el proyecto de Claude no se puede avanzar al tablero.",
   "tareas": [
     {
       "tarea": "Conseguir diadema con micrófono o sala con equipo adecuado para la sesión",
@@ -247,20 +247,20 @@
       "plazo": "Antes de S3"
     },
     {
-      "tarea": "Habilitar el acceso propio de Lisbeth a Teams y Slack con su correo institucional",
-      "responsable": "Lisbeth + TI",
+      "tarea": "Preparar el caso de agendamiento y alertas de reporte a entidades estatales para la individual de Lisbeth",
+      "responsable": "Lisbeth Cuadrado",
       "prioridad": "URGENTE",
-      "plazo": "Esta semana"
+      "plazo": "Antes del 1 sept"
     },
     {
       "tarea": "Subir al proyecto de Claude los reportes de relación de saldos de junio y julio",
-      "responsable": "Lisbeth Cuadrado",
+      "responsable": "Carlos Lozano",
       "prioridad": "URGENTE",
       "plazo": "Esta semana"
     },
     {
       "tarea": "Depurar y cerrar las partidas de junio que quedaron sin conciliar",
-      "responsable": "Lisbeth Cuadrado",
+      "responsable": "Carlos Lozano",
       "prioridad": "ALTA",
       "plazo": "Esta semana"
     },
@@ -272,56 +272,56 @@
     },
     {
       "tarea": "Documentar el proceso de registro paso a paso y subirlo al proyecto de Claude",
-      "responsable": "Lisbeth + Carlos",
+      "responsable": "Carlos Lozano",
       "prioridad": "ALTA",
       "plazo": "Esta semana"
     },
     {
       "tarea": "Validar el reporte de conciliación de la IA contra la conciliación hecha a mano",
-      "responsable": "Lisbeth Cuadrado",
+      "responsable": "Carlos Lozano",
       "prioridad": "ALTA",
       "plazo": "Para S3"
     },
     {
       "tarea": "Proponer los KPIs del área que deben entrar al tablero, con sus umbrales de alerta",
-      "responsable": "Carlos + Lisbeth",
+      "responsable": "Carlos Lozano",
       "prioridad": "MEDIA",
       "plazo": "Para S3"
     },
     {
       "tarea": "Traer a Sesión 3 el reporte del mes en curso, sin conciliar, para trabajarlo en vivo",
-      "responsable": "Lisbeth Cuadrado",
+      "responsable": "Carlos Lozano",
       "prioridad": "ALTA",
       "plazo": "Para S3"
     },
     {
       "tarea": "Ver la grabación de la Sesión 2 publicada en el canal Slack de Contabilidad",
-      "responsable": "Carlos + Lisbeth",
+      "responsable": "Carlos Lozano",
       "prioridad": "MEDIA",
       "plazo": "Esta semana"
     }
   ],
   "observaciones": [
-    "La Sesión 2 se trabajó íntegramente sobre casos reales del área, sin ejemplos genéricos: el proyecto de Claude de Carlos y la conciliación de relación de saldos de Lisbeth.",
+    "La Sesión 2 se trabajó íntegramente sobre casos reales del área, sin ejemplos genéricos: el proyecto de Claude y la conciliación de relación de saldos.",
+    "Los dos ejercicios los operó Carlos Lozano. Lisbeth Cuadrado acompañó la sesión de forma presencial desde la misma oficina, sin conectarse con su propia cuenta — por eso no figura en el informe de asistencia de Teams.",
     "El equipo ya venía usando Claude antes del programa y sigue el material que Sandra publica en el canal de Slack. Es de las áreas con mejor punto de partida.",
     "El hallazgo central de la sesión es de proceso, no de herramienta: la relación de saldos se alimenta manualmente. Mientras eso siga así, cualquier automatización hereda el error de origen.",
     "Se trabajó con datos reales de legalización de anticipos y viáticos de junio y julio, incluyendo el cruce del auxiliar 1330 y los códigos 501.",
-    "Los problemas de audio marcaron toda la sesión: micrófono lejano, caída de la reunión y necesidad de pasar a llamada telefónica. Se resolvió conectando a Lisbeth desde el equipo de una compañera.",
-    "Por esa conexión prestada, el informe de asistencia de Teams registra a Lisbeth con el nombre de otra funcionaria. La asistencia real del área fue completa: los dos funcionarios del programa.",
+    "Los problemas de audio marcaron toda la sesión: micrófono lejano, caída de la reunión y necesidad de pasar a llamada telefónica.",
     "El informe de Teams reporta 2 h 32 min de reunión porque la sala quedó abierta después de terminar. El trabajo efectivo fue de 1 hora 23 minutos.",
-    "Quedaron agendadas sesiones individuales con Carlos y con Lisbeth para trabajar cada caso por separado."
+    "Las dos sesiones individuales quedaron agendadas: Lisbeth el martes 1 de septiembre a las 2:00 p.m. y Carlos el miércoles 2 de septiembre a las 2:00 p.m."
   ],
   "proxima_sesion": {
-    "sesion": "Sesión 3 — Conciliación asistida y construcción del tablero",
+    "sesion": "Sesiones individuales — Contabilidad S3",
     "condiciones": [
-      "Reportes de junio y julio cargados al proyecto de Claude",
-      "Partidas de junio depuradas",
-      "Audio resuelto · Lisbeth con acceso propio",
-      "Reporte del mes en curso listo para trabajar en vivo"
+      "Martes 1 sept · 2:00 p.m. — Lisbeth Cuadrado",
+      "Tema: agendamiento y alertas de reporte a entidades estatales",
+      "Miércoles 2 sept · 2:00 p.m. — Carlos Lozano",
+      "Tema: conciliación asistida y tablero del área"
     ],
     "agendamiento": [
-      "Desde el link de Calendly en el canal Slack de Contabilidad",
-      "Sesiones individuales ya agendadas con Carlos y Lisbeth",
+      "Las dos sesiones ya están agendadas y confirmadas",
+      "Cada quien trabaja su propio caso con datos reales",
       "Sandra disponible en exclusiva para Comfacesar"
     ]
   },

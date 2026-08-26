@@ -8,135 +8,283 @@
   "fecha": "26 de agosto de 2026",
   "fecha_corta": "26 agosto 2026",
   "subtitulo_meta": "26 de agosto de 2026 · 8:29 a.m. · 54 min · Virtual — Microsoft Teams",
-
   "datos_sesion": [
-    ["Área(s)", "Cumplimiento — Comfacesar"],
-    ["Sesión", "N° 1 — Fase de Configuración (Onboarding de herramientas)"],
-    ["Fecha", "26 de agosto de 2026"],
-    ["Hora inicio", "8:29 a.m. — Colombia (sala abierta desde las 8:28 a.m.)"],
-    ["Duración de la sesión", "54 minutos (8:29 a.m. – 9:23 a.m.)"],
-    ["Modalidad", "Virtual — Microsoft Teams"],
-    ["Correos Slack activados", "gestionambiental@comfacesar.com"],
-    ["Grabación", "https://netorg20780382-my.sharepoint.com/:v:/g/personal/sandracurvelo_iamlatam_co/IQBZkg-AWGwZT63mt_U-KPX-AQpl2CHduHvlDsypMcXSSJI?e=snIAR4"],
-    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+    [
+      "Área(s)",
+      "Cumplimiento — Comfacesar"
+    ],
+    [
+      "Sesión",
+      "N° 1 — Fase de Configuración (Onboarding de herramientas)"
+    ],
+    [
+      "Fecha",
+      "26 de agosto de 2026"
+    ],
+    [
+      "Hora inicio",
+      "8:29 a.m. — Colombia (sala abierta desde las 8:28 a.m.)"
+    ],
+    [
+      "Duración de la sesión",
+      "54 minutos (8:29 a.m. – 9:23 a.m.)"
+    ],
+    [
+      "Modalidad",
+      "Virtual — Microsoft Teams"
+    ],
+    [
+      "Correos Slack activados",
+      "gestionambiental@comfacesar.com"
+    ],
+    [
+      "Grabación",
+      "https://netorg20780382-my.sharepoint.com/:v:/g/personal/sandracurvelo_iamlatam_co/IQBZkg-AWGwZT63mt_U-KPX-AQpl2CHduHvlDsypMcXSSJI?e=snIAR4"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo — Mentora IAM™ Intelligence"
+    ]
   ],
-
   "kpis": [
-    {"valor": "1", "etiqueta": "Participantes", "detalle": "Saharay Díaz"},
-    {"valor": "100%", "etiqueta": "Asistencia", "detalle": "El total del área, sin ausencias"},
-    {"valor": "2", "etiqueta": "Ejercicios", "detalle": "Onboarding Slack · Configuración Claude"},
-    {"valor": "9", "etiqueta": "Tareas asignadas", "detalle": "Para Sesión 2"},
-    {"valor": "2", "icono": "punto-critico", "etiqueta": "Alertas Críticas", "detalle": "Atraso de 3 semanas · Cuenta propia"},
-    {"valor": "", "icono": "estrella", "etiqueta": "Oportunidad", "detalle": "Caso del área por definir en S2"}
+    {
+      "valor": "1",
+      "etiqueta": "Participantes",
+      "detalle": "Saharay Díaz"
+    },
+    {
+      "valor": "100%",
+      "etiqueta": "Asistencia",
+      "detalle": "El total del área, sin ausencias"
+    },
+    {
+      "valor": "2",
+      "etiqueta": "Ejercicios",
+      "detalle": "Onboarding Slack · Configuración Claude"
+    },
+    {
+      "valor": "9",
+      "etiqueta": "Tareas asignadas",
+      "detalle": "Para Sesión 2"
+    },
+    {
+      "valor": "2",
+      "icono": "punto-critico",
+      "etiqueta": "Alertas Críticas",
+      "detalle": "Atraso de 3 semanas · Cuenta propia"
+    },
+    {
+      "valor": "",
+      "icono": "estrella",
+      "etiqueta": "Oportunidad",
+      "detalle": "Caso del área por definir en S2"
+    }
   ],
-
   "participantes": [
-    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
-    {"nombre": "Saharay Díaz", "cargo": "Cumplimiento / Gestión Ambiental — Comfacesar", "correo": "gestionambiental@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"}
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "—",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Saharay Díaz",
+      "cargo": "Cumplimiento / Gestión Ambiental — Comfacesar",
+      "correo": "gestionambiental@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Intermedio"
+    }
   ],
-
   "mapa_calor_intro": "Riesgos identificados en la Sesión 1 de Cumplimiento, la última área del programa en arrancar.",
-
   "riesgos": [
-    {"titulo": "Tres semanas de atraso frente al programa", "nivel": "CRITICO",
-     "descripcion": "Cumplimiento arranca su Sesión 1 cuando otras áreas van en la 3 o la 4. La ventana del proyecto cierra en octubre y el calendario no se estira: cada semana perdida se paga al final.",
-     "responsable": "Saharay + Sandra / Inmediato"},
-    {"titulo": "Sin cuenta propia de Claude", "nivel": "CRITICO",
-     "descripcion": "\"Ahí me tocaría tener mi cuenta\", quedó dicho en sesión. Sin cuenta propia activa no hay ejercicios prácticos posibles, y la Sesión 2 es 100% práctica.",
-     "responsable": "Saharay / Esta semana"},
-    {"titulo": "Área de una sola persona — sin respaldo", "nivel": "ALTO",
-     "descripcion": "Cumplimiento tiene un solo funcionario en el programa. Todo el avance del área depende de una sola agenda: si se cae una sesión, el área entera se detiene.",
-     "responsable": "Sandra / Monitorear"},
-    {"titulo": "Dudas de seguridad sobre los conectores", "nivel": "ALTO",
-     "descripcion": "La pregunta textual fue \"¿y eso no es peligroso?\" al conectar Drive y correo. Se resolvió en sesión, pero en un área de cumplimiento la duda vuelve. Conviene dejarla resuelta por escrito.",
-     "responsable": "Sandra / S2"},
-    {"titulo": "Tablero de KPIs sin diligenciar", "nivel": "MEDIO",
-     "descripcion": "Se recorrió la pestaña de Cumplimiento dentro del resumen global, pero el área todavía no ha cargado ningún dato de productividad.",
-     "responsable": "Saharay / Esta semana"},
-    {"titulo": "Caso de uso del área sin definir", "nivel": "MEDIO",
-     "descripcion": "La Sesión 1 fue íntegramente de configuración. Todavía no está identificado el proceso concreto de Cumplimiento sobre el que se va a trabajar con IA desde la Sesión 2.",
-     "responsable": "Saharay / Para S2"},
-    {"titulo": "Uso previo de Claude por iniciativa propia", "nivel": "BAJO",
-     "descripcion": "Viene explorando Claude por cuenta propia desde hace un par de meses, sin que nadie se lo pidiera. Llega con disposición y con expectativas altas.",
-     "responsable": "Monitorear"}
+    {
+      "titulo": "Tres semanas de atraso frente al programa",
+      "nivel": "CRITICO",
+      "descripcion": "Cumplimiento arranca su Sesión 1 cuando otras áreas van en la 3 o la 4. La ventana del proyecto cierra en octubre y el calendario no se estira: cada semana perdida se paga al final.",
+      "responsable": "Saharay + Sandra / Antes del 2 sept"
+    },
+    {
+      "titulo": "Sin cuenta propia de Claude",
+      "nivel": "CRITICO",
+      "descripcion": "\"Ahí me tocaría tener mi cuenta\", quedó dicho en sesión. Sin cuenta propia activa no hay ejercicios prácticos posibles, y la Sesión 2 es 100% práctica.",
+      "responsable": "Saharay / Esta semana"
+    },
+    {
+      "titulo": "Área de una sola persona — sin respaldo",
+      "nivel": "ALTO",
+      "descripcion": "Cumplimiento tiene un solo funcionario en el programa. Todo el avance del área depende de una sola agenda: si se cae una sesión, el área entera se detiene.",
+      "responsable": "Sandra / Monitorear"
+    },
+    {
+      "titulo": "Dudas de seguridad sobre los conectores",
+      "nivel": "ALTO",
+      "descripcion": "La pregunta textual fue \"¿y eso no es peligroso?\" al conectar Drive y correo. Se resolvió en sesión, pero en un área de cumplimiento la duda vuelve. Conviene dejarla resuelta por escrito.",
+      "responsable": "Sandra / S2"
+    },
+    {
+      "titulo": "Tablero de KPIs sin diligenciar",
+      "nivel": "MEDIO",
+      "descripcion": "Se recorrió la pestaña de Cumplimiento dentro del resumen global, pero el área todavía no ha cargado ningún dato de productividad.",
+      "responsable": "Saharay / Esta semana"
+    },
+    {
+      "titulo": "Caso de uso del área sin definir",
+      "nivel": "MEDIO",
+      "descripcion": "La Sesión 1 fue íntegramente de configuración. Todavía no está identificado el proceso concreto de Cumplimiento sobre el que se va a trabajar con IA desde la Sesión 2.",
+      "responsable": "Saharay / Para S2"
+    },
+    {
+      "titulo": "Uso previo de Claude por iniciativa propia",
+      "nivel": "BAJO",
+      "descripcion": "Viene explorando Claude por cuenta propia desde hace un par de meses, sin que nadie se lo pidiera. Llega con disposición y con expectativas altas.",
+      "responsable": "Monitorear"
+    }
   ],
-
   "alertas": [
-    {"num": "01", "nivel": "CRITICO", "titulo": "Recuperar las tres semanas de atraso",
-     "descripcion": "Cumplimiento es la última área en arrancar y el programa cierra en octubre. Agendar la Sesión 2 de inmediato y, si hace falta, dos sesiones en la misma semana para emparejar el ritmo del resto de las áreas.",
-     "responsable": "Saharay Díaz + Sandra", "plazo": "HOY"},
-    {"num": "02", "nivel": "CRITICO", "titulo": "Activar cuenta propia de Claude",
-     "descripcion": "Sin cuenta propia no se puede hacer un solo ejercicio práctico. La Sesión 2 es enteramente de trabajo sobre casos reales y no arranca sin esto resuelto.",
-     "responsable": "Saharay Díaz", "plazo": "Esta semana"},
-    {"num": "03", "nivel": "ALTO", "titulo": "Dejar por escrito el manejo de datos en los conectores",
-     "descripcion": "La preocupación por la seguridad al conectar Drive y correo es legítima y en un área de cumplimiento pesa doble. Documentar qué ve la IA, qué no, y qué información no debe subirse nunca al proyecto.",
-     "responsable": "Sandra + Saharay", "plazo": "Sesión 2"},
-    {"num": "OPP", "nivel": "OPORTUNIDAD", "titulo": "Definir el caso real de Cumplimiento para la Sesión 2",
-     "descripcion": "La Sesión 1 se fue completa en configuración y el área todavía no puso sobre la mesa su proceso más pesado. Traer a la Sesión 2 un caso concreto —con sus archivos reales— es lo que convierte la herramienta en resultado.",
-     "responsable": "Saharay Díaz", "plazo": "Para Sesión 2"}
+    {
+      "num": "01",
+      "nivel": "CRITICO",
+      "titulo": "Recuperar las tres semanas de atraso",
+      "descripcion": "Cumplimiento es la última área en arrancar y el programa cierra en octubre. La Sesión 2 ya quedó agendada para el miércoles 2 de septiembre a las 4:00 p.m. — llegar con la configuración terminada es lo que permite recuperar el ritmo del resto de las áreas.",
+      "responsable": "Saharay Díaz + Sandra",
+      "plazo": "Antes del 2 sept"
+    },
+    {
+      "num": "02",
+      "nivel": "CRITICO",
+      "titulo": "Activar cuenta propia de Claude",
+      "descripcion": "Sin cuenta propia no se puede hacer un solo ejercicio práctico. La Sesión 2 es enteramente de trabajo sobre casos reales y no arranca sin esto resuelto.",
+      "responsable": "Saharay Díaz",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Dejar por escrito el manejo de datos en los conectores",
+      "descripcion": "La preocupación por la seguridad al conectar Drive y correo es legítima y en un área de cumplimiento pesa doble. Documentar qué ve la IA, qué no, y qué información no debe subirse nunca al proyecto.",
+      "responsable": "Sandra + Saharay",
+      "plazo": "Sesión 2"
+    },
+    {
+      "num": "OPP",
+      "nivel": "OPORTUNIDAD",
+      "titulo": "Definir el caso real de Cumplimiento para la Sesión 2",
+      "descripcion": "La Sesión 1 se fue completa en configuración y el área todavía no puso sobre la mesa su proceso más pesado. Traer a la Sesión 2 un caso concreto —con sus archivos reales— es lo que convierte la herramienta en resultado.",
+      "responsable": "Saharay Díaz",
+      "plazo": "Para Sesión 2"
+    }
   ],
-
   "ejercicios": [
-    {"titulo": "Ejercicio A · Onboarding Slack — Canal Cumplimiento", "duracion": "~15 min",
-     "objetivo": "Entrar al canal del área, dejar los accesos listos y ubicar los tres recursos que el equipo va a usar toda la semana: la agenda, el link de agendamiento y el tablero de KPIs.",
-     "pasos": [
-       "Abrir la invitación de Slack que llegó al correo institucional",
-       "Aceptar la invitación y aceptar todas las cookies",
-       "Ingresar el nombre con mayúscula inicial, como se usa en el workspace",
-       "Confirmar el código de verificación que llega al correo",
-       "Ubicar el canal Cumplimiento en la barra lateral izquierda",
-       "Marcar el canal con la estrella para dejarlo fijo arriba",
-       "Crear en el navegador la carpeta de favoritos \"Herramientas de IA\" y guardar Slack ahí",
-       "Abrir el canvas de agenda fijado en el canal",
-       "Ubicar el enlace de agendamiento — sin límite de sesiones dentro del programa",
-       "Abrir el tablero de KPIs y localizar la pestaña Cumplimiento dentro del resumen global",
-       "Revisar la tarea de diligenciamiento del reporte publicada en el canal"
-     ]},
-    {"titulo": "Ejercicio B · Configuración de Claude como sistema de trabajo", "duracion": "~35 min",
-     "objetivo": "Dejar Claude configurado con identidad profesional, instrucción de precisión y un primer proyecto con Método CREA, para que responda sobre Cumplimiento y no en general.",
-     "pasos": [
-       "Entrar a Claude y abrir Configuración → Personalización",
-       "Pegar la instrucción de precisión IAM™ publicada en el canal de Slack",
-       "Completar \"Acerca de ti\": cargo, años en Comfacesar y contexto real del área",
-       "Definir el estilo de respuesta: directo, sin exceso de viñetas, sin rodeos",
-       "Entender la regla de oro del contexto: menos texto pero más preciso funciona mejor",
-       "Revisar la sección de complementos y conectores disponibles",
-       "Resolver las dudas de seguridad antes de conectar nada",
-       "Conectar Google Drive al espacio de trabajo",
-       "Crear un proyecto nuevo con el nombre del área",
-       "Pegar el Método CREA en el contexto del proyecto: CONTEXTO · ROL · ENTREGA · ACCIÓN",
-       "Definir el ROL con la fórmula \"actúa como, eres…\" según el trabajo del área",
-       "Definir la ENTREGA: en qué formato exacto se quiere el resultado",
-       "Entender que todas las conversaciones de un proyecto quedan agrupadas y con memoria",
-       "Verificar que el proyecto funcione igual desde el navegador y desde el escritorio"
-     ]}
+    {
+      "titulo": "Ejercicio A · Onboarding Slack — Canal Cumplimiento",
+      "duracion": "~15 min",
+      "objetivo": "Entrar al canal del área, dejar los accesos listos y ubicar los tres recursos que el equipo va a usar toda la semana: la agenda, el link de agendamiento y el tablero de KPIs.",
+      "pasos": [
+        "Abrir la invitación de Slack que llegó al correo institucional",
+        "Aceptar la invitación y aceptar todas las cookies",
+        "Ingresar el nombre con mayúscula inicial, como se usa en el workspace",
+        "Confirmar el código de verificación que llega al correo",
+        "Ubicar el canal Cumplimiento en la barra lateral izquierda",
+        "Marcar el canal con la estrella para dejarlo fijo arriba",
+        "Crear en el navegador la carpeta de favoritos \"Herramientas de IA\" y guardar Slack ahí",
+        "Abrir el canvas de agenda fijado en el canal",
+        "Ubicar el enlace de agendamiento — sin límite de sesiones dentro del programa",
+        "Abrir el tablero de KPIs y localizar la pestaña Cumplimiento dentro del resumen global",
+        "Revisar la tarea de diligenciamiento del reporte publicada en el canal"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Configuración de Claude como sistema de trabajo",
+      "duracion": "~35 min",
+      "objetivo": "Dejar Claude configurado con identidad profesional, instrucción de precisión y un primer proyecto con Método CREA, para que responda sobre Cumplimiento y no en general.",
+      "pasos": [
+        "Entrar a Claude y abrir Configuración → Personalización",
+        "Pegar la instrucción de precisión IAM™ publicada en el canal de Slack",
+        "Completar \"Acerca de ti\": cargo, años en Comfacesar y contexto real del área",
+        "Definir el estilo de respuesta: directo, sin exceso de viñetas, sin rodeos",
+        "Entender la regla de oro del contexto: menos texto pero más preciso funciona mejor",
+        "Revisar la sección de complementos y conectores disponibles",
+        "Resolver las dudas de seguridad antes de conectar nada",
+        "Conectar Google Drive al espacio de trabajo",
+        "Crear un proyecto nuevo con el nombre del área",
+        "Pegar el Método CREA en el contexto del proyecto: CONTEXTO · ROL · ENTREGA · ACCIÓN",
+        "Definir el ROL con la fórmula \"actúa como, eres…\" según el trabajo del área",
+        "Definir la ENTREGA: en qué formato exacto se quiere el resultado",
+        "Entender que todas las conversaciones de un proyecto quedan agrupadas y con memoria",
+        "Verificar que el proyecto funcione igual desde el navegador y desde el escritorio"
+      ]
+    }
   ],
-
   "oportunidades": [
-    {"encabezado": "PENDIENTE DE DEFINIR EN SESIÓN 1 · 26 agosto 2026",
-     "titulo": "El caso real de Cumplimiento — la tarea de la semana",
-     "descripcion": "La Sesión 1 se dedicó completa a dejar las herramientas montadas, así que el proceso propio del área todavía no está sobre la mesa. Para la Sesión 2 hace falta que Cumplimiento traiga su tarea más pesada o más repetitiva —la que más tiempo consume o la que más expuesta está al error— con los archivos reales que la alimentan. Ese es el insumo que convierte la configuración en resultado medible.",
-     "estado": "Por definir — la Sesión 1 fue de configuración",
-     "proximo_paso": "Saharay identifica el proceso y reúne los archivos que lo alimentan",
-     "target": "Sesión 2"}
+    {
+      "encabezado": "PENDIENTE DE DEFINIR EN SESIÓN 1 · 26 agosto 2026",
+      "titulo": "El caso real de Cumplimiento — la tarea de la semana",
+      "descripcion": "La Sesión 1 se dedicó completa a dejar las herramientas montadas, así que el proceso propio del área todavía no está sobre la mesa. Para la Sesión 2 hace falta que Cumplimiento traiga su tarea más pesada o más repetitiva —la que más tiempo consume o la que más expuesta está al error— con los archivos reales que la alimentan. Ese es el insumo que convierte la configuración en resultado medible.",
+      "estado": "Por definir — la Sesión 1 fue de configuración",
+      "proximo_paso": "Saharay identifica el proceso y reúne los archivos que lo alimentan",
+      "target": "Sesión 2"
+    }
   ],
-
   "tareas_intro": "La Sesión 2 es 100% de ejercicios prácticos sobre un caso real del área. Sin cuenta propia y sin la configuración terminada, no arranca.",
-
   "tareas": [
-    {"tarea": "Agendar la Sesión 2 desde el link del canal — el área lleva tres semanas de atraso", "responsable": "Saharay Díaz", "prioridad": "URGENTE", "plazo": "HOY"},
-    {"tarea": "Activar cuenta propia de Claude para poder trabajar los ejercicios", "responsable": "Saharay Díaz", "prioridad": "URGENTE", "plazo": "Esta semana"},
-    {"tarea": "Terminar la configuración de Claude: instrucción de precisión y \"acerca de ti\" completos", "responsable": "Saharay Díaz", "prioridad": "URGENTE", "plazo": "Esta semana"},
-    {"tarea": "Crear el proyecto del área en Claude con el Método CREA completo", "responsable": "Saharay Díaz", "prioridad": "ALTA", "plazo": "Esta semana"},
-    {"tarea": "Definir el caso real del área para trabajar en Sesión 2 y reunir sus archivos", "responsable": "Saharay Díaz", "prioridad": "URGENTE", "plazo": "Para S2"},
-    {"tarea": "Diligenciar la pestaña de Cumplimiento en el tablero de KPIs del proyecto", "responsable": "Saharay Díaz", "prioridad": "ALTA", "plazo": "Esta semana"},
-    {"tarea": "Ver la grabación de la Sesión 1 para repasar la configuración paso a paso", "responsable": "Saharay Díaz", "prioridad": "ALTA", "plazo": "Esta semana"},
-    {"tarea": "Conectar Google Drive y correo, con el criterio de seguridad acordado", "responsable": "Saharay Díaz", "prioridad": "MEDIA", "plazo": "Esta semana"},
-    {"tarea": "Descargar la app de Claude en el celular y verificar acceso al mismo proyecto", "responsable": "Saharay Díaz", "prioridad": "MEDIA", "plazo": "Esta semana"}
+    {
+      "tarea": "Llegar a la Sesión 2 del 2 de septiembre con la configuración terminada — el área lleva tres semanas de atraso",
+      "responsable": "Saharay Díaz",
+      "prioridad": "URGENTE",
+      "plazo": "Antes del 2 sept"
+    },
+    {
+      "tarea": "Activar cuenta propia de Claude para poder trabajar los ejercicios",
+      "responsable": "Saharay Díaz",
+      "prioridad": "URGENTE",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Terminar la configuración de Claude: instrucción de precisión y \"acerca de ti\" completos",
+      "responsable": "Saharay Díaz",
+      "prioridad": "URGENTE",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Crear el proyecto del área en Claude con el Método CREA completo",
+      "responsable": "Saharay Díaz",
+      "prioridad": "ALTA",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Definir el caso real del área para trabajar en Sesión 2 y reunir sus archivos",
+      "responsable": "Saharay Díaz",
+      "prioridad": "URGENTE",
+      "plazo": "Para S2"
+    },
+    {
+      "tarea": "Diligenciar la pestaña de Cumplimiento en el tablero de KPIs del proyecto",
+      "responsable": "Saharay Díaz",
+      "prioridad": "ALTA",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Ver la grabación de la Sesión 1 para repasar la configuración paso a paso",
+      "responsable": "Saharay Díaz",
+      "prioridad": "ALTA",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Conectar Google Drive y correo, con el criterio de seguridad acordado",
+      "responsable": "Saharay Díaz",
+      "prioridad": "MEDIA",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Descargar la app de Claude en el celular y verificar acceso al mismo proyecto",
+      "responsable": "Saharay Díaz",
+      "prioridad": "MEDIA",
+      "plazo": "Esta semana"
+    }
   ],
-
   "observaciones": [
-    "Cumplimiento es la última área del programa en arrancar: lleva tres semanas de atraso frente al resto y el proyecto cierra en octubre.",
+    "Cumplimiento es la última área del programa en arrancar: lleva tres semanas de atraso frente al resto y el proyecto cierra en octubre. La Sesión 2 ya quedó agendada para el 2 de septiembre.",
     "Saharay ya venía usando Claude por iniciativa propia desde hace un par de meses, sin que el programa se lo pidiera. No parte de cero.",
     "Sus expectativas con el programa quedaron declaradas en sesión como \"altísimas\" y valoró la metodología por ser distinta a lo que había visto.",
     "El área es de una sola persona, así que no hay con quién repartir las tareas: el ritmo del área es el ritmo de una agenda.",
@@ -145,7 +293,6 @@
     "Se acordó la puntualidad como norma de las sesiones: el tiempo de sesión es fijo y lo que se pierde al inicio no se recupera.",
     "El informe de Teams registra tres participantes porque Saharay se conectó desde dos dispositivos. La asistencia real del área fue completa."
   ],
-
   "proxima_sesion": {
     "sesion": "Sesión 2 — Ejercicios Prácticos con el Caso Real del Área",
     "condiciones": [
@@ -155,11 +302,10 @@
       "Caso real identificado y archivos reunidos"
     ],
     "agendamiento": [
-      "Desde el link fijado en el canal Slack de Cumplimiento",
-      "Agendar HOY — el área lleva tres semanas de atraso",
-      "Sin límite de sesiones dentro del programa"
+      "Miércoles 2 de septiembre · 4:00 p.m. — ya agendada",
+      "Sin límite de sesiones dentro del programa",
+      "Sandra disponible en exclusiva para Comfacesar"
     ]
   },
-
   "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 26 agosto 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
 }
