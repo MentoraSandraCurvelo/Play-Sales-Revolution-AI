@@ -53,6 +53,11 @@ def e(valor):
     return html.escape(str(valor if valor is not None else ""))
 
 
+def enlace(url, texto):
+    """Enlace clicable — así la grabación se abre desde el acta."""
+    return f'<a href="{e(url)}" style="color:{ROJO};">{e(texto)}</a>'
+
+
 def punto(color):
     """Círculo de color (reemplaza los emoji del acta original: se imprime igual
     en cualquier sistema, sin depender de fuentes de emoji)."""
@@ -272,9 +277,16 @@ def tabla_datos(d):
     filas = d.get("datos_sesion") or []
     if not filas:
         return ""
+    def celda(valor):
+        """Un valor que sea una URL se imprime como enlace, no como texto crudo."""
+        v = str(valor)
+        if v.startswith("http"):
+            return enlace(v, "Ver grabación de la sesión")
+        return e(v)
+
     cuerpo = "".join(
         f'<tr class="{"par" if i % 2 == 0 else ""}">'
-        f'<td class="clave">{e(f[0])}</td><td>{e(f[1])}</td></tr>'
+        f'<td class="clave">{e(f[0])}</td><td>{celda(f[1])}</td></tr>'
         for i, f in enumerate(filas)
     )
     return f'<table class="datos">{cuerpo}</table>'

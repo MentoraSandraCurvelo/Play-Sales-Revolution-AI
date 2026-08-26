@@ -8,138 +8,299 @@
   "fecha": "26 de agosto de 2026",
   "fecha_corta": "26 agosto 2026",
   "subtitulo_meta": "26 de agosto de 2026 · 10:01 a.m. · 1 h 23 min · Híbrida — Microsoft Teams",
-
   "datos_sesion": [
-    ["Área(s)", "Contabilidad — Comfacesar"],
-    ["Sesión", "N° 2 — Ejercicios prácticos con casos reales del área"],
-    ["Fecha", "26 de agosto de 2026"],
-    ["Hora inicio", "10:01 a.m. — Colombia (sala abierta desde las 9:58 a.m.)"],
-    ["Duración de la sesión", "1 hora 23 minutos (10:01 a.m. – 11:24 a.m.)"],
-    ["Modalidad", "Híbrida — Sandra virtual (Teams), equipo presencial desde la oficina de Contabilidad"],
-    ["Correos Slack activados", "asistentecontabilidad@comfacesar.com · contabilidad@comfacesar.com"],
-    ["Grabación", "Sí — enlace publicado en el canal Slack #contabilidad"],
-    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+    [
+      "Área(s)",
+      "Contabilidad — Comfacesar"
+    ],
+    [
+      "Sesión",
+      "N° 2 — Ejercicios prácticos con casos reales del área"
+    ],
+    [
+      "Fecha",
+      "26 de agosto de 2026"
+    ],
+    [
+      "Hora inicio",
+      "10:01 a.m. — Colombia (sala abierta desde las 9:58 a.m.)"
+    ],
+    [
+      "Duración de la sesión",
+      "1 hora 23 minutos (10:01 a.m. – 11:24 a.m.)"
+    ],
+    [
+      "Modalidad",
+      "Híbrida — Sandra virtual (Teams), equipo presencial desde la oficina de Contabilidad"
+    ],
+    [
+      "Correos Slack activados",
+      "asistentecontabilidad@comfacesar.com · contabilidad@comfacesar.com"
+    ],
+    [
+      "Grabación",
+      "https://netorg20780382-my.sharepoint.com/:v:/g/personal/sandracurvelo_iamlatam_co/IQBa8INFGfggSKlwhVCcqj2mAYmEhtF7L0rkj6u722EXMH0?e=956eOF"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo — Mentora IAM™ Intelligence"
+    ]
   ],
-
   "kpis": [
-    {"valor": "2", "etiqueta": "Participantes", "detalle": "Carlos Lozano · Lisbeth Cuadrado"},
-    {"valor": "100%", "etiqueta": "Asistencia", "detalle": "Los 2 del área, sin ausencias"},
-    {"valor": "2", "etiqueta": "Ejercicios", "detalle": "Proyecto Claude · Conciliación real"},
-    {"valor": "10", "etiqueta": "Tareas asignadas", "detalle": "Para Sesión 3"},
-    {"valor": "2", "icono": "punto-critico", "etiqueta": "Alertas Críticas", "detalle": "Registro manual · Audio"},
-    {"valor": "", "icono": "estrella", "etiqueta": "Oportunidad", "detalle": "Conciliación automática de terceros"}
+    {
+      "valor": "2",
+      "etiqueta": "Participantes",
+      "detalle": "Carlos Lozano · Lisbeth Cuadrado"
+    },
+    {
+      "valor": "100%",
+      "etiqueta": "Asistencia",
+      "detalle": "Los 2 del área, sin ausencias"
+    },
+    {
+      "valor": "2",
+      "etiqueta": "Ejercicios",
+      "detalle": "Proyecto Claude · Conciliación real"
+    },
+    {
+      "valor": "10",
+      "etiqueta": "Tareas asignadas",
+      "detalle": "Para Sesión 3"
+    },
+    {
+      "valor": "2",
+      "icono": "punto-critico",
+      "etiqueta": "Alertas Críticas",
+      "detalle": "Registro manual · Audio"
+    },
+    {
+      "valor": "",
+      "icono": "estrella",
+      "etiqueta": "Oportunidad",
+      "detalle": "Conciliación automática de terceros"
+    }
   ],
-
   "participantes": [
-    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
-    {"nombre": "Carlos Daniel Lozano Sanjuán", "cargo": "Asistente de Contabilidad — Comfacesar", "correo": "asistentecontabilidad@comfacesar.com", "modalidad": "Presencial", "nivel": "Intermedio"},
-    {"nombre": "Lisbeth Cuadrado Rodríguez", "cargo": "Contabilidad — Comfacesar", "correo": "contabilidad@comfacesar.com", "modalidad": "Presencial", "nivel": "Intermedio"}
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "—",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Carlos Daniel Lozano Sanjuán",
+      "cargo": "Asistente de Contabilidad — Comfacesar",
+      "correo": "asistentecontabilidad@comfacesar.com",
+      "modalidad": "Presencial",
+      "nivel": "Intermedio"
+    },
+    {
+      "nombre": "Lisbeth Cuadrado Rodríguez",
+      "cargo": "Contabilidad — Comfacesar",
+      "correo": "contabilidad@comfacesar.com",
+      "modalidad": "Presencial",
+      "nivel": "Intermedio"
+    }
   ],
-
   "mapa_calor_intro": "Riesgos identificados en la Sesión 2 a partir del caso real trabajado en vivo con el equipo de Contabilidad.",
-
   "riesgos": [
-    {"titulo": "Registro manual de la relación de saldos", "nivel": "CRITICO",
-     "descripcion": "La información del reporte se transcribe a mano al sistema, código por código. Es el origen de las diferencias que después hay que cazar mes a mes. Automatizar sobre un registro manual solo multiplica el error.",
-     "responsable": "Lisbeth + Sandra / S3"},
-    {"titulo": "Audio y equipos — media sesión perdida", "nivel": "CRITICO",
-     "descripcion": "Cerca de 30 minutos se fueron en problemas de sonido: micrófono lejano, sesión caída, hubo que pasar a llamada telefónica y conectarse desde el equipo de otra persona. Rinde la mitad.",
-     "responsable": "Comfacesar TI / Antes S3"},
-    {"titulo": "Partidas sin conciliar que arrastran de meses anteriores", "nivel": "ALTO",
-     "descripcion": "El reporte de julio trae partidas de junio que nunca se conciliaron. Sin un corte limpio, cada mes hereda el desorden del anterior y la conciliación nunca cierra.",
-     "responsable": "Lisbeth / S3"},
-    {"titulo": "Lisbeth sin acceso propio a Teams", "nivel": "ALTO",
-     "descripcion": "Participó conectada desde el equipo y la cuenta de otra funcionaria. Sin su propio acceso no puede trabajar sus ejercicios ni queda registrada en la asistencia del programa.",
-     "responsable": "Lisbeth + TI / Esta semana"},
-    {"titulo": "Proyecto de Claude sin los archivos del área", "nivel": "MEDIO",
-     "descripcion": "Carlos creó el proyecto en sesión con rol y contexto, pero quedó vacío. Sin los reportes reales cargados, la IA responde en general y no sobre Contabilidad.",
-     "responsable": "Carlos / Esta semana"},
-    {"titulo": "Los KPIs del tablero aún sin definir", "nivel": "MEDIO",
-     "descripcion": "Se acordó armar un tablero del área con semaforización, pero todavía no está definido qué indicadores entran ni con qué umbrales se pinta cada color.",
-     "responsable": "Equipo + Sandra / S3"},
-    {"titulo": "Uso previo de Claude — curva de adopción corta", "nivel": "BAJO",
-     "descripcion": "El equipo ya venía trabajando con Claude antes de la sesión y sigue el material que Sandra publica en Slack. No parte de cero y eso acelera todo lo que sigue.",
-     "responsable": "Monitorear"}
+    {
+      "titulo": "Registro manual de la relación de saldos",
+      "nivel": "CRITICO",
+      "descripcion": "La información del reporte se transcribe a mano al sistema, código por código. Es el origen de las diferencias que después hay que cazar mes a mes. Automatizar sobre un registro manual solo multiplica el error.",
+      "responsable": "Lisbeth + Sandra / S3"
+    },
+    {
+      "titulo": "Audio y equipos — media sesión perdida",
+      "nivel": "CRITICO",
+      "descripcion": "Cerca de 30 minutos se fueron en problemas de sonido: micrófono lejano, sesión caída, hubo que pasar a llamada telefónica y conectarse desde el equipo de otra persona. Rinde la mitad.",
+      "responsable": "Comfacesar TI / Antes S3"
+    },
+    {
+      "titulo": "Partidas sin conciliar que arrastran de meses anteriores",
+      "nivel": "ALTO",
+      "descripcion": "El reporte de julio trae partidas de junio que nunca se conciliaron. Sin un corte limpio, cada mes hereda el desorden del anterior y la conciliación nunca cierra.",
+      "responsable": "Lisbeth / S3"
+    },
+    {
+      "titulo": "Lisbeth sin acceso propio a Teams",
+      "nivel": "ALTO",
+      "descripcion": "Participó conectada desde el equipo y la cuenta de otra funcionaria. Sin su propio acceso no puede trabajar sus ejercicios ni queda registrada en la asistencia del programa.",
+      "responsable": "Lisbeth + TI / Esta semana"
+    },
+    {
+      "titulo": "Proyecto de Claude sin los archivos del área",
+      "nivel": "MEDIO",
+      "descripcion": "Carlos creó el proyecto en sesión con rol y contexto, pero quedó vacío. Sin los reportes reales cargados, la IA responde en general y no sobre Contabilidad.",
+      "responsable": "Carlos / Esta semana"
+    },
+    {
+      "titulo": "Los KPIs del tablero aún sin definir",
+      "nivel": "MEDIO",
+      "descripcion": "Se acordó armar un tablero del área con semaforización, pero todavía no está definido qué indicadores entran ni con qué umbrales se pinta cada color.",
+      "responsable": "Equipo + Sandra / S3"
+    },
+    {
+      "titulo": "Uso previo de Claude — curva de adopción corta",
+      "nivel": "BAJO",
+      "descripcion": "El equipo ya venía trabajando con Claude antes de la sesión y sigue el material que Sandra publica en Slack. No parte de cero y eso acelera todo lo que sigue.",
+      "responsable": "Monitorear"
+    }
   ],
-
   "alertas": [
-    {"num": "01", "nivel": "CRITICO", "titulo": "Digitalizar el registro antes de automatizar la conciliación",
-     "descripcion": "La relación de saldos se alimenta a mano. Antes de montar IA encima hay que mapear de dónde sale cada dato y qué se puede extraer directo del sistema. Un proceso manual automatizado sigue siendo manual, solo que más rápido en equivocarse.",
-     "responsable": "Lisbeth Cuadrado + Sandra", "plazo": "Sesión 3"},
-    {"num": "02", "nivel": "CRITICO", "titulo": "Resolver el audio antes de la próxima sesión",
-     "descripcion": "Conseguir diadema con micrófono o una sala con equipo adecuado. La Sesión 3 es de trabajo fino sobre datos reales y no resiste otra media sesión perdida en '¿me escuchas?'.",
-     "responsable": "Comfacesar — TI", "plazo": "Antes de S3"},
-    {"num": "03", "nivel": "ALTO", "titulo": "Cerrar las partidas pendientes de junio",
-     "descripcion": "Depurar lo que quedó sin conciliar de junio antes de correr julio completo. Con el arrastre limpio, la comparación mes contra mes empieza a dar resultados confiables.",
-     "responsable": "Lisbeth Cuadrado", "plazo": "Esta semana"},
-    {"num": "OPP", "nivel": "OPORTUNIDAD", "titulo": "Conciliación automática de relación de saldos de terceros",
-     "descripcion": "Cargando los reportes mensuales a Claude, la IA coteja mes contra mes, marca las partidas que no cruzan y entrega KPIs de alerta con semaforización. Reemplaza el cotejo visual código por código que hoy toma días.",
-     "responsable": "Lisbeth + Carlos + Sandra", "plazo": "Sesión 3"}
+    {
+      "num": "01",
+      "nivel": "CRITICO",
+      "titulo": "Digitalizar el registro antes de automatizar la conciliación",
+      "descripcion": "La relación de saldos se alimenta a mano. Antes de montar IA encima hay que mapear de dónde sale cada dato y qué se puede extraer directo del sistema. Un proceso manual automatizado sigue siendo manual, solo que más rápido en equivocarse.",
+      "responsable": "Lisbeth Cuadrado + Sandra",
+      "plazo": "Sesión 3"
+    },
+    {
+      "num": "02",
+      "nivel": "CRITICO",
+      "titulo": "Resolver el audio antes de la próxima sesión",
+      "descripcion": "Conseguir diadema con micrófono o una sala con equipo adecuado. La Sesión 3 es de trabajo fino sobre datos reales y no resiste otra media sesión perdida en '¿me escuchas?'.",
+      "responsable": "Comfacesar — TI",
+      "plazo": "Antes de S3"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Cerrar las partidas pendientes de junio",
+      "descripcion": "Depurar lo que quedó sin conciliar de junio antes de correr julio completo. Con el arrastre limpio, la comparación mes contra mes empieza a dar resultados confiables.",
+      "responsable": "Lisbeth Cuadrado",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "OPP",
+      "nivel": "OPORTUNIDAD",
+      "titulo": "Conciliación automática de relación de saldos de terceros",
+      "descripcion": "Cargando los reportes mensuales a Claude, la IA coteja mes contra mes, marca las partidas que no cruzan y entrega KPIs de alerta con semaforización. Reemplaza el cotejo visual código por código que hoy toma días.",
+      "responsable": "Lisbeth + Carlos + Sandra",
+      "plazo": "Sesión 3"
+    }
   ],
-
   "ejercicios": [
-    {"titulo": "Ejercicio A · Proyecto de Claude para Contabilidad", "duracion": "~25 min · con Carlos",
-     "objetivo": "Crear el proyecto de trabajo del área en Claude, con rol, contexto y formato de entrega definidos, sobre un caso propio: conciliaciones internas y optimización de reportes.",
-     "pasos": [
-       "Abrir Claude e ingresar al panel lateral → botón + → Crear proyecto",
-       "Nombrar el proyecto con el caso real del área: Conciliaciones Internas",
-       "Entrar a los tres puntos → Configuración del proyecto → campo de contexto",
-       "Definir el ROL: \"Eres experto en análisis contable y financiero\"",
-       "Escribir el CONTEXTO: qué reporte se trabaja, de dónde sale y para qué sirve",
-       "Explicarle a la IA el proceso como si no supiera nada del área — ese es el contexto real",
-       "Definir la ENTREGA: un archivo Excel, con el análisis en una pestaña nueva",
-       "Guardar la configuración del proyecto",
-       "Hacer una consulta de prueba con datos reales del mes",
-       "Identificar los otros dos usos del área: agendamientos con recordatorios y optimización de reportes"
-     ]},
-    {"titulo": "Ejercicio B · Conciliación real de relación de saldos de terceros", "duracion": "~50 min · con Lisbeth",
-     "objetivo": "Trabajar en vivo el caso más pesado del área: cotejar la relación de saldos de terceros de un mes contra el anterior para encontrar las partidas que no cierran, y convertir ese cotejo manual en un reporte con KPIs de alerta.",
-     "pasos": [
-       "Recorrer el proceso completo: de dónde sale el reporte y cómo se registra hoy",
-       "Identificar los campos que se llenan a mano: código de referencia, número de documento, valor y destino",
-       "Descargar del sistema el reporte de relación de saldos del mes de julio",
-       "Descargar también el reporte de junio, para tener contra qué comparar",
-       "Depurar el auxiliar 1330 y aislar los códigos 501 que son objeto de conciliación",
-       "Revisar los casos reales de legalización de anticipos y viáticos del mes",
-       "Subir los dos reportes al proyecto de Claude",
-       "Pedirle el reporte de conciliación: qué partidas cruzan y cuáles no",
-       "Pedir que marque en color las diferencias, igual que se hace hoy a mano en amarillo",
-       "Solicitar KPIs de alerta con semaforización sobre el resultado",
-       "Comparar el resultado de la IA con la conciliación hecha a mano, para validar",
-       "Acordar el siguiente paso: llevar esos KPIs a un tablero del área"
-     ]}
+    {
+      "titulo": "Ejercicio A · Proyecto de Claude para Contabilidad",
+      "duracion": "~25 min · con Carlos",
+      "objetivo": "Crear el proyecto de trabajo del área en Claude, con rol, contexto y formato de entrega definidos, sobre un caso propio: conciliaciones internas y optimización de reportes.",
+      "pasos": [
+        "Abrir Claude e ingresar al panel lateral → botón + → Crear proyecto",
+        "Nombrar el proyecto con el caso real del área: Conciliaciones Internas",
+        "Entrar a los tres puntos → Configuración del proyecto → campo de contexto",
+        "Definir el ROL: \"Eres experto en análisis contable y financiero\"",
+        "Escribir el CONTEXTO: qué reporte se trabaja, de dónde sale y para qué sirve",
+        "Explicarle a la IA el proceso como si no supiera nada del área — ese es el contexto real",
+        "Definir la ENTREGA: un archivo Excel, con el análisis en una pestaña nueva",
+        "Guardar la configuración del proyecto",
+        "Hacer una consulta de prueba con datos reales del mes",
+        "Identificar los otros dos usos del área: agendamientos con recordatorios y optimización de reportes"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Conciliación real de relación de saldos de terceros",
+      "duracion": "~50 min · con Lisbeth",
+      "objetivo": "Trabajar en vivo el caso más pesado del área: cotejar la relación de saldos de terceros de un mes contra el anterior para encontrar las partidas que no cierran, y convertir ese cotejo manual en un reporte con KPIs de alerta.",
+      "pasos": [
+        "Recorrer el proceso completo: de dónde sale el reporte y cómo se registra hoy",
+        "Identificar los campos que se llenan a mano: código de referencia, número de documento, valor y destino",
+        "Descargar del sistema el reporte de relación de saldos del mes de julio",
+        "Descargar también el reporte de junio, para tener contra qué comparar",
+        "Depurar el auxiliar 1330 y aislar los códigos 501 que son objeto de conciliación",
+        "Revisar los casos reales de legalización de anticipos y viáticos del mes",
+        "Subir los dos reportes al proyecto de Claude",
+        "Pedirle el reporte de conciliación: qué partidas cruzan y cuáles no",
+        "Pedir que marque en color las diferencias, igual que se hace hoy a mano en amarillo",
+        "Solicitar KPIs de alerta con semaforización sobre el resultado",
+        "Comparar el resultado de la IA con la conciliación hecha a mano, para validar",
+        "Acordar el siguiente paso: llevar esos KPIs a un tablero del área"
+      ]
+    }
   ],
-
   "oportunidades": [
-    {"encabezado": "OPORTUNIDAD IDENTIFICADA EN SESIÓN 2 · 26 agosto 2026",
-     "titulo": "Conciliación de relación de saldos de terceros — de días a minutos",
-     "descripcion": "Hoy la conciliación se hace comparando visualmente el reporte del mes contra el del mes anterior, código por código, marcando en amarillo lo que no cruza. En sesión se cargaron los reportes de junio y julio a Claude y se le pidió el cotejo completo más KPIs de alerta con semaforización. Es el proceso que más tiempo consume del área y el que más expuesto está al error humano, porque la información se registra a mano.",
-     "estado": "Probado en vivo con datos reales de junio y julio",
-     "proximo_paso": "Cargar los reportes al proyecto de Claude y validar el resultado contra la conciliación manual",
-     "target": "Sesión 3"},
-    {"encabezado": "OPORTUNIDAD IDENTIFICADA EN SESIÓN 2 · 26 agosto 2026",
-     "titulo": "Tablero de Contabilidad con KPIs semaforizados",
-     "descripcion": "Sobre el resultado de la conciliación se acordó construir un tablero del área: partidas conciliadas contra pendientes, valor en riesgo, antigüedad del arrastre y alertas en rojo cuando una partida lleva más de un mes sin cerrar. El mismo esquema de tres niveles que ya opera en el programa: tabla del área, monitoreo del sponsor y portal de gerencia.",
-     "estado": "Acordado en sesión — pendiente definir indicadores y umbrales",
-     "proximo_paso": "El equipo propone los KPIs que le sirven y Sandra los estructura",
-     "target": "Sesión 3"}
+    {
+      "encabezado": "OPORTUNIDAD IDENTIFICADA EN SESIÓN 2 · 26 agosto 2026",
+      "titulo": "Conciliación de relación de saldos de terceros — de días a minutos",
+      "descripcion": "Hoy la conciliación se hace comparando visualmente el reporte del mes contra el del mes anterior, código por código, marcando en amarillo lo que no cruza. En sesión se cargaron los reportes de junio y julio a Claude y se le pidió el cotejo completo más KPIs de alerta con semaforización. Es el proceso que más tiempo consume del área y el que más expuesto está al error humano, porque la información se registra a mano.",
+      "estado": "Probado en vivo con datos reales de junio y julio",
+      "proximo_paso": "Cargar los reportes al proyecto de Claude y validar el resultado contra la conciliación manual",
+      "target": "Sesión 3"
+    },
+    {
+      "encabezado": "OPORTUNIDAD IDENTIFICADA EN SESIÓN 2 · 26 agosto 2026",
+      "titulo": "Tablero de Contabilidad con KPIs semaforizados",
+      "descripcion": "Sobre el resultado de la conciliación se acordó construir un tablero del área: partidas conciliadas contra pendientes, valor en riesgo, antigüedad del arrastre y alertas en rojo cuando una partida lleva más de un mes sin cerrar. El mismo esquema de tres niveles que ya opera en el programa: tabla del área, monitoreo del sponsor y portal de gerencia.",
+      "estado": "Acordado en sesión — pendiente definir indicadores y umbrales",
+      "proximo_paso": "El equipo propone los KPIs que le sirven y Sandra los estructura",
+      "target": "Sesión 3"
+    }
   ],
-
   "tareas_intro": "La Sesión 3 se trabaja sobre los reportes reales cargados. Sin los archivos en el proyecto de Claude no se puede avanzar al tablero.",
-
   "tareas": [
-    {"tarea": "Conseguir diadema con micrófono o sala con equipo adecuado para la sesión", "responsable": "Comfacesar — TI", "prioridad": "URGENTE", "plazo": "Antes de S3"},
-    {"tarea": "Habilitar el acceso propio de Lisbeth a Teams y Slack con su correo institucional", "responsable": "Lisbeth + TI", "prioridad": "URGENTE", "plazo": "Esta semana"},
-    {"tarea": "Subir al proyecto de Claude los reportes de relación de saldos de junio y julio", "responsable": "Lisbeth Cuadrado", "prioridad": "URGENTE", "plazo": "Esta semana"},
-    {"tarea": "Depurar y cerrar las partidas de junio que quedaron sin conciliar", "responsable": "Lisbeth Cuadrado", "prioridad": "ALTA", "plazo": "Esta semana"},
-    {"tarea": "Completar el proyecto \"Conciliaciones Internas\" en Claude con rol, contexto y formato de entrega", "responsable": "Carlos Lozano", "prioridad": "ALTA", "plazo": "Esta semana"},
-    {"tarea": "Documentar el proceso de registro paso a paso y subirlo al proyecto de Claude", "responsable": "Lisbeth + Carlos", "prioridad": "ALTA", "plazo": "Esta semana"},
-    {"tarea": "Validar el reporte de conciliación de la IA contra la conciliación hecha a mano", "responsable": "Lisbeth Cuadrado", "prioridad": "ALTA", "plazo": "Para S3"},
-    {"tarea": "Proponer los KPIs del área que deben entrar al tablero, con sus umbrales de alerta", "responsable": "Carlos + Lisbeth", "prioridad": "MEDIA", "plazo": "Para S3"},
-    {"tarea": "Traer a Sesión 3 el reporte del mes en curso, sin conciliar, para trabajarlo en vivo", "responsable": "Lisbeth Cuadrado", "prioridad": "ALTA", "plazo": "Para S3"},
-    {"tarea": "Ver la grabación de la Sesión 2 publicada en el canal Slack de Contabilidad", "responsable": "Carlos + Lisbeth", "prioridad": "MEDIA", "plazo": "Esta semana"}
+    {
+      "tarea": "Conseguir diadema con micrófono o sala con equipo adecuado para la sesión",
+      "responsable": "Comfacesar — TI",
+      "prioridad": "URGENTE",
+      "plazo": "Antes de S3"
+    },
+    {
+      "tarea": "Habilitar el acceso propio de Lisbeth a Teams y Slack con su correo institucional",
+      "responsable": "Lisbeth + TI",
+      "prioridad": "URGENTE",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Subir al proyecto de Claude los reportes de relación de saldos de junio y julio",
+      "responsable": "Lisbeth Cuadrado",
+      "prioridad": "URGENTE",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Depurar y cerrar las partidas de junio que quedaron sin conciliar",
+      "responsable": "Lisbeth Cuadrado",
+      "prioridad": "ALTA",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Completar el proyecto \"Conciliaciones Internas\" en Claude con rol, contexto y formato de entrega",
+      "responsable": "Carlos Lozano",
+      "prioridad": "ALTA",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Documentar el proceso de registro paso a paso y subirlo al proyecto de Claude",
+      "responsable": "Lisbeth + Carlos",
+      "prioridad": "ALTA",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Validar el reporte de conciliación de la IA contra la conciliación hecha a mano",
+      "responsable": "Lisbeth Cuadrado",
+      "prioridad": "ALTA",
+      "plazo": "Para S3"
+    },
+    {
+      "tarea": "Proponer los KPIs del área que deben entrar al tablero, con sus umbrales de alerta",
+      "responsable": "Carlos + Lisbeth",
+      "prioridad": "MEDIA",
+      "plazo": "Para S3"
+    },
+    {
+      "tarea": "Traer a Sesión 3 el reporte del mes en curso, sin conciliar, para trabajarlo en vivo",
+      "responsable": "Lisbeth Cuadrado",
+      "prioridad": "ALTA",
+      "plazo": "Para S3"
+    },
+    {
+      "tarea": "Ver la grabación de la Sesión 2 publicada en el canal Slack de Contabilidad",
+      "responsable": "Carlos + Lisbeth",
+      "prioridad": "MEDIA",
+      "plazo": "Esta semana"
+    }
   ],
-
   "observaciones": [
     "La Sesión 2 se trabajó íntegramente sobre casos reales del área, sin ejemplos genéricos: el proyecto de Claude de Carlos y la conciliación de relación de saldos de Lisbeth.",
     "El equipo ya venía usando Claude antes del programa y sigue el material que Sandra publica en el canal de Slack. Es de las áreas con mejor punto de partida.",
@@ -150,7 +311,6 @@
     "El informe de Teams reporta 2 h 32 min de reunión porque la sala quedó abierta después de terminar. El trabajo efectivo fue de 1 hora 23 minutos.",
     "Quedaron agendadas sesiones individuales con Carlos y con Lisbeth para trabajar cada caso por separado."
   ],
-
   "proxima_sesion": {
     "sesion": "Sesión 3 — Conciliación asistida y construcción del tablero",
     "condiciones": [
@@ -165,6 +325,6 @@
       "Sandra disponible en exclusiva para Comfacesar"
     ]
   },
-
-  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 26 agosto 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 26 agosto 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo",
+  "grabacion_url": "https://netorg20780382-my.sharepoint.com/:v:/g/personal/sandracurvelo_iamlatam_co/IQBa8INFGfggSKlwhVCcqj2mAYmEhtF7L0rkj6u722EXMH0?e=956eOF"
 }
