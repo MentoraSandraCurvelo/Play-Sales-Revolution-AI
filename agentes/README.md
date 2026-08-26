@@ -47,3 +47,11 @@ agentes/
 ```
 
 Elia vive en la rama `claude/nps-survey-slack-comfacesar-h5ekyh`, carpeta `nps_comfacesar/`.
+
+## Tablero
+
+`agentes/tablero/sala-agentes-iam.html` — publicado en
+https://claude.ai/code/artifact/a7bbe3e7-4e1f-4c07-997a-e42a834c890c
+
+Muestra el estado de los dos agentes, el circuito de cierre de sesión, la cola de
+sesiones sin acta y las 21 áreas con su canal y su estado.
