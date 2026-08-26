@@ -1,0 +1,196 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SUBSIDIO",
+  "area_completa": "Área de Subsidio Familiar",
+  "sesion_num": 1,
+  "fase": "Fase de Configuración",
+  "fecha": "24 de agosto de 2026",
+  "fecha_corta": "24 agosto 2026",
+  "hora_inicio": "4:24 p.m. (16:24) — Colombia",
+  "duracion": "54 minutos 18 segundos",
+  "modalidad": "Híbrida — Sandra virtual (Teams), equipo presencial con proyección",
+  "modalidad_corta": "Híbrida — Microsoft Teams",
+  "subtitulo_meta": "24 de agosto de 2026 · 4:24 p.m. · 54 min 18 s · Híbrida — Microsoft Teams",
+
+  "datos_sesion": [
+    ["Área(s)", "Subsidio Familiar — Comfacesar"],
+    ["Sesión", "N° 1 — Fase de Configuración (Onboarding de herramientas)"],
+    ["Fecha", "24 de agosto de 2026"],
+    ["Hora inicio", "4:24 p.m. (16:24) — Colombia"],
+    ["Duración sesión", "54 minutos 18 segundos"],
+    ["Modalidad", "Híbrida — Sandra virtual (Teams), equipo presencial con proyección"],
+    ["Correos Slack activados", "subsidio@comfacesar.com · Por confirmar correos individuales del equipo"],
+    ["Grabación", "Sí — disponible en canal Slack Subsidio del proyecto"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+
+  "kpis": [
+    {"valor": "3", "etiqueta": "Participantes", "detalle": "Carlos Andrés · Avelino · Luciano"},
+    {"valor": "100%", "etiqueta": "Asistencia", "detalle": "Sin ausencias"},
+    {"valor": "3", "etiqueta": "Ejercicios", "detalle": "Slack · ChatGPT · Claude"},
+    {"valor": "14", "etiqueta": "Tareas asignadas", "detalle": "Para Sesión 2"},
+    {"valor": "2", "icono": "punto-critico", "etiqueta": "Alertas Críticas", "detalle": "Claude Pro + Configuración"},
+    {"valor": "", "icono": "estrella", "etiqueta": "Oportunidad", "detalle": "Bot cuota monetaria · Simón"}
+  ],
+
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "José Luciano", "cargo": "Coordinador Subsidio — Comfacesar", "correo": "subsidio@comfacesar.com", "modalidad": "Presencial", "nivel": "Por evaluar"},
+    {"nombre": "Carlos Andrés", "cargo": "Analista Subsidio — Comfacesar", "correo": "Por confirmar", "modalidad": "Presencial", "nivel": "Básico"},
+    {"nombre": "Andrés Avelino", "cargo": "Liquidador Cuota Monetaria", "correo": "Por confirmar", "modalidad": "Presencial", "nivel": "Básico"}
+  ],
+
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 1 por observación directa y contexto del área Subsidio.",
+
+  "riesgos": [
+    {"titulo": "Claude Pro — No activado", "nivel": "CRITICO",
+     "descripcion": "Sin Claude Pro ($20 USD/mes) el sistema agéntico no funciona. Es el eje central. El plan gratuito bloquea las sesiones largas.",
+     "responsable": "Equipo / HOY"},
+    {"titulo": "Configuración ChatGPT + Claude sin acompañamiento", "nivel": "CRITICO",
+     "descripcion": "Si el equipo llega sin configuración a Sesión 2, no se puede arrancar ejercicios prácticos. Habilitador de todo lo que sigue.",
+     "responsable": "Equipo / Esta semana"},
+    {"titulo": "Proceso manual de cuota monetaria — Sin centralizar", "nivel": "ALTO",
+     "descripcion": "Las solicitudes entran por múltiples canales: teléfono, correo, presencial, WhatsApp. Sin canal único no hay trazabilidad ni automatización.",
+     "responsable": "José Luciano + Sandra / S2-3"},
+    {"titulo": "Datos no estructurados en Excel — Riesgo de error", "nivel": "ALTO",
+     "descripcion": "\"Si el proceso está roto, la IA amplifica ese desastre.\" El Excel del área tiene datos sin validar. Antes de automatizar hay que estructurar.",
+     "responsable": "Equipo + Sandra / S2"},
+    {"titulo": "Maria Elvira (Sponsor) — No presente en onboarding", "nivel": "MEDIO",
+     "descripcion": "La líder del proyecto fue mencionada como monitora del dashboard pero no participó en la sesión. Necesita contexto para interpretar el tablero.",
+     "responsable": "José Luciano / Antes S2"},
+    {"titulo": "Repositorio de objeciones — Sin subir a Claude", "nivel": "MEDIO",
+     "descripcion": "Avelino confirmó que existe un repositorio de objeciones frecuentes (\"doctor Víctor\"). Es clave para el avatar IA pero no está cargado al proyecto.",
+     "responsable": "Avelino / Esta semana"},
+    {"titulo": "Uso previo de IA — Curva de adopción reducida", "nivel": "BAJO",
+     "descripcion": "José Luciano ha venido explorando IA de forma empírica. No parte de cero. El equipo tiene disposición hacia las herramientas.",
+     "responsable": "Monitorear"}
+  ],
+
+  "alertas": [
+    {"num": "01", "nivel": "CRITICO", "titulo": "Claude Pro — No activado",
+     "descripcion": "Activar Claude Pro ($20 USD/mes) en claude.ai ANTES de Sesión 2. Sin esto el sistema agéntico —que es la columna vertebral del proyecto— no funciona. Sandra lo recomienda con garantía personal.",
+     "responsable": "Equipo Subsidio", "plazo": "HOY"},
+    {"num": "02", "nivel": "CRITICO", "titulo": "Configuración completa — Tarea autónoma obligatoria",
+     "descripcion": "Todo el equipo debe completar la configuración de ChatGPT y Claude usando la grabación de Slack. Incluye instrucción de precisión, \"acerca de ti\", funciones activas, proyectos y conectores. Sin esto, Sesión 2 no arranca.",
+     "responsable": "Carlos Andrés · Avelino · Luciano", "plazo": "Esta semana"},
+    {"num": "03", "nivel": "ALTO", "titulo": "Proceso de solicitudes — Digitalizar antes de automatizar",
+     "descripcion": "Antes de implementar IA sobre el proceso de cuota monetaria, hay que centralizar las entradas. Un proceso roto automatizado solo amplifica el problema. Mapear el flujo actual es el primer paso.",
+     "responsable": "José Luciano + Sandra", "plazo": "Sesión 2–3"},
+    {"num": "OPP", "nivel": "OPORTUNIDAD", "titulo": "Bot IA de Respuesta Automática — Cuota Monetaria No Pagada",
+     "descripcion": "Avelino confirmó que la queja más frecuente es \"no me pagaron cuota monetaria\". Con el repositorio de objeciones (\"doctor Víctor\") cargado en Claude, un bot IA puede responder automáticamente y escalar solo los casos que no encuentra en el repositorio.",
+     "responsable": "Andrés Avelino + Sandra", "plazo": "Sesión 2–3"}
+  ],
+
+  "ejercicios": [
+    {"titulo": "Ejercicio A · Onboarding Slack — Canal Subsidio", "duracion": "~15 min",
+     "objetivo": "Centralizar la comunicación del proyecto en Slack, reemplazando WhatsApp con una herramienta empresarial con trazabilidad y archivo digital.",
+     "pasos": [
+       "Ingresar al enlace de Slack que llegó al correo institucional (@comfacesar.com)",
+       "Aceptar invitación → iniciar sesión → aceptar cookies → entrar en el navegador",
+       "Confirmar que aparece el canal Subsidio en la barra lateral izquierda",
+       "Descargar la app de Slack en el celular e iniciar sesión con correo institucional",
+       "Confirmar que todo el equipo (Avelino, Carlos, Luciano, Maria Elvira) aparece en el canal",
+       "Explorar el canal Subsidio: la agenda está fijada como acceso directo en la barra lateral",
+       "Practicar envío de mensaje en el canal y apertura de hilos paralelos",
+       "Identificar el dashboard de KPIs publicado en el canal Subsidio",
+       "Revisar sección 'Archivos' — las grabaciones se archivan automáticamente ahí",
+       "Revisar enlace de Calendly fijado en el canal para agendar directamente con Sandra"
+     ]},
+    {"titulo": "Ejercicio B · Configuración Completa ChatGPT", "duracion": "Autónomo con grabación",
+     "objetivo": "Configurar ChatGPT con identidad profesional, instrucción de precisión, funciones activas y primer proyecto con Método CREA. Completar de forma autónoma usando la grabación de Slack.",
+     "pasos": [
+       "Abrir Google Chrome → crear carpeta de marcadores \"Herramientas de Inteligencia Artificial\"",
+       "Ir a chatgpt.com → iniciar sesión con cuenta institucional (@comfacesar.com)",
+       "Configuración → Personalización → pegar instrucción de precisión IAM™ (publicada en canal Slack Subsidio)",
+       "Completar sección \"Acerca de ti\": nombre, cargo, años en Comfacesar, contexto del área Subsidio. Ser detallado y honesto — esto entrena el clon digital",
+       "Definir estilo de respuesta preferido (directo, sin rodeos, sin emojis si se prefiere tono ejecutivo)",
+       "Configuración → Avanzado → activar TODOS los botones (búsqueda web, Canvas, Bibliotecas, Conectores/fuentes)",
+       "Complementos → Explorar complementos → conectar Gmail, Google Drive, Google Calendar (requiere versión paga ~$20 USD/mes)",
+       "Panel lateral → botón \"+\" → Crear proyecto → nombre: \"Subsidio — Comfacesar\"",
+       "Dentro del proyecto → 3 punticos → Configuración del proyecto → pegar Método CREA: CONTEXTO · ROL · ENTREGA · ACCIÓN con datos reales del área Subsidio",
+       "Hacer consulta de prueba real del área dentro del proyecto y evaluar la calidad de la respuesta",
+       "Agregar marcador de ChatGPT en la carpeta \"Herramientas IA\" de Chrome",
+       "TRAER a Sesión 2: el proyecto creado con Método CREA completo y una consulta real respondida"
+     ]},
+    {"titulo": "Ejercicio C · Configuración Completa Claude + Sistema de Trabajo", "duracion": "Autónomo con grabación",
+     "objetivo": "Configurar Claude como sistema agéntico — no como herramienta sino como columna vertebral digital del área. Conectar aplicaciones, importar memoria y crear proyectos para ejercicios reales desde Sesión 2.",
+     "pasos": [
+       "Ir a claude.ai → iniciar sesión con cuenta institucional (@comfacesar.com)",
+       "Configuración → Personalización → pegar la misma instrucción de precisión IAM™ usada en ChatGPT",
+       "\"Acerca de ti\": copiar exactamente el mismo texto escrito en ChatGPT y pegarlo aquí",
+       "Activar TODOS los botones disponibles en la sección de configuración (memorias, capacidades, funciones avanzadas)",
+       "Menú → Capacidades → localizar el campo \"Importar Memoria\" → clic en \"Iniciar importación\"",
+       "Copiar el prompt de importación → abrir ChatGPT en pestaña nueva → pegar el prompt → Enter",
+       "ChatGPT responderá con un bloque de texto cifrado → copiarlo completo → volver a Claude → pegarlo → clic en \"Agregar a la memoria\"",
+       "Repetir el proceso de importación de memoria con Gemini",
+       "Ir a Conectores (más de 2.100 disponibles) → conectar: Gmail · Google Drive · Google Calendar · Slack · Canva (si aplica)",
+       "Menú → Proyectos → Nuevo proyecto → nombre \"Subsidio — Comfacesar\" → pegar Método CREA en el campo de contexto",
+       "Subir al proyecto todos los archivos del área Subsidio (Excel de afiliados, repositorio de objeciones \"doctor Víctor\", PDFs normativos, decreto 923/2009, directorio del equipo)",
+       "Crear un segundo proyecto llamado \"Calendario / Agendamiento\" — asistente de agenda personal",
+       "Activar Claude Pro ($20 USD/mes) — el plan gratuito bloquea las sesiones largas y el sistema agéntico no opera",
+       "Descargar la app de Claude en el celular. Verificar acceso al mismo proyecto desde el móvil"
+     ]}
+  ],
+
+  "oportunidades": [
+    {"encabezado": "SOLICITUD IDENTIFICADA EN SESIÓN 1 · 24 agosto 2026",
+     "titulo": "Bot IA de Respuesta Automática — Cuota Monetaria No Pagada",
+     "descripcion": "Andrés Avelino confirmó en sesión que la queja más frecuente del área es \"no me pagaron cuota monetaria\". El proceso actual es completamente manual: revisar el sistema, verificar el corte, identificar si la empresa se pasó de la fecha permitida por el decreto 923/2009. Con el repositorio de objeciones cargado en Claude, un bot IA puede atender automáticamente, identificar la causa, responder y escalar solo los casos que no encuentra en el repositorio.",
+     "estado": "Confirmado — pendiente cargar repositorio de objeciones (\"doctor Víctor\")",
+     "proximo_paso": "Avelino sube el archivo al proyecto Claude esta semana",
+     "target": "Sesión 2–3"},
+    {"encabezado": "OPORTUNIDAD IDENTIFICADA EN SESIÓN 1 · 24 agosto 2026",
+     "titulo": "Detección de Inconsistencias — Reporte Simón / Superintendencia",
+     "descripcion": "José Luciano mencionó que el reporte poblacional enviado a la Superintendencia (plataforma Simón) tiene una estructura técnica estricta con anexos específicos. Claude puede revisar el Excel antes del envío, detectar campos vacíos, errores de formato e inconsistencias. Sandra ha visto este patrón en otras áreas: \"me faltan 29 millones, la IA lo detectó.\" El potencial de evitar reprocesos y multas es significativo.",
+     "estado": "Identificado — pendiente subir Excel + anexo técnico al proyecto de Claude",
+     "proximo_paso": "Equipo sube los archivos esta semana",
+     "target": "Sesión 2"}
+  ],
+
+  "tareas_intro": "Todas las tareas deben completarse ANTES de Sesión 2. La próxima sesión es 100% de ejercicios prácticos. Sin configuración previa no se puede avanzar.",
+
+  "tareas": [
+    {"tarea": "Ver grabación completa de Sesión 1 en canal Slack de Subsidio", "responsable": "Todo el equipo", "prioridad": "URGENTE", "plazo": "Esta semana"},
+    {"tarea": "Chrome → carpeta \"Herramientas IA\" → agregar ChatGPT y Claude como accesos directos", "responsable": "Todo el equipo", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "ChatGPT → Configuración → Personalización → pegar instrucción de precisión IAM™ (Slack)", "responsable": "Todo el equipo", "prioridad": "URGENTE", "plazo": "Esta semana"},
+    {"tarea": "ChatGPT → completar \"Acerca de ti\" con información del área Subsidio, detallada y honesta", "responsable": "Todo el equipo", "prioridad": "URGENTE", "plazo": "Esta semana"},
+    {"tarea": "ChatGPT → Avanzado → activar TODOS los botones (búsqueda web, Canvas, Bibliotecas, Conectores)", "responsable": "Todo el equipo", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "ChatGPT → crear proyecto \"Subsidio — Comfacesar\" con Método CREA completo", "responsable": "Todo el equipo", "prioridad": "URGENTE", "plazo": "Esta semana"},
+    {"tarea": "Activar Claude Pro ($20 USD/mes) en claude.ai — Sandra lo garantiza personalmente", "responsable": "Todo el equipo", "prioridad": "URGENTE", "plazo": "HOY"},
+    {"tarea": "Claude → configuración completa: instrucción IAM™ + \"acerca de ti\" + activar todos los botones", "responsable": "Todo el equipo", "prioridad": "URGENTE", "plazo": "Esta semana"},
+    {"tarea": "Claude → Capacidades → Importar Memoria → ejecutar proceso de 3 pasos desde ChatGPT y Gemini", "responsable": "Todo el equipo", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Claude → Conectores → conectar Gmail · Google Drive · Google Calendar · Slack", "responsable": "Todo el equipo", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Claude → crear proyecto \"Subsidio — Comfacesar\" → subir archivos del área (Excel, decreto 923/2009, repositorio \"doctor Víctor\", directorio)", "responsable": "Andrés Avelino + Equipo", "prioridad": "URGENTE", "plazo": "Esta semana"},
+    {"tarea": "Definir y traer a Sesión 2 UN ejercicio real del área con datos reales (ej: segmentación subsidios o reporte Simón)", "responsable": "Todo el equipo", "prioridad": "ALTA", "plazo": "Para Sesión 2"},
+    {"tarea": "Mapear el proceso de entrada de solicitudes de afiliados (canales actuales, volumen, frecuencia)", "responsable": "José Luciano", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Agendar Sesión 2 con Sandra desde el link en canal Slack de Subsidio — entre más pronto mejor", "responsable": "José Luciano", "prioridad": "URGENTE", "plazo": "HOY"}
+  ],
+
+  "observaciones": [
+    "A partir de Sesión 2 todo el trabajo será EJERCICIOS PRÁCTICOS con casos reales del área Subsidio. La Sesión 1 fue la única de configuración e introducción.",
+    "La instrucción de precisión IAM™ ya fue publicada en el canal Slack de Subsidio para que todo el equipo la copie en todas sus herramientas de IA.",
+    "Sandra demostró en sesión el tablero de KPIs en tres niveles: tabla individual de Subsidio, cuadro de monitoreo de Maria Elvira como sponsor, y portal web de gerencia con ROI del proyecto.",
+    "El dashboard de KPIs ya está configurado en Slack con el nodo Subsidio. El equipo empezará a ingresar datos de productividad desde Sesión 2 en adelante.",
+    "José Luciano identificó un problema crítico de proceso: las solicitudes de afiliados entran por múltiples canales sin trazabilidad. Esto impide cualquier automatización efectiva. Registrado como oportunidad estratégica.",
+    "Andrés Avelino confirmó la existencia de un repositorio de objeciones frecuentes (\"doctor Víctor\") con respuestas a preguntas de cuota monetaria. Es el insumo clave para el bot IA del área.",
+    "Sandra recomendó usar IA como sistema de trabajo, no como herramienta de copiar-pegar: Claude conectado a Gmail, Drive y Calendar para ejecutar tareas completas por voz sin intervención manual.",
+    "El calendario de Sandra está disponible 6 semanas de forma exclusiva para Comfacesar. Sin límite de sesiones individuales, grupales o presenciales. Agendar lo antes posible desde Slack."
+  ],
+
+  "proxima_sesion": {
+    "sesion": "Sesión 2 — Ejercicios Prácticos con Casos Reales del Área Subsidio",
+    "condiciones": [
+      "ChatGPT + Claude 100% configurados",
+      "Claude Pro activo · Archivos subidos",
+      "Ejercicio real de Subsidio listo para trabajar"
+    ],
+    "agendamiento": [
+      "Desde el link en canal Slack de Subsidio",
+      "Agendar HOY — entre más pronto mejor",
+      "Sandra disponible 6 semanas exclusivas"
+    ]
+  },
+
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 24 agosto 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
