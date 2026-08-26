@@ -136,8 +136,12 @@ Un canal por área. El mapa completo con IDs está en `nps_comfacesar/canales_sl
 
 ## 5 · Archivo
 
-El PDF, el HTML y el JSON vuelven a la carpeta de la sesión en Dropbox. Como Dropbox
-sincroniza con el Mac, quedan en el escritorio de Sandra sin que ella haga nada.
+Lucía deja el **acta en HTML** en la carpeta de la sesión, junto a la transcripción y
+el informe de asistencia. El conector de Dropbox solo escribe texto, así que el PDF
+no se sube desde aquí: **Sandra lo guarda a mano**, decisión suya del 26 de agosto.
+
+El HTML no es un archivo de descarte: abierto en el Mac se ve idéntico al PDF —usa
+Cambria, que ya está instalada— y con Cmd+P sale el PDF cuando se necesita.
 
 ## 6 · Reporte al tablero
 
@@ -154,5 +158,6 @@ cuáles quedaron pendientes de insumos y qué publicó. Es lo que alimenta el ta
 | El reporte de asistencia de Teams no se descarga por API | Sandra lo baja a Dropbox; automatizable con Microsoft Graph si TI aprueba |
 | El recap de IA de Teams no es descargable | Lucía escribe el resumen desde la transcripción — sale mejor y no depende de licencia Copilot |
 | Slack no admite subida de archivos por esta vía | Canvas + enlaces de Dropbox |
+| Dropbox solo acepta archivos de texto por esta vía | Lucía sube el HTML; el PDF lo guarda Sandra |
 | Lucía no accede al disco del Mac directamente | Accede vía Dropbox, donde ya vive la estructura del proyecto |
 | Teams etiqueta por cuenta, no por persona | Se cruza contra el listado oficial y se confirma lo dudoso con Sandra |
