@@ -33,28 +33,57 @@ duración real, modalidad y lista de invitados.
 
 ## 2 · Insumos — la carpeta de Dropbox
 
-Sandra deja en Dropbox lo que descarga de Teams al terminar cada reunión.
-Dropbox tiene respaldado el Mac (`Mi Mac (MacBook-Air-de-Sandra.local)`), así que
-**guardar en el escritorio es suficiente**: Lucía lo ve desde ahí.
+Sandra ya tiene su propia estructura de carpetas para el proyecto, y Lucía trabaja
+sobre ella. No se inventa una nueva:
 
 ```
-/Mi Mac (MacBook-Air-de-Sandra.local)/Desktop/Comfacesar IA/
-└── Subsidio/
-    └── S1_2026-08-24/
-        ├── asistencia.csv        ← Teams › Asistencia › Descargar
-        ├── transcripcion.vtt     ← Teams › Grabación › Transcripción › Descargar
-        ├── grabacion.txt         ← el enlace de la grabación, pegado tal cual
-        └── notas.txt             ← (opcional) apuntes de Sandra
+/3-Clientes/1.Cerradas/2. IAM Social/2026/Comfacesar/
+    Seguimiento Proyecto IAM™/IAM™ Intelligence/
+        12. Contabilidad/
+            Sesion 2/
+                ⭕️Comfacesar _ Contabilidad _ S2 _ IAM™Intelligence.vtt
+                ⭕️Comfacesar _ Contabilidad _ S2 _ ... Informe de asistencia 8-26-26.csv
 ```
 
-Ninguno es obligatorio. Con lo que haya, Lucía arma el acta y marca lo que falta
-como `Por confirmar`, igual que en el acta de referencia.
+Las áreas están numeradas (`1. Comunicaciones` … `17. Subisidio`) y cada una tiene sus
+carpetas `Sesion 1` … `Sesion 4`. Lucía identifica los archivos por extensión, no por
+nombre: **el `.csv` es la asistencia y el `.vtt` es la transcripción**, tal como los
+descarga Teams. No hay que renombrar nada.
+
+El enlace de la grabación se pega en un `grabacion.txt` dentro de la carpeta de la
+sesión, o se le pasa a Lucía directamente en el chat.
 
 | Insumo | De dónde sale | Si falta |
 |---|---|---|
-| `asistencia.csv` | Reporte de asistencia de Teams | Se usan los miembros del chat de la reunión |
-| `transcripcion.vtt` | Transcripción de Teams | El acta se arma con las notas y el contexto del área |
-| `grabacion.txt` | Enlace de la grabación | El acta dice "Grabación: por publicar" |
+| `*.csv` | Reporte de asistencia de Teams | Se usan los miembros del chat de la reunión |
+| `*.vtt` | Transcripción de Teams | El acta se arma con las notas y el contexto del área |
+| `grabacion.txt` | Enlace copiado desde Teams | El acta dice "Grabación: por publicar" |
+
+## 2 bis · Quién entra al acta — el listado oficial manda
+
+**A las sesiones entra gente de escucha que no pertenece al proyecto.** El acta solo
+nombra a los funcionarios del listado oficial:
+
+```
+0. Propuesta Documentos iniciales/
+    final LISTADO COLABRORADORES PARA ENTRENAMIENTO EN IA CON CORREO.docx
+```
+
+48 colaboradores con certificación, agrupados por área, con nombre completo y correo
+institucional. Antes de escribir la sección de participantes, Lucía cruza la asistencia
+de Teams contra ese listado y **descarta a todo el que no aparezca**. Quien no está en
+el listado no se menciona en ninguna parte del acta.
+
+Dos trampas reales, ambas vistas en Contabilidad S2:
+
+- **Un nombre en la asistencia puede no ser la persona.** Por problemas de audio,
+  Lisbeth Cuadrado se conectó desde el equipo de otra funcionaria y Teams la registró
+  con el nombre de la dueña de la cuenta. Cuando el nombre de la asistencia no cruza
+  con el listado pero el contenido de la transcripción sí corresponde al área, se
+  confirma con Sandra antes de dar por ausente a nadie.
+- **Los oyentes inflan la asistencia.** El informe decía 7 participantes; del proyecto
+  eran 2. El porcentaje de asistencia se calcula siempre sobre el listado del área,
+  nunca sobre el total de conectados.
 
 ## 3 · El acta
 
@@ -125,4 +154,5 @@ cuáles quedaron pendientes de insumos y qué publicó. Es lo que alimenta el ta
 | El reporte de asistencia de Teams no se descarga por API | Sandra lo baja a Dropbox; automatizable con Microsoft Graph si TI aprueba |
 | El recap de IA de Teams no es descargable | Lucía escribe el resumen desde la transcripción — sale mejor y no depende de licencia Copilot |
 | Slack no admite subida de archivos por esta vía | Canvas + enlaces de Dropbox |
-| Lucía no accede al disco del Mac directamente | Accede vía Dropbox, que respalda el escritorio |
+| Lucía no accede al disco del Mac directamente | Accede vía Dropbox, donde ya vive la estructura del proyecto |
+| Teams etiqueta por cuenta, no por persona | Se cruza contra el listado oficial y se confirma lo dudoso con Sandra |
