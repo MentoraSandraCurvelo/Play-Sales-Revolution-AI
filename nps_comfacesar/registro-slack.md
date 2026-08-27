@@ -15,23 +15,31 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
-## Programado
+## Publicado — jueves 27 de agosto de 2026
 
-| Fecha y hora | Canal | Qué | Estado |
-|---|---|---|---|
-| 2026-08-27 08:00 | 19 canales de área | «Cómo trabajamos en este canal» — norma de que todo va por el canal y no por DM | **Programado** |
+| Hora (Col) | Canal | Qué |
+|---|---|---|
+| 08:00 | Los 20 canales de área | «Cómo trabajamos en este canal» — todo va por el canal, no por DM |
 
-Los 19 canales: `#juridica` `#mercadeo` `#agencia-de-empleo` `#planeacion`
-`#gerencia-financiera` `#talento-humano` `#tesoreriaa`
-`#sub-admin-y-financiera-infraestructura` `#sub-operativa` `#serivcios-sociales`
-`#vivienda` `#educacion` `#tecnologia` `#cumplimiento` `#subsidio` `#ips` `#credito`
-`#auditoria-interna` `#comunicaciones`.
+Salió como estaba programado desde el 26. Ya no queda nada programado por Elia.
 
-> ⚠️ **Conflicto abierto con la reserva de Lucía.** También quedó programado en
-> `#contabilidad` para el 27 a las 08:00, y ese canal está reservado hasta el 30.
-> La API de Slack no permite cancelar mensajes programados: **Sandra tiene que
-> borrarlo a mano** desde «Borradores y enviados». Anotado aquí para que Lucía
-> sepa que puede aparecer.
+> 🔴 **Rompí dos reservas de Lucía.** El mensaje entró también a `#contabilidad` y
+> `#cumplimiento`, los dos reservados hasta el 30 de agosto. Lucía había marcado
+> `#contabilidad` el 26 y agregó `#cumplimiento` después, cuando yo ya tenía los 20
+> programados desde las 13:2x del 26.
+>
+> **La causa raíz:** programé antes de que existiera el contrato, y la API de Slack no
+> permite cancelar mensajes programados. Cuando leí la reserva ya no podía deshacerlo,
+> y avisé a Sandra para que los borrara a mano. No alcanzó.
+>
+> **El daño es acotado.** El mensaje de norma no compite en contenido con las actas:
+> una dice cómo se usa el canal, la otra reporta la sesión. Los dos canales van a tener
+> mensaje hoy (norma) y mañana (acta de Lucía a las 8:00), que no rompe el tope de dos
+> por día.
+>
+> **La lección para las dos:** un mensaje programado es un compromiso irreversible.
+> Antes de programar a varios canales hay que leer las reservas, porque después no hay
+> vuelta atrás por API.
 
 ## Publicado — miércoles 26 de agosto de 2026
 
