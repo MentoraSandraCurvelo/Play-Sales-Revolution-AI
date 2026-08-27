@@ -161,8 +161,14 @@ Nada más. El mensaje queda en el canal, es buscable y no caduca.
 
 > **Sin Canvas.** Los canvas son de plan pago y el workspace pasa a la versión
 > gratuita el 2 de septiembre de 2026. Todo lo que Lucía publique tiene que funcionar
-> en el plan gratuito: mensajes de texto y enlaces, nada más. Decisión de Sandra del
-> 27 de agosto.
+> en el plan gratuito. Decisión de Sandra del 27 de agosto.
+
+> **El acta va como PDF adjunto.** Es el acuerdo con Sandra y no se sustituye por texto
+> en el mensaje. La conexión de Slack de Claude no sube archivos, así que la vía es
+> `publicar_slack.py` con un token propio del workspace — ver `GUIA-APP-SLACK.md`.
+> Faltan dos cosas que solo Sandra puede hacer: crear la app de Slack y permitir
+> slack.com en la política de red del entorno, que hoy la rechaza con 403.
+> Mientras tanto, Sandra arrastra el PDF y el CSV al canal.
 
 El acta completa con la identidad IAM™ vive en la carpeta de la sesión en Dropbox,
 no en Slack. Si el equipo la necesita, se comparte por enlace de Dropbox.
