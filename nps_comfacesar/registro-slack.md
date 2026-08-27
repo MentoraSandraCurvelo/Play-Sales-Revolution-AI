@@ -107,3 +107,7 @@ Nada reservado por Elia por ahora.
 | Canal | Hasta | Motivo |
 |---|---|---|
 | `#contabilidad` | 30 de agosto | El acta del 28 ya anuncia las dos individuales del 1 y 2 de septiembre |
+| `#cumplimiento` | 30 de agosto | El acta del 28 ya anuncia la S2 del 2 de septiembre |
+
+Las dos las rompió el mensaje programado del 27 (ver arriba). De aquí en adelante se
+respetan: Elia no vuelve a escribir en esos canales hasta el 31 de agosto.
