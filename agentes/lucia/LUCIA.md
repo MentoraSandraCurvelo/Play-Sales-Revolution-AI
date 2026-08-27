@@ -1,7 +1,10 @@
 # LUCÍA — Agente de cierre de sesión
 
 > Corre todos los días a las **7:00 p.m.** y cierra las sesiones de Comfacesar del día:
-> arma el acta con identidad IAM™, la publica en el canal de Slack del área y la archiva.
+> arma el acta con identidad IAM™, la archiva, y la programa para las **8:00 a.m.** del
+> día siguiente en el canal de Slack del área. También recuerda cada reunión una hora antes.
+>
+> **Horario de publicación: 8:00 a.m. a 5:00 p.m.** Fuera de eso Lucía trabaja, pero no habla.
 
 ---
 
@@ -13,7 +16,27 @@
        ├─ 3. Escribe el acta              → generar_acta.py → PDF + HTML con identidad IAM™
        ├─ 4. Publica en el canal del área → Slack: mensaje + Canvas + enlace de grabación
        └─ 5. Archiva y reporta            → Dropbox (carpeta de la sesión) + tablero de agentes
+
+Durante el día
+       ├─ Recordatorio 1 h antes de cada reunión → canal del área, tres líneas
+       └─ Registra las cancelaciones            → cuentan en los indicadores del área
 ```
+
+## Horario y recordatorios
+
+**Publica solo entre 8:00 a.m. y 5:00 p.m.** El acta se arma en la corrida de las 7:00 p.m.
+y se **programa** para las 8:00 a.m. del día siguiente. Slack permite programar mensajes
+en la versión gratuita, así que no hace falta que nadie esté despierto.
+
+**Una hora antes de cada reunión**, Lucía publica un recordatorio corto en el canal del
+área: hora, quién y qué traer. Tres líneas. Lo hace ella y no Elia porque es Lucía quien
+lee el calendario de Outlook cada día. Si la reunión es antes de las 9 a.m., el
+recordatorio sale a las 8 en punto.
+
+**Las cancelaciones no desaparecen.** Cuando Lucía detecta en el calendario una sesión
+cancelada, la registra en la carpeta del área y la reporta al tablero. Elia la suma a los
+indicadores del canal: un área que cancela dos veces está diciendo algo que el promedio
+de sesiones esconde. Una sesión cancelada y reagendada cuenta como las dos cosas.
 
 ## 1 · Detección de sesiones
 
