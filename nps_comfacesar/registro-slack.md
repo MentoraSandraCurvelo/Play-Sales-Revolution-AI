@@ -77,6 +77,19 @@ justo de estos choques.
 | **Leer antes de escribir** | En `#comunicaciones` publiqué casi el mismo texto dos veces con 4 minutos de diferencia |
 | **Elia solo habla del silencio** | Anuncié agendamientos de áreas que acababan de agendar — zona gris que el contrato asigna al acta de Lucía |
 
+## Decisiones de Sandra que modulan el contrato
+
+**Las cancelaciones no van al indicador todavía.** El contrato dice que suman al
+indicador del área, pero al 26 de agosto solo hay un caso —Cumplimiento agendó y
+canceló— y con uno no hay indicador, hay una anécdota.
+
+Lo que Sandra quiere por ahora es que la cancelación **se evidencie**, no que se
+promedie: que quede el rastro en la carpeta de la sesión, sin columna en el
+termómetro ni en el informe de María Elvira.
+
+Lucía sigue registrándolas como dice el contrato. Elia **no** las incorpora a la
+medición hasta que Sandra lo pida. Se activa si aparecen cancelaciones masivas.
+
 ## Reservado — no tocar
 
 Nada reservado por Elia por ahora.
