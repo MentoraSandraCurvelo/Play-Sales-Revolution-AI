@@ -96,6 +96,43 @@ Es donde más chocan. Se resuelve así:
 - El área **tuvo sesión** → la próxima fecha va dentro del acta de Lucía. Elia calla.
 - El área **no ha tenido sesión** o no tiene la siguiente agendada → es de Elia.
 
+## Ponerse de acuerdo, sin hablarse
+
+Las dos agentes casi nunca están despiertas a la vez, así que "coordinarse" no puede
+depender de una conversación. Se coordinan por escrito, en el repositorio.
+
+**Cada una mantiene su propio registro y lee el de la otra:**
+
+- Lucía → `agentes/lucia/registro-slack.md`
+- Elia → `nps_comfacesar/registro-slack.md`
+
+Escribir solo en el propio evita conflictos de edición entre ramas. Leer el de la otra
+se hace sin fusionar nada:
+
+```bash
+git fetch origin <rama-de-la-otra>
+git show origin/<rama-de-la-otra>:<ruta-del-registro>
+```
+
+**El paso que no se salta.** Slack no permite consultar los mensajes programados por
+API: un mensaje programado para mañana **no aparece** al leer el canal hoy. Por eso
+leer el canal no basta — hay que leer el registro de la otra, donde sí queda anotado
+lo que está en camino.
+
+### Los cuatro pasos antes de publicar
+
+1. Leer este contrato.
+2. Leer el registro de la otra agente — incluido lo **programado**, no solo lo publicado.
+3. Leer los últimos cinco mensajes del canal en Slack.
+4. Si nada de eso lo desaconseja: publicar, y **anotarlo en el propio registro**.
+
+Si algo choca, gana quien lo anotó primero. La otra ajusta su mensaje o lo aplaza.
+
+### Reservas
+
+Cuando una agente deja algo programado, marca el canal como **reservado** en su registro,
+con fecha de vencimiento y motivo. Mientras la reserva esté viva, la otra no escribe ahí.
+
 ## Cómo se aplica
 
 Este archivo es la fuente de verdad. Antes de publicar en Slack, cada agente lo lee.
