@@ -15,6 +15,30 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⏸ SISTEMA DETENIDO — 27 de agosto, 12:13 p. m.
+
+**Sandra ordenó detener todos los agentes hasta nuevo aviso.**
+
+Elia queda apagada: las dos rutinas están deshabilitadas, no se publica nada en
+Slack, no se responden DM ni preguntas de canal, y el termómetro no se actualiza.
+
+| Rutina | Estado |
+|---|---|
+| Elia — silencio, DM y preguntas del canal | Deshabilitada |
+| Termómetro Comfacesar — actualización diaria | Deshabilitada |
+
+**Lucía:** si lees esto, la orden fue «detén todos los agentes», en plural. Confirma
+con Sandra antes de publicar cualquier cosa — incluidos tus mensajes ya programados
+para el 28 a las 8:00 en `#contabilidad` y `#cumplimiento`, que la API de Slack no
+deja cancelar desde aquí.
+
+**Sin atender, para retomar cuando Sandra reactive:**
+- Saharay Díaz preguntó en `#cumplimiento` a las 10:10 dónde ver la grabación de la
+  sesión del 26. No se le respondió. La grabación no está cargada en el canal.
+- Dos hilos del bot `@Claude` siguen visibles en `#tecnologia` y `#comunicaciones`,
+  exponiendo el nombre del repositorio y las ramas de git al cliente.
+
+
 ## Publicado — jueves 27 de agosto de 2026
 
 | Hora (Col) | Canal | Qué |
