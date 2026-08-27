@@ -16,6 +16,8 @@
   --ink-3:#7C7370;
   --acento:#B71C1C;
   --acento-suave:#FBEEEE;
+  --elia:#3F5A73;
+  --elia-suave:#EDF1F5;
   --ok:#2E7D32;
   --ok-suave:#EAF3EA;
   --medio:#E65100;
@@ -36,6 +38,8 @@
     --ink-3:#8B807C;
     --acento:#E76060;
     --acento-suave:#2E1C1B;
+    --elia:#8FADC8;
+    --elia-suave:#1B2530;
     --ok:#6FBF73;
     --ok-suave:#1B271C;
     --medio:#F58A3C;
@@ -56,6 +60,8 @@
   --ink-3:#8B807C;
   --acento:#E76060;
   --acento-suave:#2E1C1B;
+  --elia:#8FADC8;
+  --elia-suave:#1B2530;
   --ok:#6FBF73;
   --ok-suave:#1B271C;
   --medio:#F58A3C;
@@ -78,32 +84,16 @@ body{
 .envoltorio{max-width:1080px;margin:0 auto;padding:0 24px 88px;}
 
 h1,h2,h3{font-family:Caladea,Cambria,Georgia,serif;text-wrap:balance;margin:0;}
-.eyebrow{
-  font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
-  color:var(--ink-3);
-}
 .mono{font-family:"IBM Plex Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums;}
 
 /* ── Cabecera ────────────────────────────────────────────────── */
-header{
-  border-bottom:1px solid var(--line);
-  background:var(--surface);
-  margin-bottom:40px;
-}
+header{border-bottom:1px solid var(--line);background:var(--surface);margin-bottom:40px;}
 .cab-interior{max-width:1080px;margin:0 auto;padding:34px 24px 30px;}
 .marca{display:flex;align-items:center;gap:10px;margin-bottom:22px;}
-.anillo{
-  width:13px;height:13px;border-radius:50%;
-  border:3.5px solid var(--acento);flex:none;
-}
-.marca-texto{
-  font-family:Caladea,Cambria,Georgia,serif;font-weight:700;
-  font-size:15px;letter-spacing:.02em;
-}
+.anillo{width:13px;height:13px;border-radius:50%;border:3.5px solid var(--acento);flex:none;}
+.marca-texto{font-family:Caladea,Cambria,Georgia,serif;font-weight:700;font-size:15px;letter-spacing:.02em;}
 h1{font-size:clamp(30px,4.4vw,44px);line-height:1.1;letter-spacing:-.015em;margin-bottom:12px;}
-.entradilla{
-  color:var(--ink-2);max-width:60ch;font-size:16px;margin:0 0 26px;
-}
+.entradilla{color:var(--ink-2);max-width:62ch;font-size:16px;margin:0 0 26px;}
 .meta-programa{
   display:flex;flex-wrap:wrap;gap:8px 26px;
   padding-top:20px;border-top:1px solid var(--line-soft);
@@ -131,8 +121,7 @@ section{margin-bottom:52px;}
 .tit-seccion{
   display:flex;align-items:baseline;justify-content:space-between;
   gap:16px;flex-wrap:wrap;
-  padding-bottom:9px;border-bottom:1.5px solid var(--acento);
-  margin-bottom:22px;
+  padding-bottom:9px;border-bottom:1.5px solid var(--acento);margin-bottom:22px;
 }
 .tit-seccion h2{font-size:17px;letter-spacing:.01em;color:var(--acento);}
 .tit-seccion .nota{font-size:12px;color:var(--ink-3);}
@@ -143,90 +132,129 @@ section{margin-bottom:52px;}
   background:var(--surface);border:1px solid var(--line);border-radius:4px;
   box-shadow:var(--sombra);overflow:hidden;display:flex;flex-direction:column;
 }
-.agente-cab{
-  padding:20px 22px 16px;border-bottom:1px solid var(--line-soft);
-  display:flex;align-items:flex-start;gap:14px;
-}
+.agente-cab{padding:20px 22px 16px;border-bottom:1px solid var(--line-soft);display:flex;align-items:flex-start;gap:14px;}
 .inicial{
-  width:42px;height:42px;border-radius:50%;flex:none;
-  display:grid;place-items:center;
-  font-family:Caladea,Cambria,Georgia,serif;font-weight:700;font-size:19px;
-  background:var(--acento);color:#fff;
+  width:42px;height:42px;border-radius:50%;flex:none;display:grid;place-items:center;
+  font-family:Caladea,Cambria,Georgia,serif;font-weight:700;font-size:19px;color:#fff;
 }
+.inicial.l{background:var(--acento);}
+.inicial.e{background:var(--elia);}
 .agente-cab h3{font-size:20px;line-height:1.2;}
 .agente-cab .rol{font-size:12.5px;color:var(--ink-3);margin-top:2px;}
 .estado{
-  margin-left:auto;flex:none;font-size:11px;font-weight:600;
-  letter-spacing:.05em;text-transform:uppercase;
-  padding:4px 9px;border-radius:2px;white-space:nowrap;
+  margin-left:auto;flex:none;font-size:11px;font-weight:600;letter-spacing:.05em;
+  text-transform:uppercase;padding:4px 9px;border-radius:2px;white-space:nowrap;
 }
 .estado.viva{background:var(--ok-suave);color:var(--ok);}
 .estado.obra{background:var(--medio-suave);color:var(--medio);}
 .agente-cuerpo{padding:18px 22px 20px;flex:1;}
 .agente-cuerpo p{margin:0 0 16px;color:var(--ink-2);font-size:14px;}
 .rail{list-style:none;margin:0;padding:0;}
-.rail li{
-  display:flex;gap:12px;padding:7px 0;font-size:13.5px;
-  border-top:1px solid var(--line-soft);
-}
+.rail li{display:flex;gap:12px;padding:7px 0;font-size:13.5px;border-top:1px solid var(--line-soft);}
 .rail li:first-child{border-top:0;}
 .rail .paso{
   font-family:"IBM Plex Mono",monospace;font-size:11.5px;font-weight:500;
-  color:var(--acento);flex:none;padding-top:2px;letter-spacing:.03em;
+  flex:none;padding-top:2px;letter-spacing:.03em;
 }
+.rail .paso.l{color:var(--acento);}
+.rail .paso.e{color:var(--elia);}
 .rail .que{color:var(--ink-2);}
 .rail .que b{color:var(--ink);font-weight:600;}
 .agente-pie{
-  padding:13px 22px;background:var(--surface-2);
-  border-top:1px solid var(--line-soft);
+  padding:13px 22px;background:var(--surface-2);border-top:1px solid var(--line-soft);
   font-size:12px;color:var(--ink-3);
 }
 .agente-pie b{color:var(--ink-2);font-weight:600;}
 
 /* ── Circuito ────────────────────────────────────────────────── */
-.circuito{
-  background:var(--surface);border:1px solid var(--line);border-radius:4px;
-  padding:26px 24px;overflow-x:auto;
-}
-.flujo{display:flex;align-items:stretch;gap:0;min-width:660px;}
-.nodo{
-  flex:1;background:var(--surface-2);border:1px solid var(--line);
-  border-radius:3px;padding:14px 15px;
-}
+.circuito{background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:26px 24px;overflow-x:auto;}
+.flujo{display:flex;align-items:stretch;gap:0;min-width:700px;}
+.nodo{flex:1;background:var(--surface-2);border:1px solid var(--line);border-radius:3px;padding:14px 15px;}
 .nodo.destacado{border-color:var(--acento);background:var(--acento-suave);}
-.nodo .cuando{
-  font-family:"IBM Plex Mono",monospace;font-size:10.5px;
-  color:var(--acento);letter-spacing:.05em;margin-bottom:6px;
-}
+.nodo .cuando{font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--acento);letter-spacing:.05em;margin-bottom:6px;}
 .nodo .titulo{font-size:13.5px;font-weight:600;margin-bottom:5px;line-height:1.3;}
 .nodo .detalle{font-size:12px;color:var(--ink-3);line-height:1.4;}
-.flecha{
-  flex:none;width:34px;display:grid;place-items:center;
-  color:var(--acento);font-size:17px;
-}
+.flecha{flex:none;width:34px;display:grid;place-items:center;color:var(--acento);font-size:17px;}
 .salidas{
   display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
-  gap:12px;margin-top:20px;padding-top:20px;
-  border-top:1px dashed var(--line);
+  gap:12px;margin-top:20px;padding-top:20px;border-top:1px dashed var(--line);
 }
 .salida{display:flex;gap:10px;font-size:13px;}
 .salida .marca-s{color:var(--acento);flex:none;font-weight:600;}
 .salida b{font-weight:600;}
 .salida span{color:var(--ink-3);display:block;font-size:12px;}
 
-/* ── Cola de hoy ─────────────────────────────────────────────── */
-.cola{
-  background:var(--surface);border:1px solid var(--line);
-  border-left:3px solid var(--acento);border-radius:3px;
+/* ── Coordinación ────────────────────────────────────────────── */
+.aviso-hueco{
+  background:var(--acento-suave);border:1px solid var(--acento);
+  border-radius:3px;padding:14px 18px;margin-bottom:22px;font-size:13.5px;color:var(--ink-2);
 }
+.aviso-hueco b{color:var(--ink);font-weight:600;}
+.dos-col{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;margin-bottom:22px;}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:4px;overflow:hidden;}
+.panel-cab{
+  padding:13px 18px;border-bottom:1px solid var(--line-soft);background:var(--surface-2);
+  display:flex;align-items:center;gap:10px;
+}
+.punto{width:9px;height:9px;border-radius:50%;flex:none;}
+.punto.l{background:var(--acento);}
+.punto.e{background:var(--elia);}
+.panel-cab strong{font-size:13.5px;}
+.panel-cab .ruta{
+  margin-left:auto;font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--ink-3);
+}
+.linea-reg{display:flex;gap:12px;padding:11px 18px;border-top:1px solid var(--line-soft);font-size:13px;align-items:flex-start;}
+.linea-reg:first-of-type{border-top:0;}
+.linea-reg .sello{
+  font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--ink-3);
+  flex:none;width:74px;padding-top:2px;
+}
+.linea-reg .cont{flex:1;}
+.linea-reg .canal{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--ink-3);}
+.linea-reg .qué{display:block;margin-top:1px;}
+.marca-est{
+  display:inline-block;font-size:10.5px;font-weight:600;letter-spacing:.04em;
+  text-transform:uppercase;padding:2px 7px;border-radius:2px;margin-top:4px;
+}
+.marca-est.prog{background:var(--acento-suave);color:var(--acento);}
+.marca-est.pub{background:var(--ok-suave);color:var(--ok);}
+.marca-est.borr{background:var(--surface-2);color:var(--ink-3);text-decoration:line-through;}
+.marca-est.dup{background:var(--alto-suave);color:var(--alto);}
+.panel-vacio{padding:20px 18px;font-size:13px;color:var(--ink-3);line-height:1.5;}
+.reserva{
+  display:flex;gap:14px;align-items:center;flex-wrap:wrap;
+  background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--acento);
+  border-radius:3px;padding:14px 18px;font-size:13.5px;
+}
+.reserva .canal-r{font-family:"IBM Plex Mono",monospace;font-weight:500;}
+.reserva .hasta{
+  font-family:"IBM Plex Mono",monospace;font-size:12px;
+  background:var(--acento-suave);color:var(--acento);padding:2px 9px;border-radius:2px;
+}
+.reserva .motivo{color:var(--ink-3);font-size:12.5px;flex:1;min-width:220px;}
+.pasos-coord{
+  counter-reset:paso;list-style:none;margin:22px 0 0;padding:0;
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;
+}
+.pasos-coord li{
+  background:var(--surface);border:1px solid var(--line);border-radius:3px;
+  padding:14px 16px;font-size:13px;color:var(--ink-2);
+}
+.pasos-coord li::before{
+  counter-increment:paso;content:counter(paso);
+  display:block;font-family:"IBM Plex Mono",monospace;font-size:11px;
+  color:var(--acento);font-weight:600;margin-bottom:6px;
+}
+.pasos-coord li b{color:var(--ink);font-weight:600;}
+
+/* ── Cola ────────────────────────────────────────────────────── */
+.cola{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--medio);border-radius:3px;}
 .cola-cab{
   padding:15px 20px;border-bottom:1px solid var(--line-soft);
   display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;
 }
 .cola-cab strong{font-size:14px;}
-.cola-cab .sello{
-  font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--ink-3);
-}
+.cola-cab .sello{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--ink-3);}
 .cola ol{margin:0;padding:6px 0;list-style:none;}
 .cola li{
   display:flex;align-items:center;gap:14px;flex-wrap:wrap;
@@ -235,9 +263,8 @@ section{margin-bottom:52px;}
 .cola li:first-child{border-top:0;}
 .cola .area-n{font-weight:600;min-width:160px;}
 .cola .ses{
-  font-family:"IBM Plex Mono",monospace;font-size:11.5px;
-  background:var(--surface-2);border:1px solid var(--line);
-  padding:1px 7px;border-radius:2px;color:var(--ink-2);
+  font-family:"IBM Plex Mono",monospace;font-size:11.5px;background:var(--surface-2);
+  border:1px solid var(--line);padding:1px 7px;border-radius:2px;color:var(--ink-2);
 }
 .cola .fecha{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--ink-3);}
 .cola .canal{margin-left:auto;font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--ink-3);}
@@ -245,10 +272,8 @@ section{margin-bottom:52px;}
 /* ── Tabla de áreas ──────────────────────────────────────────── */
 .filtros{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:16px;}
 .filtro{
-  font:inherit;font-size:12.5px;font-weight:500;
-  padding:5px 13px;border-radius:2px;cursor:pointer;
-  background:var(--surface);color:var(--ink-2);
-  border:1px solid var(--line);transition:.14s;
+  font:inherit;font-size:12.5px;font-weight:500;padding:5px 13px;border-radius:2px;cursor:pointer;
+  background:var(--surface);color:var(--ink-2);border:1px solid var(--line);transition:.14s;
 }
 .filtro:hover{border-color:var(--acento);color:var(--acento);}
 .filtro[aria-pressed="true"]{background:var(--acento);border-color:var(--acento);color:#fff;}
@@ -256,9 +281,8 @@ section{margin-bottom:52px;}
 .envoltura-tabla{overflow-x:auto;border:1px solid var(--line);border-radius:3px;}
 table{width:100%;border-collapse:collapse;font-size:13.5px;background:var(--surface);}
 th{
-  text-align:left;font-size:11px;font-weight:600;letter-spacing:.1em;
-  text-transform:uppercase;color:var(--ink-3);
-  padding:11px 16px;background:var(--surface-2);
+  text-align:left;font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink-3);padding:11px 16px;background:var(--surface-2);
   border-bottom:1px solid var(--line);white-space:nowrap;
 }
 td{padding:10px 16px;border-bottom:1px solid var(--line-soft);vertical-align:middle;}
@@ -266,10 +290,7 @@ tr:last-child td{border-bottom:0;}
 td.num{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;text-align:center;}
 td.canal-c{font-family:"IBM Plex Mono",monospace;font-size:12.5px;color:var(--ink-3);}
 .area-nombre{font-weight:600;}
-.chip{
-  display:inline-block;font-size:11.5px;font-weight:600;
-  padding:2px 9px;border-radius:2px;white-space:nowrap;
-}
+.chip{display:inline-block;font-size:11.5px;font-weight:600;padding:2px 9px;border-radius:2px;white-space:nowrap;}
 .chip.ok{background:var(--ok-suave);color:var(--ok);}
 .chip.atencion{background:var(--medio-suave);color:var(--medio);}
 .chip.riesgo{background:var(--alto-suave);color:var(--alto);}
@@ -277,33 +298,17 @@ td.canal-c{font-family:"IBM Plex Mono",monospace;font-size:12.5px;color:var(--in
 tr.oculta{display:none;}
 .vacio{padding:22px 16px;color:var(--ink-3);font-size:13px;}
 
-/* ── Decisiones ──────────────────────────────────────────────── */
-.decisiones{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;}
-.decision{
-  background:var(--surface);border:1px solid var(--line);
-  border-radius:4px;padding:18px 20px;
-}
-.decision h3{font-size:15px;margin-bottom:8px;line-height:1.3;}
-.decision p{margin:0;font-size:13.5px;color:var(--ink-2);}
-.decision .quien{
-  display:inline-block;margin-top:12px;font-size:11px;font-weight:600;
-  letter-spacing:.07em;text-transform:uppercase;color:var(--acento);
-}
-
 footer{
   margin-top:60px;padding-top:20px;border-top:1px solid var(--line);
-  font-size:12px;color:var(--ink-3);display:flex;gap:14px;
-  flex-wrap:wrap;align-items:center;
+  font-size:12px;color:var(--ink-3);display:flex;gap:14px;flex-wrap:wrap;align-items:center;
 }
 footer .anillo{width:8px;height:8px;border-width:2.5px;}
 
 @media (max-width:620px){
-  .flujo{min-width:560px;}
+  .flujo{min-width:600px;}
   .cola .canal{margin-left:0;width:100%;}
 }
-@media (prefers-reduced-motion:reduce){
-  *{transition:none !important;animation:none !important;}
-}
+@media (prefers-reduced-motion:reduce){*{transition:none !important;animation:none !important;}}
 </style>
 
 <header>
@@ -315,8 +320,9 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
     <h1>Sala de agentes</h1>
     <p class="entradilla">
       Dos agentes trabajando sobre el programa de Comfacesar. Lucía cierra cada sesión
-      y deja el acta en el canal del área; Elia mide cómo va el programa y avisa qué se está
-      quedando atrás. Este tablero es donde se ve lo que hicieron.
+      y deja el acta en el canal del área; Elia mide cómo va el programa y avisa qué se
+      está quedando atrás. Aquí se ve lo que hicieron — y, desde hoy, cómo se reparten
+      el turno para no pisarse en Slack.
     </p>
     <div class="meta-programa">
       <span>Proyecto <b>Comfacesar · IAM™ Intelligence</b></span>
@@ -341,82 +347,184 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
       <div class="de">En el programa completo</div>
     </div>
     <div class="cifra">
-      <div class="n">26</div>
-      <div class="et">Sesiones</div>
-      <div class="de">Al cierre del 24 de agosto</div>
+      <div class="n">2</div>
+      <div class="et">Actas de Lucía</div>
+      <div class="de">Contabilidad S2 · Cumplimiento S1</div>
     </div>
     <div class="cifra">
-      <div class="n">7</div>
-      <div class="et">En cola de Lucía</div>
-      <div class="de">Sesiones del 25 y 26 sin acta</div>
+      <div class="n">6</div>
+      <div class="et">En cola</div>
+      <div class="de">Sesiones del 25 sin acta</div>
     </div>
     <div class="cifra">
-      <div class="n">5</div>
-      <div class="et">Áreas rezagadas</div>
-      <div class="de">Sin arrancar o sin S2 agendada</div>
+      <div class="n">1</div>
+      <div class="et">Canal reservado</div>
+      <div class="de">#contabilidad, hasta el 30</div>
     </div>
   </div>
+
+  <!-- ── Coordinación ────────────────────────────────────── -->
+  <section>
+    <div class="tit-seccion">
+      <h2>Quién publicó qué en Slack</h2>
+      <span class="nota">Cada agente escribe su registro y lee el de la otra</span>
+    </div>
+
+    <div class="aviso-hueco">
+      <b>Por qué hace falta un registro.</b> Slack no permite consultar los mensajes
+      programados por API: un mensaje programado para mañana no aparece al leer el canal
+      hoy. Leer el canal muestra lo publicado, no lo que viene en camino — y ahí es donde
+      las dos se cruzaban.
+    </div>
+
+    <div class="dos-col">
+
+      <div class="panel">
+        <div class="panel-cab">
+          <span class="punto l"></span>
+          <strong>Lucía</strong>
+          <span class="ruta">agentes/lucia/registro-slack.md</span>
+        </div>
+        <div class="linea-reg">
+          <span class="sello">28 ago<br>08:00</span>
+          <div class="cont">
+            <span class="canal">#contabilidad</span>
+            <span class="qué">Acta Sesión 2 · Contabilidad, con las dos individuales</span>
+            <span class="marca-est prog">Programado</span>
+          </div>
+        </div>
+        <div class="linea-reg">
+          <span class="sello">26 ago<br>13:52</span>
+          <div class="cont">
+            <span class="canal">#contabilidad</span>
+            <span class="qué">Acta Sesión 2 · primera versión</span>
+            <span class="marca-est borr">Eliminado</span>
+          </div>
+        </div>
+        <div class="linea-reg">
+          <span class="sello">26 ago<br>13:52</span>
+          <div class="cont">
+            <span class="canal">#contabilidad</span>
+            <span class="qué">Canvas del acta — los canvas son de plan pago</span>
+            <span class="marca-est borr">Eliminado</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-cab">
+          <span class="punto e"></span>
+          <strong>Elia</strong>
+          <span class="ruta">registro aún sin crear</span>
+        </div>
+        <div class="linea-reg">
+          <span class="sello">26 ago<br>17:21</span>
+          <div class="cont">
+            <span class="canal">#contabilidad</span>
+            <span class="qué">"Carlos, la tuya quedó para el miércoles"</span>
+            <span class="marca-est pub">Publicado</span>
+          </div>
+        </div>
+        <div class="linea-reg">
+          <span class="sello">26 ago<br>13:54</span>
+          <div class="cont">
+            <span class="canal">#comunicaciones</span>
+            <span class="qué">Alerta de 5 días sin sesión — repetida a los 4 minutos</span>
+            <span class="marca-est dup">Duplicado</span>
+          </div>
+        </div>
+        <div class="linea-reg">
+          <span class="sello">26 ago<br>13:01</span>
+          <div class="cont">
+            <span class="canal">#contabilidad</span>
+            <span class="qué">"Ya quedó agendada la sesión 3" — la individual de Lisbeth</span>
+            <span class="marca-est pub">Publicado</span>
+          </div>
+        </div>
+        <div class="panel-vacio">
+          Estas tres las leí del canal, no de su registro: Elia todavía no lo ha creado.
+          Hasta que exista, el reparto depende de leer Slack — y eso deja fuera lo programado.
+        </div>
+      </div>
+
+    </div>
+
+    <div class="reserva">
+      <span class="canal-r">#contabilidad</span>
+      <span class="hasta">reservado hasta el 30 ago</span>
+      <span class="motivo">El acta del 28 ya anuncia las dos individuales del 1 y 2 de septiembre. Elia no escribe ahí hasta entonces.</span>
+    </div>
+
+    <ol class="pasos-coord">
+      <li>Leer el <b>contrato</b> de publicación</li>
+      <li>Leer el <b>registro de la otra</b>, incluido lo programado</li>
+      <li>Leer los <b>últimos cinco mensajes</b> del canal</li>
+      <li>Publicar y <b>anotarlo</b> en el registro propio</li>
+    </ol>
+  </section>
 
   <!-- ── Agentes ─────────────────────────────────────────── -->
   <section>
     <div class="tit-seccion">
       <h2>Los dos agentes</h2>
-      <span class="nota">Estado al 26 de agosto de 2026</span>
+      <span class="nota">Publican solo entre 8:00 a.m. y 5:00 p.m.</span>
     </div>
 
     <div class="agentes">
 
       <article class="agente">
         <div class="agente-cab">
-          <span class="inicial">L</span>
+          <span class="inicial l">L</span>
           <div>
             <h3>Lucía</h3>
-            <div class="rol">Cierre de sesión</div>
-          </div>
-          <span class="estado obra">En construcción</span>
-        </div>
-        <div class="agente-cuerpo">
-          <p>
-            Todos los días a las 7:00 p.m. revisa qué sesiones de Comfacesar terminaron,
-            arma el acta con la identidad IAM™ y la publica en el canal del área.
-          </p>
-          <ul class="rail">
-            <li><span class="paso">01</span><span class="que"><b>Lee la agenda</b> del día en Outlook y Teams</span></li>
-            <li><span class="paso">02</span><span class="que"><b>Recoge los insumos</b> de la carpeta en Dropbox</span></li>
-            <li><span class="paso">03</span><span class="que"><b>Escribe el acta</b> en PDF con identidad IAM™</span></li>
-            <li><span class="paso">04</span><span class="que"><b>Publica en Slack</b>: resumen, canvas y grabación</span></li>
-            <li><span class="paso">05</span><span class="que"><b>Archiva</b> en la carpeta de la sesión</span></li>
-          </ul>
-        </div>
-        <div class="agente-pie">
-          Motor de actas <b>funcionando</b> · falta conectar Dropbox y Slack
-        </div>
-      </article>
-
-      <article class="agente">
-        <div class="agente-cab">
-          <span class="inicial">E</span>
-          <div>
-            <h3>Elia</h3>
-            <div class="rol">Seguimiento del programa</div>
+            <div class="rol">Lo que ya pasó</div>
           </div>
           <span class="estado viva">Operando</span>
         </div>
         <div class="agente-cuerpo">
           <p>
-            Lleva la cuenta real de cómo avanza el programa área por área, mide el pulso
-            con la encuesta NPS y avisa cuándo un área lleva demasiado tiempo quieta.
+            A las 7 de la noche revisa qué sesiones terminaron, arma el acta con la
+            identidad IAM™ y la deja programada para las 8 de la mañana siguiente.
+            Durante el día recuerda cada reunión una hora antes.
           </p>
           <ul class="rail">
-            <li><span class="paso">01</span><span class="que"><b>Cuenta las sesiones</b> verificables por área</span></li>
-            <li><span class="paso">02</span><span class="que"><b>Segmenta los canales</b> según quién ya tuvo sesión</span></li>
-            <li><span class="paso">03</span><span class="que"><b>Lanza el pulso NPS</b> solo donde ya hubo sesión</span></li>
-            <li><span class="paso">04</span><span class="que"><b>Calcula el NPS</b> global y por área</span></li>
-            <li><span class="paso">05</span><span class="que"><b>Alerta</b> las áreas rezagadas de la semana</span></li>
+            <li><span class="paso l">01</span><span class="que"><b>Lee la agenda</b> del día en Outlook y Teams</span></li>
+            <li><span class="paso l">02</span><span class="que"><b>Recoge los insumos</b> de la carpeta en Dropbox</span></li>
+            <li><span class="paso l">03</span><span class="que"><b>Escribe el acta</b> en PDF con identidad IAM™</span></li>
+            <li><span class="paso l">04</span><span class="que"><b>Programa el mensaje</b> para las 8:00 a.m.</span></li>
+            <li><span class="paso l">05</span><span class="que"><b>Archiva</b> en la carpeta de la sesión</span></li>
           </ul>
         </div>
         <div class="agente-pie">
-          Esperando <b>18 soportes de sesión</b> para cerrar el corte
+          También: <b>recordatorio una hora antes</b> de cada reunión y registro de las cancelaciones
+        </div>
+      </article>
+
+      <article class="agente">
+        <div class="agente-cab">
+          <span class="inicial e">E</span>
+          <div>
+            <h3>Elia</h3>
+            <div class="rol">Lo que falta que pase</div>
+          </div>
+          <span class="estado obra">Sin registro</span>
+        </div>
+        <div class="agente-cuerpo">
+          <p>
+            Lleva la cuenta real de cómo avanza el programa área por área, mide el pulso
+            con la encuesta NPS y avisa cuándo un área lleva demasiado tiempo quieta.
+            Solo habla del silencio.
+          </p>
+          <ul class="rail">
+            <li><span class="paso e">01</span><span class="que"><b>Cuenta las sesiones</b> verificables por área</span></li>
+            <li><span class="paso e">02</span><span class="que"><b>Suma las cancelaciones</b> al indicador del canal</span></li>
+            <li><span class="paso e">03</span><span class="que"><b>Lanza el pulso NPS</b> solo donde ya hubo sesión</span></li>
+            <li><span class="paso e">04</span><span class="que"><b>Calcula el NPS</b> global y por área</span></li>
+            <li><span class="paso e">05</span><span class="que"><b>Alerta</b> las áreas rezagadas de la semana</span></li>
+          </ul>
+        </div>
+        <div class="agente-pie">
+          Pendiente: <b>crear su registro</b> y adoptar el contrato de publicación
         </div>
       </article>
 
@@ -426,8 +534,8 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
   <!-- ── Circuito ────────────────────────────────────────── -->
   <section>
     <div class="tit-seccion">
-      <h2>El circuito, de la reunión al tablero</h2>
-      <span class="nota">Lo que pasa cada noche a las 7:00</span>
+      <h2>El circuito, de la reunión al canal</h2>
+      <span class="nota">Trabaja de noche, habla de día</span>
     </div>
 
     <div class="circuito">
@@ -441,7 +549,7 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
         <div class="nodo">
           <div class="cuando">Al terminar</div>
           <div class="titulo">Carpeta en Dropbox</div>
-          <div class="detalle">Escritorio del Mac, una carpeta por área y sesión</div>
+          <div class="detalle">IAM™ Intelligence / N. Área / Sesion N</div>
         </div>
         <div class="flecha" aria-hidden="true">→</div>
         <div class="nodo destacado">
@@ -450,17 +558,17 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
           <div class="detalle">Todas las sesiones del día, en una sola corrida</div>
         </div>
         <div class="flecha" aria-hidden="true">→</div>
-        <div class="nodo">
-          <div class="cuando">19:10</div>
-          <div class="titulo">Canal del área</div>
-          <div class="detalle">Resumen, acta en canvas, grabación y archivos</div>
+        <div class="nodo destacado">
+          <div class="cuando">08:00 del día siguiente</div>
+          <div class="titulo">Sale en el canal</div>
+          <div class="detalle">Mensaje programado, dentro del horario laboral</div>
         </div>
       </div>
 
       <div class="salidas">
         <div class="salida">
           <span class="marca-s">→</span>
-          <div><b>El equipo del área</b><span>Recibe el acta la misma noche, con sus tareas y plazos</span></div>
+          <div><b>El equipo del área</b><span>Abre Slack y encuentra el acta con sus tareas y plazos</span></div>
         </div>
         <div class="salida">
           <span class="marca-s">→</span>
@@ -472,7 +580,7 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
         </div>
         <div class="salida">
           <span class="marca-s">→</span>
-          <div><b>Este tablero</b><span>Qué cerró, qué quedó pendiente y por qué</span></div>
+          <div><b>Este tablero</b><span>Qué cerró, qué quedó pendiente y qué está en camino</span></div>
         </div>
       </div>
     </div>
@@ -481,17 +589,16 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
   <!-- ── Cola ────────────────────────────────────────────── -->
   <section>
     <div class="tit-seccion">
-      <h2>Lo que Lucía procesaría esta noche</h2>
-      <span class="nota">Detectado en los chats de Teams</span>
+      <h2>Sesiones cerradas sin acta</h2>
+      <span class="nota">Detectadas en los chats de Teams</span>
     </div>
 
     <div class="cola">
       <div class="cola-cab">
-        <strong>7 sesiones cerradas sin acta publicada</strong>
-        <span class="sello">25–26 agosto 2026</span>
+        <strong>6 sesiones esperando insumos en Dropbox</strong>
+        <span class="sello">25 agosto 2026</span>
       </div>
       <ol>
-        <li><span class="area-n">Cumplimiento</span><span class="ses">S1</span><span class="fecha">26 ago</span><span class="canal">#cumplimiento</span></li>
         <li><span class="area-n">Mercadeo · Manuel José</span><span class="ses">S3 individual</span><span class="fecha">25 ago</span><span class="canal">#mercadeo</span></li>
         <li><span class="area-n">Mercadeo · Rina Ropaín</span><span class="ses">S3 individual</span><span class="fecha">25 ago</span><span class="canal">#mercadeo</span></li>
         <li><span class="area-n">Subsidio</span><span class="ses">S2</span><span class="fecha">25 ago</span><span class="canal">#subsidio</span></li>
@@ -506,15 +613,15 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
   <section>
     <div class="tit-seccion">
       <h2>Las 21 áreas</h2>
-      <span class="nota">Corte de Elia · 24 de agosto, 14:00</span>
+      <span class="nota">Corte del 26 de agosto</span>
     </div>
 
     <div class="filtros">
       <button class="filtro" data-filtro="todas" aria-pressed="true">Todas · 21</button>
-      <button class="filtro" data-filtro="ok" aria-pressed="false">Al día · 6</button>
-      <button class="filtro" data-filtro="atencion" aria-pressed="false">Falta agendar S2 · 6</button>
+      <button class="filtro" data-filtro="ok" aria-pressed="false">Al día · 9</button>
+      <button class="filtro" data-filtro="atencion" aria-pressed="false">Falta agendar · 5</button>
       <button class="filtro" data-filtro="riesgo" aria-pressed="false">Rezagadas · 3</button>
-      <button class="filtro" data-filtro="frio" aria-pressed="false">Sin arrancar · 6</button>
+      <button class="filtro" data-filtro="frio" aria-pressed="false">Sin arrancar · 4</button>
     </div>
 
     <div class="envoltura-tabla">
@@ -528,25 +635,25 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
           </tr>
         </thead>
         <tbody id="cuerpo-areas">
+          <tr data-estado="ok"><td class="area-nombre">Vivienda</td><td class="num">4</td><td class="canal-c">#vivienda</td><td><span class="chip ok">Adelantada</span></td></tr>
           <tr data-estado="ok"><td class="area-nombre">Comunicaciones</td><td class="num">3</td><td class="canal-c">#comunicaciones</td><td><span class="chip ok">Adelantada</span></td></tr>
-          <tr data-estado="ok"><td class="area-nombre">Jurídica</td><td class="num">2</td><td class="canal-c">#juridica</td><td><span class="chip ok">Al día</span></td></tr>
-          <tr data-estado="ok"><td class="area-nombre">Mercadeo</td><td class="num">2</td><td class="canal-c">#mercadeo</td><td><span class="chip ok">Al día</span></td></tr>
-          <tr data-estado="ok"><td class="area-nombre">Agencia de Empleo</td><td class="num">2</td><td class="canal-c">#agencia-de-empleo</td><td><span class="chip ok">Al día</span></td></tr>
-          <tr data-estado="ok"><td class="area-nombre">Servicios Sociales</td><td class="num">2</td><td class="canal-c">#serivcios-sociales</td><td><span class="chip ok">Al día</span></td></tr>
-          <tr data-estado="ok"><td class="area-nombre">Educación</td><td class="num">2</td><td class="canal-c">#educacion</td><td><span class="chip ok">Al día</span></td></tr>
+          <tr data-estado="ok"><td class="area-nombre">Mercadeo</td><td class="num">3</td><td class="canal-c">#mercadeo</td><td><span class="chip ok">Adelantada</span></td></tr>
+          <tr data-estado="ok"><td class="area-nombre">Agencia de Empleo</td><td class="num">3</td><td class="canal-c">#agencia-de-empleo</td><td><span class="chip ok">Adelantada</span></td></tr>
+          <tr data-estado="ok"><td class="area-nombre">Contabilidad</td><td class="num">2</td><td class="canal-c">#contabilidad</td><td><span class="chip ok">Individuales agendadas</span></td></tr>
+          <tr data-estado="ok"><td class="area-nombre">Jurídica</td><td class="num">2</td><td class="canal-c">#juridica</td><td><span class="chip ok">S3 el 31</span></td></tr>
+          <tr data-estado="ok"><td class="area-nombre">Servicios Sociales</td><td class="num">2</td><td class="canal-c">#serivcios-sociales</td><td><span class="chip ok">S4 el 31</span></td></tr>
+          <tr data-estado="ok"><td class="area-nombre">Educación</td><td class="num">2</td><td class="canal-c">#educacion</td><td><span class="chip ok">S3 el 31</span></td></tr>
+          <tr data-estado="ok"><td class="area-nombre">Subsidio</td><td class="num">2</td><td class="canal-c">#subsidio</td><td><span class="chip ok">Al día</span></td></tr>
+          <tr data-estado="riesgo"><td class="area-nombre">Tecnología</td><td class="num">2</td><td class="canal-c">#tecnologia</td><td><span class="chip riesgo">Sin acta cargada</span></td></tr>
           <tr data-estado="atencion"><td class="area-nombre">Sub Admin Financiera</td><td class="num">2</td><td class="canal-c">#sub-admin-y-financiera-infraestructura</td><td><span class="chip atencion">Falta agendar S3</span></td></tr>
-          <tr data-estado="atencion"><td class="area-nombre">Planeación</td><td class="num">1</td><td class="canal-c">#planeacion</td><td><span class="chip atencion">Falta agendar S2</span></td></tr>
+          <tr data-estado="ok"><td class="area-nombre">Cumplimiento</td><td class="num">1</td><td class="canal-c">#cumplimiento</td><td><span class="chip ok">S2 el 2 sept</span></td></tr>
+          <tr data-estado="ok"><td class="area-nombre">Talento Humano</td><td class="num">1</td><td class="canal-c">#talento-humano</td><td><span class="chip ok">S2 el 1 sept</span></td></tr>
+          <tr data-estado="ok"><td class="area-nombre">Sub Operativa</td><td class="num">1</td><td class="canal-c">#sub-operativa</td><td><span class="chip ok">S2 el 1 sept</span></td></tr>
+          <tr data-estado="atencion"><td class="area-nombre">Planeación</td><td class="num">1</td><td class="canal-c">#planeacion</td><td><span class="chip atencion">Gerencia el 3 sept</span></td></tr>
           <tr data-estado="atencion"><td class="area-nombre">Gerencia Financiera</td><td class="num">1</td><td class="canal-c">#gerencia-financiera</td><td><span class="chip atencion">Falta agendar S2</span></td></tr>
-          <tr data-estado="atencion"><td class="area-nombre">Contabilidad</td><td class="num">1</td><td class="canal-c">#contabilidad</td><td><span class="chip atencion">Falta agendar S2</span></td></tr>
           <tr data-estado="atencion"><td class="area-nombre">Tesorería</td><td class="num">1</td><td class="canal-c">#tesoreriaa</td><td><span class="chip atencion">Falta agendar S2</span></td></tr>
-          <tr data-estado="atencion"><td class="area-nombre">Sub Operativa</td><td class="num">1</td><td class="canal-c">#sub-operativa</td><td><span class="chip atencion">Falta agendar S2</span></td></tr>
-          <tr data-estado="riesgo"><td class="area-nombre">Vivienda</td><td class="num">1</td><td class="canal-c">#vivienda</td><td><span class="chip riesgo">Falta el acta</span></td></tr>
-          <tr data-estado="riesgo"><td class="area-nombre">Talento Humano</td><td class="num">1</td><td class="canal-c">#talento-humano</td><td><span class="chip riesgo">10 días sin sesión</span></td></tr>
-          <tr data-estado="riesgo"><td class="area-nombre">Tecnología</td><td class="num">1</td><td class="canal-c">#tecnologia</td><td><span class="chip riesgo">Sin acta ni grabación</span></td></tr>
-          <tr data-estado="frio"><td class="area-nombre">Subsidio</td><td class="num">1</td><td class="canal-c">#subsidio</td><td><span class="chip ok">Arrancó el 24</span></td></tr>
-          <tr data-estado="frio"><td class="area-nombre">IPS</td><td class="num">1</td><td class="canal-c">#ips</td><td><span class="chip ok">Arrancó el 24</span></td></tr>
-          <tr data-estado="frio"><td class="area-nombre">Cumplimiento</td><td class="num">0</td><td class="canal-c">#cumplimiento</td><td><span class="chip frio">Canal sin sesión</span></td></tr>
-          <tr data-estado="frio"><td class="area-nombre">Crédito</td><td class="num">0</td><td class="canal-c">#credito</td><td><span class="chip frio">Sin arrancar</span></td></tr>
+          <tr data-estado="riesgo"><td class="area-nombre">IPS</td><td class="num">1</td><td class="canal-c">#ips</td><td><span class="chip riesgo">Sin S2 agendada</span></td></tr>
+          <tr data-estado="riesgo"><td class="area-nombre">Crédito</td><td class="num">0</td><td class="canal-c">#credito</td><td><span class="chip riesgo">Sin arrancar</span></td></tr>
           <tr data-estado="frio"><td class="area-nombre">Presupuesto</td><td class="num">0</td><td class="canal-c">—</td><td><span class="chip frio">Cubierta en #planeacion</span></td></tr>
           <tr data-estado="frio"><td class="area-nombre">Dirección Admin</td><td class="num">0</td><td class="canal-c">—</td><td><span class="chip frio">Sin canal ni sesión</span></td></tr>
         </tbody>
@@ -555,53 +662,10 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
     </div>
   </section>
 
-  <!-- ── Decisiones ──────────────────────────────────────── -->
-  <section>
-    <div class="tit-seccion">
-      <h2>Lo que falta decidir</h2>
-      <span class="nota">Para que Lucía corra sola</span>
-    </div>
-
-    <div class="decisiones">
-      <div class="decision">
-        <h3>La carpeta de Dropbox</h3>
-        <p>
-          Confirmar el nombre y la estructura de la carpeta donde quedan los insumos de cada
-          sesión. Propuesta: <span class="mono">Comfacesar IA / Área / S1_2026-08-24</span>.
-        </p>
-        <span class="quien">Sandra</span>
-      </div>
-      <div class="decision">
-        <h3>Qué se publica en Slack</h3>
-        <p>
-          El acta va como canvas más enlaces, porque esta conexión de Slack no sube archivos.
-          Falta acordar qué dice el mensaje de acompañamiento.
-        </p>
-        <span class="quien">Sandra</span>
-      </div>
-      <div class="decision">
-        <h3>Sesiones individuales</h3>
-        <p>
-          En Calendly, grupales e individuales usan el mismo tipo de evento. Un segundo tipo
-          para los 1:1 separa los dos contadores sin registro manual.
-        </p>
-        <span class="quien">Sandra · Calendly</span>
-      </div>
-      <div class="decision">
-        <h3>Asistencia automática</h3>
-        <p>
-          Hoy el reporte de Teams se baja a mano. Con permiso de TI de Comfacesar, Lucía
-          podría bajarlo sola por Microsoft Graph.
-        </p>
-        <span class="quien">TI Comfacesar</span>
-      </div>
-    </div>
-  </section>
-
   <footer>
     <span class="anillo"></span>
     <span>IAM™ Intelligence · Sala de agentes</span>
-    <span>Datos verificados el 26 de agosto de 2026</span>
+    <span>Actualizado el 27 de agosto de 2026</span>
     <span>Sandra Curvelo · Mentora IAM™</span>
   </footer>
 
