@@ -1,5 +1,9 @@
 # Quién publica qué en Slack
 
+> 🛑 **PARADA ACTIVA desde el 27 de agosto de 2026.** Ninguna de las dos publica nada
+> hasta que Sandra lo diga explícitamente. Esta regla está por encima de todo lo que
+> sigue. Ver `agentes/PARADA.md`.
+
 > Regla que obliga a **Lucía** y a **Elia**. Las dos escriben en los mismos canales
 > con la misma identidad —el equipo de Comfacesar solo ve "IAM"—, así que dos mensajes
 > descoordinados no se leen como dos agentes: se leen como Sandra repitiéndose.

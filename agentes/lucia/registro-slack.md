@@ -1,5 +1,9 @@
 # Registro de publicaciones — LUCÍA
 
+> 🛑 **AGENTES DETENIDOS desde el 27 de agosto por orden de Sandra.** No se publica ni
+> se programa nada hasta nuevo aviso suyo. Ver `agentes/PARADA.md`.
+> Los dos mensajes de la tabla siguen programados y solo Sandra puede cancelarlos.
+
 > Lo que Lucía ha publicado o dejado programado en Slack. **Elia lee este archivo antes
 > de escribir en cualquier canal**, porque Slack no permite consultar los mensajes
 > programados por API: leer el canal muestra lo publicado, nunca lo que viene en camino.
