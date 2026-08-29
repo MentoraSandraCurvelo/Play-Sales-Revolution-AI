@@ -50,7 +50,7 @@
     {
       "valor": "1",
       "etiqueta": "Participantes",
-      "detalle": "Saharay Díaz"
+      "detalle": "Saharay Díaz Herrera"
     },
     {
       "valor": "100%",
@@ -89,7 +89,7 @@
       "nivel": "Experta"
     },
     {
-      "nombre": "Saharay Díaz",
+      "nombre": "Saharay Díaz Herrera",
       "cargo": "Cumplimiento / Gestión Ambiental — Comfacesar",
       "correo": "gestionambiental@comfacesar.com",
       "modalidad": "Virtual",
@@ -147,7 +147,7 @@
       "nivel": "CRITICO",
       "titulo": "Recuperar las tres semanas de atraso",
       "descripcion": "Cumplimiento es la última área en arrancar y el programa cierra en octubre. La Sesión 2 ya quedó agendada para el miércoles 2 de septiembre a las 4:00 p.m. — llegar con la configuración terminada es lo que permite recuperar el ritmo del resto de las áreas.",
-      "responsable": "Saharay Díaz + Sandra",
+      "responsable": "Saharay Díaz Herrera + Sandra",
       "plazo": "Antes del 2 sept"
     },
     {
@@ -155,7 +155,7 @@
       "nivel": "CRITICO",
       "titulo": "Activar cuenta propia de Claude",
       "descripcion": "Sin cuenta propia no se puede hacer un solo ejercicio práctico. La Sesión 2 es enteramente de trabajo sobre casos reales y no arranca sin esto resuelto.",
-      "responsable": "Saharay Díaz",
+      "responsable": "Saharay Díaz Herrera",
       "plazo": "Esta semana"
     },
     {
@@ -171,7 +171,7 @@
       "nivel": "OPORTUNIDAD",
       "titulo": "Definir el caso real de Cumplimiento para la Sesión 2",
       "descripcion": "La Sesión 1 se fue completa en configuración y el área todavía no puso sobre la mesa su proceso más pesado. Traer a la Sesión 2 un caso concreto —con sus archivos reales— es lo que convierte la herramienta en resultado.",
-      "responsable": "Saharay Díaz",
+      "responsable": "Saharay Díaz Herrera",
       "plazo": "Para Sesión 2"
     }
   ],
@@ -230,55 +230,55 @@
   "tareas": [
     {
       "tarea": "Llegar a la Sesión 2 del 2 de septiembre con la configuración terminada — el área lleva tres semanas de atraso",
-      "responsable": "Saharay Díaz",
+      "responsable": "Saharay Díaz Herrera",
       "prioridad": "URGENTE",
       "plazo": "Antes del 2 sept"
     },
     {
       "tarea": "Activar cuenta propia de Claude para poder trabajar los ejercicios",
-      "responsable": "Saharay Díaz",
+      "responsable": "Saharay Díaz Herrera",
       "prioridad": "URGENTE",
       "plazo": "Esta semana"
     },
     {
       "tarea": "Terminar la configuración de Claude: instrucción de precisión y \"acerca de ti\" completos",
-      "responsable": "Saharay Díaz",
+      "responsable": "Saharay Díaz Herrera",
       "prioridad": "URGENTE",
       "plazo": "Esta semana"
     },
     {
       "tarea": "Crear el proyecto del área en Claude con el Método CREA completo",
-      "responsable": "Saharay Díaz",
+      "responsable": "Saharay Díaz Herrera",
       "prioridad": "ALTA",
       "plazo": "Esta semana"
     },
     {
       "tarea": "Definir el caso real del área para trabajar en Sesión 2 y reunir sus archivos",
-      "responsable": "Saharay Díaz",
+      "responsable": "Saharay Díaz Herrera",
       "prioridad": "URGENTE",
       "plazo": "Para S2"
     },
     {
       "tarea": "Diligenciar la pestaña de Cumplimiento en el tablero de KPIs del proyecto",
-      "responsable": "Saharay Díaz",
+      "responsable": "Saharay Díaz Herrera",
       "prioridad": "ALTA",
       "plazo": "Esta semana"
     },
     {
       "tarea": "Ver la grabación de la Sesión 1 para repasar la configuración paso a paso",
-      "responsable": "Saharay Díaz",
+      "responsable": "Saharay Díaz Herrera",
       "prioridad": "ALTA",
       "plazo": "Esta semana"
     },
     {
       "tarea": "Conectar Google Drive y correo, con el criterio de seguridad acordado",
-      "responsable": "Saharay Díaz",
+      "responsable": "Saharay Díaz Herrera",
       "prioridad": "MEDIA",
       "plazo": "Esta semana"
     },
     {
       "tarea": "Descargar la app de Claude en el celular y verificar acceso al mismo proyecto",
-      "responsable": "Saharay Díaz",
+      "responsable": "Saharay Díaz Herrera",
       "prioridad": "MEDIA",
       "plazo": "Esta semana"
     }

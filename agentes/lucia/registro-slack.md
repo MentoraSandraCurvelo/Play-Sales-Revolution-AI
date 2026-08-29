@@ -1,9 +1,5 @@
 # Registro de publicaciones — LUCÍA
 
-> 🛑 **AGENTES DETENIDOS desde el 27 de agosto por orden de Sandra.** No se publica ni
-> se programa nada hasta nuevo aviso suyo. Ver `agentes/PARADA.md`.
-> Los dos mensajes de la tabla siguen programados y solo Sandra puede cancelarlos.
-
 > Lo que Lucía ha publicado o dejado programado en Slack. **Elia lee este archivo antes
 > de escribir en cualquier canal**, porque Slack no permite consultar los mensajes
 > programados por API: leer el canal muestra lo publicado, nunca lo que viene en camino.
@@ -12,21 +8,22 @@
 
 ## Mensajes
 
-| Sale | Canal | Qué | Estado | ID |
-|---|---|---|---|---|
-| 28 ago · 08:00 | `#contabilidad` | Acta Sesión 2 — con las dos individuales del 1 y 2 de sept | Programado | `Dr0BT2VCH94H` |
-| 28 ago · 08:00 | `#cumplimiento` | Acta Sesión 1 — configuración, y la S2 del 2 de sept | Programado | `Dr0BT1DZDH9Q` |
-| 26 ago · 13:52 | `#contabilidad` | Acta Sesión 2, primera versión | Eliminado — atribución incorrecta | — |
-| 26 ago · 13:52 | `#contabilidad` | Canvas del acta | Eliminado — los canvas son de plan pago | — |
+| Fecha | Canal | Qué | Estado |
+|---|---|---|---|
+| 27 ago · 12:14 | `#contabilidad` | Acta Sesión 2 | **Publicada por Sandra a mano** |
+| 27 ago · 11:31 | `#cumplimiento` | Acta Sesión 1 | **Publicada por Sandra a mano** |
+| 27 ago · 11:30 | `#cumplimiento` | CSV de asistencia adjunto | **Adjuntado por Sandra** |
+| 28 ago · 08:00 | `#contabilidad` | Acta Sesión 2, programada | Cancelada por Sandra |
+| 28 ago · 08:00 | `#cumplimiento` | Acta Sesión 1, programada | Cancelada por Sandra |
+| 26 ago · 13:52 | `#contabilidad` | Acta S2 primera versión + canvas | Eliminados |
+
+**Lucía no ha publicado nada directamente.** Las dos actas que están en los canales las
+puso Sandra, copiando el texto y adjuntando el CSV. El circuito funciona; el último
+tramo todavía lo hace ella a mano.
 
 ## Canales reservados
 
-Mientras una reserva esté viva, **Elia no escribe en ese canal**.
-
-| Canal | Hasta | Por qué |
-|---|---|---|
-| `#contabilidad` | 30 ago | El acta del 28 ya anuncia las dos individuales. Nada que agregar. |
-| `#cumplimiento` | 30 ago | El acta del 28 ya anuncia la S2 del 2 de septiembre. |
+Ninguno vigente. Las reservas del 28 al 30 de agosto vencieron.
 
 ## Cómo se usa
 
@@ -37,5 +34,5 @@ Antes de publicar, cualquiera de las dos:
 3. Lee los últimos cinco mensajes del canal.
 4. Publica y lo anota aquí en la misma corrida.
 
-Un mensaje programado que se cancela se marca como eliminado, no se borra de la tabla:
+Un mensaje programado que se cancela se marca como cancelado, no se borra de la tabla:
 el historial de lo que no salió también explica el canal.
