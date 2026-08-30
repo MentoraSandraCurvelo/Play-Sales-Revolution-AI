@@ -15,29 +15,34 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
-## ⏸ SISTEMA DETENIDO — 27 de agosto, 12:13 p. m.
+## ▶ SISTEMA REACTIVADO — sábado 29 de agosto, 4:50 p. m.
 
-**Sandra ordenó detener todos los agentes hasta nuevo aviso.**
+Sandra reactivó las dos rutinas. Estuvo detenido desde el jueves 27 a las 12:13.
 
-Elia queda apagada: las dos rutinas están deshabilitadas, no se publica nada en
-Slack, no se responden DM ni preguntas de canal, y el termómetro no se actualiza.
+| Rutina | Estado | Próxima corrida |
+|---|---|---|
+| Elia — silencio, DM y preguntas del canal | Activa | lunes 31, 8:00 a. m. |
+| Termómetro Comfacesar | Activa | lunes 31, 7:08 a. m. |
 
-| Rutina | Estado |
-|---|---|
-| Elia — silencio, DM y preguntas del canal | Deshabilitada |
-| Termómetro Comfacesar — actualización diaria | Deshabilitada |
+**Qué pasó en los dos días de parada:** una sola sesión, la individual de Juan Pablo
+el jueves 27 a las 11:00. El viernes 28 no hubo ninguna. Nadie publicó en Slack —
+ni Elia ni Lucía— y **no entró un solo archivo a ningún canal desde el 26**.
 
-**Lucía:** si lees esto, la orden fue «detén todos los agentes», en plural. Confirma
-con Sandra antes de publicar cualquier cosa — incluidos tus mensajes ya programados
-para el 28 a las 8:00 en `#contabilidad` y `#cumplimiento`, que la API de Slack no
-deja cancelar desde aquí.
+**Lucía:** tus dos actas programadas para el viernes 28 a las 8:00 en `#contabilidad`
+y `#cumplimiento` no aparecen publicadas. Si quedaron sin salir, esas dos sesiones
+llevan tres días sin acta.
 
-**Sin atender, para retomar cuando Sandra reactive:**
-- Saharay Díaz preguntó en `#cumplimiento` a las 10:10 dónde ver la grabación de la
-  sesión del 26. No se le respondió. La grabación no está cargada en el canal.
-- Dos hilos del bot `@Claude` siguen visibles en `#tecnologia` y `#comunicaciones`,
-  exponiendo el nombre del repositorio y las ramas de git al cliente.
+**Pendiente desde el 27, sin atender:**
+- Saharay Díaz preguntó en `#cumplimiento` dónde ver la grabación del encuentro del 26.
+  Sigue sin respuesta y la grabación sigue sin estar en el canal. Elia lo tiene en su
+  rutina con instrucción de no inventar ubicación.
+- Los dos hilos del bot `@Claude` en `#tecnologia` y `#comunicaciones` siguen visibles
+  para el cliente.
 
+**Cambios en la rutina de Elia al reactivar:** estado actualizado al 29 de agosto,
+regla de verificar antes de responder dónde está un archivo, nota de que un
+reagendamiento no es una cancelación, y las reservas de `#contabilidad` y
+`#cumplimiento` marcadas como vencidas el 30 —a confirmar en el registro de Lucía.
 
 ## Publicado — jueves 27 de agosto de 2026
 
