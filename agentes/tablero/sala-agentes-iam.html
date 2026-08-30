@@ -352,14 +352,14 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
       <div class="de">Contabilidad S2 · Cumplimiento S1</div>
     </div>
     <div class="cifra">
-      <div class="n">6</div>
+      <div class="n">7</div>
       <div class="et">En cola</div>
-      <div class="de">Sesiones del 25 sin acta</div>
+      <div class="de">Sin insumos en Dropbox</div>
     </div>
     <div class="cifra">
       <div class="n">2</div>
-      <div class="et">Programados</div>
-      <div class="de">Mañana 8:00 — y los dos canales reservados</div>
+      <div class="et">Actas en el canal</div>
+      <div class="de">Publicadas por Sandra a mano el 27</div>
     </div>
   </div>
 
@@ -371,10 +371,11 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
     </div>
 
     <div class="aviso-hueco">
-      <b>Por qué hace falta un registro.</b> Slack no permite consultar los mensajes
-      programados por API: un mensaje programado para mañana no aparece al leer el canal
-      hoy. Leer el canal muestra lo publicado, no lo que viene en camino — y ahí es donde
-      las dos se cruzaban.
+      <b>El último tramo todavía lo hace Sandra.</b> Las dos actas llegaron a sus canales
+      el 27 porque ella las publicó a mano y adjuntó el CSV. Lucía no ha publicado nada
+      todavía: la conexión de Slack no sube archivos, y la red del entorno rechaza
+      slack.com con 403, así que tampoco puede hacerlo por API. Ver
+      <span class="mono">GUIA-APP-SLACK.md</span>.
     </div>
 
     <div class="dos-col">
@@ -386,19 +387,27 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
           <span class="ruta">agentes/lucia/registro-slack.md</span>
         </div>
         <div class="linea-reg">
-          <span class="sello">28 ago<br>08:00</span>
+          <span class="sello">27 ago<br>12:14</span>
           <div class="cont">
             <span class="canal">#contabilidad</span>
-            <span class="qué">Acta Sesión 2 · Contabilidad, con las dos individuales</span>
-            <span class="marca-est prog">Programado</span>
+            <span class="qué">Acta Sesión 2 — la publicó Sandra a mano</span>
+            <span class="marca-est pub">En el canal</span>
+          </div>
+        </div>
+        <div class="linea-reg">
+          <span class="sello">27 ago<br>11:31</span>
+          <div class="cont">
+            <span class="canal">#cumplimiento</span>
+            <span class="qué">Acta Sesión 1 + CSV de asistencia — Sandra a mano</span>
+            <span class="marca-est pub">En el canal</span>
           </div>
         </div>
         <div class="linea-reg">
           <span class="sello">28 ago<br>08:00</span>
           <div class="cont">
-            <span class="canal">#cumplimiento</span>
-            <span class="qué">Acta Sesión 1 · Cumplimiento, con la S2 del 2 de septiembre</span>
-            <span class="marca-est prog">Programado</span>
+            <span class="canal">#contabilidad · #cumplimiento</span>
+            <span class="qué">Las dos actas, programadas</span>
+            <span class="marca-est borr">Canceladas</span>
           </div>
         </div>
         <div class="linea-reg">
@@ -424,6 +433,14 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
           <span class="punto e"></span>
           <strong>Elia</strong>
           <span class="ruta">registro aún sin crear</span>
+        </div>
+        <div class="linea-reg">
+          <span class="sello">27 ago<br>08:00</span>
+          <div class="cont">
+            <span class="canal">#contabilidad · #cumplimiento</span>
+            <span class="qué">"Cómo trabajamos en este canal" — los dos estaban reservados</span>
+            <span class="marca-est dup">Rompió la reserva</span>
+          </div>
         </div>
         <div class="linea-reg">
           <span class="sello">26 ago<br>17:21</span>
@@ -457,15 +474,10 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
 
     </div>
 
-    <div class="reserva" style="margin-bottom:12px;">
-      <span class="canal-r">#contabilidad</span>
-      <span class="hasta">reservado hasta el 30 ago</span>
-      <span class="motivo">El acta del 28 ya anuncia las dos individuales del 1 y 2 de septiembre. Elia no escribe ahí hasta entonces.</span>
-    </div>
     <div class="reserva">
-      <span class="canal-r">#cumplimiento</span>
-      <span class="hasta">reservado hasta el 30 ago</span>
-      <span class="motivo">El acta del 28 ya anuncia la Sesión 2 del 2 de septiembre. No hace falta un recordatorio aparte.</span>
+      <span class="canal-r">sin reservas vigentes</span>
+      <span class="hasta">vencieron el 30 ago</span>
+      <span class="motivo">Elia publicó en los dos canales reservados el 27 a las 8:00, antes de leer el contrato. Es el caso que la regla existe para evitar.</span>
     </div>
 
     <ol class="pasos-coord">
@@ -509,7 +521,7 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
           </ul>
         </div>
         <div class="agente-pie">
-          También: <b>recordatorio una hora antes</b> de cada reunión y registro de las cancelaciones
+          Bloqueada para publicar: <b>la red del entorno rechaza slack.com</b>
         </div>
       </article>
 
@@ -520,7 +532,7 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
             <h3>Elia</h3>
             <div class="rol">Lo que falta que pase</div>
           </div>
-          <span class="estado obra">Sin registro</span>
+          <span class="estado obra">Sin adoptar el contrato</span>
         </div>
         <div class="agente-cuerpo">
           <p>
@@ -608,8 +620,8 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
 
     <div class="cola">
       <div class="cola-cab">
-        <strong>6 sesiones esperando insumos en Dropbox</strong>
-        <span class="sello">25 agosto 2026</span>
+        <strong>7 sesiones esperando insumos en Dropbox</strong>
+        <span class="sello">25 y 27 de agosto</span>
       </div>
       <ol>
         <li><span class="area-n">Mercadeo · Manuel José</span><span class="ses">S3 individual</span><span class="fecha">25 ago</span><span class="canal">#mercadeo</span></li>
@@ -618,6 +630,7 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
         <li><span class="area-n">Vivienda</span><span class="ses">S4</span><span class="fecha">25 ago</span><span class="canal">#vivienda</span></li>
         <li><span class="area-n">Agencia de Empleo</span><span class="ses">S3</span><span class="fecha">25 ago</span><span class="canal">#agencia-de-empleo</span></li>
         <li><span class="area-n">Tecnología</span><span class="ses">S2</span><span class="fecha">25 ago</span><span class="canal">#tecnologia</span></li>
+        <li><span class="area-n">Servicios Sociales · Juan Pablo</span><span class="ses">S4 individual</span><span class="fecha">27 ago</span><span class="canal">#serivcios-sociales</span></li>
       </ol>
     </div>
   </section>
@@ -678,7 +691,7 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
   <footer>
     <span class="anillo"></span>
     <span>IAM™ Intelligence · Sala de agentes</span>
-    <span>Actualizado el 27 de agosto de 2026</span>
+    <span>Actualizado el sábado 29 de agosto de 2026</span>
     <span>Sandra Curvelo · Mentora IAM™</span>
   </footer>
 
