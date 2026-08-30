@@ -247,6 +247,33 @@ section{margin-bottom:52px;}
 }
 .pasos-coord li b{color:var(--ink);font-weight:600;}
 
+/* ── Agenda ─────────────────────────────────────────────────── */
+.dia{margin-bottom:18px;}
+.dia-cab{
+  display:flex;align-items:baseline;gap:12px;
+  padding-bottom:7px;margin-bottom:2px;border-bottom:1px solid var(--line);
+}
+.dia-cab .nombre{font-family:Caladea,Cambria,Georgia,serif;font-weight:700;font-size:15px;}
+.dia-cab .cuantas{
+  margin-left:auto;font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--ink-3);
+}
+.cita{
+  display:flex;gap:14px;align-items:baseline;flex-wrap:wrap;
+  padding:8px 0;border-bottom:1px solid var(--line-soft);font-size:13.5px;
+}
+.cita:last-child{border-bottom:0;}
+.cita .hora{
+  font-family:"IBM Plex Mono",monospace;font-size:12.5px;color:var(--acento);
+  font-weight:500;flex:none;width:74px;
+}
+.cita .area-c{font-weight:600;}
+.cita .tipo{
+  font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;
+  padding:1px 7px;border-radius:2px;background:var(--surface-2);color:var(--ink-3);
+}
+.cita .tipo.indiv{background:var(--elia-suave);color:var(--elia);}
+.cita .quien{margin-left:auto;color:var(--ink-3);font-size:12.5px;}
+
 /* ── Cola ────────────────────────────────────────────────────── */
 .cola{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--medio);border-radius:3px;}
 .cola-cab{
@@ -352,14 +379,14 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
       <div class="de">Contabilidad S2 · Cumplimiento S1</div>
     </div>
     <div class="cifra">
-      <div class="n">7</div>
+      <div class="n">1</div>
       <div class="et">En cola</div>
-      <div class="de">Sin insumos en Dropbox</div>
+      <div class="de">Con insumos listos, sin acta</div>
     </div>
     <div class="cifra">
-      <div class="n">2</div>
-      <div class="et">Actas en el canal</div>
-      <div class="de">Publicadas por Sandra a mano el 27</div>
+      <div class="n">13</div>
+      <div class="et">Sesiones esta semana</div>
+      <div class="de">Del 31 de agosto al 3 de septiembre</div>
     </div>
   </div>
 
@@ -615,23 +642,65 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
   <section>
     <div class="tit-seccion">
       <h2>Sesiones cerradas sin acta</h2>
-      <span class="nota">Detectadas en los chats de Teams</span>
+      <span class="nota">Las seis del 25 ya las cerró Sandra a mano</span>
     </div>
 
     <div class="cola">
       <div class="cola-cab">
-        <strong>7 sesiones esperando insumos en Dropbox</strong>
-        <span class="sello">25 y 27 de agosto</span>
+        <strong>Lista para cerrar — insumos completos en Dropbox</strong>
+        <span class="sello">subidos hoy, 11:04 a. m.</span>
       </div>
       <ol>
-        <li><span class="area-n">Mercadeo · Manuel José</span><span class="ses">S3 individual</span><span class="fecha">25 ago</span><span class="canal">#mercadeo</span></li>
-        <li><span class="area-n">Mercadeo · Rina Ropaín</span><span class="ses">S3 individual</span><span class="fecha">25 ago</span><span class="canal">#mercadeo</span></li>
-        <li><span class="area-n">Subsidio</span><span class="ses">S2</span><span class="fecha">25 ago</span><span class="canal">#subsidio</span></li>
-        <li><span class="area-n">Vivienda</span><span class="ses">S4</span><span class="fecha">25 ago</span><span class="canal">#vivienda</span></li>
-        <li><span class="area-n">Agencia de Empleo</span><span class="ses">S3</span><span class="fecha">25 ago</span><span class="canal">#agencia-de-empleo</span></li>
-        <li><span class="area-n">Tecnología</span><span class="ses">S2</span><span class="fecha">25 ago</span><span class="canal">#tecnologia</span></li>
-        <li><span class="area-n">Servicios Sociales · Juan Pablo</span><span class="ses">S4 individual</span><span class="fecha">27 ago</span><span class="canal">#serivcios-sociales</span></li>
+        <li><span class="area-n">Servicios Sociales · Juan Pablo</span><span class="ses">S4 individual</span><span class="fecha">27 ago</span><span class="canal">asistencia + transcripción</span></li>
       </ol>
+    </div>
+  </section>
+
+
+  <!-- ── La semana ───────────────────────────────────────── -->
+  <section>
+    <div class="tit-seccion">
+      <h2>La semana que viene</h2>
+      <span class="nota">13 sesiones en 4 días · hora Colombia</span>
+    </div>
+
+    <div class="panel" style="padding:20px 22px;">
+
+      <div class="dia">
+        <div class="dia-cab"><span class="nombre">Lunes 31 de agosto</span><span class="cuantas">4 sesiones</span></div>
+        <div class="cita"><span class="hora">10:00 a.m.</span><span class="area-c">Jurídica</span><span class="tipo">S3</span><span class="quien">Carlos Mario · Lilibeth · Renata</span></div>
+        <div class="cita"><span class="hora">11:00 a.m.</span><span class="area-c">Educación</span><span class="tipo">S3</span><span class="quien">Óscar · Julissa</span></div>
+        <div class="cita"><span class="hora">3:00 p.m.</span><span class="area-c">Servicios Sociales</span><span class="tipo">S5</span><span class="quien">Juan Pablo · Lilian Paola</span></div>
+        <div class="cita"><span class="hora">4:00 p.m.</span><span class="area-c">Tecnología</span><span class="tipo">S3</span><span class="quien">Olga Lucía</span></div>
+      </div>
+
+      <div class="dia">
+        <div class="dia-cab"><span class="nombre">Martes 1 de septiembre</span><span class="cuantas">3 sesiones</span></div>
+        <div class="cita"><span class="hora">10:00 a.m.</span><span class="area-c">Talento Humano</span><span class="tipo">S2</span><span class="quien">María Loretta · Roí David</span></div>
+        <div class="cita"><span class="hora">2:00 p.m.</span><span class="area-c">Contabilidad</span><span class="tipo indiv">Individual</span><span class="quien">Lisbeth Cuadrado</span></div>
+        <div class="cita"><span class="hora">3:00 p.m.</span><span class="area-c">Sub. Operativa y Comercial</span><span class="tipo">S3</span><span class="quien">Gennifer · Jhonatan</span></div>
+      </div>
+
+      <div class="dia">
+        <div class="dia-cab"><span class="nombre">Miércoles 2 de septiembre</span><span class="cuantas">5 sesiones — el día más cargado</span></div>
+        <div class="cita"><span class="hora">9:00 a.m.</span><span class="area-c">Jurídica</span><span class="tipo indiv">Individual</span><span class="quien">Lilibeth Costa</span></div>
+        <div class="cita"><span class="hora">10:00 a.m.</span><span class="area-c">IAM Ambassadors</span><span class="tipo">Contenido</span><span class="quien">María Elvira · métricas e IA</span></div>
+        <div class="cita"><span class="hora">11:00 a.m.</span><span class="area-c">Sub. Financiera</span><span class="tipo indiv">Individual</span><span class="quien">Rafael Solano</span></div>
+        <div class="cita"><span class="hora">2:00 p.m.</span><span class="area-c">Contabilidad</span><span class="tipo indiv">Individual</span><span class="quien">Carlos Lozano</span></div>
+        <div class="cita"><span class="hora">4:00 p.m.</span><span class="area-c">Cumplimiento</span><span class="tipo">S2</span><span class="quien">Saharay Díaz</span></div>
+      </div>
+
+      <div class="dia" style="margin-bottom:0;">
+        <div class="dia-cab"><span class="nombre">Jueves 3 de septiembre</span><span class="cuantas">1 sesión</span></div>
+        <div class="cita"><span class="hora">3:00 p.m.</span><span class="area-c">Planeación</span><span class="tipo">S2</span><span class="quien">Adriana Cotes · el grupo más grande</span></div>
+      </div>
+
+    </div>
+
+    <div class="reserva" style="margin-top:20px;border-left-color:var(--alto);">
+      <span class="canal-r">#planeacion</span>
+      <span class="hasta" style="background:var(--alto-suave);color:var(--alto);">sin responder</span>
+      <span class="motivo">Sandra Milena Hinojosa preguntó el 20 de agosto dónde ver la grabación de la sesión del 18. Diez días después sigue sin respuesta — y su área tiene sesión el jueves.</span>
     </div>
   </section>
 
@@ -691,7 +760,7 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
   <footer>
     <span class="anillo"></span>
     <span>IAM™ Intelligence · Sala de agentes</span>
-    <span>Actualizado el sábado 29 de agosto de 2026</span>
+    <span>Actualizado el 30 de agosto de 2026</span>
     <span>Sandra Curvelo · Mentora IAM™</span>
   </footer>
 
