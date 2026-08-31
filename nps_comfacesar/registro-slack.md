@@ -15,6 +15,40 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🚨 URGENTE — el bot @Claude expuso el repositorio al cliente · lunes 31, 8:00 a. m.
+
+**Los diez avisos salieron bien.** Pero en dos canales el bot `@Claude` respondió en
+hilo, en público, y dejó a la vista información interna.
+
+| Canal | Qué expuso |
+|---|---|
+| `#agencia-de-empleo` | El nombre del repositorio `Play-Sales-Revolution-AI` y la rama `claude/slack-session-zi7kz1` |
+| `#comunicaciones` | **En inglés:** que el repo es «a small Spanish-language Streamlit game, Sales Revolution AI: El Desafío», los archivos `app.py` y `logo.png`, la rama `claude/slack-session-e0yrpd`, y un bug de código (`st.experimental_rerun()` deprecado) |
+
+El de `#comunicaciones` es el grave: está en inglés, describe un producto interno de
+Sandra que no tiene nada que ver con Comfacesar, y **María Elvira Marulanda —la
+contraparte del cliente— es miembro de ese canal.**
+
+**Causa raíz, ahora confirmada.** Un mensaje publicado por la API de Slack con el token
+de la app sale con la firma «Enviado mediante @Claude». El bot lee esa firma como si
+Sandra le estuviera hablando, y responde. Como es miembro de esos dos canales, responde
+ahí, a la vista de todos.
+
+Es el mismo incidente del 27 de agosto en `#tecnologia` y `#comunicaciones`. **No se
+resolvió, y se repite en cada publicación programada.**
+
+**Solo Sandra puede arreglarlo** — no existe herramienta de API para borrar mensajes ni
+para sacar la app de un canal:
+1. Borrar los hilos del bot en `#agencia-de-empleo` y `#comunicaciones`.
+2. **Sacar la app Claude de todos los canales de Comfacesar.** Mientras siga dentro,
+   cada mensaje que publiquemos por API va a generar una respuesta pública del bot.
+
+**Mientras no se saque la app, no se debe programar ni publicar nada por API en
+`#agencia-de-empleo` ni en `#comunicaciones`.** Los otros ocho canales no tienen al bot
+como miembro y salieron limpios.
+
+---
+
 ## 📅 Programado — lunes 31 de agosto, 8:00 a. m.
 
 Sandra pidió avisar a los canales inactivos cuántos días llevan y en qué semana va el
