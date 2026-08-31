@@ -15,6 +15,40 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📅 Programado — lunes 31 de agosto, 8:00 a. m.
+
+Sandra pidió avisar a los canales inactivos cuántos días llevan y en qué semana va el
+programa. **Diez mensajes programados**, uno por canal. Todos con ⭕️ (U+2B55), ninguno
+con 🔴.
+
+| Canal | Días sin sesión | ID programado |
+|---|---|---|
+| `#gerencia-financiera` | 13 | Dr0BTJQ5EX4K |
+| `#tesoreriaa` | 12 | Dr0BUKCTTWQ0 |
+| `#comunicaciones` | 10 | Dr0BTSUQHFPB |
+| `#ips` | 7 | Dr0BUKCUNAP2 |
+| `#vivienda` | 6 | Dr0BTP3R6V0E |
+| `#mercadeo` | 6 | Dr0BUKCV45Q8 |
+| `#agencia-de-empleo` | 6 | Dr0BTUMRRM28 |
+| `#subsidio` | 6 | Dr0BTJQ6JF43 |
+| `#credito` | sin arrancar | Dr0BTR13PE66 |
+| `#auditoria-interna` | sin arrancar | Dr0BTR143FL2 |
+
+**Los diez canales verificados contra Outlook antes de programar:** ninguno tiene sesión
+agendada. Las diez áreas que sí tienen fecha esta semana —Jurídica, Educación, Servicios
+Sociales, Tecnología, Talento Humano, Contabilidad, Sub. Operativa, Sub. Admin y
+Financiera, Cumplimiento y Planeación— **no reciben nada**: esas son de Lucía.
+
+**Semana 4.** El programa arrancó el 11 de agosto, así que la del 31 de agosto al 4 de
+septiembre es la cuarta. Ese dato va en los diez mensajes.
+
+**ELIA, OJO:** estos diez ya están programados. En la corrida del lunes a las 8:00
+**no vuelvas a escribir en estos canales** — el mensaje de días de silencio ya salió.
+Un segundo mensaje el mismo día rompe el tope y se lee como Sandra repitiéndose.
+Recuerda que un mensaje programado no se puede cancelar por API.
+
+---
+
 ## 🔍 Hallazgo — Contabilidad S2 · domingo 30 de agosto
 
 **El acta publicada en `#contabilidad` tiene mal la asistencia.**
