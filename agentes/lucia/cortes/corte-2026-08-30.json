@@ -1,0 +1,97 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "kicker": "REPORTE DE CORTE · Semana 4 de agosto",
+  "titulo": "PROGRAMA IAM™ INTELLIGENCE",
+  "meta": "Corte al 30 de agosto de 2026 · Para María Elvira Marulanda, contraparte del proyecto",
+  "titulo_doc": "Corte del programa IAM™ Intelligence · Comfacesar · 30 agosto 2026",
+  "archivo": "REPORTE_Corte_Comfacesar_30Agosto2026",
+
+  "kpis": [
+    {"valor": "37", "etiqueta": "Sesiones ejecutadas", "detalle": "Del 11 al 27 de agosto"},
+    {"valor": "18", "etiqueta": "Áreas activas", "detalle": "De 21 en el alcance"},
+    {"valor": "13", "etiqueta": "Sesiones esta semana", "detalle": "Del 31 de agosto al 3 de septiembre"},
+    {"valor": "50", "etiqueta": "Al cerrar la semana", "detalle": "Acumulado del programa"},
+    {"valor": "3", "etiqueta": "Áreas sin arrancar", "detalle": "Crédito · Auditoría · Dirección Admin"},
+    {"valor": "5", "etiqueta": "Semanas restantes", "detalle": "El programa cierra en octubre"}
+  ],
+
+  "resumen": "En diecisiete días hábiles el programa pasó de cero a treinta y siete sesiones con dieciocho de las veintiuna áreas. Las que arrancaron primero ya no están configurando herramientas: están resolviendo trabajo real con ellas —conciliaciones contables, informes a Auditoría Interna, reportes a junta directiva— y registrando el tiempo que se ahorran. Esta semana se ejecutan trece sesiones más, incluidas seis individuales, y con eso el programa llega a cincuenta al cerrar el 3 de septiembre. El riesgo del corte no está en el ritmo sino en la cola: tres áreas siguen sin iniciar y quedan cinco semanas.",
+
+  "avance": [
+    {"area": "Vivienda", "sesiones": 4, "funcionarios": "2", "estado": "Ejercicios sobre casos reales"},
+    {"area": "Servicios Sociales", "sesiones": 4, "funcionarios": "2", "estado": "Informe a Auditoría asistido"},
+    {"area": "Mercadeo", "sesiones": 4, "funcionarios": "3", "estado": "Ya en sesiones individuales"},
+    {"area": "Comunicaciones", "sesiones": 3, "funcionarios": "5", "estado": "Actas generadas con IA"},
+    {"area": "Agencia de Empleo", "sesiones": 3, "funcionarios": "2", "estado": "Ejercicios del área"},
+    {"area": "Jurídica", "sesiones": 2, "funcionarios": "3", "estado": "Oficio quincenal mapeado"},
+    {"area": "Educación", "sesiones": 2, "funcionarios": "2", "estado": "En ejercicios prácticos"},
+    {"area": "Contabilidad", "sesiones": 2, "funcionarios": "2", "estado": "Conciliación de terceros"},
+    {"area": "Subsidio", "sesiones": 2, "funcionarios": "3", "estado": "Bot de cuota monetaria"},
+    {"area": "Tecnología", "sesiones": 2, "funcionarios": "1", "estado": "En ejercicios"},
+    {"area": "Sub. Admin. y Financiera", "sesiones": 1, "funcionarios": "3", "estado": "Individual esta semana"},
+    {"area": "Sub. Operativa", "sesiones": 1, "funcionarios": "2", "estado": "Sesión 3 esta semana"},
+    {"area": "Planeación", "sesiones": 1, "funcionarios": "6", "estado": "Sesión 2 esta semana"},
+    {"area": "Talento Humano", "sesiones": 1, "funcionarios": "2", "estado": "Sesión 2 esta semana"},
+    {"area": "Cumplimiento", "sesiones": 1, "funcionarios": "1", "estado": "Sesión 2 esta semana"},
+    {"area": "Gerencia Financiera", "sesiones": 1, "funcionarios": "3", "estado": "Falta agendar la 2"},
+    {"area": "Tesorería", "sesiones": 1, "funcionarios": "2", "estado": "Falta agendar la 2"},
+    {"area": "IPS", "sesiones": 1, "funcionarios": "1", "estado": "Falta agendar la 2"}
+  ],
+
+  "agenda": [
+    {"dia": "LUNES 31 DE AGOSTO", "citas": [
+      {"hora": "10:00 a.m.", "area": "Jurídica", "sesion": "Sesión 3", "quien": "Carlos Mario · Lilibeth · Renata"},
+      {"hora": "11:00 a.m.", "area": "Educación", "sesion": "Sesión 3", "quien": "Óscar · Julissa"},
+      {"hora": "3:00 p.m.", "area": "Servicios Sociales", "sesion": "Sesión 5", "quien": "Juan Pablo · Lilian Paola"},
+      {"hora": "4:00 p.m.", "area": "Tecnología", "sesion": "Sesión 3", "quien": "Olga Lucía"}
+    ]},
+    {"dia": "MARTES 1 DE SEPTIEMBRE", "citas": [
+      {"hora": "10:00 a.m.", "area": "Talento Humano", "sesion": "Sesión 2", "quien": "María Loretta · Roí David"},
+      {"hora": "2:00 p.m.", "area": "Contabilidad", "sesion": "Individual", "quien": "Lisbeth Cuadrado"},
+      {"hora": "3:00 p.m.", "area": "Sub. Operativa y Comercial", "sesion": "Sesión 3", "quien": "Gennifer · Jhonatan"}
+    ]},
+    {"dia": "MIÉRCOLES 2 DE SEPTIEMBRE", "citas": [
+      {"hora": "9:00 a.m.", "area": "Jurídica", "sesion": "Individual", "quien": "Lilibeth Costa"},
+      {"hora": "10:00 a.m.", "area": "IAM Ambassadors", "sesion": "Contenido", "quien": "María Elvira · métricas e IA"},
+      {"hora": "11:00 a.m.", "area": "Sub. Financiera", "sesion": "Individual", "quien": "Rafael Solano"},
+      {"hora": "2:00 p.m.", "area": "Contabilidad", "sesion": "Individual", "quien": "Carlos Lozano"},
+      {"hora": "4:00 p.m.", "area": "Cumplimiento", "sesion": "Sesión 2", "quien": "Saharay Díaz"}
+    ]},
+    {"dia": "JUEVES 3 DE SEPTIEMBRE", "citas": [
+      {"hora": "3:00 p.m.", "area": "Planeación", "sesion": "Sesión 2", "quien": "Adriana Cotes · el grupo más grande"}
+    ]}
+  ],
+
+  "alertas": [
+    {"num": "01", "nivel": "CRITICO", "titulo": "Tres áreas sin arrancar y cinco semanas de programa",
+     "descripcion": "Crédito, Auditoría Interna y Dirección Administrativa no han tenido su primera sesión. Cada semana que pasa reduce lo que alcanzan a construir: las áreas que arrancaron el 13 de agosto ya van en su cuarta sesión resolviendo trabajo real. Basta con que una persona de cada área agende para que entre el equipo completo.",
+     "responsable": "María Elvira + líderes de las tres áreas", "plazo": "Esta semana"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Tres áreas con una sola sesión y sin la siguiente agendada",
+     "descripcion": "Gerencia Financiera, Tesorería e IPS hicieron su primera sesión y no han agendado la segunda. Lo configurado en la sesión inicial se enfría si no se practica: es el punto donde el programa se pierde sin que se note.",
+     "responsable": "Líderes de área", "plazo": "Esta semana"},
+    {"num": "03", "nivel": "ALTO", "titulo": "Equipos y conectividad en las sesiones prácticas",
+     "descripcion": "Se han perdido bloques completos de sesión por micrófonos ausentes, portátiles que no llegaron y conexión inestable. En una sesión de una hora sobre datos reales, media hora en problemas técnicos es media sesión perdida. Vale la pena asegurar el puesto de trabajo antes de cada cita.",
+     "responsable": "Comfacesar — TI", "plazo": "Permanente"},
+    {"num": "OPP", "nivel": "OPORTUNIDAD", "titulo": "Los primeros resultados medibles ya están sobre la mesa",
+     "descripcion": "Servicios Sociales registró cuatro horas ahorradas en la presentación a junta directiva. Contabilidad probó en vivo la conciliación de relación de saldos de terceros, el proceso que más tiempo les consume. Subsidio identificó un bot de respuesta para la consulta más frecuente del área. Son tres casos con dueño, con datos reales y con fecha: el material del cierre de octubre se está construyendo ahora.",
+     "responsable": "Sandra Curvelo + líderes de área", "plazo": "Octubre"}
+  ],
+
+  "sin_arrancar": [
+    ["Crédito", "1", "Canal creado, sin sesión agendada"],
+    ["Auditoría Interna", "2", "Canal creado, sin sesión agendada"],
+    ["Dirección Administrativa", "1", "Sin canal ni sesión"]
+  ],
+
+  "observaciones": [
+    "El acumulado de 37 sesiones cuenta únicamente las de IAM™ Intelligence, verificadas contra el calendario. No incluye las sesiones de IAM™ Ambassadors ni el kick-off del 5 de agosto.",
+    "Seis de las trece sesiones de esta semana son individuales. Es la señal de que las áreas adelantadas pasaron del grupo al caso propio de cada persona.",
+    "Presupuesto participa dentro de Planeación, así que su cobertura ya está resuelta aunque no tenga canal propio.",
+    "Cada sesión queda documentada con acta, informe de asistencia y grabación en el canal de Slack del área. El archivo completo está en la carpeta del proyecto.",
+    "Las áreas que más rápido avanzan son las que traen un caso concreto a la sesión. Donde la sesión se dedica a configurar herramientas, el resultado tarda el doble.",
+    "Quedan cinco semanas de programa. El cierre de octubre se prepara con lo que se documente en septiembre."
+  ],
+
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 30 agosto 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
