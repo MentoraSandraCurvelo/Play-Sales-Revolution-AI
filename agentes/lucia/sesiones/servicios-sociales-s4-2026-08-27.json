@@ -1,0 +1,152 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SERVICIOS SOCIALES",
+  "area_completa": "Sesión individual · Juan Pablo Curvelo",
+  "sesion_num": 4,
+  "fase": "Ejercicios Prácticos",
+  "fecha": "27 de agosto de 2026",
+  "fecha_corta": "27 agosto 2026",
+  "subtitulo_meta": "27 de agosto de 2026 · 11:18 a.m. · 49 min · Individual — Microsoft Teams",
+
+  "datos_sesion": [
+    ["Área(s)", "Servicios Sociales — Comfacesar"],
+    ["Sesión", "N° 4 — Individual, segunda con Juan Pablo Curvelo"],
+    ["Fecha", "27 de agosto de 2026"],
+    ["Hora inicio", "11:18 a.m. — Colombia (sala abierta desde las 10:56 a.m.)"],
+    ["Duración de la sesión", "49 minutos (11:18 a.m. – 12:07 p.m.)"],
+    ["Modalidad", "Individual — Microsoft Teams"],
+    ["Correos Slack activados", "pro_juniorss@comfacesar.com"],
+    ["Grabación", "Por publicar en el canal Slack de Servicios Sociales"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+
+  "kpis": [
+    {"valor": "1", "etiqueta": "Participante", "detalle": "Juan Pablo Curvelo"},
+    {"valor": "100%", "etiqueta": "Asistencia", "detalle": "Sesión individual completa"},
+    {"valor": "2", "etiqueta": "Ejercicios", "detalle": "Tablero de KPIs · Informe de auditoría"},
+    {"valor": "4h", "etiqueta": "Ahorro registrado", "detalle": "Presentación de junta directiva"},
+    {"valor": "1", "icono": "punto-critico", "etiqueta": "Alerta Crítica", "detalle": "Sin equipo propio"},
+    {"valor": "", "icono": "estrella", "etiqueta": "Oportunidad", "detalle": "Informe de auditoría asistido"}
+  ],
+
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Juan Pablo Curvelo", "cargo": "Profesional Junior — Servicios Sociales", "correo": "pro_juniorss@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+
+  "mapa_calor_intro": "Riesgos identificados en la sesión individual, sobre el caso real del informe a Auditoría Interna.",
+
+  "riesgos": [
+    {"titulo": "Sin equipo propio en la sesión", "nivel": "CRITICO",
+     "descripcion": "\"El portátil mío se me quedó.\" Trabajó desde otro equipo, sin micrófono y con internet inestable: tuvo que escribir en vez de dictar y reenviar archivos. Una sesión práctica sin las herramientas del puesto rinde a la mitad.",
+     "responsable": "Juan Pablo / Antes de la próxima"},
+    {"titulo": "El informe de auditoría llega en PDF", "nivel": "ALTO",
+     "descripcion": "Los lineamientos y el informe base llegan en PDF, un formato pensado para leer y no para procesar. Cada ciclo empieza extrayendo a mano lo que ya venía estructurado en el origen.",
+     "responsable": "Juan Pablo + Auditoría / S5"},
+    {"titulo": "El agendamiento sigue sin probarse", "nivel": "ALTO",
+     "descripcion": "Quedó pendiente de sesiones anteriores y volvió a quedar pendiente. Es de los usos que más tiempo libera y todavía no se ha tocado.",
+     "responsable": "Juan Pablo / Esta semana"},
+    {"titulo": "Taller pendiente sin fecha", "nivel": "MEDIO",
+     "descripcion": "Mencionó un taller del área que sigue en la lista sin fecha asignada. Sin fecha no entra al plan de trabajo ni se puede apoyar con IA.",
+     "responsable": "Juan Pablo / Definir"},
+    {"titulo": "El proyecto quedó a medio configurar", "nivel": "MEDIO",
+     "descripcion": "Se creó el proyecto de Claude con el contexto y los dos documentos, pero la validación del resultado quedó para después de la sesión.",
+     "responsable": "Juan Pablo / Esta semana"},
+    {"titulo": "Registro disciplinado en el tablero", "nivel": "BAJO",
+     "descripcion": "Cargó el ahorro de la presentación de junta directiva apenas se lo pidieron, con el dato real de horas. Es de las áreas que mejor alimenta el tablero del programa.",
+     "responsable": "Monitorear"}
+  ],
+
+  "alertas": [
+    {"num": "01", "nivel": "CRITICO", "titulo": "Llegar con el equipo de trabajo completo",
+     "descripcion": "Portátil propio, micrófono y conexión estable. En la sesión de hoy la mitad del tiempo se fue en reenviar archivos y en escribir lo que se podía dictar. Las sesiones prácticas se trabajan sobre el puesto real, no sobre un equipo prestado.",
+     "responsable": "Juan Pablo Curvelo", "plazo": "Próxima sesión"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Pedir el informe de auditoría en formato editable",
+     "descripcion": "Si Auditoría Interna envía el archivo en Excel o Word en vez de PDF, el ciclo completo se acorta y desaparece el paso de extraer a mano. Vale la pena pedirlo: el dato ya existe estructurado del otro lado.",
+     "responsable": "Juan Pablo + Auditoría Interna", "plazo": "Esta semana"},
+    {"num": "03", "nivel": "ALTO", "titulo": "Probar el agendamiento de una vez",
+     "descripcion": "Lleva dos sesiones aplazándose. Es de los usos que más tiempo libera en el día a día y no requiere preparación previa: se prueba con la agenda de esta semana.",
+     "responsable": "Juan Pablo Curvelo", "plazo": "Esta semana"},
+    {"num": "OPP", "nivel": "OPORTUNIDAD", "titulo": "Informe a Auditoría Interna asistido con semaforización",
+     "descripcion": "El informe que hoy se arma a mano puede salir del proyecto de Claude con las cifras revisadas, la justificación redactada y los hallazgos semaforizados en informe, acción y atención. Con el ejemplo de auditoría cargado, la IA produce la versión mejorada sobre el mismo formato que ellos esperan recibir.",
+     "responsable": "Juan Pablo + Sandra", "plazo": "Sesión 5"}
+  ],
+
+  "ejercicios": [
+    {"titulo": "Ejercicio A · Registro del ahorro en el tablero del programa", "duracion": "~8 min",
+     "objetivo": "Dejar cargado en el tablero de KPIs el resultado real de un trabajo hecho con IA, para que el ahorro del área quede medido y no dependa de la memoria.",
+     "pasos": [
+       "Abrir el tablero de KPIs del programa y bajar hasta la pestaña de Servicios Sociales",
+       "Ubicar la fila de la presentación de MMI para junta directiva",
+       "Registrar la herramienta utilizada: Claude",
+       "Anotar el tiempo real que tomó el trabajo — cuatro horas, no una estimación",
+       "Guardar y cerrar: el dato queda en el tablero del programa"
+     ]},
+    {"titulo": "Ejercicio B · Proyecto de Claude para el informe a Auditoría Interna", "duracion": "~40 min",
+     "objetivo": "Montar el proyecto que convierte el informe de recreación y deporte —hoy armado a mano— en un entregable revisado, justificado y semaforizado, sobre el mismo formato que espera Auditoría Interna.",
+     "pasos": [
+       "Entrar a Claude y crear un proyecto nuevo para el caso de auditoría",
+       "Escribir el CONTEXTO: qué informe es, de dónde viene y a quién se entrega",
+       "Definir el ROL: actuar como auditor interno de Comfacesar, con manejo de cifras",
+       "Explicar cómo se justifica cada cifra, que es lo que auditoría revisa",
+       "Dictar el contexto por audio o escribirlo — cualquiera de las dos sirve",
+       "Subir primero el documento grande: el informe largo del área",
+       "Subir después el ejemplo del formato que envía Auditoría Interna",
+       "Pedir que revise el informe y haga una propuesta de mejora sobre ese ejemplo",
+       "Acotar el alcance al área de recreación y deporte",
+       "Solicitar la semaforización de hallazgos: informe, acción y atención",
+       "Revisar lo que quedó marcado en rojo y pedir el paso a paso de cada punto",
+       "Definir la salida: correo a Auditoría Interna y copia a la subdirección"
+     ]}
+  ],
+
+  "oportunidades": [
+    {"encabezado": "OPORTUNIDAD TRABAJADA EN SESIÓN · 27 agosto 2026",
+     "titulo": "El informe a Auditoría Interna — de cuatro horas a una revisión",
+     "descripcion": "El informe de recreación y deporte se arma hoy a mano: se lee el PDF que envía Auditoría Interna, se cruzan las anotaciones del Excel del área y se redacta la justificación de cada cifra. Con los dos documentos cargados en el proyecto de Claude, la IA entrega la versión mejorada sobre el mismo formato, con los hallazgos semaforizados y la justificación redactada. El trabajo de Juan Pablo pasa de redactar a revisar.",
+     "estado": "Proyecto creado en sesión con los dos documentos cargados",
+     "proximo_paso": "Validar el resultado contra el informe hecho a mano y ajustar el contexto",
+     "target": "Sesión 5"}
+  ],
+
+  "tareas_intro": "La Sesión 5 del área es el lunes 31 de agosto a las 3:00 p. m. Lo de esta semana se valida ahí.",
+
+  "tareas": [
+    {"tarea": "Llegar con portátil propio, micrófono y conexión estable", "responsable": "Juan Pablo Curvelo", "prioridad": "URGENTE", "plazo": "Próxima sesión"},
+    {"tarea": "Validar el informe que produjo Claude contra el que se armó a mano", "responsable": "Juan Pablo Curvelo", "prioridad": "URGENTE", "plazo": "Esta semana"},
+    {"tarea": "Pedirle a Auditoría Interna el informe en formato editable, no en PDF", "responsable": "Juan Pablo Curvelo", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Probar el agendamiento con la agenda real de la semana", "responsable": "Juan Pablo Curvelo", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Terminar de afinar el contexto del proyecto con lo que falte", "responsable": "Juan Pablo Curvelo", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Definir fecha del taller pendiente del área", "responsable": "Juan Pablo Curvelo", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Seguir registrando en el tablero el ahorro de cada tarea trabajada con IA", "responsable": "Juan Pablo Curvelo", "prioridad": "MEDIA", "plazo": "Permanente"}
+  ],
+
+  "observaciones": [
+    "La sesión se trabajó sobre un caso real y en curso: el informe de recreación y deporte que Servicios Sociales entrega a Auditoría Interna.",
+    "Quedó registrado en el tablero del programa el ahorro de la presentación de MMI para junta directiva: cuatro horas de trabajo resueltas con Claude.",
+    "El circuito completo quedó mapeado en sesión: el informe llega de Auditoría en PDF, se cruza con el Excel del área, y el resultado vuelve por correo a Auditoría con copia a la subdirección.",
+    "Se pidió expresamente la semaforización en tres niveles —informe, acción y atención— para que el destinatario vea de una qué necesita revisión.",
+    "Los problemas de equipo marcaron el ritmo: sin micrófono hubo que escribir los prompts, y la conexión obligó a reenviar los archivos más de una vez.",
+    "El agendamiento sigue pendiente por segunda sesión consecutiva. No requiere preparación, solo decidir probarlo.",
+    "El informe de Teams registra 1 h 11 min porque la sala quedó abierta desde las 10:56. El trabajo efectivo fue de 49 minutos.",
+    "Servicios Sociales es de las áreas más avanzadas del programa: esta es su cuarta sesión y la segunda individual de Juan Pablo."
+  ],
+
+  "proxima_sesion": {
+    "sesion": "Sesión 5 — Servicios Sociales, grupal",
+    "condiciones": [
+      "Lunes 31 de agosto · 3:00 p. m.",
+      "Informe validado contra la versión hecha a mano",
+      "Equipo de trabajo completo",
+      "Agendamiento ya probado"
+    ],
+    "agendamiento": [
+      "Ya está agendada — Juan Pablo y Lilian Paola",
+      "Desde el link de Calendly en el canal de Servicios Sociales",
+      "Sandra disponible en exclusiva para Comfacesar"
+    ]
+  },
+
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 27 agosto 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

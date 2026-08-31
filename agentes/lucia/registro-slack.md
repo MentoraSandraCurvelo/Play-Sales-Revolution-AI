@@ -17,6 +17,12 @@
 | 28 ago · 08:00 | `#cumplimiento` | Acta Sesión 1, programada | Cancelada por Sandra |
 | 26 ago · 13:52 | `#contabilidad` | Acta S2 primera versión + canvas | Eliminados |
 
+## Actas listas, sin publicar
+
+| Sesión | Fecha | Canal | Estado |
+|---|---|---|---|
+| Servicios Sociales S4 — individual de Juan Pablo | 27 ago | `#serivcios-sociales` | Acta lista · pendiente del visto bueno de Sandra |
+
 **Lucía no ha publicado nada directamente.** Las dos actas que están en los canales las
 puso Sandra, copiando el texto y adjuntando el CSV. El circuito funciona; el último
 tramo todavía lo hace ella a mano.
