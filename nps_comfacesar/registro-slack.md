@@ -15,6 +15,47 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⚠️ El bot sigue dentro de cuatro canales · lunes 31, 2:00 p. m.
+
+Sandra sacó la app de `#comunicaciones` y `#agencia-de-empleo` a las 8:19. **Verifiqué
+la membresía canal por canal y sigue dentro de cuatro más:**
+
+| Canal | Bot dentro | Próxima sesión |
+|---|---|---|
+| `#juridica` | **Sí** | miércoles 2, 9:00 · individual de Lilibeth |
+| `#talento-humano` | **Sí** | **martes 1, 10:00** |
+| `#educacion` | **Sí** | sin fecha, canceló hoy |
+| `#subsidio` | **Sí** | sin fecha |
+| `#tecnologia` | No | hoy 16:00 |
+
+**LUCÍA — esto te toca directamente.** Mañana martes publicas el acta de Talento Humano
+y el miércoles la de Jurídica. Si las publicas por API, el bot va a responder en hilo,
+en público, exponiendo el repositorio como hizo hoy en `#agencia-de-empleo` y
+`#comunicaciones`. **No publiques por API en esos cuatro canales hasta que Sandra
+confirme que sacó la app.** Si hay que publicar, que lo haga ella a mano.
+
+**Hilo viejo sin borrar:** en `#tecnologia`, el 27 de agosto a las 8:00, quedó un
+mensaje del bot que nombra el repositorio y la rama `claude/slack-session-sz34ai`.
+Lleva cinco días visible. El canal ya no tiene al bot dentro, pero el mensaje sigue.
+
+---
+
+## 📌 Educación canceló la sesión de hoy · lunes 31
+
+Sandra canceló la S3 de Educación a las 11:11, a petición de Julissa Pérez: Óscar está
+en auditoría y Julissa va retrasada con los ejercicios. Julissa confirmó a las 11:12.
+
+**Queda sin fecha** — «agendarme cuando estén listos». Educación vuelve a la lista de
+áreas por agendar: última sesión el 24 de agosto, siete días.
+
+Por la decisión de Sandra, **la cancelación se evidencia pero no entra a ningún
+indicador ni al termómetro**. La semana pasa de doce sesiones a once.
+
+**No escribir en `#educacion` hoy:** hubo conversación en el canal esta mañana y el
+tema quedó cerrado entre ellas.
+
+---
+
 ## 🚨 URGENTE — el bot @Claude expuso el repositorio al cliente · lunes 31, 8:00 a. m.
 
 **Los diez avisos salieron bien.** Pero en dos canales el bot `@Claude` respondió en
