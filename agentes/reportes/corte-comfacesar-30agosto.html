@@ -1,0 +1,351 @@
+<title>Corte Comfacesar · Agosto</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+
+<style>
+:root{
+  --rojo:#B71C1C;
+  --rojo-suave:#FBEEEE;
+  --alto:#BF360C;
+  --alto-suave:#FBECE6;
+  --medio:#E65100;
+  --medio-suave:#FDF0E6;
+  --verde:#2E7D32;
+  --verde-suave:#EAF3EA;
+  --tinta:#1A1614;
+  --tinta-2:#4A423F;
+  --tinta-3:#7C7370;
+  --fondo:#FAF8F7;
+  --papel:#FFFFFF;
+  --papel-2:#F5F2F1;
+  --linea:#E4DEDC;
+  --linea-suave:#EFEAE8;
+  --barra-vacia:#E8E2E0;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --rojo:#E76060; --rojo-suave:#2E1C1B;
+    --alto:#EE7248; --alto-suave:#2D1D17;
+    --medio:#F58A3C; --medio-suave:#2E2118;
+    --verde:#6FBF73; --verde-suave:#1B271C;
+    --tinta:#F3EEEC; --tinta-2:#C3B9B5; --tinta-3:#8B807C;
+    --fondo:#151110; --papel:#1E1917; --papel-2:#262020;
+    --linea:#332B29; --linea-suave:#2A2322; --barra-vacia:#332B29;
+  }
+}
+:root[data-theme="dark"]{
+  --rojo:#E76060; --rojo-suave:#2E1C1B;
+  --alto:#EE7248; --alto-suave:#2D1D17;
+  --medio:#F58A3C; --medio-suave:#2E2118;
+  --verde:#6FBF73; --verde-suave:#1B271C;
+  --tinta:#F3EEEC; --tinta-2:#C3B9B5; --tinta-3:#8B807C;
+  --fondo:#151110; --papel:#1E1917; --papel-2:#262020;
+  --linea:#332B29; --linea-suave:#2A2322; --barra-vacia:#332B29;
+}
+
+*{box-sizing:border-box;}
+body{
+  margin:0;background:var(--fondo);color:var(--tinta);
+  font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;
+}
+.hoja{max-width:760px;margin:0 auto;padding:0 20px 72px;}
+h1,h2,h3{font-family:Caladea,Cambria,Georgia,serif;margin:0;text-wrap:balance;}
+
+/* Cabecera */
+.cabecera{background:var(--rojo);color:#fff;padding:32px 24px 34px;}
+.cab-in{max-width:760px;margin:0 auto;}
+.marca{display:flex;align-items:center;gap:9px;margin-bottom:18px;}
+.anillo{width:12px;height:12px;border-radius:50%;border:3px solid #fff;flex:none;}
+.marca span{font-family:Caladea,Cambria,Georgia,serif;font-weight:700;font-size:15px;letter-spacing:.02em;}
+.kicker{font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;opacity:.9;margin-bottom:10px;}
+.cabecera h1{font-size:clamp(26px,6vw,38px);line-height:1.12;margin-bottom:12px;}
+.para{font-style:italic;font-size:14.5px;opacity:.95;line-height:1.5;}
+
+/* Cifras */
+.cifras{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+  gap:1px;background:var(--linea);border:1px solid var(--linea);
+  border-radius:3px;overflow:hidden;margin:-22px 0 36px;box-shadow:0 6px 24px -14px rgba(0,0,0,.3);
+}
+.cifra{background:var(--papel);padding:16px 18px 14px;}
+.cifra .n{
+  font-family:Caladea,Cambria,Georgia,serif;font-weight:700;font-size:30px;
+  line-height:1;color:var(--rojo);margin-bottom:5px;font-variant-numeric:tabular-nums;
+}
+.cifra .et{font-size:12.5px;font-weight:600;margin-bottom:2px;}
+.cifra .de{font-size:11.5px;color:var(--tinta-3);line-height:1.35;}
+
+/* Secciones */
+section{margin-bottom:40px;}
+h2{
+  font-size:15px;letter-spacing:.05em;color:var(--rojo);text-transform:uppercase;
+  padding-bottom:8px;border-bottom:1.5px solid var(--rojo);margin-bottom:18px;
+}
+h2 .n{font-family:"IBM Plex Sans",sans-serif;font-weight:600;margin-right:9px;opacity:.65;}
+.parrafo{color:var(--tinta-2);font-size:16px;margin:0 0 16px;}
+.parrafo strong{color:var(--tinta);font-weight:600;}
+
+/* Áreas */
+.area{
+  display:grid;grid-template-columns:1fr auto;gap:4px 14px;
+  padding:12px 0;border-bottom:1px solid var(--linea-suave);
+}
+.area:last-child{border-bottom:0;}
+.area .nombre{font-weight:600;font-size:15px;}
+.area .ses{
+  font-family:Caladea,Cambria,Georgia,serif;font-weight:700;font-size:19px;
+  color:var(--rojo);text-align:right;line-height:1;align-self:center;
+}
+.area .pista{grid-column:1/-1;display:flex;align-items:center;gap:12px;}
+.area .riel{flex:1;height:7px;background:var(--barra-vacia);border-radius:1px;overflow:hidden;}
+.area .lleno{display:block;height:7px;background:var(--rojo);}
+.area .estado{font-size:12.5px;color:var(--tinta-3);flex:none;max-width:52%;text-align:right;}
+
+/* Agenda */
+.dia{margin-bottom:14px;border:1px solid var(--linea);border-radius:3px;overflow:hidden;}
+.dia-cab{
+  background:var(--papel-2);padding:10px 16px;font-family:Caladea,Cambria,Georgia,serif;
+  font-weight:700;font-size:14.5px;display:flex;justify-content:space-between;
+  align-items:baseline;gap:10px;border-bottom:1px solid var(--linea);
+}
+.dia-cab .cuantas{font-family:"IBM Plex Sans",sans-serif;font-size:12px;font-weight:500;color:var(--tinta-3);}
+.cita{
+  display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline;
+  padding:10px 16px;border-bottom:1px solid var(--linea-suave);background:var(--papel);font-size:14.5px;
+}
+.cita:last-child{border-bottom:0;}
+.cita .hora{font-weight:600;color:var(--rojo);flex:none;min-width:76px;font-variant-numeric:tabular-nums;}
+.cita .area-n{font-weight:600;}
+.cita .tipo{
+  font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;
+  padding:2px 8px;border-radius:2px;background:var(--papel-2);color:var(--tinta-3);
+}
+.cita .tipo.ind{background:var(--rojo-suave);color:var(--rojo);}
+.cita .quien{width:100%;font-size:13px;color:var(--tinta-3);padding-left:88px;}
+
+/* Alertas */
+.alerta{margin-bottom:16px;border-radius:3px;overflow:hidden;border:1px solid var(--linea);}
+.alerta .titulo{padding:11px 16px;color:#fff;font-weight:600;font-size:15px;}
+.alerta.critica .titulo{background:var(--rojo);}
+.alerta.alta .titulo{background:var(--alto);}
+.alerta.opp .titulo{background:#1A1A1A;}
+.alerta .cuerpo{padding:14px 16px;background:var(--papel);font-size:15px;color:var(--tinta-2);}
+.alerta .quien{
+  margin-top:10px;padding-top:10px;border-top:1px solid var(--linea-suave);
+  font-size:13px;color:var(--tinta-3);
+}
+.alerta .quien b{color:var(--tinta-2);}
+
+/* Sin arrancar */
+.fria{
+  display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;
+  padding:11px 0;border-bottom:1px solid var(--linea-suave);font-size:15px;
+}
+.fria:last-child{border-bottom:0;}
+.fria .nom{font-weight:600;min-width:190px;}
+.fria .sit{color:var(--tinta-3);font-size:13.5px;}
+
+/* Notas */
+ol.notas{margin:0;padding-left:22px;color:var(--tinta-2);font-size:15px;}
+ol.notas li{margin-bottom:9px;padding-left:4px;}
+
+footer{
+  margin-top:44px;padding-top:20px;border-top:1px solid var(--linea);
+  font-size:13px;color:var(--tinta-3);display:flex;gap:8px 16px;flex-wrap:wrap;align-items:center;
+}
+footer .anillo{width:8px;height:8px;border-width:2px;border-color:var(--rojo);}
+
+@media (max-width:520px){
+  .cita .quien{padding-left:0;}
+  .area .estado{max-width:100%;text-align:left;}
+  .area .pista{flex-wrap:wrap;}
+  .area .riel{min-width:100%;}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;}}
+</style>
+
+<div class="cabecera">
+  <div class="cab-in">
+    <div class="marca"><span class="anillo"></span><span>IAM™ INTELLIGENCE</span></div>
+    <div class="kicker">Reporte de corte · Comfacesar 2026</div>
+    <h1>Dónde va el programa</h1>
+    <p class="para">Corte al 30 de agosto de 2026 · Para María Elvira Marulanda, contraparte del proyecto</p>
+  </div>
+</div>
+
+<div class="hoja">
+
+  <div class="cifras">
+    <div class="cifra"><div class="n">37</div><div class="et">Sesiones ejecutadas</div><div class="de">Del 11 al 27 de agosto</div></div>
+    <div class="cifra"><div class="n">18</div><div class="et">Áreas activas</div><div class="de">De 21 en el alcance</div></div>
+    <div class="cifra"><div class="n">13</div><div class="et">Esta semana</div><div class="de">Del 31 de agosto al 3 de septiembre</div></div>
+    <div class="cifra"><div class="n">50</div><div class="et">Al cerrar el jueves</div><div class="de">Acumulado del programa</div></div>
+    <div class="cifra"><div class="n">3</div><div class="et">Sin arrancar</div><div class="de">Crédito · Auditoría · Dirección Admin</div></div>
+    <div class="cifra"><div class="n">5</div><div class="et">Semanas restantes</div><div class="de">El programa cierra en octubre</div></div>
+  </div>
+
+  <section>
+    <h2><span class="n">01</span>El resumen</h2>
+    <p class="parrafo">
+      En diecisiete días hábiles el programa pasó de cero a <strong>treinta y siete sesiones</strong> con
+      dieciocho de las veintiuna áreas. Las que arrancaron primero ya no están configurando herramientas:
+      están resolviendo trabajo real con ellas —conciliaciones contables, informes a Auditoría Interna,
+      reportes a junta directiva— y registrando el tiempo que se ahorran.
+    </p>
+    <p class="parrafo">
+      Esta semana se ejecutan trece sesiones más, seis de ellas individuales, y con eso el programa
+      llega a <strong>cincuenta al cerrar el 3 de septiembre</strong>. El riesgo del corte no está en el
+      ritmo sino en la cola: <strong>tres áreas siguen sin iniciar y quedan cinco semanas.</strong>
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="n">02</span>Avance por área</h2>
+
+    <div class="area"><span class="nombre">Vivienda</span><span class="ses">4</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:100%"></span></span><span class="estado">Ejercicios sobre casos reales</span></span></div>
+    <div class="area"><span class="nombre">Servicios Sociales</span><span class="ses">4</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:100%"></span></span><span class="estado">Informe a Auditoría asistido</span></span></div>
+    <div class="area"><span class="nombre">Mercadeo</span><span class="ses">4</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:100%"></span></span><span class="estado">Ya en sesiones individuales</span></span></div>
+    <div class="area"><span class="nombre">Comunicaciones</span><span class="ses">3</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:75%"></span></span><span class="estado">Actas generadas con IA</span></span></div>
+    <div class="area"><span class="nombre">Agencia de Empleo</span><span class="ses">3</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:75%"></span></span><span class="estado">Ejercicios del área</span></span></div>
+    <div class="area"><span class="nombre">Jurídica</span><span class="ses">2</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:50%"></span></span><span class="estado">Oficio quincenal mapeado</span></span></div>
+    <div class="area"><span class="nombre">Educación</span><span class="ses">2</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:50%"></span></span><span class="estado">En ejercicios prácticos</span></span></div>
+    <div class="area"><span class="nombre">Contabilidad</span><span class="ses">2</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:50%"></span></span><span class="estado">Conciliación de terceros</span></span></div>
+    <div class="area"><span class="nombre">Subsidio</span><span class="ses">2</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:50%"></span></span><span class="estado">Bot de cuota monetaria</span></span></div>
+    <div class="area"><span class="nombre">Tecnología</span><span class="ses">2</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:50%"></span></span><span class="estado">En ejercicios</span></span></div>
+    <div class="area"><span class="nombre">Sub. Admin. y Financiera</span><span class="ses">1</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:25%"></span></span><span class="estado">Individual esta semana</span></span></div>
+    <div class="area"><span class="nombre">Sub. Operativa</span><span class="ses">1</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:25%"></span></span><span class="estado">Sesión 3 esta semana</span></span></div>
+    <div class="area"><span class="nombre">Planeación</span><span class="ses">1</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:25%"></span></span><span class="estado">Sesión 2 esta semana · 6 personas</span></span></div>
+    <div class="area"><span class="nombre">Talento Humano</span><span class="ses">1</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:25%"></span></span><span class="estado">Sesión 2 esta semana</span></span></div>
+    <div class="area"><span class="nombre">Cumplimiento</span><span class="ses">1</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:25%"></span></span><span class="estado">Sesión 2 esta semana</span></span></div>
+    <div class="area"><span class="nombre">Gerencia Financiera</span><span class="ses">1</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:25%"></span></span><span class="estado">Falta agendar la segunda</span></span></div>
+    <div class="area"><span class="nombre">Tesorería</span><span class="ses">1</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:25%"></span></span><span class="estado">Falta agendar la segunda</span></span></div>
+    <div class="area"><span class="nombre">IPS</span><span class="ses">1</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:25%"></span></span><span class="estado">Falta agendar la segunda</span></span></div>
+  </section>
+
+  <section>
+    <h2><span class="n">03</span>La semana que viene</h2>
+
+    <div class="dia">
+      <div class="dia-cab"><span>Lunes 31 de agosto</span><span class="cuantas">4 sesiones</span></div>
+      <div class="cita"><span class="hora">10:00 a.m.</span><span class="area-n">Jurídica</span><span class="tipo">Sesión 3</span><span class="quien">Carlos Mario · Lilibeth · Renata</span></div>
+      <div class="cita"><span class="hora">11:00 a.m.</span><span class="area-n">Educación</span><span class="tipo">Sesión 3</span><span class="quien">Óscar · Julissa</span></div>
+      <div class="cita"><span class="hora">3:00 p.m.</span><span class="area-n">Servicios Sociales</span><span class="tipo">Sesión 5</span><span class="quien">Juan Pablo · Lilian Paola</span></div>
+      <div class="cita"><span class="hora">4:00 p.m.</span><span class="area-n">Tecnología</span><span class="tipo">Sesión 3</span><span class="quien">Olga Lucía</span></div>
+    </div>
+
+    <div class="dia">
+      <div class="dia-cab"><span>Martes 1 de septiembre</span><span class="cuantas">3 sesiones</span></div>
+      <div class="cita"><span class="hora">10:00 a.m.</span><span class="area-n">Talento Humano</span><span class="tipo">Sesión 2</span><span class="quien">María Loretta · Roí David</span></div>
+      <div class="cita"><span class="hora">2:00 p.m.</span><span class="area-n">Contabilidad</span><span class="tipo ind">Individual</span><span class="quien">Lisbeth Cuadrado</span></div>
+      <div class="cita"><span class="hora">3:00 p.m.</span><span class="area-n">Sub. Operativa y Comercial</span><span class="tipo">Sesión 3</span><span class="quien">Gennifer · Jhonatan</span></div>
+    </div>
+
+    <div class="dia">
+      <div class="dia-cab"><span>Miércoles 2 de septiembre</span><span class="cuantas">5 sesiones · el día más cargado</span></div>
+      <div class="cita"><span class="hora">9:00 a.m.</span><span class="area-n">Jurídica</span><span class="tipo ind">Individual</span><span class="quien">Lilibeth Costa</span></div>
+      <div class="cita"><span class="hora">10:00 a.m.</span><span class="area-n">IAM Ambassadors</span><span class="tipo">Contenido</span><span class="quien">María Elvira · métricas e IA</span></div>
+      <div class="cita"><span class="hora">11:00 a.m.</span><span class="area-n">Sub. Financiera</span><span class="tipo ind">Individual</span><span class="quien">Rafael Solano</span></div>
+      <div class="cita"><span class="hora">2:00 p.m.</span><span class="area-n">Contabilidad</span><span class="tipo ind">Individual</span><span class="quien">Carlos Lozano</span></div>
+      <div class="cita"><span class="hora">4:00 p.m.</span><span class="area-n">Cumplimiento</span><span class="tipo">Sesión 2</span><span class="quien">Saharay Díaz</span></div>
+    </div>
+
+    <div class="dia">
+      <div class="dia-cab"><span>Jueves 3 de septiembre</span><span class="cuantas">1 sesión</span></div>
+      <div class="cita"><span class="hora">3:00 p.m.</span><span class="area-n">Planeación</span><span class="tipo">Sesión 2</span><span class="quien">Adriana Cotes · el grupo más grande del programa</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="n">04</span>Lo que necesita atención</h2>
+
+    <div class="alerta critica">
+      <div class="titulo">Tres áreas sin arrancar y cinco semanas de programa</div>
+      <div class="cuerpo">
+        Crédito, Auditoría Interna y Dirección Administrativa no han tenido su primera sesión. Cada semana
+        que pasa reduce lo que alcanzan a construir: las áreas que arrancaron el 13 de agosto ya van en su
+        cuarta sesión resolviendo trabajo real. Basta con que una persona de cada área agende para que entre
+        el equipo completo.
+        <div class="quien"><b>Responsable:</b> María Elvira y los líderes de las tres áreas · <b>Plazo:</b> esta semana</div>
+      </div>
+    </div>
+
+    <div class="alerta alta">
+      <div class="titulo">Tres áreas con una sola sesión y sin la siguiente agendada</div>
+      <div class="cuerpo">
+        Gerencia Financiera, Tesorería e IPS hicieron su primera sesión y no han agendado la segunda. Lo
+        configurado en la sesión inicial se enfría si no se practica: es el punto donde el programa se
+        pierde sin que se note.
+        <div class="quien"><b>Responsable:</b> líderes de área · <b>Plazo:</b> esta semana</div>
+      </div>
+    </div>
+
+    <div class="alerta alta">
+      <div class="titulo">Equipos y conectividad en las sesiones prácticas</div>
+      <div class="cuerpo">
+        Se han perdido bloques completos de sesión por micrófonos ausentes, portátiles que no llegaron y
+        conexión inestable. En una sesión de una hora sobre datos reales, media hora en problemas técnicos
+        es media sesión perdida.
+        <div class="quien"><b>Responsable:</b> Comfacesar — TI · <b>Plazo:</b> permanente</div>
+      </div>
+    </div>
+
+    <div class="alerta opp">
+      <div class="titulo">★ Los primeros resultados medibles ya están sobre la mesa</div>
+      <div class="cuerpo">
+        Servicios Sociales registró <strong>cuatro horas ahorradas</strong> en la presentación a junta
+        directiva. Contabilidad probó en vivo la conciliación de relación de saldos de terceros, el proceso
+        que más tiempo les consume. Subsidio identificó un bot de respuesta para la consulta más frecuente
+        del área. Son tres casos con dueño, con datos reales y con fecha: el material del cierre de octubre
+        se está construyendo ahora.
+        <div class="quien"><b>Responsable:</b> Sandra Curvelo y los líderes de área · <b>Plazo:</b> octubre</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="n">05</span>Áreas sin arrancar</h2>
+    <div class="fria"><span class="nom">Crédito</span><span class="sit">1 persona · canal creado, sin sesión agendada</span></div>
+    <div class="fria"><span class="nom">Auditoría Interna</span><span class="sit">2 personas · canal creado, sin sesión agendada</span></div>
+    <div class="fria"><span class="nom">Dirección Administrativa</span><span class="sit">1 persona · sin canal ni sesión</span></div>
+  </section>
+
+  <section>
+    <h2><span class="n">06</span>Notas del corte</h2>
+    <ol class="notas">
+      <li>El acumulado de 37 sesiones cuenta únicamente las de IAM™ Intelligence, verificadas contra el calendario. No incluye las sesiones de IAM™ Ambassadors ni el kick-off del 5 de agosto.</li>
+      <li>Seis de las trece sesiones de esta semana son individuales. Es la señal de que las áreas adelantadas pasaron del grupo al caso propio de cada persona.</li>
+      <li>Presupuesto participa dentro de Planeación, así que su cobertura ya está resuelta aunque no tenga canal propio.</li>
+      <li>Cada sesión queda documentada con acta, informe de asistencia y grabación en el canal de Slack del área.</li>
+      <li>Las áreas que más rápido avanzan son las que traen un caso concreto a la sesión. Donde la sesión se dedica a configurar herramientas, el resultado tarda el doble.</li>
+      <li>Quedan cinco semanas. El cierre de octubre se prepara con lo que se documente en septiembre.</li>
+    </ol>
+  </section>
+
+  <footer>
+    <span class="anillo"></span>
+    <span>IAM™ Intelligence — Documento confidencial</span>
+    <span>Comfacesar · 30 de agosto de 2026</span>
+    <span>Sandra Curvelo · Mentora IAM™</span>
+  </footer>
+
+</div>
