@@ -15,6 +15,41 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🔍 Hallazgo — Contabilidad S2 · domingo 30 de agosto
+
+**El acta publicada en `#contabilidad` tiene mal la asistencia.**
+
+Dice «Carlos Lozano y Lisbeth Cuadrado · asistencia completa». Lo que dicen el
+informe de Teams y la invitación de Outlook:
+
+| Fuente | Qué dice |
+|---|---|
+| Invitación de Outlook | 6 convocados — cinco correos de contabilidad más `zharickzunay@gmail.com` |
+| Informe de Teams | 4 entraron: Carlos Lozano, María Isabel Londoño, Jesualdo Arias, Zharick |
+| Acta del canal | «Carlos Lozano y Lisbeth Cuadrado · asistencia completa» |
+
+**Lisbeth no estuvo en la S2 y no tenía por qué:** su sesión es la individual del
+martes 1. El propio mensaje del canal del 26 a las 13:01 lo dice bien —«hoy el equipo
+de asistentes hizo la sesión 2»—; el acta es la que quedó mal.
+
+**Impacto en el indicador:** esa sesión es **67%** (4 de 6), no 100%. El acumulado del
+programa baja de 86% a **84%** — 47 asistencias sobre 56 convocatorias.
+
+**Un error mío en el camino, para que no se repita.** Al abrir el CSV vi nombres que no
+ubicaba y una duración de 2h32 contra la 1h23 del acta, y le dije a Sandra que el
+informe estaba «mezclado con otra reunión» y que no lo subiera. Era falso: el CSV está
+limpio. Zharick simplemente dejó la sala abierta hasta las 12:31, y los nombres que no
+ubicaba son los asistentes de contabilidad, todos invitados en el evento.
+
+**La lección:** antes de decir que una fuente está contaminada, revisar la invitación de
+Outlook — ahí está la lista de convocados que explica quién es quién. Frenar a Sandra
+con un diagnóstico equivocado cuesta más que no decir nada.
+
+**Documentos que siguen faltando en el canal de Contabilidad:** el informe de asistencia
+CSV y el PDF del acta. Los dos están en Dropbox, en `12. Contabilidad/Sesion 2/`.
+
+---
+
 ## ▶ SISTEMA REACTIVADO — sábado 29 de agosto, 4:50 p. m.
 
 Sandra reactivó las dos rutinas. Estuvo detenido desde el jueves 27 a las 12:13.
