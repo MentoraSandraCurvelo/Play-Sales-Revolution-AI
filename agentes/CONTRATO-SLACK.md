@@ -83,11 +83,25 @@ veces está diciendo algo que el promedio de sesiones esconde.
 
 | Quién | Qué hace con la cancelación |
 |---|---|
-| **Lucía** | La detecta en el calendario y la registra en la carpeta de la sesión |
+| **Lucía** | La detecta en el calendario y la anota en `lucia/cancelaciones.json` |
 | **Elia** | La suma al indicador del canal y la refleja en el avance del área |
 
 Una sesión cancelada y reagendada cuenta como cancelación **y** como sesión nueva: las
 dos cosas son ciertas y las dos dicen algo distinto sobre el área.
+
+## Los avisos del momento son de Lucía
+
+«Estoy en la sala esperándolos», «la de hoy se corre una hora», «hoy no hay clase».
+Eso no es contenido, es operación: pasa ahora y se vence en minutos. Lo lleva **Lucía**,
+por lo mismo que lleva el recordatorio de una hora antes — es quien lee el calendario y
+sabe qué está ocurriendo en este momento.
+
+Un aviso de estos **no gasta el cupo del canal** ni abre la ventana de silencio de 48
+horas: no compite con el acta ni con el pulso de Elia, va por encima. Se anota en el
+registro como cualquier otra publicación.
+
+Elia no manda avisos del momento. Si detecta uno que hace falta, lo deja en el registro
+y lo publica Lucía.
 
 ## Zona gris: los agendamientos
 

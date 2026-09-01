@@ -1,0 +1,31 @@
+{
+  "que_es": "Las sesiones que no se hicieron. Cuentan en los indicadores del área igual que las ejecutadas: un área que cancela dos veces está diciendo algo que el promedio esconde. Una sesión cancelada y reagendada cuenta como las dos cosas.",
+  "cancelaciones": [
+    {
+      "area": "Educación",
+      "sesion": "S3",
+      "fecha": "2026-08-31",
+      "hora": "11:00",
+      "canal": "#educacion",
+      "quien_cancela": "Comfacesar",
+      "motivo": "Óscar estaba en auditoría y Julissa venía retrasada con los ejercicios. Lo pidió Julissa y Sandra lo avisó en el canal a las 11:11.",
+      "aviso_en_canal": "https://iamteamespacio.slack.com/archives/C0BPDPF4YMD/p1788192674969609",
+      "reagendada": false,
+      "compromiso": "Julissa respondió en el canal que se ponen al día para la próxima clase. Falta que agenden.",
+      "cuenta_como": "cancelada"
+    },
+    {
+      "area": "Tecnología",
+      "sesion": "S3",
+      "fecha": "2026-08-31",
+      "hora": "16:00",
+      "canal": "#tecnologia",
+      "quien_cancela": "sin confirmar",
+      "motivo": "La cita estaba en el tablero de la semana y ya no aparece en el calendario de Outlook. No hay aviso en Slack ni acta. Queda anotada para que Sandra confirme si se canceló o se movió.",
+      "aviso_en_canal": null,
+      "reagendada": false,
+      "compromiso": null,
+      "cuenta_como": "por confirmar"
+    }
+  ]
+}

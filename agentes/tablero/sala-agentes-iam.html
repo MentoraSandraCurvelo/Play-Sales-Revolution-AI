@@ -273,6 +273,9 @@ section{margin-bottom:52px;}
 }
 .cita .tipo.indiv{background:var(--elia-suave);color:var(--elia);}
 .cita .quien{margin-left:auto;color:var(--ink-3);font-size:12.5px;}
+.cita.cancelada .area-c{text-decoration:line-through;color:var(--ink-3);font-weight:500;}
+.cita.cancelada .hora{color:var(--ink-3);text-decoration:line-through;}
+.cita .tipo.cancel{background:var(--alto-suave);color:var(--alto);}
 
 /* ── Cola ────────────────────────────────────────────────────── */
 .cola{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--medio);border-radius:3px;}
@@ -661,17 +664,17 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
   <section>
     <div class="tit-seccion">
       <h2>La semana que viene</h2>
-      <span class="nota">13 sesiones en 4 días · hora Colombia</span>
+      <span class="nota">13 citas · 11 en pie · hora Colombia</span>
     </div>
 
     <div class="panel" style="padding:20px 22px;">
 
       <div class="dia">
-        <div class="dia-cab"><span class="nombre">Lunes 31 de agosto</span><span class="cuantas">4 sesiones</span></div>
+        <div class="dia-cab"><span class="nombre">Lunes 31 de agosto</span><span class="cuantas">2 ejecutadas · 2 no se hicieron</span></div>
         <div class="cita"><span class="hora">10:00 a.m.</span><span class="area-c">Jurídica</span><span class="tipo">S3</span><span class="quien">Carlos Mario · Lilibeth · Renata</span></div>
-        <div class="cita"><span class="hora">11:00 a.m.</span><span class="area-c">Educación</span><span class="tipo">S3</span><span class="quien">Óscar · Julissa</span></div>
+        <div class="cita cancelada"><span class="hora">11:00 a.m.</span><span class="area-c">Educación</span><span class="tipo cancel">Cancelada</span><span class="quien">a petición de Julissa · reagendar</span></div>
         <div class="cita"><span class="hora">3:00 p.m.</span><span class="area-c">Servicios Sociales</span><span class="tipo">S5</span><span class="quien">Juan Pablo · Lilian Paola</span></div>
-        <div class="cita"><span class="hora">4:00 p.m.</span><span class="area-c">Tecnología</span><span class="tipo">S3</span><span class="quien">Olga Lucía</span></div>
+        <div class="cita cancelada"><span class="hora">4:00 p.m.</span><span class="area-c">Tecnología</span><span class="tipo cancel">Sin registro</span><span class="quien">ya no está en el calendario</span></div>
       </div>
 
       <div class="dia">
@@ -691,7 +694,9 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
       </div>
 
       <div class="dia" style="margin-bottom:0;">
-        <div class="dia-cab"><span class="nombre">Jueves 3 de septiembre</span><span class="cuantas">1 sesión</span></div>
+        <div class="dia-cab"><span class="nombre">Jueves 3 de septiembre</span><span class="cuantas">3 sesiones</span></div>
+        <div class="cita"><span class="hora">9:00 a.m.</span><span class="area-c">Empleo</span><span class="tipo">S1</span><span class="quien">Agencia de Empleo · Fomento Empresarial</span></div>
+        <div class="cita"><span class="hora">2:00 p.m.</span><span class="area-c">Servicios Sociales</span><span class="tipo indiv">Individual</span><span class="quien">Juan Pablo · la quinta suya</span></div>
         <div class="cita"><span class="hora">3:00 p.m.</span><span class="area-c">Planeación</span><span class="tipo">S2</span><span class="quien">Adriana Cotes · el grupo más grande</span></div>
       </div>
 
@@ -735,9 +740,9 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
           <tr data-estado="ok"><td class="area-nombre">Mercadeo</td><td class="num">3</td><td class="canal-c">#mercadeo</td><td><span class="chip ok">Adelantada</span></td></tr>
           <tr data-estado="ok"><td class="area-nombre">Agencia de Empleo</td><td class="num">3</td><td class="canal-c">#agencia-de-empleo</td><td><span class="chip ok">Adelantada</span></td></tr>
           <tr data-estado="ok"><td class="area-nombre">Contabilidad</td><td class="num">2</td><td class="canal-c">#contabilidad</td><td><span class="chip ok">Individuales agendadas</span></td></tr>
-          <tr data-estado="ok"><td class="area-nombre">Jurídica</td><td class="num">2</td><td class="canal-c">#juridica</td><td><span class="chip ok">S3 el 31</span></td></tr>
-          <tr data-estado="ok"><td class="area-nombre">Servicios Sociales</td><td class="num">2</td><td class="canal-c">#serivcios-sociales</td><td><span class="chip ok">S4 el 31</span></td></tr>
-          <tr data-estado="ok"><td class="area-nombre">Educación</td><td class="num">2</td><td class="canal-c">#educacion</td><td><span class="chip ok">S3 el 31</span></td></tr>
+          <tr data-estado="ok"><td class="area-nombre">Jurídica</td><td class="num">3</td><td class="canal-c">#juridica</td><td><span class="chip ok">S3 hecha · falta acta</span></td></tr>
+          <tr data-estado="ok"><td class="area-nombre">Servicios Sociales</td><td class="num">5</td><td class="canal-c">#serivcios-sociales</td><td><span class="chip ok">S5 hecha · falta acta</span></td></tr>
+          <tr data-estado="atencion"><td class="area-nombre">Educación</td><td class="num">2</td><td class="canal-c">#educacion</td><td><span class="chip atencion">S3 cancelada · sin reagendar</span></td></tr>
           <tr data-estado="ok"><td class="area-nombre">Subsidio</td><td class="num">2</td><td class="canal-c">#subsidio</td><td><span class="chip ok">Al día</span></td></tr>
           <tr data-estado="riesgo"><td class="area-nombre">Tecnología</td><td class="num">2</td><td class="canal-c">#tecnologia</td><td><span class="chip riesgo">Sin acta cargada</span></td></tr>
           <tr data-estado="atencion"><td class="area-nombre">Sub Admin Financiera</td><td class="num">2</td><td class="canal-c">#sub-admin-y-financiera-infraestructura</td><td><span class="chip atencion">Falta agendar S3</span></td></tr>

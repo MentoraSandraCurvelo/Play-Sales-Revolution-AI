@@ -16,6 +16,7 @@
 | 28 ago · 08:00 | `#contabilidad` | Acta Sesión 2, programada | Cancelada por Sandra |
 | 28 ago · 08:00 | `#cumplimiento` | Acta Sesión 1, programada | Cancelada por Sandra |
 | 26 ago · 13:52 | `#contabilidad` | Acta S2 primera versión + canvas | Eliminados |
+| 31 ago · 15:59 | `#educacion` | «Estoy en la sala esperándolos» — a pedido de Sandra, en el momento | **Publicado por Lucía** |
 
 ## Actas listas, sin publicar
 
@@ -23,9 +24,24 @@
 |---|---|---|---|
 | Servicios Sociales S4 — individual de Juan Pablo | 27 ago | `#serivcios-sociales` | Acta lista · pendiente del visto bueno de Sandra |
 
-**Lucía no ha publicado nada directamente.** Las dos actas que están en los canales las
-puso Sandra, copiando el texto y adjuntando el CSV. El circuito funciona; el último
-tramo todavía lo hace ella a mano.
+**Las actas todavía las publica Sandra a mano.** Las dos que están en los canales las
+puso ella, copiando el texto y adjuntando el CSV. Lucía ya publica mensajes de texto
+—el aviso del 31 en `#educacion` salió de ella—, pero el PDF sigue sin poder subirlo:
+falta la app de Slack y abrir `slack.com` en la red. Ver `GUIA-APP-SLACK.md`.
+
+**Los avisos del momento son de Lucía.** Un «estoy en la sala esperándolos», un cambio
+de hora, un «se cancela la de hoy»: eso es operación, no contenido, y lo lleva Lucía
+porque es quien lee el calendario. Elia no toca esos avisos.
+
+## Sesiones sin acta
+
+| Sesión | Fecha | Qué falta |
+|---|---|---|
+| Jurídica S3 | 31 ago · 10:00 | Los archivos no están en Dropbox todavía |
+| Servicios Sociales S5 | 31 ago · 15:00 | Los archivos no están en Dropbox todavía |
+
+La corrida de las 7:00 p.m. del 31 no se hizo. En cuanto los CSV y los VTT estén en la
+carpeta del área, Lucía arma las dos actas y las programa para las 8:00 a.m. siguientes.
 
 ## Canales reservados
 

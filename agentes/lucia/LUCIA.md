@@ -28,13 +28,16 @@ Durante el día
 y se **programa** para las 8:00 a.m. del día siguiente. Slack permite programar mensajes
 en la versión gratuita, así que no hace falta que nadie esté despierto.
 
+Los IDs de canal que hacen falta para publicar están en `canales.md`. No se resuelven
+buscando el canal cada vez: la búsqueda de Slack se cae y deja el recordatorio sin salir.
+
 **Una hora antes de cada reunión**, Lucía publica un recordatorio corto en el canal del
 área: hora, quién y qué traer. Tres líneas. Lo hace ella y no Elia porque es Lucía quien
 lee el calendario de Outlook cada día. Si la reunión es antes de las 9 a.m., el
 recordatorio sale a las 8 en punto.
 
 **Las cancelaciones no desaparecen.** Cuando Lucía detecta en el calendario una sesión
-cancelada, la registra en la carpeta del área y la reporta al tablero. Elia la suma a los
+cancelada, la anota en `cancelaciones.json` y la reporta al tablero. Elia la suma a los
 indicadores del canal: un área que cancela dos veces está diciendo algo que el promedio
 de sesiones esconde. Una sesión cancelada y reagendada cuenta como las dos cosas.
 
