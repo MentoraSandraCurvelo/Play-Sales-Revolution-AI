@@ -15,6 +15,34 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📌 Cierre del lunes 31 · dos cancelaciones
+
+| Sesión | Qué pasó |
+|---|---|
+| Jurídica S3 · 10:00 | Ejecutada |
+| Educación S3 · 11:00 | **Cancelada** a las 11:11, a petición de Julissa Pérez |
+| Servicios Sociales S5 · 15:00 | Ejecutada |
+| Tecnología S3 · 16:00 | **Cancelada** a las 14:38 por Olga Lucía Barros |
+
+Las dos áreas quedan **sin fecha**. La semana pasa de doce sesiones a diez, y las áreas
+sin agendar suben de dos a cuatro: Gerencia Financiera, Tesorería, Educación y Tecnología.
+
+**Regla nueva que Sandra fijó con Olga**, y que conviene aplicar en todos los canales:
+
+> «es importante no cancelar a última hora dos horas antes o tres sino desde el día
+> anterior para tener el espacio abierto otras sesiones»
+
+Olga avisó con hora y media. Lo aceptó y se comprometió a que no se repita.
+
+**Ninguna de las dos cancelaciones entra a indicador**, por la decisión de Sandra: se
+evidencian en el tablero y nada más.
+
+**Educación y Tecnología no se tocan por ahora.** En los dos canales hubo conversación
+hoy y el tema quedó cerrado entre Sandra y ellas. Vuelven al radar de silencio si el
+jueves siguen sin agendar.
+
+---
+
 ## ⚠️ El bot sigue dentro de cuatro canales · lunes 31, 2:00 p. m.
 
 Sandra sacó la app de `#comunicaciones` y `#agencia-de-empleo` a las 8:19. **Verifiqué
