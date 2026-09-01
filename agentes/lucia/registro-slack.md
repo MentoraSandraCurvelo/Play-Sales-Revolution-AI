@@ -35,13 +35,19 @@ porque es quien lee el calendario. Elia no toca esos avisos.
 
 ## Sesiones sin acta
 
-| Sesión | Fecha | Qué falta |
+| Sesión | Fecha | Carpeta donde van los archivos |
 |---|---|---|
-| Jurídica S3 | 31 ago · 10:00 | Los archivos no están en Dropbox todavía |
-| Servicios Sociales S5 | 31 ago · 15:00 | Los archivos no están en Dropbox todavía |
+| Jurídica S3 | 31 ago · 10:00 | `5. Juridica / Sesion 3` |
+| Servicios Sociales S5 | 31 ago · 3:00 p.m. | `10. Servicios Especiales / Sesion 5` |
+| Talento Humano S2 | 1 sep · 10:00 | `7. Talento humano / Sesion 2` |
+| Contabilidad S3 · individual de Lisbeth | 1 sep · 2:00 p.m. | `12. Contabilidad / Sesion 3` |
+| Sub. Operativa y Comercial S3 | 1 sep · 3:00 p.m. | `13. Sub-Operativa / Sesion 3` |
 
-La corrida de las 7:00 p.m. del 31 no se hizo. En cuanto los CSV y los VTT estén en la
-carpeta del área, Lucía arma las dos actas y las programa para las 8:00 a.m. siguientes.
+Las cinco carpetas existen —la de Servicios Sociales S5 se creó el 1 de septiembre—.
+Ninguna tiene todavía el CSV de asistencia ni el VTT: sin esos dos archivos Lucía no
+puede armar el acta, y por eso las corridas de las 7:00 p.m. del 31 y del 1 quedaron
+sin nada que procesar. En cuanto los archivos estén, las cinco actas salen en una sola
+corrida y se programan para las 8:00 a.m. siguientes.
 
 ## Canales reservados
 
