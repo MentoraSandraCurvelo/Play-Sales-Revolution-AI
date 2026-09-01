@@ -15,6 +15,31 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📌 1 sep · 7:00 p.m. — Sandra pidió el corte a los canales con sesión. No salió.
+
+La orden fue: enviar a cada canal que tuvo sesión hoy el corte con **acta en PDF, acta
+de asistencia y grabación**. **No se publicó nada**, por dos bloqueos que no dependen
+de la agente.
+
+**1 · Los soportes no existen.** Se revisó Dropbox: ni un archivo nuevo del cliente
+desde el 30 de agosto. Ninguna carpeta de área se ha modificado después del 26. Las
+tres sesiones de hoy —Talento Humano S2, Contabilidad S3 de Lisbeth, Sub. Operativa
+S3— no tienen CSV de asistencia ni VTT, igual que las dos del 31. Sin esos dos
+archivos no hay acta que redactar: no se sabe quién asistió ni qué se acordó, y
+escribirlo de memoria es inventar. Lucía llegó a lo mismo por su lado y lo dejó
+anotado a las 23:58 UTC — son **cinco sesiones en cola**, no tres.
+
+**2 · Ninguna de las dos agentes puede adjuntar archivos en Slack.** No existe
+herramienta de subida: se puede leer un archivo ya publicado, crear un canvas y
+escribir mensajes, nada más. Por eso los PDF y los CSV los ha subido siempre Sandra a
+mano. Aunque los soportes estuvieran en Dropbox, el adjunto seguiría siendo suyo.
+
+**Para desbloquearlo** hay que bajar de Teams, por cada sesión, el informe de
+asistencia y la transcripción, y dejarlos en la carpeta del área. Con eso Lucía arma
+las cinco actas de una sola corrida.
+
+---
+
 ## 📌 Martes 1 de septiembre · el aviso del lunes empezó a mover áreas
 
 **Gerencia Financiera respondió.** Yeraldin Murgas escribió a las 9:05 en el canal —
