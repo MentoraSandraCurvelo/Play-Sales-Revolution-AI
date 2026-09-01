@@ -15,6 +15,51 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📌 Martes 1 de septiembre · el aviso del lunes empezó a mover áreas
+
+**Gerencia Financiera respondió.** Yeraldin Murgas escribió a las 9:05 en el canal —
+primera señal desde el 18 de agosto, que era la más rezagada del programa. Sandra le
+contestó a las 9:21 con el enlace de agenda, y **quedó agendada: jueves 3 a las 8:00**
+(«Dir. Financiera S2»). Sale de la lista de silencio.
+
+**Jurídica se reacomodó, y el calendario tiene un evento de más.** Lilibeth Costa avisó
+a las 14:05 que movió su individual del miércoles **al lunes 7**, y que la grupal sigue
+el **jueves a las 11:00**. Las dos cosas ya están en Outlook —el evento del lunes 7 a
+las 10:00 existe, y la grupal del jueves es «Jurídica Sesión 5», con Lilibeth,
+Contratación y Analista de Alianzas—. **Pero el evento del miércoles 2 a las 9:00 sigue
+vivo y sin cancelar.** Hay que cerrarlo o mañana queda una sala abierta sin nadie.
+
+Con esto muere la discrepancia que reporté ayer (canal decía miércoles 10:00, Outlook
+9:00): ya no hay sesión el miércoles.
+
+Lilibeth además **compró Claude Pro** y está adelantando compromisos.
+
+**Tecnología reagendó** su S3 cancelada del lunes: olga lucía Barros, **lunes 8 a las 10:00**.
+
+**Comunicaciones tiene sesión el miércoles, pero es de Ambassadors** («Contenido
+Métricas · IA»). Ese frente va aparte: para IAM™ Intelligence el canal sigue en
+silencio desde el 21 de agosto.
+
+### Publicado
+
+| Hora | Dónde | Qué |
+|---|---|---|
+| 14:16 | DM con Liliany Gómez Zuleta (`profesionalaf@comfacesar.com`) | Respuesta a su «cuándo tienes agenda disponible» de las 8:49. Se le indicó el enlace «Agenda aquí» fijado en su canal, sin nombrarle un canal concreto porque no está confirmado en cuál está. Mismo patrón que Sandra usó hoy con Yeraldin. |
+
+Ningún canal recibió mensaje. Las diez áreas en silencio ya tuvieron el suyo el lunes y
+la regla es uno por semana. **Educación sí calificaba** —canceló el lunes y quedó sin
+fecha nueva— pero está bloqueada: el bot @Claude sigue siendo miembro de `#educacion`,
+y mientras siga ahí no se publica por API en ese canal.
+
+### Sigue pendiente de Sandra
+
+- Sacar la app de Claude de `#juridica`, `#talento-humano`, `#educacion` y `#subsidio`.
+- Borrar el hilo del bot en `#comunicaciones` (31 ago) y el mensaje en `#tecnologia` (27 ago).
+- Cancelar el evento del miércoles 2 a las 9:00 de Jurídica.
+- Subir a `#contabilidad` el CSV de asistencia y el acta de la Sesión 2.
+
+---
+
 ## 📌 Cierre del lunes 31 · dos cancelaciones
 
 | Sesión | Qué pasó |
