@@ -166,15 +166,21 @@ Nada más. El mensaje queda en el canal, es buscable y no caduca.
 > gratuita el 2 de septiembre de 2026. Todo lo que Lucía publique tiene que funcionar
 > en el plan gratuito. Decisión de Sandra del 27 de agosto.
 
-> **El acta va como PDF adjunto.** Es el acuerdo con Sandra y no se sustituye por texto
-> en el mensaje. La conexión de Slack de Claude no sube archivos, así que la vía es
-> `publicar_slack.py` con un token propio del workspace — ver `GUIA-APP-SLACK.md`.
-> Faltan dos cosas que solo Sandra puede hacer: crear la app de Slack y permitir
-> slack.com en la política de red del entorno, que hoy la rechaza con 403.
-> Mientras tanto, Sandra arrastra el PDF y el CSV al canal.
+> **En Slack, el acta es el mensaje.** Decisión de Sandra del 2 de septiembre, y
+> cierra la discusión: lo que el equipo del área lee en el canal es el mensaje, y ese
+> mensaje es el acta. No queda esperando un adjunto para estar completo.
+>
+> Eso obliga a que el mensaje se sostenga solo. Lleva quién asistió, qué se midió, qué
+> quedó bloqueado y las tareas con responsable y plazo. **No promete adjuntos que
+> después nadie sube:** si el CSV o la grabación no van, no se mencionan.
 
-El acta completa con la identidad IAM™ vive en la carpeta de la sesión en Dropbox,
-no en Slack. Si el equipo la necesita, se comparte por enlace de Dropbox.
+**El PDF es el documento formal, y vive en Dropbox** — en la carpeta de la sesión, con
+la identidad IAM™ completa. Es el que se archiva, el que se imprime y el que sustenta
+el cierre de octubre. En Slack no hace falta.
+
+Cuando exista la app de Slack —ver `GUIA-APP-SLACK.md`— el PDF también podrá ir
+adjunto al mensaje, y ahí gana las dos cosas: el resumen que se lee de una y el
+documento completo a un clic. Hasta entonces, el mensaje basta.
 
 ## 5 · Archivo
 
