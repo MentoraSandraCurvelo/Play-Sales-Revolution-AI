@@ -174,6 +174,18 @@ Nada más. El mensaje queda en el canal, es buscable y no caduca.
 > quedó bloqueado y las tareas con responsable y plazo. **No promete adjuntos que
 > después nadie sube:** si el CSV o la grabación no van, no se mencionan.
 
+**La grabación es el eslabón que falta, y hoy depende de Sandra.** Las grabaciones sí
+son visibles desde aquí: `sharepoint_folder_search` con el nombre `Recordings` devuelve
+la carpeta de OneDrive con todas, incluida la de cada sesión del programa. Lo que no hay
+es forma de **crear el enlace para compartir**: el conector de Microsoft no expone esa
+operación, y el `webUrl` que devuelve Graph es un enlace de formulario que no le sirve al
+equipo de Comfacesar.
+
+Así que el enlace lo genera Sandra desde Teams o desde OneDrive, y **tiene que llegar
+antes de la corrida de las 7:00 p. m.** — así entra dentro del acta, en la fila
+«Grabación» de los datos de la sesión, en vez de quedar como un mensaje suelto después.
+Si llega tarde, Lucía lo publica como mensaje aparte en el canal.
+
 **El orden importa: primero el mensaje, después el PDF.** Lucía programa el resumen
 para las 8:00 y Sandra suelta el PDF encima cuando lo ve. Al revés se lee mal — el
 documento arriba y la explicación debajo, como si el acta necesitara pie de página.
