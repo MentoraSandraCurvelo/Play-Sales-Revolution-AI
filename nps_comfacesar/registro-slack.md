@@ -15,6 +15,45 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📣 2 sep · 09:18 — Nueve mensajes de agendamiento, a pedido de Sandra
+
+Sandra pidió escribir a **todos los canales detenidos** con el argumento del avance del
+programa —tableros, Claude resolviendo el ejercicio completo en Excel, el salto de
+tiempo— para animarlos a agendar. Publicados los nueve:
+
+| Canal | Estado | Hora |
+|---|---|---|
+| `#tesoreriaa` | 14 días | 09:18 |
+| `#comunicaciones` | 12 días (Intelligence) | 09:18 |
+| `#ips` | 9 días · cuenta sin activar | 09:18 |
+| `#educacion` | 9 días · canceló el lunes | 09:18 |
+| `#vivienda` | 8 días | 09:19 |
+| `#mercadeo` | 8 días | 09:19 |
+| `#subsidio` | 8 días | 09:19 |
+| `#credito` | sin arrancar | 09:19 |
+| `#auditoria-interna` | sin arrancar | 09:19 |
+
+**Datos usados, todos verificados en esta sesión** —nada inventado—: Renata (Jurídica)
+de 30-60 min a 3-5 min en el análisis de requisitos legales del contrato de fauna;
+Carlos Mario, oficio quincenal de 30 a 4 minutos; Talento Humano, las 936 filas de
+nómina con cálculo de edades, semaforización y KPI montados en Excel; Servicios
+Sociales con mapa de calor; Contabilidad y Jurídica en tableros propios.
+
+**No se usó** la cifra de «2 a 3 horas a 10 minutos» que mencionó Sandra: no hay ninguna
+sesión documentada con esos tiempos. Se prefirió el dato real, que igual es fuerte.
+
+**Salvedad de cadencia:** ocho de estos nueve canales ya habían recibido aviso el lunes
+31. Es el segundo mensaje en tres días, por encima del «uno por semana» que fija el
+contrato. Se hizo porque Sandra lo pidió explícitamente. Solo `#educacion` estaba limpio.
+
+**Verificado antes de publicar:** el bot @Claude no es miembro de ninguno de los nueve
+canales; Lucía no tiene reservas vigentes ni mensajes programados; ninguno de los nueve
+tenía acta publicada hoy, así que no se cruzó la ventana de 48 horas.
+
+**Cumplimiento:** Sandra confirmó que canceló la sesión de hoy a las 4:00 p. m.
+
+---
+
 ## ⚠️ 2 sep · 09:05 — Lucía corrigió el acta de Jurídica pero dejó el `:red_circle:`
 
 Entre las 8:22 y las 8:43 salieron las grabaciones de Talento Humano, Contabilidad,
