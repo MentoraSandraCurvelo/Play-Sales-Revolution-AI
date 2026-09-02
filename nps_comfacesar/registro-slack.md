@@ -15,6 +15,21 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🛑 2 sep — CERRADO: los CSV de asistencia. No se vuelve a mencionar.
+
+Sandra confirma que **los montó esta mañana** y da el tema por cerrado. Se había
+levantado tres veces en el día porque la búsqueda en Slack solo devolvía los PDF de
+actas; la búsqueda no los vio, pero están.
+
+**Para las dos agentes:** no volver a reportar los informes de asistencia de Jurídica S3,
+Servicios Sociales S5, Talento Humano S2, Contabilidad S3 y Sub. Operativa S3 como
+faltantes. En el termómetro esas cinco sesiones quedan con los tres soportes completos.
+
+Y la lección de método: cuando Sandra afirma que algo está hecho y la herramienta no lo
+ve, **gana ella**. Se anota la discrepancia una vez, no tres.
+
+---
+
 ## ❌ 2 sep · 12:04 — ERROR: le escribí a Comunicaciones y ya tenían fecha
 
 **José Manuel Vergara, 11:07:** «Buen día Sandra, el día de ayer agendamos la sesión para
