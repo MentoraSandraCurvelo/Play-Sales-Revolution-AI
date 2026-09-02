@@ -17,12 +17,15 @@
 | 28 ago · 08:00 | `#cumplimiento` | Acta Sesión 1, programada | Cancelada por Sandra |
 | 26 ago · 13:52 | `#contabilidad` | Acta S2 primera versión + canvas | Eliminados |
 | 31 ago · 15:59 | `#educacion` | «Estoy en la sala esperándolos» — a pedido de Sandra, en el momento | **Publicado por Lucía** |
-
-## Actas listas, sin publicar
-
-| Sesión | Fecha | Canal | Estado |
-|---|---|---|---|
-| Servicios Sociales S4 — individual de Juan Pablo | 27 ago | `#serivcios-sociales` | Acta lista · pendiente del visto bueno de Sandra |
+| 2 sept · 08:00 | `#juridica` | Resumen de la Sesión 3 | **Programado** `Dr0BU967UDB8` |
+| 2 sept · 08:01 | `#serivcios-sociales` | Resumen de la Sesión 5 | **Programado** `Dr0BU4SRNYTD` |
+| 2 sept · 08:02 | `#talento-humano` | Resumen de la Sesión 2 | **Programado** `Dr0BV5FH1C6L` |
+| 2 sept · 08:03 | `#contabilidad` | Resumen de la individual de Lisbeth | **Programado** `Dr0BTVP19MCP` |
+| 2 sept · 08:04 | `#sub-operativa` | Resumen de la Sesión 3 | **Programado** `Dr0BU96C7WGN` |
+| 2 sept · 08:05 | `#juridica` | Recordatorio · individual de Lilibeth, 9:00 | **Programado** `Dr0BU4SWAQ1H` |
+| 2 sept · 09:00 | `#comunicaciones` | Recordatorio · Ambassadors con María Elvira, 10:00 | **Programado** `Dr0BUB3SPUFL` |
+| 2 sept · 10:00 | `#sub-admin-y-financiera-infraestructura` | Recordatorio · individual de Rafael, 11:00 | **Programado** `Dr0BUD241LKB` |
+| 2 sept · 13:00 | `#contabilidad` | Recordatorio · individual de Carlos, 14:00 | **Programado** `Dr0BU6T13DJR` |
 
 **Las actas todavía las publica Sandra a mano.** Las dos que están en los canales las
 puso ella, copiando el texto y adjuntando el CSV. Lucía ya publica mensajes de texto
@@ -32,6 +35,18 @@ falta la app de Slack y abrir `slack.com` en la red. Ver `GUIA-APP-SLACK.md`.
 **Los avisos del momento son de Lucía.** Un «estoy en la sala esperándolos», un cambio
 de hora, un «se cancela la de hoy»: eso es operación, no contenido, y lo lleva Lucía
 porque es quien lee el calendario. Elia no toca esos avisos.
+
+## Lo que Elia tiene que saber de esta tanda
+
+**Nueve mensajes programados para el miércoles 2**, cinco resúmenes de sesión y cuatro
+recordatorios. Ninguno se ve leyendo los canales: Slack no expone lo programado por API.
+Antes de escribir el miércoles, Elia lee esta tabla.
+
+**Dos canales llevan dos mensajes ese día** — `#juridica` y `#contabilidad`. Con eso se
+agota el cupo del día en los dos. Elia no publica ahí el miércoles.
+
+**Cumplimiento no lleva recordatorio** aunque la cita siga en el calendario: la sesión
+del miércoles a las 4:00 p. m. está cancelada. Ver `cancelaciones.json`.
 
 ## Actas listas, sin publicar
 
