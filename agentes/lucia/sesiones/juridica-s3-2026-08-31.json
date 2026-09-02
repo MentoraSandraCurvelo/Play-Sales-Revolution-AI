@@ -9,29 +9,104 @@
   "fecha_corta": "31 agosto 2026",
   "subtitulo_meta": "31 de agosto de 2026 · 10:00 a.m. · 1 h 14 min · Virtual — Microsoft Teams",
   "datos_sesion": [
-    ["Área(s)", "Jurídica — Comfacesar"],
-    ["Sesión", "N° 3 — Cierre del primer ejercicio y apertura de habilidades, artefactos y agentes"],
-    ["Fecha", "31 de agosto de 2026"],
-    ["Hora inicio", "10:00 a.m. — Colombia (sala abierta desde las 9:56 a.m.)"],
-    ["Duración de la sesión", "1 hora 14 minutos (10:00 a.m. – 11:14 a.m.)"],
-    ["Modalidad", "Virtual — Microsoft Teams"],
-    ["Correos Slack activados", "contratacion@comfacesar.com · secretaria_juridica@comfacesar.com · analistaalianzas@comfacesar.com"],
-    ["Grabación", "Pendiente — se adjunta al publicar el acta en el canal"],
-    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+    [
+      "Área(s)",
+      "Jurídica — Comfacesar"
+    ],
+    [
+      "Sesión",
+      "N° 3 — Cierre del primer ejercicio y apertura de habilidades, artefactos y agentes"
+    ],
+    [
+      "Fecha",
+      "31 de agosto de 2026"
+    ],
+    [
+      "Hora inicio",
+      "10:00 a.m. — Colombia (sala abierta desde las 9:56 a.m.)"
+    ],
+    [
+      "Duración de la sesión",
+      "1 hora 14 minutos (10:00 a.m. – 11:14 a.m.)"
+    ],
+    [
+      "Modalidad",
+      "Virtual — Microsoft Teams"
+    ],
+    [
+      "Correos Slack activados",
+      "contratacion@comfacesar.com · secretaria_juridica@comfacesar.com · analistaalianzas@comfacesar.com"
+    ],
+    [
+      "Grabación",
+      "Pendiente — se adjunta al publicar el acta en el canal"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo — Mentora IAM™ Intelligence"
+    ]
   ],
   "kpis": [
-    {"valor": "3", "etiqueta": "Participantes", "detalle": "Renata Laino · Lilibeth Costa · Carlos Mario Gamarra"},
-    {"valor": "3/3", "etiqueta": "Asistencia del área", "detalle": "El equipo completo de Jurídica"},
-    {"valor": "5 min", "etiqueta": "Requisitos legales", "detalle": "Antes: de 30 min a más de 1 hora"},
-    {"valor": "4 min", "etiqueta": "Oficio quincenal", "detalle": "Antes: 30 minutos — medido por Carlos"},
-    {"valor": "2", "etiqueta": "Ejercicios asignados", "detalle": "Tablero contractual · convenios de prácticas"},
-    {"valor": "3", "etiqueta": "Bloqueos abiertos", "detalle": "Créditos, tarjeta rechazada y Drive lleno"}
+    {
+      "valor": "3",
+      "etiqueta": "Participantes",
+      "detalle": "Renata Laino · Lilibeth Costa · Carlos Mario Gamarra"
+    },
+    {
+      "valor": "3/3",
+      "etiqueta": "Asistencia del área",
+      "detalle": "El equipo completo de Jurídica"
+    },
+    {
+      "valor": "5 min",
+      "etiqueta": "Requisitos legales",
+      "detalle": "Antes: de 30 min a más de 1 hora"
+    },
+    {
+      "valor": "4 min",
+      "etiqueta": "Oficio quincenal",
+      "detalle": "Antes: 30 minutos — medido por Carlos"
+    },
+    {
+      "valor": "2",
+      "etiqueta": "Ejercicios asignados",
+      "detalle": "Tablero contractual · convenios de prácticas"
+    },
+    {
+      "valor": "2",
+      "etiqueta": "Bloqueos abiertos",
+      "detalle": "Drive lleno · créditos de Renata y Carlos"
+    }
   ],
   "participantes": [
-    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
-    {"nombre": "Renata Del Mar Laino Niño", "cargo": "Contratación — Comfacesar", "correo": "contratacion@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"},
-    {"nombre": "Lilibeth Del Carmen Costa Méndez", "cargo": "Secretaria Jurídica — Comfacesar", "correo": "secretaria_juridica@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"},
-    {"nombre": "Carlos Mario Gamarra Montes", "cargo": "Analista de Alianzas — Comfacesar", "correo": "analistaalianzas@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"}
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "—",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Renata Del Mar Laino Niño",
+      "cargo": "Contratación — Comfacesar",
+      "correo": "contratacion@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Intermedio"
+    },
+    {
+      "nombre": "Lilibeth Del Carmen Costa Méndez",
+      "cargo": "Secretaria Jurídica — Comfacesar",
+      "correo": "secretaria_juridica@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Intermedio"
+    },
+    {
+      "nombre": "Carlos Mario Gamarra Montes",
+      "cargo": "Analista de Alianzas — Comfacesar",
+      "correo": "analistaalianzas@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Intermedio"
+    }
   ],
   "mapa_calor_intro": "Riesgos identificados en la Sesión 3 a partir de lo que efectivamente frenó el trabajo del equipo de Jurídica durante la sesión.",
   "riesgos": [
@@ -42,10 +117,10 @@
       "responsable": "Comfacesar — TI / Esta semana"
     },
     {
-      "titulo": "Lilibeth no logra activar el plan pagado",
-      "nivel": "ALTO",
-      "descripcion": "La tarjeta le rechaza el pago. Ya llamó al banco, que reportó un bloqueo, y volvió a intentarlo con una segunda tarjeta sin resultado. Su ejercicio —el tablero de trazabilidad contractual— necesita artefactos, y sin plan no puede avanzar más allá de la teoría.",
-      "responsable": "Lilibeth + Sandra / Sesión individual del miércoles"
+      "titulo": "El plan pagado llegó, pero solo a un puesto",
+      "nivel": "MEDIO",
+      "descripcion": "Durante la sesión Lilibeth no lograba activar el plan: la tarjeta le rechazaba el pago y ya había llamado al banco. Lo resolvió el 1 de septiembre por la tarde y avisó en el canal que ya está adelantando los compromisos. Queda el resto del área en versión gratuita, con los créditos agotándose a mitad de ejercicio.",
+      "responsable": "Comfacesar / Antes de la S5"
     },
     {
       "titulo": "Los créditos de la versión gratuita se agotan a mitad de ejercicio",
@@ -89,11 +164,11 @@
     },
     {
       "num": "02",
-      "nivel": "ALTO",
-      "titulo": "Resolver la activación del plan de Lilibeth",
-      "descripcion": "Se revisa en la sesión individual del miércoles: limpiar cookies e historial, refrescar la página y reintentar. Si la tarjeta sigue rechazando, hay que buscar otra vía de pago antes de que el ejercicio del tablero se enfríe.",
-      "responsable": "Lilibeth Costa + Sandra",
-      "plazo": "Miércoles 2 de septiembre"
+      "nivel": "MEDIO",
+      "titulo": "Extender el plan pagado al resto del área",
+      "descripcion": "Lilibeth ya activó Claude Pro y está avanzando con sus compromisos. Renata y Carlos siguen en la versión gratuita, y son ellos los que se quedaron sin créditos a mitad del ejercicio de contratos.",
+      "responsable": "Comfacesar + equipo Jurídica",
+      "plazo": "Antes de la Sesión 5"
     },
     {
       "num": "03",
@@ -174,17 +249,72 @@
   ],
   "tareas_intro": "Los ejercicios se trabajan sobre los casos reales de cada quien. Traerlos avanzados es lo que convierte la sesión en resultado: sin el ejercicio hecho, la sesión se va en repetir lo que ya se explicó.",
   "tareas": [
-    {"tarea": "Terminar de modelar el documento de requisitos legales y dar el visto bueno al prototipo", "responsable": "Renata Laino", "prioridad": "ALTA", "plazo": "Antes de S4"},
-    {"tarea": "Registrar en el cuadro del área los dos ejercicios ya hechos, con el nombre en observaciones", "responsable": "Renata Laino", "prioridad": "ALTA", "plazo": "Cuando se libere el Drive"},
-    {"tarea": "Cargar el Google Sheet de gestión contractual y pedir inconsistencias marcadas en amarillo", "responsable": "Lilibeth Costa", "prioridad": "ALTA", "plazo": "Miércoles 2 sept"},
-    {"tarea": "Pedir los KPIs de acta de consejo directivo y de tipología de contrato sobre la relación de contratos", "responsable": "Lilibeth Costa", "prioridad": "ALTA", "plazo": "Miércoles 2 sept"},
-    {"tarea": "Construir el tablero HTML a partir del informe del proveedor, con identidad y KPIs propios", "responsable": "Lilibeth Costa", "prioridad": "ALTA", "plazo": "Miércoles 2 sept"},
-    {"tarea": "Probar cowork sobre la carpeta de convenios de prácticas del archivo jurídico", "responsable": "Carlos Mario Gamarra", "prioridad": "ALTA", "plazo": "Antes de S4"},
-    {"tarea": "Probar despacho desde el celular y contar la experiencia en la próxima sesión", "responsable": "Carlos Mario Gamarra", "prioridad": "MEDIA", "plazo": "Antes de S4"},
-    {"tarea": "Descargar Claude Code en el computador para trabajarlo en la próxima sesión", "responsable": "Equipo Jurídica", "prioridad": "MEDIA", "plazo": "Antes de S4"},
-    {"tarea": "Liberar o ampliar el almacenamiento de Google Drive del área", "responsable": "Comfacesar — TI", "prioridad": "URGENTE", "plazo": "Esta semana"},
-    {"tarea": "Resolver el rechazo de la tarjeta para activar el plan pagado", "responsable": "Lilibeth Costa", "prioridad": "URGENTE", "plazo": "Miércoles 2 sept"},
-    {"tarea": "Crear la habilidad de derecho contractual colombiano y compartirla con el equipo", "responsable": "Renata Laino", "prioridad": "MEDIA", "plazo": "Sesión 4"}
+    {
+      "tarea": "Terminar de modelar el documento de requisitos legales y dar el visto bueno al prototipo",
+      "responsable": "Renata Laino",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S4"
+    },
+    {
+      "tarea": "Registrar en el cuadro del área los dos ejercicios ya hechos, con el nombre en observaciones",
+      "responsable": "Renata Laino",
+      "prioridad": "ALTA",
+      "plazo": "Cuando se libere el Drive"
+    },
+    {
+      "tarea": "Cargar el Google Sheet de gestión contractual y pedir inconsistencias marcadas en amarillo",
+      "responsable": "Lilibeth Costa",
+      "prioridad": "ALTA",
+      "plazo": "Miércoles 2 sept"
+    },
+    {
+      "tarea": "Pedir los KPIs de acta de consejo directivo y de tipología de contrato sobre la relación de contratos",
+      "responsable": "Lilibeth Costa",
+      "prioridad": "ALTA",
+      "plazo": "Miércoles 2 sept"
+    },
+    {
+      "tarea": "Construir el tablero HTML a partir del informe del proveedor, con identidad y KPIs propios",
+      "responsable": "Lilibeth Costa",
+      "prioridad": "ALTA",
+      "plazo": "Miércoles 2 sept"
+    },
+    {
+      "tarea": "Probar cowork sobre la carpeta de convenios de prácticas del archivo jurídico",
+      "responsable": "Carlos Mario Gamarra",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S4"
+    },
+    {
+      "tarea": "Probar despacho desde el celular y contar la experiencia en la próxima sesión",
+      "responsable": "Carlos Mario Gamarra",
+      "prioridad": "MEDIA",
+      "plazo": "Antes de S4"
+    },
+    {
+      "tarea": "Descargar Claude Code en el computador para trabajarlo en la próxima sesión",
+      "responsable": "Equipo Jurídica",
+      "prioridad": "MEDIA",
+      "plazo": "Antes de S4"
+    },
+    {
+      "tarea": "Liberar o ampliar el almacenamiento de Google Drive del área",
+      "responsable": "Comfacesar — TI",
+      "prioridad": "URGENTE",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Plan pagado activado por Lilibeth — falta el de Renata y el de Carlos",
+      "responsable": "Comfacesar",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S5"
+    },
+    {
+      "tarea": "Crear la habilidad de derecho contractual colombiano y compartirla con el equipo",
+      "responsable": "Renata Laino",
+      "prioridad": "MEDIA",
+      "plazo": "Sesión 4"
+    }
   ],
   "observaciones": [
     "El equipo de Jurídica asistió completo: Renata, Lilibeth y Carlos. Es la primera área del programa con asistencia total en una sesión de ejercicios.",
@@ -194,18 +324,19 @@
     "Lilibeth trajo el proceso completo del área —gestión contractual y relación de contratos— y lo mostró en vivo. Tener el caso identificado antes de la sesión individual es lo que permite que el miércoles se construya en vez de explorar.",
     "El área trabaja íntegramente sobre Google Sheets, no sobre archivos locales. Eso hace que el tope de almacenamiento del Drive no sea una molestia sino un freno operativo.",
     "Sandra mostró el funcionamiento de Lucía y Elia con el proyecto de Comfacesar en vivo, incluida el acta y el control de asistencia que llegan al canal. El equipo vio el resultado antes de aprender a construirlo.",
-    "Quedó abierta la puerta a sesiones individuales para Renata y Carlos además de la de Lilibeth: la fase de configuración grupal ya terminó y de aquí en adelante cada caso avanza a su ritmo."
+    "Quedó abierta la puerta a sesiones individuales para Renata y Carlos además de la de Lilibeth: la fase de configuración grupal ya terminó y de aquí en adelante cada caso avanza a su ritmo.",
+    "Al día siguiente de la sesión, Lilibeth avisó en el canal que ya adquirió Claude Pro y que está adelantando los compromisos. También movió su sesión individual del miércoles 2 al lunes 7 de septiembre; la grupal del jueves a las 11:00 sigue en pie."
   ],
   "proxima_sesion": {
-    "sesion": "Jurídica — sesión individual y Sesión 5",
+    "sesion": "Jurídica — Sesión 5 y la individual de Lilibeth",
     "condiciones": [
-      "Miércoles 2 sept · 9:00 a.m. — Lilibeth Costa, individual",
-      "Tema: tablero de trazabilidad contractual con KPIs propios",
-      "Jueves 3 sept · 11:00 a.m. — Sesión 5, equipo completo",
-      "Tema: Claude Code y sistemas de trabajo agénticos"
+      "Jueves 3 sept · 11:00 a. m. — Sesión 5, equipo completo",
+      "Tema: Claude Code y sistemas de trabajo agénticos",
+      "Lunes 7 sept — individual de Lilibeth, reprogramada",
+      "Tema: tablero de trazabilidad contractual con KPIs propios"
     ],
     "agendamiento": [
-      "Las dos sesiones ya están agendadas",
+      "Lilibeth movió su individual del miércoles 2 al lunes 7",
       "Renata y Carlos pueden agendar individuales adicionales",
       "Sandra disponible en exclusiva para Comfacesar hasta finales de octubre"
     ]

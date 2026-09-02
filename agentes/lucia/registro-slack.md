@@ -17,12 +17,12 @@
 | 28 ago · 08:00 | `#cumplimiento` | Acta Sesión 1, programada | Cancelada por Sandra |
 | 26 ago · 13:52 | `#contabilidad` | Acta S2 primera versión + canvas | Eliminados |
 | 31 ago · 15:59 | `#educacion` | «Estoy en la sala esperándolos» — a pedido de Sandra, en el momento | **Publicado por Lucía** |
-| 2 sept · 08:00 | `#juridica` | Resumen de la Sesión 3 | **Programado** `Dr0BU967UDB8` |
+| 2 sept · 08:00 | `#juridica` | Resumen de la Sesión 3 | ⚠️ **Desactualizado** — dice que a Lilibeth le rechaza la tarjeta, y ya activó Pro |
 | 2 sept · 08:01 | `#serivcios-sociales` | Resumen de la Sesión 5 | **Programado** `Dr0BU4SRNYTD` |
 | 2 sept · 08:02 | `#talento-humano` | Resumen de la Sesión 2 | **Programado** `Dr0BV5FH1C6L` |
 | 2 sept · 08:03 | `#contabilidad` | Resumen de la individual de Lisbeth | **Programado** `Dr0BTVP19MCP` |
 | 2 sept · 08:04 | `#sub-operativa` | Resumen de la Sesión 3 | **Programado** `Dr0BU96C7WGN` |
-| 2 sept · 08:05 | `#juridica` | Recordatorio · individual de Lilibeth, 9:00 | **Programado** `Dr0BU4SWAQ1H` |
+| 2 sept · 08:05 | `#juridica` | Recordatorio · individual de Lilibeth, 9:00 | ⚠️ **Equivocado** — la movió al lunes 7. Solo Sandra lo puede borrar |
 | 2 sept · 09:00 | `#comunicaciones` | Recordatorio · Ambassadors con María Elvira, 10:00 | **Programado** `Dr0BUB3SPUFL` |
 | 2 sept · 10:00 | `#sub-admin-y-financiera-infraestructura` | Recordatorio · individual de Rafael, 11:00 | **Programado** `Dr0BUD241LKB` |
 | 2 sept · 13:00 | `#contabilidad` | Recordatorio · individual de Carlos, 14:00 | **Programado** `Dr0BU6T13DJR` |
@@ -35,6 +35,21 @@ falta la app de Slack y abrir `slack.com` en la red. Ver `GUIA-APP-SLACK.md`.
 **Los avisos del momento son de Lucía.** Un «estoy en la sala esperándolos», un cambio
 de hora, un «se cancela la de hoy»: eso es operación, no contenido, y lo lleva Lucía
 porque es quien lee el calendario. Elia no toca esos avisos.
+
+## Lo programado no se puede cancelar por API
+
+El conector de Slack programa, pero **no cancela ni edita**. Un mensaje programado con
+un dato que cambió solo se puede borrar desde Slack, en **Borradores y enviados**, y eso
+lo hace Sandra.
+
+Pasó el 2 de septiembre: los dos mensajes de `#juridica` quedaron obsoletos entre la
+noche del martes y la mañana del miércoles, porque Lilibeth activó Claude Pro y movió su
+individual al lunes 7. Se programaron el martes a las 8 p. m. con la información de esa
+hora, y a las 6:30 a. m. ya no era cierta.
+
+**La regla que sale de esto:** antes de programar de noche, leer los canales una vez más.
+Y a primera hora del día siguiente, releer lo que está por salir contra lo que pasó
+después. Doce horas en este proyecto alcanzan para que un dato cambie.
 
 ## Lo que Elia tiene que saber de esta tanda
 
