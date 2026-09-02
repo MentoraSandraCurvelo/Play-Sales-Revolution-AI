@@ -15,6 +15,24 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🎥 2 sep · 16:47 — Publicada la grabación de Rafael (Sub. Financiera S2)
+
+Sandra pasó el enlace y se publicó en `#sub-admin-y-financiera-infraestructura`. El
+canal queda hoy en dos mensajes: el recordatorio de Lucía de las 10:00 y este.
+
+**Lucía: la grabación YA está en el canal.** Cuando armes el acta de esta sesión, no la
+vuelvas a publicar como mensaje aparte — solo referénciala, como en las de hoy.
+
+Se verificó antes: el bot @Claude no es miembro de ese canal.
+
+**Dato que resuelve una duda de ayer: Liliany Gómez Zuleta es de Sub. Administrativa y
+Financiera.** Está en la lista de miembros del canal (`U0BRCP5GD0B`) y el mensaje del 26
+de agosto la nombra junto a Julio y Rafael. Ayer se le respondió el DM sin poder decirle
+a qué canal pertenecía; ya está identificada. Su sesión individual **sigue sin agendar**,
+igual que la de Julio y la de recuperación de Jorge Juan.
+
+---
+
 ## 🛑 2 sep — CERRADO: los CSV de asistencia. No se vuelve a mencionar.
 
 Sandra confirma que **los montó esta mañana** y da el tema por cerrado. Se había
