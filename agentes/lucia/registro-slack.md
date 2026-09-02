@@ -28,6 +28,8 @@
 | 2 sept · 07:22 | `#juridica` | Grabación de la Sesión 3 | **Publicado por Lucía** |
 | 2 sept · 07:22 | `#serivcios-sociales` | Grabación de la Sesión 5 | **Publicado por Lucía** |
 | 2 sept · 07:23 | `#talento-humano` | Grabación de la Sesión 2 | **Publicado por Lucía** |
+| 2 sept · 07:32 | `#contabilidad` | Grabación de la individual de Lisbeth | **Publicado por Lucía** |
+| 2 sept · 07:33 | `#sub-operativa` | Grabación de la Sesión 3 | **Publicado por Lucía** |
 | 2 sept · 09:00 | `#comunicaciones` | Recordatorio · Ambassadors con María Elvira, 10:00 | **Programado** `Dr0BUB3SPUFL` |
 | 2 sept · 10:00 | `#sub-admin-y-financiera-infraestructura` | Recordatorio · individual de Rafael, 11:00 | **Programado** `Dr0BUD241LKB` |
 | 2 sept · 13:00 | `#contabilidad` | Recordatorio · individual de Carlos, 14:00 | **Programado** `Dr0BU6T13DJR` |
@@ -89,9 +91,9 @@ mensaje está vacío, releerlo así.
 | Contabilidad S3 — individual de Lisbeth | 1 sept | `#contabilidad` | **Nueva** · pendiente del visto bueno |
 | Sub. Operativa y Comercial S3 | 1 sept | `#sub-operativa` | **Nueva** · pendiente del visto bueno |
 
-Las cinco nuevas se armaron en la corrida del 1 de septiembre por la noche, en cuanto
-los CSV y los VTT aparecieron en Dropbox. A las cinco les falta lo mismo: **el enlace
-de la grabación**, que hoy dice «pendiente» en la tabla de datos de la sesión.
+Las cinco se armaron en la corrida del 1 de septiembre por la noche, Sandra subió los
+cinco PDF el 2 a las 6:30, y las cinco grabaciones quedaron publicadas en sus canales
+esa misma mañana. **El circuito de las sesiones del lunes y el martes está cerrado.**
 
 ## Canales reservados
 
