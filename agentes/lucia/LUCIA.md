@@ -174,6 +174,11 @@ Nada más. El mensaje queda en el canal, es buscable y no caduca.
 > quedó bloqueado y las tareas con responsable y plazo. **No promete adjuntos que
 > después nadie sube:** si el CSV o la grabación no van, no se mencionan.
 
+**El orden importa: primero el mensaje, después el PDF.** Lucía programa el resumen
+para las 8:00 y Sandra suelta el PDF encima cuando lo ve. Al revés se lee mal — el
+documento arriba y la explicación debajo, como si el acta necesitara pie de página.
+Acordado el 2 de septiembre, después de que las dos cosas salieran en orden invertido.
+
 **El PDF es el documento formal, y vive en Dropbox** — en la carpeta de la sesión, con
 la identidad IAM™ completa. Es el que se archiva, el que se imprime y el que sustenta
 el cierre de octubre. En Slack no hace falta.
