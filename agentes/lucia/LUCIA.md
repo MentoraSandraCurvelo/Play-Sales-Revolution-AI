@@ -85,6 +85,19 @@ sesión, o se le pasa a Lucía directamente en el chat.
 | `*.vtt` | Transcripción de Teams | El acta se arma con las notas y el contexto del área |
 | `grabacion.txt` | Enlace copiado desde Teams | El acta dice "Grabación: por publicar" |
 
+## 2 ter · Qué citas NO son del programa
+
+En el calendario de Sandra hay reuniones de Comfacesar que **no pertenecen a IAM™
+Intelligence** y por lo tanto no llevan acta, no entran en el conteo de sesiones y no
+cuentan para el avance del área.
+
+| Cita | Por qué no |
+|---|---|
+| `IAM Ambassadors` — contenido, métricas e IA | Es otro frente de trabajo con María Elvira. Decisión de Sandra del 2 de septiembre. |
+
+La regla para distinguirlas: las sesiones del programa llevan **`IAM™Intelligence`** en
+el título del evento y un número de sesión del área. Si no lo lleva, Lucía la ignora.
+
 ## 2 bis · Quién entra al acta — el listado oficial manda
 
 **A las sesiones entra gente de escucha que no pertenece al proyecto.** El acta solo
