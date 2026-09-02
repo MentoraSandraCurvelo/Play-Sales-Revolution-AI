@@ -1,0 +1,214 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "JURÍDICA",
+  "area_completa": "Oficina Jurídica",
+  "sesion_num": 3,
+  "fase": "Ejercicios Prácticos",
+  "fecha": "31 de agosto de 2026",
+  "fecha_corta": "31 agosto 2026",
+  "subtitulo_meta": "31 de agosto de 2026 · 10:00 a.m. · 1 h 14 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Jurídica — Comfacesar"],
+    ["Sesión", "N° 3 — Cierre del primer ejercicio y apertura de habilidades, artefactos y agentes"],
+    ["Fecha", "31 de agosto de 2026"],
+    ["Hora inicio", "10:00 a.m. — Colombia (sala abierta desde las 9:56 a.m.)"],
+    ["Duración de la sesión", "1 hora 14 minutos (10:00 a.m. – 11:14 a.m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Correos Slack activados", "contratacion@comfacesar.com · secretaria_juridica@comfacesar.com · analistaalianzas@comfacesar.com"],
+    ["Grabación", "Pendiente — se adjunta al publicar el acta en el canal"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "3", "etiqueta": "Participantes", "detalle": "Renata Laino · Lilibeth Costa · Carlos Mario Gamarra"},
+    {"valor": "3/3", "etiqueta": "Asistencia del área", "detalle": "El equipo completo de Jurídica"},
+    {"valor": "5 min", "etiqueta": "Requisitos legales", "detalle": "Antes: de 30 min a más de 1 hora"},
+    {"valor": "4 min", "etiqueta": "Oficio quincenal", "detalle": "Antes: 30 minutos — medido por Carlos"},
+    {"valor": "2", "etiqueta": "Ejercicios asignados", "detalle": "Tablero contractual · convenios de prácticas"},
+    {"valor": "3", "etiqueta": "Bloqueos abiertos", "detalle": "Créditos, tarjeta rechazada y Drive lleno"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Renata Del Mar Laino Niño", "cargo": "Contratación — Comfacesar", "correo": "contratacion@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"},
+    {"nombre": "Lilibeth Del Carmen Costa Méndez", "cargo": "Secretaria Jurídica — Comfacesar", "correo": "secretaria_juridica@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"},
+    {"nombre": "Carlos Mario Gamarra Montes", "cargo": "Analista de Alianzas — Comfacesar", "correo": "analistaalianzas@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 3 a partir de lo que efectivamente frenó el trabajo del equipo de Jurídica durante la sesión.",
+  "riesgos": [
+    {
+      "titulo": "El almacenamiento de Drive está lleno",
+      "nivel": "CRITICO",
+      "descripcion": "Renata no pudo escribir en el cuadro de seguimiento del área porque el Drive corporativo no admite un carácter más. Todo el trabajo del área vive en Google Sheets —gestión contractual, relación de contratos, trazabilidad—, así que el tope de almacenamiento no frena una tarea: frena el proceso completo.",
+      "responsable": "Comfacesar — TI / Esta semana"
+    },
+    {
+      "titulo": "Lilibeth no logra activar el plan pagado",
+      "nivel": "ALTO",
+      "descripcion": "La tarjeta le rechaza el pago. Ya llamó al banco, que reportó un bloqueo, y volvió a intentarlo con una segunda tarjeta sin resultado. Su ejercicio —el tablero de trazabilidad contractual— necesita artefactos, y sin plan no puede avanzar más allá de la teoría.",
+      "responsable": "Lilibeth + Sandra / Sesión individual del miércoles"
+    },
+    {
+      "titulo": "Los créditos de la versión gratuita se agotan a mitad de ejercicio",
+      "nivel": "ALTO",
+      "descripcion": "Renata se quedó sin créditos justo cuando iba a afinar su documento. El modelamiento es iterativo por naturaleza: se pide, se lee, se corrige. Con la versión gratuita el ciclo se corta antes de llegar al resultado que sirve.",
+      "responsable": "Comfacesar / Antes de la S4"
+    },
+    {
+      "titulo": "El informe de trazabilidad depende de un contratista externo",
+      "nivel": "MEDIO",
+      "descripcion": "El tablero que hoy usa Lilibeth para ver la parte contractual en tiempo real lo desarrolló y lo mantiene un contratista de sistemas. El área no puede cambiarlo ni ampliarlo sin pedirlo. Es exactamente lo que un artefacto propio resuelve.",
+      "responsable": "Lilibeth / Sesión individual"
+    },
+    {
+      "titulo": "El conocimiento contractual está en una sola cabeza",
+      "nivel": "MEDIO",
+      "descripcion": "Renata es la experta en derecho contractual del área; Lilibeth y Carlos no lo son. Cuando aparece un caso fuera de lo habitual —el contrato de fauna silvestre, por ejemplo— hay que ir a consultarla a ella o a otras áreas.",
+      "responsable": "Renata / Sesión 4"
+    },
+    {
+      "titulo": "La revisión de convenios se hace documento por documento",
+      "nivel": "MEDIO",
+      "descripcion": "Carlos abre uno a uno los convenios de prácticas digitalizados en el archivo jurídico para copiar a un Excel el número, la fecha de firma y la de finalización. Es trabajo de transcripción, no de criterio jurídico.",
+      "responsable": "Carlos / Sesión 4"
+    },
+    {
+      "titulo": "Los micrófonos siguen apagados buena parte de la sesión",
+      "nivel": "BAJO",
+      "descripcion": "Sandra tuvo que pedir varias veces que abrieran micrófono para poder preguntar. En una sesión práctica sobre casos propios, la falta de audio se traduce en menos casos trabajados.",
+      "responsable": "Equipo Jurídica / Permanente"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "CRITICO",
+      "titulo": "Liberar o ampliar el almacenamiento de Drive",
+      "descripcion": "Sin espacio no se puede escribir en los cuadros ni compartir los enlaces que Claude necesita leer. Es el bloqueo que impide medir el avance del área, y no lo resuelve el equipo de Jurídica.",
+      "responsable": "Comfacesar — TI",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Resolver la activación del plan de Lilibeth",
+      "descripcion": "Se revisa en la sesión individual del miércoles: limpiar cookies e historial, refrescar la página y reintentar. Si la tarjeta sigue rechazando, hay que buscar otra vía de pago antes de que el ejercicio del tablero se enfríe.",
+      "responsable": "Lilibeth Costa + Sandra",
+      "plazo": "Miércoles 2 de septiembre"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Registrar cada ejercicio en el cuadro del área",
+      "descripcion": "El cuadro es de todo el equipo, no de cada quien: mide la productividad del área completa. Va el nombre en las observaciones para poder segmentar después. Carlos ya registró su oficio quincenal; faltan los dos ejercicios de Renata.",
+      "responsable": "Equipo Jurídica",
+      "plazo": "Antes de la Sesión 4"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Convertir la experiencia de Renata en una habilidad compartida",
+      "descripcion": "Una habilidad de derecho contractual colombiano, creada por Renata y puesta a disposición del equipo, hace que Lilibeth y Carlos obtengan respuestas con ese criterio sin tener que interrumpirla.",
+      "responsable": "Renata Laino",
+      "plazo": "Sesión 4"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Cierre del análisis de requisitos legales por tipo de contrato",
+      "duracion": "~25 min · con Renata",
+      "objetivo": "Terminar de modelar el documento de requisitos legales para el contrato de gestión de fauna silvestre, y dejar el prototipo que se reutiliza para cualquier otro tipo de contrato.",
+      "pasos": [
+        "Revisar el documento que devolvió Claude y anotar qué sobra y qué falta",
+        "Corregir el encabezado: no es un memorando jurídico, son los requisitos que debe cumplir el contratista",
+        "Dictar la corrección en vez de escribirla — es más rápido y el resultado es el mismo",
+        "Pedirle que investigue según los lineamientos de Corpocesar para el permiso ambiental",
+        "Iterar hasta llegar al documento con el que el área se queda: ese es el prototipo",
+        "Renombrar el proyecto y las conversaciones: el proyecto es «Requisitos legales contratos», la consulta es «Contrato fauna»",
+        "Para el siguiente contrato: nuevo chat dentro del mismo proyecto, subir el documento y pedirlo igual al de fauna",
+        "Organizar los proyectos por concepto de contrato — fauna, vivienda, sociales — no por fecha"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Habilidades, artefactos y el salto a lo agéntico",
+      "duracion": "~40 min · con todo el equipo",
+      "objetivo": "Mostrar las tres capas que vienen después del proyecto: habilidades que inyectan criterio experto, artefactos que reemplazan el Excel, y agentes que actúan solos.",
+      "pasos": [
+        "Personalizar → Habilidades → crear habilidad con Claude, usando el método CREA",
+        "Ejemplo trabajado en vivo: «abogado experto en derecho contractual colombiano», para que la use todo el equipo",
+        "Indexar la habilidad en cualquier consulta desde el botón + , junto con los archivos",
+        "Artefactos: la web y el tablero HTML — un enlace que se comparte con dirección, junta o equipo",
+        "Ver un tablero real en vivo y entender que reemplaza el Excel, no lo acompaña",
+        "Cowork: agregar una carpeta del computador a la consulta y dejar que Claude la ordene",
+        "Demostración con datos reales: carpeta de facturas renombrada, meses faltantes detectados y mes más costoso identificado",
+        "Despacho: la aplicación del celular conectada al computador, para pedir trabajo camino a una junta",
+        "Claude Code: se descarga esta semana, se trabaja en la próxima sesión",
+        "Diferencia que ordena todo lo anterior: un asistente sigue instrucciones, un agente toma decisiones"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD MEDIDA EN SESIÓN 3 · 31 agosto 2026",
+      "titulo": "Requisitos legales por tipo de contrato — de una hora a cinco minutos",
+      "descripcion": "Renata analizaba a mano los requisitos legales de cada contrato nuevo. En los casos habituales tardaba unos 30 minutos; en los que se salen de la norma —como el contrato de gestión de fauna silvestre— tenía que consultar a otras áreas y superaba la hora. Con el proyecto montado y el prototipo definido, el mismo análisis salió en 3 a 5 minutos.",
+      "estado": "Probado en vivo con un contrato real de fauna silvestre",
+      "proximo_paso": "Cerrar el modelamiento del documento y reutilizar el prototipo con los contratos de vivienda y sociales",
+      "target": "Sesión 4"
+    },
+    {
+      "encabezado": "OPORTUNIDAD MEDIDA EN SESIÓN 3 · 31 agosto 2026",
+      "titulo": "Oficio quincenal — de 30 minutos a 4",
+      "descripcion": "Carlos ya registró en el cuadro del área el primer dato duro del programa en Jurídica: el oficio que presenta cada quince días pasó de 30 minutos a 4. No es una estimación, es lo que quedó anotado por él mismo en el seguimiento.",
+      "estado": "En producción — ya forma parte de su rutina quincenal",
+      "proximo_paso": "Aplicar el mismo método a la consolidación de convenios de prácticas",
+      "target": "Sesión 4"
+    },
+    {
+      "encabezado": "OPORTUNIDAD IDENTIFICADA EN SESIÓN 3 · 31 agosto 2026",
+      "titulo": "Tablero de trazabilidad contractual propio del área",
+      "descripcion": "Toda la gestión contractual —contratos, convenios, órdenes, adiciones, prórrogas y certificados— vive hoy en varias hojas de Google Sheets, y el informe que las lee en tiempo real lo mantiene un contratista externo. Un artefacto propio hace lo mismo, lo actualiza el área y se ajusta a los KPIs que Jurídica necesita medir, no a los que quedaron programados.",
+      "estado": "Ejercicio asignado a Lilibeth, con los enlaces ya identificados en sesión",
+      "proximo_paso": "Cargar los enlaces, pedir inconsistencias en amarillo y los KPIs por acta de consejo directivo y por tipología de contrato",
+      "target": "Sesión individual del miércoles 2 de septiembre"
+    }
+  ],
+  "tareas_intro": "Los ejercicios se trabajan sobre los casos reales de cada quien. Traerlos avanzados es lo que convierte la sesión en resultado: sin el ejercicio hecho, la sesión se va en repetir lo que ya se explicó.",
+  "tareas": [
+    {"tarea": "Terminar de modelar el documento de requisitos legales y dar el visto bueno al prototipo", "responsable": "Renata Laino", "prioridad": "ALTA", "plazo": "Antes de S4"},
+    {"tarea": "Registrar en el cuadro del área los dos ejercicios ya hechos, con el nombre en observaciones", "responsable": "Renata Laino", "prioridad": "ALTA", "plazo": "Cuando se libere el Drive"},
+    {"tarea": "Cargar el Google Sheet de gestión contractual y pedir inconsistencias marcadas en amarillo", "responsable": "Lilibeth Costa", "prioridad": "ALTA", "plazo": "Miércoles 2 sept"},
+    {"tarea": "Pedir los KPIs de acta de consejo directivo y de tipología de contrato sobre la relación de contratos", "responsable": "Lilibeth Costa", "prioridad": "ALTA", "plazo": "Miércoles 2 sept"},
+    {"tarea": "Construir el tablero HTML a partir del informe del proveedor, con identidad y KPIs propios", "responsable": "Lilibeth Costa", "prioridad": "ALTA", "plazo": "Miércoles 2 sept"},
+    {"tarea": "Probar cowork sobre la carpeta de convenios de prácticas del archivo jurídico", "responsable": "Carlos Mario Gamarra", "prioridad": "ALTA", "plazo": "Antes de S4"},
+    {"tarea": "Probar despacho desde el celular y contar la experiencia en la próxima sesión", "responsable": "Carlos Mario Gamarra", "prioridad": "MEDIA", "plazo": "Antes de S4"},
+    {"tarea": "Descargar Claude Code en el computador para trabajarlo en la próxima sesión", "responsable": "Equipo Jurídica", "prioridad": "MEDIA", "plazo": "Antes de S4"},
+    {"tarea": "Liberar o ampliar el almacenamiento de Google Drive del área", "responsable": "Comfacesar — TI", "prioridad": "URGENTE", "plazo": "Esta semana"},
+    {"tarea": "Resolver el rechazo de la tarjeta para activar el plan pagado", "responsable": "Lilibeth Costa", "prioridad": "URGENTE", "plazo": "Miércoles 2 sept"},
+    {"tarea": "Crear la habilidad de derecho contractual colombiano y compartirla con el equipo", "responsable": "Renata Laino", "prioridad": "MEDIA", "plazo": "Sesión 4"}
+  ],
+  "observaciones": [
+    "El equipo de Jurídica asistió completo: Renata, Lilibeth y Carlos. Es la primera área del programa con asistencia total en una sesión de ejercicios.",
+    "Renata cerró su primer ejercicio de principio a fin y lo midió: de más de una hora a cinco minutos. Ese dato es el que sostiene el caso del área para el cierre de octubre.",
+    "Carlos llegó con el ejercicio hecho por su cuenta —intentó que Claude leyera su correo y descargara los anexos— y con la pregunta correcta sobre por qué no funcionó. Esa exploración por fuera de la sesión es el comportamiento que el programa busca.",
+    "Lo que Carlos intentó no es un asistente sino un agente: un sistema que decide por sí solo cuándo ir al correo, qué extraer y dónde ponerlo. Es el contenido de las próximas sesiones.",
+    "Lilibeth trajo el proceso completo del área —gestión contractual y relación de contratos— y lo mostró en vivo. Tener el caso identificado antes de la sesión individual es lo que permite que el miércoles se construya en vez de explorar.",
+    "El área trabaja íntegramente sobre Google Sheets, no sobre archivos locales. Eso hace que el tope de almacenamiento del Drive no sea una molestia sino un freno operativo.",
+    "Sandra mostró el funcionamiento de Lucía y Elia con el proyecto de Comfacesar en vivo, incluida el acta y el control de asistencia que llegan al canal. El equipo vio el resultado antes de aprender a construirlo.",
+    "Quedó abierta la puerta a sesiones individuales para Renata y Carlos además de la de Lilibeth: la fase de configuración grupal ya terminó y de aquí en adelante cada caso avanza a su ritmo."
+  ],
+  "proxima_sesion": {
+    "sesion": "Jurídica — sesión individual y Sesión 5",
+    "condiciones": [
+      "Miércoles 2 sept · 9:00 a.m. — Lilibeth Costa, individual",
+      "Tema: tablero de trazabilidad contractual con KPIs propios",
+      "Jueves 3 sept · 11:00 a.m. — Sesión 5, equipo completo",
+      "Tema: Claude Code y sistemas de trabajo agénticos"
+    ],
+    "agendamiento": [
+      "Las dos sesiones ya están agendadas",
+      "Renata y Carlos pueden agendar individuales adicionales",
+      "Sandra disponible en exclusiva para Comfacesar hasta finales de octubre"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 31 agosto 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

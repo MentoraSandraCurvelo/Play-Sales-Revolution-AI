@@ -1,0 +1,338 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SUB. OPERATIVA Y COMERCIAL",
+  "area_completa": "",
+  "sesion_num": 3,
+  "fase": "Ejercicios Prácticos",
+  "fecha": "1 de septiembre de 2026",
+  "fecha_corta": "1 septiembre 2026",
+  "subtitulo_meta": "1 de septiembre de 2026 · 3:08 p.m. · 53 min · Híbrida — Microsoft Teams",
+  "datos_sesion": [
+    [
+      "Área(s)",
+      "Subdirección Operativa y Comercial — Comfacesar"
+    ],
+    [
+      "Sesión",
+      "N° 3 — Primera automatización en producción y consolidación de indicadores"
+    ],
+    [
+      "Fecha",
+      "1 de septiembre de 2026"
+    ],
+    [
+      "Hora inicio",
+      "3:08 p.m. — Colombia (la sesión estaba citada a las 3:00)"
+    ],
+    [
+      "Duración de la sesión",
+      "53 minutos (3:08 p.m. – 4:01 p.m.)"
+    ],
+    [
+      "Modalidad",
+      "Híbrida — Sandra virtual, el equipo desde la oficina de Subdirección Operativa"
+    ],
+    [
+      "Correos Slack activados",
+      "asistentesuboperativa@comfacesar.com · innovacion@comfacesar.com"
+    ],
+    [
+      "Grabación",
+      "Pendiente — se adjunta al publicar el acta en el canal"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo — Mentora IAM™ Intelligence"
+    ]
+  ],
+  "kpis": [
+    {
+      "valor": "2",
+      "etiqueta": "Participantes",
+      "detalle": "Gennifer Mira · Jonnathan Armenta"
+    },
+    {
+      "valor": "1",
+      "etiqueta": "Automatización viva",
+      "detalle": "Revisión de costeos, funcionando en el correo real"
+    },
+    {
+      "valor": "3",
+      "etiqueta": "Proyectos en curso",
+      "detalle": "Costeos · Indicadores 2026 · Informes empresariales"
+    },
+    {
+      "valor": "7",
+      "etiqueta": "Hojas generadas",
+      "detalle": "El consolidado de presupuesto contra ejecución"
+    },
+    {
+      "valor": "3",
+      "etiqueta": "Inconsistencias reportadas",
+      "detalle": "Mapeo inferido y 8 centros sin sede"
+    },
+    {
+      "valor": "1",
+      "etiqueta": "Plan activo",
+      "detalle": "Gennifer todavía en versión gratuita"
+    }
+  ],
+  "participantes": [
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "—",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Gennifer Alejandra Mira Salazar",
+      "cargo": "Asistente Subdirección Operativa — Comfacesar",
+      "correo": "asistentesuboperativa@comfacesar.com",
+      "modalidad": "Presencial",
+      "nivel": "Intermedio"
+    },
+    {
+      "nombre": "Jonnathan Johan Armenta",
+      "cargo": "Innovación — Comfacesar",
+      "correo": "innovacion@comfacesar.com",
+      "modalidad": "Presencial",
+      "nivel": "Avanzado"
+    }
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 3 a partir de los dos procesos reales del área que se trabajaron en vivo: la revisión de costeos y el seguimiento de indicadores.",
+  "riesgos": [
+    {
+      "titulo": "El consolidado de indicadores se llena a mano",
+      "nivel": "ALTO",
+      "descripcion": "Gennifer descarga del sistema de información dos archivos —la formulación presupuestal y la ejecución de ingresos, gastos y costos por centro de costo— y los consolida a mano en un cuadro propio. Ese cuadro es la base de todo el seguimiento mensual, trimestral y semestral del área.",
+      "responsable": "Gennifer Mira / Antes de la S4"
+    },
+    {
+      "titulo": "El mapeo de servicio y oficina es una inferencia, no un dato",
+      "nivel": "ALTO",
+      "descripcion": "La herramienta advirtió que la relación entre servicio y oficina la dedujo del texto de la descripción, porque no existe una columna del sistema que la contenga. Además, ocho centros quedaron agrupados como sede principal no especificada porque su nombre no permite identificar la ciudad. Es una debilidad del dato de origen, no del reporte.",
+      "responsable": "Gennifer Mira / Antes de la S4"
+    },
+    {
+      "titulo": "El balance social empresarial depende de tres áreas",
+      "nivel": "ALTO",
+      "descripcion": "Cuando una empresa afiliada pide su balance social, Gennifer solicita a Subsidio y Aportes los reportes de cuota monetaria, abre una mesa de ayuda a Sistemas para que le extraigan el uso de servicios por NIT, y después clasifica a mano qué servicio es cada registro para armar la tabla dinámica. Tres dependencias y varias esperas para responder una solicitud.",
+      "responsable": "Gennifer Mira / Sesión 4"
+    },
+    {
+      "titulo": "Se perdió una conversación de trabajo",
+      "nivel": "MEDIO",
+      "descripcion": "Jonnathan perdió la conversación original de su automatización al intentar moverla a un proyecto: en vez de agregarla, la eliminó. Tuvo que reconstruirla desde la tarea programada. El movimiento correcto es entrar a la conversación, abrir los tres puntos y elegir agregar a proyecto.",
+      "responsable": "Jonnathan Armenta / Resuelto en sesión"
+    },
+    {
+      "titulo": "Dos conversaciones sobre lo mismo dentro de un proyecto",
+      "nivel": "MEDIO",
+      "descripcion": "El proyecto de costeos tenía dos conversaciones separadas hablando del mismo proceso. Las consultas no comparten memoria entre sí, así que partir un proceso en dos hilos rompe la lógica y obliga a repetir el contexto.",
+      "responsable": "Jonnathan Armenta / Resuelto en sesión"
+    },
+    {
+      "titulo": "Instrucciones copiadas desde otra herramienta",
+      "nivel": "MEDIO",
+      "descripcion": "El contexto del proyecto venía pegado de otra IA, con asteriscos, corchetes y numerales propios de esa notación. Trasladada tal cual, esa marcación se puede interpretar de otra forma. Lo que se copia hay que leerlo y limpiarlo antes de pegarlo.",
+      "responsable": "Jonnathan Armenta / Resuelto en sesión"
+    },
+    {
+      "titulo": "El puesto de Gennifer sigue en versión gratuita",
+      "nivel": "MEDIO",
+      "descripcion": "El paso que Jonnathan ya tiene funcionando —que la herramienta entre al correo y trabaje sola sobre lo que llega— no se puede replicar en su puesto. El ejercicio quedó empezando desde los archivos ya cargados a mano.",
+      "responsable": "Comfacesar / Antes de la S4"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Revisar el mapeo de servicio y oficina que quedó advertido",
+      "descripcion": "Está en la hoja de mapeo del archivo generado. Hay que confirmar la ubicación real de los ocho centros que quedaron sin sede identificable —entre ellos mercadeo, turismo y Fovis— y corregirlo. Si el mapeo está mal, todo el consolidado por oficina queda mal.",
+      "responsable": "Gennifer Mira",
+      "plazo": "Antes de la Sesión 4"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Terminar de modelar el consolidado hasta que quede como se necesita",
+      "descripcion": "El primer resultado juntó ingresos, gastos y costos en un mismo bloque, y en el área se manejan por separado. Ahí empieza el modelamiento: corregir, volver a pedir, corregir otra vez, hasta que el archivo salga exactamente como el reporte que hoy se arma a mano. No se pasa al siguiente ejercicio hasta que este quede.",
+      "responsable": "Gennifer Mira",
+      "plazo": "Antes de la Sesión 4"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Registrar la automatización de costeos en el tablero del canal",
+      "descripcion": "Es el primer proceso del área que quedó funcionando solo, y todavía no está documentado. Va con el nombre del reporte, la frecuencia, cuántos minutos tomaba antes, la herramienta y cuántos toma ahora, y el nombre en observaciones.",
+      "responsable": "Jonnathan Armenta",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Mapear el flujograma de cada proceso antes de automatizarlo",
+      "descripcion": "Escribir el paso a paso —quién envía, qué llega, qué se revisa, dónde se detectan las inconsistencias, qué se hace con ellas— sirve para dos cosas: ver dónde se rompe el proceso y saber en qué punto entra la IA. Es el ejercicio que aplica a todo lo que venga después.",
+      "responsable": "Equipo Sub. Operativa",
+      "plazo": "Permanente"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Revisión automática de costeos — ya en producción",
+      "duracion": "~18 min · con Jonnathan",
+      "objetivo": "Revisar el flujo que Jonnathan construyó por su cuenta después de la Sesión 2, verificar que hace lo que debe y corregir lo que quedó desordenado.",
+      "pasos": [
+        "El flujo entra al correo e identifica los mensajes no leídos que contienen la palabra costeo",
+        "Descarga los archivos adjuntos y los revisa contra la plantilla de costeo del área",
+        "Si el costeo cumple los parámetros cargados, lo reenvía a Planeación y etiqueta el correo como revisado",
+        "Si encuentra errores, no envía nada: deja un borrador con las observaciones para que Jonnathan lo valide",
+        "Verificado en vivo sobre correos reales, con las observaciones redactadas y la etiqueta puesta",
+        "Corrección de forma: limpiar del contexto la notación traída de otra herramienta",
+        "Corrección de estructura: unificar las dos conversaciones que hablaban del mismo proceso",
+        "Aclaración de fondo: esto es un asistente. Un agente se construye en Claude Code y viene después"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Consolidado de presupuesto contra ejecución",
+      "duracion": "~25 min · con Gennifer",
+      "objetivo": "Reemplazar el cuadro que se llena a mano: partir de los dos archivos crudos que salen del sistema y llegar al consolidado por servicio y oficina, sin pasos manuales intermedios.",
+      "pasos": [
+        "Revisar el método CREA del proyecto de seguimiento de indicadores 2026",
+        "Ordenar el criterio: el entregable es el formato —dashboard, Excel, Word— y la acción es lo que va dentro",
+        "El contexto describe el pasado y el presente; la acción describe el futuro",
+        "Decidir dónde va la información: al contexto del proyecto si sirve para todas las consultas, a la consulta si cambia cada vez",
+        "Los indicadores cambian cada periodo, así que van en la consulta, no en el contexto",
+        "Quitar el Excel ya consolidado y subir en su lugar los dos archivos crudos del sistema",
+        "Pedir un reporte que consolide por servicio y por oficina el comportamiento mensual de presupuesto contra ejecución, con porcentajes de cumplimiento",
+        "No darle el reporte final como ejemplo: dejar que lo construya desde cero para poder modelarlo",
+        "Responder las preguntas que devuelve —nivel de detalle, agrupación por línea de negocio, qué hacer con los centros que están en un archivo y no en el otro",
+        "Leer las advertencias antes de abrir el resultado: qué infirió, qué no pudo resolver y qué necesita confirmación"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Balance social empresarial, un paso más atrás",
+      "duracion": "~10 min · con Gennifer",
+      "objetivo": "Empezar por donde empieza el trabajo manual y no por donde termina: tomar los archivos crudos de uso de servicios y dejar armada la clasificación y la tabla dinámica.",
+      "pasos": [
+        "Trabajar sobre una solicitud real todavía sin responder, con los dos archivos de 2025 y 2026",
+        "Explicar el origen: son movimientos de uso de servicios y subsidios de los empleados de la empresa que solicita",
+        "Pedir una columna que clasifique la cantidad por servicio",
+        "Pedir una tabla dinámica que resuma cursos y personas atendidas",
+        "Cuidar el verbo de la instrucción: organizar y hacer no producen lo mismo",
+        "El paso anterior —que entre al correo y recoja la solicitud— queda pendiente hasta que haya plan activo"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "RESULTADO EN PRODUCCIÓN · SESIÓN 3 · 1 septiembre 2026",
+      "titulo": "La revisión de costeos ya se hace sola",
+      "descripcion": "Jonnathan construyó por su cuenta, entre la Sesión 2 y esta, un flujo que revisa los costeos que le llegan por correo: los identifica, descarga los adjuntos, los contrasta con la plantilla del área y, si están correctos, los reenvía a Planeación con la etiqueta puesta. Cuando encuentra errores no envía nada: redacta las observaciones y le deja el borrador para que él decida. Es el primer proceso del programa que funciona sin que nadie lo empuje, y salió de una tarea dejada en la sesión anterior.",
+      "estado": "Funcionando sobre el correo real del área",
+      "proximo_paso": "Documentarlo en el tablero del canal con la medición de antes y después",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 3 · 1 septiembre 2026",
+      "titulo": "El seguimiento de indicadores deja de consolidarse a mano",
+      "descripcion": "Hoy los dos archivos que salen del sistema se cruzan a mano en un cuadro propio antes de poder analizar nada. La primera pasada ya devolvió el consolidado por servicio y oficina, con presupuesto contra ejecución mes a mes y porcentajes de cumplimiento, en siete hojas. Falta ajustarlo al formato del área — y ese ajuste es el ejercicio.",
+      "estado": "Primera versión generada, en modelamiento",
+      "proximo_paso": "Separar ingresos, gastos y costos como los maneja el área, y corregir el mapeo de oficinas",
+      "target": "Sesión 4"
+    },
+    {
+      "encabezado": "OPORTUNIDAD ENUNCIADA EN SESIÓN 3 · 1 septiembre 2026",
+      "titulo": "Conectar el sistema de información al trabajo diario",
+      "descripcion": "Toda la información del área sale del sistema de información de Comfacesar y hoy se descarga a mano archivo por archivo. Una vez el equipo esté sólido, el paso siguiente es conectar el sistema por API para que la información llegue sola. Es la misma conexión que se planteó en Contabilidad y en Jurídica: se hace una vez y sirve para varias áreas.",
+      "estado": "Comprometido para después del modelamiento",
+      "proximo_paso": "Cerrar los ejercicios en curso y coordinar la conexión con Tecnología",
+      "target": "Octubre"
+    }
+  ],
+  "tareas_intro": "El área llega con un proceso ya funcionando y dos en construcción. La regla que quedó fijada: no se pasa al siguiente ejercicio hasta que el anterior quede como el área lo necesita.",
+  "tareas": [
+    {
+      "tarea": "Terminar de modelar el consolidado de presupuesto contra ejecución hasta que quede como el reporte del área",
+      "responsable": "Gennifer Mira",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S4"
+    },
+    {
+      "tarea": "Revisar la hoja de mapeo y confirmar la ubicación de los ocho centros sin sede identificable",
+      "responsable": "Gennifer Mira",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S4"
+    },
+    {
+      "tarea": "Terminar el análisis de uso de servicios y subsidios de la solicitud empresarial en curso",
+      "responsable": "Gennifer Mira",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S4"
+    },
+    {
+      "tarea": "Registrar la automatización de costeos en el tablero del canal, con la medición",
+      "responsable": "Jonnathan Armenta",
+      "prioridad": "ALTA",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Unificar en una sola conversación el proceso de costeos dentro del proyecto",
+      "responsable": "Jonnathan Armenta",
+      "prioridad": "MEDIA",
+      "plazo": "Antes de S4"
+    },
+    {
+      "tarea": "Descargar Claude de escritorio en los dos puestos",
+      "responsable": "Gennifer + Jonnathan",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S4"
+    },
+    {
+      "tarea": "Gestionar el plan pagado para el puesto de Gennifer",
+      "responsable": "Comfacesar",
+      "prioridad": "URGENTE",
+      "plazo": "Antes de S4"
+    },
+    {
+      "tarea": "Mapear el flujograma del balance social empresarial, con las tres áreas que intervienen",
+      "responsable": "Gennifer Mira",
+      "prioridad": "MEDIA",
+      "plazo": "Sesión 4"
+    },
+    {
+      "tarea": "Agendar la Sesión 4",
+      "responsable": "Equipo Sub. Operativa",
+      "prioridad": "ALTA",
+      "plazo": "Esta semana"
+    }
+  ],
+  "observaciones": [
+    "Jonnathan llegó con una automatización funcionando que construyó por su cuenta a partir de la tarea de la sesión anterior. Es el primer caso del programa en el que un proceso del área quedó operando fuera de la sesión, sobre el correo real y con resultados verificables.",
+    "El flujo de costeos está bien diseñado en lo que más importa: cuando encuentra errores no envía nada. Deja el borrador con las observaciones y la decisión de enviar sigue siendo humana.",
+    "Sandra fue explícita en que eso todavía es un asistente y no un agente. La diferencia importa para lo que viene: el agente se construye en Claude Code y toma decisiones sin instrucción previa.",
+    "La pérdida de la conversación de Jonnathan es un aviso barato: mover una conversación a un proyecto se hace desde los tres puntos, con agregar a proyecto. Un clic al lado la borra sin vuelta atrás.",
+    "El área trabaja sobre el sistema de información de Comfacesar y todo lo que hace empieza descargando archivos de ahí. Por eso los dos ejercicios apuntan al mismo sitio: quitar el tramo manual entre el sistema y el análisis.",
+    "La herramienta advirtió por su cuenta que el cruce entre servicio y oficina no venía de un dato del sistema sino de una lectura del texto, y pidió confirmación. Esa clase de advertencia es la que evita construir un reporte sobre una base equivocada.",
+    "Quedó una distinción que ordena el método: el entregable es el formato y la acción es lo que va dentro; el contexto cuenta el pasado y el presente, la acción define el futuro.",
+    "La sesión empezó ocho minutos tarde porque la sesión anterior se extendió, y se perdieron otros minutos por una interrupción. En una hora de trabajo práctico, eso es una parte del ejercicio."
+  ],
+  "proxima_sesion": {
+    "sesion": "Sub. Operativa y Comercial — Sesión 4",
+    "condiciones": [
+      "Consolidado de indicadores modelado y con el mapeo corregido",
+      "Análisis de la solicitud empresarial terminado",
+      "Claude de escritorio instalado en los dos puestos",
+      "Plan activo en el puesto de Gennifer"
+    ],
+    "agendamiento": [
+      "Sin fecha: hay que agendarla",
+      "En la Sesión 4 se conecta el computador — carpetas, no archivos sueltos",
+      "Sandra disponible en exclusiva para Comfacesar hasta finales de octubre"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 1 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

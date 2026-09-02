@@ -1,0 +1,206 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "CONTABILIDAD",
+  "area_completa": "Sesión individual",
+  "sesion_num": 3,
+  "fase": "Ejercicios Prácticos",
+  "fecha": "1 de septiembre de 2026",
+  "fecha_corta": "1 septiembre 2026",
+  "subtitulo_meta": "Lisbeth Cuadrado Herrera · 1 de septiembre de 2026 · 2:02 p.m. · 1 h 06 min · Híbrida — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Contabilidad — Comfacesar"],
+    ["Sesión", "N° 3 — Individual de Lisbeth Cuadrado: informe financiero trimestral y calendario tributario"],
+    ["Fecha", "1 de septiembre de 2026"],
+    ["Hora inicio", "2:02 p.m. — Colombia"],
+    ["Duración de la sesión", "1 hora 6 minutos (2:02 p.m. – 3:08 p.m.)"],
+    ["Modalidad", "Híbrida — Sandra virtual, Lisbeth y Carlos desde la oficina de Contabilidad"],
+    ["Correos Slack activados", "contabilidad@comfacesar.com · asistentecontabilidad@comfacesar.com"],
+    ["Grabación", "Pendiente — se adjunta al publicar el acta en el canal"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "2", "etiqueta": "Proyectos creados", "detalle": "Informe financiero · Calendario tributario"},
+    {"valor": "$21 M", "etiqueta": "Descuadre detectado", "detalle": "Activo contra pasivo en el PDF de situación financiera"},
+    {"valor": "3", "etiqueta": "Bloques de indicadores", "detalle": "Comparativo, rentabilidad y nivel de subsidio"},
+    {"valor": "4", "etiqueta": "Servicios a medir", "detalle": "IPS · Vivienda · Crédito social · Crédito"},
+    {"valor": "1", "etiqueta": "Plan activo", "detalle": "Lisbeth ya pagó la suscripción"},
+    {"valor": "2", "etiqueta": "Bloqueos abiertos", "detalle": "Micrófono sin permisos · error en el tablero"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Lisbeth Cuadrado Herrera", "cargo": "Contabilidad — Comfacesar", "correo": "contabilidad@comfacesar.com", "modalidad": "Presencial", "nivel": "Intermedio"},
+    {"nombre": "Carlos Daniel Lozano Sanjuán", "cargo": "Asistente de Contabilidad — Comfacesar", "correo": "asistentecontabilidad@comfacesar.com", "modalidad": "Presencial", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 3 a partir de los estados financieros y el calendario tributario reales que se trabajaron en vivo.",
+  "riesgos": [
+    {
+      "titulo": "El PDF de situación financiera no cuadra: activo contra pasivo",
+      "nivel": "CRITICO",
+      "descripcion": "Al leer los estados financieros, la herramienta reportó un error de extracción a partir de la cuenta de propiedad, planta y equipo: las columnas se desalinean y, como consecuencia, en ese PDF el activo no cuadra con el pasivo por una diferencia de 21 millones. Tomó las cifras del Excel para esas tres cuentas. El hallazgo lo produjo el primer ejercicio, sobre información que ya circuló.",
+      "responsable": "Lisbeth Cuadrado / Inmediato"
+    },
+    {
+      "titulo": "El informe al director se arma con una herramienta que no es para eso",
+      "nivel": "ALTO",
+      "descripcion": "El informe financiero trimestral se venía construyendo en una herramienta de presentaciones, porque el resultado que se busca es visual. El contenido es análisis financiero comparado; la herramienta estaba resolviendo el formato, no el análisis.",
+      "responsable": "Lisbeth Cuadrado / Resuelto en sesión"
+    },
+    {
+      "titulo": "El computador no da permisos de micrófono",
+      "nivel": "MEDIO",
+      "descripcion": "Ni en el equipo de escritorio ni en el portátil se pudo habilitar el micrófono, y por eso toda la sesión se trabajó escribiendo. Dictar es varias veces más rápido que teclear una instrucción larga: es productividad perdida en cada consulta.",
+      "responsable": "Comfacesar — TI / Esta semana"
+    },
+    {
+      "titulo": "El tablero se generó con un error de visualización",
+      "nivel": "MEDIO",
+      "descripcion": "El HTML quedó construido pero los gráficos no se ven. Quedó el método para resolverlo —capturar el error y devolvérselo— pero el tablero todavía no está utilizable.",
+      "responsable": "Lisbeth Cuadrado / Antes de la S4"
+    },
+    {
+      "titulo": "Los créditos se consumen muy rápido en este tipo de trabajo",
+      "nivel": "MEDIO",
+      "descripcion": "Hubo que detener una generación a mitad para no agotarlos. Construir tableros, cruzar varios archivos y conectar aplicaciones consume mucho más que una consulta normal, y el plan inicial se queda corto en sesiones largas.",
+      "responsable": "Lisbeth Cuadrado / Permanente"
+    },
+    {
+      "titulo": "El calendario tributario depende de una circular de 300 páginas",
+      "nivel": "MEDIO",
+      "descripcion": "Las fechas de vencimiento están repartidas entre el calendario tributario de la DIAN y la Circular 008 de 2025 de la Superintendencia del Subsidio Familiar, un documento de más de trescientas páginas. Hoy el control de vencimientos depende de que alguien lo recorra.",
+      "responsable": "Lisbeth Cuadrado / Sesión 4"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "CRITICO",
+      "titulo": "Verificar el descuadre de 21 millones en el PDF de situación financiera",
+      "descripcion": "Revisar el archivo desde la cuenta de propiedad, planta y equipo y confirmar si el problema es solo de formato en el PDF o si afecta también la cifra reportada. Es información que va al director y a la Superintendencia: conviene cerrarlo antes de que el informe trimestral salga.",
+      "responsable": "Lisbeth Cuadrado Herrera",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Terminar de modelar el tablero financiero",
+      "descripcion": "Capturar el error del HTML y devolvérselo para que lo corrija, señalar qué fuentes debía usar y cuáles no, agregar el logo de Comfacesar y los colores corporativos. El tablero es la pieza que después se conecta al software contable.",
+      "responsable": "Lisbeth Cuadrado Herrera",
+      "plazo": "Antes de la Sesión 4"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Resolver los permisos de micrófono con Tecnología",
+      "descripcion": "Es un problema de permisos del equipo, no de la herramienta. Sin micrófono cada instrucción larga se escribe a mano y la sesión rinde la mitad.",
+      "responsable": "Comfacesar — TI",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Agendar varias sesiones seguidas mientras dure el modelamiento",
+      "descripcion": "Sandra pidió expresamente tres o cuatro citas más. El modelamiento avanza por iteración: entre una sesión y la siguiente hay que traer el ejercicio movido, y cuanto más juntas estén, menos se enfría.",
+      "responsable": "Lisbeth Cuadrado Herrera",
+      "plazo": "Esta semana"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Tablero del informe financiero trimestral",
+      "duracion": "~35 min",
+      "objetivo": "Convertir el informe financiero que se entrega cada trimestre al director en un tablero con KPIs y análisis, legible por alguien sin perfil financiero.",
+      "pasos": [
+        "Crear el proyecto «Informe Financiero» y configurarlo con el método CREA",
+        "Contexto: cada tres meses se entrega un informe del estado de la situación financiera de Comfacesar, comparando la vigencia actual con la anterior",
+        "Rol: especialista en análisis de información financiera de una caja de compensación familiar, actualizado con la normatividad contable y legal colombiana",
+        "Acción: un tablero con los mejores KPIs y un análisis con enfoque gerencial, para un director que no es financiero",
+        "Subir toda la carpeta de información al contexto del proyecto, no a la consulta — así queda disponible para todas las consultas",
+        "Buscar en internet referencias visuales de tableros financieros y capturar las que sirvan como modelo",
+        "Pedirle que analice y entienda esas referencias antes de construir nada",
+        "Dictar los indicadores: comparativo histórico 2025-2026 de activo, pasivo, patrimonio, ingresos, costos y gastos",
+        "Rentabilidad de los servicios autocosteables —IPS, vivienda, crédito social y crédito— entre las dos vigencias",
+        "Nivel de subsidio de oferta y demanda, indicando que está en el reporte de saldo de obras y programas",
+        "Leer la respuesta antes de abrir el resultado: qué fuentes usó, qué verificó y qué encontró",
+        "Corregir sobre lo entregado: qué archivo debía usar, qué indicador faltó, qué no era lo pedido"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Calendario tributario con sistema de alertas",
+      "duracion": "~15 min",
+      "objetivo": "Construir el calendario de obligaciones de la caja y conectarlo a un sistema de alertas, sin tener que recorrer a mano una circular de trescientas páginas.",
+      "pasos": [
+        "Trabajar sobre la carpeta que ya tiene el calendario tributario de la DIAN y los formatos",
+        "En vez de descargar la Circular 008 de 2025 de la Superintendencia, pegarle el enlace: la busca sola",
+        "Pedir un calendario tributario para la caja de compensación, con el NIT, teniendo en cuenta las responsabilidades tributarias y la circular",
+        "Pedir un sistema de alertas conectado al calendario y cargado a Google Calendar",
+        "Controlar tres estados: obligaciones vencidas, presentadas y por vencer",
+        "No dar referencias visuales en este ejercicio, a propósito: dejar que proponga",
+        "Si la conexión con Google Calendar falla, ese tramo se resuelve con Claude Code — es trabajo de agente, no de asistente"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "HALLAZGO EN SESIÓN 3 · 1 septiembre 2026",
+      "titulo": "Un descuadre de 21 millones que el ojo humano no vio",
+      "descripcion": "El primer ejercicio no solo construyó el tablero: al cruzar el PDF de situación financiera contra el Excel detectó que las columnas se desalinean a partir de propiedad, planta y equipo, y que por eso en el PDF el activo no cuadra con el pasivo. La diferencia es de 21 millones. Es el tipo de error que se arrastra entre versiones de un documento sin que nadie lo note, y apareció en la primera pasada.",
+      "estado": "Detectado sobre los estados financieros reales del área",
+      "proximo_paso": "Revisar el archivo desde esa cuenta y confirmar si el problema es de formato o de cifra",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 3 · 1 septiembre 2026",
+      "titulo": "El informe trimestral deja de armarse a mano",
+      "descripcion": "El informe que va al director se construía juntando cifras de varios archivos y montándolas en una presentación. El tablero toma la misma información del proyecto y entrega comparativos, rentabilidad por servicio y nivel de subsidio, con el análisis escrito para alguien sin perfil financiero. Es un enlace que se comparte, no un archivo que se rehace cada trimestre.",
+      "estado": "Construido en primera versión, con el error de visualización pendiente",
+      "proximo_paso": "Corregir el HTML, agregar logo y colores corporativos y validar las fuentes de cada cifra",
+      "target": "Sesión 4"
+    },
+    {
+      "encabezado": "OPORTUNIDAD ENUNCIADA EN SESIÓN 3 · 1 septiembre 2026",
+      "titulo": "Conectar el software contable al tablero",
+      "descripcion": "Una vez el tablero esté validado, el paso siguiente es conectarlo por API al software contable para que se alimente solo: sin descargar reportes, sin subir archivos y sin reconstruir el informe cada trimestre. Lo trabajan el equipo técnico de IAM™ y Tecnología de Comfacesar, y depende de que el tablero esté terminado primero.",
+      "estado": "Comprometido para después del modelamiento",
+      "proximo_paso": "Cerrar el tablero y coordinar con Tecnología el acceso al software",
+      "target": "Octubre"
+    }
+  ],
+  "tareas_intro": "Las sesiones individuales se trabajan sobre información real y propia. El avance depende del modelamiento entre sesión y sesión: lo que se trae movido es lo que se puede terminar.",
+  "tareas": [
+    {"tarea": "Revisar el descuadre de 21 millones desde la cuenta de propiedad, planta y equipo", "responsable": "Lisbeth Cuadrado Herrera", "prioridad": "URGENTE", "plazo": "Inmediato"},
+    {"tarea": "Capturar el error del tablero y devolvérselo para que corrija la visualización", "responsable": "Lisbeth Cuadrado Herrera", "prioridad": "ALTA", "plazo": "Antes de S4"},
+    {"tarea": "Indicarle qué fuentes usar para cada cifra y qué indicadores faltaron", "responsable": "Lisbeth Cuadrado Herrera", "prioridad": "ALTA", "plazo": "Antes de S4"},
+    {"tarea": "Subir el logo de Comfacesar y pedir que aplique los colores corporativos", "responsable": "Lisbeth Cuadrado Herrera", "prioridad": "MEDIA", "plazo": "Antes de S4"},
+    {"tarea": "Agregar los gastos de administración, que quedaron fuera del primer listado", "responsable": "Lisbeth Cuadrado Herrera", "prioridad": "MEDIA", "plazo": "Antes de S4"},
+    {"tarea": "Terminar el ejercicio del calendario tributario y revisar la conexión con Google Calendar", "responsable": "Lisbeth Cuadrado Herrera", "prioridad": "ALTA", "plazo": "Antes de S4"},
+    {"tarea": "Habilitar los permisos de micrófono en el equipo de escritorio y en el portátil", "responsable": "Comfacesar — TI", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Descargar Claude de escritorio y el complemento Claude Code", "responsable": "Lisbeth + Carlos", "prioridad": "ALTA", "plazo": "Antes de S4"},
+    {"tarea": "Agendar tres o cuatro sesiones más mientras dura el modelamiento", "responsable": "Lisbeth Cuadrado Herrera", "prioridad": "URGENTE", "plazo": "Esta semana"}
+  ],
+  "observaciones": [
+    "La sesión estaba prevista para agendamiento y alertas de reporte a entidades estatales. Lisbeth pidió empezar por el informe financiero trimestral y se hicieron los dos: el informe ocupó la mayor parte y el calendario tributario quedó planteado y corriendo.",
+    "Carlos Daniel Lozano estuvo presente en la oficina operando el equipo durante toda la sesión, aunque el reporte de asistencia de Teams solo registra la cuenta de Lisbeth. Es el mismo caso de la Sesión 2, cuando Lisbeth se conectó desde el puesto de Carlos.",
+    "Lisbeth ya activó la suscripción paga. Es la primera persona del área con plan propio y eso permitió trabajar artefactos en la misma sesión.",
+    "El hallazgo del descuadre entre activo y pasivo no se buscó: apareció mientras la herramienta explicaba de qué fuente había tomado cada cifra. Leer esa explicación antes de abrir el resultado es lo que lo hizo visible.",
+    "Quedó una recomendación de forma que tiene efecto de fondo: mantener un criterio constante al nombrar proyectos y escribir instrucciones. La herramienta detecta el estilo de quien la usa y responde en consecuencia.",
+    "Se trabajó con dos conversaciones en paralelo —el tablero corriendo en una pestaña y el calendario en otra— para no esperar a que terminara la primera. Es una forma de trabajo que el área puede adoptar de inmediato.",
+    "Un integrante del equipo técnico de IAM™ se sumó unos minutos a la sesión. Es quien coordinará con Tecnología de Comfacesar la conexión del software contable cuando el tablero esté listo.",
+    "Hubo que detener una generación a mitad para no agotar créditos. Vale la pena tenerlo presente al planear las sesiones largas de construcción."
+  ],
+  "proxima_sesion": {
+    "sesion": "Contabilidad — Sesión 4",
+    "condiciones": [
+      "Tablero financiero modelado, con el error de visualización resuelto",
+      "Logo y colores corporativos aplicados",
+      "Calendario tributario avanzado y revisado",
+      "Claude de escritorio y Claude Code instalados"
+    ],
+    "agendamiento": [
+      "Miércoles 2 sept · 2:00 p.m. — individual de Carlos Lozano, ya agendada",
+      "Sandra pidió tres o cuatro citas más para Lisbeth mientras dura el modelamiento",
+      "Sandra disponible en exclusiva para Comfacesar hasta finales de octubre"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 1 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

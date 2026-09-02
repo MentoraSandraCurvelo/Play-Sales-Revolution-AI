@@ -33,21 +33,20 @@ falta la app de Slack y abrir `slack.com` en la red. Ver `GUIA-APP-SLACK.md`.
 de hora, un «se cancela la de hoy»: eso es operación, no contenido, y lo lleva Lucía
 porque es quien lee el calendario. Elia no toca esos avisos.
 
-## Sesiones sin acta
+## Actas listas, sin publicar
 
-| Sesión | Fecha | Carpeta donde van los archivos |
-|---|---|---|
-| Jurídica S3 | 31 ago · 10:00 | `5. Juridica / Sesion 3` |
-| Servicios Sociales S5 | 31 ago · 3:00 p.m. | `10. Servicios Especiales / Sesion 5` |
-| Talento Humano S2 | 1 sep · 10:00 | `7. Talento humano / Sesion 2` |
-| Contabilidad S3 · individual de Lisbeth | 1 sep · 2:00 p.m. | `12. Contabilidad / Sesion 3` |
-| Sub. Operativa y Comercial S3 | 1 sep · 3:00 p.m. | `13. Sub-Operativa / Sesion 3` |
+| Sesión | Fecha | Canal | Estado |
+|---|---|---|---|
+| Servicios Sociales S4 — individual de Juan Pablo | 27 ago | `#serivcios-sociales` | Acta lista · pendiente del visto bueno |
+| Jurídica S3 | 31 ago | `#juridica` | **Nueva** · pendiente del visto bueno |
+| Servicios Sociales S5 | 31 ago | `#serivcios-sociales` | **Nueva** · pendiente del visto bueno |
+| Talento Humano S2 | 1 sept | `#talento-humano` | **Nueva** · pendiente del visto bueno |
+| Contabilidad S3 — individual de Lisbeth | 1 sept | `#contabilidad` | **Nueva** · pendiente del visto bueno |
+| Sub. Operativa y Comercial S3 | 1 sept | `#sub-operativa` | **Nueva** · pendiente del visto bueno |
 
-Las cinco carpetas existen —la de Servicios Sociales S5 se creó el 1 de septiembre—.
-Ninguna tiene todavía el CSV de asistencia ni el VTT: sin esos dos archivos Lucía no
-puede armar el acta, y por eso las corridas de las 7:00 p.m. del 31 y del 1 quedaron
-sin nada que procesar. En cuanto los archivos estén, las cinco actas salen en una sola
-corrida y se programan para las 8:00 a.m. siguientes.
+Las cinco nuevas se armaron en la corrida del 1 de septiembre por la noche, en cuanto
+los CSV y los VTT aparecieron en Dropbox. A las cinco les falta lo mismo: **el enlace
+de la grabación**, que hoy dice «pendiente» en la tabla de datos de la sesión.
 
 ## Canales reservados
 

@@ -1,0 +1,198 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SERVICIOS SOCIALES",
+  "area_completa": "Área de Servicios Sociales",
+  "sesion_num": 5,
+  "fase": "Ejercicios Prácticos",
+  "fecha": "31 de agosto de 2026",
+  "fecha_corta": "31 agosto 2026",
+  "subtitulo_meta": "31 de agosto de 2026 · 3:29 p.m. · 40 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Servicios Sociales — Comfacesar"],
+    ["Sesión", "N° 5 — Cierre del modelamiento y apertura de habilidades, cowork y agentes"],
+    ["Fecha", "31 de agosto de 2026"],
+    ["Hora inicio", "3:29 p.m. — Colombia"],
+    ["Duración de la sesión", "40 minutos (3:29 p.m. – 4:10 p.m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Correos Slack activados", "pro_juniorss@comfacesar.com · serviciossociales@comfacesar.com"],
+    ["Grabación", "Pendiente — se adjunta al publicar el acta en el canal"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "2", "etiqueta": "Participantes", "detalle": "Juan Pablo Curvelo · Lilian Paola Ramos"},
+    {"valor": "2/2", "etiqueta": "Asistencia del área", "detalle": "El equipo completo"},
+    {"valor": "5", "etiqueta": "Sesiones acumuladas", "detalle": "El área más avanzada del programa"},
+    {"valor": "1", "etiqueta": "Ejercicio cerrado", "detalle": "Informe de anotaciones, modelado"},
+    {"valor": "2", "etiqueta": "Casos nuevos abiertos", "detalle": "Aprobación de facturas · turismo corporativo"},
+    {"valor": "40 min", "etiqueta": "Duración", "detalle": "Sesión corta — quedó contenido enunciado"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Juan Pablo Curvelo", "cargo": "Profesional Junior — Servicios Sociales", "correo": "pro_juniorss@comfacesar.com", "modalidad": "Virtual", "nivel": "Avanzado"},
+    {"nombre": "Lilian Paola Ramos", "cargo": "Servicios Sociales — Comfacesar", "correo": "serviciossociales@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 5 a partir de los procesos reales que el equipo puso sobre la mesa y de las condiciones para avanzar al siguiente nivel.",
+  "riesgos": [
+    {
+      "titulo": "La aprobación de facturas vive dentro de un software propio",
+      "nivel": "ALTO",
+      "descripcion": "Las facturas llegan a un módulo del sistema de la caja y ahí se aprueban. Conectar un agente a ese módulo no se resuelve desde la sesión: necesita una API y una decisión de Tecnología. Antes de eso hay que tener el proceso mapeado, porque sin flujograma no se sabe dónde puede entrar la inteligencia artificial.",
+      "responsable": "Lilian Paola + Comfacesar TI / Antes de la S6"
+    },
+    {
+      "titulo": "El proceso de aprobación no está documentado",
+      "nivel": "ALTO",
+      "descripcion": "La aprobación depende de condicionales —si cumple el requisito se aprueba, si no cumple no, si se sale del estándar se genera una alerta— pero esas reglas están en la práctica, no escritas. Es el paso previo a cualquier automatización y hoy no existe.",
+      "responsable": "Lilian Paola / Antes de la S6"
+    },
+    {
+      "titulo": "El siguiente nivel exige plan pagado en los dos puestos",
+      "nivel": "MEDIO",
+      "descripcion": "Cowork, despacho y Claude Code solo existen en la versión paga. Juan Pablo ya la tiene; el ejercicio de Lilian Paola sobre el módulo de facturación no avanza sin la suya.",
+      "responsable": "Comfacesar / Antes de la S6"
+    },
+    {
+      "titulo": "Sesión corta: parte del contenido quedó enunciado",
+      "nivel": "MEDIO",
+      "descripcion": "La sesión duró 40 minutos y el bloque de habilidades, cowork y agentes se explicó de corrido, sin ejercicio en vivo. El equipo vio la demostración pero no practicó. Lo que no se practica en sesión rara vez se practica después.",
+      "responsable": "Sandra / Sesión 6"
+    },
+    {
+      "titulo": "Los ejercicios propios no se están registrando en el cuadro",
+      "nivel": "MEDIO",
+      "descripcion": "Sandra pidió expresamente seguir mostrando ejercicios hechos por fuera de la sesión y anotarlos en el dashboard con el tiempo antes y el tiempo después. Sin ese registro el avance del área existe pero no se puede demostrar en el cierre de octubre.",
+      "responsable": "Juan Pablo + Lilian Paola / Permanente"
+    },
+    {
+      "titulo": "La agenda del jueves quedó en tentativa",
+      "nivel": "BAJO",
+      "descripcion": "La Sesión 6 del jueves 3 quedó respondida como tentativa y sin confirmar en el cierre de la sesión. Una cita sin confirmar es la que se cae.",
+      "responsable": "Juan Pablo / Inmediato"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Mapear el flujograma de aprobación de facturas antes de la próxima sesión",
+      "descripcion": "Escribir el proceso paso a paso: dónde llega la factura, quién la revisa, qué condiciones tiene que cumplir para aprobarse, qué pasa cuando no las cumple y qué dispara una alerta. Con eso en la mano la sesión sirve para diseñar; sin eso se va en reconstruirlo de memoria.",
+      "responsable": "Lilian Paola Ramos",
+      "plazo": "Antes de la Sesión 6"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Instalar Claude de escritorio y el complemento Claude Code",
+      "descripcion": "Los dos son requisito de entrada para la próxima sesión. Sin la aplicación instalada no hay cowork, y sin cowork la sesión se convierte otra vez en demostración en vez de práctica.",
+      "responsable": "Juan Pablo + Lilian Paola",
+      "plazo": "Antes de la Sesión 6"
+    },
+    {
+      "num": "03",
+      "nivel": "MEDIO",
+      "titulo": "Elegir la carpeta con la que se va a trabajar cowork",
+      "descripcion": "Cada quien llega con una carpeta real del computador y con lo que quiere pedirle: que la ordene, que la renombre, que saque un resumen o que encuentre un documento. Un ejercicio por persona, sobre información propia.",
+      "responsable": "Juan Pablo + Lilian Paola",
+      "plazo": "Antes de la Sesión 6"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Registrar en el dashboard cada ejercicio con su medición",
+      "descripcion": "Antes tardaba X, ahora tardo Y. Ese par de datos por ejercicio es lo que convierte el aprendizaje del área en resultado demostrable del programa.",
+      "responsable": "Juan Pablo + Lilian Paola",
+      "plazo": "Permanente"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Modelamiento del informe de anotaciones",
+      "duracion": "~10 min · con Juan Pablo",
+      "objetivo": "Cerrar el ejercicio abierto en la sesión anterior: que el informe de la anotación 6 de recreación y deporte salga en el formato que el área necesita, y que ese formato quede fijado para todas las anotaciones que vengan.",
+      "pasos": [
+        "Retomar la conversación del proyecto donde ya está el análisis de la anotación 6",
+        "Pedir el mismo contenido en un formato distinto: mapa de calor con semaforización",
+        "Revisar el resultado y seguir corrigiendo hasta que el documento sirva tal como está",
+        "Ese documento queda como modelo del proyecto: no hay que volver a explicarlo",
+        "Para la siguiente anotación: subir el documento y pedir «hazlo como lo hemos venido haciendo»"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Los tres peldaños que siguen — habilidades, cowork y agentes",
+      "duracion": "~20 min · demostración con todo el equipo",
+      "objetivo": "Mostrar en vivo qué hay después del proyecto, para que el equipo llegue a la próxima sesión sabiendo qué va a construir.",
+      "pasos": [
+        "Habilidades: el superpoder que se crea una vez y se llama cuando hace falta",
+        "Caso del área: el proyecto analiza anotaciones, pero algunas tocan convenios laborales — ahí entra una habilidad de experto legal sin romper el rol del proyecto",
+        "Crear la habilidad con Claude usando el método CREA, e indexarla en cualquier consulta",
+        "Cowork: agregar una carpeta del computador a la consulta, en la versión de escritorio",
+        "Demostración en vivo con datos reales: carpeta de facturas ordenada por año y mes, meses faltantes detectados, mes más costoso identificado",
+        "Despacho: la aplicación del celular conectada al escritorio, para pedir trabajo camino a una reunión",
+        "Claude Code: se descarga esta semana y se trabaja en las próximas sesiones",
+        "La diferencia de fondo: un asistente sigue instrucciones, un agente toma decisiones"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD IDENTIFICADA EN SESIÓN 5 · 31 agosto 2026",
+      "titulo": "Aprobación de facturas con criterio automatizado",
+      "descripcion": "Las facturas llegan a un módulo del software de la caja y se aprueban una por una revisando si cumplen los requisitos. Las reglas son estables y repetibles: eso es exactamente lo que un sistema de trabajo resuelve. El primer paso no es técnico sino de documentación — escribir el flujograma— y a partir de ahí se define dónde interviene la IA y qué necesita habilitar Tecnología.",
+      "estado": "Caso identificado en sesión, pendiente el flujograma",
+      "proximo_paso": "Lilian Paola trae el proceso mapeado y se diseña en sesión dónde entra la automatización",
+      "target": "Sesión 6"
+    },
+    {
+      "encabezado": "OPORTUNIDAD IDENTIFICADA EN SESIÓN 5 · 31 agosto 2026",
+      "titulo": "El informe de anotaciones deja de escribirse desde cero",
+      "descripcion": "Con el formato ya modelado —mapa de calor y semaforización— cada nueva anotación se resuelve subiendo el documento y pidiendo el mismo tratamiento. El trabajo de definir la estructura se hizo una vez y no se repite.",
+      "estado": "Modelo cerrado y en uso",
+      "proximo_paso": "Aplicarlo a la siguiente anotación que llegue y registrar el tiempo en el dashboard",
+      "target": "Permanente"
+    },
+    {
+      "encabezado": "OPORTUNIDAD ENUNCIADA EN SESIÓN 5 · 31 agosto 2026",
+      "titulo": "Turismo corporativo como primer sistema de trabajo del área",
+      "descripcion": "El equipo propuso el proceso de turismo corporativo como candidato para construir un agente. Queda anotado como el caso que sigue una vez dominado cowork, junto con la posibilidad de un agente que responda el WhatsApp corporativo — este último con más configuración de por medio.",
+      "estado": "Propuesto por el equipo",
+      "proximo_paso": "Se retoma cuando los ejercicios de cowork estén andando",
+      "target": "Sesión 7 en adelante"
+    }
+  ],
+  "tareas_intro": "El área va en la quinta sesión, la más avanzada del programa. De aquí en adelante el avance depende de traer el ejercicio hecho: la sesión sirve para resolver lo que se atascó, no para empezar.",
+  "tareas": [
+    {"tarea": "Mapear el flujograma del proceso de aprobación de facturas, con sus condicionales", "responsable": "Lilian Paola Ramos", "prioridad": "URGENTE", "plazo": "Antes de S6"},
+    {"tarea": "Instalar Claude de escritorio en el computador", "responsable": "Juan Pablo + Lilian Paola", "prioridad": "ALTA", "plazo": "Antes de S6"},
+    {"tarea": "Descargar el complemento Claude Code", "responsable": "Juan Pablo + Lilian Paola", "prioridad": "ALTA", "plazo": "Antes de S6"},
+    {"tarea": "Elegir la carpeta real con la que se va a probar cowork y qué pedirle", "responsable": "Juan Pablo + Lilian Paola", "prioridad": "ALTA", "plazo": "Antes de S6"},
+    {"tarea": "Seguir haciendo ejercicios del día a día y mostrarlos en la siguiente sesión", "responsable": "Juan Pablo Curvelo", "prioridad": "ALTA", "plazo": "Permanente"},
+    {"tarea": "Registrar cada ejercicio en el dashboard con el tiempo antes y el tiempo después", "responsable": "Juan Pablo + Lilian Paola", "prioridad": "ALTA", "plazo": "Permanente"},
+    {"tarea": "Confirmar la sesión del jueves 3, que quedó respondida como tentativa", "responsable": "Juan Pablo Curvelo", "prioridad": "URGENTE", "plazo": "Inmediato"},
+    {"tarea": "Gestionar el plan pagado para el puesto de Lilian Paola", "responsable": "Comfacesar", "prioridad": "ALTA", "plazo": "Antes de S6"}
+  ],
+  "observaciones": [
+    "Servicios Sociales llega a la quinta sesión: es el área más avanzada del programa y la única que ya cerró un modelo de documento reutilizable.",
+    "La sesión duró 40 minutos, la mitad de lo habitual. El bloque de habilidades, cowork y agentes se presentó completo pero sin ejercicio en vivo, así que queda como contenido enunciado y no como práctica.",
+    "El equipo trajo por primera vez un proceso de negocio y no un documento: la aprobación de facturas. Ese cambio —de «qué documento hago» a «qué proceso automatizo»— es el salto que el programa busca en esta fase.",
+    "El caso de facturación toca un software propio de la caja. Es el primer punto del programa donde el avance depende de una decisión de Tecnología y no del área.",
+    "Sandra mostró en vivo el funcionamiento de Lucía y Elia sobre el proyecto de Comfacesar, incluidos el corte de las 7:00 p.m. y los mensajes que llegan a los canales. El equipo vio el resultado del sistema de trabajo antes de aprender a construirlo.",
+    "Quedó explícito el encargo de documentar: no basta con que el trabajo salga más rápido, hay que anotar cuánto tardaba antes y cuánto tarda ahora. Esa medición es la que sostiene el informe de cierre.",
+    "La Sesión 6 del jueves 3 quedó agendada como sesión individual de Juan Pablo y sin confirmar en firme al cerrar la reunión."
+  ],
+  "proxima_sesion": {
+    "sesion": "Servicios Sociales — Sesión 6",
+    "condiciones": [
+      "Jueves 3 sept · 2:00 p.m. — sesión individual de Juan Pablo",
+      "Claude de escritorio y Claude Code instalados",
+      "Una carpeta real elegida para trabajar cowork",
+      "Flujograma de aprobación de facturas, para el caso de Lilian Paola"
+    ],
+    "agendamiento": [
+      "La cita del jueves quedó en tentativa: falta confirmarla",
+      "El área puede agendar individuales adicionales",
+      "Sandra disponible en exclusiva para Comfacesar hasta finales de octubre"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 31 agosto 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

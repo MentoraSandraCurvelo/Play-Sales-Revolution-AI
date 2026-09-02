@@ -1,0 +1,215 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "TALENTO HUMANO",
+  "area_completa": "Área de Talento Humano",
+  "sesion_num": 2,
+  "fase": "Ejercicios Prácticos",
+  "fecha": "1 de septiembre de 2026",
+  "fecha_corta": "1 septiembre 2026",
+  "subtitulo_meta": "1 de septiembre de 2026 · 10:00 a.m. · 1 h 01 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Talento Humano — Comfacesar"],
+    ["Sesión", "N° 2 — Primer ejercicio con datos reales: reporte de estadística poblacional"],
+    ["Fecha", "1 de septiembre de 2026"],
+    ["Hora inicio", "10:00 a.m. — Colombia (sala abierta desde las 9:58 a.m.)"],
+    ["Duración de la sesión", "1 hora 1 minuto (10:00 a.m. – 11:01 a.m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Correos Slack activados", "asistentenomina@comfacesar.com · asistenteth@comfacesar.com · gestionhumana@comfacesar.com"],
+    ["Grabación", "Pendiente — se adjunta al publicar el acta en el canal"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "3", "etiqueta": "Participantes", "detalle": "Roí David Carrillo · María Loretta Fuentes · Lacides Daza"},
+    {"valor": "936", "etiqueta": "Filas procesadas", "detalle": "La base completa de nómina, sin errores"},
+    {"valor": "1 min", "etiqueta": "Cálculo de edades", "detalle": "Con fórmula que se recalcula sola"},
+    {"valor": "2", "etiqueta": "Casos abiertos", "detalle": "Embargos de nómina · archivo histórico"},
+    {"valor": "1", "etiqueta": "Ejercicio a medias", "detalle": "Se cortó por créditos agotados"},
+    {"valor": "0", "etiqueta": "Planes activos", "detalle": "El área trabaja toda en versión gratuita"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Roí David Carrillo Soto", "cargo": "Asistente de Nómina — Comfacesar", "correo": "asistentenomina@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"},
+    {"nombre": "María Loretta Fuentes Carrillo", "cargo": "Asistente de Talento Humano — Comfacesar", "correo": "asistenteth@comfacesar.com", "modalidad": "Virtual", "nivel": "Inicial"},
+    {"nombre": "Lacides Daza Yance", "cargo": "Talento Humano — Comfacesar", "correo": "gestionhumana@comfacesar.com", "modalidad": "Virtual", "nivel": "Inicial"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 2 a partir del reporte de estadística poblacional trabajado en vivo con datos reales de nómina.",
+  "riesgos": [
+    {
+      "titulo": "El ejercicio se cortó a mitad por créditos agotados",
+      "nivel": "CRITICO",
+      "descripcion": "Roy se quedó sin créditos justo cuando el gráfico de KPIs estaba en construcción, y la parte práctica de la sesión tuvo que cerrarse ahí. Lacides reportó lo mismo: dos preguntas y un documento cargado bastaron para agotarlo. El área completa trabaja en versión gratuita, y los ejercicios de análisis de datos son precisamente los que más consumen.",
+      "responsable": "Comfacesar / Antes de la S3"
+    },
+    {
+      "titulo": "Los embargos de nómina están en papel",
+      "nivel": "ALTO",
+      "descripcion": "Las órdenes de embargo llegan físicas o por correo desde los juzgados y se archivan en carpetas con años de acumulación. Buscar un histórico obliga a revisar carpeta por carpeta y hoja por hoja. Nada de eso es consultable por IA mientras no esté digitalizado.",
+      "responsable": "Roí David Carrillo / Sesión 3"
+    },
+    {
+      "titulo": "El software de nómina no entrega la edad",
+      "nivel": "MEDIO",
+      "descripcion": "El reporte trae la fecha de nacimiento pero no la edad, así que cada vez que piden un reporte por edades hay que abrir columnas nuevas y recalcular a mano. Es trabajo repetido que además caduca: la edad de hoy no sirve el mes que viene.",
+      "responsable": "Roí David Carrillo / Resuelto en sesión"
+    },
+    {
+      "titulo": "El reporte sale sin análisis",
+      "nivel": "MEDIO",
+      "descripcion": "Cuando las subdirecciones piden la composición de la planta, Roy recorta la tabla y la manda por correo. El análisis solo se hace si se lo piden explícitamente. La información llega sin lectura, y quien la recibe tiene que interpretarla por su cuenta.",
+      "responsable": "Roí David Carrillo / Sesión 3"
+    },
+    {
+      "titulo": "Compartir una sola cuenta entre el equipo",
+      "nivel": "MEDIO",
+      "descripcion": "Salió la idea de hacer una vaca y pagar un plan entre los tres. No funciona: la herramienta tiene memoria y aprende del uso de quien la trabaja. Tres personas con tareas distintas en una sola cuenta hacen que se contamine el contexto y empeore la respuesta para todos.",
+      "responsable": "Equipo Talento Humano / Permanente"
+    },
+    {
+      "titulo": "Sin micrófono no se puede dictar",
+      "nivel": "BAJO",
+      "descripcion": "Buena parte del trabajo con la herramienta es más rápido dictando que escribiendo. El puesto de Roy no tiene micrófono, así que el ejercicio se hizo escribiendo y quedó más lento de lo necesario.",
+      "responsable": "Comfacesar — TI / Antes de la S3"
+    },
+    {
+      "titulo": "La sesión se cruza con otras reuniones",
+      "nivel": "BAJO",
+      "descripcion": "Lacides estuvo desconectado ocho minutos atendiendo otra reunión en paralelo. Es el mismo patrón que ya costó tres cancelaciones esta semana en otras áreas.",
+      "responsable": "Equipo Talento Humano / Permanente"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "CRITICO",
+      "titulo": "Activar el plan pagado, al menos en un puesto",
+      "descripcion": "Son 20 USD al mes, unos 80.000 pesos. Sin plan el área no puede terminar un ejercicio de análisis: se corta a mitad, como pasó hoy. Cada quien necesita su propia cuenta — compartirla rompe la lógica de la herramienta.",
+      "responsable": "Comfacesar + equipo Talento Humano",
+      "plazo": "Antes de la Sesión 3"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Terminar el ejercicio del reporte poblacional",
+      "descripcion": "Quedó a un paso: pasarle las dos capturas de los KPIs que se eligieron como referencia, pedirle que los analice y que diga qué datos faltan en la tabla para reproducirlos con la información real de la planta.",
+      "responsable": "Roí David Carrillo",
+      "plazo": "Antes de la Sesión 3"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Traer dos habilidades creadas, cada uno",
+      "descripcion": "Una habilidad es el método CREA hecho una sola vez y guardado para reutilizar. Cada quien llega a la Sesión 3 con dos creadas y se prueban dentro del proyecto del área.",
+      "responsable": "Equipo Talento Humano",
+      "plazo": "Sesión 3"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Registrar en el tablero del canal solo lo ya validado",
+      "descripcion": "Cada ejercicio se anota con el nombre del reporte, la frecuencia, cuánto tardaba antes en minutos, la herramienta usada, cuánto tarda ahora y el nombre de quien lo hizo. Se registra después de que Sandra lo revise y confirme que cumple el estándar del proyecto.",
+      "responsable": "Equipo Talento Humano",
+      "plazo": "Permanente"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Reporte de estadística poblacional con datos reales de nómina",
+      "duracion": "~35 min · con Roy",
+      "objetivo": "Tomar el reporte de empleados activos que sale del software de nómina y convertirlo en un análisis con edades, semaforización y KPIs para gerencia, sin fórmulas manuales.",
+      "pasos": [
+        "Revisar la configuración del proyecto: el contexto describe a la IA, no a la persona — eso ya está en la configuración general",
+        "Confirmar el rol: experto en analítica de datos y estadística aplicada a gestión del talento humano",
+        "Mapear el proceso actual en voz alta: de dónde sale el reporte, qué se filtra, qué se cuenta, a quién se le manda",
+        "Subir la tabla real de la planta — 936 filas de empleados activos",
+        "Pedir el cálculo de la edad a partir de la fecha de nacimiento, en número entero, sin decimales",
+        "Leer la respuesta antes de abrir el archivo: qué columna creó, qué fórmula usó y qué verificó",
+        "Pedir la semaforización: verde menores de 40, amarillo de 40 a 50, rojo de 50 en adelante",
+        "Atender la observación sobre los valores exactos de 40 y 50, y corregir a «mayor o igual»",
+        "Pedir el KPI de distribución por edad en una hoja aparte, con la misma semaforización",
+        "Buscar referencias de KPIs demográficos fuera de la herramienta y capturarlas como modelo visual",
+        "Descargar el archivo cuando el resultado no se vea dentro de la conversación"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Lo que viene — habilidades, artefactos y cowork",
+      "duracion": "~20 min · teoría con todo el equipo",
+      "objetivo": "Dejar enunciado el mapa completo antes de practicarlo, para que el equipo llegue a la Sesión 3 sabiendo qué va a construir.",
+      "pasos": [
+        "Habilidades: el método CREA hecho una vez y guardado — el superpoder que se agrega cuando hace falta",
+        "Ejemplo del área: analista experto en gestión humana, más una habilidad de diseño para presentar los KPIs",
+        "Artefactos: aplicación web, tablero HTML, página web — el tablero reemplaza el Excel, no lo acompaña",
+        "Un tablero conectado por API al software de nómina se alimenta solo, sin descargar el Excel cada vez",
+        "Cowork: agregar una carpeta del computador a la consulta, en la aplicación de escritorio",
+        "Demostración en vivo con datos reales: carpeta de facturas ordenada por año y mes, meses faltantes detectados y mes más costoso identificado",
+        "Despacho: la aplicación del celular conectada al escritorio, para resolver camino a una reunión",
+        "Descargar Claude para Windows o Mac: es requisito de entrada de la Sesión 3"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD PROBADA EN SESIÓN 2 · 1 septiembre 2026",
+      "titulo": "El cálculo de edades deja de repetirse cada mes",
+      "descripcion": "El software de nómina entrega la fecha de nacimiento, no la edad. Hasta hoy Roy abría columnas auxiliares y calculaba a mano con fórmulas de Excel, y el resultado quedaba congelado: el mes siguiente había que rehacerlo. La fórmula que quedó montada se recalcula sola cada vez que se abre el archivo, sobre las 936 filas de la planta y sin errores. El trabajo se hizo una vez.",
+      "estado": "Probado en vivo sobre la base real de empleados activos",
+      "proximo_paso": "Terminar la construcción de los gráficos de KPIs con las referencias elegidas",
+      "target": "Sesión 3"
+    },
+    {
+      "encabezado": "OPORTUNIDAD IDENTIFICADA EN SESIÓN 2 · 1 septiembre 2026",
+      "titulo": "El reporte a las subdirecciones deja de ser solo una tabla",
+      "descripcion": "Hoy la composición de la planta se manda recortando la tabla y pegándola en un correo, sin lectura. Con la distribución por edades ya calculada y semaforizada, el mismo reporte puede salir con el análisis y el gráfico incluidos, en la misma hoja. Cambia lo que recibe quien decide.",
+      "estado": "En construcción — el KPI quedó armado, faltó el gráfico",
+      "proximo_paso": "Cerrar el gráfico y sumar el análisis escrito para gerencia",
+      "target": "Sesión 3"
+    },
+    {
+      "encabezado": "OPORTUNIDAD IDENTIFICADA EN SESIÓN 2 · 1 septiembre 2026",
+      "titulo": "Control de embargos sobre el archivo digitalizado",
+      "descripcion": "Los embargos llegan del juzgado en papel y se archivan por años. Consultar un histórico significa buscar carpeta por carpeta, hoja por hoja. Con el archivo digitalizado y cowork leyendo la carpeta, la búsqueda y el control de las órdenes iniciales se resuelven en una consulta. El paso previo es la digitalización, y esa decisión es del área.",
+      "estado": "Caso propuesto por Roy en sesión",
+      "proximo_paso": "Definir qué parte del archivo se digitaliza primero y probar cowork sobre esa carpeta",
+      "target": "Sesión 3"
+    }
+  ],
+  "tareas_intro": "Los ejercicios se hacen con la información real del área, no con ejemplos. Por eso la configuración importa y por eso el ejercicio que no se termina en sesión hay que cerrarlo en casa: la próxima sesión arranca desde donde este quedó.",
+  "tareas": [
+    {"tarea": "Terminar el ejercicio del reporte poblacional: analizar las dos capturas de KPIs y pedir qué datos faltan", "responsable": "Roí David Carrillo", "prioridad": "ALTA", "plazo": "Antes de S3"},
+    {"tarea": "Traer dos habilidades creadas para probarlas dentro del proyecto", "responsable": "Roí David Carrillo", "prioridad": "ALTA", "plazo": "Sesión 3"},
+    {"tarea": "Traer dos habilidades creadas para probarlas dentro del proyecto", "responsable": "María Loretta Fuentes", "prioridad": "ALTA", "plazo": "Sesión 3"},
+    {"tarea": "Traer dos habilidades creadas para probarlas dentro del proyecto", "responsable": "Lacides Daza", "prioridad": "ALTA", "plazo": "Sesión 3"},
+    {"tarea": "Traer dos o tres ejercicios hechos en casa con información propia del área", "responsable": "Equipo Talento Humano", "prioridad": "ALTA", "plazo": "Sesión 3"},
+    {"tarea": "Descargar Claude de escritorio para Windows o Mac", "responsable": "Equipo Talento Humano", "prioridad": "ALTA", "plazo": "Antes de S3"},
+    {"tarea": "Activar el plan pagado — 20 USD mensuales, cuenta individual por persona", "responsable": "Comfacesar + equipo", "prioridad": "URGENTE", "plazo": "Antes de S3"},
+    {"tarea": "Conseguir micrófono para el puesto de trabajo y poder dictar las instrucciones", "responsable": "Comfacesar — TI", "prioridad": "MEDIA", "plazo": "Antes de S3"},
+    {"tarea": "Definir qué parte del archivo de embargos se digitaliza primero", "responsable": "Roí David Carrillo", "prioridad": "MEDIA", "plazo": "Sesión 3"},
+    {"tarea": "Registrar en el tablero del canal cada ejercicio ya validado, con el tiempo antes y después", "responsable": "Equipo Talento Humano", "prioridad": "ALTA", "plazo": "Permanente"},
+    {"tarea": "Agendar la Sesión 3 lo antes posible — grupal o individual", "responsable": "Equipo Talento Humano", "prioridad": "URGENTE", "plazo": "Esta semana"}
+  ],
+  "observaciones": [
+    "Es la primera sesión de ejercicios del área: la Sesión 1 fue de configuración. El equipo llegó con el proyecto ya montado y con el contexto bien redactado, lo que permitió entrar directo al caso real.",
+    "Roy preparó el contexto del proyecto apoyándose en otra herramienta antes de la sesión. Ese uso —una herramienta rápida para redactar, otra con razonamiento para trabajar— es exactamente el criterio que el programa busca instalar.",
+    "El equipo trabaja en retroalimentación: construyeron juntos el ejercicio de comparación entre herramientas antes de la clase. Es el único área del programa que llegó habiendo explorado por su cuenta.",
+    "La herramienta señaló por sí sola una ambigüedad en la instrucción —qué pasa con quien tiene exactamente 40 o 50 años— antes de ejecutarla. Leer la respuesta antes de abrir el archivo es la práctica que evita errores silenciosos.",
+    "La sesión práctica se cortó cuando se agotaron los créditos, con el gráfico a medio construir. Los últimos veinte minutos fueron teoría porque no había con qué seguir practicando.",
+    "Quedó explícito que el registro en el tablero se hace después de la validación, no antes: se anota lo que ya cumple el estándar del proyecto, para que el dato del cierre de octubre sea defendible.",
+    "María Loretta cerró diciendo que lo que conocían de la herramienta era superficial frente a lo visto en la sesión. Roy señaló que el tiempo ahorrado se va a usar en analizar y decidir, no en producir la tabla.",
+    "Talento Humano es un área con mucha data —planta, contratos, edades, nómina, embargos— y por eso es de las que más recorrido tiene en el programa. También es la que más se frena sin plan pagado."
+  ],
+  "proxima_sesion": {
+    "sesion": "Talento Humano — Sesión 3",
+    "condiciones": [
+      "Ejercicio del reporte poblacional terminado",
+      "Dos habilidades creadas por persona",
+      "Dos o tres ejercicios hechos en casa, con información propia",
+      "Claude de escritorio instalado y, al menos en un puesto, plan activo"
+    ],
+    "agendamiento": [
+      "Sin fecha: hay que agendar lo antes posible",
+      "Puede ser grupal o individual, o las dos cosas",
+      "Sandra disponible en exclusiva para Comfacesar hasta finales de octubre"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 1 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
