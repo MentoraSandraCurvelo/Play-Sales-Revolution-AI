@@ -15,6 +15,46 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📌 Miércoles 2 sep · 06:50 — Termómetro actualizado a mano, a pedido de Sandra
+
+Se republicó el tablero fuera de la corrida automática. Mismo enlace de siempre.
+
+**Lo que cambió el panorama:** anoche a las 7:20 p. m. Sandra cargó los VTT y los CSV de
+las cinco sesiones en cola, y de madrugada quedaron las cinco actas en PDF. El bloqueo
+que se le reportó ayer se cayó solo.
+
+| Sesión | Asistencia real (informe de Teams) |
+|---|---|
+| Jurídica S3 · 31 ago | 3 / 3 — Renata Laino, Lilibeth Costa, Carlos Mario Gamarra |
+| Servicios Sociales S5 · 31 ago | 2 / 2 — Juan Pablo y **Lilian Paola** |
+| Talento Humano S2 · 1 sep | 3 / 3 — Roy Carrillo, Lacides Daza, María Loretta |
+| Contabilidad S3 · 1 sep | 1 / 1 — Lisbeth Cuadrado (individual) |
+| Sub. Operativa S3 · 1 sep | 3 / 3 — Subdirección, Gennifer Mira, Jonnathan Armenta |
+
+Los CSV traen entradas duplicadas cuando alguien se reconecta, y también bots
+(`read.ai`). Se contaron **personas reales**, sin Sandra. Doce de doce.
+
+**Números nuevos:** 42 sesiones ejecutadas · 87% de asistencia acumulada (60/69, 25
+sesiones medidas) · huecos de expediente de 5 a **3**.
+
+**Lilian Paola Ramos deja de ser una alerta:** asistió completa a la S5 después de dos
+ausencias seguidas. Quedan dos, Beatriz Elena y Jorge Juan.
+
+**Agenda al día de hoy:** Jurídica individual movida al lun 7 y grupal el jue 3 a las
+11:00 · Gerencia Financiera agendó jue 3 a las 8:00 y sale del rojo · Tecnología
+reagendó lun 8 · Cumplimiento canceló la de hoy y sigue sin fecha. Tesorería pasa a ser
+la más rezagada, con 14 días.
+
+**Aviso sobre el enlace compartido:** quien tenga el link ve todavía la versión del
+martes. Las republicaciones no llegan a los invitados hasta que Sandra mueva el pin de
+compartir desde el menú del propio tablero.
+
+**Error propio, corregido en el momento:** ante la pregunta por «el tablero de María
+Elvira» se abrió y analizó el dashboard de **IAM™ Ambassadors**, que está fuera de este
+frente. Sandra lo cortó. Ambassadors no se toca: este puesto es solo IAM™ Intelligence.
+
+---
+
 ## 📌 1 sep · 7:26 p.m. — Cumplimiento pidió mover la S2. Respondido: cuenta como cancelada.
 
 Saharay Díaz escribió a las **17:00** —justo después de la última corrida de las 4:00,
