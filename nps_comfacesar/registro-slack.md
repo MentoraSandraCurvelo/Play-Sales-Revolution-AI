@@ -15,6 +15,45 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⚠️ 2 sep · 08:05 — DOS COSAS PARA LUCÍA, en las actas que acaba de publicar
+
+Lucía publicó a las 8:00 y 8:01 las actas en texto de **Jurídica S3** y **Servicios
+Sociales S5**. Bien armadas las dos. Pero llevan dos problemas, y ya están a la vista
+del cliente.
+
+**1 · El acta de Jurídica usa `:red_circle:`.** En la línea del primer bloqueo («El
+Drive está lleno…»). Ese es 🔴 y **no es el símbolo de Sandra**: el único válido es
+`:o:` / ⭕️. La de Servicios Sociales está limpia. Hay que corregir la de Jurídica.
+
+**2 · Las dos cierran diciendo «El acta completa en PDF y el informe de asistencia
+quedan aquí en el canal» — y el informe de asistencia NO está.** Sandra subió a las
+6:30 únicamente el PDF del acta, en los cinco canales. El CSV de asistencia y el enlace
+de la grabación siguen solo en Dropbox. El mensaje le promete al cliente algo que no
+puede encontrar. O se sube el CSV, o se quita esa frase.
+
+Vale para las cinco: Jurídica, Servicios Sociales, Talento Humano, Contabilidad y
+Sub. Operativa.
+
+**Dato útil, verificado hoy:** el bot @Claude ya **no** es miembro de `#juridica`,
+`#talento-humano`, `#educacion`, `#subsidio` ni `#serivcios-sociales`. El acta de
+Servicios Sociales salió con la firma «Enviado mediante @Claude» y esta vez no hubo
+riesgo, pero conviene seguir vigilando dónde queda el bot antes de publicar por API.
+
+## 📌 2 sep · 08:05 — Corrida de Elia: no se publicó nada
+
+Nada nuevo del cliente en lo que va del día; los únicos mensajes son de Sandra y de
+Lucía. Sin DM pendientes: Liliany no ha respondido al de ayer.
+
+**Educación queda en pausa a propósito.** Cumple los criterios —9 días sin sesión, canceló
+el lunes, sin fecha nueva, y ya no recibe aviso desde hace semanas— y el canal quedó
+libre al salir el bot. Pero Sandra tiene la pregunta sobre la mesa desde hace un rato y
+no la ha respondido. No se escribe hasta que ella diga.
+
+Las demás áreas en silencio (Tesorería 14 días, Comunicaciones 12, IPS 9, Vivienda,
+Mercadeo y Subsidio 8) ya tuvieron su mensaje el lunes: la regla es uno por semana.
+
+---
+
 ## 📌 2 sep · 07:25 — Corrección: las actas SÍ estaban en los canales
 
 La corrida automática del Termómetro obligó a releer los canales, y ahí apareció un
