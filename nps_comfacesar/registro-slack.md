@@ -15,6 +15,33 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⚠️ 2 sep · 09:05 — Lucía corrigió el acta de Jurídica pero dejó el `:red_circle:`
+
+Entre las 8:22 y las 8:43 salieron las grabaciones de Talento Humano, Contabilidad,
+Sub. Operativa y Jurídica, y se republicó el acta de Jurídica más completa —con el
+cambio de Lilibeth al lunes 7 y la hora de la S5—. Buen trabajo de fondo.
+
+**Pero la versión nueva de las 8:40 sigue con `:red_circle:`** en la línea del Drive.
+Es la segunda vez en una hora. El único símbolo válido es `:o:` / ⭕️.
+
+**Y hay un efecto secundario: `#juridica` acumula cuatro mensajes hoy** — PDF a las
+6:31, grabación a las 8:22, acta a las 8:00 y acta otra vez a las 8:40. El tope
+acordado son **dos por canal por día entre las dos**. Las dos actas quedan una encima de
+otra y el cliente lo lee como Sandra repitiéndose. Cuando haya que corregir un mensaje
+ya publicado, conviene editarlo en vez de publicar una segunda versión.
+
+**Sigue faltando el CSV de asistencia** en los cinco canales. Grabación y acta ya están;
+la asistencia no. Las actas que dicen «el informe de asistencia queda aquí en el canal»
+siguen prometiendo algo que no está.
+
+## 📌 2 sep · 09:05 — El evento fantasma de Jurídica quedó cancelado
+
+Verificado en Outlook: la individual de Lilibeth de hoy a las 9:00 **ya no aparece**.
+Sandra la cerró. **El de Cumplimiento de las 4:00 p. m. sigue vivo y sin cancelar**, pese
+a que Saharay pidió moverlo y se le respondió que cuenta como cancelada.
+
+---
+
 ## ⚠️ 2 sep · 08:05 — DOS COSAS PARA LUCÍA, en las actas que acaba de publicar
 
 Lucía publicó a las 8:00 y 8:01 las actas en texto de **Jurídica S3** y **Servicios
