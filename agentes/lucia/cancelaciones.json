@@ -20,12 +20,12 @@
       "fecha": "2026-08-31",
       "hora": "16:00",
       "canal": "#tecnologia",
-      "quien_cancela": "sin confirmar",
-      "motivo": "La cita estaba en el tablero de la semana y ya no aparece en el calendario de Outlook. No hay aviso en Slack ni acta. Queda anotada para que Sandra confirme si se canceló o se movió.",
+      "quien_cancela": "Comfacesar",
+      "motivo": "Confirmada por Sandra el 1 de septiembre. La cita salió del calendario y no hubo aviso en el canal; el motivo no quedó registrado.",
       "aviso_en_canal": null,
       "reagendada": false,
       "compromiso": null,
-      "cuenta_como": "por confirmar"
+      "cuenta_como": "cancelada"
     }
   ]
 }
