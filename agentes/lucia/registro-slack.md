@@ -27,6 +27,7 @@
 | 2 sept · 08:10 | `#juridica` | Resumen corregido de la Sesión 3 | **Programado** `Dr0BUD8ESSG6` |
 | 2 sept · 07:22 | `#juridica` | Grabación de la Sesión 3 | **Publicado por Lucía** |
 | 2 sept · 07:22 | `#serivcios-sociales` | Grabación de la Sesión 5 | **Publicado por Lucía** |
+| 2 sept · 07:23 | `#talento-humano` | Grabación de la Sesión 2 | **Publicado por Lucía** |
 | 2 sept · 09:00 | `#comunicaciones` | Recordatorio · Ambassadors con María Elvira, 10:00 | **Programado** `Dr0BUB3SPUFL` |
 | 2 sept · 10:00 | `#sub-admin-y-financiera-infraestructura` | Recordatorio · individual de Rafael, 11:00 | **Programado** `Dr0BUD241LKB` |
 | 2 sept · 13:00 | `#contabilidad` | Recordatorio · individual de Carlos, 14:00 | **Programado** `Dr0BU6T13DJR` |
