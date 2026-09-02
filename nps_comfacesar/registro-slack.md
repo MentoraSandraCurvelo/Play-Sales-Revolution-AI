@@ -15,6 +15,61 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📚 2 sep · 18:40 — Leídas las 36 actas. El acumulado sube a 89%.
+
+Sandra cuestionó el párrafo de «cobertura del cálculo»: decía que faltaban trece actas
+por medir, y ella señaló que **en Dropbox y en Slack está todo**. Tenía razón: los
+documentos existían, lo que faltaba era leerlos. La frase estaba mal escrita — parecía
+un hueco del cliente cuando era un límite propio.
+
+**Se leyeron las trece.** Resultado:
+
+| Sesión | Asistencia |
+|---|---|
+| Comunicaciones S1 | 7 / 7 |
+| Comunicaciones S2 | 6 / 8 |
+| Jurídica S1 | 3 / 3 |
+| Educación S1 | 2 / 2 |
+| Vivienda S1 | 2 / 2 |
+| Vivienda S4 | 2 / 2 |
+| Servicios Sociales S1 | 3 / 3 |
+| Mercadeo S1 | 3 / 3 |
+| Mercadeo S3 · Rina y M.ª Isabel | 2 / 2 |
+| Mercadeo S3 · Manuel José | 1 / 1 |
+| Agencia de Empleo S2 | 2 / 2 |
+| Agencia de Empleo S3 | 2 / 2 |
+| Subsidio S2 | 2 / 3 |
+
+**Nuevo acumulado: 89%** — 97 asistencias sobre 109 convocatorias, 38 sesiones medidas
+de 44. Subió dos puntos porque casi todas dieron 100%.
+
+**Segundo caso del campo «Asistencia efectiva» mal puesto:** el acta de Subsidio S2 dice
+«100%» en la cabecera y dos líneas abajo registra a Carlos Andrés como ausente. Real:
+2 de 3. Confirma que ese campo no se debe usar nunca.
+
+## ❌ CORRECCIÓN IMPORTANTE — el dato de «2-3 horas a 10 minutos» SÍ existía
+
+Esta mañana, al redactar los nueve avisos, se le dijo a Sandra que **no había ninguna
+sesión documentada** con ese salto de tiempo y se prefirió no usarlo. **Era falso.**
+Estaba en las actas que no se habían leído. Las cinco mediciones reales:
+
+| Área | Proceso | Antes | Después |
+|---|---|---|---|
+| **Agencia de Empleo** | filtrar candidatos de una vacante | **2–3 horas** | **15–20 min** (85–90%) |
+| **Vivienda** | analizar informe de interventoría | 4 horas | 30 min (87%) · 37 h/mes |
+| **Mercadeo** | tablero de 710 leads | 1 hora | 15 min (75%) |
+| **Subsidio** | reporte de tipo de aportante | 30 min | 10 min (67%) |
+| **Jurídica** | requisitos legales de un contrato | 30–60 min | 3–5 min |
+
+El de Agencia de Empleo es exactamente el que Sandra citaba. **Lección: antes de decirle
+a Sandra que un dato no existe, agotar las fuentes.** Ella conoce su proyecto; si afirma
+que algo está, está.
+
+Todo esto ya quedó en el tablero, incluida una sección nueva con las cinco mediciones
+—son los números que sostienen el caso ante María Elvira el martes.
+
+---
+
 ## 🎯 2 sep · 17:15 — CUATRO ÁREAS AGENDARON el mismo día del aviso
 
 Tablero republicado con la agenda de esta semana y la próxima. **44 sesiones ejecutadas**
