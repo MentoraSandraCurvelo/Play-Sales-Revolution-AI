@@ -17,12 +17,12 @@
 | 28 ago · 08:00 | `#cumplimiento` | Acta Sesión 1, programada | Cancelada por Sandra |
 | 26 ago · 13:52 | `#contabilidad` | Acta S2 primera versión + canvas | Eliminados |
 | 31 ago · 15:59 | `#educacion` | «Estoy en la sala esperándolos» — a pedido de Sandra, en el momento | **Publicado por Lucía** |
-| 2 sept · 08:00 | `#juridica` | Resumen de la Sesión 3 | ⚠️ **Desactualizado** — dice que a Lilibeth le rechaza la tarjeta, y ya activó Pro |
+| 2 sept · 08:00 | `#juridica` | Resumen de la Sesión 3 | **Borrado por Sandra** antes de salir |
 | 2 sept · 08:01 | `#serivcios-sociales` | Resumen de la Sesión 5 | **Programado** `Dr0BU4SRNYTD` |
 | 2 sept · 08:02 | `#talento-humano` | Resumen de la Sesión 2 | **Programado** `Dr0BV5FH1C6L` |
 | 2 sept · 08:03 | `#contabilidad` | Resumen de la individual de Lisbeth | **Programado** `Dr0BTVP19MCP` |
 | 2 sept · 08:04 | `#sub-operativa` | Resumen de la Sesión 3 | **Programado** `Dr0BU96C7WGN` |
-| 2 sept · 08:05 | `#juridica` | Recordatorio · individual de Lilibeth, 9:00 | ⚠️ **Equivocado** — la movió al lunes 7. Solo Sandra lo puede borrar |
+| 2 sept · 08:05 | `#juridica` | Recordatorio · individual de Lilibeth, 9:00 | **Borrado por Sandra** antes de salir |
 | 2 sept · 06:30 | los cinco canales | **Los cinco PDF, subidos por Sandra** | **Publicado** |
 | 2 sept · 08:10 | `#juridica` | Resumen corregido de la Sesión 3 | **Programado** `Dr0BUD8ESSG6` |
 | 2 sept · 07:22 | `#juridica` | Grabación de la Sesión 3 | **Publicado por Lucía** |
@@ -30,7 +30,7 @@
 | 2 sept · 07:23 | `#talento-humano` | Grabación de la Sesión 2 | **Publicado por Lucía** |
 | 2 sept · 07:32 | `#contabilidad` | Grabación de la individual de Lisbeth | **Publicado por Lucía** |
 | 2 sept · 07:33 | `#sub-operativa` | Grabación de la Sesión 3 | **Publicado por Lucía** |
-| 2 sept · 09:00 | `#comunicaciones` | Recordatorio · Ambassadors con María Elvira, 10:00 | **Programado** `Dr0BUB3SPUFL` |
+| 2 sept · 09:00 | `#comunicaciones` | Recordatorio · Ambassadors con María Elvira, 10:00 | **Programado** `Dr0BUB3SPUFL` · cortesía, no es del programa |
 | 2 sept · 10:00 | `#sub-admin-y-financiera-infraestructura` | Recordatorio · individual de Rafael, 11:00 | **Programado** `Dr0BUD241LKB` |
 | 2 sept · 13:00 | `#contabilidad` | Recordatorio · individual de Carlos, 14:00 | **Programado** `Dr0BU6T13DJR` |
 
