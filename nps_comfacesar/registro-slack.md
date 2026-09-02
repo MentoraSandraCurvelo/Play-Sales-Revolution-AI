@@ -15,6 +15,42 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ❌ 2 sep · 12:04 — ERROR: le escribí a Comunicaciones y ya tenían fecha
+
+**José Manuel Vergara, 11:07:** «Buen día Sandra, el día de ayer agendamos la sesión para
+el viernes a las 9:00 a.m.» **Vidiana Bendeck, 11:35:** «Ansiosos de este viernes poder
+trabajar contigo».
+
+El mensaje de las 9:58 les decía «12 días sin sesión, agenden». **Ya habían agendado
+ayer.** El evento estaba en Outlook y lo tuve delante: viernes 4 de septiembre, 14:00
+UTC = 9:00 Colombia.
+
+**Por qué se me pasó:** el evento se llama **«José Manuel Vergara y Sandra Curvelo |
+Founder & CSO de IAM™»** y el invitado es **`web@comfacesar.com`**. Ni el asunto dice
+«Comfacesar» o «Comunicaciones», ni el correo es `comunicaciones@`. Al filtrar por
+asunto no salió como sesión del área.
+
+**Regla nueva para las dos agentes:** un evento cuyo asunto es solo un nombre propio
+—«[Nombre] y Sandra Curvelo | Founder & CSO de IAM™»— **es una sesión del programa**. Hay
+que clasificarlo por el **invitado**, no por el asunto. Correos ya vistos que no llevan
+el nombre del área:
+
+| Correo | Área |
+|---|---|
+| `web@comfacesar.com` | Comunicaciones (José Manuel Vergara) |
+| `auxiliar_gt@comfacesar.com` | Tecnología (Olga Lucía Barros) |
+| `secretaria_juridica@comfacesar.com` | Jurídica (Lilibeth Costa) |
+| `profesionalaf@comfacesar.com` | por confirmar (Liliany Gómez) |
+
+**Corregido a las 12:04** en el canal: se les dijo de frente que el mensaje sobraba, se
+confirmó el viernes a las 9:00 y se les pidió traer un proceso, no un documento.
+`#comunicaciones` queda hoy en dos mensajes: el tope.
+
+**Balance de los nueve avisos:** dos respuestas en dos horas — Educación agenda con el
+rector, y Comunicaciones ya tenía fecha. Siete sin responder.
+
+---
+
 ## ✅ 2 sep · 11:01 — Educación respondió a los 20 minutos
 
 **Julissa Pérez, 10:19 en `#educacion`:** «Hola, buenos días! Ya me pongo de acuerdo con
