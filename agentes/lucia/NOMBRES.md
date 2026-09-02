@@ -19,16 +19,20 @@ en el repositorio, pero **las versiones publicadas en Slack el 27 llevan el erro
 
 ## Quien no está en el listado
 
-En Talento Humano trabaja **Lacides Daza Yance**, que participa en las sesiones, hace
-los ejercicios y pregunta. No figura como colaborador en el listado, pero su correo
-aparece pegado al de María Loretta en esa misma fila —parece un error de digitación
-del documento—. No es un oyente de otra área: es parte del equipo que trabaja.
+**Lacides Daza Yance — Gerente de Talento Humano.** No figura en el listado de los 48,
+pero su correo aparece pegado al de María Loretta en esa misma fila: es un error de
+digitación del documento. Sandra lo confirmó el 1 de septiembre: es el gerente del área
+y entra en el cupo, porque hay áreas del listado que todavía no se activaron.
 
-Va nombrado en el acta de la Sesión 2 de Talento Humano. **Si Sandra dice que no
-corresponde, se quita antes de publicar.**
+| Área | Nombre | Cargo | Correo |
+|---|---|---|---|
+| Talento Humano | Lacides Daza Yance | Gerente de Talento Humano | gestionhumana@comfacesar.com |
 
-La regla de fondo sigue siendo la suya: quien entra de escucha y no es del proyecto no
-se menciona. Esto es distinto — es alguien que sí está haciendo el trabajo.
+La regla de Sandra sigue igual: quien entra de escucha y no es del proyecto no se
+menciona. Esto es distinto — es quien dirige el área y está haciendo los ejercicios.
+
+**Cuando aparezca alguien más que no esté en el listado, se pregunta antes de publicar.**
+El listado se hizo en agosto y el proyecto se mueve.
 
 ## Antes de escribir un acta
 

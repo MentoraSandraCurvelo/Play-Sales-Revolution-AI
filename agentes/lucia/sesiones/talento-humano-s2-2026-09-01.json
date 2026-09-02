@@ -9,29 +9,104 @@
   "fecha_corta": "1 septiembre 2026",
   "subtitulo_meta": "1 de septiembre de 2026 · 10:00 a.m. · 1 h 01 min · Virtual — Microsoft Teams",
   "datos_sesion": [
-    ["Área(s)", "Talento Humano — Comfacesar"],
-    ["Sesión", "N° 2 — Primer ejercicio con datos reales: reporte de estadística poblacional"],
-    ["Fecha", "1 de septiembre de 2026"],
-    ["Hora inicio", "10:00 a.m. — Colombia (sala abierta desde las 9:58 a.m.)"],
-    ["Duración de la sesión", "1 hora 1 minuto (10:00 a.m. – 11:01 a.m.)"],
-    ["Modalidad", "Virtual — Microsoft Teams"],
-    ["Correos Slack activados", "asistentenomina@comfacesar.com · asistenteth@comfacesar.com · gestionhumana@comfacesar.com"],
-    ["Grabación", "Pendiente — se adjunta al publicar el acta en el canal"],
-    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+    [
+      "Área(s)",
+      "Talento Humano — Comfacesar"
+    ],
+    [
+      "Sesión",
+      "N° 2 — Primer ejercicio con datos reales: reporte de estadística poblacional"
+    ],
+    [
+      "Fecha",
+      "1 de septiembre de 2026"
+    ],
+    [
+      "Hora inicio",
+      "10:00 a.m. — Colombia (sala abierta desde las 9:58 a.m.)"
+    ],
+    [
+      "Duración de la sesión",
+      "1 hora 1 minuto (10:00 a.m. – 11:01 a.m.)"
+    ],
+    [
+      "Modalidad",
+      "Virtual — Microsoft Teams"
+    ],
+    [
+      "Correos Slack activados",
+      "asistentenomina@comfacesar.com · asistenteth@comfacesar.com · gestionhumana@comfacesar.com"
+    ],
+    [
+      "Grabación",
+      "Pendiente — se adjunta al publicar el acta en el canal"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo — Mentora IAM™ Intelligence"
+    ]
   ],
   "kpis": [
-    {"valor": "3", "etiqueta": "Participantes", "detalle": "Roí David Carrillo · María Loretta Fuentes · Lacides Daza"},
-    {"valor": "936", "etiqueta": "Filas procesadas", "detalle": "La base completa de nómina, sin errores"},
-    {"valor": "1 min", "etiqueta": "Cálculo de edades", "detalle": "Con fórmula que se recalcula sola"},
-    {"valor": "2", "etiqueta": "Casos abiertos", "detalle": "Embargos de nómina · archivo histórico"},
-    {"valor": "1", "etiqueta": "Ejercicio a medias", "detalle": "Se cortó por créditos agotados"},
-    {"valor": "0", "etiqueta": "Planes activos", "detalle": "El área trabaja toda en versión gratuita"}
+    {
+      "valor": "3",
+      "etiqueta": "Participantes",
+      "detalle": "Roí David Carrillo · María Loretta Fuentes · Lacides Daza"
+    },
+    {
+      "valor": "936",
+      "etiqueta": "Filas procesadas",
+      "detalle": "La base completa de nómina, sin errores"
+    },
+    {
+      "valor": "1 min",
+      "etiqueta": "Cálculo de edades",
+      "detalle": "Con fórmula que se recalcula sola"
+    },
+    {
+      "valor": "2",
+      "etiqueta": "Casos abiertos",
+      "detalle": "Embargos de nómina · archivo histórico"
+    },
+    {
+      "valor": "1",
+      "etiqueta": "Ejercicio a medias",
+      "detalle": "Se cortó por créditos agotados"
+    },
+    {
+      "valor": "0",
+      "etiqueta": "Planes activos",
+      "detalle": "El área trabaja toda en versión gratuita"
+    }
   ],
   "participantes": [
-    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
-    {"nombre": "Roí David Carrillo Soto", "cargo": "Asistente de Nómina — Comfacesar", "correo": "asistentenomina@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"},
-    {"nombre": "María Loretta Fuentes Carrillo", "cargo": "Asistente de Talento Humano — Comfacesar", "correo": "asistenteth@comfacesar.com", "modalidad": "Virtual", "nivel": "Inicial"},
-    {"nombre": "Lacides Daza Yance", "cargo": "Talento Humano — Comfacesar", "correo": "gestionhumana@comfacesar.com", "modalidad": "Virtual", "nivel": "Inicial"}
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "—",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Roí David Carrillo Soto",
+      "cargo": "Asistente de Nómina — Comfacesar",
+      "correo": "asistentenomina@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Intermedio"
+    },
+    {
+      "nombre": "María Loretta Fuentes Carrillo",
+      "cargo": "Asistente de Talento Humano — Comfacesar",
+      "correo": "asistenteth@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Inicial"
+    },
+    {
+      "nombre": "Lacides Daza Yance",
+      "cargo": "Gerente de Talento Humano — Comfacesar",
+      "correo": "gestionhumana@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Inicial"
+    }
   ],
   "mapa_calor_intro": "Riesgos identificados en la Sesión 2 a partir del reporte de estadística poblacional trabajado en vivo con datos reales de nómina.",
   "riesgos": [
@@ -83,8 +158,8 @@
       "num": "01",
       "nivel": "CRITICO",
       "titulo": "Activar el plan pagado, al menos en un puesto",
-      "descripcion": "Son 20 USD al mes, unos 80.000 pesos. Sin plan el área no puede terminar un ejercicio de análisis: se corta a mitad, como pasó hoy. Cada quien necesita su propia cuenta — compartirla rompe la lógica de la herramienta.",
-      "responsable": "Comfacesar + equipo Talento Humano",
+      "descripcion": "Son 20 USD al mes, unos 80.000 pesos. Sin plan el área no puede terminar un ejercicio de análisis: se corta a mitad, como pasó hoy. Cada quien necesita su propia cuenta — compartirla rompe la lógica de la herramienta. La decisión está en la misma sesión: el gerente del área lo vivió de primera mano.",
+      "responsable": "Lacides Daza — Gerencia de Talento Humano",
       "plazo": "Antes de la Sesión 3"
     },
     {
@@ -175,21 +250,77 @@
   ],
   "tareas_intro": "Los ejercicios se hacen con la información real del área, no con ejemplos. Por eso la configuración importa y por eso el ejercicio que no se termina en sesión hay que cerrarlo en casa: la próxima sesión arranca desde donde este quedó.",
   "tareas": [
-    {"tarea": "Terminar el ejercicio del reporte poblacional: analizar las dos capturas de KPIs y pedir qué datos faltan", "responsable": "Roí David Carrillo", "prioridad": "ALTA", "plazo": "Antes de S3"},
-    {"tarea": "Traer dos habilidades creadas para probarlas dentro del proyecto", "responsable": "Roí David Carrillo", "prioridad": "ALTA", "plazo": "Sesión 3"},
-    {"tarea": "Traer dos habilidades creadas para probarlas dentro del proyecto", "responsable": "María Loretta Fuentes", "prioridad": "ALTA", "plazo": "Sesión 3"},
-    {"tarea": "Traer dos habilidades creadas para probarlas dentro del proyecto", "responsable": "Lacides Daza", "prioridad": "ALTA", "plazo": "Sesión 3"},
-    {"tarea": "Traer dos o tres ejercicios hechos en casa con información propia del área", "responsable": "Equipo Talento Humano", "prioridad": "ALTA", "plazo": "Sesión 3"},
-    {"tarea": "Descargar Claude de escritorio para Windows o Mac", "responsable": "Equipo Talento Humano", "prioridad": "ALTA", "plazo": "Antes de S3"},
-    {"tarea": "Activar el plan pagado — 20 USD mensuales, cuenta individual por persona", "responsable": "Comfacesar + equipo", "prioridad": "URGENTE", "plazo": "Antes de S3"},
-    {"tarea": "Conseguir micrófono para el puesto de trabajo y poder dictar las instrucciones", "responsable": "Comfacesar — TI", "prioridad": "MEDIA", "plazo": "Antes de S3"},
-    {"tarea": "Definir qué parte del archivo de embargos se digitaliza primero", "responsable": "Roí David Carrillo", "prioridad": "MEDIA", "plazo": "Sesión 3"},
-    {"tarea": "Registrar en el tablero del canal cada ejercicio ya validado, con el tiempo antes y después", "responsable": "Equipo Talento Humano", "prioridad": "ALTA", "plazo": "Permanente"},
-    {"tarea": "Agendar la Sesión 3 lo antes posible — grupal o individual", "responsable": "Equipo Talento Humano", "prioridad": "URGENTE", "plazo": "Esta semana"}
+    {
+      "tarea": "Terminar el ejercicio del reporte poblacional: analizar las dos capturas de KPIs y pedir qué datos faltan",
+      "responsable": "Roí David Carrillo",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S3"
+    },
+    {
+      "tarea": "Traer dos habilidades creadas para probarlas dentro del proyecto",
+      "responsable": "Roí David Carrillo",
+      "prioridad": "ALTA",
+      "plazo": "Sesión 3"
+    },
+    {
+      "tarea": "Traer dos habilidades creadas para probarlas dentro del proyecto",
+      "responsable": "María Loretta Fuentes",
+      "prioridad": "ALTA",
+      "plazo": "Sesión 3"
+    },
+    {
+      "tarea": "Traer dos habilidades creadas para probarlas dentro del proyecto",
+      "responsable": "Lacides Daza",
+      "prioridad": "ALTA",
+      "plazo": "Sesión 3"
+    },
+    {
+      "tarea": "Traer dos o tres ejercicios hechos en casa con información propia del área",
+      "responsable": "Equipo Talento Humano",
+      "prioridad": "ALTA",
+      "plazo": "Sesión 3"
+    },
+    {
+      "tarea": "Descargar Claude de escritorio para Windows o Mac",
+      "responsable": "Equipo Talento Humano",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S3"
+    },
+    {
+      "tarea": "Activar el plan pagado — 20 USD mensuales, cuenta individual por persona",
+      "responsable": "Lacides Daza — Gerencia de Talento Humano",
+      "prioridad": "URGENTE",
+      "plazo": "Antes de S3"
+    },
+    {
+      "tarea": "Conseguir micrófono para el puesto de trabajo y poder dictar las instrucciones",
+      "responsable": "Comfacesar — TI",
+      "prioridad": "MEDIA",
+      "plazo": "Antes de S3"
+    },
+    {
+      "tarea": "Definir qué parte del archivo de embargos se digitaliza primero",
+      "responsable": "Roí David Carrillo",
+      "prioridad": "MEDIA",
+      "plazo": "Sesión 3"
+    },
+    {
+      "tarea": "Registrar en el tablero del canal cada ejercicio ya validado, con el tiempo antes y después",
+      "responsable": "Equipo Talento Humano",
+      "prioridad": "ALTA",
+      "plazo": "Permanente"
+    },
+    {
+      "tarea": "Agendar la Sesión 3 lo antes posible — grupal o individual",
+      "responsable": "Equipo Talento Humano",
+      "prioridad": "URGENTE",
+      "plazo": "Esta semana"
+    }
   ],
   "observaciones": [
     "Es la primera sesión de ejercicios del área: la Sesión 1 fue de configuración. El equipo llegó con el proyecto ya montado y con el contexto bien redactado, lo que permitió entrar directo al caso real.",
     "Roy preparó el contexto del proyecto apoyándose en otra herramienta antes de la sesión. Ese uso —una herramienta rápida para redactar, otra con razonamiento para trabajar— es exactamente el criterio que el programa busca instalar.",
+    "Lacides Daza, gerente del área, estuvo en la sesión haciendo los ejercicios junto con su equipo, no observando. Es la primera área del programa donde el jefe trabaja en la misma mesa que sus asistentes, y se nota en cómo se prepararon: llegaron habiendo comparado herramientas por su cuenta antes de la clase.",
     "El equipo trabaja en retroalimentación: construyeron juntos el ejercicio de comparación entre herramientas antes de la clase. Es el único área del programa que llegó habiendo explorado por su cuenta.",
     "La herramienta señaló por sí sola una ambigüedad en la instrucción —qué pasa con quien tiene exactamente 40 o 50 años— antes de ejecutarla. Leer la respuesta antes de abrir el archivo es la práctica que evita errores silenciosos.",
     "La sesión práctica se cortó cuando se agotaron los créditos, con el gráfico a medio construir. Los últimos veinte minutos fueron teoría porque no había con qué seguir practicando.",
