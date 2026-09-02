@@ -15,6 +15,43 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🎯 2 sep · 17:15 — CUATRO ÁREAS AGENDARON el mismo día del aviso
+
+Tablero republicado con la agenda de esta semana y la próxima. **44 sesiones ejecutadas**
+(entran Sub. Financiera S2 de Rafael y Contabilidad S3 de Carlos, ambas de hoy).
+
+**De las nueve áreas que recibieron el aviso a las 9:58, cuatro tomaron fecha antes de
+las 5 de la tarde:**
+
+| Área | Llevaba parada | Agendó |
+|---|---|---|
+| **Tesorería** | 14 días · la más rezagada | mié 9 · 9:00 · S2 |
+| **Educación** | 9 días · canceló el lunes | lun 7 · 16:00 · S3 |
+| **Subsidio** | 8 días | mar 8 · 11:00 · S4 |
+| **Mercadeo** | 8 días | mié 9 · 16:00 · S4 · Manuel José |
+
+Sumando Comunicaciones —que ya tenía el viernes— son **cinco de nueve**. Siguen sin
+fecha: **IPS, Vivienda, Crédito y Auditoría Interna**.
+
+**La agenda de las próximas dos semanas: trece sesiones.** Jueves 3 con cinco (Gerencia
+Financiera vuelve tras 16 días), viernes 4 Comunicaciones, y la semana del 7 al 11 con
+siete más. Es el pico más alto del programa.
+
+**Dos cosas nuevas detectadas en el calendario:**
+
+1. **Rafael tiene dos sesiones numeradas «S4»** — miércoles 9 a las 8:00 y viernes 11 a
+   las 11:00, mismo invitado (`requerimientoscontratos@`). O una es la S5, o sobra un
+   evento.
+2. **Martes 8, 2:00 p. m.: reporte a María Elvira.** Los datos del termómetro son los que
+   van a esa reunión. Conviene que el acta de Contabilidad S2 esté corregida antes.
+
+**Nota de método:** el evento de Comunicaciones ya aparece renombrado como «Comfacesar |
+Comunicaciones | Sesion 4». Antes se llamaba solo «José Manuel Vergara y Sandra Curvelo»
+y por eso no se clasificó como sesión del área esta mañana. Con el nombre nuevo el
+problema no se repite.
+
+---
+
 ## ↩️ 2 sep · 16:47 — Grabación de Rafael: publicada por error y BORRADA
 
 Sandra pasó el enlace de la grabación de Sub. Financiera S2 (Rafael) y se publicó en el
