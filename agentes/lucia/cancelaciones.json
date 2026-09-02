@@ -12,7 +12,8 @@
       "aviso_en_canal": "https://iamteamespacio.slack.com/archives/C0BPDPF4YMD/p1788192674969609",
       "reagendada": false,
       "compromiso": "Julissa respondió en el canal que se ponen al día para la próxima clase. Falta que agenden.",
-      "cuenta_como": "cancelada"
+      "cuenta_como": "cancelada",
+      "causa": "cruce con otras actividades"
     },
     {
       "area": "Tecnología",
@@ -21,11 +22,33 @@
       "hora": "16:00",
       "canal": "#tecnologia",
       "quien_cancela": "Comfacesar",
-      "motivo": "Confirmada por Sandra el 1 de septiembre. La cita salió del calendario y no hubo aviso en el canal; el motivo no quedó registrado.",
+      "motivo": "Se cruzó con otras actividades del área. Confirmado por Sandra el 1 de septiembre. La cita salió del calendario y no hubo aviso en el canal.",
       "aviso_en_canal": null,
       "reagendada": false,
       "compromiso": null,
-      "cuenta_como": "cancelada"
+      "cuenta_como": "cancelada",
+      "causa": "cruce con otras actividades"
+    },
+    {
+      "area": "Cumplimiento",
+      "sesion": "S2",
+      "fecha": "2026-09-02",
+      "hora": "16:00",
+      "canal": "#cumplimiento",
+      "quien_cancela": "Comfacesar",
+      "motivo": "Se cruzó con otras actividades del área. Avisado por Sandra el 1 de septiembre por la noche.",
+      "causa": "cruce con otras actividades",
+      "aviso_en_canal": null,
+      "reagendada": false,
+      "compromiso": null,
+      "cuenta_como": "cancelada",
+      "nota": "Al 1 de septiembre por la noche la cita seguía en el calendario de Outlook. Hay que borrarla, o el recordatorio de la una hora antes sale igual."
     }
-  ]
+  ],
+  "patron": {
+    "detectado": "2026-09-01",
+    "que_pasa": "Tres sesiones caídas en la misma semana —Educación S3 y Tecnología S3 el lunes, Cumplimiento S2 el miércoles— y las tres por lo mismo: se cruzan con otras actividades del área. Ninguna quedó reagendada.",
+    "por_que_importa": "No es un problema de interés sino de agenda: el espacio existe pero lo desplaza cualquier otra cosa. Quedan cinco semanas de programa y una sesión que se cae sin reagendar no se recupera sola.",
+    "a_quien_toca": "María Elvira Marulanda — es quien puede pedir que el espacio del programa se respete como cualquier otro compromiso institucional."
+  }
 }
