@@ -15,6 +15,20 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ✅ 2 sep · 11:01 — Educación respondió a los 20 minutos
+
+**Julissa Pérez, 10:19 en `#educacion`:** «Hola, buenos días! Ya me pongo de acuerdo con
+el rector para agenda la reunión, gracias Sandra». Primera respuesta de las nueve, y
+justo del canal que estuvo bloqueado por el bot hasta anoche.
+
+Se le contestó a las 11:01 —respuesta directa, no cuenta como mensaje de contenido—
+recordándole que puede tomar el espacio ella misma en el enlace fijado y que aún hay
+cupos esta semana. `#educacion` queda hoy en dos mensajes: el tope.
+
+Las otras ocho, sin respuesta todavía.
+
+---
+
 ## 📣 2 sep · 09:59 — Nueve mensajes de agendamiento, a pedido de Sandra
 
 Sandra pidió escribir a **todos los canales detenidos** con el argumento del avance del
