@@ -15,6 +15,29 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📌 1 sep · 7:26 p.m. — Cumplimiento pidió mover la S2. Respondido: cuenta como cancelada.
+
+Saharay Díaz escribió a las **17:00** —justo después de la última corrida de las 4:00,
+por eso no se vio en su momento— pidiendo reprogramar el encuentro de mañana miércoles
+4:00 p.m. porque se le cruza con otras actividades.
+
+**Sandra fijó la respuesta:** la sesión **cuenta como cancelada** y ella vuelve a
+agendar por el enlace. Se publicó en el canal a las 19:26, en esos términos, invitándola
+a tomar un espacio esta misma semana y recordándole el caso real del área.
+
+Es la primera vez que se le comunica al cliente que una sesión movida cuenta como
+cancelada. **Ojo con el termómetro:** las cancelaciones siguen sin entrar a ningún
+indicador —esa pausa la puso Sandra y sigue vigente—, pero ahora el cliente sí sabe que
+se registran. Si Sandra reactiva la medición, esta es la primera que entra.
+
+El bot @Claude **no** es miembro de `#cumplimiento` (se verificó: solo Sandra, María
+Elvira y Saharay), por eso se pudo publicar por API sin riesgo.
+
+**Pendiente cerrado:** la pregunta de Saharay del 27 sobre dónde ver la grabación ya
+estaba resuelta — Sandra publicó el acta ese mismo día a las 11:31 con el enlace dentro.
+
+---
+
 ## 📌 1 sep · 7:00 p.m. — Sandra pidió el corte a los canales con sesión. No salió.
 
 La orden fue: enviar a cada canal que tuvo sesión hoy el corte con **acta en PDF, acta
