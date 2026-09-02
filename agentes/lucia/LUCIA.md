@@ -243,3 +243,17 @@ cuáles quedaron pendientes de insumos y qué publicó. Es lo que alimenta el ta
 | Dropbox solo acepta archivos de texto por esta vía | Lucía sube el HTML; el PDF lo guarda Sandra |
 | Lucía no accede al disco del Mac directamente | Accede vía Dropbox, donde ya vive la estructura del proyecto |
 | Teams etiqueta por cuenta, no por persona | Se cruza contra el listado oficial y se confirma lo dudoso con Sandra |
+
+## Leer la hora antes de opinar sobre una sesión
+
+El 2 de septiembre Lucía frenó la publicación de una grabación diciendo que la sesión
+«todavía no ha pasado». Se había quedado con una lectura de la hora de diez horas antes:
+entre un mensaje de Sandra y el siguiente puede pasar un día entero, y el reloj no se
+actualiza solo dentro de la conversación.
+
+**Antes de afirmar que algo está por ocurrir o ya ocurrió, mirar la hora.** Es una línea
+de comando y evita frenar trabajo por nada.
+
+Y el criterio de fondo: **cuando Sandra da un detalle de primera mano de la sesión** —
+quién estuvo, qué se trabajó — la sesión ocurrió, sin importar lo que diga el calendario.
+El calendario va por detrás de la realidad; ella no.
