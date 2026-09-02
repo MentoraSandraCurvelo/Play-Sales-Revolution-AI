@@ -17,14 +17,15 @@
 | 28 ago · 08:00 | `#cumplimiento` | Acta Sesión 1, programada | Cancelada por Sandra |
 | 26 ago · 13:52 | `#contabilidad` | Acta S2 primera versión + canvas | Eliminados |
 | 31 ago · 15:59 | `#educacion` | «Estoy en la sala esperándolos» — a pedido de Sandra, en el momento | **Publicado por Lucía** |
-| 2 sept · 08:00 | `#juridica` | Resumen de la Sesión 3 | **Borrado por Sandra** antes de salir |
+| 2 sept · 08:00 | `#juridica` | Resumen de la Sesión 3, desactualizado | ⚠️ **Salió** — se borró el corregido en su lugar |
+| 2 sept · 08:39 | `#juridica` | Corrección de dos puntos del mensaje de las 8:00 | **Publicado por Lucía** |
 | 2 sept · 08:01 | `#serivcios-sociales` | Resumen de la Sesión 5 | **Programado** `Dr0BU4SRNYTD` |
 | 2 sept · 08:02 | `#talento-humano` | Resumen de la Sesión 2 | **Programado** `Dr0BV5FH1C6L` |
 | 2 sept · 08:03 | `#contabilidad` | Resumen de la individual de Lisbeth | **Programado** `Dr0BTVP19MCP` |
 | 2 sept · 08:04 | `#sub-operativa` | Resumen de la Sesión 3 | **Programado** `Dr0BU96C7WGN` |
 | 2 sept · 08:05 | `#juridica` | Recordatorio · individual de Lilibeth, 9:00 | **Borrado por Sandra** antes de salir |
 | 2 sept · 06:30 | los cinco canales | **Los cinco PDF, subidos por Sandra** | **Publicado** |
-| 2 sept · 08:10 | `#juridica` | Resumen corregido de la Sesión 3 | **Programado** `Dr0BUD8ESSG6` |
+| 2 sept · 08:10 | `#juridica` | Resumen corregido de la Sesión 3 | **Borrado por error** — no llegó a salir |
 | 2 sept · 07:22 | `#juridica` | Grabación de la Sesión 3 | **Publicado por Lucía** |
 | 2 sept · 07:22 | `#serivcios-sociales` | Grabación de la Sesión 5 | **Publicado por Lucía** |
 | 2 sept · 07:23 | `#talento-humano` | Grabación de la Sesión 2 | **Publicado por Lucía** |
@@ -42,6 +43,21 @@ falta la app de Slack y abrir `slack.com` en la red. Ver `GUIA-APP-SLACK.md`.
 **Los avisos del momento son de Lucía.** Un «estoy en la sala esperándolos», un cambio
 de hora, un «se cancela la de hoy»: eso es operación, no contenido, y lo lleva Lucía
 porque es quien lee el calendario. Elia no toca esos avisos.
+
+## Programar dos versiones del mismo mensaje es una trampa
+
+El 2 de septiembre quedaron programados en `#juridica` el resumen viejo (8:00) y el
+corregido (8:10), a la espera de que Sandra borrara el primero. Borró el segundo. Salió
+el desactualizado, con el bloqueo de la tarjeta de Lilibeth y su individual citada para
+ese mismo día — las dos cosas ya resueltas.
+
+**Nunca dejar dos versiones del mismo mensaje esperando en la cola.** Si un mensaje
+programado quedó mal, se pide que lo borren y se espera la confirmación antes de
+programar el reemplazo. Entre dos mensajes casi idénticos en una lista de borradores,
+equivocarse es lo normal.
+
+Se corrigió a las 8:39 con un mensaje corto en el mismo canal, señalando los dos puntos
+que cambiaron. Corregir a la vista de todos es mejor que dejar el error puesto.
 
 ## Lo programado no se puede cancelar por API
 
