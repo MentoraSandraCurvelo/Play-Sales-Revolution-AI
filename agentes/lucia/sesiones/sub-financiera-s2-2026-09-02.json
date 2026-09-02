@@ -1,0 +1,311 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SUB. ADMINISTRATIVA Y FINANCIERA",
+  "area_completa": "",
+  "sesion_num": 2,
+  "fase": "Ejercicios Prácticos",
+  "fecha": "2 de septiembre de 2026",
+  "fecha_corta": "2 septiembre 2026",
+  "subtitulo_meta": "Rafael Solano · individual · 2 de septiembre de 2026 · 11:00 a.m. · 58 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    [
+      "Área(s)",
+      "Subdirección Administrativa y Financiera — Comfacesar"
+    ],
+    [
+      "Sesión",
+      "N° 2 — Individual de Rafael Solano: automatización de la validación precontractual"
+    ],
+    [
+      "Fecha",
+      "2 de septiembre de 2026"
+    ],
+    [
+      "Hora inicio",
+      "11:00 a.m. — Colombia (sala abierta desde las 10:58 a.m.)"
+    ],
+    [
+      "Duración de la sesión",
+      "58 minutos (11:00 a.m. – 11:58 a.m.)"
+    ],
+    [
+      "Modalidad",
+      "Virtual — Microsoft Teams"
+    ],
+    [
+      "Correos Slack activados",
+      "gestiondeproveedores@comfacesar.com"
+    ],
+    [
+      "Grabación",
+      "Se publica en el canal del área"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo — Mentora IAM™ Intelligence"
+    ]
+  ],
+  "kpis": [
+    {
+      "valor": "1",
+      "etiqueta": "Participante",
+      "detalle": "Rafael José Solano Fernández"
+    },
+    {
+      "valor": "5",
+      "etiqueta": "Documentos que valida",
+      "detalle": "Procuraduría · OFAC · RUT · cédula · planilla"
+    },
+    {
+      "valor": "4",
+      "etiqueta": "Parámetros del cotejo",
+      "detalle": "Objeto · forma de pago · valor · duración"
+    },
+    {
+      "valor": "12+5",
+      "etiqueta": "Hojas del cuadro",
+      "detalle": "El seguimiento precontractual que se llena a mano"
+    },
+    {
+      "valor": "1",
+      "etiqueta": "Automatización en curso",
+      "detalle": "Correo → cotejo → cuadro → Presupuesto"
+    },
+    {
+      "valor": "0",
+      "etiqueta": "Conectores activos",
+      "detalle": "Al empezar la sesión: solo Drive"
+    }
+  ],
+  "participantes": [
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "—",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Rafael José Solano Fernández",
+      "cargo": "Gestión de Proveedores — Comfacesar",
+      "correo": "gestiondeproveedores@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Intermedio"
+    }
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 2 a partir del proceso precontractual real que se mapeó en vivo, de principio a fin.",
+  "riesgos": [
+    {
+      "titulo": "El expediente precontractual se imprime dos veces",
+      "nivel": "ALTO",
+      "descripcion": "La solicitud de elaboración de contrato se imprime y se lleva físicamente a Jurídica, junto con la documentación que se le pide en papel al proveedor y a las áreas. La razón es una política de Jurídica por el requerimiento de entes de control. El resultado es que Sub. Financiera escanea, Jurídica no imprime «por ahorro» y el expediente viaja a mano entre dos oficinas que ya tienen todo en digital.",
+      "responsable": "Sub. Financiera + Jurídica / Octubre"
+    },
+    {
+      "titulo": "Claude estaba sin configurar",
+      "nivel": "ALTO",
+      "descripcion": "El campo «acerca de ti» estaba vacío: la herramienta no sabía quién es Rafael, cuál es su rol ni qué hace en Comfacesar. El prompt de configuración se envió en la primera clase y no quedó aplicado. Sin eso, los resultados salen genéricos y los errores parecen fallas de la herramienta cuando en realidad son de configuración.",
+      "responsable": "Rafael Solano / Resuelto en sesión"
+    },
+    {
+      "titulo": "Ningún conector estaba activo",
+      "nivel": "ALTO",
+      "descripcion": "Solo aparecía Google Drive. Ni Gmail, ni Calendar, ni Slack, ni Microsoft 365. Rafael creía que conectarlos exigía plan pagado, y no es así: se conectan en la versión gratuita. Sin Gmail conectado, la automatización que se estaba construyendo no podía siquiera empezar.",
+      "responsable": "Rafael Solano / Resuelto parcialmente en sesión"
+    },
+    {
+      "titulo": "El asunto del correo no tiene forma fija",
+      "nivel": "MEDIO",
+      "descripcion": "Los requerimientos llegan de las áreas con asuntos distintos cada vez. Para que la automatización los identifique hace falta un acuerdo mínimo: que el asunto empiece siempre con la misma palabra. Es un cambio de dos líneas en un correo a las áreas, y sin él la automatización no arranca.",
+      "responsable": "Rafael Solano / Antes de la S3"
+    },
+    {
+      "titulo": "Los créditos se agotaron a mitad de la construcción",
+      "nivel": "MEDIO",
+      "descripcion": "La sesión se quedó sin créditos hasta las 4 de la tarde, justo cuando la herramienta empezaba a hacer las preguntas de precisión sobre el archivo. El plan pagado sigue sin activarse.",
+      "responsable": "Rafael Solano / Antes de la S3"
+    },
+    {
+      "titulo": "El canal de Slack no se estaba leyendo",
+      "nivel": "MEDIO",
+      "descripcion": "Rafael no sabía dónde estaba el canal de su área ni había visto lo que se publica ahí: grabaciones, actas, compromisos y recordatorios. Escribir por mensaje directo en vez de por el canal deja el mensaje fuera del circuito, porque el seguimiento del programa se hace sobre los canales.",
+      "responsable": "Rafael Solano / Resuelto en sesión"
+    },
+    {
+      "titulo": "El cuadro de seguimiento tiene 17 hojas",
+      "nivel": "BAJO",
+      "descripcion": "El libro de seguimiento precontractual tiene 12 hojas más 5 auxiliares, con tablas de Excel dentro. La herramienta lo leyó y describió su estructura antes de tocarlo, pero la complejidad del archivo condiciona cómo se automatiza.",
+      "responsable": "Rafael Solano / Sesión 3"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Dejar Claude configurado y con todo conectado",
+      "descripcion": "El «acerca de ti» con el rol y el trabajo en Comfacesar, y los conectores de Gmail, Google Drive, Calendar, Slack y Microsoft 365 — todos con el correo corporativo, no con el personal. Es la base de todo lo que viene: sin eso, el sistema de trabajo no se puede construir.",
+      "responsable": "Rafael Solano",
+      "plazo": "Antes de la Sesión 3"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Terminar la automatización de la validación precontractual",
+      "descripcion": "La herramienta quedó preguntando lo que necesita para actuar. Hay que responderle paso a paso hasta que el flujo quede completo: leer el correo, descargar la propuesta, cotejar contra el cuerpo del mensaje, marcar inconsistencias, diligenciar el cuadro y dejar listo el envío a Presupuesto.",
+      "responsable": "Rafael Solano",
+      "plazo": "Antes de la Sesión 3"
+    },
+    {
+      "num": "03",
+      "nivel": "MEDIO",
+      "titulo": "Acordar con las áreas el asunto del correo",
+      "descripcion": "Pedirles que el asunto de la solicitud empiece siempre con la misma palabra. Es lo que permite que la automatización identifique el correo sin equivocarse. Un correo corto a las áreas lo resuelve.",
+      "responsable": "Rafael Solano",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Llevar a Jurídica la conversación del expediente físico",
+      "descripcion": "Las dos áreas están en el programa y las dos imprimen y escanean el mismo expediente. Vale la pena revisarlo junto con Jurídica antes de automatizar cada lado por separado: es un solo proceso partido en dos.",
+      "responsable": "Sandra + Rafael + equipo Jurídica",
+      "plazo": "Octubre"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Revisión de la validación documental que Rafael ya tenía andando",
+      "duracion": "~15 min",
+      "objetivo": "Ver el trabajo que trajo hecho: el proyecto de solicitud de elaboración de contrato, y entender hasta dónde llegó por su cuenta.",
+      "pasos": [
+        "Revisar el método CREA del proyecto en los tres puntos → Editar detalles",
+        "Sobre la justificación técnica cargada, la herramienta produjo el análisis documental completo",
+        "Verificó certificado de Procuraduría, OFAC, RUT, cédula y planilla de seguridad social",
+        "Construyó una matriz de consistencia cruzando NIT, RUT, cámara de comercio y razón social",
+        "Marcó hallazgos, documentos faltantes, observaciones, riesgo y acción",
+        "Generó el borrador del formato oficial de solicitud de elaboración de contrato",
+        "Detectado en la revisión: ese formato se imprime y se lleva en físico a Jurídica"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Automatizar el cotejo entre el requerimiento y la propuesta",
+      "duracion": "~30 min",
+      "objetivo": "Ir un paso más atrás del punto donde Rafael empezaba: desde el correo que llega, no desde el documento ya descargado.",
+      "pasos": [
+        "Abrir una consulta nueva dentro del mismo proyecto — el cotejo es otro paso del proceso, no la misma conversación",
+        "Instruir: entrar al correo y seleccionar los mensajes cuyo asunto empiece por la palabra acordada",
+        "Explicarle qué significan esos correos: un requerimiento para un posible contrato, con una cotización adjunta",
+        "Descargar el adjunto y cotejarlo contra lo que dice el cuerpo del correo",
+        "Dar los parámetros del cotejo: objeto, forma de pago, valor y duración",
+        "Cargar al contexto del proyecto el cuadro de seguimiento precontractual",
+        "Instruir que las inconsistencias se corrigen y se diligencian en ese cuadro, nombrándolo",
+        "Cerrar el paso: el cuadro diligenciado se envía a la oficina de Presupuesto",
+        "Pedirle además una propuesta de mejora del Excel, sin modificar el original",
+        "Añadir la instrucción que evita el trabajo mal hecho: si no entiendes algo, pregúntamelo",
+        "La herramienta respondió leyendo el archivo —12 hojas y 5 auxiliares— y pidiendo confirmar el filtro antes de tocar nada"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 2 · 2 septiembre 2026",
+      "titulo": "La validación precontractual, de principio a fin",
+      "descripcion": "Hoy Rafael recibe el requerimiento por correo, descarga la propuesta, la coteja a mano contra lo que pide el área, corrige en su cuadro de seguimiento y arma el envío a Presupuesto. El flujo que quedó en construcción hace ese recorrido completo y le deja solo la decisión: revisar lo que se marcó y aprobar. Es el mismo patrón que ya funciona en Sub. Operativa con la revisión de costeos.",
+      "estado": "En construcción — la herramienta ya está preguntando lo que necesita para actuar",
+      "proximo_paso": "Responder sus preguntas hasta cerrar el flujo, con Claude configurado y Gmail conectado",
+      "target": "Sesión 3"
+    },
+    {
+      "encabezado": "OPORTUNIDAD PROBADA · SESIÓN 2 · 2 septiembre 2026",
+      "titulo": "La matriz de consistencia documental ya funciona",
+      "descripcion": "Rafael la construyó por su cuenta antes de esta sesión: sobre la documentación de un proveedor, la herramienta verifica Procuraduría, OFAC, RUT, cédula y planilla, cruza NIT, RUT, cámara de comercio y razón social, y devuelve hallazgos, documentos faltantes y acciones. Es el control que antes se hacía documento por documento.",
+      "estado": "Funcionando, construido por él fuera de sesión",
+      "proximo_paso": "Enlazarlo con el cotejo del correo para que sea un solo flujo",
+      "target": "Sesión 3"
+    },
+    {
+      "encabezado": "OPORTUNIDAD IDENTIFICADA · SESIÓN 2 · 2 septiembre 2026",
+      "titulo": "El expediente que viaja en papel entre dos áreas del programa",
+      "descripcion": "Sub. Financiera arma el expediente, lo escanea, lo imprime y lo lleva a Jurídica; Jurídica lo recibe en físico por política de entes de control. Las dos áreas están en el programa y las dos ya trabajan sobre lo mismo en digital. Revisarlo entre las dos, con la política a la vista, es una conversación que ninguna de las dos puede tener sola.",
+      "estado": "Detectado en sesión, sin dueño todavía",
+      "proximo_paso": "Ponerlo sobre la mesa con Jurídica antes de automatizar cada lado por separado",
+      "target": "Octubre"
+    }
+  ],
+  "tareas_intro": "Rafael llegó con trabajo hecho por su cuenta, y eso es lo que permitió avanzar rápido. Lo que frenó la sesión no fue el ejercicio sino la configuración: media hora se fue en conectar lo que debía estar conectado desde la primera clase.",
+  "tareas": [
+    {
+      "tarea": "Completar el «acerca de ti» en la configuración, con el rol y el trabajo en Comfacesar",
+      "responsable": "Rafael Solano",
+      "prioridad": "URGENTE",
+      "plazo": "Antes de S3"
+    },
+    {
+      "tarea": "Conectar Gmail, Google Drive, Calendar, Slack y Microsoft 365 — con el correo corporativo",
+      "responsable": "Rafael Solano",
+      "prioridad": "URGENTE",
+      "plazo": "Antes de S3"
+    },
+    {
+      "tarea": "Terminar la automatización respondiendo las preguntas que dejó planteadas la herramienta",
+      "responsable": "Rafael Solano",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S3"
+    },
+    {
+      "tarea": "Pedir a las áreas que el asunto del correo de solicitud empiece siempre con la misma palabra",
+      "responsable": "Rafael Solano",
+      "prioridad": "ALTA",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Descargar Claude de escritorio y mantener también la versión web",
+      "responsable": "Rafael Solano",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S3"
+    },
+    {
+      "tarea": "Crear en Google la carpeta de herramientas de IA con Slack, ChatGPT y Claude dentro",
+      "responsable": "Rafael Solano",
+      "prioridad": "MEDIA",
+      "plazo": "Antes de S3"
+    },
+    {
+      "tarea": "Activar el plan pagado",
+      "responsable": "Rafael Solano",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S3"
+    },
+    {
+      "tarea": "Usar el canal del área para todo lo del proyecto, no el mensaje directo",
+      "responsable": "Rafael Solano",
+      "prioridad": "ALTA",
+      "plazo": "Permanente"
+    }
+  ],
+  "observaciones": [
+    "Rafael llegó con el proyecto montado y con un ejercicio funcionando que construyó por su cuenta: la validación documental de proveedores con matriz de consistencia. No empezó de cero, y eso cambió el ritmo de la sesión.",
+    "El proceso que mapeó es el más completo que ha aparecido en el programa: entra un correo con un requerimiento y una propuesta, se cotejan, se corrige en un cuadro propio, se pide el origen de recursos a Presupuesto y termina en un expediente que va a Jurídica.",
+    "La herramienta hizo lo correcto antes de actuar: leyó el archivo, describió su estructura —12 hojas y 5 auxiliares, con tablas de Excel— y pidió confirmar el criterio del filtro en vez de suponerlo.",
+    "Media hora de la sesión se fue en configuración que debía estar hecha desde la primera clase. No es un detalle administrativo: sin el «acerca de ti» y sin conectores, lo que viene después no se puede construir.",
+    "Rafael creía que conectar Gmail y los demás servicios exigía plan pagado. No es así, se conectan en la versión gratuita. Vale la pena verificar si esa misma idea está frenando a otras áreas.",
+    "No estaba usando el canal del área en Slack: no había visto las grabaciones, las actas ni los recordatorios. Quedó explicado que el seguimiento del programa se hace sobre los canales y que un mensaje directo queda fuera del circuito.",
+    "El expediente físico entre Sub. Financiera y Jurídica apareció sin buscarlo. Las dos áreas están en el programa, y ninguna de las dos puede cambiar sola una política que existe por los entes de control."
+  ],
+  "proxima_sesion": {
+    "sesion": "Sub. Administrativa y Financiera — Sesión 3",
+    "condiciones": [
+      "Claude configurado y con todos los conectores activos",
+      "La automatización del cotejo terminada, o avanzada hasta donde se pueda",
+      "Claude de escritorio instalado",
+      "Acuerdo con las áreas sobre el asunto del correo"
+    ],
+    "agendamiento": [
+      "Rafael agendó la siguiente sesión desde el enlace del canal",
+      "Sandra pidió agendar varias sesiones seguidas mientras dura la construcción",
+      "Sandra disponible en exclusiva para Comfacesar hasta finales de octubre"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 2 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

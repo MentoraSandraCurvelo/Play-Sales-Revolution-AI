@@ -24,6 +24,15 @@ Durante el día
 
 ## Horario y recordatorios
 
+**Los días cargados van a dos cortes.** Cuando Sandra tiene muchas sesiones seguidas,
+sube los archivos a la **1:00 p. m.** y otra vez a las **6:00 p. m.**, y Lucía hace una
+corrida sobre cada tanda en vez de esperar a la noche con todo junto. Acordado el 2 de
+septiembre para el jueves 3, que trae cinco sesiones.
+
+Lo que cambia es el momento de armar, no el de publicar: los resúmenes de las dos tandas
+salen igual a las 8:00 de la mañana siguiente. La ventaja es que la tanda del mediodía
+queda revisada cuando todavía hay margen para corregirla.
+
 **Publica solo entre 8:00 a.m. y 5:00 p.m.** El acta se arma en la corrida de las 7:00 p.m.
 y se **programa** para las 8:00 a.m. del día siguiente. Slack permite programar mensajes
 en la versión gratuita, así que no hace falta que nadie esté despierto.

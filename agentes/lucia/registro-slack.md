@@ -22,6 +22,8 @@
 | 2 sept · 08:40 | `#juridica` | Resumen de la Sesión 3, ya correcto | **Publicado por Lucía** |
 | 2 sept · 18:31 | `#contabilidad` | Grabación de la individual de Carlos | **Publicado por Lucía** |
 | 2 sept · 18:31 | `#sub-admin-y-financiera-infraestructura` | Grabación de la individual de Rafael | **Publicado por Lucía** |
+| 3 sept · 08:00 | `#sub-admin-y-financiera-infraestructura` | Resumen de la Sesión 2 de Rafael | **Programado** `Dr0BUJNUSBL6` |
+| 3 sept · 08:01 | `#contabilidad` | Resumen de la Sesión 4 de Carlos | **Programado** `Dr0BUEE1F5FD` |
 | 2 sept · 08:01 | `#serivcios-sociales` | Resumen de la Sesión 5 | **Programado** `Dr0BU4SRNYTD` |
 | 2 sept · 08:02 | `#talento-humano` | Resumen de la Sesión 2 | **Programado** `Dr0BV5FH1C6L` |
 | 2 sept · 08:03 | `#contabilidad` | Resumen de la individual de Lisbeth | **Programado** `Dr0BTVP19MCP` |

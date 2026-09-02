@@ -1,0 +1,316 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "CONTABILIDAD",
+  "area_completa": "Sesión individual",
+  "sesion_num": 4,
+  "fase": "Ejercicios Prácticos",
+  "fecha": "2 de septiembre de 2026",
+  "fecha_corta": "2 septiembre 2026",
+  "subtitulo_meta": "Carlos Lozano · 2 de septiembre de 2026 · 2:08 p.m. · 52 min · Híbrida — Microsoft Teams",
+  "datos_sesion": [
+    [
+      "Área(s)",
+      "Contabilidad — Comfacesar"
+    ],
+    [
+      "Sesión",
+      "N° 4 — Individual de Carlos Lozano: reporte de legalizaciones y Claude dentro de Excel"
+    ],
+    [
+      "Fecha",
+      "2 de septiembre de 2026"
+    ],
+    [
+      "Hora inicio",
+      "2:08 p.m. — Colombia (sala abierta desde las 2:07 p.m.)"
+    ],
+    [
+      "Duración de la sesión",
+      "52 minutos (2:08 p.m. – 3:00 p.m.)"
+    ],
+    [
+      "Modalidad",
+      "Híbrida — Sandra virtual, Carlos y Lisbeth desde la oficina de Contabilidad"
+    ],
+    [
+      "Correos Slack activados",
+      "asistentecontabilidad@comfacesar.com · contabilidad@comfacesar.com"
+    ],
+    [
+      "Grabación",
+      "Se publica en el canal del área"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo — Mentora IAM™ Intelligence"
+    ]
+  ],
+  "kpis": [
+    {
+      "valor": "3",
+      "etiqueta": "Rangos de antigüedad",
+      "detalle": "0-30 · 30-89 · más de 90 días"
+    },
+    {
+      "valor": "2022",
+      "etiqueta": "Partida más antigua",
+      "detalle": "Legalizaciones pendientes desde ese año"
+    },
+    {
+      "valor": "1",
+      "etiqueta": "Reporte cerrado",
+      "detalle": "Terminado por Carlos fuera de sesión"
+    },
+    {
+      "valor": "3",
+      "etiqueta": "Entregables encadenados",
+      "detalle": "Reporte · acta · correo"
+    },
+    {
+      "valor": "1",
+      "etiqueta": "Herramienta nueva",
+      "detalle": "Claude dentro de Excel"
+    },
+    {
+      "valor": "0",
+      "etiqueta": "Conectores corporativos",
+      "detalle": "Gmail estaba con la cuenta personal"
+    }
+  ],
+  "participantes": [
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "—",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Carlos Daniel Lozano Sanjuán",
+      "cargo": "Asistente de Contabilidad — Comfacesar",
+      "correo": "asistentecontabilidad@comfacesar.com",
+      "modalidad": "Presencial",
+      "nivel": "Avanzado"
+    },
+    {
+      "nombre": "Lisbeth Cuadrado Herrera",
+      "cargo": "Contabilidad — Comfacesar",
+      "correo": "contabilidad@comfacesar.com",
+      "modalidad": "Presencial",
+      "nivel": "Intermedio"
+    }
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 4 a partir del reporte de legalizaciones pendientes y del montaje de Claude dentro de Excel.",
+  "riesgos": [
+    {
+      "titulo": "Hay legalizaciones pendientes desde 2022",
+      "nivel": "CRITICO",
+      "descripcion": "El reporte agrupado por tercero dejó a la vista partidas sin legalizar de 2022, 2024 y 2025, todas en estado crítico por superar los 90 días. No es un hallazgo de la herramienta sino del dato: estaban ahí, repartidas entre terceros, y el reporte anterior no permitía verlas juntas.",
+      "responsable": "Contabilidad / Inmediato"
+    },
+    {
+      "titulo": "Gmail estaba conectado con la cuenta personal",
+      "nivel": "ALTO",
+      "descripcion": "El conector de correo apuntaba a la cuenta personal de Carlos, no a la de Comfacesar, y todo se estaba trabajando en Firefox. El sistema que se está construyendo se conecta al entorno corporativo: si los conectores apuntan a otra cuenta, lo que se automatice va a leer el buzón equivocado.",
+      "responsable": "Carlos Lozano / Resuelto en sesión"
+    },
+    {
+      "titulo": "El modelo del acta vive solo en el servidor de la empresa",
+      "nivel": "ALTO",
+      "descripcion": "El archivo del acta está en el servidor interno y no se pudo abrir ni desde la herramienta ni desde el propio computador. Hubo que trabajar con una copia que estaba en el correo. Lo que no está en un entorno accesible no entra en ninguna automatización.",
+      "responsable": "Carlos Lozano + TI / Antes de la S5"
+    },
+    {
+      "titulo": "El puesto de trabajo frena el ejercicio",
+      "nivel": "MEDIO",
+      "descripcion": "El micrófono no funciona —Carlos escucha pero no puede hablar ni dictar— y el computador se satura al trabajar con varias ventanas. En una sesión práctica eso se traduce en minutos perdidos y en instrucciones escritas a mano que se podrían dictar.",
+      "responsable": "Comfacesar — TI / Antes de la S5"
+    },
+    {
+      "titulo": "La conexión al sistema contable no depende del área",
+      "nivel": "MEDIO",
+      "descripcion": "Carlos lo planteó con claridad: conectar el sistema de la caja no es una decisión de Contabilidad, requiere autorización. Es correcto, y por eso el orden importa: primero el proceso definido y el equipo sólido, después la conexión por API con Tecnología.",
+      "responsable": "Comfacesar — TI + equipo IAM™ / Octubre"
+    },
+    {
+      "titulo": "La configuración de Lisbeth está sin revisar",
+      "nivel": "MEDIO",
+      "descripcion": "Quedó dicho en sesión que hay que revisar también el entorno de Lisbeth. Si el área avanza con un puesto configurado y el otro no, el trabajo compartido se rompe en el primer archivo que se cruce.",
+      "responsable": "Lisbeth Cuadrado / Antes de la S5"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "CRITICO",
+      "titulo": "Depurar las legalizaciones críticas de 2022 en adelante",
+      "descripcion": "El reporte ya las tiene identificadas por tercero, con el saldo pendiente y los días de vencimiento. Es el primer listado que permite atacarlas una por una en vez de descubrirlas de a poco.",
+      "responsable": "Contabilidad",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Dejar los conectores con el correo corporativo y trabajar en Chrome",
+      "descripcion": "Gmail, Google Drive, Calendar y Slack, todos con la cuenta de Comfacesar. Y el trabajo en Chrome: el esquema que se está montando no funciona igual en otros navegadores.",
+      "responsable": "Carlos Lozano",
+      "plazo": "Antes de la Sesión 5"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Terminar el acta automática y dejar avanzado el correo",
+      "descripcion": "El acta se genera a partir del modelo y del reporte ya cerrado. Después viene el correo: redactarlo como el ejemplo, a las direcciones que están en el acta, con los tres archivos adjuntos, y que quede en borrador hasta que Carlos apruebe.",
+      "responsable": "Carlos Lozano",
+      "plazo": "Antes de la Sesión 5"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Instalar el complemento también en Word y PowerPoint",
+      "descripcion": "El de Excel quedó instalado y funcionando en sesión. Con los tres, el trabajo se hace dentro del documento y se acaba el ciclo de descargar, subir y volver a descargar.",
+      "responsable": "Carlos Lozano",
+      "plazo": "Antes de la Sesión 5"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El reporte de legalizaciones pendientes, terminado",
+      "duracion": "~15 min",
+      "objetivo": "Revisar el reporte que Carlos cerró por su cuenta después de la sesión anterior y afinar lo que faltaba.",
+      "pasos": [
+        "El primer resultado no le gustó: agrupaba todo sin separar por tercero y sin saldos",
+        "Le dio especificaciones más detalladas y, sobre todo, contexto: le pasó el reporte de julio como el resultado al que tenía que llegar",
+        "El nuevo reporte agrupa por tercero, con el saldo pendiente de cada uno y el detalle de qué legalizaciones tiene abiertas",
+        "La herramienta definió por su cuenta los rangos de antigüedad: hasta 30 días manejable, de 30 a 89 pendiente, más de 90 crítico",
+        "Generó además una tabla aparte con las legalizaciones que recibieron abonos pero no se cerraron",
+        "Carlos verificó esa tabla contra los datos de julio: los saldos y los códigos coinciden",
+        "Mejora trabajada en vivo: quitar el nombre del color y poner el estado y los días de vencimiento, en todo el archivo y también en los gráficos"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Claude dentro de Excel, y el encadenamiento hacia el acta",
+      "duracion": "~35 min",
+      "objetivo": "Salir del ciclo de descargar y subir archivos, y encadenar el reporte con los dos entregables que vienen después.",
+      "pasos": [
+        "Instalar el complemento de Claude en Excel desde Complementos → buscar Claude → Agregar",
+        "Autorizar la conexión con el código que entrega la aplicación",
+        "Trabajar los gráficos directamente sobre la hoja, sin descargar nada",
+        "Revisar los conectores: Gmail apuntaba a la cuenta personal — desconectar y volver a conectar con el correo corporativo",
+        "Agregar una carpeta del computador a la consulta, para que la herramienta lea de ahí en vez de subir archivos",
+        "Encadenar el siguiente entregable: a partir del reporte cerrado y del modelo, generar el acta de legalizaciones",
+        "Y el siguiente: redactar el correo a las direcciones que están en el acta, siguiendo un ejemplo, con los tres archivos adjuntos y en borrador hasta la aprobación",
+        "Pedir además un HTML con toda la información, con pestañas para segmentar por año, cartera y días vencidos, y un gráfico por cada segmentación",
+        "Habilidades: el superpoder que se configura una vez y se agrega desde el botón +, a diferencia del método CREA que es propio de cada proyecto"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "RESULTADO CERRADO · SESIÓN 4 · 2 septiembre 2026",
+      "titulo": "El reporte de legalizaciones quedó como el área lo necesita",
+      "descripcion": "Carlos lo terminó solo, entre una sesión y la otra, y lo hizo de la única manera que funciona: no le pidió otra cosa, le dio contexto. Le pasó el reporte de julio como referencia del resultado esperado y afinó la instrucción hasta que la estructura coincidió con la del área. Hoy agrupa por tercero, muestra el saldo pendiente de cada uno, clasifica por antigüedad y separa las legalizaciones con abonos parciales.",
+      "estado": "Verificado por él contra los datos reales de julio",
+      "proximo_paso": "Que Lisbeth le dé el visto bueno y registrarlo en el tablero del canal con la medición",
+      "target": "Sesión 5"
+    },
+    {
+      "encabezado": "HALLAZGO EN SESIÓN 4 · 2 septiembre 2026",
+      "titulo": "Legalizaciones sin cerrar desde 2022",
+      "descripcion": "Al agrupar por tercero y clasificar por antigüedad quedaron a la vista partidas pendientes de 2022, 2024 y 2025, todas por encima de los 90 días. Antes estaban repartidas y no se veían juntas. El reporte no las creó: las hizo visibles, con nombre y saldo.",
+      "estado": "Identificadas y cuantificadas",
+      "proximo_paso": "Depurarlas una por una a partir del listado",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 4 · 2 septiembre 2026",
+      "titulo": "Del reporte al correo, sin volver a tocar el dato",
+      "descripcion": "El proceso completo del área es reporte, acta y correo con tres adjuntos. Las tres piezas salen del mismo dato, y hoy se hacen una por una. Encadenadas, el trabajo se reduce a revisar y aprobar: el borrador del correo espera el visto bueno antes de salir.",
+      "estado": "Acta en construcción, correo planteado como tarea",
+      "proximo_paso": "Modelar el acta hasta que quede, y dejar el correo avanzado",
+      "target": "Sesión 5"
+    }
+  ],
+  "tareas_intro": "Carlos llegó con el ejercicio terminado por su cuenta, y por eso la sesión pudo dedicarse a lo que sigue. Ese es el ritmo que hace avanzar: la sesión sirve para lo que no se pudo resolver solo.",
+  "tareas": [
+    {
+      "tarea": "Modelar el acta hasta que quede como el área la necesita",
+      "responsable": "Carlos Lozano",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S5"
+    },
+    {
+      "tarea": "Dejar avanzada la automatización del correo con los tres adjuntos, en borrador hasta aprobar",
+      "responsable": "Carlos Lozano",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S5"
+    },
+    {
+      "tarea": "Reconectar Gmail, Drive, Calendar y Slack con el correo corporativo, y trabajar en Chrome",
+      "responsable": "Carlos Lozano",
+      "prioridad": "URGENTE",
+      "plazo": "Antes de S5"
+    },
+    {
+      "tarea": "Instalar el complemento de Claude en Word y en PowerPoint",
+      "responsable": "Carlos Lozano",
+      "prioridad": "MEDIA",
+      "plazo": "Antes de S5"
+    },
+    {
+      "tarea": "Mostrar el HTML que quedó generándose y decidir si sirve al área",
+      "responsable": "Carlos Lozano",
+      "prioridad": "MEDIA",
+      "plazo": "Sesión 5"
+    },
+    {
+      "tarea": "Revisar la configuración y los conectores del puesto de Lisbeth",
+      "responsable": "Lisbeth Cuadrado",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S5"
+    },
+    {
+      "tarea": "Resolver el micrófono del puesto de Carlos",
+      "responsable": "Comfacesar — TI",
+      "prioridad": "MEDIA",
+      "plazo": "Antes de S5"
+    },
+    {
+      "tarea": "Depurar las legalizaciones críticas de 2022, 2024 y 2025 con el listado por tercero",
+      "responsable": "Contabilidad",
+      "prioridad": "URGENTE",
+      "plazo": "Inmediato"
+    },
+    {
+      "tarea": "Agendar varias sesiones en la semana, como pidió Sandra",
+      "responsable": "Equipo Contabilidad",
+      "prioridad": "ALTA",
+      "plazo": "Esta semana"
+    }
+  ],
+  "observaciones": [
+    "Carlos cerró el reporte por su cuenta entre las dos sesiones. No le pidió a la herramienta otra cosa: le dio el reporte de julio como referencia del resultado esperado. Dar contexto en vez de repetir la orden es exactamente lo que el programa busca enseñar, y él llegó ahí solo.",
+    "Verificó el resultado contra los datos reales antes de darlo por bueno: buscó varias partidas de la tabla de julio y confirmó saldos y códigos. Esa verificación es lo que separa un reporte utilizable de uno bonito.",
+    "Lisbeth estuvo presente en la oficina durante la sesión, aunque el reporte de asistencia de Teams solo registra la cuenta de Carlos. Es el mismo caso de las sesiones anteriores del área, con los papeles invertidos.",
+    "El complemento de Claude quedó instalado dentro de Excel y funcionando. Es un cambio de fondo en cómo trabaja el área: se acabó el ciclo de descargar el archivo, subirlo a la herramienta y volver a descargarlo.",
+    "Aparecieron dos límites del entorno, no de la herramienta: el modelo del acta vive en el servidor interno y no se pudo abrir, y el computador se satura con varias ventanas abiertas. Hubo que trabajar con una copia del acta que estaba en el correo.",
+    "Carlos planteó bien el límite de la conexión al sistema contable: no depende de Contabilidad. Es una autorización que pasa por Tecnología, y se hace por API cuando el proceso esté definido.",
+    "Quedó pendiente que Lisbeth dé el visto bueno al reporte antes de registrarlo en el tablero del canal. El registro se hace sobre lo validado, no sobre lo que salió."
+  ],
+  "proxima_sesion": {
+    "sesion": "Contabilidad — Sesión 5",
+    "condiciones": [
+      "Acta modelada y lista para revisión",
+      "Automatización del correo avanzada",
+      "Conectores con el correo corporativo y trabajo en Chrome",
+      "Complemento instalado en Word y PowerPoint"
+    ],
+    "agendamiento": [
+      "Carlos dijo que agendaría para el viernes",
+      "Sandra pidió varias sesiones en la semana para sacar más ejercicios",
+      "Sandra disponible en exclusiva para Comfacesar hasta finales de octubre"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 2 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
