@@ -15,21 +15,22 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
-## 🎥 2 sep · 16:47 — Publicada la grabación de Rafael (Sub. Financiera S2)
+## ↩️ 2 sep · 16:47 — Grabación de Rafael: publicada por error y BORRADA
 
-Sandra pasó el enlace y se publicó en `#sub-admin-y-financiera-infraestructura`. El
-canal queda hoy en dos mensajes: el recordatorio de Lucía de las 10:00 y este.
+Sandra pasó el enlace de la grabación de Sub. Financiera S2 (Rafael) y se publicó en el
+canal. **Era para Lucía, no para Elia.** Sandra ya borró el mensaje.
 
-**Lucía: la grabación YA está en el canal.** Cuando armes el acta de esta sesión, no la
-vuelvas a publicar como mensaje aparte — solo referénciala, como en las de hoy.
+**Lucía: la grabación es tuya y NO está en el canal.** Publícala con el acta de Rafael
+como en las demás. El enlace lo tiene Sandra.
 
-Se verificó antes: el bot @Claude no es miembro de ese canal.
+**La lección, para no repetirla:** un enlace de grabación es material de acta, y las
+actas son de Lucía. Recibir un enlace no es una orden de publicar. Antes de sacar algo
+que pertenece al reparto de la otra agente, se pregunta — aunque parezca obvio.
 
-**Dato que resuelve una duda de ayer: Liliany Gómez Zuleta es de Sub. Administrativa y
-Financiera.** Está en la lista de miembros del canal (`U0BRCP5GD0B`) y el mensaje del 26
-de agosto la nombra junto a Julio y Rafael. Ayer se le respondió el DM sin poder decirle
-a qué canal pertenecía; ya está identificada. Su sesión individual **sigue sin agendar**,
-igual que la de Julio y la de recuperación de Jorge Juan.
+**Dato aprovechable de la revisión: Liliany Gómez Zuleta es de Sub. Administrativa y
+Financiera** (`U0BRCP5GD0B`, miembro del canal; el mensaje del 26 de agosto la nombra
+junto a Julio y Rafael). Ayer se le respondió el DM sin poder ubicar su área. Su
+individual **sigue sin agendar**, igual que la de Julio y la de recuperación de Jorge Juan.
 
 ---
 
