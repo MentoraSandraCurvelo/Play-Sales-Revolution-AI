@@ -23,6 +23,8 @@
 | 2 sept · 08:03 | `#contabilidad` | Resumen de la individual de Lisbeth | **Programado** `Dr0BTVP19MCP` |
 | 2 sept · 08:04 | `#sub-operativa` | Resumen de la Sesión 3 | **Programado** `Dr0BU96C7WGN` |
 | 2 sept · 08:05 | `#juridica` | Recordatorio · individual de Lilibeth, 9:00 | ⚠️ **Equivocado** — la movió al lunes 7. Solo Sandra lo puede borrar |
+| 2 sept · 06:30 | los cinco canales | **Los cinco PDF, subidos por Sandra** | **Publicado** |
+| 2 sept · 08:10 | `#juridica` | Resumen corregido de la Sesión 3 | **Programado** `Dr0BUD8ESSG6` |
 | 2 sept · 09:00 | `#comunicaciones` | Recordatorio · Ambassadors con María Elvira, 10:00 | **Programado** `Dr0BUB3SPUFL` |
 | 2 sept · 10:00 | `#sub-admin-y-financiera-infraestructura` | Recordatorio · individual de Rafael, 11:00 | **Programado** `Dr0BUD241LKB` |
 | 2 sept · 13:00 | `#contabilidad` | Recordatorio · individual de Carlos, 14:00 | **Programado** `Dr0BU6T13DJR` |
@@ -62,6 +64,16 @@ agota el cupo del día en los dos. Elia no publica ahí el miércoles.
 
 **Cumplimiento no lleva recordatorio** aunque la cita siga en el calendario: la sesión
 del miércoles a las 4:00 p. m. está cancelada. Ver `cancelaciones.json`.
+
+## Un adjunto sin texto se lee como un mensaje vacío
+
+El 2 de septiembre a las 6:30 Sandra subió los cinco PDF, uno por canal, sin escribir
+nada en el mensaje. Al leer el canal en formato conciso, el conector devolvió cinco
+mensajes con texto vacío y Lucía los reportó como enters sueltos. **No lo eran: eran
+las actas.**
+
+Para ver los adjuntos hay que leer el canal en formato `detailed`. Antes de decir que un
+mensaje está vacío, releerlo así.
 
 ## Actas listas, sin publicar
 
