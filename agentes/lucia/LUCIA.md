@@ -174,17 +174,20 @@ Nada más. El mensaje queda en el canal, es buscable y no caduca.
 > quedó bloqueado y las tareas con responsable y plazo. **No promete adjuntos que
 > después nadie sube:** si el CSV o la grabación no van, no se mencionan.
 
-**La grabación es el eslabón que falta, y hoy depende de Sandra.** Las grabaciones sí
-son visibles desde aquí: `sharepoint_folder_search` con el nombre `Recordings` devuelve
-la carpeta de OneDrive con todas, incluida la de cada sesión del programa. Lo que no hay
-es forma de **crear el enlace para compartir**: el conector de Microsoft no expone esa
-operación, y el `webUrl` que devuelve Graph es un enlace de formulario que no le sirve al
-equipo de Comfacesar.
+**La grabación va en el canal, como mensaje.** Es como se ha hecho desde agosto y
+funciona: Sandra genera el enlace desde Teams o desde OneDrive y Lucía lo publica en el
+canal del área, junto al acta. En la fila «Grabación» de los datos de la sesión el acta
+dice **«Se publica en el canal del área»** — nunca «Pendiente», porque no está pendiente
+de nada.
 
-Así que el enlace lo genera Sandra desde Teams o desde OneDrive, y **tiene que llegar
-antes de la corrida de las 7:00 p. m.** — así entra dentro del acta, en la fila
-«Grabación» de los datos de la sesión, en vez de quedar como un mensaje suelto después.
-Si llega tarde, Lucía lo publica como mensaje aparte en el canal.
+**El PDF se sube una sola vez y no se vuelve a tocar.** Meter el enlace dentro del
+documento obliga a regenerarlo y a que Sandra lo reemplace en el canal y en Dropbox. Eso
+es reproceso y no aporta nada: el equipo busca la grabación en el canal, no dentro del
+PDF. Se intentó el 2 de septiembre y se devolvió el mismo día.
+
+Las grabaciones sí se ven desde aquí —`sharepoint_folder_search` con el nombre
+`Recordings`— pero el conector de Microsoft no permite **crear** el enlace para
+compartir, así que ese paso sigue siendo de Sandra.
 
 **El orden importa: primero el mensaje, después el PDF.** Lucía programa el resumen
 para las 8:00 y Sandra suelta el PDF encima cuando lo ve. Al revés se lee mal — el
