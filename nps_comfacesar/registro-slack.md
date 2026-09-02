@@ -15,6 +15,38 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📌 2 sep · 07:25 — Corrección: las actas SÍ estaban en los canales
+
+La corrida automática del Termómetro obligó a releer los canales, y ahí apareció un
+error del corte de las 6:50: se dijo que las cinco actas seguían sin publicarse en
+Slack. **Falso.** Sandra las subió entre las **6:30 y las 6:39**, veinte minutos antes
+de ese corte. Se miró Dropbox y no se leyeron los canales — exactamente el falso
+negativo contra el que advierte la rutina.
+
+| Canal | Publicado hoy 6:30 |
+|---|---|
+| `#juridica` | ACTA_Sesion3_Juridica_31agosto2026.pdf |
+| `#serivcios-sociales` | ACTA_Sesion5_ServiciosSociales_31agosto2026.pdf |
+| `#talento-humano` | ACTA_Sesion2_TalentoHumano_1septiembre2026.pdf |
+| `#contabilidad` | ACTA_Sesion3_Contabilidad_1septiembre2026.pdf |
+| `#sub-operativa` | ACTA_Sesion3_SubOperativaYComercial_1septiembre2026.pdf |
+
+**Lo que sí falta en los canales:** el informe de asistencia y el enlace de la grabación
+de las cinco. Salieron como PDF suelto, sin el texto que en actas anteriores llevaba la
+grabación dentro. El tablero se republicó a las 7:25 declarando la corrección.
+
+## 📌 EL BOT YA SALIÓ DE LOS CUATRO CANALES
+
+Verificado uno por uno: **@Claude no es miembro de `#juridica`, `#talento-humano`,
+`#educacion` ni `#subsidio`.** Abandonó Talento Humano el 1 de septiembre a las 9:41 y
+Jurídica a las 19:27; en Educación y Subsidio ya no aparece en la lista de miembros.
+
+**Se levanta la restricción:** se puede volver a publicar por API en esos cuatro
+canales. Era el bloqueo que impedía escribirle a Educación, que lleva nueve días parada
+y sin fecha.
+
+---
+
 ## 📌 Miércoles 2 sep · 06:50 — Termómetro actualizado a mano, a pedido de Sandra
 
 Se republicó el tablero fuera de la corrida automática. Mismo enlace de siempre.
