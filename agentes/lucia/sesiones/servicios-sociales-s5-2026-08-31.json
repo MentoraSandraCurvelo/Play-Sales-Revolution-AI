@@ -9,28 +9,97 @@
   "fecha_corta": "31 agosto 2026",
   "subtitulo_meta": "31 de agosto de 2026 · 3:29 p.m. · 40 min · Virtual — Microsoft Teams",
   "datos_sesion": [
-    ["Área(s)", "Servicios Sociales — Comfacesar"],
-    ["Sesión", "N° 5 — Cierre del modelamiento y apertura de habilidades, cowork y agentes"],
-    ["Fecha", "31 de agosto de 2026"],
-    ["Hora inicio", "3:29 p.m. — Colombia"],
-    ["Duración de la sesión", "40 minutos (3:29 p.m. – 4:10 p.m.)"],
-    ["Modalidad", "Virtual — Microsoft Teams"],
-    ["Correos Slack activados", "pro_juniorss@comfacesar.com · serviciossociales@comfacesar.com"],
-    ["Grabación", "Pendiente — se adjunta al publicar el acta en el canal"],
-    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+    [
+      "Área(s)",
+      "Servicios Sociales — Comfacesar"
+    ],
+    [
+      "Sesión",
+      "N° 5 — Cierre del modelamiento y apertura de habilidades, cowork y agentes"
+    ],
+    [
+      "Fecha",
+      "31 de agosto de 2026"
+    ],
+    [
+      "Hora inicio",
+      "3:29 p.m. — Colombia"
+    ],
+    [
+      "Duración de la sesión",
+      "40 minutos (3:29 p.m. – 4:10 p.m.)"
+    ],
+    [
+      "Modalidad",
+      "Virtual — Microsoft Teams"
+    ],
+    [
+      "Correos Slack activados",
+      "pro_juniorss@comfacesar.com · serviciossociales@comfacesar.com"
+    ],
+    [
+      "Grabación",
+      "https://netorg20780382-my.sharepoint.com/:v:/g/personal/sandracurvelo_iamlatam_co/IQBL75-Aqe9YTrU8DfIptLEOAecBALcAX9_c-F46Ooh3s20?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Hg8PCD"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo — Mentora IAM™ Intelligence"
+    ]
   ],
   "kpis": [
-    {"valor": "2", "etiqueta": "Participantes", "detalle": "Juan Pablo Curvelo · Lilian Paola Ramos"},
-    {"valor": "2/2", "etiqueta": "Asistencia del área", "detalle": "El equipo completo"},
-    {"valor": "5", "etiqueta": "Sesiones acumuladas", "detalle": "El área más avanzada del programa"},
-    {"valor": "1", "etiqueta": "Ejercicio cerrado", "detalle": "Informe de anotaciones, modelado"},
-    {"valor": "2", "etiqueta": "Casos nuevos abiertos", "detalle": "Aprobación de facturas · turismo corporativo"},
-    {"valor": "40 min", "etiqueta": "Duración", "detalle": "Sesión corta — quedó contenido enunciado"}
+    {
+      "valor": "2",
+      "etiqueta": "Participantes",
+      "detalle": "Juan Pablo Curvelo · Lilian Paola Ramos"
+    },
+    {
+      "valor": "2/2",
+      "etiqueta": "Asistencia del área",
+      "detalle": "El equipo completo"
+    },
+    {
+      "valor": "5",
+      "etiqueta": "Sesiones acumuladas",
+      "detalle": "El área más avanzada del programa"
+    },
+    {
+      "valor": "1",
+      "etiqueta": "Ejercicio cerrado",
+      "detalle": "Informe de anotaciones, modelado"
+    },
+    {
+      "valor": "2",
+      "etiqueta": "Casos nuevos abiertos",
+      "detalle": "Aprobación de facturas · turismo corporativo"
+    },
+    {
+      "valor": "40 min",
+      "etiqueta": "Duración",
+      "detalle": "Sesión corta — quedó contenido enunciado"
+    }
   ],
   "participantes": [
-    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
-    {"nombre": "Juan Pablo Curvelo", "cargo": "Profesional Junior — Servicios Sociales", "correo": "pro_juniorss@comfacesar.com", "modalidad": "Virtual", "nivel": "Avanzado"},
-    {"nombre": "Lilian Paola Ramos", "cargo": "Servicios Sociales — Comfacesar", "correo": "serviciossociales@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"}
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "—",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Juan Pablo Curvelo",
+      "cargo": "Profesional Junior — Servicios Sociales",
+      "correo": "pro_juniorss@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Avanzado"
+    },
+    {
+      "nombre": "Lilian Paola Ramos",
+      "cargo": "Servicios Sociales — Comfacesar",
+      "correo": "serviciossociales@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Intermedio"
+    }
   ],
   "mapa_calor_intro": "Riesgos identificados en la Sesión 5 a partir de los procesos reales que el equipo puso sobre la mesa y de las condiciones para avanzar al siguiente nivel.",
   "riesgos": [
@@ -162,14 +231,54 @@
   ],
   "tareas_intro": "El área va en la quinta sesión, la más avanzada del programa. De aquí en adelante el avance depende de traer el ejercicio hecho: la sesión sirve para resolver lo que se atascó, no para empezar.",
   "tareas": [
-    {"tarea": "Mapear el flujograma del proceso de aprobación de facturas, con sus condicionales", "responsable": "Lilian Paola Ramos", "prioridad": "URGENTE", "plazo": "Antes de S6"},
-    {"tarea": "Instalar Claude de escritorio en el computador", "responsable": "Juan Pablo + Lilian Paola", "prioridad": "ALTA", "plazo": "Antes de S6"},
-    {"tarea": "Descargar el complemento Claude Code", "responsable": "Juan Pablo + Lilian Paola", "prioridad": "ALTA", "plazo": "Antes de S6"},
-    {"tarea": "Elegir la carpeta real con la que se va a probar cowork y qué pedirle", "responsable": "Juan Pablo + Lilian Paola", "prioridad": "ALTA", "plazo": "Antes de S6"},
-    {"tarea": "Seguir haciendo ejercicios del día a día y mostrarlos en la siguiente sesión", "responsable": "Juan Pablo Curvelo", "prioridad": "ALTA", "plazo": "Permanente"},
-    {"tarea": "Registrar cada ejercicio en el dashboard con el tiempo antes y el tiempo después", "responsable": "Juan Pablo + Lilian Paola", "prioridad": "ALTA", "plazo": "Permanente"},
-    {"tarea": "Confirmar la sesión del jueves 3, que quedó respondida como tentativa", "responsable": "Juan Pablo Curvelo", "prioridad": "URGENTE", "plazo": "Inmediato"},
-    {"tarea": "Gestionar el plan pagado para el puesto de Lilian Paola", "responsable": "Comfacesar", "prioridad": "ALTA", "plazo": "Antes de S6"}
+    {
+      "tarea": "Mapear el flujograma del proceso de aprobación de facturas, con sus condicionales",
+      "responsable": "Lilian Paola Ramos",
+      "prioridad": "URGENTE",
+      "plazo": "Antes de S6"
+    },
+    {
+      "tarea": "Instalar Claude de escritorio en el computador",
+      "responsable": "Juan Pablo + Lilian Paola",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S6"
+    },
+    {
+      "tarea": "Descargar el complemento Claude Code",
+      "responsable": "Juan Pablo + Lilian Paola",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S6"
+    },
+    {
+      "tarea": "Elegir la carpeta real con la que se va a probar cowork y qué pedirle",
+      "responsable": "Juan Pablo + Lilian Paola",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S6"
+    },
+    {
+      "tarea": "Seguir haciendo ejercicios del día a día y mostrarlos en la siguiente sesión",
+      "responsable": "Juan Pablo Curvelo",
+      "prioridad": "ALTA",
+      "plazo": "Permanente"
+    },
+    {
+      "tarea": "Registrar cada ejercicio en el dashboard con el tiempo antes y el tiempo después",
+      "responsable": "Juan Pablo + Lilian Paola",
+      "prioridad": "ALTA",
+      "plazo": "Permanente"
+    },
+    {
+      "tarea": "Confirmar la sesión del jueves 3, que quedó respondida como tentativa",
+      "responsable": "Juan Pablo Curvelo",
+      "prioridad": "URGENTE",
+      "plazo": "Inmediato"
+    },
+    {
+      "tarea": "Gestionar el plan pagado para el puesto de Lilian Paola",
+      "responsable": "Comfacesar",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S6"
+    }
   ],
   "observaciones": [
     "Servicios Sociales llega a la quinta sesión: es el área más avanzada del programa y la única que ya cerró un modelo de documento reutilizable.",
@@ -194,5 +303,6 @@
       "Sandra disponible en exclusiva para Comfacesar hasta finales de octubre"
     ]
   },
-  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 31 agosto 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 31 agosto 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo",
+  "grabacion_url": "https://netorg20780382-my.sharepoint.com/:v:/g/personal/sandracurvelo_iamlatam_co/IQBL75-Aqe9YTrU8DfIptLEOAecBALcAX9_c-F46Ooh3s20?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Hg8PCD"
 }
