@@ -15,7 +15,7 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
-## 📣 2 sep · 09:18 — Nueve mensajes de agendamiento, a pedido de Sandra
+## 📣 2 sep · 09:59 — Nueve mensajes de agendamiento, a pedido de Sandra
 
 Sandra pidió escribir a **todos los canales detenidos** con el argumento del avance del
 programa —tableros, Claude resolviendo el ejercicio completo en Excel, el salto de
@@ -23,15 +23,15 @@ tiempo— para animarlos a agendar. Publicados los nueve:
 
 | Canal | Estado | Hora |
 |---|---|---|
-| `#tesoreriaa` | 14 días | 09:18 |
-| `#comunicaciones` | 12 días (Intelligence) | 09:18 |
-| `#ips` | 9 días · cuenta sin activar | 09:18 |
-| `#educacion` | 9 días · canceló el lunes | 09:18 |
-| `#vivienda` | 8 días | 09:19 |
-| `#mercadeo` | 8 días | 09:19 |
-| `#subsidio` | 8 días | 09:19 |
-| `#credito` | sin arrancar | 09:19 |
-| `#auditoria-interna` | sin arrancar | 09:19 |
+| `#tesoreriaa` | 14 días | 09:58 |
+| `#comunicaciones` | 12 días (Intelligence) | 09:58 |
+| `#ips` | 9 días · cuenta sin activar | 09:58 |
+| `#educacion` | 9 días · canceló el lunes | 09:58 |
+| `#vivienda` | 8 días | 09:59 |
+| `#mercadeo` | 8 días | 09:59 |
+| `#subsidio` | 8 días | 09:59 |
+| `#credito` | sin arrancar | 09:59 |
+| `#auditoria-interna` | sin arrancar | 09:59 |
 
 **Datos usados, todos verificados en esta sesión** —nada inventado—: Renata (Jurídica)
 de 30-60 min a 3-5 min en el análisis de requisitos legales del contrato de fauna;
