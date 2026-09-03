@@ -15,6 +15,35 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🚨 3 sep · 11:00 — ERROR: la respuesta a Juan Pablo se envió a otra persona
+
+**Lo que pasó.** A las 10:03 se respondió el DM de Juan Pablo usando el `user_id`
+**`U0BR6LJL3C3`**, tomado de la lista de miembros de Tesorería. Ese id es de **Beatriz
+Portela Padro**, no de Juan Pablo. El id correcto es **`U0BR3GXHY03`**
+(`pro_juniorss@comfacesar.com`).
+
+**Consecuencias, las dos reales:**
+
+1. **Beatriz recibió un mensaje dirigido a «Juan Pablo»** sobre una sesión de Servicios
+   Sociales que no le corresponde.
+2. **Juan Pablo nunca recibió la respuesta.** Y en su DM quedó el rastro: 10:13 «ya estoy
+   en sala esperando!» · 10:25 **«bueno vamos a reprogramarla ¡ bye»**. Esperó y se fue a
+   reprogramar una sesión que nunca se había movido.
+
+Su individual siempre fue **hoy a las 2:00 p. m.**; él llegó en la mañana. Con la
+respuesta a tiempo no habría esperado ni habría pedido reprogramar.
+
+**Corregido a las 11:01:** se le escribió al DM correcto reconociendo el error, dejando
+claro que no hay nada que reprogramar y confirmando las 2:00. A Beatriz se le pidió
+disculpa y se le redirigió a `#tesoreriaa`.
+
+**Regla nueva, para las dos agentes:** **el `user_id` para un DM se resuelve siempre con
+`slack_search_users` sobre el correo `@comfacesar.com`**, nunca copiándolo de una lista
+de miembros de canal. Los ids de esa lista vienen sin nombre y se confunden con
+facilidad. Verificar antes de enviar a quién pertenece.
+
+---
+
 ## 📌 3 sep · 10:03 — DM de Juan Pablo respondido
 
 **JpCurvelo, 10:00 por DM:** «hola Buen día · no veo el enlace de hoy». Su individual de
