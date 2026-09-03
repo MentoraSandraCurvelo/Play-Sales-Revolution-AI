@@ -1,0 +1,216 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "GERENCIA FINANCIERA",
+  "area_completa": "",
+  "sesion_num": 2,
+  "fase": "Ejercicios Prácticos",
+  "fecha": "3 de septiembre de 2026",
+  "fecha_corta": "3 septiembre 2026",
+  "subtitulo_meta": "3 de septiembre de 2026 · 8:00 a.m. · 1 h 5 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Gerencia Financiera — Comfacesar"],
+    ["Sesión", "N° 2 — El balance de prueba real con el método CREA, y la instalación del entorno de escritorio"],
+    ["Fecha", "3 de septiembre de 2026"],
+    ["Hora inicio", "8:00 a. m. — Colombia"],
+    ["Duración de la sesión", "1 h 5 min (8:00 a. m. – 9:05 a. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Correos Slack activados", "gerenciafinanciera@comfacesar.com · asistentegerenciafinanciera@comfacesar.com · auxiliarfinanciera@comfacesar.com"],
+    ["Grabación", "Se publica en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "16", "etiqueta": "Días sin sesión", "detalle": "La S1 fue el 18 de agosto"},
+    {"valor": "3", "etiqueta": "Participantes del área", "detalle": "Wilgenes · Yeraldin · Carlos Mario"},
+    {"valor": "0", "etiqueta": "Conectores de Yeraldin", "detalle": "Al abrir la pantalla, ninguno activo"},
+    {"valor": "3", "etiqueta": "Hallazgos del balance", "detalle": "Duplicados · cruce corriente · saldos negativos"},
+    {"valor": "2", "etiqueta": "Instalaciones nuevas", "detalle": "Claude de escritorio y Claude Code"},
+    {"valor": "1", "etiqueta": "Bloqueo de TI", "detalle": "Office desactualizado, sin complemento"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Wilgenes Alberto Salgado Coronado", "cargo": "Gerente Financiero — Comfacesar", "correo": "gerenciafinanciera@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"},
+    {"nombre": "Yeraldin Murgas Campo", "cargo": "Asistente de Gerencia Financiera — Comfacesar", "correo": "asistentegerenciafinanciera@comfacesar.com", "modalidad": "Virtual", "nivel": "Inicial"},
+    {"nombre": "Carlos Mario Mendoza", "cargo": "Auxiliar Financiera — Comfacesar", "correo": "auxiliarfinanciera@comfacesar.com", "modalidad": "Virtual", "nivel": "Inicial"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 2. La mayoría no son del ejercicio contable sino del entorno: lo que debía estar configurado desde la primera clase y no lo estaba.",
+  "riesgos": [
+    {
+      "titulo": "La configuración se dio por hecha y no estaba",
+      "nivel": "CRITICO",
+      "descripcion": "Al preguntar si Claude estaba configurado y con los conectores puestos, la respuesta fue que sí. Al abrir la pantalla de conectores no había ninguno activo. Media hora de una sesión de una hora se fue en conectar Gmail con el correo corporativo y autenticar el segundo factor. El ejercicio de caja menor que Yeraldin traía preparado no se alcanzó a trabajar.",
+      "responsable": "Yeraldin Murgas / Inmediato"
+    },
+    {
+      "titulo": "El proyecto no seguía el método CREA",
+      "nivel": "ALTO",
+      "descripcion": "El proyecto del balance de prueba tenía todo el contenido pegado en «instrucciones», sin separar contexto, rol, entrega y acción, y la estructura se la había dejado armar a la herramienta. Hubo que desarmarlo y reordenarlo en vivo. Sin esa estructura el resultado depende de la suerte, y cuando no sale hay que empezar de cero.",
+      "responsable": "Wilgenes Salgado / Resuelto en sesión"
+    },
+    {
+      "titulo": "La licencia Pro está pagada con el correo personal",
+      "nivel": "ALTO",
+      "descripcion": "Claude Pro está comprado con la cuenta personal de Hotmail, no con la de Comfacesar. Al instalar la versión de escritorio, la aplicación no reconoció el plan. Cuando se conecten los agentes al entorno corporativo, una licencia que apunta a otra cuenta rompe el circuito.",
+      "responsable": "Wilgenes Salgado / Antes de la S3"
+    },
+    {
+      "titulo": "El complemento de Claude no se puede instalar en Excel",
+      "nivel": "ALTO",
+      "descripcion": "La tienda de complementos de Office no muestra Claude. No es un problema de la herramienta sino de la versión de Office instalada en el equipo. Sin el complemento, el trabajo sobre la hoja obliga a descargar, subir y volver a descargar en cada vuelta.",
+      "responsable": "Comfacesar — TI / Antes de la S3"
+    },
+    {
+      "titulo": "El equipo del área no está agendando",
+      "nivel": "ALTO",
+      "descripcion": "La sesión la agendó una sola persona y sin incluir los correos del resto del equipo. Wilgenes y Carlos Mario entraron porque estaban cerca, no porque estuvieran citados. Al agendar hay que añadir los correos de quienes deben entrar, y de aquí en adelante se agendan también sesiones individuales.",
+      "responsable": "Gerencia Financiera / Esta semana"
+    },
+    {
+      "titulo": "El micrófono abierto rompió el ritmo de la sesión",
+      "nivel": "MEDIO",
+      "descripcion": "Durante buena parte del ejercicio hubo una conversación paralela sobre otro tema encima del audio de la sesión. Hubo que pedir silencio varias veces. En una sesión práctica de una hora eso se traduce en instrucciones repetidas y en minutos que no vuelven.",
+      "responsable": "Gerencia Financiera / Inmediato"
+    },
+    {
+      "titulo": "El puesto de trabajo venía frenando el avance",
+      "nivel": "BAJO",
+      "descripcion": "Wilgenes tuvo que comprar un computador nuevo porque el de escritorio no daba. Está resuelto, pero explica parte de los dieciséis días sin sesión y conviene tenerlo presente al revisar los equipos del resto del área.",
+      "responsable": "Comfacesar / Resuelto"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "CRITICO",
+      "titulo": "Modelar el balance de prueba hasta que dé el resultado que se necesita",
+      "descripcion": "No se pasa a otro ejercicio. Sobre el resultado que salió hoy hay que seguir pidiendo: ahora quítame esto, ahora preséntamelo así, ahora hazme una gráfica — hasta que el archivo salga como el reporte que hoy se arma a mano. Eso se muestra en la Sesión 3.",
+      "responsable": "Wilgenes Salgado",
+      "plazo": "Antes de la Sesión 3"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Pasar la licencia Pro al correo de Comfacesar",
+      "descripcion": "Está a nombre de la cuenta personal. Todo lo que se automatice después se conecta al entorno corporativo, así que la licencia tiene que estar en la cuenta de la empresa.",
+      "responsable": "Wilgenes Salgado",
+      "plazo": "Antes de la Sesión 3"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Terminar la configuración completa del puesto",
+      "descripcion": "El «acerca de ti» con el rol y el trabajo en Comfacesar, y los conectores de Gmail, Google Drive, Calendar y Slack — todos con el correo corporativo. Es lo que quedó a medias hoy y es la base del ejercicio de caja menor que no alcanzamos a trabajar.",
+      "responsable": "Yeraldin Murgas",
+      "plazo": "Antes de la Sesión 3"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Actualizar Office para que aparezca el complemento",
+      "descripcion": "La tienda de complementos no muestra Claude porque la versión de Office está atrasada. Es una revisión de TI sobre los equipos del área, no una configuración que el equipo pueda hacer solo.",
+      "responsable": "Comfacesar — TI",
+      "plazo": "Antes de la Sesión 3"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Agendar sesiones individuales y varias por semana",
+      "descripcion": "El área lleva dos sesiones en tres semanas. De aquí en adelante se agendan individuales además de las grupales, y al agendar se incluyen los correos de quienes deben entrar. La agenda está disponible hasta el 30 de octubre.",
+      "responsable": "Gerencia Financiera",
+      "plazo": "Esta semana"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · La configuración que faltaba",
+      "duracion": "~30 min",
+      "objetivo": "Dejar el puesto de trabajo conectado antes de tocar cualquier ejercicio — porque sin eso no hay sistema de trabajo que construir.",
+      "pasos": [
+        "Revisar la pantalla de conectores: no había ninguno activo",
+        "Conectar Gmail eligiendo «usar otra cuenta» — con el correo de Comfacesar, no el personal",
+        "Autenticar con el segundo factor desde el celular",
+        "Quedó explicado por qué el correo tiene que ser el corporativo: lo que se automatice va a leer, descargar y guardar en ese entorno",
+        "El ejercicio de caja menor que Yeraldin traía preparado quedó para la Sesión 3"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El balance de prueba real, reordenado con el método CREA",
+      "duracion": "~25 min",
+      "objetivo": "Estructurar el proyecto como corresponde y sacar el primer análisis real sobre el balance de junio.",
+      "pasos": [
+        "Abrir el detalle del proyecto en los tres puntos → Editar detalles",
+        "Sacar todo lo que estaba en «instrucciones» y reordenarlo: Contexto, Rol, Entrega, Acción",
+        "Quedó explicada la anatomía: el detalle lleva el método CREA; el contexto lleva los archivos que sirven para todas las consultas; la conversación lleva los de esa consulta sola",
+        "Borrar la consulta suelta que estaba usándose como si fuera ChatGPT",
+        "Cargar el balance de prueba al contexto del proyecto, no a la consulta",
+        "Primera instrucción real: revisar que los auxiliares tengan su naturaleza correcta —que los del activo no salgan en negativo—, resaltar en naranja las inconsistencias, proponer una presentación nueva en archivo aparte y resumir todos los hallazgos",
+        "Resultado: el balance cuadra en su totalidad, pero aparecieron auxiliares duplicados, un posible cruce entre corriente y no corriente, y saldos negativos",
+        "Descargar el archivo generado en vez de leerlo en la ventana — la vista previa no siempre trae todo"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Dejar instalado el entorno de escritorio",
+      "duracion": "~10 min",
+      "objetivo": "Instalar lo que hace falta para las sesiones siguientes, aunque todavía no se use.",
+      "pasos": [
+        "Instalar Claude de escritorio: desde ahí la herramienta lee las carpetas del computador en vez de que uno suba los archivos",
+        "Instalar Claude Code — es la base de los agentes, que trabajan solos en vez de esperar una instrucción",
+        "Organizar una carpeta «Herramientas de IA» en favoritos con Slack, ChatGPT y Claude",
+        "Intentar el complemento de Claude dentro de Excel: no aparece en la tienda, la versión de Office está atrasada"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD PROBADA · SESIÓN 2 · 3 septiembre 2026",
+      "titulo": "La revisión de consistencia del balance de prueba",
+      "descripcion": "La primera instrucción real sobre el balance de junio devolvió tres hallazgos que no se ven leyendo el archivo de corrido: auxiliares duplicados, un posible cruce entre corriente y no corriente, y saldos negativos donde no deberían estar. El balance cuadra en total — el problema no era el cuadre sino la composición. Es la revisión que hoy se hace cuenta por cuenta.",
+      "estado": "Primer resultado obtenido — falta modelarlo hasta dejarlo como el reporte del área",
+      "proximo_paso": "Seguir pidiéndole cambios hasta que la presentación sea la que se necesita",
+      "target": "Sesión 3"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 2 · 3 septiembre 2026",
+      "titulo": "El tablero de indicadores del área",
+      "descripcion": "Una vez el balance de prueba quede modelado, el paso siguiente es el tablero con KPI e indicadores de gestión sobre esa misma información. Es lo que convierte el análisis en algo que se presenta hacia arriba sin volver a armarlo cada mes.",
+      "estado": "Planteado para la próxima sesión",
+      "proximo_paso": "Llegar con el balance ya modelado",
+      "target": "Sesión 3"
+    }
+  ],
+  "tareas_intro": "La sesión partió en dos. Wilgenes llegó con la configuración hecha y un proyecto montado, y con él se avanzó hasta un análisis real. En el otro puesto no había nada conectado, y ahí se fue la mitad del tiempo. La diferencia entre los dos es exactamente el trabajo de configuración que se pidió en la primera clase.",
+  "tareas": [
+    {"tarea": "Modelar el balance de prueba hasta obtener el reporte que se necesita", "responsable": "Wilgenes Salgado", "prioridad": "URGENTE", "plazo": "Antes de S3"},
+    {"tarea": "Cambiar la licencia Pro al correo de Comfacesar", "responsable": "Wilgenes Salgado", "prioridad": "ALTA", "plazo": "Antes de S3"},
+    {"tarea": "Terminar de conectar Gmail, Drive, Calendar y Slack con el correo corporativo", "responsable": "Yeraldin Murgas", "prioridad": "URGENTE", "plazo": "Antes de S3"},
+    {"tarea": "Completar el «acerca de ti» con el rol y el trabajo en Comfacesar", "responsable": "Yeraldin Murgas", "prioridad": "ALTA", "plazo": "Antes de S3"},
+    {"tarea": "Dejar listo el ejercicio de caja menor para retomarlo", "responsable": "Yeraldin Murgas", "prioridad": "MEDIA", "plazo": "Antes de S3"},
+    {"tarea": "Actualizar la versión de Office para habilitar el complemento", "responsable": "Comfacesar — TI", "prioridad": "ALTA", "plazo": "Antes de S3"},
+    {"tarea": "Agendar sesiones individuales, incluyendo los correos del equipo", "responsable": "Gerencia Financiera", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Mantener Slack abierto — grabación, acta, compromisos y enlace de agenda van al canal", "responsable": "El área", "prioridad": "MEDIA", "plazo": "Permanente"}
+  ],
+  "observaciones": [
+    "Es la primera sesión del área desde el 18 de agosto. Dieciséis días. La S1 dejó pendientes el balance de prueba real y el flujo de caja proyectado, y hoy se trabajó el primero de los dos.",
+    "El contraste entre los dos puestos fue el hallazgo real de la sesión. Wilgenes llegó con los conectores puestos, el «acerca de ti» diligenciado y un proyecto montado — y con él se llegó a un análisis con hallazgos. En el otro puesto no había nada conectado, pese a que la respuesta previa había sido que sí. La configuración no es un trámite previo: es lo que decide si la hora rinde o se va en conectar cuentas.",
+    "El proyecto de Wilgenes estaba armado a su manera, con todo el contenido en «instrucciones» y la estructura delegada a la herramienta. Reordenarlo con el método CREA fue la mitad del ejercicio, y quedó explicado por qué: sin contexto, rol, entrega y acción separados, el resultado no se puede repetir.",
+    "Quedó dicho en sesión que este no es un ejercicio de práctica: el proyecto del balance de prueba se va a usar de verdad, y lo que se reporte del programa sale de ahí.",
+    "Sandra salió a las 9:05 porque tenía la siguiente sesión del proyecto a las 9:00. La sala quedó abierta y el equipo siguió trabajando por su cuenta hasta pasadas las 10:40.",
+    "De aquí en adelante el área agenda también sesiones individuales. La agenda de la mentoría está bloqueada para Comfacesar hasta el 30 de octubre."
+  ],
+  "proxima_sesion": {
+    "sesion": "Gerencia Financiera — Sesión 3",
+    "condiciones": [
+      "El balance de prueba modelado hasta el resultado que se necesita",
+      "Licencia Pro en el correo de Comfacesar",
+      "Configuración y conectores completos en todos los puestos del área",
+      "Office actualizado, con el complemento de Claude disponible"
+    ],
+    "agenda": [
+      "Revisión del balance de prueba modelado",
+      "El flujo de caja proyectado, que quedó pendiente desde la S1",
+      "Tablero de KPI e indicadores de gestión del área",
+      "El ejercicio de caja menor"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 3 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

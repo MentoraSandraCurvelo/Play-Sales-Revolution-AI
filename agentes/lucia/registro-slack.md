@@ -138,6 +138,68 @@ así que por orden cronológico la de hoy es la S4 — y así se llama la cita e
 calendario. El recordatorio salió **sin número** a propósito. Antes de armar el acta de
 esta sesión hay que decidir cuál de las dos numeraciones queda.
 
+### Corte de la 1:00 p. m. — jueves 3
+
+Sandra subió a Dropbox los archivos de las dos sesiones de la mañana. Se armaron las
+dos actas leyendo los transcripts completos (428 y 359 líneas condensadas).
+
+| Acta | Sesión | PDF |
+|---|---|---|
+| Gerencia Financiera S2 | jue 3, 8:00 a. m. | `ACTA_Sesion2_GerenciaFinanciera_3septiembre2026.pdf` |
+| Agencia de Empleo S4 | jue 3, 9:00 a. m. | `ACTA_Sesion4_AgenciaDeEmpleo_3septiembre2026.pdf` |
+
+Grabaciones publicadas en el canal a la 1:11 p. m., cada una como mensaje propio.
+Resúmenes programados para el viernes 4:
+
+| Hora | Canal | ID |
+|---|---|---|
+| 8:00 | `#gerencia-financiera` | `Dr0BUD8JK1P1` |
+| 8:01 | `#agencia-de-empleo` | `Dr0BUWH3QCBB` |
+
+### El mensaje de las 8:10 funcionó
+
+La sesión de Gerencia Financiera estaba citada a las 8:00 y a las 8:10 no había entrado
+nadie. Sandra avisó y se publicó en el canal etiquetando a Yeraldin. El informe de
+asistencia de Teams la registra entrando a las **8:10:39** — ocho segundos después del
+mensaje. Wilgenes entró a las 8:13 y Carlos Mario a las 8:22.
+
+**Sirve como recordatorio en caliente, no solo como aviso de la víspera.** Cuando una
+sesión arranca sin nadie conectado, el canal es la vía más rápida.
+
+### Lo que hay que resolver del programa, no de un área
+
+Dos hallazgos de hoy que no son de un área sola:
+
+1. **Agencia de Empleo creía que solo podía agendar una sesión por semana.** Nadie lo
+   había dicho en tres semanas. Vale la pena verificar si otras áreas están operando
+   con la misma creencia — explicaría más retrasos que cualquier otra causa.
+2. **Sigue apareciendo el puesto sin conectores**, ahora en Gerencia Financiera, y con
+   la respuesta previa de que sí estaban puestos. Van cuatro áreas seguidas.
+
+### Nombres verificados hoy contra Slack
+
+| Área | Teams / listado | Nombre real (Slack) |
+|---|---|---|
+| Gerencia Financiera | Carlos Mendoza | **Carlos Mario Mendoza** — auxiliarfinanciera@ |
+| Gerencia Financiera | yeraldin | **Yeraldin Murgas Campo** — asistentegerenciafinanciera@ |
+| Gerencia Financiera | Wilgenes Salgado | **Wilgenes Alberto Salgado Coronado** — gerenciafinanciera@ |
+| Agencia de Empleo | — | **Lina María Rincón** · **José Jaime Maya** (líder del área) |
+
+En la sala de Gerencia Financiera estuvo también una cuenta de Contabilidad, de
+escucha. **No se nombra en el acta**, según la regla de Sandra.
+
+### La numeración de las sesiones la manda la fecha
+
+Se resolvió el desacuerdo de Jurídica. El calendario está bien y es consecutivo por
+fecha: S1 14 ago · S2 20 ago · S3 31 ago · **S4 3 sept** · S5 7 sept (individual de
+Lilibeth) · S6 9 sept. El acta de la S3 anunció «Sesión 5, el jueves» porque se escribió
+cuando la individual de Lilibeth todavía era el miércoles 2 y ocupaba el número 4; al
+moverla al lunes 7 los números se recorrieron.
+
+**La regla:** el número lo manda la fecha, no el orden en que se agendó. Si una sesión
+se mueve, los números se recorren. Antes de escribir un número en un acta se confirma
+contra el calendario, nunca contra el acta anterior.
+
 ## Actas listas, sin publicar
 
 | Sesión | Fecha | Canal | Estado |

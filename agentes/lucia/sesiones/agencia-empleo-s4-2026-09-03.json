@@ -1,0 +1,224 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "AGENCIA DE EMPLEO",
+  "area_completa": "",
+  "sesion_num": 4,
+  "fase": "Ejercicios Prácticos",
+  "fecha": "3 de septiembre de 2026",
+  "fecha_corta": "3 septiembre 2026",
+  "subtitulo_meta": "3 de septiembre de 2026 · 9:00 a.m. · 56 min · Híbrida — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Agencia de Empleo — Comfacesar"],
+    ["Sesión", "N° 4 — El filtro de hojas de vida de punta a punta, y el mapeo del proceso de recobros"],
+    ["Fecha", "3 de septiembre de 2026"],
+    ["Hora inicio", "9:00 a. m. — Colombia"],
+    ["Duración de la sesión", "56 minutos (9:00 a. m. – 9:56 a. m.)"],
+    ["Modalidad", "Híbrida — Sandra virtual, Lina María y José Jaime desde la oficina del área"],
+    ["Correos Slack activados", "fomentoempresarial@comfacesar.com · agenciaempleo@comfacesar.com"],
+    ["Grabación", "Se publica en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "104", "etiqueta": "Hojas de vida analizadas", "detalle": "Una vacante real de operadora de ferrocarril"},
+    {"valor": "22 → 2", "etiqueta": "Minutos del filtro", "detalle": "Antes del ejercicio y después de conectar la carpeta"},
+    {"valor": "2", "etiqueta": "Duplicados detectados", "detalle": "De 104 archivos, 102 candidatos reales"},
+    {"valor": "1", "etiqueta": "Correo enviado en vivo", "detalle": "Los 5 candidatos por encima de 80 puntos"},
+    {"valor": "2", "etiqueta": "Procesos del área mapeados", "detalle": "Filtro de vacantes · recobros del subsidio"},
+    {"valor": "1", "etiqueta": "Creencia corregida", "detalle": "No es una sesión por semana — son las que quieran"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Lina María Rincón", "cargo": "Fomento Empresarial — Comfacesar", "correo": "fomentoempresarial@comfacesar.com", "modalidad": "Presencial", "nivel": "Avanzado"},
+    {"nombre": "José Jaime Maya", "cargo": "Líder Agencia de Empleo — Comfacesar", "correo": "agenciaempleo@comfacesar.com", "modalidad": "Presencial", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 4 a partir de los dos procesos reales del área que se trabajaron en vivo: el filtro de hojas de vida por vacante y el recobro del subsidio de desempleo.",
+  "riesgos": [
+    {
+      "titulo": "El área creía que solo podía agendar una sesión por semana",
+      "nivel": "CRITICO",
+      "descripcion": "Salió al final de la sesión, casi de paso: «no sabíamos, nosotros pensábamos que era una sola a la semana». No es así — se agendan todas las que el equipo pueda sostener, y hay áreas con una en la mañana y otra en la tarde. Esa creencia explica el ritmo del área mejor que cualquier otra cosa, y muy probablemente no es exclusiva de Agencia de Empleo.",
+      "responsable": "Comfacesar — todas las áreas / Inmediato"
+    },
+    {
+      "titulo": "La plataforma Cenit no se puede automatizar",
+      "nivel": "ALTO",
+      "descripcion": "El microdato del subsidio al desempleo se descarga de Cenit, que es de Asopagos y entra con usuario, contraseña y un código de verificación que le llega a José Jaime. Las credenciales se podrían entregar; el código, no. Quedó descartado en sesión: esa descarga sigue siendo manual y la automatización arranca desde el archivo ya descargado.",
+      "responsable": "Agencia de Empleo / Confirmado en sesión"
+    },
+    {
+      "titulo": "El consolidado de recobros se rehace a mano todos los meses",
+      "nivel": "ALTO",
+      "descripcion": "Del microdato mensual, la auxiliar de recobros arma a mano un Excel aparte: un renglón por beneficiario, consolidando los periodos adeudados que en el archivo original vienen repetidos por mes. De ahí salen el valor adeudado, el saldo por cobrar y los datos de contacto para el derecho de petición y las llamadas. Es un trabajo mensual completo que hoy no deja rastro de gestión.",
+      "responsable": "Agencia de Empleo / Antes de la S5"
+    },
+    {
+      "titulo": "Gmail figuraba conectado y no lo estaba",
+      "nivel": "ALTO",
+      "descripcion": "Al pedirle que enviara el correo, la herramienta respondió que no tenía una herramienta de correo. La respuesta parecía un límite de la herramienta y era un conector caído: en la pantalla de conectores Gmail aparecía inactivo y bastó refrescarlo. Revisar los conectores antes de dar por fallido un resultado es parte del oficio.",
+      "responsable": "Lina María Rincón / Resuelto en sesión"
+    },
+    {
+      "titulo": "La vinculación del celular con el escritorio falló",
+      "nivel": "MEDIO",
+      "descripcion": "Se intentó varias veces conectar la aplicación del celular con la de escritorio y siempre devolvió vinculación fallida, con el mismo correo en los dos lados y la aplicación abierta. Quedó pendiente. Es lo que permite lanzar un análisis desde fuera de la oficina.",
+      "responsable": "Lina María Rincón / Antes de la S5"
+    },
+    {
+      "titulo": "Microsoft 365 no conecta",
+      "nivel": "MEDIO",
+      "descripcion": "Al intentar activar el conector devolvió error, y quedó la duda de con qué cuenta debe conectarse si el área trabaja sobre Google. No frena lo de hoy, pero hará falta cuando se armen los agentes.",
+      "responsable": "Lina María Rincón / Antes de la S5"
+    },
+    {
+      "titulo": "El tablero no tiene los tiempos del antes y el después",
+      "nivel": "MEDIO",
+      "descripcion": "En el dashboard se registró el tiempo de la simulación, no el del proceso real anterior ni el que toma ahora. Sin esas dos cifras el ejercicio no se convierte en indicador, y el indicador es lo que se reporta.",
+      "responsable": "Lina María Rincón / Esta semana"
+    },
+    {
+      "titulo": "Ninguna hoja de vida trae el dato de género",
+      "nivel": "BAJO",
+      "descripcion": "Al pedirle el conteo por sexo, la herramienta revisó el contenido de los 104 archivos y avisó que ninguno tiene un campo de sexo o género, así que cualquier cifra sería una inferencia y no un dato. Es una limitación del documento de origen, no del análisis, y conviene saberlo antes de reportar esa cifra.",
+      "responsable": "Agencia de Empleo / Informativo"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "CRITICO",
+      "titulo": "Agendar varias sesiones por semana, desde ya",
+      "descripcion": "Quedó claro en sesión que no hay límite de una por semana. El proyecto va hasta el 30 de octubre y la agenda está reservada para Comfacesar. En la misma sesión se acordaron dos: lunes y jueves.",
+      "responsable": "Lina María Rincón + José Jaime Maya",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Modelar la tabla maestra de recobros hasta que quede",
+      "descripcion": "La instrucción quedó dictada y la herramienta está preguntando los parámetros del semáforo. Hay que responderle: un renglón por beneficiario con los periodos consolidados, el valor adeudado, el saldo y el valor recuperado, y la semaforización por mora y por próximo a vencer.",
+      "responsable": "Lina María Rincón",
+      "plazo": "Antes de la Sesión 5"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Registrar en el tablero el tiempo antes y el tiempo después",
+      "descripcion": "El filtro de una vacante con 104 hojas de vida tomaba bastante más de media hora a mano. Hoy, leyendo la carpeta directamente, son un par de minutos. Esa es la cifra que va en el tablero, con el nombre del proceso y la frecuencia.",
+      "responsable": "Lina María Rincón",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Reintentar la vinculación del celular y dejar Microsoft 365 conectado",
+      "descripcion": "Las dos quedaron sin resolver en sesión. Cuando la del celular conecte, avisar en el canal para retomar el ejercicio que quedó a medias.",
+      "responsable": "Lina María Rincón",
+      "plazo": "Antes de la Sesión 5"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Definir los parámetros del recobro antes de pensar en el agente",
+      "descripcion": "El agente de voz para las llamadas de cobro se puede hacer, pero va de último. Primero hay que definir el proceso: los tiempos entre avisos, el tono de cada carta según el nivel, cuándo pasa a oficio y qué dispara cada alerta. Sin eso definido no hay nada que automatizar.",
+      "responsable": "Agencia de Empleo",
+      "plazo": "Antes de la Sesión 5"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Leer la carpeta en vez de subir los archivos",
+      "duracion": "~15 min",
+      "objetivo": "Quitar del proceso el paso que se llevaba casi todo el tiempo: cargar las hojas de vida a mano, de quince en quince.",
+      "pasos": [
+        "Revisar el ejercicio que Lina María trajo hecho: la vacante de operadora de ferrocarril con las 104 hojas de vida comprimidas en un ZIP, con puntaje, semáforo y salida en Word y Excel",
+        "Ese camino tomó 22 minutos, y casi todo fue el cargue de archivos",
+        "Abrir Claude de escritorio — en la versión web esta opción no existe",
+        "Agregar la carpeta del computador donde están las hojas de vida, sin comprimir",
+        "Pedirle que confirme qué ve: leyó los 104 PDF, detectó 2 duplicados y dejó 102 candidatos reales",
+        "Advirtió por su cuenta que ninguna hoja de vida trae campo de sexo, y que cualquier conteo por género sería inferencia y no dato",
+        "Quedó explicado: lo que se sube al contexto del proyecto sirve para todas las consultas; lo que se sube dentro de una consulta, solo para esa"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Cerrar el proceso hasta el correo al cliente",
+      "duracion": "~20 min",
+      "objetivo": "Llevar el ejercicio más allá del análisis: hasta el correo que hoy se redacta a mano después de cada filtro.",
+      "pasos": [
+        "Instruir el paso siguiente: una vez analizadas las hojas de vida, redactar el correo al cliente con copia al área",
+        "Definir el criterio de corte: las cinco primeras de la tabla, con puntaje por encima de 80 sobre 100",
+        "Pedir que el correo quede en borrador antes de enviarlo, para revisarlo",
+        "La herramienta respondió que no podía enviar correo — y la causa era que el conector de Gmail se había caído",
+        "Refrescar el conector y repetir la instrucción",
+        "El correo salió con la matriz de calificación ponderada explicada, los cinco candidatos con su puntaje y la matriz completa adjunta",
+        "Instalar el complemento de Claude dentro de Excel, que aquí sí quedó funcionando"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Mapear el proceso de recobros del subsidio de desempleo",
+      "duracion": "~20 min",
+      "objetivo": "Entender el segundo proceso del área de principio a fin antes de automatizar cualquier parte.",
+      "pasos": [
+        "El proceso: quien recibió subsidio de desempleo y luego aparece cotizando en seguridad social debe devolver el dinero al fondo",
+        "Hoy se descarga el microdato mensual de la plataforma Cenit, de Asopagos",
+        "La auxiliar de recobros consolida a mano ese archivo en un Excel propio: un renglón por beneficiario, con los periodos que en el original vienen repetidos",
+        "Sobre ese consolidado se manda el derecho de petición, se llama por teléfono y se hace el seguimiento del saldo",
+        "Se revisó si Cenit se podía conectar: entra con usuario, contraseña y un código de verificación que llega al líder del área — descartado en sesión",
+        "Instrucción dictada: tabla maestra con un renglón por beneficiario, valor adeudado, periodo a recobrar, gestión realizada y valor recuperado, con semaforización por mora y por próximo a vencer",
+        "La herramienta quedó preguntando los parámetros del semáforo, que es donde sigue el trabajo"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD PROBADA · SESIÓN 4 · 3 septiembre 2026",
+      "titulo": "El filtro de hojas de vida por vacante, de punta a punta",
+      "descripcion": "Llega una vacante con su perfil, la herramienta lee la carpeta completa de hojas de vida sin que nadie suba nada, califica con una matriz ponderada sobre 100 puntos, semaforiza, arma la tabla de candidatos y redacta el correo al cliente con los mejores puntajes y la matriz adjunta. Hoy se hizo entero en vivo. El cuello de botella que se mapeó en la S3 —dos a tres horas por vacante— quedó resuelto.",
+      "estado": "Funcionando de principio a fin",
+      "proximo_paso": "Registrar en el tablero el tiempo antes y después, y repetirlo con la siguiente vacante real",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 4 · 3 septiembre 2026",
+      "titulo": "El seguimiento de recobros con semaforización y avisos",
+      "descripcion": "El consolidado que hoy se rehace a mano cada mes se convierte en una tabla maestra que sale sola del microdato, con un renglón por beneficiario, el saldo real y el semáforo por días de mora. Encima de eso van los avisos escalonados: primero el correo, después el oficio, y el registro de qué se hizo con cada persona — que es justamente lo que piden los entes de control.",
+      "estado": "En construcción — la herramienta está pidiendo los parámetros del semáforo",
+      "proximo_paso": "Definir tiempos, niveles de carta y criterios de alerta, y modelar la tabla hasta que quede",
+      "target": "Sesión 5"
+    }
+  ],
+  "tareas_intro": "El área llegó con el ejercicio de la sesión anterior terminado y funcionando, y eso permitió cerrar el proceso completo hasta el correo al cliente. Lo que apareció al final, casi de paso, vale más que el ejercicio: el equipo creía que solo podía agendar una sesión por semana.",
+  "tareas": [
+    {"tarea": "Agendar varias sesiones por semana — quedaron lunes y jueves", "responsable": "Lina María Rincón + José Jaime Maya", "prioridad": "URGENTE", "plazo": "Inmediato"},
+    {"tarea": "Modelar la tabla maestra de recobros con su semaforización", "responsable": "Lina María Rincón", "prioridad": "ALTA", "plazo": "Antes de S5"},
+    {"tarea": "Registrar en el tablero el tiempo antes y después del filtro de hojas de vida", "responsable": "Lina María Rincón", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Definir los parámetros del recobro: tiempos, niveles de carta y alertas", "responsable": "Agencia de Empleo", "prioridad": "ALTA", "plazo": "Antes de S5"},
+    {"tarea": "Reintentar la vinculación del celular con el escritorio", "responsable": "Lina María Rincón", "prioridad": "MEDIA", "plazo": "Antes de S5"},
+    {"tarea": "Dejar Microsoft 365 conectado", "responsable": "Lina María Rincón", "prioridad": "MEDIA", "plazo": "Antes de S5"},
+    {"tarea": "Repetir el filtro con la próxima vacante real, ya sin subir archivos", "responsable": "Lina María Rincón", "prioridad": "MEDIA", "plazo": "Esta semana"}
+  ],
+  "observaciones": [
+    "El área llegó con la tarea hecha: el filtro de la vacante de operadora de ferrocarril estaba montado y funcionando, con puntaje, semáforo y salidas en Word y Excel. Por eso la sesión pudo ir un paso más allá en vez de repetir lo anterior.",
+    "El hallazgo de la sesión no fue técnico. Al final, acordando la próxima cita, salió que el equipo creía que solo se podía agendar una sesión por semana. Nadie lo había dicho antes, y explica el ritmo del área durante tres semanas. Conviene verificar si otras áreas están operando con la misma creencia.",
+    "El conector de Gmail caído fue una lección útil de la que valió la pena que ocurriera en vivo: la herramienta respondió que no podía enviar correo, lo que parecía un límite suyo, y era un conector inactivo. Revisar los conectores antes de concluir que algo no se puede es parte del oficio.",
+    "El proceso de recobros es el más completo que ha mapeado el área: llega del operador externo, se consolida a mano, y de ahí salen el derecho de petición, las llamadas y el seguimiento del saldo. Es también el que más rastro de gestión necesita, porque es lo que revisan los entes de control.",
+    "Sobre el agente de voz para las llamadas de cobro: se puede hacer, tiene costo por los planes de telefonía, y va de último. El correo y la semaforización se resuelven sin costo adicional. El orden importa — primero el proceso definido, después el agente.",
+    "Quedó anotado que el complemento de Claude dentro de Excel se instaló y funciona en este puesto, lo que en otras áreas del programa ha estado bloqueado por la versión de Office."
+  ],
+  "proxima_sesion": {
+    "sesion": "Agencia de Empleo — Sesión 5",
+    "condiciones": [
+      "La tabla maestra de recobros modelada hasta donde se pueda",
+      "Los parámetros del recobro definidos: tiempos, niveles de carta y alertas",
+      "El tablero con el tiempo antes y después del filtro de hojas de vida",
+      "Microsoft 365 conectado y la vinculación del celular resuelta"
+    ],
+    "agenda": [
+      "Revisión de la tabla maestra de recobros",
+      "Los avisos escalonados: correo, oficio y registro de gestión",
+      "El filtro de hojas de vida sobre una vacante nueva, de corrido",
+      "Primer acercamiento al agente, una vez el proceso esté definido"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 3 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
