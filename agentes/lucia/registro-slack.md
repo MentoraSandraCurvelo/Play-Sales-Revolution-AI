@@ -153,8 +153,8 @@ Resúmenes programados para el viernes 4:
 
 | Hora | Canal | ID |
 |---|---|---|
-| 8:00 | `#gerencia-financiera` | `Dr0BUD8JK1P1` |
-| 8:01 | `#agencia-de-empleo` | `Dr0BUWH3QCBB` |
+| ~~8:00~~ | `#gerencia-financiera` | ~~`Dr0BUD8JK1P1`~~ — **cancelado, publicado el mismo jueves** |
+| ~~8:01~~ | `#agencia-de-empleo` | ~~`Dr0BUWH3QCBB`~~ — **cancelado, publicado el mismo jueves** |
 
 ### El mensaje de las 8:10 funcionó
 
@@ -209,7 +209,7 @@ Sandra subió el VTT y la asistencia de Jurídica a las 1:16 p. m., en su carpet
 |---|---|---|
 | Jurídica S4 | jue 3, 11:00 a. m. | `ACTA_Sesion4_Juridica_3septiembre2026.pdf` |
 
-Grabación publicada a la 1:20 p. m. Resumen programado: **viernes 8:02** — `Dr0BUYAQD8FN`.
+Grabación publicada a la 1:20 p. m. Resumen ~~programado viernes 8:02 (`Dr0BUYAQD8FN`)~~ — **cancelado y publicado el mismo jueves.**
 
 Con este van **tres mensajes programados para el viernes**: 8:00 `#gerencia-financiera`,
 8:01 `#agencia-de-empleo`, 8:02 `#juridica`. Faltan los del corte de las 6 p. m.
@@ -218,6 +218,31 @@ Con este van **tres mensajes programados para el viernes**: 8:00 `#gerencia-fina
 **La regla del formato de entrega, que sale de esta sesión y aplica a todo el programa:**
 nunca aceptar un informe en MD. Es el formato interno de lectura, no un entregable. En
 Jurídica ya había salido un informe en MD hacia una reunión con el director.
+
+### Se cambió el criterio: el resumen sale el mismo día
+
+Sandra lo pidió a la 1:30 p. m. del jueves 3: *«no enviemos hoy todo, el corte de la
+mañana no esperemos»*. Los tres resúmenes que estaban en cola para el viernes a las 8:00
+se publicaron el mismo jueves.
+
+| Hora | Canal | Contenido | TS |
+|---|---|---|---|
+| 1:34 p. m. | `#gerencia-financiera` | Gerencia Financiera S2 | `1788460471.327899` |
+| 1:34 p. m. | `#agencia-de-empleo` | Agencia de Empleo S4 | `1788460484.597459` |
+| 1:35 p. m. | `#juridica` | Jurídica S4 | `1788460499.417559` |
+
+**El procedimiento funcionó como debía.** Lo programado no se puede cancelar por API, así
+que no se publicó nada hasta que Sandra confirmó que había borrado los tres de
+«Borradores y enviados». Se le pasó la lista exacta —canal, hora y primeras palabras de
+cada uno— y se esperó su «listo». Sin duplicados.
+
+**Compárese con lo del miércoles 2**, cuando se dejaron dos versiones vivas del mismo
+mensaje de Jurídica y salió la equivocada. La diferencia fue esperar la confirmación
+antes de publicar.
+
+**Criterio nuevo:** el resumen se publica el mismo día de la sesión, apenas el acta esté
+lista, y no a la mañana siguiente. Solo se programa cuando los archivos llegan tan tarde
+que el acta no alcanza a quedar el mismo día.
 
 ## Actas listas, sin publicar
 
