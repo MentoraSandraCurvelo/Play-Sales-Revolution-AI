@@ -101,6 +101,43 @@ las actas.**
 Para ver los adjuntos hay que leer el canal en formato `detailed`. Antes de decir que un
 mensaje está vacío, releerlo así.
 
+## Jueves 3 de septiembre
+
+Publicados a primera hora, los dos resúmenes que quedaron programados la noche del
+miércoles:
+
+| Hora | Canal | Contenido | Estado |
+|---|---|---|---|
+| 8:00:14 | `#sub-admin-y-financiera-infraestructura` | Sub. Financiera S2 — individual de Rafael | Publicado |
+| 8:01:00 | `#contabilidad` | Contabilidad S4 — individual de Carlos | Publicado |
+
+Recordatorios del día. Ninguno estaba puesto: se armaron el jueves a las 8:10, después
+de leer el calendario y los cinco canales.
+
+| Hora | Canal | Sesión | ID / Estado |
+|---|---|---|---|
+| 8:07 | `#agencia-de-empleo` | S4 — 9:00 a. m. | Publicado — `1788440847.971259` |
+| 10:00 | `#juridica` | 11:00 a. m. | Programado — `Dr0BUTJM8RC1` |
+| 13:00 | `#serivcios-sociales` | S6 — 2:00 p. m. | Programado — `Dr0BUKDVS743` |
+| 14:00 | `#planeacion` | S2 — 3:00 p. m. | Programado — `Dr0BUMBK61QD` |
+
+**Dir. Financiera S2 (8:00 a. m.) se quedó sin recordatorio.** Al leer el calendario ya
+eran las 8:05 y la sesión estaba empezando. Es la primera del área desde el 18 de
+agosto y era la que más lo necesitaba. Los recordatorios del día siguiente se dejan
+programados la noche anterior, no la mañana misma.
+
+Tres de los cuatro recordatorios llevan la frase de los conectores — que se activan en
+la versión gratuita. Va en el recordatorio y no en el resumen porque ahí todavía sirve
+para algo.
+
+### El número de la sesión de Jurídica está en disputa
+
+El acta de la S3 anunció «Para la Sesión 5, el jueves a las 11:00», contando la
+individual de Lilibeth del miércoles 2 como la S4. Esa individual se movió al lunes 7,
+así que por orden cronológico la de hoy es la S4 — y así se llama la cita en el
+calendario. El recordatorio salió **sin número** a propósito. Antes de armar el acta de
+esta sesión hay que decidir cuál de las dos numeraciones queda.
+
 ## Actas listas, sin publicar
 
 | Sesión | Fecha | Canal | Estado |
