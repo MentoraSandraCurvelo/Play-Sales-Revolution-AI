@@ -15,6 +15,25 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ✅ 3 sep · 13:15 — CORRECCIÓN: Gerencia Financiera SÍ tuvo su sesión
+
+Sandra confirma que **Wilgenes y el equipo sí entraron**. En el canal no quedó ninguna
+respuesta después del aviso de las 8:10, y de ahí se dedujo que la sesión se había
+caído. **Falso.**
+
+**Gerencia Financiera volvió después de 16 días**, que era la recuperación más difícil
+del programa. Con esa, hoy van cinco sesiones ejecutadas.
+
+**Regla de método, para las dos agentes:** **el silencio en el canal NO es evidencia de
+que una sesión no ocurrió.** La gente entra a Teams sin escribir en Slack. Una sesión
+solo se da por no realizada cuando lo dice el informe de asistencia o lo confirma
+Sandra — nunca por deducción a partir de un canal callado.
+
+Es el mismo patrón del error de las actas: buscar en el sitio equivocado y concluir
+una ausencia. Aquí la fuente es Teams, no Slack.
+
+---
+
 ## 🚨 3 sep · 11:00 — ERROR: la respuesta a Juan Pablo se envió a otra persona
 
 **Lo que pasó.** A las 10:03 se respondió el DM de Juan Pablo usando el `user_id`
