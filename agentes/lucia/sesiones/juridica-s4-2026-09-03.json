@@ -1,0 +1,381 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "JURÍDICA",
+  "area_completa": "",
+  "sesion_num": 4,
+  "fase": "Ejercicios Prácticos",
+  "fecha": "3 de septiembre de 2026",
+  "fecha_corta": "3 septiembre 2026",
+  "subtitulo_meta": "3 de septiembre de 2026 · 11:00 a.m. · 1 h 5 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    [
+      "Área(s)",
+      "Jurídica — Comfacesar"
+    ],
+    [
+      "Sesión",
+      "N° 4 — Los tres tableros del área, y la apertura de Gemini y NotebookLM"
+    ],
+    [
+      "Fecha",
+      "3 de septiembre de 2026"
+    ],
+    [
+      "Hora inicio",
+      "11:00 a. m. — Colombia (sala abierta desde las 10:59)"
+    ],
+    [
+      "Duración de la sesión",
+      "1 h 5 min (11:00 a. m. – 12:05 p. m.)"
+    ],
+    [
+      "Modalidad",
+      "Virtual — Microsoft Teams"
+    ],
+    [
+      "Correos Slack activados",
+      "secretaria_juridica@comfacesar.com · contratacion@comfacesar.com · analistaalianzas@comfacesar.com"
+    ],
+    [
+      "Grabación",
+      "Se publica en el canal del área"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo — Mentora IAM™ Intelligence"
+    ]
+  ],
+  "kpis": [
+    {
+      "valor": "3/3",
+      "etiqueta": "Asistencia completa",
+      "detalle": "Segunda sesión seguida con el equipo entero"
+    },
+    {
+      "valor": "1 semana",
+      "etiqueta": "Informe gerencial",
+      "detalle": "Lo que hoy toma organizarlo a mano"
+    },
+    {
+      "valor": "3",
+      "etiqueta": "Tableros en construcción",
+      "detalle": "Uno por cada integrante del área"
+    },
+    {
+      "valor": "14",
+      "etiqueta": "Google Sheets a conectar",
+      "detalle": "La herramienta alcanzó a leer 3"
+    },
+    {
+      "valor": "2",
+      "etiqueta": "Herramientas nuevas",
+      "detalle": "Gemini con Deep Research · NotebookLM"
+    },
+    {
+      "valor": "1",
+      "etiqueta": "Puesto en versión gratuita",
+      "detalle": "Los créditos se agotan a mitad de ejercicio"
+    }
+  ],
+  "participantes": [
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "—",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Lilibeth Costa",
+      "cargo": "Secretaría Jurídica — Comfacesar",
+      "correo": "secretaria_juridica@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Avanzado"
+    },
+    {
+      "nombre": "Renata Laino",
+      "cargo": "Contratación — Comfacesar",
+      "correo": "contratacion@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Avanzado"
+    },
+    {
+      "nombre": "Carlos Mario Gamarra Montes",
+      "cargo": "Analista de Alianzas — Comfacesar",
+      "correo": "analistaalianzas@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Avanzado"
+    }
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 4. Los tres integrantes llegaron con trabajo propio construido entre sesiones, así que los riesgos ya no son de arranque sino de sostenimiento: licencias, permisos y formatos de entrega.",
+  "riesgos": [
+    {
+      "titulo": "El informe entregado en Markdown salió del área sin formato",
+      "nivel": "CRITICO",
+      "descripcion": "La herramienta entregó el informe de convenios en MD —el formato que usa internamente para leer rápido— y así, sin estructura ni formato, se descargó y se compartió con un compañero que iba a presentarlo al director. El computador no lo abría bien. La regla que sale de aquí vale para toda el área: nunca aceptar la entrega en MD; pedir siempre el documento en .doc, con formato, colores, semaforización y tabla de contenido.",
+      "responsable": "Jurídica — todo el equipo / Inmediato"
+    },
+    {
+      "titulo": "Renata sigue en versión gratuita y se queda sin créditos a mitad de ejercicio",
+      "nivel": "ALTO",
+      "descripcion": "El instructivo de invitaciones que venía trabajando quedó parado por falta de saldo, y hubo que reanudarlo en sesión. Sin la versión paga tampoco puede instalar la aplicación de escritorio, que es la que permite trabajar sobre carpetas en vez de subir archivos uno por uno. Es el mismo cuello de botella que se reportó en la Sesión 3.",
+      "responsable": "Renata Laino / Antes de la S6"
+    },
+    {
+      "titulo": "Claude Code pide permiso de sistemas en el equipo de la oficina",
+      "nivel": "ALTO",
+      "descripcion": "Al intentar instalarlo desde el computador de la oficina, el equipo pide una autorización que el usuario no tiene. Se suma a que Claude Code solo funciona en la versión paga. Es la base de los agentes, que es hacia donde va el área: sin permiso de TI y sin licencia, ese paso queda bloqueado.",
+      "responsable": "Comfacesar — TI / Antes de la S6"
+    },
+    {
+      "titulo": "El tablero solo leyó 3 de los 14 archivos",
+      "nivel": "ALTO",
+      "descripcion": "El informe gerencial se alimenta de 14 Google Sheets que toda la oficina actualiza en tiempo real. La herramienta alcanzó a analizar tres, y devolvió información de 2024 y 2025 cuando lo que se pedía era del año en curso. No es una falla del tablero: la instrucción no era lo bastante específica y los archivos no estaban conectados por Drive. Antes de dar por bueno un resultado hay que preguntarle si está leyendo los catorce.",
+      "responsable": "Lilibeth Costa / Antes de la S5"
+    },
+    {
+      "titulo": "Las licencias están compradas con correos personales",
+      "nivel": "MEDIO",
+      "descripcion": "El plan Pro se adquirió con la cuenta personal porque desde la corporativa no dejaba. Funciona, y los conectores sí se pueden dejar apuntando al correo de Comfacesar, que es lo que importa para entrar al correo y al Drive del trabajo. Queda anotado porque cuando la empresa decida la licencia corporativa habrá que consolidarlo.",
+      "responsable": "Jurídica / Octubre"
+    },
+    {
+      "titulo": "El artefacto de convenios no se deja compartir",
+      "nivel": "MEDIO",
+      "descripcion": "Al intentar generar el enlace del tablero de convenios, la opción de compartir no responde. Sin enlace, el trabajo se queda en el computador de quien lo hizo y pierde justamente lo que lo hace útil: que el director lo abra y lo vea actualizado sin que nadie se lo envíe.",
+      "responsable": "Carlos Mario Gamarra / Antes de la S6"
+    },
+    {
+      "titulo": "La vinculación del celular con el escritorio no terminó",
+      "nivel": "MEDIO",
+      "descripcion": "Se intentó con dos puestos y en los dos aparecieron instrucciones en inglés sin llegar a vincular. Quedó instalada la extensión en Chrome y activados los permisos del computador, que es la mitad del camino. Es lo que permite lanzar un análisis desde fuera de la oficina.",
+      "responsable": "Lilibeth Costa + Carlos Mario Gamarra / Antes de la S6"
+    },
+    {
+      "titulo": "Los logros del área no se socializan dentro de la empresa",
+      "nivel": "BAJO",
+      "descripcion": "Salió como necesidad real: Jurídica lleva procesos administrativos donde se recuperan dineros y se apoya a otras áreas, y eso no se ve dentro de Comfacesar. No es un problema de herramienta sino de presentación, y es exactamente lo que resuelven los tableros que se están construyendo.",
+      "responsable": "Jurídica / Octubre"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "CRITICO",
+      "titulo": "Nunca aceptar la entrega en Markdown — pedir siempre .doc",
+      "descripcion": "Aplica a los tres. Cuando el resultado sea un informe, se pide el documento en .doc con formato, colores, semaforización y tabla de contenido. Un MD que sale del área hacia la dirección es un documento sin presentación.",
+      "responsable": "Jurídica — todo el equipo",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Conectar los 14 Google Sheets y terminar de modelar el tablero gerencial",
+      "descripcion": "Conectar Drive y seleccionar los catorce archivos, verificar preguntándole si los está leyendo todos, acotar el periodo al año en curso, y seguir pidiendo: pestañas, filtros, KPIs en su propia vista y semaforización. Y programar el corte automático — por ejemplo, todos los días a las 7 de la mañana.",
+      "responsable": "Lilibeth Costa",
+      "plazo": "Antes de la Sesión 5"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Pasar a la versión Pro para poder instalar el escritorio",
+      "descripcion": "Es lo que desbloquea trabajar sobre carpetas en vez de subir archivos, y lo que evita que los ejercicios se detengan a mitad por falta de créditos. Sin eso, el ritmo del puesto va a seguir siendo el de una sesión sí y otra no.",
+      "responsable": "Renata Laino",
+      "plazo": "Antes de la Sesión 6"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Meterle KPIs, gráficos y marca al tablero de convenios",
+      "descripcion": "El tablero ya organiza los convenios de prácticas y con universidades, y avisa cuáles vencen y en cuántos días. Falta la capa visual: gráficos —torta, barras, burbujas—, el logo de Comfacesar y la colorimetría. Y resolver por qué no deja generar el enlace para compartir.",
+      "responsable": "Carlos Mario Gamarra",
+      "plazo": "Antes de la Sesión 6"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Compartir siempre con «cualquiera con el enlace»",
+      "descripcion": "Un tablero compartido en modo privado no se actualiza para quien lo recibe. Al generar el enlace hay que cambiarlo de «solo tú» a «cualquiera», y así el enlace se envía una sola vez y siempre muestra la versión al día.",
+      "responsable": "Jurídica — todo el equipo",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Registrar en el tablero el antes y el después de cada ejercicio",
+      "descripcion": "El informe gerencial toma hoy mínimo una semana de organización. Cuando el tablero quede modelado hay que tomar el tiempo real y anotarlo. Ese par de cifras es lo que sustenta la decisión de licencia corporativa en octubre.",
+      "responsable": "Jurídica — todo el equipo",
+      "plazo": "Permanente"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El tablero del informe gerencial de seguimiento",
+      "duracion": "~18 min",
+      "objetivo": "Revisar el tablero que Lilibeth construyó por su cuenta y entender por qué el primer resultado quedó corto.",
+      "pasos": [
+        "Lilibeth ya activó el plan Pro y llegó con un artefacto construido: el informe gerencial de los procesos que tiene a cargo",
+        "Le cargó 14 Google Sheets; la herramienta alcanzó a analizar 3 y devolvió información de 2024 y 2025",
+        "Diagnóstico: la instrucción no fue lo bastante específica y los archivos no estaban conectados por Drive",
+        "Se explicó el modelamiento: pedir pestañas por periodo, KPIs en su propia vista, filtros y semaforización, una petición a la vez",
+        "Conectar Drive y seleccionar los catorce archivos, en vez de subirlos",
+        "Verificar siempre: preguntarle si realmente está conectada a los catorce archivos que debe leer",
+        "Programar el corte automático — por ejemplo, actualizar el tablero todos los días a las 7 de la mañana con lo que se cargó el día anterior",
+        "Compartir el enlace en modo «cualquiera con el enlace», no «solo tú»: si no, el tablero no se actualiza para quien lo recibe",
+        "El informe gerencial toma hoy mínimo una semana de organización; el objetivo es que la dirección abra un enlace siempre al día"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El histórico de convenios de Carlos Mario",
+      "duracion": "~12 min",
+      "objetivo": "Revisar la aplicación que construyó por su cuenta para el seguimiento de convenios, y corregir el formato de entrega.",
+      "pasos": [
+        "El tablero organiza los convenios de prácticas internas y los convenios con universidades",
+        "Muestra vigencia y cuántos días faltan para el vencimiento de cada uno",
+        "La herramienta avisó por su cuenta que los convenios de práctica no llevan aporte económico, sin que se lo hubieran dicho — efecto de tener el perfil bien configurado",
+        "Se detectó el error de formato: el informe se entregó en MD y así se compartió con un compañero para presentarlo al director",
+        "Corrección para toda el área: pedir siempre el documento en .doc, con formato, colores, semaforización y tabla de contenido",
+        "Tarea: añadir KPIs y gráficos, el logo de Comfacesar y la colorimetría del área",
+        "El enlace para compartir no se dejó generar — queda pendiente de resolver"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Habilidades y entorno de escritorio",
+      "duracion": "~12 min",
+      "objetivo": "Dejar instalado el entorno que hace falta para los agentes, y retomar el instructivo que quedó parado.",
+      "pasos": [
+        "Renata ya creó la habilidad de abogado experto en derecho contractual colombiano, para que la use todo el equipo",
+        "Retomar el instructivo de invitaciones que quedó parado por falta de créditos, con la circular y el manual cargados",
+        "Instalar la extensión de Claude en Chrome y activar los permisos del computador",
+        "Intentar la vinculación del celular con el escritorio: no terminó de conectar en ninguno de los dos puestos",
+        "Claude Code: bloqueado por permiso de sistemas en el equipo de la oficina, y solo disponible en versión paga"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Apertura de Gemini y NotebookLM",
+      "duracion": "~20 min",
+      "objetivo": "Mostrar el alcance de las otras dos herramientas del entorno. Jurídica es el primer grupo del programa que llega a este bloque.",
+      "pasos": [
+        "Deep Research en Gemini, con una consulta real del área: cómo funcionan los bufetes de abogados a nivel mundial y nacional, con comparativo de ventajas y desventajas para llevar ese esquema a Jurídica",
+        "Quedó claro que el método CREA se aplica igual aquí que en cualquier otra herramienta",
+        "Las distintas capacidades del modelo: el más profundo tarda más, el rápido responde antes",
+        "NotebookLM: hasta 300 documentos analizados en paralelo — contratos, convenios, expedientes",
+        "Sobre un documento cargado se puede pedir mapa mental, infografía, presentación e incluso una presentación hablada o un podcast",
+        "Caso de uso planteado: mandar al director el informe de convenios como audio, para escucharlo en vez de leerlo"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 4 · 3 septiembre 2026",
+      "titulo": "El informe gerencial que se actualiza solo",
+      "descripcion": "Hoy Lilibeth organiza a mano la información de 14 hojas que toda la oficina alimenta, y el informe para la alta dirección le toma mínimo una semana. El tablero que está construyendo lee esas mismas hojas, se actualiza en el horario que se le fije y se comparte por un enlace único: la dirección deja de recibir un informe y pasa a mirar un tablero al día. Es también la respuesta al problema que ella misma planteó — que los logros del área no se ven.",
+      "estado": "En construcción — falta conectar los 14 archivos y modelar la presentación",
+      "proximo_paso": "Conectar Drive, acotar el periodo y seguir pidiendo pestañas, filtros y KPIs",
+      "target": "Sesión 5"
+    },
+    {
+      "encabezado": "OPORTUNIDAD PROBADA · SESIÓN 4 · 3 septiembre 2026",
+      "titulo": "El histórico de convenios con alerta de vencimiento",
+      "descripcion": "Carlos Mario lo construyó por su cuenta entre sesiones. El tablero organiza los convenios de prácticas internas y con universidades, y de cada uno muestra si está vigente y cuántos días faltan para que venza. Ya respondió a una solicitud real: un compañero necesitaba el conteo de convenios con universidades para una reunión con el director. Falta la capa visual y el enlace para compartir.",
+      "estado": "Funcionando — usado ya en un requerimiento real",
+      "proximo_paso": "Añadir KPIs, gráficos y marca, y resolver el enlace para compartir",
+      "target": "Sesión 6"
+    }
+  ],
+  "tareas_intro": "Los tres llegaron con algo construido entre sesiones y sin que nadie se lo pidiera dos veces. Por eso la sesión pudo dedicarse a corregir y a abrir herramientas nuevas en vez de repasar. Lo que frena al área ya no es el aprendizaje: son licencias, permisos de TI y formatos de entrega.",
+  "tareas": [
+    {
+      "tarea": "Pedir siempre el documento en .doc — nunca aceptar la entrega en MD",
+      "responsable": "Todo el equipo",
+      "prioridad": "URGENTE",
+      "plazo": "Inmediato"
+    },
+    {
+      "tarea": "Conectar los 14 Google Sheets por Drive y verificar que los esté leyendo todos",
+      "responsable": "Lilibeth Costa",
+      "prioridad": "URGENTE",
+      "plazo": "Antes de S5"
+    },
+    {
+      "tarea": "Modelar el tablero gerencial: pestañas, filtros, KPIs y semaforización",
+      "responsable": "Lilibeth Costa",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S5"
+    },
+    {
+      "tarea": "Programar la actualización automática del tablero",
+      "responsable": "Lilibeth Costa",
+      "prioridad": "MEDIA",
+      "plazo": "Antes de S5"
+    },
+    {
+      "tarea": "Traer montado el ejercicio de informes y KPIs del área",
+      "responsable": "Lilibeth Costa",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S5"
+    },
+    {
+      "tarea": "Pasar a la versión Pro para instalar la aplicación de escritorio",
+      "responsable": "Renata Laino",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S6"
+    },
+    {
+      "tarea": "Retomar el instructivo de invitaciones bajo la nueva normativa",
+      "responsable": "Renata Laino",
+      "prioridad": "MEDIA",
+      "plazo": "Antes de S6"
+    },
+    {
+      "tarea": "Añadir KPIs, gráficos y marca al tablero de convenios",
+      "responsable": "Carlos Mario Gamarra",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S6"
+    },
+    {
+      "tarea": "Resolver el enlace para compartir el tablero de convenios",
+      "responsable": "Carlos Mario Gamarra",
+      "prioridad": "MEDIA",
+      "plazo": "Antes de S6"
+    },
+    {
+      "tarea": "Autorizar la instalación de Claude Code en los equipos de la oficina",
+      "responsable": "Comfacesar — TI",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S6"
+    },
+    {
+      "tarea": "Registrar en el tablero el tiempo antes y después de cada ejercicio",
+      "responsable": "Todo el equipo",
+      "prioridad": "ALTA",
+      "plazo": "Permanente"
+    }
+  ],
+  "observaciones": [
+    "Segunda sesión seguida con asistencia completa. Es la única área del programa que lo ha logrado dos veces, y se nota en el nivel: la sesión no empezó explicando nada, empezó revisando lo que cada uno construyó por su cuenta.",
+    "Los tres llegaron con un tablero propio en marcha — el informe gerencial, el histórico de convenios y la habilidad de derecho contractual. Ninguno de los tres se pidió como tarea obligatoria en esos términos; los armaron entre sesiones.",
+    "El error del informe entregado en Markdown vale más que cualquier ejercicio de la sesión, porque ya había salido del área hacia una reunión con el director. La herramienta usa MD internamente para leer rápido y gastar menos créditos, pero eso no es un entregable. La corrección quedó dicha para los tres.",
+    "Por el nivel del área se abrió el bloque de Gemini y NotebookLM, que ningún otro grupo del programa ha visto todavía. Quedó enunciado, no practicado: los ejercicios se hacen en la próxima sesión.",
+    "Lilibeth planteó un tema que excede la herramienta: los procesos donde Jurídica recupera dineros o apoya a otras áreas no se ven dentro de Comfacesar. Los tableros que se están construyendo son exactamente la forma de mostrarlo, y conviene conversarlo con el doctor Víctor Rueda.",
+    "Sobre licencias: se explicó que existe una modalidad corporativa que se cotiza según el número de empleados que la usan, y que la decisión se toma con el reporte de cierre de octubre — quiénes están activos y qué procesos quedaron montados. Renata señaló que el área empieza ahora la formulación del presupuesto anual, que es el momento para incluirlo.",
+    "Quedó anotado que el área de Auditoría Interna nunca se activó en el programa."
+  ],
+  "proxima_sesion": {
+    "sesion": "Jurídica — Sesión 5 (individual de Lilibeth, lunes 7 de septiembre). El equipo completo vuelve en la Sesión 6, el miércoles 9.",
+    "condiciones": [
+      "Los 14 Google Sheets conectados y verificados",
+      "El tablero gerencial modelado hasta donde se pueda",
+      "El ejercicio de informes montado para trabajarlo en vivo",
+      "Todos los entregables en .doc, ninguno en MD"
+    ],
+    "agenda": [
+      "Revisión del tablero gerencial con los catorce archivos conectados",
+      "Informes con semaforización y gráficos interactivos",
+      "KPIs del área",
+      "Ejercicios reales sobre Gemini y NotebookLM, que hoy quedaron solo enunciados"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 3 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

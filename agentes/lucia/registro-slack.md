@@ -200,6 +200,25 @@ moverla al lunes 7 los números se recorrieron.
 se mueve, los números se recorren. Antes de escribir un número en un acta se confirma
 contra el calendario, nunca contra el acta anterior.
 
+### Jurídica S4 — armada en el mismo corte
+
+Sandra subió el VTT y la asistencia de Jurídica a las 1:16 p. m., en su carpeta
+(`5. Juridica/Sesion 4`). El acta se armó de una vez, sin esperar al corte de las 6.
+
+| Acta | Sesión | PDF |
+|---|---|---|
+| Jurídica S4 | jue 3, 11:00 a. m. | `ACTA_Sesion4_Juridica_3septiembre2026.pdf` |
+
+Grabación publicada a la 1:20 p. m. Resumen programado: **viernes 8:02** — `Dr0BUYAQD8FN`.
+
+Con este van **tres mensajes programados para el viernes**: 8:00 `#gerencia-financiera`,
+8:01 `#agencia-de-empleo`, 8:02 `#juridica`. Faltan los del corte de las 6 p. m.
+(Servicios Sociales S6 y Planeación S2).
+
+**La regla del formato de entrega, que sale de esta sesión y aplica a todo el programa:**
+nunca aceptar un informe en MD. Es el formato interno de lectura, no un entregable. En
+Jurídica ya había salido un informe en MD hacia una reunión con el director.
+
 ## Actas listas, sin publicar
 
 | Sesión | Fecha | Canal | Estado |
