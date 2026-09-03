@@ -15,6 +15,34 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📊 3 sep · 14:20 — Termómetro al día: 47 sesiones y 90%
+
+Sandra señaló que el tablero seguía diciendo **44** — era el corte de las 7:20, antes de
+las sesiones de hoy. Republicado con las tres de la mañana, que ya tienen soporte
+completo y **las tres al 100%**:
+
+| Sesión | Asistencia | Duración |
+|---|---|---|
+| **Gerencia Financiera S2** | 4 / 4 — Yeraldin, Wilgenes Salgado, Carlos Mendoza y Contabilidad | **2 h 47 min** |
+| **Agencia de Empleo S4** | 2 / 2 — Lina María y José Jaime | 1 h 17 min |
+| **Jurídica S4** | 3 / 3 — Carlos Mario, Lilibeth y Renata | 1 h 5 min |
+
+**Nuevos números: 47 sesiones ejecutadas · 90% de asistencia · 108/120 · 43 sesiones
+medidas.**
+
+**Gerencia Financiera no solo volvió: fue la sesión más larga del programa** — casi tres
+horas, con Yeraldin dentro 2 h 37 min. Y sumó una cuarta persona, el equipo de
+Contabilidad, que no estaba en la S1. El área más rezagada de las veinte dejó de serlo.
+
+**Jurídica llegó completa por segunda vez seguida**, única del programa. Y Lilibeth
+publicó su tablero gerencial en el canal por iniciativa propia — primera vez que un área
+comparte su entregable sin que se lo pidan. Dato para el reporte del martes: ese informe
+le toma hoy **mínimo una semana** y son 14 Google Sheets.
+
+Servicios Sociales está en curso y Planeación entra a las 3:00 — el día cierra en **49**.
+
+---
+
 ## ✅ 3 sep · 13:15 — CORRECCIÓN: Gerencia Financiera SÍ tuvo su sesión
 
 Sandra confirma que **Wilgenes y el equipo sí entraron**. En el canal no quedó ninguna
