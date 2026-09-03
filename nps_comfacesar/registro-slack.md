@@ -15,6 +15,35 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📌 3 sep · 10:03 — DM de Juan Pablo respondido
+
+**JpCurvelo, 10:00 por DM:** «hola Buen día · no veo el enlace de hoy». Su individual de
+Servicios Sociales S6 es **hoy a las 2:00 p. m.**, no en la mañana — parece que se
+adelantó pensando que era temprano.
+
+Se le respondió por DM: confirmada la hora, indicado que el enlace de Teams está en la
+invitación del calendario —no se inventó otra ubicación— y ofrecido pasárselo al canal
+a la 1:45 si no la ubica. Se le recordó traer la carpeta real para probar cowork.
+
+**Estado de las cinco sesiones de hoy a esta hora:**
+
+| Sesión | Estado |
+|---|---|
+| Gerencia Financiera 8:00 | **Nadie entró.** Lucía avisó a las 8:10 que estaba en la sala; sin respuesta de Yeraldin, Wilgenes ni Carlos Mario |
+| Agencia de Empleo 9:00 | ✅ Lina María confirmó «ya estamos en sala» a las 9:04 |
+| Jurídica S4 11:00 | recordatorio publicado por Lucía a las 10:00 |
+| Servicios Sociales S6 14:00 | Juan Pablo preguntó por el enlace |
+| Planeación S2 15:00 | pendiente |
+
+**Gerencia Financiera es lo preocupante:** llevaba 16 días parada, reaccionó al aviso del
+lunes, agendó — y la sesión se cayó. Si no se recupera hoy mismo, el área vuelve al
+punto de partida.
+
+**El `:red_circle:` volvió a salir**, esta vez en el aviso de las 8:10 de Gerencia
+Financiera. Cuarta vez en dos días. Ya no es descuido de una plantilla suelta.
+
+---
+
 ## 📋 3 sep · 08:27 — Plan de trabajo para Comunicaciones, publicado
 
 María Elvira escribió el 2 a las 18:25 pidiendo cuatro cosas: diseño con IA acorde al
