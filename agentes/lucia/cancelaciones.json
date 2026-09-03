@@ -43,12 +43,28 @@
       "compromiso": null,
       "cuenta_como": "cancelada",
       "nota": "Al 1 de septiembre por la noche la cita seguía en el calendario de Outlook. Hay que borrarla, o el recordatorio de la una hora antes sale igual."
+    },
+    {
+      "area": "Servicios Sociales",
+      "sesion": "S6",
+      "fecha": "2026-09-03",
+      "hora": "14:00",
+      "canal": "#serivcios-sociales",
+      "quien_cancela": "IAM™ — Sandra",
+      "motivo": "Juan Pablo no ingresó a la sala. Sandra esperó, avisó en el canal a las 2:05 p. m. que estaba conectada, y canceló al no obtener respuesta.",
+      "causa": "inasistencia — no ingresó a la sala",
+      "aviso_en_canal": "https://iamteamespacio.slack.com/archives/C0BPRGNGLJ1/p1788462318991579",
+      "reagendada": false,
+      "compromiso": null,
+      "cuenta_como": "cancelada",
+      "nota": "Es la primera inasistencia del programa: las tres anteriores fueron cruces de agenda avisados con antelación. Y es del área más avanzada, con cinco sesiones hechas. El recordatorio del área salió a la 1:00 p. m. como estaba programado."
     }
   ],
   "patron": {
     "detectado": "2026-09-01",
-    "que_pasa": "Tres sesiones caídas en la misma semana —Educación S3 y Tecnología S3 el lunes, Cumplimiento S2 el miércoles— y las tres por lo mismo: se cruzan con otras actividades del área. Ninguna quedó reagendada.",
-    "por_que_importa": "No es un problema de interés sino de agenda: el espacio existe pero lo desplaza cualquier otra cosa. Quedan cinco semanas de programa y una sesión que se cae sin reagendar no se recupera sola.",
-    "a_quien_toca": "María Elvira Marulanda — es quien puede pedir que el espacio del programa se respete como cualquier otro compromiso institucional."
+    "que_pasa": "Cuatro sesiones caídas en dos semanas. Tres por cruce con otras actividades —Educación S3 y Tecnología S3 el lunes 31, Cumplimiento S2 el miércoles 2— y la cuarta, Servicios Sociales S6 el jueves 3, por inasistencia: nadie entró a la sala. Ninguna quedó reagendada.",
+    "por_que_importa": "No es un problema de interés sino de agenda: el espacio existe pero lo desplaza cualquier otra cosa. La de Servicios Sociales pesa distinto, porque es el área más avanzada del programa —cinco sesiones hechas— y aun así la hora se perdió sin aviso. Quedan cinco semanas de programa y una sesión que se cae sin reagendar no se recupera sola.",
+    "a_quien_toca": "María Elvira Marulanda — es quien puede pedir que el espacio del programa se respete como cualquier otro compromiso institucional.",
+    "actualizado": "2026-09-03"
   }
 }
