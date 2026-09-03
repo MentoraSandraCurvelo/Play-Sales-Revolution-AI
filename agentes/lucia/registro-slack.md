@@ -244,6 +244,54 @@ antes de publicar.
 lista, y no a la mañana siguiente. Solo se programa cuando los archivos llegan tan tarde
 que el acta no alcanza a quedar el mismo día.
 
+### Corte de las 6 — Planeación S2, y una sesión que no fue
+
+**Servicios Sociales S6 (2:00 p. m.) no se hizo.** Juan Pablo no ingresó. Sandra avisó en
+el canal a las 2:05 que estaba conectada y canceló al no obtener respuesta. Registrada en
+`cancelaciones.json` como la primera inasistencia del programa.
+
+**Planeación S2 sí se hizo, con el equipo completo.** El VTT llegó a las 4:28 p. m. — venía
+en `Downloads` del Mac, no en la carpeta del proyecto. No hubo informe de asistencia, así
+que los participantes se tomaron del transcript y se verificaron contra el canal.
+
+| Hora | Canal | Contenido | TS |
+|---|---|---|---|
+| 4:28 p. m. | `#planeacion` | Grabación S2 | `1788470905.691429` |
+| 4:32 p. m. | `#planeacion` | Resumen S2 | `1788471126.667239` |
+
+PDF: `ACTA_Sesion2_Planeacion_3septiembre2026.pdf`
+
+### Nombres de Planeación, verificados contra Slack
+
+| Transcript | Nombre real (Slack) | Correo |
+|---|---|---|
+| OSCAR MAESTRE | **Óscar Alonso Maestre Carrillo** — Gerente de Planeación | gerenciadeplaneacion@ |
+| Adriana Cotes Ayala | **Adriana Carolina Cotes Ayala** | planeacion@ |
+| Alemar Andre Granadillo Vidal | **Alemar André Granadillo Vidal** | alianzas@ |
+| Edwin Martinez Simanca | **Edwin Martínez Simanca** — Asistente de Planeación | asisplaneacion@ |
+| Danefer Mora | **Danefer Mora** — sin cuenta en el canal | — |
+
+**Danefer Mora está en el listado del proyecto pero no es miembro de `#planeacion`.** Estuvo
+en la sesión. Hay que agregarla al canal o no le llega nada de lo que se publica.
+
+**Sandra Milena Hinojosa (presupuesto@) sí está en el canal pero no estuvo en la sesión.**
+Su pregunta del 20 de agosto sigue sin responder.
+
+### Lo que se repite en todas las áreas
+
+Van cinco sesiones del jueves 3 y estos tres aparecen una y otra vez:
+
+1. **Permisos de TI que bloquean instalaciones.** Jurídica (Claude Code pide permiso de
+   sistemas), Planeación (el complemento y el escritorio piden contraseña), Gerencia
+   Financiera (Office desactualizado, sin complemento en la tienda).
+2. **Licencias compradas con correo personal**, porque desde el corporativo no deja.
+   Jurídica y Gerencia Financiera.
+3. **La creencia de que solo se agenda una sesión por semana.** Confirmada en Agencia de
+   Empleo y en Planeación el mismo día. Ninguna de las dos lo había dicho antes.
+
+Los tres son del programa, no de un área. El primero y el segundo se resuelven con TI;
+el tercero, con un mensaje a todos los canales.
+
 ## Actas listas, sin publicar
 
 | Sesión | Fecha | Canal | Estado |

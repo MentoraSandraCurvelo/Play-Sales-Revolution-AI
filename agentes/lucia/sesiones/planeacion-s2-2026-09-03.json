@@ -1,0 +1,278 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "PLANEACIÓN",
+  "area_completa": "",
+  "sesion_num": 2,
+  "fase": "Ejercicios Prácticos",
+  "fecha": "3 de septiembre de 2026",
+  "fecha_corta": "3 septiembre 2026",
+  "subtitulo_meta": "3 de septiembre de 2026 · 3:00 p.m. · 1 h 3 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Planeación — Comfacesar"],
+    ["Sesión", "N° 2 — La primera habilidad del programa, y el mapeo de riesgos del área"],
+    ["Fecha", "3 de septiembre de 2026"],
+    ["Hora inicio", "3:00 p. m. — Colombia"],
+    ["Duración de la sesión", "1 h 3 min (3:00 p. m. – 4:03 p. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Correos Slack activados", "gerenciadeplaneacion@comfacesar.com · planeacion@comfacesar.com · alianzas@comfacesar.com · asisplaneacion@comfacesar.com"],
+    ["Grabación", "Se publica en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "16", "etiqueta": "Días sin sesión", "detalle": "La S1 fue el 18 de agosto"},
+    {"valor": "125.000", "etiqueta": "Afiliados analizados", "detalle": "El archivo base de estadísticas"},
+    {"valor": "1", "etiqueta": "Habilidad creada", "detalle": "La primera del programa — comando /dato"},
+    {"valor": "2", "etiqueta": "Inconsistencias avisadas", "detalle": "La herramienta las señaló sola"},
+    {"valor": "0", "etiqueta": "Drive de riesgos", "detalle": "La matriz se consolida a mano"},
+    {"valor": "3", "etiqueta": "Puestos con equipo insuficiente", "detalle": "Sin micrófono o sin poder compartir"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Óscar Alonso Maestre Carrillo", "cargo": "Gerente de Planeación — Comfacesar", "correo": "gerenciadeplaneacion@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"},
+    {"nombre": "Adriana Carolina Cotes Ayala", "cargo": "Planeación — Comfacesar", "correo": "planeacion@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"},
+    {"nombre": "Alemar André Granadillo Vidal", "cargo": "Alianzas — Comfacesar", "correo": "alianzas@comfacesar.com", "modalidad": "Virtual", "nivel": "Avanzado"},
+    {"nombre": "Edwin Martínez Simanca", "cargo": "Asistente de Planeación — Comfacesar", "correo": "asisplaneacion@comfacesar.com", "modalidad": "Virtual", "nivel": "Inicial"},
+    {"nombre": "Danefer Mora", "cargo": "Planeación — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Inicial"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 2. Los del área aparecieron al mapear dos procesos reales —la analítica de afiliados y la matriz de riesgos—; los del entorno vienen de los equipos y de los permisos de sistemas.",
+  "riesgos": [
+    {
+      "titulo": "El área estuvo dieciséis días sin agendar",
+      "nivel": "CRITICO",
+      "descripcion": "La Sesión 1 fue el 18 de agosto y esta es la segunda. Mientras tanto hay áreas del programa que ya están configurando agentes y trabajando en otras herramientas. Quedó dicho en sesión y con el líder presente: no es una sesión por semana, se agendan todas las que el equipo pueda sostener, y las individuales avanzan más rápido que las grupales.",
+      "responsable": "Planeación / Inmediato"
+    },
+    {
+      "titulo": "La instalación pide una contraseña de sistemas que el área no tiene",
+      "nivel": "CRITICO",
+      "descripcion": "Al intentar instalar el complemento y la aplicación de escritorio, el equipo pide una credencial de sistemas. No es un caso aislado del área: varios compañeros reportan lo mismo. Sin resolverlo, todo lo que viene —trabajar sobre carpetas, el complemento en Excel, los agentes— queda bloqueado, por más que el equipo haga las tareas.",
+      "responsable": "Comfacesar — TI / Antes de la S3"
+    },
+    {
+      "titulo": "Los equipos del área no soportan el trabajo",
+      "nivel": "ALTO",
+      "descripcion": "Un puesto no tiene micrófono y hubo que participar desde el celular mientras se editaba en el computador. Otro no pudo compartir pantalla y tuvo que ceder su turno. Son computadores de mesa que no dan para lo que se está enseñando. Quedó planteado al líder del área, con la formulación presupuestal en curso, que se incluya el cambio de equipos y el paso a portátiles.",
+      "responsable": "Planeación + Comfacesar / Presupuesto anual"
+    },
+    {
+      "titulo": "No existe un repositorio compartido de la matriz de riesgos",
+      "nivel": "ALTO",
+      "descripcion": "Cada responsable de proceso hizo su propia identificación de riesgos en talleres y en su propio Excel, y el líder anterior consolidó todo a mano en un único documento. Hoy no hay un Drive donde consultarlo ni donde cada área actualice lo suyo. Eso obliga a rehacer la consolidación cada vez y deja el inventario de riesgos congelado en la fecha del último taller.",
+      "responsable": "Adriana Cotes / Antes de la S3"
+    },
+    {
+      "titulo": "Los criterios de la semaforización de controles viven solo en la cabeza de quien la hace",
+      "nivel": "ALTO",
+      "descripcion": "La matriz clasifica cada control como fuerte, moderado o débil, y esa clasificación la define una persona. Al recibir el cargo, la primera tarea es revisar si está bien puesta — pero no hay criterios escritos que digan qué hace que un control sea fuerte. Sin bajar esos criterios a la herramienta, no hay análisis posible: solo se repite el juicio anterior.",
+      "responsable": "Adriana Cotes / Antes de la S3"
+    },
+    {
+      "titulo": "El proyecto tenía el método CREA desordenado",
+      "nivel": "MEDIO",
+      "descripcion": "En el proyecto de estadísticas, el contexto estaba escrito en futuro —era acción, no contexto—, el rol pedía dos cosas a la vez y no había entregable definido. Quedó explicado: el contexto es el pasado y el presente, la acción es el futuro, y la entrega es el formato que se quiere recibir. Cuando la estructura falla, la herramienta pregunta, y cada pregunta consume créditos del plan.",
+      "responsable": "Óscar Maestre / Resuelto en sesión"
+    },
+    {
+      "titulo": "Hay conversaciones de trabajo fuera de todo proyecto",
+      "nivel": "MEDIO",
+      "descripcion": "Aparecieron consultas sueltas —una presentación de datos poblacionales, un documento en revisión— trabajadas fuera de cualquier proyecto. Mientras se trata de subir un archivo y pedir un análisis no pasa nada; cuando el trabajo se encadene con correos, carpetas y agentes, esas conversaciones sueltas rompen la lógica del proceso.",
+      "responsable": "Planeación / Antes de la S3"
+    },
+    {
+      "titulo": "Dos puestos siguen en versión gratuita",
+      "nivel": "MEDIO",
+      "descripcion": "El ejercicio del día se trabajó en versión gratuita y el crédito alcanzó, pero de aquí en adelante no. La versión paga es la que permite instalar el escritorio y trabajar sobre carpetas en vez de subir archivos uno por uno.",
+      "responsable": "Planeación / Antes de la S3"
+    },
+    {
+      "titulo": "El trabajo previo hecho con otra metodología no entra en la medición",
+      "nivel": "BAJO",
+      "descripcion": "Un integrante del área trae proyectos construidos meses atrás en un curso externo, con otra estructura. Está bien hechos y puede compartirlos con el equipo, pero no se registran en el tablero del programa ni se construyen agentes sobre ellos: lo que se mide tiene que haber salido de esta metodología, porque es la que sostiene el proceso cuando lo auditen. Se acordó medir lo nuevo — agentes y cowork.",
+      "responsable": "Alemar Granadillo / Acordado en sesión"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "CRITICO",
+      "titulo": "Agendar sesiones individuales, varias por semana",
+      "descripcion": "Es lo que cierra la brecha de los dieciséis días. Cada uno agenda la suya y trae su proceso; las individuales avanzan más rápido porque se mapea un solo trabajo a fondo. Todas duran una hora, y la agenda está reservada para Comfacesar hasta el 30 de octubre.",
+      "responsable": "Todo el equipo",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "02",
+      "nivel": "CRITICO",
+      "titulo": "Desbloquear la contraseña de sistemas para las instalaciones",
+      "descripcion": "El complemento y la aplicación de escritorio piden una credencial que el área no tiene. Sin eso, las tareas de instalación no se pueden hacer por más voluntad que haya. Hay que resolverlo con TI antes de la próxima sesión.",
+      "responsable": "Comfacesar — TI",
+      "plazo": "Antes de la Sesión 3"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Modelar el análisis de afiliados hasta que quede como se necesita",
+      "descripcion": "El primer resultado ya está. Ahora hay que seguir pidiendo: que ordene mejor la data, que corrija los anchos y los colores, que agregue una tabla dinámica, que sume columnas y fórmulas. Y cargar al mismo proyecto las demás variables —afiliados a cargo, empresas, uso de servicios— para que al final salga un tablero interactivo con los KPIs del área.",
+      "responsable": "Óscar Maestre",
+      "plazo": "Antes de la Sesión 3"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Escribir los criterios de la semaforización de controles",
+      "descripcion": "Qué hace que un control sea fuerte, moderado o débil. Ese criterio, hoy implícito, es lo que hay que dictarle a la herramienta para que revise la matriz completa y devuelva un diagnóstico en vez de repetir la clasificación heredada. Es el primer entregable real del nuevo rol de riesgos.",
+      "responsable": "Adriana Cotes",
+      "plazo": "Antes de la Sesión 3"
+    },
+    {
+      "num": "05",
+      "nivel": "ALTO",
+      "titulo": "Proponer un Drive compartido para la matriz de riesgos",
+      "descripcion": "Que cada responsable de proceso actualice ahí lo suyo y la herramienta lea directamente de esa carpeta, sin descargar ni consolidar a mano. Es el mismo esquema que ya está funcionando en otra área del programa con catorce archivos vivos.",
+      "responsable": "Adriana Cotes",
+      "plazo": "Antes de la Sesión 3"
+    },
+    {
+      "num": "06",
+      "nivel": "ALTO",
+      "titulo": "Dejar instalado el entorno completo antes de la próxima sesión",
+      "descripcion": "Claude de escritorio, Claude Code, la extensión en Chrome, la aplicación en el celular y la vinculación del celular con el escritorio por dispatch. La instrucción fue explícita: hacerlo por su cuenta y llegar con las dudas concretas, no usar la sesión para instalar.",
+      "responsable": "Todo el equipo",
+      "plazo": "Antes de la Sesión 3"
+    },
+    {
+      "num": "07",
+      "nivel": "MEDIO",
+      "titulo": "Incluir en el presupuesto el cambio de equipos del área",
+      "descripcion": "Computadores que no soportan un micrófono ni permiten compartir pantalla frenan el ejercicio en cada sesión. Se planteó con el líder presente y en plena formulación presupuestal: equipos nuevos y portátiles para el equipo.",
+      "responsable": "Óscar Maestre",
+      "plazo": "Presupuesto anual"
+    },
+    {
+      "num": "08",
+      "nivel": "MEDIO",
+      "titulo": "Meter las conversaciones sueltas dentro de un proyecto",
+      "descripcion": "Todo lo que se trabaje del área va dentro de su proyecto. Es lo que permite que después se pueda encadenar con correos, carpetas y agentes sin que se rompa el proceso.",
+      "responsable": "Todo el equipo",
+      "plazo": "Antes de la Sesión 3"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Reordenar el proyecto de estadísticas con el método CREA",
+      "duracion": "~20 min",
+      "objetivo": "Dejar bien estructurado el proyecto del área antes de pedirle nada, para que el resultado sea repetible.",
+      "pasos": [
+        "Abrir el detalle del proyecto en los tres puntos → Editar detalles",
+        "Separar lo que estaba mezclado: el contexto es el pasado y el presente —cómo se hace hoy el proceso y cuánto tarda—, no lo que se quiere lograr",
+        "La acción es el futuro: lo que la herramienta debe hacer",
+        "La entrega es el formato que se quiere recibir; aquí, un tablero interactivo con los KPIs del área",
+        "El rol pedía dos cosas a la vez: asesor estratégico y equipo multidisciplinario experto. Se dejó el rol limpio y el bloque de experto se sacó aparte",
+        "Quedó explicado por qué importa: si la estructura falla, la herramienta pregunta, y cada pregunta consume créditos del plan"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Crear la primera habilidad del programa",
+      "duracion": "~15 min",
+      "objetivo": "Convertir el bloque de «experto multidisciplinario» en algo reutilizable, y entender la diferencia entre proyecto y habilidad.",
+      "pasos": [
+        "La diferencia: el proyecto es un asistente que se configura una vez y vive dentro de ese proyecto; la habilidad es un conocimiento específico que se usa en varios proyectos y se comparte con el equipo",
+        "Menú → Personalizar → Agregar → Crear con Claude, pegando el bloque de experto que se sacó del rol",
+        "La herramienta hizo las preguntas de precisión: propósito central, tipo de salida esperada, cuándo debe activarse, con qué insumos se trabaja, a qué caja de compensación corresponde y qué tipos de análisis debe cubrir",
+        "Se eligió activarla por comando: `/dato`",
+        "Insumos declarados: archivos de Excel — la información de la Superintendencia llega en XML y se convierte",
+        "Quedó claro que se pueden crear más: diseño gráfico, experto en Excel, marketing digital — una por cada necesidad recurrente del área"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El análisis de afiliados por rango de edad",
+      "duracion": "~15 min",
+      "objetivo": "Primer análisis real sobre el archivo base del área, dictado por voz.",
+      "pasos": [
+        "Cargar el archivo al contexto del proyecto, no a la consulta — quedó explicada la diferencia",
+        "Dictar la instrucción por micrófono: análisis de afiliados por rango de edad con semaforización por colores",
+        "El archivo tiene 125.000 afiliados",
+        "Resultado: hoja resumen con la distribución completa. El rango de 30 a 40 años es el que más pesa, con un 33%; entre 20 y 30 va el 23%; los menores de 20 son unos 800, el 7%",
+        "La herramienta señaló dos inconsistencias por su cuenta: un rango sin color entre 40 y 50, y una categoría no contemplada para los menores de 20",
+        "Descargar el archivo generado en vez de leerlo en la ventana"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Mapeo del proceso de administración de riesgos",
+      "duracion": "~15 min",
+      "objetivo": "Entender el proceso que acaba de recibir el área antes de automatizar nada de él.",
+      "pasos": [
+        "Revisar el proyecto de administración de riesgos, con el marco normativo cargado — ISO 31000 y COSO como referentes técnicos",
+        "Ajuste al rol: «actúa como un experto en…», no «tu función es apoyarme»",
+        "Se revisó la matriz consolidada de riesgos de toda la caja: por proceso, objetivo, área, impacto, naturaleza del control, responsable y documentación asociada",
+        "La semaforización clasifica cada control: verde fuerte, azul moderado, rojo débil",
+        "Hallazgo del proceso: no existe un Drive donde consultar los riesgos. Cada responsable hizo su Excel en talleres y el líder anterior lo consolidó a mano",
+        "Se planteó llevarlo a un Drive compartido que todas las áreas alimenten, y conectar la herramienta a esa carpeta",
+        "Lo que sigue: escribir los criterios de decisión de la semaforización para que la herramienta pueda revisar si los controles están bien categorizados"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD PROBADA · SESIÓN 2 · 3 septiembre 2026",
+      "titulo": "La habilidad `/dato` — la primera del programa",
+      "descripcion": "Un conocimiento experto configurado una sola vez y disponible con un comando en cualquier proyecto del área, y compartible con todo el equipo. Resuelve el problema que apareció al armar el proyecto: no hay que volver a explicarle a la herramienta qué es una caja de compensación ni qué análisis se esperan. Planeación es la primera área que la construye.",
+      "estado": "Creada y activa por comando",
+      "proximo_paso": "Usarla sobre los archivos reales del área y crear las siguientes que hagan falta",
+      "target": "Sesión 3"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 2 · 3 septiembre 2026",
+      "titulo": "El tablero de analítica de afiliados, empresas y servicios",
+      "descripcion": "El primer corte ya salió sobre 125.000 afiliados. Cargando al mismo proyecto las demás variables —afiliados a cargo, empresas, número de trabajadores, uso de servicios— y modelando el resultado, el área llega a un tablero interactivo con KPIs y segmentación, en lugar del reporte que hoy se arma consulta por consulta.",
+      "estado": "En construcción — primer análisis obtenido",
+      "proximo_paso": "Modelar la presentación y cargar las variables restantes",
+      "target": "Sesión 3"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 2 · 3 septiembre 2026",
+      "titulo": "El diagnóstico de controles de la matriz de riesgos",
+      "descripcion": "Con los criterios de decisión escritos y la matriz cargada, la herramienta puede revisar control por control si la clasificación de fuerte, moderado o débil se sostiene. Es exactamente la tarea que el nuevo rol de riesgos tiene por delante, y hoy se haría leyendo la matriz completa a mano.",
+      "estado": "En construcción — falta escribir los criterios",
+      "proximo_paso": "Definir qué hace que un control sea fuerte, moderado o débil",
+      "target": "Sesión 3"
+    }
+  ],
+  "tareas_intro": "Primera sesión del área en dieciséis días, y con asistencia completa. Se avanzó en lo que dependía del equipo —la estructura del proyecto, la primera habilidad del programa y el primer análisis real— pero dos frenos no dependen de ellos: la contraseña de sistemas que bloquea las instalaciones y unos equipos que no dan para el trabajo.",
+  "tareas": [
+    {"tarea": "Agendar sesiones individuales, varias por semana", "responsable": "Todo el equipo", "prioridad": "URGENTE", "plazo": "Inmediato"},
+    {"tarea": "Resolver con TI la contraseña de sistemas que bloquea las instalaciones", "responsable": "Comfacesar — TI", "prioridad": "URGENTE", "plazo": "Antes de S3"},
+    {"tarea": "Modelar el análisis de afiliados y cargar las demás variables al proyecto", "responsable": "Óscar Maestre", "prioridad": "ALTA", "plazo": "Antes de S3"},
+    {"tarea": "Escribir los criterios de la semaforización de controles", "responsable": "Adriana Cotes", "prioridad": "ALTA", "plazo": "Antes de S3"},
+    {"tarea": "Proponer el Drive compartido para la matriz de riesgos", "responsable": "Adriana Cotes", "prioridad": "ALTA", "plazo": "Antes de S3"},
+    {"tarea": "Instalar escritorio, Claude Code, extensión en Chrome, celular y dispatch", "responsable": "Todo el equipo", "prioridad": "ALTA", "plazo": "Antes de S3"},
+    {"tarea": "Incluir en el presupuesto el cambio de equipos y el paso a portátiles", "responsable": "Óscar Maestre", "prioridad": "MEDIA", "plazo": "Presupuesto anual"},
+    {"tarea": "Pasar a la versión paga los puestos que siguen en gratuita", "responsable": "Planeación", "prioridad": "MEDIA", "plazo": "Antes de S3"},
+    {"tarea": "Meter las conversaciones sueltas dentro de su proyecto", "responsable": "Todo el equipo", "prioridad": "MEDIA", "plazo": "Antes de S3"}
+  ],
+  "observaciones": [
+    "Es la primera sesión del área desde el 18 de agosto, y llegó el equipo completo. La asistencia no era el problema: era la agenda. Quedó dicho con el líder presente que no hay límite de una sesión por semana y que las individuales avanzan más rápido, porque se mapea un solo proceso a fondo.",
+    "Planeación creó la primera habilidad del programa. Ninguna otra área ha llegado a ese punto, y es lo que permite que un conocimiento experto se configure una vez y se comparta con todo el equipo en vez de repetirse en cada proyecto.",
+    "El análisis de afiliados dejó una lección que vale más que el resultado: la herramienta señaló por su cuenta dos vacíos de la instrucción —un rango de edad sin color y una categoría no contemplada— en vez de inventar una respuesta. Eso es lo que se busca al configurar bien un proyecto.",
+    "El proceso de riesgos que acaba de recibir el área tiene un problema anterior a cualquier herramienta: la matriz consolidada existe pero no vive en ningún repositorio compartido, y los criterios con que se clasifican los controles no están escritos en ninguna parte. Automatizar sin resolver eso sería automatizar un juicio que nadie puede revisar.",
+    "Dos frenos de la sesión no son del equipo. La instalación del complemento y de la aplicación de escritorio pide una contraseña de sistemas que el área no tiene, y varios compañeros reportan lo mismo. Y los equipos: un puesto sin micrófono que tuvo que participar desde el celular, otro que no pudo compartir pantalla y cedió su turno. Se planteó al líder, en plena formulación presupuestal, incluir el cambio de equipos.",
+    "Sobre el trabajo previo: un integrante del área trae proyectos construidos meses atrás en un curso externo con otra metodología. Están bien hechos y puede compartirlos con el equipo, pero no entran en la medición del programa ni se construyen agentes sobre ellos — lo que se registra tiene que haber salido de esta metodología, porque es la que sostiene el proceso frente a una auditoría. Se acordó medir lo nuevo: agentes y cowork."
+  ],
+  "proxima_sesion": {
+    "sesion": "Planeación — Sesión 3 (y las individuales que cada integrante agende)",
+    "condiciones": [
+      "Entorno instalado: escritorio, Claude Code, extensión en Chrome, celular vinculado por dispatch",
+      "La contraseña de sistemas resuelta con TI",
+      "El análisis de afiliados modelado y con las demás variables cargadas",
+      "Los criterios de la semaforización de controles escritos"
+    ],
+    "agenda": [
+      "Revisión del análisis de afiliados modelado, hacia el tablero interactivo",
+      "El complemento de Claude dentro de Excel, trabajando sobre la hoja",
+      "Diagnóstico de los controles de la matriz de riesgos",
+      "El ejercicio de análisis financiero que quedó pendiente de presentar"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 3 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
