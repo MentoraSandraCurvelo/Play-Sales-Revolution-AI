@@ -15,6 +15,42 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📌 Jueves 3 sep · 07:20 — Corte del Termómetro
+
+Los soportes de las dos sesiones del miércoles entraron anoche entre las 23:27 y las
+00:07. Las dos con **100%**: Carlos Lozano (Contabilidad) y Rafael Solano (Sub.
+Financiera), cada uno solo en su individual.
+
+**Acumulado: 89%** — 99 asistencias sobre 111, **40 sesiones medidas de 44**. Faltan
+Tecnología S2, Servicios Sociales S4 y Vivienda S2 (esta última fuera del conteo por
+decisión de Sandra).
+
+**Dos problemas de archivo, los dos para Sandra:**
+
+1. **El informe de asistencia de Rafael quedó duplicado en la carpeta de otra área** —
+   está en `15. Subdireccion Financiera` (correcta) y también en `9. Financiera / Sesion 2`
+   con sufijo «(1)». La 9 es Gerencia Financiera, que **tiene sesión hoy a las 8:00**.
+   Conviene borrarlo antes de que su expediente arranque contaminado.
+
+2. **La sesión de Carlos de ayer es S4, no S3.** Carpeta y archivos dicen S4; la reunión
+   de Teams se llamó «S3». Como la S3 fue la individual de Lisbeth del martes, lo
+   correcto es S4 y así quedó en el tablero. Sigue abierto lo de Rafael con dos «S4»
+   (mié 9 y vie 11).
+
+**Aviso de plataforma:** anoche Slack notificó que **terminó el periodo de prueba**. La
+versión gratuita limita a 10 apps y desactivó los flujos de trabajo (bienvenida,
+comentarios, notificación de estado). No afecta canales ni archivos.
+
+Sin mensajes del cliente en lo que va del día. Hoy hay cinco sesiones: Gerencia
+Financiera 8:00, Agencia de Empleo 9:00, Jurídica S4 11:00, Servicios Sociales S6 14:00
+y Planeación S2 15:00.
+
+**Pendiente de aprobación:** el mensaje de respuesta a María Elvira sobre las sesiones
+individuales de Comunicaciones está redactado y **sin publicar**, esperando el visto
+bueno de Sandra.
+
+---
+
 ## 📚 2 sep · 18:40 — Leídas las 36 actas. El acumulado sube a 89%.
 
 Sandra cuestionó el párrafo de «cobertura del cálculo»: decía que faltaban trece actas
