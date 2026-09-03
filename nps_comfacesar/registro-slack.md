@@ -15,6 +15,36 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📋 3 sep · 08:27 — Plan de trabajo para Comunicaciones, publicado
+
+María Elvira escribió el 2 a las 18:25 pidiendo cuatro cosas: diseño con IA acorde al
+Manual de Marca, plataformas de video, programación de contenidos y explorar Gemini con
+la suscripción empresarial que ya tienen.
+
+**Lectura de Sandra, que corrigió el enfoque:** eso no es una agenda para el viernes,
+es la lista de lo que el área quiere lograr con IA. La respuesta correcta no era decir
+que no cabe en una hora, sino **devolvérselo como plan de trabajo**.
+
+Publicado en `#comunicaciones` a las 8:27:
+
+| Cuándo | Qué |
+|---|---|
+| **Vie 4 · grupal** | El proceso de solicitud interna. Dejar por escrito el criterio de qué proponer —hoy solo vive en Vidiana— y montarlo como proyecto en Claude |
+| **Semana del 8 · individuales** | Vidiana con la solicitud interna, José Manuel con web y contenidos, diseño con sus piezas |
+| **Grupales siguientes** | Diseño con IA sobre el Manual de Marca · video y programación sobre el calendario real · cierre con Gemini + tablero de KPIs del área |
+
+Insumos pedidos para el viernes: Manual de Marca en digital y una solicitud real con su
+correo original.
+
+**Por qué funciona:** los cuatro temas entran completos y ordenados, las individuales
+aparecen como parte natural del plan y no como corrección, y Sandra llega al reporte del
+**martes 8** con el plan de Comunicaciones ya aceptado por escrito.
+
+Verificado antes: sin reservas de Lucía, sin actas suyas en ese canal (no aplica la
+ventana de 48 h), el bot no es miembro y era el primer mensaje del día en el canal.
+
+---
+
 ## 📌 Jueves 3 sep · 07:20 — Corte del Termómetro
 
 Los soportes de las dos sesiones del miércoles entraron anoche entre las 23:27 y las
