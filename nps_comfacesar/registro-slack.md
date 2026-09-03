@@ -15,6 +15,42 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🗓️ 3 sep · tarde — IPS agendó, y una regla nueva para leer el calendario
+
+Danilo Pozo escribió en **#ips** ayer a las **15:32**: «Hola Sandra, Buenas tardes. ya
+agendamos» / «segunda sección». Buscar `IPS` en Outlook no devolvía nada.
+
+**El evento se llama «Danilo Pozo y Sandra Curvelo | Founder & CSO de IAM™».**
+Sandra lo explicó directo: *«mira por el nombre de la persona que está dentro del word
+que te pasé, a veces agendan así»*.
+
+### 🔴 Regla — no buscar el área en el asunto del evento
+
+Calendly nombra el evento con el **nombre de quien reserva**, no con el del área. Buscar
+por `"IPS"`, `"Contabilidad"` o `"Comunicaciones"` devuelve vacío y hace concluir que el
+área no agendó. **Hay que barrer la ventana completa y clasificar por invitado y por
+nombre de persona.** Este mismo error ya había hecho perder el agendamiento de
+Comunicaciones.
+
+**IPS — sesión 2: miércoles 9 de septiembre, 11:00 a.m.**
+Invitados `sst@comfacesar.com` (Danilo), `asistentesst@`, `auxiliarsst@` — equipo completo.
+
+Barrido de los 36 eventos hasta el 11 de septiembre, clasificados por persona:
+
+| Evento en el calendario | Área real |
+|---|---|
+| Danilo Pozo y Sandra Curvelo | **IPS** — mié 9, 11:00 a.m. |
+| Carlos Lozano y Sandra Curvelo | **Contabilidad** — lun 7, 5:00 p.m. y vie 11, 2:00 p.m. |
+| Liliany Gómez / Cindy Silva / Lácides | correo personal, **no son Intelligence** |
+
+**No existe ningún evento de Crédito ni de Auditoría Interna** en toda la ventana, ni por
+área ni por persona. Siguen en cero sesiones: el paso es la llamada, no un tercer mensaje.
+
+Campaña del miércoles: **seis de nueve áreas** reactivadas — Tesorería, Educación,
+Subsidio, Mercadeo, Comunicaciones e IPS. Termómetro republicado: IPS pasa de
+«10 días · sin agendar» a fecha confirmada, y la alerta baja de cuatro áreas sin fecha a
+tres (Vivienda, Crédito, Auditoría Interna).
+
 ## 📊 3 sep · 14:20 — Termómetro al día: 47 sesiones y 90%
 
 Sandra señaló que el tablero seguía diciendo **44** — era el corte de las 7:20, antes de
