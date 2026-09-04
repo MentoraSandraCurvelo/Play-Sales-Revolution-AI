@@ -15,6 +15,24 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📤 4 sep · 10:44 — Publicado en `#ips`: confirmación a Danilo
+
+Sandra autorizó el borrador. Enviado en `#ips`
+([enlace](https://iamteamespacio.slack.com/archives/C0BPNT6UV8B/p1788536648883839)):
+
+> ⭕️ Danilo, perfecto — ya la veo en el calendario: **miércoles 9 a las 11:00 a. m.**,
+> con tu equipo completo invitado.
+>
+> Para que rinda: es 100% práctica, así que llega con la cuenta activa y con un caso real
+> del área — el proceso que más tiempo les consume. 💪
+
+Es respuesta directa a un cliente, así que por contrato no cuenta como mensaje de
+contenido. Símbolo verificado: `:o:`, sin `:red_circle:`. Canal limpio al enviar —
+sin acta de Lucía en 48 h, sin reserva, cero mensajes previos hoy.
+
+Cierra las diecinueve horas que Danilo llevaba sin respuesta después de confirmar el
+agendamiento. Era el área a la que se le había insistido dos veces.
+
 ## ✅ 4 sep · 9:00 — Lucía cerró lo del círculo, y queda un mensaje de Danilo sin responder
 
 **El `:red_circle:` está resuelto y no por este registro.** Lucía commiteó a las 8:50 la
