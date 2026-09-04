@@ -15,6 +15,49 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📤 4 sep · 10:54 — Publicado en `#contabilidad`: el cotejo bancario de Carlos
+
+Carlos Daniel Lozano escribió hoy a las **10:43** preguntando cómo hacer que Claude cruce
+información entre archivos —el caso concreto: libro auxiliar del banco contra extracto
+bancario— porque «me dice que no es posible». Sandra pidió responderle con paso a paso.
+
+Publicado
+([enlace](https://iamteamespacio.slack.com/archives/C0BPDN9PKPH/p1788537293048229)):
+diagnóstico + cinco pasos + cierre en su individual del lunes 7 a las 5:00 p. m.
+
+**El diagnóstico:** no es un límite de la herramienta. Falta *la llave de cruce* —qué
+columna une los dos archivos— y lo más probable es que los tenga adjuntos al chat en vez
+de cargados al contexto del proyecto. Es exactamente la lección que quedó en el acta de
+Planeación S2 de ayer: *«cargar el archivo al contexto del proyecto, no a la consulta»*.
+
+El paso 5 le devuelve su propio método —verificar contra un mes ya cerrado, como hizo con
+el reporte de julio—, que es lo que le funcionó para cerrar el reporte solo entre sesiones.
+
+Sandra pidió añadir: **que si lo intenta y no le sale, vuelva a escribir al canal.** Queda
+en el mensaje.
+
+Símbolo verificado: `:o:`. Canal limpio al enviar — respuesta directa a un cliente, sin
+acta de Lucía en 48 h, cero mensajes nuestros hoy ahí.
+
+### 🔍 Hallazgo del barrido de canales
+
+Filtrando los cien mensajes que no son de IAM desde el 19 de agosto: **en cuatro canales
+el cliente no ha escrito nunca** — `#credito`, `#auditoria-interna`, `#vivienda` y
+`#tesoreriaa`.
+
+Las dos primeras ya se sabía que nunca arrancaron. Lo nuevo son las otras dos:
+**Vivienda lleva cuatro sesiones hechas y ni una palabra en su canal; Tesorería lleva una.**
+Son justo las dos que llevan diez y catorce días sin agendar.
+
+**Consecuencia para el radar de silencio:** en esas cuatro áreas el canal no es la vía.
+Un quinto mensaje ahí es hablarle a una pared que nunca ha contestado — el paso es
+teléfono. Vale tenerlo en cuenta antes de gastar el cupo semanal del 9 de septiembre.
+
+Los más activos del programa, para contraste: **Lilibeth Costa** (`#juridica`, siete
+mensajes), **Olga Lucía Barros** (`#tecnologia`), **Carlos Daniel Lozano**
+(`#contabilidad`), **Lina María Rincón** (`#agencia-de-empleo`) y **Rafael Solano**
+(`#sub-admin-y-financiera`).
+
 ## 📤 4 sep · 10:44 — Publicado en `#ips`: confirmación a Danilo
 
 Sandra autorizó el borrador. Enviado en `#ips`
