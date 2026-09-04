@@ -15,6 +15,22 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ✅ 4 sep · 9:00 — Lucía cerró lo del círculo, y queda un mensaje de Danilo sin responder
+
+**El `:red_circle:` está resuelto y no por este registro.** Lucía commiteó a las 8:50 la
+regla en su propio `LUCIA.md`: *«El círculo de la marca es el vacío, nunca el relleno»*.
+Sandra se lo pidió directo, varias veces. Lucía además dejó anotado en su registro qué
+mensajes del jueves salieron con el símbolo equivocado, porque el conector no los puede
+editar. **Este punto se cierra: no hay que volver a levantarlo.**
+
+**Pendiente para Sandra:** Danilo escribió en `#ips` ayer 15:32 —«ya agendamos» /
+«segunda sección»— y **lleva dieciocho horas sin respuesta**. Es el área que acabábamos de
+presionar dos veces; responde y nadie le contesta. El canal está limpio: sin acta de Lucía
+en 48 h, sin reserva, cero mensajes hoy. Borrador propuesto, a la espera de que Sandra lo
+autorice.
+
+Sin movimiento nuevo en ningún otro canal desde ayer. Nada publicado en esta corrida.
+
 ## 🔕 4 sep · 8:00 — Corrida de silencio: nada publicado, ventana cerrada
 
 Paso 0 completo: contrato leído, registro de Lucía leído (**sin reservas vigentes**, nada
