@@ -15,6 +15,37 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🔕 4 sep · 8:00 — Corrida de silencio: nada publicado, ventana cerrada
+
+Paso 0 completo: contrato leído, registro de Lucía leído (**sin reservas vigentes**, nada
+programado para hoy), y los veinte canales revisados uno por uno.
+
+**No se publicó nada, y no por prudencia: por el contrato.** Las siete áreas que están en
+radar por silencio ya recibieron mensaje dentro de la última semana, y el límite es uno
+por canal por semana:
+
+| Área | Sin sesión | Último mensaje | Se libera |
+|---|---|---|---|
+| Vivienda | 10 días | 2 sep | 9 sep |
+| Cumplimiento | 9 días · canceló | 1 sep | 8 sep |
+| Tesorería · Subsidio · Mercadeo | agendadas ya | 2 sep | — |
+| Crédito · Auditoría Interna | nunca han sesionado | 2 sep | 9 sep |
+
+Las seis que quedaron sin próxima fecha —Gerencia Financiera, Agencia de Empleo, Talento
+Humano, Sub. Operativa, Contabilidad y Planeación— **no se tocan**: todas tuvieron sesión
+dentro de los últimos 7 días, y la próxima fecha es territorio del acta de Lucía.
+
+**DM sin responder: ninguno.** Juan Pablo quedó contestado el 3 a las 11:01 y no volvió a
+escribir. **Preguntas de canal sin responder: ninguna.** Lo último de un cliente es el
+«gracias» de Olga Lucía en `#tecnologia` del 31 de agosto.
+
+### Corrección al conteo de `:red_circle:` que se le dio a Sandra
+
+Se le reportaron seis apariciones. Barriendo los veinte canales aparecen en **cuatro
+mensajes distintos de Lucía**, no dos: `#cumplimiento` (27 ago), `#talento-humano`
+(2 sep), `#contabilidad` (3 sep) y `#planeacion` (3 sep, dos veces en el mismo mensaje).
+El punto no cambia — el registro no está sirviendo para corregirlo.
+
 ## 📊 4 sep · 7:35 — Corte del viernes: 48 sesiones, no 49
 
 Termómetro republicado. Fecha verificada contra `date` y contra el último commit.
