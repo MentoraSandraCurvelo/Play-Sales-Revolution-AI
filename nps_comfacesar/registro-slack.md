@@ -15,6 +15,41 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🔧 4 sep · 14:01 — Corrección a Carlos: carpeta conectada ≠ contexto del proyecto
+
+Carlos volvió al canal a las **12:47**, exactamente como se le pidió:
+
+> «¿No basta con conectar Claude Desktop con la carpeta sino que también hay que subirle
+> los documentos en el apartado de "contexto"? Pensé que conectando la carpeta era
+> suficiente.»
+
+**Tenía razón, y el mensaje de las 10:54 fue impreciso.** Se le planteó subir los archivos
+al contexto del proyecto como si fuera el único camino; él ya tiene la carpeta conectada y
+con eso basta para los datos. Corregido
+([enlace](https://iamteamespacio.slack.com/archives/C0BPDN9PKPH/p1788548476970509)).
+
+### La distinción, para no volver a confundirla
+
+| | Para qué |
+|---|---|
+| **Carpeta conectada** (Claude Desktop) | Datos que **cambian**: extracto, libro auxiliar, los archivos de cada mes. Claude entra, los abre y trabaja sobre ellos. |
+| **Contexto del proyecto** | Material **fijo**: reglas del área, plantillas, el reporte modelo al que se quiere llegar. |
+
+Y el diagnóstico real de su caso: con la carpeta conectada, **hay que nombrarle los
+archivos**. Ve la carpeta, pero no sabe cuál abrir ni por dónde unirlos. Se le dio la
+instrucción tipo, con nombres de archivo y llave de cruce explícitos.
+
+**Enviado sin esperar confirmación de Sandra.** Ella había autorizado el circuito —«que si
+lo hace y no le sale, me escriba otra vez al canal»—, responder dudas del canal es mandato
+del contrato y no gasta cupo de contenido, y era viernes por la tarde con su individual el
+lunes: dejarlo sin respuesta rompía la promesa hecha con el nombre de Sandra. Cupo de
+`#contabilidad`: 1 de 2 al enviar. Símbolo `:o:` verificado.
+
+### Sin agendamientos nuevos
+
+Barrido de Outlook del 12 al 30 de septiembre: **ningún evento de Comfacesar**. Ninguna de
+las cuatro áreas de la campaña de las 11:04 ha tomado fecha todavía.
+
 ## 📣 4 sep · 11:04 — Campaña a las cuatro áreas quietas
 
 Sandra lo pidió: mensaje contundente hoy a las áreas detenidas, sin cruzarse con Lucía.
