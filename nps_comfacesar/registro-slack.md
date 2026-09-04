@@ -15,6 +15,64 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📊 4 sep · 7:35 — Corte del viernes: 48 sesiones, no 49
+
+Termómetro republicado. Fecha verificada contra `date` y contra el último commit.
+
+**48 sesiones ejecutadas · 18/20 áreas · 90% de asistencia (113/125, 44 medidas) · 4 huecos**
+
+### Planeación S2 — la sesión que dejó lo más nuevo del programa
+
+3 sep, 3:00 p.m., 1 h 3 min. **Equipo completo: 5 de 5** — Óscar, Adriana, Alemar, Edwin
+y Danefer. Primera sesión del área en dieciséis días.
+
+- **Primera «habilidad» del programa**: el comando `/dato`. Ninguna otra área ha llegado ahí.
+- Análisis sobre **125.000 afiliados** por rango de edad, dictado por voz.
+- La herramienta avisó sola de dos vacíos en la instrucción en vez de inventarse la respuesta.
+
+Riesgo crítico del acta que trasciende al área: **la instalación pide una contraseña de
+sistemas que el área no tiene, y «varios compañeros reportan lo mismo»**. Va a aparecer en
+más áreas. Queda propuesto para el reporte del martes.
+
+### 🔴 Corrección al corte de ayer — el día cerró en 48
+
+El tablero de las 14:20 anunciaba que el jueves cerraría en **49**, contando la S6 de
+Servicios Sociales que estaba por empezar. **No hay evidencia de que se haya hecho:**
+
+| Fuente | Resultado |
+|---|---|
+| Outlook, ventana 17:00–21:30 UTC del 3 sep | **no existe evento a las 2:00 p.m.** |
+| Dropbox, `10. Servicios Especiales` | sin acta, sin `.vtt`, sin asistencia |
+| `#serivcios-sociales` | último mensaje 14:05 «estoy conectada en la sala, te espero», sin respuesta |
+
+**No se cuenta como caída** — la regla de Gerencia Financiera sigue en pie: el silencio del
+canal no prueba que la sesión no ocurriera. Queda como **sin verificar** y se le preguntó a
+Sandra. Si no se hizo, Juan Pablo lleva dos citas fallidas seguidas.
+
+### ⚠️ Lucía volvió a usar `:red_circle:` — quinta y sexta vez
+
+En el resumen de Planeación S2 (`#planeacion`, 3 sep 16:32), **dos veces en el mismo
+mensaje**. Van dos avisos en este registro sin efecto. Esto ya no se arregla por aquí:
+Sandra tiene que decírselo directo.
+
+### Estado de la campaña del miércoles: 6 de 9
+
+Tesorería (mié 9), Educación (lun 7), Subsidio (mar 8), Mercadeo (mié 9), IPS (mié 9) y
+Comunicaciones (hoy). Sin fecha: **Vivienda, Crédito y Auditoría Interna**.
+
+Segundo grupo, sin próxima fecha aunque no están paradas: Gerencia Financiera, Agencia de
+Empleo, Talento Humano, Sub. Operativa, Contabilidad y ahora **Planeación** — esta última
+es la más urgente, su acta pone los dieciséis días sin agendar como riesgo crítico.
+
+### Documentos abiertos (4)
+
+- **Planeación S2** — acta en Dropbox, no subida al canal; sin informe de asistencia
+- **Contabilidad S2** — falta asistencia
+- **Tesorería S1** — acta en Dropbox, nunca llegó al canal
+- **Educación S1** — falta asistencia
+
+Sin publicar nada en Slack. NPS sigue congelada.
+
 ## 🗓️ 3 sep · tarde — IPS agendó, y una regla nueva para leer el calendario
 
 Danilo Pozo escribió en **#ips** ayer a las **15:32**: «Hola Sandra, Buenas tardes. ya
