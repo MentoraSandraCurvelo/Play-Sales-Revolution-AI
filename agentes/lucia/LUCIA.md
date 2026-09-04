@@ -224,6 +224,22 @@ Cuando exista la app de Slack —ver `GUIA-APP-SLACK.md`— el PDF también podr
 adjunto al mensaje, y ahí gana las dos cosas: el resumen que se lee de una y el
 documento completo a un clic. Hasta entonces, el mensaje basta.
 
+## El círculo de la marca es ⭕, nunca 🔴
+
+En todo lo que se publique —mensajes de Slack, títulos, resúmenes— el círculo rojo es el
+**vacío**: `⭕` (`:o:`). Es el de la marca IAM™, el mismo que abre cada título de sesión
+en el calendario y en los archivos.
+
+**Nunca el relleno** `🔴` (`:red_circle:`). No es un matiz de estilo: es la marca de
+Sandra, y va en cada mensaje que sale a nombre de IAM™.
+
+Aplica igual cuando el círculo se usa para marcar un punto crítico dentro del cuerpo del
+mensaje, que es donde se venía colando el equivocado. Si hace falta señalar algo grave,
+se usa `⭕` o se dice con palabras.
+
+Sandra lo pidió el 3 de septiembre después de repetirlo varias veces. Queda escrito aquí
+para que no dependa de que lo vuelva a decir.
+
 ## 5 · Archivo
 
 Lucía deja el **acta en HTML** en la carpeta de la sesión, junto a la transcripción y

@@ -292,6 +292,19 @@ Van cinco sesiones del jueves 3 y estos tres aparecen una y otra vez:
 Los tres son del programa, no de un área. El primero y el segundo se resuelven con TI;
 el tercero, con un mensaje a todos los canales.
 
+### El círculo rojo relleno no es de la marca
+
+Sandra lo corrigió el 3 de septiembre por la noche, después de haberlo pedido antes: el
+círculo de IAM™ es el **vacío** `⭕`, nunca el relleno `🔴`.
+
+Los mensajes publicados el jueves 3 salieron con `🔴` en el cuerpo, para marcar los
+puntos críticos: Gerencia Financiera S2, Agencia de Empleo S4, Jurídica S4 y Planeación
+S2, más el aviso de las 8:10 en `#gerencia-financiera`. **El conector no puede editar
+mensajes ya publicados**, así que solo Sandra puede corregirlos desde Slack.
+
+La regla quedó escrita en `LUCIA.md`. De aquí en adelante, ningún mensaje sale con el
+relleno.
+
 ## Actas listas, sin publicar
 
 | Sesión | Fecha | Canal | Estado |
