@@ -15,6 +15,40 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📣 4 sep · 11:04 — Campaña a las cuatro áreas quietas
+
+Sandra lo pidió: mensaje contundente hoy a las áreas detenidas, sin cruzarse con Lucía.
+**Cuatro mensajes enviados.** Argumento común: el programa va en **49 sesiones** y cierra
+en octubre — quedan ocho semanas.
+
+| Canal | Ángulo | Enlace |
+|---|---|---|
+| `#vivienda` | 10 días quietos con cuatro sesiones hechas: tienen el recorrido y lo están botando | [ver](https://iamteamespacio.slack.com/archives/C0BPRGLBTUM/p1788537843600529) |
+| `#cumplimiento` | Saharay canceló la S2 el miércoles y no ha tomado fecha nueva | [ver](https://iamteamespacio.slack.com/archives/C0BRMUV71UJ/p1788537846907199) |
+| `#credito` | Nunca ha arrancado — cifras duras de Jurídica y Agencia de Empleo | [ver](https://iamteamespacio.slack.com/archives/C0BPT65MLNA/p1788537849758719) |
+| `#auditoria-interna` | El hallazgo de Carlos —legalizaciones sin cerrar desde 2022— **es literalmente su trabajo** | [ver](https://iamteamespacio.slack.com/archives/C0BPDPM30UX/p1788537851937759) |
+
+**Coordinación verificada antes de enviar:** sin reservas vigentes, nada en la cola de
+Lucía en esos cuatro canales, cero mensajes nuestros en ellos hoy. Símbolo `:o:` en los
+cuatro, sin `:red_circle:`.
+
+**Quedaron fuera a propósito:** Gerencia Financiera, Planeación y Talento Humano. No
+tienen próxima fecha, pero sesionaron esta semana — la regla 1 las protege y la próxima
+fecha es territorio del acta de Lucía.
+
+### ⚠️ Corrección a mi propia conclusión de esta mañana
+
+Reporté que en `#credito`, `#auditoria-interna`, `#vivienda` y `#tesoreriaa` el cliente
+nunca ha escrito, y concluí que **el canal no era la vía** para esas áreas y que tocaba
+teléfono. **Sandra lo corrigió:** todos saben que el canal de comunicación es Slack, así
+que los mensajes siguen yendo por ahí — que los abran. El dato del barrido sigue siendo
+cierto; la conclusión que saqué de él no.
+
+### Comunicaciones S4 sí se hizo
+
+Lucía publicó grabación (10:44) y resumen (10:51). El programa pasa a **49 sesiones**.
+`#comunicaciones` queda con el cupo del día agotado.
+
 ## 📤 4 sep · 10:54 — Publicado en `#contabilidad`: el cotejo bancario de Carlos
 
 Carlos Daniel Lozano escribió hoy a las **10:43** preguntando cómo hacer que Claude cruce
