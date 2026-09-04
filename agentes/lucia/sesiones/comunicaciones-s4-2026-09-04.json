@@ -1,0 +1,395 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "COMUNICACIONES",
+  "area_completa": "",
+  "sesion_num": 4,
+  "fase": "Ejercicios Prácticos",
+  "fecha": "4 de septiembre de 2026",
+  "fecha_corta": "4 septiembre 2026",
+  "subtitulo_meta": "4 de septiembre de 2026 · 9:00 a.m. · 1 h 5 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    [
+      "Área(s)",
+      "Comunicaciones — Comfacesar"
+    ],
+    [
+      "Sesión",
+      "N° 4 — Claude Design: la pieza gráfica completa desde la carpeta de marca"
+    ],
+    [
+      "Fecha",
+      "4 de septiembre de 2026"
+    ],
+    [
+      "Hora inicio",
+      "9:00 a. m. — Colombia"
+    ],
+    [
+      "Duración de la sesión",
+      "1 h 5 min (9:00 a. m. – 10:06 a. m.)"
+    ],
+    [
+      "Modalidad",
+      "Virtual — Microsoft Teams"
+    ],
+    [
+      "Correos Slack activados",
+      "comunicaciones@comfacesar.com · profesionalcomunicaciones@comfacesar.com · profesionalcomunicaciones2@comfacesar.com · web@comfacesar.com · diseno@comfacesar.com"
+    ],
+    [
+      "Grabación",
+      "Se publica en el canal del área"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo — Mentora IAM™ Intelligence"
+    ]
+  ],
+  "kpis": [
+    {
+      "valor": "6",
+      "etiqueta": "Participantes del área",
+      "detalle": "La asistencia más alta del programa"
+    },
+    {
+      "valor": "1",
+      "etiqueta": "Pieza construida en vivo",
+      "detalle": "Post, historia, animación y mapa"
+    },
+    {
+      "valor": "25 min",
+      "etiqueta": "Un reporte en Jurídica",
+      "detalle": "Antes tomaba 960 minutos — 5 días"
+    },
+    {
+      "valor": "0",
+      "etiqueta": "Manual de marca cargado",
+      "detalle": "No hay proyecto de publicaciones"
+    },
+    {
+      "valor": "1",
+      "etiqueta": "Bloqueo de licencia",
+      "detalle": "Claude Design pide versión paga"
+    },
+    {
+      "valor": "4",
+      "etiqueta": "Herramientas por venir",
+      "detalle": "Gemini · ChatGPT · Perplexity · Mentimeter"
+    }
+  ],
+  "participantes": [
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "—",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "María Elvira Marulanda",
+      "cargo": "Jefe de Comunicaciones — Comfacesar",
+      "correo": "comunicaciones@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Intermedio"
+    },
+    {
+      "nombre": "Vidiana Bendeck",
+      "cargo": "Profesional de Comunicaciones — Comfacesar",
+      "correo": "profesionalcomunicaciones@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Intermedio"
+    },
+    {
+      "nombre": "Sandra Patricia Machado Arquez",
+      "cargo": "Profesional de Comunicaciones — Comfacesar",
+      "correo": "profesionalcomunicaciones2@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Intermedio"
+    },
+    {
+      "nombre": "José Manuel Vergara Daza",
+      "cargo": "Web — Comfacesar",
+      "correo": "web@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Intermedio"
+    },
+    {
+      "nombre": "César Andrés Reyes Jiménez",
+      "cargo": "Diseño — Comfacesar",
+      "correo": "diseno@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Inicial"
+    },
+    {
+      "nombre": "Julio Pérez",
+      "cargo": "Comunicaciones — Comfacesar",
+      "correo": "—",
+      "modalidad": "Virtual",
+      "nivel": "Inicial"
+    }
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 4. El área tiene el equipo más grande del programa y la herramienta que más le sirve —Claude Design— es justo la que exige versión paga.",
+  "riesgos": [
+    {
+      "titulo": "Claude Design solo funciona en versión paga",
+      "nivel": "CRITICO",
+      "descripcion": "Es la herramienta que resuelve el trabajo diario del área —piezas, historias, animaciones, mapas— y al intentar abrirla desde la web o la aplicación pide pasar a Pro o Max. Toda la sesión se hizo sobre la cuenta de la facilitadora. Sin licencia, el equipo puede ver cómo se hace pero no puede practicarlo, y sin práctica no hay proceso que registrar en el cierre del proyecto.",
+      "responsable": "Comfacesar / Antes de la S5"
+    },
+    {
+      "titulo": "El manual de marca no está cargado en ningún proyecto",
+      "nivel": "ALTO",
+      "descripcion": "Cada pieza se pide desde cero, explicando colores, logo y tipografía. Con un proyecto de publicaciones que tenga cargada la carpeta completa de identidad —manual, logo, tipografías, voz de marca— eso deja de repetirse en cada consulta y las piezas salen ya en la línea gráfica.",
+      "responsable": "Comunicaciones / Antes de la S5"
+    },
+    {
+      "titulo": "El área más grande del programa es de las más atrasadas",
+      "nivel": "ALTO",
+      "descripcion": "Seis personas, y ponerlas de acuerdo para una sesión grupal es justamente lo que ha frenado el avance. Por eso se cambió la dinámica: de aquí en adelante, sesiones individuales, las que cada quien pueda sostener. Hay áreas del programa agendando tres y cuatro por semana.",
+      "responsable": "Comunicaciones / Inmediato"
+    },
+    {
+      "titulo": "El tablero del área está sin diligenciar",
+      "nivel": "ALTO",
+      "descripcion": "Está fijado en el canal y hay hojas vacías. Es lo que se audita en el cierre del proyecto y lo que sustenta la petición de licencia corporativa ante la dirección: sin el antes y el después de cada ejercicio, no hay métrica de productividad que mostrar.",
+      "responsable": "Comunicaciones — todo el equipo / Permanente"
+    },
+    {
+      "titulo": "El monitoreo de medios se organiza a mano",
+      "nivel": "MEDIO",
+      "descripcion": "Los enlaces de todas las redes llegan mezclados en un solo documento y hay que separarlos uno por uno para armar el monitoreo. Es exactamente el tipo de trabajo que la herramienta resuelve leyendo la carpeta directamente, como se demostró en sesión ordenando y auditando una carpeta de facturas.",
+      "responsable": "Julio Pérez / Antes de la S5"
+    },
+    {
+      "titulo": "Las habilidades no habían quedado claras",
+      "nivel": "MEDIO",
+      "descripcion": "Quedó dicho en sesión que el equipo no las había visto. Se explicaron y se creó una en vivo. Importa aquí más que en otras áreas: una habilidad de community manager para Instagram y otra distinta para LinkedIn, porque son dos oficios diferentes y mezclarlos degrada las dos.",
+      "responsable": "Comunicaciones / Antes de la S5"
+    },
+    {
+      "titulo": "La conexión de un puesto se cayó tres veces",
+      "nivel": "MEDIO",
+      "descripcion": "Entre las 9:17 y las 9:28 la sesión se cayó tres veces en el mismo equipo, con dos reconexiones de menos de ocho minutos. Se perdió la primera parte del bloque de diseño, que es la que más le servía a ese puesto.",
+      "responsable": "Comfacesar — TI / Antes de la S5"
+    },
+    {
+      "titulo": "Comprar la licencia corporativa antes de tiempo",
+      "nivel": "MEDIO",
+      "descripcion": "La pregunta salió en sesión y la respuesta fue explícita: hoy no. El equipo todavía no agota la versión gratuita, y ya hay licencias compradas en Comfacesar que no se usan. La licencia se pide con el reporte de cierre en la mano —quiénes la usan de verdad y qué procesos quedaron montados—, no antes.",
+      "responsable": "Comfacesar / Octubre"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "CRITICO",
+      "titulo": "Agendar sesiones individuales, desde esta misma semana",
+      "descripcion": "Es el cambio de fondo de esta sesión. Cada quien agenda la suya y trae su propio trabajo; ya no se espera a coordinar a seis personas. Se pueden agendar varias por semana y la agenda está reservada para Comfacesar hasta finales de octubre.",
+      "responsable": "Todo el equipo",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Crear el proyecto de publicaciones con el manual de marca completo",
+      "descripcion": "Un proyecto con el método CREA y, cargada, la carpeta entera de identidad: manual de marca, logo, tipografías, colores y voz de marca. Todo completo, no solo el manual. A partir de ahí cada pieza sale con la línea gráfica puesta sin explicarla de nuevo.",
+      "responsable": "César Reyes + el equipo",
+      "plazo": "Antes de la Sesión 5"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Practicar en Claude Design con las publicaciones reales de la semana",
+      "descripcion": "No con ejemplos. Las piezas que ya están programadas: el post, la historia, la animación. Es la única forma de saber qué funciona y qué no, y de llegar a la próxima sesión con preguntas concretas en vez de teoría.",
+      "responsable": "Todo el equipo",
+      "plazo": "Antes de la Sesión 5"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Diligenciar el tablero del área con el antes y el después",
+      "descripcion": "Cada ejercicio terminado se registra: qué proceso, con qué frecuencia, cuánto tomaba antes y cuánto toma ahora. Hay hojas todavía vacías. Es lo que se presenta a la dirección en el cierre y lo que sostiene cualquier petición de licencia.",
+      "responsable": "Todo el equipo",
+      "plazo": "Permanente"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Crear las habilidades del área, separadas por red",
+      "descripcion": "Una habilidad de community manager para Instagram y otra para LinkedIn — hooks, formatos y criterios propios de cada red. Y las que hagan falta: diseño, temas legales para publicaciones normativas.",
+      "responsable": "Comunicaciones",
+      "plazo": "Antes de la Sesión 5"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Probar la segmentación del monitoreo de medios",
+      "descripcion": "Cargar la carpeta o el documento con los enlaces y pedir que los separe por red social. Es el mismo mecanismo que en sesión ordenó una carpeta de facturas, detectó una faltante y dos duplicadas.",
+      "responsable": "Julio Pérez",
+      "plazo": "Antes de la Sesión 5"
+    },
+    {
+      "num": "07",
+      "nivel": "MEDIO",
+      "titulo": "El agente de seguimiento de uso que pidió la dirección",
+      "descripcion": "El director quiere saber quién usa realmente la herramienta. Quedó comprometido para el martes: cómo se crea un agente que audite el uso. Va junto con el reporte de cierre, que es el que responde la pregunta de fondo.",
+      "responsable": "Sandra Curvelo + María Elvira",
+      "plazo": "Martes 8 de septiembre"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El post de la feria de empleo, construido en vivo",
+      "duracion": "~25 min",
+      "objetivo": "Ver el camino completo de una pieza real: de la conversación a Claude Design, con la carpeta de marca conectada.",
+      "pasos": [
+        "Caso real propuesto por el equipo: feria de empleo para personas con discapacidad, 10 de septiembre, Mayales Plaza Comercial, 10:00 a. m., llevar cédula de ciudadanía, organiza Comfacesar",
+        "Primero en una conversación normal, dando el método CREA a mano: rol de diseñador gráfico para cajas de compensación, contexto del evento, entregable en vertical y en PDF",
+        "En la versión web no aparece la opción de agregar carpeta — quedó demostrado en pantalla",
+        "En la versión de escritorio sí: se agregó la carpeta de marca y la herramienta extrajo colores y logo sin que nadie subiera archivos",
+        "El mismo encargo llevado a Claude Design: la pieza se construye y se edita sobre el propio documento, sin pasar por otra herramienta",
+        "La herramienta preguntó lo que le faltaba: qué titular, si había inscripción previa, qué otros formatos hacían falta, qué más debía aparecer",
+        "Salidas disponibles: PDF, PNG, PowerPoint, o publicarlo como artefacto web",
+        "Se añadió una historia además del post, y se mostró el editor completo sobre la pieza terminada"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Qué es una habilidad y cómo se crea",
+      "duracion": "~8 min",
+      "objetivo": "Aclarar lo que no había quedado claro: la diferencia entre el proyecto y la habilidad.",
+      "pasos": [
+        "El proyecto es un asistente configurado para un trabajo; la habilidad es un superpoder que se usa en cualquier proyecto",
+        "Menú → Personalizar → Agregar → Crear con Claude",
+        "Se creó una en vivo, con el método CREA dentro de la propia descripción",
+        "Recomendación para el área: una habilidad de community manager para Instagram y otra para LinkedIn, nunca una sola para las dos",
+        "La herramienta hace preguntas de precisión mientras la construye — no hay que dárselo todo de entrada"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Conectar una carpeta para ordenar y auditar",
+      "duracion": "~7 min",
+      "objetivo": "Mostrar que agregar una carpeta no sirve solo para leer archivos, sino para organizarlos y encontrar lo que falta.",
+      "pasos": [
+        "Se agregó una carpeta real de facturas y se pidió revisarlas",
+        "Renombró y ordenó los archivos por número, mes y año",
+        "Avisó que faltaba la factura de un mes y que había dos archivos duplicados",
+        "Respondió cuál fue el mes más costoso del año en curso",
+        "Traducción al área, planteada por el propio equipo: el monitoreo de medios — enlaces de todas las redes mezclados en un documento, para separar por red social"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Hasta dónde llega: animación y mapa interactivo",
+      "duracion": "~12 min",
+      "objetivo": "Enseñar el techo de la herramienta para que el área sepa qué puede pedir.",
+      "pasos": [
+        "Una animación de 15 segundos en formato horizontal, a partir de una imagen subida y un mensaje de campaña",
+        "Un mapa interactivo del departamento del Cesar con la población con discapacidad por municipio, con gráficas",
+        "Quedó dicho que el detalle se controla con la instrucción: si no se quiere que altere una imagen, se le dice",
+        "Y lo que viene después: un agente que produzca las piezas con solo darle la información de la campaña"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD PROBADA · SESIÓN 4 · 4 septiembre 2026",
+      "titulo": "La pieza gráfica completa desde la carpeta de marca",
+      "descripcion": "Con el manual de marca cargado en un proyecto, una pieza sale con el logo, los colores y la tipografía correctos sin explicarlos cada vez, se edita sobre el mismo documento y se exporta en el formato que haga falta — post, historia, PDF, PNG o presentación. En sesión se hizo entero con un caso real del área. Y responde a la pregunta que planteó la jefatura: que quien lleva el diseño cargue la carpeta y el resto del equipo pida las piezas sobre esa misma base.",
+      "estado": "Demostrado de principio a fin — falta que el equipo lo replique",
+      "proximo_paso": "Crear el proyecto de publicaciones y cargar la identidad completa",
+      "target": "Sesión 5"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 4 · 4 septiembre 2026",
+      "titulo": "El monitoreo de medios segmentado por red",
+      "descripcion": "Hoy los enlaces llegan mezclados en un solo documento y se separan a mano para armar el monitoreo. Conectando la carpeta, la herramienta los clasifica por red social, detecta duplicados y avisa de lo que falta — el mismo comportamiento que se demostró sobre una carpeta de facturas.",
+      "estado": "Planteado por el equipo en sesión, pendiente de probar",
+      "proximo_paso": "Cargar el documento de enlaces y pedir la segmentación",
+      "target": "Sesión 5"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 4 · 4 septiembre 2026",
+      "titulo": "El agente que audita el uso de la herramienta",
+      "descripcion": "La dirección quiere saber quién usa realmente lo que se está enseñando, y hoy no hay forma de verlo. Es lo que se trabaja el martes. Va acompañado del reporte de cierre del proyecto: qué procesos quedaron automatizados por área y cuánta productividad se ganó — el caso de Jurídica pasó de 960 minutos a 25 en un solo reporte.",
+      "estado": "Comprometido para el martes 8",
+      "proximo_paso": "Sesión con María Elvira sobre el agente de auditoría",
+      "target": "Martes 8 de septiembre"
+    }
+  ],
+  "tareas_intro": "La sesión cambió la forma de trabajar con el área: se pasa de sesiones grupales a individuales, porque coordinar a seis personas es lo que ha venido frenando el avance. Y mostró el techo de lo que Comunicaciones puede hacer con la herramienta — que es alto, y que hoy está detrás de una licencia.",
+  "tareas": [
+    {
+      "tarea": "Agendar sesiones individuales, varias por semana",
+      "responsable": "Todo el equipo",
+      "prioridad": "URGENTE",
+      "plazo": "Inmediato"
+    },
+    {
+      "tarea": "Crear el proyecto de publicaciones y cargar la carpeta de identidad completa",
+      "responsable": "César Reyes + el equipo",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S5"
+    },
+    {
+      "tarea": "Practicar en Claude Design con las publicaciones reales de la semana",
+      "responsable": "Todo el equipo",
+      "prioridad": "ALTA",
+      "plazo": "Antes de S5"
+    },
+    {
+      "tarea": "Diligenciar el tablero con el tiempo antes y después de cada ejercicio",
+      "responsable": "Todo el equipo",
+      "prioridad": "ALTA",
+      "plazo": "Permanente"
+    },
+    {
+      "tarea": "Crear las habilidades del área: una para Instagram, otra para LinkedIn",
+      "responsable": "Comunicaciones",
+      "prioridad": "MEDIA",
+      "plazo": "Antes de S5"
+    },
+    {
+      "tarea": "Probar la segmentación del monitoreo de medios por red social",
+      "responsable": "Julio Pérez",
+      "prioridad": "MEDIA",
+      "plazo": "Antes de S5"
+    },
+    {
+      "tarea": "Revisar la conexión del puesto que se cayó tres veces en sesión",
+      "responsable": "Comfacesar — TI",
+      "prioridad": "MEDIA",
+      "plazo": "Antes de S5"
+    },
+    {
+      "tarea": "Sesión sobre el agente de seguimiento de uso que pidió la dirección",
+      "responsable": "Sandra Curvelo + María Elvira",
+      "prioridad": "ALTA",
+      "plazo": "Martes 8"
+    }
+  ],
+  "observaciones": [
+    "Seis personas del área en la sesión. Es la asistencia más alta que ha tenido cualquier área del programa, y sin embargo Comunicaciones va de las más atrasadas — precisamente porque es la más grande y coordinar la agenda de seis es lo difícil. De ahí el cambio: individuales de aquí en adelante.",
+    "El bloque de la sesión fue Claude Design sobre un caso real que trajo el equipo, no un ejemplo. La pieza se construyó completa: post, historia, animación de quince segundos y un mapa interactivo del departamento con la población con discapacidad por municipio.",
+    "Lo que más le sirve al área es lo que hoy no puede usar. Claude Design exige la versión paga, y ya está pidiendo el cambio a quien intentó abrirlo. Toda la demostración se hizo sobre la cuenta de la facilitadora.",
+    "La jefatura planteó la pregunta correcta sobre trabajo colaborativo: que quien lleva el diseño cargue la carpeta de marca y el resto del equipo pida las piezas sobre esa base. La respuesta es sí, y es exactamente el proyecto de publicaciones que quedó como tarea.",
+    "Sobre la licencia corporativa: la pregunta salió de la jefatura y la respuesta fue no comprarla todavía. El equipo aún no agota la versión gratuita, y en Comfacesar ya hay licencias pagadas que no se usan. La petición se hace con el reporte de cierre en la mano, y el argumento son las cifras — el caso de Jurídica, de 960 minutos a 25 en un solo reporte.",
+    "La dirección pidió una forma de hacer seguimiento al uso real de la herramienta. Quedó comprometido para el martes: un agente que audite. Es una necesidad legítima y también la mejor defensa del área frente a la pregunta de si la inversión sirvió.",
+    "Quedaron enunciadas las herramientas que siguen después de Claude: Gemini, ChatGPT, Perplexity y Mentimeter — esta última específicamente para las encuestas en vivo de conferencias y webinars, que es trabajo propio de Comunicaciones."
+  ],
+  "proxima_sesion": {
+    "sesion": "Comunicaciones — sesiones individuales, y la grupal de diseño",
+    "condiciones": [
+      "El proyecto de publicaciones creado, con la carpeta de identidad cargada",
+      "Las publicaciones reales de la semana practicadas en Claude Design",
+      "El tablero del área diligenciado",
+      "Claude de escritorio instalado en los puestos que vayan a la versión paga"
+    ],
+    "agenda": [
+      "Revisión de las piezas que cada uno haya construido",
+      "Las habilidades del área, separadas por red social",
+      "La segmentación del monitoreo de medios",
+      "El agente de seguimiento de uso, con la jefatura — martes 8"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 4 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

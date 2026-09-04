@@ -305,6 +305,54 @@ mensajes ya publicados**, así que solo Sandra puede corregirlos desde Slack.
 La regla quedó escrita en `LUCIA.md`. De aquí en adelante, ningún mensaje sale con el
 relleno.
 
+## Viernes 4 de septiembre — Comunicaciones S4
+
+| Hora | Canal | Contenido | TS |
+|---|---|---|---|
+| 10:44 | `#comunicaciones` | Grabación S4 | `1788536689.144129` |
+| 10:51 | `#comunicaciones` | Resumen S4 | `1788537074.476719` |
+
+PDF: `ACTA_Sesion4_Comunicaciones_4septiembre2026.pdf`. Primer mensaje del proyecto que
+sale con el círculo correcto en el cuerpo.
+
+### El primer VTT llegó cortado
+
+El archivo que Sandra subió primero pesaba **1 KB** y solo traía los primeros 45 segundos
+de una sesión de una hora — se cortaba en el saludo. No se armó nada con él: se le pidió
+volver a descargarlo de Teams y el segundo llegó con 144 KB, completo, y en su carpeta.
+
+**Regla:** antes de leer un VTT, mirar el tamaño. Una sesión de una hora pesa entre 120 y
+170 KB. Por debajo de eso está truncado y hay que pedirlo de nuevo, no armar el acta con
+lo que haya.
+
+### El condensador no decodificaba los acentos
+
+Teams escapa los nombres en el VTT: `Mar&#237;a Elvira`. El condensador los pasaba tal
+cual y los nombres llegaban rotos al acta. Se corrigió en `condensar_vtt.py` con
+`html.unescape`, aplicado tanto al hablante como a la frase.
+
+### Nombres de Comunicaciones, verificados contra Slack
+
+| Transcript | Nombre real (Slack) | Correo |
+|---|---|---|
+| Vidiana | **Vidiana Bendeck** | profesionalcomunicaciones@ |
+| SANDRA PATRICIA MACHADO ARQUEZ | **Sandra Patricia Machado Arquez** | profesionalcomunicaciones2@ |
+| José Manuel Vergara | **José Manuel Vergara Daza** | web@ |
+| CÉSAR REYES | **César Andrés Reyes Jiménez** — Diseño | diseno@ |
+| María Elvira Marulanda Fernández | **María Elvira Marulanda** | comunicaciones@ |
+
+**Julio Pérez asistió pero no es miembro de `#comunicaciones`.** Igual que Danefer Mora en
+Planeación: está en la sesión y no le llega nada de lo que se publica. Hay que agregarlo.
+
+**María Elvira entró desde dos dispositivos** — aparece dos veces en el informe de
+asistencia y no significa que se haya ido a las 9:53.
+
+### Compromiso con fecha
+
+**Martes 8:** sesión con María Elvira sobre el agente que audita el uso de la
+herramienta. Lo pidió el director. Es la primera vez que la dirección pide algo
+directamente al programa.
+
 ## Actas listas, sin publicar
 
 | Sesión | Fecha | Canal | Estado |

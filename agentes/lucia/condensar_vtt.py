@@ -11,6 +11,7 @@ ni interpreta: el texto sale entero, solo deja de estar troceado.
 
 Entrada: un .vtt, o el JSON que devuelve el conector de Dropbox (campo "text").
 """
+import html as _html
 import io, json, re, sys
 
 def texto_de(ruta):
@@ -44,12 +45,14 @@ def condensar(crudo):
             continue
         m = re.match(r"<v ([^>]+)>(.*)$", linea)
         if m:
-            hablante, frase = m.group(1).strip(), m.group(2)
+            # Teams escapa los acentos del nombre: Mar&#237;a Elvira.
+            hablante = _html.unescape(m.group(1)).strip()
+            frase = m.group(2)
         else:
             # Teams parte la frase en dos líneas: la segunda cierra con </v> y
             # no repite el hablante. Es continuación de quien venía hablando.
             hablante, frase = None, linea
-        frase = frase.replace("</v>", "").strip()
+        frase = _html.unescape(frase.replace("</v>", "")).strip()
         if not frase:
             continue
         if intervenciones and (hablante is None or hablante == intervenciones[-1][0]):
