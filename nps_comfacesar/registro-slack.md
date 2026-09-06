@@ -15,6 +15,33 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⏰ 6 sep — Programado para el lunes 8:00 en `#comunicaciones`: licencias de Claude Design
+
+**Sandra Patricia Machado escribió el viernes a las 16:49**, cuarenta y nueve minutos
+después de la última corrida del día (16:00). No se vio hasta que Sandra lo señaló el
+domingo.
+
+> «Buena tarde Sandra. Estamos intentando los del equipo realizar los ejercicios en Claude
+> Design, sin embargo para poder avanzar nos pide la versión paga.»
+
+**Programado** `Dr0C00PC87NG` para el **lunes 7 a las 8:00 a. m.** — se redactó en domingo,
+fuera de horario, así que no se envió en el momento.
+
+Contenido, según lo que pidió Sandra: Claude Design es **el único** que exige versión paga;
+en la gratis se trabajan los demás diseños; **Gemini** ya lo tienen con licencia
+empresarial y por ahí se avanza; que monten el proyecto de publicaciones con la carpeta de
+identidad (tarea de César); y que **agenden una sesión** para revisar el ejercicio.
+
+**No se menciona precio ni número de licencias** — eso toca alcance y presupuesto, y es
+conversación de Sandra.
+
+### 🔴 Regla — la última corrida del día deja un hueco
+
+La corrida de las 16:00 es la última, pero la jornada del cliente llega hasta las 5 o más.
+Lo que entra en esa hora final no se ve hasta el siguiente día hábil. **Antes de cerrar el
+viernes conviene un último barrido**, o avisarle a Sandra que lo de última hora queda sin
+revisar hasta el lunes.
+
 ## 🔧 4 sep · 14:01 — Corrección a Carlos: carpeta conectada ≠ contexto del proyecto
 
 Carlos volvió al canal a las **12:47**, exactamente como se le pidió:
