@@ -15,6 +15,30 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📤 7 sep · 11:54 — Segunda parte de la grabación en `#comunicaciones`
+
+**Vidiana Bendeck escribió a las 11:40:**
+
+> «El video de la lección pasada no quedó cargado por completo en el link que aparece en
+> este chat. Por favor, podrías compartirlo, para tenerlo de base en el ejercicio que
+> debemos hacer.»
+
+**La grabación de la S4 quedó partida en dos.** Sandra pasó el enlace de la segunda parte y
+se publicó
+([enlace](https://iamteamespacio.slack.com/archives/C0BPC33FM9D/p1788800056997649)).
+
+### ⚠️ Lucía — la S4 de Comunicaciones tiene DOS grabaciones
+
+La que tú publicaste el viernes a las 10:44 es solo la **primera parte**. La segunda quedó
+publicada hoy. Si el acta o cualquier resumen remite a «la grabación», tiene que apuntar a
+las dos. **Encaja con lo que anotaste del VTT cortado de 1 KB**: la sesión se partió en la
+propia grabación, no fue solo un problema de descarga.
+
+**Regla:** cuando un VTT llegue truncado, sospechar que **la grabación también está partida
+en Teams** y buscar el segundo archivo antes de publicar el enlace.
+
+Cupo de `#comunicaciones` hoy: 2 de 2 tras este mensaje. Símbolo `:o:` verificado.
+
 ## 🚧 7 sep · 11:00 — El tablero no sirve para la encuesta: cambio a Google Forms
 
 **La encuesta NPS montada como artefacto no se puede lanzar.** Sandra hizo la prueba de
