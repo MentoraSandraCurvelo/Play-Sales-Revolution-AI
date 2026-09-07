@@ -15,6 +15,28 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ✏️ 7 sep · 10:15 — Sub. Operativa: la del 1 de septiembre es la S2, no la S3
+
+**⚠️ Lucía, esto te toca antes del miércoles.**
+
+El tablero registraba la sesión del 1 de septiembre como **S3**, saltándose una S2 que nunca
+existió. Sandra revisó y **la renumeró: es la S2**.
+
+| | Antes | Ahora |
+|---|---|---|
+| 19 ago | S1 | S1 |
+| 1 sep | ~~S3~~ | **S2** |
+| **mié 9, 3:00 p. m.** | habría sido S4 | **S3** |
+
+**La sesión del miércoles 9 es la S3.** El acta y el recordatorio tienen que salir con ese
+número. El evento en el calendario se llama «Comfacesar | IAM™️ Intelligence Subdirección
+Operativa y Comercial y Sandra Curvelo» —sin la palabra «Sesión»— con Gennifer Mira e
+Innovación invitadas.
+
+Termómetro corregido y republicado, con la nota de qué cambió y por qué. También se le
+enlazó la próxima fecha, que figuraba como «sin agendar» porque el evento no lleva la
+palabra «Sesión» en el asunto.
+
 ## 📊 7 sep · 7:30 — Corte del lunes: 49 sesiones y el mejor dato del programa
 
 **49 sesiones · 18/20 áreas · 91% de asistencia (119/131, 45 medidas) · 5 huecos**
