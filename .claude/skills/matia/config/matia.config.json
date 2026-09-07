@@ -1,0 +1,154 @@
+{
+  "version": "1.0",
+  "propietaria": "Sandra Curvelo",
+  "zona_horaria": "America/Bogota",
+  "ventana_dias_por_defecto": 7,
+
+  "_comentario_dominios_propios": "Dominios de Sandra. Un correo que llega DESDE aqui es interno, no cliente. Completar antes de la primera corrida.",
+  "dominios_propios": [],
+
+  "_comentario_clientes": "Lista maestra. Gana sobre cualquier otra regla. Acepta dominio completo o correo individual. Se actualiza cada vez que Sandra confirma un cliente nuevo.",
+  "clientes_conocidos": {
+    "dominios": [],
+    "correos": []
+  },
+
+  "_comentario_prospectos": "Empresas en conversacion comercial que aun no son clientes. Suben a P2 automatico.",
+  "prospectos": {
+    "dominios": [],
+    "correos": []
+  },
+
+  "dominios_gratuitos": [
+    "gmail.com", "googlemail.com", "hotmail.com", "hotmail.es", "hotmail.co.uk",
+    "outlook.com", "outlook.es", "live.com", "live.com.mx", "msn.com",
+    "yahoo.com", "yahoo.es", "yahoo.com.mx", "ymail.com",
+    "icloud.com", "me.com", "mac.com",
+    "aol.com", "protonmail.com", "proton.me", "zoho.com",
+    "gmx.com", "mail.com", "yandex.com", "tutanota.com"
+  ],
+
+  "remitentes_automaticos": [
+    "no-reply", "noreply", "no_reply", "donotreply", "do-not-reply",
+    "notifications", "notificaciones", "notification", "mailer", "mailer-daemon",
+    "newsletter", "news", "info@", "bounce", "postmaster", "automated",
+    "alerts", "alertas", "support@", "soporte@", "billing@"
+  ],
+
+  "categorias": {
+    "AGENDAR": {
+      "etiqueta_gmail": "MATIA/2-Agendar",
+      "emoji": "📅",
+      "palabras": [
+        "agendar", "agenda", "agendamos", "reunion", "reunión", "reunirnos",
+        "cita", "calendario", "calendly", "disponibilidad", "disponible",
+        "reprogramar", "reagendar", "cancelar la reunion", "mover la reunion",
+        "invitacion", "invitación", "confirmar hora", "confirmar fecha",
+        "sesion", "sesión", "llamada", "videollamada", "call",
+        "zoom", "google meet", "meet.google", "microsoft teams", "teams meeting",
+        "webinar", "conferencia", "charla", "ponencia", "capacitacion agendada",
+        "meeting", "schedule", "reschedule", "appointment", "invite",
+        "book a time", "calendar invite", "save the date"
+      ]
+    },
+    "FACTURAS_Y_PAGOS": {
+      "etiqueta_gmail": "MATIA/3-Facturas",
+      "emoji": "💰",
+      "palabras": [
+        "factura", "facturacion", "facturación", "facturar", "cuenta de cobro",
+        "cobro", "pago", "pagos", "pagar", "abono", "anticipo",
+        "transferencia", "consignacion", "consignación", "comprobante",
+        "recibo", "soporte de pago", "orden de compra", "orden de servicio",
+        "presupuesto aprobado", "vencida", "vencido", "mora", "saldo pendiente",
+        "dian", "rut", "iva", "retefuente", "retencion", "retención",
+        "nota credito", "nota crédito", "pse", "nequi", "bancolombia",
+        "stripe", "paypal", "invoice", "receipt", "payment", "billing",
+        "overdue", "wire transfer", "remittance", "purchase order"
+      ]
+    },
+    "CLIENTES_Y_OPORTUNIDADES": {
+      "etiqueta_gmail": "MATIA/4-Oportunidades",
+      "emoji": "🎯",
+      "palabras": [
+        "propuesta", "cotizacion", "cotización", "cotizar", "contrato",
+        "acuerdo", "convenio", "mentoria", "mentoría", "programa",
+        "capacitacion", "capacitación", "entrenamiento", "taller", "workshop",
+        "consultoria", "consultoría", "asesoria", "asesoría",
+        "interesado", "interesada", "informacion sobre", "quisiera saber",
+        "equipo comercial", "fuerza de ventas", "social selling",
+        "embajadores de marca", "marca profesional", "linkedin para empresas",
+        "proposal", "quote", "contract", "statement of work", "sow"
+      ]
+    },
+    "MARCA_Y_CONTENIDO": {
+      "etiqueta_gmail": "MATIA/5-Marca",
+      "emoji": "📣",
+      "palabras": [
+        "linkedin", "podcast", "entrevista", "medios", "prensa",
+        "colaboracion", "colaboración", "invitacion a hablar", "speaker",
+        "ponente", "panel", "evento", "congreso", "summit",
+        "post", "publicacion", "publicación", "contenido", "newsletter propio",
+        "comunidad", "alianza", "partnership", "collaboration"
+      ]
+    },
+    "OPERACION": {
+      "etiqueta_gmail": "MATIA/6-Operacion",
+      "emoji": "⚙️",
+      "palabras": [
+        "proveedor", "suscripcion", "suscripción", "renovacion", "renovación",
+        "licencia", "plataforma", "acceso", "credenciales", "contrasena",
+        "contraseña", "usuario", "soporte tecnico", "soporte técnico",
+        "ticket", "incidencia", "actualizacion de servicio",
+        "hosting", "dominio", "godaddy", "backup", "seguridad de la cuenta",
+        "verificacion", "verificación", "codigo de acceso", "código de acceso"
+      ]
+    }
+  },
+
+  "senales_urgencia": [
+    "urgente", "urgent", "hoy mismo", "para hoy", "antes de las",
+    "vence", "vencimiento", "ultimo dia", "último día", "fecha limite",
+    "fecha límite", "deadline", "asap", "lo antes posible",
+    "segundo recuerdo", "recordatorio", "seguimiento", "follow up",
+    "pendiente de tu respuesta", "quedo atenta", "quedo atento",
+    "confirmame", "confirmame por favor", "necesito respuesta"
+  ],
+
+  "ruido": [
+    "unsubscribe", "darse de baja", "cancelar suscripcion",
+    "promocion", "promoción", "descuento", "oferta especial", "black friday",
+    "webinar gratuito", "curso gratis", "ebook gratis", "boletin", "boletín",
+    "digest", "resumen semanal", "novedades de la semana", "te recomendamos"
+  ],
+
+  "puntajes": {
+    "cliente_conocido": 50,
+    "prospecto": 30,
+    "dominio_corporativo": 25,
+    "dominio_gratuito": 8,
+    "remitente_automatico": -25,
+    "coincide_ruido": -20,
+    "categoria_facturas": 18,
+    "categoria_agendar": 15,
+    "categoria_oportunidades": 15,
+    "senal_urgencia": 12,
+    "sin_leer": 5,
+    "sandra_no_ha_respondido_48h": 10,
+    "es_respuesta_a_hilo_de_sandra": 10
+  },
+
+  "umbrales": {
+    "P1": 60,
+    "P2": 35,
+    "P3": 10
+  },
+
+  "etiquetas_prioridad": {
+    "P1": "MATIA/1-P1-Critico",
+    "P2": "MATIA/1-P2-Alto",
+    "P3": "MATIA/1-P3-Normal",
+    "P4": "MATIA/1-P4-Ruido"
+  },
+
+  "etiqueta_revisar": "MATIA/0-Revisar"
+}
