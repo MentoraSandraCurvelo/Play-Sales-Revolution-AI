@@ -353,6 +353,54 @@ asistencia y no significa que se haya ido a las 9:53.
 herramienta. Lo pidió el director. Es la primera vez que la dirección pide algo
 directamente al programa.
 
+## Semana del 7 de septiembre — revisión de apertura
+
+Revisión completa el lunes 7 a las 8:00. **Nada quedó pendiente de la semana pasada:** las
+cinco actas del jueves y la de Comunicaciones del viernes están publicadas con su grabación,
+y no hay VTT nuevo en Dropbox desde el viernes al mediodía.
+
+### Recordatorios de hoy — no había ninguno puesto
+
+| Sale | Canal | Sesión | ID / Estado |
+|---|---|---|---|
+| 8:20 | `#juridica` | Jurídica S5 — individual de Lilibeth, 10:00 | Publicado — `1788786025.815829` |
+| 14:00 | `#sub-admin-y-financiera-infraestructura` | Sub. Financiera S3 — Rafael, 3:00 p. m. | `Dr0BVAU63BC3` |
+| 15:00 | `#educacion` | Educación S3, 4:00 p. m. | `Dr0C053QR1MF` |
+| 16:00 | `#contabilidad` | Contabilidad S5 — Carlos, 5:00 p. m. | `Dr0BVAU3DAGK` |
+
+**La cita de las 11:00 con Lacides es de IAM™ Ambassadors, no del programa.** No lleva
+recordatorio ni acta, según la regla.
+
+### La semana completa
+
+| Día | Sesiones del programa |
+|---|---|
+| **Lun 7** | Jurídica S5 (Lilibeth) · Sub. Financiera S3 (Rafael) · Educación S3 · Contabilidad S5 (Carlos) |
+| **Mar 8** | Tecnología S3 · Subsidio S4 · **Reporte con María Elvira** · Empleo · Servicios Sociales (Juan Pablo) |
+| **Mié 9** | Sub. Financiera S4 · **Tesorería S2** · Jurídica S6 (equipo) · **SST — Danilo Pozo** · Sub. Operativa · Mercadeo S4 · Comunicaciones (Vidiana) |
+| **Jue 10** | Empleo · Servicios Sociales (Juan Pablo) |
+| **Vie 11** | Sub. Financiera S4 · Contabilidad (Carlos) |
+
+Diecinueve sesiones del programa en la semana. El miércoles carga siete.
+
+### Cuatro cosas que hay que resolver antes de que lleguen
+
+1. **Tesorería y SST no tienen canal localizable.** Las dos se activan el miércoles y en
+   Slack no aparecen mensajes en `#tesoreria` ni `#sst`. Sin canal no hay recordatorio, ni
+   grabación, ni acta publicada. Hay que crearlos o decir en cuál van.
+2. **Sub. Financiera tiene dos «Sesión 4»**: miércoles 9 a las 8:00 y viernes 11 a las
+   11:00, las dos con Rafael. Una de las dos está mal numerada o sobra.
+3. **Rafael cambió de correo** — la cita de hoy llega a `requerimientoscontratos@`, no a
+   `gestiondeproveedores@` como en la S2. Confirmar cuál es el que va en el acta.
+4. **Tecnología S3 aparece el martes a las 10:00.** La S3 de Tecnología se canceló el 31
+   de agosto. Hay que confirmar si es la misma reagendada, para cerrar la cancelación.
+
+### El martes 8 a las 2:00 p. m. no es una sesión, es la reunión de reporte
+
+Con María Elvira. Ahí van dos cosas comprometidas: el **agente de seguimiento de uso** que
+pidió el director, y la **respuesta sobre el licenciamiento corporativo**. Es la reunión
+más importante de la semana para el cierre del proyecto.
+
 ## Actas listas, sin publicar
 
 | Sesión | Fecha | Canal | Estado |

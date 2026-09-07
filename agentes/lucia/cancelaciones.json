@@ -10,10 +10,11 @@
       "quien_cancela": "Comfacesar",
       "motivo": "Óscar estaba en auditoría y Julissa venía retrasada con los ejercicios. Lo pidió Julissa y Sandra lo avisó en el canal a las 11:11.",
       "aviso_en_canal": "https://iamteamespacio.slack.com/archives/C0BPDPF4YMD/p1788192674969609",
-      "reagendada": false,
-      "compromiso": "Julissa respondió en el canal que se ponen al día para la próxima clase. Falta que agenden.",
+      "reagendada": true,
+      "compromiso": "Julissa quedó de coordinar con el rector y agendar. Lo hizo: la S3 vuelve el lunes 7 de septiembre a las 4:00 p. m. Es la única de las cuatro caídas que se recuperó.",
       "cuenta_como": "cancelada",
-      "causa": "cruce con otras actividades"
+      "causa": "cruce con otras actividades",
+      "nueva_fecha": "2026-09-07 16:00"
     },
     {
       "area": "Tecnología",
@@ -65,6 +66,7 @@
     "que_pasa": "Cuatro sesiones caídas en dos semanas. Tres por cruce con otras actividades —Educación S3 y Tecnología S3 el lunes 31, Cumplimiento S2 el miércoles 2— y la cuarta, Servicios Sociales S6 el jueves 3, por inasistencia: nadie entró a la sala. Ninguna quedó reagendada.",
     "por_que_importa": "No es un problema de interés sino de agenda: el espacio existe pero lo desplaza cualquier otra cosa. La de Servicios Sociales pesa distinto, porque es el área más avanzada del programa —cinco sesiones hechas— y aun así la hora se perdió sin aviso. Quedan cinco semanas de programa y una sesión que se cae sin reagendar no se recupera sola.",
     "a_quien_toca": "María Elvira Marulanda — es quien puede pedir que el espacio del programa se respete como cualquier otro compromiso institucional.",
-    "actualizado": "2026-09-03"
+    "actualizado": "2026-09-07",
+    "recuperadas": "De las cuatro sesiones caídas, solo Educación S3 se reagendó — vuelve el lunes 7. Tecnología S3, Cumplimiento S2 y Servicios Sociales S6 siguen sin fecha nueva. Tecnología sí tiene una S3 en el calendario del martes 8 a las 10:00, que hay que confirmar si es la misma que se cayó el 31 de agosto."
   }
 }
