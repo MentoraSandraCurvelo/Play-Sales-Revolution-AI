@@ -15,6 +15,49 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📊 7 sep · 7:30 — Corte del lunes: 49 sesiones y el mejor dato del programa
+
+**49 sesiones · 18/20 áreas · 91% de asistencia (119/131, 45 medidas) · 5 huecos**
+
+### Comunicaciones S4 — seis de seis
+
+María Elvira, Vidiana, Sandra Patricia, José Manuel, César y Julio. **La asistencia más
+alta que ha tenido cualquier área**, y el área venía siendo de las más atrasadas por eso
+mismo: coordinar a seis para una grupal la frenó catorce días. **Pasa a individuales.**
+
+Se construyó en vivo la pieza de la feria de empleo del 10 de septiembre — post, historia,
+animación de 15 segundos y mapa interactivo del Cesar con población con discapacidad por
+municipio, todo desde la carpeta de marca.
+
+### ⭐ El número para el reporte del martes
+
+**Un reporte de Jurídica pasó de 960 minutos —cinco días— a 25 minutos.** Sale del acta de
+Comunicaciones S4. Supera con mucho a las 2–3 horas de Agencia de Empleo que se venía
+usando como cifra estrella.
+
+### La licencia de Claude Design
+
+Riesgo **crítico** en acta: Claude Design solo corre en versión paga y toda la sesión se
+hizo sobre la cuenta de Sandra. **La decisión en acta es no comprarla todavía** — el equipo
+no agota la gratuita y en Comfacesar ya hay licencias pagadas sin usar; se pide en octubre
+con el reporte de cierre. El mensaje programado para hoy 8:00 es coherente con eso: no
+promete licencias, ofrece la versión gratis y Gemini.
+
+### La campaña del viernes no ha movido a nadie
+
+Los cuatro mensajes salieron el viernes 11:04. Barrido de Outlook hasta el 15 de
+septiembre: **ninguna de las cuatro ha tomado fecha**, y nadie escribió el fin de semana.
+Crédito y Auditoría van en **tres mensajes cada una sin una sola respuesta** — ahí ya no
+hay cuarto mensaje que sirva.
+
+### Documentos abiertos (5)
+
+Se suma **Comunicaciones S4**: acta y grabación publicadas, falta el informe de asistencia
+(el 100% salió del acta, no de Teams). Siguen Planeación S2, Contabilidad S2, Tesorería S1
+y Educación S1.
+
+Servicios Sociales S6 sigue **sin verificar**.
+
 ## ⏰ 6 sep — Programado para el lunes 8:00 en `#comunicaciones`: licencias de Claude Design
 
 **Sandra Patricia Machado escribió el viernes a las 16:49**, cuarenta y nueve minutos
