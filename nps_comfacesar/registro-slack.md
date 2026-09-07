@@ -15,6 +15,34 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🚧 7 sep · 11:00 — El tablero no sirve para la encuesta: cambio a Google Forms
+
+**La encuesta NPS montada como artefacto no se puede lanzar.** Sandra hizo la prueba de
+compartir y la opción «Anyone with the link» sale deshabilitada, con el motivo explícito:
+
+> *This Artifact stores shared data, so it can't be shared publicly.*
+
+**La causa es la propia función que la hacía útil:** al declarar la capacidad de guardar
+respuestas (`db`), la plataforma bloquea el compartir público. La única alternativa que
+deja es «Only people with access», que exige invitar de a una a las 51 personas.
+
+### Regla — un artefacto que guarda datos no se comparte por link
+
+Sirve para páginas que ve un grupo cerrado, **no para un formulario abierto a un cliente
+externo**. Para recoger respuestas de gente fuera de la cuenta hay que usar una
+herramienta de formularios de verdad.
+
+**Se pasa a Google Forms.** Sandra tiene Drive conectado, así que las respuestas se pueden
+leer desde aquí para armar el tablero de resultados. Se le entregaron las diez preguntas
+listas para pegar, con los tipos de campo y la instrucción clave de **no marcar «Recopilar
+correos»**, que es lo que garantiza el anonimato.
+
+El artefacto `8464406e-a557-429b-a44f-f37d6af65f9c` queda como referencia del diseño y de
+la redacción aprobada, no como el instrumento de recolección.
+
+**Se descubrió antes de lanzar**, con la prueba de compartir que se pidió justamente para
+esto. Los 18 mensajes no salieron y no hubo nadie topándose con una pantalla de acceso.
+
 ## ✏️ 7 sep · 10:15 — Sub. Operativa: la del 1 de septiembre es la S2, no la S3
 
 **⚠️ Lucía, esto te toca antes del miércoles.**
