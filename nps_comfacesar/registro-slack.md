@@ -15,6 +15,32 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ✅ 8 sep · 09:20 · Corrección, el acta de Tesorería S1 sí estaba en el canal
+
+**Sandra dudó del dato y tenía razón.** El tablero venía diciendo que el acta de Tesorería S1
+estaba en Dropbox y nunca había llegado a Slack.
+
+**Es falso.** Está publicada en `#tesoreriaa` desde el **25 de agosto a las 8:01:04 a. m.**:
+`ACTA_Sesion_Tesoreria_19Agosto2026.pdf`, seguida cinco segundos después del mensaje «Envio
+acta sesion 1». Es **una sola acta**, el mismo archivo con el mismo nombre en Dropbox y en el
+canal, subido el mismo minuto.
+
+### Por qué se leyó mal, y cómo evitarlo
+
+**El archivo va en un mensaje sin texto**, y el texto va en el mensaje siguiente. Al leer el
+canal, el mensaje del adjunto aparece en blanco y se pasa por alto. En `concise` no se ve el
+adjunto; hay que leer en `detailed` para que salga la línea `Files:`.
+
+**Regla:** un mensaje vacío en un canal casi nunca está vacío, lleva un archivo. Antes de
+declarar que un documento falta, releer ese tramo en `detailed`.
+
+### Efecto en el tablero
+
+Los documentos abiertos bajan de **cinco a cuatro**, y los cuatro son ahora la misma cosa: el
+informe de asistencia de Teams sin descargar (Comunicaciones S4, Contabilidad S2, Educación
+S1, Tesorería S1). Ninguno mueve un indicador. La corrección quedó escrita en el tablero, no
+solo aplicada.
+
 ## 🚨 8 sep · 08:05 · María Elvira escaló ella misma, en tres canales
 
 **No se publicó nada.** Esto es alcance del contrato, va a Sandra.
