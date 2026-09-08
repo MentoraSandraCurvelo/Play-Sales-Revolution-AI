@@ -15,6 +15,61 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🚨 8 sep · 08:05 · María Elvira escaló ella misma, en tres canales
+
+**No se publicó nada.** Esto es alcance del contrato, va a Sandra.
+
+Anoche, entre las 18:36 y las 20:20, María Elvira Marulanda escribió en tres canales sin
+que nadie se lo pidiera:
+
+**`#auditoria-interna`, 18:36** → a Miguel Ángel Ariza y Juan Carlos Guillén:
+> «Por favor, notificarme el inconveniente para atender las sesiones del entrenamiento **o
+> debo retirarlos del proyecto**.»
+
+**`#credito`, 18:41** → a José Jorge Ruiz:
+> «Por favor a nivel interno revisemos las dificultades para atender el proyecto y **evaluar
+> si retiramos el área de crédito** del mismo.»
+
+**`#tesoreriaa`, 20:20** → a Beatriz Portela y Yohana Carreño:
+> «Conversemos en interno si tienen dificultades para avanzar en el entrenamiento.»
+
+### Por qué importa hoy
+
+**El tablero venía diciendo que ahí tocaba llamada, no un cuarto mensaje. La llamada la hizo
+la propia patrocinadora**, y en público. Las dos áreas que llevaban tres mensajes sin
+respuesta y cero sesiones ahora están sobre la mesa como retiro del proyecto.
+
+**Y el mensaje de Tesorería apunta exactamente a donde el tablero señalaba:** Beatriz Portela
+es la única persona del programa que no ha entrado a ninguna sesión, y Tesorería es la única
+área por debajo del 70% de asistencia.
+
+**Esto llega cuatro horas antes del reporte de las 2:00 p. m.** Cambia el marco: no es IAM
+reportando áreas rezagadas, es la patrocinadora ya actuando sobre ellas.
+
+### Lo que no hice, y por qué
+
+**No respondí en ninguno de los tres canales.** Retiro de un área es alcance de contrato, y
+eso va a Sandra, no se contesta. Tampoco es momento de una alerta de silencio: si Comfacesar
+está resolviendo en interno, un mensaje de IAM encima solo estorba.
+
+### La encuesta salió completa
+
+**14 de 14 canales**, entre las 8:00:02 y las 8:00:26. Verificado uno por uno por búsqueda.
+Los cuatro de mañana siguen en cola. Con eso, esos 14 canales llevan **1 de 2** mensajes hoy;
+queda un cupo por canal para Lucía.
+
+### Sin pendientes de cliente
+
+Barrido de mensajes de cliente desde el 6 de septiembre: nada sin responder. Vidiana cerró
+con un «Gracias, Sandra» tras recibir la segunda parte del video. El «Sandra buenas tardes»
+de Carlos fue el saludo de apertura de su sesión de las 5:00. Sin DM pendientes.
+
+### Áreas en silencio, para cuando Sandra decida
+
+Con sesión hace 6+ días y sin próxima agendada: **Crédito** y **Auditoría Interna** (nunca
+arrancaron), **Cumplimiento** (S1 el 26 de agosto, la S2 se canceló) y **Talento Humano** (S2
+el 1 de septiembre). Gerencia Financiera y Planeación cruzan la línea mañana.
+
 ## 📊 8 sep · 07:20 · Corte diario, el programa pasa a 53 sesiones
 
 Tablero: https://claude.ai/code/artifact/8949a813-41e2-4c31-b234-d0b3ada2eb6e
