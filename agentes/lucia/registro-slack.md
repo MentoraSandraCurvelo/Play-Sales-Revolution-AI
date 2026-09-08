@@ -460,7 +460,8 @@ Los PDF los sube Sandra a cada canal: el conector de Slack no puede adjuntar arc
 ### Pendiente de Sandra
 
 - **Tesorería y SST siguen sin canal.** Las dos áreas reciben sesión y no reciben nada más.
-- **Sub. Financiera tiene dos «Sesión 4»** en calendario: martes con Liliany y miércoles con Rafael. Por fecha deberían ser S4, S5 y S6.
+- **Sub. Financiera tiene tres «Sesión 4»** — verificado en Outlook el 8 de septiembre. Rafael cerró la S3 el lunes 7, así que por fecha corresponde: martes 8, 4:00 p. m. con **Liliany** → S4; miércoles 9, 8:00 a. m. con **Rafael** → S5; viernes 11, 11:00 a. m. con **Rafael** → S6 (hoy dice S5). Los títulos van con el nombre de la persona. Los renombra Sandra: el conector lee el calendario pero no escribe.
+- **Liliany está invitada con un Gmail personal** (`liligozu@gmail.com`), no con el correo de Comfacesar. Por eso su sesión no cruza con el canal del área.
 - **Danefer Mora** no está en `#planeacion` y **Julio Pérez** no está en `#comunicaciones` — ambos asisten y no reciben resúmenes ni recordatorios.
 - **Sandra Milena Hinojosa** preguntó en `#planeacion` el 20 de agosto y nadie ha respondido.
 - **Mañana martes 8, 2:00 p. m. — reporte con María Elvira:** el agente de auditoría de uso que pidió el director, y la respuesta de licenciamiento.

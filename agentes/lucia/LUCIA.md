@@ -318,3 +318,30 @@ Ya pasó una vez: el corte del lunes 7 salió completo esa misma noche y quedó 
 **La hora la saco de Slack, no del sistema.** Cada mensaje trae su timestamp ya convertido (`2026-09-07 20:17:55 -05`). Cuando necesite saber qué día y qué hora es, leo el canal y miro el último mensaje. Un `date` de la máquina solo sirve restándole cinco horas.
 
 Y el criterio de mismo día se mide contra el día colombiano: una sesión de las 5:00 p. m. tiene hasta la medianoche de Colombia, no hasta que al sistema le cambie la fecha.
+
+## El número de sesión es del área; el nombre, de la persona
+
+Dos cosas distintas que se confundían y hay que escribir juntas.
+
+**El número es del área y corre por fecha.** No por persona. Si el área tiene la S3
+el lunes con uno y una sesión el martes con otra, la del martes es la S4 — aunque sea
+la primera individual de esa persona. Jurídica ya lo fijó así: la S5 fue la individual
+de Lilibeth y la S6 el grupo completo. Sub. Administrativa y Financiera es el caso que
+lo rompió: llegó a tener **tres eventos llamados «Sesión 4»** al mismo tiempo.
+
+**El nombre va en el título cuando la sesión es individual.** Formato de Sandra:
+
+    ⭕️Comfacesar | <Área> S<n> | <Nombre>
+
+Así el calendario se lee solo y el acta sale con el número correcto sin preguntar.
+
+**Cómo se resuelve una duda de numeración:** se listan los eventos del área ordenados
+por fecha y se cuentan. No se toma el número del título —que es justamente lo que suele
+estar mal— ni del acta anterior. Y ojo con Calendly: nombra los eventos con quien
+reserva, así que buscar por área en el calendario devuelve vacío. Hay que listar por
+rango de fechas y leer.
+
+**Lo que Lucía no puede hacer:** renombrar el evento. El conector de Microsoft 365 lee
+el calendario pero no escribe — Graph responde `ErrorAccessDenied` al intentar cambiar
+el asunto. Cuando haga falta corregir, Lucía entrega los títulos listos para pegar y
+Sandra los cambia.
