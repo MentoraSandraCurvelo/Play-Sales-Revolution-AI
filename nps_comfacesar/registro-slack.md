@@ -15,6 +15,25 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📩 8 sep · 17:09 · DM respondido a Manuel José, de Mercadeo
+
+**Escribió por privado a las 16:24: «hola sandra buena tarde».** Sin contenido, solo el
+saludo. Se respondió por DM redirigiéndolo a `#mercadeo` y recordándole su **S4 de mañana
+miércoles a las 4:00 p. m.** con la condición de entrada, un caso real del área.
+
+**Ojo con los dos nombres parecidos.** Sandra dijo «José Manuel» y en el espacio hay dos:
+
+- **Manuel José Gutiérrez** (`comercializacionyventas@comfacesar.com`, `U0BQBUB8J4D`), de
+  **Mercadeo**. Es el que escribió.
+- **José Manuel Vergara Daza** (`web@comfacesar.com`, `U0BQB7PJ7FH`), de **Comunicaciones**.
+  Su DM no tiene un solo mensaje desde que aceptó la invitación en agosto.
+
+Se verificaron los dos privados antes de contestar. **Regla: con estos dos nombres, leer
+siempre los dos DM antes de responder**, porque se invierten con facilidad.
+
+**Un DM no consume cupo de canal**, así que `#mercadeo` sigue en 1 de 2 hoy, solo con la
+encuesta de las 8:00.
+
 ## 💬 8 sep · 16:00 · Dos respuestas publicadas, a pedido de Sandra
 
 **Cupos de hoy en los dos canales: 2 de 2 tras estos mensajes.** Los dos ya llevaban la
