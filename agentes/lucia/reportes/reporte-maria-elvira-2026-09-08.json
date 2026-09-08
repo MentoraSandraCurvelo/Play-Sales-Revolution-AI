@@ -1,0 +1,332 @@
+{
+  "archivo": "REPORTE_Comfacesar_IAM_8septiembre2026",
+  "proyecto_meta": "Proyecto Comfacesar · IAM™ Intelligence · 2026",
+  "kicker": "REPORTE DE AVANCE Y PUNTOS DE DECISIÓN",
+  "titulo": "Lo que ya funciona, y lo que lo está frenando",
+  "subtitulo_meta": "Para María Elvira Marulanda · martes 8 de septiembre de 2026, 2:00 p. m. · Sandra Curvelo, Mentora IAM™",
+  "kpis": [
+    {
+      "valor": "20",
+      "etiqueta": "Actas entregadas",
+      "detalle": "13 de las 21 áreas ya tuvieron sesión"
+    },
+    {
+      "valor": "465",
+      "etiqueta": "Minutos/día recuperados",
+      "detalle": "Un solo proceso, en una sola área"
+    },
+    {
+      "valor": "10 de 13",
+      "etiqueta": "Áreas con bloqueo de TI",
+      "detalle": "De las que ya tuvieron sesión"
+    },
+    {
+      "valor": "4",
+      "etiqueta": "Áreas piden API",
+      "detalle": "Llegaron ahí por separado"
+    },
+    {
+      "valor": "7",
+      "etiqueta": "Semanas restantes",
+      "detalle": "El cierre es el 30 de octubre"
+    }
+  ],
+  "secciones": [
+    {
+      "num": "01",
+      "titulo": "DÓNDE VA EL PROGRAMA",
+      "intro": "Seis semanas, veinte sesiones documentadas y tres procesos con ahorro medido sobre datos reales del área — no sobre ejemplos.",
+      "parrafos": [
+        "El programa dejó de ser formación y pasó a producir. Estos tres procesos están funcionando hoy, con el tiempo antes y después medido en sesión por la persona que los ejecuta:"
+      ],
+      "tabla": {
+        "columnas": [
+          "Área",
+          "Proceso",
+          "Antes",
+          "Ahora",
+          "Estado"
+        ],
+        "filas": [
+          [
+            "Sub. Administrativa y Financiera",
+            "Prevalidación precontractual de proveedores",
+            "480 min/día",
+            "*15 min/día*",
+            "Funcionando y registrado"
+          ],
+          [
+            "Contabilidad",
+            "Reporte mensual de anticipos",
+            "240 min/mes",
+            "*10 min/mes*",
+            "Primer envío real: 10 de septiembre"
+          ],
+          [
+            "Agencia de Empleo",
+            "Filtro de hojas de vida por vacante",
+            "22 min",
+            "*2 min*",
+            "Funcionando de punta a punta"
+          ]
+        ]
+      }
+    },
+    {
+      "num": "02",
+      "titulo": "LO QUE ESTÁ FRENANDO EL AVANCE: TECNOLOGÍA",
+      "intro": "Seis restricciones distintas de los equipos, documentadas en acta con fecha y área. Ninguna la puede resolver la persona que asiste a la sesión.",
+      "parrafos": [
+        "Este es el punto que motiva el reporte. En diez de las trece áreas que ya tuvieron sesión aparecieron restricciones de los computadores que no dependen del participante ni de la mentoría. No se trata de una queja general: cada una está registrada en su acta, con la fecha y el efecto que tuvo sobre la hora de trabajo.",
+        "*Y conviene leerlas en orden:* los bloqueos no están cayendo sobre las áreas que van atrasadas. Están cayendo sobre las que van adelante."
+      ],
+      "bloques": [
+        {
+          "titulo": "La instalación pide una contraseña de sistemas que nadie en las áreas tiene",
+          "nivel": "ALTO",
+          "etiqueta": "Jurídica · Planeación · Sub. Financiera · Gerencia Financiera",
+          "parrafos": [
+            "Al instalar la aplicación de escritorio o el entorno de agentes, el equipo pide una credencial de administrador. El participante no la tiene y la instalación se detiene ahí.",
+            "*Por qué importa:* la aplicación de escritorio es la que permite que la herramienta lea una carpeta del computador en vez de que la persona suba los archivos uno por uno. Y el entorno de agentes es la segunda mitad del programa — la parte en la que el proceso corre solo en vez de esperar una instrucción. Sin ese permiso, las áreas se quedan en la primera mitad por más ejercicios que hagan.",
+            "*Un dato que vale la pena mirar:* el 7 de septiembre esa misma instalación falló en un área y se completó en otra. No es una política pareja aplicada a toda la entidad, es una configuración desigual entre equipos."
+          ]
+        },
+        {
+          "titulo": "El sistema bloquea las carpetas donde está la información",
+          "nivel": "ALTO",
+          "etiqueta": "Sub. Administrativa y Financiera · 7 de septiembre",
+          "parrafos": [
+            "La herramienta reportó que el sistema le impide entrar a *Documentos*, a *OneDrive* y a las *unidades de digitalización*. La prueba de búsqueda se lanzó correctamente y no encontró nada, porque las carpetas donde vive la información están cerradas.",
+            "*Por qué importa:* todo el método del programa consiste en que la herramienta lea las carpetas de trabajo reales. Si esas carpetas están bloqueadas, el método no aplica — y el área vuelve a subir archivos a mano, que es exactamente lo que se está eliminando."
+          ]
+        },
+        {
+          "titulo": "No se puede tomar captura de pantalla",
+          "nivel": "ALTO",
+          "etiqueta": "Sub. Administrativa y Financiera · 7 de septiembre",
+          "parrafos": [
+            "El equipo no permite capturar ni pegar un pantallazo. Parece menor y no lo es.",
+            "*Por qué importa:* capturar el error y devolvérselo a la herramienta es *el* método que el programa enseña para corregir un resultado — está documentado como técnica desde la Sesión 3 de Contabilidad, y es lo que permite que la persona resuelva sola entre sesiones. Bloquear la captura no bloquea una función: bloquea la forma de corregir."
+          ]
+        },
+        {
+          "titulo": "Equipos que no dan para lo que se está enseñando",
+          "nivel": "ALTO",
+          "etiqueta": "Planeación · Contabilidad · Comunicaciones",
+          "parrafos": [
+            "En Planeación, el 3 de septiembre: un puesto sin micrófono tuvo que participar desde el celular mientras editaba en el computador, y otro no pudo compartir pantalla y cedió su turno. Son computadores de mesa.",
+            "En Contabilidad quedó registrado que el equipo no da permisos de micrófono, y el efecto medido fue directo: cada instrucción larga se escribe a mano y la sesión rinde la mitad.",
+            "En Comunicaciones, el 4 de septiembre, la sesión se cayó tres veces entre las 9:17 y las 9:28 en el mismo equipo. Se perdió la primera parte del bloque de diseño, que era la que más le servía a ese puesto.",
+            "*Ya está planteado:* en Planeación se propuso al líder del área, con la formulación presupuestal en curso, incluir el cambio de equipos y el paso a portátiles."
+          ]
+        },
+        {
+          "titulo": "La versión de Office no permite instalar el complemento",
+          "nivel": "MEDIO",
+          "etiqueta": "Gerencia Financiera · 3 de septiembre",
+          "parrafos": [
+            "La tienda de complementos de Office no muestra Claude en ese equipo. No es un problema de la herramienta: es la versión de Office instalada.",
+            "*Por qué importa:* con el complemento, el trabajo se hace dentro de la hoja de cálculo. Sin él, cada vuelta obliga a descargar el archivo, subirlo y volverlo a descargar. En otras dos áreas del programa el mismo complemento se instaló sin problema — otra vez, un parque de equipos desigual."
+          ]
+        },
+        {
+          "titulo": "La vinculación del celular con el computador no se activa",
+          "nivel": "BAJO",
+          "etiqueta": "Contabilidad · Jurídica",
+          "parrafos": [
+            "La opción no aparece en los equipos, y en dos puestos se intentó sin lograr completar la vinculación. Puede estar relacionado con las restricciones de seguridad sobre los computadores; queda pendiente de revisar con Tecnología.",
+            "Es lo que permitiría lanzar una consulta desde fuera de la oficina."
+          ]
+        }
+      ],
+      "nota": {
+        "titulo": "El costo de esto, dicho con el caso más claro",
+        "parrafos": [
+          "El puesto que midió el mayor ahorro de todo el programa —480 a 15 minutos diarios, 465 minutos recuperados cada día— es el mismo que acumuló *tres bloqueos de Tecnología en una sola hora* el 7 de septiembre. Su siguiente paso, el agente que haría el ciclo completo del requerimiento, está diseñado y quedó detenido en la instalación.",
+          "Dicho de otro modo: lo que frena a esa área ya no es lo que su gente puede aprender, sino lo que su equipo de trabajo le permite instalar y abrir. Y quedan siete semanas."
+        ]
+      }
+    },
+    {
+      "num": "03",
+      "titulo": "CUATRO ÁREAS PIDIERON LO MISMO, POR SEPARADO",
+      "intro": "Sin hablarse entre ellas, y en sesiones de semanas distintas, cuatro áreas llegaron a la misma conclusión técnica.",
+      "parrafos": [
+        "Cada una construyó su tablero, lo puso a funcionar, y al llegar al mismo punto pidió lo mismo: que la información llegue sola desde el sistema en vez de que alguien la descargue y la suba. Eso se hace con una conexión por API, y es una autorización de Tecnología."
+      ],
+      "tabla": {
+        "columnas": [
+          "Área",
+          "A qué sistema",
+          "Para qué"
+        ],
+        "filas": [
+          [
+            "Contabilidad",
+            "Software contable",
+            "Que el tablero se alimente solo, sin cargar archivos"
+          ],
+          [
+            "Servicios Sociales",
+            "Módulo de facturas del sistema",
+            "Aprobación de facturas con criterio automatizado"
+          ],
+          [
+            "Sub. Operativa y Comercial",
+            "Sistema de información",
+            "Quitar el tramo manual entre el sistema y el análisis"
+          ],
+          [
+            "Talento Humano",
+            "Software de nómina",
+            "Un tablero que no se reconstruya cada mes"
+          ]
+        ]
+      },
+      "lista": [
+        "*Es una sola conversación técnica, no cuatro.* La conexión se diseña una vez y sirve para varias áreas.",
+        "*Hay un caso adicional en Jurídica:* el tablero contractual que usa hoy el área lo desarrolla y lo mantiene un contratista de sistemas, así que el área no puede modificarlo ni ampliarlo sin solicitarlo. Es justamente lo que un tablero propio resuelve.",
+        "*Y hay que empezarla ya.* Una autorización de este tipo toma tiempo, y el cierre del programa es el 30 de octubre. Si la conversación arranca en octubre, no alcanza."
+      ]
+    },
+    {
+      "num": "04",
+      "titulo": "LO QUE NO ES DE TECNOLOGÍA",
+      "intro": "Para que el punto anterior se sostenga, conviene separar con honestidad lo que sí depende de las áreas y de la administración.",
+      "bloques": [
+        {
+          "titulo": "Licencias compradas con correos personales",
+          "nivel": "ALTO",
+          "etiqueta": "Dos casos documentados",
+          "parrafos": [
+            "En dos puestos la licencia paga está comprada con una cuenta personal, no con el correo de Comfacesar. Al instalar la versión de escritorio, la aplicación no reconoció el plan.",
+            "*Tiene dos consecuencias, y la segunda es la grave:* cuando se conecten los agentes al entorno corporativo, una licencia que apunta a otra cuenta rompe el circuito. Y —como se explica en el punto 05— *sobre una cuenta personal no se puede auditar el uso*, que es justamente lo que la dirección está pidiendo."
+          ]
+        },
+        {
+          "titulo": "Configuración que se daba por hecha y no estaba",
+          "nivel": "MEDIO",
+          "etiqueta": "Gerencia Financiera · 3 de septiembre",
+          "parrafos": [
+            "Al preguntar si la herramienta estaba configurada y con los conectores puestos, la respuesta fue que sí. Al abrir la pantalla, no había ninguno activo. Media hora de una sesión de una hora se fue en conectar el correo corporativo y autenticar el segundo factor, y el ejercicio que esa persona traía preparado no se alcanzó a trabajar.",
+            "Esto sí lo resuelve el área, y se corrige pidiendo la configuración como requisito de entrada a cada sesión — que es lo que ya se está haciendo."
+          ]
+        },
+        {
+          "titulo": "Restricciones que vienen de terceros",
+          "nivel": "BAJO",
+          "etiqueta": "Agencia de Empleo",
+          "parrafos": [
+            "El microdato mensual del subsidio al desempleo se descarga de una plataforma externa que exige un código de verificación enviado al líder del área. Las credenciales se podrían entregar; el código, no.",
+            "No es una restricción de Comfacesar. Quedó resuelto en sesión de la única forma sensata: esa descarga sigue siendo manual y la automatización arranca desde el archivo ya descargado."
+          ]
+        }
+      ]
+    },
+    {
+      "num": "05",
+      "titulo": "EL AGENTE DE AUDITORÍA DE USO QUE PIDIÓ LA DIRECCIÓN",
+      "intro": "Verificado directamente en la documentación oficial de Anthropic, el 8 de septiembre. Sí existe, y hay una condición previa que decide todo.",
+      "parrafos": [
+        "La respuesta corta es que *sí se puede*, que es una capacidad oficial y documentada, y que no hay que construir nada raro para tenerla. La respuesta larga tiene una condición que conviene poner primero."
+      ],
+      "nota": {
+        "titulo": "La condición previa, en las palabras de la documentación",
+        "parrafos": [
+          "«*La API de administración no está disponible para cuentas individuales.*»",
+          "Es decir: mientras las licencias del programa estén compradas con correos personales, la auditoría de uso que la dirección pide *no se puede construir*. No por una limitación técnica, sino porque la analítica de uso es una función de la organización, y hoy no hay una organización — hay licencias sueltas. Ese es el verdadero primer paso."
+        ]
+      },
+      "lista": [
+        "*Qué entrega, una vez exista la organización:* actividad por persona y por día, usuarios activos diarios, semanales y mensuales, asientos asignados e invitaciones pendientes, y la adopción de proyectos, habilidades y conectores. Es exactamente el tablero de adopción que la dirección quiere ver.",
+        "*Quién la habilita:* solo el propietario principal de la organización, desde la configuración de la organización en claude.ai. No lo puede hacer un usuario cualquiera ni el área de sistemas por su cuenta.",
+        "*Hay una salida sin programar nada:* el mismo tablero de analítica existe dentro del producto. Para la primera lectura que pide la dirección, eso puede bastar desde el día uno — el agente se construye después, para que el reporte llegue solo a un canal cada semana.",
+        "*Una precisión de plan que conviene tener clara antes de negociar:* los datos de participación y adopción están disponibles en todos los planes corporativos, pero los reportes de costo y consumo aplican a los planes facturados por consumo; en los planes por asiento reflejan únicamente los créditos de uso.",
+        "*Los datos llegan con un día de rezago* y pueden ajustarse un pequeño porcentaje en los días siguientes. Sirve para gestionar adopción, no para control minuto a minuto."
+      ]
+    },
+    {
+      "num": "06",
+      "titulo": "EL LICENCIAMIENTO CORPORATIVO",
+      "intro": "Lo que está confirmado en fuente oficial, y lo que falta confirmar — separado a propósito.",
+      "parrafos": [
+        "*Confirmado en la documentación oficial de Anthropic:* existen dos vías distintas de licenciamiento corporativo, y no son intercambiables. Una es la plataforma de desarrollo, que se factura por consumo real de la herramienta. La otra es el plan corporativo por asientos sobre la aplicación, que es la que corresponde a un programa como este, donde 48 personas usan la herramienta desde su puesto de trabajo.",
+        "Las dos habilitan administración central: un panel donde se ve quién tiene asiento, quién lo está usando y quién no. Es lo que hoy no existe y lo que hace imposible responder la pregunta de la dirección."
+      ],
+      "tabla": {
+        "columnas": [
+          "Punto",
+          "Estado",
+          "Qué significa para Comfacesar"
+        ],
+        "filas": [
+          [
+            "Administración central y analítica de uso",
+            "*Confirmado*",
+            "Solo con plan corporativo. Es el requisito del agente de auditoría"
+          ],
+          [
+            "Licencias en correos personales",
+            "*Confirmado que no sirve*",
+            "No se pueden administrar ni auditar. Hay que migrarlas"
+          ],
+          [
+            "Reportes de costo por persona",
+            "*Confirmado con matiz*",
+            "Completo en planes por consumo; en planes por asiento, solo créditos de uso"
+          ],
+          [
+            "Precio por asiento y mínimo de asientos",
+            "*Pendiente de confirmar*",
+            "No se pudo verificar en fuente oficial desde aquí"
+          ]
+        ]
+      },
+      "nota": {
+        "titulo": "Sobre el precio, con transparencia",
+        "parrafos": [
+          "No incluyo cifras de precio por asiento en este documento porque no las pude verificar en la fuente oficial: el acceso a la página de precios está restringido desde el entorno donde preparo el reporte. Circulan cifras en fuentes de terceros y no me parece correcto llevarlas a una reunión de decisión presentadas como confirmadas.",
+          "*Lo que propongo:* confirmarlas antes de la reunión abriendo la página de precios de Anthropic, o pedirlas directamente a su equipo comercial, que es el camino correcto para una compra de 48 asientos con facturación a nombre de la entidad."
+        ]
+      }
+    },
+    {
+      "num": "07",
+      "titulo": "LO QUE SE DECIDE EN ESTA REUNIÓN",
+      "intro": "Seis puntos, con responsable y plazo. Los tres primeros son los que están deteniendo trabajo hoy.",
+      "decisiones": [
+        {
+          "titulo": "1 · Un responsable de Tecnología con nombre, asignado al programa",
+          "descripcion": "No una mesa de ayuda: una persona que entre a una sesión, vea el bloqueo en vivo y lo resuelva. Hoy cada área lo reporta por su lado y ninguna tiene con quién escalarlo. Es el punto que desbloquea los otros dos.",
+          "plazo": "Se pide para: miércoles 9 de septiembre"
+        },
+        {
+          "titulo": "2 · Autorizar tres permisos en los equipos del programa",
+          "descripcion": "La contraseña de instalación, el acceso a Documentos, OneDrive y las unidades de digitalización, y la captura de pantalla. Son los tres bloqueos documentados el 7 de septiembre, y con ellos resueltos el área que más ahorro ha medido puede seguir avanzando.",
+          "plazo": "Se pide para: dentro de 48 horas"
+        },
+        {
+          "titulo": "3 · Abrir la conversación técnica de las conexiones por API",
+          "descripcion": "Una sola reunión con Tecnología y las cuatro áreas que lo pidieron. No hay que resolverla ahí; hay que empezarla, porque una autorización de este tipo toma tiempo y el programa cierra el 30 de octubre.",
+          "plazo": "Se pide para: antes del 15 de septiembre"
+        },
+        {
+          "titulo": "4 · Migrar las licencias a los correos corporativos",
+          "descripcion": "Dos casos documentados hoy, y probablemente más sin detectar. Sin esto no hay organización, y sin organización no hay auditoría de uso ni administración de asientos. Es la condición previa de todo el punto 05.",
+          "plazo": "Se pide para: antes del cierre de septiembre"
+        },
+        {
+          "titulo": "5 · Definir el plan corporativo y confirmar el precio",
+          "descripcion": "Definir si Comfacesar va por el plan corporativo por asientos para las 48 personas del programa, y confirmar precio y mínimos con el equipo comercial de Anthropic. Es la decisión que la dirección tiene que tomar para que el cierre de octubre entregue algo sostenible y no un piloto que se apaga.",
+          "plazo": "Se pide para: antes del 30 de septiembre"
+        },
+        {
+          "titulo": "6 · Dos áreas del programa no tienen canal",
+          "descripcion": "Tesorería y SST reciben sesión pero no reciben resúmenes, recordatorios ni grabaciones, porque no tienen canal en el espacio de trabajo. Es rápido de resolver y hoy están en desventaja frente a las demás.",
+          "plazo": "Se pide para: esta semana"
+        }
+      ]
+    }
+  ],
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 8 de septiembre de 2026 | Sandra Curvelo · Mentora IAM™ | Datos tomados de las 20 actas de sesión del programa"
+}
