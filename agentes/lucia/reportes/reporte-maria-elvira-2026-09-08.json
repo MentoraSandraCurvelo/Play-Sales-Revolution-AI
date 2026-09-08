@@ -200,7 +200,7 @@
           "etiqueta": "Dos casos documentados",
           "parrafos": [
             "En dos puestos la licencia paga está comprada con una cuenta personal, no con el correo de Comfacesar. Al instalar la versión de escritorio, la aplicación no reconoció el plan.",
-            "*Tiene dos consecuencias, y la segunda es la grave:* cuando se conecten los agentes al entorno corporativo, una licencia que apunta a otra cuenta rompe el circuito. Y —como se explica en el punto 05— *sobre una cuenta personal no se puede auditar el uso*, que es justamente lo que la dirección está pidiendo."
+            "*Tiene dos consecuencias, y la segunda es la grave:* cuando se conecten los agentes al entorno corporativo, una licencia que apunta a otra cuenta rompe el circuito. Es un tema administrativo, no de Tecnología, y se resuelve de cara al cierre de octubre."
           ]
         },
         {
@@ -225,75 +225,8 @@
     },
     {
       "num": "05",
-      "titulo": "EL AGENTE DE AUDITORÍA DE USO QUE PIDIÓ LA DIRECCIÓN",
-      "intro": "Verificado directamente en la documentación oficial de Anthropic, el 8 de septiembre. Sí existe, y hay una condición previa que decide todo.",
-      "parrafos": [
-        "La respuesta corta es que *sí se puede*, que es una capacidad oficial y documentada, y que no hay que construir nada raro para tenerla. La respuesta larga tiene una condición que conviene poner primero."
-      ],
-      "nota": {
-        "titulo": "La condición previa, en las palabras de la documentación",
-        "parrafos": [
-          "«*La API de administración no está disponible para cuentas individuales.*»",
-          "Es decir: mientras las licencias del programa estén compradas con correos personales, la auditoría de uso que la dirección pide *no se puede construir*. No por una limitación técnica, sino porque la analítica de uso es una función de la organización, y hoy no hay una organización — hay licencias sueltas. Ese es el verdadero primer paso."
-        ]
-      },
-      "lista": [
-        "*Qué entrega, una vez exista la organización:* actividad por persona y por día, usuarios activos diarios, semanales y mensuales, asientos asignados e invitaciones pendientes, y la adopción de proyectos, habilidades y conectores. Es exactamente el tablero de adopción que la dirección quiere ver.",
-        "*Quién la habilita:* solo el propietario principal de la organización, desde la configuración de la organización en claude.ai. No lo puede hacer un usuario cualquiera ni el área de sistemas por su cuenta.",
-        "*Hay una salida sin programar nada:* el mismo tablero de analítica existe dentro del producto. Para la primera lectura que pide la dirección, eso puede bastar desde el día uno — el agente se construye después, para que el reporte llegue solo a un canal cada semana.",
-        "*Una precisión de plan que conviene tener clara antes de negociar:* los datos de participación y adopción están disponibles en todos los planes corporativos, pero los reportes de costo y consumo aplican a los planes facturados por consumo; en los planes por asiento reflejan únicamente los créditos de uso.",
-        "*Los datos llegan con un día de rezago* y pueden ajustarse un pequeño porcentaje en los días siguientes. Sirve para gestionar adopción, no para control minuto a minuto."
-      ]
-    },
-    {
-      "num": "06",
-      "titulo": "EL LICENCIAMIENTO CORPORATIVO",
-      "intro": "Lo que está confirmado en fuente oficial, y lo que falta confirmar — separado a propósito.",
-      "parrafos": [
-        "*Confirmado en la documentación oficial de Anthropic:* existen dos vías distintas de licenciamiento corporativo, y no son intercambiables. Una es la plataforma de desarrollo, que se factura por consumo real de la herramienta. La otra es el plan corporativo por asientos sobre la aplicación, que es la que corresponde a un programa como este, donde 48 personas usan la herramienta desde su puesto de trabajo.",
-        "Las dos habilitan administración central: un panel donde se ve quién tiene asiento, quién lo está usando y quién no. Es lo que hoy no existe y lo que hace imposible responder la pregunta de la dirección."
-      ],
-      "tabla": {
-        "columnas": [
-          "Punto",
-          "Estado",
-          "Qué significa para Comfacesar"
-        ],
-        "filas": [
-          [
-            "Administración central y analítica de uso",
-            "*Confirmado*",
-            "Solo con plan corporativo. Es el requisito del agente de auditoría"
-          ],
-          [
-            "Licencias en correos personales",
-            "*Confirmado que no sirve*",
-            "No se pueden administrar ni auditar. Hay que migrarlas"
-          ],
-          [
-            "Reportes de costo por persona",
-            "*Confirmado con matiz*",
-            "Completo en planes por consumo; en planes por asiento, solo créditos de uso"
-          ],
-          [
-            "Precio por asiento y mínimo de asientos",
-            "*Pendiente de confirmar*",
-            "No se pudo verificar en fuente oficial desde aquí"
-          ]
-        ]
-      },
-      "nota": {
-        "titulo": "Sobre el precio, con transparencia",
-        "parrafos": [
-          "No incluyo cifras de precio por asiento en este documento porque no las pude verificar en la fuente oficial: el acceso a la página de precios está restringido desde el entorno donde preparo el reporte. Circulan cifras en fuentes de terceros y no me parece correcto llevarlas a una reunión de decisión presentadas como confirmadas.",
-          "*Lo que propongo:* confirmarlas antes de la reunión abriendo la página de precios de Anthropic, o pedirlas directamente a su equipo comercial, que es el camino correcto para una compra de 48 asientos con facturación a nombre de la entidad."
-        ]
-      }
-    },
-    {
-      "num": "07",
       "titulo": "LO QUE SE DECIDE EN ESTA REUNIÓN",
-      "intro": "Seis puntos, con responsable y plazo. Los tres primeros son los que están deteniendo trabajo hoy.",
+      "intro": "Cinco puntos, con responsable y plazo. Los tres primeros son los que están deteniendo trabajo hoy.",
       "decisiones": [
         {
           "titulo": "1 · Un responsable de Tecnología con nombre, asignado al programa",
@@ -316,12 +249,7 @@
           "plazo": "Se pide para: antes del cierre de septiembre"
         },
         {
-          "titulo": "5 · Definir el plan corporativo y confirmar el precio",
-          "descripcion": "Definir si Comfacesar va por el plan corporativo por asientos para las 48 personas del programa, y confirmar precio y mínimos con el equipo comercial de Anthropic. Es la decisión que la dirección tiene que tomar para que el cierre de octubre entregue algo sostenible y no un piloto que se apaga.",
-          "plazo": "Se pide para: antes del 30 de septiembre"
-        },
-        {
-          "titulo": "6 · Dos personas asisten a sesiones y no reciben nada",
+          "titulo": "5 · Dos personas asisten a sesiones y no reciben nada",
           "descripcion": "Hay asistentes que no están en el canal de su área, así que no les llegan los resúmenes, los recordatorios ni las grabaciones. Es rápido de resolver y hoy están en desventaja frente a sus compañeros. Se entrega la lista con nombre y canal.",
           "plazo": "Se pide para: esta semana"
         }
