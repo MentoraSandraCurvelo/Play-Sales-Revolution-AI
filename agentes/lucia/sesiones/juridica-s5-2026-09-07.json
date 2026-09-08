@@ -1,0 +1,261 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "JURÍDICA",
+  "area_completa": "Sesión individual",
+  "sesion_num": 5,
+  "fase": "Ejercicios Prácticos",
+  "fecha": "7 de septiembre de 2026",
+  "fecha_corta": "7 septiembre 2026",
+  "subtitulo_meta": "Lilibeth Costa · 7 de septiembre de 2026 · 10:00 a.m. · 1 h 20 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Jurídica — Comfacesar"],
+    ["Sesión", "N° 5 — Individual de Lilibeth Costa: el primer agente del programa y el espacio de trabajo propio"],
+    ["Fecha", "7 de septiembre de 2026"],
+    ["Hora inicio", "10:00 a. m. — Colombia"],
+    ["Duración de la sesión", "1 h 20 min (10:00 a. m. – 11:20 a. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Correos Slack activados", "secretaria_juridica@comfacesar.com"],
+    ["Grabación", "Se publica en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "1", "etiqueta": "Agente creado", "detalle": "El primero construido por un área del programa"},
+    {"valor": "3", "etiqueta": "Canales propios", "detalle": "Comité jurídico · asistentes · equipo administrativo"},
+    {"valor": "8", "etiqueta": "Mejoras detectadas", "detalle": "En la calidad de los datos del tablero"},
+    {"valor": "2ª", "etiqueta": "Área en llegar aquí", "detalle": "De veintiuna del programa"},
+    {"valor": "4", "etiqueta": "Personas que migran", "detalle": "El equipo administrativo, de WhatsApp a Slack"},
+    {"valor": "90", "etiqueta": "Días de historial", "detalle": "El límite de Slack en versión gratuita"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Lilibeth Costa", "cargo": "Secretaría Jurídica — Comfacesar", "correo": "secretaria_juridica@comfacesar.com", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 5. El área llegó al nivel de agentes, y a partir de aquí los riesgos cambian de naturaleza: ya no son de aprendizaje sino de calidad del dato, de consumo y de continuidad.",
+  "riesgos": [
+    {
+      "titulo": "El tablero se alimenta de datos con vacíos",
+      "nivel": "CRITICO",
+      "descripcion": "Al revisar las tablas que alimentan el seguimiento, la herramienta devolvió ocho recomendaciones de mejora, y el problema de fondo es de origen: hay muchas columnas vacías. El tablero puede quedar impecable y aun así reportar mal, porque la información que llega no está completa. Esto se corrige con el equipo, no con la herramienta.",
+      "responsable": "Lilibeth Costa + equipo jurídico / Antes de la S6"
+    },
+    {
+      "titulo": "El agente puede consumir los créditos del plan en horas",
+      "nivel": "ALTO",
+      "descripcion": "Un agente trabajando sobre canales de Slack consume mucho más que una consulta normal, y en el plan Pro los créditos se agotan rápido. Quedó dicho en sesión: mientras se esté modelando el tablero y usando diseño, el agente se prueba en momentos controlados —un fin de semana— para no quedarse sin herramienta un día de trabajo.",
+      "responsable": "Lilibeth Costa / Permanente"
+    },
+    {
+      "titulo": "El espacio de trabajo nuevo queda a medio configurar",
+      "nivel": "ALTO",
+      "descripcion": "Se creó el espacio propio y dos de los tres canales, pero faltó el de asistentes y faltan invitaciones por cursar. Un agente que vigila canales que todavía no existen no puede reportar nada. La configuración tiene que quedar cerrada antes de volver a encender el agente.",
+      "responsable": "Lilibeth Costa / Antes de la S6"
+    },
+    {
+      "titulo": "El historial de la versión gratuita se borra a los 90 días",
+      "nivel": "MEDIO",
+      "descripcion": "Slack en versión gratuita conserva tres meses de conversaciones. Para un equipo que trabaja a diario y que va a apoyar su trazabilidad en ese canal, es un límite real. Se puede descargar y archivar, y el propio agente puede guardar los cortes, pero hay que decidirlo desde ahora y no cuando ya se haya perdido.",
+      "responsable": "Lilibeth Costa / Octubre"
+    },
+    {
+      "titulo": "El conector de Slack apuntaba al espacio equivocado",
+      "nivel": "MEDIO",
+      "descripcion": "Estaba conectado al espacio de trabajo de la mentoría, no al del área. El agente habría leído canales que no son los suyos. Se corrigió en sesión cambiando el workspace en los conectores, y es una revisión que hay que repetir cada vez que se cree un espacio nuevo.",
+      "responsable": "Lilibeth Costa / Resuelto en sesión"
+    },
+    {
+      "titulo": "El logo salió invisible sobre el tablero",
+      "nivel": "BAJO",
+      "descripcion": "Al aplicar la identidad de Comfacesar, la herramienta usó la versión blanca del logo sobre fondo claro y no se ve. Es un ajuste de una instrucción, pero muestra el hábito que hay que tomar: al pedir marca, decir también sobre qué fondo va.",
+      "responsable": "Lilibeth Costa / Antes de la S6"
+    },
+    {
+      "titulo": "Aviso de almacenamiento lleno al final de la sesión",
+      "nivel": "BAJO",
+      "descripcion": "Apareció una alerta de almacenamiento lleno mientras se configuraba el agente. No frenó el ejercicio, pero conviene revisar de qué espacio se trata —el del computador o el del Drive corporativo— antes de que empiece a afectar el trabajo.",
+      "responsable": "Lilibeth Costa / Esta semana"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "CRITICO",
+      "titulo": "Cerrar la configuración del espacio de trabajo y encender el agente",
+      "descripcion": "Falta crear el canal de asistentes, terminar de invitar al equipo y dejar los enlaces del tablero y los Google Sheets fijados en el canal. Con eso hecho, se enciende el agente y se deja correr un corte de mediodía para ver qué reporta.",
+      "responsable": "Lilibeth Costa",
+      "plazo": "Antes de la Sesión 6"
+    },
+    {
+      "num": "02",
+      "nivel": "CRITICO",
+      "titulo": "Corregir la calidad del dato antes de seguir modelando",
+      "descripcion": "Las ocho recomendaciones que salieron del análisis se trabajan con el equipo: qué columnas están vacías, quién las llena y cuándo. La herramienta puede eliminar columnas vacías y reorganizar el archivo, pero no puede inventar el dato que nadie registró.",
+      "responsable": "Lilibeth Costa + equipo jurídico",
+      "plazo": "Antes de la Sesión 6"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Terminar el tablero: mapa de calor, filtros y marca",
+      "descripcion": "Falta el mapa de calor, completar asuntos legales, agregar filtros por fecha —el histórico tiene varios años— y aplicar los colores y el logo de Comfacesar, esta vez indicando sobre qué fondo va. Y usar Opus para esto: es la tarea compleja donde la diferencia se nota.",
+      "responsable": "Lilibeth Costa",
+      "plazo": "Antes de la Sesión 6"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Documentar en el tablero el análisis de tableros",
+      "descripcion": "El ejercicio de revisar las tablas y obtener recomendaciones de mejora es un proceso en sí mismo y va registrado con su nombre, su frecuencia y su tiempo. Es de los que mejor sustentan el cierre del proyecto.",
+      "responsable": "Lilibeth Costa",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Activar el complemento en Excel, Word y PowerPoint",
+      "descripcion": "Quedó pendiente. Con los tres, el trabajo se hace dentro del documento y se acaba el ciclo de descargar, subir y volver a descargar.",
+      "responsable": "Lilibeth Costa",
+      "plazo": "Antes de la Sesión 6"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Enseñarle al equipo lo que se vio hoy",
+      "descripcion": "La sesión grupal del miércoles cubre este mismo contenido. Explicárselo a los compañeros es la mejor forma de comprobar qué quedó aprendido de verdad.",
+      "responsable": "Lilibeth Costa",
+      "plazo": "Miércoles 9"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Revisión del tablero y de la calidad del dato",
+      "duracion": "~15 min",
+      "objetivo": "Ver cómo va el modelamiento del informe gerencial y revisar de qué se está alimentando.",
+      "pasos": [
+        "El tablero ya tiene las pestañas creadas por tema, según lo acordado en la S4",
+        "Los KPIs están puestos; falta el mapa de calor y completar la sección de asuntos legales",
+        "Lilibeth trajo además un análisis de las tablas que alimentan el seguimiento: la herramienta devolvió ocho recomendaciones de mejora",
+        "El hallazgo de fondo: hay muchas columnas vacías, y eso es del dato de origen, no del tablero",
+        "Quedó explicado que la herramienta puede eliminar columnas vacías y reorganizar el archivo directamente en Excel",
+        "Se acordó registrar este ejercicio en el tablero como «análisis de tableros»",
+        "Pendiente: filtros por fecha —el histórico abarca varios años— y la identidad visual de Comfacesar"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Los modelos y el nivel de esfuerzo",
+      "duracion": "~5 min",
+      "objetivo": "Resolver una duda que Lilibeth traía sin preguntar: qué son las opciones que aparecen al escribir.",
+      "pasos": [
+        "Son los distintos modelos disponibles dentro de la herramienta",
+        "El de uso diario resuelve la mayoría del trabajo corriente",
+        "Para tareas complejas —modelar un tablero, por ejemplo— conviene el modelo más potente: entiende mejor y va más rápido",
+        "El más nuevo es el más capaz y también el que más créditos consume; no es el indicado mientras se trabaja con plan Pro",
+        "Y el nivel de esfuerzo regula qué tan a fondo trabaja en cada consulta"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Claude Design, el alcance completo",
+      "duracion": "~25 min",
+      "objetivo": "Mostrar hasta dónde llega la herramienta de diseño, para que el área sepa qué puede pedir.",
+      "pasos": [
+        "Las plantillas disponibles: documento, slides, wireframe, animación, mockups, objetos 3D, diagramas de flujo, landing pages y tableros interactivos",
+        "Un HTML existente se puede traer al espacio de diseño y seguir trabajándolo ahí — incluido el propio tablero del área",
+        "Ejemplo real: de un HTML a un PDF con formato para firma",
+        "El modelamiento funciona igual que en el tablero: pedir, corregir, volver a pedir, con edición en tiempo real sobre la pieza",
+        "Presentaciones directamente desde PowerPoint con el complemento, sin salir del programa",
+        "Advertencia práctica: el diseño consume créditos rápido en el plan Pro. Conviene practicarlo en un momento en que quedarse sin crédito no cueste un día de trabajo"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · El espacio de trabajo propio del área",
+      "duracion": "~20 min",
+      "objetivo": "Sacar la operación diaria del equipo de WhatsApp y llevarla a un espacio con trazabilidad, que además el agente pueda leer.",
+      "pasos": [
+        "Se creó un espacio de trabajo propio de Jurídica, con el correo corporativo",
+        "Estructura definida: un canal general para todo el equipo y canales cerrados por grupo — comité jurídico, asistentes jurídicos y el equipo administrativo",
+        "Al invitar hay que marcar siempre que las personas son de la organización; marcarlas como externas tiene costo",
+        "Se explicaron los hilos de conversación: una conversación privada dentro de un canal, sin sacar el tema del canal",
+        "Enlaces y carpetas fijados en el canal, igual que el tablero y la agenda del canal del programa",
+        "Dos personas del equipo aceptaron la invitación durante la sesión, entre ellas el jefe del área",
+        "Límite conocido: en versión gratuita el historial dura 90 días, no hay flujos de trabajo ni plantillas"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · El primer agente del programa",
+      "duracion": "~20 min",
+      "objetivo": "Construir un agente que trabaje solo sobre los canales del área. Es el primero que crea un área de Comfacesar.",
+      "pasos": [
+        "Instalación de Claude Code en el equipo corporativo, con la librería que pide para poder ejecutar agentes",
+        "Se creó una carpeta propia en el escritorio como espacio de trabajo del agente",
+        "Quedó explicada la diferencia de fondo: los proyectos son asistentes que esperan una instrucción; los agentes toman decisiones, avanzan solos y reportan",
+        "El tablero de control muestra un recuadro por cada agente posible, con sus sesiones, mensajes y consumo",
+        "Se le dio nombre —Lilia— y encargo: supervisar los canales del área, con corte a mediodía",
+        "Se afinó la instrucción explicándole el contexto: cuántos canales hay, quién está en cada uno y para qué sirve cada uno",
+        "Se corrigió el conector de Slack, que apuntaba al espacio de trabajo de la mentoría en vez de al del área",
+        "Se detuvo el agente al terminar: los canales todavía no están completos y no tiene sentido gastar créditos sobre un espacio a medias"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 5 · 7 septiembre 2026",
+      "titulo": "Un agente que vigila los canales del área y reporta a mediodía",
+      "descripcion": "El agente revisa las conversaciones de los tres canales del equipo, monitorea las tareas que se van dejando, los pendientes y las peticiones, y entrega un corte a mediodía. Lo que hoy exige leer tres conversaciones y acordarse de todo, queda reportado. Es el primer agente que construye un área del programa.",
+      "estado": "Creado y configurado — apagado hasta cerrar los canales",
+      "proximo_paso": "Terminar el espacio de trabajo y dejarlo correr un corte completo",
+      "target": "Sesión 6"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 5 · 7 septiembre 2026",
+      "titulo": "La operación diaria del equipo, con trazabilidad",
+      "descripcion": "El equipo administrativo trabaja hoy por WhatsApp: cuatro personas, movimiento diario y ninguna trazabilidad. Con el espacio propio, cada conversación queda en su canal, los archivos y enlaces quedan fijados, y el agente puede leer todo eso y avisar de lo que quedó sin responder. Eso último es lo que hoy depende de que alguien se acuerde.",
+      "estado": "Espacio creado, dos canales listos, equipo entrando",
+      "proximo_paso": "Crear el canal de asistentes y trasladar la conversación del equipo",
+      "target": "Sesión 6"
+    },
+    {
+      "encabezado": "OPORTUNIDAD PROBADA · SESIÓN 5 · 7 septiembre 2026",
+      "titulo": "El diagnóstico de calidad de los datos del área",
+      "descripcion": "Sobre las tablas que alimentan el seguimiento, la herramienta devolvió ocho recomendaciones concretas de mejora y dejó a la vista el problema real: columnas vacías. Es un diagnóstico que antes no existía y que ahora se puede repetir cada vez que se quiera, sobre cualquier archivo del área.",
+      "estado": "Hecho — pendiente de trabajar con el equipo",
+      "proximo_paso": "Definir con el equipo quién completa qué y con qué frecuencia",
+      "target": "Antes de la Sesión 6"
+    }
+  ],
+  "tareas_intro": "Jurídica es la segunda área del programa que llega al nivel de agentes. La sesión cubrió el cierre de Claude —diseño y agentes— y montó el espacio de trabajo propio del área. De aquí en adelante el área pasa a otras herramientas.",
+  "tareas": [
+    {"tarea": "Crear el canal de asistentes y terminar de invitar al equipo", "responsable": "Lilibeth Costa", "prioridad": "URGENTE", "plazo": "Antes de S6"},
+    {"tarea": "Trabajar con el equipo las ocho mejoras de calidad del dato", "responsable": "Lilibeth Costa + equipo", "prioridad": "URGENTE", "plazo": "Antes de S6"},
+    {"tarea": "Encender el agente y dejarlo correr un corte de mediodía", "responsable": "Lilibeth Costa", "prioridad": "ALTA", "plazo": "Antes de S6"},
+    {"tarea": "Terminar el tablero: mapa de calor, filtros de fecha, colores y logo", "responsable": "Lilibeth Costa", "prioridad": "ALTA", "plazo": "Antes de S6"},
+    {"tarea": "Registrar en el tablero el análisis de tableros como proceso", "responsable": "Lilibeth Costa", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Activar el complemento en Excel, Word y PowerPoint", "responsable": "Lilibeth Costa", "prioridad": "MEDIA", "plazo": "Antes de S6"},
+    {"tarea": "Practicar Claude Design en un momento controlado, por el consumo", "responsable": "Lilibeth Costa", "prioridad": "MEDIA", "plazo": "Fin de semana"},
+    {"tarea": "Revisar el aviso de almacenamiento lleno", "responsable": "Lilibeth Costa", "prioridad": "BAJA", "plazo": "Esta semana"},
+    {"tarea": "Enseñarle al equipo jurídico lo visto hoy, en la sesión grupal", "responsable": "Lilibeth Costa", "prioridad": "MEDIA", "plazo": "Miércoles 9"}
+  ],
+  "observaciones": [
+    "Jurídica es la segunda área del programa en completar el recorrido de Claude. Con esta sesión el área cierra proyectos, artefactos, habilidades, diseño y agentes; de aquí en adelante pasa a las otras herramientas del entorno.",
+    "El agente que quedó creado es el primero construido por un área de Comfacesar. Vale la pena decirlo con esas palabras en el cierre del proyecto: no es una demostración de la mentoría, es un agente que un área montó para su propio trabajo.",
+    "El hallazgo más útil de la sesión no fue de la herramienta sino del área: al analizar las tablas que alimentan el seguimiento aparecieron columnas vacías. Un tablero bien construido sobre datos incompletos reporta mal con mucha más autoridad que un Excel. Corregir el dato va antes que terminar el tablero.",
+    "El espacio de trabajo propio resuelve algo que venía de atrás: el equipo administrativo —cuatro personas, movimiento diario— coordina por WhatsApp, sin trazabilidad y sin nada que un agente pueda leer. Durante la misma sesión dos personas entraron al espacio nuevo, entre ellas el jefe del área.",
+    "Quedó una advertencia de consumo que aplica a toda el área: el diseño y los agentes gastan créditos mucho más rápido que una consulta normal. Con plan Pro conviene practicarlos cuando quedarse sin crédito no cueste un día de trabajo.",
+    "Se resolvió una duda que Lilibeth traía guardada sin preguntar: qué son las opciones de modelo que aparecen al escribir. Quedó claro cuál usar para el día a día y cuál para el tablero. Vale la pena repetirlo en la sesión grupal, porque probablemente no es la única con esa duda."
+  ],
+  "proxima_sesion": {
+    "sesion": "Jurídica — Sesión 6, equipo completo, miércoles 9 de septiembre",
+    "condiciones": [
+      "El espacio de trabajo del área con sus tres canales y el equipo dentro",
+      "El agente encendido y con al menos un corte entregado",
+      "El tablero con mapa de calor, filtros y la identidad de Comfacesar aplicada",
+      "Las mejoras de calidad del dato conversadas con el equipo"
+    ],
+    "agenda": [
+      "Diseño y agentes para el resto del equipo — Lilibeth explica lo que ya vio",
+      "Revisión del agente funcionando sobre los canales reales",
+      "El tablero terminado",
+      "Apertura de las otras herramientas del entorno"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 7 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

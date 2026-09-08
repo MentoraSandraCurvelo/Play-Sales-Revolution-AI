@@ -1,0 +1,342 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "CONTABILIDAD",
+  "area_completa": "Sesión individual",
+  "sesion_num": 5,
+  "fase": "Ejercicios Prácticos",
+  "fecha": "7 de septiembre de 2026",
+  "fecha_corta": "7 septiembre 2026",
+  "subtitulo_meta": "Carlos Lozano · 7 de septiembre de 2026 · 5:00 p.m. · 34 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    [
+      "Área(s)",
+      "Contabilidad — Comfacesar"
+    ],
+    [
+      "Sesión",
+      "N° 5 — Individual de Carlos Lozano: el reporte mensual cerrado y el primer comando del área"
+    ],
+    [
+      "Fecha",
+      "7 de septiembre de 2026"
+    ],
+    [
+      "Hora inicio",
+      "5:00 p. m. — Colombia"
+    ],
+    [
+      "Duración de la sesión",
+      "34 minutos (5:00 p. m. – 5:34 p. m.)"
+    ],
+    [
+      "Modalidad",
+      "Virtual — Microsoft Teams"
+    ],
+    [
+      "Correos Slack activados",
+      "asistentecontabilidad@comfacesar.com"
+    ],
+    [
+      "Grabación",
+      "Se publica en el canal del área"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo — Mentora IAM™ Intelligence"
+    ]
+  ],
+  "kpis": [
+    {
+      "valor": "240 → 10",
+      "etiqueta": "Minutos del reporte",
+      "detalle": "De una mañana completa a diez minutos"
+    },
+    {
+      "valor": "1",
+      "etiqueta": "Comando creado",
+      "detalle": "El primero del área"
+    },
+    {
+      "valor": "2 de 15",
+      "etiqueta": "Conciliaciones",
+      "detalle": "Cada una con su propia lógica"
+    },
+    {
+      "valor": "1",
+      "etiqueta": "Bloqueo resuelto solo",
+      "detalle": "El archivo del servidor, sin ayuda"
+    },
+    {
+      "valor": "1",
+      "etiqueta": "Tablero dinámico",
+      "detalle": "Viáticos, en HTML con filtros"
+    }
+  ],
+  "participantes": [
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "—",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Carlos Daniel Lozano Sanjuán",
+      "cargo": "Asistente de Contabilidad — Comfacesar",
+      "correo": "asistentecontabilidad@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Avanzado"
+    }
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 5. El puesto va bien y avanza solo; lo que queda por resolver está fuera de su alcance — la participación de la jefatura y los permisos de Tecnología.",
+  "riesgos": [
+    {
+      "titulo": "La jefatura del área no alcanza a entrar a las sesiones",
+      "nivel": "ALTO",
+      "descripcion": "Quedó dicho en sesión que no siempre tiene tiempo de conectarse, y su ejercicio —la automatización de la agenda de obligaciones tributarias— sigue sin avanzar. Se acordó una salida práctica: que Carlos reciba el detalle del proceso y lo trabaje en sus propias sesiones, reportándole después. Es una solución, no un reemplazo: en el cierre de octubre cada quien presenta lo suyo.",
+      "responsable": "Contabilidad / Esta semana"
+    },
+    {
+      "titulo": "La conexión al software contable depende de Tecnología",
+      "nivel": "ALTO",
+      "descripcion": "El objetivo final del área es que el tablero se alimente directamente del sistema contable en vez de que alguien le suba la información. Eso exige que Tecnología habilite el acceso por API, y es una autorización que hay que gestionar con tiempo. Sin ella, el tablero funciona pero se sigue cargando a mano.",
+      "responsable": "Comfacesar — TI + IAM™ / Octubre"
+    },
+    {
+      "titulo": "Las conciliaciones bancarias van 2 de 15",
+      "nivel": "MEDIO",
+      "descripcion": "Cada conciliación tiene su propia lógica de cotejo, así que no se pueden montar todas de una vez: hay que enseñarle el criterio de cada una. Es trabajo largo y hay que sostenerlo. La ventaja es que, una vez enseñada, cada lógica queda documentada y se repite sola.",
+      "responsable": "Carlos Lozano / Hasta octubre"
+    },
+    {
+      "titulo": "La vinculación del celular no se pudo activar",
+      "nivel": "MEDIO",
+      "descripcion": "La opción no aparece en el equipo. Puede tratarse de las restricciones de seguridad que Tecnología tiene puestas sobre los computadores, aunque ese mismo día se logró en otra área del programa. Queda pendiente de revisar.",
+      "responsable": "Carlos Lozano + TI / Antes de la S6"
+    },
+    {
+      "titulo": "Los archivos del servidor de la empresa no son accesibles",
+      "nivel": "MEDIO",
+      "descripcion": "El archivo que hacía falta estaba en el servidor interno y la herramienta no puede llegar ahí porque no es una ubicación local. Carlos lo resolvió moviéndolo al escritorio. Funciona, pero conviene tenerlo presente: todo lo que se quiera automatizar tiene que estar en un lugar que la herramienta pueda leer.",
+      "responsable": "Carlos Lozano / Resuelto"
+    },
+    {
+      "titulo": "El comando no guardaba en el primer intento",
+      "nivel": "BAJO",
+      "descripcion": "Al guardarlo devolvió un error. Se resolvió pidiendo una versión más simple, sin instrucciones anidadas. Vale como criterio general: un comando corto y directo se guarda y se ejecuta mejor que uno que lo abarca todo.",
+      "responsable": "Carlos Lozano / Resuelto en sesión"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Enviar el reporte de agosto con el proceso nuevo",
+      "descripcion": "Es el primer envío real con el proceso montado, y la fecha es el 10 de septiembre. Vale la pena hacer una prueba antes, aunque el correo se mande dos veces marcando la primera como ensayo.",
+      "responsable": "Carlos Lozano",
+      "plazo": "10 de septiembre"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Acordar con la jefatura cómo avanza su ejercicio",
+      "descripcion": "La automatización de la agenda de obligaciones tributarias. Carlos recibe el detalle del proceso, lo trabaja en sus sesiones y se lo reporta. Hay que confirmarlo con ella antes de empezar.",
+      "responsable": "Carlos Lozano",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Seguir enseñándole la lógica de cada conciliación",
+      "descripcion": "Van dos de quince. Cada una con su criterio de cotejo, y pidiéndole que documente la lógica en una ficha técnica — eso ya está funcionando y es lo que convierte el conocimiento del área en algo que no depende de quien lo hace.",
+      "responsable": "Carlos Lozano",
+      "plazo": "Hasta octubre"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Registrar cada proceso terminado en el tablero",
+      "descripcion": "El reporte mensual ya quedó registrado en sesión. Faltan el tablero de viáticos y las conciliaciones que se vayan cerrando. Ese registro alimenta la matriz global del proyecto y es lo que se presenta a la dirección.",
+      "responsable": "Carlos Lozano",
+      "plazo": "Permanente"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Enriquecer el tablero de viáticos",
+      "descripcion": "Ya está dinámico y con filtros. Le faltan gráficos, más lectura de la información y —lo más interesante— un diagnóstico automático: que el propio tablero explique qué está viendo, como lo explicaría una persona.",
+      "responsable": "Carlos Lozano",
+      "plazo": "Antes de la Sesión 6"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Pedir siempre el documento en .doc, nunca en MD",
+      "descripcion": "MD es el formato que la herramienta usa internamente para leer rápido; no tiene estructura ni formato. Cuando el resultado sea un documento, se pide en .doc.",
+      "responsable": "Carlos Lozano",
+      "plazo": "Permanente"
+    },
+    {
+      "num": "07",
+      "nivel": "MEDIO",
+      "titulo": "Agendar tres o cuatro sesiones para la próxima semana",
+      "descripcion": "Quedan siete semanas de programa. Carlos ya tiene el viernes; conviene dejar bloqueada la siguiente semana completa mientras haya cupo.",
+      "responsable": "Carlos Lozano",
+      "plazo": "Esta semana"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El reporte mensual, cerrado y medido",
+      "duracion": "~10 min",
+      "objetivo": "Revisar el proceso que Carlos terminó por su cuenta y dejarlo registrado con su medición.",
+      "pasos": [
+        "Carlos resolvió solo el bloqueo de la sesión anterior: el archivo estaba en el servidor interno y la herramienta no llega ahí porque no es una ubicación local. Se lo preguntó a la propia herramienta, entendió la razón y movió el archivo al escritorio",
+        "Con eso conectó las carpetas de sus dos proyectos: conciliaciones bancarias y optimización de reportes",
+        "El reporte quedó con su manual de instrucciones para que se repita todos los meses: se carga la información y el proceso corre solo",
+        "Produce el cuerpo del correo completo — asunto, descripción, detalle de adjuntos y anotaciones — más el HTML",
+        "Medición: antes tomaba una mañana completa, cuatro horas, porque había que depurar más de cien partidas. Ahora, diez minutos",
+        "Se registró en el tablero del canal durante la sesión, con el nombre del proceso, la frecuencia, los minutos antes y después"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El primer comando del área",
+      "duracion": "~12 min",
+      "objetivo": "Convertir un proceso ya terminado en un botón de acceso rápido.",
+      "pasos": [
+        "Un comando se invoca con barra y empaqueta todo un proceso ya documentado — funciona como una habilidad",
+        "Se le pidió a la herramienta que creara el comando a partir del proceso del reporte mensual",
+        "El primer intento no guardó: devolvió error. Se pidió una versión más simple, sin instrucciones anidadas, y guardó bien",
+        "Se probó desde el complemento en Excel: el comando corrió, pero pidió los documentos de cruce que están cargados en el proyecto",
+        "Conclusión práctica: cuando el proceso necesita varios documentos, se ejecuta en el proyecto —donde la carpeta ya está conectada— y no desde el Excel",
+        "Quedó claro para qué sirven los comandos en el día a día: por ejemplo, uno que actualice cifras y marque en rojo los negativos, sin repetir la instrucción cada vez"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Las conciliaciones bancarias y sus fichas técnicas",
+      "duracion": "~8 min",
+      "objetivo": "Revisar el avance del segundo proyecto y el formato del entregable.",
+      "pasos": [
+        "Son quince conciliaciones y cada una tiene una lógica distinta para cotejar la información",
+        "Van dos trabajadas. A cada una se le enseña su criterio, y una vez enseñado se repite igual en los meses siguientes",
+        "La herramienta está generando una ficha técnica por conciliación, documentando la lógica de cada proceso",
+        "El entregable va a revisoría fiscal y debe ser formal, sin colores ni formato — así se pidió y así quedó",
+        "Se corrigió el formato de entrega: no aceptar documentos en MD; pedirlos en .doc"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · El tablero de viáticos y hacia dónde va el área",
+      "duracion": "~4 min",
+      "objetivo": "Revisar el tablero que Carlos construyó y fijar el horizonte del área.",
+      "pasos": [
+        "El tablero es un HTML dinámico que se alimenta de los archivos de viáticos, con filtros ya funcionando",
+        "Lo que le falta: gráficos, más lectura de la información y un diagnóstico automático que explique lo que muestra",
+        "El objetivo del área quedó dicho con claridad: dejar de trabajar sobre Excel. Todo montado en el tablero, operado con comandos e instrucciones",
+        "El paso siguiente es conectar el tablero directamente al software contable por API, con autorización de Tecnología",
+        "Y el último, ya con todo montado: un agente que ejecute solo lo que hoy se hace por instrucción"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD PROBADA · SESIÓN 5 · 7 septiembre 2026",
+      "titulo": "El reporte mensual de anticipos",
+      "descripcion": "Antes tomaba una mañana completa —cuatro horas— porque había que depurar más de cien partidas a mano. Hoy toma diez minutos: se carga la información y el proceso corre completo, incluido el cuerpo del correo con sus adjuntos y anotaciones. Queda además empaquetado en un comando. El primer envío real es el 10 de septiembre.",
+      "estado": "Terminado y registrado en el tablero",
+      "proximo_paso": "Enviar el reporte de agosto con el proceso nuevo",
+      "target": "10 de septiembre"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 5 · 7 septiembre 2026",
+      "titulo": "Las quince conciliaciones, con su lógica documentada",
+      "descripcion": "Cada conciliación tiene un criterio propio de cotejo que hoy vive en la cabeza de quien la hace. A medida que se le enseña cada una, la herramienta genera su ficha técnica: el proceso queda escrito, repetible y auditable. Van dos de quince, y ese trabajo vale tanto como la automatización misma.",
+      "estado": "2 de 15 — en curso",
+      "proximo_paso": "Seguir enseñando una por una, con su ficha",
+      "target": "Octubre"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 5 · 7 septiembre 2026",
+      "titulo": "Contabilidad sin Excel",
+      "descripcion": "El horizonte del área: todos los reportes montados sobre un tablero que se alimenta directamente del software contable por API, operado con comandos, con diagnóstico automático y, al final, un agente que ejecute el ciclo. Deja de manipularse Excel y se pasa a dar instrucciones. Es la meta más ambiciosa planteada en el programa y el área está en camino.",
+      "estado": "Tablero de viáticos funcionando — falta la conexión al sistema",
+      "proximo_paso": "Enriquecer el tablero y gestionar la autorización de la API con Tecnología",
+      "target": "Octubre"
+    }
+  ],
+  "tareas_intro": "Carlos llegó con el bloqueo de la sesión anterior resuelto por su cuenta y con el reporte mensual terminado. Es el puesto que más avanza solo entre sesiones, y eso permitió dedicar la hora a productividad y no a resolver pendientes.",
+  "tareas": [
+    {
+      "tarea": "Enviar el reporte de agosto con el proceso montado",
+      "responsable": "Carlos Lozano",
+      "prioridad": "ALTA",
+      "plazo": "10 de septiembre"
+    },
+    {
+      "tarea": "Acordar con la jefatura cómo se trabaja su ejercicio de obligaciones tributarias",
+      "responsable": "Carlos Lozano",
+      "prioridad": "ALTA",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Seguir enseñando la lógica de las conciliaciones, con su ficha técnica",
+      "responsable": "Carlos Lozano",
+      "prioridad": "ALTA",
+      "plazo": "Hasta octubre"
+    },
+    {
+      "tarea": "Registrar en el tablero el tablero de viáticos y las conciliaciones",
+      "responsable": "Carlos Lozano",
+      "prioridad": "ALTA",
+      "plazo": "Permanente"
+    },
+    {
+      "tarea": "Añadir gráficos y diagnóstico automático al tablero de viáticos",
+      "responsable": "Carlos Lozano",
+      "prioridad": "MEDIA",
+      "plazo": "Antes de S6"
+    },
+    {
+      "tarea": "Revisar por qué no se activa la vinculación del celular",
+      "responsable": "Carlos Lozano + TI",
+      "prioridad": "MEDIA",
+      "plazo": "Antes de S6"
+    },
+    {
+      "tarea": "Agendar tres o cuatro sesiones para la próxima semana",
+      "responsable": "Carlos Lozano",
+      "prioridad": "MEDIA",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Gestionar con Tecnología la autorización de acceso por API al software contable",
+      "responsable": "IAM™ + Comfacesar TI",
+      "prioridad": "ALTA",
+      "plazo": "Octubre"
+    }
+  ],
+  "observaciones": [
+    "Carlos resolvió por su cuenta el bloqueo con el que terminó la sesión anterior. El archivo estaba en el servidor interno y la herramienta no podía leerlo; en vez de esperar a la sesión, le preguntó a la propia herramienta por qué, entendió que no era una ubicación local y lo movió al escritorio. Ese es el comportamiento que el programa busca: usar la lógica aprendida para resolver sin depender de la mentoría.",
+    "El reporte mensual quedó cerrado y medido: de cuatro horas a diez minutos, con el cuerpo del correo y los adjuntos incluidos. Se registró en el tablero durante la sesión. El primer envío real es el 10 de septiembre.",
+    "Las fichas técnicas de las conciliaciones son un resultado que no estaba previsto y vale la pena señalarlo: al enseñarle la lógica de cada conciliación, la herramienta la documenta. El área está convirtiendo conocimiento que hoy vive en una persona en procedimientos escritos.",
+    "El entregable de conciliaciones va a revisoría fiscal y por eso se pidió sin colores ni formato. Es una decisión correcta del área: no todo entregable debe verse bonito, algunos deben verse formales.",
+    "La jefatura del área no alcanza a entrar a las sesiones y su ejercicio no avanza. La salida acordada —que Carlos lo trabaje y le reporte— resuelve el avance técnico, pero en el cierre de octubre cada persona presenta lo suyo ante la dirección. Conviene que ella tome al menos una sesión propia antes de esa fecha.",
+    "Quedó fijado el horizonte del área con claridad: dejar de trabajar sobre Excel, conectar el tablero al software contable por API y, al final, montar el agente. La conexión por API depende de una autorización de Tecnología que hay que empezar a gestionar."
+  ],
+  "proxima_sesion": {
+    "sesion": "Contabilidad — Sesión 6, viernes 11 de septiembre",
+    "condiciones": [
+      "El reporte de agosto enviado con el proceso nuevo",
+      "Más conciliaciones trabajadas, con sus fichas técnicas",
+      "El tablero de viáticos con gráficos y más lectura",
+      "Acordado con la jefatura cómo avanza su ejercicio"
+    ],
+    "agenda": [
+      "Revisión del envío del reporte de agosto",
+      "El tablero de viáticos: gráficos, cortes y diagnóstico automático",
+      "Siguientes conciliaciones",
+      "El ejercicio de la agenda de obligaciones tributarias"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 7 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

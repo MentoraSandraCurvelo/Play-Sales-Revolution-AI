@@ -431,3 +431,36 @@ Antes de publicar, cualquiera de las dos:
 
 Un mensaje programado que se cancela se marca como cancelado, no se borra de la tabla:
 el historial de lo que no salió también explica el canal.
+
+---
+
+## Martes 8 de septiembre de 2026 — cierre del corte del lunes
+
+Los cuatro resúmenes del lunes 7 se publicaron el martes 8 a las 07:59. El lunes solo alcanzaron a salir las grabaciones, las cuatro con la frase «el acta sale enseguida». Quedó pendiente de un día: es la primera vez que el criterio de mismo día no se cumple desde que se estableció el 3 de septiembre.
+
+| Área | Sesión | Resumen | PDF |
+|---|---|---|---|
+| Jurídica | S5 — Lilibeth | Publicado 08/09 07:59 | ACTA_Sesion5_Juridica_7septiembre2026.pdf |
+| Sub. Administrativa y Financiera | S3 — Rafael | Publicado 08/09 07:59 | ACTA_Sesion3_SubAdministrativaYFinanciera_7septiembre2026.pdf |
+| Educación | S3 — Julissa | Publicado 08/09 07:59 | ACTA_Sesion3_Educacion_7septiembre2026.pdf |
+| Contabilidad | S5 — Carlos | Publicado 08/09 08:00 | ACTA_Sesion5_Contabilidad_7septiembre2026.pdf |
+
+Los PDF los sube Sandra a cada canal: el conector de Slack no puede adjuntar archivos.
+
+### Lo que trajo el lunes
+
+**Jurídica S5 — el primer agente del programa.** Lilibeth construyó «Lilia», un agente que hace corte al mediodía sobre sus canales de Slack. Además creó un espacio de trabajo propio en Slack (Jurídica Comfacesar) y migró a su equipo de cuatro personas desde WhatsApp. Al conectar los 14 Sheets aparecieron 8 problemas de calidad del dato — columnas vacías alimentando el tablero. Ese es el trabajo real: cerrar la fuente antes de seguir modelando.
+
+**Sub. Financiera S3 — 480 → 15 minutos** en la prevalidación precontractual, 465 min/día recuperados. Primer proceso del área en el tablero. La automatización del correo sigue bloqueada: el proyecto no descarga adjuntos, necesita un agente. Tres bloqueos de TI en una hora — contraseña de instalación, acceso bloqueado a Documentos/OneDrive/unidades de digitalización, y captura de pantalla deshabilitada.
+
+**Educación S3 — segunda sesión consecutiva incompleta.** Solo Julissa. Kits escolares convertidos en página interactiva con simulador de presupuesto para la junta directiva. El plan de mejoramiento de la Superintendencia quedó montado, pero las actividades de respuesta están escritas de memoria, sin parámetros documentados — y vence en noviembre.
+
+**Contabilidad S5 — 240 → 10 minutos** en el reporte mensual de anticipos, registrado en vivo. Carlos resolvió solo el bloqueo de la S4 (archivo en el servidor, lo movió al escritorio tras preguntarle a la herramienta por qué no lo leía). Creó el primer comando del área. Conciliaciones bancarias 2 de 15, cada una generando su ficha técnica. Objetivo declarado del área: conectar el tablero al software contable por API y después montar un agente.
+
+### Pendiente de Sandra
+
+- **Tesorería y SST siguen sin canal.** Las dos áreas reciben sesión y no reciben nada más.
+- **Sub. Financiera tiene dos «Sesión 4»** en calendario: martes con Liliany y miércoles con Rafael. Por fecha deberían ser S4, S5 y S6.
+- **Danefer Mora** no está en `#planeacion` y **Julio Pérez** no está en `#comunicaciones` — ambos asisten y no reciben resúmenes ni recordatorios.
+- **Sandra Milena Hinojosa** preguntó en `#planeacion` el 20 de agosto y nadie ha respondido.
+- **Hoy martes 8, 2:00 p. m. — reporte con María Elvira:** el agente de auditoría de uso que pidió el director, y la respuesta de licenciamiento.

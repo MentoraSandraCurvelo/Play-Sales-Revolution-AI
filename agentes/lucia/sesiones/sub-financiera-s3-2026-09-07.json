@@ -1,0 +1,219 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SUB. ADMINISTRATIVA Y FINANCIERA",
+  "area_completa": "",
+  "sesion_num": 3,
+  "fase": "Ejercicios Prácticos",
+  "fecha": "7 de septiembre de 2026",
+  "fecha_corta": "7 septiembre 2026",
+  "subtitulo_meta": "Rafael Solano · individual · 7 de septiembre de 2026 · 3:00 p.m. · 1 h 1 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Subdirección Administrativa y Financiera — Comfacesar"],
+    ["Sesión", "N° 3 — Individual de Rafael Solano: el primer indicador del área y el intento de agente"],
+    ["Fecha", "7 de septiembre de 2026"],
+    ["Hora inicio", "3:00 p. m. — Colombia (sala abierta desde las 2:45)"],
+    ["Duración de la sesión", "1 h 1 min (3:00 p. m. – 4:01 p. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Correos Slack activados", "requerimientoscontratos@comfacesar.com"],
+    ["Grabación", "Se publica en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "480 → 15", "etiqueta": "Minutos por día", "detalle": "La prevalidación precontractual"},
+    {"valor": "465", "etiqueta": "Minutos recuperados", "detalle": "Casi ocho horas, todos los días"},
+    {"valor": "1", "etiqueta": "Proceso registrado", "detalle": "El primero del área en el tablero"},
+    {"valor": "3", "etiqueta": "Bloqueos del equipo", "detalle": "Instalación · carpetas · pantallazos"},
+    {"valor": "1", "etiqueta": "Automatización trabada", "detalle": "El proyecto no descarga adjuntos"},
+    {"valor": "2", "etiqueta": "Sesiones ya agendadas", "detalle": "Miércoles y viernes de esta semana"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Rafael José Solano Fernández", "cargo": "Requerimientos y Contratos — Comfacesar", "correo": "requerimientoscontratos@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 3. El área ya tiene su primer indicador medido, y a partir de aquí lo que frena no es el aprendizaje: son las restricciones del equipo de trabajo.",
+  "riesgos": [
+    {
+      "titulo": "El equipo de trabajo bloquea la instalación y el acceso a las carpetas",
+      "nivel": "CRITICO",
+      "descripcion": "Tres bloqueos aparecieron en la misma sesión. Al instalar Claude Code, el equipo pide una contraseña de sistema que Rafael no tiene. Al buscar archivos desde el celular, la herramienta reportó que el sistema le impide entrar a Documentos, a OneDrive y a las unidades de digitalización. Y no pudo tomar ni pegar un pantallazo para mostrar el error. Nada de esto depende de él, y sin resolverlo el área no puede pasar a agentes.",
+      "responsable": "Comfacesar — TI / Antes de la S4"
+    },
+    {
+      "titulo": "La automatización del correo sigue sin arrancar",
+      "nivel": "ALTO",
+      "descripcion": "El flujo que debía leer el requerimiento, descargar la propuesta adjunta y cotejarla no avanza: la herramienta responde que no tiene forma de descargar el contenido del PDF adjunto. Se desconectó y volvió a conectar el correo corporativo y siguió igual. La conclusión de la sesión es que este paso no se resuelve con un proyecto sino con un agente — y el agente es justamente lo que quedó bloqueado por la instalación.",
+      "responsable": "Rafael Solano + TI / Antes de la S4"
+    },
+    {
+      "titulo": "El tablero del área estaba vacío",
+      "nivel": "ALTO",
+      "descripcion": "Van tres sesiones y la hoja del área no tenía ningún registro. El trabajo estaba hecho —Rafael calcula que ya se ahorra entre dos y tres horas diarias— pero sin registrar no existe para el cierre del proyecto. Se llenó el primer proceso en sesión; faltan los demás.",
+      "responsable": "Rafael Solano / Permanente"
+    },
+    {
+      "titulo": "Los procesos del área no están mapeados",
+      "nivel": "ALTO",
+      "descripcion": "Solo uno de los procesos está trabajado. Quedaron nombrados otros —las actas de inicio, los informes— pero sin mapear: de dónde llega la información, qué se revisa, qué condicionales tiene, qué se hace en cada caso. Sin ese mapa no se puede construir el agente que los ejecute.",
+      "responsable": "Rafael Solano / Antes de la S4"
+    },
+    {
+      "titulo": "La vinculación del celular quedó a medias",
+      "nivel": "MEDIO",
+      "descripcion": "Se logró vincular el celular con el escritorio y la búsqueda se lanzó, pero no encontró el archivo: faltó dar la ruta completa y, sobre todo, el sistema bloquea las carpetas donde vive la información. El mecanismo quedó entendido; la prueba real no se pudo cerrar.",
+      "responsable": "Rafael Solano / Antes de la S4"
+    },
+    {
+      "titulo": "La otra herramienta está en cuenta personal",
+      "nivel": "BAJO",
+      "descripcion": "La sesión de ChatGPT está abierta con la cuenta personal y no se usa para el trabajo. No estorba hoy, pero conviene dejarlo claro: lo que se use para el trabajo va con el correo corporativo.",
+      "responsable": "Rafael Solano / Informativo"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "CRITICO",
+      "titulo": "Desbloquear el equipo con TI",
+      "descripcion": "Tres cosas concretas: la contraseña de instalación que pide Claude Code, el acceso a Documentos, OneDrive y las unidades de digitalización, y la posibilidad de capturar pantalla. Sin esto el área se queda en el nivel actual, por más ejercicios que haga.",
+      "responsable": "Comfacesar — TI",
+      "plazo": "Antes de la Sesión 4"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Mapear los demás procesos del área, empezando por las actas de inicio",
+      "descripcion": "El mapa completo: por dónde entra la información, qué se revisa, qué condicionales hay —si viene de una manera se hace esto, si viene de otra se hace aquello— y con qué termina. Es lo que permite construir el agente, y es lo que se presenta en el cierre de octubre.",
+      "responsable": "Rafael Solano",
+      "plazo": "Antes de la Sesión 4"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Seguir llenando el tablero con cada proceso",
+      "descripcion": "El primero ya quedó. Cada ejercicio que se cierre se registra igual: nombre del proceso, frecuencia, minutos antes, herramienta, minutos ahora y el nombre de quien lo hizo. Ese registro es lo que se audita al final.",
+      "responsable": "Rafael Solano",
+      "plazo": "Permanente"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Trabajar con carpetas en vez de subir archivos",
+      "descripcion": "Quedó demostrado que la herramienta lee una carpeta completa del computador. De aquí en adelante los documentos se descargan a su carpeta habitual y se le agrega la carpeta, sin subir archivo por archivo.",
+      "responsable": "Rafael Solano",
+      "plazo": "Inmediato"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El primer indicador del área",
+      "duracion": "~15 min",
+      "objetivo": "Registrar en el tablero el proceso que ya está funcionando, con su medición real.",
+      "pasos": [
+        "Se abrió el tablero desde el canal y se comprobó que la hoja del área estaba vacía",
+        "Se revisó la hoja de otra área como ejemplo de cómo se diligencia",
+        "Proceso registrado: prevalidación precontractual, de frecuencia diaria",
+        "Tiempo antes: una jornada laboral completa — 480 minutos",
+        "Tiempo ahora: 15 minutos, contando lo que tarda en leer y comparar el resultado",
+        "Ahorro calculado por el propio tablero: 465 minutos diarios",
+        "Se explicó que la observación va firmada con el nombre, porque el área tiene más personas que van a registrar ahí"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Por qué no arranca la automatización del correo",
+      "duracion": "~12 min",
+      "objetivo": "Diagnosticar el flujo que quedó planteado en la S2 y decidir por dónde sigue.",
+      "pasos": [
+        "El proyecto tiene dos consultas separadas: la automatización del correo y la validación precontractual",
+        "La validación sí funciona: se deja el documento escaneado en la consulta y devuelve el análisis sin escribir nada más",
+        "La automatización responde que no tiene forma de descargar el contenido del PDF adjunto del correo",
+        "Se desconectó y volvió a conectar el correo corporativo desde los conectores — el resultado no cambió",
+        "Conclusión: descargar del correo y encadenar el proceso completo no es trabajo de un proyecto, es de un agente"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Trabajar sobre carpetas y desde el celular",
+      "duracion": "~20 min",
+      "objetivo": "Quitar el paso de subir archivos y mostrar que el celular puede operar el computador.",
+      "pasos": [
+        "Se organizó una carpeta de herramientas de IA en los marcadores del navegador",
+        "En la herramienta de escritorio se agregó una carpeta del computador en vez de subir documentos",
+        "Se confirmó preguntándole directamente si podía leer los archivos de esa carpeta — respondió que sí",
+        "Se vinculó el celular con el escritorio a través de dispatch",
+        "Quedó explicada la cadena: el celular se conecta con la aplicación de escritorio, y esa aplicación está conectada al computador",
+        "La búsqueda de prueba se lanzó pero no encontró el archivo: faltó la ruta completa, y el sistema bloquea las carpetas donde está la información"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Primer intento de agente",
+      "duracion": "~14 min",
+      "objetivo": "Instalar el entorno de agentes, que es lo que puede resolver el ciclo completo del correo.",
+      "pasos": [
+        "Se explicó qué hace un agente: entrar al correo, descargar, revisar, generar el documento, encadenar el siguiente paso y enviarlo — todo el ciclo, como lo haría una persona",
+        "Se creó la carpeta de trabajo del agente en el escritorio",
+        "La instalación pidió un componente adicional y, al ejecutarlo, una contraseña de sistema que Rafael no tiene",
+        "No se pudo completar. Quedó pendiente de resolver con TI",
+        "Quedó claro también lo que falta por ver antes de llegar bien a los agentes: artefactos y diseño"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD PROBADA · SESIÓN 3 · 7 septiembre 2026",
+      "titulo": "La prevalidación precontractual, medida",
+      "descripcion": "Es el primer indicador duro del área y uno de los más altos del programa. La revisión que antes ocupaba una jornada laboral completa —480 minutos, todos los días— hoy toma 15 minutos: se deja el documento escaneado en el proyecto y devuelve el análisis completo. Son 465 minutos diarios que vuelven al área.",
+      "estado": "Funcionando y registrado en el tablero",
+      "proximo_paso": "Repetirlo con los requerimientos que lleguen esta semana",
+      "target": "Permanente"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 3 · 7 septiembre 2026",
+      "titulo": "El agente que hace el ciclo completo del requerimiento",
+      "descripcion": "Entra al correo, descarga la propuesta, la coteja contra el cuerpo del mensaje, marca las inconsistencias, diligencia el cuadro de seguimiento y prepara el envío a Presupuesto. Es lo que el proyecto no puede hacer porque no descarga adjuntos, y es exactamente para lo que sirve un agente. Está bloqueado por la instalación, no por el diseño.",
+      "estado": "Bloqueado — pendiente de permisos de TI",
+      "proximo_paso": "Resolver la instalación y volver a intentarlo",
+      "target": "Sesión 4"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 3 · 7 septiembre 2026",
+      "titulo": "Las actas de inicio",
+      "descripcion": "El siguiente proceso del área, nombrado en sesión y todavía sin mapear. Llega por correo, se revisa, y según lo que traiga se sigue un camino u otro. Ese condicional es justamente lo que hay que dejar escrito antes de automatizar nada.",
+      "estado": "Por mapear",
+      "proximo_paso": "Escribir el flujo completo, de entrada a cierre",
+      "target": "Sesión 4"
+    }
+  ],
+  "tareas_intro": "La sesión dejó el primer indicador medido del área, y es alto. Y dejó claro dónde está el techo: no en lo que Rafael puede aprender, sino en lo que su equipo de trabajo le permite instalar y abrir.",
+  "tareas": [
+    {"tarea": "Resolver con TI la contraseña de instalación, el acceso a carpetas y la captura de pantalla", "responsable": "Comfacesar — TI", "prioridad": "URGENTE", "plazo": "Antes de S4"},
+    {"tarea": "Mapear el proceso de las actas de inicio, con sus condicionales", "responsable": "Rafael Solano", "prioridad": "ALTA", "plazo": "Antes de S4"},
+    {"tarea": "Mapear los demás procesos del día a día del área", "responsable": "Rafael Solano", "prioridad": "ALTA", "plazo": "Antes de S4"},
+    {"tarea": "Registrar en el tablero cada proceso que se cierre", "responsable": "Rafael Solano", "prioridad": "ALTA", "plazo": "Permanente"},
+    {"tarea": "Trabajar agregando carpetas, sin subir archivo por archivo", "responsable": "Rafael Solano", "prioridad": "MEDIA", "plazo": "Inmediato"},
+    {"tarea": "Completar la prueba del celular con la ruta correcta, una vez TI libere las carpetas", "responsable": "Rafael Solano", "prioridad": "MEDIA", "plazo": "Antes de S4"}
+  ],
+  "observaciones": [
+    "El área registró su primer indicador y es de los más altos del programa: la prevalidación precontractual pasó de una jornada laboral completa a quince minutos, todos los días. Rafael estima además un ahorro general de dos a tres horas diarias con lo que ya tiene montado, que todavía está sin desglosar en el tablero.",
+    "Van tres sesiones y la hoja del área en el tablero estaba vacía. El trabajo existía, la medición no. Quedó explicado en sesión por qué importa: en octubre cada persona presenta sus procesos mapeados ante la dirección, con el antes y el después, y lo que no esté registrado no se puede mostrar.",
+    "Lo que frena al área ya no es el aprendizaje. Tres bloqueos del equipo de trabajo aparecieron en la misma hora: la instalación del entorno de agentes pide una contraseña de sistema, el sistema impide entrar a Documentos, OneDrive y las unidades de digitalización, y no se puede capturar pantalla. Ese mismo día, en otra área del programa, la misma instalación sí se completó — así que no es una restricción general de Comfacesar sino de este puesto.",
+    "La automatización del correo quedó diagnosticada: no avanza porque un proyecto no descarga adjuntos, y eso corresponde a un agente. El diseño del flujo está bien; lo que falta es la herramienta que lo ejecute.",
+    "Quedó una tarea de fondo más importante que cualquier ejercicio: mapear los procesos del área. Hoy solo uno está trabajado. Los demás —empezando por las actas de inicio— hay que escribirlos con sus condicionales antes de automatizar nada.",
+    "Rafael dejó agendadas dos sesiones más para esta semana, miércoles y viernes."
+  ],
+  "proxima_sesion": {
+    "sesion": "Sub. Administrativa y Financiera — Sesión 4",
+    "condiciones": [
+      "Los permisos de TI resueltos: instalación, acceso a carpetas y captura de pantalla",
+      "El proceso de las actas de inicio mapeado de entrada a cierre",
+      "El tablero con los procesos que ya están funcionando",
+      "Los requerimientos de la semana procesados con la validación que ya funciona"
+    ],
+    "agenda": [
+      "Construcción del agente del ciclo completo del requerimiento",
+      "El proceso de las actas de inicio, sobre el mapa que traiga",
+      "Artefactos y diseño, que quedan pendientes del recorrido",
+      "Revisión del tablero del área"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 7 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

@@ -1,0 +1,218 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "EDUCACIÓN",
+  "area_completa": "",
+  "sesion_num": 3,
+  "fase": "Ejercicios Prácticos",
+  "fecha": "7 de septiembre de 2026",
+  "fecha_corta": "7 septiembre 2026",
+  "subtitulo_meta": "7 de septiembre de 2026 · 4:00 p.m. · 45 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Educación — Comfacesar"],
+    ["Sesión", "N° 3 — La proyección de kits escolares como tablero interactivo, y el plan de mejoramiento de la Superintendencia"],
+    ["Fecha", "7 de septiembre de 2026"],
+    ["Hora inicio", "4:00 p. m. — Colombia"],
+    ["Duración de la sesión", "45 minutos (4:00 p. m. – 4:45 p. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Correos Slack activados", "auxiliareducacion@comfacesar.com"],
+    ["Grabación", "Se publica en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "1 de 2", "etiqueta": "Asistencia del área", "detalle": "Segunda sesión seguida sin la otra mitad"},
+    {"valor": "2", "etiqueta": "Ejercicios reales", "detalle": "Kits escolares · plan de mejoramiento"},
+    {"valor": "1", "etiqueta": "Simulador construido", "detalle": "Para presentar a la junta directiva"},
+    {"valor": "9", "etiqueta": "Observación ubicada sola", "detalle": "Sin indicarle fila ni columna"},
+    {"valor": "Nov.", "etiqueta": "Plazo del plan", "detalle": "La entrega a Subdirección"},
+    {"valor": "20", "etiqueta": "Días desde la S2", "detalle": "Con una sesión caída en medio"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Julissa Pérez Pérez", "cargo": "Auxiliar de Educación — Comfacesar", "correo": "auxiliareducacion@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 3. El trabajo que se hizo fue bueno y sobre procesos reales; lo que preocupa es que lo está sosteniendo una sola persona del área.",
+  "riesgos": [
+    {
+      "titulo": "Solo asistió una de las dos personas del área",
+      "nivel": "CRITICO",
+      "descripcion": "Es la segunda sesión consecutiva en la que falta la otra mitad del equipo: la Sesión 3 del 31 de agosto se canceló por esa ausencia y se reagendó para hoy, y hoy tampoco hubo asistencia. En un área de dos personas eso significa que la mitad lleva tres semanas sin sesión, y que todo lo aprendido está concentrado en un solo puesto.",
+      "responsable": "Educación / Inmediato"
+    },
+    {
+      "titulo": "El plan de mejoramiento se llena de memoria",
+      "nivel": "ALTO",
+      "descripcion": "Cuando la Superintendencia deja observaciones tras una visita, las actividades de respuesta se escriben a partir de lo que la persona sabe: no hay un parámetro escrito ni una fuente de donde tomarlas. Funciona mientras esa persona esté; no es un proceso que el área pueda sostener ni auditar. La entrega a Subdirección vence en noviembre.",
+      "responsable": "Julissa Pérez / Antes de la S4"
+    },
+    {
+      "titulo": "El área lleva veinte días sin sesión",
+      "nivel": "ALTO",
+      "descripcion": "La Sesión 2 fue el 24 de agosto y la 3 se cayó por el camino. Con el programa cerrando el 30 de octubre, ese ritmo no alcanza para dejar procesos montados. Quedó dicho en sesión: agendar varias por semana, no una.",
+      "responsable": "Educación / Inmediato"
+    },
+    {
+      "titulo": "El ejercicio depende de un insumo que todavía no llega",
+      "nivel": "MEDIO",
+      "descripcion": "Los listados de agosto que envía el colegio son el soporte del plan de mejoramiento y aún no han llegado. Sin ellos el ejercicio queda a medias, y el plazo de noviembre corre igual.",
+      "responsable": "Educación / Esta semana"
+    },
+    {
+      "titulo": "El computador tiene restricciones que piden autorización a cada paso",
+      "nivel": "MEDIO",
+      "descripcion": "Al conectar una carpeta del computador aparecieron avisos de permiso que hubo que autorizar uno por uno. No bloqueó el ejercicio, pero es el mismo tipo de restricción que en otras áreas sí ha frenado instalaciones completas.",
+      "responsable": "Comfacesar — TI / Informativo"
+    },
+    {
+      "titulo": "El modelo seleccionado consumía los créditos muy rápido",
+      "nivel": "BAJO",
+      "descripcion": "Estaba trabajando con el modelo más potente sobre un plan Pro. Se cambió en sesión al modelo de uso diario, que va más despacio pero permite trabajar toda la jornada sin quedarse sin crédito.",
+      "responsable": "Julissa Pérez / Resuelto en sesión"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "CRITICO",
+      "titulo": "Que el área asista completa a la próxima sesión",
+      "descripcion": "Dos sesiones seguidas con una sola persona. Lo que se está construyendo —la proyección de kits, el plan de mejoramiento— es trabajo del área, no de una persona, y en octubre se presenta ante la dirección.",
+      "responsable": "Educación",
+      "plazo": "Sesión 4"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Agendar varias sesiones por semana",
+      "descripcion": "El área lleva veinte días sin sesión y el programa cierra el 30 de octubre. Se agenda desde el enlace del canal, sin pasar por nadie, y se pueden tomar tres o cuatro espacios en la semana.",
+      "responsable": "Julissa Pérez",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Terminar los dos ejercicios y traerlos completos",
+      "descripcion": "La proyección de kits escolares, ya en su versión interactiva, y el plan de mejoramiento con las actividades propuestas. Lo más terminado que se pueda, para trabajar sobre eso y no volver a empezar.",
+      "responsable": "Julissa Pérez",
+      "plazo": "Antes de la Sesión 4"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Escribir los parámetros del plan de mejoramiento",
+      "descripcion": "De dónde sale cada actividad de respuesta, qué criterio se sigue según el tipo de observación y qué soportes la respaldan. Es lo que convierte un formato que hoy se llena de memoria en un proceso repetible.",
+      "responsable": "Julissa Pérez",
+      "plazo": "Antes de la Sesión 4"
+    },
+    {
+      "num": "05",
+      "nivel": "ALTO",
+      "titulo": "Registrar los procesos en el tablero del canal",
+      "descripcion": "Cada ejercicio terminado se documenta: qué proceso es, con qué frecuencia se hace, cuánto tomaba antes y cuánto toma ahora. El área no tiene nada registrado todavía.",
+      "responsable": "Julissa Pérez",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Llegar con los procesos ya mapeados",
+      "descripcion": "La forma de aprovechar la sesión es llegar diciendo «tengo estos procesos mapeados y quiero trabajar estos», no preguntando qué hacer. Hoy funcionó así y por eso rindió.",
+      "responsable": "Julissa Pérez",
+      "plazo": "Permanente"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · La proyección de kits escolares, de presentación a tablero interactivo",
+      "duracion": "~20 min",
+      "objetivo": "Revisar el proyecto que Julissa construyó por su cuenta y llevarlo al nivel que necesita una junta directiva.",
+      "pasos": [
+        "El proyecto ya estaba armado con el método CREA, con modelos de referencia y el formato de Excel como guía del resultado esperado",
+        "El primer intento no entregó la presentación; al pedirla explícitamente, la generó",
+        "Se cambió el modelo al de uso diario para no agotar los créditos del plan",
+        "Se instaló la aplicación de escritorio durante la sesión",
+        "La presentación se subió a Claude Design y se pidió una versión mejorada, dinámica e interactiva",
+        "La herramienta preguntó lo que necesitaba: formato final, si debía incluir simulador presupuestal, qué interacciones, para quién era",
+        "Resultado: una página única con simulador de presupuesto, filtros y comparación por sede, gráficos animados, contadores, detalle por artículo y comparación contra otra caja",
+        "Quedó como tarea explicarlo en la próxima sesión como si fuera ante la junta directiva"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El plan de mejoramiento de la Superintendencia",
+      "duracion": "~22 min",
+      "objetivo": "Montar el proyecto del proceso que hoy se resuelve a mano y que vence en noviembre.",
+      "pasos": [
+        "El proceso: la Superintendencia de Subsidio Familiar hace visitas ordinarias y especiales, verifica la ejecución de los servicios y deja observaciones y recomendaciones",
+        "La caja responde con un plan de mejoramiento sobre una plantilla fija de Excel, que se entrega a Subdirección",
+        "Se armó el método CREA en el detalle del proyecto: contexto —las visitas y su alcance—, rol —analista experto en dar respuesta a observaciones de auditoría, para cajas de compensación— y entrega",
+        "Se cargó la plantilla al contexto del proyecto, porque es la misma para todos los planes",
+        "En la consulta se dieron los parámetros específicos: qué casilla llenar, de qué depende y cómo se diligencia, como si se le explicara a alguien nuevo",
+        "No hizo falta indicarle fila ni columna: ubicó por su cuenta la observación en la hoja correspondiente",
+        "Quedó pendiente lo esencial: los criterios con que se proponen las actividades de respuesta, que hoy solo están en la cabeza de quien las escribe"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Conectar carpetas en vez de subir archivos",
+      "duracion": "~5 min",
+      "objetivo": "Quitar el paso de subir documentos uno por uno.",
+      "pasos": [
+        "Desde la aplicación de escritorio se agrega una carpeta del computador al proyecto",
+        "Se confirmó preguntándole si podía leer todos los archivos de esa carpeta",
+        "Criterio práctico: si la información está en una sola carpeta, se conecta la carpeta; si está repartida, se conecta una y los demás archivos se suben a mano",
+        "Aparecieron avisos de permiso del equipo que hubo que autorizar",
+        "Quedó dicho que el trabajo continúa aunque se cierre el computador: se reanuda al abrirlo"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD PROBADA · SESIÓN 3 · 7 septiembre 2026",
+      "titulo": "La proyección de kits escolares como tablero interactivo",
+      "descripcion": "Lo que empezó como una presentación de diapositivas terminó siendo una página interactiva con simulador: se mueve el presupuesto y la proyección se recalcula sola, con gráficos, comparación por sede y detalle por artículo. Es material para una junta directiva, construido en una sesión, sobre un proceso real del área.",
+      "estado": "Construido — falta terminar de leerlo y dominarlo",
+      "proximo_paso": "Explicarlo en la próxima sesión como ante la junta directiva",
+      "target": "Sesión 4"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 3 · 7 septiembre 2026",
+      "titulo": "El plan de mejoramiento de la Superintendencia",
+      "descripcion": "El proyecto ya está montado y la plantilla cargada. Cuando queden escritos los criterios de respuesta, cada observación de una visita se convierte en actividades propuestas y soportadas sin partir de cero. Hoy ese trabajo depende de la memoria de una persona y vence en noviembre.",
+      "estado": "Proyecto montado — faltan los criterios y los soportes de agosto",
+      "proximo_paso": "Escribir los parámetros y conseguir los listados del colegio",
+      "target": "Sesión 4"
+    }
+  ],
+  "tareas_intro": "Julissa llegó con dos procesos reales ya trabajados por su cuenta, y por eso la sesión rindió. El problema del área no es la disposición de quien vino: es que vino sola, por segunda vez seguida.",
+  "tareas": [
+    {"tarea": "Que el área asista completa a la próxima sesión", "responsable": "Educación", "prioridad": "URGENTE", "plazo": "Sesión 4"},
+    {"tarea": "Agendar varias sesiones por semana desde el enlace del canal", "responsable": "Julissa Pérez", "prioridad": "URGENTE", "plazo": "Inmediato"},
+    {"tarea": "Terminar la proyección de kits y prepararla para exponerla", "responsable": "Julissa Pérez", "prioridad": "ALTA", "plazo": "Antes de S4"},
+    {"tarea": "Escribir los criterios de respuesta del plan de mejoramiento", "responsable": "Julissa Pérez", "prioridad": "ALTA", "plazo": "Antes de S4"},
+    {"tarea": "Conseguir los listados de agosto que envía el colegio", "responsable": "Julissa Pérez", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Registrar los procesos en el tablero del canal", "responsable": "Julissa Pérez", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Llegar a la sesión con los procesos mapeados", "responsable": "Julissa Pérez", "prioridad": "MEDIA", "plazo": "Permanente"}
+  ],
+  "observaciones": [
+    "Es la segunda sesión consecutiva a la que asiste una sola persona del área. La del 31 de agosto se canceló por la misma razón y se reagendó para hoy. En un equipo de dos, eso deja a la mitad del área tres semanas atrás y concentra todo el aprendizaje en un solo puesto.",
+    "Dicho eso, la sesión rindió porque Julissa llegó con dos procesos reales ya trabajados: la proyección de kits escolares y el plan de mejoramiento. Ese es exactamente el formato que hace que la hora sirva.",
+    "El resultado de la proyección de kits superó lo que se buscaba. De una presentación de diapositivas se pasó a una página interactiva con simulador de presupuesto, gráficos y comparación por sede — material presentable ante una junta directiva.",
+    "El plan de mejoramiento dejó a la vista un riesgo de proceso, no de herramienta: las actividades con que se responde a la Superintendencia se escriben desde el conocimiento de quien las hace, sin parámetros documentados. Mientras eso siga así, el proceso no se puede delegar ni auditar, y automatizarlo solo repetiría un criterio que nadie más puede revisar.",
+    "Quedó corregido el modelo con el que estaba trabajando: el más potente consume los créditos del plan Pro muy rápido. Para el día a día conviene el de uso diario, y reservar el otro para las tareas complejas.",
+    "El área trabaja con equipos que piden autorización a cada paso al conectar carpetas. Aquí no frenó el ejercicio, pero es el mismo tipo de restricción que en otras áreas ha impedido completar instalaciones."
+  ],
+  "proxima_sesion": {
+    "sesion": "Educación — Sesión 4",
+    "condiciones": [
+      "El área completa",
+      "La proyección de kits terminada y lista para exponer",
+      "Los criterios de respuesta del plan de mejoramiento escritos",
+      "Los listados de agosto del colegio, como soporte"
+    ],
+    "agenda": [
+      "Exposición de la proyección de kits, como ante la junta directiva",
+      "El plan de mejoramiento con las actividades propuestas",
+      "Registro de los dos procesos en el tablero",
+      "Los demás procesos del área, por mapear"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 7 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
