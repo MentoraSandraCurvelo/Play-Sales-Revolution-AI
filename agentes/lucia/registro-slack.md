@@ -434,16 +434,16 @@ el historial de lo que no salió también explica el canal.
 
 ---
 
-## Martes 8 de septiembre de 2026 — cierre del corte del lunes
+## Lunes 7 de septiembre de 2026 — cierre del corte del día
 
-Los cuatro resúmenes del lunes 7 se publicaron el martes 8 a las 07:59. El lunes solo alcanzaron a salir las grabaciones, las cuatro con la frase «el acta sale enseguida». Quedó pendiente de un día: es la primera vez que el criterio de mismo día no se cumple desde que se estableció el 3 de septiembre.
+Cuatro sesiones en una tarde y las cuatro actas salieron el mismo día. Las grabaciones se publicaron entre las 6:51 y las 8:17 p. m., y los cuatro resúmenes entre las 8:39 y las 8:40 p. m. El criterio de mismo día se cumplió.
 
 | Área | Sesión | Resumen | PDF |
 |---|---|---|---|
-| Jurídica | S5 — Lilibeth | Publicado 08/09 07:59 | ACTA_Sesion5_Juridica_7septiembre2026.pdf |
-| Sub. Administrativa y Financiera | S3 — Rafael | Publicado 08/09 07:59 | ACTA_Sesion3_SubAdministrativaYFinanciera_7septiembre2026.pdf |
-| Educación | S3 — Julissa | Publicado 08/09 07:59 | ACTA_Sesion3_Educacion_7septiembre2026.pdf |
-| Contabilidad | S5 — Carlos | Publicado 08/09 08:00 | ACTA_Sesion5_Contabilidad_7septiembre2026.pdf |
+| Jurídica | S5 — Lilibeth | Publicado 07/09 20:39 | ACTA_Sesion5_Juridica_7septiembre2026.pdf |
+| Sub. Administrativa y Financiera | S3 — Rafael | Publicado 07/09 20:39 | ACTA_Sesion3_SubAdministrativaYFinanciera_7septiembre2026.pdf |
+| Educación | S3 — Julissa | Publicado 07/09 20:39 | ACTA_Sesion3_Educacion_7septiembre2026.pdf |
+| Contabilidad | S5 — Carlos | Publicado 07/09 20:40 | ACTA_Sesion5_Contabilidad_7septiembre2026.pdf |
 
 Los PDF los sube Sandra a cada canal: el conector de Slack no puede adjuntar archivos.
 
@@ -463,4 +463,4 @@ Los PDF los sube Sandra a cada canal: el conector de Slack no puede adjuntar arc
 - **Sub. Financiera tiene dos «Sesión 4»** en calendario: martes con Liliany y miércoles con Rafael. Por fecha deberían ser S4, S5 y S6.
 - **Danefer Mora** no está en `#planeacion` y **Julio Pérez** no está en `#comunicaciones` — ambos asisten y no reciben resúmenes ni recordatorios.
 - **Sandra Milena Hinojosa** preguntó en `#planeacion` el 20 de agosto y nadie ha respondido.
-- **Hoy martes 8, 2:00 p. m. — reporte con María Elvira:** el agente de auditoría de uso que pidió el director, y la respuesta de licenciamiento.
+- **Mañana martes 8, 2:00 p. m. — reporte con María Elvira:** el agente de auditoría de uso que pidió el director, y la respuesta de licenciamiento.

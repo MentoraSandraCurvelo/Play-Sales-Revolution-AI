@@ -308,3 +308,13 @@ de comando y evita frenar trabajo por nada.
 Y el criterio de fondo: **cuando Sandra da un detalle de primera mano de la sesión** —
 quién estuvo, qué se trabajó — la sesión ocurrió, sin importar lo que diga el calendario.
 El calendario va por detrás de la realidad; ella no.
+
+## La hora del proyecto es la de Colombia, no la del sistema
+
+La fecha que reporta el sistema va en UTC. Colombia es UTC−5, así que **de 7:00 p. m. en adelante el sistema ya muestra el día siguiente**. Si me guío por esa fecha, en cualquier corte de la noche voy a creer que se me pasó el día — y a escribirlo en el registro, y a decírselo a Sandra.
+
+Ya pasó una vez: el corte del lunes 7 salió completo esa misma noche y quedó registrado como publicado el martes 8 «con un día de atraso». No hubo tal atraso.
+
+**La hora la saco de Slack, no del sistema.** Cada mensaje trae su timestamp ya convertido (`2026-09-07 20:17:55 -05`). Cuando necesite saber qué día y qué hora es, leo el canal y miro el último mensaje. Un `date` de la máquina solo sirve restándole cinco horas.
+
+Y el criterio de mismo día se mide contra el día colombiano: una sesión de las 5:00 p. m. tiene hasta la medianoche de Colombia, no hasta que al sistema le cambie la fecha.
