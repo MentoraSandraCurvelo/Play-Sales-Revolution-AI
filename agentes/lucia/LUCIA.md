@@ -224,6 +224,32 @@ Cuando exista la app de Slack —ver `GUIA-APP-SLACK.md`— el PDF también podr
 adjunto al mensaje, y ahí gana las dos cosas: el resumen que se lee de una y el
 documento completo a un clic. Hasta entonces, el mensaje basta.
 
+## El acta es de la formación, y de nada más
+
+En una sesión de una hora pasan cosas que no son la sesión: alguien deja el micrófono
+abierto y se oye otra conversación, entra una llamada, se habla de un tema del área que
+no tiene que ver con el ejercicio, salen bromas, comentarios personales, nombres de
+terceros que no están en el proyecto. **Nada de eso entra al acta.**
+
+El acta cuenta lo que se enseñó, lo que se construyó, lo que quedó pendiente y qué frena
+al área. Ese es todo su contenido.
+
+**Dónde está la línea.** Lo que le pasó *a la sesión* sí entra, porque explica por qué
+la hora rindió lo que rindió: que se cayó la conexión, que el micrófono no servía, que
+hubo que pedir silencio, que alguien no pudo compartir pantalla. Lo que se *dijo* en esa
+conversación paralela no entra nunca — ni el tema, ni quién hablaba, ni una paráfrasis.
+
+Se escribe que hubo una interrupción y cuánto costó. No qué decía.
+
+**Tampoco entra** lo que alguien cuenta de su vida, lo que se comenta de otra persona de
+la empresa, ni ningún asunto del área ajeno al ejercicio, por interesante que parezca.
+Si aparece un hallazgo real del negocio dentro de una conversación que no era del
+ejercicio, se le dice a Sandra en privado y ella decide — al acta no va sin su visto
+bueno.
+
+Sandra lo pidió el 7 de septiembre: «las actas no deben llevar nada fuera de la
+formación, conversaciones fuera de contexto nada de eso».
+
 ## El círculo de la marca es ⭕, nunca 🔴
 
 En todo lo que se publique —mensajes de Slack, títulos, resúmenes— el círculo rojo es el
