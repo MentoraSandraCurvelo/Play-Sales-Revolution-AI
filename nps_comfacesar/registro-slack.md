@@ -128,6 +128,24 @@ en `Sesion 3`. Lo más probable: es la misma grabación con el nombre viejo, de 
 evento estaba numerado S4, antes de la corrección. **Conviene moverla**, porque tal como está
 puede leerse más adelante como una sesión que nunca existió.
 
+### 🔧 Cambio de KPI, a pedido de Sandra
+
+**Sale «5 huecos de expediente» de los indicadores grandes.** Su observación: no es relevante
+para el titular. Y tenía otro problema peor, **el número nunca se explicaba en el tablero**:
+era un 5 en rojo sin definición en ninguna parte.
+
+**Qué eran:** soportes que faltan en el expediente de sesiones ya hechas. Cuatro son el
+informe de asistencia de Teams sin descargar (Comunicaciones S4, Contabilidad S2, Educación
+S1, Planeación S2) y uno es el acta de Tesorería S1, que está en Dropbox y nunca llegó al
+canal. **No cambian ningún indicador**, porque la asistencia de esas sesiones se calculó del
+acta. Solo importan para el cierre de octubre, cuando el expediente se entrega completo.
+
+**En su lugar queda «2 · Áreas sin arrancar»**, que sí es riesgo y es lo que Comfacesar está
+moviendo. Los cinco documentos bajaron a la sección de alertas, ya con su explicación.
+
+De paso se corrigió esa sección, que seguía diciendo «tres áreas sin fecha» incluyendo a
+Vivienda, que ya tomó el jueves, y no tenía lo de María Elvira.
+
 ### Lo que queda igual
 
 Agenda vacía después del martes 15. Crédito y Auditoría Interna en cero. Cinco huecos de
