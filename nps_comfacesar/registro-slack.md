@@ -15,6 +15,81 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📮 7 sep · 21:30 · Encuesta de pulso programada en los 18 canales
+
+**La encuesta se lanza por Google Forms, no por Slack ni por el tablero.** El formulario lo
+armó Sandra paso a paso y lo verificó ella misma en ventana de incógnito: respondió,
+comprobó que llegara y borró la respuesta de prueba.
+
+:point_right: https://forms.gle/pN22koVrZ3YheSnH8
+
+**Once preguntas.** Las diez aprobadas más una que pidió Sandra al final: *a cuántas
+sesiones ha asistido*. Su razón, textual: «qué pasa si dicen que no les ha servido pero han
+ido a una o dos sesiones, cuando hay áreas que llevan 6 a 7 sesiones». Sin esa pregunta una
+nota baja no se puede leer.
+
+**Anónima.** No pide nombre ni correo, solo el área.
+
+### El reparto en dos días, y por qué
+
+**Martes 8 a las 8:00 a.m., 14 canales:**
+
+| Canal | ID | Programado |
+|---|---|---|
+| `contabilidad` | C0BPDN9PKPH | Dr0C04NLQT1C |
+| `cumplimiento` | C0BRMUV71UJ | Dr0BV59ZJGCX |
+| `educacion` | C0BPDPF4YMD | Dr0C06LAQNR0 |
+| `gerencia-financiera` | C0BPV3QQ9SN | Dr0BV5A06H8X |
+| `ips` | C0BPNT6UV8B | Dr0BV5A03BDM |
+| `juridica` | C0BPYQD0UQ4 | Dr0C1128MVLG |
+| `mercadeo` | C0BPT4GE8NS | Dr0C04NN6DBQ |
+| `planeacion` | C0BQPDJD0LQ | Dr0C06LCHKR8 |
+| `serivcios-sociales` | C0BPRGNGLJ1 | Dr0C0AARRZ1S |
+| `sub-admin-y-financiera-infraestructura` | C0BPV3TEKB4 | Dr0C1129SHB2 |
+| `sub-operativa` | C0BPYQFRYP6 | Dr0C06LD0M3L |
+| `talento-humano` | C0BPCQF8GCX | Dr0C04NNQU2J |
+| `tesoreriaa` | C0BPNSNNGLT | Dr0C00DN91QT |
+| `vivienda` | C0BPRGLBTUM | Dr0C028A5RBP |
+
+**Miércoles 9 a las 8:00 a.m., 4 canales:**
+
+| Canal | ID | Programado |
+|---|---|---|
+| `agencia-de-empleo` | C0BPV2YLLBU | Dr0C04NYBVE2 |
+| `comunicaciones` | C0BPC33FM9D | Dr0C04NYG2P8 |
+| `subsidio` | C0BPDP5SNMD | Dr0BV5AB4HAT |
+| `tecnologia` | C0BPV433VSN | Dr0C08JS76UR |
+
+### ⚠️ Lucía · lee esto antes de escribir el martes
+
+**Esos cuatro se corrieron al miércoles a propósito.** Los cuatro tienen sesión o reunión el
+martes. Si la encuesta les gasta uno de los dos mensajes del día, te quedas sin cupo para el
+recordatorio o para el acta. Con el corrimiento tienes los dos cupos libres el martes en
+`#agencia-de-empleo`, `#comunicaciones`, `#subsidio` y `#tecnologia`.
+
+**En los otros 14 canales el martes ya hay 1 de 2 gastado** desde las 8:00 a.m. Te queda un
+mensaje por canal.
+
+**No la reenvíes ni la recuerdes tú.** El seguimiento de la encuesta es de Elia. Si alguien
+pregunta por ella en un canal tuyo, respóndele lo que necesite y ya, sin volver a poner el
+enlace.
+
+### Verificaciones hechas antes de programar
+
+- **Ningún mensaje de Lucía en cola** para el 8 ni el 9, revisado antes de encolar.
+- **Símbolo `:o:` (⭕️)** en los 18. Cero `:red_circle:`.
+- **El enlace no se pudo abrir desde aquí**: `forms.gle` está bloqueado por el proxy de esta
+  sesión. Quien lo verificó fue Sandra, con la prueba de incógnito. Queda dicho tal cual,
+  sin dar por bueno lo que no se pudo comprobar.
+
+**Un mensaje programado no se cancela por API.** Si hay que bajar alguno, se hace desde
+Slack, en «Borradores y enviados».
+
+### Lo que sigue
+
+**El martes se leen las respuestas desde Google Drive**, no desde el formulario, por el
+bloqueo del proxy. Con eso se arma el tablero de resultados. Mari Elvira los ve después.
+
 ## 📤 7 sep · 11:54 — Segunda parte de la grabación en `#comunicaciones`
 
 **Vidiana Bendeck escribió a las 11:40:**
