@@ -15,6 +15,69 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📊 8 sep · 07:20 · Corte diario, el programa pasa a 53 sesiones
+
+Tablero: https://claude.ai/code/artifact/8949a813-41e2-4c31-b234-d0b3ada2eb6e
+
+**Las cuatro sesiones del lunes quedaron verificadas.** Anoche, entre las 20:15 y las 21:06,
+llegaron las cuatro actas a Dropbox y los tres soportes a cada canal: grabación, resumen y
+acta en PDF. **Ninguna abrió hueco nuevo de expediente**, y es la primera vez que cuatro
+sesiones del mismo día cierran completas el mismo día. **49 → 53.**
+
+### Los dos datos del día
+
+**Jurídica montó el primer agente que construye un área de Comfacesar.** Se llama Lilia,
+vigila los canales de Slack del área y entrega un corte al mediodía. Quedó apagado hasta
+terminar de armar los canales. Jurídica es además la segunda área en completar el recorrido
+entero: proyectos, artefactos, habilidades, diseño y agentes.
+
+**Sub. Administrativa y Financiera: 480 → 15 minutos, todos los días.** La prevalidación
+precontractual de Rafael. Son **465 minutos recuperados por jornada**, y el proceso es
+diario. **Supera al dato que veníamos usando**: el de Jurídica, 960 → 25, es por reporte;
+este es por día. Para el reporte a María Elvira, es el que más pesa.
+
+Contabilidad también cerró: el reporte mensual de anticipos pasó de 240 a 10 minutos, y
+quedó empaquetado en el primer comando del área.
+
+### Asistencia: baja de 91% a 90%
+
+**123 sobre 136**, 49 sesiones medidas. Tres de las cuatro del lunes fueron individuales y
+dieron 100%. La que mueve el número es **Educación, 1 de 2**.
+
+**Áreas por debajo del 100%: sube de 5 a 7.** Entran Educación y Subsidio. Lo de Subsidio es
+una corrección del tablero, no un dato nuevo: su S2 al 67% ya estaba en la tabla pero el
+contador de arriba no la reflejaba.
+
+**Bajo el 70% sigue habiendo una sola área: Tesorería, con 50%.**
+
+### ⚠️ Educación es la alerta
+
+Segunda sesión consecutiva con una sola de las dos personas del área, después de que la del
+31 de agosto se cayera por lo mismo. La mitad del área lleva tres semanas sin sesión y todo
+lo aprendido está en un solo puesto. El cierre de octubre es por área, no por persona.
+
+### Se precisa el bloqueo de TI
+
+El tablero venía diciendo que la contraseña de sistemas era un problema general de
+Comfacesar. **No lo es, y el lunes quedó probado:** en la sesión de Rafael aparecieron tres
+bloqueos en una hora (contraseña de administrador, acceso a Documentos, OneDrive y unidades
+de digitalización, y captura de pantalla), y ese mismo día Lilibeth completó la misma
+instalación sin problema. **Es por puesto**, y por eso se puede resolver puesto por puesto.
+Ya toca Jurídica, Planeación, Gerencia Financiera y Sub. Administrativa.
+
+### 📌 Una grabación mal archivada
+
+En Dropbox hay un VTT llamado «Sub. Administrativa y Financiera S4 · Rafael» guardado dentro
+de `Sesion 4`, con fecha de anoche. Pero la sesión del lunes fue la **S3** y su acta sí quedó
+en `Sesion 3`. Lo más probable: es la misma grabación con el nombre viejo, de cuando el
+evento estaba numerado S4, antes de la corrección. **Conviene moverla**, porque tal como está
+puede leerse más adelante como una sesión que nunca existió.
+
+### Lo que queda igual
+
+Agenda vacía después del martes 15. Crédito y Auditoría Interna en cero. Cinco huecos de
+expediente, sin cambio: las cuatro del lunes no agregaron ninguno.
+
 ## 🗓️ 7 sep · 21:40 · Barrido de calendario hasta el 19 de septiembre
 
 Tablero actualizado: https://claude.ai/code/artifact/8949a813-41e2-4c31-b234-d0b3ada2eb6e
