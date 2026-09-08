@@ -15,6 +15,56 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📊 8 sep · 17:20 · Tablero de resultados de la encuesta, con 4 respuestas
+
+Tablero: https://claude.ai/code/artifact/0cca00fb-603a-4ae8-a87f-1d5f724dbf0d
+
+**La hoja vinculada sí funciona.** A las 14:13 tenía 1 fila y a las 17:15 tiene 4. Lo que
+falló fue mi lectura de la tarde, no el vínculo: **entre las 14:13 y las 16:26 no entró
+ninguna respuesta**, y por eso las tres lecturas seguidas devolvían lo mismo. Sandra veía 8
+en el formulario y ahí sigue la diferencia sin explicar, pero la hoja ya está recibiendo.
+
+**Regla:** que una hoja no cambie en una hora no prueba que el vínculo esté roto. Antes de
+diagnosticar, mirar si simplemente no hubo respuestas nuevas.
+
+### Las cuatro respuestas
+
+| Área | Sesiones | ¿Sirve? | Ritmo | Ahorro |
+|---|---|---|---|---|
+| Servicios Sociales | 4 o 5 | **10** | Adecuado | Entre 2 y 5 h |
+| Jurídica | 4 o 5 | **9** | Muy rápido | Entre 30 min y 2 h |
+| Mercadeo | 2 o 3 | 5 | Adecuado | Todavía no lo noto |
+| Mercadeo | 2 o 3 | 3 | Muy lento | Todavía no lo noto |
+
+### Los tres hallazgos que ya se sostienen
+
+**1. Los cuatro piden tiempo.** La pregunta abierta del final tuvo cuatro respuestas y las
+cuatro hablan de tiempo o de horario. Ninguna pidió otro tema, otro nivel ni otra
+herramienta.
+
+**2. La pregunta de sesiones que agregó Sandra funcionó de inmediato.** Sin ella, el 3 de
+Mercadeo se leería como «el programa no sirve». Con ella se lee como «van por la segunda
+sesión». Es exactamente el caso que ella quería poder distinguir.
+
+**3. El ritmo se percibe al revés según el avance.** Mercadeo con 2 o 3 sesiones dice «muy
+lento», Jurídica con 4 o 5 dice «muy rápido». Mismo programa. Y en lo único en que los cuatro
+coinciden exacto es en la profundidad técnica: los cuatro dicen «en el punto».
+
+**La confianza subió en los cuatro y no bajó en ninguno.** El salto mayor es Jurídica, de 3 a
+9, la misma área que montó el primer agente del programa.
+
+### Para Sandra
+
+**Calendly.** Servicios Sociales pide «tener en cuenta el horario laboral para cuadrar las
+horas de agenda». Se ajusta en la configuración y puede explicar parte de las áreas que no
+toman fecha.
+
+**Jurídica pide por escrito la compra del plan Pro.** Es la primera petición del propio
+cliente, y conecta con la decisión de octubre sobre licencias.
+
+**Con 4 de 51 no se saca ningún promedio**, y el tablero lo dice en el primer bloque. Se
+actualiza mañana cuando entren los cuatro canales que faltan.
+
 ## 📩 8 sep · 17:09 · DM respondido a Manuel José, de Mercadeo
 
 **Escribió por privado a las 16:24: «hola sandra buena tarde».** Sin contenido, solo el
