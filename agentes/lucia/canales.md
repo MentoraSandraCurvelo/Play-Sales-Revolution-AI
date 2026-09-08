@@ -42,7 +42,9 @@ resultado — ese es el camino que sirve.
 | Cumplimiento | `#cumplimiento` | `C0BRMUV71UJ` |
 | Todo el equipo | `#todo-iamteam` | `C0BN3KV3804` |
 
-Faltan Tesorería y Crédito: no han tenido mensajes con los términos buscados. Se
+Tesorería y Crédito **sí tienen canal** — se localizaron el 7 de septiembre buscando
+por contenido y no por nombre: `#tesoreriaa` (`C0BPNSNNGLT`, con doble a) y `#credito`
+(`C0BPT65MLNA`). El error anterior venía de buscar el nombre exacto. Se
 completan cuando aparezcan.
 
 Los nombres de canal que están sin ID son los que se usan en el tablero; si alguno no

@@ -1,0 +1,620 @@
+<title>Corte Comfacesar · Agosto</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+
+<style>
+:root{
+  --rojo:#B71C1C;
+  --rojo-suave:#FBEEEE;
+  --alto:#BF360C;
+  --alto-suave:#FBECE6;
+  --medio:#A98105;
+  --medio-suave:#FAF3DF;
+  --verde:#00897B;
+  --verde-suave:#E4F3F1;
+  --tinta:#1A1614;
+  --tinta-2:#4A423F;
+  --tinta-3:#7C7370;
+  --fondo:#FAF8F7;
+  --papel:#FFFFFF;
+  --papel-2:#F5F2F1;
+  --linea:#E4DEDC;
+  --linea-suave:#EFEAE8;
+  --barra-vacia:#E8E2E0;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --rojo:#E76060; --rojo-suave:#2E1C1B;
+    --alto:#EC6C3C; --alto-suave:#2D1D17;
+    --medio:#DCB233; --medio-suave:#2B2413;
+    --verde:#3FCBAE; --verde-suave:#142825;
+    --tinta:#F3EEEC; --tinta-2:#C3B9B5; --tinta-3:#8B807C;
+    --fondo:#151110; --papel:#1E1917; --papel-2:#262020;
+    --linea:#332B29; --linea-suave:#2A2322; --barra-vacia:#332B29;
+  }
+}
+:root[data-theme="dark"]{
+  --rojo:#E76060; --rojo-suave:#2E1C1B;
+  --alto:#EC6C3C; --alto-suave:#2D1D17;
+  --medio:#DCB233; --medio-suave:#2B2413;
+  --verde:#3FCBAE; --verde-suave:#142825;
+  --tinta:#F3EEEC; --tinta-2:#C3B9B5; --tinta-3:#8B807C;
+  --fondo:#151110; --papel:#1E1917; --papel-2:#262020;
+  --linea:#332B29; --linea-suave:#2A2322; --barra-vacia:#332B29;
+}
+
+*{box-sizing:border-box;}
+body{
+  margin:0;background:var(--fondo);color:var(--tinta);
+  font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;
+}
+.hoja{max-width:760px;margin:0 auto;padding:0 20px 72px;}
+h1,h2,h3{font-family:Caladea,Cambria,Georgia,serif;margin:0;text-wrap:balance;}
+
+/* Cabecera */
+.cabecera{background:var(--rojo);color:#fff;padding:32px 24px 34px;}
+.cab-in{max-width:760px;margin:0 auto;}
+.marca{display:flex;align-items:center;gap:9px;margin-bottom:18px;}
+.anillo{width:12px;height:12px;border-radius:50%;border:3px solid #fff;flex:none;}
+.marca span{font-family:Caladea,Cambria,Georgia,serif;font-weight:700;font-size:15px;letter-spacing:.02em;}
+.kicker{font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;opacity:.9;margin-bottom:10px;}
+.cabecera h1{font-size:clamp(26px,6vw,38px);line-height:1.12;margin-bottom:12px;}
+.para{font-style:italic;font-size:14.5px;opacity:.95;line-height:1.5;}
+
+/* Cifras */
+.cifras{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+  gap:1px;background:var(--linea);border:1px solid var(--linea);
+  border-radius:3px;overflow:hidden;margin:-22px 0 36px;box-shadow:0 6px 24px -14px rgba(0,0,0,.3);
+}
+.cifra{background:var(--papel);padding:16px 18px 14px;}
+.cifra .n{
+  font-family:Caladea,Cambria,Georgia,serif;font-weight:700;font-size:30px;
+  line-height:1;color:var(--rojo);margin-bottom:5px;font-variant-numeric:tabular-nums;
+}
+.cifra .et{font-size:12.5px;font-weight:600;margin-bottom:2px;}
+.cifra .de{font-size:11.5px;color:var(--tinta-3);line-height:1.35;}
+
+/* Secciones */
+section{margin-bottom:40px;}
+h2{
+  font-size:15px;letter-spacing:.05em;color:var(--rojo);text-transform:uppercase;
+  padding-bottom:8px;border-bottom:1.5px solid var(--rojo);margin-bottom:18px;
+}
+h2 .n{font-family:"IBM Plex Sans",sans-serif;font-weight:600;margin-right:9px;opacity:.65;}
+.parrafo{color:var(--tinta-2);font-size:16px;margin:0 0 16px;}
+.parrafo strong{color:var(--tinta);font-weight:600;}
+
+/* Tabla de resultados */
+.tabla-env{overflow-x:auto;border:1px solid var(--linea);border-radius:3px;background:var(--papel);}
+table{width:100%;border-collapse:collapse;font-size:14px;}
+th{
+  text-align:left;font-size:11px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--tinta-3);background:var(--papel-2);padding:10px 14px;
+  border-bottom:1px solid var(--linea);white-space:nowrap;
+}
+td{padding:11px 14px;border-bottom:1px solid var(--linea-suave);vertical-align:top;}
+tbody tr:last-child td{border-bottom:0;}
+td.antes{color:var(--tinta-3);text-decoration:line-through;white-space:nowrap;font-variant-numeric:tabular-nums;}
+td.ahora{font-weight:600;color:var(--alto);white-space:nowrap;font-variant-numeric:tabular-nums;}
+td.area-c{font-weight:600;}
+
+/* Áreas */
+.area{
+  display:grid;grid-template-columns:1fr auto;gap:4px 14px;
+  padding:12px 0;border-bottom:1px solid var(--linea-suave);
+}
+.area:last-child{border-bottom:0;}
+.area .nombre{font-weight:600;font-size:15px;}
+.area .ses{
+  font-family:Caladea,Cambria,Georgia,serif;font-weight:700;font-size:19px;
+  color:var(--rojo);text-align:right;line-height:1;align-self:center;
+}
+.area .pista{grid-column:1/-1;display:flex;align-items:center;gap:12px;}
+.area .riel{flex:1;height:7px;background:var(--barra-vacia);border-radius:1px;overflow:hidden;}
+.area .lleno{display:block;height:7px;background:var(--rojo);}
+.area .estado{font-size:12.5px;color:var(--tinta-3);flex:none;max-width:52%;text-align:right;}
+
+/* Agenda */
+.dia{margin-bottom:14px;border:1px solid var(--linea);border-radius:3px;overflow:hidden;}
+.dia-cab{
+  background:var(--papel-2);padding:10px 16px;font-family:Caladea,Cambria,Georgia,serif;
+  font-weight:700;font-size:14.5px;display:flex;justify-content:space-between;
+  align-items:baseline;gap:10px;border-bottom:1px solid var(--linea);
+}
+.dia-cab .cuantas{font-family:"IBM Plex Sans",sans-serif;font-size:12px;font-weight:500;color:var(--tinta-3);}
+.cita{
+  display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline;
+  padding:10px 16px;border-bottom:1px solid var(--linea-suave);background:var(--papel);font-size:14.5px;
+}
+.cita:last-child{border-bottom:0;}
+.cita .hora{font-weight:600;color:var(--rojo);flex:none;min-width:76px;font-variant-numeric:tabular-nums;}
+.cita .area-n{font-weight:600;}
+.cita .tipo{
+  font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;
+  padding:2px 8px;border-radius:2px;background:var(--papel-2);color:var(--tinta-3);
+}
+.cita .tipo.ind{background:var(--rojo-suave);color:var(--rojo);}
+.cita .quien{width:100%;font-size:13px;color:var(--tinta-3);padding-left:88px;}
+
+/* Alertas */
+.alerta{margin-bottom:16px;border-radius:3px;overflow:hidden;border:1px solid var(--linea);}
+.alerta .titulo{padding:11px 16px;color:#fff;font-weight:600;font-size:15px;}
+.alerta.critica .titulo{background:var(--rojo);}
+.alerta.alta .titulo{background:var(--alto);}
+.alerta.media .titulo{background:var(--medio);}
+.alerta.baja .titulo{background:var(--verde);}
+.alerta.opp .titulo{background:#1A1A1A;}
+.alerta .cuerpo{padding:14px 16px;background:var(--papel);font-size:15px;color:var(--tinta-2);}
+.alerta .cuerpo p{margin:0 0 10px;}
+.alerta .cuerpo p:last-child{margin-bottom:0;}
+.alerta .cuerpo strong{color:var(--tinta);font-weight:600;}
+.alerta .quien{
+  margin-top:10px;padding-top:10px;border-top:1px solid var(--linea-suave);
+  font-size:13px;color:var(--tinta-3);
+}
+.alerta .quien b{color:var(--tinta-2);}
+.alerta .donde{
+  display:block;margin-top:-4px;margin-bottom:10px;
+  font-size:12px;color:var(--tinta-3);letter-spacing:.02em;
+}
+
+/* Cita textual */
+.textual{
+  font-family:Caladea,Cambria,Georgia,serif;font-style:italic;font-size:18px;
+  line-height:1.4;color:var(--tinta);margin:0 0 12px;text-wrap:balance;
+}
+
+/* Sin arrancar */
+.fria{
+  display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;
+  padding:11px 0;border-bottom:1px solid var(--linea-suave);font-size:15px;
+}
+.fria:last-child{border-bottom:0;}
+.fria .nom{font-weight:600;min-width:190px;}
+.fria .sit{color:var(--tinta-3);font-size:13.5px;}
+
+/* Estado */
+.marca-estado{
+  font-size:11px;font-weight:600;letter-spacing:.04em;
+  padding:2px 8px;border-radius:2px;white-space:nowrap;
+}
+.marca-estado.si{background:var(--verde-suave);color:var(--verde);}
+.marca-estado.no{background:var(--alto-suave);color:var(--alto);}
+.marca-estado.ojo{background:var(--medio-suave);color:var(--medio);}
+
+/* Notas */
+ol.notas{margin:0;padding-left:22px;color:var(--tinta-2);font-size:15px;}
+ol.notas li{margin-bottom:9px;padding-left:4px;}
+
+footer{
+  margin-top:44px;padding-top:20px;border-top:1px solid var(--linea);
+  font-size:13px;color:var(--tinta-3);display:flex;gap:8px 16px;flex-wrap:wrap;align-items:center;
+}
+footer .anillo{width:8px;height:8px;border-width:2px;border-color:var(--rojo);}
+
+@media (max-width:520px){
+  .cita .quien{padding-left:0;}
+  .area .estado{max-width:100%;text-align:left;}
+  .area .pista{flex-wrap:wrap;}
+  .area .riel{min-width:100%;}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;}}
+</style>
+
+<div class="cabecera">
+  <div class="cab-in">
+    <div class="marca"><span class="anillo"></span><span>IAM™ INTELLIGENCE</span></div>
+    <div class="kicker">Reporte de corte · Comfacesar 2026</div>
+    <h1>Dónde va el programa</h1>
+    <p class="para">Corte al 8 de septiembre de 2026 · Para María Elvira Marulanda, contraparte del proyecto</p>
+  </div>
+</div>
+
+<div class="hoja">
+
+  <div class="cifras">
+    <div class="cifra"><div class="n">53</div><div class="et">Sesiones ejecutadas</div><div class="de">Del 11 de agosto al 7 de septiembre</div></div>
+    <div class="cifra"><div class="n">18</div><div class="et">Áreas activas</div><div class="de">De 21 en el alcance</div></div>
+    <div class="cifra"><div class="n">91%</div><div class="et">Asistencia acumulada</div><div class="de">45 sesiones medidas · 51 colaboradores</div></div>
+    <div class="cifra"><div class="n">9</div><div class="et">Procesos con ahorro medido</div><div class="de">Verificados en sesión con el equipo</div></div>
+    <div class="cifra"><div class="n">10</div><div class="et">Áreas con bloqueo de TI</div><div class="de">Restricciones de sus propios equipos</div></div>
+    <div class="cifra"><div class="n">7</div><div class="et">Semanas restantes</div><div class="de">El cierre es el 30 de octubre</div></div>
+  </div>
+
+  <section>
+    <h2><span class="n">01</span>El resumen</h2>
+    <p class="parrafo">
+      Del corte anterior a hoy el programa pasó de treinta y siete a <strong>cincuenta y tres sesiones</strong>,
+      con dieciocho de las veintiuna áreas y una asistencia acumulada del <strong>91%</strong>. Y cambió de
+      naturaleza: ya no se mide en sesiones dictadas sino en procesos que dejaron de hacerse a mano.
+      <strong>Nueve procesos tienen hoy su tiempo antes y después medido</strong> por la propia persona que
+      los ejecuta, sobre datos reales del área.
+    </p>
+    <p class="parrafo">
+      El riesgo del corte cambió también. En agosto era la cola de áreas sin arrancar; hoy son
+      <strong>las restricciones de los equipos de trabajo</strong>. En diez de las áreas con sesión
+      aparecieron bloqueos —instalaciones que piden una contraseña de administrador, carpetas cerradas,
+      captura de pantalla deshabilitada— que ninguna persona del programa puede resolver por su cuenta.
+      Y no están frenando a las áreas rezagadas: están frenando a las que van adelante.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="n">02</span>Lo que ya se puede medir</h2>
+    <p class="parrafo">
+      Nueve procesos con tiempo antes y después, tomado en sesión. No son estimaciones de la mentoría:
+      los midió quien hace el trabajo, sobre sus propios archivos.
+    </p>
+    <div class="tabla-env">
+      <table>
+        <thead>
+          <tr><th>Área</th><th>Proceso</th><th>Antes</th><th>Ahora</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="area-c">Sub. Admin. y Financiera</td><td>Prevalidación precontractual de proveedores</td><td class="antes">480 min/día</td><td class="ahora">15 min/día</td></tr>
+          <tr><td class="area-c">Contabilidad</td><td>Reporte mensual de anticipos</td><td class="antes">240 min/mes</td><td class="ahora">10 min/mes</td></tr>
+          <tr><td class="area-c">Vivienda</td><td>Análisis de un informe de interventoría</td><td class="antes">240 min</td><td class="ahora">30 min</td></tr>
+          <tr><td class="area-c">Servicios Sociales</td><td>Presentación de MMI para junta directiva</td><td class="antes">240 min</td><td class="ahora">Revisión</td></tr>
+          <tr><td class="area-c">Agencia de Empleo</td><td>Filtro de hojas de vida por vacante</td><td class="antes">22 min</td><td class="ahora">2 min</td></tr>
+          <tr><td class="area-c">Mercadeo</td><td>Tablero de 710 leads de turismo</td><td class="antes">60 min</td><td class="ahora">15 min</td></tr>
+          <tr><td class="area-c">Jurídica</td><td>Requisitos legales por tipo de contrato</td><td class="antes">30–60 min</td><td class="ahora">3–5 min</td></tr>
+          <tr><td class="area-c">Jurídica</td><td>Oficio quincenal</td><td class="antes">30 min</td><td class="ahora">4 min</td></tr>
+          <tr><td class="area-c">Subsidio</td><td>Reporte de tipo de aportante</td><td class="antes">30 min</td><td class="ahora">10 min</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="parrafo" style="margin-top:16px">
+      El de Vivienda conviene leerlo completo: son <strong>37 horas al mes</strong> sobre once proyectos.
+      Y el de la Sub. Administrativa y Financiera son <strong>465 minutos recuperados cada día</strong> en
+      un solo proceso — el mayor ahorro registrado hasta hoy en el programa.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="n">03</span>Avance por área</h2>
+
+    <div class="area"><span class="nombre">Servicios Sociales</span><span class="ses">6</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:100%"></span></span><span class="estado">Aprobación de facturas mapeada</span></span></div>
+    <div class="area"><span class="nombre">Jurídica</span><span class="ses">5</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:83%"></span></span><span class="estado">Primer agente del programa</span></span></div>
+    <div class="area"><span class="nombre">Contabilidad</span><span class="ses">5</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:83%"></span></span><span class="estado">Primer comando del programa</span></span></div>
+    <div class="area"><span class="nombre">Comunicaciones</span><span class="ses">4</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:67%"></span></span><span class="estado">Pieza completa desde carpeta de marca</span></span></div>
+    <div class="area"><span class="nombre">Agencia de Empleo</span><span class="ses">4</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:67%"></span></span><span class="estado">Filtro de hojas de vida funcionando</span></span></div>
+    <div class="area"><span class="nombre">Mercadeo</span><span class="ses">4</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:67%"></span></span><span class="estado">En sesiones individuales</span></span></div>
+    <div class="area"><span class="nombre">Vivienda</span><span class="ses">3</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:50%"></span></span><span class="estado">Informes de interventoría · sin fecha</span></span></div>
+    <div class="area"><span class="nombre">Sub. Admin. y Financiera</span><span class="ses">3</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:50%"></span></span><span class="estado">El mayor ahorro medido · bloqueada por TI</span></span></div>
+    <div class="area"><span class="nombre">Educación</span><span class="ses">3</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:50%"></span></span><span class="estado">Dos sesiones seguidas incompleta</span></span></div>
+    <div class="area"><span class="nombre">Talento Humano</span><span class="ses">2</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:33%"></span></span><span class="estado">Reporte poblacional · sin fecha</span></span></div>
+    <div class="area"><span class="nombre">Sub. Operativa y Comercial</span><span class="ses">2</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:33%"></span></span><span class="estado">Revisión de costeos operando sola</span></span></div>
+    <div class="area"><span class="nombre">Planeación</span><span class="ses">2</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:33%"></span></span><span class="estado">Primera habilidad del programa</span></span></div>
+    <div class="area"><span class="nombre">Gerencia Financiera</span><span class="ses">2</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:33%"></span></span><span class="estado">Balance de prueba · sin fecha</span></span></div>
+    <div class="area"><span class="nombre">Tecnología</span><span class="ses">2</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:33%"></span></span><span class="estado">Sesión 3 hoy</span></span></div>
+    <div class="area"><span class="nombre">Subsidio</span><span class="ses">2</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:33%"></span></span><span class="estado">Sesión hoy</span></span></div>
+    <div class="area"><span class="nombre">Cumplimiento</span><span class="ses">1</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:17%"></span></span><span class="estado">Canceló la S2 · sin fecha nueva</span></span></div>
+    <div class="area"><span class="nombre">IPS</span><span class="ses">1</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:17%"></span></span><span class="estado">Sesión 2 el miércoles</span></span></div>
+    <div class="area"><span class="nombre">Tesorería</span><span class="ses">1</span>
+      <span class="pista"><span class="riel"><span class="lleno" style="width:17%"></span></span><span class="estado">Sesión 2 el miércoles · vuelve tras 14 días</span></span></div>
+  </section>
+
+  <section>
+    <h2><span class="n">04</span>Lo que está frenando el avance: Tecnología</h2>
+    <p class="parrafo">
+      Este es el punto central de este corte. En diez de las áreas con sesión aparecieron restricciones de
+      los computadores que <strong>no dependen del participante ni de la mentoría</strong>. Cada una está
+      registrada en su acta, con fecha y con el efecto que tuvo sobre la hora de trabajo.
+    </p>
+
+    <div class="alerta alta">
+      <div class="titulo">La instalación pide una contraseña de sistemas que nadie en las áreas tiene</div>
+      <div class="cuerpo">
+        <span class="donde">Jurídica · Planeación · Sub. Financiera · Gerencia Financiera</span>
+        <p>Al instalar la aplicación de escritorio o el entorno de agentes, el equipo pide una credencial
+        de administrador. El participante no la tiene y la instalación se detiene ahí.</p>
+        <p><strong>Por qué importa:</strong> la aplicación de escritorio es la que permite que la herramienta
+        lea una carpeta del computador en vez de que la persona suba los archivos uno por uno. Y el entorno
+        de agentes es la segunda mitad del programa — la parte en la que el proceso corre solo en vez de
+        esperar una instrucción. Sin ese permiso las áreas se quedan en la primera mitad, por más ejercicios
+        que hagan.</p>
+        <p><strong>Un dato que vale la pena mirar:</strong> el 7 de septiembre esa misma instalación falló
+        en un área y se completó en otra. No es una política pareja aplicada a toda la entidad: es una
+        configuración desigual entre equipos.</p>
+        <div class="quien"><b>Responsable:</b> Comfacesar — Tecnología · <b>Plazo:</b> esta semana</div>
+      </div>
+    </div>
+
+    <div class="alerta alta">
+      <div class="titulo">El sistema bloquea las carpetas donde está la información</div>
+      <div class="cuerpo">
+        <span class="donde">Sub. Administrativa y Financiera · 7 de septiembre</span>
+        <p>La herramienta reportó que el sistema le impide entrar a <strong>Documentos</strong>, a
+        <strong>OneDrive</strong> y a las <strong>unidades de digitalización</strong>. La prueba de búsqueda
+        se lanzó correctamente y no encontró nada, porque las carpetas donde vive la información están
+        cerradas.</p>
+        <p><strong>Por qué importa:</strong> todo el método del programa consiste en que la herramienta lea
+        las carpetas de trabajo reales. Si están bloqueadas el método no aplica, y el área vuelve a subir
+        archivos a mano — que es exactamente lo que se está eliminando.</p>
+        <div class="quien"><b>Responsable:</b> Comfacesar — Tecnología · <b>Plazo:</b> 48 horas</div>
+      </div>
+    </div>
+
+    <div class="alerta alta">
+      <div class="titulo">No se puede tomar captura de pantalla</div>
+      <div class="cuerpo">
+        <span class="donde">Sub. Administrativa y Financiera · 7 de septiembre</span>
+        <p>El equipo no permite capturar ni pegar un pantallazo. Parece menor y no lo es.</p>
+        <p><strong>Por qué importa:</strong> capturar el error y devolvérselo a la herramienta es
+        <em>el</em> método que el programa enseña para corregir un resultado — está documentado como técnica
+        desde la Sesión 3 de Contabilidad, y es lo que permite que la persona resuelva sola entre sesiones.
+        Bloquear la captura no bloquea una función: bloquea la forma de corregir.</p>
+        <div class="quien"><b>Responsable:</b> Comfacesar — Tecnología · <b>Plazo:</b> 48 horas</div>
+      </div>
+    </div>
+
+    <div class="alerta alta">
+      <div class="titulo">Equipos que no dan para lo que se está enseñando</div>
+      <div class="cuerpo">
+        <span class="donde">Planeación · Contabilidad · Comunicaciones</span>
+        <p>En <strong>Planeación</strong>, el 3 de septiembre: un puesto sin micrófono tuvo que participar
+        desde el celular mientras editaba en el computador, y otro no pudo compartir pantalla y cedió su
+        turno. Son computadores de mesa.</p>
+        <p>En <strong>Contabilidad</strong> quedó registrado que el equipo no da permisos de micrófono, y el
+        efecto medido fue directo: cada instrucción larga se escribe a mano y la sesión rinde la mitad.</p>
+        <p>En <strong>Comunicaciones</strong>, el 4 de septiembre, la sesión se cayó tres veces entre las
+        9:17 y las 9:28 en el mismo equipo. Se perdió la primera parte del bloque de diseño, que era la que
+        más le servía a ese puesto.</p>
+        <p><strong>Ya está planteado:</strong> en Planeación se propuso al líder del área, con la formulación
+        presupuestal en curso, incluir el cambio de equipos y el paso a portátiles.</p>
+        <div class="quien"><b>Responsable:</b> Comfacesar — TI y líderes de área · <b>Plazo:</b> formulación presupuestal</div>
+      </div>
+    </div>
+
+    <div class="alerta media">
+      <div class="titulo">La versión de Office no permite instalar el complemento</div>
+      <div class="cuerpo">
+        <span class="donde">Gerencia Financiera · 3 de septiembre</span>
+        <p>La tienda de complementos de Office no muestra Claude en ese equipo. No es un problema de la
+        herramienta: es la versión de Office instalada.</p>
+        <p><strong>Por qué importa:</strong> con el complemento el trabajo se hace dentro de la hoja de
+        cálculo. Sin él, cada vuelta obliga a descargar el archivo, subirlo y volverlo a descargar. En otras
+        dos áreas del programa el mismo complemento se instaló sin problema — otra vez, un parque de equipos
+        desigual.</p>
+        <div class="quien"><b>Responsable:</b> Comfacesar — Tecnología · <b>Plazo:</b> antes de la próxima sesión</div>
+      </div>
+    </div>
+
+    <div class="alerta baja">
+      <div class="titulo">La vinculación del celular con el computador no se activa</div>
+      <div class="cuerpo">
+        <span class="donde">Contabilidad · Jurídica</span>
+        <p>La opción no aparece en los equipos, y en dos puestos se intentó sin lograr completar la
+        vinculación. Puede estar relacionado con las restricciones de seguridad sobre los computadores;
+        queda pendiente de revisar. Es lo que permitiría lanzar una consulta desde fuera de la oficina.</p>
+        <div class="quien"><b>Responsable:</b> Comfacesar — Tecnología · <b>Plazo:</b> por revisar</div>
+      </div>
+    </div>
+
+    <div class="alerta critica">
+      <div class="titulo">El costo de esto, dicho con el caso más claro</div>
+      <div class="cuerpo">
+        <p>El puesto que midió el mayor ahorro de todo el programa —480 a 15 minutos diarios,
+        <strong>465 minutos recuperados cada día</strong>— es el mismo que acumuló <strong>tres bloqueos de
+        Tecnología en una sola hora</strong> el 7 de septiembre. Su siguiente paso, el agente que haría el
+        ciclo completo del requerimiento, está diseñado y quedó detenido en la instalación.</p>
+        <p>Lo que frena a esa área ya no es lo que su gente puede aprender, sino lo que su equipo de trabajo
+        le permite instalar y abrir. Y quedan siete semanas.</p>
+        <div class="quien"><b>Lo que se pide:</b> un responsable de Tecnología con nombre, asignado al programa — no una mesa de ayuda, sino alguien que entre a una sesión y vea el bloqueo en vivo · <b>Plazo:</b> miércoles 9</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="n">05</span>Cuatro áreas pidieron lo mismo, por separado</h2>
+    <p class="parrafo">
+      Sin hablarse entre ellas y en sesiones de semanas distintas, cuatro áreas llegaron a la misma
+      conclusión técnica: que la información llegue sola desde el sistema en vez de que alguien la descargue
+      y la suba. Eso se hace con una <strong>conexión por API</strong>, y es una autorización de Tecnología.
+    </p>
+    <div class="tabla-env">
+      <table>
+        <thead><tr><th>Área</th><th>A qué sistema</th><th>Para qué</th></tr></thead>
+        <tbody>
+          <tr><td class="area-c">Contabilidad</td><td>Software contable</td><td>Que el tablero se alimente solo, sin cargar archivos</td></tr>
+          <tr><td class="area-c">Servicios Sociales</td><td>Módulo de facturas del sistema</td><td>Aprobación de facturas con criterio automatizado</td></tr>
+          <tr><td class="area-c">Sub. Operativa y Comercial</td><td>Sistema de información</td><td>Quitar el tramo manual entre el sistema y el análisis</td></tr>
+          <tr><td class="area-c">Talento Humano</td><td>Software de nómina</td><td>Un tablero que no se reconstruya cada mes</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="parrafo" style="margin-top:16px">
+      <strong>Es una sola conversación técnica, no cuatro.</strong> La conexión se diseña una vez y sirve
+      para varias áreas. Hay además un caso en Jurídica: el tablero contractual que usa hoy el área lo
+      desarrolla y lo mantiene un contratista de sistemas, así que el área no puede modificarlo sin
+      solicitarlo — que es justamente lo que un tablero propio resuelve.
+    </p>
+    <p class="parrafo">
+      <strong>Y hay que empezarla ya.</strong> Una autorización de este tipo toma tiempo y el programa
+      cierra el 30 de octubre. Si la conversación arranca en octubre, no alcanza.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="n">06</span>La auditoría de uso y el licenciamiento</h2>
+    <p class="parrafo">
+      La dirección pidió poder auditar el uso de la herramienta. La respuesta corta es que
+      <strong>sí se puede</strong>, que es una capacidad oficial y documentada, y que no hay que construir
+      nada extraño para tenerla. La respuesta larga tiene una condición que conviene poner primero.
+    </p>
+
+    <div class="alerta critica">
+      <div class="titulo">La condición previa, en las palabras de la documentación oficial</div>
+      <div class="cuerpo">
+        <p class="textual">«La API de administración no está disponible para cuentas individuales.»</p>
+        <p>Mientras las licencias del programa estén compradas con correos personales —hay al menos dos
+        casos documentados— la auditoría de uso que la dirección pide <strong>no se puede construir</strong>.
+        No por una limitación técnica, sino porque la analítica de uso es una función de la organización, y
+        hoy no hay una organización: hay licencias sueltas.</p>
+        <div class="quien"><b>Lo que se pide:</b> migrar las licencias a los correos corporativos · <b>Plazo:</b> antes del cierre de septiembre</div>
+      </div>
+    </div>
+
+    <p class="parrafo">
+      <strong>Qué entrega una vez exista la organización:</strong> actividad por persona y por día, usuarios
+      activos diarios, semanales y mensuales, asientos asignados e invitaciones pendientes, y la adopción de
+      proyectos, habilidades y conectores. Es exactamente el tablero de adopción que la dirección quiere ver.
+      La habilita únicamente el propietario principal de la organización. Y existe una salida sin programar
+      nada: el mismo tablero de analítica está dentro del producto, así que para la primera lectura puede
+      bastar desde el día uno.
+    </p>
+
+    <div class="tabla-env">
+      <table>
+        <thead><tr><th>Punto</th><th>Estado</th><th>Qué significa para Comfacesar</th></tr></thead>
+        <tbody>
+          <tr><td>Administración central y analítica de uso</td><td><span class="marca-estado si">Confirmado</span></td><td>Solo con plan corporativo</td></tr>
+          <tr><td>Licencias en correos personales</td><td><span class="marca-estado no">No sirve</span></td><td>No se pueden administrar ni auditar</td></tr>
+          <tr><td>Reportes de costo por persona</td><td><span class="marca-estado ojo">Con matiz</span></td><td>Completos en planes por consumo; por asiento, solo créditos de uso</td></tr>
+          <tr><td>Precio por asiento y mínimos</td><td><span class="marca-estado ojo">Pendiente</span></td><td>Por confirmar con el equipo comercial de Anthropic</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="parrafo" style="margin-top:16px">
+      No se incluyen cifras de precio por asiento porque no se pudieron verificar en la fuente oficial.
+      Circulan cifras de terceros y no corresponde presentarlas como confirmadas en una reunión de decisión.
+      El camino correcto para una compra del tamaño de este programa es pedirlas directamente al equipo
+      comercial de Anthropic.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="n">07</span>Lo que necesita atención</h2>
+
+    <div class="alerta critica">
+      <div class="titulo">Dos áreas siguen sin arrancar y quedan siete semanas</div>
+      <div class="cuerpo">
+        <p>Crédito y Auditoría Interna no han tenido su primera sesión y han recibido tres mensajes cada una
+        sin respuesta. Ahí ya no hay un cuarto mensaje que sirva: hace falta una llamada desde la contraparte
+        del proyecto.</p>
+        <div class="quien"><b>Responsable:</b> María Elvira y los líderes de las dos áreas · <b>Plazo:</b> esta semana</div>
+      </div>
+    </div>
+
+    <div class="alerta alta">
+      <div class="titulo">Seis áreas con sesión reciente y sin la siguiente agendada</div>
+      <div class="cuerpo">
+        <p>Gerencia Financiera, Agencia de Empleo, Talento Humano, Sub. Operativa, Contabilidad y Planeación
+        tuvieron sesión hace poco y nadie ha tomado la próxima. No están paradas, pero es el punto donde el
+        programa se pierde sin que se note.</p>
+        <p>Y apareció una creencia que conviene desmontar: en dos áreas distintas, el mismo día, el equipo
+        creía que <strong>solo se podía agendar una sesión por semana</strong>. No es así — son las que cada
+        equipo pueda sostener.</p>
+        <div class="quien"><b>Responsable:</b> líderes de área · <b>Plazo:</b> esta semana</div>
+      </div>
+    </div>
+
+    <div class="alerta media">
+      <div class="titulo">Cumplimiento canceló y no ha tomado fecha nueva</div>
+      <div class="cuerpo">
+        <p>Es el área más nueva del programa, con una sola sesión. Pidió mover la S2 y todavía no reagenda.
+        Vale seguirla de cerca: sin la segunda sesión, lo configurado en la primera se enfría.</p>
+        <div class="quien"><b>Responsable:</b> líder del área · <b>Plazo:</b> esta semana</div>
+      </div>
+    </div>
+
+    <div class="alerta media">
+      <div class="titulo">Educación lleva dos sesiones consecutivas con media área</div>
+      <div class="cuerpo">
+        <p>Las dos últimas sesiones se trabajaron con una sola persona. Lo que se construye queda en ella, y
+        el cierre de octubre es por área, no por individuo.</p>
+        <p>Además quedó un riesgo del contenido: el plan de mejoramiento de la Superintendencia está montado,
+        pero sus actividades de respuesta están escritas de memoria, sin línea base ni indicador de
+        cumplimiento. <strong>Vence en noviembre.</strong></p>
+        <div class="quien"><b>Responsable:</b> líder del área · <b>Plazo:</b> próxima sesión</div>
+      </div>
+    </div>
+
+    <div class="alerta opp">
+      <div class="titulo">★ El programa cruzó al trabajo autónomo</div>
+      <div class="cuerpo">
+        <p>Tres hechos de la última semana marcan el cambio de fase. <strong>Jurídica construyó el primer
+        agente del programa</strong> — vigila los canales del área y reporta a mediodía— y montó un espacio
+        de trabajo propio para migrar a su equipo desde WhatsApp. <strong>Contabilidad creó el primer
+        comando</strong>, que empaqueta todo el proceso del reporte mensual. Y en <strong>Sub. Operativa</strong>
+        la revisión de costeos ya opera fuera de la sesión, sobre el correo real del área.</p>
+        <p>Son tres áreas construyendo sin la mentoría presente. Ese es el resultado que se presenta en
+        octubre.</p>
+        <div class="quien"><b>Responsable:</b> Sandra Curvelo y los líderes de área · <b>Plazo:</b> cierre de octubre</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="n">08</span>La semana</h2>
+
+    <div class="dia">
+      <div class="dia-cab"><span>Miércoles 9 de septiembre</span><span class="cuantas">6 sesiones · el día más cargado</span></div>
+      <div class="cita"><span class="hora">8:00 a.m.</span><span class="area-n">Sub. Admin. y Financiera</span><span class="tipo ind">Individual</span><span class="quien">Rafael Solano</span></div>
+      <div class="cita"><span class="hora">9:00 a.m.</span><span class="area-n">Tesorería</span><span class="tipo">Sesión 2</span><span class="quien">Vuelve tras catorce días</span></div>
+      <div class="cita"><span class="hora">10:00 a.m.</span><span class="area-n">Jurídica</span><span class="tipo">Sesión 6</span><span class="quien">Equipo completo</span></div>
+      <div class="cita"><span class="hora">11:00 a.m.</span><span class="area-n">IPS</span><span class="tipo">Sesión 2</span><span class="quien">Con su equipo</span></div>
+      <div class="cita"><span class="hora">3:00 p.m.</span><span class="area-n">Sub. Operativa y Comercial</span><span class="tipo">Sesión 3</span><span class="quien">Con Innovación</span></div>
+      <div class="cita"><span class="hora">4:00 p.m.</span><span class="area-n">Mercadeo</span><span class="tipo ind">Individual</span><span class="quien">Sesión 4</span></div>
+    </div>
+
+    <div class="dia">
+      <div class="dia-cab"><span>Jueves 10 de septiembre</span><span class="cuantas">1 sesión</span></div>
+      <div class="cita"><span class="hora">10:00 a.m.</span><span class="area-n">Agencia de Empleo</span><span class="tipo">Sesión</span><span class="quien">Con Fomento Empresarial</span></div>
+    </div>
+
+    <div class="dia">
+      <div class="dia-cab"><span>Viernes 11 de septiembre</span><span class="cuantas">2 sesiones</span></div>
+      <div class="cita"><span class="hora">11:00 a.m.</span><span class="area-n">Sub. Admin. y Financiera</span><span class="tipo ind">Individual</span><span class="quien">Rafael Solano</span></div>
+      <div class="cita"><span class="hora">2:00 p.m.</span><span class="area-n">Contabilidad</span><span class="tipo ind">Individual</span><span class="quien">Carlos Lozano</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="n">09</span>Áreas sin arrancar</h2>
+    <div class="fria"><span class="nom">Crédito</span><span class="sit">Canal creado · tres mensajes sin respuesta · sin sesión</span></div>
+    <div class="fria"><span class="nom">Auditoría Interna</span><span class="sit">Canal creado · tres mensajes sin respuesta · sin sesión</span></div>
+    <div class="fria"><span class="nom">Dirección Administrativa</span><span class="sit">Sin canal ni sesión</span></div>
+  </section>
+
+  <section>
+    <h2><span class="n">10</span>Notas del corte</h2>
+    <ol class="notas">
+      <li>El acumulado de 53 sesiones cuenta únicamente las de IAM™ Intelligence, verificadas contra el calendario. No incluye las sesiones de IAM™ Ambassadors ni el kick-off del 5 de agosto.</li>
+      <li>La asistencia del 91% se calculó sobre 45 de las 53 sesiones: las más recientes con el informe de asistencia de Teams, contando personas reales y descartando duplicados por reconexión; las demás sobre convocados y participantes activos del acta. La facilitadora queda fuera de ambos lados de la cuenta.</li>
+      <li>Los nueve ahorros de la sección 02 se midieron en sesión con la persona que ejecuta el proceso, sobre sus propios archivos. No se incluyen estimaciones ni proyecciones.</li>
+      <li>Los bloqueos de la sección 04 están tomados de las actas, con área y fecha. Se separan a propósito de lo que sí depende de las áreas: configuración incompleta, licencias en correos personales y restricciones de plataformas externas.</li>
+      <li>Cada sesión queda documentada con acta, informe de asistencia y grabación en el canal de Slack del área.</li>
+      <li>Quedan siete semanas. El cierre de octubre se prepara con lo que se documente en septiembre.</li>
+    </ol>
+  </section>
+
+  <footer>
+    <span class="anillo"></span>
+    <span>IAM™ Intelligence — Documento confidencial</span>
+    <span>Comfacesar · 8 de septiembre de 2026</span>
+    <span>Sandra Curvelo · Mentora IAM™</span>
+  </footer>
+
+</div>
