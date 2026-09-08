@@ -15,6 +15,43 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 💬 8 sep · 16:00 · Dos respuestas publicadas, a pedido de Sandra
+
+**Cupos de hoy en los dos canales: 2 de 2 tras estos mensajes.** Los dos ya llevaban la
+encuesta de las 8:00. Paso 0 hecho: sin reservas vigentes en el registro de Lucía y nada
+suyo en cola para hoy en ninguno de los dos.
+
+### `#ips` · a Danilo Pozo
+
+**Danilo le escribió a Sandra por WhatsApp**, no por Slack. Sandra pidió contestarle en el
+canal, decirle que está en reunión y redirigirlo, cordial.
+([mensaje](https://iamteamespacio.slack.com/archives/C0BPNT6UV8B/p1788901230747219))
+
+Se le recordó de paso su **S2 de mañana miércoles a las 11:00** con el equipo, y las dos
+condiciones de entrada: cuenta activa y un caso real del área.
+
+### `#cumplimiento` · a Saharay Díaz
+
+**Saharay escribió a las 15:35: «Hola quiero agendar una nueva sesion».**
+([mensaje](https://iamteamespacio.slack.com/archives/C0BRMUV71UJ/p1788901276360489))
+
+**Es la primera de las áreas calladas que pide fecha por su cuenta.** Cumplimiento sigue en
+la S1 del 26 de agosto y su S2 quedó cancelada el 3 de septiembre. Se le indicó el enlace
+fijado del canal, que tome cupo esta semana si lo hay, y las dos condiciones de entrada.
+
+**Ojo:** todavía no ha tomado fecha, solo dijo que quiere. Hasta que el evento no aparezca en
+Outlook, Cumplimiento sigue contando como área sin próxima sesión.
+
+### Lo demás que llegó hoy, sin acción
+
+**`#agencia-de-empleo`**, Lina María Rincón a las 15:03 y 15:04: «Hola Sandra, perfecto.
+Estamos a la espera» y «ok». Cierre de conversación, no pide nada.
+
+**DM de Liliany Gómez Zuleta a las 15:56:** «Hola! Sandra, cómo estás?». Es la de Sub.
+Administrativa y Financiera que tenía sesión hoy a las 4:00 p. m. **No se respondió**, queda
+consultado con Sandra: un saludo suelto por privado a minutos de su propia sesión no se
+redirige al canal sin saber qué necesita.
+
 ## ✅ 8 sep · 09:20 · Corrección, el acta de Tesorería S1 sí estaba en el canal
 
 **Sandra dudó del dato y tenía razón.** El tablero venía diciendo que el acta de Tesorería S1
