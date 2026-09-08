@@ -1,0 +1,235 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SUBSIDIO Y APORTES",
+  "area_completa": "",
+  "sesion_num": 3,
+  "fase": "Ejercicios Prácticos",
+  "fecha": "8 de septiembre de 2026",
+  "fecha_corta": "8 septiembre 2026",
+  "subtitulo_meta": "Avelino Romero y Carlos García · 8 de septiembre de 2026 · 10:00 a. m. · 55 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Subsidio y Aportes — Comfacesar"],
+    ["Sesión", "N° 3 — Los dos proyectos del área sobre datos reales, y el primer proceso medido"],
+    ["Fecha", "8 de septiembre de 2026"],
+    ["Hora inicio", "10:00 a. m. — Colombia"],
+    ["Duración de la sesión", "55 minutos (10:02 a. m. – 10:57 a. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams, los asistentes desde una sola sala"],
+    ["Correos Slack activados", "liquidacionsubsidio@comfacesar.com · actualizacion_datos@comfacesar.com"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "120 → 10", "etiqueta": "Minutos del cruce", "detalle": "El reporte de Registraduría, de dos horas a diez"},
+    {"valor": "2", "etiqueta": "Proyectos revisados", "detalle": "Sobre datos reales del área, no sobre ejemplos"},
+    {"valor": "0", "etiqueta": "Créditos al cerrar", "detalle": "La versión gratuita se agotó a mitad de sesión"},
+    {"valor": "5 min", "etiqueta": "Perdidos en audio", "detalle": "Tres equipos en una sala, con eco"},
+    {"valor": "3", "etiqueta": "Sesiones individuales", "detalle": "Lo acordado: cada quien agenda las suyas"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Avelino Andrés Romero", "cargo": "Liquidación de Subsidio — Comfacesar", "correo": "liquidacionsubsidio@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"},
+    {"nombre": "Carlos García", "cargo": "Actualización de Datos — Comfacesar", "correo": "actualizacion_datos@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 3. El área trajo dos procesos reales y eso es lo correcto; lo que limitó la hora fue el entorno — la versión gratuita, los equipos y la sala compartida.",
+  "riesgos": [
+    {
+      "titulo": "La versión gratuita detuvo el ejercicio a mitad de sesión",
+      "nivel": "ALTO",
+      "descripcion": "Trabajando el proyecto de cuota monetaria, el crédito se agotó y no se pudo seguir en ese puesto. Hubo que pasar a la pantalla del otro compañero para no perder la hora. No es un contratiempo aislado: es el techo de lo que el área puede hacer hoy, y va a repetirse en cada sesión mientras siga así.",
+      "responsable": "Comfacesar / Por definir"
+    },
+    {
+      "titulo": "El contexto del proyecto de cuota monetaria está débil",
+      "nivel": "ALTO",
+      "descripcion": "El método CREA está escrito, pero le falta lo esencial: de dónde sale la información, cómo se hace el proceso hoy y qué pasa cuando llega un archivo de cinco mil filas. Quedó dicho en sesión con la prueba más clara: «si yo soy la guía, con esta explicación me faltan datos para entenderlo». Sin ese contexto, cada consulta obliga a explicar el proceso otra vez.",
+      "responsable": "Avelino Romero / Antes de su individual"
+    },
+    {
+      "titulo": "El área agenda muy pocas sesiones",
+      "nivel": "ALTO",
+      "descripcion": "Es el área que menos espacios ha tomado y arrancó tarde. Quedan siete semanas y el cierre de octubre es por área. Se acordó pasar del formato grupal a sesiones individuales: si uno no puede, el otro no se atrasa.",
+      "responsable": "Los tres puestos / Esta semana"
+    },
+    {
+      "titulo": "La configuración personal está vacía",
+      "nivel": "MEDIO",
+      "descripcion": "El «acerca de ti» no está diligenciado, así que cada proyecto nuevo obliga a volver a explicar quién es, qué hace y para quién trabaja. Se escribe una sola vez y sirve para todo lo que venga después.",
+      "responsable": "Avelino Romero / Esta semana"
+    },
+    {
+      "titulo": "Los archivos no terminan de cargar",
+      "nivel": "MEDIO",
+      "descripcion": "Los dos puestos se toparon con el límite de carga: faltaron archivos por subir y un comprimido tardó varios minutos. En otra área del programa el mismo problema —catorce minutos para subir un comprimido— desapareció al conectar la carpeta del computador en vez de subir archivo por archivo. Esa función es de la versión paga.",
+      "responsable": "Subsidio y Aportes / Pendiente"
+    },
+    {
+      "titulo": "Tres equipos en una sala producen eco",
+      "nivel": "MEDIO",
+      "descripcion": "Los cinco primeros minutos se fueron silenciando micrófonos uno por uno. Los tres asistentes estaban juntos en una sala, cada uno con su computador conectado a la misma reunión. La regla queda escrita: una sola sesión con audio y el resto de equipos en silencio.",
+      "responsable": "Subsidio y Aportes / Resuelto en sesión"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Cada quien agenda sus sesiones individuales",
+      "descripcion": "Dos o tres para la próxima semana, por separado. Es la decisión de fondo de esta sesión: en grupal, el ritmo lo marca quien menos puede.",
+      "responsable": "Avelino, Carlos y el área",
+      "plazo": "Hoy mismo"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Reforzar el contexto del proyecto de cuota monetaria",
+      "descripcion": "Escribir de dónde sale la información, cómo se hace hoy el proceso y qué se espera del resultado. Con el contexto completo, la respuesta cambia de calidad sin tocar nada más.",
+      "responsable": "Avelino Romero",
+      "plazo": "Antes de su individual"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Responder las preguntas que la herramienta dejó abiertas",
+      "descripcion": "Quedaron tres sin contestar: qué hacer con los dos meses que solo tienen el resumen oficial y no el detallado, en qué formato se quiere la entrega y con qué alcance. Responderlas es el modelamiento — no es un trámite previo.",
+      "responsable": "Avelino Romero",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Corregir la instrucción del cruce y volver a pedirlo",
+      "descripcion": "El primer resultado dijo que no había coincidencia de cédulas, y sí las había: el archivo plano trae tipo y número de documento. Hay que decírselo con esas palabras, pedir la visualización que sirve y repetir hasta que salga.",
+      "responsable": "Carlos García",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Pasar del Excel al tablero",
+      "descripcion": "La misma información, con los mismos parámetros, montada en un HTML con filtros, segmentación por causal y el logo de Comfacesar. Es el paso que convierte el reporte en algo consultable.",
+      "responsable": "Carlos García",
+      "plazo": "Antes de la Sesión 4"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Completar la configuración personal",
+      "descripcion": "El «acerca de ti» con el cargo, los años en Comfacesar y el contexto real del puesto. Se hace una vez y evita repetir la presentación en cada proyecto.",
+      "responsable": "Avelino Romero",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "07",
+      "nivel": "MEDIO",
+      "titulo": "Contestar la encuesta del programa",
+      "descripcion": "Es anónima y sirve para ajustar las sesiones que quedan hasta el 30 de octubre. Toma dos minutos.",
+      "responsable": "Los tres puestos",
+      "plazo": "Esta semana"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · La liquidación de la cuota monetaria",
+      "duracion": "~20 min",
+      "objetivo": "Revisar el proyecto que Avelino construyó y corregir el método CREA sobre el caso real.",
+      "pasos": [
+        "Se abrió el proyecto de estadísticas de giro y se leyó el método CREA completo: contexto, rol, entrega y acción",
+        "El proceso: se liquida la cuota monetaria que la caja paga a los trabajadores que no superan cuatro salarios mínimos",
+        "Diagnóstico del contexto: dice qué se hace, pero no de dónde sale la información ni cómo se hace hoy — y ahí es donde la herramienta se queda corta",
+        "El rol sí quedó bien planteado: experto en analítica de bases de datos y asesor contable, con la prioridad puesta en que los datos cuadren en la conciliación",
+        "La herramienta revisó los archivos del proyecto y devolvió tres preguntas antes de calcular nada: qué hacer con dos meses que solo tienen resumen y no detallado, en qué formato entregar y con qué alcance",
+        "El criterio de la sesión: esas preguntas se contestan, no se ignoran. Contestarlas es el modelamiento",
+        "Al intentar subir los archivos que faltaban se topó el límite de carga, y poco después se agotó el crédito de la versión gratuita"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El cruce con la Registraduría",
+      "duracion": "~18 min",
+      "objetivo": "Revisar el proyecto de Carlos y medir el proceso real contra el tiempo que toma hoy.",
+      "pasos": [
+        "El proceso: se envía la base de datos completa de la caja y la Registraduría devuelve, por Core FTP del Ministerio de Protección Social, las causales por las que una persona deja de cumplir para el pago",
+        "Hoy es manual: el archivo plano pasa de bloc de notas a Excel y se filtra causal por causal — pérdida o suspensión de derechos políticos, cancelación por muerte y las demás",
+        "El primer resultado salió flojo: reportó cero coincidencias de cédula cuando el archivo sí las traía, en tipo y número de documento",
+        "La corrección no es técnica: se le dice con esas palabras que sí están, se pide la visualización que sirve —mapa de calor, colores, la segmentación real— y se repite",
+        "Medición tomada en sesión con Carlos: el filtrado y las anotaciones le toman hoy _dos horas_; con el proceso montado, alrededor de _diez minutos_",
+        "Siguiente paso acordado: sacar el resultado de Excel y montarlo en un tablero HTML con filtros, segmentación y el logo de Comfacesar",
+        "Y después: automatizar la notificación con una plantilla que cambie el nombre por destinatario. Carlos preguntó si puede salir por mensaje de texto cuando no hay correo — se puede, pero primero el tablero"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Lo que se abrió, y para qué sirve",
+      "duracion": "~15 min",
+      "objetivo": "Mostrar el entorno completo hacia el que va el área, y qué habilita cada pieza.",
+      "pasos": [
+        "_Habilidades_ — se crean una vez y se usan en todos los proyectos. Menú → Personalizar → Habilidades → Agregar → Crear con Claude, y la propia herramienta va preguntando para construirla",
+        "_Aplicación de escritorio y cowork_ — en vez de subir archivos uno por uno, se agrega la carpeta del computador y la herramienta lee de ahí",
+        "_Aplicación en el celular y despacho_ — el celular se conecta al escritorio y desde fuera de la oficina se lanza una consulta o se manda un correo. No toca nada personal del teléfono: la conexión es entre aplicaciones",
+        "_Claude Design_ — presentaciones, piezas interactivas y tableros con un nivel de edición que la versión gratuita no tiene",
+        "Quedó claro qué es teoría y qué es práctica: todo este bloque exige versión paga y por ahora quedó enunciado, no practicado",
+        "Se mostraron dos ejemplos construidos por otras áreas del programa esta misma semana: una página de kits escolares con simulador para junta directiva, y un mapa interactivo de población por municipio"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD MEDIDA · SESIÓN 3 · 8 septiembre 2026",
+      "titulo": "El cruce con la Registraduría",
+      "descripcion": "Hoy el archivo que devuelve la Registraduría se pasa a Excel y se filtra causal por causal a mano, con las anotaciones incluidas: dos horas cada vez. Con el proceso montado, alrededor de diez minutos. El resultado ya sale con la información que Carlos necesita para notificar; falta darle la forma correcta y automatizar el envío.",
+      "estado": "Funcionando en primera versión — falta modelar",
+      "proximo_paso": "Corregir la instrucción y montarlo en tablero",
+      "target": "Antes de la Sesión 4"
+    },
+    {
+      "encabezado": "OPORTUNIDAD PLANTEADA · SESIÓN 3 · 8 septiembre 2026",
+      "titulo": "La notificación a los beneficiarios, sin escribir correo por correo",
+      "descripcion": "Cuando el cruce identifica a quienes dejan de cumplir, hay que avisarles. Hoy se hace uno por uno, por correo, y por llamada cuando no hay dirección registrada. Con la plantilla parametrizada el envío sale masivo, cambiando el nombre en cada mensaje. Queda abierta la variante por mensaje de texto para quienes solo tienen teléfono.",
+      "estado": "Planteada — depende de cerrar el tablero primero",
+      "proximo_paso": "Prueba de envío en la sesión individual",
+      "target": "Septiembre"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 3 · 8 septiembre 2026",
+      "titulo": "La liquidación de cuota monetaria, conciliada",
+      "descripcion": "El objetivo del proyecto es calcular la cuota mes a mes desde el detallado por subsidio y por zona, conciliar las sumas contra el resumen oficial y dejar documentada la coincidencia. La herramienta ya identificó los archivos y ya sabe qué le falta; el trabajo ahora es responderle y completar el contexto.",
+      "estado": "En construcción — detenida por crédito y contexto",
+      "proximo_paso": "Completar el contexto y responder las tres preguntas abiertas",
+      "target": "Sesión individual de Avelino"
+    }
+  ],
+  "tareas_intro": "El área trajo dos procesos reales y bien elegidos: los dos son de alto volumen, los dos se hacen hoy a mano y los dos tienen un dueño claro. Lo que limitó la hora no fue el trabajo del equipo sino el entorno — la sala compartida, el límite de carga y el crédito agotado.",
+  "tareas": [
+    {"tarea": "Agendar dos o tres sesiones individuales para la próxima semana, por separado", "responsable": "Avelino, Carlos y el área", "prioridad": "ALTA", "plazo": "Hoy mismo"},
+    {"tarea": "Reforzar el contexto del proyecto de cuota monetaria", "responsable": "Avelino Romero", "prioridad": "ALTA", "plazo": "Antes de su individual"},
+    {"tarea": "Responder las tres preguntas que dejó abiertas la herramienta", "responsable": "Avelino Romero", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Corregir la instrucción del cruce de cédulas y volver a pedirlo", "responsable": "Carlos García", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Montar el reporte de Registraduría en un tablero HTML con filtros y logo", "responsable": "Carlos García", "prioridad": "MEDIA", "plazo": "Antes de S4"},
+    {"tarea": "Completar el «acerca de ti» en la configuración", "responsable": "Avelino Romero", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Dejar una sola sesión con audio y el resto de equipos en silencio", "responsable": "Subsidio y Aportes", "prioridad": "MEDIA", "plazo": "Permanente"},
+    {"tarea": "Contestar la encuesta del programa", "responsable": "Los tres puestos", "prioridad": "MEDIA", "plazo": "Esta semana"}
+  ],
+  "observaciones": [
+    "Los dos procesos que trajo el área están bien elegidos: alto volumen, hechos a mano y con dueño claro. Es exactamente el tipo de caso que el programa busca, y explica por qué en una sola sesión ya salió una medición.",
+    "El hallazgo de método fue el mismo en los dos puestos, y vale repetirlo: cuando la herramienta devuelve algo que no sirve, casi nunca es un límite de la herramienta — es que la instrucción no dijo lo que hacía falta. El primer resultado del cruce reportó cero cédulas coincidentes y las cédulas estaban ahí. La salida es responderle con esas palabras y volver a pedir.",
+    "Las preguntas que la herramienta devuelve son parte del trabajo, no un obstáculo. En el proyecto de cuota monetaria dejó tres antes de calcular nada, y contestarlas es lo que va a hacer que el resultado sirva.",
+    "La versión gratuita se agotó a mitad de sesión y hubo que cambiar de pantalla para seguir. Además de eso, las funciones que resolverían los dos cuellos de botella del área —conectar la carpeta en vez de subir archivos, y el envío automatizado— no están disponibles en esa versión. Queda registrado como el límite del entorno, no del equipo.",
+    "Los tres asistentes trabajaron desde una sola sala, cada uno con su computador en la misma reunión, y los primeros cinco minutos se fueron en silenciar micrófonos. Conviene fijarlo: una sola sesión con audio, los demás equipos en silencio.",
+    "Se acordó el cambio de formato: el área deja las sesiones grupales y pasa a individuales. En grupal el ritmo lo marca quien menos puede, y el cierre de octubre es por área."
+  ],
+  "proxima_sesion": {
+    "sesion": "Subsidio y Aportes — sesiones individuales, semana del 14 de septiembre",
+    "condiciones": [
+      "Las sesiones individuales agendadas, por separado",
+      "El contexto del proyecto de cuota monetaria completo",
+      "Las tres preguntas abiertas respondidas",
+      "El cruce de Registraduría vuelto a pedir con la instrucción corregida"
+    ],
+    "agenda": [
+      "El tablero del reporte de Registraduría, con filtros y segmentación",
+      "La primera prueba de notificación automatizada",
+      "El modelamiento de la liquidación de cuota monetaria",
+      "Habilidades: crear la primera del área"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 8 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
