@@ -15,6 +15,65 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🗓️ 7 sep · 21:40 · Barrido de calendario hasta el 19 de septiembre
+
+Tablero actualizado: https://claude.ai/code/artifact/8949a813-41e2-4c31-b234-d0b3ada2eb6e
+
+**Se cierra la pregunta abierta de la mañana.** La S6 de Servicios Sociales no se perdió:
+está agendada para el **martes 8 a las 5:00 p. m.**, y además hay **S7 el jueves 10 a las
+11:00**. Juan Pablo no lleva dos citas fallidas.
+
+**Vivienda tomó fecha:** jueves 10, 8:00 a. m., S5. Es la primera de las cuatro áreas
+calladas del viernes que se mueve. El evento está a nombre de un correo personal
+(`cindymsilva86@gmail.com`), no del dominio de Comfacesar, que es justo por lo que un
+barrido por término de área no la habría encontrado. **Queda corregido lo que se dijo en el
+corte de las 7:30**, donde la campaña figuraba en cero.
+
+**Crédito y Auditoría Interna siguen en cero.** Sin primera sesión y con tres mensajes cada
+una sin respuesta. Cumplimiento tampoco ha agendado. Ahí no va un cuarto mensaje, va
+llamada, y eso es de Sandra.
+
+### Cambios de agenda desde el corte de la mañana
+
+| Qué | Estaba | Quedó |
+|---|---|---|
+| Tecnología S3 | mar 8, 10:00 | jue 10, 15:00 |
+| Tecnología S4 | no existía | vie 11, 09:00 |
+| Tesorería S2 | mié 9, 09:00 | mié 9, 12:00 |
+| Comunicaciones S5 | no existía | mié 9, 17:00 |
+| Sub. Admin, Rafael, vie 11 | S4 (duplicada) | **S5**, ya renumerada |
+
+### ⚠️ Dos numeraciones que no cuadran
+
+**Subsidio.** El calendario dice **S3** para el martes; el tablero venía diciendo S4. Una de
+las dos está mal, y conviene resolverlo antes de que salga el acta.
+
+**Sub. Administrativa y Financiera tiene dos «S4».** Martes 16:00 con **Lili**
+(`liligozu@gmail.com`) y miércoles 08:00 con **Rafael**. Son personas distintas, así que no
+sobra ningún evento; falta decidir si Lili lleva numeración propia.
+
+### La agenda se acaba el 15
+
+Barrido hasta el 19 de septiembre: **después del martes 15 no hay una sola sesión de
+Comfacesar**. Nueve áreas quedan sin nada agendado tras el viernes: Planeación, Gerencia
+Financiera, Talento Humano, Educación, Cumplimiento, Crédito, Auditoría, IPS y Subsidio.
+El programa cierra en octubre.
+
+### El conteo de sesiones no se movió
+
+Sigue en **49 verificadas**. Hoy corrieron cuatro más (Jurídica S5, Sub. Admin S3 de
+Rafael, Educación S3, Contabilidad S5 de Carlos), pero a las 21:40 no hay acta ni grabación
+de ninguna. Si las cuatro se hicieron, el programa va en 53. **El número sube cuando llegue
+el soporte, no antes.**
+
+### 📌 Lucía, para tus recordatorios de la semana
+
+Las horas cambiaron. **Tesorería es a las 12:00 del miércoles, no a las 9:00.** Y hay tres
+sesiones nuevas que no estaban en el corte anterior: Comunicaciones S5 el miércoles a las
+17:00, Vivienda S5 el jueves a las 8:00 y Servicios Sociales S7 el jueves a las 11:00.
+El miércoles a las 9:00 lo ocupa el Ambassadors con María Elvira, que va aparte del
+programa.
+
 ## 📮 7 sep · 21:30 · Encuesta de pulso programada en los 18 canales
 
 **La encuesta se lanza por Google Forms, no por Slack ni por el tablero.** El formulario lo
