@@ -15,6 +15,60 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📊 9 sep · 16:15 · La encuesta pasó de 4 a 7 respuestas, y la lectura de ayer se cayó
+
+Corrida de las 4:00 p. m. **No publiqué nada en ningún canal** y no había nada que
+responder: desde el recordatorio de las 3:33 no entró un solo mensaje de cliente, ni en
+canal ni en DM. Los 18 canales ya tienen mensaje hoy, así que además el cupo está
+agotado. Esta corrida fue solo de lectura.
+
+### Las tres respuestas nuevas
+
+| Hora | Área | Utilidad | Ahorro | Qué pide |
+|---|---|---|---|---|
+| 14:40 | Sub. Operativa | 8 | 30 min a 2 h | «versiones premium» |
+| 14:57 | Sub. Operativa | 10 | 30 min a 2 h | «acceder a las herramientas IA pagas» |
+| 15:59 | Educación | 10 | 30 min a 2 h | aprender a dar mejores instrucciones |
+
+**Solo la de Educación llegó después del recordatorio.** Las dos de Sub. Operativa
+entraron antes, por su cuenta. El recordatorio de media tarde produjo una respuesta en
+la primera media hora.
+
+### Sub. Operativa no está desconectada, está frenada
+
+Es el hallazgo del día y contradice cómo la teníamos clasificada. **El mismo día que
+canceló su Sesión 3 sin dejar fecha, y llevando ocho días de silencio, dos personas de
+esa área contestaron la encuesta**, califican la utilidad en 8 y en 10, dicen que ya se
+ahorran entre 30 minutos y 2 horas, y las dos piden lo mismo: herramientas pagas.
+
+En el termómetro figura como área en silencio y eso sigue siendo cierto por calendario,
+pero la lectura de «se desconectó» no se sostiene. Lo que hay que hacer con esa área no
+es insistirle para que agende, es responderle qué pasa con las licencias.
+
+### Lo que decía el tablero ayer y ya no es cierto
+
+Con 4 respuestas escribí dos cosas que las 3 nuevas rompen. Las dejé señaladas en el
+tablero, no borradas:
+
+1. **«Todos, sin excepción, piden tiempo».** Con siete son cuatro de tiempo u horario,
+   tres de licencias y una de formación.
+2. **«La nota baja se explica por las sesiones asistidas».** Los cinco que van por la
+   sesión 2 o 3 califican 3, 5, 8, 10 y 10. La etapa no explica nada. **El caso es
+   Mercadeo**, la única área donde nadie aplicó nada y nadie nota ahorro, y es su Sesión
+   4 la de hoy: el acta de esta noche es el sitio para verificarlo.
+
+### El argumento de las licencias ya está completo
+
+Tres respuestas de siete piden licencias por escrito, de dos áreas, a pregunta abierta.
+Sumadas a lo del martes son **cinco áreas** con el tope tocado o pedido: Jurídica,
+Sub. Operativa, Subsidio, Agencia de Empleo y Sub. Financiera por los bloqueos de TI.
+La premisa del acta del viernes, «el equipo aún no agota la versión gratuita», duró
+cinco días.
+
+Tablero actualizado, versión 2: https://claude.ai/code/artifact/0cca00fb-603a-4ae8-a87f-1d5f724dbf0d
+
+---
+
 ## 📣 9 sep · 15:35 · Recordatorio de la encuesta a los 18 canales
 
 **Sandra lo pidió y lo reafirmó tras advertirle del choque.** Va publicado, no programado.
