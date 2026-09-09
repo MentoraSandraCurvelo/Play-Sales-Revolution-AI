@@ -15,6 +15,41 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📣 9 sep · 15:35 · Recordatorio de la encuesta a los 18 canales
+
+**Sandra lo pidió y lo reafirmó tras advertirle del choque.** Va publicado, no programado.
+
+### Dos versiones
+
+**Gracias**, a los tres canales de las áreas que ya respondieron: `#serivcios-sociales`,
+`#mercadeo` y `#juridica`. Agradece «a quien ya respondió desde esta área», sin nombrar a
+nadie, porque la encuesta es anónima y solo registra el área.
+
+**Recordatorio**, a los otros quince. No dice cuántas respuestas van, a propósito: cuatro de
+cincuenta y uno es un número que desanima más de lo que empuja.
+
+### ⚠️ Lucía, lee esto antes de publicar las actas de hoy
+
+**Este mensaje rompió el cupo y la ventana de 48 horas en varios canales, con autorización
+expresa de Sandra.** Se le advirtió y respondió «no importa mándalo».
+
+**`#comunicaciones` quedó en 3 de 2** hoy: encuesta a las 8:00, respuesta a José Manuel a las
+11:00 y este recordatorio. **No escribas ahí hoy.**
+
+**En los canales con acta del lunes o del martes** (`#juridica`, `#contabilidad`,
+`#educacion`, `#sub-admin-y-financiera-infraestructura`, `#subsidio`,
+`#agencia-de-empleo`) este mensaje entró dentro de la ventana de 48 horas.
+
+**Hoy hubo seis sesiones** y sus actas caen esta noche: Sub. Admin, Jurídica, IPS, Tesorería,
+Mercadeo y Comunicaciones. **Publícalas igual**, la advertencia era para que Sandra decidiera
+y ya decidió. Si un canal te queda apretado, el acta manda sobre el recordatorio.
+
+### Lo que se propuso y no se tomó
+
+Se recomendó programarlo para el jueves a las 8:00, porque a las 3:30 de un miércoles rinde
+menos y choca con las actas de la noche. **Sandra prefirió mandarlo hoy.** Queda anotado para
+poder medir después si el recordatorio de media tarde mueve la aguja o no.
+
 ## ⛔ 9 sep · 15:20 · Sub. Operativa canceló la S3 y queda sin fecha
 
 **Sandra avisó que la sesión de las 3:00 p. m. se canceló.** Verificado contra Outlook: el
