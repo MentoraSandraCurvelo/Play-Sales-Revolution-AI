@@ -15,6 +15,66 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📊 9 sep · 07:30 · Corte diario, 56 sesiones y un argumento que se cayó
+
+Tablero: https://claude.ai/code/artifact/8949a813-41e2-4c31-b234-d0b3ada2eb6e
+
+**Tres de las cuatro sesiones del martes quedaron verificadas.** Subsidio S3, Agencia de
+Empleo S5 y Sub. Administrativa S4 con Liliany. **53 → 56.**
+
+### 🚨 Lo que hay que rehacer: la solicitud de licencias
+
+**El viernes quedó en acta no pedir licencias todavía «porque el equipo aún no agota la
+versión gratuita». El martes se agotó en dos áreas el mismo día:**
+
+- **Subsidio**, a mitad de sesión, y hubo que pasar a la pantalla de otro compañero.
+- **Agencia de Empleo**, a media mañana, **con licencias ya compradas por el área**,
+  trabajando el consolidado de recobros.
+- Y en la encuesta, **Jurídica pide por escrito la compra del plan Pro**.
+
+**Tres áreas en veinticuatro horas, y son las tres que más avanzan.** No es baja adopción.
+La solicitud de octubre se puede rehacer con estos tres casos y sus fechas, que es un
+argumento distinto al de la semana pasada.
+
+### Dos agentes en dos días
+
+**Agencia de Empleo montó el segundo agente del programa: Sofía.** Revisa el correo tres
+veces al día, identifica las invitaciones y las reenvía. Construido y probado con un correo
+real dentro de la misma hora. El lunes fue Lilia en Jurídica.
+
+### Tres mediciones nuevas
+
+**Sub. Administrativa, 120 → 10 min.** Revisión de solicitud contra propuesta, corrida sobre
+un expediente **ya revisado a mano**, y encontró cuatro hallazgos que la revisión manual no
+marcó.
+
+**Subsidio, 120 → 10 min.** El cruce con la Registraduría.
+
+**Agencia de Empleo, de días a 20 min.** El consolidado de recobros, **en validación**: al
+cruzarlo contra el mes hecho a mano salieron diferencias en los dos sentidos, así que falta
+determinar cuál archivo está bien.
+
+### ⚠️ Servicios Sociales, segunda vez sin rastro
+
+La S6 estaba agendada para el martes a las 5:00 p. m. **No hay acta, ni grabación, ni una
+línea en el canal**, igual que la del 3 de septiembre. Ya no es una duda, es un patrón. El
+área tiene **S7 mañana jueves a las 11:00**. Va a Sandra.
+
+### Riesgo nuevo, y es de términos de ley
+
+En Agencia de Empleo, por una sola dirección entran derechos de petición, acuerdos de pago y
+quejas, y quien la atiende está a la vez armando el consolidado a mano. **Un derecho de
+petición puede quedarse tres días sin ver.** Es lo que el agente ya probado resuelve.
+
+### Asistencia: vuelve a 91%
+
+**128 sobre 141**, 52 sesiones medidas. Las tres del martes dieron completa. La caída de ayer
+fue puntual. **Tesorería sigue siendo la única bajo el 70%.**
+
+**Ojo con el acta de Subsidio S3:** la tabla de participantes lista dos personas y el cuerpo
+habla de «los tres asistentes» y «los tres puestos». Se contó sobre los dos de la tabla. Si
+fueron tres, hay que corregir el acta y el porcentaje cambia.
+
 ## 🗂️ 9 sep · Mesa Comfacesar, el índice de todos los tableros
 
 **Enlace único, este es el que Sandra guarda:**
