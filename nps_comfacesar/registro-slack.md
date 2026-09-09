@@ -15,6 +15,32 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📅 9 sep · 10:20 · Respuesta a José Manuel sobre la reprogramación de Comunicaciones
+
+**José Manuel Vergara escribió a las 09:00** pidiendo mover la sesión del equipo completo del
+**15 de septiembre al 16 a las 4:30 p. m.**, y preguntando si había llegado la solicitud que
+mandaron por correo.
+
+**No se respondió de una: reprogramar es de Sandra.** Se le pasó a ella y ella dio la
+respuesta, que se publicó a las 10:20
+([mensaje](https://iamteamespacio.slack.com/archives/C0BPC33FM9D/p1788969646199319)).
+
+**El fondo de la respuesta, en palabras de Sandra:** que muevan ellos mismos la reunión según
+su disponibilidad y que no la esperen. Se les indicaron las dos vías, reprogramar o cancelar
+desde el correo de confirmación, y el enlace fijado del canal para tomar el espacio nuevo.
+
+**Lo que la respuesta no dice, a propósito:** si el correo que ellos enviaron llegó o no. No
+se puede verificar desde aquí sin abrir la bandeja de Sandra, y **decir que llegó sin haberlo
+visto habría sido inventar**. La salida que dio Sandra lo resuelve sin necesidad de esa
+confirmación.
+
+**Cupo de `#comunicaciones` hoy: 2 de 2** tras este mensaje, con la encuesta de las 8:00.
+Paso 0 hecho, sin reservas vigentes.
+
+**Ojo para el termómetro:** la sesión del 15 estaba a las 10:00 a. m. Si la mueven al 16, el
+calendario cambia y hay que rebarrerlo. **Y era la última sesión de Comfacesar en la ventana
+barrida**, así que el vacío después del 15 sigue igual de vigente.
+
 ## 📊 9 sep · 07:30 · Corte diario, 56 sesiones y un argumento que se cayó
 
 Tablero: https://claude.ai/code/artifact/8949a813-41e2-4c31-b234-d0b3ada2eb6e
