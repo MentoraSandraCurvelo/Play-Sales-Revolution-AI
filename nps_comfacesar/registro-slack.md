@@ -15,6 +15,37 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⛔ 9 sep · 15:20 · Sub. Operativa canceló la S3 y queda sin fecha
+
+**Sandra avisó que la sesión de las 3:00 p. m. se canceló.** Verificado contra Outlook: el
+evento ya no está, y **barriendo hasta el 30 de septiembre no aparece reagendado en ninguna
+fecha**. No es cambio de día, es cancelación.
+
+**No entra a ningún indicador**, según la regla vigente. Las 56 sesiones verificadas y el 91%
+de asistencia no se mueven. La cancelación queda evidenciada en el tablero y aquí, y ya.
+
+### Lo que sí cambia: el área entra a la lista de quietas
+
+**Sub. Operativa y Comercial lleva ocho días** desde su S2 del 1 de septiembre, y ahora
+tampoco tiene próxima sesión. Con eso la lista de áreas quietas queda así:
+
+- **Sub. Operativa y Comercial**, ocho días, canceló hoy sin dejar fecha nueva.
+- **Crédito** y **Auditoría Interna**, sin primera sesión, y María Elvira ya escribió el
+  lunes planteando retirarlas del proyecto.
+- **Cumplimiento**, Saharay dijo el martes que quiere agendar pero todavía no ha tomado el
+  cupo.
+
+**No se publicó nada.** El área tuvo sesión hace ocho días pero la cancelación es de hoy, y
+un mensaje de silencio el mismo día de la cancelación se lee como reproche. Queda a criterio
+de Sandra si se toca mañana.
+
+### Verificación de reagendamiento, para la próxima vez
+
+Una cancelación y un reagendamiento se ven igual en el canal. Lo que los separa es el
+calendario: **si el evento aparece en otra fecha, la sesión sigue viva; si no aparece en toda
+la ventana, es cancelación.** Aquí se barrió del 9 al 30 con el término del área y no salió
+nada.
+
 ## 📅 9 sep · 10:20 · Respuesta a José Manuel sobre la reprogramación de Comunicaciones
 
 **José Manuel Vergara escribió a las 09:00** pidiendo mover la sesión del equipo completo del
