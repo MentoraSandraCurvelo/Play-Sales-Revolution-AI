@@ -38,3 +38,12 @@ El listado se hizo en agosto y el proyecto se mueve.
 
 Cruzar el nombre contra la cuenta de Slack de la persona, no solo contra el listado.
 Si aparece una tercera forma del nombre, preguntarle a Sandra en vez de elegir.
+
+## IPS
+
+**Danilo Pozo** es el único apoyo del área para el proyecto — confirmado por Sandra
+el 9 de septiembre. Las sesiones de IPS se trabajan con él, y el acta va a su nombre.
+
+Ojo con el calendario: el evento de la S2 llegó con invitados de SST
+(`sst@`, `asistentesst@`, `auxiliarsst@`) porque la reserva se hizo desde esas
+cuentas. No son asistentes del área — no se nombran en el acta.

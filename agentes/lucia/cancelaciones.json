@@ -74,14 +74,29 @@
       "compromiso": null,
       "cuenta_como": "cancelada",
       "nota": "Cancelada con siete horas de antelación y con motivo, que es lo correcto — a diferencia de la del 3 de septiembre, donde nadie entró a la sala. Pero es la segunda sesión seguida de Juan Pablo que no se hace: la S6 quedó pendiente desde el 3 de septiembre y esta era el intento de recuperarla. El área sigue con cinco sesiones cerradas. Al cancelarse en Calendly el evento desaparece de Outlook, por eso Sandra la vio en la mañana y ya no la encontró."
+    },
+    {
+      "area": "Sub. Operativa y Comercial",
+      "sesion": "S3",
+      "fecha": "2026-09-09",
+      "hora": "15:00",
+      "canal": "#sub-operativa",
+      "quien_cancela": "IAM™ — Sandra",
+      "motivo": "Nadie ingresó a la sala. Sandra esperó y canceló a las 3:43 p. m., cuarenta y tres minutos después de la hora de inicio.",
+      "causa": "inasistencia — no ingresó a la sala",
+      "aviso_en_canal": null,
+      "reagendada": false,
+      "compromiso": null,
+      "cuenta_como": "cancelada",
+      "nota": "La reservó innovacion@comfacesar.com el 3 de septiembre, a nombre de la Subdirección Operativa y Comercial. Es la segunda inasistencia del programa —nadie entra a la sala— después de la de Servicios Sociales del 3 de septiembre. El área venía bien: en la sesión del 1 de septiembre trajo la revisión de costeos ya operando fuera de la sesión."
     }
   ],
   "patron": {
     "detectado": "2026-09-01",
-    "que_pasa": "Cinco sesiones caídas en tres semanas. Tres por cruce con otras actividades —Educación S3 y Tecnología S3 el lunes 31 de agosto, Cumplimiento S2 el miércoles 2 de septiembre— y dos de Servicios Sociales sobre la misma sesión: la S6 del jueves 3, donde nadie entró a la sala, y el intento de recuperarla el martes 8, cancelado por cita médica el mismo día. Solo Educación quedó reagendada, y se hizo el 7 de septiembre.",
-    "por_que_importa": "No es falta de interés sino de agenda: el espacio existe pero lo desplaza cualquier otra cosa. Servicios Sociales pesa distinto —es el área más avanzada, con cinco sesiones hechas— y lleva dos intentos seguidos sin concretar la sexta. Quedan siete semanas y una sesión que se cae sin reagendar no se recupera sola.",
+    "que_pasa": "Seis sesiones caídas en tres semanas. Tres por cruce con otras actividades —Educación S3 y Tecnología S3 el lunes 31 de agosto, Cumplimiento S2 el miércoles 2 de septiembre—, dos de Servicios Sociales sobre la misma sesión —la del jueves 3, donde nadie entró a la sala, y el intento de recuperarla el martes 8, cancelado por cita médica— y la de Sub. Operativa y Comercial el miércoles 9, donde tampoco entró nadie. Solo Educación quedó reagendada, y se hizo el 7 de septiembre.",
+    "por_que_importa": "No es falta de interés sino de agenda: el espacio existe pero lo desplaza cualquier otra cosa. Y ya van dos inasistencias sin aviso —Servicios Sociales y Sub. Operativa—, las dos en áreas que venían avanzando bien. Una hora reservada que nadie usa no se recupera sola, y quedan siete semanas.",
     "a_quien_toca": "María Elvira Marulanda — es quien puede pedir que el espacio del programa se respete como cualquier otro compromiso institucional.",
-    "actualizado": "2026-09-08",
+    "actualizado": "2026-09-09",
     "recuperadas": "De las cuatro sesiones caídas, solo Educación S3 se reagendó — vuelve el lunes 7. Tecnología S3, Cumplimiento S2 y Servicios Sociales S6 siguen sin fecha nueva. Tecnología sí tiene una S3 en el calendario del martes 8 a las 10:00, que hay que confirmar si es la misma que se cayó el 31 de agosto."
   }
 }
