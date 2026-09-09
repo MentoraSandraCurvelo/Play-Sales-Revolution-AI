@@ -1,0 +1,228 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "AGENCIA DE EMPLEO",
+  "area_completa": "",
+  "sesion_num": 5,
+  "fase": "Sistemas de Trabajo Agénticos",
+  "fecha": "8 de septiembre de 2026",
+  "fecha_corta": "8 septiembre 2026",
+  "subtitulo_meta": "Lina María Rincón y José Jaime Maya · 8 de septiembre de 2026 · 3:00 p. m. · 1 h 02 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Agencia de Empleo — Comfacesar"],
+    ["Sesión", "N° 5 — El primer agente del área, y el proceso de recobros mapeado con quien lo ejecuta"],
+    ["Fecha", "8 de septiembre de 2026"],
+    ["Hora inicio", "3:00 p. m. — Colombia"],
+    ["Duración de la sesión", "1 hora 2 minutos (3:09 p. m. – 4:12 p. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Lina María Rincón y José Jaime Maya — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "1", "etiqueta": "Primer agente del área", "detalle": "Creado y probado en vivo, con correo real"},
+    {"valor": "20 min", "etiqueta": "El consolidado de recobros", "detalle": "Antes tomaba días de trabajo manual"},
+    {"valor": "8", "etiqueta": "Pasos documentados", "detalle": "La lógica del recobro, por escrito"},
+    {"valor": "3", "etiqueta": "Cortes diarios", "detalle": "Las revisiones de correo del agente"},
+    {"valor": "0", "etiqueta": "Créditos a media mañana", "detalle": "El plan se agotó trabajando el recobro"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Lina María Rincón", "cargo": "Agencia de Empleo — Comfacesar", "correo": "agenciaempleo@comfacesar.com", "modalidad": "Virtual", "nivel": "Avanzado"},
+    {"nombre": "José Jaime Maya", "cargo": "Agencia de Empleo — Comfacesar", "correo": "agenciaempleo@comfacesar.com", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 5. El área es de las que más rápido avanza y hoy cruzó al trabajo agéntico; lo que queda abierto es de proceso y de capacidad del plan, no de aprendizaje.",
+  "riesgos": [
+    {
+      "titulo": "Un solo correo recibe derechos de petición, acuerdos de pago y quejas",
+      "nivel": "ALTO",
+      "descripcion": "Todo lo de recobros entra por una sola dirección, y quien la atiende está a la vez sacando el consolidado a mano. Quedó dicho con claridad en sesión: un derecho de petición puede quedarse tres días sin ver porque la persona estaba metida en los archivos, y la abogada lo recibe tarde. Son términos de ley. Es el riesgo más serio que ha aparecido en el área y es justamente lo que el agente viene a resolver.",
+      "responsable": "Agencia de Empleo / Próxima sesión"
+    },
+    {
+      "titulo": "Las diferencias del cruce están sin resolver",
+      "nivel": "ALTO",
+      "descripcion": "Al comparar el archivo generado contra el mes que se hizo a mano aparecieron diferencias en los dos sentidos: cédulas que la herramienta incluyó y el archivo manual no tenía, y cédulas del archivo manual que la herramienta excluyó. Mientras no se determine cuál de los dos tiene razón, el proceso no se puede dar por bueno — puede ser que falte precisión en la instrucción o que el archivo manual venga arrastrando omisiones.",
+      "responsable": "Agencia de Empleo / Antes de la S6"
+    },
+    {
+      "titulo": "Los créditos del plan se agotaron a media mañana",
+      "nivel": "ALTO",
+      "descripcion": "Trabajando el consolidado de recobros, el plan se agotó y hubo que esperar hasta las 4:00 de la tarde para seguir. El área ya compró sus licencias, así que no es un problema de adopción: es que este tipo de proceso —muchos archivos, muchas filas, varias vueltas de corrección— consume más de lo que el plan actual da en un día.",
+      "responsable": "Comfacesar / De cara a octubre"
+    },
+    {
+      "titulo": "Un agente encendido consume créditos de forma continua",
+      "nivel": "MEDIO",
+      "descripcion": "El agente revisa el correo en cada corte, esté o no esté pasando algo. Quedó la instrucción de mantener uno solo por ahora y apagarlo cuando no se esté usando, hasta entender bien el consumo.",
+      "responsable": "Lina María Rincón / Permanente"
+    },
+    {
+      "titulo": "El proceso de recobros depende de una sola persona",
+      "nivel": "MEDIO",
+      "descripcion": "El consolidado, la gestión mensual, el correo y las llamadas están todos en el mismo puesto, y el conocimiento del criterio vive ahí. Documentar la lógica paso a paso —que fue lo que se hizo hoy— es lo que empieza a sacarlo de una sola cabeza.",
+      "responsable": "Agencia de Empleo / En curso"
+    },
+    {
+      "titulo": "Fomento Empresarial estaba invitado y no entró",
+      "nivel": "BAJO",
+      "descripcion": "La sesión estaba planteada como espacio conjunto y solo asistió Agencia de Empleo. No frenó el trabajo, pero el cruce entre las dos áreas queda pendiente de agendar.",
+      "responsable": "Agencia de Empleo / Por reagendar"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Resolver las diferencias del cruce",
+      "descripcion": "Revisar cédula por cédula las que no coinciden y determinar si el error está en la instrucción o en el archivo que se venía haciendo a mano. Es lo que decide si el proceso se puede poner en producción.",
+      "responsable": "Agencia de Empleo",
+      "plazo": "Antes de la S6"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Traer mapeado qué se quiere automatizar",
+      "descripcion": "Para la próxima sesión, escrito: qué hace hoy cada uno al llegar a la oficina, qué revisa, qué reenvía y qué reporta. Sobre ese mapa se construyen los agentes en vivo, sin improvisar.",
+      "responsable": "Lina María Rincón y José Jaime Maya",
+      "plazo": "Antes de la S6"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Registrar la medición del consolidado en el tablero",
+      "descripcion": "El proceso pasó de días de trabajo manual a unos veinte minutos. Falta poner la cifra exacta del antes — la tiene quien ejecuta el proceso. Ese registro es el que alimenta el informe de la dirección.",
+      "responsable": "Lina María Rincón",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Terminar de afinar el agente Sofía",
+      "descripcion": "Cambiar el correo de prueba por el destinatario real, y dejarle dicho que cuando reconozca el patrón reenvíe directo sin preguntar. Pedirle además un reporte al cierre del día con cuántos correos envió y de qué eran.",
+      "responsable": "Lina María Rincón",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Agendar las sesiones de la próxima semana",
+      "descripcion": "La agenda se llena rápido y quedan siete semanas de programa. Conviene dejar bloqueada la semana completa.",
+      "responsable": "Lina María Rincón y José Jaime Maya",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Seguir mostrando los ejercicios entre sesiones",
+      "descripcion": "Lo que se avance por fuera se trae y se revisa. Es lo que ha hecho que esta área vaya al ritmo que va.",
+      "responsable": "Agencia de Empleo",
+      "plazo": "Permanente"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Claude Design y los artefactos",
+      "duracion": "~15 min",
+      "objetivo": "Abrir el bloque de diseño, que el área no había visto, y dejar claro qué se puede construir con él.",
+      "pasos": [
+        "La diferencia práctica: lo que sale de una conversación no se puede editar, solo volver a pedir. Llevado a Design, se abre un entorno donde se edita directamente sobre el documento",
+        "Qué se puede hacer allí: presentaciones tipo revista, documentos, animación, piezas en 3D, PDF, firmas de correo y tableros interactivos",
+        "_La pregunta de la sesión, y es la correcta:_ ¿esto se puede meter en una presentación de PowerPoint? No — PowerPoint no ejecuta páginas web incrustadas. El camino es migrar las presentaciones a HTML, que se muestran en modo presentación, se comparten por enlace y se exportan a PDF",
+        "Qué es un artefacto: una pieza que vive por sí sola y se comparte por enlace — un tablero, una aplicación, una página, una herramienta interactiva",
+        "Se mostró el propio tablero del proyecto como ejemplo de artefacto en uso",
+        "Quedó pendiente el ejercicio: el área trae la presentación que quiera construir y se hace en vivo"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El consolidado de recobros",
+      "duracion": "~20 min",
+      "objetivo": "Revisar el trabajo que el área hizo entre sesiones sobre el proceso de recobros, y validarlo contra el mes hecho a mano.",
+      "pasos": [
+        "El punto de partida fue el correcto y hay que decirlo: el área se sentó con la persona que ejecuta el proceso, en su puesto, para ver la minucia. Ahí apareció que para sacar un solo archivo trabaja sobre decenas de archivos de Excel",
+        "Se le entregaron los dos archivos fuente y la lógica completa, paso por paso: filtrar y eliminar las cédulas de periodos hasta 2023; cruzar con los reportes de reintegros e identificar el reintegro doble; eliminar las cédulas con quince o menos días de aporte pagado en pila; eliminar los valores ya pagados, porque la primera cuota no se recobra; reincorporar las cédulas con cero días de aportes; resaltar las diferencias; fusionar la gestión realizada con su fecha; y devolver un cuadro comparativo",
+        "El primer intento salió mal. Se le dijo con esas palabras, reconoció el error de interpretación y lo rehízo — el ciclo de corrección funcionando como debe",
+        "_La validación:_ se corrió contra el mes anterior, el que la compañera había hecho a mano, y se compararon los dos archivos",
+        "Aparecieron diferencias en los dos sentidos: cédulas que la herramienta incluyó y el archivo manual no tenía, y cédulas del manual que la herramienta dejó fuera",
+        "Se le pidió además documentar el paso a paso de todo lo que se le indicó, que es lo que convierte el criterio en procedimiento",
+        "Por qué esto pesa más que el tiempo: es un proceso que vigila la Superintendencia. El dinero girado a quien no tenía derecho debe reintegrarse al fondo, y cada gestión mensual —correo, mensaje de texto o llamada— tiene que quedar registrada"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Sofía, el primer agente del área",
+      "duracion": "~25 min",
+      "objetivo": "Instalar el entorno de agentes y construir uno completo, probado con un correo real.",
+      "pasos": [
+        "Se instaló Claude Code durante la sesión. Apareció primero un aviso de espacio en disco y se resolvió",
+        "Se creó la carpeta de trabajo del área y se conectó: un agente siempre trabaja sobre una carpeta",
+        "Se construyó el agente y se le puso nombre — Sofía. El criterio de nombrarlos no es decorativo: cuando hay varios, hay que saber quién es quién",
+        "El proceso que hace: revisa el correo corporativo, identifica los mensajes cuyo asunto trae la palabra «invitación» —normalmente eventos del servicio público de empleo, cámara de comercio y otras entidades— y los reenvía al destinatario que corresponde, sin nota",
+        "Se le fijaron tres cortes diarios: a las 8:00 de la mañana, al mediodía y a las 5:00 de la tarde",
+        "_Prueba en vivo:_ se le pidió un corte inmediato de los correos del día anterior. Encontró varios, preguntó cuál reenviar, se le indicó, y el correo llegó — José Jaime lo confirmó compartiendo pantalla",
+        "El afinamiento que queda: cambiar el correo de prueba por el real, y decirle que cuando reconozca el patrón reenvíe directo sin preguntar",
+        "Y pedirle un reporte de cierre: cuántos correos envió en el día y de qué se trataban"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD PROBADA · SESIÓN 5 · 8 septiembre 2026",
+      "titulo": "Sofía, el agente que despeja el correo del área",
+      "descripcion": "Revisa el correo corporativo tres veces al día, identifica lo que hay que reenviar y lo reenvía al destinatario correcto, sin que nadie tenga que abrirlo. Se construyó y se probó en la misma sesión, con un correo real que llegó a su destino. Es el segundo agente del programa completo y el primero del área.",
+      "estado": "Funcionando — falta cambiar el destinatario de prueba",
+      "proximo_paso": "Poner el correo real y quitarle la confirmación",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN VALIDACIÓN · SESIÓN 5 · 8 septiembre 2026",
+      "titulo": "El consolidado de recobros",
+      "descripcion": "El archivo madre del que se desprende toda la gestión de recobros se armaba a mano sobre decenas de Excel, y tomaba días. Con la lógica documentada sale en unos veinte minutos y trae además el cuadro comparativo y las diferencias resaltadas. Está en validación: al cruzarlo contra el mes hecho a mano aparecieron diferencias en los dos sentidos, y eso hay que resolverlo antes de darlo por bueno.",
+      "estado": "En validación contra el archivo manual",
+      "proximo_paso": "Revisar las cédulas que no coinciden y ajustar",
+      "target": "Antes de la S6"
+    },
+    {
+      "encabezado": "OPORTUNIDAD PLANTEADA · SESIÓN 5 · 8 septiembre 2026",
+      "titulo": "El correo de recobros, clasificado y enrutado",
+      "descripcion": "Por una sola dirección entran derechos de petición, acuerdos de pago y quejas, y quien la atiende está a la vez sacando el consolidado. Un derecho de petición puede quedarse días sin llegar a la abogada, y son términos de ley. Es el mismo mecanismo de Sofía aplicado a un caso con consecuencias: clasificar lo que entra y enrutarlo el mismo día.",
+      "estado": "Planteada por el área — el mecanismo ya está probado",
+      "proximo_paso": "Mapear el proceso y construir el agente",
+      "target": "Sesión 6, jueves 10"
+    }
+  ],
+  "tareas_intro": "El área llegó con trabajo hecho por su cuenta y bien hecho: se sentó con quien ejecuta el proceso, mapeó la lógica completa y la probó contra un mes real. Eso permitió que la hora se dedicara a construir el primer agente en vez de explicar.",
+  "tareas": [
+    {"tarea": "Revisar las cédulas que no coinciden y determinar dónde está el error", "responsable": "Agencia de Empleo", "prioridad": "ALTA", "plazo": "Antes de la S6"},
+    {"tarea": "Traer mapeado, por escrito, qué quiere automatizar cada uno", "responsable": "Lina María y José Jaime", "prioridad": "ALTA", "plazo": "Antes de la S6"},
+    {"tarea": "Registrar en el tablero la medición del consolidado de recobros", "responsable": "Lina María Rincón", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Cambiar el correo de prueba de Sofía por el destinatario real", "responsable": "Lina María Rincón", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Pedirle a Sofía el reporte de cierre del día", "responsable": "Lina María Rincón", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Mantener un solo agente encendido mientras se entiende el consumo", "responsable": "Lina María Rincón", "prioridad": "MEDIA", "plazo": "Permanente"},
+    {"tarea": "Agendar las sesiones de la próxima semana", "responsable": "Lina María y José Jaime", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Reagendar el espacio conjunto con Fomento Empresarial", "responsable": "Agencia de Empleo", "prioridad": "BAJA", "plazo": "Por definir"}
+  ],
+  "observaciones": [
+    "Lo mejor de la sesión no pasó en la sesión: el área se sentó con la persona que ejecuta el recobro, en su puesto, y miró la minucia del proceso. Ahí apareció que para producir un solo archivo trabaja sobre decenas de Excel. Ese es el trabajo que hace que una hora de mentoría rinda, y el área lo hizo sin que se lo pidieran dos veces.",
+    "La validación contra el mes hecho a mano es el hallazgo real, y vale más que el ahorro de tiempo. Las diferencias aparecieron en los dos sentidos, así que la pregunta ya no es si la herramienta sirve sino cuál de los dos archivos está bien. Sea cual sea la respuesta, el área gana: o afina la instrucción, o encuentra omisiones que venían arrastrándose.",
+    "El proceso de recobros lo vigila la Superintendencia y por eso el orden importa. No se trata solo de sacar el consolidado más rápido: se trata de que cada gestión quede registrada y de que el dinero girado a quien no tenía derecho vuelva al fondo. Documentar la lógica paso a paso, que fue lo que se hizo, es lo que deja el criterio por escrito.",
+    "El agente quedó construido y probado con un correo real, de punta a punta, dentro de la misma hora. Es el primero del área y el segundo del programa completo.",
+    "El riesgo del correo único es el que conviene atender primero. Un derecho de petición que se queda tres días sin ver porque quien lo recibe está sacando el consolidado a mano es un problema de términos, no de productividad — y es el mismo mecanismo del agente ya probado.",
+    "Los créditos del plan se agotaron a media mañana trabajando el recobro y hubo que esperar hasta la tarde. El área ya compró sus licencias por su cuenta, así que esto no es falta de adopción: es que este proceso, con muchos archivos y varias vueltas de corrección, pide más de lo que el plan da en un día. Queda anotado para revisarlo de cara al cierre."
+  ],
+  "proxima_sesion": {
+    "sesion": "Agencia de Empleo — Sesión 6, jueves 10 de septiembre",
+    "condiciones": [
+      "Las diferencias del cruce revisadas",
+      "El mapa escrito de qué quiere automatizar cada uno",
+      "Sofía con el destinatario real y sin pedir confirmación",
+      "La medición del consolidado registrada en el tablero"
+    ],
+    "agenda": [
+      "El agente del correo de recobros: clasificar y enrutar lo que entra",
+      "El consolidado en producción, una vez resueltas las diferencias",
+      "Los agentes de los procesos que traigan mapeados",
+      "El ejercicio de Claude Design sobre una presentación real del área"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 8 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
