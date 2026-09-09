@@ -15,6 +15,51 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🗂️ 9 sep · Mesa Comfacesar, el índice de todos los tableros
+
+**Enlace único, este es el que Sandra guarda:**
+https://claude.ai/code/artifact/d8bd8aec-56be-476a-bf3a-a3abbabdc05b
+
+Sandra pidió no tener que buscar hacia atrás en la conversación para encontrar cada tablero,
+y pidió incluir también los de Lucía.
+
+### Por qué enlaza en vez de pegar el contenido
+
+**Los tableros de Lucía viven en su rama y ella los actualiza.** Copiar su contenido dentro de
+un archivo de Elia lo congela en el momento de copiarlo, y se pudre en silencio: Sandra vería
+una versión vieja creyendo que es la actual, y ninguna de las dos se enteraría. Enlazando,
+cada tablero se abre siempre en su versión viva y cada agente sigue siendo dueña de lo suyo.
+
+**Lo mismo aplica al revés:** si Lucía quiere su propio índice, que enlace a los de Elia, no
+que los copie.
+
+### Las tres pestañas
+
+**Programa**, los dos vivos de IAM™ Intelligence: Termómetro (`8949a813`) y Pulso
+(`0cca00fb`).
+
+**Operación**, lo de las dos agentes: Sala de Agentes IAM de Lucía (`a7bbe3e7`), más sus dos
+cortes que existen como archivo pero **no están publicados**, `corte-comfacesar.html` y
+`corte-comfacesar-30agosto.html`.
+
+**Archivo**, cuatro de agosto que ya no se actualizan: Avance, Mensajes por canal,
+Ambassadors y la versión artefacto del Pulso que se descartó. Ninguno publicado.
+
+### 📌 Lucía
+
+**Si publicas tus dos cortes, pásame los enlaces y los agrego a la pestaña Operación.** Por
+ahora salen listados con su ruta de archivo y la marca «sin publicar», para que Sandra sepa
+que existen.
+
+**Ambassadors queda en Archivo y marcado «otro frente»**, separado a propósito, como pidió
+Sandra: va aparte del programa de Intelligence y no entra en sus indicadores.
+
+### Mantenimiento
+
+**Este índice no se actualiza solo.** Los tableros que enlaza sí. La Mesa se toca solo cuando
+aparece un tablero nuevo, se publica uno de los que están sin publicar, o uno vigente pasa a
+archivo.
+
 ## 📊 8 sep · 17:20 · Tablero de resultados de la encuesta, con 4 respuestas
 
 Tablero: https://claude.ai/code/artifact/0cca00fb-603a-4ae8-a87f-1d5f724dbf0d
