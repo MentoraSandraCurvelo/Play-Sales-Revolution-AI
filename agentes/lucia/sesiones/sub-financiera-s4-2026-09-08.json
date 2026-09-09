@@ -1,0 +1,241 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SUB. ADMINISTRATIVA Y FINANCIERA",
+  "area_completa": "",
+  "sesion_num": 4,
+  "fase": "Ejercicios Prácticos",
+  "fecha": "8 de septiembre de 2026",
+  "fecha_corta": "8 septiembre 2026",
+  "subtitulo_meta": "Individual de Liliany Gómez · 8 de septiembre de 2026 · 4:00 p. m. · 55 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Sub. Administrativa y Financiera — Comfacesar"],
+    ["Sesión", "N° 4 — Individual de Liliany Gómez: el proyecto del área precontractual y la primera revisión medida"],
+    ["Fecha", "8 de septiembre de 2026"],
+    ["Hora inicio", "4:00 p. m. — Colombia"],
+    ["Duración de la sesión", "55 minutos (4:12 p. m. – 5:07 p. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Liliany Gómez — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "120 → 10", "etiqueta": "Minutos de la revisión", "detalle": "Contrato contra propuesta, medido en sesión"},
+    {"valor": "4", "etiqueta": "Hallazgos en el primer intento", "detalle": "Sobre un expediente ya revisado a mano"},
+    {"valor": "1", "etiqueta": "Proyecto creado", "detalle": "Área precontractual, con el método CREA"},
+    {"valor": "2", "etiqueta": "Puntos de mejora", "detalle": "Del proceso, no de la herramienta"},
+    {"valor": "2", "etiqueta": "Necesidades mapeadas", "detalle": "Pasantes y vencimiento de contratos"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Liliany Gómez", "cargo": "Sub. Administrativa y Financiera — Comfacesar", "correo": "Por confirmar — hoy con cuenta personal", "modalidad": "Virtual", "nivel": "Inicial"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 4. El puesto arrancó hoy de verdad y el primer ejercicio salió bien; lo que queda por resolver es de ritmo y de entorno, no de comprensión.",
+  "riesgos": [
+    {
+      "titulo": "El puesto va atrasado y agenda pocas sesiones",
+      "nivel": "ALTO",
+      "descripcion": "Es la primera sesión en la que se trabaja un ejercicio del área, y quedan siete semanas. La tarea de la sesión anterior no se había podido completar. Quedó dicho en sesión: hay que agendar varias, y de una vez, porque la agenda se llena.",
+      "responsable": "Liliany Gómez / Esta semana"
+    },
+    {
+      "titulo": "El análisis se hace después de imprimir y escanear",
+      "nivel": "ALTO",
+      "descripcion": "La propuesta llega impresa y escaneada, y sobre ese escaneo se hace la revisión. Se pidió incluso convertir una propuesta a blanco y negro por no haber impresora a color, y con eso se pierde información que el documento original sí traía. Un escaneo se lee peor que el digital — para una persona y para la herramienta. La impresión debería ir después del análisis, no antes.",
+      "responsable": "Sub. Administrativa y Financiera / Por autorizar"
+    },
+    {
+      "titulo": "El control de pasantes no existe",
+      "nivel": "ALTO",
+      "descripcion": "Hay pasantes del Instituto Técnico de Comfacesar, del SENA —con una cuota mensual que hay que cumplir— y universitarios en práctica. Se contratan desde distintas áreas y hoy no se puede responder cuántos son ni en qué áreas están. Sin ese control no se puede sostener la cuota ni ubicar a nadie cuando lo preguntan.",
+      "responsable": "Sub. Administrativa y Financiera / Por mapear"
+    },
+    {
+      "titulo": "Los contratos a término fijo se vencen sin aviso",
+      "nivel": "ALTO",
+      "descripcion": "El seguimiento llega en un Excel con veinte o cincuenta personas para marcar quién continúa y quién no, y se hace a mano. Ya ha pasado que un vencimiento no se detecta a tiempo y hay que prorrogar el contrato tres meses, y a veces prorrogarlo otra vez. Los preavisos tienen término de ley.",
+      "responsable": "Sub. Administrativa y Financiera / Por mapear"
+    },
+    {
+      "titulo": "La aplicación de escritorio no está instalada",
+      "nivel": "MEDIO",
+      "descripcion": "Sin ella no se puede conectar una carpeta del computador, así que hay que subir los archivos uno por uno. Es requisito de entrada de la próxima sesión.",
+      "responsable": "Liliany Gómez / Antes de la S5"
+    },
+    {
+      "titulo": "El equipo de trabajo cambió el mismo día",
+      "nivel": "MEDIO",
+      "descripcion": "Llegó una compañera nueva y hubo reasignación de equipos; la sesión se trabajó desde el computador de la jefatura, así que parte del material propio no estaba a mano. Conviene dejar la configuración hecha en el equipo definitivo.",
+      "responsable": "Liliany Gómez / Esta semana"
+    },
+    {
+      "titulo": "El manual de contratación no está en el proyecto",
+      "nivel": "MEDIO",
+      "descripcion": "Ahí están escritos todos los parámetros que hoy se le dictaron a mano. Cargarlo al proyecto evita tener que enumerarlos en cada consulta y hace la revisión mucho más precisa.",
+      "responsable": "Liliany Gómez / Esta semana"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Llevar el ejercicio a la jefatura y pedir el visto bueno",
+      "descripcion": "El resultado quedó listo para mostrarse. Si el proceso se aprueba, se registra en el tablero con su medición y se pone en producción sobre las solicitudes que van llegando.",
+      "responsable": "Liliany Gómez",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Proponer que la revisión se haga antes, en precontractual",
+      "descripcion": "El mismo análisis puede correrse en el puesto que arma la solicitud, para que las inconsistencias se corrijan antes de subir. Son dos pasos consecutivos de la misma subdirección y los dos se están automatizando por separado.",
+      "responsable": "Sub. Administrativa y Financiera",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Autorizar la revisión en digital",
+      "descripcion": "Que la propuesta y la solicitud viajen en digital y se impriman solo después de aprobadas. Ahorra tiempo del puesto que imprime y escanea, y mejora la lectura del documento.",
+      "responsable": "Sub. Administrativa y Financiera",
+      "plazo": "Por autorizar"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Agendar varias sesiones de una vez",
+      "descripcion": "El puesto va atrasado y quedan siete semanas. Conviene dejar bloqueada la semana completa mientras haya cupo.",
+      "responsable": "Liliany Gómez",
+      "plazo": "Hoy mismo"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Instalar Claude de escritorio",
+      "descripcion": "Es lo que permite conectar carpetas en vez de subir archivos uno por uno. Requisito de entrada de la próxima sesión.",
+      "responsable": "Liliany Gómez",
+      "plazo": "Antes de la S5"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Subir el manual de contratación al proyecto",
+      "descripcion": "Y el modelo del correo de respuesta que se envía al área precontractual, para que la entrega salga con el formato que el área ya usa.",
+      "responsable": "Liliany Gómez",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "07",
+      "nivel": "MEDIO",
+      "titulo": "Contestar la encuesta del programa",
+      "descripcion": "Está publicada en el canal. Es anónima y sirve para ajustar las sesiones que quedan hasta el 30 de octubre.",
+      "responsable": "Liliany Gómez",
+      "plazo": "Esta semana"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Dejar el entorno de trabajo montado",
+      "duracion": "~12 min",
+      "objetivo": "Cerrar la configuración que había quedado pendiente y dejar el canal a la mano.",
+      "pasos": [
+        "Se creó la carpeta de marcadores «Herramientas de IA» en el navegador y se guardaron ahí las herramientas que se usan",
+        "Se entró a Slack desde el navegador, se ubicó el canal del área y se recorrió lo que hay allí: el enlace de agendamiento, las actas, las grabaciones, el reporte del área y la encuesta del programa",
+        "Quedó claro para qué sirve cada cosa: el enlace para tomar los espacios sin pasar por nadie, y el reporte para registrar cada proceso que se cierre",
+        "La cuenta está activa con correo personal. Para la herramienta no es un problema; el correo corporativo es el que hace falta cuando se conecten los conectores y se monte el sistema de trabajo"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El proyecto del área precontractual",
+      "duracion": "~18 min",
+      "objetivo": "Construir el primer proyecto real del puesto con el método CREA, sobre el proceso que más se repite.",
+      "pasos": [
+        "Criterio de organización: un proyecto por área supervisada — precontractual, comunicaciones y las demás — como carpetas separadas",
+        "_Contexto_ — llega por correo desde el área precontractual la solicitud de contrato de cualquier área de Comfacesar, y aquí se revisa antes de que siga",
+        "_Los parámetros_, dictados uno por uno: la fecha, que no sea anterior a la firma —que no sea un hecho cumplido—; el monto, que coincida con el valor de la propuesta; el objeto, que corresponda a lo que la propuesta dice; y la información completa del proveedor",
+        "_Rol_ — experto en análisis contractual, detallista en la minucia, que no se le escape nada",
+        "_Entrega_ — un documento editable con los hallazgos y las inconsistencias, semaforizado en tres niveles, y un cuadro comparativo de la propuesta contra la solicitud",
+        "_Acción_ — cuando todo está conforme, enviar el correo de respuesta al área precontractual con el asunto que el área ya usa",
+        "Quedó identificado lo que falta cargar: el manual de contratación, donde están escritos todos esos parámetros, y el modelo del correo de respuesta"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · La primera revisión, sobre un expediente real",
+      "duracion": "~20 min",
+      "objetivo": "Correr el proceso sobre una solicitud y su propuesta, y medirlo.",
+      "pasos": [
+        "Se cargaron la solicitud de contrato y la propuesta de un expediente que el puesto ya había revisado a mano, para poder comparar",
+        "Devolvió el análisis semaforizado con cuatro hallazgos, y ninguno era trivial",
+        "_El objeto_ — la solicitud lo trae resumido y la propuesta lo detalla; quedó marcado como parcial porque no coinciden en alcance",
+        "_La forma de pago_ — el documento se contradice a sí mismo: en un apartado dice un esquema y más adelante otro distinto. Es el tipo de ambigüedad que después se discute con el proveedor",
+        "_El número de beneficiarios_ — inconsistente dentro del propio documento, porque suma dos programas de dos formas distintas",
+        "_Un soporte faltante_ en el expediente, que el área ya sabía y que un cambio reciente de procedimiento deja sin efecto",
+        "También marcó bien lo que no había que revisar: los centros de costo los asigna el área, así que nunca van a estar en la propuesta. Eso se le indica y se saca de los parámetros",
+        "_Medición tomada en sesión:_ la revisión completa, leyendo y comparando documento contra documento, toma alrededor de _dos horas_. Este análisis salió en unos _diez minutos_",
+        "Se probó el último paso del método: pedirle que enviara el documento al área precontractual para que corrigieran"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD MEDIDA · SESIÓN 4 · 8 septiembre 2026",
+      "titulo": "La revisión de la solicitud contra la propuesta",
+      "descripcion": "Leer los dos documentos completos y compararlos línea por línea toma cerca de dos horas por expediente. El análisis semaforizado, con el cuadro comparativo y los hallazgos listados, salió en unos diez minutos — y sobre un expediente ya revisado a mano encontró cuatro cosas. Queda a un paso de producción: falta el visto bueno de la jefatura.",
+      "estado": "Probado sobre un expediente real",
+      "proximo_paso": "Mostrarlo a la jefatura y registrarlo en el tablero",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "OPORTUNIDAD DE PROCESO · SESIÓN 4 · 8 septiembre 2026",
+      "titulo": "Corregir antes, no después",
+      "descripcion": "El mismo análisis puede correrse en el puesto que arma la solicitud, antes de que suba. Así las inconsistencias se corrigen en origen y esta revisión pasa de buscar errores a dar el visto bueno. Son dos pasos consecutivos de la misma subdirección, y los dos ya están automatizando su parte por separado — alinearlos no cuesta nada y cambia el flujo completo.",
+      "estado": "Planteada en sesión por el propio puesto",
+      "proximo_paso": "Proponerlo a la jefatura junto con el punto anterior",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "OPORTUNIDAD PLANTEADA · SESIÓN 4 · 8 septiembre 2026",
+      "titulo": "Las dos alertas que hoy no existen",
+      "descripcion": "Dónde están los pasantes y cuántos son, para sostener la cuota mensual; y qué contratos a término fijo se vencen, para que el preaviso salga a tiempo. Hoy las dos cosas viven en Excel y se revisan a mano — y en la segunda ya hay casos de prórrogas de tres meses por no haber detectado el vencimiento. Son dos tableros con semáforo, y el área ya sabe construirlos.",
+      "estado": "Necesidades mapeadas en sesión",
+      "proximo_paso": "Traer los archivos reales a la próxima sesión",
+      "target": "Septiembre"
+    }
+  ],
+  "tareas_intro": "Esta fue la sesión en que el puesto arrancó de verdad: dejó el entorno montado, creó su primer proyecto del área y corrió un ejercicio real que salió con hallazgos. Lo que queda es sostener el ritmo y llevar las dos decisiones de proceso a la jefatura.",
+  "tareas": [
+    {"tarea": "Mostrar el ejercicio a la jefatura y pedir el visto bueno del proceso", "responsable": "Liliany Gómez", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Proponer que la revisión se corra antes, en el área precontractual", "responsable": "Sub. Administrativa y Financiera", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Proponer que la revisión se haga en digital y se imprima solo lo aprobado", "responsable": "Sub. Administrativa y Financiera", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Agendar varias sesiones de una vez", "responsable": "Liliany Gómez", "prioridad": "ALTA", "plazo": "Hoy mismo"},
+    {"tarea": "Instalar Claude de escritorio", "responsable": "Liliany Gómez", "prioridad": "MEDIA", "plazo": "Antes de la S5"},
+    {"tarea": "Subir al proyecto el manual de contratación y el modelo del correo de respuesta", "responsable": "Liliany Gómez", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Dejar la configuración hecha en el equipo definitivo", "responsable": "Liliany Gómez", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Traer los archivos reales de pasantes y de contratos a término fijo", "responsable": "Liliany Gómez", "prioridad": "MEDIA", "plazo": "Próxima sesión"},
+    {"tarea": "Contestar la encuesta del programa", "responsable": "Liliany Gómez", "prioridad": "MEDIA", "plazo": "Esta semana"}
+  ],
+  "observaciones": [
+    "El ejercicio no se hizo sobre un ejemplo: se hizo sobre un expediente que el puesto ya había revisado a mano. Por eso los cuatro hallazgos valen — no son una demostración, son cosas que la revisión manual no había marcado.",
+    "El hallazgo de proceso lo planteó el propio puesto, y es el más importante de la sesión: si este análisis se corre antes, en el puesto que arma la solicitud, las inconsistencias se corrigen en origen. Dos pasos consecutivos de la misma subdirección están automatizando su parte por separado; alinearlos convierte esta revisión en un visto bueno en vez de una búsqueda de errores.",
+    "El punto de la impresión quedó pedido expresamente para el acta. Hoy la propuesta se imprime, se escanea y sobre ese escaneo se revisa — se llegó a pedir convertir una propuesta a blanco y negro por no haber impresora a color. Un escaneo se lee peor que el original, para una persona y para la herramienta. La impresión debería ir al final, cuando el expediente ya esté aprobado.",
+    "Aparecieron dos necesidades que no estaban en el mapa del área y que pesan: no hay forma de saber cuántos pasantes hay ni dónde están, con una cuota mensual que cumplir; y los vencimientos de contratos a término fijo se revisan a mano, con casos ya ocurridos de prórrogas de tres meses por no haberlos detectado a tiempo. Las dos se resuelven con un tablero semaforizado.",
+    "El puesto compró su licencia por iniciativa propia y llegó con la herramienta funcionando, aunque hasta ahora la venía usando para redactar y enviar correos. El salto de esta sesión fue pasar de eso a un proceso con parámetros y entrega definida.",
+    "El área supervisa varias gerencias, así que conviene organizarla como se acordó: un proyecto por área supervisada. Cada una tiene sus parámetros y sus alertas, y mezclarlas en un solo espacio hace que ninguna quede bien."
+  ],
+  "proxima_sesion": {
+    "sesion": "Sub. Administrativa y Financiera — Sesión 5, miércoles 9 de septiembre",
+    "condiciones": [
+      "Claude de escritorio instalado",
+      "El manual de contratación y el modelo de correo cargados al proyecto",
+      "El visto bueno de la jefatura sobre el proceso, si alcanza",
+      "Los archivos reales de pasantes o de contratos a término fijo"
+    ],
+    "agenda": [
+      "Conectar carpetas en vez de subir archivos",
+      "Modelar la revisión hasta dejarla en producción",
+      "El tablero de control de pasantes",
+      "El tablero de vencimientos con alerta de preaviso"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 8 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

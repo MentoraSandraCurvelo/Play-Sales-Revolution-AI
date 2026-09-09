@@ -465,3 +465,43 @@ Los PDF los sube Sandra a cada canal: el conector de Slack no puede adjuntar arc
 - **Danefer Mora** no está en `#planeacion` y **Julio Pérez** no está en `#comunicaciones` — ambos asisten y no reciben resúmenes ni recordatorios.
 - **Sandra Milena Hinojosa** preguntó en `#planeacion` el 20 de agosto y nadie ha respondido.
 - **Mañana martes 8, 2:00 p. m. — reporte con María Elvira:** el agente de auditoría de uso que pidió el director, y la respuesta de licenciamiento.
+
+---
+
+## Martes 8 de septiembre de 2026 — cuatro sesiones, cuatro actas el mismo día
+
+| Área | Sesión | Quién | Publicado |
+|---|---|---|---|
+| Subsidio y Aportes | S3 | Avelino Romero y Carlos García | 08/09 |
+| Agencia de Empleo | S5 | Lina María Rincón y José Jaime Maya | 08/09 |
+| Sub. Administrativa y Financiera | S4 | Liliany Gómez | 08/09 |
+
+Servicios Sociales, a las 5:00 p. m., la canceló Juan Pablo por cita médica.
+
+### Lo que dejó el día
+
+**El programa cruzó al trabajo agéntico.** Agencia de Empleo creó *Sofía* —revisa el correo en tres cortes diarios y reenvía lo que corresponde— y la probó en vivo con un correo real. Es el segundo agente del programa, después de *Lilia* en Jurídica.
+
+**Tres procesos nuevos medidos**, y los tres sobre datos reales:
+- Subsidio — el cruce con la Registraduría, de 2 h a ~10 min
+- Sub. Financiera — la revisión de solicitud contra propuesta, de 2 h a ~10 min
+- Agencia de Empleo — el consolidado de recobros, de días a ~20 min (falta la cifra exacta del antes)
+
+**Dos validaciones contra trabajo hecho a mano, y las dos encontraron diferencias.** En Agencia de Empleo el consolidado difirió del archivo manual en los dos sentidos. En Sub. Financiera, sobre un expediente ya revisado, aparecieron cuatro hallazgos. Ese es el argumento que vale: no es velocidad, es control.
+
+**Un hallazgo de flujo entre dos puestos de la misma subdirección.** Rafael hace la prevalidación precontractual y Liliany revisa lo que él sube. Los dos automatizan su parte por separado; si el análisis se corre en origen, la segunda revisión pasa de buscar errores a dar visto bueno. Lo planteó Liliany en sesión.
+
+### Numeración, corregida
+
+Se fijó la regla en `LUCIA.md`: **el número es del área y corre por fecha; el nombre de la persona va en el título cuando la sesión es individual.**
+
+- **Subsidio** — el evento decía S3 y estaba bien (S1 24 ago, S2 25 ago). El Termómetro la tenía como S4 y a las 11:00; fue a las 10:00. Revisar de dónde saca ese dato.
+- **Agencia de Empleo** — hoy es S5, verificado contra las carpetas 1 a 4.
+- **Sub. Administrativa y Financiera** — hoy es S4 (S1 20 ago, S2 2 sep, S3 7 sep con Rafael). El evento decía «Sesión 4» y estaba bien, pero **la carpeta de Dropbox está corrida**: los archivos de hoy quedaron en «Sesion 5», y los del lunes 7 —publicados como S3— están en «Sesion 4». Además, la carpeta «Sesion 3» tiene una copia del VTT de la S2, mismo tamaño exacto.
+- Pendiente de renombrar en el calendario: miércoles 9 → S5 · Rafael; viernes 11 → S6 · Rafael. Los renombra Sandra: el conector lee el calendario pero no escribe.
+
+### Pendiente de Sandra
+
+- **Cindy** estuvo 46 minutos en la sesión de Subsidio, no está en `#subsidio` ni en el listado del área. No se nombró en el acta.
+- **Liliany** trabaja con cuenta personal y su correo está por confirmar; hoy trabajó desde el equipo de la jefatura porque hubo reasignación.
+- **Fomento Empresarial** estaba invitado a la sesión de Empleo y no entró.
