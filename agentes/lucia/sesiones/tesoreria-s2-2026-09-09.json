@@ -1,0 +1,221 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "TESORERÍA",
+  "area_completa": "",
+  "sesion_num": 2,
+  "fase": "Sistemas de Trabajo Agénticos",
+  "fecha": "9 de septiembre de 2026",
+  "fecha_corta": "9 septiembre 2026",
+  "subtitulo_meta": "Con Yohana Carreño · 9 de septiembre de 2026 · 12:00 m. · 51 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Tesorería — Comfacesar"],
+    ["Sesión", "N° 2 — Con Yohana Carreño: la relación de inversiones y el bloqueo de los documentos escaneados"],
+    ["Fecha", "9 de septiembre de 2026"],
+    ["Hora inicio", "12:00 m. — Colombia"],
+    ["Duración de la sesión", "51 minutos (12:05 p. m. – 12:56 p. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Yohana Carreño — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "20 min", "etiqueta": "De la hora en configurar", "detalle": "El método del proyecto venía pendiente de la S1"},
+    {"valor": "0", "etiqueta": "PDF que se pudieron leer", "detalle": "Los escaneos no traen capa de texto"},
+    {"valor": "8", "etiqueta": "Campos de la relación", "detalle": "De entidad y fechas a rendimientos y respaldo"},
+    {"valor": "2", "etiqueta": "Procesos en la mira", "detalle": "Relación de inversiones y programación de pagos"},
+    {"valor": "3", "etiqueta": "Sesiones a agendar", "detalle": "Para la próxima semana, según lo acordado"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Yohana Patricia Carreño Martínez", "cargo": "Tesorería — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Inicial"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 2. El área definió bien su primer proceso, pero el ejercicio se detuvo en un punto que no es de método sino de insumo: los documentos de los que hay que leer la información no son legibles para ningún sistema.",
+  "riesgos": [
+    {
+      "titulo": "Los CDT están en físico y los escaneos no tienen capa de texto",
+      "nivel": "CRÍTICO",
+      "descripcion": "Es el bloqueo de la sesión y el que decide si este proceso se puede automatizar o no. El sistema lo diagnosticó con precisión: _la extracción de texto devolvió vacío_, porque son imágenes de un documento y no un documento. Se intentó con el escáner de la oficina y con fotos del teléfono, y en ninguno de los dos casos se pudo leer el contenido. Sin insumo legible no hay nada que automatizar.",
+      "responsable": "Yohana Carreño / Antes de la S3"
+    },
+    {
+      "titulo": "El área va en la sesión 2 con más de un mes de programa",
+      "nivel": "CRÍTICO",
+      "descripcion": "Es una de las cadencias más bajas del proyecto. Hay áreas en la sexta, séptima y octava sesión, con procesos completos automatizados y ahorros que van de cinco horas a una semana de trabajo. _Se acordó en sesión:_ tres reuniones la próxima semana, y no tienen que ser todas en grupo — pueden ser individuales, por proceso.",
+      "responsable": "Yohana Carreño / Inmediato"
+    },
+    {
+      "titulo": "El método del proyecto venía pendiente de la sesión anterior",
+      "nivel": "ALTO",
+      "descripcion": "Se dedicaron unos veinte minutos de la hora a construir el contexto, el rol y la entrega, que era la tarea de la S1. No es tiempo perdido —quedó bien hecho y sirve de modelo para los demás procesos del área— pero es tiempo que no se pudo usar en el ejercicio. Aquí se trabaja con datos financieros exactos, donde no cabe margen de error, y por eso la configuración no se puede saltar.",
+      "responsable": "Yohana Carreño / Resuelto en sesión"
+    },
+    {
+      "titulo": "Las actas y las grabaciones no se están revisando entre sesiones",
+      "nivel": "ALTO",
+      "descripcion": "Después de cada sesión quedan publicados en el canal la grabación, el acta y la asistencia. El acta trae los compromisos, los hallazgos y lo que hay que tener listo para la siguiente. Revisarla es lo que evita que la hora siguiente se vaya en resolver lo de la anterior.",
+      "responsable": "Yohana Carreño / Permanente"
+    },
+    {
+      "titulo": "Los saldos bancarios se consultan uno a uno, plataforma por plataforma",
+      "nivel": "ALTO",
+      "descripcion": "Para la programación de pagos, hoy hay que entrar a cada portal bancario y consultar saldo por saldo. Si esos saldos se descargan, todo lo que viene después es automatizable — pero ese segundo proceso todavía no tiene su método definido.",
+      "responsable": "Yohana Carreño / Antes de la S3"
+    },
+    {
+      "titulo": "Una integrante del equipo no logró entrar a la sesión",
+      "nivel": "MEDIO",
+      "descripcion": "Se reportó desde el área que una persona del equipo estaba intentando conectarse y no aparecía en la sala de espera. Conviene verificar por dónde le está llegando la invitación para que no vuelva a quedar fuera.",
+      "responsable": "Yohana Carreño / Por revisar"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "CRÍTICO",
+      "titulo": "Escanear los CDT de forma que el texto sea legible",
+      "descripcion": "El escaneo tiene que producir un documento con texto, no una imagen. Se sugirió en sesión usar una aplicación de escaneo desde el teléfono, que hace ese reconocimiento. Es la condición para que el ejercicio siquiera pueda correr.",
+      "responsable": "Yohana Carreño",
+      "plazo": "Antes de la S3"
+    },
+    {
+      "num": "02",
+      "nivel": "CRÍTICO",
+      "titulo": "Agendar tres sesiones para la próxima semana",
+      "descripcion": "Lunes, miércoles y viernes, o como le acomode al área. Individuales o en grupo. Es lo acordado y es lo que permite recuperar el terreno antes del cierre del programa.",
+      "responsable": "Yohana Carreño",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Dejar la carpeta digital de CDT activa y organizada",
+      "descripcion": "Todos los títulos escaneados en una sola carpeta, por banco o por título, como el área prefiera. De ahí es de donde el sistema va a leer, y de ahí en adelante todo lo nuevo entra por escaneo.",
+      "responsable": "Yohana Carreño",
+      "plazo": "Antes de la S3"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Construir el método del proyecto de programación de pagos",
+      "descripcion": "Igual que se hizo hoy con la relación de inversiones: contexto de cómo se hace hoy, el rol, lo que debe entregar y la acción concreta. Con el modelo de esta sesión a la vista, ya se puede hacer sola.",
+      "responsable": "Yohana Carreño",
+      "plazo": "Antes de la S3"
+    },
+    {
+      "num": "05",
+      "nivel": "ALTO",
+      "titulo": "Revisar el acta y la grabación antes de cada sesión",
+      "descripcion": "Están en el canal del área desde el mismo día. Traen los compromisos y lo que hay que tener listo.",
+      "responsable": "Yohana Carreño",
+      "plazo": "Permanente"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Traer el ejercicio de validación resuelto",
+      "descripcion": "La copia del Excel con los campos en blanco, para que el sistema los llene y se comparen contra los que ya están diligenciados a mano. Es la prueba que dice si el resultado sirve.",
+      "responsable": "Yohana Carreño",
+      "plazo": "Antes de la S3"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El método del proyecto de relación de inversiones",
+      "duracion": "~20 min",
+      "objetivo": "Dejar el proyecto bien definido, para que sirva de modelo a todos los demás procesos del área.",
+      "pasos": [
+        "El proyecto llegaba con la acción escrita pero sin lo demás — y sin lo demás no arranca nada",
+        "_Contexto:_ hoy el área diligencia a mano un archivo de cálculo con todas las inversiones —CDT y fiducias—, tomando la información de los títulos que reposan en físico en el área. El tiempo varía según los vencimientos del periodo, y puede irse una hora o más",
+        "_Rol:_ el mejor analista de inversiones para cajas de compensación, detallista a la hora de construir la información y con el control del dato",
+        "_Entrega:_ el archivo diligenciado, y a partir de él un tablero con indicadores de gestión —concentración por entidad bancaria—, alertas de vencimiento, semaforización y gráficas",
+        "_Acción:_ la relación de inversiones constituidas vigencia 2026, con entidad, fecha de constitución, vencimiento, valor, rendimientos proyectados, porcentaje por entidad, respaldo financiero y observación",
+        "_El criterio de fondo:_ aquí se trabaja con datos financieros exactos. No hay margen de error, y por eso la definición del proyecto no es un trámite previo sino la garantía del resultado",
+        "Se revisaron los conectores: casi todos estaban activos, y se conectó el que faltaba"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · La prueba con títulos reales",
+      "duracion": "~25 min",
+      "objetivo": "Verificar que el sistema puede leer un título y llenar la relación correctamente.",
+      "pasos": [
+        "_El diseño de la prueba fue el correcto:_ se duplicó el archivo de cálculo, se borraron los campos de dos títulos ya diligenciados a mano, y se le pidió al sistema que los llenara — para poder comparar después contra lo que el área había hecho",
+        "Se escanearon dos títulos con el equipo de la oficina y se cargaron",
+        "_El resultado fue un diagnóstico limpio:_ 'no pude extraer el contenido de los PDF; la extracción de texto devolvió vacío, lo que indica que son documentos escaneados sin capa de texto'",
+        "Se intentó de nuevo tomando fotografías del documento con el teléfono, y tampoco se pudo leer",
+        "_La causa es del insumo, no del método:_ un escaneo que produce una imagen del papel no es un documento legible. Se necesita un escaneo con reconocimiento de texto",
+        "_El dato de fondo:_ los CDT del área son títulos físicos, no desmaterializados. Todo el proceso depende de digitalizarlos bien"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El segundo proceso: programación de pagos",
+      "duracion": "~6 min",
+      "objetivo": "Identificar dónde está el trabajo manual y dónde se puede intervenir.",
+      "pasos": [
+        "Hoy la programación de pagos exige entrar a cada plataforma bancaria y consultar saldo por saldo, una por una",
+        "_El punto de intervención:_ si los saldos se descargan en lugar de consultarse a mano, todo lo que viene después —consolidación, programación, alertas— es automatizable",
+        "Quedó de tarea construirle el método al proyecto, con el de la relación de inversiones como modelo"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD DEFINIDA · SESIÓN 2 · 9 septiembre 2026",
+      "titulo": "La relación de inversiones, con su tablero de alertas",
+      "descripcion": "El proyecto quedó bien planteado y es ambicioso en el buen sentido: no reproduce lo que el área hace hoy a mano, sino que pide más — el archivo diligenciado, la concentración por entidad bancaria, las alertas de vencimiento y la semaforización, en un tablero. Es la primera vez que el área pide un resultado superior al que produce manualmente.",
+      "estado": "Definido; a la espera del insumo legible",
+      "proximo_paso": "Escanear los títulos con reconocimiento de texto",
+      "target": "Sesión 3"
+    },
+    {
+      "encabezado": "OPORTUNIDAD PLANTEADA · SESIÓN 2 · 9 septiembre 2026",
+      "titulo": "Los saldos bancarios, descargados en vez de consultados",
+      "descripcion": "Hoy la programación de pagos empieza entrando a cada portal bancario a mirar saldo por saldo. Descargarlos convierte ese arranque manual en el insumo de un proceso automático — y es el mismo patrón que se acaba de aprender con las inversiones.",
+      "estado": "Por definir",
+      "proximo_paso": "Construir el método del proyecto",
+      "target": "Antes de la S3"
+    },
+    {
+      "encabezado": "OPORTUNIDAD DE FONDO · SESIÓN 2 · 9 septiembre 2026",
+      "titulo": "Digitalizar el archivo de títulos",
+      "descripcion": "Hoy los CDT reposan en físico en el área y cada consulta obliga a ir al papel. Escanearlos bien no resuelve solo este ejercicio: convierte el archivo de inversiones en información consultable, y cada título nuevo entra ya digitalizado desde el momento en que se constituye.",
+      "estado": "Por iniciar",
+      "proximo_paso": "Definir cómo y quién escanea, y dónde queda",
+      "target": "Septiembre"
+    }
+  ],
+  "tareas_intro": "La sesión dejó el proyecto bien definido y el bloqueo bien identificado, que no es poco. Pero la conclusión operativa es directa: el área tiene que digitalizar sus títulos y tiene que agendar. Sin lo primero no hay ejercicio; sin lo segundo no hay tiempo.",
+  "tareas": [
+    {"tarea": "Escanear los CDT con reconocimiento de texto", "responsable": "Yohana Carreño", "prioridad": "ALTA", "plazo": "Antes de la S3"},
+    {"tarea": "Agendar tres sesiones para la próxima semana", "responsable": "Yohana Carreño", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Dejar la carpeta digital de títulos activa y organizada", "responsable": "Yohana Carreño", "prioridad": "ALTA", "plazo": "Antes de la S3"},
+    {"tarea": "Construir el método del proyecto de programación de pagos", "responsable": "Yohana Carreño", "prioridad": "ALTA", "plazo": "Antes de la S3"},
+    {"tarea": "Revisar el acta y la grabación antes de cada sesión", "responsable": "Yohana Carreño", "prioridad": "ALTA", "plazo": "Permanente"},
+    {"tarea": "Traer resuelto el ejercicio de validación del archivo de cálculo", "responsable": "Yohana Carreño", "prioridad": "MEDIA", "plazo": "Antes de la S3"},
+    {"tarea": "Verificar por qué una integrante del equipo no pudo conectarse", "responsable": "Yohana Carreño", "prioridad": "MEDIA", "plazo": "Esta semana"}
+  ],
+  "observaciones": [
+    "El bloqueo de esta sesión es el más concreto que ha aparecido en el programa y conviene entenderlo bien: los títulos del área existen solo en papel, y los escaneos que se hicieron producen imágenes, no documentos. Cuando el sistema respondió que la extracción de texto devolvió vacío, no estaba fallando: estaba diciendo exactamente qué falta. Ningún sistema —ni este ni ninguno— puede leer lo que no tiene texto.",
+    "Esto convierte la digitalización del archivo de títulos en la primera tarea del área, por encima de cualquier automatización. Y tiene un valor que va más allá de este ejercicio: hoy cada consulta sobre una inversión obliga a ir al físico.",
+    "El proyecto quedó bien definido y vale la pena reconocerlo. Lo más significativo es que la entrega que se pidió es superior a lo que el área produce hoy a mano — no solo el archivo diligenciado, sino la concentración por entidad, las alertas de vencimiento y la semaforización en un tablero. Ese salto de ambición es justamente lo que hay que pedirle a la herramienta.",
+    "El diseño de la prueba también fue el correcto: duplicar el archivo, borrar lo que ya estaba hecho a mano y comparar. Es el mismo criterio que en otras áreas ha encontrado diferencias en trabajo ya revisado. La prueba quedó pendiente por el insumo, no por el método.",
+    "Veinte minutos de la hora se fueron construyendo el método del proyecto, que era la tarea de la sesión anterior. Se hizo bien y sirve de modelo para los demás procesos del área, pero es tiempo que no estuvo en el ejercicio. Las actas quedan publicadas en el canal el mismo día justamente para eso.",
+    "La alerta de frecuencia es la que más pesa y quedó acordada en sesión: tres reuniones la próxima semana. Hay áreas en la sexta y séptima sesión con procesos completos automatizados. La diferencia entre unas y otras no ha sido el nivel técnico de partida: ha sido cuántas veces nos vemos."
+  ],
+  "proxima_sesion": {
+    "sesion": "Tesorería — Sesión 3",
+    "condiciones": [
+      "Los CDT escaneados con texto legible, en su carpeta",
+      "El ejercicio de validación del archivo listo para comparar",
+      "El método del proyecto de programación de pagos construido",
+      "Las tres sesiones de la semana ya agendadas"
+    ],
+    "agenda": [
+      "La relación de inversiones diligenciada por el sistema y comparada contra la manual",
+      "El tablero con la concentración por entidad y las alertas de vencimiento",
+      "El arranque de la programación de pagos desde los saldos descargados",
+      "La conexión de la carpeta del computador al entorno de trabajo"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 9 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

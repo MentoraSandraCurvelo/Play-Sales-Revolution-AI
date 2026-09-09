@@ -1,0 +1,236 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "JURÍDICA",
+  "area_completa": "Alianzas y Convenios",
+  "sesion_num": 6,
+  "fase": "Sistemas de Trabajo Agénticos",
+  "fecha": "9 de septiembre de 2026",
+  "fecha_corta": "9 septiembre 2026",
+  "subtitulo_meta": "Individual de Carlos Mario Gamarra · 9 de septiembre de 2026 · 10:00 a. m. · 1 hora · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Jurídica — Alianzas y Convenios — Comfacesar"],
+    ["Sesión", "N° 6 — Individual de Carlos Mario Gamarra: el tablero de convenios corrigiendo sus propios datos y el primer agente del área"],
+    ["Fecha", "9 de septiembre de 2026"],
+    ["Hora inicio", "10:00 a. m. — Colombia"],
+    ["Duración de la sesión", "1 hora (10:00 a. m. – 11:00 a. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Carlos Mario Gamarra — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "43", "etiqueta": "Convenios en el tablero", "detalle": "Firmados desde 2015, con su variación por año"},
+    {"valor": "1", "etiqueta": "Alerta enviada sola", "detalle": "El convenio 051, al correo del responsable"},
+    {"valor": "32", "etiqueta": "Registros corregidos", "detalle": "Figuraban sin área responsable y no era cierto"},
+    {"valor": "4", "etiqueta": "Plantillas cargadas", "detalle": "Oficio, correo, devolución y lista de chequeo"},
+    {"valor": "2", "etiqueta": "Sistemas andando", "detalle": "El de convenios y el de proveedores"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Carlos Mario Gamarra Montes", "cargo": "Analista de Alianzas — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 6. El área llega con dos sistemas ya construidos y funcionando; lo que aparece ahora son los límites del entorno —permisos, versión de la herramienta, consumo— más que los del método.",
+  "riesgos": [
+    {
+      "titulo": "El tablero de convenios no puede compartirse por enlace",
+      "nivel": "ALTO",
+      "descripcion": "Al intentar abrir el enlace del tablero desde otra cuenta, el entorno lo bloquea. La lectura es que la configuración de la organización no permite que un documento con datos de la empresa se abra con cualquier persona que tenga el vínculo. _No es un error del trabajo hecho:_ es una restricción del entorno, y hay que resolverla con Tecnología si el tablero va a llegar a más personas.",
+      "responsable": "Carlos Mario Gamarra + Tecnología / Por escalar"
+    },
+    {
+      "titulo": "Un correo de alerta salió dos veces",
+      "nivel": "MEDIO",
+      "descripcion": "La primera alerta automática de vencimiento —el convenio 051— llegó duplicada, con segundos de diferencia entre un envío y otro. Es exactamente el tipo de detalle que se corrige devolviéndole a la herramienta el pantallazo del correo tal como se ve. Sin corregirlo, el destinatario deja de leer las alertas.",
+      "responsable": "Carlos Mario Gamarra / Esta semana"
+    },
+    {
+      "titulo": "Los escaneos de baja calidad detienen la lectura del convenio",
+      "nivel": "MEDIO",
+      "descripcion": "Algunos convenios están digitalizados con poca nitidez y no se alcanzan a leer completos. El sistema avisa qué parte no pudo leer y se corrige a mano, que es lo correcto — pero el volumen de correcciones manuales depende de la calidad del archivo, no del sistema.",
+      "responsable": "Carlos Mario Gamarra / Permanente"
+    },
+    {
+      "titulo": "El apartado de diseño todavía no aparece en su versión",
+      "nivel": "MEDIO",
+      "descripcion": "El módulo que se enseñó en sesión no está visible aún en su entorno. Queda pendiente de que la versión se actualice para poder llevar allí el tablero de convenios y editarlo en tiempo real.",
+      "responsable": "Carlos Mario Gamarra / Por verificar"
+    },
+    {
+      "titulo": "El agente consume créditos con rapidez",
+      "nivel": "MEDIO",
+      "descripcion": "Un agente encendido gasta mucho más que el trabajo en proyectos. Se acordó el criterio de apagarlo cuando no se esté usando y elegir el modelo intermedio para las tareas del día a día, dejando el más potente para lo que de verdad lo exige.",
+      "responsable": "Carlos Mario Gamarra / Permanente"
+    },
+    {
+      "titulo": "El celular no tiene el entorno corporativo",
+      "nivel": "BAJO",
+      "descripcion": "El teléfono solo tiene la cuenta personal, así que el tablero de convenios no se puede consultar en la calle — que es precisamente donde más falta hace cuando preguntan por un convenio y hay que recordarlo de memoria.",
+      "responsable": "Carlos Mario Gamarra / Esta semana"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Terminar el agente y dejarlo corriendo",
+      "descripcion": "Es el compromiso de la sesión: el agente de solicitudes en funcionamiento, con las plantillas cargadas, la lectura de los documentos y el envío de correos con confirmación previa.",
+      "responsable": "Carlos Mario Gamarra",
+      "plazo": "Antes de la S7"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Corregir el envío duplicado de la alerta",
+      "descripcion": "Con el pantallazo del correo duplicado, indicándole que debe salir un solo aviso por convenio.",
+      "responsable": "Carlos Mario Gamarra",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Escalar a Tecnología el bloqueo del enlace compartido",
+      "descripcion": "El tablero no se abre desde otra cuenta. Si el objetivo es que el director y las áreas responsables lo consulten, hay que resolver el permiso, no rehacer el tablero.",
+      "responsable": "Carlos Mario Gamarra + Tecnología",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Mover a la carpeta madre todo lo que el agente deba consultar",
+      "descripcion": "Los documentos base y las cuatro plantillas ya se trasladaron. El criterio queda: lo que no esté en esa carpeta, el agente no lo ve.",
+      "responsable": "Carlos Mario Gamarra",
+      "plazo": "Permanente"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Llevar el tablero de convenios al apartado de diseño",
+      "descripcion": "Cuando la versión lo habilite. Ahí se edita en tiempo real, sin ir pidiendo cambio por cambio, y es donde conviene agregarle la pestaña de alertas de prórroga.",
+      "responsable": "Carlos Mario Gamarra",
+      "plazo": "Cuando esté disponible"
+    },
+    {
+      "num": "06",
+      "nivel": "BAJO",
+      "titulo": "Habilitar el entorno corporativo en el celular",
+      "descripcion": "Para consultar el tablero fuera de la oficina, que es donde más se necesita.",
+      "responsable": "Carlos Mario Gamarra",
+      "plazo": "Esta semana"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Revisión del tablero y de la tarea programada",
+      "duracion": "~22 min",
+      "objetivo": "Ver funcionando lo que quedó de tarea y afinar lo que falló.",
+      "pasos": [
+        "El tablero ya trae logo institucional, la gráfica de convenios firmados por año y el cálculo de la variación — 43 convenios y cerca de un 25% de aumento",
+        "_Un hallazgo del propio trabajo:_ el histórico arranca en 2015 y no en 2024, porque hay convenios con universidades de hasta cinco años y con prórroga automática que siguen vigentes. La fuente fue una hoja de cálculo que el puesto había armado años atrás",
+        "_Corrección de datos:_ 32 convenios aparecían sin área responsable. La causa era de lectura, no de dato — el documento dice 'responsable' y no 'área responsable'. Bastó decírselo para que quedaran clasificados",
+        "Se le pidió además verificar que no hubiera convenios duplicados en el registro",
+        "_La tarea programada corre sola cada mañana:_ revisa los convenios, detecta los que están a diez días de vencer y envía el aviso al correo del responsable. Ya se disparó con el convenio 051",
+        "_Lo que falló:_ el aviso salió dos veces. Se acordó devolverle el pantallazo del correo para que lo corrija",
+        "_Un ajuste importante que el puesto ya había resuelto solo:_ el sistema leía únicamente hasta la página de firmas y se perdía las adiciones en tiempo — convenios de dos años prorrogados por dos más. Se le indicó leer el documento completo y ajustar la fecha de finalización"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El segundo sistema: inscripción de proveedores",
+      "duracion": "~8 min",
+      "objetivo": "Revisar un proyecto nuevo, construido por iniciativa propia entre sesiones.",
+      "pasos": [
+        "Es un formulario que llega con frecuencia y consume mucho tiempo, porque toda la información hay que contrastarla contra los documentos de la Caja",
+        "Se cargaron como contexto el certificado de existencia, el registro de proveedores y los demás soportes",
+        "_Lo que hace:_ valida que la información del formulario esté completa y correcta, y analiza los riesgos que hay que tener en cuenta _antes_ de pasar el caso a revisión jurídica y a la firma del director",
+        "_Lo que entrega:_ un informe con los puntos críticos señalados y la verificación de lo que sí está correcto",
+        "Se planteó guardarlo directamente en una carpeta en lugar de dejarlo en la conversación, para que quede trazabilidad del criterio aplicado en cada caso"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Recorrido por el apartado de diseño",
+      "duracion": "~12 min",
+      "objetivo": "Cerrar el módulo de la herramienta antes de pasar a agentes.",
+      "pasos": [
+        "Es el espacio donde un tablero se edita en tiempo real, viendo los cambios a medida que se hacen, en vez de pedir un ajuste tras otro en la conversación",
+        "Se recorrieron las salidas posibles: presentaciones, video, piezas en 3D, tableros interactivos con mapas, carruseles, mockups de campaña y firmas",
+        "_El criterio:_ el trabajo de fondo se hace en la conversación; este espacio es para cuando el resultado tiene que verse bien y editarse rápido",
+        "Se guardó el tablero de convenios en favoritos y se creó una carpeta propia del área para no mezclarlo con el resto",
+        "_Quedó abierto:_ el módulo aún no aparece en su versión, y el enlace del tablero no se deja abrir desde otra cuenta"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Construcción del agente",
+      "duracion": "~18 min",
+      "objetivo": "Montar el primer agente del área a partir de un proceso que ya estaba escrito.",
+      "pasos": [
+        "Se creó la carpeta madre en el Drive corporativo, que es de donde el agente lee y donde escribe",
+        "Se le dio nombre — María. Cuando hay varios agentes, el nombre es lo que permite saber cuál hace qué",
+        "_El punto de partida fue el proceso ya escrito:_ el puesto lo tenía redactado en un documento, con rol, contexto, acciones y entregable, porque el análisis toca cerca de doce documentos por solicitud",
+        "El agente devolvió preguntas antes de ejecutar: faltaban los documentos base y las cuatro plantillas — oficio, correo de solicitud, devolución y lista de chequeo. Se trasladaron a la carpeta madre",
+        "_Una confirmación útil:_ el agente sí puede leer las carpetas locales del equipo, no hay que copiar todo a un solo sitio. Para escribir, en cambio, conviene una carpeta de salida definida",
+        "_Sobre el envío de correos:_ el puesto planteó dejarlos en borrador por seguridad. Se optó por la revisión en la conversación — el agente muestra el correo, y solo con el visto bueno lo envía",
+        "Quedó lanzada la lectura de los documentos y definida la carpeta de salida"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD FUNCIONANDO · SESIÓN 6 · 9 septiembre 2026",
+      "titulo": "El vencimiento de un convenio ya no depende de que alguien se acuerde",
+      "descripcion": "Cada mañana el sistema revisa el registro completo, identifica los convenios a diez días de vencer y le escribe al responsable. Ya lo hizo con el primero. Es el control que antes existía solo en la memoria de una persona y en una hoja de cálculo que había que abrir a propósito.",
+      "estado": "Corriendo, con un envío duplicado por corregir",
+      "proximo_paso": "Corregir el duplicado y abrir el tablero a los responsables",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "OPORTUNIDAD FUNCIONANDO · SESIÓN 6 · 9 septiembre 2026",
+      "titulo": "El formulario de proveedores, revisado antes de llegar a firma",
+      "descripcion": "Construido por iniciativa propia entre una sesión y otra. Contrasta el formulario contra los soportes de la Caja, señala los riesgos y verifica lo que está correcto — todo antes de que el caso pase a revisión jurídica y a la firma del director. Es prevención en el punto donde cuesta más caro equivocarse.",
+      "estado": "Funcionando",
+      "proximo_paso": "Archivar el informe en carpeta, no en la conversación",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 6 · 9 septiembre 2026",
+      "titulo": "María, el agente de solicitudes",
+      "descripcion": "El primer agente del área. Lee los documentos de cada solicitud, aplica las cuatro plantillas del proceso, redacta el oficio y el correo, y los envía una vez el puesto da el visto bueno. Es el paso de tener un asistente al que hay que subirle archivos a tener uno que va a buscarlos.",
+      "estado": "Documentos y plantillas cargados; lectura lanzada",
+      "proximo_paso": "Terminarlo y dejarlo corriendo, con reporte propio",
+      "target": "Sesión 7"
+    }
+  ],
+  "tareas_intro": "Es una sesión de puesto adelantado. El área llegó con la tarea hecha, con un segundo sistema construido por iniciativa propia y con el proceso ya escrito en un documento — que es justamente lo que permitió montar el agente en menos de veinte minutos.",
+  "tareas": [
+    {"tarea": "Terminar el agente y dejarlo corriendo, con su reporte", "responsable": "Carlos Mario Gamarra", "prioridad": "ALTA", "plazo": "Antes de la S7"},
+    {"tarea": "Corregir el envío duplicado de la alerta de vencimiento", "responsable": "Carlos Mario Gamarra", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Escalar a Tecnología el bloqueo del enlace compartido", "responsable": "Carlos Mario Gamarra + Tecnología", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Guardar el informe de proveedores en carpeta, con trazabilidad", "responsable": "Carlos Mario Gamarra", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Llevar el tablero al apartado de diseño y sumarle la pestaña de prórrogas", "responsable": "Carlos Mario Gamarra", "prioridad": "MEDIA", "plazo": "Cuando esté disponible"},
+    {"tarea": "Habilitar el entorno corporativo en el celular", "responsable": "Carlos Mario Gamarra", "prioridad": "BAJA", "plazo": "Esta semana"},
+    {"tarea": "Agendar las sesiones de la próxima semana", "responsable": "Carlos Mario Gamarra", "prioridad": "MEDIA", "plazo": "Esta semana"}
+  ],
+  "observaciones": [
+    "El área trae dos sistemas funcionando y no uno: el de convenios, que ya avisa solo, y el de inscripción de proveedores, que se construyó entre sesiones sin que nadie lo pidiera. La encuesta y el tablero de seguimiento también estaban al día antes de empezar. Es el ritmo más alto que se ha visto en el programa hasta ahora.",
+    "El agente se montó en menos de veinte minutos por una sola razón: el proceso ya estaba escrito. El puesto lo había redactado en un documento —rol, contexto, acciones y entregable— porque el análisis toca cerca de doce documentos por solicitud. Ese documento es lo que se le pega al agente. Donde el proceso está escrito, el agente se construye rápido; donde vive en la cabeza de alguien, no se construye.",
+    "Los dos ajustes de datos de esta sesión no vinieron de la herramienta sino del criterio del puesto: notar que 32 convenios no podían estar realmente sin área responsable, y notar que un convenio de dos años prorrogado por otros dos tenía mal la fecha de finalización porque la lectura se detenía en la página de firmas. La herramienta no encuentra lo que no sabe que debe buscar.",
+    "El método para desatascarse quedó reforzado: cuando algo no funciona o no se entiende, se toma un pantallazo de la pantalla y se le devuelve. Sirve tanto para un correo que sale duplicado como para una instrucción que no se entiende.",
+    "Hay una restricción real del entorno que conviene registrar aparte del trabajo: el tablero no se puede abrir desde otra cuenta con el enlace. Mientras eso no se resuelva, todo lo construido sigue siendo de uso individual, y el valor de un tablero de convenios está justamente en que lo vean los responsables de cada uno.",
+    "Sobre el consumo: un agente encendido gasta mucho más rápido que el trabajo en proyectos. Se acordó apagarlo cuando no se use y reservar el modelo más potente para lo que lo amerite. Es una decisión de operación que hay que tomar de entrada, no cuando ya se acabaron los créditos."
+  ],
+  "proxima_sesion": {
+    "sesion": "Jurídica — Sesión 7",
+    "condiciones": [
+      "El agente terminado y corriendo",
+      "El envío duplicado corregido",
+      "El informe de proveedores archivándose en carpeta",
+      "Respuesta de Tecnología sobre el enlace compartido"
+    ],
+    "agenda": [
+      "Revisión del agente en funcionamiento y de lo que produce",
+      "El reporte automático del agente",
+      "El tablero en el apartado de diseño, con la pestaña de prórrogas",
+      "Un segundo agente, si el consumo lo permite"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 9 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

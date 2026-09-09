@@ -1,0 +1,331 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "IPS",
+  "area_completa": "Seguridad y Salud en el Trabajo",
+  "sesion_num": 2,
+  "fase": "Sistemas de Trabajo Agénticos",
+  "fecha": "9 de septiembre de 2026",
+  "fecha_corta": "9 septiembre 2026",
+  "subtitulo_meta": "Individual de Danilo Pozo · 9 de septiembre de 2026 · 11:00 a. m. · 59 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    [
+      "Área(s)",
+      "IPS — Seguridad y Salud en el Trabajo — Comfacesar"
+    ],
+    [
+      "Sesión",
+      "N° 2 — Individual de Danilo Pozo: el flujo de conceptos de aptitud y la conexión del entorno de trabajo"
+    ],
+    [
+      "Fecha",
+      "9 de septiembre de 2026"
+    ],
+    [
+      "Hora inicio",
+      "11:00 a. m. — Colombia"
+    ],
+    [
+      "Duración de la sesión",
+      "59 minutos (11:06 a. m. – 12:05 p. m.)"
+    ],
+    [
+      "Modalidad",
+      "Virtual — Microsoft Teams"
+    ],
+    [
+      "Asistencia",
+      "Danilo Pozo — completa"
+    ],
+    [
+      "Grabación",
+      "Publicada en el canal del área"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo — Mentora IAM™ Intelligence"
+    ]
+  ],
+  "kpis": [
+    {
+      "valor": "5 min",
+      "etiqueta": "Lo que tomaba 2 meses",
+      "detalle": "Medido por el área sobre su propio proceso"
+    },
+    {
+      "valor": "5",
+      "etiqueta": "Conectores activados",
+      "detalle": "Estaban todos apagados al empezar"
+    },
+    {
+      "valor": "3",
+      "etiqueta": "Correcciones al flujo",
+      "detalle": "Nomenclatura, archivo único y orden de los pasos"
+    },
+    {
+      "valor": "1",
+      "etiqueta": "Plataforma por conectar",
+      "detalle": "Los conceptos llegan por un sistema externo"
+    },
+    {
+      "valor": "2ª",
+      "etiqueta": "Sesión en cuatro semanas",
+      "detalle": "La cadencia más baja del programa"
+    }
+  ],
+  "participantes": [
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "—",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Danilo Pozo",
+      "cargo": "Seguridad y Salud en el Trabajo — IPS Comfacesar",
+      "correo": "—",
+      "modalidad": "Virtual",
+      "nivel": "Intermedio"
+    }
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 2. El área trae un resultado medido que vale la pena registrar, pero el entorno de trabajo estaba sin configurar y eso costó buena parte de la hora.",
+  "riesgos": [
+    {
+      "titulo": "El área va en la sesión 2 con más de un mes de programa",
+      "nivel": "CRÍTICO",
+      "descripcion": "Es la cadencia más baja de todo el proyecto. Hay áreas que van en la séptima u octava sesión y ya tienen su primer agente corriendo. _La brecha no se cierra sola:_ el programa termina el 30 de octubre y lo que no se agende ahora no cabe después. Las sesiones no tienen que ser en grupo — pueden ser individuales y con mayor frecuencia.",
+      "responsable": "Danilo Pozo / Inmediato"
+    },
+    {
+      "titulo": "Los conectores estaban todos desconectados",
+      "nivel": "ALTO",
+      "descripcion": "Era la tarea de configuración de la sesión anterior. Sin conectores no hay entorno de trabajo, y el primer ejercicio de la sesión falló por eso: la herramienta veía los nombres de las carpetas pero no podía leer su contenido. _Resuelto en sesión_ — se conectaron correo, unidad de archivos, calendario y la mensajería del proyecto, y se activó la aprobación automática.",
+      "responsable": "Danilo Pozo / Resuelto en sesión"
+    },
+    {
+      "titulo": "Los conceptos llegan por una plataforma externa con credenciales",
+      "nivel": "ALTO",
+      "descripcion": "El punto de entrada del proceso no está en el correo ni en una carpeta: es un sistema de un tercero del que hay que descargar cada concepto a mano. Mientras eso siga manual, la automatización arranca un paso tarde. _Es conectable_ solicitando la interfaz de integración al proveedor — queda registrado para revisarlo con el equipo técnico.",
+      "responsable": "Danilo Pozo + IAM™ / Por gestionar"
+    },
+    {
+      "titulo": "El proceso todavía no está mapeado paso a paso",
+      "nivel": "ALTO",
+      "descripcion": "La corrección más reveladora de la sesión fue de orden: el sistema colocó las hojas antes que la carta porque nadie le había dicho la secuencia real. El flujo correcto es concepto → matriz de ingreso → carta de recomendaciones → hojas de los sistemas de vigilancia. Sin ese mapa escrito, cada instrucción nueva vuelve a desordenarlo.",
+      "responsable": "Danilo Pozo / Antes de la S3"
+    },
+    {
+      "titulo": "Una conversación iniciada sin la carpeta no la acepta después",
+      "nivel": "MEDIO",
+      "descripcion": "Se intentó agregar la carpeta a mitad del ejercicio y no fue posible: la carpeta se conecta al abrir el espacio de trabajo, no después. Se resolvió copiando el trabajo ya hecho a una conversación nueva con la carpeta conectada desde el inicio.",
+      "responsable": "Danilo Pozo / Resuelto en sesión"
+    },
+    {
+      "titulo": "Las cartas salen sin membrete institucional",
+      "nivel": "BAJO",
+      "descripcion": "Son cartas que van al jefe directo del trabajador y a su superior, así que deben llevar el logo y un pie de página de confidencialidad. Se resuelve cargando el logo una sola vez.",
+      "responsable": "Danilo Pozo / Esta semana"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "CRÍTICO",
+      "titulo": "Agendar sesiones con mucha más frecuencia",
+      "descripcion": "Individuales o en grupo, como el área prefiera, pero seguidas. Es lo único que permite recuperar el terreno antes del cierre del programa.",
+      "responsable": "Danilo Pozo",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Rehacer el flujo en un espacio limpio con la carpeta conectada",
+      "descripcion": "No hay que reescribir nada: las instrucciones que ya funcionaron se copian del ejercicio anterior y se pegan en el espacio nuevo, esta vez con la carpeta madre conectada desde el primer momento.",
+      "responsable": "Danilo Pozo",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Traer el proceso mapeado, paso por paso",
+      "descripcion": "Escrito: primero esto, después esto, después esto. Es la condición para la próxima sesión y lo que permite que el sistema deje de invertir el orden.",
+      "responsable": "Danilo Pozo",
+      "plazo": "Antes de la S3"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Validar una matriz hecha a mano contra la que genera el sistema",
+      "descripcion": "Con un caso ya procesado, comparar campo por campo. No es para probar la herramienta: es para saber si el error está del lado del sistema o del diligenciamiento manual.",
+      "responsable": "Danilo Pozo",
+      "plazo": "Antes de la S3"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Gestionar la conexión con la plataforma de conceptos",
+      "descripcion": "Solicitar al proveedor la interfaz de integración. Es lo que cerraría el circuito desde el origen y eliminaría la descarga manual.",
+      "responsable": "Danilo Pozo + IAM™",
+      "plazo": "Por definir"
+    },
+    {
+      "num": "06",
+      "nivel": "BAJO",
+      "titulo": "Cargar el logo y el pie de confidencialidad de las cartas",
+      "descripcion": "Una sola vez, y todas las cartas salen membreteadas en adelante.",
+      "responsable": "Danilo Pozo",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "07",
+      "nivel": "BAJO",
+      "titulo": "Contestar la encuesta del programa",
+      "descripcion": "Está publicada en el canal del área.",
+      "responsable": "Danilo Pozo",
+      "plazo": "Esta semana"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Revisión de lo construido y la pregunta de confidencialidad",
+      "duracion": "~11 min",
+      "objetivo": "Ver el avance del área y resolver la duda que lo estaba frenando.",
+      "pasos": [
+        "El área trabajó entre sesiones y trae un resultado medido por ellos mismos: _lo que les tomaba dos meses, salió en cinco minutos_",
+        "El proceso: cuando llega el concepto de aptitud del examen médico ocupacional, hay que identificar qué personal viene con recomendaciones, cuál genera alerta y a qué sistema de vigilancia debe pertenecer. Antes se hacía uno por uno, y consumía muchas horas de profesionales especializados",
+        "_La pregunta de fondo:_ si subir información que puede considerarse confidencial genera un problema",
+        "_La respuesta:_ la organización lleva más de una década operando con información en servidores de terceros — el correo corporativo, la unidad de archivos en la nube, la mensajería empresarial. La configuración de esta herramienta es del mismo orden. Lo que cambia no es dónde reposa la información, sino que ahora se declara explícitamente",
+        "_Y el criterio que se deriva de ahí:_ la cuenta es personal, única e intransferible. No se comparte entre el equipo, porque un líder tiene conversaciones que no van a ir a su equipo",
+        "En el perfil faltaba lo básico: el nombre y el rol. Sin eso hay que repetir el contexto en cada consulta"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Conectar el entorno de trabajo",
+      "duracion": "~14 min",
+      "objetivo": "Habilitar lo que faltaba para que la herramienta pudiera leer las carpetas del área.",
+      "pasos": [
+        "El primer intento del ejercicio devolvió un mensaje claro: veía los nombres de las carpetas —cartas, conceptos, matriz y sistemas— pero no podía leer su contenido",
+        "_La causa era la configuración pendiente:_ todos los conectores estaban apagados",
+        "Se conectaron en sesión, siempre con la cuenta corporativa: el correo, la unidad de archivos, el calendario, el repositorio y la mensajería del proyecto",
+        "Se activó la aprobación automática para que el sistema no se detenga a pedir permiso en cada paso",
+        "_Quedó pendiente_ una de las conexiones, que se retomará en otra sesión",
+        "Se explicó también la diferencia entre los dos modos de trabajo: en uno se conversa; en el otro se conectan carpetas del computador y se trabaja directamente sobre ellas, sin subir archivos"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Modelar el flujo de conceptos",
+      "duracion": "~22 min",
+      "objetivo": "Revisar el flujo construido y corregir lo que estaba saliendo mal.",
+      "pasos": [
+        "_Primera corrección — nomenclatura:_ la columna se llama 'cargo' en la matriz, pero la instrucción decía 'ocupación'. Dos nombres para lo mismo produce una matriz que no cuadra. Se unificó el lenguaje",
+        "_Segunda corrección — el entregable:_ el sistema generaba una carta por cada concepto, en archivos separados. Se le indicó producir un solo archivo con las cartas una tras otra",
+        "_Tercera corrección — el orden:_ al pedirle el mapa del proceso, lo devolvió invertido. El flujo real es concepto → matriz de ingreso → carta de recomendaciones → hojas de los sistemas de vigilancia. Se corrigió y se confirmó",
+        "Se le dio la instrucción permanente: cuando detecte conceptos nuevos en la carpeta, ejecutar el proceso completo y avisar cuando las cartas estén listas",
+        "_El bloqueo:_ la conversación se había iniciado sin la carpeta conectada, y no la aceptaba después. Se resolvió abriendo un espacio nuevo, en modo de trabajo sobre carpetas, con la carpeta madre conectada desde el inicio",
+        "_El criterio que quedó dicho:_ hay que ser específico. La herramienta interpreta lo que se le dice, no lo que se quiso decir"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD MEDIDA · SESIÓN 2 · 9 septiembre 2026",
+      "titulo": "Dos meses de trabajo resueltos en cinco minutos",
+      "descripcion": "Es la medición que el propio área trajo sobre su proceso de conceptos de aptitud: lo que antes exigía revisar caso por caso durante semanas —identificar recomendaciones, alertas y sistema de vigilancia de cada trabajador— salió en una corrida. Es la primera cifra dura que aporta el área y merece registrarse en el tablero del programa.",
+      "estado": "Medido por el área",
+      "proximo_paso": "Validar contra una matriz hecha a mano",
+      "target": "Antes de la S3"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 2 · 9 septiembre 2026",
+      "titulo": "El flujo completo del concepto de aptitud",
+      "descripcion": "Del concepto que llega a la matriz de ingreso —la columna vertebral del sistema—, de ahí a la carta de recomendaciones para el jefe directo y su superior, y de ahí a las hojas de cada sistema de vigilancia. Los tres tramos ya se ejecutan; falta que corran encadenados y que se disparen solos cuando entre un concepto nuevo.",
+      "estado": "Tramos funcionando, encadenamiento pendiente",
+      "proximo_paso": "Rehacerlo en un espacio con la carpeta conectada",
+      "target": "Sesión 3"
+    },
+    {
+      "encabezado": "OPORTUNIDAD PLANTEADA · SESIÓN 2 · 9 septiembre 2026",
+      "titulo": "Conectar la plataforma donde nacen los conceptos",
+      "descripcion": "Hoy los conceptos se descargan a mano de un sistema externo con credenciales propias. Si ese punto se conecta, el proceso completo arranca solo desde el origen y el área deja de tener que estar pendiente de descargar nada.",
+      "estado": "Por gestionar con el proveedor",
+      "proximo_paso": "Solicitar la interfaz de integración",
+      "target": "Octubre"
+    }
+  ],
+  "tareas_intro": "La sesión dejó un resultado medido que vale mucho y una alerta que vale más: el área tiene el criterio técnico y la disposición, pero va en la segunda sesión cuando el programa lleva más de un mes. La frecuencia es hoy el factor decisivo.",
+  "tareas": [
+    {
+      "tarea": "Agendar sesiones con mucha más frecuencia",
+      "responsable": "Danilo Pozo",
+      "prioridad": "ALTA",
+      "plazo": "Inmediato"
+    },
+    {
+      "tarea": "Rehacer el flujo en un espacio limpio con la carpeta conectada",
+      "responsable": "Danilo Pozo",
+      "prioridad": "ALTA",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Traer el proceso mapeado paso a paso, por escrito",
+      "responsable": "Danilo Pozo",
+      "prioridad": "ALTA",
+      "plazo": "Antes de la S3"
+    },
+    {
+      "tarea": "Validar una matriz manual contra la generada, campo por campo",
+      "responsable": "Danilo Pozo",
+      "prioridad": "ALTA",
+      "plazo": "Antes de la S3"
+    },
+    {
+      "tarea": "Completar el nombre y el rol en la configuración del perfil",
+      "responsable": "Danilo Pozo",
+      "prioridad": "MEDIA",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Gestionar la interfaz de integración con la plataforma de conceptos",
+      "responsable": "Danilo Pozo + IAM™",
+      "prioridad": "MEDIA",
+      "plazo": "Por definir"
+    },
+    {
+      "tarea": "Cargar el logo y el pie de confidencialidad de las cartas",
+      "responsable": "Danilo Pozo",
+      "prioridad": "BAJA",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Contestar la encuesta del programa",
+      "responsable": "Danilo Pozo",
+      "prioridad": "BAJA",
+      "plazo": "Esta semana"
+    }
+  ],
+  "observaciones": [
+    "La cifra que trae el área es la más importante de la sesión y conviene tratarla con seriedad: dos meses de trabajo resueltos en cinco minutos, medido por ellos mismos sobre un proceso que conocen a fondo. El paso que sigue no es celebrarla sino verificarla — comparar una matriz hecha a mano con la generada, campo por campo. Si la validación confirma la cifra, es el mejor dato del programa; si aparecen diferencias, son diferencias que hay que conocer antes de que el sistema quede corriendo.",
+    "La pregunta sobre confidencialidad era legítima y era, además, lo que estaba frenando el avance. La respuesta que quedó en sesión: la organización ya opera desde hace años con información en servidores de terceros —correo, unidad de archivos, mensajería empresarial— y esta herramienta es del mismo orden. Lo que sí cambia es que aquí la cuenta es personal e intransferible, y esa es una decisión de diseño, no una limitación.",
+    "Buena parte de la hora se fue en conectar lo que era tarea de la sesión anterior. Conviene decirlo sin rodeos porque tiene consecuencia directa: la configuración no es un trámite previo, es la condición para que exista un sistema de trabajo. Con los conectores apagados, el primer ejercicio devolvió lo único que podía devolver — los nombres de las carpetas, sin poder abrirlas.",
+    "Las tres correcciones del flujo tienen un mismo origen y vale la pena verlo junto: dos nombres distintos para el mismo campo, un entregable que salía partido en varios archivos, y un orden de pasos invertido. Ninguna es un fallo de la herramienta. Las tres son cosas que en la cabeza del área están claras y que nunca se habían escrito.",
+    "El punto de entrada del proceso está fuera del alcance actual: los conceptos llegan por una plataforma de un tercero, con credenciales, y hay que descargarlos uno a uno. Es conectable, pero requiere gestión con el proveedor. Mientras tanto, todo lo que se automatice arranca desde la carpeta, no desde el origen.",
+    "La alerta de frecuencia es la que más pesa. El área tiene criterio técnico y voluntad —lo demostró trabajando entre sesiones y llegando con resultados—, pero va en la sesión 2 cuando otras áreas van en la séptima y ya tienen agentes corriendo. El programa cierra el 30 de octubre. Esa distancia se cierra agendando, y se cierra ahora."
+  ],
+  "proxima_sesion": {
+    "sesion": "IPS — Sesión 3",
+    "condiciones": [
+      "El proceso mapeado por escrito, paso por paso",
+      "El flujo rehecho en un espacio con la carpeta conectada",
+      "La validación de la matriz manual contra la generada",
+      "Varias sesiones ya agendadas para las próximas semanas"
+    ],
+    "agenda": [
+      "Revisión del flujo completo corriendo encadenado",
+      "La alerta automática al detectar conceptos nuevos",
+      "Las cartas membreteadas y archivadas en su carpeta",
+      "El trabajo desde el celular sobre el entorno del computador"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 9 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

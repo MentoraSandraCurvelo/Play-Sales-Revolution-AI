@@ -505,3 +505,41 @@ Se fijó la regla en `LUCIA.md`: **el número es del área y corre por fecha; el
 - **Cindy** estuvo 46 minutos en la sesión de Subsidio, no está en `#subsidio` ni en el listado del área. No se nombró en el acta.
 - **Liliany** trabaja con cuenta personal y su correo está por confirmar; hoy trabajó desde el equipo de la jefatura porque hubo reasignación.
 - **Fomento Empresarial** estaba invitado a la sesión de Empleo y no entró.
+
+---
+
+## Miércoles 9 de septiembre de 2026 — cierre del día
+
+Cuatro sesiones, cuatro actas, publicadas el mismo día (criterio cumplido).
+
+| Área | Sesión | Persona | Hora | Duración | Canal |
+|---|---|---|---|---|---|
+| Sub. Administrativa y Financiera | S5 | Rafael Solano | 8:00 a. m. | 58 min | `#sub-admin-y-financiera-infraestructura` |
+| Jurídica | S6 | Carlos Mario Gamarra | 10:00 a. m. | 1 h | `#juridica` |
+| IPS | S2 | Danilo Pozo | 11:00 a. m. | 59 min | `#ips` |
+| Tesorería | S2 | Yohana Carreño | 12:00 m. | 51 min | `#tesoreriaa` |
+
+**Verificación de numeración** (por carpeta en Dropbox y CSV de asistencia, no por el título del evento):
+- Sub. Financiera: S1 20 ago grupal · S2 2 sep Rafael · S3 7 sep Rafael · S4 8 sep Liliany · **S5 9 sep Rafael** ✓
+- Jurídica: S1 14 ago · S2 20 ago · S3 31 ago · S4 3 sep · S5 7 sep Lilibeth · **S6 9 sep Carlos Mario** ✓
+- IPS: S1 24 ago Danilo · **S2 9 sep Danilo** ✓
+- Tesorería: S1 19 ago · **S2 9 sep Yohana** ✓
+
+**Hitos del día**
+- **Tercer agente del programa** — *Ronaldo* (Sub. Financiera), después de Lilia (Jurídica) y Sofía (Agencia de Empleo). El bloqueo de los adjuntos del correo quedó resuelto: regla en el correo que guarda los adjuntos en Drive cada hora; 4 PDF guardados en la primera prueba.
+- **Cuarto agente en construcción** — *María* (Jurídica), montado en menos de 20 min porque el proceso ya estaba escrito.
+- **IPS aporta la primera cifra dura del área**: 2 meses de trabajo en 5 minutos (por validar contra una matriz manual).
+- **Tesorería: bloqueo de insumo**, no de método — los CDT son títulos físicos y los escaneos no traen capa de texto.
+
+**Corrección registrada**
+- El hallazgo del lunes sobre impresión en precontractual queda reasignado: **el área precontractual no imprime**; es Jurídica quien exige la documentación en físico como control ya establecido. El punto de mejora sigue en pie pero el dueño es Jurídica.
+
+**Alertas de cadencia levantadas**
+- IPS y Tesorería van en la sesión 2 con más de un mes de programa. En ambas se pidió agendar con mucha más frecuencia; Tesorería acordó tres sesiones para la próxima semana.
+
+**Pendientes de Sandra**
+- Renombrar el evento del viernes 11 → `⭕️Comfacesar | Sub. Administrativa y Financiera S6 | Rafael`
+- Resolver quién es "Cindy" (46 min en la sesión de Subsidio, no está en `#subsidio` ni en el roster)
+- Danefer Mora → `#planeacion`; Julio Pérez → `#comunicaciones`
+- Correo corporativo de Liliany
+- Discrepancia de numeración en Sub. Operativa (el acta del 1 sep salió como S3; por el récord es S2)

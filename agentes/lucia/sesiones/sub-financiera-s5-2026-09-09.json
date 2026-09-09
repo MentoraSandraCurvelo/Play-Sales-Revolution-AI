@@ -1,0 +1,221 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SUB. ADMINISTRATIVA Y FINANCIERA",
+  "area_completa": "",
+  "sesion_num": 5,
+  "fase": "Sistemas de Trabajo Agénticos",
+  "fecha": "9 de septiembre de 2026",
+  "fecha_corta": "9 septiembre 2026",
+  "subtitulo_meta": "Individual de Rafael Solano · 9 de septiembre de 2026 · 8:00 a. m. · 58 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Sub. Administrativa y Financiera — Comfacesar"],
+    ["Sesión", "N° 5 — Individual de Rafael Solano: el bloqueo del correo resuelto y el primer agente del área"],
+    ["Fecha", "9 de septiembre de 2026"],
+    ["Hora inicio", "8:00 a. m. — Colombia"],
+    ["Duración de la sesión", "58 minutos (8:02 a. m. – 9:01 a. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Rafael Solano — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "1", "etiqueta": "Bloqueo resuelto", "detalle": "Los adjuntos del correo, que frenaban al área"},
+    {"valor": "4", "etiqueta": "PDF guardados solos", "detalle": "En la primera prueba, sin tocar nada"},
+    {"valor": "10", "etiqueta": "Corridas diarias", "detalle": "De 7:30 a 4:30, cada hora"},
+    {"valor": "3º", "etiqueta": "Agente del programa", "detalle": "Ronaldo, el primero de esta área"},
+    {"valor": "58 min", "etiqueta": "De bloqueo a agente", "detalle": "Construido y corriendo en una sesión"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Rafael Solano", "cargo": "Área Precontractual — Comfacesar", "correo": "requerimientoscontratos@comfacesar.com", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 5. El bloqueo que traía el área desde el lunes quedó resuelto; lo que sigue abierto es el mapeo del proceso completo y el consumo que exige tener un agente encendido.",
+  "riesgos": [
+    {
+      "titulo": "El conector no descarga los adjuntos del correo",
+      "nivel": "ALTO",
+      "descripcion": "Quedó confirmado con precisión: el conector puede leer el cuerpo del mensaje y ver el nombre del PDF, pero no bajar el archivo. Ese era el punto exacto donde se cortaba la automatización del área desde la sesión anterior. _Resuelto en sesión_ por otra vía: una regla en el correo guarda sola los adjuntos en una carpeta de Drive, y el agente lee esa carpeta.",
+      "responsable": "Rafael Solano / Resuelto"
+    },
+    {
+      "titulo": "El proceso completo todavía no está mapeado",
+      "nivel": "ALTO",
+      "descripcion": "El agente hace hoy el primer tramo: revisa el correo, coteja y devuelve los hallazgos. Lo que viene después —responderle al área que hizo la solicitud, pedir a Financiera el origen de recursos, y diligenciar el cuadro de seguimiento con sus parámetros— está en la cabeza de una sola persona. Sin ese mapa escrito, el agente no puede seguir creciendo.",
+      "responsable": "Rafael Solano / Antes de la S6"
+    },
+    {
+      "titulo": "Un agente encendido consume créditos de forma continua",
+      "nivel": "MEDIO",
+      "descripcion": "Corre diez veces al día, haya o no haya correos nuevos. Conviene ir midiendo el consumo real durante la primera semana antes de sumarle más tareas.",
+      "responsable": "Rafael Solano / Permanente"
+    },
+    {
+      "titulo": "La primera corrida automática puede detenerse pidiendo autorización",
+      "nivel": "MEDIO",
+      "descripcion": "Un agente que corre solo se frena si necesita aprobar una herramienta y no hay nadie mirando. Se resolvió ejecutándolo manualmente una vez desde Rutinas, para que las herramientas queden preaprobadas. Vale revisarlo mañana temprano.",
+      "responsable": "Rafael Solano / Resuelto en sesión"
+    },
+    {
+      "titulo": "La documentación va a Jurídica en físico y eso lo define Jurídica",
+      "nivel": "MEDIO",
+      "descripcion": "_Precisión importante:_ el área precontractual no imprime. Escanea únicamente para reportar en el Drive de Jurídica y obtener la autorización, pero la revisión de documentos Jurídica la hace sobre el físico, y es un control ya establecido de su lado. El punto de mejora sigue siendo válido —revisar en digital y dejar la impresión para el expediente aprobado— pero la decisión no es de esta área.",
+      "responsable": "Jurídica / Por revisar"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Mapear el proceso completo, paso por paso",
+      "descripcion": "En un documento, en orden: qué pasa cuando aparece un hallazgo, a quién se le responde, qué se le pide a Financiera, y cómo se diligencia el cuadro de seguimiento con sus parámetros. Ese texto se le pega al agente por tramos.",
+      "responsable": "Rafael Solano",
+      "plazo": "Antes de la S6"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Cargarle al agente un paso a la vez",
+      "descripcion": "Se prueba una instrucción, se comprueba que funciona, y solo entonces se le mete la siguiente. Meterle todo el proceso de una vez es la forma más rápida de no saber dónde falló.",
+      "responsable": "Rafael Solano",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Verificar mañana temprano que la corrida automática salió",
+      "descripcion": "La primera corrida sin nadie delante es la prueba real. Si se detuvo pidiendo una autorización, se resuelve y se vuelve a lanzar.",
+      "responsable": "Rafael Solano",
+      "plazo": "Mañana"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Pedirle al agente un reporte de cierre",
+      "descripcion": "Cuántos correos revisó, cuántos documentos guardó y cuántas inconsistencias encontró. Es lo que permite supervisar sin tener que abrir cada resultado.",
+      "responsable": "Rafael Solano",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Registrar en el tablero cuando el agente esté corriendo completo",
+      "descripcion": "Con su medición de antes y después. La prevalidación ya está registrada; esto es el tramo siguiente del mismo flujo.",
+      "responsable": "Rafael Solano",
+      "plazo": "Cuando cierre"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Contestar la encuesta del programa",
+      "descripcion": "Está publicada en el canal. Es anónima y sirve para ajustar las sesiones que quedan hasta el 30 de octubre.",
+      "responsable": "Rafael Solano",
+      "plazo": "Esta semana"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El bloqueo de los adjuntos, resuelto",
+      "duracion": "~25 min",
+      "objetivo": "Encontrar la salida al punto exacto donde se cortaba la automatización del área.",
+      "pasos": [
+        "El diagnóstico quedó preciso: el conector _lee_ el cuerpo del correo y _ve_ el nombre del PDF adjunto, pero no puede bajar el contenido del archivo. Sin eso no hay nada que cotejar",
+        "La salida no fue forzar el conector sino rodearlo: que el propio correo guarde los adjuntos en una carpeta, y que el agente lea la carpeta",
+        "Se creó la carpeta de destino en el Drive corporativo",
+        "Se creó la regla en el correo, con el código que la propia herramienta entregó, y se le indicó la carpeta",
+        "_Dos errores en el camino, y los dos se resolvieron igual:_ primero se pegó la dirección completa de la carpeta cuando solo hacía falta su identificador; después la línea quedó duplicada y con las comillas rotas. En ambos casos, un pantallazo de la pantalla devuelto a la herramienta bastó para que dijera exactamente qué corregir",
+        "Se guardó, se autorizaron los permisos de correo y de Drive, y se ejecutó",
+        "_Funcionó:_ los cuatro PDF quedaron guardados en la carpeta, solos",
+        "Se le agregó el disparador por tiempo: cada hora, todos los días"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Ronaldo, el primer agente del área",
+      "duracion": "~20 min",
+      "objetivo": "Construir el agente que revisa los requerimientos y devuelve los hallazgos.",
+      "pasos": [
+        "Se creó el agente y se le puso nombre — Ronaldo. Cuando hay varios, el nombre es lo que permite saber quién hace qué",
+        "_Lo que hace:_ entra al correo, identifica los mensajes cuyo asunto trae los requerimientos para aprobación y asignación, y coteja el cuerpo del mensaje contra los documentos adjuntos — cotización o propuesta, RUT y cámara de comercio",
+        "_Los parámetros:_ que los datos correspondan al mismo proveedor, y que el objeto, el valor y los números coincidan entre el correo y los documentos",
+        "_La entrega:_ un documento en Word con los principales hallazgos, semaforizado, señalando contra qué parámetro falla cada uno",
+        "_El archivo:_ crea él mismo las carpetas por fecha en Drive y guarda ahí la documentación de cada día",
+        "_La cadencia:_ desde las 7:30 de la mañana, cada hora, hasta las 4:30 de la tarde, de lunes a viernes",
+        "Se ejecutó una vez a mano desde Rutinas para que las herramientas quedaran preaprobadas y las corridas automáticas no se detengan pidiendo permiso"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Mapear lo que viene después",
+      "duracion": "~13 min",
+      "objetivo": "Dejar por escrito el resto del proceso, que hoy vive en una sola cabeza.",
+      "pasos": [
+        "El criterio quedó dicho con todas sus letras: la herramienta no adivina. Lo que hoy hace una persona sin pensarlo hay que escribirlo paso por paso, porque el agente hace exactamente lo que se le describe",
+        "_Primer tramo escrito en sesión:_ cuando aparecen diferencias, entregar un reporte de esos hallazgos por solicitud",
+        "_Y el control que pidió el propio puesto:_ que el reporte llegue primero a él para revisarlo, y solo cuando dé la orden se envíe al área que hizo la solicitud para que corrija",
+        "Y así hasta que ningún documento quede con diferencias, para poder pasar al paso siguiente",
+        "_Lo que falta mapear:_ la solicitud a Financiera del origen de recursos, y el diligenciamiento del cuadro de seguimiento —con sus despliegues por tipo de recurso, área solicitante, cuantía y tipo de contrato",
+        "Queda de tarea traerlo escrito para cargárselo al agente por tramos"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD PROBADA · SESIÓN 5 · 9 septiembre 2026",
+      "titulo": "Los adjuntos del correo, guardados solos",
+      "descripcion": "Era el punto donde se cortaba todo el flujo del área: el proyecto no podía abrir los documentos que llegan adjuntos a los requerimientos. Ahora el propio correo los deposita en una carpeta de Drive cada hora, sin que nadie intervenga. Se probó en sesión y guardó cuatro documentos de una vez. Es el desbloqueo que el área venía esperando desde el lunes.",
+      "estado": "Funcionando, con corrida cada hora",
+      "proximo_paso": "Verificar la primera corrida automática",
+      "target": "Mañana"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 5 · 9 septiembre 2026",
+      "titulo": "Ronaldo, el agente que revisa los requerimientos",
+      "descripcion": "Diez veces al día entra al correo, coteja cada requerimiento contra su cotización, su RUT y su cámara de comercio, y devuelve un documento semaforizado con lo que no cuadra — archivado por fecha. El primer tramo está corriendo; falta cargarle el resto del proceso, tramo por tramo, a medida que se vaya escribiendo.",
+      "estado": "Primer tramo corriendo",
+      "proximo_paso": "Mapear el proceso completo y cargarlo por partes",
+      "target": "Septiembre"
+    },
+    {
+      "encabezado": "OPORTUNIDAD PLANTEADA · SESIÓN 5 · 9 septiembre 2026",
+      "titulo": "El cuadro de seguimiento, diligenciado solo",
+      "descripcion": "Después de la revisión viene el trabajo de llenar el cuadro de seguimiento precontractual: tipo de recurso, área solicitante, cuantía, tipo de contrato y estado, con sus despliegues. Es el último tramo manual del proceso, y es el que cierra el circuito completo desde que entra el correo hasta que la solicitud queda lista para Financiera.",
+      "estado": "Mapeo pendiente",
+      "proximo_paso": "Traer el proceso escrito paso a paso",
+      "target": "Sesión 6"
+    }
+  ],
+  "tareas_intro": "El área llegó con un bloqueo concreto y salió con él resuelto y con un agente corriendo. Fue una hora de construcción, no de explicación, y eso solo se puede hacer cuando el puesto ya sabe lo que quiere.",
+  "tareas": [
+    {"tarea": "Mapear por escrito el proceso completo, paso por paso", "responsable": "Rafael Solano", "prioridad": "ALTA", "plazo": "Antes de la S6"},
+    {"tarea": "Cargarle al agente un tramo a la vez, probando cada uno", "responsable": "Rafael Solano", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Verificar mañana que la corrida automática salió sin detenerse", "responsable": "Rafael Solano", "prioridad": "ALTA", "plazo": "Mañana"},
+    {"tarea": "Pedirle al agente un reporte de cierre del día", "responsable": "Rafael Solano", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Registrar el agente en el tablero cuando corra completo", "responsable": "Rafael Solano", "prioridad": "MEDIA", "plazo": "Cuando cierre"},
+    {"tarea": "Agendar las sesiones de la próxima semana", "responsable": "Rafael Solano", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Contestar la encuesta del programa", "responsable": "Rafael Solano", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Revisar con Jurídica si la documentación puede viajar en digital", "responsable": "Jurídica + Sub. Financiera", "prioridad": "MEDIA", "plazo": "Por definir"}
+  ],
+  "observaciones": [
+    "El bloqueo con el que el área cerró la sesión anterior quedó resuelto en esta. Y la salida no fue forzar la herramienta: fue rodearla. El correo no dejaba bajar los adjuntos, así que se puso al propio correo a guardarlos en una carpeta, y el agente lee la carpeta. Ese cambio de ángulo es el que conviene retener.",
+    "El método que más va a servirle al puesto de aquí en adelante no es técnico: cuando algo no aparece o sale un error, se toma un pantallazo de la pantalla y se le devuelve a la herramienta. Se usó varias veces en la sesión y en todas resolvió — incluida una comilla rota en una línea de código, que ningún manual habría explicado. Es lo que permite avanzar entre sesiones sin esperar a la mentoría.",
+    "Ronaldo es el tercer agente del programa, después del de Jurídica y el de Agencia de Empleo, y los tres se construyeron en cinco días. Es la señal más clara de que el programa cruzó de aprender la herramienta a montar sistemas de trabajo.",
+    "Quedó una precisión que corrige lo registrado en la sesión anterior, y conviene dejarla escrita: el área precontractual no imprime. Escanea para reportar en el Drive de Jurídica y obtener la autorización, pero es Jurídica quien exige la documentación en físico para su revisión, como control ya establecido. El punto de mejora —revisar en digital e imprimir solo el expediente aprobado— sigue en pie, pero hay que llevarlo a Jurídica.",
+    "Lo que decide si el agente crece es el mapeo. Hoy hace el primer tramo; el resto del proceso —la respuesta al área solicitante, la solicitud del origen de recursos y el cuadro de seguimiento— vive en la cabeza de una persona. Escribirlo paso a paso no es burocracia: es literalmente lo que el agente ejecuta.",
+    "Se acordó cargarlo por tramos, probando cada instrucción antes de sumar la siguiente. Es más lento de entrada y mucho más rápido al final, porque cuando algo falla se sabe exactamente dónde."
+  ],
+  "proxima_sesion": {
+    "sesion": "Sub. Administrativa y Financiera — Sesión 6, viernes 11 de septiembre",
+    "condiciones": [
+      "El proceso completo mapeado por escrito",
+      "La primera corrida automática verificada",
+      "Uno o dos tramos nuevos ya cargados y probados",
+      "El cuadro de seguimiento a la mano, con sus parámetros"
+    ],
+    "agenda": [
+      "Revisión de lo que Ronaldo produjo en sus primeras corridas",
+      "Cargar los tramos siguientes del proceso",
+      "La automatización del cuadro de seguimiento",
+      "El reporte de cierre del agente"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 9 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
