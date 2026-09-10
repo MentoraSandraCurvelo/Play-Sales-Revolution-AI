@@ -15,6 +15,64 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🚨 10 sep · 08:15 · Hay 36 mensajes publicados con `:red_circle:`, y ninguno es reciente
+
+Corrida de las 8:00. **No publiqué nada.** Cero mensajes de cliente desde ayer a las 3
+de la tarde, ni en canal ni en DM: el recordatorio a los 18 canales no produjo una sola
+respuesta escrita, solo la de Educación en el formulario.
+
+### El hallazgo
+
+Revisando el canal de Cumplimiento apareció un `:red_circle:` en un acta publicada, y al
+buscarlo en todo el espacio salieron **36 mensajes**. Es la regla de estilo más dura de
+Sandra y está incumplida en casi todos los canales.
+
+**Lo importante es que están acotados en el tiempo:**
+
+| Cuándo | Cuántos | Qué son |
+|---|---|---|
+| 24 ago | 3 | «Estoy en el bloque B, piso 3», cerrando con `:red_circle:` |
+| 25 ago | ~19 | La campaña de apertura, un mensaje por canal, **todos abren con `:red_circle:`** |
+| 27 ago a 3 sep | ~14 | Dentro del cuerpo de actas, marcando hallazgos |
+
+**Desde el 3 de septiembre no hay ninguno.** La regla se está cumpliendo desde entonces,
+en las dos. No hay nada que corregir en el flujo actual.
+
+### Qué se puede y qué no
+
+**El conector de Slack no edita ni borra mensajes publicados**, así que esto no lo
+arreglo yo. Es decisión de Sandra si vale borrarlos y republicar o dejarlos como quedaron:
+son mensajes de hace dos y tres semanas, algunos con hilos de respuesta encima.
+
+Lo que sí queda: **antes de enviar, revisar el texto**. Ya lo hago y Lucía también.
+
+### El pendiente de Saharay está cerrado, pero abre otro
+
+El registro traía como pendiente que Saharay preguntó el 27 de agosto dónde ver la
+grabación del encuentro del 26. **Está resuelto:** el enlace de SharePoint va dentro del
+acta que se publicó ese mismo día en `#cumplimiento`. No hay que responder nada.
+
+**Lo que sí queda abierto:** el 8 de septiembre escribió «quiero agendar una nueva
+sesión», se le respondió el mismo día con el enlace, y **a hoy sigue sin tomar fecha**.
+Es la segunda vez que dice que quiere agendar y no agenda. Con lo que pidió Servicios
+Sociales en la encuesta, apunta al mismo sitio: **las franjas de Calendly**.
+
+### Por qué no publiqué
+
+Cinco áreas califican como silencio con fecha vencida: Sub. Operativa, Cumplimiento,
+Gerencia Financiera, Planeación y Talento Humano. **No escribí en ninguna**, por tres
+razones:
+
+1. La instrucción vigente de Sandra es **no publicar en Slack sin que ella lo pida**.
+2. **Ayer los 18 canales recibieron el recordatorio de la encuesta.** Un segundo mensaje
+   al día siguiente se lee como Sandra repitiéndose, que es justo lo que el contrato evita.
+3. Hoy hay cuatro sesiones —Vivienda, Agencia de Empleo, Servicios Sociales y
+   Tecnología— y Lucía publicará sus cuatro actas y sus recordatorios.
+
+Si Sandra lo pide, salen mañana a las 8:00.
+
+---
+
 ## 📊 10 sep · 07:45 · Corte del jueves, y dos espacios que se vencieron sin que nadie avisara
 
 Corrida del termómetro. **No publiqué nada en ningún canal.** Ayer los 18 recibieron el
