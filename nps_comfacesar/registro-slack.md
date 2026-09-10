@@ -15,6 +15,64 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🔴 10 sep · 09:10 · Entró una crítica directa a la mentoría, y va solo a Sandra
+
+Corrida de las 9:00. La encuesta pasa de 7 a **9 respuestas**. Media hora después de la
+campaña de las 8:31 **todavía no hay ninguna respuesta escrita en los canales**.
+
+### La respuesta de Vivienda, hoy 7:37 a. m.
+
+Anónima, de alguien con cuatro o cinco sesiones. Textual:
+
+> «Empatía por parte de la mentora, su forma de ser no le permite sensibilizarse con
+> quien intenta aprender. Sus decisiones son universales y busca más autoreconocer que
+> está haciendo las cosas bien pero no escucha sugerencias en el proceso de enseñanza.»
+
+**Esto no se responde en Slack ni se menciona en ningún canal.** Va al tablero y a
+Sandra, y ahí para. Buscar quién la escribió rompe la encuesta.
+
+**Lo que hay que leer junto a eso, de la misma persona:**
+
+| Campo | Valor |
+|---|---|
+| Metodología | **1 de 5**, la única nota de 1 del tablero |
+| Utilidad | 6 |
+| Ahorro | Entre 2 y 5 horas |
+| Confianza antes → hoy | **2 → 7** |
+| Profundidad técnica | En el punto, igual que las otras ocho |
+| Ya aplicó | Informes, proyección a respuesta, organización de actividades |
+
+**No es alguien desconectado.** Es alguien a quien el programa le funciona en resultados
+y que aun así no se siente escuchada. Llegó **veinte minutos antes de la sesión de su
+área**, la S5 de las 8:00.
+
+Dato del propio termómetro que conviene mirar al lado: **Vivienda estuvo dieciséis días
+sin sesión** antes de la de hoy, y su S2 es la única del programa que quedó fuera del
+conteo de asistencia.
+
+### La otra respuesta nueva, Comunicaciones, ayer 6:01 p. m.
+
+Cuatro o cinco sesiones, ya aplica diseños de piezas gráficas, y aun así **utilidad 3 y
+menos de 30 minutos de ahorro por semana**. Pide «seguir las sesiones personalizadas, son
+más eficientes y de mayor provecho», que es justo lo que ya se decidió para el área.
+
+**Ojo con esa nota:** Comunicaciones es el área cuya herramienta central, Claude Design,
+solo corre en versión paga. Puede estar midiendo el muro, no el programa.
+
+### Se cayó la segunda explicación del tablero
+
+Ayer escribí que el caso era Mercadeo y no la etapa. **Hoy también se cae.** Los de 2 o 3
+sesiones califican 3, 5, 8, 10 y 10. Los de 4 o 5 califican 3, 6, 9 y 10. **Mismo rango.**
+Con nueve respuestas lo honesto es decir que no hay variable que lo explique, no inventar
+la tercera. Queda escrito así en el tablero.
+
+Lo que sí aguanta: **los nueve suben en confianza, ninguno baja**, y **los nueve dicen
+que la profundidad técnica está en el punto**. Nueve de nueve, incluida la crítica.
+
+Pulso v4: https://claude.ai/code/artifact/0cca00fb-603a-4ae8-a87f-1d5f724dbf0d
+
+---
+
 ## 📣 10 sep · 08:30 · Campaña de motivación a 7 canales, a pedido de Sandra
 
 Sandra pidió «otro mensaje de la encuesta, y de agendamiento y cómo van en cada canal
