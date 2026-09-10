@@ -15,6 +15,74 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📊 10 sep · 07:45 · Corte del jueves, y dos espacios que se vencieron sin que nadie avisara
+
+Corrida del termómetro. **No publiqué nada en ningún canal.** Ayer los 18 recibieron el
+recordatorio, así que hoy toca leer, no escribir.
+
+### El miércoles tenía seis espacios y solo cuatro fueron sesión
+
+Las cuatro que sí: **Sub. Administrativa y Financiera S5** (Rafael), **Jurídica S6**
+(Carlos Mario), **IPS S2** (Danilo) y **Tesorería S2** (Yohana). Las cuatro con grabación
+y acta publicada en el canal el mismo día. El programa pasa de 56 a **60 sesiones**.
+
+Las dos que no:
+
+- **Mercadeo, 4:00 p. m.** El espacio se perdió. A las 4:11 se le escribió al canal y
+  Manuel José respondió a las 4:12 que ya había reagendado. Nueva fecha: **jueves 17,
+  4:00 p. m.**
+- **Comunicaciones S5, 5:00 p. m.** Sin grabación, sin acta, sin una línea en el canal.
+  La última del área sigue siendo la S4 del 4 de septiembre.
+
+### Dos correcciones publicadas en los tableros
+
+1. **El termómetro anunciaba «Mié 9 · 16:00 · S4 · Manuel José» en verde.** Era falso.
+   Con la corrección, **Mercadeo lleva dieciséis días sin sesión** y pasa a ser el área
+   con gente activa más parada de todo el programa, por encima de Sub. Operativa. Serán
+   23 días entre una sesión y la siguiente.
+2. **El pulso decía que Mercadeo había tenido sesión el miércoles** y lo usaba para
+   explicar sus dos «todavía no lo noto». La conclusión aguanta, la explicación cambia:
+   no es que el método no les sirva, es que no se han vuelto a sentar desde el 25 de
+   agosto.
+
+### Tres espacios vencidos sin aviso en ocho días
+
+Servicios Sociales el 3 y el 8, Comunicaciones el 9, Mercadeo el 9. Ninguno se canceló
+por el calendario ni dejó rastro en el canal. **Ya es un patrón.** La encuesta apunta a
+una causa que se arregla sin comprar nada, «tener en cuenta el horario laboral para
+cuadrar las horas de agenda»: hay que revisar las franjas de Calendly.
+
+### La asistencia no se movió y hay que decir por qué
+
+Sigue en **91%, 128/141**, el corte del martes 8. Las cuatro actas del miércoles están
+publicadas como texto en el canal pero **todavía no hay .docx en Dropbox ni informe de
+asistencia**, y la asistencia se calcula del acta en Dropbox. No es un dato viejo por
+descuido, es un dato que todavía no se puede calcular. Con esas cuatro adentro,
+**Tesorería debería moverse**: es la única área bajo el 70%.
+
+### Dos defectos del propio tablero, corregidos
+
+- **Un `<div>` roto.** La versión publicada tenía `lass="tablewrap">` sin la apertura,
+  desde un corte anterior. Reparado, y ahora verifico el balance de etiquetas antes de
+  publicar.
+- **El conteo de documentos decía cuatro y la lista siempre tuvo cinco.** Corregido a
+  cinco, y aparte los ocho de anoche, que todavía no cuentan como faltantes.
+
+### Lo que le sirve a Lucía
+
+- El evento del **viernes 11** dice «Sesión 5» y por fecha es la **S6** de Rafael.
+- El de **Mercadeo del jueves 17** no lleva número en el título.
+- **Doce de las veinte áreas** no tienen nada agendado después de hoy.
+- **Sub. Administrativa tiene S6, S7, S8 y S9** tomadas hasta el viernes 18. Cuatro de
+  las trece sesiones de la ventana son suyas.
+- **La reprogramación de Comunicaciones sigue sin resolver.** José Manuel pidió mover la
+  del 15 al 16 a las 4:30; el evento sigue en el calendario el martes 15 a las 10:00.
+
+Termómetro v23: https://claude.ai/code/artifact/8949a813-41e2-4c31-b234-d0b3ada2eb6e
+Pulso v3: https://claude.ai/code/artifact/0cca00fb-603a-4ae8-a87f-1d5f724dbf0d
+
+---
+
 ## 📊 9 sep · 16:15 · La encuesta pasó de 4 a 7 respuestas, y la lectura de ayer se cayó
 
 Corrida de las 4:00 p. m. **No publiqué nada en ningún canal** y no había nada que
