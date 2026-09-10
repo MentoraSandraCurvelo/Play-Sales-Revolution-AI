@@ -1,0 +1,261 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SERVICIOS SOCIALES",
+  "area_completa": "",
+  "sesion_num": 6,
+  "fase": "Sistemas de Trabajo Agénticos",
+  "fecha": "10 de septiembre de 2026",
+  "fecha_corta": "10 septiembre 2026",
+  "subtitulo_meta": "Con Juan Pablo Curvelo y Lilian Paola Ramos · 10 de septiembre de 2026 · 11:00 a. m. · 1 h 7 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Servicios Sociales — Comfacesar"],
+    ["Sesión", "N° 6 — El primer registro de productividad del área y el tablero macro del informe de gestión"],
+    ["Fecha", "10 de septiembre de 2026"],
+    ["Hora inicio", "11:00 a. m. — Colombia"],
+    ["Duración de la sesión", "1 hora 7 minutos (10:58 a. m. – 12:06 p. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Juan Pablo Curvelo y Lilian Paola Ramos — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "16x", "etiqueta": "El salto medido", "detalle": "Ocho días de trabajo ahora toman cuatro horas"},
+    {"valor": "2", "etiqueta": "Tareas documentadas", "detalle": "Las primeras del área en el tablero"},
+    {"valor": "3", "etiqueta": "Líneas que consolidar", "detalle": "Recreación y deporte, turismo, salud y nutrición"},
+    {"valor": "2", "etiqueta": "Equipos sin condiciones", "detalle": "Sin cámara ni micrófono para trabajar"},
+    {"valor": "1º", "etiqueta": "Artefacto lanzado", "detalle": "El tablero macro del informe de gestión"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Juan Pablo Curvelo", "cargo": "Profesional Junior — Servicios Sociales", "correo": "—", "modalidad": "Virtual", "nivel": "Intermedio"},
+    {"nombre": "Lilian Paola Ramos", "cargo": "Servicios Sociales — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Inicial"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 6. El área registró por primera vez su ganancia de productividad y el número es fuerte. Lo que la frena no es el método: son los equipos con los que trabaja.",
+  "riesgos": [
+    {
+      "titulo": "Los equipos de trabajo no dan para lo que se está enseñando",
+      "nivel": "CRÍTICO",
+      "descripcion": "El computador de escritorio del área no tiene cámara ni micrófono, y hay que conectarse desde el teléfono para poder trabajar. _Lo dijo la propia jefatura del área en sesión:_ ha sido una de las razones del atraso. Y no es un solo equipo — son al menos dos en condiciones equivalentes. Un programa de transformación digital no puede avanzar sobre equipos que no permiten trabajar. **Hay que solicitar el cambio a portátiles.**",
+      "responsable": "Lilian Paola Ramos / Inmediato"
+    },
+    {
+      "titulo": "El área no había documentado ninguna de sus ganancias",
+      "nivel": "ALTO",
+      "descripcion": "Se llevaban varios ejercicios hechos y ninguno registrado. _Se corrigió en sesión_ y apareció el número: un trabajo que tomaba ocho días ahora toma cuatro horas, y otro que tomaba dos días ya está resuelto. Ese registro es lo que sustenta la presentación al director y a la líder del proyecto — y es también el argumento con el que se evalúa un esquema corporativo en el cierre.",
+      "responsable": "Juan Pablo Curvelo / Permanente"
+    },
+    {
+      "titulo": "La jefatura del área va atrasada frente a su propio equipo",
+      "nivel": "ALTO",
+      "descripcion": "La herramienta se descargó el mismo día de la sesión. Quedó la tarea de ver las grabaciones publicadas en el canal y ponerse al día antes de retomar los ejercicios. _Un área avanza al ritmo de quien la lidera_, y el liderazgo aquí es además quien puede pedir el cambio de equipos.",
+      "responsable": "Lilian Paola Ramos / Esta semana"
+    },
+    {
+      "titulo": "Los procesos del área no están mapeados",
+      "nivel": "ALTO",
+      "descripcion": "Buena parte de la hora se fue en reconstruir de dónde sale la información del informe de gestión, en pleno ejercicio. _La instrucción quedó clara:_ traer los procesos mapeados antes de cada sesión. Y para la jefatura, pedirle a todo el equipo el flujograma de sus procesos — es lo que permite ver dónde el proceso se rompe, como acaba de ocurrir en otra área del programa esta misma mañana.",
+      "responsable": "Lilian Paola Ramos + equipo / Antes de la S7"
+    },
+    {
+      "titulo": "No existe protocolo de gobernanza para el uso de herramientas",
+      "nivel": "MEDIO",
+      "descripcion": "La pregunta de confidencialidad tiene la misma respuesta de siempre: la organización ya opera con información en servidores de terceros. _Pero hay una precisión que sí corresponde atender:_ lo que falta es un protocolo interno de gobernanza, y hoy no existe ni para el correo, ni para la unidad de archivos en la nube, ni para la mensajería empresarial. Eso le corresponde a la oficina de cumplimiento.",
+      "responsable": "Cumplimiento / Por definir"
+    },
+    {
+      "titulo": "El consolidado depende de tres envíos manuales cada mes",
+      "nivel": "MEDIO",
+      "descripcion": "Recreación y deporte, turismo, y salud y nutrición envían cada una su archivo; el área los une en una presentación que sube a Planeación para el consejo directivo. Aguas arriba, esas coordinaciones descargan cobertura de los sistemas e ingresos del área contable. Toda esa cadena es manual y es donde está la oportunidad.",
+      "responsable": "Juan Pablo Curvelo / Septiembre"
+    },
+    {
+      "titulo": "La conexión del equipo interrumpió el ejercicio",
+      "nivel": "BAJO",
+      "descripcion": "El artefacto no alcanzó a mostrarse en sesión por lentitud. No es un problema del trabajo, pero se suma al mismo punto de fondo: las condiciones técnicas del área.",
+      "responsable": "Juan Pablo Curvelo / —"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "CRÍTICO",
+      "titulo": "Solicitar el cambio de equipos a portátiles",
+      "descripcion": "Al menos dos equipos del área no permiten trabajar en condiciones. Es la solicitud que más impacto tiene sobre el avance del área en lo que queda del programa.",
+      "responsable": "Lilian Paola Ramos",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Seguir documentando cada tarea en el tablero de seguimiento",
+      "descripcion": "Con la marca del responsable en observaciones, para distinguir quién registró qué. Aunque no se muestre en sesión, hay que ir llenándolo a medida que se avanza.",
+      "responsable": "Juan Pablo Curvelo",
+      "plazo": "Permanente"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Ponerse al día con las grabaciones publicadas",
+      "descripcion": "Están todas en el canal del área, junto con las actas. Es la vía para retomar sin perder lo ya visto.",
+      "responsable": "Lilian Paola Ramos",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Pedirle al equipo el flujograma de sus procesos",
+      "descripcion": "Cada persona el suyo. Es lo que permite ver dónde el proceso se rompe — y es el insumo con el que después se construyen los agentes.",
+      "responsable": "Lilian Paola Ramos",
+      "plazo": "Antes de la S7"
+    },
+    {
+      "num": "05",
+      "nivel": "ALTO",
+      "titulo": "Traer el tablero modelado a la próxima sesión",
+      "descripcion": "Seguir pidiéndole ajustes hasta que muestre lo que el área necesita: los KPIs correctos, la segmentación, las líneas que faltan.",
+      "responsable": "Juan Pablo Curvelo",
+      "plazo": "Antes de la S7"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Traer los ejercicios mapeados antes de cada sesión",
+      "descripcion": "Decidir el ejercicio en plena sesión consume la mayor parte de la hora. Con el proceso escrito, la hora se dedica a construir.",
+      "responsable": "Juan Pablo Curvelo + Lilian Paola Ramos",
+      "plazo": "Permanente"
+    },
+    {
+      "num": "07",
+      "nivel": "BAJO",
+      "titulo": "Guardar el tablero de seguimiento en favoritos",
+      "descripcion": "Y verificar por qué no abre desde el equipo institucional, si es un tema del navegador o de permisos.",
+      "responsable": "Juan Pablo Curvelo",
+      "plazo": "Esta semana"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El primer registro de productividad del área",
+      "duracion": "~12 min",
+      "objetivo": "Documentar en el tablero de seguimiento lo que el área ya viene ganando.",
+      "pasos": [
+        "El área llevaba varios ejercicios hechos y ninguno registrado. Se abrió el tablero y se llenó en sesión",
+        "_El método:_ la descripción de la tarea, su cadencia, el tiempo que tomaba antes convertido a minutos, la herramienta y el tiempo que toma ahora. Las columnas de ahorro se calculan solas",
+        "_La conversión es lo que se prestaba a error:_ un trabajo de dos días son 960 minutos —dos jornadas de ocho horas— y uno de ocho días son 3.840. Se corrigieron ambos en sesión",
+        "_Y ahí apareció el número:_ ese trabajo de ocho días hoy toma cuatro horas. Doscientos cuarenta minutos contra tres mil ochocientos cuarenta",
+        "En observaciones va el nombre de quien registra y una explicación breve de cómo se hacía antes — de dónde se consultaba, cuánto tomaba, qué inconsistencias se encontraban",
+        "_Para qué sirve:_ es el reporte que ven la dirección y la líder del proyecto, y es el argumento con el que se sustenta el esquema de licenciamiento en el cierre"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Pasar del entorno web al de escritorio",
+      "duracion": "~15 min",
+      "objetivo": "Habilitar el trabajo sobre carpetas del computador.",
+      "pasos": [
+        "El área venía trabajando en el entorno web. Se descargó e instaló la aplicación de escritorio en sesión",
+        "_Por qué importa:_ desde el escritorio la herramienta se conecta a las carpetas del computador y va a buscar la información, en lugar de que haya que subir archivos uno por uno",
+        "Se conectó la carpeta de actas del área y se verificó la lectura — devolvió el listado correcto: acta de inicio, acta de liquidación y las demás",
+        "Se activó la aprobación automática para que no se detenga a pedir permiso en cada paso",
+        "_El panel lateral que aparece en este modo:_ progreso muestra la ejecución en curso, salida los documentos que produce la conversación, contexto lo que se le entrega",
+        "_La regla que hay que retener:_ la carpeta solo se puede conectar si la conversación se abrió en el modo de trabajo sobre carpetas. Si se arranca en modo conversación, ya no se puede agregar después. Por eso conviene abrir siempre en ese modo, aunque no se conecte ninguna carpeta al principio"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El informe de gestión y el mapa de dónde sale",
+      "duracion": "~25 min",
+      "objetivo": "Crear el proyecto del informe mensual y entender el circuito que lo alimenta.",
+      "pasos": [
+        "Se creó el proyecto con el método completo: el contexto de cómo se hace hoy, el rol —analista de informes de gestión para una caja de compensación—, la entrega y la acción",
+        "_Un ajuste importante de redacción:_ pedirle que entregue algo _igual_ a la presentación que se le sube produce una copia acartonada. La instrucción correcta es entregar algo **superior**, y que lo que se sube sea solo una referencia",
+        "_El circuito quedó reconstruido en sesión:_ cada mes, las coordinaciones de recreación y deporte, de turismo, y de salud y nutrición envían su archivo al área. El área los consolida en una presentación y la remite a Planeación, que la prepara para el consejo directivo",
+        "_Y aguas arriba:_ esas coordinaciones descargan la cobertura de los sistemas propios y el presupuesto e ingresos del área contable. Ninguna de ellas está en el programa, pero el circuito completo es automatizable si se les enseña",
+        "Se cargaron los archivos de dos líneas y se lanzó el artefacto: pestañas separadas por línea, indicadores, tableros interactivos, simulador, semaforización y segmentación por mes y por año",
+        "_El resultado no alcanzó a verse en sesión_ por la lentitud de la conexión. Queda de tarea seguir modelándolo"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Recorrido por el apartado de diseño",
+      "duracion": "~10 min",
+      "objetivo": "Mostrar el siguiente escalón antes de los agentes.",
+      "pasos": [
+        "_Los flujogramas:_ es la salida que se le está pidiendo a todas las áreas, porque un proceso dibujado muestra dónde se rompe. Se citó el hallazgo de otra área esa misma mañana, donde el flujograma dejó ver que el proceso pierde la trazabilidad del pagador",
+        "_Las piezas en 3D:_ para simular el estado de un proyecto o una maqueta de un evento",
+        "_El video:_ a partir de una sola imagen, para campañas",
+        "_Las presentaciones:_ que aquí se editan directamente, sin tener que pedir ajuste por ajuste",
+        "_Los tableros interactivos con mapas,_ que pueden incrustarse dentro de una presentación",
+        "Quedó de tarea traer ejercicios de diseño para las próximas sesiones"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD MEDIDA · SESIÓN 6 · 10 septiembre 2026",
+      "titulo": "Ocho días de trabajo, ahora cuatro horas",
+      "descripcion": "Es el primer dato duro que registra el área, y quedó documentado en el tablero de seguimiento en la propia sesión. Tres mil ochocientos cuarenta minutos contra doscientos cuarenta. Con una sola tarea de este tamaño ya se justifica el esfuerzo del área en el programa — y hay una segunda, de dos días, en el mismo registro.",
+      "estado": "Documentado",
+      "proximo_paso": "Seguir registrando cada tarea que se automatice",
+      "target": "Permanente"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 6 · 10 septiembre 2026",
+      "titulo": "El tablero macro del informe de gestión",
+      "descripcion": "Un solo tablero con pestañas por línea —recreación y deporte, turismo, salud y nutrición—, con indicadores, semaforización y segmentación por mes y año. En vez de circular una presentación cada mes, se comparte un enlace que se mantiene actualizado. Es el reemplazo del consolidado manual que hoy va a Planeación.",
+      "estado": "Lanzado; por modelar",
+      "proximo_paso": "Traerlo construido a la próxima sesión",
+      "target": "Sesión 7"
+    },
+    {
+      "encabezado": "OPORTUNIDAD PLANTEADA · SESIÓN 6 · 10 septiembre 2026",
+      "titulo": "Que el tablero se alimente solo",
+      "descripcion": "Hoy la carga es manual. El paso siguiente es que el sistema recoja lo que envían las tres coordinaciones, actualice el tablero y haga los cortes en la franja horaria que se le indique. Ahí el informe mensual deja de ser un trabajo y pasa a ser una lectura.",
+      "estado": "Por construir",
+      "proximo_paso": "Después de que el tablero esté modelado",
+      "target": "Octubre"
+    },
+    {
+      "encabezado": "OPORTUNIDAD PLANTEADA · SESIÓN 6 · 10 septiembre 2026",
+      "titulo": "El análisis histórico del centro de convenciones",
+      "descripcion": "Lo planteó la jefatura del área: el recorrido del centro de convenciones desde sus inicios hasta hoy, con su crecimiento en ingresos y en cobertura. Es un análisis que ya les están solicitando y que se puede construir con el mismo método del tablero.",
+      "estado": "Planteado por el área",
+      "proximo_paso": "Retomarlo cuando el primer tablero esté cerrado",
+      "target": "Octubre"
+    }
+  ],
+  "tareas_intro": "La sesión dejó el primer número duro del área y dejó también, dicho por la propia jefatura, cuál es la causa de su atraso: no es el método ni la disposición, son los equipos con los que se está trabajando.",
+  "tareas": [
+    {"tarea": "Solicitar el cambio de equipos de escritorio a portátiles", "responsable": "Lilian Paola Ramos", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Seguir documentando cada tarea en el tablero de seguimiento", "responsable": "Juan Pablo Curvelo", "prioridad": "ALTA", "plazo": "Permanente"},
+    {"tarea": "Ver las grabaciones publicadas y ponerse al día", "responsable": "Lilian Paola Ramos", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Pedirle a todo el equipo el flujograma de sus procesos", "responsable": "Lilian Paola Ramos", "prioridad": "ALTA", "plazo": "Antes de la S7"},
+    {"tarea": "Modelar el tablero macro y traerlo construido", "responsable": "Juan Pablo Curvelo", "prioridad": "ALTA", "plazo": "Antes de la S7"},
+    {"tarea": "Traer los ejercicios mapeados antes de cada sesión", "responsable": "Juan Pablo Curvelo + Lilian Paola Ramos", "prioridad": "MEDIA", "plazo": "Permanente"},
+    {"tarea": "Traer un ejercicio de diseño para la próxima sesión", "responsable": "Juan Pablo Curvelo", "prioridad": "MEDIA", "plazo": "Sesión 7"},
+    {"tarea": "Agendar varias sesiones para la próxima semana", "responsable": "Juan Pablo Curvelo", "prioridad": "MEDIA", "plazo": "Inmediato"}
+  ],
+  "observaciones": [
+    "El área registró por primera vez lo que viene ganando y el número merece quedar escrito con todas sus letras: un trabajo que tomaba ocho días hoy toma cuatro horas. Tres mil ochocientos cuarenta minutos contra doscientos cuarenta. Hay una segunda tarea de dos días en el mismo registro. Con eso solo, el esfuerzo del área en el programa ya se sostiene.",
+    "Y sin embargo llevaban varios ejercicios sin documentar ninguno. Conviene insistir en por qué importa: ese tablero es el reporte que ven la dirección y la líder del proyecto, y es el argumento con el que se sustenta cualquier decisión de licenciamiento en el cierre de octubre. El trabajo que no se registra no se puede defender.",
+    "El obstáculo real del área no es el método y quedó dicho por su propia jefatura en sesión: los equipos. Hay al menos dos computadores de escritorio sin cámara ni micrófono, y hay que conectarse desde el teléfono para poder trabajar. Se reconoció que ha sido una de las razones del atraso. Un programa de transformación digital no avanza sobre equipos que no permiten trabajar, y esta es la solicitud con más impacto sobre lo que queda del programa.",
+    "Sobre confidencialidad se dio la misma respuesta que en el resto del programa —la organización ya opera con información en servidores de terceros—, pero apareció una precisión que sí es tarea de alguien: lo que falta no es permiso, es gobernanza. Y hoy no existe protocolo interno ni para el correo, ni para la unidad de archivos, ni para la mensajería empresarial. Ese punto le corresponde a la oficina de cumplimiento, no a las áreas.",
+    "Buena parte de la hora se fue reconstruyendo en vivo de dónde sale la información del informe de gestión. Ese es exactamente el tiempo que se recupera trayendo el proceso mapeado. La instrucción para la jefatura va más lejos: pedirle a cada persona del equipo el flujograma de su proceso. No es un ejercicio de documentación — es lo que deja ver dónde el proceso se rompe, como ocurrió en otra área del programa esa misma mañana.",
+    "El circuito del informe mensual quedó claro y es más largo de lo que parece: tres coordinaciones envían su archivo, el área consolida en una presentación y la remite a Planeación para el consejo directivo; y aguas arriba, esas coordinaciones descargan cobertura de los sistemas e ingresos del área contable. Ninguna de esas coordinaciones está en el programa, pero el área puede enseñarles — y ahí el ahorro se multiplica."
+  ],
+  "proxima_sesion": {
+    "sesion": "Servicios Sociales — Sesión 7",
+    "condiciones": [
+      "El tablero macro modelado y funcionando",
+      "El tablero de seguimiento con las tareas documentadas",
+      "Los procesos del equipo mapeados en flujogramas",
+      "Un ejercicio de diseño para trabajar",
+      "La solicitud de equipos radicada"
+    ],
+    "agenda": [
+      "Revisión del tablero macro y de lo que le falta",
+      "Ejercicios en el apartado de diseño",
+      "La construcción del primer agente del área",
+      "El análisis histórico del centro de convenciones"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 10 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

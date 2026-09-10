@@ -1,0 +1,254 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "AGENCIA DE EMPLEO",
+  "area_completa": "",
+  "sesion_num": 6,
+  "fase": "Sistemas de Trabajo Agénticos",
+  "fecha": "10 de septiembre de 2026",
+  "fecha_corta": "10 septiembre 2026",
+  "subtitulo_meta": "Con Lina María Rincón · 10 de septiembre de 2026 · 10:00 a. m. · 52 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Agencia de Empleo — Comfacesar"],
+    ["Sesión", "N° 6 — El proceso de recobros mapeado paso a paso para el segundo agente del área"],
+    ["Fecha", "10 de septiembre de 2026"],
+    ["Hora inicio", "10:00 a. m. — Colombia"],
+    ["Duración de la sesión", "52 minutos (10:01 a. m. – 10:53 a. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Lina María Rincón — completa · José Jaime Maya — presencial, en sala"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "7", "etiqueta": "Pasos mapeados", "detalle": "Del reporte de dobles pagos hasta cartera"},
+    {"valor": "3", "etiqueta": "Componentes de clasificación", "detalle": "Salud, pensión y transferencia"},
+    {"valor": "90", "etiqueta": "Días del ciclo de recobro", "detalle": "Administrativa, persuasiva y jurídica"},
+    {"valor": "1", "etiqueta": "Punto roto del proceso", "detalle": "El pago que entra sin el nombre del deudor"},
+    {"valor": "2º", "etiqueta": "Agente del área", "detalle": "Después de Sofía, la de los correos"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Lina María Rincón", "cargo": "Agencia de Empleo — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Avanzado"},
+    {"nombre": "José Jaime Maya", "cargo": "Agencia de Empleo — Comfacesar", "correo": "—", "modalidad": "Presencial", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 6. El proceso de recobros quedó mapeado de punta a punta, y ese mapeo destapó un punto donde el proceso se rompe hoy — antes de cualquier automatización.",
+  "riesgos": [
+    {
+      "titulo": "El dinero entra al banco sin quedar enlazado a quien debe",
+      "nivel": "CRÍTICO",
+      "descripcion": "Cerca del 90% de los pagos se hacen en ventanilla, en efectivo, y la consignación queda registrada a nombre de quien va al banco —un familiar, un tercero— y no del deudor. _El efecto es literal:_ entran dineros a las cuentas y no se sabe a qué recobro corresponden. De ahí salen dos consecuencias: se le sigue cobrando a personas que ya pagaron, y el informe a la Superintendencia del Subsidio Familiar queda con vacíos. **Este punto hay que arreglarlo antes de automatizar nada**, porque automatizar un proceso roto solo hace más rápido el error.",
+      "responsable": "Lina María Rincón + Contabilidad / Inmediato"
+    },
+    {
+      "titulo": "Faltan los documentos base que el agente tiene que consultar",
+      "nivel": "ALTO",
+      "descripcion": "El mapa quedó completo, pero tres puntos quedaron señalados sin su insumo: el archivo de beneficiarios que permite identificar los casos de retención de pago, el modelo de la carta de solicitud de restitución, y el listado del equipo con cargo y correo para saber a quién se le remite cada cosa. Sin esos archivos, el agente no puede ejecutar los pasos.",
+      "responsable": "Lina María Rincón / Antes de la S7"
+    },
+    {
+      "titulo": "El procedimiento de homologación no está descrito",
+      "nivel": "ALTO",
+      "descripcion": "El paso 4.1 remite a un procedimiento de homologación en una plataforma a la que no se tiene acceso desde el entorno de trabajo. Hay que describirlo por escrito —qué se hace, con qué criterio— y definir qué parte queda manual.",
+      "responsable": "Lina María Rincón / Antes de la S7"
+    },
+    {
+      "titulo": "El límite de consumo detuvo el trabajo a mitad de sesión",
+      "nivel": "ALTO",
+      "descripcion": "Se alcanzó el 95% del límite de la sesión y la edición del flujograma quedó bloqueada. _La causa es el nivel de trabajo, no un fallo:_ el área ya no está haciendo consultas sobre un proyecto sino construyendo sistemas agénticos, y eso consume mucho más. La definición del esquema de capacidad se sustenta en el cierre del proyecto, en octubre; mientras tanto hay que contar con pausas.",
+      "responsable": "Lina María Rincón + Dirección / Octubre"
+    },
+    {
+      "titulo": "La cadencia real del seguimiento está por confirmar",
+      "nivel": "MEDIO",
+      "descripcion": "El seguimiento a los 90 días parece hacerse en los hitos de día 30, 60 y 90, pero hay que confirmarlo con quien lo ejecuta antes de programarlo. Una cadencia mal cargada produce recordatorios en el momento equivocado.",
+      "responsable": "Lina María Rincón / Antes de la S7"
+    },
+    {
+      "titulo": "La descarga de los reportes seguirá siendo manual",
+      "nivel": "MEDIO",
+      "descripcion": "Los reportes vienen de plataformas externas a las que el entorno de trabajo no llega. Esa parte la sigue haciendo una persona: bajar el archivo y dejarlo en la carpeta. De ahí en adelante, todo lo demás es automatizable.",
+      "responsable": "Lina María Rincón / Permanente"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "CRÍTICO",
+      "titulo": "Proponer a Contabilidad el código único por beneficiario",
+      "descripcion": "Un código permanente por persona —como la cédula—, obligatorio al momento de consignar, para que el pago quede enlazado al deudor sin importar quién vaya al banco. Generar los códigos toma minutos; lo que hay que gestionar es el acuerdo con Contabilidad y con el banco.",
+      "responsable": "Lina María Rincón + Contabilidad",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Crear el agente de recobros y empezar a modelarlo",
+      "descripcion": "Con el flujograma cargado y la conversación abierta: preguntarle qué necesita, corregirlo, volver a probar. Es el único camino para que quede a la medida del proceso.",
+      "responsable": "Lina María Rincón",
+      "plazo": "Antes de la S7"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Armar la carpeta de recobros con todo lo que el agente debe leer",
+      "descripcion": "El flujograma, la base de datos, el archivo de beneficiarios, las plantillas. Una carpeta por agente, para que cada uno sepa dónde trabaja.",
+      "responsable": "Lina María Rincón",
+      "plazo": "Antes de la S7"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Completar los tres puntos señalados en el flujograma",
+      "descripcion": "El documento base del punto 4.1, el modelo de carta del 4.2 y la descripción del procedimiento de homologación.",
+      "responsable": "Lina María Rincón",
+      "plazo": "Antes de la S7"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Subir el listado del equipo con cargo y correo",
+      "descripcion": "O escribir los destinatarios directamente en el flujograma. El agente necesita saber a quién le remite cada paso.",
+      "responsable": "Lina María Rincón",
+      "plazo": "Antes de la S7"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Traer el ejercicio del observatorio del mercado laboral",
+      "descripcion": "La información de postulantes y vacantes que el área ya tiene, para trabajarlo en la próxima sesión.",
+      "responsable": "Lina María Rincón",
+      "plazo": "Sesión 7"
+    },
+    {
+      "num": "07",
+      "nivel": "BAJO",
+      "titulo": "Contestar la encuesta del programa",
+      "descripcion": "Está publicada en el canal del área. Son diez preguntas cortas.",
+      "responsable": "Lina María Rincón + José Jaime Maya",
+      "plazo": "Esta semana"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Lo construido entre sesiones",
+      "duracion": "~5 min",
+      "objetivo": "Revisar el trabajo del área desde la sesión anterior.",
+      "pasos": [
+        "_El flujograma completo del proceso de recobros,_ dibujado en el apartado de diseño. Es el insumo con el que se trabajó toda la sesión",
+        "_La presentación mensual de grupos primarios:_ el área tenía la estructura hecha y pidió actualizar los valores de julio y agosto. Se respetaron la tipografía y la estructura de las láminas — que era exactamente lo que se buscaba",
+        "Se lanzó en paralelo una versión alternativa, pidiéndole que sorprendiera con una propuesta superior para presentar a la dirección, con algo interactivo",
+        "_El criterio para un reporte gerencial:_ menos tablas y más lectura directa. A la dirección le sirve ver qué subió, qué bajó y cómo se comportó, no leer una tabla"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Mapear el proceso de recobros, paso por paso",
+      "duracion": "~32 min",
+      "objetivo": "Dejar el flujograma en condiciones de alimentar a un agente.",
+      "pasos": [
+        "_El punto de partida:_ llega por correo el reporte de dobles pagos por aportes de seguridad social — personas que reciben subsidio al desempleo y a la vez registran aporte como independientes o con otra empresa en el mismo periodo. La gerencia lo remite al profesional junior",
+        "_Paso 2:_ el profesional lo descarga del correo y revisa que los periodos con reporte de dobles pagos se encuentren vigentes; lo remite a la auxiliar por correo",
+        "_Paso 3:_ el reporte se divide en tres componentes y se clasifican los pagos en salud, pensión y transferencia",
+        "_Paso 4:_ la misma auxiliar realiza el cobro prejurídico — identifica los casos en que la Caja retiene el pago consultando el archivo de beneficiarios; para los no cobrados aplica el procedimiento de homologación; y a los sujetos de recobro les envía por medios electrónicos la solicitud de restitución, con periodos y valor total",
+        "_Paso 5:_ seguimiento por llamada, mensaje de texto y correo durante los 90 días siguientes a la notificación o al acuerdo de pago, cuando no hay reintegro",
+        "_Paso 6:_ el cruce con Contabilidad de los dineros recibidos en las cuentas por concepto de recobro",
+        "_Paso 7:_ transcurridos los 90 días, se remite a cartera y cobranzas el listado de quienes no reintegraron ni suscribieron acuerdo. Las etapas quedan claras: administrativa del día 1 al 30, persuasiva del 31 al 60, jurídica del 61 al 90, y de ahí a cobranzas"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Cómo se escribe un flujograma que va a alimentar un agente",
+      "duracion": "~10 min",
+      "objetivo": "Las correcciones de método que se hicieron sobre el propio dibujo.",
+      "pasos": [
+        "_El vehículo importa:_ 'lo remite al profesional' no basta. Hay que decir por correo, y que el profesional lo descarga del correo. Es lo que el agente tiene que ejecutar",
+        "_Cada parámetro necesita su referencia:_ 'que la información esté correcta' no es verificable. Con dos puntos y la aclaración —que los periodos estén vigentes— ya lo es",
+        "_Llamar a cada cosa por lo que es:_ donde el paso dice 'analiza' pero lo que hace es dividir y clasificar, hay que escribir dividir y clasificar. Si no, el agente pregunta qué debe analizar",
+        "_Nombrar el documento:_ donde el proceso consulta un archivo, hay que decir cuál. Si no se nombra, el agente no sabe dónde mirar",
+        "_Los destinatarios:_ o van escritos en el flujograma, o se sube un archivo con el equipo, su cargo y su correo, para que el agente resuelva a quién enviarle cada paso",
+        "_Y el método para desatascarse,_ usado en sesión cuando la edición se bloqueó: un pantallazo del error devuelto a la herramienta"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Lo que el propio sistema identificó que puede asumir",
+      "duracion": "~5 min",
+      "objetivo": "Delimitar el alcance del agente sobre el proceso ya mapeado.",
+      "pasos": [
+        "_Depuración y división del reporte:_ normalizar el archivo y separarlo en salud, pensión y transferencia, con validaciones de documento, periodo y valor",
+        "_Cruce de bases para la homologación:_ marcar quién va a homologación y quién a recobro",
+        "_Las plantillas de solicitud de restitución_ —correo, mensaje de texto y carta— con los campos variables de periodo y valor, en sus tres versiones: administrativa, persuasiva y prejurídica",
+        "_Los acuerdos de pago:_ el cálculo del plan de cuotas con intereses, según los porcentajes de la Caja y el acta vigente",
+        "_El calendario de seguimiento_ por hitos, calculado desde la notificación, con la evidencia de gestión que exige la política",
+        "_Y lo que no puede hacer:_ entrar a las plataformas externas a descargar los reportes. Ese paso lo sigue haciendo una persona"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "HALLAZGO CRÍTICO · SESIÓN 6 · 10 septiembre 2026",
+      "titulo": "El pago que entra sin nombre",
+      "descripcion": "Nueve de cada diez consignaciones se hacen en efectivo por ventanilla, a nombre de quien va al banco y no del deudor. Hoy entra dinero a las cuentas sin que se pueda saber a qué recobro corresponde. Es la causa de que se le siga cobrando a gente que ya pagó y de que el informe a la Superintendencia quede con vacíos. La salida es un código permanente por beneficiario, obligatorio al consignar — se genera en minutos y hay que acordarlo con Contabilidad y con el banco.",
+      "estado": "Identificado en sesión",
+      "proximo_paso": "Llevarlo a Contabilidad y al banco",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "OPORTUNIDAD MAPEADA · SESIÓN 6 · 10 septiembre 2026",
+      "titulo": "El proceso de recobros, escrito de punta a punta",
+      "descripcion": "Siete pasos, desde que llega el reporte de dobles pagos hasta que el caso pasa a cartera, con sus etapas de 30, 60 y 90 días y los responsables de cada tramo. Es el insumo que convierte un proceso conocido en un proceso ejecutable — y es lo que se le carga al agente.",
+      "estado": "Mapeado; faltan tres documentos base",
+      "proximo_paso": "Completar los insumos y cargarlo",
+      "target": "Sesión 7"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 6 · 10 septiembre 2026",
+      "titulo": "El segundo agente del área, para recobros",
+      "descripcion": "Después de Sofía, la que gestiona los correos, viene el agente de recobros: depura y clasifica el reporte, cruza las bases, redacta las solicitudes de restitución en sus tres versiones, calcula los planes de cuotas y lleva el calendario de seguimiento. La descarga de los reportes queda manual; todo lo demás no.",
+      "estado": "Por crear",
+      "proximo_paso": "Armar la carpeta, crearlo y modelarlo",
+      "target": "Sesión 7"
+    },
+    {
+      "encabezado": "OPORTUNIDAD PLANTEADA · SESIÓN 6 · 10 septiembre 2026",
+      "titulo": "El observatorio del mercado laboral del Cesar",
+      "descripcion": "El área tiene la información de quienes se postulan y de las vacantes que publican las empresas. Con eso se puede construir la lectura de qué perfiles demanda hoy el empresariado del departamento y qué sectores están dinamizados — y publicarlo como una pieza digital para compartir con cámara de comercio y otros actores. Es un producto que hoy no existe y que posiciona al área hacia afuera.",
+      "estado": "Planteado por el área",
+      "proximo_paso": "Traer la información a la próxima sesión",
+      "target": "Sesión 7"
+    }
+  ],
+  "tareas_intro": "La sesión se dedicó entera a mapear el proceso de recobros, y valió la pena: además de dejar el flujograma listo para el agente, el ejercicio destapó un punto donde el proceso se rompe hoy y que hay que resolver antes de automatizar.",
+  "tareas": [
+    {"tarea": "Proponer a Contabilidad el código único por beneficiario", "responsable": "Lina María Rincón + Contabilidad", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Armar la carpeta de recobros con todos los documentos", "responsable": "Lina María Rincón", "prioridad": "ALTA", "plazo": "Antes de la S7"},
+    {"tarea": "Crear el agente de recobros y empezar a modelarlo", "responsable": "Lina María Rincón", "prioridad": "ALTA", "plazo": "Antes de la S7"},
+    {"tarea": "Completar el documento base, el modelo de carta y la homologación", "responsable": "Lina María Rincón", "prioridad": "ALTA", "plazo": "Antes de la S7"},
+    {"tarea": "Confirmar la cadencia real del seguimiento a 90 días", "responsable": "Lina María Rincón", "prioridad": "MEDIA", "plazo": "Antes de la S7"},
+    {"tarea": "Subir el listado del equipo con cargo y correo", "responsable": "Lina María Rincón", "prioridad": "MEDIA", "plazo": "Antes de la S7"},
+    {"tarea": "Traer la información de postulantes y vacantes para el observatorio", "responsable": "Lina María Rincón", "prioridad": "MEDIA", "plazo": "Sesión 7"},
+    {"tarea": "Agendar varias sesiones para la próxima semana", "responsable": "Lina María Rincón", "prioridad": "MEDIA", "plazo": "Inmediato"},
+    {"tarea": "Contestar la encuesta del programa", "responsable": "Lina María Rincón + José Jaime Maya", "prioridad": "BAJA", "plazo": "Esta semana"}
+  ],
+  "observaciones": [
+    "El hallazgo de esta sesión no es de tecnología y es el más importante que ha salido en el área: el proceso de recobros se rompe en el punto donde el dinero entra al banco. Nueve de cada diez pagos se hacen en efectivo por ventanilla y quedan a nombre de quien consigna, no del deudor. Hoy entran dineros que no se pueden atribuir a nadie, y de ahí salen dos costos reales — se le sigue cobrando a personas que ya pagaron, y el informe a la Superintendencia del Subsidio Familiar queda con vacíos.",
+    "La salida propuesta es simple y no exige tecnología: un código permanente por beneficiario, obligatorio al momento de consignar, que enlace el pago con la persona sin importar quién vaya al banco. Generar los códigos es cuestión de minutos; lo que hay que gestionar es el acuerdo con Contabilidad —que también está en el programa— y con el banco. _Y hay una razón para hacerlo primero:_ automatizar un proceso roto no lo arregla, solo hace más rápido el error.",
+    "Mapear el proceso fue lo que destapó el problema. Ese es el argumento de fondo del ejercicio y conviene registrarlo: escribir un proceso paso a paso no es documentarlo, es auditarlo. Lo mismo pasó en otras áreas del programa esta misma semana.",
+    "Las correcciones de método sobre el flujograma valen para todo el programa. Un flujograma para leer humanos y uno para alimentar un agente no son lo mismo: el segundo necesita el vehículo de cada traspaso, la referencia contra la cual se valida cada parámetro, el nombre del documento que se consulta y el destinatario de cada envío. Sin eso, el agente pregunta o se detiene.",
+    "El límite de consumo detuvo el trabajo a mitad de sesión y conviene decir por qué sin adornos: el área ya no está haciendo consultas sobre un proyecto, está construyendo sistemas agénticos, y eso pesa mucho más. La definición del esquema de capacidad se sustenta en el cierre del proyecto en octubre; hasta entonces hay que contar con pausas y trabajar por tramos.",
+    "El observatorio del mercado laboral que planteó el área merece atención aparte. No es una mejora interna: es un producto hacia afuera, construido sobre información que ya se tiene —postulantes y vacantes— y que hoy no se está aprovechando. Es de las ideas con más recorrido que han salido en el programa."
+  ],
+  "proxima_sesion": {
+    "sesion": "Agencia de Empleo — Sesión 7",
+    "condiciones": [
+      "La carpeta de recobros armada con todos los documentos",
+      "El agente de recobros creado y en modelamiento",
+      "Los tres puntos del flujograma completados",
+      "La información de postulantes y vacantes a la mano"
+    ],
+    "agenda": [
+      "Revisión del agente de recobros y de lo que produce",
+      "El arranque del observatorio del mercado laboral",
+      "La pieza digital para compartir con actores externos",
+      "Primer acercamiento a otras herramientas de IA"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 10 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

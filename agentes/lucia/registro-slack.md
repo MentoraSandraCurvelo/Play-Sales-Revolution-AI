@@ -557,9 +557,13 @@ Cinco sesiones, cinco actas. Las cuatro primeras publicadas el mismo día; la de
 | Área | Sesión | Persona | Hora | Duración | Canal |
 |---|---|---|---|---|---|
 | Vivienda | S5 | Cindy Silva | 8:00 a. m. | 1 h | `#vivienda` |
+| Agencia de Empleo | S6 | Lina María Rincón (+ José Jaime Maya en sala) | 10:00 a. m. | 52 min | `#agencia-de-empleo` |
+| Servicios Sociales | S6 | Juan Pablo Curvelo y Lilian Paola Ramos | 11:00 a. m. | 1 h 7 min | `#serivcios-sociales` |
 
 **Verificación de numeración**
 - Vivienda: S1 13 ago · S2 21 ago · S3 24 ago · S4 25 ago · **S5 10 sep Cindy** ✓
+- Agencia de Empleo: S1 13 ago · S2 20 ago · S3 25 ago · S4 3 sep · S5 8 sep · **S6 10 sep Lina** ✓
+- Servicios Sociales: S1 18 ago · S2 21 ago · S3 24 ago · S4 27 ago · S5 31 ago · **S6 10 sep** ✓ — *el evento salió titulado «S7» porque contó las dos S6 canceladas (3 y 8 sep) como realizadas. El acta va como S6 y se publicó la corrección en el canal.*
 
 **Pendiente resuelto**
 - **Cindy es Cindy Silva, de Vivienda.** Era la persona que aparecía 46 minutos en la sesión de Subsidio sin estar en `#subsidio` ni en el roster de esa área. Queda identificada.
@@ -568,4 +572,15 @@ Cinco sesiones, cinco actas. Las cuatro primeras publicadas el mismo día; la de
 - Vivienda llega con tres construcciones hechas por cuenta propia entre sesiones: el planificador afinado, el seguimiento del sector rural unificado (52 familias, etapa jurídica y técnica en un solo tablero, 92% de avance jurídico) y un discurso directivo con sus fuentes.
 - Primer artefacto del área: la ficha técnica convertida en tablero interactivo.
 - **Alerta registrada:** ninguno de esos tres trabajos está en el tablero de seguimiento del programa. Sin la medición de antes y después, la presentación de cierre al director no se puede sustentar.
+
+**Hitos de la tarde del 10**
+- **Agencia de Empleo:** el proceso de recobros quedó mapeado en siete pasos. El mapeo destapó que el proceso está roto donde entra el dinero — nueve de cada diez pagos se consignan en efectivo a nombre de quien va al banco, no del deudor, y hay dineros que no se pueden atribuir. Consecuencia: se le cobra a gente que ya pagó y el informe a la Superintendencia queda con vacíos. Solución propuesta: código único permanente por beneficiario, a acordar con Contabilidad y con el banco. **Hay que arreglarlo antes de automatizar.**
+- **Servicios Sociales:** primer registro de productividad del área — una tarea de ocho días (3.840 min) ahora toma cuatro horas (240 min). Y la causa del atraso quedó dicha por la propia jefatura: al menos dos equipos de escritorio sin cámara ni micrófono. Solicitud de portátiles pendiente.
+
+**Error corregido**
+- Publiqué la grabación de Servicios Sociales en `#contabilidad` por equivocación. Se avisó en el canal y se republicó en `#serivcios-sociales`. **`#contabilidad` es `C0BPDN9PKPH`; `#serivcios-sociales` es `C0BPRGNGLJ1`.**
+
+**Pendientes nuevos**
+- Confirmar con el área si Cumplimiento va a asumir el protocolo de gobernanza para el uso de herramientas (hoy no existe ni para correo, ni para Drive, ni para mensajería).
+- Servicios Sociales: la jefatura descargó la herramienta el mismo día de la sesión; queda de tarea ponerse al día con las grabaciones.
 
