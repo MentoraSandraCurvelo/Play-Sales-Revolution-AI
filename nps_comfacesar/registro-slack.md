@@ -15,6 +15,59 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📣 10 sep · 08:30 · Campaña de motivación a 7 canales, a pedido de Sandra
+
+Sandra pidió «otro mensaje de la encuesta, y de agendamiento y cómo van en cada canal
+para que se motiven». **Publicados, no programados**, entre las 8:31 y las 8:32.
+
+Cada mensaje lleva tres cosas: **el logro propio del área con su cifra**, dónde va el
+programa completo como referencia, y la petición de fecha con el enlace fijado. La
+encuesta va al final, no al principio.
+
+| Canal | Gancho usado | Estado del área |
+|---|---|---|
+| `#mercadeo` | 710 leads de turismo, 1 h a 15 min | 16 días sin sesión, agradece las 2 respuestas |
+| `#sub-operativa` | costeos e informes empresariales | 9 días, sin fecha, agradece las 2 respuestas |
+| `#planeacion` | la primera habilidad del programa, `/dato` | 7 días, sin fecha |
+| `#gerencia-financiera` | el balance cuadra y aun así salieron hallazgos | 7 días, sin fecha |
+| `#talento-humano` | las 936 filas de nómina en fórmula automática | 9 días, sin fecha |
+| `#cumplimiento` | única área que sigue en la S1 | 15 días, pidió agendar dos veces |
+| `#comunicaciones` | 6 de 6, la asistencia más alta del programa | S6 el martes 15 |
+
+### Los seis canales que dejé fuera, y por qué
+
+**Vivienda, Agencia de Empleo, Servicios Sociales y Tecnología** tienen sesión hoy. La
+regla 1 dice que no se toca un área con sesión en los últimos 7 días, y además Lucía
+publicará sus actas y recordatorios ahí.
+
+**Contabilidad, Educación y Subsidio** sesionaron el 7 y el 8. Un mensaje de «cómo van»
+encima del acta que acaban de recibir sobra.
+
+**Jurídica, IPS, Tesorería y Sub. Administrativa** sesionaron ayer: están dentro de la
+ventana de 48 horas de las actas de Lucía.
+
+**Crédito y Auditoría Interna** no se tocan: María Elvira escaló ella misma el lunes
+planteando retirarlas del proyecto. Eso es alcance de contrato y lo resuelve Comfacesar.
+
+**El recorte no es una reducción del pedido, es el pedido bien apuntado:** los siete que
+sí recibieron mensaje son exactamente los que necesitan motivarse. Los excluidos ya se
+están moviendo.
+
+### La pregunta que metí en Cumplimiento
+
+A Saharay le pregunté directo **si el enlace no le está ofreciendo horas que le sirvan**.
+Pidió agendar el 8, se le dio el enlace, y a hoy no hay fecha. Servicios Sociales pidió
+lo mismo en la encuesta. Si contesta que sí, queda confirmada la hipótesis de las franjas
+de Calendly y deja de ser suposición.
+
+### Para Lucía
+
+⚠️ **Siete canales llevan un mensaje mío hoy.** Queda uno de cupo en cada uno. En
+`#comunicaciones` y `#mercadeo` conviene no gastarlo salvo que sea acta o recordatorio.
+Los cuatro canales con sesión hoy están limpios: no escribí en ninguno.
+
+---
+
 ## 🚨 10 sep · 08:15 · Hay 36 mensajes publicados con `:red_circle:`, y ninguno es reciente
 
 Corrida de las 8:00. **No publiqué nada.** Cero mensajes de cliente desde ayer a las 3
