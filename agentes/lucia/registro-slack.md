@@ -510,7 +510,7 @@ Se fijó la regla en `LUCIA.md`: **el número es del área y corre por fecha; el
 
 ## Miércoles 9 de septiembre de 2026 — cierre del día
 
-Cuatro sesiones, cuatro actas, publicadas el mismo día (criterio cumplido).
+Cinco sesiones, cinco actas. Las cuatro primeras publicadas el mismo día; la de Comunicaciones el día siguiente, porque la grabación llegó después.
 
 | Área | Sesión | Persona | Hora | Duración | Canal |
 |---|---|---|---|---|---|
@@ -518,18 +518,21 @@ Cuatro sesiones, cuatro actas, publicadas el mismo día (criterio cumplido).
 | Jurídica | S6 | Carlos Mario Gamarra | 10:00 a. m. | 1 h | `#juridica` |
 | IPS | S2 | Danilo Pozo | 11:00 a. m. | 59 min | `#ips` |
 | Tesorería | S2 | Yohana Carreño | 12:00 m. | 51 min | `#tesoreriaa` |
+| Comunicaciones | S5 | Vidiana Bendeck | 5:00 p. m. | 1 h | `#comunicaciones` |
 
 **Verificación de numeración** (por carpeta en Dropbox y CSV de asistencia, no por el título del evento):
 - Sub. Financiera: S1 20 ago grupal · S2 2 sep Rafael · S3 7 sep Rafael · S4 8 sep Liliany · **S5 9 sep Rafael** ✓
 - Jurídica: S1 14 ago · S2 20 ago · S3 31 ago · S4 3 sep · S5 7 sep Lilibeth · **S6 9 sep Carlos Mario** ✓
 - IPS: S1 24 ago Danilo · **S2 9 sep Danilo** ✓
 - Tesorería: S1 19 ago · **S2 9 sep Yohana** ✓
+- Comunicaciones: S1 11 ago · S2 20 ago · S3 21 ago · S4 4 sep · **S5 9 sep Vidiana** ✓
 
 **Hitos del día**
 - **Tercer agente del programa** — *Ronaldo* (Sub. Financiera), después de Lilia (Jurídica) y Sofía (Agencia de Empleo). El bloqueo de los adjuntos del correo quedó resuelto: regla en el correo que guarda los adjuntos en Drive cada hora; 4 PDF guardados en la primera prueba.
 - **Cuarto agente en construcción** — *María* (Jurídica), montado en menos de 20 min porque el proceso ya estaba escrito.
 - **IPS aporta la primera cifra dura del área**: 2 meses de trabajo en 5 minutos (por validar contra una matriz manual).
 - **Tesorería: bloqueo de insumo**, no de método — los CDT son títulos físicos y los escaneos no traen capa de texto.
+- **Comunicaciones: primera corrida real con una sola línea de instrucción** — el sistema aisló la solicitud del día, levantó una alerta de canal que nadie le pidió (correo desde cuenta personal) y propuso nombres y piezas alineados con la campaña en curso.
 
 **Corrección registrada**
 - El hallazgo del lunes sobre impresión en precontractual queda reasignado: **el área precontractual no imprime**; es Jurídica quien exige la documentación en físico como control ya establecido. El punto de mejora sigue en pie pero el dueño es Jurídica.
@@ -543,3 +546,6 @@ Cuatro sesiones, cuatro actas, publicadas el mismo día (criterio cumplido).
 - Danefer Mora → `#planeacion`; Julio Pérez → `#comunicaciones`
 - Correo corporativo de Liliany
 - Discrepancia de numeración en Sub. Operativa (el acta del 1 sep salió como S3; por el récord es S2)
+
+**Nota operativa registrada en la S5 de Comunicaciones**
+- Los mensajes directos de Slack no llegan a la mentoría. Todo lo que las áreas necesiten compartir va por el canal del área.

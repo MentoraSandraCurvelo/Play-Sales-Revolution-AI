@@ -1,0 +1,259 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "COMUNICACIONES",
+  "area_completa": "",
+  "sesion_num": 5,
+  "fase": "Sistemas de Trabajo Agénticos",
+  "fecha": "9 de septiembre de 2026",
+  "fecha_corta": "9 septiembre 2026",
+  "subtitulo_meta": "Individual de Vidiana Bendeck · 9 de septiembre de 2026 · 5:00 p. m. · 1 hora · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Comunicaciones — Comfacesar"],
+    ["Sesión", "N° 5 — Individual de Vidiana Bendeck: el proceso de solicitudes, escrito y corriendo por primera vez"],
+    ["Fecha", "9 de septiembre de 2026"],
+    ["Hora inicio", "5:00 p. m. — Colombia"],
+    ["Duración de la sesión", "1 hora (4:57 p. m. – 5:57 p. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Vidiana Bendeck — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "1ª", "etiqueta": "Corrida real del sistema", "detalle": "Revisó el correo del día y aisló la solicitud"},
+    {"valor": "1", "etiqueta": "Alerta levantada sola", "detalle": "Una solicitud llegó desde una cuenta personal"},
+    {"valor": "5", "etiqueta": "Nombres propuestos", "detalle": "Alineados con la campaña que ya está en curso"},
+    {"valor": "4", "etiqueta": "Piezas recomendadas", "detalle": "Para el caso concreto, sin haberlas pedido"},
+    {"valor": "2", "etiqueta": "Pasos que faltaban", "detalle": "Aparecieron al escribir el proceso completo"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Vidiana Bendeck", "cargo": "Profesional de Comunicaciones — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 5. El área llegó con su proceso mapeado y salió con él escrito y corriendo. Lo que aparece ahora son puntos de estandarización aguas arriba y un límite del entorno que se resuelve con la aplicación de escritorio.",
+  "riesgos": [
+    {
+      "titulo": "Las solicitudes llegan sin un asunto estandarizado",
+      "nivel": "ALTO",
+      "descripcion": "Hoy unas áreas escriben 'solicitud' y otras 'brief' en el asunto del correo. _Ese asunto es el anclaje:_ es lo que permite identificar qué correo entra al proceso y cuál no. Se acordó unificar en **Solicitud:** y dejar de usar 'brief', que además viene del mundo publicitario y significa otra cosa. Requiere un correo a las áreas.",
+      "responsable": "Vidiana Bendeck / Esta semana"
+    },
+    {
+      "titulo": "Una solicitud llegó desde una cuenta personal",
+      "nivel": "ALTO",
+      "descripcion": "_Lo detectó el sistema en su primera corrida:_ el correo no venía de la cuenta institucional. Es un hallazgo de canal, no de forma — define si la solicitud es trazable y si el área puede responder por ella. Queda por definir si ese canal se acepta o no.",
+      "responsable": "Vidiana Bendeck / Por definir"
+    },
+    {
+      "titulo": "Faltaban dos pasos en el mapa del proceso",
+      "nivel": "MEDIO",
+      "descripcion": "Aparecieron al escribirlo: la respuesta al área con el número de consecutivo —que hoy se hace y no estaba dibujada— y un tipo de solicitud que no estaba contemplado, el apoyo para registro fotográfico. _El segundo lo descubrió el propio ejercicio_ al procesar la primera solicitud real.",
+      "responsable": "Vidiana Bendeck / Antes de la S6"
+    },
+    {
+      "titulo": "El entorno web no llega al disco del computador",
+      "nivel": "MEDIO",
+      "descripcion": "Al pedirle que descargara el documento adjunto a la carpeta del año, la respuesta fue clara: no hay acceso al disco local desde esta sesión; para eso hay que trabajar desde la aplicación de escritorio. _Es el límite esperado_ y marca la tarea siguiente.",
+      "responsable": "Vidiana Bendeck / Antes de la S6"
+    },
+    {
+      "titulo": "El proceso vive repartido entre dos unidades de archivo",
+      "nivel": "MEDIO",
+      "descripcion": "Una para asignarle la solicitud al diseñador o al videógrafo, con su hoja de diseño y su hoja de audiovisual; otra para el consecutivo de todas las solicitudes. Cargar dos veces la misma información es el desgaste que el área quiere quitarse, y es lo que este proyecto puede consolidar.",
+      "responsable": "Vidiana Bendeck / Septiembre"
+    },
+    {
+      "titulo": "Las métricas del canal interno se llevan a mano",
+      "nivel": "MEDIO",
+      "descripcion": "El canal es cerrado y no entrega métricas como una cuenta abierta, así que el alcance y el engagement se registran manualmente, para campañas y para publicaciones informativas por igual. Es el candidato natural al primer tablero del área, pero va después de este proceso.",
+      "responsable": "Vidiana Bendeck / Octubre"
+    },
+    {
+      "titulo": "Hay varios proyectos abiertos sin la misma estructura",
+      "nivel": "BAJO",
+      "descripcion": "Se acordó concentrar el trabajo en este proyecto hasta terminarlo, y ajustar los demás con la estructura correcta una vez esté aprendida. Trabajar en paralelo con formatos distintos es lo que hace que después nada funcione igual.",
+      "responsable": "Vidiana Bendeck / Permanente"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Enviar el correo a las áreas unificando el asunto",
+      "descripcion": "Todas las solicitudes deben llegar con **Solicitud:** en el asunto. Es el anclaje del sistema y sin él no hay automatización posible aguas arriba.",
+      "responsable": "Vidiana Bendeck",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Descargar la aplicación de escritorio y el entorno de agentes",
+      "descripcion": "Es la condición para conectar las carpetas del computador y para que el sistema pueda descargar y leer los documentos adjuntos.",
+      "responsable": "Vidiana Bendeck",
+      "plazo": "Antes de la S6"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Seguir modelando el proceso conversando con el sistema",
+      "descripcion": "Cuando el resultado no sirva, decírselo: esto no es lo que necesito, el proceso no es así, qué se requiere para que puedas leer el correo. Es la única vía para que el sistema quede a la medida del puesto.",
+      "responsable": "Vidiana Bendeck",
+      "plazo": "Permanente"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Completar los dos pasos que faltan en el mapa",
+      "descripcion": "La respuesta al área con el consecutivo, y las solicitudes de apoyo para registro fotográfico como tipo propio.",
+      "responsable": "Vidiana Bendeck",
+      "plazo": "Antes de la S6"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Subir el listado de áreas solicitantes",
+      "descripcion": "Tal como debe aparecer escrito en el campo, para que el sistema tenga contra qué comparar.",
+      "responsable": "Vidiana Bendeck",
+      "plazo": "Antes de la S6"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Agendar dos o tres sesiones por semana",
+      "descripcion": "El programa cierra el 30 de octubre y la agenda se llena rápido. Entre sesión y sesión quedan ejercicios; la frecuencia es lo que los aprovecha.",
+      "responsable": "Vidiana Bendeck",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "07",
+      "nivel": "BAJO",
+      "titulo": "Ir registrando los hallazgos en el tablero de seguimiento",
+      "descripcion": "No hay que esperar a terminar el proyecto: cada 'antes esto me tomaba tanto, ahora esto' se registra a medida que aparece.",
+      "responsable": "Vidiana Bendeck",
+      "plazo": "Permanente"
+    },
+    {
+      "num": "08",
+      "nivel": "BAJO",
+      "titulo": "Contestar la encuesta del programa",
+      "descripcion": "Está publicada en el canal del área.",
+      "responsable": "Vidiana Bendeck",
+      "plazo": "Esta semana"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El flujograma del proceso",
+      "duracion": "~8 min",
+      "objetivo": "Revisar el mapa que el área trajo hecho y encontrar lo que falta.",
+      "pasos": [
+        "El área llegó con el proceso dibujado, de punta a punta: entra la solicitud por correo desde las áreas internas, se revisa, se determina qué pieza se va a producir, se construye el mensaje y la arquitectura de la campaña",
+        "Después se carga en la unidad de archivo y se le asigna a un diseñador o a un videógrafo, se registra el consecutivo en otra unidad, y cuando la pieza llega se revisa, se comparte con el área para su validación y se publica",
+        "_Si es campaña,_ se le hace seguimiento de métricas en el canal interno; si es informativa, cierra ahí",
+        "_Lo que faltaba en el dibujo:_ la respuesta al área con el número de consecutivo, que hoy se hace y no estaba mapeada",
+        "_Lo que el área quiere quitarse:_ tener que cargar dos veces, escoger el diseñador, poner la fecha, buscar el consecutivo"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Escribir el proceso, campo por campo",
+      "duracion": "~37 min",
+      "objetivo": "Trasladar el criterio del puesto a un proyecto bien estructurado.",
+      "pasos": [
+        "_El criterio de fondo, dicho en sesión:_ lo que se está haciendo es clonar el criterio del puesto. Lo que hoy hace una persona sin pensarlo hay que escribirlo",
+        "_Contexto:_ llegan correos ocasionalmente, de distintas áreas, con un documento adjunto en Word o PDF sobre el formato de solicitud. Se revisa el área solicitante; que el nombre de la actividad, la descripción, el objetivo, el público objetivo y el lugar y fecha estén diligenciados; que la fecha esté vigente. El campo de consideraciones no es obligatorio",
+        "_La distinción que costó y es la que importa:_ un parámetro necesita una referencia contra la cual medirse. 'Que el nombre esté bien' no es verificable; 'que el campo no esté en blanco' sí. El nombre lo pone el área y no se juzga",
+        "_Rol:_ el mejor diseñador gráfico y publicista de comunicación organizacional, con experiencia en construir mensajes que enganchen tanto en redes como a nivel interno",
+        "_Entrega:_ un documento en Word con los principales hallazgos por solicitud, semaforizados entre crítico, pendiente y correcto",
+        "_Acción — y aquí se pidió más de lo que se hace hoy:_ sugerir nombres con mayor enganche a partir del nombre y la descripción del evento; enfocar el mensaje según el público objetivo; alertar si la fecha no está vigente; proponer cinco opciones de mensaje; preguntar qué pieza usar del listado del área; conectarse a la unidad de archivo y diligenciar la hoja de diseño o la de audiovisual; y responderle al área solicitante con los hallazgos para que corrija, revisando de nuevo hasta que todo quede en verde",
+        "Se dejó apuntado subir el listado de áreas solicitantes, tal como debe aparecer en el campo, para tener contra qué comparar"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · La primera corrida real",
+      "duracion": "~15 min",
+      "objetivo": "Probar el proyecto contra el correo del día.",
+      "pasos": [
+        "La instrucción fue de una sola línea: revisar los correos del día con las solicitudes. _Todo el trabajo lo hizo el contexto que se acababa de escribir_",
+        "_Discriminó bien:_ encontró una solicitud nueva y descartó dos hilos que eran coordinaciones propias del área, no solicitudes",
+        "_Levantó la alerta correcta:_ el correo venía de una cuenta personal y no de la institucional, y pidió verificar si ese canal es válido",
+        "Verificó los campos uno a uno —nombre de actividad, descripción, objetivo, público objetivo, lugar, fecha y hora vigente— y los dio por correctos",
+        "_Reportó su propio límite:_ no pudo leer el interior del documento adjunto, y avisó que el análisis estaba basado en el cuerpo del correo",
+        "_Propuso cinco nombres_ con más enganche para una jornada dirigida a conductores, y uno de ellos quedó alineado con la campaña que el área ya tiene en curso",
+        "_Recomendó cuatro piezas_ para el caso —registro, galería, noticia interna para intranet y mensaje para la red de embajadores— y ofreció redactar la respuesta al área",
+        "_Y el ejercicio produjo su propio hallazgo:_ al ver el resultado, el área notó que las solicitudes de apoyo para registro fotográfico son un tipo que no había quedado mapeado"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD PROBADA · SESIÓN 5 · 9 septiembre 2026",
+      "titulo": "La revisión de solicitudes, hecha en una línea",
+      "descripcion": "Con una sola instrucción, el sistema revisó el correo del día, separó lo que era una solicitud de lo que no, verificó cada campo del formato, levantó la alerta de un canal no institucional y avisó de lo que no pudo leer. Es exactamente el trabajo de revisión que hoy hace el puesto documento por documento.",
+      "estado": "Funcionando desde el entorno web",
+      "proximo_paso": "Conectar el escritorio para que lea los adjuntos",
+      "target": "Sesión 6"
+    },
+    {
+      "encabezado": "OPORTUNIDAD PROBADA · SESIÓN 5 · 9 septiembre 2026",
+      "titulo": "Nombres y piezas propuestos, no solo revisados",
+      "descripcion": "El proyecto no se limitó a validar el formato: propuso cinco nombres con más enganche para la actividad y recomendó las cuatro piezas adecuadas al público. Es la parte que el área pidió por encima de lo que hace hoy — y el resultado ya salió alineado con la campaña en curso.",
+      "estado": "Funcionando",
+      "proximo_paso": "Modelarlo con más casos reales",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "OPORTUNIDAD PLANTEADA · SESIÓN 5 · 9 septiembre 2026",
+      "titulo": "Un solo registro en lugar de dos",
+      "descripcion": "Hoy la misma solicitud se carga en una unidad para asignarle diseñador o videógrafo y en otra para llevar el consecutivo, y de ahí sale la respuesta al área. Consolidar ese doble registro —y que la respuesta con el consecutivo salga sola— es el tramo que le quita al puesto el trabajo repetido.",
+      "estado": "Mapeo por completar",
+      "proximo_paso": "Escribir el paso del consecutivo y la respuesta al área",
+      "target": "Sesión 6"
+    },
+    {
+      "encabezado": "OPORTUNIDAD PLANTEADA · SESIÓN 5 · 9 septiembre 2026",
+      "titulo": "El tablero de campañas y métricas del canal interno",
+      "descripcion": "El canal es cerrado y no entrega métricas, así que alcance y engagement se llevan a mano. Un tablero que muestre las campañas activas y su comportamiento es lo que el área pidió expresamente — va después de este proceso, no antes.",
+      "estado": "En cola",
+      "proximo_paso": "Retomarlo cuando el proyecto de solicitudes esté cerrado",
+      "target": "Octubre"
+    }
+  ],
+  "tareas_intro": "Es una sesión de construcción, no de explicación. El área llegó con el proceso dibujado y salió con él escrito, con un proyecto estructurado y con una primera corrida real que ya encontró un hallazgo que el propio mapa no tenía.",
+  "tareas": [
+    {"tarea": "Enviar el correo a las áreas unificando el asunto en «Solicitud:»", "responsable": "Vidiana Bendeck", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Descargar la aplicación de escritorio y el entorno de agentes", "responsable": "Vidiana Bendeck", "prioridad": "ALTA", "plazo": "Antes de la S6"},
+    {"tarea": "Seguir modelando el proceso conversando con el sistema", "responsable": "Vidiana Bendeck", "prioridad": "ALTA", "plazo": "Permanente"},
+    {"tarea": "Completar el mapa: consecutivo, respuesta al área y registro fotográfico", "responsable": "Vidiana Bendeck", "prioridad": "ALTA", "plazo": "Antes de la S6"},
+    {"tarea": "Subir el listado de áreas solicitantes como referencia", "responsable": "Vidiana Bendeck", "prioridad": "MEDIA", "plazo": "Antes de la S6"},
+    {"tarea": "Definir si una solicitud desde cuenta personal es canal válido", "responsable": "Vidiana Bendeck", "prioridad": "MEDIA", "plazo": "Por definir"},
+    {"tarea": "Agendar dos o tres sesiones por semana", "responsable": "Vidiana Bendeck", "prioridad": "MEDIA", "plazo": "Inmediato"},
+    {"tarea": "Registrar los hallazgos en el tablero a medida que aparezcan", "responsable": "Vidiana Bendeck", "prioridad": "BAJA", "plazo": "Permanente"},
+    {"tarea": "Contestar la encuesta del programa", "responsable": "Vidiana Bendeck", "prioridad": "BAJA", "plazo": "Esta semana"}
+  ],
+  "observaciones": [
+    "El área llegó con el proceso dibujado de punta a punta, y eso es lo que permitió que la hora se fuera en construir y no en explicar. Vale la pena registrarlo porque es exactamente lo contrario de lo que ha frenado a otras áreas: donde el proceso está mapeado, el sistema se arma; donde vive en la cabeza de alguien, no se arma.",
+    "Aun así, escribirlo encontró dos pasos que el dibujo no tenía —la respuesta al área con el consecutivo, y un tipo de solicitud completo que no estaba contemplado. El segundo no lo encontró el mapa: lo encontró el ejercicio, al procesar una solicitud real. Escribir el proceso no es documentarlo, es descubrirlo.",
+    "La distinción más útil de la sesión fue la de parámetro y referencia. Un parámetro necesita algo contra lo cual medirse: 'que el nombre esté bien' no se puede verificar, 'que el campo no esté en blanco' sí. Esa diferencia es la que separa una instrucción que funciona de una que devuelve resultados inconsistentes.",
+    "En la primera corrida el sistema hizo tres cosas que conviene destacar por separado: discriminó qué correo era una solicitud y cuál no, levantó una alerta de canal que nadie le pidió —una solicitud entrando por una cuenta personal— y reportó honestamente lo que no pudo leer en lugar de inventarlo. Las tres son señales de que el contexto quedó bien escrito.",
+    "La entrega que se pidió va por encima de lo que el puesto hace hoy: no solo revisar el formato, sino proponer nombres con más enganche y recomendar las piezas adecuadas al público. Y salió alineado con la campaña que el área ya tiene en curso, sin que se lo indicaran.",
+    "El límite que apareció al final era el esperado: desde el entorno web no hay acceso al disco del computador, y por eso el adjunto no se pudo descargar. La tarea de descargar la aplicación de escritorio no es un trámite: es lo que abre el tramo siguiente del proceso.",
+    "Se acordó concentrar todo el trabajo en este proyecto hasta terminarlo, dejando los demás para ajustarlos después con la misma estructura. Y una nota operativa: los mensajes directos no llegan a la mentoría; todo lo que se necesite compartir va por el canal del área."
+  ],
+  "proxima_sesion": {
+    "sesion": "Comunicaciones — Sesión 6",
+    "condiciones": [
+      "La aplicación de escritorio y el entorno de agentes instalados",
+      "El correo de estandarización del asunto enviado a las áreas",
+      "El mapa completo, con el consecutivo y el registro fotográfico",
+      "El listado de áreas solicitantes cargado",
+      "Lo que se haya avanzado modelando el proceso"
+    ],
+    "agenda": [
+      "Conectar las carpetas del computador al entorno de trabajo",
+      "Que el sistema descargue y lea el documento adjunto",
+      "El paso del consecutivo y la respuesta automática al área",
+      "El diligenciamiento de la hoja de diseño y la de audiovisual"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 9 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
