@@ -15,6 +15,51 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📊 10 sep · 15:10 · Décima respuesta, y se rompe la única unanimidad del tablero
+
+**Agencia de Empleo, hoy 10:58 a. m.**, justo después de su S6. **No vino de la campaña**:
+ese canal no recibió mensaje esta mañana, porque tenía sesión hoy.
+
+| Campo | Valor |
+|---|---|
+| Sesiones | 4 o 5 |
+| Utilidad | 9 |
+| Metodología | 4 |
+| **Profundidad técnica** | **«Muy avanzado»** |
+| Confianza antes → hoy | 6 → 9 |
+| Ahorro | Entre 2 y 5 horas |
+
+### Lo que importa
+
+**Durante nueve respuestas seguidas la profundidad técnica estuvo «en el punto», sin una
+sola excepción.** La décima dice «muy avanzado», y viene justo de donde tenía que venir:
+el área que construyó el segundo agente del programa, **que trabaja con Claude Code** y
+que está montando un agente de recobros.
+
+No es que el nivel se haya pasado: es que **una sola área se despegó del resto**. Nueve
+de diez siguen diciendo «en el punto». Eso no se arregla bajando el nivel general, se
+arregla dándole a esa área otra cosa.
+
+**Textual de lo que ya aplican:** «hemos aplicado el claude, trabajamos con claude code y
+en estos momentos nos encontramos en la creación del agente para el proceso de recobros».
+
+**Y son la cuarta área que pide licencias por escrito:** «seguir modelando los procesos
+que tenemos actualmente, además tener acceso a las herramientas digitales que son pagas».
+Con esto van Jurídica, Sub. Operativa, Agencia de Empleo y, en vivo, Subsidio.
+
+### La campaña de las 8:31 sigue en cero
+
+Siete horas después: **cero respuestas escritas, cero agendamientos**. El calendario está
+idéntico al del barrido de las 7:15. La única respuesta nueva de la encuesta vino de un
+canal que **no** recibió la campaña, después de una sesión.
+
+Eso refuerza la hipótesis: **lo que mueve la aguja es la sesión, no el mensaje.** Y lo
+que impide la sesión puede estar en las franjas de Calendly.
+
+Pulso v5: https://claude.ai/code/artifact/0cca00fb-603a-4ae8-a87f-1d5f724dbf0d
+
+---
+
 ## 🔴 10 sep · 09:10 · Entró una crítica directa a la mentoría, y va solo a Sandra
 
 Corrida de las 9:00. La encuesta pasa de 7 a **9 respuestas**. Media hora después de la
