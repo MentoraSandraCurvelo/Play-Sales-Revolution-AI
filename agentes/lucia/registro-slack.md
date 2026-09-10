@@ -549,3 +549,23 @@ Cinco sesiones, cinco actas. Las cuatro primeras publicadas el mismo día; la de
 
 **Nota operativa registrada en la S5 de Comunicaciones**
 - Los mensajes directos de Slack no llegan a la mentoría. Todo lo que las áreas necesiten compartir va por el canal del área.
+
+---
+
+## Jueves 10 de septiembre de 2026
+
+| Área | Sesión | Persona | Hora | Duración | Canal |
+|---|---|---|---|---|---|
+| Vivienda | S5 | Cindy Silva | 8:00 a. m. | 1 h | `#vivienda` |
+
+**Verificación de numeración**
+- Vivienda: S1 13 ago · S2 21 ago · S3 24 ago · S4 25 ago · **S5 10 sep Cindy** ✓
+
+**Pendiente resuelto**
+- **Cindy es Cindy Silva, de Vivienda.** Era la persona que aparecía 46 minutos en la sesión de Subsidio sin estar en `#subsidio` ni en el roster de esa área. Queda identificada.
+
+**Hitos del día**
+- Vivienda llega con tres construcciones hechas por cuenta propia entre sesiones: el planificador afinado, el seguimiento del sector rural unificado (52 familias, etapa jurídica y técnica en un solo tablero, 92% de avance jurídico) y un discurso directivo con sus fuentes.
+- Primer artefacto del área: la ficha técnica convertida en tablero interactivo.
+- **Alerta registrada:** ninguno de esos tres trabajos está en el tablero de seguimiento del programa. Sin la medición de antes y después, la presentación de cierre al director no se puede sustentar.
+

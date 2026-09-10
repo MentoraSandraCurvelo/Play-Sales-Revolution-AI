@@ -1,0 +1,241 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "VIVIENDA",
+  "area_completa": "",
+  "sesion_num": 5,
+  "fase": "Sistemas de Trabajo Agénticos",
+  "fecha": "10 de septiembre de 2026",
+  "fecha_corta": "10 septiembre 2026",
+  "subtitulo_meta": "Individual de Cindy Silva · 10 de septiembre de 2026 · 8:00 a. m. · 1 hora · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Vivienda — Comfacesar"],
+    ["Sesión", "N° 5 — Individual de Cindy Silva: el seguimiento del sector rural unificado y el primer artefacto del área"],
+    ["Fecha", "10 de septiembre de 2026"],
+    ["Hora inicio", "8:00 a. m. — Colombia"],
+    ["Duración de la sesión", "1 hora (8:00 a. m. – 9:14 a. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Cindy Silva — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "52", "etiqueta": "Familias en un tablero", "detalle": "Antes repartidas entre soportes separados"},
+    {"valor": "92%", "etiqueta": "Avance en lo jurídico", "detalle": "Visible sin abrir ninguna hoja"},
+    {"valor": "2", "etiqueta": "Procesos unificados", "detalle": "El jurídico y el técnico, que iban por aparte"},
+    {"valor": "3", "etiqueta": "Trabajos hechos sola", "detalle": "Entre una sesión y otra, sin acompañamiento"},
+    {"valor": "1º", "etiqueta": "Artefacto del área", "detalle": "La ficha técnica convertida en tablero"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Cindy Silva", "cargo": "Vivienda — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 5. El área llega con resultados construidos por cuenta propia y de alto valor. Lo que queda abierto son puntos de consolidación —dejar de depender del archivo intermedio, registrar el ahorro— más que dificultades de método.",
+  "riesgos": [
+    {
+      "titulo": "El tablero de seguimiento del programa no está diligenciado",
+      "nivel": "ALTO",
+      "descripcion": "El área ha construido tres cosas de valor real y ninguna está registrada con su medición de antes y después. _Ese registro es lo que sostiene la presentación al director al cierre del programa:_ sin él, el trabajo existe pero no se puede demostrar. Se explicó en sesión cómo diligenciarlo — tarea, cadencia, minutos antes, herramienta, minutos ahora — y el cálculo del ahorro sale solo.",
+      "responsable": "Cindy Silva / Antes de la S6"
+    },
+    {
+      "titulo": "El seguimiento sigue dependiendo del archivo de cálculo",
+      "nivel": "ALTO",
+      "descripcion": "Hoy el tablero se alimenta de un archivo que el área diligencia. El objetivo es el contrario: que el tablero jale la información y se actualice solo, y que el puesto se siente a leer el reporte y decidir. Mientras el archivo siga en el medio, el trabajo manual sigue ahí.",
+      "responsable": "Cindy Silva / Septiembre"
+    },
+    {
+      "titulo": "El conector de archivos apuntaba a la cuenta equivocada",
+      "nivel": "MEDIO",
+      "descripcion": "El primer intento de leer el documento falló con un mensaje preciso: el identificador del enlace no correspondía. La causa era que el conector estaba enlazado a una cuenta y el documento vivía en otra. _Resuelto en sesión_ reconectándolo con la cuenta correcta.",
+      "responsable": "Cindy Silva / Resuelto en sesión"
+    },
+    {
+      "titulo": "El primer artefacto salió con la fuente equivocada",
+      "nivel": "MEDIO",
+      "descripcion": "El tablero se construyó sobre la ficha técnica y no sobre el archivo del seguimiento rural, porque el enlace que se pegó no era el correcto. _Lo detectó el propio puesto_ al revisar el resultado, y ese es exactamente el criterio que hay que mantener: revisar la fuente antes de dar por bueno el resultado.",
+      "responsable": "Cindy Silva / Resuelto en sesión"
+    },
+    {
+      "titulo": "Una conversación ya iniciada no acepta carpetas después",
+      "nivel": "MEDIO",
+      "descripcion": "La carpeta se conecta al abrir la conversación, no a mitad de camino. Se resolvió abriendo una conversación nueva dentro del mismo proyecto, que conserva la memoria de todo lo trabajado.",
+      "responsable": "Cindy Silva / Resuelto en sesión"
+    },
+    {
+      "titulo": "El primer tablero no navegaba entre pestañas",
+      "nivel": "BAJO",
+      "descripcion": "Las pestañas no cambiaban y los indicadores salían en blanco. Se corrigió pidiéndolo directamente, y quedó el aprendizaje de descargar el archivo para verlo completo. Un fallo en una gráfica ya no bloquea la navegación.",
+      "responsable": "Cindy Silva / Resuelto en sesión"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Diligenciar el tablero de seguimiento del programa",
+      "descripcion": "Todas las tareas ya construidas, con el tiempo que tomaban antes convertido a minutos y el que toman ahora. Es lo que va a sustentar la presentación al director al cierre.",
+      "responsable": "Cindy Silva",
+      "plazo": "Antes de la S6"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Seguir modelando el tablero hasta que refleje todo el seguimiento",
+      "descripcion": "Que muestre el control de etapas, la semaforización por familia y los pendientes técnicos y jurídicos, igual que el archivo de cálculo. Entre más se le exija, más completo queda.",
+      "responsable": "Cindy Silva",
+      "plazo": "Antes de la S6"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Agendar sesiones con mucha más frecuencia",
+      "descripcion": "El área va a un ritmo alto y lo que viene —el agente— exige continuidad. La agenda se llena rápido.",
+      "responsable": "Cindy Silva",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Terminar la presentación directiva y traerla",
+      "descripcion": "Cinco láminas con los principales hallazgos del reporte y un elemento interactivo. Quedó lanzada en sesión.",
+      "responsable": "Cindy Silva",
+      "plazo": "Antes de la S6"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Sumarle al tablero la segmentación por año y mes",
+      "descripcion": "Para poder filtrar el histórico sin tocar el archivo de origen.",
+      "responsable": "Cindy Silva",
+      "plazo": "Antes de la S6"
+    },
+    {
+      "num": "06",
+      "nivel": "BAJO",
+      "titulo": "Pedir los entregables en el formato que se necesita",
+      "descripcion": "Cuando el resultado llegue en el formato plano de la herramienta, pedirlo en documento con formato, semaforización y tabla de contenido. Es cuestión de decirlo.",
+      "responsable": "Cindy Silva",
+      "plazo": "Permanente"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Revisión de lo construido entre sesiones",
+      "duracion": "~6 min",
+      "objetivo": "Ver lo que el área hizo por cuenta propia desde la sesión anterior.",
+      "pasos": [
+        "_El planificador de tareas, afinado:_ ahora cambia de color según el estado, calcula el tiempo estimado y asigna prioridad automáticamente al mover una tarea",
+        "_Lo más profundo — el seguimiento del sector rural:_ la información de los 52 beneficiarios asignados, con su documento de identidad, quedó unificada en un solo lugar. Antes la etapa jurídica y la etapa técnica vivían en soportes y archivos distintos",
+        "El tablero muestra semaforización por familia, el estado de cada vivienda —terminada, en ejecución— y el control de obra",
+        "_Y lo que el propio puesto destacó como lo más valioso:_ la primera vista dice directamente qué falta de cada usuario, separando pendientes técnicos de pendientes jurídicos. Ya no hay que entrar a las hojas a buscarlo",
+        "El panel de avance da la lectura completa: 52 familias asignadas y el porcentaje de avance por etapa — 92% en la jurídica. Es lo que permite mostrarle a la dirección cómo va el proceso casi en tiempo real",
+        "_El tercer trabajo:_ un discurso para un evento con la dirección, construido desde el mismo proyecto con la información del recorrido de los subsidios asignados y con sus fuentes. Antes había que recoger la información de varios lados",
+        "_El reconocimiento de la sesión:_ nada de esto se construyó por la mentoría sino por el puesto. Ese era el objetivo del método — que el área cocree sus propios tableros"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El modo de trabajo sobre carpetas",
+      "duracion": "~8 min",
+      "objetivo": "Dejar de subir archivos y pasar a conectar carpetas.",
+      "pasos": [
+        "Se explicó la diferencia entre los dos modos: en uno se conversa y se sube la información; en el otro se conectan carpetas del computador y el sistema va a buscarla",
+        "Se conectó una carpeta y se comprobó la lectura, y se activó la aprobación automática para que no se detenga a pedir permiso",
+        "_El límite que hay que conocer:_ la carpeta se conecta al abrir la conversación. Una vez iniciada, ya no la acepta. Se resuelve abriendo una conversación nueva dentro del mismo proyecto, que conserva la memoria",
+        "_El criterio práctico:_ conviene trabajar siempre en el modo de carpetas aunque no se conecte ninguna, para dejar la puerta abierta"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El primer artefacto del área",
+      "duracion": "~22 min",
+      "objetivo": "Convertir un archivo de cálculo en un tablero interactivo.",
+      "pasos": [
+        "Se explicó qué es un artefacto: una página, una aplicación o un tablero que se abre con un enlace y se va modificando",
+        "_La instrucción fue deliberadamente exigente:_ toda la información sin dejar nada por fuera, pestañas para segmentar, indicadores dinámicos, las tendencias actuales en gráficos del sector, los colores corporativos a partir del logo — y abierta a sugerencias de diseño",
+        "El resultado llegó con tres pestañas —componente urbano, rural e histórico—, indicadores, y con una validación propia del contraste de colores para que las categorías se distingan",
+        "_Dos correcciones:_ las pestañas no navegaban y los indicadores salían en blanco. Se pidió el arreglo y quedó robusto, de modo que un fallo en una gráfica ya no bloquea la navegación. Y se aprendió que hay que descargar el archivo para verlo completo",
+        "_El hallazgo del puesto:_ el tablero se había construido sobre la ficha técnica y no sobre el archivo del seguimiento rural. El enlace pegado no era el correcto",
+        "_Y detrás de eso, la causa real:_ el conector de archivos estaba enlazado a una cuenta distinta de aquella donde vive el documento. Se reconectó en sesión",
+        "_El método para desatascarse:_ cuando algo se ve mal, un pantallazo de la pantalla devuelto a la herramienta, porque ella no ve lo que ve el puesto"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · El apartado de diseño y la presentación directiva",
+      "duracion": "~14 min",
+      "objetivo": "Conocer las salidas visuales y lanzar la presentación para la dirección.",
+      "pasos": [
+        "Se recorrieron las posibilidades: presentaciones, documentos, video, piezas en 3D, mapas interactivos, páginas web y firmas — con la diferencia de que aquí se edita directamente en lugar de pedir ajuste por ajuste",
+        "_Una idea propia del área:_ representar en 3D el estado de una vivienda del proyecto a partir de su ficha técnica, para presentaciones",
+        "Se lanzó la presentación directiva: cinco láminas, nivel gerencial, con los principales hallazgos del reporte y un elemento interactivo",
+        "_Un tip que ahorra trabajo y créditos:_ el formato plano en que la herramienta entrega por defecto se puede pedir como documento con formato, semaforización y tabla de contenido — basta con decirlo. Y a la inversa, convertir documentos pesados a ese formato plano hace que los lea más rápido y consuma menos"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD FUNCIONANDO · SESIÓN 5 · 10 septiembre 2026",
+      "titulo": "El seguimiento del sector rural, en un solo lugar",
+      "descripcion": "Los 52 beneficiarios asignados, con la etapa jurídica y la técnica unificadas, semaforización por familia, estado de obra y —lo más útil— la lista directa de qué le falta a cada usuario, separando lo técnico de lo jurídico. Es un control que antes no existía: la información estaba, pero repartida entre soportes que había que cruzar a mano.",
+      "estado": "Funcionando, construido por el área",
+      "proximo_paso": "Registrar el ahorro en el tablero del programa",
+      "target": "Antes de la S6"
+    },
+    {
+      "encabezado": "OPORTUNIDAD FUNCIONANDO · SESIÓN 5 · 10 septiembre 2026",
+      "titulo": "El avance del proceso, reportable en el momento",
+      "descripcion": "El panel entrega el porcentaje de avance por etapa —92% en la jurídica— sobre las 52 familias asignadas. Le permite al área responderle a la dirección cómo va el proceso sin tener que armar el dato cada vez que se lo piden.",
+      "estado": "Funcionando",
+      "proximo_paso": "Llevarlo al tablero interactivo y a la presentación",
+      "target": "Sesión 6"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 5 · 10 septiembre 2026",
+      "titulo": "El tablero interactivo que reemplaza al archivo de cálculo",
+      "descripcion": "Primer artefacto del área: tres componentes en pestañas, indicadores y colores institucionales. Falta que refleje todo el seguimiento y que se alimente solo, para que el archivo intermedio deje de existir y el puesto pase de diligenciar a leer y decidir.",
+      "estado": "Primera versión construida y corregida",
+      "proximo_paso": "Modelarlo hasta que muestre el control de etapas completo",
+      "target": "Sesión 6"
+    },
+    {
+      "encabezado": "OPORTUNIDAD PLANTEADA · SESIÓN 5 · 10 septiembre 2026",
+      "titulo": "La presentación a la dirección, armada desde el tablero",
+      "descripcion": "Cinco láminas con los hallazgos del reporte y un elemento interactivo, generadas a partir del propio tablero. Es el paso de presentar un archivo de cálculo a presentar el resultado, y quedó lanzada en sesión.",
+      "estado": "Lanzada",
+      "proximo_paso": "Terminarla y traerla a la próxima sesión",
+      "target": "Sesión 6"
+    }
+  ],
+  "tareas_intro": "El área llegó con tres cosas construidas por cuenta propia y una de ellas resuelve un control que antes no existía. La sesión se pudo dedicar entera a subir de nivel, y eso solo pasa cuando el puesto trabajó entre sesiones.",
+  "tareas": [
+    {"tarea": "Diligenciar el tablero de seguimiento con todas las tareas construidas", "responsable": "Cindy Silva", "prioridad": "ALTA", "plazo": "Antes de la S6"},
+    {"tarea": "Modelar el tablero hasta que refleje todo el seguimiento", "responsable": "Cindy Silva", "prioridad": "ALTA", "plazo": "Antes de la S6"},
+    {"tarea": "Agendar sesiones con mucha más frecuencia", "responsable": "Cindy Silva", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Terminar la presentación directiva de cinco láminas", "responsable": "Cindy Silva", "prioridad": "MEDIA", "plazo": "Antes de la S6"},
+    {"tarea": "Agregar al tablero la segmentación por año y mes", "responsable": "Cindy Silva", "prioridad": "MEDIA", "plazo": "Antes de la S6"},
+    {"tarea": "Pedir los entregables en el formato que se necesita", "responsable": "Cindy Silva", "prioridad": "BAJA", "plazo": "Permanente"}
+  ],
+  "observaciones": [
+    "Lo más importante de esta sesión no ocurrió en la sesión: el área construyó por cuenta propia el planificador afinado, el seguimiento completo del sector rural y un discurso para la dirección con sus fuentes. Ese es el objetivo del método —que el puesto cocree sus propios tableros en lugar de recibirlos hechos— y aquí se cumplió.",
+    "La unificación del seguimiento rural merece registrarse aparte, porque no es una mejora de velocidad sino un control que antes no existía. La etapa jurídica y la técnica vivían en soportes separados y cruzarlas era manual; hoy una sola vista dice qué le falta a cada una de las 52 familias, separando lo técnico de lo jurídico. Es el tipo de resultado que cambia la conversación con la dirección.",
+    "Y sin embargo nada de eso está registrado en el tablero de seguimiento del programa. Conviene decirlo con claridad porque tiene consecuencia directa: la presentación de cierre al director se construye con ese registro. El trabajo hecho sin medición del antes y el después existe, pero no se puede demostrar.",
+    "El hallazgo técnico de la sesión fue de fuente, no de herramienta: el tablero se construyó sobre el documento equivocado porque el conector estaba enlazado a una cuenta distinta de aquella donde vive el archivo. Lo detectó el propio puesto al revisar el resultado, que es exactamente el criterio correcto — la herramienta construye lo que se le señala, no lo que se quiso señalar.",
+    "El objetivo del tablero es que deje de existir el archivo intermedio. Hoy el seguimiento todavía se alimenta a mano; el punto de llegada es que el tablero jale la información y se actualice solo, y que el puesto se siente a leer y decidir. Es el paso previo al agente.",
+    "Quedó también un criterio de operación que aplica a todo el programa: el formato en que la herramienta entrega por defecto es plano a propósito, porque le resulta más liviano de leer. Pedirlo como documento con formato y semaforización es cuestión de decirlo — y a la inversa, convertir documentos pesados a ese formato plano acelera la lectura y consume menos."
+  ],
+  "proxima_sesion": {
+    "sesion": "Vivienda — Sesión 6",
+    "condiciones": [
+      "El tablero de seguimiento del programa diligenciado",
+      "El tablero interactivo modelado, con el control de etapas completo",
+      "La presentación directiva terminada",
+      "Varias sesiones ya agendadas"
+    ],
+    "agenda": [
+      "Revisión del tablero y de la presentación",
+      "La conexión del teléfono al entorno de trabajo",
+      "La construcción del primer agente del área",
+      "Un primer ejercicio de envío automático de correo"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 10 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
