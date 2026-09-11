@@ -42,20 +42,26 @@ resultado — ese es el camino que sirve.
 | Cumplimiento | `#cumplimiento` | `C0BRMUV71UJ` |
 | Todo el equipo | `#todo-iamteam` | `C0BN3KV3804` |
 
-Tesorería y Crédito **sí tienen canal** — se localizaron el 7 de septiembre buscando
-por contenido y no por nombre: `#tesoreriaa` (`C0BPNSNNGLT`, con doble a) y `#credito`
-(`C0BPT65MLNA`). El error anterior venía de buscar el nombre exacto. Se
-completan cuando aparezcan.
+Tesorería se localizó el 7 de septiembre buscando por contenido y no por nombre:
+`#tesoreriaa` (`C0BPNSNNGLT`, con doble a). El error anterior venía de buscar el nombre
+exacto.
+
+`#credito` (`C0BPT65MLNA`) **desapareció** el 11 de septiembre — ver abajo.
 
 Los nombres de canal que están sin ID son los que se usan en el tablero; si alguno no
 coincide con el nombre real en Slack, se corrige aquí al pegar el enlace.
 
-## Relevo de representantes (11 de septiembre de 2026): el canal sigue a la persona
+## Movimiento de canales — 11 de septiembre de 2026
 
-Crédito, Auditoría Interna y Cumplimiento cambiaron de representante, pero **nadie
-cambia de canal**. Cada persona participa desde el canal del área donde trabaja:
-Eliana Lagos y Ana María Meza en `#agencia-de-empleo`, Aura Sánchez en `#cumplimiento`,
-Cindy Rodríguez en `#subsidio`.
+Tras el relevo de representantes aprobado por la sponsor, así quedaron los canales:
 
-No hace falta crear canal de Auditoría Interna. Saharay Díaz sale de `#cumplimiento`.
+| Canal | Cambio |
+|---|---|
+| `#credito` | **Desaparece.** Crédito deja de tener canal propio. |
+| `#subsidio` | Entra **Cindy Rodríguez** (ya agregada en Slack). |
+| `#cumplimiento` | Entra **Aura Sánchez**. Sale **Saharay Díaz**. |
+| `#agencia-de-empleo` | Entran **Eliana Lagos** y **Ana María Meza**. |
+
+**Auditoría Interna no tiene ni va a tener canal.** Sus representantes —Aura Sánchez y
+Eliana Lagos— participan desde `#cumplimiento` y `#agencia-de-empleo` respectivamente.
 

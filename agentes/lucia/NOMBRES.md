@@ -73,25 +73,25 @@ nunca hicieron su S1, y Cumplimiento canceló su S2 sin reagendar.
 | Auditoría Interna | Eliana Lagos | Agencia de Empleo | recobrosubsidioaldesempleo@comfacesar.com |
 | Cumplimiento | Ana María Meza | Agencia de Empleo | orientadorlaboral@comfacesar.com |
 
-**La regla del canal: el canal sigue a la persona, no al área que representa**
+**Dónde participa cada una**
 
-Ninguna de las cuatro se mueve de canal. Cada una participa desde el canal del área
-donde efectivamente trabaja:
+| Persona | Canal |
+|---|---|
+| Cindy Rodríguez | `#subsidio` — ya agregada |
+| Aura Sánchez | `#cumplimiento` |
+| Eliana Lagos | `#agencia-de-empleo` |
+| Ana María Meza | `#agencia-de-empleo` |
 
-- Eliana Lagos y Ana María Meza → `#agencia-de-empleo`
-- Aura Sánchez → `#cumplimiento`
-- Cindy Rodríguez → `#subsidio`
-
-Es decir: **no hay que crear canal de Auditoría Interna ni mover a nadie a `#credito`.**
-La representación cambia en el roster y en las actas; la conversación sigue donde la
-persona ya está.
+**El canal de Crédito desaparece** y Auditoría Interna no tiene canal: sus
+representantes participan desde el canal del área donde trabajan. Saharay Díaz sale de
+`#cumplimiento` y del programa.
 
 **Lo que hay que tener presente al escribir las actas**
 
-- Las cuatro ya están en el programa. Asumen un área adicional, no dejan la suya.
+- Las cuatro ya estaban en el programa. Asumen un área adicional, no dejan la suya.
 - En el acta se nombra por el área de la sesión.
 - **Hay dos Cindy distintas.** Cindy Rodríguez (Subsidio y Aportes, representa Crédito)
   y Cindy Silva (Vivienda, S5 del 10 de septiembre). No confundirlas.
-- Saharay Díaz sale del programa. No se la menciona en actas nuevas.
-- Cuando entren, cruzar el nombre con su cuenta de Slack: **manda Slack**.
+- Saharay Díaz no se menciona en actas nuevas.
+- Al entrar, cruzar el nombre con su cuenta de Slack: **manda Slack**.
 
