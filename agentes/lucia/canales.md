@@ -49,3 +49,9 @@ completan cuando aparezcan.
 
 Los nombres de canal que están sin ID son los que se usan en el tablero; si alguno no
 coincide con el nombre real en Slack, se corrige aquí al pegar el enlace.
+
+## Pendiente: Auditoría Interna
+
+El área no tiene canal en Slack (nunca hizo su S1). Con el relevo de representantes
+aprobado el 11 de septiembre hay que crearlo e invitar a Aura Sánchez y Eliana Lagos.
+

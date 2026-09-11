@@ -47,3 +47,48 @@ el 9 de septiembre. Las sesiones de IPS se trabajan con él, y el acta va a su n
 Ojo con el calendario: el evento de la S2 llegó con invitados de SST
 (`sst@`, `asistentesst@`, `auxiliarsst@`) porque la reserva se hizo desde esas
 cuentas. No son asistentes del área — no se nombran en el acta.
+
+---
+
+## Relevo de representantes — decisión de la sponsor, 11 de septiembre de 2026
+
+María Elvira Marulanda, como líder del proyecto, aprobó por correo el reemplazo de
+representantes en las tres áreas que siguen trancadas: Crédito y Auditoría Interna
+nunca hicieron su S1, y Cumplimiento canceló su S2 sin reagendar.
+
+**Quienes salen**
+
+| Área | Sale |
+|---|---|
+| Crédito | José Jorge Ruíz |
+| Auditoría Interna | Miguel Ariza · Juan Carlos Guillén |
+| Cumplimiento | Saharay Díaz Herrera |
+
+**Quienes entran**
+
+| Área | Entra | Viene de | Correo |
+|---|---|---|---|
+| Crédito | Cindy Rodríguez | Subsidio y Aportes | atencion_reclamos@comfacesar.com |
+| Auditoría Interna | Aura Sánchez | Cumplimiento | profesionalcumplimiento@comfacesar.com |
+| Auditoría Interna | Eliana Lagos | Agencia de Empleo | recobrosubsidioaldesempleo@comfacesar.com |
+| Cumplimiento | Ana María Meza | Agencia de Empleo | orientadorlaboral@comfacesar.com |
+
+**Lo que hay que tener presente al escribir las actas**
+
+- **Las cuatro ya están en el programa por otra área.** No son personas nuevas: son
+  refuerzos que asumen un área adicional. En las actas hay que nombrarlas por el área
+  de la sesión, no por la de origen.
+- **Hay dos Cindy distintas.** Cindy Rodríguez (Subsidio y Aportes → Crédito) y
+  Cindy Silva (Vivienda, S5 del 10 de septiembre). No confundirlas.
+- **Agencia de Empleo cede dos personas** — Eliana Lagos y Ana María Meza. Eliana es
+  además quien ejecuta el seguimiento de recobros que se mapeó en la S6 del área.
+- **Aura Sánchez sale de Cumplimiento hacia Auditoría**, y a Cumplimiento entra alguien
+  de Agencia de Empleo. Conviene confirmar que Cumplimiento no queda descubierta.
+- Cuando entren a Slack hay que cruzar el nombre con su cuenta, como siempre: **manda
+  Slack**, no el correo ni el listado.
+
+**Canales**
+- Crédito: `#credito` (`C0BPT65MLNA`) — existe.
+- Cumplimiento: `#cumplimiento` (`C0BRMUV71UJ`) — existe.
+- **Auditoría Interna no tiene canal.** Hay que crearlo.
+
