@@ -50,8 +50,12 @@ completan cuando aparezcan.
 Los nombres de canal que están sin ID son los que se usan en el tablero; si alguno no
 coincide con el nombre real en Slack, se corrige aquí al pegar el enlace.
 
-## Pendiente: Auditoría Interna
+## Relevo de representantes (11 de septiembre de 2026): el canal sigue a la persona
 
-El área no tiene canal en Slack (nunca hizo su S1). Con el relevo de representantes
-aprobado el 11 de septiembre hay que crearlo e invitar a Aura Sánchez y Eliana Lagos.
+Crédito, Auditoría Interna y Cumplimiento cambiaron de representante, pero **nadie
+cambia de canal**. Cada persona participa desde el canal del área donde trabaja:
+Eliana Lagos y Ana María Meza en `#agencia-de-empleo`, Aura Sánchez en `#cumplimiento`,
+Cindy Rodríguez en `#subsidio`.
+
+No hace falta crear canal de Auditoría Interna. Saharay Díaz sale de `#cumplimiento`.
 

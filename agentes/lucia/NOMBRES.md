@@ -56,7 +56,7 @@ María Elvira Marulanda, como líder del proyecto, aprobó por correo el reempla
 representantes en las tres áreas que siguen trancadas: Crédito y Auditoría Interna
 nunca hicieron su S1, y Cumplimiento canceló su S2 sin reagendar.
 
-**Quienes salen**
+**Quienes salen del programa**
 
 | Área | Sale |
 |---|---|
@@ -64,31 +64,34 @@ nunca hicieron su S1, y Cumplimiento canceló su S2 sin reagendar.
 | Auditoría Interna | Miguel Ariza · Juan Carlos Guillén |
 | Cumplimiento | Saharay Díaz Herrera |
 
-**Quienes entran**
+**Quienes asumen la representación**
 
-| Área | Entra | Viene de | Correo |
+| Área que representan | Persona | Área a la que pertenece | Correo |
 |---|---|---|---|
 | Crédito | Cindy Rodríguez | Subsidio y Aportes | atencion_reclamos@comfacesar.com |
 | Auditoría Interna | Aura Sánchez | Cumplimiento | profesionalcumplimiento@comfacesar.com |
 | Auditoría Interna | Eliana Lagos | Agencia de Empleo | recobrosubsidioaldesempleo@comfacesar.com |
 | Cumplimiento | Ana María Meza | Agencia de Empleo | orientadorlaboral@comfacesar.com |
 
+**La regla del canal: el canal sigue a la persona, no al área que representa**
+
+Ninguna de las cuatro se mueve de canal. Cada una participa desde el canal del área
+donde efectivamente trabaja:
+
+- Eliana Lagos y Ana María Meza → `#agencia-de-empleo`
+- Aura Sánchez → `#cumplimiento`
+- Cindy Rodríguez → `#subsidio`
+
+Es decir: **no hay que crear canal de Auditoría Interna ni mover a nadie a `#credito`.**
+La representación cambia en el roster y en las actas; la conversación sigue donde la
+persona ya está.
+
 **Lo que hay que tener presente al escribir las actas**
 
-- **Las cuatro ya están en el programa por otra área.** No son personas nuevas: son
-  refuerzos que asumen un área adicional. En las actas hay que nombrarlas por el área
-  de la sesión, no por la de origen.
-- **Hay dos Cindy distintas.** Cindy Rodríguez (Subsidio y Aportes → Crédito) y
-  Cindy Silva (Vivienda, S5 del 10 de septiembre). No confundirlas.
-- **Agencia de Empleo cede dos personas** — Eliana Lagos y Ana María Meza. Eliana es
-  además quien ejecuta el seguimiento de recobros que se mapeó en la S6 del área.
-- **Aura Sánchez sale de Cumplimiento hacia Auditoría**, y a Cumplimiento entra alguien
-  de Agencia de Empleo. Conviene confirmar que Cumplimiento no queda descubierta.
-- Cuando entren a Slack hay que cruzar el nombre con su cuenta, como siempre: **manda
-  Slack**, no el correo ni el listado.
-
-**Canales**
-- Crédito: `#credito` (`C0BPT65MLNA`) — existe.
-- Cumplimiento: `#cumplimiento` (`C0BRMUV71UJ`) — existe.
-- **Auditoría Interna no tiene canal.** Hay que crearlo.
+- Las cuatro ya están en el programa. Asumen un área adicional, no dejan la suya.
+- En el acta se nombra por el área de la sesión.
+- **Hay dos Cindy distintas.** Cindy Rodríguez (Subsidio y Aportes, representa Crédito)
+  y Cindy Silva (Vivienda, S5 del 10 de septiembre). No confundirlas.
+- Saharay Díaz sale del programa. No se la menciona en actas nuevas.
+- Cuando entren, cruzar el nombre con su cuenta de Slack: **manda Slack**.
 
