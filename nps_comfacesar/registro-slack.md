@@ -15,6 +15,54 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🔒 11 sep · 10:40 · Crédito y Auditoría Interna salen de la medición · CANALES ARCHIVADOS
+
+**Decisión de Sandra.** Las dos áreas que nunca arrancaron quedan **fuera de la medición a
+partir de hoy**, y sus canales están **archivados en Slack**.
+
+### ⚠️ Lo que Lucía tiene que saber
+
+**`#credito` (C0BPT65MLNA) y `#auditoria-interna` (C0BPDPM30UX) están archivados.**
+Ninguna de las dos vuelve a escribir ahí, ni a programar, ni a contarlos en cupos. Salen
+de la lista de canales operativos.
+
+### El universo del programa pasa de 20 áreas a 18
+
+Todos los indicadores se recalculan sobre 18 de aquí en adelante:
+
+| Antes | Ahora |
+|---|---|
+| 18 de 20 áreas en marcha | **18 de 18** |
+| 2 áreas sin arrancar | *indicador retirado* |
+| 15 de 20 sin nada agendado | **13 de 18** |
+
+La asistencia acumulada no cambia, porque las dos aportaban cero sesiones y cero
+convocatorias.
+
+### La trazabilidad queda congelada, no borrada
+
+Las dos siguen en la tabla del tablero, con la marca **«Fuera de medición · 11 sep»** y
+con todo lo que hubo hasta hoy:
+
+- **Cero sesiones** desde el inicio del programa
+- **Tres mensajes cada una** entre el 25 de agosto y el 9 de septiembre, sin una sola
+  respuesta
+- **El escalamiento de María Elvira**, el lunes 8 por la noche, en los dos canales,
+  planteando ella misma retirarlas del proyecto
+
+Ese es el expediente de por qué salieron y no se toca. Si alguien pregunta en octubre qué
+pasó con esas dos áreas, está escrito.
+
+### Por qué esto es correcto y no un maquillaje
+
+Mantenerlas dentro hacía que **dos áreas que nunca existieron en el programa arrastraran
+el denominador de todo**, y eso distorsionaba en las dos direcciones: hacía ver peor la
+cobertura y diluía la urgencia de las trece que sí están y sí necesitan fecha.
+
+Termómetro v26: https://claude.ai/code/artifact/8949a813-41e2-4c31-b234-d0b3ada2eb6e
+
+---
+
 ## ⚠️ 11 sep · 10:20 · Tecnología no era un área que falla, era una cancelación de IAM
 
 **Sandra corrige:** la sesión de Tecnología del jueves **la canceló ella**, no el área. Y
