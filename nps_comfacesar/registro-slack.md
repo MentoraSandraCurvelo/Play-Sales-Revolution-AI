@@ -15,6 +15,51 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⚠️ 11 sep · 10:20 · Tecnología no era un área que falla, era una cancelación de IAM
+
+**Sandra corrige:** la sesión de Tecnología del jueves **la canceló ella**, no el área. Y
+la de hoy viernes a las 9:00 **sí se hizo**; la grabación y los documentos entran durante
+el día.
+
+### Lo que yo había escrito y estaba mal
+
+A las 10:00 le dije a Sandra que Tecnología acumulaba dos espacios perdidos seguidos, que
+pasaba a ser **el área con más espacios vencidos del programa**, y que ahí hacía falta una
+llamada. **Nada de eso era cierto**, y además era injusto con Olga Lucía, que en agosto ya
+había pedido disculpas por una cancelación suya.
+
+**El error de método:** vi un canal sin rastro y lo leí como falla del área, sin
+considerar que la cancelación pudiera venir de nuestro lado. **Un espacio sin rastro no
+dice de quién fue la cancelación.** Antes de atribuirla, hay que preguntar.
+
+### La lista de espacios vencidos queda en dos, y retiro la palabra «patrón»
+
+En dos días la corregí dos veces:
+
+| Caso | Estado final |
+|---|---|
+| Servicios Sociales, 3 sep | Vencido sin aviso ✓ |
+| Mercadeo, 9 sep | Vencido sin aviso ✓ |
+| Comunicaciones, 9 sep | **Sí se hizo**, el acta llegó al día siguiente |
+| Tecnología, 10 sep | **Cancelada por IAM** |
+
+**Dos casos en nueve días no sostiene la palabra «patrón».** La retiré del tablero.
+
+**Lo que sí queda en pie** es la petición de revisar las franjas de Calendly, pero ahora
+apoyada donde corresponde: en lo que piden las áreas en la encuesta, no en una lista mía
+que se cayó dos veces.
+
+### Estado
+
+- **65 sesiones.** Entra Tecnología S4.
+- Tecnología queda con **tres ejecutadas** y sin próxima fecha.
+- **Quince de las veinte áreas** sin nada agendado.
+- La agenda hasta el 18 baja a **siete sesiones**, cuatro de Sub. Administrativa.
+
+Termómetro v25: https://claude.ai/code/artifact/8949a813-41e2-4c31-b234-d0b3ada2eb6e
+
+---
+
 ## 🔎 11 sep · 08:10 · Undécima respuesta, y por fin un patrón que no se cae
 
 **Servicios Sociales, ayer 4:18 p. m.**, cinco horas después de su S6. Segunda respuesta
