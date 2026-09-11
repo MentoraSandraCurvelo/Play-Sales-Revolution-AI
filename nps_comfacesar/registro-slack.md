@@ -15,6 +15,46 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ✅ 11 sep · 13:15 · Duodécima respuesta, y viene de Tecnología
+
+**Tecnología, hoy 8:31 a. m.**, media hora **antes** de su sesión de las 9:00. Novena
+área que responde.
+
+| Campo | Valor |
+|---|---|
+| Sesiones | 2 o 3 |
+| Utilidad | 7 |
+| Metodología | **5** |
+| Ritmo | **Adecuado** |
+| Profundidad | En el punto |
+| Confianza antes → hoy | **7 → 10** |
+| Ahorro | Todavía no lo noto |
+| Ya aplica | «Organizar las ejecuciones del área y llevar control de ellas» |
+
+### El patrón del ritmo aguanta con doce
+
+| Ritmo | Cuántos | Notas de metodología |
+|---|---|---|
+| Muy rápido | 3 | 1, 3 y 4 |
+| **Adecuado** | **8** | **4 o 5, sin una sola excepción** |
+| Muy lento | 1 | 5 |
+
+**Tres respuestas seguidas lo han reforzado** y ninguna lo ha roto. Es la única lectura de
+este tablero que no se me ha caído.
+
+### Y hay algo más, de otro orden
+
+Esta respuesta viene del área que **esta misma mañana registré mal**, diciendo que
+acumulaba espacios perdidos y que ahí hacía falta una llamada. Olga Lucía califica la
+metodología en **5**, el ritmo adecuado, y su confianza pasó de **7 a 10**, el segundo
+salto más alto del tablero entre quienes ya partían alto.
+
+**No cambia que me equivoqué, pero sí dice de qué tamaño era el error.**
+
+Pulso v7: https://claude.ai/code/artifact/0cca00fb-603a-4ae8-a87f-1d5f724dbf0d
+
+---
+
 ## 🔒 11 sep · 10:40 · Crédito y Auditoría Interna salen de la medición · CANALES ARCHIVADOS
 
 **Decisión de Sandra.** Las dos áreas que nunca arrancaron quedan **fuera de la medición a
