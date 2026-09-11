@@ -15,6 +15,68 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ✅ 11 sep · 07:45 · Corte del viernes, con tres correcciones mías
+
+**64 sesiones.** Entran las tres del jueves —Vivienda S5 con Cindy Silva, Agencia de
+Empleo S6 con Lina María, Servicios Sociales S6 con Juan Pablo y Lilian Paola— más
+Comunicaciones S5, que yo había dado por no ejecutada.
+
+### Tres cosas que dije ayer y eran falsas
+
+**1 · «Comunicaciones S5 no dejó rastro».** Sí se hizo: miércoles 5:00 p. m. con Vidiana
+Bendeck, una hora. La grabación, el acta en texto y el PDF salieron el jueves entre las
+8:07 y las 9:08. **Leí el canal a las 7:20 y la declaré perdida 45 minutos antes de que
+existiera la evidencia.**
+
+**2 · «Tres espacios vencidos sin aviso».** Comunicaciones sale de esa lista. Pero entra
+**Tecnología S3**, del jueves a las 3:00 p. m., que no dejó rastro. Los tres reales son
+Servicios Sociales el 3, Mercadeo el 9 y Tecnología el 10.
+
+**3 · «Las actas del miércoles no están en Dropbox».** Sí estaban. **Busqué filtrando por
+`.docx` y se subieron en PDF**, a las 7:16 del jueves, catorce minutos antes de mi corte.
+Ya las leí las cuatro.
+
+### La regla que sale de esto
+
+**El acta llega al canal el mismo día y el PDF a Dropbox a la mañana siguiente.** Nada se
+declara faltante antes del mediodía del día después. Y al buscar en Dropbox, **no filtrar
+por extensión**: las actas salen indistintamente en `.docx` o en `.pdf`.
+
+Es la tercera vez que este tablero da por faltante algo que solo llegaba tarde, después
+del acta de Tesorería S1 y de la hoja de respuestas del formulario.
+
+### Asistencia recalculada
+
+| | |
+|---|---|
+| Acumulado | **91%**, 132 sobre 145 |
+| Sesiones medidas | 56, antes 52 |
+| Las cuatro del miércoles | 4 convocados, 4 activos, todas individuales |
+| **Tesorería** | sube de 50% a **67%** |
+
+Tesorería sigue siendo la única bajo el 70%, pero se movió por primera vez. **Punto por
+verificar:** su acta dice que «una integrante del equipo no logró entrar», y esa persona
+no figura en la tabla de convocados. Si debía estarlo, la S2 es 50% y no 100%.
+
+### Dato nuevo y duro
+
+**El programa cierra el 30 de octubre.** Lo dicen dos veces las actas del miércoles, con
+esas palabras. Ya no es «octubre». Quedan **siete semanas** y solo hay **ocho sesiones
+agendadas**, cuatro de ellas de Sub. Administrativa.
+
+**Catorce de las veinte áreas no tienen nada agendado.**
+
+### Numeración
+
+- **Servicios Sociales:** el evento salió titulado S7 porque contaba como realizadas las
+  dos S6 canceladas del 3 y el 8. El acta va como **S6** y Lucía publicó la corrección.
+- El evento de hoy viernes dice «Sesión 5» y por fecha es la **S6** de Rafael.
+- El de Mercadeo del 17 sigue sin número.
+
+Termómetro v24: https://claude.ai/code/artifact/8949a813-41e2-4c31-b234-d0b3ada2eb6e
+
+---
+
 ## 📊 10 sep · 15:10 · Décima respuesta, y se rompe la única unanimidad del tablero
 
 **Agencia de Empleo, hoy 10:58 a. m.**, justo después de su S6. **No vino de la campaña**:
