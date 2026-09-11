@@ -15,48 +15,48 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
-## ⛔ 11 sep · 14:15 · Contabilidad no se presentó · MENSAJE PUBLICADO
+## 🔁 11 sep · 14:35 · Contabilidad sí sesionó, y publiqué un aviso que hubo que borrar
 
-Sandra estuvo conectada desde las 2:00 p. m. y escribió en el canal a las 2:05. **Nadie
-entró.** A pedido suyo publiqué el aviso de reagendamiento a las **2:15**, justo encima
-del de ella.
+**Secuencia completa, porque el error es mío y es visible para el cliente:**
 
-**El mensaje:** el espacio se perdió, esa hora no se recupera, agenden con el enlace
-fijado y tomen varias de una vez. Le recordé a Carlos lo que quedó pendiente de la S5,
-el reporte de agosto con el proceso nuevo, más conciliaciones con ficha y el tablero de
-viáticos. Cierra con la fecha real, 30 de octubre. Sin reproche.
-
-⚠️ **`#contabilidad` queda en 2 de 2 mensajes hoy.** Lucía no escribe ahí hasta mañana.
-
-### Y esto devuelve una palabra que retiré esta mañana
-
-Hoy a las 10:20 quité «patrón» del tablero porque los espacios vencidos habían bajado de
-tres a dos. **Con Contabilidad vuelven a ser tres en nueve días:**
-
-| Fecha | Área |
+| Hora | Qué pasó |
 |---|---|
-| 3 sep | Servicios Sociales |
-| 9 sep | Mercadeo |
-| **11 sep** | **Contabilidad** |
+| 14:00 | Sesión de Contabilidad S6 |
+| 14:05 | Sandra escribe en el canal, «estoy conectada en el enlace» |
+| 14:15 | Nadie ha entrado. **Publico el aviso de que el espacio se perdió**, a pedido de Sandra |
+| ~14:30 | **Carlos llega y la sesión arranca** |
+| 14:35 | El aviso queda publicado diciendo lo contrario de lo que está pasando |
+| — | **Sandra lo borró** desde Slack |
 
-Los tres iguales: **nadie canceló, nadie escribió, la hora pasó.** Lo dejé escrito así en
-el tablero, diciendo que retiré la palabra cuando eran dos y la devuelvo ahora que son
-tres, para que se vea que el número se mueve con la evidencia y no al revés.
+### La lección, y es de método
 
-### Por qué este caso pesa distinto
+**Publiqué a los quince minutos de la hora.** Un espacio no está vencido hasta que pasa
+la hora completa. Con esperar cuarenta y cinco minutos más no habría pasado nada.
 
-Contabilidad **no es un área desenganchada**. Viene de una S5 con el reporte mensual de
-anticipos de **4 horas a 10 minutos** y el primer comando del área. Es un área que
-funciona y que faltó a una cita, que es un problema distinto al de Mercadeo o al de las
-áreas que nunca agendan.
+Y hay un agravante estructural que conviene tener presente siempre: **el conector de Slack
+no borra ni edita mensajes.** Todo lo que publico es irreversible desde aquí y solo Sandra
+puede quitarlo. Eso sube el listón de certeza que debo exigirme antes de publicar un
+juicio sobre una sesión.
+
+### La lista de espacios vencidos, corregida tres veces en un día
+
+| Caso | Estado final |
+|---|---|
+| Servicios Sociales, 3 sep | Vencido sin aviso ✓ |
+| Mercadeo, 9 sep | Vencido sin aviso ✓ |
+| Comunicaciones, 9 sep | Sí se hizo, acta al día siguiente |
+| Tecnología, 10 sep | Cancelada por IAM |
+| Contabilidad, 11 sep | **Sí se hizo, con media hora de retraso** |
+
+**Quedan dos.** No uso la palabra «patrón» con dos casos. Tres correcciones sobre la
+misma lista en un día es señal de que la estaba construyendo demasiado rápido.
 
 ### Estado
 
-- **65 sesiones**, la S6 de Contabilidad no cuenta como ejecutada.
-- **Catorce de las dieciocho áreas** sin nada agendado, entra Contabilidad.
-- La agenda hasta el 18 baja a **seis sesiones**, cuatro de Sub. Administrativa.
+- **66 sesiones.** Contabilidad S6 cuenta como ejecutada, soportes pendientes de la tarde.
+- `#contabilidad` quedó en **1 mensaje hoy** tras el borrado.
 
-Termómetro v27: https://claude.ai/code/artifact/8949a813-41e2-4c31-b234-d0b3ada2eb6e
+Termómetro v28: https://claude.ai/code/artifact/8949a813-41e2-4c31-b234-d0b3ada2eb6e
 
 ---
 
