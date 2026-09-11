@@ -15,6 +15,54 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🔎 11 sep · 08:10 · Undécima respuesta, y por fin un patrón que no se cae
+
+**Servicios Sociales, ayer 4:18 p. m.**, cinco horas después de su S6. Segunda respuesta
+que llega justo después de una sesión, igual que la de Agencia de Empleo.
+
+### El patrón
+
+Once respuestas, y dos columnas se mueven juntas **sin una sola excepción**:
+
+| Ritmo | Cuántos | Notas de metodología |
+|---|---|---|
+| **Muy rápido** | 3 | **1, 3 y 4**, las tres más bajas del tablero |
+| Adecuado | 7 | 4 o 5, ninguna por debajo |
+| Muy lento | 1 | 5 |
+
+**Quien siente el ritmo rápido califica bajo la metodología.** Los tres son de áreas
+distintas, Jurídica, Vivienda y Servicios Sociales, y de etapas distintas. Y los tres
+piden cosas coherentes: más tiempo por sesión, empatía en el proceso de enseñanza, y
+«que pueda ser menos acelerado».
+
+**Es la primera lectura de este tablero que no se cae al día siguiente.** Las dos
+anteriores se rompieron con las respuestas nuevas. Esta se refuerza con cada una.
+
+### Y me corrijo otra vez
+
+Ayer escribí que el «muy avanzado» de Agencia de Empleo significaba que **un área se
+había despegado del resto**. Hoy hay un segundo «muy avanzado» y **significa lo
+contrario**: Servicios Sociales lleva dos o tres sesiones, califica la utilidad en 4, no
+nota ahorro y pide que sea menos acelerado.
+
+**La misma palabra, dos problemas opuestos.** Con una sola respuesta la lectura parecía
+obvia y era incompleta.
+
+### Lo que esto le sirve a Sandra
+
+Es lo único del tablero que **no cuesta dinero, no depende de licencias y afecta justo a
+quien todavía no despega**. Vale mirarlo antes que el resto de la lista.
+
+### El silencio del canal ya son dos días
+
+**Cero mensajes de cliente desde el miércoles a las 3 de la tarde**, en los 18 canales,
+después de dos campañas. Las dos respuestas nuevas de la encuesta llegaron **después de
+una sesión**, no después de un mensaje.
+
+Pulso v6: https://claude.ai/code/artifact/0cca00fb-603a-4ae8-a87f-1d5f724dbf0d
+
+---
+
 ## ✅ 11 sep · 07:45 · Corte del viernes, con tres correcciones mías
 
 **64 sesiones.** Entran las tres del jueves —Vivienda S5 con Cindy Silva, Agencia de
