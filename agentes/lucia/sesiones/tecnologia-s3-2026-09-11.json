@@ -1,0 +1,225 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "TECNOLOGÍA",
+  "area_completa": "",
+  "sesion_num": 3,
+  "fase": "Sistemas de Trabajo Agénticos",
+  "fecha": "11 de septiembre de 2026",
+  "fecha_corta": "11 septiembre 2026",
+  "subtitulo_meta": "Individual de Olga Lucía Barros · 11 de septiembre de 2026 · 9:00 a. m. · 44 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Tecnología — Comfacesar"],
+    ["Sesión", "N° 3 — Individual de Olga Lucía Barros: el alcance del acompañamiento y la conexión de los tableros al software"],
+    ["Fecha", "11 de septiembre de 2026"],
+    ["Hora inicio", "9:00 a. m. — Colombia"],
+    ["Duración de la sesión", "44 minutos (9:01 a. m. – 9:45 a. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Olga Lucía Barros Zuleta — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "0", "etiqueta": "Tareas documentadas", "detalle": "La línea del área sigue vacía en el tablero"},
+    {"valor": "3", "etiqueta": "Ejercicios ya hechos", "detalle": "Órdenes, contratos e incoherencias detectadas"},
+    {"valor": "1", "etiqueta": "Aclaración de fondo", "detalle": "El software contable es de un tercero, no propio"},
+    {"valor": "1ª", "etiqueta": "App prototipada", "detalle": "Consulta de subsidio y cartera para afiliados"},
+    {"valor": "1", "etiqueta": "Decisión pendiente", "detalle": "El alcance del acompañamiento a este puesto"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Olga Lucía Barros Zuleta", "cargo": "Asistente de Dirección — Tecnología", "correo": "—", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 3. Esta sesión fue menos de ejercicio y más de alcance: el puesto planteó una petición legítima que excede el marco del programa, y de ahí salió además una aclaración que cambia un supuesto que se venía manejando.",
+  "riesgos": [
+    {
+      "titulo": "El área no tiene ninguna tarea documentada en el tablero del programa",
+      "nivel": "ALTO",
+      "descripcion": "La línea de Tecnología está vacía, y sin embargo el puesto ya tiene ejercicios hechos por cuenta propia — consolidación y revisión de contratos, clasificación de órdenes por cuantía y detección de incoherencias. _Todo eso hay que registrarlo_, con el tiempo que tomaba antes en minutos y el que toma ahora. Es el reporte que ven la dirección y la líder del proyecto.",
+      "responsable": "Olga Lucía Barros / Esta semana"
+    },
+    {
+      "titulo": "El puesto pide ampliar el alcance más allá de sus tareas del día a día",
+      "nivel": "ALTO",
+      "descripcion": "La petición fue explícita y es legítima: catorce años en un rol muy operativo, con tareas repetitivas que el programa ya cubrió, y el interés de aprender temas que no corresponden a su cargo actual. _La respuesta metodológica también fue clara:_ el objetivo del programa es la productividad en las tareas de Comfacesar, y todo ejercicio que se registra debe poder sustentarse como propio del área. **La decisión no es de la mentoría: le corresponde a la líder del proyecto.**",
+      "responsable": "Olga Lucía Barros + María Elvira Marulanda / Por definir"
+    },
+    {
+      "titulo": "El software contable no lo desarrolla Comfacesar",
+      "nivel": "ALTO",
+      "descripcion": "_Aclaración importante que corrige un supuesto del proyecto:_ el área de Tecnología no desarrolla software. El sistema contable es de un proveedor externo especializado en cajas de compensación, con sede en Girardot; Tecnología lo gestiona y lo administra, no lo construyó. Varias áreas creen lo contrario. Esto cambia por dónde hay que gestionar la integración de los tableros.",
+      "responsable": "Tecnología / Registrado"
+    },
+    {
+      "titulo": "La integración de los tableros depende de un tercero",
+      "nivel": "ALTO",
+      "descripcion": "Para que los tableros que se están construyendo dejen de alimentarse con descargas manuales, hay que conectarlos al sistema por su interfaz de integración. Eso exige una reunión con el proveedor. _Es el cuello de botella de varias áreas a la vez_ — Contabilidad es el primer caso, pero el patrón se repite en Tesorería, Servicios Sociales y Vivienda.",
+      "responsable": "Olga Lucía Barros + Dirección de Tecnología / Esta semana"
+    },
+    {
+      "titulo": "Hay una licencia de otra herramienta pagada y sin uso",
+      "nivel": "MEDIO",
+      "descripcion": "La organización paga una herramienta de IA que prácticamente nadie utiliza. No es un reemplazo de lo que se está trabajando —cada herramienta tiene su fuerte— pero es capacidad instalada que hoy no se aprovecha, y conviene tenerlo en cuenta antes de decidir cualquier compra adicional.",
+      "responsable": "Tecnología / Por revisar"
+    },
+    {
+      "titulo": "El puesto asumió el costo de la herramienta por su cuenta",
+      "nivel": "MEDIO",
+      "descripcion": "Queda registrado como dato, sin que implique ninguna decisión en este momento. El esquema de licenciamiento se define en el cierre del proyecto, en octubre, con el sustento de los tableros de productividad de todas las áreas.",
+      "responsable": "Dirección / Octubre"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Documentar en el tablero los ejercicios ya hechos",
+      "descripcion": "La revisión de contratos, la clasificación de órdenes por cuantía y los hallazgos de incoherencias. Con el tiempo antes y después, y el nombre de quien registra.",
+      "responsable": "Olga Lucía Barros",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Gestionar la reunión con el proveedor del sistema",
+      "descripcion": "Para revisar la integración de los tableros por interfaz de programación. El planteamiento concreto: que el tablero de Contabilidad tome la información directamente del sistema en lugar de que alguien descargue el reporte de legalizaciones.",
+      "responsable": "Olga Lucía Barros + Dirección de Tecnología",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Llevar a la líder del proyecto la solicitud de alcance",
+      "descripcion": "Primero con la jefatura de Tecnología por conducto regular, y de ahí a la líder del proyecto. Si hay autorización, el acompañamiento se amplía; si no, hay que traer más ejercicios del área.",
+      "responsable": "Olga Lucía Barros",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Traer ejercicios concretos del área para las próximas sesiones",
+      "descripcion": "La metodología funciona sobre casos reales del puesto. Sin un ejercicio concreto, la sesión se queda en generalidades y rinde mucho menos.",
+      "responsable": "Olga Lucía Barros",
+      "plazo": "Permanente"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Seguir modelando el prototipo de la aplicación",
+      "descripcion": "Quedó lanzado en sesión. Es un ejercicio válido y propio del área si se orienta a un caso de uso real de la Caja.",
+      "responsable": "Olga Lucía Barros",
+      "plazo": "Antes de la S4"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El alcance del acompañamiento",
+      "duracion": "~14 min",
+      "objetivo": "Resolver la petición que el puesto trajo a la sesión.",
+      "pasos": [
+        "_La petición, dicha con franqueza:_ catorce años en un rol administrativo —actas, documentación, recepción y gestión de oficios, revisión de contratos—, con la sensación de estar haciendo siempre lo mismo y el interés de aprender temas que hoy no corresponden al cargo",
+        "_La respuesta metodológica:_ el programa se mide por productividad en las tareas de Comfacesar. Cada ejercicio que se registra en el tablero debe poder sustentarse como propio del área ante la dirección; un ejercicio ajeno al área no pasaría esa revisión",
+        "_Y la vía para resolverlo:_ la decisión no es de la mentoría. Corresponde a la líder del proyecto, con el visto bueno previo de la jefatura del área por conducto regular",
+        "Quedó el compromiso de gestionarlo y avisar el resultado",
+        "_Mientras tanto,_ la alternativa planteada fue buscar otros ejercicios dentro del área, propios o de otras personas del equipo, que puedan trabajarse en las sesiones"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · La integración de los tableros al sistema",
+      "duracion": "~10 min",
+      "objetivo": "Identificar por dónde se conecta lo que las áreas están construyendo.",
+      "pasos": [
+        "_El punto de partida:_ varias áreas están construyendo tableros que hoy se alimentan descargando reportes a mano. El objetivo es que tomen la información directamente del sistema",
+        "_Y ahí apareció la aclaración de fondo:_ Tecnología no desarrolla software. El sistema contable es de un proveedor externo especializado en cajas de compensación familiar, con sede en Girardot. Tecnología lo gestiona y lo administra",
+        "Se mostró un caso real de otro cliente donde un tablero se conecta por interfaz de programación al sistema de gestión de la empresa y toma la información sin intervención manual",
+        "_El planteamiento concreto para llevar al proveedor:_ que el tablero de Contabilidad tome las legalizaciones directamente del sistema en vez de que alguien las descargue",
+        "Quedó el compromiso de gestionar el espacio con la jefatura del área y con la líder del proyecto, para después sentarse con el proveedor",
+        "_Si funciona en Contabilidad,_ se extiende al resto de las áreas"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Recorrido por las capacidades de la herramienta",
+      "duracion": "~15 min",
+      "objetivo": "Mostrar el alcance completo para que el puesto identifique dónde aplicarlo.",
+      "pasos": [
+        "_El trabajo sobre carpetas:_ conectar una carpeta del computador y pedirle que la organice, que diga qué falta o que responda preguntas sobre su contenido — se mostró con un caso real de facturas ordenadas por año, con los faltantes identificados",
+        "_Los artefactos:_ una aplicación, una página web, un tablero que se comparte por enlace y se mantiene actualizado, o un asistente que atiende pedidos por mensajería",
+        "_La programación de tareas:_ recordatorios, resúmenes de agenda, conexión con el correo y el calendario",
+        "_La conexión del teléfono_ con el entorno de escritorio, que a su vez está conectado al computador — y la precisión de que la sincronización es solo con la aplicación, no con el resto del teléfono",
+        "_El apartado de diseño:_ presentaciones editables directamente, piezas en 3D, mapas interactivos, animaciones a partir de una foto, firmas y páginas web",
+        "_Sobre las herramientas:_ cada una tiene su fuerte. Una es mejor en investigación, infografía y video; otra en respuestas rápidas. No se reemplazan — se usan según el caso"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Prototipo de aplicación para afiliados",
+      "duracion": "~5 min",
+      "objetivo": "Hacer un ejercicio concreto con el interés que el puesto manifestó.",
+      "pasos": [
+        "Se planteó una aplicación móvil para que los afiliados consulten su subsidio y su estado de cartera",
+        "El sistema devolvió las preguntas de definición: tipo de aplicación, quiénes son los usuarios, qué debe poder consultarse, si requiere inicio de sesión y con qué credenciales, y el alcance del primer prototipo",
+        "Se definieron dos entornos —uno para la Caja y otro para los afiliados—, ingreso con documento y contraseña, y una primera versión solo de consulta",
+        "_El criterio que quedó:_ no hay que saber programar. La herramienta resuelve por dentro y va guiando el paso a paso, incluido el momento de publicarla",
+        "_Y el criterio de fondo sobre el prompt:_ el primer intento salió corto de contexto. Por eso el sistema pregunta — cada respuesta es contexto que faltaba"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD ESTRUCTURAL · SESIÓN 3 · 11 septiembre 2026",
+      "titulo": "Conectar los tableros al sistema por interfaz de programación",
+      "descripcion": "Es el cuello de botella que comparten varias áreas a la vez: todos los tableros que se están construyendo se alimentan hoy con descargas manuales. Si el sistema entrega la información directamente, ese paso desaparece para Contabilidad, y después para el resto. Requiere una reunión con el proveedor externo — no se resuelve dentro de la Caja.",
+      "estado": "Por gestionar",
+      "proximo_paso": "Reunión con la jefatura, la líder del proyecto y el proveedor",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 3 · 11 septiembre 2026",
+      "titulo": "Los ejercicios de revisión contractual que el puesto ya hizo",
+      "descripcion": "Clasificación de órdenes por cuantía, comparación de contratos y detección de incoherencias — construidos por cuenta propia entre sesiones. Están funcionando y no están registrados. Documentarlos es lo que convierte trabajo hecho en evidencia del programa.",
+      "estado": "Funcionando, sin documentar",
+      "proximo_paso": "Registrarlos en el tablero de seguimiento",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "OPORTUNIDAD PLANTEADA · SESIÓN 3 · 11 septiembre 2026",
+      "titulo": "La aplicación de consulta para afiliados",
+      "descripcion": "Un prototipo donde el afiliado consulta su subsidio y su estado de cartera, con dos entornos separados. Se lanzó en sesión y quedó en modelamiento. Si se orienta a un caso de uso real de la Caja, es un ejercicio propio del área y de los más visibles que puede aportar.",
+      "estado": "Prototipo lanzado",
+      "proximo_paso": "Seguir modelándolo y definir el caso de uso",
+      "target": "Sesión 4"
+    }
+  ],
+  "tareas_intro": "Fue una sesión de alcance más que de ejercicio, y de ahí salieron dos cosas que valen: una aclaración que corrige un supuesto del proyecto, y la vía concreta para desbloquear los tableros de varias áreas a la vez.",
+  "tareas": [
+    {"tarea": "Documentar en el tablero los ejercicios ya hechos", "responsable": "Olga Lucía Barros", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Gestionar la reunión con el proveedor del sistema", "responsable": "Olga Lucía Barros + Dirección de Tecnología", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Llevar la solicitud de alcance a la líder del proyecto", "responsable": "Olga Lucía Barros", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Traer ejercicios concretos del área para las próximas sesiones", "responsable": "Olga Lucía Barros", "prioridad": "MEDIA", "plazo": "Permanente"},
+    {"tarea": "Seguir modelando el prototipo de la aplicación", "responsable": "Olga Lucía Barros", "prioridad": "MEDIA", "plazo": "Antes de la S4"},
+    {"tarea": "Agendar las próximas sesiones", "responsable": "Olga Lucía Barros", "prioridad": "MEDIA", "plazo": "Esta semana"}
+  ],
+  "observaciones": [
+    "La aclaración más importante de la sesión corrige un supuesto que el proyecto venía manejando: **Tecnología no desarrolla software en Comfacesar**. El sistema contable es de un proveedor externo especializado en cajas de compensación, con sede en Girardot; el área lo gestiona y lo administra. Varias personas dentro de la Caja creen lo contrario, y eso cambia por dónde hay que gestionar cualquier integración.",
+    "Y eso convierte esta sesión en algo más que una sesión de área. La integración de los tableros al sistema es el cuello de botella que comparten Contabilidad, Tesorería, Servicios Sociales y Vivienda al mismo tiempo: todas están construyendo tableros que hoy se alimentan a mano. Si se abre esa conexión, se desbloquean varias a la vez. Y no se resuelve dentro de la Caja — requiere sentarse con el proveedor.",
+    "La petición del puesto es legítima y merece registrarse sin rodeos: catorce años en un rol administrativo, con las tareas repetitivas ya cubiertas por el programa, y el interés de aprender más. La respuesta también fue clara: el programa mide productividad en tareas de Comfacesar, y todo lo que se registre tiene que poder sustentarse como propio del área. La decisión de ampliar el alcance no es de la mentoría — es de la líder del proyecto, y el conducto pasa primero por la jefatura de Tecnología.",
+    "El área tiene ejercicios funcionando y ninguno registrado. Clasificación de órdenes por cuantía, comparación de contratos, detección de incoherencias. Es el mismo patrón que se repite en varias áreas esta semana: se trabaja y no se documenta. Y el tablero de seguimiento es justamente lo que convierte trabajo hecho en evidencia.",
+    "Una nota de capacidad instalada: la organización paga una herramienta de IA que prácticamente nadie usa. No reemplaza lo que se está trabajando —cada una tiene su fuerte, una en investigación e infografía, otra en respuestas rápidas— pero es capacidad ya comprada que hoy no se aprovecha. Vale tenerlo presente antes de decidir cualquier compra nueva.",
+    "El ejercicio del prototipo de aplicación dejó un criterio que sirve para todo el programa: el primer intento salió corto porque le faltó contexto, y por eso el sistema empezó a preguntar. Cada pregunta que devuelve es un pedazo de contexto que no se le dio. No es una limitación — es cómo se construye."
+  ],
+  "proxima_sesion": {
+    "sesion": "Tecnología — Sesión 4",
+    "condiciones": [
+      "Los ejercicios ya hechos registrados en el tablero",
+      "Respuesta sobre el alcance del acompañamiento",
+      "Gestión adelantada de la reunión con el proveedor",
+      "Uno o dos ejercicios concretos del área para trabajar"
+    ],
+    "agenda": [
+      "El prototipo de la aplicación, modelado",
+      "La integración de los tableros, si ya hay contacto con el proveedor",
+      "Los ejercicios que traiga el área",
+      "El trabajo sobre carpetas aplicado a la gestión documental del puesto"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 11 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

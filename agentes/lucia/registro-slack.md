@@ -584,3 +584,28 @@ Cinco sesiones, cinco actas. Las cuatro primeras publicadas el mismo día; la de
 - Confirmar con el área si Cumplimiento va a asumir el protocolo de gobernanza para el uso de herramientas (hoy no existe ni para correo, ni para Drive, ni para mensajería).
 - Servicios Sociales: la jefatura descargó la herramienta el mismo día de la sesión; queda de tarea ponerse al día con las grabaciones.
 
+---
+
+## Viernes 11 de septiembre de 2026
+
+| Área | Sesión | Persona | Hora | Duración | Canal |
+|---|---|---|---|---|---|
+| Tecnología | S3 | Olga Lucía Barros Zuleta | 9:00 a. m. | 44 min | `#tecnologia` |
+
+**Verificación de numeración**
+- Tecnología: S1 14 ago · S2 25 ago · *(S3 del 31 ago cancelada)* · **S3 11 sep Olga Lucía** ✓ — *el evento salió titulado «S4» porque contó la cancelada. Mismo patrón que Servicios Sociales el día anterior.*
+
+**Hallazgo que cambia un supuesto del proyecto**
+- **Comfacesar no desarrolla software.** El sistema contable es de un proveedor externo especializado en cajas de compensación, con sede en Girardot; Tecnología lo gestiona y lo administra. Varias personas dentro de la Caja creen que es desarrollo propio.
+- **Consecuencia:** la integración de los tableros al sistema hay que gestionarla con el proveedor, no internamente. Y es el mismo cuello de botella de cuatro áreas a la vez — Contabilidad, Tesorería, Servicios Sociales y Vivienda están todas construyendo tableros que se alimentan con descargas manuales.
+- Caso piloto propuesto: que el tablero de Contabilidad tome las legalizaciones directamente del sistema.
+
+**Decisión pendiente de María Elvira**
+- Olga Lucía pidió ampliar el alcance del acompañamiento más allá de sus tareas del día a día (catorce años en un rol administrativo, con las tareas repetitivas ya cubiertas). Se le explicó que el programa mide productividad en tareas de Comfacesar y que la decisión es de la líder del proyecto, con visto bueno previo de la jefatura de Tecnología. Queda de gestionarlo y avisar.
+
+**Capacidad instalada sin usar**
+- La organización paga otra herramienta de IA que prácticamente nadie utiliza. A tener en cuenta antes de cualquier decisión de compra en el cierre de octubre.
+
+**Patrón que se repite esta semana**
+- Áreas con ejercicios funcionando y cero registros en el tablero de seguimiento: Tecnología (0 líneas), Vivienda (3 trabajos sin documentar), Servicios Sociales (corregido en sesión). El tablero es lo que sustenta la presentación de cierre al director.
+
