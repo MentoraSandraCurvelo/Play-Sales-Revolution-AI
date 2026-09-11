@@ -15,6 +15,51 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⛔ 11 sep · 14:15 · Contabilidad no se presentó · MENSAJE PUBLICADO
+
+Sandra estuvo conectada desde las 2:00 p. m. y escribió en el canal a las 2:05. **Nadie
+entró.** A pedido suyo publiqué el aviso de reagendamiento a las **2:15**, justo encima
+del de ella.
+
+**El mensaje:** el espacio se perdió, esa hora no se recupera, agenden con el enlace
+fijado y tomen varias de una vez. Le recordé a Carlos lo que quedó pendiente de la S5,
+el reporte de agosto con el proceso nuevo, más conciliaciones con ficha y el tablero de
+viáticos. Cierra con la fecha real, 30 de octubre. Sin reproche.
+
+⚠️ **`#contabilidad` queda en 2 de 2 mensajes hoy.** Lucía no escribe ahí hasta mañana.
+
+### Y esto devuelve una palabra que retiré esta mañana
+
+Hoy a las 10:20 quité «patrón» del tablero porque los espacios vencidos habían bajado de
+tres a dos. **Con Contabilidad vuelven a ser tres en nueve días:**
+
+| Fecha | Área |
+|---|---|
+| 3 sep | Servicios Sociales |
+| 9 sep | Mercadeo |
+| **11 sep** | **Contabilidad** |
+
+Los tres iguales: **nadie canceló, nadie escribió, la hora pasó.** Lo dejé escrito así en
+el tablero, diciendo que retiré la palabra cuando eran dos y la devuelvo ahora que son
+tres, para que se vea que el número se mueve con la evidencia y no al revés.
+
+### Por qué este caso pesa distinto
+
+Contabilidad **no es un área desenganchada**. Viene de una S5 con el reporte mensual de
+anticipos de **4 horas a 10 minutos** y el primer comando del área. Es un área que
+funciona y que faltó a una cita, que es un problema distinto al de Mercadeo o al de las
+áreas que nunca agendan.
+
+### Estado
+
+- **65 sesiones**, la S6 de Contabilidad no cuenta como ejecutada.
+- **Catorce de las dieciocho áreas** sin nada agendado, entra Contabilidad.
+- La agenda hasta el 18 baja a **seis sesiones**, cuatro de Sub. Administrativa.
+
+Termómetro v27: https://claude.ai/code/artifact/8949a813-41e2-4c31-b234-d0b3ada2eb6e
+
+---
+
 ## ✅ 11 sep · 13:15 · Duodécima respuesta, y viene de Tecnología
 
 **Tecnología, hoy 8:31 a. m.**, media hora **antes** de su sesión de las 9:00. Novena
