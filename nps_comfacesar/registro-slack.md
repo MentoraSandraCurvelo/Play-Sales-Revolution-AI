@@ -15,6 +15,37 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🗂️ 14 sep · 09:15 · Mesa Comfacesar al día · v4
+
+Sandra preguntó dónde estaba el tablero que une todo. Es la **Mesa**, el índice de todos
+los reportes, y estaba con el corte del 9 de septiembre.
+
+**Enlace único, este es el que Sandra guarda:**
+https://claude.ai/code/artifact/d8bd8aec-56be-476a-bf3a-a3abbabdc05b
+
+**Lo actualizado:**
+
+| Tarjeta | Antes | Ahora |
+|---|---|---|
+| Termómetro | 56 sesiones · corte 9 sep | **66 sesiones · 91% · 18 áreas · corte 14 sep** |
+| Encuesta | 4 respuestas · corte 8 sep | **12 respuestas de 9 áreas · quieta desde el vie 11** |
+| Corte de Lucía | «sin publicar» | **vigente, con enlace** |
+
+**El corte de Lucía ya tiene enlace.** Verificado en su rama: commit del 14 de septiembre,
+«Lucía: actualiza el tablero de corte al 14 de septiembre», archivo
+`agentes/lucia/tablero/corte-comfacesar.html`, publicado en
+`872bf37a-40ef-434b-9d73-16e658d724a3`. Pasa de «existe, falta publicarlo» a reporte vivo
+dentro de su pestaña.
+
+### ⚠️ Aviso agregado a la propia Mesa
+
+**La Mesa y el Pulso están compartidos por liga con una versión fijada**, así que quien
+abre el enlace ve esa versión y no la última publicada. Antes de pasarle cualquiera de los
+dos al director o a María Elvira hay que mover la versión fijada desde el menú de
+compartir del tablero. El Termómetro no tiene ese problema.
+
+---
+
 ## 📊 14 sep · 09:35 · Tableros al día para la reunión con el director
 
 Sandra pidió tener todos los tableros actualizados antes de las 10:00.
