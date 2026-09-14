@@ -15,6 +15,68 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📈 14 sep · 10:20 · Sala de Control · el assessment leído en horas y en pesos
+
+Sandra pidió meter el archivo que llenan los equipos como un tablero aparte dentro de la
+Mesa, para el director y María Elvira, con indicadores, proyecciones y ROI.
+
+**Tablero nuevo:** https://claude.ai/code/artifact/ff353926-172e-4a35-83a3-c9dbf1baffbf
+**Ya entra desde la Mesa** (v5), como primera tarjeta de mi pestaña.
+
+**Fuente:** el archivo de assessment, 21 hojas, `15MttClb8I_USqiJ537Ne_huySFnzF2Gg`. No lo
+tenía por Drive ni se podía leer desde Slack, porque está como marcador de canal y los
+marcadores no los entrega el conector. Sandra pasó el enlace.
+
+### Dos errores de fórmula del archivo, y los dos importan
+
+1. **El resumen global dice «495% de reducción».** La celda suma los porcentajes de las
+   seis áreas en vez de calcular la reducción del total. **Lo correcto es 91%.**
+2. **Las columnas dicen «HRS/SEM» y no son semanales.** Comprobado sumando a mano las 21
+   tareas: los 133,0 son exactamente 7.982 minutos ÷ 60, una sola vuelta de cada tarea.
+   **La columna de frecuencia se captura y no entra en ningún cálculo.** Por eso las dos
+   tareas ocasionales de Servicios Sociales aparecen como 80 horas «a la semana» y se
+   llevan el 59% del total.
+
+### Lo recalculado, tarea por tarea
+
+| | |
+|---|---|
+| Tareas registradas | **21**, de **6 áreas de 21** |
+| Antes → hoy | **7.982 → 698 minutos** |
+| Reducción real | **91%** |
+| Ahorro semanal aplicando frecuencia | **3.505 min · 58,4 h** |
+| Valor a 12 meses, a $45.000/hora | **$126,1 M** |
+
+**Supuestos, no datos de Comfacesar, y así quedan marcados en el tablero:** costo hora
+empresa de $35.000 / $45.000 / $60.000 / $110.000, y licencia a US$20 al mes a $4.000 por
+dólar. Hay que confirmarlos con Talento Humano antes de usarlos hacia afuera.
+
+**La fragilidad que hay que cerrar primero:** **42 de las 58 horas son una sola línea**, la
+prevalidación precontractual de Rafael Solano, registrada como 480 minutos diarios. Sin
+esa línea el programa sigue recuperando 20,9 h/semana, o $45,2 M al año. Confirmarlo con
+él es la tarea de esta semana.
+
+**Las cinco tareas ocasionales quedan fuera de toda proyección**, incluida la mejor del
+programa: la respuesta a una anotación de Auditoría Interna pasó de ocho días a cuatro
+horas. Falta saber cuántas anotaciones llegan al año.
+
+### Corrección que arrastra al Termómetro
+
+El Termómetro publicó que el informe de Jurídica pasó de **960 a 25 minutos**. El área lo
+registró en **10**. Gana el archivo, porque lo escribió quien hace la tarea. **Queda
+pendiente corregirlo en el Termómetro.**
+
+### Quince áreas en cero, y tres de ellas ya tienen el trabajo hecho
+
+Vivienda (interventoría, 4 h → 30 min), Contabilidad (anticipos, 240 → 10 min) y
+Tecnología (órdenes, contratos, incoherencias). **Si esas tres registran lo que ya
+hicieron, el archivo pasa de 6 áreas a 9 sin una sesión más.**
+
+Y una asimetría: **Jurídica sola aporta 12 de las 21 tareas**, porque es la única que
+mapeó su trabajo completo en vez de registrar el ejercicio del día. Ese es el estándar.
+
+---
+
 ## 🗂️ 14 sep · 09:15 · Mesa Comfacesar al día · v4
 
 Sandra preguntó dónde estaba el tablero que une todo. Es la **Mesa**, el índice de todos
