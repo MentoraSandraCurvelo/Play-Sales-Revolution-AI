@@ -15,6 +15,86 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🗓️ 14 sep · 07:45 · Corte del lunes · el Termómetro pasa a v29
+
+**No publiqué nada en Slack.** Sandra no lo pidió. Esto es solo el tablero.
+
+### Lo que cambió el fin de semana, y es la lectura principal del corte
+
+| | Viernes 11, 14:35 | Lunes 14, 07:45 |
+|---|---|---|
+| Sesiones agendadas | 6, hasta el 18 | **15 esta semana**, más una el 23 |
+| Áreas sin fecha | 14 | **10** |
+| Mensajes del cliente en Slack | — | **cero desde el viernes** |
+
+**Diez eventos nuevos que no estaban en el corte del viernes:** la reprogramación de
+Rafael, IPS S3, Jurídica S8 y S9, Talento Humano S3, Servicios Sociales S8,
+Comunicaciones S7, Cumplimiento S2, la segunda de Sub. Administrativa del miércoles y la
+individual de Vidiana del 23.
+
+**La lección de método, y es grande.** Las dos campañas de esta semana no produjeron una
+sola respuesta escrita, y este tablero concluyó que las áreas no estaban reaccionando.
+**Reaccionaron: por el calendario, no por el canal.** Medir la respuesta del cliente por
+lo que escribe en Slack estaba dando un falso negativo. De aquí en adelante, antes de
+decir que una campaña no funcionó, se cruza contra Calendly.
+
+### Correcciones que quedaron dichas en el tablero
+
+1. **Tecnología del viernes es la S3, no la S4.** El título del evento decía S4 porque
+   contaba la cancelada. El acta la numera S3. Regla: **una cancelación no consume número
+   de sesión.** Mismo error que en Servicios Sociales el día anterior.
+2. **Los tres soportes de Tecnología S3 sí estaban**, subidos el viernes a las 10:28 y
+   10:35. El corte de las 14:35 los dio por faltantes leyendo una carpeta que ya los
+   tenía. Tercera vez que pasa algo así.
+3. **Sub. Administrativa S6 del viernes no se hizo.** Cancelada a las 10:34 por salud de
+   Rafael, dicho por Sandra en el canal. El tablero la anunciaba como hecha. Reprogramada
+   para el lunes a las 4:00 p. m.
+
+### Asistencia recalculada
+
+De 132/145 sobre 56 sesiones a **138/151 sobre 61**. Sigue en **91%**. Entran completas
+Comunicaciones S5, Vivienda S5, Agencia de Empleo S6, Servicios Sociales S6 y
+Tecnología S3: **6 de 6 personas**.
+
+En Vivienda, Cindy Silva aparece dos veces por reconexión y cuenta como una.
+
+### Hallazgos que hay que mirar
+
+- **Hay un transcriptor externo en las sesiones de Agencia de Empleo.** El informe de
+  Teams del 10 de septiembre registra un «Fireflies.ai Notetaker» que entró a las 10:01 y
+  salió quince minutos después que todos. No es del programa y no lo puso IAM.
+- **Contabilidad S6 es la única sesión ejecutada del programa sin ningún rastro
+  documental**, tres días después. Ni grabación, ni acta, ni informe.
+- **Comfacesar ya paga una herramienta de IA que casi nadie usa**, según el acta de
+  Tecnología. Es el contra-argumento que va a aparecer en octubre cuando lleguen las cinco
+  áreas pidiendo licencias.
+- **Olga Lucía asumió por su cuenta el costo de la herramienta** para poder trabajar en el
+  programa.
+- **Tecnología no desarrolla software.** El sistema contable es de un proveedor externo
+  con sede en Girardot. Corrige un supuesto del proyecto y saca de Comfacesar la decisión
+  sobre la integración de los tableros, que es el techo de cuatro áreas a la vez.
+
+### Lo que queda para Sandra, y no resuelvo yo
+
+- **El relevo de representantes y la salida de Crédito y Auditoría Interna son del mismo
+  día, el 11 de septiembre, y se contradicen.** María Elvira aprobó reemplazos que
+  representan a esas dos áreas desde `#subsidio`, `#cumplimiento` y `#agencia-de-empleo`.
+  O siguen fuera y el relevo queda sin objeto para ellas, o vuelven representadas y hay
+  que decir cómo se cuentan.
+- **Cumplimiento S2 del viernes 18 a las 9:00 está agendada con el correo de Saharay
+  Díaz**, a quien ese mismo relevo sacó del programa. La reemplaza Aura Sánchez.
+- **La numeración de Sub. Administrativa se rompió** al tomar cinco sesiones de golpe: hoy
+  la S7 a las 3:00 y la S6 a las 4:00, y el miércoles dos eventos titulados S8. No lo
+  toco, porque renumerar eventos confirmados le cambia el correo a cuatro personas.
+- **Las dos individuales nuevas de Comunicaciones arrancan a las 5:00 p. m.**, que es el
+  borde de la jornada.
+- **La rutina horaria sigue nombrando los canales archivados** y dice que el programa
+  cierra «en octubre». Cierra el 30 de octubre y son 18 áreas, no 20.
+
+**Tablero:** https://claude.ai/code/artifact/8949a813-41e2-4c31-b234-d0b3ada2eb6e · v29
+
+---
+
 ## 🔁 11 sep · 14:35 · Contabilidad sí sesionó, y publiqué un aviso que hubo que borrar
 
 **Secuencia completa, porque el error es mío y es visible para el cliente:**

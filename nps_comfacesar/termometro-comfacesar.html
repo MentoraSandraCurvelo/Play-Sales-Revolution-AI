@@ -1,0 +1,718 @@
+<title>Termómetro Comfacesar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Lato:wght@400;700;900&display=swap">
+
+<style>
+  :root {
+    --ground: #FAF7F7; --surface: #FFFFFF; --surface-2: #F3EEEE;
+    --ink: #1A1315; --ink-2: #4A3E40; --muted: #6B5E60;
+    --line: #E6DDDD; --line-strong: #D2C6C6;
+    --accent: #C00000; --accent-soft: #F7E7E7;
+    --good: #1B6B45; --good-bg: #E2F0E9;
+    --warn: #8F5407; --warn-bg: #F8EBDA;
+    --crit: #A31C1C; --crit-bg: #F8E3E3;
+    --f-display: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+    --f-body: "Source Serif 4", Georgia, "Times New Roman", serif;
+    --f-ui: "Lato", "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #121011; --surface: #1B1819; --surface-2: #232021;
+      --ink: #F1ECEC; --ink-2: #D5CCCC; --muted: #A0918F;
+      --line: #2C2627; --line-strong: #3D3536;
+      --accent: #E85555; --accent-soft: #33201F;
+      --good: #6FCB9B; --good-bg: #163024;
+      --warn: #E5AC66; --warn-bg: #332616;
+      --crit: #F08585; --crit-bg: #3A1E1E;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #121011; --surface: #1B1819; --surface-2: #232021;
+    --ink: #F1ECEC; --ink-2: #D5CCCC; --muted: #A0918F;
+    --line: #2C2627; --line-strong: #3D3536;
+    --accent: #E85555; --accent-soft: #33201F;
+    --good: #6FCB9B; --good-bg: #163024;
+    --warn: #E5AC66; --warn-bg: #332616;
+    --crit: #F08585; --crit-bg: #3A1E1E;
+  }
+
+  body { background: var(--ground); color: var(--ink);
+    font-family: var(--f-body); font-size: 1.0625rem; line-height: 1.6;
+    margin: 0; padding: 0 1.25rem 5rem; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 64rem; margin: 0 auto; }
+
+  .eyebrow { font-family: var(--f-ui); font-weight: 900; font-size: .7rem;
+    letter-spacing: .2em; text-transform: uppercase; color: var(--accent); margin: 0; }
+  h1 { font-family: var(--f-display); font-size: clamp(2rem, 5.5vw, 2.9rem);
+    font-weight: 800; line-height: 1.03; letter-spacing: -.025em; text-wrap: balance; margin: .5rem 0 0; }
+  h2 { font-family: var(--f-display); font-size: 1.25rem; font-weight: 800;
+    letter-spacing: -.01em; text-wrap: balance; margin: 0; }
+  h3 { font-family: var(--f-ui); font-size: .74rem; font-weight: 900;
+    letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin: 0; }
+  p { margin: 0; }
+  .lede { font-size: 1.1rem; color: var(--muted); text-wrap: pretty; }
+  strong { font-weight: 600; color: var(--ink); }
+
+  header.top { display: flex; flex-direction: column; gap: .8rem;
+    padding: 3.25rem 0 1.75rem; border-bottom: 3px solid var(--accent); }
+  .stamp { font-family: var(--f-ui); font-size: .75rem; color: var(--muted); }
+  .fuente { font-family: var(--f-ui); font-size: .68rem; font-weight: 900;
+    letter-spacing: .1em; text-transform: uppercase;
+    color: var(--good); background: var(--good-bg);
+    padding: .25rem .5rem; border-radius: 3px; align-self: flex-start; }
+
+  section { display: flex; flex-direction: column; gap: 1rem; padding: 2.75rem 0 0; }
+  .sec-head { display: flex; flex-direction: column; gap: .4rem; }
+
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    gap: 1px; background: var(--line); border: 1px solid var(--line);
+    border-radius: 3px; overflow: hidden; }
+  .stat { background: var(--surface); padding: .95rem 1rem; display: flex; flex-direction: column; gap: .2rem; }
+  .stat b { font-family: var(--f-display); font-size: 1.85rem; font-weight: 800;
+    line-height: 1; letter-spacing: -.03em; font-variant-numeric: tabular-nums; }
+  .stat b.alert { color: var(--accent); }
+  .stat b.pend { color: var(--muted); font-size: 1.15rem; padding-top: .5rem; }
+  .stat span { font-family: var(--f-ui); font-size: .67rem; font-weight: 700;
+    letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+
+  .tablewrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); }
+  table { border-collapse: collapse; width: 100%; font-family: var(--f-ui); font-size: .84rem; }
+  th, td { text-align: left; padding: .5rem .7rem; border-bottom: 1px solid var(--line); vertical-align: middle; }
+  th { font-size: .62rem; font-weight: 900; letter-spacing: .08em; text-transform: uppercase;
+    color: var(--muted); background: var(--surface-2); white-space: nowrap; }
+  th.c, td.c { text-align: center; }
+  tbody tr:last-child td { border-bottom: none; }
+  tr.area-start td { border-top: 2px solid var(--line-strong); }
+  td.area { font-weight: 900; white-space: nowrap; }
+  td.ses { font-weight: 700; color: var(--ink-2); white-space: nowrap; }
+  td.fecha { color: var(--ink-2); white-space: nowrap; font-variant-numeric: tabular-nums; }
+  td.prox { white-space: nowrap; font-size: .8rem; }
+
+  .mk { font-weight: 900; font-size: .95rem; line-height: 1; }
+  .mk.si { color: var(--good); }
+  .mk.no { color: var(--crit); }
+  .mk.dud { color: var(--warn); }
+  .mk.na { color: var(--line-strong); }
+
+  .pill { display: inline-flex; align-items: center; gap: .3rem;
+    font-size: .64rem; font-weight: 900; letter-spacing: .05em; text-transform: uppercase;
+    padding: .18rem .42rem; border-radius: 3px; white-space: nowrap; }
+  .pill.good { background: var(--good-bg); color: var(--good); }
+  .pill.warn { background: var(--warn-bg); color: var(--warn); }
+  .pill.crit { background: var(--crit-bg); color: var(--crit); }
+
+  .note { border-left: 3px solid var(--accent); background: var(--accent-soft);
+    padding: .85rem 1rem; border-radius: 0 4px 4px 0; font-size: .95rem; }
+  .note.plain { border-left-color: var(--line-strong); background: var(--surface-2); }
+
+  .legend { font-family: var(--f-ui); font-size: .74rem; color: var(--muted);
+    display: flex; flex-wrap: wrap; gap: .3rem 1.1rem; align-items: center; }
+  .legend .k { display: inline-flex; align-items: center; gap: .35rem; }
+
+  ul.faltan, ul.cambios { margin: 0; padding-left: 1.1rem;
+    display: flex; flex-direction: column; gap: .45rem; font-size: .97rem; }
+  ul.faltan code, ul.cambios code {
+    font-family: ui-monospace, Menlo, monospace; font-size: .84em;
+    color: var(--accent); background: var(--accent-soft);
+    padding: .05rem .3rem; border-radius: 3px; }
+
+  footer { margin-top: 3.5rem; padding-top: 1.3rem; border-top: 1px solid var(--line);
+    font-family: var(--f-ui); font-size: .76rem; color: var(--muted);
+    display: flex; flex-wrap: wrap; gap: .4rem 1rem; }
+</style>
+
+<div class="wrap">
+
+  <header class="top">
+    <p class="eyebrow">IAM™ Intelligence · Comfacesar</p>
+    <h1>Control de sesiones</h1>
+    <p class="lede">Sesión por sesión: si está la grabación, si está el acta, si está la asistencia, y qué hay agendado. Cruzando tu calendario de Outlook con los archivos de Dropbox y los canales de Slack.</p>
+    <span class="fuente">✓ Verificado contra Outlook, Dropbox y Slack · acta de Tecnología S3 leída · cinco informes de asistencia de Teams nuevos · calendario barrido hasta el 26 de septiembre</span>
+    <p class="stamp">Corte: lunes 14 de septiembre de 2026 · 7:45 a. m. (hora Colombia)</p>
+  </header>
+
+  <section>
+    <div class="stats">
+      <div class="stat"><b>66</b><span>Sesiones verificadas</span></div>
+      <div class="stat"><b>18<span style="font-size:1rem;font-weight:700;color:var(--muted)"> / 18</span></b><span>Áreas en marcha</span></div>
+      <div class="stat"><b>51</b><span>Colaboradores</span></div>
+      <div class="stat"><b>91%</b><span>Asistencia acumulada</span></div>
+      <div class="stat"><b class="alert">10</b><span>Áreas sin fecha</span></div>
+    </div>
+    <div class="note">
+      <strong>El fin de semana la agenda pasó de seis sesiones a quince.</strong> El viernes a las 2:35 este tablero veía seis sesiones agendadas hasta el 18. Hoy ve <strong>quince esta semana</strong> y una más el miércoles 23. Son <strong>diez eventos que no estaban en el corte del viernes</strong>: la reprogramación de Rafael, IPS S3, Jurídica S8 y S9, Talento Humano S3, Servicios Sociales S8, Comunicaciones S7, Cumplimiento S2, una segunda de Sub. Administrativa el miércoles y la individual de Vidiana del 23.
+      <br><br>
+      <strong>Y en Slack no se movió nada.</strong> Desde el viernes no hay un solo mensaje del cliente en ningún canal. Las dos campañas de esta semana no produjeron una respuesta escrita, y aun así diez áreas tomaron fecha. <strong>Eso cambia la lectura que este tablero venía haciendo:</strong> el problema no es que las áreas no respondan, es que <strong>responden por el calendario y no por el canal</strong>. Medir la reacción por lo que se escribe en Slack estaba dando un falso negativo.
+    </div>
+    <div class="note">
+      <strong>Corrección · la sesión de Sub. Administrativa del viernes no se hizo.</strong> Este tablero la anunciaba como la S6 de Rafael, viernes 11 a las 11:00. <strong>Se canceló a las 10:34 de la mañana por salud de Rafael</strong>, y quedó dicho en el canal con esas palabras. No es una falla del área ni entra a ningún indicador.
+      <br><br>
+      <strong>Ya está reprogramada: hoy a las 4:00 p. m.</strong>, con el mismo correo del área. El evento sigue titulado «Sesion 6», que por fecha es lo correcto.
+    </div>
+    <div class="note">
+      <strong>Corrección · la de Tecnología del viernes es la S3, no la S4.</strong> Este tablero la escribió como S4 porque el título del evento decía S4, y el título contaba la sesión cancelada. <strong>El acta la numera S3</strong>, y ese es el número que vale. Es el mismo error de conteo que ya apareció en Servicios Sociales el día anterior: <strong>una cancelación no consume número de sesión</strong>.
+      <br><br>
+      <strong>Y sus tres soportes están completos</strong>, subidos el viernes a las 10:28 y 10:35 de la mañana. El tablero los daba por faltantes porque el corte se hizo a las 2:35 leyendo una carpeta que ya los tenía.
+    </div>
+    <div class="note">
+      <strong>Contabilidad S6 sigue sin un solo soporte, tres días después.</strong> La sesión del viernes sí se hizo, con media hora de retraso y con Carlos. Pero <strong>no hay grabación, ni acta, ni informe de asistencia</strong>, ni en Dropbox ni en el canal, y ya pasó el mediodía del día siguiente que este tablero se fijó como límite. Es la <strong>única sesión ejecutada del programa sin ningún rastro documental</strong>.
+      <br><br>
+      <strong>Y el aviso de «la hora se perdió» sigue publicado en el canal.</strong> El conector de Slack no borra mensajes: solo Sandra puede quitarlo. Queda anotado porque es un error visible para el cliente.
+    </div>
+    <div class="note">
+      <strong>Pregunta abierta · el relevo de representantes y la decisión del viernes se cruzan el mismo día.</strong> El 11 de septiembre Sandra retiró Crédito y Auditoría Interna de la medición. Ese mismo 11, María Elvira aprobó por correo un <strong>reemplazo de representantes</strong> que incluye a esas dos áreas: Cindy Rodríguez entra por Crédito desde <code>#subsidio</code>, y Aura Sánchez y Eliana Lagos por Auditoría Interna desde <code>#cumplimiento</code> y <code>#agencia-de-empleo</code>.
+      <br><br>
+      <strong>No lo resuelvo yo.</strong> O las dos áreas siguen fuera y el relevo queda sin objeto para ellas, o vuelven representadas desde otros canales y hay que decir cómo se cuentan. Las dos cosas están aprobadas y se contradicen.
+      <br><br>
+      <strong>Y hay un efecto inmediato:</strong> <strong>Saharay Díaz sale del programa</strong> en ese mismo relevo, y la <strong>Cumplimiento S2 del viernes 18 a las 9:00 está agendada con su correo</strong>. O la toma Aura Sánchez, o esa hora no tiene con quién.
+    </div>
+    <div class="note">
+      <strong>Decisión del viernes 11 · Crédito y Auditoría Interna salen de la medición.</strong> Sandra las retira del tablero a partir de hoy y archiva sus canales en Slack. <strong>El universo del programa pasa de 20 áreas a 18</strong>, y todos los indicadores de aquí en adelante se calculan sobre esas 18.
+      <br><br>
+      <strong>La trazabilidad queda congelada, no borrada.</strong> Las dos siguen en la tabla de abajo con lo que hubo hasta hoy: cero sesiones, tres mensajes cada una sin una sola respuesta entre el 25 de agosto y el 9 de septiembre, y el escalamiento que hizo María Elvira el lunes 8 por la noche en los dos canales, planteando ella misma retirarlas del proyecto. <strong>Nada de eso se toca:</strong> es el expediente de por qué salieron.
+      <br><br>
+      Los canales <code>#credito</code> y <code>#auditoria-interna</code> están archivados, así que <strong>ni Lucía ni yo volvemos a escribir ahí</strong>.
+    </div>
+    <div class="note">
+      <strong>Corrección · Comunicaciones S5 sí se hizo, y el error fue mío.</strong> Ayer escribí que no había dejado rastro. <strong>Es falso.</strong> La sesión fue el miércoles a las 5:00 p. m. con Vidiana Bendeck, duró una hora, y la grabación, el acta en texto y el PDF se publicaron el jueves entre las 8:07 y las 9:08 de la mañana.
+      <br><br>
+      <strong>Leí el canal a las 7:20 y declaré la sesión perdida 45 minutos antes de que existiera la evidencia.</strong> Es la tercera vez que este tablero da por faltante algo que solo llegaba tarde. La regla que queda: <strong>un acta de sesión de tarde puede aparecer a la mañana siguiente</strong>, así que no se declara perdida una sesión hasta el mediodía del día después.
+    </div>
+    <div class="note">
+      <strong>Y el patrón de «tres espacios vencidos» que publiqué ayer se reduce a dos.</strong> Comunicaciones sale, porque su sesión sí se hizo. Y <strong>Tecnología también sale</strong>: su S3 del jueves <strong>la canceló IAM</strong>, no el área. Llegué a escribirla como espacio vencido y como segunda falla de Olga Lucía, y no era ni lo uno ni lo otro.
+      <br><br>
+      La lista real queda en dos: <strong>Servicios Sociales el 3 de septiembre y Mercadeo el 9</strong>. Dos espacios en nueve días no es el patrón que describí ayer.
+    </div>
+    <div class="note">
+      <strong>Corrección · Mercadeo S4 no existió.</strong> Este tablero la anunciaba en verde para el miércoles a las 4:00 p. m. El espacio se perdió, se le escribió al canal a las 4:11 y Manuel José reagendó un minuto después para el <strong>jueves 17</strong>. <strong>Mercadeo lleva diecisiete días sin sesión</strong> y sigue siendo el área con gente activa más parada del programa.
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h3>Resultado de los nueve avisos</h3>
+      <h2>Seis tomaron fecha, y una de las seis se perdió</h2>
+    </div>
+    <p>El miércoles salieron nueve mensajes a los canales detenidos, con los resultados reales del programa como argumento. <strong>Seis tomaron fecha</strong> — cuatro el mismo día, IPS al cierre de la tarde, y Comunicaciones que ya tenía el viernes:</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Área</th><th>Llevaba parada</th><th>Agendó para</th></tr></thead>
+        <tbody>
+          <tr><td class="area">Tesorería</td><td class="ses">14 días — era la más rezagada</td><td class="fecha"><span class="pill good">Mié 9 · 9:00 · S2</span></td></tr>
+          <tr><td class="area">Educación</td><td class="ses">9 días — canceló el lunes</td><td class="fecha"><span class="pill good">Lun 7 · 16:00 · S3</span></td></tr>
+          <tr><td class="area">Subsidio</td><td class="ses">8 días</td><td class="fecha"><span class="pill good">Mar 8 · 11:00 · S4</span></td></tr>
+          <tr><td class="area">Mercadeo</td><td class="ses">8 días</td><td class="fecha"><span class="pill crit">Tomó fecha y se perdió · rehecha para el jue 17</span></td></tr>
+          <tr><td class="area">IPS</td><td class="ses">10 días — respondió a las 3:32 p. m.</td><td class="fecha"><span class="pill good">Mié 9 · 11:00 · S2</span></td></tr>
+          <tr><td class="area">Comunicaciones</td><td class="ses">14 días — ya tenía fecha</td><td class="fecha"><span class="pill good">Hecha · vie 4 · 6 de 6</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="note">
+      <strong>Tesorería es la noticia.</strong> Llevaba catorce días sin sesión, era el área más rezagada del programa y su única sesión había quedado sin acta ni asistencia. Ya tiene S2 el miércoles.
+      <br><br>
+      <strong>Educación respondió en veinte minutos.</strong> Julissa dijo que lo hablaba con el rector, y la sesión quedó tomada para el lunes. Es el canal que estuvo bloqueado por el bot hasta anteayer.
+    </div>
+    <div class="note plain">
+      <strong>IPS también entró.</strong> Danilo escribió ayer a las 3:32 p.m. — «ya agendamos» — y la sesión quedó tomada para el miércoles 9 a las 11:00 a.m., con su equipo completo invitado. El evento no lleva el nombre del área en el calendario, sino el de él.<br><br><strong>Vivienda entró.</strong> Tomó fecha para el jueves 10 a las 8:00, S5. Con eso quedaban sin fecha solo <strong>Crédito y Auditoría Interna</strong>, que nunca tuvieron su primera sesión pese a tres mensajes cada una. <strong>Las dos salieron de la medición el 11 de septiembre.</strong>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h3>El check</h3>
+      <h2>Área por área, sesión por sesión</h2>
+    </div>
+
+    <div class="tablewrap">
+      <table>
+        <thead>
+          <tr><th>Área</th><th>Sesión</th><th>Fecha</th>
+            <th class="c">Grabación</th><th class="c">Acta</th><th class="c">Asistencia</th>
+            <th>Próxima</th></tr>
+        </thead>
+        <tbody>
+          <tr class="area-start"><td class="area" rowspan="8">Servicios Sociales</td><td class="ses">S1</td><td class="fecha">18 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="prox" rowspan="8"><span class="pill good">S7 · mar 15, 15:00<br>S8 · mié 16, 16:00</span></td></tr>
+          <tr><td class="ses">S2</td><td class="fecha">21 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S3</td><td class="fecha">24 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S4 · Juan Pablo</td><td class="fecha">27 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S5</td><td class="fecha">31 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S6 · sin rastro</td><td class="fecha">3 sep</td><td class="c"><span class="mk no">✕</span></td><td class="c"><span class="mk no">✕</span></td><td class="c"><span class="mk no">✕</span></td></tr>
+          <tr><td class="ses">S6 · cancelada</td><td class="fecha">8 sep</td><td class="c"><span class="mk na">·</span></td><td class="c"><span class="mk na">·</span></td><td class="c"><span class="mk na">·</span></td></tr>
+          <tr><td class="ses">S6 · Juan Pablo y Lilian Paola</td><td class="fecha">10 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+
+          <tr class="area-start"><td class="area" rowspan="6">Jurídica</td><td class="ses">S1</td><td class="fecha">14 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="prox" rowspan="6"><span class="pill good">S8 · mié 16, 10:00<br>S9 · jue 17, 10:00</span></td></tr>
+          <tr><td class="ses">S2</td><td class="fecha">20 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S3 · grupal</td><td class="fecha">31 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S4 · grupal</td><td class="fecha">3 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S5 · Lilibeth</td><td class="fecha">7 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S6 · Carlos Mario</td><td class="fecha">9 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+
+          <tr class="area-start"><td class="area" rowspan="6">Contabilidad</td><td class="ses">S1</td><td class="fecha">19 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="prox" rowspan="6"><span class="pill warn">Sin agendar</span></td></tr>
+          <tr><td class="ses">S2</td><td class="fecha">26 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk no">✕</span></td></tr>
+          <tr><td class="ses">S3 · Lisbeth</td><td class="fecha">1 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S4 · Carlos</td><td class="fecha">2 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S5 · Carlos</td><td class="fecha">7 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S6 · Carlos · <strong>sin soportes</strong></td><td class="fecha">11 sep</td><td class="c"><span class="mk no">✕</span></td><td class="c"><span class="mk no">✕</span></td><td class="c"><span class="mk no">✕</span></td></tr>
+
+          <tr class="area-start"><td class="area" rowspan="6">Sub. Admin y Financiera</td><td class="ses">S1</td><td class="fecha">20 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="prox" rowspan="6"><span class="pill good">Cinco esta semana<br>lun 14 (×2) · mié 16 (×2) · vie 18</span></td></tr>
+          <tr><td class="ses">S2 · Rafael</td><td class="fecha">2 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S3 · Rafael</td><td class="fecha">7 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S4 · Liliany</td><td class="fecha">8 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S5 · Rafael</td><td class="fecha">9 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S6 · cancelada · salud de Rafael</td><td class="fecha">11 sep</td><td class="c"><span class="mk na">·</span></td><td class="c"><span class="mk na">·</span></td><td class="c"><span class="mk na">·</span></td></tr>
+
+          <tr class="area-start"><td class="area" rowspan="6">Agencia de Empleo</td><td class="ses">S1</td><td class="fecha">13 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="prox" rowspan="6"><span class="pill warn">Sin agendar</span></td></tr>
+          <tr><td class="ses">S2</td><td class="fecha">20 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S3 · presencial</td><td class="fecha">25 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S4</td><td class="fecha">3 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S5</td><td class="fecha">8 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S6 · Lina María</td><td class="fecha">10 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+
+          <tr class="area-start"><td class="area" rowspan="5">Comunicaciones</td><td class="ses">S1</td><td class="fecha">11 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="prox" rowspan="5"><span class="pill good">S6 · mar 15, 10:00<br>S7 · jue 17, 17:00 · S8 · mié 23</span></td></tr>
+          <tr><td class="ses">S2</td><td class="fecha">20 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S3</td><td class="fecha">21 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S4</td><td class="fecha">4 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk no">✕</span></td></tr>
+          <tr><td class="ses">S5 · Vidiana Bendeck</td><td class="fecha">9 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+
+          <tr class="area-start"><td class="area" rowspan="4">Mercadeo</td><td class="ses">S1</td><td class="fecha">13 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="prox" rowspan="4"><span class="pill crit">20 días · S4 el jue 17, 16:00</span></td></tr>
+          <tr><td class="ses">S2</td><td class="fecha">19 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S3 · Rina y M.ª Isabel</td><td class="fecha">25 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S3 · Manuel José</td><td class="fecha">25 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+
+          <tr class="area-start"><td class="area" rowspan="3">Educación</td><td class="ses">S1</td><td class="fecha">14 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk no">✕</span></td><td class="prox" rowspan="3"><span class="pill warn">Sin agendar</span></td></tr>
+          <tr><td class="ses">S2</td><td class="fecha">24 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S3 · Julissa</td><td class="fecha">7 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+
+          <tr class="area-start"><td class="area" rowspan="3">Subsidio</td><td class="ses">S1</td><td class="fecha">24 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="prox" rowspan="3"><span class="pill warn">Sin agendar</span></td></tr>
+          <tr><td class="ses">S2</td><td class="fecha">25 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S3</td><td class="fecha">8 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+
+          <tr class="area-start"><td class="area" rowspan="4">Vivienda</td><td class="ses">S1</td><td class="fecha">13 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="prox" rowspan="4"><span class="pill warn">Sin agendar</span></td></tr>
+          <tr><td class="ses">S3</td><td class="fecha">24 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S4</td><td class="fecha">25 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">S5 · Cindy Silva</td><td class="fecha">10 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+
+          <tr class="area-start"><td class="area" rowspan="4">Tecnología</td><td class="ses">S1</td><td class="fecha">14 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="prox" rowspan="4"><span class="pill warn">Sin agendar</span></td></tr>
+          <tr><td class="ses">S2</td><td class="fecha">25 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+          <tr><td class="ses">Cancelada por IAM · sin número</td><td class="fecha">10 sep</td><td class="c"><span class="mk na">·</span></td><td class="c"><span class="mk na">·</span></td><td class="c"><span class="mk na">·</span></td></tr>
+          <tr><td class="ses">S3 · Olga Lucía</td><td class="fecha">11 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+
+          <tr class="area-start"><td class="area" rowspan="2">IPS</td><td class="ses">S1 · Danilo</td><td class="fecha">24 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="prox" rowspan="2"><span class="pill good">S3 · mar 15, 14:00</span></td></tr>
+          <tr><td class="ses">S2 · Danilo</td><td class="fecha">9 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+
+          <tr class="area-start"><td class="area" rowspan="2">Tesorería</td><td class="ses">S1</td><td class="fecha">19 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk no">✕</span></td><td class="prox" rowspan="2"><span class="pill warn">Acordó tres · sin tomar fecha</span></td></tr>
+          <tr><td class="ses">S2 · Yohana</td><td class="fecha">9 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk no">✕</span></td></tr>
+
+          <tr class="area-start"><td class="area" rowspan="2">Talento Humano</td><td class="ses">S1</td><td class="fecha">14 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="prox" rowspan="2"><span class="pill good">S3 · mié 16, 14:00</span></td></tr>
+          <tr><td class="ses">S2</td><td class="fecha">1 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+
+          <tr class="area-start"><td class="area" rowspan="2">Planeación</td><td class="ses">S1</td><td class="fecha">18 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="prox" rowspan="2"><span class="pill warn">Sin agendar</span></td></tr>
+          <tr><td class="ses">S2</td><td class="fecha">3 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk no">✕</span></td></tr>
+
+          <tr class="area-start"><td class="area" rowspan="2">Gerencia Financiera</td><td class="ses">S1</td><td class="fecha">18 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="prox" rowspan="2"><span class="pill warn">Sin agendar</span></td></tr>
+          <tr><td class="ses">S2</td><td class="fecha">3 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+
+          <tr class="area-start"><td class="area" rowspan="2">Sub. Operativa</td><td class="ses">S1</td><td class="fecha">19 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="prox" rowspan="2"><span class="pill crit">Canceló la S3 · sin fecha</span></td></tr>
+          <tr><td class="ses">S2</td><td class="fecha">1 sep</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td></tr>
+
+          <tr class="area-start"><td class="area">Cumplimiento</td><td class="ses">S1</td><td class="fecha">26 ago</td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="c"><span class="mk si">✓</span></td><td class="prox"><span class="pill warn">S2 · vie 18, 9:00<br>al correo de quien salió</span></td></tr>
+
+          <tr class="area-start"><td class="area">Crédito</td><td class="ses">—</td><td class="fecha">—</td><td class="c"><span class="mk na">·</span></td><td class="c"><span class="mk na">·</span></td><td class="c"><span class="mk na">·</span></td><td class="prox"><span class="pill">Fuera de medición · 11 sep</span></td></tr>
+
+          <tr class="area-start"><td class="area">Auditoría Interna</td><td class="ses">—</td><td class="fecha">—</td><td class="c"><span class="mk na">·</span></td><td class="c"><span class="mk na">·</span></td><td class="c"><span class="mk na">·</span></td><td class="prox"><span class="pill">Fuera de medición · 11 sep</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="note plain">
+      <strong>Las dos últimas filas ya no cuentan para ningún indicador.</strong> Crédito y Auditoría Interna quedan a la vista como registro de lo que hubo hasta el 11 de septiembre, no como áreas medidas.
+      <br><br>
+      <strong>La tabla lista 64 sesiones ejecutadas y el total dice 66.</strong> La diferencia siguen siendo dos filas que no he reconstruido con fecha y soportes; una es <strong>Vivienda S2</strong>, que se ve en el salto de la S1 a la S3, y de la que en Dropbox solo hay la grabación. Prefiero dejar la diferencia a la vista antes que cuadrarla a ojo.
+    </div>
+    <p class="legend">
+      <span class="k"><span class="mk si">✓</span> soporte existe</span>
+      <span class="k"><span class="mk no">✕</span> falta</span>
+      <span class="k"><span class="mk na">·</span> aún no aplica</span>
+    </p>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h3>Tu alerta</h3>
+      <h2>Mercadeo y Contabilidad, por razones distintas</h2>
+    </div>
+    <p>Con diez áreas tomando fecha durante el fin de semana, la lista de las paradas se acorta y cambia de razones:</p>
+    <ul class="faltan">
+      <li><strong>Mercadeo, 20 días.</strong> Sigue siendo la más parada de todas las que tienen gente activa. Su última sesión real fueron las tres individuales del 25 de agosto. Su próxima es el <strong>jueves 17 a las 4:00</strong>, y serán 23 días entre una sesión y la siguiente.</li>
+      <li><strong>Contabilidad, y es la nueva.</strong> Hizo su S6 el viernes, no dejó ningún soporte, y no tomó la siguiente. Es de las áreas más constantes del programa, seis sesiones en veintitrés días, y es la única que quedó a la vez <strong>sin documentos y sin fecha</strong>.</li>
+      <li><strong>Sub. Operativa y Comercial — 9 días.</strong> Canceló la S3 del miércoles sin dejar fecha nueva. Pero dos personas del área contestaron la encuesta esa misma tarde, con utilidad 8 y 10 y ahorro ya percibido, pidiendo herramientas pagas. <strong>No está desconectada, está frenada.</strong></li>
+      <li><strong>Comunicaciones ya no está en esta lista.</strong> Tiene tres sesiones tomadas: la S6 el martes con el equipo, y dos individuales de Vidiana el jueves 17 y el miércoles 23. Es la que más se movió el fin de semana.</li>
+    </ul>
+    <div class="note">
+      <strong>La lista se corrigió tres veces en un solo día, y al final son dos.</strong> Salieron <strong>Comunicaciones</strong>, porque su sesión sí se hizo, y <strong>Tecnología</strong>, porque su S3 la canceló IAM. A las 2:15 metí <strong>Contabilidad</strong> y a las 2:35 salió también, porque Carlos llegó tarde y la sesión se hizo.
+      <br><br>
+      Quedan <strong>Servicios Sociales el 3 de septiembre y Mercadeo el 9</strong>. <strong>Dos casos no sostienen la palabra «patrón», así que no la uso.</strong> Tres veces en un día es demasiada corrección sobre la misma lista, y la lección es de método: <strong>un espacio no está vencido hasta que pasa la hora completa</strong>, no a los quince minutos.
+      <br><br>
+      La encuesta apunta a una causa concreta, y es la única petición del programa que se arregla sin comprar nada: <strong>«tener en cuenta el horario laboral para cuadrar las horas de agenda»</strong>. Vale revisar las franjas de Calendly contra la jornada real de Comfacesar antes de seguir insistiendo por canal.
+    </div>
+    <div class="note">
+      <strong>María Elvira escaló ella misma, el lunes por la noche.</strong> Escribió en los tres canales, sin que nadie se lo pidiera. En <code>#auditoria-interna</code>, a las 6:36: «notificarme el inconveniente para atender las sesiones del entrenamiento <strong>o debo retirarlos del proyecto</strong>». En <code>#credito</code>, a las 6:41: «evaluar si <strong>retiramos el área de crédito</strong> del mismo». Y en <code>#tesoreriaa</code>, a las 8:20, pidiéndoles a Beatriz y a Yohana hablar en interno.
+      <br><br>
+      El tablero venía diciendo que ahí tocaba llamada y no un cuarto mensaje. <strong>La hizo la propia patrocinadora</strong>, y en público. Desde IAM no se respondió en ninguno de los tres: retirar un área es alcance de contrato, y si Comfacesar lo está resolviendo en interno, un mensaje encima estorba.
+    </div>
+    <div class="note plain">
+      <strong>Corrección · el acta de Tesorería S1 sí está en el canal.</strong> Este tablero venía diciendo que estaba en Dropbox y nunca había llegado a Slack. Es falso: se publicó el <strong>25 de agosto a las 8:01 a. m.</strong>, con el mensaje «Envio acta sesion 1». El archivo va adjunto en el mensaje anterior, cinco segundos antes, y por eso al revisar rápido parece un mensaje vacío. Es un solo documento, el mismo en Dropbox y en el canal. Con esto los documentos abiertos bajan de cinco a cuatro, y los cuatro son informes de asistencia.
+    </div>
+    <div class="note plain">
+      <strong>Y el mensaje de Tesorería apunta justo a donde este tablero señalaba:</strong> Beatriz Portela es la única persona del programa que no ha entrado a ninguna sesión, y Tesorería es la única área por debajo del 70% de asistencia.
+    </div>
+    <div class="note">
+      <strong>Cumplimiento se salió de la lista de agendadas.</strong> Saharay pidió mover la S2 del miércoles y se le respondió que cuenta como cancelada; todavía no ha tomado fecha nueva. Vale seguirla de cerca: es el área más nueva del programa.
+    </div>
+    <div class="note plain">
+      <strong>Y hay un segundo grupo que no está en esa lista pero conviene mirar:</strong> Gerencia Financiera, Agencia de Empleo, Talento Humano, Sub. Operativa, Contabilidad y ahora Planeación tuvieron sesión hace poco y quedaron sin próxima fecha. No están paradas, pero nadie ha tomado la siguiente. Planeación es la más urgente de las seis: el acta le pone como riesgo crítico haber estado dieciséis días sin agendar.
+    </div>
+    <p><strong>Cinco documentos antiguos abiertos, y ninguno frena una sesión.</strong> Corrijo el conteo: este tablero decía cuatro y la lista de abajo siempre tuvo cinco. Los cinco son lo mismo, el informe de asistencia de Teams que no se descargó. No cambian ningún indicador, porque la asistencia de esas sesiones se calculó del acta. Importan para el cierre de octubre, cuando el expediente se entrega completo:</p>
+    <ul class="faltan">
+      <li><strong>Comunicaciones S4</strong> — acta y grabación publicadas, falta el informe de asistencia. El 100% salió del acta. <code>#comunicaciones</code></li>
+      <li><strong>Planeación S2</strong> — el acta está en Dropbox pero no se subió al canal, y no hay informe de asistencia. <code>#planeacion</code></li>
+      <li><strong>Tesorería S1</strong> — falta el informe de asistencia. <code>#tesoreriaa</code></li>
+      <li><strong>Contabilidad S2</strong> — falta el informe de asistencia. <code>#contabilidad</code></li>
+      <li><strong>Educación S1</strong> — falta el informe de asistencia. <code>#educacion</code></li>
+    </ul>
+    <div class="note plain">
+      <strong>Y los soportes recientes, que todavía no cuentan como faltantes.</strong> Las cuatro del miércoles ya tienen su acta en PDF en Dropbox; les falta solo el <strong>informe de asistencia</strong>. Las tres del jueves, Vivienda S5, Agencia de Empleo S6 y Servicios Sociales S6, tienen grabación y acta en el canal, y su PDF todavía no está en Dropbox, que es lo normal a menos de un día.
+      <br><br>
+      El patrón ya está claro y conviene usarlo: <strong>el acta llega al canal el mismo día y el PDF a Dropbox a la mañana siguiente.</strong> Nada se declara faltante antes de ese plazo.
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h3>Calculado sobre informes de Teams y actas</h3>
+      <h2>El porcentaje de asistencia</h2>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>91%</b><span>Asistencia acumulada</span></div>
+      <div class="stat"><b>61</b><span>Sesiones medidas</span></div>
+      <div class="stat"><b>138/151</b><span>Asistencias sobre convocados</span></div>
+      <div class="stat"><b class="alert">1</b><span>Área bajo el 70%</span></div>
+    </div>
+
+    <p><strong>Ahora sí está completo.</strong> Se leyeron las 36 actas que hay en Dropbox, una por una — antes solo se habían leído 18 y el resto quedaba fuera del cálculo. Las cinco sesiones más recientes se midieron sobre el informe de asistencia de Teams, contando personas reales y descartando duplicados por reconexión; las demás, sobre convocados y participantes activos del acta. Sandra queda fuera de ambos lados de la cuenta.</p>
+    <div class="note">
+      <strong>Entran cinco sesiones más y el acumulado no se mueve: sigue en 91%.</strong> Las cinco salieron completas, <strong>6 de 6 personas</strong>. Comunicaciones S5 con Vidiana, Vivienda S5 con Cindy Silva, Agencia de Empleo S6 con Lina María, Tecnología S3 con Olga Lucía, y Servicios Sociales S6 con Juan Pablo y Lilian Paola. La cobertura sube de 56 a <strong>61 sesiones medidas sobre 66</strong>.
+      <br><br>
+      <strong>Las cinco se midieron sobre el informe de Teams</strong>, contando personas reales. En Vivienda, Cindy Silva aparece dos veces por reconexión y cuenta como una. En Agencia de Empleo aparece un tercer participante que <strong>no es una persona: es un robot de transcripción</strong>, ver abajo.
+    </div>
+    <div class="note plain">
+      <strong>Hay un transcriptor externo sentado en las sesiones de Agencia de Empleo.</strong> El informe de Teams del 10 de septiembre registra un «Fireflies.ai Notetaker» que entró a las 10:01 y salió a las 11:08, quince minutos después que todos los demás. No es del programa y no lo puso IAM. <strong>Es un tercero grabando una sesión de trabajo de la Caja</strong>, y por eso queda dicho aquí, no como falla de nadie sino como dato que alguien tiene que mirar.
+    </div>
+    <div class="note">
+      <strong>Corrección · ayer dije que estas cuatro actas no estaban en Dropbox, y sí estaban.</strong> Busqué filtrando por <code>.docx</code> y <strong>las actas del 9 de septiembre se subieron en PDF</strong>, a las 7:16 de la mañana del jueves, catorce minutos antes de mi corte. El filtro me las escondió y concluí que la asistencia no se podía recalcular. Sí se podía.
+      <br><br>
+      <strong>Ya están leídas las cuatro.</strong> Jurídica S6 con Carlos Mario, Sub. Financiera S5 con Rafael, IPS S2 con Danilo y Tesorería S2 con Yohana: las cuatro individuales, <strong>4 convocados y 4 activos</strong>. El acumulado se mantiene en 91% y la cobertura sube de 52 a 56 sesiones medidas.
+    </div>
+    <div class="note">
+      <strong>Tesorería sube de 50% a 67%</strong> con su S2. Sigue siendo la única área bajo el 70%, pero por primera vez se mueve. Su S1 fue 1 de 2 y la S2 fue 1 de 1.
+      <br><br>
+      <strong>Y queda un punto por verificar del acta de Tesorería:</strong> registra que «una integrante del equipo no logró entrar a la sesión», pero esa persona no figura en la tabla de convocados. Si debía estar convocada, la S2 no es 100% sino 50%. Queda señalado para resolverlo con el acta de la S3.
+    </div>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Área</th><th>Sesión medida</th><th class="c">Convocados</th><th class="c">Asistieron</th><th class="c">%</th></tr></thead>
+        <tbody>
+          <tr><td class="area">Comunicaciones</td><td class="ses">S3 · 21 ago</td><td class="c">6</td><td class="c">3</td><td class="c"><span class="pill crit">50%</span></td></tr>
+          <tr><td class="area">Servicios Sociales</td><td class="ses">S2 y S3</td><td class="c">4</td><td class="c">2</td><td class="c"><span class="pill crit">50%</span></td></tr>
+          <tr><td class="area">Tesorería</td><td class="ses">S1 · 19 ago</td><td class="c">2</td><td class="c">1</td><td class="c"><span class="pill crit">50%</span></td></tr>
+          <tr><td class="area">Contabilidad</td><td class="ses">S2 · 26 ago</td><td class="c">6</td><td class="c">4</td><td class="c"><span class="pill warn">67%</span></td></tr>
+          <tr><td class="area">Sub. Admin y Financiera</td><td class="ses">S1 · 20 ago</td><td class="c">4</td><td class="c">3</td><td class="c"><span class="pill warn">75%</span></td></tr>
+          <tr><td class="area">Jurídica</td><td class="ses">S3 · 31 ago <strong>nuevo</strong></td><td class="c">3</td><td class="c">3</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Servicios Sociales</td><td class="ses">S5 · 31 ago <strong>nuevo</strong></td><td class="c">2</td><td class="c">2</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Talento Humano</td><td class="ses">S2 · 1 sep <strong>nuevo</strong></td><td class="c">3</td><td class="c">3</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Contabilidad</td><td class="ses">S3 · 1 sep <strong>nuevo</strong></td><td class="c">1</td><td class="c">1</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Sub. Operativa</td><td class="ses">S3 · 1 sep <strong>nuevo</strong></td><td class="c">3</td><td class="c">3</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Planeación</td><td class="ses">S1 · 18 ago</td><td class="c">6</td><td class="c">6</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Jurídica</td><td class="ses">S2 · 20 ago</td><td class="c">3</td><td class="c">3</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Mercadeo</td><td class="ses">S2 · 19 ago</td><td class="c">3</td><td class="c">3</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Gerencia Financiera</td><td class="ses">S1 · 18 ago</td><td class="c">3</td><td class="c">3</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Talento Humano</td><td class="ses">S1 · 14 ago</td><td class="c">3</td><td class="c">3</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Subsidio</td><td class="ses">S1 · 24 ago</td><td class="c">3</td><td class="c">3</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Agencia de Empleo</td><td class="ses">S1 · 20 ago</td><td class="c">2</td><td class="c">2</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Educación</td><td class="ses">S2 · 24 ago</td><td class="c">2</td><td class="c">2</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Contabilidad</td><td class="ses">S1 · 19 ago</td><td class="c">2</td><td class="c">2</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Cumplimiento</td><td class="ses">S1 · 26 ago</td><td class="c">1</td><td class="c">1</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Sub. Operativa</td><td class="ses">S1 · 19 ago</td><td class="c">2</td><td class="c">2</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Vivienda</td><td class="ses">S3 · 24 ago</td><td class="c">2</td><td class="c">2</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">IPS</td><td class="ses">S1 · 24 ago</td><td class="c">2</td><td class="c">2</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Tecnología</td><td class="ses">S1 · 14 ago</td><td class="c">1</td><td class="c">1</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Comunicaciones</td><td class="ses">S1 · 11 ago <strong>nuevo</strong></td><td class="c">7</td><td class="c">7</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Comunicaciones</td><td class="ses">S2 · 20 ago <strong>nuevo</strong></td><td class="c">8</td><td class="c">6</td><td class="c"><span class="pill warn">75%</span></td></tr>
+          <tr><td class="area">Jurídica</td><td class="ses">S1 · 14 ago <strong>nuevo</strong></td><td class="c">3</td><td class="c">3</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Educación</td><td class="ses">S1 · 14 ago <strong>nuevo</strong></td><td class="c">2</td><td class="c">2</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Vivienda</td><td class="ses">S1 · 13 ago <strong>nuevo</strong></td><td class="c">2</td><td class="c">2</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Vivienda</td><td class="ses">S4 · 25 ago <strong>nuevo</strong></td><td class="c">2</td><td class="c">2</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Servicios Sociales</td><td class="ses">S1 · 18 ago <strong>nuevo</strong></td><td class="c">3</td><td class="c">3</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Mercadeo</td><td class="ses">S1 · 13 ago <strong>nuevo</strong></td><td class="c">3</td><td class="c">3</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Mercadeo</td><td class="ses">S3 · Rina y M.ª Isabel <strong>nuevo</strong></td><td class="c">2</td><td class="c">2</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Mercadeo</td><td class="ses">S3 · Manuel José <strong>nuevo</strong></td><td class="c">1</td><td class="c">1</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Agencia de Empleo</td><td class="ses">S2 · 20 ago <strong>nuevo</strong></td><td class="c">2</td><td class="c">2</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Agencia de Empleo</td><td class="ses">S3 · 25 ago <strong>nuevo</strong></td><td class="c">2</td><td class="c">2</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Subsidio</td><td class="ses">S2 · 25 ago <strong>nuevo</strong></td><td class="c">3</td><td class="c">2</td><td class="c"><span class="pill warn">67%</span></td></tr>
+          <tr><td class="area">Contabilidad</td><td class="ses">S4 · Carlos · 2 sep <strong>nuevo</strong></td><td class="c">1</td><td class="c">1</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Sub. Admin y Financiera</td><td class="ses">S2 · Rafael · 2 sep <strong>nuevo</strong></td><td class="c">1</td><td class="c">1</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Gerencia Financiera</td><td class="ses">S2 · 3 sep <strong>nuevo</strong></td><td class="c">4</td><td class="c">4</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Agencia de Empleo</td><td class="ses">S4 · 3 sep <strong>nuevo</strong></td><td class="c">2</td><td class="c">2</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Jurídica</td><td class="ses">S4 · 3 sep</td><td class="c">3</td><td class="c">3</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Planeación</td><td class="ses">S2 · 3 sep</td><td class="c">5</td><td class="c">5</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Comunicaciones</td><td class="ses">S4 · 4 sep</td><td class="c">6</td><td class="c">6</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Jurídica</td><td class="ses">S5 · Lilibeth · 7 sep <strong>nuevo</strong></td><td class="c">1</td><td class="c">1</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Sub. Admin y Financiera</td><td class="ses">S3 · Rafael · 7 sep <strong>nuevo</strong></td><td class="c">1</td><td class="c">1</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Contabilidad</td><td class="ses">S5 · Carlos · 7 sep <strong>nuevo</strong></td><td class="c">1</td><td class="c">1</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Educación</td><td class="ses">S3 · 7 sep</td><td class="c">2</td><td class="c">1</td><td class="c"><span class="pill crit">50%</span></td></tr>
+          <tr><td class="area">Subsidio</td><td class="ses">S3 · 8 sep <strong>nuevo</strong></td><td class="c">2</td><td class="c">2</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Agencia de Empleo</td><td class="ses">S5 · 8 sep <strong>nuevo</strong></td><td class="c">2</td><td class="c">2</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Sub. Admin y Financiera</td><td class="ses">S4 · Liliany · 8 sep</td><td class="c">1</td><td class="c">1</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Comunicaciones</td><td class="ses">S5 · Vidiana · 9 sep <strong>nuevo</strong></td><td class="c">1</td><td class="c">1</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Vivienda</td><td class="ses">S5 · Cindy Silva · 10 sep <strong>nuevo</strong></td><td class="c">1</td><td class="c">1</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Agencia de Empleo</td><td class="ses">S6 · Lina María · 10 sep <strong>nuevo</strong></td><td class="c">1</td><td class="c">1</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Servicios Sociales</td><td class="ses">S6 · Juan Pablo y Lilian Paola · 10 sep <strong>nuevo</strong></td><td class="c">2</td><td class="c">2</td><td class="c"><span class="pill good">100%</span></td></tr>
+          <tr><td class="area">Tecnología</td><td class="ses">S3 · Olga Lucía · 11 sep <strong>nuevo</strong></td><td class="c">1</td><td class="c">1</td><td class="c"><span class="pill good">100%</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="note">
+      <strong>Las ausencias que sostienen el 13% que falta — ahora son dos, no tres.</strong>
+      <br><br>
+      • <strong>Beatriz Elena</strong> (Tesorería) — sigue sin entrar a ninguna sesión. El área depende de una sola persona, Yohana, en el proceso más manual del programa.<br>
+      • <strong>Jorge Juan</strong> (Infraestructura, en Sub. Admin y Financiera) — estuvo conectado pero nunca activó cámara ni audio. El acta lo cuenta como no efectivo y pide recuperación.<br>
+      • <s>Lilian Paola Ramos</s> — <strong>resuelto</strong>: asistió completa a la S5 del 31 de agosto.
+      <br><br>
+      En Comunicaciones la brecha es distinta: César Reyes estaba de vacaciones y Lucy no se verificó. Es el área con más convocados y la que más gente pierde por sesión.
+    </div>
+
+    <div class="note">
+      <strong>Sigue pendiente corregir el acta de Contabilidad S2.</strong> Dice «Carlos Lozano y Lisbeth Cuadrado · asistencia completa», pero la sesión del 26 fue con el equipo de asistentes —seis convocados— y entraron cuatro. Lisbeth no estuvo, y no tenía por qué: su individual era la de ayer. Esa sesión es <strong>67%</strong>, no 100%.
+    </div>
+
+    <div class="note plain">
+      <strong>Cobertura del cálculo: 61 sesiones medidas sobre las 66 verificadas.</strong> Las cinco que faltan son <strong>Contabilidad S6</strong>, que no dejó ningún soporte, y cuatro anteriores sin acta leída, entre ellas Tecnología S2 y Vivienda S2. El porcentaje se calcula solo sobre lo medido, nunca estimando lo que falta.
+    </div>
+
+    <div class="note">
+      <strong>Y un dato que el tablero no estaba usando: las actas ya traen medidas de productividad.</strong> Al leerlas completas aparecieron cinco mediciones reales, verificadas en sesión con el propio equipo:
+      <br><br>
+      • <strong>Agencia de Empleo</strong> — filtrar candidatos de una vacante: de <strong>2 a 3 horas a 15–20 minutos</strong> (85–90%).<br>
+      • <strong>Vivienda</strong> — analizar un informe de interventoría: de <strong>4 horas a 30 minutos</strong> (87%). Son 37 horas al mes sobre 11 proyectos.<br>
+      • <strong>Mercadeo</strong> — tablero de 710 leads de turismo: de <strong>1 hora a 15 minutos</strong> (75%).<br>
+      • <strong>Subsidio</strong> — reporte de tipo de aportante: de <strong>30 a 10 minutos</strong> (67%).<br>
+      • <strong>Jurídica</strong> — análisis de requisitos legales de un contrato: de <strong>30–60 minutos a 3–5 minutos</strong>.
+      <br><br>
+      Son los números que sostienen el caso del programa ante María Elvira el martes.
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h3>Lo que viene</h3>
+      <h2>Quince sesiones esta semana, y cinco son de la misma área</h2>
+    </div>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Día</th><th>Hora</th><th>Área</th><th>Sesión</th></tr></thead>
+        <tbody>
+          <tr class="area-start"><td class="area" rowspan="3">Hoy · lun 14</td><td class="fecha">10:00</td><td class="area">Reunión Director Comfacesar</td><td class="ses">dos horas · <strong>no es sesión de área</strong></td></tr>
+          <tr><td class="fecha">15:00</td><td class="area">Sub. Admin y Financiera</td><td class="ses">S7 · Liliany</td></tr>
+          <tr><td class="fecha">16:00</td><td class="area">Sub. Admin y Financiera</td><td class="ses">S6 · Rafael · <strong>la reprogramada del viernes</strong></td></tr>
+
+          <tr class="area-start"><td class="area" rowspan="3">Mar 15</td><td class="fecha">10:00</td><td class="area">Comunicaciones</td><td class="ses">S6 · cinco correos convocados</td></tr>
+          <tr><td class="fecha">14:00</td><td class="area">IPS</td><td class="ses">S3 · el equipo de SST</td></tr>
+          <tr><td class="fecha">15:00</td><td class="area">Servicios Sociales</td><td class="ses">S7</td></tr>
+
+          <tr class="area-start"><td class="area" rowspan="5">Mié 16</td><td class="fecha">8:30</td><td class="area">Sub. Admin y Financiera</td><td class="ses">el título dice S8</td></tr>
+          <tr><td class="fecha">10:00</td><td class="area">Jurídica</td><td class="ses">S8 · tres correos</td></tr>
+          <tr><td class="fecha">14:00</td><td class="area">Talento Humano</td><td class="ses">S3 · tres correos</td></tr>
+          <tr><td class="fecha">15:00</td><td class="area">Sub. Admin y Financiera</td><td class="ses">S8 · Liliany · <strong>el segundo S8 del día</strong></td></tr>
+          <tr><td class="fecha">16:00</td><td class="area">Servicios Sociales</td><td class="ses">S8</td></tr>
+
+          <tr class="area-start"><td class="area" rowspan="3">Jue 17</td><td class="fecha">10:00</td><td class="area">Jurídica</td><td class="ses">S9</td></tr>
+          <tr><td class="fecha">16:00</td><td class="area">Mercadeo</td><td class="ses">individual con Manuel · <strong>sin número en el título</strong></td></tr>
+          <tr><td class="fecha">17:00</td><td class="area">Comunicaciones</td><td class="ses">S7 · Vidiana · <strong>arranca a las 5</strong></td></tr>
+
+          <tr class="area-start"><td class="area" rowspan="2">Vie 18</td><td class="fecha">9:00</td><td class="area">Cumplimiento</td><td class="ses">S2 · <strong>al correo de quien salió del programa</strong></td></tr>
+          <tr><td class="fecha">11:00</td><td class="area">Sub. Admin y Financiera</td><td class="ses">S9 · Liliany</td></tr>
+
+          <tr class="area-start"><td class="area">Mié 23</td><td class="fecha">17:00</td><td class="area">Comunicaciones</td><td class="ses">individual de Vidiana · <strong>lo único de la semana siguiente</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="note">
+      <strong>La fecha de cierre es el 30 de octubre.</strong> Quedan <strong>seis semanas y media</strong>, y por primera vez la agenda no es el problema de esta semana: hay quince sesiones tomadas. El problema es que <strong>después del viernes 18 solo hay una</strong>.
+    </div>
+    <div class="note">
+      <strong>Cinco de las quince son de la misma área.</strong> Sub. Administrativa y Financiera tiene hoy dos, el miércoles dos y el viernes una, alternando Rafael y Liliany. Es <strong>un tercio de la agenda de la semana en un área sola</strong>, y el resto del programa se reparte las diez restantes.
+    </div>
+    <div class="note">
+      <strong>La reprogramación de Comunicaciones no se hizo, y ya no hace falta.</strong> José Manuel pidió mover la del 15 al 16 a las 4:30. <strong>El evento sigue el martes 15 a las 10:00</strong>, tal como estaba. Lo que sí pasó es que el área tomó <strong>dos sesiones individuales más</strong> por su cuenta, el jueves 17 a las 5:00 p. m. y el miércoles 23 a la misma hora, las dos con Vidiana. Es coherente con lo que quedó en acta el viernes: el área pasa de grupales a individuales.
+      <br><br>
+      <strong>Las dos arrancan a las 5:00 p. m.</strong>, que es el borde de la jornada. Si la idea es que terminen a las seis, vale confirmarlo con ellos antes que descubrirlo el jueves.
+    </div>
+    <div class="note plain">
+      <strong>Las cancelaciones no entran a ningún indicador</strong>, según la regla vigente: se evidencian y ahí quedan. Ni la de Sub. Operativa, ni la de Tecnología, ni la de Rafael del viernes mueven las 66 sesiones ni el 91%.
+    </div>
+    <div class="note">
+      <strong>Diez de las dieciocho áreas siguen sin nada agendado:</strong> Contabilidad, Agencia de Empleo, Educación, Subsidio, Vivienda, Tecnología, Tesorería, Planeación, Gerencia Financiera y Sub. Operativa. Eran catorce el viernes. <strong>Contabilidad es la que más pesa de esa lista</strong>: acaba de hacer su S6, es de las más constantes del programa, y no tomó la siguiente.
+    </div>
+    <div class="note">
+      <strong>Y la numeración de Sub. Administrativa se rompió al tomar cinco sesiones de golpe.</strong> El área comparte una sola serie que corre por fecha. Tal como está agendada: hoy la <strong>S7 a las 3:00 y la S6 a las 4:00</strong>, la S6 después de la S7; y el miércoles <strong>dos eventos titulados S8</strong>, uno a las 8:30 con el correo del área y otro a las 3:00 con Liliany.
+      <br><br>
+      <strong>Por fecha la serie real es:</strong> S6 hoy 4:00 (Rafael), S7 hoy 3:00 (Liliany), y el miércoles S8 y S9, y el viernes la S10. <strong>No lo toco yo</strong>, porque renumerar eventos ya confirmados le cambia el correo a cuatro personas. Pero en octubre esto se lee como sesiones repetidas y sesiones que faltan.
+      <br><br>
+      <strong>Liliany sigue invitada con un correo personal</strong>, no con el de Comfacesar, y por eso sus sesiones no cruzan con el canal del área.
+    </div>
+    <div class="note plain">
+      <strong>Hoy a las 10:00 hay reunión con el director de Comfacesar</strong>, dos horas, en la agenda de Sandra y sin invitados. No es una sesión del programa y no entra a ningún indicador, pero es el espacio donde caben los números de este tablero: el 91% de asistencia, las 66 sesiones, las cinco áreas que piden licencias por escrito y el reporte de 960 minutos a 25 de Jurídica.
+    </div>
+    <div class="note">
+      <strong>Los eventos no llevan el nombre del área.</strong> Calendly los nombra con el de quien reserva. Buscar por área en el calendario devuelve vacío, por eso este barrido se hace sobre toda la ventana y se clasifica por persona.
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h3>Lo del miércoles</h3>
+      <h2>Van cuatro agentes construidos por el cliente</h2>
+    </div>
+    <div class="note">
+      <strong>Tercero y cuarto en el mismo día.</strong> <em>Ronaldo</em>, en Sub. Administrativa y Financiera, resolvió el bloqueo de los adjuntos del correo: una regla que los guarda en Drive cada hora, con 4 PDF guardados en la primera prueba. Y <em>María</em>, en Jurídica, quedó montado en <strong>menos de 20 minutos</strong> porque el proceso ya estaba escrito. Van cuatro con Lilia y Sofía.
+      <br><br>
+      <strong>Escribir el proceso primero es lo que hace la diferencia</strong>, y ahí está el dato que vale para el cierre: el cuarto agente tardó veinte minutos porque el área ya tenía el método documentado de sesiones anteriores.
+    </div>
+    <div class="note">
+      <strong>IPS aporta la primera cifra dura del área: 2 meses de trabajo en 5 minutos</strong>, todavía por validar contra una matriz hecha a mano. Es el mismo criterio que se usó en Sub. Financiera y en Agencia de Empleo, y en los dos casos la validación encontró diferencias. Hasta que no se compare, es una cifra en revisión.
+    </div>
+    <div class="note plain">
+      <strong>Tesorería trajo un bloqueo que no es de método, es de insumo.</strong> Los CDT del área son títulos físicos y los escaneos no traen capa de texto, así que no hay sistema que los lea. Se probó con el escáner de la oficina y con fotos del teléfono, y en los dos casos la respuesta fue la misma. <strong>Digitalizar el archivo de títulos pasa a ser la primera tarea del área</strong>, por encima de cualquier automatización, y sirve más allá de este ejercicio: hoy cada consulta obliga a ir al papel.
+    </div>
+    <div class="sec-head" style="margin-top:1.6rem">
+      <h3>Lo del martes</h3>
+      <h2>En dos días el cliente montó dos agentes</h2>
+    </div>
+    <div class="note">
+      <strong>Agencia de Empleo construyó el segundo agente del programa y lo probó en vivo.</strong> Se llama <strong>Sofía</strong>, revisa el correo corporativo tres veces al día, identifica los mensajes de invitación y los reenvía al destinatario que corresponde. Se instaló, se construyó y se probó con un correo real dentro de la misma hora, y José Jaime confirmó la llegada compartiendo pantalla.
+      <br><br>
+      El lunes fue Lilia en Jurídica, el martes Sofía en Agencia de Empleo. <strong>Dos áreas de Comfacesar con agente propio en cuarenta y ocho horas.</strong>
+    </div>
+    <div class="note">
+      <strong>Y tres mediciones nuevas, todas sobre procesos reales del área.</strong>
+      <br><br>
+      <strong>Sub. Administrativa, 120 → 10 minutos.</strong> La revisión de una solicitud de contrato contra su propuesta. Se corrió sobre un expediente que Liliany <strong>ya había revisado a mano</strong>, y encontró cuatro hallazgos que la revisión manual no había marcado, entre ellos una forma de pago que se contradice dentro del mismo documento.
+      <br><br>
+      <strong>Subsidio y Aportes, 120 → 10 minutos.</strong> El cruce con la Registraduría, que hoy se filtra causal por causal a mano.
+      <br><br>
+      <strong>Agencia de Empleo, de días a 20 minutos.</strong> El consolidado de recobros, que se arma sobre decenas de archivos de Excel. <strong>Está en validación y ese es el dato importante:</strong> al cruzarlo contra el mes hecho a mano aparecieron diferencias en los dos sentidos, así que la pregunta ya no es si la herramienta sirve, sino cuál de los dos archivos está bien.
+    </div>
+    <div class="note plain">
+      <strong>El riesgo más serio del día no es de herramienta.</strong> En Agencia de Empleo, por una sola dirección de correo entran derechos de petición, acuerdos de pago y quejas, y quien la atiende está a la vez armando el consolidado a mano. Quedó dicho en sesión: <strong>un derecho de petición puede quedarse tres días sin ver</strong>, y son términos de ley. Es exactamente lo que el agente ya probado resuelve.
+    </div>
+    <div class="note plain">
+      <strong>Subsidio deja las sesiones grupales y pasa a individuales.</strong> Lo pidió el área: en grupal el ritmo lo marca quien menos puede, y el cierre de octubre es por área. Es la misma conclusión a la que llegó Comunicaciones la semana pasada.
+      <br><br>
+      <strong>Ojo con el acta de Subsidio S3:</strong> la tabla de participantes lista dos personas, Avelino y Carlos, pero el cuerpo habla de «los tres asistentes» en la sala y asigna tareas a «los tres puestos». <strong>La asistencia se contó sobre los dos de la tabla.</strong> Si fueron tres, el acta hay que corregirla y el porcentaje cambia.
+    </div>
+    <div class="sec-head" style="margin-top:1.6rem">
+      <h3>Lo del lunes</h3>
+      <h2>Jurídica montó el primer agente del programa</h2>
+    </div>
+    <div class="note">
+      <strong>Lilibeth construyó un agente y le puso nombre: Lilia.</strong> Vigila los canales de Slack del área y entrega un corte al mediodía con lo pendiente y lo vencido. <strong>Es el primero que construye un área de Comfacesar</strong>, y conviene decirlo con esas palabras: no es una demostración de la mentoría, es un agente que un área montó para su propio trabajo. Quedó apagado hasta terminar de armar los canales, para no gastar créditos sobre un espacio a medias.
+      <br><br>
+      Jurídica es además la <strong>segunda área en completar el recorrido completo</strong>: proyectos, artefactos, habilidades, diseño y agentes. Y migró a su equipo de WhatsApp a un espacio de trabajo propio en Slack, cuatro personas que hasta el viernes coordinaban por chat personal.
+    </div>
+    <div class="note">
+      <strong>Y salió un número más fuerte que el de la semana pasada.</strong> La prevalidación precontractual de Rafael, en Sub. Administrativa y Financiera, pasó de <strong>480 minutos a 15</strong>. Son <strong>465 minutos recuperados todos los días</strong>, porque el proceso es diario. El de Jurídica —960 minutos a 25— es por reporte; este es por jornada. <strong>Para el reporte de hoy, es el dato que más pesa.</strong>
+      <br><br>
+      Carlos, en Contabilidad, cerró el reporte mensual de anticipos: de <strong>240 minutos a 10</strong>, y lo dejó empaquetado en el primer comando del área. Llegó además con el bloqueo de la sesión anterior resuelto por su cuenta.
+    </div>
+    <div class="note plain">
+      <strong>El bloqueo de TI ya no es de un área, es del programa.</strong> En la sesión de Rafael aparecieron tres en una sola hora: contraseña de administrador para instalar, acceso bloqueado a Documentos, OneDrive y las unidades de digitalización, y captura de pantalla deshabilitada. Media sesión se fue en rodear eso.
+      <br><br>
+      <strong>Se precisa lo que el tablero decía antes:</strong> no es una restricción general de Comfacesar, porque ese mismo día Lilibeth completó la misma instalación sin problema. Es <strong>por puesto</strong>, y ya afecta a Jurídica, Planeación, Gerencia Financiera y Sub. Administrativa. Sin resolverlo, esas áreas no pasan de proyectos a agentes.
+    </div>
+    <div class="note plain">
+      <strong>Educación es la alerta del lunes.</strong> Segunda sesión consecutiva con una sola de las dos personas del área, después de que la del 31 de agosto se cayera por la misma razón. En un equipo de dos, la mitad lleva tres semanas sin sesión y todo lo aprendido está en un solo puesto. El cierre de octubre es por área, no por persona.
+    </div>
+    <div class="sec-head" style="margin-top:1.6rem">
+      <h3>Desde el corte del viernes</h3>
+      <h2>Comunicaciones volvió con seis personas</h2>
+    </div>
+    <div class="note">
+      <strong>Es la asistencia más alta que ha tenido cualquier área del programa.</strong> María Elvira, Vidiana, Sandra Patricia, José Manuel, César y Julio — los seis. Y el área venía siendo de las más atrasadas justamente por eso: coordinar a seis personas para una grupal es lo que la había frenado catorce días. <strong>De aquí en adelante pasan a sesiones individuales.</strong>
+      <br><br>
+      Se construyó en vivo la pieza completa de la feria de empleo del 10 de septiembre — post, historia, animación de quince segundos y un mapa interactivo del Cesar con la población con discapacidad por municipio. Todo desde la carpeta de marca, sin subir un solo archivo.
+    </div>
+    <div class="note">
+      <strong>El número más fuerte que ha dado el programa salió en esa sesión:</strong> un reporte de Jurídica que antes tomaba <strong>960 minutos —cinco días— hoy toma 25</strong>. Ese es el dato para el reporte del martes; supera con mucho a las 2–3 horas de Agencia de Empleo que veníamos usando.
+    </div>
+    <div class="note plain">
+      <strong>Y el freno:</strong> Claude Design —la herramienta que resuelve el trabajo diario del área— solo corre en versión paga, y la sesión entera se hizo sobre la cuenta de Sandra. El sábado el equipo lo intentó por su cuenta y se topó con el muro. <strong>La decisión que quedó en acta el viernes fue no comprar licencia todavía</strong>, con el argumento de que el equipo aún no agotaba la versión gratuita y que en Comfacesar ya hay licencias pagadas sin usar. <strong>Ese argumento se cayó el martes</strong>, ver el punto 1 de las acciones.
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h3>Lo que exige acción</h3>
+      <h2>Ocho cosas, y la segunda se descargó sola</h2>
+    </div>
+    <div class="note">
+      <strong>1. El argumento de las licencias ya está completo, con cinco áreas.</strong> El viernes quedó en acta no pedirlas todavía «porque el equipo aún no agota la versión gratuita». <strong>Esa premisa duró cinco días.</strong> El martes se agotó en vivo en <strong>Subsidio</strong>, a mitad de sesión y hubo que pasar a la pantalla de un compañero, y en <strong>Agencia de Empleo</strong>, con licencias que el área ya había comprado. En la encuesta lo piden por escrito <strong>Jurídica</strong> y las dos personas de <strong>Sub. Operativa</strong>. Y en <strong>Sub. Financiera</strong> el techo es de TI, no de licencia, pero frena igual.
+      <br><br>
+      Son cinco áreas con fecha y con nombre, y ninguna es un caso de baja adopción: son las que más avanzan. Vale rehacer la solicitud de octubre con estos casos.
+    </div>
+    <div class="note">
+      <strong>2. Ya no son catorce áreas sin agendar, son diez.</strong> El viernes esto era la alerta principal del tablero. El fin de semana tomaron fecha Jurídica, Talento Humano, IPS y Cumplimiento, y Comunicaciones y Servicios Sociales sumaron una segunda. Quedan <strong>Contabilidad, Agencia de Empleo, Educación, Subsidio, Vivienda, Tecnología, Tesorería, Planeación, Gerencia Financiera y Sub. Operativa</strong>.
+      <br><br>
+      <strong>Lo que sigue en pie es el después.</strong> La agenda se apretó en una sola semana: quince sesiones hasta el viernes 18 y <strong>una sola en todo el resto de septiembre</strong>. Con el cierre el 30 de octubre, el problema ya no es esta semana sino las cinco que vienen.
+    </div>
+    <div class="note">
+      <strong>3. Revisar las franjas de Calendly contra la jornada real de Comfacesar.</strong> Ya no lo sostengo sobre los espacios vencidos, que al final fueron dos y no tres. Lo sostengo sobre lo que piden las áreas: Servicios Sociales lo escribió en la encuesta, Mercadeo pidió horarios «más cerca en días y horas», y Saharay dijo dos veces que quería agendar y no agendó. <strong>Es la única petición del programa que depende solo de configuración.</strong>
+    </div>
+    <div class="note">
+      <strong>4. Mercadeo, veinte días y subiendo.</strong> Es el área con gente activa que más tiempo lleva parada, y sus dos respuestas a la encuesta son las únicas del tablero que dicen «todavía no lo noto». Las dos cosas se explican entre sí: no han vuelto a sentarse desde el 25 de agosto. Su próxima es el jueves 17, y serán 23 días de corte. <strong>Vale adelantarla si aparece un espacio antes.</strong>
+    </div>
+    <div class="note">
+      <strong>5. Sub. Operativa no está desconectada, está frenada.</strong> Canceló la S3 sin dejar fecha, pero esa misma tarde dos personas del área contestaron la encuesta con utilidad 8 y 10, ahorro ya percibido, y las dos pidiendo herramientas pagas. Con esa área el siguiente movimiento no es insistirle para que agende, es <strong>responderle qué pasa con las licencias</strong>.
+    </div>
+    <div class="note">
+      <strong>6. Cumplimiento por fin tomó fecha, y ahí está el problema.</strong> La S2 quedó para el <strong>viernes 18 a las 9:00</strong>, después de cinco semanas en la Sesión 1. Pero está agendada con <code>gestionambiental@comfacesar.com</code>, que es el correo de <strong>Saharay Díaz, a quien el relevo del 11 de septiembre sacó del programa</strong>. La reemplaza Aura Sánchez.
+      <br><br>
+      <strong>Hay que resolverlo antes del viernes:</strong> o la sesión la toma Aura y el evento cambia de invitada, o esa hora no tiene con quién. Y de paso reencuadra lo que le escribí a Saharay el jueves preguntándole por las franjas de Calendly: cuando se lo pregunté, ella ya iba de salida.
+    </div>
+    <div class="note">
+      <strong>7. El bloqueo de TI toca cuatro áreas y es el techo del programa.</strong> Contraseña de administrador para instalar, acceso bloqueado a Documentos, OneDrive y unidades de digitalización, y captura de pantalla deshabilitada. Está en Jurídica, Planeación, Gerencia Financiera y Sub. Administrativa. <strong>No es una restricción general</strong>: el mismo lunes Lilibeth instaló sin problema, así que es por puesto y se resuelve puesto por puesto. Sin eso, esas áreas se quedan en proyectos y no llegan a agentes.
+    </div>
+    <div class="note plain">
+      <strong>8. Cuatro cosas de nombre, que se arreglan en un minuto y evitan un lío en octubre.</strong> El miércoles hay <strong>dos eventos de Sub. Administrativa titulados S8</strong>, uno a las 8:30 y otro a las 3:00. El de Mercadeo del jueves 17 dice <em>Mercadeo S</em>, sin número. El informe de Teams de Servicios Sociales del 10 de septiembre dice <em>S7</em> y el acta dice <strong>S6</strong>. Y en Dropbox sigue el VTT de Sub. Administrativa guardado en <em>Sesión 4</em> que corresponde a la <strong>S3</strong>: tal como está, más adelante se lee como una sesión que nunca existió.
+    </div>
+    <div class="note">
+      <strong>9. El argumento de las licencias tiene un contra-argumento, y salió del propio cliente.</strong> El acta de Tecnología del viernes lo deja por escrito: <strong>Comfacesar ya paga una herramienta de IA que prácticamente nadie usa</strong>. Es capacidad instalada sin aprovechar, y es exactamente lo que una dirección financiera va a poner sobre la mesa cuando lleguen las cinco áreas pidiendo licencias en octubre.
+      <br><br>
+      <strong>No debilita la solicitud, la obliga a ser más precisa:</strong> hay que poder decir qué hace la herramienta que se pide y que la que ya está pagada no hace. Y hay un dato incómodo en el mismo acta: <strong>Olga Lucía asumió por su cuenta el costo de la herramienta</strong> para poder trabajar en el programa.
+    </div>
+    <div class="note">
+      <strong>10. La integración por interfaz de programación es el techo de cuatro áreas a la vez.</strong> Contabilidad, Tesorería, Servicios Sociales y Vivienda están construyendo tableros que hoy se alimentan descargando reportes a mano. Para que dejen de hacerlo hay que conectarlos al sistema, y ahí está la aclaración que corrige un supuesto del proyecto: <strong>Tecnología no desarrolla software</strong>. El sistema contable es de un proveedor externo, con sede en Girardot; el área lo gestiona, no lo construyó.
+      <br><br>
+      <strong>Eso saca la decisión de Comfacesar.</strong> Requiere sentarse con el proveedor, y el caso piloto ya está propuesto: que el tablero de Contabilidad tome las legalizaciones directamente del sistema. Si funciona ahí, se desbloquean las otras tres.
+    </div>
+  </section>
+
+  <footer>
+    <span>IAM™ Intelligence · Comfacesar</span>
+    <span>Fuentes: Outlook + Dropbox + Slack + informes de asistencia de Teams</span>
+    <span>Actualización automática: días hábiles, 7:00 a. m.</span>
+    <span>Sandra Curvelo · Founder &amp; CSO, IAM™ LATAM</span>
+  </footer>
+
+</div>
