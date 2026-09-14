@@ -15,6 +15,42 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📊 14 sep · 09:35 · Tableros al día para la reunión con el director
+
+Sandra pidió tener todos los tableros actualizados antes de las 10:00.
+
+| Tablero | Estado |
+|---|---|
+| **Termómetro** · `8949a813` | **v31** · corte de hoy 9:05 |
+| **Pulso de la encuesta** · `0cca00fb` | **v8** · corte de hoy 9:25 |
+
+**La encuesta no se movió.** Releída directo del formulario: **siguen siendo doce
+respuestas**, ninguna nueva desde el viernes a las 8:31. Contenido intacto; lo que cambió
+es el marco.
+
+**Lo que se agregó al Pulso:**
+- **Aviso nuevo:** la encuesta lleva tres días quieta, y las dos campañas a los canales
+  produjeron cero. Las respuestas que llegaron vinieron de áreas **que tuvieron sesión ese
+  día**, no de las que recibieron el mensaje. Lo que mueve la encuesta es sentarse, no el
+  recordatorio.
+- **Punto 2 matizado:** el diagnóstico de Calendly se sostiene pero cambia de razón. No es
+  cierto que las áreas no tomen fecha: el fin de semana aparecieron diez sesiones sin que
+  nadie escribiera. Lo que queda en pie es la petición literal, que habla del **horario**
+  de las franjas.
+- **Punto 3 reforzado:** el contra-argumento que va a aparecer en la reunión.
+  **Comfacesar ya paga una herramienta de IA que casi nadie usa**, según el acta de
+  Tecnología. Y **Olga Lucía asumió por su cuenta el costo** de la que sí usa.
+- **Punto 1 corregido de tiempo verbal:** la sesión de Vivienda fue el jueves 10, no «hoy».
+
+### ⚠️ Aviso de publicación que hay que resolver antes de compartir
+
+El Pulso está compartido por enlace, pero **los que abren el enlace ven una versión
+anterior fijada, no la v8**. Si el enlace se comparte tal cual en la reunión, el director
+vería el corte viejo. Hay que actualizar la versión fijada desde el menú de compartir
+del propio tablero.
+
+---
+
 ## 🔁 14 sep · 09:05 · La grabación de Contabilidad S6 sí existía · v31
 
 **Error mío, y es de método.** El corte de las 7:45 declaró Contabilidad S6 «la única
