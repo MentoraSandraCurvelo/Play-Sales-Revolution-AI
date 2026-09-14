@@ -15,6 +15,34 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ✅ 14 sep · 08:40 · Sandra cancela la Cumplimiento del viernes · v30
+
+**Lo pedido:** ninguna publicación en Slack. Solo tablero.
+
+A las 8:35 Sandra canceló la **Cumplimiento S2 del viernes 18 a las 9:00**, la que estaba
+agendada con `gestionambiental@comfacesar.com`, el correo de **Saharay Díaz**, a quien el
+relevo del 11 de septiembre sacó del programa. Verificado: el evento ya no está en el
+calendario.
+
+**Efecto en los números del corte:**
+
+| | 07:45 | 08:40 |
+|---|---|---|
+| Sesiones esta semana | 15 | **14** |
+| Áreas sin fecha | 10 | **11** |
+
+**Cumplimiento vuelve a quedar sin fecha.** Sigue siendo la única área del programa que no
+ha pasado de la Sesión 1 y ya lleva **diecinueve días** sin sesión. La siguiente hay que
+tomarla con **Aura Sánchez**, no con Saharay.
+
+**Sandra está revisando la documentación de Contabilidad**, que es el hueco del corte:
+la S6 del viernes se hizo y no dejó grabación, ni acta, ni informe de asistencia. Queda
+anotado en el tablero como posible problema de carga y no de sesión, hasta que se sepa.
+
+**Tablero:** https://claude.ai/code/artifact/8949a813-41e2-4c31-b234-d0b3ada2eb6e · v30
+
+---
+
 ## 🗓️ 14 sep · 07:45 · Corte del lunes · el Termómetro pasa a v29
 
 **No publiqué nada en Slack.** Sandra no lo pidió. Esto es solo el tablero.
