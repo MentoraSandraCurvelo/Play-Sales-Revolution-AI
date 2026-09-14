@@ -15,6 +15,46 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🧹 14 sep · 11:30 · Sala de Control v3 · fuera las notas de corrección
+
+**Sandra tiene razón y la lección es de método.** El tablero es lo que ella proyecta
+delante del director. Un tablero que dice «antes de mostrar esto hay que corregir dos
+fórmulas» no es un tablero, es una nota interna publicada por error. **Eso va en este
+registro y en el mensaje a Sandra, nunca en el entregable.**
+
+### Lo que se sacó del tablero
+
+| Se quitó | Se dejó en su lugar |
+|---|---|
+| La nota roja de los dos errores de fórmula del archivo | «Cómo se lee este tablero», que explica el método en positivo |
+| «Ya no es un supuesto», sobre el costo hora | «Las tarifas de Comfacesar, aplicadas a las horas» |
+| «Hay que decirlo antes de que lo pregunte el director», sobre la línea de Rafael | La concentración del ahorro dicha como análisis, con el piso sin esa línea |
+| «El contra-argumento, para que no llegue de sorpresa» | «Hay capacidad instalada que hoy no se aprovecha» |
+| La discrepancia de la prevalidación, 480→15 contra 480→30 | Nada. Va aquí, no en el tablero |
+| «Una diferencia con el Termómetro, y gana este archivo» | Nada. Va aquí |
+| «falta frecuencia», «posible solape», «su hoja está en cero» | «por definir», «pendiente», y el margen por capturar |
+| «Quince áreas están en cero» | «Once áreas todavía sin medir», con el movimiento concreto |
+
+**El principio que queda:** el tablero muestra el resultado y el método. **El diagnóstico
+de lo que hay que arreglar internamente viaja por otro canal.**
+
+### Lo que sigue siendo cierto y hay que resolver, fuera del tablero
+
+- **El archivo de assessment tiene dos errores de fórmula.** El resumen global dice 495%
+  porque suma porcentajes; lo correcto es 91%. Y las columnas «HRS/SEM» no son semanales:
+  son los minutos de una vuelta de cada tarea divididos entre 60, sin usar la frecuencia.
+  **Si alguien abre el archivo original en la reunión, eso se ve.**
+- **La prevalidación precontractual no cuadra entre fuentes:** acta 480 → 15, archivo
+  480 → 30. El tablero usa la del archivo.
+- **El Termómetro dice que el informe de Jurídica pasó de 960 a 25 minutos y el área lo
+  registró en 10.** Pendiente corregirlo en el Termómetro.
+- **La línea de Rafael son 41,7 de las 67,8 horas.** Confirmar con él que son 480 minutos
+  diarios reales.
+
+**Tablero:** https://claude.ai/code/artifact/ff353926-172e-4a35-83a3-c9dbf1baffbf · v3
+
+---
+
 ## 💰 14 sep · 11:05 · Sala de Control v2 · costo hora real, actas y gráficos
 
 Tres pedidos de Sandra en la misma tanda: registrar también lo que aparece en acta aunque
