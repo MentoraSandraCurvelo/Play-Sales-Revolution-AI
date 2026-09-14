@@ -15,6 +15,73 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 💰 14 sep · 11:05 · Sala de Control v2 · costo hora real, actas y gráficos
+
+Tres pedidos de Sandra en la misma tanda: registrar también lo que aparece en acta aunque
+no hayan llenado el cuadro, ver la proyección con los tres perfiles, y más gráficos.
+
+**Tablero:** https://claude.ai/code/artifact/ff353926-172e-4a35-83a3-c9dbf1baffbf · v2
+
+### El costo hora ya no es un supuesto
+
+Comfacesar pasó las tarifas reales, y reemplazan los estimados que yo había puesto:
+
+| Perfil | Costo hora | 68 h/semana | Al cierre 30 oct | A 12 meses |
+|---|---|---|---|---|
+| **Profesional** | **$36.351** | $2.465.809 | $16,0 M | **$118,4 M** |
+| Gerente o jefe | $62.862 | $4.264.139 | $27,7 M | $204,7 M |
+| Directivo | $95.941 | $6.507.997 | $42,3 M | $312,4 M |
+
+**Decisión de método: el tablero se calcula todo a tarifa de profesional**, la más baja de
+las tres, aunque el seguimiento a asistentes jurídicos y el Informe Alta Gerencia los hace
+una jefatura. Deja el número por debajo del real y lo vuelve indiscutible.
+
+### La segunda fuente: medido en acta, sin registrar
+
+Cinco mediciones estaban en actas y nadie las pasó al archivo. Entran marcadas aparte.
+
+| Área | Tarea | Antes → hoy | Entra a la suma |
+|---|---|---|---|
+| **Vivienda** | Informe de interventoría · mensual, 11 proyectos | 240 → 30 | **sí, 512 min/sem** |
+| **Contabilidad** | Reporte mensual de anticipos | 240 → 10 | **sí, 53 min/sem** |
+| Mercadeo | Tablero de 710 leads | 60 → 15 | no, falta frecuencia |
+| Subsidio | Reporte de tipo de aportante | 30 → 10 | no, falta frecuencia |
+| Agencia de Empleo | Filtrar candidatos de una vacante | 150 → 18 | no, **posible solape** con la línea que ya registró |
+
+**Vivienda es la que más mueve el tablero y por poco no estaba:** 8,5 h semanales, más que
+Jurídica con sus doce tareas, y su hoja del archivo está vacía.
+
+**Discrepancia anotada:** la prevalidación precontractual figura como 480 → 15 en el acta y
+480 → 30 en el archivo. Se usa la del archivo, que es la conservadora y la que escribió
+Rafael.
+
+**Tecnología queda fuera:** tiene tres ejercicios funcionando y **ninguno con tiempo antes
+y después**, así que hay constancia pero no medición.
+
+### Los números nuevos
+
+| | Antes | Ahora |
+|---|---|---|
+| Tareas medidas | 21 | **26** |
+| Áreas con medición | 6 de 21 | **10 de 21** |
+| Ahorro semanal | 58,4 h | **67,8 h** |
+| Valor a 12 meses | $126,1 M (supuesto) | **$118,4 M (tarifa real)** |
+
+Bajó aunque subieron las horas, porque la tarifa real de profesional es más baja que el
+supuesto que yo había usado. **Es mejor así: ahora es un dato, no un estimado.**
+
+### Gráficos agregados
+
+Dona de concentración del ahorro, dona de cobertura de la medición, comparativo de una
+vuelta completa (145 h → 13 h), franja de KPIs de dinero, y la proyección rehecha con las
+tres tarifas en un solo gráfico.
+
+**Le dije que no al 3D en las tortas**, con una línea: la rebanada de adelante siempre se
+ve más grande de lo que es, y frente a un director que mira cifras eso se vuelve el tema.
+Queda ofrecido por si lo pide igual.
+
+---
+
 ## 📈 14 sep · 10:20 · Sala de Control · el assessment leído en horas y en pesos
 
 Sandra pidió meter el archivo que llenan los equipos como un tablero aparte dentro de la

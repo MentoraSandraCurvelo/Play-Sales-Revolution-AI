@@ -13,6 +13,7 @@
     --warn: #8F5407; --warn-bg: #F8EBDA;
     --crit: #A31C1C; --crit-bg: #F8E3E3;
     --bar: #C00000; --bar-soft: #E9B6B6; --track: #EDE4E4; --grid: #E6DDDD;
+    --s1: #E8898A; --s2: #BE2E2E; --s3: #6E0F0F;
     --f-display: "Montserrat", "Helvetica Neue", Arial, sans-serif;
     --f-body: "Source Serif 4", Georgia, "Times New Roman", serif;
     --f-ui: "Lato", "Segoe UI", Helvetica, Arial, sans-serif;
@@ -27,6 +28,7 @@
       --warn: #E5AC66; --warn-bg: #332616;
       --crit: #F08585; --crit-bg: #3A1E1E;
       --bar: #E85555; --bar-soft: #5E2B2B; --track: #2C2627; --grid: #2C2627;
+      --s1: #F2B0B0; --s2: #E85555; --s3: #B33A3A;
     }
   }
   :root[data-theme="dark"] {
@@ -38,6 +40,7 @@
     --warn: #E5AC66; --warn-bg: #332616;
     --crit: #F08585; --crit-bg: #3A1E1E;
     --bar: #E85555; --bar-soft: #5E2B2B; --track: #2C2627; --grid: #2C2627;
+    --s1: #F2B0B0; --s2: #E85555; --s3: #B33A3A;
   }
 
   * { box-sizing: border-box; }
@@ -117,6 +120,22 @@
   .s-val { font-family: "Lato", sans-serif; font-size: 12px; font-weight: 900; fill: var(--ink); }
   .s-tick { font-family: "Lato", sans-serif; font-size: 10px; font-weight: 700; fill: var(--muted); }
   .s-note { font-family: "Lato", sans-serif; font-size: 10px; font-weight: 900; fill: var(--accent); }
+  .s-end { font-family: "Lato", sans-serif; font-size: 11px; font-weight: 900; fill: var(--ink); }
+
+  .leyenda { display: flex; flex-wrap: wrap; gap: .35rem 1.2rem; margin-top: .8rem;
+    font-family: var(--f-ui); font-size: .75rem; font-weight: 700; color: var(--muted); }
+  .lg { display: inline-flex; align-items: center; gap: .4rem; }
+  .sw { width: .8rem; height: .8rem; border-radius: 2px; display: inline-block; }
+  .sw.full { background: var(--bar); }
+  .sw.open { background: var(--bar-soft); border: 1.5px solid var(--bar); }
+  .sw.s1 { background: var(--s1); } .sw.s2 { background: var(--s2); } .sw.s3 { background: var(--s3); }
+
+  .figs { display: grid; gap: .8rem; grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); }
+  .dona { display: block; margin: 0 auto; max-width: 15rem; }
+  .s-big { font-family: "Montserrat", sans-serif; font-size: 30px; font-weight: 800; fill: var(--ink); }
+  .s-cap { font-family: "Lato", sans-serif; font-size: 10px; font-weight: 900; fill: var(--muted); letter-spacing: .08em; }
+  .sw.s4 { background: var(--track); border: 1px solid var(--line-strong); }
+  .sw.sA { background: var(--good); }
 
   .quotes { display: grid; gap: .7rem; grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); }
   blockquote { margin: 0; background: var(--surface); border: 1px solid var(--line);
@@ -139,18 +158,18 @@
   <header class="top">
     <p class="eyebrow">IAM™ Intelligence · Comfacesar · Sala de control</p>
     <h1>Horas recuperadas, y lo que valen</h1>
-    <p class="lede">El assessment que llenan los equipos, leído en las dos monedas que importan: horas de trabajo y pesos. Con la frecuencia real de cada tarea aplicada, que es lo que el archivo captura y no calcula.</p>
-    <span class="fuente">✓ Leído del archivo de assessment · 21 hojas · totales recalculados a mano</span>
-    <p class="stamp">Corte: lunes 14 de septiembre de 2026 · 10:05 a. m. (hora Colombia)</p>
+    <p class="lede">Todo lo que el programa ha medido, en las dos monedas que importan: horas de trabajo y pesos. Lo que las áreas registraron en el archivo y lo que quedó medido en acta aunque nadie lo registrara, con la frecuencia real de cada tarea aplicada.</p>
+    <span class="fuente">✓ Archivo de assessment + actas de sesión · costo hora real de Comfacesar</span>
+    <p class="stamp">Corte: lunes 14 de septiembre de 2026 · 10:45 a. m. (hora Colombia)</p>
   </header>
 
   <section>
     <div class="stats">
-      <div class="stat hero"><b>58<small> h</small></b><span>Recuperadas por semana, con la frecuencia aplicada</span></div>
-      <div class="stat hero"><b>$126<small> M</small></b><span>Valor a 12 meses, a $45.000 la hora</span></div>
-      <div class="stat"><b>91%</b><span>Reducción sobre las 21 tareas registradas</span></div>
-      <div class="stat"><b>21</b><span>Tareas mapeadas</span></div>
-      <div class="stat"><b style="color:var(--accent)">6<small> / 21</small></b><span>Áreas que llenaron el archivo</span></div>
+      <div class="stat hero"><b>68<small> h</small></b><span>Recuperadas por semana, con la frecuencia aplicada</span></div>
+      <div class="stat hero"><b>$118<small> M</small></b><span>Valor a 12 meses, a costo hora real de profesional</span></div>
+      <div class="stat"><b>91%</b><span>Reducción sobre las tareas medidas</span></div>
+      <div class="stat"><b>26</b><span>Tareas con medición · 21 en el archivo, 5 solo en acta</span></div>
+      <div class="stat"><b style="color:var(--accent)">10<small> / 21</small></b><span>Áreas con al menos una medición</span></div>
     </div>
 
     <div class="note crit">
@@ -160,125 +179,210 @@
       <br><br>
       <strong>2 · Las columnas dicen «HRS/SEM» y no son semanales.</strong> Los 133,0 de «hrs/sem actual» son exactamente <strong>7.982 minutos ÷ 60</strong>, es decir una sola vuelta de cada tarea. <strong>La columna de frecuencia se captura y no entra en ningún cálculo.</strong> Por eso las dos tareas ocasionales de Servicios Sociales aparecen como 80 horas «a la semana».
       <br><br>
-      Todo lo que sigue en este tablero está recalculado sobre las 21 tareas una por una, aplicando la frecuencia que cada área escribió.
+      Todo lo que sigue está recalculado tarea por tarea, aplicando la frecuencia que cada área escribió.
+      <br><br>
+      <strong>Y hay una tercera cosa, que no es error del archivo sino de cobertura:</strong> hay mediciones que quedaron en las actas de sesión y que nadie pasó al archivo. <strong>Aquí entran las dos</strong>, separadas y etiquetadas, porque las dos son reales.
     </div>
   </section>
 
   <section>
     <div class="sec-head">
-      <h3>El parámetro de la conversación</h3>
-      <h2>Cuánto vale una hora, y por qué hay que fijarlo primero</h2>
+      <h3>El costo hora real</h3>
+      <h2>Ya no es un supuesto: son las tarifas de Comfacesar</h2>
     </div>
-    <p>Una hora recuperada solo se convierte en dinero cuando se le pone precio. <strong>Estos tres valores son supuestos, no datos de Comfacesar</strong>: son costo hora empresa, es decir salario más prestaciones. Hay que confirmarlos con Talento Humano antes de usarlos hacia afuera. Todo el tablero está calculado sobre el caso base.</p>
+    <p>Una hora recuperada solo se vuelve dinero cuando se le pone precio, y hasta hace un rato ese precio era un estimado nuestro. <strong>Ya no: estas son las tarifas que pasó Comfacesar.</strong> Todo el tablero está calculado sobre la de profesional, que es la más baja de las tres.</p>
     <div class="tablewrap">
       <table>
-        <thead><tr><th>Perfil</th><th class="c">Costo hora empresa</th><th class="c">58 h/semana valen</th><th class="c">A 12 meses</th></tr></thead>
+        <thead><tr><th>Perfil</th><th class="c">Costo hora</th><th class="c">68 h/semana valen</th><th class="c">Al cierre del 30 oct</th><th class="c">A 12 meses</th></tr></thead>
         <tbody>
-          <tr><td class="area">Profesional o analista</td><td class="c">$35.000</td><td class="c">$2.044.000</td><td class="c">$98,1 M</td></tr>
-          <tr class="base"><td class="area">Mezcla del programa <span class="pill base">Caso base</span></td><td class="c">$45.000</td><td class="c">$2.628.000</td><td class="c">$126,1 M</td></tr>
-          <tr><td class="area">Jefe o coordinador</td><td class="c">$60.000</td><td class="c">$3.504.000</td><td class="c">$168,2 M</td></tr>
-          <tr><td class="area">Directivo</td><td class="c">$110.000</td><td class="c">$6.424.000</td><td class="c">$308,3 M</td></tr>
+          <tr class="base"><td class="area">Profesional <span class="pill base">Base del tablero</span></td><td class="c">$36.351</td><td class="c">$2.465.809</td><td class="c">$16,0 M</td><td class="c">$118,4 M</td></tr>
+          <tr><td class="area">Gerente o jefe</td><td class="c">$62.862</td><td class="c">$4.264.139</td><td class="c">$27,7 M</td><td class="c">$204,7 M</td></tr>
+          <tr><td class="area">Directivo</td><td class="c">$95.941</td><td class="c">$6.507.997</td><td class="c">$42,3 M</td><td class="c">$312,4 M</td></tr>
         </tbody>
       </table>
     </div>
-    <div class="note plain">
-      <strong>Por qué $45.000 como base.</strong> Las 21 tareas registradas las hacen profesionales y jefaturas, no directivos: prevalidación precontractual, revisión de minutas, consolidación de informes. <strong>Si la reunión prefiere el escenario conservador, use $35.000</strong> y todas las cifras bajan un 22%; la conclusión no cambia.
+    <div class="note">
+      <strong>Por qué el tablero se calcula sobre profesional y no sobre la mezcla real.</strong> Casi todas las tareas medidas las hacen profesionales, pero <strong>no todas</strong>: el seguimiento a los asistentes jurídicos y el Informe Alta Gerencia los hace una jefatura, y ahí la hora vale $62.862, no $36.351.
+      <br><br>
+      <strong>Calcular todo al valor más bajo es una decisión deliberada:</strong> deja el número por debajo del real y lo vuelve indiscutible. <strong>Si se asigna a cada tarea el perfil que de verdad la ejecuta, la cifra sube, nunca baja.</strong> Y ese refinamiento se hace en una tarde, si la reunión lo pide.
     </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h3>La foto de nivel</h3>
+      <h2>Cuatro cifras y dos proporciones</h2>
+    </div>
+    <div class="stats">
+      <div class="stat hero"><b>$2,47<small> M</small></b><span>Recuperado cada semana</span></div>
+      <div class="stat hero"><b>$16,0<small> M</small></b><span>Al cierre del programa, 30 de octubre</span></div>
+      <div class="stat hero"><b>$118,4<small> M</small></b><span>A 12 meses, sin una sesión más</span></div>
+      <div class="stat"><b>8,1<small> sem</small></b><span>Para pagar una inversión de $20 M</span></div>
+    </div>
+
+    <div class="figs">
+      <figure>
+        <svg class="dona" viewBox="0 0 240 240" role="img" aria-label="Concentración del ahorro semanal por área. Sub. Administrativa y Financiera 61,5 por ciento, Jurídica 17,1, Vivienda 12,5, las otras cuatro áreas 8,9.">
+          <circle cx="120" cy="120" r="70" fill="none" stroke="var(--track)" stroke-width="34"></circle>
+          <g transform="rotate(-90 120 120)">
+            <circle cx="120" cy="120" r="70" fill="none" stroke="var(--s3)" stroke-width="34" stroke-dasharray="270.5 169.3" stroke-dashoffset="0"></circle>
+            <circle cx="120" cy="120" r="70" fill="none" stroke="var(--s2)" stroke-width="34" stroke-dasharray="75.2 364.6" stroke-dashoffset="-270.5"></circle>
+            <circle cx="120" cy="120" r="70" fill="none" stroke="var(--s1)" stroke-width="34" stroke-dasharray="55.0 384.8" stroke-dashoffset="-345.7"></circle>
+          </g>
+          <text class="s-big" x="120" y="118" text-anchor="middle">61%</text>
+          <text class="s-cap" x="120" y="138" text-anchor="middle">SUB. ADMIN</text>
+          <text class="s-cap" x="120" y="152" text-anchor="middle">Y FINANCIERA</text>
+        </svg>
+        <p class="leyenda"><span class="lg"><i class="sw s3"></i> Sub. Admin · 41,7 h</span><span class="lg"><i class="sw s2"></i> Jurídica · 11,6 h</span><span class="lg"><i class="sw s1"></i> Vivienda · 8,5 h</span><span class="lg"><i class="sw s4"></i> Otras cuatro · 6,0 h</span></p>
+        <figcaption>Seis de cada diez horas recuperadas salen de una sola área, y dentro de ella de una sola tarea. Es la fortaleza y la fragilidad del número al mismo tiempo.</figcaption>
+      </figure>
+
+      <figure>
+        <svg class="dona" viewBox="0 0 240 240" role="img" aria-label="Cobertura de la medición. Diez de las veintiún áreas tienen al menos una tarea medida; once no tienen ninguna.">
+          <circle cx="120" cy="120" r="70" fill="none" stroke="var(--track)" stroke-width="34"></circle>
+          <g transform="rotate(-90 120 120)">
+            <circle cx="120" cy="120" r="70" fill="none" stroke="var(--good)" stroke-width="34" stroke-dasharray="209.4 230.4" stroke-dashoffset="0"></circle>
+          </g>
+          <text class="s-big" x="120" y="118" text-anchor="middle">10/21</text>
+          <text class="s-cap" x="120" y="138" text-anchor="middle">ÁREAS CON</text>
+          <text class="s-cap" x="120" y="152" text-anchor="middle">MEDICIÓN</text>
+        </svg>
+        <p class="leyenda"><span class="lg"><i class="sw sA"></i> Con medición · 10 áreas</span><span class="lg"><i class="sw s4"></i> Sin ninguna · 11 áreas</span></p>
+        <figcaption>Todo lo que dice este tablero sale de menos de la mitad de las áreas. La otra mitad no es que no haya producido: es que no se ha medido.</figcaption>
+      </figure>
+    </div>
+
+    <figure>
+      <svg viewBox="0 0 620 190" role="img" aria-label="Una vuelta completa de las 26 tareas medidas: antes tomaba 145 horas, hoy toma 13. La reducción es del 91 por ciento.">
+        <text class="s-lab" x="14" y="46" text-anchor="start">Antes</text>
+        <rect x="14" y="56" width="592" height="34" rx="4" fill="var(--s3)"></rect>
+        <text class="s-val" x="28" y="78" text-anchor="start" fill="#fff">145 horas · 8.702 minutos</text>
+
+        <text class="s-lab" x="14" y="126" text-anchor="start">Hoy</text>
+        <rect x="14" y="136" width="53.1" height="34" rx="4" fill="var(--s1)"></rect>
+        <text class="s-val" x="79" y="158" text-anchor="start">13 horas · 781 minutos</text>
+
+        <text class="s-note" x="606" y="128" text-anchor="end">132 horas devueltas · 91%</text>
+      </svg>
+      <figcaption>Una vuelta completa de las 26 tareas medidas, sin aplicar frecuencia. Las dos barras están a la misma escala: la de abajo es el 9% de la de arriba.</figcaption>
+    </figure>
   </section>
 
   <section>
     <div class="sec-head">
       <h3>Dónde están las horas</h3>
-      <h2>Cinco áreas sostienen las 58 horas semanales</h2>
+      <h2>Siete áreas sostienen las 68 horas semanales</h2>
     </div>
     <figure>
-      <svg viewBox="0 0 600 268" role="img" aria-label="Horas recuperadas por semana en cada área, con la frecuencia de cada tarea aplicada. Sub. Administrativa y Financiera 41,7 horas; Jurídica 11,6; Sub. Operativa 2,4; Comunicaciones 1,9; Agencia de Empleo 0,8.">
-        <line x1="261.5" y1="20" x2="261.5" y2="236" stroke="var(--grid)" stroke-width="1"></line>
-        <line x1="343" y1="20" x2="343" y2="236" stroke="var(--grid)" stroke-width="1"></line>
-        <line x1="424.5" y1="20" x2="424.5" y2="236" stroke="var(--grid)" stroke-width="1"></line>
-        <line x1="506" y1="20" x2="506" y2="236" stroke="var(--grid)" stroke-width="1"></line>
-        <line x1="180" y1="20" x2="180" y2="236" stroke="var(--line-strong)" stroke-width="1"></line>
+      <svg viewBox="0 0 600 346" role="img" aria-label="Horas recuperadas por semana en cada área, con la frecuencia de cada tarea aplicada. Sub. Administrativa y Financiera 41,7 horas; Jurídica 11,6; Vivienda 8,5; Sub. Operativa 2,4; Comunicaciones 1,9; Contabilidad 0,9; Agencia de Empleo 0,8. Vivienda y Contabilidad están medidas en acta, no en el archivo.">
+        <line x1="261.5" y1="22" x2="261.5" y2="312" stroke="var(--grid)" stroke-width="1"></line>
+        <line x1="343" y1="22" x2="343" y2="312" stroke="var(--grid)" stroke-width="1"></line>
+        <line x1="424.5" y1="22" x2="424.5" y2="312" stroke="var(--grid)" stroke-width="1"></line>
+        <line x1="506" y1="22" x2="506" y2="312" stroke="var(--grid)" stroke-width="1"></line>
+        <line x1="180" y1="22" x2="180" y2="312" stroke="var(--line-strong)" stroke-width="1"></line>
 
-        <text class="s-lab" x="168" y="44" text-anchor="end">Sub. Admin y Financiera</text>
-        <rect x="180" y="31" width="340" height="18" rx="4" fill="var(--bar)"></rect>
-        <text class="s-val" x="528" y="45" text-anchor="start">41,7 h</text>
+        <text class="s-lab" x="168" y="46" text-anchor="end">Sub. Admin y Financiera</text>
+        <rect x="180" y="33" width="340" height="18" rx="4" fill="var(--bar)"></rect>
+        <text class="s-val" x="528" y="47" text-anchor="start">41,7 h</text>
 
         <text class="s-lab" x="168" y="88" text-anchor="end">Jurídica</text>
         <rect x="180" y="75" width="94.6" height="18" rx="4" fill="var(--bar)"></rect>
         <text class="s-val" x="282.6" y="89" text-anchor="start">11,6 h</text>
 
-        <text class="s-lab" x="168" y="132" text-anchor="end">Sub. Operativa</text>
-        <rect x="180" y="119" width="19.6" height="18" rx="4" fill="var(--bar)"></rect>
-        <text class="s-val" x="207.6" y="133" text-anchor="start">2,4 h</text>
+        <text class="s-lab" x="168" y="130" text-anchor="end">Vivienda</text>
+        <rect x="180" y="117" width="69.3" height="18" rx="4" fill="var(--bar-soft)" stroke="var(--bar)" stroke-width="1.5"></rect>
+        <text class="s-val" x="257.3" y="131" text-anchor="start">8,5 h · acta</text>
 
-        <text class="s-lab" x="168" y="176" text-anchor="end">Comunicaciones</text>
-        <rect x="180" y="163" width="15.5" height="18" rx="4" fill="var(--bar)"></rect>
-        <text class="s-val" x="203.5" y="177" text-anchor="start">1,9 h</text>
+        <text class="s-lab" x="168" y="172" text-anchor="end">Sub. Operativa</text>
+        <rect x="180" y="159" width="19.6" height="18" rx="4" fill="var(--bar)"></rect>
+        <text class="s-val" x="207.6" y="173" text-anchor="start">2,4 h</text>
 
-        <text class="s-lab" x="168" y="220" text-anchor="end">Agencia de Empleo</text>
-        <rect x="180" y="207" width="6.5" height="18" rx="4" fill="var(--bar)"></rect>
-        <text class="s-val" x="194.5" y="221" text-anchor="start">0,8 h</text>
+        <text class="s-lab" x="168" y="214" text-anchor="end">Comunicaciones</text>
+        <rect x="180" y="201" width="15.5" height="18" rx="4" fill="var(--bar)"></rect>
+        <text class="s-val" x="203.5" y="215" text-anchor="start">1,9 h</text>
 
-        <text class="s-tick" x="180" y="252" text-anchor="middle">0</text>
-        <text class="s-tick" x="261.5" y="252" text-anchor="middle">10</text>
-        <text class="s-tick" x="343" y="252" text-anchor="middle">20</text>
-        <text class="s-tick" x="424.5" y="252" text-anchor="middle">30</text>
-        <text class="s-tick" x="506" y="252" text-anchor="middle">40</text>
-        <text class="s-tick" x="180" y="265" text-anchor="start">horas recuperadas por semana</text>
+        <text class="s-lab" x="168" y="256" text-anchor="end">Contabilidad</text>
+        <rect x="180" y="243" width="7.3" height="18" rx="4" fill="var(--bar-soft)" stroke="var(--bar)" stroke-width="1.5"></rect>
+        <text class="s-val" x="195.3" y="257" text-anchor="start">0,9 h · acta</text>
+
+        <text class="s-lab" x="168" y="298" text-anchor="end">Agencia de Empleo</text>
+        <rect x="180" y="285" width="6.5" height="18" rx="4" fill="var(--bar)"></rect>
+        <text class="s-val" x="194.5" y="299" text-anchor="start">0,8 h</text>
+
+        <text class="s-tick" x="180" y="328" text-anchor="middle">0</text>
+        <text class="s-tick" x="261.5" y="328" text-anchor="middle">10</text>
+        <text class="s-tick" x="343" y="328" text-anchor="middle">20</text>
+        <text class="s-tick" x="424.5" y="328" text-anchor="middle">30</text>
+        <text class="s-tick" x="506" y="328" text-anchor="middle">40</text>
+        <text class="s-tick" x="180" y="342" text-anchor="start">horas recuperadas por semana</text>
       </svg>
-      <figcaption>Servicios Sociales no aparece: sus dos tareas están marcadas «Ocasional» y no se pueden llevar a semana. Es el área con el mejor caso individual del archivo y aun así no entra en esta cuenta.</figcaption>
+      <p class="leyenda"><span class="lg"><i class="sw full"></i> Registrado por el área en el archivo</span><span class="lg"><i class="sw open"></i> Medido en acta, sin registrar todavía</span></p>
+      <figcaption>Servicios Sociales no aparece: sus dos tareas están marcadas «Ocasional» y no se pueden llevar a semana. Es el área con el mejor caso individual de todo el programa y aun así no entra en esta cuenta.</figcaption>
     </figure>
     <div class="note">
-      <strong>Cuarenta y dos de las cincuenta y ocho horas son de una sola línea</strong>, y hay que decirlo antes de que lo pregunte el director: la <strong>prevalidación precontractual de Rafael Solano</strong>, registrada como 480 minutos, diaria. Él mismo lo describió como «aproximadamente un día laboral».
+      <strong>Cuarenta y dos de las sesenta y ocho horas son de una sola línea</strong>, y hay que decirlo antes de que lo pregunte el director: la <strong>prevalidación precontractual de Rafael Solano</strong>, registrada como 480 minutos, diaria. Él mismo lo describió como «aproximadamente un día laboral».
       <br><br>
       <strong>Es el dato más potente del archivo y también el más frágil.</strong> Si esa revisión no ocupa literalmente su jornada completa todos los días, la cifra baja mucho. <strong>Confirmarlo con él es la primera tarea de esta semana</strong>; con eso, el número queda blindado.
       <br><br>
-      Sin esa línea, el programa sigue recuperando <strong>20,9 horas semanales</strong>, que a $45.000 son <strong>$45,2 millones al año</strong>. Ese es el piso, y ya se sostiene solo.
+      Sin esa línea, el programa sigue recuperando <strong>30,3 horas semanales</strong>, que a tarifa de profesional son <strong>$52,9 millones al año</strong>. Ese es el piso del piso, y ya se sostiene solo.
     </div>
   </section>
 
   <section>
     <div class="sec-head">
       <h3>La proyección</h3>
-      <h2>Lo recuperado se acumula cada semana</h2>
+      <h2>Las mismas horas, valoradas a los tres perfiles</h2>
     </div>
     <figure>
-      <svg viewBox="0 0 620 300" role="img" aria-label="Valor acumulado de las horas recuperadas, desde hoy hasta doce meses. Al cierre del programa el 30 de octubre acumula 17,1 millones de pesos; a los doce meses, 126,1 millones.">
+      <svg viewBox="0 0 620 308" role="img" aria-label="Valor acumulado de las 68 horas semanales recuperadas, con las tres tarifas de Comfacesar. A doce meses: 118,4 millones si se valora a hora de profesional, 204,7 a hora de gerente o jefe, 312,4 a hora de directivo. Al cierre del 30 de octubre: 16,0, 27,7 y 42,3 millones.">
         <line x1="60" y1="240" x2="580" y2="240" stroke="var(--line-strong)" stroke-width="1"></line>
-        <line x1="60" y1="47.7" x2="580" y2="47.7" stroke="var(--grid)" stroke-width="1"></line>
+        <line x1="60" y1="209.2" x2="580" y2="209.2" stroke="var(--grid)" stroke-width="1"></line>
+        <line x1="60" y1="178.5" x2="580" y2="178.5" stroke="var(--grid)" stroke-width="1"></line>
+        <line x1="60" y1="147.7" x2="580" y2="147.7" stroke="var(--grid)" stroke-width="1"></line>
+        <line x1="60" y1="116.9" x2="580" y2="116.9" stroke="var(--grid)" stroke-width="1"></line>
         <line x1="60" y1="86.2" x2="580" y2="86.2" stroke="var(--grid)" stroke-width="1"></line>
-        <line x1="60" y1="124.6" x2="580" y2="124.6" stroke="var(--grid)" stroke-width="1"></line>
-        <line x1="60" y1="163" x2="580" y2="163" stroke="var(--grid)" stroke-width="1"></line>
-        <line x1="60" y1="201.5" x2="580" y2="201.5" stroke="var(--grid)" stroke-width="1"></line>
+        <line x1="60" y1="55.4" x2="580" y2="55.4" stroke="var(--grid)" stroke-width="1"></line>
 
-        <path d="M 60 240 L 580 46 L 580 240 Z" fill="var(--bar-soft)" opacity="0.55"></path>
-        <path d="M 60 240 L 580 46" fill="none" stroke="var(--bar)" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M 60 240 L 580 47.8" fill="none" stroke="var(--s3)" stroke-width="2.5" stroke-linecap="round"></path>
+        <path d="M 60 240 L 580 114" fill="none" stroke="var(--s2)" stroke-width="2.5" stroke-linecap="round"></path>
+        <path d="M 60 240 L 580 167.1" fill="none" stroke="var(--s1)" stroke-width="2.5" stroke-linecap="round"></path>
 
-        <line x1="130.4" y1="213.7" x2="130.4" y2="240" stroke="var(--accent)" stroke-width="1" stroke-dasharray="3 3"></line>
-        <circle cx="130.4" cy="213.7" r="5" fill="var(--bar)" stroke="var(--surface)" stroke-width="2"></circle>
-        <text class="s-note" x="140" y="206" text-anchor="start">30 oct · cierre del programa · $17,1 M</text>
+        <text class="s-end" x="576" y="40" text-anchor="end">Directivo · $312,4 M</text>
+        <text class="s-end" x="576" y="106" text-anchor="end">Gerente o jefe · $204,7 M</text>
+        <text class="s-end" x="576" y="159" text-anchor="end">Profesional · $118,4 M</text>
 
-        <circle cx="580" cy="46" r="5" fill="var(--bar)" stroke="var(--surface)" stroke-width="2"></circle>
-        <text class="s-val" x="572" y="38" text-anchor="end">$126,1 M a 12 meses</text>
+        <circle cx="580" cy="47.8" r="5" fill="var(--s3)" stroke="var(--surface)" stroke-width="2"></circle>
+        <circle cx="580" cy="114" r="5" fill="var(--s2)" stroke="var(--surface)" stroke-width="2"></circle>
+        <circle cx="580" cy="167.1" r="5" fill="var(--s1)" stroke="var(--surface)" stroke-width="2"></circle>
+
+        <line x1="130.4" y1="210" x2="130.4" y2="240" stroke="var(--accent)" stroke-width="1" stroke-dasharray="3 3"></line>
+        <circle cx="130.4" cy="214" r="4" fill="var(--s3)" stroke="var(--surface)" stroke-width="1.5"></circle>
+        <circle cx="130.4" cy="223" r="4" fill="var(--s2)" stroke="var(--surface)" stroke-width="1.5"></circle>
+        <circle cx="130.4" cy="230.2" r="4" fill="var(--s1)" stroke="var(--surface)" stroke-width="1.5"></circle>
+        <text class="s-note" x="140" y="204" text-anchor="start">30 oct · cierre · entre $16,0 M y $42,3 M</text>
 
         <text class="s-tick" x="52" y="244" text-anchor="end">0</text>
-        <text class="s-tick" x="52" y="205.5" text-anchor="end">25 M</text>
-        <text class="s-tick" x="52" y="167" text-anchor="end">50 M</text>
-        <text class="s-tick" x="52" y="128.6" text-anchor="end">75 M</text>
-        <text class="s-tick" x="52" y="90.2" text-anchor="end">100 M</text>
-        <text class="s-tick" x="52" y="51.7" text-anchor="end">125 M</text>
+        <text class="s-tick" x="52" y="213.2" text-anchor="end">50 M</text>
+        <text class="s-tick" x="52" y="182.5" text-anchor="end">100 M</text>
+        <text class="s-tick" x="52" y="151.7" text-anchor="end">150 M</text>
+        <text class="s-tick" x="52" y="120.9" text-anchor="end">200 M</text>
+        <text class="s-tick" x="52" y="90.2" text-anchor="end">250 M</text>
+        <text class="s-tick" x="52" y="59.4" text-anchor="end">300 M</text>
 
         <text class="s-tick" x="60" y="258" text-anchor="middle">hoy</text>
         <text class="s-tick" x="190" y="258" text-anchor="middle">3 meses</text>
         <text class="s-tick" x="320" y="258" text-anchor="middle">6 meses</text>
         <text class="s-tick" x="450" y="258" text-anchor="middle">9 meses</text>
         <text class="s-tick" x="580" y="258" text-anchor="middle">12 meses</text>
-        <text class="s-tick" x="60" y="276" text-anchor="start">pesos acumulados sobre las horas recuperadas · caso base $45.000 la hora</text>
+        <text class="s-tick" x="60" y="276" text-anchor="start">pesos acumulados sobre las mismas 68 horas semanales, valoradas a cada tarifa</text>
       </svg>
-      <figcaption>La línea es recta porque el ahorro es recurrente: las mismas tareas se repiten cada semana. Sube solo si entran más áreas o más tareas al archivo.</figcaption>
+      <p class="leyenda"><span class="lg"><i class="sw s1"></i> Profesional · $36.351</span><span class="lg"><i class="sw s2"></i> Gerente o jefe · $62.862</span><span class="lg"><i class="sw s3"></i> Directivo · $95.941</span></p>
+      <figcaption>Son las mismas horas en las tres líneas. Lo único que cambia es a qué tarifa se valoran. Las líneas son rectas porque el ahorro es recurrente: las mismas tareas se repiten cada semana.</figcaption>
     </figure>
     <div class="note plain">
-      <strong>Lo que dice la curva, en una frase.</strong> Entre hoy y el cierre del 30 de octubre el programa recupera <strong>$17,1 millones</strong> con lo que ya está registrado y funcionando. Lo interesante no es ese tramo: es que <strong>a partir del cierre el ahorro sigue corriendo sin costo adicional</strong>, porque los procesos ya quedaron cambiados.
+      <strong>Lo que dice el gráfico, en una frase.</strong> Entre hoy y el cierre del 30 de octubre el programa recupera <strong>entre $16,0 y $42,3 millones</strong>, según a qué perfil se le valore la hora. Lo interesante no es ese tramo: es que <strong>a partir del cierre el ahorro sigue corriendo sin costo adicional</strong>, porque los procesos ya quedaron cambiados.
+      <br><br>
+      <strong>La banda entre las tres líneas es la conversación que hay que tener.</strong> Nadie discute las horas, porque están medidas tarea por tarea. Lo que se discute es la tarifa, y por eso el tablero se planta en la más baja: <strong>$118,4 millones a doce meses valorando todo como si lo hiciera un profesional.</strong> El número real está en algún punto de esa banda, y siempre por encima del piso.
     </div>
   </section>
 
@@ -292,13 +396,13 @@
       <table>
         <thead><tr><th>Escenario</th><th class="c">Personas</th><th class="c">Costo al año</th><th class="c">Recuperado al año</th><th class="c">Retorno</th></tr></thead>
         <tbody>
-          <tr class="base"><td class="area">Solo las seis áreas que ya registran</td><td class="c">15</td><td class="c">$14,4 M</td><td class="c">$126,1 M</td><td class="c"><span class="pill good">8,8 veces</span></td></tr>
-          <tr><td class="area">Todo el programa</td><td class="c">51</td><td class="c">$49,0 M</td><td class="c">$126,1 M</td><td class="c"><span class="pill good">2,6 veces</span></td></tr>
+          <tr class="base"><td class="area">Solo las diez áreas que ya tienen medición</td><td class="c">25</td><td class="c">$24,0 M</td><td class="c">$118,4 M</td><td class="c"><span class="pill good">4,9 veces</span></td></tr>
+          <tr><td class="area">Todo el programa</td><td class="c">51</td><td class="c">$49,0 M</td><td class="c">$118,4 M</td><td class="c"><span class="pill good">2,4 veces</span></td></tr>
         </tbody>
       </table>
     </div>
     <div class="note plain">
-      <strong>El supuesto de precio, dicho en voz alta:</strong> una licencia profesional a unos <strong>US$20 al mes</strong>, a $4.000 por dólar, son $80.000 mensuales por persona. Hay que confirmarlo con la tarifa vigente y el plan que se elija. <strong>Y la cuenta compara solo contra lo que ya está registrado</strong>: si entran las quince áreas que hoy están en cero, el retorno sube, no baja.
+      <strong>El supuesto de precio, dicho en voz alta:</strong> una licencia profesional a unos <strong>US$20 al mes</strong>, a $4.000 por dólar, son $80.000 mensuales por persona. Hay que confirmarlo con la tarifa vigente y el plan que se elija. <strong>Y la cuenta compara contra el escenario más bajo</strong>, valorando todas las horas a tarifa de profesional y con once áreas todavía sin medir. Si entran esas once, o si se le asigna a cada tarea el perfil real que la ejecuta, <strong>el retorno sube, nunca baja</strong>.
     </div>
     <div class="note">
       <strong>El contra-argumento, para que no llegue de sorpresa.</strong> El acta de Tecnología del viernes deja por escrito que <strong>Comfacesar ya paga una herramienta de IA que prácticamente nadie usa</strong>. Es capacidad instalada sin aprovechar, y es lo primero que va a poner sobre la mesa una dirección financiera.
@@ -312,20 +416,52 @@
       <h3>El punto de equilibrio</h3>
       <h2>En cuántas semanas se paga la inversión</h2>
     </div>
-    <p>A $2.628.000 recuperados por semana. <strong>El costo del programa no está en este tablero</strong>, así que aquí va la tabla para que se lea la cifra que corresponda.</p>
+    <p>A <strong>$2.465.809 recuperados por semana</strong>, que es el escenario más bajo de los tres. <strong>El costo del programa no está en este tablero</strong>, así que aquí va la tabla para que se lea la cifra que corresponda.</p>
     <div class="tablewrap">
       <table>
         <thead><tr><th>Si la inversión fue</th><th class="c">Se paga en</th><th class="c">Y en 12 meses devuelve</th></tr></thead>
         <tbody>
-          <tr><td class="area">$20 millones</td><td class="c">7,6 semanas</td><td class="c"><span class="pill good">6,3 veces</span></td></tr>
-          <tr><td class="area">$40 millones</td><td class="c">15,2 semanas</td><td class="c"><span class="pill good">3,2 veces</span></td></tr>
-          <tr><td class="area">$60 millones</td><td class="c">22,8 semanas</td><td class="c"><span class="pill good">2,1 veces</span></td></tr>
-          <tr><td class="area">$80 millones</td><td class="c">30,4 semanas</td><td class="c"><span class="pill warn">1,6 veces</span></td></tr>
+          <tr><td class="area">$20 millones</td><td class="c">8,1 semanas</td><td class="c"><span class="pill good">5,9 veces</span></td></tr>
+          <tr><td class="area">$40 millones</td><td class="c">16,2 semanas</td><td class="c"><span class="pill good">3,0 veces</span></td></tr>
+          <tr><td class="area">$60 millones</td><td class="c">24,3 semanas</td><td class="c"><span class="pill good">2,0 veces</span></td></tr>
+          <tr><td class="area">$80 millones</td><td class="c">32,4 semanas</td><td class="c"><span class="pill warn">1,5 veces</span></td></tr>
         </tbody>
       </table>
     </div>
     <div class="note good">
-      <strong>Y esto es lo que hay que subrayar en la reunión: la cuenta está hecha con seis áreas de veintiuna.</strong> Las quince restantes no es que no hayan producido, es que no registraron. <strong>Cada área que llena su hoja mueve el retorno hacia arriba</strong>, y no cuesta una sesión nueva: cuesta cuarenta minutos de registro.
+      <strong>Y esto es lo que hay que subrayar en la reunión: la cuenta está hecha con diez áreas de veintiuna, valoradas todas a la tarifa más baja.</strong> Las once restantes no es que no hayan producido, es que no se ha medido. <strong>Cada área que se sienta a medir mueve el retorno hacia arriba</strong>, y no cuesta una sesión nueva: cuesta cuarenta minutos.
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h3>La segunda fuente</h3>
+      <h2>Medido en acta, sin registrar en el archivo</h2>
+    </div>
+    <p>Cinco mediciones quedaron en actas de sesión, verificadas con el equipo en el momento, y nadie las pasó al archivo. <strong>Cuentan igual</strong>, y por eso entran aquí, marcadas para que se sepa de dónde salen.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Área</th><th>Tarea</th><th>Frecuencia</th><th class="c">Antes</th><th class="c">Hoy</th><th class="c">Reducción</th><th class="c">Ahorro semanal</th></tr></thead>
+        <tbody>
+          <tr><td class="area">Vivienda</td><td class="tarea">Análisis de un informe de interventoría</td><td class="frec">Mensual · 11 proyectos</td><td class="c">240</td><td class="c">30</td><td class="c"><span class="pill good">87%</span></td><td class="c"><strong>512 min</strong></td></tr>
+          <tr><td class="area">Contabilidad</td><td class="tarea">Reporte mensual de anticipos</td><td class="frec">Mensual</td><td class="c">240</td><td class="c">10</td><td class="c"><span class="pill good">96%</span></td><td class="c"><strong>53 min</strong></td></tr>
+          <tr class="cero"><td class="area">Mercadeo</td><td class="tarea">Tablero de 710 leads de turismo</td><td class="frec">sin registrar</td><td class="c">60</td><td class="c">15</td><td class="c"><span class="pill good">75%</span></td><td class="c">falta frecuencia</td></tr>
+          <tr class="cero"><td class="area">Subsidio</td><td class="tarea">Reporte de tipo de aportante</td><td class="frec">sin registrar</td><td class="c">30</td><td class="c">10</td><td class="c"><span class="pill warn">67%</span></td><td class="c">falta frecuencia</td></tr>
+          <tr class="cero"><td class="area">Agencia de Empleo</td><td class="tarea">Filtrar candidatos de una vacante</td><td class="frec">sin registrar</td><td class="c">150</td><td class="c">18</td><td class="c"><span class="pill good">88%</span></td><td class="c">posible solape</td></tr>
+          <tr class="suma"><td>5 tareas</td><td>De cinco áreas, cuatro de ellas nuevas</td><td class="frec">2 con frecuencia</td><td class="c">720</td><td class="c">83</td><td class="c">88%</td><td class="c">565 min · 9,4 h</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="note">
+      <strong>Vivienda es la que más cambia el tablero, y por poco no estaba.</strong> Analizar un informe de interventoría pasó de <strong>4 horas a 30 minutos</strong>, y el acta precisa el volumen: <strong>11 proyectos al mes, 37 horas mensuales recuperadas</strong>. Eso son 8,5 horas semanales, más que Jurídica con sus doce tareas. <strong>Y su hoja del archivo está completamente vacía.</strong>
+      <br><br>
+      <strong>Las tres de abajo no entran a ninguna suma</strong>, y conviene decir por qué en vez de meterlas: a Mercadeo y a Subsidio les falta la frecuencia, sin la cual no hay proyección posible. Y la de Agencia de Empleo <strong>puede ser la misma tarea</strong> que el área ya registró como «proceso de intermediación laboral», medida de otra forma, así que sumarla sería contarla dos veces.
+    </div>
+    <div class="note plain">
+      <strong>Una diferencia entre las dos fuentes que hay que resolver.</strong> La prevalidación precontractual aparece en el acta como <strong>480 → 15 minutos</strong> y en el archivo como <strong>480 → 30</strong>. Este tablero usa la del archivo, que es la más conservadora y la que escribió el propio Rafael. Vale confirmar cuál es.
+    </div>
+    <div class="note plain">
+      <strong>Y Tecnología tiene trabajo hecho que no se puede contar todavía.</strong> Clasificación de órdenes por cuantía, comparación de contratos y detección de incoherencias, construidas por cuenta propia entre sesiones y funcionando. <strong>Ninguna tiene tiempo antes y después</strong>, así que no hay medición, solo constancia. Medirlas es de las cosas más rentables que puede hacer esta semana.
     </div>
   </section>
 
@@ -363,7 +499,9 @@
           <tr class="cero"><td class="area">Sub. Operativa</td><td class="tarea">Informes empresariales</td><td class="frec">Ocasional</td><td class="c">240</td><td class="c">30</td><td class="c"><span class="pill good">88%</span></td><td class="c">sin frecuencia</td></tr>
           <tr class="cero"><td class="area">Jurídica</td><td class="tarea">Consolidación del informe de sostenibilidad</td><td class="frec">Ocasional</td><td class="c">30</td><td class="c">8</td><td class="c"><span class="pill good">73%</span></td><td class="c">sin frecuencia</td></tr>
           <tr class="cero"><td class="area">Jurídica</td><td class="tarea">Formatos de inscripción de proveedores</td><td class="frec">Ocasional</td><td class="c">15</td><td class="c">3</td><td class="c"><span class="pill good">80%</span></td><td class="c">sin frecuencia</td></tr>
-          <tr class="suma"><td>21 tareas</td><td>Total registrado</td><td class="frec">16 con frecuencia</td><td class="c">7.982</td><td class="c">698</td><td class="c">91%</td><td class="c">3.505 min · 58 h</td></tr>
+          <tr class="suma"><td>21 tareas</td><td>Registrado en el archivo</td><td class="frec">16 con frecuencia</td><td class="c">7.982</td><td class="c">698</td><td class="c">91%</td><td class="c">3.505 min · 58,4 h</td></tr>
+          <tr class="suma"><td>+ 5 tareas</td><td>Medidas en acta, ver arriba</td><td class="frec">2 con frecuencia</td><td class="c">720</td><td class="c">83</td><td class="c">88%</td><td class="c">565 min · 9,4 h</td></tr>
+          <tr class="suma"><td><strong>26 tareas</strong></td><td><strong>Total del programa</strong></td><td class="frec">18 con frecuencia</td><td class="c"><strong>8.702</strong></td><td class="c"><strong>781</strong></td><td class="c"><strong>91%</strong></td><td class="c"><strong>4.070 min · 67,8 h</strong></td></tr>
         </tbody>
       </table>
     </div>
