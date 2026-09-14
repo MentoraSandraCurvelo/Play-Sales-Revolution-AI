@@ -15,6 +15,38 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🔁 14 sep · 09:05 · La grabación de Contabilidad S6 sí existía · v31
+
+**Error mío, y es de método.** El corte de las 7:45 declaró Contabilidad S6 «la única
+sesión ejecutada del programa sin ningún rastro documental». **Falso.** La grabación está
+en la carpeta de grabaciones de Teams de Sandra, donde está la de todas las demás:
+
+`⭕️Comfacesar Contabilidad S6 IAM™Intelligence-20260911_141810-Grabación de la reunión.mp4`
+procesada el viernes 11 a las 3:04 p. m.
+
+**La regla que sale de esto:** busqué en **Dropbox y en el canal**, que es donde los
+soportes se *publican*, y no en **OneDrive/Teams**, que es donde se *graban*. Son dos
+cosas distintas. Antes de decir que una grabación no existe, hay que mirar el origen, no
+solo el destino. Es la cuarta vez que este tablero da por faltante algo que solo estaba
+en otro sitio o llegaba tarde.
+
+**Lo que sí falta son dos cosas, no tres:** el acta y el informe de asistencia. La S6
+sigue fuera del cálculo de asistencia, que se queda en 61 de 66 sesiones medidas.
+
+### Y el archivo trae el dato que faltaba del 11 de septiembre
+
+| Hora | Qué |
+|---|---|
+| 14:15 | Publico el aviso de que el espacio se perdió |
+| **14:18** | **Arranca la grabación. Carlos ya estaba** |
+
+**Fueron tres minutos, no quince.** La regla de no dar un espacio por vencido hasta que
+pase la hora completa queda mejor sostenida de lo que yo mismo la había escrito.
+
+**Tablero:** https://claude.ai/code/artifact/8949a813-41e2-4c31-b234-d0b3ada2eb6e · v31
+
+---
+
 ## ✅ 14 sep · 08:40 · Sandra cancela la Cumplimiento del viernes · v30
 
 **Lo pedido:** ninguna publicación en Slack. Solo tablero.
