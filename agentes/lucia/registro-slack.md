@@ -609,3 +609,8 @@ Cinco sesiones, cinco actas. Las cuatro primeras publicadas el mismo día; la de
 **Patrón que se repite esta semana**
 - Áreas con ejercicios funcionando y cero registros en el tablero de seguimiento: Tecnología (0 líneas), Vivienda (3 trabajos sin documentar), Servicios Sociales (corregido en sesión). El tablero es lo que sustenta la presentación de cierre al director.
 
+**Sesión que se quedó sin acta hasta el 14 de septiembre**
+- **Contabilidad S6 — viernes 11, 2:00 p. m., Carlos Lozano.** No llegó el enlace de la grabación y los archivos se subieron a Dropbox el lunes 14 a la 1:22 p. m. El acta y el resumen del canal salieron el 14, con tres días de retraso sobre el criterio del mismo día.
+- **Aprendizaje:** el criterio del mismo día depende de que llegue el enlace. Cuando termine una jornada conviene cruzar las sesiones del calendario contra las grabaciones recibidas, para que no se pierda ninguna.
+- Aporta dos de los ahorros más altos del programa: viáticos de 240 a 10 minutos y conciliaciones bancarias de dos días a 40 minutos. Ambos entraron al tablero de corte.
+

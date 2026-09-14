@@ -1,0 +1,242 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "CONTABILIDAD",
+  "area_completa": "",
+  "sesion_num": 6,
+  "fase": "Sistemas de Trabajo Agénticos",
+  "fecha": "11 de septiembre de 2026",
+  "fecha_corta": "11 septiembre 2026",
+  "subtitulo_meta": "Individual de Carlos Lozano · 11 de septiembre de 2026 · 2:00 p. m. · 45 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Contabilidad — Comfacesar"],
+    ["Sesión", "N° 6 — Individual de Carlos Lozano: el agente del reporte mensual y el tablero que reemplaza al Excel"],
+    ["Fecha", "11 de septiembre de 2026"],
+    ["Hora inicio", "2:00 p. m. — Colombia"],
+    ["Duración de la sesión", "45 minutos (2:17 p. m. – 3:02 p. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Carlos Lozano — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "10 min", "etiqueta": "El reporte de viáticos", "detalle": "Antes cuatro horas, y sin KPIs ni tablero"},
+    {"valor": "40 min", "etiqueta": "Las conciliaciones", "detalle": "Antes tomaban hasta dos días"},
+    {"valor": "1", "etiqueta": "Agente programado", "detalle": "Corre el 8 de cada mes y espera aprobación"},
+    {"valor": "0", "etiqueta": "De esos ahorros registrados", "detalle": "Ninguno está todavía en el tablero"},
+    {"valor": "2", "etiqueta": "Procesos más por mapear", "detalle": "Requieren autorización de la jefatura"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Carlos Daniel Lozano Sanjuán", "cargo": "Asistente de Contabilidad — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 6. El área dio el salto al trabajo programado: tiene un agente con horario y un tablero que apunta a reemplazar el envío del archivo. Lo que queda abierto es de alcance y de registro, no de método.",
+  "riesgos": [
+    {
+      "titulo": "Dos ahorros grandes sin registrar en el tablero",
+      "nivel": "ALTO",
+      "descripcion": "El reporte de viáticos pasó de cuatro horas a diez minutos, y las conciliaciones bancarias pequeñas de hasta dos días a menos de cuarenta minutos. _Ninguno de los dos está en el tablero de seguimiento._ Es el reporte que ven la dirección y la líder del proyecto, y son de los ahorros más altos del programa.",
+      "responsable": "Carlos Lozano / Esta semana"
+    },
+    {
+      "titulo": "El alcance del área depende de una autorización que no se había pedido",
+      "nivel": "ALTO",
+      "descripcion": "El puesto no lleva todos los procesos de Contabilidad, y mapear los del resto del equipo requiere el visto bueno de la jefatura del área. _Nunca se había planteado_, de modo que el área ha venido automatizando solo lo que un puesto controla. Ahí está el techo actual del avance.",
+      "responsable": "Carlos Lozano + jefatura de Contabilidad / Esta semana"
+    },
+    {
+      "titulo": "El resto del equipo del área no está participando",
+      "nivel": "ALTO",
+      "descripcion": "El área viene avanzando con una sola persona. El resto del equipo está con carga de pagos y no ha podido sacar tiempo. El cierre de octubre se mide por área, no por individuo: lo que se construye en un puesto no se traslada solo.",
+      "responsable": "Jefatura de Contabilidad / Esta semana"
+    },
+    {
+      "titulo": "El tablero todavía no muestra todo lo que el área necesita ver",
+      "nivel": "MEDIO",
+      "descripcion": "Para que el archivo de cálculo pueda desaparecer, el tablero tiene que mostrar el mismo nivel de detalle. Falta la vista de detalle por tercero y los totales. _Lo detectó el propio puesto_, que es exactamente el criterio correcto: quien conoce la información es quien sabe qué no puede faltar.",
+      "responsable": "Carlos Lozano / Antes de la S7"
+    },
+    {
+      "titulo": "El punto de entrada del proceso sigue siendo manual",
+      "nivel": "MEDIO",
+      "descripcion": "Los reportes de conciliaciones, movimientos del libro y viáticos hay que descargarlos del sistema uno por uno. Es el paso que la conexión con el sistema eliminaría, y el propio puesto lo señaló como su siguiente aspiración.",
+      "responsable": "Carlos Lozano + Tecnología / Por gestionar"
+    },
+    {
+      "titulo": "El canal del área no se está leyendo con frecuencia",
+      "nivel": "BAJO",
+      "descripcion": "La encuesta del programa lleva publicada desde el 8 de septiembre y no se había visto. El canal es donde quedan la grabación, el acta y los avisos del programa.",
+      "responsable": "Carlos Lozano / Permanente"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Registrar los dos ahorros en el tablero de seguimiento",
+      "descripcion": "Viáticos —de 240 a 10 minutos— y conciliaciones bancarias —de dos días a 40 minutos—. Con el tiempo antes convertido a minutos y una nota de cómo se hacía.",
+      "responsable": "Carlos Lozano",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Plantear a la jefatura el mapeo del resto de procesos del área",
+      "descripcion": "Balances, estados financieros y todo lo que hoy se resuelve por fuera en hojas de cálculo. Es lo que permite pasar de un puesto automatizado a un área automatizada.",
+      "responsable": "Carlos Lozano",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Verificar que el agente envió el correo de agosto",
+      "descripcion": "Quedó lanzada la primera corrida de prueba con el cierre de agosto. Si se detuvo, se termina de configurar.",
+      "responsable": "Carlos Lozano",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Traer mapeados los dos procesos que el puesto ya tiene en mente",
+      "descripcion": "Para presentarlos como evidencia en la reunión de sustentación con la dirección.",
+      "responsable": "Carlos Lozano",
+      "plazo": "Antes de la reunión"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Terminar de modelar el tablero",
+      "descripcion": "La vista de detalle por tercero, los totales y el logo institucional. El criterio de cierre: que el área pueda dejar de recibir el archivo de cálculo.",
+      "responsable": "Carlos Lozano",
+      "plazo": "Antes de la S7"
+    },
+    {
+      "num": "06",
+      "nivel": "BAJO",
+      "titulo": "Contestar la encuesta del programa",
+      "descripcion": "Está publicada en el canal desde el 8 de septiembre y alimenta el seguimiento que ve la dirección.",
+      "responsable": "Carlos Lozano",
+      "plazo": "Esta semana"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Lo que el área trae medido",
+      "duracion": "~6 min",
+      "objetivo": "Recoger los tiempos de lo que ya está funcionando.",
+      "pasos": [
+        "_El reporte de viáticos:_ el cierre de agosto se resolvió en **diez minutos**. Antes tomaba **cuatro horas** — y conviene leer bien la comparación: esas cuatro horas servían solo para identificar qué quedaba pendiente. No producían ni los indicadores ni el tablero, que ahora salen en la misma corrida",
+        "_Las conciliaciones bancarias:_ las pequeñas tomaban **hasta dos días** y hoy están en **menos de cuarenta minutos**. La causa del tiempo anterior era el volumen, no la dificultad — descargar los documentos, cruzar la información, repetir por cada conciliación",
+        "_Y quedó dicho que ese número todavía puede bajar:_ el área ya no sube archivos, conecta la carpeta. El siguiente recorte viene de ahí",
+        "El reporte de agosto quedó completo: resumen con semaforización, indicadores, gráficos en hoja aparte —así lo pidió el puesto— y el acta actualizada sola, con sus compromisos y fechas de entrega"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Elía, el agente del reporte mensual",
+      "duracion": "~20 min",
+      "objetivo": "Pasar del asistente que espera instrucciones al sistema que corre solo.",
+      "pasos": [
+        "_La distinción que quedó clara:_ el proyecto es un asistente —se le dan instrucciones y ejecuta—. El agente se programa una vez, se le define cada cuánto corre, y de ahí en adelante trabaja solo y reporta",
+        "Se creó la carpeta de repositorio en el escritorio, con una subcarpeta para el proceso, y se depositaron allí el archivo y el acta. _El criterio:_ el agente lee de la carpeta, no de la conversación",
+        "_Lo que hace el agente:_ corre **el 8 de cada mes a las 9:00 de la mañana**, ejecuta el comando del reporte mensual —la depuración del archivo y el tablero—, y arma el correo al área de gestión humana",
+        "_Y lo más importante, por diseño:_ **nunca envía el correo solo.** Se detiene, espera a que el puesto lo lea y lo apruebe, y solo entonces lo envía",
+        "Se le cargó el borrador del correo que ya estaba construido en el proyecto, para que no haya que reescribirlo",
+        "Quedó lanzada la primera corrida de prueba con el cierre de agosto",
+        "_Y un criterio de organización:_ un agente por sistema de trabajo. Los demás procesos del área tendrán el suyo, como si fueran puestos distintos"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El tablero que hace desaparecer el archivo",
+      "duracion": "~15 min",
+      "objetivo": "Dejar de enviar el archivo de cálculo y pasar a un tablero consultable.",
+      "pasos": [
+        "_El objetivo dicho sin rodeos:_ que el área deje de recibir el archivo por correo y consulte el tablero en vivo. Hoy el archivo se envía; mañana se comparte un enlace que está siempre actualizado",
+        "Se modeló la navegación: pestañas por tema, a la manera de un índice, en lugar de una sola vista larga. El sistema propuso primero filtros combinables y se descartó por complejo",
+        "Quedó la vista por tercero con detalle expandible, y los meses anteriores consultables",
+        "_Lo que falta, detectado por el propio puesto:_ el nivel de detalle equivalente al del archivo —lo que se describió como «verlo en vivo»— y los totales por tercero. Sin eso, el área va a echar de menos el archivo",
+        "_Y el método para pedirlo:_ cuando el resultado no sirve, se dice sin rodeos qué falta. Se corrigió dos veces en sesión y las dos veces el tablero mejoró",
+        "Falta el logo institucional"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Lo que viene: conectar el tablero al sistema",
+      "duracion": "~4 min",
+      "objetivo": "Encuadrar la sustentación ante la dirección.",
+      "pasos": [
+        "Se informó al área que **el software contable no lo desarrolla Comfacesar**: es de un proveedor externo especializado en cajas de compensación, con sede en Girardot",
+        "_Por eso hay reunión con la dirección:_ para sustentar la conexión del tablero al sistema, de modo que la información llegue sola en lugar de descargar el reporte de legalizaciones y subirlo",
+        "El área irá como apoyo a esa sustentación, mostrando lo construido",
+        "_Y el puesto subió la apuesta:_ pidió que ni siquiera haya que descargar los reportes — ni las conciliaciones, ni los movimientos del libro, ni los viáticos. Hoy los descarga uno por uno",
+        "_El argumento que sostiene la petición:_ entre más procesos construidos se le muestren a la dirección, más rápido se autoriza la conexión. Por eso la tarea de traer los dos procesos siguientes mapeados"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD MEDIDA · SESIÓN 6 · 11 septiembre 2026",
+      "titulo": "Cuatro horas a diez minutos, y con más de lo que había antes",
+      "descripcion": "El reporte mensual de viáticos. Y la comparación es mejor de lo que el número sugiere: las cuatro horas anteriores servían solo para saber qué quedaba pendiente. Los indicadores y el tablero no existían — hoy salen en la misma corrida de diez minutos.",
+      "estado": "Funcionando",
+      "proximo_paso": "Registrarlo en el tablero de seguimiento",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "OPORTUNIDAD MEDIDA · SESIÓN 6 · 11 septiembre 2026",
+      "titulo": "Las conciliaciones bancarias, de dos días a cuarenta minutos",
+      "descripcion": "Las pequeñas tomaban hasta dos jornadas completas, no por dificultad sino por volumen: descargar, cruzar, repetir por cada una. Hoy están por debajo de los cuarenta minutos, y el puesto todavía puede recortar más conectando la carpeta en vez de subir archivos.",
+      "estado": "Funcionando",
+      "proximo_paso": "Registrarlo y afinar con lectura de carpeta",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 6 · 11 septiembre 2026",
+      "titulo": "Elía, el agente del cierre mensual",
+      "descripcion": "El 8 de cada mes a las nueve de la mañana: depura el archivo, arma el tablero, redacta el correo al área de gestión humana y se detiene a esperar el visto bueno. Es el primer agente de Contabilidad y está diseñado con el control en el punto correcto — el envío nunca es automático.",
+      "estado": "Programado; primera corrida lanzada",
+      "proximo_paso": "Verificar el envío del cierre de agosto",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "OPORTUNIDAD PLANTEADA · SESIÓN 6 · 11 septiembre 2026",
+      "titulo": "Que el archivo de cálculo deje de circular",
+      "descripcion": "Hoy el área envía un archivo por correo cada mes. El destino es un tablero consultable en vivo, con el mismo detalle, los meses anteriores y los indicadores. Cuando el tablero muestre todo lo que hoy muestra el archivo, el archivo sobra.",
+      "estado": "En modelamiento",
+      "proximo_paso": "Detalle por tercero, totales y logo",
+      "target": "Sesión 7"
+    }
+  ],
+  "tareas_intro": "El área cruzó a la fase programada: tiene un agente con horario y un tablero que apunta a reemplazar el envío del archivo. Lo que queda abierto no es de método — es de registro y de alcance.",
+  "tareas": [
+    {"tarea": "Registrar los ahorros de viáticos y conciliaciones en el tablero", "responsable": "Carlos Lozano", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Plantear a la jefatura el mapeo del resto de procesos del área", "responsable": "Carlos Lozano", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Verificar que el agente envió el correo del cierre de agosto", "responsable": "Carlos Lozano", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Traer mapeados los dos procesos siguientes", "responsable": "Carlos Lozano", "prioridad": "ALTA", "plazo": "Antes de la sustentación"},
+    {"tarea": "Terminar de modelar el tablero: detalle, totales y logo", "responsable": "Carlos Lozano", "prioridad": "MEDIA", "plazo": "Antes de la S7"},
+    {"tarea": "Contestar la encuesta del programa", "responsable": "Carlos Lozano", "prioridad": "BAJA", "plazo": "Esta semana"},
+    {"tarea": "Agendar las sesiones de la próxima semana", "responsable": "Carlos Lozano", "prioridad": "MEDIA", "plazo": "Esta semana"}
+  ],
+  "observaciones": [
+    "Los dos ahorros de esta sesión están entre los más altos del programa y conviene leerlos con cuidado. El de viáticos no es «cuatro horas a diez minutos» a secas: las cuatro horas anteriores solo servían para saber qué quedaba pendiente, sin indicadores ni tablero. Hoy los tres salen juntos. Y el de conciliaciones —de dos jornadas a cuarenta minutos— todavía tiene recorrido, porque el área ya no necesita subir archivos: le basta con conectar la carpeta.",
+    "Ninguno de los dos está registrado en el tablero de seguimiento. Es el mismo patrón que se repitió en varias áreas esta semana, y el argumento sigue siendo el mismo: ese tablero es lo que sustenta la presentación de cierre y cualquier decisión de octubre. El trabajo que no se registra existe, pero no se puede defender.",
+    "El agente quedó bien diseñado y merece destacarse dónde está el control: corre solo, depura, arma el tablero y redacta el correo — pero **no lo envía**. Se detiene y espera el visto bueno. En un proceso que termina en el área de gestión humana, ese es exactamente el punto donde debe estar una persona.",
+    "Apareció el techo real del área y no es técnico: el puesto no lleva todos los procesos de Contabilidad, y mapear los del resto del equipo requiere una autorización de la jefatura que nunca se había pedido, sencillamente porque no se había planteado. De ahí en adelante la diferencia es grande — pasar de un puesto automatizado a un área automatizada.",
+    "Ligado a lo anterior: el área viene avanzando con una sola persona mientras el resto del equipo está con carga de pagos. El cierre se mide por área. Lo que se construye en un puesto no se traslada solo.",
+    "La petición que hizo el puesto al final es la más ambiciosa que ha salido de Contabilidad, y es correcta: que no haya que descargar ningún reporte —ni conciliaciones, ni movimientos del libro, ni viáticos—. Eso es exactamente lo que resolvería la conexión con el sistema, y es lo que se lleva a sustentar ante la dirección."
+  ],
+  "proxima_sesion": {
+    "sesion": "Contabilidad — Sesión 7",
+    "condiciones": [
+      "Los dos ahorros registrados en el tablero de seguimiento",
+      "El envío del agente verificado",
+      "Los dos procesos siguientes mapeados",
+      "Respuesta de la jefatura sobre el alcance del área"
+    ],
+    "agenda": [
+      "Revisión del agente y de lo que produjo en su primera corrida",
+      "El tablero terminado, con detalle y totales",
+      "El mapeo de los dos procesos nuevos",
+      "Los balances y estados financieros, si hay autorización"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 11 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
