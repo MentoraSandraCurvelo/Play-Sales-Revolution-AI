@@ -15,6 +15,36 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📩 14 sep · 15:05 · Liliany cancela la S7 por DM · Termómetro v32
+
+**No respondí.** Reprogramar y cancelar son de Sandra, según el contrato.
+
+**Lo que llegó**, mensaje directo a Sandra, `D0BR3K7B7F1`:
+
+| Hora | Quién | Qué |
+|---|---|---|
+| 14:43:05 | Liliany Gómez Zuleta | «Hola! Sandra, un gusto saludarte.» |
+| 14:43:42 | Liliany Gómez Zuleta | «Paso a comunicarte que se me presentó un inconveniente de última hora y se me hace imposible conectarme a la sesión programada para hoy» |
+
+**Diecisiete minutos antes de la sesión de las 3:00.** Sandra todavía no ha respondido.
+
+**Lo anotado en el tablero:**
+- Fila nueva en Sub. Administrativa: **S7 · cancelada · Liliany · 14 sep**, sin marcas.
+- La semana pasa de **catorce a trece** sesiones, y Sub. Administrativa de cinco a cuatro.
+- **No entra a ningún indicador.** Las 66 sesiones y el 91% no se mueven.
+- **La de Rafael de las 4:00 sigue en pie**, que es la reprogramada del viernes.
+
+### Un pendiente que se cierra solo
+
+El mensaje viene de **`profesionalaf@comfacesar.com`**. Este tablero traía desde hace días
+que «el correo corporativo de Liliany sigue por confirmar», porque estaba invitada con
+`liligozu@gmail.com` y por eso sus sesiones no cruzaban con el canal del área. **Ya se
+conoce**, y queda dicho en el tablero para que las próximas invitaciones salgan con ese.
+
+**Tablero:** https://claude.ai/code/artifact/8949a813-41e2-4c31-b234-d0b3ada2eb6e · v32
+
+---
+
 ## 🧹 14 sep · 11:30 · Sala de Control v3 · fuera las notas de corrección
 
 **Sandra tiene razón y la lección es de método.** El tablero es lo que ella proyecta
