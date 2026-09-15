@@ -614,3 +614,41 @@ Cinco sesiones, cinco actas. Las cuatro primeras publicadas el mismo día; la de
 - **Aprendizaje:** el criterio del mismo día depende de que llegue el enlace. Cuando termine una jornada conviene cruzar las sesiones del calendario contra las grabaciones recibidas, para que no se pierda ninguna.
 - Aporta dos de los ahorros más altos del programa: viáticos de 240 a 10 minutos y conciliaciones bancarias de dos días a 40 minutos. Ambos entraron al tablero de corte.
 
+---
+
+## Lunes 15 de septiembre de 2026 — campaña de recordatorio en todos los canales
+
+Publicado en **18 canales** (17 de área + `#todo-iamteam`). Mismo arranque en todos —los
+cuatro agentes corriendo, para motivar— y un bloque propio por área con su estado real,
+más el recordatorio de agendar y de contestar la encuesta.
+
+| Canal | Ángulo del mensaje |
+|---|---|
+| `#juridica` | Dos de los cuatro agentes son suyos · S6 |
+| `#sub-admin-y-financiera-infraestructura` | Ronaldo · de bloqueo a agente en 58 min |
+| `#contabilidad` | Elía · dos ahorros altos sin registrar |
+| `#agencia-de-empleo` | Sofía · el mapeo destapó el proceso roto |
+| `#serivcios-sociales` | 8 días a 4 horas · pendiente la solicitud de equipos |
+| `#vivienda` | 52 familias en un tablero · a una sesión del agente |
+| `#comunicaciones` | Primera corrida con una línea · unificar el asunto |
+| `#subsidio` | Bienvenida a Cindy Rodríguez · traer proceso mapeado |
+| `#tecnologia` | Línea vacía en el tablero · pueden destrabar a 4 áreas |
+| `#ips` | La cifra más alta del programa, por validar · frecuencia |
+| `#tesoreriaa` | Bloqueo de insumo: los títulos en papel |
+| `#planeacion` | Primera habilidad del programa · retomar |
+| `#gerencia-financiera` | Retomar · avanzar sin el complemento de Office |
+| `#talento-humano` | Su tablero es una de las 4 conexiones en la mesa |
+| `#educacion` | Media área dos sesiones · el plan vence en noviembre |
+| `#mercadeo` | No asistió a la S4 · tomar fecha |
+| `#sub-operativa` | Costeos ya opera solo · sin sesión desde el 1 de sep |
+| `#cumplimiento` | Reinicio con Ana María y Aura · la gobernanza es suya |
+| `#todo-iamteam` | Anuncio general con las cifras del programa |
+
+**Criterio usado:** a las áreas rezagadas se les dice lo que falta sin reproche, con el
+mismo argumento en todas — *la diferencia no ha sido el nivel técnico de partida, ha sido
+cuántas veces nos vimos*.
+
+**También ese día**
+- Se publicó la grabación de **Contabilidad S6** (llegó el enlace cuatro días después de
+  la sesión).
+
