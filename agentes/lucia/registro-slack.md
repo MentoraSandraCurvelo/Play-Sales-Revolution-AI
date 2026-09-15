@@ -652,3 +652,33 @@ cuántas veces nos vimos*.
 - Se publicó la grabación de **Contabilidad S6** (llegó el enlace cuatro días después de
   la sesión).
 
+
+---
+
+## Martes 15 de septiembre de 2026 — acta de la Sub. Administrativa y Financiera S6
+
+Sesión del **lunes 14 de septiembre, 4:01–5:00 p. m.**, individual de Rafael Solano (59 min).
+Numeración verificada contra el registro: S1 20 ago · S2 2 sep · S3 7 sep · S4 8 sep · S5 9 sep.
+
+**Publicado**
+- Grabación → `#sub-admin-y-financiera-infraestructura` (`1789491913.571409`)
+- Resumen de sesión → mismo canal (`1789492256.558959`)
+- Acta PDF entregada a Sandra: `ACTA_Sesion6_SubAdministrativaYFinanciera_14septiembre2026.pdf`
+
+**Lo que cambia el estado del área**
+El agente pasó de revisar a ejecutar el circuito: cotejo del correo contra propuesta, RUT y
+cámara de comercio → documento de hallazgos → aprobación del puesto → correo al área
+solicitante → cuadro a Gerencia Financiera. Se verificó **en vivo un envío real** y la
+respuesta de presupuesto con centro de costo ya recibida. Primera vez en el programa que se
+comprueba un sistema operando sobre un trámite real de la Caja.
+
+También se probó el diligenciamiento del cuadro de seguimiento —el trabajo que el puesto daba
+por imposible de explicar porque lo hacía «por interpretación»—. Llenó campos vacíos, redactó
+la justificación y clasificó bien el tipo de contrato.
+
+**Hallazgo para el corte:** Jurídica ya automatizó la asignación de sus contratos y esta área
+le entrega la documentación. Sería **el primer empalme entre dos agentes de áreas distintas**
+del programa. Lo propuso el propio puesto.
+
+**Bloqueo abierto:** el conector de archivos apuntaba a una cuenta distinta de la del Drive de
+Jurídica. Se reconectó en sesión, falta verificar. *Mismo patrón que apareció en Vivienda.*

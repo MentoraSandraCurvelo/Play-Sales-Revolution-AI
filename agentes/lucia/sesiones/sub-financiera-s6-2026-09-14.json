@@ -1,0 +1,230 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SUB. ADMINISTRATIVA Y FINANCIERA",
+  "area_completa": "",
+  "sesion_num": 6,
+  "fase": "Sistemas de Trabajo Agénticos",
+  "fecha": "14 de septiembre de 2026",
+  "fecha_corta": "14 septiembre 2026",
+  "subtitulo_meta": "Individual de Rafael Solano · 14 de septiembre de 2026 · 4:00 p. m. · 59 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Sub. Administrativa y Financiera — Comfacesar"],
+    ["Sesión", "N° 6 — Individual de Rafael Solano: el agente cerrando el circuito y diligenciando el cuadro de seguimiento"],
+    ["Fecha", "14 de septiembre de 2026"],
+    ["Hora inicio", "4:00 p. m. — Colombia"],
+    ["Duración de la sesión", "59 minutos (4:01 p. m. – 5:00 p. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Rafael Solano — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "1", "etiqueta": "Circuito corriendo", "detalle": "Del correo que entra al origen de recursos"},
+    {"valor": "2", "etiqueta": "Pruebas sobre casos reales", "detalle": "Llenó campos que estaban vacíos"},
+    {"valor": "6", "etiqueta": "Pasos del proceso mapeados", "detalle": "Hasta la entrega a Jurídica"},
+    {"valor": "1", "etiqueta": "Bloqueo abierto", "detalle": "El Drive de Jurídica, por cuentas cruzadas"},
+    {"valor": "2", "etiqueta": "Agentes por encadenar", "detalle": "El de esta área y el de Jurídica"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Rafael Solano", "cargo": "Área Precontractual — Comfacesar", "correo": "requerimientoscontratos@comfacesar.com", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 6. El agente dejó de ser una prueba: ya está operando sobre requerimientos reales y actualizando el cuadro de seguimiento. Lo que queda abierto es el último tramo del circuito.",
+  "riesgos": [
+    {
+      "titulo": "El Drive de Jurídica no se deja diligenciar desde el agente",
+      "nivel": "ALTO",
+      "descripcion": "Es el último tramo del proceso y el único que sigue manual. _La causa está identificada:_ el conector de archivos está enlazado a una cuenta distinta de aquella donde vive el Drive de Jurídica, y no encuentra correspondencia. Se desconectó y reconectó en sesión; queda por verificar. **Y una condición de diseño:** el agente no debe descargar ese archivo — tiene que trabajarlo en el Drive, porque otra área lo consulta ahí.",
+      "responsable": "Rafael Solano / Antes de la S7"
+    },
+    {
+      "titulo": "Dos formatos distintos según la cuantía",
+      "nivel": "MEDIO",
+      "descripcion": "El área maneja el requerimiento de dos maneras según el monto: con justificación cuando supera cierta cuantía, y como orden cuando es menor. _El propio puesto planteó unificarlos_ para no manejar información distinta en cada caso. Mientras tanto, el umbral hay que escribírselo al agente como parámetro.",
+      "responsable": "Rafael Solano / Antes de la S7"
+    },
+    {
+      "titulo": "El archivo abierto genera conflictos mientras el agente trabaja",
+      "nivel": "MEDIO",
+      "descripcion": "Dos veces durante la sesión el resultado no se reflejaba porque el archivo estaba abierto en el computador. _El criterio quedó:_ cuando el agente esté trabajando, el archivo se cierra. Y sobre un archivo en la nube esto no pasaría.",
+      "responsable": "Rafael Solano / Permanente"
+    },
+    {
+      "titulo": "Una instrucción ambigua cuesta consumo",
+      "nivel": "MEDIO",
+      "descripcion": "La primera prueba se pidió como «duplica la línea con la información del caso», y el agente hizo exactamente eso: duplicó la fila completa. _No fue un error suyo_ — cualquiera habría entendido lo mismo. La instrucción correcta era duplicar la línea **vacía** para que él la llenara. A este nivel de trabajo, cada instrucción mal formulada se paga en consumo.",
+      "responsable": "Rafael Solano / Permanente"
+    },
+    {
+      "titulo": "El informe del área todavía se arma a mano",
+      "nivel": "MEDIO",
+      "descripcion": "El puesto produce un informe periódico de forma manual a partir del cuadro de seguimiento. Una vez el agente diligencie el cuadro completo, ese informe puede salir solo como tablero con indicadores.",
+      "responsable": "Rafael Solano / Septiembre"
+    },
+    {
+      "titulo": "El puesto sigue trabajando sin micrófono en su equipo",
+      "nivel": "MEDIO",
+      "descripcion": "Para participar en la sesión hay que conectarse por dos vías. Es el mismo bloqueo de equipos que está registrado ante la dirección para varias áreas, y no se ha resuelto.",
+      "responsable": "Tecnología / Pendiente"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Verificar la conexión al Drive de Jurídica",
+      "descripcion": "Se reconectó el conector en sesión. Comprobar que el agente ya puede diligenciar allí sin descargar el archivo.",
+      "responsable": "Rafael Solano",
+      "plazo": "Antes de la S7"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Proponer la reunión conjunta con Jurídica",
+      "descripcion": "Jurídica ya tiene automatizada la asignación de sus contratos. **Es el empalme entre dos agentes del programa** — el de esta área entrega y el de Jurídica recibe. Es la primera vez que dos sistemas del proyecto pueden encadenarse.",
+      "responsable": "Rafael Solano + Jurídica",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Escribirle al agente el parámetro de la cuantía",
+      "descripcion": "Desde qué monto lleva justificación y desde cuál va como orden. Es el criterio que hoy el puesto aplica de memoria.",
+      "responsable": "Rafael Solano",
+      "plazo": "Antes de la S7"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Probar con casos que lleven justificación",
+      "descripcion": "Los dos casos de prueba fueron de cuantía menor. Hace falta verificar el comportamiento en los que exigen justificación.",
+      "responsable": "Rafael Solano",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Darle marca institucional a los documentos que entrega",
+      "descripcion": "Logo, colores corporativos y un pie de página con responsable, área y año. Hoy salen sin identificación.",
+      "responsable": "Rafael Solano",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Registrar los avances en el tablero de seguimiento",
+      "descripcion": "El circuito completo corriendo es el resultado más visible que tiene el área, y sostiene lo que se presenta en octubre.",
+      "responsable": "Rafael Solano",
+      "plazo": "Esta semana"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El circuito que ya está corriendo",
+      "duracion": "~10 min",
+      "objetivo": "Revisar lo que el agente hace hoy sobre requerimientos reales.",
+      "pasos": [
+        "Cuando entra un correo de requerimiento, el agente **coteja el cuerpo del mensaje contra la propuesta o cotización**, revisa el RUT y la cámara de comercio, y verifica que el objeto concuerde con la actividad económica del proveedor",
+        "Entrega un documento con los hallazgos. El puesto lo lee, lo revisa y da la aprobación — y solo entonces se envía al área que hizo la solicitud",
+        "_Cuando no hay correcciones,_ arma por su cuenta el cuadro que va a Gerencia Financiera solicitando el origen de recursos",
+        "_Y ya no es un ensayo:_ durante la sesión se comprobó que un correo real a Gerencia Financiera había salido esa misma tarde, y que **la respuesta de presupuesto con el centro de costo ya había llegado**",
+        "_Un detalle de diseño que conviene registrar:_ el sistema bloqueó un envío por ser una acción externa y pidió confirmación explícita. Ese freno es intencional y está en el lugar correcto"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El cuadro de seguimiento, diligenciado por el agente",
+      "duracion": "~30 min",
+      "objetivo": "Extender el agente al último tramo que seguía siendo manual.",
+      "pasos": [
+        "_El punto de partida fue una duda honesta del puesto:_ el desglose del cuadro se hace por interpretación, y le parecía difícil explicárselo a una herramienta",
+        "_La respuesta que quedó como criterio:_ lo que se hace «por interpretación» se apoya en parámetros. Si se escriben —si esto y esto, entonces aquello—, la herramienta los aplica. La interpretación no es magia: es un criterio sin escribir",
+        "Se conectó el archivo desde la carpeta del agente. El primer intento falló porque no estaba cargado; se cargó y lo leyó y editó sin problema",
+        "_Primera prueba, sobre un caso real:_ el agente actualizó el centro de costo y el estado, y puso la fecha. Tres campos que estaban vacíos",
+        "_Segunda prueba, más exigente —vaciar una línea y que la llene solo—:_ redactó la forma de pago con sus propias palabras, llenó la duración que el puesto no había diligenciado, escribió la justificación, e **interpretó correctamente el tipo de contrato como mínima cuantía**",
+        "_Dos aprendizajes operativos:_ la primera instrucción era ambigua y produjo una duplicación completa —la culpa fue de la instrucción, no del agente—; y el archivo no puede estar abierto mientras el agente trabaja"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El último tramo: el Drive de Jurídica",
+      "duracion": "~15 min",
+      "objetivo": "Cerrar el circuito hasta la entrega al área siguiente.",
+      "pasos": [
+        "_El proceso completo quedó dicho de punta a punta:_ llega el requerimiento → el agente coteja → hallazgos y aprobación → correo al área solicitante → cuadro a Gerencia Financiera → respuesta con centro de costo → actualización del cuadro → escaneo y reporte en el Drive de Jurídica → entrega del físico",
+        "Se intentó que el agente diligencie el Drive de Jurídica, que es donde se avisa que llega un contrato",
+        "_Falló, y la causa quedó identificada:_ el conector de archivos está enlazado a una cuenta distinta de aquella donde vive ese Drive. Se desconectó y se reconectó en sesión",
+        "_Y quedó una condición de diseño:_ el agente no debe descargar ese archivo. Tiene que diligenciarlo en el Drive, porque otra área lo consulta ahí",
+        "_La precisión sobre el físico se repite y conviene dejarla otra vez:_ el área precontractual no imprime. La documentación impresa la entrega el área solicitante; aquí se escanea, se reporta y se lleva. Jurídica la archiva por exigencia de entes de control",
+        "_Y de ahí salió lo más interesante de la sesión:_ Jurídica ya tiene automatizada la asignación de sus contratos. El puesto propuso una reunión conjunta para empalmar ambos procesos"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD FUNCIONANDO · SESIÓN 6 · 14 septiembre 2026",
+      "titulo": "El circuito del requerimiento, corriendo sobre casos reales",
+      "descripcion": "Del correo que entra hasta la solicitud del origen de recursos, con el puesto aprobando en los dos puntos donde debe decidir una persona. Ya no es una prueba: durante la sesión se verificó un envío real a Gerencia Financiera con su respuesta de presupuesto recibida.",
+      "estado": "Operando",
+      "proximo_paso": "Cerrar el tramo del Drive de Jurídica",
+      "target": "Sesión 7"
+    },
+    {
+      "encabezado": "OPORTUNIDAD PROBADA · SESIÓN 6 · 14 septiembre 2026",
+      "titulo": "El cuadro de seguimiento se diligencia solo",
+      "descripcion": "Era el trabajo que el puesto daba por imposible de explicar, porque lo hacía «por interpretación». Dos pruebas mostraron lo contrario: llenó campos vacíos, redactó la justificación y clasificó bien el tipo de contrato. Lo que parecía criterio intransferible resultó ser criterio sin escribir.",
+      "estado": "Probado en dos casos",
+      "proximo_paso": "Probarlo con casos que lleven justificación",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "OPORTUNIDAD NUEVA · SESIÓN 6 · 14 septiembre 2026",
+      "titulo": "Encadenar el agente de esta área con el de Jurídica",
+      "descripcion": "**Sería el primer empalme entre dos sistemas del programa.** Esta área entrega la documentación y Jurídica asigna el contrato — y ambas tienen ya su parte automatizada. Si los dos tramos se conectan, el expediente viaja de un área a otra sin que nadie lo cargue a mano.",
+      "estado": "Propuesto por el área",
+      "proximo_paso": "Reunión conjunta con Jurídica",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "OPORTUNIDAD PLANTEADA · SESIÓN 6 · 14 septiembre 2026",
+      "titulo": "El informe del área, en tablero",
+      "descripcion": "Hoy se arma a mano a partir del cuadro de seguimiento. Cuando el agente diligencie el cuadro completo, el informe puede salir como tablero con sus indicadores, actualizado sin intervención.",
+      "estado": "Por construir",
+      "proximo_paso": "Después de cerrar el cuadro",
+      "target": "Octubre"
+    }
+  ],
+  "tareas_intro": "El área pasó de tener un agente que revisa a tener un agente que ejecuta el circuito. Lo que queda abierto es el último tramo —la entrega a Jurídica— y ahí apareció la oportunidad más interesante del programa hasta hoy.",
+  "tareas": [
+    {"tarea": "Verificar la conexión al Drive de Jurídica tras la reconexión", "responsable": "Rafael Solano", "prioridad": "ALTA", "plazo": "Antes de la S7"},
+    {"tarea": "Proponer la reunión conjunta con Jurídica para empalmar los procesos", "responsable": "Rafael Solano + Jurídica", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Escribirle al agente el parámetro del umbral de cuantía", "responsable": "Rafael Solano", "prioridad": "ALTA", "plazo": "Antes de la S7"},
+    {"tarea": "Probar el circuito con casos que lleven justificación", "responsable": "Rafael Solano", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Darle logo, colores y pie de página a los documentos que entrega", "responsable": "Rafael Solano", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Registrar los avances en el tablero de seguimiento", "responsable": "Rafael Solano", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Evaluar la unificación de los dos formatos por cuantía", "responsable": "Rafael Solano", "prioridad": "MEDIA", "plazo": "Antes de la S7"}
+  ],
+  "observaciones": [
+    "El agente dejó de ser un ejercicio. Durante la sesión se comprobó que un correo real a Gerencia Financiera había salido esa misma tarde y que la respuesta de presupuesto, con su centro de costo, ya había llegado. Es la primera vez en el programa que se verifica en vivo un sistema operando sobre un trámite real de la Caja.",
+    "Lo más valioso de la sesión, sin embargo, es conceptual. El puesto llegó convencido de que el cuadro de seguimiento no se podía automatizar porque el desglose lo hace «por interpretación». Dos pruebas mostraron lo contrario: el agente llenó campos que estaban vacíos, redactó la justificación y clasificó bien el tipo de contrato. _Lo que parecía criterio intransferible era criterio sin escribir_ — y eso vale para todas las áreas del programa.",
+    "Vale registrar también dónde estuvo el error, porque el aprendizaje es del método y no de la herramienta: la primera instrucción pedía duplicar una línea «con la información del caso», y el agente duplicó la fila completa. Cualquiera habría entendido lo mismo. A este nivel de trabajo, una instrucción ambigua no solo falla — cuesta consumo.",
+    "**Y apareció la oportunidad más interesante que ha salido del programa hasta hoy.** El último tramo de este proceso entrega documentación a Jurídica, que ya tiene automatizada la asignación de sus contratos. Si los dos tramos se conectan, sería **el primer empalme entre dos agentes de áreas distintas**: el expediente viajaría de una a otra sin que nadie lo cargue a mano. El puesto mismo propuso la reunión conjunta.",
+    "El único bloqueo abierto es de cuentas: el conector de archivos está enlazado a una cuenta distinta de aquella donde vive el Drive de Jurídica. Es el mismo patrón que apareció en Vivienda la semana pasada — la herramienta construye o lee donde se le señala, y si el conector apunta a otra cuenta, no encuentra nada. Se reconectó en sesión y queda por verificar.",
+    "Se repite, para que quede consistente en el registro: el área precontractual no imprime. La documentación impresa se la entrega el área solicitante; aquí se escanea, se reporta y se lleva. Jurídica la archiva en físico por exigencia de entes de control."
+  ],
+  "proxima_sesion": {
+    "sesion": "Sub. Administrativa y Financiera — Sesión 7",
+    "condiciones": [
+      "La conexión al Drive de Jurídica verificada",
+      "El parámetro de cuantía escrito y probado",
+      "Casos con justificación probados",
+      "Gestionada la reunión conjunta con Jurídica"
+    ],
+    "agenda": [
+      "El circuito completo, del correo a la entrega en Jurídica",
+      "El empalme con el agente de Jurídica",
+      "El tablero de indicadores del área",
+      "El reporte de cierre del agente"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 14 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
