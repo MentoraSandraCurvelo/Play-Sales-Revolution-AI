@@ -15,6 +15,35 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🔎 15 sep · 12:05 · La sesión de Rafael sí se hizo · Termómetro v34
+
+**Se cumplió el plazo del mediodía y la respuesta es que sí.**
+
+`⭕️Comfacesar Sub. Administrativa y Financiera Sesion 6 IAM™ Intelligence-20260914_160201`
+Grabación iniciada ayer **4:02 p. m.**, procesada a las **5:06 p. m.**
+
+**Y estaba donde ya sabía que había que mirar.** A las 7:20 revisé Dropbox y el canal y no
+había nada; la marqué «por verificar» en vez de darla por perdida. A mediodía la busqué en
+**la carpeta de grabaciones de Teams** y ahí estaba, que es exactamente el sitio donde el
+viernes apareció la de Contabilidad después de que este tablero la diera por perdida.
+
+**La regla funcionó dos veces seguidas:** no declarar nada faltante antes del mediodía del
+día siguiente, y mirar el origen (Teams) además del destino (Dropbox y el canal).
+
+**Efecto en el tablero:** el programa pasa de **66 a 67 sesiones**. Le faltan el acta y el
+informe, así que no entra al cálculo del porcentaje, que sigue en **139/152 sobre 62
+medidas, 91%**. La cobertura pasa a 62 de 67.
+
+### Comunicaciones S6 de hoy: sin concluir
+
+La hora cerró a las 11:00 y **no hay grabación todavía**. No concluyo nada: el
+procesamiento de Teams tarda cerca de una hora, así que a las 12:05 es pronto. Nadie del
+área escribió en el canal.
+
+**No publiqué nada más ahí**, el cupo quedó agotado esta mañana con los dos mensajes.
+
+---
+
 ## ✅ 15 sep · 10:20 · Sandra aprueba la regla de los mensajes del momento
 
 **Decidido: se hace así.** La regla queda en el contrato, no solo en esta entrada, porque
