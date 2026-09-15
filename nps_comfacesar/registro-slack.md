@@ -15,6 +15,34 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ✅ 15 sep · 16:05 · Corrida horaria · IPS S3 confirmada · Termómetro v39
+
+**IPS hizo su S3.** Grabación `⭕️Comfacesar IPS S3 IAM™ Intelligence-20260915_140413`,
+iniciada a las **2:04 p. m.**, procesada a las **3:03**. El programa pasa de **67 a 68
+sesiones**.
+
+Le faltan el acta y el informe de asistencia, así que no entra al cálculo del 91%. La
+cobertura queda en **62 medidas sobre 68 verificadas**.
+
+**El área sale de la lista de agendadas:** su píldora pasa de «S3 · mar 15, 14:00» a **sin
+agendar**, y la fila de la tabla suma la S3 con grabación ✓, acta ✕, asistencia ✕.
+
+**Por qué se verificó hoy y no mañana al mediodía.** La regla de esperar al mediodía del día
+siguiente sigue en pie para *declarar algo faltante*. Aquí es al revés: hay evidencia positiva
+y el tablero está en manos de María Elvira desde esta tarde. Dejarlo en 67 lo dejaba corto
+desde el primer día.
+
+**Servicios Sociales S7** terminó a las 4:00 y todavía no tiene grabación. Es lo normal, el
+procesamiento tarda cerca de una hora. **No concluyo nada**, la reviso en la próxima corrida.
+
+**Lo demás:** sin mensajes nuevos del cliente desde el de Aura de las 11:31, sin DM pendientes,
+sin reservas nuevas en el calendario. No publiqué nada.
+
+**Dato de paso:** la grabación de hoy usa el título `IPS S3`, que confirma la numeración del
+calendario contra la del canal, donde se venía hablando de «sesión 2».
+
+---
+
 ## 📤 15 sep · 14:03 — Publicado en `#ips`: Sandra está conectada
 
 Sandra lo pidió: avisar al equipo de IPS que ya está en la sala.
