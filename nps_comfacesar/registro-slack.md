@@ -15,6 +15,89 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🧹 15 sep · 13:45 · Los tableros quedan aptos para el cliente · Termómetro v37, Sala v5, Pulso v9, Mesa v8
+
+Sandra va a compartir la Mesa con María Elvira, y el director también va a entrar.
+**«Ojo con las notas que hay, que ellos las van a ver.»** Es la misma regla del viernes en
+la Sala de Control, ahora sobre los cuatro tableros.
+
+### Lo más grave primero: se estaban filtrando otros clientes
+
+La v36 que publiqué hace media hora **nombraba a Datacrédito y una individual de marca
+profesional** dentro del tablero de Comfacesar. Lo puse yo al explicar la regla de
+clasificación por título. **Es información de otros clientes de Sandra en un tablero que
+va a ver este cliente.** Quitado.
+
+**Regla que queda:** al explicar un método, no se nombran los eventos que quedaron fuera.
+Se dice el criterio y ya.
+
+### Los tableros estaban escritos para Sandra, no para el cliente
+
+Esa es la raíz. Decían «Tu alerta», «el error fue mío», «Sandra la canceló», «este tablero
+la dio por perdida», «no lo resuelvo yo», «vale preguntarle al área». Es bitácora de trabajo
+entre Sandra y yo, y el destinatario cambió.
+
+**Bloques eliminados enteros: 15.** Doce del Termómetro y tres del Pulso, todos de la misma
+familia: `Corrección · …`, `Corrijo lo que decía este tablero…`, `Pregunta abierta · …`,
+`Este tablero ya intentó dos explicaciones y las dos se cayeron`.
+
+**Frases reescritas: 26.** Las de segunda persona a Sandra, las que la nombran a ella
+haciendo cosas, las que delatan a los agentes, y las de método interno.
+
+| Decía | Dice |
+|---|---|
+| Tu alerta | La alerta |
+| Sandra la canceló | Quedó cancelada |
+| ni Lucía ni yo volvemos a escribir ahí | *(quitado)* |
+| ninguna por un mensaje nuestro | ninguna por un recordatorio |
+| Es lo que se le muestra al director y a María Elvira | *(quitado)* |
+| la sesión se hizo sobre la cuenta de Sandra | sobre una cuenta de IAM |
+| un contra-argumento que conviene tener listo | un dato que la solicitud tiene que responder |
+| esto es lo que hay que subrayar en la reunión | *(quitado)* |
+| Lo de Comunicaciones confirma una decisión que ya tomaste | …una decisión ya tomada |
+| La crítica de Vivienda merece una decisión tuya | …merece una decisión |
+| Todos los reportes del cliente | Todos los reportes del programa |
+| Su hoja del archivo está completamente vacía | Todavía no ha registrado nada en el archivo |
+
+**El «contra-argumento» del Pulso es el mismo que Sandra ya me hizo quitar de la Sala de
+Control el viernes.** Estaba en dos tableros y solo limpié uno. Vale como regla: cuando algo
+se corrige por destinatario, hay que barrer los cuatro, no el que se estaba tocando.
+
+### La tarjeta del Termómetro se llamaba «María Elvira»
+
+En un tablero que va a ver María Elvira. Ahora se llama **Termómetro · Estado del programa**.
+
+### Los enlaces de la Mesa no eran públicos
+
+Apuntaban a `claude.ai/code/artifact/<uuid>`, que es la ruta del entorno de trabajo.
+**Los cinco quedaron corregidos a `claude.ai/artifact/<id>`**, que es la que abre cualquiera.
+Si no lo hubiera visto, María Elvira habría abierto la Mesa y ninguna tarjeta le habría
+funcionado.
+
+### La Mesa queda solo con lo activo
+
+Fuera los dos grupos de archivo: «Avance», «Mensajes por canal», «Ambassadors» y «Encuesta ·
+versión tablero» en la pestaña de Elia, y «Corte de Agosto» en la de Lucía. Y fuera la nota
+que explicaba ese archivo, y la nota del pin, que era instrucción para Sandra.
+
+### Queda una decisión que no tomo yo
+
+La pestaña de Lucía tiene **«Sala de Agentes · Cómo trabajan Elia y Lucía»**. Es el tablero
+de la mecánica interna de las dos. Puede ser deliberado —IAM vende IA, mostrar los agentes
+puede ser el diferenciador— o puede ser justo lo que no se enseña. **No lo quito sin que
+Sandra lo diga.** Igual las dos pestañas se llaman «Elia» y «Lucía».
+
+### Y una discrepancia nueva que apareció al leer el registro de Lucía
+
+Su acta de Contabilidad S5 dice **conciliaciones bancarias «de dos días a 40 minutos»**.
+El archivo de assessment dice **480 → 180**. Dos días son 960 minutos, no 480, y 40 no es 180.
+**El tablero usa el archivo**, que es la cifra conservadora. Si manda el acta, el ahorro de
+Contabilidad es bastante mayor. Hay que resolverlo con el área.
+
+**No se publicó nada en Slack.**
+
+---
+
 ## 📐 15 sep · 13:15 · Regla nueva de Sandra: manda el título del calendario · Termómetro v36
 
 **«Lo que no diga IAM Intelligence no lo cuentes en el calendario.»**
