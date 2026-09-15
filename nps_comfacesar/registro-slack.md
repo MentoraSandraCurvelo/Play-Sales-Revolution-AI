@@ -15,6 +15,62 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🗓️ 15 sep · 07:20 · Corte del martes · Termómetro v33
+
+Fecha verificada con `date` y con el último commit: **martes 15 de septiembre, 7:10 a. m.
+Colombia.** No publiqué nada en Slack.
+
+### Seis áreas tomaron fecha anoche
+
+Las áreas sin agendar pasan de **once a seis**. Todas individuales, todas reservadas por la
+propia persona, todas con correo corporativo:
+
+| Área | Quién | Cuándo |
+|---|---|---|
+| **Cumplimiento** | Aura Sánchez · `profesionalcumplimiento@` | mié 16, 5:00 p. m. |
+| **Tecnología** | Olga Lucía Barros · `auxiliar_gt@` | jue 17, 8:00 a. m. |
+| **Contabilidad** | Carlos Lozano · `asistentecontabilidad@` | jue 17, 2:00 p. m. |
+| **Comunicaciones** | Sandra Arquez · `profesionalcomunicaciones2@` | jue 17, 3:00 p. m. |
+| **Subsidio** | José Luciano Contreras · `coordinacionsubsidioyaportes@` | vie 18, 9:00 a. m. |
+| **Gerencia Financiera** | Carlos Mendoza · `asistentegerenciafinanciera2@` | vie 18, 2:00 p. m. |
+
+**Catorce el viernes, once el lunes, seis hoy**, y en todo ese tiempo **cero mensajes del
+cliente en los canales**. Confirma lo del lunes: lo que mueve la agenda es el enlace, no el
+recordatorio.
+
+**Cumplimiento se resolvió solo.** Ayer su S2 estaba al correo de Saharay, que salió en el
+relevo, y Sandra la canceló. Hoy la tiene **Aura Sánchez**, la representante que entró en
+ese mismo relevo. La tomó ella, sin que se le escribiera. Queda cerrado el punto que dejé
+abierto ayer.
+
+### Contabilidad S6 cerró completa
+
+Acta PDF (ayer 4:55 p. m.), VTT y CSV (ayer 8:22 a. m.), los tres en Dropbox.
+**Carlos Lozano solo, 1 de 1**, 2:17:30 a 3:02 p. m., 44 minutos. Era el único hueco
+documental del programa.
+
+Asistencia: de 138/151 sobre 61 a **139/152 sobre 62**. Sigue en **91%**.
+
+### Lo que queda por verificar
+
+**La sesión de Rafael de ayer a las 4:00 p. m. no ha dejado rastro.** Ni grabación, ni
+acta, ni informe, ni en Dropbox ni en el canal. **No la doy por perdida**: son las 7:20 y
+la regla es esperar al mediodía del día siguiente. No entra al conteo, que se queda en 66.
+
+**Sandra dejó constancia de la cancelación de Liliany en el canal** ayer a las 3:08,
+copiando el mensaje y anotando «sesion cancelada 15 minutos antes».
+
+### La semana
+
+**Dieciocho sesiones de hoy al viernes**, repartidas: hoy 3, miércoles 6, jueves 6,
+viernes 3. Sub. Administrativa baja de cinco a tres y **la agenda deja de depender de un
+área sola**. Después del viernes 18 sigue habiendo **una sola sesión** en todo septiembre,
+la individual de Vidiana del miércoles 23.
+
+**Tablero:** https://claude.ai/code/artifact/8949a813-41e2-4c31-b234-d0b3ada2eb6e · v33
+
+---
+
 ## 📩 14 sep · 15:05 · Liliany cancela la S7 por DM · Termómetro v32
 
 **No respondí.** Reprogramar y cancelar son de Sandra, según el contrato.
