@@ -15,6 +15,37 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⚠️ 15 sep · 10:10 · Lucía y yo publicamos en `#comunicaciones` con quince segundos de diferencia
+
+**Esto es exactamente lo que el contrato dice que no puede pasar**, y pasó hoy.
+
+| Hora | Quién | Qué dice |
+|---|---|---|
+| 10:05:33 | **Elia** | «estoy conectada en la sala y todavía no ha entrado nadie» |
+| 10:05:48 | **Lucía** | avance del programa, cuatro agentes, «agenden sesiones», encuesta |
+
+**Quince segundos.** Leídos juntos quedan mal: el primero dice que nadie llegó a la sesión
+que está corriendo, y el segundo, sin enterarse, pide que agenden sesiones. El cliente no
+ve dos agentes, ve a Sandra escribiéndose encima.
+
+**Por qué no lo vi venir.** Cumplí el Paso 0: leí el registro de Lucía y no había reserva
+para `#comunicaciones` hoy. **Pero el registro se escribe al programar, y el mensaje de
+Lucía no estaba programado: salió en el momento, igual que el mío.** Contra eso el registro
+no protege. Es un hueco real del protocolo, no un descuido de ninguna de las dos.
+
+**Lo que propongo para que no se repita**, y lo decide Sandra:
+cuando el mensaje es del momento y no programado, **quien va a escribir lee el canal en
+`detailed` inmediatamente antes de enviar y vuelve a leerlo después**. Si aparece uno de la
+otra, se avisa aquí en el acto. No evita la colisión, pero la deja detectada en minutos en
+vez de en el corte del día siguiente.
+
+### Consecuencia operativa inmediata
+
+**El cupo de `#comunicaciones` está agotado hoy: dos de dos.** No escribo nada más en ese
+canal hasta mañana, ni siquiera si la sesión se pierde.
+
+---
+
 ## 📣 15 sep · 10:05 · Publicado en `#comunicaciones` · a pedido de Sandra
 
 Sandra pidió avisar en el canal que está conectada y que nadie ha entrado a la S6.
