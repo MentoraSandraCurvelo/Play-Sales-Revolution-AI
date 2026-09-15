@@ -682,3 +682,17 @@ del programa. Lo propuso el propio puesto.
 
 **Bloqueo abierto:** el conector de archivos apuntaba a una cuenta distinta de la del Drive de
 Jurídica. Se reconectó en sesión, falta verificar. *Mismo patrón que apareció en Vivienda.*
+
+**Inasistencia — Comunicaciones S6 (lunes 15, 10:00 a. m.)**
+No entró nadie y no avisaron. Sandra canceló el evento a las 10:14 a. m. La cita estaba
+reservada desde el 7 de septiembre con cuatro invitados del área (`profesionalcomunicaciones@`,
+`profesionalcomunicaciones2@`, `diseno@`, `web@`).
+
+Es la **cuarta inasistencia sin aviso** del programa y la octava sesión caída. Registrada en
+`cancelaciones.json` y llevada al tablero, que sube la alerta de nivel ALTO a CRÍTICO: *la
+mitad de las sesiones caídas son salas donde no entró nadie*. Lo que la hace distinta de las
+tres anteriores es que **Comunicaciones no es un área rezagada** — viene de poner a correr su
+primer sistema el 9 de septiembre y aparece por nombre en el corte entregado a la contraparte.
+
+*Sin aviso en el canal por ahora.* Es el mismo criterio de las tres inasistencias anteriores:
+no se publica reproche en el canal del área sin decidir el tono con Sandra.

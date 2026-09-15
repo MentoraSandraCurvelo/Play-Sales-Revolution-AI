@@ -104,14 +104,29 @@
       "compromiso": null,
       "cuenta_como": "cancelada",
       "nota": "Segunda inasistencia del mismo día, después de Sub. Operativa a las 3:00 p. m. El área va en S3: 13 y 19 de agosto, y el 25 dos individuales —Rina y María Isabel, y Manuel José— que se contaron como una sola sesión. Era el primer espacio de Mercadeo en dos semanas."
+    },
+    {
+      "area": "Comunicaciones",
+      "sesion": "S6",
+      "fecha": "2026-09-15",
+      "hora": "10:00",
+      "canal": "#comunicaciones",
+      "quien_cancela": "IAM™ — Sandra",
+      "motivo": "No se presentó nadie y no avisaron. Sandra esperó y canceló el evento a las 10:14 a. m., catorce minutos después de la hora de inicio.",
+      "causa": "inasistencia — no ingresó a la sala",
+      "aviso_en_canal": null,
+      "reagendada": false,
+      "compromiso": null,
+      "cuenta_como": "cancelada",
+      "nota": "Cuarta inasistencia del programa y la más difícil de explicar: el área venía de una S5 el 9 de septiembre donde puso a correr la revisión de solicitudes con una sola línea de instrucción, y es una de las que aparece en el corte entregado a la contraparte. La cita la reservó el 7 de septiembre con cuatro invitados del área —profesionalcomunicaciones@, profesionalcomunicaciones2@, diseno@ y web@—; no entró ninguno. Al cancelarse en Calendly el evento sale de Outlook, por eso ya no aparece en el calendario del día."
     }
   ],
   "patron": {
     "detectado": "2026-09-01",
-    "que_pasa": "Siete sesiones caídas en tres semanas, y tres de ellas son inasistencias sin aviso: Servicios Sociales el 3 de septiembre, y Sub. Operativa y Mercadeo el mismo miércoles 9, con una hora de diferencia. Las otras cuatro fueron cruces con otras actividades —Educación y Tecnología el 31 de agosto, Cumplimiento el 2 de septiembre— y la cita médica que tumbó el segundo intento de Servicios Sociales el 8. Solo Educación quedó reagendada.",
-    "por_que_importa": "Dejó de ser un problema de agenda. Tres veces ya nadie ha entrado a una sala reservada, y dos de esas fueron el mismo día. Son horas de mentoría que se pierden sin que nadie avise, en áreas que venían avanzando: Sub. Operativa trajo la revisión de costeos operando sola, y Mercadeo llevaba dos semanas sin espacio. Quedan siete semanas y el cierre de octubre es por área.",
+    "que_pasa": "Ocho sesiones caídas en cuatro semanas, y cuatro de ellas son inasistencias sin aviso: Servicios Sociales el 3 de septiembre, Sub. Operativa y Mercadeo el miércoles 9 con una hora de diferencia, y Comunicaciones el lunes 15. Las otras cuatro fueron cruces con otras actividades —Educación y Tecnología el 31 de agosto, Cumplimiento el 2 de septiembre— y la cita médica que tumbó el segundo intento de Servicios Sociales el 8. Solo Educación quedó reagendada.",
+    "por_que_importa": "Ya es la mitad: cuatro de las ocho sesiones caídas son salas reservadas donde no entró nadie. Y la del 15 de septiembre rompe el consuelo que quedaba —que les pasaba a las áreas rezagadas—: Comunicaciones venía de poner a correr su primer sistema el 9 de septiembre y aparece por nombre en el corte entregado a la contraparte. Quedan seis semanas y el cierre de octubre es por área.",
     "a_quien_toca": "María Elvira Marulanda — es quien puede pedir que el espacio del programa se respete como cualquier otro compromiso institucional.",
-    "actualizado": "2026-09-09",
-    "recuperadas": "De las cuatro sesiones caídas, solo Educación S3 se reagendó — vuelve el lunes 7. Tecnología S3, Cumplimiento S2 y Servicios Sociales S6 siguen sin fecha nueva. Tecnología sí tiene una S3 en el calendario del martes 8 a las 10:00, que hay que confirmar si es la misma que se cayó el 31 de agosto."
+    "actualizado": "2026-09-15",
+    "recuperadas": "De las ocho sesiones caídas solo Educación S3 se reagendó. Tecnología S3 se retomó el 11 de septiembre por vía propia. Siguen sin fecha nueva: Cumplimiento S2, Servicios Sociales S6 —ya recuperada en la sesión del 10—, Sub. Operativa S3, Mercadeo S4 y ahora Comunicaciones S6."
   }
 }
