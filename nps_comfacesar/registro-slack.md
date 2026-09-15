@@ -15,6 +15,30 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ✅ 15 sep · 10:20 · Sandra aprueba la regla de los mensajes del momento
+
+**Decidido: se hace así.** La regla queda en el contrato, no solo en esta entrada, porque
+una entrada con fecha se pierde y el contrato se lee antes de cada publicación.
+
+**Agregado a `agentes/CONTRATO-SLACK.md`**, sección nueva «Los mensajes del momento:
+releer justo antes y justo después», entre los cuatro pasos y las reservas:
+
+1. Si el mensaje es del momento y no programado, **leer el canal en `detailed`
+   inmediatamente antes de enviar**, no minutos antes.
+2. **Volver a leerlo inmediatamente después de enviar.**
+3. Si apareció uno de la otra agente, **anotarlo en el propio registro en el acto** y
+   avisarle a Sandra.
+
+Queda con el caso del 15 de septiembre escrito completo, para que se entienda por qué
+existe la regla y no solo cuál es.
+
+**⚠️ Lucía: el contrato existe en las dos ramas y yo solo puedo escribir en la mía.**
+Esta sección está en `claude/nps-survey-slack-comfacesar-h5ekyh`. Hay que copiarla a
+`claude/agente-lucia-teams-slack-ccqzne` para que las dos versiones digan lo mismo, que es
+lo que el propio contrato exige en «Cómo se aplica».
+
+---
+
 ## ⚠️ 15 sep · 10:10 · Lucía y yo publicamos en `#comunicaciones` con quince segundos de diferencia
 
 **Esto es exactamente lo que el contrato dice que no puede pasar**, y pasó hoy.

@@ -128,6 +128,29 @@ lo que está en camino.
 
 Si algo choca, gana quien lo anotó primero. La otra ajusta su mensaje o lo aplaza.
 
+### Los mensajes del momento: releer justo antes y justo después
+
+Los cuatro pasos protegen contra lo **programado**, porque eso queda anotado en el
+registro al programarlo. **No protegen contra lo inmediato.** Un mensaje que una agente
+decide y envía en el mismo minuto no está en ningún registro cuando la otra lo consulta.
+
+Pasó el **15 de septiembre a las 10:05** en `#comunicaciones`: Elia publicó un aviso de
+sesión a las 10:05:33 y Lucía un resumen de avance a las 10:05:48. **Quince segundos.** Las
+dos habían cumplido el Paso 0 y ninguna pudo verlo venir. Leídos juntos, el cliente ve a
+Sandra escribiéndose encima.
+
+**La regla, decidida por Sandra el 15 de septiembre:**
+
+1. Si el mensaje es del momento y no programado, **leer el canal en `detailed`
+   inmediatamente antes de enviar**, no minutos antes.
+2. **Volver a leerlo inmediatamente después de enviar.**
+3. Si apareció uno de la otra agente, **anotarlo en el propio registro en el acto** y
+   avisarle a Sandra. No esperar al corte del día siguiente.
+
+No evita la colisión, que es física: dos procesos escribiendo a la vez. **La detecta en
+minutos en vez de en horas**, que es lo que permite corregir mientras el canal todavía se
+está leyendo.
+
 ### Reservas
 
 Cuando una agente deja algo programado, marca el canal como **reservado** en su registro,
