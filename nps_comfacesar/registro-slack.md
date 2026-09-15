@@ -15,6 +15,88 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📐 15 sep · 13:15 · Regla nueva de Sandra: manda el título del calendario · Termómetro v36
+
+**«Lo que no diga IAM Intelligence no lo cuentes en el calendario.»**
+
+Es una regla de clasificación, y cambia la fuente. Yo venía clasificando por **el correo de
+quien reserva**: corporativo `@comfacesar.com` entra, personal no. Eso es frágil por los dos
+lados, y hoy falló por los dos lados.
+
+**La fuente correcta es el título del evento en el calendario de Outlook.** En Calendly todas
+las citas se llaman igual —«⭕️45 mins | Sesión Exploratoria Ventas Digitales con IA»— porque
+es un solo tipo de evento para todos los clientes. Pero Sandra **renombra cada evento a mano**
+en Outlook, y ese título trae el cliente, el área y el número de sesión:
+
+```
+⭕️Comfacesar | Juridica S8 |  IAM™ Intelligence
+⭕️Comfacesar | Sub. Administrativa y Financiera   | Sesion 7  IAM™ Intelligence
+```
+
+**Solo entra al tablero lo que dice `IAM™ Intelligence`.**
+
+### Lo que resolvió de inmediato
+
+Las dos citas que dejé sin clasificar hace media hora, y que iba a preguntarle a Sandra,
+quedaron resueltas por su título:
+
+| Cita | Título real | ¿Entra? |
+|---|---|---|
+| Mié 11:00 · Maria Peralta | `Datacredito | Reporte en centrales Maria ISabel` | **No** |
+| Mié 1:30 · Andrés Carbonell | `Andrés Carbonell y Sandra Curvelo | Founder & CSO de IAM™` | **No** |
+
+Y al revés: **las dos de Liliany, reservadas con `liligozu@gmail.com`, sí llevan `Comfacesar`
+e `IAM™ Intelligence` en el título.** Por correo las habría dejado fuera. Por título entran,
+que es lo correcto: es de Sub. Administrativa y Financiera.
+
+**El conteo de 17 sesiones no cambió.** Lo que cambió es que ahora está verificado contra la
+fuente buena y no contra una inferencia por dominio de correo.
+
+### Tres números de sesión estaban mal en el tablero
+
+Los títulos del calendario los corrigen:
+
+| Área | Decía el tablero | Dice el calendario |
+|---|---|---|
+| Subsidio, vie 18 | S4 | **S3** |
+| Gerencia Financiera, vie 18 | S3 | **S2** |
+| Sub. Admin, mié 16 9:00 | «el título dice S8» | **Sesion 7** |
+
+### La numeración de Sub. Administrativa ya no está rota
+
+Ayer el tablero denunciaba **dos eventos titulados S8** y una S6 después de una S7, y yo
+anoté «no lo toco yo, renumerar le cambia el correo a cuatro personas». **Sandra lo renumeró
+al reprogramar esta mañana.** Hoy la serie corre en orden: Sesión 7 el miércoles 9:00 con el
+correo del área, S8 el miércoles 3:00 y S9 el viernes 11:00, las dos con Liliany. La nota del
+tablero quedó reescrita en pasado.
+
+### Y confirma lo de Comunicaciones
+
+La sesión de Sandra Arquez del jueves a las 3:00 está titulada **«Sesion 6»**, y la de Vidiana
+del jueves a las 5:00, **«S7»**. **La cancelada de hoy no consumió número**, que es exactamente
+lo que dice la regla. No era una interpretación mía: está en el título.
+
+### Dos cosas que quité porque no las sostiene el calendario
+
+- La nota decía que la Comunicaciones S6 «coincidía con la reunión con el director». Eso lo
+  inferí yo. **A las 10:00 el calendario tiene «Ayamonte | Propuesta Sergio», una hora, no dos.**
+  Dejé el hecho —cancelada a las 10:14— y quité la causa.
+- La nota del director decía «dos horas, en la agenda de Sandra y sin invitados». El calendario
+  no muestra esa reunión con ese nombre. Dejé que la reunión fue, sin describir el evento.
+
+### Y una nota del tablero que estaba al revés
+
+Decía: «Los eventos no llevan el nombre del área. Calendly los nombra con el de quien reserva.»
+**Eso es cierto de Calendly y falso de Outlook.** Quedó reescrita: en Calendly es imposible
+separar, en Outlook está todo en el título.
+
+**Pendiente que se cae:** ya no hay que preguntarle a Sandra quiénes son Maria Peralta y
+Andrés Carbonell.
+
+**No se publicó nada en Slack.**
+
+---
+
 ## 📋 15 sep · 12:45 · Barrido de agenda a pedido de Sandra · Termómetro v35, Sala de Control v4, Mesa v7
 
 Sandra pidió revisar el correo porque ya había sesiones agendadas esta semana, y
