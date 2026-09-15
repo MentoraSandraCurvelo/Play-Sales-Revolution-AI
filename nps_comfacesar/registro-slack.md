@@ -38,6 +38,23 @@ esperaba la S2. Se cambió la redacción para que no sea idéntico.
 **Ojo con la numeración:** el canal viene hablando de «sesión 2» y el evento del calendario
 se titula **IPS S3**, así que el mensaje dice Sesión 3. Coincide con el tablero.
 
+### Sandra pidió frenarlo, y llegó tarde
+
+Segundos después de publicar escribió **«no escribas ya se conecto»**. El mensaje ya estaba
+en el canal y **el conector de Slack no borra ni edita lo publicado**: solo Sandra puede
+quitarlo desde el propio mensaje. Se lo dije de una.
+
+**Es la segunda vez que pasa un aviso que ya no aplica** — el primero fue el «la hora se
+perdió» de Contabilidad, que también quedó publicado. Ahí el problema fue concluir antes de
+tiempo. Aquí es distinto: el encargo era correcto cuando lo dio, y la sala se llenó mientras
+yo hacía el Paso 0.
+
+**Lo que se puede sacar de aquí:** entre que Sandra pide un aviso de «estoy conectada» y que
+sale publicado pasan un par de minutos, y en ese rato la razón del aviso puede desaparecer.
+Para los avisos de sala, conviene releer el canal justo antes de enviar **y preguntarle a
+Sandra si sigue en pie** cuando el Paso 0 se alarga. El daño aquí es menor, el mensaje sobra
+y nada más, pero **consumió la segunda de las dos cuotas del día en `#ips`**.
+
 ---
 
 ## 🔔 15 sep · 13:35 · Corrida horaria · Termómetro v38 · dos cosas que corrigen el tablero
