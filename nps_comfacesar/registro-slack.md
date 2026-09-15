@@ -15,6 +15,59 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🔔 15 sep · 13:35 · Corrida horaria · Termómetro v38 · dos cosas que corrigen el tablero
+
+Paso 0 hecho: contrato, registro de Lucía y barrido de canales. **No publiqué nada**, según
+la regla vigente de Sandra.
+
+### 1 · La Comunicaciones S6 no fue una cancelación. No entró nadie.
+
+El acta de Lucía de hoy lo deja claro: la sala estaba reservada desde el 7 de septiembre con
+cuatro correos del área, **no entró nadie y no avisaron**, y el evento se canceló a las 10:14
+por eso.
+
+**Yo lo había escrito como una cancelación administrativa**, y con la hipótesis de que
+coincidía con la reunión con el director. Las dos lecturas eran mías y las dos estaban mal.
+El tablero ya dice el hecho: *no entró nadie, y el evento quedó cancelado a las 10:14*.
+
+**Lo que Lucía aporta y yo no tenía:** es la **cuarta inasistencia sin aviso** del programa y
+la **octava sesión caída**. Ella subió la alerta de ALTO a CRÍTICO con el argumento de que
+*la mitad de las sesiones caídas son salas donde no entró nadie*. Y lo que la hace distinta:
+**Comunicaciones no es un área rezagada** —puso a correr su primer sistema el 9 de septiembre
+y aparece por nombre en el corte entregado a la contraparte.
+
+**Ese patrón no lo metí al tablero**, y es una decisión de Sandra, no mía. El tablero lo va a
+ver María Elvira y el director. Lucía tiene el mismo criterio para el canal: *no se publica
+reproche en el canal del área sin decidir el tono con Sandra*. Vale lo mismo para el tablero.
+
+### 2 · El cliente sí escribió hoy, y rompe la afirmación del tablero
+
+**Aura Marina Sánchez, `#cumplimiento`, hoy 11:31 a. m.** Es el primer mensaje del cliente en
+un canal desde el 10 de septiembre, y el tablero afirmaba en dos sitios que no había entrado
+ninguno. Corregido.
+
+> «Buen día, desde ayer tengo agendada para mañana la primera reunión conmigo, el tema de
+> gobernanza es precisamente la iniciativa de sostenibilidad, por la cual nos reunimos el día
+> de ayer… lo que estamos construyendo es la gobernanza de la IA en la Caja… mañana lo
+> charlamos con más profundidad en la sesión.»
+
+**No pide nada y se cierra sola** —«mañana lo charlamos en la sesión»—, así que no exige
+respuesta. Pero es la representante que entró en el relevo del 11, confirma su sesión de
+mañana a las 5:00 p. m. y trae un tema de fondo: **la Caja está construyendo gobernanza de IA**.
+Eso es material de cierre de programa.
+
+**No respondí** porque la regla es no publicar sin que Sandra lo pida. Si quiere un acuse, es
+de dos líneas y `#cumplimiento` tiene la cuota libre hoy.
+
+### 3 · Lo demás está limpio
+
+- **DM sin responder: ninguno.** El de Liliany del 14 ya quedó atendido.
+- **Áreas en silencio:** siguen las seis sin fecha —Agencia de Empleo, Educación, Vivienda,
+  Tesorería, Planeación y Sub. Operativa—. Ninguna nueva.
+- `#comunicaciones` sigue con la cuota del día agotada.
+
+---
+
 ## 🧹 15 sep · 13:45 · Los tableros quedan aptos para el cliente · Termómetro v37, Sala v5, Pulso v9, Mesa v8
 
 Sandra va a compartir la Mesa con María Elvira, y el director también va a entrar.
