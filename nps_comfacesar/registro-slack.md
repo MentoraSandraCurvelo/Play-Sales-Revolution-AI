@@ -15,6 +15,31 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📤 15 sep · 14:03 — Publicado en `#ips`: Sandra está conectada
+
+Sandra lo pidió: avisar al equipo de IPS que ya está en la sala.
+
+> ⭕️ Estoy conectada y los espero para arrancar la Sesión 3. 💪
+
+`1789499007.610669` · [enlace](https://iamteamespacio.slack.com/archives/C0BPNT6UV8B/p1789499007610669)
+
+**Paso 0**
+- **Registro de Lucía:** sin reservas ni programados en `#ips`. Su última publicación ahí
+  fue el acta de la S2, el 10 de septiembre.
+- **Ventana de 48 horas:** no aplica, el acta tiene cinco días.
+- **Cuota del día:** había **1 de 2** en el canal, la campaña de los cuatro agentes de las
+  10:06. Con este quedan **2 de 2**. `#ips` queda cerrado por hoy.
+- **Horario:** 2:03 p. m., dentro de franja.
+- Releí el canal antes y después de enviar. No apareció nada de Lucía.
+
+**Molde:** es el mismo aviso que se publicó el 9 de septiembre a las 11:04 cuando Sandra
+esperaba la S2. Se cambió la redacción para que no sea idéntico.
+
+**Ojo con la numeración:** el canal viene hablando de «sesión 2» y el evento del calendario
+se titula **IPS S3**, así que el mensaje dice Sesión 3. Coincide con el tablero.
+
+---
+
 ## 🔔 15 sep · 13:35 · Corrida horaria · Termómetro v38 · dos cosas que corrigen el tablero
 
 Paso 0 hecho: contrato, registro de Lucía y barrido de canales. **No publiqué nada**, según
