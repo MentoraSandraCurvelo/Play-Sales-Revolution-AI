@@ -15,6 +15,97 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📋 15 sep · 12:45 · Barrido de agenda a pedido de Sandra · Termómetro v35, Sala de Control v4, Mesa v7
+
+Sandra pidió revisar el correo porque ya había sesiones agendadas esta semana, y
+actualizar todo. **En el Gmail conectado no había nada:** las confirmaciones de Calendly
+llegan a `sandracurvelo@iamlatam.co`, que es Outlook, no a la cuenta de Gmail. El barrido
+se hizo sobre Calendly directamente, activas y canceladas, del 15 al 21.
+
+### Lo que cerró la pregunta que quedó abierta a mediodía
+
+**La Comunicaciones S6 de hoy no se hizo: se canceló.** Estaba para las 10:00 con cinco
+correos del área convocados (`profesionalcomunicaciones@`, `profesionalcomunicaciones2@`,
+`diseno@`, `web@`). **Cancelada por la anfitriona a las 10:14**, catorce minutos después de
+abierta la franja. Coincidía con la reunión con el director.
+
+A las 12:05 dejé esto sin concluir esperando la grabación. **La grabación nunca iba a
+aparecer**, y la respuesta no estaba en Teams sino en las cancelaciones de Calendly, que
+no había mirado. La regla de mirar el origen y no solo el destino se queda corta: **también
+hay que mirar las canceladas, no solo las activas.**
+
+La cancelación se evidencia y no entra a ningún indicador. **No consume número de sesión:**
+la próxima de Comunicaciones sigue siendo la S6.
+
+### Lo que sí cambió en la agenda
+
+**La Sub. Administrativa de mañana se movió de 8:30 a 9:00**, reprogramada hoy a las 10:08
+por la anfitriona, con el correo del área (`requerimientoscontratos@`). Es el único
+movimiento de Comfacesar desde el corte de las 12:05.
+
+**La semana queda en 17 sesiones de Comfacesar**, no 18: martes 2, miércoles 6, jueves 6,
+viernes 3. Las áreas sin fecha siguen siendo seis.
+
+### Lo que no es de Comfacesar y no entra
+
+El tipo de evento es el mismo para todos los clientes, así que en la misma ventana hay
+citas que no son del programa: Abstract Pilar (`grupoabstract.com`) el martes y el lunes 21,
+y Liyi Diazgranados (`grupologis.co`) el lunes 21. Ésas ya se sabían aparte.
+
+**Dos que no pude clasificar:** Maria Peralta (`mariaperalta503@gmail.com`) el miércoles a
+las 11:00, y Andrés Carbonell (`afca100@hotmail.com`) el miércoles a la 1:30. No están en
+`NOMBRES.md` ni en ninguno de los dos registros, y no tienen correo corporativo. **Las dejé
+fuera de la cuenta y hay que preguntarle a Sandra**, porque el correo personal no descarta
+nada: Liliany Gómez Zuleta es de Sub. Administrativa y reserva con `liligozu@gmail.com`.
+
+### El archivo de assessment se movió esta mañana
+
+`Dashboard_IAM_Intelligence_Comfacesar.xlsx` quedó modificado **hoy a las 11:42 a. m.**
+Cinco tareas nuevas y un área nueva:
+
+| Área | Tarea | Frecuencia | Antes → Hoy |
+|---|---|---|---|
+| Contabilidad | Conciliaciones bancarias | Mensual | 480 → 180 |
+| Servicios Sociales | Elaboración de actas de contratos | Ocasional | 240 → 30 |
+| Servicios Sociales | Revisión de actas de contratos | Ocasional | 240 → 30 |
+| **Tecnología** | Revisión de propuestas de TI y SI | Ocasional | 30 → 3 |
+| **Tecnología** | Formato de solicitud de contratación | Ocasional | 20 → 5 |
+
+**Tecnología entra al tablero por primera vez.** Y Contabilidad pasa de estar medida solo
+en acta a estar en el archivo: registró el reporte de viáticos con las mismas cifras que
+el acta traía como «anticipos», más las conciliaciones.
+
+**Efecto en la Sala de Control:** 26 → **31 tareas**, 10 → **11 áreas**, 67,8 → **69,0 h
+semanales**, y la proyección a doce meses de $118,4 M a **$120,4 M** a tarifa de profesional
+($208,2 M a gerente, $317,8 M a directivo).
+
+**La reducción global baja de 91% a 89%**, y conviene saber por qué antes de que lo pregunten:
+las conciliaciones bancarias solo bajan de 480 a 180 minutos, 63%, muy por debajo del resto.
+No es un retroceso, es una tarea más exigente entrando a la cuenta.
+
+De las cinco nuevas **solo las conciliaciones suman horas semanales**, porque las otras cuatro
+están marcadas «Ocasional» y sin frecuencia no se pueden llevar a semana. Tecnología entró al
+tablero pero todavía no aporta una sola hora a la proyección.
+
+### Corregido de paso
+
+**El reporte de Jurídica decía 960 → 25 minutos en el Termómetro. El área registró 10.**
+La Sala de Control ya usaba 10; el Termómetro estaba mal en tres sitios y quedó corregido.
+También quedaron al día «las 66 sesiones», que ya son 67.
+
+### Pendiente de preguntar
+
+- Quiénes son Maria Peralta y Andrés Carbonell, y si entran al programa.
+- La tabla de licencias dice «25 personas» para las áreas con medición. Con Tecnología dentro
+  ese número cambia y no lo tengo, así que quité el «diez» del rótulo y dejé el costo igual.
+- Sigue en pie confirmar con Rafael si la prevalidación precontractual son de verdad 480
+  minutos diarios: son 41,7 de las 69 horas semanales del tablero.
+
+**No se publicó nada en Slack.** Sandra no lo pidió, y `#comunicaciones` tiene la cuota del
+día agotada.
+
+---
+
 ## 🔎 15 sep · 12:05 · La sesión de Rafael sí se hizo · Termómetro v34
 
 **Se cumplió el plazo del mediodía y la respuesta es que sí.**
