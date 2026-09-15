@@ -15,6 +15,37 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📣 15 sep · 10:05 · Publicado en `#comunicaciones` · a pedido de Sandra
+
+Sandra pidió avisar en el canal que está conectada y que nadie ha entrado a la S6.
+
+**Paso 0 antes de publicar:**
+- Registro de Lucía releído: **sin reservas ni programados** para `#comunicaciones` hoy.
+- Canal leído en `detailed`: el último mensaje es del **10 de septiembre**, el acta de la S5.
+  Cupo del día libre, y la ventana de 48 horas venció hace cinco días.
+
+**Publicado** · `1789484733.470419`
+https://iamteamespacio.slack.com/archives/C0BPC33FM9D/p1789484733470419
+
+> ⭕️ Equipo de Comunicaciones, estoy conectada en la sala y todavía no ha entrado nadie.
+>
+> Los espero. Si a alguno se le cruzó algo, me escribe por aquí y miramos cómo lo resolvemos.
+>
+> Y si pueden entrar aunque sea uno o dos, arrancamos: la sesión rinde igual 💪
+
+**Nota de método:** no ofrecí mover la sesión. Reprogramar es de Sandra, y el mensaje sale
+con su voz, así que dejé la puerta abierta sin comprometer una fecha.
+
+**Detalle técnico del conector:** `slack_send_message` rechazó `markdown_text` y `text` con
+`no_text`. **El parámetro correcto es `message`.** Queda anotado para no perder tiempo la
+próxima vez.
+
+**Y la lección del 11 de septiembre sigue en pie:** un espacio no está perdido hasta que
+pasa la hora completa. Son las 10:05 y la sesión es de 10:00 a 11:00. Este mensaje dice que
+Sandra está esperando, no que la sesión se perdió.
+
+---
+
 ## 🗓️ 15 sep · 07:20 · Corte del martes · Termómetro v33
 
 Fecha verificada con `date` y con el último commit: **martes 15 de septiembre, 7:10 a. m.
