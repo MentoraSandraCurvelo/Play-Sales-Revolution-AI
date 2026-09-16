@@ -15,6 +15,71 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🗓️ 16 sep · 07:30 · Corte diario · Termómetro v40 · la semana del 21 no estaba vacía
+
+Fecha verificada con `date` y contra el último commit: **miércoles 16 de septiembre, 7:30 a. m.**
+
+### El hallazgo: seis sesiones invisibles
+
+El tablero venía afirmando que **después del viernes 18 solo quedaba una cita en todo
+septiembre**. Es falso. Hay **seis**, y no aparecían porque **están tituladas con el nombre
+de la persona y no con el del área**:
+
+| Cuándo | Título en el calendario | Área |
+|---|---|---|
+| mar 22, 11:00 | `SERVICIOS SOCIALES JpCurvelo y Sandra Curvelo` | Servicios Sociales |
+| mar 22, 16:00 | `Julissa Perez y Sandra Curvelo` | **Educación** |
+| mié 23, 15:30 | `Julissa Perez y Sandra Curvelo` | **Educación** |
+| mié 23, 17:00 | `Vidiana Bendeck y Sandra Curvelo` | Comunicaciones |
+| jue 24, 11:00 | `SERVICIOS SOCIALES JpCurvelo y Sandra Curvelo` | Servicios Sociales |
+| vie 25, 11:00 | `I AM Intelligence Comunicaciones y Sandra Curvelo` | Comunicaciones |
+
+**Educación sale de la lista de áreas sin fecha**, que baja de seis a cinco.
+
+### Y esto le pone un matiz a la regla de Sandra
+
+Ayer quedó que **solo cuenta lo que diga `IAM Intelligence` en el título**. Aplicada al pie
+de la letra, esa regla deja fuera cinco de estas seis. El espíritu era separar a los otros
+clientes, no excluir sesiones de Comfacesar mal tituladas.
+
+**El criterio que funciona para las dos cosas:** el título dice `IAM Intelligence`, **o** el
+invitado tiene correo `@comfacesar.com`. Y en los dos casos, **`Ambassadors` en el título
+excluye** — el lunes 21 a las 4:00 hay una `I AM Ambassadors Comunicaciones` con
+`comunicaciones@` y `web@`, y ese frente va aparte.
+
+**Se lo tengo que confirmar a Sandra.** Por ahora conté las seis, porque son evidentemente
+del programa, y dejé Ambassadors fuera.
+
+### Lo que cerró ayer
+
+- **IPS S3** — grabación 2:04 p. m. · **Servicios Sociales S7** — grabación 3:03 p. m.
+- El programa pasa de 67 a **69 sesiones**.
+- **Llegó el acta de Sub. Administrativa S6**, subida a Dropbox ayer a las 12:10, después de
+  mi corte de las 4:05. Individual de Rafael Solano, asistencia completa.
+
+### Asistencia
+
+Con el acta nueva, el acumulado es **140 asistencias sobre 153 convocatorias = 91,5%**, que
+el tablero muestra como **91%**. Cobertura: **63 sesiones medidas sobre 69 verificadas**.
+
+Las seis sin medir: IPS S3 y Servicios Sociales S7 (de ayer, sin acta todavía) y cuatro
+anteriores.
+
+**Áreas bajo el 70%:** ninguna nueva. Tesorería sigue siendo la única cerca del umbral, en 67%.
+
+### Lo demás
+
+- **Agenda:** ningún evento nuevo ni cancelado del 16 al 18. Los 15 de esta semana siguen en pie.
+- **Slack:** sin mensajes del cliente desde el de Aura Marina del martes a las 11:31.
+- **Áreas paradas más de 7 días y sin fecha:** Agencia de Empleo, Vivienda, Tesorería,
+  Planeación y Sub. Operativa.
+- **Faltantes documentales:** IPS S3 y Servicios Sociales S7 sin acta ni informe; Sub.
+  Administrativa S6 sin informe de asistencia.
+
+**No se publicó nada en Slack.**
+
+---
+
 ## ✅ 15 sep · 16:05 · Corrida horaria · IPS S3 confirmada · Termómetro v39
 
 **IPS hizo su S3.** Grabación `⭕️Comfacesar IPS S3 IAM™ Intelligence-20260915_140413`,
