@@ -15,6 +15,47 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🎬 16 sep · 08:30 · Sandra pasa la grabación de Servicios Sociales S7
+
+Es la que quedaba pendiente. Sesión de **ayer 15 de septiembre, 3:03 p. m.**
+
+```
+⭕️Comfacesar | Servicios Sociales S7 | IAM™ Intelligence
+https://netorg20780382-my.sharepoint.com/:v:/g/personal/sandracurvelo_iamlatam_co/
+IQD4FcFYlPcvQoUK_xmdeOTTAZkHNJWWBSpk8S3tHYjPIq0?nav=…&e=FTVtwm
+```
+
+**El tablero ya la tenía contada** desde el corte de las 7:30, con grabación ✓, acta ✕ e
+informe ✕. El enlace es el soporte, no cambia el conteo: el programa sigue en **68 sesiones**.
+
+### La numeración cuadra, y conviene dejarlo escrito
+
+En el canal hay un enredo viejo que este enlace ayuda a cerrar. El **10 de septiembre** se
+publicó una grabación titulada **«Sesión 7»** a las 16:45, y cuatro minutos después el resumen
+salió con una **corrección explícita: «esta sesión es la N° 6, no la 7»**, porque la S6 se
+había agendado dos veces —el 3 y el 8— y las dos se cayeron, y el título del evento las contó
+como hechas.
+
+Entonces son dos grabaciones distintas y no hay duplicado:
+
+| Fecha | Identificador | Es |
+|---|---|---|
+| 10 sep | `IQDh8HtCNGoiSbTuKmXiqTgh…` | **S6** · Juan Pablo y Lilian Paola |
+| 15 sep | `IQD4FcFYlPcvQoUK_xmdeOTT…` | **S7** · la de ayer |
+
+El tablero tiene exactamente eso. **Sin cambios que hacer.**
+
+### Lo que sí falta
+
+**La grabación de la S7 no está publicada en el canal.** Lo último en
+`#serivcios-sociales` es la campaña de ayer a las 10:05. El área tiene hoy su **S8 a las
+4:00 p. m.**, así que si va a publicarse, hoy es el día. La cuota del canal está en **0 de 2**.
+
+**No publiqué nada**: publicar grabaciones es trabajo de Lucía, y la regla es no publicar sin
+que Sandra lo pida. Queda preguntado.
+
+---
+
 ## ↩️ 16 sep · 08:15 · La sesión de IPS era de Ambassadors · Termómetro v41
 
 Sandra avisa: **Danilo Pozo le dijo ayer que la reunión de las 2:00 era del frente
