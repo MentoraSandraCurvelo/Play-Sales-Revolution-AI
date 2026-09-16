@@ -15,6 +15,38 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🔢 16 sep · 12:05 · Jurídica hizo la suya · 70 sesiones · Termómetro v43
+
+`⭕️Comfacesar Juridica S8 IAM™ Intelligence-20260916_100315`, iniciada a las **10:03**,
+procesada a las **11:24**. **El programa llega a 70.** Cobertura: **63 medidas sobre 70**.
+
+### Y aparece un hueco de numeración
+
+**El evento se titula S8, pero por fecha es la séptima sesión del área.** El tablero tiene
+seis documentadas, la última el 9 de septiembre con Carlos Mario. **Entre esa y hoy no hay
+ninguna grabación de Jurídica**, así que no aparece una S7 por ningún lado.
+
+Busqué en la carpeta de grabaciones de Teams: de Jurídica solo salen **S1, S3 y la S8 de hoy**.
+El resto está documentado por acta.
+
+**Es el mismo patrón que Servicios Sociales**, donde el título contaba como hechas dos
+sesiones que se cayeron, y el 10 de septiembre hubo que corregir «Sesión 7» a «N° 6» en el
+propio canal. De hecho la grabación de aquel día **todavía se llama
+`Serivcios Sociales S7`** en SharePoint, con el número equivocado.
+
+**Decisión: no renumero.** Puse la fila como **S8** y dejé la discrepancia señalada en el
+tablero. Renumerar por mi cuenta le cambia al área el número que tiene por suyo, y ya se vio
+con IPS lo que cuesta concluir de más. **Hay que confirmarlo con Lilibeth.**
+
+### Lo demás
+
+- **Sin mensajes del cliente** desde el de Aura Marina del martes a las 11:31.
+- Quedan hoy: **Talento Humano S3** a las 2:00, **Sub. Administrativa S8** a las 3:00,
+  **Servicios Sociales S8** a las 4:00 y **Cumplimiento S2** a las 5:00.
+- No publiqué nada.
+
+---
+
 ## ✅ 16 sep · 11:05 · Corrida horaria · Sub. Administrativa S7 · Termómetro v42
 
 **La Sub. Administrativa hizo su S7 esta mañana.** Grabación
