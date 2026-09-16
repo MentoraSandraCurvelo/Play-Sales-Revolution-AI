@@ -778,3 +778,9 @@ sesión** por vía directa, no por mesa de ayuda.
 Financiera y Jurídica.
 
 **Tablero:** 67 sesiones · 6 agentes (cuatro corriendo, dos en construcción).
+
+**Criterio fijado — inasistencias y el canal del área**
+Sandra decidió el 16 de septiembre que **no se publica nada en `#comunicaciones`** por la
+inasistencia del 15. Queda como criterio del proyecto: *una sala vacía no se comenta en el canal
+del área.* Se registra en `cancelaciones.json`, entra al tablero para la contraparte, y ahí
+termina. Ningún mensaje de canal sobre inasistencias sin que Sandra lo pida explícitamente.
