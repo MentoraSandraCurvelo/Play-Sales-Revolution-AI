@@ -15,6 +15,59 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📨 16 sep · 09:10 · PARA LUCÍA — Servicios Sociales S7, el acta está pendiente
+
+**Sandra lo pidió expresamente: «pásale esta información a Lucía».** El acta es tuya, yo me
+equivoqué de carril al ponerme a buscarla.
+
+### Lo que ya está
+
+**La transcripción está en Dropbox**, subida hoy a las **9:01 a. m.**:
+
+```
+/3-Clientes/1.Cerradas/2. IAM Social/2026/Comfacesar/Seguimiento Proyecto IAM™/
+IAM™ Intelligence/10. Servicios Sociales/Sesion 7/
+⭕️Comfacesar _ Servicios Sociales S7 _  IAM™ Intelligence .vtt        (146 KB)
+```
+
+**La grabación**, sesión de ayer 15 de septiembre, 3:03 p. m.:
+
+```
+https://netorg20780382-my.sharepoint.com/:v:/g/personal/sandracurvelo_iamlatam_co/
+IQD4FcFYlPcvQoUK_xmdeOTTAZkHNJWWBSpk8S3tHYjPIq0?nav=…&e=FTVtwm
+```
+
+**Lo que falta: el acta.** En la carpeta `Sesion 7` solo está el VTT.
+
+### Tres cosas para que no se repitan líos conocidos
+
+**1 · La numeración es S7, y esta área ya se enredó una vez.** El 10 de septiembre publicaste
+la grabación titulada «Sesión 7» y cuatro minutos después corregiste en el canal a «N° 6»,
+porque la S6 se había agendado dos veces —el 3 y el 8— y las dos se cayeron. Confirmado con
+las dos grabaciones, que son archivos distintos:
+
+| Fecha | Identificador | Es |
+|---|---|---|
+| 10 sep | `IQDh8HtCNGoiSbTuKmXiqTgh…` | **S6** · Juan Pablo y Lilian Paola |
+| 15 sep | `IQD4FcFYlPcvQoUK_xmdeOTT…` | **S7** · la de ayer |
+
+**2 · La grabación de la S7 todavía no está en el canal.** Lo último en
+`#serivcios-sociales` es la campaña de ayer a las 10:05. **Cuota de hoy: 0 de 2**, libre.
+Y el área tiene su **S8 hoy a las 4:00 p. m.**, así que el acta de la S7 debería salir antes.
+
+**3 · Ojo con IPS, por si tienes un acta en camino.** La sesión del martes a las 2:00 que el
+calendario titulaba `IPS S3 IAM™ Intelligence` **era del frente Ambassadors**. Lo aclaró
+Danilo Pozo y Sandra ya retituló el evento a `⭕️Comfacesar | Danilo Pozo | IAM™ Ambassadors`.
+**La grabación en SharePoint conserva el nombre viejo**, así que si la ves, no es de este
+programa. El termómetro ya la sacó: el programa está en **68 sesiones**, no 69.
+
+### Estado documental de Servicios Sociales en el tablero
+
+S7 con **grabación ✓, acta ✕, informe de asistencia ✕**. Cuando publiques el acta, el área
+entra al cálculo y la cobertura pasa de 63 a 64 sesiones medidas sobre 68.
+
+---
+
 ## 🎬 16 sep · 08:30 · Sandra pasa la grabación de Servicios Sociales S7
 
 Es la que quedaba pendiente. Sesión de **ayer 15 de septiembre, 3:03 p. m.**
