@@ -1,0 +1,342 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SERVICIOS SOCIALES",
+  "area_completa": "",
+  "sesion_num": 7,
+  "fase": "Sistemas de Trabajo Agénticos",
+  "fecha": "15 de septiembre de 2026",
+  "fecha_corta": "15 septiembre 2026",
+  "subtitulo_meta": "Con Juan Pablo Curvelo y Lilian Paola Ramos · 15 de septiembre de 2026 · 3:00 p. m. · 1 h 10 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    [
+      "Área(s)",
+      "Servicios Sociales — Comfacesar"
+    ],
+    [
+      "Sesión",
+      "N° 7 — El informe del Centro de Convenciones para junta directiva: configuración del proyecto y lectura de las cifras"
+    ],
+    [
+      "Fecha",
+      "15 de septiembre de 2026"
+    ],
+    [
+      "Hora inicio",
+      "3:00 p. m. — Colombia"
+    ],
+    [
+      "Duración de la sesión",
+      "1 hora 10 minutos (3:00 p. m. – 4:10 p. m.)"
+    ],
+    [
+      "Modalidad",
+      "Virtual — Microsoft Teams"
+    ],
+    [
+      "Asistencia",
+      "Juan Pablo Curvelo y Lilian Paola Ramos — completa"
+    ],
+    [
+      "Grabación",
+      "Publicada en el canal del área"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo — Mentora IAM™ Intelligence"
+    ]
+  ],
+  "kpis": [
+    {
+      "valor": "8",
+      "etiqueta": "Años analizados",
+      "detalle": "Desde la apertura del Centro"
+    },
+    {
+      "valor": "285K",
+      "etiqueta": "Personas en ocho años",
+      "detalle": "El total que arroja el cuadro"
+    },
+    {
+      "valor": "0",
+      "etiqueta": "Años con resultado positivo",
+      "detalle": "Incluido el primer trimestre de 2026"
+    },
+    {
+      "valor": "1",
+      "etiqueta": "Cifra que no cuadró",
+      "detalle": "El crecimiento declarado, recalculado en sesión"
+    },
+    {
+      "valor": "1",
+      "etiqueta": "Insumo pedido en sesión",
+      "detalle": "El Excel con las fórmulas — hoy llega en papel"
+    }
+  ],
+  "participantes": [
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "—",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Juan Pablo Curvelo",
+      "cargo": "Profesional Junior — Servicios Sociales",
+      "correo": "pro_juniorss@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Intermedio"
+    },
+    {
+      "nombre": "Lilian Paola Ramos",
+      "cargo": "Servicios Sociales — Comfacesar",
+      "correo": "serviciossociales@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Inicial"
+    }
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 7. El ejercicio era configurar el proyecto del informe para junta directiva. Al abrir las cifras que lo alimentan apareció algo de otro orden: los datos no sostienen la conclusión que el informe va a defender.",
+  "riesgos": [
+    {
+      "titulo": "El informe va a pedir una ampliación sobre un resultado en pérdida",
+      "nivel": "ALTO",
+      "descripcion": "Al recorrer el cuadro en sesión, **el resultado del ejercicio es negativo todos los años** —ingresos menos costos menos gastos—, incluido el primer trimestre de 2026. El informe que se va a llevar al consejo directivo justifica la ampliación del Centro. _La pregunta quedó formulada así:_ si el espacio actual no está dando retorno, ¿sobre qué se sostiene ampliarlo, y en cuánto tiempo se recupera esa inversión?",
+      "responsable": "Lilian Paola Ramos + Juan Pablo Curvelo / Antes de la junta"
+    },
+    {
+      "titulo": "El Excel llega impreso, no como archivo",
+      "nivel": "ALTO",
+      "descripcion": "La información base se recibió en papel y se escaneó. _Eso deja el análisis a ciegas:_ no se pueden revisar las fórmulas ni verificar de dónde salen los totales. Es el mismo insumo que tres áreas del programa ya pidieron. Se solicitó el archivo durante la sesión.",
+      "responsable": "Juan Pablo Curvelo / Inmediato"
+    },
+    {
+      "titulo": "Una columna que no se llama como el dato que contiene",
+      "nivel": "ALTO",
+      "descripcion": "La columna dice «número de veces usado» y el dato es **el total de personas que asistieron ese año en esa categoría**, no la cantidad de eventos. _La confusión no es de la herramienta:_ cualquiera que lea el cuadro sin conocer la circular entiende otra cosa — y el consejo directivo lo va a leer así. El término viene estructurado de esa forma en la norma, pero el cuadro no lo aclara en ninguna parte.",
+      "responsable": "Lilian Paola Ramos / Antes de la junta"
+    },
+    {
+      "titulo": "Una cifra de crecimiento que no se reprodujo",
+      "nivel": "ALTO",
+      "descripcion": "El cuadro declara un crecimiento que al recalcularse en sesión no dio. _Puede ser un índice distinto al que el rótulo sugiere_ —aceleramiento y no crecimiento—, pero eso hay que confirmarlo con quien construyó la matriz. **Una cifra que no se puede reproducir no se puede defender en una junta.**",
+      "responsable": "Juan Pablo Curvelo / Antes de la junta"
+    },
+    {
+      "titulo": "La cobertura no tiene histórico contra qué compararse",
+      "nivel": "MEDIO",
+      "descripcion": "El registro de cobertura —demanda y oferta— **se empezó a llevar este año**. Los valores que aparecen en años anteriores corresponden a eventos sueltos que se registraron, no a una serie. _Presentarlos como crecimiento sería comparar contra algo que no se medía._ Lo correcto es decir que la medición arranca en 2026 y dejar el histórico fuera del análisis.",
+      "responsable": "Juan Pablo Curvelo / Antes de la junta"
+    },
+    {
+      "titulo": "El proyecto estaba configurado con la acción dentro del contexto",
+      "nivel": "MEDIO",
+      "descripcion": "Casi todo lo que estaba escrito como contexto era en realidad instrucción de lo que debe contener el informe. _Por eso la primera salida fue puramente técnica:_ cifras sin historia, porque el sistema no recibió ninguna. Se reordenó en sesión con el método CREA.",
+      "responsable": "Lilian Paola Ramos / Permanente"
+    },
+    {
+      "titulo": "El método ya enseñado hubo que explicarlo otra vez",
+      "nivel": "MEDIO",
+      "descripcion": "Crear el proyecto, cargar los documentos y escribir el detalle son pasos que el programa ya cubrió en sesiones anteriores. _Sigue abierta la tarea de la S6:_ ver las grabaciones publicadas y ponerse al día. El área instaló la aplicación de escritorio pero continúa trabajando desde la web, y sin ella no hay circuito de trabajo — solo consultas sueltas.",
+      "responsable": "Lilian Paola Ramos / Esta semana"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Pedir el Excel con las fórmulas al área que construye la matriz",
+      "descripcion": "Se solicitó en sesión. Sin el archivo no se pueden revisar las formulaciones ni verificar los totales.",
+      "responsable": "Juan Pablo Curvelo",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Sentarse con quien construyó el cuadro y entenderlo línea por línea",
+      "descripcion": "Qué significa cada columna, de dónde sale cada total y por qué el crecimiento declarado no se reproduce. **Son ustedes quienes van a responder en la junta, no quien envió la matriz.**",
+      "responsable": "Lilian Paola Ramos + Juan Pablo Curvelo",
+      "plazo": "Antes de la junta"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Pedirle al sistema el análisis de las formulaciones antes que la presentación",
+      "descripcion": "Cargar el Excel y pedir primero: qué entiendes de este archivo, qué conclusiones arroja y si hay algún error en las fórmulas. _Las diapositivas van después._",
+      "responsable": "Juan Pablo Curvelo",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Pedir la proyección y el retorno de la ampliación",
+      "descripcion": "Con un supuesto de costo, calcular en cuánto tiempo se recupera la inversión según el comportamiento real de estos ocho años. Es la cifra que la junta va a pedir.",
+      "responsable": "Juan Pablo Curvelo",
+      "plazo": "Antes de la junta"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Cargar la circular y explicar las categorías en las instrucciones del proyecto",
+      "descripcion": "Qué es cada categoría —A, B, C, D— y qué significa que alguien pertenezca a ella. Sin eso el análisis sale sin sistema de subsidio familiar por dentro.",
+      "responsable": "Lilian Paola Ramos",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Pasar el trabajo a la aplicación de escritorio",
+      "descripcion": "Está instalada y sin usar. Es la que permite trabajar sobre las carpetas del área en lugar de subir archivo por archivo.",
+      "responsable": "Lilian Paola Ramos",
+      "plazo": "Esta semana"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Configurar el proyecto con el método CREA",
+      "duracion": "~30 min",
+      "objetivo": "Ordenar el proyecto del informe antes de pedirle nada.",
+      "pasos": [
+        "_El punto de partida:_ el área ya tenía una salida hecha esa mañana, y el diagnóstico propio fue que salió «muy técnica» — solo cifras, sin entender el sistema de subsidio familiar",
+        "**Contexto es pasado y presente; acción es futuro; entrega es el formato.** Casi todo lo escrito como contexto era en realidad acción: qué debe mostrar el informe, qué capítulos llevar",
+        "_Se reescribió el contexto contando la historia:_ qué es el Centro, cuándo se creó, para qué, qué aforo tiene, qué segmentos atiende, cuántos años lleva operando",
+        "_Se afinó el rol._ De «analista financiero» a **«analista financiero para un centro de eventos, con el propósito de evidenciar por qué se debe ampliar»**. Un rol genérico devuelve un análisis genérico",
+        "_Se escribió la entrega, que faltaba por completo:_ presentación en PowerPoint con los colores corporativos. Sin formato declarado, el sistema elige uno",
+        "_Y un detalle de escritura que vale para todas las áreas:_ los viñetas copiadas de otro documento llegan como símbolos sueltos y el sistema puede interpretarlas como otra cosa. Se escribe corrido, con comas"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Leer el cuadro antes de presentarlo",
+      "duracion": "~30 min",
+      "objetivo": "Entender las cifras que el informe va a defender.",
+      "pasos": [
+        "Se recorrió el cuadro año por año desde la apertura, leyendo el comportamiento: la caída de la pandemia, la recuperación posterior, el estancamiento de un año y el descenso del último",
+        "_Primera cosa que no cerró:_ la columna «número de veces usado» no son eventos, son personas. Hizo falta preguntarlo para saberlo",
+        "_Segunda:_ el total de ocho años suma unas 285.000 personas —repartidas por categoría—, pero la cifra de crecimiento declarada no se reprodujo al recalcularla en sesión",
+        "_Tercera:_ la cobertura solo se registra desde este año. Los valores anteriores son eventos sueltos, no una serie comparable",
+        "_Y la que cambia el sentido del informe:_ **el resultado del ejercicio es negativo en todos los años**, incluido el trimestre corrido de 2026",
+        "_La conclusión quedó dicha sin rodeos:_ con estos números, tal como están, la presentación no se sostiene frente a un consejo directivo"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Lo que se hace ahora",
+      "duracion": "~10 min",
+      "objetivo": "Convertir el hallazgo en el trabajo de la próxima sesión.",
+      "pasos": [
+        "Pedir el Excel —no el impreso— al área que construye la matriz",
+        "Cargarlo al proyecto y pedirle al sistema **el análisis de las formulaciones primero**: qué entiende, qué conclusiones arroja, si hay errores de cálculo",
+        "Con eso en la mano, volver a quien construyó el cuadro con preguntas concretas en lugar de dudas generales",
+        "Pedir la proyección y el retorno de inversión de la ampliación con un supuesto de costo",
+        "_Y el criterio que queda más allá de este informe:_ cuando otra área les envíe un reporte, pidan el archivo. Hoy revisar una formulación toma minutos"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD CRÍTICA · SESIÓN 7 · 15 septiembre 2026",
+      "titulo": "El informe de junta directiva, con las cifras auditadas antes de presentarlas",
+      "descripcion": "El ejercicio de configurar el proyecto destapó que los datos no sostienen la conclusión. Revisar las formulaciones, entender cada columna y calcular el retorno de la ampliación convierte una presentación frágil en una decisión defendible — en cualquiera de los dos sentidos.",
+      "estado": "En curso",
+      "proximo_paso": "El Excel y el análisis de fórmulas",
+      "target": "Antes de la junta"
+    },
+    {
+      "encabezado": "OPORTUNIDAD DE MÉTODO · SESIÓN 7 · 15 septiembre 2026",
+      "titulo": "Pedir siempre el archivo, nunca el impreso",
+      "descripcion": "**Esto es para la vida del área, no para este informe.** Cuando otra área envía un reporte, con el archivo se pueden revisar las fórmulas, detectar un error de cálculo y llegar a la reunión con preguntas concretas. Con un papel escaneado no se puede hacer ninguna de las tres cosas.",
+      "estado": "Criterio acordado",
+      "proximo_paso": "Aplicarlo a todo reporte que reciban",
+      "target": "Permanente"
+    },
+    {
+      "encabezado": "OPORTUNIDAD ABIERTA · SESIÓN 7 · 15 septiembre 2026",
+      "titulo": "Pasar de la herramienta al sistema de trabajo",
+      "descripcion": "La aplicación de escritorio está instalada y sin usar. Con ella el circuito completo es posible: entra el archivo por correo, se guarda en la carpeta del área, se analiza, se arma la presentación y se entrega. Sin ella, cada ejercicio vuelve a empezar de cero.",
+      "estado": "Instalada, sin uso",
+      "proximo_paso": "Trabajar el próximo ejercicio desde el escritorio",
+      "target": "Esta semana"
+    }
+  ],
+  "tareas_intro": "La sesión iba a ser de configuración de proyecto y terminó siendo de auditoría de cifras. Lo que sigue es lo que hay que tener antes de la junta directiva.",
+  "tareas": [
+    {
+      "tarea": "Pedir el Excel con las fórmulas al área que construye la matriz",
+      "responsable": "Juan Pablo Curvelo",
+      "prioridad": "ALTA",
+      "plazo": "Inmediato"
+    },
+    {
+      "tarea": "Cargar el Excel y pedir el análisis de formulaciones antes que la presentación",
+      "responsable": "Juan Pablo Curvelo",
+      "prioridad": "ALTA",
+      "plazo": "Inmediato"
+    },
+    {
+      "tarea": "Sentarse con quien construyó el cuadro y entenderlo columna por columna",
+      "responsable": "Lilian Paola Ramos + Juan Pablo Curvelo",
+      "prioridad": "ALTA",
+      "plazo": "Antes de la junta"
+    },
+    {
+      "tarea": "Pedir la proyección y el retorno de inversión de la ampliación",
+      "responsable": "Juan Pablo Curvelo",
+      "prioridad": "ALTA",
+      "plazo": "Antes de la junta"
+    },
+    {
+      "tarea": "Cargar la circular y explicar las categorías en las instrucciones del proyecto",
+      "responsable": "Lilian Paola Ramos",
+      "prioridad": "MEDIA",
+      "plazo": "Inmediato"
+    },
+    {
+      "tarea": "Terminar de reordenar el contexto, el rol y la entrega del proyecto",
+      "responsable": "Lilian Paola Ramos",
+      "prioridad": "MEDIA",
+      "plazo": "Antes de la S8"
+    },
+    {
+      "tarea": "Pasar el trabajo a la aplicación de escritorio",
+      "responsable": "Lilian Paola Ramos",
+      "prioridad": "MEDIA",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Ver las grabaciones publicadas y ponerse al día — pendiente desde la S6",
+      "responsable": "Lilian Paola Ramos",
+      "prioridad": "MEDIA",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Contestar la encuesta del programa",
+      "responsable": "Lilian Paola Ramos",
+      "prioridad": "MEDIA",
+      "plazo": "Esta semana"
+    }
+  ],
+  "observaciones": [
+    "La sesión empezó como un ejercicio de configuración de proyecto y terminó en otra parte. Al abrir el cuadro que alimenta el informe apareció que **el resultado del ejercicio es negativo todos los años**, incluido el trimestre corrido de 2026 — y ese informe va a pedirle a la junta directiva la ampliación del Centro. _La pregunta que quedó sobre la mesa es de gestión, no de inteligencia artificial:_ si el espacio actual no da retorno, ¿sobre qué se sostiene ampliarlo?",
+    "Y el hallazgo de fondo es el mismo que viene apareciendo en todo el programa: **el problema no estaba en la herramienta, estaba en el insumo.** El Excel llega en papel, una columna no se llama como el dato que contiene, una cifra de crecimiento no se reproduce al recalcularla, y la cobertura no tiene histórico porque empezó a medirse este año. Nada de eso lo causó el sistema. Lo destapó el hecho de sentarse a explicárselo.",
+    "_Sobre la columna conviene ser preciso, porque va a volver a pasar:_ dice «número de veces usado» y el dato es el total de personas que asistieron ese año en esa categoría. El término viene así de la norma. Pero un consejo directivo no lee la norma, lee el cuadro — y va a entender eventos. **La claridad del rótulo no es un detalle estético: es lo que sostiene o hunde una presentación.**",
+    "El criterio que quedó vale más allá de este informe: cuando otra área envíe un reporte, pídanlo en archivo. Con el Excel se revisan las fórmulas, se detecta un error de cálculo y se llega a la reunión con preguntas concretas. Con un impreso escaneado no se puede hacer ninguna de las tres cosas — y quien responde en la junta es el área que presenta, no la que envió la matriz.",
+    "Sobre el método: casi todo lo que el proyecto tenía escrito como contexto era en realidad acción. Por eso la primera salida fue puramente técnica — cifras sobre cifras, sin el sistema de subsidio familiar por dentro. _No fue un fallo del sistema:_ no recibió ningún contexto que dar. Se reordenó en sesión y quedó pendiente terminarlo.",
+    "Queda abierto lo que ya venía de la S6: ponerse al día con las grabaciones y pasar el trabajo a la aplicación de escritorio, que está instalada y sin usar. Mientras el trabajo siga en la web, cada ejercicio arranca de cero y no hay circuito. _Es la diferencia entre usar una herramienta y tener un sistema de trabajo._",
+    "La continuidad quedó acordada para la sesión siguiente, con el Excel ya solicitado y el análisis de formulaciones corrido."
+  ],
+  "proxima_sesion": {
+    "sesion": "Servicios Sociales — Sesión 8",
+    "condiciones": [
+      "El Excel con las fórmulas recibido y cargado al proyecto",
+      "El análisis de formulaciones corrido y leído",
+      "La circular cargada y las categorías explicadas en las instrucciones",
+      "El contexto, el rol y la entrega terminados de reordenar"
+    ],
+    "agenda": [
+      "Lectura del análisis de las cifras y de los errores encontrados",
+      "La proyección y el retorno de inversión de la ampliación",
+      "Armado de la presentación para junta directiva",
+      "El circuito completo desde la aplicación de escritorio"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 15 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

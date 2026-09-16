@@ -696,3 +696,35 @@ primer sistema el 9 de septiembre y aparece por nombre en el corte entregado a l
 
 *Sin aviso en el canal por ahora.* Es el mismo criterio de las tres inasistencias anteriores:
 no se publica reproche en el canal del área sin decidir el tono con Sandra.
+
+---
+
+## Miércoles 16 de septiembre de 2026 — acta de Servicios Sociales S7
+
+Sesión del **martes 15 de septiembre, 3:00–4:10 p. m.** (1 h 10 min), con Juan Pablo Curvelo y
+Lilian Paola Ramos. **Numeración correcta: S7.** Esta vez el título del evento sí coincide —
+la S6 fue la del 10 de septiembre, después de dos caídas (3 y 8 de septiembre). Verificado
+contra la carpeta `Sesion 7` en Dropbox y el CSV de asistencia.
+
+**Publicado**
+- Grabación → `#serivcios-sociales` (`1789567348.915069`)
+- Resumen de sesión → mismo canal (`1789567573.303949`)
+- Acta PDF entregada a Sandra: `ACTA_Sesion7_ServiciosSociales_15septiembre2026.pdf`
+
+**Cuarto hallazgo de gestión del programa**
+La sesión iba a ser de configuración de proyecto —el informe del Centro de Convenciones para
+junta directiva— y al abrir el cuadro apareció que **el resultado del ejercicio es negativo
+todos los años**, incluido el trimestre corrido de 2026. Ese informe pide la ampliación del
+Centro. Además: la columna «número de veces usado» contiene personas y no eventos, la cifra
+de crecimiento declarada no se reprodujo al recalcularla, la cobertura solo se registra desde
+este año, y el Excel llega **impreso**.
+
+Entró al tablero como hallazgo 4 de la sección 04, con el mismo encuadre que los tres
+anteriores: *lo destapó el área al sentarse a explicarle sus cifras al sistema.*
+
+**Criterio que quedó del área, y sirve para todas:** cuando otra área envíe un reporte, pedirlo
+en archivo. Con el Excel se revisan fórmulas; con un impreso escaneado, nada.
+
+**Nota de conteo:** la sesión de IPS del 15 de septiembre **fue de IAM™ Ambassadors, no de
+Intelligence** — no cuenta para el programa ni para el tablero. Confirmado por Sandra. El
+contador queda en **65 sesiones** y se añadió la aclaración en las notas del corte.
