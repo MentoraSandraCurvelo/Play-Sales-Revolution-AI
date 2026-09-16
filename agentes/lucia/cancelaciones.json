@@ -119,14 +119,29 @@
       "compromiso": null,
       "cuenta_como": "cancelada",
       "nota": "Cuarta inasistencia del programa y la más difícil de explicar: el área venía de una S5 el 9 de septiembre donde puso a correr la revisión de solicitudes con una sola línea de instrucción, y es una de las que aparece en el corte entregado a la contraparte. La cita la reservó el 7 de septiembre con cuatro invitados del área —profesionalcomunicaciones@, profesionalcomunicaciones2@, diseno@ y web@—; no entró ninguno. Al cancelarse en Calendly el evento sale de Outlook, por eso ya no aparece en el calendario del día."
+    },
+    {
+      "area": "Cumplimiento",
+      "sesion": "S2",
+      "fecha": "2026-09-16",
+      "hora": "17:00",
+      "canal": "#cumplimiento",
+      "quien_cancela": "Comfacesar — Aura Marina Sánchez Quintero",
+      "motivo": "Cancelada por la persona del área. El evento se cerró en Calendly a las 5:15 p. m., quince minutos después de la hora de inicio. No quedó motivo escrito.",
+      "causa": "cancelación del área",
+      "aviso_en_canal": null,
+      "reagendada": false,
+      "compromiso": null,
+      "cuenta_como": "cancelada",
+      "nota": "Es la segunda vez que se cae la S2 de Cumplimiento: la primera fue el 2 de septiembre, con la representante anterior. Y duele más que aquella, porque **esta era la primera sesión agendada después del relevo de representantes que aprobó la contraparte para destrabar precisamente esta área**. La reservó Aura Marina Sánchez Quintero el 14 de septiembre para hoy. Dos precisiones para el registro: en Calendly la ejecución del cierre quedó a nombre de la anfitriona, no de la invitada —lo habitual cuando la persona avisa por otro canal y se cancela desde el lado de IAM—; y Aura es también quien asume la representación de Auditoría Interna, así que conviene confirmar con Sandra a cuál de las dos áreas contaba esta sesión."
     }
   ],
   "patron": {
     "detectado": "2026-09-01",
-    "que_pasa": "Ocho sesiones caídas en cuatro semanas, y cuatro de ellas son inasistencias sin aviso: Servicios Sociales el 3 de septiembre, Sub. Operativa y Mercadeo el miércoles 9 con una hora de diferencia, y Comunicaciones el lunes 15. Las otras cuatro fueron cruces con otras actividades —Educación y Tecnología el 31 de agosto, Cumplimiento el 2 de septiembre— y la cita médica que tumbó el segundo intento de Servicios Sociales el 8. Solo Educación quedó reagendada.",
-    "por_que_importa": "Ya es la mitad: cuatro de las ocho sesiones caídas son salas reservadas donde no entró nadie. Y la del 15 de septiembre rompe el consuelo que quedaba —que les pasaba a las áreas rezagadas—: Comunicaciones venía de poner a correr su primer sistema el 9 de septiembre y aparece por nombre en el corte entregado a la contraparte. Quedan seis semanas y el cierre de octubre es por área.",
+    "que_pasa": "Nueve sesiones caídas en cuatro semanas. Cuatro son inasistencias sin aviso —Servicios Sociales el 3 de septiembre, Sub. Operativa y Mercadeo el miércoles 9, y Comunicaciones el lunes 15—. Las otras cinco son cancelaciones: Educación y Tecnología el 31 de agosto, Cumplimiento el 2 de septiembre, la cita médica de Servicios Sociales el 8, y Cumplimiento otra vez el 16.",
+    "por_que_importa": "Cumplimiento es el caso que más conviene mirar: se le cayó la S2 el 2 de septiembre, la contraparte aprobó un relevo de representantes para destrabarla, y **la primera sesión agendada después del relevo también se cayó**. El nombramiento no resolvió el problema — lo trasladó. Y de las nueve caídas, cuatro son salas donde no entró nadie. Quedan seis semanas y el cierre de octubre es por área.",
     "a_quien_toca": "María Elvira Marulanda — es quien puede pedir que el espacio del programa se respete como cualquier otro compromiso institucional.",
-    "actualizado": "2026-09-15",
-    "recuperadas": "De las ocho sesiones caídas solo Educación S3 se reagendó. Tecnología S3 se retomó el 11 de septiembre por vía propia. Siguen sin fecha nueva: Cumplimiento S2, Servicios Sociales S6 —ya recuperada en la sesión del 10—, Sub. Operativa S3, Mercadeo S4 y ahora Comunicaciones S6."
+    "actualizado": "2026-09-16",
+    "recuperadas": "De las nueve caídas solo Educación S3 se reagendó; Tecnología retomó por vía propia el 11 de septiembre y Servicios Sociales recuperó su S6 el 10. Siguen sin fecha nueva: Sub. Operativa S3, Mercadeo S4, Comunicaciones S6 y Cumplimiento S2 —esta última, dos veces."
   }
 }

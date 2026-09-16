@@ -784,3 +784,19 @@ Sandra decidió el 16 de septiembre que **no se publica nada en `#comunicaciones
 inasistencia del 15. Queda como criterio del proyecto: *una sala vacía no se comenta en el canal
 del área.* Se registra en `cancelaciones.json`, entra al tablero para la contraparte, y ahí
 termina. Ningún mensaje de canal sobre inasistencias sin que Sandra lo pida explícitamente.
+
+**Cancelación — Cumplimiento S2 (miércoles 16, 5:00 p. m.)**
+Cancelada por el área. Verificado en Calendly: la reservó **Aura Marina Sánchez Quintero**
+(`profesionalcumplimiento@`) el 14 de septiembre; el evento se cerró a las 5:15 p. m., sin motivo
+escrito. En Calendly la ejecución del cierre quedó a nombre de la anfitriona, que es lo habitual
+cuando la persona avisa por otra vía.
+
+**Es la novena sesión caída y la segunda vez que se cae la S2 de Cumplimiento.** Y es la que más
+pesa de todas: era **la primera sesión agendada después del relevo de representantes que aprobó
+María Elvira para destrabar precisamente esta área**. Entró al tablero como párrafo propio dentro
+de la alerta crítica, con ese encuadre: *el nombramiento no resolvió el problema, lo trasladó.*
+
+*Pendiente de confirmar con Sandra:* Aura asume también la representación de Auditoría Interna,
+así que hay que definir a cuál de las dos áreas contaba esta sesión.
+
+Sin mensaje en el canal, según el criterio fijado el 16 de septiembre.
