@@ -15,6 +15,49 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ↩️ 16 sep · 08:15 · La sesión de IPS era de Ambassadors · Termómetro v41
+
+Sandra avisa: **Danilo Pozo le dijo ayer que la reunión de las 2:00 era del frente
+Ambassadors, no de Intelligence.** Ya retituló el evento.
+
+Verificado en el calendario antes de tocar nada. El evento ahora dice:
+
+```
+⭕️Comfacesar | Danilo Pozo |  IAM™ Ambassadors
+```
+
+**El programa vuelve de 69 a 68 sesiones.** La fila S3 sale de IPS, el área regresa a la
+lista de las que no tienen fecha —de cinco a seis—, y su última sesión de Intelligence sigue
+siendo la **S2 del 9 de septiembre**, o sea siete días parada.
+
+El acumulado no se mueve: IPS S3 no tenía acta, así que no estaba medida. Cobertura:
+**63 medidas sobre 68**.
+
+**Servicios Sociales S7 sí se queda.** Su evento conserva `IAM™ Intelligence` en el título,
+verificado también. Sandra dice que le queda pasarme esa, así que quedo pendiente de lo que
+mande.
+
+### Lo que esto enseña del método
+
+Ayer conté esa sesión con dos evidencias que parecían sólidas: **la grabación de Teams decía
+`⭕️Comfacesar IPS S3 IAM™ Intelligence`** y Sandra me había confirmado que el equipo entró.
+Las dos eran ciertas y aun así la conclusión estaba mal, porque **el título lo escribió quien
+agendó, no quien sabía de qué frente era la sesión**.
+
+**La grabación en SharePoint todavía lleva el nombre viejo** y no se puede retitular desde
+aquí. Si alguien la busca, va a encontrar «IPS S3 IAM™ Intelligence» para una sesión de
+Ambassadors. Vale corregirlo en Teams cuando se pueda.
+
+**Y matiza lo de ayer sobre los títulos.** El título del calendario sigue siendo la mejor
+fuente que hay, pero **no es infalible: lo escribe una persona**. Cuando el área dice otra
+cosa, manda el área.
+
+**Pendiente que se refuerza:** confirmar con Sandra el criterio para las seis sesiones de la
+semana del 21 que están tituladas con nombre propio. Si el título puede estar mal, clasificar
+por título solo no alcanza.
+
+---
+
 ## 🗓️ 16 sep · 07:30 · Corte diario · Termómetro v40 · la semana del 21 no estaba vacía
 
 Fecha verificada con `date` y contra el último commit: **miércoles 16 de septiembre, 7:30 a. m.**
