@@ -15,6 +15,27 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ✅ 16 sep · 11:05 · Corrida horaria · Sub. Administrativa S7 · Termómetro v42
+
+**La Sub. Administrativa hizo su S7 esta mañana.** Grabación
+`⭕️Comfacesar Sub. Administrativa y Financiera Sesion 7 IAM™ Intelligence-20260916_085957`,
+iniciada a las **8:59**, procesada a las **10:36**.
+
+**El programa llega a 69 sesiones.** Le faltan acta e informe, así que no entra al cálculo.
+Cobertura: **63 medidas sobre 69**.
+
+Es su **tercera sesión en tres días hábiles** —S6 el lunes, S7 hoy— y todavía le quedan dos
+esta semana, hoy a las 3:00 con Liliany y el viernes a las 11:00. Ningún área del programa ha
+tenido ese ritmo.
+
+**Jurídica S8 terminó a las 11:00** y su grabación sigue procesándose. No concluyo nada hasta
+que aparezca; la reviso en la próxima corrida.
+
+**Sin mensajes del cliente** desde el de Aura Marina del martes a las 11:31. Sin DM pendientes.
+No publiqué nada.
+
+---
+
 ## 📨 16 sep · 09:10 · PARA LUCÍA — Servicios Sociales S7, el acta está pendiente
 
 **Sandra lo pidió expresamente: «pásale esta información a Lucía».** El acta es tuya, yo me
