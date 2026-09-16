@@ -1,0 +1,230 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SUB. ADMINISTRATIVA Y FINANCIERA",
+  "area_completa": "",
+  "sesion_num": 7,
+  "fase": "Sistemas de Trabajo Agénticos",
+  "fecha": "16 de septiembre de 2026",
+  "fecha_corta": "16 septiembre 2026",
+  "subtitulo_meta": "Individual de Rafael Solano · 16 de septiembre de 2026 · 8:55 a. m. · 1 h 1 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Sub. Administrativa y Financiera — Comfacesar"],
+    ["Sesión", "N° 7 — Individual de Rafael Solano: el tablero del área y el diseño del segundo agente"],
+    ["Fecha", "16 de septiembre de 2026"],
+    ["Hora inicio", "8:55 a. m. — Colombia"],
+    ["Duración de la sesión", "1 hora 1 minuto de acompañamiento (8:57 a. m. – 9:58 a. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Rafael Solano — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "3", "etiqueta": "Mejoras traídas hechas", "detalle": "Construidas entre la S6 y la S7"},
+    {"valor": "1", "etiqueta": "Tablero HTML corriendo", "detalle": "Del Excel de control del área"},
+    {"valor": "127", "etiqueta": "Pendientes de legalización", "detalle": "Lo que el tablero marcó en rojo — por validar"},
+    {"valor": "2", "etiqueta": "Agentes en el área", "detalle": "Uno operando y uno en diseño"},
+    {"valor": "1", "etiqueta": "Envío sin revisar", "detalle": "El aprendizaje más caro de la sesión"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Rafael Solano", "cargo": "Área Precontractual — Comfacesar", "correo": "requerimientoscontratos@comfacesar.com", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 7. El área llegó con tres mejoras construidas por su cuenta en dos días y salió con el tablero del proceso funcionando. Lo que hay que cuidar ahora no es la velocidad: es el control.",
+  "riesgos": [
+    {
+      "titulo": "Salió un correo sin que nadie revisara la confirmación",
+      "nivel": "ALTO",
+      "descripcion": "Con las aprobaciones en automático, el sistema preguntó si dejaba el borrador o enviaba, y se aceptó sin leer la pregunta. _El correo salió._ No hubo daño —era un requerimiento legítimo— pero el mecanismo que evita el daño es exactamente ese, y se saltó. **Mientras el proceso esté en construcción, los correos se dejan en borrador y los envía la persona.** Y siempre se verifica en enviados, que es donde queda la trazabilidad.",
+      "responsable": "Rafael Solano / Inmediato"
+    },
+    {
+      "titulo": "Las cifras del tablero no están validadas",
+      "nivel": "ALTO",
+      "descripcion": "El primer tablero arrojó totales, porcentajes de completitud y eficiencia, y una comparación entre años. _Nada de eso se ha contrastado contra el Excel a mano_, y en sesión ya apareció una lectura que no cuadraba con los años disponibles. **Un tablero bonito con cifras sin verificar es más peligroso que no tener tablero**, porque se presenta con confianza.",
+      "responsable": "Rafael Solano / Antes de usarlo"
+    },
+    {
+      "titulo": "127 contratos aparecen pendientes de legalización",
+      "nivel": "ALTO",
+      "descripcion": "El tablero los marcó en rojo, como riesgo legal y operacional. _Si la cifra se confirma, deja de ser un dato del tablero y pasa a ser un asunto del área:_ contratos en firme cuya legalización no se cerró. Es lo primero que hay que verificar contra el archivo real.",
+      "responsable": "Rafael Solano / Esta semana"
+    },
+    {
+      "titulo": "El Drive de Jurídica sigue sin verificarse",
+      "nivel": "ALTO",
+      "descripcion": "Era el bloqueo abierto de la S6 —el conector apuntaba a una cuenta distinta y se reconectó en sesión— y **no se retomó en esta**. Es el último tramo del circuito y el que habilita el empalme con el agente de Jurídica.",
+      "responsable": "Rafael Solano / Antes de la S8"
+    },
+    {
+      "titulo": "El filtro del tablero no responde",
+      "nivel": "MEDIO",
+      "descripcion": "Se probó en sesión con año, tipo de contrato y rango de valor: el botón de aplicar filtros no ejecuta. _Quedó anotado como lo primero a corregir_ cuando se empiece a modelar el tablero.",
+      "responsable": "Rafael Solano / Antes de la S8"
+    },
+    {
+      "titulo": "El tablero salió sin identidad institucional",
+      "nivel": "MEDIO",
+      "descripcion": "Es el mismo pendiente que traía el documento del agente: logo, colores corporativos, responsable y año. _Un tablero que va a verse en un consejo directivo no puede salir con la plantilla por defecto._",
+      "responsable": "Rafael Solano / Antes de la S8"
+    },
+    {
+      "titulo": "El avance sigue sin quedar registrado",
+      "nivel": "MEDIO",
+      "descripcion": "Se recordó otra vez en sesión. **El área tiene el avance más visible del programa y es la que menos lo está documentando.** Lo que se presente en octubre sale del tablero de seguimiento, no de la memoria.",
+      "responsable": "Rafael Solano / Permanente"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Volver los correos a modo borrador",
+      "descripcion": "Mientras el proceso esté en construcción, el agente prepara y la persona envía. Y se revisa la bandeja de enviados después de cada corrida.",
+      "responsable": "Rafael Solano",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Validar las cifras del tablero contra el archivo real",
+      "descripcion": "Empezando por los 127 pendientes de legalización y por el total de contratos. Ninguna cifra se presenta hasta que se reproduzca a mano.",
+      "responsable": "Rafael Solano",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Verificar la conexión al Drive de Jurídica",
+      "descripcion": "Pendiente desde la S6. Es el último tramo del circuito y la condición para el empalme con el agente de Jurídica.",
+      "responsable": "Rafael Solano",
+      "plazo": "Antes de la S8"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Modelar el tablero",
+      "descripcion": "Arreglar el filtro, ponerle logo y colores corporativos, pestañas navegables, y el cuadro de control consultable dentro del propio tablero.",
+      "responsable": "Rafael Solano",
+      "plazo": "Antes de la S8"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Mapear el segundo agente antes de escribirlo",
+      "descripcion": "Dibujar el flujo completo —del correo de Jurídica al acta de inicio y los informes de seguimiento— antes de dar la primera instrucción. **Escribir sobre un proceso dibujado cuesta una fracción de lo que cuesta descubrirlo sobre la marcha.**",
+      "responsable": "Rafael Solano",
+      "plazo": "Antes de la S8"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Guardar los ejemplos de antes y después",
+      "descripcion": "El correo plano de antes frente al documento con formato de ahora. Es el material de la sustentación de cierre.",
+      "responsable": "Rafael Solano",
+      "plazo": "Permanente"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Lo que el área construyó sin acompañamiento",
+      "duracion": "~10 min",
+      "objetivo": "Revisar lo que se avanzó entre la S6 y la S7.",
+      "pasos": [
+        "**La respuesta de Gerencia Financiera con el origen de recursos ya se anexa sola al cuadro.** Antes era el paso manual que cerraba el circuito",
+        "**Los dos textos por cuantía quedaron automatizados.** Antes se escribían a mano según si era orden de servicio o contrato; ahora el agente identifica la cuantía y aplica el que corresponde — _era la alerta 03 de la sesión anterior, cumplida en dos días_",
+        "**Las plantillas quedaron membretadas.** El agente ya entrega el documento con formato en lugar del correo plano de antes. Falta la versión de contrato",
+        "_Y una instrucción que conviene destacar por lo que revela del nivel:_ le pidió al agente que analice por su cuenta el desglose —contrato, convenio, adición, pendiente— para revisar la semana siguiente qué conclusiones saca. **Le está delegando criterio, no tareas**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El tablero del área, del Excel a la web",
+      "duracion": "~30 min",
+      "objetivo": "Convertir el informe manual en un tablero que se actualice solo.",
+      "pasos": [
+        "_Primero el concepto:_ lo que el sistema entrega no es solo un archivo. Puede ser una página web con su propia dirección, que se actualiza sola cada vez que cambia el cuadro de origen — y se comparte con un enlace",
+        "Se conectó la carpeta de trabajo y se dejaron las aprobaciones en automático. _Primera comprobación siempre:_ preguntarle si puede leer los archivos de la carpeta, antes de pedirle nada",
+        "_Un método de instrucción que vale para cualquier área:_ buscar una referencia visual en internet, capturarla y adjuntarla diciendo «quiero algo así». **Enseñar el destino en lugar de describirlo**",
+        "Salió un tablero con segmentaciones por año, tipo de contrato y cuantía; indicadores de gestión; gráficos de barra y de torta; semaforización; distribución por áreas solicitantes; evolución por año y por trimestre; y un bloque de hallazgos con recomendaciones. Aparte, un resumen ejecutivo",
+        "_Se probó en vivo y apareció el primer defecto:_ el botón de aplicar filtros no ejecuta. Quedó anotado",
+        "_Y el encuadre con el que cerró el ejercicio:_ esto es una muestra de hasta dónde llega la herramienta, no el tablero definitivo. Lo que sigue es modelarlo — decirle qué no gusta, qué se quiere medir, con qué identidad"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El segundo agente del área",
+      "duracion": "~15 min",
+      "objetivo": "Diseñar el sistema que sigue después de que Jurídica devuelve el contrato.",
+      "pasos": [
+        "_El proceso existe y está claro:_ cuando Jurídica devuelve el contrato digitalizado con sus pólizas, el puesto elabora el acta de inicio y, en los contratos de vigilancia, los informes de seguimiento de interventoría",
+        "_La duda que traía era de formatos_ — y la respuesta fue la misma que funcionó con el primero: no se le sube el escaneado, se le sube **la plantilla** y se le escriben los parámetros que debe llenar",
+        "**Cada agente vive en su propia carpeta.** Se acordó separar la documentación de uno y otro dentro de la carpeta de trabajo, para que cada uno lea solo lo suyo",
+        "_El flujo a mapear:_ llega el correo de Jurídica → el agente lo reconoce → descarga los documentos → los guarda en su carpeta → llena la plantilla con los parámetros → deja el acta lista",
+        "_Y una petición hacia afuera:_ pedirle a Jurídica que marque siempre el asunto con un mismo código, para que el agente reconozca sin ambigüedad cuál correo le corresponde",
+        "**El criterio de método quedó dicho así: primero se dibuja el flujograma, después se escribe la instrucción.** Descubrir el proceso sobre la marcha se paga en consumo"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 7 · 16 septiembre 2026",
+      "titulo": "El tablero del área precontractual",
+      "descripcion": "Era el pendiente «por construir» de la sesión anterior y quedó funcionando en esta. El informe que hoy se arma a mano pasa a ser una página que se actualiza sola cada vez que el cuadro de control cambia. Falta modelarlo y, sobre todo, validar sus cifras.",
+      "estado": "Primera versión corriendo",
+      "proximo_paso": "Validar cifras y modelar",
+      "target": "Sesión 8"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN DISEÑO · SESIÓN 7 · 16 septiembre 2026",
+      "titulo": "El segundo agente: actas de inicio e informes de interventoría",
+      "descripcion": "Arranca donde termina Jurídica. Si se construye, el área tendría cubierto el trámite completo —antes y después del contrato— con dos sistemas distintos operando sobre las mismas carpetas.",
+      "estado": "Por mapear",
+      "proximo_paso": "El flujograma antes de la instrucción",
+      "target": "Sesión 8"
+    },
+    {
+      "encabezado": "HALLAZGO POR VALIDAR · SESIÓN 7 · 16 septiembre 2026",
+      "titulo": "127 contratos pendientes de legalización",
+      "descripcion": "**Si la cifra se confirma, no es un dato del tablero: es un asunto del área.** Contratos en firme cuya legalización no se cerró, con el riesgo legal que eso implica. Apareció porque alguien puso su cuadro de control a mirarse a sí mismo.",
+      "estado": "Por verificar",
+      "proximo_paso": "Contrastar contra el archivo real",
+      "target": "Esta semana"
+    }
+  ],
+  "tareas_intro": "El área llegó con tres mejoras hechas por su cuenta y salió con el tablero funcionando. Lo que sigue no es construir más: es validar lo construido y cerrar lo que quedó abierto.",
+  "tareas": [
+    {"tarea": "Volver los correos del agente a modo borrador mientras el proceso está en construcción", "responsable": "Rafael Solano", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Validar las cifras del tablero contra el archivo real, empezando por los pendientes de legalización", "responsable": "Rafael Solano", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Verificar la conexión al Drive de Jurídica — pendiente desde la S6", "responsable": "Rafael Solano", "prioridad": "ALTA", "plazo": "Antes de la S8"},
+    {"tarea": "Corregir el filtro del tablero y ponerle identidad corporativa", "responsable": "Rafael Solano", "prioridad": "MEDIA", "plazo": "Antes de la S8"},
+    {"tarea": "Mapear el flujo del segundo agente antes de escribir la primera instrucción", "responsable": "Rafael Solano", "prioridad": "MEDIA", "plazo": "Antes de la S8"},
+    {"tarea": "Pedirle a Jurídica un código fijo en el asunto de sus correos", "responsable": "Rafael Solano + Jurídica", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Terminar la plantilla membretada para los casos de contrato", "responsable": "Rafael Solano", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Registrar todo el avance en el tablero de seguimiento", "responsable": "Rafael Solano", "prioridad": "ALTA", "plazo": "Permanente"},
+    {"tarea": "Guardar los ejemplos de antes y después para la sustentación de cierre", "responsable": "Rafael Solano", "prioridad": "MEDIA", "plazo": "Permanente"}
+  ],
+  "observaciones": [
+    "Lo primero que hay que registrar de esta sesión es lo que no pasó en ella. **Entre la S6 y la S7 —dos días— el área automatizó el anexo de la respuesta de Gerencia Financiera, los dos textos por cuantía y el membrete de las plantillas.** Tres de los seis pendientes de la sesión anterior, resueltos sin acompañamiento. _Ese es el indicador que importa:_ el avance ya no depende de que haya sesión.",
+    "Y hay un detalle que dice más que las tres automatizaciones juntas: le pidió al agente que analice por su cuenta el desglose de tipos de contrato y que la semana siguiente le presente sus conclusiones. **Dejó de asignarle tareas y empezó a delegarle criterio.** Es el salto que el programa busca en las áreas avanzadas.",
+    "El tablero del área quedó corriendo: el informe que hoy se arma a mano pasó a ser una página que se actualiza sola cuando cambia el cuadro de control, con segmentaciones, indicadores y semaforización. _Pero conviene ser muy claro sobre su estado:_ **es una primera versión y sus cifras no están validadas.** En sesión ya apareció una lectura que no cuadraba con los años disponibles. Un tablero con buena presentación y cifras sin verificar se presenta con una confianza que no se ha ganado.",
+    "Dentro de esas cifras hay una que no puede quedarse como dato de tablero: **127 contratos figuran pendientes de legalización**, marcados como riesgo legal y operacional. Si se confirma contra el archivo real, es un asunto del área y no del ejercicio — y sería, otra vez, un hallazgo que aparece porque alguien puso su propio cuadro de control a mirarse a sí mismo.",
+    "_El aprendizaje más caro de la sesión fue de control, no de herramienta._ Con las aprobaciones en automático, el sistema preguntó si dejaba el borrador o enviaba, y se aceptó sin leer la pregunta: el correo salió. No hubo daño. Pero **el freno que evita el daño es justamente ese, y se saltó.** Mientras el proceso esté en construcción, el agente prepara y la persona envía; y se revisa la bandeja de enviados después de cada corrida, que es donde queda la trazabilidad.",
+    "Queda abierto, sin haberse retomado, el bloqueo de la sesión anterior: la conexión al Drive de Jurídica. Es el último tramo del circuito y **la condición para el empalme con el agente de Jurídica**, que sigue siendo la oportunidad más grande que ha salido del programa.",
+    "Se le comunicó al área que la dirección conoce su avance y que está entre las más adelantadas del programa, y que se está considerando que sea ella quien sustente ante el consejo directivo en el cierre. _Por eso la tarea de guardar los ejemplos de antes y después deja de ser un detalle:_ es el material de esa sustentación."
+  ],
+  "proxima_sesion": {
+    "sesion": "Sub. Administrativa y Financiera — Sesión 8",
+    "condiciones": [
+      "Los correos del agente devueltos a modo borrador",
+      "Las cifras del tablero validadas contra el archivo real",
+      "La conexión al Drive de Jurídica verificada",
+      "El flujo del segundo agente dibujado"
+    ],
+    "agenda": [
+      "El tablero modelado, con filtro corregido e identidad corporativa",
+      "Construcción del segundo agente sobre el flujo ya mapeado",
+      "El empalme con el agente de Jurídica",
+      "Preparación del material de sustentación"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 16 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

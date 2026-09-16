@@ -728,3 +728,53 @@ en archivo. Con el Excel se revisan fórmulas; con un impreso escaneado, nada.
 **Nota de conteo:** la sesión de IPS del 15 de septiembre **fue de IAM™ Ambassadors, no de
 Intelligence** — no cuenta para el programa ni para el tablero. Confirmado por Sandra. El
 contador queda en **65 sesiones** y se añadió la aclaración en las notas del corte.
+
+## Miércoles 16 de septiembre de 2026 — dos sesiones el mismo día
+
+### Sub. Administrativa y Financiera — S7
+Miércoles 16, **8:55–9:58 a. m.**, individual de Rafael Solano (1 h 1 min de acompañamiento;
+la reunión quedó abierta hasta las 10:31). Numeración confirmada contra la carpeta y el CSV.
+
+- Grabación → `#sub-admin-y-financiera-infraestructura` (`1789576941.646229`)
+- Resumen → mismo canal (`1789577139.693539`)
+- Acta: `ACTA_Sesion7_SubAdministrativaYFinanciera_16septiembre2026.pdf`
+
+**Llegó con tres pendientes de la S6 resueltos por su cuenta en dos días:** el anexo de la
+respuesta de Gerencia Financiera, los dos textos por cuantía y el membrete de las plantillas.
+Y le pidió al agente que analice él mismo el desglose de tipos de contrato — *dejó de asignarle
+tareas y empezó a delegarle criterio.*
+
+Se construyó el tablero HTML del área. **Cifras sin validar**, y una que hay que verificar sí o
+sí: 127 contratos pendientes de legalización.
+
+**Lección de control:** con las aprobaciones en automático se aceptó sin leer y salió un correo.
+Se devuelve a modo borrador mientras el proceso esté en construcción.
+
+*Sigue sin verificarse el Drive de Jurídica — abierto desde la S6 y no se retomó.*
+
+### Jurídica — S7 (el evento decía S8)
+Miércoles 16, **10:03–11:00 a. m.**, con Carlos Mario Gamarra y Renata Laino.
+**Numeración corregida:** el título del evento venía adelantado; el registro por fecha de CSV da
+S7 (14 ago · 20 ago · 31 ago · 3 sep · 7 sep · 9 sep · 16 sep). Sandra lo confirmó y ya lo
+corrigió en su lado. Se publicó la aclaración en el canal.
+
+- Grabación → `#juridica` (`1789577151.355489`)
+- Resumen → mismo canal (`1789577343.703359`)
+- Acta: `ACTA_Sesion7_Juridica_16septiembre2026.pdf`
+
+**El resultado más importante del programa hasta hoy:** la alerta de vencimiento de convenios
+detectó tres convenios a diez días de vencer y de ahí salieron dos decisiones reales — una
+adición de tiempo y un cierre. *No ahorra minutos: evita que algo se venza.* Entró al tablero
+como bloque propio en la sección 07, separado de los ahorros medidos.
+
+**Tercer caso de cuentas cruzadas:** la jefatura perdió sus proyectos armados al pasar de una
+cuenta a otra. Antes pasó en Vivienda y en Sub. Financiera. Aquí tiene consecuencia directa:
+esos dos proyectos sostienen dos de los ahorros ya reportados al programa.
+
+El bloqueo de la contraseña de administrador volvió a aparecer y **se resolvió dentro de la
+sesión** por vía directa, no por mesa de ayuda.
+
+**Dos áreas propuestas para sustentar ante el consejo directivo:** Sub. Administrativa y
+Financiera y Jurídica.
+
+**Tablero:** 67 sesiones · 6 agentes (cuatro corriendo, dos en construcción).

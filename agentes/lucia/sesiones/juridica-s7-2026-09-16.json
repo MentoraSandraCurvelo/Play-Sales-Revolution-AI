@@ -1,0 +1,223 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "JURÍDICA",
+  "area_completa": "",
+  "sesion_num": 7,
+  "fase": "Sistemas de Trabajo Agénticos",
+  "fecha": "16 de septiembre de 2026",
+  "fecha_corta": "16 septiembre 2026",
+  "subtitulo_meta": "Con Carlos Mario Gamarra y Renata Laino · 16 de septiembre de 2026 · 10:00 a. m. · 57 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Jurídica — Comfacesar"],
+    ["Sesión", "N° 7 — La alerta de convenios dando resultados y la construcción del primer agente de la jefatura"],
+    ["Fecha", "16 de septiembre de 2026"],
+    ["Hora inicio", "10:00 a. m. — Colombia"],
+    ["Duración de la sesión", "57 minutos (10:03 a. m. – 11:00 a. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Carlos Mario Gamarra y Renata Laino — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "3", "etiqueta": "Convenios detectados", "detalle": "A diez días de vencer, por la alerta"},
+    {"valor": "2", "etiqueta": "Decisiones que salieron del aviso", "detalle": "Una adición de tiempo y un cierre"},
+    {"valor": "1", "etiqueta": "Agente nuevo iniciado", "detalle": "El primero de la jefatura del área"},
+    {"valor": "1", "etiqueta": "Agente sin terminar", "detalle": "Quedó del ejercicio anterior"},
+    {"valor": "1", "etiqueta": "Instalación destrabada", "detalle": "La contraseña de administrador, resuelta en sesión"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Carlos Mario Gamarra Montes", "cargo": "Analista de Alianzas — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Avanzado"},
+    {"nombre": "Renata Laino", "cargo": "Jurídica — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 7. La alerta de vencimiento de convenios dejó de ser una demostración y produjo decisiones reales. Lo que hay que cuidar es lo contrario: el trabajo que se empieza, no se documenta y hay que reconstruir.",
+  "riesgos": [
+    {
+      "titulo": "Un agente a medio construir que su propio autor ya no puede retomar",
+      "nivel": "ALTO",
+      "descripcion": "El primer agente del área quedó sin terminar desde el ejercicio anterior y hubo que **leerlo desde cero en sesión** para saber por dónde iba. La carpeta de trabajo tampoco estaba anclada. _El diagnóstico lo dio el propio puesto:_ se avanza viendo los videos y haciendo las tareas, sin memorizar el circuito. **Un agente sin su flujo escrito se vuelve ilegible incluso para quien lo construyó.**",
+      "responsable": "Carlos Mario Gamarra / Antes de la S8"
+    },
+    {
+      "titulo": "El trabajo previo se perdió al cambiar de cuenta",
+      "nivel": "ALTO",
+      "descripcion": "Los proyectos que la jefatura del área ya tenía armados —requisitos legales por tipo de contrato y elaboración de minuta— **no quedaron iguales al trasladarlos de una cuenta a otra**. _El conocimiento quedó; el trabajo construido, no._ Es el tercer caso del mismo patrón en el programa, después de Vivienda y la Sub. Administrativa y Financiera: **cuando hay dos cuentas de por medio, algo se pierde en el camino.**",
+      "responsable": "Renata Laino / Antes de la S8"
+    },
+    {
+      "titulo": "La instalación pide una contraseña que el área no tiene",
+      "nivel": "ALTO",
+      "descripcion": "Volvió a aparecer el bloqueo que está registrado desde el corte anterior. _Esta vez se resolvió en sesión_ —una llamada directa y una conexión remota, sin pasar por la mesa de ayuda— y por eso conviene dejarlo escrito: **no es que no se pueda; es que cada área lo resuelve por su cuenta y pierde media sesión en ello.** En el mismo equipo, además, no hay micrófono y hay que conectarse desde el teléfono.",
+      "responsable": "Tecnología / Pendiente"
+    },
+    {
+      "titulo": "El tablero de convenios todavía no cubre los contratos",
+      "nivel": "MEDIO",
+      "descripcion": "El tablero opera sobre los convenios de práctica con universidades. _Lo señaló el propio puesto:_ falta incorporar los contratos, que es donde está el valor mayor del área.",
+      "responsable": "Carlos Mario Gamarra / Antes de la S8"
+    },
+    {
+      "titulo": "El agente nuevo quedó a medio modelar por los conectores",
+      "nivel": "MEDIO",
+      "descripcion": "Al lanzarlo pidió conectar el correo corporativo: los conectores no estaban activos todavía. Se terminó el tiempo antes de completarlo. _Es el mismo punto que frenó a otras áreas_ — la herramienta no llega sola al correo, hay que autorizarla.",
+      "responsable": "Renata Laino / Esta semana"
+    },
+    {
+      "titulo": "El área no está registrando su avance",
+      "nivel": "MEDIO",
+      "descripcion": "Se recordó en sesión. **Jurídica es la única área del programa con dos sistemas construidos y es de las que menos documenta.** Lo que se presente en octubre sale del tablero de seguimiento.",
+      "responsable": "Todo el equipo / Permanente"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Terminar el agente que quedó a medias",
+      "descripcion": "Con su circuito escrito de punta a punta, para que pueda retomarse sin releerlo entero. Se muestra en la próxima sesión.",
+      "responsable": "Carlos Mario Gamarra",
+      "plazo": "Antes de la S8"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Reconstruir los proyectos que se perdieron en el cambio de cuenta",
+      "descripcion": "Requisitos legales por tipo de contrato y elaboración de minuta. **Son dos de los ahorros que el área ya tiene reportados al programa** — si el proyecto no existe, el ahorro no se sostiene.",
+      "responsable": "Renata Laino",
+      "plazo": "Antes de la S8"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Activar los conectores de correo y terminar de modelar el agente nuevo",
+      "descripcion": "Es lo que falta para que el agente pueda entrar a la bandeja y empezar a operar.",
+      "responsable": "Renata Laino",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Agendar sesiones individuales para toda la jefatura",
+      "descripcion": "Las tres personas del área avanzan a ritmos distintos. **El área está propuesta para sustentar ante el consejo directivo en el cierre**, y eso exige que no queden vacíos.",
+      "responsable": "Renata Laino",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Incorporar los contratos al tablero de convenios",
+      "descripcion": "Es donde está el mayor valor del área y hoy queda fuera del seguimiento automático.",
+      "responsable": "Carlos Mario Gamarra",
+      "plazo": "Antes de la S8"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Registrar el avance y contestar la encuesta",
+      "descripcion": "Los dos sistemas construidos y los resultados de la alerta deben quedar en el tablero de seguimiento.",
+      "responsable": "Todo el equipo",
+      "plazo": "Esta semana"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · La alerta de convenios, con resultados verificables",
+      "duracion": "~5 min",
+      "objetivo": "Revisar qué produjo el sistema desde que corre solo.",
+      "pasos": [
+        "El tablero de convenios quedó **con el manual de marca aplicado**: colores corporativos y logo. Era el pendiente de la sesión anterior",
+        "_Se corrigieron los errores de lectura de los documentos escaneados._ Algunos números salían con un trazo encima y una firma amplia tocaba la cifra de una fecha: **el sistema avisó cuáles no podía leer en lugar de inventarlos**, y el puesto los corrigió con una imagen más clara",
+        "**La alerta detectó tres convenios a diez días de vencer y envió los tres correos**, sin adjuntar documentos — solo el aviso con el número de convenio y la fecha de vencimiento",
+        "_Y aquí está el resultado que importa:_ un área respondió solicitando la adición de tiempo, y otra notificó que no continuará con el convenio. **Dos decisiones que se tomaron porque llegó el aviso**",
+        "_Lo que falta:_ incorporar los contratos, que es donde está el valor mayor del área"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Qué es un agente y en qué se diferencia de lo anterior",
+      "duracion": "~20 min",
+      "objetivo": "Fijar el concepto antes de construir.",
+      "pasos": [
+        "_La distinción quedó dicha así:_ un proyecto es un asistente al que se le da una instrucción y responde. **Un agente hace el circuito completo sin que nadie lo pida**",
+        "El circuito se le escribe entero: entra al correo, reconoce los mensajes que cumplen una condición, descarga lo que necesite, lo guarda en una carpeta, lo analiza con los parámetros que se le dieron, llena la plantilla o el cuadro, y entrega el reporte",
+        "**Tres cosas que no pueden faltar en la instrucción:** de dónde toma la información —el asunto exacto del correo, por ejemplo—, dónde deposita lo que produce, y **la cadencia**: cada cuánto hace el barrido",
+        "_Cada agente vive en su propia carpeta de trabajo_, y ahí se deja también el material que necesita para trabajar — el manual de marca, las plantillas, los documentos de referencia",
+        "Se repasó dónde queda cada cosa del entorno: las conversaciones, los proyectos, los tableros publicados como página web, las tareas programadas, las habilidades y el entorno de diseño"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Construcción del primer agente de la jefatura",
+      "duracion": "~30 min",
+      "objetivo": "Automatizar el reporte que hoy se revisa a mano.",
+      "pasos": [
+        "_Primero hubo que destrabar la instalación:_ el equipo pedía contraseña de administrador. Se resolvió con una llamada directa y una conexión remota, sin pasar por la mesa de ayuda",
+        "_El proceso elegido es el único enteramente propio de la jefatura:_ revisar los mensajes cuyo asunto indica una notificación de denuncia web, que a veces traen adjunto y a veces vienen en el cuerpo del correo",
+        "Los parámetros quedaron escritos: fecha, número de solicitud, categoría de inscripción, lugar del evento, fecha del evento, tipo de vinculación, correo, teléfono y fecha de registro",
+        "_Y se subió el objetivo a mitad del ejercicio._ En lugar de un Excel, **un tablero con la marca institucional, segmentaciones y sus indicadores** — porque esos datos son justamente los que el área presenta al consejo directivo",
+        "**El cambio de fondo no es el formato, es la entrega:** en vez de preparar y presentar un reporte, se comparte un enlace que se actualiza solo y el consejo lo consulta cuando quiera",
+        "_Quedó a medio modelar:_ al lanzarlo pidió conectar el correo corporativo y los conectores no estaban activos. Se retoma en la sesión individual"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD CON RESULTADO · SESIÓN 7 · 16 septiembre 2026",
+      "titulo": "La alerta de convenios ya está evitando vencimientos",
+      "descripcion": "**Tres convenios detectados a diez días de vencer y dos decisiones tomadas a partir del aviso** — una adición de tiempo y un cierre. Es el primer sistema del programa con efecto verificable sobre la operación: no ahorra minutos, evita que algo se venza sin que nadie se dé cuenta.",
+      "estado": "Operando",
+      "proximo_paso": "Incorporar los contratos",
+      "target": "Sesión 8"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 7 · 16 septiembre 2026",
+      "titulo": "El reporte al consejo directivo, como enlace en lugar de presentación",
+      "descripcion": "El agente nuevo recoge los datos del correo y los deposita en un tablero con la marca institucional y sus indicadores. _Lo que cambia no es el formato:_ el consejo deja de recibir un documento preparado y pasa a consultar un enlace que está siempre al día.",
+      "estado": "A medio modelar",
+      "proximo_paso": "Activar conectores y terminar",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "OPORTUNIDAD ABIERTA · SESIÓN 7 · 16 septiembre 2026",
+      "titulo": "Un agente por especialidad",
+      "descripcion": "El correo de la jefatura recibe asuntos de naturaleza muy distinta. La vía planteada es un agente por tipo —laboral, contractual, litigio— en lugar de uno solo que intente cubrirlo todo. Cada uno con sus parámetros, su carpeta y su cadencia.",
+      "estado": "Planteado",
+      "proximo_paso": "Después de terminar el primero",
+      "target": "Octubre"
+    }
+  ],
+  "tareas_intro": "El área tiene el sistema con el resultado más concreto del programa y, al mismo tiempo, un agente a medias y un trabajo perdido por un cambio de cuenta. Lo que sigue es cerrar lo abierto antes de construir más.",
+  "tareas": [
+    {"tarea": "Terminar el agente que quedó a medias, con su circuito escrito", "responsable": "Carlos Mario Gamarra", "prioridad": "ALTA", "plazo": "Antes de la S8"},
+    {"tarea": "Reconstruir los proyectos perdidos en el cambio de cuenta", "responsable": "Renata Laino", "prioridad": "ALTA", "plazo": "Antes de la S8"},
+    {"tarea": "Activar los conectores de correo y terminar de modelar el agente nuevo", "responsable": "Renata Laino", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Agendar sesiones individuales para las tres personas del área", "responsable": "Renata Laino", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Incorporar los contratos al tablero de convenios", "responsable": "Carlos Mario Gamarra", "prioridad": "MEDIA", "plazo": "Antes de la S8"},
+    {"tarea": "Registrar en el tablero de seguimiento los dos sistemas y los resultados de la alerta", "responsable": "Todo el equipo", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Contestar la encuesta del programa", "responsable": "Renata Laino", "prioridad": "MEDIA", "plazo": "Esta semana"}
+  ],
+  "observaciones": [
+    "**La alerta de vencimiento de convenios dejó de ser una demostración.** Detectó tres convenios a diez días de vencer, envió los tres avisos, y de ahí salieron dos decisiones reales: un área solicitó la adición de tiempo y otra notificó que no continuará. _Conviene subrayar por qué este resultado es distinto a todos los demás del programa:_ no ahorra minutos — **evita que algo se venza sin que nadie se entere.** Es el primer sistema con efecto verificable sobre la operación.",
+    "Y hay un detalle técnico que merece registrarse porque es exactamente el comportamiento que se quiere: al leer documentos escaneados, el sistema encontró números con un trazo encima y una firma que tocaba la cifra de una fecha. **Avisó cuáles no podía leer en lugar de adivinarlos.** El puesto los corrigió con una imagen más clara. _Una herramienta que reporta lo que no entiende es más confiable que una que siempre responde._",
+    "El contraste de la sesión es el agente que quedó a medias desde el ejercicio anterior: hubo que leerlo desde cero para saber por dónde iba, y la carpeta de trabajo ni siquiera estaba anclada. _El diagnóstico lo dio el propio puesto con honestidad:_ se avanza viendo los videos y haciendo las tareas, sin retener el circuito. **La lección es de método, no de capacidad: un agente sin su flujo escrito se vuelve ilegible incluso para quien lo construyó.**",
+    "Aparte, la jefatura del área perdió los proyectos que ya tenía armados —requisitos legales por tipo de contrato y elaboración de minuta— al trasladarlos de una cuenta a otra. **Es el tercer caso del mismo patrón en el programa**, después de Vivienda y la Sub. Administrativa y Financiera. _Y tiene una consecuencia concreta:_ esos dos son ahorros que el área ya tiene reportados. Si el proyecto no existe, el ahorro no se sostiene.",
+    "Se construyó desde cero el primer agente de la jefatura, sobre el único proceso enteramente propio de ese puesto. _Lo interesante no es el agente sino hacia dónde se movió el objetivo a mitad del ejercicio:_ en vez de un Excel, **un tablero institucional con indicadores, publicado como enlace.** El consejo directivo deja de recibir un reporte preparado y pasa a consultar uno que está siempre al día. Quedó a medio modelar porque los conectores de correo no estaban activos.",
+    "Volvió a aparecer el bloqueo de la contraseña de administrador para instalar, y esta vez se resolvió dentro de la sesión con una llamada directa y una conexión remota. _Vale dejarlo escrito por lo que demuestra:_ **no es que no se pueda; es que cada área lo resuelve por su cuenta y pierde parte de su sesión en ello.** En el mismo equipo, además, no hay micrófono y hay que conectarse desde el teléfono.",
+    "Se planteó al área que sea una de las que sustente ante el consejo directivo en el cierre. _Por eso quedó como tarea prioritaria que las tres personas del equipo agenden sesiones individuales:_ el área tiene dos sistemas construidos y avances desiguales entre sus integrantes, y la sustentación exige que no queden vacíos."
+  ],
+  "proxima_sesion": {
+    "sesion": "Jurídica — Sesión 8",
+    "condiciones": [
+      "El agente pendiente terminado y con su circuito escrito",
+      "Los conectores de correo activos",
+      "Los proyectos perdidos reconstruidos",
+      "Sesiones individuales agendadas para las tres personas"
+    ],
+    "agenda": [
+      "Revisión del agente terminado, de punta a punta",
+      "El tablero de denuncias modelado",
+      "Los contratos incorporados al tablero de convenios",
+      "Preparación del material de sustentación"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 16 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
