@@ -1,0 +1,232 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SUB. ADMINISTRATIVA Y FINANCIERA",
+  "area_completa": "",
+  "sesion_num": 8,
+  "fase": "Sistemas de Trabajo Agénticos",
+  "fecha": "16 de septiembre de 2026",
+  "fecha_corta": "16 septiembre 2026",
+  "subtitulo_meta": "Individual de Liliany Gómez · 16 de septiembre de 2026 · 3:00 p. m. · 59 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Sub. Administrativa y Financiera — Comfacesar"],
+    ["Sesión", "N° 8 — Individual de Liliany Gómez: el control de terminaciones y prórrogas del personal por bolsa de empleo"],
+    ["Fecha", "16 de septiembre de 2026"],
+    ["Hora inicio", "3:00 p. m. — Colombia"],
+    ["Duración de la sesión", "59 minutos (3:01 p. m. – 4:00 p. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Liliany Gómez — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "852", "etiqueta": "Personas en el listado", "detalle": "La base del control"},
+    {"valor": "25", "etiqueta": "Contratos vencidos y activos", "detalle": "Detectados en la primera corrida"},
+    {"valor": "2", "etiqueta": "Errores en la fuente", "detalle": "Encontrados antes de construir nada"},
+    {"valor": "16K", "etiqueta": "Fórmulas verificadas", "detalle": "Con recálculo real, no declarado"},
+    {"valor": "1", "etiqueta": "Recordatorio programado", "detalle": "Día 5 de cada mes, sin intervención"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Liliany Gómez", "cargo": "Sub. Administrativa y Financiera — Comfacesar", "correo": "Por confirmar — hoy con cuenta personal", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 8. El ejercicio era construir el control de vencimientos de contratos. Lo que apareció en el camino fue más importante que el tablero: la fuente de datos sobre la que se toman esas decisiones tiene errores.",
+  "riesgos": [
+    {
+      "titulo": "Hay 25 contratos con fecha de vencimiento cumplida que siguen figurando activos",
+      "nivel": "ALTO",
+      "descripcion": "Es lo que arrojó la primera corrida sobre el listado real. _No es un hallazgo del ejercicio: es el estado del control hoy._ **Este es exactamente el problema que motivó el proyecto** — ya ocurrió que una terminación se pasó por alto y hubo que prorrogar el contrato más tiempo del previsto. Hay que verificar uno a uno contra el archivo real antes de sacar cualquier conclusión.",
+      "responsable": "Liliany Gómez / Esta semana"
+    },
+    {
+      "titulo": "El listado maestro llegó con una hoja duplicada",
+      "nivel": "ALTO",
+      "descripcion": "El archivo traía dos pestañas —septiembre y octubre— con **las mismas 852 personas, los mismos identificadores, sin una sola alta ni baja entre ambos meses**. _El sistema se detuvo y preguntó antes de construir nada._ Al revisarlo en sesión quedó confirmado: es un error de la fuente, la hoja está duplicada. **Si ese archivo hubiera alimentado un reporte, habría dicho que en un mes no pasó nada.**",
+      "responsable": "Liliany Gómez + Gestión Humana / Inmediato"
+    },
+    {
+      "titulo": "El listado no permite saber de qué bolsa de empleo viene cada persona",
+      "nivel": "ALTO",
+      "descripcion": "El proyecto busca controlar específicamente al personal contratado por bolsas externas —hay tres—, pero **el archivo solo trae el tipo de contrato, no la fuente.** _Y al preguntar cómo se hacía antes, la respuesta fue la más reveladora de la sesión:_ no se identificaba. Se acordó pedirle a Gestión Humana el listado categorizado por bolsa.",
+      "responsable": "Liliany Gómez / Inmediato"
+    },
+    {
+      "titulo": "El control depende hoy de una revisión manual sobre papel",
+      "nivel": "ALTO",
+      "descripcion": "Gestión Humana revisa el listado a mano y entrega **un cuadro impreso** con las personas próximas a terminar, para que se apruebe o se prorrogue. _Es un proceso sensible que no deja trazabilidad ni histórico:_ cuando se necesitó saber desde cuándo ingresaron ciertas personas, el historial de la bolsa de empleo simplemente no apareció.",
+      "responsable": "Liliany Gómez + Gestión Humana / Septiembre"
+    },
+    {
+      "titulo": "La copia del tablero no se pudo guardar en la carpeta del equipo",
+      "nivel": "MEDIO",
+      "descripcion": "La conexión con el escritorio se cayó al cierre y el archivo quedó disponible solo en la conversación. _Es el mismo patrón de conector que apareció esta semana en Jurídica y en el área precontractual._ Hay que reintentarlo.",
+      "responsable": "Liliany Gómez / Antes de la S9"
+    },
+    {
+      "titulo": "La instalación del entorno de agentes pide permiso de administrador",
+      "nivel": "MEDIO",
+      "descripcion": "Volvió a aparecer el bloqueo registrado desde el corte anterior. _Se escaló a gestión tecnológica durante la sesión._ Esa misma mañana otra área lo resolvió por vía directa en minutos, sin pasar por la mesa de ayuda.",
+      "responsable": "Tecnología / Pendiente"
+    },
+    {
+      "titulo": "El trabajo se está haciendo en conversaciones sueltas, no en proyectos",
+      "nivel": "MEDIO",
+      "descripcion": "_Se corrigió en sesión y conviene dejarlo escrito:_ una consulta suelta no acumula contexto. **Cuando llegue el momento de construir el agente, lo que no esté en un proyecto habrá que reconstruirlo desde cero.** Las consultas rápidas van por otro lado; lo que tiene trazabilidad va en su proyecto.",
+      "responsable": "Liliany Gómez / Permanente"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Verificar los 25 contratos vencidos que figuran activos",
+      "descripcion": "Uno a uno contra el archivo real. Si la cifra se confirma, deja de ser un dato del tablero y pasa a ser una gestión pendiente del área.",
+      "responsable": "Liliany Gómez",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Pedirle a Gestión Humana la fuente corregida",
+      "descripcion": "Sin la hoja duplicada y **con una columna que identifique la bolsa de empleo de cada persona**. El correo quedó acordado en sesión.",
+      "responsable": "Liliany Gómez",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "03",
+      "nivel": "MEDIO",
+      "titulo": "Cargar el histórico de meses anteriores",
+      "descripcion": "El tablero compara mes actual contra mes anterior y hoy solo tiene uno. _Con dos o tres meses cargados empieza a mostrar movimiento real_ en lugar de una foto fija.",
+      "responsable": "Liliany Gómez",
+      "plazo": "Antes de la S9"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Reintentar el guardado en la carpeta del equipo",
+      "descripcion": "Para que el tablero viva donde el área trabaja y no dentro de una conversación.",
+      "responsable": "Liliany Gómez",
+      "plazo": "Antes de la S9"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Pasar el trabajo del área a proyectos",
+      "descripcion": "Lo que hoy está en conversaciones sueltas no sirve de base para el agente que viene.",
+      "responsable": "Liliany Gómez",
+      "plazo": "Permanente"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Agendar sesiones seguidas",
+      "descripcion": "**El camino hasta el agente son unas cuatro sesiones más.** Con el ritmo actual no alcanza para llegar antes del cierre de octubre.",
+      "responsable": "Liliany Gómez",
+      "plazo": "Esta semana"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Escribir el proceso antes de pedir nada",
+      "duracion": "~20 min",
+      "objetivo": "Dejar el proyecto bien configurado para que lo que salga sirva.",
+      "pasos": [
+        "_El puesto llegó con el contexto y el rol ya escritos_, y con la semaforización pensada. Se revisaron línea por línea",
+        "**Lo que faltaba no era detalle, era circuito.** El contexto decía que el listado se descarga del módulo de nómina; le faltaba _quién_ lo envía, _por qué medio_ y _con qué cadencia_",
+        "_Otra corrección concreta:_ las siglas internas no se entienden solas. Si en la conversación se va a escribir «GTH», hay que decir una vez qué significa",
+        "_Y una tercera, sobre los objetivos:_ «fortalecer el control» no dice nada. **Control de qué — de ingresos y terminaciones.** Si quien lee no lo entiende, la herramienta tampoco",
+        "**Eso es mapear el proceso:** me llega por correo, lo descargo, lo comparo contra esto, lo reporto así. El paso a paso completo, no el resumen",
+        "Se conectó la carpeta de trabajo desde el escritorio, para que el archivo se lea actualizado en lugar de subirlo cada vez"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Los dos errores que aparecieron antes del tablero",
+      "duracion": "~15 min",
+      "objetivo": "Revisar lo que el sistema encontró en la fuente de datos.",
+      "pasos": [
+        "_Antes de construir nada, el sistema se detuvo y preguntó:_ el archivo trae dos pestañas, septiembre y octubre, con **las mismas 852 personas, los mismos identificadores, sin una sola alta ni baja**. ¿Son datos de prueba, hay que verificar el archivo, o de verdad no hubo movimiento?",
+        "Al revisarlo en sesión quedó claro que es un error de la fuente: la hoja está duplicada. **Un reporte construido sobre ese archivo habría afirmado que en un mes no pasó absolutamente nada**",
+        "_Segunda pregunta, igual de precisa:_ el proyecto pide controlar al personal de bolsas de empleo, pero el listado no trae esa columna — solo tipo de contrato. ¿Cómo se identifica ese grupo?",
+        "**Y ahí apareció lo más importante de la sesión.** Al preguntar cómo se identificaba antes, la respuesta fue: no se identificaba. _El dato que el control necesita nunca ha estado en la fuente_",
+        "Se acordó pedirle a Gestión Humana el listado con esa clasificación, y seguir el ejercicio sin distinguir por bolsa mientras llega",
+        "_El criterio que deja esto:_ **cuando se le explica un proceso paso a paso, la herramienta devuelve las preguntas que nadie había hecho.** No encontró un error de cálculo: encontró un vacío en el insumo"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El tablero de control de vencimientos",
+      "duracion": "~20 min",
+      "objetivo": "Construir el seguimiento que hoy se hace a mano y sobre papel.",
+      "pasos": [
+        "Entregó un tablero con **informe ejecutivo semaforizado**: total de personal activo, ingresos y terminaciones identificadas, contratos vencidos, y los contratos por vencer discriminados a quince y a treinta días",
+        "**Las hojas de control de ingresos y de terminaciones se llenan solas** comparando el mes actual contra el anterior — hoy solo hay un mes cargado, así que la comparación empieza a servir cuando entre el segundo",
+        "Una **matriz de novedades** con responsable y fecha de seguimiento, ya precargada con las detectadas automáticamente, y una hoja de histórico para ir acumulando mes a mes",
+        "Tres gráficos: personal por tipo de contrato, alertas de vencimiento y novedades por estado. Más una hoja de instrucciones con el proceso mensual paso a paso",
+        "_Un detalle que vale registrar sobre el método:_ **verificó las dieciséis mil fórmulas con un recálculo real**, y dejó documentados en la hoja de instrucciones los dos hallazgos confirmados en sesión",
+        "**Se programó un recordatorio automático:** el día 5 de cada mes pide el nuevo listado y recuerda actualizar el tablero. _Es el primer paso hacia el agente_ — una tarea que corre sin que nadie la dispare"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 8 · 16 septiembre 2026",
+      "titulo": "El control de vencimientos, de un papel impreso a un tablero con alertas",
+      "descripcion": "Lo que hoy es una revisión manual que termina en un cuadro impreso pasa a ser un tablero semaforizado con matriz de novedades, histórico y recordatorio mensual automático. **El objetivo no es ahorrar tiempo: es que no se pase una terminación**, que es lo que ya ocurrió.",
+      "estado": "Primera versión construida",
+      "proximo_paso": "Verificar cifras y cargar histórico",
+      "target": "Sesión 9"
+    },
+    {
+      "encabezado": "HALLAZGO DE FUENTE · SESIÓN 8 · 16 septiembre 2026",
+      "titulo": "La información sobre la que se decide tiene dos vacíos",
+      "descripcion": "Una hoja duplicada que haría ver un mes sin movimiento, y la ausencia de la columna que identifica la bolsa de empleo — el dato que el control necesita y que **nunca ha estado en la fuente**. Ninguno de los dos se arregla con la herramienta: se arreglan pidiéndole a Gestión Humana un reporte distinto.",
+      "estado": "Por corregir en la fuente",
+      "proximo_paso": "El correo a Gestión Humana",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "OPORTUNIDAD ABIERTA · SESIÓN 8 · 16 septiembre 2026",
+      "titulo": "El mismo control para el personal directo",
+      "descripcion": "El puesto lo planteó por su cuenta: una vez el mecanismo funcione con las bolsas de empleo, el mismo esquema sirve para el personal de planta — allí el seguimiento sería de vacaciones en lugar de terminaciones.",
+      "estado": "Planteado",
+      "proximo_paso": "Después de cerrar el primero",
+      "target": "Octubre"
+    }
+  ],
+  "tareas_intro": "El tablero quedó construido, pero lo que hay que atender primero está antes del tablero: la fuente de datos y los 25 contratos que figuran vencidos y activos.",
+  "tareas": [
+    {"tarea": "Verificar uno a uno los 25 contratos vencidos que figuran activos", "responsable": "Liliany Gómez", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Escribirle a Gestión Humana pidiendo la fuente corregida y clasificada por bolsa de empleo", "responsable": "Liliany Gómez", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Cargar el histórico de meses anteriores al tablero", "responsable": "Liliany Gómez", "prioridad": "MEDIA", "plazo": "Antes de la S9"},
+    {"tarea": "Reintentar el guardado del tablero en la carpeta del equipo", "responsable": "Liliany Gómez", "prioridad": "MEDIA", "plazo": "Antes de la S9"},
+    {"tarea": "Pasar el trabajo del área de conversaciones sueltas a proyectos", "responsable": "Liliany Gómez", "prioridad": "MEDIA", "plazo": "Permanente"},
+    {"tarea": "Escalar a Tecnología el permiso de instalación del entorno de agentes", "responsable": "Liliany Gómez + Tecnología", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Agendar sesiones seguidas hasta llegar al agente", "responsable": "Liliany Gómez", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Registrar el avance en el tablero de seguimiento", "responsable": "Liliany Gómez", "prioridad": "MEDIA", "plazo": "Permanente"}
+  ],
+  "observaciones": [
+    "El ejercicio era construir el control de vencimientos de contratos, y el tablero quedó hecho. **Pero lo importante de esta sesión pasó antes del tablero.** Al explicarle el proceso paso a paso, el sistema se detuvo dos veces a preguntar — y las dos preguntas eran sobre la calidad del insumo, no sobre el cálculo.",
+    "_La primera:_ el archivo traía dos pestañas, septiembre y octubre, con **las mismas 852 personas, los mismos identificadores y ni una sola alta ni baja entre ambos meses**. Es un error de la fuente. Conviene detenerse en lo que eso significa: **si ese archivo hubiera alimentado un reporte sin que nadie lo mirara, el reporte habría dicho que en un mes no pasó nada.**",
+    "_La segunda es más de fondo._ El proyecto busca controlar al personal contratado por bolsas de empleo, pero el listado maestro no trae esa columna. Al preguntar cómo se identificaba antes, **la respuesta fue que no se identificaba.** No es que el dato esté mal: es que nunca ha estado. _Un control que no puede distinguir su propio universo no es un control._",
+    "**Y la primera corrida sobre el listado real arrojó 25 contratos con fecha de vencimiento cumplida que siguen figurando activos.** Ese es, literalmente, el problema que motivó el proyecto: ya había ocurrido que una terminación se pasara por alto y hubiera que prorrogar más tiempo del previsto. La cifra hay que verificarla contra el archivo real antes de concluir nada, pero si se confirma, deja de ser un dato del ejercicio.",
+    "Vale describir cómo se hace hoy, porque explica el resto: Gestión Humana revisa el listado a mano y entrega **un cuadro impreso** con las personas próximas a terminar. _No hay trazabilidad ni histórico_ — cuando se necesitó saber desde cuándo habían ingresado ciertas personas de bolsa de empleo, el historial no apareció por ninguna parte.",
+    "Del tablero conviene destacar dos cosas de método. **Verificó las dieciséis mil fórmulas con un recálculo real**, no con una afirmación; y dejó documentados en su propia hoja de instrucciones los dos hallazgos confirmados en sesión, de modo que quien lo abra mañana sepa de dónde vienen. _Además quedó programado un recordatorio mensual automático_, que es el primer paso hacia un sistema que corre sin que nadie lo dispare.",
+    "Quedaron dos frenos que no son del método. La copia del tablero no se pudo guardar en la carpeta del equipo porque la conexión con el escritorio se cayó al cierre —el mismo patrón de conector que apareció esta semana en otras dos áreas—, y **la instalación del entorno de agentes volvió a pedir permiso de administrador.** Esa misma mañana otra área lo resolvió por vía directa en minutos.",
+    "_Y una corrección de método que aplica a todo el programa:_ el trabajo se está haciendo en conversaciones sueltas en lugar de proyectos. **Lo que no queda en un proyecto no acumula contexto, y cuando llegue el momento de construir el agente habrá que reconstruirlo desde cero.** El camino hasta ahí son unas cuatro sesiones más, y con el ritmo actual no alcanza antes del cierre de octubre."
+  ],
+  "proxima_sesion": {
+    "sesion": "Sub. Administrativa y Financiera — Sesión 9",
+    "condiciones": [
+      "Los 25 contratos vencidos verificados",
+      "La fuente corregida y clasificada por bolsa de empleo",
+      "El histórico de meses anteriores cargado",
+      "El tablero guardado en la carpeta del equipo"
+    ],
+    "agenda": [
+      "El tablero con dos meses y movimiento real",
+      "Modelado del informe ejecutivo y los gráficos",
+      "El circuito completo, del correo al tablero",
+      "Preparación para construir el agente del área"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 16 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

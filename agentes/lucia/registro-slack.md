@@ -800,3 +800,40 @@ de la alerta crítica, con ese encuadre: *el nombramiento no resolvió el proble
 así que hay que definir a cuál de las dos áreas contaba esta sesión.
 
 Sin mensaje en el canal, según el criterio fijado el 16 de septiembre.
+
+### Miércoles 16 de septiembre — cierre del día (cinco sesiones)
+
+Día más cargado del programa: **Sub. Financiera S7, Jurídica S7, Talento Humano S3,
+Sub. Financiera S8 (Liliany) y Servicios Sociales S8.** Contador del programa en **70 sesiones**.
+
+| Área | Sesión | Hora | Grabación | Resumen |
+|---|---|---|---|---|
+| Sub. Admin. y Financiera | S7 · Rafael | 8:55 a. m. | `1789576941.646229` | `1789577139.693539` |
+| Jurídica | S7 · Carlos y Renata | 10:03 a. m. | `1789577151.355489` | `1789577343.703359` |
+| Talento Humano | S3 · los tres | 2:00 p. m. | `1789597016.647199` | `1789597236.641029` |
+| Sub. Admin. y Financiera | S8 · Liliany | 3:01 p. m. | `1789597254.631879` | `1789597455.669349` |
+| Servicios Sociales | S8 · Juan Pablo y Lilian | 4:02 p. m. | `1789597262.792599` | `1789597623.926119` |
+
+**El patrón del día, y es el hallazgo transversal:** en tres áreas distintas el sistema **se
+detuvo a reportar lo que no podía verificar en vez de inventarlo**. Jurídica: avisó qué números
+de convenio no lograba leer en los escaneados. Sub. Financiera (Liliany): se negó a construir el
+tablero hasta aclarar por qué dos meses tenían exactamente los mismos 852 empleados. Talento
+Humano: separó hechos, cálculos propios y citas jurisprudenciales sin confirmar. *Una herramienta
+que reporta lo que no entiende es más confiable que una que siempre responde.*
+
+**Correcciones importantes del día**
+- **Jurídica: el evento decía S8, es S7.** Sandra lo confirmó y lo corrigió en su lado.
+- **Servicios Sociales corrigió el encuadre del cuarto hallazgo.** La decisión de ampliar el
+  Centro de Convenciones **no es del área** — el Consejo pidió el comportamiento de ingresos y
+  cobertura, y el área entrega el análisis. Y el Centro es **un servicio a los afiliados, no una
+  unidad de negocio**. Se reescribió el hallazgo 4 del tablero con ese criterio, y se le sumó lo
+  que apareció hoy: *no hay registro de captación comercial*, y el 72,9% de los usos está en dos
+  categorías.
+
+**Bloqueo de instalación, tres veces el mismo día.** Jurídica lo resolvió por llamada directa y
+conexión remota en minutos; Liliany tuvo que escalarlo a gestión tecnológica; Talento Humano
+sigue sin poder conectar carpetas. *No es que no se pueda: es que cada área lo resuelve sola.*
+
+**Sobre Dropbox:** Sandra preguntó si yo podía guardar las actas en la carpeta de cada área.
+**No puedo subir PDFs** — el conector solo crea archivos de texto, no binarios. Ella lo sigue
+haciendo. Queda anotado para no volver a ofrecerlo.

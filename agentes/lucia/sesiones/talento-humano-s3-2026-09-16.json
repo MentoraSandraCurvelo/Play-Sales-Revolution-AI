@@ -1,0 +1,234 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "TALENTO HUMANO",
+  "area_completa": "",
+  "sesion_num": 3,
+  "fase": "Proyectos y Sistemas de Trabajo",
+  "fecha": "16 de septiembre de 2026",
+  "fecha_corta": "16 septiembre 2026",
+  "subtitulo_meta": "Con Roí David Carrillo, María Loretta Fuentes y Lacides Daza · 16 de septiembre de 2026 · 2:00 p. m. · 50 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Talento Humano — Comfacesar"],
+    ["Sesión", "N° 3 — Tres ejercicios propios y una revisión jurídica en vivo"],
+    ["Fecha", "16 de septiembre de 2026"],
+    ["Hora inicio", "2:00 p. m. — Colombia"],
+    ["Duración de la sesión", "50 minutos de acompañamiento (2:00 p. m. – 2:51 p. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Roí David Carrillo, María Loretta Fuentes y Lacides Daza — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "3", "etiqueta": "Personas con ejercicio propio", "detalle": "Todo el equipo del área trabajando"},
+    {"valor": "69", "etiqueta": "Artículos revisados en vivo", "detalle": "Un documento que llegó esa misma tarde"},
+    {"valor": "6", "etiqueta": "Hallazgos sobre ese documento", "detalle": "Con semáforo y acción recomendada"},
+    {"valor": "2", "etiqueta": "Días del proceso más pesado", "detalle": "La unificación de planillas de nómina"},
+    {"valor": "0", "etiqueta": "Carpetas conectadas", "detalle": "El paso que no se pudo dar hoy"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Roí David Carrillo Soto", "cargo": "Asistente de Nómina — Comfacesar", "correo": "asistentenomina@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"},
+    {"nombre": "María Loretta Fuentes Carrillo", "cargo": "Asistente de Talento Humano — Comfacesar", "correo": "asistenteth@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"},
+    {"nombre": "Lacides Daza Yance", "cargo": "Gerente de Talento Humano — Comfacesar", "correo": "gestionhumana@comfacesar.com", "modalidad": "Virtual", "nivel": "Inicial"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 3. Las tres personas del área llegaron con ejercicios propios y uno de ellos se hizo sobre un documento real que había que responderle al director esa misma tarde. Lo que frena al área no es el interés: es el entorno de trabajo y un hábito de método.",
+  "riesgos": [
+    {
+      "titulo": "El entorno no permite conectar carpetas y cada ejercicio se hace subiendo archivos uno a uno",
+      "nivel": "ALTO",
+      "descripcion": "**Era el paso central de esta sesión y no se pudo dar.** Trabajar sobre las carpetas reales del área es lo que separa una consulta suelta de un sistema de trabajo: sin eso, un proceso que involucra decenas de archivos obliga a cargarlos de a uno. _Es la diferencia entre usar una herramienta y tener un método._",
+      "responsable": "Talento Humano / Antes de la S4"
+    },
+    {
+      "titulo": "Los ejercicios se están terminando por fuera y eso genera reproceso",
+      "nivel": "ALTO",
+      "descripcion": "Un trabajo quedó a medias y se terminó copiando y pegando por módulos en otra parte, y la presentación se armó en un editor distinto. _El diagnóstico quedó dicho sin rodeos en sesión:_ **ser recursivo no es lo mismo que ser productivo.** Si un proceso que tomaba media hora sigue tomando media hora repartida en tres herramientas, el objetivo no se cumplió.",
+      "responsable": "María Loretta Fuentes / Permanente"
+    },
+    {
+      "titulo": "La propuesta que llegó al área se apoya en citas que nadie ha verificado",
+      "nivel": "ALTO",
+      "descripcion": "El análisis detectó **referencias jurisprudenciales que no pudo confirmar** y recomendó verificarlas una por una —con jurídica interna o con quien redactó el documento— antes de que se use. _La consecuencia es directa:_ **si el documento se aprueba con esas citas sin comprobar, se está aprobando algo que nadie ha leído hasta el fondo.**",
+      "responsable": "Lacides Daza / Antes de responderle al director"
+    },
+    {
+      "titulo": "La propuesta no cuantifica lo que cuesta",
+      "nivel": "ALTO",
+      "descripcion": "No trae el costo total del incremento, ni el impacto sobre la nómina anual, ni el número de trabajadores afectados por capítulo. _Lo confirmó el propio puesto en sesión._ **Un documento que compromete cuatro años de vigencia sin una cifra de impacto no es evaluable**, y eso es lo primero que preguntará quien tenga que decidir.",
+      "responsable": "Lacides Daza / Antes de responderle al director"
+    },
+    {
+      "titulo": "Beneficios en valores fijos durante cuatro años",
+      "nivel": "MEDIO",
+      "descripcion": "Varios beneficios quedan expresados en montos fijos sin ajuste explícito durante toda la vigencia. _El efecto se acumula:_ lo que hoy parece un valor razonable pierde poder adquisitivo cada año. Tampoco hay comparación beneficio por beneficio contra lo que rige hoy.",
+      "responsable": "Lacides Daza / Antes de responderle al director"
+    },
+    {
+      "titulo": "La unificación de planillas arrojó una diferencia sin resolver",
+      "nivel": "MEDIO",
+      "descripcion": "Es el proceso más pesado del área —cerca de dos días de trabajo—. Se cargaron las planillas y el ejercicio corrió, pero **apareció una diferencia frente al resultado hecho a mano** y quedó sin revisar por la urgencia del cierre. _Esa diferencia es justamente lo que hay que entender:_ o el método manual tiene un error, o la instrucción está incompleta.",
+      "responsable": "Roí David Carrillo / Antes de la S4"
+    },
+    {
+      "titulo": "El área va en la sesión 3 con más de un mes de programa",
+      "nivel": "MEDIO",
+      "descripcion": "Hay áreas que van en la séptima con sistemas construidos y corriendo. _La diferencia no ha sido el nivel técnico de partida:_ ha sido la frecuencia. **Se pidieron sesiones individuales para las tres personas** y ninguna estaba agendada al cierre de la sesión.",
+      "responsable": "Todo el equipo / Inmediato"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Agendar las tres sesiones individuales",
+      "descripcion": "Una para cada persona. Los tres procesos son distintos y el acompañamiento grupal ya no rinde: en esta sesión hubo que repartir cincuenta minutos entre tres ejercicios.",
+      "responsable": "Roí David Carrillo, María Loretta Fuentes y Lacides Daza",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Verificar cita por cita antes de responderle al director",
+      "descripcion": "Las referencias que el análisis no pudo confirmar, con jurídica interna o con quien redactó el documento.",
+      "responsable": "Lacides Daza",
+      "plazo": "Antes de responder"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Pedir la cuantificación del impacto",
+      "descripcion": "Costo total del incremento, impacto anual sobre la nómina y número de trabajadores por capítulo. Sin eso el documento no se puede evaluar.",
+      "responsable": "Lacides Daza",
+      "plazo": "Antes de responder"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Dejar el entorno listo para trabajar sobre carpetas",
+      "descripcion": "Es el paso que quedó pendiente desde la S2 y el que bloquea todo lo demás. **Mientras no esté, ningún proceso del área puede automatizarse de punta a punta.**",
+      "responsable": "Todo el equipo",
+      "plazo": "Antes de la S4"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Revisar la diferencia en la unificación de planillas",
+      "descripcion": "Comparar contra el resultado manual y entender de dónde sale. Es el proceso con mayor potencial de ahorro del área.",
+      "responsable": "Roí David Carrillo",
+      "plazo": "Antes de la S4"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Terminar de modelar los cuatro formatos de acta",
+      "descripcion": "Acta de inicio, de seguimiento, de recibo final de bienes y de liquidación. _Son documentos que no admiten errores_, así que el modelado tiene que quedar en firme antes de usarse.",
+      "responsable": "María Loretta Fuentes",
+      "plazo": "Antes de la S4"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Revisión de un documento jurídico, en vivo y con urgencia",
+      "duracion": "~20 min",
+      "objetivo": "Montar el proyecto y analizar un documento que había que responder esa misma tarde.",
+      "pasos": [
+        "_El caso llegó solo:_ el director pidió revisar de inmediato una propuesta de sesenta y nueve artículos elaborada por un asesor externo",
+        "**Se armó el proyecto con el método CREA antes de subir nada.** Contexto: quién envió el documento, qué es y para qué. Rol: abogado especialista en derecho colectivo colombiano _para cajas de compensación familiar_ — la precisión importa, un rol genérico devuelve un análisis genérico",
+        "_Y un matiz que cambió el resultado:_ «desde mi rol como líder del área debo ser muy crítico a la hora de mandarle el reporte al director». **Decirle desde dónde se lee el documento**, no solo qué documento es",
+        "Entrega: un documento de trabajo. Acción: los hallazgos frente a la normativa vigente, **con semaforización** — crítico, requiere aclaración, conforme",
+        "_Lo más valioso del resultado no fueron los hallazgos sino cómo se presentaron:_ **el análisis separó explícitamente los hechos del documento, los cálculos que hizo por su cuenta, y lo que no pudo verificar.** Esa tercera categoría es la que evita aprobar a ciegas",
+        "_Criterio de organización que quedó:_ un proyecto por tema recurrente —todo lo del mismo asunto junto—, no uno por cada documento que llega"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Los formatos del área y la estructura de los cursos",
+      "duracion": "~15 min",
+      "objetivo": "Revisar dos trabajos construidos por cuenta propia entre sesiones.",
+      "pasos": [
+        "**Las actas de los contratos que el área administra:** acta de inicio, de seguimiento, de recibo final de bienes y de liquidación. Se cargó el formato, se escribió el método, se entregó un contrato — y el acta salió diligenciada",
+        "_Con una exigencia propia del proceso:_ estas actas deben quedar exactas, sin margen de error. Por eso el modelado se sigue hasta que el resultado esté en firme, y solo entonces se usa",
+        "**La estructura de los cursos de la plataforma propia:** un mismo esqueleto para todos —bienvenida, título, mensaje, propósito, definición y ruta— para que el contenido entre siempre igual",
+        "_Aquí apareció la lección de método de la sesión:_ el ejercicio se interrumpió a mitad de camino y se terminó por fuera, copiando por módulos, y la presentación se armó en otro editor. **Eso es reproceso, no productividad**",
+        "_El criterio quedó así:_ no salirse. Pedirle el documento, pedirle la presentación, pedirle los indicadores. Y **decir siempre a quién va dirigida** — no es la misma presentación para el jefe inmediato que para un consejo directivo"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El proceso más pesado del área",
+      "duracion": "~10 min",
+      "objetivo": "Identificar dónde está el mayor ahorro posible.",
+      "pasos": [
+        "Se revisó el ejercicio de la sesión anterior, ya terminado: el análisis demográfico de la población activa hasta su presentación, con logo institucional. _Falta afinar indicadores y quedó planteado llevarlo a un tablero que se actualice solo_",
+        "**Y apareció el proceso que de verdad importa:** la liquidación de seguridad social. El sistema de nómina genera un archivo, se carga al operador, el operador devuelve las planillas — y **unificarlas toma cerca de dos días**",
+        "Se cargaron las planillas y el ejercicio corrió, pero **apareció una diferencia frente al resultado manual** y no se terminó por la urgencia del cierre",
+        "_Esa diferencia no es un fracaso, es el trabajo:_ hay que entender de dónde sale antes de confiar en el resultado",
+        "_Y quedó claro por qué este proceso necesita el entorno conectado:_ son decenas de archivos, y cargarlos de a uno anula el ahorro antes de empezar",
+        "_Sobre el ejercicio demográfico surgió una objeción honesta —«eso lo hago en una hoja de cálculo en dos minutos»— y la respuesta fue precisa:_ **el punto no es la cuenta, es el nivel de lo que se entrega.** La cuenta ya la sabe hacer el área"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD MAYOR · SESIÓN 3 · 16 septiembre 2026",
+      "titulo": "La unificación de planillas de seguridad social",
+      "descripcion": "**Es el proceso con mayor potencial de ahorro que ha declarado el área:** cerca de dos días de trabajo en cada ciclo, sobre decenas de archivos que hoy se unifican a mano. El ejercicio ya corrió una vez; falta resolver la diferencia que apareció y trabajarlo sobre la carpeta en lugar de archivo por archivo.",
+      "estado": "Iniciado, con diferencia por resolver",
+      "proximo_paso": "Revisar la diferencia y conectar la carpeta",
+      "target": "Sesión 4"
+    },
+    {
+      "encabezado": "OPORTUNIDAD PROBADA · SESIÓN 3 · 16 septiembre 2026",
+      "titulo": "Revisión asistida de documentos jurídicos densos",
+      "descripcion": "Un documento de sesenta y nueve artículos revisado en minutos, con hallazgos semaforizados y —lo más importante— **con lo verificable separado de lo que no se pudo comprobar.** Es un uso que la jefatura del área puede aplicar a cada documento externo que reciba.",
+      "estado": "Funcionando",
+      "proximo_paso": "Un proyecto por tema recurrente",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CURSO · SESIÓN 3 · 16 septiembre 2026",
+      "titulo": "Los cuatro formatos de acta y la estructura de cursos",
+      "descripcion": "Dos trabajos construidos por iniciativa propia entre sesiones. Las actas exigen exactitud absoluta, así que el valor está en que el formato quede modelado una vez y se aplique siempre igual. La estructura de cursos hace lo mismo con el contenido de la plataforma.",
+      "estado": "En modelado",
+      "proximo_paso": "Terminarlos sin salirse de la herramienta",
+      "target": "Sesión 4"
+    }
+  ],
+  "tareas_intro": "Las tres personas del área llegaron con trabajo propio, lo que no es poco. Lo que falta es frecuencia, el entorno listo para trabajar sobre carpetas, y terminar lo que se empieza sin salirse a mitad de camino.",
+  "tareas": [
+    {"tarea": "Agendar una sesión individual por persona", "responsable": "Roí David Carrillo, María Loretta Fuentes y Lacides Daza", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Verificar cita por cita las referencias que el análisis no pudo confirmar", "responsable": "Lacides Daza", "prioridad": "ALTA", "plazo": "Antes de responder al director"},
+    {"tarea": "Pedir la cuantificación del impacto de la propuesta", "responsable": "Lacides Daza", "prioridad": "ALTA", "plazo": "Antes de responder al director"},
+    {"tarea": "Dejar el entorno listo para trabajar sobre las carpetas del área", "responsable": "Todo el equipo", "prioridad": "ALTA", "plazo": "Antes de la S4"},
+    {"tarea": "Revisar la diferencia que apareció en la unificación de planillas", "responsable": "Roí David Carrillo", "prioridad": "MEDIA", "plazo": "Antes de la S4"},
+    {"tarea": "Terminar de modelar los cuatro formatos de acta", "responsable": "María Loretta Fuentes", "prioridad": "MEDIA", "plazo": "Antes de la S4"},
+    {"tarea": "Terminar la estructura de cursos sin salirse de la herramienta", "responsable": "María Loretta Fuentes", "prioridad": "MEDIA", "plazo": "Antes de la S4"},
+    {"tarea": "Llevar tres proyectos más montados y el ejercicio demográfico modelado", "responsable": "Roí David Carrillo", "prioridad": "MEDIA", "plazo": "Antes de la S4"},
+    {"tarea": "Registrar los tiempos antes y después en el tablero de seguimiento", "responsable": "Todo el equipo", "prioridad": "ALTA", "plazo": "Permanente"}
+  ],
+  "observaciones": [
+    "Lo mejor de la sesión fue que **las tres personas del área llegaron con ejercicios construidos por su cuenta**: los formatos de acta, la estructura de los cursos de la plataforma propia y el análisis demográfico terminado. En un área que va en la tercera sesión, eso no es poco.",
+    "El ejercicio de la jefatura se hizo sobre un caso real y urgente —un documento de sesenta y nueve artículos que había que responderle al director esa misma tarde— y **el resultado dejó ver exactamente para qué sirve esto en un puesto directivo.** No por la velocidad, sino por cómo presentó los hallazgos: _separando los hechos del documento, los cálculos propios y aquello que no pudo verificar._",
+    "**Esa tercera categoría es la que más valor tiene y conviene dejarla subrayada.** El análisis detectó referencias jurisprudenciales que no pudo confirmar y recomendó verificarlas una por una antes de que el documento se use. _La lectura es dura y es correcta:_ si se aprueba un documento apoyado en citas que nadie comprobó, se está aprobando algo que nadie ha leído hasta el fondo. A eso se suma que la propuesta **no trae el costo total del incremento ni el número de trabajadores afectados**, y compromete cuatro años de vigencia.",
+    "_Y una observación del propio puesto que vale registrar:_ notó que el documento que recibió probablemente también fue elaborado con ayuda de inteligencia artificial. **Ese es el escenario que viene:** documentos asistidos que se revisan con asistencia. Lo que distingue un resultado de otro es quién verifica.",
+    "El freno del área no es de interés ni de capacidad. Es de dos cosas concretas. _La primera:_ **el entorno todavía no permite trabajar sobre las carpetas reales**, y ese era el paso central de esta sesión. Sin él, un proceso con decenas de archivos obliga a cargarlos de a uno y el ahorro se anula antes de empezar. Era el compromiso pendiente desde la sesión anterior y sigue abierto.",
+    "_La segunda es de método:_ un ejercicio quedó a medias y se terminó por fuera, copiando por módulos y armando la presentación en otro editor. **Ser recursivo no es lo mismo que ser productivo.** Si un proceso de media hora sigue tomando media hora repartida en tres herramientas, el objetivo no se cumplió. El criterio quedó claro: no salirse, y pedir todo ahí mismo — el documento, la presentación, los indicadores.",
+    "Apareció además el proceso que más importa del área: **la unificación de planillas de seguridad social, que hoy toma cerca de dos días.** El ejercicio ya corrió una vez y arrojó una diferencia frente al resultado manual que quedó sin revisar. _Esa diferencia es el trabajo, no el obstáculo._",
+    "Se pidieron **sesiones individuales para las tres personas** y ninguna quedó agendada al cierre. Los tres procesos son distintos y el formato grupal ya no rinde: esta sesión repartió cincuenta minutos entre tres ejercicios. Hay áreas que van en la séptima sesión con sistemas corriendo, y la diferencia no ha sido el punto de partida — ha sido cuántas veces se vieron."
+  ],
+  "proxima_sesion": {
+    "sesion": "Talento Humano — Sesiones individuales",
+    "condiciones": [
+      "Una sesión agendada por persona",
+      "El entorno listo para trabajar sobre carpetas",
+      "La diferencia de las planillas revisada",
+      "Los formatos de acta y la estructura de cursos avanzados"
+    ],
+    "agenda": [
+      "La unificación de planillas, de punta a punta",
+      "Cierre de los cuatro formatos de acta",
+      "El tablero del análisis demográfico",
+      "Los documentos externos de la jefatura, por tema"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 16 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

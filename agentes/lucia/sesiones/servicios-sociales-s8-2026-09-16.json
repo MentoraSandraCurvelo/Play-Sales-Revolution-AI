@@ -1,0 +1,224 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SERVICIOS SOCIALES",
+  "area_completa": "",
+  "sesion_num": 8,
+  "fase": "Sistemas de Trabajo Agénticos",
+  "fecha": "16 de septiembre de 2026",
+  "fecha_corta": "16 septiembre 2026",
+  "subtitulo_meta": "Con Juan Pablo Curvelo y Lilian Paola Ramos · 16 de septiembre de 2026 · 4:00 p. m. · 1 h 3 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Servicios Sociales — Comfacesar"],
+    ["Sesión", "N° 8 — El informe del Centro de Convenciones terminado y el primer agente del área"],
+    ["Fecha", "16 de septiembre de 2026"],
+    ["Hora inicio", "4:00 p. m. — Colombia"],
+    ["Duración de la sesión", "1 hora 3 minutos (4:02 p. m. – 5:05 p. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Juan Pablo Curvelo y Lilian Paola Ramos — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "8", "etiqueta": "Años de resultado negativo", "detalle": "Ahora cuantificados, no intuidos"},
+    {"valor": "72,9%", "etiqueta": "Usos en dos categorías", "detalle": "Concentrados en eventos sociales"},
+    {"valor": "0", "etiqueta": "Registro de captación", "detalle": "No hay cómo saber de dónde llega el cliente"},
+    {"valor": "1", "etiqueta": "Agente en construcción", "detalle": "El primero del área"},
+    {"valor": "2", "etiqueta": "Sesiones ya agendadas", "detalle": "Para terminarlo la próxima semana"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Juan Pablo Curvelo", "cargo": "Profesional Junior — Servicios Sociales", "correo": "pro_juniorss@comfacesar.com", "modalidad": "Virtual", "nivel": "Avanzado"},
+    {"nombre": "Lilian Paola Ramos", "cargo": "Servicios Sociales — Comfacesar", "correo": "serviciossociales@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 8. El informe que ayer no se sostenía quedó terminado y bien sustentado. Lo que apareció al completarlo no es un problema del informe: es un vacío de gestión comercial que el Centro arrastra desde su apertura.",
+  "riesgos": [
+    {
+      "titulo": "No existe registro de cómo llega el cliente al Centro",
+      "nivel": "ALTO",
+      "descripcion": "Lo levantó el propio análisis al buscar el dato y no encontrarlo: **no hay cotizaciones registradas, ni base de clientes, ni alianzas, ni ningún soporte de captación.** _Nadie puede decir hoy de dónde vienen los eventos._ Lo que ocurre parece ser enteramente orgánico — y eso significa que no se puede replicar, ni medir, ni mejorar.",
+      "responsable": "Servicios Sociales / Octubre"
+    },
+    {
+      "titulo": "El uso está concentrado en el segmento que menos aporta al propósito",
+      "nivel": "ALTO",
+      "descripcion": "**El 72,9% de los usos se concentra en dos categorías**, y corresponden casi todos a eventos sociales — bodas, grados, celebraciones. _Es una tensión de fondo, no un dato:_ el sistema de subsidio familiar propende por quien menos gana, pero el Centro no se comporta así. Las categorías de menores ingresos prácticamente no lo usan.",
+      "responsable": "Servicios Sociales / Octubre"
+    },
+    {
+      "titulo": "El resultado negativo acumulado hay que presentarlo, no esconderlo",
+      "nivel": "ALTO",
+      "descripcion": "La cifra de ocho años apareció al completar el informe y la primera reacción en sala fue que no podía llevarse al Consejo. _Y ahí está justamente el valor:_ **es algo que se intuía pero que nunca había estado escrito.** Una cosa es sospechar que un servicio no se sostiene y otra verlo cuantificado y semaforizado. Presentarlo es lo que permite decidir con criterio.",
+      "responsable": "Lilian Paola Ramos / Antes del Consejo"
+    },
+    {
+      "titulo": "El informe todavía lleva comentarios de trabajo visibles",
+      "nivel": "MEDIO",
+      "descripcion": "Quedaron anotaciones intermedias en el documento que no deben llegar al Consejo Directivo. _Es una limpieza de cinco minutos_, pero es lo que separa un borrador de un entregable.",
+      "responsable": "Juan Pablo Curvelo / Antes de presentar"
+    },
+    {
+      "titulo": "El primer trimestre se estaba excluyendo del análisis",
+      "nivel": "MEDIO",
+      "descripcion": "Se le había indicado no tomar 2026. _Al aparecer el segundo trimestre en el archivo, la recomendación cambió:_ **conviene incluirlo porque muestra tendencia**, que es exactamente lo que un Consejo necesita para decidir sobre una ampliación. Con la salvedad de que el cierre de año trae picos por grados y eventos de temporada.",
+      "responsable": "Juan Pablo Curvelo / Antes de presentar"
+    },
+    {
+      "titulo": "El agente quedó lanzado pero sin modelar",
+      "nivel": "MEDIO",
+      "descripcion": "Se alcanzó a describir el circuito y a conectar la carpeta, pero el modelado quedó a medias por tiempo. _Hay dos sesiones agendadas para la semana siguiente_ y con eso debería cerrarse.",
+      "responsable": "Juan Pablo Curvelo / Próxima semana"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Presentar la cifra acumulada, con su contexto",
+      "descripcion": "Acompañada de la lectura del área: **el Centro es un servicio a los afiliados, no una unidad de negocio.** Sin esa lectura la cifra se malinterpreta; con ella, sustenta la decisión.",
+      "responsable": "Lilian Paola Ramos",
+      "plazo": "Antes del Consejo"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Limpiar los comentarios de trabajo del documento",
+      "descripcion": "Antes de que salga del área.",
+      "responsable": "Juan Pablo Curvelo",
+      "plazo": "Antes de presentar"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Incluir los dos trimestres de 2026",
+      "descripcion": "Para que el informe muestre tendencia y no solo histórico, señalando el efecto de temporada.",
+      "responsable": "Juan Pablo Curvelo",
+      "plazo": "Antes de presentar"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Abrir el ejercicio de estrategia comercial",
+      "descripcion": "Con los insumos que hoy no existen: cotizaciones, base de clientes, ticket promedio por tipo de evento y **el comparativo de tarifas con otros salones de la ciudad** —lo propuso el propio equipo—. De ahí sale una estrategia, no de la intuición.",
+      "responsable": "Lilian Paola Ramos + Juan Pablo Curvelo",
+      "plazo": "Octubre"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Terminar de modelar el agente de infraestructura",
+      "descripcion": "Con su circuito completo, en las dos sesiones ya agendadas.",
+      "responsable": "Juan Pablo Curvelo",
+      "plazo": "Próxima semana"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Organizar la carpeta por proyecto",
+      "descripcion": "Una subcarpeta por obra dentro del seguimiento, para que el agente no mezcle proyectos cuando entren los siguientes.",
+      "responsable": "Juan Pablo Curvelo",
+      "plazo": "Esta semana"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El informe terminado",
+      "duracion": "~25 min",
+      "objetivo": "Cerrar lo que quedó abierto el día anterior.",
+      "pasos": [
+        "_El área trajo hechas las dos tareas de la sesión anterior:_ cargó al proyecto el archivo con las cifras y **la circular que define el sistema de categorías**",
+        "**El efecto de ese segundo documento fue inmediato:** el análisis dejó de leer cifras sueltas y empezó a contextualizarlas — interpretó las siglas, entendió la segmentación y comparó año contra año con porcentajes",
+        "Salió un informe ejecutivo con la evolución del Centro, la caída de la pandemia y la recuperación posterior. Y también la presentación",
+        "_Y apareció información nueva:_ el archivo ya traía **dos trimestres de 2026**, no uno. Se recomendó incluirlos — un Consejo que decide sobre una ampliación necesita ver tendencia, no solo histórico",
+        "_Queda una limpieza pendiente:_ el documento todavía muestra comentarios de trabajo que no deben salir del área"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Lo que el informe terminado dejó ver",
+      "duracion": "~15 min",
+      "objetivo": "Leer los hallazgos con el criterio del área.",
+      "pasos": [
+        "**La cifra de resultado negativo acumulado en ocho años.** La primera reacción fue que no podía llevarse al Consejo; _la respuesta quedó registrada porque vale para todo el programa:_ es algo que se intuía y que nunca había estado escrito. **Una cosa es sospechar que un servicio no se sostiene y otra verlo cuantificado**",
+        "_Y aquí vino la precisión más importante de la sesión, y la hizo el área:_ la decisión no le corresponde a Servicios Sociales. **El Consejo pidió el comportamiento de ingresos y cobertura para soportar la ampliación**, y el área entrega el análisis",
+        "_Con una lectura profesional que cambia el sentido de la cifra:_ **el Centro es un servicio a los afiliados, no una unidad de negocio.** Sostener esa infraestructura no ha dado ni va a dar retorno financiero — y la ampliación se evaluaría por cobertura y por servicio, no por rentabilidad",
+        "**El 72,9% de los usos se concentra en dos categorías**, y son eventos sociales. _La tensión quedó bien formulada por el equipo:_ el sistema de subsidio propende por quien menos gana, pero un congreso, un matrimonio o un grado no los contratan las categorías de menores ingresos",
+        "_Y el hallazgo que nadie fue a buscar:_ **el análisis reportó que no hay evidencia de captación comercial** — ni cotizaciones registradas, ni base de clientes, ni alianzas. No se sabe cómo llega el cliente"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El primer agente del área",
+      "duracion": "~20 min",
+      "objetivo": "Pasar de usar la herramienta a construir un sistema de trabajo.",
+      "pasos": [
+        "_Se fijó primero la diferencia:_ un proyecto es un asistente al que se le pide algo. Un artefacto es lo que entrega —un tablero, una presentación, una aplicación web—. Una tarea programada dispara un recordatorio. **Un agente hace el circuito completo y responde lo que llegue.**",
+        "_El proceso elegido:_ el seguimiento a proyectos de infraestructura. En las dos primeras semanas de cada mes llega por correo el informe de interventoría de la obra, con el código del proyecto en el asunto",
+        "**El circuito que hay que escribirle:** reconocer el correo por ese código → descargar el informe → entrar a la carpeta de seguimiento → **diligenciar la ficha de seguimiento y control**, una por cada mes de ejecución. La obra en curso ya lleva cuatro informes",
+        "Se conectó la carpeta de trabajo. _Y quedó un criterio de orden:_ una subcarpeta por obra, para que cuando entren más proyectos el agente no los mezcle",
+        "Se lanzó y quedó preguntando. **El modelado se termina en las dos sesiones ya agendadas para la próxima semana**",
+        "_El objetivo declarado del área, textual:_ sentarse a tomar decisiones y no a llenar. **Que no vuelva a haber una hoja de cálculo diligenciada a mano en Servicios Sociales**"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "HALLAZGO DE GESTIÓN · SESIÓN 8 · 16 septiembre 2026",
+      "titulo": "El Centro de Convenciones opera sin registro de captación comercial",
+      "descripcion": "**No hay cotizaciones registradas, ni base de clientes, ni alianzas.** Nadie puede decir cómo llega un evento. Lo que funciona hoy es orgánico —es el único espacio de su tipo en la ciudad— y por eso mismo no se puede replicar, medir ni mejorar. _No lo señaló la mentoría: lo reportó el análisis al buscar el dato y no encontrarlo._",
+      "estado": "Abierto",
+      "proximo_paso": "Empezar a registrar cotizaciones y origen del cliente",
+      "target": "Octubre"
+    },
+    {
+      "encabezado": "OPORTUNIDAD PLANTEADA · SESIÓN 8 · 16 septiembre 2026",
+      "titulo": "Una estrategia comercial construida sobre datos, no sobre intuición",
+      "descripcion": "Con cotizaciones, base de clientes, ticket promedio por tipo de evento y el comparativo de tarifas con otros salones de la ciudad, se puede diseñar la estrategia completa: el segmento empresarial —de ticket más alto y hoy desatendido—, un esquema de membresía que asegure flujo anual, y fidelización sobre las familias que ya usaron el Centro.",
+      "estado": "Solicitada por el área",
+      "proximo_paso": "Reunir los insumos",
+      "target": "Octubre"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 8 · 16 septiembre 2026",
+      "titulo": "El agente de seguimiento a proyectos de infraestructura",
+      "descripcion": "Del correo de interventoría a la ficha de seguimiento diligenciada, sin intervención. Sería el primer sistema del área que corre solo, y el modelo para todo lo que hoy se llena a mano.",
+      "estado": "Lanzado, por modelar",
+      "proximo_paso": "Las dos sesiones de la próxima semana",
+      "target": "Sesión 10"
+    }
+  ],
+  "tareas_intro": "El informe quedó sustentado y el área entendió qué va a defender y qué no le corresponde decidir. Lo que sigue es limpiarlo, presentarlo, y terminar el agente que quedó lanzado.",
+  "tareas": [
+    {"tarea": "Limpiar los comentarios de trabajo del documento", "responsable": "Juan Pablo Curvelo", "prioridad": "ALTA", "plazo": "Antes de presentar"},
+    {"tarea": "Incluir los dos trimestres de 2026 y señalar el efecto de temporada", "responsable": "Juan Pablo Curvelo", "prioridad": "ALTA", "plazo": "Antes de presentar"},
+    {"tarea": "Presentar la cifra acumulada acompañada de la lectura de servicio del área", "responsable": "Lilian Paola Ramos", "prioridad": "ALTA", "plazo": "Antes del Consejo"},
+    {"tarea": "Reunir los insumos para el ejercicio de estrategia comercial", "responsable": "Lilian Paola Ramos + Juan Pablo Curvelo", "prioridad": "MEDIA", "plazo": "Octubre"},
+    {"tarea": "Terminar de modelar el agente de infraestructura", "responsable": "Juan Pablo Curvelo", "prioridad": "ALTA", "plazo": "Próxima semana"},
+    {"tarea": "Organizar la carpeta de seguimiento con una subcarpeta por obra", "responsable": "Juan Pablo Curvelo", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Registrar el ejercicio del informe en el tablero de seguimiento", "responsable": "Juan Pablo Curvelo", "prioridad": "ALTA", "plazo": "Esta semana"}
+  ],
+  "observaciones": [
+    "El informe que ayer no se sostenía quedó terminado y bien sustentado, y la diferencia la hizo un solo documento: **la circular que define el sistema de categorías.** Con ella cargada, el análisis dejó de leer cifras sueltas y empezó a entender lo que significaban. _Es el mismo aprendizaje de siempre, y conviene repetirlo:_ el problema no era la herramienta, era el contexto que no se le había dado.",
+    "**La precisión más importante de la sesión la hizo el área, y corrige la lectura de ayer.** La decisión sobre la ampliación no le corresponde a Servicios Sociales: el Consejo pidió el comportamiento de ingresos y cobertura para soportar esa decisión, y el área entrega el análisis. _Y con una lectura profesional que cambia el sentido de la cifra:_ **el Centro es un servicio a los afiliados, no una unidad de negocio.** Sostener esa infraestructura no ha dado ni va a dar retorno financiero; la ampliación se evaluaría por cobertura y por servicio.",
+    "Aun así, la cifra de resultado negativo acumulado en ocho años hay que presentarla. La primera reacción en sala fue que no podía llevarse al Consejo, y la respuesta vale para todo el programa: **es algo que se intuía y que nunca había estado escrito.** Una cosa es sospechar que un servicio no se sostiene y otra verlo cuantificado y semaforizado. _Lo primero permite opinar; lo segundo permite decidir._",
+    "**Y apareció un hallazgo que nadie fue a buscar.** Al intentar explicar los resultados, el análisis reportó que no encuentra evidencia de captación comercial: _ni cotizaciones registradas, ni base de clientes, ni alianzas._ Nadie puede decir hoy cómo llega un evento al Centro. Lo que funciona parece ser enteramente orgánico —es el único espacio de su tipo en la ciudad— y por eso mismo **no se puede replicar, ni medir, ni mejorar.**",
+    "A eso se suma una tensión estructural que el equipo formuló con claridad: **el 72,9% de los usos se concentra en dos categorías**, y corresponden a eventos sociales. El sistema de subsidio familiar propende por quien menos gana, pero un congreso, un matrimonio o un grado no los contratan las categorías de menores ingresos. _No es una contradicción que resuelva el área_, pero es el dato que explica por qué las cifras se comportan como se comportan.",
+    "De ahí salió la petición del propio equipo: **desarrollar una estrategia comercial con datos.** Cotizaciones, base de clientes, ticket promedio por tipo de evento y —propuesta suya— el comparativo de tarifas con otros salones de la ciudad. Sobre eso sí se puede diseñar: el segmento empresarial, hoy desatendido y de ticket más alto; un esquema de membresía que asegure flujo anual; y fidelización sobre las familias que ya usaron el Centro.",
+    "En la segunda mitad se dio el salto de fase: **se empezó a construir el primer agente del área**, sobre el seguimiento a proyectos de infraestructura. Del correo de interventoría a la ficha de seguimiento diligenciada, sin intervención. Se describió el circuito y se conectó la carpeta; el modelado quedó a medias por tiempo, _pero el área ya tiene dos sesiones agendadas para la próxima semana_ y con eso debería cerrarse.",
+    "_Y queda el objetivo del área dicho en sus propios términos:_ sentarse a tomar decisiones y no a llenar. **Que no vuelva a haber una hoja de cálculo diligenciada a mano en Servicios Sociales.**"
+  ],
+  "proxima_sesion": {
+    "sesion": "Servicios Sociales — Sesiones 9 y 10",
+    "condiciones": [
+      "El informe limpio y con los dos trimestres incluidos",
+      "El agente avanzado sobre el circuito ya descrito",
+      "La carpeta organizada por obra",
+      "El ejercicio registrado en el tablero de seguimiento"
+    ],
+    "agenda": [
+      "Modelado completo del agente de infraestructura",
+      "Prueba del circuito de punta a punta",
+      "El ejercicio de estrategia comercial del Centro",
+      "Siguientes procesos del área a automatizar"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 16 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
