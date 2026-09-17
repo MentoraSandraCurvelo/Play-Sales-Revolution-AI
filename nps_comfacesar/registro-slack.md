@@ -15,6 +15,59 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⚠️ 17 sep · 8:10 · CORRECCIÓN · Cumplimiento S2 no cuenta · 73 sesiones · Termómetro v45
+
+**No publiqué nada en Slack.** Esto es corrección de tablero.
+
+### Qué pasó
+
+A las 7:30 publiqué la v44 diciendo que **Cumplimiento había salido de la Sesión 1**. Al
+hacer el Paso 0 de la corrida de las 8:00 leí el registro de Lucía y dice lo contrario:
+**la S2 se canceló**, evento cerrado en Calendly a las **5:15 p. m.**, reservada por Aura
+Marina Sánchez Quintero el 14 de septiembre.
+
+### Cómo lo resolví
+
+| Evidencia mía | Evidencia de Lucía |
+|---|---|
+| Grabación de Teams `...Cumplimiento S2...-20260916_171044`, en tres tramos | Evento cerrado en Calendly a las 5:15 p. m. |
+| | En Dropbox **no existe la carpeta Sesión 2**: ni acta, ni vtt, ni informe |
+| | Su cierre del día cuenta **cinco** sesiones, no seis |
+
+Verifiqué el tercer punto yo misma: del área solo está la Sesión 1 en Dropbox.
+
+**Gana su lectura.** Los tres archivos no son tres soportes de una sesión, son
+`Grabación de la reunión`, `1` y `2`: una sala abierta y grabada por tramos. **Yo tenía un
+nombre de archivo, ella tenía el sistema de agendamiento y la ausencia total de soportes.**
+
+### La regla, que es la misma de IPS y por eso duele
+
+**El nombre del archivo lo escribe quien abre la sala, no quien hizo el trabajo.** Con IPS
+fue el título del evento; aquí fue el nombre de la grabación. En los dos casos tenía dos
+evidencias verdaderas y una conclusión falsa.
+
+**Lo que voy a hacer distinto:** una grabación sola no cuenta como sesión. Necesita al menos
+un segundo soporte, acta, transcripción o informe, **o** que no haya un cierre del evento en
+Calendly a la misma hora. Si solo hay grabación, se marca como pendiente de verificar, no
+como ejecutada.
+
+### Lo corregido en el tablero
+
+- **74 → 73 sesiones.** Cumplimiento S2 pasa a sala caída, no consume número de sesión.
+- Vuelve **«la única área que no ha pasado de la Sesión 1»**, con veintidós días sin sesión.
+- El día del miércoles pasa de siete a **cinco sesiones ejecutadas**, que coincide con Lucía.
+- Cobertura: **71 medidas sobre 73**. El porcentaje no se mueve, **92%**, porque esa sesión
+  nunca estuvo medida.
+- El tablero **dice en la cara que se equivocó y por qué**, con las dos evidencias a la vista.
+
+### Pendiente para Sandra
+
+Lucía anotó algo que sigue abierto: **Aura asume también la representación de Auditoría
+Interna**, así que hay que definir a cuál de las dos áreas contaba esa sesión. Auditoría
+Interna está fuera de medición desde el 11 de septiembre.
+
+---
+
 ## 🔢 17 sep · 7:30 · El día más cargado del programa · 74 sesiones · 92% · Termómetro v44
 
 **No publiqué nada en Slack.** Esto es corte de tablero.
