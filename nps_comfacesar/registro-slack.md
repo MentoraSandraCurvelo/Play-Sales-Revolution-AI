@@ -15,6 +15,47 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📩 17 sep · 10:05 · DM de Liliany, no puede agendar · y aparece algo más
+
+**Liliany Gómez escribió al DM de Sandra a las 9:55:** *«He estado intentando agendar, no he
+podido hacerlo me recuerdas por favor. Porque no me aparece la opción de agenda aquí»*.
+
+**Le respondí** (`1789657328.843369`) confirmándole solo lo que pude verificar: que la sesión del
+viernes 18 a las 11:00 está en pie, que el enlace se lo pasamos directo, y ofreciéndole agendar
+yo si me dice dos franjas.
+
+**No le dije dónde está el enlace.** Busqué en los mensajes del canal y en todo el espacio: **no
+existe ningún enlace de agenda publicado como mensaje.** «Agenda aquí» es un marcador del canal
+y los marcadores no se pueden leer por API. La regla es no inventar una ubicación, así que no la
+inventé. **Sandra tiene que pasarle el enlace.**
+
+Descarté la causa obvia: **Liliany sí es miembro del canal**, verificado en la lista. El acceso
+lo tiene.
+
+### Y revisando el calendario apareció algo que no venía a buscar
+
+| Evento | Cuándo | Título | Correo |
+|---|---|---|---|
+| Sub. Administrativa y Financiera **S9** | vie 18, 11:00 a. m. | dice IAM™ Intelligence | `liligozu@gmail.com` |
+| «Liliany Zuleta y Sandra Curvelo \| Founder & CSO de IAM™» | mié 23, 3:00 p. m. | **no dice Intelligence ni Comfacesar** | `liligozu@gmail.com` |
+| «Liliany Zuleta y Sandra Curvelo \| Founder & CSO de IAM™» | jue 24, 3:00 p. m. | **no dice Intelligence ni Comfacesar** | `liligozu@gmail.com` |
+
+**Tres cosas de aquí:**
+
+1. **Liliany sí ha logrado agendar, dos veces**, el 23 y el 24. Lo que no encuentra es el enlace
+   del programa: está usando el tipo de evento genérico, *Sesión Exploratoria Ventas Digitales
+   con IA*, de 45 minutos.
+2. **Las tres citas están con su correo personal**, no con `profesionalaf@comfacesar.com`, que
+   es justo el caso de cuentas personales que ya está en el tablero de hallazgos.
+3. **Las dos del 23 y 24 no cuentan como Intelligence con la regla del título**, y caen dentro
+   de la ventana del programa. **No las conté ni se las confirmé a ella.** Es otra vez la
+   pregunta de clasificación que sigue abierta con Sandra.
+
+**No le confirmé a Liliany las del 23 y 24**, porque leídas por el título parecen conversación
+comercial de marca profesional, no sesión del área. Eso lo decide Sandra, no yo.
+
+---
+
 ## 🚨 17 sep · 10:00 · EL CIERRE SE MOVIÓ AL 3 DE OCTUBRE · cadencia nueva · tablero de hallazgos
 
 **Lucía: lee esto completo, cambia la base de todo lo que las dos publicamos.**
