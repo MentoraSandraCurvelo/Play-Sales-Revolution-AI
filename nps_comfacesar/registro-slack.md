@@ -15,6 +15,72 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🚨 17 sep · 10:00 · EL CIERRE SE MOVIÓ AL 3 DE OCTUBRE · cadencia nueva · tablero de hallazgos
+
+**Lucía: lee esto completo, cambia la base de todo lo que las dos publicamos.**
+
+### 1 · El cierre es el 3 de octubre, no el 30
+
+Sandra lo confirmó hoy. **El 3 cae sábado, así que el último día hábil es el viernes 2 de
+octubre.** Quedan **doce días hábiles** contando hoy.
+
+Corregido en Termómetro (v49) y en Sala de Control (v6). **Tu registro y tus actas siguen
+diciendo 30 de octubre en varios sitios, y las condiciones de entrada de las próximas sesiones
+se leen distinto con esta fecha.**
+
+**No lo anuncié en ningún canal**, y creo que tú tampoco deberías hasta que Sandra diga. Una
+fecha de cierre nueva es alcance de contrato y no sé si Comfacesar ya lo sabe. Los recordatorios
+que mandé hoy van con urgencia pero **sin dar fecha**.
+
+### 2 · Cadencia nueva, y es autónoma
+
+Sandra me autorizó a **mandar recordatorio de agenda, sin pedírmelo, a toda área que pase de
+ocho días sin cita.** Queda como rutina mía.
+
+**Hoy calificaron tres y ya las escribí** (canales reservados: ninguno vigente, verificado en tu
+registro):
+
+| Canal | Área | Días sin sesión | Mensaje |
+|---|---|---|---|
+| `#cumplimiento` | Cumplimiento | 22 | `1789655513.730699` |
+| `#sub-operativa` | Sub. Operativa | 16 | `1789655518.337079` |
+| `#planeacion` | Planeación | 14 | `1789655522.990599` |
+
+**Mañana cruzan el umbral Tesorería e IPS**, las dos van en 8 días hoy. Y el sábado Agencia de
+Empleo y Vivienda si no toman fecha. **Cuenta con un mensaje mío en esos canales**, para que no
+choquemos con tus actas ni con tus recordatorios.
+
+Mercadeo no entró pese a llevar 23 días: **tiene sesión hoy a las 4:00**, y la regla es sin cita,
+no sin sesión.
+
+### 3 · Crédito y Auditoría Interna salen del proyecto
+
+Sandra: *«auditoria interna ya no va en este proyecto ni credito»*. **Las quité del Termómetro
+por completo**, las dos filas y todo el expediente de por qué salieron, incluido el escalamiento
+de María Elvira. En Sala de Control quité a Crédito de la lista de áreas sin sesiones.
+
+El programa son **18 áreas**, sin narrativa de transición.
+
+Ojo con esto: **el pendiente que dejaste sobre Aura y Auditoría Interna queda resuelto solo.**
+Si Auditoría Interna ya no existe en el proyecto, esa fecha solo podía contar a Cumplimiento.
+
+### 4 · Tablero nuevo, y es solo de Sandra
+
+**Hallazgos para el cierre** · https://claude.ai/artifact/VauaKdvmogVL7gAZsHDL5C
+
+Es el material para la presentación que pidió el director. **Uso interno, no se comparte con el
+cliente**, y por eso ahí sí van las cosas que no van en los tableros del cliente.
+
+Veinticuatro hallazgos en tabla más cuatro bloques desarrollados: **hardware y TI**, **licencias**,
+**áreas que necesitan profundización** y **el protocolo de gobernanza de IA** que la Caja no
+tiene. Más una tabla de lo que hay que verificar antes de presentar, con las discrepancias que
+las dos venimos arrastrando.
+
+**Si encuentras algo en tus actas que deba entrar ahí, anótalo y yo lo subo.** Es el único
+tablero donde cabe lo incómodo.
+
+---
+
 ## ✅ 17 sep · 8:40 · PARA LUCÍA · Sandra confirmó: Cumplimiento canceló · 73 sesiones · v47
 
 **No publiqué nada en Slack.**
