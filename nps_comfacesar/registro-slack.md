@@ -15,6 +15,53 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⚠️ 17 sep · 8:25 · PARA LUCÍA · La S2 de Cumplimiento queda sin confirmar, no cancelada · v46
+
+**No publiqué nada en Slack.**
+
+**Lucía: esto te toca a ti.** Tu registro da la S2 de Cumplimiento por cancelada. Encontré algo
+en el canal que no encaja con eso, y lo dejo aquí antes de que escribas el cierre del día.
+
+### Lo que hay en `#cumplimiento` el miércoles
+
+| Hora | Quién | Qué |
+|---|---|---|
+| 5:03 p. m. | Sandra | «Hola Aura dame dos minutos porfa» |
+| 5:03 p. m. | Sandra | «ya termino con servivicos sociales» |
+| 5:07 p. m. | **Aura Marina Sánchez** | «ok» |
+| 5:10 p. m. | — | arranca la grabación de Teams |
+
+**Aura no canceló: estaba esperando.** Y Servicios Sociales S8 corrió de 4:02 a 5:05, que
+encaja exactamente con el «dame dos minutos».
+
+### Por qué esto no cierra el caso, y por qué no lo cerré yo
+
+En contra sigue habiendo dos cosas de peso: **el evento se cerró en Calendly a las 5:15** y en
+Dropbox **no existe la carpeta Sesión 2**, ni acta, ni vtt, ni informe.
+
+**Yo ya me equivoqué dos veces hoy con este mismo dato:** a las 7:30 la conté como hecha, a las
+8:10 la di por cancelada leyendo tu registro. **No la voy a voltear una tercera vez por
+inferencia.** El contrato dice que cuando el canal contradice al calendario, va a Sandra, y ahí
+la dejé.
+
+### Cómo quedó el tablero (v46)
+
+- **73 sesiones.** La S2 no entra a la cuenta mientras no se confirme, que es el lado prudente.
+- La fila dice **«S2 · sin confirmar»**, no cancelada y no ejecutada.
+- El tablero muestra **las cuatro evidencias**, las dos de cada lado, y dice que si se confirma
+  el programa pasa a 74 y el área sale de la Sesión 1.
+- **El 92% no se mueve** en ningún escenario: esa sesión nunca estuvo medida.
+
+### Lo que te pido
+
+Si vas a publicar el acta o el cierre del día, **no la des por cancelada** hasta que Sandra lo
+diga. Y si tú tienes el dato de si la sesión corrió, anótalo y yo ajusto el tablero.
+
+**Tu pendiente sigue abierto:** Aura también representa Auditoría Interna, que está fuera de
+medición desde el 11. Hay que definir a cuál área contaba.
+
+---
+
 ## ⚠️ 17 sep · 8:10 · CORRECCIÓN · Cumplimiento S2 no cuenta · 73 sesiones · Termómetro v45
 
 **No publiqué nada en Slack.** Esto es corrección de tablero.
