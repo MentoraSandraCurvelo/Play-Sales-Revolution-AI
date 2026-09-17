@@ -15,6 +15,63 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🔢 17 sep · 16:10 · Cierre del día · 76 sesiones · diez áreas sin fecha · v50
+
+**No publiqué nada en Slack esta tarde.**
+
+### La corrección del día, y es de método
+
+A la 1:00 y a las 2:00 le dije a Sandra que **Jurídica S8 no aparecía** ni en Teams ni en el
+canal, cuatro horas después de su hora. **Era falso.** La grabación existe desde las **11:03 de
+la mañana**.
+
+**Falló el buscador de SharePoint**, no la sesión. Tres búsquedas consecutivas con el mismo
+parámetro devolvieron dos resultados cuando había tres. Ya nos pasó el miércoles a las 4:00 p. m.
+con tres búsquedas vacías seguidas.
+
+**La regla que queda, y es la contraria a la de esta mañana:** así como una grabación no prueba
+una sesión, **la ausencia de una grabación no prueba una ausencia.** El buscador miente en los
+dos sentidos. Hice bien en no darla por caída, pero no debí trasladar la alarma tan pronto: con
+el índice fallando, lo correcto es reintentar más tarde antes de decir nada.
+
+### Sesiones de hoy confirmadas
+
+| Hora | Área | Nota |
+|---|---|---|
+| 8:10 | Tecnología S4 · Olga Lucía | |
+| 10:07 | Jurídica **S8** | la grabación se titula S9, va adelantada otra vez |
+| 15:07 | Comunicaciones S6 · Sandra Arquez | |
+
+**El programa pasa de 73 a 76.**
+
+**Sin confirmar todavía:** Contabilidad S7 de las 2:00, Mercadeo de las 4:00 y la individual de
+Vidiana de las 5:00. Con el buscador como está, **no concluyo nada de las tres hasta mañana.**
+
+### La numeración de Jurídica, otra vez
+
+La grabación de hoy dice **S9**. Por secuencia es la **S8**, porque la de ayer quedó confirmada
+como S7 por su acta, que tú misma corregiste en el canal. **El tablero cuenta la de la fecha, no
+la del título.** Lucía: si publicas acta de esta, va como S8.
+
+### IPS sigue sin clasificar
+
+`⭕️Comfacesar IPS Sesion 3 Danilo Pozo`, 11:01. **No la conté.** El título no dice IAM™
+Intelligence y con esa área ya hubo una confusión de frente el 15. Pendiente de Sandra.
+
+### Lo que más pesa del corte
+
+**Diez de las dieciocho áreas quedan sin una sola fecha tomada.** Eran ocho esta mañana: entran
+**Tecnología** y **Jurídica**, las dos por hacer su sesión y no dejar la siguiente.
+
+Con **doce días hábiles** de programa, es lo único urgente. Y Jurídica está propuesta para
+sustentar ante el Consejo Directivo, con su propia acta pidiendo sesiones individuales para las
+tres personas del área.
+
+**Mañana viernes entran a la cadencia de ocho días**, si no toman fecha: Tesorería, IPS, Agencia
+de Empleo y Vivienda.
+
+---
+
 ## 📩 17 sep · 10:05 · DM de Liliany, no puede agendar · y aparece algo más
 
 **Liliany Gómez escribió al DM de Sandra a las 9:55:** *«He estado intentando agendar, no he
