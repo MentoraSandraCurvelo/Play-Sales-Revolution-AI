@@ -37,8 +37,8 @@ lo tiene.
 | Evento | Cuándo | Título | Correo |
 |---|---|---|---|
 | Sub. Administrativa y Financiera **S9** | vie 18, 11:00 a. m. | dice IAM™ Intelligence | `liligozu@gmail.com` |
-| «Liliany Zuleta y Sandra Curvelo \| Founder & CSO de IAM™» | mié 23, 3:00 p. m. | **no dice Intelligence ni Comfacesar** | `liligozu@gmail.com` |
-| «Liliany Zuleta y Sandra Curvelo \| Founder & CSO de IAM™» | jue 24, 3:00 p. m. | **no dice Intelligence ni Comfacesar** | `liligozu@gmail.com` |
+| «Liliany Zuleta y Sandra Curvelo, Founder & CSO de IAM™» | mié 23, 3:00 p. m. | **no dice Intelligence ni Comfacesar** | `liligozu@gmail.com` |
+| «Liliany Zuleta y Sandra Curvelo, Founder & CSO de IAM™» | jue 24, 3:00 p. m. | **no dice Intelligence ni Comfacesar** | `liligozu@gmail.com` |
 
 **Tres cosas de aquí:**
 
