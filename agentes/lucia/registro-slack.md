@@ -837,3 +837,63 @@ sigue sin poder conectar carpetas. *No es que no se pueda: es que cada área lo 
 **Sobre Dropbox:** Sandra preguntó si yo podía guardar las actas en la carpeta de cada área.
 **No puedo subir PDFs** — el conector solo crea archivos de texto, no binarios. Ella lo sigue
 haciendo. Queda anotado para no volver a ofrecerlo.
+
+---
+
+## 17 de septiembre de 2026 — siete sesiones en un día
+
+El día más cargado del programa. Siete grabaciones, siete actas, siete resúmenes de canal.
+
+| Área | Sesión | Persona | Resumen publicado |
+|---|---|---|---|
+| Tecnología | S4 | Olga Lucía Barros | sí |
+| Jurídica | S8 | Lilibeth Costa | sí |
+| IPS | S3 | Danilo Pozo | sí |
+| Contabilidad | S7 | Carlos Lozano | sí |
+| Mercadeo | S4 | Manuel José Gutiérrez | sí |
+| Comunicaciones | S6 | Sandra Patricia Machado Arquez | `1789688357.530669` |
+| Comunicaciones | S7 | Vidiana Bendeck | `1789688523.177959` |
+
+**Numeración.** Dos correcciones más, por el mismo motivo de siempre: el evento decía *Jurídica
+S9* y es **S8** —lo confirmó Sandra: «SI ES LA 8»—, y el de Mercadeo no traía número; se listaron
+las carpetas del área (S1 13 ago, S2 19 ago, S3 25 ago) y salió como **S4**. *El número lo da el
+registro, nunca el título del evento.*
+
+**Comunicaciones recuperó la sesión caída, y con creces.** No se presentó el lunes 15 y el
+miércoles 17 hizo **dos individuales seguidas**: la S6 con Sandra Patricia Machado —control de
+solicitudes de publicidad, con semaforización a 48 horas— y la S7 con Vidiana Bendeck —el circuito
+de radicación corriendo de extremo a extremo—. Es la caída que se recuperó más rápido del programa.
+**Mercadeo también recuperó su S4.** Ambas quedaron marcadas como recuperadas en
+`cancelaciones.json`.
+
+**Sobre la inasistencia del 15: no se publicó nada en `#comunicaciones`**, conforme a lo que
+Sandra decidió expresamente. Los resúmenes de la S6 y la S7 tampoco la mencionan. *Criterio fijo:
+las inasistencias van a `cancelaciones.json` y al tablero, nunca al canal del área.*
+
+**Lo que cambia la lectura del corte:** de las nueve caídas, **seis ya están recuperadas**
+—Educación, Servicios Sociales (las dos suyas), Tecnología, Mercadeo y Comunicaciones—. Quedan
+tres sin fecha, y son de dos áreas: Sub. Operativa y Comercial, y Cumplimiento (caída dos veces).
+El problema dejó de ser general y quedó concentrado.
+
+**Segundo patrón transversal de la semana: los agentes se caen en la conexión a las cuentas.**
+Cuatro casos de cuenta cruzada —la persona trabaja con una cuenta y el sistema tiene conectada
+otra— y, el 17, el conector de correo desconectado solo en Comunicaciones más la extensión del
+navegador sin instalar. *No es el método. Es la configuración previa, y cuesta veinte minutos de
+mentoría cada vez.*
+
+**Dato del día:** en Comunicaciones, una pieza de diseño que había que pedirle al diseñador y
+entraba en cola —de tres a cuatro días— se hizo en **veinte minutos** con el manual de marca
+interno del área. Y el montaje de la campaña de apropiación pasó de una semana a una jornada.
+**Nada de eso está registrado en el tablero de seguimiento**, que es por lo que el lunes la
+dirección leyó que el área no había avanzado.
+
+**Sincronización de Dropbox.** Nada del 17 apareció por el conector: se verificó con listados en
+vivo carpeta por carpeta, con un ordenamiento del árbol completo por fecha de modificación —lo más
+reciente era del 16 a las 22:21— y con `who_am_i`, que confirma la cuenta y el espacio correctos.
+Sandra sí lo veía desde su equipo. Se trabajó con los `.vtt` que ella envió directamente.
+
+**Tablero actualizado — Versión 12.** 77 sesiones, 13 procesos con ahorro medido, corte al 17 de
+septiembre. Se reescribió la alerta crítica de inasistencias con el dato de las seis recuperadas,
+se actualizó el avance de las 18 áreas, y se añadieron dos bloques nuevos a la sección 07: el
+sistema que se detiene a decir lo que no puede verificar, y la conexión a las cuentas como punto
+de falla real.

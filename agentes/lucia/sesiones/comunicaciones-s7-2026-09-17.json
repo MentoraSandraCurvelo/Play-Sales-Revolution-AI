@@ -1,0 +1,223 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "COMUNICACIONES",
+  "area_completa": "",
+  "sesion_num": 7,
+  "fase": "Proyectos y Sistemas de Trabajo",
+  "fecha": "17 de septiembre de 2026",
+  "fecha_corta": "17 septiembre 2026",
+  "subtitulo_meta": "Individual de Vidiana Bendeck · 17 de septiembre de 2026 · 51 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Comunicaciones — Comfacesar"],
+    ["Sesión", "N° 7 — Individual de Vidiana Bendeck: el circuito de solicitudes, corriendo de extremo a extremo"],
+    ["Fecha", "17 de septiembre de 2026"],
+    ["Duración de la sesión", "51 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Vidiana Bendeck — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "2", "etiqueta": "Revisiones diarias del correo", "detalle": "8:00 a. m. y 3:00 p. m., ya escritas"},
+    {"valor": "20", "etiqueta": "Minutos para una pieza", "detalle": "Antes: de 3 a 4 días en cola"},
+    {"valor": "3", "etiqueta": "Días para la alerta amarilla", "detalle": "El umbral que fijó el área"},
+    {"valor": "2", "etiqueta": "Bloqueos de configuración", "detalle": "Resueltos dentro de la sesión"},
+    {"valor": "0", "etiqueta": "Ejercicios subidos al tablero", "detalle": "Lo que la dirección alcanza a ver"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Vidiana Bendeck", "cargo": "Profesional de Comunicaciones — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 7. El circuito de solicitudes corrió de extremo a extremo por primera vez, y al hacerlo quedó claro qué lo tenía detenido: no era el sistema, era lo que faltaba por escribirle y por configurar.",
+  "riesgos": [
+    {
+      "titulo": "El sistema estaba detenido por falta de instrucción, no por falla",
+      "nivel": "MEDIO",
+      "descripcion": "Entraba al correo y leía las solicitudes, **pero no respondía** — porque nunca se le escribió ni la cadencia ni el paso de respuesta. _La lectura de la sesión fue precisa:_ **no dejó de hacerlo, se quedó parado porque no sabía para dónde seguir.** Un proyecto es un asistente: ejecuta lo que está escrito, y solo eso.",
+      "responsable": "Vidiana Bendeck / Resuelto en sesión"
+    },
+    {
+      "titulo": "Dos configuraciones tenían bloqueado el circuito",
+      "nivel": "ALTO",
+      "descripcion": "La **extensión del navegador no estaba instalada** y el **conector del correo se había desconectado**. Ninguna de las dos es un problema de método — pero con cualquiera de las dos caída, el circuito no arranca. _Es el mismo punto de falla que apareció en cuatro áreas esta semana._",
+      "responsable": "Vidiana Bendeck / Resuelto en sesión"
+    },
+    {
+      "titulo": "El listado de áreas solicitantes sigue sin cargarse",
+      "nivel": "MEDIO",
+      "descripcion": "_Quedó como compromiso en la Sesión 5 y no se hizo._ **Sin ese listado el sistema no tiene contra qué comparar** cuando clasifica una solicitud por área — que es justo la segmentación que el tablero necesita.",
+      "responsable": "Vidiana Bendeck / Esta semana"
+    },
+    {
+      "titulo": "El área no ha reportado sus ejercicios en el tablero de seguimiento",
+      "nivel": "ALTO",
+      "descripcion": "_La encuesta está contestada; los ejercicios no._ **La consecuencia ya ocurrió: en el corte del lunes la dirección leyó que Comunicaciones no había avanzado.** El área tiene un circuito corriendo, una pieza de diseño resuelta en veinte minutos y un sistema de encuestas construido — _y nada de eso está registrado._",
+      "responsable": "Vidiana Bendeck / Inmediato"
+    },
+    {
+      "titulo": "El proyecto se trabaja a saltos, no entre sesiones",
+      "nivel": "MEDIO",
+      "descripcion": "_Se dijo con todas las letras al cierre:_ **no dejar morir el proyecto entre una sesión y otra.** Cuando ambas partes llegan en frío, la sesión se gasta en reconstruir dónde quedó el circuito en lugar de avanzarlo.",
+      "responsable": "Vidiana Bendeck / Permanente"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Registrar los ejercicios en el tablero de seguimiento",
+      "descripcion": "**La pieza de diseño que pasó de días a veinte minutos, el circuito de solicitudes y el sistema de encuestas.** Es lo único que hace visible el avance del área ante la dirección, y se revisa a diario.",
+      "responsable": "Vidiana Bendeck",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "02",
+      "nivel": "MEDIO",
+      "titulo": "Cargar el listado de áreas solicitantes al proyecto",
+      "descripcion": "Pendiente desde la Sesión 5. **Es lo que le da al sistema contra qué comparar** al clasificar una solicitud por área.",
+      "responsable": "Vidiana Bendeck",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "03",
+      "nivel": "MEDIO",
+      "titulo": "Revisar el tablero generado y modelarlo",
+      "descripcion": "Quedó en construcción al cierre. _Revisar qué indicadores eligió el sistema por su cuenta_, ajustar lo que falte y confirmar el histórico desde el 1 de septiembre.",
+      "responsable": "Vidiana Bendeck",
+      "plazo": "Antes de la S8"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Personalizar el saludo de la respuesta automática",
+      "descripcion": "En la prueba salió un saludo genérico. **Debe tomar el nombre de quien envía la solicitud**, que es como responde el área.",
+      "responsable": "Vidiana Bendeck",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Dejar corriendo el circuito y verificar el resultado mañana",
+      "descripcion": "Ya está enganchado al correo y al consecutivo. _Verificar al día siguiente qué radicó, qué respondió y qué guardó_ — esa verificación es parte del ejercicio.",
+      "responsable": "Vidiana Bendeck",
+      "plazo": "Diario"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Lo que faltaba escribir",
+      "duracion": "~12 min",
+      "objetivo": "Encontrar por qué el circuito se detenía a mitad de camino.",
+      "pasos": [
+        "_El síntoma:_ el sistema entraba al correo, leía las solicitudes pendientes y las descargaba, **pero no respondía ninguna** — y además hacía cosas que nadie le había pedido",
+        "**La causa apareció al revisar el acta de la sesión anterior:** no se le había escrito la cadencia ni el paso de respuesta. _Y así se usó el acta en vivo, como control de trabajo:_ de los tres compromisos de la S5, dos estaban hechos y el listado de áreas solicitantes seguía pendiente",
+        "**Se escribió la cadencia:** ingresar al correo todos los días, **una vez a las 8:00 a. m. y una vez a las 3:00 p. m.**, a revisar las solicitudes que llegaron",
+        "**Y el paso que faltaba:** ir al consecutivo de solicitudes en la nube, tomar el número que corresponde, diligenciarlo y responder el correo con asunto genérico y el cuerpo que ya usa el área — _solicitud recibida y radicada con su número de consecutivo, y los productos se entregan cuando estén listos_"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El circuito completo, corriendo en vivo",
+      "duracion": "~18 min",
+      "objetivo": "Probar el sistema de punta a punta sobre el correo real.",
+      "pasos": [
+        "**Primero hubo que destrabar dos configuraciones:** la extensión del navegador no estaba instalada, y el conector del correo se había desconectado a mitad de sesión. _Sin ninguna de las dos el circuito no arranca_ — y ese es un punto de falla que se repitió en varias áreas esta semana",
+        "Con eso resuelto, **entró al correo en vivo** y el monitor del proyecto fue mostrando cada paso: qué leía, qué descargaba y qué entregaba",
+        "**Reportó que hoy no habían llegado solicitudes nuevas** — _y eso era cierto, se verificó contra el correo_. Tomó entonces la última del consecutivo, la leyó, la analizó y devolvió los hallazgos",
+        "_Y quedó comprobado algo más:_ una respuesta enviada durante las pruebas del 11 de septiembre **sí había salido al área**, con su radicado. Se verificó abriendo el correo original",
+        "**La corrección que quedó:** el saludo salió genérico. Debe tomar el nombre de quien envía la solicitud"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El tablero de control de solicitudes",
+      "duracion": "~12 min",
+      "objetivo": "Pasar del circuito a los indicadores de gestión.",
+      "pasos": [
+        "**Semaforización acordada:** crítico lo vencido, **amarillo lo que esté a tres días de vencer** —el umbral lo fijó el área—, y verde lo ejecutado",
+        "**Histórico desde el 1 de septiembre de 2026**, con segmentación por fecha, tipo, número de radicado y área solicitante",
+        "**Y un ejercicio deliberado:** no se le dictaron los indicadores. _Se le pidió que mostrara cuáles serían los principales KPI_, para ver qué propone por su cuenta sobre los datos reales",
+        "Gráficas de barras y de torta, dinámicas, con análisis de los principales hallazgos dentro del mismo tablero, más logo, fecha de corte y autoría",
+        "_Leyó los datos reales del repositorio y quedó construyéndolo al cierre de la sesión_ — la revisión queda para la próxima"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Lo que el área trajo hecho",
+      "duracion": "~9 min",
+      "objetivo": "Revisar el trabajo entre sesiones.",
+      "pasos": [
+        "**Un sistema de encuestas construido con el método CREA**, para medir percepción de campañas y canales de comunicación. Entrega el formulario y la hoja de resultados con su análisis, y quedó enlazado al repositorio del área. _Aún sin aplicar_",
+        "**Se conectó por fin el equipo con la carpeta de trabajo** — el punto que venía frustrando al área desde sesiones anteriores. _Lo resolvió por su cuenta, preguntándole al sistema y buscando el procedimiento_",
+        "**Y una pieza de diseño hecha con el manual de marca interno del área.** _Este es el dato de la sesión:_ antes había que solicitarla al diseñador y entraba en cola — **de tres a cuatro días.** Esta se hizo en **veinte minutos**",
+        "_Criterio de orden que quedó dicho:_ todo dentro de proyectos, nada de conversaciones sueltas"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 7 · 17 septiembre 2026",
+      "titulo": "El circuito de solicitudes, de extremo a extremo",
+      "descripcion": "Revisa el correo dos veces al día a hora fija, toma la solicitud, la radica en el consecutivo y **responde al área con su número de radicado**. Corrió completo en vivo sobre el correo real. _Es el primer circuito del área que cierra el ciclo sin intervención en cada paso._",
+      "estado": "Funcionando",
+      "proximo_paso": "Verificar el resultado del día siguiente",
+      "target": "Diario"
+    },
+    {
+      "encabezado": "AHORRO MEDIDO · SESIÓN 7 · 17 septiembre 2026",
+      "titulo": "Una pieza de diseño, de días a veinte minutos",
+      "descripcion": "La pieza había que pedírsela al diseñador y entraba en cola: **de tres a cuatro días, y sin depender del área.** Hecha con el manual de marca interno, salió en **veinte minutos**. _Es un ahorro de tiempo y, sobre todo, de dependencia._",
+      "estado": "Medido",
+      "proximo_paso": "Registrarlo en el tablero de seguimiento",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "EN CONSTRUCCIÓN · SESIÓN 7 · 17 septiembre 2026",
+      "titulo": "El tablero de indicadores del proceso",
+      "descripcion": "Semaforización por vencimiento, histórico desde el 1 de septiembre, segmentación por fecha, tipo, radicado y área. **Se le dejó al sistema elegir los indicadores** para ver qué propone sobre los datos reales del área.",
+      "estado": "Generándose",
+      "proximo_paso": "Revisarlo y modelarlo",
+      "target": "Sesión 8"
+    },
+    {
+      "encabezado": "PRÓXIMO DESTINO · SESIÓN 7 · 17 septiembre 2026",
+      "titulo": "Del asistente al primer agente",
+      "descripcion": "_Se explicó la diferencia y quedó puesto el horizonte:_ **un proyecto es un asistente —ejecuta lo que se le escribe—; un agente recibe un circuito y lo corre solo.** Con tres o cuatro sesiones más de ejercicios, el área está en condiciones de construir el suyo.",
+      "estado": "Por construir",
+      "proximo_paso": "Agendar las sesiones",
+      "target": "Octubre"
+    }
+  ],
+  "tareas_intro": "El circuito corrió completo. Lo que falta es sostenerlo entre sesiones y dejar registrado lo que el área ya hizo.",
+  "tareas": [
+    {"tarea": "Registrar los ejercicios en el tablero de seguimiento: la pieza de diseño, el circuito y las encuestas", "responsable": "Vidiana Bendeck", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Cargar al proyecto el listado de áreas solicitantes", "responsable": "Vidiana Bendeck", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Personalizar el saludo de la respuesta con el nombre de quien envía la solicitud", "responsable": "Vidiana Bendeck", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Revisar el tablero generado, verificar el histórico y modelarlo", "responsable": "Vidiana Bendeck", "prioridad": "MEDIA", "plazo": "Antes de la S8"},
+    {"tarea": "Dejar corriendo el circuito y verificar cada día qué radicó y qué respondió", "responsable": "Vidiana Bendeck", "prioridad": "ALTA", "plazo": "Diario"},
+    {"tarea": "Agendar las sesiones de la semana y trabajar el proyecto entre una y otra", "responsable": "Vidiana Bendeck", "prioridad": "ALTA", "plazo": "Inmediato"}
+  ],
+  "observaciones": [
+    "**El circuito de solicitudes corrió completo por primera vez:** entra al correo a hora fija, toma la solicitud, la radica en el consecutivo y responde al área con su número. _Se probó en vivo sobre el correo real y funcionó._",
+    "_Pero lo que más deja esta sesión es el diagnóstico de por qué estaba detenido._ El sistema leía las solicitudes y no respondía ninguna. **No era una falla: era que nunca se le escribió la cadencia ni el paso de respuesta.** Un proyecto es un asistente — hace lo que está escrito, y solo eso. Se quedó parado porque no sabía para dónde seguir.",
+    "**Y el hallazgo apareció revisando el acta de la sesión anterior, en vivo.** _Ese es el uso que hay que subrayar:_ el acta funcionando como control de trabajo. De los tres compromisos de la Sesión 5, dos estaban hechos y uno seguía pendiente — el listado de áreas solicitantes, que es justo lo que le falta al sistema para clasificar por área.",
+    "**Antes de arrancar hubo que destrabar dos configuraciones:** la extensión del navegador sin instalar y el conector del correo desconectado. _Ninguna de las dos es un problema de método_, pero con cualquiera de las dos caída el circuito no existe. **Es el mismo punto de falla que apareció en cuatro áreas distintas esta semana** — y es transversal, no de un área.",
+    "_El área llegó con trabajo hecho, y conviene decirlo:_ un sistema de encuestas de percepción construido con el método, la conexión del equipo con la carpeta de trabajo resuelta por su cuenta —el punto que la venía frustrando—, y **una pieza de diseño hecha con el manual de marca interno en veinte minutos, cuando pedírsela al diseñador tomaba de tres a cuatro días.**",
+    "**Ese último dato es el más importante del área y no está registrado en ninguna parte.** Tampoco el circuito, ni las encuestas. _En el corte del lunes la dirección leyó que Comunicaciones no había avanzado._ No es cierto — pero es lo único que hay a la vista.",
+    "_Quedó dicho al cierre y aplica a todo el programa:_ **no dejar morir el proyecto entre sesión y sesión.** Cuando se llega en frío, la sesión se gasta en reconstruir dónde quedó el circuito en vez de avanzarlo."
+  ],
+  "proxima_sesion": {
+    "sesion": "Comunicaciones — Sesión 8",
+    "condiciones": [
+      "El circuito verificado con al menos un día de operación real",
+      "El listado de áreas solicitantes cargado",
+      "El tablero revisado y modelado",
+      "Los ejercicios registrados en el tablero de seguimiento"
+    ],
+    "agenda": [
+      "Revisión del tablero de indicadores con datos reales",
+      "El tablero en tiempo real aplicado al sistema de encuestas",
+      "Ajustes finos del circuito de respuesta",
+      "Preparación del primer agente del área"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 17 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

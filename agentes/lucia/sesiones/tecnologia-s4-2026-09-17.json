@@ -1,0 +1,223 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "TECNOLOGÍA",
+  "area_completa": "",
+  "sesion_num": 4,
+  "fase": "Proyectos y Sistemas de Trabajo",
+  "fecha": "17 de septiembre de 2026",
+  "fecha_corta": "17 septiembre 2026",
+  "subtitulo_meta": "Individual de Olga Lucía Barros Zuleta · 17 de septiembre de 2026 · 47 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Tecnología — Comfacesar"],
+    ["Sesión", "N° 4 — Individual de Olga Lucía Barros: el control de vigencia de contratos con sistema de alertas"],
+    ["Fecha", "17 de septiembre de 2026"],
+    ["Duración de la sesión", "47 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Olga Lucía Barros Zuleta — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "7", "etiqueta": "Contratos bajo control", "detalle": "La base del tablero construido"},
+    {"valor": "4", "etiqueta": "Contratos vencidos", "detalle": "Detectados en la primera corrida"},
+    {"valor": "1", "etiqueta": "Discrepancia reportada", "detalle": "Entre archivos, antes de construir nada"},
+    {"valor": "0", "etiqueta": "Conectores activos al empezar", "detalle": "Se configuraron en sesión"},
+    {"valor": "4", "etiqueta": "Sesiones hasta el agente", "detalle": "La ruta quedó trazada"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Olga Lucía Barros Zuleta", "cargo": "Tecnología — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 4. El área construyó su primer tablero con alertas y en la primera corrida apareció el estado real de sus contratos. Lo que sigue abierto no es del método: es una conversación que todavía no se ha podido tener.",
+  "riesgos": [
+    {
+      "titulo": "Cuatro contratos de tecnología figuran vencidos",
+      "nivel": "ALTO",
+      "descripcion": "Es lo que arrojó la primera corrida sobre el control real: de siete contratos, **cuatro aparecen vencidos, ninguno próximo a vencer y tres vigentes**. _Es exactamente el problema que motivó el ejercicio_ — el propio puesto lo describió antes de empezar: los trámites de renovación tienen su tiempo y a veces la fecha se pasa. Hay que verificar uno a uno contra los contratos antes de concluir.",
+      "responsable": "Olga Lucía Barros / Esta semana"
+    },
+    {
+      "titulo": "Hay una discrepancia de fechas entre los archivos del área",
+      "nivel": "ALTO",
+      "descripcion": "El sistema revisó los tres archivos de control y **se detuvo antes de construir nada** para advertir que la fecha de terminación de un contrato no coincide entre ellos, y preguntó con cuál trabajar. _No fue un error de cálculo:_ encontró que la misma información vive en varios sitios y no dice lo mismo en todos. Se trabajó con el archivo verificado contra órdenes de compra y servicio, pero **la discrepancia sigue ahí.**",
+      "responsable": "Olga Lucía Barros / Esta semana"
+    },
+    {
+      "titulo": "La solicitud de conectar los tableros al software de la Caja no ha tenido espacio de escucha",
+      "nivel": "ALTO",
+      "descripcion": "Es el punto que el corte anterior dejó abierto y **sigue sin resolverse**: cuatro áreas construyen tableros que hoy se alimentan descargando reportes a mano. _Lo que se pide no es una decisión, es una reunión para explicar el alcance._ Hasta ahora la respuesta que ha llegado —de manera informal y antes de conocer el proyecto— ha sido negativa. **El argumento técnico conviene dejarlo escrito:** hoy las áreas ya descargan esa información y la llevan a otros archivos; conectar el tablero no amplía el acceso, lo ordena y lo deja trazable.",
+      "responsable": "Dirección de Tecnología / Esta semana"
+    },
+    {
+      "titulo": "El entorno estaba sin ningún conector activo",
+      "nivel": "MEDIO",
+      "descripcion": "Al intentar programar las alertas por correo apareció que **no había nada conectado** — ni correo, ni unidad de archivos, ni mensajería. Se configuró todo en sesión, pero se fue en ello una parte del tiempo. _La lección queda para las demás áreas:_ la configuración se revisa antes de empezar los ejercicios, no en mitad de uno.",
+      "responsable": "Olga Lucía Barros / Permanente"
+    },
+    {
+      "titulo": "La información de los contratos se transcribe a mano desde los PDF",
+      "nivel": "MEDIO",
+      "descripcion": "El control se alimenta manualmente leyendo los contratos guardados en carpetas del computador. _Es el trabajo que el agente debería hacer_, y es también donde se originan las discrepancias entre archivos.",
+      "responsable": "Olga Lucía Barros / Octubre"
+    },
+    {
+      "titulo": "El área sigue sin registrar su avance en el tablero de seguimiento",
+      "nivel": "MEDIO",
+      "descripcion": "Viene señalado desde el corte anterior y **no se ha corregido**. Tecnología tiene ejercicios funcionando y cero registros. _El trabajo que no se documenta existe, pero no se puede defender_ — y el tablero de seguimiento es lo que sustenta la presentación de cierre.",
+      "responsable": "Olga Lucía Barros / Permanente"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Verificar los cuatro contratos vencidos",
+      "descripcion": "Uno a uno contra el contrato original. Si la cifra se confirma, son renovaciones pendientes de gestión, no un dato del tablero.",
+      "responsable": "Olga Lucía Barros",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Resolver la discrepancia de fechas entre archivos",
+      "descripcion": "Definir cuál es la fuente única del control y dejar de mantener la misma información en varios sitios.",
+      "responsable": "Olga Lucía Barros",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Gestionar el espacio de reunión sobre la conexión de los tableros",
+      "descripcion": "**Media hora para explicar el alcance antes de decidir.** Cuatro áreas dependen de esa conversación para que sus tableros dejen de alimentarse a mano.",
+      "responsable": "Olga Lucía Barros + Dirección de Tecnología",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Probar el envío de alertas por correo",
+      "descripcion": "El conector quedó activo al final de la sesión. Falta comprobar que la notificación llega al correo institucional.",
+      "responsable": "Olga Lucía Barros",
+      "plazo": "Antes de la S5"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Seguir modelando el tablero",
+      "descripcion": "Ajustar la semaforización al formato que el puesto quiere ver y verificar que las fórmulas respondan al agregar un contrato nuevo.",
+      "responsable": "Olga Lucía Barros",
+      "plazo": "Antes de la S5"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Registrar el avance en el tablero de seguimiento",
+      "descripcion": "Pendiente desde el corte anterior. El área figura hoy con cero tareas documentadas.",
+      "responsable": "Olga Lucía Barros",
+      "plazo": "Esta semana"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El proyecto, escrito con el método CREA",
+      "duracion": "~15 min",
+      "objetivo": "Dejar el proceso mapeado antes de pedir nada.",
+      "pasos": [
+        "_El caso lo trajo el puesto:_ los contratos de servicios tecnológicos tienen vigencias distintas y dispersas a lo largo del año, y el trámite de renovación toma tiempo. **Cuando una fecha se pasa, no hay margen**",
+        "**Contexto:** un archivo de control que se alimenta a mano con la información tomada de los contratos en PDF, guardados en carpetas del computador; contiene las fechas de terminación de contratos y de órdenes de servicio y compra; se revisa cada quince días",
+        "_Y aquí la corrección de método más útil de la sesión:_ el contexto es el presente, no el deseo. Lo que se quisiera lograr va en la acción. **Mapear un proceso es decir de dónde viene la información, dónde vive y cada cuánto se toca** — paso a paso, no en resumen",
+        "**Rol:** «actúa como el mejor auditor para los contratos de tecnología en cajas de compensación». _El criterio que queda:_ el rol no es el cargo de quien pregunta ni su profesión — **es la tarea específica que se quiere que ejecute**",
+        "**Entrega:** un reporte de alertas dentro del propio archivo, con un mes de anticipación al vencimiento",
+        "**Acción:** notificación al correo institucional y al computador, con semaforización por criticidad"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Lo que el sistema encontró antes de construir",
+      "duracion": "~10 min",
+      "objetivo": "Conectar la carpeta real y revisar lo que hay.",
+      "pasos": [
+        "Se conectó la carpeta de trabajo desde el escritorio. _Primera comprobación, siempre:_ preguntarle si puede leer los archivos, antes de pedirle nada",
+        "Revisó los tres archivos de control del área e identificó cuál es el más completo — el que ya está verificado contra las órdenes de compra y servicio, con siete contratos",
+        "**Y se detuvo a advertir algo:** la fecha de terminación de un contrato **no coincide entre archivos**. Preguntó con cuál trabajar en lugar de elegir por su cuenta",
+        "_Ese comportamiento es el que hace confiable el resultado:_ no encontró un error de cálculo, encontró que la misma información vive en varios sitios y no dice lo mismo",
+        "_Al querer programar las alertas por correo apareció el segundo hallazgo:_ **el entorno no tenía ningún conector activo.** Se configuraron en sesión el correo, la unidad de archivos y la mensajería"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El tablero de alertas",
+      "duracion": "~20 min",
+      "objetivo": "Convertir el control manual en un tablero que se actualiza solo.",
+      "pasos": [
+        "Entregó una hoja nueva de tablero que queda de primera al abrir el archivo: cuatro tarjetas de resumen —vencidos, próximos a vencer, vigentes y total— y una frase de alerta automática",
+        "Debajo, la tabla de los siete contratos con **semáforo, fecha de terminación, días restantes, estado y columna de acción requerida**",
+        "**Lo importante es cómo quedó hecho:** son fórmulas en vivo que leen la hoja de control tal como el puesto la sigue alimentando. _Si cambia una fecha o se agrega un contrato, el tablero se actualiza solo_ — y quedó dimensionado para hasta sesenta contratos",
+        "_Y conservó lo que ya existía:_ los comentarios propios y el formato condicional que el archivo traía",
+        "**El estado real que arrojó con el parámetro acordado:** cuatro contratos vencidos, ninguno próximo a vencer y tres vigentes",
+        "_Apareció un error y con él el método para corregirlo:_ la semaforización salió mal en una columna. **Se le envió una captura del error** — el sistema identificó la causa, simplificó la regla y lo corrigió en la siguiente corrida. _Cuando algo falla, se le muestra el fallo_"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 4 · 17 septiembre 2026",
+      "titulo": "El control de vigencia contractual con alertas automáticas",
+      "descripcion": "Lo que hoy se revisa cada quince días a ojo pasa a ser un tablero que se actualiza solo y avisa un mes antes de cada vencimiento. **El objetivo no es ahorrar tiempo: es que no se venza un contrato sin que nadie se entere** — que es lo que el propio puesto describió como riesgo antes de empezar.",
+      "estado": "Primera versión construida",
+      "proximo_paso": "Verificar los vencidos y activar el aviso por correo",
+      "target": "Sesión 5"
+    },
+    {
+      "encabezado": "HALLAZGO DE FUENTE · SESIÓN 4 · 17 septiembre 2026",
+      "titulo": "La misma información de contratos vive en varios archivos y no coincide",
+      "descripcion": "El sistema lo reportó antes de construir nada. _Es el mismo patrón que apareció esta semana en otras áreas:_ el problema no está en la herramienta, está en el insumo. Definir una fuente única es lo que hace confiable cualquier control posterior.",
+      "estado": "Por resolver",
+      "proximo_paso": "Elegir el archivo maestro",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "OPORTUNIDAD BLOQUEADA · SESIÓN 4 · 17 septiembre 2026",
+      "titulo": "Conectar los tableros de las áreas al software de la Caja",
+      "descripcion": "**Cuatro áreas construyen tableros que hoy se alimentan descargando reportes a mano.** Lo que se pide no es una decisión: es una reunión para explicar el alcance. El argumento merece escucharse — hoy esa información ya se descarga y se lleva a otros archivos, así que conectar el tablero no amplía el acceso: lo ordena y lo hace trazable.",
+      "estado": "Sin espacio de reunión",
+      "proximo_paso": "Gestionar media hora de conversación",
+      "target": "Esta semana"
+    }
+  ],
+  "tareas_intro": "El área construyó su primer tablero con alertas y en la primera corrida apareció el estado real de sus contratos. Lo que sigue es verificarlo y desbloquear la conversación que lleva dos cortes pendiente.",
+  "tareas": [
+    {"tarea": "Verificar los cuatro contratos que figuran vencidos", "responsable": "Olga Lucía Barros", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Definir la fuente única del control y resolver la discrepancia de fechas", "responsable": "Olga Lucía Barros", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Gestionar la reunión sobre la conexión de los tableros al software de la Caja", "responsable": "Olga Lucía Barros + Dirección de Tecnología", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Probar que la alerta llegue al correo institucional", "responsable": "Olga Lucía Barros", "prioridad": "MEDIA", "plazo": "Antes de la S5"},
+    {"tarea": "Seguir modelando el tablero hasta que quede como el área lo quiere ver", "responsable": "Olga Lucía Barros", "prioridad": "MEDIA", "plazo": "Antes de la S5"},
+    {"tarea": "Registrar el avance en el tablero de seguimiento — pendiente desde el corte anterior", "responsable": "Olga Lucía Barros", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Agendar dos sesiones para la próxima semana", "responsable": "Olga Lucía Barros", "prioridad": "ALTA", "plazo": "Inmediato"}
+  ],
+  "observaciones": [
+    "El área llegó con trabajo hecho por su cuenta: se puso a construir sus propios manuales pidiéndole al sistema que le enseñara desde el nivel más básico, y avanzó por interés propio hacia temas de maquetación y desarrollo. _Ese tipo de exploración no estaba en ninguna tarea asignada_, y es lo que explica que la sesión pudiera ir directo al ejercicio.",
+    "**El tablero de alertas quedó construido y funcionando**, y conviene precisar por qué es distinto de un reporte: son fórmulas en vivo que leen la hoja que el puesto ya alimenta. _No hay que volver a pedirlo._ Si cambia una fecha o entra un contrato nuevo, el tablero se actualiza solo — y quedó dimensionado para sesenta contratos.",
+    "**Pero lo que importa de verdad es lo que mostró en la primera corrida: de siete contratos, cuatro figuran vencidos.** Ese es justamente el riesgo que el propio puesto describió antes de empezar —que el trámite de renovación toma tiempo y a veces la fecha se pasa—. La cifra hay que verificarla una a una, pero si se confirma, deja de ser un ejercicio.",
+    "_Y antes de construir nada, el sistema se detuvo a advertir otra cosa:_ **la fecha de terminación de un contrato no coincide entre los archivos de control del área.** Preguntó con cuál trabajar en lugar de elegir. Es el mismo comportamiento que apareció esta semana en otras tres áreas, y el mismo hallazgo de fondo: _el problema no estaba en la herramienta, estaba en el insumo._",
+    "Vale registrar también el método de corrección, porque es simple y se puede aplicar en cualquier área: la semaforización salió mal en una columna, **se le envió una captura de la pantalla con el error**, y el sistema identificó la causa, simplificó la regla y lo corrigió. _Cuando algo no sale como se pidió, se le muestra el fallo en vez de describirlo._",
+    "Una parte de la sesión se fue en algo que no debería haber costado tiempo: **el entorno no tenía ningún conector activo.** Sin eso no hay aviso por correo, ni acceso a los archivos, ni automatización posible. Quedó configurado, y la lección sirve para las demás áreas — _la configuración se revisa antes de empezar los ejercicios, no en mitad de uno._",
+    "**Y queda abierto, por segundo corte consecutivo, el punto que más afecta a otras áreas:** la solicitud de una reunión para explicar la conexión de los tableros con el software de la Caja. No se ha concedido el espacio, y la respuesta que ha llegado por vía informal fue negativa antes de conocer el alcance. _El argumento técnico conviene dejarlo escrito:_ hoy esas áreas ya descargan la información y la llevan a otros archivos por su cuenta; **conectar el tablero no amplía el acceso a los datos — lo ordena y lo hace trazable.** Lo que se pide no es una aprobación: es media hora para explicarlo.",
+    "La ruta hasta el agente quedó trazada en cuatro pasos: conectar el correo —hecho al cierre de esta sesión—, construir el tablero interactivo con indicadores, un ejercicio de diseño, y finalmente el agente que recorra el circuito completo. El área quedó de agendar dos sesiones para la próxima semana."
+  ],
+  "proxima_sesion": {
+    "sesion": "Tecnología — Sesión 5",
+    "condiciones": [
+      "Los cuatro contratos vencidos verificados",
+      "La fuente única del control definida",
+      "El aviso por correo probado",
+      "El tablero modelado al gusto del área"
+    ],
+    "agenda": [
+      "El tablero interactivo con indicadores",
+      "El envío automático de las alertas",
+      "Preparación del circuito para el agente",
+      "Seguimiento a la conexión con el software de la Caja"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 17 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

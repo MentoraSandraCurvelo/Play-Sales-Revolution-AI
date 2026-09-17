@@ -100,10 +100,11 @@
       "motivo": "Manuel José no se presentó. Sandra esperó y canceló.",
       "causa": "inasistencia — no ingresó a la sala",
       "aviso_en_canal": null,
-      "reagendada": false,
-      "compromiso": null,
+      "reagendada": true,
+      "compromiso": "Recuperada. La S4 se hizo el 17 de septiembre como individual con Manuel José Gutiérrez.",
       "cuenta_como": "cancelada",
-      "nota": "Segunda inasistencia del mismo día, después de Sub. Operativa a las 3:00 p. m. El área va en S3: 13 y 19 de agosto, y el 25 dos individuales —Rina y María Isabel, y Manuel José— que se contaron como una sola sesión. Era el primer espacio de Mercadeo en dos semanas."
+      "nota": "Segunda inasistencia del mismo día, después de Sub. Operativa a las 3:00 p. m. El área va en S3: 13 y 19 de agosto, y el 25 dos individuales —Rina y María Isabel, y Manuel José— que se contaron como una sola sesión. Era el primer espacio de Mercadeo en dos semanas. Recuperada el 17 de septiembre, ocho días después, en formato individual.",
+      "nueva_fecha": "2026-09-17"
     },
     {
       "area": "Comunicaciones",
@@ -115,10 +116,11 @@
       "motivo": "No se presentó nadie y no avisaron. Sandra esperó y canceló el evento a las 10:14 a. m., catorce minutos después de la hora de inicio.",
       "causa": "inasistencia — no ingresó a la sala",
       "aviso_en_canal": "No. Sandra decidió expresamente el 16 de septiembre que no se publique nada en el canal por esta inasistencia.",
-      "reagendada": false,
-      "compromiso": null,
+      "reagendada": true,
+      "compromiso": "Recuperada. La S6 se hizo el 17 de septiembre como individual con Sandra Patricia Machado Arquez, y ese mismo día se hizo además la S7 con Vidiana Bendeck.",
       "cuenta_como": "cancelada",
-      "nota": "Cuarta inasistencia del programa y la más difícil de explicar: el área venía de una S5 el 9 de septiembre donde puso a correr la revisión de solicitudes con una sola línea de instrucción, y es una de las que aparece en el corte entregado a la contraparte. La cita la reservó el 7 de septiembre con cuatro invitados del área —profesionalcomunicaciones@, profesionalcomunicaciones2@, diseno@ y web@—; no entró ninguno. Al cancelarse en Calendly el evento sale de Outlook, por eso ya no aparece en el calendario del día."
+      "nota": "Cuarta inasistencia del programa y la más difícil de explicar: el área venía de una S5 el 9 de septiembre donde puso a correr la revisión de solicitudes con una sola línea de instrucción, y es una de las que aparece en el corte entregado a la contraparte. La cita la reservó el 7 de septiembre con cuatro invitados del área —profesionalcomunicaciones@, profesionalcomunicaciones2@, diseno@ y web@—; no entró ninguno. Al cancelarse en Calendly el evento sale de Outlook, por eso ya no aparece en el calendario del día. Recuperada el 17 de septiembre: el área hizo ese día dos sesiones individuales seguidas, la S6 y la S7. Es la caída que se recuperó más rápido del programa.",
+      "nueva_fecha": "2026-09-17"
     },
     {
       "area": "Cumplimiento",
@@ -138,10 +140,10 @@
   ],
   "patron": {
     "detectado": "2026-09-01",
-    "que_pasa": "Nueve sesiones caídas en cuatro semanas. Cuatro son inasistencias sin aviso —Servicios Sociales el 3 de septiembre, Sub. Operativa y Mercadeo el miércoles 9, y Comunicaciones el lunes 15—. Las otras cinco son cancelaciones: Educación y Tecnología el 31 de agosto, Cumplimiento el 2 de septiembre, la cita médica de Servicios Sociales el 8, y Cumplimiento otra vez el 16.",
-    "por_que_importa": "Cumplimiento es el caso que más conviene mirar: se le cayó la S2 el 2 de septiembre, la contraparte aprobó un relevo de representantes para destrabarla, y **la primera sesión agendada después del relevo también se cayó**. El nombramiento no resolvió el problema — lo trasladó. Y de las nueve caídas, cuatro son salas donde no entró nadie. Quedan seis semanas y el cierre de octubre es por área.",
+    "que_pasa": "Nueve sesiones caídas en cinco semanas. Cuatro son inasistencias sin aviso —Servicios Sociales el 3 de septiembre, Sub. Operativa y Mercadeo el miércoles 9, y Comunicaciones el lunes 15—. Las otras cinco son cancelaciones: Educación y Tecnología el 31 de agosto, Cumplimiento el 2 de septiembre, la cita médica de Servicios Sociales el 8, y Cumplimiento otra vez el 16.",
+    "por_que_importa": "Con seis de nueve caídas recuperadas, el problema deja de ser general y queda concentrado en dos áreas. Cumplimiento es el caso que más conviene mirar: se le cayó la S2 el 2 de septiembre, la contraparte aprobó un relevo de representantes para destrabarla, y **la primera sesión agendada después del relevo también se cayó**. El nombramiento no resolvió el problema — lo trasladó. Sub. Operativa lleva desde el 9 de septiembre sin volver, y su última sesión fue buena. Quedan seis semanas y el cierre de octubre es por área.",
     "a_quien_toca": "María Elvira Marulanda — es quien puede pedir que el espacio del programa se respete como cualquier otro compromiso institucional.",
-    "actualizado": "2026-09-16",
-    "recuperadas": "De las nueve caídas solo Educación S3 se reagendó; Tecnología retomó por vía propia el 11 de septiembre y Servicios Sociales recuperó su S6 el 10. Siguen sin fecha nueva: Sub. Operativa S3, Mercadeo S4, Comunicaciones S6 y Cumplimiento S2 —esta última, dos veces."
+    "actualizado": "2026-09-17",
+    "recuperadas": "Seis de las nueve caídas ya se recuperaron: Educación S3 el 7 de septiembre, Servicios Sociales el 10 —que cierra las dos suyas, la del 3 y la del 8—, Tecnología el 11 por vía propia, y el 17 de septiembre, en el mismo día, Mercadeo S4 y Comunicaciones S6. Quedan tres sin fecha nueva: Sub. Operativa S3 y Cumplimiento S2, esta última caída dos veces. El dato cambia la lectura: la mayoría de las áreas sí vuelve."
   }
 }

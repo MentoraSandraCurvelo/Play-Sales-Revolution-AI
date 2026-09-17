@@ -1,0 +1,223 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "CONTABILIDAD",
+  "area_completa": "",
+  "sesion_num": 7,
+  "fase": "Sistemas de Trabajo Agénticos",
+  "fecha": "17 de septiembre de 2026",
+  "fecha_corta": "17 septiembre 2026",
+  "subtitulo_meta": "Individual de Carlos Lozano · 17 de septiembre de 2026 · 54 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Contabilidad — Comfacesar"],
+    ["Sesión", "N° 7 — Individual de Carlos Lozano: el segundo agente del área y una retención que no debía practicarse"],
+    ["Fecha", "17 de septiembre de 2026"],
+    ["Duración de la sesión", "54 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Carlos Lozano — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "24", "etiqueta": "Cuentas validadas", "detalle": "Diferencia cero en la sumatoria"},
+    {"valor": "1", "etiqueta": "Retención practicada de más", "detalle": "Apareció al cruzar las cifras"},
+    {"valor": "60", "etiqueta": "Minutos del proceso manual", "detalle": "Clasificar natural y jurídica"},
+    {"valor": "2", "etiqueta": "Agentes del área", "detalle": "Uno operando y uno en prueba"},
+    {"valor": "1", "etiqueta": "Banco de fechas por construir", "detalle": "El de los entes que vigilan"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Carlos Lozano", "cargo": "Contabilidad — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 7. El primer agente del área ya está entregando su reporte mensual y el segundo quedó construido y probado. La prueba destapó algo que no era del ejercicio.",
+  "riesgos": [
+    {
+      "titulo": "Apareció una retención practicada que no correspondía",
+      "nivel": "ALTO",
+      "descripcion": "Al contrastar el resultado del agente contra el trabajo manual del mes de referencia **surgió una diferencia de cerca de un millón setecientos mil pesos** en servicios de persona natural. Al investigarla quedó claro el motivo: **a un tercero se le practicó una retención que no debía practicársele y después se le hizo la devolución por el mismo valor**, así que el neto queda en cero. _No fue un error del sistema — el propio puesto lo dijo con precisión: «le faltó contexto»._ Hay que dejarle escrito cómo tratar esas conciliaciones.",
+      "responsable": "Carlos Lozano / Esta semana"
+    },
+    {
+      "titulo": "El criterio para distinguir persona natural de jurídica no estaba escrito",
+      "nivel": "ALTO",
+      "descripcion": "El reporte se descarga en crudo y **no trae la distinción**; el documento tampoco la permite deducir. _Hasta hoy la clasificación se hacía a ojo_ —reconociendo nombres de persona frente a denominaciones societarias— y ya ha ocurrido tomar una base como natural siendo jurídica. **Es la clase de criterio que vive en la cabeza de una persona y no en ningún procedimiento.**",
+      "responsable": "Carlos Lozano / Permanente"
+    },
+    {
+      "titulo": "El agente nuevo quedó sin cadencia ni entrega final",
+      "nivel": "MEDIO",
+      "descripcion": "Clasifica y valida bien, pero **falta decirle cada cuánto revisar la carpeta**, que produzca el tablero con indicadores y que estructure el correo a revisoría fiscal. _Sin eso sigue siendo una consulta, no un circuito._",
+      "responsable": "Carlos Lozano / Antes de la S8"
+    },
+    {
+      "titulo": "El primer agente aún no ha corrido un ciclo completo por su cuenta",
+      "nivel": "MEDIO",
+      "descripcion": "El reporte mensual salió bien, pero **la próxima corrida automática es la prueba real**. _Conviene acompañar dos o tres ciclos antes de darlo por cerrado._ Y la nota explicativa que se añadió a mano para que el destinatario supiera abrir el documento debe incorporarse a la instrucción.",
+      "responsable": "Carlos Lozano / Octubre"
+    },
+    {
+      "titulo": "El banco de fechas de los entes de vigilancia no existe",
+      "nivel": "MEDIO",
+      "descripcion": "Las obligaciones tributarias tienen calendario publicado; **las de los entes que vigilan a la Caja no.** _Ese banco de fechas hay que construirlo desde cero_, y es el insumo sin el cual el agente de la agenda no puede avisar nada.",
+      "responsable": "Carlos Lozano / Antes de la S8"
+    },
+    {
+      "titulo": "Tres conciliaciones bancarias siguen sin lógica escrita",
+      "nivel": "MEDIO",
+      "descripcion": "_Son las más largas y difíciles_, y quedan pendientes de mapear. El puesto prefiere avanzar solo por ahora, pero conviene no dejarlas para el final del programa.",
+      "responsable": "Carlos Lozano / Octubre"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Dejarle escrito el tratamiento de retenciones devueltas",
+      "descripcion": "Para que cuando aparezca una retención practicada y luego devuelta, la concilie en lugar de reportarla como diferencia.",
+      "responsable": "Carlos Lozano",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Escribir el criterio de clasificación natural / jurídica",
+      "descripcion": "**El criterio existe y funciona — pero solo en la cabeza de quien lo aplica.** Escrito, se vuelve verificable y deja de depender de una persona.",
+      "responsable": "Carlos Lozano",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Completar el agente: cadencia, tablero y correo",
+      "descripcion": "Cada cuánto revisa la carpeta, el tablero con los indicadores en lugar de la hoja de cálculo, y el correo estructurado a revisoría fiscal.",
+      "responsable": "Carlos Lozano",
+      "plazo": "Antes de la S8"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Construir el banco de fechas de los entes de vigilancia",
+      "descripcion": "El tributario se descarga; este hay que armarlo. Es el insumo del agente de la agenda de obligaciones.",
+      "responsable": "Carlos Lozano",
+      "plazo": "Antes de la S8"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Traer el listado completo de reportes del área",
+      "descripcion": "**Todos** — los propios y los de la jefatura. _Con esa lista se sabe cuántas sesiones hacen falta_ y qué alcanza a quedar antes del cierre.",
+      "responsable": "Carlos Lozano",
+      "plazo": "Antes de la S8"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Incorporar a la jefatura a las sesiones",
+      "descripcion": "Y recoger su lista de lo que quiere automatizar. _Los informes de presentación del área pueden trabajarse en el entorno de diseño._",
+      "responsable": "Carlos Lozano",
+      "plazo": "Esta semana"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El primer agente, ya entregando",
+      "duracion": "~10 min",
+      "objetivo": "Revisar el reporte mensual que el agente produjo y envió.",
+      "pasos": [
+        "**El correo con el reporte salió del agente**, con el detalle de legalización tal como el área lo quería ver. _Y el total cruza con el reporte oficial del sistema_, que es la comprobación que importa",
+        "La jefatura lo revisó antes del envío y lo aprobó",
+        "_El reporte ya hace análisis, no solo cuentas:_ relaciona las legalizaciones creadas en el sistema, identifica las que tuvieron reintegro y **compara un mes contra el anterior** — de ochenta y nueve millones pendientes por legalizar en julio a sesenta y cinco en agosto",
+        "**Antes esto tomaba una mañana entera**, y era una hoja de cálculo con un correo. Ahora entrega además el comparativo y el análisis",
+        "_Dos ajustes que quedaron:_ incorporar a la instrucción la nota explicativa que se añadió a mano para que el destinatario sepa abrir el documento, y **anclar el tablero como favorito** — se actualiza solo y deja de haber que reenviarlo"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El agente de retención en la fuente",
+      "duracion": "~30 min",
+      "objetivo": "Automatizar el reporte que hoy toma una hora y es propenso a error.",
+      "pasos": [
+        "_El proceso, tal como se hace hoy:_ el sistema entrega el reporte en crudo con la base y la retención practicada por concepto. **El trabajo manual es depurar, organizar y agrupar por persona natural y persona jurídica**, para llenar el formato oficial. Después se valida cruzando contra otro reporte que trae el acumulado sin esa distinción",
+        "**Toma cerca de una hora y admite error**: ya ha pasado tomar una base como natural siendo jurídica",
+        "_Y aquí apareció el criterio no escrito:_ el reporte no distingue natural de jurídica, y el número de documento tampoco lo permite deducir. **La distinción se hace reconociendo nombres de persona frente a denominaciones societarias** — un criterio que funciona y que no está en ningún procedimiento",
+        "**Se hizo como prueba de concepto sobre un mes ya cerrado**, para poder contrastar contra un resultado validado. _Ese es el método correcto para estrenar un agente:_ no se prueba con lo que no se conoce",
+        "_Y el resultado superó lo pedido:_ **clasificó natural y jurídica por su cuenta, sin que se le hubiera dado la lógica.** Validó veinticuatro cuentas con diferencia cero en la sumatoria, y dejó documentadas tres observaciones a revisar"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · La diferencia que apareció, y lo que significaba",
+      "duracion": "~14 min",
+      "objetivo": "Contrastar cifra por cifra contra el trabajo manual.",
+      "pasos": [
+        "Al cruzar concepto por concepto, todo coincidió **salvo un renglón**: servicios de persona natural, con una diferencia cercana al millón setecientos mil",
+        "_Se investigó en sesión, con el cruce hecho a mano sobre el propio sistema_",
+        "**El motivo: a un tercero se le practicó una retención que no correspondía, y después se le hizo la devolución por el mismo valor.** El neto queda en cero, pero el agente no tenía cómo saber que esas dos partidas se anulaban entre sí",
+        "_Y la lectura del propio puesto es la correcta y conviene citarla:_ **«le faltó contexto».** No fue un error del sistema — fue una regla del negocio que nadie le había escrito",
+        "Se le indicó que trate esos casos como conciliación de aquí en adelante",
+        "_De paso quedó aclarada una duda de método:_ un asistente sigue instrucciones dentro de su proyecto y no sale de ahí. **Un agente revisa la carpeta, detecta lo nuevo, actualiza el tablero, envía el correo — y propone.** Uno responde; el otro decide dentro del circuito que se le dio"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "HALLAZGO · SESIÓN 7 · 17 septiembre 2026",
+      "titulo": "Una retención practicada sin que correspondiera",
+      "descripcion": "**Apareció porque un agente en prueba cruzó cifras que normalmente se cruzan a mano.** El caso quedó neutralizado con su devolución, así que no hay efecto económico — pero el mecanismo es lo valioso: _lo que hoy se revisa a ojo una vez al mes puede revisarse entero, cada vez, sin costo adicional._",
+      "estado": "Explicado y cerrado",
+      "proximo_paso": "Escribirle la regla de conciliación",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 7 · 17 septiembre 2026",
+      "titulo": "El reporte de retención en la fuente",
+      "descripcion": "De una hora de depuración y agrupación manual a un reporte validado con veinticuatro cuentas cuadradas. **Y clasificó persona natural y jurídica sin que se le diera la lógica.** Falta la cadencia, el tablero y el correo a revisoría fiscal para cerrar el circuito.",
+      "estado": "Probado, circuito incompleto",
+      "proximo_paso": "Cadencia, tablero y correo",
+      "target": "Sesión 8"
+    },
+    {
+      "encabezado": "OPORTUNIDAD APROBADA · SESIÓN 7 · 17 septiembre 2026",
+      "titulo": "La agenda de obligaciones del área",
+      "descripcion": "Con autorización de la jefatura. Dos tipos de obligaciones: las tributarias, con calendario publicado, y **las de los entes que vigilan a la Caja, cuyo banco de fechas no existe y hay que construir**. El agente consultaría ambas, programaría las entregas en el calendario y avisaría con anticipación.",
+      "estado": "Autorizada, en preparación",
+      "proximo_paso": "Construir el banco de fechas",
+      "target": "Sesión 8"
+    }
+  ],
+  "tareas_intro": "El área tiene un agente entregando su reporte mensual y otro probado con éxito. Lo que falta es escribirle las reglas que todavía viven solo en la cabeza de quien hace el trabajo.",
+  "tareas": [
+    {"tarea": "Escribirle la regla de conciliación para retenciones practicadas y devueltas", "responsable": "Carlos Lozano", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Dejar escrito el criterio de clasificación entre persona natural y jurídica", "responsable": "Carlos Lozano", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Ponerle cadencia al agente nuevo y cerrar el circuito con tablero y correo", "responsable": "Carlos Lozano", "prioridad": "ALTA", "plazo": "Antes de la S8"},
+    {"tarea": "Incorporar a la instrucción del primer agente la nota explicativa del documento", "responsable": "Carlos Lozano", "prioridad": "MEDIA", "plazo": "Antes de la S8"},
+    {"tarea": "Construir el banco de fechas de los entes de vigilancia", "responsable": "Carlos Lozano", "prioridad": "MEDIA", "plazo": "Antes de la S8"},
+    {"tarea": "Traer el listado completo de reportes del área para dimensionar las sesiones", "responsable": "Carlos Lozano", "prioridad": "MEDIA", "plazo": "Antes de la S8"},
+    {"tarea": "Recoger con la jefatura su lista de procesos a automatizar e invitarla a las sesiones", "responsable": "Carlos Lozano", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Terminar la lógica de las tres conciliaciones bancarias pendientes", "responsable": "Carlos Lozano", "prioridad": "MEDIA", "plazo": "Octubre"}
+  ],
+  "observaciones": [
+    "**El primer agente del área ya entregó su reporte mensual y el total cruza con el reporte oficial del sistema**, que es la única comprobación que vale. Lo que antes tomaba una mañana entera —una hoja de cálculo y un correo— ahora sale con el comparativo entre meses incluido: de ochenta y nueve millones pendientes por legalizar en julio a sesenta y cinco en agosto.",
+    "_Y conviene destacar algo que en otras áreas está costando:_ **el área ya registró su avance en el tablero de seguimiento y contestó la encuesta.** No hubo que pedirlo.",
+    "El segundo agente se construyó sobre el reporte de retención en la fuente, que hoy toma cerca de una hora y admite error. **Se probó como prueba de concepto sobre un mes ya cerrado** — el método correcto para estrenar un agente, porque permite contrastar contra un resultado que ya está validado.",
+    "**Y el resultado superó lo que se le pidió: clasificó persona natural y jurídica por su cuenta, sin que se le hubiera dado la lógica.** Validó veinticuatro cuentas con diferencia cero. _Eso vuelve a plantear el mismo hallazgo de la semana:_ el criterio que el área aplicaba a ojo —reconocer nombres de persona frente a denominaciones societarias— **funcionaba, pero no estaba escrito en ningún procedimiento.**",
+    "**Lo más importante de la sesión apareció al cruzar cifra por cifra.** Todo coincidió menos un renglón, con una diferencia cercana al millón setecientos mil en servicios de persona natural. Al investigarla quedó claro: **a un tercero se le practicó una retención que no correspondía y después se le hizo la devolución por el mismo valor.** El neto es cero y no hay efecto económico — pero el caso apareció porque un agente en prueba revisó lo que normalmente se revisa a ojo.",
+    "_Y la lectura que hizo el propio puesto es la correcta, y vale para todo el programa:_ **«le faltó contexto».** No fue un error del sistema. Fue una regla del negocio que nadie le había escrito. Escrita una vez, queda para siempre.",
+    "Quedó aclarada además una duda de método que conviene fijar: **un asistente sigue instrucciones dentro de su proyecto y no sale de ahí.** Un agente revisa la carpeta, detecta lo nuevo, actualiza el tablero, envía el correo — y propone. _Uno responde; el otro decide dentro del circuito que se le dio._",
+    "Con autorización de la jefatura quedó abierto el siguiente frente: **la agenda de obligaciones del área.** Las tributarias tienen calendario publicado; **las de los entes que vigilan a la Caja no lo tienen, y ese banco de fechas hay que construirlo desde cero.** Es trabajo previo que ningún agente puede hacer por nadie, y ya está en marcha. El área dejó agendadas dos sesiones para la próxima semana."
+  ],
+  "proxima_sesion": {
+    "sesion": "Contabilidad — Sesión 8",
+    "condiciones": [
+      "La regla de conciliación escrita y probada",
+      "El agente de retención con su cadencia y su tablero",
+      "El banco de fechas de los entes de vigilancia avanzado",
+      "El listado completo de reportes del área"
+    ],
+    "agenda": [
+      "Cierre del circuito de retención en la fuente",
+      "Construcción del agente de la agenda de obligaciones",
+      "El tablero de indicadores del área",
+      "Las conciliaciones bancarias pendientes"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 17 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

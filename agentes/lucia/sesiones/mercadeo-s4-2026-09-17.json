@@ -1,0 +1,222 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "MERCADEO",
+  "area_completa": "",
+  "sesion_num": 4,
+  "fase": "Proyectos y Sistemas de Trabajo",
+  "fecha": "17 de septiembre de 2026",
+  "fecha_corta": "17 septiembre 2026",
+  "subtitulo_meta": "Individual de Manuel José Gutiérrez · 17 de septiembre de 2026 · 56 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Mercadeo — Comfacesar"],
+    ["Sesión", "N° 4 — Individual de Manuel José Gutiérrez: el envío automatizado de campañas a empresas"],
+    ["Fecha", "17 de septiembre de 2026"],
+    ["Duración de la sesión", "56 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Manuel José Gutiérrez — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "725", "etiqueta": "Registros en la base", "detalle": "722 con correo válido — la cifra real"},
+    {"valor": "0", "etiqueta": "Columna de municipio", "detalle": "Lo que hoy impide segmentar"},
+    {"valor": "2", "etiqueta": "Campañas a automatizar", "detalle": "La agenda mensual y la bienvenida"},
+    {"valor": "300", "etiqueta": "Correos por lote", "detalle": "El tope acordado para no caer en spam"},
+    {"valor": "1", "etiqueta": "Proceso roto entre áreas", "detalle": "El más crítico, según el propio puesto"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Manuel José Gutiérrez", "cargo": "Coordinador de Mercadeo — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 4. Se recuperó la sesión caída del 9 de septiembre y se armó el primer envío automatizado del área. Al ejecutarlo apareció que el problema no está en el envío: está en la base de datos y en un proceso que no conecta.",
+  "riesgos": [
+    {
+      "titulo": "Lo que el área envía al área de servicio no tiene seguimiento de cumplimiento",
+      "nivel": "ALTO",
+      "descripcion": "_Es el punto que el propio puesto señaló como el más crítico:_ Mercadeo cierra la negociación y remite la orden de servicio al área que debe ejecutarla, **pero no existe conexión que confirme que se ejecutó como se vendió.** Cuando algo falla, _el cliente se queja con Mercadeo_, que es quien dio la cara. **No es un problema de herramienta: es un proceso que termina sin cierre.**",
+      "responsable": "Mercadeo + áreas de servicio / Octubre"
+    },
+    {
+      "titulo": "La base de datos de empresas no permite segmentar por municipio",
+      "nivel": "ALTO",
+      "descripcion": "La agenda mensual se publica **por municipio** —cinco en total— pero la base no trae esa columna. _El sistema lo detectó y preguntó antes de enviar nada._ Se decidió hacer el primer envío sin segmentar, pero **mientras la base no tenga el municipio, cada empresa recibe información de eventos a los que no puede asistir.**",
+      "responsable": "Manuel José Gutiérrez / Antes de la S5"
+    },
+    {
+      "titulo": "La cifra de la base estaba equivocada por más de doscientos registros",
+      "nivel": "MEDIO",
+      "descripcion": "Se trabajaba con una cifra cercana a novecientos. _Al revisar la hoja completa el sistema devolvió el dato real:_ **725 filas, de las cuales 722 tienen correo con formato válido y tres no tienen correo.** No es un error grave, pero **es la base sobre la que se dimensionan las campañas** — y estaba sobreestimada en casi una cuarta parte.",
+      "responsable": "Manuel José Gutiérrez / Esta semana"
+    },
+    {
+      "titulo": "No hay forma de saber si los correos se abren",
+      "nivel": "MEDIO",
+      "descripcion": "_Se puede medir cuántos salieron y cuántos rebotaron, pero no la apertura._ **Enviar sin poder medir es un saludo a la bandera** — es exactamente lo que ya pasa con la revista publicada en la web, que está ahí y nadie entra. La medición requiere una herramienta de campañas o el sistema de gestión de clientes.",
+      "responsable": "Manuel José Gutiérrez / Octubre"
+    },
+    {
+      "titulo": "El envío final queda en manos de la persona",
+      "nivel": "MEDIO",
+      "descripcion": "_El conector de correo permite preparar los borradores pero no dispararlos._ Quedan listos en la bandeja con destinatarios, asunto y cuerpo, y **la persona da el clic de enviar.** Tampoco logró adjuntar el archivo ni incrustar la imagen en alta resolución. Se resuelve más adelante con el agente.",
+      "responsable": "Manuel José Gutiérrez / Antes de la S5"
+    },
+    {
+      "titulo": "El área trabaja con la herramienta y no lo registra",
+      "nivel": "ALTO",
+      "descripcion": "**Hay trabajo hecho en el área que no aparece en el tablero de seguimiento.** _La consecuencia ya ocurrió:_ en el corte del lunes la dirección preguntó por Mercadeo porque no hay reporte de ejercicios. Además, dos integrantes del equipo no han vuelto a agendar y **respondieron en la encuesta que no notaron cambio** — con dos o tres sesiones hechas.",
+      "responsable": "Todo el equipo / Inmediato"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Agregar la columna de municipio a la base de empresas",
+      "descripcion": "Es lo único que separa un envío masivo de una campaña segmentada. _Y ya está pedido a Comunicaciones que la agenda venga fraccionada por municipio._",
+      "responsable": "Manuel José Gutiérrez",
+      "plazo": "Antes de la S5"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Registrar en el tablero de seguimiento lo que el área ya hizo",
+      "descripcion": "**Incluidos los informes que ya se están trabajando y no se han reportado.** Es lo que la dirección mira, y hoy Mercadeo aparece en blanco.",
+      "responsable": "Todo el equipo",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Reincorporar al equipo a las sesiones",
+      "descripcion": "_Dos integrantes no han vuelto a agendar y reportaron no haber notado cambio._ **Con dos o tres sesiones no se nota el cambio** — la diferencia entre las áreas que avanzaron y las que no ha sido la frecuencia.",
+      "responsable": "Manuel José Gutiérrez",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Agendar varias sesiones seguidas",
+      "descripcion": "**Es la última área del programa en sesión 4 con dos frentes sin arrancar.** Quedan semanas contadas.",
+      "responsable": "Manuel José Gutiérrez",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Preparar la carpeta de la campaña de bienvenida",
+      "descripcion": "Con la carta, el portafolio de servicios y el de fortalecimiento empresarial, para montar el segundo proyecto igual que el primero.",
+      "responsable": "Manuel José Gutiérrez",
+      "plazo": "Antes de la S5"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Verificar los borradores y hacer el primer envío real",
+      "descripcion": "Revisar que estén en la bandeja con sus lotes, y enviar. _El resultado de esa primera campaña es el dato que hoy no existe._",
+      "responsable": "Manuel José Gutiérrez",
+      "plazo": "Esta semana"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Entender dónde está el atasco del área",
+      "duracion": "~20 min",
+      "objetivo": "Separar lo que se puede automatizar de lo que es un problema de proceso.",
+      "pasos": [
+        "_El área maneja dos frentes distintos dentro de una misma función:_ **ventas** —con su parte administrativa: cotización, negociación y orden de servicio— y **comercialización** — visitas, stands, charlas y mantenimiento de empresas, con un equipo de asesores",
+        "**Y el punto más crítico no es de herramienta.** Mercadeo cierra la venta y remite la orden al área que presta el servicio, _pero no hay nada que confirme que se ejecutó como se vendió_. Cuando falla, el cliente reclama a Mercadeo",
+        "_Lo que el área persigue de fondo es un sistema de gestión de clientes._ Mientras tanto, los asesores registran sus visitas en un formulario que alimenta una base con empresa, documento, servicio solicitado, contacto y tipo de actividad",
+        "**Se acordó empezar por lo que sí se puede resolver ya:** el envío de las dos campañas mensuales del área"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El proyecto de la campaña mensual",
+      "duracion": "~20 min",
+      "objetivo": "Escribir el proceso antes de pedir el envío.",
+      "pasos": [
+        "_El caso:_ una vez al mes llega de Comunicaciones la agenda de actividades en un archivo, **organizada por municipio** — cinco en total. Se publica en la web, **y la gente no entra a verla**",
+        "**Se escribió el contexto con sus parámetros, que es lo que faltaba:** de qué área llega el correo, qué dice el asunto, qué trae adjunto y con qué periodicidad. _Sin ese enganche el sistema no sabe cuál de todos los correos mirar_",
+        "Se definió la entrega —una plantilla dirigida a la empresa con el material adjunto— y un reporte de cuántos correos salieron y cuántos rebotaron",
+        "_La plantilla se afinó en sesión:_ el saludo dejó de ser genérico y pasó a ser **«hola, equipo de [empresa]»** —porque los contactos de gestión humana rotan—, se puso el círculo naranja de la marca en el asunto, y se incrustó el banner del propio material en el cuerpo",
+        "_Y quedó dicho un límite importante:_ **con correo simple se puede saber cuántos salieron y cuántos rebotaron, pero no cuántos se abrieron.** Medir apertura requiere una herramienta de campañas"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Lo que apareció al ejecutar",
+      "duracion": "~16 min",
+      "objetivo": "Correr el primer envío y ver qué falla.",
+      "pasos": [
+        "**Primer hallazgo:** la base de empresas **no tiene columna de municipio**. El sistema se detuvo a preguntar cómo segmentar antes de enviar nada. Se decidió hacer el primer envío sin segmentar",
+        "**Segundo, y más importante:** al revisar la hoja completa devolvió la cifra real — **725 filas, 722 con correo válido y tres sin correo**— y corrigió expresamente el número con el que se venía trabajando, cercano a novecientos. _Se venía dimensionando la campaña sobre una base sobreestimada en casi una cuarta parte_",
+        "**Tercero, el riesgo de spam:** se acordó envío único con copia oculta **por lotes de máximo trescientos diarios**, que es el tope seguro que maneja el área. El sistema organizó los lotes y calculó los días",
+        "**Cuarto, el límite de la herramienta:** el conector de correo **prepara los borradores pero no los envía**. Quedan listos en la bandeja con destinatarios, asunto y cuerpo, y la persona da el clic",
+        "_Y un quinto que quedó abierto:_ no logró adjuntar el archivo ni incrustar la imagen en alta resolución dentro de los borradores",
+        "_El criterio con el que se cerró:_ **no aceptar que el sistema devuelva el trabajo manual.** Cuando propone que la persona cargue o adjunte algo, se le dice que no y se le pide que resuelva dentro del circuito"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD EN CURSO · SESIÓN 4 · 17 septiembre 2026",
+      "titulo": "La agenda mensual, enviada en lugar de publicada",
+      "descripcion": "Hoy la agenda se cuelga en la web y **nadie entra a verla**. Con la base corregida y la columna de municipio, cada empresa recibe la agenda de su ciudad en su correo. _El valor no está en ahorrar el copiar y pegar: está en que la información llegue a quien debe usarla._",
+      "estado": "Borradores generados",
+      "proximo_paso": "Agregar el municipio y hacer el primer envío",
+      "target": "Sesión 5"
+    },
+    {
+      "encabezado": "OPORTUNIDAD PLANTEADA · SESIÓN 4 · 17 septiembre 2026",
+      "titulo": "La bienvenida a las empresas nuevas",
+      "descripcion": "Entre treinta y cuarenta empresas se afilian cada mes. **Reciben la bienvenida al inscribirse, pero no la información de los beneficios.** Un correo automatizado con la carta, el portafolio de servicios y el de fortalecimiento empresarial cierra una brecha que hoy se paga en empresas que no saben lo que tienen.",
+      "estado": "Por construir",
+      "proximo_paso": "Armar la carpeta con los tres documentos",
+      "target": "Sesión 5"
+    },
+    {
+      "encabezado": "HALLAZGO DE PROCESO · SESIÓN 4 · 17 septiembre 2026",
+      "titulo": "La orden de servicio se remite y nadie confirma que se cumplió",
+      "descripcion": "**Lo señaló el propio puesto como su problema más crítico.** Mercadeo vende, remite la orden al área que ejecuta, y no hay nada que cierre el ciclo. El cliente reclama a quien le vendió. _No se arregla con una herramienta: se arregla acordando quién confirma la ejecución y cómo._",
+      "estado": "Abierto",
+      "proximo_paso": "Plantearlo con las áreas de servicio",
+      "target": "Octubre"
+    }
+  ],
+  "tareas_intro": "Se recuperó la sesión caída y quedó armado el primer envío. Lo que falta antes de la próxima es arreglar la base de datos y poner al área al día en el registro.",
+  "tareas": [
+    {"tarea": "Agregar la columna de municipio a la base de empresas", "responsable": "Manuel José Gutiérrez", "prioridad": "ALTA", "plazo": "Antes de la S5"},
+    {"tarea": "Registrar en el tablero de seguimiento todo lo que el área ya trabajó", "responsable": "Todo el equipo", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Reincorporar al equipo a las sesiones", "responsable": "Manuel José Gutiérrez", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Agendar varias sesiones seguidas", "responsable": "Manuel José Gutiérrez", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Verificar los borradores y hacer el primer envío real", "responsable": "Manuel José Gutiérrez", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Preparar la carpeta de la campaña de bienvenida con sus tres documentos", "responsable": "Manuel José Gutiérrez", "prioridad": "MEDIA", "plazo": "Antes de la S5"},
+    {"tarea": "Pedir a Comunicaciones la agenda fraccionada por municipio", "responsable": "Manuel José Gutiérrez", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Contestar la encuesta del programa", "responsable": "Manuel José Gutiérrez", "prioridad": "MEDIA", "plazo": "Esta semana"}
+  ],
+  "observaciones": [
+    "**Esta sesión recupera la que se cayó el 9 de septiembre**, y conviene registrarlo porque es la segunda área que reacciona esta semana después de una sala vacía.",
+    "El área llegó sin avance sobre lo trabajado en las sesiones anteriores. _La explicación no es desinterés:_ el puesto ha estado resolviendo por otra vía —con desarrollo interno— el registro de visitas de sus asesores, y llegó con una lectura honesta de que el ejercicio anterior no le iba a dar el resultado que necesitaba. **Se reorientó la sesión hacia un proceso que sí se puede cerrar ya.**",
+    "_Lo primero que apareció al pedirle que explicara su operación es un hallazgo de gestión, no de tecnología._ **Mercadeo cierra la venta, remite la orden al área que presta el servicio, y no hay nada que confirme que se ejecutó como se vendió.** Cuando falla, el cliente reclama a quien le vendió. Eso no lo arregla ninguna herramienta: se arregla acordando quién cierra el ciclo.",
+    "Se armó el proyecto de la campaña mensual y **el ejercicio produjo más valor por lo que encontró que por lo que envió.** Tres cosas, en orden de importancia:",
+    "_Primero:_ **la base de datos estaba sobreestimada en casi una cuarta parte.** Se venía trabajando con una cifra cercana a novecientos registros; al revisar la hoja completa, el dato real son **725 filas, 722 con correo válido y tres sin correo**. El sistema corrigió expresamente el número que él mismo había dado. **Es la base sobre la que se dimensiona cualquier campaña del área.**",
+    "_Segundo:_ **la base no permite segmentar por municipio**, aunque la agenda se publica por municipio y son cinco. Mientras no tenga esa columna, cada empresa recibe información de eventos a los que no puede asistir. _Y esa es la diferencia entre enviar y comunicar._",
+    "_Tercero:_ con correo simple **se puede saber cuántos salieron y cuántos rebotaron, pero no cuántos se abrieron**. Vale decirlo sin rodeos porque es el mismo problema que ya tiene la revista en la web: está publicada, y nadie entra. **Cambiar el canal sin poder medir no garantiza que la información llegue.**",
+    "**Y hay que decir con claridad lo que está frenando al área ante la dirección.** En el corte del lunes se preguntó por Mercadeo porque **no hay un solo reporte de ejercicios en el tablero de seguimiento** — aun cuando hay trabajo hecho en el equipo que no se ha registrado. A eso se suma que dos integrantes no han vuelto a agendar y **respondieron en la encuesta que no notaron cambio**, con dos o tres sesiones hechas. _Es una respuesta razonable: con dos o tres sesiones no se nota._ La diferencia entre las áreas que hoy tienen agentes operando y las que no ha sido, en todos los casos, la frecuencia."
+  ],
+  "proxima_sesion": {
+    "sesion": "Mercadeo — Sesión 5",
+    "condiciones": [
+      "La columna de municipio agregada a la base",
+      "El primer envío real hecho y su reporte revisado",
+      "La carpeta de la campaña de bienvenida armada",
+      "El tablero de seguimiento diligenciado"
+    ],
+    "agenda": [
+      "La campaña de bienvenida a empresas nuevas",
+      "El envío segmentado por municipio",
+      "El estudio de mercado y la encuesta de experiencia",
+      "Reincorporación del equipo al programa"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 17 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

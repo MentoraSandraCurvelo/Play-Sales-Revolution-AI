@@ -1,0 +1,227 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "IPS",
+  "area_completa": "",
+  "sesion_num": 3,
+  "fase": "Proyectos y Sistemas de Trabajo",
+  "fecha": "17 de septiembre de 2026",
+  "fecha_corta": "17 septiembre 2026",
+  "subtitulo_meta": "Individual de Danilo Pozo · 17 de septiembre de 2026 · 46 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "IPS — Comfacesar"],
+    ["Sesión", "N° 3 — Individual de Danilo Pozo: el circuito de conceptos de aptitud en producción y el primer tablero del área"],
+    ["Fecha", "17 de septiembre de 2026"],
+    ["Duración de la sesión", "46 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Danilo Pozo — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "7", "etiqueta": "Sistemas de vigilancia", "detalle": "Sus matrices se llenan solas"},
+    {"valor": "6", "etiqueta": "Indicadores en el tablero", "detalle": "Con simulador de segmentación"},
+    {"valor": "5", "etiqueta": "Conceptos procesados", "detalle": "La muestra de la primera corrida"},
+    {"valor": "23", "etiqueta": "Sedes con vigía", "detalle": "El siguiente proceso a mapear"},
+    {"valor": "0", "etiqueta": "Registros documentados", "detalle": "El área con el mayor ahorro declarado"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Danilo Pozo", "cargo": "Seguridad y Salud en el Trabajo — IPS Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 3. El área tiene el circuito de conceptos de aptitud corriendo en producción y construyó su primer tablero. El problema no es el avance: es que ese avance no está registrado en ninguna parte.",
+  "riesgos": [
+    {
+      "titulo": "El área no ha registrado un solo dato en el tablero de seguimiento",
+      "nivel": "ALTO",
+      "descripcion": "**Es el área con el mayor ahorro declarado de todo el programa y tiene cero registros.** _La consecuencia es concreta y ya ocurrió:_ en el corte del lunes, la dirección leyó que IPS no había avanzado, porque el avance no aparece por ningún lado. **El trabajo que no se documenta existe, pero no se puede defender** — y el tablero es exactamente lo que sustenta lo que se presente en octubre.",
+      "responsable": "Danilo Pozo / Inmediato"
+    },
+    {
+      "titulo": "El tablero detectó seguimientos médicos sin cerrar",
+      "nivel": "ALTO",
+      "descripcion": "_Con apenas cinco conceptos procesados_, el tablero ya marcó **un seguimiento programado cuya fecha ya pasó y no figura completado**, y una persona con hallazgo anormal **sin examen programado**. Son datos de un ejercicio con muestra pequeña, pero el mecanismo funciona: es justamente lo que hoy se puede pasar por alto.",
+      "responsable": "Danilo Pozo / Esta semana"
+    },
+    {
+      "titulo": "La versión de Office no admite el complemento",
+      "nivel": "ALTO",
+      "descripcion": "Se intentó instalar en la hoja de cálculo y en la herramienta de presentaciones, y **en ninguna de las dos está disponible**: la versión instalada es demasiado antigua. _Es el mismo bloqueo registrado en Gerencia Financiera desde el corte anterior._ Obliga a trabajar por fuera y volver a cargar los archivos en cada vuelta.",
+      "responsable": "Tecnología / Pendiente"
+    },
+    {
+      "titulo": "El área va en la sesión 3 con más de un mes de programa",
+      "nivel": "ALTO",
+      "descripcion": "Hay áreas en la octava sesión con agentes operando. _La diferencia no es el nivel técnico:_ el trabajo que este puesto trajo hecho entre sesiones está entre lo más sólido del programa. **La diferencia es la frecuencia.** Quedaron seis semanas y el camino hasta el agente son unas cuatro sesiones más.",
+      "responsable": "Danilo Pozo / Inmediato"
+    },
+    {
+      "titulo": "El entorno está creado con una cuenta y conectado con otra",
+      "nivel": "MEDIO",
+      "descripcion": "_Se advirtió en sesión antes de que se volviera un problema:_ cuando el agente tenga que entrar al correo o a la unidad de archivos, **el conflicto entre la cuenta personal y la corporativa lo va a frenar**. Es exactamente lo que le ocurrió esta semana a otras cuatro áreas. Conviene revisarlo ahora.",
+      "responsable": "Danilo Pozo / Antes de la S4"
+    },
+    {
+      "titulo": "La muestra del tablero es todavía muy pequeña",
+      "nivel": "MEDIO",
+      "descripcion": "Cinco trabajadores procesados. _Los porcentajes que arroja son correctos sobre esa base pero no representativos_, y conviene decirlo cuando el tablero se muestre a alguien. Con el histórico cargado empieza a servir para decidir.",
+      "responsable": "Danilo Pozo / Antes de la S4"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Diligenciar el tablero de seguimiento con todo lo construido",
+      "descripcion": "Tarea, frecuencia, minutos antes, minutos ahora y la descripción de cómo se hacía. **Es lo único que hace visible el avance del área ante la dirección.**",
+      "responsable": "Danilo Pozo",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Agendar varias sesiones seguidas",
+      "descripcion": "El camino hasta el agente son unas cuatro sesiones más y quedan seis semanas de programa.",
+      "responsable": "Danilo Pozo",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Revisar los seguimientos que el tablero marcó sin cerrar",
+      "descripcion": "El vencido sin completar y el hallazgo anormal sin examen programado.",
+      "responsable": "Danilo Pozo",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Consultar con Tecnología la versión de Office instalada",
+      "descripcion": "Sin el complemento hay que salir de la herramienta en cada vuelta. Afecta también a otra área del programa.",
+      "responsable": "Danilo Pozo + Tecnología",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Traer mapeado el proceso de inspección de los vigías",
+      "descripcion": "**Mapeado, no con el método CREA.** Qué revisa en cada sitio, con qué parámetros, en qué cortes, dónde queda el informe y cada cuánto se revisa. _Con eso se construye la aplicación y el tablero._",
+      "responsable": "Danilo Pozo",
+      "plazo": "Antes de la S4"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Modelar el tablero y crear la primera habilidad",
+      "descripcion": "Ajustar nombres, colores y segmentaciones al criterio del área, y terminar la habilidad de experto en hoja de cálculo que quedó iniciada.",
+      "responsable": "Danilo Pozo",
+      "plazo": "Antes de la S4"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Lo que el área construyó entre sesiones",
+      "duracion": "~5 min",
+      "objetivo": "Revisar el circuito de conceptos de aptitud, ya en producción.",
+      "pasos": [
+        "_Se cambió el enfoque, y ese fue el acierto:_ en lugar de intentar que interpretara el proceso completo de una vez, **lo sectorizaron y lo construyeron paso a paso**",
+        "**Se alineó la semántica entre documentos:** donde el concepto de aptitud decía una cosa la matriz de ingreso decía otra —cargo frente a ocupación—. Corregido eso, _la matriz se llena sola cada vez que entra un concepto_",
+        "**Las cartas de recomendación se generan por cortes quincenales**, en archivos individuales nombrados por su rango de fechas. Está corriendo en producción",
+        "**Se sectorizó la información por sistemas de vigilancia** —musculoesquelético, visual, psicosocial, auditivo, cuidado de voz, hábitos y estilos de vida saludable— y cada matriz se llena automáticamente",
+        "**Y se cerró el ciclo de seguimiento:** identifica al personal que sale con recomendaciones, toma la fecha de ingreso y programa el control a tres meses",
+        "_El efecto que el área destaca no es el tiempo ahorrado sino lo que habilita:_ **ya no hay que revisar para clasificar.** El equipo puede sentarse directamente con el profesional responsable de cada sistema de vigilancia"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El primer tablero del área",
+      "duracion": "~25 min",
+      "objetivo": "Sacar la información de la hoja de cálculo y llevarla a un tablero interactivo.",
+      "pasos": [
+        "_Se intentó primero instalar el complemento dentro de la hoja de cálculo y de las presentaciones:_ **no está disponible en la versión instalada.** Se siguió por otra vía",
+        "Salió un tablero con encabezado institucional — _y vale registrar el detalle:_ **el logo lo tomó del membrete de los propios conceptos médicos en PDF, no lo inventó**",
+        "**Seis indicadores de gestión:** exámenes procesados, porcentaje de apto sin restricción, porcentaje con hallazgo anormal, seguimientos programados, población y cobertura de elementos de protección",
+        "**Cuatro gráficos** —distribución por cargo, concepto de aptitud, población por sistema de vigilancia y exámenes por quincena—, una tabla de alertas y seguimientos, y **un simulador con segmentación** por rango de fechas de ingreso, cargo y concepto",
+        "_Se probó la segmentación en vivo:_ al filtrar por un cargo, los indicadores y los gráficos se recalculan. **Una imagen se procesa más rápido que una tabla, y por eso se decide mejor sobre ella**",
+        "_Y el tablero hizo su trabajo de inmediato:_ marcó un seguimiento cuya fecha ya pasó sin figurar completado, y una persona con hallazgo anormal sin examen programado",
+        "Se aprendió a **publicarlo como enlace y fijarlo en el celular como si fuera una aplicación** — se probó en sesión"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Habilidades, alertas y el caso de los vigías",
+      "duracion": "~16 min",
+      "objetivo": "Abrir las tres capas que faltan antes del agente.",
+      "pasos": [
+        "**Qué es una habilidad y en qué se diferencia del método CREA:** el método se queda dentro de un proyecto; _la habilidad se puede usar en muchos_. Es un criterio empaquetado — un experto en hojas de cálculo, en gráficos, o la forma de revisar de una persona concreta",
+        "Quedó iniciada una habilidad de experto en hoja de cálculo con tendencias, gráficos y tablas dinámicas",
+        "**Las tareas programadas:** recordatorios y alertas con su cadencia. _El área propuso una de inmediato_ — un aviso semanal de a quién hay que programarle exámenes médicos",
+        "**Y apareció el caso que puede ser el más grande del área:** hay **veintitrés sedes**, cada una con un vigía que debe hacer inspecciones —baños, terrazas, oficinas—. Hoy hay que estarles recordando, y el reporte llega suelto",
+        "_La salida planteada:_ una aplicación web donde el vigía registre la inspección con su fotografía, y esa información alimente un tablero que se llena solo",
+        "**La tarea es el mapeo, no la herramienta:** qué se revisa en cada sitio y con qué criterio, en qué cortes del día, qué debe registrar y dónde queda. _Con el proceso escrito, la aplicación y el agente se construyen encima_"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD EN PRODUCCIÓN · SESIÓN 3 · 17 septiembre 2026",
+      "titulo": "El circuito de conceptos de aptitud",
+      "descripcion": "Del concepto médico a la matriz de ingreso, de ahí a las cartas de recomendación por cortes quincenales, a las matrices de los siete sistemas de vigilancia y al control programado a tres meses. **Ya está corriendo.** Lo que habilita no es velocidad: es que el equipo pueda sentarse directamente con el profesional de cada sistema sin revisar nada antes.",
+      "estado": "En producción",
+      "proximo_paso": "Documentarlo en el tablero de seguimiento",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 3 · 17 septiembre 2026",
+      "titulo": "El tablero de aptitud médica y vigilancia epidemiológica",
+      "descripcion": "Seis indicadores, cuatro gráficos, tabla de alertas y simulador de segmentación, publicado como enlace y consultable desde el celular. Con cinco conceptos ya detectó dos seguimientos sin cerrar. **Con el histórico cargado deja de ser un ejercicio y pasa a ser el control del área.**",
+      "estado": "Primera versión",
+      "proximo_paso": "Modelarlo y cargar el histórico",
+      "target": "Sesión 4"
+    },
+    {
+      "encabezado": "OPORTUNIDAD NUEVA · SESIÓN 3 · 17 septiembre 2026",
+      "titulo": "La inspección de seguridad de las 23 sedes",
+      "descripcion": "**Veintitrés vigías haciendo inspecciones que hoy hay que recordar una por una y que llegan como reportes sueltos.** Una aplicación web donde se registre la inspección con su evidencia fotográfica, alimentando un tablero que se llena solo, convierte un seguimiento disperso en un control con trazabilidad.",
+      "estado": "Por mapear",
+      "proximo_paso": "El proceso escrito paso a paso",
+      "target": "Sesión 4"
+    }
+  ],
+  "tareas_intro": "El área tiene su circuito principal en producción y su primer tablero construido. Lo que falta no es trabajo: es dejarlo registrado y aumentar la frecuencia de las sesiones.",
+  "tareas": [
+    {"tarea": "Diligenciar el tablero de seguimiento con todo lo construido hasta hoy", "responsable": "Danilo Pozo", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Agendar varias sesiones seguidas", "responsable": "Danilo Pozo", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Revisar los dos seguimientos que el tablero marcó sin cerrar", "responsable": "Danilo Pozo", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Consultar con Tecnología la versión de Office instalada", "responsable": "Danilo Pozo + Tecnología", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Traer mapeado el proceso de inspección de los vigías", "responsable": "Danilo Pozo", "prioridad": "MEDIA", "plazo": "Antes de la S4"},
+    {"tarea": "Modelar el tablero hasta que quede como el área lo quiere ver", "responsable": "Danilo Pozo", "prioridad": "MEDIA", "plazo": "Antes de la S4"},
+    {"tarea": "Terminar la habilidad de experto en hoja de cálculo", "responsable": "Danilo Pozo", "prioridad": "MEDIA", "plazo": "Antes de la S4"},
+    {"tarea": "Revisar la configuración de cuentas antes de construir el agente", "responsable": "Danilo Pozo", "prioridad": "MEDIA", "plazo": "Antes de la S4"},
+    {"tarea": "Mapear en proyectos el resto de los procesos del área", "responsable": "Danilo Pozo + equipo", "prioridad": "MEDIA", "plazo": "Octubre"},
+    {"tarea": "Contestar la encuesta del programa", "responsable": "Danilo Pozo", "prioridad": "MEDIA", "plazo": "Esta semana"}
+  ],
+  "observaciones": [
+    "**El trabajo que el área trajo hecho entre sesiones está entre lo más sólido del programa.** El circuito de conceptos de aptitud ya está en producción: entra el concepto médico, se llena la matriz de ingreso, se generan las cartas de recomendación por cortes quincenales, se alimentan las matrices de los siete sistemas de vigilancia y se programa el control a tres meses.",
+    "_Y el acierto de método merece registrarse, porque explica por qué funcionó:_ en el intento anterior se le pedía interpretar el proceso completo de una vez. **Esta vez se sectorizó y se construyó paso a paso.** Lo primero que se corrigió fue la semántica entre documentos —donde uno decía «cargo» el otro decía «ocupación»—, y a partir de ahí todo encajó.",
+    "_El área no describe el beneficio en minutos, y tiene razón en no hacerlo:_ **lo que cambió es que ya no hay que revisar para clasificar.** El equipo puede sentarse directamente con el profesional responsable de cada sistema de vigilancia. El ahorro declarado sigue siendo el más alto del programa y sigue pendiente de validarse contra el proceso manual.",
+    "El primer tablero del área quedó construido, y con solo cinco conceptos procesados **ya marcó dos cosas que hay que mirar**: un seguimiento cuya fecha pasó sin figurar completado, y una persona con hallazgo anormal sin examen programado. _La muestra es pequeña y conviene decirlo al mostrarlo_, pero el mecanismo es el correcto: es justamente lo que hoy se puede pasar por alto.",
+    "**Y hay que ser directo con lo que está frenando al área ante la dirección, porque no es el trabajo.** El tablero de seguimiento del programa **no tiene un solo registro de IPS**. La consecuencia ya ocurrió: en el corte del lunes se leyó que el área no había avanzado. _No es cierto — pero no hay dónde verlo._ **Diligenciar ese tablero es hoy la tarea más rentable del área.**",
+    "Apareció además el caso que puede ser el más grande: **veintitrés sedes, cada una con un vigía de seguridad haciendo inspecciones** que hoy hay que recordar una por una y que llegan como reportes sueltos. Una aplicación web donde se registre la inspección con su evidencia, alimentando un tablero, convierte eso en un control con trazabilidad. _La tarea no es la herramienta: es traer el proceso mapeado paso a paso._",
+    "Dos bloqueos quedan abiertos y ninguno es del área. **La versión de Office instalada no admite el complemento** —ni en hoja de cálculo ni en presentaciones—, que es el mismo bloqueo registrado en Gerencia Financiera desde el corte anterior. Y quedó advertido, antes de que sea un problema, que **el entorno está creado con una cuenta y conectado con otra**: es exactamente lo que frenó a otras cuatro áreas esta semana cuando llegaron a construir su agente."
+  ],
+  "proxima_sesion": {
+    "sesion": "IPS — Sesión 4",
+    "condiciones": [
+      "El tablero de seguimiento diligenciado",
+      "El proceso de los vigías mapeado paso a paso",
+      "El tablero modelado y con más histórico",
+      "La configuración de cuentas revisada"
+    ],
+    "agenda": [
+      "La aplicación web de inspecciones de seguridad",
+      "El tablero de inspecciones por sede",
+      "Alertas programadas de exámenes médicos",
+      "Preparación del circuito para el agente"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 17 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

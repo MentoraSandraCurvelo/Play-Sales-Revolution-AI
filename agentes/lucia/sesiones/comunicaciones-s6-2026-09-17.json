@@ -1,0 +1,202 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "COMUNICACIONES",
+  "area_completa": "",
+  "sesion_num": 6,
+  "fase": "Proyectos y Sistemas de Trabajo",
+  "fecha": "17 de septiembre de 2026",
+  "fecha_corta": "17 septiembre 2026",
+  "subtitulo_meta": "Individual de Sandra Patricia Machado Arquez · 17 de septiembre de 2026 · 46 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Comunicaciones — Comfacesar"],
+    ["Sesión", "N° 6 — Individual de Sandra Patricia Machado: el control de solicitudes de publicidad"],
+    ["Fecha", "17 de septiembre de 2026"],
+    ["Duración de la sesión", "46 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Sandra Patricia Machado Arquez — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "4", "etiqueta": "Solicitudes diarias", "detalle": "El flujo que hoy se pierde de vista"},
+    {"valor": "48", "etiqueta": "Horas para el estado crítico", "detalle": "El criterio, escrito por primera vez"},
+    {"valor": "1", "etiqueta": "Semana a un día", "detalle": "El montaje de la campaña de apropiación"},
+    {"valor": "2", "etiqueta": "Revisiones diarias del correo", "detalle": "Mañana y tarde, sin intervención"},
+    {"valor": "0", "etiqueta": "Formato estándar de brief", "detalle": "Cada solicitud llega distinta"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Sandra Patricia Machado Arquez", "cargo": "Profesional de Comunicaciones — Comfacesar", "correo": "profesionalcomunicaciones2@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 6. Primera sesión individual del puesto. El tablero de control de solicitudes quedó funcionando, y al construirlo apareció que lo que falla no es el seguimiento: es lo que llega.",
+  "riesgos": [
+    {
+      "titulo": "Las solicitudes de publicidad llegan sin un formato común",
+      "nivel": "ALTO",
+      "descripcion": "_Lo describió el propio puesto sin rodeos:_ el banner llega por un lado, el mensaje por otro y la solicitud de diseño por otro, **en correos distintos y atendidos por personas distintas.** No hay una plantilla. **Con tres o cuatro solicitudes diarias, eso es exactamente lo que hace que se pierdan correos y fechas** — que es el problema que motivó el ejercicio.",
+      "responsable": "Sandra Patricia Machado / Esta semana"
+    },
+    {
+      "titulo": "Los briefs no traen fecha límite ni área solicitante",
+      "nivel": "ALTO",
+      "descripcion": "_El sistema lo detectó al procesar una solicitud real:_ el documento **especifica el contenido pero no la fecha de entrega ni el servicio que la pide**, y recomendó solicitar esa información antes de asignar prioridad. **Sin fecha límite no hay forma de priorizar nada** — y la priorización es el corazón del proceso.",
+      "responsable": "Sandra Patricia Machado / Esta semana"
+    },
+    {
+      "titulo": "El criterio de prioridad no estaba escrito en ninguna parte",
+      "nivel": "MEDIO",
+      "descripcion": "Las solicitudes se atendían en el orden en que llegaban, salvo cuando una fecha apretaba. _Al preguntarle, el criterio salió de inmediato:_ **la fecha del evento más cercana es la más prioritaria.** Existía y funcionaba — pero vivía solo en la cabeza de quien decide.",
+      "responsable": "Sandra Patricia Machado / Permanente"
+    },
+    {
+      "titulo": "El área no ha reportado sus ejercicios en el tablero de seguimiento",
+      "nivel": "ALTO",
+      "descripcion": "_La encuesta sí está contestada; los ejercicios no están registrados._ **La consecuencia ya ocurrió: en el corte del lunes la dirección leyó que Comunicaciones no había avanzado**, cuando el área tiene un sistema corriendo desde el 9 de septiembre y una campaña que pasó de una semana a un día.",
+      "responsable": "Sandra Patricia Machado / Inmediato"
+    },
+    {
+      "titulo": "El tablero arranca sin histórico",
+      "nivel": "MEDIO",
+      "descripcion": "Se cargó desde los últimos días, así que los indicadores todavía no muestran comportamiento. _Con dos o tres semanas de solicitudes empieza a servir para medir tiempos de respuesta por área._",
+      "responsable": "Sandra Patricia Machado / Antes de la S7"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Acordar una plantilla única de solicitud con las áreas",
+      "descripcion": "**Con fecha límite y área solicitante como campos obligatorios.** _Y el criterio para hacerla cumplir:_ cuando llegue una solicitud sin el formato, se responde pidiendo que la reenvíen completa. Así se acostumbra a las áreas.",
+      "responsable": "Sandra Patricia Machado",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Registrar los ejercicios en el tablero de seguimiento",
+      "descripcion": "Incluida la campaña que pasó de una semana a un día. **Es lo único que hace visible el avance del área ante la dirección.**",
+      "responsable": "Sandra Patricia Machado",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Agendar dos o tres sesiones por semana",
+      "descripcion": "_El propio puesto lo planteó como lunes, miércoles y viernes._ Es el ritmo que tienen las áreas que hoy ya construyeron su agente.",
+      "responsable": "Sandra Patricia Machado",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Modelar el tablero",
+      "descripcion": "Logo institucional, responsable y fecha de corte, y ajustar los indicadores a lo que el puesto quiere ver.",
+      "responsable": "Sandra Patricia Machado",
+      "plazo": "Antes de la S7"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Dejar correr el tablero unos días y revisarlo",
+      "descripcion": "Para que acumule solicitudes reales y los indicadores empiecen a mostrar comportamiento por área.",
+      "responsable": "Sandra Patricia Machado",
+      "plazo": "Antes de la S7"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El proyecto, con el método CREA",
+      "duracion": "~20 min",
+      "objetivo": "Escribir el proceso antes de automatizarlo.",
+      "pasos": [
+        "_El caso:_ llegan **tres o cuatro solicitudes de publicidad diarias** de las distintas áreas de servicio, cada una con su brief. Hoy el manejo es manual — _y se pierden correos y fechas, sobre todo en eventos con fecha cercana_",
+        "**Contexto:** de dónde llegan, con qué asunto, qué trae el adjunto y con qué frecuencia. _Ese enganche es lo que permite que el sistema sepa cuál de todos los correos mirar_",
+        "**Y el rol se afinó en sesión, que fue la corrección más útil:** de «publicista» a **experto en contenidos digitales para cajas de compensación del tamaño de Comfacesar, en las redes donde el área publica, para generar alcance y crecimiento**. _El rol no es la profesión de quien pregunta — es la tarea concreta y su contexto_",
+        "**Entrega:** un documento de resumen del brief con evento, fecha, segmentación, fecha de entrega, tipo de producto y área solicitante — _escrito para leerse rápido y decidir_"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Lo que apareció al procesar una solicitud real",
+      "duracion": "~8 min",
+      "objetivo": "Probar el resumen sobre un brief que ya había llegado.",
+      "pasos": [
+        "El resumen salió bien y quedó aprobado sin ajustes",
+        "**Pero el sistema añadió una nota que vale más que el resumen:** el documento **no incluye fecha límite de entrega ni el servicio que hace la solicitud**, y recomendó pedir esa información antes de asignar prioridad. _Señaló además que el evento comienza el 3 de octubre_",
+        "_Y ahí quedó a la vista el problema de fondo, descrito por el propio puesto:_ **no hay una plantilla.** El banner llega por un lado, el mensaje por otro y la solicitud de diseño por otro, en correos distintos y atendidos por personas distintas",
+        "**El criterio acordado:** cuando llegue una solicitud sin el formato, se responde pidiendo que la reenvíen completa. _Se acostumbra a las áreas, y de paso el circuito queda alimentado como debe_"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El tablero de control de solicitudes",
+      "duracion": "~18 min",
+      "objetivo": "Convertir el seguimiento manual en un tablero con alertas.",
+      "pasos": [
+        "**Se escribió por primera vez el criterio de prioridad:** la fecha del evento más cercana es la más prioritaria. _Existía y funcionaba, pero solo en la cabeza de quien decide_",
+        "**Y la semaforización por tiempo de atención:** pendiente dentro de las primeras cuarenta y ocho horas, **crítico pasadas las cuarenta y ocho**, y ejecutado cuando se cierra",
+        "**Cadencia:** revisión del correo dos veces al día, en la mañana y en la tarde. Toma los correos cuyo asunto indique solicitud y traigan adjunto — _y cuando no venga el adjunto, responde al área pidiéndolo_",
+        "El tablero quedó con **indicadores de gestión** —briefs abiertos, críticos, ejecutados y tiempo promedio de atención—, distribución por área, y **filtros por estado, área, tipo de solicitud y fecha**, con ordenamiento por fecha límite más próxima",
+        "**Y funcionó en vivo:** entró al correo, trajo la solicitud del día con su adjunto y su fecha límite, y la clasificó en amarillo por estar dentro de las cuarenta y ocho horas"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 6 · 17 septiembre 2026",
+      "titulo": "El control de solicitudes de publicidad",
+      "descripcion": "De tres o cuatro solicitudes diarias que se seguían de memoria a un tablero que revisa el correo dos veces al día, resume cada brief, prioriza por fecha de evento y avisa cuando algo lleva más de cuarenta y ocho horas sin atender. **El objetivo no es ahorrar tiempo: es que no se pierda una solicitud con el evento encima.**",
+      "estado": "Funcionando",
+      "proximo_paso": "Modelarlo y dejar que acumule histórico",
+      "target": "Sesión 7"
+    },
+    {
+      "encabezado": "HALLAZGO DE PROCESO · SESIÓN 6 · 17 septiembre 2026",
+      "titulo": "Las solicitudes llegan sin formato y sin fecha límite",
+      "descripcion": "**Es la causa real de que se pierdan solicitudes**, y no se arregla con un tablero. Una plantilla única con fecha de entrega y área solicitante obligatorias convierte un flujo disperso en algo priorizable — y es un acuerdo entre áreas, no una función.",
+      "estado": "Por acordar",
+      "proximo_paso": "Definir la plantilla y comunicarla",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "AHORRO DECLARADO · SESIÓN 6 · 17 septiembre 2026",
+      "titulo": "El montaje de la campaña de apropiación",
+      "descripcion": "La campaña que organiza y desarrolla el puesto **pasaba de tomar una semana a quedar montada en una jornada.** Es un dato del área y está pendiente de registrarse en el tablero de seguimiento — hoy no aparece por ningún lado.",
+      "estado": "Por documentar",
+      "proximo_paso": "Registrarlo en el tablero",
+      "target": "Inmediato"
+    }
+  ],
+  "tareas_intro": "Primera sesión individual del puesto y el tablero quedó funcionando. Lo que falta es arreglar lo que llega y dejar registrado lo que el área ya hizo.",
+  "tareas": [
+    {"tarea": "Acordar con las áreas una plantilla única de solicitud, con fecha límite y área solicitante obligatorias", "responsable": "Sandra Patricia Machado", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Registrar los ejercicios en el tablero de seguimiento, incluida la campaña de una semana a un día", "responsable": "Sandra Patricia Machado", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Agendar dos o tres sesiones por semana", "responsable": "Sandra Patricia Machado", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Modelar el tablero con logo, responsable y fecha de corte", "responsable": "Sandra Patricia Machado", "prioridad": "MEDIA", "plazo": "Antes de la S7"},
+    {"tarea": "Dejar correr el tablero unos días y revisar los indicadores", "responsable": "Sandra Patricia Machado", "prioridad": "MEDIA", "plazo": "Antes de la S7"}
+  ],
+  "observaciones": [
+    "**Esta es la primera sesión individual del puesto.** El formato individual se nota: en cuarenta y seis minutos quedó construido un tablero funcionando sobre un proceso real.",
+    "_El problema que motivó el ejercicio lo describió el propio puesto:_ llegan tres o cuatro solicitudes de publicidad diarias, con tiempos de entrega ajustados en eventos cercanos, **y se pierden correos y fechas.** No es un problema de capacidad — es un flujo que no tiene dónde apoyarse.",
+    "**El tablero quedó funcionando y se probó en vivo:** entró al correo, trajo la solicitud del día con su adjunto y su fecha límite, y la clasificó por tiempo de atención. Revisa dos veces al día, resume cada brief, prioriza por fecha de evento y marca en crítico lo que lleve más de cuarenta y ocho horas sin atender.",
+    "_Pero lo más valioso apareció al procesar una solicitud real._ **El sistema advirtió que el brief no incluye fecha límite de entrega ni el servicio que lo solicita**, y recomendó pedir esa información antes de asignar prioridad. _Sin fecha límite no hay forma de priorizar_ — y la priorización es justamente el corazón del proceso.",
+    "**Y ahí quedó a la vista el problema de fondo, dicho por el propio puesto: no hay una plantilla.** El banner llega por un lado, el mensaje por otro y la solicitud de diseño por otro, en correos distintos y atendidos por personas distintas. _Ningún tablero arregla eso._ **Se arregla con una plantilla única acordada con las áreas** — y con el criterio de devolver lo que llegue incompleto, que es como se acostumbra a la gente.",
+    "Se escribió además, por primera vez, el criterio de prioridad del área: **la fecha del evento más cercana manda.** Existía y funcionaba, pero vivía solo en la cabeza de quien decide. _Es el mismo hallazgo que viene apareciendo en todas las áreas esta semana:_ lo que se hace «por criterio» resulta ser criterio sin escribir.",
+    "**Queda un pendiente que no es menor.** El área tiene un sistema corriendo desde el 9 de septiembre y una campaña que pasó de tomar una semana a quedar montada en una jornada — **y nada de eso está en el tablero de seguimiento.** En el corte del lunes la dirección leyó que Comunicaciones no había avanzado. _No es cierto, pero no hay dónde verlo._"
+  ],
+  "proxima_sesion": {
+    "sesion": "Comunicaciones — Sesión 7",
+    "condiciones": [
+      "La plantilla única de solicitud acordada",
+      "El tablero modelado y con histórico acumulado",
+      "Los ejercicios registrados en el tablero de seguimiento",
+      "Sesiones agendadas para la semana"
+    ],
+    "agenda": [
+      "Revisión del tablero con solicitudes reales acumuladas",
+      "El entorno de diseño aplicado a las piezas del área",
+      "Preparación del circuito para el primer agente",
+      "Automatización del reporte de redes sociales"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 17 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

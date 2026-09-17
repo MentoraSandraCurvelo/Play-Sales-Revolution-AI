@@ -1,0 +1,222 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "JURÍDICA",
+  "area_completa": "",
+  "sesion_num": 8,
+  "fase": "Sistemas de Trabajo Agénticos",
+  "fecha": "17 de septiembre de 2026",
+  "fecha_corta": "17 septiembre 2026",
+  "subtitulo_meta": "Individual de Lilibeth Costa · 17 de septiembre de 2026 · 52 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Jurídica — Comfacesar"],
+    ["Sesión", "N° 8 — Individual de Lilibeth Costa: el segundo agente del área y el primer empalme entre áreas"],
+    ["Fecha", "17 de septiembre de 2026"],
+    ["Duración de la sesión", "52 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Lilibeth Costa — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "1", "etiqueta": "Empalme ya ocurriendo", "detalle": "La solicitud llegó del agente de otra área"},
+    {"valor": "2", "etiqueta": "Agentes del área", "detalle": "Uno administrativo y uno contractual"},
+    {"valor": "1", "etiqueta": "Informe a ente de control", "detalle": "Corregido y enviado desde el celular"},
+    {"valor": "4", "etiqueta": "Tipos de documento mapeados", "detalle": "Contratos, adiciones, modificaciones y órdenes"},
+    {"valor": "1", "etiqueta": "Conflicto de cuentas", "detalle": "El cuarto de la semana en el programa"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Lilibeth Costa", "cargo": "Jurídica — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 8. El área empezó a construir su agente de elaboración contractual y, en mitad del ejercicio, apareció que el empalme entre dos agentes de áreas distintas ya está ocurriendo en la práctica.",
+  "riesgos": [
+    {
+      "titulo": "El conflicto entre la cuenta personal y la corporativa frenó el circuito",
+      "nivel": "ALTO",
+      "descripcion": "El agente identificó el correo correcto, pero **no pudo descargar los adjuntos**: la sesión del navegador está iniciada con una cuenta y los conectores con otra. Se instaló y vinculó la extensión y el conflicto persistió. _Se resolvió de forma provisional cargando los documentos a mano_, lo que deja el circuito incompleto. **Es el cuarto caso del mismo patrón esta semana** — antes en Vivienda, en el área precontractual y en la jefatura del área.",
+      "responsable": "Lilibeth Costa / Antes de la S9"
+    },
+    {
+      "titulo": "La solicitud llega sin los documentos soporte",
+      "nivel": "ALTO",
+      "descripcion": "_Se detectó al mapear el proceso:_ el correo de remisión trae la solicitud pero **no los anexos**, y sin ellos el agente no puede hacer el checklist que hoy hacen los asistentes. No es un problema del agente: **es el proceso entre las dos áreas el que hay que ajustar**, y ahora se puede pedir con precisión porque está escrito.",
+      "responsable": "Lilibeth Costa + Área Precontractual / Esta semana"
+    },
+    {
+      "titulo": "El asunto de los correos no es uniforme",
+      "nivel": "MEDIO",
+      "descripcion": "El agente reconoce el correo por una frase fija en el asunto, pero **cuando se trata de una adición o una modificación, el asunto cambia**. _Se arrancó por el caso más frecuente_ —remisión para elaboración contractual— y el resto se irá incorporando. Conviene acordar el estándar con el área que envía.",
+      "responsable": "Lilibeth Costa + Área Precontractual / Esta semana"
+    },
+    {
+      "titulo": "El primer agente del área quedó detenido",
+      "nivel": "MEDIO",
+      "descripcion": "El agente administrativo —seguimiento de asistentes y vigilancia de canales— **no se siguió desarrollando desde la sesión anterior**. _Es el mismo riesgo que ya apareció en esta área:_ un agente que se abandona a medias hay que releerlo entero para retomarlo.",
+      "responsable": "Lilibeth Costa / Antes de la S9"
+    },
+    {
+      "titulo": "El margen de error de la oficina es la razón de fondo del ejercicio",
+      "nivel": "MEDIO",
+      "descripcion": "_Lo planteó el propio puesto al abrir la sesión:_ el margen de error en la elaboración contractual es elevado, y el agente se construye para reducirlo. **Eso significa que el borrador que produzca no se firma sin revisión** — se entrega en borrador y alguien lo revisa, que es exactamente como quedó configurado.",
+      "responsable": "Lilibeth Costa / Permanente"
+    },
+    {
+      "titulo": "El tablero de gestión contractual sigue sin identidad institucional",
+      "nivel": "BAJO",
+      "descripcion": "Ya está en uso —con los vencimientos semaforizados y sirviendo para revisar con el equipo— pero sale en blanco. _Falta el logo y los colores corporativos._",
+      "responsable": "Lilibeth Costa / Esta semana"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Resolver el conflicto de cuentas del navegador",
+      "descripcion": "Es lo único que separa al agente de hacer el circuito completo. _El propio sistema puede guiar la solución si se le explica la situación tal como es._",
+      "responsable": "Lilibeth Costa",
+      "plazo": "Antes de la S9"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Acordar con el área precontractual que la remisión lleve los soportes",
+      "descripcion": "Y un asunto estandarizado para cada tipo de trámite. **Es el ajuste que permite que los dos agentes se conecten sin intervención.**",
+      "responsable": "Lilibeth Costa + Área Precontractual",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Comparar el contrato generado contra la minuta de referencia",
+      "descripcion": "Pedirle al propio agente el comparativo para que detecte su margen de error. _Es la manera de saber si el borrador sirve antes de que lo lea un abogado._",
+      "responsable": "Lilibeth Costa",
+      "plazo": "Antes de la S9"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Retomar el agente administrativo",
+      "descripcion": "Terminarlo en lugar de dejarlo detenido, ahora que la migración de conversaciones al canal ya avanza.",
+      "responsable": "Lilibeth Costa",
+      "plazo": "Antes de la S9"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Registrar en el tablero de seguimiento el informe al ente de control",
+      "descripcion": "_El propio puesto lo señaló en sesión:_ se hizo y no se documentó.",
+      "responsable": "Lilibeth Costa",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Preparar el caso del Contact Center",
+      "descripcion": "Tiene tablero automatizado pero el análisis por áreas se hace a mano. Queda para la próxima sesión.",
+      "responsable": "Lilibeth Costa",
+      "plazo": "Sesión 9"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Lo que el área trajo hecho",
+      "duracion": "~5 min",
+      "objetivo": "Revisar el avance entre sesiones.",
+      "pasos": [
+        "**Se trabajó el informe mensual que el área presenta a un ente de control, y se hizo desde el celular.** El sistema buscó los archivos en la unidad de la empresa, revisó el cuadro, ajustó lo que estaba mal y redactó el correo de envío",
+        "_El resultado que importa:_ **redujo los errores de un informe que se elabora a mano**. Faltó diligenciar una columna, que es justamente lo que el circuito completo evitaría",
+        "_Y una precisión sobre el control:_ el envío no se automatizó por prudencia, porque va a un ente de control. **La respuesta es que el agente lo deja en borrador** — prepara, y la persona revisa y envía",
+        "El tablero de gestión contractual **ya está en uso**: tiene los pendientes y los vencimientos semaforizados, y sirve para revisar con el equipo. _Falta darle identidad institucional_"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El agente de elaboración contractual",
+      "duracion": "~35 min",
+      "objetivo": "Construir el segundo agente del área, con autorización de la jefatura.",
+      "pasos": [
+        "_Primero, la distinción de método:_ **en los agentes no se usa el método CREA.** Ese es para los proyectos. Aquí se mapea el proceso — se le describe el flujograma paso a paso, como si se explicara una rutina de trabajo",
+        "**El circuito quedó escrito así:** entra al correo → identifica los que vienen del área precontractual con la frase acordada en el asunto → descarga los adjuntos → los guarda en una carpeta de gestión contractual **con una subcarpeta por tipo de documento** —contratos, adiciones, modificaciones y órdenes—",
+        "→ revisa que cumplan los requisitos del manual de contratación → **identifica el tipo de contrato según la tabla de cuantías** → elabora el borrador guiándose por las minutas y los contratos de ejemplo → lo deja en borrador para revisión",
+        "**Cadencia:** revisión diaria al mediodía",
+        "_Los insumos que se le cargaron, y la frase que mejor explica el método:_ el manual de contratación, un contrato de ejemplo y la tabla de cuantías del año. **«Le estoy haciendo la inducción a un nuevo abogado»** — necesita conocer el manual y las cuantías para saber qué tipo de documento corresponde",
+        "**Y funcionó:** con esos insumos determinó que por cuantía correspondía un contrato y no una orden, y se puso a generar el borrador siguiendo la minuta de referencia"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El bloqueo y lo que se aprendió de él",
+      "duracion": "~12 min",
+      "objetivo": "Intentar cerrar el circuito hasta el correo.",
+      "pasos": [
+        "El agente **identificó correctamente el correo** que cumplía los criterios, pero no pudo descargar los adjuntos",
+        "_La causa quedó clara:_ la sesión del navegador está iniciada con una cuenta y los conectores están configurados con otra. **El agente lo diagnosticó él mismo y explicó qué faltaba en cada paso**",
+        "Se instaló la extensión del navegador, se ancló y se vinculó la sesión. _Aun así el conflicto persistió_, porque el origen está en qué cuenta abre el navegador",
+        "_Método que quedó, y sirve para cualquier área:_ **cuando el agente pide algo que no se entiende, se le manda una captura de la pantalla.** Y cuando insiste en un paso manual, se le dice con todas las letras que el proceso debe quedar automatizado",
+        "Se resolvió de forma provisional cargando los documentos a mano para que el ejercicio avanzara. _El circuito queda incompleto hasta resolver la cuenta_"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "HITO DEL PROGRAMA · SESIÓN 8 · 17 septiembre 2026",
+      "titulo": "El empalme entre dos agentes ya está ocurriendo",
+      "descripcion": "**La solicitud que llegó al área durante la sesión no la envió una persona: la envió el agente del área precontractual.** El lunes esto se identificó como la oportunidad más grande del programa —dos sistemas de áreas distintas encadenados— y tres días después ya está pasando en la práctica, sin que se hubiera diseñado como tal. _Lo que falta ahora no es tecnología: es acordar que la remisión lleve los soportes y un asunto estandarizado._",
+      "estado": "Ocurriendo",
+      "proximo_paso": "Acordar el formato de la remisión entre las dos áreas",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 8 · 17 septiembre 2026",
+      "titulo": "El agente de elaboración contractual",
+      "descripcion": "Del correo de remisión al borrador del contrato, clasificado por cuantía y ajustado al manual de contratación. **Se construye para reducir el margen de error de la oficina, que el propio puesto señaló como elevado** — y por eso entrega en borrador, para que una persona revise.",
+      "estado": "Construido, circuito incompleto",
+      "proximo_paso": "Resolver la cuenta y probar de punta a punta",
+      "target": "Sesión 9"
+    },
+    {
+      "encabezado": "OPORTUNIDAD PLANTEADA · SESIÓN 8 · 17 septiembre 2026",
+      "titulo": "El análisis del Contact Center",
+      "descripcion": "El Contact Center ya tiene su tablero automatizado, pero **el análisis de la información por áreas se hace a mano**. Un agente que unifique esa data y la entregue lista quitaría un trabajo manual recurrente sobre información que ya existe.",
+      "estado": "Propuesto por el área",
+      "proximo_paso": "Revisarlo en la próxima sesión",
+      "target": "Sesión 9"
+    }
+  ],
+  "tareas_intro": "El área tiene dos agentes en construcción y un empalme con otra área ocurriendo de hecho. Lo que falta es cerrar el circuito del correo y acordar el formato de lo que llega.",
+  "tareas": [
+    {"tarea": "Resolver el conflicto entre la cuenta del navegador y la de los conectores", "responsable": "Lilibeth Costa", "prioridad": "ALTA", "plazo": "Antes de la S9"},
+    {"tarea": "Acordar con el área precontractual que la remisión lleve los soportes y un asunto estandarizado", "responsable": "Lilibeth Costa + Área Precontractual", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Pedirle al agente el comparativo entre el contrato generado y la minuta de referencia", "responsable": "Lilibeth Costa", "prioridad": "ALTA", "plazo": "Antes de la S9"},
+    {"tarea": "Verificar que el borrador quede guardado en la carpeta y sea ubicable por el equipo", "responsable": "Lilibeth Costa", "prioridad": "MEDIA", "plazo": "Antes de la S9"},
+    {"tarea": "Retomar el agente administrativo que quedó detenido", "responsable": "Lilibeth Costa", "prioridad": "MEDIA", "plazo": "Antes de la S9"},
+    {"tarea": "Ponerle logo y colores corporativos al tablero de gestión contractual", "responsable": "Lilibeth Costa", "prioridad": "BAJA", "plazo": "Esta semana"},
+    {"tarea": "Registrar en el tablero de seguimiento el informe al ente de control", "responsable": "Lilibeth Costa", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Preparar el caso del Contact Center para la próxima sesión", "responsable": "Lilibeth Costa", "prioridad": "MEDIA", "plazo": "Sesión 9"}
+  ],
+  "observaciones": [
+    "**Lo más importante de esta sesión no estaba en la agenda.** Mientras se mapeaba el proceso, llegó al correo del área una solicitud de elaboración contractual — y al revisarla quedó claro que **no la envió una persona: la envió el agente del área precontractual.** _El lunes esto se identificó como la oportunidad más grande que había salido del programa_, dos sistemas de áreas distintas encadenados. Tres días después ya está ocurriendo en la práctica, sin que nadie lo hubiera diseñado como tal.",
+    "Y eso cambia lo que hay que hacer. **Lo que falta para cerrar el empalme no es tecnología: es un acuerdo entre las dos áreas.** Que la remisión venga con los documentos soporte —hoy llega solo la solicitud— y que el asunto sea uniforme, porque cuando se trata de una adición o una modificación cambia. Ahora se puede pedir con precisión, porque el proceso está escrito.",
+    "El área trajo además un resultado hecho por su cuenta que merece registrarse: **el informe mensual que presenta a un ente de control se trabajó desde el celular.** El sistema buscó los archivos, revisó el cuadro, corrigió los errores y redactó el correo de envío. _La razón por la que importa la dijo el propio puesto al abrir la sesión:_ **el margen de error en la elaboración es elevado, y reducirlo es el objetivo de todo esto.**",
+    "Sobre ese punto quedó bien resuelto el control: el envío no se automatizó por prudencia, tratándose de un ente de control. **La respuesta correcta no es dejarlo manual, es dejarlo en borrador** — el agente prepara y la persona revisa y envía. _Ese es el lugar donde debe estar alguien decidiendo._",
+    "El agente de elaboración contractual quedó construido y respondió bien a la prueba: con el manual de contratación, la tabla de cuantías y un contrato de ejemplo, **determinó por cuantía que correspondía un contrato y no una orden** y empezó a generar el borrador. _La frase con la que el puesto describió el método es la mejor definición que ha salido del programa:_ **«le estoy haciendo la inducción a un nuevo abogado».**",
+    "_Conviene fijar también la distinción de método que se aclaró en sesión:_ **en los agentes no se usa el método CREA.** Ese es para los proyectos, donde se le da contexto, rol, entrega y acción a un asistente. **En un agente se mapea el proceso** — se le describe el flujograma paso a paso, como una rutina de trabajo.",
+    "El circuito quedó incompleto por un conflicto de cuentas: el navegador está iniciado con una cuenta y los conectores configurados con otra, y por eso el agente **identificó el correo correcto pero no pudo descargar los adjuntos.** Se resolvió provisionalmente cargando los documentos a mano. **Es el cuarto caso del mismo patrón en una sola semana** — antes en Vivienda, en el área precontractual y en la jefatura de esta misma área. _Ya no es una coincidencia: es algo que conviene resolver de manera transversal._",
+    "_Por último, quedó cerrado un hilo que venía de otra área:_ la exigencia de expedientes en físico **no es una decisión de Jurídica.** La imponen los entes de control. En palabras del propio puesto, si dependiera del área no habría nada de eso — es de las que más trabaja en digital."
+  ],
+  "proxima_sesion": {
+    "sesion": "Jurídica — Sesión 9",
+    "condiciones": [
+      "El conflicto de cuentas resuelto",
+      "El comparativo del contrato generado revisado",
+      "El acuerdo con el área precontractual planteado",
+      "El agente administrativo retomado"
+    ],
+    "agenda": [
+      "Prueba del circuito completo, del correo al borrador",
+      "El empalme con el agente del área precontractual",
+      "El análisis automatizado del Contact Center",
+      "Cierre del agente administrativo"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 17 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
