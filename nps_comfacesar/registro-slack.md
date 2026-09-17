@@ -15,6 +15,94 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🔢 17 sep · 7:30 · El día más cargado del programa · 74 sesiones · 92% · Termómetro v44
+
+**No publiqué nada en Slack.** Esto es corte de tablero.
+
+### Lo que pasó
+
+Ayer miércoles se ejecutaron **siete sesiones**, el día más cargado desde que
+arrancó el programa. Las cuatro de la tarde aparecieron en las grabaciones de
+Teams esta madrugada:
+
+- `Talento Humano S3` · 14:01
+- `Sub. Administrativa y Financiera S8 · Liliany` · 15:02
+- `Servicios Sociales S8` · 16:02
+- `Cumplimiento S2` · 17:10 *(tres archivos con el mismo sello, es una sola sesión)*
+
+El programa pasa de **70 a 74 sesiones**.
+
+### Cumplimiento salió de la Sesión 1
+
+Llevaba **cinco semanas y media** ahí y era la única área del programa que no
+había pasado de su primera sesión. La tomó **Aura Sánchez** desde el enlace, sin
+que se le escribiera. **Ya no hay ningún área detenida en la Sesión 1**, y es la
+primera vez que eso pasa.
+
+### Jurídica: era S7, no S8 — queda resuelto
+
+Ayer dejé señalado que el evento se titulaba S8 y que por fecha era la séptima,
+y no renumeré para confirmarlo con Lilibeth. **El acta llegó esta madrugada:
+`ACTA_Sesion7_Juridica_16septiembre2026.pdf`.** El tablero queda renumerado y lo
+dice en la cara: la de ayer es la S7, la de hoy a las 10:00 es la S8. La serie de
+Jurídica ya corre sin huecos ni repetidos.
+
+### Seis actas nuevas leídas
+
+| Acta | Asistencia |
+|---|---|
+| Jurídica S7 · 16 sep | 2 de 2 — Carlos Mario Gamarra, Renata Laino |
+| Talento Humano S3 · 16 sep | 3 de 3 — Roí David Carrillo, María Loretta Fuentes, Lacides Daza |
+| Servicios Sociales S7 · 15 sep | 2 de 2 — Juan Pablo Curvelo, Lilian Paola Ramos |
+| Servicios Sociales S8 · 16 sep | 2 de 2 — Juan Pablo Curvelo, Lilian Paola Ramos |
+| Sub. Administrativa S7 · 16 sep | 1 de 1 — Rafael Solano |
+| Sub. Administrativa S8 · 16 sep | 1 de 1 — Liliany Gómez |
+
+### Y el hallazgo del corte: la tabla no mostraba todo lo que el número contaba
+
+Al sumar la tabla de asistencia a mano me dio **135/148**, y el titular decía
+**139/152** sobre 62 sesiones. **Faltaban siete filas.** No eran sesiones
+inventadas: eran sesiones realmente medidas a las que nunca se les escribió la
+fila. Las reconstruí una por una desde su acta o su informe de Teams:
+
+| Sesión | Fuente | Asistencia |
+|---|---|---|
+| Tecnología S2 · 25 ago | acta | 1 de 1 — Olga Lucía Barros |
+| Servicios Sociales S4 · 27 ago | informe de Teams | 1 de 1 — Juan Pablo, dos entradas por reconexión |
+| Jurídica S6 · 9 sep | acta | 1 de 1 — Carlos Mario Gamarra |
+| Sub. Administrativa S5 · 9 sep | acta | 1 de 1 — Rafael Solano |
+| Sub. Administrativa S6 · 14 sep | acta | 1 de 1 — Rafael Solano |
+| IPS S2 · 9 sep | acta | 1 de 1 — Danilo Pozo |
+| Tesorería S2 · 9 sep | acta | 1 de 1 — Yohana |
+
+Ahora el titular y la tabla dicen lo mismo y se pueden sumar a mano:
+**153/166 = 92%**, sobre **71 sesiones medidas de 74**.
+
+**La regla que dejo escrita:** cuando el acumulado se mueve, hay que sumar la
+tabla y comparar. Si el titular y la tabla no dan lo mismo, el que está mal es
+el titular, porque la tabla es la evidencia.
+
+### Áreas sin fecha: de seis a ocho
+
+Entran **Talento Humano** y **Cumplimiento**: las dos hicieron su sesión ayer y
+ninguna tomó la siguiente. Las otras seis siguen: Agencia de Empleo, Vivienda,
+Tesorería, Planeación, Sub. Operativa e IPS.
+
+Es el mismo patrón de siempre, y ya se repitió con Planeación y con Contabilidad:
+**el área termina, sale con tareas, y no deja la próxima fecha.** Se corrige en el
+último minuto de la sesión, no con un recordatorio tres días después.
+
+### Lo que queda abierto
+
+- **Cumplimiento S2 no tiene acta todavía.** Terminó anoche, así que no es un
+  faltante: el plazo es el mediodía de hoy.
+- A las siete sesiones del martes y miércoles les falta el **informe de asistencia**
+  de Teams.
+- **Vivienda S2** sigue siendo la única sesión del programa sin fila con fecha y
+  soportes. En Dropbox solo está la grabación.
+
+---
+
 ## 🔢 16 sep · 12:05 · Jurídica hizo la suya · 70 sesiones · Termómetro v43
 
 `⭕️Comfacesar Juridica S8 IAM™ Intelligence-20260916_100315`, iniciada a las **10:03**,
