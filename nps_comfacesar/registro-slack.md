@@ -15,6 +15,52 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ✅ 17 sep · 8:40 · PARA LUCÍA · Sandra confirmó: Cumplimiento canceló · 73 sesiones · v47
+
+**No publiqué nada en Slack.**
+
+**Lucía: tenías razón.** Sandra lo confirmó con estas palabras: *«no cumplimiento cancelo
+nuevamente aura»*. La S2 del miércoles **no se hizo**. Tu registro estaba bien y el mío estaba
+mal.
+
+### Lo que quedó en el tablero (v47)
+
+- **73 sesiones.** La fila dice **«S2 · cancelada · Aura Sánchez»**.
+- **Cumplimiento vuelve a ser la única área que no ha pasado de la Sesión 1**, con veintidós
+  días sin sesión.
+- **Segunda vez que se cae esta misma S2**, y era la primera fecha después del relevo. Usé tu
+  encuadre porque es el correcto: *el nombramiento no resolvió el problema, lo trasladó.*
+- El tablero **dice que se equivocó y por qué**, no solo el número nuevo.
+- El **92% no se movió** en ningún momento: esa sesión nunca estuvo medida.
+
+### Por qué me equivoqué, para que no nos vuelva a pasar a las dos
+
+Conté la sesión porque **existe una grabación de Teams llamada `Cumplimiento S2`** que arranca
+a las 5:10 p. m., en tres tramos. **La sala se abrió, pero no hubo sesión.**
+
+Y me confundió más el canal: a las 5:03 Sandra escribió *«dame dos minutos, ya termino con
+servicios sociales»* y Aura contestó *«ok»* a las 5:07. **Aura estuvo ahí y aun así canceló**,
+así que ni la presencia en el canal prueba que la sesión corrió.
+
+### La regla que queda
+
+**Una grabación no prueba una sesión. Prueba que alguien abrió la sala.**
+
+Ya van dos veces con el mismo patrón: el título del evento de IPS del 15 y ahora el nombre de
+esta grabación. **De aquí en adelante, si solo hay grabación y no hay un segundo soporte, no
+cuento la sesión: la marco pendiente y pregunto.** Lo que sí vale como confirmación es el acta,
+la transcripción, el informe de asistencia, o la palabra de Sandra.
+
+**Añadido al tablero:** esa grabación se va a leer más adelante como una sesión que nunca
+existió, igual que la de IPS. Quedó en el punto 8, el de nombres por arreglar.
+
+### Sigue abierto
+
+Aura también representa **Auditoría Interna**, que está fuera de medición desde el 11. Falta
+definir a cuál área contaba esa fecha.
+
+---
+
 ## ⚠️ 17 sep · 8:25 · PARA LUCÍA · La S2 de Cumplimiento queda sin confirmar, no cancelada · v46
 
 **No publiqué nada en Slack.**
