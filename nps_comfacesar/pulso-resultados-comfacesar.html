@@ -287,7 +287,7 @@
     <p>Los ocho de <strong>2 o 3 sesiones</strong> califican 3, 4, 5, 7, 8, 8, 10 y 10. Los ocho de <strong>4 o 5 sesiones</strong> califican 3, 5, 6, 8, 9, 9, 9 y 10. <strong>Los dos grupos siguen teniendo el mismo rango</strong>, así que la etapa por sí sola no explica la nota.
     <br><br>
     <strong>Pero apareció un tercer grupo, y ese sí dice algo.</strong> Las dos personas con <strong>seis o más sesiones</strong> califican <strong>10 y 10</strong>, y son las dos que más ahorro reportan: una dice «más de 5 h», la única del tablero, y la otra «entre 2 y 5 h». Son solo dos respuestas y no dan para una conclusión, pero son las únicas dos que coinciden en todo.</p>
-    <p>Lo que sí se ve, mirando cada caso completo, es que <strong>la nota de utilidad y el ahorro reportado no van juntos</strong>. Vivienda pone 6 y dice ahorrarse entre 2 y 5 horas. Comunicaciones pone 3 y dice menos de 30 minutos por semana. Son dos situaciones distintas debajo de una nota parecida, y por eso la nota sola no sirve para decidir nada.</p>
+    <p><strong>La tabla va ordenada de mayor a menor calificación de utilidad.</strong> Y lo que se ve al leerla así es que <strong>la nota y el ahorro reportado no van juntos</strong>. Vivienda pone 6 y dice ahorrarse entre 2 y 5 horas. Comunicaciones pone 3 y dice menos de 30 minutos por semana. Son dos situaciones distintas debajo de una nota parecida, y por eso la nota sola no sirve para decidir nada.</p>
     <div class="tablewrap">
       <table>
         <thead>
@@ -299,8 +299,33 @@
         </thead>
         <tbody>
           <tr class="veteran">
+            <td class="area">Contabilidad</td><td class="ses"><strong>6 o más</strong></td>
+            <td class="c"><strong>10</strong></td><td class="c">5</td>
+            <td>Adecuado</td><td><span class="pill good">Más de 5 h</span></td>
+          </tr>
+          <tr class="veteran">
+            <td class="area">Servicios Sociales</td><td class="ses"><strong>6 o más</strong></td>
+            <td class="c"><strong>10</strong></td><td class="c">5</td>
+            <td>Adecuado</td><td><span class="pill good">Entre 2 y 5 h</span></td>
+          </tr>
+          <tr class="veteran">
             <td class="area">Servicios Sociales</td><td class="ses">4 o 5</td>
             <td class="c"><strong>10</strong></td><td class="c">5</td>
+            <td>Adecuado</td><td><span class="pill good">Entre 2 y 5 h</span></td>
+          </tr>
+          <tr>
+            <td class="area">Educación</td><td class="ses">2 o 3</td>
+            <td class="c"><strong>10</strong></td><td class="c">5</td>
+            <td>Adecuado</td><td><span class="pill good">Entre 30 min y 2 h</span></td>
+          </tr>
+          <tr>
+            <td class="area">Sub. Operativa</td><td class="ses">2 o 3</td>
+            <td class="c"><strong>10</strong></td><td class="c">5</td>
+            <td>Adecuado</td><td><span class="pill good">Entre 30 min y 2 h</span></td>
+          </tr>
+          <tr class="veteran">
+            <td class="area">Jurídica</td><td class="ses">4 o 5</td>
+            <td class="c"><strong>9</strong></td><td class="c">4</td>
             <td>Adecuado</td><td><span class="pill good">Entre 2 y 5 h</span></td>
           </tr>
           <tr class="veteran">
@@ -314,34 +339,9 @@
             <td>Adecuado</td><td><span class="pill good">Entre 2 y 5 h</span></td>
           </tr>
           <tr class="veteran">
-            <td class="area">Vivienda</td><td class="ses">4 o 5</td>
-            <td class="c">6</td><td class="c"><span class="pill crit">1</span></td>
-            <td><span class="pill warn">Muy rápido</span></td><td><span class="pill good">Entre 2 y 5 h</span></td>
-          </tr>
-          <tr class="veteran">
-            <td class="area">Comunicaciones</td><td class="ses">4 o 5</td>
-            <td class="c">3</td><td class="c">4</td>
-            <td>Adecuado</td><td><span class="pill warn">Menos de 30 min por semana</span></td>
-          </tr>
-          <tr>
-            <td class="area">Tecnología</td><td class="ses">2 o 3</td>
-            <td class="c">7</td><td class="c">5</td>
+            <td class="area">Contabilidad</td><td class="ses">4 o 5</td>
+            <td class="c">8</td><td class="c">4</td>
             <td>Adecuado</td><td><span class="pill crit">Todavía no lo noto</span></td>
-          </tr>
-          <tr>
-            <td class="area">Servicios Sociales</td><td class="ses">2 o 3</td>
-            <td class="c">4</td><td class="c"><span class="pill warn">3</span></td>
-            <td><span class="pill warn">Muy rápido</span></td><td><span class="pill crit">Todavía no lo noto</span></td>
-          </tr>
-          <tr>
-            <td class="area">Educación</td><td class="ses">2 o 3</td>
-            <td class="c"><strong>10</strong></td><td class="c">5</td>
-            <td>Adecuado</td><td><span class="pill good">Entre 30 min y 2 h</span></td>
-          </tr>
-          <tr>
-            <td class="area">Sub. Operativa</td><td class="ses">2 o 3</td>
-            <td class="c"><strong>10</strong></td><td class="c">5</td>
-            <td>Adecuado</td><td><span class="pill good">Entre 30 min y 2 h</span></td>
           </tr>
           <tr>
             <td class="area">Sub. Operativa</td><td class="ses">2 o 3</td>
@@ -349,34 +349,19 @@
             <td>Adecuado</td><td><span class="pill good">Entre 30 min y 2 h</span></td>
           </tr>
           <tr>
-            <td class="area">Mercadeo</td><td class="ses">2 o 3</td>
-            <td class="c">5</td><td class="c">5</td>
-            <td>Adecuado</td><td><span class="pill crit">Todavía no lo noto</span></td>
+            <td class="area">Subsidio</td><td class="ses">2 o 3</td>
+            <td class="c">8</td><td class="c">4</td>
+            <td>Adecuado</td><td><span class="pill good">Entre 30 min y 2 h</span></td>
           </tr>
           <tr>
-            <td class="area">Mercadeo</td><td class="ses">2 o 3</td>
-            <td class="c">3</td><td class="c">5</td>
-            <td><span class="pill warn">Muy lento</span></td><td><span class="pill crit">Todavía no lo noto</span></td>
-          </tr>
-          <tr class="veteran">
-            <td class="area">Contabilidad</td><td class="ses"><strong>6 o más</strong></td>
-            <td class="c"><strong>10</strong></td><td class="c">5</td>
-            <td>Adecuado</td><td><span class="pill good">Más de 5 h</span></td>
-          </tr>
-          <tr class="veteran">
-            <td class="area">Servicios Sociales</td><td class="ses"><strong>6 o más</strong></td>
-            <td class="c"><strong>10</strong></td><td class="c">5</td>
-            <td>Adecuado</td><td><span class="pill good">Entre 2 y 5 h</span></td>
-          </tr>
-          <tr class="veteran">
-            <td class="area">Jurídica</td><td class="ses">4 o 5</td>
-            <td class="c"><strong>9</strong></td><td class="c">4</td>
-            <td>Adecuado</td><td><span class="pill good">Entre 2 y 5 h</span></td>
-          </tr>
-          <tr class="veteran">
-            <td class="area">Contabilidad</td><td class="ses">4 o 5</td>
-            <td class="c">8</td><td class="c">4</td>
+            <td class="area">Tecnología</td><td class="ses">2 o 3</td>
+            <td class="c">7</td><td class="c">5</td>
             <td>Adecuado</td><td><span class="pill crit">Todavía no lo noto</span></td>
+          </tr>
+          <tr class="veteran">
+            <td class="area">Vivienda</td><td class="ses">4 o 5</td>
+            <td class="c">6</td><td class="c"><span class="pill crit">1</span></td>
+            <td><span class="pill warn">Muy rápido</span></td><td><span class="pill good">Entre 2 y 5 h</span></td>
           </tr>
           <tr class="veteran">
             <td class="area">Comunicaciones</td><td class="ses">4 o 5</td>
@@ -384,9 +369,24 @@
             <td>Adecuado</td><td><span class="pill crit">Todavía no lo noto</span></td>
           </tr>
           <tr>
-            <td class="area">Subsidio</td><td class="ses">2 o 3</td>
-            <td class="c">8</td><td class="c">4</td>
-            <td>Adecuado</td><td><span class="pill good">Entre 30 min y 2 h</span></td>
+            <td class="area">Mercadeo</td><td class="ses">2 o 3</td>
+            <td class="c">5</td><td class="c">5</td>
+            <td>Adecuado</td><td><span class="pill crit">Todavía no lo noto</span></td>
+          </tr>
+          <tr>
+            <td class="area">Servicios Sociales</td><td class="ses">2 o 3</td>
+            <td class="c">4</td><td class="c"><span class="pill warn">3</span></td>
+            <td><span class="pill warn">Muy rápido</span></td><td><span class="pill crit">Todavía no lo noto</span></td>
+          </tr>
+          <tr class="veteran">
+            <td class="area">Comunicaciones</td><td class="ses">4 o 5</td>
+            <td class="c">3</td><td class="c">4</td>
+            <td>Adecuado</td><td><span class="pill warn">Menos de 30 min por semana</span></td>
+          </tr>
+          <tr>
+            <td class="area">Mercadeo</td><td class="ses">2 o 3</td>
+            <td class="c">3</td><td class="c">5</td>
+            <td><span class="pill warn">Muy lento</span></td><td><span class="pill crit">Todavía no lo noto</span></td>
           </tr>
         </tbody>
       </table>
