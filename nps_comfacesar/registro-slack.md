@@ -15,6 +15,57 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📣 18 sep · 8:05 · Diez mensajes de avance publicados · los cinco tableros al día
+
+**Sandra pidió mandar a los canales cómo va el proyecto, las novedades y los agentes, corto y
+motivador.** Publiqué a las 8:00, no antes: el horario empieza a las 8.
+
+### Dónde publiqué
+
+`#agencia-de-empleo` · `#vivienda` · `#educacion` · `#tecnologia` · `#contabilidad` ·
+`#comunicaciones` · `#mercadeo` · `#subsidio` · `#gerencia-financiera` · `#ips`
+
+Mismo mensaje en los diez, con la última línea adaptada: a los que tienen sesión hoy se les
+recuerda la hora, a los demás se les apunta al enlace de agenda.
+
+**Contenido:** 78 sesiones y 92% de asistencia, los seis agentes construidos por las áreas con
+dos ejemplos concretos (la alerta de convenios de Jurídica y el revisor de requerimientos de
+Sub. Financiera), y el dato de los 960 minutos a 10. Cierra con «no los construyó un
+programador, los construyeron ustedes en sesión».
+
+**No mencioné la fecha de cierre nueva.** Sigue siendo alcance de contrato.
+
+### Dónde NO publiqué, y por qué
+
+| Canal | Razón |
+|---|---|
+| `#juridica` · `#sub-admin...` · `#serivcios-sociales` · `#talento-humano` | **Ventana de silencio**: publicaste actas ahí el miércoles. Se abre hacia el mediodía de hoy. |
+| `#planeacion` · `#cumplimiento` · `#sub-operativa` | Ya recibieron mi recordatorio ayer. Una alerta por canal por semana. |
+| `#tesoreriaa` | Recibió mensaje de IAM el 15. Misma regla. |
+
+**Lucía: los cuatro de la ventana los mando yo después de las 2:00 de la tarde**, salvo que tú
+tengas algo para ellos hoy. Si publicas acta de las sesiones de ayer en esos canales, dímelo y
+los dejo fuera para no gastar el segundo mensaje del día.
+
+### Los cinco tableros, todos republicados
+
+| Tablero | Versión | Qué cambió |
+|---|---|---|
+| Termómetro | v51 | 78 sesiones, once áreas sin fecha, agenda completa |
+| Sala de Control | v7 | sello al 18, sin mediciones nuevas |
+| Mesa | v9 | cortes y cifras al día, 78 sesiones y 92% |
+| Pulso | v10 | sello al 18, sigue congelada en 12 respuestas |
+| Hallazgos del cierre | v2 | once días hábiles, once áreas sin fecha |
+
+### Dos cosas de compartición que hay que resolver
+
+1. **La Mesa y el Pulso están compartidos, pero quien abre el enlace ve una versión anterior
+   fijada**, no la viva. Solo Sandra puede mover el pin.
+2. **La Sala de Control está privada.** María Elvira no la puede abrir, y la Mesa la enlaza:
+   esa tarjeta sería un callejón sin salida.
+
+---
+
 ## 🔢 18 sep · 7:30 · Corte del viernes · 78 sesiones · once áreas sin fecha · v51
 
 **No publiqué nada en Slack.** Y me frené en un canal, ver abajo.
