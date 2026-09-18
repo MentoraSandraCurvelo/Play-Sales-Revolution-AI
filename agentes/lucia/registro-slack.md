@@ -897,3 +897,47 @@ septiembre. Se reescribió la alerta crítica de inasistencias con el dato de la
 se actualizó el avance de las 18 áreas, y se añadieron dos bloques nuevos a la sección 07: el
 sistema que se detiene a decir lo que no puede verificar, y la conexión a las cuentas como punto
 de falla real.
+
+---
+
+## 18 de septiembre de 2026 — Subsidio y Aportes S4
+
+**Subsidio y Aportes S4** — 9:00 a. m., 1 h 4 min, individual de **José Luciano Contreras**
+(`coordinacionsubsidioyaportes@comfacesar.com`), coordinador del área. Es el primer espacio con el
+coordinador: la S3 fue con Avelino Romero y Carlos García.
+
+| Publicación | message_ts |
+|---|---|
+| Grabación | `1789746634.318589` |
+| Resumen | `1789747517.229419` |
+
+**Numeración.** El evento decía S4 y es correcto — verificado contra las carpetas: S1 (24 ago),
+S2 (25 ago), S3 (8 sep). *Nota al margen:* el informe de asistencia trae en el título
+«Subsidio S3», porque el evento de Teams se duplicó del anterior. **El registro manda sobre el
+título, en las dos direcciones.**
+
+**Sincronización de Dropbox — se resolvió sola.** A las 10:10 la carpeta `Sesion 4` estaba vacía y
+una búsqueda sobre toda la cuenta mostraba que el archivo más reciente del proyecto era del 16 de
+septiembre a las 22:21. A las 10:44 entraron el `.vtt` y el informe de asistencia. *Conclusión
+práctica: la sincronización funciona pero llega con retraso — conviene esperar y volver a mirar
+antes de concluir que no subió.* Sigue pendiente de aparecer todo lo del 17.
+
+**El contenido de la sesión.** El área trajo el ejercicio más exigente del programa: el presupuesto
+de aportes 2027, con políticas institucionales, serie histórica 2020–2025, cuatro zonas
+—Valledupar, Aguachica, Codazzi y Copey— y el recaudo real mes a mes. El tablero quedó construido
+dentro de la sesión, con ocho KPIs semaforizados y un simulador que recalcula la proyección al
+mover el salario mínimo.
+
+**Y se sumó un cuarto caso al patrón de la semana.** El sistema reportó cuatro vacíos antes de
+proyectar —faltaba el recaudo histórico en pesos, el archivo maestro, y el salario mínimo de 2027
+no existe todavía—. **Pero esta vez hubo algo más:** marcó como inconsistencia el presupuesto
+repetido del último trimestre, **el área lo corrigió** —al no estar ejecutada la vigencia se
+proyecta al 100%— y la explicación quedó escrita en el proyecto. *Ni obedecerlo ni descartarlo:
+corregirlo y dejar constancia.*
+
+**Hallazgo de gestión para el corte:** el recaudo va en **103% de cumplimiento** con corte a julio
+**y las personas afiliadas cayeron un 2%**. Son dos indicadores que normalmente se mueven juntos.
+Queda anotado como pendiente de verificación antes de cerrar el presupuesto.
+
+**Tablero actualizado — Versión 13.** 78 sesiones, corte al 18 de septiembre, Subsidio y Aportes
+pasa a 4 sesiones. *Con esto cuadra el número que salió en los canales esta mañana.*

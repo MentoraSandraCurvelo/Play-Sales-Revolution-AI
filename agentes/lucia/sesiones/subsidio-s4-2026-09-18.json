@@ -1,0 +1,225 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SUBSIDIO Y APORTES",
+  "area_completa": "",
+  "sesion_num": 4,
+  "fase": "Proyectos y Sistemas de Trabajo",
+  "fecha": "18 de septiembre de 2026",
+  "fecha_corta": "18 septiembre 2026",
+  "subtitulo_meta": "Individual de José Luciano Contreras · 18 de septiembre de 2026 · 9:00 a. m. · 1 h 4 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Subsidio y Aportes — Comfacesar"],
+    ["Sesión", "N° 4 — Individual de José Luciano Contreras: el presupuesto de aportes 2027"],
+    ["Fecha", "18 de septiembre de 2026"],
+    ["Duración de la sesión", "1 hora 4 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "José Luciano Contreras — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "103%", "etiqueta": "Cumplimiento del recaudo", "detalle": "Con corte a julio, sobre lo presupuestado"},
+    {"valor": "4", "etiqueta": "Vacíos reportados antes de proyectar", "detalle": "El sistema los pidió, no los supuso"},
+    {"valor": "8", "etiqueta": "KPIs semaforizados en el tablero", "detalle": "Elegidos sobre los datos reales del área"},
+    {"valor": "−2%", "etiqueta": "Personas afiliadas", "detalle": "Caen mientras el recaudo sube"},
+    {"valor": "4", "etiqueta": "Zonas en el análisis", "detalle": "Valledupar, Aguachica, Codazzi y Copey"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "José Luciano Contreras", "cargo": "Coordinación de Subsidio y Aportes — Comfacesar", "correo": "coordinacionsubsidioyaportes@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 4. El área trajo el ejercicio más exigente del programa hasta ahora —el presupuesto de aportes del próximo año— y el tablero quedó construido en la sesión. Lo que apareció al armarlo merece mirarse con calma.",
+  "riesgos": [
+    {
+      "titulo": "Las personas afiliadas caen mientras el recaudo sube",
+      "nivel": "ALTO",
+      "descripcion": "_El tablero lo levantó como alerta crítica al cruzar las dos series:_ el recaudo va **103% de cumplimiento** con corte a julio, **y las personas afiliadas bajan un 2%.** Son dos indicadores que normalmente se mueven juntos. _Si el recaudo crece por salarios y no por base afiliada, la proyección del próximo año se apoya en algo que se está encogiendo._",
+      "responsable": "José Luciano Contreras / Antes del presupuesto"
+    },
+    {
+      "titulo": "La base salarial arrastra un aumento atípico de 2023",
+      "nivel": "ALTO",
+      "descripcion": "**No corresponde a la tendencia del resto de la serie**, y cualquier proyección que la promedie sale inflada. _Se suma una segunda advertencia del mismo tipo:_ el incremento salarial que se usó para 2027 es una **estimación del 8%**, mientras el de 2026 subió un 23%. **Ningún escenario debería presentarse sin decir de qué supuesto cuelga.**",
+      "responsable": "José Luciano Contreras / Antes del presupuesto"
+    },
+    {
+      "titulo": "Alta concentración territorial del recaudo en Valledupar",
+      "nivel": "MEDIO",
+      "descripcion": "De las cuatro zonas —Valledupar, Aguachica, Codazzi y Copey—, **una concentra la mayor parte.** _Lo detectó el tablero por su cuenta al distribuir el recaudo._ No es un hallazgo nuevo para el área, pero es la primera vez que queda cuantificado y a la vista en un solo lugar.",
+      "responsable": "José Luciano Contreras / Permanente"
+    },
+    {
+      "titulo": "El área no está registrando sus ejercicios en el tablero de seguimiento",
+      "nivel": "ALTO",
+      "descripcion": "_Es uno de los canales que la dirección mira con más atención_, y **el retorno y el aumento de productividad se calculan con lo que cada área anota** — el ejercicio, los minutos, la frecuencia. Lo que no se registra, no existe en el corte.",
+      "responsable": "José Luciano Contreras / Inmediato"
+    },
+    {
+      "titulo": "El equipo del área todavía no tiene sesiones propias",
+      "nivel": "ALTO",
+      "descripcion": "**Con tres sesiones por persona se llega a construir un agente**, y el área tiene cuatro personas. _Las individuales rinden igual o más que las grupales_ — pero hay que agendarlas, y el calendario se cierra rápido.",
+      "responsable": "José Luciano Contreras / Esta semana"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Modelar el tablero hasta dejarlo presentable a la dirección",
+      "descripcion": "_El compromiso quedó dicho con esas palabras:_ **dejarlo bien estructurado para que la dirección lo apruebe como parte del sistema de gestión.** Se modela escribiéndole lo que falta, no rehaciéndolo.",
+      "responsable": "José Luciano Contreras",
+      "plazo": "Antes de la S5"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Agendar dos o tres sesiones para la próxima semana",
+      "descripcion": "Y **agendar las individuales del equipo** — Avelino, Carlos y Cindy. _Si alguna se quiere presencial, se indica al agendar._",
+      "responsable": "José Luciano Contreras",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Registrar los ejercicios del área en el tablero de seguimiento",
+      "descripcion": "El ejercicio, los minutos que tomaba antes y la frecuencia. **Es de ahí de donde sale el indicador que la dirección revisa.**",
+      "responsable": "Equipo de Subsidio y Aportes",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Vincular la carpeta de trabajo en lugar de subir archivos sueltos",
+      "descripcion": "_Con la carpeta enlazada el sistema busca solo lo que necesita_, sin que haya que nombrarle cada archivo. **Es lo que convierte un ejercicio de una vez en un proceso que se repite cada año.**",
+      "responsable": "José Luciano Contreras",
+      "plazo": "Antes de la S5"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Cerrar los supuestos del escenario 2027",
+      "descripcion": "**El salario mínimo se define hacia diciembre.** El campo editable ya está en el simulador: al cargar la cifra real, el tablero recalcula proyección y KPIs. _Hasta entonces, todo escenario se presenta como estimación._",
+      "responsable": "José Luciano Contreras",
+      "plazo": "Diciembre"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El proyecto del presupuesto de aportes 2027",
+      "duracion": "~15 min",
+      "objetivo": "Escribir cómo se construye el presupuesto antes de pedirle un número a nadie.",
+      "pasos": [
+        "**El proceso real, dicho por el área:** se parte de lo ejecutado a la fecha y su porcentaje de cumplimiento, se aplican las políticas nuevas de planeación —índice de empleo, crecimiento de empresas y de trabajadores—, y se contrasta contra el comportamiento histórico",
+        "**El rol:** analista financiero y presupuestal senior en planeación, gestión, control y actualización de presupuesto, **con experiencia en cajas de compensación y aportes parafiscales.** _El sector es parte del rol, no un adorno_",
+        "**La entrega:** el porcentaje de aumento posible para 2027 y el valor a presupuestar, **conservando la arquitectura del archivo maestro** —sus hojas y sus fórmulas—, e incorporando la información nueva de forma trazable",
+        "_Corrección de método:_ el área subió los archivos sueltos al contexto. **Lo que corresponde es vincular la carpeta** — el sistema busca solo lo que necesita, sin que haya que nombrarle cada documento",
+        "_Y la segunda, que cambia el alcance:_ el ejercicio se hace una vez al año, **pero se construye como proyecto para que quede listo para todos los años.** Lo que se arme aquí es el insumo del futuro agente del área"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Lo que el sistema devolvió antes de proyectar",
+      "duracion": "~18 min",
+      "objetivo": "Leer los tres insumos y decir qué falta.",
+      "pasos": [
+        "_Los insumos:_ las políticas integrales de presupuesto, la serie histórica 2020–2025 de empresas y afiliados con lo ejecutado a julio, y el recaudo real de 2026 por zona —**Valledupar, Aguachica, Codazzi y Copey**— con lo presupuestado, lo recaudado, las devoluciones y el total. _Las devoluciones son aportes que llegan a la Caja pero pertenecen a otra, y restan al recaudo verdadero_",
+        "**Primero confirmó lo que sí podía afirmar:** con corte a julio el recaudo neto va por encima de lo presupuestado, **en 103% de cumplimiento**",
+        "**Y después reportó cuatro vacíos, en vez de rellenarlos.** No tenía el recaudo histórico en pesos de años anteriores —la serie de empresas y afiliados existe, el valor monetario no—, y advirtió que sin eso **la tasa de crecimiento quedaría sustentada solo en variables poblacionales**. No tenía el archivo maestro con su arquitectura. Y señaló que el incremento salarial de 2027 aún no existe, porque **el salario mínimo se define hacia diciembre**",
+        "**El cuarto punto es el mejor de la sesión, porque el sistema se equivocó y el área lo corrigió.** Marcó como inconsistencia que el presupuesto de octubre, noviembre y diciembre por ciudad fuera casi idéntico. _No era un error:_ al no estar ejecutada la vigencia, se proyecta al 100%. **La explicación quedó escrita en el proyecto**, de modo que no vuelva a levantarse como falla",
+        "_Se resolvieron los cuatro:_ se cargaron las series faltantes y el archivo maestro, y se acordó **trabajar con estimaciones dejando un campo visible** donde se ponga el dato real y se recalcule todo"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El tablero de aportes",
+      "duracion": "~20 min",
+      "objetivo": "Pasar del Excel a un tablero de gestión presentable a la junta.",
+      "pasos": [
+        "**Lo que se pidió:** interactivo y dinámico, con KPIs y los principales hallazgos **para presentar a la junta directiva**; segmentación por año, zona, sede, tipo de aporte y fecha; semaforización y alertas de puntos críticos; una pestaña de hallazgos, proyecciones y estrategias; los gráficos de tendencia del Excel actualizados; **un simulador para ver cómo se comportan las variaciones**; y campos editables que recalculen todo",
+        "**Lo que entregó:** filtros que recalculan el tablero completo, un resumen con **ocho KPIs semaforizados** —recaudo neto ejecutado, cumplimiento, recaudo esperado, proyección, devoluciones, empresas afiliadas, personas afiliadas y desempleo—, recaudo acumulado contra presupuesto, distribución por zona y un panel de alertas",
+        "Una pestaña de **recaudo y ejecución** con el comparativo mensual, el cumplimiento, las devoluciones y el detalle mes a mes; y otra de **población y tendencias** con la serie 2020–2026",
+        "**Y el simulador 2027**, con barras de salario mínimo y de crecimiento de la base laboral **que recalculan la proyección y los KPIs en vivo**",
+        "_Con su fecha de corte de ejecución a julio de 2026 y su fecha de elaboración._ **Lo que quedó pendiente:** el logo entró como marcador provisional, y al cambiar los colores corporativos los gráficos salieron en blanco — quedó corrigiéndose al cierre"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Hasta dónde llega la herramienta",
+      "duracion": "~10 min",
+      "objetivo": "Mostrar el camino completo, no solo el escalón de hoy.",
+      "pasos": [
+        "**Proyecto** — un asistente: recibe una instrucción, analiza y ejecuta. _Es donde está el área hoy, y donde hay que hacer volumen_",
+        "**Artefactos** — los tableros interactivos, y también páginas y aplicaciones. _Lo importante para este caso:_ **un tablero es una dirección web que se puede enviar al equipo y a la junta, y que se actualiza sola.** Es exactamente lo que la dirección quiere poder mirar sin tener que preguntar",
+        "**Tareas programadas** — un resumen ejecutivo diario a una hora fija, recordatorios de vencimiento de entregas, un brief semanal para el equipo. _Basta con nombrar «recordatorio» en la instrucción para que el sistema lo programe_",
+        "**Habilidades** — roles expertos reutilizables. _A diferencia del método CREA, que vive dentro de un solo proyecto,_ **una habilidad se puede usar en todos los proyectos y compartir con el equipo.** Se construyó una en vivo: estadísticas demográficas para subsidios en cajas de compensación",
+        "**Y el destino: el agente**, que corre el circuito completo, toma decisiones y propone mejoras. _Con tres sesiones por persona el área está en condiciones de construir el suyo_"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 4 · 18 septiembre 2026",
+      "titulo": "El tablero de aportes y estructuración presupuestal",
+      "descripcion": "Ocho KPIs semaforizados, filtros por año, zona, sede y tipo de aporte, recaudo contra presupuesto mes a mes, series de población 2020–2026, **un simulador que recalcula la proyección al mover el salario mínimo y la base laboral**, y una pestaña de hallazgos y estrategias. _Construido en una sesión, sobre los datos reales del área._",
+      "estado": "Primera versión",
+      "proximo_paso": "Modelarlo hasta dejarlo presentable a la dirección",
+      "target": "Sesión 5"
+    },
+    {
+      "encabezado": "HALLAZGO DE GESTIÓN · SESIÓN 4 · 18 septiembre 2026",
+      "titulo": "El recaudo sube y la base afiliada baja",
+      "descripcion": "**103% de cumplimiento con corte a julio, y un 2% menos de personas afiliadas.** _Lo levantó el tablero al cruzar las dos series._ Si el crecimiento viene de salarios y no de afiliación, la proyección del próximo año se apoya en una base que se está reduciendo — y eso no se ve en el Excel.",
+      "estado": "Por analizar",
+      "proximo_paso": "Verificar la causa antes de cerrar el presupuesto",
+      "target": "Antes de la S5"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 4 · 18 septiembre 2026",
+      "titulo": "El sistema señaló, y el área lo corrigió",
+      "descripcion": "Marcó como inconsistencia el presupuesto repetido del último trimestre. **No lo era: al no estar ejecutada la vigencia se proyecta al 100%, y así lo explicó el área.** _La explicación quedó escrita en el proyecto._ Es el modo correcto de trabajar con esto — **no obedecer lo que dice, ni descartarlo: corregirlo y dejar constancia.**",
+      "estado": "Resuelto en sesión",
+      "proximo_paso": "Repetir el criterio con cada hallazgo",
+      "target": "Permanente"
+    },
+    {
+      "encabezado": "PRÓXIMO DESTINO · SESIÓN 4 · 18 septiembre 2026",
+      "titulo": "Un tablero que la dirección pueda abrir sola",
+      "descripcion": "Un tablero publicado es una dirección web que se envía y se actualiza sola. **Es lo que la dirección quiere: ver el estado sin tener que preguntarlo.** _El propio puesto lo dijo con sus palabras — tenerlo listo para cuando le pregunten._",
+      "estado": "Al alcance",
+      "proximo_paso": "Terminar de modelar y presentarlo",
+      "target": "Octubre"
+    }
+  ],
+  "tareas_intro": "El ejercicio más exigente que ha traído un área hasta ahora, y el tablero quedó de pie en una sesión. Lo que falta es pulirlo, cerrar los supuestos y poner al equipo a trabajar con la misma frecuencia.",
+  "tareas": [
+    {"tarea": "Modelar el tablero hasta dejarlo presentable a la dirección: logo, colores corporativos y gráficos corregidos", "responsable": "José Luciano Contreras", "prioridad": "ALTA", "plazo": "Antes de la S5"},
+    {"tarea": "Verificar por qué el recaudo sube mientras la base afiliada cae", "responsable": "José Luciano Contreras", "prioridad": "ALTA", "plazo": "Antes de la S5"},
+    {"tarea": "Agendar dos o tres sesiones para la próxima semana, e indicar si alguna se quiere presencial", "responsable": "José Luciano Contreras", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Agendar las sesiones individuales del equipo: Avelino, Carlos y Cindy", "responsable": "José Luciano Contreras", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Registrar los ejercicios del área en el tablero de seguimiento, con minutos y frecuencia", "responsable": "Equipo de Subsidio y Aportes", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Vincular la carpeta de trabajo al proyecto en lugar de subir archivos sueltos", "responsable": "José Luciano Contreras", "prioridad": "MEDIA", "plazo": "Antes de la S5"}
+  ],
+  "observaciones": [
+    "**El área trajo el ejercicio más exigente del programa hasta ahora:** el presupuesto de aportes del próximo año, con políticas institucionales, series históricas de seis años, cuatro zonas y el recaudo real mes a mes. _Y el tablero quedó de pie dentro de la misma sesión._",
+    "_Pero lo que hay que subrayar no es el tablero._ **Antes de proyectar nada, el sistema leyó los tres archivos y devolvió cuatro vacíos:** que no tenía el recaudo histórico en pesos, que sin esa serie la tasa de crecimiento quedaría sustentada solo en variables poblacionales, que le faltaba el archivo maestro, y que **el incremento salarial de 2027 todavía no existe porque el salario mínimo se define en diciembre.** _Ninguno de los cuatro lo inventó._",
+    "**Y hubo un quinto punto donde el sistema se equivocó — y el área lo corrigió.** Marcó como inconsistencia que el presupuesto del último trimestre se repitiera por ciudad. No era un error: al no estar ejecutada la vigencia se proyecta al 100%. _La explicación quedó escrita dentro del proyecto._ **Ese es el modo correcto de trabajar con esto: ni obedecerlo ni descartarlo — corregirlo y dejar constancia.** Es la misma lectura que viene apareciendo en Jurídica, en la Sub. Financiera y en Comunicaciones.",
+    "**El tablero levantó por su cuenta una alerta que merece atención de gestión.** El recaudo va en 103% de cumplimiento con corte a julio, **y las personas afiliadas cayeron un 2%.** Son dos indicadores que normalmente se mueven juntos. _Si el crecimiento viene de salarios y no de afiliación, la proyección del próximo año se apoya en una base que se está encogiendo_ — y eso no se ve mirando el Excel.",
+    "Señaló además **un aumento atípico de 2023 que infla la base salarial** y la concentración territorial del recaudo. Y fue explícito con sus propios supuestos: **el 8% de incremento salarial es una estimación**, cuando el de 2026 subió un 23%. _Un escenario que declara de qué cuelga vale más que uno que no lo dice._",
+    "**Quedó claro el alcance de lo que sigue.** Un tablero publicado es una dirección web que se envía a la junta y se actualiza sola — que es exactamente lo que la dirección pide poder mirar sin tener que preguntar. _El propio puesto lo formuló así: tenerlo listo para cuando le pregunten._",
+    "**El pendiente del área no es técnico, es de frecuencia.** Es uno de los canales que la dirección mira de cerca, **y sus ejercicios no están registrados en el tablero de seguimiento** — que es de donde se calculan el retorno y el aumento de productividad. Tampoco el equipo tiene sesiones propias todavía. _Con tres sesiones por persona se llega a construir un agente, y el área tiene cuatro personas._"
+  ],
+  "proxima_sesion": {
+    "sesion": "Subsidio y Aportes — Sesión 5",
+    "condiciones": [
+      "El tablero modelado, con logo, colores corporativos y gráficos corregidos",
+      "La carpeta de trabajo vinculada al proyecto",
+      "Las sesiones del equipo agendadas",
+      "Los ejercicios registrados en el tablero de seguimiento"
+    ],
+    "agenda": [
+      "Revisión del tablero de aportes y ajuste de indicadores",
+      "El cruce entre recaudo y base afiliada",
+      "Tareas programadas: el resumen ejecutivo y las alertas de vencimiento",
+      "Preparación del primer agente del área"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 18 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
