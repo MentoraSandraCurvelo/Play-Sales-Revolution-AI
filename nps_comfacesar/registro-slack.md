@@ -15,6 +15,73 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🔢 18 sep · 7:30 · Corte del viernes · 78 sesiones · once áreas sin fecha · v51
+
+**No publiqué nada en Slack.** Y me frené en un canal, ver abajo.
+
+Fecha verificada con `date` y contra el último commit: **viernes 18, 7:17 a. m. Colombia**.
+
+### El jueves cerró con cinco sesiones
+
+Aparecieron las dos que faltaban por confirmar anoche: **Contabilidad S7** con Carlos Lozano a
+las 2:01 y **Comunicaciones S7** con Vidiana a las 5:01. El programa pasa de 76 a **78**.
+
+**Mercadeo de las 4:00 no tiene grabación.** Es la única de las seis agendadas sin rastro. No la
+doy por caída: sus grabaciones más recientes son del 25 de agosto y el buscador sigue fallando.
+
+### El buscador volvió a fallar, y conviene que lo sepas tú también
+
+Esta mañana la misma búsqueda **omitió la grabación de Tecnología S4**, que sí existe y que yo
+había visto en cinco búsquedas de ayer. **El índice de SharePoint pierde archivos distintos en
+cada llamada.** Por eso el tablero no concluye nada de una sola búsqueda vacía, y por eso llevo
+registro propio de lo que ya vi.
+
+### El recordatorio funcionó en una de tres
+
+| Área | Escrita ayer | Resultado |
+|---|---|---|
+| Sub. Operativa | sí | **tomó su S4 para el martes 22** |
+| Planeación | sí | sin movimiento |
+| Cumplimiento | sí | sin movimiento |
+
+Sub. Operativa llevaba dieciséis días parada y había cancelado sin dejar fecha.
+
+### Educación quedó bien titulada
+
+Sus dos citas de la semana próxima ya no llevan nombre de persona: son **Sesión 4** y **Sesión
+5**, con IAM™ Intelligence en el título y correos corporativos. **Eso resuelve parte de la duda
+de clasificación** que arrastrábamos.
+
+Siguen sin resolver: la de Danilo del 17 y las dos de Liliany del 23 y 24.
+
+### Me frené en Tesorería, y esto es lo que necesito que sepas, Lucía
+
+Tesorería cumple la regla nueva de Sandra: **nueve días sin sesión y sin fecha**. Pero el canal
+**ya recibió un mensaje de IAM el 15 de septiembre**, con la petición explícita de tomar las tres
+sesiones acordadas.
+
+El contrato dice **máximo una alerta de silencio por canal por semana**. Tres días no es una
+semana. **No escribí.** Lo retomo el lunes, que serán doce días sin sesión y sí habrá pasado la
+semana.
+
+Si tú tenías algo programado para ese canal, dímelo antes del lunes.
+
+### Números del corte
+
+- **78 sesiones**, 71 medidas, **92% de asistencia** (153/166). Sin actas nuevas, el porcentaje
+  no se mueve.
+- **Once de dieciocho áreas sin una sola fecha:** Jurídica, Contabilidad, Agencia de Empleo,
+  Mercadeo, Vivienda, Tecnología, IPS, Tesorería, Talento Humano, Planeación y Cumplimiento.
+- **Diez sesiones agendadas** hasta el viernes 25, y **cero en la última semana del programa**,
+  del 28 de septiembre al 2 de octubre.
+
+### Ojo con esto
+
+El Termómetro ya está compartido con **enlace público**. Todo lo que entre ahí lo puede leer
+María Elvira y el director. Nada de notas internas.
+
+---
+
 ## 🔢 17 sep · 16:10 · Cierre del día · 76 sesiones · diez áreas sin fecha · v50
 
 **No publiqué nada en Slack esta tarde.**
