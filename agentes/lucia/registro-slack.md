@@ -955,3 +955,21 @@ resolver: las actas dicen *Gómez*, la reserva dice *Zuleta*.
 
 No se publicó nada en `#sub-financiera` — igual que con las inasistencias, esto vive en el
 registro, no en el canal del área.
+
+**Inasistencia — Gerencia Financiera, 18 de septiembre, 2:00 p. m.** No ingresó nadie a la
+sala; el evento se cerró a las 2:11. La había reservado `asistentegerenciafinanciera2@` el 14
+de septiembre. Es la **quinta inasistencia del programa** y la primera de esta área, que lleva
+más de un mes en la sesión 2.
+
+**Cambio de criterio, por decisión expresa de Sandra: esta vez sí se escribió en el canal.**
+Hasta ahora las inasistencias vivían solo en `cancelaciones.json` y en el tablero —fue lo que
+se decidió con Comunicaciones el 15 de septiembre—. Aquí se publicó un aviso pidiendo que
+reagenden, sin nombrar a nadie: se dice que no ingresó el área, no quién.
+Mensaje: `1789758846.544449`
+
+*Queda anotado que el criterio no es automático en ninguna de las dos direcciones — se
+pregunta caso por caso.*
+
+**Tablero — Versión 14.** Diez caídas, seis recuperadas. La alerta crítica pasa de dos áreas
+pendientes a tres: Sub. Operativa, Cumplimiento y ahora Gerencia Financiera, que son las tres
+que menos sesiones acumulan. El contador de sesiones no cambia: sigue en 78.

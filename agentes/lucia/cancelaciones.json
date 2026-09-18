@@ -136,14 +136,29 @@
       "compromiso": null,
       "cuenta_como": "cancelada",
       "nota": "Es la segunda vez que se cae la S2 de Cumplimiento: la primera fue el 2 de septiembre, con la representante anterior. Y duele más que aquella, porque **esta era la primera sesión agendada después del relevo de representantes que aprobó la contraparte para destrabar precisamente esta área**. La reservó Aura Marina Sánchez Quintero el 14 de septiembre para hoy. Dos precisiones para el registro: en Calendly la ejecución del cierre quedó a nombre de la anfitriona, no de la invitada —lo habitual cuando la persona avisa por otro canal y se cancela desde el lado de IAM—; y Aura es también quien asume la representación de Auditoría Interna, así que conviene confirmar con Sandra a cuál de las dos áreas contaba esta sesión."
+    },
+    {
+      "area": "Gerencia Financiera",
+      "sesion": "S3",
+      "fecha": "2026-09-18",
+      "hora": "14:00",
+      "canal": "#gerencia-financiera",
+      "quien_cancela": "IAM™ — Sandra",
+      "motivo": "No ingresó nadie del área a la sala. Sandra esperó y cerró el evento a las 2:11 p. m., once minutos después de la hora de inicio.",
+      "causa": "inasistencia — no ingresó a la sala",
+      "aviso_en_canal": "https://iamteamespacio.slack.com/archives/C0BPV3QQ9SN/p1789758846544449",
+      "reagendada": false,
+      "compromiso": "Se pidió en el canal que la reagenden, por decisión expresa de Sandra. Se ofreció cambiar el horario o pasar a formato individual.",
+      "cuenta_como": "cancelada",
+      "nota": "Quinta inasistencia del programa y la primera de Gerencia Financiera. La reservó asistentegerenciafinanciera2@comfacesar.com el 14 de septiembre. El área va en la sesión 2 desde hace más de un mes y ya aparecía señalada en el corte por eso mismo. **Es la primera vez que se publica un aviso de inasistencia en el canal de un área**: hasta ahora el criterio era dejarlo solo en este registro y en el tablero, y Sandra pidió expresamente que en este caso sí se escribiera y se pidiera reagendar."
     }
   ],
   "patron": {
     "detectado": "2026-09-01",
-    "que_pasa": "Nueve sesiones caídas en cinco semanas. Cuatro son inasistencias sin aviso —Servicios Sociales el 3 de septiembre, Sub. Operativa y Mercadeo el miércoles 9, y Comunicaciones el lunes 15—. Las otras cinco son cancelaciones: Educación y Tecnología el 31 de agosto, Cumplimiento el 2 de septiembre, la cita médica de Servicios Sociales el 8, y Cumplimiento otra vez el 16.",
-    "por_que_importa": "Con seis de nueve caídas recuperadas, el problema deja de ser general y queda concentrado en dos áreas. Cumplimiento es el caso que más conviene mirar: se le cayó la S2 el 2 de septiembre, la contraparte aprobó un relevo de representantes para destrabarla, y **la primera sesión agendada después del relevo también se cayó**. El nombramiento no resolvió el problema — lo trasladó. Sub. Operativa lleva desde el 9 de septiembre sin volver, y su última sesión fue buena. Quedan seis semanas y el cierre de octubre es por área.",
+    "que_pasa": "Diez sesiones caídas en cinco semanas. Cinco son inasistencias sin aviso —Servicios Sociales el 3 de septiembre, Sub. Operativa y Mercadeo el miércoles 9, Comunicaciones el lunes 15 y Gerencia Financiera el viernes 18—. Las otras cinco son cancelaciones: Educación y Tecnología el 31 de agosto, Cumplimiento el 2 de septiembre, la cita médica de Servicios Sociales el 8, y Cumplimiento otra vez el 16.",
+    "por_que_importa": "Con seis de diez caídas recuperadas, el problema no es general: está concentrado en tres áreas, y son justamente las que van más atrás. Cumplimiento es el caso que más conviene mirar: se le cayó la S2 el 2 de septiembre, la contraparte aprobó un relevo de representantes para destrabarla, y **la primera sesión agendada después del relevo también se cayó**. El nombramiento no resolvió el problema — lo trasladó. Sub. Operativa lleva desde el 9 de septiembre sin volver, y su última sesión fue buena. Y Gerencia Financiera, que llevaba más de un mes en la sesión 2, acaba de perder su tercera. Quedan seis semanas y el cierre de octubre es por área.",
     "a_quien_toca": "María Elvira Marulanda — es quien puede pedir que el espacio del programa se respete como cualquier otro compromiso institucional.",
-    "actualizado": "2026-09-17",
-    "recuperadas": "Seis de las nueve caídas ya se recuperaron: Educación S3 el 7 de septiembre, Servicios Sociales el 10 —que cierra las dos suyas, la del 3 y la del 8—, Tecnología el 11 por vía propia, y el 17 de septiembre, en el mismo día, Mercadeo S4 y Comunicaciones S6. Quedan tres sin fecha nueva: Sub. Operativa S3 y Cumplimiento S2, esta última caída dos veces. El dato cambia la lectura: la mayoría de las áreas sí vuelve."
+    "actualizado": "2026-09-18",
+    "recuperadas": "Seis de las diez caídas ya se recuperaron: Educación S3 el 7 de septiembre, Servicios Sociales el 10 —que cierra las dos suyas, la del 3 y la del 8—, Tecnología el 11 por vía propia, y el 17 de septiembre, en el mismo día, Mercadeo S4 y Comunicaciones S6. Quedan cuatro sin fecha nueva: Sub. Operativa S3, Cumplimiento S2 —caída dos veces— y ahora Gerencia Financiera. Las tres áreas que no vuelven son, además, las tres que menos sesiones acumulan."
   }
 }
