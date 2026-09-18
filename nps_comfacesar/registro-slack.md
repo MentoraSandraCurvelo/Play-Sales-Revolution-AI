@@ -15,6 +15,72 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🛑 18 sep · 13:10 · Los dos tableros vuelven a decir lo mismo: 78
+
+**Lucía, esto es para que no se nos separe otra vez.** Tu registro decía 78 y mi termómetro
+mostraba 79. El número que salió a los canales esta mañana es **78**, así que el equivocado era
+el mío. Ya está corregido, tablero v53.
+
+### Por qué se separaron, que es lo que importa
+
+No era un error de suma. Eran cuatro diferencias que se tapaban entre sí:
+
+| | Mi tabla tenía | La verdad, verificada en el canal |
+|---|---|---|
+| IPS S3, 17 sep | no estaba | **sí se hizo**, grabación y acta con Danilo Pozo |
+| Mercadeo S4, 17 sep | la daba por sin rastro | **sí se hizo**, individual de Manuel José, 56 min |
+| Mercadeo 25 ago | dos filas, dos individuales | **una sola S3** |
+| Servicios Sociales 3 sep | contaba como sesión | **sin grabación, sin acta, sin informe**, no computa |
+
+Dos que faltaban y dos que sobraban. Salen 78 por los dos caminos.
+
+**Lo de Mercadeo merece una línea aparte.** Ayer escribí en el tablero que su sesión de las 4:00
+no tenía grabación y que **no la daba por caída** porque el buscador de SharePoint ya me había
+fallado tres veces. Hoy la grabación y el acta están publicadas en el canal. **Era el buscador,
+no la sesión.** La misma lección de Jurídica S8, y esta vez esperar sirvió.
+
+### El criterio, escrito para las dos
+
+**Cuenta la sesión numerada del área, no la reunión suelta.** Dos individuales el mismo día con
+el mismo número son una sesión. Y una fecha sin grabación, sin acta y sin informe **queda a la
+vista en la tabla pero no computa** hasta que aparezca un soporte.
+
+Queda una discrepancia abierta que no invento: **Vivienda no tiene S2 registrada.** Sus carpetas
+van S1, S3, S4, S5. Lo dejé marcado en la fila, sin sumar nada, y se lo pregunto a Sandra.
+
+### Fuente que uso para cerrar este número, de ahora en adelante
+
+El canal del área. Una grabación publicada con su acta prueba que la sesión corrió; el buscador
+de SharePoint no prueba nada en ninguna de las dos direcciones.
+
+---
+
+## 18 sep · 13:10 · Corrida de la rutina: no publiqué en ningún canal
+
+Revisé silencio, DM y preguntas. **Hoy no escribí en ningún canal**, y estas son las razones,
+una por una:
+
+| Canal | Por qué no |
+|---|---|
+| `#juridica` | acta tuya hoy 7:49, ventana de 48 h |
+| `#sub-admin-y-financiera-infraestructura` | acta del 16 a las 17:26, la ventana cierra hoy **después de las 5** |
+| `#serivcios-sociales` | acta del 16 a las 18:00, igual |
+| `#talento-humano` | acta del 16 a las 17:23, igual |
+| `#agencia-de-empleo` y `#vivienda` | ocho días justos, pero ya recibieron el empujón de agenda del 15 y el de esta mañana |
+| `#tesoreriaa` | nueve días, escribí el 15, le toca el lunes |
+| `#planeacion` y `#cumplimiento` | escribí el 17, tope de una alerta por canal por semana |
+
+**El «cómo vamos» que quedaba pendiente para esos cuatro canales se va al lunes a las 8:00.**
+No lo dejo programado a propósito: lleva el número de sesiones dentro, y ese número lo vuelvo a
+leer antes de escribirlo. Un mensaje programado no se puede cancelar.
+
+**Lo único que quedó atascado es de Sandra, no tuyo:** Liliany pidió el enlace de agenda el jueves
+a las 9:55 por mensaje directo y se le prometió pasarlo. No está en ningún mensaje de Slack, y en
+Calendly el único tipo de evento activo es el comercial, no el del programa. **No me invento dónde
+está:** se lo pedí a Sandra.
+
+---
+
 ## 🛑 18 sep · 11:25 · REGLA NUEVA · ningún título es definitivo hasta que la sesión corre
 
 **Lucía, esta te toca de lleno.** Sandra me avisó hoy: **la sesión de Liliany de esta mañana
