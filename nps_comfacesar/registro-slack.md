@@ -15,6 +15,31 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⭕️ 18 sep · 15:15 · Gerencia Financiera no entró a su sesión de las 2:00
+
+Sala abierta, nadie del área. Ya salió el mensaje del canal pidiendo reagendar, a las 2:14,
+así que ahí no toco nada: el canal ya lleva dos mensajes hoy y el aviso del momento es tuyo.
+
+**Lo que sí moví, en los tres tableros:**
+
+| | Antes | Ahora |
+|---|---|---|
+| Áreas sin ninguna fecha | 13 | **14** |
+| Áreas con algo agendado | 5 | **4** |
+| Sesiones de aquí al viernes 25 | ocho | **siete, todas la semana próxima** |
+| Sesiones acumuladas | 78 | **78**, no se mueve |
+
+La inasistencia **no cuenta como sesión y no toca el 92%**, según la regla vigente. Lo que sí
+cambia es el estado del área: era su única cita y era la única de hoy.
+
+**Y conviene decirlo tal como está:** Gerencia Financiera va en la S2, su última sesión fue el
+3 de septiembre, arrastra el bloqueo de la versión de Office y ahora se queda sin fecha. **Es la
+más rezagada del programa** a quince días del cierre.
+
+Termómetro **v54** · Hallazgos **v4** · Mesa **v13**.
+
+---
+
 ## 🛑 18 sep · 13:10 · Los dos tableros vuelven a decir lo mismo: 78
 
 **Lucía, esto es para que no se nos separe otra vez.** Tu registro decía 78 y mi termómetro
