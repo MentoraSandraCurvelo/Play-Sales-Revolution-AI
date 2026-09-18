@@ -941,3 +941,17 @@ Queda anotado como pendiente de verificación antes de cerrar el presupuesto.
 
 **Tablero actualizado — Versión 13.** 78 sesiones, corte al 18 de septiembre, Subsidio y Aportes
 pasa a 4 sesiones. *Con esto cuadra el número que salió en los canales esta mañana.*
+
+**Corrección del día — Liliany, 18 de septiembre.** La sesión de las 11:00 a. m. **es de
+IAM™ Ambassadors, no de Intelligence, y no cuenta.** No se había contado —nunca llegó
+grabación—, así que no hubo que quitar nada: el tablero sigue en **78 sesiones** y Sub.
+Admin. y Financiera en 8. *Confirmado con Sandra que el cambio aplica solo a la de hoy:
+sus dos sesiones anteriores —S4 del 8 de septiembre y S8 del 16— quedan como están.*
+
+Se agenda con Gmail personal (`liligozu@gmail.com`), no con correo de Comfacesar. **Al
+aparecer una cita suya hay que preguntar a qué programa corresponde antes de armar el
+acta.** Queda escrito en `NOMBRES.md`, junto con una discrepancia de apellido que hay que
+resolver: las actas dicen *Gómez*, la reserva dice *Zuleta*.
+
+No se publicó nada en `#sub-financiera` — igual que con las inasistencias, esto vive en el
+registro, no en el canal del área.

@@ -95,3 +95,27 @@ representantes participan desde el canal del área donde trabajan. Saharay Díaz
 - Saharay Díaz no se menciona en actas nuevas.
 - Al entrar, cruzar el nombre con su cuenta de Slack: **manda Slack**.
 
+
+---
+
+## Liliany — Sub. Administrativa y Financiera · 18 de septiembre
+
+**La sesión del 18 de septiembre a las 11:00 a. m. es de IAM™ Ambassadors, no de
+IAM™ Intelligence. No cuenta para el programa.** Confirmado por Sandra.
+
+No lleva acta de Intelligence, no entra en el contador de sesiones, no se publica
+resumen en `#sub-financiera` y no aparece en el tablero de corte. *Es el mismo criterio
+que se aplicó a la sesión de IPS: si fue de Ambassadors, no cuenta.*
+
+**Lo que sí sigue contando.** Sus dos sesiones anteriores quedan como están —
+**S4 del 8 de septiembre** y **S8 del 16 de septiembre**—, con sus actas ya publicadas.
+Las otras cinco del área (S2, S3, S5, S6 y S7) son de Rafael Solano.
+
+**Cómo reconocerla al agendar.** Se agenda con un Gmail personal, `liligozu@gmail.com`,
+no con correo de Comfacesar — por eso su sesión no cruza con el canal del área. **Cuando
+aparezca una cita suya, hay que preguntar a cuál de los dos programas corresponde antes
+de armar nada.**
+
+**Apellido por confirmar.** En las actas del 8 y el 16 de septiembre quedó como *Liliany
+Gómez*; en la reserva figura como *Liliany Zuleta*. No se corrigió nada porque los dos
+documentos ya están publicados: **hay que confirmarlo con Sandra antes de tocarlos.**
