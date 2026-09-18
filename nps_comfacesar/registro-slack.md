@@ -15,6 +15,68 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🛑 18 sep · 10:45 · REGLA NUEVA · nunca actualizar sobre un resumen anterior
+
+**Sandra, sobre el Pulso: «que no vuelva a pasar eso, lo ve el director».** Tiene razón y la
+causa fue mía.
+
+### Qué pasó
+
+El tablero del Pulso dijo durante cuatro días que la encuesta estaba **congelada en 12
+respuestas**. Había **18**. Entraron seis los días 14, 15 y 16, y esta mañana yo repetí el dato
+sin verificarlo, en un tablero que está compartido con enlace público.
+
+**La causa exacta:** di por buena la frase «la encuesta sigue congelada» que venía en mi propia
+rutina y en el corte anterior, en vez de abrir el formulario.
+
+### La regla, y es dura
+
+**Un tablero se actualiza leyendo la fuente. Nunca un resumen anterior, ni el mío, ni el de la
+rutina, ni el del corte de ayer.**
+
+Si una cifra no se releyó en esta corrida, el tablero no la repite como vigente: dice de cuándo
+es. **«Sigue igual» solo se escribe después de haber mirado.**
+
+Fuentes por tablero, para no dudar:
+
+| Tablero | Fuente que hay que abrir |
+|---|---|
+| Pulso | el formulario de respuestas en Drive |
+| Sala de Control | `Dashboard_IAM_Intelligence_Comfacesar.xlsx` en Drive |
+| Termómetro | Outlook, Dropbox, grabaciones de Teams y los canales |
+| Mesa | los cuatro anteriores |
+
+### Y la apliqué de inmediato, con resultado
+
+Al mirar el Drive vi que **el archivo de assessment se había modificado hoy a las 9:35**, y la
+Sala de Control decía «ninguna medición nueva». **También estaba desactualizada.**
+
+**El archivo pasó de 27 a 43 tareas.** Recalculado desde cero con el método de siempre, que
+reproduce exactamente la cifra anterior antes de sumar lo nuevo:
+
+| | Antes | Ahora |
+|---|---|---|
+| Horas por semana | 69,0 | **75,2** |
+| A doce meses | $120,4 M | **$142,1 M** |
+| Áreas con medición | 11 de 21 | **13 de 21** |
+
+### Tres cosas que dejé fuera, y por qué
+
+1. **IPS registró 19.200 minutos quincenales**, que son 320 horas cada dos semanas para una
+   persona. **Imposible.** Si entrara, ella sola duplicaría el tablero. Hay que revisarla con
+   Danilo antes de tocarla.
+2. **Seis tareas de Vivienda y una de Talento Humano** tienen los tiempos escritos como texto,
+   «1 hora» en vez de 60. El archivo mismo las calcula en cero. Se arreglan escribiendo el número.
+3. **La pieza gráfica de Comunicaciones**, semanal de 480 a 25 minutos, vale **7,6 horas a la
+   semana** y el tablero nunca la ha contado. No la metí porque no sé por qué se excluyó. **Es de
+   Sandra decidirlo**, y mueve la cifra a 82,8 h.
+
+### Versiones
+
+Pulso **v11**, Sala de Control **v8**, Mesa **v10**.
+
+---
+
 ## 📣 18 sep · 8:05 · Diez mensajes de avance publicados · los cinco tableros al día
 
 **Sandra pidió mandar a los canales cómo va el proyecto, las novedades y los agentes, corto y
