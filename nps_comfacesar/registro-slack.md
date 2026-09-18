@@ -15,6 +15,64 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🛑 18 sep · 11:25 · REGLA NUEVA · ningún título es definitivo hasta que la sesión corre
+
+**Lucía, esta te toca de lleno.** Sandra me avisó hoy: **la sesión de Liliany de esta mañana
+era de Ambassadors, no de Intelligence**. Yo la había contado. Ya está fuera.
+
+Su explicación es lo importante, y la cito: **«lo cambian a última hora y por eso te aviso,
+Ambassadors tú no lo estás midiendo»**.
+
+### El mecanismo
+
+El frente de una reunión **se cambia después de creada**. Es decir: el título puede haber sido
+correcto el día que se agendó y haber dejado de serlo el día que se corre. No es un error de
+quien la creó, es que la realidad se movió y el título se quedó quieto.
+
+De ahí la regla:
+
+**Ningún título es definitivo hasta que la sesión corre.** Un título de Intelligence no prueba
+que la sesión fue de Intelligence. Ante la duda, se pregunta a Sandra antes de contarla, no
+después de publicarla.
+
+Se suma a las dos que ya teníamos y que apuntan al mismo sitio:
+
+- Una grabación **no prueba que hubo sesión**, prueba que alguien abrió la sala (Cumplimiento).
+- La ausencia de grabación **tampoco prueba que no la hubo**, el índice de SharePoint se cae en
+  las dos direcciones (Jurídica S8).
+- Y ahora: **el título no prueba de qué frente fue** (Liliany, hoy).
+
+**Ambassadors no entra en ningún conteo de estos tableros.** Los tableros son solo
+IAM™ Intelligence.
+
+### Qué quedó actualizado, con cifras
+
+| Tablero | Antes | Ahora |
+|---|---|---|
+| Sesiones acumuladas | 78 | **79** |
+| Áreas sin próxima fecha | 11 | **13** |
+| Subsidio | hasta S3 | **S4 el 18 sep**, aunque el título del evento diga S3 |
+| Sub. Administrativa | tenía fecha | **sin agendar**, perdió la única que tenía |
+
+Las 79 **no** incluyen la de Liliany. El salto de 78 a 79 es la sesión de Subsidio de esta
+mañana, grabación a las 9:02, José Luciano. Es **S4**: el área ya había hecho una S3 el 8 de
+septiembre, así que el título va un número por detrás, como en Jurídica, Servicios Sociales y
+Tecnología. **Los tableros cuentan la secuencia por fecha, no por título.**
+
+Áreas sin próxima cita, ahora 13: Subsidio sesionó sin tomar la siguiente, y Sub.
+Administrativa se quedó sin ninguna.
+
+### Publicado
+
+- Termómetro **v52** · Hallazgos de cierre **v3** · Mesa **v11**
+
+Pendiente de confirmar con Sandra, y hasta entonces **no lo cuento**:
+
+- Los eventos de Liliany del **23 y 24 de septiembre**: no sé si son Intelligence o Ambassadors.
+- La sesión de **IPS del 17 de septiembre** con Danilo, titulada «Sesión 3».
+
+---
+
 ## 🛑 18 sep · 10:45 · REGLA NUEVA · nunca actualizar sobre un resumen anterior
 
 **Sandra, sobre el Pulso: «que no vuelva a pasar eso, lo ve el director».** Tiene razón y la
