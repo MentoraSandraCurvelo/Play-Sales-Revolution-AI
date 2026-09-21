@@ -119,3 +119,14 @@ de armar nada.**
 **Apellido por confirmar.** En las actas del 8 y el 16 de septiembre quedó como *Liliany
 Gómez*; en la reserva figura como *Liliany Zuleta*. No se corrigió nada porque los dos
 documentos ya están publicados: **hay que confirmarlo con Sandra antes de tocarlos.**
+
+---
+
+## IPS y Seguridad y Salud en el Trabajo — una sola área
+
+**Confirmado por Sandra el 21 de septiembre: IPS es una sola área y SST entra dentro.**
+No lleva numeración aparte.
+
+Las citas pueden llegar con `sst@comfacesar.com` y con `asistentesst@` y `auxiliarsst@` de
+invitados —como la del miércoles 23— y aun así **son sesiones de IPS y siguen la serie del
+área**. En el acta se nombra como IPS.
