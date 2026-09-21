@@ -4,18 +4,18 @@
 Dropbox—, no contra el título del evento. Cuando llegue cada grabación, el acta sale con el
 número de esta tabla.
 
-De las 26 citas de la semana, **22 son de IAM™ Intelligence en Comfacesar**.
+De las 26 citas de la semana, **22 son de IAM™ Intelligence en Comfacesar**. La de Cumplimiento del lunes se cayó por inasistencia, así que quedan 21 por hacer.
 
 ## Lo que toca
 
 | Día | Hora | Área | Persona | Sesión | Asunto del evento |
 |---|---|---|---|---|---|
-| Lun 21 | 3:00 p. m. | Cumplimiento | Aura Marina Sánchez | **S2** | corregido |
+| ~~Lun 21~~ | 3:00 p. m. | Cumplimiento | — | **no se hizo** | inasistencia · nadie entró |
 | Lun 21 | 5:00 p. m. | Sub. Admin. y Financiera | Liliany | **S9** | falta el número |
 | Mar 22 | 10:00 a. m. | Sub. Operativa y Comercial | — | **S4** | correcto |
 | Mar 22 | 11:00 a. m. | Servicios Sociales | — | **S9** | corregido |
 | Mar 22 | 2:00 p. m. | Jurídica | Lilibeth Costa | **S9** | corregido |
-| Mar 22 | 3:00 p. m. | Cumplimiento | Aura Marina Sánchez | **S3** | corregido |
+| Mar 22 | 3:00 p. m. | Cumplimiento | Aura Marina Sánchez | **S2** | dice «Sesion 3» — devolver a 2 |
 | Mar 22 | 4:00 p. m. | Educación | Julissa Pérez | **S4** | correcto |
 | Mié 23 | 9:00 a. m. | Tecnología | Olga Lucía Barros | **S5** | corregido |
 | Mié 23 | 10:00 a. m. | Jurídica | Lilibeth Costa | **S10** | corregido |
@@ -33,8 +33,9 @@ De las 26 citas de la semana, **22 son de IAM™ Intelligence en Comfacesar**.
 | Vie 25 | 2:00 p. m. | Contabilidad | Carlos Lozano | **S9** | corregido |
 | Vie 25 | 3:00 p. m. | Mercadeo | Manuel José Gutiérrez | **S6** | corregido |
 
-**Quedan tres asuntos por corregir**, los de Liliany. El programa ya está bien —dicen
-Intelligence—, solo les falta el número: **S9, S10 y S11**.
+**Quedan cuatro asuntos por corregir.** Los tres de Liliany —el programa ya está bien, solo les
+falta el número **S9, S10 y S11**— y el de **Cumplimiento del martes, que debe volver a
+«Sesion 2»**: como la del lunes no se hizo, el número no avanzó.
 
 ## Lo que no cuenta
 
@@ -71,7 +72,7 @@ numeración. **Las diez áreas verificadas coinciden.**
 
 | Área | Última carpeta con archivos | Le sigue |
 |---|---|---|
-| Cumplimiento | `Sesion 1` · 26 ago | **S2**, luego S3 |
+| Cumplimiento | `Sesion 1` · 26 ago | **S2** el martes — la del lunes se cayó |
 | Sub. Operativa | `Sesion 3` · 1 sep | **S4** |
 | Servicios Sociales | `Sesion 8` · 16 sep | **S9**, luego S10 |
 | Jurídica | `Sesion 8` · 17 sep | **S9**, S10, S11 |
