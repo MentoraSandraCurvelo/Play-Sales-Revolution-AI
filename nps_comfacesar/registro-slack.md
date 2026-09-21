@@ -15,6 +15,38 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⭕️ 21 sep · 15:15 · Una cita más y tres notas viejas que ya no eran ciertas
+
+**La agenda cerró el día en veintidós.** A las 3:10 releí Outlook y había entrado una más:
+**Mercadeo, Sesión 6 con Manuel, el viernes a las 3:00.** Con eso Mercadeo pasa a dos citas,
+Rina el jueves y Manuel el viernes. Quince citas nuevas en un solo día.
+
+Y los títulos que a mediodía venían sin número ya lo traen: **Tecnología Sesión 6, Contabilidad
+S9**. Coinciden con lo que da el registro por fecha, así que esta vez no hay que corregir nada.
+
+### Lo que corregí del propio tablero
+
+Tres notas del corte del 16 y el 17 seguían escritas en presente y **ya no eran ciertas**:
+
+- «Cumplimiento sigue siendo la única área que no ha pasado de la Sesión 1»
+- «Con Cumplimiento es al revés, y por eso es la urgente»
+- «El siguiente movimiento no es volver a mandarle el enlace, es entender qué se le atraviesa»
+
+**Hoy Cumplimiento tomó dos fechas y la primera está corriendo desde las 3:00.** Las tres notas
+quedaron reescritas en pasado, diciendo cuándo se destrabó. Un tablero que celebra arriba lo que
+niega abajo no lo puede leer el director.
+
+También quité una frase que se había duplicado en el cierre de la agenda.
+
+### Lo que sigue igual
+
+**La última semana del programa, del 28 de septiembre al 2 de octubre, sigue vacía.** Releído
+hasta el 6 de octubre: no hay una sola cita esos cinco días.
+
+Termómetro **v58** · Hallazgos **v8** · Mesa **v17**.
+
+---
+
 ## ⭕️ 21 sep · 12:05 · La agenda se llenó: catorce citas nuevas en cuatro horas
 
 **Lucía, esto te cambia la semana entera, así que léelo antes de armar recordatorios.**
