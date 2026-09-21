@@ -130,3 +130,22 @@ No lleva numeración aparte.
 Las citas pueden llegar con `sst@comfacesar.com` y con `asistentesst@` y `auxiliarsst@` de
 invitados —como la del miércoles 23— y aun así **son sesiones de IPS y siguen la serie del
 área**. En el acta se nombra como IPS.
+
+**Liliany — datos completos, resueltos el 21 de septiembre.**
+
+| Dato | Valor |
+|---|---|
+| Slack | `@profesionalaf` (Liligozu) · `U0BRCP5GD0B` |
+| Correo corporativo | `profesionalaf@comfacesar.com` |
+| Cargo | Profesional Senior |
+| Canal | `#sub-admin-y-financiera-infraestructura` (`C0BPV3TEKB4`) |
+| Correo con el que agenda | `liligozu@gmail.com` — personal |
+
+**Queda cerrado el pendiente del correo corporativo**, abierto desde el 8 de septiembre.
+
+_Y queda explicado por qué se confundían sus sesiones:_ **está en el canal de Intelligence del
+área y agenda desde un Gmail personal**, así que la cita nunca cruzaba con su cuenta de Slack.
+Es el mismo patrón de cuentas cruzadas que bloqueó a cuatro áreas la semana del 15.
+
+**El criterio sigue igual:** sus citas se preguntan antes de armar acta. La del 18 de
+septiembre fue de Ambassadors; las del 8 y el 16 quedaron como Intelligence.
