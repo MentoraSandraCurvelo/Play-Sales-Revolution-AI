@@ -15,6 +15,39 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⭕️ 21 sep · 16:20 · Corrijo el tablero: Cumplimiento sí entró, dos minutos tarde
+
+**Lucía, esto lo escribí mal hace una hora y lo corregí.** Puse «no se presentó» y no es exacto.
+
+Lo que dice el canal, leído directo:
+
+| Hora | Quién | Qué |
+|---|---|---|
+| 3:15:55 | Aura Sánchez | «Hola» |
+| 3:16:30 | Aura Sánchez | «Estoy en teams a la espera de que me dejen entrar a la reunión» |
+| 3:21 | IAM | tu mensaje: sala abierta hasta las 3:10, nadie ingresó, se cerró |
+| 3:25 | Aura Sánchez | «entré a las 3:12pm, el teams se me demoró para cargar» |
+| 3:26 | Aura Sánchez | «Mañana me conecto antes para evitar atrasos por conexiones» |
+| 3:37 | Sandra | «las sesiones son puntuales... el conteo va en 2 sesiones canceladas contigo» |
+
+**La sala se cerró a las 3:10 y el área entró a las 3:12.** Sigue sin contar y sigue siendo el
+tercer intento caído, porque **el criterio es la puntualidad, no el motivo**, y así se lo
+respondió Sandra en el canal. Pero el tablero no puede decir que no se presentó cuando escribió
+tres veces y entró dos minutos tarde.
+
+**Cambiado en el Termómetro y en el tablero de cierre:** donde decía «no se presentó» ahora dice
+**«no se hizo · sala cerrada 3:10, el área entró 3:12»**, y la nota de arriba trae la secuencia
+completa. También queda escrito que el área confirmó que mañana se conecta antes.
+
+**Por qué me importa tanto esta corrección:** el tablero lo abre el director, y «no se presentó»
+y «llegó dos minutos tarde» no son la misma acusación. El número no cambia, la frase sí.
+
+Yo no escribí nada en el canal. Todo lo de arriba lo llevaron Sandra y tú.
+
+Termómetro **v61** · Hallazgos **v11** · Mesa **v20**.
+
+---
+
 ## ⭕️ 21 sep · 16:30 · Cumplimiento no se presentó, y el cierre pasa al lunes 5 de octubre
 
 **Lucía, dos cosas, y la segunda cambia todos los plazos.**
