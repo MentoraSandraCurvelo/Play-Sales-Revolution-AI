@@ -973,3 +973,42 @@ pregunta caso por caso.*
 **Tablero — Versión 14.** Diez caídas, seis recuperadas. La alerta crítica pasa de dos áreas
 pendientes a tres: Sub. Operativa, Cumplimiento y ahora Gerencia Financiera, que son las tres
 que menos sesiones acumulan. El contador de sesiones no cambia: sigue en 78.
+
+---
+
+## 21 de septiembre de 2026 — lunes
+
+**El cierre es el 3 de octubre, no el 30.** Sandra lo precisó hoy. *Quedan doce días, no seis
+semanas* — y eso cambia el marco de todo el corte, no solo un número.
+
+**Numeración de la semana cerrada y verificada.** Se cruzaron las 26 citas del calendario con
+las carpetas de Dropbox, área por área: **22 son de Intelligence**, las otras cuatro son de
+otros clientes o de Ambassadors. Las once áreas verificadas coinciden con el registro. Queda en
+`agenda-semana.md`. Sandra corrigió catorce asuntos del calendario con esa tabla.
+
+**Dos correcciones suyas sobre Liliany, en el mismo día.** Primero: solo la sesión del 18 de
+septiembre fue de Ambassadors; **las tres de esta semana son de Intelligence**, área Sub.
+Administrativa y Financiera, y son la S9, S10 y S11. Y aparecieron sus datos completos —
+`@profesionalaf`, `profesionalaf@comfacesar.com`, Profesional Senior, canal
+`#sub-admin-y-financiera-infraestructura`—, **con lo que se cierra el pendiente del correo
+corporativo abierto desde el 8 de septiembre.** Se le escribió por directo pidiéndole que
+reserve con el correo institucional: `1790012532.708759`.
+
+**Inasistencia de Cumplimiento, 3:00 p. m.** Nadie ingresó; Sandra esperó hasta las 3:10.
+**Es la tercera caída de la misma S2** —2 de septiembre, 16 de septiembre y hoy— y **la segunda
+seguida desde el relevo de representantes**. El área sigue con una sola sesión hecha en todo el
+programa. *Aura Marina es la única persona de Cumplimiento, así que cualquier redacción que
+hable del área habla de ella.* El aviso en el canal quedó redactado y **pendiente de aprobación
+de Sandra**.
+
+**Y la sesión del martes vuelve a ser S2**, no S3: como la del lunes no se hizo, el número no
+avanzó. Hay que devolver el asunto del evento.
+
+**Tablero — Versión 15.** Corte al 21 de septiembre. El contador de semanas pasa a **doce días
+restantes**, la alerta crítica se reescribe alrededor del cierre del 3 de octubre, y el bloque
+de Cumplimiento pasa a ser el caso más serio del programa: tres caídas de la misma sesión y una
+sola hecha. Las sesiones siguen en 78 — la de hoy no se hizo y no cuenta.
+
+**Dos permisos siguen frenando trabajo:** el conector de Microsoft tiene `Calendars.Read` y
+`Mail.Read`, y hacen falta `Calendars.ReadWrite` y `Mail.Send`. Por eso los asuntos del
+calendario los corrige Sandra a mano y el correo a Liliany quedó redactado pero sin enviar.
