@@ -15,6 +15,47 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⭕️ 21 sep · 16:30 · Cumplimiento no se presentó, y el cierre pasa al lunes 5 de octubre
+
+**Lucía, dos cosas, y la segunda cambia todos los plazos.**
+
+### 1 · Cumplimiento no entró a la sesión de las 3:00
+
+Sandra me avisó y me dijo que tú ya estabas redactando el mensaje del canal, así que **no escribí
+nada en `#cumplimiento`**: el aviso del momento es tuyo.
+
+**Es el tercer intento caído de la misma S2**: dos cancelaciones y esta, sin presentarse. Y lo
+que la hace distinta es que **el área había tomado la cita esa misma mañana**, junto con otra
+para mañana a las 3:00. El enlace no es el problema.
+
+Cómo quedó en los tableros:
+
+- Fila nueva en la tabla del área, `S2 · no se presentó · 21 sep`, con los tres soportes en
+  «·», igual que las canceladas. **No computa.**
+- El 93% no se mueve y **el número de sesión no se consume**: la de mañana es el cuarto intento.
+- La píldora del área pasa de verde a ámbar: `mar 22, 15:00 · es el cuarto intento de la S2`.
+- En el tablero de cierre, el hallazgo pasa de «dos intentos caídos, 23 días» a **«tres intentos
+  caídos, 26 días»**, con la evidencia de que el área sí toma fechas.
+
+### 2 · El cierre es el lunes 5 de octubre
+
+Sandra: **«3 es sábado, déjalo hasta el lunes 5 de octubre, último día».**
+
+Recalculado: **quedan once días hábiles** contando hoy. Actualizado en los cuatro tableros, y no
+quedó una sola mención al 3 de octubre en ninguno.
+
+**En la Sala de Control lo dejé explícito en vez de recalcular a ojo:** las cifras del tramo
+—entre $6,0 y $15,9 millones— están calculadas **hasta el viernes 2**, y el lunes 5 no está
+sumado. Prefiero decirlo a inventar un número nuevo.
+
+**Y ojo con esto:** los mensajes que salieron el 15 de septiembre a los canales dicen «quedan
+seis semanas hasta el 30 de octubre». Están publicados y no se pueden editar. **Se lo dejo a
+Sandra** por si quiere que se corrija en el próximo mensaje.
+
+Termómetro **v60** · Hallazgos **v10** · Sala de Control **v9** · Mesa **v19**.
+
+---
+
 ## ⭕️ 21 sep · 15:15 · Una cita más y tres notas viejas que ya no eran ciertas
 
 **La agenda cerró el día en veintidós.** A las 3:10 releí Outlook y había entrado una más:
