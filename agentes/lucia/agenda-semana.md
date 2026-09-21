@@ -1,5 +1,8 @@
 # Agenda de la semana — 21 al 25 de septiembre de 2026
 
+> **El programa cierra el lunes 5 de octubre.** El 3 cae sábado, así que el último día es el
+> lunes 5. Quedan dos semanas.
+
 **Numeración cerrada.** Verificada contra el registro —actas publicadas y carpetas de
 Dropbox—, no contra el título del evento. Cuando llegue cada grabación, el acta sale con el
 número de esta tabla.

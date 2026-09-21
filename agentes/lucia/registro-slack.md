@@ -978,8 +978,8 @@ que menos sesiones acumulan. El contador de sesiones no cambia: sigue en 78.
 
 ## 21 de septiembre de 2026 — lunes
 
-**El cierre es el 3 de octubre, no el 30.** Sandra lo precisó hoy. *Quedan doce días, no seis
-semanas* — y eso cambia el marco de todo el corte, no solo un número.
+**El cierre es el 5 de octubre, no el 30.** Sandra lo precisó hoy: el 3 cae sábado, así que el
+último día es el **lunes 5**. *Quedan dos semanas, no seis* — y eso cambia el marco de todo el corte, no solo un número.
 
 **Numeración de la semana cerrada y verificada.** Se cruzaron las 26 citas del calendario con
 las carpetas de Dropbox, área por área: **22 son de Intelligence**, las otras cuatro son de
@@ -1004,11 +1004,24 @@ de Sandra**.
 **Y la sesión del martes vuelve a ser S2**, no S3: como la del lunes no se hizo, el número no
 avanzó. Hay que devolver el asunto del evento.
 
-**Tablero — Versión 15.** Corte al 21 de septiembre. El contador de semanas pasa a **doce días
-restantes**, la alerta crítica se reescribe alrededor del cierre del 3 de octubre, y el bloque
+**Tablero — Versión 15.** Corte al 21 de septiembre. El contador pasa a **dos semanas
+restantes**, la alerta crítica se reescribe alrededor del cierre del 5 de octubre, y el bloque
 de Cumplimiento pasa a ser el caso más serio del programa: tres caídas de la misma sesión y una
 sola hecha. Las sesiones siguen en 78 — la de hoy no se hizo y no cuenta.
 
 **Dos permisos siguen frenando trabajo:** el conector de Microsoft tiene `Calendars.Read` y
 `Mail.Read`, y hacen falta `Calendars.ReadWrite` y `Mail.Send`. Por eso los asuntos del
 calendario los corrige Sandra a mano y el correo a Liliany quedó redactado pero sin enviar.
+
+**Aviso de cierre a los canales.** Se publicó en **17 de los 18 canales de área** que el
+programa cierra el **lunes 5 de octubre** —el 3 cae sábado— y que agenden dos o tres sesiones,
+no una. Cada mensaje lleva una línea propia con la sesión en la que va el área y lo que tiene
+construido; a las que llevan semanas sin volver se les dice con fecha.
+
+*Los once primeros salieron con «3 de octubre · doce días» antes de la corrección. Sandra los
+edita ella misma.* Los seis últimos —IPS, Educación, Sub. Operativa, Tesorería, Planeación y
+Gerencia Financiera— salieron ya con la fecha correcta.
+
+**`#cumplimiento` quedó fuera del envío a propósito:** acababan de no presentarse y un mensaje
+de «agenden» sin mencionarlo habría quedado fuera de lugar. Ese aviso se redactó combinando
+las dos cosas y **está pendiente de aprobación de Sandra**.
