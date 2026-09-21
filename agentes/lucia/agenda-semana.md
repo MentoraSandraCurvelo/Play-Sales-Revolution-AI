@@ -70,3 +70,33 @@ quién entra a la sala.
 **El conector de Outlook no puede escribir el asunto de las reuniones.** Tiene
 `Calendars.Read` y haría falta `Calendars.ReadWrite`, que concede un administrador del
 tenant. Hasta entonces los asuntos los corrige Sandra a mano, y esta tabla es la referencia.
+
+---
+
+## Verificación contra Dropbox — 21 de septiembre
+
+Se cruzó, área por área, el último informe de asistencia que existe en Dropbox contra la
+numeración de esta tabla. **Las diez áreas coinciden. No hay ninguna discrepancia.**
+
+| Área | Última carpeta con archivos en Dropbox | Le sigue | El calendario |
+|---|---|---|---|
+| Cumplimiento | `Sesion 1` · 26 ago | **S2**, luego S3 | dice «Sesion 1» y «Sesion 2» — mal |
+| Sub. Operativa | `Sesion 3` · 1 sep | **S4** | dice S4 — bien |
+| Servicios Sociales | `Sesion 8` · 16 sep | **S9**, luego S10 | dice S8 y S9 — mal |
+| Jurídica | `Sesion 8` · 17 sep | **S9**, S10, S11 | sin número |
+| Educación | `Sesion 3` · 7 sep | **S4**, luego S5 | dice 4 y 5 — bien |
+| Tecnología | `Sesion 4` · 17 sep | **S5**, luego S6 | sin número |
+| IPS | `Sesion 3` · 17 sep | **S4** | sin número |
+| Comunicaciones | `Sesion 7` · 17 sep | **S8**, luego S9 | dice S8 y S9 — bien |
+| Mercadeo | `Sesion 4` · 17 sep | **S5**, luego S6 | sin número |
+| Contabilidad | `Sesion 7` · 17 sep | **S8**, luego S9 | sin número |
+
+**Todo lo del 17 de septiembre ya está en Dropbox.** Entró el viernes 18 a las 10:55 de la
+mañana: Jurídica S8, Contabilidad S7, Comunicaciones S6 y S7, Tecnología S4, IPS S3 y
+Mercadeo S4. *Ya no falta nada por subir.*
+
+**El único hueco del registro es de Sub. Operativa:** la carpeta `Sesion 2` no existe. El área
+va de `Sesion 1` (19 de agosto) directo a `Sesion 3` (1 de septiembre), así que **ha hecho dos
+sesiones aunque la numeración diga tres.** Se mantiene la serie publicada —la del martes es la
+S4— porque el acta del 1 de septiembre ya salió como S3 y el área la tiene. Si alguna vez se
+corrige, se corrige hacia atrás y se avisa al área.
