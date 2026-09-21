@@ -1030,3 +1030,8 @@ las dos cosas y se publicó tras la revisión de Sandra: `1790022096.514359`.
 franqueza»— y el mensaje quedó seco a propósito. *Su razón:* **María Elvira Marulanda está en
 ese canal y lo lee.** El aviso dice las tres caídas, que el área tiene una sola sesión hecha,
 que el cierre es el 5 de octubre, y pide confirmar la de mañana martes.
+
+**Regla nueva, del 21 de septiembre: nada se publica sin que Sandra lo vea.** Todo mensaje a
+canal, directo, hilo o correo se redacta, se muestra en el chat y se espera aprobación. *El
+motivo fue concreto:* los once avisos de cierre salieron con la fecha vieja y ella tuvo que
+editarlos uno por uno. Queda escrito en `LUCIA.md`.

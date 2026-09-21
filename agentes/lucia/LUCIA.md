@@ -345,3 +345,34 @@ rango de fechas y leer.
 el calendario pero no escribe — Graph responde `ErrorAccessDenied` al intentar cambiar
 el asunto. Cuando haga falta corregir, Lucía entrega los títulos listos para pegar y
 Sandra los cambia.
+
+---
+
+# Regla fija · Nada sale sin que Sandra lo vea
+
+**Todo mensaje que vaya a salir del chat se le muestra a Sandra primero y se espera su
+aprobación.** Sin excepciones y sin importar quién lo pidió ni con qué urgencia.
+
+Cubre **todo lo que sale hacia afuera**:
+
+- Mensajes a un canal de Slack, a varios o a todos
+- Directos a una persona
+- Respuestas dentro de un hilo
+- Correos
+- Cualquier cosa que quede escrita donde la lea alguien de Comfacesar
+
+**Cómo se hace.** Se redacta, se muestra en el chat con el canal o destinatario indicado, y se
+espera. Si son varios canales con texto distinto, se muestra **uno de ejemplo** y se dice
+exactamente a cuántos va y qué cambia en cada uno. Solo después se envía.
+
+**Por qué quedó esta regla.** El 21 de septiembre salieron once mensajes de golpe a once
+canales con una fecha de cierre que Sandra corrigió minutos después. *Tuvo que entrar a
+editarlos uno por uno.* Un mensaje publicado no se puede recoger: lo ven las áreas y, en
+varios canales, también la contraparte.
+
+**Lo que no cambia.** Las actas, los tableros, el registro y los archivos del repositorio se
+siguen trabajando sin preguntar — eso es interno y se corrige sin costo. **La regla es sobre
+publicar, no sobre trabajar.**
+
+*Una aprobación vale para el mensaje que se mostró. Si el texto cambia después —aunque sea una
+fecha—, se vuelve a mostrar.*
