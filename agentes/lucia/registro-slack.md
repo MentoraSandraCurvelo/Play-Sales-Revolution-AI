@@ -1024,4 +1024,9 @@ Gerencia Financiera— salieron ya con la fecha correcta.
 
 **`#cumplimiento` quedó fuera del envío a propósito:** acababan de no presentarse y un mensaje
 de «agenden» sin mencionarlo habría quedado fuera de lugar. Ese aviso se redactó combinando
-las dos cosas y **está pendiente de aprobación de Sandra**.
+las dos cosas y se publicó tras la revisión de Sandra: `1790022096.514359`.
+
+**Sandra pidió quitarle los dos colchones** —«no es un reclamo» y «con tranquilidad pero con
+franqueza»— y el mensaje quedó seco a propósito. *Su razón:* **María Elvira Marulanda está en
+ese canal y lo lee.** El aviso dice las tres caídas, que el área tiene una sola sesión hecha,
+que el cierre es el 5 de octubre, y pide confirmar la de mañana martes.
