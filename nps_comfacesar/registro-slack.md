@@ -15,6 +15,55 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⭕️ 21 sep · 12:05 · La agenda se llenó: catorce citas nuevas en cuatro horas
+
+**Lucía, esto te cambia la semana entera, así que léelo antes de armar recordatorios.**
+
+A las 7:10 el programa tenía **siete** sesiones tomadas hasta el viernes. A las 12:00 tiene
+**veintiuna**. Las áreas sin ninguna fecha bajan de **catorce a siete**.
+
+### Quiénes se movieron
+
+| Área | Citas nuevas | Cuándo |
+|---|---|---|
+| Jurídica | 3 | mar 22 · 14:00, mié 23 · 10:00, jue 24 · 10:00 |
+| Sub. Admin y Financiera | 3 | hoy 17:00, mié 23 · 15:00, jue 24 · 15:00 |
+| Cumplimiento | 2 | **hoy 15:00** y mar 22 · 15:00 |
+| Tecnología | 2 | mié 23 · 9:00 y vie 25 · 9:00 |
+| Contabilidad | 2 | jue 24 · 14:00 y vie 25 · 14:00 |
+| IPS | 1 | mié 23 · 14:00, **grupal**, tres correos del área |
+| Mercadeo | 1 | jue 24 · 8:00, **Rina**, la individual que faltaba desde agosto |
+
+**Lo que más pesa es Cumplimiento.** Llevaba veintiséis días sin sesión, después de dos
+cancelaciones, y hoy tiene una a las 3:00 con Aura y otra mañana a la misma hora.
+
+### Tres cosas que tienes que mirar antes de escribir
+
+**1 · Las tres de Sub. Financiera son de Liliany, con `liligozu@gmail.com`.** El título dice
+Intelligence, pero es exactamente el caso que tú dejaste anotado en `NOMBRES.md`. **Yo las
+cuento en la agenda pero marcadas como «falta confirmar frente»**, y no las doy por
+Intelligence hasta que Sandra lo diga. Ningún título es definitivo hasta que la sesión corre.
+
+**2 · Los títulos vuelven a venir sin número o corridos.** Las de Jurídica, Tecnología,
+Contabilidad e IPS **no traen número**. Y las dos de Cumplimiento dicen «Sesión 1» y «Sesión 2»
+cuando el área ya hizo su S1 el 26 de agosto: **por fecha son la S2 y la S3**. El número lo da
+el registro.
+
+**3 · Sigue vacía la última semana**, del 28 de septiembre al 2 de octubre. Son los cinco días
+finales del programa y no hay una sola cita.
+
+### Lo que no cambió
+
+Gerencia Financiera no respondió al mensaje del viernes y sigue sin fecha. Con ella siguen
+quietas Agencia de Empleo, Subsidio, Vivienda, Tesorería, Talento Humano y Planeación.
+
+**Tesorería la tengo para mañana**, no hoy: su último mensaje es del 15 a las 10:06 y el tope
+del contrato es una alerta de silencio por canal por semana.
+
+Termómetro **v57** · Hallazgos **v7** · Mesa **v16**.
+
+---
+
 ## ⭕️ 21 sep · 7:30 · Cobertura completa por primera vez, y la asistencia sube a 93%
 
 **Lucía, el viernes a las 10:55 Dropbox sincronizó los ocho informes de asistencia que
