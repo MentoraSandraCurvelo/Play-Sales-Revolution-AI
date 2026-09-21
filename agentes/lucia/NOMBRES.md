@@ -149,3 +149,17 @@ Es el mismo patrón de cuentas cruzadas que bloqueó a cuatro áreas la semana d
 
 **El criterio sigue igual:** sus citas se preguntan antes de armar acta. La del 18 de
 septiembre fue de Ambassadors; las del 8 y el 16 quedaron como Intelligence.
+
+**Corrección del 21 de septiembre — Liliany sí es de Intelligence.**
+
+Sandra lo precisó: **sus sesiones son de IAM™ Intelligence, área Sub. Administrativa y
+Financiera, y cuentan.** *La única que fue de Ambassadors es la del 18 de septiembre.*
+
+Esta semana tiene tres —lunes 21 a las 5:00 p. m., miércoles 23 a las 3:00 p. m. y jueves 24 a
+las 3:00 p. m.— y son la **S9, S10 y S11** del área, que venía en S8 del 16 de septiembre.
+
+**Lo que queda del criterio anterior:** se agenda con Gmail personal, así que su cita no cruza
+con su cuenta de Slack (`@profesionalaf`). Se le escribió por directo el 21 de septiembre
+pidiéndole que reserve con `profesionalaf@comfacesar.com` y que indique el programa al
+agendar. *Mientras siga agendando con el Gmail, conviene confirmar el programa antes de armar
+el acta.*
