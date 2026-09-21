@@ -15,6 +15,81 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⭕️ 21 sep · 7:30 · Cobertura completa por primera vez, y la asistencia sube a 93%
+
+**Lucía, el viernes a las 10:55 Dropbox sincronizó los ocho informes de asistencia que
+faltaban**, las siete sesiones del 17 y la S4 de Subsidio. Los leí uno por uno.
+
+**Las ocho salieron completas, 8 de 8 personas**, todas individuales:
+
+| Sesión | Persona | Entró |
+|---|---|---|
+| Tecnología S4 | Olga Lucía Barros | sí |
+| Jurídica S8 | Lilibeth Costa | sí |
+| IPS S3 | Danilo Pozo | sí |
+| Contabilidad S7 | Carlos Lozano | sí |
+| Comunicaciones S6 | Sandra Machado | sí |
+| Mercadeo S4 | Manuel José Gutiérrez | sí |
+| Comunicaciones S7 | Vidiana Bendeck | sí |
+| Subsidio S4 | José Luciano Contreras | sí |
+
+El acumulado pasa de **153 sobre 166** a **161 sobre 174**, es decir de 92% a **93%**. Y las
+**78 sesiones verificadas quedan todas medidas**: es la primera vez que el tablero llega a
+cobertura completa.
+
+### Dos cosas de la lectura que conviene que sepas
+
+**En Subsidio, José Luciano aparece dos veces** en el informe de Teams, entró desde dos
+dispositivos. **Cuenta como una persona.** Es el mismo caso de Cindy Silva en Vivienda.
+
+**Y en Mercadeo apareció un tercer participante que no es una persona:** un
+`read.ai meeting notes` que entró a las 4:01 y fue el último en salir. **Es el segundo
+transcriptor externo del programa**, después del de Agencia de Empleo del 10 de septiembre, y
+es de otra marca. Con un caso era un dato; con dos en áreas distintas y herramientas distintas,
+es una práctica. Lo subí al tablero de hallazgos con esa lectura.
+
+### Lo que sigue sin aparecer
+
+**El acta de Subsidio S4.** Es lo único que le falta a esa sesión: grabación y asistencia ya
+están. El resumen del canal dice «el acta completa se comparte en el canal» y todavía no llegó.
+
+**Y el fin de semana no entró ninguna fecha nueva.** La agenda de Outlook, releída hasta el 6 de
+octubre, tiene exactamente las siete sesiones que ya estaban: Sub. Operativa y Servicios
+Sociales y Educación el martes, Educación y Comunicaciones el miércoles, Servicios Sociales el
+jueves, Comunicaciones el viernes. **La última semana del programa, del 28 de septiembre al 2 de
+octubre, sigue completamente vacía.**
+
+Hoy lunes no hay ninguna sesión de Intelligence. Las dos citas de hoy son de Ambassadors y no
+entran aquí.
+
+Termómetro **v56** · Hallazgos **v6** · Mesa **v15**.
+
+---
+
+## ⭕️ 21 sep · 7:30 · Programados los cuatro «cómo vamos» que quedaron del viernes
+
+Los cuatro canales que el viernes estaban dentro de la ventana de 48 horas ya están libres.
+**Quedaron programados para hoy a las 8:00**, con el número releído antes de escribirlo, 78
+sesiones y 93%:
+
+| Canal | ID del programado | Cierre del mensaje |
+|---|---|---|
+| `#juridica` | `Dr0C3977D6P8` | falta tomar la próxima fecha |
+| `#sub-admin-y-financiera-infraestructura` | `Dr0C3ER8F4J0` | cerró dos sesiones y no quedó fecha |
+| `#serivcios-sociales` | `Dr0C3ER95PPE` | tiene las dos de esta semana, nos vemos mañana |
+| `#talento-humano` | `Dr0C3ER9KQVA` | falta la individual por persona |
+
+**Los programé en vez de esperar a las 8:00 porque la corrida cayó a las 7:25**, y quedan
+anotados aquí como manda el contrato. Ninguno lleva alerta de silencio: las cuatro áreas
+sesionaron la semana pasada.
+
+**Y a ninguno le prometí dónde está el enlace de agenda.** En su lugar dice «si no les aparece,
+escríbanme por este canal y se los paso», que es lo único que puedo sostener: Liliany avisó el
+jueves que a ella no le aparece, y el enlace no está en ningún mensaje de Slack ni en los tipos
+de evento activos de Calendly.
+
+---
+
 ## ⭕️ 18 sep · 15:15 · Gerencia Financiera no entró a su sesión de las 2:00
 
 Sala abierta, nadie del área. Ya salió el mensaje del canal pidiendo reagendar, a las 2:14,
