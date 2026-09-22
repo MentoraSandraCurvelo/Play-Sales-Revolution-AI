@@ -1077,3 +1077,18 @@ Aviso publicado: `1790112314.989779`
 rodeos y de frente, yo no hablo así; sí soy directa pero no tan tajante»*. **Los hechos van
 completos —los minutos de espera, las semanas sin sesión, la fecha de cierre— pero contados,
 no reclamados.** Nada de fórmulas que anuncien dureza antes de decir el hecho.
+
+## 22 de septiembre de 2026 — tarde
+
+| Canal | Qué se publicó | message_ts |
+|---|---|---|
+| `#sub-operativa` | Grabación S4 | `1790114047.370439` |
+| `#sub-operativa` | Resumen S4 | `1790114061.155949` |
+| `#juridica` | Grabación S9 | `1790114069.281789` |
+| `#juridica` | Resumen S9 | `1790114296.910079` |
+
+**Cambio de regla.** Sandra corrigió el alcance: *«tú no necesitas visto bueno para enviar
+las grabaciones y el acta, son los mensajes puntuales»*. Las grabaciones y los resúmenes de
+sesión salen el mismo día sin mostrarlos antes. Los avisos, recordatorios, directos y correos
+se siguen mostrando.
+

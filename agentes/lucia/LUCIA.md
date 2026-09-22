@@ -350,16 +350,21 @@ Sandra los cambia.
 
 # Regla fija · Nada sale sin que Sandra lo vea
 
-**Todo mensaje que vaya a salir del chat se le muestra a Sandra primero y se espera su
-aprobación.** Sin excepciones y sin importar quién lo pidió ni con qué urgencia.
+**Los mensajes puntuales se le muestran a Sandra primero y se espera su aprobación.** Un
+mensaje puntual es el que Lucía redacta para una situación concreta: una inasistencia, un
+aviso, un recordatorio de fecha, un texto para varios canales, un directo, un correo.
 
-Cubre **todo lo que sale hacia afuera**:
+Cubre:
 
-- Mensajes a un canal de Slack, a varios o a todos
+- Avisos y mensajes puntuales a un canal, a varios o a todos
 - Directos a una persona
 - Respuestas dentro de un hilo
 - Correos
-- Cualquier cosa que quede escrita donde la lea alguien de Comfacesar
+
+**Lo que sí sale sin visto bueno: las grabaciones y las actas.** Es trabajo de rutina después
+de cada sesión y va al canal del área el mismo día. *Corregido por Sandra el 22 de septiembre:
+«tú no necesitas visto bueno para enviar las grabaciones y el acta, son los mensajes
+puntuales».*
 
 **Cómo se hace.** Se redacta, se muestra en el chat con el canal o destinatario indicado, y se
 espera. Si son varios canales con texto distinto, se muestra **uno de ejemplo** y se dice
@@ -370,9 +375,9 @@ canales con una fecha de cierre que Sandra corrigió minutos después. *Tuvo que
 editarlos uno por uno.* Un mensaje publicado no se puede recoger: lo ven las áreas y, en
 varios canales, también la contraparte.
 
-**Lo que no cambia.** Las actas, los tableros, el registro y los archivos del repositorio se
-siguen trabajando sin preguntar — eso es interno y se corrige sin costo. **La regla es sobre
-publicar, no sobre trabajar.**
+**Lo que no cambia.** Los tableros, el registro y los archivos del repositorio se siguen
+trabajando sin preguntar — eso es interno y se corrige sin costo. **La regla es sobre los
+mensajes puntuales, no sobre el trabajo de rutina.**
 
 *Una aprobación vale para el mensaje que se mostró. Si el texto cambia después —aunque sea una
 fecha—, se vuelve a mostrar.*

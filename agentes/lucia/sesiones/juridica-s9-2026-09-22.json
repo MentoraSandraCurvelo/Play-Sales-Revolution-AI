@@ -1,0 +1,204 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "JURÍDICA",
+  "area_completa": "",
+  "sesion_num": 9,
+  "fase": "Sistemas de Trabajo Agénticos",
+  "fecha": "22 de septiembre de 2026",
+  "fecha_corta": "22 septiembre 2026",
+  "subtitulo_meta": "Individual de Lilibeth Costa · 22 de septiembre de 2026 · 2:00 p. m. · 1 h 2 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Jurídica — Comfacesar"],
+    ["Sesión", "N° 9 — Individual de Lilibeth Costa: los dos agentes en marcha y el tablero del contact center"],
+    ["Fecha", "22 de septiembre de 2026"],
+    ["Duración de la sesión", "1 hora 2 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Lilibeth Costa — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "2", "etiqueta": "Agentes en marcha", "detalle": "Sofía y Matías, ya produciendo"},
+    {"valor": "30", "etiqueta": "Tickets pendientes detectados", "detalle": "El tablero los encontró solo"},
+    {"valor": "5", "etiqueta": "Días de respuesta promedio", "detalle": "El dato que hay que atacar"},
+    {"valor": "8", "etiqueta": "Meses del desarrollo anterior", "detalle": "El tablero propio va en una sesión"},
+    {"valor": "15", "etiqueta": "Personas en el contact center", "detalle": "El equipo que recibe el tablero"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Lilibeth Costa", "cargo": "Jurídica — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 9. El área llega con los dos agentes funcionando y un tablero que ya se socializó con el equipo. Lo que queda por resolver no es método: es de dónde viene la data y quién la controla.",
+  "riesgos": [
+    {
+      "titulo": "La data del chatbot la entrega el proveedor y no se puede verificar",
+      "nivel": "ALTO",
+      "descripcion": "El tablero se alimenta hoy de reportes que el área **descarga a mano y centraliza en una hoja de cálculo**. La fuente original es del proveedor que opera el chatbot. _No hay forma de contrastar si el dato llega completo._ **La salida es la conexión directa por API**, que es un trámite técnico sencillo — pero hay que negociarlo con quien es dueño del bot.",
+      "responsable": "Lilibeth Costa / Fase 2"
+    },
+    {
+      "titulo": "El reporte del proveedor no es tiempo real y no dice a qué hora corta",
+      "nivel": "ALTO",
+      "descripcion": "_Se verificó en sesión:_ el panel muestra «hoy», pero **el área no sabe hasta qué hora está cortado el dato.** Existe un filtro de rango de horas que nunca se ha usado. **Un indicador sin hora de corte no se puede llevar a un comité** — y hoy los indicadores del contact center se presentan con ese dato.",
+      "responsable": "Lilibeth Costa / Inmediato"
+    },
+    {
+      "titulo": "El agente no tiene cadencia de actualización definida",
+      "nivel": "MEDIO",
+      "descripcion": "El tablero se actualiza porque el área sube la información. **Falta decirle al agente cada cuánto debe hacer el corte** —una fecha fija del mes, o cada vez que detecte información nueva—. _Sin cadencia, el tablero depende de que alguien se acuerde._",
+      "responsable": "Lilibeth Costa / Antes de la S10"
+    },
+    {
+      "titulo": "El tablero del contact center no es de Jurídica",
+      "nivel": "MEDIO",
+      "descripcion": "Es de **Cumplimiento —hoy Sostenibilidad—, coordinación de Protección al Usuario.** Lo construye Jurídica porque es quien administra el chat, y quedó registrado en el área que corresponde. **Conviene que la explicación quede escrita dentro del propio tablero**, porque Cumplimiento apenas arranca y el programa cierra el 5 de octubre.",
+      "responsable": "Lilibeth Costa / Documentado"
+    },
+    {
+      "titulo": "Los tickets tardan cinco días en promedio y nadie los cubre fuera de horario",
+      "nivel": "ALTO",
+      "descripcion": "_Lo arrojó el análisis de ayer:_ **el promedio de respuesta a tickets es de cinco días.** Son los casos que entran fuera del horario de atención, cuando el chatbot no alcanza a resolver. **Es exactamente el tipo de cola que un agente puede atender** — pero está en la fase siguiente, no en esta.",
+      "responsable": "Lilibeth Costa / Fase 2"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "ALTO", "titulo": "Traer el tablero modelado con los cambios de hoy", "descripcion": "Menú de navegación, pestaña de dashboard, segmentación por fecha **y por hora**, gráficos dinámicos y las pestañas de hallazgos, alertas, plan de acción y ruta. _Sin tocar lo que ya funciona._", "responsable": "Lilibeth Costa", "plazo": "Sesión 10"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Cerrar la prueba comparativa de Sofía", "descripcion": "Subir **un contrato hecho por el equipo y el mismo hecho por Sofía**, y pedir la comparación punto por punto. _Es la prueba que valida el agente ante la jefatura._", "responsable": "Lilibeth Costa", "plazo": "Sesión 10"},
+    {"num": "03", "nivel": "ALTO", "titulo": "Mapear el proceso completo de Matías en Slack", "descripcion": "Qué hace cuando llega un archivo al canal: leerlo, identificar al responsable, redactar y enviar. **El mapeo escrito, no la instrucción suelta.**", "responsable": "Lilibeth Costa", "plazo": "Sesión 10"},
+    {"num": "04", "nivel": "MEDIO", "titulo": "Pedirle a Matías un tablero de monitoreo por canal", "descripcion": "Qué se subió, qué correos salieron, qué quedó pendiente — **y que notifique lo que no se cerró.** _Un resumen del canal, no un registro de mensajes._", "responsable": "Lilibeth Costa", "plazo": "Sesión 10"},
+    {"num": "05", "nivel": "MEDIO", "titulo": "Entregarle a Sofía el formato de las órdenes de servicio", "descripcion": "Los borradores salieron completos pero **con el formato cambiado.** _El contenido está; falta la plantilla del área._", "responsable": "Lilibeth Costa", "plazo": "Antes de la S10"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Lo que el área trajo hecho",
+      "duracion": "~15 min",
+      "objetivo": "Revisar el avance entre sesiones.",
+      "pasos": [
+        "**De las cuatro metas del área, el tablero del contact center ya está terminado** y el de Jurídica está en ajuste — tiene demasiada información y hay que organizar la data antes de cerrar el diseño",
+        "**Ayer se socializó el tablero con el equipo completo.** Primera vez que la presentación de indicadores se hace sobre un análisis construido por el área y no sobre un reporte plano",
+        "_Y una verificación que vale por sí sola:_ **el tablero detectó 30 tickets pendientes por responder.** En la socialización se confirmó que eran exactamente los que faltaban dentro del sistema",
+        "**Los dos agentes están en marcha.** Sofía, de elaboración contractual, y Matías, del equipo administrativo"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Sofía, el agente de elaboración contractual",
+      "duracion": "~10 min",
+      "objetivo": "Revisar el primer contrato producido por el agente.",
+      "pasos": [
+        "**Sofía ya produjo su primer borrador de contrato** y está en revisión de la jefatura del área",
+        "_La carpeta de conocimiento que la sostiene:_ manual de contratación, cuantías, **todas las minutas por tipo de contrato**, un manual de instrucciones de minuta, un video y un checklist",
+        "**No se le dijo qué tipo de contrato era.** Se le pidió que lo determinara ella, eligiera la minuta y lo desarrollara con la información anexa",
+        "**Y toma los insumos directamente del correo**, desde el 17 de septiembre, sin que nadie los cargue",
+        "_Falta la prueba que cierra el círculo:_ **subir el mismo contrato hecho por una persona y el hecho por Sofía, y pedir que las compare.** Es lo que permite decir ante la jefatura si hay discrepancias o no"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Matías y el traslado del equipo a Slack",
+      "duracion": "~10 min",
+      "objetivo": "Dejar el canal listo antes del arranque.",
+      "pasos": [
+        "**Desde mañana el equipo administrativo deja WhatsApp y trabaja por Slack.** Están creados el canal del comité jurídico —con la jefatura y las dos coordinaciones— y el del equipo administrativo",
+        "_El área grabó un video explicativo para el equipo y pidió que lo instalen también en el celular_",
+        "**Se hizo la prueba en vivo:** cargar un convenio digitalizado al canal para que el agente lo procese y lo envíe al área responsable",
+        "**Y salió la lección de la prueba:** un archivo solo no le dice nada al agente. **Siempre va acompañado de la instrucción** — qué es, a quién va, qué hay que hacer con él. _Nada mecánico._",
+        "**Se mostraron los marcadores del canal:** enlaces fijos a las carpetas y hojas de trabajo, para que el equipo no tenga que salirse de Slack a buscar documentos"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · El tablero del contact center, construido sobre el entorno real",
+      "duracion": "~25 min",
+      "objetivo": "Superar el panel del proveedor sin perder lo que ya sirve.",
+      "pasos": [
+        "**Primero se documentó el entorno actual.** Captura de cada vista, de cada menú y de cada gráfico del panel del proveedor, todo en un documento, y ese documento se subió al proyecto — _para que el sistema conociera el entorno que tiene que igualar_",
+        "**Luego la instrucción, dictada en vivo:** el mismo menú de navegación, una pestaña de dashboard con los indicadores completos, **segmentación por fecha y también por hora**, gráficos de barras, tortas y análisis de dispersión",
+        "**Y las pestañas que el panel del proveedor no tiene:** hallazgos de puntos críticos, alertas, plan de acción, puntos de mejora **y ruta hacia el futuro**",
+        "_Con una condición explícita:_ **«no me cambies lo que ya funciona».** Lo construido se conserva; encima se agrega lo nuevo",
+        "**El tablero anterior tomó ocho meses de trabajo con el proveedor.** _Este va por la primera sesión_ — y todavía le falta pulir hasta quedar por encima"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · La arquitectura: primero el back, después el front",
+      "duracion": "~10 min",
+      "objetivo": "Ordenar el camino hasta el cierre y más allá.",
+      "pasos": [
+        "**El back-end es el tablero:** se construye ahora, con la data que el área descarga y centraliza. _Eso es lo que alcanza en las dos semanas que quedan_",
+        "**El front es el chatbot**, que sigue operando el proveedor. Conectarlo al tablero es un trámite de API con token — **sencillo técnicamente, pero hay que negociarlo**, porque el bot es de ellos",
+        "_Y por eso importa el orden:_ **primero se demuestra el tablero; con el tablero en la mano se pide la conexión.** Al revés no hay con qué sustentarla",
+        "**La conexión directa queda para la fase siguiente**, junto con la cola de tickets fuera de horario"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 9 · 22 septiembre 2026",
+      "titulo": "El tablero encontró los 30 tickets antes que el sistema",
+      "descripcion": "Al analizar la data del contact center, el tablero **señaló 30 tickets pendientes por responder.** En la socialización con el equipo se confirmó que eran exactamente los que faltaban dentro del sistema. _No es que haya calculado bien un promedio: es que encontró un pendiente real que el panel del proveedor no destacaba._ **El área lo dijo así: «la data la calculó perfecto».**",
+      "estado": "Verificado con el equipo",
+      "proximo_paso": "Llevar el hallazgo al plan de acción del tablero",
+      "target": "Sesión 10"
+    },
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 9 · 22 septiembre 2026",
+      "titulo": "Sofía produjo su primer contrato y ya está en revisión",
+      "descripcion": "Sobre una carpeta de conocimiento con el manual de contratación, las cuantías, **todas las minutas por tipo de contrato**, instrucciones, video y checklist. **El agente determinó por sí mismo el tipo de contrato, eligió la minuta y lo desarrolló** — y toma los insumos directamente del correo. _El borrador está en revisión de la jefatura._",
+      "estado": "En revisión",
+      "proximo_paso": "La comparación contra un contrato hecho por una persona",
+      "target": "Sesión 10"
+    },
+    {
+      "encabezado": "CAMBIO DE OPERACIÓN · SESIÓN 9 · 22 septiembre 2026",
+      "titulo": "El equipo administrativo sale de WhatsApp",
+      "descripcion": "**Desde mañana el equipo trabaja por Slack**, con el canal del comité jurídico y el del equipo administrativo ya montados, video explicativo grabado y marcadores a las carpetas de trabajo. _Y con Matías conectado al canal_ — lo que convierte cada archivo que llega en una tarea que el agente puede tomar.",
+      "estado": "Arranca mañana",
+      "proximo_paso": "Mapear el proceso completo del agente sobre el canal",
+      "target": "Sesión 10"
+    },
+    {
+      "encabezado": "HALLAZGO DE GESTIÓN · SESIÓN 9 · 22 septiembre 2026",
+      "titulo": "Ocho meses de desarrollo contra una sesión de trabajo",
+      "descripcion": "El panel del contact center que usa hoy el área **tomó ocho meses de trabajo con un proveedor externo**, y el área nunca se sintió conforme: sale plano, hay que sacarle capturas para poder analizarlo, y **no dice a qué hora corta el dato.** _El tablero propio lleva una sesión y ya produjo un hallazgo verificado._ **No es una comparación de herramientas: es una comparación de quién controla el dato.**",
+      "estado": "Documentado",
+      "proximo_paso": "Modelar el tablero hasta superarlo y con eso pedir la conexión directa",
+      "target": "Fase 2"
+    }
+  ],
+  "tareas_intro": "El área llega con los dos agentes produciendo y un tablero ya socializado con el equipo. Lo que sigue es cerrar las pruebas que permiten sustentarlos ante la jefatura, y dejar el tablero por encima del que hoy usa el contact center.",
+  "tareas": [
+    {"tarea": "Traer el tablero del contact center modelado con los cambios de la sesión", "responsable": "Lilibeth Costa", "prioridad": "ALTA", "plazo": "Sesión 10"},
+    {"tarea": "Subir el contrato hecho por una persona y el hecho por Sofía, y pedir la comparación", "responsable": "Lilibeth Costa", "prioridad": "ALTA", "plazo": "Sesión 10"},
+    {"tarea": "Mapear el proceso completo de Matías sobre los canales de Slack", "responsable": "Lilibeth Costa", "prioridad": "ALTA", "plazo": "Sesión 10"},
+    {"tarea": "Pedirle a Matías un tablero de monitoreo por canal, con notificación de pendientes", "responsable": "Lilibeth Costa", "prioridad": "MEDIA", "plazo": "Sesión 10"},
+    {"tarea": "Definirle al agente la cadencia de actualización del tablero", "responsable": "Lilibeth Costa", "prioridad": "MEDIA", "plazo": "Antes de la S10"},
+    {"tarea": "Entregarle a Sofía el formato de las órdenes de servicio", "responsable": "Lilibeth Costa", "prioridad": "MEDIA", "plazo": "Antes de la S10"},
+    {"tarea": "Dejar escrito dentro del tablero que el contact center pertenece a Cumplimiento", "responsable": "Lilibeth Costa", "prioridad": "MEDIA", "plazo": "Antes de la S10"},
+    {"tarea": "Terminar de organizar la data del tablero de Jurídica y cerrar el diseño", "responsable": "Lilibeth Costa", "prioridad": "MEDIA", "plazo": "Antes del cierre"}
+  ],
+  "observaciones": [
+    "**El área llega con los dos agentes produciendo.** Sofía entregó su primer borrador de contrato y está en revisión de la jefatura; Matías queda conectado al canal de Slack del equipo administrativo, que **deja WhatsApp mañana.** _No es una demostración: es operación que arranca._",
+    "**Sofía no recibió el tipo de contrato.** Se le pidió que lo determinara, eligiera la minuta correspondiente y lo desarrollara con la información anexa, sobre una carpeta que el área construyó con el manual de contratación, las cuantías, todas las minutas por tipo, un manual de instrucciones, un video y un checklist. **Y toma los insumos directamente del correo, sin que nadie los cargue.**",
+    "_Lo que falta para cerrar el caso es una sola prueba:_ **subir el mismo contrato hecho por una persona y el hecho por Sofía, y pedir la comparación punto por punto.** Es lo que permite sustentar el agente ante la jefatura con un dato y no con una impresión.",
+    "**El tablero del contact center se socializó ayer con el equipo completo** — quince personas. Fue la primera vez que la presentación de indicadores se hizo sobre un análisis construido por el área. **Y ahí apareció el hallazgo de la sesión: el tablero señaló 30 tickets pendientes por responder, y en la socialización se confirmó que eran exactamente los que faltaban en el sistema.**",
+    "**El ejercicio central fue construir el tablero sobre el entorno real, no sobre una idea del entorno.** Se documentó con capturas cada vista y cada menú del panel que usa hoy el área, se armó un documento y se subió al proyecto. _Sobre esa base se dictó la instrucción:_ mismo menú, dashboard completo, **segmentación por fecha y por hora**, gráficos dinámicos y dispersión, y pestañas de hallazgos críticos, alertas, plan de acción y ruta. **Con la condición de no tocar lo que ya funciona.**",
+    "**El panel que se busca superar tomó ocho meses de trabajo con un proveedor externo.** El área nunca se sintió conforme con él: sale plano, para analizarlo hay que sacarle capturas, y **no dice a qué hora está cortado el dato** — existe un filtro de horas que nunca se ha usado. _Un indicador sin hora de corte no se puede llevar a un comité, y hoy los del contact center se presentan así._",
+    "**Se definió el orden del camino y conviene que quede claro: primero el back, después el front.** El tablero se construye ahora con la data que el área centraliza; **la conexión directa al chatbot —un trámite de API con token— queda para la fase siguiente**, porque el bot lo opera el proveedor y esa conexión hay que negociarla. _Y se negocia mejor con el tablero ya construido que con la intención de construirlo._",
+    "**Dos cosas quedaron anotadas para que no se pierdan.** El tablero del contact center **no pertenece a Jurídica sino a Cumplimiento —hoy Sostenibilidad, coordinación de Protección al Usuario—**, y así quedó registrado; conviene que la explicación quede escrita dentro del propio tablero. Y **el promedio de respuesta a tickets es de cinco días**, en los casos que entran fuera del horario de atención: es la cola natural para un agente, pero pertenece a la fase siguiente.",
+    "**El área está trabajando a dos sesiones por semana y eso se nota.** _Quedan dos semanas hasta el 5 de octubre_, y Jurídica está en condiciones de llegar al cierre con los dos agentes sustentados y el tablero modelado."
+  ],
+  "proxima_sesion": {
+    "sesion": "Jurídica — Sesión 10",
+    "condiciones": [
+      "El tablero del contact center modelado con los cambios de hoy",
+      "La comparación de contratos de Sofía resuelta",
+      "El proceso de Matías sobre Slack mapeado",
+      "El formato de las órdenes de servicio entregado al agente"
+    ],
+    "agenda": [
+      "Revisión del tablero modelado y de sus pestañas de hallazgos",
+      "Lectura de la comparación de contratos",
+      "El tablero de monitoreo de canales de Matías",
+      "Preparación del material del área para el cierre"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 22 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
