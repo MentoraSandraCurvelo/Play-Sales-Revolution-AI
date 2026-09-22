@@ -1,0 +1,225 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SUB. OPERATIVA Y COMERCIAL",
+  "area_completa": "",
+  "sesion_num": 4,
+  "fase": "Proyectos y Sistemas de Trabajo",
+  "fecha": "22 de septiembre de 2026",
+  "fecha_corta": "22 septiembre 2026",
+  "subtitulo_meta": "Individual de Gennifer Mira · 22 de septiembre de 2026 · 10:00 a. m. · 1 h 7 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Sub. Operativa y Comercial — Comfacesar"],
+    ["Sesión", "N° 4 — Individual de Gennifer Mira: del Excel al tablero de indicadores"],
+    ["Fecha", "22 de septiembre de 2026"],
+    ["Duración de la sesión", "1 hora 7 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Gennifer Mira — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "480", "etiqueta": "Minutos de la presentación", "detalle": "Una jornada completa, ahora automática"},
+    {"valor": "240", "etiqueta": "Minutos del informe empresarial", "detalle": "La tabla dinámica que hacía a mano"},
+    {"valor": "1", "etiqueta": "Semana a diez minutos", "detalle": "El documento de gestión de calidad"},
+    {"valor": "6", "etiqueta": "Gráficos en el tablero", "detalle": "Más simulador y detalle por centro de costo"},
+    {"valor": "3", "etiqueta": "Conectores reconectados", "detalle": "Estaban con el correo personal"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Gennifer Mira", "cargo": "Asistente Administrativa — Sub. Operativa y Comercial", "correo": "—", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 4. El área vuelve después de tres semanas y lo hace con cuatro entregables terminados por cuenta propia. El tablero de indicadores quedó publicado, y lo que el sistema escribió sobre sus propios supuestos merece leerse aparte.",
+  "riesgos": [
+    {
+      "titulo": "Los conectores estaban con la cuenta personal, no con la corporativa",
+      "nivel": "ALTO",
+      "descripcion": "_Se descubrió al revisar la configuración:_ correo, calendario y archivos estaban enlazados a la cuenta personal. **Así el sistema no alcanza la información real del trabajo** — y es justo lo que hace falta para el paso siguiente. Se desconectaron y reconectaron los tres con la cuenta institucional. **Es el quinto caso del mismo tipo en el programa.**",
+      "responsable": "Gennifer Mira / Resuelto en sesión"
+    },
+    {
+      "titulo": "El equipo pide clave de sistemas cada vez que se abre la herramienta",
+      "nivel": "ALTO",
+      "descripcion": "_Dicho por el propio puesto:_ a veces hay que hacerlo **dos o tres veces seguidas** antes de poder entrar. **Eso no es un problema de método: es una restricción del parque de equipos**, y se lleva minutos de cada sesión. Se suma a la lista de bloqueos abiertos desde el corte anterior.",
+      "responsable": "Tecnología / Esta semana"
+    },
+    {
+      "titulo": "No existe información de gastos, costos ni cobertura de 2025",
+      "nivel": "MEDIO",
+      "descripcion": "**Lo detectó el sistema antes de construir nada** y preguntó cómo proceder. Se confirmó que no se necesita, y quedó documentado en el tablero: _la comparación con 2025 se limita a ingresos y crecimiento._ **Un tablero que dice qué no puede comparar vale más que uno que lo disimula.**",
+      "responsable": "Gennifer Mira / Documentado"
+    },
+    {
+      "titulo": "Los umbrales de semaforización no son un estándar del área",
+      "nivel": "MEDIO",
+      "descripcion": "_El sistema los definió por su cuenta para poder clasificar, y lo dejó escrito:_ **no provienen de los archivos ni son un estándar oficial de la Caja.** El área tiene que reemplazarlos por los suyos. _Mientras no lo haga, el semáforo es una propuesta, no una medición._",
+      "responsable": "Gennifer Mira / Antes de la S5"
+    },
+    {
+      "titulo": "El área lleva tres semanas sin sesión y el cierre es el 5 de octubre",
+      "nivel": "ALTO",
+      "descripcion": "La anterior fue el 1 de septiembre. **Con cuatro entregables medidos y un tablero publicado, esta área está en condiciones de llegar al cierre con material propio** — pero necesita frecuencia, no una sesión semanal. _Faltan unas tres sesiones para construir el agente._",
+      "responsable": "Gennifer Mira / Inmediato"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Agendar varias sesiones seguidas",
+      "descripcion": "**Quedan dos semanas y unas tres sesiones separan al área de su primer agente.** _Con el ritmo de esta sesión, alcanza._",
+      "responsable": "Gennifer Mira",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Modelar el tablero con los parámetros reales del área",
+      "descripcion": "**Empezando por los umbrales de semaforización**, que hoy son una propuesta del sistema. _El conocimiento del negocio lo pone el puesto; la construcción ya está hecha._",
+      "responsable": "Gennifer Mira",
+      "plazo": "Antes de la S5"
+    },
+    {
+      "num": "03",
+      "nivel": "MEDIO",
+      "titulo": "Terminar de modelar el documento de gestión de calidad",
+      "descripcion": "Definir si queda como formato del plan operativo anual y qué debe acompañarlo. **Salió completo en diez minutos; falta ajustarlo al uso real.**",
+      "responsable": "Gennifer Mira",
+      "plazo": "Antes de la S5"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Completar la configuración pendiente",
+      "descripcion": "Faltan los conectores de mensajería y ofimática, y **verificar la extensión del navegador** — se necesita para el trabajo con documentos.",
+      "responsable": "Gennifer Mira",
+      "plazo": "Antes de la S5"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Instalar la aplicación en el celular y sincronizarla con el equipo",
+      "descripcion": "_Tarea explícita para la próxima sesión._ Permite lanzar y revisar tareas programadas sin estar frente al computador.",
+      "responsable": "Gennifer Mira",
+      "plazo": "Antes de la S5"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Lo que el área trajo hecho",
+      "duracion": "~15 min",
+      "objetivo": "Revisar el trabajo entre sesiones.",
+      "pasos": [
+        "**El reporte de presupuesto contra ejecución, reconstruido desde cero** — tal cual como se hacía a mano, y completo",
+        "**La presentación del grupo primario:** seguimiento servicio por servicio con presupuesto de ingreso contra ejecución, gastos y costos, cobertura y demanda, en los colores institucionales. _Antes tomaba una jornada entera:_ **480 minutos**",
+        "**El informe empresarial**, con la tabla dinámica que se hacía manual en Excel, organizada por servicio. _Antes:_ **240 minutos**",
+        "**La respuesta a un derecho de petición de una entidad nacional.** Se le entregaron la solicitud, la hoja membreteada y el portafolio de servicios, y **redactó la respuesta punto por punto.** _Revisada por el área: completa y acorde_",
+        "**Y un documento de gestión de calidad** —el del plan operativo anual—, armado a partir de la tabla de contenido mínima, las políticas ya establecidas y el direccionamiento estratégico. _El objetivo lo puso el área._ **Antes: una semana. Salió en diez minutos**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El salto al tablero interactivo",
+      "duracion": "~20 min",
+      "objetivo": "Pasar de entregar documentos a entregar un tablero.",
+      "pasos": [
+        "_El escalón nuevo:_ del proyecto al **artefacto**. En vez de una presentación, **un tablero que vive en una dirección web**, se comparte y se actualiza",
+        "**La instrucción se escribió en vivo**, y el criterio importa más que el texto: indicadores de gestión del reporte, segmentación por año, mes, servicio y unidades integrales de servicio, **semaforización con hallazgos críticos**, gráficos dinámicos, análisis de dispersión, vista en tres dimensiones, simulador, logo y autoría",
+        "_Y algo que conviene subrayar:_ **la instrucción la dictó quien no conoce el reporte.** El conocimiento del negocio lo puso el área al responder — qué son las unidades integrales de servicio, qué años se comparan. **El método no exige saber del tema: exige saber pedir**",
+        "**Antes de construir, el sistema preguntó.** Qué son las unidades integrales de servicio, y advirtió que **no existen datos de gastos, costos ni cobertura de 2025** — preguntando cómo proceder en lugar de rellenar el hueco"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Lo que entregó el tablero",
+      "duracion": "~15 min",
+      "objetivo": "Leerlo completo antes de darlo por bueno.",
+      "pasos": [
+        "**Filtros de año, mes, servicio y oficina** que segmentan todo en tiempo real, con el estado guardado en el navegador",
+        "**Indicadores principales:** ingresos, gastos, costos, remanente, cobertura y subsidio a la demanda. _Para 2025, solo ingresos y crecimiento_ — porque lo demás no existe en los archivos",
+        "**Semaforización de hallazgos críticos**, con la lista automática de los centros de mayor desviación **ordenada por severidad**",
+        "**Seis gráficos:** clasificación de cumplimiento, presupuesto contra ejecución por servicio y por oficina, tendencia mensual 2025 contra 2026, dispersión de ingresos contra gastos, vista en tres dimensiones de ingresos, gastos y costos, **y un simulador de proyección** que recalcula al mover las variables",
+        "**Y una tabla de detalle por centro de costo**, ordenable y con buscador — _un Excel en vivo dentro del tablero_",
+        "_Se publicó y se compartió por enlace._ **Queda como dirección propia del área**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · La configuración, que no es un detalle",
+      "duracion": "~10 min",
+      "objetivo": "Dejar el entorno listo para el sistema de trabajo.",
+      "pasos": [
+        "**Se encontró que correo, calendario y archivos estaban conectados con la cuenta personal**, no con la institucional. _Se desconectaron y reconectaron los tres con la cuenta de la Caja, con todos los permisos_",
+        "**Sin eso el sistema no alcanza la información real del trabajo** — y es exactamente lo que hace falta para el paso siguiente",
+        "_Se mostró el horizonte:_ **las tareas programadas.** Un resumen a hora fija, recordatorios de vencimiento, clasificación de la bandeja de entrada, preparación de reuniones — todo sobre el calendario institucional",
+        "**Y la diferencia que ordena el camino:** un proyecto responde a una instrucción; **un sistema de trabajo corre un circuito completo** —entra al correo, descarga, clasifica, llena el tablero, redacta y envía—; un agente lo hace solo y además sugiere. _Faltan unas tres sesiones_"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 4 · 22 septiembre 2026",
+      "titulo": "El tablero documentó sus propios supuestos",
+      "descripcion": "Junto a los indicadores, el sistema dejó **un panel de metodología** donde escribió qué criterios tuvo que inferir, qué centros no tenían datos, y dos cosas que ningún informe suele confesar: **que excluyó el subsidio a la oferta porque «no encontré una fuente clara para ese indicador, así que no lo inventé»**, y que **los umbrales de semaforización los definió él mismo y no son un estándar oficial de la Caja.** _Es el caso más explícito del programa: una herramienta que separa lo que midió de lo que supuso._",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Reemplazar los umbrales por los del área",
+      "target": "Antes de la S5"
+    },
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 4 · 22 septiembre 2026",
+      "titulo": "El tablero de indicadores de la subdirección",
+      "descripcion": "Presupuesto contra ejecución por servicio y por oficina, cobertura, demanda, remanente, seis gráficos, simulador de proyección y detalle por centro de costo. **Publicado y compartible por enlace.** _Sustituye una presentación que tomaba una jornada entera._",
+      "estado": "Publicado",
+      "proximo_paso": "Modelarlo con los parámetros del área",
+      "target": "Sesión 5"
+    },
+    {
+      "encabezado": "AHORRO MEDIDO · SESIÓN 4 · 22 septiembre 2026",
+      "titulo": "Cuatro procesos, cuatro tiempos",
+      "descripcion": "**La presentación del grupo primario: 480 minutos. El informe empresarial: 240. El documento de gestión de calidad: de una semana a diez minutos.** Y la respuesta a un derecho de petición, redactada completa sobre el portafolio y la papelería del área. _Los tiempos los reportó el propio puesto, sobre sus propios procesos._",
+      "estado": "Medido",
+      "proximo_paso": "Registrar los cuatro en el tablero de seguimiento",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "HALLAZGO TRANSVERSAL · SESIÓN 4 · 22 septiembre 2026",
+      "titulo": "Quinta cuenta cruzada del programa",
+      "descripcion": "Correo, calendario y archivos conectados a la cuenta personal en lugar de la institucional. **Ya había pasado en cuatro áreas.** _No es descuido de nadie: es que la configuración inicial nunca se revisó área por área_ — y es lo primero que bloquea cualquier sistema de trabajo.",
+      "estado": "Resuelto aquí",
+      "proximo_paso": "Verificarlo en las áreas que faltan",
+      "target": "Esta semana"
+    }
+  ],
+  "tareas_intro": "El área vuelve después de tres semanas y lo hace con cuatro entregables terminados y un tablero publicado. Lo que falta es frecuencia: quedan dos semanas y unas tres sesiones separan a esta área de su primer agente.",
+  "tareas": [
+    {"tarea": "Agendar varias sesiones seguidas antes del cierre", "responsable": "Gennifer Mira", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Modelar el tablero con los parámetros del área, empezando por los umbrales de semaforización", "responsable": "Gennifer Mira", "prioridad": "ALTA", "plazo": "Antes de la S5"},
+    {"tarea": "Registrar los cuatro ahorros medidos en el tablero de seguimiento", "responsable": "Gennifer Mira", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Terminar de modelar el documento de gestión de calidad y definir su formato", "responsable": "Gennifer Mira", "prioridad": "MEDIA", "plazo": "Antes de la S5"},
+    {"tarea": "Completar los conectores pendientes y verificar la extensión del navegador", "responsable": "Gennifer Mira", "prioridad": "MEDIA", "plazo": "Antes de la S5"},
+    {"tarea": "Instalar la aplicación en el celular y sincronizarla con el equipo", "responsable": "Gennifer Mira", "prioridad": "MEDIA", "plazo": "Antes de la S5"}
+  ],
+  "observaciones": [
+    "**El área vuelve después de tres semanas —la anterior fue el 1 de septiembre— y vuelve con cuatro entregables terminados por cuenta propia.** No es un reinicio: es continuidad de trabajo que siguió corriendo sin sesiones de por medio.",
+    "**Los tiempos los reportó el propio puesto, sobre sus propios procesos.** La presentación del grupo primario tomaba **una jornada completa, 480 minutos**. El informe empresarial con su tabla dinámica, **240**. Y el documento de gestión de calidad del plan operativo anual, **una semana — salió en diez minutos.** _Se sumó además la respuesta a un derecho de petición de una entidad nacional, redactada punto por punto sobre el portafolio y la papelería del área, y revisada como completa._",
+    "**El ejercicio de la sesión fue el salto al tablero interactivo**, que deja de ser una presentación y pasa a ser una dirección web que se comparte y se actualiza. Quedó publicado, con filtros por año, mes, servicio y oficina, seis gráficos, simulador de proyección y detalle por centro de costo.",
+    "_Y conviene señalar cómo se construyó:_ **la instrucción la dictó quien no conoce el reporte.** El conocimiento del negocio lo puso el área al responder las preguntas. **El método no exige saber del tema — exige saber pedir**, y eso es transferible a cualquier otro proceso del área.",
+    "**Pero el hallazgo de la sesión está en un sitio que casi nadie mira: el panel de metodología del tablero.** Ahí el sistema escribió qué criterios tuvo que inferir, qué centros no tenían datos, **que excluyó el subsidio a la oferta porque no encontró una fuente clara y —textual— «no lo inventé»**, y que **los umbrales de semaforización los definió él mismo y no son un estándar oficial de la Caja.**",
+    "_Es el caso más explícito del programa de algo que viene apareciendo en varias áreas:_ **una herramienta que separa lo que midió de lo que supuso, y lo deja por escrito.** Y tiene una consecuencia práctica inmediata: **mientras el área no reemplace esos umbrales por los suyos, el semáforo es una propuesta, no una medición.**",
+    "**Dos bloqueos de entorno aparecieron en la misma hora.** El correo, el calendario y los archivos estaban conectados con la cuenta personal y no con la institucional —**quinta vez que pasa en el programa**—, y se resolvió en sesión. Y el equipo **pide clave de sistemas cada vez que se abre la herramienta**, a veces dos o tres veces seguidas. _Eso último no se resuelve desde el área._",
+    "**Con lo construido, esta área está en condiciones de llegar al cierre con material propio.** Lo que necesita no es método: es frecuencia. _Quedan dos semanas y unas tres sesiones separan a la subdirección de su primer agente._"
+  ],
+  "proxima_sesion": {
+    "sesion": "Sub. Operativa y Comercial — Sesión 5",
+    "condiciones": [
+      "El tablero modelado con los parámetros del área",
+      "El documento de gestión de calidad terminado",
+      "Los conectores pendientes completados",
+      "La aplicación instalada en el celular"
+    ],
+    "agenda": [
+      "Revisión del tablero modelado",
+      "Diseño: el entorno visual aplicado a los entregables",
+      "Tareas programadas sobre el calendario institucional",
+      "Preparación del primer agente del área"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 22 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
