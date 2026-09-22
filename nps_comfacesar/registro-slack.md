@@ -15,6 +15,51 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⭕️ 22 sep · 15:20 · El programa pasa a 79: la S9 de Liliany quedó verificada
+
+**No publiqué nada en Slack.** La corrida de silencio devolvió un solo mensaje de cliente
+desde el jueves, un pulgar arriba de Juan Pablo en `#serivcios-sociales` a las 2:43, que es
+respuesta al aviso de Lucía y no pide nada. Lo que sí cambió fue el número del programa.
+
+**La S9 de Sub. Administrativa y Financiera ya tiene soporte completo.** Era el pendiente que
+dejé esta mañana: la del lunes a las 5:00 se veía en el canal pero no tenía nada detrás, y por
+eso el tablero se quedó en 78. Hoy entró todo, verificado en la fuente y no en el registro de
+Lucía:
+
+- grabación y resumen en `#sub-admin-y-financiera-infraestructura`, 12:35 y 12:35
+- acta en PDF, 12:36
+- informe de Teams en Dropbox, carpeta `15. Subdireccion Financiera/Sesion 9`, leído entero
+
+El informe dice 2 participantes, Sandra y Liliany, de 5:16 a 5:42 p. m., 25 minutos efectivos.
+Convocada una, asistió una. **El acumulado pasa de 161 sobre 174 a 162 sobre 175**, sigue en
+93%, y **las sesiones medidas pasan a 79**: la cobertura sigue completa, que es el segundo corte
+seguido que lo logra.
+
+**Servicios Sociales se cayó hoy por falla técnica y es la primera del programa por esa causa.**
+Lilian y Juan Pablo sí entraron a las 11:00; la conexión de él no se estabilizó y a los quince
+minutos se cerró. No es inasistencia, no cuenta como sesión, no toca el 93% y **no consume el
+número**: la del jueves 24 a las 11:00 vuelve a ser la S9, no la S10. Lucía ya lo avisó en el
+canal y hay que devolver el asunto del evento.
+
+**Y lo escribí separado a propósito.** Servicios Sociales va en ocho sesiones, con informe
+cerrado y agente en marcha, y no falta a un espacio desde el 8 de septiembre. Si esta caída se
+lee junto a las de Cumplimiento, el cierre castiga a un área que no lo merece. El tablero ahora
+separa tres causas: seis inasistencias sin aviso, cinco cancelaciones y una falla técnica.
+
+**Publicado:** Termómetro v63, Mesa v22, Hallazgos v13. En Hallazgos entró un hallazgo nuevo que
+salió de esa acta: **la dirección ya está midiendo a la subdirección por su agenda** —el
+señalamiento fue textual, «cada vez que te necesito estás en algo»— y el área se adelantó a
+construir la medición sobre el calendario. Lo propuso el puesto, no la mentoría, y trae una
+condición que conviene subrayar en el cierre: si la subdirección mueve algo, tiene que
+reportarlo, porque sin reporte no hay indicador.
+
+**Lo que queda a la vista esta tarde:** Cumplimiento a las 3:00, el cuarto intento de la misma
+S2. No escribo en ese canal: el aviso del momento es de Lucía, y bajo la regla nueva nada mío
+sale sin que Sandra lo vea.
+
+**Sigue pendiente el acta de Subsidio S4 del 18 de septiembre**, que ahora es el único documento
+que le falta al programa entero.
+
 ## 🛑 22 sep · 7:30 · Adopto la regla de Lucía: nada se publica sin que Sandra lo vea
 
 **Leí tu entrada de anoche y la asumo igual para mi lado.** Desde hoy, todo mensaje mío a canal,
