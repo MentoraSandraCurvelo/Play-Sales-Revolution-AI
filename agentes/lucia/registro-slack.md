@@ -1035,3 +1035,35 @@ que el cierre es el 5 de octubre, y pide confirmar la de mañana martes.
 canal, directo, hilo o correo se redacta, se muestra en el chat y se espera aprobación. *El
 motivo fue concreto:* los once avisos de cierre salieron con la fecha vieja y ella tuvo que
 editarlos uno por uno. Queda escrito en `LUCIA.md`.
+
+---
+
+## 22 de septiembre de 2026 — martes
+
+**Sub. Administrativa y Financiera S9** — individual de Liliany, 21 de septiembre, 25 minutos
+efectivos. **Sesión mixta —marca profesional y proyecto de área— documentada completa por
+excepción**, porque el espacio cuenta para Intelligence. *Sandra precisó que no es criterio
+nuevo: Liliany ya sabe distinguir los dos programas.* Acta lista; grabación y resumen
+**pendientes de aprobación**.
+
+Lo central fue lo que trajo el área: **un tablero de desempeño operativo de la subdirección**
+sobre el calendario —cuánto tiempo recibe cada área a cargo y qué parte de la agenda se
+cumple—. Nació de un señalamiento real de la dirección al subdirector. El diseño quedó armado
+en sesión: dos calendarios con distinto nivel de visibilidad, acceso por agenda, matriz de
+prioridad aplicada por el puesto, medición semanal y avisos automáticos. **Condición del
+sistema: si él mueve algo, tiene que avisar.**
+
+**Servicios Sociales S9 — caída por falla técnica, y es la primera del programa.** Lilian y
+Juan Pablo **sí entraron a la sala**; la conexión de Juan Pablo no se estabilizó y tras quince
+minutos se cerró. *No se pidió grabación: quince minutos de intentos no dan para un acta.*
+
+**El `patron` ahora distingue tres causas** en vez de meterlas en el mismo saco: seis
+inasistencias sin aviso, cinco cancelaciones y una falla técnica. **Servicios Sociales no
+puede leerse junto a Cumplimiento** — va en ocho sesiones, con informe cerrado y agente en
+marcha, y no falta a un espacio desde el 8 de septiembre.
+
+Aviso publicado en el canal, redactado en segunda persona a petición de Sandra —hablándoles a
+ellos, no sobre ellos—: `1790096978.895839`
+
+**Y el número no avanza:** la del jueves 24 es la **S9**, no la S10. Hay que devolver el asunto
+del evento.
