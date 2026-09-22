@@ -15,6 +15,76 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⭕️ 22 sep · 17:50 · Recuento completo contra Dropbox: son 80, no 79. Y los cinco tableros al día
+
+**Sandra dijo que le parecían más y tenía razón.** Volví a contar desde la fuente, no desde el
+tablero: listé Dropbox entero, las dieciocho carpetas de área, **250 archivos**, y conté carpeta
+por carpeta cuáles tienen soporte.
+
+| Área | Sesiones con soporte |
+|---|---|
+| Sub. Admin y Financiera | 9 |
+| Jurídica | 8 |
+| Servicios Sociales | 8 |
+| Comunicaciones | 7 |
+| Contabilidad | 7 |
+| Agencia de Empleo | 6 |
+| **Vivienda** | **5** |
+| Mercadeo · Subsidio · Tecnología | 4 cada una |
+| Educación · IPS · Talento Humano | 3 cada una |
+| Planeación · Gerencia Financiera · Tesorería · Sub. Operativa | 2 cada una |
+| Cumplimiento | 1 |
+
+**Total: 80.** La diferencia con lo que decía el tablero es **la S2 de Vivienda**:
+`⭕️ Comfacesar Vivienda S2 IAM™ Intelligence`, grabada el **21 de agosto a las 11:05**, 731 MB.
+Está ahí, en la carpeta *Sesión 2* del área. Lo que falta es el acta y el informe de asistencia,
+no la sesión.
+
+**Y lo peor es que el tablero lo supo y lo perdió.** En un corte viejo decía, con todas sus
+letras: *«la tabla lista 72 y el total dice 73, y la que queda es Vivienda S2, de la que en
+Dropbox solo hay la grabación»*. Después alguien —yo— la reemplazó por *«no hay S2 registrada»*.
+El tablero del Pulso nunca la perdió: ahí sigue escrito que *«su S2 es la única del programa que
+quedó fuera del conteo de asistencia»*. **Dos tableros míos se contradecían y no lo vi hasta que
+Sandra preguntó.**
+
+**Criterio, para que no vuelva a pasar:** una sesión con grabación está verificada, aunque le
+falte el acta. Sin grabación, sin acta y sin informe, no computa: ese es el caso del 3 de
+septiembre de Servicios Sociales, y por eso los dos no se tratan igual.
+
+**Consecuencia en el otro indicador:** la S2 de Vivienda no tiene informe de asistencia, así que
+la cobertura **deja de ser completa**: son **79 medidas sobre 80**. El porcentaje no se mueve,
+sigue en **162 sobre 175**, 93%.
+
+**También se cerró el pendiente de IPS.** La grabación `Comfacesar IPS Sesion 3 Danilo Pozo`, que
+estaba en espera porque el título no decía IAM™ Intelligence, **hoy está en Dropbox con acta,
+informe y transcripción**. El área va en tres y la nota de «pendiente de confirmar» quedó
+corregida.
+
+**Educación no se presentó**, me lo confirmó Sandra, y **el mensaje al canal lo lleva Lucía**.
+Yo no escribo ahí. En el tablero queda como **inasistencia sin aviso**, no como cancelación: no
+consume el número, así que el evento del miércoles que dice *Sesión 5* es en realidad la **S4**.
+Hay que devolver el asunto, igual que en Servicios Sociales. Las causas van ahora en tres
+columnas: **siete inasistencias sin aviso, cinco cancelaciones y una falla técnica**.
+
+**Los cinco tableros quedaron al día**, y en dos de ellos lo que corregí fue el tiempo verbal:
+
+- **Termómetro v66** — 80 sesiones, la S2 de Vivienda de vuelta, Educación marcada, la agenda de
+  la semana con las dos caídas
+- **Mesa v24** — 80 sesiones y el aviso de que después del viernes no hay nada
+- **Hallazgos v14** — el tablero de la subdirección como hallazgo nuevo, y Educación pasa a
+  riesgo crítico
+- **Productividad v10** — no entró ninguna medición nueva, el acta de la S9 de Liliany no trae
+  tiempos. Lo que arreglé fue que decía *«entre hoy y el viernes 2 de octubre»* cuando ese «hoy»
+  era el viernes 18: la banda de $6,0 a $15,9 M va del 18 al 2, y de esa ventana ya corrieron
+  cuatro días. **No recalculé el número, le puse la fecha que le corresponde.**
+- **Pulso v13** — tres frases decían «esta mañana» y «hoy mismo» refiriéndose al viernes 18.
+  Quedaron con fecha. Y la de Sub. Operativa decía que el área estaba en silencio: ya no, tomó su
+  S4 para hoy a las 10:00.
+
+**Lo que sigue sin resolverse:** el acta de Subsidio S4 del 18 de septiembre, el acta y el informe
+de la S2 de Vivienda, y **Cumplimiento de las 3:00**, que no se puede verificar hasta que
+sincronice Dropbox.
+
 ## ⛔ 22 sep · 16:20 · Después del viernes 25 no hay una sola cita, y el cierre es el lunes 5
 
 **Releí el calendario de hoy al 13 de octubre y devuelve dieciocho eventos. Los dieciocho son
