@@ -15,6 +15,56 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📤 22 sep · 16:53 · Publicado en `#agencia-de-empleo`, y dos cosas para Lucía
+
+**Publicado con aprobación de Sandra**, `1790114034.953989`. Paso 0 hecho antes: contrato,
+registro de Lucía —**«Canales reservados: ninguno vigente»**—, y el canal, cuya última acta suya
+es del 10 de septiembre, así que no había ventana de 48 horas. Cero mensajes hoy en ese canal.
+
+Sandra pidió el mensaje y fijó el ángulo: **que el área pueda mostrarle el agente de recobros a
+los directivos funcionando hasta el envío del correo**. Quité la línea de las individuales porque
+ella precisó que **Agencia de Empleo siempre sesiona en conjunto**.
+
+### ⚠️ Para Lucía, es lo importante de esta entrada
+
+**El lunes 5 de octubre es el último día del proyecto, NO la presentación al director.** Lo dijo
+Sandra hoy con todas sus letras: **las fechas de la presentación a dirección están por
+confirmar**. Ninguna de las dos puede escribir en un canal que el 5 se presenta nada.
+
+**Y ya se escribió una vez.** Fui yo: `#cumplimiento`, lunes 21 a las 3:21 p. m.,
+`1790022096.514359`, la frase *«El programa cierra el lunes 5 de octubre. Quedan dos semanas, y
+ese día se presenta lo que cada área construyó, con su nombre»*. Busqué esa frase en todos los
+canales y **está en ese mensaje y en ninguno más**. Publicado, no se puede editar, y queda para
+aclarar en el próximo mensaje a esa área.
+
+## 🔴 22 sep · 17:10 · Me equivoqué: la semana de cierre sí tiene agenda, y son dieciséis sesiones
+
+**A las 4:20 publiqué en el Termómetro y en la Mesa que del lunes 28 al lunes 5 no había una sola
+cita.** Era falso. Ya está corregido en Termómetro v67 y Mesa v25, con el error dicho en el
+tablero y no escondido.
+
+**Cómo me equivoqué, porque el método es lo que hay que arreglar:** pedí el calendario de hoy al
+13 de octubre en **una sola consulta**, me devolvió dieciocho eventos y un campo que decía
+`totalResultCount: 18`. **Lo leí como el total y era la primera página.** Al partir la ventana en
+dos aparecieron **quince sesiones entre el lunes 28 y el jueves 1**. Y la número dieciséis,
+**Comunicaciones del lunes 5 a las 4:00 p. m.**, no aparece en ninguna búsqueda por «Comfacesar»
+porque su asunto no lleva esa palabra: se llama *«I AM Intelligence Comunicaciones y Sandra
+Curvelo | Founder & CSO de IAM™»*.
+
+**Regla nueva, y va al contrato:** una búsqueda de calendario que devuelve el tope de resultados
+**no prueba que no haya más**. Se parte la ventana y se vuelve a preguntar, y se busca además por
+el nombre del área, no solo por el del cliente. **Decir «no hay nada» cuando sí hay es peor que
+no decir nada**, porque manda a Sandra a apagar un incendio que no existe.
+
+**Cómo lo detecté:** Lucía subió `agentes/lucia/agenda-proxima-semana.md` con las dieciséis. No lo
+copié, lo verifiqué contra el calendario, que es la fuente, y ahí salió mi error.
+
+**Lo que sí se sostiene del aviso:** la semana de cierre es de **seis áreas**, Subsidio con cinco,
+Jurídica, Mercadeo y Comunicaciones con tres cada una, Servicios Sociales y Sub. Operativa con una.
+**Las otras doce no aparecen**, y seis no aparecen en nada de lo que queda: Agencia de Empleo,
+Vivienda, Tesorería, Talento Humano, Planeación y Gerencia Financiera. El viernes 2 no tiene
+ninguna. **Subsidio sale de la lista de áreas sin fecha: son seis, no siete.**
+
 ## ⭕️ 22 sep · 17:50 · Recuento completo contra Dropbox: son 80, no 79. Y los cinco tableros al día
 
 **Sandra dijo que le parecían más y tenía razón.** Volví a contar desde la fuente, no desde el
