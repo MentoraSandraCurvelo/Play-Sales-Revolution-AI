@@ -16,7 +16,7 @@ De las 26 citas de la semana, **22 son de IAM™ Intelligence en Comfacesar**. L
 | ~~Lun 21~~ | 3:00 p. m. | Cumplimiento | — | **no se hizo** | inasistencia · nadie entró |
 | Lun 21 | 5:00 p. m. | Sub. Admin. y Financiera | Liliany | **S9** | falta el número |
 | Mar 22 | 10:00 a. m. | Sub. Operativa y Comercial | — | **S4** | correcto |
-| Mar 22 | 11:00 a. m. | Servicios Sociales | — | **S9** | corregido |
+| ~~Mar 22~~ | 11:00 a. m. | Servicios Sociales | Lilian y Juan Pablo | **no se hizo** | falla técnica · el área sí entró |
 | Mar 22 | 2:00 p. m. | Jurídica | Lilibeth Costa | **S9** | corregido |
 | Mar 22 | 3:00 p. m. | Cumplimiento | Aura Marina Sánchez | **S2** | dice «Sesion 3» — devolver a 2 |
 | Mar 22 | 4:00 p. m. | Educación | Julissa Pérez | **S4** | correcto |
@@ -28,7 +28,7 @@ De las 26 citas de la semana, **22 son de IAM™ Intelligence en Comfacesar**. L
 | Mié 23 | 5:00 p. m. | Comunicaciones | Vidiana Bendeck | **S8** | correcto |
 | Jue 24 | 8:00 a. m. | Mercadeo | Rina Ropain | **S5** | corregido |
 | Jue 24 | 10:00 a. m. | Jurídica | Lilibeth Costa | **S11** | corregido |
-| Jue 24 | 11:00 a. m. | Servicios Sociales | — | **S10** | corregido |
+| Jue 24 | 11:00 a. m. | Servicios Sociales | — | **S9** | dice «S10» — devolver a 9 |
 | Jue 24 | 2:00 p. m. | Contabilidad | Carlos Lozano | **S8** | corregido |
 | Jue 24 | 3:00 p. m. | Sub. Admin. y Financiera | Liliany | **S11** | falta el número |
 | Vie 25 | 9:00 a. m. | Tecnología | Olga Lucía Barros | **S6** | corregido |
@@ -77,7 +77,7 @@ numeración. **Las diez áreas verificadas coinciden.**
 |---|---|---|
 | Cumplimiento | `Sesion 1` · 26 ago | **S2** el martes — la del lunes se cayó |
 | Sub. Operativa | `Sesion 3` · 1 sep | **S4** |
-| Servicios Sociales | `Sesion 8` · 16 sep | **S9**, luego S10 |
+| Servicios Sociales | `Sesion 8` · 16 sep | **S9** el jueves — la del martes se cayó |
 | Jurídica | `Sesion 8` · 17 sep | **S9**, S10, S11 |
 | Educación | `Sesion 3` · 7 sep | **S4**, luego S5 |
 | Tecnología | `Sesion 4` · 17 sep | **S5**, luego S6 |
