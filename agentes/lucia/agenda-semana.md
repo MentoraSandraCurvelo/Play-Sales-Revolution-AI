@@ -19,12 +19,12 @@ De las 26 citas de la semana, **22 son de IAM™ Intelligence en Comfacesar**. L
 | ~~Mar 22~~ | 11:00 a. m. | Servicios Sociales | Lilian y Juan Pablo | **no se hizo** | falla técnica · el área sí entró |
 | Mar 22 | 2:00 p. m. | Jurídica | Lilibeth Costa | **S9** | corregido |
 | Mar 22 | 3:00 p. m. | Cumplimiento | Aura Marina Sánchez | **S2** | dice «Sesion 3» — devolver a 2 |
-| Mar 22 | 4:00 p. m. | Educación | Julissa Pérez | **S4** | correcto |
+| ~~Mar 22~~ | 4:00 p. m. | Educación | — | **no se hizo** | inasistencia · nadie entró |
 | Mié 23 | 9:00 a. m. | Tecnología | Olga Lucía Barros | **S5** | corregido |
 | Mié 23 | 10:00 a. m. | Jurídica | Lilibeth Costa | **S10** | corregido |
 | Mié 23 | 2:00 p. m. | IPS | Danilo Pozo | **S4** | corregido |
 | Mié 23 | 3:00 p. m. | Sub. Admin. y Financiera | Liliany | **S10** | falta el número |
-| Mié 23 | 4:00 p. m. | Educación | Julissa Pérez | **S5** | correcto |
+| Mié 23 | 4:00 p. m. | Educación | Julissa Pérez | **S4** | dice «Sesion 5» — devolver a 4 |
 | Mié 23 | 5:00 p. m. | Comunicaciones | Vidiana Bendeck | **S8** | correcto |
 | Jue 24 | 8:00 a. m. | Mercadeo | Rina Ropain | **S5** | corregido |
 | Jue 24 | 10:00 a. m. | Jurídica | Lilibeth Costa | **S11** | corregido |
@@ -79,7 +79,7 @@ numeración. **Las diez áreas verificadas coinciden.**
 | Sub. Operativa | `Sesion 3` · 1 sep | **S4** |
 | Servicios Sociales | `Sesion 8` · 16 sep | **S9** el jueves — la del martes se cayó |
 | Jurídica | `Sesion 8` · 17 sep | **S9**, S10, S11 |
-| Educación | `Sesion 3` · 7 sep | **S4**, luego S5 |
+| Educación | `Sesion 3` · 7 sep | **S4** el miércoles — la del martes se cayó |
 | Tecnología | `Sesion 4` · 17 sep | **S5**, luego S6 |
 | IPS | `Sesion 3` · 17 sep | **S4** |
 | Comunicaciones | `Sesion 7` · 17 sep | **S8**, luego S9 |

@@ -181,14 +181,29 @@
       "compromiso": "Se retoma la S9 completa el jueves 24 a las 11:00 a. m., que ya estaba agendada.",
       "cuenta_como": "cancelada",
       "nota": "**Esta no es una inasistencia y no debe leerse como tal: el área sí se presentó, las dos personas.** Es la primera caída del programa por falla técnica. Servicios Sociales es de las áreas más avanzadas —ocho sesiones, informe cerrado y agente en marcha— y no ha fallado a un espacio desde el 8 de septiembre. *Como la sesión no se hizo, el número no avanza: la del jueves 24 es la S9, no la S10, y hay que corregir el asunto del evento.*"
+    },
+    {
+      "area": "Educación",
+      "sesion": "S4",
+      "fecha": "2026-09-22",
+      "hora": "16:00",
+      "canal": "#educacion",
+      "quien_cancela": "IAM™ — Sandra",
+      "motivo": "No ingresó nadie a la sala.",
+      "causa": "inasistencia — no ingresó a la sala",
+      "aviso_en_canal": "Pendiente de aprobación de Sandra el 22 de septiembre.",
+      "reagendada": true,
+      "compromiso": "Tienen otro espacio agendado el miércoles 23 a las 4:00 p. m. Se les pide confirmar por el canal.",
+      "cuenta_como": "cancelada",
+      "nota": "Séptima inasistencia del programa y **la segunda caída de Educación**, después de la del 31 de agosto —que sí fue avisada y se recuperó el 7 de septiembre—. *El área lleva desde el 7 de septiembre sin sesión: dos semanas.* La cita tenía invitados a `auxiliareducacion@` y `rectoriacolegio@`. **Como no se hizo, el número no avanza: la del miércoles 23 es la S4, no la S5**, y hay que devolver el asunto del evento."
     }
   ],
   "patron": {
     "detectado": "2026-09-01",
-    "que_pasa": "Doce sesiones caídas en seis semanas, pero no todas son lo mismo. **Seis son inasistencias sin aviso** —Servicios Sociales el 3 de septiembre, Sub. Operativa y Mercadeo el miércoles 9, Comunicaciones el lunes 15, Gerencia Financiera el viernes 18 y Cumplimiento el lunes 21—. **Cinco son cancelaciones avisadas o por cruce de agenda.** Y **una es falla técnica** —Servicios Sociales el 22 de septiembre—, donde el área sí se presentó: esa no debe leerse como incumplimiento.",
+    "que_pasa": "Trece sesiones caídas en seis semanas, y no todas son lo mismo. **Siete son inasistencias sin aviso** —Servicios Sociales el 3 de septiembre, Sub. Operativa y Mercadeo el miércoles 9, Comunicaciones el lunes 15, Gerencia Financiera el viernes 18, Cumplimiento el lunes 21 y Educación el martes 22—. **Cinco son cancelaciones avisadas o por cruce de agenda.** Y **una es falla técnica** —Servicios Sociales el 22 de septiembre—, donde el área sí se presentó: esa no debe leerse como incumplimiento.",
     "por_que_importa": "El problema no es general: está concentrado en tres áreas, y son las que van más atrás. **Cumplimiento es el caso más serio del programa.** Se le cayó la S2 el 2 de septiembre; la contraparte aprobó un relevo de representantes para destrabarla; y **las dos sesiones agendadas después del relevo también se cayeron** — la del 16 de septiembre cancelada, la del 21 sin que nadie entrara a la sala. **Tres caídas de la misma sesión y una sola hecha en todo el programa.** El nombramiento no resolvió el problema: lo trasladó. Sub. Operativa no vuelve desde el 9 de septiembre y Gerencia Financiera perdió su S3 el 18. **Y el último día es el lunes 5 de octubre: quedan dos semanas.** Con una sola sesión hecha, Cumplimiento no alcanza a llegar si no se interviene ya.",
     "a_quien_toca": "María Elvira Marulanda — es quien puede pedir que el espacio del programa se respete como cualquier otro compromiso institucional.",
     "actualizado": "2026-09-22",
-    "recuperadas": "Seis de las once caídas ya se recuperaron: Educación S3 el 7 de septiembre, Servicios Sociales el 10 —que cierra las dos suyas—, Tecnología el 11 por vía propia, y el 17 de septiembre, en el mismo día, Mercadeo S4 y Comunicaciones S6. Quedan cinco sin fecha nueva, de tres áreas: Sub. Operativa S3, Gerencia Financiera S3 y Cumplimiento S2, esta última caída **tres veces**."
+    "recuperadas": "Seis de las trece caídas se recuperaron: Educación S3 el 7 de septiembre, Servicios Sociales el 10 —que cierra las dos suyas—, Tecnología el 11 por vía propia, y el 17 de septiembre, en el mismo día, Mercadeo S4 y Comunicaciones S6. **Quedan siete sin hacer**, de cinco áreas: Sub. Operativa S3, Gerencia Financiera S3, Cumplimiento S2 —caída tres veces—, Servicios Sociales S9 —que se retoma el jueves— y Educación S4, que se retoma el miércoles."
   }
 }
