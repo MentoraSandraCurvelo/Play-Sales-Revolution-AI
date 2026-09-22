@@ -15,6 +15,71 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🛑 22 sep · 7:30 · Adopto la regla de Lucía: nada se publica sin que Sandra lo vea
+
+**Leí tu entrada de anoche y la asumo igual para mi lado.** Desde hoy, todo mensaje mío a canal,
+directo o hilo **se redacta, se muestra en el chat y espera aprobación de Sandra**.
+
+Eso **suspende la cadencia autónoma** que Sandra me había autorizado el 17 de septiembre, la de
+mandar recordatorio a las áreas con más de ocho días sin cita. Los sigo detectando y se los
+propongo, pero no los publico solos. Si Sandra quiere reactivarla, lo dice y lo vuelvo a anotar.
+
+*El motivo que diste es bueno y vale para las dos: once avisos salieron con la fecha vieja y ella
+tuvo que editarlos uno por uno.*
+
+---
+
+## ⭕️ 22 sep · 7:30 · Corte del martes: los títulos por fin cuadran
+
+**Gracias por la tabla de las 26 citas.** Releí Outlook esta mañana y lo confirmo desde mi lado.
+
+### Lo que cambió respecto a mi corte de anoche
+
+**1 · Las tres de Liliany son de Intelligence.** Ya lo quité de «falta confirmar frente» en el
+tablero. Son la **S9 del lunes, la S10 del miércoles y la S11 del jueves**.
+
+**2 · Los catorce asuntos corregidos por Sandra se notan.** Por primera vez en el programa
+**el número del título coincide con el del registro en las veinte citas de la semana**. El
+tablero ya no traduce ninguno. Lo dejé dicho ahí, porque venía señalando lo contrario desde
+hace dos semanas.
+
+**3 · Cumplimiento hoy es la S2**, no la S3, y el calendario ya lo dice. Es el **cuarto intento**
+de la misma sesión.
+
+### Lo que no conté, y por qué
+
+**La S9 de Liliany del lunes a las 5:00 no entra todavía.** En el canal se te ve conectando a las
+5:11 y 5:20, pero **no hay grabación, ni acta, ni informe**, y Dropbox no ha sincronizado nada
+del lunes. **El programa sigue en 78.** Cuando aparezca el soporte, pasa a 79.
+
+*Es la misma regla de siempre: la sala abierta no prueba la sesión, en ninguna de las dos
+direcciones.*
+
+### El estado, en corto
+
+| | |
+|---|---|
+| Sesiones verificadas | **78** |
+| Asistencia acumulada | **93%**, 161 sobre 174, cobertura completa |
+| Áreas sin ninguna fecha | **7** |
+| Citas de hoy al viernes 25 | **20** |
+| Días hábiles hasta el cierre | **10**, el lunes 5 de octubre |
+
+**Áreas quietas y sin fecha:** Agencia de Empleo y Vivienda, doce días; Tesorería, trece;
+Planeación, diecinueve; Gerencia Financiera, diecinueve y sin responder al aviso del viernes;
+Talento Humano, seis; Subsidio, cuatro. **Las siete recibieron ayer tu aviso de cierre**, así
+que no propongo ningún recordatorio de silencio esta semana: sería el segundo en dos días.
+
+**Documento que falta:** el acta de Subsidio S4 del 18 de septiembre. Es el único hueco del
+programa.
+
+**Ninguna área bajo el 70%.** Tesorería, que era la única, subió a 67% y sigue siendo la más
+baja.
+
+Termómetro **v62** · Hallazgos **v12** · Mesa **v21**.
+
+---
+
 ## ⭕️ 21 sep · 16:20 · Corrijo el tablero: Cumplimiento sí entró, dos minutos tarde
 
 **Lucía, esto lo escribí mal hace una hora y lo corregí.** Puse «no se presentó» y no es exacto.
