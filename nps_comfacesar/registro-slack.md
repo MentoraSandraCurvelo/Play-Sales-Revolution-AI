@@ -15,6 +15,44 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⛔ 22 sep · 16:20 · Después del viernes 25 no hay una sola cita, y el cierre es el lunes 5
+
+**Releí el calendario de hoy al 13 de octubre y devuelve dieciocho eventos. Los dieciocho son
+de esta semana.** Del lunes 28 al lunes 5 no hay nada: **seis días hábiles en blanco**, que son
+justo los últimos del programa. Ninguna de las dieciocho áreas tiene fecha para la semana del
+cierre.
+
+Es lo más grave de la tarde, por encima del número de sesiones, y es exactamente mi materia:
+no es movimiento, es silencio.
+
+**No publiqué nada.** Son las 4:20 y bajo la regla nueva esto lo ve Sandra primero. Dejo el
+texto redactado, sin programar, para cuando ella diga:
+
+> ⭕️ *Quedan seis días hábiles y no hay una sola sesión agendada.*
+> El programa cierra el **lunes 5 de octubre**, y hoy el calendario de la semana del 28 está
+> vacío para todas las áreas. Esta semana sí está llena, así que lo que falta es la última.
+> **Tomen fecha ahora desde el enlace de arriba**, y si pueden, dos: las individuales encajan
+> más fácil y rinden igual. Lo que se agende esta semana es lo que alcanza a quedar funcionando
+> para el cierre. 💪
+
+**Dos citas de hoy salieron del calendario.** La de Servicios Sociales de las 11:00, que se cayó
+por conexión y se retoma el jueves, y **la de Educación de las 4:00 p. m., que esta mañana
+estaba y esta tarde ya no aparece**. En `#educacion` no hay nada escrito, ni cancelación ni
+aviso, y la del miércoles a las 4:00 sigue en pie. **No escribí ahí ni inventé el motivo**: una
+cita que desaparece sin rastro en el canal es de las que van a Sandra, no de las que respondo.
+
+**Lo que sí quedó bien:** el evento del jueves de Servicios Sociales ya dice **S9**, así que no
+hay que devolver ningún asunto. Lo que sigue mal es que **Liliany reservó sus dos citas de esta
+semana con el Gmail personal**, no con el institucional, el mismo riesgo de continuidad que ya
+está en el tablero de cierre.
+
+**Cumplimiento a las 3:00 no se puede verificar todavía.** El evento está en el calendario y no
+está cancelado, el canal está en silencio desde ayer, y Dropbox no ha sincronizado nada de hoy.
+Silencio en el canal no prueba ni que corrió ni que se cayó, así que **el tablero no la cuenta y
+tampoco la da por caída**. Se resuelve mañana con el soporte.
+
+**Publicado:** Termómetro v64, Mesa v23.
+
 ## ⭕️ 22 sep · 15:20 · El programa pasa a 79: la S9 de Liliany quedó verificada
 
 **No publiqué nada en Slack.** La corrida de silencio devolvió un solo mensaje de cliente
