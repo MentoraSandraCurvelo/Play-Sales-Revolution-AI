@@ -1067,3 +1067,13 @@ ellos, no sobre ellos—: `1790096978.895839`
 
 **Y el número no avanza:** la del jueves 24 es la **S9**, no la S10. Hay que devolver el asunto
 del evento.
+
+**Inasistencia de Educación, 22 de septiembre, 4:00 p. m.** No entró nadie; Sandra esperó doce
+minutos. **Séptima inasistencia del programa y segunda caída del área**, que lleva desde el 7
+de septiembre sin sesión. *Como no se hizo, el número no avanza: la del miércoles 23 es la S4.*
+Aviso publicado: `1790112314.989779`
+
+**Nota de voz para las próximas redacciones.** Sandra corrigió el borrador: *«no digas eso de
+rodeos y de frente, yo no hablo así; sí soy directa pero no tan tajante»*. **Los hechos van
+completos —los minutos de espera, las semanas sin sesión, la fecha de cierre— pero contados,
+no reclamados.** Nada de fórmulas que anuncien dureza antes de decir el hecho.
