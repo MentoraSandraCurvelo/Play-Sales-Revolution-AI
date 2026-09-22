@@ -1,0 +1,214 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SUB. ADMINISTRATIVA Y FINANCIERA",
+  "area_completa": "",
+  "sesion_num": 9,
+  "fase": "Proyectos y Sistemas de Trabajo",
+  "fecha": "21 de septiembre de 2026",
+  "fecha_corta": "21 septiembre 2026",
+  "subtitulo_meta": "Individual de Liliany · 21 de septiembre de 2026 · 5:16 p. m. · 25 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Sub. Administrativa y Financiera — Comfacesar"],
+    ["Sesión", "N° 9 — Individual de Liliany: el desempeño operativo de la subdirección"],
+    ["Fecha", "21 de septiembre de 2026"],
+    ["Duración de la sesión", "25 minutos efectivos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Liliany — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "1", "etiqueta": "Proyecto nuevo del área", "detalle": "Desempeño operativo de líderes"},
+    {"valor": "2", "etiqueta": "Calendarios en el diseño", "detalle": "Uno para la dirección, otro para las áreas"},
+    {"valor": "1", "etiqueta": "Semana para la primera prueba", "detalle": "El calendario piloto arranca ya"},
+    {"valor": "0", "etiqueta": "Usuario propio en el módulo", "detalle": "Solicitado, sin autorizar"},
+    {"valor": "25", "etiqueta": "Minutos efectivos", "detalle": "De 38 de sala"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Liliany", "cargo": "Profesional Senior — Sub. Administrativa y Financiera", "correo": "profesionalaf@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 9. Sesión corta y mixta: se trabajó marca profesional y se planteó un proyecto nuevo de Intelligence. Queda documentada completa, porque el espacio cuenta para este programa.",
+  "riesgos": [
+    {
+      "titulo": "La subdirección no sabe en qué se le va el tiempo",
+      "nivel": "ALTO",
+      "descripcion": "_El detonante fue concreto:_ la dirección le hizo notar al subdirector que **«cada vez que te necesito estás en algo»**. Y el puesto lo describe con precisión: *él está trabajando, y en cosas importantes* — pero no hay forma de demostrarlo ni de ver qué áreas lleva semanas sin atención. **Lo que falta no es dedicación: es registro.**",
+      "responsable": "Liliany / Esta semana"
+    },
+    {
+      "titulo": "La agenda del jefe no es inamovible",
+      "nivel": "ALTO",
+      "descripcion": "**Ese es el diagnóstico de fondo, y se nombró sin rodeos: es desorden.** _Si se agenda algo y se atiende otra cosa más urgente, el calendario deja de ser una fuente confiable_ — y entonces no hay nada que medir. **El sistema completo depende de que la agenda se cumpla.**",
+      "responsable": "Liliany / Permanente"
+    },
+    {
+      "titulo": "Sin reporte del jefe no hay indicador",
+      "nivel": "ALTO",
+      "descripcion": "_Se dijo como condición, no como sugerencia:_ **si él va a cancelar, tiene que avisar.** Cada movimiento que no se registre es un hueco en la medición. El puesto puede operar todo el circuito, pero **la información tiene que llegarle.**",
+      "responsable": "Subdirección / Permanente"
+    },
+    {
+      "titulo": "No existe el inventario de áreas y personas a cargo",
+      "nivel": "MEDIO",
+      "descripcion": "La subdirección tiene bajo su resorte varias gerencias —talento humano, subsidio, planeación, agencia de empleo— y además áreas que dependen de ella por fuera del organigrama directo. **Sin ese inventario no se puede repartir el tiempo entre nada.** _Es el primer insumo del proyecto._",
+      "responsable": "Liliany / Esta semana"
+    },
+    {
+      "titulo": "La calidad del reporte de personal sigue sin confirmarse",
+      "nivel": "MEDIO",
+      "descripcion": "_Pendiente desde la sesión anterior._ El área solicitó **un usuario propio en el módulo** para descargar los reportes directamente, en lugar de depender de que se los envíen por correo. Está sin autorizar. **Hasta no entrar, no se sabe qué información hay realmente** — y de eso depende lo que se pueda construir encima.",
+      "responsable": "Liliany / Esta semana"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Levantar el inventario de áreas y personas a cargo",
+      "descripcion": "Es el insumo base del proyecto. **Sin saber cuántas áreas son y quién responde por cada una, el reparto de tiempo no significa nada.**",
+      "responsable": "Liliany",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Planear el calendario hora a hora y probarlo esta semana",
+      "descripcion": "_Con lo que ya se tenga a mano._ **La prueba es de esta semana, no del mes entrante** — el programa cierra el 5 de octubre.",
+      "responsable": "Liliany",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Acordar con la subdirección la disponibilidad y el compromiso de reporte",
+      "descripcion": "**Nada de esto funciona si él no avisa cuando mueve algo.** Conviene planteárselo como lo que es: una forma de demostrar en qué se le va el tiempo, no un control sobre él.",
+      "responsable": "Liliany",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Insistir en el usuario propio del módulo de personal",
+      "descripcion": "Y **revisar qué reportes permite descargar** — pueden traer bastante más información que la que hoy llega por correo.",
+      "responsable": "Liliany",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Terminar el ejercicio de segmentación pendiente",
+      "descripcion": "Quedó a medias en la sesión anterior, a la espera de la información de personal.",
+      "responsable": "Liliany",
+      "plazo": "Antes de la S10"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El proyecto nuevo: desempeño operativo de líderes",
+      "duracion": "~10 min",
+      "objetivo": "Convertir una percepción en un indicador.",
+      "pasos": [
+        "_El problema, tal como lo trajo el puesto:_ la subdirección tiene muchas áreas a cargo y **le dedica más tiempo a unas que a otras, sin que nadie pueda verlo.** La dirección ya lo notó",
+        "**La entrega pensada:** un tablero semanal que muestre **cuánto tiempo se le dedicó a cada área**, para que al cerrar la semana se pueda decir *«llevo tanto sin sentarme con tal área»* y priorizar con dato, no con sensación",
+        "**Y un segundo indicador que apareció en la conversación:** qué parte de la agenda se cumplió y qué parte no. _No solo en qué se invierte el tiempo — también qué resultado deja_",
+        "**La fuente es el calendario.** Por eso todo el diseño depende de que el calendario sea fiel: si se agenda una cosa y se atiende otra, no hay nada que medir",
+        "_El nombre que le puso el propio puesto al proyecto:_ **desempeño operativo de líderes.** Y la idea es replicarlo después con los líderes que dependen de la subdirección"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El diseño del circuito",
+      "duracion": "~9 min",
+      "objetivo": "Definir cómo se alimenta el indicador sin trabajo manual.",
+      "pasos": [
+        "**Dos calendarios sobre la misma agenda.** Uno que ve la dirección, con el detalle de dónde está; otro que ven las áreas, que **solo muestra disponibilidad, no contenido**",
+        "**Un criterio de acceso que ordena solo:** a la subdirección se llega por agenda. _Quien encuentra un espacio libre lo toma, sea lo que sea_ — y con eso las áreas aprenden el canal sin que haya que pedírselo",
+        "**La clasificación la hace el puesto**, con una matriz de prioridad: lo urgente, lo importante que no es urgente, y lo importante y urgente a la vez. _Eso es lo que estratifica la semana_",
+        "**Al cierre de cada semana se mide:** qué atendió, qué no, y qué dejó de atender",
+        "_Y lo que evita el trabajo manual:_ cuando algo se mueve, **el aviso al área sale solo**, con plantillas preparadas, sin que nadie tenga que escribir el correo",
+        "**Condición del sistema, dicha como tal:** si la subdirección va a cancelar, tiene que avisar. **Sin información no hay medición**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El perfil profesional",
+      "duracion": "~7 min",
+      "objetivo": "Resolver la duda que tenía frenado el avance.",
+      "pasos": [
+        "_La duda era concreta:_ el cargo dice **Profesional Senior**, pero el rol real es de **gestión entre las áreas** — conectar a las áreas con la subdirección y resolver lo que necesitan",
+        "**La respuesta: «Líder en gestión».** _El razonamiento vale más que el título:_ «profesional senior» es una categoría interna que fuera de la Caja no comunica nada, y un nombre que suene subordinado **le resta credibilidad a lo que se publica**",
+        "_Y el criterio que lo cierra:_ **no se está inventando nada — se está nombrando bien lo que ya se hace.** El puesto lidera procesos aunque no tenga gente a cargo",
+        "**Corrección de método:** no ver todas las sesiones seguidas. _Se ve la del perfil y se hace el perfil; se ve la de la red y se empieza a conectar._ La información sin práctica intermedia no se fija",
+        "_El área ya está actuando:_ sesión de fotografía agendada para el día siguiente, con una imagen acorde a la marca"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD PLANTEADA · SESIÓN 9 · 21 septiembre 2026",
+      "titulo": "El tablero de desempeño operativo de la subdirección",
+      "descripcion": "Un indicador semanal de **cuánto tiempo recibe cada área a cargo** y qué parte de la agenda se cumplió, construido sobre el calendario. _Lo propuso el puesto, no la mentoría._ **Y responde a un señalamiento real de la dirección**, lo que le da una razón de negocio que pocos ejercicios del programa tienen.",
+      "estado": "Diseñado en sesión",
+      "proximo_paso": "Inventario de áreas y calendario piloto",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "HALLAZGO DE GESTIÓN · SESIÓN 9 · 21 septiembre 2026",
+      "titulo": "El problema no es la carga: es que la agenda no se sostiene",
+      "descripcion": "**Se nombró sin rodeos: es desorden.** No se puede estar en todo y en nada. _Y el costo ya es visible_ — la dirección percibe incumplimiento en alguien que sí está trabajando. **Una agenda que se respeta soluciona las dos cosas a la vez: la percepción y la medición.**",
+      "estado": "Abierto",
+      "proximo_paso": "Acordar la agenda inamovible",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "SI FUNCIONA · SESIÓN 9 · 21 septiembre 2026",
+      "titulo": "El mismo tablero para los demás líderes",
+      "descripcion": "_Lo planteó el propio puesto:_ si el ejercicio sirve con la subdirección, **se replica con los líderes que dependen de ella.** Deja de ser una herramienta para una persona y pasa a ser una forma de trabajar del área.",
+      "estado": "Por construir",
+      "proximo_paso": "Validar el piloto primero",
+      "target": "Octubre"
+    },
+    {
+      "encabezado": "PENDIENTE DE LA SESIÓN ANTERIOR · 21 septiembre 2026",
+      "titulo": "El usuario propio en el módulo de personal",
+      "descripcion": "El área pidió acceso directo **para dejar de depender de que le envíen el reporte por correo.** Sin autorizar todavía. _Y hay una razón de fondo:_ hasta no entrar no se sabe qué información existe realmente — **y de eso depende lo que se pueda construir encima.**",
+      "estado": "Solicitado",
+      "proximo_paso": "Insistir y revisar qué reportes permite",
+      "target": "Esta semana"
+    }
+  ],
+  "tareas_intro": "Sesión corta pero con un proyecto nuevo puesto sobre la mesa. Lo que sigue es levantar el insumo y probar el calendario esta misma semana — el cierre es el 5 de octubre.",
+  "tareas": [
+    {"tarea": "Levantar el inventario de áreas y personas a cargo de la subdirección", "responsable": "Liliany", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Planear el calendario hora a hora y montar el calendario piloto", "responsable": "Liliany", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Acordar con la subdirección la disponibilidad y el compromiso de avisar cuando mueva algo", "responsable": "Liliany", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Insistir en el usuario propio del módulo de personal y revisar qué reportes permite descargar", "responsable": "Liliany", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Terminar el ejercicio de segmentación que quedó pendiente", "responsable": "Liliany", "prioridad": "MEDIA", "plazo": "Antes de la S10"}
+  ],
+  "observaciones": [
+    "**Esta sesión fue mixta —marca profesional y proyecto de área— y queda documentada completa**, porque el espacio cuenta para IAM™ Intelligence. _Es una excepción del día, no un criterio nuevo._",
+    "**Lo que trajo el puesto es el mejor material de la sesión, y no lo pidió la mentoría.** Un tablero de desempeño operativo para la subdirección: cuánto tiempo recibe cada área a cargo y qué parte de la agenda se cumple. _Nació de un señalamiento real de la dirección_ — «cada vez que te necesito estás en algo»— y de una observación propia: él sí está trabajando, pero no hay forma de demostrarlo.",
+    "**El diagnóstico se dijo sin rodeos: eso es desorden.** No se puede estar en todo y en nada. _Y ahí está el riesgo del proyecto:_ **toda la medición cuelga de que la agenda se respete.** Si se agenda una cosa y se atiende otra, el calendario deja de ser fuente y no hay nada que medir.",
+    "El diseño quedó armado en la misma sesión: **dos calendarios sobre la misma agenda** —uno con detalle para la dirección, otro solo de disponibilidad para las áreas—, acceso por agenda para que las áreas aprendan el canal, una matriz de prioridad que aplica el propio puesto, medición semanal de lo atendido y lo no atendido, y avisos automáticos cuando algo se mueve.",
+    "_Y una condición que se dijo como tal, no como sugerencia:_ **si la subdirección va a cancelar, tiene que avisar.** El puesto puede operar todo el circuito, pero la información tiene que llegarle. **Sin reporte no hay indicador.**",
+    "**En la parte de marca profesional se resolvió la duda que tenía el avance frenado:** el cargo dice Profesional Senior y el rol real es de gestión entre áreas. Quedó como **«Líder en gestión»** — no porque suene mejor, sino porque una categoría interna no comunica nada fuera de la Caja y **un nombre que suene subordinado le resta credibilidad a lo que se publica.** _No se inventa nada: se nombra bien lo que ya se hace._",
+    "_Corrección de método que aplica a todo el programa:_ **no ver las sesiones en fila.** Se ve la del perfil y se hace el perfil; se ve la de la red y se empieza a conectar. **La información sin práctica intermedia no se fija.**",
+    "**Queda un pendiente que arrastra desde la sesión anterior:** el usuario propio en el módulo de personal, para dejar de depender del reporte que llega por correo. _Sigue sin autorizar_ — y hasta no entrar no se sabe qué información hay realmente, que es justo de lo que depende lo que se pueda construir encima."
+  ],
+  "proxima_sesion": {
+    "sesion": "Sub. Administrativa y Financiera — Sesión 10",
+    "condiciones": [
+      "El inventario de áreas y personas a cargo, levantado",
+      "El calendario planeado hora a hora",
+      "La disponibilidad acordada con la subdirección",
+      "El ejercicio de segmentación terminado"
+    ],
+    "agenda": [
+      "Montaje del calendario piloto y los dos niveles de visibilidad",
+      "La matriz de prioridad aplicada a una semana real",
+      "El tablero de desempeño operativo: primera versión",
+      "Cierre del pendiente de información de personal"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 21 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
