@@ -1086,6 +1086,8 @@ no reclamados.** Nada de fórmulas que anuncien dureza antes de decir el hecho.
 | `#sub-operativa` | Resumen S4 | `1790114061.155949` |
 | `#juridica` | Grabación S9 | `1790114069.281789` |
 | `#juridica` | Resumen S9 | `1790114296.910079` |
+| `#cumplimiento` | Grabación S2 | `1790119491.296019` |
+| `#cumplimiento` | Resumen S2 | `1790119688.776849` |
 
 **Cambio de regla.** Sandra corrigió el alcance: *«tú no necesitas visto bueno para enviar
 las grabaciones y el acta, son los mensajes puntuales»*. Las grabaciones y los resúmenes de

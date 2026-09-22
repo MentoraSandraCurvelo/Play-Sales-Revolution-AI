@@ -18,7 +18,7 @@ De las 26 citas de la semana, **22 son de IAM™ Intelligence en Comfacesar**. L
 | Mar 22 | 10:00 a. m. | Sub. Operativa y Comercial | — | **S4** | correcto |
 | ~~Mar 22~~ | 11:00 a. m. | Servicios Sociales | Lilian y Juan Pablo | **no se hizo** | falla técnica · el área sí entró |
 | Mar 22 | 2:00 p. m. | Jurídica | Lilibeth Costa | **S9** | corregido |
-| Mar 22 | 3:00 p. m. | Cumplimiento | Aura Marina Sánchez | **S2** | dice «Sesion 3» — devolver a 2 |
+| Mar 22 | 3:00 p. m. | Cumplimiento | Aura Marina Sánchez | **S2** ✔ | **se hizo** · el asunto decía «Sesion 3» |
 | ~~Mar 22~~ | 4:00 p. m. | Educación | — | **no se hizo** | inasistencia · nadie entró |
 | Mié 23 | 9:00 a. m. | Tecnología | Olga Lucía Barros | **S5** | corregido |
 | Mié 23 | 10:00 a. m. | Jurídica | Lilibeth Costa | **S10** | corregido |
@@ -36,9 +36,11 @@ De las 26 citas de la semana, **22 son de IAM™ Intelligence en Comfacesar**. L
 | Vie 25 | 2:00 p. m. | Contabilidad | Carlos Lozano | **S9** | corregido |
 | Vie 25 | 3:00 p. m. | Mercadeo | Manuel José Gutiérrez | **S6** | corregido |
 
-**Quedan cuatro asuntos por corregir.** Los tres de Liliany —el programa ya está bien, solo les
-falta el número **S9, S10 y S11**— y el de **Cumplimiento del martes, que debe volver a
-«Sesion 2»**: como la del lunes no se hizo, el número no avanzó.
+**Quedan tres asuntos por corregir**, los tres de Liliany: el programa ya está bien, solo les
+falta el número **S9, S10 y S11**.
+
+**Cumplimiento se resolvió solo.** La sesión del martes 22 sí se hizo y era la **S2** —el asunto
+decía «Sesion 3» porque contaba la del lunes, que se cayó—. *Con esta, el área pasa a S3.*
 
 ## Lo que no cuenta
 
@@ -75,7 +77,7 @@ numeración. **Las diez áreas verificadas coinciden.**
 
 | Área | Última carpeta con archivos | Le sigue |
 |---|---|---|
-| Cumplimiento | `Sesion 1` · 26 ago | **S2** el martes — la del lunes se cayó |
+| Cumplimiento | `Sesion 1` · 26 ago | **S2** hecha el 22 de septiembre — le sigue la **S3** |
 | Sub. Operativa | `Sesion 3` · 1 sep | **S4** |
 | Servicios Sociales | `Sesion 8` · 16 sep | **S9** el jueves — la del martes se cayó |
 | Jurídica | `Sesion 8` · 17 sep | **S9**, S10, S11 |

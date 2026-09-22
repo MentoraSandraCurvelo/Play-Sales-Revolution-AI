@@ -1,0 +1,193 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "CUMPLIMIENTO",
+  "area_completa": "",
+  "sesion_num": 2,
+  "fase": "Configuración y Entorno de Trabajo",
+  "fecha": "22 de septiembre de 2026",
+  "fecha_corta": "22 septiembre 2026",
+  "subtitulo_meta": "Individual de Aura Marina Sánchez · 22 de septiembre de 2026 · 3:00 p. m. · 59 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Cumplimiento — Comfacesar"],
+    ["Sesión", "N° 2 — Individual de Aura Marina Sánchez: configuración del entorno y método de trabajo"],
+    ["Fecha", "22 de septiembre de 2026"],
+    ["Duración de la sesión", "59 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Aura Marina Sánchez — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "2", "etiqueta": "Sesiones hechas", "detalle": "En nueve semanas de programa"},
+    {"valor": "3", "etiqueta": "Semanas de atraso", "detalle": "Frente al resto de las áreas"},
+    {"valor": "0", "etiqueta": "Ejercicios de productividad", "detalle": "La hora se fue en configuración"},
+    {"valor": "2", "etiqueta": "Herramientas por configurar", "detalle": "Antes de la Sesión 3"},
+    {"valor": "85", "etiqueta": "% mínimo de asistencia", "detalle": "El umbral del indicador del proyecto"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Aura Marina Sánchez", "cargo": "Cumplimiento — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Inicial"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 2. Es la segunda sesión del área en nueve semanas de programa y quedan dos. La configuración quedó explicada completa; lo que define el resultado es si llega hecha a la siguiente.",
+  "riesgos": [
+    {
+      "titulo": "El área lleva dos sesiones hechas y el programa cierra el 5 de octubre",
+      "nivel": "CRÍTICO",
+      "descripcion": "La S1 fue el **26 de agosto**. Entre medio se agendaron tres sesiones y ninguna se realizó. **Son tres semanas de atraso frente al resto de las áreas**, que ya están construyendo agentes. _Quedan dos semanas._ **La única forma de recuperar es concentrar varias sesiones seguidas**, no una por semana.",
+      "responsable": "Aura Marina Sánchez / Inmediato"
+    },
+    {
+      "titulo": "La configuración no llegó hecha y consumió la sesión completa",
+      "nivel": "ALTO",
+      "descripcion": "La hora estaba prevista para el **primer ejercicio de productividad**. Se revisó en sesión la grabación de la S1 y **la configuración sí estaba explicada allí**; el área la había visto y entendido, pero no la había ejecutado. _Resultado: cero ejercicios en la S2._ **Si vuelve a pasar, se pierde otra de las que quedan.**",
+      "responsable": "Aura Marina Sánchez / Antes de la S3"
+    },
+    {
+      "titulo": "El área quiere trabajar en una herramienta distinta a la del programa",
+      "nivel": "ALTO",
+      "descripcion": "La herramienta que usa hoy el área es **la corporativa**, y el intento de configuración fue sobre esa. _La metodología del programa tiene un orden:_ **la base primero, el motor después** — y el motor es donde se construyen los proyectos, los conectores y los agentes. **Lo aprendido se traslada después a cualquier herramienta**, pero al revés el ejercicio no sale.",
+      "responsable": "Aura Marina Sánchez / Antes de la S3"
+    },
+    {
+      "titulo": "El equipo de la sesión no permitió trabajar en condiciones",
+      "nivel": "MEDIO",
+      "descripcion": "La diadema y el audio del portátil fallaron desde el primer minuto. **Se resolvió conectando el audio por el celular y compartiendo pantalla desde el computador**, pero se fueron minutos de la hora. _Y la cámara no se pudo activar._ **Conviene dejar el equipo probado antes de la sesión**, no durante.",
+      "responsable": "Aura Marina Sánchez / Antes de la S3"
+    },
+    {
+      "titulo": "Las sesiones que se agendan y no se hacen entran al indicador del área",
+      "nivel": "ALTO",
+      "descripcion": "**El proyecto mide un porcentaje de asistencia con un umbral de 85%**, y ese dato acompaña a la evaluación que el área haga del programa. _Cada cita reservada y no realizada baja ese indicador._ **Es un dato del área, no de la mentoría**, y llega al tablero que leen la líder del proyecto y la dirección.",
+      "responsable": "Aura Marina Sánchez / Permanente"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "CRÍTICO", "titulo": "Agendar varias sesiones seguidas esta semana y la próxima", "descripcion": "**Quedan dos semanas y el área va en la sesión 2.** _Las citas se reservan siempre a la hora en punto — las medias horas no se pueden tomar._", "responsable": "Aura Marina Sánchez", "plazo": "Inmediato"},
+    {"num": "02", "nivel": "CRÍTICO", "titulo": "Llegar con las dos herramientas configuradas", "descripcion": "Tono y estilo, **instrucciones personalizadas con el prompt del canal**, el «acerca de ti» con el rol y el perfil completos, memoria activada y las capacidades avanzadas encendidas.", "responsable": "Aura Marina Sánchez", "plazo": "Antes de la S3"},
+    {"num": "03", "nivel": "ALTO", "titulo": "Conectar el entorno de trabajo", "descripcion": "Correo, archivos y calendario **con la cuenta de Comfacesar.** _Es lo que separa usar una herramienta de tener un sistema de trabajo._", "responsable": "Aura Marina Sánchez", "plazo": "Antes de la S3"},
+    {"num": "04", "nivel": "ALTO", "titulo": "Crear el proyecto con el método CREA", "descripcion": "Contexto, Rol, Entrega y Acción escritos en la configuración del proyecto, **y los archivos de trabajo cargados dentro** para que el sistema tenga de dónde leer.", "responsable": "Aura Marina Sánchez", "plazo": "Antes de la S3"},
+    {"num": "05", "nivel": "MEDIO", "titulo": "Traer definido el primer ejercicio", "descripcion": "**El área ya lo tiene pensado y ya lo escribió en el tablero de productividad.** _Falta traer los archivos con los que se va a hacer._", "responsable": "Aura Marina Sánchez", "plazo": "Sesión 3"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El canal y el tablero de productividad",
+      "duracion": "~15 min",
+      "objetivo": "Dejar claro dónde se trabaja y cómo se reporta.",
+      "pasos": [
+        "**El canal del área es el punto único.** Ahí llegan la grabación y el acta de cada sesión, el enlace para agendar y el tablero — _y ahí queda el prompt de configuración listo para copiar_",
+        "**El tablero de productividad se llena en dos momentos:** al definir el ejercicio se anotan la tarea, la frecuencia y el tiempo que toma hoy; **al terminarlo se anotan la herramienta usada y el tiempo nuevo.** Las columnas de ahorro y reducción se calculan solas",
+        "_Y lo que casi nadie ve:_ **lo que se escribe en la hoja del área alimenta la hoja global y la tabla maestra** — la que leen la líder del proyecto y la dirección. Un dato mal puesto se propaga hasta arriba",
+        "**El proyecto mide asistencia con un umbral de 85%**, y ese indicador acompaña a la evaluación que el área haga del programa"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Configurar antes de pedir",
+      "duracion": "~15 min",
+      "objetivo": "Entender por qué la configuración va primero.",
+      "pasos": [
+        "**La calidad de la respuesta depende de la configuración, no de la pregunta.** Por eso la herramienta tiene ese campo y por eso es lo primero del programa",
+        "**Tono y estilo se definen una vez**, y conviene bajar los emojis y las viñetas: _a nivel organizacional ya se reconoce a simple vista un texto salido sin configurar_",
+        "**En «acerca de ti» va todo:** el rol dentro de la organización, el perfil profesional y también lo personal. _Es información que queda en la cuenta de cada quien y no la lee nadie más_",
+        "**Y se activan la memoria y las capacidades avanzadas** — búsqueda, voz, biblioteca y conectores"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El prompt que cierra la brecha",
+      "duracion": "~10 min",
+      "objetivo": "Instalar el criterio antes que la herramienta.",
+      "pasos": [
+        "**Es el mismo prompt que se entregó a todos los canales del programa**, y queda copiado en el canal del área",
+        "_Lo que exige:_ **no inventar nunca.** Decir «no lo sé» antes que responder con una seguridad que no corresponde. **Distinguir siempre entre hechos, estimaciones y opiniones**",
+        "**Cuando dé cifras, indicar el nivel de confianza**; cuando haga un cálculo, explicar paso a paso de dónde salió cada dato; cuando la información pueda haber cambiado, advertirlo",
+        "**No atribuir frases a personas reales sin poder verificarlas** y no inventar funciones de plataformas o herramientas",
+        "_Y una condición de método:_ **si la pregunta es ambigua, que pregunte antes de responder.** El rol que se le pide es el de un asistente crítico, no el de uno complaciente"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Proyecto, método CREA y sistema de trabajo",
+      "duracion": "~15 min",
+      "objetivo": "Separar los tres conceptos que sostienen el resto del programa.",
+      "pasos": [
+        "**Un proyecto aquí no es un proyecto en el sentido tradicional.** Es agrupar conversaciones bajo una misma memoria — _una carpeta que recuerda_. Lo que se habla fuera del proyecto no entra en esa memoria",
+        "**El método CREA ordena cada instrucción:** Contexto —qué está pasando y qué pasó—, Rol —qué versión experta debe adoptar—, Entrega —en qué formato y con qué colorimetría— y Acción —qué debe hacer con eso",
+        "**Herramienta y sistema de trabajo no son lo mismo.** Pedir un texto, copiarlo y pegarlo en el correo es usar una herramienta. **Conectar correo, archivos y calendario para que trabaje dentro de ellos es un sistema de trabajo** — y la diferencia son los conectores",
+        "_Y el escalón siguiente:_ **un asistente sigue instrucciones; un agente hace el circuito solo.** Es a donde apunta el programa",
+        "**Se explicó también cómo importar la memoria** de la herramienta que el área ya venía usando, para no empezar de cero"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 2 · 22 septiembre 2026",
+      "titulo": "El área ya sabe qué quiere automatizar",
+      "descripcion": "No fue una sesión en blanco: **el área llegó con el tablero de productividad diligenciado** con la tarea que quiere resolver, su frecuencia y el tiempo que le toma hoy. _Es el insumo exacto con el que arranca un ejercicio._ **Lo que falta no es claridad sobre el problema — es el entorno montado para atacarlo.**",
+      "estado": "Anotado en el tablero",
+      "proximo_paso": "Traer los archivos de esa tarea cargados en el proyecto",
+      "target": "Sesión 3"
+    },
+    {
+      "encabezado": "DECISIÓN DE MÉTODO · SESIÓN 2 · 22 septiembre 2026",
+      "titulo": "Primero la base, después el motor",
+      "descripcion": "El área quería configurar directamente la herramienta corporativa que ya usa. **La secuencia del programa es otra y tiene una razón:** la base enseña la configuración, el motor es donde se construyen los proyectos, los conectores y los agentes. _Lo aprendido se traslada después a cualquier herramienta;_ **al revés, el ejercicio no sale.**",
+      "estado": "Acordado en sesión",
+      "proximo_paso": "Configurar las dos en el orden del programa",
+      "target": "Antes de la S3"
+    },
+    {
+      "encabezado": "PUNTO DE ATENCIÓN · SESIÓN 2 · 22 septiembre 2026",
+      "titulo": "La cuenta no se comparte",
+      "descripcion": "Quedó explícito en sesión: **el entorno de cada persona es único e intransferible.** No por una regla administrativa, sino porque **cada quien maneja información que su compañero no tiene por qué ver** — y porque la memoria que se construye es la del puesto, no la de un grupo. _Es también la razón por la que, pasado cierto punto, el programa deja de ser grupal._",
+      "estado": "Explicado",
+      "proximo_paso": "Abrir el entorno propio del área",
+      "target": "Antes de la S3"
+    },
+    {
+      "encabezado": "LO QUE ESTÁ EN JUEGO · SESIÓN 2 · 22 septiembre 2026",
+      "titulo": "Dos semanas para recuperar tres",
+      "descripcion": "El área va en la **sesión 2 de nueve semanas de programa**, con tres citas agendadas que no se realizaron en el intervalo. **El cierre es el 5 de octubre.** _Con la configuración hecha y varias sesiones seguidas, todavía alcanza para llevar al menos un proceso medido al cierre._ **Con una sesión semanal, no.**",
+      "estado": "Abierto",
+      "proximo_paso": "Agendar en bloque, no de a una",
+      "target": "Inmediato"
+    }
+  ],
+  "tareas_intro": "La sesión dejó explicada la configuración completa y el método de trabajo. Todo lo que sigue depende de una sola cosa: que la Sesión 3 empiece con el entorno montado, para que esa hora se pueda dedicar al primer ejercicio.",
+  "tareas": [
+    {"tarea": "Agendar varias sesiones seguidas antes del cierre, siempre a la hora en punto", "responsable": "Aura Marina Sánchez", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Configurar las dos herramientas: tono, instrucciones personalizadas, «acerca de ti», memoria y capacidades avanzadas", "responsable": "Aura Marina Sánchez", "prioridad": "ALTA", "plazo": "Antes de la S3"},
+    {"tarea": "Pegar el prompt del canal en la configuración de ambas herramientas", "responsable": "Aura Marina Sánchez", "prioridad": "ALTA", "plazo": "Antes de la S3"},
+    {"tarea": "Conectar correo, archivos y calendario con la cuenta de Comfacesar", "responsable": "Aura Marina Sánchez", "prioridad": "ALTA", "plazo": "Antes de la S3"},
+    {"tarea": "Crear el proyecto con el método CREA y cargarle los archivos de trabajo", "responsable": "Aura Marina Sánchez", "prioridad": "ALTA", "plazo": "Antes de la S3"},
+    {"tarea": "Instalar la aplicación de escritorio además del entorno web", "responsable": "Aura Marina Sánchez", "prioridad": "MEDIA", "plazo": "Antes de la S3"},
+    {"tarea": "Importar la memoria de la herramienta que el área ya venía usando", "responsable": "Aura Marina Sánchez", "prioridad": "MEDIA", "plazo": "Antes de la S3"},
+    {"tarea": "Traer los archivos del primer ejercicio, que ya está anotado en el tablero", "responsable": "Aura Marina Sánchez", "prioridad": "ALTA", "plazo": "Sesión 3"},
+    {"tarea": "Probar audio y cámara antes de la sesión, no durante", "responsable": "Aura Marina Sánchez", "prioridad": "MEDIA", "plazo": "Antes de la S3"}
+  ],
+  "observaciones": [
+    "**Esta es la segunda sesión del área en nueve semanas de programa.** La primera fue el 26 de agosto; entre una y otra se agendaron tres citas que no se realizaron. _El área entra a la recta final con tres semanas de atraso frente a las demás_, que ya están construyendo agentes y midiendo ahorros.",
+    "**La hora estaba prevista para el primer ejercicio de productividad y se fue completa en configuración.** El área indicó que la grabación de la S1 no la incluía; se revisó la grabación en sesión y **sí estaba explicada allí.** _La había visto y la había entendido, pero no la había ejecutado._ **El resultado es el mismo: cero ejercicios en la S2.**",
+    "_Y conviene decir por qué importa tanto:_ **la configuración es la parte más árida del método y también la que sostiene todo lo demás.** Sin el entorno montado no se puede crear el proyecto, y sin proyecto no hay ejercicio que dé un resultado utilizable. **No es un requisito administrativo — es la condición técnica del trabajo.**",
+    "**Apareció una diferencia de criterio que quedó resuelta:** el área quería configurar directamente la herramienta corporativa que ya usa. La secuencia del programa es otra —la base primero, el motor después—, **porque es en el motor donde se construyen los proyectos, los conectores y los agentes.** _Lo aprendido se traslada luego a cualquier herramienta; al revés el ejercicio no sale._",
+    "**Se explicó completo el tablero de productividad**, que se llena en dos momentos: al definir el ejercicio y al terminarlo. Y se dejó claro el efecto cadena — **lo que el área escribe en su hoja alimenta la hoja global y la tabla maestra que leen la líder del proyecto y la dirección.**",
+    "**El prompt de configuración quedó copiado en el canal.** Es el mismo de todos los canales del programa y lo que exige es una sola cosa dicha de varias maneras: **no inventar.** Decir «no lo sé» antes que responder con seguridad que no corresponde, distinguir entre hechos, estimaciones y opiniones, indicar el nivel de confianza de cada cifra, explicar de dónde salió cada dato y preguntar cuando la instrucción es ambigua.",
+    "**Se separaron los tres conceptos que sostienen el resto del programa.** Un proyecto es una carpeta con memoria, no un proyecto en el sentido tradicional. **El método CREA —Contexto, Rol, Entrega, Acción— ordena cada instrucción.** Y la diferencia entre usar una herramienta y tener un sistema de trabajo son los conectores: _pedir un texto y copiarlo al correo es lo primero; que trabaje dentro del correo, los archivos y el calendario es lo segundo._",
+    "**El equipo no acompañó.** La diadema y el audio del portátil fallaron desde el primer minuto y hubo que resolverlo conectando el audio por el celular y compartiendo pantalla desde el computador; la cámara no se pudo activar. _Son minutos de una hora que ya venía corta._",
+    "**Lo que sí juega a favor: el área sabe qué quiere automatizar y ya lo dejó escrito en el tablero** — la tarea, su frecuencia y el tiempo que le toma hoy. **El problema está identificado; falta el entorno para atacarlo.** _Con la configuración hecha y varias sesiones seguidas, todavía alcanza para llevar al menos un proceso medido al cierre del 5 de octubre._"
+  ],
+  "proxima_sesion": {
+    "sesion": "Cumplimiento — Sesión 3",
+    "condiciones": [
+      "Las dos herramientas configuradas con el prompt del canal",
+      "Los conectores activos con la cuenta de Comfacesar",
+      "El proyecto creado con el método CREA",
+      "Los archivos del primer ejercicio cargados dentro del proyecto"
+    ],
+    "agenda": [
+      "Verificación rápida de la configuración",
+      "Primer ejercicio de productividad del área",
+      "Diligenciamiento del tablero con el tiempo antes y después",
+      "Definición del bloque de sesiones hasta el cierre"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 22 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
