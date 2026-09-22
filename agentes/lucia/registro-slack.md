@@ -1043,8 +1043,8 @@ editarlos uno por uno. Queda escrito en `LUCIA.md`.
 **Sub. Administrativa y Financiera S9** — individual de Liliany, 21 de septiembre, 25 minutos
 efectivos. **Sesión mixta —marca profesional y proyecto de área— documentada completa por
 excepción**, porque el espacio cuenta para Intelligence. *Sandra precisó que no es criterio
-nuevo: Liliany ya sabe distinguir los dos programas.* Acta lista; grabación y resumen
-**pendientes de aprobación**.
+nuevo: Liliany ya sabe distinguir los dos programas.* Acta lista. Grabación y resumen
+publicados con aprobación de Sandra: `1790098531.727959` y `1790098542.455389`.
 
 Lo central fue lo que trajo el área: **un tablero de desempeño operativo de la subdirección**
 sobre el calendario —cuánto tiempo recibe cada área a cargo y qué parte de la agenda se
