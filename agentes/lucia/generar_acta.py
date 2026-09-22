@@ -18,6 +18,7 @@ variable de entorno CHROME_BIN.
 import argparse
 import html
 import json
+import re
 import os
 import shutil
 import subprocess
@@ -51,6 +52,18 @@ PRIORIDADES = {"URGENTE": ROJO, "ALTA": ALTO, "MEDIA": MEDIO, "BAJA": BAJO}
 def e(valor):
     """Escapa texto para HTML."""
     return html.escape(str(valor if valor is not None else ""))
+
+
+def rico(valor):
+    """Escapa y luego aplica el resaltado ligero del acta: **negrita** y _cursiva_.
+
+    Se escapa primero y se marca despues, para que el texto de la fuente no
+    pueda inyectar HTML. Sin esto los asteriscos salian literales en el PDF.
+    """
+    t = e(valor)
+    t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t, flags=re.S)
+    t = re.sub(r"(?<![\w*])_([^_]+?)_(?![\w*])", r"<em>\1</em>", t, flags=re.S)
+    return t
 
 
 def enlace(url, texto):
@@ -316,7 +329,7 @@ def mapa_calor(d):
     escala = " · ".join(
         f"{punto(NIVELES[k][2])}{NIVELES[k][0]}" for k in ["CRITICO", "ALTO", "MEDIO", "BAJO"]
     )
-    intro = e(d.get("mapa_calor_intro", ""))
+    intro = rico(d.get("mapa_calor_intro", ""))
     cabeza = f'<div class="escala">{intro} Escala: {escala}</div>'
     bloques = []
     for r in riesgos:
@@ -328,7 +341,7 @@ def mapa_calor(d):
             f'<div class="r-titulo">{e(r.get("titulo"))}</div>'
             f'<div class="r-nivel" style="background:{fondo}">'
             f'{punto(punto_color)}{etiqueta}</div>'
-            f'<div class="r-desc">{e(r.get("descripcion"))}</div>'
+            f'<div class="r-desc">{rico(r.get("descripcion"))}</div>'
             f'<div class="r-resp">{e(r.get("responsable"))}</div>'
             f"</div>"
         )
@@ -351,7 +364,7 @@ def alertas(d):
             f'<div class="alerta">'
             f'<div class="barra" style="background:{fondo}">'
             f'{marca}<span class="num"> {e(a.get("num",""))}</span>{e(a.get("titulo"))}</div>'
-            f'<div class="cuerpo">{e(a.get("descripcion"))}</div>'
+            f'<div class="cuerpo">{rico(a.get("descripcion"))}</div>'
             f'<div class="firma"><b>Responsable:</b> {e(a.get("responsable"))} &nbsp;|&nbsp; '
             f'<b>Plazo:</b> <span class="plazo">{e(a.get("plazo"))}</span></div>'
             f"</div>"
@@ -371,7 +384,7 @@ def ejercicios(d):
         for inicio, trozo in ((0, pasos[:mitad]), (mitad, pasos[mitad:])):
             items = "".join(
                 f'<div class="paso {"par" if (inicio + i) % 2 == 0 else ""}">'
-                f'<span class="np">{inicio + i + 1:02d}</span>{e(p)}</div>'
+                f'<span class="np">{inicio + i + 1:02d}</span>{rico(p)}</div>'
                 for i, p in enumerate(trozo)
             )
             columnas.append(f'<div class="col">{items}</div>')
@@ -396,7 +409,7 @@ def oportunidades(d):
             f'<div class="oportunidad">'
             f'<div class="barra">★ {e(o.get("encabezado"))}</div>'
             f'<div class="op-titulo">{e(o.get("titulo"))}</div>'
-            f'<div class="op-desc">{e(o.get("descripcion"))}</div>'
+            f'<div class="op-desc">{rico(o.get("descripcion"))}</div>'
             f'<div class="op-pie"><b>Estado:</b> {e(o.get("estado"))} &nbsp;|&nbsp; '
             f'<b>Próximo paso:</b> {e(o.get("proximo_paso"))} &nbsp;|&nbsp; '
             f'<b>Target:</b> {e(o.get("target"))}</div>'
@@ -411,7 +424,7 @@ def tabla_tareas(d):
         return ""
     aviso = ""
     if d.get("tareas_intro"):
-        aviso = f'<div class="aviso"><span class="sig">⚠</span>{e(d["tareas_intro"])}</div>'
+        aviso = f'<div class="aviso"><span class="sig">⚠</span>{rico(d["tareas_intro"])}</div>'
     filas = "".join(
         f'<tr class="{"par" if i % 2 else ""}">'
         f'<td style="text-align:center;font-weight:bold;color:{ROJO}">{i + 1}</td>'
@@ -437,7 +450,7 @@ def tabla_observaciones(d):
     filas = "".join(
         f'<tr class="{"par" if i % 2 else ""}">'
         f'<td style="width:6%;text-align:center;font-weight:bold;color:{ROJO}">{i + 1}</td>'
-        f"<td>{e(o)}</td></tr>"
+        f"<td>{rico(o)}</td></tr>"
         for i, o in enumerate(obs)
     )
     return (
