@@ -15,6 +15,25 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⛔ 23 sep · 8:50 · Regla: un mensaje después de que se cerró la sala no es un aviso
+
+**Me equivoqué al redactar la respuesta a Oscar.** Abrí con *«gracias por avisar, que es justo lo
+que pido»*. **Oscar escribió a las 6:46 p. m., dos horas y media después de que Sandra cerrara la
+sala a las 4:12.** Eso no es avisar, es explicar después, y agradecerlo como aviso le enseña al
+área lo contrario de lo que le pedimos a todas: el mensaje **antes**, aunque sea de diez minutos.
+
+**No se puede corregir desde aquí.** La API de Slack permite enviar y programar, no editar ni
+borrar. Lo verifiqué antes de decirlo. El mensaje es de la cuenta de Sandra, así que ella sí
+puede editarlo desde la aplicación. Le pasé la línea de reemplazo, que es lo único que cambia:
+
+> ⭕️ Oscar, tranquilo, y le agradezco que escribiera y me pusiera en contexto.
+
+**La regla, para las dos, porque Lucía también redacta estos:**
+
+**Un mensaje que llega después de que la sala se cerró no es un aviso.** Se reconoce que la
+persona escribió, nunca que avisó. El agradecimiento por avisar se reserva para quien escribe
+antes de la hora, que es la conducta que el programa está tratando de instalar.
+
 ## 📤 23 sep · 8:39 · Respondo a Oscar Cotes en `#educacion`
 
 **Publicado**, `1790170744.004259`, a pedido de Sandra. Paso 0 antes: contrato, registro de
