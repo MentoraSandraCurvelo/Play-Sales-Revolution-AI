@@ -15,6 +15,33 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⛔ 23 sep · 16:20 · Educación no se presentó dos días seguidos
+
+**Sandra lo confirmó: se cae la de hoy y queda en el informe, y la de ayer igual.** Martes 22 y
+miércoles 23, las dos a las 4:00 p. m., las dos sin que ingresara nadie a la sala. **Es la única
+área del programa con dos inasistencias seguidas.**
+
+**El matiz que hay que dejar escrito, porque el canal dice otra cosa:** hoy **Oscar Cotes sí
+escribió, a las 4:04**, *«buenas tardes ya esperando»*, después de haber confirmado anoche que
+asistían. **Escribir en el canal no es entrar a la sala.** Es el mismo patrón de Aura en
+Cumplimiento el 21: el mensaje llega, la persona no. Lo puse así en el tablero para que nadie lo
+lea como contradicción entre el canal y la sala.
+
+**Ninguna de las dos cuenta como sesión, ninguna toca el 93%, ninguna consume el número.** El
+área sigue en **tres sesiones**, la última el **7 de septiembre**, y la próxima que tome vuelve a
+ser la **S4**. Las causas pasan a **ocho inasistencias sin aviso, cinco cancelaciones y una falla
+técnica**.
+
+**No escribí en el canal.** El aviso de una sesión que se cae es de Lucía, y bajo la regla nueva
+nada mío sale sin que Sandra lo vea. **Le pasé el aviso a Sandra a las 4:11**, apenas vi el
+mensaje de Oscar, porque lo que hacía falta ahí no era un mensaje sino que ella entrara.
+
+**Y esto agrava el riesgo que ya estaba en el tablero de cierre:** Educación es un equipo de dos,
+las tres sesiones hechas fueron con una sola persona, y el área llega a nueve días hábiles del
+cierre con **dieciséis días sin sentarse**.
+
+**Publicado:** Termómetro v71, Hallazgos v16, Mesa v27.
+
 ## 📤 23 sep · 12:30 · Publicado en `#talento-humano`: que agenden
 
 **Publicado**, `1790184616.550909`, a pedido de Sandra. Paso 0 antes: contrato, registro de
