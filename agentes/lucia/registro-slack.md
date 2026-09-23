@@ -1094,3 +1094,13 @@ las grabaciones y el acta, son los mensajes puntuales»*. Las grabaciones y los 
 sesión salen el mismo día sin mostrarlos antes. Los avisos, recordatorios, directos y correos
 se siguen mostrando.
 
+
+## 23 de septiembre de 2026
+
+| Canal | Qué se publicó | message_ts |
+|---|---|---|
+| `#mercadeo` | Cancelación de la S7 del 28 de septiembre · aviso pedido por Sandra | `1790125158.225569` |
+
+Rina Ropaín canceló la sesión del lunes 28 a las 3:00 p. m. El aviso deja constancia y añade
+la razón de fondo —**en el cierre se presenta lo que cada área construyó**— porque el área
+queda sin sesión propia agendada antes del 5 de octubre. *María Elvira lee ese canal.*
