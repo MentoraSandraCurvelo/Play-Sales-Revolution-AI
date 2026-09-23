@@ -15,6 +15,77 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⭕️ 23 sep · 7:30 · Corte del miércoles: 83 sesiones y Cumplimiento por fin arranca
+
+**No publiqué nada en Slack.** Esta es la corrida del Termómetro.
+
+**Cumplimiento hizo su S2 el martes a las 3:00 p. m., al cuarto intento.** 1 h 32 min de sala,
+Aura Sánchez entró a las 3:00:45, puntual, como había dicho. **Ya no queda ninguna área en la
+Sesión 1.** Lo que no hay que maquillar: la hora estaba prevista para el primer ejercicio de
+productividad y **se fue completa en configuración**, así que el área sale de la S2 con cero
+ejercicios y tres semanas de atraso.
+
+**Tres sesiones el martes y las tres entraron completas el mismo día**, acta, grabación e
+informe, antes de la medianoche. Es la primera vez que pasa con tres a la vez.
+
+| Sesión | Hora | Quién | Duración | Asistencia |
+|---|---|---|---|---|
+| Sub. Operativa y Comercial S4 | 10:00 | Gennifer Mira | 1 h 07 | 1 de 1 |
+| Jurídica S9 | 2:00 p. m. | Lilibeth Costa | 1 h 02 | 1 de 1 |
+| Cumplimiento S2 | 3:00 p. m. | Aura Sánchez | 1 h 32 | 1 de 1 |
+
+**El programa pasa de 80 a 83**, verificado recontando Dropbox carpeta por carpeta, no sumando
+sobre el número de ayer. El acumulado va de **162 sobre 175 a 165 sobre 178**, sigue en 93%, y la
+cobertura queda en **82 medidas sobre 83**: la única sin informe sigue siendo la S2 de Vivienda.
+
+**En Gennifer y en Aura los informes traen el nombre dos veces** porque entraron desde dos
+dispositivos. Cuentan como una persona cada una, igual que José Luciano en Subsidio.
+
+### Lo que hay que arreglar, y no lo arreglo yo
+
+**1 · El evento de Mercadeo del lunes 28 sigue vivo en el calendario.** Rina lo canceló y Lucía
+ya publicó el aviso, pero el evento de las 3:00 p. m. no se ha borrado. Mientras esté ahí, el
+calendario lo cuenta como sesión en pie. **Con esa fuera, la semana de cierre queda en quince
+vivas, no dieciséis.**
+
+**2 · Dos numeraciones mal, las dos del mismo tipo.** La Sub. Operativa del 1 de septiembre
+figuraba aquí como S2 y el acta dice **Sesión 3**: corregido. Y el evento de Educación de hoy a
+las 4:00 dice *Sesión 5* cuando es la **S4**, porque la de ayer no se hizo y una inasistencia no
+consume el número.
+
+**3 · Sub. Operativa tampoco tiene S2 en Dropbox.** Sus carpetas van S1, S3, S4. Es el mismo
+patrón de Vivienda. Queda a la vista, sin inventarle motivo.
+
+**4 · Siete asuntos de la semana de cierre van sin número** —tres de Jurídica, uno de Servicios
+Sociales, tres de Comunicaciones— y el del lunes 5, que es el que cierra el programa, ni siquiera
+lleva el formato: se llama «I AM Intelligence Comunicaciones y Sandra Curvelo». Lucía ya lo tiene
+listado.
+
+### ⚠️ La frase del cierre volvió a salir, y esta vez no fui yo
+
+El mensaje de Lucía en `#mercadeo`, `1790125158.225569`, dice: *«en el cierre, lo que se presenta
+ante la dirección es lo que cada área construyó»*, y dos párrafos después *«el programa cierra el
+lunes 5 de octubre»*. **Leído junto, vuelve a decir que el 5 es la presentación**, que es
+exactamente lo que Sandra corrigió ayer. Lo dejé anotado aquí a las 5:50 p. m. y el mensaje salió
+a las 7:59, así que probablemente no alcanzó a leerlo. **Queda para que Sandra decida**: son dos
+canales con la misma frase, `#cumplimiento` y ahora `#mercadeo`.
+
+### Áreas paradas y sin fecha en lo que queda
+
+| Área | Última sesión | Días |
+|---|---|---|
+| Planeación | S2 · 3 sep | 20 |
+| Gerencia Financiera | S2 · 3 sep | 20 |
+| Tesorería | S2 · 9 sep | 14 |
+| Agencia de Empleo | S6 · 10 sep | 13 |
+| Vivienda | S5 · 10 sep | 13 |
+| Talento Humano | S3 · 16 sep | 7 |
+
+**Agencia de Empleo recibió ayer el mensaje del agente de recobros.** Las otras cinco no tienen
+nada agendado ni mensaje reciente. **Ninguna área está bajo el 70%.**
+
+**Publicado:** Termómetro v68, Mesa v26, Hallazgos v15.
+
 ## 📤 22 sep · 16:53 · Publicado en `#agencia-de-empleo`, y dos cosas para Lucía
 
 **Publicado con aprobación de Sandra**, `1790114034.953989`. Paso 0 hecho antes: contrato,
