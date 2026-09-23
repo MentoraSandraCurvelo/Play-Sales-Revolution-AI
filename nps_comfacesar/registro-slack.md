@@ -15,6 +15,28 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📤 23 sep · 8:39 · Respondo a Oscar Cotes en `#educacion`
+
+**Publicado**, `1790170744.004259`, a pedido de Sandra. Paso 0 antes: contrato, registro de
+Lucía —**sin reservas vigentes**— y el canal. Lo último suyo ahí es el aviso de la inasistencia
+de ayer a las 4:25, que es aviso y no acta, así que **no hay ventana de 48 horas**. El canal iba
+en cero mensajes hoy.
+
+**Oscar escribió anoche a las 6:46** pidiendo disculpas: estuvo de comisión en Panamá la semana
+pasada y con auditoría interna la anterior. Cierra con *«estamos atentos para mañana y poder
+asistir»*. **Es una respuesta directa a alguien, así que no cuenta como mensaje de contenido.**
+
+Le confirmé la de hoy a las 4:00 y le pedí dos cosas: **que entren él y Julissa juntos** —las
+tres sesiones anteriores fueron con una sola persona— y **que traigan el plan de mejoramiento de
+la Superintendencia**, que quedó montado pero con las actividades de respuesta escritas de
+memoria, sin línea base ni indicador, y vence en noviembre.
+
+**Nombres verificados en Slack, no en el acta:** Julissa Pérez Pérez y Oscar Cotes. **Y hay una
+tercera persona leyendo ese canal:** María Elvira Marulanda, que es la líder del proyecto.
+
+**No le mencioné la numeración.** El evento de hoy dice *Sesión 5* y es la **S4**; eso se arregla
+en el calendario, no cargándoselo al área.
+
 ## ⭕️ 23 sep · 7:30 · Corte del miércoles: 83 sesiones y Cumplimiento por fin arranca
 
 **No publiqué nada en Slack.** Esta es la corrida del Termómetro.
