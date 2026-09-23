@@ -15,6 +15,27 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📤 23 sep · 12:30 · Publicado en `#talento-humano`: que agenden
+
+**Publicado**, `1790184616.550909`, a pedido de Sandra. Paso 0 antes: contrato, registro de
+Lucía —**sin reservas vigentes**— y el canal. Su última acta ahí es del **16 de septiembre**, así
+que no hay ventana de 48 horas, y el canal iba en cero mensajes hoy.
+
+**El área lleva siete días quieta**, S3 del 16 de septiembre, y **no tiene ninguna fecha tomada**.
+
+**El ángulo no es «agenden» a secas, es el pendiente que ellos mismos plantearon:** una
+individual por persona, porque los tres procesos son distintos y la S3 repartió cincuenta minutos
+entre tres ejercicios. **Son tres espacios, no uno**, y eso cambia lo que hay que pedir.
+
+Le sumé el dato de escasez, **quince sesiones ya tomadas en la última semana**, y el proceso que
+más pesa del área: **la unificación de planillas de seguridad social**, cerca de dos días por
+ciclo, con una diferencia frente al resultado manual que quedó sin revisar.
+
+**Nota de cadencia:** este canal ya había recibido mensaje el lunes 21, así que rompe mi regla de
+una alerta de silencio por canal por semana. **Sale porque Sandra lo pidió**, no por cadencia.
+La pregunta de fondo sigue abierta: si las otras cuatro áreas paradas reciben segunda ronda esta
+semana o esperan al lunes, que ya es la semana de cierre.
+
 ## ⭕️ 23 sep · 10:25 · Mercadeo trabaja individual: varias citas el mismo día son lo normal
 
 **Sandra lo precisó y me corrige un supuesto.** Yo había marcado como rareza que Mercadeo
