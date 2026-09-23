@@ -212,6 +212,21 @@
       "compromiso": "Se publicó el aviso en el canal por decisión de Sandra, con la consecuencia práctica —Rina queda sin sesión agendada antes del cierre— y la razón de fondo: en el cierre lo que se presenta ante la dirección es lo que cada área construyó. Se le señalaron el jueves 1 y el viernes 2 como los días libres para reponerla. **María Elvira Marulanda está en ese canal y lo lee.**",
       "cuenta_como": "cancelada",
       "nota": "**Es la segunda caída de Mercadeo en el programa**, pero la primera de Rina Ropaín: la del 9 de septiembre fue una inasistencia de Manuel José, que sí se recuperó. **Cae en la última semana del programa**, con el cierre el 5 de octubre. *Consecuencia en la numeración:* como esta sesión no se hace, **la de las 4:00 p. m. del mismo 28 pasa a ser la S7 y la del miércoles 30 la S8.** El área queda con dos sesiones en la semana de cierre, las dos con Manuel José; **Rina se queda sin ninguna agendada.**"
+    },
+    {
+      "area": "Educación",
+      "sesion": "S4",
+      "fecha": "2026-09-23",
+      "hora": "16:00",
+      "canal": "#educacion",
+      "quien_cancela": "IAM™ — Sandra",
+      "motivo": "No ingresó nadie a la sala. Segunda inasistencia consecutiva, en el mismo espacio de las 4:00 p. m.",
+      "causa": "inasistencia — no ingresó a la sala",
+      "aviso_en_canal": "https://iamteamespacio.slack.com/archives/C0BPDPF4YMD/p1790198488761449",
+      "reagendada": false,
+      "compromiso": "Se publicó el aviso en el canal por decisión de Sandra, con el dato de las dos caídas seguidas y la pregunta abierta sobre qué les impide conectarse. Se les señaló que no tienen nada agendado en la semana de cierre.",
+      "cuenta_como": "cancelada",
+      "nota": "**Segunda inasistencia seguida del área**: 22 y 23 de septiembre, las dos sin aviso. *La última sesión hecha es la S3 del 7 de septiembre* — dos semanas y media sin avanzar. El área lleva **tres sesiones en todo el programa** y no tiene ninguna agendada para la última semana. Octava inasistencia del programa."
     }
   ],
   "patron": {

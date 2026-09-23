@@ -1100,6 +1100,8 @@ se siguen mostrando.
 | Canal | Qué se publicó | message_ts |
 |---|---|---|
 | `#mercadeo` | Cancelación de la S7 del 28 de septiembre · aviso pedido por Sandra | `1790125158.225569` |
+| `#tecnologia` | Grabación S5 | `1790179459.897829` |
+| `#educacion` | Inasistencia de la S4 · segunda seguida | `1790198488.761449` |
 
 Rina Ropaín canceló la sesión del lunes 28 a las 3:00 p. m. El aviso deja constancia y añade
 la razón de fondo —**en el cierre se presenta lo que cada área construyó**— porque el área
