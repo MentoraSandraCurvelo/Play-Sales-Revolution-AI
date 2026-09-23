@@ -15,6 +15,26 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⭕️ 23 sep · 10:25 · Mercadeo trabaja individual: varias citas el mismo día son lo normal
+
+**Sandra lo precisó y me corrige un supuesto.** Yo había marcado como rareza que Mercadeo
+tuviera dos citas el lunes 28. No lo es: **el área trabaja en sesiones individuales, Rina Ropaín
+y Manuel José por separado**, así que varias el mismo día es su forma de trabajar.
+
+**Lo que numera es la serie del área, no la persona.** S1 a S4 hechas, S5 Rina el jueves 24,
+S6 Manuel el viernes 25, y de ahí en adelante alternan. **Por eso, cuando se cae una de Rina, se
+corren las de Manuel.**
+
+**Sandra ya borró la S7 de Rina del lunes 28.** A las 10:25 la consulta al calendario todavía la
+devolvía, con `amercadeo2@` invitada y sin marca de cancelada, así que se lo dije: puede ser que
+el borrado no haya propagado. **Con esa fuera, la semana de cierre queda en quince vivas.**
+
+**Y queda un número por correr.** La del miércoles 30 ya pasó de **S9 a S8**, pero la del lunes
+28 a las 4:00 sigue diciendo **S8**, así que hay dos eventos con el mismo número. Por la serie del
+área, la del lunes es la **S7**.
+
+**Publicado:** Termómetro v69.
+
 ## ⛔ 23 sep · 8:50 · Regla: un mensaje después de que se cerró la sala no es un aviso
 
 **Me equivoqué al redactar la respuesta a Oscar.** Abrí con *«gracias por avisar, que es justo lo
