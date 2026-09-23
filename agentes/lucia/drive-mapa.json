@@ -1,0 +1,289 @@
+{
+  "raiz_drive": {
+    "nombre": "Comfacesar IAM™Intelligence 2026 Fase1",
+    "id": "1PTrtFyo-VO0ziqfkx3hZNQZSpsHPnKwQ"
+  },
+  "base_dropbox": "ns:1170921477//3-Clientes/1.Cerradas/2. IAM Social/2026/Comfacesar/Seguimiento Proyecto IAM™/IAM™ Intelligence",
+  "areas": [
+    {
+      "orden": "01",
+      "nombre": "Comunicaciones",
+      "dropbox": "1. Comunicaciones",
+      "canal": "#comunicaciones",
+      "sesiones": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "drive_id": "1dBsGmV7fhbGjpHqmepDEmp_AKTvVX0uZ",
+      "drive_url": "https://drive.google.com/drive/folders/1dBsGmV7fhbGjpHqmepDEmp_AKTvVX0uZ",
+      "subcarpetas_creadas": []
+    },
+    {
+      "orden": "02",
+      "nombre": "Vivienda",
+      "dropbox": "2. Vivienda",
+      "canal": "#vivienda",
+      "sesiones": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "drive_id": "1K5U1sziQQuPSpVzTTAsFowb5OAv87b29",
+      "drive_url": "https://drive.google.com/drive/folders/1K5U1sziQQuPSpVzTTAsFowb5OAv87b29",
+      "subcarpetas_creadas": []
+    },
+    {
+      "orden": "03",
+      "nombre": "Agencia de Empleo",
+      "dropbox": "3. Agencia de Empleo",
+      "canal": "#agencia-de-empleo",
+      "sesiones": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "drive_id": "1KlgY9qaWF0U5XStd0SYec3tJgvwXvk8q",
+      "drive_url": "https://drive.google.com/drive/folders/1KlgY9qaWF0U5XStd0SYec3tJgvwXvk8q",
+      "subcarpetas_creadas": []
+    },
+    {
+      "orden": "04",
+      "nombre": "Mercadeo",
+      "dropbox": "4. Mercadeo",
+      "canal": "#mercadeo",
+      "sesiones": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "drive_id": "1ozoOSBOv-UdW-gmdusw_ggTq3Wtcq1fv",
+      "drive_url": "https://drive.google.com/drive/folders/1ozoOSBOv-UdW-gmdusw_ggTq3Wtcq1fv",
+      "subcarpetas_creadas": []
+    },
+    {
+      "orden": "05",
+      "nombre": "Jurídica",
+      "dropbox": "5. Juridica",
+      "canal": "#juridica",
+      "sesiones": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "drive_id": "1RZBLfpmeTviV9V5_3mxoYtqr9J0wcvSL",
+      "drive_url": "https://drive.google.com/drive/folders/1RZBLfpmeTviV9V5_3mxoYtqr9J0wcvSL",
+      "subcarpetas_creadas": []
+    },
+    {
+      "orden": "06",
+      "nombre": "Educación",
+      "dropbox": "6. Educacion",
+      "canal": "#educacion",
+      "sesiones": [
+        1,
+        2,
+        3
+      ],
+      "drive_id": "1GKkTJx-lPxk4rZ2gq9lz9hGtAW0ndbYb",
+      "drive_url": "https://drive.google.com/drive/folders/1GKkTJx-lPxk4rZ2gq9lz9hGtAW0ndbYb",
+      "subcarpetas_creadas": []
+    },
+    {
+      "orden": "07",
+      "nombre": "Talento Humano",
+      "dropbox": "7. Talento humano",
+      "canal": "#talento-humano",
+      "sesiones": [
+        1,
+        2,
+        3
+      ],
+      "drive_id": "15ZmjxDzY37cYYIdAf_MdPIp4Z059ktME",
+      "drive_url": "https://drive.google.com/drive/folders/15ZmjxDzY37cYYIdAf_MdPIp4Z059ktME",
+      "subcarpetas_creadas": []
+    },
+    {
+      "orden": "08",
+      "nombre": "Tecnología",
+      "dropbox": "8. Tecnologia",
+      "canal": "#tecnologia",
+      "sesiones": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "drive_id": "15XRQZFo6PvmQGNpayTsk7NpsKLsywV_z",
+      "drive_url": "https://drive.google.com/drive/folders/15XRQZFo6PvmQGNpayTsk7NpsKLsywV_z",
+      "subcarpetas_creadas": []
+    },
+    {
+      "orden": "09",
+      "nombre": "Gerencia Financiera",
+      "dropbox": "9. Gerencia Financiera",
+      "canal": "#gerencia-financiera",
+      "sesiones": [
+        1,
+        2
+      ],
+      "drive_id": "1XOFW99iy0BRX58dT9f2pukfkvjl_vZ0D",
+      "drive_url": "https://drive.google.com/drive/folders/1XOFW99iy0BRX58dT9f2pukfkvjl_vZ0D",
+      "subcarpetas_creadas": []
+    },
+    {
+      "orden": "10",
+      "nombre": "Servicios Sociales",
+      "dropbox": "10. Servicios Sociales",
+      "canal": "#serivcios-sociales",
+      "sesiones": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "drive_id": "1kPLy20dvKNs9khh3JxdKKi0UUwL0NE1_",
+      "drive_url": "https://drive.google.com/drive/folders/1kPLy20dvKNs9khh3JxdKKi0UUwL0NE1_",
+      "subcarpetas_creadas": []
+    },
+    {
+      "orden": "11",
+      "nombre": "Planeación",
+      "dropbox": "11.Planeacion",
+      "canal": "#planeacion",
+      "sesiones": [
+        1
+      ],
+      "drive_id": "1c-HxC5n_6vFvRnyK6_2NGHlebjUxAkdQ",
+      "drive_url": "https://drive.google.com/drive/folders/1c-HxC5n_6vFvRnyK6_2NGHlebjUxAkdQ",
+      "subcarpetas_creadas": []
+    },
+    {
+      "orden": "12",
+      "nombre": "Contabilidad",
+      "dropbox": "12. Contabilidad",
+      "canal": "#contabilidad",
+      "sesiones": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "drive_id": "1DIcnhurJDEzBTbVG24ZAjoztxpj2dOvE",
+      "drive_url": "https://drive.google.com/drive/folders/1DIcnhurJDEzBTbVG24ZAjoztxpj2dOvE",
+      "subcarpetas_creadas": []
+    },
+    {
+      "orden": "13",
+      "nombre": "Sub. Operativa y Comercial",
+      "dropbox": "13. Sub-Operativa",
+      "canal": "#sub-operativa",
+      "sesiones": [
+        1,
+        3,
+        4
+      ],
+      "drive_id": "1Xd8bbb2N2FCRScFHgkHrG6bhZeRYSO-u",
+      "drive_url": "https://drive.google.com/drive/folders/1Xd8bbb2N2FCRScFHgkHrG6bhZeRYSO-u",
+      "subcarpetas_creadas": []
+    },
+    {
+      "orden": "14",
+      "nombre": "Tesorería",
+      "dropbox": "14. Tesoreria",
+      "canal": "#tesoreriaa",
+      "sesiones": [
+        1,
+        2
+      ],
+      "drive_id": "1W6BAEQnDbclYxjPncl4u4cAP6DDYXi65",
+      "drive_url": "https://drive.google.com/drive/folders/1W6BAEQnDbclYxjPncl4u4cAP6DDYXi65",
+      "subcarpetas_creadas": []
+    },
+    {
+      "orden": "15",
+      "nombre": "Sub. Administrativa y Financiera",
+      "dropbox": "15. Subdireccion Financiera",
+      "canal": "#sub-admin-y-financiera-infraestructura",
+      "sesiones": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "drive_id": "1CZjZSMycEcz7z0BFnuDNuZStBqMYW_kM",
+      "drive_url": "https://drive.google.com/drive/folders/1CZjZSMycEcz7z0BFnuDNuZStBqMYW_kM",
+      "subcarpetas_creadas": []
+    },
+    {
+      "orden": "16",
+      "nombre": "IPS",
+      "dropbox": "16. IPS",
+      "canal": "#ips",
+      "sesiones": [
+        1,
+        2,
+        3
+      ],
+      "drive_id": "1RKDyCVeR6xkZPV9iY0_Ui6aVXlNKH61N",
+      "drive_url": "https://drive.google.com/drive/folders/1RKDyCVeR6xkZPV9iY0_Ui6aVXlNKH61N",
+      "subcarpetas_creadas": []
+    },
+    {
+      "orden": "17",
+      "nombre": "Subsidio y Aportes",
+      "dropbox": "17. Subisidio",
+      "canal": "#subsidio",
+      "sesiones": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "drive_id": "1anS8PPB1sOtemDlhAjpa-jGgbNhiZJ9s",
+      "drive_url": "https://drive.google.com/drive/folders/1anS8PPB1sOtemDlhAjpa-jGgbNhiZJ9s",
+      "subcarpetas_creadas": []
+    },
+    {
+      "orden": "18",
+      "nombre": "Cumplimiento",
+      "dropbox": "18. Cumplimineto",
+      "canal": "#cumplimiento",
+      "sesiones": [
+        1,
+        2
+      ],
+      "drive_id": "1BqV6raITRbKhuZv76l7a2nyCjZ7LvlH8",
+      "drive_url": "https://drive.google.com/drive/folders/1BqV6raITRbKhuZv76l7a2nyCjZ7LvlH8",
+      "subcarpetas_creadas": []
+    }
+  ]
+}
