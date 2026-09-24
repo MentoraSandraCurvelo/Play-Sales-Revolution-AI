@@ -1,0 +1,200 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "IPS",
+  "area_completa": "",
+  "sesion_num": 4,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "23 de septiembre de 2026",
+  "fecha_corta": "23 septiembre 2026",
+  "subtitulo_meta": "Con Danilo Pozo y su equipo · 23 de septiembre de 2026 · 2:00 p. m. · 1 h 4 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "IPS — Seguridad y Salud en el Trabajo, Comfacesar"],
+    ["Sesión", "N° 4 — Cierre del tablero de ausentismo y construcción del primer agente del área"],
+    ["Fecha", "23 de septiembre de 2026"],
+    ["Duración de la sesión", "1 hora 4 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Danilo Pozo con su equipo — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "242", "etiqueta": "Días laborales perdidos", "detalle": "Los cuantificó el tablero de ausentismo"},
+    {"valor": "20", "etiqueta": "Personas en vigilancia", "detalle": "Desórdenes musculoesqueléticos"},
+    {"valor": "21", "etiqueta": "Sedes por conectar", "detalle": "El alcance del agente de inspecciones"},
+    {"valor": "1", "etiqueta": "Agente en construcción", "detalle": "El primero del área"},
+    {"valor": "2", "etiqueta": "Procesos de alto riesgo", "detalle": "Uno cerrado, uno en marcha"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Danilo Pozo", "cargo": "Seguridad y Salud en el Trabajo — IPS Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 4. El área cierra su primer proyecto con un tablero que cuantificó lo que antes se intuía, y arranca la construcción de su primer agente. Lo que queda abierto es de dónde va a sacar ese agente las respuestas.",
+  "riesgos": [
+    {
+      "titulo": "Hay 242 días laborales perdidos y 20 personas en un mismo sistema de vigilancia",
+      "nivel": "ALTO",
+      "descripcion": "_El tablero lo dejó a la vista:_ **hay trabajadores con 242 y 230 días de incapacidad**, y **20 personas concentradas en el sistema de vigilancia de desórdenes musculoesqueléticos.** No es un hallazgo del método — **es la realidad del ausentismo de la Caja, que hasta ahora estaba repartida en una tabulación que nadie leía junta.** _Ahora se sabe dónde deben ir las intervenciones._",
+      "responsable": "Danilo Pozo / Intervención"
+    },
+    {
+      "titulo": "Las inspecciones de 21 sedes no tienen seguimiento ni alarmas",
+      "nivel": "CRÍTICO",
+      "descripcion": "Los vigías diligencian el formulario desde el celular y queda en la carpeta compartida, **pero de ahí no sale nada.** _Si un extintor queda vencido en una sede lejana, nadie se entera hasta la siguiente ronda._ **No hay conteo de hallazgos abiertos, ni ubicación, ni avance mes a mes, ni aviso.** Es el proceso que el agente viene a cerrar.",
+      "responsable": "Danilo Pozo / En construcción"
+    },
+    {
+      "titulo": "No existe la fuente de la que el agente tomaría las respuestas",
+      "nivel": "ALTO",
+      "descripcion": "**Cuando un vigía reporta un hallazgo, hoy la respuesta la pone el equipo de memoria** — qué se hace con un extintor despresurizado, con una señalización que no se ve. _Ese conocimiento no está escrito en ninguna parte._ **Sin un banco de soluciones con el histórico, el agente puede avisar pero no puede resolver.** Quedó como tarea del equipo.",
+      "responsable": "Danilo Pozo y equipo / Antes de la S5"
+    },
+    {
+      "titulo": "El agente no distingue a quién le escribe",
+      "nivel": "MEDIO",
+      "descripcion": "_Se vio en el primer borrador:_ el correo salió encabezado con el nombre del buzón y **no con el nombre de la persona.** Falta cargarle el listado que cruza cada correo con su vigía y su sede. **Un recordatorio trimestral que no llama a nadie por su nombre se lee como un envío masivo** — y el propósito era el contrario.",
+      "responsable": "Danilo Pozo / Antes de la S5"
+    },
+    {
+      "titulo": "El área presenta ante la junta directiva y el agente no está terminado",
+      "nivel": "ALTO",
+      "descripcion": "**IPS quedó entre las áreas que van a mostrar su trabajo ante la dirección al cierre del programa.** _El tablero de ausentismo ya es material presentable;_ **el agente todavía no.** Quedan dos semanas y el circuito está mapeado pero sin cerrar.",
+      "responsable": "Danilo Pozo / Inmediato"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "ALTO", "titulo": "Traer el agente modelado de principio a fin", "descripcion": "**El circuito completo: correo, formulario, recolección y tablero.** _La lógica quedó entendida en sesión; falta terminarlo._", "responsable": "Danilo Pozo", "plazo": "Sesión 5"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Construir el banco de soluciones con el histórico", "descripcion": "**Cómo se ha resuelto cada tipo de hallazgo hasta hoy**, reunido y subido. _Es lo que convierte al agente de avisador en resolvedor._", "responsable": "Danilo Pozo y equipo", "plazo": "Antes de la S5"},
+    {"num": "03", "nivel": "MEDIO", "titulo": "Cargarle el listado de vigías por sede", "descripcion": "Nombre, correo y sede, **para que el recordatorio salga personalizado de verdad.**", "responsable": "Danilo Pozo", "plazo": "Antes de la S5"},
+    {"num": "04", "nivel": "MEDIO", "titulo": "Revisar y aprobar el borrador antes de que se envíe solo", "descripcion": "**Quedó configurado para dejarlo en borrador y no enviarlo.** _Se automatiza cuando el correo esté como debe ser._", "responsable": "Danilo Pozo", "plazo": "Antes del 28 de septiembre"},
+    {"num": "05", "nivel": "MEDIO", "titulo": "Trasladar las conversaciones del equipo de WhatsApp al canal", "descripcion": "Con los canales separados por grupo. _Es la base para que después un agente pueda hacer seguimiento de lo que queda pendiente._", "responsable": "Danilo Pozo", "plazo": "Antes de la S5"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El primer proyecto, cerrado",
+      "duracion": "~5 min",
+      "objetivo": "Verificar el cierre y lo que quedó construido.",
+      "pasos": [
+        "**El proceso de cartas de recomendación quedó terminado** con la metodología, y las tareas pendientes cerradas: paquete de ofimática actualizado y encuestas aplicadas",
+        "**Y el producto del proyecto es el tablero de ausentismo**, construido sobre la herramienta que ya tabula el ausentismo de la Caja",
+        "_Lo que muestra:_ **los meses con más días de incapacidad, los eventos que exigen atención, y el cruce con los sistemas de vigilancia epidemiológica**",
+        "**Ya está reportado en el tablero de productividad del programa**, con el tiempo que tomaba antes"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El proceso que sigue: las inspecciones",
+      "duracion": "~12 min",
+      "objetivo": "Mapear el circuito real antes de automatizarlo.",
+      "pasos": [
+        "**Hoy funciona así:** el vigía escanea un código en su sede, se le abre el formulario de la inspección —extintores, gabinete contra incendio, camilla, locativa— **y lo diligencia desde el celular.** Queda en la carpeta compartida",
+        "_Antes se imprimía la hoja, se llenaba a mano y se escaneaba._ **Ese paso ya se había resuelto**",
+        "**Pero de la carpeta no sale nada.** No hay conteo de hallazgos abiertos ni cerrados, no hay ubicación, no hay avance de un mes a otro, **y sobre todo no hay alarma**",
+        "_Se dejó dicho con un ejemplo concreto:_ **un extintor vencido en una sede lejana no le avisa a nadie.** Y son 21 sedes",
+        "**Los formatos se actualizan cuando cambia la norma**, cada tres o cuatro meses — no es frecuente, pero hay que contemplarlo"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Vence, el primer agente del área",
+      "duracion": "~30 min",
+      "objetivo": "Pasar del asistente al circuito que corre solo.",
+      "pasos": [
+        "_La diferencia que ordena todo:_ **un asistente sigue instrucciones; un agente recorre el circuito completo sin que nadie lo alimente.** Solo necesita la fuente de datos y los permisos",
+        "**El circuito quedó mapeado en vivo, paso a paso:** cada tres meses envía un correo personalizado a los vigías de cada sede, recordándoles la inspección **y el porqué — que los compañeros puedan volver a casa de forma segura**",
+        "**En el cuerpo del correo va el enlace del formulario**, como un «haz clic aquí» y no como una dirección larga",
+        "**El vigía diligencia desde el celular; el agente recoge lo que quedó en la carpeta y arma el tablero de control** — hallazgos, ubicaciones, puntos críticos, semaforización, tendencia, dispersión, segmentaciones y alertas por nivel de exposición",
+        "_Primera ejecución programada para el lunes 28 de septiembre_, **y configurado para dejar el correo en borrador y no enviarlo hasta que el área lo apruebe**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Lo que salió en la primera prueba",
+      "duracion": "~10 min",
+      "objetivo": "Leer el borrador antes de darlo por bueno.",
+      "pasos": [
+        "**El agente redactó el correo completo:** asunto de recordatorio trimestral, saludo, el motivo de la inspección, qué revisar, y firma propia",
+        "_Y apareció el fallo que había que ver:_ **encabezó con el nombre del buzón y no con el de la persona.** Falta cargarle el listado que cruza correo, nombre y sede",
+        "**Se le pidió el correo más visual** —con ilustraciones, sin exceso de emojis y con semaforización— y respondió generando las imágenes y rehaciendo el encabezado",
+        "_Quedó dicho cómo se corrige sobre la marcha:_ **se le habla como a una persona. «Se me pasó decirte que...» y sigue desde ahí**, sin rehacer la instrucción completa"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · El entorno de diseño, sembrado",
+      "duracion": "~5 min",
+      "objetivo": "Dejar visto el paso siguiente.",
+      "pasos": [
+        "**Se abrió el entorno de diseño** y se cargó el flujograma que el área había hecho por fuera: presentaciones, flujogramas, maquetas, vistas en tres dimensiones",
+        "_La diferencia con el tablero del proyecto:_ **aquí se edita directamente sobre la pieza**, sin tener que pedir cada cambio por escrito",
+        "**No era el ejercicio del día** — queda anotado para una sesión propia"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 4 · 23 septiembre 2026",
+      "titulo": "El tablero puso número a lo que se intuía",
+      "descripcion": "El ausentismo de la Caja ya estaba tabulado, pero repartido. **Leído junto, muestra trabajadores con 242 y 230 días de incapacidad, y 20 personas concentradas en el sistema de vigilancia de desórdenes musculoesqueléticos.** _Eso no lo aportó la herramienta: la herramienta solo dejó ver lo que ya estaba._ **Y con eso el área sabe exactamente dónde deben ir las intervenciones**, en lugar de repartirlas parejo.",
+      "estado": "Construido y reportado",
+      "proximo_paso": "Dirigir las intervenciones sobre ese sistema de vigilancia",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 4 · 23 septiembre 2026",
+      "titulo": "Vence, el agente de inspecciones",
+      "descripcion": "**Correo trimestral personalizado a los vigías de 21 sedes, enlace al formulario, recolección de lo diligenciado y tablero de control con alertas.** _El circuito quedó mapeado de principio a fin y la primera prueba corrió en sesión._ **Es el primer agente del área y el que cierra el hueco de seguimiento de las inspecciones.**",
+      "estado": "Mapeado, primera prueba hecha",
+      "proximo_paso": "Terminar el modelado del circuito completo",
+      "target": "Sesión 5"
+    },
+    {
+      "encabezado": "LO QUE FALTA PARA QUE FUNCIONE · SESIÓN 4 · 23 septiembre 2026",
+      "titulo": "El banco de soluciones",
+      "descripcion": "**Hoy la respuesta a cada hallazgo la pone el equipo de memoria** — y eso significa que no existe en ninguna parte. _Reunir el histórico de cómo se ha resuelto cada tipo de hallazgo convierte al agente de un sistema que avisa en uno que propone la solución._ **Es la tarea que más valor agrega y la única que no puede hacer la herramienta:** ese conocimiento lo tiene el equipo.",
+      "estado": "Abierto",
+      "proximo_paso": "Reunir el histórico y cargarlo",
+      "target": "Antes de la S5"
+    },
+    {
+      "encabezado": "PARA EL CIERRE · SESIÓN 4 · 23 septiembre 2026",
+      "titulo": "El área presenta ante la dirección",
+      "descripcion": "**IPS quedó entre las áreas que van a mostrar lo construido ante la dirección al cierre del programa.** _El tablero de ausentismo ya es material presentable, con datos propios y verificables._ **Si el agente queda terminado, es la pieza que muestra hasta dónde llegó el área** — de un proceso en papel a un circuito que corre solo.",
+      "estado": "Confirmado",
+      "proximo_paso": "Cerrar el agente antes del 5 de octubre",
+      "target": "Inmediato"
+    }
+  ],
+  "tareas_intro": "El área cerró su primer proyecto con un tablero que ya está dando información de gestión, y arrancó el agente. Lo que decide el resultado en las dos semanas que quedan es el banco de soluciones: sin él, el agente avisa pero no resuelve.",
+  "tareas": [
+    {"tarea": "Traer el agente modelado de principio a fin", "responsable": "Danilo Pozo", "prioridad": "ALTA", "plazo": "Sesión 5"},
+    {"tarea": "Construir el banco de soluciones con el histórico de hallazgos y sus respuestas", "responsable": "Danilo Pozo y equipo", "prioridad": "ALTA", "plazo": "Antes de la S5"},
+    {"tarea": "Cargar el listado de vigías con nombre, correo y sede", "responsable": "Danilo Pozo", "prioridad": "MEDIA", "plazo": "Antes de la S5"},
+    {"tarea": "Revisar el borrador del correo antes del envío del 28 de septiembre", "responsable": "Danilo Pozo", "prioridad": "ALTA", "plazo": "Antes del 28 de septiembre"},
+    {"tarea": "Dirigir las intervenciones al sistema de vigilancia que concentra los 242 días perdidos", "responsable": "Danilo Pozo", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Trasladar las conversaciones del equipo de WhatsApp al canal del área", "responsable": "Danilo Pozo", "prioridad": "MEDIA", "plazo": "Antes de la S5"},
+    {"tarea": "Agendar las sesiones que faltan hasta el 5 de octubre", "responsable": "Danilo Pozo", "prioridad": "ALTA", "plazo": "Inmediato"}
+  ],
+  "observaciones": [
+    "**El área cerró su primer proyecto.** El proceso de cartas de recomendación quedó terminado, las tareas pendientes se cumplieron y **el producto del proyecto —el tablero de ausentismo— está construido y reportado** con el tiempo que tomaba antes.",
+    "**Y ese tablero ya está entregando información de gestión.** Leído junto, el ausentismo muestra **trabajadores con 242 y 230 días de incapacidad y 20 personas concentradas en el sistema de vigilancia de desórdenes musculoesqueléticos.** _Los datos estaban tabulados; lo que no existía era verlos juntos._ **Con eso el área sabe dónde deben ir las intervenciones.**",
+    "**El proceso que sigue son las inspecciones de seguridad en 21 sedes**, y ahí el hueco está identificado con precisión: el vigía diligencia el formulario desde el celular y queda en la carpeta, **pero de la carpeta no sale nada.** _Sin conteo de hallazgos, sin ubicación, sin avance mes a mes y sin alarma._ **Un extintor vencido en una sede lejana no le avisa a nadie.**",
+    "**El ejercicio de la sesión fue construir el primer agente del área.** Se mapeó el circuito completo de principio a fin: **correo trimestral personalizado a los vigías de cada sede, enlace al formulario en el cuerpo, recolección de lo diligenciado y tablero de control con hallazgos, semaforización, tendencia y alertas por nivel de exposición.**",
+    "_Y conviene señalar la diferencia que se explicó:_ **un asistente sigue instrucciones; un agente recorre el circuito solo.** No necesita que nadie lo alimente — necesita la fuente de datos y los permisos. **Por eso importa tanto la configuración de los conectores.**",
+    "**La primera prueba corrió en sesión y dejó ver lo que faltaba.** El agente redactó el correo completo, pero **lo encabezó con el nombre del buzón y no con el de la persona**: falta cargarle el listado que cruza correo, nombre y sede. _Quedó además configurado para dejar el correo en borrador y no enviarlo hasta que el área lo apruebe._",
+    "**Pero el punto que decide el resultado es otro, y quedó abierto.** Cuando un vigía reporta un hallazgo —un extintor despresurizado, una señalización que no se ve—, **hoy la respuesta la pone el equipo de memoria.** _Ese conocimiento no está escrito en ninguna parte._ **Sin un banco de soluciones construido con el histórico, el agente puede avisar pero no puede resolver** — y es la única tarea que la herramienta no puede hacer sola.",
+    "**El área quedó entre las que van a presentar lo construido ante la dirección al cierre.** _El tablero de ausentismo ya es material presentable._ **Si el agente queda terminado, es la pieza que muestra el recorrido completo** — de un proceso que se llenaba en papel a un circuito que corre solo. Quedan dos semanas."
+  ],
+  "proxima_sesion": {
+    "sesion": "IPS — Sesión 5",
+    "condiciones": [
+      "El agente modelado de principio a fin",
+      "El banco de soluciones reunido y cargado",
+      "El listado de vigías por sede cargado",
+      "El correo del 28 de septiembre revisado"
+    ],
+    "agenda": [
+      "Revisión del circuito completo del agente",
+      "Prueba de punta a punta con una sede",
+      "El tablero de inspecciones y sus alertas",
+      "Preparación del material del área para el cierre"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 23 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
