@@ -15,6 +15,51 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⭕️ 24 sep · 7:30 · Corte del jueves: 88 sesiones, y el acumulado baja por primera vez
+
+**No publiqué nada en Slack.** Esta es la corrida del Termómetro.
+
+**Cinco sesiones el miércoles y el programa pasa de 83 a 88**, recontado contra Dropbox carpeta
+por carpeta, 269 archivos. **Las cinco tienen grabación e informe, sincronizados anoche a la
+1:18. Ninguna tiene acta todavía.**
+
+| Sesión | Convocados | Entró |
+|---|---|---|
+| Tecnología S5 · Olga Lucía | 1 | 1 |
+| Jurídica S10 · Renata Laino | **2** | **1** |
+| IPS S4 · grupal | **3** | **1** |
+| Sub. Administrativa S10 · Liliany | 1 | 1 |
+| Comunicaciones S8 · Vidiana Bendeck | 1 | 1 |
+
+**El acumulado baja de 93% a 91%, y es la primera vez que baja en todo el programa.** La cuenta
+pasa de 165 sobre 178 a **170 sobre 186**. Cobertura, 87 medidas sobre 88: la única sin informe
+sigue siendo la S2 de Vivienda.
+
+**IPS es el caso serio.** Era la grupal que el área tomó con sus tres correos, `sst@`,
+`asistentesst@` y `auxiliarsst@`, y solo ingresó Danilo. **1 de 3 es la asistencia más baja de
+una sesión en todo el programa**, y lo subí al tablero de cierre porque el área va en cuatro
+sesiones con todo lo construido en una sola persona.
+
+**Lo dije en el tablero sin taparlo y sin dramatizarlo:** 91% sigue siendo alto, y la caída no es
+de desinterés, es de **sesiones grupales a las que entra una sola persona**. Mismo patrón que
+Educación y Talento Humano.
+
+**Deuda documental:** las cinco actas del miércoles, el acta de Subsidio S4 del 18 de septiembre
+y el acta más el informe de la S2 de Vivienda.
+
+**Dos nombres mal puestos en Dropbox**, que no rompen nada hoy y se leen mal dentro de un mes: la
+carpeta de Jurídica se llama **«Seison 10»**, con la ese antes de la i, y los archivos de
+Tecnología S5 dicen **«Tecnologia S4»**.
+
+**Áreas paradas y sin fecha en lo que queda:** Planeación y Gerencia Financiera con 21 días,
+**Educación con 17 y dos inasistencias seguidas**, Tesorería 15, Agencia de Empleo y Vivienda 14,
+Talento Humano 8, que recibió mensaje ayer y no ha respondido. **Ninguna área bajo el 70%.**
+
+**Hoy corren cinco:** Mercadeo S5 con Rina a las 8:00, Jurídica S11 a las 10:00, Servicios
+Sociales S9 a las 11:00, Contabilidad S8 a las 2:00 y Sub. Administrativa S11 a las 3:00.
+
+**Publicado:** Termómetro v72, Mesa v28, Hallazgos v17.
+
 ## ⛔ 23 sep · 16:20 · Educación no se presentó dos días seguidos
 
 **Sandra lo confirmó: se cae la de hoy y queda en el informe, y la de ayer igual.** Martes 22 y
