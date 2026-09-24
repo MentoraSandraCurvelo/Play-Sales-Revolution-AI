@@ -227,6 +227,21 @@
       "compromiso": "Se publicó el aviso en el canal por decisión de Sandra, con el dato de las dos caídas seguidas y la pregunta abierta sobre qué les impide conectarse. Se les señaló que no tienen nada agendado en la semana de cierre.",
       "cuenta_como": "cancelada",
       "nota": "**Segunda inasistencia seguida del área**: 22 y 23 de septiembre, las dos sin aviso. *La última sesión hecha es la S3 del 7 de septiembre* — dos semanas y media sin avanzar. El área lleva **tres sesiones en todo el programa** y no tiene ninguna agendada para la última semana. Octava inasistencia del programa."
+    },
+    {
+      "area": "Sub. Administrativa y Financiera",
+      "sesion": "S11",
+      "fecha": "2026-09-24",
+      "hora": "15:00",
+      "canal": "#sub-admin-y-financiera-infraestructura",
+      "quien_cancela": "Comfacesar — Liliany",
+      "motivo": "Cancelada por la persona del área el mismo día. Avisado a Sandra el 24 de septiembre.",
+      "causa": "cancelación del área",
+      "aviso_en_canal": "",
+      "reagendada": false,
+      "compromiso": "",
+      "cuenta_como": "cancelada",
+      "nota": "**Es la primera caída de Sub. Administrativa y Financiera en todo el programa.** _Es el área con más sesiones del proyecto_ —iba en S10 al cierre del miércoles— y **no había faltado ni cancelado una sola vez.** *Consecuencia en la numeración:* como esta sesión no se hace, **el área se queda en S10** y la del lunes 28 a las 3:00 p. m. con Rafael **pasa a ser la S11, no la S12** — hay que corregir el asunto del evento. *Contexto:* ese cupo del lunes es el que dejó libre la cancelación de Mercadeo, así que **el área sí tiene sesión en la última semana, pero con Rafael, no con Liliany.**"
     }
   ],
   "patron": {

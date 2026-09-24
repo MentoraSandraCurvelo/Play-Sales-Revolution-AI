@@ -30,14 +30,18 @@ De las 26 citas de la semana, **22 son de IAM™ Intelligence en Comfacesar**. L
 | Jue 24 | 10:00 a. m. | Jurídica | Lilibeth Costa | **S11** | corregido |
 | Jue 24 | 11:00 a. m. | Servicios Sociales | — | **S9** | dice «S10» — devolver a 9 |
 | Jue 24 | 2:00 p. m. | Contabilidad | Carlos Lozano | **S8** | corregido |
-| Jue 24 | 3:00 p. m. | Sub. Admin. y Financiera | Liliany | **S11** | falta el número |
+| ~~Jue 24~~ | 3:00 p. m. | Sub. Admin. y Financiera | Liliany | **no se hizo** | cancelación del área |
 | Vie 25 | 9:00 a. m. | Tecnología | Olga Lucía Barros | **S6** | corregido |
 | Vie 25 | 11:00 a. m. | Comunicaciones | — | **S9** | correcto |
 | Vie 25 | 2:00 p. m. | Contabilidad | Carlos Lozano | **S9** | corregido |
 | Vie 25 | 3:00 p. m. | Mercadeo | Manuel José Gutiérrez | **S6** | corregido |
 
-**Quedan tres asuntos por corregir**, los tres de Liliany: el programa ya está bien, solo les
-falta el número **S9, S10 y S11**.
+**Los asuntos de Liliany ya no hacen falta corregirlos.** Las del lunes 21 y el miércoles 23 se
+hicieron como **S9** y **S10**; la del jueves 24 se canceló, *así que el número no avanza* y
+**el área se queda en S10.**
+
+**Lo que sí hay que corregir es el lunes 28:** la sesión de las 3:00 p. m. con Rafael dice
+«S12» y es la **S11**.
 
 **Cumplimiento se resolvió solo.** La sesión del martes 22 sí se hizo y era la **S2** —el asunto
 decía «Sesion 3» porque contaba la del lunes, que se cayó—. *Con esta, el área pasa a S3.*
