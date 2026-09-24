@@ -15,6 +15,57 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⛔ 24 sep · 12:25 · Liliany cancela la de hoy, y Educación vuelve a tomar fecha
+
+**Barrido de la hora. El único mensaje del cliente en todo el día es un directo de Liliany
+Gómez a las 12:07:** *«no podré asistir a la reunión programada para el día de hoy»*. Es la
+sesión de las 3:00 p. m., la S11 de Sub. Administrativa y Financiera.
+
+**No respondí.** Una cancelación es de Sandra por contrato, el aviso del momento es de Lucía,
+y bajo la regla del 21 nada mío sale sin que Sandra lo vea. **Lucía ya la registró** en su
+`cancelaciones.json` a las 12:09, así que el rastro queda.
+
+**Lo que pesa de esta cancelación es de quién viene.** Es el área con más sesiones del
+programa, iba en S10, y **no había faltado ni cancelado una sola vez en cinco semanas**. Es su
+primera caída. No entra a ningún indicador: se evidencia y ahí queda. Las causas pasan a ocho
+inasistencias sin aviso, **seis cancelaciones** y una falla técnica.
+
+**El número no avanza:** el área se queda en S10 y la del lunes 28 a las 3:00 con Rafael pasa a
+ser la **S11**, no la S12 que dice el evento. Ese cupo del lunes es el que dejó libre la
+cancelación de Mercadeo, así que **el área sí tiene sesión en la última semana, con Rafael**.
+
+**Y el correo:** escribió desde `profesionalaf@comfacesar.com`, no desde el Gmail. El pendiente
+de continuidad que este tablero traía desde agosto queda cerrado.
+
+### Educación volvió a tomar fecha por su cuenta
+
+**Lunes 28 a las 5:00 p. m.**, con `rectoriacolegio@` y `auxiliareducacion@` convocados.
+Verificado contra el calendario, no contra el archivo de Lucía. **Después de dos inasistencias
+seguidas, el área reservó sola, sin que se le escribiera.** Es su **S4** y el asunto no lleva
+número.
+
+**Ojo con leerlo como contradicción:** lo que Sandra canceló ayer fue la sesión del 23, la que
+no se presentaron. Ésta es nueva. **Las áreas sin una sola fecha siguen siendo seis**, las
+mismas: Agencia de Empleo, Vivienda, Tesorería, Talento Humano, Planeación y Gerencia
+Financiera.
+
+### El conteo, recontado desde Dropbox
+
+**89 sesiones.** 275 archivos, 88 carpetas `Sesion N` más la S2 de Planeación suelta. Entra
+**Mercadeo S5**, la individual de Rina de hoy a las 8:00: grabación e informe de asistencia,
+**1 de 1**, de 8:01 a 9:03. Le falta el acta. El acumulado queda en **171 sobre 187**, que
+sigue redondeando a 91%, y la cobertura en 88 medidas sobre 89.
+
+**Cuatro de las cinco actas del miércoles llegaron entre las 8:08 y las 9:17:** Tecnología S5,
+IPS S4, Sub. Administrativa S10 y Jurídica S10. **Falta solo la de Comunicaciones S8.** Y la
+carpeta `Seison 10` de Jurídica ya quedó bien escrita.
+
+**Corregí además una contradicción del propio tablero:** el bloque de asistencia seguía
+mostrando **93%** mientras el encabezado decía 91%, con la misma cuenta debajo. Dos cifras
+distintas del mismo dato en la misma página. Queda en 91%.
+
+**Publicado:** Termómetro v74. Nada salió a Slack.
+
 ## ⭕️ 24 sep · 8:10 · El alcance del programa se sostuvo en sesión, y queda en los tableros
 
 **Sandra pidió subirlo como alerta. Lo busqué en la fuente antes de escribirlo y hay una
