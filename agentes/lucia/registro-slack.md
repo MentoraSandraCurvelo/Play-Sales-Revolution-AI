@@ -1106,3 +1106,16 @@ se siguen mostrando.
 Rina Ropaín canceló la sesión del lunes 28 a las 3:00 p. m. El aviso deja constancia y añade
 la razón de fondo —**en el cierre se presenta lo que cada área construyó**— porque el área
 queda sin sesión propia agendada antes del 5 de octubre. *María Elvira lee ese canal.*
+
+## 23 de septiembre de 2026 — cinco sesiones
+
+| Canal | Qué se publicó | message_ts |
+|---|---|---|
+| `#juridica` | Grabación S10 | `1790209721.507339` |
+| `#ips` | Grabación S4 | `1790211676.960669` |
+| `#sub-admin-y-financiera-infraestructura` | Grabación S10 | `1790211748.598319` |
+| `#comunicaciones` | Grabación S8 | `1790211812.669289` |
+| `#tecnologia` | Resumen S5 | `1790213233.847069` |
+
+**Educación no se presentó** por segunda vez seguida; el aviso quedó en su canal.
+De las cinco sesiones del día, **Jurídica S10 es la única sin insumos en Dropbox.**

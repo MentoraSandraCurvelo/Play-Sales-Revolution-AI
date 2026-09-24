@@ -1,0 +1,187 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "TECNOLOGÍA",
+  "area_completa": "",
+  "sesion_num": 5,
+  "fase": "Artefactos y Tableros Interactivos",
+  "fecha": "23 de septiembre de 2026",
+  "fecha_corta": "23 septiembre 2026",
+  "subtitulo_meta": "Individual de Olga Lucía Barros Zuleta · 23 de septiembre de 2026 · 9:12 a. m. · 38 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Tecnología — Comfacesar"],
+    ["Sesión", "N° 5 — Individual de Olga Lucía Barros Zuleta: del Excel de seguimiento al tablero de auditoría contractual"],
+    ["Fecha", "23 de septiembre de 2026"],
+    ["Duración de la sesión", "38 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Olga Lucía Barros Zuleta — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "44", "etiqueta": "Validaciones automáticas", "detalle": "42 cumplen, 2 con advertencia"},
+    {"valor": "4", "etiqueta": "Reglas de semaforización", "detalle": "Las puso el área, no el sistema"},
+    {"valor": "78%", "etiqueta": "Ejecutado del contrato", "detalle": "Con el 91% del tiempo corrido"},
+    {"valor": "0", "etiqueta": "Alertas críticas", "detalle": "De once informes revisados"},
+    {"valor": "3", "etiqueta": "Ejercicios previos al día", "detalle": "Actas, programación y alertas"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Olga Lucía Barros Zuleta", "cargo": "Tecnología — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 5. El área llega al día con los tres ejercicios anteriores y da el salto al tablero interactivo. Lo que queda abierto es un dato de gestión que el propio tablero destapó.",
+  "riesgos": [
+    {
+      "titulo": "El contrato va al 78% ejecutado con el 91% del tiempo corrido",
+      "nivel": "ALTO",
+      "descripcion": "_Lo calculó el tablero, no se buscaba:_ **han transcurrido 334 días de 365 —el 91%— y el valor ejecutado va en el 78%.** Son trece puntos de desfase. **No es una alarma, pero es un dato que antes no se veía** hasta cerrar el contrato. _Queda a la vista mes a mes y permite actuar a tiempo._",
+      "responsable": "Olga Lucía Barros / Seguimiento"
+    },
+    {
+      "titulo": "Dos informes quedaron con advertencia y no se ha revisado por qué",
+      "nivel": "MEDIO",
+      "descripcion": "De 44 validaciones, **42 cumplen y 2 quedan en advertencia** — una de ellas en octubre del año pasado. _En sesión se vio la marca pero no se alcanzó a abrir el detalle._ **El tablero indica cuál de las cuatro reglas falla en cada fila**, así que la revisión es directa.",
+      "responsable": "Olga Lucía Barros / Antes de la S6"
+    },
+    {
+      "titulo": "El tratamiento del IVA quedó sin definir en el tablero",
+      "nivel": "MEDIO",
+      "descripcion": "_Lo señaló el área al revisar los hallazgos:_ **hay una diferencia entre el valor con IVA y sin IVA en el registro del ejecutado.** Es una regla de negocio que el tablero todavía no distingue. **Hay que decírselo para que el acumulado cuadre con lo que registra Tesorería.**",
+      "responsable": "Olga Lucía Barros / Antes de la S6"
+    },
+    {
+      "titulo": "El método CREA se traba en el contexto",
+      "nivel": "MEDIO",
+      "descripcion": "_Dicho por el área:_ «me cuesta el tema del contexto, cómo plantearlo». **Se resolvió con una regla de tiempo:** el contexto es presente y pasado —qué hago hoy, de dónde viene—; **la acción es futuro.** _Si aparece «me gustaría» o «quisiera», ya se pasó a la acción._",
+      "responsable": "Olga Lucía Barros / Resuelto en sesión"
+    },
+    {
+      "titulo": "Quedan dos semanas y el área va por el primer artefacto",
+      "nivel": "ALTO",
+      "descripcion": "**Falta el módulo de diseño y el primer agente del área.** _El cierre es el 5 de octubre._ El área tiene una sesión el viernes y se comprometió a agendar dos más la próxima semana. **Con ese ritmo alcanza; con una semanal no.**",
+      "responsable": "Olga Lucía Barros / Inmediato"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "ALTO", "titulo": "Modelar el tablero hasta dejarlo utilizable", "descripcion": "**Lo que entregó es la versión inicial.** Se modela pidiéndole los cambios en la misma conversación, igual que se ajusta un Excel — _hasta que sustituya al archivo actual._", "responsable": "Olga Lucía Barros", "plazo": "Sesión 6"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Registrar el ejercicio en el tablero de productividad", "descripcion": "**Cuánto tomaba revisar el seguimiento contractual a mano y cuánto toma ahora.** _Es el dato que alimenta el reporte del área._", "responsable": "Olga Lucía Barros", "plazo": "Antes de la S6"},
+    {"num": "03", "nivel": "MEDIO", "titulo": "Abrir las dos advertencias de la semaforización", "descripcion": "Ver cuál de las cuatro reglas falla en cada una. **El tablero ya señala la fila; falta la lectura.**", "responsable": "Olga Lucía Barros", "plazo": "Antes de la S6"},
+    {"num": "04", "nivel": "MEDIO", "titulo": "Definirle al tablero cómo tratar el IVA", "descripcion": "Para que el acumulado corresponda a lo que registra el área. _Es una regla del negocio, no del sistema._", "responsable": "Olga Lucía Barros", "plazo": "Antes de la S6"},
+    {"num": "05", "nivel": "ALTO", "titulo": "Agendar las sesiones que faltan hasta el 5 de octubre", "descripcion": "**Falta el módulo de diseño y el primer agente.** _El área ya tiene una el viernes; se comprometió a dos más._", "responsable": "Olga Lucía Barros", "plazo": "Inmediato"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Revisión de lo que venía",
+      "duracion": "~5 min",
+      "objetivo": "Verificar el avance entre sesiones.",
+      "pasos": [
+        "**Los tres ejercicios anteriores están al día:** la consolidación de actas, la programación y las alertas de vigencia contractual un mes antes del vencimiento",
+        "**Y una corrección al registro:** el área venía alimentando el tablero de productividad. _Se verificó en pantalla y está diligenciado_ — el reporte anterior decía lo contrario",
+        "_Quedó también el punto que el área trajo como duda:_ **cómo plantear el contexto en el método CREA**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · La regla de tiempo del método CREA",
+      "duracion": "~5 min",
+      "objetivo": "Desatascar la parte que más cuesta.",
+      "pasos": [
+        "**El contexto es presente y pasado.** Qué se hace hoy, cómo se hace hoy, de dónde viene",
+        "**La acción es futuro.** Qué se quiere que ocurra",
+        "_Y la señal que avisa cuando se mezclan:_ **si aparece «me gustaría» o «quisiera», ya no se está en contexto** — se pasó a la acción",
+        "**El rol y la entrega quedaban claros**; era el contexto el que se trababa"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El salto al artefacto",
+      "duracion": "~15 min",
+      "objetivo": "Pasar del documento al tablero que vive en una dirección web.",
+      "pasos": [
+        "_El escalón nuevo:_ **del proyecto al artefacto.** Un tablero interactivo que se comparte por enlace y se actualiza a medida que entra la información — **sin escribir una línea de código**",
+        "**Se creó el proyecto con el método CREA** y se subió el Excel real: el seguimiento mensual de un contrato de sistemas de información, con casi dos años de registros, cobros y pólizas",
+        "**La instrucción la dictó el área con sus propios criterios de revisión:** que los cobros mensuales cuadren contra el valor total, **que el número de planilla no esté repetido** y **que la fecha de elaboración caiga en día hábil y no en fin de semana**",
+        "_Y el resto del pedido:_ semaforización, colores corporativos y logo de la Caja, segmentación por fecha y por día de semana, indicadores dinámicos, gráficos de torta, análisis de dispersión **y una pestaña de hallazgos y pasos a seguir**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Lo que entregó y cómo se corrigió en vivo",
+      "duracion": "~10 min",
+      "objetivo": "Leerlo completo y aprender a modelarlo.",
+      "pasos": [
+        "**Indicadores:** valor total del contrato, **ejecutado acumulado 78%**, saldo por ejecutar, **tiempo contractual transcurrido 334 de 365 días**, cobro mensual promedio, y el conteo de informes con alerta crítica y con advertencia",
+        "**Gráficos:** ejecución acumulada contra valor esperado, la torta del ejecutado, barras del valor cobrado por periodo con su planilla asociada, y dispersión de cobros contra la media del contrato",
+        "**La semaforización corre cuatro reglas por cada informe:** planilla no repetida, fecha en día hábil, cobro registrado en el periodo **y consistencia aritmética del acumulado**. _De 44 validaciones, 42 cumplen_",
+        "_Y la primera entrega salió con los gráficos en blanco._ **Se le dijo «no puedo ver los gráficos» y los reconstruyó de forma nativa para no depender de una librería externa** — además extrajo los colores del logo por muestreo",
+        "**Así se modela:** se le dice qué falta o qué no gusta, en la misma conversación, hasta que quede como el área lo necesita. _Igual que se ajusta un Excel, pero sin rehacerlo_"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 5 · 23 septiembre 2026",
+      "titulo": "Las reglas de la auditoría las puso el área",
+      "descripcion": "El tablero no revisa lo que a un sistema le parece importante: **revisa lo que Olga Lucía revisa cuando abre el Excel.** Que la planilla no se repita, que la fecha de elaboración no caiga en fin de semana, que el cobro esté registrado, que el acumulado cuadre. _Ese es el conocimiento del puesto, y es lo único que el método no puede aportar._ **El sistema pone la construcción; el criterio lo pone quien hace el trabajo.**",
+      "estado": "Construido en sesión",
+      "proximo_paso": "Modelarlo hasta que sustituya al Excel",
+      "target": "Sesión 6"
+    },
+    {
+      "encabezado": "HALLAZGO DE GESTIÓN · SESIÓN 5 · 23 septiembre 2026",
+      "titulo": "Trece puntos entre el tiempo corrido y lo ejecutado",
+      "descripcion": "**El 91% del plazo contractual transcurrido contra un 78% de ejecución.** _Nadie lo buscaba: salió al abrir el tablero._ No es una alarma —el contrato va en marcha—, pero **es la clase de desfase que normalmente se descubre al cerrar**, cuando ya no hay margen. Ahora queda a la vista mes a mes.",
+      "estado": "Detectado",
+      "proximo_paso": "Llevarlo al seguimiento del contrato",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 5 · 23 septiembre 2026",
+      "titulo": "El tablero de auditoría contractual",
+      "descripcion": "Indicadores, cuatro gráficos, **semaforización sobre cuatro reglas de validación** y pestaña de hallazgos, sobre los datos reales de un contrato con dos años de historia. **Y cita la fuente de cada dato que muestra.** _Se comparte por enlace y se actualiza alimentándolo, en lugar de rehacer el Excel._",
+      "estado": "Versión inicial entregada",
+      "proximo_paso": "Modelado y registro del ahorro en el tablero",
+      "target": "Sesión 6"
+    },
+    {
+      "encabezado": "CORRECCIÓN AL REGISTRO · SESIÓN 5 · 23 septiembre 2026",
+      "titulo": "El tablero de productividad sí estaba alimentado",
+      "descripcion": "El área lo señaló al inicio de la sesión y **se verificó en pantalla: está diligenciado desde hace tiempo.** _El reporte anterior lo daba por pendiente._ **Queda corregido**, y con él la lectura del avance del área.",
+      "estado": "Verificado",
+      "proximo_paso": "Sumar el ejercicio de hoy al mismo tablero",
+      "target": "Antes de la S6"
+    }
+  ],
+  "tareas_intro": "El área llega al día y da el salto al primer artefacto. Lo que queda es modelarlo hasta que reemplace al Excel, y usar las dos semanas que faltan para llegar al diseño y al primer agente.",
+  "tareas": [
+    {"tarea": "Modelar el tablero hasta que sustituya al Excel de seguimiento", "responsable": "Olga Lucía Barros", "prioridad": "ALTA", "plazo": "Sesión 6"},
+    {"tarea": "Registrar el ejercicio en el tablero de productividad, con el tiempo antes y después", "responsable": "Olga Lucía Barros", "prioridad": "ALTA", "plazo": "Antes de la S6"},
+    {"tarea": "Abrir las dos filas en advertencia y ver qué regla falla", "responsable": "Olga Lucía Barros", "prioridad": "MEDIA", "plazo": "Antes de la S6"},
+    {"tarea": "Definirle al tablero cómo tratar el IVA en el acumulado", "responsable": "Olga Lucía Barros", "prioridad": "MEDIA", "plazo": "Antes de la S6"},
+    {"tarea": "Llevar el desfase del 91% contra 78% al seguimiento del contrato", "responsable": "Olga Lucía Barros", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Agendar las sesiones que faltan hasta el 5 de octubre", "responsable": "Olga Lucía Barros", "prioridad": "ALTA", "plazo": "Inmediato"}
+  ],
+  "observaciones": [
+    "**El área llegó al día.** Los tres ejercicios anteriores —consolidación de actas, programación y alertas de vigencia contractual un mes antes del vencimiento— están funcionando. _Eso permitió dedicar la sesión completa a algo nuevo._",
+    "**Y quedó corregido un punto del registro:** el tablero de productividad sí estaba alimentado. El área lo señaló, se verificó en pantalla y está diligenciado. _El reporte anterior lo daba por pendiente._",
+    "**El ejercicio de la sesión fue el salto al artefacto:** un tablero interactivo construido sobre el Excel real de seguimiento de un contrato, con casi dos años de registros. **Deja de ser un archivo que se actualiza y pasa a ser una dirección web que se comparte** — y se hace sin escribir código.",
+    "_Y conviene subrayar de dónde salió el contenido:_ **las reglas de la auditoría las puso el área.** Que el número de planilla no se repita, que la fecha de elaboración caiga en día hábil y no en fin de semana, que el cobro esté registrado en su periodo, que el acumulado cuadre con el anterior más el valor del mes. **Ese es el conocimiento del puesto, y es exactamente lo que el método no puede aportar.**",
+    "**El tablero corrió 44 validaciones: 42 cumplen y 2 quedan en advertencia.** Ninguna crítica. Y muestra, para cada fila, cuál de las cuatro reglas es la que falla — _la revisión de las dos pendientes es directa._",
+    "**Salió además un dato de gestión que nadie estaba buscando: el 91% del plazo contractual transcurrido contra un 78% de ejecución.** Trece puntos de desfase. No es una alarma —el contrato está corriendo—, pero **es la clase de diferencia que suele descubrirse al cerrar**, cuando ya no queda margen para corregir.",
+    "**Vale la pena contar también cómo se corrigió un error en vivo.** La primera entrega salió con los gráficos en blanco. Se le indicó el problema en la misma conversación y **reconstruyó los gráficos de forma nativa para no depender de una librería externa**, además de extraer los colores del logo por muestreo. _Así se modela un artefacto: se le dice qué falta, y se rehace la parte, no el todo._",
+    "**Lo que falta del recorrido es el módulo de diseño y el primer agente del área.** _Quedan dos semanas hasta el 5 de octubre._ El área tiene una sesión el viernes y se comprometió a agendar dos más la próxima semana; **con ese ritmo llega, con una semanal no.**"
+  ],
+  "proxima_sesion": {
+    "sesion": "Tecnología — Sesión 6",
+    "condiciones": [
+      "El tablero modelado y utilizable",
+      "El ejercicio registrado en el tablero de productividad",
+      "Las dos advertencias revisadas",
+      "La regla del IVA definida"
+    ],
+    "agenda": [
+      "Revisión del tablero modelado",
+      "El entorno visual aplicado a los entregables del área",
+      "Preparación del primer agente de Tecnología",
+      "Cierre del recorrido y paso a las demás herramientas"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 23 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
