@@ -1,0 +1,200 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SUB. ADMINISTRATIVA Y FINANCIERA",
+  "area_completa": "",
+  "sesion_num": 10,
+  "fase": "Proyectos y Sistemas de Trabajo",
+  "fecha": "23 de septiembre de 2026",
+  "fecha_corta": "23 septiembre 2026",
+  "subtitulo_meta": "Individual de Liliany · 23 de septiembre de 2026 · 3:00 p. m. · 49 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Sub. Administrativa y Financiera — Comfacesar"],
+    ["Sesión", "N° 10 — Individual de Liliany: el tablero de gestión de la subdirección"],
+    ["Fecha", "23 de septiembre de 2026"],
+    ["Duración de la sesión", "49 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Liliany — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "8", "etiqueta": "Gerencias y áreas mapeadas", "detalle": "De memoria, no de un documento"},
+    {"valor": "0", "etiqueta": "Estructuras oficiales escritas", "detalle": "No existe formalizada"},
+    {"valor": "4", "etiqueta": "Unidades de servicio", "detalle": "La Loma, Aguachica, La Jagua, El Copey"},
+    {"valor": "4,5", "etiqueta": "Horas registradas a mano", "detalle": "El piloto de una sola mañana"},
+    {"valor": "1", "etiqueta": "Tablero en construcción", "detalle": "La gestión de la subdirección"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Liliany", "cargo": "Profesional Senior — Sub. Administrativa y Financiera", "correo": "—", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 10. El ejercicio era construir un tablero de gestión sobre la agenda de la subdirección, y al intentarlo salieron a la luz dos cosas que el tablero necesita y que hoy no existen.",
+  "riesgos": [
+    {
+      "titulo": "No existe una estructura organizacional formalizada",
+      "nivel": "ALTO",
+      "descripcion": "_Al listar las áreas para alimentar el tablero quedó dicho:_ **«no tenemos oficialmente una estructura, la han estado trabajando y se han cambiado varias».** El mapa completo se reconstruyó **de memoria, no de un documento.** _Y hubo procesos que no se supo dónde ubicar_ — el de activos, sin definir si pertenece a administrativa o a otra. **Un tablero de gestión por áreas necesita saber cuáles son las áreas.**",
+      "responsable": "Liliany / Escalar"
+    },
+    {
+      "titulo": "Los eventos del calendario no dicen con qué área es la reunión",
+      "nivel": "ALTO",
+      "descripcion": "**El asunto de cada cita registra el nombre de la persona, no el área.** _Así el tablero no puede clasificar nada:_ puede contar reuniones, pero no decir a cuál área se le dedicó más tiempo. **La corrección es en el origen** — que el asunto lleve el área además del nombre. _Es exactamente el criterio que se les pide a las áreas cuando agendan._",
+      "responsable": "Liliany / Inmediato"
+    },
+    {
+      "titulo": "El calendario se conectó con la cuenta del subdirector",
+      "nivel": "ALTO",
+      "descripcion": "Para que el tablero lea la agenda, **el conector se instaló con las credenciales del subdirector**, no con las del área. _Funciona, pero conviene que ese acceso quede autorizado por escrito_ — **es la agenda completa de un directivo**, y el registro de quién la consulta y para qué debería existir antes de que el tablero se comparta.",
+      "responsable": "Liliany / Antes de la S11"
+    },
+    {
+      "titulo": "El registro de la gestión depende hoy de que alguien lo anote a mano",
+      "nivel": "MEDIO",
+      "descripcion": "_El piloto de la mañana se hizo así:_ **anotando actividad por actividad de 7:30 a 12:00, con apoyo de una compañera.** Sirve como insumo inicial, pero **no es sostenible ni completo.** El tablero solo lee lo que esté en el calendario; **lo que no se agenda, no existe para el sistema.**",
+      "responsable": "Liliany / Permanente"
+    },
+    {
+      "titulo": "El tablero no alcanzó a entregarse en la sesión",
+      "nivel": "MEDIO",
+      "descripcion": "Se le pidió el histórico completo del año y **quedó procesando cuando terminó la hora.** _No es un problema:_ el proyecto está creado, el calendario conectado y los parámetros dictados. **Falta verlo, leerlo y modelarlo.**",
+      "responsable": "Liliany / Sesión 11"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "ALTO", "titulo": "Traer el tablero para revisarlo en sesión", "descripcion": "**El proyecto quedó armado y corriendo.** _Falta leerlo completo y empezar a modelarlo._", "responsable": "Liliany", "plazo": "Sesión 11"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Cambiar cómo se registran las citas en el calendario", "descripcion": "**Que el asunto lleve el área además del nombre de la persona.** _Sin eso el tablero cuenta reuniones pero no puede decir a qué se dedicó el tiempo._", "responsable": "Liliany", "plazo": "Inmediato"},
+    {"num": "03", "nivel": "ALTO", "titulo": "Dejar por escrito la autorización del acceso al calendario", "descripcion": "El conector quedó instalado con la cuenta del subdirector. **Conviene que el alcance y el propósito estén autorizados antes de compartir el tablero.**", "responsable": "Liliany", "plazo": "Antes de la S11"},
+    {"num": "04", "nivel": "MEDIO", "titulo": "Completar el listado de áreas y resolver los procesos sin ubicar", "descripcion": "**Empezando por el de activos**, que quedó sin definir. _Y dejarlo escrito, porque hoy el mapa vive en la memoria de una persona._", "responsable": "Liliany", "plazo": "Antes de la S11"},
+    {"num": "05", "nivel": "MEDIO", "titulo": "Agendar las sesiones que faltan hasta el 5 de octubre", "descripcion": "**El área va en la sesión 10 y viene con buen ritmo.** _Quedan dos semanas para dejar el tablero utilizable._", "responsable": "Liliany", "plazo": "Inmediato"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El proyecto de la agenda",
+      "duracion": "~8 min",
+      "objetivo": "Montar el proyecto con el método CREA.",
+      "pasos": [
+        "**Contexto:** el subdirector atiende reuniones presenciales y virtuales, viajes, comités **y las áreas que están bajo su responsabilidad** — y necesita ir midiendo sus actividades diarias y llevar registro de su gestión operativa",
+        "**Rol:** el mejor planeador de agendas para una subdirección administrativa y financiera",
+        "**Entrega:** un tablero interactivo",
+        "**Acción:** medir la gestión por áreas y entregar resumen semanal",
+        "_El orden importa:_ **sin contexto y sin rol, la entrega sale genérica.** Ese fue el trabajo de los primeros minutos"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Conectar la fuente",
+      "duracion": "~7 min",
+      "objetivo": "Darle al sistema acceso a la agenda real.",
+      "pasos": [
+        "**Se instaló el conector de calendario**, y se hizo con la cuenta del subdirector — _no con la del área_, porque es su agenda la que se va a medir",
+        "**Sin conector no hay tablero:** el sistema no puede analizar lo que no puede leer",
+        "_Y se señaló lo que viene después:_ **si las reuniones se grabaran, el mismo circuito podría extraer compromisos y resultados**, no solo tiempos. Queda como posibilidad, no como tarea"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Los parámetros del tablero",
+      "duracion": "~10 min",
+      "objetivo": "Dictar qué debe mostrar.",
+      "pasos": [
+        "**Reporte de actividades realizadas, con semaforización**",
+        "**Segmentación por fecha, semana, mes y año** — y el histórico del año corrido, para que haya volumen suficiente",
+        "**Reporte por áreas:** a cuáles se les dedicó más tiempo y cuántas horas se emplearon en cada tipo de actividad",
+        "**Gráficos de torta, de barras y de participación**, con el logo de la Caja",
+        "_Y el criterio que se dejó dicho para todo lo que venga:_ **cada vez que haya un Excel o un informe que presentar, se hace así** — tablero segmentado, con gráficos, análisis y hallazgos"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Mapear la estructura, que era el trabajo de fondo",
+      "duracion": "~15 min",
+      "objetivo": "Darle al tablero las áreas contra las cuales clasificar.",
+      "pasos": [
+        "**Se reconstruyó el mapa completo, de memoria:** gerencia financiera con tesorería, facturación, contabilidad, presupuesto y crédito; planeación con gestión de servicio; talento humano; subsidio; administrativa con compras y suministros, mantenimiento y servicios generales, archivo y correspondencia e infraestructura; IPS; comunicaciones; y empleabilidad",
+        "**Más la subdirección operativa**, con mercadeo y las **unidades de servicio: La Loma, Aguachica, La Jagua y El Copey**; los centros recreacionales; educación con el colegio, la educación continuada y el centro de experiencia virtual; y servicios sociales con turismo, recreación y deporte",
+        "**Y los cuerpos colegiados:** consejo directivo y preconsejo",
+        "_Aquí apareció lo importante:_ **el listado no salió de un documento, salió de la memoria** — y quedó dicho que **la estructura no está formalizada**",
+        "**Hubo procesos que no se supo dónde ubicar**, como el de activos. _No es un olvido: es que no está definido_"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · El piloto de una mañana",
+      "duracion": "~8 min",
+      "objetivo": "Ver qué tan lejos está el calendario de la realidad.",
+      "pasos": [
+        "**Se registró a mano todo lo que hizo la subdirección entre las 7:30 y las 12:00** — con apoyo de una compañera, anotando a medida que ocurría",
+        "**Aparecieron reuniones que no estaban agendadas:** con proveedores, contratistas, interventores de obra, consultores y asesores",
+        "_Ese registro se subió al proyecto como insumo_, para que el tablero tenga el contraste entre lo agendado y lo realmente ocurrido",
+        "**Y ahí está el punto:** el tablero solo puede leer lo que esté en el calendario. _Lo que no se agenda, para el sistema no existió_"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 10 · 23 septiembre 2026",
+      "titulo": "El ejercicio destapó que la estructura no está escrita",
+      "descripcion": "Para clasificar la gestión por áreas había que listarlas, y al listarlas quedó claro que **no existe una estructura organizacional formalizada**: se reconstruyó de memoria y hubo procesos —el de activos— que nadie supo dónde ubicar. _Nadie estaba auditando eso._ **Pero un tablero no puede clasificar contra algo que no está definido**, y por eso el ejercicio lo sacó a la luz. *Es un hallazgo que vale más que el tablero mismo.*",
+      "estado": "Detectado",
+      "proximo_paso": "Escalar la formalización de la estructura",
+      "target": "Antes del cierre"
+    },
+    {
+      "encabezado": "HALLAZGO OPERATIVO · SESIÓN 10 · 23 septiembre 2026",
+      "titulo": "El calendario registra personas, no áreas",
+      "descripcion": "Las citas llevan el nombre de con quién es la reunión, **pero no de qué área se trata.** _Con eso el tablero puede contar reuniones, pero no responder la pregunta que importa:_ **a qué se le está dedicando el tiempo de la subdirección.** La corrección no está en el sistema sino en el origen — **basta con que el asunto lleve el área.**",
+      "estado": "Identificado",
+      "proximo_paso": "Cambiar la forma de registrar las citas",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "OPORTUNIDAD EN CONSTRUCCIÓN · SESIÓN 10 · 23 septiembre 2026",
+      "titulo": "El tablero de gestión de la subdirección",
+      "descripcion": "Actividades por área y por tipo, horas dedicadas, segmentación por semana y mes, semaforización y resumen ejecutivo, **sobre el histórico del año corrido.** _El proyecto quedó creado, el calendario conectado y los parámetros dictados._ **Quedó procesando al terminar la hora.**",
+      "estado": "En proceso",
+      "proximo_paso": "Leerlo completo y empezar a modelarlo",
+      "target": "Sesión 11"
+    },
+    {
+      "encabezado": "EL PORQUÉ DEL EJERCICIO · SESIÓN 10 · 23 septiembre 2026",
+      "titulo": "Hacer visible una gestión que pasa desapercibida",
+      "descripcion": "_Lo dijo el área citando al propio subdirector:_ **«hay que cacarear lo que se hace»** — y sus gestiones, por ser tan operativas, pasan por alto. **Ese es el propósito real del tablero:** no controlar una agenda, sino **dejar constancia de un trabajo que hoy no queda registrado en ninguna parte.** _El piloto de una sola mañana ya mostró reuniones que no estaban agendadas._",
+      "estado": "Definido",
+      "proximo_paso": "Llevar el tablero a un resumen semanal",
+      "target": "Sesión 11"
+    }
+  ],
+  "tareas_intro": "El proyecto quedó armado y corriendo, pero lo que decide si el tablero sirve son dos cosas que están fuera de la herramienta: que las citas registren el área y que la estructura quede definida.",
+  "tareas": [
+    {"tarea": "Traer el tablero para revisarlo y modelarlo en sesión", "responsable": "Liliany", "prioridad": "ALTA", "plazo": "Sesión 11"},
+    {"tarea": "Registrar el área en el asunto de cada cita del calendario, además del nombre", "responsable": "Liliany", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Dejar por escrito la autorización del acceso al calendario de la subdirección", "responsable": "Liliany", "prioridad": "ALTA", "plazo": "Antes de la S11"},
+    {"tarea": "Completar el listado de áreas y resolver los procesos sin ubicar, empezando por activos", "responsable": "Liliany", "prioridad": "MEDIA", "plazo": "Antes de la S11"},
+    {"tarea": "Seguir alimentando el calendario con lo que hoy no se agenda", "responsable": "Liliany", "prioridad": "MEDIA", "plazo": "Permanente"},
+    {"tarea": "Agendar las sesiones que faltan hasta el 5 de octubre", "responsable": "Liliany", "prioridad": "ALTA", "plazo": "Inmediato"}
+  ],
+  "observaciones": [
+    "**El ejercicio de la sesión fue construir un tablero de gestión sobre la agenda de la subdirección** — actividades por área y por tipo, horas dedicadas, segmentación por semana y mes, semaforización y resumen ejecutivo, sobre el histórico del año corrido.",
+    "**Se conectó el calendario del subdirector** para que el sistema pueda leer la agenda real. _Sin esa conexión no hay tablero:_ el sistema no puede analizar lo que no alcanza. **Conviene que ese acceso quede autorizado por escrito antes de que el tablero se comparta** — es la agenda completa de un directivo.",
+    "**Pero el trabajo de fondo fue otro, y ahí está el hallazgo.** Para poder clasificar la gestión por áreas había que listarlas, y **el listado completo se reconstruyó de memoria**: gerencias, subdirecciones, unidades de servicio, centros recreacionales, educación, servicios sociales y los cuerpos colegiados.",
+    "_Y al hacerlo quedó dicho:_ **«no tenemos oficialmente una estructura, la han estado trabajando y se han cambiado varias».** Hubo procesos que nadie supo dónde ubicar — **el de activos, sin definir si pertenece a administrativa o a otra.** *Nadie estaba auditando eso.* **Pero un tablero no puede clasificar contra algo que no está definido, y por eso el ejercicio lo sacó a la luz.**",
+    "**El segundo hallazgo es operativo y tiene arreglo inmediato:** las citas del calendario registran con quién es la reunión, **pero no de qué área.** _Así el tablero puede contar reuniones, pero no responder a qué se le está dedicando el tiempo._ **La corrección está en el origen: que el asunto lleve el área además del nombre.**",
+    "**Se hizo además un piloto revelador.** Se registró a mano todo lo que hizo la subdirección entre las 7:30 y las 12:00, y **aparecieron reuniones que no estaban agendadas** — con proveedores, contratistas, interventores de obra, consultores y asesores. _Ese registro se subió al proyecto para contrastar lo agendado contra lo ocurrido._ **El tablero solo lee lo que esté en el calendario.**",
+    "_Y conviene dejar escrito el porqué del ejercicio, porque lo explica todo._ El área citó al propio subdirector: **«hay que cacarear lo que se hace»** — y sus gestiones, por ser tan operativas, pasan desapercibidas. **El tablero no es para controlar una agenda: es para dejar constancia de un trabajo que hoy no queda registrado en ninguna parte.**",
+    "**El tablero quedó procesando al terminar la hora** y no alcanzó a verse. _No es un problema:_ el proyecto está creado, el calendario conectado y los parámetros dictados. **El área va en la sesión 10 y viene con buen ritmo; quedan dos semanas para dejarlo utilizable.**"
+  ],
+  "proxima_sesion": {
+    "sesion": "Sub. Administrativa y Financiera — Sesión 11",
+    "condiciones": [
+      "El tablero entregado y revisado por el área",
+      "El listado de áreas completo y los procesos sin ubicar resueltos",
+      "Las citas del calendario registrando el área",
+      "La autorización del acceso al calendario por escrito"
+    ],
+    "agenda": [
+      "Lectura y modelado del tablero de gestión",
+      "El resumen semanal de la subdirección",
+      "Grabación de pantalla y habilidades del entorno",
+      "Preparación del material del área para el cierre"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 23 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
