@@ -1141,3 +1141,19 @@ cupos libres señalados —martes 29 a las 5:00, viernes 2 a las 11:00, 2:00 y 3
 *Y la numeración de Mercadeo baja un número en la última semana:* como la de Rina no se hace,
 **la del lunes 28 a las 4:00 p. m. es la S7 y la del miércoles 30 la S8.** Los dos asuntos hay
 que corregirlos.
+
+### Jueves 24 — dos cancelaciones el mismo día
+
+| Canal | Qué se publicó | message_ts |
+|---|---|---|
+| `#contabilidad` | Cancelación de la S8 del 24 de septiembre | `1790277442.561529` |
+| `#sub-admin-y-financiera-infraestructura` | Cancelación de la S11 del 24 de septiembre | `1790277446.672499` |
+
+**Las dos son la primera caída de su área en todo el programa.** Contabilidad iba en S7 sin una
+sola falta; Sub. Administrativa y Financiera en S10, que es la más alta del proyecto. Los dos
+avisos se mostraron a Sandra antes de enviarlos, *como corresponde a los mensajes puntuales.*
+
+*Ninguno de los dos números avanza.* **Contabilidad se queda en S7** —la del viernes 25 pasa a
+ser la S8, y **es la última que tiene el área en todo el programa**, porque no aparece en la
+semana de cierre—. **Sub. Administrativa y Financiera se queda en S10**, y la del lunes 28 con
+Rafael pasa a ser la S11.
