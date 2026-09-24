@@ -9,25 +9,81 @@
   "fecha_corta": "23 septiembre 2026",
   "subtitulo_meta": "Individual de Olga Lucía Barros Zuleta · 23 de septiembre de 2026 · 9:12 a. m. · 38 min · Virtual — Microsoft Teams",
   "datos_sesion": [
-    ["Área(s)", "Tecnología — Comfacesar"],
-    ["Sesión", "N° 5 — Individual de Olga Lucía Barros Zuleta: del Excel de seguimiento al tablero de auditoría contractual"],
-    ["Fecha", "23 de septiembre de 2026"],
-    ["Duración de la sesión", "38 minutos"],
-    ["Modalidad", "Virtual — Microsoft Teams"],
-    ["Asistencia", "Olga Lucía Barros Zuleta — completa"],
-    ["Grabación", "Publicada en el canal del área"],
-    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+    [
+      "Área(s)",
+      "Tecnología — Comfacesar"
+    ],
+    [
+      "Sesión",
+      "N° 5 — Individual de Olga Lucía Barros Zuleta: del Excel de seguimiento al tablero de auditoría contractual"
+    ],
+    [
+      "Fecha",
+      "23 de septiembre de 2026"
+    ],
+    [
+      "Duración de la sesión",
+      "38 minutos"
+    ],
+    [
+      "Modalidad",
+      "Virtual — Microsoft Teams"
+    ],
+    [
+      "Asistencia",
+      "Olga Lucía Barros Zuleta — completa"
+    ],
+    [
+      "Grabación",
+      "Publicada en el canal del área"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo — Mentora IAM™ Intelligence"
+    ]
   ],
   "kpis": [
-    {"valor": "44", "etiqueta": "Validaciones automáticas", "detalle": "42 cumplen, 2 con advertencia"},
-    {"valor": "4", "etiqueta": "Reglas de semaforización", "detalle": "Las puso el área, no el sistema"},
-    {"valor": "78%", "etiqueta": "Ejecutado del contrato", "detalle": "Con el 91% del tiempo corrido"},
-    {"valor": "0", "etiqueta": "Alertas críticas", "detalle": "De once informes revisados"},
-    {"valor": "3", "etiqueta": "Ejercicios previos al día", "detalle": "Actas, programación y alertas"}
+    {
+      "valor": "44",
+      "etiqueta": "Validaciones automáticas",
+      "detalle": "42 cumplen, 2 con advertencia"
+    },
+    {
+      "valor": "4",
+      "etiqueta": "Reglas de semaforización",
+      "detalle": "Las puso el área, no el sistema"
+    },
+    {
+      "valor": "78%",
+      "etiqueta": "Ejecutado del contrato",
+      "detalle": "Con el 91% del tiempo corrido"
+    },
+    {
+      "valor": "0",
+      "etiqueta": "Alertas críticas",
+      "detalle": "De once informes revisados"
+    },
+    {
+      "valor": "3",
+      "etiqueta": "Ejercicios previos al día",
+      "detalle": "Actas, programación y alertas"
+    }
   ],
   "participantes": [
-    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
-    {"nombre": "Olga Lucía Barros Zuleta", "cargo": "Tecnología — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Intermedio"}
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "—",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Olga Lucía Barros Zuleta",
+      "cargo": "Tecnología — Comfacesar",
+      "correo": "—",
+      "modalidad": "Virtual",
+      "nivel": "Intermedio"
+    }
   ],
   "mapa_calor_intro": "Riesgos identificados en la Sesión 5. El área llega al día con los tres ejercicios anteriores y da el salto al tablero interactivo. Lo que queda abierto es un dato de gestión que el propio tablero destapó.",
   "riesgos": [
@@ -36,6 +92,12 @@
       "nivel": "ALTO",
       "descripcion": "_Lo calculó el tablero, no se buscaba:_ **han transcurrido 334 días de 365 —el 91%— y el valor ejecutado va en el 78%.** Son trece puntos de desfase. **No es una alarma, pero es un dato que antes no se veía** hasta cerrar el contrato. _Queda a la vista mes a mes y permite actuar a tiempo._",
       "responsable": "Olga Lucía Barros / Seguimiento"
+    },
+    {
+      "titulo": "Se volvió a pedir el tiempo del programa para un proyecto personal",
+      "nivel": "ALTO",
+      "descripcion": "Durante la sesión el área presentó de nuevo un **proyecto personal —un emprendimiento de repostería—** para que se revisara. _Es la segunda vez que ocurre, y el alcance ya se había explicado._ **El programa acompaña procesos del área, por instrucción expresa de la dirección y de la líder del proyecto.** Se reiteró que el método aprendido se puede aplicar por cuenta propia a cualquier tema, pero **las horas del acompañamiento son para el trabajo del puesto.** _Quedan dos semanas y falta el primer agente del área._",
+      "responsable": "Olga Lucía Barros / Inmediato"
     },
     {
       "titulo": "Dos informes quedaron con advertencia y no se ha revisado por qué",
@@ -63,11 +125,54 @@
     }
   ],
   "alertas": [
-    {"num": "01", "nivel": "ALTO", "titulo": "Modelar el tablero hasta dejarlo utilizable", "descripcion": "**Lo que entregó es la versión inicial.** Se modela pidiéndole los cambios en la misma conversación, igual que se ajusta un Excel — _hasta que sustituya al archivo actual._", "responsable": "Olga Lucía Barros", "plazo": "Sesión 6"},
-    {"num": "02", "nivel": "ALTO", "titulo": "Registrar el ejercicio en el tablero de productividad", "descripcion": "**Cuánto tomaba revisar el seguimiento contractual a mano y cuánto toma ahora.** _Es el dato que alimenta el reporte del área._", "responsable": "Olga Lucía Barros", "plazo": "Antes de la S6"},
-    {"num": "03", "nivel": "MEDIO", "titulo": "Abrir las dos advertencias de la semaforización", "descripcion": "Ver cuál de las cuatro reglas falla en cada una. **El tablero ya señala la fila; falta la lectura.**", "responsable": "Olga Lucía Barros", "plazo": "Antes de la S6"},
-    {"num": "04", "nivel": "MEDIO", "titulo": "Definirle al tablero cómo tratar el IVA", "descripcion": "Para que el acumulado corresponda a lo que registra el área. _Es una regla del negocio, no del sistema._", "responsable": "Olga Lucía Barros", "plazo": "Antes de la S6"},
-    {"num": "05", "nivel": "ALTO", "titulo": "Agendar las sesiones que faltan hasta el 5 de octubre", "descripcion": "**Falta el módulo de diseño y el primer agente.** _El área ya tiene una el viernes; se comprometió a dos más._", "responsable": "Olga Lucía Barros", "plazo": "Inmediato"}
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Modelar el tablero hasta dejarlo utilizable",
+      "descripcion": "**Lo que entregó es la versión inicial.** Se modela pidiéndole los cambios en la misma conversación, igual que se ajusta un Excel — _hasta que sustituya al archivo actual._",
+      "responsable": "Olga Lucía Barros",
+      "plazo": "Sesión 6"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Reservar las sesiones que quedan para procesos del área",
+      "descripcion": "**El alcance del programa son los procesos de Tecnología**, y así quedó definido por la dirección y la líder del proyecto. _Lo aprendido se aplica libremente a lo personal, pero fuera de las sesiones._ **Es la segunda vez que se plantea y quedan dos semanas.**",
+      "responsable": "Olga Lucía Barros",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Registrar el ejercicio en el tablero de productividad",
+      "descripcion": "**Cuánto tomaba revisar el seguimiento contractual a mano y cuánto toma ahora.** _Es el dato que alimenta el reporte del área._",
+      "responsable": "Olga Lucía Barros",
+      "plazo": "Antes de la S6"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Abrir las dos advertencias de la semaforización",
+      "descripcion": "Ver cuál de las cuatro reglas falla en cada una. **El tablero ya señala la fila; falta la lectura.**",
+      "responsable": "Olga Lucía Barros",
+      "plazo": "Antes de la S6"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Definirle al tablero cómo tratar el IVA",
+      "descripcion": "Para que el acumulado corresponda a lo que registra el área. _Es una regla del negocio, no del sistema._",
+      "responsable": "Olga Lucía Barros",
+      "plazo": "Antes de la S6"
+    },
+    {
+      "num": "06",
+      "nivel": "ALTO",
+      "titulo": "Agendar las sesiones que faltan hasta el 5 de octubre",
+      "descripcion": "**Falta el módulo de diseño y el primer agente.** _El área ya tiene una el viernes; se comprometió a dos más._",
+      "responsable": "Olga Lucía Barros",
+      "plazo": "Inmediato"
+    }
   ],
   "ejercicios": [
     {
@@ -151,12 +256,48 @@
   ],
   "tareas_intro": "El área llega al día y da el salto al primer artefacto. Lo que queda es modelarlo hasta que reemplace al Excel, y usar las dos semanas que faltan para llegar al diseño y al primer agente.",
   "tareas": [
-    {"tarea": "Modelar el tablero hasta que sustituya al Excel de seguimiento", "responsable": "Olga Lucía Barros", "prioridad": "ALTA", "plazo": "Sesión 6"},
-    {"tarea": "Registrar el ejercicio en el tablero de productividad, con el tiempo antes y después", "responsable": "Olga Lucía Barros", "prioridad": "ALTA", "plazo": "Antes de la S6"},
-    {"tarea": "Abrir las dos filas en advertencia y ver qué regla falla", "responsable": "Olga Lucía Barros", "prioridad": "MEDIA", "plazo": "Antes de la S6"},
-    {"tarea": "Definirle al tablero cómo tratar el IVA en el acumulado", "responsable": "Olga Lucía Barros", "prioridad": "MEDIA", "plazo": "Antes de la S6"},
-    {"tarea": "Llevar el desfase del 91% contra 78% al seguimiento del contrato", "responsable": "Olga Lucía Barros", "prioridad": "ALTA", "plazo": "Inmediato"},
-    {"tarea": "Agendar las sesiones que faltan hasta el 5 de octubre", "responsable": "Olga Lucía Barros", "prioridad": "ALTA", "plazo": "Inmediato"}
+    {
+      "tarea": "Modelar el tablero hasta que sustituya al Excel de seguimiento",
+      "responsable": "Olga Lucía Barros",
+      "prioridad": "ALTA",
+      "plazo": "Sesión 6"
+    },
+    {
+      "tarea": "Dedicar las sesiones restantes a procesos del área, según el alcance definido por la dirección",
+      "responsable": "Olga Lucía Barros",
+      "prioridad": "ALTA",
+      "plazo": "Inmediato"
+    },
+    {
+      "tarea": "Registrar el ejercicio en el tablero de productividad, con el tiempo antes y después",
+      "responsable": "Olga Lucía Barros",
+      "prioridad": "ALTA",
+      "plazo": "Antes de la S6"
+    },
+    {
+      "tarea": "Abrir las dos filas en advertencia y ver qué regla falla",
+      "responsable": "Olga Lucía Barros",
+      "prioridad": "MEDIA",
+      "plazo": "Antes de la S6"
+    },
+    {
+      "tarea": "Definirle al tablero cómo tratar el IVA en el acumulado",
+      "responsable": "Olga Lucía Barros",
+      "prioridad": "MEDIA",
+      "plazo": "Antes de la S6"
+    },
+    {
+      "tarea": "Llevar el desfase del 91% contra 78% al seguimiento del contrato",
+      "responsable": "Olga Lucía Barros",
+      "prioridad": "ALTA",
+      "plazo": "Inmediato"
+    },
+    {
+      "tarea": "Agendar las sesiones que faltan hasta el 5 de octubre",
+      "responsable": "Olga Lucía Barros",
+      "prioridad": "ALTA",
+      "plazo": "Inmediato"
+    }
   ],
   "observaciones": [
     "**El área llegó al día.** Los tres ejercicios anteriores —consolidación de actas, programación y alertas de vigencia contractual un mes antes del vencimiento— están funcionando. _Eso permitió dedicar la sesión completa a algo nuevo._",
@@ -166,6 +307,7 @@
     "**El tablero corrió 44 validaciones: 42 cumplen y 2 quedan en advertencia.** Ninguna crítica. Y muestra, para cada fila, cuál de las cuatro reglas es la que falla — _la revisión de las dos pendientes es directa._",
     "**Salió además un dato de gestión que nadie estaba buscando: el 91% del plazo contractual transcurrido contra un 78% de ejecución.** Trece puntos de desfase. No es una alarma —el contrato está corriendo—, pero **es la clase de diferencia que suele descubrirse al cerrar**, cuando ya no queda margen para corregir.",
     "**Vale la pena contar también cómo se corrigió un error en vivo.** La primera entrega salió con los gráficos en blanco. Se le indicó el problema en la misma conversación y **reconstruyó los gráficos de forma nativa para no depender de una librería externa**, además de extraer los colores del logo por muestreo. _Así se modela un artefacto: se le dice qué falta, y se rehace la parte, no el todo._",
+    "**Queda constancia de un punto de alcance.** En esta sesión el área volvió a presentar un proyecto personal —un emprendimiento de repostería— para que se revisara. **Es la segunda vez, y el alcance ya se había explicado en su momento con la líder del proyecto y con la dirección.** _Se reiteró el criterio:_ **el programa acompaña procesos del área; el método aprendido se puede aplicar por cuenta propia a cualquier tema, pero fuera de las sesiones.** Se deja escrito porque **quedan dos semanas de acompañamiento y al área todavía le falta su primer agente.**",
     "**Lo que falta del recorrido es el módulo de diseño y el primer agente del área.** _Quedan dos semanas hasta el 5 de octubre._ El área tiene una sesión el viernes y se comprometió a agendar dos más la próxima semana; **con ese ritmo llega, con una semanal no.**"
   ],
   "proxima_sesion": {
