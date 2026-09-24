@@ -15,6 +15,38 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⭕️ 24 sep · 8:10 · El alcance del programa se sostuvo en sesión, y queda en los tableros
+
+**Sandra pidió subirlo como alerta. Lo busqué en la fuente antes de escribirlo y hay una
+corrección: no es de Jurídica, es de Tecnología.** Está en la transcripción de la **S5 del 23 de
+septiembre**, no en ninguna sesión de Jurídica. Lo verifiqué buscando en todo Dropbox: la palabra
+aparece en un solo archivo.
+
+**Qué pasó, con las palabras de la sesión.** Olga Lucía mostró un proyecto propio de **repostería
+saludable**, con la herramienta configurada como *«quiero que seas el chef experto en repostería
+saludable»*, y **lo planteó ella misma preguntando si había hecho mal**. Eso conviene decirlo,
+porque no lo escondió.
+
+**Cómo se manejó, que es lo que Sandra quería que quedara.** Declinó en el momento y sin
+ambigüedad: *«lamentablemente no te puedo ayudar con esto porque no tiene nada que ver con el
+área»*, y sostuvo el alcance citando a quien lo fijó: *«el director y la líder del proyecto
+fueron muy explícitos, este proyecto es para el tema de productividad de las áreas»*. **Y dejó el
+puente abierto**, que el método CREA y las instrucciones sí los puede llevar a ese plano por su
+cuenta. Cerró escalándolo, y dejando constancia de que ya se había hablado con María Elvira y con
+el director. Textual: *«nadie me lo ha propuesto, eres la única»*.
+
+**Lo escribí por lo que prueba, no por el caso:** el alcance del programa se sostiene en sesión,
+delante de la persona y sin necesidad de un comité. Es un hallazgo a favor de la gestión, no una
+queja contra el área.
+
+**Dónde lo puse y por qué separado.** En **Hallazgos**, que es interno, va completo con nombre,
+fecha y textuales, porque es el tablero que sustenta la presentación al director. En el
+**Termómetro**, que está compartido por enlace, va el criterio **sin el nombre de la persona**:
+dejar a una colaboradora señalada por un hobby en un tablero que cualquiera puede abrir no protege
+a nadie, y el punto se entiende igual.
+
+**Publicado:** Hallazgos v18, Termómetro v73.
+
 ## ⭕️ 24 sep · 7:30 · Corte del jueves: 88 sesiones, y el acumulado baja por primera vez
 
 **No publiqué nada en Slack.** Esta es la corrida del Termómetro.
