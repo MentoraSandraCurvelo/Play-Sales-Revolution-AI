@@ -2,8 +2,11 @@
 
 > **Es la semana de cierre.** El 3 cae sábado, así que el último día es el **lunes 5 de octubre**.
 
-**16 sesiones de IAM™ Intelligence** en el calendario: 15 entre el lunes 28 y el jueves 1,
+**15 sesiones de IAM™ Intelligence** en el calendario: 14 entre el lunes 28 y el jueves 1,
 y una sola el lunes 5. **El viernes 2 no hay ninguna de Comfacesar.**
+
+*Eran 16.* La de Mercadeo del lunes 28 a las 3:00 p. m. la canceló Rina Ropaín y **el cupo ya lo
+tomó Rafael Solano**, de Subdirección Financiera.
 
 ## Lo que toca
 
@@ -12,14 +15,14 @@ y una sola el lunes 5. **El viernes 2 no hay ninguna de Comfacesar.**
 | Lun 28 | 10:00 a. m. | Subsidio | `coordinacionsubsidioyaportes@` | **S5** | correcto |
 | Lun 28 | 11:00 a. m. | Jurídica | `secretaria_juridica@` | **S12** | dice «S» — falta el número |
 | Lun 28 | 2:00 p. m. | Subsidio | `atencion_reclamos@` | **S6** | correcto |
-| Lun 28 | 3:00 p. m. | Mercadeo | `amercadeo2@` (Rina) | **S7** | correcto |
-| Lun 28 | 4:00 p. m. | Mercadeo | `comercializacionyventas@` (Manuel) | **S8** | correcto |
+| ~~Lun 28~~ | 3:00 p. m. | ~~Mercadeo (Rina)~~ | — | **cancelada** | el cupo lo tomó Rafael Solano |
+| Lun 28 | 4:00 p. m. | Mercadeo | `comercializacionyventas@` (Manuel) | **S7** | dice «S8» — devolver a 7 |
 | Mar 29 | 10:00 a. m. | Servicios Sociales | `pro_juniorss@` | **S10** | dice «S» — falta el número |
 | Mar 29 | 11:00 a. m. | Sub. Operativa y Comercial | `asistentesuboperativa@` · `innovacion@` | **S5** | correcto |
 | Mar 29 | 3:00 p. m. | Subsidio | `atencion_reclamos@` | **S7** | correcto |
 | Mar 29 | 4:00 p. m. | Comunicaciones | el grupo completo | **S10** | dice «Sesion» a secas |
 | Mié 30 | 9:00 a. m. | Subsidio | `coordinacionsubsidioyaportes@` | **S8** | correcto |
-| Mié 30 | 10:00 a. m. | Mercadeo | `comercializacionyventas@` (Manuel) | **S9** | correcto |
+| Mié 30 | 10:00 a. m. | Mercadeo | `comercializacionyventas@` (Manuel) | **S8** | dice «S9» — devolver a 8 |
 | Mié 30 | 11:00 a. m. | Jurídica | `secretaria_juridica@` · `contratacion@` | **S13** | dice «S» — falta el número |
 | Mié 30 | 3:00 p. m. | Subsidio | `atencion_reclamos@` | **S9** | correcto |
 | Mié 30 | 4:00 p. m. | Comunicaciones | `comunicaciones@` | **S11** | dice «Sesion» a secas |
@@ -27,7 +30,8 @@ y una sola el lunes 5. **El viernes 2 no hay ninguna de Comfacesar.**
 | **Lun 5 oct** | 4:00 p. m. | Comunicaciones | el grupo completo | **S12** | *el título no lleva el formato* |
 
 **Siete asuntos sin número:** las tres de Jurídica (**S12, S13, S14**), Servicios Sociales
-(**S10**), y las tres de Comunicaciones (**S10, S11, S12**).
+(**S10**), y las tres de Comunicaciones (**S10, S11, S12**). **Y dos que hay que bajar:** las
+dos de Mercadeo, que pasan a **S7 y S8** porque la de Rina no se hace.
 
 El del lunes 5 además está escrito distinto a todos los demás —dice
 «I AM Intelligence Comunicaciones y Sandra Curvelo | Founder & CSO de IAM™»—. Siendo la
@@ -43,7 +47,7 @@ Cada número sigue la serie del área y depende de que se hagan las de esta sema
 |---|---|---|---|
 | Subsidio | S4 · 18 sep | — | **S5, S6, S7, S8, S9** |
 | Jurídica | S9 · 22 sep | S10 mié · S11 jue | **S12, S13, S14** |
-| Mercadeo | S4 · 17 sep | S5 jue · S6 vie | **S7, S8, S9** |
+| Mercadeo | S4 · 17 sep | S5 jue ✔ · S6 vie | **S7, S8** *(la de Rina se canceló)* |
 | Servicios Sociales | S8 · 16 sep | S9 jue *(la del martes se cayó)* | **S10** |
 | Sub. Operativa | S4 · 22 sep | — | **S5** |
 | Comunicaciones | S7 · 17 sep | S8 mié · S9 vie | **S10, S11, S12** |

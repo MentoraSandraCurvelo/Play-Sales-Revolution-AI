@@ -1127,6 +1127,17 @@ De las cinco sesiones del día, **Jurídica S10 es la única sin insumos en Drop
 | `#juridica` | Resumen S10 | `1790259337.323779` |
 | `#sub-admin-y-financiera-infraestructura` | Resumen S10 | `1790258936.473009` |
 | `#comunicaciones` | Resumen S8 | `1790264447.715509` |
+| `#mercadeo` | Grabación S5 | `1790264063.740169` |
+| `#mercadeo` | Resumen S5 | `1790264704.756349` |
 
 Con esto quedan publicadas **las cinco sesiones del miércoles 23**. Sandra subió las actas de
 Jurídica S10 y Sub. Financiera S10 a sus canales esa misma mañana.
+
+**Mercadeo S5 — lo que hay que saber.** Rina confirmó en sesión que **canceló la del lunes 28
+porque tenía ocupada la tarde**, y *no la repuso*: **el cupo ya lo tomó Rafael Solano**, de
+Subdirección Financiera. Queda sin sesión propia antes del cierre. El resumen le deja los
+cupos libres señalados —martes 29 a las 5:00, viernes 2 a las 11:00, 2:00 y 3:00, y el lunes 5—.
+
+*Y la numeración de Mercadeo baja un número en la última semana:* como la de Rina no se hace,
+**la del lunes 28 a las 4:00 p. m. es la S7 y la del miércoles 30 la S8.** Los dos asuntos hay
+que corregirlos.

@@ -205,13 +205,13 @@
       "hora": "15:00",
       "canal": "#mercadeo",
       "quien_cancela": "Comfacesar — Rina Ropaín",
-      "motivo": "Cancelada por la persona del área antes de la fecha. Avisado a Sandra el 23 de septiembre.",
+      "motivo": "Cancelada por la persona del área antes de la fecha. Avisado a Sandra el 23 de septiembre. **Confirmado por Rina en la S5 del 24 de septiembre:** la canceló porque tenía ocupada la tarde del lunes.",
       "causa": "cancelación del área",
       "aviso_en_canal": "https://iamteamespacio.slack.com/archives/C0BPT4GE8NS/p1790125158225569",
       "reagendada": false,
       "compromiso": "Se publicó el aviso en el canal por decisión de Sandra, con la consecuencia práctica —Rina queda sin sesión agendada antes del cierre— y la razón de fondo: en el cierre lo que se presenta ante la dirección es lo que cada área construyó. Se le señalaron el jueves 1 y el viernes 2 como los días libres para reponerla. **María Elvira Marulanda está en ese canal y lo lee.**",
       "cuenta_como": "cancelada",
-      "nota": "**Es la segunda caída de Mercadeo en el programa**, pero la primera de Rina Ropaín: la del 9 de septiembre fue una inasistencia de Manuel José, que sí se recuperó. **Cae en la última semana del programa**, con el cierre el 5 de octubre. *Consecuencia en la numeración:* como esta sesión no se hace, **la de las 4:00 p. m. del mismo 28 pasa a ser la S7 y la del miércoles 30 la S8.** El área queda con dos sesiones en la semana de cierre, las dos con Manuel José; **Rina se queda sin ninguna agendada.**"
+      "nota": "**Es la segunda caída de Mercadeo en el programa**, pero la primera de Rina Ropaín: la del 9 de septiembre fue una inasistencia de Manuel José, que sí se recuperó. **Cae en la última semana del programa**, con el cierre el 5 de octubre. *Consecuencia en la numeración:* como esta sesión no se hace, **la de las 4:00 p. m. del mismo 28 pasa a ser la S7 y la del miércoles 30 la S8.** El área queda con dos sesiones en la semana de cierre, las dos con Manuel José; **Rina se queda sin ninguna agendada.** *Confirmado en la Sesión 5 del 24 de septiembre:* **no se repuso durante la sesión y el cupo ya lo tomó Rafael Solano, de Subdirección Financiera.** Se le dejaron señalados los cupos que quedan —martes 29 a las 5:00, viernes 2 a las 11:00, 2:00 y 3:00, y el lunes 5—, **pero a hoy Rina sigue sin sesión propia agendada antes del cierre.**"
     },
     {
       "area": "Educación",
@@ -234,7 +234,7 @@
     "que_pasa": "Trece sesiones caídas en seis semanas, y no todas son lo mismo. **Siete son inasistencias sin aviso** —Servicios Sociales el 3 de septiembre, Sub. Operativa y Mercadeo el miércoles 9, Comunicaciones el lunes 15, Gerencia Financiera el viernes 18, Cumplimiento el lunes 21 y Educación el martes 22—. **Cinco son cancelaciones avisadas o por cruce de agenda.** Y **una es falla técnica** —Servicios Sociales el 22 de septiembre—, donde el área sí se presentó: esa no debe leerse como incumplimiento.",
     "por_que_importa": "El problema no es general: está concentrado en tres áreas, y son las que van más atrás. **Cumplimiento es el caso más serio del programa.** Se le cayó la S2 el 2 de septiembre; la contraparte aprobó un relevo de representantes para destrabarla; y **las dos sesiones agendadas después del relevo también se cayeron** — la del 16 de septiembre cancelada, la del 21 sin que nadie entrara a la sala. **Tres caídas de la misma sesión y una sola hecha en todo el programa.** El nombramiento no resolvió el problema: lo trasladó. **Sub. Operativa volvió el 22 de septiembre** tras trece días, así que sale de la lista. Gerencia Financiera perdió su S3 el 18 y sigue sin fecha. **Y el último día es el lunes 5 de octubre: quedan dos semanas.** Con una sola sesión hecha, Cumplimiento no alcanza a llegar si no se interviene ya.",
     "a_quien_toca": "María Elvira Marulanda — es quien puede pedir que el espacio del programa se respete como cualquier otro compromiso institucional.",
-    "actualizado": "2026-09-23",
+    "actualizado": "2026-09-24",
     "recuperadas": "Siete de las trece caídas se recuperaron: Educación S3 el 7 de septiembre, Servicios Sociales el 10 —que cierra las dos suyas—, Tecnología el 11 por vía propia, Mercadeo S4 y Comunicaciones S6 el 17, y **Sub. Operativa el 22 de septiembre, después de trece días**. Quedan seis sin hacer, de cuatro áreas: Gerencia Financiera S3, Cumplimiento S2 —caída tres veces—, Servicios Sociales S9 —que se retoma el jueves— y Educación S4, que se retoma el miércoles."
   }
 }

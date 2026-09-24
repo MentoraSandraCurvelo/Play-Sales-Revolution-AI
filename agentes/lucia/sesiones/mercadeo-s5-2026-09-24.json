@@ -1,0 +1,334 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "MERCADEO",
+  "area_completa": "",
+  "sesion_num": 5,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "24 de septiembre de 2026",
+  "fecha_corta": "24 septiembre 2026",
+  "subtitulo_meta": "Individual de Rina Ropaín · 24 de septiembre de 2026 · 8:00 a. m. · 1 h 3 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    [
+      "Área(s)",
+      "Mercadeo — Comfacesar"
+    ],
+    [
+      "Sesión",
+      "N° 5 — Individual de Rina Ropaín: el primer tablero interactivo del área"
+    ],
+    [
+      "Fecha",
+      "24 de septiembre de 2026"
+    ],
+    [
+      "Duración de la sesión",
+      "1 hora 3 minutos"
+    ],
+    [
+      "Modalidad",
+      "Virtual — Microsoft Teams"
+    ],
+    [
+      "Asistencia",
+      "Rina Ropaín — 49 minutos de la hora"
+    ],
+    [
+      "Grabación",
+      "Publicada en el canal del área"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo — Mentora IAM™ Intelligence"
+    ]
+  ],
+  "kpis": [
+    {
+      "valor": "1",
+      "etiqueta": "Tablero interactivo",
+      "detalle": "El primero del área"
+    },
+    {
+      "valor": "116.000",
+      "etiqueta": "Registros leídos",
+      "detalle": "Sin una sola fórmula de Excel"
+    },
+    {
+      "valor": "3",
+      "etiqueta": "Canales con discurso",
+      "detalle": "WhatsApp, correo y mensaje de texto"
+    },
+    {
+      "valor": "0",
+      "etiqueta": "Padres en la base recibida",
+      "detalle": "Es la población de la campaña"
+    },
+    {
+      "valor": "0",
+      "etiqueta": "Sesiones propias al cierre",
+      "detalle": "El cupo del lunes se reasignó"
+    }
+  ],
+  "participantes": [
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "—",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Rina Ropaín",
+      "cargo": "Mercadeo — Comfacesar",
+      "correo": "—",
+      "modalidad": "Virtual",
+      "nivel": "Intermedio"
+    }
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 5. El área aprendió a construir tableros y salió con uno funcionando, pero el ejercicio de la sesión anterior sigue sin cerrar y la base de datos que llegó no trae el dato que la campaña necesita.",
+  "riesgos": [
+    {
+      "titulo": "El ejercicio de la Sesión 4 no avanzó",
+      "nivel": "ALTO",
+      "descripcion": "El área de Subsidio **sí entregó la base de datos que se le había solicitado**, pero _el proyecto de captación no se armó ni se cargó._ **El insumo llegó y el trabajo quedó donde estaba.** Se retomó en esta sesión desde el punto en que se dejó.",
+      "responsable": "Rina Ropaín / Inmediato"
+    },
+    {
+      "titulo": "La base recibida no trae los datos del padre",
+      "nivel": "ALTO",
+      "descripcion": "Lo que se pidió fue **la base de trabajadores con los datos de sus padres entre 60 y 95 años** —esa es la población del programa de adulto mayor—. Lo que llegó son **116.000 trabajadores activos sin el dato del padre.** _El tablero lo declaró él mismo en su nota metodológica._ **Se trabajó como ejercicio para no perder la sesión, pero el tablero real está por hacer con la base correcta.**",
+      "responsable": "Rina Ropaín / Antes de la próxima"
+    },
+    {
+      "titulo": "El área se queda sin sesión propia antes del cierre",
+      "nivel": "ALTO",
+      "descripcion": "**La sesión del lunes 28 se canceló y el cupo ya se reasignó.** _El programa cierra el 5 de octubre_, y hoy **no hay una sesión agendada para continuar este ejercicio.** Quedan cupos libres en la última semana —martes, viernes y el lunes 5—, **pero hay que tomarlos.** En el cierre se presenta lo que cada área construyó.",
+      "responsable": "Rina Ropaín / Esta semana"
+    },
+    {
+      "titulo": "Los créditos se agotaron a mitad del modelamiento",
+      "nivel": "MEDIO",
+      "descripcion": "**Se acabaron antes de poder ajustar el tablero.** _No es por tiempo sin usarlo, es por volumen:_ **una base de 116.000 registros consume mucho en cada consulta.** Conviene depurar la base antes de subirla y dejar el modelamiento fino para consultas cortas.",
+      "responsable": "Rina Ropaín / Permanente"
+    },
+    {
+      "titulo": "Las comunicaciones del proyecto iban por mensaje directo",
+      "nivel": "MEDIO",
+      "descripcion": "**Un mensaje al directo estuvo varios días sin respuesta.** _El seguimiento del proyecto se lleva por el canal del área, no por el directo_ — **lo que se escribe en el canal se ve y se responde enseguida.**",
+      "responsable": "Rina Ropaín / Inmediato"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Volver a pedir la base con los datos del padre",
+      "descripcion": "**La campaña se dirige a los padres entre 60 y 95 años del trabajador afiliado.** _Sin ese dato la segmentación no se puede hacer sobre la población real._",
+      "responsable": "Rina Ropaín",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Agendar la sesión que falta antes del cierre",
+      "descripcion": "**Quedan cupos el martes 29, el viernes 2 y el lunes 5.** _Sin sesión no hay cómo revisar el tablero modelado ni pasar al siguiente nivel._",
+      "responsable": "Rina Ropaín",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Modelar el tablero hasta que entregue lo que se necesita",
+      "descripcion": "**El pictograma salió sin diferenciar los colores y el correo salió acartonado.** _Se pide el ajuste y se vuelve a pedir hasta que quede._ **Eso es modelar.**",
+      "responsable": "Rina Ropaín",
+      "plazo": "Antes de la próxima"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Pasar el documento de estrategias a tablero",
+      "descripcion": "**El seguimiento de las visitas a las tres sedes salió en un documento plano.** _Con semaforización, hallazgos y estado de cada actividad se convierte en un banco de soluciones._",
+      "responsable": "Rina Ropaín",
+      "plazo": "Antes de la próxima"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Terminar una cosa antes de empezar la siguiente",
+      "descripcion": "_El compromiso que se acordó al cerrar:_ **un solo ejercicio a la vez, hasta terminarlo.** Es lo que permite llegar al cierre con algo hecho en vez de con varios a medias.",
+      "responsable": "Rina Ropaín",
+      "plazo": "Permanente"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Dónde quedó el ejercicio de la Sesión 4",
+      "duracion": "~8 min",
+      "objetivo": "Retomar el hilo antes de avanzar.",
+      "pasos": [
+        "**El encargo de la S4 era conseguir de Subsidio la base de afiliados cuyos padres tuvieran entre 60 y 95 años**, para contactarlos y vincularlos al programa de adulto mayor",
+        "**Subsidio entregó la base.** _Lo que faltó fue lo siguiente:_ armar el proyecto, segmentarla, escoger los canales y redactar los mensajes",
+        "_Se acordó el criterio para continuar:_ **primero hay que ver que el proyecto dé el resultado que se busca, antes de pasar al siguiente nivel** — tareas programadas, circuitos y agentes arrastran lo que se aprendió aquí",
+        "**Se decidió seguir con este mismo ejercicio** en vez de abrir uno nuevo"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Artefactos: el primer tablero interactivo del área",
+      "duracion": "~20 min",
+      "objetivo": "Salir de Excel.",
+      "pasos": [
+        "_El concepto nuevo:_ **un artefacto es lo que se construye dentro del proyecto y vive en una dirección web** — un tablero, una página, una aplicación. **Se abre desde cualquier dispositivo y se comparte por enlace**",
+        "**La instrucción se dictó completa:** segmentar la base por los parámetros que interesan, con el objetivo declarado —una campaña de captación para el programa de adulto mayor—, KPI dinámicos, torta, barras, análisis de dispersión, prioridad por ciudades empezando por Valledupar, discursos por canal, **y el logo, el nombre, el cargo y la fecha de corte de quien lo hace**",
+        "**El tablero entregó:** los KPI del universo de 116.000 registros, torta de género y de categoría de cotización, barra de ciudades priorizadas —Valledupar por encima de 60.000, El Copey en el extremo bajo—, dispersión de edad contra salario sobre una muestra de 400 registros, un pictograma de 100 íconos y los discursos por canal con selector de ciudad",
+        "_La idea de fondo:_ **que lo que llegue en Excel ya no se trabaje en Excel** — se sube y se convierte en tablero"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Leer antes de mirar",
+      "duracion": "~8 min",
+      "objetivo": "Revisar lo entregado antes de darlo por bueno.",
+      "pasos": [
+        "**Lo primero no es abrir el tablero, es leer lo que el sistema dice que hizo** — qué construyó, con qué supuestos y qué dejó pendiente",
+        "**Y ahí estaban las advertencias:** la base no incluye a los padres, _así que se trabajó el universo completo por decisión confirmada_; no se hizo gráfico en 3D porque no aplica; **los mensajes de texto son un ejemplo, no un dato**; y **los discursos de WhatsApp son plantillas editables, sin validar por Jurídica**",
+        "**El tablero además puso la nota metodológica visible en la cabecera**, con la fuente de la información — _eso es lo que permite sustentarlo ante un directivo_",
+        "_El criterio:_ **si algo de lo entregado no cuadra, se dice y se corrige** antes de usarlo"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Análisis de dispersión y modelamiento",
+      "duracion": "~12 min",
+      "objetivo": "Dos conceptos nuevos aplicados al área.",
+      "pasos": [
+        "**El análisis de dispersión responde qué tan lejos se está del objetivo.** _Aplicado a mercadeo:_ si el servicio tiene un costo, **se cruza la edad contra el ingreso para ver qué tan alcanzable es para cada segmento** — quién puede comprarlo y quién no",
+        "_Y si algo no se entiende, se pregunta:_ **el propio sistema lo explica, y también ayuda a sustentarlo ante la dirección**",
+        "**Modelar es pedir el ajuste y volver a pedirlo hasta que el tablero sea el que se necesita.** El pictograma salió en un solo color en vez de diferenciar hombres y mujeres, **así que se le pidió el cambio**",
+        "**Se pidieron también:** un banner con imagen de bienestar y color en el correo, emojis en el mensaje de WhatsApp, **y una pestaña nueva con la campaña que el propio sistema recomiende** — _dictándole el rol: experto en mercadeo para adulto mayor de las cajas de compensación_"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · El hallazgo de campaña",
+      "duracion": "~10 min",
+      "objetivo": "Encontrar el canal real.",
+      "pasos": [
+        "**El destinatario del programa es el padre, pero el contacto directo del área es el trabajador** — _el hijo es quien tiene correo y celular registrados_",
+        "**El discurso de WhatsApp que salió apunta justo ahí:** «inscribe a tus padres entre 60 y 95 años en el programa de adulto mayor» — **le habla al hijo para que sea él quien motive al padre**",
+        "_Y de ahí salió la propuesta:_ **hacer las dos campañas —una al hijo y otra al adulto mayor directo— y comparar cuál capta más**, por canal y por resultado",
+        "**Las métricas de esa comparación se suben al mismo proyecto** para que el tablero las incorpore. _Eso es lo que hay que traer modelado._"
+      ]
+    },
+    {
+      "titulo": "Ejercicio F · El documento de estrategias que salió plano",
+      "duracion": "~5 min",
+      "objetivo": "Aplicar lo aprendido a un trabajo que ya existe.",
+      "pasos": [
+        "**El área ya había pasado a documento el seguimiento de las estrategias de los servicios**, con las observaciones de las visitas a tres sedes, el estado de cada actividad y lo que hace falta para cumplirlas",
+        "**Salió correcto pero plano** — _sin semaforización, sin colores, sin gráficos_. **No porque el sistema no pueda, sino porque no se le pidió**",
+        "_El mismo insumo, pedido como tablero:_ **banco de soluciones con los hallazgos principales, la actividad, si está en ejecución o finalizada, y la semaforización**",
+        "**Se acordó traerlo así para la próxima**"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 5 · 24 septiembre 2026",
+      "titulo": "El canal de la campaña no es el adulto mayor, es el hijo",
+      "descripcion": "El programa es para el padre, **pero el dato de contacto que el área tiene es el del trabajador.** _Por eso el discurso que salió le habla al hijo:_ **«inscribe a tus padres».** Y de ahí salió algo medible: **hacer las dos campañas y comparar cuál capta más** — al hijo o al adulto mayor directo, y por qué canal. _Es la primera vez que el área plantea una campaña con una comparación diseñada desde el principio._",
+      "estado": "Identificado",
+      "proximo_paso": "Correr las dos campañas y subir las métricas al proyecto",
+      "target": "Antes del cierre"
+    },
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 5 · 24 septiembre 2026",
+      "titulo": "El tablero de segmentación para captación",
+      "descripcion": "**Un tablero interactivo con los KPI del universo, la distribución por género y por categoría de cotización, la priorización por ciudades, el análisis de dispersión de edad contra ingreso, el pictograma y los discursos por canal** — con logo, autoría y fecha de corte. _Vive en una dirección web, se abre desde cualquier dispositivo y se comparte por enlace._ **Es el primer artefacto del área.**",
+      "estado": "Construido, sin modelar",
+      "proximo_paso": "Modelarlo y rehacerlo con la base correcta",
+      "target": "Antes de la próxima"
+    },
+    {
+      "encabezado": "HALLAZGO DE INSUMO · SESIÓN 5 · 24 septiembre 2026",
+      "titulo": "La base que llegó no es la que se pidió",
+      "descripcion": "Se solicitó la base de trabajadores **con los datos de sus padres entre 60 y 95 años.** Llegaron **116.000 trabajadores activos sin el dato del padre** — _y el propio tablero lo advirtió en su nota metodológica antes de construir nada._ **Se siguió adelante para no perder el ejercicio, pero la segmentación real está por hacer.** _El ejercicio sirvió para algo más: un tablero solo puede clasificar contra los datos que efectivamente le llegan._",
+      "estado": "Por resolver",
+      "proximo_paso": "Volver a solicitar la base a Subsidio",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "PENDIENTE DE CIERRE · SESIÓN 5 · 24 septiembre 2026",
+      "titulo": "El área no tiene sesión propia agendada",
+      "descripcion": "**La del lunes 28 se canceló y el cupo ya lo tomó otra área.** _El programa cierra el 5 de octubre_, y **en el cierre se presenta ante la dirección lo que cada área construyó.** Quedan cupos libres —martes 29, viernes 2 y lunes 5—, **y con el tablero modelado y la comparación de campañas el área llega con algo concreto que mostrar.**",
+      "estado": "Sin agendar",
+      "proximo_paso": "Tomar uno de los cupos disponibles",
+      "target": "Esta semana"
+    }
+  ],
+  "tareas_intro": "El área salió con su primer tablero interactivo y con dos conceptos nuevos aplicados. Lo que falta para el cierre es la base correcta, el tablero modelado y una sesión agendada para revisarlo.",
+  "tareas": [
+    {
+      "tarea": "Volver a solicitar a Subsidio la base con los datos de los padres entre 60 y 95 años",
+      "responsable": "Rina Ropaín",
+      "prioridad": "ALTA",
+      "plazo": "Inmediato"
+    },
+    {
+      "tarea": "Agendar la sesión que falta antes del 5 de octubre",
+      "responsable": "Rina Ropaín",
+      "prioridad": "ALTA",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Modelar el tablero: colores del pictograma, banner y color en el correo, emojis en WhatsApp y la pestaña de campaña recomendada",
+      "responsable": "Rina Ropaín",
+      "prioridad": "ALTA",
+      "plazo": "Antes de la próxima"
+    },
+    {
+      "tarea": "Crear dentro del mismo proyecto la consulta de la campaña dirigida al adulto mayor directo",
+      "responsable": "Rina Ropaín",
+      "prioridad": "ALTA",
+      "plazo": "Antes de la próxima"
+    },
+    {
+      "tarea": "Pasar a tablero el seguimiento de las estrategias de los servicios, con semaforización y banco de soluciones",
+      "responsable": "Rina Ropaín",
+      "prioridad": "MEDIA",
+      "plazo": "Antes de la próxima"
+    },
+    {
+      "tarea": "Escribir el seguimiento del proyecto por el canal del área y no por mensaje directo",
+      "responsable": "Rina Ropaín",
+      "prioridad": "MEDIA",
+      "plazo": "Permanente"
+    }
+  ],
+  "observaciones": [
+    "**El área retomó el ejercicio de la Sesión 4 desde donde quedó.** Subsidio entregó la base de datos que se le había solicitado, **pero el proyecto de captación no se armó.** _El insumo llegó y el trabajo no avanzó._",
+    "**Y la base que llegó no es la que se necesita.** Se pidió la de trabajadores afiliados **con los datos de sus padres entre 60 y 95 años** —que es la población del programa de adulto mayor— y llegaron **116.000 trabajadores activos sin el dato del padre.** _El propio tablero lo advirtió en su nota metodológica antes de construir nada._ **Se trabajó como ejercicio para no perder la sesión; la segmentación real está por hacer.**",
+    "**El ejercicio de la sesión fue el primer artefacto del área: un tablero interactivo.** _Un artefacto es lo que se construye dentro del proyecto y vive en una dirección web_ — se abre desde cualquier dispositivo y se comparte por enlace. **La idea de fondo es que lo que llegue en Excel ya no se trabaje en Excel.**",
+    "**El tablero entregó** los KPI del universo, la distribución por género y por categoría de cotización, la priorización por ciudades —Valledupar por encima de 60.000 registros, El Copey en el extremo bajo—, **el análisis de dispersión de edad contra ingreso**, un pictograma y **los discursos por canal con selector de ciudad**, con logo, autoría y fecha de corte.",
+    "_Se dejó dicho un criterio que vale para todo lo que se construya:_ **lo primero no es abrir el tablero, es leer lo que el sistema dice que hizo.** Ahí estaban las advertencias —la base sin los padres, los mensajes de texto puestos como ejemplo, los discursos de WhatsApp sin validar por Jurídica—. **Lo que no se lee se termina presentando como si fuera un dato.**",
+    "**Dos conceptos nuevos quedaron aplicados.** _El análisis de dispersión_ responde qué tan lejos está cada segmento del objetivo: **cruzar la edad contra el ingreso para saber quién puede pagar el servicio y quién no.** _Y el modelamiento_ es pedir el ajuste y volver a pedirlo **hasta que el tablero sea el que se necesita** — el pictograma salió en un solo color y se pidió el cambio.",
+    "**El hallazgo de campaña salió del propio ejercicio.** El programa es para el padre, **pero el contacto que el área tiene es el del trabajador.** Por eso el discurso apunta al hijo: «inscribe a tus padres». **Y de ahí se planteó algo medible: correr las dos campañas —al hijo y al adulto mayor directo— y comparar cuál capta más**, por canal y por resultado.",
+    "**El área ya tenía otro trabajo hecho** —el seguimiento de las estrategias de los servicios, con las observaciones de las visitas a tres sedes—, **pero salió plano.** _Sin semaforización, sin colores, sin gráficos._ **No porque el sistema no pueda, sino porque no se le pidió.** Se acordó traerlo como tablero, con banco de soluciones y estado de cada actividad.",
+    "**Los créditos se agotaron a mitad del modelamiento.** _No es por tiempo sin usar la herramienta, es por volumen:_ **una base de 116.000 registros consume mucho en cada consulta.** Conviene depurar antes de subir y dejar el modelamiento fino para consultas cortas.",
+    "**El seguimiento del proyecto se lleva por el canal del área.** _Un mensaje al directo estuvo varios días sin respuesta_ — **lo que se escribe en el canal se ve y se responde enseguida.**",
+    "**La sesión del lunes 28 se canceló y el cupo ya se reasignó, así que el área no tiene sesión propia agendada.** _El programa cierra el 5 de octubre y quedan cupos libres el martes 29, el viernes 2 y el lunes 5._ **En el cierre se presenta ante la dirección lo que cada área construyó** — con el tablero modelado y la comparación de campañas, Mercadeo llega con algo concreto que mostrar.",
+    "_Se acordó además un compromiso de método:_ **un solo ejercicio a la vez, hasta terminarlo.** Es lo que permite llegar al cierre con algo hecho en lugar de con varios a medias."
+  ],
+  "proxima_sesion": {
+    "sesion": "Mercadeo — la continuación de este ejercicio, por agendar",
+    "condiciones": [
+      "La base correcta solicitada a Subsidio, con los datos de los padres",
+      "El tablero modelado: colores, banner, emojis y la pestaña de campaña recomendada",
+      "La consulta de la campaña al adulto mayor directo, creada dentro del mismo proyecto",
+      "El seguimiento de las estrategias pasado a tablero"
+    ],
+    "agenda": [
+      "Revisión del tablero modelado y de la segmentación con la base correcta",
+      "La comparación de las dos campañas y sus métricas",
+      "El entorno de Google — de Gemini a Notebook — como circuito completo",
+      "Preparación del material del área para el cierre del 5 de octubre"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 24 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
