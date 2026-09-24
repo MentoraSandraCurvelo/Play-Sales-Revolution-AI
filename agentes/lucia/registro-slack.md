@@ -1119,3 +1119,14 @@ queda sin sesión propia agendada antes del 5 de octubre. *María Elvira lee ese
 
 **Educación no se presentó** por segunda vez seguida; el aviso quedó en su canal.
 De las cinco sesiones del día, **Jurídica S10 es la única sin insumos en Dropbox.**
+
+## 24 de septiembre de 2026
+
+| Canal | Qué se publicó | message_ts |
+|---|---|---|
+| `#juridica` | Resumen S10 | `1790259337.323779` |
+| `#sub-admin-y-financiera-infraestructura` | Resumen S10 | `1790258936.473009` |
+| `#comunicaciones` | Resumen S8 | `1790264447.715509` |
+
+Con esto quedan publicadas **las cinco sesiones del miércoles 23**. Sandra subió las actas de
+Jurídica S10 y Sub. Financiera S10 a sus canales esa misma mañana.

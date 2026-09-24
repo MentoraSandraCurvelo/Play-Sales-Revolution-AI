@@ -1,0 +1,200 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "COMUNICACIONES",
+  "area_completa": "",
+  "sesion_num": 8,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "23 de septiembre de 2026",
+  "fecha_corta": "23 septiembre 2026",
+  "subtitulo_meta": "Individual de Vidiana Bendeck · 23 de septiembre de 2026 · 5:00 p. m. · 1 h 4 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Comunicaciones — Comfacesar"],
+    ["Sesión", "N° 8 — Individual de Vidiana Bendeck: el circuito de solicitudes cerrado y el primer agente del área"],
+    ["Fecha", "23 de septiembre de 2026"],
+    ["Duración de la sesión", "1 hora 4 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Vidiana Bendeck — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "8", "etiqueta": "Pasos del circuito", "detalle": "Del correo a la respuesta, sin intervenir"},
+    {"valor": "2", "etiqueta": "Días antes de la alerta", "detalle": "Si un pendiente se queda sin ver"},
+    {"valor": "1", "etiqueta": "Agente en construcción", "detalle": "El primero del área"},
+    {"valor": "0", "etiqueta": "Registro del formato", "detalle": "La columna que falta para analizar"},
+    {"valor": "1", "etiqueta": "Libreto usado en vivo", "detalle": "Sin revisión previa, y funcionó"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Vidiana Bendeck", "cargo": "Profesional de Comunicaciones — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 8. El área llega con un circuito de trabajo cerrado por cuenta propia y arranca su primer agente. Lo que falta son pruebas reales y un dato que hoy no se registra.",
+  "riesgos": [
+    {
+      "titulo": "El circuito de solicitudes no se ha probado con un caso real",
+      "nivel": "ALTO",
+      "descripcion": "**Está terminado y programado para revisar el correo todos los días a las 8:00 de la mañana**, pero _no ha entrado ninguna solicitud desde que se cerró_. **Un circuito que nunca corrió de punta a punta no está verificado.** El área ya planteó la salida: pedir que le envíen una solicitud de prueba.",
+      "responsable": "Vidiana Bendeck / Inmediato"
+    },
+    {
+      "titulo": "Las métricas de Instagram se llevan a mano todos los viernes",
+      "nivel": "ALTO",
+      "descripcion": "La cuenta interna es privada —solo para colaboradores— **y las herramientas de medición no leen cuentas cerradas.** _Así que cada viernes hay que entrar, mirar y transcribir a una hoja de cálculo:_ seguidores, me gusta, comentarios. **Es trabajo manual semanal y es justo lo que el agente viene a resolver.**",
+      "responsable": "Vidiana Bendeck / En construcción"
+    },
+    {
+      "titulo": "No se registra el formato de cada publicación",
+      "nivel": "MEDIO",
+      "descripcion": "La hoja de métricas lleva fecha, número de publicación, seguidores, me gusta, comentarios y tasa de interacción, **pero no si fue video, imagen o carrusel.** _Sin ese dato no se puede saber qué formato funciona_ — y es el primero que hay que mirar. **Se acordó agregar la columna.**",
+      "responsable": "Vidiana Bendeck / Antes de la S9"
+    },
+    {
+      "titulo": "El análisis se hace por el número, no por la causa",
+      "nivel": "ALTO",
+      "descripcion": "_Hoy la lectura es:_ esta publicación tuvo más interacción, entonces funcionó. **Pero no se sabe qué la hizo funcionar.** El propio ejemplo del área lo muestra: **el pico de interacción del año vino de una dinámica del Mundial** —camiseta, ver el partido, comentar—, **y fue el contexto, no el contenido.** _El año que venga no se repite._",
+      "responsable": "Vidiana Bendeck / Antes de la S9"
+    },
+    {
+      "titulo": "El agente no puede leer la cuenta privada todavía",
+      "nivel": "MEDIO",
+      "descripcion": "**Se probó en vivo y el agente entró a Instagram**, pero devolvió que el perfil es privado. _El circuito funciona; el acceso no está resuelto._ **Además el equipo de la sesión no permite abrir Instagram**, lo que obliga a hacerlo desde otro lado.",
+      "responsable": "Vidiana Bendeck / Sesión 9"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "ALTO", "titulo": "Probar el circuito de solicitudes con un caso real", "descripcion": "**Pedir que envíen una solicitud** y verificar que el circuito corre completo: consecutivo, registro, archivo y respuesta al solicitante.", "responsable": "Vidiana Bendeck", "plazo": "Inmediato"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Agregar la columna de formato a la hoja de métricas", "descripcion": "**Video, imagen o carrusel.** _Sin ese dato el análisis de qué funciona no se puede hacer._", "responsable": "Vidiana Bendeck", "plazo": "Antes de la S9"},
+    {"num": "03", "nivel": "ALTO", "titulo": "Terminar de modelar el agente de métricas", "descripcion": "**Que lea la hoja, detecte los contenidos de mayor interacción y arme el calendario con los temas y los ganchos.** _Y resolver el acceso a la cuenta._", "responsable": "Vidiana Bendeck", "plazo": "Sesión 9"},
+    {"num": "04", "nivel": "MEDIO", "titulo": "Registrar el libreto de las olimpiadas en el tablero", "descripcion": "**Es un ahorro real que todavía no está contado.** _Cuánto tomaba armar un minuto a minuto y cuánto tomó._", "responsable": "Vidiana Bendeck", "plazo": "Inmediato"},
+    {"num": "05", "nivel": "MEDIO", "titulo": "Perfeccionar la campaña hasta no tener que retocarla", "descripcion": "_El criterio que se dejó dicho:_ **si hay que meterle mano al resultado, la instrucción no está terminada.**", "responsable": "Vidiana Bendeck", "plazo": "Antes de la S9"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El circuito de solicitudes, cerrado por cuenta propia",
+      "duracion": "~10 min",
+      "objetivo": "Revisar lo que el área terminó entre sesiones.",
+      "pasos": [
+        "**El circuito quedó así:** revisa el correo todos los días a las 8:00 de la mañana, **detecta las solicitudes nuevas**, las registra en la carpeta compartida **tomando el consecutivo que sigue**, diligencia el formato escogiendo las opciones que corresponden al ejecutivo de cuenta, guarda el documento **y responde al solicitante con el consecutivo asignado**",
+        "**Y le agregó una alarma:** si hay pendientes de más de dos días y el área no ha entrado al tablero, **le llega un correo de alerta** con el nombre de la solicitud, el área que la pidió y la carpeta donde quedó",
+        "_Lo más destacable es cómo lo depuró:_ **se dio cuenta de que el circuito se quedaba a medias, le pidió el paso a paso completo, encontró dónde estaba la falla y la corrigió.** Sin acompañamiento",
+        "**Falta la prueba real** — no ha entrado ninguna solicitud desde que se cerró"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Dónde está parada el área",
+      "duracion": "~12 min",
+      "objetivo": "Ordenar el recorrido antes del último tramo.",
+      "pasos": [
+        "**Configuración** — hecho. **Proyectos con el método CREA** — hecho, y es lo que sostiene todos los circuitos del área",
+        "**Artefactos**, los tableros que viven en una dirección web — hecho. **Tareas programadas** — hecho, y funcionando dentro de los proyectos",
+        "**Diseño** — visto. _Y se aclaró algo útil:_ **lo que se puede hacer dentro de un proyecto también se puede hacer por separado**, y al revés",
+        "**Habilidades** — el concepto nuevo: _se puede construir una habilidad propia —un experto en algo— y llamarla desde cualquier proyecto_. **El área empezó a crear una de diseño gráfico aplicado a publicidad organizacional**",
+        "**Agentes** — el escalón de hoy"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Insta, el primer agente del área",
+      "duracion": "~25 min",
+      "objetivo": "Pasar del asistente al circuito que corre solo.",
+      "pasos": [
+        "_La diferencia:_ **un proyecto es un asistente que sigue instrucciones; un agente recorre el circuito completo** sin que nadie le diga a dónde ir",
+        "**El circuito que se le dictó:** ir a la carpeta compartida de métricas, **agregar la columna de tipo de formato**, entrar a la cuenta interna de Instagram, revisar los contenidos publicados, **detectar los de mayor interacción** y armar un calendario de contenidos con los temas y los ganchos",
+        "**Se probó en vivo y el agente entró a Instagram** — devolvió que el perfil es privado, _pero el circuito funcionó_. **Es la primera vez que el área ve a un agente navegando solo**",
+        "_Se dejó dicho también el criterio de nombrarlos:_ **cada agente tiene un circuito, y conviene ponerle nombre** para no perderse cuando sean varios"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Ingeniería inversa: del resultado hacia atrás",
+      "duracion": "~12 min",
+      "objetivo": "Cambiar cómo se lee una métrica.",
+      "pasos": [
+        "**Hoy la lectura es por el número:** esta publicación tuvo más interacción, entonces funcionó. _Pero eso no dice qué la hizo funcionar_",
+        "**La ingeniería inversa va del resultado hacia atrás:** qué palabras se usaron, qué gancho abrió la publicación, en qué formato salió, si habría funcionado mejor en otro",
+        "_Y el propio ejemplo del área lo dejó claro:_ **el pico de interacción del año vino de una dinámica del Mundial** — traer la camiseta, ver el partido, comentar para participar. **Fue el contexto, no el contenido.** _El año que venga no se repite_",
+        "**Por eso falta la columna de formato:** sin ese dato, el análisis no se puede hacer"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · Un caso de uso que apareció solo",
+      "duracion": "~5 min",
+      "objetivo": "Registrar lo que ya se usó en producción.",
+      "pasos": [
+        "**Las olimpiadas internas del fin de semana** —deportivas y culturales, en el centro recreacional—, articuladas con la estrategia de valores del área, con desfile incluido",
+        "**Faltaba el minuto a minuto del presentador y se pidió por voz, desde el proyecto de la estrategia**",
+        "_Y aquí está el dato:_ **no alcanzó a revisarlo y lo usó en vivo.** Solo cambió dos cosas, **y porque el sistema arrastró de memoria un nombre anterior de la estrategia**",
+        "**Eso es un ahorro real que todavía no está registrado** en el tablero de seguimiento"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 8 · 23 septiembre 2026",
+      "titulo": "El área depuró su propio circuito sin ayuda",
+      "descripcion": "El circuito de solicitudes se estaba quedando a medias. **El área se dio cuenta, le pidió el paso a paso completo, encontró exactamente dónde fallaba y lo corrigió** — entre una sesión y otra, sin acompañamiento. _Eso es lo que el programa busca:_ **no que el área sepa usar una herramienta, sino que sepa diagnosticar por qué un proceso no está corriendo y arreglarlo.**",
+      "estado": "Cerrado por el área",
+      "proximo_paso": "Probarlo con una solicitud real",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 8 · 23 septiembre 2026",
+      "titulo": "El circuito de atención a solicitudes",
+      "descripcion": "**Revisión diaria del correo, detección de solicitudes nuevas, consecutivo asignado, formato diligenciado, documento archivado y respuesta enviada al solicitante** — más una alerta por correo si un pendiente pasa de dos días sin revisarse. _Ocho pasos que hoy se hacen a mano, uno por uno._",
+      "estado": "Terminado, sin probar",
+      "proximo_paso": "Verificarlo de punta a punta con un caso real",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "HALLAZGO DE MÉTODO · SESIÓN 8 · 23 septiembre 2026",
+      "titulo": "El pico del año fue el contexto, no el contenido",
+      "descripcion": "La publicación con más interacción del Instagram interno **vino de una dinámica del Mundial**: traer la camiseta, ver el partido, comentar para participar. _El área lo reconoció al analizarlo._ **Y ahí está el punto: medir por el número hace creer que funcionó el contenido, cuando funcionó la coyuntura.** La ingeniería inversa —revisar las palabras, el gancho y el formato— **es lo que permite repetir un resultado sin depender de que haya Mundial.**",
+      "estado": "Identificado",
+      "proximo_paso": "Agregar la columna de formato y rehacer el análisis",
+      "target": "Antes de la S9"
+    },
+    {
+      "encabezado": "YA EN PRODUCCIÓN · SESIÓN 8 · 23 septiembre 2026",
+      "titulo": "El libreto de las olimpiadas se usó sin revisar",
+      "descripcion": "**El minuto a minuto del presentador se pidió por voz desde el proyecto de la estrategia del área, y se usó en vivo sin alcanzar a revisarlo.** _Solo hubo que cambiar dos cosas, y por un nombre antiguo que el sistema arrastró de memoria._ **Es el nivel de confianza que solo aparece cuando el proyecto está bien configurado** — y es un ahorro que todavía no está contado en el tablero.",
+      "estado": "Usado en producción",
+      "proximo_paso": "Registrarlo en el tablero de seguimiento",
+      "target": "Inmediato"
+    }
+  ],
+  "tareas_intro": "El área cerró su circuito de solicitudes sin ayuda y arrancó su primer agente. Lo que falta para el cierre son dos pruebas reales —la solicitud y el acceso a la cuenta— y un dato que hoy no se registra.",
+  "tareas": [
+    {"tarea": "Probar el circuito de solicitudes con un caso real de punta a punta", "responsable": "Vidiana Bendeck", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Agregar la columna de tipo de formato a la hoja de métricas", "responsable": "Vidiana Bendeck", "prioridad": "ALTA", "plazo": "Antes de la S9"},
+    {"tarea": "Terminar de modelar el agente de métricas y resolver el acceso a la cuenta", "responsable": "Vidiana Bendeck", "prioridad": "ALTA", "plazo": "Sesión 9"},
+    {"tarea": "Registrar en el tablero el libreto de las olimpiadas y el circuito de solicitudes", "responsable": "Vidiana Bendeck", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Perfeccionar la campaña hasta que no haya que retocar el resultado", "responsable": "Vidiana Bendeck", "prioridad": "MEDIA", "plazo": "Antes de la S9"},
+    {"tarea": "Terminar la habilidad de diseño gráfico aplicada al área", "responsable": "Vidiana Bendeck", "prioridad": "MEDIA", "plazo": "Antes del cierre"}
+  ],
+  "observaciones": [
+    "**El área llegó con su circuito de atención a solicitudes cerrado.** Revisa el correo todos los días a las 8:00 de la mañana, detecta las solicitudes nuevas, **las registra tomando el consecutivo que sigue**, diligencia el formato con las opciones del ejecutivo de cuenta que corresponde, archiva el documento **y responde al solicitante con el consecutivo asignado.** Más una alerta por correo si un pendiente pasa de dos días sin revisarse.",
+    "_Y lo más destacable no es el circuito sino cómo se cerró._ **El área detectó que se quedaba a medias, le pidió el paso a paso completo, encontró dónde estaba la falla y la corrigió** — entre una sesión y otra, sin acompañamiento. **Eso es lo que el programa busca: no que se sepa usar la herramienta, sino que se sepa diagnosticar por qué un proceso no corre.**",
+    "**Lo que falta es la prueba real.** No ha entrado ninguna solicitud desde que se cerró, así que **el circuito está terminado pero no verificado de punta a punta.**",
+    "**El ejercicio de la sesión fue construir el primer agente del área.** Se le dictó el circuito: ir a la carpeta de métricas, agregar la columna de formato, entrar a la cuenta interna de Instagram, revisar los contenidos publicados, detectar los de mayor interacción y armar un calendario con los temas y los ganchos. **Se probó en vivo y el agente entró a Instagram** — devolvió que el perfil es privado, _pero el circuito funcionó._",
+    "**Ese proceso hoy se hace a mano cada viernes.** La cuenta interna es privada y las herramientas de medición no leen cuentas cerradas, así que toca entrar, mirar y transcribir a una hoja: seguidores, me gusta, comentarios y tasa de interacción.",
+    "**Y ahí apareció el hallazgo de método.** Hoy el análisis se hace por el número: esta publicación tuvo más interacción, entonces funcionó. _Pero no se sabe qué la hizo funcionar._ **El propio ejemplo del área lo demostró: el pico de interacción del año vino de una dinámica del Mundial** —traer la camiseta, ver el partido, comentar para participar—. **Funcionó el contexto, no el contenido.** _El año que venga no se repite._",
+    "_La respuesta es la ingeniería inversa:_ **ir del resultado hacia atrás para ver qué palabras, qué gancho y qué formato lo produjeron.** Y para eso falta un dato que hoy no se registra: **el tipo de formato de cada publicación.** Sin esa columna el análisis no se puede hacer.",
+    "**Se registró además un caso que ya está en producción.** Para las olimpiadas internas del fin de semana, **el minuto a minuto del presentador se pidió por voz desde el proyecto de la estrategia del área, y se usó en vivo sin alcanzar a revisarlo.** _Solo hubo que cambiar dos cosas, y por un nombre antiguo que el sistema arrastró de memoria._ **Es un ahorro real que todavía no está contado en el tablero.**",
+    "**El área ya tiene dos sesiones agendadas para la última semana.** _Quedan hasta el 5 de octubre_, y con el circuito verificado y el agente modelado, **Comunicaciones llega al cierre con dos procesos propios funcionando.**"
+  ],
+  "proxima_sesion": {
+    "sesion": "Comunicaciones — Sesión 9",
+    "condiciones": [
+      "El circuito de solicitudes probado con un caso real",
+      "La columna de formato agregada a la hoja de métricas",
+      "El agente avanzado sobre lo que se dictó",
+      "Los dos ahorros registrados en el tablero"
+    ],
+    "agenda": [
+      "Revisión del agente de métricas",
+      "El análisis de contenidos por ingeniería inversa",
+      "La habilidad de diseño aplicada a las piezas del área",
+      "Preparación del material del área para el cierre"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 23 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
