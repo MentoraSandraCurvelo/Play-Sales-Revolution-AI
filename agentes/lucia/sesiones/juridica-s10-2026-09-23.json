@@ -1,0 +1,192 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "JURÍDICA",
+  "area_completa": "",
+  "sesion_num": 10,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "23 de septiembre de 2026",
+  "fecha_corta": "23 septiembre 2026",
+  "subtitulo_meta": "Individual de Renata Laino · 23 de septiembre de 2026 · 10:00 a. m. · 57 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Jurídica — Comfacesar"],
+    ["Sesión", "N° 10 — Individual de Renata Laino: el agente de gestión de denuncias en funcionamiento"],
+    ["Fecha", "23 de septiembre de 2026"],
+    ["Duración de la sesión", "57 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Renata Laino — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "49", "etiqueta": "Notificaciones procesadas", "detalle": "Leídas y clasificadas por el agente"},
+    {"valor": "27", "etiqueta": "Clasificadas como spam", "detalle": "Del canal público de denuncias"},
+    {"valor": "18", "etiqueta": "Pruebas y formularios vacíos", "detalle": "El formulario no exige campos"},
+    {"valor": "3", "etiqueta": "Días entre denuncias", "detalle": "El promedio real del canal"},
+    {"valor": "3", "etiqueta": "Niveles de prioridad", "detalle": "Los parámetros los puso el área"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Renata Laino", "cargo": "Jurídica — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 10. El agente de denuncias quedó funcionando sobre el correo real, y al leer los primeros 49 registros destapó un problema que no estaba en el radar: el canal público por donde entran las denuncias.",
+  "riesgos": [
+    {
+      "titulo": "El canal público de denuncias se está llenando de basura",
+      "nivel": "CRÍTICO",
+      "descripcion": "_De las 49 notificaciones que leyó el agente:_ **27 son spam, publicidad, bots o intentos de extorsión, y 18 son pruebas del sistema o formularios enviados vacíos.** Entran además solicitudes que no corresponden al canal —trámites de subsidio, por ejemplo—. **El formulario de la página web no exige campos obligatorios ni valida lo que recibe**, y eso obliga a filtrar a mano un canal que debería llegar limpio. _Es el hallazgo de la sesión._",
+      "responsable": "Jurídica y Tecnología / Inmediato"
+    },
+    {
+      "titulo": "Las denuncias entran a un correo distinto del que se trabaja",
+      "nivel": "ALTO",
+      "descripcion": "El área maneja **dos buzones corporativos**: el de contratación, que usa a diario, y el de asuntos corporativos, donde llegan las denuncias. _Se verificó en sesión que **el conector solo admite una cuenta a la vez.**_ **La salida acordada es reenviar automáticamente lo que llega a asuntos corporativos hacia contratación**, con su etiqueta, para que el agente lo lea desde allí. Queda una reunión técnica el miércoles 30.",
+      "responsable": "Renata Laino y Tecnología / 30 de septiembre"
+    },
+    {
+      "titulo": "El entorno se abrió con una cuenta personal",
+      "nivel": "ALTO",
+      "descripcion": "_La sesión de la herramienta está con un correo personal_ y el trabajo es sobre buzones institucionales, lo que bloqueaba el acceso. **Se resolvió conectando los conectores con la cuenta de la Caja**, que es lo que define de dónde lee el agente. **Es el sexto caso del mismo tipo en el programa** — y conviene revisarlo en las áreas que faltan antes del cierre.",
+      "responsable": "Renata Laino / Resuelto en sesión"
+    },
+    {
+      "titulo": "La cadencia mensual no corresponde a la urgencia del proceso",
+      "nivel": "ALTO",
+      "descripcion": "Se configuró el agente para actualizar **el último día hábil de cada mes**, pero _una denuncia crítica no puede esperar un mes_. **El tablero hay que leerlo a diario**: para eso se le puso la semaforización. **La actualización mensual sirve para el reporte; la revisión diaria es la que evita que un caso se venza.**",
+      "responsable": "Renata Laino / Permanente"
+    },
+    {
+      "titulo": "El histórico del canal no es permanente",
+      "nivel": "MEDIO",
+      "descripcion": "_Lo preguntó el área y conviene que quede escrito:_ **las grabaciones y los documentos que se publican en el canal no se conservan indefinidamente.** Hay que **descargarlos y guardarlos en carpetas propias** si se quieren consultar después del cierre.",
+      "responsable": "Renata Laino / Antes del cierre"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "CRÍTICO", "titulo": "Endurecer el formulario de denuncias de la página web", "descripcion": "**Campos obligatorios y validación**, para que dejen de entrar pruebas, formularios vacíos y spam. _27 de 49 registros no eran denuncias._", "responsable": "Jurídica y Tecnología", "plazo": "Inmediato"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Resolver el reenvío entre los dos buzones", "descripcion": "Que lo de asuntos corporativos llegue etiquetado al de contratación. **Reunión técnica agendada para el miércoles 30.**", "responsable": "Renata Laino", "plazo": "30 de septiembre"},
+    {"num": "03", "nivel": "ALTO", "titulo": "Revisar el tablero todos los días, no una vez al mes", "descripcion": "**Filtrando por prioridad crítica de primero.** _La actualización mensual es para el reporte, no para la operación._", "responsable": "Renata Laino", "plazo": "Permanente"},
+    {"num": "04", "nivel": "MEDIO", "titulo": "Modelar el tablero y ponerle la identidad del área", "descripcion": "Logo de la Caja y la autoría del área. **Y quitarle o agregarle lo que haga falta** — es la primera versión.", "responsable": "Renata Laino", "plazo": "Sesión 11"},
+    {"num": "05", "nivel": "MEDIO", "titulo": "Descargar las grabaciones y los documentos del canal", "descripcion": "**No se conservan indefinidamente.** _Guardarlos en carpetas propias antes del cierre._", "responsable": "Renata Laino", "plazo": "Antes del cierre"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Desatascar el acceso al correo",
+      "duracion": "~18 min",
+      "objetivo": "Que el agente pueda leer el buzón real.",
+      "pasos": [
+        "**El bloqueo:** el entorno se había abierto con una cuenta personal y el trabajo es sobre buzones institucionales. _Por eso el agente había construido el tablero con datos de ejemplo y no con los reales_",
+        "**La solución no era cambiar de cuenta sino configurar los conectores**, que son los que definen de dónde lee el agente. Se conectaron correo, archivos y calendario **con la cuenta de la Caja**",
+        "_Y apareció un límite real:_ el área maneja **dos buzones corporativos** —contratación y asuntos corporativos— y **el conector solo admite uno a la vez**",
+        "**Se consultó el punto en vivo y la respuesta fue honesta:** citó las fuentes que encontró, marcó cuáles no eran oficiales, dijo textualmente **«no encontré una página que lo confirme»** y, sobre una de las alternativas, **«estoy suponiendo… así que no contaría con esa opción»**",
+        "**La salida acordada:** reenviar lo de asuntos corporativos al buzón de contratación, con su etiqueta, y que el agente lea esa carpeta. _Queda reunión técnica el miércoles 30_"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Los parámetros de urgencia los puso el área",
+      "duracion": "~8 min",
+      "objetivo": "Que la semaforización responda al criterio jurídico, no a uno inventado.",
+      "pasos": [
+        "**Crítico — respuesta el mismo día:** corrupción y fraude",
+        "**Intermedio — hasta dos días:** apropiación indebida y reporte fraudulento",
+        "**Bajo — tres días en adelante:** cibercrimen y las demás categorías",
+        "_Las categorías se tomaron del propio portal de denuncias_, subiendo la captura del listado oficial en vez de dictarlas de memoria",
+        "**Y con cada nivel quedó la fecha de vencimiento calculada**, para que el tablero avise antes de que un caso se pase"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Lo que entregó el tablero",
+      "duracion": "~20 min",
+      "objetivo": "Leerlo completo sobre datos reales.",
+      "pasos": [
+        "**Clasificación automática de cada notificación:** caso real, prueba del sistema, spam —con sus subtipos de bot, publicidad y extorsión— o formulario vacío. _Con un filtro para ver solo los casos reales_",
+        "**Distinción entre anónimas y públicas**, según si quien denuncia se identifica",
+        "**Semáforo de atención con los casos reales pendientes**, ordenados por prioridad y con su fecha de vencimiento",
+        "**Segmentación por tipo de denuncia, tipo de vinculación —empleado, proveedor, otro—, prioridad y fecha**, y los indicadores de arriba se recalculan al filtrar",
+        "**Una pestaña de banco de soluciones:** soluciones registradas, casos respondidos y casos pendientes. _Para que un caso que ya se resolvió una vez no se vuelva a resolver desde cero_",
+        "**Y un tablero de detalle**, con todos los registros y sus parámetros, como una hoja viva"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Dejarlo en marcha y comprobarlo",
+      "duracion": "~10 min",
+      "objetivo": "Que el tablero viva fuera de la herramienta.",
+      "pasos": [
+        "**Se guardó como enlace en el navegador**, en la carpeta de herramientas del área",
+        "**Se probó la actualización en vivo:** se pidió actualizar, y el corte pasó de las 10:38 a las 10:49 sin volver a subir nada",
+        "_Y ahí está el valor para el reporte:_ **el tablero se puede compartir con el consejo directivo y lo ven en tiempo real**, sin que el área tenga que armar una presentación cada vez",
+        "**Se configuró la cadencia mensual** para el corte formal — el último día hábil de cada mes"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ HALLAZGO CRÍTICO · SESIÓN 10 · 23 septiembre 2026",
+      "titulo": "El canal de denuncias de la página web hay que endurecerlo",
+      "descripcion": "**De 49 notificaciones, 27 son spam, publicidad, bots o extorsión, y 18 son pruebas del sistema o formularios vacíos.** Entran además trámites que no corresponden al canal. _El formulario no exige campos obligatorios ni valida lo que recibe._ **Eso convierte un canal de denuncias en un buzón que hay que limpiar a mano antes de poder atenderlo** — y aumenta el riesgo de que una denuncia real se pierda entre la basura. **Se corrige poniendo campos obligatorios y validación en la página.**",
+      "estado": "Detectado con datos",
+      "proximo_paso": "Escalar a Tecnología la corrección del formulario",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 10 · 23 septiembre 2026",
+      "titulo": "El tablero de gestión de denuncias, funcionando",
+      "descripcion": "**Clasificación automática, semaforización por urgencia con los parámetros del área, fechas de vencimiento, segmentación por tipo y vinculación, y banco de soluciones.** _Sobre el correo real, no sobre datos de ejemplo._ **Se comparte por enlace y se actualiza solo** — el consejo directivo puede verlo en tiempo real en lugar de esperar un informe.",
+      "estado": "En funcionamiento",
+      "proximo_paso": "Modelarlo y ponerle la identidad del área",
+      "target": "Sesión 11"
+    },
+    {
+      "encabezado": "★ LO QUE VALE SUBRAYAR · SESIÓN 10 · 23 septiembre 2026",
+      "titulo": "El sistema dijo lo que no podía confirmar",
+      "descripcion": "Al consultar si se pueden conectar dos buzones a la vez, **citó las fuentes que encontró, marcó cuáles no eran oficiales, y escribió textualmente «no encontré una página que lo confirme».** Sobre una de las alternativas añadió: **«estoy suponiendo… así que no contaría con esa opción».** _Es el mismo patrón que apareció en otras áreas:_ **una herramienta que separa lo que verificó de lo que supone, en lugar de responder con seguridad que no tiene.**",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Confirmar la solución en la reunión técnica",
+      "target": "30 de septiembre"
+    },
+    {
+      "encabezado": "PARA EL CIERRE · SESIÓN 10 · 23 septiembre 2026",
+      "titulo": "El área presenta ante la dirección",
+      "descripcion": "**Jurídica quedó entre las áreas que van a mostrar lo construido ante los directivos al cierre del programa.** _Con el agente de contratación por un lado y el de denuncias por el otro, el área tiene dos circuitos completos que enseñar_ — **y un hallazgo de gestión que salió de usarlos.**",
+      "estado": "Confirmado",
+      "proximo_paso": "Dejar los dos agentes modelados antes del 5 de octubre",
+      "target": "Inmediato"
+    }
+  ],
+  "tareas_intro": "El agente quedó leyendo el correo real y el tablero funcionando. Lo urgente no está en la herramienta: está en el formulario de la página web, que hoy deja entrar más basura que denuncias.",
+  "tareas": [
+    {"tarea": "Escalar a Tecnología la corrección del formulario de denuncias: campos obligatorios y validación", "responsable": "Renata Laino", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Resolver el reenvío de asuntos corporativos al buzón de contratación", "responsable": "Renata Laino", "prioridad": "ALTA", "plazo": "30 de septiembre"},
+    {"tarea": "Revisar el tablero a diario filtrando por prioridad crítica", "responsable": "Renata Laino", "prioridad": "ALTA", "plazo": "Permanente"},
+    {"tarea": "Modelar el tablero y ponerle el logo y la autoría del área", "responsable": "Renata Laino", "prioridad": "MEDIA", "plazo": "Sesión 11"},
+    {"tarea": "Empezar a registrar soluciones en el banco, a medida que se resuelvan casos", "responsable": "Renata Laino", "prioridad": "MEDIA", "plazo": "Permanente"},
+    {"tarea": "Descargar las grabaciones y documentos del canal antes del cierre", "responsable": "Renata Laino", "prioridad": "MEDIA", "plazo": "Antes del cierre"}
+  ],
+  "observaciones": [
+    "**El agente de gestión de denuncias quedó leyendo el correo real.** Venía construido pero trabajando con datos de ejemplo, porque el entorno se había abierto con una cuenta personal y el buzón es institucional. _Se resolvió configurando los conectores con la cuenta de la Caja_ — **son los conectores, no la cuenta con la que se entra, los que definen de dónde lee el agente.** Es el sexto caso del mismo tipo en el programa.",
+    "**Y apareció un límite técnico real.** El área maneja dos buzones corporativos —contratación, que usa a diario, y asuntos corporativos, donde llegan las denuncias— **y el conector solo admite una cuenta a la vez.** _La salida acordada es reenviar automáticamente lo de asuntos corporativos al de contratación, con su etiqueta, y que el agente lea esa carpeta._ **Queda reunión técnica el miércoles 30.**",
+    "_Vale la pena subrayar cómo se resolvió esa consulta._ Al preguntarle si se podían conectar dos buzones, **citó las fuentes que encontró, marcó cuáles no eran oficiales y escribió textualmente «no encontré una página que lo confirme».** Sobre otra alternativa añadió: **«estoy suponiendo… así que no contaría con esa opción».** *Es el mismo patrón que ha aparecido en otras áreas: separar lo verificado de lo supuesto en lugar de responder con una seguridad que no se tiene.*",
+    "**Los parámetros de urgencia los puso el área, no el sistema.** Crítico con respuesta el mismo día para corrupción y fraude; intermedio hasta dos días para apropiación indebida y reporte fraudulento; bajo de tres días en adelante para el resto. _Y las categorías se tomaron del propio portal de denuncias_ — se subió la captura del listado oficial en vez de dictarlas de memoria.",
+    "**El tablero quedó funcionando sobre 49 notificaciones reales**, con clasificación automática, semáforo de casos pendientes y sus fechas de vencimiento, segmentación por tipo de denuncia y de vinculación, y una pestaña de banco de soluciones **para que un caso ya resuelto no se vuelva a resolver desde cero.**",
+    "**Pero el hallazgo de la sesión salió de leer esos 49 registros: el canal de denuncias de la página web se está llenando de basura.** _27 son spam, publicidad, bots o intentos de extorsión, y 18 son pruebas del sistema o formularios enviados vacíos._ **Entran además trámites que no corresponden al canal.** El formulario no exige campos obligatorios ni valida lo que recibe, **y eso obliga a limpiar a mano un canal que debería llegar depurado — con el riesgo de que una denuncia real se pierda entre el ruido.**",
+    "_Dos datos más que dejó el tablero:_ **la categoría más frecuente es «otros»**, lo que sugiere que la clasificación del formulario tampoco está ayudando, y **el promedio es una denuncia cada tres días.**",
+    "**Se corrigió además la cadencia.** El agente quedó actualizando el último día hábil de cada mes, **pero una denuncia crítica no puede esperar un mes.** _El corte mensual sirve para el reporte; la revisión del tablero es diaria_, filtrando por prioridad crítica. **Para eso se le puso la semaforización.**",
+    "**El tablero se dejó guardado como enlace y se comprobó la actualización en vivo**, sin volver a subir nada. _Eso permite compartirlo con el consejo directivo y que lo vean en tiempo real_, en lugar de armar un informe cada vez."
+  ],
+  "proxima_sesion": {
+    "sesion": "Jurídica — Sesión 11",
+    "condiciones": [
+      "El tablero modelado con la identidad del área",
+      "El reenvío entre buzones resuelto o en curso",
+      "La corrección del formulario escalada a Tecnología",
+      "Los primeros casos registrados en el banco de soluciones"
+    ],
+    "agenda": [
+      "Revisión del tablero modelado",
+      "Otras herramientas del entorno y su uso jurídico",
+      "Análisis documental en volumen",
+      "Preparación del material del área para el cierre"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 23 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
