@@ -15,6 +15,33 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⛔ 25 sep · 3:30 p. m. · Me equivoqué con Comunicaciones: la S9 sí se hizo
+
+**Publiqué que el área no se había sentado hoy. Es falso y Sandra lo corrigió.** La Sesión 9
+corrió a las 11:00 **y la tomó María Elvira Marulanda.** Es la sesión en la que Sandra estaba
+cuando me escribió a las 11:20 diciendo que compartía pantalla con ella.
+
+**Cómo me equivoqué, para que no se repita:** el evento está titulado *«Comunicaciones S9 ·
+vidiana»*, y en el canal quedó el mensaje de Lucía de las 11:02 preguntándole a Vidiana si
+alcanzaba a entrar, sin respuesta. **Junté las dos cosas y concluí que no había entrado nadie.**
+Ninguna de las dos lo probaba.
+
+**La regla que queda escrita: el título del evento dice con quién se agendó, no quién asistió.**
+Ya había pasado con Educación en agosto y con Servicios Sociales; en la semana de cierre, donde
+varias áreas se están turnando el espacio, es un error barato de cometer y caro de publicar.
+
+**Y una segunda, para mí:** *un canal sin respuesta no es prueba de ausencia.* Es exactamente el
+mismo razonamiento al revés del que ya corregí con Oscar en Educación —escribir en el canal no
+es entrar a la sala—; aquí fue **no escribir en el canal no es faltar a la sala.**
+
+**Corregido en el Termómetro v77.** La sesión queda como **hecha y pendiente de soporte**, no
+como no realizada: sus archivos todavía no llegan a Dropbox, igual que pasó ayer con las dos del
+jueves, que aparecieron a la mañana siguiente. No entra a las 92 hasta que llegue la grabación.
+
+**Y cambia el mensaje que tenía listo para Vidiana.** El borrador abría diciendo que la sesión
+de hoy no se hizo. **Eso ya no va.** Lo que sí sigue en pie es lo otro: sus dos fechas, el
+miércoles 14 y el jueves 22 de octubre, quedan fuera del proyecto.
+
 ## ⭕️ 25 sep · 1:25 p. m. · Las dos que faltaban sí se hicieron, y el programa pasa a 92
 
 **Los soportes llegaron doce horas tarde, no las sesiones.** Esta mañana entraron a Dropbox,
