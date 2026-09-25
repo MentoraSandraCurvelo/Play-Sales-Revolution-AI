@@ -1189,6 +1189,7 @@ presentarán sus procesos ante la dirección** — sin la justificación comerci
 | `#comunicaciones` | Confirmación de la S9 de las 11:00 | `1790352161.192769` |
 | `#contabilidad` | Confirmación de la S8 de las 2:00 | `1790352165.014019` |
 | `#mercadeo` | Confirmación de la S6 de las 3:00 | `1790352167.629779` |
+| `#tecnologia` | Grabación S6 | `1790352239.361549` |
 
 Pedido por Sandra: **que cada área confirme por su canal** si la sesión va, para no reservar el
 espacio en vano. *Los tres mensajes salieron directo, sin mostrarlos antes, porque Sandra los
@@ -1197,3 +1198,9 @@ pidió expresamente.*
 A cada uno se le puso su consecuencia propia: **Contabilidad**, que la de hoy es su última
 sesión del programa; **Mercadeo**, que le quedan tres y son las que dejan su material para el
 cierre; **Comunicaciones**, que la sesión estaba empezando en ese momento.
+
+**Los insumos de Tecnología S6 todavía no están en Dropbox.** El área va hasta `Sesion 5`, del
+23 de septiembre, *así que el acta queda a la espera del informe de asistencia y la
+transcripción.*
+
+*A las 11:10 ninguna de las tres áreas había respondido la confirmación.*
