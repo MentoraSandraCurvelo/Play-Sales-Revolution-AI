@@ -1251,3 +1251,7 @@ publicó como Sesión 8. **Con esto el corte queda en 95 sesiones ejecutadas.**
 
 *Y el área ya no cierra en esta sesión:* tomó además el **viernes 2 de octubre a las 11:00**,
 que será su S9 y la última del programa.
+
+**Mercadeo: sin aviso en el canal.** Las dos sesiones que quedaban —lunes 28 y miércoles 30— las
+retiró Sandra del calendario, no el área. *Decisión expresa: no se publica nada.* **Queda solo
+en el registro interno**, como los registros 19 y 20. El área cierra el programa en S5.
