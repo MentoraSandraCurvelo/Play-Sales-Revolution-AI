@@ -257,6 +257,21 @@
       "compromiso": "Aviso publicado en el canal por decisión de Sandra. Deja la consecuencia práctica —la del viernes 25 es la última sesión del área en todo el programa— y los pendientes de la S7 que siguen sin verse. Se le señalaron los cupos libres del martes 29 y el viernes 2.",
       "cuenta_como": "cancelada",
       "nota": "**Es la primera caída de Contabilidad en todo el programa.** El área iba en S7, del 17 de septiembre. *Consecuencia en la numeración:* como esta no se hace, **el área se queda en S7** y la del viernes 25 a las 2:00 p. m. **pasa a ser la S8, no la S9** — hay que corregir el asunto. **Y esa del viernes es la última que tiene el área en todo el programa:** _Contabilidad no aparece ni una vez en la semana de cierre_, así que **cierra en S8.** *Segunda cancelación del mismo jueves 24*, junto con la de Sub. Administrativa y Financiera."
+    },
+    {
+      "area": "Mercadeo",
+      "sesion": "S6",
+      "fecha": "2026-09-25",
+      "hora": "15:00",
+      "canal": "#mercadeo",
+      "quien_cancela": "Comfacesar — Manuel José Gutiérrez",
+      "motivo": "Cita médica urgente. Avisado por el canal a la 1:35 p. m., hora y media antes de la sesión.",
+      "causa": "cancelación del área",
+      "aviso_en_canal": "",
+      "reagendada": false,
+      "compromiso": "",
+      "cuenta_como": "cancelada",
+      "nota": "**Avisó él mismo por el canal, y a tiempo** — respondiendo al mensaje de confirmación que se publicó esa mañana. *Es la segunda caída de Manuel José en el programa:* la del 9 de septiembre fue una inasistencia sin aviso, **esta se avisó con hora y media de anticipación y con motivo.** *Consecuencia en la numeración:* como no se hace, **el área se queda en S5** —la de Rina del 24— y **la del lunes 28 a las 4:00 p. m. pasa a ser la S6 y la del miércoles 30 la S7.** _Es la segunda vez en la semana que la numeración de Mercadeo baja:_ primero por la cancelación de Rina del 28, ahora por esta. **A Manuel José le quedan esas dos sesiones antes del cierre.**"
     }
   ],
   "patron": {
@@ -264,7 +279,7 @@
     "que_pasa": "Trece sesiones caídas en seis semanas, y no todas son lo mismo. **Siete son inasistencias sin aviso** —Servicios Sociales el 3 de septiembre, Sub. Operativa y Mercadeo el miércoles 9, Comunicaciones el lunes 15, Gerencia Financiera el viernes 18, Cumplimiento el lunes 21 y Educación el martes 22—. **Cinco son cancelaciones avisadas o por cruce de agenda.** Y **una es falla técnica** —Servicios Sociales el 22 de septiembre—, donde el área sí se presentó: esa no debe leerse como incumplimiento.",
     "por_que_importa": "El problema no es general: está concentrado en tres áreas, y son las que van más atrás. **Cumplimiento es el caso más serio del programa.** Se le cayó la S2 el 2 de septiembre; la contraparte aprobó un relevo de representantes para destrabarla; y **las dos sesiones agendadas después del relevo también se cayeron** — la del 16 de septiembre cancelada, la del 21 sin que nadie entrara a la sala. **Tres caídas de la misma sesión y una sola hecha en todo el programa.** El nombramiento no resolvió el problema: lo trasladó. **Sub. Operativa volvió el 22 de septiembre** tras trece días, así que sale de la lista. Gerencia Financiera perdió su S3 el 18 y sigue sin fecha. **Y el último día es el lunes 5 de octubre: quedan dos semanas.** Con una sola sesión hecha, Cumplimiento no alcanza a llegar si no se interviene ya.",
     "a_quien_toca": "María Elvira Marulanda — es quien puede pedir que el espacio del programa se respete como cualquier otro compromiso institucional.",
-    "actualizado": "2026-09-24",
+    "actualizado": "2026-09-25",
     "recuperadas": "Siete de las trece caídas se recuperaron: Educación S3 el 7 de septiembre, Servicios Sociales el 10 —que cierra las dos suyas—, Tecnología el 11 por vía propia, Mercadeo S4 y Comunicaciones S6 el 17, y **Sub. Operativa el 22 de septiembre, después de trece días**. Quedan seis sin hacer, de cuatro áreas: Gerencia Financiera S3, Cumplimiento S2 —caída tres veces—, Servicios Sociales S9 —que se retoma el jueves— y Educación S4, que se retoma el miércoles."
   }
 }

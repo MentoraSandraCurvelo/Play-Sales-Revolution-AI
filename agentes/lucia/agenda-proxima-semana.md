@@ -17,14 +17,14 @@ Financiera.** Y entró una de **Educación a las 5:00 p. m.**, que no estaba.
 | Lun 28 | 11:00 a. m. | Jurídica | `secretaria_juridica@` | **S12** | dice «S» — falta el número |
 | Lun 28 | 2:00 p. m. | Subsidio | `atencion_reclamos@` | **S6** | correcto |
 | Lun 28 | 3:00 p. m. | Sub. Admin. y Financiera | `requerimientoscontratos@` (Rafael) | **S11** | dice «S12» — devolver a 11 |
-| Lun 28 | 4:00 p. m. | Mercadeo | `comercializacionyventas@` (Manuel) | **S7** | corregido |
+| Lun 28 | 4:00 p. m. | Mercadeo | `comercializacionyventas@` (Manuel) | **S6** | dice «Sesion 7» — devolver a 6 |
 | Lun 28 | 5:00 p. m. | Educación | `rectoriacolegio@` · `auxiliareducacion@` | **S4** | falta el número |
 | Mar 29 | 10:00 a. m. | Servicios Sociales | `pro_juniorss@` | **S10** | dice «S» — falta el número |
 | Mar 29 | 11:00 a. m. | Sub. Operativa y Comercial | `asistentesuboperativa@` · `innovacion@` | **S5** | correcto |
 | Mar 29 | 3:00 p. m. | Subsidio | `atencion_reclamos@` | **S7** | correcto |
 | Mar 29 | 4:00 p. m. | Comunicaciones | el grupo completo | **S10** | dice «Sesion» a secas |
 | Mié 30 | 9:00 a. m. | Subsidio | `coordinacionsubsidioyaportes@` | **S8** | correcto |
-| Mié 30 | 10:00 a. m. | Mercadeo | `comercializacionyventas@` (Manuel) | **S8** | dice «S9» — devolver a 8 |
+| Mié 30 | 10:00 a. m. | Mercadeo | `comercializacionyventas@` (Manuel) | **S7** | dice «S9» — devolver a 7 |
 | Mié 30 | 11:00 a. m. | Jurídica | `secretaria_juridica@` · `contratacion@` | **S13** | dice «S» — falta el número |
 | Mié 30 | 3:00 p. m. | Subsidio | `atencion_reclamos@` | **S9** | correcto |
 | Mié 30 | 4:00 p. m. | Comunicaciones | `comunicaciones@` | **S11** | dice «Sesion» a secas |
@@ -53,7 +53,7 @@ Cada número sigue la serie del área y depende de que se hagan las de esta sema
 |---|---|---|---|
 | Subsidio | S4 · 18 sep | — | **S5, S6, S7, S8, S9** |
 | Jurídica | S9 · 22 sep | S10 mié · S11 jue | **S12, S13, S14** |
-| Mercadeo | S4 · 17 sep | S5 jue ✔ · S6 vie | **S7, S8** *(la de Rina se canceló)* |
+| Mercadeo | S4 · 17 sep | S5 jue ✔ *(la del vie se canceló)* | **S6, S7** *(dos caídas en la semana)* |
 | Sub. Admin. y Financiera | S10 · 23 sep | *la del jueves se canceló* | **S11** *(Rafael, lun 28)* |
 | Educación | S3 · 7 sep | *dos inasistencias seguidas* | **S4** *(lun 28)* |
 | Servicios Sociales | S8 · 16 sep | S9 jue *(la del martes se cayó)* | **S10** |

@@ -34,7 +34,7 @@ De las 26 citas de la semana, **22 son de IAM™ Intelligence en Comfacesar**. L
 | Vie 25 | 9:00 a. m. | Tecnología | Olga Lucía Barros | **S6** ✔ | **se hizo** · acta publicada |
 | Vie 25 | 11:00 a. m. | Comunicaciones | — | **S9** | correcto |
 | Vie 25 | 2:00 p. m. | Contabilidad | Carlos Lozano | **S8** | dice «S9» — devolver a 8 |
-| Vie 25 | 3:00 p. m. | Mercadeo | Manuel José Gutiérrez | **S6** | corregido |
+| ~~Vie 25~~ | 3:00 p. m. | Mercadeo | Manuel José Gutiérrez | **no se hizo** | cancelación del área · cita médica |
 
 **Los asuntos de Liliany ya no hacen falta corregirlos.** Las del lunes 21 y el miércoles 23 se
 hicieron como **S9** y **S10**; la del jueves 24 se canceló, *así que el número no avanza* y

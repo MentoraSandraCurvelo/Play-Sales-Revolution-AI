@@ -1204,3 +1204,20 @@ cierre; **Comunicaciones**, que la sesión estaba empezando en ese momento.
 acta salió enseguida.
 
 *A las 11:10 ninguna de las tres áreas había respondido la confirmación.*
+
+### Viernes 25 — respuestas a la confirmación
+
+**Mercadeo canceló.** Manuel José escribió por el canal a la **1:35 p. m.**, hora y media antes
+de su sesión de las 3:00: *«Quiero pedirte disculpas pero no puedo asistir… tengo una cita
+médica urgente»*. **Respondió al mensaje de confirmación de la mañana** — que era justamente
+para eso.
+
+*Las otras dos no contestaron.* Vidiana no dijo nada a la sesión de las 11:00; Contabilidad
+tampoco escribió, aunque Sandra publicó «conectada» a las 2:02 p. m.
+
+**La semana de Mercadeo:** de las horas que tenía reservadas, **solo se hizo la de Rina del
+jueves 24.** Cayeron la del lunes 28 —cancelada el miércoles— y la de Manuel José de hoy.
+*Son tres caídas del área en todo el programa*, la primera el 9 de septiembre.
+
+*Y la numeración vuelve a bajar:* **el área se queda en S5**, así que la del lunes 28 a las
+4:00 p. m. es la **S6** y la del miércoles 30 la **S7**.
