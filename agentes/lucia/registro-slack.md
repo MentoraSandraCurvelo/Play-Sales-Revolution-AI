@@ -1224,14 +1224,17 @@ jueves 24.** Cayeron la del lunes 28 —cancelada el miércoles— y la de Manue
 
 | Canal | Qué se publicó | message_ts |
 |---|---|---|
-| `#comunicaciones` | Grabación S9 | `1790369377.586079` |
+| `#comunicaciones` | Grabación S9 · *enlace corto, reemplazado* | `1790369377.586079` |
+| `#comunicaciones` | Grabación S9 completa | `1790370318.432879` |
 
 **Comunicaciones S9 se hizo, y fue con María Elvira Marulanda**, no con Vidiana, aunque el
 asunto del evento decía «vidiana». *Fue una sesión de ejercicios como cualquier otra*, así que
 **cuenta como S9 del área y el acta sale en el formato de siempre.** El corte queda en 94
 sesiones ejecutadas.
 
-*Los insumos todavía no están en Dropbox:* la carpeta `Sesion 9` de Comunicaciones no existe.
+**La grabación se había detenido y reiniciado**, así que quedaron dos archivos con su propia
+transcripción cada uno. *El primero duraba 2:28*; el segundo, la hora completa. **Se publicó el
+enlace correcto y se reemplazó el anterior en el canal.**
 
 **La transcripción de Comunicaciones S9 llegó incompleta.** El archivo pesa **657 bytes** y tiene
 **cinco líneas**: se corta en el minuto **2:28**, con un «no te escucho», cuando la sesión duró
@@ -1255,3 +1258,13 @@ que será su S9 y la última del programa.
 **Mercadeo: sin aviso en el canal.** Las dos sesiones que quedaban —lunes 28 y miércoles 30— las
 retiró Sandra del calendario, no el área. *Decisión expresa: no se publica nada.* **Queda solo
 en el registro interno**, como los registros 19 y 20. El área cierra el programa en S5.
+
+**Criterio aplicado al acta de Comunicaciones S9.** En la sesión quedó en evidencia que la
+contraparte **no había estado abriendo el tablero del proyecto ni los canales de Slack**, y que
+ahí se ha perdido buena parte del seguimiento. *El acta no lo dice así.* **Lo recoge como
+criterio de método** —un tablero solo reemplaza a una reunión si quien lo recibe lo tiene
+anclado y lo abre— *y deja la tarea de anclarlo,* **sin señalar a nadie.** El acta va al canal
+del área y la lee ella misma. Queda a decisión de Sandra si se dice de frente.
+
+*También quedó fuera* lo que se habló sobre el avance individual de dos personas del equipo:
+**la propia Sandra cortó el tema en sesión** diciendo que no era el momento.

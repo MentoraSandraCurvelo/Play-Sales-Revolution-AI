@@ -1,0 +1,205 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "COMUNICACIONES",
+  "area_completa": "",
+  "sesion_num": 9,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "25 de septiembre de 2026",
+  "fecha_corta": "25 septiembre 2026",
+  "subtitulo_meta": "Individual de María Elvira Marulanda · 25 de septiembre de 2026 · 11:00 a. m. · 1 h 7 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Comunicaciones — Comfacesar"],
+    ["Sesión", "N° 9 — Individual de María Elvira Marulanda: del informe en Word al tablero de dirección"],
+    ["Fecha", "25 de septiembre de 2026"],
+    ["Duración de la sesión", "1 hora 7 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "María Elvira Marulanda — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "1", "etiqueta": "Primer tablero de la dirección", "detalle": "Reemplaza el informe en Word"},
+    {"valor": "2M", "etiqueta": "Impresiones del semestre", "detalle": "El indicador más alto del tablero"},
+    {"valor": "682", "etiqueta": "De 800 colaboradores alcanzados", "detalle": "Por la red de embajadores"},
+    {"valor": "50%", "etiqueta": "Cobertura del direccionamiento", "detalle": "La brecha que mostró la telaraña"},
+    {"valor": "3", "etiqueta": "Aplicaciones con el complemento", "detalle": "Excel, Word y PowerPoint"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "María Elvira Marulanda", "cargo": "Gerencia de Comunicaciones — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 9. La dirección del área construyó su primer tablero y quedó con los tres frentes de trabajo definidos. Lo que falta son los agentes que alimenten esos tableros y la rutina de consultarlos.",
+  "riesgos": [
+    {
+      "titulo": "El informe del semestre se arma recogiendo la información a mano",
+      "nivel": "ALTO",
+      "descripcion": "**Cada persona del equipo manda lo suyo y la dirección lo recopila, lo procesa y levanta el informe.** _El sistema ayudó mucho una vez cargada la información_ —cruzó el plan estratégico contra lo ejecutado y **devolvió las alertas de lo que no se cumplió y lo que no coincidía**—, **pero la recolección sigue siendo manual.** Es justo lo que el agente viene a resolver.",
+      "responsable": "María Elvira Marulanda / Antes del cierre"
+    },
+    {
+      "titulo": "El seguimiento financiero al plan de medios no se ve claro",
+      "nivel": "ALTO",
+      "descripcion": "**El plan de medios contratados se lleva en una hoja de cálculo**, anotando a mano a quién se le extendió dos meses y a quién tres. _La dirección lo dijo en sesión:_ **«no lo veo claro»**. Sin el control financiero consolidado, **no hay forma de saber cómo va la ejecución del plan sin rehacer la cuenta.**",
+      "responsable": "María Elvira Marulanda / Antes del cierre"
+    },
+    {
+      "titulo": "El monitoreo de noticias depende de revisar correos uno por uno",
+      "nivel": "MEDIO",
+      "descripcion": "Hoy **llega una alerta automática al correo cada vez que aparece una mención** y los enlaces se guardan en una carpeta compartida. _Lo que está en la web se puede rastrear;_ **lo impreso y lo radial toca registrarlo a mano.** El circuito completo —detectar, clasificar y reportar— **está por construirse.**",
+      "responsable": "María Elvira Marulanda / Antes del cierre"
+    },
+    {
+      "titulo": "Los tableros no sirven si no se consultan",
+      "nivel": "ALTO",
+      "descripcion": "_El criterio de la sesión vale en las dos direcciones:_ **un tablero solo reemplaza a una reunión si quien lo recibe lo tiene anclado y lo abre.** Se practicó en vivo anclarlo en el navegador dentro de una carpeta propia — **el del área, los del equipo y el del proyecto.** *Sin ese hábito, el tablero es un archivo más.*",
+      "responsable": "María Elvira Marulanda / Inmediato"
+    },
+    {
+      "titulo": "El trabajo se interrumpió a mitad de sesión",
+      "nivel": "MEDIO",
+      "descripcion": "**Se agotó el uso disponible justo al probar el complemento en presentaciones**, así que ese ejercicio quedó sin terminar. _No fue por falta de actividad sino por lo contrario_ — **había sido un día de uso intenso.** Conviene repartir el trabajo pesado y dejar el modelamiento fino para consultas cortas.",
+      "responsable": "María Elvira Marulanda / Permanente"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "ALTO", "titulo": "Anclar los tableros en el navegador", "descripcion": "**Una carpeta propia con el tablero del área, los del equipo y el del proyecto**, al lado de los accesos de uso diario. _Se practicó en sesión._", "responsable": "María Elvira Marulanda", "plazo": "Inmediato"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Pasarle el enlace del tablero a la dirección general", "descripcion": "**Para que lo ancle y lo consulte en tiempo real, por área.** _Se actualiza solo cada vez que se alimenta el proyecto._", "responsable": "María Elvira Marulanda", "plazo": "Antes del cierre"},
+    {"num": "03", "nivel": "ALTO", "titulo": "Modelar el tablero hasta que quede presentable", "descripcion": "**Colores corporativos, fecha de corte al día y una lectura corta al pie de cada gráfico** — _la conclusión, no el dato_ — para sustentarlo sin enredarse.", "responsable": "María Elvira Marulanda", "plazo": "Antes de la S10"},
+    {"num": "04", "nivel": "MEDIO", "titulo": "Insertarle al proyecto una habilidad de diseño gráfico", "descripcion": "**Para que los tableros salgan con criterio visual sin tener que pedirlo cada vez.**", "responsable": "María Elvira Marulanda", "plazo": "Antes de la S10"},
+    {"num": "05", "nivel": "ALTO", "titulo": "Descargar y resguardar el material de los canales", "descripcion": "**Grabaciones, actas e informes de asistencia de los 18 canales, organizados por sesión.** _El historial de la mensajería no se conserva indefinidamente._", "responsable": "María Elvira Marulanda", "plazo": "Antes del cierre"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Los tres frentes del área",
+      "duracion": "~5 min",
+      "objetivo": "Ordenar lo que hay que resolver antes del cierre.",
+      "pasos": [
+        "**Uno · la gestión del plan de comunicaciones.** El equipo alimenta unas carpetas compartidas con las solicitudes y los avances de diseño. _Lo que se quiere:_ **que un agente saque esa información, genere las alertas y la deje en un tablero de control**",
+        "**Dos · los medios contratados.** Hay un plan de medios con su ejecución y hoy se lleva en una hoja de cálculo. _Lo que se quiere:_ **el control financiero consolidado y legible**",
+        "**Tres · el monitoreo de noticias.** Hoy llega una alerta al correo por cada mención y los enlaces se guardan a mano. _Lo que se quiere:_ **que el circuito detecte, clasifique y reporte solo**",
+        "_El orden que se acordó:_ **los dos primeros son el mismo ejercicio y hay que aprenderlo bien**; el tercero ya es un agente, y para eso hacen falta las sesiones que quedan"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Del documento al tablero",
+      "duracion": "~15 min",
+      "objetivo": "Subir un nivel sobre un trabajo ya hecho.",
+      "pasos": [
+        "**El punto de partida era real:** el informe del plan estratégico de comunicaciones del primer semestre, **ya terminado y entregado.** _Se había armado cargando el plan y las metas, y el sistema devolvió las alertas de lo que no cuadraba_ — **eso permitió reestructurarlo antes de entregarlo**",
+        "**La instrucción se dictó completa:** colores corporativos y logo, fecha de corte, autoría, la segmentación del propio documento, **los hallazgos convertidos en KPI**, tortas, análisis de dispersión, pictograma, semaforización, **vistas por día, semana, mes y año**",
+        "**Más dos cosas que valen por sí solas:** una **pestaña de recomendaciones** con lo que hay que continuar y lo que no debe repetirse, **y la alineación con el direccionamiento estratégico** — financiera, clientes, eficiencia y capital",
+        "_Y el criterio que ordena todo lo demás:_ **a la dirección general no se le muestra más un documento ni una hoja de cálculo. Se le muestra el tablero.** Porque **un directivo decide con gráficos y en tiempo real**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Leer el tablero que salió",
+      "duracion": "~20 min",
+      "objetivo": "Entender cada pieza antes de presentarla.",
+      "pasos": [
+        "**Cabecera con la nota metodológica:** los datos van de enero a junio **porque el plan inicia medición formal en ese periodo.** _Declarar el alcance es lo que permite sustentarlo_",
+        "**Los KPI del semestre:** dos millones de impresiones, mil novecientos leads, setenta apariciones en medios y ciento noventa y seis contenidos producidos",
+        "**La semaforización por eje:** comunicación interna en construcción, digital fortalecida, el resto en avance. **Y la comparativa contra 2025**, con el alcance por canal — _donde una sola red se lleva entre el 80 y el 100 %_",
+        "**El análisis de telaraña de cobertura del direccionamiento**, que responde qué tan lejos se está del ideal: **la cobertura llega a la mitad.** _Es la brecha real contra lo que la dirección general espera_",
+        "**El pictograma:** cada ícono representa veinte colaboradores, ochocientos en total — **682 alcanzados por la red de embajadores y 118 sin alcanzar**",
+        "**Y la pestaña de recomendaciones**, que separa lo que funciona —la red de embajadores, la estrategia de contenido— de lo que hay que corregir"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · El complemento dentro de Office",
+      "duracion": "~12 min",
+      "objetivo": "Trabajar sin salir del archivo.",
+      "pasos": [
+        "**Se instaló en las tres aplicaciones: hoja de cálculo, documento y presentaciones**",
+        "_La razón:_ **cuando llega un archivo de otra área no hay que subirlo a ninguna parte** — se trabaja dentro, se pide el ajuste y se sigue",
+        "**Se probó sobre el plan de medios real**, pidiendo una tabla dinámica sobre la asignación de pauta, y sobre un documento, pidiendo un sistema de alertas con los hallazgos principales",
+        "**El ejercicio de presentaciones quedó sin terminar** porque se agotó el uso disponible del día"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · Anclar los tableros",
+      "duracion": "~15 min",
+      "objetivo": "Convertir un enlace en una rutina.",
+      "pasos": [
+        "**Se practicó en vivo:** compartir el tablero, copiar el enlace, abrirlo en el navegador **y anclarlo en una carpeta propia**, al lado de los accesos que ya se usan a diario",
+        "_El punto es este:_ **el tablero se actualiza solo cada vez que se alimenta el proyecto.** Quien lo tiene anclado ve siempre la última versión **sin pedirla y sin reunión de por medio**",
+        "**Y aplica en las dos direcciones:** el área ancla los tableros de su equipo, **y la dirección general ancla el del área**, con una carpeta por cada área que controla",
+        "_Lo que eso reemplaza:_ **la reunión para mostrar resultados.** Quien mira el tablero llama solo cuando algo no le cuadra"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 9 · 25 septiembre 2026",
+      "titulo": "El informe del semestre pasó a ser un tablero vivo",
+      "descripcion": "El informe ya estaba hecho y entregado. **La sesión lo convirtió en un tablero interactivo con KPI, semaforización, comparativa contra 2025, pictograma de cobertura y una pestaña de recomendaciones** — con el logo, la fecha de corte y la autoría del área. _Y se actualiza solo cada vez que se alimenta el proyecto._ **La diferencia no es estética: un documento se entrega una vez, un tablero se consulta cuando haga falta.**",
+      "estado": "Construido, sin modelar",
+      "proximo_paso": "Modelarlo y pasarle el enlace a la dirección general",
+      "target": "Antes del cierre"
+    },
+    {
+      "encabezado": "HALLAZGO DEL TABLERO · SESIÓN 9 · 25 septiembre 2026",
+      "titulo": "La cobertura del direccionamiento llega a la mitad",
+      "descripcion": "**El análisis de telaraña midió qué tan lejos está el área del ideal en las cuatro perspectivas** —financiera, clientes, eficiencia y capital estratégico— **y la cobertura queda en la mitad.** _Es una brecha que se intuía y que nadie había puesto en un gráfico._ **Intuirla permite opinar; verla permite planear el segundo semestre contra un número.** *Y llega justo antes del corte, que es cuando sirve.*",
+      "estado": "Cuantificado",
+      "proximo_paso": "Leerlo contra el plan del segundo semestre",
+      "target": "Antes del cierre"
+    },
+    {
+      "encabezado": "CRITERIO DE MÉTODO · SESIÓN 9 · 25 septiembre 2026",
+      "titulo": "A la dirección no se le muestra un documento, se le da un tablero",
+      "descripcion": "**Un directivo decide con gráficos y en tiempo real.** _Por eso el acuerdo de la sesión es que de aquí en adelante los resultados del área no se presentan en documento ni en hoja de cálculo, sino en tablero anclado._ **Y el criterio se cumple hacia arriba y hacia abajo:** el área ancla los tableros de su equipo **y le pasa el suyo a la dirección general, con una carpeta por área.** *Lo que eso reemplaza es la reunión de seguimiento.*",
+      "estado": "Acordado",
+      "proximo_paso": "Anclar los tres niveles de tablero",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "PENDIENTE DE CIERRE · SESIÓN 9 · 25 septiembre 2026",
+      "titulo": "Los tres agentes del área están por construir",
+      "descripcion": "**Los tres frentes quedaron definidos** —la gestión del plan, el control del plan de medios y el monitoreo de noticias— **pero ninguno tiene todavía un agente que lo recorra solo.** _Hoy los tres dependen de que alguien recopile, procese y levante el informe._ **El área tiene cuatro sesiones en la última semana**, y es el tiempo que hay para dejar al menos uno corriendo.",
+      "estado": "Definido, sin construir",
+      "proximo_paso": "Traer descargado el entorno de agentes para la próxima sesión",
+      "target": "Sesión 10"
+    }
+  ],
+  "tareas_intro": "La dirección del área construyó su primer tablero sobre un informe real y quedaron ordenados los tres frentes de trabajo. Lo que falta es modelar el tablero, volverlo rutina de consulta y empezar los agentes que lo alimenten.",
+  "tareas": [
+    {"tarea": "Anclar en el navegador, en una carpeta propia, el tablero del área, los del equipo y el del proyecto", "responsable": "María Elvira Marulanda", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Pasarle el enlace del tablero a la dirección general para que lo ancle y lo consulte", "responsable": "María Elvira Marulanda", "prioridad": "ALTA", "plazo": "Antes del cierre"},
+    {"tarea": "Modelar el tablero: colores, fecha de corte al día y una lectura corta al pie de cada gráfico", "responsable": "María Elvira Marulanda", "prioridad": "ALTA", "plazo": "Antes de la S10"},
+    {"tarea": "Traer descargado el entorno de agentes para empezar el primero del área", "responsable": "María Elvira Marulanda", "prioridad": "ALTA", "plazo": "Sesión 10"},
+    {"tarea": "Insertarle al proyecto una habilidad de diseño gráfico para los tableros", "responsable": "María Elvira Marulanda", "prioridad": "MEDIA", "plazo": "Antes de la S10"},
+    {"tarea": "Organizar la descarga del material de los 18 canales —grabaciones, actas y asistencias— por sesión", "responsable": "María Elvira Marulanda", "prioridad": "ALTA", "plazo": "Antes del cierre"}
+  ],
+  "observaciones": [
+    "**La sesión partió de un trabajo real y terminado:** el informe del plan estratégico de comunicaciones del primer semestre, ya entregado. _Se había armado cargando el plan y las metas del área_, y **el sistema devolvió las alertas de lo que no se había cumplido y lo que no coincidía** — eso permitió reestructurarlo antes de entregarlo.",
+    "**Pero la recolección sigue siendo manual:** cada persona del equipo manda lo suyo y la dirección lo recopila, lo procesa y levanta el informe. _Es justo lo que el agente viene a resolver._",
+    "**Quedaron ordenados los tres frentes del área.** _Uno_, la gestión del plan de comunicaciones, que hoy vive en carpetas compartidas que el equipo alimenta. _Dos_, **el seguimiento financiero al plan de medios contratados**, que se lleva en una hoja de cálculo anotando a mano las extensiones — y que **la dirección dijo en sesión que no ve claro.** _Tres_, el monitoreo de noticias, donde **lo de la web se rastrea pero lo impreso y lo radial toca a mano.**",
+    "**El ejercicio fue convertir el informe en un tablero interactivo.** La instrucción se dictó completa: **KPI, tortas, análisis de dispersión, pictograma, semaforización, vistas por día, semana, mes y año**, con logo, fecha de corte y autoría del área.",
+    "**Más dos piezas que valen por sí solas:** una **pestaña de recomendaciones** que separa lo que hay que continuar de lo que no debe repetirse, **y la alineación con el direccionamiento estratégico** en sus cuatro perspectivas.",
+    "**El tablero entregó** los KPI del semestre —_dos millones de impresiones, mil novecientos leads, setenta apariciones en medios y ciento noventa y seis contenidos_—, la semaforización por eje, la comparativa contra 2025 con el alcance por canal, **y un pictograma donde cada ícono son veinte colaboradores: 682 alcanzados por la red de embajadores y 118 sin alcanzar.**",
+    "**Y ahí apareció el hallazgo.** _El análisis de telaraña de cobertura del direccionamiento estratégico_ mide qué tan lejos está el área del ideal en las cuatro perspectivas, **y la cobertura queda en la mitad.** *Es una brecha que se intuía y que nadie había puesto en un gráfico* — **intuirla permite opinar; verla permite planear el segundo semestre contra un número.**",
+    "_El criterio que ordena todo lo demás quedó dicho sin rodeos:_ **a la dirección general no se le muestra más un documento ni una hoja de cálculo — se le da el tablero.** Porque **un directivo decide con gráficos y en tiempo real**, y el tablero se actualiza solo cada vez que se alimenta el proyecto.",
+    "**Y ese criterio se cumple en las dos direcciones.** _Un tablero solo reemplaza a una reunión si quien lo recibe lo tiene anclado y lo abre._ **Se practicó en vivo anclarlo en el navegador dentro de una carpeta propia**, al lado de los accesos de uso diario — **el del área, los del equipo y el del proyecto.**",
+    "**Se instaló también el complemento en las tres aplicaciones de ofimática** — hoja de cálculo, documento y presentaciones. _La razón es práctica:_ **cuando llega un archivo de otra área no hay que subirlo a ninguna parte**, se trabaja dentro. Se probó sobre el plan de medios real y sobre un documento con un sistema de alertas.",
+    "**El ejercicio de presentaciones quedó sin terminar** porque se agotó el uso disponible del día. _No fue por falta de actividad sino por lo contrario_ — había sido una jornada de uso intenso.",
+    "**Quedó además una tarea de resguardo:** organizar la descarga del material de los 18 canales —grabaciones, actas e informes de asistencia— **por sesión**, porque *el historial de la mensajería no se conserva indefinidamente.*",
+    "**El área tiene cuatro sesiones en la última semana**, y es el tiempo que hay **para dejar al menos uno de los tres agentes corriendo.** Para la próxima queda el entorno de agentes descargado."
+  ],
+  "proxima_sesion": {
+    "sesion": "Comunicaciones — Sesión 10 · martes 29 de septiembre",
+    "condiciones": [
+      "Los tableros anclados y el enlace entregado a la dirección general",
+      "El tablero modelado, con las lecturas al pie de cada gráfico",
+      "El entorno de agentes descargado",
+      "Definido cuál de los tres frentes arranca primero"
+    ],
+    "agenda": [
+      "Construcción del primer agente del área sobre uno de los tres frentes",
+      "La habilidad de diseño gráfico aplicada a los tableros",
+      "El resguardo del material de los canales",
+      "Preparación del material del área para el cierre del 5 de octubre"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 25 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
