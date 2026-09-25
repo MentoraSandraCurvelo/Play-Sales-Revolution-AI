@@ -1259,12 +1259,17 @@ que será su S9 y la última del programa.
 retiró Sandra del calendario, no el área. *Decisión expresa: no se publica nada.* **Queda solo
 en el registro interno**, como los registros 19 y 20. El área cierra el programa en S5.
 
-**Criterio aplicado al acta de Comunicaciones S9.** En la sesión quedó en evidencia que la
-contraparte **no había estado abriendo el tablero del proyecto ni los canales de Slack**, y que
-ahí se ha perdido buena parte del seguimiento. *El acta no lo dice así.* **Lo recoge como
-criterio de método** —un tablero solo reemplaza a una reunión si quien lo recibe lo tiene
-anclado y lo abre— *y deja la tarea de anclarlo,* **sin señalar a nadie.** El acta va al canal
-del área y la lee ella misma. Queda a decisión de Sandra si se dice de frente.
+**Criterio aplicado al acta de Comunicaciones S9, confirmado por Sandra.** En la sesión quedó
+en evidencia que la contraparte **no había estado abriendo el tablero del proyecto ni los
+canales**. *Sandra decidió que eso no entra:* **«eso lo ve todo el equipo de ellas, no digas
+eso».** El acta no lo menciona de ninguna forma — **el punto quedó reescrito en positivo**, como
+el ahorro que se obtiene cuando el tablero queda anclado y la reunión de seguimiento deja de
+hacer falta. *Regla para lo que viene:* **nada que se pueda leer como señalamiento a una
+persona en un canal que lee su equipo.**
 
 *También quedó fuera* lo que se habló sobre el avance individual de dos personas del equipo:
 **la propia Sandra cortó el tema en sesión** diciendo que no era el momento.
+
+| Canal | Qué se publicó | message_ts |
+|---|---|---|
+| `#comunicaciones` | Resumen S9 | `1790370691.553419` |

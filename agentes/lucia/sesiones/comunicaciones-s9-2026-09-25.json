@@ -9,25 +9,81 @@
   "fecha_corta": "25 septiembre 2026",
   "subtitulo_meta": "Individual de María Elvira Marulanda · 25 de septiembre de 2026 · 11:00 a. m. · 1 h 7 min · Virtual — Microsoft Teams",
   "datos_sesion": [
-    ["Área(s)", "Comunicaciones — Comfacesar"],
-    ["Sesión", "N° 9 — Individual de María Elvira Marulanda: del informe en Word al tablero de dirección"],
-    ["Fecha", "25 de septiembre de 2026"],
-    ["Duración de la sesión", "1 hora 7 minutos"],
-    ["Modalidad", "Virtual — Microsoft Teams"],
-    ["Asistencia", "María Elvira Marulanda — completa"],
-    ["Grabación", "Publicada en el canal del área"],
-    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+    [
+      "Área(s)",
+      "Comunicaciones — Comfacesar"
+    ],
+    [
+      "Sesión",
+      "N° 9 — Individual de María Elvira Marulanda: del informe en Word al tablero de dirección"
+    ],
+    [
+      "Fecha",
+      "25 de septiembre de 2026"
+    ],
+    [
+      "Duración de la sesión",
+      "1 hora 7 minutos"
+    ],
+    [
+      "Modalidad",
+      "Virtual — Microsoft Teams"
+    ],
+    [
+      "Asistencia",
+      "María Elvira Marulanda — completa"
+    ],
+    [
+      "Grabación",
+      "Publicada en el canal del área"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo — Mentora IAM™ Intelligence"
+    ]
   ],
   "kpis": [
-    {"valor": "1", "etiqueta": "Primer tablero de la dirección", "detalle": "Reemplaza el informe en Word"},
-    {"valor": "2M", "etiqueta": "Impresiones del semestre", "detalle": "El indicador más alto del tablero"},
-    {"valor": "682", "etiqueta": "De 800 colaboradores alcanzados", "detalle": "Por la red de embajadores"},
-    {"valor": "50%", "etiqueta": "Cobertura del direccionamiento", "detalle": "La brecha que mostró la telaraña"},
-    {"valor": "3", "etiqueta": "Aplicaciones con el complemento", "detalle": "Excel, Word y PowerPoint"}
+    {
+      "valor": "1",
+      "etiqueta": "Primer tablero de la dirección",
+      "detalle": "Reemplaza el informe en Word"
+    },
+    {
+      "valor": "2M",
+      "etiqueta": "Impresiones del semestre",
+      "detalle": "El indicador más alto del tablero"
+    },
+    {
+      "valor": "682",
+      "etiqueta": "De 800 colaboradores alcanzados",
+      "detalle": "Por la red de embajadores"
+    },
+    {
+      "valor": "50%",
+      "etiqueta": "Cobertura del direccionamiento",
+      "detalle": "La brecha que mostró la telaraña"
+    },
+    {
+      "valor": "3",
+      "etiqueta": "Aplicaciones con el complemento",
+      "detalle": "Excel, Word y PowerPoint"
+    }
   ],
   "participantes": [
-    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
-    {"nombre": "María Elvira Marulanda", "cargo": "Gerencia de Comunicaciones — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Avanzado"}
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "—",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "María Elvira Marulanda",
+      "cargo": "Gerencia de Comunicaciones — Comfacesar",
+      "correo": "—",
+      "modalidad": "Virtual",
+      "nivel": "Avanzado"
+    }
   ],
   "mapa_calor_intro": "Riesgos identificados en la Sesión 9. La dirección del área construyó su primer tablero y quedó con los tres frentes de trabajo definidos. Lo que falta son los agentes que alimenten esos tableros y la rutina de consultarlos.",
   "riesgos": [
@@ -50,10 +106,10 @@
       "responsable": "María Elvira Marulanda / Antes del cierre"
     },
     {
-      "titulo": "Los tableros no sirven si no se consultan",
-      "nivel": "ALTO",
-      "descripcion": "_El criterio de la sesión vale en las dos direcciones:_ **un tablero solo reemplaza a una reunión si quien lo recibe lo tiene anclado y lo abre.** Se practicó en vivo anclarlo en el navegador dentro de una carpeta propia — **el del área, los del equipo y el del proyecto.** *Sin ese hábito, el tablero es un archivo más.*",
-      "responsable": "María Elvira Marulanda / Inmediato"
+      "titulo": "El tablero reemplaza la reunión solo si queda anclado",
+      "nivel": "MEDIO",
+      "descripcion": "**El tablero se actualiza solo cada vez que se alimenta el proyecto**, _así que quien lo tiene anclado ve siempre la última versión sin pedirla._ **Ahí está el ahorro: la reunión de seguimiento deja de hacer falta.** Se practicó en vivo dejarlo anclado en el navegador, dentro de una carpeta propia, **y el paso que falta es que la dirección general tenga el suyo.**",
+      "responsable": "María Elvira Marulanda / Antes del cierre"
     },
     {
       "titulo": "El trabajo se interrumpió a mitad de sesión",
@@ -63,11 +119,46 @@
     }
   ],
   "alertas": [
-    {"num": "01", "nivel": "ALTO", "titulo": "Anclar los tableros en el navegador", "descripcion": "**Una carpeta propia con el tablero del área, los del equipo y el del proyecto**, al lado de los accesos de uso diario. _Se practicó en sesión._", "responsable": "María Elvira Marulanda", "plazo": "Inmediato"},
-    {"num": "02", "nivel": "ALTO", "titulo": "Pasarle el enlace del tablero a la dirección general", "descripcion": "**Para que lo ancle y lo consulte en tiempo real, por área.** _Se actualiza solo cada vez que se alimenta el proyecto._", "responsable": "María Elvira Marulanda", "plazo": "Antes del cierre"},
-    {"num": "03", "nivel": "ALTO", "titulo": "Modelar el tablero hasta que quede presentable", "descripcion": "**Colores corporativos, fecha de corte al día y una lectura corta al pie de cada gráfico** — _la conclusión, no el dato_ — para sustentarlo sin enredarse.", "responsable": "María Elvira Marulanda", "plazo": "Antes de la S10"},
-    {"num": "04", "nivel": "MEDIO", "titulo": "Insertarle al proyecto una habilidad de diseño gráfico", "descripcion": "**Para que los tableros salgan con criterio visual sin tener que pedirlo cada vez.**", "responsable": "María Elvira Marulanda", "plazo": "Antes de la S10"},
-    {"num": "05", "nivel": "ALTO", "titulo": "Descargar y resguardar el material de los canales", "descripcion": "**Grabaciones, actas e informes de asistencia de los 18 canales, organizados por sesión.** _El historial de la mensajería no se conserva indefinidamente._", "responsable": "María Elvira Marulanda", "plazo": "Antes del cierre"}
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Anclar los tableros en el navegador",
+      "descripcion": "**Una carpeta propia en el navegador con el tablero del área y los del equipo**, al lado de los accesos de uso diario. _Se practicó en sesión._",
+      "responsable": "María Elvira Marulanda",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Pasarle el enlace del tablero a la dirección general",
+      "descripcion": "**Para que lo ancle y lo consulte en tiempo real, por área.** _Se actualiza solo cada vez que se alimenta el proyecto._",
+      "responsable": "María Elvira Marulanda",
+      "plazo": "Antes del cierre"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Modelar el tablero hasta que quede presentable",
+      "descripcion": "**Colores corporativos, fecha de corte al día y una lectura corta al pie de cada gráfico** — _la conclusión, no el dato_ — para sustentarlo sin enredarse.",
+      "responsable": "María Elvira Marulanda",
+      "plazo": "Antes de la S10"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Insertarle al proyecto una habilidad de diseño gráfico",
+      "descripcion": "**Para que los tableros salgan con criterio visual sin tener que pedirlo cada vez.**",
+      "responsable": "María Elvira Marulanda",
+      "plazo": "Antes de la S10"
+    },
+    {
+      "num": "05",
+      "nivel": "ALTO",
+      "titulo": "Descargar y resguardar el material de los canales",
+      "descripcion": "**Grabaciones, actas e informes de asistencia de los 18 canales, organizados por sesión.** _El historial de la mensajería no se conserva indefinidamente._",
+      "responsable": "María Elvira Marulanda",
+      "plazo": "Antes del cierre"
+    }
   ],
   "ejercicios": [
     {
@@ -164,12 +255,42 @@
   ],
   "tareas_intro": "La dirección del área construyó su primer tablero sobre un informe real y quedaron ordenados los tres frentes de trabajo. Lo que falta es modelar el tablero, volverlo rutina de consulta y empezar los agentes que lo alimenten.",
   "tareas": [
-    {"tarea": "Anclar en el navegador, en una carpeta propia, el tablero del área, los del equipo y el del proyecto", "responsable": "María Elvira Marulanda", "prioridad": "ALTA", "plazo": "Inmediato"},
-    {"tarea": "Pasarle el enlace del tablero a la dirección general para que lo ancle y lo consulte", "responsable": "María Elvira Marulanda", "prioridad": "ALTA", "plazo": "Antes del cierre"},
-    {"tarea": "Modelar el tablero: colores, fecha de corte al día y una lectura corta al pie de cada gráfico", "responsable": "María Elvira Marulanda", "prioridad": "ALTA", "plazo": "Antes de la S10"},
-    {"tarea": "Traer descargado el entorno de agentes para empezar el primero del área", "responsable": "María Elvira Marulanda", "prioridad": "ALTA", "plazo": "Sesión 10"},
-    {"tarea": "Insertarle al proyecto una habilidad de diseño gráfico para los tableros", "responsable": "María Elvira Marulanda", "prioridad": "MEDIA", "plazo": "Antes de la S10"},
-    {"tarea": "Organizar la descarga del material de los 18 canales —grabaciones, actas y asistencias— por sesión", "responsable": "María Elvira Marulanda", "prioridad": "ALTA", "plazo": "Antes del cierre"}
+    {
+      "tarea": "Anclar en el navegador, en una carpeta propia, el tablero del área, los del equipo y el del proyecto",
+      "responsable": "María Elvira Marulanda",
+      "prioridad": "ALTA",
+      "plazo": "Inmediato"
+    },
+    {
+      "tarea": "Pasarle el enlace del tablero a la dirección general para que lo ancle y lo consulte",
+      "responsable": "María Elvira Marulanda",
+      "prioridad": "ALTA",
+      "plazo": "Antes del cierre"
+    },
+    {
+      "tarea": "Modelar el tablero: colores, fecha de corte al día y una lectura corta al pie de cada gráfico",
+      "responsable": "María Elvira Marulanda",
+      "prioridad": "ALTA",
+      "plazo": "Antes de la S10"
+    },
+    {
+      "tarea": "Traer descargado el entorno de agentes para empezar el primero del área",
+      "responsable": "María Elvira Marulanda",
+      "prioridad": "ALTA",
+      "plazo": "Sesión 10"
+    },
+    {
+      "tarea": "Insertarle al proyecto una habilidad de diseño gráfico para los tableros",
+      "responsable": "María Elvira Marulanda",
+      "prioridad": "MEDIA",
+      "plazo": "Antes de la S10"
+    },
+    {
+      "tarea": "Organizar la descarga del material de los 18 canales —grabaciones, actas y asistencias— por sesión",
+      "responsable": "María Elvira Marulanda",
+      "prioridad": "ALTA",
+      "plazo": "Antes del cierre"
+    }
   ],
   "observaciones": [
     "**La sesión partió de un trabajo real y terminado:** el informe del plan estratégico de comunicaciones del primer semestre, ya entregado. _Se había armado cargando el plan y las metas del área_, y **el sistema devolvió las alertas de lo que no se había cumplido y lo que no coincidía** — eso permitió reestructurarlo antes de entregarlo.",
@@ -180,7 +301,7 @@
     "**El tablero entregó** los KPI del semestre —_dos millones de impresiones, mil novecientos leads, setenta apariciones en medios y ciento noventa y seis contenidos_—, la semaforización por eje, la comparativa contra 2025 con el alcance por canal, **y un pictograma donde cada ícono son veinte colaboradores: 682 alcanzados por la red de embajadores y 118 sin alcanzar.**",
     "**Y ahí apareció el hallazgo.** _El análisis de telaraña de cobertura del direccionamiento estratégico_ mide qué tan lejos está el área del ideal en las cuatro perspectivas, **y la cobertura queda en la mitad.** *Es una brecha que se intuía y que nadie había puesto en un gráfico* — **intuirla permite opinar; verla permite planear el segundo semestre contra un número.**",
     "_El criterio que ordena todo lo demás quedó dicho sin rodeos:_ **a la dirección general no se le muestra más un documento ni una hoja de cálculo — se le da el tablero.** Porque **un directivo decide con gráficos y en tiempo real**, y el tablero se actualiza solo cada vez que se alimenta el proyecto.",
-    "**Y ese criterio se cumple en las dos direcciones.** _Un tablero solo reemplaza a una reunión si quien lo recibe lo tiene anclado y lo abre._ **Se practicó en vivo anclarlo en el navegador dentro de una carpeta propia**, al lado de los accesos de uso diario — **el del área, los del equipo y el del proyecto.**",
+    "**Y el ahorro está en que quede anclado.** _El tablero se actualiza solo cada vez que se alimenta el proyecto_, así que **quien lo tiene en su navegador ve siempre la última versión sin pedirla — y la reunión de seguimiento deja de hacer falta.** Se practicó en vivo dejarlo anclado en una carpeta propia, junto a los accesos de uso diario.",
     "**Se instaló también el complemento en las tres aplicaciones de ofimática** — hoja de cálculo, documento y presentaciones. _La razón es práctica:_ **cuando llega un archivo de otra área no hay que subirlo a ninguna parte**, se trabaja dentro. Se probó sobre el plan de medios real y sobre un documento con un sistema de alertas.",
     "**El ejercicio de presentaciones quedó sin terminar** porque se agotó el uso disponible del día. _No fue por falta de actividad sino por lo contrario_ — había sido una jornada de uso intenso.",
     "**Quedó además una tarea de resguardo:** organizar la descarga del material de los 18 canales —grabaciones, actas e informes de asistencia— **por sesión**, porque *el historial de la mensajería no se conserva indefinidamente.*",
