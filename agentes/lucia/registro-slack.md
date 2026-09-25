@@ -1163,7 +1163,8 @@ Rafael pasa a ser la S11.
 | Canal | Qué se publicó | message_ts |
 |---|---|---|
 | `#juridica` | Grabación S11 | `1790343935.898759` |
+| `#serivcios-sociales` | Grabación S9 | `1790344080.830579` |
 
-**Los insumos de Jurídica S11 todavía no están en Dropbox.** La carpeta `Sesion 11` no existe
-—el área va hasta `Sesion 10`, del 23 de septiembre—, así que *el acta queda a la espera del
-informe de asistencia y la transcripción.*
+**Ninguna de las dos sesiones del jueves 24 tiene insumos en Dropbox.** Jurídica va hasta
+`Sesion 10` —del 23 de septiembre— y Servicios Sociales hasta `Sesion 8`, del 16. *Las dos
+actas quedan a la espera del informe de asistencia y la transcripción.*
