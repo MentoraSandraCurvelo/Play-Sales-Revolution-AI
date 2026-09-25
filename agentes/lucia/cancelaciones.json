@@ -287,6 +287,21 @@
       "compromiso": "",
       "cuenta_como": "no realizada",
       "nota": "**No es una cancelación del área: la quitó Sandra.** _Queda registrada aparte por eso_ — el área no la canceló ni faltó. *Contexto:* viene después de una semana en la que Mercadeo perdió dos de sus tres horas, **la del lunes 28 que canceló Rina y la del viernes 25 que canceló Manuel José.** Sandra manifestó además la intención de **retirar también la del miércoles 30**; si lo hace, **el área cierra el programa en S5** y queda sin ninguna sesión en la semana de cierre."
+    },
+    {
+      "area": "Mercadeo",
+      "sesion": "S7",
+      "fecha": "2026-09-30",
+      "hora": "10:00",
+      "canal": "#mercadeo",
+      "quien_cancela": "IAM — Sandra Curvelo",
+      "motivo": "Retirada del calendario por la mentoría. El espacio se reasignó a la reunión de organización del cierre.",
+      "causa": "retirada por la mentoría",
+      "aviso_en_canal": "",
+      "reagendada": false,
+      "compromiso": "",
+      "cuenta_como": "no realizada",
+      "nota": "**Segunda sesión de Mercadeo retirada por la mentoría**, después de la del lunes 28. _El área no la canceló._ **Con esta, Mercadeo queda sin ninguna sesión en la semana de cierre y termina el programa en S5.** *El espacio lo ocupa ahora una reunión para organizar el cierre, que no cuenta como sesión de Intelligence ni lleva acta de área.*"
     }
   ],
   "patron": {

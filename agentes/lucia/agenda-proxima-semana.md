@@ -2,7 +2,7 @@
 
 > **Es la semana de cierre.** El 3 cae sábado, así que el último día es el **lunes 5 de octubre**.
 
-**24 sesiones de IAM™ Intelligence** en el calendario: 22 entre el lunes 28 y el viernes 2, y
+**23 sesiones de IAM™ Intelligence** en el calendario: 21 entre el lunes 28 y el viernes 2, y
 dos el lunes 5. *Verificado contra el calendario el viernes 25 por la noche.*
 
 **Punto de partida.** Cada número sale de lo que el área lleva hecho al cerrar el viernes 25,
@@ -22,7 +22,6 @@ no del título del evento. *Cuando una sesión no se hace, el número no avanza.
 | Mar 29 | 2:00 p. m. | Agencia de Empleo | `agenciaempleo@` · `fomentoempresarial@` | **S7** | dice «S» — falta el número |
 | Mar 29 | 3:00 p. m. | Subsidio | `atencion_reclamos@` | **S7** | correcto |
 | Mar 29 | 4:00 p. m. | Comunicaciones | el grupo completo | **S10** | dice «Manuel individual» y es el grupo |
-| Mié 30 | 10:00 a. m. | Mercadeo | Manuel · `comercializacionyventas@` | **S6** | dice «Sesion 8» — bajar a 6 |
 | Mié 30 | 11:00 a. m. | Jurídica | `secretaria_juridica@` · `contratacion@` | **S13** | dice «S» — falta el número |
 | Mié 30 | 3:00 p. m. | Subsidio | `atencion_reclamos@` | **S8** | correcto |
 | Mié 30 | 4:00 p. m. | Comunicaciones | `comunicaciones@` | **S11** | dice «Manuel individual» |
@@ -37,10 +36,17 @@ no del título del evento. *Cuando una sesión no se hace, el número no avanza.
 | **Lun 5 oct** | 10:00 a. m. | Tecnología | Olga Lucía · `auxiliar_gt@` | **S8** | *el título no lleva el formato* |
 | **Lun 5 oct** | 4:00 p. m. | Comunicaciones | el grupo completo | **S13** | *el título no lleva el formato* |
 
-**No cuenta:** el miércoles 30 a las 8:00 a. m. hay una reunión **presencial de dos horas con el
-subdirector administrativo**, con `comunicaciones@` invitado. *No lleva numeración de sesión.*
+## Lo que está en el calendario y no cuenta
 
-## Los catorce asuntos por corregir
+| Día | Hora | Qué es | Por qué no cuenta |
+|---|---|---|---|
+| Mié 30 | 8:00 a. m. | Presencial con el subdirector administrativo · 2 horas | No es sesión de canal |
+| Mié 30 | 10:00 a. m. | «Comunicaciones María Elvira cierres» | **Es para organizar la reunión de cierre**, no es sesión de Intelligence |
+
+*Confirmado por Sandra:* la del miércoles a las 10:00 **ocupa el espacio que dejó Mercadeo**,
+pero **no se numera ni lleva acta de área.**
+
+## Los trece asuntos por corregir
 
 | Cuándo | Dice | Debe decir |
 |---|---|---|
@@ -49,7 +55,6 @@ subdirector administrativo**, con `comunicaciones@` invitado. *No lleva numeraci
 | Lun 28, 4:00 · Educación | sin formato | **S4** |
 | Mar 29, 2:00 · Agencia de Empleo | S | **S7** |
 | Mar 29, 4:00 · Comunicaciones | «Manuel individual» | **S10** · es el grupo |
-| Mié 30, 10:00 · Mercadeo | Sesion 8 | **S6** |
 | Mié 30, 11:00 · Jurídica | S | **S13** |
 | Mié 30, 4:00 · Comunicaciones | «Manuel individual» | **S11** |
 | Mié 30, 5:00 · IPS | S | **S5** |
@@ -75,24 +80,26 @@ Sub. Operativa y la de Tecnología del viernes 2.
 | Sub. Admin. y Financiera | S10 | S11 | **S11** |
 | Contabilidad | S8 | S9 | **S9** |
 | Agencia de Empleo | S6 | S7 | **S7** |
-| Mercadeo | S5 | S6 | **S6** |
 | IPS | S4 | S5 | **S5** |
 | Educación | S3 | S4 | **S4** |
+| Mercadeo | S5 | *sin sesiones* | **S5** |
 
 ## Lo que cambió respecto a la versión anterior
 
 **Entraron ocho sesiones nuevas** — Agencia de Empleo el martes, IPS el miércoles, tres más de
 Comunicaciones, Subsidio el jueves, Contabilidad el viernes 2 y Tecnología el lunes 5.
 
-**Y salió una: la de Mercadeo del lunes 28 a las 4:00 p. m. ya no está en el calendario.**
-*Conviene confirmarlo* — el área queda con una sola sesión en la semana de cierre, la del
-miércoles 30 con Manuel José.
+**Y salieron las dos de Mercadeo.** *Las retiró Sandra*, no el área: primero la del lunes 28 a
+las 4:00 p. m. y después la del miércoles 30 a las 10:00 a. m., **tras una semana en la que el
+área perdió dos de sus tres horas por cancelaciones propias.** El espacio del miércoles lo ocupa
+ahora la reunión de organización del cierre. **Mercadeo queda sin ninguna sesión en la semana de
+cierre y termina el programa en S5.**
 
 **El viernes 2 ya no está vacío:** tiene Tecnología a las 9:00 y Contabilidad a las 11:00.
 
 ## Las áreas que no aparecen en toda la semana
 
-De las 18 activas, **seis no tienen nada agendado** en lo que resta del programa:
+De las 18 activas, **siete no tienen nada agendado** en lo que resta del programa:
 
 | Área | Última sesión |
 |---|---|
@@ -102,6 +109,7 @@ De las 18 activas, **seis no tienen nada agendado** en lo que resta del programa
 | Gerencia Financiera | S2 · 3 de septiembre |
 | Planeación | S2 · 3 de septiembre |
 | Cumplimiento | S2 · 22 de septiembre |
+| **Mercadeo** | S5 · 24 de septiembre · *sesiones retiradas* |
 
 ## Nota sobre el calendario
 
