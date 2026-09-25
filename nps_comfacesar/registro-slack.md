@@ -15,6 +15,67 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⭕️ 25 sep · 7:30 · La semana de cierre pasa de 17 a 23, y Agencia de Empleo vuelve
+
+**Corte del viernes. Fecha verificada contra el reloj y contra el último commit del repo:
+viernes 25 de septiembre, 7:13 a. m.**
+
+### Seis citas nuevas entraron anoche, ninguna pedida esa noche
+
+**Agencia de Empleo, martes 29 a las 2:00 p. m.**, con `agenciaempleo@` y
+`fomentoempresarial@`. **IPS, miércoles 30 a las 5:00**, grupal con los tres correos de SST.
+**Servicios Sociales** y **Sub. Operativa** el jueves 1. **Tecnología dos**, viernes 2 a las
+9:00 y lunes 5 a las 10:00. *Con eso el viernes 2 deja de estar vacío.*
+
+**Agencia de Empleo sale de la lista de áreas sin fecha, que baja de seis a cinco.** Llevaba
+desde el 10 de septiembre parada. **El mensaje que pidió Sandra salió el martes 22 a las 4:53**,
+`1790114034.953989`, con el ángulo del agente de recobros funcionando hasta el envío del correo.
+Siete días después el área tomó fecha. *No lo escribo como causa probada, lo escribo como lo que
+pasó y en qué orden.*
+
+**Quedan cinco sin nada:** Vivienda, Tesorería, Talento Humano, Planeación y Gerencia Financiera.
+
+### Lo del jueves, completo
+
+**De las cinco citas: una se hizo y quedó completa, dos se cancelaron, y dos no dejaron rastro.**
+
+- **Mercadeo S5** con Rina, 8:01 a 9:03, **1 de 1**. Grabación, informe y —ya hoy— acta.
+- **Contabilidad S8, cancelada.** Es la **primera caída del área en todo el programa**, que iba
+  en siete sesiones sin una sola falta. Lucía publicó el aviso, `1790277442.561529`.
+- **Sub. Administrativa S11, cancelada**, la de Liliany. Aviso `1790277446.672499`.
+- **Jurídica S11 y Servicios Sociales S9: sin grabación, sin acta y sin informe**, ni en Dropbox
+  ni en los canales. **No se cuentan.** Es lo primero que hay que confirmar hoy.
+
+**Las causas pasan a ocho inasistencias sin aviso, siete cancelaciones y una falla técnica.**
+
+**Y la consecuencia que importa hoy:** como el número de Contabilidad no avanza, **la de esta
+tarde a las 2:00 es la S8, no la S9 que dice el evento, y es la última sesión que el área tiene
+en todo el programa.** No aparece ni una vez en la semana de cierre.
+
+### Las cinco del miércoles quedaron completas
+
+Entró de madrugada **el acta de Comunicaciones S8**, la última que faltaba. **La deuda
+documental del programa queda en tres cosas y ninguna es de esta semana:** el acta de Subsidio
+S4, el acta y el informe de la S2 de Vivienda, y los cinco informes de asistencia antiguos.
+
+### Lo que hay que corregir en el calendario
+
+**Ocho asuntos**, dos de ellos nuevos de hoy: Contabilidad de esta tarde dice S9 y es **S8**;
+Sub. Admin del lunes dice S12 y es **S11**; Educación del lunes va sin número (**S4**); las tres
+de Jurídica dicen solo «S» (**S12, S13, S14**); Agencia de Empleo del martes dice «Empleo S»
+(**S7**); y las dos de Comunicaciones, martes y miércoles, **dicen «Manuel individual»** —un
+título copiado de una sesión de Mercadeo— pese a ir a los correos del área.
+
+**Dos cosas más para mirar, sin dramatizar ninguna:**
+
+- **En Jurídica del miércoles 30 entró un correo personal a la lista de invitados**, junto a
+  `secretaria_juridica@` y `contratacion@`. Queda dicho aquí, no en el tablero compartido.
+- **El miércoles 30, de 8:00 a 10:00, hay una presencial con Julio Acosta, subdirector
+  administrativo**, con título sin el formato del programa. **No la conté como sesión** porque
+  puede ser institucional. Va al tablero como cita por confirmar.
+
+**Publicado:** Termómetro v75. Nada salió a Slack.
+
 ## ⛔ 24 sep · 12:25 · Liliany cancela la de hoy, y Educación vuelve a tomar fecha
 
 **Barrido de la hora. El único mensaje del cliente en todo el día es un directo de Liliany
