@@ -1157,3 +1157,13 @@ avisos se mostraron a Sandra antes de enviarlos, *como corresponde a los mensaje
 ser la S8, y **es la última que tiene el área en todo el programa**, porque no aparece en la
 semana de cierre—. **Sub. Administrativa y Financiera se queda en S10**, y la del lunes 28 con
 Rafael pasa a ser la S11.
+
+## 25 de septiembre de 2026
+
+| Canal | Qué se publicó | message_ts |
+|---|---|---|
+| `#juridica` | Grabación S11 | `1790343935.898759` |
+
+**Los insumos de Jurídica S11 todavía no están en Dropbox.** La carpeta `Sesion 11` no existe
+—el área va hasta `Sesion 10`, del 23 de septiembre—, así que *el acta queda a la espera del
+informe de asistencia y la transcripción.*
