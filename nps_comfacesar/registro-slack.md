@@ -15,6 +15,54 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📤 25 sep · 4:15 p. m. · Publicado en `#comunicaciones`, y la agenda de cierre reverificada
+
+**Publicado con aprobación de Sandra**, `1790369732.961599`. Paso 0 antes: contrato, registro de
+Lucía —sin reservas vigentes— y los últimos cinco mensajes del canal.
+
+**Abrí reconociendo que la S9 la tomó María Elvira**, para que el canal no quedara con el hilo
+raro del mensaje de las 11:02 preguntándole a Vidiana si entraba, sin respuesta. El cuerpo es el
+que aprobó Sandra: de las tres fechas de Vidiana **solo la del lunes 5 a las 5:00 alcanza**, y
+las del **14 y el 22 de octubre quedan fuera**; se le ofrece mover una a la semana que viene.
+
+**Salí por encima de dos límites del contrato, y Sandra lo autorizó expresamente:** ese canal ya
+tenía dos mensajes nuestros hoy, y seguía abierta la ventana de 48 horas del acta del jueves.
+
+### La agenda de cierre cambió otra vez, y bastante
+
+**Sandra canceló las dos de Mercadeo.** No solo la del miércoles 30: **la del lunes 28 a las 4:00
+también salió del calendario**, y ese cupo lo tomó Educación. **Mercadeo cierra el programa en la
+S5 de Rina del jueves 24** y ni ella ni Manuel vuelven a sentarse.
+
+**Y dos citas de la semana de cierre no son del programa**, precisadas por Sandra:
+
+- **«Comunicaciones María Elvira cierres»**, miércoles 30 a las 10:00 — *otro frente.*
+- **La presencial con Julio Acosta**, miércoles 30 de 8:00 a 10:00 — sin formato del programa.
+
+**Lo que sí confirmó: la S9 de hoy con María Elvira es de Intelligence.** Queda en el tablero.
+
+**La semana de cierre baja de 23 a 22 sesiones**, y **las áreas sin ninguna fecha suben de cinco
+a ocho**: entran Mercadeo, Contabilidad —hizo su S8 hoy y no tiene más— y **Cumplimiento**, que
+este tablero no estaba contando. *Ese último es un error mío que llevaba días:* Cumplimiento no
+tiene fecha desde su S2 del 22 y nunca apareció en la lista.
+
+### El día cerró en 94
+
+**Tecnología S6**, Olga Lucía, 1 de 1. **Comunicaciones S9**, María Elvira, 1 h 7 min, 1 de 1.
+**Contabilidad S8**, Carlos Lozano, 1 h 17 min, 1 de 1. Acumulado **177 sobre 193**, 92%, con 93
+medidas sobre 94.
+
+### El recordatorio general queda armado para el lunes
+
+**Ocho canales**, aprobado el texto por Sandra con el criterio de «las que no tienen nada ni la
+otra semana ni el lunes 5»: `#planeacion`, `#tesoreriaa`, `#talento-humano`,
+`#gerencia-financiera`, `#vivienda`, `#cumplimiento`, `#contabilidad` y `#mercadeo`.
+
+**Sale el lunes 28 a primera hora, en vivo, no programado.** *La razón es la del 27 de agosto:*
+un mensaje programado no se puede cancelar por API, y ocho de golpe es justo donde eso duele.
+
+**Publicado:** Termómetro v78, Mesa v31, Mesa nueva v3.
+
 ## ⛔ 25 sep · 3:30 p. m. · Me equivoqué con Comunicaciones: la S9 sí se hizo
 
 **Publiqué que el área no se había sentado hoy. Es falso y Sandra lo corrigió.** La Sesión 9
