@@ -15,6 +15,51 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⭕️ 25 sep · 1:25 p. m. · Las dos que faltaban sí se hicieron, y el programa pasa a 92
+
+**Los soportes llegaron doce horas tarde, no las sesiones.** Esta mañana entraron a Dropbox,
+entre las 8:45 y las 8:48, los de **Jurídica S11** y **Servicios Sociales S9**, las dos del
+jueves que a las 7:30 no tenían ni grabación ni acta ni informe.
+
+- **Jurídica S11** — Lilibeth Costa, 10:01 a 11:02, **1 de 1**.
+- **Servicios Sociales S9** — 11:02 a 12:03, **2 de 2**.
+- **Tecnología S6**, la primera de hoy — Olga Lucía Barros, 9:00 a 10:00, **1 de 1**. Le falta
+  el PDF del acta en Dropbox; Lucía ya publicó el acta en el canal.
+
+**El tablero de la mañana no estaba mal, estaba temprano.** Lo dejé dicho así en el corte para
+que no se lea como un cambio de criterio: la regla sigue siendo que sin soporte no computa.
+
+**Conteo recontado desde Dropbox: 92 sesiones**, 286 archivos, 91 carpetas más la S2 de
+Planeación suelta. **El acumulado sube de 91% a 92%**, 175 sobre 191, porque las tres entraron
+completas. Cobertura: 91 medidas sobre 92.
+
+### El dato que el 2 de 2 de Servicios Sociales esconde
+
+**Juan Pablo Curvelo estuvo de 11:05 a 11:32 y Lilian Paola Ramos entró a las 11:32:53**, justo
+cuando él salía. Asistieron los dos y el 100% es correcto, pero **no coincidieron ni un minuto**:
+cada uno vio media sesión. *El área se está turnando el espacio en vez de compartirlo.* Queda en
+el tablero porque es lo que un porcentaje no alcanza a decir.
+
+### Lo del enlace de la Mesa, que costó una sesión en vivo
+
+**Sandra estaba con María Elvira cuando ella dijo que el tablero no estaba actualizado.** Sandra
+veía el 25 de septiembre; María Elvira, el 9. **El enlace compartido de la Mesa quedó fijado a
+la versión del 9**, así que las veintinueve republicaciones posteriores nunca le llegaron.
+
+**Regla nueva:** *que yo republique no significa que el invitado lo vea.* El dueño siempre ve lo
+último; el invitado ve la versión a la que quedó atado el enlace. **Se comprueba abriendo el
+enlace en una ventana de incógnito**, no preguntando.
+
+**Se publicó la Mesa en un enlace limpio**, `GW7hUimEx9H3AaZtegxdYE`, ya compartido y verificado
+como «los invitados ven las actualizaciones al instante». *La Mesa vieja sigue viva y también
+quedó actualizada*, por si alguien más tiene ese enlace.
+
+**Y queda abierto lo que no puedo tocar yo:** la **Sala de Control** sigue privada y con corte
+del 18. Es la de horas y pesos, la que más le interesa a una dirección, y desde la Mesa se ve
+como una tarjeta que no abre.
+
+**Publicado:** Termómetro v76, Mesa v30, Mesa nueva v2. Nada salió a Slack.
+
 ## ⭕️ 25 sep · 7:30 · La semana de cierre pasa de 17 a 23, y Agencia de Empleo vuelve
 
 **Corte del viernes. Fecha verificada contra el reloj y contra el último commit del repo:
