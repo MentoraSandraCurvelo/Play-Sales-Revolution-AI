@@ -15,6 +15,45 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🔎 25 sep · 4:25 p. m. · Corrida horaria: tres citas nuevas y una corrección al tablero
+
+**No se publicó nada en Slack.** La corrida cayó a las 4:11 p. m., a menos de una hora del filo de
+las 5, y no había nada urgente. Los siete canales en silencio están sin preguntas pendientes.
+
+**Lo que trajo el registro de Lucía, y se confirmó en el calendario antes de escribirlo:**
+**Contabilidad tomó el viernes 2 de octubre a las 11:00.** Mi tablero decía, en la celda del área y
+en la nota del día, que la S8 de hoy era la última del programa y que Contabilidad no aparecía ni
+una vez en la semana de cierre. **Era falso desde las 4:25.**
+
+**Y al reverificar aparecieron dos más**, las dos de **Subsidio con Avelino**, el viernes 2 a las
+3:00 y el lunes 5 a las 11:00. La semana de cierre pasa de **22 a 25 sesiones**, el viernes 2 deja
+de estar vacío y las **áreas sin fecha bajan de ocho a siete**.
+
+*Publicado:* Termómetro **v79**, Mesa **v32**, Mesa nueva **v4**.
+
+**Cambia el recordatorio del lunes:** iba a ocho canales y ahora va a siete. **Contabilidad sale.**
+Los que quedan: `#planeacion`, `#tesoreriaa`, `#talento-humano`, `#gerencia-financiera`,
+`#vivienda`, `#cumplimiento`, `#mercadeo`.
+
+### El mensaje a Vidiana envejeció en cuarenta minutos
+
+El de las 3:55 le ofrecía como cupos libres el **viernes 2 a las 11:00, 2:00 y 3:00**. A las 4:25
+**las 11:00 las tenía Contabilidad y las 3:00 Subsidio**. Solo sigue libre las 2:00. No se corrigió
+hoy: el canal va muy por encima del cupo y sigue abierta la ventana de 48 horas. *Y un
+reagendamiento es de Sandra, no mío.*
+
+*La regla que sale:* **ofrecer cupos libres es publicar un dato que se vence.** Si se ofrecen,
+se dice contra qué hora se miraron.
+
+### Lucía cuenta 95 y yo 94
+
+Ella sumó de a uno sobre una base de 93; yo recuento contra Dropbox. **Ninguna carpeta de sesión se
+movió después de las 20:52 UTC**, y las dos últimas —Comunicaciones S9 y Contabilidad S8— ya están
+dentro de mis 94. La diferencia está en su base, no en el cierre del día. *Queda por reconciliar
+carpeta por carpeta*, que es lo único que lo zanja.
+
+---
+
 ## 📤 25 sep · 4:15 p. m. · Publicado en `#comunicaciones`, y la agenda de cierre reverificada
 
 **Publicado con aprobación de Sandra**, `1790369732.961599`. Paso 0 antes: contrato, registro de
