@@ -1240,3 +1240,14 @@ de volver a descargarla desde Teams. El informe de asistencia sí está completo
 
 *Dato de la asistencia:* María Elvira entró a las 11:12, estuvo 24 segundos, se cayó y volvió a
 entrar a las 11:13 — de ahí en adelante estuvo la hora completa.
+
+| Canal | Qué se publicó | message_ts |
+|---|---|---|
+| `#contabilidad` | Grabación S8 | `1790369517.614489` |
+
+**Contabilidad S8 se hizo.** *El asunto del evento decía «S9»*, pero como la del jueves 24 se
+canceló **el número no avanza**: el área venía de S7 y esta es la **S8**. La grabación se
+publicó como Sesión 8. **Con esto el corte queda en 95 sesiones ejecutadas.**
+
+*Y el área ya no cierra en esta sesión:* tomó además el **viernes 2 de octubre a las 11:00**,
+que será su S9 y la última del programa.

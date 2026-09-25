@@ -33,7 +33,7 @@ De las 26 citas de la semana, **22 son de IAM™ Intelligence en Comfacesar**. L
 | ~~Jue 24~~ | 3:00 p. m. | Sub. Admin. y Financiera | Liliany | **no se hizo** | cancelación del área |
 | Vie 25 | 9:00 a. m. | Tecnología | Olga Lucía Barros | **S6** ✔ | **se hizo** · acta publicada |
 | Vie 25 | 11:00 a. m. | Comunicaciones | María Elvira Marulanda | **S9** ✔ | **se hizo** · sesión de ejercicios · el asunto decía «vidiana» |
-| Vie 25 | 2:00 p. m. | Contabilidad | Carlos Lozano | **S8** | dice «S9» — devolver a 8 |
+| Vie 25 | 2:00 p. m. | Contabilidad | Carlos Lozano | **S8** ✔ | **se hizo** · el asunto decía «S9» |
 | ~~Vie 25~~ | 3:00 p. m. | Mercadeo | Manuel José Gutiérrez | **no se hizo** | cancelación del área · cita médica |
 
 **Los asuntos de Liliany ya no hacen falta corregirlos.** Las del lunes 21 y el miércoles 23 se
@@ -48,7 +48,6 @@ Financiera** a las 3:00. *Ninguno de los dos números avanza.*
 
 | Cuándo | Dice | Debe decir |
 |---|---|---|
-| Vie 25, 2:00 p. m. · Contabilidad | S9 | **S8** |
 | Lun 28, 3:00 p. m. · Sub. Admin. y Financiera (Rafael) | S12 | **S11** |
 | Lun 28, 5:00 p. m. · Educación | sin número | **S4** |
 
