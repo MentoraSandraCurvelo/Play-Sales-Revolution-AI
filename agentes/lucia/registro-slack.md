@@ -1181,3 +1181,19 @@ de la negociación.** El acta va a un canal que leen el área y la contraparte d
 de licencias, de membresías y de equipos; *esa conversación no entra en los documentos.* Sí
 entró, por ser material para el área, **que Servicios Sociales está entre las cinco áreas que
 presentarán sus procesos ante la dirección** — sin la justificación comercial detrás.
+
+### Viernes 25 — confirmación de las tres sesiones del día
+
+| Canal | Qué se publicó | message_ts |
+|---|---|---|
+| `#comunicaciones` | Confirmación de la S9 de las 11:00 | `1790352161.192769` |
+| `#contabilidad` | Confirmación de la S8 de las 2:00 | `1790352165.014019` |
+| `#mercadeo` | Confirmación de la S6 de las 3:00 | `1790352167.629779` |
+
+Pedido por Sandra: **que cada área confirme por su canal** si la sesión va, para no reservar el
+espacio en vano. *Los tres mensajes salieron directo, sin mostrarlos antes, porque Sandra los
+pidió expresamente.*
+
+A cada uno se le puso su consecuencia propia: **Contabilidad**, que la de hoy es su última
+sesión del programa; **Mercadeo**, que le quedan tres y son las que dejan su material para el
+cierre; **Comunicaciones**, que la sesión estaba empezando en ese momento.
