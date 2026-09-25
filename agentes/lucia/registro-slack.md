@@ -1232,3 +1232,11 @@ asunto del evento decía «vidiana». *Fue una sesión de ejercicios como cualqu
 sesiones ejecutadas.
 
 *Los insumos todavía no están en Dropbox:* la carpeta `Sesion 9` de Comunicaciones no existe.
+
+**La transcripción de Comunicaciones S9 llegó incompleta.** El archivo pesa **657 bytes** y tiene
+**cinco líneas**: se corta en el minuto **2:28**, con un «no te escucho», cuando la sesión duró
+**1 hora 7 minutos** (11:11 a 12:18). *Sin transcripción no hay acta*, así que queda a la espera
+de volver a descargarla desde Teams. El informe de asistencia sí está completo.
+
+*Dato de la asistencia:* María Elvira entró a las 11:12, estuvo 24 segundos, se cayó y volvió a
+entrar a las 11:13 — de ahí en adelante estuvo la hora completa.
