@@ -13,37 +13,51 @@ no del título del evento. *Cuando una sesión no se hace, el número no avanza.
 | Día | Hora | Área | Quién entra | Sesión | Título del evento |
 |---|---|---|---|---|---|
 | Lun 28 | 10:00 a. m. | Subsidio | `coordinacionsubsidioyaportes@` | **S5** | ✔ ya está |
-| Lun 28 | 11:00 a. m. | Jurídica | `secretaria_juridica@` | **S12** | `⭕️Comfacesar \| Juridica \| Sesion 12 \| IAM™ Intelligence` |
+| Lun 28 | 11:00 a. m. | Jurídica | `secretaria_juridica@` | **S12** | `⭕️Comfacesar \| Juridica \| Sesion 12 \| ✔ corregido |
 | Lun 28 | 2:00 p. m. | Subsidio | `atencion_reclamos@` | **S6** | ✔ ya está |
-| Lun 28 | 3:00 p. m. | Sub. Admin. y Financiera | Rafael · `requerimientoscontratos@` | **S11** | `⭕️Comfacesar \| Sub. Financiera \| Sesion 11 \| IAM™ Intelligence Rafael` |
+| Lun 28 | 3:00 p. m. | Sub. Admin. y Financiera | Rafael · `requerimientoscontratos@` | **S11** | `⭕️Comfacesar \| Sub. Financiera \| Sesion 11 \| ✔ corregido |
 | Lun 28 | 4:00 p. m. | Educación | `rectoriacolegio@` · `auxiliareducacion@` | **S4** | ✔ ya está · *sobra «Rafael» al final* |
 | Mar 29 | 10:00 a. m. | Servicios Sociales | `pro_juniorss@` | **S10** | ✔ ya está |
 | Mar 29 | 11:00 a. m. | Sub. Operativa y Comercial | `asistentesuboperativa@` · `innovacion@` | **S5** | ✔ ya está |
-| Mar 29 | 2:00 p. m. | Agencia de Empleo | `agenciaempleo@` · `fomentoempresarial@` | **S7** | `⭕️Comfacesar \| Empleo \| Sesion 7 \| IAM™ Intelligence` |
+| Mar 29 | 2:00 p. m. | Agencia de Empleo | `agenciaempleo@` · `fomentoempresarial@` | **S7** | `⭕️Comfacesar \| Empleo \| Sesion 7 \| ✔ corregido |
 | Mar 29 | 3:00 p. m. | Subsidio | `atencion_reclamos@` | **S7** | ✔ ya está |
-| Mar 29 | 4:00 p. m. | Comunicaciones | el grupo completo | **S10** | `⭕️Comfacesar \| Comunicaciones \| Sesion 10 \| IAM™ Intelligence` |
-| Mié 30 | 11:00 a. m. | Jurídica | `secretaria_juridica@` · `contratacion@` | **S13** | `⭕️Comfacesar \| Juridica \| Sesion 13 \| IAM™ Intelligence` |
+| Mar 29 | 4:00 p. m. | Comunicaciones | el grupo completo | **S10** | `⭕️Comfacesar \| Comunicaciones \| Sesion 10 \| ✔ corregido |
+| Mié 30 | 11:00 a. m. | Jurídica | `secretaria_juridica@` · `contratacion@` | **S13** | `⭕️Comfacesar \| Juridica \| Sesion 13 \| ✔ corregido |
 | Mié 30 | 3:00 p. m. | Subsidio | `atencion_reclamos@` | **S8** | ✔ ya está |
-| Mié 30 | 4:00 p. m. | Comunicaciones | `comunicaciones@` | **S11** | `⭕️Comfacesar \| Comunicaciones \| Sesion 11 \| IAM™ Intelligence` |
-| Mié 30 | 5:00 p. m. | IPS | `sst@` · `asistentesst@` · `auxiliarsst@` | **S5** | `⭕️Comfacesar \| IPS \| Sesion 5 \| IAM™ Intelligence` |
-| Jue 1 oct | 8:00 a. m. | Jurídica | `secretaria_juridica@` | **S14** | `⭕️Comfacesar \| Juridica \| Sesion 14 \| IAM™ Intelligence` |
+| Mié 30 | 4:00 p. m. | Comunicaciones | `comunicaciones@` | **S11** | `⭕️Comfacesar \| Comunicaciones \| Sesion 11 \| ✔ corregido |
+| Mié 30 | 5:00 p. m. | IPS | `sst@` · `asistentesst@` · `auxiliarsst@` | **S5** | `⭕️Comfacesar \| IPS \| Sesion 5 \| ✔ corregido |
+| Jue 1 oct | 8:00 a. m. | Jurídica | `secretaria_juridica@` | **S14** | `⭕️Comfacesar \| Juridica \| Sesion 14 \| ✔ corregido |
 | Jue 1 oct | 10:00 a. m. | Subsidio | `coordinacionsubsidioyaportes@` | **S9** | ✔ ya está |
 | Jue 1 oct | 11:00 a. m. | Servicios Sociales | `pro_juniorss@` · `serviciossociales@` | **S11** | ✔ ya está |
-| Jue 1 oct | 2:00 p. m. | Comunicaciones | César Reyes · `diseno@` | **S12** | `⭕️Comfacesar \| Comunicaciones \| Sesion 12 \| IAM™ Intelligence César` |
+| Jue 1 oct | 2:00 p. m. | Comunicaciones | César Reyes · `diseno@` | **S12** | `⭕️Comfacesar \| Comunicaciones \| Sesion 12 \| ✔ corregido |
 | Jue 1 oct | 3:00 p. m. | Sub. Operativa y Comercial | `asistentesuboperativa@` · `innovacion@` | **S6** | ✔ ya está |
 | Vie 2 oct | 9:00 a. m. | Tecnología | `auxiliar_gt@` | **S7** | ✔ ya está |
-| Vie 2 oct | 11:00 a. m. | Contabilidad | Carlos Lozano · `asistentecontabilidad@` | **S9** | `⭕️Comfacesar \| Contabilidad \| Sesion 9 \| IAM™ Intelligence` |
-| Vie 2 oct | 3:00 p. m. | Subsidio | Avelino · `liquidacionsubsidio@` | **S10** | `⭕️Comfacesar \| Subsidio \| Sesion 10 \| IAM™ Intelligence Avelino` |
-| **Lun 5 oct** | 10:00 a. m. | Tecnología | Olga Lucía · `auxiliar_gt@` | **S8** | `⭕️Comfacesar \| Tecnologia \| Sesion 8 \| IAM™ Intelligence` |
-| **Lun 5 oct** | 11:00 a. m. | Subsidio | Avelino · `liquidacionsubsidio@` | **S11** | `⭕️Comfacesar \| Subsidio \| Sesion 11 \| IAM™ Intelligence Avelino` |
-| **Lun 5 oct** | 4:00 p. m. | Comunicaciones | el grupo completo | **S13** | `⭕️Comfacesar \| Comunicaciones \| Sesion 13 \| IAM™ Intelligence` |
-| **Lun 5 oct** | 5:00 p. m. | Comunicaciones | Vidiana · `profesionalcomunicaciones@` | **S14** | `⭕️Comfacesar \| Comunicaciones \| Sesion 14 \| IAM™ Intelligence Vidiana` |
+| Vie 2 oct | 11:00 a. m. | Contabilidad | Carlos Lozano · `asistentecontabilidad@` | **S9** | `⭕️Comfacesar \| Contabilidad \| Sesion 9 \| ✔ corregido |
+| Vie 2 oct | 3:00 p. m. | Subsidio | Avelino · `liquidacionsubsidio@` | **S10** | `⭕️Comfacesar \| Subsidio \| Sesion 10 \| ✔ corregido |
+| **Lun 5 oct** | 10:00 a. m. | Tecnología | Olga Lucía · `auxiliar_gt@` | **S8** | `⭕️Comfacesar \| Tecnologia \| Sesion 8 \| ✔ corregido |
+| **Lun 5 oct** | 11:00 a. m. | Subsidio | Avelino · `liquidacionsubsidio@` | **S11** | `⭕️Comfacesar \| Subsidio \| Sesion 11 \| ✔ corregido |
+| **Lun 5 oct** | 4:00 p. m. | Comunicaciones | el grupo completo | **S13** | `⭕️Comfacesar \| Comunicaciones \| Sesion 13 \| ✔ corregido |
+| **Lun 5 oct** | 5:00 p. m. | Comunicaciones | Vidiana · `profesionalcomunicaciones@` | **S14** | `⭕️Comfacesar \| Comunicaciones \| Sesion 14 \| ✔ corregido |
 
-**Once ya están bien.** Las cinco de Subsidio con los correos de siempre, las dos de Servicios
-Sociales, las dos de Sub. Operativa, Tecnología del viernes 2 y Educación del lunes.
+## Verificación del 25 de septiembre por la noche
 
-**Quince hay que corregirlos.** *El más delicado:* **Sub. Financiera del lunes dice «S12» y
-es la S11**, porque la sesión de Liliany del jueves 24 se canceló.
+**Los 26 números están correctos en el calendario.** Sandra los corrigió uno por uno y se
+verificó evento por evento contra esta tabla. *Incluida la que más importaba:* **Sub. Financiera
+del lunes 28 quedó en S11**, no S12.
+
+**Quedan cuatro detalles de redacción que no afectan la numeración:**
+
+| Cuándo | Qué dice | Qué pasa |
+|---|---|---|
+| Lun 28, 4:00 · Educación | «… IAM™ Intelligence **Rafael**» | Sobra el nombre, es de Educación |
+| Mar 29, 4:00 · Comunicaciones | «… **Manuel individual**» | Entran los cinco correos del área, no es individual |
+| Jue 1, 2:00 · Comunicaciones | «… Cesar individual **es la primera de e l**» | El título quedó cortado |
+| Lun 5, 11:00 · Subsidio | «**Subisidio**» | Falta una letra |
+
+**Y la marca quedó mal escrita en siete eventos:** dice `IAM™Intellgience` en vez de
+`IAM™ Intelligence` — Sub. Operativa del martes y del jueves, IPS, Contabilidad del viernes 2,
+Tecnología del lunes 5 y las dos de Comunicaciones del lunes 5. *Es el nombre registrado del
+programa y esos títulos los ven las áreas.*
 
 ## Lo que está en el calendario y no cuenta
 
