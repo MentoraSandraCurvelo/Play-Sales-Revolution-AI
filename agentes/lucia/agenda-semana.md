@@ -32,7 +32,7 @@ De las 26 citas de la semana, **22 son de IAM™ Intelligence en Comfacesar**. L
 | ~~Jue 24~~ | 2:00 p. m. | Contabilidad | Carlos Lozano | **no se hizo** | cancelación del área |
 | ~~Jue 24~~ | 3:00 p. m. | Sub. Admin. y Financiera | Liliany | **no se hizo** | cancelación del área |
 | Vie 25 | 9:00 a. m. | Tecnología | Olga Lucía Barros | **S6** ✔ | **se hizo** · acta publicada |
-| Vie 25 | 11:00 a. m. | Comunicaciones | — | **S9** | correcto |
+| Vie 25 | 11:00 a. m. | Comunicaciones | **María Elvira Marulanda** | **S9** ✔ | **se hizo** · el asunto decía «vidiana» |
 | Vie 25 | 2:00 p. m. | Contabilidad | Carlos Lozano | **S8** | dice «S9» — devolver a 8 |
 | ~~Vie 25~~ | 3:00 p. m. | Mercadeo | Manuel José Gutiérrez | **no se hizo** | cancelación del área · cita médica |
 
@@ -84,7 +84,9 @@ como S3 cuando por carpetas correspondía S2. *No se renumera:* el acta ya está
 área la tiene, así que la serie continúa desde lo publicado.
 
 **Comunicaciones del viernes es S9** aunque el asunto diga «vidiana» y el invitado sea
-`comunicaciones@`. El número lo da la serie del área, no quién entra a la sala.
+`comunicaciones@`. El número lo da la serie del área, no quién entra a la sala. *Y quedó
+confirmado con el caso:* **la sesión se hizo con María Elvira Marulanda**, no con Vidiana, y
+**cuenta igual como S9 del área.**
 
 ## Verificación contra Dropbox — 21 de septiembre
 
