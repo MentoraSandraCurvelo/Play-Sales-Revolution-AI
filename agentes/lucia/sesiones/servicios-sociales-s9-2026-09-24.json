@@ -1,0 +1,219 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SERVICIOS SOCIALES",
+  "area_completa": "",
+  "sesion_num": 9,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "24 de septiembre de 2026",
+  "fecha_corta": "24 septiembre 2026",
+  "subtitulo_meta": "Juan Pablo y Lilian Paola · 24 de septiembre de 2026 · 11:00 a. m. · 1 h 2 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Servicios Sociales — Comfacesar"],
+    ["Sesión", "N° 9 — Los dos agentes de la gerencia y el segundo entorno de herramientas"],
+    ["Fecha", "24 de septiembre de 2026"],
+    ["Duración de la sesión", "1 hora 2 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Juan Pablo — 27 min · Lilian Paola — 31 min (relevo)"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "2", "etiqueta": "Agentes construidos", "detalle": "Los dos sobre trabajo real de la gerencia"},
+    {"valor": "40", "etiqueta": "Páginas del informe ejecutivo", "detalle": "A mano habría tomado un mes"},
+    {"valor": "1", "etiqueta": "Error de origen detectado", "detalle": "El avance de obra no concordaba"},
+    {"valor": "0", "etiqueta": "Circuitos cerrados", "detalle": "A los dos les falta el envío"},
+    {"valor": "5", "etiqueta": "Áreas ante la dirección", "detalle": "Servicios Sociales es una de ellas"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Juan Pablo", "cargo": "Servicios Sociales — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Avanzado"},
+    {"nombre": "Lilian Paola", "cargo": "Servicios Sociales — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 9. El área llega con dos agentes construidos sobre trabajo real y uno de ellos ya detectando errores de origen. Lo que falta es el tramo final de los dos circuitos y el reporte que los sustenta.",
+  "riesgos": [
+    {
+      "titulo": "Ninguno de los dos circuitos termina en el envío",
+      "nivel": "ALTO",
+      "descripcion": "**Los dos agentes producen el documento, pero el envío lo sigue haciendo la persona.** _Al de recomendaciones le falta mandar la ficha a la subdirección; al de infraestructura, los correos de destino._ **Un circuito que se detiene antes del último paso deja el trabajo a medias** — y es justo el paso que más se repite.",
+      "responsable": "Juan Pablo / Antes de la S10"
+    },
+    {
+      "titulo": "Los agentes no reportan lo que van haciendo",
+      "nivel": "ALTO",
+      "descripcion": "**No hay tablero.** _Todo lo gestionado vive dentro de la conversación_, y **una conversación no se lee de arriba abajo para tomar una decisión.** El reporte —cuántas recomendaciones atendidas, cuántos proyectos monitoreados, qué hallazgos— **es lo que permite sustentar el trabajo ante la gerencia.**",
+      "responsable": "Juan Pablo / Antes de la S10"
+    },
+    {
+      "titulo": "El agente no tiene el histórico de lo ya propuesto",
+      "nivel": "MEDIO",
+      "descripcion": "**No sabe qué acciones de mejora se propusieron antes ni cuáles fueron aceptadas**, así que puede repetir algo ya descartado. _La salida es corregir dentro de la conversación con el agente, no por fuera:_ **así va acumulando memoria** y con el tiempo avisa por sí mismo qué ya se propuso y cómo salió.",
+      "responsable": "Juan Pablo / Permanente"
+    },
+    {
+      "titulo": "Comprometer una actividad que no se pueda cumplir",
+      "nivel": "ALTO",
+      "descripcion": "**Lo que se envía al ente de vigilancia queda sujeto a seguimiento.** _Entre las actividades propuestas hay una que exige sentarse antes con Planeación para saber si es alcanzable._ **Prometer algo y no cumplirlo es peor que no proponerlo** — por eso el filtro humano va antes del envío, no después.",
+      "responsable": "Juan Pablo / Antes de enviar"
+    },
+    {
+      "titulo": "La sesión se perdió a la mitad por conexión",
+      "nivel": "MEDIO",
+      "descripcion": "**La conexión se cayó a los 27 minutos y no se pudo recuperar**, y _los ejercicios estaban en ese equipo_. **La segunda mitad fue demostración y no práctica.** *Es la segunda sesión del área afectada por conexión en tres semanas* — la del 22 de septiembre se cayó por lo mismo.",
+      "responsable": "Área / Antes de la S10"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "ALTO", "titulo": "Cerrar el circuito de los dos agentes con el envío", "descripcion": "**Correos de destino, asunto y plantilla del cuerpo.** _Primero en borrador para revisar; cuando haya confianza, envío directo._", "responsable": "Juan Pablo", "plazo": "Antes de la S10"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Pedirle a cada agente su tablero de reporte", "descripcion": "**Cuántas recomendaciones atendidas, cuántos proyectos monitoreados, qué hallazgos y qué queda pendiente.** _El tablero es lo que se presenta; la conversación no._", "responsable": "Juan Pablo", "plazo": "Antes de la S10"},
+    {"num": "03", "nivel": "ALTO", "titulo": "Validar con Planeación las actividades antes de enviarlas", "descripcion": "**Especialmente la del plan de eficiencia de costos con metas e indicadores.** _Lo que se envía queda bajo seguimiento del ente de vigilancia._", "responsable": "Juan Pablo", "plazo": "Antes de enviar"},
+    {"num": "04", "nivel": "MEDIO", "titulo": "Corregir siempre dentro de la conversación del agente", "descripcion": "**Que sea él quien ajuste el documento**, no el área por fuera. _Es lo que le va construyendo el histórico._", "responsable": "Juan Pablo", "plazo": "Permanente"},
+    {"num": "05", "nivel": "MEDIO", "titulo": "Ponerle nombre a cada agente", "descripcion": "**Un nombre que diga de qué se trata**, para no perderse cuando sean varios. _A los proyectos se les nombra por rol; a los agentes, como a una persona._", "responsable": "Juan Pablo", "plazo": "Inmediato"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El agente de recomendaciones del ente de vigilancia",
+      "duracion": "~10 min",
+      "objetivo": "Revisar el primer agente construido por el área.",
+      "pasos": [
+        "**El encargo real:** la gerencia recibió la recomendación **N° 11 de la Superintendencia del Subsidio Familiar**, y hay que construir la acción de mejora y las actividades para cumplirla, en el formato oficial",
+        "_Lo que se le cargó:_ **el formato a diligenciar y la circular única que reglamenta el sistema de subsidio familiar**, para que el agente entendiera los términos del sistema antes de proponer nada",
+        "**El agente fue a la carpeta, tomó la ficha, la diligenció con los lineamientos dados y la dejó en la ruta indicada** — _no un documento aparte: la ficha misma, lista_",
+        "**Antes esto tomaba muchísimo tiempo:** pensar la acción de mejora, y después cada actividad sabiendo que luego hay que responder por ella"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Dónde entra el criterio humano",
+      "duracion": "~8 min",
+      "objetivo": "Separar lo que decide la persona de lo que ejecuta el agente.",
+      "pasos": [
+        "**Una de las actividades propuestas es correcta y ya estaba prevista** — actualizar el estudio técnico de costos de las tarifas de 2017",
+        "**Otra exige sentarse antes con Planeación:** formular y aprobar el plan de eficiencia de costos con metas e indicadores. _¿Se puede cumplir o no?_",
+        "**Y ese es el punto:** lo que se envía al ente de vigilancia **queda sujeto a seguimiento.** _Comprometer algo que después no se cumple es peor que no proponerlo_",
+        "_El criterio que quedó dicho:_ **la evaluación y la decisión son de la persona; corregir, documentar, enviar y concluir es del agente**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El agente de seguimiento a obras",
+      "duracion": "~8 min",
+      "objetivo": "Absorber un proceso que acaban de trasladarle al área.",
+      "pasos": [
+        "**A la gerencia le trasladaron el seguimiento de las obras de los centros recreacionales**, que antes llevaba Planeación — _con la metodología explicada a medias y los formatos ya diligenciados por otros_",
+        "**La cadencia quedó dictada:** el informe de interventoría del mes anterior llega en **los primeros diez días del mes**",
+        "**El agente tomó el último informe y llenó todos los formatos** con los avances al mes",
+        "**Falta el envío:** todavía no tiene los correos de destino, _así que el circuito se detiene antes del último paso_"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · El hallazgo: los datos de origen no concordaban",
+      "duracion": "~5 min",
+      "objetivo": "Registrar lo que apareció sin buscarlo.",
+      "pasos": [
+        "**Al revisar los documentos recibidos, el agente encontró errores en lo que venía de origen:** _«el avance de obra no concuerda con el avance real»_, en varios formatos",
+        "**No se limitó a señalarlo: hizo la recomendación de ajuste**, y tras la aprobación **corrigió y actualizó todos los formatos**",
+        "_Es un control que nadie estaba haciendo_ — **el área acababa de recibir el proceso y habría heredado los datos tal como venían**",
+        "**Ese es el argumento de fondo del agente:** no que haga el trabajo más rápido, sino que **no se le pasa nada**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · El uso que apareció por iniciativa propia",
+      "duracion": "~5 min",
+      "objetivo": "Comprobar que el método se transfirió.",
+      "pasos": [
+        "**Por fuera de la agenda y por cuenta propia**, se cruzaron dos versiones de un documento institucional extenso — _lo vigente contra una propuesta nueva_",
+        "**La instrucción: encontrar los puntos en común, señalar las diferencias y entregar recomendaciones.** Salió **un informe ejecutivo de 40 páginas**",
+        "**A mano, comparando capítulo por capítulo y sacando conclusiones, habría tomado un mes**",
+        "_Y lo relevante no es el resultado sino de dónde salió:_ **nadie enseñó ese ejercicio.** Salió de aplicar la lógica del método a un problema propio"
+      ]
+    },
+    {
+      "titulo": "Ejercicio F · El segundo entorno de herramientas",
+      "duracion": "~25 min",
+      "objetivo": "Saber qué conviene hacer en cada herramienta.",
+      "pasos": [
+        "**El método CREA —contexto, rol, entrega y acción— funciona igual en todas.** _Lo que cambia es en qué es fuerte cada una:_ **proyectos y circuitos por un lado; imagen, video y el entorno de documentos por otro**",
+        "**La investigación profunda parafrasea la instrucción y muestra el plan antes de buscar** — _en la demostración entendió mal un término y se corrigió el plan antes de arrancar._ **Entrega el documento con las fuentes y avisa al terminar**",
+        "**De ese documento salen la infografía y el tablero interactivo**, sobre el que se sigue preguntando: análisis por segmento, comparativas, ideas nuevas",
+        "**Los cuadernos admiten hasta 300 documentos, audios y sitios web**, y de ahí salen resumen, mapa mental, presentación, **podcast a dos voces**, tarjetas de estudio e infografías — _y se comparten por enlace, con analíticas de quién los abrió_",
+        "_El criterio de uso:_ **nunca dejar nada por defecto** — parametrizar idioma, extensión, tipo de imagen y colores corporativos"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 9 · 24 septiembre 2026",
+      "titulo": "El agente detectó errores en los datos que le entregaron",
+      "descripcion": "Al área le acababan de trasladar el seguimiento de las obras de los centros recreacionales. **Al revisar los formatos que venían de origen, el agente encontró que el avance de obra reportado no concordaba con el avance real** — en varios de ellos. _Hizo la recomendación y, aprobada, corrigió y actualizó todo._ **Nadie estaba haciendo ese control, y el área habría heredado los datos tal como llegaron.** *Ese es el argumento: no es que vaya más rápido, es que no se le pasa nada.*",
+      "estado": "Corregido",
+      "proximo_paso": "Dejarlo como control fijo del circuito mensual",
+      "target": "Antes de la S10"
+    },
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 9 · 24 septiembre 2026",
+      "titulo": "Dos agentes sobre trabajo real de la gerencia",
+      "descripcion": "**El primero atiende las recomendaciones del ente de vigilancia:** se le cargaron el formato oficial y la circular que reglamenta el sistema, **y devuelve la ficha diligenciada en la ruta indicada.** **El segundo lleva el seguimiento mensual de obras**, con la cadencia dictada —el informe de interventoría llega en los primeros diez días del mes—. _A los dos les falta el mismo tramo:_ **que sean ellos quienes envíen el documento al destinatario.**",
+      "estado": "Produciendo, sin cerrar",
+      "proximo_paso": "Correos de destino, asunto y plantilla del cuerpo",
+      "target": "Antes de la S10"
+    },
+    {
+      "encabezado": "AHORRO MEDIDO · SESIÓN 9 · 24 septiembre 2026",
+      "titulo": "Un informe ejecutivo de 40 páginas en una noche",
+      "descripcion": "Por cuenta propia y fuera de la agenda, **se cruzaron dos versiones de un documento institucional extenso** —lo vigente contra una propuesta nueva— pidiendo puntos en común, diferencias y recomendaciones. **Salió un informe ejecutivo de 40 páginas.** _Hacerlo a mano, capítulo por capítulo, habría tomado un mes._ **Y nadie enseñó ese ejercicio:** salió de aplicar la lógica del método a un problema propio. *Es la prueba de que lo aprendido se transfiere.*",
+      "estado": "Hecho",
+      "proximo_paso": "Registrarlo en el tablero de seguimiento",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "DE CARA AL CIERRE · SESIÓN 9 · 24 septiembre 2026",
+      "titulo": "El área está entre las cinco que presentan ante la dirección",
+      "descripcion": "**De las 18 áreas del programa, cinco van a mostrar sus procesos ante la dirección**, y _Servicios Sociales es una de ellas_ — por ser de las que más ejercicios ha construido. **Se preparará expresamente para esa presentación** una vez cierre el programa el 5 de octubre. *Lo que se presenta es lo que el área construyó*, así que **los dos circuitos cerrados y con su tablero son justamente el material.**",
+      "estado": "Confirmado",
+      "proximo_paso": "Agendar las sesiones que queden disponibles hasta el 5 de octubre",
+      "target": "Esta semana"
+    }
+  ],
+  "tareas_intro": "El área llega con dos agentes construidos sobre trabajo real y uno de ellos ya corrigiendo datos de origen. Lo que falta es el último tramo de los dos circuitos y el tablero que los hace presentables.",
+  "tareas": [
+    {"tarea": "Cerrar el circuito del agente de recomendaciones con el envío a la subdirección", "responsable": "Juan Pablo", "prioridad": "ALTA", "plazo": "Antes de la S10"},
+    {"tarea": "Cerrar el circuito del agente de obras con los correos de destino y la plantilla", "responsable": "Juan Pablo", "prioridad": "ALTA", "plazo": "Antes de la S10"},
+    {"tarea": "Pedirle a cada agente su tablero de reporte con hallazgos y pendientes", "responsable": "Juan Pablo", "prioridad": "ALTA", "plazo": "Antes de la S10"},
+    {"tarea": "Validar con Planeación las actividades antes de enviarlas al ente de vigilancia", "responsable": "Juan Pablo", "prioridad": "ALTA", "plazo": "Antes de enviar"},
+    {"tarea": "Registrar en el tablero los dos ahorros: la ficha de recomendaciones y el informe de 40 páginas", "responsable": "Juan Pablo", "prioridad": "MEDIA", "plazo": "Inmediato"},
+    {"tarea": "Agendar las sesiones disponibles antes del 5 de octubre para preparar el material del cierre", "responsable": "Lilian Paola", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Resolver el equipo y la conexión para que las sesiones sean de práctica y no de demostración", "responsable": "Área", "prioridad": "MEDIA", "plazo": "Antes de la S10"}
+  ],
+  "observaciones": [
+    "**El área llega con dos agentes construidos sobre trabajo real de la gerencia**, no sobre ejercicios de práctica.",
+    "**El primero atiende las recomendaciones del ente de vigilancia.** Se le cargaron **el formato oficial a diligenciar y la circular única que reglamenta el sistema de subsidio familiar**, para que entendiera los términos antes de proponer nada. _El agente tomó la ficha, la diligenció con los lineamientos dados y la dejó en la ruta indicada_ — **la ficha misma, no un documento aparte.**",
+    "_Y ahí quedó dicho dónde entra el criterio humano._ De las actividades propuestas, una ya estaba prevista y es correcta; **otra exige sentarse antes con Planeación para saber si es alcanzable.** _Porque lo que se envía al ente de vigilancia queda sujeto a seguimiento:_ **comprometer algo que después no se cumple es peor que no proponerlo.**",
+    "**El segundo agente lleva el seguimiento de las obras de los centros recreacionales**, un proceso que Planeación acaba de trasladarle al área **con la metodología explicada a medias.** La cadencia quedó dictada: _el informe de interventoría del mes anterior llega en los primeros diez días del mes._",
+    "**Y ahí apareció el hallazgo de la sesión.** Al revisar los documentos recibidos, **el agente encontró que el avance de obra reportado no concordaba con el avance real** en varios formatos. _No se limitó a señalarlo: recomendó el ajuste y, aprobado, corrigió y actualizó todo._ **Nadie estaba haciendo ese control y el área habría heredado los datos tal como llegaron.**",
+    "_Ese es el argumento de fondo:_ **no es que el agente vaya más rápido, es que no se le pasa nada.**",
+    "**A los dos circuitos les falta el mismo tramo: el envío.** Al de recomendaciones, mandar la ficha a la subdirección que consolida; al de obras, los correos de destino. _Hoy ese paso lo sigue haciendo la persona_ — **y es el que más se repite.**",
+    "**Tampoco hay tablero.** Todo lo gestionado vive dentro de la conversación, _y una conversación no se lee de arriba abajo para decidir._ **El reporte es lo que permite sustentar el trabajo ante la gerencia**, así que quedó como corrección prioritaria junto con el envío.",
+    "**Una limitación real quedó identificada: el agente no tiene el histórico.** No sabe qué se propuso antes ni qué fue aceptado. _La salida es corregir siempre dentro de la conversación con él, no por fuera_ — **así va acumulando memoria**, y con el tiempo avisa por sí mismo qué ya se propuso y cómo salió.",
+    "**Y apareció un uso que nadie encargó.** Por cuenta propia y fuera de la agenda, **se cruzaron dos versiones de un documento institucional extenso** —lo vigente contra una propuesta nueva— pidiendo puntos en común, diferencias y recomendaciones: **salió un informe ejecutivo de 40 páginas.** _A mano, capítulo por capítulo, habría tomado un mes._ **Es la prueba de que el método se transfirió.**",
+    "**La segunda parte de la sesión abrió el siguiente entorno de herramientas.** _El método CREA funciona igual en todas;_ lo que cambia es en qué es fuerte cada una. **La investigación profunda parafrasea la instrucción y muestra el plan antes de buscar** —en la demostración entendió mal un término y se corrigió el plan antes de arrancar—, **y entrega el documento con las fuentes.**",
+    "**De ahí salen la infografía y el tablero interactivo**, sobre el que se sigue preguntando. **Y los cuadernos admiten hasta 300 documentos, audios y sitios web**, con resumen, mapa mental, presentación, **podcast a dos voces**, tarjetas de estudio e infografías — _compartibles por enlace y con analíticas de quién los abrió._",
+    "_Las aplicaciones que quedaron señaladas para el área:_ **las licitaciones y los documentos de análisis; mandar el resumen en audio de una propuesta a los directivos antes de la reunión** para que lleguen enterados; **y compartir un cuaderno con el equipo para transferirle una metodología.** _El criterio:_ **no dejar nada por defecto** — parametrizar idioma, extensión y colores corporativos.",
+    "**La sesión se cortó a la mitad por conexión** y no se pudo recuperar, _y los ejercicios estaban en ese equipo_. **La segunda parte fue demostración y no práctica.** *Es la segunda sesión del área afectada por conexión en tres semanas*, después de la del 22 de septiembre.",
+    "**El área está entre las cinco que van a presentar sus procesos ante la dirección**, de las 18 del programa, por ser de las que más ejercicios ha construido. _Se preparará expresamente para esa presentación una vez cierre el programa._ **Lo que se presenta es lo que el área construyó**, así que los dos circuitos cerrados y con su tablero son el material. *Conviene tomar las sesiones que queden disponibles hasta el 5 de octubre.*"
+  ],
+  "proxima_sesion": {
+    "sesion": "Servicios Sociales — Sesión 10 · martes 29 de septiembre",
+    "condiciones": [
+      "Los dos circuitos cerrados hasta el envío del documento",
+      "El tablero de reporte de cada agente funcionando",
+      "Las actividades validadas con Planeación antes de enviarlas",
+      "Los dos ahorros registrados en el tablero de seguimiento"
+    ],
+    "agenda": [
+      "Revisión de los dos circuitos completos con su reporte",
+      "Las herramientas de encuesta en vivo para las juntas del área",
+      "Los cuadernos compartidos como vía para transferir método al equipo",
+      "Preparación del material del área para la presentación ante la dirección"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 24 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

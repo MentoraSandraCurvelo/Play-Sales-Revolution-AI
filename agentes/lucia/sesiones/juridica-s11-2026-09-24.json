@@ -1,0 +1,218 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "JURÍDICA",
+  "area_completa": "",
+  "sesion_num": 11,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "24 de septiembre de 2026",
+  "fecha_corta": "24 septiembre 2026",
+  "subtitulo_meta": "Individual de Lilibeth Costa · 24 de septiembre de 2026 · 10:00 a. m. · 1 h · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Jurídica — Comfacesar"],
+    ["Sesión", "N° 11 — Individual de Lilibeth Costa: los dos agentes con trabajo real y el entorno de Google"],
+    ["Fecha", "24 de septiembre de 2026"],
+    ["Duración de la sesión", "1 hora"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Lilibeth Costa — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "$27M", "etiqueta": "Ahorro estimado", "detalle": "Seis meses sin contratar el reemplazo"},
+    {"valor": "10", "etiqueta": "Minutos de la presentación", "detalle": "Antes tomaba una jornada entera"},
+    {"valor": "2", "etiqueta": "Agentes con trabajo real", "detalle": "Los dos corriendo sobre casos de la oficina"},
+    {"valor": "1", "etiqueta": "Circuito cerrado en Slack", "detalle": "El de entradas, ya asignando"},
+    {"valor": "0", "etiqueta": "Responsable en el aviso de salida", "detalle": "El dato que le falta al circuito"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Lilibeth Costa", "cargo": "Jurídica — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 11. El área llega con sus dos agentes trabajando sobre casos reales y con el equipo migrado a Slack. Lo que falta son datos de origen que los circuitos necesitan y dos bloqueos de herramienta que no dependen del área.",
+  "riesgos": [
+    {
+      "titulo": "El aviso de salida no dice quién es el responsable",
+      "nivel": "ALTO",
+      "descripcion": "Cuando se avisa que un producto está listo, **se manda el nombre del contrato pero no a quién hay que enviárselo ni a qué correo.** _Hoy ese dato lo resuelve el área a mano, filtrando contra la hoja de gestión contractual._ **Un circuito no puede enrutar contra un dato que no recibe.** Se plantearon dos salidas: que el aviso lo incluya, o que el agente lo saque del propio documento o de la hoja.",
+      "responsable": "Lilibeth Costa / Inmediato"
+    },
+    {
+      "titulo": "El área no puede grabar sus reuniones",
+      "nivel": "ALTO",
+      "descripcion": "**El plan de reuniones que tiene el área no permite grabar**, y _se está pidiendo desde marzo._ **Sin grabación no hay transcripción, y sin transcripción no hay acta automática** — que es justo el siguiente agente que se le encargó. *Es el bloqueo que más trabajo detiene y no depende del área resolverlo.*",
+      "responsable": "Lilibeth Costa / Escalar ya"
+    },
+    {
+      "titulo": "El tablero del agente no refleja la gestión ya hecha",
+      "nivel": "ALTO",
+      "descripcion": "**Seis solicitudes enviadas el día anterior no aparecían en el tablero.** _El agente confirmó que los datos estaban, pero el tablero salía en blanco._ **Un tablero que no muestra lo que ya pasó no sirve para reportar** — y el reporte es lo que justifica el agente ante la jefatura.",
+      "responsable": "Lilibeth Costa / Antes de la S12"
+    },
+    {
+      "titulo": "El agente de contratos no distingue los tipos de contrato",
+      "nivel": "MEDIO",
+      "descripcion": "En el comparativo clasificó mal la modalidad. _No es un error del sistema: es que no se le ha explicado el criterio de la oficina._ **Hay que enseñarle como se le enseña a un abogado que entra** — qué distingue cada tipo, qué mira la oficina, qué no puede quedar textual del proveedor. **Eso es modelar.**",
+      "responsable": "Lilibeth Costa / Antes de la S12"
+    },
+    {
+      "titulo": "El Office del equipo está desactualizado",
+      "nivel": "MEDIO",
+      "descripcion": "**No admite instalar el complemento**, así que hay que salir del documento para cada ajuste en vez de trabajar dentro de Word, PowerPoint y Excel. _Se acordó pedirlo por mesa de ayuda_ junto con lo de las grabaciones.",
+      "responsable": "Lilibeth Costa / Esta semana"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "ALTO", "titulo": "Escalar el plan que permite grabar las reuniones", "descripcion": "**Se viene pidiendo desde marzo.** _Sin grabación no se puede construir el agente de actas_, que es el encargo de esta sesión.", "responsable": "Lilibeth Costa", "plazo": "Ya"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Cerrar el dato del responsable en el aviso de salida", "descripcion": "**Que el aviso incluya el área y el responsable**, o que el agente lo extraiga del documento o de la hoja de gestión contractual.", "responsable": "Lilibeth Costa", "plazo": "Inmediato"},
+    {"num": "03", "nivel": "ALTO", "titulo": "Documentar el ahorro del agente de contratos con valores", "descripcion": "**El caso completo: el agente cubre seis meses de licencia de maternidad de la parte contractual, y ese reemplazo no hay que contratarlo.** _Con el cálculo y la fecha, en el tablero._", "responsable": "Lilibeth Costa", "plazo": "Antes de la S12"},
+    {"num": "04", "nivel": "ALTO", "titulo": "Pedirle reporte a cada agente, con cadencia", "descripcion": "**Cuántos contratos gestionados, cuántos pendientes, qué falta** — con corte a una hora fija o cada vez que entre algo nuevo. _Un agente que no reporta no se puede sustentar._", "responsable": "Lilibeth Costa", "plazo": "Antes de la S12"},
+    {"num": "05", "nivel": "MEDIO", "titulo": "Explicarle al agente el criterio de la oficina", "descripcion": "**Los tipos de contrato, qué revisa la oficina y por qué las obligaciones no pueden quedar textuales del proveedor.** _Con los comparativos contra contratos antiguos._", "responsable": "Lilibeth Costa", "plazo": "Antes de la S12"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · La prueba en frío del agente de contratos",
+      "duracion": "~8 min",
+      "objetivo": "Ver qué entrega sin intervención humana.",
+      "pasos": [
+        "**El área entregó a la jefatura el contrato tal como salió del agente, sin corregir nada** — _la prueba se quiso así, en frío_",
+        "**El veredicto: para un primer modelo, bastante bien.** Las correcciones fueron de forma y de criterio — quedaron espacios, **y las obligaciones salieron demasiado textuales de como las manda el proveedor**, que es justo lo que la oficina corrige: redactar mejor y revisar lo legal",
+        "**La jefatura va a construir su propio agente de revisión** a partir de lo que el área le pase",
+        "_Se resolvió también una duda de forma:_ **el documento lleva la firma de quien responde por él** — el asistente lo elaboró, la responsabilidad sigue siendo de la oficina"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El ahorro, puesto en números",
+      "duracion": "~5 min",
+      "objetivo": "Convertir el agente en un dato que se pueda presentar.",
+      "pasos": [
+        "**El agente va a cubrir el reemplazo de una colaboradora de la parte contractual que entra a licencia de maternidad** — _hay margen para modelarlo hasta abril del año entrante_",
+        "**La cuenta que se hizo en sesión:** con un salario aproximado de 3,5 millones más prestaciones, **seis meses de un reemplazo que no hay que contratar son del orden de 27 millones de pesos**",
+        "_El área puso el matiz, y es correcto:_ **el criterio humano sigue siendo necesario, y más en temas legales.** El agente no reemplaza a la persona; **cubre una función concreta durante una ausencia concreta**",
+        "**Eso hay que documentarlo en el tablero con el caso y los valores** — es lo que se presenta ante la dirección"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El agente de asignación, ya corriendo",
+      "duracion": "~15 min",
+      "objetivo": "Revisar el circuito que quedó en producción.",
+      "pasos": [
+        "**El compromiso de la S10 está cumplido: el equipo entró a Slack y desde ayer trabaja desde ahí**, migrando lo laboral fuera de WhatsApp",
+        "**El circuito de entradas funciona así:** se registra lo que entra a la oficina, **el agente asigna el contrato al abogado que corresponde**, envía el correo con los adjuntos y marca la solicitud como asignada para que quien la registró lo vea",
+        "_Y lo destacable es cómo se le entregó el control:_ **primero se hizo manual dos veces, después se le pidió que dejara todo en borrador para revisarlo** —ahí se encontró que en borrador no adjuntaba—, **se hicieron pruebas, y solo entonces se le dijo «hazlo tú»**",
+        "**La cadencia la propuso el propio agente: cortes cada hora**, y se le pasó el horario de la oficina para acotarla"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · El circuito de salidas, construido en vivo",
+      "duracion": "~12 min",
+      "objetivo": "Cerrar el otro extremo de la oficina.",
+      "pasos": [
+        "**Si el de entradas registra lo que llega, el de salidas envía el producto terminado al responsable**, con el documento adjunto y el número de contrato, convenio u orden según aplique",
+        "**El obstáculo era real: el documento vive en la carpeta pública de la empresa, detrás de la VPN.** _Se intentó copiar la ruta y el sistema no dejaba_",
+        "**Se resolvió pasándole una captura de la ruta — y el agente entró.** _El criterio que se dejó dicho:_ **no preguntar si se puede antes de intentarlo; intentarlo y luego preguntar**",
+        "**Y ahí salió el hueco del proceso:** el aviso de salida **no dice quién es el responsable ni su correo.** Hoy eso lo resuelve el área a mano. _Se plantearon las dos salidas: que el aviso lo incluya, o que el agente lo extraiga del documento o de la hoja de gestión contractual_"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · La semaforización y el hallazgo de la cuantía",
+      "duracion": "~10 min",
+      "objetivo": "Que el comparativo se pueda leer de un vistazo.",
+      "pasos": [
+        "**El primer comparativo salió plano** — correcto, pero sin forma de ver qué era grave y qué no",
+        "**Se volvió a pedir con semaforización y salió el documento:** _verde, coincide con el criterio; amarillo, diferencia menor a verificar; rojo, diferencia significativa_ — **listo para que la jefatura lo revise con las anotaciones**",
+        "**Y el agente acertó en algo de fondo:** al cruzar las cuantías **detectó que, según el monto, el firmante previsto no tenía la facultad de firmar.** _Queda confirmarlo contra un documento más_",
+        "**Eso no es un ejercicio: es una revisión real que el área no había hecho todavía**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio F · El entorno de Google",
+      "duracion": "~20 min",
+      "objetivo": "Abrir el siguiente conjunto de herramientas.",
+      "pasos": [
+        "_El área es la primera del grupo a la que se le abre este módulo._ **La investigación profunda arma un plan antes de buscar** —qué va a investigar, analizar, identificar y sintetizar—, **se aprueba o se modifica, y entrega un documento con las fuentes**",
+        "**Los cuadernos admiten cientos de documentos, videos y notas de voz**, y de ahí salen resumen, mapa mental, presentación, podcast a dos voces, tarjetas de estudio **y tableros interactivos sobre los que se sigue preguntando**",
+        "**La infografía es lo que el área identificó como más útil, y lo vio sola:** _explicarle al equipo el cálculo de los porcentajes del formato_ —que es justo donde se confunden— **en una sola pieza visual.** Se parametriza idioma, formato, nivel de detalle y colores",
+        "**El resto de aplicaciones que quedaron dichas:** subir los contratos a revisar y sacar la síntesis, explicar una sentencia o un decreto al equipo de abogados por el canal, **y el trabajo de licitaciones.** _Los cuadernos se comparten por enlace y el equipo interactúa con ellos_"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 11 · 24 septiembre 2026",
+      "titulo": "El agente de contratos cubre una licencia de maternidad",
+      "descripcion": "**No es una hipótesis: el reemplazo de la parte contractual durante seis meses de licencia se va a cubrir con el agente en lugar de contratar a alguien.** _Con un salario aproximado de 3,5 millones más prestaciones, eso es del orden de **27 millones de pesos** que no se ejecutan._ **Y el área lo enmarcó bien: el criterio humano sigue siendo necesario en temas legales** — el agente cubre una función durante una ausencia, no reemplaza a la persona. *Es el primer ahorro del programa con una cifra y una fecha detrás.*",
+      "estado": "En curso hasta abril",
+      "proximo_paso": "Documentarlo en el tablero con el caso y los valores",
+      "target": "Antes de la S12"
+    },
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 11 · 24 septiembre 2026",
+      "titulo": "El circuito de asignación, en producción con el equipo real",
+      "descripcion": "**El agente recibe lo que entra a la oficina, asigna el contrato al abogado, envía el correo con los adjuntos y marca la solicitud como asignada** — con cortes de reporte cada hora dentro del horario de la oficina. _El equipo completo migró a Slack y lo laboral ya se gestiona desde ahí._ **Y la forma en que se le entregó el control es lo que hay que repetir:** manual dos veces, después en borrador para revisar, pruebas, y solo entonces autonomía.",
+      "estado": "Corriendo",
+      "proximo_paso": "Arreglar el tablero para que refleje la gestión hecha",
+      "target": "Antes de la S12"
+    },
+    {
+      "encabezado": "HALLAZGO REAL · SESIÓN 11 · 24 septiembre 2026",
+      "titulo": "El comparativo detectó un problema de facultad de firma",
+      "descripcion": "Al cruzar las cuantías, **el agente identificó que según el monto el firmante previsto no tenía la facultad de firmar.** _Queda confirmarlo contra un documento adicional._ **No era un ejercicio de práctica: es una revisión de control interno que el área no había hecho sobre ese caso.** Y salió de pedir el comparativo con semaforización —verde, amarillo, rojo— **en vez de un texto plano que nadie alcanza a leer.**",
+      "estado": "Por confirmar",
+      "proximo_paso": "Verificar contra el documento faltante",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "AHORRO MEDIDO · SESIÓN 11 · 24 septiembre 2026",
+      "titulo": "La presentación institucional, de una jornada a diez minutos",
+      "descripcion": "La presentación de informes a los entes de control **es la misma que la oficina viene haciendo desde hace años.** Se subió, se pidió actualizarla —moderna, más interactiva— **y salió en unos diez minutos, explicando además qué había cambiado.** _Hacerla a mano toma una jornada de trabajo completa._ **Se usa esa misma tarde en una reunión con varias áreas**, y salió del módulo de diseño, que es el único que la entrega interactiva.",
+      "estado": "En uso",
+      "proximo_paso": "Ajustar el texto, meter indicadores y el pie con la oficina",
+      "target": "Inmediato"
+    }
+  ],
+  "tareas_intro": "El área llega con los dos agentes trabajando sobre casos reales y el equipo ya migrado a Slack. Lo que falta son dos datos de origen, dos bloqueos de herramienta que hay que escalar y el ahorro puesto por escrito.",
+  "tareas": [
+    {"tarea": "Escalar por mesa de ayuda el plan que permite grabar las reuniones y la actualización de Office", "responsable": "Lilibeth Costa", "prioridad": "ALTA", "plazo": "Ya"},
+    {"tarea": "Cerrar el dato del responsable en el aviso de salida, en el origen o desde el documento", "responsable": "Lilibeth Costa", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Documentar en el tablero el ahorro del agente de contratos con el caso y los valores", "responsable": "Lilibeth Costa", "prioridad": "ALTA", "plazo": "Antes de la S12"},
+    {"tarea": "Arreglar el tablero del agente de asignación para que muestre la gestión ya realizada", "responsable": "Lilibeth Costa", "prioridad": "ALTA", "plazo": "Antes de la S12"},
+    {"tarea": "Pedirle reporte con cadencia a cada agente: gestionados, pendientes y qué falta", "responsable": "Lilibeth Costa", "prioridad": "ALTA", "plazo": "Antes de la S12"},
+    {"tarea": "Seguir los comparativos contra contratos antiguos para fijarle el criterio de la oficina", "responsable": "Lilibeth Costa", "prioridad": "MEDIA", "plazo": "Antes de la S12"},
+    {"tarea": "Hacer la infografía del cálculo de los porcentajes del formato para el equipo", "responsable": "Lilibeth Costa", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Experimentar el circuito de actas: grabación, transcripción, acta y envío a los participantes", "responsable": "Lilibeth Costa", "prioridad": "MEDIA", "plazo": "Cuando se resuelva la grabación"}
+  ],
+  "observaciones": [
+    "**El área llega con los dos agentes trabajando sobre casos reales de la oficina**, y con el compromiso de la Sesión 10 cumplido: **el equipo entró a Slack y desde ayer gestiona lo laboral desde ahí**, sacándolo de WhatsApp.",
+    "**El agente de revisión de contratos se probó en frío.** _Se entregó a la jefatura el documento tal como salió, sin corregir nada._ **El veredicto fue que para un primer modelo estaba bastante bien**, con correcciones de forma y de criterio — quedaron espacios y **las obligaciones salieron demasiado textuales de como las manda el proveedor**, que es precisamente lo que la oficina corrige. *La jefatura va a construir su propio agente de revisión a partir de esto.*",
+    "**Y aquí está el dato de la sesión.** El agente **va a cubrir el reemplazo de una colaboradora de la parte contractual que entra a licencia de maternidad**, con margen para modelarlo hasta abril. _Con un salario aproximado de 3,5 millones más prestaciones, seis meses de un reemplazo que no hay que contratar son del orden de **27 millones de pesos**._ **Eso hay que quedar documentado en el tablero, con el caso y los valores.**",
+    "_El área puso un matiz que conviene dejar escrito:_ **el criterio humano sigue siendo necesario, y más en temas legales.** El agente no reemplaza a la persona — **cubre una función concreta durante una ausencia concreta**, y la responsabilidad del documento sigue siendo de quien lo firma.",
+    "**El circuito de asignación ya corre solo:** recibe lo que entra a la oficina, **asigna el contrato al abogado que corresponde**, envía el correo con los adjuntos y marca la solicitud como asignada. **Con cortes de reporte cada hora**, dentro del horario de la oficina.",
+    "_Y la forma en que se le entregó el control es lo que hay que repetir en los demás circuitos:_ **primero manual dos veces, después en borrador para revisar** —ahí se descubrió que en borrador no adjuntaba—, **luego pruebas, y solo entonces autonomía.** *Es exactamente como se le enseña a alguien que entra al equipo.*",
+    "**El circuito de salidas se construyó en vivo** — enviar el producto terminado al responsable con el adjunto y el número de contrato, convenio u orden. **El obstáculo era que el documento vive en la carpeta pública detrás de la VPN**, y se resolvió pasándole una captura de la ruta: _el agente entró._",
+    "**Ahí salió el hueco del proceso:** el aviso de salida **dice cuál es el contrato pero no quién es el responsable ni su correo.** _Hoy ese dato lo resuelve el área a mano contra la hoja de gestión contractual._ **Un circuito no puede enrutar contra un dato que no recibe** — se plantearon las dos salidas: pedirlo en el origen, o extraerlo del documento.",
+    "**El tablero del agente no mostraba la gestión ya hecha:** seis solicitudes enviadas el día anterior no aparecían. _Los datos estaban; el tablero salía vacío._ **Y el reporte es lo que sustenta al agente ante la jefatura**, así que se dejó como corrección prioritaria, junto con el criterio general: **cada agente tiene que reportar cuántos casos gestionó, cuántos quedan pendientes y qué falta.**",
+    "**El comparativo de contratos se pidió otra vez, ahora con semaforización** —verde coincide con el criterio, amarillo diferencia menor a verificar, rojo diferencia significativa—. **Y el agente acertó en algo de fondo:** al cruzar las cuantías **detectó que, según el monto, el firmante previsto no tenía la facultad de firmar.** _Queda confirmarlo contra un documento adicional, pero no era un ejercicio: es una revisión de control interno real._",
+    "**Lo que sí hay que corregirle es la clasificación de los tipos de contrato.** _No es un fallo del sistema, es que no se le ha explicado el criterio de la oficina_ — **hay que enseñarle como se le enseña a un abogado que entra.** Para eso sirven los comparativos contra contratos antiguos.",
+    "**La presentación institucional de informes a los entes de control se rehízo en unos diez minutos.** _Es la misma que la oficina viene haciendo desde hace años;_ se subió, se pidió actualizarla y **salió moderna e interactiva, explicando además qué había cambiado.** **A mano toma una jornada de trabajo completa**, y se usa esa misma tarde en una reunión con varias áreas.",
+    "**Dos bloqueos que no dependen del área y hay que escalar.** _El plan de reuniones no permite grabar_ —**se viene pidiendo desde marzo**— y sin grabación no hay transcripción ni acta automática, que es el siguiente agente encargado. **Y el Office está desactualizado**, así que no admite instalar el complemento.",
+    "**Se abrió el entorno de Google, y el área es la primera del grupo en verlo.** _La investigación profunda arma un plan antes de buscar y entrega el documento con las fuentes._ **Los cuadernos admiten cientos de documentos y de ahí salen resumen, mapa mental, presentación, podcast, tarjetas de estudio y tableros interactivos.**",
+    "_Y la aplicación más concreta la encontró el área sola:_ **una infografía para explicarle al equipo el cálculo de los porcentajes del formato**, que es justo donde se confunden. **También quedaron dichas la síntesis de contratos para revisión, la explicación de sentencias y decretos al equipo de abogados por el canal, y el trabajo de licitaciones.**"
+  ],
+  "proxima_sesion": {
+    "sesion": "Jurídica — Sesión 12 · lunes 28 de septiembre",
+    "condiciones": [
+      "El dato del responsable resuelto en el circuito de salidas",
+      "El tablero del agente de asignación mostrando la gestión real",
+      "El ahorro del agente de contratos documentado con valores",
+      "Los comparativos avanzados y el criterio de la oficina explicado"
+    ],
+    "agenda": [
+      "Revisión de los dos circuitos con su reporte funcionando",
+      "El agente de actas, si se resuelve la grabación",
+      "Las infografías aplicadas a la comunicación del equipo",
+      "Preparación del material del área para el cierre del 5 de octubre"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 24 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

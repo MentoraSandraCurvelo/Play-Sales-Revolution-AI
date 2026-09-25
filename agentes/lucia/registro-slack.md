@@ -1164,7 +1164,20 @@ Rafael pasa a ser la S11.
 |---|---|---|
 | `#juridica` | Grabación S11 | `1790343935.898759` |
 | `#serivcios-sociales` | Grabación S9 | `1790344080.830579` |
+| `#juridica` | Resumen S11 | `1790344354.407349` |
+| `#serivcios-sociales` | Resumen S9 | `1790344556.681669` |
 
-**Ninguna de las dos sesiones del jueves 24 tiene insumos en Dropbox.** Jurídica va hasta
-`Sesion 10` —del 23 de septiembre— y Servicios Sociales hasta `Sesion 8`, del 16. *Las dos
-actas quedan a la espera del informe de asistencia y la transcripción.*
+**Las dos sesiones del jueves 24 quedaron cerradas.** Los insumos sincronizaron a media mañana
+del viernes y las dos actas salieron seguidas.
+
+**Un criterio que se aplicó al acta de Servicios Sociales.** El área trajo, como ejercicio
+propio, el cruce de dos versiones de un documento institucional —lo vigente contra una
+propuesta nueva—, que en la sesión se nombró como material de una negociación en curso.
+*El dato que importa para el programa es el método y el ahorro* —un informe ejecutivo de 40
+páginas donde a mano habría tomado un mes—, **así que el acta registra eso y no el contenido
+de la negociación.** El acta va a un canal que leen el área y la contraparte del proyecto.
+
+**Y quedó fuera todo lo relativo a licenciamiento.** En las dos sesiones se habló de la compra
+de licencias, de membresías y de equipos; *esa conversación no entra en los documentos.* Sí
+entró, por ser material para el área, **que Servicios Sociales está entre las cinco áreas que
+presentarán sus procesos ante la dirección** — sin la justificación comercial detrás.

@@ -27,8 +27,8 @@ De las 26 citas de la semana, **22 son de IAM™ Intelligence en Comfacesar**. L
 | Mié 23 | 4:00 p. m. | Educación | Julissa Pérez | **S4** | dice «Sesion 5» — devolver a 4 |
 | Mié 23 | 5:00 p. m. | Comunicaciones | Vidiana Bendeck | **S8** | correcto |
 | Jue 24 | 8:00 a. m. | Mercadeo | Rina Ropaín | **S5** ✔ | **se hizo** · acta publicada |
-| Jue 24 | 10:00 a. m. | Jurídica | Lilibeth Costa | **S11** | corregido |
-| Jue 24 | 11:00 a. m. | Servicios Sociales | — | **S9** | dice «S10» — devolver a 9 |
+| Jue 24 | 10:00 a. m. | Jurídica | Lilibeth Costa | **S11** ✔ | **se hizo** · acta publicada |
+| Jue 24 | 11:00 a. m. | Servicios Sociales | Juan Pablo y Lilian Paola | **S9** ✔ | **se hizo** · acta publicada |
 | ~~Jue 24~~ | 2:00 p. m. | Contabilidad | Carlos Lozano | **no se hizo** | cancelación del área |
 | ~~Jue 24~~ | 3:00 p. m. | Sub. Admin. y Financiera | Liliany | **no se hizo** | cancelación del área |
 | Vie 25 | 9:00 a. m. | Tecnología | Olga Lucía Barros | **S6** | corregido |
