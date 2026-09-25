@@ -2,112 +2,109 @@
 
 > **Es la semana de cierre.** El 3 cae sábado, así que el último día es el **lunes 5 de octubre**.
 
-**17 sesiones de IAM™ Intelligence** en el calendario: 16 entre el lunes 28 y el jueves 1,
-y una sola el lunes 5. **El viernes 2 no hay ninguna de Comfacesar.**
+**24 sesiones de IAM™ Intelligence** en el calendario: 22 entre el lunes 28 y el viernes 2, y
+dos el lunes 5. *Verificado contra el calendario el viernes 25 por la noche.*
 
-*Verificado contra el calendario el 24 de septiembre.* Cambió el lunes 28: la sesión de Mercadeo
-de las 3:00 p. m. la canceló Rina Ropaín y **el cupo lo tomó Rafael, de Sub. Administrativa y
-Financiera.** Y entró una de **Educación a las 5:00 p. m.**, que no estaba.
+**Punto de partida.** Cada número sale de lo que el área lleva hecho al cerrar el viernes 25,
+no del título del evento. *Cuando una sesión no se hace, el número no avanza.*
 
 ## Lo que toca
 
-| Día | Hora | Área | Correo que entra | Sesión | Asunto del evento |
+| Día | Hora | Área | Quién entra | Sesión | Asunto del evento |
 |---|---|---|---|---|---|
 | Lun 28 | 10:00 a. m. | Subsidio | `coordinacionsubsidioyaportes@` | **S5** | correcto |
 | Lun 28 | 11:00 a. m. | Jurídica | `secretaria_juridica@` | **S12** | dice «S» — falta el número |
 | Lun 28 | 2:00 p. m. | Subsidio | `atencion_reclamos@` | **S6** | correcto |
-| Lun 28 | 3:00 p. m. | Sub. Admin. y Financiera | `requerimientoscontratos@` (Rafael) | **S11** | dice «S12» — devolver a 11 |
-| Lun 28 | 4:00 p. m. | Mercadeo | `comercializacionyventas@` (Manuel) | **S6** | dice «Sesion 7» — devolver a 6 |
-| Lun 28 | 5:00 p. m. | Educación | `rectoriacolegio@` · `auxiliareducacion@` | **S4** | falta el número |
-| Mar 29 | 10:00 a. m. | Servicios Sociales | `pro_juniorss@` | **S10** | dice «S» — falta el número |
+| Lun 28 | 3:00 p. m. | Sub. Admin. y Financiera | Rafael · `requerimientoscontratos@` | **S11** | dice «S12» — bajar a 11 |
+| Lun 28 | 4:00 p. m. | Educación | `rectoriacolegio@` · `auxiliareducacion@` | **S4** | *el título no lleva el formato* |
+| Mar 29 | 10:00 a. m. | Servicios Sociales | `pro_juniorss@` | **S10** | correcto |
 | Mar 29 | 11:00 a. m. | Sub. Operativa y Comercial | `asistentesuboperativa@` · `innovacion@` | **S5** | correcto |
+| Mar 29 | 2:00 p. m. | Agencia de Empleo | `agenciaempleo@` · `fomentoempresarial@` | **S7** | dice «S» — falta el número |
 | Mar 29 | 3:00 p. m. | Subsidio | `atencion_reclamos@` | **S7** | correcto |
-| Mar 29 | 4:00 p. m. | Comunicaciones | el grupo completo | **S10** | dice «Sesion» a secas |
-| Mié 30 | 9:00 a. m. | Subsidio | `coordinacionsubsidioyaportes@` | **S8** | correcto |
-| Mié 30 | 10:00 a. m. | Mercadeo | `comercializacionyventas@` (Manuel) | **S7** | dice «S9» — devolver a 7 |
+| Mar 29 | 4:00 p. m. | Comunicaciones | el grupo completo | **S10** | dice «Manuel individual» y es el grupo |
+| Mié 30 | 10:00 a. m. | Mercadeo | Manuel · `comercializacionyventas@` | **S6** | dice «Sesion 8» — bajar a 6 |
 | Mié 30 | 11:00 a. m. | Jurídica | `secretaria_juridica@` · `contratacion@` | **S13** | dice «S» — falta el número |
-| Mié 30 | 3:00 p. m. | Subsidio | `atencion_reclamos@` | **S9** | correcto |
-| Mié 30 | 4:00 p. m. | Comunicaciones | `comunicaciones@` | **S11** | dice «Sesion» a secas |
+| Mié 30 | 3:00 p. m. | Subsidio | `atencion_reclamos@` | **S8** | correcto |
+| Mié 30 | 4:00 p. m. | Comunicaciones | `comunicaciones@` | **S11** | dice «Manuel individual» |
+| Mié 30 | 5:00 p. m. | IPS | `sst@` · `asistentesst@` · `auxiliarsst@` | **S5** | dice «S» — falta el número |
 | Jue 1 oct | 8:00 a. m. | Jurídica | `secretaria_juridica@` | **S14** | dice «S» — falta el número |
-| **Lun 5 oct** | 4:00 p. m. | Comunicaciones | el grupo completo | **S12** | *el título no lleva el formato* |
+| Jue 1 oct | 10:00 a. m. | Subsidio | `coordinacionsubsidioyaportes@` | **S9** | correcto |
+| Jue 1 oct | 11:00 a. m. | Servicios Sociales | `pro_juniorss@` · `serviciossociales@` | **S11** | correcto |
+| Jue 1 oct | 2:00 p. m. | Comunicaciones | César Reyes · `diseno@` | **S12** | *el título no lleva el formato* |
+| Jue 1 oct | 3:00 p. m. | Sub. Operativa y Comercial | `asistentesuboperativa@` · `innovacion@` | **S6** | correcto |
+| Vie 2 oct | 9:00 a. m. | Tecnología | `auxiliar_gt@` | **S7** | correcto |
+| Vie 2 oct | 11:00 a. m. | Contabilidad | Carlos Lozano · `asistentecontabilidad@` | **S9** | *el título no lleva el formato* |
+| **Lun 5 oct** | 10:00 a. m. | Tecnología | Olga Lucía · `auxiliar_gt@` | **S8** | *el título no lleva el formato* |
+| **Lun 5 oct** | 4:00 p. m. | Comunicaciones | el grupo completo | **S13** | *el título no lleva el formato* |
 
-**Ocho asuntos sin número:** las tres de Jurídica (**S12, S13, S14**), Servicios Sociales
-(**S10**), Educación (**S4**) y las tres de Comunicaciones (**S10, S11, S12**).
+**No cuenta:** el miércoles 30 a las 8:00 a. m. hay una reunión **presencial de dos horas con el
+subdirector administrativo**, con `comunicaciones@` invitado. *No lleva numeración de sesión.*
 
-**Y dos que hay que bajar un número**, porque las sesiones que los sostenían no se hicieron:
-**Mercadeo del miércoles 30 pasa a S8** —la de Rina se canceló— y **Sub. Administrativa y
-Financiera del lunes 28 pasa a S11**, porque la de Liliany del jueves 24 se canceló y el área
-se queda en S10.
+## Los catorce asuntos por corregir
 
-El del lunes 5 además está escrito distinto a todos los demás —dice
-«I AM Intelligence Comunicaciones y Sandra Curvelo | Founder & CSO de IAM™»—. Siendo la
-sesión que cierra el programa, vale la pena que se llame como las otras:
-`⭕️Comfacesar | Comunicaciones | S12 | IAM™ Intelligence`.
+| Cuándo | Dice | Debe decir |
+|---|---|---|
+| Lun 28, 11:00 · Jurídica | S | **S12** |
+| Lun 28, 3:00 · Sub. Admin. y Financiera | S12 | **S11** |
+| Lun 28, 4:00 · Educación | sin formato | **S4** |
+| Mar 29, 2:00 · Agencia de Empleo | S | **S7** |
+| Mar 29, 4:00 · Comunicaciones | «Manuel individual» | **S10** · es el grupo |
+| Mié 30, 10:00 · Mercadeo | Sesion 8 | **S6** |
+| Mié 30, 11:00 · Jurídica | S | **S13** |
+| Mié 30, 4:00 · Comunicaciones | «Manuel individual» | **S11** |
+| Mié 30, 5:00 · IPS | S | **S5** |
+| Jue 1, 8:00 · Jurídica | S | **S14** |
+| Jue 1, 2:00 · Comunicaciones | sin formato | **S12** |
+| Vie 2, 11:00 · Contabilidad | sin formato | **S9** |
+| Lun 5, 10:00 · Tecnología | sin formato | **S8** |
+| Lun 5, 4:00 · Comunicaciones | sin formato | **S13** |
+
+**Los diez que están bien:** las cinco de Subsidio, las dos de Servicios Sociales, las dos de
+Sub. Operativa y la de Tecnología del viernes 2.
 
 ## De dónde salen los números
 
-Cada número sigue la serie del área y depende de que se hagan las de esta semana.
-**Si alguna se cae, la siguiente no avanza** y hay que bajar el número.
-
-| Área | Última hecha | Esta semana | La otra semana |
+| Área | Cierra el viernes 25 en | La última semana | Termina en |
 |---|---|---|---|
-| Subsidio | S4 · 18 sep | — | **S5, S6, S7, S8, S9** |
-| Jurídica | S9 · 22 sep | S10 mié · S11 jue | **S12, S13, S14** |
-| Mercadeo | S4 · 17 sep | S5 jue ✔ *(la del vie se canceló)* | **S6, S7** *(dos caídas en la semana)* |
-| Sub. Admin. y Financiera | S10 · 23 sep | *la del jueves se canceló* | **S11** *(Rafael, lun 28)* |
-| Educación | S3 · 7 sep | *dos inasistencias seguidas* | **S4** *(lun 28)* |
-| Servicios Sociales | S8 · 16 sep | S9 jue *(la del martes se cayó)* | **S10** |
-| Sub. Operativa | S4 · 22 sep | — | **S5** |
-| Comunicaciones | S7 · 17 sep | S8 mié · S9 vie | **S10, S11, S12** |
+| Subsidio | S4 | S5, S6, S7, S8, S9 | **S9** |
+| Jurídica | S11 | S12, S13, S14 | **S14** |
+| Comunicaciones | S9 | S10, S11, S12, S13 | **S13** |
+| Servicios Sociales | S9 | S10, S11 | **S11** |
+| Sub. Operativa | S4 | S5, S6 | **S6** |
+| Tecnología | S6 | S7, S8 | **S8** |
+| Sub. Admin. y Financiera | S10 | S11 | **S11** |
+| Contabilidad | S8 | S9 | **S9** |
+| Agencia de Empleo | S6 | S7 | **S7** |
+| Mercadeo | S5 | S6 | **S6** |
+| IPS | S4 | S5 | **S5** |
+| Educación | S3 | S4 | **S4** |
 
-## Las áreas que no tienen nada agendado
+## Lo que cambió respecto a la versión anterior
 
-De las 18 áreas activas, **la última semana solo tiene seis**. Y contando también lo que
-queda de esta, **seis áreas no aparecen ni una vez en lo que resta del programa**:
+**Entraron ocho sesiones nuevas** — Agencia de Empleo el martes, IPS el miércoles, tres más de
+Comunicaciones, Subsidio el jueves, Contabilidad el viernes 2 y Tecnología el lunes 5.
 
-| Área | Última señal |
+**Y salió una: la de Mercadeo del lunes 28 a las 4:00 p. m. ya no está en el calendario.**
+*Conviene confirmarlo* — el área queda con una sola sesión en la semana de cierre, la del
+miércoles 30 con Manuel José.
+
+**El viernes 2 ya no está vacío:** tiene Tecnología a las 9:00 y Contabilidad a las 11:00.
+
+## Las áreas que no aparecen en toda la semana
+
+De las 18 activas, **seis no tienen nada agendado** en lo que resta del programa:
+
+| Área | Última sesión |
 |---|---|
-| Talento Humano | sin agenda |
-| Tesorería | sin agenda |
-| Vivienda | sin agenda |
-| Agencia de Empleo | sin agenda |
-| Gerencia Financiera | no se presentó el 18 de septiembre y no ha vuelto a agendar |
-| Planeación | sin agenda |
+| Talento Humano | S3 · 16 de septiembre |
+| Tesorería | S2 · 9 de septiembre |
+| Vivienda | S5 · 10 de septiembre |
+| Gerencia Financiera | S2 · 3 de septiembre |
+| Planeación | S2 · 3 de septiembre |
+| Cumplimiento | S2 · 22 de septiembre |
 
-Otras seis tienen sesión esta semana pero **nada en la de cierre**: Cumplimiento,
-Sub. Administrativa y Financiera, Educación, Tecnología, IPS y Contabilidad.
+## Nota sobre el calendario
 
-## Cómo queda la carga
-
-| Día | Sesiones |
-|---|---|
-| Lunes 28 | 5 |
-| Martes 29 | 4 |
-| Miércoles 30 | 5 |
-| Jueves 1 oct | 1 |
-| Viernes 2 oct | **0** |
-| Lunes 5 oct | 1 |
-
-**El jueves y el viernes están casi vacíos.** Son el espacio natural para las áreas que
-todavía no han agendado.
-
-## Lo que no es de Comfacesar esa semana
-
-| Día | Hora | Qué es |
-|---|---|---|
-| Lun 28 | 8:00 a. m. | Forecast Semanal · Abstract |
-| Mar 29 | 8:10 a. m. | Logis · Forecast |
-| Mié 30 | 8:10 a. m. | Logis · reunión diaria |
-| Jue 1 | 9:00 a. m. | Logis · one to one con Ingrid Vargas |
-| Jue 1 | 4:00 p. m. | Práctica |
-| Vie 2 | 8:00 a. m. | Logis · reunión semanal |
-| Vie 2 | 10:00 a. m. | Abstract · Marketing |
-| Vie 2 | 12:00 m. | Escandón Abogados · página de compañía en LinkedIn |
-| Vie 2 | 4:00 p. m. | Práctica |
-| Sáb 3 | 8:00 a. m. | Práctica BMX |
-| Lun 5 | 8:00 a. m. | Forecast Semanal · Abstract |
-
----
-
-*Leído del calendario el 22 de septiembre. El conector de Outlook sigue sin permiso de
-escritura, así que los asuntos los corrige Sandra a mano y esta tabla es la referencia.*
+**El conector de Outlook no puede escribir.** Tiene `Calendars.Read` y haría falta
+`Calendars.ReadWrite`. Hasta que se concedan esos permisos, los asuntos los corrige Sandra a
+mano y esta tabla es la referencia.
