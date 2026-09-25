@@ -1,0 +1,246 @@
+<title>Mesa Comfacesar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Lato:wght@400;700;900&display=swap">
+
+<style>
+  :root {
+    --ground: #FAF7F7; --surface: #FFFFFF; --surface-2: #F3EEEE;
+    --ink: #1A1315; --ink-2: #4A3E40; --muted: #6B5E60;
+    --line: #E6DDDD; --line-strong: #D2C6C6;
+    --accent: #C00000; --accent-soft: #F7E7E7;
+    --good: #1B6B45; --good-bg: #E2F0E9;
+    --warn: #8F5407; --warn-bg: #F8EBDA;
+    --f-display: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+    --f-body: "Source Serif 4", Georgia, "Times New Roman", serif;
+    --f-ui: "Lato", "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #121011; --surface: #1B1819; --surface-2: #232021;
+      --ink: #F1ECEC; --ink-2: #D5CCCC; --muted: #A0918F;
+      --line: #2C2627; --line-strong: #3D3536;
+      --accent: #E85555; --accent-soft: #33201F;
+      --good: #6FCB9B; --good-bg: #163024;
+      --warn: #E5AC66; --warn-bg: #332616;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #121011; --surface: #1B1819; --surface-2: #232021;
+    --ink: #F1ECEC; --ink-2: #D5CCCC; --muted: #A0918F;
+    --line: #2C2627; --line-strong: #3D3536;
+    --accent: #E85555; --accent-soft: #33201F;
+    --good: #6FCB9B; --good-bg: #163024;
+    --warn: #E5AC66; --warn-bg: #332616;
+  }
+
+  * { box-sizing: border-box; }
+  body { background: var(--ground); color: var(--ink);
+    font-family: var(--f-body); font-size: 1.0625rem; line-height: 1.6;
+    margin: 0; padding: 0 1.25rem 5rem; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 56rem; margin: 0 auto; }
+
+  .eyebrow { font-family: var(--f-ui); font-weight: 900; font-size: .7rem;
+    letter-spacing: .2em; text-transform: uppercase; color: var(--accent); margin: 0; }
+  h1 { font-family: var(--f-display); font-size: clamp(2rem, 5.5vw, 2.8rem);
+    font-weight: 800; line-height: 1.03; letter-spacing: -.025em; text-wrap: balance; margin: .5rem 0 0; }
+  p { margin: 0; }
+  .lede { font-size: 1.08rem; color: var(--muted); text-wrap: pretty; }
+  strong { font-weight: 600; color: var(--ink); }
+
+  header.top { display: flex; flex-direction: column; gap: .8rem;
+    padding: 3rem 0 1.6rem; border-bottom: 3px solid var(--accent); }
+  .stamp { font-family: var(--f-ui); font-size: .75rem; color: var(--muted); }
+
+  /* navegación por agente */
+  .tabs { display: flex; gap: 0; border-bottom: 1px solid var(--line-strong); margin-top: 2rem; }
+  .tab { font-family: var(--f-display); font-weight: 800; font-size: 1.05rem;
+    letter-spacing: -.01em;
+    background: transparent; color: var(--muted); border: 0;
+    border-bottom: 3px solid transparent; margin-bottom: -1px;
+    padding: .75rem 1.4rem .8rem; cursor: pointer; white-space: nowrap;
+    display: flex; align-items: center; gap: .5rem; }
+  .tab:hover { color: var(--ink); }
+  .tab[aria-selected="true"] { color: var(--accent); border-bottom-color: var(--accent); }
+  .tab:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+  .dot { width: .5rem; height: .5rem; border-radius: 50%; background: currentColor; opacity: .55; }
+
+  .panel { padding-top: 1.7rem; display: flex; flex-direction: column; gap: 1.4rem; }
+  .quien { font-size: 1rem; color: var(--ink-2); text-wrap: pretty; }
+
+  .grupo { display: flex; flex-direction: column; gap: .55rem; }
+  .grupo > h3 { font-family: var(--f-ui); font-size: .7rem; font-weight: 900;
+    letter-spacing: .14em; text-transform: uppercase; color: var(--muted);
+    margin: 0 0 .25rem; }
+
+  .rep { display: block; text-decoration: none; color: inherit;
+    background: var(--surface); border: 1px solid var(--line);
+    border-left: 4px solid var(--accent);
+    padding: 1rem 1.15rem; display: flex; flex-direction: column; gap: .4rem; }
+  .rep:hover { border-color: var(--line-strong); border-left-color: var(--accent); }
+  .rep:hover .nombre { color: var(--accent); }
+  .rep:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .rep.off { border-left-color: var(--line-strong); }
+  .fila { display: flex; align-items: baseline; gap: .6rem; flex-wrap: wrap; }
+  .nombre { font-family: var(--f-display); font-size: 1.18rem; font-weight: 800;
+    letter-spacing: -.015em; }
+  .sub { font-family: var(--f-ui); font-size: .76rem; font-weight: 700; color: var(--muted); }
+  .rep p { font-size: .96rem; color: var(--ink-2); text-wrap: pretty; }
+  .meta { font-family: var(--f-ui); font-size: .73rem; color: var(--muted);
+    display: flex; gap: .3rem .85rem; flex-wrap: wrap; }
+  .meta b { font-weight: 900; color: var(--ink-2); }
+  .abrir { font-family: var(--f-ui); font-size: .72rem; font-weight: 900;
+    letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+
+  .pill { display: inline-flex; align-items: center; font-family: var(--f-ui);
+    font-weight: 900; font-size: .66rem; letter-spacing: .07em; text-transform: uppercase;
+    padding: .2rem .48rem; border-radius: 3px; white-space: nowrap; }
+  .pill.good { background: var(--good-bg); color: var(--good); }
+  .pill.warn { background: var(--warn-bg); color: var(--warn); }
+  .pill.off { background: var(--surface-2); color: var(--muted); }
+
+  .note { border-left: 3px solid var(--accent); background: var(--accent-soft);
+    padding: 1rem 1.15rem; font-size: .95rem; }
+  .note.plain { border-left-color: var(--line-strong); background: var(--surface-2); }
+
+  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--line);
+    font-family: var(--f-ui); font-size: .74rem; color: var(--muted); }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .tab, .rep, .nombre { transition: color .15s ease, border-color .15s ease; }
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="top">
+    <p class="eyebrow">IAM™ · Comfacesar · Agosto a octubre 2026</p>
+    <h1>Mesa Comfacesar</h1>
+    <p class="lede">Todos los reportes del programa en un solo sitio. Guarda este enlace y desde aquí entras a cualquiera.</p>
+    <p class="stamp">Actualizada: viernes 25 de septiembre de 2026 · 11:20 a. m.</p>
+  </header>
+
+  <div class="tabs" role="tablist" aria-label="Reportes por agente">
+    <button class="tab" role="tab" id="t-elia" aria-controls="p-elia" aria-selected="true"><span class="dot"></span>Elia</button>
+    <button class="tab" role="tab" id="t-lucia" aria-controls="p-lucia" aria-selected="false"><span class="dot"></span>Lucía</button>
+  </div>
+
+  <div class="panel" role="tabpanel" id="p-elia" aria-labelledby="t-elia">
+    <p class="quien"><strong>Elia</strong> lleva el seguimiento del programa: lo que falta que pase. Áreas quietas, agendamiento, avance, resultados y la voz del equipo.</p>
+
+    <div class="grupo">
+      <h3>Reportes vivos</h3>
+
+      <a class="rep" href="https://claude.ai/artifact/YWpdmWuHVi4jXYW94duVqp">
+        <div class="fila">
+          <span class="nombre">Sala de Control</span>
+          <span class="sub">Productividad y retorno</span>
+          <span class="pill good">Nuevo</span>
+        </div>
+        <p>Todo lo medido por el programa, en horas y en pesos, con el costo hora real de Comfacesar: cuánto se recupera cada semana, cuánto vale al año a los tres perfiles, en cuántas semanas se paga la inversión y qué cuentan las licencias.</p>
+        <div class="meta">
+          <span>Corte <b>vie 18 sep · 10:40 a. m.</b></span>
+          <span>47 tareas · 75,2 h/semana · $142,1 M a 12 meses</span>
+          <span>Se actualiza <b>cuando las áreas registran</b></span>
+        </div>
+        <span class="abrir">Abrir el reporte →</span>
+      </a>
+
+      <a class="rep" href="https://claude.ai/artifact/HxGTyCeLnuvk9oHEtHLh8Z">
+        <div class="fila">
+          <span class="nombre">Termómetro</span>
+          <span class="sub">Estado del programa</span>
+          <span class="pill good">Vigente</span>
+        </div>
+        <p>El estado completo del programa: sesiones ejecutadas y verificadas, asistencia área por área, qué sesión tiene grabación, acta y asistencia, qué viene agendado y qué exige acción. Es el que sustenta el reporte de seguimiento con la dirección.</p>
+        <div class="meta">
+          <span>Corte <b>vie 25 sep · 7:30 a. m.</b></span>
+          <span>89 sesiones · 91% asistencia · 18 áreas</span>
+          <span>Se actualiza <b>a diario</b></span>
+          <span>La semana de cierre pasa a <b>23 sesiones</b>, y solo cinco áreas siguen sin fecha</span>
+        </div>
+        <span class="abrir">Abrir el reporte →</span>
+      </a>
+
+      <a class="rep" href="https://claude.ai/artifact/2abbbAQkbFesQE2FJWstRr">
+        <div class="fila">
+          <span class="nombre">La encuesta</span>
+          <span class="sub">Pulso a mitad de programa</span>
+          <span class="pill good">Vigente</span>
+        </div>
+        <p>Lo que dice el equipo de Comfacesar sobre cómo va el programa, en sus propias palabras. Once preguntas anónimas, leídas directo del formulario, con las frases textuales de cada quien.</p>
+        <div class="meta">
+          <span>Corte <b>vie 18 sep · 10:20 a. m.</b></span>
+          <span>18 respuestas de 51 · 11 áreas</span>
+          <span>Seis respuestas nuevas desde el <b>lun 14</b></span>
+        </div>
+        <span class="abrir">Abrir el reporte →</span>
+      </a>
+    </div>
+
+
+  </div>
+
+  <div class="panel" role="tabpanel" id="p-lucia" aria-labelledby="t-lucia" hidden>
+    <p class="quien"><strong>Lucía</strong> lleva lo que ya pasó: el acta después de cada sesión, la grabación, la asistencia y los recordatorios. Sus reportes viven en su propia rama, así que desde aquí se abren en su versión viva, no en una copia.</p>
+
+    <div class="grupo">
+      <h3>Reportes vivos</h3>
+
+      <a class="rep" href="https://claude.ai/artifact/Hh7TjkzJuiq5suSkucTa9p">
+        <div class="fila">
+          <span class="nombre">Corte Comfacesar</span>
+          <span class="sub">Sesiones desde Teams</span>
+          <span class="pill good">Vigente</span>
+        </div>
+        <p>El corte de sesiones que arma Lucía desde las grabaciones y las actas de Teams, con lo que pasó en cada sesión. Ya tiene enlace propio.</p>
+        <div class="meta"><span>Mantiene <b>Lucía</b></span><span>Actualizado <b>lun 14 sep</b></span></div>
+        <span class="abrir">Abrir el reporte →</span>
+      </a>
+
+      <a class="rep" href="https://claude.ai/artifact/MiKrqoeuBjaQsJ4Btae3A3">
+        <div class="fila">
+          <span class="nombre">Sala de Agentes</span>
+          <span class="sub">Cómo trabajan Elia y Lucía</span>
+          <span class="pill good">Vigente</span>
+        </div>
+        <p>Qué publica cada agente, cómo se reparten los canales y qué reglas comparten para que el cliente lea siempre una sola voz.</p>
+        <div class="meta"><span>Mantiene <b>Lucía</b></span></div>
+        <span class="abrir">Abrir el reporte →</span>
+      </a>
+    </div>
+
+
+  </div>
+
+
+  <footer>
+    IAM™ Intelligence · Comfacesar · Los reportes marcados «vigente» se actualizan solos, esta mesa se toca solo cuando aparece o se retira un reporte
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab'));
+  function select(tab) {
+    tabs.forEach(function (t) {
+      var on = t === tab;
+      t.setAttribute('aria-selected', on ? 'true' : 'false');
+      document.getElementById(t.getAttribute('aria-controls')).hidden = !on;
+    });
+    tab.focus();
+  }
+  tabs.forEach(function (tab, i) {
+    tab.addEventListener('click', function () { select(tab); });
+    tab.addEventListener('keydown', function (e) {
+      var next = null;
+      if (e.key === 'ArrowRight') next = tabs[(i + 1) % tabs.length];
+      if (e.key === 'ArrowLeft') next = tabs[(i - 1 + tabs.length) % tabs.length];
+      if (e.key === 'Home') next = tabs[0];
+      if (e.key === 'End') next = tabs[tabs.length - 1];
+      if (next) { e.preventDefault(); select(next); }
+    });
+  });
+})();
+</script>
