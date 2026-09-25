@@ -15,6 +15,36 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📊 25 sep · 5:15 p. m. · Sala de Control reconstruida desde el archivo vivo
+
+**Decisión de Sandra, textual:** *«todavía no vayas a subirlo de Lilibet ni vayas a subirlo de Danilo.
+Déjame que yo hable con ellos y lo subimos.»* **No les escribo a ninguno de los dos** — eso lo habla
+ella. Las tres filas quedan fuera del cálculo, marcadas «por confirmar», **sin nombres en el tablero**.
+
+**Y no reutilicé mi cálculo anterior.** El archivo de Drive se había modificado media hora antes, así
+que lo leí completo otra vez. *Menos mal:* mi cifra vieja de **94,7 h** ya no existía. Entraron doce
+tareas de Servicios Sociales, dos informes de Jurídica y varias más — **58 tareas en el archivo**.
+
+**El resultado publicado es 111,1 h/semana y $210,0 M a doce meses** (v11), contra 75,2 h y $142,1 M
+del corte del 18. Se compone de **102,6 h del archivo más 8,5 h medidas en acta**.
+
+### Dos cosas que encontré al recalcular
+
+**Vivienda estaba valiendo cero por un error de lectura mío.** Sus seis tareas tienen los tiempos
+escritos como texto —«1 hora» en vez de 60— y el Excel las calcula en cero; yo había tomado ese cero
+por bueno. *El dato sí es legible*: valen **9,1 h/semana**. Con las 8,5 del acta, el área queda tercera
+del programa con 17,6 h. **Regla: que la hoja calcule cero no significa que el dato no esté.**
+
+**La fila de Rafael tiene el mismo defecto que las tres excluidas, mucho más leve.** Sus cinco tareas
+diarias suman **595 minutos al día**, casi diez horas, o sea 49,6 h/semana para una jornada de
+cuarenta. Y él solo sostiene **45,5 de las 111,1 horas: el 41%**. *No la saqué por mi cuenta* —
+queda dentro, con las dos cifras a la vista, con él y sin él ($124,0 M sin esa área). **Se lo pasé a
+Sandra para que decida.**
+
+**El tablero sigue siendo privado**, y la Mesa enlaza a él. Solo Sandra puede cambiar eso.
+
+---
+
 ## 🔎 25 sep · 4:25 p. m. · Corrida horaria: tres citas nuevas y una corrección al tablero
 
 **No se publicó nada en Slack.** La corrida cayó a las 4:11 p. m., a menos de una hora del filo de
