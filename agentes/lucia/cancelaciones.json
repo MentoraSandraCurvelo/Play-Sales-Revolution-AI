@@ -272,6 +272,21 @@
       "compromiso": "",
       "cuenta_como": "cancelada",
       "nota": "**Avisó él mismo por el canal, y a tiempo** — respondiendo al mensaje de confirmación que se publicó esa mañana. *Es la segunda caída de Manuel José en el programa:* la del 9 de septiembre fue una inasistencia sin aviso, **esta se avisó con hora y media de anticipación y con motivo.** *Consecuencia en la numeración:* como no se hace, **el área se queda en S5** —la de Rina del 24— y **la del lunes 28 a las 4:00 p. m. pasa a ser la S6 y la del miércoles 30 la S7.** _Es la segunda vez en la semana que la numeración de Mercadeo baja:_ primero por la cancelación de Rina del 28, ahora por esta. **A Manuel José le quedan esas dos sesiones antes del cierre.**"
+    },
+    {
+      "area": "Mercadeo",
+      "sesion": "S6",
+      "fecha": "2026-09-28",
+      "hora": "16:00",
+      "canal": "#mercadeo",
+      "quien_cancela": "IAM — Sandra Curvelo",
+      "motivo": "Retirada del calendario por la mentoría, tras la caída de la sesión del viernes 25.",
+      "causa": "retirada por la mentoría",
+      "aviso_en_canal": "",
+      "reagendada": false,
+      "compromiso": "",
+      "cuenta_como": "no realizada",
+      "nota": "**No es una cancelación del área: la quitó Sandra.** _Queda registrada aparte por eso_ — el área no la canceló ni faltó. *Contexto:* viene después de una semana en la que Mercadeo perdió dos de sus tres horas, **la del lunes 28 que canceló Rina y la del viernes 25 que canceló Manuel José.** Sandra manifestó además la intención de **retirar también la del miércoles 30**; si lo hace, **el área cierra el programa en S5** y queda sin ninguna sesión en la semana de cierre."
     }
   ],
   "patron": {
