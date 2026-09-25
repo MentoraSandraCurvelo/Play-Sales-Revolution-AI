@@ -1221,3 +1221,14 @@ jueves 24.** Cayeron la del lunes 28 —cancelada el miércoles— y la de Manue
 
 *Y la numeración vuelve a bajar:* **el área se queda en S5**, así que la del lunes 28 a las
 4:00 p. m. es la **S6** y la del miércoles 30 la **S7**.
+
+| Canal | Qué se publicó | message_ts |
+|---|---|---|
+| `#comunicaciones` | Grabación S9 | `1790369377.586079` |
+
+**Comunicaciones S9 se hizo, y fue con María Elvira Marulanda**, no con Vidiana, aunque el
+asunto del evento decía «vidiana». *Fue una sesión de ejercicios como cualquier otra*, así que
+**cuenta como S9 del área y el acta sale en el formato de siempre.** El corte queda en 94
+sesiones ejecutadas.
+
+*Los insumos todavía no están en Dropbox:* la carpeta `Sesion 9` de Comunicaciones no existe.
