@@ -1,0 +1,216 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "CONTABILIDAD",
+  "area_completa": "",
+  "sesion_num": 8,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "25 de septiembre de 2026",
+  "fecha_corta": "25 septiembre 2026",
+  "subtitulo_meta": "Individual de Carlos Lozano · 25 de septiembre de 2026 · 2:00 p. m. · 1 h 17 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Contabilidad — Comfacesar"],
+    ["Sesión", "N° 8 — Individual de Carlos Lozano: el agente del calendario de obligaciones tributarias"],
+    ["Fecha", "25 de septiembre de 2026"],
+    ["Duración de la sesión", "1 hora 17 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Carlos Lozano — 1 hora 6 minutos"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "24", "etiqueta": "Obligaciones del año identificadas", "detalle": "Leídas del RUT de la Caja"},
+    {"valor": "14", "etiqueta": "Eventos creados", "detalle": "De octubre de 2026 a enero de 2027"},
+    {"valor": "4", "etiqueta": "Días de preaviso", "detalle": "Más el aviso del día del vencimiento"},
+    {"valor": "0", "etiqueta": "Correos enviados sin revisión", "detalle": "Los catorce quedaron en borrador"},
+    {"valor": "3", "etiqueta": "Agentes del área", "detalle": "Los tres con tablero de reporte"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Carlos Lozano", "cargo": "Contabilidad — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 8. El área construyó su tercer agente y quedó funcionando sobre el calendario tributario real. Lo que falta son los datos de los responsables y dos bloqueos técnicos que no dependen del área.",
+  "riesgos": [
+    {
+      "titulo": "La carpeta pública del servidor sigue sin abrir",
+      "nivel": "ALTO",
+      "descripcion": "**No se pudo entrar en toda la sesión** — _queda cargando y nunca abre_, y ya había pasado en encuentros anteriores. **Mientras no se resuelva, el área tiene que bajar los archivos y dejarlos en local** para que el agente los lea. *En otra área el mismo problema se resolvió dándole al agente la dirección de la carpeta y preguntándole si puede llegar hasta ella* — **funcionó incluso por VPN desde otra ciudad.**",
+      "responsable": "Carlos Lozano / Antes de la S9"
+    },
+    {
+      "titulo": "Faltan los correos de los responsables de cada obligación",
+      "nivel": "ALTO",
+      "descripcion": "**El propio agente lo detectó y se detuvo a pedirlo:** _«los archivos base no traen los correos»._ Sin ese dato **el aviso llega solo a quien creó el evento**, no a quien tiene que presentar. Hace falta **una tabla con cada obligación, la persona que la presenta y su correo** — y una columna que indique quién ve todo y quién solo lo suyo.",
+      "responsable": "Carlos Lozano / Inmediato"
+    },
+    {
+      "titulo": "El envío diario depende de que el equipo esté encendido",
+      "nivel": "ALTO",
+      "descripcion": "**Para que los correos salgan a las 8:00 hay que programar una tarea diaria en ese computador**, _y solo corre si el equipo está encendido y la aplicación abierta._ **Un circuito de vencimientos tributarios no debería depender de que alguien recuerde dejar algo abierto.**",
+      "responsable": "Carlos Lozano / Antes de la S9"
+    },
+    {
+      "titulo": "El banco de fechas está incompleto",
+      "nivel": "MEDIO",
+      "descripcion": "**Están cargadas las obligaciones que salen del RUT, pero faltan las que llevan otros compañeros** —IVA, ICA y las demás—, _porque dependen de que cada quien pase su calendario._ **El agente ya avisó cuáles no cubre y ofreció agregarlas** en cuanto se le entreguen.",
+      "responsable": "Carlos Lozano / Antes de la S9"
+    },
+    {
+      "titulo": "Una configuración de la cuenta la controla la administración",
+      "nivel": "MEDIO",
+      "descripcion": "**El calendario agrega por defecto un enlace de videollamada a cada evento** y la opción para desactivarla **no está disponible para el usuario: la gestiona quien administra las cuentas.** _El agente encontró la vuelta_ —los eventos de día completo sí se crean sin enlace— **pero el ajuste de fondo hay que pedirlo.**",
+      "responsable": "Carlos Lozano / Escalar"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "ALTO", "titulo": "Cargar la tabla de responsables con sus correos", "descripcion": "**Cada obligación, quién la presenta y a qué correo**, más la columna de quién ve todas y quién solo la suya. _Es lo único que falta para que el circuito enrute solo._", "responsable": "Carlos Lozano", "plazo": "Inmediato"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Resolver el acceso a la carpeta del servidor", "descripcion": "**Probar dándole al agente la dirección de la carpeta**, sin decirle qué es. _Y si no, montar el entorno en la nube en vez de local._", "responsable": "Carlos Lozano", "plazo": "Antes de la S9"},
+    {"num": "03", "nivel": "ALTO", "titulo": "Completar el banco de fechas con las demás obligaciones", "descripcion": "**IVA, ICA y las que llevan otros compañeros.** _El agente ya dijo cuáles no cubre._", "responsable": "Carlos Lozano", "plazo": "Antes de la S9"},
+    {"num": "04", "nivel": "ALTO", "titulo": "Construir el tablero de reporte del agente", "descripcion": "**Correos enviados, preavisos, cuáles fueron contestados, quién falta y cuántos documentos quedan por presentar** — con corte el último día hábil del mes. _Para colgarlo en el navegador de la jefatura._", "responsable": "Carlos Lozano", "plazo": "Antes de la S9"},
+    {"num": "05", "nivel": "MEDIO", "titulo": "Terminar de modelar el correo de aviso", "descripcion": "**Títulos, negritas y firma.** _El contenido ya quedó aprobado; falta la forma._", "responsable": "Carlos Lozano", "plazo": "Antes de la S9"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El encargo y los dos insumos",
+      "duracion": "~8 min",
+      "objetivo": "Montar el agente sobre el calendario tributario real.",
+      "pasos": [
+        "**El caso es de la jefatura del área**, que iba a presentarlo y lo delegó por carga de trabajo",
+        "**Se cargaron dos archivos y solo dos:** el **calendario tributario oficial** de lo que queda del año **y el RUT de la Caja** — _porque el RUT es el que define qué obligaciones tiene la empresa_",
+        "**El encargo:** que identifique las obligaciones pendientes de octubre en adelante, **las agende con sus fechas** y **haga llegar el aviso a cada responsable y a la jefatura del área**",
+        "_Y un criterio que quedó dicho:_ **siempre darle un rol experto cuando la materia lo exige** — aquí, experto en informes y temas tributarios"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Lo que el agente devolvió",
+      "duracion": "~15 min",
+      "objetivo": "Leer la entrega antes de aprobarla.",
+      "pasos": [
+        "**Construyó el registro maestro con las 24 obligaciones del año**, leídas del RUT, con sus fechas",
+        "**Y se detuvo antes de crear nada.** _«Los archivos base no traen los correos»_ — **pidió los responsables y la autorización explícita** para crear los eventos y enviar las invitaciones",
+        "**Propuso dos eventos por obligación:** el preaviso a cuatro días y el del día del vencimiento, **porque los recordatorios solo le llegan a quien crea el evento** — al resto hay que invitarlo",
+        "**Y dijo qué no cubre:** las obligaciones que no salen del RUT, ofreciendo agregarlas en cuanto se le pasen los calendarios"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Cómo resolvió los límites que encontró",
+      "duracion": "~20 min",
+      "objetivo": "Ver a un agente trabajar contra una restricción.",
+      "pasos": [
+        "**Primer límite:** el aviso del mismo día no se puede programar como recordatorio a las 8:00 — _el calendario solo lo pone a medianoche de días anteriores._ **La salida: el preaviso va como evento y el aviso del vencimiento va por correo**",
+        "**Segundo límite:** la cuenta agrega un enlace de videollamada a cada evento. **El agente lo detectó, intentó quitarlo, avisó que una vez creado el evento ya no se puede**, _borró lo hecho, lo rehízo, volvió a aparecer_ — **y entonces explicó que dependía de un ajuste de la cuenta, con la ruta exacta para cambiarlo**",
+        "**Y al comprobarse que ese ajuste lo controla la administración, encontró la vuelta por su cuenta:** _los eventos de día completo sí se crean sin enlace_",
+        "_Lo que vale la pena subrayar:_ **en ningún momento falló en silencio.** Reportó el límite, propuso la salida y esperó aprobación"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · El circuito probado de punta a punta",
+      "duracion": "~12 min",
+      "objetivo": "Verlo correr sobre un caso real.",
+      "pasos": [
+        "**Se creó el evento de prueba y llegó la invitación**; después se revisó el correo de aviso en borradores",
+        "**El correo quedó así:** encabezado en color, el saludo a la jefatura, _«hoy vence el plazo para presentar y pagar la siguiente obligación»_, la tabla con la obligación y el NIT",
+        "**Con un punto de color en el asunto** — _es un recurso deliberado:_ **es lo que evita que el correo se pierda entre todo lo demás**",
+        "**Quedaron 14 eventos en el calendario y 14 correos en borradores**, de octubre de 2026 a enero de 2027, **ninguno con enlace de videollamada.** _Los correos no se envían: quedan en borrador._"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · Las dos reglas que aparecieron en sesión",
+      "duracion": "~10 min",
+      "objetivo": "Cerrar el circuito con trazabilidad.",
+      "pasos": [
+        "**Primera: el acuse es obligatorio.** Quien recibe el preaviso **tiene que responder «confirmado»**; si no lo hace antes de las 5:30 de ese día, **el agente vuelve a escribirle al día siguiente a las 8:00**",
+        "**Segunda: el aviso del día del vencimiento también se contesta** — _y no con «recibido», sino diciendo que ya se presentó_",
+        "**La razón quedó dicha con claridad:** _«una cosa es que te digan recibido y no lo presenten; si en el correo queda la trazabilidad de que escribió que ya lo presentó, se salvan responsabilidades.»_",
+        "**Eso convierte el agente en algo más que un recordatorio:** _es el registro de quién supo qué y cuándo_"
+      ]
+    },
+    {
+      "titulo": "Ejercicio F · El tablero, regla fija del área",
+      "duracion": "~5 min",
+      "objetivo": "Dejar el reporte donde se consulta.",
+      "pasos": [
+        "**La regla es general: todo agente que se cree tiene que tener su tablero de reporte.** _Los otros dos del área ya lo tienen_",
+        "**El de este:** correos enviados, preavisos, cuáles fueron contestados, **quién falta y cuántos documentos quedan por presentar**",
+        "**Con corte el último día hábil del mes**, o más seguido si hace falta",
+        "**Y va anclado en el navegador de la jefatura del área** — _es ahí donde el reporte deja de ser un archivo y se vuelve control_"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 8 · 25 septiembre 2026",
+      "titulo": "El agente reportó cada límite en vez de fallar en silencio",
+      "descripcion": "Se topó con tres restricciones seguidas —el recordatorio del mismo día, el enlace de videollamada automático y los correos que faltaban— **y en las tres hizo lo mismo: avisó qué no podía hacer, explicó por qué, propuso la salida y esperó autorización.** _Cuando comprobó que un ajuste lo controlaba la administración, encontró la vuelta por su cuenta._ **Ese comportamiento es lo que permite confiarle un calendario de obligaciones tributarias**, donde un aviso que no sale a tiempo tiene consecuencias.",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Cargar los responsables para que enrute solo",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 8 · 25 septiembre 2026",
+      "titulo": "El calendario de obligaciones, montado y probado",
+      "descripcion": "**Leyó el RUT, identificó las 24 obligaciones del año y dejó 14 eventos agendados y 14 correos escritos**, de octubre de 2026 a enero de 2027. _Con preaviso a cuatro días, aviso el día del vencimiento y punto de color en el asunto._ **Y nada se envía sin revisión: los catorce correos quedaron en borrador.** *Es el tercer agente del área y el primero que trabaja sobre fechas con consecuencia legal.*",
+      "estado": "Corriendo, sin los responsables",
+      "proximo_paso": "Cargar la tabla de responsables y completar el banco de fechas",
+      "target": "Antes de la S9"
+    },
+    {
+      "encabezado": "HALLAZGO DE MÉTODO · SESIÓN 8 · 25 septiembre 2026",
+      "titulo": "El acuse obligatorio convierte el aviso en trazabilidad",
+      "descripcion": "La regla apareció en la propia sesión: **quien recibe el preaviso tiene que responder «confirmado», y si no lo hace ese mismo día el agente vuelve a escribirle a la mañana siguiente.** _Y el aviso del vencimiento se contesta diciendo que ya se presentó, no solo que se recibió._ **La diferencia no es de forma:** _«una cosa es que te digan recibido y no lo presenten»._ **Con la respuesta escrita queda el registro de quién supo qué y cuándo.**",
+      "estado": "Acordado, por cargar",
+      "proximo_paso": "Dejarlo escrito en las reglas del agente",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "RIESGO EVITADO · SESIÓN 8 · 25 septiembre 2026",
+      "titulo": "Lo que se perdía no era tiempo, era el foco",
+      "descripcion": "_Contado por el área:_ **«se perdía el foco de qué día se iba a presentar. Había días en que, por estar en otras obligaciones, uno terminaba organizando la información con el tiempo corriendo.»** **Ese es el ahorro real y no se mide en minutos** — se mide en no llegar sobre la hora a una obligación tributaria. *Por eso este agente no compite con los otros dos del área: los otros ahorran trabajo, este evita un incumplimiento.*",
+      "estado": "Identificado",
+      "proximo_paso": "Registrarlo en el tablero de seguimiento",
+      "target": "Antes de la S9"
+    }
+  ],
+  "tareas_intro": "El área construyó su tercer agente y lo dejó probado sobre el calendario tributario real. Lo que falta es el dato de los responsables, completar el banco de fechas y resolver dos bloqueos técnicos que no dependen del área.",
+  "tareas": [
+    {"tarea": "Cargar la tabla de obligaciones con su responsable, su correo y quién ve cuáles", "responsable": "Carlos Lozano", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Dejar escritas en el agente las dos reglas de acuse y reenvío", "responsable": "Carlos Lozano", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Completar el banco de fechas con IVA, ICA y las demás obligaciones", "responsable": "Carlos Lozano", "prioridad": "ALTA", "plazo": "Antes de la S9"},
+    {"tarea": "Construir el tablero de reporte del agente y anclarlo en el navegador de la jefatura", "responsable": "Carlos Lozano", "prioridad": "ALTA", "plazo": "Antes de la S9"},
+    {"tarea": "Resolver el acceso a la carpeta del servidor, o montar el entorno en la nube", "responsable": "Carlos Lozano", "prioridad": "ALTA", "plazo": "Antes de la S9"},
+    {"tarea": "Escalar el ajuste de la cuenta que agrega el enlace de videollamada por defecto", "responsable": "Carlos Lozano", "prioridad": "MEDIA", "plazo": "Escalar"},
+    {"tarea": "Terminar de modelar el correo de aviso: títulos, negritas y firma", "responsable": "Carlos Lozano", "prioridad": "MEDIA", "plazo": "Antes de la S9"}
+  ],
+  "observaciones": [
+    "**El ejercicio de la sesión fue construir el tercer agente del área: el calendario de obligaciones tributarias.** _El caso es de la jefatura del área_, que iba a presentarlo y lo delegó por carga de trabajo.",
+    "**Se cargaron dos archivos y solo dos:** el calendario tributario oficial de lo que queda del año **y el RUT de la Caja** — _porque el RUT es el que define qué obligaciones tiene la empresa._ **Y se le dio rol experto en temas tributarios**, que es el criterio cuando la materia lo exige.",
+    "**El agente construyó el registro maestro con las 24 obligaciones del año, leídas del RUT, con sus fechas.** _Y se detuvo antes de crear nada:_ **«los archivos base no traen los correos»** — pidió los responsables y la autorización explícita antes de agendar y enviar.",
+    "**Propuso dos eventos por obligación** —preaviso a cuatro días y el del día del vencimiento— **porque los recordatorios solo le llegan a quien crea el evento;** al resto hay que invitarlo.",
+    "_Y aquí está lo más destacable de la sesión._ **Se topó con tres restricciones seguidas y en las tres hizo lo mismo: avisó qué no podía hacer, explicó por qué, propuso la salida y esperó autorización.**",
+    "**El aviso del mismo día no se puede programar como recordatorio a las 8:00** —el calendario solo lo pone a medianoche de días anteriores—, _así que el preaviso va como evento y el aviso del vencimiento va por correo._",
+    "**La cuenta agrega un enlace de videollamada a cada evento.** _El agente lo detectó, intentó quitarlo, avisó que una vez creado el evento ya no se puede, borró lo hecho y lo rehízo_ — **y al volver a aparecer explicó que dependía de un ajuste de la cuenta, con la ruta exacta.** Al comprobarse que ese ajuste **lo controla quien administra las cuentas**, encontró la vuelta solo: **los eventos de día completo sí se crean sin enlace.**",
+    "**El circuito se probó de punta a punta.** El correo quedó con encabezado en color, el saludo a la jefatura, la obligación que vence, la tabla y el NIT — **y un punto de color en el asunto**, que es un recurso deliberado: _es lo que evita que el correo se pierda entre todo lo demás._",
+    "**Quedaron 14 eventos en el calendario y 14 correos en borradores**, de octubre de 2026 a enero de 2027, ninguno con enlace. **Los correos no se envían: quedan en borrador hasta que alguien los revise.**",
+    "_Dos reglas nuevas aparecieron en la propia sesión._ **La primera: el acuse es obligatorio.** Quien recibe el preaviso **tiene que responder «confirmado»**, y si no lo hace antes de las 5:30 de ese día, **el agente vuelve a escribirle a la mañana siguiente.** **La segunda: el aviso del vencimiento también se contesta** — _diciendo que ya se presentó, no solo que se recibió._",
+    "**La razón quedó dicha con claridad:** _«una cosa es que te digan recibido y no lo presenten; si en el correo queda la trazabilidad de que escribió que ya lo presentó, se salvan responsabilidades.»_ **Eso convierte el agente en algo más que un recordatorio: es el registro de quién supo qué y cuándo.**",
+    "_El ahorro lo contó el área, y no se mide en minutos:_ **«se perdía el foco de qué día se iba a presentar. Había días en que, por estar en otras obligaciones, uno terminaba organizando la información con el tiempo corriendo.»** **Los otros dos agentes del área ahorran trabajo; este evita un incumplimiento.**",
+    "**Quedó pendiente el tablero**, que es regla fija: _todo agente que se cree tiene que tener el suyo._ El de este lleva **correos enviados, preavisos, cuáles fueron contestados, quién falta y cuántos documentos quedan** — y va anclado en el navegador de la jefatura del área.",
+    "**Y sigue abierto el bloqueo de la carpeta pública del servidor**, que no se pudo abrir en toda la sesión y ya había fallado antes. _En otra área el mismo problema se resolvió dándole al agente la dirección de la carpeta y preguntándole si puede llegar hasta ella_ — **funcionó incluso por VPN desde otra ciudad.** La alternativa es **montar el entorno en la nube en vez de local**, que además resuelve el compartir carpetas con los compañeros."
+  ],
+  "proxima_sesion": {
+    "sesion": "Contabilidad — Sesión 9 · viernes 2 de octubre",
+    "condiciones": [
+      "La tabla de responsables cargada, con correos y alcance",
+      "El banco de fechas completo con las demás obligaciones",
+      "El tablero de reporte construido y anclado",
+      "Resuelto el acceso a la carpeta, o el entorno montado en la nube"
+    ],
+    "agenda": [
+      "Revisión del agente enrutando a cada responsable",
+      "Las reglas de acuse y reenvío funcionando sobre un caso real",
+      "El tablero de los tres agentes del área",
+      "Preparación del material del área para el cierre del 5 de octubre"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 25 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

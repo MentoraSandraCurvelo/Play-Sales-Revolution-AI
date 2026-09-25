@@ -1273,3 +1273,11 @@ persona en un canal que lee su equipo.**
 | Canal | Qué se publicó | message_ts |
 |---|---|---|
 | `#comunicaciones` | Resumen S9 | `1790370691.553419` |
+| `#contabilidad` | Resumen S8 | `1790370950.750989` |
+
+**Con Contabilidad S8 queda cerrado el viernes 25.** Las cuatro sesiones del día tienen acta y
+resumen publicados: Tecnología S6, Comunicaciones S9, Contabilidad S8 — y Mercadeo, cancelada.
+
+*Pendiente de verificar:* en la sesión, **Carlos Lozano quedó de agendar una sesión más para el
+lunes 28 a las 3:00 p. m.** Si la toma, **Contabilidad haría S9 el lunes y S10 el viernes 2**, y
+la numeración de la última semana cambia otra vez.
