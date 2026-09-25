@@ -55,14 +55,18 @@ def e(valor):
 
 
 def rico(valor):
-    """Escapa y luego aplica el resaltado ligero del acta: **negrita** y _cursiva_.
+    """Escapa y luego aplica el resaltado ligero del acta: **negrita**, _cursiva_ y *cursiva*.
 
     Se escapa primero y se marca despues, para que el texto de la fuente no
     pueda inyectar HTML. Sin esto los asteriscos salian literales en el PDF.
+
+    La negrita va primero: despues de resolverla no quedan pares de asteriscos,
+    asi que el asterisco simple se puede tratar como cursiva sin ambiguedad.
     """
     t = e(valor)
     t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t, flags=re.S)
     t = re.sub(r"(?<![\w*])_([^_]+?)_(?![\w*])", r"<em>\1</em>", t, flags=re.S)
+    t = re.sub(r"\*([^*\n]+?)\*", r"<em>\1</em>", t)
     return t
 
 

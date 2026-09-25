@@ -1,0 +1,215 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "TECNOLOGÍA",
+  "area_completa": "",
+  "sesion_num": 6,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "25 de septiembre de 2026",
+  "fecha_corta": "25 septiembre 2026",
+  "subtitulo_meta": "Individual de Olga Lucía Barros · 25 de septiembre de 2026 · 9:00 a. m. · 59 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Tecnología — Comfacesar"],
+    ["Sesión", "N° 6 — Individual de Olga Lucía Barros: el primer agente del área, construido en vivo"],
+    ["Fecha", "25 de septiembre de 2026"],
+    ["Duración de la sesión", "59 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Olga Lucía Barros — 54 minutos"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "1", "etiqueta": "Primer agente del área", "detalle": "Programado, primera corrida el lunes 28"},
+    {"valor": "3", "etiqueta": "Correos sin responder", "detalle": "Los encontró en el barrido de la semana"},
+    {"valor": "2", "etiqueta": "Direcciones del mismo remitente", "detalle": "Las detectó sin que se le dijera"},
+    {"valor": "0", "etiqueta": "Correos enviados sin revisión", "detalle": "Todo pasa primero por borrador"},
+    {"valor": "2", "etiqueta": "Sesiones ya agendadas", "detalle": "El 2 y el 5 de octubre"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Olga Lucía Barros", "cargo": "Gerencia de Tecnología — Comfacesar", "correo": "—", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 6. El área construyó su primer agente en vivo y quedó programado con su primera corrida. Lo que falta es que corra solo, la identidad de marca y la práctica entre sesiones.",
+  "riesgos": [
+    {
+      "titulo": "La rutina solo corre con la aplicación abierta",
+      "nivel": "ALTO",
+      "descripcion": "**El agente está programado para las 8:00 de la mañana de lunes a viernes, pero si a esa hora la aplicación está cerrada, no corre** — _se ejecuta cuando se abra._ **Es el punto frágil del circuito:** un agente que depende de que alguien recuerde abrir algo **no es todavía un proceso automático.**",
+      "responsable": "Olga Lucía Barros / Antes de la S7"
+    },
+    {
+      "titulo": "Tres propuestas del área llevaban la semana sin respuesta",
+      "nivel": "ALTO",
+      "descripcion": "**El barrido de prueba del lunes 21 al viernes 25 encontró tres correos, y los tres quedaron en prioridad alta:** _son propuestas o cotizaciones sin responder._ **No es un hallazgo contra nadie — es exactamente lo que el agente viene a resolver**, y sirve para dimensionar el problema: sin el circuito, esos correos se quedan quietos.",
+      "responsable": "Olga Lucía Barros / Inmediato"
+    },
+    {
+      "titulo": "Falta el manual de marca para el tablero",
+      "nivel": "MEDIO",
+      "descripcion": "**El agente construyó el tablero con colores aproximados y lo advirtió él mismo:** _«si tienes el manual de marca o el logo, pásamelo»._ **El logo ya quedó incrustado**, pero sin el manual **los tableros del área no salen con la identidad institucional real.**",
+      "responsable": "Olga Lucía Barros / Antes de la S7"
+    },
+    {
+      "titulo": "No hubo ejercicio propio entre sesiones",
+      "nivel": "MEDIO",
+      "descripcion": "**El área llegó sin trabajo nuevo construido desde la sesión anterior.** _Lo dicho en sesión es correcto: la parte de saber hacerlo está;_ **lo que falta es la práctica**, y quedan dos sesiones. *Con el agente ya creado, lo que sigue es usarlo y modelarlo.*",
+      "responsable": "Olga Lucía Barros / Antes de la S7"
+    },
+    {
+      "titulo": "Ocho minutos de la hora se fueron en audio y descarga",
+      "nivel": "BAJO",
+      "descripcion": "**El audio se escuchaba duplicado** y hubo que resolverlo silenciando el micrófono, _y además había que descargar la herramienta para poder empezar._ **De una hora, la sesión de trabajo real arrancó pasados los ocho minutos.**",
+      "responsable": "Área / Antes de la S7"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "ALTO", "titulo": "Verificar la primera corrida del lunes 28", "descripcion": "**Que la aplicación esté abierta a las 8:00** y comprobar que el agente agrupe, priorice y deje los borradores sin intervención.", "responsable": "Olga Lucía Barros", "plazo": "Lunes 28"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Revisar y enviar los tres borradores pendientes", "descripcion": "**Están listos en la carpeta de borradores**, con la firma corregida y dentro del hilo de la conversación. _Quedan esperando la confirmación._", "responsable": "Olga Lucía Barros", "plazo": "Inmediato"},
+    {"num": "03", "nivel": "MEDIO", "titulo": "Pasarle el manual de marca al agente", "descripcion": "**Para que el tablero salga con los colores institucionales reales** y no con aproximados. _Lo pidió él mismo._", "responsable": "Olga Lucía Barros", "plazo": "Antes de la S7"},
+    {"num": "04", "nivel": "MEDIO", "titulo": "Seguir modelando el correo de respuesta", "descripcion": "**El tratamiento, el nombre de la cotización en negrita, el contenido de la firma.** _Cada ajuste se le pide en la conversación y él rehace._", "responsable": "Olga Lucía Barros", "plazo": "Antes de la S7"},
+    {"num": "05", "nivel": "MEDIO", "titulo": "Crear un segundo agente para otro proceso del área", "descripcion": "**Un agente por sistema de trabajo.** _Con el primero funcionando, el segundo sale de repetir la misma lógica._", "responsable": "Olga Lucía Barros", "plazo": "Sesión 7"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Del entorno de chat al entorno de agentes",
+      "duracion": "~8 min",
+      "objetivo": "Ubicar dónde queda cada cosa de lo aprendido.",
+      "pasos": [
+        "**Lo que el área ya recorrió queda de un lado:** proyectos, tareas programadas, **artefactos —los tableros que viven en una dirección web—** y el módulo de diseño con las presentaciones",
+        "**Y del otro lado está el entorno donde se crean los agentes**, que es lo nuevo de esta sesión",
+        "_La diferencia que quedó dicha:_ **un proyecto es un asistente al que hay que ir escribiéndole**; **un agente recorre el circuito completo sin que nadie le diga a dónde ir**, aunque el proyecto tenga tareas programadas",
+        "**Se creó una carpeta propia en el equipo** — es el repositorio donde el agente guarda su tablero y su historial, _y donde irá creando una carpeta por cada agente nuevo_"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El circuito dictado",
+      "duracion": "~10 min",
+      "objetivo": "Escribir el sistema de trabajo completo.",
+      "pasos": [
+        "**Todos los días hábiles de lunes a viernes a las 8:00 de la mañana**, revisar el correo y **agrupar en una carpeta propia todos los correos del líder del área**",
+        "**Construir un tablero de reporte con prioridades para contestar**, con banner corporativo y colores institucionales",
+        "**Y dejar la respuesta de acuse de recibo en la carpeta de borradores** —confirmando que el documento se recibió y que se le da paso—, **sin enviar nada hasta el visto bueno**",
+        "_El criterio que quedó dicho:_ **primero en borrador mientras se toma confianza; después, respuesta automática.** Y **ponerle nombre al agente**, porque cuando sean varios hay que distinguirlos"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Lo que el agente resolvió por su cuenta",
+      "duracion": "~10 min",
+      "objetivo": "Ver qué hace un agente que no se le pidió.",
+      "pasos": [
+        "**Detectó que el remitente escribe desde dos direcciones distintas** —no una— y **programó la revisión sobre las dos.** _Unos 200 hilos en total_",
+        "**Creó la carpeta con su etiqueta en el correo y programó la rutina**, avisando que la primera corrida sería el **lunes 28**",
+        "**Advirtió la condición de la que depende:** la aplicación tiene que estar abierta a la hora de la corrida, _o se ejecuta al abrirla_",
+        "**Y pidió el manual de marca en vez de inventar los colores** — había usado aproximados y lo dijo"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · La prueba en vivo",
+      "duracion": "~12 min",
+      "objetivo": "Correr el circuito sobre la semana real.",
+      "pasos": [
+        "**Se le pidió el barrido desde el lunes 21 hasta hoy.** _Encontró tres correos, todos del líder del área, y **los tres quedaron en prioridad alta:** son propuestas o cotizaciones sin responder_",
+        "**Uno de ellos tenía un asunto genérico y aun así lo clasificó como cotización — por el nombre del archivo adjunto**",
+        "**El tablero quedó con el banner, el logo, los indicadores y la tabla priorizada:** _alta_ para propuestas, cotizaciones, contrataciones, pagos, facturas **y cualquier correo sin responder por más de dos días**; _media_ para impresiones y envío de documentos; _baja_ para informativos o ya respondidos",
+        "**Y los tres borradores quedaron escritos, esperando confirmación.** Con copia diaria del tablero en la carpeta de historial"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · El modelamiento, pedido por el área",
+      "duracion": "~8 min",
+      "objetivo": "Ajustar el resultado hasta que sirva.",
+      "pasos": [
+        "**Los dos cambios los pidió el área sin que nadie se los sugiriera:** una **subcarpeta propia de borradores** para no mezclarlos con los suyos, y **cambiar la firma** — no «Gerencia de Tecnología» sino **«Asistente de Gerencia de Tecnología»**",
+        "**Y al aplicarlos, el agente detectó un problema que él mismo había creado:** _al editar los borradores, el sistema los sacaba del hilo de la conversación_, **así que no habrían llegado como respuesta.** Los rehizo dentro del hilo y eliminó los anteriores",
+        "**Quedaron dos etiquetas de color y se le preguntó a él qué significaban:** _verde, los correos recibidos; naranja, los borradores de respuesta_",
+        "_El criterio:_ **cuando algo del resultado no se entiende, se le pregunta al propio agente** — no se adivina"
+      ]
+    },
+    {
+      "titulo": "Ejercicio F · El segundo entorno de herramientas",
+      "duracion": "~16 min",
+      "objetivo": "Saber qué conviene hacer en cada una.",
+      "pasos": [
+        "_El área no venía usando el entorno de Google aunque lo tiene disponible._ **Se configura igual que las demás y funciona con los mismos proyectos —allí llamados gemas—, con plantillas listas** para un plan de campaña o para analizar una reunión subiendo la grabación",
+        "**Es fuerte en imagen y video:** a partir de una sola fotografía arma un video de presentación de producto o una escena completa",
+        "**La investigación profunda arma un plan antes de buscar** —investigar, analizar, identificar, evaluar, proponer— **y se puede modificar antes de arrancar.** Entrega un documento extenso del que salen **la infografía y el tablero interactivo**",
+        "**Los cuadernos admiten hasta 300 documentos en simultáneo** y devuelven resumen, **mapa mental**, presentación, presentación en video, **resumen en audio a dos voces**, tarjetas de estudio e infografías — _y permiten preguntarle al documento para prepararse_"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 6 · 25 septiembre 2026",
+      "titulo": "El agente se corrigió a sí mismo antes de que nadie lo notara",
+      "descripcion": "Al aplicar el cambio de firma que pidió el área, **el agente descubrió que editar los borradores los sacaba del hilo de la conversación** — _así que no habrían llegado como respuesta al remitente, sino como correos sueltos._ **Lo detectó, rehízo los tres dentro del hilo y eliminó los anteriores**, y lo explicó al reportar. *Nadie lo había visto.* **Ese es el nivel de revisión que un circuito manual no tiene.**",
+      "estado": "Corregido en vivo",
+      "proximo_paso": "Verificarlo en la primera corrida del lunes",
+      "target": "Lunes 28"
+    },
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 6 · 25 septiembre 2026",
+      "titulo": "El primer agente del área, programado y probado",
+      "descripcion": "**Revisa el correo cada día hábil a las 8:00, agrupa lo del líder del área en su propia carpeta, lo prioriza en un tablero y deja escrito el acuse de recibo en borradores** — sin enviar nada sin visto bueno. _Probado sobre la semana real:_ **tres correos encontrados, tres prioridades altas, tres borradores listos.** *La primera corrida en automático es el lunes 28.*",
+      "estado": "Programado",
+      "proximo_paso": "Comprobar la corrida y resolver que no dependa de abrir la aplicación",
+      "target": "Lunes 28"
+    },
+    {
+      "encabezado": "HALLAZGO DE LA PRUEBA · SESIÓN 6 · 25 septiembre 2026",
+      "titulo": "Clasificó por el adjunto lo que el asunto no decía",
+      "descripcion": "De los tres correos del barrido, **uno tenía un asunto genérico que no decía de qué se trataba.** _El agente lo reconoció como cotización por el nombre del archivo adjunto_ y lo subió a prioridad alta. **También detectó por su cuenta que el remitente escribe desde dos direcciones distintas** y programó la revisión sobre las dos — unos 200 hilos. *Ninguna de las dos cosas se le pidió.*",
+      "estado": "Verificado",
+      "proximo_paso": "Dejarlo como criterio fijo del circuito",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "DE CARA AL CIERRE · SESIÓN 6 · 25 septiembre 2026",
+      "titulo": "El área tiene el recorrido completo y dos sesiones por delante",
+      "descripcion": "**Con esta sesión el área cubrió todo el camino:** configuración, proyectos, tareas programadas, artefactos, diseño **y agentes.** _Y ya tomó sus dos últimas sesiones — el viernes 2 y el lunes 5 de octubre._ **Lo que queda no es aprender más, es usarlo:** poner el agente a correr, modelarlo y **crear el segundo sobre otro proceso del área.**",
+      "estado": "Agendado",
+      "proximo_paso": "Llegar a la S7 con el agente corriendo y algo propio construido",
+      "target": "Viernes 2 de octubre"
+    }
+  ],
+  "tareas_intro": "El área construyó su primer agente en vivo y quedó programado con su primera corrida. Lo que falta es verlo correr solo, darle la identidad de marca y usar las dos sesiones que quedan para construir sobre lo que ya sabe.",
+  "tareas": [
+    {"tarea": "Verificar la primera corrida automática del lunes 28 a las 8:00", "responsable": "Olga Lucía Barros", "prioridad": "ALTA", "plazo": "Lunes 28"},
+    {"tarea": "Revisar y enviar los tres borradores que quedaron pendientes", "responsable": "Olga Lucía Barros", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Resolver que la rutina no dependa de tener la aplicación abierta", "responsable": "Olga Lucía Barros", "prioridad": "ALTA", "plazo": "Antes de la S7"},
+    {"tarea": "Pasarle el manual de marca para que el tablero salga con los colores institucionales", "responsable": "Olga Lucía Barros", "prioridad": "MEDIA", "plazo": "Antes de la S7"},
+    {"tarea": "Seguir modelando el correo de respuesta: tratamiento, negritas y firma", "responsable": "Olga Lucía Barros", "prioridad": "MEDIA", "plazo": "Antes de la S7"},
+    {"tarea": "Crear un segundo agente sobre otro proceso del área", "responsable": "Olga Lucía Barros", "prioridad": "MEDIA", "plazo": "Sesión 7"}
+  ],
+  "observaciones": [
+    "**El ejercicio de la sesión fue construir el primer agente del área, en vivo y de principio a fin.** _La diferencia con lo anterior quedó dicha:_ **un proyecto es un asistente al que hay que ir escribiéndole; un agente recorre el circuito completo sin que nadie le diga a dónde ir.**",
+    "**El circuito dictado:** todos los días hábiles a las 8:00 de la mañana, revisar el correo, **agrupar en una carpeta propia los correos del líder del área**, construir un **tablero de prioridades** con banner y colores institucionales, **y dejar la respuesta de acuse de recibo en borradores** — _sin enviar nada sin visto bueno._",
+    "**Y el agente resolvió por su cuenta cosas que no se le pidieron.** _Detectó que el remitente escribe desde dos direcciones distintas_ —no una— **y programó la revisión sobre las dos**, unos 200 hilos. Creó la carpeta con su etiqueta, programó la rutina **y advirtió la condición de la que depende: la aplicación tiene que estar abierta a la hora de la corrida.**",
+    "**También pidió el manual de marca en vez de inventar los colores.** _Había usado aproximados y lo dijo._ El logo ya quedó incrustado en el tablero; **falta el manual para que la identidad sea la real.**",
+    "**La prueba se corrió sobre la semana real**, del lunes 21 al viernes 25. **Encontró tres correos y los tres quedaron en prioridad alta:** _son propuestas o cotizaciones sin responder._ **No es un señalamiento — es exactamente lo que el circuito viene a evitar.**",
+    "**Y uno de los tres tenía un asunto genérico que no decía de qué se trataba.** _El agente lo reconoció como cotización por el nombre del archivo adjunto._ **Eso no se le pidió.**",
+    "**El tablero quedó priorizado con criterio propio del proceso:** _alta_ para propuestas, cotizaciones, contrataciones, pagos, facturas **y cualquier correo sin responder por más de dos días**; _media_ para impresiones y envío de documentos; _baja_ para informativos o ya respondidos. **Con copia diaria en la carpeta de historial.**",
+    "**El modelamiento lo pidió el área sin que nadie se lo sugiriera:** una **subcarpeta propia de borradores** para no mezclarlos con los suyos, y **cambiar la firma** — no «Gerencia de Tecnología» sino **«Asistente de Gerencia de Tecnología»**.",
+    "_Y ahí apareció lo más destacable de la sesión._ **Al aplicar el cambio, el agente descubrió que editar los borradores los sacaba del hilo de la conversación**, así que **no habrían llegado como respuesta al remitente sino como correos sueltos.** _Lo detectó, los rehízo dentro del hilo, eliminó los anteriores y lo explicó al reportar._ **Nadie lo había visto.**",
+    "_Un criterio práctico que quedó dicho:_ **cuando algo del resultado no se entiende, se le pregunta al propio agente.** Quedaron dos etiquetas de color y él mismo explicó: **verde los correos recibidos, naranja los borradores de respuesta.**",
+    "**La segunda parte abrió el entorno de Google**, que el área tiene disponible pero no venía usando. _Se configura igual y funciona con los mismos proyectos._ **Es fuerte en imagen y video** —de una sola fotografía arma un video de presentación de producto—, **y trae la investigación profunda**, que arma un plan antes de buscar y permite modificarlo.",
+    "**Los cuadernos admiten hasta 300 documentos en simultáneo** y devuelven resumen, mapa mental, presentación, **resumen en audio a dos voces**, tarjetas de estudio e infografías — _con la posibilidad de preguntarle al documento para prepararse antes de exponerlo._",
+    "**El área no trajo ejercicio construido desde la sesión anterior.** _La parte de saber hacerlo está;_ **lo que falta es la práctica** — y con el agente ya creado, lo que sigue es usarlo, modelarlo y hacer el segundo.",
+    "**Con esta sesión el área cubrió el recorrido completo** —configuración, proyectos, tareas programadas, artefactos, diseño y agentes— **y ya tomó sus dos últimas sesiones: el viernes 2 y el lunes 5 de octubre.** _Lo que queda no es aprender más, es construir con lo que ya sabe._"
+  ],
+  "proxima_sesion": {
+    "sesion": "Tecnología — Sesión 7 · viernes 2 de octubre",
+    "condiciones": [
+      "La primera corrida automática verificada",
+      "Los tres borradores revisados y enviados",
+      "El manual de marca aplicado al tablero",
+      "Un segundo agente empezado sobre otro proceso del área"
+    ],
+    "agenda": [
+      "Revisión del agente corriendo solo y de su tablero",
+      "Construcción del segundo agente del área",
+      "Aplicación del entorno de Google a un caso propio",
+      "Preparación del material del área para el cierre del 5 de octubre"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 25 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
