@@ -33,6 +33,28 @@ ella decidió por fuera del canal.
 
 ---
 
+## ⭕️ 28 sep · 12:30 p. m. · Jurídica canceló la de hoy y su numeración vuelve a correr
+
+**Lo dijo Sandra.** La S12 estaba para las 11:00 y no se hizo. *Verificado antes de publicar:* el
+evento **ya no está en el calendario** y **nadie escribió en `#juridica`** — el último mensaje del
+canal es el acta de la S11, del viernes 25.
+
+**El área sigue en S11.** Aplica la regla de siempre: *la sala caída no consume número*. Entonces
+**la del miércoles 30 es la S12 y la del jueves 1 la S13**, pero el calendario todavía las titula
+**S13 y S14**. *Quedan corridas por uno* y conviene arreglarlo antes de que se ejecuten, porque es
+el número que queda en el acta y en la carpeta.
+
+**El cupo no se perdió:** Sandra alargó la sesión de Subsidio de las 10:00 y la dejó de **dos
+horas**. Es la primera del programa que se extiende así, y queda anotado en la agenda del tablero.
+
+**La semana de cierre baja de 26 a 25**, Jurídica pasa de tres sesiones a dos. *La cancelación se
+evidencia y no entra a ningún indicador:* **no mueve las 94 ni el 92%.**
+
+*Publicado:* Termómetro **v81**, Mesa **v34**, Mesa nueva **v6**. **Nada en Slack** — el área no
+avisó por canal y un aviso del momento sería de Lucía, no mío.
+
+---
+
 ## 📣 28 sep · 8:50 a. m. · Recordatorio del último día, publicado en seis canales
 
 **Aprobado por Sandra en el momento («dale»), enviado en vivo, no programado.** Releí los seis
