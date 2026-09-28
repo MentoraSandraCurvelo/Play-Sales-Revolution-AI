@@ -1,0 +1,207 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SUBSIDIO Y APORTES",
+  "area_completa": "",
+  "sesion_num": 5,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "28 de septiembre de 2026",
+  "fecha_corta": "28 septiembre 2026",
+  "subtitulo_meta": "Individual de José Luciano Contreras · 28 de septiembre de 2026 · 10:00 a. m. · 1 h 56 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Subsidio y Aportes — Comfacesar"],
+    ["Sesión", "N° 5 — Individual de José Luciano Contreras: el primer agente del área"],
+    ["Fecha", "28 de septiembre de 2026"],
+    ["Duración de la sesión", "1 hora 56 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "José Luciano Contreras — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "1", "etiqueta": "Primer agente del área", "detalle": "Construido de cero en el entorno agéntico"},
+    {"valor": "2 días", "etiqueta": "Lo que toma hoy el informe al Consejo", "detalle": "Cada mes, medido por el área"},
+    {"valor": "4", "etiqueta": "Errores que el agente corrigió solo", "detalle": "Ninguno se los señaló nadie"},
+    {"valor": "2", "etiqueta": "Fuentes de correo ancladas", "detalle": "Cobranzas y Tecnología"},
+    {"valor": "0", "etiqueta": "Conocimiento técnico exigido", "detalle": "El área describió el proceso; el sistema hizo el resto"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "José Luciano Contreras", "cargo": "Coordinación de Subsidio y Aportes — Comfacesar", "correo": "coordinacionsubsidioyaportes@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 5. El área salió del entorno asistido y construyó su primer agente sobre un proceso real —el informe mensual al Consejo Directivo—. Quedó probado hasta la descarga de los datos. Lo que falta, y lo que apareció al armarlo, se mira aquí.",
+  "riesgos": [
+    {
+      "titulo": "El asunto del correo fuente cambia cada mes",
+      "nivel": "ALTO",
+      "descripcion": "**Un agente ancla su búsqueda en un parámetro fijo, y hoy no lo hay.** El correo de estadísticas llega unas veces como _totales XML_ y otras como _totales estadísticos de cobertura_. *Y ya pasó en la sesión:* el listado de expulsión llegó como «listado de expulsión **actualizado**» y la búsqueda no lo detectó — el propio agente lo diagnosticó y corrigió el parámetro. **Mientras el asunto sea distinto cada mes, el circuito depende de que alguien lo repare.**",
+      "responsable": "José Luciano Contreras / Antes de la S6"
+    },
+    {
+      "titulo": "La fuente quedó atada a una persona, no a un cargo",
+      "nivel": "MEDIO",
+      "descripcion": "La instrucción nombra el **correo personal** de quien envía los datos desde Tecnología. _Quedó dicho en sesión y quedó como está, para no frenar la prueba._ **Pero el día que esa persona no esté, el agente deja de encontrar su insumo** y hay que entrar a repararlo. *Un buzón genérico o el área como remitente resuelve el problema de una vez.*",
+      "responsable": "José Luciano Contreras / Antes de la S6"
+    },
+    {
+      "titulo": "Parte de los insumos del informe llegan por WhatsApp",
+      "nivel": "MEDIO",
+      "descripcion": "**El agente solo lee lo que llega al correo.** Hay al menos dos insumos del informe que hoy entran por mensajería informal, y *para el circuito eso no existe.* El área ya planteó pedir que se los manden por correo. **Es la misma lógica que apareció en la Sub. Financiera con la agenda: lo que no queda registrado en el canal formal, el sistema no lo puede tomar.**",
+      "responsable": "José Luciano Contreras / Antes de la S6"
+    },
+    {
+      "titulo": "Lo que el área construyó no está quedando registrado",
+      "nivel": "ALTO",
+      "descripcion": "El reporte de productividad del área —el que alimenta el tablero que consulta la dirección— **está en blanco**. *No es que no haya trabajo:* van cinco sesiones y el presupuesto de aportes 2027 quedó construido en la S4. **Pero lo que no se reporta, para el tablero no ocurrió**, y el corte se lee desde ahí. _La carpeta está en el canal, en «Diligencia reporte»._",
+      "responsable": "José Luciano Contreras / Inmediato"
+    },
+    {
+      "titulo": "El circuito quedó probado hasta la mitad",
+      "nivel": "MEDIO",
+      "descripcion": "**La parte de entrada funciona:** el agente entra al correo, descarga el Excel y lo guarda en la carpeta del mes — *verificado en sesión contra el archivo que el área ya tenía, y son idénticos.* **Lo que no se alcanzó a ver es la salida:** la presentación en HTML con el mapa interactivo quedó generándose al cerrar la hora. _Hasta que no se vea, el ahorro del proceso no está medido._",
+      "responsable": "José Luciano Contreras / Antes de la S6"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "ALTO", "titulo": "Estandarizar el asunto de los dos correos fuente", "descripcion": "Pedir a **Cobranzas** y a **Tecnología** que el asunto lleve siempre la misma palabra clave. *Basta con un correo pidiéndolo* — y de paso deja el proceso acordado por escrito con quien envía.", "responsable": "José Luciano Contreras", "plazo": "Inmediato"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Ver la presentación y medir el tiempo real", "descripcion": "Abrir lo que el agente generó, **compararlo con el informe que se arma a mano** y anotar cuánto tomó. _Sin esa comparación no hay cifra que presentar._", "responsable": "José Luciano Contreras", "plazo": "Antes de la S6"},
+    {"num": "03", "nivel": "ALTO", "titulo": "Cargar el reporte de productividad del área", "descripcion": "Los ejercicios de las cinco sesiones, con el antes y el después en minutos. **Es lo que el tablero de la dirección lee**, y hoy el área aparece sin nada.", "responsable": "José Luciano Contreras", "plazo": "Inmediato"},
+    {"num": "04", "nivel": "MEDIO", "titulo": "Cambiar el remitente personal por el buzón del área", "descripcion": "Reemplazar en la instrucción el correo de la persona por el **buzón genérico**, para que el circuito no dependa de quién ocupe el puesto.", "responsable": "José Luciano Contreras", "plazo": "Antes de la S6"},
+    {"num": "05", "nivel": "MEDIO", "titulo": "Traer al correo los insumos que llegan por WhatsApp", "descripcion": "Pedir que las fuentes que hoy entran por mensajería lleguen al correo, **para que el agente las pueda tomar sin intervención.**", "responsable": "José Luciano Contreras", "plazo": "Antes de la S6"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El encargo: el informe mensual al Consejo Directivo",
+      "duracion": "~12 min",
+      "objetivo": "Poner sobre la mesa un proceso real, repetitivo y con fecha fija, antes de tocar nada.",
+      "pasos": [
+        "**El proceso, dicho por el área:** cada mes llegan dos correos —el listado de empresas e independientes que se van a expulsar, y los datos estadísticos poblacionales por zona—, *se cruzan en una tabla dinámica, se sacan porcentajes y se arma a mano la presentación para el Consejo Directivo*",
+        "**Incluye escoger una por una la figura del municipio del Cesar** desde una carpeta de recursos, según la zona a la que pertenezca cada empresa expulsada. _Valledupar, Aguachica, Codazzi y Copey_",
+        "**El tiempo:** *«me demoraba dos días»*. La cadencia es mensual y la fecha no se mueve — **el Consejo Directivo es el último martes de cada mes**",
+        "_El criterio de la sesión:_ **si es puntual, va por proyecto; si es repetitivo, va por agente.** Este cumple las dos condiciones que hacen que valga la pena un agente — *se repite, y tiene una fecha que no se negocia*"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · La instrucción, escrita por el área",
+      "duracion": "~25 min",
+      "objetivo": "Describir el sistema de trabajo, no programarlo.",
+      "pasos": [
+        "**Primero la carpeta de trabajo** en el disco local, abierta como espacio del agente — *el lugar donde deja y recoge la información*",
+        "**Luego el nombre.** El área lo llamó **Lucía**. _No es un detalle menor:_ cuando después haya varios agentes conversando entre ellos, el nombre es lo que permite decir cuál hizo qué",
+        "**La fuente uno:** el correo de Cobranzas con el listado de expulsión. **La fuente dos:** el correo de Tecnología con los datos poblacionales. *De cada uno se fijó de dónde viene y por qué palabra se reconoce*",
+        "**El destino:** la carpeta de empresas expulsadas, _clasificando por el mes que corresponda_ — no la carpeta del mes, que cambia, sino la carpeta madre",
+        "**La cadencia, corregida en sesión:** se planteó el último lunes y el área la ajustó. *Como el Consejo es el último martes*, quedó **el viernes anterior al último lunes** — así queda el fin de semana y el lunes para revisar antes de presentar"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · La credencial, de cero",
+      "duracion": "~25 min",
+      "objetivo": "Darle al agente permiso para leer el correo, sin que el área tenga que ser técnica.",
+      "pasos": [
+        "**Proyecto nuevo** en la consola de Google, con la cuenta del área",
+        "**Habilitar el acceso al correo**, configurar la pantalla de consentimiento en modo interno y crear un cliente de escritorio",
+        "**Descargar el archivo de credencial** y moverlo a la carpeta del agente — *el único paso que el sistema no puede hacer solo, porque requiere la cuenta del usuario*",
+        "_Y una técnica que quedó enseñada de paso:_ cuando el área no encontraba el botón de descarga, **tomó un pantallazo y se lo mostró al sistema.** *El sistema no ve la pantalla, pero sí lee la foto* — y de ahí salió la instrucción correcta",
+        "**El permiso quedó acotado:** el agente **solo puede leer el correo**. _No envía y no borra._ Quedó dicho por el propio sistema antes de pedir la autorización"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · La prueba real, y lo que apareció en ella",
+      "duracion": "~20 min",
+      "objetivo": "Correr el circuito sobre el correo real del área y ver qué se rompe.",
+      "pasos": [
+        "**El agente entró al correo, encontró el archivo, lo descargó y lo guardó en la carpeta del mes correcto.** *Se comparó con el archivo que el área ya tenía: idénticos*",
+        "**Primer arreglo, sin que nadie se lo pidiera:** el archivo de credencial se había guardado con **la extensión duplicada**. Lo detectó y lo corrigió",
+        "**Segundo:** un Excel abierto bloqueaba la lectura. _Lo encontró durante la prueba, lo corrigió y volvió a correr_ — y dejó dicho que si ya existe un archivo idéntico no lo vuelve a guardar",
+        "**Tercero:** avisó que **alguien había movido documentos a una carpeta nueva antes de que él existiera** — información que le hacía falta— y los trajo de vuelta",
+        "**Cuarto:** la búsqueda no encontraba el listado porque el asunto real decía _«actualizado»_ y el parámetro no. **Lo diagnosticó y ajustó la búsqueda**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · La salida: el reporte y el tablero del propio agente",
+      "duracion": "~25 min",
+      "objetivo": "Reemplazar el armado manual de la presentación y dejar al agente rindiendo cuentas.",
+      "pasos": [
+        "**Se le pidieron dos versiones del reporte:** una en PowerPoint, *para que el área tenga el formato que ya conoce*, y **una en HTML** con gráficos dinámicos",
+        "**El mapa interactivo es el punto.** Hoy el área escoge a mano la figura del municipio según la zona; en el reporte dinámico **se señala y se marca solo.** *Eso es lo que no se puede hacer en una presentación estática*",
+        "**Colores corporativos**, con margen para un buen diseño; **fecha de corte** —septiembre, que no es la fecha de presentación— y la autoría del área",
+        "_Y una pieza de método que se aplica a todos los agentes:_ **se le pidió además un tablero de reporte de lo que va ejecutando, con corte mensual.** *Hoy está vacío porque acaba de nacer; a futuro es el histórico del proceso*",
+        "**La presentación quedó generándose al cerrar la hora.** _Queda pendiente de revisar_"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 5 · 28 septiembre 2026",
+      "titulo": "El agente del informe mensual al Consejo Directivo",
+      "descripcion": "Entra a dos correos, descarga los Excel, los clasifica por mes y arma el reporte para el Consejo — **con un mapa interactivo que reemplaza el armado manual de las figuras por zona.** _El proceso completo toma hoy dos días de trabajo del coordinador, cada mes._",
+      "estado": "Probado hasta la descarga",
+      "proximo_paso": "Revisar la presentación y medir el tiempo real",
+      "target": "Antes de la S6"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 5 · 28 septiembre 2026",
+      "titulo": "El agente corrigió cuatro cosas que nadie le señaló",
+      "descripcion": "La extensión duplicada del archivo de credencial, el Excel abierto que bloqueaba la lectura, unos documentos movidos a otra carpeta antes de que él existiera, y el asunto del correo que no coincidía con el parámetro. **Las cuatro las encontró él, las reportó y las arregló.** _Ese es el argumento de fondo del programa:_ *no es que el trabajo vaya más rápido — es que no se le pasa nada.*",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Registrarlo en el reporte del área",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "OPORTUNIDAD ABIERTA · SESIÓN 5 · 28 septiembre 2026",
+      "titulo": "El proceso se estandariza aguas arriba, no aguas abajo",
+      "descripcion": "Para que el agente encuentre su insumo, **el asunto del correo tiene que ser siempre el mismo.** _Eso no se arregla en el agente: se arregla pidiéndolo a quien envía._ **El ejercicio obligó a poner por escrito un acuerdo que llevaba años siendo informal** — qué llega, con qué nombre y antes de qué fecha.",
+      "estado": "Identificado en sesión",
+      "proximo_paso": "Escribir a Cobranzas y a Tecnología",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "OPORTUNIDAD ABIERTA · SESIÓN 5 · 28 septiembre 2026",
+      "titulo": "Un agente que rinde cuentas de sí mismo",
+      "descripcion": "Se le pidió al agente **un tablero de reporte de lo que va ejecutando, con corte mensual.** *Hoy está en blanco porque acaba de nacer.* **Pero a partir del próximo cierre es el histórico del proceso** — qué corrió, cuándo y con qué resultado, sin que nadie tenga que preguntarlo.",
+      "estado": "Solicitado en sesión",
+      "proximo_paso": "Verlo con el primer ciclo completo",
+      "target": "Octubre"
+    }
+  ],
+  "tareas_intro": "El área salió del entorno asistido y construyó su primer agente sobre el proceso que más tiempo le cuesta al mes. La entrada quedó probada; falta ver la salida y ponerle número al ahorro. Lo demás es ordenar las fuentes para que el circuito no dependa de nadie.",
+  "tareas": [
+    {"tarea": "Abrir la presentación que generó el agente y compararla con el informe armado a mano", "responsable": "José Luciano Contreras", "prioridad": "ALTA", "plazo": "Antes de la S6"},
+    {"tarea": "Anotar cuánto tomó el proceso con el agente, contra los dos días de hoy", "responsable": "José Luciano Contreras", "prioridad": "ALTA", "plazo": "Antes de la S6"},
+    {"tarea": "Escribir a Cobranzas y a Tecnología pidiendo un asunto fijo para cada correo", "responsable": "José Luciano Contreras", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Cargar el reporte de productividad del área con los ejercicios de las cinco sesiones", "responsable": "José Luciano Contreras", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Reemplazar el remitente personal por el buzón genérico del área", "responsable": "José Luciano Contreras", "prioridad": "MEDIA", "plazo": "Antes de la S6"},
+    {"tarea": "Pedir por correo las fuentes del informe que hoy llegan por mensajería", "responsable": "José Luciano Contreras", "prioridad": "MEDIA", "plazo": "Antes de la S6"},
+    {"tarea": "Dejar corriendo el circuito completo con los datos de septiembre", "responsable": "José Luciano Contreras", "prioridad": "ALTA", "plazo": "Antes de la S6"}
+  ],
+  "observaciones": [
+    "**El área cruzó la línea que separa las dos formas de trabajar.** Hasta la S4 todo se había hecho en el entorno asistido —proyectos, tableros, instrucciones paso a paso—. *Aquí se pasó al entorno agéntico,* donde ya no se dirige cada paso: **se describe el sistema de trabajo una vez y el sistema lo ejecuta solo.**",
+    "**Y se eligió bien el proceso para estrenarlo.** El informe de empresas expulsadas cumple las dos condiciones: _se repite todos los meses_ y **tiene una fecha que no se mueve** — el Consejo Directivo del último martes. *Un ejercicio puntual no habría demostrado nada.*",
+    "**Lo que hay que subrayar de esta sesión son cuatro correcciones que el sistema hizo solo.** La extensión duplicada del archivo de credencial. El Excel abierto que bloqueaba la lectura — *lo encontró corriendo la prueba y volvió a correrla*. Unos documentos que habían sido movidos a otra carpeta antes de que el agente existiera, que trajo de vuelta. Y el asunto del correo que no coincidía con el parámetro de búsqueda. **Ninguna de las cuatro se la señaló nadie.**",
+    "_Es el mismo hallazgo que viene apareciendo en Jurídica, en Servicios Sociales y en Tecnología, y conviene decirlo con las mismas palabras:_ **el valor no está en la velocidad, está en que no se salta un renglón.** *Un proceso que se arma a mano dos días al mes tiene muchos renglones donde saltarse uno.*",
+    "**El ejercicio obligó a ordenar algo que llevaba años sin ordenarse.** Para que el agente encuentre su insumo, el asunto del correo tiene que ser el mismo todos los meses — y hoy no lo es: llega como _totales XML_, como _totales estadísticos de cobertura_, y el listado llegó como _«listado de expulsión actualizado»_. **La corrección no va en el agente: va en pedirle a quien envía que estandarice.**",
+    "_Y eso vale más que el agente._ **Poner por escrito qué llega, con qué nombre y antes de qué fecha** es un acuerdo de proceso que el área nunca había necesitado formalizar, *porque el trabajo manual perdona la ambigüedad y un circuito automático no.*",
+    "**Quedó señalado un punto de fragilidad que no se corrigió en la sesión, por no frenar la prueba:** la fuente está atada al correo personal de quien envía, no a un buzón del área. _El día que esa persona no esté, el circuito se rompe._ **Quedó como tarea.**",
+    "**Hay insumos del informe que llegan por WhatsApp.** *Para el agente, eso no existe.* El área ya planteó pedir que se los manden por correo — **es exactamente la misma lección que apareció en la Sub. Administrativa y Financiera con las reuniones sin agendar:** lo que no queda en el canal formal, el sistema no lo puede leer.",
+    "**El circuito quedó probado por la mitad, y hay que decirlo así.** La entrada funciona y está verificada contra el archivo real. _La salida —la presentación en HTML con el mapa interactivo— quedó generándose al cerrar la hora y no se alcanzó a ver._ **Hasta que no se abra y se compare, el ahorro de este proceso no está medido.**",
+    "_Sobre el mapa:_ hoy el área escoge a mano la figura del municipio del Cesar según la zona de cada empresa expulsada, de una carpeta de recursos. **En el reporte dinámico eso se marca solo.** *Es el pedazo más manual de todo el proceso y es el que desaparece.*",
+    "**Se pidió además un tablero donde el propio agente reporte lo que va ejecutando, con corte mensual.** _Hoy está vacío porque acaba de nacer;_ a partir del primer ciclo completo es el histórico del proceso. **Es método, no adorno: un agente que no reporta no se puede supervisar.**",
+    "**Y queda un punto abierto que no es técnico.** El reporte de productividad del área está en blanco. _No es que no haya trabajo:_ van cinco sesiones, y el presupuesto de aportes 2027 quedó construido dentro de una de ellas. **Pero el tablero que consulta la dirección se alimenta de lo que cada área reporta**, y lo que no se reporta no aparece. *La carpeta está en el canal, en «Diligencia reporte».*"
+  ],
+  "proxima_sesion": {
+    "sesion": "Subsidio y Aportes — jueves 1 de octubre, 10:00 a. m. · Continuación con José Luciano Contreras",
+    "condiciones": [
+      "La presentación del agente abierta y comparada con el informe manual",
+      "El tiempo real del proceso anotado, contra los dos días de hoy",
+      "Los correos a Cobranzas y a Tecnología enviados",
+      "El reporte de productividad del área cargado"
+    ],
+    "agenda": [
+      "Revisión del reporte en HTML y del mapa interactivo por zona",
+      "Ajuste del circuito con las fuentes estandarizadas",
+      "El tablero de reporte del agente con el primer ciclo",
+      "Cierre del proceso y medición del ahorro"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 28 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
