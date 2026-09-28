@@ -6,7 +6,7 @@
 por Sandra:_ **que las que no aprovecharon el programa vean cómo los demás canales sacaron
 adelante su productividad.**
 
-## Las nueve que presentan
+## Las diez que presentan
 
 | Área | Cierra en | Qué lleva |
 |---|---|---|
@@ -19,16 +19,17 @@ adelante su productividad.**
 | **IPS** | S5 | Conceptos de aptitud en producción · **la cifra de los dos meses, pendiente de validar** |
 | **Vivienda** | S5 | Espacio corto · las 52 familias en tablero · el informe de interventoría, 37 horas al mes |
 | **Educación** | S4 | *Entra por decisión de Sandra:* **tiene sesión esta semana y es su oportunidad de construir lo que va a mostrar** |
+| **Subsidio** | S11 | **Siete sesiones solo en la última semana** · el tablero del presupuesto 2027 · tres personas del área trabajando |
 
 ## Las diez que asisten
 
-Tecnología · Mercadeo · Subsidio · Sub. Operativa · Talento Humano · Cumplimiento ·
-Planeación · Gerencia Financiera · Tesorería
+Tecnología · Mercadeo · Sub. Operativa · Talento Humano · Cumplimiento · Planeación ·
+Gerencia Financiera · Tesorería
 
-**Ojo con el encuadre.** *El marco de «las que no aprovecharon» no le calza a dos de ellas:*
-**Subsidio cierra en S11 con siete sesiones solo en la última semana**, y **Tecnología cierra en
-S8 con el recorrido completo y su primer agente programado.** Las dos hicieron el trabajo.
-Conviene no meterlas en el mismo saco.
+**Ojo con el encuadre.** *El marco de «las que no aprovecharon» no le calza a Tecnología:*
+**cierra en S8 con el recorrido completo y su primer agente programado**, y el área hizo el
+trabajo — solo que sobre un proceso más plano que el de las demás. *Decisión de Sandra:* asiste,
+no presenta. **Conviene una línea al presentarla para que no quede en el mismo saco.**
 
 ## Lo que hay que resolver antes
 
@@ -59,5 +60,7 @@ de tiempo más grande y se entiende sin explicación. **Cerrar con Agencia de Em
 hallazgo no se aplaude: se decide. _Así la jornada no termina en felicitación sino en una
 decisión pendiente sobre la mesa._
 
-**Seis horas para nueve áreas siguen dando.** Con apertura, un corte y el cierre, quedan unos
-veintidós minutos por área y quince para Vivienda y Educación.
+**Seis horas para diez áreas siguen dando, pero ya con menos holgura.** Con apertura, un corte y
+el cierre quedan unos 260 minutos: **quince para Vivienda y quince para Educación**, y
+**unos treinta para cada una de las ocho restantes.** *Si se quiere margen para preguntas del
+director, conviene bajar a veinte por área.*
