@@ -1317,3 +1317,31 @@ interno tiene 21 entradas.** No es un error: son dos cifras distintas a propósi
 
 *Nunca publicar el número 21 hacia el cliente,* y **si alguien pregunta por qué Mercadeo no
 tiene sesiones en la semana de cierre, eso lo responde Sandra** — no se inventa una razón.
+
+### Subsidio S5 y S6 — lunes 28
+
+| Canal | Qué se publicó | message_ts |
+|---|---|---|
+| `#subsidio` | Resumen S5 | `1790628973.419569` |
+| `#subsidio` | Grabación S6 | `1790628789.323999` |
+
+**El acta de la S4 nunca se publicó.** El 18 de septiembre salieron la grabación y el resumen, pero
+el PDF no. *Se regeneró desde el JSON del repositorio y se le entregó a Sandra* — queda pendiente
+subirla al canal y a Dropbox. **Las actas viven en `salida/`, que está en `.gitignore`: si el
+contenedor se reinicia hay que regenerarlas desde el JSON.**
+
+**Subsidio S5 — el primer agente del área.** Dos horas, individual de José Luciano Contreras. Se
+construyó un agente en el entorno agéntico para el informe mensual al Consejo Directivo, que hoy
+toma dos días. *El hallazgo:* **el agente corrigió cuatro errores sin que nadie se los señalara**
+—extensión duplicada, Excel abierto, documentos movidos y el asunto del correo que no coincidía—.
+
+**Lo que se dejó fuera del acta, por criterio expreso:** la jornada del 16 de octubre y quién
+presenta, lo del hardware y los computadores —*Sandra lo dijo en sesión: «eso no queda en el acta,
+pero sí queda en la grabación»*—, lo que se habló sobre Tecnología, y cualquier comparación entre
+quiénes del equipo se activaron y quiénes no. **El acta lleva solo la formación.**
+
+*Pendiente de confirmar con Sandra:* en la sesión quedaron pedidos **dos espacios nuevos** — el
+miércoles 30 a las 12:00 virtual, y el viernes 2 a las 2:00 presencial con Avelino. **No están en
+la agenda de la semana.** Si entran, Subsidio pasa de 7 a 9 sesiones y toda su numeración corre.
+
+*Pendiente:* el acta de la **S6** (Cindy, 2:00 p. m.) — falta el VTT en Dropbox.
