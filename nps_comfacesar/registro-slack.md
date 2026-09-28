@@ -33,7 +33,7 @@ ella decidió por fuera del canal.
 
 ---
 
-## 📣 28 sep · 8:30 a. m. · Recordatorio del último día, publicado en seis canales
+## 📣 28 sep · 8:50 a. m. · Recordatorio del último día, publicado en seis canales
 
 **Aprobado por Sandra en el momento («dale»), enviado en vivo, no programado.** Releí los seis
 canales justo antes: ninguno tenía mensaje nuevo, ninguno tenía acta de Lucía en 48 horas.
