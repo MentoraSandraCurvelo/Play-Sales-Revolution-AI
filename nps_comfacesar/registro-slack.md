@@ -33,6 +33,34 @@ ella decidió por fuera del canal.
 
 ---
 
+## 📅 28 sep · 3:15 p. m. · Entra una sesión nueva y Jurídica recupera su hueco
+
+**Subsidio tomó el miércoles 30 al mediodía**, con el mismo correo que se sentó hoy a las 10:00
+(`coordinacionsubsidioyaportes`). *No vino por Calendly:* es una reunión de Teams directa, como la
+que Sandra arma cuando acomoda una franja a mano.
+
+**La semana de cierre vuelve a 26** y **Subsidio sube a ocho sesiones**: es, de lejos, el área que
+más se sienta en la recta final. *Con esto el hueco que dejó Jurídica esta mañana quedó cubierto el
+mismo día.*
+
+**Un detalle que hay que resolver antes del miércoles:** el asunto la titula **S6**, y ese número
+**ya se usó hoy** con la de `atencion_reclamos` de las 2:00. Dos sesiones distintas con el mismo
+número. *No lo decido yo* — queda señalado en la agenda del tablero.
+
+**Y los dos títulos de Jurídica quedaron corregidos** en el calendario: **miércoles S12 y jueves
+S13**, que es lo que este tablero venía pidiendo desde el mediodía. Se quitaron las marcas.
+
+*Publicado:* Termómetro **v82**, Mesa **v35**, Mesa nueva **v7**. **Nada en Slack.**
+
+### Cómo apareció, que es lo que conviene repetir
+
+**No lo trajo nadie: salió de contar.** El calendario devolvió 26 eventos donde el tablero esperaba
+25, y partiendo la ventana por días apareció el miércoles con siete en vez de seis. *La primera vez
+que hice esa cuenta, a las 10:17, me dio un falso positivo* porque el filtro incluye los eventos que
+**terminan** después del corte, no solo los que empiezan. **Ahora la cuenta se hace sabiendo eso.**
+
+---
+
 ## ⭕️ 28 sep · 12:30 p. m. · Jurídica canceló la de hoy y su numeración vuelve a correr
 
 **Lo dijo Sandra.** La S12 estaba para las 11:00 y no se hizo. *Verificado antes de publicar:* el
