@@ -15,6 +15,42 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🌅 28 sep · 7:30 a. m. · Arranca la última semana · Termómetro v80
+
+**No se publicó nada en Slack todavía.** La corrida cayó a las 7:13, antes de la ventana de las 8:00.
+Los siete canales en silencio siguen sin preguntas pendientes y **ninguno tiene acta de Lucía en las
+últimas 48 horas**, así que el recordatorio del último día está libre de escribirse.
+
+**Fecha confirmada contra el reloj y contra el último commit** antes de calcular nada.
+
+### Lo que dejó el fin de semana
+
+**Entró una sesión nueva:** Comunicaciones el **jueves 1 a las 2:00 p. m. con César Reyes**, su
+primera individual. La semana de cierre pasa de **25 a 26 sesiones** y Comunicaciones sube a cinco.
+*Efecto en cadena:* las dos del lunes 5 se corren a **S13 y S14**, así que **la de Vidiana de las
+5:00 p. m. es ahora la que cierra el programa.**
+
+**Sandra numeró todo el calendario.** Los trece asuntos sin número que este tablero venía señalando
+quedaron corregidos: Jurídica S12/S13/S14, Empleo S7, IPS S5, Contabilidad S9, Subsidio S10 y S11,
+Tecnología S7 y S8, Comunicaciones S10 y S11. *Y Rafael pasó de S12 a S11*, que era lo que decía el
+tablero. **Queda solo que tres asuntos escriben mal «Intelligence».**
+
+**Lo que no pasó:** Lucía dejó anotado que Carlos Lozano quedó de tomar hoy a las 3:00 p. m.
+**No lo tomó** — el calendario da ese cupo a Rafael. Contabilidad se queda con la S9 del viernes 2.
+
+**Dropbox sin movimiento desde el viernes 20:52.** El corte se sostiene en **94 sesiones, 92% de
+asistencia, 7 áreas sin fecha**. *No incrementé: recontré.*
+
+*Publicado:* Termómetro **v80**, Mesa **v33**, Mesa nueva **v5**.
+
+### Vidiana no respondió
+
+El mensaje del viernes a las 3:55 sigue sin respuesta. **Ella conserva la del lunes 5 a las 5:00** y
+no tomó ninguno de los cupos ofrecidos. *Quien sí entró fue César*, con otra fecha. El canal ya no
+tiene la ventana de 48 horas encima, pero **un reagendamiento es de Sandra**, así que no insisto.
+
+---
+
 ## 📊 25 sep · 5:15 p. m. · Sala de Control reconstruida desde el archivo vivo
 
 **Decisión de Sandra, textual:** *«todavía no vayas a subirlo de Lilibet ni vayas a subirlo de Danilo.
