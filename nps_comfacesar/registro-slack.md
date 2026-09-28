@@ -15,6 +15,24 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ✅ 28 sep · Mercadeo queda fuera del recordatorio · decisión de Sandra
+
+**Preguntado y resuelto: a `#mercadeo` no se le publica nada.** El área cumplía el criterio del
+recordatorio —sin ninguna fecha tomada, ni esta semana ni el lunes 5— pero **Sandra retiró sus dos
+últimas sesiones del calendario y pidió no publicarlo.** Pedirle ahora que agende habría sido
+contradecir esa decisión delante del área.
+
+**Mercadeo cierra el programa en S5**, con la sesión de Rina del jueves 24. Es lo que ya dice el
+Termómetro, y no cambia.
+
+*El recordatorio del último día queda cerrado en **seis canales**, no siete ni ocho.*
+
+**Lo que esto deja escrito:** cuando el criterio de un aviso y una decisión expresa de Sandra
+apuntan en direcciones distintas, **no gana el criterio: se pregunta.** El criterio no sabe lo que
+ella decidió por fuera del canal.
+
+---
+
 ## 📣 28 sep · 8:30 a. m. · Recordatorio del último día, publicado en seis canales
 
 **Aprobado por Sandra en el momento («dale»), enviado en vivo, no programado.** Releí los seis
