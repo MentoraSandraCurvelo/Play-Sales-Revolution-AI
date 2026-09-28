@@ -15,6 +15,39 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📣 28 sep · 8:30 a. m. · Recordatorio del último día, publicado en seis canales
+
+**Aprobado por Sandra en el momento («dale»), enviado en vivo, no programado.** Releí los seis
+canales justo antes: ninguno tenía mensaje nuevo, ninguno tenía acta de Lucía en 48 horas.
+
+| Canal | message_ts |
+|---|---|
+| `#planeacion` | `1790603423.239639` |
+| `#tesoreriaa` | `1790603429.490379` |
+| `#talento-humano` | `1790603436.655989` |
+| `#gerencia-financiera` | `1790603442.834339` |
+| `#vivienda` | `1790603448.904879` |
+| `#cumplimiento` | `1790603456.151069` |
+
+**El mensaje dice tres cosas:** que el último día es el lunes 5 y que *no* es la presentación a
+dirección; que el área no tiene nada tomado ni esta semana ni el lunes 5; y que la semana de cierre
+ya va en veintiséis sesiones, así que la agenda se llena por orden de llegada. Cierra ofreciendo
+acomodar una franja distinta.
+
+### Dos cosas que conviene no olvidar de esto
+
+**Mercadeo quedó fuera, y fue decisión consultada.** El área cumplía el criterio —sin nada agendado—
+pero Sandra misma retiró sus dos sesiones y pidió no publicar nada. *Las dos instrucciones se
+contradecían*, así que no elegí yo: se lo pregunté y se lo expliqué. **Sigue en espera de su
+palabra.**
+
+**Y el texto aprobado el viernes no estaba guardado.** Este registro anotó *que* Sandra lo aprobó,
+pero no *qué* decía. **Tuve que reescribirlo y volvérselo a mostrar**, con el aviso de que no era el
+mismo texto. *Regla que queda:* **cuando Sandra apruebe un mensaje que no sale de inmediato, se
+guarda el texto completo aquí, no la nota de que fue aprobado.**
+
+---
+
 ## 🌅 28 sep · 7:30 a. m. · Arranca la última semana · Termómetro v80
 
 **No se publicó nada en Slack todavía.** La corrida cayó a las 7:13, antes de la ventana de las 8:00.
