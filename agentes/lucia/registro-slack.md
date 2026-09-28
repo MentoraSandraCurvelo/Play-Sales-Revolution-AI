@@ -1281,3 +1281,39 @@ resumen publicados: Tecnología S6, Comunicaciones S9, Contabilidad S8 — y Mer
 *Pendiente de verificar:* en la sesión, **Carlos Lozano quedó de agendar una sesión más para el
 lunes 28 a las 3:00 p. m.** Si la toma, **Contabilidad haría S9 el lunes y S10 el viernes 2**, y
 la numeración de la última semana cambia otra vez.
+
+## Lunes 28 de septiembre — arranca la semana de cierre
+
+| Canal | Qué se publicó | message_ts |
+|---|---|---|
+| `#juridica` | Aviso de cancelación S12 | `1790618136.182439` |
+| `#subsidio` | Grabación S5 | `1790618145.373359` |
+
+**Jurídica canceló la sesión de las 11:00.** *Primera caída del área en todo el programa* —
+venía de once sesiones sin faltar. **Sandra autorizó el aviso en el canal.** La hora no se
+perdió: se reasignó a Subsidio, que corrió su sesión de las 10:00 durante dos horas. *Eso no se
+menciona en el canal de Jurídica.*
+
+**El número no avanza.** Jurídica pasa a **S12 el miércoles 30** y **S13 el jueves 1**, y cierra
+el programa en **S13**, no en S14. *Los dos títulos del calendario quedaron desfasados* y hay
+que corregirlos — se lo dije a Sandra.
+
+**Subsidio S5 corrió dos horas, de 10:00 a 12:00.** Se cuenta como **una sola sesión**: una
+reunión, la misma persona, una sola hora ampliada. *Si Sandra decide partirla en dos, todo
+Subsidio corre un número* — se lo planteé y quedó pendiente de respuesta.
+
+### Lo que Elia tiene que saber del conteo de caídas
+
+**El tablero del cliente reporta 18 sesiones caídas al corte del 25 de septiembre. El registro
+interno tiene 21 entradas.** No es un error: son dos cifras distintas a propósito.
+
+- **El tablero cuenta solo las caídas del área** — inasistencias, cancelaciones del área,
+  cruces con otras actividades, cita médica y falla técnica.
+- **Las dos sesiones de Mercadeo que retiró la mentoría no entran en esa cifra.** *Decisión
+  expresa de Sandra.* El registro interno sí las conserva, con su causa real, porque es el
+  registro interno.
+- **Con la caída de Jurídica de hoy, las del área suben a 19.** El tablero pasa a 19 cuando se
+  mueva el corte, el miércoles por la mañana, antes de la reunión con María Elvira.
+
+*Nunca publicar el número 21 hacia el cliente,* y **si alguien pregunta por qué Mercadeo no
+tiene sesiones en la semana de cierre, eso lo responde Sandra** — no se inventa una razón.
