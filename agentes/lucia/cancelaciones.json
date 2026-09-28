@@ -302,6 +302,21 @@
       "compromiso": "Decisión de Sandra: no se publica aviso en el canal. Queda solo en el registro interno.",
       "cuenta_como": "no realizada",
       "nota": "**Segunda sesión de Mercadeo retirada por la mentoría**, después de la del lunes 28. _El área no la canceló._ **Con esta, Mercadeo queda sin ninguna sesión en la semana de cierre y termina el programa en S5.** *El espacio lo ocupa ahora una reunión para organizar el cierre, que no cuenta como sesión de Intelligence ni lleva acta de área.*"
+    },
+    {
+      "area": "Jurídica",
+      "sesion": "S12",
+      "fecha": "2026-09-28",
+      "hora": "11:00",
+      "canal": "#juridica",
+      "quien_cancela": "Jurídica",
+      "motivo": "El área canceló la sesión el mismo día. La hora se reasignó: Subsidio extendió su sesión de las 10:00 a dos horas.",
+      "causa": "cancelación del área",
+      "aviso_en_canal": "pendiente",
+      "reagendada": false,
+      "compromiso": "Jurídica conserva sus sesiones del miércoles 30 y del jueves 1. El número no avanza: esas pasan a ser S12 y S13, y el área cierra el programa en S13.",
+      "cuenta_como": "no realizada",
+      "nota": "**Primera caída de Jurídica en todo el programa.** _Venía de once sesiones sin faltar_ y es una de las áreas que presenta el 16 de octubre. **La hora no se perdió:** Sandra la reasignó a Subsidio, que corrió su sesión de las 10:00 durante dos horas. *Efecto en la numeración:* Jurídica termina en **S13**, no en S14."
     }
   ],
   "patron": {
