@@ -15,6 +15,38 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🗂️ 29 sep · La Mesa se pone al día con el corte del martes
+
+**Nada publicado en Slack.** Es trabajo de tablero, a pedido de Sandra («actualízame el cuadro»).
+
+La Mesa venía anunciando la Sala de Control **con las cifras del 18 de septiembre**: 47 tareas,
+75,2 h/semana, $142,1 M a 12 meses. Esa Sala se reconstruyó desde el archivo vivo el viernes 25 y
+las cifras cambiaron enteras. La Mesa quedó diciendo lo contrario de lo que dice el tablero al que
+enlaza, que es la peor forma de estar desactualizada: no es que falte un dato, es que el cuadro
+contradice su propia fuente.
+
+**Lo que se corrigió, en las dos versiones de la Mesa:**
+
+| Tarjeta | Antes | Ahora |
+|---|---|---|
+| Sello de la Mesa | vie 25 sep · 4:30 p. m. | mar 29 sep · 8:30 a. m. · última semana |
+| Sala de Control, corte | vie 18 sep · 10:40 a. m. | vie 25 sep · 5:10 p. m. |
+| Sala de Control, cifras | 47 tareas · 75,2 h · $142,1 M | **34 tareas · 111,1 h · $210,0 M** |
+| Termómetro, corte | vie 25 sep · 4:30 p. m. | mar 29 sep · 7:30 a. m. |
+| Semana de cierre | «queda en 26 sesiones» | «de las 26 ya corrieron cuatro» |
+
+Publicadas: **`mesa-comfacesar.html` v36** y **`mesa-comfacesar-v2.html` v8**.
+
+**Lo que queda en manos de Sandra:** la Mesa ahora **publica la cifra de $210,0 M**, pero la Sala de
+Control sigue **privada**. Quien reciba el enlace de la Mesa ve el número y **no puede abrir el
+tablero que lo sostiene**. O se comparte la Sala, o la cifra sale de la Mesa; dejarlo así es lo
+único que no funciona. Igual pasa con Hallazgos.
+
+**Sin tocar, a propósito:** la tarjeta de Lucía sigue diciendo «Actualizado lun 14 sep». No puedo
+verificar el estado real de su artefacto, y **un tablero no se actualiza desde un resumen ajeno**.
+
+---
+
 ## ✅ 28 sep · Mercadeo queda fuera del recordatorio · decisión de Sandra
 
 **Preguntado y resuelto: a `#mercadeo` no se le publica nada.** El área cumplía el criterio del
