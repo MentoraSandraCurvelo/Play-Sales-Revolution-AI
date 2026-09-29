@@ -15,6 +15,51 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🔍 29 sep · Por qué el Corte de María Elvira dice 78, y qué se corrigió
+
+**Nada publicado en Slack.** Sandra preguntó por qué el reporte de corte que ve la contraparte
+del proyecto sigue diciendo **78 sesiones ejecutadas**.
+
+### Hay dos «Corte Comfacesar», no uno
+
+| Artefacto | Corte | Cifra de portada | Compartición |
+|---|---|---|---|
+| `Hh7TjkzJuiq5suSkucTa9p` | 21 de septiembre | **78 sesiones** | enlace abierto, **pero los invitados ven una versión fijada anterior** |
+| `TjtX9UVisRVmq5orRmaixz` | 25 de septiembre | **95 sesiones** · 13 agentes · 16 procesos medidos · 18 caídas | enlace abierto, **los invitados ven la versión viva** |
+
+**El 78 no es un tablero desactualizado: es otro documento.** El corte nuevo se publicó el 28 en un
+artefacto distinto, y el viejo quedó vivo y enlazado. **La Mesa apuntaba al viejo**, con etiqueta
+«Vigente» y «Actualizado lun 14 sep». Quien entrara por la Mesa aterrizaba en el corte del 21 —y,
+por la versión fijada, en algo todavía anterior.
+
+**Corregido en las dos Mesas** (`TmKCB8…` v37 y `GW7hUim…` v9): el enlace, el subtítulo, la
+descripción y la fecha de la tarjeta apuntan ya al corte del 25.
+
+**Lo que no se puede arreglar republicando:** si María Elvira guardó el enlace `Hh7Tjk…` directo,
+sigue viendo 78 haga yo lo que haga, **y republicar ese artefacto tampoco se lo cambiaría**, porque
+su enlace está atado a una versión fija. *La única salida es que Sandra le pase el enlace nuevo.*
+
+### Tres cosas del corte nuevo que hay que mirar antes de reenviarlo
+
+1. **La nota 1 de la sección 10 sigue diciendo «El acumulado de 78 sesiones»** y explica cómo se
+   llegó a esa cifra. La portada dice 95. **El documento se contradice a sí mismo**, y la nota es
+   justo donde un lector va a verificar el número.
+2. **La nota 2 habla de «los doce ahorros de la sección 02»**, que ahora tiene dieciséis. Y la nota 6
+   y el plazo de la sección 09 dicen **«quedan dos semanas»**: quedan cinco días hábiles. El pie
+   fecha el documento el **16 de septiembre**.
+3. **Las cifras no cuadran con las mías.** El corte publica **95 sesiones**; el Termómetro va en
+   **94**, recontado desde Dropbox. Y publica **18 caídas**; `cancelaciones.json` da **19** por causa
+   del área. *No toqué ninguna de las dos: el corte lo mantiene Lucía, y una cifra no se corrige
+   desde el resumen de la otra — se recuenta desde la fuente.* Queda para reconciliar carpeta por
+   carpeta, que es lo mismo que está pendiente desde el viernes.
+
+**Lo que esto deja escrito:** *un reporte al cliente que se rehace en un artefacto nuevo deja al
+viejo vivo y enlazado.* No basta con publicar el nuevo: hay que ir a buscar quién apunta al
+anterior. **Y una cifra de portada que cambia obliga a releer las notas al pie**, que es donde se
+queda escrita la versión anterior.
+
+---
+
 ## 🗂️ 29 sep · La Mesa se pone al día con el corte del martes
 
 **Nada publicado en Slack.** Es trabajo de tablero, a pedido de Sandra («actualízame el cuadro»).
