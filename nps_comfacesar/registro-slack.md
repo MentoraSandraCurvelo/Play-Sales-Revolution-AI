@@ -33,6 +33,50 @@ ella decidió por fuera del canal.
 
 ---
 
+## 🌅 29 sep · 7:30 a. m. · Corte del martes · Termómetro v83
+
+**Nada publicado en Slack.** Fecha confirmada contra el reloj y el commit de anoche.
+
+**El lunes corrió completo y ningún soporte ha llegado.** Subsidio S5 —dos horas— y S6, Rafael S11
+y Educación S4. *Las carpetas de las tres áreas en Dropbox siguen con la fecha que tenían.* Es el
+mismo patrón del jueves 24, cuando aparecieron pasadas las 8:45 del día siguiente, **así que el
+corte se sostiene en 94 sesiones y 92%.** No incrementé nada.
+
+### Corregí cómo cuenta este tablero los espacios caídos
+
+**La cifra se venía arrastrando de nota en nota y estaba corta.** Mi último desglose publicado decía
+*ocho inasistencias, siete cancelaciones y una falla técnica* — dieciséis. **Leí el archivo
+`cancelaciones.json` de la rama de Lucía**, que es la fuente real, y el desglose verdadero es otro:
+
+| Causa | Cuenta |
+|---|---|
+| Inasistencia, no ingresó a la sala | 8 |
+| Cancelación del área | 6 |
+| Cruce con otras actividades | 3 |
+| Cita médica | 1 |
+| Falla técnica | 1 |
+| **Caídas por causa del área** | **19** |
+| Retiradas por la mentoría (Mercadeo) | 2 |
+| **Total en el registro interno** | **21** |
+
+**El tablero publica 19, nunca 21.** Las dos de Mercadeo las retiró Sandra, no el área. *Lucía ya lo
+tenía en 19 y yo en 16:* **su cuenta era la buena porque ella lleva el registro, yo solo lo citaba.**
+
+*La regla que queda:* **una cifra que se arrastra entre notas deja de ser un dato y pasa a ser una
+copia.** Las caídas se recuentan desde `cancelaciones.json`, como las sesiones desde Dropbox.
+
+### Lo que queda pendiente y no es mío
+
+- **El acta de Subsidio S4 nunca se publicó.** Lucía la regeneró y se la entregó a Sandra; falta
+  subirla al canal y a Dropbox.
+- **Falta el VTT de Subsidio S6** en Dropbox, así que su acta no puede salir.
+- **Lucía pregunta si la S5 de dos horas se parte en dos.** Si Sandra dice que sí, toda la
+  numeración de Subsidio corre. Por ahora cuenta como una.
+- **El viernes 2 a las 2:00 presencial con Avelino** quedó pedido en sesión y **no está en el
+  calendario.** El del miércoles al mediodía sí entró.
+
+---
+
 ## 📅 28 sep · 3:15 p. m. · Entra una sesión nueva y Jurídica recupera su hueco
 
 **Subsidio tomó el miércoles 30 al mediodía**, con el mismo correo que se sentó hoy a las 10:00
