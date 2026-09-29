@@ -15,6 +15,41 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ✅ 29 sep · 2:38 p. m. · Sandra corrigió lo de Sub. Operativa en el canal
+
+**Lo publicó ella**, `1790710702.974079` en `#sub-operativa`. Cierra lo que venía abierto desde las
+11:10.
+
+**Qué dice, en corto:** que el mensaje de Jonnathan sí llegó —a las 10:49, antes de la sesión—,
+que lo vio tarde y por eso publicó que no había habido aviso, **que eso no fue así y queda
+corregido ahí mismo**; que el registro pasa de inasistencia a **cancelación del área, avisada**;
+que el número no avanza y la del jueves 1 a las 3:00 p. m. sigue siendo la **S5**; y les propone
+**tomar un espacio más antes del lunes 5**, recordando que venían de cuatro sesiones sin faltar.
+
+*Es el tercer mensaje del día en ese canal.* **El cupo de dos es nuestro, no suyo.**
+
+### Lo que tiene que cambiar en el registro de Lucía
+
+| | Decía | Queda |
+|---|---|---|
+| Causa de la caída | inasistencia, no ingresó a la sala | **cancelación del área, avisada** |
+| Inasistencias sin aviso | 9 | **8** |
+| Caídas del área | 20 | **20**, no cambia |
+| Registro interno | 22 | **22**, no cambia |
+
+**El total no se mueve: sigue siendo una caída.** Lo que cambia es de qué tipo, y eso sí importa
+para el corte de mañana, porque la taxonomía va en el tablero.
+
+### Para el corte del miércoles
+
+**Si Sub. Operativa toma el espacio que Sandra les ofreció, la semana de cierre cambia otra vez.**
+Queda pendiente de mirar en la corrida de mañana temprano, antes de la reunión con María Elvira.
+
+**Sigue abierto:** el DM de **Lilian Paola** — «hola» a las 10:25, **cuatro horas y media sin
+respuesta**, y ella no ha vuelto a escribir.
+
+---
+
 ## ⏳ 29 sep · 12:15 p. m. · Jonnathan insiste por tercera vez y nadie le ha respondido
 
 **Nada publicado.** Esto es continuación directa de la entrada de las 11:15.
