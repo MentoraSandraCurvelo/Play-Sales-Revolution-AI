@@ -1442,3 +1442,23 @@ aplica a todo aviso de inasistencia, sin excepción.
 
 *Efecto en las cifras:* el registro sigue en **22** y las caídas del área en **20**. Lo que cambia
 es la causa — **8 inasistencias y 7 cancelaciones del área**, no 9 y 6.
+
+### Martes 29, 4:00 p. m. — la encuesta en los canales
+
+**Sandra pidió dejar la encuesta como carpeta de enlaces arriba en los 18 canales.** *El conector
+no puede: no maneja los marcadores del canal* —esas carpetas como `agendar aquí` y
+`Diligencia reporte` solo se crean desde Slack, a mano, canal por canal—. **Se publicó como
+mensaje en su lugar, por decisión de ella.**
+
+Enlace: `https://forms.gle/pN22koVrZ3YheSnH8`
+
+**Publicada en 17 canales.** Falta `#comunicaciones`: *se dejó para después de la sesión de las
+4:00*, para no tapar el aviso de que Sandra estaba en la sala.
+
+*Incluye `#mercadeo`.* **La instrucción de «no decir nada» era sobre las sesiones retiradas**, no
+sobre la encuesta — el área hizo cinco sesiones y la encuesta es del programa. _Si Sandra prefiere
+sacarla de ahí, se borra._
+
+**Aviso en `#comunicaciones` a las 4:01** (`1790715775.102579`): Sandra conectada en la sala.
+*Se leyó el canal antes de publicar* — no había mensajes nuevos del área. **Primera aplicación de
+la regla nueva.**
