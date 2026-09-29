@@ -9,26 +9,88 @@
   "fecha_corta": "28 septiembre 2026",
   "subtitulo_meta": "Rectoría del Colegio y Auxiliar de Educación · 28 de septiembre de 2026 · 4:00 p. m. · 1 h 06 min · Virtual — Microsoft Teams",
   "datos_sesion": [
-    ["Área(s)", "Educación — Comfacesar"],
-    ["Sesión", "N° 4 — Dos tableros publicados: el plan de mejoramiento y el informe de pruebas Saber"],
-    ["Fecha", "28 de septiembre de 2026"],
-    ["Duración de la sesión", "1 hora 6 minutos"],
-    ["Modalidad", "Virtual — Microsoft Teams"],
-    ["Asistencia", "Óscar y Julissa Pérez Pérez — completa"],
-    ["Grabación", "Publicada en el canal del área"],
-    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+    [
+      "Área(s)",
+      "Educación — Comfacesar"
+    ],
+    [
+      "Sesión",
+      "N° 4 — Dos tableros publicados: el plan de mejoramiento y el informe de pruebas Saber"
+    ],
+    [
+      "Fecha",
+      "28 de septiembre de 2026"
+    ],
+    [
+      "Duración de la sesión",
+      "1 hora 6 minutos"
+    ],
+    [
+      "Modalidad",
+      "Virtual — Microsoft Teams"
+    ],
+    [
+      "Asistencia",
+      "Óscar Cotes y Julissa Pérez Pérez — completa"
+    ],
+    [
+      "Grabación",
+      "Publicada en el canal del área"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo — Mentora IAM™ Intelligence"
+    ]
   ],
   "kpis": [
-    {"valor": "92%", "etiqueta": "Menos tiempo en el consolidado mensual", "detalle": "De dos horas a diez minutos"},
-    {"valor": "2", "etiqueta": "Tableros construidos en la sesión", "detalle": "Plan de mejoramiento e informe de pruebas"},
-    {"valor": "7", "etiqueta": "Años comparados en el informe de pruebas", "detalle": "De 2020 a 2026, por área"},
-    {"valor": "1", "etiqueta": "Enlace que reemplaza la reunión de avance", "detalle": "Se actualiza solo, sin reenviarlo"},
-    {"valor": "6", "etiqueta": "Observaciones sin acción en el plan", "detalle": "Las contó el propio tablero"}
+    {
+      "valor": "92%",
+      "etiqueta": "Menos tiempo en el consolidado mensual",
+      "detalle": "De dos horas a diez minutos"
+    },
+    {
+      "valor": "2",
+      "etiqueta": "Tableros construidos en la sesión",
+      "detalle": "Plan de mejoramiento e informe de pruebas"
+    },
+    {
+      "valor": "7",
+      "etiqueta": "Años comparados en el informe de pruebas",
+      "detalle": "De 2020 a 2026, por área"
+    },
+    {
+      "valor": "1",
+      "etiqueta": "Enlace que reemplaza la reunión de avance",
+      "detalle": "Se actualiza solo, sin reenviarlo"
+    },
+    {
+      "valor": "6",
+      "etiqueta": "Observaciones sin acción en el plan",
+      "detalle": "Las contó el propio tablero"
+    }
   ],
   "participantes": [
-    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
-    {"nombre": "Óscar", "cargo": "Rectoría del Colegio — Comfacesar", "correo": "rectoriacolegio@comfacesar.com", "modalidad": "Virtual", "nivel": "Inicial"},
-    {"nombre": "Julissa Pérez Pérez", "cargo": "Auxiliar de Educación — Comfacesar", "correo": "auxiliareducacion@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"}
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "—",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Óscar Cotes",
+      "cargo": "Rectoría del Colegio — Comfacesar",
+      "correo": "rectoriacolegio@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Inicial"
+    },
+    {
+      "nombre": "Julissa Pérez Pérez",
+      "cargo": "Auxiliar de Educación — Comfacesar",
+      "correo": "auxiliareducacion@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Intermedio"
+    }
   ],
   "mapa_calor_intro": "Riesgos identificados en la Sesión 4. El área salió de la sesión con dos tableros publicados y con el primer ahorro medido de Educación. Lo que queda abierto, y lo que apareció al construirlos, se mira aquí.",
   "riesgos": [
@@ -64,11 +126,46 @@
     }
   ],
   "alertas": [
-    {"num": "01", "nivel": "ALTO", "titulo": "Cargar el reporte de productividad del área", "descripcion": "Con lo de hoy ya hay una cifra firme: **el consolidado mensual pasó de dos horas a diez minutos.** *Eso se registra con el nombre del reporte, la frecuencia, los minutos de antes y los de ahora.*", "responsable": "Julissa Pérez Pérez", "plazo": "Inmediato"},
-    {"num": "02", "nivel": "ALTO", "titulo": "Construir el primer agente del área", "descripcion": "**El consolidado mensual de subsidios es el candidato:** se repite cada mes, tiene fuente fija y ya está medido. _Quedan cinco días hábiles._", "responsable": "Julissa Pérez Pérez", "plazo": "Antes del 5 de octubre"},
-    {"num": "03", "nivel": "ALTO", "titulo": "Cerrar las observaciones sin acción del plan de mejoramiento", "descripcion": "**Seis observaciones sin acción y doce fórmulas de avance con error**, según el propio tablero. *Vence en noviembre y responde a la Superintendencia.*", "responsable": "Julissa Pérez Pérez", "plazo": "Antes de la S5"},
-    {"num": "04", "nivel": "MEDIO", "titulo": "Agrupar el trabajo por proyectos", "descripcion": "Un proyecto por frente —informes de gerencia, colegio, asuntos personales—, **en lugar de conversaciones sueltas.** _El contexto y el rol se escriben una vez._", "responsable": "Educación", "plazo": "Permanente"},
-    {"num": "05", "nivel": "MEDIO", "titulo": "Modelar el tablero de pruebas antes del consejo directivo", "descripcion": "Subirle el logo, ajustar colores y **agregar la diapositiva que falta.** *El enlace ya está publicado y guardado en favoritos.*", "responsable": "Óscar", "plazo": "Inmediato"}
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Cargar el reporte de productividad del área",
+      "descripcion": "Con lo de hoy ya hay una cifra firme: **el consolidado mensual pasó de dos horas a diez minutos.** *Eso se registra con el nombre del reporte, la frecuencia, los minutos de antes y los de ahora.*",
+      "responsable": "Julissa Pérez Pérez",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Construir el primer agente del área",
+      "descripcion": "**El consolidado mensual de subsidios es el candidato:** se repite cada mes, tiene fuente fija y ya está medido. _Quedan cinco días hábiles._",
+      "responsable": "Julissa Pérez Pérez",
+      "plazo": "Antes del 5 de octubre"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Cerrar las observaciones sin acción del plan de mejoramiento",
+      "descripcion": "**Seis observaciones sin acción y doce fórmulas de avance con error**, según el propio tablero. *Vence en noviembre y responde a la Superintendencia.*",
+      "responsable": "Julissa Pérez Pérez",
+      "plazo": "Antes de la S5"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Agrupar el trabajo por proyectos",
+      "descripcion": "Un proyecto por frente —informes de gerencia, colegio, asuntos personales—, **en lugar de conversaciones sueltas.** _El contexto y el rol se escriben una vez._",
+      "responsable": "Educación",
+      "plazo": "Permanente"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Modelar el tablero de pruebas antes del consejo directivo",
+      "descripcion": "Subirle el logo, ajustar colores y **agregar la diapositiva que falta.** *El enlace ya está publicado y guardado en favoritos.*",
+      "responsable": "Óscar Cotes",
+      "plazo": "Inmediato"
+    }
   ],
   "ejercicios": [
     {
@@ -164,13 +261,48 @@
   ],
   "tareas_intro": "El área salió de la sesión con dos tableros publicados y con su primera cifra medida: un consolidado mensual que pasó de dos horas a diez minutos. Lo que falta es registrarlo donde la dirección lo ve, cerrar los vacíos que el propio tablero encontró en el plan de mejoramiento, y construir el primer agente antes del 5 de octubre.",
   "tareas": [
-    {"tarea": "Cargar el reporte de productividad del área, empezando por el consolidado mensual", "responsable": "Julissa Pérez Pérez", "prioridad": "ALTA", "plazo": "Inmediato"},
-    {"tarea": "Construir el primer agente del área sobre el consolidado mensual de subsidios", "responsable": "Julissa Pérez Pérez", "prioridad": "ALTA", "plazo": "Antes del 5 de octubre"},
-    {"tarea": "Cerrar las seis observaciones sin acción y corregir las fórmulas de avance con error", "responsable": "Julissa Pérez Pérez", "prioridad": "ALTA", "plazo": "Antes de la S5"},
-    {"tarea": "Modelar el tablero de pruebas: logo, colores y la lámina que falta", "responsable": "Óscar", "prioridad": "ALTA", "plazo": "Inmediato"},
-    {"tarea": "Compartir el enlace del tablero con quien consulta el avance del colegio", "responsable": "Óscar", "prioridad": "MEDIA", "plazo": "Inmediato"},
-    {"tarea": "Reorganizar el trabajo en proyectos, uno por frente", "responsable": "Educación", "prioridad": "MEDIA", "plazo": "Permanente"},
-    {"tarea": "Mapear los ejercicios del día a día del puesto, para llevarlos al cierre", "responsable": "Julissa Pérez Pérez", "prioridad": "ALTA", "plazo": "Antes del 5 de octubre"}
+    {
+      "tarea": "Cargar el reporte de productividad del área, empezando por el consolidado mensual",
+      "responsable": "Julissa Pérez Pérez",
+      "prioridad": "ALTA",
+      "plazo": "Inmediato"
+    },
+    {
+      "tarea": "Construir el primer agente del área sobre el consolidado mensual de subsidios",
+      "responsable": "Julissa Pérez Pérez",
+      "prioridad": "ALTA",
+      "plazo": "Antes del 5 de octubre"
+    },
+    {
+      "tarea": "Cerrar las seis observaciones sin acción y corregir las fórmulas de avance con error",
+      "responsable": "Julissa Pérez Pérez",
+      "prioridad": "ALTA",
+      "plazo": "Antes de la S5"
+    },
+    {
+      "tarea": "Modelar el tablero de pruebas: logo, colores y la lámina que falta",
+      "responsable": "Óscar Cotes",
+      "prioridad": "ALTA",
+      "plazo": "Inmediato"
+    },
+    {
+      "tarea": "Compartir el enlace del tablero con quien consulta el avance del colegio",
+      "responsable": "Óscar Cotes",
+      "prioridad": "MEDIA",
+      "plazo": "Inmediato"
+    },
+    {
+      "tarea": "Reorganizar el trabajo en proyectos, uno por frente",
+      "responsable": "Educación",
+      "prioridad": "MEDIA",
+      "plazo": "Permanente"
+    },
+    {
+      "tarea": "Mapear los ejercicios del día a día del puesto, para llevarlos al cierre",
+      "responsable": "Julissa Pérez Pérez",
+      "prioridad": "ALTA",
+      "plazo": "Antes del 5 de octubre"
+    }
   ],
   "observaciones": [
     "**Los primeros quince minutos se fueron en destrabar el entorno, y vale dejarlo escrito porque le pasa a más áreas.** El dictado por voz no respondía. _La causa no estaba en la herramienta:_ **se compartía una sola ventana y el micrófono estaba bloqueado en el equipo.** *Al compartir la pantalla completa y habilitar el micrófono, funcionó de inmediato.*",

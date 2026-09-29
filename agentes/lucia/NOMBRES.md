@@ -163,3 +163,15 @@ con su cuenta de Slack (`@profesionalaf`). Se le escribió por directo el 21 de 
 pidiéndole que reserve con `profesionalaf@comfacesar.com` y que indique el programa al
 agendar. *Mientras siga agendando con el Gmail, conviene confirmar el programa antes de armar
 el acta.*
+
+## Verificados contra Slack el 29 de septiembre
+
+| Área | Nombre real (Slack) | Correo |
+|---|---|---|
+| Educación | **Óscar Cotes** — rectoría del colegio | `rectoriacolegio@comfacesar.com` |
+| Educación | **Julissa Pérez Pérez** | `auxiliareducacion@comfacesar.com` |
+| Cumplimiento | **Aura Marina Sánchez Quintero** | `profesionalcumplimiento@comfacesar.com` |
+| Sub. Operativa | **Jonnathan Armenta** | `innovacion@comfacesar.com` |
+
+*El perfil de `@rectoriacolegio` no tiene nombre cargado en Slack; «Óscar Cotes» sale de cómo
+firma él mismo en el canal `#educacion`.*

@@ -381,3 +381,28 @@ mensajes puntuales, no sobre el trabajo de rutina.**
 
 *Una aprobación vale para el mensaje que se mostró. Si el texto cambia después —aunque sea una
 fecha—, se vuelve a mostrar.*
+
+## Antes de publicar una inasistencia: leer el canal
+
+**Regla dura, sin excepción.** Antes de publicar cualquier mensaje que diga que alguien no
+entró, no asistió o no avisó, **hay que leer el canal del área desde una hora antes de la
+sesión.** No basta con mirar quién está en la sala.
+
+*Por qué:* el aviso casi siempre llega por el canal, y a veces llega minutos antes de la hora.
+**Publicar «no hubo aviso» sin haberlo leído deja escrito en el canal del área algo que no es
+cierto, delante de todo su equipo.**
+
+**Pasó tres veces antes de que quedara escrita esta regla:**
+
+| Fecha | Área | Qué había en el canal | Qué se publicó |
+|---|---|---|---|
+| 21 sep | Cumplimiento | *«Estoy en Teams a la espera de que me dejen entrar»* — 3:15 p. m. | «No ingresó nadie» — 3:21 p. m. |
+| 23 sep | Educación | *«Buenas tardes ya esperando»* — 4:04 p. m. | «No entró nadie» — 4:21 p. m. |
+| 29 sep | Sub. Operativa | *«No podíamos asistir por temas de la oficina»* — 10:49 a. m. | «No hubo aviso» — 11:10 a. m. |
+
+*En los tres casos Sandra tuvo que entrar después a corregirlo.* **El error no fue del área.**
+
+**Y hay un hallazgo operativo detrás de dos de los tres:** en Cumplimiento y en Educación la
+persona *estaba en la sala de espera de Teams y no la dejaron entrar.* **Eso no es inasistencia,
+es un problema de admisión a la sala** — y si se repite, hay que mirar la configuración de la
+reunión, no el compromiso del área.
