@@ -1371,3 +1371,34 @@ registro* — fueron inasistencias reales y la sesión se recuperó el lunes.
 Sub. Financiera S11 y Educación S4— y **una caída, Jurídica S12.**
 
 *Faltan los VTT de Sub. Financiera S11 y de Educación S4 para sacar esas dos actas.*
+
+### Las dos actas que faltaban del lunes — publicadas el martes 29
+
+| Canal | Qué se publicó | message_ts |
+|---|---|---|
+| `#sub-admin-y-financiera-infraestructura` | Resumen S11 | `1790693918.152849` |
+| `#educacion` | Resumen S4 | `1790693932.180139` |
+
+**Sub. Financiera S11 — Rafael Solano.** Segundo agente del puesto, sobre la ejecución de los
+contratos de vigilancia: ocho etapas, del contrato firmado al acta de liquidación. *El sistema
+pidió 14 datos antes de tocar nada*, avisó que el contrato venía en **96 páginas escaneadas sin
+texto** y las leería como imagen, **verificó que las facturas de agosto cuadraban** y **encontró
+una regla de reparto 70/30 con Agencia de Empleo que nadie le había escrito.** _Y dejó el cuadro
+de control de ejecución en solo lectura_ porque había un dato sin confirmar.
+
+**Educación S4 — Óscar y Julissa Pérez Pérez.** Dos tableros publicados y **la primera cifra
+medida del área: el consolidado mensual de la Ley 115 pasó de dos horas a diez minutos.** El
+tablero del plan de mejoramiento levantó solo las brechas —*32 de 78 actividades formuladas,
+seis observaciones sin acción, doce fórmulas con error*— y el plan **vence en noviembre**.
+
+**Criterio aplicado al acta y al resumen de Educación.** En la sesión se dijeron cosas sobre el
+avance personal de uno de los dos participantes, delante del otro. *Nada de eso entra:* **el
+canal lo leen los dos y también María Elvira**, que es miembro de `#educacion`. Los puntos
+quedaron redactados **como riesgos del área y reglas de método**, nunca como señalamiento.
+_Misma regla de Comunicaciones S9 y de Subsidio S6._
+
+*Pendiente de verificar:* **no tengo el apellido de Óscar.** No está en `NOMBRES.md` y su perfil
+de Slack (`@rectoriacolegio`) no tiene nombre cargado. En el acta aparece solo como «Óscar».
+
+**Dato para hoy:** en la sesión quedó dicho que **el consejo directivo del colegio es hoy, martes
+29**, y que el tablero de pruebas Saber se presenta ahí.
