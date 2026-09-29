@@ -15,6 +15,29 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⏳ 29 sep · 12:15 p. m. · Jonnathan insiste por tercera vez y nadie le ha respondido
+
+**Nada publicado.** Esto es continuación directa de la entrada de las 11:15.
+
+**11:26:36** — `1790699196.818329` en `#sub-operativa`:
+
+> «Sandra que pena te avise desde las 10:40 que por temas de la oficina no podíamos asistir»
+
+**Es la tercera vez que lo dice** —10:50, 11:09 y ahora— y lleva **cincuenta minutos sin
+respuesta**, con el mensaje de las 11:10 todavía diciendo en el canal que no hubo aviso.
+
+*Él escribe «desde las 10:40» y los mensajes de Slack son de 10:49 y 10:50.* **La diferencia no
+cambia nada: los tres llegaron antes de las 11:00.**
+
+**Esto ya no es solo un dato mal registrado, es una fricción abierta con el área**, y las
+fricciones son de Sandra. *La corrección sigue redactada y esperando su visto bueno* — nada se
+publica sin que ella lo vea, y esa regla no la salto ni con el área reclamando.
+
+**Sin novedad en lo demás:** el DM de Lilian Paola sigue sin responder —hora y cincuenta minutos— y
+ella no ha vuelto a escribir. Ningún otro canal se movió.
+
+---
+
 ## 🛑 29 sep · 11:15 a. m. · Sub. Operativa sí avisó, y el canal dice que no
 
 **Nada publicado.** Esto lo tiene que ver Sandra antes que nada.
