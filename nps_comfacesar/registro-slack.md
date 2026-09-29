@@ -15,6 +15,66 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🛑 29 sep · 11:15 a. m. · Sub. Operativa sí avisó, y el canal dice que no
+
+**Nada publicado.** Esto lo tiene que ver Sandra antes que nada.
+
+### Los tiempos, en orden
+
+| Hora | Quién | Qué |
+|---|---|---|
+| 10:49:34 | Jonnathan Armenta | «Sandra buenos días» |
+| 10:50:00 | Jonnathan Armenta | «Qué pena contigo pero estamos en unos temas de la oficina que nos impiden asistir a la sesión agendada de hoy» |
+| **11:00** | — | **hora de la sesión** |
+| 11:06:05 | IAM | «Ya estoy conectada en la sala y son las 11:05 — todavía no se ha subido nadie» |
+| 11:09:40 | Jonnathan Armenta | «Hola Sandra, lograste ver el mensaje» |
+| 11:09:54 | Jonnathan Armenta | «Estamos en unos temas de la oficina te pedimos excusas» |
+| 11:10:45 | IAM | «No se conectó nadie **y no hubo aviso**» |
+
+**El área avisó diez minutos antes de la hora.** No después de cerrada la sala: **antes de que
+empezara.** *Eso es un aviso, con todas las letras.*
+
+**Y el canal quedó diciendo dos veces lo contrario, con el área leyendo.** Jonnathan preguntó
+expresamente «¿lograste ver el mensaje?» y la respuesta que recibió fue «no hubo aviso». *Es la
+clase de mensaje que este proyecto tiene prohibido: un señalamiento a un área en el canal que lee
+su equipo — y encima equivocado.*
+
+**Cómo pasó:** los dos mensajes de Jonnathan estaban publicados antes de que se escribiera el
+primer aviso. **El paso 3 del protocolo —leer los últimos cinco mensajes del canal— habría bastado.**
+
+### Lo que hay que corregir, en dos sitios
+
+**1 · En el canal.** Borrador a la espera del visto bueno de Sandra:
+
+> ⭕️ Sub. Operativa y Comercial · corrijo lo que escribí hace un momento
+>
+> Jonnathan, sí vi tu mensaje y tienes razón: escribiste a las 10:49, antes de la hora. El área
+> avisó, y así queda registrado — no como una inasistencia.
+>
+> Sigue en pie el jueves 1 a las 3:00 p. m., que es la Sesión 5. El programa cierra el lunes 5 de
+> octubre. 💪
+
+*`#sub-operativa` ya lleva dos mensajes nuestros hoy y el cupo está agotado.* **Esa regla la
+pusimos nosotras; corregir un señalamiento equivocado pesa más. Lo decide Sandra.**
+
+**2 · En el registro de Lucía.** Ella anotó la caída como *inasistencia sin aviso* y subió a
+**nueve** esa cuenta. **Con el aviso de las 10:49 la causa es «cancelación del área», no
+inasistencia**, y las inasistencias sin aviso *se quedan en ocho*. El total de caídas no cambia:
+sigue siendo caída del área, **20**.
+
+### Lo demás de la corrida
+
+**El DM de Lilian Paola sigue sin responder**, ya van 50 minutos. Mismo borrador de la corrida
+anterior, misma espera.
+
+**Silencios: ninguno.** Sub. Operativa no entra al radar — tiene fecha el jueves 1.
+
+**Lo que esto deja escrito:** *un aviso se mide contra la hora de la sesión, no contra el momento
+en que uno lo lee.* Estar en otra sala no convierte un mensaje previo en silencio. **Antes de
+escribir «nadie avisó», se leen los mensajes del canal desde una hora antes de la cita.**
+
+---
+
 ## 🕙 29 sep · 10:35 a. m. · Corrida horaria · nada publicado, un DM esperando
 
 **No salió nada a Slack.** Paso 0 completo: contrato, registro de Lucía —incluida la entrada del
