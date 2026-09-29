@@ -15,6 +15,37 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📋 29 sep · 4:04 p. m. · Sandra lanzó la encuesta en diecisiete canales
+
+**La publicó ella**, uno cada cinco segundos entre las **16:03:16** y las **16:04:41**. Mismo texto
+en todos: once preguntas, anónima, `forms.gle/pN22koVrZ3YheSnH8`, y el cierre del lunes 5.
+
+**Dónde salió, los diecisiete:** `#talento-humano` · `#contabilidad` · `#subsidio` ·
+`#educacion` · `#tesoreriaa` · `#ips` · `#vivienda` · `#serivcios-sociales` · `#mercadeo` ·
+`#agencia-de-empleo` · `#gerencia-financiera` · `#sub-admin-y-financiera-infraestructura` ·
+`#tecnologia` · `#juridica` · `#sub-operativa` · `#planeacion` · `#cumplimiento`
+
+**Dónde no:** `#credito` y `#auditoria-interna` —que nunca arrancaron, así que se entiende— y
+**`#comunicaciones`**. *Esa última conviene mirarla:* es de las áreas más avanzadas del programa,
+con nueve sesiones, y **hoy a las 4:00 p. m. tenía sesión**, la S10 con Manuel. **Puede ser
+deliberado por no cruzarse con la sesión, o puede habérsele pasado.** No lo decido yo.
+
+### Qué cambia para nosotras
+
+**El Pulso se va a mover.** Lleva congelado en **12 respuestas** desde el 22 de septiembre;
+`pulso-resultados-comfacesar.html` va en v13 con esa cifra. *Conviene releerlo mañana antes del
+corte*, no ahora: las respuestas entran a lo largo de la tarde y la noche.
+
+**Y `#mercadeo` recibió mensaje.** No contradice nada: la decisión de no publicar era sobre el
+recordatorio del último día, y esto lo mandó Sandra. *Queda anotado para que no se lea como un
+choque cuando alguien revise el hilo.*
+
+**Cupos:** el cupo de dos mensajes es por día, así que mañana los diecisiete amanecen limpios.
+*Hoy varios quedaron en tres y cuatro —`#sub-operativa`, `#educacion`, `#sub-admin`—, pero los
+publicó ella.*
+
+---
+
 ## ✅ 29 sep · 2:38 p. m. · Sandra corrigió lo de Sub. Operativa en el canal
 
 **Lo publicó ella**, `1790710702.974079` en `#sub-operativa`. Cierra lo que venía abierto desde las
