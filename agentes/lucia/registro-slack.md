@@ -1402,3 +1402,11 @@ de Slack (`@rectoriacolegio`) no tiene nombre cargado. En el acta aparece solo c
 
 **Dato para hoy:** en la sesión quedó dicho que **el consejo directivo del colegio es hoy, martes
 29**, y que el tablero de pruebas Saber se presenta ahí.
+
+**Martes 29, 11:05 — aviso en caliente en `#sub-operativa`** (`1790697965.438389`). Sandra estaba
+en la sala y no se había subido nadie a la S5 de las 11:00. *Mensaje de espera hasta las 11:10*,
+dirigido al área y sin nombrar a ninguna de las dos personas invitadas.
+
+*Nota de interpretación:* Sandra escribió «son las 5». **Se leyó como cinco pasadas de la hora, no
+como las 5 de la tarde** — se verificó contra el calendario antes de enviar, porque hoy no hay
+ninguna sesión a las 5:00 p. m. y la de las 11:00 es Sub. Operativa S5.
