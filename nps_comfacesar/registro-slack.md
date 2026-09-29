@@ -15,6 +15,55 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🕙 29 sep · 10:35 a. m. · Corrida horaria · nada publicado, un DM esperando
+
+**No salió nada a Slack.** Paso 0 completo: contrato, registro de Lucía —incluida la entrada del
+martes—, calendario y canales.
+
+### A · Silencios: ninguno que tocar
+
+Los **siete canales sin fecha** recibieron el recordatorio del último día **ayer lunes a las 8:50**.
+*Una alerta de silencio por canal por semana*, así que esta semana ya están servidos. Mercadeo sigue
+fuera por decisión de Sandra.
+
+### B · Un DM sin responder, y conviene mirarlo ya
+
+**Lilian Paola Ramos** (`serviciossociales@comfacesar.com`) escribió **«hola»** a las **10:25 a. m.**
+en el DM con Sandra. *Sin responder.* No trae asunto: un «hola» suelto no dice qué necesita.
+
+**Lo que hace que no sea rutinario:** a esa hora está corriendo **Servicios Sociales S10**, que
+empezó a las 10:00 — y el invitado del evento es `pro_juniorss@`, **no ella**. *Cabe que esté
+pidiendo entrar a la sala*, como hizo Óscar Cotes el lunes en `#educacion`. **No lo doy por cierto:
+no hay nada en el DM que lo diga.**
+
+Si fuera eso, el guion de redirigir al canal sería la respuesta equivocada, y además **los avisos
+del momento son de Lucía**. Por eso no mandé nada: *se lo paso a Sandra, que está en la sala.*
+
+**Borrador a la espera de su visto bueno:**
+
+> ⭕️ Hola Lilian Paola, te leo. Cuéntame en qué te ayudo y, si es algo de las sesiones, escríbelo
+> en el canal de Servicios Sociales — así queda el registro y lo ve el equipo completo. 💪
+
+### C · Preguntas en canal: ninguna abierta
+
+**«Hola porfa me permites entrar»**, de Óscar Cotes en `#educacion`, lunes 4:05 p. m. **Quedó
+resuelto solo:** la sesión corrió y la grabación y el resumen ya salieron. *No se responde un pedido
+de entrar a una sala que ya cerró.* Además `#educacion` tiene el cupo del día agotado —grabación y
+resumen— y está en ventana de 48 h.
+
+### Dos datos que salen de esta corrida
+
+**El apellido de Óscar, que Lucía anotó como pendiente: es Óscar Cotes.** Está en su perfil de
+Slack como remitente (`rectoriacolegio@comfacesar.com`, «OSCAR COTES»), aunque el perfil no tenga
+el nombre cargado y no esté en `NOMBRES.md`. *Manda Slack, no el acta.*
+
+**Subsidio del miércoles cambió y ya no hay número repetido.** El calendario tiene ahora **S8 a las
+10:00** y **S9 a las 3:00 p. m.**, y *la sesión de las 12:00 del mediodía ya no aparece*. Con eso
+queda resuelto lo del título duplicado en S6, que este registro venía señalando desde ayer.
+**El miércoles pasa a tener dos sesiones de Subsidio.** *No lo publico: es dato de tablero.*
+
+---
+
 ## 🔍 29 sep · Por qué el Corte de María Elvira dice 78, y qué se corrigió
 
 **Nada publicado en Slack.** Sandra preguntó por qué el reporte de corte que ve la contraparte
