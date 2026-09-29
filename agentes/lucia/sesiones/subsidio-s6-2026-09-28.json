@@ -1,0 +1,206 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SUBSIDIO Y APORTES",
+  "area_completa": "",
+  "sesion_num": 6,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "28 de septiembre de 2026",
+  "fecha_corta": "28 septiembre 2026",
+  "subtitulo_meta": "Individual de Cindy Rodríguez · 28 de septiembre de 2026 · 2:00 p. m. · 59 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Subsidio y Aportes — Comfacesar"],
+    ["Sesión", "N° 6 — Individual de Cindy Rodríguez: el brief diario del correo y el agente de reparto"],
+    ["Fecha", "28 de septiembre de 2026"],
+    ["Duración de la sesión", "59 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Cindy Rodríguez — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "1", "etiqueta": "Primer agente del puesto", "detalle": "El reparto del correo de reclamos"},
+    {"valor": "15 min", "etiqueta": "Cadencia definida", "detalle": "Revisa y redirecciona durante toda la jornada"},
+    {"valor": "7", "etiqueta": "Tipos de correo clasificados", "detalle": "De afiliación a tutela"},
+    {"valor": "3", "etiqueta": "Remitentes marcados como prioridad", "detalle": "Coordinación, dirección y centro de servicio"},
+    {"valor": "2", "etiqueta": "Personas entre las que reparte", "detalle": "Para no cargar el flujo en una sola"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Cindy Rodríguez", "cargo": "Auxiliar de Gestión de Subsidio — Comfacesar", "correo": "atencion_reclamos@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 6. Es el primer espacio individual del puesto, y llegó con trabajo adelantado: un tablero del correo ya construido. La sesión se fue en ordenar lo que estaba debajo, porque sobre una base torcida ningún ejercicio se sostiene.",
+  "riesgos": [
+    {
+      "titulo": "El entorno estaba montado sobre dos cuentas distintas",
+      "nivel": "ALTO",
+      "descripcion": "**La aplicación de escritorio estaba abierta con una cuenta que no es la del puesto**, y el navegador tenía dos perfiles conviviendo. *El efecto es el peor de todos:* los ejercicios fallan **por razones que no tienen nada que ver con el ejercicio**, y se pierde la hora buscando el error donde no está. _Se corrigió en sesión —una sola cuenta, Chrome como predeterminado, la extensión instalada y fijada—, pero conviene no volver a abrirlo en dos sitios._",
+      "responsable": "Cindy Rodríguez / Permanente"
+    },
+    {
+      "titulo": "La instrucción venía de otra herramienta y no se podía explicar",
+      "nivel": "ALTO",
+      "descripcion": "El prompt del proyecto **traía código de otro origen** — se había armado en otra herramienta, pasado a un documento y pegado aquí. *Al pedirle que lo explicara, no se sostuvo.* **Ese es el punto exacto que el programa quiere evitar:** cuando la instrucción es tan sofisticada que quien la usa no la entiende, _la herramienta dejó de ser una herramienta._",
+      "responsable": "Cindy Rodríguez / Inmediato"
+    },
+    {
+      "titulo": "La configuración del perfil está vacía",
+      "nivel": "MEDIO",
+      "descripcion": "**El sistema no sabe quién es ni a qué se dedica.** _Sin eso, cada proyecto obliga a repetir el contexto a mano_ — y de ahí venía la redundancia que se encontró en el prompt: decía en la instrucción lo que debería estar en la configuración. *Se activaron las opciones y los permisos en sesión; falta la descripción del perfil.*",
+      "responsable": "Cindy Rodríguez / Antes de la S7"
+    },
+    {
+      "titulo": "El agente quedó escrito pero sin correr",
+      "nivel": "ALTO",
+      "descripcion": "**Se armó completo** —el reporte cargado, la regla de reparto, la cadencia de 15 minutos y el envío automático—, *pero no se alcanzó a probar.* **Y hay un paso que puede frenarlo:** el reenvío de correos requiere un permiso que todavía no está activado. _Si aparece, se le pregunta al propio sistema cómo habilitarlo._",
+      "responsable": "Cindy Rodríguez / Antes de la S7"
+    },
+    {
+      "titulo": "No hay línea base del tiempo que toma hoy el correo",
+      "nivel": "MEDIO",
+      "descripcion": "El puesto reparte correo **todo el día, uno por uno, a medida que entra** — pero *no hay una cifra de cuánto tiempo se va en eso.* **Sin el antes no hay ahorro que mostrar**, por bien que quede el agente. _Es la primera tarea, y se mide sobre la jornada real, no de memoria._",
+      "responsable": "Cindy Rodríguez / Antes de la S7"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "ALTO", "titulo": "Modelar el agente y dejarlo corriendo", "descripcion": "Terminar de responderle lo que pregunte y **hacer la primera prueba de reparto.** *Si pide el permiso de reenvío, pedirle a él mismo las instrucciones para activarlo.*", "responsable": "Cindy Rodríguez", "plazo": "Antes de la S7"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Medir cuánto tiempo toma hoy repartir el correo", "descripcion": "Sobre una jornada real: **cuántos correos entran, cuánto toma clasificarlos y reenviarlos.** _Es el número que hace la diferencia entre un tablero bonito y un ahorro demostrado._", "responsable": "Cindy Rodríguez", "plazo": "Antes de la S7"},
+    {"num": "03", "nivel": "ALTO", "titulo": "Trabajar con una sola cuenta", "descripcion": "Escritorio, web y navegador **con la misma cuenta del puesto.** *Casi todo lo que falló en esta sesión venía de ahí.*", "responsable": "Cindy Rodríguez", "plazo": "Permanente"},
+    {"num": "04", "nivel": "MEDIO", "titulo": "Completar la descripción del perfil en la configuración", "descripcion": "Quién es, qué hace, de qué responde. **Se escribe una vez y sirve para todos los proyectos** — y quita la mitad de lo que hoy se repite en cada instrucción.", "responsable": "Cindy Rodríguez", "plazo": "Antes de la S7"},
+    {"num": "05", "nivel": "MEDIO", "titulo": "Reescribir la instrucción del proyecto con el método, en palabras propias", "descripcion": "Contexto, rol, entrega y acción, **en el orden y con las palabras de quien lo va a usar.** _Si no se puede explicar, no sirve._", "responsable": "Cindy Rodríguez", "plazo": "Antes de la S7"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Ordenar la base antes de tocar el ejercicio",
+      "duracion": "~20 min",
+      "objetivo": "Dejar el entorno en condiciones de que un ejercicio pueda fallar por el ejercicio y no por el montaje.",
+      "pasos": [
+        "**Se encontró la aplicación abierta con una cuenta que no es la del puesto**, y dos perfiles de navegador conviviendo. *Se cerró todo y se dejó una sola sesión*",
+        "**Chrome como navegador predeterminado**, la extensión instalada y fijada en la barra",
+        "**Opciones, capacidades, memoria y permisos activados** uno por uno — _estaban todos apagados_",
+        "**Conector de repositorio conectado**, con la cuenta corporativa, para lo que viene",
+        "_El criterio de la sesión, dicho tal cual:_ **«no puedo hacer un ejercicio si no está configurado»** — *porque entonces el error aparece y se va la hora averiguando de dónde viene*"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El método CREA, puesto en orden",
+      "duracion": "~12 min",
+      "objetivo": "Separar qué es contexto, qué es rol, qué es entrega y qué es acción.",
+      "pasos": [
+        "**La instrucción empezaba por la acción.** _«Genera mi brief diario…» es lo que se quiere que haga — no es el contexto_",
+        "**El contexto es el presente y el pasado:** el proceso que hoy se hace a mano, de dónde sale la información, qué se revisa y qué se entrega hoy",
+        "**El rol es específico:** experto en gestión de agendas y correo *de una caja de compensación*, desde el puesto de auxiliar. _El sector es parte del rol_",
+        "**Se quitó lo redundante:** el cargo y el perfil no van en cada instrucción — *van en la configuración, una sola vez*",
+        "_Y se separó una confusión de fondo:_ **los archivos del contexto del proyecto son la fuente de todas las consultas**; los que se suben dentro de una consulta sirven solo para esa"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El tablero del correo, revisado",
+      "duracion": "~12 min",
+      "objetivo": "Ver qué hay construido y qué le falta para servir de verdad.",
+      "pasos": [
+        "**Un brief diario del correo**, montado como aplicación en HTML: *clasifica por afiliación, derecho de petición, juzgado, tutela, quejas, tickets y certificaciones*",
+        "**Separa lo de las últimas 24 horas de lo que quedó sin leer de días anteriores**, y marca tres remitentes como gestión inmediata — coordinación, dirección y centro de servicio",
+        "**Trae el repositorio de plantillas de respuesta** que hoy se usan a diario, y un reporte mensual de qué tipo de correo entra",
+        "_Y se hizo bien algo que vale la pena decir:_ **se le pidió que se volviera una aplicación que se actualiza sola**, y ahí fue cuando dejó de ser una conversación y se volvió una herramienta",
+        "**Lo que el tablero no puede hacer es repartir.** *Un proyecto acompaña; para que algo salga solo hace falta un agente* — y ahí se cruzó al otro entorno"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · El agente de reparto",
+      "duracion": "~13 min",
+      "objetivo": "Convertir el tablero en un circuito que funcione sin que nadie lo active.",
+      "pasos": [
+        "**El reporte se compartió y se descargó**, y se subió al entorno agéntico como base del agente",
+        "**Se le puso nombre: María.** _Cuando hay varios agentes, el nombre es lo que permite saber cuál hizo qué_",
+        "**La regla de reparto, que es el corazón del encargo:** los correos de no pago *se reparten uno y uno entre dos personas* — **para que el flujo no se cargue en una sola**",
+        "**La cadencia:** revisar el correo cada 15 minutos y redireccionar a medida que entra, *no en un corte al final del día*. Envío automático, y **aviso al usuario de que su caso fue remitido**",
+        "_Y apareció el mejor diagnóstico de la sesión:_ **cuando el contexto no está bien escrito, el sistema pregunta.** *Cada pregunta que hizo señalaba exactamente lo que faltaba decir*"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · La regla que se llevó de tarea",
+      "duracion": "~2 min",
+      "objetivo": "Dejar claro para qué sirve cada entorno.",
+      "pasos": [
+        "**Proyecto (asistido):** algo puntual — una presentación, un análisis. _Se dirige paso a paso y se va modelando_",
+        "**Agente (agéntico):** un circuito que se repite — *entra al correo, decide, transforma, envía.* **Se arma una vez y corre solo**",
+        "**La tarea:** terminar de modelar el agente, probarlo, y **traer medido el antes y el después** del tiempo que hoy toma el correo"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 6 · 28 septiembre 2026",
+      "titulo": "El brief diario del correo de reclamos",
+      "descripcion": "Una aplicación que clasifica el correo entrante en siete tipos, separa lo de las últimas 24 horas de lo atrasado, **marca los tres remitentes que exigen respuesta inmediata** y tiene a mano el repositorio de plantillas que hoy se responden una por una. _Llegó construida a la sesión._",
+      "estado": "Funcionando",
+      "proximo_paso": "Medir cuánto tiempo ahorra sobre la jornada real",
+      "target": "Antes de la S7"
+    },
+    {
+      "encabezado": "OPORTUNIDAD ABIERTA · SESIÓN 6 · 28 septiembre 2026",
+      "titulo": "El agente que reparte la carga entre dos personas",
+      "descripcion": "Los correos de no pago se reparten **uno y uno**, para que el trabajo no se acumule en una sola persona. *El agente revisa cada 15 minutos, reenvía y le avisa al usuario que su caso fue remitido.* **Es un criterio de equidad de carga convertido en regla, y antes vivía solo en la cabeza de quien reparte.**",
+      "estado": "Escrito, sin probar",
+      "proximo_paso": "Modelarlo y correr la primera prueba",
+      "target": "Antes de la S7"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 6 · 28 septiembre 2026",
+      "titulo": "Lo sofisticado que no se entiende no sirve",
+      "descripcion": "La instrucción del proyecto venía armada en otra herramienta y **al pedirle que la explicara no se pudo sostener.** *La corrección no fue mejorarla: fue rehacerla más simple, en palabras propias.* _Dicho en sesión:_ **el objetivo no es que el sistema piense por uno — es que uno desarrolle el criterio y entienda lo que está pidiendo.**",
+      "estado": "Corregido en sesión",
+      "proximo_paso": "Reescribir la instrucción con el método",
+      "target": "Antes de la S7"
+    },
+    {
+      "encabezado": "OPORTUNIDAD ABIERTA · SESIÓN 6 · 28 septiembre 2026",
+      "titulo": "Las preguntas del sistema son el diagnóstico",
+      "descripcion": "Cada vez que el contexto quedaba corto, **el sistema preguntó en lugar de inventar** — si el envío es inmediato o queda en borrador, cada cuánto revisar, si se le avisa al usuario. *Esas preguntas son el mapa de lo que falta decir.* **Leerlas así convierte cada error en una instrucción mejor.**",
+      "estado": "Identificado en sesión",
+      "proximo_paso": "Responderlas una por una al modelar",
+      "target": "Antes de la S7"
+    }
+  ],
+  "tareas_intro": "Primer espacio individual del puesto, y llegó con trabajo adelantado: el tablero del correo ya estaba construido y funcionando. La sesión se fue en ordenar lo que estaba debajo —el entorno, la cuenta, el método— porque sobre una base torcida los ejercicios fallan por razones que no son del ejercicio. El agente quedó armado y falta correrlo.",
+  "tareas": [
+    {"tarea": "Terminar de modelar el agente de reparto y hacer la primera prueba", "responsable": "Cindy Rodríguez", "prioridad": "ALTA", "plazo": "Antes de la S7"},
+    {"tarea": "Medir cuánto tiempo toma hoy clasificar y repartir el correo, sobre una jornada real", "responsable": "Cindy Rodríguez", "prioridad": "ALTA", "plazo": "Antes de la S7"},
+    {"tarea": "Dejar escritorio, web y navegador con una sola cuenta, la del puesto", "responsable": "Cindy Rodríguez", "prioridad": "ALTA", "plazo": "Permanente"},
+    {"tarea": "Completar la descripción del perfil en la configuración", "responsable": "Cindy Rodríguez", "prioridad": "MEDIA", "plazo": "Antes de la S7"},
+    {"tarea": "Reescribir la instrucción del proyecto con el método CREA, en palabras propias", "responsable": "Cindy Rodríguez", "prioridad": "MEDIA", "plazo": "Antes de la S7"},
+    {"tarea": "Activar el permiso de reenvío de correo si el agente lo pide", "responsable": "Cindy Rodríguez", "prioridad": "MEDIA", "plazo": "Antes de la S7"},
+    {"tarea": "Registrar los ejercicios en el reporte de productividad del área", "responsable": "Cindy Rodríguez", "prioridad": "ALTA", "plazo": "Inmediato"}
+  ],
+  "observaciones": [
+    "**Es el primer espacio individual del puesto y no se llegó con las manos vacías.** _El tablero del correo ya estaba construido:_ una aplicación que clasifica lo que entra en siete tipos, separa lo de las últimas 24 horas de lo atrasado y tiene a mano el repositorio de plantillas. *Eso no es poco para una primera sesión.*",
+    "**Pero la sesión se fue en otra cosa, y estuvo bien que así fuera.** La aplicación estaba abierta con una cuenta que no es la del puesto y el navegador tenía dos perfiles conviviendo. _El efecto de eso es el peor de todos:_ **los ejercicios fallan por razones que no tienen nada que ver con el ejercicio**, y la hora se va buscando el error donde no está.",
+    "_Quedó dicho con claridad y vale repetirlo:_ **no se puede hacer un ejercicio si el entorno no está configurado.** *Se corrigió todo en sesión* — una sola cuenta, navegador predeterminado, extensión fijada, opciones y permisos activados, conector de repositorio conectado.",
+    "**El hallazgo de fondo es otro, y es el que hay que subrayar.** La instrucción del proyecto venía armada en otra herramienta, pasada a un documento y pegada aquí. **Al pedirle que la explicara, no se pudo sostener.**",
+    "_La corrección no fue mejorarla: fue rehacerla más simple._ **El objetivo del programa no es que el sistema piense por uno — es que uno desarrolle el criterio y entienda lo que está pidiendo.** *Una instrucción que no se puede explicar no se puede corregir cuando falle, y va a fallar.*",
+    "**Y de ahí salió el ordenamiento del método.** La instrucción empezaba por la acción: _«genera mi brief diario…»_ es lo que se quiere que haga, no el contexto. **El contexto es el presente y el pasado** — el proceso que hoy se hace a mano. *Puesto en orden, la mitad de lo que había escrito sobraba*, porque decía en la instrucción lo que debía estar en la configuración.",
+    "_Se separó también una confusión que aparece en varias áreas:_ **los archivos cargados en el contexto del proyecto son la fuente de todas las consultas.** Los que se suben dentro de una consulta sirven solo para esa. *No es lo mismo y se usan distinto.*",
+    "**El tablero sabe clasificar pero no puede repartir, y ahí estaba el encargo real.** El puesto reparte los correos de no pago entre dos personas, *uno y uno, para que la carga no se acumule en una sola.* **Eso es un criterio de equidad que hasta hoy vivía solo en la cabeza de quien reparte** — y al escribirlo para el agente quedó por primera vez como regla.",
+    "**El agente quedó armado:** el reporte cargado como base, la regla de reparto, revisión cada 15 minutos, envío automático y aviso al usuario de que su caso fue remitido. _Falta correrlo._ **Y puede frenarse en el permiso de reenvío de correo, que todavía no está activado** — si aparece, se le piden a él mismo las instrucciones.",
+    "_Y apareció el mejor diagnóstico de la sesión, que sirve para cualquier área:_ **cuando el contexto no está bien escrito, el sistema pregunta en vez de inventar.** *Preguntó si el envío es inmediato o queda en borrador, cada cuánto revisar, si se le avisa al usuario.* **Cada una de esas preguntas señalaba exactamente lo que faltaba decir.** Leerlas así convierte cada tropiezo en una instrucción mejor.",
+    "**Lo que falta para que esto cuente es un número.** El puesto reparte correo todo el día, a medida que entra, *pero no hay cifra de cuánto tiempo se va en eso.* **Sin el antes no hay ahorro que mostrar**, por bien que quede el agente — y se mide sobre una jornada real, no de memoria.",
+    "_Nota de método para lo que queda:_ **la sesión se grabó y el acta recoge cada indicación**, así que no hace falta tomar nota durante la hora. *Eso libera la sesión para trabajar.*"
+  ],
+  "proxima_sesion": {
+    "sesion": "Subsidio y Aportes — Sesión 7 · martes 29 de septiembre, 3:00 p. m.",
+    "condiciones": [
+      "El agente modelado y con la primera prueba corrida",
+      "El tiempo que toma hoy el correo, medido sobre una jornada real",
+      "Una sola cuenta en escritorio, web y navegador",
+      "La descripción del perfil completa en la configuración"
+    ],
+    "agenda": [
+      "Presentación del agente de reparto funcionando",
+      "Ajuste de la regla de distribución y de la cadencia",
+      "El antes y el después del tiempo de correo",
+      "El siguiente proceso del puesto"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 28 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

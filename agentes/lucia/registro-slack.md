@@ -1345,3 +1345,20 @@ miércoles 30 a las 12:00 virtual, y el viernes 2 a las 2:00 presencial con Avel
 la agenda de la semana.** Si entran, Subsidio pasa de 7 a 9 sesiones y toda su numeración corre.
 
 *Pendiente:* el acta de la **S6** (Cindy, 2:00 p. m.) — falta el VTT en Dropbox.
+
+### Martes 29 — cierre del lunes
+
+| Canal | Qué se publicó | message_ts |
+|---|---|---|
+| `#subsidio` | Resumen S6 | `1790691356.346459` |
+| `#sub-admin-y-financiera-infraestructura` | Grabación S11 | `1790691323.884449` |
+
+**Sandra sí subió las actas de Subsidio S4 y S5** al canal el lunes por la tarde. *La S5 quedó subida dos veces*, a las 15:48 y a las 15:58.
+
+**Sub. Administrativa y Financiera S11 sí se hizo el lunes.** Llegó la grabación el martes por la mañana. *Es la sesión que se había caído el 24* — el área la recuperó. Falta el VTT para el acta.
+
+**Subsidio S6 — primera individual de Cindy Rodríguez.** Llegó con el tablero del correo ya construido. Se montó el agente de reparto: revisa cada 15 minutos y **divide los correos de no pago uno y uno entre dos personas para no cargar a una sola.** *Quedó escrito, sin probar.*
+
+**Criterio aplicado al resumen del canal.** El acta recoge tal cual los dos problemas de base —la aplicación abierta con una cuenta que no era la del puesto, y un prompt traído de otra herramienta que no se pudo explicar—. *En el canal eso salió como regla de método para todo el equipo, no como señalamiento*, porque `#subsidio` lo leen las cuatro personas del área. **Misma regla de Comunicaciones S9.**
+
+*Sigue faltando:* **Educación S4 del lunes 4:00 p. m.** — ni enlace ni carpeta. Es el tercer intento después de dos inasistencias, el 22 y el 23.
