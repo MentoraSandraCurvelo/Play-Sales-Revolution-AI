@@ -1,0 +1,206 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SUB. ADMINISTRATIVA Y FINANCIERA",
+  "area_completa": "",
+  "sesion_num": 11,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "28 de septiembre de 2026",
+  "fecha_corta": "28 septiembre 2026",
+  "subtitulo_meta": "Individual de Rafael Solano · 28 de septiembre de 2026 · 3:00 p. m. · 46 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Sub. Administrativa y Financiera — Comfacesar"],
+    ["Sesión", "N° 11 — Individual de Rafael Solano: el segundo agente, sobre la ejecución de contratos"],
+    ["Fecha", "28 de septiembre de 2026"],
+    ["Duración de la sesión", "46 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Rafael Solano — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "2", "etiqueta": "Procesos del puesto automatizados", "detalle": "El precontractual y ahora el de ejecución"},
+    {"valor": "8", "etiqueta": "Etapas del circuito mapeadas", "detalle": "Del contrato al acta de liquidación"},
+    {"valor": "14", "etiqueta": "Preguntas que devolvió el agente", "detalle": "Antes de tocar un solo archivo"},
+    {"valor": "96", "etiqueta": "Páginas del contrato, escaneadas", "detalle": "Sin texto — las parte en bloques y las lee como imagen"},
+    {"valor": "0", "etiqueta": "Archivos existentes modificados", "detalle": "Dejó el control de ejecución en solo lectura"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Rafael Solano", "cargo": "Requerimientos y Contratos — Sub. Administrativa y Financiera, Comfacesar", "correo": "requerimientoscontratos@comfacesar.com", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 11. El puesto llega con su primer agente ya corriendo y abre el segundo, esta vez sobre un proceso que dura todo el año: el seguimiento a la ejecución de los contratos de vigilancia. Lo que apareció al armarlo se mira aquí.",
+  "riesgos": [
+    {
+      "titulo": "El contrato fuente viene escaneado y sin texto",
+      "nivel": "ALTO",
+      "descripcion": "**96 páginas de imagen, no de texto.** *El sistema lo resolvió por su cuenta* —anunció que lo partiría en bloques y lo leería como imagen— **pero conviene saber que ese es el caso difícil:** _un documento escaneado se lee más lento y con más margen de error que uno digital._ **Si los contratos llegaran en digital, todo el circuito gana precisión.**",
+      "responsable": "Rafael Solano / Segunda fase"
+    },
+    {
+      "titulo": "La factura vive hoy dentro del software interno",
+      "nivel": "ALTO",
+      "descripcion": "**El agente no puede entrar al sistema propio de la Caja**, así que hoy la factura hay que descargarla a mano. _Lo que se planteó en sesión es lo correcto:_ **pedir que la empresa contratista mande la factura por correo**, con un asunto fijo. *Desde el correo el agente sí la toma solo* — y es la misma corrección que apareció en Subsidio esta misma semana.",
+      "responsable": "Rafael Solano / Antes de la S12"
+    },
+    {
+      "titulo": "El mapeo del proceso se hizo fuera del entorno de trabajo",
+      "nivel": "MEDIO",
+      "descripcion": "El flujograma se redactó en otra herramienta y después se pegó. *No es un error grave —el mapeo estaba bien hecho—* **pero el entorno tiene su propia opción de flujograma**, y hacerlo dentro deja el diagrama vinculado al proyecto en vez de suelto en otro lado.",
+      "responsable": "Rafael Solano / Permanente"
+    },
+    {
+      "titulo": "Quedaron respuestas pendientes del cuestionario del agente",
+      "nivel": "MEDIO",
+      "descripcion": "**El agente pidió 14 datos y dijo cuáles bloqueaban el arranque.** *Varios se resolvieron en sesión, pero no todos* — falta el ejemplo real del asunto del correo de facturación, y el sistema dejó el archivo de control en solo lectura **hasta que se confirme dónde vive la ficha maestra.** _Mientras eso no se cierre, el piloto corre a medias._",
+      "responsable": "Rafael Solano / Antes de la S12"
+    },
+    {
+      "titulo": "El ahorro del primer agente sigue sin cifra",
+      "nivel": "MEDIO",
+      "descripcion": "El agente precontractual **ya está corriendo** — recibe la información, la corrige, la revisa y deja el correo listo. *Dicho en sesión: «eso se siente enseguida».* **Pero sentirlo no es medirlo**, y el tablero de la dirección lee cifras. _Falta el antes y el después en minutos, y es el proceso más maduro que tiene el área._",
+      "responsable": "Rafael Solano / Inmediato"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "ALTO", "titulo": "Cerrar las respuestas que bloquean el piloto", "descripcion": "**El ejemplo real del asunto del correo de facturación** y la confirmación de dónde vive la ficha maestra. *Con eso el sistema deja de trabajar en solo lectura.*", "responsable": "Rafael Solano", "plazo": "Antes de la S12"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Pedir la factura por correo, con asunto fijo", "descripcion": "Escribir a la empresa contratista pidiendo que la factura mensual llegue al correo **con un asunto siempre igual.** _Desde ahí el agente la toma sin intervención;_ desde el software interno, no.", "responsable": "Rafael Solano", "plazo": "Antes de la S12"},
+    {"num": "03", "nivel": "ALTO", "titulo": "Medir el ahorro del agente precontractual", "descripcion": "**Cuánto tomaba antes armar y revisar un requerimiento y cuánto toma hoy.** *Es el proceso más maduro del área y no tiene cifra.*", "responsable": "Rafael Solano", "plazo": "Inmediato"},
+    {"num": "04", "nivel": "MEDIO", "titulo": "Pedirle al agente su tablero de reporte", "descripcion": "Al terminar de modelarlo: **un tablero de lo que va ejecutando, actualizado al mediodía y a las 4:30.** _Un agente que no reporta no se puede supervisar._", "responsable": "Rafael Solano", "plazo": "Antes de la S12"},
+    {"num": "05", "nivel": "MEDIO", "titulo": "Correr el piloto con el contrato que tiene más insumos", "descripcion": "Leer el contrato, armar la ficha maestra, **contrastarla contra el acta de inicio que ya existe** y cargar la factura del mes para calcular el acumulado.", "responsable": "Rafael Solano", "plazo": "Antes de la S12"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Dónde quedó el primer agente",
+      "duracion": "~6 min",
+      "objetivo": "Revisar el proceso precontractual ya automatizado antes de abrir el siguiente.",
+      "pasos": [
+        "**El agente recibe la información, la corrige, la revisa y deja el correo armado** para la oficina financiera — _el circuito corre solo_",
+        "**Queda en borrador a propósito.** *Puede enviarlo, pero el área prefiere leerlo y adjuntar el documento a mano antes de mandarlo* — **es una decisión, no una limitación**",
+        "_Sobre el efecto:_ **«eso se siente enseguida»** — *mientras la sesión transcurría, el propio agente iba despachando*",
+        "**Pero no hay cifra todavía**, y es lo único que le falta a este proceso para poder mostrarse"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El proceso nuevo, mapeado de punta a punta",
+      "duracion": "~10 min",
+      "objetivo": "Escribir el circuito completo del seguimiento a la ejecución de contratos antes de automatizar nada.",
+      "pasos": [
+        "**Jurídica avisa que el contrato está firmado** → se hace el **acta de inicio** → la empresa contratista manda la **factura mensual** por correo",
+        "**Con la factura se genera el formato de seguimiento de interventoría**, se alimenta el **cuadro de seguimiento de ejecución**, y de ahí salen los informes",
+        "**Al cierre del año, dos entregas más:** la *proyección presupuestal* —que va en octubre— y el **acta de liquidación**, que se hace al recibir la última factura",
+        "_Son ocho etapas y el contrato puede durar tres meses, seis o un año._ **El circuito tiene que sostenerse todo ese tiempo, no una vez**",
+        "_Corrección de método:_ el mapeo se hizo en otra herramienta. **El entorno tiene su propia opción de flujograma** — *hacerlo dentro deja el diagrama pegado al proyecto*"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Un agente, no dos",
+      "duracion": "~6 min",
+      "objetivo": "Evitar que el circuito nazca partido.",
+      "pasos": [
+        "**El área había considerado dividirlo en dos agentes** — uno para vigilancia y otro para el resto",
+        "**No hacía falta: el mismo agente puede hacer el circuito completo.** _Quedó con un solo nombre, Maradona, y una sola carpeta de trabajo_",
+        "_Y la regla que se aplicó en el momento:_ **«no puedes dejar nada para después».** *Renombrarlo «cuando haya tiempo» es exactamente donde empieza el desorden* — se hizo ahí mismo",
+        "**Toda la información se movió a una sola carpeta**, la que el agente lee y alimenta"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Lo que el agente devolvió antes de empezar",
+      "duracion": "~18 min",
+      "objetivo": "Dejar que el sistema audite los insumos en lugar de suponerlos.",
+      "pasos": [
+        "**Hizo el inventario por etapa:** contrato *parcial*, acta de inicio *completa*, factura mensual *parcial*, cuadro de seguimiento e informes *presentes*, **proyección nada y acta de liquidación en blanco**",
+        "**Y pidió 14 datos**, diciendo además *cuáles de ellos bloqueaban el arranque* — no todos pesaban igual",
+        "**Sobre el contrato:** anunció que tiene **96 páginas escaneadas sin texto** y que lo partiría en bloques para leerlo como imagen. _No se detuvo: dijo cómo lo iba a resolver_",
+        "**Verificó un número:** las facturas de agosto del contrato de vigilancia **coinciden con el valor del 8 de agosto**",
+        "**Y encontró una regla que nadie le había dicho:** la factura de uno de los bloques *se reparte 70 y 30 con Agencia de Empleo* — **y avisó que tenía que replicarla**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · El piloto y el tablero del agente",
+      "duracion": "~6 min",
+      "objetivo": "Arrancar por el contrato con más insumos y dejar el agente rindiendo cuentas.",
+      "pasos": [
+        "**El piloto que propuso:** leer el contrato, crear la ficha maestra, **contrastarla contra el acta de inicio que ya existe**, cargar la factura del mes y calcular el acumulado",
+        "**Y lo que hizo con el archivo del área:** dejó el control de ejecución **en solo lectura**, sin tocarlo, *hasta que se confirmara un dato pendiente.* **Construyó su propia base aparte**",
+        "_Pieza de método, que aplica a todos los agentes:_ **al terminar de modelarlo se le pide un tablero de reporte de lo que va ejecutando**, actualizado al mediodía y a las 4:30",
+        "*Para qué sirve:* **para ver de un vistazo cuántas veces corrió el proceso y dónde se equivocó** — el agente o alguien del circuito"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 11 · 28 septiembre 2026",
+      "titulo": "El agente de ejecución de contratos",
+      "descripcion": "Ocho etapas, del contrato firmado al acta de liquidación, **sosteniéndose durante toda la vida del contrato** — que puede ser un año. *Genera el formato de interventoría, alimenta el cuadro de ejecución y prepara la proyección presupuestal de octubre.* **Es el proceso de más largo aliento que ha entrado al programa.**",
+      "estado": "Piloto en marcha",
+      "proximo_paso": "Cerrar los datos pendientes y correrlo completo",
+      "target": "Antes de la S12"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 11 · 28 septiembre 2026",
+      "titulo": "No tocó el archivo del área",
+      "descripcion": "Al armar el piloto, **el sistema dejó el control de ejecución en solo lectura** y construyó su propia base aparte, *porque había un dato sin confirmar.* **No sobrescribió nada y dijo por qué.** _En un puesto que maneja la ejecución presupuestal de los contratos, esa prudencia vale más que la velocidad._",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Confirmar el dato y liberar la integración",
+      "target": "Antes de la S12"
+    },
+    {
+      "encabezado": "OPORTUNIDAD ABIERTA · SESIÓN 11 · 28 septiembre 2026",
+      "titulo": "Encontró una regla de reparto que nadie le dijo",
+      "descripcion": "Leyendo los soportes detectó que **la factura de uno de los bloques se reparte 70 y 30 con Agencia de Empleo**, y avisó que tenía que replicar ese criterio. *Nadie se lo había escrito.* **Es el tipo de dato que se pierde cuando el proceso vive en la cabeza de una sola persona.**",
+      "estado": "Detectado por el sistema",
+      "proximo_paso": "Dejarlo escrito en la ficha maestra",
+      "target": "Antes de la S12"
+    },
+    {
+      "encabezado": "OPORTUNIDAD ABIERTA · SESIÓN 11 · 28 septiembre 2026",
+      "titulo": "Leer cómo razona es parte del ejercicio",
+      "descripcion": "*Quedó dicho en sesión y es el fondo del programa:* **al leer el razonamiento del sistema —qué pregunta, qué verifica, qué deja pendiente— se aprende a darle mejores instrucciones.** _No se trata de memorizar fórmulas:_ **es entender la lógica, y ahí es donde se nota quién va a poder corregirlo el día que falle.**",
+      "estado": "Criterio de método",
+      "proximo_paso": "Seguir modelando leyendo cada respuesta",
+      "target": "Permanente"
+    }
+  ],
+  "tareas_intro": "El puesto llega con un agente ya corriendo y abre el segundo, sobre un proceso que dura todo el año. El sistema auditó los insumos, pidió catorce datos, encontró una regla de reparto que nadie le había dicho y dejó el archivo del área intacto. Lo que falta es cerrar los datos pendientes, traer la factura al correo y ponerle cifra al ahorro del primer agente.",
+  "tareas": [
+    {"tarea": "Responder el ejemplo real del asunto del correo de facturación", "responsable": "Rafael Solano", "prioridad": "ALTA", "plazo": "Antes de la S12"},
+    {"tarea": "Confirmar dónde vive la ficha maestra para liberar la integración", "responsable": "Rafael Solano", "prioridad": "ALTA", "plazo": "Antes de la S12"},
+    {"tarea": "Pedir a la empresa contratista que la factura llegue por correo con asunto fijo", "responsable": "Rafael Solano", "prioridad": "ALTA", "plazo": "Antes de la S12"},
+    {"tarea": "Medir cuánto ahorra el agente precontractual, en minutos por requerimiento", "responsable": "Rafael Solano", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Correr el piloto sobre el contrato con más insumos", "responsable": "Rafael Solano", "prioridad": "ALTA", "plazo": "Antes de la S12"},
+    {"tarea": "Pedirle al agente su tablero de reporte, con corte al mediodía y a las 4:30", "responsable": "Rafael Solano", "prioridad": "MEDIA", "plazo": "Antes de la S12"},
+    {"tarea": "Dejar escrita en la ficha maestra la regla de reparto 70/30", "responsable": "Rafael Solano", "prioridad": "MEDIA", "plazo": "Antes de la S12"}
+  ],
+  "observaciones": [
+    "**El puesto llega a esta sesión con un agente ya corriendo.** El precontractual recibe la información, la corrige, la revisa y deja el correo armado para la oficina financiera. _Queda en borrador a propósito:_ **puede enviarlo solo, pero el área prefiere leerlo antes** — *es una decisión, no una limitación del sistema.*",
+    "_Sobre el efecto, dicho en sesión:_ **«eso se siente enseguida»** — mientras la hora transcurría, el agente iba despachando. *Pero sentirlo no es medirlo*, y **es el proceso más maduro del área y todavía no tiene cifra.**",
+    "**El proceso nuevo es el de más largo aliento que ha entrado al programa.** No es una tarea mensual: es el seguimiento a la ejecución de un contrato **durante toda su vida**, que puede ser un año. _Ocho etapas_, desde que Jurídica avisa que el contrato está firmado hasta el acta de liquidación, pasando por el acta de inicio, la factura mensual, el formato de interventoría, el cuadro de ejecución y la proyección presupuestal de octubre.",
+    "**Y el área llegó con el circuito ya mapeado**, de punta a punta. *Eso cambia por completo el rendimiento de la hora:* **cuando el proceso está escrito, la sesión se dedica a construir, no a averiguar.**",
+    "_Una corrección de método, menor pero que vale:_ el mapeo se hizo en otra herramienta y luego se pegó. **El entorno tiene su propia opción de flujograma**, y hacerlo dentro deja el diagrama vinculado al proyecto en vez de suelto en otro lado.",
+    "**Se evitó que el circuito naciera partido.** El área había pensado dividirlo en dos agentes; *no hacía falta, el mismo puede hacerlo completo.* **Quedó con un solo nombre y una sola carpeta** — y el cambio se hizo en el momento, no «después», *porque dejarlo para después es exactamente donde empieza el desorden.*",
+    "**Lo que el sistema devolvió antes de tocar nada es el corazón de esta sesión.** Hizo el inventario por etapa —qué tenía completo, qué parcial y qué en blanco— y **pidió catorce datos, diciendo cuáles bloqueaban el arranque y cuáles no.** *No todos pesaban igual, y lo dijo.*",
+    "**Se topó con el peor caso posible y no se detuvo:** el contrato tiene **96 páginas escaneadas, sin texto.** _Anunció que lo partiría en bloques y lo leería como imagen._ **Reportó la dificultad y siguió** — que es lo contrario de fallar en silencio.",
+    "**Verificó un número por su cuenta:** las facturas de agosto del contrato de vigilancia coinciden con el valor registrado el 8 de agosto. *Nadie le pidió esa comprobación.*",
+    "**Y encontró una regla que nadie le había escrito.** Leyendo los soportes detectó que la factura de uno de los bloques **se reparte 70 y 30 con Agencia de Empleo**, y avisó que tenía que replicar ese criterio. _Es el tipo de dato que se pierde el día que la persona que lo sabe no está._",
+    "**Lo que hay que subrayar de todo esto es lo que hizo con el archivo del área.** Había un dato sin confirmar, así que **dejó el control de ejecución en solo lectura y construyó su propia base aparte.** *No sobrescribió nada y explicó por qué.* **En un puesto que maneja la ejecución presupuestal de los contratos, esa prudencia vale más que la velocidad.**",
+    "_El punto que falta resolver es de origen, no de sistema:_ **la factura vive hoy dentro del software interno de la Caja**, al que el agente no entra. **La salida correcta es pedir que la empresa contratista la mande por correo**, con un asunto fijo. *Es la misma corrección que apareció en Subsidio esta misma semana, y en los dos casos se arregla aguas arriba.*",
+    "_Y quedó una regla de método para todos los agentes del programa:_ **al terminar de modelar uno se le pide su tablero de reporte**, actualizado al mediodía y a las 4:30. *Sirve para ver cuántas veces corrió el proceso y dónde hubo un error* — **del agente o de alguien del circuito.**"
+  ],
+  "proxima_sesion": {
+    "sesion": "Sub. Administrativa y Financiera — Sesión 12",
+    "condiciones": [
+      "Los datos pendientes del cuestionario respondidos",
+      "El piloto corrido sobre el contrato con más insumos",
+      "El correo a la empresa contratista enviado",
+      "El ahorro del agente precontractual, medido en minutos"
+    ],
+    "agenda": [
+      "Revisión del piloto y de la ficha maestra",
+      "Integración con el cuadro de control de ejecución",
+      "El tablero de reporte del agente",
+      "Cierre del circuito y medición del ahorro"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 28 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

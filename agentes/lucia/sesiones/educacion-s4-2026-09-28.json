@@ -1,0 +1,205 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "EDUCACIÓN",
+  "area_completa": "",
+  "sesion_num": 4,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "28 de septiembre de 2026",
+  "fecha_corta": "28 septiembre 2026",
+  "subtitulo_meta": "Rectoría del Colegio y Auxiliar de Educación · 28 de septiembre de 2026 · 4:00 p. m. · 1 h 06 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Educación — Comfacesar"],
+    ["Sesión", "N° 4 — Dos tableros publicados: el plan de mejoramiento y el informe de pruebas Saber"],
+    ["Fecha", "28 de septiembre de 2026"],
+    ["Duración de la sesión", "1 hora 6 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Óscar y Julissa Pérez Pérez — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "92%", "etiqueta": "Menos tiempo en el consolidado mensual", "detalle": "De dos horas a diez minutos"},
+    {"valor": "2", "etiqueta": "Tableros construidos en la sesión", "detalle": "Plan de mejoramiento e informe de pruebas"},
+    {"valor": "7", "etiqueta": "Años comparados en el informe de pruebas", "detalle": "De 2020 a 2026, por área"},
+    {"valor": "1", "etiqueta": "Enlace que reemplaza la reunión de avance", "detalle": "Se actualiza solo, sin reenviarlo"},
+    {"valor": "6", "etiqueta": "Observaciones sin acción en el plan", "detalle": "Las contó el propio tablero"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Óscar", "cargo": "Rectoría del Colegio — Comfacesar", "correo": "rectoriacolegio@comfacesar.com", "modalidad": "Virtual", "nivel": "Inicial"},
+    {"nombre": "Julissa Pérez Pérez", "cargo": "Auxiliar de Educación — Comfacesar", "correo": "auxiliareducacion@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 4. El área salió de la sesión con dos tableros publicados y con el primer ahorro medido de Educación. Lo que queda abierto, y lo que apareció al construirlos, se mira aquí.",
+  "riesgos": [
+    {
+      "titulo": "Lo que el área construyó no está registrado en ninguna parte",
+      "nivel": "ALTO",
+      "descripcion": "**El reporte de productividad del área está en blanco.** _No es que no haya trabajo:_ van cuatro sesiones, hay kits escolares convertidos en página interactiva, el plan de mejoramiento montado y ahora dos tableros más. **Pero el tablero que consulta la dirección se alimenta de lo que cada área reporta**, y lo que no se reporta no aparece. *La carpeta está arriba en el canal, en «Diligencia reporte».*",
+      "responsable": "Julissa Pérez Pérez / Inmediato"
+    },
+    {
+      "titulo": "El plan de mejoramiento tiene vacíos que el propio tablero contó",
+      "nivel": "ALTO",
+      "descripcion": "Al montarlo como tablero quedó a la vista: **23 observaciones con enunciado, 32 de 78 actividades formuladas, 6 observaciones sin acción y 12 fórmulas de avance con error.** *No son cifras de la mentoría: las levantó el sistema leyendo el archivo.* **El plan responde a la Superintendencia de Subsidio Familiar y vence en noviembre** — _lo que hoy está sin acción o con error es lo que hay que cerrar._",
+      "responsable": "Julissa Pérez Pérez / Antes de la S5"
+    },
+    {
+      "titulo": "El área todavía no tiene un agente",
+      "nivel": "ALTO",
+      "descripcion": "**Los tableros son proyectos asistidos: alguien los pide y alguien los modela.** _Un agente es otra cosa:_ corre el circuito solo. *El programa cierra el lunes 5 de octubre*, y **Educación es de las pocas áreas que todavía no ha construido uno.** _El consolidado mensual de subsidios es el candidato natural — se repite todos los meses y ya está medido._",
+      "responsable": "Julissa Pérez Pérez / Antes del 5 de octubre"
+    },
+    {
+      "titulo": "Los archivos del puesto viven en un disco duro, no en la nube",
+      "nivel": "MEDIO",
+      "descripcion": "El trabajo se reparte entre el colegio, la oficina y la casa, **y la información se mueve en un disco duro asignado.** *Eso obliga a arrastrar el archivo de un equipo a otro* — y **el sistema solo puede leer lo que esté donde él alcanza.** _Con la información en un repositorio en la nube, el mismo circuito funciona desde cualquier dispositivo._",
+      "responsable": "Educación / Segunda fase"
+    },
+    {
+      "titulo": "El trabajo venía repartido en conversaciones sueltas",
+      "nivel": "MEDIO",
+      "descripcion": "**Cada consulta suelta arrastra la memoria de todo lo anterior** y distorsiona las respuestas siguientes. *La forma correcta es agrupar por proyecto* —uno para informes de gerencia, otro para el colegio, otro para asuntos personales—, **porque el proyecto ya guarda el contexto y el rol.** _Repetirlos en cada consulta es escribir lo mismo dos veces._",
+      "responsable": "Educación / Permanente"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "ALTO", "titulo": "Cargar el reporte de productividad del área", "descripcion": "Con lo de hoy ya hay una cifra firme: **el consolidado mensual pasó de dos horas a diez minutos.** *Eso se registra con el nombre del reporte, la frecuencia, los minutos de antes y los de ahora.*", "responsable": "Julissa Pérez Pérez", "plazo": "Inmediato"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Construir el primer agente del área", "descripcion": "**El consolidado mensual de subsidios es el candidato:** se repite cada mes, tiene fuente fija y ya está medido. _Quedan cinco días hábiles._", "responsable": "Julissa Pérez Pérez", "plazo": "Antes del 5 de octubre"},
+    {"num": "03", "nivel": "ALTO", "titulo": "Cerrar las observaciones sin acción del plan de mejoramiento", "descripcion": "**Seis observaciones sin acción y doce fórmulas de avance con error**, según el propio tablero. *Vence en noviembre y responde a la Superintendencia.*", "responsable": "Julissa Pérez Pérez", "plazo": "Antes de la S5"},
+    {"num": "04", "nivel": "MEDIO", "titulo": "Agrupar el trabajo por proyectos", "descripcion": "Un proyecto por frente —informes de gerencia, colegio, asuntos personales—, **en lugar de conversaciones sueltas.** _El contexto y el rol se escriben una vez._", "responsable": "Educación", "plazo": "Permanente"},
+    {"num": "05", "nivel": "MEDIO", "titulo": "Modelar el tablero de pruebas antes del consejo directivo", "descripcion": "Subirle el logo, ajustar colores y **agregar la diapositiva que falta.** *El enlace ya está publicado y guardado en favoritos.*", "responsable": "Óscar", "plazo": "Inmediato"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Destrabar el entorno",
+      "duracion": "~15 min",
+      "objetivo": "Que la herramienta responda antes de intentar cualquier ejercicio.",
+      "pasos": [
+        "**El dictado por voz no funcionaba** — *se había intentado varias veces sin resultado*",
+        "**La causa no estaba en la herramienta:** se compartía solo una ventana y el micrófono estaba bloqueado en el equipo. _Al compartir la pantalla completa y habilitar el micrófono, respondió de inmediato_",
+        "_Queda la advertencia:_ **si se trabaja desde un equipo distinto al habitual, el micrófono puede estar restringido ahí** — y el síntoma parece un fallo del sistema sin serlo",
+        "**Y una regla de método:** compartir *pantalla completa* y no una sola ventana. *Cuando se pasa de un entorno a otro, compartir solo una ventana hace la sesión mucho más lenta*"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Proyectos, no conversaciones sueltas",
+      "duracion": "~8 min",
+      "objetivo": "Ordenar el trabajo para que el contexto no se mezcle.",
+      "pasos": [
+        "**Cada consulta suelta arrastra la memoria de todo lo anterior** y eso distorsiona las respuestas siguientes",
+        "**La forma correcta es agrupar por proyecto**, que funciona como una carpeta: *uno para los informes de gerencia, otro para el colegio, otro para asuntos personales*",
+        "**El proyecto ya guarda el contexto y el rol.** _Volver a escribirlos en cada consulta es hacer el mismo trabajo dos veces_ — y eso baja la productividad en lugar de subirla"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El plan de mejoramiento, de Excel a tablero",
+      "duracion": "~20 min",
+      "objetivo": "Dejar de leer en Excel un plan que responde a la Superintendencia.",
+      "pasos": [
+        "**La instrucción, dictada en sesión:** un tablero HTML *dinámico, segmentado, con pestañas*, colores corporativos, logo, **KPIs con los principales hallazgos**, y gráficos de torta, barras, tendencias, **análisis de dispersión y pictograma**",
+        "**Lo que devolvió, contado por él mismo:** 23 observaciones con enunciado, **32 de 78 actividades formuladas**, 14 observaciones completas, *6 sin acción*, 7 acciones de mejora, 19 actividades con fecha y **12 fórmulas de avance con error**",
+        "**Segmentado por aspecto** —legal, fondo, financiero, administración, PDM— *y por plan*",
+        "_Y se explicó qué se estaba viendo, no solo cómo pedirlo:_ **el pictograma**, donde cada figura representa una cantidad, *y el análisis de dispersión*, que responde **qué tan lejos se está del objetivo**",
+        "**La regla que acompañó la explicación:** _«no puedes hacer algo que no puedas explicar»_ — *y si un gráfico no se entiende, se le pregunta al sistema ahí mismo*"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · El informe de pruebas Saber, de PowerPoint a tablero",
+      "duracion": "~18 min",
+      "objetivo": "Convertir una presentación ya hecha en algo que se pueda consultar en vivo.",
+      "pasos": [
+        "**Proyecto nuevo, con el método completo:** *contexto* —el informe que se presenta a la junta tras las pruebas—, *rol* —evaluador experto bajo los parámetros de la educación en Colombia, **con visión ejecutiva**—, *entrega* —un HTML— y *acción*",
+        "**Se subió la presentación que ya existía** y se pidió reconstruirla como tablero dinámico e interactivo",
+        "**Lo que salió:** comparativo **de 2020 a 2026**, un *mapa de calor del índice por área y año*, la posición de cada área por año, **el índice global como línea de referencia** y la posibilidad de activar y desactivar áreas para comparar",
+        "**Con ficha por área:** lectura crítica, matemáticas, sociales, inglés — *se cambia el área y el gráfico se rehace*. **Responde qué tan parejo avanza el colegio entre áreas**",
+        "_Y no perdió información:_ **trajo todos los datos de la presentación original y agregó los suyos**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · Publicar el tablero y dejarlo anclado",
+      "duracion": "~5 min",
+      "objetivo": "Que el avance se consulte sin necesidad de convocar una reunión.",
+      "pasos": [
+        "**Compartir → cualquiera con el enlace → publicar.** _El enlace se pega en el navegador y se guarda en la carpeta de favoritos de herramientas_",
+        "**Ese mismo enlace se comparte con quien haga falta** y *muestra siempre la última versión* — **cada ajuste que se haga después aparece solo, sin reenviarlo**",
+        "_Y ahí está el punto de fondo:_ **un tablero anclado evita tener que reunirse para mostrar avances.** *La dirección entra cuando quiere y ve el estado real*",
+        "**El modelado sigue después:** _en la misma conversación se le pide lo que falte_ — el logo, los colores, la autoría, la fecha de corte, **o una pestaña con los próximos pasos para mejorar los resultados del año siguiente**"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 4 · 28 septiembre 2026",
+      "titulo": "El primer ahorro medido de Educación",
+      "descripcion": "El consolidado mensual de subsidios de la Ley 115 **pasó de dos horas a diez minutos**, con el ejercicio corrido en sesión sobre los datos reales del mes. *Se conservaron las estructuras que debían conservarse*, se incorporó la circular que rige el reporte a la Superintendencia **y el valor consolidado cuadró.** _Es la primera cifra firme que el área puede llevar al cierre._",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Registrarlo en el reporte de productividad",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 4 · 28 septiembre 2026",
+      "titulo": "El tablero del informe de pruebas Saber",
+      "descripcion": "Siete años comparados —2020 a 2026—, **mapa de calor del índice por área y año**, el índice global como línea de referencia y fichas por área que se cambian en vivo. *Construido a partir de la presentación que ya existía, sin perder un dato.* **Publicado y anclado en favoritos**, a tiempo para el consejo directivo.",
+      "estado": "Publicado",
+      "proximo_paso": "Modelar el logo, los colores y la lámina que falta",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 4 · 28 septiembre 2026",
+      "titulo": "El plan de mejoramiento dejó de ser un Excel",
+      "descripcion": "Segmentado por aspecto y por plan, con pictograma, análisis de dispersión y KPIs. **Y al montarlo quedaron contadas las brechas que el Excel no dejaba ver:** *seis observaciones sin acción y doce fórmulas de avance con error.* _El tablero no solo presenta el plan — audita su estado._",
+      "estado": "Primera versión",
+      "proximo_paso": "Cerrar lo que quedó sin acción",
+      "target": "Antes de la S5"
+    },
+    {
+      "encabezado": "OPORTUNIDAD ABIERTA · SESIÓN 4 · 28 septiembre 2026",
+      "titulo": "Un enlace que reemplaza la reunión de avance",
+      "descripcion": "El tablero se publicó con enlace abierto y quedó guardado en favoritos. **Quien lo tenga anclado ve siempre la última versión**, sin que nadie se lo reenvíe. *En un cargo que vive convocado a reuniones para mostrar avances,* **eso devuelve horas sin quitarle visibilidad a nadie.**",
+      "estado": "Publicado",
+      "proximo_paso": "Compartirlo con quien consulta el avance",
+      "target": "Inmediato"
+    }
+  ],
+  "tareas_intro": "El área salió de la sesión con dos tableros publicados y con su primera cifra medida: un consolidado mensual que pasó de dos horas a diez minutos. Lo que falta es registrarlo donde la dirección lo ve, cerrar los vacíos que el propio tablero encontró en el plan de mejoramiento, y construir el primer agente antes del 5 de octubre.",
+  "tareas": [
+    {"tarea": "Cargar el reporte de productividad del área, empezando por el consolidado mensual", "responsable": "Julissa Pérez Pérez", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Construir el primer agente del área sobre el consolidado mensual de subsidios", "responsable": "Julissa Pérez Pérez", "prioridad": "ALTA", "plazo": "Antes del 5 de octubre"},
+    {"tarea": "Cerrar las seis observaciones sin acción y corregir las fórmulas de avance con error", "responsable": "Julissa Pérez Pérez", "prioridad": "ALTA", "plazo": "Antes de la S5"},
+    {"tarea": "Modelar el tablero de pruebas: logo, colores y la lámina que falta", "responsable": "Óscar", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Compartir el enlace del tablero con quien consulta el avance del colegio", "responsable": "Óscar", "prioridad": "MEDIA", "plazo": "Inmediato"},
+    {"tarea": "Reorganizar el trabajo en proyectos, uno por frente", "responsable": "Educación", "prioridad": "MEDIA", "plazo": "Permanente"},
+    {"tarea": "Mapear los ejercicios del día a día del puesto, para llevarlos al cierre", "responsable": "Julissa Pérez Pérez", "prioridad": "ALTA", "plazo": "Antes del 5 de octubre"}
+  ],
+  "observaciones": [
+    "**Los primeros quince minutos se fueron en destrabar el entorno, y vale dejarlo escrito porque le pasa a más áreas.** El dictado por voz no respondía. _La causa no estaba en la herramienta:_ **se compartía una sola ventana y el micrófono estaba bloqueado en el equipo.** *Al compartir la pantalla completa y habilitar el micrófono, funcionó de inmediato.*",
+    "_La advertencia práctica:_ **si se trabaja desde un equipo distinto al habitual, el micrófono puede estar restringido ahí.** *El síntoma parece una falla del sistema y no lo es.*",
+    "**Se ordenó algo de fondo: el trabajo venía repartido en conversaciones sueltas.** _Cada consulta suelta arrastra la memoria de todo lo anterior_ y distorsiona lo que viene después. **La forma correcta es agrupar por proyecto**, que funciona como una carpeta — *y el proyecto ya guarda el contexto y el rol, así que repetirlos en cada consulta es hacer el mismo trabajo dos veces.*",
+    "**El plan de mejoramiento dejó de ser un Excel y pasó a ser un tablero**, segmentado por aspecto y por plan, con pictograma, análisis de dispersión y KPIs. _Y se explicó qué se estaba viendo, no solo cómo pedirlo:_ **el pictograma**, donde cada figura representa una cantidad, y **el análisis de dispersión**, que responde qué tan lejos se está del objetivo.",
+    "_La regla que acompañó esa explicación es la misma que viene apareciendo en todo el programa:_ **«no puedes hacer algo que no puedas explicar».** *Y si un gráfico no se entiende, se le pregunta al sistema ahí mismo, en la misma conversación.*",
+    "**Y al montarlo quedaron contadas unas brechas que el Excel no dejaba ver.** El propio tablero reportó **32 de 78 actividades formuladas, seis observaciones sin acción y doce fórmulas de avance con error.** _Nadie se las pidió: salieron de leer el archivo._ **El plan responde a la Superintendencia de Subsidio Familiar y vence en noviembre**, así que esas cifras son trabajo por hacer, no estadística.",
+    "**El informe de las pruebas Saber se reconstruyó a partir de la presentación que ya existía**, sin perder un dato y agregando lo que la presentación no tenía: *comparativo de 2020 a 2026, mapa de calor del índice por área y año, el índice global como línea de referencia*, y **fichas por área —lectura crítica, matemáticas, sociales, inglés— que se cambian en vivo.**",
+    "_Lo que responde ese tablero es una pregunta que una presentación estática no puede responder:_ **qué tan parejo avanza el colegio entre áreas.**",
+    "**Y se dejó publicado con enlace abierto y guardado en favoritos.** *Quien lo tenga anclado ve siempre la última versión, sin que nadie se lo reenvíe.* **Eso significa que el avance se consulta sin convocar una reunión** — y el modelado sigue después, en la misma conversación, pidiéndole el logo, los colores, la autoría o una pestaña con los próximos pasos del año siguiente.",
+    "**El hallazgo que hay que subrayar de esta sesión es una cifra.** El consolidado mensual de subsidios de la Ley 115 **pasó de dos horas a diez minutos**, corrido sobre los datos reales del mes. *Se conservaron las estructuras que debían conservarse*, se incorporó la circular que rige el reporte **y el valor consolidado cuadró.** _Es la primera cifra firme de Educación._",
+    "**Queda un punto de infraestructura que no es del área resolver sola.** Los archivos del puesto se mueven en un disco duro asignado, porque el trabajo se reparte entre el colegio, la oficina y la casa. _El sistema solo puede leer lo que esté donde él alcanza_ — **con la información en un repositorio en la nube, el mismo circuito funciona desde cualquier dispositivo.**",
+    "**Y queda lo más urgente: el área todavía no tiene un agente.** _Los tableros son proyectos asistidos: alguien los pide y alguien los modela._ **Un agente corre el circuito solo.** *El consolidado mensual es el candidato natural* — se repite cada mes, tiene fuente fija y **ya tiene su ahorro medido.** _Quedan cinco días hábiles._"
+  ],
+  "proxima_sesion": {
+    "sesion": "Educación — Sesión 5",
+    "condiciones": [
+      "El reporte de productividad del área cargado",
+      "Los ejercicios del día a día mapeados",
+      "El tablero de pruebas modelado y compartido",
+      "Las observaciones sin acción del plan, cerradas"
+    ],
+    "agenda": [
+      "Construcción del primer agente del área",
+      "El circuito completo del consolidado mensual",
+      "Revisión de los dos tableros publicados",
+      "Cierre y medición de los ejercicios del área"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 28 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
