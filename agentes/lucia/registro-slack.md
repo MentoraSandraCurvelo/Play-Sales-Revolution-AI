@@ -1425,3 +1425,20 @@ programa en **S5**, no en S6. *El título del calendario dice «Sesion 6» y hay
 **El registro interno sube a 22 y las caídas del área a 20.** _El tablero del cliente sigue en 18
 porque está cortado al 25 de septiembre;_ pasa a 20 cuando se mueva el corte mañana por la mañana,
 antes de la reunión con María Elvira.
+
+### Corrección — Sub. Operativa S5 sí tuvo aviso
+
+**El mensaje de las 11:10 dijo «no hubo aviso» y eso era falso.** Jonnathan Armenta
+(`innovacion@`) había escrito **en el canal a las 10:49 a. m.**, once minutos antes de la sesión,
+avisando que por temas de la oficina no podían asistir. *No se leyó el canal antes de publicar.*
+
+**Se corrigió en el mismo canal** (`1790710702.974079`): se reconoció el error, se reclasificó la
+sesión como **cancelación del área, avisada**, y se invitó a tomar un espacio más antes del 5.
+_Corregir a la vista de todos es mejor que dejar el error puesto._
+
+**REGLA QUE QUEDA — leer el canal del área antes de publicar una inasistencia.** No basta con
+mirar quién está en la sala: *el aviso puede estar en el canal y llegar antes de la hora.* Esto
+aplica a todo aviso de inasistencia, sin excepción.
+
+*Efecto en las cifras:* el registro sigue en **22** y las caídas del área en **20**. Lo que cambia
+es la causa — **8 inasistencias y 7 cancelaciones del área**, no 9 y 6.

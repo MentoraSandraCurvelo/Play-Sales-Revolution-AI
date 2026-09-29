@@ -324,14 +324,14 @@
       "fecha": "2026-09-29",
       "hora": "11:00",
       "canal": "#sub-operativa",
-      "quien_cancela": "—",
-      "motivo": "No ingresó nadie a la sala y no hubo aviso. Sandra esperó y salió a las 11:10.",
-      "causa": "inasistencia — no ingresó a la sala",
-      "aviso_en_canal": "https://iamteamespacio.slack.com/archives/C0BPYQFRYP6/p1790698245199669",
+      "quien_cancela": "Jonnathan Johan Armenta — innovacion@",
+      "motivo": "El área avisó a las 10:49 a. m. en el canal que no podía asistir por temas de la oficina.",
+      "causa": "cancelación del área",
+      "aviso_en_canal": "https://iamteamespacio.slack.com/archives/C0BPYQFRYP6/p1790710702974079",
       "reagendada": false,
       "compromiso": "El número no avanza: la sesión del jueves 1 a las 3:00 p. m. pasa a ser la S5 y el área cierra el programa en S5.",
       "cuenta_como": "no realizada",
-      "nota": "**Primera inasistencia del área en todo el programa.** _Venía de cuatro sesiones sin faltar._ *Se publicaron dos mensajes en el canal:* el aviso de espera a las 11:05 y el de cierre a las 11:10, **los dos dirigidos al área y sin nombrar a ninguna de las dos personas invitadas.**"
+      "nota": "**Primera caída del área en todo el programa.** _Venía de cuatro sesiones sin faltar._ *Corrección importante:* **se publicó primero como inasistencia sin aviso y eso era falso.** El aviso había llegado al canal **a las 10:49 a. m., once minutos antes de la sesión**, y no se vio a tiempo. **Se corrigió en el mismo canal**, reconociendo el error y reclasificando la sesión como cancelación del área con aviso. _Regla que queda:_ **antes de publicar una inasistencia hay que leer el canal del área**, no solo la sala de la reunión."
     }
   ],
   "patron": {

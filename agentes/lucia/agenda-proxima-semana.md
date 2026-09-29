@@ -18,7 +18,7 @@ no del título del evento. *Cuando una sesión no se hace, el número no avanza.
 | Lun 28 | 3:00 p. m. | Sub. Admin. y Financiera | Rafael · `requerimientoscontratos@` | **S11** | `⭕️Comfacesar \| Sub. Financiera \| Sesion 11 \| ✔ corregido |
 | Lun 28 | 4:00 p. m. | Educación | `rectoriacolegio@` · `auxiliareducacion@` | **S4** | ✔ ya está · *sobra «Rafael» al final* |
 | Mar 29 | 10:00 a. m. | Servicios Sociales | `pro_juniorss@` | **S10** | ✔ ya está |
-| ~~Mar 29~~ | ~~11:00 a. m.~~ | **Sub. Operativa y Comercial** | — | **CAÍDA** | *Nadie ingresó a la sala, sin aviso* |
+| ~~Mar 29~~ | ~~11:00 a. m.~~ | **Sub. Operativa y Comercial** | — | **CAÍDA** | *Cancelada por el área, avisada a las 10:49* |
 | Mar 29 | 2:00 p. m. | Agencia de Empleo | `agenciaempleo@` · `fomentoempresarial@` | **S7** | `⭕️Comfacesar \| Empleo \| Sesion 7 \| ✔ corregido |
 | Mar 29 | 3:00 p. m. | Subsidio | `atencion_reclamos@` | **S7** | ✔ ya está |
 | Mar 29 | 4:00 p. m. | Comunicaciones | el grupo completo | **S10** | `⭕️Comfacesar \| Comunicaciones \| Sesion 10 \| ✔ corregido |
