@@ -1410,3 +1410,18 @@ dirigido al área y sin nombrar a ninguna de las dos personas invitadas.
 *Nota de interpretación:* Sandra escribió «son las 5». **Se leyó como cinco pasadas de la hora, no
 como las 5 de la tarde** — se verificó contra el calendario antes de enviar, porque hoy no hay
 ninguna sesión a las 5:00 p. m. y la de las 11:00 es Sub. Operativa S5.
+
+**Martes 29, 11:10 — Sub. Operativa S5 se cayó.** *Nadie ingresó a la sala y no hubo aviso.*
+Sandra esperó cinco minutos y salió. Mensaje de cierre en `#sub-operativa`:
+`1790698245.199669`, dirigido al área y sin nombrar a ninguna de las dos personas invitadas.
+
+**Es la primera inasistencia del área en todo el programa** — venía de cuatro sesiones sin faltar.
+*Y es la novena inasistencia sin aviso del proyecto,* no la quinta: **se corrigió la cifra que
+había dicho Lucía en el chat.**
+
+**El número no avanza:** la del jueves 1 a las 3:00 p. m. pasa a ser **S5** y el área cierra el
+programa en **S5**, no en S6. *El título del calendario dice «Sesion 6» y hay que corregirlo.*
+
+**El registro interno sube a 22 y las caídas del área a 20.** _El tablero del cliente sigue en 18
+porque está cortado al 25 de septiembre;_ pasa a 20 cuando se mueva el corte mañana por la mañana,
+antes de la reunión con María Elvira.

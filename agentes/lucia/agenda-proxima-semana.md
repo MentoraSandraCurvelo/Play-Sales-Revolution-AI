@@ -2,7 +2,7 @@
 
 > **Es la semana de cierre.** El 3 cae sábado, así que el último día es el **lunes 5 de octubre**.
 
-**25 sesiones de IAM™ Intelligence.** *Eran 26; Jurídica canceló la del lunes 28 a las 11:00.*
+**24 sesiones de IAM™ Intelligence.** *Eran 26: cayeron Jurídica el lunes 28 y Sub. Operativa el martes 29.*
 Entraron tres más ese mismo día: dos de Subsidio con Avelino y una de Comunicaciones con Vidiana.
 
 **Punto de partida.** Cada número sale de lo que el área lleva hecho al cerrar el viernes 25,
@@ -18,7 +18,7 @@ no del título del evento. *Cuando una sesión no se hace, el número no avanza.
 | Lun 28 | 3:00 p. m. | Sub. Admin. y Financiera | Rafael · `requerimientoscontratos@` | **S11** | `⭕️Comfacesar \| Sub. Financiera \| Sesion 11 \| ✔ corregido |
 | Lun 28 | 4:00 p. m. | Educación | `rectoriacolegio@` · `auxiliareducacion@` | **S4** | ✔ ya está · *sobra «Rafael» al final* |
 | Mar 29 | 10:00 a. m. | Servicios Sociales | `pro_juniorss@` | **S10** | ✔ ya está |
-| Mar 29 | 11:00 a. m. | Sub. Operativa y Comercial | `asistentesuboperativa@` · `innovacion@` | **S5** | ✔ ya está |
+| ~~Mar 29~~ | ~~11:00 a. m.~~ | **Sub. Operativa y Comercial** | — | **CAÍDA** | *Nadie ingresó a la sala, sin aviso* |
 | Mar 29 | 2:00 p. m. | Agencia de Empleo | `agenciaempleo@` · `fomentoempresarial@` | **S7** | `⭕️Comfacesar \| Empleo \| Sesion 7 \| ✔ corregido |
 | Mar 29 | 3:00 p. m. | Subsidio | `atencion_reclamos@` | **S7** | ✔ ya está |
 | Mar 29 | 4:00 p. m. | Comunicaciones | el grupo completo | **S10** | `⭕️Comfacesar \| Comunicaciones \| Sesion 10 \| ✔ corregido |
@@ -30,7 +30,7 @@ no del título del evento. *Cuando una sesión no se hace, el número no avanza.
 | Jue 1 oct | 10:00 a. m. | Subsidio | `coordinacionsubsidioyaportes@` | **S9** | ✔ ya está |
 | Jue 1 oct | 11:00 a. m. | Servicios Sociales | `pro_juniorss@` · `serviciossociales@` | **S11** | ✔ ya está |
 | Jue 1 oct | 2:00 p. m. | Comunicaciones | César Reyes · `diseno@` | **S12** | `⭕️Comfacesar \| Comunicaciones \| Sesion 12 \| ✔ corregido |
-| Jue 1 oct | 3:00 p. m. | Sub. Operativa y Comercial | `asistentesuboperativa@` · `innovacion@` | **S6** | ✔ ya está |
+| Jue 1 oct | 3:00 p. m. | Sub. Operativa y Comercial | `asistentesuboperativa@` · `innovacion@` | **S5** | ⚠️ dice *Sesion 6* · debe decir **Sesion 5** |
 | Vie 2 oct | 9:00 a. m. | Tecnología | `auxiliar_gt@` | **S7** | ✔ ya está |
 | Vie 2 oct | 11:00 a. m. | Contabilidad | Carlos Lozano · `asistentecontabilidad@` | **S9** | `⭕️Comfacesar \| Contabilidad \| Sesion 9 \| ✔ corregido |
 | Vie 2 oct | 3:00 p. m. | Subsidio | Avelino · `liquidacionsubsidio@` | **S10** | `⭕️Comfacesar \| Subsidio \| Sesion 10 \| ✔ corregido |
@@ -88,7 +88,7 @@ programa y esos títulos los ven las áreas.*
 | Contabilidad | S8 | S9 | **S9** |
 | Tecnología | S6 | S7, S8 | **S8** |
 | Agencia de Empleo | S6 | S7 | **S7** |
-| Sub. Operativa | S4 | S5, S6 | **S6** |
+| Sub. Operativa | S4 | ~~S5 del martes~~ · S5 | **S5** |
 | IPS | S4 | S5 | **S5** |
 | Mercadeo | S5 | *sin sesiones* | **S5** |
 | Educación | S3 | S4 | **S4** |

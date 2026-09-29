@@ -317,6 +317,21 @@
       "compromiso": "Jurídica conserva sus sesiones del miércoles 30 y del jueves 1. El número no avanza: esas pasan a ser S12 y S13, y el área cierra el programa en S13.",
       "cuenta_como": "no realizada",
       "nota": "**Primera caída de Jurídica en todo el programa.** _Venía de once sesiones sin faltar_ y es una de las áreas que presenta el 16 de octubre. **La hora no se perdió:** Sandra la reasignó a Subsidio, que corrió su sesión de las 10:00 durante dos horas. *Efecto en la numeración:* Jurídica termina en **S13**, no en S14."
+    },
+    {
+      "area": "Sub. Operativa y Comercial",
+      "sesion": "S5",
+      "fecha": "2026-09-29",
+      "hora": "11:00",
+      "canal": "#sub-operativa",
+      "quien_cancela": "—",
+      "motivo": "No ingresó nadie a la sala y no hubo aviso. Sandra esperó y salió a las 11:10.",
+      "causa": "inasistencia — no ingresó a la sala",
+      "aviso_en_canal": "https://iamteamespacio.slack.com/archives/C0BPYQFRYP6/p1790698245199669",
+      "reagendada": false,
+      "compromiso": "El número no avanza: la sesión del jueves 1 a las 3:00 p. m. pasa a ser la S5 y el área cierra el programa en S5.",
+      "cuenta_como": "no realizada",
+      "nota": "**Primera inasistencia del área en todo el programa.** _Venía de cuatro sesiones sin faltar._ *Se publicaron dos mensajes en el canal:* el aviso de espera a las 11:05 y el de cierre a las 11:10, **los dos dirigidos al área y sin nombrar a ninguna de las dos personas invitadas.**"
     }
   ],
   "patron": {
