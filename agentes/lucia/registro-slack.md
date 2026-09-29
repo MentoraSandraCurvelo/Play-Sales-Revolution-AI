@@ -1362,3 +1362,12 @@ la agenda de la semana.** Si entran, Subsidio pasa de 7 a 9 sesiones y toda su n
 **Criterio aplicado al resumen del canal.** El acta recoge tal cual los dos problemas de base —la aplicación abierta con una cuenta que no era la del puesto, y un prompt traído de otra herramienta que no se pudo explicar—. *En el canal eso salió como regla de método para todo el equipo, no como señalamiento*, porque `#subsidio` lo leen las cuatro personas del área. **Misma regla de Comunicaciones S9.**
 
 *Sigue faltando:* **Educación S4 del lunes 4:00 p. m.** — ni enlace ni carpeta. Es el tercer intento después de dos inasistencias, el 22 y el 23.
+
+**Educación S4 sí se hizo el lunes 28**, al tercer intento. Grabación publicada el martes:
+`1790692724.260599` en `#educacion`. *Las dos caídas del 22 y del 23 quedan como están en el
+registro* — fueron inasistencias reales y la sesión se recuperó el lunes.
+
+**Con esto el lunes 28 queda completo:** cuatro sesiones hechas —Subsidio S5, Subsidio S6,
+Sub. Financiera S11 y Educación S4— y **una caída, Jurídica S12.**
+
+*Faltan los VTT de Sub. Financiera S11 y de Educación S4 para sacar esas dos actas.*
