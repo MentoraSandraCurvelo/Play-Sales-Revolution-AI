@@ -15,6 +15,37 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 💵 30 sep · 9:45 a. m. · Los tres perfiles, arriba en los KPIs
+
+**Nada publicado en Slack.** **KPIs v2.**
+
+**El perfil que faltaba se llama «Gerente o jefe»**, $62.862 la hora — *es el intermedio de las tres
+tarifas de costo hora de Comfacesar.*
+
+**Ahora la primera pantalla del tablero tiene dos filas.** Arriba el volumen —111,1 h, 13,9 días,
+2,8 personas a tiempo completo, $4,04 M por semana—, y debajo **la recuperación a doce meses en los
+tres perfiles**, cada uno con su tarifa a la vista:
+
+| Perfil | Costo hora | A 12 meses |
+|---|---|---|
+| Profesional | $36.351 | **$210,0 M** |
+| **Gerente o jefe** | $62.862 | **$363,2 M** |
+| Directivo | $95.941 | **$554,3 M** |
+
+**Y una gráfica de barras con los tres**, para que se vea de un golpe que *son las mismas 111,1
+horas y lo único que cambia es a qué costo se valoran.*
+
+**Lo que el tablero sigue diciendo y no cambia:** publica la cifra de profesional porque **es el
+piso verificable**, no porque sea la real. *Parte de las tareas medidas las hace una jefatura* —el
+seguimiento a los asistentes jurídicos y el Informe Alta Gerencia—, así que **asignando a cada tarea
+su perfil verdadero la cifra sube; nunca baja.**
+
+*Una nota de método que ya estaba y ahora se sostiene sola:* **también la proyección a 18 áreas
+tiene sus tres precios**, y a perfil directivo pasa de mil millones. **Eso no se lleva como cifra
+central** — se lleva como techo, con el piso al lado.
+
+---
+
 ## 📊 30 sep · 9:30 a. m. · Nace el tablero de KPIs
 
 **Nada publicado en Slack.** Tablero nuevo, pedido por Sandra: **https://claude.ai/artifact/MhJTwMjwSshsUMYy1gQteg** · **privado**, enlazado desde la Mesa (**v42** y **v14**).
