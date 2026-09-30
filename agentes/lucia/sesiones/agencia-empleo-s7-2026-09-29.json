@@ -1,0 +1,207 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "AGENCIA DE EMPLEO",
+  "area_completa": "",
+  "sesion_num": 7,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "29 de septiembre de 2026",
+  "fecha_corta": "29 septiembre 2026",
+  "subtitulo_meta": "Lina María Rincón y José Jaime Maya · 29 de septiembre de 2026 · 2:00 p. m. · 48 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Agencia de Empleo — Comfacesar"],
+    ["Sesión", "N° 7 — El agente de recobro que desapareció y el circuito de investigación"],
+    ["Fecha", "29 de septiembre de 2026"],
+    ["Duración de la sesión", "48 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Lina María Rincón y José Jaime Maya — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "1", "etiqueta": "Agente que hay que reconstruir", "detalle": "El de recobro — el que está en el corte"},
+    {"valor": "3", "etiqueta": "Proyectos registrados del área", "detalle": "Para el volumen de procesos que maneja"},
+    {"valor": "2 a 5 h", "etiqueta": "Ahorro que reporta el área", "detalle": "Por debajo de lo que realmente construyó"},
+    {"valor": "2", "etiqueta": "Cupos del área sin usar", "detalle": "Entraron al programa y nunca agendaron"},
+    {"valor": "300", "etiqueta": "Documentos a la vez en el cuaderno", "detalle": "Sirve para análisis masivo de hojas de vida"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Lina María Rincón", "cargo": "Agencia de Empleo — Comfacesar", "correo": "agenciaempleo@comfacesar.com", "modalidad": "Virtual", "nivel": "Avanzado"},
+    {"nombre": "José Jaime Maya", "cargo": "Fomento Empresarial — Comfacesar", "correo": "fomentoempresarial@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 7. El área tiene más construido de lo que aparece registrado, y el agente más importante no se encontró en la sesión. Eso es lo que hay que resolver antes del cierre.",
+  "riesgos": [
+    {
+      "titulo": "El agente de recobro no aparece en el entorno",
+      "nivel": "CRÍTICO",
+      "descripcion": "**Se buscó desde el computador y desde el celular y no está.** *El único agente que aparece es el de envío de correos.* **Es el agente que figura en el corte del programa como el circuito principal del área** — el que debía dejar el recobro de subsidio al desempleo corriendo solo. _No se recupera:_ **hay que crearlo de nuevo, volver a subirle la documentación y rehacerlo desde cero.**",
+      "responsable": "Lina María Rincón / Antes del 5 de octubre"
+    },
+    {
+      "titulo": "El área tiene mucho más construido de lo que aparece registrado",
+      "nivel": "ALTO",
+      "descripcion": "**En el entorno se ven tres proyectos y un agente**, *para el volumen de procesos que maneja el área.* **Y hay trabajo hecho que no está en ninguna parte** — el ejemplo de esta sesión: los acuerdos de implementación generados a partir de las carpetas de las empresas. _Lo que no se registra no existe para el tablero_, **y el área aparece reportando entre dos y cinco horas recuperadas, muy por debajo de lo real.**",
+      "responsable": "Lina María Rincón / Inmediato"
+    },
+    {
+      "titulo": "El volumen de información de recobro es el cuello de botella",
+      "nivel": "ALTO",
+      "descripcion": "*El área lo explicó bien:* **la información de recobros es tan grande que primero hay que consolidarla y depurarla** antes de ponerla a correr, *para no provocar un retroceso.* **Es un criterio correcto** — pero consume el tiempo que queda. _La salida es acotar:_ **montar el circuito sobre una parte limpia y demostrable, no sobre todo el histórico.**",
+      "responsable": "Lina María Rincón / Antes del 5 de octubre"
+    },
+    {
+      "titulo": "Dos cupos del área entraron al programa y nunca se usaron",
+      "nivel": "MEDIO",
+      "descripcion": "**Dos personas quedaron vinculadas al programa por el área** —orientación laboral y recobro de subsidio al desempleo— *y nunca agendaron ni se pusieron en contacto.* **Son dos cupos de mentoría que se perdieron enteros**, y el área no supo que le correspondía activarlos. _Queda anotado para que no se repita si hay segunda fase._",
+      "responsable": "Agencia de Empleo / Cerrado"
+    },
+    {
+      "titulo": "La conversación de trabajo sigue en mensajería informal",
+      "nivel": "MEDIO",
+      "descripcion": "**Lo que se habla por mensajería no deja trazabilidad y un agente no lo puede leer.** _La recomendación fue concreta:_ **crear el canal interno del área** y llevar ahí lo que hoy se conversa por WhatsApp. *Ahí los archivos quedan a la mano, las reuniones se pueden hacer dentro y un agente puede levantar la minuta y disparar los compromisos por correo.*",
+      "responsable": "Agencia de Empleo / Permanente"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "CRÍTICO", "titulo": "Reconstruir el agente de recobro", "descripcion": "**Crearlo de nuevo, subirle la documentación y dejarlo corriendo.** *Es el circuito que el área tiene comprometido en el corte del programa,* y quedan cuatro días.", "responsable": "Lina María Rincón", "plazo": "Antes del 5 de octubre"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Registrar todo lo construido en el reporte del área", "descripcion": "**Los recobros, los acuerdos de implementación y todo lo que se ha adaptado por el camino.** _Ese reporte es el que se convierte en el retorno que ve la dirección_ — hoy el área aparece muy por debajo de lo que hizo.", "responsable": "Lina María Rincón", "plazo": "Inmediato"},
+    {"num": "03", "nivel": "ALTO", "titulo": "Acotar el alcance del recobro para que alcance", "descripcion": "Montar el circuito sobre **una parte consolidada y demostrable**, no sobre todo el histórico. *Mejor un tramo funcionando que todo a medio camino.*", "responsable": "Lina María Rincón", "plazo": "Antes del 5 de octubre"},
+    {"num": "04", "nivel": "MEDIO", "titulo": "Construir la revista del observatorio", "descripcion": "Con los indicadores del área —colocados, vacantes, empresas—. **La recomendación es armarla en el entorno de diseño**; *si la documentación es mucha, probar el cuaderno y comparar.*", "responsable": "Lina María Rincón", "plazo": "Antes del 5 de octubre"},
+    {"num": "05", "nivel": "MEDIO", "titulo": "Crear el canal interno del área", "descripcion": "Y llevar ahí lo que hoy se conversa por mensajería. **Queda trazabilidad y los agentes pueden trabajar dentro.**", "responsable": "Agencia de Empleo", "plazo": "Permanente"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El agente que no estaba",
+      "duracion": "~12 min",
+      "objetivo": "Verificar el estado real del circuito principal del área.",
+      "pasos": [
+        "**Se buscó el agente de recobro en el entorno agéntico y no apareció** — *ni desde el computador ni desde el celular.* **El único que figura es el de envío de correos**",
+        "**No se borra solo.** _Se revisó la conversación completa, se le preguntó al propio sistema por él y no hay rastro_",
+        "**La consecuencia es clara:** hay que **crearlo de nuevo, volver a subirle la documentación y rehacer el modelado** — *el área ya sabe cómo, pero es tiempo que no estaba presupuestado*",
+        "_Y hay que decir por qué importa:_ **es el agente que el programa tiene anunciado como el circuito principal del área**, el que deja el recobro corriendo solo para que la persona encargada solo mire el tablero"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Lo que el área hizo y no registró",
+      "duracion": "~8 min",
+      "objetivo": "Sacar a la luz el trabajo que no aparece en ninguna parte.",
+      "pasos": [
+        "**El caso concreto:** para un programa nuevo había que hacer un *acuerdo de implementación por empresa.* **Antes se hacía uno por uno**, cambiando a mano el nombre de la empresa y el del representante legal",
+        "**Lo que se hizo:** se le entregaron las carpetas comprimidas *y generó el archivo de cada empresa*, con sus datos",
+        "**Eso no está registrado.** _Como tampoco el de recobros._ *Son las que el área llama «actividades extra»* — **pero son exactamente lo que el reporte del programa mide**",
+        "_El efecto visible:_ **el área aparece reportando entre dos y cinco horas recuperadas**, y eso *no corresponde a lo que realmente construyó*"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El circuito de investigación, de punta a punta",
+      "duracion": "~20 min",
+      "objetivo": "Montar el camino que lleva de una pregunta a un documento presentable.",
+      "pasos": [
+        "**Paso uno — investigación profunda.** Se escribe el encargo completo y *el sistema parafrasea lo que entendió antes de arrancar*: **si la lectura es correcta se aprueba, si no se corrige.** _Ese paso evita trabajar horas sobre un encargo mal entendido_",
+        "**Paso dos — el documento.** Devuelve un informe extenso, con análisis competitivo, proyección y recomendaciones. *Se exporta y se descarga en PDF para seguir trabajándolo*",
+        "**Paso tres — la infografía.** Del documento largo sale *un resumen visual.* **Pero es una fotografía: no se puede interrogar**",
+        "**Paso cuatro, y es el que cambia una reunión — el tablero dinámico.** Con los datos principales del informe, **se puede interactuar en vivo delante de quien decide:** _quitar un competidor, pedir otra comparativa, abrir un análisis que no estaba previsto._ *Si alguien cuestiona un dato, se resuelve en el momento*",
+        "**Paso cinco — el cuaderno.** El mismo PDF se sube ahí y de él salen **mapa mental, presentación, infografías, tarjetas de estudio, un video explicativo y hasta un audio conversado** que se puede escuchar camino a la reunión. _Admite hasta trescientos documentos a la vez y solo lee PDF, URL y multimedia_"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · La revista del observatorio",
+      "duracion": "~5 min",
+      "objetivo": "Convertir los indicadores del área en una pieza presentable fuera de la Caja.",
+      "pasos": [
+        "**Lo que el área quiere sacar:** una publicación con la información del **observatorio económico del mercado laboral** — *indicadores de colocados, de vacantes y de empresas*",
+        "**Para quién:** no es un documento interno. **Es para presentarlo ante la Cámara de Comercio y ante los gremios**",
+        "**Cómo se pide:** en el entorno de diseño, *cargando los insumos y describiendo el resultado.* **Se le puede dar una revista de referencia** —una que ya guste— y la construye con ese lenguaje visual",
+        "_La recomendación:_ **armarla en el entorno de diseño**, que permite editarla ahí mismo; *y si la documentación es mucha, probar el cuaderno y comparar los dos resultados*"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · Sacar la conversación de la mensajería",
+      "duracion": "~7 min",
+      "objetivo": "Poner el trabajo del área donde un agente lo pueda leer.",
+      "pasos": [
+        "**Crear el canal interno del área**, invitar al equipo por correo y llevar ahí lo que hoy se habla por mensajería",
+        "**Lo que se gana:** *trazabilidad de todo*, las carpetas y los accesos a la mano, y **reuniones dentro del mismo canal** — con cámara, pantalla compartida y llamada",
+        "**Y lo que lo hace distinto:** *un agente puede trabajar ahí dentro.* **Descarga los archivos que se compartan, levanta la minuta de la reunión y dispara los compromisos por correo**",
+        "_Regla que se repitió, y aplica a todos los agentes del área:_ **cada vez que se crea uno, pedirle su tablero de reporte** — *para ver qué va ejecutando sin tener que preguntarle*"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE RESOLVER · SESIÓN 7 · 29 septiembre 2026",
+      "titulo": "El agente de recobro hay que rehacerlo, y quedan cuatro días",
+      "descripcion": "**No está en el entorno.** *Es el circuito que el programa tiene anunciado como el principal del área* — el que deja el recobro de subsidio al desempleo corriendo solo. _El área sabe cómo construirlo; lo que no hay es tiempo de sobra._ **La salida es acotarlo: montarlo sobre una parte consolidada de la información y dejarlo funcionando, en lugar de intentar todo el histórico.**",
+      "estado": "Por reconstruir",
+      "proximo_paso": "Crearlo de nuevo con alcance acotado",
+      "target": "Antes del 5 de octubre"
+    },
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 7 · 29 septiembre 2026",
+      "titulo": "Los acuerdos de implementación, uno por empresa",
+      "descripcion": "Se entregaron las carpetas comprimidas y **generó el acuerdo de cada empresa con sus datos** — representante legal incluido. *Antes se hacía uno por uno, cambiando los nombres a mano.* **Y no está registrado en ninguna parte:** es trabajo real que hoy no cuenta para el área.",
+      "estado": "Funcionando, sin registrar",
+      "proximo_paso": "Cargarlo en el reporte del área",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "OPORTUNIDAD ABIERTA · SESIÓN 7 · 29 septiembre 2026",
+      "titulo": "La revista del observatorio, para afuera",
+      "descripcion": "Los indicadores del mercado laboral que el área ya tiene —colocados, vacantes, empresas— **convertidos en una publicación presentable ante la Cámara de Comercio y los gremios.** *No es un informe interno más:* **es el área hablándole a su entorno con datos propios**, y eso cambia con quién se sienta a negociar.",
+      "estado": "Pedido por el área",
+      "proximo_paso": "Armarla con los insumos del observatorio",
+      "target": "Antes del 5 de octubre"
+    },
+    {
+      "encabezado": "OPORTUNIDAD ABIERTA · SESIÓN 7 · 29 septiembre 2026",
+      "titulo": "Trescientos documentos a la vez",
+      "descripcion": "El cuaderno admite **hasta trescientos documentos en simultáneo** para interrogarlos como un solo cuerpo. *Para una agencia de empleo eso tiene un uso evidente:* **análisis masivo de hojas de vida contra una vacante** — que es justo el proceso que el área ya midió, de 22 minutos a 2.",
+      "estado": "Identificado en sesión",
+      "proximo_paso": "Probarlo sobre un lote real de hojas de vida",
+      "target": "Segunda fase"
+    }
+  ],
+  "tareas_intro": "El área tiene más construido de lo que aparece, y el agente que el programa tiene comprometido no está en el entorno. Lo que queda de aquí al cierre es reconstruirlo con un alcance que quepa en cuatro días, y registrar todo lo que ya se hizo para que cuente.",
+  "tareas": [
+    {"tarea": "Reconstruir el agente de recobro desde cero, con alcance acotado", "responsable": "Lina María Rincón", "prioridad": "ALTA", "plazo": "Antes del 5 de octubre"},
+    {"tarea": "Registrar en el reporte del área los recobros y los acuerdos de implementación", "responsable": "Lina María Rincón", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Consolidar la parte de la información de recobro sobre la que va a correr el circuito", "responsable": "Lina María Rincón", "prioridad": "ALTA", "plazo": "Antes del 5 de octubre"},
+    {"tarea": "Pedirle al agente su tablero de reporte al terminar de modelarlo", "responsable": "Lina María Rincón", "prioridad": "ALTA", "plazo": "Antes del 5 de octubre"},
+    {"tarea": "Armar la revista del observatorio con los indicadores del mercado laboral", "responsable": "Lina María Rincón", "prioridad": "MEDIA", "plazo": "Antes del 5 de octubre"},
+    {"tarea": "Crear el canal interno del área y llevar ahí la conversación de trabajo", "responsable": "Agencia de Empleo", "prioridad": "MEDIA", "plazo": "Permanente"},
+    {"tarea": "Probar el cuaderno sobre un lote real de hojas de vida", "responsable": "José Jaime Maya", "prioridad": "BAJA", "plazo": "Segunda fase"}
+  ],
+  "observaciones": [
+    "**La sesión empezó con un hallazgo que hay que poner primero: el agente de recobro no está.** _Se buscó desde el computador y desde el celular_ y el único que aparece en el entorno es el de envío de correos. **No se borra solo, y se le preguntó al propio sistema por él sin encontrar rastro.**",
+    "**Importa porque no es cualquier agente.** *Es el circuito que el programa tiene anunciado como el principal del área* — el que deja el recobro de subsidio al desempleo corriendo solo, para que la persona encargada se desentienda del cuadro y solo mire el tablero.",
+    "**Hay que rehacerlo, y quedan cuatro días.** _El área ya sabe construirlo_, así que el problema no es de conocimiento. **La salida práctica es acotar el alcance:** montarlo sobre una parte consolidada de la información *y dejarlo funcionando, en lugar de intentar todo el histórico y no terminar ninguno.*",
+    "_Y el criterio que el área venía aplicando es correcto, conviene decirlo:_ **la información de recobros es tan grande que primero hay que consolidarla y depurarla**, para no provocar un retroceso. *El problema no es el criterio — es que el tiempo se acabó.*",
+    "**El segundo hallazgo es que el área hizo bastante más de lo que aparece registrado.** _El ejemplo salió en la misma sesión:_ para un programa nuevo había que hacer **un acuerdo de implementación por empresa**, y antes se hacía uno por uno cambiando los nombres a mano. **Se entregaron las carpetas comprimidas y generó el acuerdo de cada empresa, con su representante legal.**",
+    "**Eso no está en el reporte. Ni los recobros.** *El área los llama «actividades extra»*, pero **son exactamente lo que el programa mide.** _El efecto se ve:_ **la encuesta devuelve que el área recuperó entre dos y cinco horas**, y esa cifra no corresponde a lo construido.",
+    "_Lo que se enseñó ocupa el resto de la sesión y vale describirlo como circuito, no como lista de herramientas:_ **de una pregunta a un documento presentable, en cinco pasos.**",
+    "**Uno.** Se escribe el encargo completo y *el sistema parafrasea lo que entendió antes de arrancar.* **Si la lectura es correcta se aprueba; si no, se corrige.** _Ese paso solo evita trabajar horas sobre un encargo mal entendido._",
+    "**Dos y tres.** Devuelve un informe extenso, que se exporta a PDF, *y de ahí sale una infografía.* **Pero una infografía es una fotografía: no se le puede preguntar nada.**",
+    "**Cuatro, y es el paso que cambia una reunión: el tablero dinámico.** _Con los datos principales del informe, se puede interactuar en vivo delante de quien decide_ — quitar un competidor, pedir otra comparativa, abrir un análisis que no estaba previsto. **Si alguien cuestiona un dato, se resuelve en el momento y en su terreno.**",
+    "**Cinco. El cuaderno.** Del mismo documento salen *mapa mental, presentación, infografías, tarjetas y un audio conversado* que se puede escuchar camino a una reunión. **Admite trescientos documentos a la vez** — _y para una agencia de empleo eso apunta directo al análisis masivo de hojas de vida contra una vacante._",
+    "**Lo que el área pidió, y es lo más interesante que salió:** convertir los indicadores del **observatorio económico del mercado laboral** —colocados, vacantes, empresas— *en una revista.* **No para adentro: para presentarla ante la Cámara de Comercio y los gremios.** _Es el área hablándole a su entorno con datos propios_, y eso cambia con quién se sienta a negociar.",
+    "**Y quedó una recomendación de fondo:** llevar la conversación de trabajo al canal interno del área en lugar de la mensajería informal. *No es orden por gusto:* **un agente puede leer lo que pasa en el canal** — descargar los archivos que se comparten, levantar la minuta de una reunión y disparar los compromisos por correo. *Lo que se habla por WhatsApp, para el sistema no existió.*",
+    "**Un dato del programa que conviene dejar anotado:** dos personas quedaron vinculadas al proyecto por el área —orientación laboral y recobro de subsidio al desempleo— *y nunca agendaron ni se pusieron en contacto.* **Son dos cupos de mentoría que se perdieron enteros**, y el área no supo que le correspondía activarlos."
+  ],
+  "proxima_sesion": {
+    "sesion": "Agencia de Empleo — cierre del programa, lunes 5 de octubre",
+    "condiciones": [
+      "El agente de recobro reconstruido y corriendo",
+      "Los ejercicios del área registrados en el reporte",
+      "La parte de información de recobro consolidada",
+      "La revista del observatorio en primera versión"
+    ],
+    "agenda": [
+      "Revisión del agente de recobro funcionando",
+      "El tablero de reporte del agente",
+      "La revista del observatorio",
+      "Cierre y medición del área"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 29 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
