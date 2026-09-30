@@ -6,6 +6,25 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## ⚙️ Cómo se le pregunta a Sandra — regla fija del 30 de septiembre
+
+**Todo lo que necesite respuesta de Sandra va como encuesta, no como pregunta suelta en el texto.**
+Sus palabras: *«cada vez que quieres que te contesta algo preguntalo como encuesta, así como hiciste
+ahora mismo»*, a propósito de la pregunta sobre si IPS salía hoy o mañana.
+
+Cómo se arma:
+
+- **Opciones concretas, no abiertas.** Cada una dice qué pasa si la elige, con las cifras si las hay.
+- **La recomendada va primera** y marcada como tal.
+- **Una sola decisión por encuesta.** Si hay dos cosas que decidir, son dos preguntas.
+- **Nada de preguntas retóricas ni de «¿te parece?» al final de un párrafo.** Si de verdad necesito
+  su criterio, es encuesta; si no lo necesito, decido yo y se lo digo.
+
+*Por qué importa:* durante todo el día le hice preguntas enterradas al final de mensajes largos y
+varias quedaron sin responder o se contestaron a medias, como el «listo» que podía significar hoy o
+mañana. La encuesta obliga a que la respuesta sea inequívoca.
+
+
 Cómo lo lee Lucía, sin fusionar ramas:
 
 ```bash
