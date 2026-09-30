@@ -1649,3 +1649,7 @@ Sandra de las 15:38. _Segunda aplicación de la regla._
 subiendo los ejercicios *sin poner las observaciones*, y que miren cómo lo hace Jurídica.
 **Las cuatro observaciones vacías de Comunicaciones quedaron en amarillo** en la versión nueva
 del dashboard.
+
+**Segunda línea a las 4:13** (`1790802819.635829`): trece minutos en la sala y **nadie escribió en el
+canal.** *Se ofreció otro espacio antes del cierre en lugar de dejarlo como reclamo.* **El primer
+aviso había salido a las 4:07** — Sandra lo pidió otra vez sin haberlo visto todavía.
