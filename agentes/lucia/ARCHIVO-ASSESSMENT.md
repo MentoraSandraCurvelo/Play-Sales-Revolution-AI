@@ -55,3 +55,15 @@ fuentes, fórmulas) sobrevive. **Verificado comparando parte por parte.**
 `HRS/SEM ACTUAL` se calcula como `SUM(D)/60`, **una suma plana sin aplicar la frecuencia.**
 Por eso no coincide con las horas del tablero de la Sala de Control, que sí pondera diaria,
 semanal, quincenal y mensual. *Son dos medidas distintas y no hay que mezclarlas.*
+
+## Versión subida el 30 de septiembre, 4:26 p. m.
+
+**Sandra la subió como nueva versión desde Drive** — *mismo ID, mismo enlace*, así que el marcador
+de Slack sigue sirviendo. **Verificado dentro del archivo que quedó en Drive:** los tiempos de
+Vivienda y Talento Humano ya son números, el ahorro sale de la fórmula, la columna
+`AHORRO (HORAS)` está en la I, Cindy Rodríguez aparece en Subsidio, los cinco nombres quedaron
+corregidos y los campos sin diligenciar están en amarillo.
+
+**El orden del final quedó distinto** al del archivo entregado: las cuatro hojas ocultas se fueron
+todas al fondo, y **Talento Humano quedó por debajo de Subsidio y Educación**, que tienen cero
+registros. *Sandra lo ajusta ella.*
