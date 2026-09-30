@@ -362,6 +362,21 @@
       "compromiso": "El número no avanza. **La sesión de las 3:00 p. m. del mismo miércoles 30 toma el número S8** y las demás conservan el suyo: S9 el jueves 1, S10 el viernes 2 y S11 el lunes 5. Subsidio sigue cerrando en S11 — pierde una hora, no una posición.",
       "cuenta_como": "no realizada",
       "nota": "**Era la hora extra que pidió José Luciano Contreras, coordinación de Subsidio y Aportes**, _no una de las sesiones de la agenda base_. La canceló la mentoría y avisó. **No entra en el conteo de caídas del tablero del cliente.** *José Luciano escribió en el canal a las 10:16 a. m.* **Confirmado por Sandra: la sesión de las 3:00 p. m. sí se hace** — el evento del calendario dice «Subsidio S9» y debe decir **Sesion 8**."
+    },
+    {
+      "area": "Subsidio y Aportes",
+      "sesion": "S8",
+      "fecha": "2026-09-30",
+      "hora": "15:00",
+      "canal": "#subsidio",
+      "quien_cancela": "El área — puesto de atención de reclamos",
+      "motivo": "El área canceló la sesión poco antes de la hora.",
+      "causa": "cancelación del área",
+      "aviso_en_canal": "pendiente de publicar",
+      "reagendada": false,
+      "compromiso": "El número no avanza. La sesión del jueves 1 a las 12:00 m. pasa a ser la S8, la del viernes 2 la S9 y la del lunes 5 la S10. Subsidio cierra en S10 y no en S11, salvo que se recupere esta hora.",
+      "cuenta_como": "no realizada",
+      "nota": "**Segunda hora que Subsidio pierde el mismo día**, después de la de las 10:00 que canceló la mentoría. _Esta sí es del lado del área._ **Sandra pidió dejar escrito en el canal que no se cancelan reuniones con tan poca antelación**, y ofrecer la hora libre a **José Luciano Contreras**, coordinación del área. *No se nombra en el canal a quien canceló* — regla de Sandra: nunca señalar a una persona delante de su equipo."
     }
   ],
   "patron": {

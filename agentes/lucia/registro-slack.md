@@ -1534,3 +1534,38 @@ calendario de publicación— **pasó de una semana contando el diseñador a dos
 antes de publicar.* **Decisión de Sandra: en `#subsidio` no se publica nada** — el área hizo su
 sesión de las 3:00 p. m. ese mismo día, así que no perdió número y la hora caída era un espacio
 extra. _El registro interno la conserva igual._
+
+### Miércoles 30, 3:00 p. m. — Subsidio canceló la tercera hora del día
+
+**El área canceló la sesión de las 3:00 p. m. sobre la hora.** *Esta sí es caída del área:* **el
+tablero del cliente pasa de 20 a 21 sesiones caídas.** El registro interno queda en **25**.
+
+**Subsidio perdió dos horas el mismo día** — la de las 10:00 la canceló la mentoría por el cruce
+con la presencial, y esta la canceló el área. *El número no avanza:* **jueves 1 a las 12:00 m. es
+la S8**, viernes 2 la S9 y lunes 5 la S10. **El área cierra en S10 y no en S11**, salvo que
+recupere una hora.
+
+**Sandra pidió dos cosas en el mismo mensaje:** dejar escrito que *no se cancelan reuniones con tan
+poca antelación*, **y ofrecerle la hora libre a José Luciano Contreras.** _El mensaje quedó
+redactado y en espera de su visto bueno_ — es mensaje puntual.
+
+**Escrito sin nombrar a quien canceló.** *Todo el equipo lee el canal* y la regla de Sandra es no
+señalar a una persona delante de los suyos. **Se incluye también que la hora de las 10:00 la
+canceló la mentoría**, para que el reclamo no quede en un solo sentido.
+
+### Miércoles 30 — revisión de los títulos del calendario
+
+**Cuatro números adelantados**, todos por la misma causa: *el título siguió corriendo cuando una
+sesión se cayó.* **Jurídica** del jueves dice S13 y es la **S12**; **Subsidio** del jueves dice S10
+y es la **S8**; **Sub. Operativa** del jueves dice S6 y es la **S5**; **Subsidio** del viernes dice
+S10 y es la **S9**, y la del lunes dice `Subisidio S11` y es la **S10**.
+
+**Lo demás corre consecutivo:** Comunicaciones S11 hoy → S12 el jueves → S13 y S14 el lunes;
+Servicios Sociales S11; Tecnología S7 y S8; Contabilidad S9; IPS S5.
+
+**Hallazgo de hora:** *la sesión de Subsidio del jueves con José Luciano está a las 12:00 m., no a
+las 10:00* como estaba anotada. **Corregido en la agenda.**
+
+**Siete áreas no aparecen ni una vez hasta el lunes 5:** Sub. Administrativa y Financiera,
+Educación, Vivienda, Talento Humano, Planeación, Gerencia Financiera y Cumplimiento. *Vivienda es
+la que más pesa* — **sigue pendiente su sesión y se acaba el tiempo.**

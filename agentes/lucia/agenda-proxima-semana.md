@@ -26,19 +26,19 @@ no del título del evento. *Cuando una sesión no se hace, el número no avanza.
 | Mar 29 | 4:00 p. m. | Comunicaciones | el grupo completo | **S10** | `⭕️Comfacesar \| Comunicaciones \| Sesion 10 \| ✔ corregido |
 | ~~Mié 30~~ | ~~10:00 a. m.~~ | **Subsidio** *(hora extra)* | — | **CANCELADA** | *La canceló la mentoría · cruce con la presencial* |
 | ~~Mié 30~~ | ~~11:00 a. m.~~ | **Jurídica** | — | **CANCELADA** | *La canceló la mentoría · el mismo cruce* |
-| Mié 30 | 3:00 p. m. | Subsidio | `atencion_reclamos@` | **S8** | ⚠️ dice *Subsidio S9* · debe decir **Sesion 8** |
+| ~~Mié 30~~ | ~~3:00 p. m.~~ | **Subsidio** | — | **CANCELADA** | *Canceló el área, sobre la hora. Caída del área* |
 | Mié 30 | 4:00 p. m. | Comunicaciones | `comunicaciones@` | **S11** | `⭕️Comfacesar \| Comunicaciones \| Sesion 11 \| ✔ corregido |
 | Mié 30 | 5:00 p. m. | IPS | `sst@` · `asistentesst@` · `auxiliarsst@` | **S5** | `⭕️Comfacesar \| IPS \| Sesion 5 \| ✔ corregido |
 | Jue 1 oct | 8:00 a. m. | Jurídica | `secretaria_juridica@` | **S12** | ⚠️ dice *Sesion 14* · debe decir **`⭕️Comfacesar \| Juridica \| Sesion 12`** |
-| Jue 1 oct | 10:00 a. m. | Subsidio | `coordinacionsubsidioyaportes@` | **S9** | ✔ ya está |
+| Jue 1 oct | **12:00 m.** | Subsidio | `coordinacionsubsidioyaportes@` | **S8** | ⚠️ dice *Subsidio S10* · debe decir **Sesion 8** · *la hora real es 12:00, no 10:00* |
 | Jue 1 oct | 11:00 a. m. | Servicios Sociales | `pro_juniorss@` · `serviciossociales@` | **S11** | ✔ ya está |
 | Jue 1 oct | 2:00 p. m. | Comunicaciones | César Reyes · `diseno@` | **S12** | `⭕️Comfacesar \| Comunicaciones \| Sesion 12 \| ✔ corregido |
 | Jue 1 oct | 3:00 p. m. | Sub. Operativa y Comercial | `asistentesuboperativa@` · `innovacion@` | **S5** | ⚠️ dice *Sesion 6* · debe decir **Sesion 5** |
 | Vie 2 oct | 9:00 a. m. | Tecnología | `auxiliar_gt@` | **S7** | ✔ ya está |
 | Vie 2 oct | 11:00 a. m. | Contabilidad | Carlos Lozano · `asistentecontabilidad@` | **S9** | `⭕️Comfacesar \| Contabilidad \| Sesion 9 \| ✔ corregido |
-| Vie 2 oct | 3:00 p. m. | Subsidio | Avelino · `liquidacionsubsidio@` | **S10** | ✔ ya está |
+| Vie 2 oct | 3:00 p. m. | Subsidio | Avelino · `liquidacionsubsidio@` | **S9** | ⚠️ dice *Sesion 10* · debe decir **Sesion 9** |
 | **Lun 5 oct** | 10:00 a. m. | Tecnología | Olga Lucía · `auxiliar_gt@` | **S8** | `⭕️Comfacesar \| Tecnologia \| Sesion 8 \| ✔ corregido |
-| **Lun 5 oct** | 11:00 a. m. | Subsidio | Avelino · `liquidacionsubsidio@` | **S11** | ⚠️ dice «*Subisidio*» · falta una letra |
+| **Lun 5 oct** | 11:00 a. m. | Subsidio | Avelino · `liquidacionsubsidio@` | **S10** | ⚠️ dice «*Subisidio S11*» · debe decir **Sesion 10** |
 | **Lun 5 oct** | 4:00 p. m. | Comunicaciones | el grupo completo | **S13** | `⭕️Comfacesar \| Comunicaciones \| Sesion 13 \| ✔ corregido |
 | **Lun 5 oct** | 5:00 p. m. | Comunicaciones | Vidiana · `profesionalcomunicaciones@` | **S14** | `⭕️Comfacesar \| Comunicaciones \| Sesion 14 \| ✔ corregido |
 
@@ -96,8 +96,28 @@ tablero del cliente* — ahí siguen siendo **20**, todas del lado del área.
 Mercadeo, aquí sí va aviso escrito en los dos canales* — Sandra lo pidió para que reprogramen.
 **Quedan tres días hábiles: jueves 1, viernes 2 y lunes 5.**
 
-**La de Subsidio de hoy a las 3:00 p. m. sigue en pie.** El evento del calendario dice
-«Subsidio S9» y debe decir **Sesion 8**.
+**Y por la tarde se cayó la tercera:** *el área canceló la de las 3:00 p. m. sobre la hora.* **Esa sí
+es caída del área** — con ella el tablero del cliente pasa de **20 a 21**. _Subsidio perdió dos horas
+el mismo día_ y **cierra en S10, no en S11**, salvo que recupere una.
+
+**Sandra pidió dejarlo escrito en el canal:** que no se cancelan reuniones con tan poca antelación,
+*y ofrecerle la hora libre a José Luciano Contreras.* **El mensaje queda redactado y en espera de su
+visto bueno.** _Sin nombrar a quien canceló_ — regla de Sandra: nunca señalar a una persona delante
+de su equipo.
+
+**Números del calendario por corregir** (cada cambio manda correo de actualización al área):
+
+| Cuándo | Dice | Debe decir |
+|---|---|---|
+| Jue 1, 8:00 a. m. · Jurídica | `S13` | **Sesion 12** |
+| Jue 1, 12:00 m. · Subsidio | `S10` | **Sesion 8** |
+| Jue 1, 3:00 p. m. · Sub. Operativa | `S6` | **Sesion 5** |
+| Vie 2, 3:00 p. m. · Subsidio | `S10` | **Sesion 9** |
+| Lun 5, 11:00 a. m. · Subsidio | `Subisidio S11` | **Sesion 10** |
+
+*Erratas de escritura:* **IPS** de hoy dice `IAM™Intellgence`. *Y dos títulos llevan texto pegado que
+el área ve en la invitación:* «Manuel individual» hoy a las 4:00 y «Cesar individual es la primera de
+e l» el jueves a las 2:00.
 
 ## Cómo termina cada área
 
@@ -105,7 +125,7 @@ Mercadeo, aquí sí va aviso escrito en los dos canales* — Sandra lo pidió pa
 |---|---|---|---|
 | Jurídica | S11 | ~~S12 del lunes~~ · ~~S12 del miércoles~~ · S12 | **S12** |
 | Comunicaciones | S9 | S10, S11, S12, S13, S14 | **S14** |
-| Subsidio | S4 | S5, S6, S7, ~~la hora extra del miércoles~~, S8, S9, S10, S11 | **S11** |
+| Subsidio | S4 | S5, S6, S7, ~~las dos del miércoles~~, S8, S9, S10 | **S10** |
 | Servicios Sociales | S9 | S10, S11 | **S11** |
 | Sub. Admin. y Financiera | S10 | S11 | **S11** |
 | Contabilidad | S8 | S9 | **S9** |
