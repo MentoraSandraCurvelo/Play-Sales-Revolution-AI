@@ -1462,3 +1462,31 @@ sacarla de ahí, se borra._
 **Aviso en `#comunicaciones` a las 4:01** (`1790715775.102579`): Sandra conectada en la sala.
 *Se leyó el canal antes de publicar* — no había mensajes nuevos del área. **Primera aplicación de
 la regla nueva.**
+
+### Miércoles 30, 7:30 — corte movido al 29 de septiembre
+
+**Tablero actualizado y republicado en el enlace fijo** `https://claude.ai/artifact/TjtX9UVisRVmq5orRmaixz`
+(Versión 2), antes de la reunión de Sandra con María Elvira a las 10:00.
+
+| Dato | Antes | Ahora |
+|---|---|---|
+| Corte | 25 sep | **29 sep** |
+| Sesiones ejecutadas | 95 | **102** |
+| Agentes construidos | 13 | **16** |
+| Procesos con ahorro medido | 16 | **17** |
+| Sesiones caídas | 18 | **20** |
+| Restante | 1 semana | **4 días hábiles** |
+
+**Las 102 son verificadas:** 95 del corte anterior + 4 del lunes 28 + 3 del martes 29
+(Servicios Sociales S10, Agencia de Empleo S7 y Subsidio S7, las tres con grabación publicada).
+*Falta confirmar Comunicaciones S10 del martes;* **si se hizo, la cifra sube a 103.**
+
+**Lo nuevo en el cuerpo:** los tres casos de agentes que corrigieron o encontraron lo que nadie
+les pidió —Subsidio con cuatro errores, Sub. Financiera con la regla de reparto 70/30 y el
+archivo en solo lectura—, **el primer ahorro medido de Educación** (120 → 10 min/mes, Ley 115),
+y el bloque de caídas reescrito.
+
+**Se incluyó el hallazgo de la sala de espera de Teams**, sin decir que el error fue de Lucía:
+*dos sesiones estaban anotadas como inasistencia y no lo eran* — la persona estaba en la sala de
+espera y no se logró el ingreso. **Se plantea como problema de admisión a la reunión, que se
+arregla revisando la configuración del enlace.**
