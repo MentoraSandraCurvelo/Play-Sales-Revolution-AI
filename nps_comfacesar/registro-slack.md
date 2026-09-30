@@ -15,6 +15,49 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🔢 30 sep · 8:20 a. m. · Resuelta la diferencia entre los dos tableros: era un número, no una sesión
+
+**Nada publicado en Slack.** *El Corte publicó 103 esta mañana y el Termómetro decía 101.* **Dos
+cifras del mismo programa, y Sandra con reunión a las 10:00.** Se reconcilió antes.
+
+### Primero, una que sí faltaba
+
+**Comunicaciones S10 sí se hizo.** *La grabación entró a las 7:16 — tres minutos después de que
+este tablero leyera el canal a las 7:13 y la diera por sin rastro.* **El Termómetro pasa a 102.**
+
+*La regla de siempre, otra vez:* **un canal sin respuesta no es prueba de ausencia**, y un corte es
+la foto de un minuto, no del día.
+
+### Y la que quedaba: Sub. Operativa
+
+**El Corte le cuenta cuatro sesiones y aquí van tres.** *Verificado hoy en las dos fuentes:*
+
+| Dónde | Qué hay |
+|---|---|
+| Dropbox, carpeta `Sesion 2` | **existe y está vacía** — ni grabación, ni acta, ni informe |
+| Canal `#sub-operativa`, 25 y 26 ago | **dos recordatorios de «llevamos 6 y 7 días sin sesión»** |
+| Canal, 26 ago | «ya quedó la sesión 2 — martes 1 de septiembre» |
+| Canal, 2 sep | *la que corrió el 1 se publicó como* **«Sesión 3»** |
+
+**No hay una S2 perdida: hay un número que se saltó.** El área tiene **tres sesiones ejecutadas**
+—19 de agosto, 1 de septiembre y 22 de septiembre— numeradas **S1, S3 y S4**. *Contar la S2 es
+contar un rótulo.*
+
+**Así que 102 es la cifra que aguanta una pregunta, y 103 cuenta una sesión que nadie hizo.**
+
+**No toqué el Corte.** *Lo mantiene Lucía y este tablero no corrige cifras ajenas* — queda escrito
+en el Termómetro, a la vista, para que las dos cuenten lo mismo antes del cierre. **Publicado:
+Termómetro v87, Mesa v41 y v13.**
+
+### El resto de la corrida
+
+**Silencios: nada.** Los siete canales sin fecha recibieron su aviso el lunes.
+
+**El DM de Lilian Paola sigue sin responder.** *«hola», ayer a las 10:25 — van **veintidós horas**.*
+Ella no ha vuelto a escribir y nadie le ha contestado. **Es lo único abierto de la parte B.**
+
+---
+
 ## 🔐 30 sep · 9:05 a. m. · Qué va público y qué no, y el Pulso al día
 
 **Decisión de Sandra:** *públicos el Corte de María Elvira, la Sala de Control —el del ROI— y la
