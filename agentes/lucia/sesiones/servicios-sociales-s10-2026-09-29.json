@@ -1,0 +1,193 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SERVICIOS SOCIALES",
+  "area_completa": "",
+  "sesion_num": 10,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "29 de septiembre de 2026",
+  "fecha_corta": "29 septiembre 2026",
+  "subtitulo_meta": "Individual de Juan Pablo · 29 de septiembre de 2026 · 10:00 a. m. · 24 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Servicios Sociales — Comfacesar"],
+    ["Sesión", "N° 10 — Individual de Juan Pablo: el agente de liquidaciones y el cierre de la primera fase"],
+    ["Fecha", "29 de septiembre de 2026"],
+    ["Duración de la sesión", "24 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Juan Pablo — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "30", "etiqueta": "Contratos de patrocinio por carrera", "detalle": "Cada uno con su acta de liquidación"},
+    {"valor": "1", "etiqueta": "Agente nuevo del área", "detalle": "Liquidación de contratos de patrocinio"},
+    {"valor": "6", "etiqueta": "Herramientas en la carpeta del puesto", "detalle": "La séptima entró en esta sesión"},
+    {"valor": "3", "etiqueta": "Herramientas descartadas por no aplicar", "detalle": "El puesto no las usaría"},
+    {"valor": "1", "etiqueta": "Proceso del área todavía fuera", "detalle": "El costeo de eventos, en otra coordinación"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Juan Pablo", "cargo": "Servicios Sociales — Comfacesar", "correo": "pro_juniorss@comfacesar.com", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 10. El área cierra la primera fase con un agente nuevo sobre un pendiente que venía desde julio. Lo que queda abierto tiene que ver menos con la herramienta y más con dónde viven los procesos del área.",
+  "riesgos": [
+    {
+      "titulo": "El ahorro del agente de liquidaciones no está medido",
+      "nivel": "ALTO",
+      "descripcion": "**El agente ya corrió sobre los contratos reales de la carrera**, pero *no hay cifra del antes ni del después.* **Es el ejercicio más medible que tiene el área** —treinta actas que se hacían una por una, en Word— y **sin el número no se puede presentar como ahorro.** _Se mide contando lo que tomaba armar una y multiplicando por los contratos del evento._",
+      "responsable": "Juan Pablo / Antes del 5 de octubre"
+    },
+    {
+      "titulo": "Los procesos del área son ocasionales, no periódicos",
+      "nivel": "MEDIO",
+      "descripcion": "*Quedó dicho con claridad en sesión:* **Servicios Sociales es una gerencia de servicio, no un área operativa.** _No tiene procesos mensuales ni trimestrales que se repitan igual_ — tiene eventos, y cada evento pide cosas distintas. **Eso no es una limitación del área, es su naturaleza**, y explica por qué aquí los agentes nacen del evento y no del calendario. *Conviene decirlo así cuando se compare con áreas operativas.*",
+      "responsable": "Servicios Sociales / Permanente"
+    },
+    {
+      "titulo": "El costeo de eventos está fuera del alcance del programa",
+      "nivel": "ALTO",
+      "descripcion": "**Es el proceso que más se repite del área** —cada evento lleva su costeo— **y no lo hace este puesto:** lo hacen las coordinaciones de recreación y de deportes, *que no están dentro del programa.* _Mientras eso siga afuera, el área automatiza los documentos del evento pero no su parte más repetitiva._",
+      "responsable": "Servicios Sociales / Segunda fase"
+    },
+    {
+      "titulo": "Falta la proyección del tiempo liberado",
+      "nivel": "ALTO",
+      "descripcion": "*El planteamiento de la sesión, y es el que conviene preparar:* **mostrar el ahorro no basta — hay que decir en qué se va a emplear ese tiempo.** _La respuesta del área ya está dicha:_ **generar más eventos y dedicarle más tiempo al montaje.** *Falta ponerlo por escrito con números:* cuántos eventos más al año, con qué capacidad.",
+      "responsable": "Juan Pablo / Antes del 5 de octubre"
+    },
+    {
+      "titulo": "Los agentes del área no tienen nombre",
+      "nivel": "BAJO",
+      "descripcion": "**Se corrigió en sesión:** el agente nuevo quedó identificado como *contrato de patrocinio MMI 2026.* _La razón es práctica:_ **cuando el área acumule varios, sin nombre no se sabe cuál hizo qué** — y aquí, al ser por evento, van a ser varios.",
+      "responsable": "Juan Pablo / Permanente"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "ALTO", "titulo": "Medir el ahorro de las liquidaciones de patrocinio", "descripcion": "**Cuánto tomaba armar un acta a mano y cuántos contratos lleva el evento.** *Treinta contratos por carrera es un número que habla solo* — pero hay que tenerlo escrito.", "responsable": "Juan Pablo", "plazo": "Antes del 5 de octubre"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Escribir la proyección del tiempo liberado", "descripcion": "**Cuántos eventos más puede montar el área** con las horas que deja de gastar en documentación. _Es la parte que convierte un ahorro en una propuesta._", "responsable": "Juan Pablo", "plazo": "Antes del 5 de octubre"},
+    {"num": "03", "nivel": "ALTO", "titulo": "Cargar los ejercicios en el reporte del área", "descripcion": "Los agentes construidos, con su antes y su después en minutos. **Es lo que alimenta el tablero que consulta la dirección.**", "responsable": "Juan Pablo", "plazo": "Inmediato"},
+    {"num": "04", "nivel": "MEDIO", "titulo": "Mapear el costeo de eventos con quien lo hace", "descripcion": "Sentarse con las coordinaciones de recreación y deportes **para ver qué parte del costeo se puede automatizar.** *Hoy está fuera del programa.*", "responsable": "Juan Pablo", "plazo": "Segunda fase"},
+    {"num": "05", "nivel": "MEDIO", "titulo": "Usar el entorno de voz para ensayar la presentación", "descripcion": "**Pedirle que asuma el rol de la dirección y practicar contra él**, compartiendo pantalla. _Corrige muletillas y ritmo, y es lo que se aprendió en esta sesión._", "responsable": "Juan Pablo", "plazo": "Antes del cierre"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El agente de liquidaciones de patrocinio",
+      "duracion": "~7 min",
+      "objetivo": "Cerrar un pendiente que venía desde julio.",
+      "pasos": [
+        "**El proceso real:** la carrera maneja *entre veinte y treinta contratos de patrocinio*, en efectivo y en especie. **Todo aporte va por contrato**, porque hay que justificar cada peso que entra",
+        "**Armarlos antes del evento es lo fácil.** _El tedio llega después:_ **liquidarlos uno por uno** — coger contrato por contrato, ponerle el objeto, ponerle el aporte, y sacar un documento en Word por cada uno",
+        "**Lo que se hizo:** se creó el agente, *se le anexaron todos los contratos*, se le dio un acta de ejemplo como referencia y se puso a correr",
+        "_Corrección de método aplicada en el momento:_ **ponerle nombre.** Quedó como *contrato de patrocinio MMI 2026* — **porque van a ser varios, uno por evento**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Por qué este área no se parece a las otras",
+      "duracion": "~4 min",
+      "objetivo": "Entender dónde nacen los procesos automatizables aquí.",
+      "pasos": [
+        "**Servicios Sociales es una gerencia de servicio.** _No tiene procesos mensuales ni trimestrales que se repitan igual_ — tiene eventos, en recreación y en deportes",
+        "**Cada evento pide cosas distintas.** *La carrera exigió contratos y actas de liquidación; el evento de la semana de protección animal no los va a necesitar*, porque se monta con capacidad instalada",
+        "_Consecuencia práctica:_ **aquí los agentes nacen del evento, no del calendario.** Y el trabajo del área es reconocer, cuando sale uno nuevo, *qué parte se repite lo suficiente para valer un agente*",
+        "**Y apareció el proceso que sí se repite siempre y está fuera:** el **costeo del evento**, que lo hacen las coordinaciones de recreación y deportes — _que no están en el programa_"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · La pregunta que sigue al ahorro",
+      "duracion": "~4 min",
+      "objetivo": "Preparar lo que hay que decir cuando el tiempo liberado aparezca.",
+      "pasos": [
+        "*El planteamiento:* **cuando la dirección vea que un trabajo pasó de días a minutos, la siguiente pregunta es qué se hace con ese tiempo**",
+        "**La respuesta del área:** *generar más eventos y dedicarle más tiempo al montaje* — y a lo demás que depende del área",
+        "**Lo que falta es convertirlo en proyección:** _cuántos eventos más al año, con qué capacidad._ **Ese es el análisis que se presenta**, no el estado actual",
+        "_Y la regla que ordena lo que viene:_ **si hay que llenar una plantilla a mano, ahí hace falta un agente.** *El objetivo es no volver a tocar un Excel — que el sistema lo analice, genere el documento y diligencie la plantilla*"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · El entorno que comparte pantalla",
+      "duracion": "~9 min",
+      "objetivo": "Sumar una herramienta que sirve como guía en vivo y como ensayo.",
+      "pasos": [
+        "**Es la única herramienta del mercado que permite compartirle la pantalla** y que responde por voz, en tiempo real",
+        "**Uso uno — guía paso a paso:** se le comparte la pantalla y se le pregunta cómo hacer algo que no se sabe usar. *Va indicando dónde hacer clic, pestaña por pestaña*",
+        "**Uso dos, y es el que sirve ahora — ensayo con juego de roles:** _«asume el rol de la dirección de una caja de compensación, voy a practicar mi presentación contigo»._ **Corrige muletillas, ritmo y pronunciación**",
+        "**Se repasó la carpeta de herramientas del puesto**, que ya reúne seis, *y se agregó esta*",
+        "_Y se descartaron tres, por criterio:_ **la de avatares que hacen llamadas** —el área no tiene llamadas repetitivas—, **la de encuestas en vivo** —no hace webinars— y **la de traducción** —no maneja documentación en inglés. *No se enseña una herramienta que el puesto no va a usar*"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 10 · 29 septiembre 2026",
+      "titulo": "El agente de liquidaciones de patrocinio",
+      "descripcion": "Treinta contratos por carrera, cada uno con su acta de liquidación en Word, hechas una por una. **Era un pendiente desde julio** y *el agente lo corrió sobre los contratos reales del evento.* _Falta ponerle la cifra:_ **es el ejercicio más medible que tiene el área.**",
+      "estado": "Corrido sobre datos reales",
+      "proximo_paso": "Medir el antes y el después",
+      "target": "Antes del 5 de octubre"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 10 · 29 septiembre 2026",
+      "titulo": "El ahorro no termina en el ahorro",
+      "descripcion": "*La pregunta que sigue a cualquier proceso que pasa de días a minutos es qué se hace con el tiempo que queda.* **Y el área ya tiene su respuesta: montar más eventos.** _Lo que falta es escribirla con números_ — **cuántos eventos más al año.** *Eso convierte un dato de eficiencia en una propuesta de crecimiento,* que es otra conversación con la dirección.",
+      "estado": "Planteado en sesión",
+      "proximo_paso": "Escribir la proyección",
+      "target": "Antes del 5 de octubre"
+    },
+    {
+      "encabezado": "OPORTUNIDAD ABIERTA · SESIÓN 10 · 29 septiembre 2026",
+      "titulo": "El costeo de eventos, que es lo que más se repite",
+      "descripcion": "Cada evento del año lleva su costeo, y **es el único proceso verdaderamente periódico del área.** *Pero no lo hace este puesto:* lo hacen las coordinaciones de recreación y de deportes, **que no están dentro del programa.** _Mientras siga afuera, se automatiza el papeleo del evento pero no su parte más repetitiva._",
+      "estado": "Identificado",
+      "proximo_paso": "Mapearlo con quien lo hace",
+      "target": "Segunda fase"
+    },
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 10 · 29 septiembre 2026",
+      "titulo": "Un entorno para ensayar contra la dirección",
+      "descripcion": "La herramienta que comparte pantalla **puede asumir el rol de la dirección y hacer de contraparte en un ensayo**, corrigiendo muletillas y ritmo. *Sirve también como guía en vivo* —se le comparte la pantalla y va indicando qué hacer, paso a paso—, **que es exactamente lo que se necesita cuando nadie tiene tiempo de explicar una herramienta nueva.**",
+      "estado": "Enseñada en sesión",
+      "proximo_paso": "Usarla para ensayar el cierre",
+      "target": "Antes del cierre"
+    }
+  ],
+  "tareas_intro": "El área cierra la primera fase con un agente nuevo sobre un pendiente que venía desde julio. Lo que falta no es construir más: es ponerle cifra a lo construido y decir en qué se va a emplear el tiempo que queda libre.",
+  "tareas": [
+    {"tarea": "Medir el antes y el después de las liquidaciones de patrocinio", "responsable": "Juan Pablo", "prioridad": "ALTA", "plazo": "Antes del 5 de octubre"},
+    {"tarea": "Escribir la proyección: cuántos eventos más puede montar el área", "responsable": "Juan Pablo", "prioridad": "ALTA", "plazo": "Antes del 5 de octubre"},
+    {"tarea": "Cargar los ejercicios del área en el reporte de productividad", "responsable": "Juan Pablo", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Dejar la carpeta del área ordenada con todo lo construido", "responsable": "Juan Pablo", "prioridad": "ALTA", "plazo": "Antes del 5 de octubre"},
+    {"tarea": "Mapear el costeo de eventos con las coordinaciones que lo hacen", "responsable": "Juan Pablo", "prioridad": "MEDIA", "plazo": "Segunda fase"},
+    {"tarea": "Ensayar la presentación con el entorno de voz, en juego de roles", "responsable": "Juan Pablo", "prioridad": "MEDIA", "plazo": "Antes del cierre"},
+    {"tarea": "Ponerle nombre a cada agente nuevo que se construya", "responsable": "Juan Pablo", "prioridad": "BAJA", "plazo": "Permanente"}
+  ],
+  "observaciones": [
+    "**El área cerró un pendiente que venía desde julio**, y es su ejercicio más medible: **la liquidación de los contratos de patrocinio de la carrera.** _Entre veinte y treinta contratos por evento_, en efectivo y en especie, **cada uno con su acta en Word, hecha una por una.**",
+    "_Y conviene explicar por qué existe ese trabajo:_ **todo aporte va por contrato, porque hay que justificar cada peso que entra.** *Armarlos antes del evento es lo rápido — el tedio llega después, al liquidarlos.*",
+    "**El agente ya corrió sobre los contratos reales.** _Lo que falta es el número:_ cuánto tomaba armar un acta a mano, por cuántos contratos. **Sin esa cifra, el ejercicio más fuerte del área queda sin poder presentarse como ahorro.**",
+    "**Quedó dicho algo que vale para leer a esta área con justicia:** _Servicios Sociales es una gerencia de servicio, no un área operativa._ **No tiene procesos mensuales ni trimestrales que se repitan igual** — tiene eventos, y cada uno pide cosas distintas. *La carrera exigió contratos y actas; el evento de la semana de protección animal no los va a necesitar.*",
+    "_Consecuencia práctica:_ **aquí los agentes nacen del evento y no del calendario.** *El trabajo del área es reconocer, cuando sale un evento nuevo, qué parte se repite lo suficiente para valer un agente.* **Eso explica por qué acumula menos circuitos que un área operativa, sin que eso signifique menos avance.**",
+    "**Y apareció el proceso que sí se repite siempre — y está fuera del programa.** El **costeo de cada evento** lo hacen las coordinaciones de recreación y de deportes, *que no participan en el proyecto.* **Es el único proceso verdaderamente periódico del área y hoy no se puede tocar.**",
+    "**Lo que hay que subrayar de esta sesión no es una herramienta, es una pregunta.** _Cuando la dirección vea que un trabajo pasó de días a minutos, lo siguiente que va a preguntar es qué se hace con ese tiempo._ **El área ya tiene su respuesta —montar más eventos, dedicarle más tiempo al montaje—** *pero falta escribirla con números.*",
+    "_Y esa es la diferencia entre dos conversaciones distintas:_ **un ahorro es un dato de eficiencia; una proyección de lo que se puede hacer con él es una propuesta de crecimiento.** *La segunda es la que mueve decisiones.*",
+    "**Se sumó una herramienta que hace algo que ninguna otra hace: recibe la pantalla compartida y responde por voz, en vivo.** _Dos usos:_ **guía paso a paso** —se le muestra la pantalla y va indicando dónde hacer clic— y **ensayo con juego de roles**, pidiéndole que asuma el papel de la dirección para practicar una presentación y que corrija muletillas y ritmo.",
+    "_Y se descartaron tres herramientas, que es tan importante como enseñarlas:_ **la de avatares que hacen llamadas** —el área no tiene llamadas repetitivas—, **la de encuestas en vivo** —no hace webinars— y **la de traducción** —no maneja documentación en inglés. *No se enseña una herramienta que el puesto no va a usar.*",
+    "_La regla que quedó para lo que viene:_ **si hay que llenar una plantilla a mano, ahí hace falta un agente.** *El objetivo no es trabajar mejor el Excel — es dejar de abrirlo.*",
+    "**El área queda al día con la primera fase**, que era mirar lo que ya se hace y potenciarlo. _Lo que sigue es otra pregunta:_ **qué se puede hacer que todavía no se ha intentado** — y ahí aparecen las aplicaciones y los mapas interactivos que se mostraron al final."
+  ],
+  "proxima_sesion": {
+    "sesion": "Servicios Sociales — Sesión 11 · jueves 1 de octubre",
+    "condiciones": [
+      "El ahorro de las liquidaciones, medido",
+      "La proyección del tiempo liberado, escrita",
+      "El reporte de productividad del área cargado",
+      "La carpeta del área ordenada con todo lo construido"
+    ],
+    "agenda": [
+      "Revisión del agente de liquidaciones con su cifra",
+      "La proyección de crecimiento del área",
+      "Ensayo del cierre con el entorno de voz",
+      "Lo que queda abierto para una segunda fase"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 29 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

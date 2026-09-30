@@ -406,3 +406,18 @@ cierto, delante de todo su equipo.**
 persona *estaba en la sala de espera de Teams y no la dejaron entrar.* **Eso no es inasistencia,
 es un problema de admisión a la sala** — y si se repite, hay que mirar la configuración de la
 reunión, no el compromiso del área.
+
+## El aviso cambia la causa, no el conteo
+
+**Una sesión que no se hizo es una sesión caída, haya aviso o no.** *Una hora reservada que no se
+usa no se recupera*, así que entra en el conteo igual.
+
+**Lo que el aviso sí cambia es lo que queda escrito:** una cancelación avisada se registra como
+tal y no como inasistencia, y el mensaje del canal se redacta distinto — *reconociendo el aviso,
+sin dejar de decir que la sesión se perdió.*
+
+_Así se lo dijo Sandra a un área el 21 de septiembre:_ **«el conteo va en dos sesiones canceladas
+contigo y las anteriores; no tienen en cuenta los motivos».**
+
+*Única excepción:* **las sesiones que retira la mentoría no son caídas del área** y no entran en
+la cifra que ve el cliente. Quedan solo en el registro interno.
