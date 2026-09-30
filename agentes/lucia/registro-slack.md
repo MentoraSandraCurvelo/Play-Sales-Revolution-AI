@@ -1653,3 +1653,74 @@ del dashboard.
 **Segunda línea a las 4:13** (`1790802819.635829`): trece minutos en la sala y **nadie escribió en el
 canal.** *Se ofreció otro espacio antes del cierre en lugar de dejarlo como reclamo.* **El primer
 aviso había salido a las 4:07** — Sandra lo pidió otra vez sin haberlo visto todavía.
+
+**Línea de cierre a las 4:14** (`1790802850.133919`): *catorce minutos en la sala y nadie se
+presentó.* **Sandra confirmó la inasistencia.** _En el aviso no se dice que nadie avisó_ — solo que
+la sesión no se pudo hacer, y se ofreció recuperar la hora.
+
+**Tablero del cliente republicado** (Versión 7): **22 sesiones caídas**, cuatro de ellas en la
+semana de cierre.
+
+---
+
+## Para Elia — cierre del miércoles 30 de septiembre
+
+**Lee esto antes de publicar cualquier cosa el jueves 1.**
+
+### El conteo cambió dos veces hoy
+
+| | Valor |
+|---|---|
+| Registro interno | **26 entradas** |
+| **Caídas del área — la cifra del tablero del cliente** | **22** |
+| Canceladas por la mentoría, *fuera del conteo del cliente* | 4 |
+
+**Hoy entraron dos caídas del área y dos cancelaciones de la mentoría.** *El criterio no cambia:*
+**el tablero del cliente cuenta solo las del lado del área.**
+
+### Las cuatro caídas de la semana de cierre
+
+| Día | Área | Qué pasó |
+|---|---|---|
+| Lun 28 | Jurídica | Canceló el área. *Venía de once sesiones sin faltar* |
+| Mar 29 | Sub. Operativa y Comercial | Canceló el área, avisó en el canal |
+| Mié 30 | Subsidio y Aportes | Canceló el área sobre la hora |
+| Mié 30 | **Comunicaciones** | **Inasistencia.** Sandra esperó de 4:00 a 4:14 y nadie subió |
+
+**Las cuatro son la primera caída de su área en todo el programa.** *Eso apunta al momento, no a
+las áreas* — la semana de cierre coincide con el cierre de mes de la Caja. **Está dicho así en el
+tablero del cliente**, como dato para planear la fase siguiente.
+
+### Y las dos que canceló la mentoría, que NO van al cliente
+
+**Miércoles 30 por la mañana:** *Subsidio de las 10:00* —hora extra pedida por José Luciano— y
+*Jurídica de las 11:00*. **La presencial con Julio Acosta y María Elvira estaba de 8:00 a 12:00 y
+se extendió.** _Sandra avisó a las dos áreas._ **Solo se publicó aviso en `#juridica`**; en
+`#subsidio` ella decidió que no.
+
+### Numeración después de todo esto
+
+| Área | Cierra en | Cambio |
+|---|---|---|
+| **Comunicaciones** | **S13** | *Era S14.* La del jue 1, 2:00 p. m. pasa a ser **S11** |
+| **Jurídica** | **S12** | *Era S13.* La del jue 1, 8:00 a. m. es la **S12** |
+| **Subsidio** | **S10** | *Era S11.* Jue 1 es **S8**, vie 2 **S9**, lun 5 **S10** |
+| Sub. Operativa | S5 | La del jue 1, 3:00 p. m. es la **S5** |
+
+### Lo que NO debes publicar el jueves
+
+**No escribas en `#comunicaciones` sobre la inasistencia de hoy.** *Ya salieron tres avisos en
+vivo* —4:07, 4:13 y 4:14— y el contrato es claro: **Lucía habla de lo que pasó, Elia de lo que
+falta, y nunca del mismo tema el mismo día.**
+
+**Tampoco en `#subsidio` ni en `#juridica`** sobre las horas de hoy: los dos ya tienen su mensaje.
+
+### Lo que sí vale que mires
+
+**Tres áreas con ahorros medidos en acta y cero registros en el archivo de assessment:**
+*Subsidio, Mercadeo y Educación.* **Subsidio es el caso más fuerte** — siete sesiones, tres
+agentes y ni una línea cargada. _Son las tres para perseguir antes del lunes._
+
+**Y siete áreas no aparecen ni una vez hasta el cierre:** Sub. Admin. y Financiera, Educación,
+**Vivienda**, Talento Humano, Planeación, Gerencia Financiera y Cumplimiento. *Vivienda es la que
+más pesa:* **su sesión sigue pendiente y ya no hay semana.**
