@@ -15,6 +15,58 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🎤 30 sep · 8:35 a. m. · Ocho oportunidades dictadas, y una cierra un círculo
+
+**Nada publicado en Slack.** Sandra dictó ocho puntos por voz. **Hallazgos v20**, tema nuevo
+**«Oportunidades»**.
+
+| Lo dictado | Estado |
+|---|---|
+| Conferencia de IA para los afiliados | falta definir |
+| Conferencia de embajadores de marca para toda la empresa | *otro frente: Ambassadors* |
+| Arreglar la landing de denuncias para que no llegue tanto spam | **antes que automatizar** |
+| App para los vigías de IPS | falta el proceso |
+| Slack para toda la empresa | falta definir |
+| Repetidores de internet | falta el dónde |
+| Cambio de computadores por micrófono y video | *ya estaba en Gestión* |
+| **Conferencia de una hora sobre Gemini**, que ya está licenciado y nadie conoce | **convierte el contra** |
+
+### Cómo se escribieron, que es lo que importa
+
+**Estos ocho no salieron de leer actas: salieron de su cabeza.** *Se escribieron como se dictaron,
+sin rellenar lo que no consta*, y **cuatro llevan «falta definir» o «falta precisar»** por eso
+mismo. Inventarles un detalle los habría vuelto inservibles como material de presentación.
+
+**Tres sí tienen anclaje documental y se dice cuál:**
+
+- **La landing de denuncias** conecta con el agente de Jurídica que lee ese buzón y clasifica por
+  urgencia. *Si la mitad de lo que entra es spam, el agente está clasificando ruido* — y arreglar el
+  formulario vale más que afinar el agente.
+- **Slack para toda la empresa** se sostiene en el precedente de Jurídica, que migró a su equipo de
+  WhatsApp a un espacio propio. **El argumento no es la herramienta: es que el trabajo de la Caja
+  está ocurriendo en chats personales.**
+- **Los repetidores** se conectan con la única caída del programa por falla técnica, Servicios
+  Sociales el 22 de septiembre. *No afirmo que sea la causa, queda como lo que hay.*
+
+### La de Gemini merece leerse aparte
+
+**Este tablero venía diciendo desde el 11 de septiembre que Comfacesar paga una herramienta de IA
+que nadie usa, y que ese sería el contra argumento** cuando cinco áreas pidieran licencias nuevas.
+*Con la conferencia deja de serlo:* **no se pide reemplazar lo pagado, se pide activarlo primero** —
+una hora— y recién entonces la solicitud de licencias se sostiene diciendo qué hace una herramienta
+que la otra no hace.
+
+*Quien nombra a Gemini es Sandra, no el acta:* **el acta no la nombra.** Queda dicho en el tablero.
+
+### Y el conteo, otra vez
+
+**Me equivoqué al sumar a mano y lo corregí contando la tabla.** Dije 36 y luego 37; son **38 filas
+y 37 hallazgos**, porque la de los computadores aparece dos veces a propósito. *Es exactamente el
+error que este mismo tablero traía de antes —declaraba 24 con 26 en la tabla—,* así que **ahora la
+cifra se calcula leyendo la tabla, no escribiéndola.**
+
+---
+
 ## 🗃️ 30 sep · 8:15 a. m. · Los hallazgos de gestión entran al tablero interno
 
 **Nada publicado en Slack.** Sandra pidió meter «este listado» sin adjuntarlo; **se preguntó en vez
