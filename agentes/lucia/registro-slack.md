@@ -1574,3 +1574,27 @@ la que más pesa* — **sigue pendiente su sesión y se acaba el tiempo.**
 de publicar* y se encontró que **Sandra ya le había respondido a José Luciano a las 14:43**, por su
 cuenta, tres mensajes. **Se quitó del borrador el párrafo que le respondía**, para no repetirla, y
 *se mantuvo la oferta de la hora libre de las 3:00.*
+
+### Miércoles 30, 3:00 p. m. — cierre del caso y métricas actualizadas
+
+**José Luciano no contestó a la oferta de tomar la hora libre**, así que *Sandra bajó el evento del
+calendario* y **la hora se perdió.** _Quien canceló fue el puesto de atención de reclamos._
+
+**Tablero del cliente republicado en el enlace fijo** `https://claude.ai/artifact/TjtX9UVisRVmq5orRmaixz`
+(Versión 6):
+
+| Dato | Antes | Ahora |
+|---|---|---|
+| Corte | 29 sep | **30 sep** |
+| Sesiones caídas | 20 | **21** |
+| Días hábiles restantes | 4 | **3** |
+
+**Las sesiones ejecutadas siguen en 103**, con la etiqueta *verificadas al 29 de septiembre* — las
+dos de hoy por la tarde, Comunicaciones S11 e IPS S5, entran cuando lleguen los soportes.
+
+**El bloque de caídas se reescribió a tres en la semana de cierre:** Jurídica el lunes 28,
+Sub. Operativa el martes 29 y **Subsidio el miércoles 30**, *esta última después de correr tres
+sesiones en tres días.* **En el tablero no se nombra a ninguna persona** — solo el área.
+
+**Las dos que canceló la mentoría no están ahí**, conforme al criterio: *el tablero del cliente
+cuenta solo las caídas del lado del área.*
