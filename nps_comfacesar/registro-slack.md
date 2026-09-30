@@ -15,6 +15,63 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🌅 30 sep · 7:30 a. m. · Corte del miércoles · el programa pasa de 94 a 101
+
+**Nada publicado en Slack.** Fecha verificada contra el reloj y contra el último commit: **miércoles
+30, 7:13 a. m. Colombia**.
+
+### Entraron siete sesiones de golpe
+
+| Sesión | Fecha | Qué llegó |
+|---|---|---|
+| Subsidio S5 · José Luciano · dos horas | 28 sep | grabación, resumen y acta |
+| Subsidio S6 · Cindy Rodríguez | 28 sep | grabación, resumen y acta PDF |
+| Sub. Financiera S11 · Rafael Solano | 28 sep | grabación, resumen y acta |
+| Educación S4 · Óscar Cotes y Julissa Pérez | 28 sep | grabación, resumen y acta |
+| Servicios Sociales S10 | 29 sep | grabación, 7:04 a. m. |
+| Agencia de Empleo S7 | 29 sep | grabación, 7:11 a. m. |
+| Subsidio S7 | 29 sep | grabación, 7:13 a. m. |
+
+**Las cuatro del lunes figuraban ayer «sin soporte» y hoy tienen los tres documentos.** *No estaban
+mal contadas: estaban sin soporte, que es distinto* — y así quedó dicho en el tablero, porque un
+salto de siete de un día para otro necesita explicación.
+
+**Ninguna trae informe de asistencia todavía**, así que el acumulado se queda en **92%** y la
+cobertura baja a **93 medidas sobre 101**.
+
+### Lo que no computa
+
+**Comunicaciones S10, Manuel, martes 4:00 p. m. — sin rastro.** Lo único en el canal es el aviso de
+Sandra a las 4:01 diciendo que estaba en la sala. *No la doy por caída:* Lucía viene publicando
+grabaciones esta mañana en orden y puede estar en camino. **Queda a la vista y no computa.**
+
+**Sub. Operativa S5 — cancelación del área, avisada.** Las caídas suben a **20**, con el reparto
+corregido: **ocho inasistencias y siete cancelaciones**, no nueve y seis.
+
+### Tres cosas del calendario
+
+1. **Subsidio lleva dos S10** — jueves 1 al mediodía y viernes 2 con Avelino.
+2. **Sub. Operativa del jueves dice S6 y es la S5.**
+3. **La de «María Elvira cierres» se movió** del miércoles al **jueves 1 a las 10:00**. Y la de
+   Subsidio del miércoles al mediodía pasó a las 10:00 titulada S8, con lo que **desaparece el S6
+   repetido** que este registro venía señalando.
+
+### Áreas sin fecha: de siete a diez
+
+Se suman **Educación, Sub. Financiera y Agencia de Empleo**, las tres por lo mismo: corrieron su
+última sesión y no tomaron otra. *No es abandono, es que cerraron su serie.* Las otras siete son
+Vivienda, Tesorería, Talento Humano, Planeación, Gerencia Financiera, Cumplimiento y Mercadeo.
+
+**Publicado:** Termómetro **v84**, Mesa **v38**, Mesa nueva **v10**.
+
+### Lo que hay que mirar antes de la reunión
+
+**El Corte de María Elvira dice 95 sesiones y el Termómetro dice 101.** No se contradicen —el Corte
+está cortado al 25 de septiembre— **pero en una reunión con la contraparte eso se lee como dos
+cifras distintas del mismo programa.** *Lo mantiene Lucía; no lo toqué.*
+
+---
+
 ## 📋 29 sep · 4:04 p. m. · Sandra lanzó la encuesta en diecisiete canales
 
 **La publicó ella**, uno cada cinco segundos entre las **16:03:16** y las **16:04:41**. Mismo texto
