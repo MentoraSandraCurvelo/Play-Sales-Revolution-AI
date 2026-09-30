@@ -9,28 +9,102 @@
   "fecha_corta": "29 septiembre 2026",
   "subtitulo_meta": "Sesión grupal del área · 29 de septiembre de 2026 · 4:00 p. m. · 1 h 01 min · Virtual — Microsoft Teams",
   "datos_sesion": [
-    ["Área(s)", "Comunicaciones — Comfacesar"],
-    ["Sesión", "N° 10 — Última grupal de la fase: el agente de campañas y el circuito de investigación"],
-    ["Fecha", "29 de septiembre de 2026"],
-    ["Duración de la sesión", "1 hora 1 minuto"],
-    ["Modalidad", "Virtual — Microsoft Teams"],
-    ["Asistencia", "Vidiana Bendeck, Sandra Machado, César Reyes, María Elvira Marulanda y Julio Pérez"],
-    ["Grabación", "Publicada en el canal del área"],
-    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+    [
+      "Área(s)",
+      "Comunicaciones — Comfacesar"
+    ],
+    [
+      "Sesión",
+      "N° 10 — Última grupal de la fase: el agente de campañas y el circuito de investigación"
+    ],
+    [
+      "Fecha",
+      "29 de septiembre de 2026"
+    ],
+    [
+      "Duración de la sesión",
+      "1 hora 1 minuto"
+    ],
+    [
+      "Modalidad",
+      "Virtual — Microsoft Teams"
+    ],
+    [
+      "Asistencia",
+      "Vidiana Bendeck, Sandra Machado, César Reyes, María Elvira Marulanda y Julio Pérez"
+    ],
+    [
+      "Grabación",
+      "Publicada en el canal del área"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo — Mentora IAM™ Intelligence"
+    ]
   ],
   "kpis": [
-    {"valor": "3 h", "etiqueta": "La campaña completa, de punta a punta", "detalle": "Antes: una semana contando el diseño"},
-    {"valor": "9", "etiqueta": "Piezas que entrega el agente", "detalle": "Del guion al calendario de publicación"},
-    {"valor": "1", "etiqueta": "Agente corriendo en el área", "detalle": "El primero del equipo"},
-    {"valor": "4", "etiqueta": "Riesgos que trabaja la campaña", "detalle": "Del estudio propio de seguridad y salud"},
-    {"valor": "300", "etiqueta": "Documentos a la vez en el cuaderno", "detalle": "Para trabajar un cuerpo entero de información"}
+    {
+      "valor": "3 h",
+      "etiqueta": "La campaña completa, de punta a punta",
+      "detalle": "Antes: una semana contando el diseño"
+    },
+    {
+      "valor": "9",
+      "etiqueta": "Piezas que entrega el agente",
+      "detalle": "Del guion al calendario de publicación"
+    },
+    {
+      "valor": "1",
+      "etiqueta": "Agente corriendo en el área",
+      "detalle": "El primero del equipo"
+    },
+    {
+      "valor": "4",
+      "etiqueta": "Riesgos que trabaja la campaña",
+      "detalle": "Del estudio propio de seguridad y salud"
+    },
+    {
+      "valor": "300",
+      "etiqueta": "Documentos a la vez en el cuaderno",
+      "detalle": "Para trabajar un cuerpo entero de información"
+    }
   ],
   "participantes": [
-    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
-    {"nombre": "Vidiana Bendeck", "cargo": "Profesional de Comunicaciones — Comfacesar", "correo": "profesionalcomunicaciones@comfacesar.com", "modalidad": "Virtual", "nivel": "Avanzado"},
-    {"nombre": "Sandra Machado", "cargo": "Profesional de Comunicaciones — Comfacesar", "correo": "profesionalcomunicaciones2@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"},
-    {"nombre": "César Reyes", "cargo": "Diseño — Comfacesar", "correo": "diseno@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"},
-    {"nombre": "María Elvira Marulanda", "cargo": "Contraparte del proyecto — Comfacesar", "correo": "comunicaciones@comfacesar.com", "modalidad": "Virtual", "nivel": "—"}
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "—",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Vidiana Bendeck",
+      "cargo": "Profesional de Comunicaciones — Comfacesar",
+      "correo": "profesionalcomunicaciones@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Avanzado"
+    },
+    {
+      "nombre": "Sandra Machado",
+      "cargo": "Profesional de Comunicaciones — Comfacesar",
+      "correo": "profesionalcomunicaciones2@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Intermedio"
+    },
+    {
+      "nombre": "César Reyes",
+      "cargo": "Diseño — Comfacesar",
+      "correo": "diseno@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Intermedio"
+    },
+    {
+      "nombre": "María Elvira Marulanda",
+      "cargo": "Contraparte del proyecto — Comfacesar",
+      "correo": "comunicaciones@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "—"
+    }
   ],
   "mapa_calor_intro": "Riesgos identificados en la Sesión 10, última grupal de la fase. El área tiene su primer agente corriendo y una campaña completa construida con él. Lo que queda abierto es que ese trabajo se vea donde se mide.",
   "riesgos": [
@@ -61,16 +135,51 @@
     {
       "titulo": "Los tableros nacen privados y no se comparten",
       "nivel": "BAJO",
-      "descripcion": "**Un tablero que no se comparte no sirve para revisar en equipo.** *Se corrigió en sesión:* al publicarlo hay que abrir el candado y pasar de _solo tú_ a **cualquiera con el enlace.** _Con eso, quien deba revisarlo lo ve en vivo, conforme se va modelando, sin pedir una nueva versión._",
+      "descripcion": "**Un tablero que no se comparte no sirve para revisar en equipo.** *Se corrigió en sesión:* al publicarlo hay que abrir el candado y **darle acceso a quien deba revisarlo** — la jefatura, el equipo, la dirección. _Con eso lo ven en vivo, conforme se va modelando, sin pedir una versión nueva._ **El criterio es que lo vea quien tiene que verlo, no que quede abierto a cualquiera:** *un tablero con datos internos se comparte con destinatario, igual que un informe.*",
       "responsable": "Comunicaciones / Permanente"
     }
   ],
   "alertas": [
-    {"num": "01", "nivel": "ALTO", "titulo": "Cargar el reporte de productividad del área", "descripcion": "**Con la campaña y el tablero de solicitudes**, bien estructurado: *proceso, cadencia, minutos antes, minutos ahora y observación firmada.* **Es lo único que la dirección alcanza a ver.**", "responsable": "Comunicaciones", "plazo": "Inmediato"},
-    {"num": "02", "nivel": "ALTO", "titulo": "Montar el agente del monitoreo de noticias", "descripcion": "De los tres frentes pendientes **es el que más se repite y el que menos depende de terceros.** _Es el candidato para los días que quedan._", "responsable": "Comunicaciones", "plazo": "Antes del 5 de octubre"},
-    {"num": "03", "nivel": "ALTO", "titulo": "Probar el audio para los flashes de radio", "descripcion": "**Cargar la voz y el texto y generar un flash de prueba.** *Si funciona, el canal deja de depender de que una persona pueda grabar.*", "responsable": "Vidiana Bendeck", "plazo": "Antes del 5 de octubre"},
-    {"num": "04", "nivel": "MEDIO", "titulo": "Abrir los tableros al compartirlos", "descripcion": "Pasar de **solo tú** a *cualquiera con el enlace*, **para que se revisen en vivo** sin reenviar versiones.", "responsable": "Comunicaciones", "plazo": "Permanente"},
-    {"num": "05", "nivel": "MEDIO", "titulo": "Usar el entorno de investigación sobre un tema real del área", "descripcion": "**No un ejercicio de práctica:** *un tema que el área necesite sustentar*, para que el circuito completo quede probado sobre trabajo propio.", "responsable": "Comunicaciones", "plazo": "Antes del 5 de octubre"}
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Cargar el reporte de productividad del área",
+      "descripcion": "**Con la campaña y el tablero de solicitudes**, bien estructurado: *proceso, cadencia, minutos antes, minutos ahora y observación firmada.* **Es lo único que la dirección alcanza a ver.**",
+      "responsable": "Comunicaciones",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Montar el agente del monitoreo de noticias",
+      "descripcion": "De los tres frentes pendientes **es el que más se repite y el que menos depende de terceros.** _Es el candidato para los días que quedan._",
+      "responsable": "Comunicaciones",
+      "plazo": "Antes del 5 de octubre"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Probar el audio para los flashes de radio",
+      "descripcion": "**Cargar la voz y el texto y generar un flash de prueba.** *Si funciona, el canal deja de depender de que una persona pueda grabar.*",
+      "responsable": "Vidiana Bendeck",
+      "plazo": "Antes del 5 de octubre"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Compartir los tableros con quien deba revisarlos",
+      "descripcion": "Sacarlos de **solo tú** y *darle acceso a quien tiene que verlos*, **para que se revisen en vivo** sin reenviar versiones. _Con destinatario, no abiertos a cualquiera._",
+      "responsable": "Comunicaciones",
+      "plazo": "Permanente"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Usar el entorno de investigación sobre un tema real del área",
+      "descripcion": "**No un ejercicio de práctica:** *un tema que el área necesite sustentar*, para que el circuito completo quede probado sobre trabajo propio.",
+      "responsable": "Comunicaciones",
+      "plazo": "Antes del 5 de octubre"
+    }
   ],
   "ejercicios": [
     {
@@ -167,13 +276,48 @@
   ],
   "tareas_intro": "Última grupal de la fase. El área llega con su primer agente corriendo, una campaña completa construida con él y una cifra limpia que la respalda. Lo que falta es que ese trabajo quede donde se mide, y montar al menos uno de los tres frentes que siguen sin circuito.",
   "tareas": [
-    {"tarea": "Cargar en el reporte del área la campaña y el tablero de solicitudes", "responsable": "Comunicaciones", "prioridad": "ALTA", "plazo": "Inmediato"},
-    {"tarea": "Montar el agente de monitoreo de noticias", "responsable": "Comunicaciones", "prioridad": "ALTA", "plazo": "Antes del 5 de octubre"},
-    {"tarea": "Probar el audio generado con un flash de radio real", "responsable": "Vidiana Bendeck", "prioridad": "ALTA", "plazo": "Antes del 5 de octubre"},
-    {"tarea": "Usar el entorno de investigación sobre un tema que el área deba sustentar", "responsable": "Comunicaciones", "prioridad": "MEDIA", "plazo": "Antes del 5 de octubre"},
-    {"tarea": "Abrir los tableros al compartirlos, de «solo tú» a «cualquiera con el enlace»", "responsable": "Comunicaciones", "prioridad": "MEDIA", "plazo": "Permanente"},
-    {"tarea": "Revisar por qué bajó el volumen de solicitudes de diseño", "responsable": "Sandra Machado", "prioridad": "BAJA", "plazo": "Antes del 5 de octubre"},
-    {"tarea": "Dejar listadas las conexiones a sistemas propios para la siguiente fase", "responsable": "César Reyes", "prioridad": "BAJA", "plazo": "Segunda fase"}
+    {
+      "tarea": "Cargar en el reporte del área la campaña y el tablero de solicitudes",
+      "responsable": "Comunicaciones",
+      "prioridad": "ALTA",
+      "plazo": "Inmediato"
+    },
+    {
+      "tarea": "Montar el agente de monitoreo de noticias",
+      "responsable": "Comunicaciones",
+      "prioridad": "ALTA",
+      "plazo": "Antes del 5 de octubre"
+    },
+    {
+      "tarea": "Probar el audio generado con un flash de radio real",
+      "responsable": "Vidiana Bendeck",
+      "prioridad": "ALTA",
+      "plazo": "Antes del 5 de octubre"
+    },
+    {
+      "tarea": "Usar el entorno de investigación sobre un tema que el área deba sustentar",
+      "responsable": "Comunicaciones",
+      "prioridad": "MEDIA",
+      "plazo": "Antes del 5 de octubre"
+    },
+    {
+      "tarea": "Compartir los tableros de trabajo con quien deba revisarlos, no dejarlos en «solo tú»",
+      "responsable": "Comunicaciones",
+      "prioridad": "MEDIA",
+      "plazo": "Permanente"
+    },
+    {
+      "tarea": "Revisar por qué bajó el volumen de solicitudes de diseño",
+      "responsable": "Sandra Machado",
+      "prioridad": "BAJA",
+      "plazo": "Antes del 5 de octubre"
+    },
+    {
+      "tarea": "Dejar listadas las conexiones a sistemas propios para la siguiente fase",
+      "responsable": "César Reyes",
+      "prioridad": "BAJA",
+      "plazo": "Segunda fase"
+    }
   ],
   "observaciones": [
     "**Última sesión grupal de la fase, y el área llega con su primer agente corriendo.** _Asiste la campaña de seguridad y salud en el trabajo articulada al canal interno_, **construida sobre el estudio propio de riesgos del área.**",
@@ -189,7 +333,7 @@
     "**Y lo mejor de la sesión no lo trajo la mentoría: lo vio el propio equipo.** _Los flashes de radio los graba el productor desde su estudio_, **y cuando él no puede el contenido no sale** — ya ha pasado por calamidad. *Con la voz cargada y el texto, el audio se genera sin depender de la grabación.* **Un canal que hoy es frágil deja de serlo.**",
     "_Y dos usos más que salieron del equipo:_ **el contenido de valor para los colaboradores**, que es un compromiso del direccionamiento estratégico y siempre se enreda; y **las plantillas interactivas** para hacer algo distinto de lo tradicional con el público interno.",
     "**Quedó señalado que las herramientas ya están disponibles y sin usar.** _El entorno de investigación y el cuaderno vienen incluidos en lo que la Caja ya tiene, y el área no los conocía._ **Como se dijo en la sesión: es como tener carro sin saber manejarlo.**",
-    "_Y una corrección pequeña que vale para todos:_ **los tableros nacen privados.** Al publicarlos hay que pasar de *solo tú* a **cualquiera con el enlace** — *así quien deba revisarlos los ve en vivo, conforme se van modelando, sin pedir una versión nueva.*",
+    "_Y una corrección pequeña que vale para todos:_ **los tableros nacen privados.** Al publicarlos hay que abrir el candado y **darle acceso a quien deba revisarlo** — *así lo ve en vivo, conforme se va modelando, sin pedir una versión nueva.* **Con destinatario, eso sí:** _un tablero con datos internos se comparte con quien tiene que verlo, no se deja abierto a cualquiera._",
     "**Para lo que viene quedó planteada una conexión concreta:** *los sistemas propios de la Caja*, incluido el que reconoce a los corredores en la carrera. **En lugar de descargar información a mano, conectar a la fuente los tableros que ya existen** — *no rehacer lo que funciona, enchufarlo.*"
   ],
   "proxima_sesion": {
@@ -198,7 +342,7 @@
       "El reporte de productividad del área cargado",
       "El flash de radio probado con audio generado",
       "El entorno de investigación usado sobre un tema real",
-      "Los tableros compartidos con enlace abierto"
+      "Los tableros compartidos con quien deba revisarlos"
     ],
     "agenda": [
       "Montaje del agente de monitoreo de noticias",

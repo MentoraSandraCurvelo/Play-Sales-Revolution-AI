@@ -1490,3 +1490,42 @@ y el bloque de caídas reescrito.
 *dos sesiones estaban anotadas como inasistencia y no lo eran* — la persona estaba en la sala de
 espera y no se logró el ingreso. **Se plantea como problema de admisión a la reunión, que se
 arregla revisando la configuración del enlace.**
+
+### Miércoles 30 — las dos sesiones de la mañana que canceló la mentoría
+
+**Sandra canceló Subsidio de las 10:00 a. m. y Jurídica de las 11:00 a. m.** La reunión presencial
+en la Caja con **Julio Acosta —subdirección administrativa— y María Elvira** estaba agendada de
+8:00 a 12:00 y se extendió. *Sandra avisó a las dos áreas.*
+
+**No son caídas del área.** Quedan en el registro con causa propia —*cancelada por la mentoría,
+avisada*— y **no entran en el conteo del tablero del cliente, que sigue en 20.** El registro
+interno pasa a **24**.
+
+| Área | Hora | Qué era | Qué queda |
+|---|---|---|---|
+| Subsidio | 10:00 a. m. | Hora extra pedida por José Luciano, fuera de la agenda base | **La de las 3:00 del mismo día toma el número: S8.** *Confirmado por Sandra: se hace a las 3.* Cierra en **S11**, igual que antes |
+| Jurídica | 11:00 a. m. | Era la **S12** | **La del jueves 1 a las 8:00 pasa a ser la S12.** Cierra en **S12**, no en S13 |
+
+**Los avisos para los dos canales quedaron redactados y en espera del visto bueno de Sandra.**
+*Son mensajes puntuales, así que no salen sin que ella los apruebe.*
+
+**Lilibeth Costa llegaba lista a la de Jurídica:** actualizó el dashboard del área a las 9:49 a. m.
+y llenó la encuesta a las 9:31. _Eso se reconoce en el aviso._
+
+### Miércoles 30, 7:46 p. m. — Comunicaciones S10 publicada
+
+**Resumen publicado en `#comunicaciones`** (`1790797562.213929`). *Era la única acta pendiente de
+las cuatro sesiones del 28 y 29* — Servicios Sociales S10 y Agencia de Empleo S7 las subió Sandra
+a las 14:38 y 14:39, y Subsidio S7 salió por la mañana.
+
+**Estuvo frenada un día por una instrucción del acta que contradecía una orden de Sandra.** La
+tarea decía *«abrir los tableros al compartirlos, de solo tú a cualquiera con el enlace»*, y Sandra
+había pedido que **el tablero de agentes fuera privado.**
+
+**Se resolvió cambiando el criterio en el acta, no borrándolo:** ahora dice *compartir el tablero
+con quien deba revisarlo — con destinatario, no abierto a cualquiera.* **Se corrigió en cinco
+lugares** —tarea, riesgo, alerta 04, observación y condiciones de la próxima— *y el acta se
+regeneró.*
+
+**Titular de la sesión:** la campaña completa de seguridad y salud —nueve piezas, del guion al
+calendario de publicación— **pasó de una semana contando el diseñador a dos horas y media o tres.**
