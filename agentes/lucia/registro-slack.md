@@ -1471,15 +1471,15 @@ la regla nueva.**
 | Dato | Antes | Ahora |
 |---|---|---|
 | Corte | 25 sep | **29 sep** |
-| Sesiones ejecutadas | 95 | **102** |
+| Sesiones ejecutadas | 95 | **103** |
 | Agentes construidos | 13 | **16** |
 | Procesos con ahorro medido | 16 | **17** |
 | Sesiones caídas | 18 | **20** |
 | Restante | 1 semana | **4 días hábiles** |
 
-**Las 102 son verificadas:** 95 del corte anterior + 4 del lunes 28 + 3 del martes 29
-(Servicios Sociales S10, Agencia de Empleo S7 y Subsidio S7, las tres con grabación publicada).
-*Falta confirmar Comunicaciones S10 del martes;* **si se hizo, la cifra sube a 103.**
+**Las 103 son verificadas:** 95 del corte anterior + 4 del lunes 28 + 4 del martes 29 — Servicios
+Sociales S10, Agencia de Empleo S7, Subsidio S7 y Comunicaciones S10, *las cuatro con grabación
+publicada.* **Del martes solo se cayó Sub. Operativa.**
 
 **Lo nuevo en el cuerpo:** los tres casos de agentes que corrigieron o encontraron lo que nadie
 les pidió —Subsidio con cuatro errores, Sub. Financiera con la regla de reparto 70/30 y el
