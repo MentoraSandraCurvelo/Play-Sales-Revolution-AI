@@ -1529,3 +1529,8 @@ regeneró.*
 
 **Titular de la sesión:** la campaña completa de seguridad y salud —nueve piezas, del guion al
 calendario de publicación— **pasó de una semana contando el diseñador a dos horas y media o tres.**
+
+**Aviso publicado solo en `#juridica`** (`1790797724.179479`), a las 2:48 p. m. *Se leyó el canal
+antes de publicar.* **Decisión de Sandra: en `#subsidio` no se publica nada** — el área hizo su
+sesión de las 3:00 p. m. ese mismo día, así que no perdió número y la hora caída era un espacio
+extra. _El registro interno la conserva igual._

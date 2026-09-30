@@ -297,7 +297,7 @@
       "quien_cancela": "IAM — Sandra Curvelo",
       "motivo": "Retirada del calendario por la mentoría. El espacio se reasignó a la reunión de organización del cierre.",
       "causa": "retirada por la mentoría",
-      "aviso_en_canal": "—",
+      "aviso_en_canal": "Sandra avisó directamente al área. **Decisión de ella: no se publica aviso en el canal** — la sesión de las 3:00 p. m. del mismo día sí se hace y el número no se pierde.",
       "reagendada": false,
       "compromiso": "Decisión de Sandra: no se publica aviso en el canal. Queda solo en el registro interno.",
       "cuenta_como": "no realizada",
@@ -342,7 +342,7 @@
       "quien_cancela": "IAM — Sandra Curvelo",
       "motivo": "Cancelada por la mentoría. La reunión presencial en la Caja con Julio Acosta —subdirección administrativa— y María Elvira Marulanda estaba agendada de 8:00 a 12:00 y se extendió, cruzándose con las dos sesiones de la mañana. Sandra avisó a las dos áreas.",
       "causa": "cancelada por la mentoría — avisada",
-      "aviso_en_canal": "Sandra avisó directamente a las dos áreas. La nota escrita en el canal queda para que reprogramen.",
+      "aviso_en_canal": "https://iamteamespacio.slack.com/archives/C0BPYQD0UQ4/p1790797724179479",
       "reagendada": false,
       "compromiso": "El número no avanza. La sesión del jueves 1 de octubre a las 8:00 a. m. pasa a ser la S12. Si no se reprograma esta hora, Jurídica cierra el programa en S12 y no en S13.",
       "cuenta_como": "no realizada",
@@ -357,11 +357,11 @@
       "quien_cancela": "IAM — Sandra Curvelo",
       "motivo": "Cancelada por la mentoría. La reunión presencial en la Caja con Julio Acosta —subdirección administrativa— y María Elvira Marulanda estaba agendada de 8:00 a 12:00 y se extendió, cruzándose con las dos sesiones de la mañana. Sandra avisó a las dos áreas.",
       "causa": "cancelada por la mentoría — avisada",
-      "aviso_en_canal": "Sandra avisó directamente a las dos áreas. La nota escrita en el canal queda para que reprogramen.",
+      "aviso_en_canal": "Sandra avisó directamente al área. **Decisión de ella: no se publica aviso en el canal** — la sesión de las 3:00 p. m. del mismo día sí se hace y el número no se pierde.",
       "reagendada": false,
       "compromiso": "El número no avanza. **La sesión de las 3:00 p. m. del mismo miércoles 30 toma el número S8** y las demás conservan el suyo: S9 el jueves 1, S10 el viernes 2 y S11 el lunes 5. Subsidio sigue cerrando en S11 — pierde una hora, no una posición.",
       "cuenta_como": "no realizada",
-      "nota": "**Era la hora extra que pidió José Luciano Contreras, coordinación de Subsidio y Aportes**, _no una de las sesiones de la agenda base_. La canceló la mentoría y avisó. **No entra en el conteo de caídas del tablero del cliente.** *José Luciano escribió en el canal a las 10:16 a. m.* **La sesión de las 3:00 p. m. de hoy con atención de reclamos sigue en pie** — el evento del calendario dice «Subsidio S9» y debe decir **Sesion 8**."
+      "nota": "**Era la hora extra que pidió José Luciano Contreras, coordinación de Subsidio y Aportes**, _no una de las sesiones de la agenda base_. La canceló la mentoría y avisó. **No entra en el conteo de caídas del tablero del cliente.** *José Luciano escribió en el canal a las 10:16 a. m.* **Confirmado por Sandra: la sesión de las 3:00 p. m. sí se hace** — el evento del calendario dice «Subsidio S9» y debe decir **Sesion 8**."
     }
   ],
   "patron": {
