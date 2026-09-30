@@ -1,0 +1,461 @@
+<title>KPIs Comfacesar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Lato:wght@400;700;900&display=swap">
+
+<style>
+  :root {
+    --ground: #FAF7F7; --surface: #FFFFFF; --surface-2: #F3EEEE;
+    --ink: #1A1315; --ink-2: #4A3E40; --muted: #6B5E60;
+    --line: #E6DDDD; --line-strong: #D2C6C6;
+    --accent: #C00000; --accent-soft: #F7E7E7;
+    --good: #1B6B45; --good-bg: #E2F0E9;
+    --warn: #8F5407; --warn-bg: #F8EBDA;
+    --crit: #A31C1C; --crit-bg: #F8E3E3;
+    --bar: #C00000; --bar-soft: #E9B6B6; --track: #EDE4E4; --grid: #E6DDDD;
+    --s1: #E8898A; --s2: #BE2E2E; --s3: #6E0F0F;
+    --f-display: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+    --f-body: "Source Serif 4", Georgia, "Times New Roman", serif;
+    --f-ui: "Lato", "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #121011; --surface: #1B1819; --surface-2: #232021;
+      --ink: #F1ECEC; --ink-2: #D5CCCC; --muted: #A0918F;
+      --line: #2C2627; --line-strong: #3D3536;
+      --accent: #E85555; --accent-soft: #33201F;
+      --good: #6FCB9B; --good-bg: #163024;
+      --warn: #E5AC66; --warn-bg: #332616;
+      --crit: #F08585; --crit-bg: #3A1E1E;
+      --bar: #E85555; --bar-soft: #5E2B2B; --track: #2C2627; --grid: #2C2627;
+      --s1: #F2B0B0; --s2: #E85555; --s3: #B33A3A;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #121011; --surface: #1B1819; --surface-2: #232021;
+    --ink: #F1ECEC; --ink-2: #D5CCCC; --muted: #A0918F;
+    --line: #2C2627; --line-strong: #3D3536;
+    --accent: #E85555; --accent-soft: #33201F;
+    --good: #6FCB9B; --good-bg: #163024;
+    --warn: #E5AC66; --warn-bg: #332616;
+    --crit: #F08585; --crit-bg: #3A1E1E;
+    --bar: #E85555; --bar-soft: #5E2B2B; --track: #2C2627; --grid: #2C2627;
+    --s1: #F2B0B0; --s2: #E85555; --s3: #B33A3A;
+  }
+
+  * { box-sizing: border-box; }
+  body { background: var(--ground); color: var(--ink);
+    font-family: var(--f-body); font-size: 1.0625rem; line-height: 1.6;
+    margin: 0; padding-inline: 1.25rem; padding-block: 0 5rem; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 64rem; margin: 0 auto; }
+
+  .eyebrow { font-family: var(--f-ui); font-weight: 900; font-size: .7rem;
+    letter-spacing: .2em; text-transform: uppercase; color: var(--accent); margin: 0; }
+  h1 { font-family: var(--f-display); font-size: clamp(2rem, 5.5vw, 2.9rem);
+    font-weight: 800; line-height: 1.03; letter-spacing: -.025em; text-wrap: balance; margin: .5rem 0 0; }
+  h2 { font-family: var(--f-display); font-size: 1.25rem; font-weight: 800;
+    letter-spacing: -.01em; text-wrap: balance; margin: 0; }
+  h3 { font-family: var(--f-ui); font-size: .74rem; font-weight: 900;
+    letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin: 0; }
+  p { margin: 0; }
+  .lede { font-size: 1.1rem; color: var(--muted); text-wrap: pretty; }
+  strong { font-weight: 600; color: var(--ink); }
+
+  header.top { display: flex; flex-direction: column; gap: .8rem;
+    padding-block: 3.25rem 1.75rem; border-bottom: 3px solid var(--accent); }
+  .stamp { font-family: var(--f-ui); font-size: .75rem; color: var(--muted); }
+  .fuente { font-family: var(--f-ui); font-size: .68rem; font-weight: 900;
+    letter-spacing: .1em; text-transform: uppercase; color: var(--good);
+    background: var(--good-bg); padding: .3rem .6rem; border-radius: 3px; align-self: flex-start; }
+
+  section { padding-top: 2.6rem; display: flex; flex-direction: column; gap: 1rem; }
+  .sec-head { display: flex; flex-direction: column; gap: .35rem; }
+
+  .stats { display: grid; gap: .7rem; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); }
+  .stat { background: var(--surface); border: 1px solid var(--line);
+    border-top: 3px solid var(--accent); padding: 1rem 1.1rem;
+    display: flex; flex-direction: column; gap: .25rem; }
+  .stat b { font-family: var(--f-display); font-size: 1.95rem; font-weight: 800;
+    line-height: 1.05; letter-spacing: -.03em; font-variant-numeric: tabular-nums; }
+  .stat b small { font-size: .95rem; font-weight: 700; color: var(--muted); letter-spacing: 0; }
+  .stat span { font-family: var(--f-ui); font-size: .73rem; font-weight: 700;
+    color: var(--muted); text-wrap: pretty; }
+  .stat.hero { border-top-color: var(--good); }
+  .stat.hero b { color: var(--good); }
+
+  .note { border-left: 3px solid var(--accent); background: var(--accent-soft);
+    padding: 1rem 1.15rem; font-size: .97rem; }
+  .note.plain { border-left-color: var(--line-strong); background: var(--surface-2); }
+  .note.crit { border-left-color: var(--crit); background: var(--crit-bg); }
+  .note.good { border-left-color: var(--good); background: var(--good-bg); }
+
+  .tablewrap { overflow-x: auto; border: 1px solid var(--line); background: var(--surface); }
+  table { border-collapse: collapse; width: 100%; font-family: var(--f-ui); font-size: .89rem; }
+  th { text-align: left; font-weight: 900; font-size: .66rem; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--muted); padding: .7rem .8rem;
+    border-bottom: 1px solid var(--line-strong); white-space: nowrap; }
+  td { padding: .68rem .8rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tbody tr:last-child td { border-bottom: 0; }
+  th.c, td.c { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .area { font-weight: 700; color: var(--ink); }
+  .tarea { color: var(--ink-2); }
+  .frec { font-size: .78rem; color: var(--muted); white-space: nowrap; }
+  tr.suma td { background: var(--surface-2); font-weight: 900; border-top: 2px solid var(--line-strong); }
+  tr.base td { background: var(--accent-soft); }
+  tr.cero td { color: var(--muted); }
+
+  .pill { display: inline-flex; align-items: center; font-family: var(--f-ui);
+    font-weight: 900; font-size: .68rem; padding: .18rem .45rem; border-radius: 3px; white-space: nowrap; }
+  .pill.good { background: var(--good-bg); color: var(--good); }
+  .pill.warn { background: var(--warn-bg); color: var(--warn); }
+  .pill.crit { background: var(--crit-bg); color: var(--crit); }
+  .pill.base { background: var(--accent); color: #fff; }
+  :root[data-theme="dark"] .pill.base, :root:not([data-theme="light"]) .pill.base { color: #1B1819; }
+
+  figure { margin: 0; background: var(--surface); border: 1px solid var(--line); padding: 1.2rem 1rem .9rem; }
+  figcaption { font-family: var(--f-ui); font-size: .78rem; color: var(--muted);
+    margin-top: .7rem; text-wrap: pretty; }
+  svg { display: block; width: 100%; height: auto; max-width: 100%; }
+  .s-lab { font-family: "Lato", sans-serif; font-size: 12px; font-weight: 700; fill: var(--ink); }
+  .s-val { font-family: "Lato", sans-serif; font-size: 12px; font-weight: 900; fill: var(--ink); }
+  .s-tick { font-family: "Lato", sans-serif; font-size: 10px; font-weight: 700; fill: var(--muted); }
+  .s-note { font-family: "Lato", sans-serif; font-size: 10px; font-weight: 900; fill: var(--accent); }
+  .s-end { font-family: "Lato", sans-serif; font-size: 11px; font-weight: 900; fill: var(--ink); }
+
+  .leyenda { display: flex; flex-wrap: wrap; gap: .35rem 1.2rem; margin-top: .8rem;
+    font-family: var(--f-ui); font-size: .75rem; font-weight: 700; color: var(--muted); }
+  .lg { display: inline-flex; align-items: center; gap: .4rem; }
+  .sw { width: .8rem; height: .8rem; border-radius: 2px; display: inline-block; }
+  .sw.full { background: var(--bar); }
+  .sw.open { background: var(--bar-soft); border: 1.5px solid var(--bar); }
+  .sw.s1 { background: var(--s1); } .sw.s2 { background: var(--s2); } .sw.s3 { background: var(--s3); }
+
+  .figs { display: grid; gap: .8rem; grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); }
+  .dona { display: block; margin: 0 auto; max-width: 15rem; }
+  .s-big { font-family: "Montserrat", sans-serif; font-size: 30px; font-weight: 800; fill: var(--ink); }
+  .s-cap { font-family: "Lato", sans-serif; font-size: 10px; font-weight: 900; fill: var(--muted); letter-spacing: .08em; }
+  .sw.s4 { background: var(--track); border: 1px solid var(--line-strong); }
+  .sw.sA { background: var(--good); }
+
+  .quotes { display: grid; gap: .7rem; grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); }
+  blockquote { margin: 0; background: var(--surface); border: 1px solid var(--line);
+    border-top: 3px solid var(--accent); padding: 1rem 1.1rem;
+    display: flex; flex-direction: column; gap: .6rem; }
+  blockquote q { font-size: .98rem; line-height: 1.5; quotes: "«" "»"; }
+  blockquote cite { font-family: var(--f-ui); font-style: normal; font-size: .69rem;
+    font-weight: 900; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); }
+
+  .faltan { margin: 0; padding-left: 1.1rem; display: flex; flex-direction: column; gap: .5rem;
+    font-size: .97rem; }
+
+  footer { margin-top: 3.5rem; padding-top: 1.3rem; border-top: 1px solid var(--line);
+    font-family: var(--f-ui); font-size: .76rem; color: var(--muted);
+    display: flex; flex-wrap: wrap; gap: .4rem 1rem; }
+  .interno { font-family: var(--f-ui); font-size: .68rem; font-weight: 900;
+    letter-spacing: .1em; text-transform: uppercase; color: var(--crit);
+    background: var(--crit-bg); padding: .3rem .6rem; border-radius: 3px; align-self: flex-start; }
+  .tema { font-weight: 900; color: var(--accent); font-size: .8rem;
+    letter-spacing: .04em; text-transform: uppercase; white-space: nowrap; }
+  .hall { color: var(--ink); }
+  .evid { color: var(--muted); font-size: .82rem; }
+  .decide { color: var(--ink-2); }
+  ol.pasos { margin: 0; padding-left: 1.3rem; display: flex; flex-direction: column;
+    gap: .55rem; font-size: .97rem; }
+  .bloque { background: var(--surface); border: 1px solid var(--line);
+    border-left: 3px solid var(--accent); padding: 1.1rem 1.2rem;
+    display: flex; flex-direction: column; gap: .6rem; }
+  .bloque h4 { font-family: var(--f-display); font-size: 1.02rem; font-weight: 800;
+    margin: 0; letter-spacing: -.01em; }
+  .bloques { display: grid; gap: .8rem; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); }
+  .stat b.alert { color: var(--crit); }
+  tr.area-start td { border-top: 2px solid var(--line-strong); }
+  tr.area-start:first-child td { border-top: 0; }
+  .bloque .faltan { padding-left: 1rem; font-size: .92rem; gap: .35rem; }
+  .bloque p { font-size: .92rem; }
+
+  .kpi { display:grid; gap:.7rem; grid-template-columns:repeat(auto-fit,minmax(10rem,1fr)); }
+  td.c { text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap; }
+  th.c { text-align:right; }
+</style>
+
+<div class="wrap">
+
+  <header class="top">
+    <p class="eyebrow">IAM™ Intelligence · Comfacesar</p>
+    <h1>KPIs del programa</h1>
+    <p class="lede">Las horas que el programa devuelve cada semana, lo que valen en días y en pesos según quién las trabaja, en qué se están reinvirtiendo, y qué pasaría si las dieciocho áreas activas estuvieran midiendo.</p>
+    <span class="fuente">✓ Calculado sobre el archivo de assessment y las mediciones tomadas en acta · tarifa de profesional, la más baja de las tres</span>
+    <p class="stamp">Corte de las cifras: viernes 25 de septiembre de 2026 · 5:10 p. m. · tablero armado el miércoles 30 · el programa cierra el lunes 5</p>
+  </header>
+
+  <section>
+    <div class="sec-head"><h3>Los cinco que importan</h3><h2>Lo que el programa devuelve, hoy</h2></div>
+    <div class="kpi">
+      <div class="stat hero"><b>111,1<small> h</small></b><span>Recuperadas cada semana</span></div>
+      <div class="stat hero"><b>13,9<small> días</small></b><span>Días de trabajo por semana</span></div>
+      <div class="stat hero"><b>2,8<small> personas</small></b><span>Equivalente a tiempo completo</span></div>
+      <div class="stat"><b>$4,04<small> M</small></b><span>Cada semana</span></div>
+      <div class="stat"><b>$210,0<small> M</small></b><span>A doce meses, al perfil más bajo</span></div>
+      <div class="stat"><b>$554,3<small> M</small></b><span>A doce meses, al perfil directivo</span></div>
+    </div>
+    <div class="note">
+      <strong>Las 111,1 horas no son una estimación: son tareas medidas una por una</strong>, con su tiempo antes, su tiempo hoy y <em>cada cuánto se hacen</em>. La frecuencia es lo que convierte un ahorro puntual en uno sostenido — una tarea diaria de veinte minutos pesa más al año que un informe trimestral de ocho horas.
+      <br><br>
+      <strong>Todo está valorado a tarifa de profesional, $36.351 la hora, que es la más baja de las tres de Comfacesar.</strong> Parte de estas tareas las ejecuta una jefatura, donde la hora vale $62.862. <em>$210,0 millones es el piso verificable, no la cifra optimista.</em>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h3>La misma cifra en tres unidades</h3><h2>Horas, días y pesos</h2></div>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Periodo</th><th class="c">Horas</th><th class="c">Días de trabajo</th><th class="c">Valor</th></tr></thead>
+        <tbody>
+          <tr><td class="area"><strong>Una semana</strong></td><td class="c">111,1 h</td><td class="c">13,9 días</td><td class="c">$4,04 M</td></tr>
+          <tr><td class="area">Un mes</td><td class="c">481,4 h</td><td class="c">60,2 días</td><td class="c">$17,5 M</td></tr>
+          <tr><td class="area"><strong>Un año</strong></td><td class="c"><strong>5.777 h</strong></td><td class="c"><strong>722 días</strong></td><td class="c"><strong>$210,0 M</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <figure>
+      <svg viewBox="0 0 220 88" role="img" aria-label="Pictograma: las 111,1 horas semanales equivalen a 2,8 personas trabajando a tiempo completo.">
+  <g transform="translate(20,0)">
+    <circle cx="22" cy="16" r="12" fill="var(--track)"/><path d="M2 68 a20 24 0 0 1 40 0 z" fill="var(--track)"/>
+    <clipPath id="c0"><rect x="0" y="0" width="44" height="68"/></clipPath>
+    <g clip-path="url(#c0)"><circle cx="22" cy="16" r="12" fill="var(--bar)"/><path d="M2 68 a20 24 0 0 1 40 0 z" fill="var(--bar)"/></g>
+  </g>
+  <g transform="translate(84,0)">
+    <circle cx="22" cy="16" r="12" fill="var(--track)"/><path d="M2 68 a20 24 0 0 1 40 0 z" fill="var(--track)"/>
+    <clipPath id="c1"><rect x="0" y="0" width="44" height="68"/></clipPath>
+    <g clip-path="url(#c1)"><circle cx="22" cy="16" r="12" fill="var(--bar)"/><path d="M2 68 a20 24 0 0 1 40 0 z" fill="var(--bar)"/></g>
+  </g>
+  <g transform="translate(148,0)">
+    <circle cx="22" cy="16" r="12" fill="var(--track)"/><path d="M2 68 a20 24 0 0 1 40 0 z" fill="var(--track)"/>
+    <clipPath id="c2"><rect x="0" y="16" width="44" height="52"/></clipPath>
+    <g clip-path="url(#c2)"><circle cx="22" cy="16" r="12" fill="var(--bar)"/><path d="M2 68 a20 24 0 0 1 40 0 z" fill="var(--bar)"/></g>
+  </g>
+      </svg>
+      <figcaption><strong>Cada semana el programa devuelve el equivalente a 2,8 personas a tiempo completo.</strong> Sobre los 51 colaboradores del programa, es como haber sumado casi tres sin contratarlos. <em>Un día son ocho horas; una persona a tiempo completo, cuarenta.</em></figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <div class="sec-head"><h3>La misma hora, tres precios</h3><h2>Cuánto valen las 111,1 horas según quién las trabaja</h2></div>
+    <p><strong>Una hora recuperada vale lo que cuesta la persona que la trabajaba.</strong> Comfacesar tiene tres tarifas de costo hora, y las mismas 111,1 horas valen muy distinto según a cuál se apliquen. <em>Todo el resto del tablero usa la más baja.</em></p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Perfil</th><th class="c">Costo hora</th><th class="c">Por semana</th><th class="c">Al mes</th><th class="c">A 12 meses</th></tr></thead>
+        <tbody>
+          <tr class="base"><td class="area">Profesional <span class="pill base">Base del tablero</span></td><td class="c">$36.351</td><td class="c">$4,04 M</td><td class="c">$17,5 M</td><td class="c">$210,0 M</td></tr>
+          <tr><td class="area">Gerente o jefe</td><td class="c">$62.862</td><td class="c">$6,98 M</td><td class="c">$30,3 M</td><td class="c"><strong>$363,2 M</strong></td></tr>
+          <tr><td class="area">Directivo</td><td class="c">$95.941</td><td class="c">$10,66 M</td><td class="c">$46,2 M</td><td class="c"><strong>$554,3 M</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="note">
+      <strong>Por qué el tablero publica $210 y no $554.</strong> Valorar todo al perfil más alto supondría que un directivo hacía todas esas tareas, y no es cierto. <em>Valorarlo todo al más bajo supone lo contrario</em>, y también es falso: <strong>el seguimiento a los asistentes jurídicos y el Informe Alta Gerencia los hace una jefatura</strong>, donde la hora vale $62.862.
+      <br><br>
+      <strong>La lectura correcta es una banda: entre $210 y $554 millones al año</strong>, y el valor real está adentro. <em>Asignando a cada tarea el perfil que de verdad la ejecuta, la cifra sube por encima de $210 — nunca baja.</em> <strong>Por eso $210,0 millones es el piso, no el pronóstico.</strong>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h3>La proyección</h3><h2>Qué pasaría si las dieciocho áreas estuvieran midiendo</h2></div>
+    <p><strong>Las 111,1 horas salen de nueve áreas.</strong> Las otras nueve del programa han trabajado, han construido y algunas tienen agentes corriendo — <em>pero nadie tomó el tiempo antes y después</em>, que es lo único que convierte el avance en evidencia.</p>
+    <figure>
+      <svg viewBox="0 0 560 130" role="img" aria-label="Valor a doce meses: hoy 210 millones con nueve áreas midiendo; escenario base 371,6 millones; escenario alto 420 millones con las dieciocho áreas.">
+  <rect x="150" y="8" width="165" height="16" rx="2" fill="var(--bar)"/>
+  <text class="s-lab" x="140" y="20" text-anchor="end">Hoy</text>
+  <text class="s-val" x="323" y="20">$210,0 M</text>
+  <text class="s-tick" x="140" y="33" text-anchor="end">9 áreas midiendo</text>
+  <rect x="150" y="47" width="292" height="16" rx="2" fill="var(--s2)"/>
+  <text class="s-lab" x="140" y="59" text-anchor="end">Escenario base</text>
+  <text class="s-val" x="450" y="59">$371,6 M</text>
+  <text class="s-tick" x="140" y="72" text-anchor="end">18 áreas, a la mediana</text>
+  <rect x="150" y="86" width="330" height="16" rx="2" fill="var(--s1)"/>
+  <text class="s-lab" x="140" y="98" text-anchor="end">Escenario alto</text>
+  <text class="s-val" x="488" y="98">$420,0 M</text>
+  <text class="s-tick" x="140" y="111" text-anchor="end">18 áreas, al promedio</text>
+      </svg>
+      <figcaption>Valor recuperado a doce meses, a tarifa de profesional. <strong>El escenario base proyecta las nueve áreas sin medir a la mediana de las que sí miden</strong>, 9,5 h semanales; el alto, al promedio de 12,3 h. <em>La mediana es la lectura prudente, porque el promedio lo infla una sola área.</em></figcaption>
+    </figure>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Escenario</th><th class="c">Horas/semana</th><th class="c">Al mes</th><th class="c">A 12 meses</th></tr></thead>
+        <tbody>
+          <tr class="base"><td class="area">Hoy · 9 áreas midiendo <span class="pill base">Verificado</span></td><td class="c">111,1 h</td><td class="c">$17,5 M</td><td class="c">$210,0 M</td></tr>
+          <tr><td class="area">18 áreas, a la mediana</td><td class="c">196,6 h</td><td class="c">$31,0 M</td><td class="c">$371,6 M</td></tr>
+          <tr><td class="area">18 áreas, al promedio</td><td class="c">222,2 h</td><td class="c">$35,0 M</td><td class="c">$420,0 M</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top:1rem"><strong>Y esa proyección también tiene sus tres precios.</strong> El escenario base, 196,6 horas semanales, valorado a cada perfil:</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Perfil</th><th class="c">18 áreas, a la mediana</th><th class="c">18 áreas, al promedio</th></tr></thead>
+        <tbody>
+          <tr class="base"><td class="area">Profesional</td><td class="c">$371,6 M</td><td class="c">$420,0 M</td></tr>
+          <tr><td class="area">Gerente o jefe</td><td class="c">$642,7 M</td><td class="c">$726,3 M</td></tr>
+          <tr><td class="area">Directivo</td><td class="c"><strong>$980,8 M</strong></td><td class="c"><strong>$1.108,5 M</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="note crit">
+      <strong>Lo que hay que decir antes de que lo pregunten: medir no cuesta una sesión, cuesta cuarenta minutos.</strong> Las nueve áreas sin medición no están paradas — <em>están sin documentar</em>. La diferencia entre $210 y $371 millones no es más trabajo: es tomar el tiempo de lo que ya se hizo.
+      <br><br>
+      <strong>Y hay tres tareas medidas que están fuera de toda esta cuenta</strong>, porque nadie confirmó cada cuánto se hacen. <em>Si se confirman, valen 315 horas semanales más</em> — casi el triple de todo lo demás junto. <strong>Son tres preguntas, no tres sesiones.</strong>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h3>El giro del argumento</h3><h2>Las horas no se ahorran: se reinvierten</h2></div>
+    <p><strong>Todo lo anterior mide una resta</strong> — cuánto deja de costar un proceso. <em>Pero una hora recuperada no desaparece del día: alguien la usa en otra cosa.</em> Y lo que se haga con ella es lo que convierte un ahorro de costo en un ingreso.</p>
+    <div class="note good">
+      <strong>El caso que lo dice mejor salió de Servicios Sociales, en sesión.</strong> Con las horas que recuperó, el área planteó que <em>ahora tiene capacidad para pensar qué otros eventos puede hacer para aumentar los ingresos de su servicio</em>.
+      <br><br>
+      <strong>Eso cierra un círculo que este mismo programa abrió.</strong> El informe del Centro de Convenciones dejó ver que <em>no hay registro de captación comercial</em>: ni cotizaciones, ni base de clientes, ni alianzas — <strong>nadie puede decir cómo llega un evento al Centro</strong>. <em>El área acaba de liberar el tiempo que hace falta justamente para eso.</em>
+      <br><br>
+      <strong>Así es como conviene presentarlo a una tesorería y a una dirección:</strong> no «nos ahorramos diez horas», sino <strong>«liberamos diez horas y las pusimos a buscar ingresos donde hoy no hay ni un registro»</strong>.
+    </div>
+    <div class="note crit">
+      <strong>Y aquí está lo que falta, dicho sin adornos: es el único caso registrado así.</strong> De las nueve áreas que miden, <em>solo Servicios Sociales dejó dicho en qué reinvierte el tiempo</em>. De las demás sabemos cuánto recuperan, no en qué lo usan.
+      <br><br>
+      <strong>Es una pregunta, no una sesión</strong>, y quedan cuatro días para hacerla: <em>«con las horas que recuperaste, ¿qué estás haciendo ahora que antes no podías?»</em>. <strong>Con esa respuesta de cada área, el cierre deja de ser un informe de eficiencia y pasa a ser uno de capacidad.</strong>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h3>El análisis de dispersión</h3><h2>Más sesiones no es más ahorro. Lo que separa es medir</h2></div>
+    <figure>
+      <svg viewBox="0 0 600 460" role="img" aria-label="Dispersión de las dieciocho áreas: sesiones ejecutadas en el eje horizontal, horas recuperadas por semana en el vertical. Nueve áreas están en cero horas pese a tener entre dos y siete sesiones.">
+  <line x1="52" y1="400" x2="570" y2="400" stroke="var(--grid)" stroke-width="1"></line>
+  <text class="s-tick" x="44" y="404" text-anchor="end">0 h</text>
+  <line x1="52" y1="322" x2="570" y2="322" stroke="var(--grid)" stroke-width="1"></line>
+  <text class="s-tick" x="44" y="326" text-anchor="end">10 h</text>
+  <line x1="52" y1="243" x2="570" y2="243" stroke="var(--grid)" stroke-width="1"></line>
+  <text class="s-tick" x="44" y="247" text-anchor="end">20 h</text>
+  <line x1="52" y1="165" x2="570" y2="165" stroke="var(--grid)" stroke-width="1"></line>
+  <text class="s-tick" x="44" y="169" text-anchor="end">30 h</text>
+  <line x1="52" y1="87" x2="570" y2="87" stroke="var(--grid)" stroke-width="1"></line>
+  <text class="s-tick" x="44" y="91" text-anchor="end">40 h</text>
+  <text class="s-tick" x="60" y="424" text-anchor="middle">0</text>
+  <text class="s-tick" x="185" y="424" text-anchor="middle">3</text>
+  <text class="s-tick" x="310" y="424" text-anchor="middle">6</text>
+  <text class="s-tick" x="435" y="424" text-anchor="middle">9</text>
+  <text class="s-tick" x="560" y="424" text-anchor="middle">12</text>
+  <line x1="52" y1="400" x2="570" y2="400" stroke="var(--line-strong)" stroke-width="1"></line>
+  <circle cx="519" cy="44" r="8" fill="var(--good)" stroke="var(--surface)" stroke-width="2"><title>Sub. Admin y Financiera · 11 sesiones · 45,5 h/semana</title></circle>
+  <text class="s-lab" x="511" y="30" text-anchor="end">Sub. Admin y Financiera</text>
+  <circle cx="519" cy="219" r="8" fill="var(--good)" stroke="var(--surface)" stroke-width="2"><title>Jurídica · 11 sesiones · 23,1 h/semana</title></circle>
+  <text class="s-lab" x="529" y="211" text-anchor="start">Jurídica</text>
+  <circle cx="268" cy="262" r="8" fill="var(--good)" stroke="var(--surface)" stroke-width="2"><title>Vivienda · 5 sesiones · 17,6 h/semana</title></circle>
+  <text class="s-lab" x="278" y="254" text-anchor="start">Vivienda</text>
+  <circle cx="477" cy="322" r="8" fill="var(--good)" stroke="var(--surface)" stroke-width="2"><title>Servicios Sociales · 10 sesiones · 10,0 h/semana</title></circle>
+  <text class="s-lab" x="487" y="314" text-anchor="start">Servicios Sociales</text>
+  <circle cx="477" cy="326" r="8" fill="var(--good)" stroke="var(--surface)" stroke-width="2"><title>Comunicaciones · 10 sesiones · 9,5 h/semana</title></circle>
+  <circle cx="185" cy="381" r="8" fill="var(--warn)" stroke="var(--surface)" stroke-width="2"><title>Sub. Operativa · 3 sesiones · 2,4 h/semana</title></circle>
+  <circle cx="394" cy="384" r="8" fill="var(--warn)" stroke="var(--surface)" stroke-width="2"><title>Contabilidad · 8 sesiones · 2,0 h/semana</title></circle>
+  <text class="s-lab" x="404" y="376" text-anchor="start">Contabilidad</text>
+  <circle cx="352" cy="394" r="8" fill="var(--warn)" stroke="var(--surface)" stroke-width="2"><title>Agencia de Empleo · 7 sesiones · 0,8 h/semana</title></circle>
+  <circle cx="143" cy="399" r="8" fill="var(--warn)" stroke="var(--surface)" stroke-width="2"><title>Cumplimiento · 2 sesiones · 0,1 h/semana</title></circle>
+  <circle cx="352" cy="400" r="8" fill="var(--crit)" stroke="var(--surface)" stroke-width="2"><title>Subsidio · 7 sesiones · 0,0 h/semana</title></circle>
+  <text class="s-lab" x="362" y="416" text-anchor="start">Subsidio</text>
+  <circle cx="310" cy="400" r="8" fill="var(--crit)" stroke="var(--surface)" stroke-width="2"><title>Tecnología · 6 sesiones · 0,0 h/semana</title></circle>
+  <text class="s-lab" x="310" y="426" text-anchor="middle">Tecnología</text>
+  <circle cx="268" cy="400" r="8" fill="var(--crit)" stroke="var(--surface)" stroke-width="2"><title>Mercadeo · 5 sesiones · 0,0 h/semana</title></circle>
+  <circle cx="227" cy="400" r="8" fill="var(--crit)" stroke="var(--surface)" stroke-width="2"><title>IPS · 4 sesiones · 0,0 h/semana</title></circle>
+  <circle cx="227" cy="400" r="8" fill="var(--crit)" stroke="var(--surface)" stroke-width="2"><title>Educación · 4 sesiones · 0,0 h/semana</title></circle>
+  <circle cx="185" cy="400" r="8" fill="var(--crit)" stroke="var(--surface)" stroke-width="2"><title>Talento Humano · 3 sesiones · 0,0 h/semana</title></circle>
+  <circle cx="143" cy="400" r="8" fill="var(--crit)" stroke="var(--surface)" stroke-width="2"><title>Planeación · 2 sesiones · 0,0 h/semana</title></circle>
+  <circle cx="143" cy="400" r="8" fill="var(--crit)" stroke="var(--surface)" stroke-width="2"><title>Gerencia Financiera · 2 sesiones · 0,0 h/semana</title></circle>
+  <circle cx="143" cy="400" r="8" fill="var(--crit)" stroke="var(--surface)" stroke-width="2"><title>Tesorería · 2 sesiones · 0,0 h/semana</title></circle>
+  <text class="s-tick" x="311" y="446" text-anchor="middle">Sesiones ejecutadas por el área</text>
+      </svg>
+      <figcaption>Cada punto es un área. <strong>Horizontal, cuántas veces se sentó; vertical, cuántas horas recupera a la semana.</strong> Si más sesiones produjeran más ahorro, los puntos subirían en diagonal. <em>No lo hacen.</em></figcaption>
+    </figure>
+    <p class="leyenda"><span class="lg"><span class="sw" style="background:var(--good)"></span> Aporta · en la mediana o por encima</span><span class="lg"><span class="sw" style="background:var(--warn)"></span> Margen · mide poco para lo que se sentó</span><span class="lg"><span class="sw" style="background:var(--crit)"></span> Sin medir · cero horas documentadas</span></p>
+    <div class="note">
+      <strong>Los dos casos que mejor lo prueban están en extremos opuestos.</strong> <em>Vivienda</em> se sentó <strong>cinco</strong> veces y recupera <strong>17,6 horas</strong> semanales, el tercer mayor ahorro del programa. <em>Contabilidad</em> se sentó <strong>ocho</strong> veces y aparece con <strong>2,0 horas</strong>. <strong>No es que Contabilidad haya hecho menos</strong> — es que lo que hizo no está medido con su frecuencia.
+      <br><br>
+      <strong>Y la fila de abajo es la que cuesta dinero:</strong> nueve áreas en cero, entre ellas <strong>Subsidio con siete sesiones y Tecnología con seis</strong>. Son las dos con más recorrido sin una sola cifra.
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h3>La semaforización</h3><h2>Dónde están los puntos críticos, área por área</h2></div>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Área</th><th class="c">Sesiones</th><th class="c">Horas/sem</th><th>Estado</th><th>Qué dice</th></tr></thead>
+        <tbody>
+          <tr><td class="area">Sub. Admin y Financiera</td><td class="c">11</td><td class="c">45,5 h</td><td><span class="pill good">Aporta</span></td><td class="evid">Mide y sostiene el 41% del total</td></tr>
+          <tr><td class="area">Jurídica</td><td class="c">11</td><td class="c">23,1 h</td><td><span class="pill good">Aporta</span></td><td class="evid">Mide y sostiene el 21%</td></tr>
+          <tr><td class="area">Vivienda</td><td class="c">5</td><td class="c">17,6 h</td><td><span class="pill good">Aporta</span></td><td class="evid">Cinco sesiones y el tercer mayor ahorro</td></tr>
+          <tr><td class="area">Servicios Sociales</td><td class="c">10</td><td class="c">10,0 h</td><td><span class="pill good">Aporta</span></td><td class="evid">En la mediana</td></tr>
+          <tr><td class="area">Comunicaciones</td><td class="c">10</td><td class="c">9,5 h</td><td><span class="pill good">Aporta</span></td><td class="evid">En la mediana</td></tr>
+          <tr><td class="area">Sub. Operativa</td><td class="c">3</td><td class="c">2,4 h</td><td><span class="pill warn">Margen</span></td><td class="evid">Mide poco, y se sentó poco</td></tr>
+          <tr><td class="area">Contabilidad</td><td class="c">8</td><td class="c">2,0 h</td><td><span class="pill warn">Margen</span></td><td class="evid"><strong>Ocho sesiones y dos horas</strong></td></tr>
+          <tr><td class="area">Agencia de Empleo</td><td class="c">7</td><td class="c">0,8 h</td><td><span class="pill warn">Margen</span></td><td class="evid"><strong>Siete sesiones y menos de una hora</strong></td></tr>
+          <tr><td class="area">Cumplimiento</td><td class="c">2</td><td class="c">0,1 h</td><td><span class="pill warn">Margen</span></td><td class="evid">Dos sesiones, apenas arrancó</td></tr>
+          <tr><td class="area">Subsidio</td><td class="c">7</td><td class="c">—</td><td><span class="pill crit">Sin medir</span></td><td class="evid"><strong>Siete sesiones y ninguna medición</strong></td></tr>
+          <tr><td class="area">Tecnología</td><td class="c">6</td><td class="c">—</td><td><span class="pill crit">Sin medir</span></td><td class="evid"><strong>Seis sesiones y ninguna medición</strong></td></tr>
+          <tr><td class="area">Mercadeo</td><td class="c">5</td><td class="c">—</td><td><span class="pill crit">Sin medir</span></td><td class="evid">Cinco sesiones, el área cerró en S5</td></tr>
+          <tr><td class="area">IPS</td><td class="c">4</td><td class="c">—</td><td><span class="pill crit">Sin medir</span></td><td class="evid">Tiene la mejor cifra del programa <em>sin validar</em></td></tr>
+          <tr><td class="area">Educación</td><td class="c">4</td><td class="c">—</td><td><span class="pill crit">Sin medir</span></td><td class="evid">Midió 120→10 min en su S4, falta cargarlo</td></tr>
+          <tr><td class="area">Talento Humano</td><td class="c">3</td><td class="c">—</td><td><span class="pill crit">Sin medir</span></td><td class="evid">Sin medición</td></tr>
+          <tr><td class="area">Planeación</td><td class="c">2</td><td class="c">—</td><td><span class="pill crit">Sin medir</span></td><td class="evid">Sin medición</td></tr>
+          <tr><td class="area">Gerencia Financiera</td><td class="c">2</td><td class="c">—</td><td><span class="pill crit">Sin medir</span></td><td class="evid">Sin medición</td></tr>
+          <tr><td class="area">Tesorería</td><td class="c">2</td><td class="c">—</td><td><span class="pill crit">Sin medir</span></td><td class="evid">Bloqueada por los títulos en papel</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="note crit">
+      <strong>Nueve de dieciocho áreas están en rojo, y suman treinta y cinco sesiones ejecutadas.</strong> <em>Es trabajo real que hoy no aparece en ninguna cifra.</em> Con cuatro días de programa por delante, <strong>medir lo que ya se hizo rinde más que cualquier sesión nueva</strong>.
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h3>Hacia adelante</h3><h2>Lo que hoy frena la siguiente capa de valor</h2></div>
+    <p>Todo lo de arriba es tiempo de personas. <strong>La siguiente capa no es hacer más rápido lo mismo: es que los sistemas se hablen entre ellos</strong> — y ahí el programa llegó a un techo que no depende de las áreas.</p>
+    <div class="bloques">
+      <div class="bloque">
+        <h4>El software contable</h4>
+        <p><strong>Cuatro áreas alimentan sus tableros descargando reportes a mano</strong>: Contabilidad, Tesorería, Servicios Sociales y Vivienda. Conectarlos al sistema elimina ese paso entero.</p>
+        <p><em>Y hay un supuesto que corregir:</em> <strong>Tecnología no desarrolla ese software</strong>. Es de un proveedor externo con sede en Girardot. <strong>La conexión se negocia, no se solicita internamente.</strong></p>
+      </div>
+      <div class="bloque">
+        <h4>Tesorería y los bancos</h4>
+        <p>El área está bloqueada antes de cualquier integración: <strong>los títulos son papel y los escaneos no traen capa de texto</strong>. Ningún sistema los lee.</p>
+        <p><strong>Digitalizar ese archivo es la tarea previa</strong>, y vale más allá del programa: hoy cada consulta obliga a ir al físico.</p>
+      </div>
+      <div class="bloque">
+        <h4>El dinero que entra sin nombre</h4>
+        <p>En recobros, <strong>nueve de cada diez pagos llegan al banco a nombre de quien consigna, no del deudor</strong>. Entran dineros que no se pueden atribuir.</p>
+        <p><strong>Esto va antes que automatizar:</strong> automatizar un proceso roto solo hace más rápido el error. <em>Se arregla con un código por beneficiario, acordado con el banco.</em></p>
+      </div>
+      <div class="bloque">
+        <h4>El caso piloto ya está propuesto</h4>
+        <p>Que <strong>el tablero de Contabilidad tome las legalizaciones directamente del sistema</strong>. Si funciona ahí, se desbloquean las otras tres áreas.</p>
+        <p><em>No hay cifra de cuánto vale todavía, y por eso no está sumado arriba.</em> <strong>Se mide como todo lo demás: tiempo antes y tiempo después.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h3>El método</h3><h2>De dónde sale cada número</h2></div>
+    <ol class="pasos">
+      <li><strong>Las horas.</strong> Cada tarea trae tiempo antes, tiempo hoy y frecuencia, tomados en sesión con quien ejecuta el proceso. <em>Las ocasionales quedan fuera</em>: sin frecuencia no hay ahorro sostenido que proyectar.</li>
+      <li><strong>Los pesos.</strong> Tarifa de costo hora de Comfacesar para perfil profesional, $36.351. <em>Se aplica la misma a todo</em>, aunque parte de las tareas las ejecute una jefatura.</li>
+      <li><strong>Los días.</strong> Ocho horas el día, cuarenta la semana a tiempo completo. <em>Son días de trabajo recuperados, no días calendario.</em></li>
+      <li><strong>El mes y el año.</strong> Semanal × 52 ÷ 12 y semanal × 52. <em>Sin descontar vacaciones ni festivos</em>, y eso juega en contra de la cifra, no a favor.</li>
+      <li><strong>La proyección.</strong> Escenario base: las nueve áreas sin medir rinden como la <strong>mediana</strong> de las que sí miden. <em>No se usa el promedio como cifra principal porque una sola área lo infla.</em></li>
+      <li><strong>Lo que no está.</strong> Tres tareas medidas sin frecuencia confirmada, la cifra de IPS sin validar, y todo lo que las nueve áreas en rojo hayan construido sin documentar.</li>
+    </ol>
+  </section>
+
+  <footer>
+    <span>IAM™ Intelligence · Comfacesar</span>
+    <span>Fuentes: archivo de assessment, actas de sesión y tarifas de costo hora de Comfacesar</span>
+    <span>Sandra Curvelo · Founder &amp; CSO, IAM™ LATAM</span>
+  </footer>
+
+</div>

@@ -15,6 +15,73 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📊 30 sep · 9:30 a. m. · Nace el tablero de KPIs
+
+**Nada publicado en Slack.** Tablero nuevo, pedido por Sandra: **https://claude.ai/artifact/MhJTwMjwSshsUMYy1gQteg** · **privado**, enlazado desde la Mesa (**v42** y **v14**).
+
+### Lo que trae
+
+**Los cinco indicadores de arriba:** 111,1 h/semana · **13,9 días de trabajo** · **2,8 personas a
+tiempo completo** · $4,04 M por semana · de **$210,0 M a $554,3 M** al año.
+
+**La misma hora, tres precios.** Las 111,1 h valen **$210,0 M** a profesional, **$363,2 M** a
+gerente o jefe y **$554,3 M** a directivo. *El tablero publica la más baja y dice por qué:* parte de
+las tareas las ejecuta una jefatura, así que **asignando a cada una su perfil real la cifra sube,
+nunca baja.** **$210 M es el piso, no el pronóstico.**
+
+**La proyección a 18 áreas**, con sus tres precios también:
+
+| | A la mediana | Al promedio |
+|---|---|---|
+| Profesional | $371,6 M | $420,0 M |
+| Gerente o jefe | $642,7 M | $726,3 M |
+| Directivo | **$980,8 M** | **$1.108,5 M** |
+
+*Se usa la **mediana** como escenario base, no el promedio:* **una sola área —Sub. Admin— pesa el
+41% del total** y el promedio lo infla.
+
+**El análisis de dispersión**, que es el que más dice. Sesiones contra horas recuperadas, las 18
+áreas. **Si más sesiones dieran más ahorro, los puntos subirían en diagonal. No lo hacen.**
+*Vivienda se sentó cinco veces y recupera 17,6 h; Contabilidad se sentó ocho y aparece con 2,0.*
+**Nueve áreas están en cero con treinta y cinco sesiones entre todas** — trabajo real que no aparece
+en ninguna cifra.
+
+**Semaforización área por área**, pictograma de las 2,8 personas, y una sección de futuro con las
+integraciones: el software contable, Tesorería y los bancos, y el piloto ya propuesto.
+
+### El giro que pidió Sandra, y que cambia la conversación
+
+**«Las horas no se ahorran: se reinvierten».** *Todo lo demás mide una resta* —cuánto deja de costar
+un proceso—. **Servicios Sociales dijo en sesión que con las horas recuperadas ya tiene capacidad
+para pensar qué otros eventos hacer para aumentar los ingresos de su servicio.**
+
+**Y eso cierra un círculo del propio programa:** el informe del Centro de Convenciones dejó ver que
+**no hay registro de captación comercial** — nadie puede decir cómo llega un evento. *El área acaba
+de liberar justo el tiempo que eso exige.*
+
+**Lo que falta, dicho sin adornos:** es el **único** caso registrado así. *De las otras ocho áreas
+que miden sabemos cuánto recuperan, no en qué lo usan.* **Es una pregunta, no una sesión**, y
+quedan cuatro días.
+
+### Lo del 3D, que no se hizo
+
+**Sandra pidió «análisis 3D dinámico».** *No se hizo en 3D y conviene decir por qué:* en un gráfico
+de barras o de puntos, **la tercera dimensión distorsiona la lectura** — el volumen engaña sobre la
+magnitud, y es de los errores de visualización mejor documentados. **Lo que un 3D promete es
+explorar**, y eso se resolvió con **puntos que responden al pasar el cursor**, con el área, sus
+sesiones y sus horas. *Si Sandra lo quiere en 3D de todos modos, se hace — pero queda dicho.*
+
+### Hallazgos v22
+
+**Entran dos filas más en Oportunidades**, las dos salidas de los KPIs: *preguntar a cada área en
+qué reinvierte las horas*, y *presentar el valor como banda de tres perfiles*. **Son 40 filas y 39
+hallazgos**, y **Oportunidades pasa a ser el tema más grande**, por delante de Gobernanza.
+
+**Las dos gráficas se regeneraron leyendo la tabla**, no a mano. *Si no, habrían quedado diciendo
+ocho oportunidades cuando ya eran diez* — el error que este registro viene señalando toda la semana.
+
+---
+
 ## 🔢 30 sep · 8:20 a. m. · Resuelta la diferencia entre los dos tableros: era un número, no una sesión
 
 **Nada publicado en Slack.** *El Corte publicó 103 esta mañana y el Termómetro decía 101.* **Dos
