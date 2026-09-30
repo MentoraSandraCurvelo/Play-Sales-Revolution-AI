@@ -332,6 +332,36 @@
       "compromiso": "El número no avanza: la sesión del jueves 1 a las 3:00 p. m. pasa a ser la S5 y el área cierra el programa en S5.",
       "cuenta_como": "no realizada",
       "nota": "**Primera caída del área en todo el programa.** _Venía de cuatro sesiones sin faltar._ *Corrección importante:* **se publicó primero como inasistencia sin aviso y eso era falso.** El aviso había llegado al canal **a las 10:49 a. m., once minutos antes de la sesión**, y no se vio a tiempo. **Se corrigió en el mismo canal**, reconociendo el error y reclasificando la sesión como cancelación del área con aviso. _Regla que queda:_ **antes de publicar una inasistencia hay que leer el canal del área**, no solo la sala de la reunión."
+    },
+    {
+      "area": "Jurídica",
+      "sesion": "S12",
+      "fecha": "2026-09-30",
+      "hora": "11:00",
+      "canal": "#juridica",
+      "quien_cancela": "IAM — Sandra Curvelo",
+      "motivo": "Congelada por la mentoría. La reunión presencial en la Caja con la subdirección administrativa, agendada de 8:00 a 12:00, se extendió y se cruzó con la hora de la sesión.",
+      "causa": "congelada por la mentoría",
+      "aviso_en_canal": "pendiente de publicar — Sandra pidió dejar la nota para que el área reprograme",
+      "reagendada": false,
+      "compromiso": "El número no avanza. La sesión del jueves 1 de octubre a las 8:00 a. m. pasa a ser la S12. Si no se reprograma esta hora, Jurídica cierra el programa en S12 y no en S13.",
+      "cuenta_como": "no realizada",
+      "nota": "**No es una caída del área: la congeló la mentoría.** _Es la segunda hora que Jurídica pierde en la última semana_ — la del lunes 28 la canceló el área, esta la congeló Sandra. **Por eso no entra en el conteo de caídas del tablero del cliente**, que solo cuenta las del lado del área. *A diferencia de Mercadeo, aquí sí va aviso en el canal:* Sandra pidió expresamente dejar la nota para que el área reprograme. **Quedan tres días hábiles: jueves 1, viernes 2 y lunes 5.**"
+    },
+    {
+      "area": "Subsidio y Aportes",
+      "sesion": "S8",
+      "fecha": "2026-09-30",
+      "hora": "15:00",
+      "canal": "#subsidio",
+      "quien_cancela": "IAM — Sandra Curvelo",
+      "motivo": "Congelada por la mentoría, por el mismo cruce: la reunión presencial de la mañana en la Caja se extendió.",
+      "causa": "congelada por la mentoría",
+      "aviso_en_canal": "pendiente de publicar — Sandra pidió dejar la nota para que el área reprograme",
+      "reagendada": false,
+      "compromiso": "El número no avanza. La sesión del jueves 1 de octubre a las 10:00 a. m. pasa a ser la S8, la del viernes 2 la S9 y la del lunes 5 la S10. Si no se reprograma esta hora, Subsidio cierra en S10 y no en S11.",
+      "cuenta_como": "no realizada",
+      "nota": "**No es una caída del área: la congeló la mentoría.** _Subsidio es el área que más había crecido en la última semana_ — venía de S5, S6 y S7 en tres días. **No entra en el conteo de caídas del tablero del cliente.** *José Luciano escribió en el canal a las 10:16 a. m.;* el aviso de la sesión congelada va después de responderle. **El evento del calendario todavía está activo y dice «Subsidio S9» — hay que bajarlo y corregir el número.**"
     }
   ],
   "patron": {
