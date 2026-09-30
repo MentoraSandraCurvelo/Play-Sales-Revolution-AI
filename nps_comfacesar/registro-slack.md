@@ -15,6 +15,46 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🔐 30 sep · 9:05 a. m. · Qué va público y qué no, y el Pulso al día
+
+**Decisión de Sandra:** *públicos el Corte de María Elvira, la Sala de Control —el del ROI— y la
+encuesta.* **Los demás, suyos.**
+
+**Yo no puedo cambiar la compartición.** Se hace desde el menú Compartir de cada página, y queda en
+sus manos. *Aquí queda la lista de qué tocar, para no repetirla cada vez.*
+
+| Tablero | Hoy | Debe quedar |
+|---|---|---|
+| Corte · María Elvira | abierto, versión viva | **queda igual** |
+| Sala de Control · ROI | **privado** | **abrir** |
+| Pulso · la encuesta | abierto | **queda igual** |
+| Termómetro | abierto | **cerrar** |
+| Mesa y Mesa nueva | abiertas | **cerrar** |
+| Hallazgos | privado | queda igual |
+
+**Lo que hay que mirar antes de cerrar el Termómetro y la Mesa:** *la Mesa es la portada de todo
+esto y enlaza los seis.* Si se cierra, el cliente se queda con **tres enlaces sueltos y ninguna
+puerta de entrada.** No lo decido yo, pero conviene que sea una decisión y no un efecto.
+
+### El Pulso tenía una respuesta de menos
+
+**Decía 18 y son 19.** *Faltaba la de IPS*, que entró el viernes 18 a las 3:09 p. m., después del
+corte de ese día a las 10:20. **El gráfico de confianza tenía dieciocho filas y ahora tiene
+diecinueve**, regenerado entero en vez de parchearle una fila.
+
+**Con la de IPS la media se mantiene:** la confianza pasa de **4,7 a 8,5**, y **ninguna de las
+diecinueve bajó**. *IPS es además uno de los dos saltos más grandes del tablero, de 3 a 10, empatado
+con Educación.*
+
+**Publicado:** Pulso **v14**, con el NPS **+16** arriba. Mesa **v40** y **v12**, con la tarjeta de la
+encuesta al día — antes decía «18 respuestas · 6 nuevas desde el lun 14», que llevaba doce días sin
+ser cierto.
+
+**Lo que esto deja escrito:** *un tablero que se lee en pantalla enseña lo que uno no ve validando
+etiquetas.* Hoy salieron así el CSS partido de Hallazgos y la fila que le faltaba al Pulso.
+
+---
+
 ## 🐛 30 sep · 8:45 a. m. · El tablero de Hallazgos estaba roto, y con razón se veía mal
 
 **Sandra: «el de hallazgos sale con unos cositos».** *Tenía razón y era un error de código, no de
