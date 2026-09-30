@@ -52,7 +52,7 @@
     padding: 3rem 0 1.6rem; border-bottom: 3px solid var(--accent); }
   .stamp { font-family: var(--f-ui); font-size: .75rem; color: var(--muted); }
 
-  /* navegación por agente */
+  /* navegación de la mesa */
   .tabs { display: flex; gap: 0; border-bottom: 1px solid var(--line-strong); margin-top: 2rem; }
   .tab { font-family: var(--f-display); font-weight: 800; font-size: 1.05rem;
     letter-spacing: -.01em;
@@ -120,13 +120,13 @@
     <p class="stamp">Actualizada: miércoles 30 de septiembre de 2026 · 7:40 a. m. · quedan cuatro días</p>
   </header>
 
-  <div class="tabs" role="tablist" aria-label="Reportes por agente">
-    <button class="tab" role="tab" id="t-elia" aria-controls="p-elia" aria-selected="true"><span class="dot"></span>Elia</button>
-    <button class="tab" role="tab" id="t-lucia" aria-controls="p-lucia" aria-selected="false"><span class="dot"></span>Lucía</button>
+  <div class="tabs" role="tablist" aria-label="Reportes del programa">
+    <button class="tab" role="tab" id="t-elia" aria-controls="p-elia" aria-selected="true"><span class="dot"></span>Seguimiento del programa</button>
+    <button class="tab" role="tab" id="t-lucia" aria-controls="p-lucia" aria-selected="false"><span class="dot"></span>Sesiones y actas</button>
   </div>
 
   <div class="panel" role="tabpanel" id="p-elia" aria-labelledby="t-elia">
-    <p class="quien"><strong>Elia</strong> lleva el seguimiento del programa: lo que falta que pase. Áreas quietas, agendamiento, avance, resultados y la voz del equipo.</p>
+    <p class="quien">Cómo va avanzando el programa: qué áreas están quietas, qué falta por agendar, qué se ha medido y qué dice el equipo.</p>
 
     <div class="grupo">
       <h3>Reportes vivos</h3>
@@ -212,7 +212,7 @@
   </div>
 
   <div class="panel" role="tabpanel" id="p-lucia" aria-labelledby="t-lucia" hidden>
-    <p class="quien"><strong>Lucía</strong> lleva lo que ya pasó: el acta después de cada sesión, la grabación, la asistencia y los recordatorios. Sus reportes viven en su propia rama, así que desde aquí se abren en su versión viva, no en una copia.</p>
+    <p class="quien">Lo que ya pasó: el acta de cada sesión, la grabación, la asistencia y los recordatorios. Se abren siempre en su versión viva, no en una copia.</p>
 
     <div class="grupo">
       <h3>Reportes vivos</h3>
@@ -224,20 +224,10 @@
           <span class="pill good">Vigente</span>
         </div>
         <p>El reporte de corte que va a la contraparte del proyecto: sesiones ejecutadas, agentes construidos, procesos con ahorro medido, los hallazgos de gestión y las decisiones que quedan en manos de la dirección.</p>
-        <div class="meta"><span>Mantiene <b>Lucía</b></span><span>Corte al <b>vie 25 sep</b></span></div>
+        <div class="meta"><span>Corte al <b>vie 25 sep</b></span></div>
         <span class="abrir">Abrir el reporte →</span>
       </a>
 
-      <a class="rep" href="https://claude.ai/artifact/MiKrqoeuBjaQsJ4Btae3A3">
-        <div class="fila">
-          <span class="nombre">Sala de Agentes</span>
-          <span class="sub">Cómo trabajan Elia y Lucía</span>
-          <span class="pill good">Vigente</span>
-        </div>
-        <p>Qué publica cada agente, cómo se reparten los canales y qué reglas comparten para que el cliente lea siempre una sola voz.</p>
-        <div class="meta"><span>Mantiene <b>Lucía</b></span></div>
-        <span class="abrir">Abrir el reporte →</span>
-      </a>
     </div>
 
 
