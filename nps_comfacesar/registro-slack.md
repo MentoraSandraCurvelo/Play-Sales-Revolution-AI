@@ -15,6 +15,40 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🗃️ 30 sep · 8:15 a. m. · Los hallazgos de gestión entran al tablero interno
+
+**Nada publicado en Slack.** Sandra pidió meter «este listado» sin adjuntarlo; **se preguntó en vez
+de suponer**, y eligió *los hallazgos de gestión* — los que no son de inteligencia artificial.
+
+**Entra un tema nuevo, «Gestión», con cuatro filas:**
+
+| Hallazgo | Área | De dónde sale |
+|---|---|---|
+| El dinero de los recobros entra sin quedar enlazado a quien debe | Agencia de Empleo + Contabilidad + banco | mapeo del proceso, 10 sep |
+| Varias áreas creen que el software contable lo hace Tecnología, y es de un proveedor externo | cuatro áreas con tableros | sesión de Tecnología, 11 sep |
+| Hay equipos que no permiten trabajar, sin cámara ni micrófono | Servicios Sociales y tres más | lo dijo la jefatura, 10 sep |
+| El Centro de Convenciones se sostiene sin saber cómo llega su público | Servicios Sociales + Planeación | el área explicándole sus cifras al sistema, 15 y 16 sep |
+
+**El quinto no se duplicó.** *La falta de protocolo de gobernanza ya estaba* en el tema Gobernanza,
+con la pregunta de confidencialidad de IPS y la política de cuenta corporativa que tampoco existe.
+**Duplicarlo habría inflado el conteo sin añadir un hallazgo.**
+
+### Tres cosas que estaban mal en el propio tablero
+
+1. **Decía 24 hallazgos y la tabla ya listaba 26.** Con los cuatro nuevos son **30**. *Queda dicho
+   en el tablero, no cuadrado a ojo.*
+2. **Decía «seis agentes» en dos sitios** mientras el indicador de arriba iba a quedar en 13. *Es
+   exactamente el error que este registro le señaló ayer al Corte de Lucía —una cifra de portada que
+   cambia y unas notas al pie que no—,* y no tenía sentido cometerlo aquí. Corregido a **13, ocho
+   corriendo**.
+3. **Decía «once días hábiles» en cuatro sitios** y **«ni la semana del 28 ni el lunes 5 tienen una
+   sola sesión agendada»**, que hace días dejó de ser cierto. Ahora dice **cuatro días** y
+   **diecisiete sesiones del miércoles al lunes**.
+
+**Publicado: Hallazgos v19.** *Sigue siendo privado y de uso interno*, como dice su propio sello.
+
+---
+
 ## ⚖️ 30 sep · 7:50 a. m. · Criterio de Sandra: avisar no salva la sesión
 
 **Instrucción textual:** *«necesito que aunque avisen los usuarios esas sesiones están caídas».*
