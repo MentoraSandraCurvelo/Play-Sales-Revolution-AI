@@ -1,0 +1,31 @@
+{
+  "nota": "Este archivo lo editas tú. Cada canal puede tener carpetas, y cada carpeta enlaces. Después se corre: python3 construir.py",
+  "generales": [
+    {
+      "titulo": "Encuesta del programa",
+      "url": "https://forms.gle/pN22koVrZ3YheSnH8",
+      "nota": "Once preguntas, anónima"
+    }
+  ],
+  "canales": {
+    "agencia-de-empleo": { "carpetas": [] },
+    "comunicaciones": { "carpetas": [] },
+    "contabilidad": { "carpetas": [] },
+    "cumplimiento": { "carpetas": [] },
+    "educacion": { "carpetas": [] },
+    "gerencia-financiera": { "carpetas": [] },
+    "ips": { "carpetas": [] },
+    "juridica": { "carpetas": [] },
+    "mercadeo": { "carpetas": [] },
+    "planeacion": { "carpetas": [] },
+    "serivcios-sociales": { "carpetas": [] },
+    "sub-admin-y-financiera-infraestructura": { "carpetas": [] },
+    "sub-operativa": { "carpetas": [] },
+    "subsidio": { "carpetas": [] },
+    "talento-humano": { "carpetas": [] },
+    "tecnologia": { "carpetas": [] },
+    "tesoreriaa": { "carpetas": [] },
+    "todo-iamteam": { "carpetas": [] },
+    "vivienda": { "carpetas": [] }
+  }
+}
