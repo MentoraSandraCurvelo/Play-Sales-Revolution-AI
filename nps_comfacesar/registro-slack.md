@@ -15,6 +15,34 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⭕️ 30 sep · 2:23 p. m. · Cuatro respuestas, con permiso expreso de Sandra
+
+**Sandra levantó la regla de mostrar antes de enviar**, con sus palabras: *«ve contestando sin
+que yo revise».* **Lo tomé solo para responderle a la gente**, no para publicar contenido nuevo
+por mi cuenta, y se lo dije.
+
+**`#subsidio` · José Luciano Contreras** — había escrito «hola Sandra, como estas ?» a las 10:16 y
+llevaba cuatro horas sin respuesta. Salieron tres líneas seguidas:
+
+1. *«Hola José Luciano, aquí estoy. Cuéntame qué necesitas y lo vemos.»*
+2. *«Perdón, José Luciano, ya nos hablamos. Era que a esa hora no estaba conectada.»*
+3. *«Mañana tenemos agenda y ahí reforzamos lo de hoy.»*
+
+**La segunda y la tercera son corrección.** La primera ya había salido cuando Sandra avisó que
+ella y José Luciano *ya habían hablado* y que el silencio era porque no estaba conectada. **Lección:
+cuando alguien saluda sin preguntar nada, el dueño del canal puede haberlo resuelto por fuera.**
+Antes de contestar un saludo viejo, vale preguntarle a Sandra si ya lo atendió. Tres mensajes
+seguidos al mismo canal se leen como alguien improvisando.
+
+**DM · Lilian Paola Ramos** (`serviciossociales@comfacesar.com`) — su «hola» del 29 a las 10:25
+llevaba **veintiocho horas** sin respuesta. Salió el redireccionamiento al canal de Servicios
+Sociales, tal como manda el contrato.
+
+**Las respuestas directas a una persona no consumen el cupo de dos mensajes por canal.** `#subsidio`
+ya tenía sus dos de contenido del día, la grabación de las 7:13 y el resumen de las 9:09.
+
+---
+
 ## 💵 30 sep · 9:45 a. m. · Los tres perfiles, arriba en los KPIs
 
 **Nada publicado en Slack.** **KPIs v2.**
