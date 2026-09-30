@@ -1638,3 +1638,14 @@ documento del cliente no se hace sin que Sandra lo diga.
 56 y a 299 segundos. *Se verificó de otra forma* — las fórmulas escritas son idénticas a las que
 el archivo ya usa en las otras 19 hojas, y los valores esperados se calcularon a mano.
 **Google Sheets las recalcula al abrir.**
+
+### Miércoles 30, 4:07 p. m. — aviso de sala en `#comunicaciones`
+
+**Publicado** (`1790802457.749389`): Sandra conectada desde las 4:00 para la **S11**, la individual
+de Manuel. *Se leyó el canal antes de publicar* — **no había ningún mensaje del área** desde el de
+Sandra de las 15:38. _Segunda aplicación de la regla._
+
+**Su mensaje de las 15:38 pedía justo lo que el archivo ya trae resaltado:** que el equipo está
+subiendo los ejercicios *sin poner las observaciones*, y que miren cómo lo hace Jurídica.
+**Las cuatro observaciones vacías de Comunicaciones quedaron en amarillo** en la versión nueva
+del dashboard.
