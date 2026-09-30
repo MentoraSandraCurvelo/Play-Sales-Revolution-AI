@@ -15,6 +15,47 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🐛 30 sep · 8:45 a. m. · El tablero de Hallazgos estaba roto, y con razón se veía mal
+
+**Sandra: «el de hallazgos sale con unos cositos».** *Tenía razón y era un error de código, no de
+contenido.*
+
+**El CSS estaba partido en dos.** Había un `</style>` de más en la línea 154: las veinte reglas
+siguientes —`.interno`, `.tema`, `.hall`, `.evid`, `.bloque`, `tr.area-start`— quedaban **fuera del
+bloque de estilos y se imprimían como texto crudo en la página**, y además no se aplicaban. *Por eso
+el sello de «uso interno» no salía rojo, los temas no se veían destacados y las cajas no tenían
+borde.* **Se borró esa línea y quedó un solo bloque de estilos.**
+
+*Estaba así desde antes de hoy.* **Nadie lo había mirado en pantalla** — es la diferencia entre
+validar etiquetas y abrir el tablero.
+
+### Dos gráficas, las que el tablero pedía
+
+**Hallazgos por tema.** Gobernanza 9 · Oportunidades 8 · Profundización 7 · Hardware y TI 5 ·
+Licencias 5 · Gestión 4. *Gobernanza es el tema con más hallazgos y es justo el que no tiene una
+sola línea escrita en la Caja.*
+
+**Estado.** Crítico 20 · Por resolver 13 · Juega a favor 4 · Ya registrado 1. **Veinte de treinta y
+ocho piden una decisión, no más mentoría.**
+
+*Las dos son barras horizontales con el nombre y la cifra en cada barra.* **El color solo refuerza,
+no carga la identidad** — se comprobó con el validador que el rojo de «crítico» y el ámbar de «por
+resolver» no se separan lo suficiente para daltonismo, y por eso cada barra va etiquetada.
+
+### La tarjeta en la Mesa, y el reparo que va con ella
+
+**Sandra pidió que Hallazgos apareciera en la Mesa.** *Hecho, en el panel de Elia, Mesa v39 y v11.*
+
+**Lo que hay que saber:** el tablero de Hallazgos es **privado y dice de sí mismo que no se comparte
+con el cliente.** La Mesa está abierta a cualquiera con el enlace. **Quien abra la Mesa no podrá
+abrir Hallazgos, pero sí verá la tarjeta**, con su título y su descripción. *Por eso la tarjeta lleva
+la etiqueta «Privado» y lo dice en su propio texto,* en vez de parecer un enlace roto.
+
+**Queda en manos de Sandra** decidir si eso es lo que quiere, o si prefiere que la tarjeta salga de
+la Mesa. *Se hizo lo que pidió, con el reparo escrito.*
+
+---
+
 ## 🎤 30 sep · 8:35 a. m. · Ocho oportunidades dictadas, y una cierra un círculo
 
 **Nada publicado en Slack.** Sandra dictó ocho puntos por voz. **Hallazgos v20**, tema nuevo
