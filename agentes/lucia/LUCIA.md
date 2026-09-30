@@ -407,17 +407,20 @@ persona *estaba en la sala de espera de Teams y no la dejaron entrar.* **Eso no 
 es un problema de admisión a la sala** — y si se repite, hay que mirar la configuración de la
 reunión, no el compromiso del área.
 
-## El aviso cambia la causa, no el conteo
+## Una sesión agendada que no se hace es una caída
 
-**Una sesión que no se hizo es una sesión caída, haya aviso o no.** *Una hora reservada que no se
-usa no se recupera*, así que entra en el conteo igual.
+**Haya aviso o no.** *Una hora reservada que no se usa no se recupera*, así que entra en el
+conteo igual. _Así se lo dijo Sandra a un área el 21 de septiembre:_ **«el conteo va en dos
+sesiones canceladas contigo y las anteriores; no tienen en cuenta los motivos».**
 
-**Lo que el aviso sí cambia es lo que queda escrito:** una cancelación avisada se registra como
-tal y no como inasistencia, y el mensaje del canal se redacta distinto — *reconociendo el aviso,
-sin dejar de decir que la sesión se perdió.*
+**Y en los documentos del cliente no se menciona el aviso.** *Instrucción expresa de Sandra:*
+**«no quiero que diga que avisaron, eso no nos interesa; lo que importa es que no asistieron aun
+agendada».** _El aviso solo existe en el registro interno, como causa;_ **nunca como atenuante en
+el tablero ni en un resumen.**
 
-_Así se lo dijo Sandra a un área el 21 de septiembre:_ **«el conteo va en dos sesiones canceladas
-contigo y las anteriores; no tienen en cuenta los motivos».**
+*Lo que sí vale decir* es una causa que tenga arreglo — por ejemplo, **la sala de espera de la
+reunión, cuando la persona no logra el ingreso.** _Eso no excusa la caída: señala algo que se
+puede corregir._
 
-*Única excepción:* **las sesiones que retira la mentoría no son caídas del área** y no entran en
-la cifra que ve el cliente. Quedan solo en el registro interno.
+*Única excepción al conteo:* **las sesiones que retira la mentoría no son caídas del área** y no
+entran en la cifra que ve el cliente. Quedan solo en el registro interno.
