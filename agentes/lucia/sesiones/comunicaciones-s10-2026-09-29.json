@@ -1,0 +1,211 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "COMUNICACIONES",
+  "area_completa": "",
+  "sesion_num": 10,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "29 de septiembre de 2026",
+  "fecha_corta": "29 septiembre 2026",
+  "subtitulo_meta": "Sesión grupal del área · 29 de septiembre de 2026 · 4:00 p. m. · 1 h 01 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Comunicaciones — Comfacesar"],
+    ["Sesión", "N° 10 — Última grupal de la fase: el agente de campañas y el circuito de investigación"],
+    ["Fecha", "29 de septiembre de 2026"],
+    ["Duración de la sesión", "1 hora 1 minuto"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Vidiana Bendeck, Sandra Machado, César Reyes, María Elvira Marulanda y Julio Pérez"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "3 h", "etiqueta": "La campaña completa, de punta a punta", "detalle": "Antes: una semana contando el diseño"},
+    {"valor": "9", "etiqueta": "Piezas que entrega el agente", "detalle": "Del guion al calendario de publicación"},
+    {"valor": "1", "etiqueta": "Agente corriendo en el área", "detalle": "El primero del equipo"},
+    {"valor": "4", "etiqueta": "Riesgos que trabaja la campaña", "detalle": "Del estudio propio de seguridad y salud"},
+    {"valor": "300", "etiqueta": "Documentos a la vez en el cuaderno", "detalle": "Para trabajar un cuerpo entero de información"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Vidiana Bendeck", "cargo": "Profesional de Comunicaciones — Comfacesar", "correo": "profesionalcomunicaciones@comfacesar.com", "modalidad": "Virtual", "nivel": "Avanzado"},
+    {"nombre": "Sandra Machado", "cargo": "Profesional de Comunicaciones — Comfacesar", "correo": "profesionalcomunicaciones2@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"},
+    {"nombre": "César Reyes", "cargo": "Diseño — Comfacesar", "correo": "diseno@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"},
+    {"nombre": "María Elvira Marulanda", "cargo": "Contraparte del proyecto — Comfacesar", "correo": "comunicaciones@comfacesar.com", "modalidad": "Virtual", "nivel": "—"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 10, última grupal de la fase. El área tiene su primer agente corriendo y una campaña completa construida con él. Lo que queda abierto es que ese trabajo se vea donde se mide.",
+  "riesgos": [
+    {
+      "titulo": "Lo que el área construyó no está en el reporte de productividad",
+      "nivel": "ALTO",
+      "descripcion": "**Hay una campaña completa construida y un tablero de solicitudes funcionando**, *y el reporte del área no lo refleja.* **El tablero que consulta la dirección se alimenta solo de lo que cada área carga**, y ahí Comunicaciones aparece por debajo de lo que hizo. _Se explicó cómo se llena para que cuente:_ **el proceso, la cadencia, los minutos de antes, los de ahora y una observación firmada.**",
+      "responsable": "Comunicaciones / Inmediato"
+    },
+    {
+      "titulo": "El área tiene un solo agente y tres frentes sin circuito",
+      "nivel": "ALTO",
+      "descripcion": "*El de campañas es el único corriendo.* **Los tres frentes que se ordenaron en la sesión anterior —gestión del plan de comunicaciones, seguimiento financiero al plan de medios y monitoreo de noticias— siguen sin agente**, y los tres dependen hoy de que alguien recopile, procese y levante el informe. _Los agentes se montan en sesiones individuales,_ **y de esas quedan pocas.**",
+      "responsable": "Comunicaciones / Antes del 5 de octubre"
+    },
+    {
+      "titulo": "El contenido de audio depende de una sola persona y de un estudio",
+      "nivel": "MEDIO",
+      "descripcion": "**Los flashes de radio los graba el productor desde su estudio.** *Cuando él no puede —y ya ha pasado por calamidad— el contenido no sale.* **Es una dependencia de una persona para un canal que debería ser continuo.** _El área ya identificó la salida en esta sesión:_ **cargar la voz y el texto y generar el audio sin depender de la grabación.**",
+      "responsable": "Comunicaciones / Antes del 5 de octubre"
+    },
+    {
+      "titulo": "Las herramientas que el área ya tiene están sin usar",
+      "nivel": "MEDIO",
+      "descripcion": "**El entorno de investigación y el cuaderno vienen incluidos en lo que la Caja ya tiene**, *y el área no los conocía.* _Frase de la sesión, y es exacta:_ **es como tener carro sin saber manejarlo.** *Se enseñaron en esta sesión; lo que falta es que entren al trabajo real esta semana, no después.*",
+      "responsable": "Comunicaciones / Antes del 5 de octubre"
+    },
+    {
+      "titulo": "Los tableros nacen privados y no se comparten",
+      "nivel": "BAJO",
+      "descripcion": "**Un tablero que no se comparte no sirve para revisar en equipo.** *Se corrigió en sesión:* al publicarlo hay que abrir el candado y pasar de _solo tú_ a **cualquiera con el enlace.** _Con eso, quien deba revisarlo lo ve en vivo, conforme se va modelando, sin pedir una nueva versión._",
+      "responsable": "Comunicaciones / Permanente"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "ALTO", "titulo": "Cargar el reporte de productividad del área", "descripcion": "**Con la campaña y el tablero de solicitudes**, bien estructurado: *proceso, cadencia, minutos antes, minutos ahora y observación firmada.* **Es lo único que la dirección alcanza a ver.**", "responsable": "Comunicaciones", "plazo": "Inmediato"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Montar el agente del monitoreo de noticias", "descripcion": "De los tres frentes pendientes **es el que más se repite y el que menos depende de terceros.** _Es el candidato para los días que quedan._", "responsable": "Comunicaciones", "plazo": "Antes del 5 de octubre"},
+    {"num": "03", "nivel": "ALTO", "titulo": "Probar el audio para los flashes de radio", "descripcion": "**Cargar la voz y el texto y generar un flash de prueba.** *Si funciona, el canal deja de depender de que una persona pueda grabar.*", "responsable": "Vidiana Bendeck", "plazo": "Antes del 5 de octubre"},
+    {"num": "04", "nivel": "MEDIO", "titulo": "Abrir los tableros al compartirlos", "descripcion": "Pasar de **solo tú** a *cualquiera con el enlace*, **para que se revisen en vivo** sin reenviar versiones.", "responsable": "Comunicaciones", "plazo": "Permanente"},
+    {"num": "05", "nivel": "MEDIO", "titulo": "Usar el entorno de investigación sobre un tema real del área", "descripcion": "**No un ejercicio de práctica:** *un tema que el área necesite sustentar*, para que el circuito completo quede probado sobre trabajo propio.", "responsable": "Comunicaciones", "plazo": "Antes del 5 de octubre"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El agente de campañas, mostrado funcionando",
+      "duracion": "~13 min",
+      "objetivo": "Ver qué entrega un agente que asiste una campaña de punta a punta.",
+      "pasos": [
+        "**El encargo:** asistir la campaña de *seguridad y salud en el trabajo*, articulada al canal interno, **a partir del estudio propio del área** — los cuatro riesgos que identificó",
+        "**Lo que entrega, por etapas:** la etapa de lanzamiento, los *reels sugeridos*, el carrusel, **el copy con sus hashtags**, los textos para las pantallas, *la voz en off*, el guion del video y las artes de historias — **interactivas, porque así se pidieron**",
+        "**Y el calendario de publicación con sus fechas**, dentro del mismo tablero",
+        "_Un dato que muestra que trabaja sobre lo real y no sobre lo genérico:_ **la distracción quedó como el primer riesgo** porque es *el índice de accidentalidad más alto que reporta la empresa*, sobre todo en escaleras",
+        "**Y queda editable:** se puede ajustar ahí mismo o llevarlo a la herramienta de diseño del área"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Lo que tardaba y lo que tarda",
+      "duracion": "~3 min",
+      "objetivo": "Ponerle cifra a la campaña.",
+      "pasos": [
+        "**Antes: unos tres días** solo para organizar la estructura y llegar al resultado",
+        "**Y contando el tiempo del diseñador —porque el área no diseña— una semana como mínimo**",
+        "**Ahora: entre dos horas y media y tres horas**, incluyendo el trabajo de afinarlo después de la sesión",
+        "_Es la cifra más limpia que tiene el área_, **y todavía no está cargada en el reporte**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El tablero de solicitudes de diseño",
+      "duracion": "~4 min",
+      "objetivo": "Ordenar lo que entra al puesto.",
+      "pasos": [
+        "**Reúne las solicitudes de la semana y muestra lo que queda por trabajar**",
+        "_Lo que resuelve, dicho por quien lo usa:_ **antes se perdía tiempo averiguando si algo ya se había hecho o no.** *Ahora se ve*",
+        "**Y dejó a la vista un dato de gestión:** desde que el tablero existe, *las solicitudes que llegan bajaron a unas dos por semana.* **Vale la pena mirar por qué** — si es temporada o si el orden cambió cómo pide la gente"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · El circuito de investigación, de punta a punta",
+      "duracion": "~30 min",
+      "objetivo": "Aprender a llegar de una pregunta a material publicable.",
+      "pasos": [
+        "**Investigación profunda.** Se escribe el encargo completo y *el sistema parafrasea lo que entendió antes de arrancar:* **si la lectura es correcta se aprueba, si no se corrige.** _Ese paso evita horas de trabajo sobre un encargo mal entendido_",
+        "**El documento**, que se exporta y se descarga para seguir trabajándolo",
+        "**La infografía** — *un resumen visual del documento largo.* **Pero es estática: no se le puede preguntar nada**",
+        "**El tablero dinámico**, con los datos principales. _Ahí sí se interactúa en vivo:_ **se quita una variable, se pide otra comparativa, se abre un análisis que no estaba previsto**",
+        "**Y el cuaderno**, donde el mismo documento se convierte en *mapa mental, presentación, infografía didáctica, tarjetas y un audio conversado.* **Admite hasta trescientos documentos a la vez** — PDF, enlaces, fotos y audios para transcribir",
+        "_La diferencia entre los dos entornos, que era la duda del área:_ **el de investigación genera el conocimiento nuevo; el cuaderno trabaja un cuerpo de documentos que ya existe.** *Un manual interno, por ejemplo, va directo al cuaderno*"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · Lo que el propio equipo vio que podía hacer",
+      "duracion": "~8 min",
+      "objetivo": "Aterrizar las herramientas en los problemas reales del área.",
+      "pasos": [
+        "**El audio para los flashes de radio.** _Hoy dependen de que el productor grabe desde su estudio_ — **y se ha quedado sin salir cuando él tiene una calamidad.** *Con la voz cargada y el texto, el flash se genera sin depender de la grabación*",
+        "**El contenido de valor para los colaboradores**, que es un compromiso del direccionamiento estratégico y *siempre se enreda.* **Se carga el contenido y sale la pieza**",
+        "**Las plantillas interactivas**, para hacer algo distinto de lo tradicional con el público interno — _que enganche_",
+        "**Y una conexión que quedó planteada para lo que viene:** *los sistemas propios de la Caja*, incluido el que reconoce a los corredores en la carrera. **En lugar de descargar información a mano, conectar los tableros que ya existen a la fuente**"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 10 · 29 septiembre 2026",
+      "titulo": "Una campaña completa, de una semana a tres horas",
+      "descripcion": "Lanzamiento, reels, carrusel, copy con hashtags, textos de pantalla, voz en off, guion, artes de historias interactivas **y el calendario de publicación** — *todo construido sobre el estudio propio de riesgos del área.* **Antes tomaba tres días de estructura y, contando el tiempo del diseñador, una semana como mínimo.** _Ahora, entre dos horas y media y tres._",
+      "estado": "Construida y funcionando",
+      "proximo_paso": "Cargarla en el reporte del área",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "OPORTUNIDAD ABIERTA · SESIÓN 10 · 29 septiembre 2026",
+      "titulo": "El flash de radio deja de depender de una persona",
+      "descripcion": "Hoy los graba el productor desde su estudio, **y cuando él no puede el contenido no sale** — *ya ha pasado.* _Con la voz cargada y el texto, el audio se genera sin depender de la grabación._ **Lo identificó el propio equipo en la sesión**, y es el tipo de hallazgo que vale más que la herramienta: *un canal que hoy es frágil deja de serlo.*",
+      "estado": "Identificado por el área",
+      "proximo_paso": "Probarlo con un flash real",
+      "target": "Antes del 5 de octubre"
+    },
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 10 · 29 septiembre 2026",
+      "titulo": "El tablero de solicitudes ordenó lo que entra al puesto",
+      "descripcion": "Reúne las solicitudes de la semana y muestra lo pendiente. *Resuelve algo concreto:* **antes se perdía tiempo averiguando si algo ya se había trabajado.** _Y dejó a la vista un dato de gestión que conviene mirar:_ **las solicitudes bajaron a unas dos por semana** desde que existe.",
+      "estado": "Funcionando",
+      "proximo_paso": "Revisar por qué bajó el volumen",
+      "target": "Antes del 5 de octubre"
+    },
+    {
+      "encabezado": "OPORTUNIDAD ABIERTA · SESIÓN 10 · 29 septiembre 2026",
+      "titulo": "Herramientas que ya están pagadas y sin usar",
+      "descripcion": "El entorno de investigación y el cuaderno **vienen incluidos en lo que la Caja ya tiene**, *y el área no los conocía.* _Como se dijo en la sesión:_ **es como tener carro sin saber manejarlo.** *Para un área que produce contenido y sustenta decisiones con datos, es el aprovechamiento más inmediato que queda sobre la mesa.*",
+      "estado": "Enseñadas en sesión",
+      "proximo_paso": "Usarlas sobre un tema real del área",
+      "target": "Antes del 5 de octubre"
+    }
+  ],
+  "tareas_intro": "Última grupal de la fase. El área llega con su primer agente corriendo, una campaña completa construida con él y una cifra limpia que la respalda. Lo que falta es que ese trabajo quede donde se mide, y montar al menos uno de los tres frentes que siguen sin circuito.",
+  "tareas": [
+    {"tarea": "Cargar en el reporte del área la campaña y el tablero de solicitudes", "responsable": "Comunicaciones", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Montar el agente de monitoreo de noticias", "responsable": "Comunicaciones", "prioridad": "ALTA", "plazo": "Antes del 5 de octubre"},
+    {"tarea": "Probar el audio generado con un flash de radio real", "responsable": "Vidiana Bendeck", "prioridad": "ALTA", "plazo": "Antes del 5 de octubre"},
+    {"tarea": "Usar el entorno de investigación sobre un tema que el área deba sustentar", "responsable": "Comunicaciones", "prioridad": "MEDIA", "plazo": "Antes del 5 de octubre"},
+    {"tarea": "Abrir los tableros al compartirlos, de «solo tú» a «cualquiera con el enlace»", "responsable": "Comunicaciones", "prioridad": "MEDIA", "plazo": "Permanente"},
+    {"tarea": "Revisar por qué bajó el volumen de solicitudes de diseño", "responsable": "Sandra Machado", "prioridad": "BAJA", "plazo": "Antes del 5 de octubre"},
+    {"tarea": "Dejar listadas las conexiones a sistemas propios para la siguiente fase", "responsable": "César Reyes", "prioridad": "BAJA", "plazo": "Segunda fase"}
+  ],
+  "observaciones": [
+    "**Última sesión grupal de la fase, y el área llega con su primer agente corriendo.** _Asiste la campaña de seguridad y salud en el trabajo articulada al canal interno_, **construida sobre el estudio propio de riesgos del área.**",
+    "**Lo que entrega no es un borrador: es la campaña.** Etapa de lanzamiento, reels sugeridos, carrusel, *el copy con sus hashtags*, los textos de pantalla, la voz en off, el guion del video, **artes de historias interactivas** y **el calendario de publicación con sus fechas.** _Y queda editable, ahí mismo o en la herramienta de diseño del área._",
+    "_Un detalle que muestra que trabaja sobre lo real:_ **la distracción quedó como el primer riesgo de la campaña** porque es *el índice de accidentalidad más alto que reporta la empresa*, sobre todo en escaleras. **No lo eligió al azar — salió del estudio.**",
+    "**Y tiene cifra, que es lo que la hace presentable.** _Antes: unos tres días solo para organizar la estructura_, **y contando el tiempo del diseñador —porque el área no diseña— una semana como mínimo.** *Ahora: entre dos horas y media y tres.*",
+    "**El segundo ejercicio del área es más modesto y resuelve algo cotidiano:** el tablero de solicitudes de diseño. _Reúne lo de la semana y muestra lo pendiente_ — **antes se perdía tiempo averiguando si algo ya se había trabajado.**",
+    "_Y dejó a la vista un dato que vale la pena mirar:_ **las solicitudes bajaron a unas dos por semana** desde que el tablero existe. *Puede ser temporada o puede ser que el orden cambió la forma en que la gente pide.* **Cualquiera de las dos respuestas es útil.**",
+    "**Lo que falta, y es lo que hay que resolver esta semana, no es construir más: es registrar.** _El tablero que consulta la dirección se alimenta solo de lo que cada área carga_, **y ahí Comunicaciones aparece por debajo de lo que realmente hizo.** *Se explicó el formato:* proceso, cadencia, minutos antes, minutos ahora y una observación firmada.",
+    "**El área tiene un agente y tres frentes sin circuito.** _Gestión del plan de comunicaciones, seguimiento financiero al plan de medios y monitoreo de noticias_ — **los tres dependen hoy de que alguien recopile, procese y levante el informe.** *De los tres, el monitoreo de noticias es el que más se repite y el que menos depende de terceros.*",
+    "**La segunda mitad de la sesión fue el circuito completo de investigación**, de una pregunta a material publicable: *investigación profunda → documento → infografía → tablero dinámico → cuaderno.* **El paso que cambia una reunión es el tablero**, porque se puede interrogar en vivo; _la infografía es una fotografía y no responde nada._",
+    "_Y se resolvió la duda que planteó el área, que es la correcta:_ **el entorno de investigación genera conocimiento nuevo; el cuaderno trabaja un cuerpo de documentos que ya existe.** *Un manual interno, un reglamento o un archivo de la empresa van directo al cuaderno* — **que admite hasta trescientos documentos a la vez.**",
+    "**Y lo mejor de la sesión no lo trajo la mentoría: lo vio el propio equipo.** _Los flashes de radio los graba el productor desde su estudio_, **y cuando él no puede el contenido no sale** — ya ha pasado por calamidad. *Con la voz cargada y el texto, el audio se genera sin depender de la grabación.* **Un canal que hoy es frágil deja de serlo.**",
+    "_Y dos usos más que salieron del equipo:_ **el contenido de valor para los colaboradores**, que es un compromiso del direccionamiento estratégico y siempre se enreda; y **las plantillas interactivas** para hacer algo distinto de lo tradicional con el público interno.",
+    "**Quedó señalado que las herramientas ya están disponibles y sin usar.** _El entorno de investigación y el cuaderno vienen incluidos en lo que la Caja ya tiene, y el área no los conocía._ **Como se dijo en la sesión: es como tener carro sin saber manejarlo.**",
+    "_Y una corrección pequeña que vale para todos:_ **los tableros nacen privados.** Al publicarlos hay que pasar de *solo tú* a **cualquiera con el enlace** — *así quien deba revisarlos los ve en vivo, conforme se van modelando, sin pedir una versión nueva.*",
+    "**Para lo que viene quedó planteada una conexión concreta:** *los sistemas propios de la Caja*, incluido el que reconoce a los corredores en la carrera. **En lugar de descargar información a mano, conectar a la fuente los tableros que ya existen** — *no rehacer lo que funciona, enchufarlo.*"
+  ],
+  "proxima_sesion": {
+    "sesion": "Comunicaciones — sesiones individuales hasta el cierre del 5 de octubre",
+    "condiciones": [
+      "El reporte de productividad del área cargado",
+      "El flash de radio probado con audio generado",
+      "El entorno de investigación usado sobre un tema real",
+      "Los tableros compartidos con enlace abierto"
+    ],
+    "agenda": [
+      "Montaje del agente de monitoreo de noticias",
+      "Revisión de la campaña y su medición",
+      "El circuito de audio para los flashes",
+      "Cierre y medición del área"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 29 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
