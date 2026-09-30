@@ -1569,3 +1569,8 @@ las 10:00* como estaba anotada. **Corregido en la agenda.**
 **Siete áreas no aparecen ni una vez hasta el lunes 5:** Sub. Administrativa y Financiera,
 Educación, Vivienda, Talento Humano, Planeación, Gerencia Financiera y Cumplimiento. *Vivienda es
 la que más pesa* — **sigue pendiente su sesión y se acaba el tiempo.**
+
+**Mensaje publicado en `#subsidio`** (`1790797983.475309`), a las 2:53 p. m. *Se leyó el canal antes
+de publicar* y se encontró que **Sandra ya le había respondido a José Luciano a las 14:43**, por su
+cuenta, tres mensajes. **Se quitó del borrador el párrafo que le respondía**, para no repetirla, y
+*se mantuvo la oferta de la hora libre de las 3:00.*
