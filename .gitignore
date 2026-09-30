@@ -1,3 +1,6 @@
 nps_comfacesar/respuestas_nps.csv
 .streamlit/secrets.toml
 __pycache__/
+
+# Paquetes de entrega: son copias de los tableros, no fuente
+nps_comfacesar/para-propuesta/
