@@ -1,0 +1,331 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "IPS",
+  "area_completa": "",
+  "sesion_num": 5,
+  "fase": "Proyectos y Sistemas de Trabajo",
+  "fecha": "30 de septiembre de 2026",
+  "fecha_corta": "30septiembre2026",
+  "subtitulo_meta": "Sesión del área · 30 de septiembre de 2026 · 4:45 p. m. · 58 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    [
+      "Área(s)",
+      "IPS — Seguridad y Salud en el Trabajo — Comfacesar"
+    ],
+    [
+      "Sesión",
+      "N° 5 — La web app del sistema de SST y el circuito de inspecciones"
+    ],
+    [
+      "Fecha",
+      "30 de septiembre de 2026"
+    ],
+    [
+      "Duración de la sesión",
+      "58 minutos"
+    ],
+    [
+      "Modalidad",
+      "Virtual — Microsoft Teams"
+    ],
+    [
+      "Grabación",
+      "Publicada en el canal del área"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo — Mentora IAM™ Intelligence"
+    ]
+  ],
+  "kpis": [
+    {
+      "valor": "$600 M",
+      "etiqueta": "Lo que cuesta el ausentismo al año",
+      "detalle": "Medido por el área, no estimado"
+    },
+    {
+      "valor": "$400 M",
+      "etiqueta": "En disputa entre empresa, EPS y ARL",
+      "detalle": "Dato fiscalizable por los entes de control"
+    },
+    {
+      "valor": "480 min",
+      "etiqueta": "El reporte mensual, con el sistema",
+      "detalle": "Antes: 6.400 minutos al mes"
+    },
+    {
+      "valor": "23",
+      "etiqueta": "Sedes por inventariar",
+      "detalle": "Extintores, botiquines y lámparas"
+    },
+    {
+      "valor": "95%",
+      "etiqueta": "De la transición manual al sistema",
+      "detalle": "Estimado por el propio área"
+    }
+  ],
+  "participantes": [
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "—",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Danilo Pozo",
+      "cargo": "IPS — Seguridad y Salud en el Trabajo — Comfacesar",
+      "correo": "sst@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Avanzado"
+    }
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 5. El área llega con la web app del sistema de SST corriendo y con el ausentismo valorado en pesos, que es el salto que la dirección venía pidiendo. Lo que queda abierto es el registro de todo eso y la captura del dato en las inspecciones.",
+  "riesgos": [
+    {
+      "titulo": "El área tiene un solo ejercicio documentado y construyó mucho más",
+      "nivel": "ALTO",
+      "descripcion": "**En el reporte del área aparece un único ejercicio.** *Es el más grande del proyecto, pero es uno.* **Toda la web app del sistema de SST —módulos de colaboradores, vigilancia epidemiológica, ausentismo y reintegros— no está registrada en ninguna parte.** _Y eso tiene consecuencia concreta:_ **hoy no se pudo presentar la productividad de IPS en la reunión con la dirección financiera.** *Lo que no está en el reporte no existe para quien decide.*",
+      "responsable": "IPS / Inmediato"
+    },
+    {
+      "titulo": "La frecuencia del reporte no cuadraba con el tiempo declarado",
+      "nivel": "ALTO",
+      "descripcion": "**El registro decía 19.200 minutos para un reporte quincenal.** _Son tres meses de trabajo para algo que se presenta cada quince días:_ **la cuenta no cierra.** *Se corrigió en la sesión:* **el reporte es mensual, así que son 6.400 minutos al mes contra 480 con el sistema.** _Y esto importa más allá del dato:_ **una frecuencia mal escrita saca la fila entera del cálculo del ahorro**, y esa era exactamente la razón por la que IPS no aparecía en la cuenta del programa.",
+      "responsable": "IPS / Inmediato"
+    },
+    {
+      "titulo": "No está resuelto cómo se captura el dato en la inspección",
+      "nivel": "ALTO",
+      "descripcion": "**El circuito de inspecciones está diseñado de la mitad hacia adelante** —parámetros, hallazgos, tablero, informe— *pero el arranque no está definido:* **cómo entra el dato desde el terreno.** _Tres caminos sobre la mesa:_ **una foto que el sistema lee contra los parámetros**, *un formulario que llena el vigía*, o **el código QR de cada elemento.** _Sin eso resuelto, el resto del circuito no se puede probar._",
+      "responsable": "IPS / Antes de la próxima sesión"
+    },
+    {
+      "titulo": "El canal de trabajo no se está leyendo",
+      "nivel": "MEDIO",
+      "descripcion": "**El mensaje que se envió antes de la sesión no se había visto.** *Se revisó en vivo y se dejó el canal abierto en el navegador*, con la carpeta de _Diligencia reporte_ a mano. _Vale repetirlo porque no es un detalle de forma:_ **Slack es el único canal del proyecto**, y ahí van los avisos, los recordatorios y las actas. *Si no se lee, la información llega tarde o no llega.*",
+      "responsable": "IPS / Permanente"
+    },
+    {
+      "titulo": "El histórico del tablero vive solo en línea",
+      "nivel": "MEDIO",
+      "descripcion": "**El tablero muestra el estado de hoy y se actualiza solo**, *pero no guarda la foto de cada mes.* _Y eso es justo lo que se necesita para sustentar la gestión:_ **cerrar enero con 200 hallazgos y mostrar que en febrero son 100 es la prueba de que el sistema sirve.** *La salida acordada no es hacerlo a mano:* **se le da al sistema la cadencia y él genera el corte mensual con formato de auditoría**, guardado en carpeta.",
+      "responsable": "IPS / Antes del cierre"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Cargar la web app completa en el reporte del área",
+      "descripcion": "**Módulo por módulo, con minutos antes y minutos ahora.** *Hoy aparece un solo ejercicio y el área construyó un sistema.*",
+      "responsable": "IPS",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Corregir la frecuencia del reporte a mensual",
+      "descripcion": "**6.400 minutos al mes contra 480 con el sistema.** _Con la frecuencia mal escrita, la fila queda fuera del cálculo del ahorro._",
+      "responsable": "IPS",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Prueba piloto de captura del dato",
+      "descripcion": "**Las tres formas, sobre un extintor real:** *foto, formulario y código QR.* **Fuera del tablero** — se sube cuando ya esté probado, para no llenarlo de prueba y error.",
+      "responsable": "IPS",
+      "plazo": "Antes de la próxima sesión"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Inventariar el primer bloque de sedes",
+      "descripcion": "**Extintores, botiquines y lámparas de emergencia, codificados por sede y por ubicación.** _Sin inventario codificado no hay circuito de inspecciones._",
+      "responsable": "IPS",
+      "plazo": "Mañana a primera hora"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Programar el corte mensual automático",
+      "descripcion": "Con **cadencia, formato de auditoría y carpeta de destino.** *Probarlo una vez y revisar qué guardó.*",
+      "responsable": "IPS",
+      "plazo": "Antes del cierre"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · La web app del sistema de SST, mostrada funcionando",
+      "duracion": "~13 min",
+      "objetivo": "Ver hasta dónde llegó el área construyendo sobre su propio sistema.",
+      "pasos": [
+        "**El encargo de fondo lo puso la dirección hace tiempo:** _pasar el sistema de gestión de lo cualitativo a lo cuantitativo_ — **cuánto vale tener gente enferma o incapacitada, quiénes son y qué riesgos representan**",
+        "**Módulo de gestión de colaboradores:** cuántos ingresos y cuántos exámenes periódicos hay, con la vista del departamento completo",
+        "**Módulo de vigilancia epidemiológica:** _quién está hoy en vigilancia con diagnóstico del médico laboral_, **quiénes requieren remisión a EPS**, a quiénes hay que volver a citar en tres meses, *y qué cargos concentran la enfermedad*",
+        "**Módulo de ausentismo, que es el que cambia la conversación:** no solo de qué se enferma la gente, **sino cuánto le cuesta eso a la Caja**",
+        "**Y los reintegros quedaron automáticos:** _cuando el sistema detecta que una incapacidad terminó_, **genera el listado de quiénes deben pasar por la IPS antes de retomar**",
+        "_El área se ubica en un 95% de la transición_ — **de septiembre en adelante, todos los exámenes de ingreso entran por la herramienta**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El dato que no cuadraba",
+      "duracion": "~4 min",
+      "objetivo": "Corregir la frecuencia que dejaba a IPS fuera del cálculo.",
+      "pasos": [
+        "**El registro declaraba 19.200 minutos para un reporte quincenal**",
+        "_Puesto contra el calendario, no cierra:_ **19.200 minutos son unos tres meses de trabajo, y el reporte se presenta cada quince días**",
+        "**Se corrigió en la sesión:** el reporte es *mensual* — **6.400 minutos al mes**, contra **480 minutos con el sistema**",
+        "_Y quedó la lección de método:_ **una frecuencia mal escrita no baja el ahorro, lo borra** — *la fila sale entera del cálculo*"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El circuito de inspecciones, diseñado en vivo",
+      "duracion": "~20 min",
+      "objetivo": "Convertir un checklist manual en un circuito con inteligencia artificial.",
+      "pasos": [
+        "**El punto de partida:** cinco tipos de inspección —*extintores, camillas, botiquines, condiciones locativas y lámparas de emergencia*— **en 23 sedes**",
+        "_El bloqueo que traía el área era real:_ **el checklist manual no encaja en el sistema**, porque las variables se multiplican por sede y por elemento",
+        "**La salida que el propio equipo encontró:** *una base de datos que codifique cada elemento* — **qué sede, qué piso, qué número de botiquín** — para que el sistema sectorice y le diga al vigía qué tiene que revisar y dónde está",
+        "**Sobre eso, los parámetros normativos:** _cómo debe estar un extintor_ — boquilla, presión del manómetro, etiqueta legible, fecha vigente — **y el hallazgo sale de comparar la realidad contra el parámetro**",
+        "**Y de ahí el tablero:** *qué sedes tienen más hallazgos*, qué elementos se dañan más, **qué medicamentos están vencidos** y hacia dónde va la hoja de ruta",
+        "_Quedó una pregunta abierta y es la que hay que resolver primero:_ **¿basta una foto?** *Si el elemento es cilíndrico pueden hacer falta cuatro; si el hallazgo es locativo puede bastar una panorámica.* **Se acordó probarlo antes de construirlo**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Lo que se aportó desde la mentoría",
+      "duracion": "~15 min",
+      "objetivo": "Llevar el circuito de inspección a un sistema de inventario con trazabilidad.",
+      "pasos": [
+        "**Código QR por elemento, generado por el área.** _Cada código lleva una hoja de vida:_ **desde la compra y la instalación hasta el vencimiento, con el tratamiento que se le fue dando.** *El vigía lo lee con la cámara del celular y el registro llega solo* — sin comprar un lector",
+        "_Y resuelve un control que hoy no existe:_ **saber si el insumo del botiquín que se repuso es el mismo que se compró**",
+        "**Sistema de alertas con semaforización y preaviso**, en dos tiempos: *el preaviso, que es mantenimiento preventivo*, **y el vencimiento, que ya es correctivo** — al calendario y al correo de quien responde",
+        "**Una ventana por tipo de elemento:** los extintores por fecha de recarga, *los medicamentos por fecha de compra y de vencimiento*",
+        "**Conexión con compras:** _cuando una emergencia consume insumos_, **el tablero genera la requisición y la envía**, y se monitorea cuántas van",
+        "**Y análisis de rotación, que es donde aparece la plata:** _lo que se vence en el botiquín y nunca se usa_ — **si se compran tres y se usan dos, se compran dos.** *Al principio es estimación; con histórico, es un dato*"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 5 · 30 septiembre 2026",
+      "titulo": "El ausentismo dejó de ser un tema de salud y pasó a ser una cifra",
+      "descripcion": "**El área midió lo que le cuesta a la Caja tener gente enferma: del orden de $600 millones**, *y dentro de eso más de $400 millones repartidos entre lo que asume la empresa, la EPS y la ARL.* **Un solo caso de incapacidad prolongada aparece en $13 millones.** _Y no es un dato interno más:_ **es exactamente lo que un ente de control puede preguntar** — *cuánto es y cómo se está recuperando.* **Con esto el área deja de reportar cumplimiento y empieza a reportar dinero.**",
+      "estado": "Construido y corriendo",
+      "proximo_paso": "Cargarlo en el reporte del área",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 5 · 30 septiembre 2026",
+      "titulo": "Los reintegros se detectan solos",
+      "descripcion": "**Cuando el sistema ve que una incapacidad terminó, genera el listado de quiénes deben pasar por la IPS antes de volver al puesto.** _Antes eso dependía de que alguien lo notara._ *Es el tipo de control donde un olvido tiene consecuencia real* — **una persona reintegrada sin examen es un riesgo para ella y una contingencia para la Caja.**",
+      "estado": "Automatizado",
+      "proximo_paso": "Medir cuánto tomaba hacerlo a mano",
+      "target": "Antes del cierre"
+    },
+    {
+      "encabezado": "OPORTUNIDAD ABIERTA · SESIÓN 5 · 30 septiembre 2026",
+      "titulo": "Las inspecciones de 23 sedes, con trazabilidad por elemento",
+      "descripcion": "*El circuito está diseñado de la mitad hacia adelante.* **Lo que falta es la puerta de entrada: cómo se captura el dato en terreno.** _Con el inventario codificado y la prueba piloto resuelta_, **el área pasa de un checklist en papel a un tablero que dice qué sede tiene más hallazgos y qué se está dañando más.** *Y con las alertas de vencimiento, deja de haber medicamento caducado en un botiquín.*",
+      "estado": "Diseñado en sesión",
+      "proximo_paso": "Inventario del primer bloque y prueba piloto",
+      "target": "Antes de la próxima sesión"
+    },
+    {
+      "encabezado": "OPORTUNIDAD ABIERTA · SESIÓN 5 · 30 septiembre 2026",
+      "titulo": "El tablero se puede entregar a la dirección en vivo",
+      "descripcion": "**El enlace de la web app se comparte y quien lo tenga ve la última versión sin pedirla.** _No hay que enviar informe ni convocar reunión de seguimiento:_ *se actualiza cuando el área alimenta el sistema.* **Y eso cambia a quién se le rinde cuentas y cada cuánto.**",
+      "estado": "Disponible",
+      "proximo_paso": "Entregar el enlace a la dirección",
+      "target": "Antes del cierre"
+    }
+  ],
+  "tareas_intro": "El área es la que más lejos llegó construyendo sobre su propio sistema, y la que menos tiene registrado. Lo que falta no es trabajo: es dejarlo escrito donde la dirección lo mide, y resolver la puerta de entrada del circuito de inspecciones.",
+  "tareas": [
+    {
+      "tarea": "Cargar la web app completa en el reporte del área, módulo por módulo",
+      "responsable": "IPS",
+      "prioridad": "ALTA",
+      "plazo": "Inmediato"
+    },
+    {
+      "tarea": "Corregir la frecuencia del reporte de quincenal a mensual",
+      "responsable": "IPS",
+      "prioridad": "ALTA",
+      "plazo": "Inmediato"
+    },
+    {
+      "tarea": "Inventariar y codificar el primer bloque de sedes",
+      "responsable": "IPS",
+      "prioridad": "ALTA",
+      "plazo": "Mañana a primera hora"
+    },
+    {
+      "tarea": "Correr la prueba piloto de captura del dato: foto, formulario y código QR",
+      "responsable": "IPS",
+      "prioridad": "ALTA",
+      "plazo": "Antes de la próxima sesión"
+    },
+    {
+      "tarea": "Programar el corte mensual del tablero con formato de auditoría",
+      "responsable": "IPS",
+      "prioridad": "MEDIA",
+      "plazo": "Antes del cierre"
+    },
+    {
+      "tarea": "Entregar el enlace del tablero a la dirección",
+      "responsable": "IPS",
+      "prioridad": "MEDIA",
+      "plazo": "Antes del cierre"
+    },
+    {
+      "tarea": "Revisar el canal del área a diario",
+      "responsable": "IPS",
+      "prioridad": "MEDIA",
+      "plazo": "Permanente"
+    },
+    {
+      "tarea": "Agendar las sesiones que queden disponibles",
+      "responsable": "IPS",
+      "prioridad": "ALTA",
+      "plazo": "Esta semana"
+    }
+  ],
+  "observaciones": [
+    "**El área llega con una web app del sistema de seguridad y salud en el trabajo corriendo**, y con el salto que la dirección venía pidiendo desde hace tiempo: *pasar el sistema de gestión de lo cualitativo a lo cuantitativo, en pesos.*",
+    "**La cifra es la que hay que subrayar.** _El ausentismo de la Caja está medido en el orden de $600 millones_, **y dentro de eso más de $400 millones repartidos entre lo que asume la empresa, la EPS y la ARL.** *Un solo caso de incapacidad prolongada aparece en $13 millones.*",
+    "_Y no es un dato de consumo interno:_ **es exactamente lo que un ente de control puede preguntar** — cuánto es y cómo se está recuperando. *Con esto el área deja de reportar cumplimiento y empieza a reportar dinero.*",
+    "**El sistema tiene cuatro frentes corriendo:** gestión de colaboradores —ingresos y exámenes periódicos—, *vigilancia epidemiológica con diagnóstico del médico laboral*, **ausentismo valorado**, y los reintegros. _Todos los exámenes de ingreso de septiembre en adelante entran por la herramienta._",
+    "**Los reintegros quedaron automáticos, y es el control más fino de la sesión:** _cuando el sistema detecta que una incapacidad terminó_, **genera el listado de quiénes deben pasar por la IPS antes de volver al puesto.** *Antes dependía de que alguien lo notara.*",
+    "_El propio equipo ubica la transición en un 95%_, y lo dice con criterio: **los errores aparecieron por llevarlo a mano y chocar con la norma**, y eso fue lo que empujó a programarlo.",
+    "**Y aquí está lo que hay que resolver, que no es técnico sino de registro.** _En el reporte del área aparece un solo ejercicio._ **Toda esta web app no está documentada en ninguna parte** — *y por eso hoy no se pudo presentar la productividad de IPS en la reunión con la dirección financiera.*",
+    "_Se corrigió además un dato que tenía consecuencias mayores de lo que parece._ **El registro declaraba 19.200 minutos para un reporte quincenal**, y eso son unos tres meses de trabajo para algo que se presenta cada quince días. *La cuenta no cierra.* **El reporte es mensual: 6.400 minutos al mes contra 480 con el sistema.**",
+    "**La lección de método vale para todas las áreas:** _una frecuencia mal escrita no reduce el ahorro, lo borra_ — **la fila sale entera del cálculo del programa.**",
+    "**La segunda mitad de la sesión se fue en el circuito de inspecciones**, que es el siguiente frente del área: *cinco tipos de inspección —extintores, camillas, botiquines, condiciones locativas y lámparas— en 23 sedes.*",
+    "_El bloqueo que traía el área era real y lo resolvieron ellos:_ **el checklist manual no encaja, porque las variables se multiplican por sede y por elemento.** *La salida es una base de datos que codifique cada elemento* —qué sede, qué piso, qué número— **para que el sistema sectorice y le diga al vigía qué revisar y dónde está.**",
+    "**Sobre eso van los parámetros normativos** —boquilla, presión del manómetro, etiqueta legible, fecha vigente— *y el hallazgo sale de comparar la realidad contra el parámetro.* **De ahí el tablero:** qué sedes tienen más hallazgos, qué se daña más, **qué medicamentos están vencidos.**",
+    "_Y quedó una pregunta abierta, que es la que hay que resolver antes de construir:_ **cómo se captura el dato en terreno.** *¿Basta una foto? Si el elemento es cilíndrico pueden hacer falta cuatro.* **Se acordó una prueba piloto con las tres formas —foto, formulario y código QR— fuera del tablero**, para no llenarlo de prueba y error.",
+    "**Desde la mentoría se aportó el código QR por elemento**, con hoja de vida: _de la compra y la instalación al vencimiento, con el tratamiento que se le fue dando._ *El vigía lo lee con la cámara del celular y el registro llega solo* — **antes de la IA eso exigía comprar un lector.**",
+    "_Y con eso aparecen tres cosas más:_ **el sistema de alertas en dos tiempos** —preaviso, que es mantenimiento preventivo, y vencimiento, que ya es correctivo—; **la conexión con compras**, para que una emergencia genere la requisición sola; *y el análisis de rotación*, **que es donde está la plata: lo que se vence en el botiquín y nunca se usa.**",
+    "**Un punto operativo que conviene dejar escrito:** _el mensaje enviado antes de la sesión no se había visto._ **Slack es el único canal del proyecto** — ahí van los avisos, los recordatorios y las actas. *Se revisó en vivo y quedó abierto en el navegador.*",
+    "_Una última pieza que quedó pedida:_ **el tablero muestra el estado de hoy pero no guarda la foto de cada mes**, y esa foto es la que sustenta la gestión — *cerrar enero con 200 hallazgos y mostrar 100 en febrero.* **No se hace a mano: se le da la cadencia al sistema y él genera el corte con formato de auditoría.**"
+  ],
+  "proxima_sesion": {
+    "sesion": "IPS — sesiones por agendar",
+    "condiciones": [
+      "La web app cargada en el reporte del área, módulo por módulo",
+      "La frecuencia del reporte corregida a mensual",
+      "El inventario del primer bloque de sedes, codificado",
+      "La prueba piloto de captura del dato corrida y comparada"
+    ],
+    "agenda": [
+      "Revisión de la prueba piloto de captura",
+      "Montaje del circuito de inspecciones sobre el inventario codificado",
+      "El sistema de alertas con semaforización y preaviso",
+      "El corte mensual automático del tablero"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 30 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}

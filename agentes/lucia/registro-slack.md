@@ -1724,3 +1724,44 @@ agentes y ni una línea cargada. _Son las tres para perseguir antes del lunes._
 **Y siete áreas no aparecen ni una vez hasta el cierre:** Sub. Admin. y Financiera, Educación,
 **Vivienda**, Talento Humano, Planeación, Gerencia Financiera y Cumplimiento. *Vivienda es la que
 más pesa:* **su sesión sigue pendiente y ya no hay semana.**
+
+### Miércoles 30, 5:00 p. m. — IPS Sesión 5, la única del día que corrió
+
+**Grabación** (`1790809106.062899`) y **resumen** (`1790809376.823489`) publicados en `#ips`.
+*El acta quedó generada y está en manos de Sandra para subirla.*
+
+**Titular:** el área midió lo que le cuesta a la Caja el ausentismo — **del orden de $600 millones**,
+con **más de $400 millones** repartidos entre empresa, EPS y ARL. _Deja de reportar cumplimiento y
+reporta dinero._
+
+**Y se resolvió una de las tres filas que el tablero de la Sala de Control tenía fuera del cálculo
+por frecuencia imposible.** IPS declaraba *19.200 minutos para un reporte quincenal* — tres meses de
+trabajo para algo que se presenta cada quince días. **Es mensual: 6.400 minutos al mes contra 480.**
+_Elia puede volver a meter la fila de IPS en la cuenta._
+
+**PREGUNTA ABIERTA — los nombres de esta sesión.** *El acta salió solo con Danilo Pozo* y hay que
+confirmarlo:
+
+| Qué dice la fuente | Dónde |
+|---|---|
+| **Daniel Vence**, tres entradas, hasta 44 minutos | Informe de asistencia — *cuentas no comprobadas, sin correo* |
+| «Yo soy **Daniel Danilo, Daniel Vence**» | Transcripción, minuto 6 |
+| «todo lo que decía **el ingeniero Pozo**» | Transcripción, minuto 28 — *lo dice otra persona distinta* |
+| Se menciona a un **Jorge** compartiendo pantalla | Transcripción, minutos 2 y 26 |
+
+**Hubo al menos tres personas del lado del área** y el informe de asistencia las agrupa todas bajo
+una sola cuenta sin verificar. *No se nombró a nadie que no esté en el roster* — **regla de
+NOMBRES.md: cuando aparece una tercera forma del nombre, se le pregunta a Sandra.**
+
+### NOTICIA QUE CAMBIA TODO — posible extensión al 31 de octubre
+
+**En la sesión Sandra anunció que el proyecto se extendería hasta el 31 de octubre**, *en aprobación,
+enterada esa misma mañana.* **Si se confirma:**
+
+- **Todos los mensajes publicados dicen «el programa cierra el lunes 5 de octubre»** — en 18 canales
+- **El tablero del cliente lo dice en los KPIs, en el resumen y en el bloque de caídas**
+- *La agenda de la última semana y el conteo de días hábiles restantes quedan obsoletos*
+- **El sentido de las caídas cambia:** una hora perdida deja de ser irrecuperable
+
+**No se toca nada hasta que Sandra confirme.** _Ella presenta la propuesta de la segunda fase la
+semana entrante_, y mencionó que Comfacesar pondría **un recurso in-house** para las conexiones.
