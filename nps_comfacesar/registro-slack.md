@@ -6,6 +6,37 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## 🚧 Alcance: qué tableros son míos — regla fija del 30 de septiembre
+
+**Sandra lo dijo así:** *«yo no entiendo tú por qué estás metiéndote con los HTML o los tableros de
+otros agentes. Yo nada más necesito que tú monitorees el de Elía y el de Lucía. Ya.»*
+
+**Los ocho tableros que monitoreo, y ninguno más:**
+
+| Tablero | Enlace |
+|---|---|
+| Mesa Comfacesar (el enlace donde está todo) | `GW7hUimEx9H3AaZtegxdYE` |
+| Termómetro | `HxGTyCeLnuvk9oHEtHLh8Z` |
+| Pulso de resultados | `2abbbAQkbFesQE2FJWstRr` |
+| KPIs | `MhJTwMjwSshsUMYy1gQteg` |
+| Sala de Control | `YWpdmWuHVi4jXYW94duVqp` |
+| Hallazgos del cierre (interno) | `VauaKdvmogVL7gAZsHDL5C` |
+| Corte de María Elvira — de Lucía | `TjtX9UVisRVmq5orRmaixz` |
+| Sala de Agentes — de Lucía | `MiKrqoeuBjaQsJ4Btae3A3` |
+
+**Lo que NO se toca ni se revisa, aunque esté en la lista de artefactos de Sandra:**
+tableros de otros clientes (Klaren's, Escandón Abogados, Lácteos del Cesar), artefactos viejos ya
+archivados, cortes e informes de agosto y septiembre que ya se reemplazaron, y cualquier cosa del
+frente Ambassadors.
+
+**De dónde salió la regla, para no repetir el error:** hoy se verificó la compartición de once
+artefactos viejos y, sobre esa marcha, **se fue a revisar por iniciativa propia la Torre de Control de
+Klaren's**, que es de otro cliente y no tiene nada que ver con el programa. Los once sí los había
+pedido Sandra; la de Klaren's no. **La diferencia es la iniciativa propia: revisar algo fuera de los
+ocho tableros solo se hace si Sandra lo pide explícitamente.**
+
+---
+
 ## ⚙️ Cómo se le pregunta a Sandra — regla fija del 30 de septiembre
 
 **Todo lo que necesite respuesta de Sandra va como encuesta, no como pregunta suelta en el texto.**
