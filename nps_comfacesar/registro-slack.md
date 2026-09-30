@@ -15,6 +15,37 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## ⚖️ 30 sep · 7:50 a. m. · Criterio de Sandra: avisar no salva la sesión
+
+**Instrucción textual:** *«necesito que aunque avisen los usuarios esas sesiones están caídas».*
+
+**Queda así, y aplica de aquí en adelante:** *una sesión que no se hizo es una caída,* **haya
+avisado el área o no.** El aviso se reconoce, se agradece y queda escrito —cambia la **causa** que
+se registra y cambia el trato en el canal— **pero no cambia el conteo.** La hora reservada se
+perdió igual.
+
+**El número no se mueve: siguen siendo 20**, porque las cancelaciones del área ya estaban dentro.
+*Lo que cambia es cómo se lee el tablero*: ayer la nota decía «queda como cancelación, no como
+inasistencia», y eso se podía leer como que el aviso la absolvía. **Ya no se lee así.**
+
+**Dónde quedó escrito**, en el Termómetro **v85**: la nota del día, la fila de la tabla de control
+—que ahora dice *«S5 · caída · cancelada por el área · avisó a las 10:49»*— y la agenda del martes.
+Y en el bloque de caídas quedó la frase de criterio: **cuentan todas, avisadas y no avisadas.**
+
+**Lo que no toqué, porque la instrucción no lo cubre:**
+
+1. **Las dos de Mercadeo que retiró la mentoría** siguen fuera de los 20. *No las canceló el área*,
+   y la instrucción habla de los usuarios. El registro interno las conserva aparte, en 22.
+2. **Las cancelaciones siguen sin tocar ningún indicador.** Se evidencian y ahí quedan, que es la
+   regla que Sandra puso en pausa. *Contar una caída y meterla al porcentaje son dos decisiones
+   distintas, y solo la primera está tomada.*
+3. **Los reagendamientos siguen siendo sesiones vivas.** Mover un evento de fecha no es lo mismo
+   que avisar que no se asiste.
+
+*Las tres quedan planteadas, no resueltas.*
+
+---
+
 ## 🌅 30 sep · 7:30 a. m. · Corte del miércoles · el programa pasa de 94 a 101
 
 **Nada publicado en Slack.** Fecha verificada contra el reloj y contra el último commit: **miércoles
