@@ -34,6 +34,46 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🔗 30 sep · 5:40 p. m. · Verificados los once enlaces: diez cerrados, uno abierto por decisión de Sandra
+
+Sandra cerró los enlaces y dijo *«ya los de lso once enlaces lo hie»*. **No se dio por hecho: se
+verificó uno por uno**, porque esta misma mañana su primer intento sobre la Sala de Agentes no había
+surtido efecto y se confirmó leyendo. La lección vale para adelante: **un cambio de compartición se
+comprueba leyendo el artefacto, nunca se confirma de palabra.**
+
+**Privados ✓ (diez)**
+| Artefacto | Enlace |
+|---|---|
+| Mesa vieja | `TmKCB8XgZSAXrN4Le9ZLHp` |
+| Tablero IAM Comfacesar — reporte a María Elvira del 8 sep | `29x9WbjP54YRWs9HUipdMY` |
+| Pulso IAM Intelligence — formulario de la encuesta | `HMCcePXnRiwLvDZ2YzV6nf` |
+| Pulso NPS Comfacesar — plan de la encuesta, agosto | `HcrHFzcBNwEKd8iDTehi2B` |
+| Avance Comfacesar — corte 26 ago | `2QzF2QPRN5quXwxD5gCqxD` |
+| Avance Comfacesar — corte 25 ago | `XHsQcgoVeUPchyrU4Bk5Fy` |
+| Acta IPS · Sesión 1 | `XdrAyWg9HZ4CZycd2jd2XC` |
+| Mensajes por canal — borradores del 25 ago | `456nSmmahfCvhCvjmpkjbG` |
+| Corte Comfacesar — 78 sesiones, 21 sep | `Hh7TjkzJuiq5suSkucTa9p` |
+
+**Abierto, por decisión expresa de Sandra**
+- **Escandón Abogados** (`Bzbm9CVgViRNAVsd2Q5gpH`, se llama «Editar HTML compartido»): sigue
+  *compartida con cualquier persona con el enlace*, con la versión fijada. Se le preguntó por encuesta
+  qué hacer y **respondió «Déjala como está»**. ⚠️ **No volver a proponerle borrarla ni cerrarla.**
+  Queda escrito para no repetir la pregunta.
+
+**Dos cosas que salieron de la verificación y conviene no perder:**
+
+1. **El formulario del Pulso quedó privado — y no pasa nada.** Se levantó como riesgo («nadie puede
+   responder») y **se comprobó antes de alarmarla**: la base de datos del formulario está vacía, cero
+   respuestas. Las 20 del Pulso entraron **por Slack, con reacción e hilo**, como estaba diseñado en el
+   plan de agosto. Ponerlo privado no bloquea ninguna respuesta pendiente.
+2. **Torre de Control Klaren's** (`9RMeJQ1uTwr45w3hJ6cX9y`) está **abierta con el enlace**, con una
+   versión anterior fijada, así que quien entra no ve el estado de hoy. **No es el caso de Escandón:**
+   es el tablero del propio cliente Klaren's, y compartírselo es legítimo. Se deja anotado, no como
+   error, sino porque contiene el acta con el hallazgo crítico del perfil-empresa y un enlace de
+   grabación en SharePoint.
+
+---
+
 ## 📌 30 sep · 5:05 p. m. · PARA EL CORTE DE MAÑANA: la fila de IPS entra y el programa sube 20%
 
 **Sandra explicó la fila que llevaba semanas «por confirmar»** y con eso se resuelve. No tocar hoy:
