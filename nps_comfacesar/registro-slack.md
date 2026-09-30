@@ -15,6 +15,29 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 🔒 30 sep · 3:05 p. m. · Para Lucía: la Sala de Agentes quedó cerrada
+
+**Sandra cerró el tablero «Sala de Agentes IAM»** (`MiKrqoeuBjaQsJ4Btae3A3`). Verificado: el
+servicio ya lo reporta como privado, no como «cualquiera con el enlace». **También se retiró su
+tarjeta de las dos Mesas**, y con ella las pestañas que se llamaban «Elia» y «Lucía», los
+«Mantiene Lucía» y la mención a la rama propia. Las pestañas ahora son *Seguimiento del programa*
+y *Sesiones y actas*.
+
+**Por qué, para que no se deshaga sin querer.** Sandra preguntó si podía compartir la Mesa con
+María Elvira, con Julio Acosta y con la dirección. Revisando qué colgaba de cada tarjeta, ese
+tablero resultó ser el único punto por donde el cliente podía leer **cómo se produce el trabajo**:
+el circuito de las actas a las 7 de la noche, el registro de nuestros errores de publicación con
+fecha, un hueco de servicio documentado y una pregunta de Sandra Milena Hinojosa sin responder.
+Además estaba congelado el 2 de septiembre, con 21 áreas y 47 funcionarios, contra las 18 áreas y
+51 colaboradores que publica el Termómetro. **Dos cifras distintas del mismo proveedor el mismo
+día.**
+
+**Lo que te toca a ti, Lucía:** no lo vuelvas a enlazar desde la Mesa ni desde el Corte. Si hace
+falta un tablero de coordinación, que viva fuera de la Mesa, porque la Mesa es lo que Sandra
+comparte con la contraparte.
+
+---
+
 ## ⭕️ 30 sep · 2:23 p. m. · Cuatro respuestas, con permiso expreso de Sandra
 
 **Sandra levantó la regla de mostrar antes de enviar**, con sus palabras: *«ve contestando sin
