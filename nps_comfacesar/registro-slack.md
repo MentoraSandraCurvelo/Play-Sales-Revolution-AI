@@ -15,6 +15,54 @@ git show origin/claude/nps-survey-slack-comfacesar-h5ekyh:nps_comfacesar/registr
 
 ---
 
+## 📌 30 sep · 5:05 p. m. · PARA EL CORTE DE MAÑANA: la fila de IPS entra y el programa sube 20%
+
+**Sandra explicó la fila que llevaba semanas «por confirmar»** y con eso se resuelve. No tocar hoy:
+ella decidió que salga mañana a primera hora, con el día por delante y junto con lo que entre esta
+noche.
+
+**Lo que dijo, textual en sustancia:** el dashboard pasa a **6.200 minutos mensuales**; se tardaban
+**tres meses** en hacerlo, unos **19.200 minutos**, para entregar algo que **debería ser quincenal**.
+
+**Cómo queda la fila:**
+
+| Área | Tarea | Frecuencia | Antes | Hoy | Reducción | Ahorro semanal |
+|---|---|---|---|---|---|---|
+| IPS | Alimentación del sistema de gestión de SST | **Mensual** | **6.200** | 480 | **92%** | **1.320 min** |
+
+`(6.200 − 480) × 12 ÷ 52 = 1.320 min/semana = 22,0 h/semana`
+
+**Segunda fila más grande del tablero**, detrás de la prevalidación precontractual de Rafael (2.250).
+
+**El impacto, ya calculado:**
+
+| | Publicado hoy | Con IPS |
+|---|---|---|
+| Tareas que computan | 34 | **35** |
+| Minutos/semana | 6.665 | **7.985** |
+| Horas/semana | 111,1 | **133,1** |
+| Áreas con medición | 14 / 21 | **15 / 21** |
+| A 12 meses · profesional | $210,0 M | **$251,6 M** |
+| Gerente o jefe | $363,1 M | **$435,0 M** |
+| Directivo | $554,2 M | **$663,9 M** |
+
+**Y se cae el argumento de las «315 horas» pendientes.** IPS era 9.360 de esos minutos. Quedan las
+dos de Jurídica, sofIA y matIA, que valen **9.550 min/semana = 159,2 h/semana**. Hay que corregir
+las «315 horas» en la Sala de Control y en los KPIs.
+
+**Con la capa estimada encima**, las 22 ocasionales de 18,0 h, el total pasaría de 129,1 a
+**151,1 h/semana**.
+
+**Lo que hay que tocar, cinco tableros:** Sala de Control (tabla, sumas, los cuatro gráficos porque
+cambian las escalas, y el gráfico de áreas donde IPS entra tercera con 22,0 h), KPIs, las dos Mesas
+y el Termómetro.
+
+**Un detalle de aritmética, anotado para no tropezar:** 6.200 × 3 = 18.600, no 19.200. Hay 600
+minutos de diferencia. **Se calcula sobre 6.200 mensual**, que es el dato del dashboard, y el 19.200
+va en la narrativa como contexto de los tres meses. Así la cifra no depende del redondeo.
+
+---
+
 ## 🔒 30 sep · 3:05 p. m. · Para Lucía: la Sala de Agentes quedó cerrada
 
 **Sandra cerró el tablero «Sala de Agentes IAM»** (`MiKrqoeuBjaQsJ4Btae3A3`). Verificado: el
