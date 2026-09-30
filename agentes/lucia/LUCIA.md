@@ -424,3 +424,20 @@ puede corregir._
 
 *Única excepción al conteo:* **las sesiones que retira la mentoría no son caídas del área** y no
 entran en la cifra que ve el cliente. Quedan solo en el registro interno.
+
+## El tablero de agentes es privado
+
+**Sala de Agentes IAM** — `https://claude.ai/artifact/MiKrqoeuBjaQsJ4Btae3A3`. *Sandra lo puso en
+privado el 30 de septiembre.* **No se comparte ni se pasa su enlace a nadie del cliente.** Es el
+tablero interno de la mentoría — el que muestra a Elia y a Lucía y las horas recuperadas.
+
+**El que sí es del cliente es el corte:** `https://claude.ai/artifact/TjtX9UVisRVmq5orRmaixz`,
+compartido con *cualquiera con el enlace* porque María Elvira lo tiene fijado en Chrome. **Ese se
+republica siempre en el mismo enlace, nunca en uno nuevo.**
+
+**Yo no puedo cambiar los permisos de compartir de un tablero** — solo Sandra, desde el botón
+*Share* de la propia página. _Cuando haga falta un cambio de privacidad, se le pide a ella._
+
+**Y el criterio general para los tableros de las áreas**, corregido en el acta de Comunicaciones
+S10: *se comparten con quien deba revisarlos —la jefatura, el equipo, la dirección—* **no abiertos
+a cualquiera.** _Un tablero con datos internos se comparte con destinatario, igual que un informe._
