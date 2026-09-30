@@ -1,0 +1,208 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SUBSIDIO Y APORTES",
+  "area_completa": "",
+  "sesion_num": 7,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "29 de septiembre de 2026",
+  "fecha_corta": "29 septiembre 2026",
+  "subtitulo_meta": "Individual de Cindy Rodríguez · 29 de septiembre de 2026 · 3:00 p. m. · 54 min · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Subsidio y Aportes — Comfacesar"],
+    ["Sesión", "N° 7 — Individual de Cindy Rodríguez: tres agentes del puesto en una semana"],
+    ["Fecha", "29 de septiembre de 2026"],
+    ["Duración de la sesión", "54 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Cindy Rodríguez — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "3", "etiqueta": "Agentes del puesto", "detalle": "Reparto, afiliaciones y vacaciones"},
+    {"valor": "3", "etiqueta": "Causales que nadie había visto", "detalle": "En una sola afiliación"},
+    {"valor": "10 días", "etiqueta": "Plazo que calcula y notifica solo", "detalle": "Al funcionario que debe responder"},
+    {"valor": "22", "etiqueta": "Personas en el control de vacaciones", "detalle": "Cuidando que no se crucen"},
+    {"valor": "6", "etiqueta": "Alertas creadas en el calendario", "detalle": "Por el agente, sin intervención"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Cindy Rodríguez", "cargo": "Auxiliar de Gestión de Subsidio — Comfacesar", "correo": "atencion_reclamos@comfacesar.com", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 7. El puesto pasó de no tener ningún agente a tener tres en dos días, y uno de ellos encontró errores de fondo en documentos que ya habían pasado revisión humana. Lo que queda abierto es dejarlos probados y medidos antes del cierre.",
+  "riesgos": [
+    {
+      "titulo": "El ahorro de los tres agentes sigue sin medirse",
+      "nivel": "ALTO",
+      "descripcion": "**Tres circuitos construidos y ninguno tiene el antes y el después en minutos.** *El de reparto sustituye un trabajo que se hacía todo el día, correo por correo; el de afiliaciones sustituye una revisión visual documento por documento; el de vacaciones sustituye una tabla que se llevaba a mano para 22 personas.* **Son los tres ahorros más grandes del área y ninguno tiene cifra.** _Sin ese número no llegan al cierre._",
+      "responsable": "Cindy Rodríguez / Antes del 5 de octubre"
+    },
+    {
+      "titulo": "El módulo de quejas tiene plazos venciéndose",
+      "nivel": "ALTO",
+      "descripcion": "**Las quejas del sistema interno llegan con días para contestar y hay casos que se están venciendo.** *Es el proceso donde el vencimiento tiene consecuencia real*, y todavía se atiende a mano — abriendo caso por caso. _Se alcanzó a ver en sesión pero no a montar:_ **la información es extensa y quedó para cargarla con tiempo.** *Es el candidato más claro del área para el último agente.*",
+      "responsable": "Cindy Rodríguez / Antes del 5 de octubre"
+    },
+    {
+      "titulo": "Los adjuntos del correo no llegan al circuito",
+      "nivel": "MEDIO",
+      "descripcion": "**El conector de correo entrega el nombre del adjunto, no el archivo.** *Para un puesto que revisa formularios, eso es el corazón del proceso.* **El propio sistema ofreció dos salidas** —guardarlos en la nube y enlazarlos, o resolver el acceso para descargarlos— y quedó en la segunda. _Regla que salió de ahí:_ **cuando el sistema dice que algo no puede, se le pregunta cómo sí se puede.** *Casi siempre hay camino.*",
+      "responsable": "Cindy Rodríguez / Antes del 5 de octubre"
+    },
+    {
+      "titulo": "Los tres agentes quedaron corriendo sin una prueba de cierre",
+      "nivel": "MEDIO",
+      "descripcion": "*El de reparto sí está verificado* —se revisó caso por caso—, **pero el de afiliaciones y el de vacaciones quedaron recién modelados.** _Un agente que decide sobre una afiliación o sobre una fecha de vacaciones necesita una corrida completa revisada_ **antes de dejarlo solo.**",
+      "responsable": "Cindy Rodríguez / Antes del 5 de octubre"
+    },
+    {
+      "titulo": "El puesto depende de un sistema interno al que el circuito no entra",
+      "nivel": "MEDIO",
+      "descripcion": "**Las quejas y los casos viven en el sistema propio de la Caja**, y hoy hay que descargar la información a mano para dársela al agente. *No es un problema de método — es un límite de acceso.* _Queda señalado para una segunda fase:_ **conectar el circuito directamente a la fuente elimina el único paso manual que queda.**",
+      "responsable": "Subsidio y Aportes / Segunda fase"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "ALTO", "titulo": "Medir los tres agentes y cargarlos en el reporte", "descripcion": "**Cuánto tomaba repartir el correo de un día, revisar una afiliación y llevar el control de vacaciones** — y cuánto toma ahora. *Son los tres ahorros más grandes del puesto.*", "responsable": "Cindy Rodríguez", "plazo": "Antes del 5 de octubre"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Correr una prueba completa de Afilia y revisarla", "descripcion": "Un lote real de afiliaciones, **revisando caso por caso el dictamen**, como se hizo con el de reparto. *Decide sobre un trámite del afiliado: no se deja solo sin verificar.*", "responsable": "Cindy Rodríguez", "plazo": "Antes del 5 de octubre"},
+    {"num": "03", "nivel": "ALTO", "titulo": "Montar el agente del módulo de quejas", "descripcion": "**Es donde el vencimiento tiene consecuencia**, y hoy se atiende caso por caso. _La información es extensa: cargarla con tiempo y acotar el alcance._", "responsable": "Cindy Rodríguez", "plazo": "Antes del 5 de octubre"},
+    {"num": "04", "nivel": "MEDIO", "titulo": "Resolver la descarga de los adjuntos", "descripcion": "Preguntarle al sistema **cómo habilitar la descarga** en lugar de aceptar la primera respuesta. *Sin los adjuntos, el revisor de afiliaciones trabaja a medias.*", "responsable": "Cindy Rodríguez", "plazo": "Antes del 5 de octubre"},
+    {"num": "05", "nivel": "MEDIO", "titulo": "Pedirle a cada agente su tablero con KPIs", "descripcion": "**Volumen recibido, dictámenes, causales de rechazo y gestión**, con pictograma y análisis de tendencia y dispersión. _Corte dos veces al día y reporte a las 5._", "responsable": "Cindy Rodríguez", "plazo": "Antes del 5 de octubre"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El agente de reparto, verificado",
+      "duracion": "~10 min",
+      "objetivo": "Comprobar que el circuito montado el día anterior hace lo que debe.",
+      "pasos": [
+        "**Reparte los correos entre los funcionarios** y le pone a cada uno una etiqueta con el destinatario",
+        "**Calcula los diez días hábiles y la fecha exacta de vencimiento** — *nadie se lo pidió en esos términos: lo dedujo del proceso*",
+        "**Y notifica al funcionario que recibe el caso** que tiene ese plazo para responderle al usuario, con la fecha en la que se le vence",
+        "_Y lo importante del método:_ **se revisó caso por caso antes de darlo por bueno.** *Un agente que reparte trabajo entre personas no se deja correr sin verificar la primera tanda*"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Afilia, el revisor de afiliaciones",
+      "duracion": "~14 min",
+      "objetivo": "Convertir una revisión visual documento por documento en un dictamen con soporte.",
+      "pasos": [
+        "**El encargo:** que busque en el correo las afiliaciones de independientes y de pensionados *y las revise con los mismos criterios que el puesto aplica a mano*",
+        "**Y se le cargó la norma:** la circular única, con sus formatos y sus versiones. _Eso es lo que convierte una opinión en un dictamen_",
+        "**Lo que devuelve es un checklist:** versión del formato, nombres y apellidos, documento, dirección, categoría — *campo por campo*, y al final **si la afiliación procede o no procede**",
+        "**Y ofrece responderle al usuario ahí mismo**, con el texto de la respuesta listo para enviar",
+        "_Se modeló en sesión respondiéndole sus preguntas:_ **qué certificados bastan para un independiente, qué pasa si la categoría viene en blanco, qué soportes se exigen por tipo de beneficiario y qué verificar en un pensionado.** *El sistema preguntó lo que no estaba escrito, que es exactamente para lo que sirven esas preguntas*"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Lo que encontró que nadie había visto",
+      "duracion": "~5 min",
+      "objetivo": "Revisar un dictamen negativo y entender por qué importa.",
+      "pasos": [
+        "**En una afiliación marcada como «no procede», devolvió tres causales:**",
+        "**Una — el formulario estaba cortado.** *Faltaba el campo de observaciones, y al abrirlo se confirmó*",
+        "**Dos — el certificado no correspondía.** _Se había adjuntado uno de cesantías, y lo que se exige es de salud o de pensión_",
+        "**Tres — el salario estaba mal escrito:** *decía 4.500.* **Le faltaba un cero**",
+        "_Y la frase que lo resume, dicha por el propio puesto:_ **«ni yo me había percatado».** *Los tres errores habían pasado la revisión visual*"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Requi, el control de vacaciones y requisiciones",
+      "duracion": "~14 min",
+      "objetivo": "Sacar de una tabla manual el control de un área entera.",
+      "pasos": [
+        "**El proceso real:** llevar en una tabla las vacaciones de **22 personas**, *cuidando que no se crucen las fechas*, mandarlas a Gestión Humana en su momento **y pedir la requisición del personal de reemplazo**",
+        "**Lo que hizo el agente:** leyó el archivo de control y el correo, **creó seis alertas en el calendario** con las fechas que venían, *y quedó configurado como tarea diaria automática*",
+        "**Las alertas se pueden modelar:** color, emoji, aviso previo de dos días y marca de crítico el día del vencimiento. _El look and feel también se pide_",
+        "_Dos reglas prácticas que salieron aquí:_ **el Excel cerrado mientras el agente trabaja** —si está abierto, falla— y **leer completo lo que devuelve antes de cerrar la ventana**, porque ahí está lo que pregunta y lo que ya resolvió"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · El método para sostener varios agentes",
+      "duracion": "~11 min",
+      "objetivo": "Evitar que tres agentes se conviertan en un desorden de cincuenta.",
+      "pasos": [
+        "**Un agente por función, y cada uno con su nombre.** *Se había concentrado todo en uno solo;* **se separó y cada uno quedó con su rol entre paréntesis** — _cuando haya cincuenta, el nombre es lo único que permite saber cuál hace qué_",
+        "**El tablero de reporte, siempre.** Con KPIs —*volumen recibido, dictámenes, causales de rechazo, gestión*—, **pictograma y análisis de tendencia y dispersión**",
+        "**La cadencia:** dos cortes al día, al mediodía y en la tarde, *más el reporte de cierre a las 5*. **Y el tablero lleva la hora del último corte y la del próximo**",
+        "**Los tableros se publican y se anclan en el navegador**, uno al lado del otro. _Así el puesto no entra a la herramienta: mira sus monitores_ — *una visión de todo lo que está corriendo*",
+        "_Y la distinción que ordena todo:_ **si es un circuito que se repite y decide, es un agente; si es algo puntual y asistido, es un proyecto.** *Los dos hacen el trabajo — la diferencia es quién lleva el timón*"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 7 · 29 septiembre 2026",
+      "titulo": "Encontró tres errores que habían pasado la revisión humana",
+      "descripcion": "En una sola afiliación: **el formulario cortado en el campo de observaciones**, *un certificado de cesantías donde se exige uno de salud o de pensión*, y **un salario escrito como 4.500, al que le faltaba un cero.** _Dicho por el propio puesto:_ **«ni yo me había percatado».** *No es velocidad — es una revisión de control que no se salta un campo.*",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Correr un lote completo y revisarlo",
+      "target": "Antes del 5 de octubre"
+    },
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 7 · 29 septiembre 2026",
+      "titulo": "El agente de reparto, con el plazo calculado",
+      "descripcion": "Reparte los correos entre los funcionarios, **calcula los diez días hábiles y la fecha de vencimiento**, y *le avisa a quien recibe el caso cuándo se le vence.* **Nadie se lo pidió en esos términos: lo dedujo del proceso.** _Y se verificó caso por caso antes de dejarlo correr._",
+      "estado": "Funcionando y verificado",
+      "proximo_paso": "Medir el tiempo que ahorra",
+      "target": "Antes del 5 de octubre"
+    },
+    {
+      "encabezado": "OPORTUNIDAD CONSTRUIDA · SESIÓN 7 · 29 septiembre 2026",
+      "titulo": "El control de vacaciones de 22 personas, fuera del Excel",
+      "descripcion": "Cuidar que no se crucen las fechas, avisar a Gestión Humana y **pedir la requisición del reemplazo** — todo llevado a mano en una tabla. *El agente leyó el control, creó seis alertas en el calendario* **y quedó como tarea diaria automática.**",
+      "estado": "Primera corrida",
+      "proximo_paso": "Revisarlo y pedirle su reporte",
+      "target": "Antes del 5 de octubre"
+    },
+    {
+      "encabezado": "OPORTUNIDAD ABIERTA · SESIÓN 7 · 29 septiembre 2026",
+      "titulo": "El módulo de quejas, donde el plazo sí tiene consecuencia",
+      "descripcion": "Las quejas llegan con días contados para contestar **y hay casos venciéndose.** *Hoy se atienden abriendo uno por uno.* **Es el proceso del puesto donde un vencimiento cuesta de verdad**, y es el candidato más claro para el último agente — _la información es extensa, así que hay que acotar el alcance para que quepa en los días que faltan._",
+      "estado": "Identificado, sin montar",
+      "proximo_paso": "Cargar la fuente y acotar",
+      "target": "Antes del 5 de octubre"
+    }
+  ],
+  "tareas_intro": "El puesto pasó de no tener ningún agente a tener tres en dos días, y uno de ellos encontró errores de fondo en documentos que ya habían pasado revisión humana. Lo que falta no es construir más: es dejarlos probados, ponerles cifra y montar el que falta, el de quejas, que es donde un vencimiento cuesta.",
+  "tareas": [
+    {"tarea": "Medir el antes y el después de los tres agentes y cargarlo en el reporte del área", "responsable": "Cindy Rodríguez", "prioridad": "ALTA", "plazo": "Antes del 5 de octubre"},
+    {"tarea": "Correr un lote real de afiliaciones y revisar cada dictamen", "responsable": "Cindy Rodríguez", "prioridad": "ALTA", "plazo": "Antes del 5 de octubre"},
+    {"tarea": "Montar el agente del módulo de quejas, con alcance acotado", "responsable": "Cindy Rodríguez", "prioridad": "ALTA", "plazo": "Antes del 5 de octubre"},
+    {"tarea": "Resolver la descarga de los adjuntos del correo", "responsable": "Cindy Rodríguez", "prioridad": "MEDIA", "plazo": "Antes del 5 de octubre"},
+    {"tarea": "Pedirle a cada agente su tablero con KPIs, pictograma y dispersión", "responsable": "Cindy Rodríguez", "prioridad": "MEDIA", "plazo": "Antes del 5 de octubre"},
+    {"tarea": "Revisar la primera corrida del control de vacaciones y sus alertas", "responsable": "Cindy Rodríguez", "prioridad": "MEDIA", "plazo": "Antes del 5 de octubre"},
+    {"tarea": "Contestar la encuesta del programa", "responsable": "Cindy Rodríguez", "prioridad": "BAJA", "plazo": "Inmediato"}
+  ],
+  "observaciones": [
+    "**El puesto pasó de no tener ningún agente a tener tres, en dos días.** _Reparto de correo, revisión de afiliaciones y control de vacaciones._ *Es el arranque más rápido que ha tenido un puesto en el programa.*",
+    "**El de reparto quedó verificado, y eso importa tanto como que funcione.** Reparte los correos entre los funcionarios, les pone etiqueta, **calcula los diez días hábiles y la fecha de vencimiento**, y *le avisa a quien recibe el caso cuándo se le vence.* **Nadie se lo pidió en esos términos: lo dedujo del proceso.**",
+    "_Y se revisó caso por caso antes de darlo por bueno._ **Un agente que reparte trabajo entre personas no se deja correr sin verificar la primera tanda.** *Ese criterio lo puso el puesto, no la mentoría.*",
+    "**El segundo agente revisa afiliaciones de independientes y pensionados**, con los mismos criterios que se aplican a mano *y con la circular única cargada como norma* — con sus formatos y sus versiones. **Eso es lo que convierte una opinión en un dictamen.** _Devuelve un checklist campo por campo y concluye si procede o no procede, con la respuesta al usuario lista para enviar._",
+    "**Y aquí está el hallazgo que hay que subrayar de toda la sesión.** En una afiliación marcada como *no procede*, devolvió **tres causales**: el formulario estaba **cortado** —faltaba el campo de observaciones—, el certificado adjunto era **de cesantías** donde se exige de salud o de pensión, *y el salario estaba escrito como 4.500:* **le faltaba un cero.**",
+    "_Dicho por el propio puesto:_ **«ni yo me había percatado».** *Los tres habían pasado la revisión visual.* **Eso no es velocidad — es una revisión de control que no se salta un campo**, y es el mismo argumento que viene apareciendo en Jurídica, en Servicios Sociales y en la Sub. Financiera.",
+    "**El tercer agente saca del Excel el control de vacaciones de 22 personas** — cuidar que no se crucen las fechas, avisar a Gestión Humana y **pedir la requisición del personal de reemplazo.** _Leyó el archivo de control y el correo, creó seis alertas en el calendario y quedó como tarea diaria automática._",
+    "_Dos reglas prácticas salieron de ahí, y sirven para cualquier área:_ **el Excel cerrado mientras el agente trabaja**, porque si está abierto falla; y **leer completo lo que devuelve antes de cerrar la ventana**, porque ahí está lo que pregunta y lo que ya resolvió solo.",
+    "**Se corrigió a tiempo un desorden que se estaba formando:** todo se estaba concentrando en un único agente. _Se separó en tres, cada uno con su nombre y su rol entre paréntesis._ **Cuando lleguen a ser cincuenta, el nombre es lo único que permite saber cuál hace qué.**",
+    "_Y quedó montado el método para sostenerlos:_ **tablero de reporte por agente**, con KPIs —volumen recibido, dictámenes, causales de rechazo, gestión—, **pictograma y análisis de tendencia y dispersión**; *dos cortes al día y reporte de cierre a las 5*, con la hora del último corte y la del próximo visibles en el tablero.",
+    "**Los tableros se publican y se anclan en el navegador, uno al lado del otro.** _Así el puesto no entra a la herramienta: mira sus monitores._ *Es la misma idea que se está aplicando con la dirección — el tablero anclado reemplaza la consulta.*",
+    "**Queda un límite que no es de método, es de acceso:** el conector de correo entrega *el nombre del adjunto, no el archivo*. **Para un puesto que revisa formularios, eso es el corazón del proceso.** _Regla que salió de ahí:_ **cuando el sistema dice que algo no puede, se le pregunta cómo sí se puede** — casi siempre hay camino.",
+    "**Y queda lo más urgente, que es también lo más valioso: el módulo de quejas.** Llegan con días contados para contestar **y hay casos venciéndose.** *Hoy se atienden abriendo uno por uno.* **Es el único proceso del puesto donde un vencimiento tiene consecuencia real**, y es el candidato claro para el último agente — _con la información acotada para que quepa en los días que faltan._",
+    "_Un límite para la próxima fase:_ **las quejas y los casos viven en el sistema propio de la Caja**, al que el circuito no entra, *así que hoy hay que descargar la información a mano.* **Conectarlo directamente eliminaría el único paso manual que queda.**"
+  ],
+  "proxima_sesion": {
+    "sesion": "Subsidio y Aportes — cierre del programa, lunes 5 de octubre",
+    "condiciones": [
+      "Los tres agentes medidos y cargados en el reporte del área",
+      "El lote de afiliaciones corrido y revisado",
+      "El agente de quejas montado, con alcance acotado",
+      "Los tableros de reporte de cada agente funcionando"
+    ],
+    "agenda": [
+      "Revisión de los tres agentes con sus cifras",
+      "El agente del módulo de quejas",
+      "Los tableros anclados y sus KPIs",
+      "Cierre y medición del puesto"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 29 septiembre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
