@@ -1598,3 +1598,43 @@ sesiones en tres días.* **En el tablero no se nombra a ninguna persona** — so
 
 **Las dos que canceló la mentoría no están ahí**, conforme al criterio: *el tablero del cliente
 cuenta solo las caídas del lado del área.*
+
+### Miércoles 30 — los cuatro ajustes al archivo de assessment
+
+**Aparecieron tres archivos con el mismo nombre y solo uno tiene datos.** El de Slack y el de
+Dropbox son plantillas en blanco; **el vivo está en Google Drive** y lo edita cualquiera con el
+enlace. *Quedó documentado en `ARCHIVO-ASSESSMENT.md`.*
+
+**Lo que se hizo sobre el de Drive, en un archivo que Sandra sube como nueva versión:**
+
+| Ajuste | Detalle |
+|---|---|
+| **Orden de pestañas** | Por registros, de más a menos. Jurídica 19, Servicios Sociales 13, Vivienda 6… Talento Humano última de las que registraron. *Ninguna oculta; las cuatro que ya lo estaban siguen igual* |
+| **Tiempos como texto → número** | **21 celdas**, todas en Vivienda y Talento Humano. «1 hora» → 60, «15 min» → 15 |
+| **Columna AHORRO (HORAS)** | En la columna **I**, que estaba libre como separador. *No se insertó ninguna columna* — insertar habría corrido las fórmulas y las combinadas en 21 hojas |
+| **Amarillo en lo no diligenciado** | Campos vacíos de filas que sí tienen tarea, más fecha de sesión y número de sesión |
+| **Nombres** | Cinco corregidos y **Cindy Rodríguez agregada a Subsidio** |
+
+**El efecto real de la conversión:** *Vivienda pasa de 0,00 a 5,00 horas de ahorro* en el
+resumen de su propia hoja — seis tareas que el archivo calculaba en cero. **Y en Talento Humano
+la fórmula corrige una cuenta hecha a mano:** habían escrito 12 minutos de ahorro, y 20 − 3 = 17.
+
+**Nombres corregidos**, todos contra el roster verificado con Slack:
+
+| Hoja | Decía | Dice |
+|---|---|---|
+| Contabilidad | Lisbeth Cuadrado *Rodríguez* | Lisbeth Cuadrado **Herrera** |
+| Sub. Operativa | *Jhonatan* Johan Armenta | **Jonnathan** Johan Armenta |
+| Educación | Julliza Pérez | **Julissa Pérez Pérez** |
+| Educación | Oscar Cotes | **Óscar Cotes** |
+| Comunicaciones | Cesar Reyes | **César Reyes** |
+| **Subsidio** | *faltaba* | **+ Cindy Rodríguez** |
+
+**No se borró a nadie.** *José Jorge Ruiz y Juan Carlos Guillén salieron del programa el 11 de
+septiembre por decisión de la sponsor y siguen en el archivo* — quitar a una persona de un
+documento del cliente no se hace sin que Sandra lo diga.
+
+**LibreOffice no pudo recalcular el archivo** en este entorno: se agotó el tiempo dos veces, a
+56 y a 299 segundos. *Se verificó de otra forma* — las fórmulas escritas son idénticas a las que
+el archivo ya usa en las otras 19 hojas, y los valores esperados se calcularon a mano.
+**Google Sheets las recalcula al abrir.**
