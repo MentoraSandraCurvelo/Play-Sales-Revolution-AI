@@ -6,6 +6,46 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## 🗓️ 1 oct · 1:20 p. m. · Termómetro v95: la agenda de hoy estaba desactualizada un día entero
+
+**Corrida de la hora, barata y sin publicar en Slack.** Parte A saltada, sin DM, y solo los dos canales con
+sesión hoy: **#comunicaciones** y **#sub-operativa**. Nada que contestar en ninguno de los dos, el último
+mensaje de cada uno es de ayer y de anteayer.
+
+**Pero la tabla «Lo que viene» del Termómetro seguía marcando «Hoy · mié 30».** Releída contra el
+calendario, la agenda de hoy **baja de seis citas a cuatro**:
+
+| Hora | Área | Qué pasó |
+|---|---|---|
+| 8:00 | Jurídica | S13, la que cierra el área. El calendario la titula S12 |
+| 11:00 | Servicios Sociales | **la hora no corrió.** Era la que cerraba el área: **queda en S10** |
+| 11:00 | Subsidio | S10. **Estaba a las 12:00** y ahora aparece a las 11:00 |
+| 14:00 | Comunicaciones | **S11**, César, su primera individual |
+| 15:00 | Sub. Operativa | **es la S5.** El calendario la titula S6 |
+
+**Lo que se quitó:** el bloque de las 10:00 de «María Elvira cierres», que ya no está en el calendario y
+que nunca computó porque es de otro frente.
+
+**La causa de la de Servicios Sociales no se atribuye.** El aviso vino sin motivo escrito, así que en el
+tablero queda «la hora no corrió, sin causa escrita» y **no entra al conteo de caídas**, que sigue en 22.
+Es la regla de Sandra: se mantiene el hecho de que la hora no se usó, porque de eso depende la
+numeración, sin decir quién la canceló.
+
+**Y la tabla se contradecía con el texto del propio tablero.** v94 corrigió en prosa que la de César es la
+**S11** y las del lunes la **S12 y la S13**, pero la tabla seguía en S12 hoy y S13 y S14 el lunes. Quedan
+iguales las dos. **La fila de Comunicaciones del miércoles a las 4:00 también quedó marcada como caída**,
+que es lo que el canal dijo ayer a las 4:14.
+
+**Las fechas siguen congeladas.** Verificado antes de publicar: las menciones a «lunes 5» no se movieron
+ni una, sigue el «quedan tres días», y **no entró ni el 16 ni el 31 de octubre**. Esto es numeración y
+hora del día, no fecha de cierre.
+
+**Lección, anotada porque va a volver a pasar:** en este tablero las notas son un registro con fecha y no
+se reescriben, pero **la tabla de «Lo que viene» es viva y envejece en un día**. Si la cabecera dice «Hoy»
+y la fecha no es hoy, la sección completa está mintiendo.
+
+---
+
 ## 🧾 1 oct · 10:10 a. m. · KPIs y Mesa actualizados. Lo pidió Sandra al ver que la Mesa no mostraba nada nuevo
 
 **Sus palabras:** *«pero le doy a actualizar al tablero y no me aparece lo nuevo de la mesa»*. Tenía
