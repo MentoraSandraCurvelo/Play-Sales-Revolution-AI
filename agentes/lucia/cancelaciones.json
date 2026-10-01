@@ -402,13 +402,28 @@
    "quien_cancela": "IAM — Sandra Curvelo",
    "motivo": "Cancelada por la mentoría. Sandra canceló la hora y la reprogramó de inmediato.",
    "causa": "cancelada por la mentoría",
-   "aviso_en_canal": "Pendiente de decisión de Sandra. Al 1 de octubre no se ha publicado nada en #sub-operativa.",
+   "aviso_en_canal": "https://iamteamespacio.slack.com/archives/C0BPYQFRYP6/p1790891166962659",
    "reagendada": true,
    "nueva_fecha": "2026-10-05",
    "nueva_hora": "15:00",
    "compromiso": "**El número no se pierde: la S5 se corre al lunes 5 a las 3:00 p. m.**, con los mismos dos correos del área —`asistentesuboperativa@` e `innovacion@`—. Sub. Operativa sigue cerrando el programa en **S5**.",
    "cuenta_como": "no realizada",
-   "nota": "**No es una caída del área: la canceló la mentoría.** _Instrucción expresa de Sandra el 1 de octubre:_ «como fui yo la que la cancelé no tienes que meterla en el conteo». **Por eso no entra en el conteo de caídas del tablero del cliente**, que solo cuenta las del lado del área — el tablero no se mueve. *Se reprogramó el mismo día*, así que el área no pierde ni la hora ni la posición. :warning: **El evento del lunes quedó con el título genérico de Calendly** — dice «GENNIFER MIRA SALAZAR y Sandra Curvelo | Founder & CSO de IAM™» y debe decir **`⭕️Comfacesar | Sub. Operativa y Comercial | Sesion 5 | IAM™ Intelligence`**. _Solo Sandra puede corregirlo: el conector de Outlook es de solo lectura._"
+   "nota": "**No es una caída del área: la canceló la mentoría.** _Instrucción expresa de Sandra el 1 de octubre:_ «como fui yo la que la cancelé no tienes que meterla en el conteo». **Por eso no entra en el conteo de caídas del tablero del cliente**, que solo cuenta las del lado del área — el tablero no se mueve. *Se reprogramó el mismo día*, así que el área no pierde ni la hora ni la posición. :warning: **El evento del lunes quedó con el título genérico de Calendly** — dice «GENNIFER MIRA SALAZAR y Sandra Curvelo | Founder & CSO de IAM™» y debe decir **`⭕️Comfacesar | Sub. Operativa y Comercial | Sesion 5 | IAM™ Intelligence`**. _Solo Sandra puede corregirlo: el conector de Outlook es de solo lectura._ **Aviso publicado el 1 de octubre a las 4:06 p. m.**, _en una sola línea y sin mencionar la cancelación_ — decisión de Sandra: «déjalo así, no mandes nada, simplemente le dices que nos vemos el lunes»."
+  },
+  {
+   "area": "Comunicaciones",
+   "sesion": "S11",
+   "fecha": "2026-10-01",
+   "hora": "14:00",
+   "canal": "#comunicaciones",
+   "quien_cancela": "—",
+   "motivo": "Sandra estuvo conectada en la sala y esperó hasta las 2:30 p. m. César Reyes no ingresó.",
+   "causa": "inasistencia — no ingresó a la sala",
+   "aviso_en_canal": "https://iamteamespacio.slack.com/archives/C0BPC33FM9D/p1790891162563549",
+   "reagendada": false,
+   "compromiso": "**El número no avanza por segunda vez seguida.** La del lunes 5 a las 4:00 p. m. toma la **S11** y la de las 5:00 la **S12**. _Comunicaciones cierra el programa en S12_ — no en S14, como todavía dicen los dos títulos del calendario.",
+   "cuenta_como": "no realizada",
+   "nota": "**Era la individual de César Reyes.** *Segunda caída seguida de Comunicaciones* — la del miércoles 30 a las 4:00 también se cayó. _El área venía de diez sesiones sin faltar y es la que más sesiones tiene del programa._ :warning: **Aquí sí se nombró a la persona en el canal:** _instrucción expresa de Sandra el 1 de octubre_ — «la de comunicaciones menciona a César, que era con él». **Es una excepción a la regla de no señalar a nadie delante de su equipo, no un cambio de la regla.** *Entra en las métricas del tablero del cliente:* **23 sesiones caídas.** _En el tablero no se nombra a nadie_ — solo el área. **Al área no le quedan horas esta semana:** solo las dos del lunes 5."
   }
  ],
  "patron": {
