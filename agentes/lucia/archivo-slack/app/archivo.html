@@ -1069,7 +1069,7 @@ function pintarActa(a, canal){
        + '<p style="margin:0 0 13px;font-size:13px;color:var(--tinta-3)">La sala estuvo abierta <b>'
        + horas(inf.duracion_min)+'</b> · promedio por persona <b>'+horas(inf.media_min)+'</b></p>'
        + '<table class="tb"><tr><th>Persona</th><th>Rol</th><th style="text-align:right">En sala</th></tr>'
-       + inf.participantes.map(p => '<tr><td class="q">'+esc(p.oficial || p.nombre)+'</td>'
+       + inf.participantes.map(p => '<tr><td class="q">'+esc(p.nombre)+'</td>'
            + '<td class="d">'+esc(p.rol||'')+'</td>'
            + '<td class="d" style="text-align:right">'+horas(p.minutos)+'</td></tr>').join('')
        + '</table>'
@@ -1170,7 +1170,6 @@ const horas = m => m >= 60 ? (Math.floor(m/60)+' h'+(m%60 ? ' '+(m%60)+' min' : 
 
 function pintarAsistencia(){
   const gente = A.asistencia, max = gente.length ? gente[0].n : 1;
-  const porConf = Object.values(A.por_confirmar||{}).reduce((s,v)=>s+v.length,0);
   let h = '<div class="lista">'+gente.map((g,i) =>
     '<button class="fila" data-pers="'+i+'">'+av(g.nombre)
     + '<div class="cu"><div class="t1">'+esc(g.nombre)+'</div>'
@@ -1182,17 +1181,7 @@ function pintarAsistencia(){
      + 'y minutos reales de cada persona. '
      + (A.mentoria && A.mentoria.length ? 'La mentoría va aparte: <b>'+esc(A.mentoria[0].nombre)
          + '</b> estuvo en <b>'+A.mentoria[0].n+'</b> sesiones. ' : '')
-     + (porConf ? 'Quedan <b>'+porConf+' nombres</b> que Teams registró y que no casan con el '
-         + 'listado oficial —cuentas genéricas del área, nombres de pila sueltos y gente de otras '
-         + 'áreas que entró—; <button class="enlazar" id="ver-conf" style="color:var(--rojo);font-weight:550">'
-         + 'verlos</button> antes de darlos por asistencia.' : '')
-     + '</div>'
-     + '<div id="caja-conf" hidden style="margin-top:12px">'
-     + Object.entries(A.por_confirmar||{}).map(([c,ns]) =>
-         '<div class="carpeta"><h3>#'+esc(canalDe(c)?canalDe(c).nombre:c)
-         + '<span class="c">'+ns.length+'</span></h3><div class="gente">'
-         + ns.map(n=>'<span class="persona">'+av(n)+esc(n)+'</span>').join('')
-         + '</div></div>').join('')
+     + 'Solo cuenta quien está en el listado oficial del área.'
      + '</div>';
   return h;
 }
@@ -1362,9 +1351,6 @@ function pintar(sinHash){
   cuerpo.querySelectorAll('[data-volver]').forEach(b => b.onclick = () => ir({ acta:null }));
   cuerpo.querySelectorAll('[data-pers]').forEach(b => b.onclick = () =>
     ir({ tipo:'asistencia', persona:+b.dataset.pers }));
-  const vc = $('#ver-conf');
-  if (vc) vc.onclick = () => { const c = $('#caja-conf'); c.hidden = !c.hidden;
-    vc.textContent = c.hidden ? 'verlos' : 'ocultarlos'; };
   cuerpo.querySelectorAll('[data-vpers]').forEach(b => b.onclick = () => ir({ persona:null }));
   const alt = $('#alt-sis'); if (alt) alt.onclick = () => ir({ sistema:!vista.sistema });
   conectarGlobo(cuerpo);

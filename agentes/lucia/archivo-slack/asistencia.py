@@ -171,8 +171,9 @@ if __name__ == '__main__':
 
 # ──────────────────────────────────────────────────────────────────────────
 # Conciliación contra el listado oficial: los nombres canónicos salen de los
-# participantes de las actas. Lo que no case no se publica como persona —
-# queda aparte para que Sandra decida, que es la regla.
+# participantes de las actas. Lo que no case no se registra en ninguna parte
+# —ni como asistencia ni como lista aparte—; decisión de Sandra del 1 de
+# octubre. Solo se cuenta el total que quedó fuera, sin nombres.
 # ──────────────────────────────────────────────────────────────────────────
 
 LUCIA = os.path.dirname(AQUI)
@@ -291,14 +292,20 @@ def conciliar(salida):
         return ('mentora iam' in (g['cargo'] or '').lower()
                 or clave(g['nombre']) == 'sandra curvelo')
 
+    # Quien no esté en el listado no queda registrado en ninguna parte: también
+    # se va de la asistencia de cada sesión, no solo del conteo por persona.
+    for s in salida['sesiones']:
+        s['participantes'] = [dict(p, nombre=p['oficial'])
+                              for p in s['participantes'] if p.get('oficial')]
+        for p in s['participantes']:
+            p.pop('oficial', None)
+
     mentoria = [g for g in personas.values() if es_mentoria(g)]
     equipo = [g for g in personas.values() if not es_mentoria(g)]
     salida['personas'] = sorted(equipo, key=lambda g: (-g['n'], -g['minutos']))
     salida['mentoria'] = sorted(mentoria, key=lambda g: -g['n'])
-    salida['por_confirmar'] = {c: sorted(v) for c, v in sorted(sueltos.items()) if v}
     print('\n%d personas del listado · %d participaciones · %d horas de sala'
           % (len(equipo), sum(g['n'] for g in equipo),
              round(sum(g['minutos'] for g in equipo) / 60)))
-    print('%d nombres sin casar con el listado, en %d canales'
-          % (sum(len(v) for v in salida['por_confirmar'].values()),
-             len(salida['por_confirmar'])))
+    print('%d nombres de Teams quedaron fuera por no estar en el listado'
+          % sum(len(v) for v in sueltos.values()))

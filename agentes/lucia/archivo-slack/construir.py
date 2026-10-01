@@ -197,7 +197,6 @@ def asistencia(archivo):
         t = json.load(open(ruta, encoding='utf-8'))
         archivo['asistencia'] = t['personas']
         archivo['mentoria'] = t['mentoria']
-        archivo['por_confirmar'] = t.get('por_confirmar', {})
         archivo['sesiones_informe'] = t['sesiones']
         # amarrar el informe a su acta, por canal y fecha
         por_fecha = {(s['canal'], s['fecha']): s for s in t['sesiones']}
@@ -212,10 +211,9 @@ def asistencia(archivo):
                                     'participantes': inf['participantes']}
                     n += 1
         print('  %d personas \u00b7 %d participaciones \u00b7 %d sesiones con informe '
-              '\u00b7 %d actas con asistencia medida \u00b7 %d nombres por confirmar'
+              '\u00b7 %d actas con asistencia medida'
               % (len(t['personas']), sum(g['n'] for g in t['personas']),
-                 len(t['sesiones']), n,
-                 sum(len(v) for v in t.get('por_confirmar', {}).values())))
+                 len(t['sesiones']), n))
         return
     _asistencia_de_actas(archivo)
 
