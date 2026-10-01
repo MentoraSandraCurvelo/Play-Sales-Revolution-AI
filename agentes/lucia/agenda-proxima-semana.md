@@ -159,3 +159,36 @@ De las 18 activas, **siete no tienen nada agendado** en lo que resta del program
 **El conector de Outlook no puede escribir.** Tiene `Calendars.Read` y haría falta
 `Calendars.ReadWrite`. Hasta que se concedan esos permisos, los títulos los corrige Sandra a
 mano y esta tabla es la referencia.
+
+---
+
+## La semana del 6 al 9 de octubre no es oficial
+
+**Hay siete sesiones de Comfacesar agendadas del martes 6 al viernes 9**, pero *la
+extensión del programa no está confirmada.* Decisión de Sandra del 1 de octubre:
+**son agendamientos de presión, no una ampliación acordada** — *«no es firme, estoy
+jugando a agendar más para presionar»*.
+
+| Cuándo | Área | Correos |
+|---|---|---|
+| Mar 6, 10:00 a. m. | Servicios Sociales | `pro_juniorss@` · `serviciossociales@` |
+| Mar 6, 11:00 a. m. | Agencia de Empleo | `juridicompc@` · `fosfec@` · `fomentoempresarial@` |
+| Mar 6, 2:00 p. m. | Vivienda | `cindymsilva86@gmail.com` — *correo personal, no el corporativo* |
+| Mar 6, 3:00 p. m. | Subsidio | `coordinacionsubsidioyaportes@` |
+| Jue 8, 10:00 a. m. | Subsidio | `coordinacionsubsidioyaportes@` |
+| Jue 8, 3:00 p. m. | Agencia de Empleo | `laboratoriodeempleo@` · `fomentoempresarial@` |
+| Vie 9, 11:00 a. m. | Agencia de Empleo | `agenciaempleo@` · `juridicompc@` · `fosfec@` · `fomentoempresarial@` |
+
+**Lo que esto significa para lo que se publica:**
+
+> **La fecha de cierre que se dice en los canales y en el tablero sigue siendo el
+> lunes 5 de octubre.** No se menciona la semana del 6 al 9 en ningún documento del
+> cliente, ni en avisos, ni en actas, hasta que Sandra diga que la extensión es firme.
+
+**La numeración de esas siete es provisional** y no se usa todavía: depende de que las
+sesiones del 2 y del 5 se den. Se recalcula el lunes.
+
+**Y hay un riesgo que conviene tener a la vista:** si la extensión no se da, esas siete
+citas hay que bajarlas. *Una sesión agendada que no se hace es una caída* — pero al
+bajarlas Sandra, entran como **canceladas por la mentoría** y no suben la cifra del
+tablero del cliente. Quedan en el registro, no en el reporte.
