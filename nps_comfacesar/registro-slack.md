@@ -241,6 +241,30 @@ Sandra diga si se borra.
 
 ---
 
+## ⚙️ Cómo hacer barata la corrida horaria — nota técnica del 1 de octubre
+
+Con la parte A cerrada hasta el lunes 5, la corrida de cada hora casi nunca tiene nada que hacer.
+**Para no gastar en balde, este es el orden corto:**
+
+1. **Leer este registro.** Si la regla de no escribir sigue vigente y nada cambió, la parte A se salta
+   completa. No se vuelve a mirar el calendario para buscar áreas en silencio.
+2. **Parte B, los DM:** revisados el 1 de octubre a las 9:40 a. m. **Están vacíos o solo con el aviso de
+   que aceptaron la invitación a Slack.** Nadie le escribe a Sandra por privado en este espacio. Basta
+   mirar los dos o tres más recientes, y solo si hay motivo para pensar que alguien escribió.
+3. **Parte C, preguntas en canales:** leer dos o tres canales donde haya habido sesión ese día. No los
+   veinte.
+
+**⚠️ `slack_search_public` no sirve para barrer.** Probado el 1 de octubre: una búsqueda **solo con
+filtros** —`after:` con y sin `-from:`— devuelve **cero resultados** aunque el canal tenga mensajes de
+esas fechas. Necesita palabras clave. **No volver a intentar el barrido general por fecha:** cuesta dos
+llamadas y no devuelve nada. Leer los canales uno por uno es la única vía que funciona.
+
+**Estado al cierre de la corrida de las 10:11 a. m.:** nada pendiente. Cumplimiento, Gerencia Financiera
+y Tesorería sin un solo mensaje del área; Jurídica con su último mensaje de ayer a las 9:49, ya
+respondido con un «Gracias!»; IPS al día.
+
+---
+
 ## 🔇 No más avisos de silencio antes del cierre — regla fija del 1 de octubre
 
 **Sandra lo decidió hoy a las 9:20 a. m.:** *«No escribas nada más»*.
