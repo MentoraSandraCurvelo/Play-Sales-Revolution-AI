@@ -6,6 +6,55 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## 🌡️ 1 oct · 7:15 a. m. · Corte del día: el programa pasa a 103 y aparece un choque de cifras en IPS
+
+**Termómetro actualizado a v92** (`HxGTyCeLnuvk9oHEtHLh8Z`). Cambios: 102 → **103 sesiones**,
+áreas sin fecha 10 → **11**, sello de corte al jueves 1 a las 7:15 a. m.
+
+**Lo nuevo:** IPS cerró su **S5 el 30 de septiembre a las 4:45 p. m.**, con los tres soportes el
+mismo día (grabación 5:58, resumen 6:02, acta 6:05).
+
+**⚠️ CONFLICTO SIN RESOLVER — la fila de IPS no se publicó en los otros cuatro tableros.**
+
+| Fuente | Dice |
+|---|---|
+| Sandra en el chat, 30 sep | **6.200** minutos mensuales |
+| **Acta de la S5** (Dropbox y canal) | **6.400** minutos al mes |
+
+El acta lo repite en **cinco lugares**: la franja de KPIs, el mapa de calor, la alerta 02, el
+ejercicio B y la observación 8. Es la fuente documental de la sesión donde se hizo la corrección.
+
+**Las dos cuentas, calculadas:**
+
+- Con **6.200**: (6.200 − 480) × 12 ÷ 52 = **1.320 min/sem = 22,0 h/sem** → total **7.985 min/sem = 133,1 h**
+- Con **6.400**: (6.400 − 480) × 12 ÷ 52 = **1.366 min/sem = 22,8 h/sem** → total **8.031 min/sem = 133,8 h**
+
+**Diferencia: 46 min/semana, 0,8 h.** Pequeña, pero cambia cifras ya publicadas en los KPIs y en la
+Sala de Control, incluidas las proyecciones en pesos. **Se le preguntó a Sandra por encuesta y queda
+en espera.** No tocar Sala de Control, KPIs ni las dos Mesas hasta que responda.
+
+**Dos cosas más del corte:**
+
+1. **Dos sesiones agendadas después del cierre.** Agencia de Empleo tiene espacios el **martes 6** y
+   el **jueves 8 de octubre**, y el programa termina el **lunes 5**. Quedan señaladas en el tablero,
+   sin contarse. Es decisión de alcance, no de agenda.
+2. **La asistencia se mantuvo en 92% a propósito.** El acta de IPS S5 **no trae la tabla de
+   convocados y activos**, así que esa sesión no entra en el indicador todavía. Dicho en el tablero
+   para que nadie lea el 92% como si ya la incluyera.
+
+**Y una coincidencia que podía engañar:** al subir a 103, este tablero coincide con el reporte de
+corte de Lucía, que también dice 103. **No cuadran:** este llegó sumando IPS, el otro sigue contando
+el número que Sub. Operativa se saltó. Sobre la misma base, el de Lucía debería decir **104**. Queda
+explicado en el tablero.
+
+**Error propio, anotado para no repetirlo:** el primer intento de publicar creó un **artefacto nuevo**
+(`5L7fyJFDbJuFDjqEHMPqo3`) en vez de actualizar el Termómetro, porque tras el corte de contexto la
+sesión ya no tenía registrado ese archivo como publicado. **Después de un corte de contexto hay que
+publicar siempre con `url` explícita.** El artefacto suelto quedó privado y está pendiente de que
+Sandra diga si se borra.
+
+---
+
 ## 🚧 Alcance: qué tableros son míos — regla fija del 30 de septiembre
 
 **Sandra lo dijo así:** *«yo no entiendo tú por qué estás metiéndote con los HTML o los tableros de
