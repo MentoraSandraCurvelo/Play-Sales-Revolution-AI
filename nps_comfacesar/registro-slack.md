@@ -6,6 +6,32 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## 🔇 1 oct · 9:15 a. m. · Corrida de silencio, DM y preguntas: nada que publicar, y la regla semanal es el motivo
+
+**Sin publicar nada en ningún canal.** Las tres partes de la corrida, con lo que se verificó:
+
+**A · Áreas en silencio.** Hay **siete áreas sin fecha y con más de seis días quietas**: Mercadeo,
+Planeación, Gerencia Financiera, Talento Humano, Tesorería, Vivienda y Cumplimiento.
+**No se les puede escribir:** todas recibieron ya su aviso de silencio el **lunes 28 a las 8:50 a. m.**,
+y el tope es **uno por canal por semana**. Verificado leyendo tres canales directamente —Cumplimiento
+8:50:56, Gerencia Financiera 8:50:42, Tesorería 8:50:29—, los tres con el mismo texto plantillado por
+área, así que fue una campaña a todas las que no tenían fecha.
+
+**La regla solo se libera el lunes 5, que es el último día.** Un aviso ese día no alcanza a producir una
+sesión. **Se le pregunta a Sandra por encuesta si se levanta el tope para un empujón final.**
+
+**B · Mensajes directos.** Revisados los cuatro DM más nuevos y el de María Elvira. **Todos vacíos o
+solo con el aviso de que aceptaron la invitación a Slack.** Nadie le ha escrito nada por privado. No
+hubo nada que responder, y por lo tanto no se aplicó la regla de preguntar antes por un saludo viejo.
+
+**C · Preguntas en los canales.** En Cumplimiento y en Gerencia Financiera **no hay un solo mensaje
+escrito por gente del área**: todo lo que hay es de IAM. Nada pendiente de respuesta.
+
+**Dato operativo para las próximas corridas:** los DM de este espacio están prácticamente sin usar.
+Conviene revisar solo los más recientes y no los treinta, que es lo que se hizo aquí.
+
+---
+
 ## 🚦 1 oct · 8:15 a. m. · Nace «Hallazgos críticos» para dirección. Los Hallazgos quedan en dos.
 
 **Decisión de Sandra, en sus palabras:** *«hacemos dos hallazgos mentora ese es privado seria este y los
