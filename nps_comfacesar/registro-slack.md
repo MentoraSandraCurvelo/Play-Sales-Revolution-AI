@@ -241,6 +241,34 @@ Sandra diga si se borra.
 
 ---
 
+## 🔒 Las fechas del proyecto no se publican hasta nueva orden — regla fija del 1 de octubre
+
+**Sandra decidió hoy a las 10:50 a. m., por encuesta:** *«No toques nada hasta que te diga»*.
+
+**Qué significa, exacto:**
+
+- **Ningún tablero cambia su fecha de cierre.** Siguen diciendo **lunes 5 de octubre**, y el Termómetro
+  sigue diciendo «quedan tres días». Se queda así aunque el calendario tenga sesiones el 6, el 8 y el 9,
+  y un bloque de cierre el 16.
+- **No se menciona el 31 de octubre en ninguna parte**, ni la extensión, ni el cierre del 16.
+- **Lo único que se publicó fue el conteo de caídas**, que no revela nada: **Termómetro v93, caídas de
+  21 a 22**, con la causa textual del aviso de cancelación —*«no se presenta nadie»*— y **sin el nombre
+  de la persona**, aunque el correo lo traía. Es una inasistencia en una individual de Comunicaciones.
+- **Las dos canceladas de hoy no se publicaron**, porque no tienen causa escrita: Servicios Sociales S11
+  y la reunión con María Elvira. **Siguen por confirmar.**
+- **La agenda tampoco se corrigió.** El tablero todavía da por vigente la sesión de Servicios Sociales
+  de hoy, que se canceló a las 10:02. Se dejó así porque la instrucción fue no tocar nada más.
+
+**⚠️ El riesgo que ella asumió, dicho de frente y ya advertido:** el lunes 5 por la tarde los tableros
+quedan desmentidos solos, con la dirección mirando, porque van a seguir anunciando un cierre que no
+ocurrió. **Hay hasta el lunes para liberarlo.**
+
+**Qué está listo para aplicar en cuanto diga:** quitar la cuenta regresiva, poner las sesiones del 6, 8
+y 9 como agendadas, el bloque de cierre del 16 con sus siete horas, corregir la agenda de hoy, y
+resolver si el proyecto va al 16 o al 31. **No se vuelve a preguntar: ella avisa.**
+
+---
+
 ## 🔴 1 oct · 10:40 a. m. · EL PROYECTO SE EXTIENDE Y HAY CAÍDAS NUEVAS. Nada publicado todavía
 
 **Sandra:** *«cancelaron varias revisa mi correo y actualiza todo el proyecto va hasta el 31 de octubre
