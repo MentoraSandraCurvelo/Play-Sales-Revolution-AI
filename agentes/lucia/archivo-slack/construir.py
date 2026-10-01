@@ -186,7 +186,42 @@ def pdfs(archivo):
 
 
 def asistencia(archivo):
-    """Qui\u00e9n asisti\u00f3 a qu\u00e9, sacado de los participantes de cada acta."""
+    """Qui\u00e9n asisti\u00f3 a qu\u00e9.
+
+    Los informes de asistencia de Teams, bajados de Dropbox, son la fuente:
+    traen entrada, salida y minutos reales. Las actas quedan de respaldo para
+    las sesiones que no tienen informe.
+    """
+    ruta = os.path.join(AQUI, 'datos', 'asistencia-teams.json')
+    if os.path.exists(ruta):
+        t = json.load(open(ruta, encoding='utf-8'))
+        archivo['asistencia'] = t['personas']
+        archivo['mentoria'] = t['mentoria']
+        archivo['por_confirmar'] = t.get('por_confirmar', {})
+        archivo['sesiones_informe'] = t['sesiones']
+        # amarrar el informe a su acta, por canal y fecha
+        por_fecha = {(s['canal'], s['fecha']): s for s in t['sesiones']}
+        n = 0
+        for c in archivo['canales']:
+            c['informes'] = [s for s in t['sesiones'] if s['canal'] == c['canal']]
+            for a in c['actas']:
+                inf = por_fecha.get((c['canal'], a['iso']))
+                if inf:
+                    a['informe'] = {'duracion_min': inf['duracion_min'],
+                                    'media_min': inf['media_min'],
+                                    'participantes': inf['participantes']}
+                    n += 1
+        print('  %d personas \u00b7 %d participaciones \u00b7 %d sesiones con informe '
+              '\u00b7 %d actas con asistencia medida \u00b7 %d nombres por confirmar'
+              % (len(t['personas']), sum(g['n'] for g in t['personas']),
+                 len(t['sesiones']), n,
+                 sum(len(v) for v in t.get('por_confirmar', {}).values())))
+        return
+    _asistencia_de_actas(archivo)
+
+
+def _asistencia_de_actas(archivo):
+    """Respaldo: la asistencia sacada de los participantes de cada acta."""
     gente = {}
     for c in archivo['canales']:
         for a in c['actas']:

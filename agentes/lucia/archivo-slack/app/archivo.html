@@ -942,7 +942,8 @@ function pintarPortada(){
     + 'Aquí no caducan a los noventa días.</p>'
     + '<div class="cifras">'
     + [[miles(TOTAL.msg),'Mensajes'],[A.canales.length,'Canales'],[TOTAL.actas,'Actas'],
-       [A.n_grabaciones,'Grabaciones'],[A.asistencia.reduce((s,g)=>s+g.n,0),'Participaciones']]
+       [A.n_grabaciones,'Grabaciones'],
+       [Math.round(A.asistencia.reduce((s,g)=>s+g.minutos,0)/60),'Horas en sala']]
       .map(([v,e]) => '<div class="cifra"><div class="v">'+v+'</div><div class="e">'+e+'</div></div>').join('')
     + '</div></div>';
 
@@ -1061,6 +1062,21 @@ function pintarActa(a, canal){
              + (rol ? '<span class="rol">'+esc(rol)+'</span>' : '')+'</span>';
       }).join('')+'</div></div>';
 
+  if (a.informe){
+    const inf = a.informe;
+    h += '<div class="bloque"><h3>Asistencia medida<span class="c">'
+       + inf.participantes.length+'</span></h3>'
+       + '<p style="margin:0 0 13px;font-size:13px;color:var(--tinta-3)">La sala estuvo abierta <b>'
+       + horas(inf.duracion_min)+'</b> · promedio por persona <b>'+horas(inf.media_min)+'</b></p>'
+       + '<table class="tb"><tr><th>Persona</th><th>Rol</th><th style="text-align:right">En sala</th></tr>'
+       + inf.participantes.map(p => '<tr><td class="q">'+esc(p.oficial || p.nombre)+'</td>'
+           + '<td class="d">'+esc(p.rol||'')+'</td>'
+           + '<td class="d" style="text-align:right">'+horas(p.minutos)+'</td></tr>').join('')
+       + '</table>'
+       + '<p style="margin:12px 0 0;font-size:12.5px;color:var(--tinta-3)">'
+       + 'Del informe de asistencia de Teams.</p></div>';
+  }
+
   for (const [k,tit] of [['alertas','Alertas'],['riesgos','Riesgos']]){
     const v = a[k]; if (!v || !v.length) continue;
     h += '<div class="bloque"><h3>'+tit+'<span class="c">'+v.length+'</span></h3>'+v.map(x => {
@@ -1150,42 +1166,62 @@ function pintarGrabaciones(c){
 }
 
 /* ── asistencia ── */
+const horas = m => m >= 60 ? (Math.floor(m/60)+' h'+(m%60 ? ' '+(m%60)+' min' : '')) : m+' min';
+
 function pintarAsistencia(){
   const gente = A.asistencia, max = gente.length ? gente[0].n : 1;
-  return '<div class="lista">'+gente.map(g =>
-    '<button class="fila" data-pers="'+esc(g.nombre)+'">'+av(g.nombre)
+  const porConf = Object.values(A.por_confirmar||{}).reduce((s,v)=>s+v.length,0);
+  let h = '<div class="lista">'+gente.map((g,i) =>
+    '<button class="fila" data-pers="'+i+'">'+av(g.nombre)
     + '<div class="cu"><div class="t1">'+esc(g.nombre)+'</div>'
     + '<div class="t2">'+esc(g.cargo || g.canales.map(x=>'#'+canalDe(x).nombre).join(' · '))+'</div></div>'
-    + '<span class="barrita"><i style="width:'+Math.round(g.n/max*100)+'%"></i></span>'
-    + '<span class="dr">'+g.n+'</span></button>').join('')+'</div>'
-    + '<div class="pista">Sale de los <b>participantes</b> de cada acta: '
-    + '<b>'+gente.reduce((s,g)=>s+g.n,0)+'</b> participaciones en <b>'+TOTAL.actas+'</b> sesiones. '
-    + (A.mentoria.length ? ' La mentoría va aparte: <b>'+esc(A.mentoria[0].nombre)+'</b> facilitó las <b>'
-        + A.mentoria[0].n+'</b> sesiones.' : '')
-    + ' Los informes de asistencia de Teams se publicaron en Slack como CSV; de esos queda el nombre, no el archivo.</div>';
+    + '<span class="barrita" title="'+g.n+' sesiones"><i style="width:'+Math.round(g.n/max*100)+'%"></i></span>'
+    + '<span class="dr">'+g.n+' ses<br>'+horas(g.minutos)+'</span></button>').join('')+'</div>';
+  h += '<div class="pista">Sale de los <b>informes de asistencia de Teams</b>, los '
+     + (A.sesiones_informe||[]).length + ' que están guardados en Dropbox: traen entrada, salida '
+     + 'y minutos reales de cada persona. '
+     + (A.mentoria && A.mentoria.length ? 'La mentoría va aparte: <b>'+esc(A.mentoria[0].nombre)
+         + '</b> estuvo en <b>'+A.mentoria[0].n+'</b> sesiones. ' : '')
+     + (porConf ? 'Quedan <b>'+porConf+' nombres</b> que Teams registró y que no casan con el '
+         + 'listado oficial —cuentas genéricas del área, nombres de pila sueltos y gente de otras '
+         + 'áreas que entró—; <button class="enlazar" id="ver-conf" style="color:var(--rojo);font-weight:550">'
+         + 'verlos</button> antes de darlos por asistencia.' : '')
+     + '</div>'
+     + '<div id="caja-conf" hidden style="margin-top:12px">'
+     + Object.entries(A.por_confirmar||{}).map(([c,ns]) =>
+         '<div class="carpeta"><h3>#'+esc(canalDe(c)?canalDe(c).nombre:c)
+         + '<span class="c">'+ns.length+'</span></h3><div class="gente">'
+         + ns.map(n=>'<span class="persona">'+av(n)+esc(n)+'</span>').join('')
+         + '</div></div>').join('')
+     + '</div>';
+  return h;
 }
 
-function pintarPersona(nombre){
-  const g = A.asistencia.find(x => x.nombre === nombre);
-  if (!g) return vacio('◍','No encontrada','');
+function pintarPersona(i){
+  const g = A.asistencia[i];
+  if (!g) return vacio('◉','No encontrada','');
+  const med = g.n ? Math.round(g.minutos/g.n) : 0;
   return '<button class="volver" data-vpers="1">‹ Asistencia</button>'
     + '<div class="acta-cab"><div class="cejilla"><span class="anillo"></span>Asistencia · IAM™ Intelligence</div>'
     + '<h2>'+esc(g.nombre)+'</h2><div class="sub">'
-    + [g.cargo, g.correo && g.correo !== '—' ? g.correo : '', g.nivel].filter(Boolean).map(esc).join(' · ')
+    + [g.cargo, g.correo && g.correo !== '—' ? g.correo : ''].filter(Boolean).map(esc).join(' · ')
     + '</div></div>'
-    + '<div class="kpis"><div class="kpi"><div class="v">'+g.n+'</div><div class="e">Sesiones</div></div>'
-    + '<div class="kpi"><div class="v">'+g.canales.length+'</div><div class="e">Áreas</div></div>'
-    + '<div class="kpi"><div class="v">'+fechaCorta(g.sesiones[g.sesiones.length-1].iso)
-    + '</div><div class="e">Primera sesión</div></div>'
-    + '<div class="kpi"><div class="v">'+fechaCorta(g.sesiones[0].iso)
-    + '</div><div class="e">Última sesión</div></div></div>'
+    + '<div class="kpis">'
+    + '<div class="kpi"><div class="v">'+g.n+'</div><div class="e">Sesiones</div></div>'
+    + '<div class="kpi"><div class="v">'+Math.round(g.minutos/60)+'</div><div class="e">Horas en sala</div></div>'
+    + '<div class="kpi"><div class="v">'+med+'</div><div class="e">Minutos por sesión</div>'
+    + '<div class="d">promedio</div></div>'
+    + '<div class="kpi"><div class="v">'+fechaCorta(g.sesiones[g.sesiones.length-1].fecha)
+    + '</div><div class="e">Primera</div></div>'
+    + '<div class="kpi"><div class="v">'+fechaCorta(g.sesiones[0].fecha)
+    + '</div><div class="e">Última</div></div></div>'
     + '<div class="bloque"><h3>Las sesiones<span class="c">'+g.n+'</span></h3><table class="tb">'
-    + '<tr><th>Fecha</th><th>Área</th><th>Sesión</th><th>Modalidad</th></tr>'
-    + g.sesiones.map(se => '<tr><td class="d">'+fechaCorta(se.iso)+'</td>'
-        + '<td><button class="enlazar" data-a="'+esc(se.acta)+'" data-ac="'+esc(se.canal)+'" '
-        + 'style="color:var(--rojo);font-weight:550">#'+esc(se.nombre_canal)+'</button></td>'
-        + '<td class="q">'+(se.sesion!=null?'S'+se.sesion:'—')+'</td>'
-        + '<td class="d">'+esc(se.modalidad||'—')+'</td></tr>').join('')
+    + '<tr><th>Fecha</th><th>Área</th><th>Sesión</th><th style="text-align:right">En sala</th></tr>'
+    + g.sesiones.map(se => '<tr><td class="d">'+fechaCorta(se.fecha)+'</td>'
+        + '<td><button class="enlazar" data-ir="'+esc(se.canal)+'" '
+        + 'style="color:var(--rojo);font-weight:550">#'+esc(canalDe(se.canal).nombre)+'</button></td>'
+        + '<td class="q">S'+se.sesion+'</td>'
+        + '<td class="d" style="text-align:right">'+horas(se.minutos)+'</td></tr>').join('')
     + '</table></div>';
 }
 
@@ -1292,14 +1328,14 @@ function pintar(sinHash){
   }
   else if (vista.tipo === 'asistencia'){
     if (vista.persona != null && A.asistencia[vista.persona]){
-      const g = A.asistencia[vista.persona];
-      compacto = g.nombre;
-      h = '<div class="seccion" style="margin-top:8px">'+pintarPersona(g.nombre)+'</div>';
+      compacto = A.asistencia[vista.persona].nombre;
+      h = '<div class="seccion" style="margin-top:8px">'+pintarPersona(vista.persona)+'</div>';
     } else {
       compacto = 'Asistencia';
       h = '<div class="titulon"><h1>Asistencia</h1><div class="meta"><b>'
         + A.asistencia.reduce((s,g)=>s+g.n,0)+'</b> participaciones<i>·</i><b>'
-        + A.asistencia.length+'</b> personas<i>·</i>de más a menos sesiones</div></div>'
+        + A.asistencia.length+'</b> personas<i>·</i><b>'
+        + Math.round(A.asistencia.reduce((s,g)=>s+g.minutos,0)/60)+'</b> horas en sala</div></div>'
         + '<div class="seccion">'+pintarAsistencia()+'</div>';
     }
   }
@@ -1325,7 +1361,10 @@ function pintar(sinHash){
     ir({ tipo:'canal', canal:b.dataset.ac, pestana:'actas', acta:b.dataset.a }));
   cuerpo.querySelectorAll('[data-volver]').forEach(b => b.onclick = () => ir({ acta:null }));
   cuerpo.querySelectorAll('[data-pers]').forEach(b => b.onclick = () =>
-    ir({ tipo:'asistencia', persona:A.asistencia.findIndex(x => x.nombre === b.dataset.pers) }));
+    ir({ tipo:'asistencia', persona:+b.dataset.pers }));
+  const vc = $('#ver-conf');
+  if (vc) vc.onclick = () => { const c = $('#caja-conf'); c.hidden = !c.hidden;
+    vc.textContent = c.hidden ? 'verlos' : 'ocultarlos'; };
   cuerpo.querySelectorAll('[data-vpers]').forEach(b => b.onclick = () => ir({ persona:null }));
   const alt = $('#alt-sis'); if (alt) alt.onclick = () => ir({ sistema:!vista.sistema });
   conectarGlobo(cuerpo);
@@ -1375,7 +1414,7 @@ function buscar(){
   A.asistencia.forEach((g,i) => {
     if (plano(g.nombre).includes(nq) || plano(g.cargo||'').includes(nq))
       hits.push({ k:'persona', i, ic:'◉', t1:g.nombre,
-                  t2:g.cargo || (g.n+' sesiones'), dr:g.n+' ses' });
+                  t2:g.cargo || (g.n+' sesiones'), dr:horas(g.minutos) });
   });
   const msgs = [];
   for (const c of A.canales) for (const m of c.mensajes){
