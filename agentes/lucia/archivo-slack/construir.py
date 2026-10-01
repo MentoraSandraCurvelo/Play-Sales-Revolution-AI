@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """Arma app/datos.js: mensajes + actas + fijados en un solo paquete."""
 import json, os, glob, re
+from datetime import date, timedelta
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 LUCIA = os.path.dirname(AQUI)
@@ -77,6 +78,40 @@ def cargar_actas():
     return por_canal
 
 
+
+def lunes(iso):
+    y, m, d = map(int, iso.split('-'))
+    f = date(y, m, d)
+    return (f - timedelta(days=f.weekday())).isoformat()
+
+
+def pulso(archivo):
+    """Mensajes por semana: uno global y uno por canal, alineados al mismo eje."""
+    semanas = sorted({lunes(m['fecha'])
+                      for c in archivo['canales'] for m in c['mensajes'] if not m['sistema']})
+    indice = {s: i for i, s in enumerate(semanas)}
+    global_ = [0] * len(semanas)
+    for c in archivo['canales']:
+        serie = [0] * len(semanas)
+        for m in c['mensajes']:
+            if m['sistema']:
+                continue
+            i = indice[lunes(m['fecha'])]
+            serie[i] += 1
+            global_[i] += 1
+        c['pulso'] = serie
+    archivo['semanas'] = semanas
+    archivo['pulso'] = global_
+    # actas por semana, sobre el mismo eje
+    act = [0] * len(semanas)
+    for c in archivo['canales']:
+        for a in c['actas']:
+            k = lunes(a['iso'])
+            if k in indice:
+                act[indice[k]] += 1
+    archivo['pulso_actas'] = act
+
+
 def main():
     archivo = json.load(open(os.path.join(AQUI, 'datos', 'archivo.json'), encoding='utf-8'))
     actas = cargar_actas()
@@ -86,6 +121,7 @@ def main():
         c['nombre'] = NOMBRE.get(c['canal'], c['canal'])
         c['actas'] = actas.get(c['canal'], [])
         c['fijados'] = fijados.get('canales', {}).get(c['canal'], {}).get('carpetas', [])
+    pulso(archivo)
     archivo['generales'] = fijados.get('generales', [])
     archivo['nota_fijados'] = fijados.get('nota', '')
 
