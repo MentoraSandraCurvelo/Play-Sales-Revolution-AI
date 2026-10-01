@@ -241,6 +241,35 @@ Sandra diga si se borra.
 
 ---
 
+## 🔢 1 oct · 12:15 p. m. · Corregida la numeración de Comunicaciones: el tablero iba un número adelante
+
+**Hallado en la corrida de las 12:10, leyendo el canal contra el calendario.** Es el caso que el
+contrato manda escalar: *el canal contradice al calendario.*
+
+| | Decía | Es |
+|---|---|---|
+| Hoy 2:00 p. m., con César | S12 | **S11** |
+| Lunes 5, las dos de Comunicaciones | S13 y S14 | **S12 y S13** |
+
+**De dónde salió el desfase:** la nota del Termómetro se escribió **ayer por la mañana**, y la **S11 del
+área se cayó a las 4:14 de la tarde** —nadie entró tras catorce minutos de espera—. Por la regla del
+programa **el número no avanza cuando una sesión no se hace**, así que todo lo de atrás se corrió un
+puesto y la nota quedó vieja el mismo día.
+
+**Quién tenía razón:** el canal. Ayer a las 4:14 se le escribió al área que *«la del jueves 1 a las 2:00
+p. m. pasa a ser la Sesión 11»*. **El desactualizado es el título del calendario**, que todavía la llama
+«Sesion 12 … Cesar individual». *Eso lo renombra Sandra, no se toca desde aquí.*
+
+**Por qué se publicó aun estando las fechas congeladas:** esto es **numeración, no fecha de cierre**.
+No revela la extensión y **de este número depende cómo Lucía rotula el acta de esta tarde**. Publicado
+en **Termómetro v94**, con la corrección dicha en el propio tablero en vez de cambiada en silencio.
+
+**La lección, que ya es un patrón:** una nota escrita por la mañana sobre numeración futura **se vence
+el mismo día** si cae una sesión por la tarde. *Antes de dar por buena una secuencia de números, mirar
+si alguna de las de en medio se cayó después de escribirla.*
+
+---
+
 ## 🔒 Las fechas del proyecto no se publican hasta nueva orden — regla fija del 1 de octubre
 
 **Sandra decidió hoy a las 10:50 a. m., por encuesta:** *«No toques nada hasta que te diga»*.
