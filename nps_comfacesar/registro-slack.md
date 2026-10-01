@@ -189,6 +189,24 @@ Sandra diga si se borra.
 
 ---
 
+## 🔇 No más avisos de silencio antes del cierre — regla fija del 1 de octubre
+
+**Sandra lo decidió hoy a las 9:20 a. m.:** *«No escribas nada más»*.
+
+Siete áreas entran al cierre sin fecha —Mercadeo, Planeación, Gerencia Financiera, Talento Humano,
+Tesorería, Vivienda y Cumplimiento— y **todas recibieron su aviso el lunes 28 a las 8:50 a. m.**
+Se le ofreció levantar el tope semanal para un último empujón y dijo que no.
+
+**Qué significa para las corridas que quedan hasta el lunes 5:**
+
+- **No se publica ningún aviso de silencio en ningún canal.** Ni a las siete, ni a un subconjunto.
+- **No se le vuelve a preguntar.** La decisión está tomada; reabrirla cada hora es ruido.
+- **Las siete quedan registradas en el Termómetro** como áreas sin fecha, y ahí se cierra el asunto.
+- **Lo que sí sigue vivo:** responder preguntas de personas en los canales y DM, que es otra cosa y
+  tiene autorización aparte desde el 30 de septiembre.
+
+---
+
 ## 🚧 Alcance: qué tableros son míos — regla fija del 30 de septiembre
 
 **Sandra lo dijo así:** *«yo no entiendo tú por qué estás metiéndote con los HTML o los tableros de
