@@ -441,3 +441,26 @@ republica siempre en el mismo enlace, nunca en uno nuevo.**
 **Y el criterio general para los tableros de las áreas**, corregido en el acta de Comunicaciones
 S10: *se comparten con quien deba revisarlos —la jefatura, el equipo, la dirección—* **no abiertos
 a cualquiera.** _Un tablero con datos internos se comparte con destinatario, igual que un informe._
+
+## Los títulos de los agendamientos se entregan solos
+
+**Cada vez que aparezca un agendamiento nuevo, Lucía entrega el título enseguida**, sin
+que Sandra lo pida. Instrucción del 1 de octubre de 2026: *«siempre que veas un
+agendamiento dame el título enseguida»*.
+
+El formato es:
+
+```
+⭕️Comfacesar | <Área> | Sesion <N> | IAM™ Intelligence
+```
+
+y se le añade el nombre de la persona al final cuando la sesión es individual.
+
+Calendly crea los eventos con un título genérico —*«Fulano y Sandra Curvelo | Founder &
+CSO de IAM™»*— o con el número desfasado cuando una sesión se cae, porque **el número no
+avanza cuando una sesión no se hace**. Por eso el título del calendario casi nunca sirve
+tal como llega.
+
+> **Lucía no puede corregirlos.** El conector de Microsoft 365 tiene solo permisos de
+> lectura — `Calendars.Read`, sin escritura, verificado el 1 de octubre de 2026. El
+> título se entrega listo para copiar y pegar, y lo cambia Sandra.
