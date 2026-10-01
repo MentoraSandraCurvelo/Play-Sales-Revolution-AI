@@ -6,6 +6,64 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## 💵 1 oct · 7:45 a. m. · La fila de IPS entró a la Sala de Control. Los KPIs y las Mesas quedaron bloqueados.
+
+**Sandra confirmó por encuesta: vale el dato del acta, 6.400 minutos mensuales.** Su palabra textual en la
+opción elegida: *«6.400, lo que dice el acta»*.
+
+**Sala de Control actualizada a v13** (`YWpdmWuHVi4jXYW94duVqp`). La fila entró así:
+
+| Área | Tarea | Frecuencia | Antes | Hoy | Reducción | Ahorro semanal |
+|---|---|---|---|---|---|---|
+| IPS | Alimentación del sistema de gestión de SST | Mensual | 6.400 | 480 | 93% | **1.366 min** |
+
+**Todo lo que se movió, recalculado desde la tabla y no desde ninguna nota:**
+
+| | Antes | Ahora |
+|---|---|---|
+| Tareas que computan | 34 | **35** |
+| Minutos/semana | 6.665 | **8.031** |
+| Horas/semana | 111,1 | **133,9** (exacto 133,85) |
+| Reducción | 91% | **92%** |
+| Áreas con medición | 14 / 21 | **15 / 21** |
+| Áreas en el gráfico | 9 | **10** · IPS entra tercera con 22,8 h |
+| A 12 meses · profesional | $210,0 M | **$253,0 M** |
+| Gerente o jefe | $363,1 M | **$437,5 M** |
+| Directivo | $554,2 M | **$667,8 M** |
+| Semana al 2 de octubre | $4,0 – $10,7 M | **$4,9 – $12,8 M** |
+| Con la capa estimada | 129,1 h | **151,9 h** |
+| Retorno de licencias | 8,7 y 4,3 veces | **10,5 y 5,2 veces** |
+| Resto sin Sub. Financiera | 65,6 h · $124,0 M | **88,3 h · $166,9 M** |
+
+**Las tres gráficas se rehicieron, no solo las etiquetas:**
+- *Una vuelta completa:* 267 h contra 22 h, barra inferior al 8% de la superior.
+- *Áreas:* diez filas, lienzo de 463 a 505 px, ejes y rótulos recorridos 42 px.
+- *Proyección en pesos:* **escala nueva**, porque el directivo a $667,8 M ya no cabía bajo los 600 M.
+  Ahora 0 en y=240 y 700 M en y=40, a 28,57 px por cada 100 M, con rejilla y eje de ocho marcas.
+
+**Y se corrigió un argumento que el tablero venía usando.** Decía que las tres filas sin frecuencia
+valían **315 horas** si se confirmaban. IPS era 9.360 de esos minutos y ya está en la cuenta firme:
+**lo que queda son los dos agentes de Jurídica, 159,2 horas, no 315.** Dicho en el tablero.
+
+**⛔ BLOQUEO — los KPIs y las dos Mesas no se tocaron.**
+
+El clasificador de seguridad del entorno denegó la acción con el motivo **«Live-Shared Artifact
+Sensitive Delta»**: son tableros **abiertos con el enlace** y el cambio mueve cifras en pesos ya
+publicadas. **No se buscó una ruta alternativa** — el propio aviso prohíbe lograr el mismo resultado
+con otra herramienta. Queda a decisión de Sandra.
+
+**Lo que falta aplicar cuando ella autorice**, con las cifras ya calculadas arriba:
+- **KPIs** (`MhJTwMjwSshsUMYy1gQteg`, público): horas, los tres perfiles, áreas con medición, y la
+  frase de las «315 horas» del cierre.
+- **Mesa v2** (`GW7hUimEx9H3AaZtegxdYE`, público) y **Mesa vieja** (`TmKCB8XgZSAXrN4Le9ZLHp`, privada).
+
+**Otra cosa que no cuadra con el registro:** al publicar, el servicio reportó la **Sala de Control como
+«compartida con cualquier persona con el enlace»**, y este registro la tenía como **privada**. No se
+asume cuál es la verdad: queda señalado para que Sandra lo revise, porque ese tablero lleva las
+tarifas de costo hora de Comfacesar.
+
+---
+
 ## 🌡️ 1 oct · 7:15 a. m. · Corte del día: el programa pasa a 103 y aparece un choque de cifras en IPS
 
 **Termómetro actualizado a v92** (`HxGTyCeLnuvk9oHEtHLh8Z`). Cambios: 102 → **103 sesiones**,
