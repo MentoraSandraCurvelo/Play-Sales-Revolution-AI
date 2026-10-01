@@ -6,6 +6,58 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## 🧾 1 oct · 10:10 a. m. · KPIs y Mesa actualizados. Lo pidió Sandra al ver que la Mesa no mostraba nada nuevo
+
+**Sus palabras:** *«pero le doy a actualizar al tablero y no me aparece lo nuevo de la mesa»*. Tenía
+razón: la Mesa seguía en **102 sesiones, 111,1 h y $210 M**, con corte al viernes 25. Esta mañana el
+clasificador había bloqueado tocar los tableros abiertos con el enlace y quedó esperando su
+autorización; al pedirlo, se aplicó.
+
+**KPIs a v4** (`MhJTwMjwSshsUMYy1gQteg`). No fue solo cambiar números: se recalculó todo lo derivado.
+
+| | Antes | Ahora |
+|---|---|---|
+| Horas/semana | 111,1 | **133,9** |
+| Días de trabajo por semana | 13,9 | **16,7** |
+| Equivalente a tiempo completo | 2,8 personas | **3,3 personas** |
+| Por semana · profesional | $4,04 M | **$4,87 M** |
+| Al mes · profesional | $17,5 M | **$21,1 M** |
+| A 12 meses | $210,0 M | **$253,0 M** |
+| Gerente · semana, mes, año | $6,98 M · $30,3 M · $363,1 M | **$8,41 M · $36,5 M · $437,5 M** |
+| Directivo · semana, mes, año | $10,66 M · $46,2 M · $554,2 M | **$12,84 M · $55,7 M · $667,8 M** |
+| Un año en horas y días | 5.777 h · 722 días | **6.963 h · 870 días** |
+| Áreas que miden | 9 | **10** |
+| Áreas en cero | 9 | **8** |
+| Mediana de las que miden | 9,5 h | **9,8 h** |
+| Promedio | 12,3 h | **13,4 h** |
+| Proyección a la mediana | 196,6 h · $371,6 M | **212,3 h · $401,3 M** |
+| Proyección al promedio | 222,2 h · $420,0 M | **241,1 h · $455,7 M** |
+| Proyección a gerente | $642,7 M · $726,3 M | **$694,0 M · $788,1 M** |
+| Proyección a directivo | $980,8 M · $1.108,5 M | **$1.059,2 M · $1.202,8 M** |
+| Con capa estimada | 129,1 h | **151,9 h** |
+
+**Las dos gráficas también se movieron:** las barras de proyección se reescalaron —el máximo pasó de
+$420,0 a $455,7 M manteniendo el ancho, para que la etiqueta no se saliera del lienzo— y en la
+dispersión **IPS salió del cero**: pasó de (4 sesiones, 0 h) en rojo a **(5 sesiones, 22,8 h) en verde**,
+con rótulo a la izquierda para no chocar con Vivienda, que comparte columna.
+
+**Mesa a v17** (`GW7hUimEx9H3AaZtegxdYE`). Cambios:
+
+- Tarjetas de KPIs, Sala de Control y Termómetro con las cifras y los cortes de hoy.
+- **Tarjeta nueva de Hallazgos críticos** (`7ZN7p6gfYFh2MozbmrSecC`), con 21 de 39 en rojo.
+- **Se quitó la tarjeta del Hallazgos privado.** Decisión propia, dicha a Sandra: la Mesa se comparte
+  con María Elvira, el director, Julio y Fran, y una tarjeta marcada «uso interno · no se comparte» les
+  anuncia que existe un documento interno sobre ellos. Peor que no mostrarla. **Reversible si ella quiere.**
+- **La tarjeta del Corte decía «vie 25 sep» y el artefacto trae corte al 21.** Corregido a «lun 21 sep»
+  con 78 sesiones, sobre lo que se leyó esta mañana, no sobre lo que se suponía.
+
+**Error propio, anotado:** la tarjeta nueva se insertó primero en la **pestaña de Lucía** por anclar en
+el segundo «Reportes vivos» del archivo, que es el de ella. Se detectó al leer la versión viva antes de
+publicar y se movió. **Cuando un archivo repite un encabezado, el ancla tiene que incluir algo del
+bloque, no solo el título.**
+
+---
+
 ## 🔇 1 oct · 9:15 a. m. · Corrida de silencio, DM y preguntas: nada que publicar, y la regla semanal es el motivo
 
 **Sin publicar nada en ningún canal.** Las tres partes de la corrida, con lo que se verificó:
