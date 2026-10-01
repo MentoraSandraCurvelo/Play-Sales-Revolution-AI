@@ -241,6 +241,70 @@ Sandra diga si se borra.
 
 ---
 
+## 🔴 1 oct · 10:40 a. m. · EL PROYECTO SE EXTIENDE Y HAY CAÍDAS NUEVAS. Nada publicado todavía
+
+**Sandra:** *«cancelaron varias revisa mi correo y actualiza todo el proyecto va hasta el 31 de octubre
+me acaban de decir y falta aprobar la propuesta pero creería que sí igual no digamos nada aún»*.
+
+**Revisado el correo de Outlook y el de Gmail, y el calendario del 1 de octubre al 5 de noviembre.**
+
+### Lo que el calendario documenta por su cuenta
+
+**La extensión no es solo de palabra: ya está agendada.** Hay sesiones y un cierre después del lunes 5:
+
+| Cuándo | Qué |
+|---|---|
+| mar 6 oct, 11:00 a. m. | Empleo |
+| jue 8 oct, 3:30 p. m. | Empleo |
+| vie 9 oct, 11:00 a. m. | Empleo |
+| **vie 16 oct, 8:00 a 10:00 a. m.** | **⭕️ Comfacesar Cierre IAM™ Ambassadors** |
+| **vie 16 oct, 10:00 a. m. a 5:00 p. m.** | **⭕️ Comfacesar Cierre IAM Intelligence** — bloque de siete horas |
+
+**⚠️ Y aquí hay algo que no cuadra y no se resuelve solo:** Sandra dice que el proyecto va **hasta el 31
+de octubre**, y el calendario tiene el **cierre el viernes 16**. Pueden ser las dos cosas —el cierre con
+dirección el 16 y el contrato corriendo hasta el 31— pero **no se publica ninguna de las dos hasta que
+ella lo aclare.**
+
+**De la extensión no hay nada por escrito.** Ni en Outlook ni en Gmail. Se la dijeron de viva voz, casi
+con seguridad en la reunión presencial con **Julio Acosta, Sub. Dir. Administrativa**, que ocupó el
+miércoles 30 de 8:00 a 12:00. **La propuesta está sin aprobar.**
+
+### Las caídas, con su causa textual del correo
+
+| Cuándo | Sesión | Motivo escrito | ¿Cuenta? |
+|---|---|---|---|
+| 29 sep | Sub. Operativa S5 | **«no se presenta el usuario»** | **Sí** · ya estaba en las 21 |
+| 30 sep, 4:14 p. m. | Comunicaciones S11, individual de Manuel | **«no se presenta nadie»** | **Sí · NUEVA** |
+| 30 sep, 12:17 p. m. | Jurídica S12 | **«Cancelada por mi reunión con Julio acosta»** | **No** · es de Sandra, sin rastro |
+| 30 sep, 12:17 p. m. | Subsidio S8 | **«Cancelada por mi reunión con Julio acosta»** | **No** · es de Sandra, sin rastro |
+| 1 oct, 10:02 a. m. | Servicios Sociales S11 | **sin motivo escrito** | **Por confirmar** |
+| 1 oct, 10:16 a. m. | Comunicaciones · María Elvira cierres | **sin motivo escrito** | **Por confirmar** · no es sesión de área |
+
+**La de Comunicaciones S11 entró después del corte de ayer**, que fue a las 7:30 a. m., así que
+**las caídas pasan de 21 a 22** en cuanto se publique.
+
+**Las dos de hoy no tienen causa en el correo.** Se leyó el cuerpo del aviso de Servicios Sociales y
+viene vacío. Sandra dice «cancelaron varias», y eso apunta a las áreas, pero **la de María Elvira no es
+una sesión de área sino una reunión con la contraparte**, así que meterla en el conteo de caídas sería
+forzarlo. Queda por confirmar.
+
+### Lo que queda vivo hasta el lunes 5
+
+Hoy: Jurídica S12 a las 8:00 ya corrió, **Subsidio S10 a las 11:00**, **Comunicaciones S12 con César a
+las 2:00** y **Sub. Operativa S6 a las 3:00**. Viernes 2: Tecnología S7, Contabilidad S9 y Subsidio S10
+con Avelino. Lunes 5: Tecnología S8, Subsidio S11, Comunicaciones S13 y S14.
+
+**Servicios Sociales se queda sin sesión hoy** y el martes 29 hizo su S10, así que no vuelve antes del 5.
+
+### Qué NO se tocó, y por qué
+
+**Ningún tablero.** El cierre del lunes 5 está escrito en todos: el Termómetro dice «quedan tres días»,
+la Mesa y los KPIs lo repiten, y los Hallazgos críticos lo llevan en la cabecera. **Cambiar esa fecha en
+un tablero abierto con el enlace es anunciar la extensión**, y Sandra dijo *«no digamos nada aún»*.
+**Se le preguntó por encuesta.**
+
+---
+
 ## ⚙️ Cómo hacer barata la corrida horaria — nota técnica del 1 de octubre
 
 Con la parte A cerrada hasta el lunes 5, la corrida de cada hora casi nunca tiene nada que hacer.
