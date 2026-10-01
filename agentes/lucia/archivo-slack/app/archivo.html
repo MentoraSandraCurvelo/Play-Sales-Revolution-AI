@@ -427,6 +427,25 @@ button{font:inherit;letter-spacing:inherit;color:inherit;background:none;border:
 }
 .ficha.r{background:var(--rojo-tenue);color:var(--rojo);}
 
+.acciones{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px;}
+.boton{
+  display:inline-flex;align-items:center;gap:7px;padding:7px 14px;border-radius:9px;
+  font-size:13.5px;font-weight:550;background:var(--rojo);color:#fff;
+  box-shadow:0 1px 3px var(--rojo-sombra);transition:transform .2s var(--muelle),box-shadow .2s var(--muelle);
+}
+.boton:hover{text-decoration:none;transform:translateY(-1px);box-shadow:0 3px 10px var(--rojo-sombra);}
+.boton:active{transform:none;}
+.boton.pln{
+  background:var(--panel);color:var(--tinta);box-shadow:0 0 0 1px var(--linea),var(--s1);
+}
+.boton.pln:hover{box-shadow:0 0 0 1px var(--rojo-borde),var(--s2);}
+.boton .ic{font-size:14px;opacity:.9;}
+.fila .marca-ses{
+  font-size:11px;font-weight:600;letter-spacing:.03em;padding:2px 7px;border-radius:5px;
+  background:var(--rojo-tenue);color:var(--rojo);flex:none;font-variant-numeric:tabular-nums;
+}
+.barrita{height:5px;border-radius:3px;background:var(--realce-2);overflow:hidden;width:72px;flex:none;}
+.barrita i{display:block;height:100%;background:var(--rojo);border-radius:3px;}
 .volver{
   display:inline-flex;align-items:center;gap:5px;font-size:13.5px;color:var(--rojo);
   font-weight:500;margin-bottom:20px;transition:gap .2s var(--muelle);
@@ -526,7 +545,9 @@ table.tb td.d{color:var(--tinta-3);white-space:nowrap;font-variant-numeric:tabul
 .fila:hover{background:var(--realce);}
 .fila .ic{font-size:17px;flex:none;opacity:.8;}
 .fila .cu{min-width:0;flex:1;}
-.fila .t1{font-size:14px;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.fila .t1{font-size:14px;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--tinta);}
+a.fila:hover{text-decoration:none;}
+a.fila:hover .t1{color:var(--rojo);}
 .fila .t2{font-size:11.5px;color:var(--tinta-3);margin-top:1px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-variant-numeric:tabular-nums;}
 .fila .dr{font-size:12px;color:var(--tinta-3);flex:none;font-variant-numeric:tabular-nums;text-align:right;}
 .fila .fl{opacity:.3;flex:none;}
@@ -812,23 +833,26 @@ const TOTAL = { msg:A.canales.reduce((s,c)=>s+c.conteo,0), actas:A.canales.reduc
                 arch:A.canales.reduce((s,c)=>s+c.adjuntos,0), gente:A.personas.filter(p=>p.mensajes).length };
 
 /* ── estado y ruta ── */
-let vista = { tipo:'portada', canal:null, pestana:'mensajes', acta:null, sistema:false };
+let vista = { tipo:'portada', canal:null, pestana:'mensajes', acta:null, persona:null, sistema:false };
 let saltar = false;
 
 function leerHash(){
   const t = decodeURIComponent(location.hash.replace(/^#\/?/,'')).split('/').filter(Boolean);
   if (!t.length){ vista = { ...vista, tipo:'portada', canal:null, acta:null }; return; }
-  if (['actas','personas','archivos'].includes(t[0]) && !canalDe(t[0])){
-    vista = { ...vista, tipo:t[0], canal:null, acta:null }; return;
+  if (['actas','personas','archivos','grabaciones','asistencia'].includes(t[0]) && !canalDe(t[0])){
+    vista = { ...vista, tipo:t[0], canal:null, acta:null,
+              persona:(t[0]==='asistencia' && t[1]!=null) ? +t[1] : null };
+    return;
   }
   const c = canalDe(t[0]);
   if (!c){ vista = { ...vista, tipo:'portada', canal:null, acta:null }; return; }
   vista = { tipo:'canal', canal:c.canal,
-            pestana:['mensajes','actas','fijados','archivos'].includes(t[1]) ? t[1] : 'mensajes',
+            pestana:['mensajes','actas','grabaciones','fijados','archivos'].includes(t[1]) ? t[1] : 'mensajes',
             acta:t[2] || null, sistema:vista.sistema };
 }
 function escribirHash(){
   const h = vista.tipo === 'portada' ? '#/'
+    : vista.tipo === 'asistencia' ? '#/asistencia'+(vista.persona!=null ? '/'+vista.persona : '')
     : vista.tipo !== 'canal' ? '#/'+vista.tipo
     : '#/'+vista.canal+'/'+vista.pestana+(vista.acta ? '/'+vista.acta : '');
   if (location.hash !== h && !(h === '#/' && !location.hash)){ saltar = true; location.hash = h; }
@@ -853,6 +877,10 @@ function pintarRail(){
   h += '<div class="grupo">Todo el archivo</div>'
      + '<button class="item'+sel('actas')+'" data-v="actas"><span class="ic">◷</span>'
      + '<span class="nom">Actas</span><span class="n">'+TOTAL.actas+'</span></button>'
+     + '<button class="item'+sel('grabaciones')+'" data-v="grabaciones"><span class="ic">▶</span>'
+     + '<span class="nom">Grabaciones</span><span class="n">'+A.n_grabaciones+'</span></button>'
+     + '<button class="item'+sel('asistencia')+'" data-v="asistencia"><span class="ic">◉</span>'
+     + '<span class="nom">Asistencia</span><span class="n">'+A.asistencia.length+'</span></button>'
      + '<button class="item'+sel('personas')+'" data-v="personas"><span class="ic">◍</span>'
      + '<span class="nom">Personas</span><span class="n">'+TOTAL.gente+'</span></button>'
      + '<button class="item'+sel('archivos')+'" data-v="archivos"><span class="ic">◰</span>'
@@ -863,7 +891,7 @@ function pintarRail(){
   $('#rail').querySelectorAll('[data-c]').forEach(b => b.onclick = () =>
     ir({ tipo:'canal', canal:b.dataset.c, pestana:'mensajes', acta:null }));
   $('#rail').querySelectorAll('[data-v]').forEach(b => b.onclick = () =>
-    ir({ tipo:b.dataset.v, canal:null, acta:null }));
+    ir({ tipo:b.dataset.v, canal:null, acta:null, persona:null }));
 }
 
 /* ── gráfico de barras: una medida, un color, etiqueta solo en el pico ── */
@@ -914,7 +942,7 @@ function pintarPortada(){
     + 'Aquí no caducan a los noventa días.</p>'
     + '<div class="cifras">'
     + [[miles(TOTAL.msg),'Mensajes'],[A.canales.length,'Canales'],[TOTAL.actas,'Actas'],
-       [TOTAL.arch,'Archivos'],[TOTAL.gente,'Personas']]
+       [A.n_grabaciones,'Grabaciones'],[A.asistencia.reduce((s,g)=>s+g.n,0),'Participaciones']]
       .map(([v,e]) => '<div class="cifra"><div class="v">'+v+'</div><div class="e">'+e+'</div></div>').join('')
     + '</div></div>';
 
@@ -992,6 +1020,8 @@ function tarjetaActa(a, canal, conCanal){
     + ((a.kpis||[]).length ? '<span class="ficha r">'+a.kpis.length+' KPI</span>' : '')
     + ((a.tareas||[]).length ? '<span class="ficha">'+a.tareas.length+' tareas</span>' : '')
     + ((a.alertas||[]).length ? '<span class="ficha">'+a.alertas.length+' alertas</span>' : '')
+    + (a.grabacion ? '<span class="ficha r">▶ grabación</span>' : '')
+    + (a.pdf ? '<span class="ficha">PDF</span>' : '')
     + '</div></button>';
 }
 
@@ -1002,7 +1032,14 @@ function pintarActa(a, canal){
      + '<h2>'+esc(a.area_completa || a.area || c.nombre)
      + (a.sesion_num!=null ? ' · Sesión '+a.sesion_num : '')+'</h2>'
      + '<div class="sub">'+esc(a.subtitulo_meta || a.fecha || a.iso)
-     + (a.fase ? ' · '+esc(a.fase) : '')+'</div></div>';
+     + (a.fase ? ' · '+esc(a.fase) : '')+'</div>'
+     + ((a.grabacion || a.pdf) ? '<div class="acciones">'
+         + (a.grabacion ? '<a class="boton" href="'+esc(a.grabacion).replace(/&/g,'&amp;')
+             + '" target="_blank" rel="noopener"><span class="ic">▶</span>Ver la grabación</a>' : '')
+         + (a.pdf ? '<a class="boton pln" href="'+esc(a.pdf)
+             + '" target="_blank" rel="noopener"><span class="ic">📄</span>Abrir el PDF</a>' : '')
+         + '</div>' : '')
+     + '</div>';
 
   if ((a.kpis||[]).length) h += '<div class="kpis">'+a.kpis.map(k =>
     '<div class="kpi"><div class="v">'+esc(k.valor!=null?k.valor:'')+'</div>'
@@ -1092,6 +1129,66 @@ function pintarActa(a, canal){
   return h;
 }
 
+/* ── grabaciones ── */
+function pintarGrabaciones(c){
+  const gs = c ? c.grabaciones : A.canales.flatMap(x => x.grabaciones.map(g => ({...g, canal:x})));
+  if (!gs.length) return vacio('🎥','Sin grabaciones','No hay enlaces de grabación en este canal.');
+  const orden = gs.slice().sort((x,y) => y.fecha.localeCompare(x.fecha));
+  return '<div class="lista">'+orden.map(g =>
+    '<a class="fila" href="'+esc(g.url).replace(/&/g,'&amp;')+'" target="_blank" rel="noopener">'
+    + '<span class="ic">▶</span>'
+    + (g.sesion != null ? '<span class="marca-ses">S'+g.sesion+'</span>' : '')
+    + '<div class="cu"><div class="t1">'
+    + esc(g.titulo || ((c ? c.nombre : g.canal.nombre) + (g.sesion != null ? ' · Sesión '+g.sesion : ' · Grabación')))
+    + '</div><div class="t2">'+(c ? '' : '#'+esc(g.canal.nombre)+' · ')
+    + (g.acta ? 'acta publicada' : 'sin acta registrada')+'</div></div>'
+    + '<span class="dr">'+fechaCorta(g.fecha)+'</span><span class="fl">↗</span></a>').join('')+'</div>'
+    + '<div class="pista">Las grabaciones viven en SharePoint y se abren con tu cuenta de IAM. '
+    + 'Aquí queda el enlace amarrado a su sesión — <b>'
+    + A.canales.reduce((s,x)=>s+x.grabaciones.filter(g=>g.acta).length,0)
+    + '</b> de <b>'+A.n_grabaciones+'</b> están amarradas a un acta.</div>';
+}
+
+/* ── asistencia ── */
+function pintarAsistencia(){
+  const gente = A.asistencia, max = gente.length ? gente[0].n : 1;
+  return '<div class="lista">'+gente.map(g =>
+    '<button class="fila" data-pers="'+esc(g.nombre)+'">'+av(g.nombre)
+    + '<div class="cu"><div class="t1">'+esc(g.nombre)+'</div>'
+    + '<div class="t2">'+esc(g.cargo || g.canales.map(x=>'#'+canalDe(x).nombre).join(' · '))+'</div></div>'
+    + '<span class="barrita"><i style="width:'+Math.round(g.n/max*100)+'%"></i></span>'
+    + '<span class="dr">'+g.n+'</span></button>').join('')+'</div>'
+    + '<div class="pista">Sale de los <b>participantes</b> de cada acta: '
+    + '<b>'+gente.reduce((s,g)=>s+g.n,0)+'</b> participaciones en <b>'+TOTAL.actas+'</b> sesiones. '
+    + (A.mentoria.length ? ' La mentoría va aparte: <b>'+esc(A.mentoria[0].nombre)+'</b> facilitó las <b>'
+        + A.mentoria[0].n+'</b> sesiones.' : '')
+    + ' Los informes de asistencia de Teams se publicaron en Slack como CSV; de esos queda el nombre, no el archivo.</div>';
+}
+
+function pintarPersona(nombre){
+  const g = A.asistencia.find(x => x.nombre === nombre);
+  if (!g) return vacio('◍','No encontrada','');
+  return '<button class="volver" data-vpers="1">‹ Asistencia</button>'
+    + '<div class="acta-cab"><div class="cejilla"><span class="anillo"></span>Asistencia · IAM™ Intelligence</div>'
+    + '<h2>'+esc(g.nombre)+'</h2><div class="sub">'
+    + [g.cargo, g.correo && g.correo !== '—' ? g.correo : '', g.nivel].filter(Boolean).map(esc).join(' · ')
+    + '</div></div>'
+    + '<div class="kpis"><div class="kpi"><div class="v">'+g.n+'</div><div class="e">Sesiones</div></div>'
+    + '<div class="kpi"><div class="v">'+g.canales.length+'</div><div class="e">Áreas</div></div>'
+    + '<div class="kpi"><div class="v">'+fechaCorta(g.sesiones[g.sesiones.length-1].iso)
+    + '</div><div class="e">Primera sesión</div></div>'
+    + '<div class="kpi"><div class="v">'+fechaCorta(g.sesiones[0].iso)
+    + '</div><div class="e">Última sesión</div></div></div>'
+    + '<div class="bloque"><h3>Las sesiones<span class="c">'+g.n+'</span></h3><table class="tb">'
+    + '<tr><th>Fecha</th><th>Área</th><th>Sesión</th><th>Modalidad</th></tr>'
+    + g.sesiones.map(se => '<tr><td class="d">'+fechaCorta(se.iso)+'</td>'
+        + '<td><button class="enlazar" data-a="'+esc(se.acta)+'" data-ac="'+esc(se.canal)+'" '
+        + 'style="color:var(--rojo);font-weight:550">#'+esc(se.nombre_canal)+'</button></td>'
+        + '<td class="q">'+(se.sesion!=null?'S'+se.sesion:'—')+'</td>'
+        + '<td class="d">'+esc(se.modalidad||'—')+'</td></tr>').join('')
+    + '</table></div>';
+}
+
 /* ── fijados ── */
 function pintarFijados(c){
   const carpetas = (c.fijados||[]).slice();
@@ -1157,6 +1254,7 @@ function pintar(sinHash){
       + '<i>·</i><span class="candado">🔒 privado</span></div>'
       + '<div class="segmentos">'
       + [['mensajes','Mensajes',c.conteo],['actas','Actas',c.actas.length],
+         ['grabaciones','Grabaciones',c.grabaciones.length],
          ['fijados','Fijados',(c.fijados||[]).length+(A.generales||[]).length],
          ['archivos','Archivos',c.adjuntos]]
         .map(([k,l,n]) => '<button class="'+(vista.pestana===k && !vista.acta ? 'sel' : '')+'" data-p="'+k+'">'
@@ -1171,6 +1269,7 @@ function pintar(sinHash){
     else if (vista.pestana === 'actas')
       h += c.actas.length ? '<div class="tarjetas">'+c.actas.map(a=>tarjetaActa(a,c.canal,false)).join('')+'</div>'
          : vacio('📄','Sin actas','Este canal no tiene actas registradas.');
+    else if (vista.pestana === 'grabaciones') h += pintarGrabaciones(c);
     else if (vista.pestana === 'fijados') h += pintarFijados(c);
     else h += pintarArchivos(c);
     h += '</div>';
@@ -1184,6 +1283,25 @@ function pintar(sinHash){
       + '</b> sesiones documentadas<i>·</i>de la más reciente a la primera</div></div>'
       + '<div class="seccion"><div class="tarjetas">'
       + todas.map(({a,c}) => tarjetaActa(a, c.canal, true)).join('')+'</div></div>';
+  }
+  else if (vista.tipo === 'grabaciones'){
+    compacto = 'Grabaciones';
+    h = '<div class="titulon"><h1>Grabaciones</h1><div class="meta"><b>'+A.n_grabaciones
+      + '</b> sesiones grabadas<i>·</i>de la más reciente a la primera</div></div>'
+      + '<div class="seccion">'+pintarGrabaciones(null)+'</div>';
+  }
+  else if (vista.tipo === 'asistencia'){
+    if (vista.persona != null && A.asistencia[vista.persona]){
+      const g = A.asistencia[vista.persona];
+      compacto = g.nombre;
+      h = '<div class="seccion" style="margin-top:8px">'+pintarPersona(g.nombre)+'</div>';
+    } else {
+      compacto = 'Asistencia';
+      h = '<div class="titulon"><h1>Asistencia</h1><div class="meta"><b>'
+        + A.asistencia.reduce((s,g)=>s+g.n,0)+'</b> participaciones<i>·</i><b>'
+        + A.asistencia.length+'</b> personas<i>·</i>de más a menos sesiones</div></div>'
+        + '<div class="seccion">'+pintarAsistencia()+'</div>';
+    }
   }
   else if (vista.tipo === 'personas'){
     compacto = 'Personas';
@@ -1206,6 +1324,9 @@ function pintar(sinHash){
   cuerpo.querySelectorAll('[data-a]').forEach(b => b.onclick = () =>
     ir({ tipo:'canal', canal:b.dataset.ac, pestana:'actas', acta:b.dataset.a }));
   cuerpo.querySelectorAll('[data-volver]').forEach(b => b.onclick = () => ir({ acta:null }));
+  cuerpo.querySelectorAll('[data-pers]').forEach(b => b.onclick = () =>
+    ir({ tipo:'asistencia', persona:A.asistencia.findIndex(x => x.nombre === b.dataset.pers) }));
+  cuerpo.querySelectorAll('[data-vpers]').forEach(b => b.onclick = () => ir({ persona:null }));
   const alt = $('#alt-sis'); if (alt) alt.onclick = () => ir({ sistema:!vista.sistema });
   conectarGlobo(cuerpo);
 }
@@ -1251,6 +1372,11 @@ function buscar(){
       hits.push({ k:'acta', c, a, ic:'◷', t1:(a.area_completa||c.nombre)+' · Sesión '+a.sesion_num,
                   t2:'#'+c.nombre, dr:fechaCorta(a.iso) });
   }
+  A.asistencia.forEach((g,i) => {
+    if (plano(g.nombre).includes(nq) || plano(g.cargo||'').includes(nq))
+      hits.push({ k:'persona', i, ic:'◉', t1:g.nombre,
+                  t2:g.cargo || (g.n+' sesiones'), dr:g.n+' ses' });
+  });
   const msgs = [];
   for (const c of A.canales) for (const m of c.mensajes){
     if (m.sistema) continue;
@@ -1271,7 +1397,7 @@ function render(titulo, q, nMsg){
   }
   let h = '', grupo = null;
   hits.slice(0,70).forEach((x,i) => {
-    const g = titulo || (x.k==='canal' ? 'Canales' : x.k==='acta' ? 'Actas'
+    const g = titulo || (x.k==='canal' ? 'Canales' : x.k==='acta' ? 'Actas' : x.k==='persona' ? 'Personas'
               : 'Mensajes' + (nMsg>70 ? ' · '+miles(nMsg)+' coincidencias' : ''));
     if (g !== grupo){ grupo = g; h += '<div class="gr">'+esc(g)+'</div>'; }
     h += '<button class="ph'+(i===act?' act':'')+'" data-i="'+i+'">'
@@ -1285,7 +1411,8 @@ function render(titulo, q, nMsg){
 }
 function elegir(i){
   const x = hits[i]; if (!x) return;
-  if (x.k === 'acta') ir({ tipo:'canal', canal:x.c.canal, pestana:'actas', acta:x.a.archivo });
+  if (x.k === 'persona') ir({ tipo:'asistencia', canal:null, acta:null, persona:x.i });
+  else if (x.k === 'acta') ir({ tipo:'canal', canal:x.c.canal, pestana:'actas', acta:x.a.archivo });
   else ir({ tipo:'canal', canal:x.c.canal, pestana:'mensajes', acta:null });
 }
 function mover(d){

@@ -112,6 +112,121 @@ def pulso(archivo):
     archivo['pulso_actas'] = act
 
 
+
+RX_VIDEO = re.compile(
+    r'<(?P<url>https://(?:netorg\d+-my\.sharepoint\.com|docs\.google\.com/videos)/[^>|\s]+)'
+    r'(?:\|(?P<etq>[^>]*))?>')
+RX_SESION = re.compile(r'[Ss]esi[\u00f3o]n\s*(\d{1,2})\b')
+
+
+def grabaciones(archivo):
+    """Saca los enlaces de grabaci\u00f3n de los mensajes y los amarra a su sesi\u00f3n.
+
+    Primero por el n\u00famero de sesi\u00f3n escrito en el mensaje; si no aparece,
+    por la fecha m\u00e1s cercana dentro de dos d\u00edas.
+    """
+    total = con_acta = 0
+    for c in archivo['canales']:
+        vistas, lista = set(), []
+        for m in c['mensajes']:
+            if m['sistema']:
+                continue
+            for g in RX_VIDEO.finditer(m['texto']):
+                url = g.group('url')
+                # el mismo video aparece con distintos par\u00e1metros: la identidad
+                # est\u00e1 en la ruta del documento, no en la cadena completa
+                clave = url.split('?')[0]
+                if clave in vistas:
+                    continue
+                vistas.add(clave)
+                ses = RX_SESION.search(m['texto'])
+                etq = (g.group('etq') or '').strip()
+                lista.append({
+                    'url': url,
+                    'fecha': m['fecha'],
+                    'sesion': int(ses.group(1)) if ses else None,
+                    'titulo': etq if etq and not etq.startswith('netorg') else '',
+                    'acta': None,
+                })
+        # amarrar a las actas del canal
+        por_num = {a['sesion_num']: a for a in c['actas'] if a.get('sesion_num') is not None}
+        for g in lista:
+            a = por_num.get(g['sesion'])
+            if a is None:
+                cerca = sorted(c['actas'],
+                               key=lambda x: abs((date(*map(int, x['iso'].split('-')))
+                                                  - date(*map(int, g['fecha'].split('-')))).days))
+                if cerca and abs((date(*map(int, cerca[0]['iso'].split('-')))
+                                  - date(*map(int, g['fecha'].split('-')))).days) <= 2:
+                    a = cerca[0]
+            if a is not None:
+                g['acta'] = a['archivo']
+                g['sesion'] = a['sesion_num']
+                a['grabacion'] = g['url']
+                con_acta += 1
+        lista.sort(key=lambda g: g['fecha'])
+        c['grabaciones'] = lista
+        total += len(lista)
+    archivo['n_grabaciones'] = total
+    print('  %d grabaciones \u00b7 %d amarradas a su acta' % (total, con_acta))
+
+
+
+def pdfs(archivo):
+    """Cada acta apunta al PDF que se publica junto a la p\u00e1gina."""
+    mapa = json.load(open(os.path.join(AQUI, 'datos', 'pdf-mapa.json'), encoding='utf-8'))
+    n = 0
+    for c in archivo['canales']:
+        for a in c['actas']:
+            pdf = mapa.get(a['archivo'])
+            if pdf:
+                a['pdf'] = 'actas/' + pdf
+                n += 1
+    print('  %d actas con PDF publicado' % n)
+
+
+def asistencia(archivo):
+    """Qui\u00e9n asisti\u00f3 a qu\u00e9, sacado de los participantes de cada acta."""
+    gente = {}
+    for c in archivo['canales']:
+        for a in c['actas']:
+            for pa in (a.get('participantes') or []):
+                nombre = pa.get('nombre') if isinstance(pa, dict) else str(pa)
+                if not nombre:
+                    continue
+                clave = nombre.strip()
+                g = gente.setdefault(clave, {
+                    'nombre': clave,
+                    'cargo': (pa.get('cargo') or '') if isinstance(pa, dict) else '',
+                    'correo': (pa.get('correo') or '') if isinstance(pa, dict) else '',
+                    'nivel': (pa.get('nivel') or '') if isinstance(pa, dict) else '',
+                    'sesiones': [], 'canales': [],
+                })
+                if isinstance(pa, dict):
+                    if pa.get('cargo') and not g['cargo']: g['cargo'] = pa['cargo']
+                    if pa.get('correo') and pa['correo'] != '\u2014' and (not g['correo'] or g['correo'] == '\u2014'):
+                        g['correo'] = pa['correo']
+                    if pa.get('nivel'): g['nivel'] = pa['nivel']
+                g['sesiones'].append({'canal': c['canal'], 'nombre_canal': c['nombre'],
+                                      'sesion': a.get('sesion_num'), 'iso': a['iso'],
+                                      'acta': a['archivo'],
+                                      'modalidad': (pa.get('modalidad') or '') if isinstance(pa, dict) else ''})
+                if c['canal'] not in g['canales']:
+                    g['canales'].append(c['canal'])
+    for g in gente.values():
+        g['sesiones'].sort(key=lambda x: x['iso'], reverse=True)
+        g['n'] = len(g['sesiones'])
+    def es_mentoria(g):
+        return 'mentora iam' in (g['cargo'] or '').lower()
+
+    equipo = [g for g in gente.values() if not es_mentoria(g)]
+    archivo['asistencia'] = sorted(equipo, key=lambda g: (-g['n'], g['nombre']))
+    archivo['mentoria'] = sorted((g for g in gente.values() if es_mentoria(g)),
+                                 key=lambda g: -g['n'])
+    print('  %d personas del \u00e1rea \u00b7 %d participaciones \u00b7 %d de la mentor\u00eda'
+          % (len(equipo), sum(g['n'] for g in equipo), len(archivo['mentoria'])))
+
+
 def main():
     archivo = json.load(open(os.path.join(AQUI, 'datos', 'archivo.json'), encoding='utf-8'))
     actas = cargar_actas()
@@ -121,6 +236,9 @@ def main():
         c['nombre'] = NOMBRE.get(c['canal'], c['canal'])
         c['actas'] = actas.get(c['canal'], [])
         c['fijados'] = fijados.get('canales', {}).get(c['canal'], {}).get('carpetas', [])
+    pdfs(archivo)
+    grabaciones(archivo)
+    asistencia(archivo)
     pulso(archivo)
     archivo['generales'] = fijados.get('generales', [])
     archivo['nota_fijados'] = fijados.get('nota', '')
