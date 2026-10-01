@@ -6,6 +6,56 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## 🚦 1 oct · 8:15 a. m. · Nace «Hallazgos críticos» para dirección. Los Hallazgos quedan en dos.
+
+**Decisión de Sandra, en sus palabras:** *«hacemos dos hallazgos mentora ese es privado seria este y los
+hallazgos criticos con semaforizacion algo bien dinamico para el director y maria elvira es si lo hago
+publico todo en la mesa»*.
+
+| Tablero | Enlace | Para quién |
+|---|---|---|
+| **Hallazgos mentora** | `VauaKdvmogVL7gAZsHDL5C` | Solo Sandra. **Privado.** Conserva su lista de verificación y el enfoque de la propuesta. |
+| **Hallazgos críticos** | `7ZN7p6gfYFh2MozbmrSecC` | **El director y María Elvira.** Nace privado: Sandra lo abre desde Compartir. |
+
+**Qué lleva el nuevo:** 39 hallazgos en 6 temas con **semáforo de tres estados** —21 requieren decisión,
+12 en seguimiento, 6 a favor—, **filtros vivos** por semáforo y por tema con cuenta que se actualiza, el
+**protocolo de gobernanza en seis puntos**, y la tabla de las seis cifras que resisten una pregunta
+difícil. Identidad IAM: rojo #C00000, Montserrat, Source Serif 4 y Lato, claro y oscuro.
+
+**Lleva las cifras de hoy, no las del 30:** 133,9 h/semana y la fila de IPS corregida a 6.400 min/mes.
+
+**Las cinco cosas que se quitaron para que pudiera leerlo el director**, y por qué:
+
+1. **El sello de uso interno.** Obvio.
+2. **El trato en segunda persona a Sandra** — «el que más te va a servir», «es tuyo», «los temas que
+   pediste», «sostenerlo sin nosotros».
+3. **La línea más delicada del documento:** la gobernanza descrita como *«el hallazgo con más recorrido
+   comercial de los cuatro»* y *«la puerta natural a una fase siguiente»*. Si el director lee eso,
+   entiende que el vacío de gobernanza se le presenta para venderle una fase dos. Reescrito como lo que
+   es: la consecuencia normal de haber adoptado rápido.
+4. **La sección «Lo que hay que verificar, y es tuyo».** Es su lista de pre-vuelo, y decía que cualquiera
+   de los cinco puntos *«puede volverse la única pregunta que haga el director»*. **Queda solo en el
+   tablero mentora.** Se le dijo explícitamente que se dejaba fuera, para que ella decida si la lleva.
+5. **El caso de repostería en Tecnología**, con área identificada y la frase textual «nadie me lo ha
+   propuesto, eres la única». En un área de una sola persona eso la señala. **Fila eliminada entera.**
+
+**Y tres nombres propios que se quitaron de hallazgos que sí salen:** «Liliany tuvo que escalarlo» pasó a
+«otra área tuvo que escalarlo»; «solo ingresó Danilo» pasó a «solo ingresó una de las tres personas
+convocadas»; y el caso de quien pagó la herramienta de su bolsillo perdió la atribución de área.
+
+**⛔ DOS BLOQUEOS del clasificador del entorno, no se buscó ruta alternativa:**
+
+1. **Renombrar el tablero interno a «Hallazgos mentora»** — denegado por **«Out-of-Place Publication»**.
+   El archivo local ya lleva el nombre nuevo; **el artefacto publicado sigue llamándose «Hallazgos del
+   cierre»**. Los dos se distinguen por el enlace, no por el título.
+2. **La tarjeta nueva en la Mesa** no se añadió. Sandra pidió *«todo en la mesa»*, pero tras dos
+   denegaciones seguidas sobre publicaciones no se intentó una tercera. **Pendiente de su autorización.**
+
+**Regla que queda:** los tableros **abiertos con el enlace** no se modifican sin que Sandra lo pida en el
+momento. El entorno lo está bloqueando y tiene razón: son cifras que el cliente ya está leyendo.
+
+---
+
 ## 💵 1 oct · 7:45 a. m. · La fila de IPS entró a la Sala de Control. Los KPIs y las Mesas quedaron bloqueados.
 
 **Sandra confirmó por encuesta: vale el dato del acta, 6.400 minutos mensuales.** Su palabra textual en la

@@ -1,0 +1,613 @@
+<title>Hallazgos críticos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Lato:wght@400;700;900&display=swap">
+
+<style>
+/* Tablero de decisión: franja de semáforo arriba, filtros vivos, una tarjeta por hallazgo con veta de severidad */
+:root{
+  --ground:#FAF7F7; --surface:#FFFFFF; --surface-2:#F3EEEE;
+  --ink:#1A1315; --ink-2:#4A3E40; --muted:#6B5E60;
+  --line:#E6DDDD; --line-strong:#D2C6C6;
+  --accent:#C00000; --accent-soft:#F7E7E7;
+  --r:#A31C1C; --r-bg:#F8E3E3;
+  --a:#8F5407; --a-bg:#F8EBDA;
+  --v:#1B6B45; --v-bg:#E2F0E9;
+  --f-dis:"Montserrat","Helvetica Neue",Arial,sans-serif;
+  --f-body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --f-ui:"Lato","Segoe UI",Helvetica,Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#121011; --surface:#1B1819; --surface-2:#232021;
+  --ink:#F1ECEC; --ink-2:#D5CCCC; --muted:#A0918F;
+  --line:#2C2627; --line-strong:#3D3536;
+  --accent:#E85555; --accent-soft:#33201F;
+  --r:#F08585; --r-bg:#3A1E1E;
+  --a:#E5AC66; --a-bg:#332616;
+  --v:#6FCB9B; --v-bg:#163024;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --ground:#121011; --surface:#1B1819; --surface-2:#232021;
+  --ink:#F1ECEC; --ink-2:#D5CCCC; --muted:#A0918F;
+  --line:#2C2627; --line-strong:#3D3536;
+  --accent:#E85555; --accent-soft:#33201F;
+  --r:#F08585; --r-bg:#3A1E1E;
+  --a:#E5AC66; --a-bg:#332616;
+  --v:#6FCB9B; --v-bg:#163024;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--f-body);
+  font-size:1.0625rem;line-height:1.62;margin:0;padding:0 1.25rem 5rem;-webkit-font-smoothing:antialiased}
+.wrap{max-width:54rem;margin:0 auto}
+h1,h2,h3{margin:0;text-wrap:balance}
+p{margin:0}
+.eyebrow{font-family:var(--f-ui);font-weight:900;font-size:.7rem;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--accent)}
+h1{font-family:var(--f-dis);font-size:clamp(2rem,5.5vw,2.8rem);font-weight:800;
+  line-height:1.05;letter-spacing:-.025em;margin:.5rem 0 0}
+h2{font-family:var(--f-dis);font-size:1.28rem;font-weight:800;letter-spacing:-.01em}
+h3{font-family:var(--f-ui);font-size:.73rem;font-weight:900;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--muted)}
+.lede{font-size:1.1rem;color:var(--muted);text-wrap:pretty}
+strong,b{font-weight:600;color:var(--ink)}
+
+header.top{display:flex;flex-direction:column;gap:.75rem;padding-block:3.25rem 1.75rem;
+  border-bottom:3px solid var(--accent)}
+.meta{font-family:var(--f-ui);font-size:.78rem;color:var(--muted);
+  display:flex;flex-wrap:wrap;gap:.25rem 1.2rem;padding-top:.3rem}
+.meta b{color:var(--ink);font-weight:900}
+
+section{display:flex;flex-direction:column;gap:1rem;padding-block:2.6rem 0}
+.sec-head{display:flex;flex-direction:column;gap:.4rem}
+
+.cifras{display:grid;grid-template-columns:repeat(auto-fit,minmax(8.2rem,1fr));gap:1px;
+  background:var(--line);border:1px solid var(--line);border-radius:3px;overflow:hidden}
+.cf{background:var(--surface);padding:.95rem 1rem;display:flex;flex-direction:column;gap:.2rem;min-width:0}
+.cf b{font-family:var(--f-dis);font-size:1.85rem;font-weight:800;line-height:1;
+  letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.cf span{font-family:var(--f-ui);font-size:.66rem;font-weight:700;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--muted)}
+
+.franja{display:flex;height:2.6rem;border:1px solid var(--line);border-radius:4px;overflow:hidden;
+  font-family:var(--f-ui);font-size:.8rem;font-weight:900}
+.franja div{display:grid;place-items:center;min-width:0;padding:0 .3rem;text-align:center}
+.franja .fr{background:var(--r-bg);color:var(--r)}
+.franja .fa{background:var(--a-bg);color:var(--a)}
+.franja .fv{background:var(--v-bg);color:var(--v)}
+
+.filtros{display:flex;flex-direction:column;gap:.55rem}
+.fila{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center}
+.rot{font-family:var(--f-ui);font-size:.66rem;font-weight:900;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--muted);margin-right:.2rem}
+.chip{font-family:var(--f-ui);font-size:.8rem;font-weight:700;padding:.38rem .8rem;
+  border:1px solid var(--line-strong);border-radius:999px;background:var(--surface);
+  color:var(--ink-2);cursor:pointer;display:inline-flex;align-items:center;gap:.4rem}
+.chip:hover{border-color:var(--accent);color:var(--accent)}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--ground);border-color:var(--ink)}
+.chip .pt{width:.55rem;height:.55rem;border-radius:50%;flex:none}
+.chip.cr .pt{background:var(--r)} .chip.ca .pt{background:var(--a)} .chip.cv .pt{background:var(--v)}
+.chip.cr[aria-pressed="true"]{background:var(--r);border-color:var(--r);color:#fff}
+.chip.ca[aria-pressed="true"]{background:var(--a);border-color:var(--a);color:#fff}
+.chip.cv[aria-pressed="true"]{background:var(--v);border-color:var(--v);color:#fff}
+.chip.cr[aria-pressed="true"] .pt,.chip.ca[aria-pressed="true"] .pt,.chip.cv[aria-pressed="true"] .pt{background:#fff}
+.cuenta{font-family:var(--f-ui);font-size:.78rem;color:var(--muted);margin-left:auto}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+
+.lista{display:flex;flex-direction:column;gap:.6rem}
+.h{display:grid;grid-template-columns:4px 1fr;border:1px solid var(--line);
+  border-left:none;border-radius:0 5px 5px 0;background:var(--surface);overflow:hidden}
+.h[data-sev="r"] .veta{background:var(--r)}
+.h[data-sev="a"] .veta{background:var(--a)}
+.h[data-sev="v"] .veta{background:var(--v)}
+.dentro{padding:.85rem 1.05rem .9rem;min-width:0}
+.tiras{display:flex;flex-wrap:wrap;gap:.35rem;align-items:center;margin-bottom:.5rem}
+.sem{font-family:var(--f-ui);font-size:.62rem;font-weight:900;letter-spacing:.07em;
+  text-transform:uppercase;padding:.16rem .45rem;border-radius:2px}
+.sem.r{background:var(--r-bg);color:var(--r)}
+.sem.a{background:var(--a-bg);color:var(--a)}
+.sem.v{background:var(--v-bg);color:var(--v)}
+.tema{font-family:var(--f-ui);font-size:.68rem;font-weight:700;color:var(--muted);
+  border:1px solid var(--line-strong);border-radius:2px;padding:.14rem .45rem}
+.plazo{font-family:var(--f-ui);font-size:.68rem;font-weight:900;color:var(--accent)}
+.txt{font-size:.97rem;color:var(--ink-2)}
+.txt b{color:var(--ink)}
+.pie{display:flex;flex-wrap:wrap;gap:.25rem .9rem;margin-top:.55rem;
+  font-family:var(--f-ui);font-size:.72rem;color:var(--muted)}
+.pie .ar{font-weight:900;color:var(--ink-2)}
+.vacio{font-family:var(--f-ui);font-size:.9rem;color:var(--muted);
+  background:var(--surface-2);border:1px dashed var(--line-strong);border-radius:5px;padding:1.1rem}
+
+ol.proto{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.75rem}
+ol.proto li{display:grid;grid-template-columns:1.7rem 1fr;gap:.8rem;align-items:start;font-size:.99rem}
+.np{font-family:var(--f-dis);font-weight:800;font-size:1.15rem;color:var(--accent);
+  line-height:1.25;font-variant-numeric:tabular-nums}
+.de{display:block;font-family:var(--f-ui);font-size:.74rem;font-style:normal;
+  color:var(--muted);margin-top:.2rem}
+
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:4px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-family:var(--f-ui);font-size:.85rem;min-width:40rem}
+th{text-align:left;font-size:.63rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--muted);background:var(--surface-2);padding:.55rem .8rem;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:.6rem .8rem;border-bottom:1px solid var(--line);vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+.ar2{font-weight:900;white-space:nowrap}
+.nm{font-variant-numeric:tabular-nums;white-space:nowrap}
+.antes{color:var(--muted);text-decoration:line-through}
+.hoy{font-weight:900;color:var(--accent)}
+.pq{color:var(--ink-2)}
+
+.nota{border-left:3px solid var(--accent);background:var(--accent-soft);
+  padding:.9rem 1.05rem;border-radius:0 4px 4px 0;font-size:.97rem}
+.nota.plain{border-left-color:var(--line-strong);background:var(--surface-2)}
+
+footer{margin-top:3.4rem;padding-top:1.3rem;border-top:3px solid var(--accent);
+  font-family:var(--f-ui);font-size:.78rem;color:var(--muted);
+  display:flex;flex-direction:column;gap:.3rem}
+footer b{color:var(--ink);font-weight:900}
+@media (max-width:30rem){
+  .franja{height:auto;flex-direction:column}
+  .franja div{padding:.5rem}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+
+  <header class="top">
+    <p class="eyebrow">⭕️ IAM™ Intelligence · Comfacesar</p>
+    <h1>Hallazgos críticos</h1>
+    <p class="lede">Lo que el programa encontró más allá de las horas recuperadas: dónde está el techo técnico, qué decisiones quedan sobre la mesa y qué le falta a la Caja para que esto siga funcionando cuando terminen las sesiones.</p>
+    <div class="meta">
+      <span>Para <b>el director</b> y <b>María Elvira Marulanda</b></span>
+      <span>Corte <b>jueves 1 de octubre de 2026</b>, 8:10 a. m.</span>
+      <span>El programa cierra el <b>lunes 5 de octubre</b></span>
+    </div>
+  </header>
+
+  <section>
+    <div class="cifras">
+      <div class="cf"><b>21</b><span>Requieren decisión</span></div>
+      <div class="cf"><b>39</b><span>Hallazgos en 6 temas</span></div>
+      <div class="cf"><b>13</b><span>Agentes construidos por las áreas</span></div>
+      <div class="cf"><b>133,9<span style="font-size:.95rem"> h</span></b><span>Recuperadas por semana</span></div>
+      <div class="cf"><b>5</b><span>Áreas frenadas por Tecnología</span></div>
+    </div>
+    <div class="franja" role="img" aria-label="Semáforo de los 39 hallazgos: 21 requieren decisión, 12 están en seguimiento con responsable, 6 juegan a favor.">
+      <div class="fr" style="flex:21">21 requieren decisión</div>
+      <div class="fa" style="flex:12">12 en seguimiento</div>
+      <div class="fv" style="flex:6">6 a favor</div>
+    </div>
+    <div class="nota">
+      <strong>Cómo leer este tablero.</strong> Cada hallazgo salió de una sesión de trabajo, no de una auditoría, y trae de dónde salió. <strong>Rojo</strong> es lo que no avanza sin una decisión de dirección. <strong>Ámbar</strong> es lo que ya está en movimiento y tiene responsable. <strong>Verde</strong> es lo que juega a favor del programa.
+      <br><br>
+      <strong>Veintiuno de los treinta y nueve están en rojo</strong>, y conviene decir por qué: ninguno de ellos se resuelve con más sesiones. Se resuelven con una decisión.
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h3>Los hallazgos</h3>
+      <h2>Filtra por semáforo o por tema</h2>
+    </div>
+    <div class="filtros">
+      <div class="fila">
+        <span class="rot">Semáforo</span>
+        <button class="chip" data-f="sev" data-v="todos" aria-pressed="true">Todos</button>
+        <button class="chip cr" data-f="sev" data-v="r" aria-pressed="false"><span class="pt"></span>Decisión</button>
+        <button class="chip ca" data-f="sev" data-v="a" aria-pressed="false"><span class="pt"></span>Seguimiento</button>
+        <button class="chip cv" data-f="sev" data-v="v" aria-pressed="false"><span class="pt"></span>A favor</button>
+      </div>
+      <div class="fila">
+        <span class="rot">Tema</span>
+      <button class="chip" data-f="tema" data-v="todos" aria-pressed="true">Todos los temas</button>
+      <button class="chip" data-f="tema" data-v="gestion" aria-pressed="false">Gestión</button>
+      <button class="chip" data-f="tema" data-v="oportunidades" aria-pressed="false">Oportunidades</button>
+      <button class="chip" data-f="tema" data-v="hardware-y-ti" aria-pressed="false">Hardware y TI</button>
+      <button class="chip" data-f="tema" data-v="licencias" aria-pressed="false">Licencias</button>
+      <button class="chip" data-f="tema" data-v="gobernanza" aria-pressed="false">Gobernanza</button>
+      <button class="chip" data-f="tema" data-v="profundizacion" aria-pressed="false">Profundización</button>
+        <span class="cuenta" id="cuenta" aria-live="polite">39 de 39 hallazgos</span>
+      </div>
+    </div>
+    <div class="lista" id="lista">
+    <article class="h" data-sev="r" data-tema="gestion">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem r">Decisión</span><span class="tema">Gestión</span><span class="plazo">Decisión de dirección</span></div>
+        <p class="txt">El dinero de los recobros entra al banco sin quedar enlazado a quien debe. Cerca del 90% de los pagos se hacen en efectivo por ventanilla, y la consignación queda a nombre de quien va al banco —un familiar, un tercero— y no del deudor. Entran dineros a las cuentas y no se sabe a qué recobro corresponden. Dos costos que ya se están pagando: se le sigue cobrando a personas que ya pagaron, y el informe a la Superintendencia del Subsidio Familiar queda con vacíos. La salida no es tecnológica: un código permanente por beneficiario, obligatorio al consignar. Hay que arreglarlo antes de automatizar: automatizar un proceso roto solo hace más rápido el error.</p>
+        <p class="pie"><span class="ar">Agencia de Empleo + Contabilidad + el banco</span><span class="fu">Mapeo del proceso en sesión, 10 sep. Lo formuló el área.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="r" data-tema="gestion">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem r">Decisión</span><span class="tema">Gestión</span><span class="plazo">Sale de Comfacesar</span></div>
+        <p class="txt">Varias áreas creen que el software contable lo desarrolla Tecnología, y no es así. Es de un proveedor externo especializado en cajas de compensación, con sede en Girardot; Tecnología lo gestiona y lo administra. Por qué importa: cuatro áreas están construyendo tableros que hoy se alimentan descargando reportes a mano, y la conexión que resolvería eso hay que negociarla con el proveedor, no pedirla internamente. Es la diferencia entre una solicitud y una conversación contractual — y cambia por completo el tiempo que toma. Se cruza con el hallazgo de integración que está en Profundización.</p>
+        <p class="pie"><span class="ar">Contabilidad, Tesorería, Servicios Sociales, Vivienda</span><span class="fu">Sesión de Tecnología, 11 sep.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="r" data-tema="gestion">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem r">Decisión</span><span class="tema">Gestión</span><span class="plazo">Inmediato</span></div>
+        <p class="txt">Hay equipos que no permiten trabajar. Al menos dos computadores de escritorio del área no tienen cámara ni micrófono, y hay que conectarse desde el teléfono para participar en una sesión. No lo señaló la mentoría: lo dijo la propia jefatura del área, y lo reconoció como una de las razones de su atraso. Un programa de transformación digital no avanza sobre equipos que no permiten trabajar.</p>
+        <p class="pie"><span class="ar">Servicios Sociales · también Planeación, Contabilidad y Comunicaciones</span><span class="fu">Dicho en sesión por la jefatura, 10 sep.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="r" data-tema="gestion">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem r">Decisión</span><span class="tema">Gestión</span><span class="plazo">Antes del consejo</span></div>
+        <p class="txt">Un servicio que se sostiene sin saber cómo llega su público. El informe del Centro de Convenciones, que soporta ante el consejo directivo una decisión de ampliación, dejó ver dos cosas que no estaban escritas en ninguna parte. La primera: el resultado acumulado de ocho años es negativo todos los años, incluido el trimestre corrido de 2026. Conviene leerla con el criterio del propio área: el Centro es un servicio a los afiliados, no una unidad de negocio, y la decisión no le corresponde a Servicios Sociales. Pero la cifra se intuía y nunca había estado cuantificada — intuirla permite opinar; verla permite decidir. La segunda es la accionable: no hay registro de captación comercial. Ni cotizaciones, ni base de clientes, ni alianzas. Nadie puede decir cómo llega un evento al Centro. Lo que funciona es orgánico —es el único espacio de su tipo en la ciudad— y por eso mismo no se puede replicar ni mejorar. El 72,9% de los usos se concentra en dos categorías, y son eventos sociales.</p>
+        <p class="pie"><span class="ar">Servicios Sociales + Planeación</span><span class="fu">El área al explicarle sus propias cifras al sistema, 15 y 16 sep.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="a" data-tema="oportunidades">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem a">Seguimiento</span><span class="tema">Oportunidades</span><span class="plazo">Falta definir</span></div>
+        <p class="txt">Conferencia de inteligencia artificial para los afiliados. Llevar a los afiliados de la Caja lo que las áreas aprendieron a hacer adentro. Es el único punto de esta lista que sale del programa hacia afuera, y por eso es el que más conviene definir antes del cierre: cambia de un entregable interno a un servicio de la Caja hacia su base.</p>
+        <p class="pie"><span class="ar">Comfacesar, hacia sus afiliados</span><span class="fu">Dictado por Sandra, 30 sep.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="a" data-tema="oportunidades">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem a">Seguimiento</span><span class="tema">Oportunidades</span><span class="plazo">Falta definir</span></div>
+        <p class="txt">Conferencia de embajadores de marca para toda la empresa. Es del frente IAM™ Ambassadors, que va aparte de Intelligence, y queda anotado aquí porque se dictó junto con el resto — no porque entre a este programa.</p>
+        <p class="pie"><span class="ar">Toda la Caja · otro frente</span><span class="fu">Dictado por Sandra, 30 sep.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="r" data-tema="oportunidades">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem r">Decisión</span><span class="tema">Oportunidades</span><span class="plazo">Antes que automatizar</span></div>
+        <p class="txt">Arreglar la landing de denuncias para que no llegue tanto spam. Conecta directo con algo que ya corre: Jurídica tiene un agente que lee el buzón de denuncias, clasifica por urgencia y alimenta el tablero. Si la mitad de lo que entra es spam, el agente está clasificando ruido — y arreglar el formulario vale más que afinar el agente.</p>
+        <p class="pie"><span class="ar">Jurídica · Comunicaciones para la landing</span><span class="fu">Dictado por Sandra, 30 sep. El agente está en el corte del 25.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="a" data-tema="oportunidades">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem a">Seguimiento</span><span class="tema">Oportunidades</span><span class="plazo">Falta el proceso</span></div>
+        <p class="txt">Una aplicación para los vigías de IPS. Falta precisar qué hacen hoy los vigías y con qué, y es lo primero que hay que preguntar antes de proponer nada. IPS va en cuatro sesiones, con lo construido concentrado en una sola persona y el punto de entrada dependiendo de un tercero.</p>
+        <p class="pie"><span class="ar">IPS</span><span class="fu">Dictado por Sandra, 30 sep.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="a" data-tema="oportunidades">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem a">Seguimiento</span><span class="tema">Oportunidades</span><span class="plazo">Falta definir</span></div>
+        <p class="txt">Slack para toda la empresa. Hoy solo existen los canales del programa. Y hay un precedente que sostiene la propuesta: Jurídica migró a su equipo de WhatsApp a un espacio de trabajo propio — cuatro personas que hasta entonces coordinaban por chat personal. Ese es el argumento, no la herramienta: el trabajo de la Caja está ocurriendo en chats personales.</p>
+        <p class="pie"><span class="ar">Toda la Caja</span><span class="fu">Dictado por Sandra, 30 sep. El caso de Jurídica está en acta.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="a" data-tema="oportunidades">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem a">Seguimiento</span><span class="tema">Oportunidades</span><span class="plazo">Falta el dónde</span></div>
+        <p class="txt">Repetidores de internet. Falta precisar en qué sedes o pisos, y si es lo que está detrás de alguna de las caídas de conexión del programa. Hay una registrada: Servicios Sociales se cayó el 22 de septiembre porque la conexión de un participante no se estabilizó, y es la única caída del programa por falla técnica.</p>
+        <p class="pie"><span class="ar">Por precisar</span><span class="fu">Dictado por Sandra, 30 sep.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="v" data-tema="oportunidades">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem v">A favor</span><span class="tema">Oportunidades</span><span class="plazo">Ya registrado</span></div>
+        <p class="txt">Cambio de computadores por el micrófono y el video que no funcionan. Ya está registrado arriba, en Gestión, con la evidencia: lo dijo la propia jefatura de Servicios Sociales en sesión, y aparece además en Planeación, Contabilidad y Comunicaciones. Se repite aquí solo para que la lista dictada quede completa, y no se cuenta dos veces.</p>
+        <p class="pie"><span class="ar">Servicios Sociales y tres más</span><span class="fu">Dictado por Sandra, 30 sep. Ya documentado el 10 sep.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="v" data-tema="oportunidades">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem v">A favor</span><span class="tema">Oportunidades</span><span class="plazo">Convierte el contra</span></div>
+        <p class="txt">Una conferencia general sobre el uso de Gemini, de una hora. La Caja ya tiene la licencia y mucha gente no la conoce. Esto cierra un punto que este tablero traía abierto desde hace semanas: el acta de Tecnología del 11 de septiembre dejó escrito que Comfacesar paga una herramienta de inteligencia artificial que prácticamente nadie usa, y quedó marcado como el contra argumento que iba a aparecer cuando cinco áreas pidieran licencias. Aquí deja de ser un contra argumento y pasa a ser una propuesta: no se pide reemplazar lo pagado, se pide activarlo — una hora de conferencia — y con eso la solicitud de licencias nuevas se puede sostener diciendo qué hace cada herramienta que la otra no hace. Quién nombra la herramienta es Sandra, no el acta: el acta no la nombra.</p>
+        <p class="pie"><span class="ar">Toda la Caja · responde a Licencias</span><span class="fu">Dictado por Sandra, 30 sep. El acta de Tecnología del 11 sep, sin nombrarla.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="r" data-tema="oportunidades">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem r">Decisión</span><span class="tema">Oportunidades</span><span class="plazo">Antes del cierre</span></div>
+        <p class="txt">Preguntarle a cada área en qué está reinvirtiendo las horas que recuperó. Hoy el programa mide una resta —cuánto deja de costar un proceso— y no mide en qué se usa el tiempo liberado, que es lo que convierte un ahorro de costo en un ingreso. Solo hay un caso registrado así: Servicios Sociales dijo en sesión que con las horas recuperadas ya tiene capacidad para pensar qué otros eventos hacer para aumentar los ingresos de su servicio. Y cierra un círculo del propio programa: el informe del Centro de Convenciones dejó ver que no hay registro de captación comercial, y el área acaba de liberar justo el tiempo que eso exige. De las otras ocho áreas que miden sabemos cuánto recuperan, no en qué lo usan. Es una pregunta, no una sesión, y cambia cómo se presenta el cierre a la tesorería y a la dirección.</p>
+        <p class="pie"><span class="ar">Las nueve áreas que miden</span><span class="fu">Dicho en sesión por Servicios Sociales, 29 sep. El hallazgo del Centro es del 15 y 16 sep.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="v" data-tema="oportunidades">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem v">A favor</span><span class="tema">Oportunidades</span><span class="plazo">Para la presentación</span></div>
+        <p class="txt">Presentar el valor como una banda de tres perfiles, no como una sola cifra. Las mismas 133,9 horas semanales valen $253,0 M al año a costo hora de profesional, $363,2 M a gerente o jefe y $554,3 M a directivo. El tablero publica la más baja, y eso es deliberado: es el piso verificable. Pero parte de las tareas medidas las ejecuta una jefatura —el seguimiento a los asistentes jurídicos y el Informe Alta Gerencia—, así que asignando a cada tarea el perfil real la cifra sube, nunca baja. Ante una tesorería, decir «entre 210 y 554 millones, y aquí está por qué» es más sólido que defender un número solo.</p>
+        <p class="pie"><span class="ar">Todo el programa</span><span class="fu">Tarifas de costo hora de Comfacesar, aplicadas en la Sala de Control.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="r" data-tema="hardware-y-ti">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem r">Decisión</span><span class="tema">Hardware y TI</span><span class="plazo">Es el techo</span></div>
+        <p class="txt">El bloqueo de instalación es por puesto, no general. Contraseña de administrador para instalar, acceso bloqueado a Documentos, OneDrive y unidades de digitalización, y captura de pantalla deshabilitada.</p>
+        <p class="pie"><span class="ar">Jurídica, Planeación, Gerencia Financiera, Sub. Administrativa, Talento Humano</span><span class="fu">Sesiones del 15 y 16 sep. Tres casos en un mismo día.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="r" data-tema="hardware-y-ti">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem r">Decisión</span><span class="tema">Hardware y TI</span><span class="plazo">Sin protocolo</span></div>
+        <p class="txt">Cada área lo resuelve sola y con resultados distintos. Jurídica lo resolvió por llamada directa y conexión remota en minutos; otra área tuvo que escalarlo a gestión tecnológica; Talento Humano sigue sin poder conectar carpetas.</p>
+        <p class="pie"><span class="ar">Tres áreas</span><span class="fu">Mismo día, tres rutas distintas.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="a" data-tema="hardware-y-ti">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem a">Seguimiento</span><span class="tema">Hardware y TI</span><span class="plazo">Digitalizar primero</span></div>
+        <p class="txt">Los CDT de Tesorería son títulos físicos y los escaneos no traen capa de texto. Se probó con el escáner de la oficina y con fotos del teléfono: ningún sistema los lee.</p>
+        <p class="pie"><span class="ar">Tesorería</span><span class="fu">Sesión de Tesorería.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="a" data-tema="hardware-y-ti">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem a">Seguimiento</span><span class="tema">Hardware y TI</span><span class="plazo">Abierto</span></div>
+        <p class="txt">Los convenios escaneados con poca nitidez detienen la lectura. El sistema avisa qué parte no pudo leer y se corrige a mano, así que el volumen de trabajo manual depende de la calidad del archivo, no del sistema.</p>
+        <p class="pie"><span class="ar">Jurídica</span><span class="fu">Acta Jurídica S6.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="a" data-tema="hardware-y-ti">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem a">Seguimiento</span><span class="tema">Hardware y TI</span><span class="plazo">Abierto</span></div>
+        <p class="txt">Los celulares no tienen el entorno corporativo. El tablero de convenios no se puede consultar fuera de la oficina, que es donde más falta hace.</p>
+        <p class="pie"><span class="ar">Jurídica</span><span class="fu">Acta Jurídica S6.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="r" data-tema="licencias">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem r">Decisión</span><span class="tema">Licencias</span><span class="plazo">Decisión</span></div>
+        <p class="txt">Cinco áreas piden herramientas pagas, y ninguna es un caso de baja adopción: son las que más avanzan. Subsidio se agotó en vivo a mitad de sesión, Agencia de Empleo ya las compró por su cuenta, Jurídica y las dos personas de Sub. Operativa lo pidieron por escrito en la encuesta.</p>
+        <p class="pie"><span class="ar">Subsidio, Agencia de Empleo, Jurídica, Sub. Operativa, Sub. Financiera</span><span class="fu">Sesiones y encuesta NPS.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="r" data-tema="licencias">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem r">Decisión</span><span class="tema">Licencias</span><span class="plazo">Responder antes</span></div>
+        <p class="txt">Comfacesar ya paga una herramienta de IA que prácticamente nadie usa. Es el contra argumento que va a aparecer, y conviene llevarlo respondido, no esquivado.</p>
+        <p class="pie"><span class="ar">Toda la Caja</span><span class="fu">Acta de Tecnología del 11 sep.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="r" data-tema="licencias">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem r">Decisión</span><span class="tema">Licencias</span><span class="plazo">Corregir ya</span></div>
+        <p class="txt">Una persona asumió de su bolsillo el costo de la herramienta para poder trabajar en el programa.</p>
+        <p class="pie"><span class="ar">Un área del programa</span><span class="fu">Acta de Tecnología.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="a" data-tema="licencias">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem a">Seguimiento</span><span class="tema">Licencias</span><span class="plazo">Abierto</span></div>
+        <p class="txt">La herramienta que resuelve el trabajo diario de Comunicaciones solo corre en versión paga. La sesión entera se hizo sobre una cuenta de IAM y el equipo se topó con el muro al intentarlo solo.</p>
+        <p class="pie"><span class="ar">Comunicaciones</span><span class="fu">Sesión de Comunicaciones.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="v" data-tema="licencias">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem v">A favor</span><span class="tema">Licencias</span><span class="plazo">Criterio fijado</span></div>
+        <p class="txt">Un agente encendido consume mucho más que el trabajo en proyectos. Se fijó el criterio de apagarlo cuando no se use y reservar el modelo más potente para lo que lo amerite.</p>
+        <p class="pie"><span class="ar">Las que tienen agentes</span><span class="fu">Actas de Jurídica y Sub. Financiera.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="r" data-tema="gobernanza">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem r">Decisión</span><span class="tema">Gobernanza</span><span class="plazo">Alguien debe mirarlo</span></div>
+        <p class="txt">Hay transcriptores externos sentados en las sesiones de dos áreas, con dos herramientas distintas. El informe del 10 de septiembre registra uno que entró a las 10:01 y salió quince minutos después que todos. El del 17 registra otro, de otra marca, que fue el último en salir. Ninguno es del programa y ninguno lo puso IAM.</p>
+        <p class="pie"><span class="ar">Agencia de Empleo y Mercadeo</span><span class="fu">Informes de asistencia de Teams del 10 y del 17.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="r" data-tema="gobernanza">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem r">Decisión</span><span class="tema">Gobernanza</span><span class="plazo">Falta la política</span></div>
+        <p class="txt">La pregunta de confidencialidad ya se hizo y frenó a un área durante semanas. Si subir información sensible genera un problema. La respuesta que se dio en sesión sirve como base de política, pero no está escrita en ningún documento de la Caja.</p>
+        <p class="pie"><span class="ar">IPS, y aplica a todas</span><span class="fu">Acta IPS S2.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="a" data-tema="gobernanza">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem a">Seguimiento</span><span class="tema">Gobernanza</span><span class="plazo">Por formalizar</span></div>
+        <p class="txt">La cuenta es personal, única e intransferible. Quedó como criterio en sesión: un líder tiene conversaciones que no van a su equipo. Tampoco está escrito.</p>
+        <p class="pie"><span class="ar">Todas</span><span class="fu">Acta IPS S2.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="r" data-tema="gobernanza">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem r">Decisión</span><span class="tema">Gobernanza</span><span class="plazo">Riesgo de pérdida</span></div>
+        <p class="txt">Tercer caso de cuentas cruzadas. Una jefatura perdió sus proyectos armados al pasar de una cuenta a otra, y esos proyectos sostienen dos de los ahorros ya reportados.</p>
+        <p class="pie"><span class="ar">Tres áreas</span><span class="fu">Sesión del 16 sep. Antes pasó en Vivienda y en Sub. Financiera.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="r" data-tema="gobernanza">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem r">Decisión</span><span class="tema">Gobernanza</span><span class="plazo">Riesgo de continuidad</span></div>
+        <p class="txt">El trabajo se construye en cuentas personales y no hay política de cuenta corporativa. Una persona del programa entró todo el tiempo con correo personal, y por eso sus sesiones ni siquiera cruzaban con el canal de su área.</p>
+        <p class="pie"><span class="ar">Sub. Financiera</span><span class="fu">Calendario y canales.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="a" data-tema="gobernanza">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem a">Seguimiento</span><span class="tema">Gobernanza</span><span class="plazo">Escalado a TI</span></div>
+        <p class="txt">Un tablero con datos de la empresa no se puede abrir con enlace desde otra cuenta. Es una restricción del entorno, no del trabajo hecho, y deja todo lo construido en uso individual.</p>
+        <p class="pie"><span class="ar">Jurídica</span><span class="fu">Acta Jurídica S6.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="r" data-tema="gobernanza">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem r">Decisión</span><span class="tema">Gobernanza</span><span class="plazo">Falta control</span></div>
+        <p class="txt">Salieron documentos hacia el Consejo Directivo con comentarios de trabajo visibles. Se detectó a tiempo, pero el control no existe: no hay paso de revisión antes de que un entregable hecho con IA salga del área.</p>
+        <p class="pie"><span class="ar">Servicios Sociales</span><span class="fu">Acta Servicios Sociales S8.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="v" data-tema="gobernanza">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem v">A favor</span><span class="tema">Gobernanza</span><span class="plazo">Evidencia de control</span></div>
+        <p class="txt">Y el hallazgo que juega a favor: en tres áreas distintas el sistema se detuvo a reportar lo que no podía verificar en vez de inventarlo. Números de convenio ilegibles, dos meses con exactamente los mismos empleados, y citas jurisprudenciales sin confirmar.</p>
+        <p class="pie"><span class="ar">Jurídica, Sub. Financiera, Talento Humano</span><span class="fu">Tres actas del 16 sep.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="r" data-tema="profundizacion">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem r">Decisión</span><span class="tema">Profundización</span><span class="plazo">Sin ejercicios</span></div>
+        <p class="txt">Cumplimiento hizo su Sesión 2 el 22 de septiembre, al cuarto intento, y sale con cero ejercicios. Antes cayeron tres citas de la misma S2, dos canceladas y la del 21, que no se hizo por dos minutos. La S2 se fue completa en configuración: la hora estaba prevista para el primer ejercicio de productividad y no quedó ninguno. El área entra a la última semana con tres semanas de atraso y sin nada medido, mientras las demás cierran agentes. Lo que juega a favor: ya saben qué quieren automatizar y lo dejaron escrito con su frecuencia y su tiempo.</p>
+        <p class="pie"><span class="ar">Cumplimiento</span><span class="fu">Acta S2 del 22 sep, informe de Teams y calendario.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="r" data-tema="profundizacion">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem r">Decisión</span><span class="tema">Profundización</span><span class="plazo">1 de 3</span></div>
+        <p class="txt">IPS convocó a tres y entró uno. La S4 del 23 de septiembre era la grupal que el área tomó con sus tres correos, y solo ingresó una de las tres personas convocadas: 1 de 3, la asistencia más baja de una sesión en todo el programa. Se suma a lo que ya estaba: su punto de entrada está fuera de alcance, los conceptos llegan por una plataforma de un tercero con credenciales y hay que descargarlos uno a uno. El área va en cuatro sesiones y lo construido está en una sola persona.</p>
+        <p class="pie"><span class="ar">IPS</span><span class="fu">Informe de Teams del 23 sep y acta IPS S2.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="r" data-tema="profundizacion">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem r">Decisión</span><span class="tema">Profundización</span><span class="plazo">Dos días seguidos</span></div>
+        <p class="txt">Educación no se presentó dos días seguidos, y es la única área del programa a la que le pasa. Equipo de dos, tres sesiones hechas y todas con una sola persona, la última el 7 de septiembre. Las citas del 22 y del 23, las dos a las 4:00 p. m., se cayeron sin que ingresara nadie. Y el matiz importa: el 23 el rectorado sí escribió a las 4:04 diciendo que estaba esperando, después de confirmar la noche anterior que asistían. Escribir en el canal no es entrar a la sala. El área llega al cierre con dieciséis días sin sentarse.</p>
+        <p class="pie"><span class="ar">Educación</span><span class="fu">Dos inasistencias seguidas, 22 y 23 sep. Canal y sala abierta.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="r" data-tema="profundizacion">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem r">Decisión</span><span class="tema">Profundización</span><span class="plazo">Requiere proveedor</span></div>
+        <p class="txt">La integración por interfaz de programación es el techo de cuatro áreas a la vez. Sus tableros hoy se alimentan descargando reportes a mano. Y la decisión no es de Comfacesar: Tecnología no desarrolla software, el sistema contable es de un proveedor externo.</p>
+        <p class="pie"><span class="ar">Contabilidad, Tesorería, Servicios Sociales, Vivienda</span><span class="fu">Acta de Tecnología.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="r" data-tema="profundizacion">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem r">Decisión</span><span class="tema">Profundización</span><span class="plazo">40 min cada una</span></div>
+        <p class="txt">Once de las veintiuna áreas no tienen una sola medición de productividad. No es que no hayan producido: es que nadie tomó el tiempo antes y después, que es lo que convierte el avance en evidencia.</p>
+        <p class="pie"><span class="ar">Once áreas</span><span class="fu">Archivo de assessment.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="a" data-tema="profundizacion">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem a">Seguimiento</span><span class="tema">Profundización</span><span class="plazo">Decirlo primero</span></div>
+        <p class="txt">El ahorro está concentrado en una sola línea. Seis de cada diez horas recuperadas salen de un área, y dentro de ella de una tarea. Sin esa línea el programa todavía recupera 30,3 horas semanales, así que se sostiene, pero la concentración hay que decirla antes de que la pregunten.</p>
+        <p class="pie"><span class="ar">Sub. Financiera</span><span class="fu">Tablero de productividad.</span></p>
+      </div>
+    </article>
+    <article class="h" data-sev="v" data-tema="profundizacion">
+      <div class="veta"></div>
+      <div class="dentro">
+        <div class="tiras"><span class="sem v">A favor</span><span class="tema">Profundización</span><span class="plazo">Nace de la dirección</span></div>
+        <p class="txt">La dirección ya está midiendo a la subdirección por su agenda, y el área se adelantó a construir la medición. El señalamiento fue textual, «cada vez que te necesito estás en algo», y de ahí salió un tablero de desempeño operativo montado sobre el calendario: cuánto tiempo recibe cada área a cargo y qué parte de la agenda se cumple. Lo propuso el puesto, no la mentoría. Tiene una condición que conviene subrayar en el cierre: si la subdirección mueve o cancela algo, tiene que reportarlo, porque sin reporte no hay indicador.</p>
+        <p class="pie"><span class="ar">Sub. Administrativa y Financiera</span><span class="fu">Acta Sub. Administrativa y Financiera S9, 21 sep.</span></p>
+      </div>
+    </article>
+    </div>
+    <p class="vacio" id="vacio" hidden>Ningún hallazgo cumple los dos filtros a la vez. Cambia uno de los dos.</p>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h3>La decisión de fondo</h3>
+      <h2>El protocolo de gobernanza que la Caja no tiene</h2>
+    </div>
+    <p>Comfacesar tiene hoy <strong>trece agentes construidos por sus propias áreas</strong>, ocho de ellos corriendo sobre trabajo real, gente trabajando con información sensible y entregables saliendo hacia el Consejo Directivo. <strong>Lo que no tiene es una sola línea escrita sobre cómo se hace eso.</strong> Todos los criterios que existen se fijaron verbalmente en sesión y viven en las actas.</p>
+    <div class="nota plain">
+      <strong>No es una falla de la Caja: es la consecuencia normal de haber adoptado rápido.</strong> El programa entrega procesos cambiados y gente capaz. El protocolo es lo que hace que eso siga siendo cierto en seis meses.
+    </div>
+    <ol class="proto">
+      <li><span class="np">1</span><div><b>Cuenta corporativa obligatoria</b> Personal, única e intransferible, y nunca con correo particular. Todo lo que se construya queda en el dominio de la Caja. <em class="de">Sale de los tres casos de cuentas cruzadas.</em></div></li>
+      <li><span class="np">2</span><div><b>Quién puede sentarse en una sesión y quién puede grabarla</b> Ningún asistente externo, humano o automático, sin autorización expresa y registrada. <em class="de">Sale del transcriptor externo.</em></div></li>
+      <li><span class="np">3</span><div><b>Qué información puede subirse y cuál no</b> Con el criterio que ya se dio en sesión y funcionó: la organización lleva más de una década operando con información en servidores de terceros, así que lo que cambia no es dónde reposa, es que ahora se declara. Hay que escribirlo y que lo firme alguien. <em class="de">Sale de la pregunta de IPS, que frenó a un área semanas.</em></div></li>
+      <li><span class="np">4</span><div><b>Revisión humana antes de que un entregable salga del área</b> Un paso explícito, con responsable. <em class="de">Sale del documento con comentarios visibles.</em></div></li>
+      <li><span class="np">5</span><div><b>Inventario de herramientas y dueño de cada una</b> Qué hay pagado, quién lo usa y para qué. <em class="de">Sale de la herramienta que nadie usa.</em></div></li>
+      <li><span class="np">6</span><div><b>Un responsable de IA en la Caja</b> No un comité: una persona a la que se le pregunta. Hoy las excepciones de Tecnología se resuelven según a quién conozca cada quien, y eso ya produjo tres resultados distintos el mismo día.</div></li>
+    </ol>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h3>Lo que se muestra sin peros</h3>
+      <h2>Las cifras que resisten una pregunta difícil</h2>
+    </div>
+    <p>Seis procesos con el tiempo antes y después tomado en sesión por quien ejecuta el trabajo, sobre sus propios archivos. No son estimaciones de la mentoría.</p>
+    <div class="tw">
+      <table>
+        <thead><tr><th>Área</th><th>Proceso</th><th>Antes</th><th>Hoy</th><th>Por qué resiste</th></tr></thead>
+        <tbody>
+          <tr><td class="ar2">Jurídica</td><td>Informe Alta Gerencia</td><td class="nm antes">960 min</td><td class="nm hoy">10 min</td><td class="pq">Cinco días de trabajo a diez minutos. Está en el archivo, con la descripción escrita por la propia persona.</td></tr>
+          <tr><td class="ar2">Sub. Financiera</td><td>Prevalidación precontractual</td><td class="nm antes">480 min</td><td class="nm hoy">15 a 30 min</td><td class="pq">Es diaria, que es lo que la vuelve grande. El dato exacto está en revisión.</td></tr>
+          <tr><td class="ar2">Vivienda</td><td>Análisis de informe de interventoría</td><td class="nm antes">240 min</td><td class="nm hoy">30 min</td><td class="pq">Con volumen verificado en acta: once proyectos al mes, 37 horas mensuales.</td></tr>
+          <tr><td class="ar2">IPS</td><td>Alimentación del sistema de SST</td><td class="nm antes">6.400 min/mes</td><td class="nm hoy">480 min</td><td class="pq">Corregido en la sesión del 30 de septiembre. Es la segunda fila más grande del programa: 22,8 horas por semana.</td></tr>
+          <tr><td class="ar2">Servicios Sociales</td><td>Respuesta a anotación de auditoría</td><td class="nm antes">8 días</td><td class="nm hoy">4 horas</td><td class="pq">El mejor caso individual del programa. Falta confirmar con qué frecuencia ocurre.</td></tr>
+          <tr><td class="ar2">Agencia de Empleo</td><td>Filtrar candidatos de una vacante</td><td class="nm antes">2 a 3 h</td><td class="nm hoy">15 a 20 min</td><td class="pq">Verificado en sesión con el equipo.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="nota">
+      <strong>Y lo que más pesa no es ninguna cifra: son trece agentes que construyeron las áreas.</strong> Ocho corriendo y cinco en construcción. Uno avisa solo cuando un convenio está por vencer, otro revisa diez veces al día los requerimientos contra sus soportes, otro vigila los canales del área y entrega un corte al mediodía.
+      <br><br>
+      <strong>No los construyó un programador.</strong> Los construyeron las áreas en sesión, y por eso siguen funcionando después del cierre.
+    </div>
+  </section>
+
+  <footer>
+    <span><b>IAM™ Intelligence · Comfacesar</b> — agosto a octubre de 2026</span>
+    <span>Sandra Curvelo · Founder &amp; CSO, IAM™ LATAM</span>
+    <span>39 hallazgos tomados de las actas de sesión, los informes de asistencia y el archivo de assessment</span>
+  </footer>
+
+</div>
+
+<script>
+(function(){
+  var sev="todos", tema="todos";
+  var items=[].slice.call(document.querySelectorAll("#lista .h"));
+  var chips=[].slice.call(document.querySelectorAll(".chip"));
+  var cuenta=document.getElementById("cuenta");
+  var vacio=document.getElementById("vacio");
+
+  function pintar(){
+    var v=0;
+    items.forEach(function(el){
+      var ok=(sev==="todos"||el.dataset.sev===sev)&&(tema==="todos"||el.dataset.tema===tema);
+      el.hidden=!ok; if(ok) v++;
+    });
+    cuenta.textContent = v + " de " + items.length + (v===1?" hallazgo":" hallazgos");
+    vacio.hidden = v>0;
+    chips.forEach(function(c){
+      var activo = (c.dataset.f==="sev") ? (c.dataset.v===sev) : (c.dataset.v===tema);
+      c.setAttribute("aria-pressed", String(activo));
+    });
+  }
+  chips.forEach(function(c){
+    c.addEventListener("click",function(){
+      if(c.dataset.f==="sev") sev=c.dataset.v; else tema=c.dataset.v;
+      pintar();
+    });
+  });
+  pintar();
+})();
+</script>
