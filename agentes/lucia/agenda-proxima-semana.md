@@ -173,7 +173,7 @@ jugando a agendar más para presionar»*.
 |---|---|---|
 | Mar 6, 10:00 a. m. | Servicios Sociales | `pro_juniorss@` · `serviciossociales@` |
 | Mar 6, 11:00 a. m. | Agencia de Empleo | `juridicompc@` · `fosfec@` · `fomentoempresarial@` |
-| Mar 6, 2:00 p. m. | Vivienda | `cindymsilva86@gmail.com` — *correo personal, no el corporativo* |
+| Mar 6, 2:00 p. m. | Vivienda | `fovis@comfacesar.com` — *agendó desde `cindymsilva86@gmail.com`* |
 | Mar 6, 3:00 p. m. | Subsidio | `coordinacionsubsidioyaportes@` |
 | Jue 8, 10:00 a. m. | Subsidio | `coordinacionsubsidioyaportes@` |
 | Jue 8, 3:00 p. m. | Agencia de Empleo | `laboratoriodeempleo@` · `fomentoempresarial@` |
@@ -192,3 +192,9 @@ sesiones del 2 y del 5 se den. Se recalcula el lunes.
 citas hay que bajarlas. *Una sesión agendada que no se hace es una caída* — pero al
 bajarlas Sandra, entran como **canceladas por la mentoría** y no suben la cifra del
 tablero del cliente. Quedan en el registro, no en el reporte.
+
+**El agendamiento de Vivienda entró por un correo personal.** Cindy Marcela Silva
+Ibarra agendó el martes 6 desde `cindymsilva86@gmail.com`. Su corporativo es
+**`fovis@comfacesar.com`** — es el que usa en Slack en `#vivienda` desde el 15 de
+agosto y el que va en cualquier cosa que se le mande. El personal no se usa ni se
+cita en documentos del cliente.

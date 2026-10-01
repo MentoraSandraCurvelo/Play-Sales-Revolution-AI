@@ -90,8 +90,12 @@ representantes participan desde el canal del área donde trabajan. Saharay Díaz
 
 - Las cuatro ya estaban en el programa. Asumen un área adicional, no dejan la suya.
 - En el acta se nombra por el área de la sesión.
-- **Hay dos Cindy distintas.** Cindy Rodríguez (Subsidio y Aportes, representa Crédito)
-  y Cindy Silva (Vivienda, S5 del 10 de septiembre). No confundirlas.
+- **Hay dos Cindy distintas.** Cindy Rodríguez (Subsidio y Aportes, representa Crédito,
+  `atencion_reclamos@comfacesar.com`) y **Cindy Marcela Silva Ibarra** (Vivienda, S5 del
+  10 de septiembre, **`fovis@comfacesar.com`**). No confundirlas.
+- **Cindy Silva agenda desde un correo personal** (`cindymsilva86@gmail.com`). Es ella,
+  pero **el correo que se usa es el corporativo `fovis@comfacesar.com`** — el mismo de su
+  cuenta de Slack en `#vivienda`. El personal no entra en documentos ni en envíos.
 - Saharay Díaz no se menciona en actas nuevas.
 - Al entrar, cruzar el nombre con su cuenta de Slack: **manda Slack**.
 
