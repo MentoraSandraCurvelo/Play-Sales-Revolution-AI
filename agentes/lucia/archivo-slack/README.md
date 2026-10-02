@@ -21,8 +21,16 @@ baja aquí ya no depende de Slack.
 python3 extraer.py     # 1 · recoge los canales leídos y los deja en raw/
 python3 parsear.py     # 2 · normaliza raw/ → datos/archivo.json
 python3 construir.py   # 3 · junta mensajes + actas + fijados → plantilla_v2/data/archivo.js
-python3 empaquetar.py  # 4 · un solo HTML con todo dentro → entregable/
+python3 empaquetar.py --sin-internet --con-pdfs   # 4 · el entregable
+python3 probar.py                                 # 5 · abrir todas las vistas
 ```
+
+**El paso 5 no es opcional.** `probar.py` abre las ≈180 vistas de la app —cada acta,
+cada pestaña de cada canal y las globales— y avisa si alguna revienta o sale vacía.
+_Nació de un fallo real:_ un acta escrita a mano llevaba un campo como texto donde la
+app esperaba una lista, y con eso **la app entera dejaba de verse**, no solo esa acta.
+Se entregó tres veces sin detectarlo porque solo se probaba una vista. **Nada sale sin
+pasar por ahí.**
 
 El paso 3 lee las actas de `agentes/lucia/sesiones/*.json`, así que **cada acta nueva
 entra sola**: no hay que copiar nada.

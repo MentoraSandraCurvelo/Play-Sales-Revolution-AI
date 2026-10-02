@@ -260,6 +260,41 @@ def _asistencia_de_actas(archivo):
           % (len(equipo), sum(g['n'] for g in equipo), len(archivo['mentoria'])))
 
 
+def normalizar_actas(archivo):
+    """Deja en lista los campos que la app recorre con `.map`.
+
+    Si uno de ellos llega como texto \u2014cosa f\u00e1cil de hacer al escribir un acta a
+    mano\u2014 la app entera revienta con «.map is not a function» y no se ve nada,
+    ni siquiera las otras actas. As\u00ed que se corrige aqu\u00ed, una vez, para todas.
+    """
+    LISTAS = ('ejercicios', 'kpis', 'observaciones', 'oportunidades',
+              'participantes', 'tareas', 'riesgos', 'alertas')
+    arreglados = []
+    def lista(v):
+        if v is None: return []
+        return v if isinstance(v, list) else [v]
+    for c in archivo['canales']:
+        for a in c['actas']:
+            for k in LISTAS:
+                if k in a and not isinstance(a[k], list):
+                    a[k] = lista(a[k]); arreglados.append((a['archivo'], k))
+            for e in a.get('ejercicios', []):
+                if isinstance(e, dict) and not isinstance(e.get('pasos', []), list):
+                    e['pasos'] = lista(e.get('pasos')); arreglados.append((a['archivo'], 'ejercicios.pasos'))
+            for o in a.get('oportunidades', []):
+                if isinstance(o, dict) and not isinstance(o.get('barras', []), list):
+                    o['barras'] = lista(o.get('barras'))
+            p = a.get('proxima_sesion')
+            if isinstance(p, dict):
+                for k in ('condiciones', 'agenda'):
+                    if k in p and not isinstance(p[k], list):
+                        p[k] = lista(p[k]); arreglados.append((a['archivo'], 'proxima_sesion.' + k))
+    if arreglados:
+        print('  %d campos puestos en lista:' % len(arreglados))
+        for f, k in arreglados[:12]:
+            print('     %-42s %s' % (f, k))
+
+
 def enlazar_adjuntos(archivo):
     """Da enlace a los adjuntos de los mensajes que son actas nuestras.
 
@@ -289,6 +324,7 @@ def main():
         c['actas'] = actas.get(c['canal'], [])
         c['fijados'] = fijados.get('canales', {}).get(c['canal'], {}).get('carpetas', [])
     pdfs(archivo)
+    normalizar_actas(archivo)
     enlazar_adjuntos(archivo)
     grabaciones(archivo)
     asistencia(archivo)
