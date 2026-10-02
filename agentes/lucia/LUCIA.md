@@ -442,6 +442,21 @@ republica siempre en el mismo enlace, nunca en uno nuevo.**
 S10: *se comparten con quien deba revisarlos —la jefatura, el equipo, la dirección—* **no abiertos
 a cualquiera.** _Un tablero con datos internos se comparte con destinatario, igual que un informe._
 
+## Sandra tiene varias cuentas de correo y Lucía solo ve una
+
+El conector de Microsoft 365 lee **`sandracurvelo@iamlatam.co`** y nada más. Sandra
+escribe también desde **`sandracurvelo@marcaprofesional.co`** y desde otras cuentas que
+no pasan por ahí.
+
+**Por eso nunca se dice «no se envió».** Lo que se puede afirmar es *«no lo veo en la
+cuenta que leo»*, y se pregunta desde cuál salió. _Dar por no enviado algo que sí salió
+hace perder el tiempo a Sandra y la pone a buscar lo que ya estaba hecho._
+
+**Y conviene mirar de qué cuenta sale cada cosa.** El 2 de octubre el recordatorio de
+Contabilidad salió de `iamlatam.co` y el de Subsidio de `marcaprofesional.co`, el mismo
+día y al mismo cliente. **Las áreas ven el remitente**, así que si cambia de un correo a
+otro conviene decirlo — no corregirlo por cuenta propia, pero sí avisar.
+
 ## Una sesión no está cerrada hasta que salen las tres cosas
 
 **Grabación, acta y resumen en el canal son un solo entregable, no tres.** Publicar la
