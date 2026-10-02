@@ -6,6 +6,23 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## ⬇️ 2 oct · 10:15 a. m. · Termómetro v98: se cayó la de Tecnología, la primera del área en todo el programa
+
+**Nueve de la mañana, quince minutos de espera, nadie entró.** El canal ya lo publicó a las 9:18 y ahí
+quedó también el corrimiento, así que **no escribí nada**: no hacía falta un segundo mensaje.
+
+- **Caídas 23 → 24.** **Inasistencias 10 → 11.** Cancelaciones del área, cruces, cita médica y falla
+  técnica quedan igual.
+- **La del lunes a las 10:00 pasa a ser la S7**, no la S8. **Tecnología cierra en S7**, con seis hechas.
+- Es la **tercera área en dos días** a la que se le corre el número por una caída, después de
+  Comunicaciones y Subsidio.
+- Tecnología venía de **seis sesiones sin faltar una sola vez**. Lo dejé dicho en el tablero para que no
+  se lea como un área desconectada.
+
+**Sesiones siguen en 105.** Hoy quedan Contabilidad S9 a las 11:00 y Subsidio S9 a las 3:00.
+
+---
+
 ## 📁 2 oct · 7:50 a. m. · Revisión de Dropbox: no hay acta del 1 de octubre, y me corrijo en la asistencia
 
 **Lo pidió Sandra:** *«Revisa los documentos están Dropbox y pásame las actas»*.
