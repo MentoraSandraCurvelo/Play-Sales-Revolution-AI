@@ -27,9 +27,15 @@ python3 empaquetar.py  # 4 · un solo HTML con todo dentro → entregable/
 El paso 3 lee las actas de `agentes/lucia/sesiones/*.json`, así que **cada acta nueva
 entra sola**: no hay que copiar nada.
 
-## Los fijados: las carpetas con enlaces
+## Los fijados
 
-`fijados.json` replica lo que está fijado arriba en cada canal de Slack. Estructura:
+`fijados.json` replica lo que está fijado arriba en cada canal de Slack. **Hoy solo lleva
+la carpeta común del programa, y así se queda:** _decisión de Sandra del 2 de octubre,_
+«olvídate de los fijados, no los voy a poner de momento». **No hay que volver a
+pedírselos.**
+
+Si algún día quiere añadir carpetas por canal, la estructura es esta y luego se corre
+`python3 construir.py`:
 
 ```json
 "subsidio": {
@@ -44,8 +50,6 @@ entra sola**: no hay que copiar nada.
   ]
 }
 ```
-
-Se añaden las carpetas que hagan falta y se corre `python3 construir.py`.
 
 ## La plantilla y las dos versiones del entregable
 
