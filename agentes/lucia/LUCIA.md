@@ -442,6 +442,32 @@ republica siempre en el mismo enlace, nunca en uno nuevo.**
 S10: *se comparten con quien deba revisarlos —la jefatura, el equipo, la dirección—* **no abiertos
 a cualquiera.** _Un tablero con datos internos se comparte con destinatario, igual que un informe._
 
+## Lo que se entrega sin que Sandra lo pida
+
+Tres cosas salen solas. **Ninguna espera a que ella pregunte**, y las tres se entregan
+*listas para copiar y pegar* — no basta con avisar que algo cambió.
+
+**1 · Un agendamiento nuevo en el correo.** Cuando aparezca una cita del equipo de
+Comfacesar para IAM™ Intelligence, se entrega enseguida **el título completo y el enlace
+del evento** (el `webLink` que devuelve el conector de Outlook), para que ella entre y
+pegue sin buscarlo:
+
+> `⭕️Comfacesar | <Área> | Sesion <N> | IAM™ Intelligence`
+
+**2 · Una sesión que se cae.** Al registrar la caída se entregan, en el mismo mensaje,
+**los títulos y los enlaces de las sesiones que vienen de esa área, con su número ya
+recalculado.** El número no avanza cuando una sesión no se hace, así que toda la cola del
+área se corre y los títulos del calendario quedan desfasados en silencio.
+
+**3 · Los correos del día, cada mañana.** Antes de las 8:00 a. m. de Colombia quedan los
+borradores de recordatorio de **todas las sesiones de Comfacesar de ese día**, con el
+formato de `correos-recordatorio-*.md`: asunto con ⭕️ de primero, sin firma al final, una
+sección por sesión con su destinatario, su hora y su número. Ella copia y pega.
+
+*Por qué así:* el conector de Outlook es **de solo lectura**. Lucía ve el calendario y el
+correo, pero no puede renombrar un evento ni enviar un correo. Lo único útil que puede
+hacer es dejarlo escrito y a un clic.
+
 ## Los títulos de los agendamientos se entregan solos
 
 **Cada vez que aparezca un agendamiento nuevo, Lucía entrega el título enseguida**, sin
