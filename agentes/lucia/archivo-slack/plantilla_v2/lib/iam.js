@@ -187,5 +187,31 @@ function hero3D(canvas, nodos, cb){
     destruir(){ vivo = false; cancelAnimationFrame(raf); ro.disconnect(); canvas.removeEventListener('pointermove', mover); canvas.removeEventListener('pointerleave', salir); canvas.removeEventListener('click', clic); R.dispose(); }
   };
 }
-window.IAM = { esc, plano, fechaLarga, fechaCorta, miles, horas, marcar, md, textoDe, limpio, iniciales, colorDe, tipoArch, recorte, makeCountUp, hero3D, MESES };
+/* La plantilla marcaba su texto con formato con `dangerouslySetInnerHTML`, y el
+   runtime no lo implementa —no aparece ni una vez en support.js—: el texto no se
+   pintaba nunca, ni en los mensajes ni en las actas ni en las tareas. Y como
+   React sí conoce ese nombre, tampoco servía pasarle la cadena: acababa escrita
+   como texto plano, con las etiquetas a la vista.
+   Por eso ahora viaja en `data-html`, que no le dice nada a nadie, y esto lo
+   convierte en contenido real en cuanto aparece. El atributo se quita al
+   aplicarlo, que es lo que evita que el observador se dispare a sí mismo. */
+function promoverHTML(raiz){
+  for (const el of (raiz || document).querySelectorAll('[data-html]')){
+    const h = el.getAttribute('data-html');
+    el.removeAttribute('data-html');
+    if (h) el.innerHTML = h;
+  }
+}
+if (typeof document !== 'undefined'){
+  const arranca = () => {
+    promoverHTML();
+    new MutationObserver(() => promoverHTML()).observe(
+      document.body, { childList:true, subtree:true, attributes:true,
+                       attributeFilter:['data-html'] });
+  };
+  if (document.body) arranca();
+  else document.addEventListener('DOMContentLoaded', arranca);
+}
+
+window.IAM = { esc, plano, fechaLarga, fechaCorta, miles, horas, marcar, md, textoDe, limpio, iniciales, colorDe, tipoArch, recorte, makeCountUp, hero3D, promoverHTML, MESES };
 })();
