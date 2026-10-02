@@ -1,0 +1,213 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "JURÍDICA",
+  "area_completa": "",
+  "sesion_num": 12,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "1 de octubre de 2026",
+  "fecha_corta": "1 octubre 2026",
+  "subtitulo_meta": "Individual de Lilibeth Costa · 1 de octubre de 2026 · 8:00 a. m. · 55 minutos · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Jurídica — Comfacesar"],
+    ["Sesión", "N° 12 — Individual de Lilibeth Costa: del tablero a la aplicación web"],
+    ["Fecha", "1 de octubre de 2026"],
+    ["Hora inicio", "8:00 a. m. — Colombia"],
+    ["Duración de la sesión", "55 minutos (8:00 a. m. – 8:55 a. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Lilibeth Costa — 52 minutos"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "2", "etiqueta": "Agentes en operación", "detalle": "Matías, sobre el equipo administrativo, y Sofía Lawyer"},
+    {"valor": "1", "etiqueta": "Aplicación web ya construida", "detalle": "El tablero de Jurídica ya es una aplicación web — se identificó en sesión"},
+    {"valor": "3", "etiqueta": "Agentes previstos", "detalle": "Los dos actuales más uno de asuntos legales: tutelas, peticiones y políticas"},
+    {"valor": "52", "etiqueta": "Categorías de habilidades", "detalle": "El catálogo que se recorrió en sesión, con su sección legal"},
+    {"valor": "1", "etiqueta": "Rutina con fallo detectado", "detalle": "Matías estaba apagado y la rutina lo señalaba con una advertencia"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Lilibeth Costa", "cargo": "Jurídica — Comfacesar", "correo": "secretaria_juridica@comfacesar.com", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 12. El área llega con dos agentes en operación y con el tablero convertido en aplicación web, de modo que lo que queda a la vista ya no es cómo construir, sino qué procesos del área hay que cambiar para que lo construido rinda.",
+  "riesgos": [
+    {
+      "titulo": "El proceso de Jurídica es manual de punta a punta",
+      "nivel": "ALTO",
+      "descripcion": "El área lo dijo con todas sus letras en sesión: _el proceso de Jurídica es prácticamente manual._ La organización paga un sistema que el área no usa. Mientras eso siga así, cada agente que se construya va a chocar con un paso que alguien hace a mano. **No es un problema de herramienta: es un problema de proceso, y resolverlo excede lo que una sesión puede hacer.**",
+      "responsable": "Lilibeth Costa / Permanente"
+    },
+    {
+      "titulo": "El envío de contratos quedó bloqueado por el peso de los archivos",
+      "nivel": "ALTO",
+      "descripcion": "Uno de los procesos del área es enviar contratos y órdenes a los responsables por correo, y el agente no puede: los archivos pesan demasiado. **Es un techo técnico, no algo que se resuelva insistiendo.** La salida que se trabajó en sesión fue cambiar el circuito — subir los documentos a una carpeta en la nube y enviar el enlace, no el archivo.",
+      "responsable": "Lilibeth Costa / Antes de la S13"
+    },
+    {
+      "titulo": "El tablero cargaba demasiada información para ser útil",
+      "nivel": "MEDIO",
+      "descripcion": "_Lo detectó el propio puesto:_ se habían conectado todas las unidades de disco a la vez y el resultado tenía demasiada información. La decisión del área fue vaciarlo y rehacerlo **carpeta por carpeta, diciéndole exactamente qué necesita de cada una.** Ese criterio —acotar la fuente antes de pedir el resultado— es el que hay que mantener.",
+      "responsable": "Lilibeth Costa / Antes de la S13"
+    },
+    {
+      "titulo": "Una rutina estaba fallando sin que nadie lo notara",
+      "nivel": "MEDIO",
+      "descripcion": "Al revisar el menú de rutinas apareció una advertencia: **Matías estaba apagado y su rutina no había corrido.** El aviso estaba ahí desde antes y no se había mirado. _Revisar las rutinas es parte del trabajo del puesto_, no algo que el sistema resuelva solo.",
+      "responsable": "Lilibeth Costa / Permanente"
+    },
+    {
+      "titulo": "Los agentes corren sin horario definido",
+      "nivel": "MEDIO",
+      "descripcion": "El área preguntó cómo detenerlos al terminar la jornada. _Resuelto en sesión:_ se le indica al propio agente que se detenga hasta nuevo aviso, o se le programa la hora de apagado y la de encendido. **Un agente que corre fuera de jornada consume sin producir.**",
+      "responsable": "Lilibeth Costa / Resuelto en sesión"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Rehacer el tablero carpeta por carpeta y dejarlo como aplicación web",
+      "descripcion": "Vaciar la información que hoy tiene y volver a construirlo acotando cada fuente: qué se necesita exactamente de cada carpeta. El resultado es el mismo tablero con menú y subtableros — una aplicación web del área, no un informe.",
+      "responsable": "Lilibeth Costa",
+      "plazo": "Antes de la S13"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Cambiar el circuito de envío de contratos",
+      "descripcion": "Que el agente tome los documentos de la carpeta pública del área, los suba a una carpeta en la nube y envíe un correo con el enlace en forma de hipervínculo — «descargue aquí»— en lugar del archivo adjunto. Hacer una prueba completa antes de llevarlo al proceso real.",
+      "responsable": "Lilibeth Costa",
+      "plazo": "Antes de la S13"
+    },
+    {
+      "num": "03",
+      "nivel": "MEDIO",
+      "titulo": "Pasar el tablero por el entorno de diseño",
+      "descripcion": "Descargar el archivo del tablero y subirlo al entorno de diseño asistido, pidiendo las tendencias actuales de aplicación web. El ejercicio quedó lanzado en sesión sobre el tablero del área.",
+      "responsable": "Lilibeth Costa",
+      "plazo": "Antes de la S13"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Montar el tercer agente, enfocado en asuntos legales",
+      "descripcion": "La oficina es más que contratación: tutelas, peticiones, políticas. El agente apoya la revisión y automatiza una parte del trabajo, pero el criterio sobre el documento sigue siendo humano — así lo planteó el área y así queda.",
+      "responsable": "Lilibeth Costa",
+      "plazo": "Antes de la S13"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Revisar las rutinas y programarles horario",
+      "descripcion": "Entrar al menú de rutinas, atender la advertencia que señala la que está fallando, y dejar programada la hora de apagado al cerrar jornada y la de encendido a la mañana siguiente.",
+      "responsable": "Lilibeth Costa",
+      "plazo": "Inmediato"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El desafío de la aplicación web",
+      "duracion": "~20 min",
+      "objetivo": "Mostrar qué cambia cuando un tablero deja de ser un tablero y pasa a ser una aplicación con menú, subtableros y vistas propias.",
+      "pasos": "Se recorrieron dos aplicaciones web construidas por otras áreas del programa, sin entrar en su información: una con un módulo de seguimiento que encadena el ingreso con lo que viene después, y otra que replica la gestión de correo con indicadores por tipo de solicitud y plantillas de respuesta. _El punto no era el resultado, sino el salto:_ **es el mismo tablero, pero con un menú, y dentro del menú, subtableros.** Puede llevar hojas de cálculo en vivo y vistas de correo. Y se instala en el teléfono como si fuera una aplicación descargada — de ahí el nombre."
+    },
+    {
+      "titulo": "Ejercicio B · Lo que el área ya tenía sin saberlo",
+      "duracion": "~5 min",
+      "objetivo": "Reconocer que el tablero de Jurídica ya cumple la definición.",
+      "pasos": "Al cerrar el recorrido, el área preguntó directamente si lo suyo era otra cosa. **No lo era: el tablero de Jurídica ya es una aplicación web.** Lo que queda no es construirla sino modelarla — pedirle el menú arriba, vertical o abajo, darle una referencia visual y decirle que la imite."
+    },
+    {
+      "titulo": "Ejercicio C · El tablero por el entorno de diseño",
+      "duracion": "~10 min",
+      "objetivo": "Separar la construcción del acabado y practicar el paso entre entornos.",
+      "pasos": "Se hizo en vivo con el tablero del área: **pedirle el descargable, bajar el archivo y subirlo al entorno de diseño asistido.** La instrucción es corta y se dictó tal cual: que arregle el tablero con las mejores tendencias de diseño gráfico y de aplicación web, con gráficos en tres dimensiones y animación. _La construcción y el acabado son dos pasos distintos, y el segundo no se pide en el primero._"
+    },
+    {
+      "titulo": "Ejercicio D · Las habilidades y el catálogo legal",
+      "duracion": "~12 min",
+      "objetivo": "Dejar de construir desde cero lo que ya está construido.",
+      "pasos": "Se recorrió el catálogo de habilidades y su sección legal: consentimientos, minutas, seguimiento de cumplimiento, derecho sindical, gobierno corporativo. **Una habilidad ya hecha es más completa que armarla desde cero**, porque llega con sus referencias puestas. Se agregó una en sesión. El catálogo está por categorías — cincuenta y dos— y se puede buscar por términos concretos en lugar de generales."
+    },
+    {
+      "titulo": "Ejercicio E · La diferencia entre una habilidad y un complemento",
+      "duracion": "~8 min",
+      "objetivo": "Saber qué se está instalando.",
+      "pasos": "_Lo formuló el propio puesto y quedó bien dicho:_ **un complemento son varios agentes unidos, un equipo.** Es el circuito completo — trae el conector, la habilidad, el contenido y, a veces, el agente. La habilidad es una pieza; el complemento, el circuito. Se instalaron los de productividad y diseño."
+    },
+    {
+      "titulo": "Ejercicio F · El envío de contratos que no pasaba",
+      "duracion": "~10 min",
+      "objetivo": "Resolver un bloqueo real del proceso del área.",
+      "pasos": "El agente no lograba enviar los contratos a los responsables porque los archivos pesan demasiado, y el área lo traía como un fallo. **No lo era: es un límite técnico.** Se rehízo el circuito — tomar los documentos de la carpeta pública, subirlos a una carpeta en la nube y mandar un correo con el enlace como hipervínculo, no el archivo. _Y de ahí salió lo que más vale de la sesión:_ **en Jurídica y en cualquier área, hacer esto obliga a cambiar procesos.**"
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "DEL TABLERO A LA APLICACIÓN",
+      "titulo": "Jurídica ya tiene la pieza más difícil construida",
+      "descripcion": "El área no parte de cero: tiene dos agentes operando y un tablero que ya es una aplicación web. Lo que falta es acotarle las fuentes y darle el acabado.",
+      "estado": "En construcción",
+      "proximo_paso": "Rehacerlo carpeta por carpeta y pasarlo por el entorno de diseño",
+      "target": "S13"
+    },
+    {
+      "encabezado": "ASUNTOS LEGALES",
+      "titulo": "El tercer agente amplía el alcance más allá de contratación",
+      "descripcion": "Tutelas, peticiones y políticas son hoy trabajo íntegramente humano. El planteamiento del área es apoyar la revisión sin ceder el criterio, que sigue siendo del abogado.",
+      "estado": "Planteado",
+      "proximo_paso": "Montarlo con las habilidades legales del catálogo",
+      "target": "S13"
+    },
+    {
+      "encabezado": "CIRCUITO DE CONTRATOS",
+      "titulo": "El envío por enlace quita un paso manual de cada contrato",
+      "descripcion": "Hoy el documento se adjunta a mano. Con el circuito nuevo, el responsable recibe un enlace y descarga él mismo — y el agente puede hacerlo entero.",
+      "estado": "Diseñado en sesión",
+      "proximo_paso": "Probarlo de punta a punta antes de llevarlo al proceso real",
+      "target": "Antes de la S13"
+    },
+    {
+      "encabezado": "HABILIDADES",
+      "titulo": "El catálogo legal acorta todo lo que viene",
+      "descripcion": "Lo que hasta ahora se construía pieza a pieza ya está publicado y se instala. El área puede además publicar lo suyo: una de las habilidades que apareció en la búsqueda era de ella.",
+      "estado": "Disponible",
+      "proximo_paso": "Instalar las legales que apliquen y probarlas sobre un caso real",
+      "target": "Inmediato"
+    }
+  ],
+  "tareas_intro": "El área llega con los dos agentes operando y con el tablero ya convertido en aplicación web. Lo que queda hasta el cierre no es aprender a construir: es acotar las fuentes, darle acabado y cambiar los dos o tres pasos manuales que hoy frenan lo construido.",
+  "tareas": [
+    {"tarea": "Vaciar el tablero y rehacerlo carpeta por carpeta, acotando qué se necesita de cada una", "responsable": "Lilibeth Costa", "prioridad": "ALTA", "plazo": "Antes de la S13"},
+    {"tarea": "Montar el circuito de envío de contratos por enlace y probarlo completo", "responsable": "Lilibeth Costa", "prioridad": "ALTA", "plazo": "Antes de la S13"},
+    {"tarea": "Pasar el tablero por el entorno de diseño con el descargable", "responsable": "Lilibeth Costa", "prioridad": "ALTA", "plazo": "Antes de la S13"},
+    {"tarea": "Revisar el menú de rutinas y atender la que está señalada con advertencia", "responsable": "Lilibeth Costa", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Programar la hora de apagado y de encendido de los dos agentes", "responsable": "Lilibeth Costa", "prioridad": "MEDIA", "plazo": "Inmediato"},
+    {"tarea": "Instalar las habilidades legales que apliquen y probarlas sobre un caso real", "responsable": "Lilibeth Costa", "prioridad": "MEDIA", "plazo": "Antes de la S13"},
+    {"tarea": "Montar el agente de asuntos legales — tutelas, peticiones y políticas", "responsable": "Lilibeth Costa", "prioridad": "MEDIA", "plazo": "Antes de la S13"},
+    {"tarea": "Agendar las sesiones que quedan, incluidas las grupales con el equipo", "responsable": "Lilibeth Costa", "prioridad": "ALTA", "plazo": "Inmediato"}
+  ],
+  "observaciones": [
+    "**El área llega con los dos agentes operando** —Matías sobre el equipo administrativo y Sofía Lawyer— y con trabajo hecho entre sesiones.",
+    "**El tablero de Jurídica ya es una aplicación web.** Se identificó en sesión, al cerrar el recorrido de ejemplos: _lo que falta no es construirla, es modelarla._",
+    "**Es el mismo tablero, pero con menú y subtableros dentro del menú.** Puede llevar hojas de cálculo en vivo y vistas de correo, y se instala en el teléfono como una aplicación descargada.",
+    "_Decisión del propio puesto:_ **vaciar el tablero y rehacerlo carpeta por carpeta.** Tenía demasiada información porque se habían conectado todas las unidades a la vez, y eso no era eficiente.",
+    "**El envío de contratos no pasaba por el peso de los archivos, y eso no se arregla insistiendo:** es un límite técnico. Se rehízo el circuito para enviar un enlace en vez del archivo.",
+    "**Y ahí está lo más importante de la sesión:** hacer esto obliga a cambiar procesos. _El propio puesto lo reconoció:_ «en realidad todos estos procesos sí deben cambiar».",
+    "**El proceso de Jurídica es prácticamente manual**, y la organización paga un sistema que el área no usa. Queda dicho como hallazgo, no como tarea de esta fase.",
+    "**Apareció una rutina fallando sin que nadie la hubiera mirado:** Matías estaba apagado. _El menú de rutinas marca con una advertencia la que no corre_ — revisarlo es parte del trabajo.",
+    "**Los agentes se pueden detener y programar.** Se le dice al propio agente que se detenga hasta nuevo aviso, o se le fija la hora de apagado al cerrar jornada y la de encendido por la mañana.",
+    "**Una habilidad ya hecha es más completa que construirla desde cero**, porque llega con sus referencias puestas. El catálogo trae cincuenta y dos categorías y una sección legal amplia.",
+    "_Lo formuló el propio puesto:_ **un complemento son varios agentes unidos, un equipo** — el circuito completo, con conector, habilidad y contenido. La habilidad es una pieza de ese circuito.",
+    "**Se puede grabar una habilidad en vez de describirla:** se graba la pantalla haciendo el proceso y queda aprendido, sin tener que escribir el paso a paso.",
+    "**Una de las habilidades que apareció en la búsqueda la había publicado el área.** Lo que se construye aquí puede servirle a otros.",
+    "**La construcción y el acabado son dos pasos distintos.** Se baja el descargable del tablero y se sube al entorno de diseño asistido, que es donde se le pide el acabado visual.",
+    "**Las carpetas se conectan al abrir la conversación, no a mitad de camino** — si ya está empezada, no admite agregarlas después."
+  ],
+  "proxima_sesion": {
+    "sesion": "Sesión 13",
+    "condiciones": "El tablero rehecho con las fuentes acotadas, el circuito de envío de contratos probado y las rutinas revisadas.",
+    "agenda": "Modelamiento de la aplicación web en el entorno de diseño y montaje del agente de asuntos legales con las habilidades del catálogo legal."
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 1 octubre 2026"
+}
