@@ -6,6 +6,52 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## 📊 2 oct · 7:30 a. m. · Termómetro v96 y Mesa v18. Corre la rutina diaria y aparecen dos renumeraciones
+
+**Lo de ayer, verificado contra el calendario, los canales y Dropbox:** de las cuatro sesiones del jueves
+**corrieron dos, se cayó una y se movió una.**
+
+| Hora | Área | Qué pasó |
+|---|---|---|
+| 8:00 | Jurídica | **hecha. Es la S12, no la S13.** Cierra su programa, el área con más sesiones del proyecto |
+| 11:00 | Servicios Sociales | la hora no corrió, sin causa escrita. **Cierra en S10** |
+| 11:00 | Subsidio | **hecha. Es la S8, no la S10** |
+| 14:00 | Comunicaciones | **caída.** La individual de César, se esperó hasta las 2:30. Segunda seguida del área |
+| 15:00 | Sub. Operativa | **movida al lunes 5 a las 3:00.** Reagendamiento, **no es caída** |
+
+**Dos renumeraciones, y las dos venían de leer el calendario en vez del canal.**
+
+- **Jurídica:** el canal rotuló la grabación como *Sesión 12* y el calendario también. El tablero decía S13.
+- **Subsidio:** baja **dos** números. El miércoles 30 se cayeron dos horas suyas el mismo día y el canal
+  publicó el corrimiento completo esa tarde: *jueves → S8, viernes → S9, lunes → S10.* El área
+  **cierra en S10, no en S11**, y el «número repetido» que el tablero señalaba entre jueves y viernes
+  **nunca existió**: era el mismo rótulo del calendario contado dos veces.
+- **Comunicaciones:** con la caída de César, las dos del lunes vuelven a bajar un puesto, a **S11 y S12**.
+  Es la segunda vez en dos días que se corren. El calendario ya las retituló así.
+
+**Cifras que se movieron:** sesiones **103 → 105**; caídas **22 → 23**, con inasistencias **9 → 10**;
+áreas sin fecha **11 → 13**, y de esas dos nuevas ninguna es mala señal: **Jurídica y Servicios Sociales
+terminaron su programa.** Quedan **cinco áreas** con algo agendado: Comunicaciones, Subsidio, Tecnología,
+Contabilidad y Sub. Operativa.
+
+**Las dos horas que no entraron al conteo, y por qué:** la de Sub. Operativa porque se reagendó con el
+mismo número, y la de Servicios Sociales porque **el aviso vino sin motivo escrito** y sin causa no se
+atribuye. Se mantiene en el tablero que la hora no corrió, porque de eso depende la numeración.
+
+**Asistencia: se queda en 92% y ya van tres sesiones sin poder calcular.** IPS S5, cuyo acta no trae la
+tabla de convocados y activos, más **Jurídica S12 y Subsidio S8 de ayer, que todavía no tienen acta.** En
+Dropbox la carpeta de Jurídica Sesion 12 solo tiene la transcripción `.vtt`. Dicho en el tablero: el 92%
+es el acumulado de las que sí tienen acta con sus dos cifras, no de las 105.
+
+**Las fechas siguen congeladas y se verificó antes de publicar:** no entró el 16 ni el 31 de octubre, ni
+las sesiones del 6, el 8 y el 9. Lo único que se tocó del calendario de cierre es la cuenta de días del
+sello, que pasa de tres a dos **dentro del relato que el tablero ya publica**, el del lunes 5. No se
+adelanta ni se insinúa la extensión.
+
+**Sin publicar nada en Slack.** La rutina diaria del Termómetro no escribe en canales.
+
+---
+
 ## 🗓️ 1 oct · 1:20 p. m. · Termómetro v95: la agenda de hoy estaba desactualizada un día entero
 
 **Corrida de la hora, barata y sin publicar en Slack.** Parte A saltada, sin DM, y solo los dos canales con
