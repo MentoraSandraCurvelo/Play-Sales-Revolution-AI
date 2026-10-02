@@ -6,6 +6,45 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## 📁 2 oct · 7:50 a. m. · Revisión de Dropbox: no hay acta del 1 de octubre, y me corrijo en la asistencia
+
+**Lo pidió Sandra:** *«Revisa los documentos están Dropbox y pásame las actas»*.
+
+**El acta más reciente en Dropbox es del 30 de septiembre**, la de IPS S5. **De las sesiones del 1 de
+octubre no hay ninguna acta.** Lo que sí hay en las dos carpetas, cargado ayer a las 6:22 y 6:25 p. m.:
+
+| Carpeta | Qué hay | Qué falta |
+|---|---|---|
+| `5. Juridica/Sesion 12` | informe de asistencia `.csv` + transcripción `.vtt` | **el acta** |
+| `17. Subisidio/Sesion 8` | informe de asistencia `.csv` + transcripción `.vtt` | **el acta** |
+
+**Inventario de actas en Dropbox: 80 PDF**, y la búsqueda dice que hay más. Por área:
+Sub. Admin y Financiera 11 · Jurídica 10 · Comunicaciones 9 · Servicios Sociales 9 · Subsidio 7 ·
+Agencia de Empleo 6 · IPS 5 · Tecnología 5 · Vivienda 4 · Educación 3 · Mercadeo 3 · Cumplimiento 2 ·
+Sub. Operativa 2 · Talento Humano 2 · Tesorería 1 · Gerencia Financiera 1.
+
+### Error propio, corregido en el tablero a la vista
+
+**A las 7:30 publiqué que eran tres las sesiones sin asistencia calculable. Es una.** Busqué el acta, no
+estaba, y di por hecho que sin acta no había con qué calcular. **El informe de Teams sí estaba**, en las
+dos carpetas.
+
+- **Jurídica S12:** 8:00 a 8:55, **1 de 1**, Lilibeth Costa, 52 de 55 minutos.
+- **Subsidio S8:** 10:59 a 11:58, **1 de 1** sobre el invitado del calendario. Aparecen **dos equipos**
+  a nombre de José Luciano Contreras, 51 minutos cada uno; **no se cuentan como dos personas** porque el
+  calendario convocó a uno.
+- Las dos completas → el acumulado pasa de **177 sobre 193 a 179 sobre 195**, y sigue en **92%**.
+- **La única que de verdad no se puede calcular es IPS S5**, cuyo acta no trae la tabla de convocados y
+  activos.
+
+**Regla nueva, anotada para no repetirlo:** *cuando no hay acta, el informe de asistencia de Teams cruzado
+con los invitados del calendario también sirve para calcular.* No se declara una sesión incalculable sin
+mirar antes la carpeta completa.
+
+**Termómetro v97.** La Mesa no se volvió a tocar: su tarjeta ya dice 105 sesiones y 92%.
+
+---
+
 ## 📊 2 oct · 7:30 a. m. · Termómetro v96 y Mesa v18. Corre la rutina diaria y aparecen dos renumeraciones
 
 **Lo de ayer, verificado contra el calendario, los canales y Dropbox:** de las cuatro sesiones del jueves
