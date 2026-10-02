@@ -1,0 +1,221 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SUBSIDIO Y APORTES",
+  "area_completa": "",
+  "sesion_num": 8,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "1 de octubre de 2026",
+  "fecha_corta": "1 octubre 2026",
+  "subtitulo_meta": "Individual de José Luciano Contreras · 1 de octubre de 2026 · 11:00 a. m. · 58 minutos · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Subsidio y Aportes — Comfacesar"],
+    ["Sesión", "N° 8 — Individual de José Luciano Contreras: el tablero del ciclo de expulsión"],
+    ["Fecha", "1 de octubre de 2026"],
+    ["Hora inicio", "11:00 a. m. — Colombia"],
+    ["Duración de la sesión", "58 minutos (10:59 a. m. – 11:58 a. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "José Luciano Contreras — 51 minutos"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "47", "etiqueta": "Empresas a expulsar", "detalle": "Ciclo de septiembre, con su variación frente a agosto"},
+    {"valor": "85", "etiqueta": "Trabajadores activos", "detalle": "Dato que el tablero cruza con los independientes del mismo ciclo"},
+    {"valor": "111", "etiqueta": "Independientes", "detalle": "El tercer bloque de población del ciclo"},
+    {"valor": "1", "etiqueta": "Tarea programada corriendo", "detalle": "Todos los días a las 12:00, probada el mismo día sin errores"},
+    {"valor": "4", "etiqueta": "Días de margen antes del Consejo", "detalle": "La regla quedó definida: el viernes previo al último lunes"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "José Luciano Contreras", "cargo": "Subsidio y Aportes — Comfacesar", "correo": "coordinacionsubsidioyaportes@comfacesar.com", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 8. El área llega con el circuito del ciclo de expulsión ya corriendo solo y con su primer tablero generado, de modo que lo que queda a la vista no es si funciona, sino de qué depende para seguir funcionando y qué hace falta para llevarlo al Consejo Directivo.",
+  "riesgos": [
+    {
+      "titulo": "El circuito depende de que el equipo esté encendido",
+      "nivel": "ALTO",
+      "descripcion": "La tarea corre todos los días a las 12:00, pero **exige que el computador esté encendido y con la sesión de Windows iniciada.** El viernes pasado estaba apagado y el proceso no corrió — se ejecutó al encenderlo. _Es la condición de la que depende todo el circuito_, y hoy no hay nada que avise si un día no se cumple.",
+      "responsable": "José Luciano Contreras / Permanente"
+    },
+    {
+      "titulo": "El tablero compartido no abre sin conexión",
+      "nivel": "ALTO",
+      "descripcion": "_Lo advirtió el propio puesto_, y es la pregunta correcta: el tablero se va a mostrar en el **Consejo Directivo**, y el enlace solo funciona con internet. **Si la sala falla, no hay tablero.** Queda abierto revisar si admite una versión que abra sin conexión; mientras tanto, conviene llevar un respaldo.",
+      "responsable": "Sandra Curvelo / Antes de la S9"
+    },
+    {
+      "titulo": "La regla de la fecha tiene una excepción que hay que vigilar",
+      "nivel": "MEDIO",
+      "descripcion": "La ejecución se programó cuatro días antes del Consejo — **el viernes previo al último lunes del mes.** Pero cuando el mes termina en lunes, como pasó en agosto, la regla literal pondría ese viernes _después_ de la reunión. La excepción está contemplada, y es el tipo de detalle que solo se ve corriendo el proceso sobre meses reales.",
+      "responsable": "José Luciano Contreras / Permanente"
+    },
+    {
+      "titulo": "El histórico está incompleto para varios periodos",
+      "nivel": "MEDIO",
+      "descripcion": "Al recorrer los ciclos, varios meses aparecen sin datos de población. _Y aquí quedó el criterio:_ cuando falte algo, **se le pregunta al propio agente si no lo tiene o si no se le ha subido** — en vez de suponer. Si falta por cargar, se carga.",
+      "responsable": "José Luciano Contreras / Antes de la S9"
+    },
+    {
+      "titulo": "Una serie del gráfico no se estaba mostrando",
+      "nivel": "MEDIO",
+      "descripcion": "La mora presunta figura en los indicadores pero no aparecía en el gráfico de tendencia. _Resuelto como método:_ cuando el problema es visual, **se le manda el pantallazo y se le dice qué se quiso resaltar**, que es la lógica que al sistema le falta.",
+      "responsable": "José Luciano Contreras / Resuelto en sesión"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Aplicar las correcciones anotadas en sesión",
+      "descripcion": "Se recorrió el tablero entero anotando qué cambiar: el encabezado, la firma de quién lo ejecuta, los colores, quitar la fecha de reunión del gráfico y dejar solo el periodo, y retirar la bitácora de ejecuciones. Queda aplicarlas de una pasada.",
+      "responsable": "José Luciano Contreras",
+      "plazo": "Antes de la S9"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Resolver cómo llevar el tablero al Consejo Directivo",
+      "descripcion": "Dejar probado el enlace compartido con el permiso abierto —cualquiera con el enlace— y tener claro qué se hace si la sala no tiene conexión. Se comparte el enlace, nunca el archivo de código.",
+      "responsable": "José Luciano Contreras",
+      "plazo": "Antes del próximo Consejo"
+    },
+    {
+      "num": "03",
+      "nivel": "MEDIO",
+      "titulo": "Completar el histórico que falta",
+      "descripcion": "Preguntarle al agente, ciclo por ciclo, si la información que no muestra es porque no la tiene; subir la que falte para que la tendencia quede completa.",
+      "responsable": "José Luciano Contreras",
+      "plazo": "Antes de la S9"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Sumarle al tablero los cortes que el área ya presenta",
+      "descripcion": "Lo planteó el propio puesto: sectores económicos y el detalle por empresa. Todo lo que hoy se arma aparte para presentar puede entrar en el mismo tablero.",
+      "responsable": "José Luciano Contreras",
+      "plazo": "Antes de la S9"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Pasar a dictar en vez de escribir",
+      "descripcion": "Una diadema con micrófono cambia el ritmo de trabajo con el agente: se le habla como a una persona en lugar de teclear cada instrucción. Es la vía más corta para subir el volumen de modelamiento.",
+      "responsable": "José Luciano Contreras",
+      "plazo": "Inmediato"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Revisión del circuito que ya corre solo",
+      "duracion": "~12 min",
+      "objetivo": "Verificar qué quedó funcionando entre sesiones y de qué depende.",
+      "pasos": "El agente del área dejó **la tarea programada corriendo todos los días a las 12:00**, probada el mismo día y sin errores. Entrega el tablero al final de cada ejecución. _Y reportó por su cuenta las condiciones y la regla de la fecha:_ cuatro días antes del Consejo, el viernes previo al último lunes, con la excepción de los meses que terminan en lunes. **También dejó dicho de qué depende: el equipo encendido y la sesión iniciada.**"
+    },
+    {
+      "titulo": "Ejercicio B · Lectura del tablero del ciclo de septiembre",
+      "duracion": "~18 min",
+      "objetivo": "Leer el resultado con criterio antes de modelarlo.",
+      "pasos": "Se recorrió el ciclo completo: Consejo Directivo del martes 29, listado de expulsión recibido de cobranza el 28 de septiembre y estadísticas de tecnología el mismo día. **47 empresas a expulsar, 85 trabajadores activos y 111 independientes**, con la variación de cada cifra frente a agosto, la mora presunta y el gráfico de tendencia mensual. _El tablero trae además botones por mes para elegir el ciclo_ y la tabla con todos los ciclos y sus archivos."
+    },
+    {
+      "titulo": "Ejercicio C · Anotar antes de corregir",
+      "duracion": "~15 min",
+      "objetivo": "Separar la lectura de la corrección, para no modelar a tientas.",
+      "pasos": "La sesión se trabajó anotando sobre el tablero todo lo que había que cambiar —nombre del encabezado, firma de quién lo ejecuta, colores, la fecha de reunión fuera del gráfico, la bitácora de ejecuciones retirada— y aplicándolo después. **Se corrige sobre la marcha, sin esperar a que termine:** el sistema va leyendo la conversación y actualizando."
+    },
+    {
+      "titulo": "Ejercicio D · Preguntarle al propio sistema",
+      "duracion": "~6 min",
+      "objetivo": "Convertir cada duda en una instrucción en vez de en un supuesto.",
+      "pasos": "Apareció un símbolo de variación que no se entendía. _La indicación fue no explicarlo:_ **preguntárselo al propio agente.** El mismo criterio sirve para los vacíos del histórico —si no lo tiene o si falta subirlo— y para cualquier cosa del resultado que no se entienda. Es lo que convierte el uso en interacción."
+    },
+    {
+      "titulo": "Ejercicio E · Cuando el problema es visual, va el pantallazo",
+      "duracion": "~5 min",
+      "objetivo": "Dar la información que el sistema no tiene.",
+      "pasos": "La mora presunta no aparecía en el gráfico. **Se manda la captura y se dice qué se quiso resaltar** — porque lo que falta no es el dato, es la lógica. Quedó también el tip inverso: _cuando la vista previa no muestra todos los componentes, se pide el enlace de descarga, se baja el archivo y se abre aparte_, que ahí sí sale completo."
+    },
+    {
+      "titulo": "Ejercicio F · Compartir el tablero",
+      "duracion": "~5 min",
+      "objetivo": "Dejarlo listo para llevarlo a una reunión.",
+      "pasos": "Los tableros salen cerrados por protección de la información. **Se abre el candado y se pasa a «cualquiera con el enlace».** Lo que se comparte es el enlace, no el archivo de código. _De ahí salió la pregunta que importa:_ el enlace necesita conexión, y el tablero se va a mostrar en el Consejo Directivo."
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "EL CICLO COMPLETO",
+      "titulo": "El ciclo de expulsión pasó de armarse a mano a entregarse solo",
+      "descripcion": "La tarea corre a diario, recoge lo que llega de cobranza y de tecnología, y deja el tablero con las cifras del ciclo y su variación. El área ya no arma el corte: lo lee.",
+      "estado": "Corriendo",
+      "proximo_paso": "Aplicar las correcciones anotadas y completar el histórico",
+      "target": "S9"
+    },
+    {
+      "encabezado": "EL CONSEJO DIRECTIVO",
+      "titulo": "El corte mensual deja de ser un documento y pasa a ser un tablero",
+      "descripcion": "Lo que hoy se presenta armado aparte puede mostrarse en vivo, con la tendencia y el detalle de cada ciclo a la vista.",
+      "estado": "En preparación",
+      "proximo_paso": "Dejar probado el enlace y resolver el escenario sin conexión",
+      "target": "Antes del próximo Consejo"
+    },
+    {
+      "encabezado": "LA APLICACIÓN DEL ÁREA",
+      "titulo": "Este primer tablero es la base de la aplicación web de Subsidio",
+      "descripcion": "La idea no es un tablero suelto: es que el proceso quede mapeado aquí y que sobre él se construya la aplicación completa del área.",
+      "estado": "Planteado",
+      "proximo_paso": "Sumarle sectores económicos y el detalle por empresa",
+      "target": "S9"
+    },
+    {
+      "encabezado": "VOLUMEN DE TRABAJO",
+      "titulo": "Dictar en vez de escribir multiplica lo que se alcanza por sesión",
+      "descripcion": "Hablarle al agente en lugar de teclear cambia el ritmo. Es el cambio más barato de todos los que quedan pendientes.",
+      "estado": "Disponible",
+      "proximo_paso": "Conseguir una diadema con micrófono",
+      "target": "Inmediato"
+    }
+  ],
+  "tareas_intro": "El área llega con el circuito del ciclo de expulsión corriendo solo y con el primer tablero generado. Lo que queda hasta el cierre no es construirlo: es corregir lo que se anotó, completar lo que falta del histórico y dejarlo listo para mostrarse en el Consejo Directivo.",
+  "tareas": [
+    {"tarea": "Aplicar las correcciones anotadas sobre el tablero", "responsable": "José Luciano Contreras", "prioridad": "ALTA", "plazo": "Antes de la S9"},
+    {"tarea": "Dejar probado el enlace compartido y resolver qué se hace sin conexión", "responsable": "José Luciano Contreras", "prioridad": "ALTA", "plazo": "Antes del próximo Consejo"},
+    {"tarea": "Preguntarle al agente por los periodos sin datos y cargar lo que falte", "responsable": "José Luciano Contreras", "prioridad": "ALTA", "plazo": "Antes de la S9"},
+    {"tarea": "Verificar cada mañana que el equipo quedó encendido y la tarea corrió", "responsable": "José Luciano Contreras", "prioridad": "ALTA", "plazo": "Permanente"},
+    {"tarea": "Sumarle al tablero los sectores económicos y el detalle por empresa", "responsable": "José Luciano Contreras", "prioridad": "MEDIA", "plazo": "Antes de la S9"},
+    {"tarea": "Conseguir una diadema con micrófono y pasar a dictar", "responsable": "José Luciano Contreras", "prioridad": "MEDIA", "plazo": "Inmediato"},
+    {"tarea": "Agendar las sesiones que quedan para alcanzar a modelar el tablero", "responsable": "José Luciano Contreras", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Revisar si el tablero admite una versión que abra sin conexión", "responsable": "Sandra Curvelo", "prioridad": "MEDIA", "plazo": "Antes de la S9"}
+  ],
+  "observaciones": [
+    "**El circuito del ciclo de expulsión ya corre solo.** Tarea programada todos los días a las 12:00, probada el mismo día de la sesión y sin errores.",
+    "**El agente dejó documentada su propia regla de fecha:** cuatro días antes del Consejo, el viernes previo al último lunes del mes — _con la excepción de los meses que terminan en lunes_, donde la regla literal caería después de la reunión.",
+    "**Y advirtió de qué depende:** el computador tiene que estar encendido y con la sesión de Windows iniciada. El viernes estaba apagado y el proceso corrió al encenderlo.",
+    "**El margen hasta el martes existe por una razón real:** cobranza a veces envía listados actualizados después del primer envío.",
+    "**El ciclo de septiembre:** Consejo del martes 29, listado de expulsión y estadísticas de tecnología recibidos el 28. _47 empresas a expulsar, 85 trabajadores activos, 111 independientes_, cada cifra con su variación frente a agosto.",
+    "**El tablero trae botones por mes** para recorrer los ciclos, el gráfico de tendencia, la tabla de todos los ciclos y los archivos descargados en cada uno.",
+    "_Criterio que quedó dicho y vale para todo:_ **cuando algo del resultado no se entiende, se le pregunta al propio agente.** Así se resolvió el símbolo de variación.",
+    "**Cuando falta información, se pregunta si no la tiene o si no se le ha subido** — en vez de suponer que el sistema falló.",
+    "**Si el problema es visual, va el pantallazo y se dice qué se quiso resaltar.** Lo que le falta al sistema no es el dato, es la lógica.",
+    "**Se corrige sobre la marcha, sin esperar a que termine:** el sistema va leyendo la conversación y actualizando lo que ya escribió.",
+    "_Tip de trabajo:_ **cuando la vista previa no muestra todos los componentes, se pide el enlace de descarga y se abre el archivo aparte** — ahí sale completo.",
+    "**Los tableros salen cerrados por protección de la información.** Se abre el candado y se pasa a «cualquiera con el enlace»; lo que se comparte es el enlace, no el archivo de código.",
+    "**El tablero compartido necesita conexión, y se va a mostrar en el Consejo Directivo.** _Lo advirtió el propio puesto_ y queda como punto abierto.",
+    "**El alcance lo amplió el área, no la mentoría:** sectores económicos y detalle por empresa, todo lo que hoy se arma aparte para presentar.",
+    "**Dictar en vez de escribir sube la productividad del modelamiento** — se le habla al agente como a una persona en lugar de teclear cada instrucción."
+  ],
+  "proxima_sesion": {
+    "sesion": "Sesión 9",
+    "condiciones": [
+      "Las correcciones anotadas ya aplicadas sobre el tablero",
+      "El histórico completo, con los periodos que faltaban cargados",
+      "El enlace compartido probado tal como se verá en el Consejo"
+    ],
+    "agenda": [
+      "Modelamiento del tablero en el entorno de diseño asistido",
+      "Los sectores económicos y el detalle por empresa dentro del mismo tablero",
+      "El paso del tablero a la aplicación web del área"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 1 octubre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
