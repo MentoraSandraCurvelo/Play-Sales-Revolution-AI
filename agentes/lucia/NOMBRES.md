@@ -69,6 +69,7 @@ nunca hicieron su S1, y Cumplimiento canceló su S2 sin reagendar.
 | Área que representan | Persona | Área a la que pertenece | Correo |
 |---|---|---|---|
 | Crédito | Cindy Rodríguez | Subsidio y Aportes | atencion_reclamos@comfacesar.com |
+| Subsidio y Aportes | José Luciano Contreras | Subsidio y Aportes | coordinacionsubsidioyaportes@comfacesar.com |
 | Auditoría Interna | Aura Sánchez | Cumplimiento | profesionalcumplimiento@comfacesar.com |
 | Auditoría Interna | Eliana Lagos | Agencia de Empleo | recobrosubsidioaldesempleo@comfacesar.com |
 | Cumplimiento | Ana María Meza | Agencia de Empleo | orientadorlaboral@comfacesar.com |
@@ -179,3 +180,15 @@ el acta.*
 
 *El perfil de `@rectoriacolegio` no tiene nombre cargado en Slack; «Óscar Cotes» sale de cómo
 firma él mismo en el canal `#educacion`.*
+
+## José Luciano Contreras — Subsidio y Aportes
+
+**Entró al listado el 2 de octubre**, después de la S8 del 1 de octubre. Estaba trabajando
+en el programa desde antes y no figuraba aquí; por eso la S8 estuvo a punto de frenarse.
+
+- **La forma que se usa es `José Luciano Contreras`** — es la completa del informe de
+  asistencia de Teams. El mismo informe lo trae también como «Jose Contreras», y en sesión
+  se le dice **José** y **Luciano** indistintamente. _Se escribe siempre la forma completa._
+- Correo: `coordinacionsubsidioyaportes@comfacesar.com` · canal `#subsidio`.
+- **Su equipo son Cindy Rodríguez, Avelino y Carlos.** Presenta al **Consejo Directivo**.
+- Carlos estuvo de vacaciones a comienzos de octubre, unas dos semanas más.

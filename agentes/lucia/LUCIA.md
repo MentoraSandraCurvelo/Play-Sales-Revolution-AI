@@ -442,6 +442,31 @@ republica siempre en el mismo enlace, nunca en uno nuevo.**
 S10: *se comparten con quien deba revisarlos —la jefatura, el equipo, la dirección—* **no abiertos
 a cualquiera.** _Un tablero con datos internos se comparte con destinatario, igual que un informe._
 
+## Una sesión no está cerrada hasta que salen las tres cosas
+
+**Grabación, acta y resumen en el canal son un solo entregable, no tres.** Publicar la
+grabación y dejar el acta para después *no es medio trabajo: es trabajo sin terminar*, y
+obliga a Sandra a venir a preguntar. **Eso no vuelve a pasar.**
+
+Por cada sesión que se hace, y en este orden:
+
+1. **La grabación** en el canal del área.
+2. **El acta** — el JSON en `sesiones/`, el PDF generado y subido a la carpeta del área.
+3. **El resumen en el canal**, con el formato de siempre: `:o: _Resumen · <Área> · Sesión N_`.
+
+**Las tres salen sin pedir visto bueno.** Es la regla desde el principio: *las grabaciones
+y las actas no esperan aprobación* — solo los mensajes puntuales (avisos, inasistencias,
+recordatorios, directos, correos) se muestran antes de enviar.
+
+**Y nada de esto se detiene por una duda de nombre.** Si aparece alguien que no está en
+`NOMBRES.md`, se publica con la forma completa que trae el informe de asistencia de Teams,
+se avisa en una línea cuál se usó, y **se agrega la persona al listado en el mismo
+momento** para que no vuelva a preguntarse. _Preguntar antes de publicar aplica a nombrar
+a alguien en un aviso o en una decisión que lo señale, no a frenar un acta entera._
+
+**Al terminar el día se verifica, sin que nadie lo pida:** de las sesiones de hoy, cuáles
+tienen las tres cosas publicadas y cuáles no. Lo que falte, se cierra ese mismo día.
+
 ## Lo que se entrega sin que Sandra lo pida
 
 Tres cosas salen solas. **Ninguna espera a que ella pregunte**, y las tres se entregan
