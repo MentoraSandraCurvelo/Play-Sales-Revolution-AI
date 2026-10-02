@@ -11,15 +11,17 @@ baja aquí ya no depende de Slack.
 | `raw/` | El volcado crudo de cada canal, tal como lo devuelve Slack. No se edita a mano. |
 | `datos/archivo.json` | Los mensajes ya normalizados: autor, fecha, texto, adjuntos, hilos, reacciones. |
 | `fijados.json` | **Este sí lo edita Sandra.** Las carpetas y enlaces de cada canal. |
-| `app/archivo.html` | La aplicación. |
-| `app/datos.js` | Mensajes + actas + fijados, en un solo paquete que la aplicación carga. |
+| `plantilla_v2/` | **La aplicación.** Viene de diseño y es fija — salvo `data/archivo.js`. |
+| `plantilla_v2/data/archivo.js` | Mensajes + actas + fijados. **Es lo único que cambia cada mes.** |
+| `entregable/` | El HTML único que se entrega. No se versiona. |
 
 ## Cómo se actualiza — tres pasos
 
 ```bash
 python3 extraer.py     # 1 · recoge los canales leídos y los deja en raw/
 python3 parsear.py     # 2 · normaliza raw/ → datos/archivo.json
-python3 construir.py   # 3 · junta mensajes + actas + fijados → app/datos.js
+python3 construir.py   # 3 · junta mensajes + actas + fijados → plantilla_v2/data/archivo.js
+python3 empaquetar.py  # 4 · un solo HTML con todo dentro → entregable/
 ```
 
 El paso 3 lee las actas de `agentes/lucia/sesiones/*.json`, así que **cada acta nueva
@@ -44,6 +46,35 @@ entra sola**: no hay que copiar nada.
 ```
 
 Se añaden las carpetas que hagan falta y se corre `python3 construir.py`.
+
+## La plantilla y las dos versiones del entregable
+
+La aplicación la mantiene diseño y llega en una carpeta (`plantilla_v2/`, con su propio
+`README.md`). El agente **no la edita**: solo reescribe `data/archivo.js`.
+
+`empaquetar.py` la convierte en un HTML único que se abre con doble clic. Tiene dos
+modos, y la diferencia importa:
+
+```bash
+python3 empaquetar.py                  # ~2 MB · necesita internet
+python3 empaquetar.py --sin-internet    # ~6 MB · se abre sin conexión
+```
+
+**La versión normal no se abre sin internet.** No es por las fuentes: el runtime de la
+plantilla descarga *React, React DOM y Babel* de `unpkg.com` cada vez que se abre el
+archivo, y sin eso la página queda en negro. `--sin-internet` mete esas tres librerías
+y three.js dentro del HTML, usando el gancho `window.__resources` que el propio runtime
+trae previsto. Antes hay que correr `traer-librerias.py` una vez, que las baja de npm a
+`plantilla_v2/vendor/` (esa carpeta no se versiona).
+
+> **Para el cliente va la versión `--sin-internet`.** Este archivo tiene que seguir
+> abriendo cuando Slack ya haya borrado el espacio; depender de que tres CDN sigan en
+> pie —y de que la red de Comfacesar no los bloquee— es exactamente lo que el archivo
+> viene a evitar.
+
+Cambio hecho sobre la plantilla, uno solo: `hero3D` en `lib/iam.js` queda dentro de un
+`try`. Sin WebGL —equipo corporativo bloqueado, escritorio remoto— la excepción tumbaba
+la página entera y no solo la escena del hero.
 
 ## Cadencia
 

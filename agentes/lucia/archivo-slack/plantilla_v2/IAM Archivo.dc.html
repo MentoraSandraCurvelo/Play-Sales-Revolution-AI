@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>IAM™ Intelligence · Archivo Comfacesar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&amp;family=Geist+Mono:wght@400;500&amp;display=swap">
+<script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+<script src="lib/iam.js"></script>
+<script src="data/archivo.js"></script>
+<style>
+html,body{margin:0;height:100%;background:#060607;}
+*{box-sizing:border-box;}
+a{color:#FF5A55;text-decoration:none;}
+a:hover{color:#C00000;}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;text-align:left;}
+::selection{background:rgba(192,0,0,.35);color:#fff;}
+[data-tema="claro"]{--bg:#F5F5F6;--bg2:#FFFFFF;--card:#FFFFFF;--card2:rgba(0,0,0,.045);--line:rgba(0,0,0,.08);--line2:rgba(0,0,0,.15);--ink:#0B0B0C;--ink2:#46464C;--ink3:#76767C;--redt:#C00000;--redsoft:rgba(192,0,0,.08);--redline:rgba(192,0,0,.3);--glass:rgba(255,255,255,.8);--shadow:0 24px 60px rgba(0,0,0,.12);--dot:rgba(0,0,0,.07);}
+@keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes latido{0%,100%{box-shadow:0 0 0 0 rgba(255,60,60,.6)}50%{box-shadow:0 0 0 6px rgba(255,60,60,0)}}
+@keyframes trazo{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes crece{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes creceY{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@keyframes brillo{from{background-position:200% 0}to{background-position:-200% 0}}
+@keyframes giro{to{transform:rotate(360deg)}}
+@keyframes pop{from{opacity:0;transform:scale(.96) translateY(-8px)}to{opacity:1;transform:none}}
+</style>
+</helmet>
+
+<div ref="{{ rootRef }}" data-tema="{{ tema }}" onMouseMove="{{ onMove }}" style="--bg:#060607;--bg2:#0C0C0E;--card:rgba(255,255,255,.035);--card2:rgba(255,255,255,.06);--line:rgba(255,255,255,.08);--line2:rgba(255,255,255,.15);--ink:#F5F5F7;--ink2:#A9A9AF;--ink3:#7A7A82;--red:#C00000;--redt:#FF5A55;--redsoft:rgba(192,0,0,.17);--redline:rgba(255,90,85,.35);--glass:rgba(12,12,14,.72);--shadow:0 30px 80px rgba(0,0,0,.6);--dot:rgba(255,255,255,.05);--mx:50%;--my:30%;position:relative;height:100vh;display:grid;grid-template-columns:{{ cols }};background:var(--bg);color:var(--ink);font-family:Geist,system-ui,sans-serif;font-size:14.5px;line-height:1.5;letter-spacing:-.011em;-webkit-font-smoothing:antialiased;overflow:hidden;transition:background .4s">
+
+  <div style="position:absolute;inset:0;pointer-events:none;background:radial-gradient(700px circle at var(--mx) var(--my),rgba(192,0,0,.10),transparent 60%);z-index:0"></div>
+  <div style="position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(var(--dot) 1px,transparent 1px);background-size:22px 22px;z-index:0;mask-image:linear-gradient(180deg,#000,transparent 70%);-webkit-mask-image:linear-gradient(180deg,#000,transparent 70%)"></div>
+
+  <sc-if value="{{ loading }}" hint-placeholder-val="{{ true }}">
+    <div style="position:fixed;inset:0;display:grid;place-items:center;z-index:50;background:#060607">
+      <div style="display:flex;flex-direction:column;align-items:center;gap:18px">
+        <div style="width:54px;height:54px;border-radius:50%;border:4px solid rgba(192,0,0,.25);border-top-color:#C00000;animation:giro 1s linear infinite"></div>
+        <div style="font:500 12px Geist Mono,monospace;letter-spacing:.14em;text-transform:uppercase;color:#8a8a90">Cargando el archivo IAM™</div>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ narrowOpen }}" hint-placeholder-val="{{ false }}">
+    <div onClick="{{ closeRail }}" style="position:fixed;inset:0;background:rgba(0,0,0,.5);backdrop-filter:blur(4px);z-index:30;animation:fade .2s"></div>
+  </sc-if>
+
+  <aside style="position:{{ railPos }};transform:{{ railX }};top:0;left:0;bottom:0;width:272px;z-index:31;display:flex;flex-direction:column;min-height:0;height:100%;background:var(--glass);backdrop-filter:saturate(160%) blur(28px);-webkit-backdrop-filter:saturate(160%) blur(28px);border-right:1px solid var(--line);transition:transform .45s cubic-bezier(.32,.72,0,1)">
+    <div style="display:flex;align-items:center;gap:12px;padding:20px 16px 14px">
+      <div style="position:relative;width:34px;height:34px;border-radius:11px;background:#0A0A0A;display:grid;place-items:center;box-shadow:0 0 0 1px rgba(255,255,255,.08),0 8px 24px rgba(192,0,0,.35);flex:none">
+        <span style="width:16px;height:16px;border-radius:50%;border:3.5px solid #C00000;box-shadow:0 0 12px rgba(255,40,40,.7)"></span>
+      </div>
+      <div style="min-width:0;flex:1">
+        <div style="font-weight:700;font-size:14.5px;letter-spacing:-.02em;line-height:1.2">IAM™ Intelligence</div>
+        <div style="font:500 10px Geist Mono,monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--ink3);margin-top:3px">Archivo · Comfacesar</div>
+      </div>
+      <button onClick="{{ toggleTema }}" title="Claro / oscuro" style="width:30px;height:30px;border-radius:9px;display:grid;place-items:center;color:var(--ink2);border:1px solid var(--line);font-size:13px" style-hover="background:var(--card2);color:var(--ink)">{{ temaIc }}</button>
+    </div>
+    <button onClick="{{ openPal }}" style="margin:0 12px 10px;display:flex;align-items:center;gap:9px;padding:9px 11px;border-radius:11px;background:var(--card2);border:1px solid var(--line);color:var(--ink3);font-size:13px;transition:border-color .2s" style-hover="border-color:var(--redline);color:var(--ink2)">
+      <span style="font-size:14px">⌕</span><span style="flex:1">Buscar en el archivo</span>
+      <span style="font:500 10.5px Geist Mono,monospace;padding:2px 6px;border-radius:6px;background:var(--bg2);border:1px solid var(--line)">⌘K</span>
+    </button>
+    <nav style="flex:1;min-height:0;overflow-y:auto;padding:4px 10px 16px;scrollbar-width:thin">
+      <div style="display:flex;flex-direction:column;gap:2px">
+        <sc-for list="{{ nav }}" as="it" hint-placeholder-count="6">
+          <button onClick="{{ it.go }}" style="position:relative;display:flex;align-items:center;gap:11px;padding:8px 10px;border-radius:10px;background:{{ it.bg }};color:{{ it.color }};font-size:13.5px;font-weight:500;transition:background .2s,color .2s" style-hover="background:var(--card2);color:var(--ink)">
+            <span style="width:18px;text-align:center;font-size:13px;opacity:.9">{{ it.ic }}</span>
+            <span style="flex:1">{{ it.label }}</span>
+            <span style="font:500 11px Geist Mono,monospace;color:var(--ink3)">{{ it.n }}</span>
+          </button>
+        </sc-for>
+      </div>
+      <div style="display:flex;align-items:center;justify-content:space-between;padding:20px 10px 8px;font:600 10px Geist Mono,monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3)"><span>Canales</span><span>{{ nCanales }}</span></div>
+      <div style="display:flex;flex-direction:column;gap:1px">
+        <sc-for list="{{ chans }}" as="ch" hint-placeholder-count="10">
+          <button onClick="{{ ch.go }}" style="display:flex;align-items:center;gap:10px;padding:7px 10px;border-radius:10px;background:{{ ch.bg }};color:{{ ch.color }};font-size:13.5px;transition:background .2s" style-hover="background:var(--card2);color:var(--ink)">
+            <span style="color:{{ ch.hash }};font-weight:600;width:12px">#</span>
+            <span style="flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ ch.nombre }}</span>
+            <svg width="40" height="14" viewBox="0 0 40 14" style="flex:none;overflow:visible"><polyline points="{{ ch.spark }}" fill="none" stroke="#C00000" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity=".85"></polyline></svg>
+            <span style="font:500 10.5px Geist Mono,monospace;color:var(--ink3);width:22px;text-align:right">{{ ch.n }}</span>
+          </button>
+        </sc-for>
+      </div>
+    </nav>
+    <div style="padding:14px 18px 18px;border-top:1px solid var(--line);font-size:12px;color:var(--ink3);line-height:1.5">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px"><span style="width:7px;height:7px;border-radius:50%;background:#FF3B30;animation:latido 2s infinite"></span><span style="color:var(--ink2);font-weight:600">{{ totalMsg }} mensajes guardados</span></div>
+      <div>4 ago – 30 sep 2026 · IAM™Team</div>
+    </div>
+  </aside>
+
+  <main style="position:relative;z-index:1;display:flex;flex-direction:column;min-width:0;min-height:0;height:100vh">
+    <header style="flex:none;display:flex;align-items:center;gap:12px;height:56px;padding:0 {{ padX }};border-bottom:1px solid var(--line);background:var(--glass);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)">
+      <sc-if value="{{ narrow }}" hint-placeholder-val="{{ false }}">
+        <button onClick="{{ openRail }}" style="width:34px;height:34px;border-radius:10px;border:1px solid var(--line);display:grid;place-items:center">☰</button>
+      </sc-if>
+      <div style="display:flex;align-items:center;gap:8px;font-size:13px;color:var(--ink3);min-width:0">
+        <button onClick="{{ goHome }}" style="color:var(--ink3)" style-hover="color:var(--ink)">IAM™</button>
+        <span>/</span>
+        <span style="color:var(--ink);font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ crumb }}</span>
+      </div>
+      <div style="flex:1"></div>
+      <div style="display:flex;align-items:center;gap:8px;padding:5px 11px;border-radius:999px;border:1px solid var(--line);font:500 11px Geist Mono,monospace;color:var(--ink2);letter-spacing:.04em">
+        <span style="width:6px;height:6px;border-radius:50%;background:#FF3B30;animation:latido 2s infinite"></span>EN VIVO · 9 SEMANAS
+      </div>
+      <button onClick="{{ openPal }}" style="width:34px;height:34px;border-radius:10px;border:1px solid var(--line);display:grid;place-items:center;color:var(--ink2)" style-hover="border-color:var(--redline);color:var(--ink)">⌕</button>
+    </header>
+
+    <div ref="{{ bodyRef }}" style="flex:1;min-height:0;overflow-y:auto;overflow-x:hidden;scrollbar-width:thin">
+      <div style="max-width:1320px;margin:0 auto;padding:{{ pad }}">
+
+<!-- ═════════ PORTADA ═════════ -->
+<sc-if value="{{ vPortada }}" hint-placeholder-val="{{ false }}">
+  <div style="display:grid;grid-template-columns:{{ bento }};gap:14px">
+
+    <section style="grid-column:{{ sp8 }};position:relative;min-height:440px;border-radius:26px;overflow:hidden;background:#050505;border:1px solid rgba(255,255,255,.08);color:#fff;animation:up .7s both">
+      <canvas ref="{{ heroRef }}" style="position:absolute;inset:0;width:100%;height:100%;display:block"></canvas>
+      <div style="position:absolute;inset:0;pointer-events:none;background:radial-gradient(120% 80% at 0% 100%,rgba(5,5,5,.95),rgba(5,5,5,.35) 50%,transparent 75%)"></div>
+      <div style="position:relative;pointer-events:none;display:flex;flex-direction:column;justify-content:space-between;height:100%;min-height:440px;padding:28px 30px">
+        <div style="display:flex;align-items:center;gap:10px;font:500 11px Geist Mono,monospace;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.7)">
+          <span style="width:12px;height:12px;border-radius:50%;border:3px solid #C00000;box-shadow:0 0 10px #ff2a2a"></span>IAM™ Intelligence · Comfacesar
+        </div>
+        <div style="max-width:560px">
+          <h1 style="margin:0;font-size:clamp(38px,5.4vw,68px);line-height:.98;font-weight:700;letter-spacing:-.045em;text-wrap:balance">El archivo <span style="background:linear-gradient(90deg,#fff 0%,#FF3B30 25%,#fff 50%,#FF3B30 75%,#fff 100%);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:brillo 8s linear infinite">vivo</span> del programa</h1>
+          <p style="margin:16px 0 0;max-width:440px;font-size:15.5px;line-height:1.55;color:rgba(255,255,255,.72);text-wrap:pretty">Nueve semanas de trabajo con dieciocho áreas, guardadas fuera de Slack. Aquí no caducan a los noventa días.</p>
+          <div style="margin-top:18px;display:flex;align-items:center;gap:8px;font:500 11px Geist Mono,monospace;color:rgba(255,255,255,.55);letter-spacing:.06em">
+            <span style="padding:4px 8px;border-radius:6px;border:1px solid rgba(255,255,255,.18)">ARRASTRA</span><span>cada satélite es un área · haz clic para entrar</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div style="grid-column:{{ sp4 }};display:grid;grid-template-columns:{{ kpiCols }};gap:14px">
+      <sc-for list="{{ kpis }}" as="k" hint-placeholder-count="4">
+        <div onMouseMove="{{ tilt }}" onMouseLeave="{{ untilt }}" style="--x:50%;--y:50%;position:relative;padding:20px 18px;border-radius:22px;background:radial-gradient(260px circle at var(--x) var(--y),rgba(192,0,0,.16),transparent 60%),var(--card);border:1px solid var(--line);display:flex;flex-direction:column;justify-content:space-between;min-height:150px;transition:transform .25s cubic-bezier(.32,.72,0,1),border-color .25s;animation:up .7s both;animation-delay:{{ k.delay }}" style-hover="border-color:var(--redline)">
+          <div style="display:flex;align-items:center;justify-content:space-between">
+            <span style="font:500 10.5px Geist Mono,monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--ink3)">{{ k.l }}</span>
+            <span style="width:26px;height:26px;border-radius:8px;display:grid;place-items:center;background:var(--redsoft);color:var(--redt);font-size:12px">{{ k.ic }}</span>
+          </div>
+          <div>
+            <div style="font-size:40px;font-weight:700;letter-spacing:-.045em;line-height:1">{{ k.el }}</div>
+            <div style="margin-top:6px;font-size:12px;color:var(--ink3)">{{ k.s }}</div>
+          </div>
+        </div>
+      </sc-for>
+    </div>
+
+    <div style="grid-column:{{ sp12 }};position:relative;overflow:hidden;border-radius:16px;border:1px solid var(--line);background:var(--card);padding:12px 0;animation:up .7s .15s both;mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)">
+      <div style="display:flex;gap:34px;width:max-content;animation:marquee 90s linear infinite">
+        <sc-for list="{{ ticker }}" as="m" hint-placeholder-count="8">
+          <div style="display:flex;align-items:center;gap:10px;white-space:nowrap;font-size:13px">
+            <span style="width:6px;height:6px;border-radius:50%;background:#C00000"></span>
+            <span style="font-weight:600">{{ m.autor }}</span>
+            <span style="font:500 11px Geist Mono,monospace;color:var(--redt)">#{{ m.canal }}</span>
+            <span style="color:var(--ink2)">{{ m.txt }}</span>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+
+    <section style="grid-column:{{ sp8 }};border-radius:24px;background:var(--card);border:1px solid var(--line);padding:24px 24px 18px;animation:up .7s .2s both">
+      <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:10px 16px;margin-bottom:18px">
+        <h3 style="margin:0;font-size:17px;font-weight:650;letter-spacing:-.02em">Pulso del programa</h3>
+        <span style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--ink3)"><span style="width:14px;height:3px;border-radius:2px;background:#C00000"></span>mensajes</span>
+        <span style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--ink3)"><span style="width:8px;height:8px;border-radius:2px;background:var(--ink2)"></span>actas</span>
+        <span style="flex:1"></span>
+        <span style="font-size:12.5px;color:var(--ink3)">pico la semana del <b style="color:var(--ink)">{{ pulso.pico }}</b></span>
+      </div>
+      <div style="position:relative;height:230px">
+        <svg viewBox="0 0 900 230" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%;overflow:visible">
+          <defs>
+            <linearGradient id="gArea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C00000" stop-opacity=".45"></stop><stop offset="1" stop-color="#C00000" stop-opacity="0"></stop></linearGradient>
+          </defs>
+          <sc-for list="{{ pulso.grid }}" as="g" hint-placeholder-count="4">
+            <line x1="0" x2="900" y1="{{ g.y }}" y2="{{ g.y }}" stroke="var(--line)" stroke-dasharray="3 5" vector-effect="non-scaling-stroke"></line>
+          </sc-for>
+          <sc-for list="{{ pulso.bars }}" as="b" hint-placeholder-count="9">
+            <rect x="{{ b.x }}" y="{{ b.y }}" width="16" height="{{ b.h }}" rx="3" fill="var(--ink3)" opacity=".55" style="transform-origin:center bottom;transform-box:fill-box;animation:creceY .9s cubic-bezier(.32,.72,0,1) both;animation-delay:{{ b.delay }}"></rect>
+          </sc-for>
+          <path d="{{ pulso.area }}" fill="url(#gArea)" style="animation:fade 1.2s .3s both"></path>
+          <path d="{{ pulso.line }}" fill="none" stroke="#E01010" stroke-width="2.5" vector-effect="non-scaling-stroke" pathLength="1" stroke-dasharray="1" style="animation:trazo 1.6s cubic-bezier(.32,.72,0,1) both"></path>
+        </svg>
+        <sc-for list="{{ pulso.dots }}" as="d" hint-placeholder-count="9">
+          <div onMouseEnter="{{ d.enter }}" onMouseLeave="{{ hideTip }}" style="position:absolute;left:{{ d.zl }};width:{{ d.zw }};top:0;bottom:0;display:flex;justify-content:center;cursor:crosshair" style-hover="background:linear-gradient(180deg,transparent,var(--redsoft))">
+            <span style="position:absolute;top:{{ d.top }};left:50%;width:11px;height:11px;margin:-5.5px 0 0 -5.5px;border-radius:50%;background:var(--bg);border:2.5px solid #E01010;box-shadow:0 0 12px rgba(224,16,16,.6)"></span>
+          </div>
+        </sc-for>
+      </div>
+      <div style="display:flex;justify-content:space-between;margin-top:10px;font:500 10.5px Geist Mono,monospace;color:var(--ink3)">
+        <sc-for list="{{ pulso.labels }}" as="l" hint-placeholder-count="9"><span>{{ l.t }}</span></sc-for>
+      </div>
+    </section>
+
+    <section style="grid-column:{{ sp4 }};border-radius:24px;background:var(--card);border:1px solid var(--line);padding:24px;display:flex;flex-direction:column;animation:up .7s .25s both">
+      <h3 style="margin:0 0 4px;font-size:17px;font-weight:650;letter-spacing:-.02em">Actas por fase</h3>
+      <div style="font-size:12.5px;color:var(--ink3)">El recorrido metodológico IAM™</div>
+      <div style="position:relative;width:190px;height:190px;margin:18px auto 16px">
+        <svg viewBox="0 0 200 200" style="width:100%;height:100%;transform:rotate(-90deg)">
+          <circle cx="100" cy="100" r="76" fill="none" stroke="var(--card2)" stroke-width="20"></circle>
+          <sc-for list="{{ fases }}" as="f" hint-placeholder-count="4">
+            <circle cx="100" cy="100" r="76" fill="none" stroke-width="20" stroke-dasharray="{{ f.dash }}" stroke-dashoffset="{{ f.off }}" style="stroke:{{ f.col }};animation:fade .8s both;animation-delay:{{ f.delay }}"></circle>
+          </sc-for>
+        </svg>
+        <div style="position:absolute;inset:0;display:grid;place-items:center;text-align:center">
+          <div><div style="font-size:40px;font-weight:700;letter-spacing:-.04em;line-height:1">{{ totActas }}</div><div style="font:500 10px Geist Mono,monospace;letter-spacing:.12em;color:var(--ink3);margin-top:4px">ACTAS</div></div>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:8px;margin-top:auto">
+        <sc-for list="{{ fases }}" as="f" hint-placeholder-count="4">
+          <div style="display:flex;align-items:center;gap:10px;font-size:13px">
+            <span style="width:10px;height:10px;border-radius:3px;background:{{ f.col }};flex:none"></span>
+            <span style="flex:1;color:var(--ink2)">{{ f.label }}</span>
+            <span style="font:600 12px Geist Mono,monospace">{{ f.n }}</span>
+          </div>
+        </sc-for>
+      </div>
+    </section>
+
+    <section style="grid-column:{{ sp7 }};border-radius:24px;background:var(--card);border:1px solid var(--line);padding:24px;animation:up .7s .3s both;min-width:0">
+      <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:16px">
+        <h3 style="margin:0;font-size:17px;font-weight:650;letter-spacing:-.02em">Mapa de calor</h3>
+        <span style="font-size:12.5px;color:var(--ink3)">actividad por área y semana</span>
+      </div>
+      <div style="display:grid;grid-template-columns:minmax(90px,150px) repeat(9,minmax(0,1fr));gap:4px;align-items:center">
+        <span></span>
+        <sc-for list="{{ pulso.labels }}" as="l" hint-placeholder-count="9"><span style="font:500 9.5px Geist Mono,monospace;color:var(--ink3);text-align:center;white-space:nowrap;overflow:hidden">{{ l.s }}</span></sc-for>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:4px;margin-top:6px">
+        <sc-for list="{{ heat }}" as="r" hint-placeholder-count="10">
+          <div style="display:grid;grid-template-columns:minmax(90px,150px) repeat(9,minmax(0,1fr));gap:4px;align-items:center">
+            <button onClick="{{ r.go }}" style="font-size:12px;color:var(--ink2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-right:6px" style-hover="color:var(--redt)">{{ r.nombre }}</button>
+            <sc-for list="{{ r.cells }}" as="c" hint-placeholder-count="9">
+              <div onMouseEnter="{{ c.enter }}" onMouseLeave="{{ hideTip }}" style="height:20px;border-radius:5px;background:{{ c.bg }};transition:transform .15s;animation:fade .6s both;animation-delay:{{ c.delay }}" style-hover="transform:scale(1.25);box-shadow:0 0 0 2px var(--bg),0 0 0 3px #FF3B30"></div>
+            </sc-for>
+          </div>
+        </sc-for>
+      </div>
+    </section>
+
+    <section style="grid-column:{{ sp5 }};border-radius:24px;background:var(--card);border:1px solid var(--line);padding:24px;animation:up .7s .35s both;min-width:0">
+      <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:16px">
+        <h3 style="margin:0;font-size:17px;font-weight:650;letter-spacing:-.02em">Quién más estuvo en sala</h3>
+        <span style="flex:1"></span>
+        <button onClick="{{ goAsis }}" style="font-size:12.5px;color:var(--redt)">Ver todo →</button>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <sc-for list="{{ top }}" as="p" hint-placeholder-count="7">
+          <button onClick="{{ p.go }}" style="display:grid;grid-template-columns:22px 30px minmax(0,1fr) auto;align-items:center;gap:10px" style-hover="opacity:.8">
+            <span style="font:600 11px Geist Mono,monospace;color:var(--ink3)">{{ p.rank }}</span>
+            <span style="width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:{{ p.col }};color:#fff;font-size:11px;font-weight:650">{{ p.ini }}</span>
+            <div style="min-width:0">
+              <div style="display:flex;justify-content:space-between;gap:8px;font-size:13px"><span style="font-weight:550;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ p.nombre }}</span></div>
+              <div style="margin-top:5px;height:5px;border-radius:3px;background:var(--card2);overflow:hidden"><div style="width:{{ p.pct }};height:100%;border-radius:3px;background:linear-gradient(90deg,#7A0000,#FF3B30);transform-origin:left;animation:crece 1.1s cubic-bezier(.32,.72,0,1) both;animation-delay:{{ p.delay }}"></div></div>
+            </div>
+            <span style="font:500 11.5px Geist Mono,monospace;color:var(--ink2);text-align:right">{{ p.h }}</span>
+          </button>
+        </sc-for>
+      </div>
+    </section>
+
+    <div style="grid-column:{{ sp12 }};display:flex;align-items:baseline;gap:14px;margin-top:22px">
+      <h2 style="margin:0;font-size:26px;font-weight:700;letter-spacing:-.035em">Las áreas</h2>
+      <span style="font-size:13px;color:var(--ink3)">{{ nCanales }} canales · pasa el cursor</span>
+    </div>
+    <div style="grid-column:{{ sp12 }};display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px;perspective:1200px">
+      <sc-for list="{{ cards }}" as="c" hint-placeholder-count="8">
+        <button onClick="{{ c.go }}" onMouseMove="{{ tilt }}" onMouseLeave="{{ untilt }}" style="--x:50%;--y:50%;position:relative;display:flex;flex-direction:column;gap:14px;padding:18px;border-radius:20px;background:radial-gradient(240px circle at var(--x) var(--y),rgba(192,0,0,.18),transparent 65%),var(--card);border:1px solid var(--line);transition:transform .3s cubic-bezier(.32,.72,0,1),border-color .3s,box-shadow .3s;transform-style:preserve-3d;animation:up .6s both;animation-delay:{{ c.delay }}" style-hover="border-color:var(--redline);box-shadow:0 20px 50px rgba(192,0,0,.15)">
+          <div style="display:flex;align-items:center;gap:10px">
+            <span style="width:30px;height:30px;border-radius:9px;background:var(--redsoft);color:var(--redt);display:grid;place-items:center;font-weight:700">#</span>
+            <div style="min-width:0;flex:1">
+              <div style="font-weight:650;font-size:14.5px;letter-spacing:-.015em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ c.nombre }}</div>
+              <div style="font-size:11.5px;color:var(--ink3)">{{ c.rango }}</div>
+            </div>
+            <span style="color:var(--ink3);font-size:15px">↗</span>
+          </div>
+          <svg viewBox="0 0 200 44" preserveAspectRatio="none" style="width:100%;height:44px;overflow:visible">
+            <path d="{{ c.area }}" fill="rgba(192,0,0,.16)"></path>
+            <path d="{{ c.line }}" fill="none" stroke="#E01010" stroke-width="1.8" vector-effect="non-scaling-stroke"></path>
+          </svg>
+          <div style="display:flex;gap:16px;font-size:12px;color:var(--ink3)">
+            <span><b style="font:600 13px Geist Mono,monospace;color:var(--ink)">{{ c.conteo }}</b> msj</span>
+            <span><b style="font:600 13px Geist Mono,monospace;color:var(--ink)">{{ c.actas }}</b> actas</span>
+            <span><b style="font:600 13px Geist Mono,monospace;color:var(--ink)">{{ c.adj }}</b> archivos</span>
+          </div>
+        </button>
+      </sc-for>
+    </div>
+
+    <div style="grid-column:{{ sp12 }};margin-top:14px;padding:18px 20px;border-radius:18px;border:1px dashed var(--line2);font-size:13.5px;color:var(--ink2);line-height:1.6">Slack en plan gratuito esconde los mensajes a los noventa días y borra a un año lo que pase de doce meses. Este archivo se baja <b style="color:var(--ink)">el día 2 de cada mes</b> y deja de depender de eso.</div>
+  </div>
+</sc-if>
+
+<!-- ═════════ CANAL ═════════ -->
+<sc-if value="{{ vCanal }}" hint-placeholder-val="{{ false }}">
+  <div style="animation:up .5s both">
+    <div style="position:relative;border-radius:26px;overflow:hidden;padding:30px 30px 0;background:linear-gradient(135deg,#0A0A0A,#1a0303 60%,#3a0000);color:#fff;border:1px solid rgba(255,255,255,.08)">
+      <div style="position:absolute;right:-60px;top:-80px;width:320px;height:320px;border-radius:50%;border:38px solid rgba(192,0,0,.35);filter:blur(1px)"></div>
+      <div style="position:absolute;right:40px;top:30px;width:120px;height:120px;border-radius:50%;border:14px solid rgba(255,59,48,.5);box-shadow:0 0 60px rgba(255,40,40,.4)"></div>
+      <div style="position:relative">
+        <div style="font:500 11px Geist Mono,monospace;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.6)">Canal privado · IAM™ Intelligence</div>
+        <h1 style="margin:10px 0 0;font-size:clamp(34px,5vw,58px);line-height:1;font-weight:700;letter-spacing:-.045em"><span style="color:#FF3B30">#</span>{{ c.nombre }}</h1>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:18px">
+          <sc-for list="{{ c.stats }}" as="s" hint-placeholder-count="4">
+            <span style="padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);font-size:12.5px;color:rgba(255,255,255,.8)"><b style="color:#fff;font-weight:650">{{ s.v }}</b> {{ s.l }}</span>
+          </sc-for>
+        </div>
+        <div style="display:flex;gap:4px;margin-top:26px;overflow-x:auto;scrollbar-width:none">
+          <sc-for list="{{ c.tabs }}" as="t" hint-placeholder-count="5">
+            <button onClick="{{ t.go }}" style="display:flex;align-items:center;gap:8px;padding:11px 16px;border-radius:12px 12px 0 0;background:{{ t.bg }};color:{{ t.color }};font-size:13.5px;font-weight:550;white-space:nowrap;transition:background .25s,color .25s" style-hover="color:{{ t.hover }}">
+              {{ t.label }}<span style="font:500 10.5px Geist Mono,monospace;padding:1px 6px;border-radius:6px;background:{{ t.nbg }}">{{ t.n }}</span>
+            </button>
+          </sc-for>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top:22px">
+      <sc-if value="{{ c.tabMsg }}" hint-placeholder-val="{{ false }}">
+        <div style="max-width:860px">
+          <sc-for list="{{ c.days }}" as="d" hint-placeholder-count="2">
+            <div>
+              <div style="position:sticky;top:8px;z-index:2;display:flex;justify-content:center;margin:18px 0 10px">
+                <span style="padding:5px 13px;border-radius:999px;background:var(--glass);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid var(--line);font-size:12px;font-weight:600;color:var(--ink2);text-transform:capitalize">{{ d.label }}</span>
+              </div>
+              <sc-for list="{{ d.msgs }}" as="m" hint-placeholder-count="3">
+                <div style="display:grid;grid-template-columns:40px minmax(0,1fr);gap:12px;padding:{{ m.pad }};border-radius:14px;opacity:{{ m.op }};transition:background .2s" style-hover="background:var(--card)">
+                  <div>
+                    <sc-if value="{{ m.head }}" hint-placeholder-val="{{ true }}">
+                      <span style="width:38px;height:38px;border-radius:12px;display:grid;place-items:center;background:{{ m.col }};color:#fff;font-size:13px;font-weight:650">{{ m.ini }}</span>
+                    </sc-if>
+                  </div>
+                  <div style="min-width:0">
+                    <sc-if value="{{ m.head }}" hint-placeholder-val="{{ true }}">
+                      <div style="display:flex;align-items:baseline;gap:9px;margin-bottom:2px">
+                        <span style="font-weight:650;font-size:14px">{{ m.autor }}</span>
+                        <span style="font:500 11px Geist Mono,monospace;color:var(--ink3)">{{ m.hora }}</span>
+                      </div>
+                    </sc-if>
+                    <div style="font-size:14.5px;line-height:1.6;color:var(--ink);overflow-wrap:anywhere" dangerouslySetInnerHTML="{{ m.html }}"></div>
+                    <sc-for list="{{ m.adj }}" as="a" hint-placeholder-count="0">
+                      <div style="display:flex;align-items:center;gap:12px;max-width:440px;margin-top:8px;padding:10px 12px;border-radius:12px;background:var(--card);border:1px solid var(--line)">
+                        <span style="width:38px;height:38px;border-radius:10px;display:grid;place-items:center;background:{{ a.bg }};color:#fff;font:600 10px Geist Mono,monospace;flex:none">{{ a.t }}</span>
+                        <div style="min-width:0"><div style="font-size:13px;font-weight:550;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ a.nombre }}</div><div style="font-size:11.5px;color:var(--ink3)">{{ a.peso }}</div></div>
+                      </div>
+                    </sc-for>
+                    <sc-if value="{{ m.hasHilo }}" hint-placeholder-val="{{ false }}">
+                      <div style="margin-top:6px;font-size:12.5px;font-weight:600;color:var(--redt)">↳ {{ m.hilo }}</div>
+                    </sc-if>
+                    <sc-if value="{{ m.hasReacc }}" hint-placeholder-val="{{ false }}">
+                      <div style="display:flex;gap:6px;margin-top:6px">
+                        <sc-for list="{{ m.reacc }}" as="r" hint-placeholder-count="1"><span style="padding:2px 9px;border-radius:999px;background:var(--redsoft);border:1px solid var(--redline);font-size:12.5px">{{ r.t }}</span></sc-for>
+                      </div>
+                    </sc-if>
+                  </div>
+                </div>
+              </sc-for>
+            </div>
+          </sc-for>
+          <sc-if value="{{ c.hasSys }}" hint-placeholder-val="{{ false }}">
+            <div style="margin-top:20px;padding:14px 18px;border-radius:14px;border:1px dashed var(--line2);font-size:13px;color:var(--ink2)">Se muestran los mensajes del equipo. <button onClick="{{ c.toggleSys }}" style="color:var(--redt);font-weight:600">{{ c.sysLabel }}</button> — entradas y salidas del canal.</div>
+          </sc-if>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ c.tabActas }}" hint-placeholder-val="{{ false }}">
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px">
+          <sc-for list="{{ c.actas }}" as="a" hint-placeholder-count="4">
+            <button onClick="{{ a.go }}" onMouseMove="{{ tilt }}" onMouseLeave="{{ untilt }}" style="--x:50%;--y:50%;position:relative;overflow:hidden;padding:20px;border-radius:20px;background:radial-gradient(240px circle at var(--x) var(--y),rgba(192,0,0,.18),transparent 65%),var(--card);border:1px solid var(--line);display:flex;flex-direction:column;gap:6px;min-height:200px;transition:transform .3s cubic-bezier(.32,.72,0,1),border-color .3s;animation:up .5s both;animation-delay:{{ a.delay }}" style-hover="border-color:var(--redline)">
+              <span style="font:500 10.5px Geist Mono,monospace;letter-spacing:.14em;color:var(--ink3)">SESIÓN</span>
+              <span style="font-size:64px;font-weight:700;letter-spacing:-.06em;line-height:.9;color:var(--redt)">{{ a.n }}</span>
+              <span style="font-weight:600;font-size:14px;margin-top:6px">{{ a.fecha }}</span>
+              <span style="font-size:12.5px;color:var(--ink3)">{{ a.meta }}</span>
+              <div style="display:flex;flex-wrap:wrap;gap:5px;margin-top:auto;padding-top:10px">
+                <sc-for list="{{ a.chips }}" as="ch" hint-placeholder-count="2"><span style="padding:2px 8px;border-radius:6px;font:500 10.5px Geist Mono,monospace;background:{{ ch.bg }};color:{{ ch.col }}">{{ ch.t }}</span></sc-for>
+              </div>
+            </button>
+          </sc-for>
+        </div>
+        <sc-if value="{{ c.noActas }}" hint-placeholder-val="{{ false }}"><div style="padding:60px 20px;text-align:center;color:var(--ink3)">Este canal no tiene actas registradas.</div></sc-if>
+      </sc-if>
+
+      <sc-if value="{{ c.showActa }}" hint-placeholder-val="{{ false }}">
+        <div style="max-width:980px;animation:up .5s both">
+          <button onClick="{{ ac.back }}" style="font-size:13px;color:var(--redt);font-weight:600;margin-bottom:16px">‹ Actas de #{{ c.nombre }}</button>
+          <div style="font:500 11px Geist Mono,monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3)">Acta de sesión · IAM™ Intelligence</div>
+          <h2 style="margin:10px 0 6px;font-size:clamp(28px,4vw,44px);line-height:1.05;font-weight:700;letter-spacing:-.04em;text-wrap:balance">{{ ac.titulo }} <span style="color:var(--redt)">{{ ac.ses }}</span></h2>
+          <div style="font-size:14px;color:var(--ink2)">{{ ac.sub }}</div>
+          <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:16px">
+            <sc-if value="{{ ac.hasFase }}" hint-placeholder-val="{{ false }}"><span style="padding:7px 13px;border-radius:999px;border:1px solid var(--redline);color:var(--redt);font-size:12.5px;font-weight:600">{{ ac.fase }}</span></sc-if>
+            <sc-if value="{{ ac.hasGrab }}" hint-placeholder-val="{{ false }}"><a href="{{ ac.grab }}" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:8px;padding:7px 15px;border-radius:999px;background:#C00000;color:#fff;font-size:13px;font-weight:600;box-shadow:0 8px 24px rgba(192,0,0,.35)">▶ Ver la grabación</a></sc-if>
+            <sc-if value="{{ ac.hasPdf }}" hint-placeholder-val="{{ false }}"><a href="{{ ac.pdf }}" target="_blank" rel="noopener" style="padding:7px 15px;border-radius:999px;border:1px solid var(--line2);color:var(--ink);font-size:13px;font-weight:600">Abrir el PDF</a></sc-if>
+          </div>
+
+          <sc-if value="{{ ac.hasKpis }}" hint-placeholder-val="{{ false }}">
+            <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin-top:26px">
+              <sc-for list="{{ ac.kpis }}" as="k" hint-placeholder-count="4">
+                <div onMouseMove="{{ tilt }}" onMouseLeave="{{ untilt }}" style="--x:50%;--y:50%;padding:18px;border-radius:18px;background:radial-gradient(200px circle at var(--x) var(--y),rgba(192,0,0,.15),transparent 65%),var(--card);border:1px solid var(--line);transition:transform .3s cubic-bezier(.32,.72,0,1);animation:up .5s both;animation-delay:{{ k.delay }}">
+                  <div style="font-size:32px;font-weight:700;letter-spacing:-.04em;line-height:1;color:var(--redt)">{{ k.v }}</div>
+                  <div style="margin-top:8px;font-size:13.5px;font-weight:600">{{ k.e }}</div>
+                  <div style="margin-top:3px;font-size:12.5px;color:var(--ink3);line-height:1.45">{{ k.d }}</div>
+                </div>
+              </sc-for>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ ac.hasDatos }}" hint-placeholder-val="{{ false }}">
+            <div style="margin-top:26px;border-radius:20px;border:1px solid var(--line);background:var(--card);overflow:hidden">
+              <div style="padding:16px 20px;border-bottom:1px solid var(--line);font-weight:650;font-size:15px">Datos de la sesión</div>
+              <sc-for list="{{ ac.datos }}" as="d" hint-placeholder-count="5">
+                <div style="display:grid;grid-template-columns:minmax(120px,200px) minmax(0,1fr);gap:16px;padding:11px 20px;border-bottom:1px solid var(--line);font-size:13.5px">
+                  <span style="color:var(--ink3)">{{ d.k }}</span><span style="overflow-wrap:anywhere" dangerouslySetInnerHTML="{{ d.h }}"></span>
+                </div>
+              </sc-for>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ ac.hasPart }}" hint-placeholder-val="{{ false }}">
+            <h3 style="margin:30px 0 12px;font-size:18px;font-weight:650;letter-spacing:-.02em">Participantes <span style="font:500 12px Geist Mono,monospace;color:var(--ink3)">{{ ac.nPart }}</span></h3>
+            <div style="display:flex;flex-wrap:wrap;gap:8px">
+              <sc-for list="{{ ac.part }}" as="p" hint-placeholder-count="5">
+                <span style="display:flex;align-items:center;gap:9px;padding:5px 13px 5px 5px;border-radius:999px;background:var(--card);border:1px solid var(--line);opacity:{{ p.op }}">
+                  <span style="width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:{{ p.col }};color:#fff;font-size:10.5px;font-weight:650">{{ p.ini }}</span>
+                  <span style="font-size:13px;font-weight:550">{{ p.n }}</span>
+                  <span style="font-size:11.5px;color:var(--ink3)">{{ p.rol }}</span>
+                </span>
+              </sc-for>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ ac.hasInf }}" hint-placeholder-val="{{ false }}">
+            <div style="margin-top:26px;padding:22px;border-radius:20px;border:1px solid var(--line);background:var(--card)">
+              <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 16px;margin-bottom:16px">
+                <h3 style="margin:0;font-size:16px;font-weight:650">Asistencia medida</h3>
+                <span style="font-size:12.5px;color:var(--ink3)">Sala abierta <b style="color:var(--ink)">{{ ac.inf.dur }}</b> · promedio <b style="color:var(--ink)">{{ ac.inf.media }}</b> · informe de Teams</span>
+              </div>
+              <div style="display:flex;flex-direction:column;gap:10px">
+                <sc-for list="{{ ac.inf.rows }}" as="r" hint-placeholder-count="4">
+                  <div style="display:grid;grid-template-columns:minmax(120px,220px) minmax(0,1fr) 72px;gap:14px;align-items:center;font-size:13px">
+                    <span style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:550">{{ r.n }} <span style="color:var(--ink3);font-weight:400;font-size:11.5px">{{ r.rol }}</span></span>
+                    <div style="height:8px;border-radius:4px;background:var(--card2);overflow:hidden"><div style="width:{{ r.pct }};height:100%;border-radius:4px;background:linear-gradient(90deg,#7A0000,#FF3B30);transform-origin:left;animation:crece 1s cubic-bezier(.32,.72,0,1) both;animation-delay:{{ r.delay }}"></div></div>
+                    <span style="font:500 12px Geist Mono,monospace;color:var(--ink2);text-align:right">{{ r.h }}</span>
+                  </div>
+                </sc-for>
+              </div>
+            </div>
+          </sc-if>
+
+          <sc-for list="{{ ac.avisos }}" as="g" hint-placeholder-count="0">
+            <div>
+              <h3 style="margin:30px 0 12px;font-size:18px;font-weight:650;letter-spacing:-.02em">{{ g.tit }} <span style="font:500 12px Geist Mono,monospace;color:var(--ink3)">{{ g.n }}</span></h3>
+              <div style="display:flex;flex-direction:column;gap:10px">
+                <sc-for list="{{ g.items }}" as="x" hint-placeholder-count="2">
+                  <div style="padding:16px 18px;border-radius:16px;background:var(--card);border:1px solid var(--line);font-size:13.5px;line-height:1.6;color:var(--ink2)">
+                    <div style="display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:6px;color:var(--ink);font-weight:620;font-size:14px">
+                      <sc-if value="{{ x.hasNum }}" hint-placeholder-val="{{ false }}"><span style="font:600 11px Geist Mono,monospace;color:var(--ink3)">{{ x.num }}</span></sc-if>
+                      <sc-if value="{{ x.hasNivel }}" hint-placeholder-val="{{ false }}"><span style="padding:2px 8px;border-radius:6px;font:600 10px Geist Mono,monospace;letter-spacing:.06em;background:{{ x.nbg }};color:{{ x.ncol }}">{{ x.nivel }}</span></sc-if>
+                      <span dangerouslySetInnerHTML="{{ x.t }}"></span>
+                    </div>
+                    <div dangerouslySetInnerHTML="{{ x.d }}"></div>
+                  </div>
+                </sc-for>
+              </div>
+            </div>
+          </sc-for>
+
+          <sc-if value="{{ ac.hasEjer }}" hint-placeholder-val="{{ false }}">
+            <h3 style="margin:30px 0 12px;font-size:18px;font-weight:650;letter-spacing:-.02em">Ejercicios <span style="font:500 12px Geist Mono,monospace;color:var(--ink3)">{{ ac.nEjer }}</span></h3>
+            <div style="display:flex;flex-direction:column;gap:12px">
+              <sc-for list="{{ ac.ejer }}" as="e" hint-placeholder-count="2">
+                <div style="padding:20px;border-radius:18px;background:var(--card);border:1px solid var(--line);font-size:13.5px;line-height:1.6;color:var(--ink2)">
+                  <div style="display:flex;align-items:flex-start;gap:12px">
+                    <span style="width:30px;height:30px;border-radius:9px;flex:none;display:grid;place-items:center;background:#C00000;color:#fff;font:600 12px Geist Mono,monospace">{{ e.i }}</span>
+                    <div style="min-width:0;flex:1">
+                      <div style="color:var(--ink);font-weight:650;font-size:15px" dangerouslySetInnerHTML="{{ e.t }}"></div>
+                      <div style="font:500 11px Geist Mono,monospace;color:var(--ink3);margin-top:2px">{{ e.mt }}</div>
+                      <div style="margin-top:8px" dangerouslySetInnerHTML="{{ e.ob }}"></div>
+                      <div style="display:flex;flex-direction:column;gap:6px;margin-top:10px">
+                        <sc-for list="{{ e.pasos }}" as="p" hint-placeholder-count="2"><div style="display:grid;grid-template-columns:14px minmax(0,1fr);gap:8px"><span style="color:var(--redt)">→</span><span dangerouslySetInnerHTML="{{ p.h }}"></span></div></sc-for>
+                      </div>
+                      <sc-if value="{{ e.hasRes }}" hint-placeholder-val="{{ false }}"><div style="margin-top:12px;padding:12px 14px;border-radius:12px;background:var(--redsoft);color:var(--ink)" dangerouslySetInnerHTML="{{ e.res }}"></div></sc-if>
+                    </div>
+                  </div>
+                </div>
+              </sc-for>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ ac.hasOpor }}" hint-placeholder-val="{{ false }}">
+            <h3 style="margin:30px 0 12px;font-size:18px;font-weight:650;letter-spacing:-.02em">Lo que hay que subrayar</h3>
+            <div style="display:flex;flex-direction:column;gap:12px">
+              <sc-for list="{{ ac.opor }}" as="o" hint-placeholder-count="1">
+                <div style="position:relative;overflow:hidden;padding:22px;border-radius:20px;background:linear-gradient(135deg,#0A0A0A,#2a0000);color:#fff;border:1px solid rgba(255,255,255,.08);font-size:14px;line-height:1.6">
+                  <div style="font:500 10.5px Geist Mono,monospace;letter-spacing:.12em;color:#FF6A63">{{ o.cj }}</div>
+                  <div style="margin-top:6px;font-size:19px;font-weight:650;letter-spacing:-.02em" dangerouslySetInnerHTML="{{ o.t }}"></div>
+                  <div style="margin-top:8px;color:rgba(255,255,255,.78)" dangerouslySetInnerHTML="{{ o.d }}"></div>
+                  <div style="display:flex;flex-direction:column;gap:5px;margin-top:10px;color:rgba(255,255,255,.78)">
+                    <sc-for list="{{ o.items }}" as="p" hint-placeholder-count="0"><div style="display:grid;grid-template-columns:14px minmax(0,1fr);gap:8px"><span style="color:#FF3B30">•</span><span dangerouslySetInnerHTML="{{ p.h }}"></span></div></sc-for>
+                  </div>
+                </div>
+              </sc-for>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ ac.hasTareas }}" hint-placeholder-val="{{ false }}">
+            <h3 style="margin:30px 0 8px;font-size:18px;font-weight:650;letter-spacing:-.02em">Tareas <span style="font:500 12px Geist Mono,monospace;color:var(--ink3)">{{ ac.nTareas }}</span></h3>
+            <div style="font-size:13.5px;color:var(--ink2);margin-bottom:12px;line-height:1.6" dangerouslySetInnerHTML="{{ ac.tareasIntro }}"></div>
+            <div style="display:flex;flex-direction:column;gap:8px">
+              <sc-for list="{{ ac.tareas }}" as="t" hint-placeholder-count="3">
+                <div style="display:grid;grid-template-columns:22px minmax(0,1fr) auto;gap:12px;align-items:start;padding:14px 16px;border-radius:14px;background:var(--card);border:1px solid var(--line);font-size:13.5px">
+                  <span style="width:18px;height:18px;margin-top:2px;border-radius:6px;border:1.5px solid var(--line2)"></span>
+                  <div style="min-width:0">
+                    <div style="line-height:1.5" dangerouslySetInnerHTML="{{ t.h }}"></div>
+                    <div style="margin-top:4px;font-size:12px;color:var(--ink3)">{{ t.resp }} · {{ t.plazo }}</div>
+                  </div>
+                  <span style="padding:2px 8px;border-radius:6px;font:600 10px Geist Mono,monospace;letter-spacing:.05em;background:{{ t.pbg }};color:{{ t.pcol }};white-space:nowrap">{{ t.prio }}</span>
+                </div>
+              </sc-for>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ ac.hasObs }}" hint-placeholder-val="{{ false }}">
+            <h3 style="margin:30px 0 12px;font-size:18px;font-weight:650;letter-spacing:-.02em">Observaciones</h3>
+            <div style="display:flex;flex-direction:column;gap:10px;font-size:14px;line-height:1.65;color:var(--ink2)">
+              <sc-for list="{{ ac.obs }}" as="o" hint-placeholder-count="2"><div style="display:grid;grid-template-columns:26px minmax(0,1fr);gap:8px"><span style="font:600 11px Geist Mono,monospace;color:var(--redt);padding-top:3px">{{ o.i }}</span><span dangerouslySetInnerHTML="{{ o.h }}"></span></div></sc-for>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ ac.hasProx }}" hint-placeholder-val="{{ false }}">
+            <div style="margin-top:30px;padding:22px;border-radius:20px;border:1px solid var(--redline);background:var(--redsoft)">
+              <div style="font:500 10.5px Geist Mono,monospace;letter-spacing:.14em;color:var(--redt)">PRÓXIMA SESIÓN</div>
+              <div style="margin-top:6px;font-size:17px;font-weight:650" dangerouslySetInnerHTML="{{ ac.prox.t }}"></div>
+              <sc-if value="{{ ac.prox.hasCond }}" hint-placeholder-val="{{ false }}">
+                <div style="margin-top:14px;font:600 11px Geist Mono,monospace;letter-spacing:.08em;color:var(--ink3)">CONDICIONES DE ENTRADA</div>
+                <div style="display:flex;flex-direction:column;gap:6px;margin-top:8px;font-size:13.5px;color:var(--ink2)">
+                  <sc-for list="{{ ac.prox.cond }}" as="p" hint-placeholder-count="2"><div style="display:grid;grid-template-columns:16px minmax(0,1fr);gap:8px"><span style="color:var(--redt)">✓</span><span dangerouslySetInnerHTML="{{ p.h }}"></span></div></sc-for>
+                </div>
+              </sc-if>
+              <sc-if value="{{ ac.prox.hasAgenda }}" hint-placeholder-val="{{ false }}">
+                <div style="margin-top:14px;font:600 11px Geist Mono,monospace;letter-spacing:.08em;color:var(--ink3)">AGENDA</div>
+                <div style="display:flex;flex-direction:column;gap:6px;margin-top:8px;font-size:13.5px;color:var(--ink2)">
+                  <sc-for list="{{ ac.prox.agenda }}" as="p" hint-placeholder-count="2"><div style="display:grid;grid-template-columns:16px minmax(0,1fr);gap:8px"><span style="color:var(--redt)">→</span><span dangerouslySetInnerHTML="{{ p.h }}"></span></div></sc-for>
+                </div>
+              </sc-if>
+              <div style="margin-top:12px;font-size:13.5px;color:var(--ink2)" dangerouslySetInnerHTML="{{ ac.prox.nota }}"></div>
+            </div>
+          </sc-if>
+
+          <div style="margin-top:26px;padding:16px 18px;border-radius:14px;border:1px dashed var(--line2);font-size:12.5px;color:var(--ink3)">El PDF se publicó en <b style="color:var(--ink2)">#{{ c.canal }}</b> y vive en la carpeta del área. Aquí queda su contenido. Archivo fuente: <code style="font-family:Geist Mono,monospace">{{ ac.fuente }}</code></div>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ c.tabGrab }}" hint-placeholder-val="{{ false }}">
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px">
+          <sc-for list="{{ c.grab }}" as="g" hint-placeholder-count="3">
+            <a href="{{ g.url }}" target="_blank" rel="noopener" style="display:flex;flex-direction:column;border-radius:20px;overflow:hidden;background:var(--card);border:1px solid var(--line);color:var(--ink);transition:transform .3s cubic-bezier(.32,.72,0,1),border-color .3s;animation:up .5s both;animation-delay:{{ g.delay }}" style-hover="transform:translateY(-4px);border-color:var(--redline);color:var(--ink)">
+              <div style="position:relative;aspect-ratio:16/9;background:radial-gradient(circle at 70% 30%,#5a0000,#0a0a0a 70%);display:grid;place-items:center">
+                <span style="position:absolute;left:14px;top:12px;font:600 11px Geist Mono,monospace;color:rgba(255,255,255,.7);letter-spacing:.1em">{{ g.ses }}</span>
+                <span style="position:absolute;right:14px;bottom:12px;font:600 44px Geist;letter-spacing:-.05em;color:rgba(255,255,255,.12)">IAM™</span>
+                <span style="width:54px;height:54px;border-radius:50%;background:#C00000;display:grid;place-items:center;color:#fff;font-size:18px;box-shadow:0 0 0 8px rgba(192,0,0,.25),0 10px 30px rgba(192,0,0,.5)">▶</span>
+              </div>
+              <div style="padding:14px 16px">
+                <div style="font-weight:600;font-size:13.5px;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">{{ g.titulo }}</div>
+                <div style="margin-top:6px;font-size:12px;color:var(--ink3)">{{ g.sub }}</div>
+              </div>
+            </a>
+          </sc-for>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ c.tabFij }}" hint-placeholder-val="{{ false }}">
+        <div style="display:flex;flex-direction:column;gap:18px;max-width:860px">
+          <sc-for list="{{ c.fij }}" as="f" hint-placeholder-count="1">
+            <div style="border-radius:20px;border:1px solid var(--line);background:var(--card);overflow:hidden">
+              <div style="padding:14px 18px;border-bottom:1px solid var(--line);font-weight:650">{{ f.icono }} {{ f.titulo }}</div>
+              <sc-for list="{{ f.enlaces }}" as="e" hint-placeholder-count="1">
+                <a href="{{ e.url }}" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:12px;padding:12px 18px;border-bottom:1px solid var(--line);color:var(--ink)" style-hover="background:var(--card2);color:var(--ink)">
+                  <span style="width:30px;height:30px;border-radius:9px;background:var(--redsoft);color:var(--redt);display:grid;place-items:center">↗</span>
+                  <div style="min-width:0"><div style="font-weight:600;font-size:13.5px">{{ e.titulo }}</div><div style="font-size:12px;color:var(--ink3)">{{ e.nota }}</div></div>
+                </a>
+              </sc-for>
+            </div>
+          </sc-for>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ c.tabArch }}" hint-placeholder-val="{{ false }}">
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px">
+          <sc-for list="{{ c.arch }}" as="a" hint-placeholder-count="4">
+            <div style="display:flex;align-items:center;gap:12px;padding:12px 14px;border-radius:14px;background:var(--card);border:1px solid var(--line)">
+              <span style="width:40px;height:40px;border-radius:11px;display:grid;place-items:center;background:{{ a.bg }};color:#fff;font:600 10px Geist Mono,monospace;flex:none">{{ a.t }}</span>
+              <div style="min-width:0;flex:1"><div style="font-size:13px;font-weight:550;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ a.nombre }}</div><div style="font-size:11.5px;color:var(--ink3)">{{ a.sub }}</div></div>
+              <span style="font:500 11px Geist Mono,monospace;color:var(--ink3)">{{ a.fecha }}</span>
+            </div>
+          </sc-for>
+        </div>
+      </sc-if>
+    </div>
+  </div>
+</sc-if>
+
+<!-- ═════════ VISTAS GLOBALES ═════════ -->
+<sc-if value="{{ vGlobal }}" hint-placeholder-val="{{ false }}">
+  <div style="animation:up .5s both">
+    <div style="display:flex;flex-wrap:wrap;align-items:flex-end;gap:10px 24px;margin-bottom:24px">
+      <div>
+        <div style="font:500 11px Geist Mono,monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3)">Todo el archivo</div>
+        <h1 style="margin:8px 0 0;font-size:clamp(36px,5vw,60px);line-height:1;font-weight:700;letter-spacing:-.045em">{{ g.titulo }}</h1>
+      </div>
+      <div style="font-size:14px;color:var(--ink2);padding-bottom:6px">{{ g.meta }}</div>
+    </div>
+
+    <sc-if value="{{ vActas }}" hint-placeholder-val="{{ false }}">
+      <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px">
+        <sc-for list="{{ g.chips }}" as="ch" hint-placeholder-count="4">
+          <button onClick="{{ ch.go }}" style="padding:7px 14px;border-radius:999px;border:1px solid {{ ch.bd }};background:{{ ch.bg }};color:{{ ch.col }};font-size:12.5px;font-weight:600;transition:all .2s">{{ ch.t }} <span style="font-family:Geist Mono,monospace;opacity:.7">{{ ch.n }}</span></button>
+        </sc-for>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px">
+        <sc-for list="{{ g.actas }}" as="a" hint-placeholder-count="8">
+          <button onClick="{{ a.go }}" onMouseMove="{{ tilt }}" onMouseLeave="{{ untilt }}" style="--x:50%;--y:50%;position:relative;overflow:hidden;padding:20px;border-radius:20px;background:radial-gradient(240px circle at var(--x) var(--y),rgba(192,0,0,.18),transparent 65%),var(--card);border:1px solid var(--line);display:flex;flex-direction:column;gap:6px;min-height:200px;transition:transform .3s cubic-bezier(.32,.72,0,1),border-color .3s;animation:up .5s both;animation-delay:{{ a.delay }}" style-hover="border-color:var(--redline)">
+            <div style="display:flex;justify-content:space-between;align-items:center"><span style="font:500 10.5px Geist Mono,monospace;letter-spacing:.14em;color:var(--ink3)">SESIÓN</span><span style="font-size:12px;font-weight:600;color:var(--redt)">#{{ a.canal }}</span></div>
+            <span style="font-size:64px;font-weight:700;letter-spacing:-.06em;line-height:.9;color:var(--redt)">{{ a.n }}</span>
+            <span style="font-weight:600;font-size:14px;margin-top:6px">{{ a.fecha }}</span>
+            <span style="font-size:12.5px;color:var(--ink3)">{{ a.meta }}</span>
+            <div style="display:flex;flex-wrap:wrap;gap:5px;margin-top:auto;padding-top:10px">
+              <sc-for list="{{ a.chips }}" as="ch" hint-placeholder-count="2"><span style="padding:2px 8px;border-radius:6px;font:500 10.5px Geist Mono,monospace;background:{{ ch.bg }};color:{{ ch.col }}">{{ ch.t }}</span></sc-for>
+            </div>
+          </button>
+        </sc-for>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ vGrab }}" hint-placeholder-val="{{ false }}">
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px">
+        <sc-for list="{{ g.grab }}" as="v" hint-placeholder-count="6">
+          <a href="{{ v.url }}" target="_blank" rel="noopener" style="display:flex;flex-direction:column;border-radius:20px;overflow:hidden;background:var(--card);border:1px solid var(--line);color:var(--ink);transition:transform .3s cubic-bezier(.32,.72,0,1),border-color .3s;animation:up .5s both;animation-delay:{{ v.delay }}" style-hover="transform:translateY(-4px);border-color:var(--redline);color:var(--ink)">
+            <div style="position:relative;aspect-ratio:16/9;background:radial-gradient(circle at 70% 30%,#5a0000,#0a0a0a 70%);display:grid;place-items:center">
+              <span style="position:absolute;left:14px;top:12px;font:600 11px Geist Mono,monospace;color:rgba(255,255,255,.7);letter-spacing:.1em">{{ v.ses }}</span>
+              <span style="position:absolute;right:14px;bottom:12px;font:600 44px Geist;letter-spacing:-.05em;color:rgba(255,255,255,.12)">IAM™</span>
+              <span style="width:54px;height:54px;border-radius:50%;background:#C00000;display:grid;place-items:center;color:#fff;font-size:18px;box-shadow:0 0 0 8px rgba(192,0,0,.25),0 10px 30px rgba(192,0,0,.5)">▶</span>
+            </div>
+            <div style="padding:14px 16px">
+              <div style="font-weight:600;font-size:13.5px;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">{{ v.titulo }}</div>
+              <div style="margin-top:6px;font-size:12px;color:var(--ink3)">{{ v.sub }}</div>
+            </div>
+          </a>
+        </sc-for>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ vAsis }}" hint-placeholder-val="{{ false }}">
+      <div style="border-radius:22px;border:1px solid var(--line);background:var(--card);overflow:hidden">
+        <sc-for list="{{ g.asis }}" as="p" hint-placeholder-count="8">
+          <button onClick="{{ p.go }}" style="width:100%;display:grid;grid-template-columns:30px 38px minmax(0,1fr) minmax(80px,220px) 92px;gap:14px;align-items:center;padding:12px 18px;border-bottom:1px solid var(--line);transition:background .2s" style-hover="background:var(--card2)">
+            <span style="font:600 12px Geist Mono,monospace;color:var(--ink3)">{{ p.rank }}</span>
+            <span style="width:38px;height:38px;border-radius:12px;display:grid;place-items:center;background:{{ p.col }};color:#fff;font-size:12.5px;font-weight:650">{{ p.ini }}</span>
+            <div style="min-width:0"><div style="font-weight:600;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ p.nombre }}</div><div style="font-size:12px;color:var(--ink3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ p.cargo }}</div></div>
+            <div style="height:6px;border-radius:3px;background:var(--card2);overflow:hidden"><div style="width:{{ p.pct }};height:100%;border-radius:3px;background:linear-gradient(90deg,#7A0000,#FF3B30);transform-origin:left;animation:crece 1s cubic-bezier(.32,.72,0,1) both;animation-delay:{{ p.delay }}"></div></div>
+            <span style="font:500 11.5px Geist Mono,monospace;color:var(--ink2);text-align:right;line-height:1.4">{{ p.n }} ses<br>{{ p.h }}</span>
+          </button>
+        </sc-for>
+      </div>
+      <div style="margin-top:16px;padding:16px 18px;border-radius:14px;border:1px dashed var(--line2);font-size:13px;color:var(--ink2)">{{ g.asisNota }}</div>
+    </sc-if>
+
+    <sc-if value="{{ vPersona }}" hint-placeholder-val="{{ false }}">
+      <button onClick="{{ g.back }}" style="font-size:13px;color:var(--redt);font-weight:600;margin-bottom:16px">‹ Asistencia</button>
+      <div style="display:flex;align-items:center;gap:18px;margin-bottom:22px">
+        <span style="width:72px;height:72px;border-radius:22px;display:grid;place-items:center;background:{{ g.per.col }};color:#fff;font-size:24px;font-weight:700;box-shadow:0 14px 40px rgba(192,0,0,.3)">{{ g.per.ini }}</span>
+        <div><div style="font-size:clamp(24px,3vw,34px);font-weight:700;letter-spacing:-.035em">{{ g.per.nombre }}</div><div style="font-size:13.5px;color:var(--ink3)">{{ g.per.sub }}</div></div>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px">
+        <sc-for list="{{ g.per.kpis }}" as="k" hint-placeholder-count="5">
+          <div style="padding:18px;border-radius:18px;background:var(--card);border:1px solid var(--line)"><div style="font-size:30px;font-weight:700;letter-spacing:-.04em;color:var(--redt)">{{ k.v }}</div><div style="font-size:12.5px;color:var(--ink3);margin-top:4px">{{ k.e }}</div></div>
+        </sc-for>
+      </div>
+      <div style="margin-top:22px;border-radius:20px;border:1px solid var(--line);background:var(--card);overflow:hidden">
+        <sc-for list="{{ g.per.ses }}" as="s" hint-placeholder-count="5">
+          <div style="display:grid;grid-template-columns:64px minmax(0,1fr) 44px minmax(60px,180px) 76px;gap:14px;align-items:center;padding:11px 18px;border-bottom:1px solid var(--line);font-size:13px">
+            <span style="font:500 11.5px Geist Mono,monospace;color:var(--ink3)">{{ s.f }}</span>
+            <button onClick="{{ s.go }}" style="color:var(--redt);font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">#{{ s.canal }}</button>
+            <span style="font:600 12px Geist Mono,monospace">S{{ s.s }}</span>
+            <div style="height:6px;border-radius:3px;background:var(--card2);overflow:hidden"><div style="width:{{ s.pct }};height:100%;background:#C00000;border-radius:3px"></div></div>
+            <span style="font:500 11.5px Geist Mono,monospace;color:var(--ink2);text-align:right">{{ s.h }}</span>
+          </div>
+        </sc-for>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ vPersonas }}" hint-placeholder-val="{{ false }}">
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px">
+        <sc-for list="{{ g.gente }}" as="p" hint-placeholder-count="9">
+          <div onMouseMove="{{ tilt }}" onMouseLeave="{{ untilt }}" style="--x:50%;--y:50%;display:flex;align-items:center;gap:12px;padding:14px;border-radius:18px;background:radial-gradient(200px circle at var(--x) var(--y),rgba(192,0,0,.14),transparent 65%),var(--card);border:1px solid var(--line);transition:transform .3s cubic-bezier(.32,.72,0,1);animation:up .5s both;animation-delay:{{ p.delay }}">
+            <span style="width:44px;height:44px;border-radius:14px;display:grid;place-items:center;background:{{ p.col }};color:#fff;font-size:14px;font-weight:650;flex:none">{{ p.ini }}</span>
+            <div style="min-width:0;flex:1"><div style="font-weight:600;font-size:13.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ p.nombre }}</div><div style="font-size:11.5px;color:var(--ink3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ p.correo }}</div></div>
+            <div style="text-align:right;font:500 11px Geist Mono,monospace;color:var(--ink2);line-height:1.4"><b style="color:var(--redt);font-size:14px">{{ p.msj }}</b><br>{{ p.can }} can</div>
+          </div>
+        </sc-for>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ vArchivos }}" hint-placeholder-val="{{ false }}">
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:10px">
+        <sc-for list="{{ g.arch }}" as="a" hint-placeholder-count="8">
+          <div style="display:flex;align-items:center;gap:12px;padding:12px 14px;border-radius:14px;background:var(--card);border:1px solid var(--line)">
+            <span style="width:40px;height:40px;border-radius:11px;display:grid;place-items:center;background:{{ a.bg }};color:#fff;font:600 10px Geist Mono,monospace;flex:none">{{ a.t }}</span>
+            <div style="min-width:0;flex:1"><div style="font-size:13px;font-weight:550;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ a.nombre }}</div><div style="font-size:11.5px;color:var(--ink3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ a.sub }}</div></div>
+            <span style="font:500 11px Geist Mono,monospace;color:var(--ink3)">{{ a.fecha }}</span>
+          </div>
+        </sc-for>
+      </div>
+      <div style="margin-top:16px;padding:16px 18px;border-radius:14px;border:1px dashed var(--line2);font-size:13px;color:var(--ink2)">Slack en plan gratuito conserva el nombre del archivo, no el archivo. Los PDF y las grabaciones viven en SharePoint; este índice dice qué se publicó, cuándo y dónde.</div>
+    </sc-if>
+  </div>
+</sc-if>
+
+      </div>
+    </div>
+  </main>
+
+  <sc-if value="{{ pal }}" hint-placeholder-val="{{ false }}">
+    <div onClick="{{ palBg }}" style="position:fixed;inset:0;z-index:60;background:rgba(0,0,0,.55);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);display:flex;justify-content:center;align-items:flex-start;padding:12vh 16px 16px;animation:fade .18s">
+      <div data-pal="1" style="width:100%;max-width:640px;border-radius:22px;background:var(--bg2);border:1px solid var(--line2);box-shadow:0 40px 120px rgba(0,0,0,.6),0 0 0 1px rgba(192,0,0,.15),0 0 80px rgba(192,0,0,.15);overflow:hidden;animation:pop .25s cubic-bezier(.32,.72,0,1)">
+        <div style="display:flex;align-items:center;gap:12px;padding:16px 18px;border-bottom:1px solid var(--line)">
+          <span style="color:var(--redt);font-size:18px">⌕</span>
+          <input ref="{{ qRef }}" value="{{ q }}" onChange="{{ onQ }}" placeholder="Buscar canales, actas, personas y mensajes" autocomplete="off" spellcheck="false" style="flex:1;background:none;border:0;outline:0;color:var(--ink);font:500 16px Geist,sans-serif;letter-spacing:-.01em">
+          <span style="font:500 10.5px Geist Mono,monospace;padding:2px 6px;border-radius:6px;border:1px solid var(--line);color:var(--ink3)">esc</span>
+        </div>
+        <div style="max-height:56vh;overflow-y:auto;padding:6px">
+          <sc-for list="{{ hits }}" as="h" hint-placeholder-count="5">
+            <div>
+              <sc-if value="{{ h.hdr }}" hint-placeholder-val="{{ false }}"><div style="padding:12px 12px 6px;font:600 10px Geist Mono,monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3)">{{ h.hdrT }}</div></sc-if>
+              <button onClick="{{ h.go }}" onMouseEnter="{{ h.hov }}" style="width:100%;display:flex;align-items:center;gap:12px;padding:9px 12px;border-radius:12px;background:{{ h.bg }};transition:background .12s">
+                <span style="width:30px;height:30px;border-radius:9px;display:grid;place-items:center;background:{{ h.icBg }};color:{{ h.icCol }};font-size:13px;flex:none">{{ h.ic }}</span>
+                <div style="min-width:0;flex:1"><div style="font-size:13.5px;font-weight:550;white-space:nowrap;overflow:hidden;text-overflow:ellipsis" dangerouslySetInnerHTML="{{ h.t1 }}"></div><div style="font-size:11.5px;color:var(--ink3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ h.t2 }}</div></div>
+                <span style="font:500 11px Geist Mono,monospace;color:var(--ink3)">{{ h.dr }}</span>
+              </button>
+            </div>
+          </sc-for>
+          <sc-if value="{{ noHits }}" hint-placeholder-val="{{ false }}"><div style="padding:44px 20px;text-align:center;color:var(--ink3)">Nada por aquí. No aparece en ninguno de los canales.</div></sc-if>
+        </div>
+        <div style="display:flex;gap:16px;padding:10px 18px;border-top:1px solid var(--line);font:500 11px Geist Mono,monospace;color:var(--ink3)"><span>↑↓ navegar</span><span>↵ abrir</span><span>esc cerrar</span></div>
+      </div>
+    </div>
+  </sc-if>
+
+  <div ref="{{ tipRef }}" style="position:fixed;left:0;top:0;z-index:80;pointer-events:none;opacity:0;transform:translate(-50%,calc(-100% - 12px));padding:8px 12px;border-radius:12px;background:#0A0A0A;color:#fff;border:1px solid rgba(255,255,255,.12);box-shadow:0 12px 30px rgba(0,0,0,.4);font-size:12.5px;white-space:nowrap;transition:opacity .15s"></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { ready:false, tema:'oscuro', v:{ tipo:'portada', canal:null, pestana:'mensajes', acta:null, persona:null, sistema:false, fase:null }, pal:false, q:'', act:0, w:(typeof innerWidth === 'number' ? innerWidth : 1400), railOpen:false };
+
+  componentDidMount(){
+    try{ const t = localStorage.getItem('iam-tema-v2'); if (t) this.setState({ tema:t }); }catch(e){}
+    const wait = () => { if (window.ARCHIVO && window.IAM){ this.prep(); this.leerHash(); this.setState({ ready:true }); } else this._w = setTimeout(wait, 60); };
+    wait();
+    this._hash = () => { if (this._skip){ this._skip = false; return; } this.leerHash(); };
+    addEventListener('hashchange', this._hash);
+    this._key = e => this.onKey(e); addEventListener('keydown', this._key);
+    this._rs = () => { const w = this.rootEl ? this.rootEl.clientWidth : innerWidth; if (Math.abs(w - this.state.w) > 4) this.setState({ w }); };
+    addEventListener('resize', this._rs); this._rs();
+  }
+  componentWillUnmount(){ clearTimeout(this._w); removeEventListener('hashchange', this._hash); removeEventListener('keydown', this._key); removeEventListener('resize', this._rs); if (this._ro) this._ro.disconnect(); if (this.h3) this.h3.destruir(); }
+
+  rootRef = el => { if (el && el !== this.rootEl){ this.rootEl = el; if (!this._ro) this._ro = new ResizeObserver(en => { const w = en[0].contentRect.width; if (Math.abs(w - this.state.w) > 4) this.setState({ w }); }); this._ro.observe(el); } };
+  bodyRef = el => { this.bodyEl = el; };
+  tipRef = el => { this.tipEl = el; };
+  qRef = el => { if (el && el !== this.qEl){ this.qEl = el; setTimeout(() => el.focus(), 30); } if (!el) this.qEl = null; };
+  heroRef = el => {
+    if (el === this.heroEl) return;
+    if (this.h3){ this.h3.destruir(); this.h3 = null; }
+    this.heroEl = el;
+    if (!el) return;
+    const go = () => {
+      if (this.heroEl !== el) return;
+      if (!window.THREE){ setTimeout(go, 100); return; }
+      const nodos = this.A.canales.map(c => ({ canal:c.canal, nombre:c.nombre, n:c.conteo, actas:c.actas.length }));
+      this.h3 = this.I.hero3D(el, nodos, {
+        pick: n => this.ir({ tipo:'canal', canal:n.canal, pestana:'mensajes', acta:null }),
+        hover: (n, x, y) => { if (!n){ if (this._h3tip){ this._h3tip = false; this.hideTip(); } return; } this._h3tip = true; this.showTip(x, y - 8, '#'+n.nombre, n.n+' mensajes · '+n.actas+' actas'); }
+      });
+    };
+    go();
+  };
+
+  onMove = e => { if (!this.rootEl) return; this.rootEl.style.setProperty('--mx', e.clientX+'px'); this.rootEl.style.setProperty('--my', e.clientY+'px'); };
+  tilt = e => { const t = e.currentTarget, r = t.getBoundingClientRect(), x = (e.clientX - r.left)/r.width, y = (e.clientY - r.top)/r.height;
+    t.style.setProperty('--x', (x*100)+'%'); t.style.setProperty('--y', (y*100)+'%');
+    t.style.transform = 'perspective(900px) rotateX('+((.5-y)*7)+'deg) rotateY('+((x-.5)*9)+'deg) translateZ(0)'; };
+  untilt = e => { e.currentTarget.style.transform = ''; };
+  showTip(x, y, t1, t2){ const el = this.tipEl; if (!el) return; const E = this.I.esc;
+    el.innerHTML = '<b style="font-weight:650">'+E(t1)+'</b>'+(t2 ? '<span style="display:block;color:rgba(255,255,255,.6);font-size:11.5px;margin-top:1px">'+E(t2)+'</span>' : '');
+    el.style.left = x+'px'; el.style.top = y+'px'; el.style.opacity = 1; }
+  hideTip = () => { if (this.tipEl) this.tipEl.style.opacity = 0; };
+
+  prep(){
+    const A = this.A = window.ARCHIVO, I = this.I = window.IAM;
+    this.CountUp = I.makeCountUp(React);
+    this.by = {}; A.canales.forEach(c => this.by[c.canal] = c);
+    this.TOT = { msg:A.canales.reduce((s,c)=>s+c.conteo,0), actas:A.canales.reduce((s,c)=>s+c.actas.length,0), arch:A.canales.reduce((s,c)=>s+c.adjuntos,0), gente:A.personas.filter(p=>p.mensajes).length, horas:Math.round(A.asistencia.reduce((s,g)=>s+g.minutos,0)/60) };
+    this.todas = []; for (const c of A.canales) for (const a of c.actas) this.todas.push({ a, c });
+    this.todas.sort((x,y) => (y.a.iso||'').localeCompare(x.a.iso||''));
+    const f = {}; this.todas.forEach(({a}) => { const k = a.fase || 'Sin fase'; f[k] = (f[k]||0)+1; });
+    this.fasesList = Object.entries(f).sort((a,b)=>b[1]-a[1]);
+    const rec = []; for (const c of A.canales) for (const m of c.mensajes) if (!m.sistema && m.autor !== 'Bienvenida' && m.texto) rec.push({ m, c });
+    rec.sort((x,y) => y.m.ts.localeCompare(x.m.ts));
+    this.ticker = rec.slice(0, 22).map(({m,c}) => ({ autor:m.autor, canal:c.nombre, txt:(t => t.length > 90 ? t.slice(0,90)+'…' : t)(I.limpio(m.texto)) }));
+    this.msgCache = {};
+    this.semLab = A.semanas.map(s => I.fechaCorta(s));
+  }
+
+  leerHash(){
+    const t = decodeURIComponent(location.hash.replace(/^#\/?/,'')).split('/').filter(Boolean);
+    const v = { ...this.state.v, acta:null, persona:null };
+    if (!t.length) Object.assign(v, { tipo:'portada', canal:null });
+    else if (['actas','personas','archivos','grabaciones','asistencia'].includes(t[0]) && !this.by[t[0]]) Object.assign(v, { tipo:t[0], canal:null, persona:(t[0]==='asistencia' && t[1]!=null) ? +t[1] : null });
+    else if (this.by[t[0]]) Object.assign(v, { tipo:'canal', canal:t[0], pestana:['mensajes','actas','grabaciones','fijados','archivos'].includes(t[1]) ? t[1] : 'mensajes', acta:t[2] || null });
+    else Object.assign(v, { tipo:'portada', canal:null });
+    this.setState({ v });
+  }
+  hashDe(v){
+    return v.tipo === 'portada' ? '#/' : v.tipo === 'asistencia' ? '#/asistencia'+(v.persona!=null ? '/'+v.persona : '') : v.tipo !== 'canal' ? '#/'+v.tipo : '#/'+v.canal+'/'+v.pestana+(v.acta ? '/'+encodeURIComponent(v.acta) : '');
+  }
+  ir(patch){
+    const v = { ...this.state.v, ...patch };
+    const h = this.hashDe(v);
+    if (location.hash !== h){ this._skip = true; try{ history.replaceState(null, '', h); }catch(e){ location.hash = h; } this._skip = false; }
+    const go = () => this.setState({ v, pal:false, railOpen:false }, () => { if (this.bodyEl) this.bodyEl.scrollTop = 0; });
+    this.hideTip();
+    const RD = window.ReactDOM;
+    if (document.startViewTransition && RD && RD.flushSync) document.startViewTransition(() => RD.flushSync(go)); else go();
+  }
+
+  onKey(e){
+    if (!this.state.ready) return;
+    const k = e.key;
+    if ((e.metaKey || e.ctrlKey) && k.toLowerCase() === 'k'){ e.preventDefault(); this.setState(s => ({ pal:!s.pal, q:'', act:0 })); return; }
+    if (!this.state.pal){
+      if (k === '/' && !/INPUT|TEXTAREA/.test(document.activeElement.tagName)){ e.preventDefault(); this.setState({ pal:true, q:'', act:0 }); }
+      if (k === 'Escape') this.setState({ railOpen:false });
+      return;
+    }
+    const n = (this._hits || []).length;
+    if (k === 'Escape'){ e.preventDefault(); this.setState({ pal:false }); }
+    if (k === 'ArrowDown'){ e.preventDefault(); this.setState(s => ({ act:Math.min(n-1, s.act+1) })); }
+    if (k === 'ArrowUp'){ e.preventDefault(); this.setState(s => ({ act:Math.max(0, s.act-1) })); }
+    if (k === 'Enter'){ e.preventDefault(); const h = (this._hits||[])[this.state.act]; if (h) h.run(); }
+  }
+
+  smooth(p){
+    let d = 'M'+p[0][0]+','+p[0][1];
+    for (let i=0;i<p.length-1;i++){ const p0 = p[i-1]||p[i], p1 = p[i], p2 = p[i+1], p3 = p[i+2]||p2;
+      d += ' C'+(p1[0]+(p2[0]-p0[0])/6).toFixed(1)+','+(p1[1]+(p2[1]-p0[1])/6).toFixed(1)+' '+(p2[0]-(p3[0]-p1[0])/6).toFixed(1)+','+(p2[1]-(p3[1]-p1[1])/6).toFixed(1)+' '+p2[0].toFixed(1)+','+p2[1].toFixed(1); }
+    return d;
+  }
+  spark(serie, W, H){
+    const mx = Math.max(...serie, 1), n = serie.length;
+    const p = serie.map((v,i) => [i*W/(n-1), H - 2 - v/mx*(H-6)]);
+    const line = this.smooth(p);
+    return { line, area: line+' L'+W+','+H+' L0,'+H+' Z', pts: p.map(q => q[0].toFixed(1)+','+q[1].toFixed(1)).join(' ') };
+  }
+  arch(t){ const T = this.I.tipoArch(t); return { t:T, bg: T==='PDF' ? '#C00000' : T==='VID' ? '#7A0000' : T==='CSV' || T==='XLS' ? '#2B2B30' : '#45454B' }; }
+
+  actaCard(a, c, i, conCanal){
+    const ch = [];
+    if (a.prevista) ch.push({ t:'prevista', bg:'var(--card2)', col:'var(--ink2)' });
+    if ((a.kpis||[]).length) ch.push({ t:a.kpis.length+' KPI', bg:'var(--redsoft)', col:'var(--redt)' });
+    if ((a.tareas||[]).length) ch.push({ t:a.tareas.length+' tareas', bg:'var(--card2)', col:'var(--ink2)' });
+    if ((a.alertas||[]).length) ch.push({ t:a.alertas.length+' alertas', bg:'var(--card2)', col:'var(--ink2)' });
+    if (a.grabacion) ch.push({ t:'▶ video', bg:'#C00000', col:'#fff' });
+    return { n:a.sesion_num != null ? a.sesion_num : '—', fecha:this.I.fechaCorta(a.iso), meta:a.fase || a.area_completa || a.area || '', canal:c.nombre, chips:ch, delay:Math.min(i*40, 600)+'ms',
+      go:() => this.ir({ tipo:'canal', canal:c.canal, pestana:'actas', acta:a.archivo }) };
+  }
+
+  normActa(a, c){
+    const I = this.I, H = s => ({ __html:I.md(s) });
+    const nivel = n => { const u = String(n||'').toUpperCase(); return /CRIT|URGEN/.test(u) ? ['#C00000','#fff'] : /ALT/.test(u) ? ['var(--redsoft)','var(--redt)'] : ['var(--card2)','var(--ink2)']; };
+    const part = (a.participantes||[]).map(p => { const n = typeof p === 'string' ? p : (p.nombre||''); const no = typeof p === 'object' && (p.asistio === false || /^no$/i.test(String(p.asistencia||'')));
+      return { n, rol: typeof p === 'object' ? String(p.cargo||'').replace(/\s*\(.*\)$/,'').replace(/\s*—\s*Comfacesar$/,'') : '', ini:I.iniciales(n), col:I.colorDe(n), op: no ? '.4' : '1' }; });
+    let inf = null;
+    if (a.informe){ const d = a.informe.duracion_min || 1;
+      inf = { dur:I.horas(a.informe.duracion_min), media:I.horas(a.informe.media_min), rows:a.informe.participantes.slice().sort((x,y)=>y.minutos-x.minutos).map((p,i) => ({ n:p.nombre, rol:p.rol||'', h:I.horas(p.minutos), pct:Math.max(2, Math.min(100, p.minutos/d*100)).toFixed(1)+'%', delay:(i*60)+'ms' })) }; }
+    const avisos = [['alertas','Alertas'],['riesgos','Riesgos']].filter(([k]) => (a[k]||[]).length).map(([k,tit]) => ({ tit, n:a[k].length, items:a[k].map(x => {
+      if (typeof x === 'string') return { hasNum:false, hasNivel:false, t:H(''), d:H(x) };
+      const [nb,nc] = nivel(x.nivel); return { num:x.num||'', hasNum:!!x.num, nivel:String(x.nivel||'').toUpperCase(), hasNivel:!!x.nivel, nbg:nb, ncol:nc, t:H(x.titulo||''), d:H(x.descripcion||'') }; }) }));
+    const ejer = (a.ejercicios||[]).map((e,i) => typeof e === 'string' ? { i:i+1, t:H(e), mt:'', ob:H(''), pasos:[], hasRes:false } :
+      { i:i+1, t:H(e.titulo||''), mt:[e.duracion, e.modalidad].filter(Boolean).join(' · '), ob:H(e.objetivo||''), pasos:(e.pasos||[]).map(x => ({ h:H(I.textoDe(x)) })), hasRes:!!e.resultado, res:H(e.resultado||'') });
+    const opor = (a.oportunidades||[]).map(o => typeof o === 'string' ? { cj:'', t:H(''), d:H(o), items:[] } : { cj:o.encabezado||'', t:H(o.titulo||''), d:H(o.descripcion||''), items:(o.barras||[]).map(x => ({ h:H(I.textoDe(x)) })) });
+    const tareas = (a.tareas||[]).map(t => { if (typeof t === 'string') return { h:H(t), resp:'—', plazo:'', prio:'', pbg:'transparent', pcol:'inherit' };
+      const [pb,pc] = nivel(t.prioridad); return { h:H(t.tarea||''), resp:t.responsable||'—', plazo:t.plazo||'', prio:String(t.prioridad||'').toUpperCase(), pbg:pb, pcol:pc }; });
+    const p = a.proxima_sesion;
+    const prox = p ? { t:H([p.sesion,p.fecha,p.hora].filter(Boolean).join(' · ')), cond:(p.condiciones||[]).map(x => ({ h:H(I.textoDe(x)) })), hasCond:!!(p.condiciones||[]).length, agenda:(p.agenda||[]).map(x => ({ h:H(I.textoDe(x)) })), hasAgenda:!!(p.agenda||[]).length, nota:H(p.nota||'') } : null;
+    return {
+      titulo:a.area_completa || (a.area ? a.area.charAt(0)+a.area.slice(1).toLowerCase() : c.nombre), ses:a.sesion_num != null ? '· Sesión '+a.sesion_num : '', sub:a.subtitulo_meta || a.fecha || a.iso,
+      fase:a.fase||'', hasFase:!!a.fase, grab:a.grabacion||'', hasGrab:!!a.grabacion, pdf:a.pdf||'', hasPdf:!!a.pdf,
+      kpis:(a.kpis||[]).map((k,i) => ({ v:String(k.valor != null ? k.valor : ''), e:k.etiqueta||'', d:k.detalle||'', delay:(i*60)+'ms' })), hasKpis:!!(a.kpis||[]).length,
+      datos:(a.datos_sesion||[]).map(d => { const q = Array.isArray(d) ? d : [d.campo, d.valor]; return { k:q[0], h:H(String(q[1]==null?'':q[1])) }; }), hasDatos:!!(a.datos_sesion||[]).length,
+      part, hasPart:!!part.length, nPart:part.length, inf, hasInf:!!inf, avisos,
+      ejer, hasEjer:!!ejer.length, nEjer:ejer.length, opor, hasOpor:!!opor.length,
+      tareas, hasTareas:!!tareas.length, nTareas:tareas.length, tareasIntro:H(a.tareas_intro||''),
+      obs:(a.observaciones||[]).map((x,i) => ({ i:String(i+1).padStart(2,'0'), h:H(I.textoDe(x)) })), hasObs:!!(a.observaciones||[]).length,
+      prox, hasProx:!!prox, fuente:a.archivo||'', back:() => this.ir({ acta:null })
+    };
+  }
+
+  mensajes(c, sis){
+    const key = c.canal+'|'+sis; if (this.msgCache[key]) return this.msgCache[key];
+    const I = this.I, days = []; let dia = null, prev = null, cur = null;
+    for (const m of c.mensajes){
+      if (!sis && m.sistema) continue;
+      if (m.fecha !== dia){ dia = m.fecha; prev = null; cur = { label:I.fechaLarga(m.fecha), msgs:[] }; days.push(cur); }
+      const seg = prev && prev.uid === m.uid && !m.sistema && !prev.sistema && (parseFloat(m.ts) - parseFloat(prev.ts) < 600);
+      cur.msgs.push({ autor:m.autor, hora:m.hora, ini:I.iniciales(m.autor), col:I.colorDe(m.autor), head:!seg, pad: seg ? '2px 12px' : '10px 12px 4px', op: m.sistema ? '.55' : '1',
+        html:{ __html:I.marcar(m.texto) }, adj:m.adjuntos.map(a => ({ ...this.arch(a.tipo), nombre:a.nombre, peso:a.peso+' · '+a.tipo })),
+        hasHilo:!!m.hilo, hilo: m.hilo ? m.hilo.respuestas+' '+(m.hilo.respuestas===1 ? 'respuesta' : 'respuestas') : '',
+        hasReacc:!!m.reacciones.length, reacc:m.reacciones.map(r => ({ t:(I.EMOJI ? '' : '')+((window.IAM && IAM.marcar(':'+r.emoji+':').replace(/<[^>]+>/g,'')) || r.emoji)+' '+r.cuenta })) });
+      prev = m;
+    }
+    return this.msgCache[key] = days;
+  }
+
+  buscar(q){
+    const I = this.I, A = this.A, nq = I.plano(q), out = [];
+    const canalHit = c => ({ k:'Canales', ic:'#', t1:I.esc(c.nombre), t2:c.conteo+' mensajes · '+c.actas.length+' actas', dr:'', run:() => this.ir({ tipo:'canal', canal:c.canal, pestana:'mensajes', acta:null }) });
+    if (!q){
+      [['Resumen','⌂','portada'],['Actas','◷','actas'],['Grabaciones','▶','grabaciones'],['Asistencia','◉','asistencia']].forEach(([t,ic,tipo]) => out.push({ k:'Ir a', ic, t1:t, t2:'Vista general', dr:'', run:() => this.ir({ tipo, canal:null, acta:null, persona:null }) }));
+      A.canales.slice(0,8).forEach(c => out.push(canalHit(c)));
+      return out;
+    }
+    A.canales.forEach(c => { if (I.plano(c.nombre).includes(nq) || I.plano(c.canal).includes(nq)) out.push(canalHit(c)); });
+    for (const { a, c } of this.todas){ const campo = (a.area_completa||'')+' '+(a.area||'')+' sesion '+a.sesion_num+' '+(a.subtitulo_meta||'')+' '+(a.fase||'');
+      if (I.plano(campo).includes(nq)) out.push({ k:'Actas', ic:'◷', t1:I.esc((a.area_completa||c.nombre)+' · Sesión '+a.sesion_num), t2:'#'+c.nombre+' · '+(a.fase||''), dr:I.fechaCorta(a.iso), run:() => this.ir({ tipo:'canal', canal:c.canal, pestana:'actas', acta:a.archivo }) }); }
+    A.asistencia.forEach((g,i) => { if (I.plano(g.nombre).includes(nq) || I.plano(g.cargo||'').includes(nq)) out.push({ k:'Personas', ic:'◉', t1:I.esc(g.nombre), t2:g.cargo || '', dr:I.horas(g.minutos), run:() => this.ir({ tipo:'asistencia', canal:null, acta:null, persona:i }) }); });
+    const ms = [];
+    for (const c of A.canales) for (const m of c.mensajes){ if (m.sistema) continue;
+      if (I.plano(I.limpio(m.texto)).includes(nq) || I.plano(m.autor).includes(nq) || m.adjuntos.some(a => I.plano(a.nombre).includes(nq)))
+        ms.push({ k:'Mensajes', ic:'≡', t1:I.recorte(m.texto, q), t2:m.autor+' · #'+c.nombre, dr:I.fechaCorta(m.fecha), ts:m.ts, run:() => this.ir({ tipo:'canal', canal:c.canal, pestana:'mensajes', acta:null }) }); }
+    ms.sort((x,y) => y.ts.localeCompare(x.ts));
+    return out.concat(ms).slice(0, 60);
+  }
+
+  renderVals(){
+    const s = this.state, v = s.v;
+    const narrow = s.w < 900, phone = s.w < 640, mid = !narrow && s.w < 1250;
+    const base = {
+      tema:s.tema, temaIc: s.tema === 'claro' ? '☾' : '☀', loading:!s.ready,
+      rootRef:this.rootRef, bodyRef:this.bodyRef, tipRef:this.tipRef, heroRef:this.heroRef, qRef:this.qRef,
+      onMove:this.onMove, tilt:this.tilt, untilt:this.untilt, hideTip:this.hideTip,
+      cols: narrow ? 'minmax(0,1fr)' : '272px minmax(0,1fr)', narrow, narrowOpen: narrow && s.railOpen,
+      railPos: narrow ? 'fixed' : 'relative', railX: narrow && !s.railOpen ? 'translateX(-105%)' : 'none',
+      padX: phone ? '14px' : '28px', pad: phone ? '16px 14px 80px' : narrow ? '22px 22px 90px' : '28px 36px 110px',
+      bento: narrow ? 'minmax(0,1fr)' : 'repeat(12,minmax(0,1fr))',
+      sp4: narrow ? 'auto' : mid ? 'span 12' : 'span 4', sp5: narrow ? 'auto' : mid ? 'span 12' : 'span 5', sp7: narrow ? 'auto' : mid ? 'span 12' : 'span 7', sp8: narrow ? 'auto' : mid ? 'span 12' : 'span 8', sp12: narrow ? 'auto' : 'span 12',
+      kpiCols: (narrow || mid) ? 'repeat(auto-fit,minmax(150px,1fr))' : '1fr 1fr', crumb:'', nCanales:'', totalMsg:'',
+      toggleTema: () => this.setState(st => { const t = st.tema === 'claro' ? 'oscuro' : 'claro'; try{ localStorage.setItem('iam-tema-v2', t); }catch(e){} return { tema:t }; }),
+      openPal: () => this.setState({ pal:true, q:'', act:0 }), openRail: () => this.setState({ railOpen:true }), closeRail: () => this.setState({ railOpen:false }),
+      goHome: () => this.ir({ tipo:'portada', canal:null, acta:null }), goAsis: () => this.ir({ tipo:'asistencia', canal:null, acta:null, persona:null }),
+      pal:s.pal && s.ready, q:s.q, onQ: e => this.setState({ q:e.target.value, act:0 }), palBg: e => { if (!e.target.closest('[data-pal]')) this.setState({ pal:false }); },
+      vPortada:false, vCanal:false, vGlobal:false, vActas:false, vGrab:false, vAsis:false, vPersona:false, vPersonas:false, vArchivos:false,
+      nav:[], chans:[], hits:[], noHits:false
+    };
+    if (!s.ready) return base;
+    const A = this.A, I = this.I, T = this.TOT;
+    const sel = on => on ? { bg:'var(--redsoft)', color:'var(--ink)' } : { bg:'transparent', color:'var(--ink2)' };
+    base.nav = [['portada','⌂','Resumen',''],['actas','◷','Actas',T.actas],['grabaciones','▶','Grabaciones',A.n_grabaciones],['asistencia','◉','Asistencia',A.asistencia.length],['personas','◍','Personas',T.gente],['archivos','◰','Archivos',T.arch]]
+      .map(([tipo,ic,label,n]) => ({ ic, label, n, ...sel(v.tipo === tipo), go:() => this.ir({ tipo, canal:null, acta:null, persona:null }) }));
+    base.chans = A.canales.map(c => { const on = v.tipo === 'canal' && v.canal === c.canal; return { nombre:c.nombre, n:c.conteo, ...sel(on), hash: on ? 'var(--redt)' : 'var(--ink3)', spark:this.spark(c.pulso, 40, 14).pts, go:() => this.ir({ tipo:'canal', canal:c.canal, pestana:'mensajes', acta:null }) }; });
+    base.nCanales = A.canales.length; base.totalMsg = I.miles(T.msg); base.totActas = T.actas;
+
+    if (s.pal){
+      const hits = this.buscar(s.q.trim()); this._hits = hits; let g = null;
+      base.hits = hits.map((h,i) => { const hdr = h.k !== g; g = h.k; const on = i === s.act;
+        return { hdr, hdrT:h.k, ic:h.ic, t1:{ __html:h.t1 }, t2:h.t2, dr:h.dr, bg: on ? 'var(--redsoft)' : 'transparent', icBg: on ? '#C00000' : 'var(--card2)', icCol: on ? '#fff' : 'var(--ink2)', go:h.run, hov:() => { if (this.state.act !== i) this.setState({ act:i }); } }; });
+      base.noHits = !hits.length;
+    }
+
+    if (v.tipo === 'portada'){
+      base.vPortada = true; base.crumb = 'Resumen';
+      const CU = this.CountUp;
+      base.kpis = [['Mensajes','≡',T.msg,'en '+A.canales.length+' canales'],['Actas','◷',T.actas,'sesiones documentadas'],['Grabaciones','▶',A.n_grabaciones,'en SharePoint'],['Horas en sala','◉',T.horas,A.asistencia.length+' personas medidas']]
+        .map(([l,ic,n,sub],i) => ({ l, ic, s:sub, delay:(100+i*80)+'ms', el:React.createElement(CU, { to:n, key:l }) }));
+      base.ticker = this.ticker.concat(this.ticker);
+      const P = A.pulso, PA = A.pulso_actas, n = P.length, W = 900, H = 230, mx = Math.max(...P,1), ma = Math.max(...PA,1);
+      const pts = P.map((val,i) => [i*W/(n-1), H - 14 - val/mx*(H-44)]);
+      const line = this.smooth(pts), iP = P.indexOf(mx);
+      base.pulso = { line, area: line+' L'+W+','+H+' L0,'+H+' Z', pico:this.semLab[iP],
+        grid:[.25,.5,.75].map(f => ({ y:(H - 14 - f*(H-44)).toFixed(1) })),
+        bars:PA.map((val,i) => { const h = val/ma*70; return { x:Math.max(0, Math.min(W-16, i*W/(n-1)-8)).toFixed(1), y:(H-h).toFixed(1), h:h.toFixed(1), delay:(300+i*60)+'ms' }; }),
+        dots:pts.map((p,i) => ({ top:(p[1]/H*100).toFixed(2)+'%', zl:((i/(n-1))*100 - 50/(n-1)).toFixed(2)+'%', zw:(100/(n-1)).toFixed(2)+'%',
+          enter: e => { const r = e.currentTarget.getBoundingClientRect(); const ini = A.semanas[i], fin = new Date(new Date(ini+'T00:00:00Z').getTime()+6*864e5).toISOString().slice(0,10);
+            this.showTip(r.left + r.width/2, r.top + p[1]/H*r.height, P[i]+' mensajes · '+PA[i]+' actas', 'semana del '+I.fechaCorta(ini)+' al '+I.fechaCorta(fin)); } })),
+        labels:this.semLab.map(t => ({ t, s:t.split(' ')[0]+' '+t.split(' ')[1].slice(0,1) })) };
+      const C = 2*Math.PI*76, cols = ['#C00000','#FF4D4D','#6E0000','var(--ink2)','var(--ink3)','#FF9A94'];
+      let cum = 0;
+      base.fases = this.fasesList.map(([label,cnt],i) => { const len = cnt/T.actas*C; const o = { label, n:cnt, col:cols[i%cols.length], dash:Math.max(0,len-2).toFixed(2)+' '+(C-len+2).toFixed(2), off:(-cum).toFixed(2), delay:(i*120)+'ms' }; cum += len; return o; });
+      const hmx = Math.max(...A.canales.flatMap(c => c.pulso), 1);
+      base.heat = A.canales.filter(c => c.canal !== 'todo-iamteam').map((c,ri) => ({ nombre:c.nombre, go:() => this.ir({ tipo:'canal', canal:c.canal, pestana:'mensajes', acta:null }),
+        cells:c.pulso.map((val,i) => ({ bg: val ? 'rgba(220,0,0,'+(.14 + .86*Math.pow(val/hmx,.7)).toFixed(3)+')' : 'var(--card2)', delay:(ri*25+i*15)+'ms',
+          enter: e => { const r = e.currentTarget.getBoundingClientRect(); this.showTip(r.left + r.width/2, r.top, c.nombre+' · '+val+' mensajes', 'semana del '+this.semLab[i]); } })) }));
+      const asisOrd = A.asistencia.map((g,i) => ({ g, i })).sort((x,y) => y.g.minutos - x.g.minutos);
+      const amx = asisOrd.length ? asisOrd[0].g.minutos : 1;
+      base.top = asisOrd.slice(0,7).map(({g,i},k) => ({ rank:String(k+1).padStart(2,'0'), nombre:g.nombre, ini:I.iniciales(g.nombre), col:I.colorDe(g.nombre), h:I.horas(g.minutos), pct:(g.minutos/amx*100).toFixed(1)+'%', delay:(400+k*70)+'ms', go:() => this.ir({ tipo:'asistencia', canal:null, acta:null, persona:i }) }));
+      base.cards = A.canales.map((c,i) => { const sp = this.spark(c.pulso, 200, 44);
+        return { nombre:c.nombre, rango:I.fechaCorta(c.desde)+' – '+I.fechaCorta(c.hasta), conteo:c.conteo, actas:c.actas.length, adj:c.adjuntos, line:sp.line, area:sp.area, delay:Math.min(i*40, 700)+'ms', go:() => this.ir({ tipo:'canal', canal:c.canal, pestana:'mensajes', acta:null }) }; });
+    }
+    else if (v.tipo === 'canal'){
+      const c = this.by[v.canal]; base.vCanal = true; base.crumb = '#'+c.nombre;
+      const fij = (c.fijados||[]).slice(); if ((A.generales||[]).length) fij.push({ titulo:'Del programa', icono:'⭕', enlaces:A.generales });
+      const tab = v.acta ? 'actas' : v.pestana;
+      const tabs = [['mensajes','Mensajes',c.conteo],['actas','Actas',c.actas.length],['grabaciones','Grabaciones',c.grabaciones.length],['fijados','Fijados',fij.reduce((s,f)=>s+(f.enlaces||[]).length,0)],['archivos','Archivos',c.adjuntos]]
+        .map(([k,label,n]) => { const on = tab === k; return { label, n, bg: on ? 'var(--bg)' : 'transparent', color: on ? 'var(--ink)' : 'rgba(255,255,255,.65)', hover: on ? 'var(--ink)' : '#fff', nbg: on ? 'var(--redsoft)' : 'rgba(255,255,255,.1)', go:() => this.ir({ pestana:k, acta:null }) }; });
+      const ocultos = c.conteo_total - c.conteo;
+      const grab = c.grabaciones.slice().sort((x,y) => y.fecha.localeCompare(x.fecha)).map((g,i) => this.grabCard(g, c, i, false));
+      const arch = []; for (const m of c.mensajes) for (const a of m.adjuntos) arch.push({ ...this.arch(a.tipo), nombre:a.nombre, sub:a.peso+' · '+a.tipo, fecha:I.fechaCorta(m.fecha), _f:m.fecha });
+      arch.sort((x,y) => y._f.localeCompare(x._f));
+      const acta = v.acta ? c.actas.find(x => x.archivo === v.acta) : null;
+      base.c = { nombre:c.nombre, canal:c.canal, tabs,
+        stats:[{ v:c.conteo, l:'mensajes' },{ v:c.actas.length, l:'actas' },{ v:c.adjuntos, l:'archivos' },{ v:I.fechaCorta(c.desde)+' – '+I.fechaCorta(c.hasta), l:'' }],
+        tabMsg: !v.acta && v.pestana === 'mensajes', tabActas: !v.acta && v.pestana === 'actas', showActa: !!acta, tabGrab: !v.acta && v.pestana === 'grabaciones', tabFij: !v.acta && v.pestana === 'fijados', tabArch: !v.acta && v.pestana === 'archivos',
+        days: (!v.acta && v.pestana === 'mensajes') ? this.mensajes(c, v.sistema) : [],
+        hasSys: ocultos > 0, sysLabel:(v.sistema ? 'Ocultar' : 'Ver')+' los '+ocultos+' avisos del sistema', toggleSys:() => this.ir({ sistema:!v.sistema }),
+        actas:c.actas.map((a,i) => this.actaCard(a, c, i, false)), noActas:!c.actas.length,
+        grab, fij:fij.map(f => ({ titulo:f.titulo||'Carpeta', icono:f.icono||'📁', enlaces:(f.enlaces||[]).map(e => ({ url:e.url, titulo:e.titulo||e.url, nota:e.nota || String(e.url).replace(/^https?:\/\//,'') })) })), arch };
+      base.ac = acta ? this.normActa(acta, c) : { back:() => {} };
+    }
+    else {
+      base.vGlobal = true; const g = base.g = {};
+      if (v.tipo === 'actas'){
+        base.vActas = true; base.crumb = 'Actas';
+        const lista = v.fase ? this.todas.filter(x => (x.a.fase||'Sin fase') === v.fase) : this.todas;
+        g.titulo = 'Actas'; g.meta = lista.length+' sesiones documentadas · de la más reciente a la primera';
+        const chip = (t, n, on, fase) => ({ t, n, bg: on ? '#C00000' : 'var(--card)', col: on ? '#fff' : 'var(--ink2)', bd: on ? '#C00000' : 'var(--line)', go:() => this.ir({ fase }) });
+        g.chips = [chip('Todas', T.actas, !v.fase, null)].concat(this.fasesList.map(([f,n]) => chip(f, n, v.fase === f, f)));
+        g.actas = lista.map(({a,c},i) => this.actaCard(a, c, i, true));
+      } else if (v.tipo === 'grabaciones'){
+        base.vGrab = true; base.crumb = 'Grabaciones';
+        g.titulo = 'Grabaciones'; g.meta = A.n_grabaciones+' sesiones grabadas · se abren con tu cuenta IAM™';
+        g.grab = A.canales.flatMap(c => c.grabaciones.map(x => ({ x, c }))).sort((p,q) => q.x.fecha.localeCompare(p.x.fecha)).map(({x,c},i) => this.grabCard(x, c, i, true));
+      } else if (v.tipo === 'asistencia' && v.persona != null && A.asistencia[v.persona]){
+        base.vPersona = true; const p = A.asistencia[v.persona]; base.crumb = p.nombre;
+        const n = p.sesiones.length, mxm = Math.max(...p.sesiones.map(x=>x.minutos), 1);
+        g.titulo = 'Asistencia'; g.meta = 'Detalle por persona'; g.back = () => this.ir({ persona:null });
+        g.per = { nombre:p.nombre, ini:I.iniciales(p.nombre), col:I.colorDe(p.nombre), sub:[p.cargo, p.correo && p.correo !== '—' ? p.correo : ''].filter(Boolean).join(' · '),
+          kpis:[{ v:n, e:'Sesiones' },{ v:Math.round(p.minutos/60), e:'Horas en sala' },{ v:n ? Math.round(p.minutos/n) : 0, e:'Minutos por sesión' },{ v:I.fechaCorta(p.sesiones[n-1].fecha), e:'Primera' },{ v:I.fechaCorta(p.sesiones[0].fecha), e:'Última' }],
+          ses:p.sesiones.map(x => ({ f:I.fechaCorta(x.fecha), canal:(this.by[x.canal]||{}).nombre || x.canal, s:x.sesion, h:I.horas(x.minutos), pct:(x.minutos/mxm*100).toFixed(1)+'%', go:() => this.ir({ tipo:'canal', canal:x.canal, pestana:'mensajes', acta:null, persona:null }) })) };
+      } else if (v.tipo === 'asistencia'){
+        base.vAsis = true; base.crumb = 'Asistencia';
+        const tot = A.asistencia.reduce((s2,x)=>s2+(x.n||x.sesiones.length),0), mx = Math.max(...A.asistencia.map(x => x.n||x.sesiones.length), 1);
+        g.titulo = 'Asistencia'; g.meta = tot+' participaciones · '+A.asistencia.length+' personas · '+T.horas+' horas en sala';
+        g.asis = A.asistencia.map((p,i) => { const n = p.n || p.sesiones.length; return { rank:String(i+1).padStart(2,'0'), nombre:p.nombre, ini:I.iniciales(p.nombre), col:I.colorDe(p.nombre), cargo:p.cargo || (p.canales||[]).map(x => '#'+((this.by[x]||{}).nombre||x)).join(' · '), n, h:I.horas(p.minutos), pct:(n/mx*100).toFixed(1)+'%', delay:Math.min(i*30, 600)+'ms', go:() => this.ir({ persona:i }) }; });
+        g.asisNota = 'Sale de los informes de asistencia de Teams, los '+(A.sesiones_informe||[]).length+' que están guardados: traen entrada, salida y minutos reales de cada persona.'+(A.mentoria && A.mentoria.length ? ' La mentoría va aparte: '+A.mentoria[0].nombre+' estuvo en '+(A.mentoria[0].n || A.mentoria[0].sesiones.length)+' sesiones.' : '')+' Solo cuenta quien está en el listado oficial del área.';
+      } else if (v.tipo === 'personas'){
+        base.vPersonas = true; base.crumb = 'Personas';
+        g.titulo = 'Personas'; g.meta = T.gente+' personas escribieron en el archivo';
+        g.gente = A.personas.filter(p => p.mensajes).map((p,i) => ({ nombre:p.nombre, correo:p.correo||'—', ini:I.iniciales(p.nombre), col:I.colorDe(p.nombre), msj:p.mensajes, can:p.canales.length, delay:Math.min(i*25, 600)+'ms' }));
+      } else {
+        base.vArchivos = true; base.crumb = 'Archivos';
+        g.titulo = 'Archivos'; g.meta = T.arch+' adjuntos publicados en los canales';
+        const fl = []; for (const c of A.canales) for (const m of c.mensajes) for (const a of m.adjuntos) fl.push({ ...this.arch(a.tipo), nombre:a.nombre, sub:'#'+c.nombre+' · '+a.peso, fecha:I.fechaCorta(m.fecha), _f:m.fecha });
+        g.arch = fl.sort((x,y) => y._f.localeCompare(x._f));
+      }
+    }
+    return base;
+  }
+
+  grabCard(g, c, i, conCanal){
+    const t = String(g.titulo || '').replace(/⭕️?/g,'').replace(/-?Grabación de la reunión\.mp4$/i,'').replace(/\.mp4$/i,'').replace(/[-_]\d{8}_\d{6}/,'').replace(/\s+/g,' ').trim();
+    return { url:g.url, titulo:t || c.nombre+(g.sesion != null ? ' · Sesión '+g.sesion : ' · Grabación'), ses: g.sesion != null ? 'SESIÓN '+g.sesion : 'GRABACIÓN',
+      sub:(conCanal ? '#'+c.nombre+' · ' : '')+this.I.fechaCorta(g.fecha)+' · '+(g.acta ? 'con acta' : 'sin acta registrada'), delay:Math.min(i*40, 600)+'ms' };
+  }
+}
+</script>
+</body>
+</html>

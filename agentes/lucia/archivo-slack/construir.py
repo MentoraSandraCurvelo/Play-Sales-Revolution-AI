@@ -277,7 +277,9 @@ def main():
     archivo['nota_fijados'] = fijados.get('nota', '')
 
     total_actas = sum(len(c['actas']) for c in archivo['canales'])
-    destino = os.path.join(AQUI, 'app', 'datos.js')
+    # Lo único que cambia cada mes: la plantilla v2 lee este archivo y nada más.
+    destino = os.path.join(AQUI, 'plantilla_v2', 'data', 'archivo.js')
+    os.makedirs(os.path.dirname(destino), exist_ok=True)
     with open(destino, 'w', encoding='utf-8') as f:
         f.write('window.ARCHIVO=')
         json.dump(archivo, f, ensure_ascii=False, separators=(',', ':'))
