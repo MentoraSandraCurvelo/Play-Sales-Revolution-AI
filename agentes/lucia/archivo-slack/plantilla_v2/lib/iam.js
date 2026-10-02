@@ -188,27 +188,28 @@ function hero3D(canvas, nodos, cb){
   };
 }
 /* La plantilla marcaba su texto con formato con `dangerouslySetInnerHTML`, y el
-   runtime no lo implementa —no aparece ni una vez en support.js—: lo dejaba caer
-   en el DOM como un atributo cualquiera y el texto no se pintaba nunca, ni en los
-   mensajes, ni en las actas, ni en las tareas.
-   Ahora viaja en `data-html` y aquí se convierte en contenido real. Se lee del
-   *atributo*, porque el elemento llega vacío; quitarlo al aplicarlo evita que el
-   observador se dispare a sí mismo.
-   PENDIENTE: en la lista de mensajes algunos siguen mostrando las etiquetas en vez
-   de aplicarlas. Las actas sí salen bien. Está sin resolver. */
+   runtime no lo implementa —no aparece ni una vez en support.js—, así que el texto
+   no se pintaba nunca: ni los mensajes, ni las actas, ni las tareas.
+   Ahora viaja en `data-html` y aquí se convierte en contenido real. Hay que
+   recogerlo de dos sitios distintos, y por eso las dos ramas: en las actas el
+   runtime lo deja en el atributo y el elemento llega vacío; en la lista de
+   mensajes lo deja como *texto*, con las etiquetas a la vista.
+   La rama del texto se protege sola: una vez convertido, el contenido ya no
+   empieza por "<", así que no se vuelve a tocar aunque React repinte. */
 function promoverHTML(raiz){
-  for (const el of (raiz || document).querySelectorAll('.iam-html[data-html]')){
-    const h = el.getAttribute('data-html');
-    el.removeAttribute('data-html');
-    if (h) el.innerHTML = h;
+  for (const el of (raiz || document).querySelectorAll('.iam-html')){
+    const attr = el.getAttribute('data-html');
+    if (attr){ el.removeAttribute('data-html'); el.innerHTML = attr; continue; }
+    const t = el.textContent;
+    if (t && /^\s*</.test(t) && t.indexOf('</') !== -1) el.innerHTML = t;
   }
 }
 if (typeof document !== 'undefined'){
   const arranca = () => {
     promoverHTML();
     new MutationObserver(() => promoverHTML()).observe(
-      document.body, { childList:true, subtree:true, attributes:true,
-                       attributeFilter:['data-html'] });
+      document.body, { childList:true, subtree:true, characterData:true,
+                       attributes:true, attributeFilter:['data-html'] });
   };
   if (document.body) arranca();
   else document.addEventListener('DOMContentLoaded', arranca);

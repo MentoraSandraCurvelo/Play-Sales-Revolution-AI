@@ -115,7 +115,7 @@ def main():
         js = sin_pdf if archivo.endswith('archivo.js') else lee(PLANTILLA, archivo)
         html = html.replace(etiqueta, '<script>\n' + en_linea(js) + '\n</script>')
 
-    nombre = 'IAM-archivo-comfacesar%s.html' % ('-sin-internet' if suelta else '')
+    nombre = 'IAM-Hello-comfacesar%s.html' % ('' if suelta else '-con-internet')
     ruta = os.path.join(dest, nombre)
     open(ruta, 'w', encoding='utf-8').write(html)
     print('%s\n  %.1f MB · %d canales · %d mensajes · %d actas · %d grabaciones · %d personas%s'

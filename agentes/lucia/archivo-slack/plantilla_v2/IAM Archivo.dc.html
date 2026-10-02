@@ -8,7 +8,7 @@
 <body>
 <x-dc>
 <helmet>
-<title>IAM™ Intelligence · Archivo Comfacesar</title>
+<title>IAM™Hello · Archivo Comfacesar</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&amp;family=Geist+Mono:wght@400;500&amp;display=swap">
@@ -17,6 +17,30 @@
 <script src="data/archivo.js"></script>
 <style>
 html,body{margin:0;height:100%;background:#060607;}
+/* Halo: el avatar de la marca, que se mueve. El cuerpo es el círculo ⭕ de IAM™
+   y los brazos y pies son cuatro barritas. Todo el baile es CSS — ni imagen ni
+   JavaScript— así que no pesa nada y funciona en el archivo suelto. */
+.halo-baila{position:relative;display:block;width:22px;height:22px}
+.halo-baila i{position:absolute;display:block;background:#C00000;border-radius:2px}
+.halo-aro{left:3px;top:1px;width:16px;height:16px;background:none!important;border-radius:50%;
+  border:3.5px solid #C00000;box-shadow:0 0 12px rgba(255,40,40,.7);
+  animation:halo-cuerpo 1.4s ease-in-out infinite}
+.halo-brazo{top:7px;width:6px;height:2.5px;transform-origin:0 50%}
+.halo-brazo.halo-izq{left:-4px;transform-origin:100% 50%;animation:halo-brazo-izq 1.4s ease-in-out infinite}
+.halo-brazo.halo-der{right:-4px;animation:halo-brazo-der 1.4s ease-in-out infinite}
+.halo-pie{bottom:-1px;width:2.5px;height:5px}
+.halo-pie.halo-izq{left:6px;animation:halo-pie-izq 1.4s ease-in-out infinite}
+.halo-pie.halo-der{right:6px;animation:halo-pie-der 1.4s ease-in-out infinite}
+@keyframes halo-cuerpo{0%,100%{transform:translateY(0) rotate(-7deg) scaleY(1)}
+  25%{transform:translateY(-2.5px) rotate(0deg) scaleY(.94)}
+  50%{transform:translateY(0) rotate(7deg) scaleY(1)}
+  75%{transform:translateY(-2.5px) rotate(0deg) scaleY(.94)}}
+@keyframes halo-brazo-izq{0%,100%{transform:rotate(18deg)}50%{transform:rotate(-42deg)}}
+@keyframes halo-brazo-der{0%,100%{transform:rotate(-18deg)}50%{transform:rotate(42deg)}}
+@keyframes halo-pie-izq{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px) rotate(-14deg)}}
+@keyframes halo-pie-der{0%,100%{transform:translateY(-2px) rotate(14deg)}50%{transform:translateY(0)}}
+/* Quien pida menos movimiento en su sistema, lo recibe quieto. */
+@media (prefers-reduced-motion:reduce){.halo-baila i{animation:none!important}}
 *{box-sizing:border-box;}
 a{color:#FF5A55;text-decoration:none;}
 a:hover{color:#C00000;}
@@ -45,7 +69,7 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
     <div style="position:fixed;inset:0;display:grid;place-items:center;z-index:50;background:#060607">
       <div style="display:flex;flex-direction:column;align-items:center;gap:18px">
         <div style="width:54px;height:54px;border-radius:50%;border:4px solid rgba(192,0,0,.25);border-top-color:#C00000;animation:giro 1s linear infinite"></div>
-        <div style="font:500 12px Geist Mono,monospace;letter-spacing:.14em;text-transform:uppercase;color:#8a8a90">Cargando el archivo IAM™</div>
+        <div style="font:500 12px Geist Mono,monospace;letter-spacing:.14em;text-transform:uppercase;color:#8a8a90">Abriendo IAM™Hello</div>
       </div>
     </div>
   </sc-if>
@@ -57,10 +81,13 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
   <aside style="position:{{ railPos }};transform:{{ railX }};top:0;left:0;bottom:0;width:272px;z-index:31;display:flex;flex-direction:column;min-height:0;height:100%;background:var(--glass);backdrop-filter:saturate(160%) blur(28px);-webkit-backdrop-filter:saturate(160%) blur(28px);border-right:1px solid var(--line);transition:transform .45s cubic-bezier(.32,.72,0,1)">
     <div style="display:flex;align-items:center;gap:12px;padding:20px 16px 14px">
       <div style="position:relative;width:34px;height:34px;border-radius:11px;background:#0A0A0A;display:grid;place-items:center;box-shadow:0 0 0 1px rgba(255,255,255,.08),0 8px 24px rgba(192,0,0,.35);flex:none">
-        <span style="width:16px;height:16px;border-radius:50%;border:3.5px solid #C00000;box-shadow:0 0 12px rgba(255,40,40,.7)"></span>
+        <span class="halo-baila" aria-hidden="true">
+          <i class="halo-aro"></i><i class="halo-brazo halo-izq"></i><i class="halo-brazo halo-der"></i>
+          <i class="halo-pie halo-izq"></i><i class="halo-pie halo-der"></i>
+        </span>
       </div>
       <div style="min-width:0;flex:1">
-        <div style="font-weight:700;font-size:14.5px;letter-spacing:-.02em;line-height:1.2">IAM™ Intelligence</div>
+        <div style="font-weight:700;font-size:14.5px;letter-spacing:-.02em;line-height:1.2">IAM™Hello</div>
         <div style="font:500 10px Geist Mono,monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--ink3);margin-top:3px">Archivo · Comfacesar</div>
       </div>
       <button onClick="{{ toggleTema }}" title="Claro / oscuro" style="width:30px;height:30px;border-radius:9px;display:grid;place-items:center;color:var(--ink2);border:1px solid var(--line);font-size:13px" style-hover="background:var(--card2);color:var(--ink)">{{ temaIc }}</button>
@@ -103,7 +130,7 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
         <button onClick="{{ openRail }}" style="width:34px;height:34px;border-radius:10px;border:1px solid var(--line);display:grid;place-items:center">☰</button>
       </sc-if>
       <div style="display:flex;align-items:center;gap:8px;font-size:13px;color:var(--ink3);min-width:0">
-        <button onClick="{{ goHome }}" style="color:var(--ink3)" style-hover="color:var(--ink)">IAM™</button>
+        <button onClick="{{ goHome }}" style="color:var(--ink3)" style-hover="color:var(--ink)">IAM™Hello</button>
         <span>/</span>
         <span style="color:var(--ink);font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ crumb }}</span>
       </div>

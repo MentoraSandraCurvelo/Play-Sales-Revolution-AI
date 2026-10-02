@@ -1,4 +1,4 @@
-# Archivo IAM™ Intelligence — la réplica de Slack que es de Sandra
+# IAM™Hello — el archivo del programa, que es de Sandra
 
 Slack en plan gratuito **esconde los mensajes a los 90 días y borra a un año** lo que
 tenga más de doce meses. Este archivo existe para que eso deje de importar: lo que se
