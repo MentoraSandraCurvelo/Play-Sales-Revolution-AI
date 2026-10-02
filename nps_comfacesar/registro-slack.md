@@ -6,6 +6,31 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## ✅ 2 oct · 2:20 p. m. · Termómetro v99: entraron las dos actas y el acta confirma la asistencia
+
+**Las dos sesiones del jueves quedan con los tres soportes completos.** Las actas llegaron esta mañana,
+nueve horas después de la grabación:
+
+| Sesión | Acta | Cuándo |
+|---|---|---|
+| Jurídica S12 | `ACTA_Sesion12_Juridica_1octubre2026.pdf` | Dropbox, 9:53 a. m. Resumen en el canal a las 9:52 |
+| Subsidio S8 | `ACTA_Sesion8_SubsidioYAportes_1octubre2026.pdf` | Dropbox, 10:40 a. m., y adjunta en el canal a las 10:43 |
+
+**El acta de Subsidio confirma el cálculo de esta mañana.** Registra la sesión como *individual de José
+Luciano Contreras*, con un solo participante del área: **1 de 1**, los 51 minutos. **Los dos equipos
+conectados eran la misma persona**, como se había supuesto al leer el informe de Teams. El acumulado se
+queda en **179 sobre 195** y el porcentaje en **92%**.
+
+**La única sesión de las 105 que sigue sin asistencia calculable es IPS S5.**
+
+**La nota de las 7:50 que decía «les falta solo el acta» se dejó como está**, con su fecha, y la nueva la
+supersede arriba. Lo que sí se actualizó son las filas de la tabla viva, que ahora dicen «los tres
+soportes». *Las notas con fecha son registro y no se reescriben; la tabla es viva y sí.*
+
+**Sin escribir en Slack.** Falta la de Subsidio S9 a las 3:00.
+
+---
+
 ## ⬇️ 2 oct · 10:15 a. m. · Termómetro v98: se cayó la de Tecnología, la primera del área en todo el programa
 
 **Nueve de la mañana, quince minutos de espera, nadie entró.** El canal ya lo publicó a las 9:18 y ahí
