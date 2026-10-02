@@ -260,6 +260,25 @@ def _asistencia_de_actas(archivo):
           % (len(equipo), sum(g['n'] for g in equipo), len(archivo['mentoria'])))
 
 
+def enlazar_adjuntos(archivo):
+    """Da enlace a los adjuntos de los mensajes que son actas nuestras.
+
+    Slack en plan gratuito exporta el nombre del archivo, no el archivo, as\u00ed que
+    la mayor\u00eda de adjuntos no se pueden abrir \u2014 y conviene que se note. Pero los
+    PDF de las actas s\u00ed los tenemos generados, as\u00ed que esos s\u00ed se enlazan.
+    """
+    nuestros = {os.path.basename(v) for v in
+                json.load(open(os.path.join(AQUI, 'datos', 'pdf-mapa.json'), encoding='utf-8')).values()}
+    enlazados = 0
+    for c in archivo['canales']:
+        for m in c['mensajes']:
+            for a in m['adjuntos']:
+                if a['nombre'] in nuestros:
+                    a['url'] = 'actas/' + a['nombre']
+                    enlazados += 1
+    print('  %d adjuntos enlazados a su PDF' % enlazados)
+
+
 def main():
     archivo = json.load(open(os.path.join(AQUI, 'datos', 'archivo.json'), encoding='utf-8'))
     actas = cargar_actas()
@@ -270,6 +289,7 @@ def main():
         c['actas'] = actas.get(c['canal'], [])
         c['fijados'] = fijados.get('canales', {}).get(c['canal'], {}).get('carpetas', [])
     pdfs(archivo)
+    enlazar_adjuntos(archivo)
     grabaciones(archivo)
     asistencia(archivo)
     pulso(archivo)

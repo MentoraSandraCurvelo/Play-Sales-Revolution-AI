@@ -89,8 +89,24 @@ def sin_internet(html):
     return html.replace(CDN_THREE, '<script>\n' + en_linea(lee(VENDOR, 'three.js')) + '\n</script>')
 
 
+def copiar_actas(dest):
+    """Lleva los PDF de las actas a `<dest>/actas/`, con el nombre con el que se
+    publicaron — que es el que aparece como adjunto en los mensajes."""
+    import shutil
+    origen = os.path.join(os.path.dirname(AQUI), 'salida')
+    destino = os.path.join(dest, 'actas')
+    os.makedirs(destino, exist_ok=True)
+    n = 0
+    for f in sorted(os.listdir(origen)):
+        if f.endswith('.pdf'):
+            shutil.copy(os.path.join(origen, f), os.path.join(destino, f))
+            n += 1
+    return n
+
+
 def main():
     suelta = '--sin-internet' in sys.argv
+    con_pdfs = '--con-pdfs' in sys.argv
     resto = [a for a in sys.argv[1:] if not a.startswith('--')]
     dest = resto[0] if resto else os.path.join(AQUI, 'entregable')
     os.makedirs(dest, exist_ok=True)
@@ -98,12 +114,21 @@ def main():
     html = lee(PLANTILLA, 'IAM Archivo.dc.html')
     datos = lee(PLANTILLA, 'data', 'archivo.js')
 
-    # En un archivo suelto no hay PDFs al lado, así que se quita el campo:
-    # el botón no se dibuja solo, sin tocar el código de la plantilla.
     a = json.loads(datos[datos.index('{'):datos.rindex('}') + 1])
-    for c in a['canales']:
-        for acta in c['actas']:
-            acta.pop('pdf', None)
+    if con_pdfs:
+        # Los PDF viajan en una carpeta `actas/` al lado del HTML, que es a donde
+        # ya apuntan tanto el botón del acta como los adjuntos de los mensajes.
+        copiados = copiar_actas(dest)
+        print('  %d actas copiadas a actas/' % copiados)
+    else:
+        # Sin esa carpeta no hay nada que abrir, así que se quitan los enlaces en
+        # vez de dejar botones que no llevan a ninguna parte.
+        for c in a['canales']:
+            for acta in c['actas']:
+                acta.pop('pdf', None)
+            for m in c['mensajes']:
+                for adj in m['adjuntos']:
+                    adj.pop('url', None)
     sin_pdf = 'window.ARCHIVO=' + json.dumps(a, ensure_ascii=False, separators=(',', ':')) + ';'
 
     if suelta:

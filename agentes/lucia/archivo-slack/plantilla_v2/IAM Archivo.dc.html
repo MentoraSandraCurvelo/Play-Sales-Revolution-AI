@@ -373,9 +373,9 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
                     </sc-if>
                     <div style="font-size:14.5px;line-height:1.6;color:var(--ink);overflow-wrap:anywhere" class="iam-html" data-html="{{ m.html }}"></div>
                     <sc-for list="{{ m.adj }}" as="a" hint-placeholder-count="0">
-                      <div style="display:flex;align-items:center;gap:12px;max-width:440px;margin-top:8px;padding:10px 12px;border-radius:12px;background:var(--card);border:1px solid var(--line)">
+                      <a href="{{ a.url }}" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:12px;max-width:440px;margin-top:8px;padding:10px 12px;border-radius:12px;background:var(--card);border:1px solid var(--line);color:var(--ink);opacity:{{ a.op }}" style-hover="border-color:var(--redline)">
                         <span style="width:38px;height:38px;border-radius:10px;display:grid;place-items:center;background:{{ a.bg }};color:#fff;font:600 10px Geist Mono,monospace;flex:none">{{ a.t }}</span>
-                        <div style="min-width:0"><div style="font-size:13px;font-weight:550;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ a.nombre }}</div><div style="font-size:11.5px;color:var(--ink3)">{{ a.peso }}</div></div>
+                        <div style="min-width:0"><div style="font-size:13px;font-weight:550;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ a.nombre }}</div><div style="font-size:11.5px;color:var(--ink3)">{{ a.peso }}</div></a>
                       </div>
                     </sc-for>
                     <sc-if value="{{ m.hasHilo }}" hint-placeholder-val="{{ false }}">
@@ -947,7 +947,9 @@ class Component extends DCLogic {
       if (m.fecha !== dia){ dia = m.fecha; prev = null; cur = { label:I.fechaLarga(m.fecha), msgs:[] }; days.push(cur); }
       const seg = prev && prev.uid === m.uid && !m.sistema && !prev.sistema && (parseFloat(m.ts) - parseFloat(prev.ts) < 600);
       cur.msgs.push({ autor:m.autor, hora:m.hora, ini:I.iniciales(m.autor), col:I.colorDe(m.autor), head:!seg, pad: seg ? '2px 12px' : '10px 12px 4px', op: m.sistema ? '.55' : '1',
-        html:I.marcar(m.texto), adj:m.adjuntos.map(a => ({ ...this.arch(a.tipo), nombre:a.nombre, peso:a.peso+' · '+a.tipo })),
+        html:I.marcar(m.texto), adj:m.adjuntos.map(a => ({ ...this.arch(a.tipo), nombre:a.nombre, url:a.url || '', op:a.url ? '1' : '.55',
+          /* Slack en plan gratuito exporta el nombre, no el archivo: si no hay enlace, que se vea */
+          peso:a.peso+' · '+a.tipo+(a.url ? '' : ' · el archivo no se guardó') })),
         hasHilo:!!m.hilo, hilo: m.hilo ? m.hilo.respuestas+' '+(m.hilo.respuestas===1 ? 'respuesta' : 'respuestas') : '',
         hasReacc:!!m.reacciones.length, reacc:m.reacciones.map(r => ({ t:(I.EMOJI ? '' : '')+((window.IAM && IAM.marcar(':'+r.emoji+':').replace(/<[^>]+>/g,'')) || r.emoji)+' '+r.cuenta })) });
       prev = m;
