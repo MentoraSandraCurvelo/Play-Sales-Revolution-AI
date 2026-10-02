@@ -344,7 +344,7 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
                         <span style="font:500 11px Geist Mono,monospace;color:var(--ink3)">{{ m.hora }}</span>
                       </div>
                     </sc-if>
-                    <div style="font-size:14.5px;line-height:1.6;color:var(--ink);overflow-wrap:anywhere" data-html="{{ m.html }}"></div>
+                    <div style="font-size:14.5px;line-height:1.6;color:var(--ink);overflow-wrap:anywhere" class="iam-html" data-html="{{ m.html }}"></div>
                     <sc-for list="{{ m.adj }}" as="a" hint-placeholder-count="0">
                       <div style="display:flex;align-items:center;gap:12px;max-width:440px;margin-top:8px;padding:10px 12px;border-radius:12px;background:var(--card);border:1px solid var(--line)">
                         <span style="width:38px;height:38px;border-radius:10px;display:grid;place-items:center;background:{{ a.bg }};color:#fff;font:600 10px Geist Mono,monospace;flex:none">{{ a.t }}</span>
@@ -416,7 +416,7 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
               <div style="padding:16px 20px;border-bottom:1px solid var(--line);font-weight:650;font-size:15px">Datos de la sesión</div>
               <sc-for list="{{ ac.datos }}" as="d" hint-placeholder-count="5">
                 <div style="display:grid;grid-template-columns:minmax(120px,200px) minmax(0,1fr);gap:16px;padding:11px 20px;border-bottom:1px solid var(--line);font-size:13.5px">
-                  <span style="color:var(--ink3)">{{ d.k }}</span><span style="overflow-wrap:anywhere" data-html="{{ d.h }}"></span>
+                  <span style="color:var(--ink3)">{{ d.k }}</span><span style="overflow-wrap:anywhere" class="iam-html" data-html="{{ d.h }}"></span>
                 </div>
               </sc-for>
             </div>
@@ -462,9 +462,9 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
                     <div style="display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:6px;color:var(--ink);font-weight:620;font-size:14px">
                       <sc-if value="{{ x.hasNum }}" hint-placeholder-val="{{ false }}"><span style="font:600 11px Geist Mono,monospace;color:var(--ink3)">{{ x.num }}</span></sc-if>
                       <sc-if value="{{ x.hasNivel }}" hint-placeholder-val="{{ false }}"><span style="padding:2px 8px;border-radius:6px;font:600 10px Geist Mono,monospace;letter-spacing:.06em;background:{{ x.nbg }};color:{{ x.ncol }}">{{ x.nivel }}</span></sc-if>
-                      <span data-html="{{ x.t }}"></span>
+                      <span class="iam-html" data-html="{{ x.t }}"></span>
                     </div>
-                    <div data-html="{{ x.d }}"></div>
+                    <div class="iam-html" data-html="{{ x.d }}"></div>
                   </div>
                 </sc-for>
               </div>
@@ -479,13 +479,13 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
                   <div style="display:flex;align-items:flex-start;gap:12px">
                     <span style="width:30px;height:30px;border-radius:9px;flex:none;display:grid;place-items:center;background:#C00000;color:#fff;font:600 12px Geist Mono,monospace">{{ e.i }}</span>
                     <div style="min-width:0;flex:1">
-                      <div style="color:var(--ink);font-weight:650;font-size:15px" data-html="{{ e.t }}"></div>
+                      <div style="color:var(--ink);font-weight:650;font-size:15px" class="iam-html" data-html="{{ e.t }}"></div>
                       <div style="font:500 11px Geist Mono,monospace;color:var(--ink3);margin-top:2px">{{ e.mt }}</div>
-                      <div style="margin-top:8px" data-html="{{ e.ob }}"></div>
+                      <div style="margin-top:8px" class="iam-html" data-html="{{ e.ob }}"></div>
                       <div style="display:flex;flex-direction:column;gap:6px;margin-top:10px">
-                        <sc-for list="{{ e.pasos }}" as="p" hint-placeholder-count="2"><div style="display:grid;grid-template-columns:14px minmax(0,1fr);gap:8px"><span style="color:var(--redt)">→</span><span data-html="{{ p.h }}"></span></div></sc-for>
+                        <sc-for list="{{ e.pasos }}" as="p" hint-placeholder-count="2"><div style="display:grid;grid-template-columns:14px minmax(0,1fr);gap:8px"><span style="color:var(--redt)">→</span><span class="iam-html" data-html="{{ p.h }}"></span></div></sc-for>
                       </div>
-                      <sc-if value="{{ e.hasRes }}" hint-placeholder-val="{{ false }}"><div style="margin-top:12px;padding:12px 14px;border-radius:12px;background:var(--redsoft);color:var(--ink)" data-html="{{ e.res }}"></div></sc-if>
+                      <sc-if value="{{ e.hasRes }}" hint-placeholder-val="{{ false }}"><div style="margin-top:12px;padding:12px 14px;border-radius:12px;background:var(--redsoft);color:var(--ink)" class="iam-html" data-html="{{ e.res }}"></div></sc-if>
                     </div>
                   </div>
                 </div>
@@ -499,10 +499,10 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
               <sc-for list="{{ ac.opor }}" as="o" hint-placeholder-count="1">
                 <div style="position:relative;overflow:hidden;padding:22px;border-radius:20px;background:linear-gradient(135deg,#0A0A0A,#2a0000);color:#fff;border:1px solid rgba(255,255,255,.08);font-size:14px;line-height:1.6">
                   <div style="font:500 10.5px Geist Mono,monospace;letter-spacing:.12em;color:#FF6A63">{{ o.cj }}</div>
-                  <div style="margin-top:6px;font-size:19px;font-weight:650;letter-spacing:-.02em" data-html="{{ o.t }}"></div>
-                  <div style="margin-top:8px;color:rgba(255,255,255,.78)" data-html="{{ o.d }}"></div>
+                  <div style="margin-top:6px;font-size:19px;font-weight:650;letter-spacing:-.02em" class="iam-html" data-html="{{ o.t }}"></div>
+                  <div style="margin-top:8px;color:rgba(255,255,255,.78)" class="iam-html" data-html="{{ o.d }}"></div>
                   <div style="display:flex;flex-direction:column;gap:5px;margin-top:10px;color:rgba(255,255,255,.78)">
-                    <sc-for list="{{ o.items }}" as="p" hint-placeholder-count="0"><div style="display:grid;grid-template-columns:14px minmax(0,1fr);gap:8px"><span style="color:#FF3B30">•</span><span data-html="{{ p.h }}"></span></div></sc-for>
+                    <sc-for list="{{ o.items }}" as="p" hint-placeholder-count="0"><div style="display:grid;grid-template-columns:14px minmax(0,1fr);gap:8px"><span style="color:#FF3B30">•</span><span class="iam-html" data-html="{{ p.h }}"></span></div></sc-for>
                   </div>
                 </div>
               </sc-for>
@@ -511,13 +511,13 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 
           <sc-if value="{{ ac.hasTareas }}" hint-placeholder-val="{{ false }}">
             <h3 style="margin:30px 0 8px;font-size:18px;font-weight:650;letter-spacing:-.02em">Tareas <span style="font:500 12px Geist Mono,monospace;color:var(--ink3)">{{ ac.nTareas }}</span></h3>
-            <div style="font-size:13.5px;color:var(--ink2);margin-bottom:12px;line-height:1.6" data-html="{{ ac.tareasIntro }}"></div>
+            <div style="font-size:13.5px;color:var(--ink2);margin-bottom:12px;line-height:1.6" class="iam-html" data-html="{{ ac.tareasIntro }}"></div>
             <div style="display:flex;flex-direction:column;gap:8px">
               <sc-for list="{{ ac.tareas }}" as="t" hint-placeholder-count="3">
                 <div style="display:grid;grid-template-columns:22px minmax(0,1fr) auto;gap:12px;align-items:start;padding:14px 16px;border-radius:14px;background:var(--card);border:1px solid var(--line);font-size:13.5px">
                   <span style="width:18px;height:18px;margin-top:2px;border-radius:6px;border:1.5px solid var(--line2)"></span>
                   <div style="min-width:0">
-                    <div style="line-height:1.5" data-html="{{ t.h }}"></div>
+                    <div style="line-height:1.5" class="iam-html" data-html="{{ t.h }}"></div>
                     <div style="margin-top:4px;font-size:12px;color:var(--ink3)">{{ t.resp }} · {{ t.plazo }}</div>
                   </div>
                   <span style="padding:2px 8px;border-radius:6px;font:600 10px Geist Mono,monospace;letter-spacing:.05em;background:{{ t.pbg }};color:{{ t.pcol }};white-space:nowrap">{{ t.prio }}</span>
@@ -529,27 +529,27 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
           <sc-if value="{{ ac.hasObs }}" hint-placeholder-val="{{ false }}">
             <h3 style="margin:30px 0 12px;font-size:18px;font-weight:650;letter-spacing:-.02em">Observaciones</h3>
             <div style="display:flex;flex-direction:column;gap:10px;font-size:14px;line-height:1.65;color:var(--ink2)">
-              <sc-for list="{{ ac.obs }}" as="o" hint-placeholder-count="2"><div style="display:grid;grid-template-columns:26px minmax(0,1fr);gap:8px"><span style="font:600 11px Geist Mono,monospace;color:var(--redt);padding-top:3px">{{ o.i }}</span><span data-html="{{ o.h }}"></span></div></sc-for>
+              <sc-for list="{{ ac.obs }}" as="o" hint-placeholder-count="2"><div style="display:grid;grid-template-columns:26px minmax(0,1fr);gap:8px"><span style="font:600 11px Geist Mono,monospace;color:var(--redt);padding-top:3px">{{ o.i }}</span><span class="iam-html" data-html="{{ o.h }}"></span></div></sc-for>
             </div>
           </sc-if>
 
           <sc-if value="{{ ac.hasProx }}" hint-placeholder-val="{{ false }}">
             <div style="margin-top:30px;padding:22px;border-radius:20px;border:1px solid var(--redline);background:var(--redsoft)">
               <div style="font:500 10.5px Geist Mono,monospace;letter-spacing:.14em;color:var(--redt)">PRÓXIMA SESIÓN</div>
-              <div style="margin-top:6px;font-size:17px;font-weight:650" data-html="{{ ac.prox.t }}"></div>
+              <div style="margin-top:6px;font-size:17px;font-weight:650" class="iam-html" data-html="{{ ac.prox.t }}"></div>
               <sc-if value="{{ ac.prox.hasCond }}" hint-placeholder-val="{{ false }}">
                 <div style="margin-top:14px;font:600 11px Geist Mono,monospace;letter-spacing:.08em;color:var(--ink3)">CONDICIONES DE ENTRADA</div>
                 <div style="display:flex;flex-direction:column;gap:6px;margin-top:8px;font-size:13.5px;color:var(--ink2)">
-                  <sc-for list="{{ ac.prox.cond }}" as="p" hint-placeholder-count="2"><div style="display:grid;grid-template-columns:16px minmax(0,1fr);gap:8px"><span style="color:var(--redt)">✓</span><span data-html="{{ p.h }}"></span></div></sc-for>
+                  <sc-for list="{{ ac.prox.cond }}" as="p" hint-placeholder-count="2"><div style="display:grid;grid-template-columns:16px minmax(0,1fr);gap:8px"><span style="color:var(--redt)">✓</span><span class="iam-html" data-html="{{ p.h }}"></span></div></sc-for>
                 </div>
               </sc-if>
               <sc-if value="{{ ac.prox.hasAgenda }}" hint-placeholder-val="{{ false }}">
                 <div style="margin-top:14px;font:600 11px Geist Mono,monospace;letter-spacing:.08em;color:var(--ink3)">AGENDA</div>
                 <div style="display:flex;flex-direction:column;gap:6px;margin-top:8px;font-size:13.5px;color:var(--ink2)">
-                  <sc-for list="{{ ac.prox.agenda }}" as="p" hint-placeholder-count="2"><div style="display:grid;grid-template-columns:16px minmax(0,1fr);gap:8px"><span style="color:var(--redt)">→</span><span data-html="{{ p.h }}"></span></div></sc-for>
+                  <sc-for list="{{ ac.prox.agenda }}" as="p" hint-placeholder-count="2"><div style="display:grid;grid-template-columns:16px minmax(0,1fr);gap:8px"><span style="color:var(--redt)">→</span><span class="iam-html" data-html="{{ p.h }}"></span></div></sc-for>
                 </div>
               </sc-if>
-              <div style="margin-top:12px;font-size:13.5px;color:var(--ink2)" data-html="{{ ac.prox.nota }}"></div>
+              <div style="margin-top:12px;font-size:13.5px;color:var(--ink2)" class="iam-html" data-html="{{ ac.prox.nota }}"></div>
             </div>
           </sc-if>
 
@@ -740,7 +740,7 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
               <sc-if value="{{ h.hdr }}" hint-placeholder-val="{{ false }}"><div style="padding:12px 12px 6px;font:600 10px Geist Mono,monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3)">{{ h.hdrT }}</div></sc-if>
               <button onClick="{{ h.go }}" onMouseEnter="{{ h.hov }}" style="width:100%;display:flex;align-items:center;gap:12px;padding:9px 12px;border-radius:12px;background:{{ h.bg }};transition:background .12s">
                 <span style="width:30px;height:30px;border-radius:9px;display:grid;place-items:center;background:{{ h.icBg }};color:{{ h.icCol }};font-size:13px;flex:none">{{ h.ic }}</span>
-                <div style="min-width:0;flex:1"><div style="font-size:13.5px;font-weight:550;white-space:nowrap;overflow:hidden;text-overflow:ellipsis" data-html="{{ h.t1 }}"></div><div style="font-size:11.5px;color:var(--ink3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ h.t2 }}</div></div>
+                <div style="min-width:0;flex:1"><div style="font-size:13.5px;font-weight:550;white-space:nowrap;overflow:hidden;text-overflow:ellipsis" class="iam-html" data-html="{{ h.t1 }}"></div><div style="font-size:11.5px;color:var(--ink3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ h.t2 }}</div></div>
                 <span style="font:500 11px Geist Mono,monospace;color:var(--ink3)">{{ h.dr }}</span>
               </button>
             </div>

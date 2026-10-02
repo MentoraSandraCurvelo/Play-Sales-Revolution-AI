@@ -188,15 +188,16 @@ function hero3D(canvas, nodos, cb){
   };
 }
 /* La plantilla marcaba su texto con formato con `dangerouslySetInnerHTML`, y el
-   runtime no lo implementa —no aparece ni una vez en support.js—: el texto no se
-   pintaba nunca, ni en los mensajes ni en las actas ni en las tareas. Y como
-   React sí conoce ese nombre, tampoco servía pasarle la cadena: acababa escrita
-   como texto plano, con las etiquetas a la vista.
-   Por eso ahora viaja en `data-html`, que no le dice nada a nadie, y esto lo
-   convierte en contenido real en cuanto aparece. El atributo se quita al
-   aplicarlo, que es lo que evita que el observador se dispare a sí mismo. */
+   runtime no lo implementa —no aparece ni una vez en support.js—: lo dejaba caer
+   en el DOM como un atributo cualquiera y el texto no se pintaba nunca, ni en los
+   mensajes, ni en las actas, ni en las tareas.
+   Ahora viaja en `data-html` y aquí se convierte en contenido real. Se lee del
+   *atributo*, porque el elemento llega vacío; quitarlo al aplicarlo evita que el
+   observador se dispare a sí mismo.
+   PENDIENTE: en la lista de mensajes algunos siguen mostrando las etiquetas en vez
+   de aplicarlas. Las actas sí salen bien. Está sin resolver. */
 function promoverHTML(raiz){
-  for (const el of (raiz || document).querySelectorAll('[data-html]')){
+  for (const el of (raiz || document).querySelectorAll('.iam-html[data-html]')){
     const h = el.getAttribute('data-html');
     el.removeAttribute('data-html');
     if (h) el.innerHTML = h;
