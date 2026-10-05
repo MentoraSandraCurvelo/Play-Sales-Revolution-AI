@@ -192,3 +192,16 @@ en el programa desde antes y no figuraba aquí; por eso la S8 estuvo a punto de 
 - Correo: `coordinacionsubsidioyaportes@comfacesar.com` · canal `#subsidio`.
 - **Su equipo son Cindy Rodríguez, Avelino y Carlos.** Presenta al **Consejo Directivo**.
 - Carlos estuvo de vacaciones a comienzos de octubre, unas dos semanas más.
+
+
+## Gennifer Mira — Sub. Operativa y Comercial
+
+**No estaba escrita aquí hasta el 5 de octubre**, aunque viene en las actas del área desde
+la Sesión 3. Queda registrada para que no se vuelva a reconstruir desde cero.
+
+- **La forma que se usa es `Gennifer Mira`.** El informe de asistencia de Teams la trae en
+  mayúsculas —`GENNIFER MIRA`— y en la misma reunión aparece además como `genni`, que es su
+  segundo equipo conectado, no otra persona.
+- Cargo: **Asistente Administrativa** del área.
+- Es quien ha asistido a las sesiones individuales del área; `Jonnathan Armenta` es el otro
+  nombre del área en el listado oficial.

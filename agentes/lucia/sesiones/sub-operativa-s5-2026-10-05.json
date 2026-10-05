@@ -1,0 +1,190 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SUB. OPERATIVA Y COMERCIAL",
+  "area_completa": "",
+  "sesion_num": 5,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "5 de octubre de 2026",
+  "fecha_corta": "5 octubre 2026",
+  "subtitulo_meta": "Individual de Gennifer Mira · 5 de octubre de 2026 · 3:00 p. m. · 1 h 7 min",
+  "datos_sesion": [
+    ["Área(s)", "Sub. Operativa y Comercial — Comfacesar"],
+    ["Sesión", "N° 5 — Individual de Gennifer Mira: el primer agente del área"],
+    ["Fecha", "5 de octubre de 2026"],
+    ["Duración de la sesión", "1 hora 7 minutos"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Gennifer Mira — completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "1", "etiqueta": "Primer agente del área", "detalle": "Creado, nombrado y puesto a correr en sesión"},
+    {"valor": "2", "etiqueta": "Revisiones diarias", "detalle": "10:00 a. m. y 4:00 p. m., programadas"},
+    {"valor": "4", "etiqueta": "Pasos del circuito mapeados", "detalle": "Del correo a la carpeta clasificada"},
+    {"valor": "3", "etiqueta": "Entornos diferenciados", "detalle": "Asistido, agéntico y de diseño"},
+    {"valor": "1", "etiqueta": "Tablero llevado a diseño", "detalle": "El panel de indicadores, ahora centro de mando"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Gennifer Mira", "cargo": "Asistente Administrativa — Sub. Operativa y Comercial", "correo": "—", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 5. El área cruza el umbral del programa —construye su primer agente— y los riesgos dejan de ser de aprendizaje para ser de entorno: lo que falta ya no es saber hacerlo, es tener con qué.",
+  "riesgos": [
+    {
+      "titulo": "La licencia de Office es antigua y no admite el complemento",
+      "nivel": "ALTO",
+      "descripcion": "_Se intentó instalar en Excel, PowerPoint y Word durante la sesión y no aparece en la tienda de complementos._ **La licencia instalada no es la actualizada**, y la actualización no depende del área: la gestiona sistemas. _No bloquea el trabajo de hoy_ —el circuito del agente corre por fuera de Office—, **pero sí cierra la puerta a trabajar dentro de la hoja de cálculo**, que es donde el área pasa la mayor parte del día.",
+      "responsable": "Gennifer Mira / Sistemas"
+    },
+    {
+      "titulo": "El conector del correo volvió a aparecer desconectado",
+      "nivel": "ALTO",
+      "descripcion": "**Es el mismo punto de la Sesión 4, y volvió a pasar.** El agente se detuvo él solo antes de crear nada y avisó que no podía leer el correo. _Se reconectó en sesión y siguió._ **Un conector caído no rompe nada, pero deja la rutina en silencio:** el agente corre, no encuentra, y no hay error visible. Hay que revisarlo cuando una rutina no devuelva nada.",
+      "responsable": "Gennifer Mira / Resuelto en sesión"
+    },
+    {
+      "titulo": "La cuenta está en el correo personal, no en el corporativo",
+      "nivel": "MEDIO",
+      "descripcion": "_La licencia se compró con la cuenta de Gmail_, y el agente lee ese correo. **Mientras la cuenta de trabajo no sea la conectada, el agente trabaja sobre el buzón personal** — y el circuito que se está construyendo es de auditoría interna. _Es una decisión administrativa, no técnica, y conviene resolverla antes de ampliar lo que el agente toca._",
+      "responsable": "Gennifer Mira"
+    },
+    {
+      "titulo": "La rutina solo corre con la aplicación abierta en ese equipo",
+      "nivel": "MEDIO",
+      "descripcion": "**Si el computador está cerrado a las 10:00 o a las 4:00, la revisión no se pierde: espera.** Se ejecuta cuando se vuelve a abrir. _Lo dijo el propio agente al programar la rutina._ Hay que contarlo con eso: **la hora programada es una intención, no una garantía**, mientras el circuito viva en un equipo personal.",
+      "responsable": "Gennifer Mira"
+    },
+    {
+      "titulo": "Toda la instrucción se escribe: no hay micrófono",
+      "nivel": "BAJO",
+      "descripcion": "_Explicarle un proceso a un agente se parece a entrenar a alguien que llega nuevo_, y eso se hace hablando. **Sin micrófono, cada instrucción hay que teclearla**, y la sesión se alarga en la parte que menos lo necesita. _Es el obstáculo más barato de quitar de todos los que aparecieron hoy._",
+      "responsable": "Gennifer Mira"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "ALTO", "titulo": "Terminar el circuito del agente", "descripcion": "**Hoy quedó mapeada la primera mitad: del correo a las carpetas creadas.** _Falta la segunda:_ qué hace el agente con las respuestas que devuelven las áreas, que llegan de fuentes distintas y por correos distintos.", "responsable": "Gennifer Mira", "plazo": "Antes de la S6"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Pedir a sistemas la actualización de Office", "descripcion": "Sin la licencia actualizada **el complemento no se puede instalar**, y queda fuera todo el trabajo dentro de Excel, Word y PowerPoint.", "responsable": "Gennifer Mira / Sistemas", "plazo": "Inmediato"},
+    {"num": "03", "nivel": "MEDIO", "titulo": "Dejar el tablero terminado en el entorno de diseño", "descripcion": "El panel quedó corriendo como **centro de mando con gráficos interactivos**. _Falta cerrarlo_ para poder enlazarlo después al agente que lo va a alimentar.", "responsable": "Gennifer Mira", "plazo": "Antes de la S6"},
+    {"num": "04", "nivel": "MEDIO", "titulo": "Revisar el conector del correo antes de cada rutina", "descripcion": "**Es la segunda vez que aparece desconectado.** _Si una rutina no devuelve nada, ese es el primer sitio donde mirar._", "responsable": "Gennifer Mira", "plazo": "Permanente"},
+    {"num": "05", "nivel": "BAJO", "titulo": "Conseguir micrófono o diadema", "descripcion": "_Dictarle al agente en vez de escribirle_ cambia por completo el ritmo de la construcción.", "responsable": "Gennifer Mira", "plazo": "Antes de la S6"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Lo que el área trajo hecho",
+      "duracion": "~5 min",
+      "objetivo": "Revisar el trabajo entre sesiones.",
+      "pasos": [
+        "**El panel de indicadores quedó terminado**, que era la tarea de la Sesión 4",
+        "**Quitó el gráfico de dispersión por decisión propia:** pidió que se lo explicaran, lo entendió y aun así concluyó que _con tantos servicios no le servía_. Es criterio, no desuso",
+        "**Agregó un filtro más**",
+        "**Y le incorporó la exportación a Excel y a PowerPoint** para las reuniones de grupo primario, con la estructura de presentación que el área ya tenía establecida"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El complemento dentro de Office",
+      "duracion": "~15 min",
+      "objetivo": "Llevar la herramienta al sitio donde el área trabaja todos los días: la hoja de cálculo.",
+      "pasos": [
+        "Se abrieron **Excel, PowerPoint y Word**",
+        "Se buscó el complemento en _Insertar → Mis complementos → Tienda_",
+        "**No aparece: la licencia de Office instalada es la antigua.** La actualización la tiene que hacer sistemas",
+        "_Se dejó explícitamente para una segunda fase._ **No frena el resto del programa** — el circuito del agente no depende de Office"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Del tablero al centro de mando",
+      "duracion": "~20 min",
+      "objetivo": "Separar el entorno donde se construye del entorno donde se presenta.",
+      "pasos": [
+        "Se descargó **el HTML del panel** ya terminado y se subió al entorno de diseño",
+        "La instrucción fue en lenguaje corriente: _tendencias, elementos interactivos, gráficos en 3D, animación_",
+        "**Devolvió el mismo tablero con los mismos datos, presentado de otra forma:** banda superior de indicadores, segmentación por mes, servicio y oficina, simulador de cierre proyectado, gráfico de telaraña de cumplimiento y semáforo de alertas",
+        "**Quedó nombrado _Centro de mando de indicadores 2026_**",
+        "_Lo que se aprendió no es el resultado sino el sitio:_ **en el lienzo de diseño se edita directamente sobre el tablero** —texto, color, posición— sin tener que pedirlo por instrucción, que es como se venía trabajando en el proyecto"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Maia, el primer agente del área",
+      "duracion": "~25 min",
+      "objetivo": "Pasar de pedirle cosas a una herramienta a entregarle un proceso completo.",
+      "pasos": [
+        "Se creó **la carpeta que le sirve de repositorio** y se abrió desde el entorno agéntico",
+        "**El área le puso nombre: Maia.** _No es un detalle:_ un agente con nombre es un puesto de trabajo, y se le habla como a alguien que acaba de entrar",
+        "**El circuito se mapeó preguntando, no instruyendo:** de dónde viene el correo, quién lo manda, qué dice el asunto, qué se hace después, dónde se guarda. _Aquí no se usa el método CREA — se mapea el proceso tal como ya existe_",
+        "**El circuito quedó así:** revisar el correo a las 10:00 a. m. y a las 4:00 p. m. → buscar los que vengan de la líder de auditoría con _auditoría_ o _requerimiento_ en el asunto → crear una carpeta por requerimiento en la ruta de auditorías del área, con el nombre en mayúscula sostenida → y dentro, una subcarpeta por cada área que debe entregar información",
+        "**Se probó con el último requerimiento real**, marcando las carpetas creadas por el agente para poder distinguirlas de las hechas a mano",
+        "**El agente devolvió la clasificación por el término que use cada correo** —observación, anotación, recomendación o hallazgo— _en vez de imponer uno propio_, porque así se lo pidió el área",
+        "Se ejecutó **la rutina a demanda**, sin esperar a la hora programada"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 5 · 5 octubre 2026",
+      "titulo": "El agente escribió sus propios límites antes de que nadie se los pusiera",
+      "descripcion": "Al cerrar la configuración dejó por escrito tres cosas que no iba a hacer: **nunca borra ni mueve nada, no envía ni responde correos, y anota cada correo revisado** para que quede el rastro. _Nadie se lo pidió en esos términos._ **En un circuito de auditoría interna, eso es exactamente la frontera correcta:** el agente ordena y prepara, la decisión sigue siendo del área.",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Mantener esos límites al ampliar el circuito",
+      "target": "S6"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 5 · 5 octubre 2026",
+      "titulo": "Se detuvo antes de inventar",
+      "descripcion": "Encontró un correo del mismo remitente con un asunto que no cuadraba y **avisó que traía solo firma y un PDF, y que eso no lo convertía en un requerimiento.** También se detuvo al no poder leer el correo, en lugar de crear carpetas vacías. _Es el mismo patrón que apareció en el tablero de la Sesión 4:_ **la herramienta separa lo que verificó de lo que supuso, y lo dice.**",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Leer siempre lo que el agente responde antes de seguir",
+      "target": "Permanente"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 5 · 5 octubre 2026",
+      "titulo": "La prueba se diseñó para poder auditarla",
+      "descripcion": "Las carpetas del último requerimiento **ya estaban creadas a mano.** En vez de dejar que el agente las tocara, se le pidió **crear una copia marcada** para poder comparar lo que hizo él contra lo que había. _Es una forma sencilla y repetible de probar cualquier automatización_ **sin arriesgar el trabajo que ya existe.**",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Usar la misma marca en las siguientes pruebas",
+      "target": "S6"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 5 · 5 octubre 2026",
+      "titulo": "Quedó claro cuándo se deja de usar un proyecto",
+      "descripcion": "**El proyecto sirve para lo puntual: algo que piden una vez.** _Cuando el trabajo es un circuito que se repite —y el de auditoría se repite cada requerimiento—_ **deja de ser un proyecto y pasa a ser un agente.** Es el criterio que ordena todo lo que el área ha construido hasta ahora.",
+      "estado": "Explicado en sesión",
+      "proximo_paso": "Revisar qué otros procesos del área son circuito y no proyecto",
+      "target": "S6"
+    }
+  ],
+  "tareas_intro": "El área llega a su primer agente con el tablero ya terminado, y la tarea deja de ser construir una pieza para pasar a ser cerrar un circuito completo.",
+  "tareas": [
+    {"tarea": "Terminar de modelar a Maia: el circuito completo, incluidas las respuestas que devuelven las áreas", "responsable": "Gennifer Mira", "prioridad": "ALTA", "plazo": "Antes de la S6"},
+    {"tarea": "Pedir a sistemas la actualización de la licencia de Office", "responsable": "Gennifer Mira / Sistemas", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Dejar terminado el Centro de mando de indicadores 2026 en el entorno de diseño", "responsable": "Gennifer Mira", "prioridad": "MEDIA", "plazo": "Antes de la S6"},
+    {"tarea": "Verificar el conector del correo cada vez que una rutina no devuelva nada", "responsable": "Gennifer Mira", "prioridad": "MEDIA", "plazo": "Permanente"},
+    {"tarea": "Conseguir micrófono o diadema para poder dictarle al agente", "responsable": "Gennifer Mira", "prioridad": "BAJA", "plazo": "Antes de la S6"},
+    {"tarea": "Dejar agendada la siguiente sesión", "responsable": "Gennifer Mira", "prioridad": "ALTA", "plazo": "Inmediato"}
+  ],
+  "observaciones": [
+    "**El área cruzó el umbral del programa: tiene su primer agente creado, nombrado y corriendo.** _No es una demostración:_ el circuito es un proceso real del área —el seguimiento a los requerimientos de auditoría— y la prueba se hizo con el último requerimiento que llegó de verdad.",
+    "**El tablero de la Sesión 4 llegó terminado**, y con dos decisiones propias encima: quitó un gráfico que no le servía después de pedir que se lo explicaran, y le agregó la exportación a Excel y PowerPoint para las reuniones de grupo primario. _El área ya no está siguiendo instrucciones: está decidiendo._",
+    "_Quedaron separados los tres entornos y para qué sirve cada uno:_ **el asistido, para construir acompañado; el agéntico, para que el circuito corra solo; y el de diseño, para presentar.** Es la primera vez que el área los ve como tres sitios distintos y no como una sola herramienta.",
+    "**El circuito se construyó preguntando, no dictando.** _Las preguntas fueron las del proceso real_ —de quién llega el correo, qué dice el asunto, dónde se guarda, quién responde— y el conocimiento del negocio lo puso el área en cada respuesta. **El método no exige saber de tecnología: exige conocer el propio trabajo.**",
+    "**Los dos bloqueos de la sesión son de entorno, no de aprendizaje:** la licencia de Office antigua y el conector del correo caído por segunda vez. _Ninguno de los dos se resuelve desde el escritorio del área_, y los dos conviene dejarlos escalados antes de la siguiente sesión.",
+    "_La sesión fue individual._ **El área está construyendo su primer agente con una sola persona**, y el circuito que se automatiza es compartido. Conviene que el conocimiento no quede en un solo puesto.",
+    "**La tarea quedó formulada como un encargo, no como un ejercicio:** terminar el circuito completo, mostrar el tablero cerrado y agendar la siguiente. _Es lo que separa a esta área de cerrar el programa con un agente propio funcionando._"
+  ],
+  "proxima_sesion": {
+    "sesion": "Sub. Operativa y Comercial — Sesión 6",
+    "condiciones": [
+      "El circuito de Maia terminado, incluido qué hace con las respuestas de las áreas",
+      "El Centro de mando de indicadores 2026 cerrado en el entorno de diseño",
+      "La actualización de Office pedida a sistemas",
+      "Micrófono o diadema para poder dictar"
+    ],
+    "agenda": [
+      "Revisión del circuito completo de Maia, extremo a extremo",
+      "Enlazar el tablero al agente que lo va a alimentar",
+      "Pruebas de la rutina sobre requerimientos reales",
+      "Qué otros procesos del área son circuito y no proyecto"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 5 octubre 2026 | Sub. Operativa y Comercial · Sesión 5"
+}
