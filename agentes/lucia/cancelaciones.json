@@ -449,11 +449,11 @@
       "quien_cancela": "—",
       "motivo": "El área no se presentó a la sala. Sandra canceló la reunión.",
       "causa": "inasistencia — no ingresó a la sala",
-      "aviso_en_canal": "pendiente de visto bueno de Sandra",
+      "aviso_en_canal": "https://iamteamespacio.slack.com/archives/C0BPV433VSN/p1791216055968969",
       "reagendada": false,
       "compromiso": "**Era la última del programa**, así que no se recupera: _Tecnología cierra en **S6**_, la del 25 de septiembre.",
       "cuenta_como": "no realizada",
-      "nota": "**Segunda caída seguida y tercera del programa** — S3 el 31 de agosto, S7 el viernes 2 y esta. *La S7 no llegó a hacerse ninguna de las dos veces.* _En el aviso no se nombra a nadie y no se dice que nadie avisó._ **Entra en el conteo del tablero.** El área cierra con el primer agente construido y corriendo, que es lo que se destaca en el aviso."
+      "nota": "**Segunda caída seguida y tercera del programa** — S3 el 31 de agosto, S7 el viernes 2 y esta. *La S7 no llegó a hacerse ninguna de las dos veces.* _En el aviso no se nombra a nadie y no se dice que nadie avisó._ **Entra en el conteo del tablero.** El área cierra con el primer agente construido y corriendo, que es lo que se destaca en el aviso. *Aviso publicado el 5 de octubre con visto bueno de Sandra*, cerrando con el agente que el área dejó construido. **El tablero del cliente no se actualizó:** _instrucción expresa de Sandra_ — «no coloques métricas». El conteo real queda en 25 caídas del lado del área."
     }
   ],
   "patron": {
