@@ -2,9 +2,9 @@
   "nota": "Este archivo lo editas tú. Cada canal puede tener carpetas, y cada carpeta enlaces. Después se corre: python3 construir.py",
   "generales": [
     {
-      "titulo": "Tablero de ejercicios del programa",
-      "url": "https://docs.google.com/spreadsheets/d/15MttClb8I_USqiJ537Ne_huySFnzF2Gg/edit?gid=1129415614#gid=1129415614",
-      "nota": "Donde cada área registra lo que construye"
+      "titulo": "Ejercicios del programa — para diligenciar",
+      "url": "https://docs.google.com/spreadsheets/d/15MttClb8I_USqiJ537Ne_huySFnzF2Gg/edit?gid=2013044655#gid=2013044655",
+      "nota": "Aquí cada área va registrando sus ejercicios. Se edita en línea, en cualquier momento."
     },
     {
       "titulo": "Encuesta del programa",

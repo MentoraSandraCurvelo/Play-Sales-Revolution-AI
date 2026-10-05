@@ -437,6 +437,56 @@ async function pintar(cuerpo, url, nombre){
   nota(cuerpo, 'Este tipo de archivo no se puede mostrar aquí. Queda el botón «Abrir aparte».');
 }
 
+/* Un enlace de fuera —la hoja de ejercicios, una grabación, una carpeta— se abre
+   en otra pestaña, y eso dentro del marco publicado puede estar prohibido. Antes
+   el clic no hacía nada y parecía que el archivo estuviera roto. Ahora se intenta
+   y, si el navegador no deja, se enseña la dirección para copiarla. */
+/* Se abre sin `noopener` **a propósito**: con esa opción el navegador devuelve
+   siempre `null`, abra o no abra, y entonces no hay forma de saber si hizo
+   falta la ayuda. Sin ella devuelve la ventana cuando abre y `null` cuando no,
+   que es justo lo que hace falta distinguir. El `opener` se corta a mano
+   enseguida, que para eso era. */
+function abrirFuera(url){
+  let w = null;
+  try { w = window.open(url, '_blank'); } catch (e) { w = null; }
+  if (w){ try { w.opener = null; } catch (e) {} return true; }
+  return false;
+}
+
+function fuera(url){
+  let d = document.getElementById('iam-copiar');
+  if (!d){
+    d = document.createElement('div');
+    d.id = 'iam-copiar';
+    d.style.cssText = 'position:fixed;left:50%;bottom:26px;transform:translateX(-50%);z-index:100000;'
+      + 'max-width:min(680px,92vw);padding:14px 16px;border-radius:16px;background:#121214;'
+      + 'border:1px solid rgba(255,255,255,.16);box-shadow:0 20px 60px rgba(0,0,0,.6);'
+      + 'font:500 13px Geist,system-ui,sans-serif;color:#f2f2f3';
+    document.body.appendChild(d);
+  }
+  d.innerHTML = '';
+  const t = document.createElement('div');
+  t.textContent = 'Tu navegador no deja abrir enlaces desde aquí. Esta es la dirección:';
+  t.style.cssText = 'color:#b9b9c0;margin-bottom:8px';
+  const caja = document.createElement('input');
+  caja.readOnly = true; caja.value = url;
+  caja.style.cssText = 'width:100%;padding:9px 11px;border-radius:10px;border:1px solid rgba(255,255,255,.18);'
+    + 'background:#060607;color:#f2f2f3;font:500 12.5px Geist Mono,monospace';
+  const fila = document.createElement('div');
+  fila.style.cssText = 'display:flex;gap:8px;margin-top:10px;justify-content:flex-end';
+  const copiar = document.createElement('button');
+  copiar.textContent = 'Copiar';
+  const cerrar = document.createElement('button');
+  cerrar.textContent = 'Cerrar';
+  for (const b of [copiar, cerrar]) b.style.cssText = 'padding:7px 14px;border-radius:999px;cursor:pointer;'
+    + 'border:1px solid rgba(255,255,255,.18);background:transparent;color:#f2f2f3;font:600 12.5px Geist,system-ui,sans-serif';
+  copiar.onclick = () => { caja.select(); try { document.execCommand('copy'); copiar.textContent = 'Copiado'; } catch (e) { copiar.textContent = 'cópialo a mano'; } };
+  cerrar.onclick = () => d.remove();
+  fila.appendChild(copiar); fila.appendChild(cerrar);
+  d.appendChild(t); d.appendChild(caja); d.appendChild(fila);
+  caja.select();
+}
+
 async function abrir(url, nombre, sub){
   const d = marco();
   const cuerpo = d.querySelector('[data-iam="cuerpo"]');
@@ -450,7 +500,7 @@ async function abrir(url, nombre, sub){
     /* Dentro del marco con `sandbox` puede no haber pestañas nuevas. Se intenta,
        y si no sale, se dice — antes no pasaba nada y parecía cosa del archivo. */
     ev.preventDefault();
-    if (!window.open(url, '_blank', 'noopener')){
+    if (!abrirFuera(url)){
       d.querySelector('[data-iam="nota"]').textContent =
         (sub ? sub + ' · ' : '') + 'tu navegador no deja abrirlo en otra pestaña desde aquí';
     }
@@ -473,7 +523,13 @@ if (typeof document !== 'undefined'){
     const a = ev.target && ev.target.closest && ev.target.closest('a[href]');
     if (!a || a.id === 'iam-visor' || a.closest('#iam-visor')) return;
     const href = a.getAttribute('href') || '';
-    if (!PROPIO.test(href)) return;
+    if (!PROPIO.test(href)){
+      if (/^https?:\/\//.test(href) && a.target === '_blank'){
+        ev.preventDefault();
+        if (!abrirFuera(href)) fuera(href);
+      }
+      return;
+    }
     ev.preventDefault();
     const tarjeta = a.innerText || '';
     const lineas = tarjeta.split('\n').map(s => s.trim()).filter(Boolean);
