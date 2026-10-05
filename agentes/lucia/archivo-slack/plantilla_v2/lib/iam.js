@@ -204,10 +204,67 @@ function promoverHTML(raiz){
     if (t && /^\s*</.test(t) && t.indexOf('</') !== -1) el.innerHTML = t;
   }
 }
+/* ---- Halo, que pasea por toda la app --------------------------------------
+   El avatar vivía en la esquina de arriba, a 22 píxeles, donde casi nadie lo
+   ve. Ahora sale en todas las vistas, en grande, y **cruza la pantalla de un
+   lado a otro sin parar**, dándose la vuelta al llegar al borde.
+   El baile es el de la plantilla —CSS puro, no pesa nada— y aquí solo se le
+   añaden el tamaño y el paseo. Va por encima de todo pero sin capturar clics,
+   así que nunca estorba, y a quien pide menos movimiento en su sistema le sale
+   quieto. Se aparta mientras hay un archivo abierto, que ahí se lee. */
+const HALO = '<i class="halo-aro"></i><i class="halo-brazo halo-izq"></i>'
+  + '<i class="halo-brazo halo-der"></i><i class="halo-pie halo-izq"></i><i class="halo-pie halo-der"></i>';
+
+const PASEO = '#iam-halo-suelto{position:fixed;left:0;bottom:20px;z-index:40;pointer-events:none;'
+  + 'width:96px;height:96px;display:grid;place-items:center;border-radius:50%;'
+  + 'background:radial-gradient(circle,rgba(192,0,0,.18),rgba(192,0,0,0) 70%);'
+  + 'animation:iam-pasea 38s linear infinite;will-change:transform}'
+  + '@keyframes iam-pasea{'
+  +   '0%{transform:translateX(16px) scaleX(1)}'
+  +   '49%{transform:translateX(calc(100vw - 112px)) scaleX(1)}'
+  +   '50%{transform:translateX(calc(100vw - 112px)) scaleX(-1)}'
+  +   '99%{transform:translateX(16px) scaleX(-1)}'
+  +   '100%{transform:translateX(16px) scaleX(1)}}'
+  + '@media (prefers-reduced-motion:reduce){#iam-halo-suelto{animation:none;left:auto;right:28px}}'
+  + '@media (max-width:700px){#iam-halo-suelto{width:70px;height:70px;bottom:14px}'
+  +   '#iam-halo-suelto .halo-baila{transform:scale(1.8)!important}'
+  +   '@keyframes iam-pasea{0%{transform:translateX(10px) scaleX(1)}'
+  +     '49%{transform:translateX(calc(100vw - 84px)) scaleX(1)}'
+  +     '50%{transform:translateX(calc(100vw - 84px)) scaleX(-1)}'
+  +     '99%{transform:translateX(10px) scaleX(-1)}'
+  +     '100%{transform:translateX(10px) scaleX(1)}}}';
+
+function halo(){
+  if (typeof document === 'undefined' || !document.body) return;
+  if (!document.getElementById('iam-halo-css')){
+    const e = document.createElement('style');
+    e.id = 'iam-halo-css'; e.textContent = PASEO;
+    document.head.appendChild(e);
+  }
+  // `offsetParent` no sirve para saber si el visor está abierto: en un elemento
+  // con `position:fixed` siempre es nulo. Se mira el display, que es lo que se toca.
+  const v = document.getElementById('iam-visor');
+  const abierto = !!v && v.style.display !== 'none' && v.style.display !== '';
+  let d = document.getElementById('iam-halo-suelto');
+  if (abierto){ if (d) d.remove(); return; }
+  if (d) return;
+  d = document.createElement('div');
+  d.id = 'iam-halo-suelto';
+  d.setAttribute('aria-hidden', 'true');
+  d.innerHTML = '<span class="halo-baila" style="transform:scale(2.6);transform-origin:center">'
+    + HALO + '</span>';
+  document.body.appendChild(d);
+}
+
+if (typeof window !== 'undefined'){
+  addEventListener('hashchange', halo);
+  addEventListener('resize', halo);
+}
+
 if (typeof document !== 'undefined'){
   const arranca = () => {
-    promoverHTML();
-    new MutationObserver(() => promoverHTML()).observe(
+    promoverHTML(); halo();
+    new MutationObserver(() => { promoverHTML(); halo(); }).observe(
       document.body, { childList:true, subtree:true, characterData:true,
                        attributes:true, attributeFilter:['data-html'] });
   };
@@ -387,7 +444,17 @@ async function abrir(url, nombre, sub){
   d.querySelector('[data-iam="nombre"]').textContent = nombre || url;
   d.querySelector('[data-iam="nota"]').textContent = sub || '';
   d.querySelector('[data-iam="tipo"]').textContent = tipoArch(EXT(nombre || url));
-  d.querySelector('[data-iam="aparte"]').setAttribute('href', url);
+  const aparte = d.querySelector('[data-iam="aparte"]');
+  aparte.setAttribute('href', url);
+  aparte.onclick = ev => {
+    /* Dentro del marco con `sandbox` puede no haber pestañas nuevas. Se intenta,
+       y si no sale, se dice — antes no pasaba nada y parecía cosa del archivo. */
+    ev.preventDefault();
+    if (!window.open(url, '_blank', 'noopener')){
+      d.querySelector('[data-iam="nota"]').textContent =
+        (sub ? sub + ' · ' : '') + 'tu navegador no deja abrirlo en otra pestaña desde aquí';
+    }
+  };
   d.style.display = 'block';
   const cargando = nota(cuerpo, 'Abriendo…');
   try {
@@ -414,5 +481,5 @@ if (typeof document !== 'undefined'){
   }, true);
 }
 
-window.IAM = { esc, plano, fechaLarga, fechaCorta, miles, horas, marcar, md, textoDe, limpio, iniciales, colorDe, tipoArch, recorte, makeCountUp, hero3D, promoverHTML, abrirArchivo: abrir, cerrarVisor: cerrar, MESES };
+window.IAM = { esc, plano, fechaLarga, fechaCorta, miles, horas, marcar, md, textoDe, limpio, iniciales, colorDe, tipoArch, recorte, makeCountUp, hero3D, promoverHTML, halo, abrirArchivo: abrir, cerrarVisor: cerrar, MESES };
 })();
