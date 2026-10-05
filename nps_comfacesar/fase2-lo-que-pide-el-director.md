@@ -372,3 +372,83 @@ entra como **frente aparte, fuera del fee**, para que ella lo mueva si quiere.
 Él quiere entrar a las que no avanzaron: «Mercadeo, sistemas, vivienda».
 Ella acaba de poner **Vivienda y Mercadeo** en la propuesta por su cuenta.
 El choque se reduce: queda solo Tecnología, que cerró en S6 con dos caídas.
+
+---
+
+# 12 · TERCERA TANDA — precio, portátiles y el mensaje central. 5 de octubre
+
+## 12.1 El fee, con dos escenarios
+
+Partió de 27 y lo bajó ella misma: «no le pongamos 27, pongámosles 24, 300.
+Ponle así, 24.300 mensual, por 12 meses».
+
+| Escenario | Fee mensual | Meses | Total |
+|---|---|---|---|
+| **A · doce meses** | $24.300.000 | 12 | $291.600.000 |
+| **B · seis meses** | $26.900.000 | 6 | $161.400.000 |
+
+Su razón para que B sea más caro por mes: «si lo cogen a seis meses costaría un
+poquito más, porque quedarían cosas por hacer, no cien por cien en la
+transformación digital. Hay cosas que están atadas».
+
+## 12.2 Cómo justifica el precio
+
+«Resulta que yo no vamos a instalar todo, todo, todo». Lo que ella pone es
+meterse en los procesos: **qué se debe automatizar, qué se debe digitalizar,
+todo el tema de tableros, de apps. La gente ya sabe manejar inteligencia
+artificial.**
+
+El cálculo que sostiene el número, hecho sobre el tablero de productividad:
+- 133,9 h/semana ya recuperadas = **580 h/mes** = **$21,1 M/mes** a perfil
+  profesional ($36.351/h). Al año, $253,0 M.
+- El fee A cuesta $24,3 M/mes. La brecha anual es **$38,6 M**, o sea
+  **20 horas a la semana más**. Con 18 áreas y 5 más de margen, eso es poco.
+- Y lo ya recuperado es **recurrente**: se repite cada año sin volver a pagarlo.
+
+## 12.3 Margen de tolerancia
+
+«Con las áreas que me presentaron, 18 áreas, les daría un margen de tolerancia
+de incluir, sea en la opción A o en la B, **5 áreas más con sus líderes**. Si no
+hay cinco áreas más ni sus líderes, pues **involucrar a diez personas más**
+dentro del proyecto.»
+
+Aplica a los dos escenarios.
+
+## 12.4 El sistema de computación portátil
+
+Entra como propuesta formal, no solo como hallazgo.
+
+Por qué:
+- Rotación de puestos, trabajo en casa, **sistema híbrido**: unos días en casa,
+  unos días en oficina.
+- El empleado baja gastos de transporte.
+- La productividad **se mide con el login de acceso al sistema**, como lo hacen
+  muchas empresas, «sin quitar cien por ciento la productividad».
+- Acceso a la información fuera de la oficina: se pueden llevar el portátil.
+- Desencadena **reducción de costos operativos con la misma persona contratada**.
+
+El plan que propone, textual: «yo metería dentro de esta propuesta un plan donde
+el mismo empleado pueda pagar su propio portátil y es suyo. Desde un Mac hasta
+cualquier otro computador portátil. Y se lo van descontando de la nómina. Así
+los cuidan más. Y cuando se van, se reemplaza la tecnología y no se tienen que
+casar con un computador mil años como está pasando ahora.»
+
+## 12.5 El nombre y el mensaje central
+
+Nombre: **IAM™ Intelligence, fase 2**.
+Palabras clave: **hardware** e **hiperconectividad**.
+
+El mensaje que pide poner grande:
+> «no vamos a tener islas independientes, pero tampoco sugerimos cambiar el
+> software ya. Yo creo que podemos trabajar de esta manera y el día de mañana
+> tener un ERP que hoy no lo tiene la empresa. Pero creo que con las
+> inteligencias artificiales nos podemos apalancar muy bien.»
+
+Esto coincide exactamente con la condición del director en su transcripción:
+mostrar las debilidades crónicas de proceso **sin cambiar el ecosistema de
+software y sin contratar**. Es el mismo argumento por los dos lados.
+
+## 12.6 Lo que pidió aparte
+
+Quiere mi lectura franca, «como si fueras el CEO», sobre la propuesta: qué me
+gusta y qué le sugeriría cambiar. Eso va en el chat, no en el HTML.
