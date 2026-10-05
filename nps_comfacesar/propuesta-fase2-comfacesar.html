@@ -274,6 +274,35 @@ section:first-of-type{margin-top:48px;}
 .salida .rot{font-size:12px;font-weight:600;margin-bottom:3px;}
 .salida .exp{font-size:12px;color:var(--ink-3);line-height:1.45;}
 
+/* ── Puente: debilidad crónica → sistema de trabajo ────── */
+.puente-grid{display:grid;gap:14px;}
+.par{
+  display:grid;grid-template-columns:1fr 46px 1fr;gap:0;align-items:stretch;min-width:0;
+}
+.lad{border:1px solid var(--line);border-radius:4px;padding:17px 19px;min-width:0;}
+.lad .rot{
+  font-family:var(--dato);font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;
+  margin-bottom:8px;
+}
+.lad h4{font-size:15.5px;line-height:1.28;margin-bottom:7px;font-family:var(--display);}
+.lad p{margin:0;font-size:13.5px;line-height:1.5;}
+.lad.mal{background:var(--medio-suave);border-color:var(--medio);}
+.lad.mal .rot{color:var(--medio);}
+.lad.mal h4{color:var(--ink);}
+.lad.mal p{color:var(--ink-2);}
+.lad.bien{background:var(--surface);border-left:3px solid var(--acento);}
+.lad.bien .rot{color:var(--acento);}
+.lad.bien p{color:var(--ink-2);}
+.cruce{display:grid;place-items:center;color:var(--acento);font-size:19px;font-weight:600;}
+.lista-dir{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));
+  gap:1px;background:var(--line);border:1px solid var(--line);border-radius:3px;
+  overflow:hidden;margin-top:22px;
+}
+.lista-dir .it{background:var(--surface);padding:15px 18px;min-width:0;}
+.lista-dir .it b{display:block;font-size:13.5px;margin-bottom:3px;}
+.lista-dir .it span{font-size:12.5px;color:var(--ink-3);line-height:1.45;}
+
 /* ── Frentes ───────────────────────────────────────────── */
 .frentes{display:grid;gap:14px;}
 .frente{
@@ -415,6 +444,10 @@ footer{
 }
 footer .anillo{width:8px;height:8px;border-width:2.5px;border-color:var(--acento);}
 
+@media (max-width:760px){
+  .par{grid-template-columns:1fr;gap:8px;}
+  .cruce{height:26px;transform:rotate(90deg);}
+}
 @media (max-width:620px){
   .trim{grid-template-columns:1fr;border-left:0;border-top:1px solid var(--line);}
   .trim-rot{padding:18px 0 8px;}
@@ -435,14 +468,16 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;border-color:var(--acento
       <span class="marca-texto">IAM™ INTELLIGENCE</span>
     </div>
     <div class="claves">
-      <span>Fase 2</span><span>Hardware</span><span>Hiperconectividad</span><span>Comfacesar</span>
+      <span>Fase 2</span><span>Hardware</span><span>Hiperconectividad</span><span>Sistemas de trabajo</span><span>Comfacesar</span>
     </div>
     <h1>Ya saben hacerlo.<br>Ahora hay que <em>conectarlo</em>.</h1>
     <p class="tesis">
       La primera fase <b>activó doce de las dieciocho áreas</b> y liberó <b>134 horas a la
       semana</b> que la Caja ya no gasta en tareas manuales. El límite de hoy no es el
       conocimiento: son los equipos, la red local y el hecho de que cada área guarda su
-      avance en su propia isla. La fase 2 ataca exactamente eso.
+      avance en su propia isla. La fase 2 ataca exactamente eso, y lo hace sobre
+      <b>las debilidades de proceso que son crónicas</b>, sin cambiar el ecosistema de
+      software y sin contratar a nadie.
     </p>
     <dl class="ficha">
       <div><dt>Cliente</dt><dd>Comfacesar<span>Caja de Compensación Familiar del Cesar</span></dd></div>
@@ -603,11 +638,12 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;border-color:var(--acento
         <div class="lado-cab"><span class="pto s"></span><strong>En esto se mete la mentoría</strong></div>
         <ul>
           <li><b>Un PM del equipo IAM™ dentro del proyecto</b>, dedicado al seguimiento de los frentes y de los compromisos de cada área</li>
-          <li>Qué se debe <b>automatizar</b> y qué no vale la pena automatizar</li>
+          <li>Qué se debe <b>automatizar</b> y qué no vale la pena automatizar. Un proceso que está mal, automatizado, <b>queda mal más rápido</b>, y por eso el levantamiento va antes que la herramienta</li>
           <li>Qué se debe <b>digitalizar</b>, y en qué orden, para que el papel deje de volver</li>
           <li>Diseño de los <b>tableros</b> y de cómo se conectan a los sistemas de gestión</li>
           <li>Diseño de las <b>apps</b> por área y la ruta para unirlas después</li>
           <li>Cimentación: que el circuito quede documentado y no dependa de quien lo armó</li>
+          <li>El orden de la cascada: <b>primero subdirectores, luego gerentes, luego coordinadores</b>. Si la capa de arriba no lo entiende, no baja</li>
           <li>Acompañamiento en las decisiones de inversión, con los números sobre la mesa</li>
         </ul>
       </div>
@@ -724,10 +760,122 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;border-color:var(--acento
         proyecto</b>, en las áreas que ya están.
       </p>
       <p>
+        Dos de esas cinco ya tienen nombre, porque la dirección las señaló y no entraron al
+        programa: <b>Crédito</b> y <b>Auditoría Interna</b>. Las otras tres quedan abiertas
+        a lo que la dirección decida.
+      </p>
+      <p>
         Es un margen, no una lista cerrada. Sirve para que una gerencia que quiera entrar en
         el mes seis no tenga que esperar una renegociación.
       </p>
     </div>
+  </section>
+
+  <!-- ══ De la debilidad al sistema de trabajo ══ -->
+  <section>
+    <div class="tit">
+      <h2>De la debilidad crónica al sistema de trabajo</h2>
+      <span class="apunte">A solicitud de la dirección</span>
+    </div>
+    <p class="intro">
+      Una cosa es que la gente no supiera manejar inteligencia artificial, y eso ya quedó
+      resuelto. Otra muy distinta son <b>las debilidades de proceso, que son crónicas</b>,
+      y esas son las que esta fase ataca. Cada una de abajo salió del programa o la señaló
+      la dirección, y ninguna queda sin respuesta.
+    </p>
+
+    <div class="puente-grid">
+
+      <div class="par">
+        <div class="lad mal">
+          <div class="rot">Debilidad</div>
+          <h4>Un Tableau potente, subutilizado hace ocho años</h4>
+          <p>La Caja tiene la herramienta desde hace más de siete u ocho años y no pasa de ahí, porque la gente no la nutre. Un tablero de mandos donde debería estar todo, y no está.</p>
+        </div>
+        <div class="cruce" aria-hidden="true">→</div>
+        <div class="lad bien">
+          <div class="rot">Lo que hace la fase 2</div>
+          <h4>Levantamiento del Tableau y plan para alimentarlo</h4>
+          <p>Acceso al Tableau interno para ver qué información le falta y de dónde debe salir. No es para los procesos: es <b>para la toma de decisiones</b>. El activo ya está pagado, y es el entregable más barato y más visible del año.</p>
+        </div>
+      </div>
+
+      <div class="par">
+        <div class="lad mal">
+          <div class="rot">Debilidad</div>
+          <h4>Cultura del papel y procesos manuales</h4>
+          <p>Buscar un contrato todavía es ir a los papeles y empezar. Y hay firma digital y DocuSign disponibles, pero un documento listo puede tardar una semana en quedar firmado.</p>
+        </div>
+        <div class="cruce" aria-hidden="true">→</div>
+        <div class="lad bien">
+          <div class="rot">Lo que hace la fase 2</div>
+          <h4>Digitalización con dueño, y la firma como proceso</h4>
+          <p>La cultura de no papel la lidera <b>la gerencia de sostenibilidad</b>, que así deja de ser un discurso. Y la firma se arregla donde está el problema: <b>no falta herramienta, falta canalización</b>.</p>
+        </div>
+      </div>
+
+      <div class="par">
+        <div class="lad mal">
+          <div class="rot">Debilidad</div>
+          <h4>Brechas en áreas clave que no se involucraron</h4>
+          <p>Mercadeo, con la venta y la segmentación encima, se quedó en cinco sesiones sin cerrar circuito. Auditoría Interna y Crédito no entraron. Y el proceso de selección sigue sin tocarse.</p>
+        </div>
+        <div class="cruce" aria-hidden="true">→</div>
+        <div class="lad bien">
+          <div class="rot">Lo que hace la fase 2</div>
+          <h4>Adopción prioritaria, no opcional</h4>
+          <p>Mercadeo y Vivienda entran en la calle de rescate con trabajo cercano. <b>Crédito y Auditoría Interna</b> entran con el margen de cinco áreas. Y el orden de despliegue lo marca la dirección, no la disponibilidad del área.</p>
+        </div>
+      </div>
+
+      <div class="par">
+        <div class="lad mal">
+          <div class="rot">Debilidad</div>
+          <h4>Equipos que no soportan la forma de trabajo que se pide</h4>
+          <p>Puestos de escritorio, equipos sin cámara ni micrófono, licencias vencidas y servidores locales. Se está pidiendo transformación digital sobre una base que no la aguanta.</p>
+        </div>
+        <div class="cruce" aria-hidden="true">→</div>
+        <div class="lad bien">
+          <div class="rot">Lo que hace la fase 2</div>
+          <h4>Un plan de inversión integral, con ROI rápido</h4>
+          <p>Hardware, software y ciberseguridad como un solo paquete, dimensionado para el consejo directivo. <b>El día que se haga, se hace completo</b>, no un portátil suelto aquí y otro allá.</p>
+        </div>
+      </div>
+
+      <div class="par">
+        <div class="lad mal">
+          <div class="rot">Debilidad</div>
+          <h4>Dieciocho islas que no se hablan</h4>
+          <p>Cada área construyó su circuito y lo guarda aparte. El dato que produce una no llega a la otra, y los tableros se alimentan copiando a mano.</p>
+        </div>
+        <div class="cruce" aria-hidden="true">→</div>
+        <div class="lad bien">
+          <div class="rot">Lo que hace la fase 2</div>
+          <h4>Tableros conectados a los sistemas de gestión</h4>
+          <p>Sistemas de trabajo integrados, no herramientas sueltas. Contabilidad con su sistema, y mercadeo hablándose con subsidio. Todo <b>sin cambiar el ecosistema de software</b> y sin contratar a nadie.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="intro" style="margin-top:26px;margin-bottom:12px;">
+      <b>Y el listado que la dirección tiene anotado, área por área, entra completo:</b>
+    </p>
+    <div class="lista-dir">
+      <div class="it"><b>Finanzas</b><span>Por los riesgos</span></div>
+      <div class="it"><b>Comercial</b><span>Segmentación, que es donde está todo</span></div>
+      <div class="it"><b>Operaciones</b><span>Todo lo que sea de logística</span></div>
+      <div class="it"><b>Gestión Humana</b><span>Selección, clima laboral, y medirlos</span></div>
+      <div class="it"><b>Tecnología</b><span>Entrenamiento</span></div>
+      <div class="it"><b>Gerencia</b><span>Para poder tomar las decisiones</span></div>
+    </div>
+    <p class="intro" style="margin-top:20px;margin-bottom:0;">
+      La segmentación es el mejor ejemplo de lo que está sin explotar: de
+      <b>120.000 trabajadores afiliados</b>, hoy no se puede responder rápido cuántas son
+      mujeres ni cuántas están en embarazo. Todo hay que segmentarlo para poder vender, y
+      ese es trabajo de proceso, no de software nuevo. Porque una cosa es tomar decisiones,
+      que se toman todos los días, y otra es <b>tomar buenas decisiones</b>.
+    </p>
   </section>
 
   <!-- ══ 4. Hiperconectividad ══ -->
@@ -738,7 +886,7 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;border-color:var(--acento
     </div>
     <p class="intro">
       Hiperconectividad aquí no es una metáfora: es que el dato que produce un área llegue a
-      la otra sin que alguien lo copie a mano. Tiene cuatro piezas, en este orden, porque
+      la otra sin que alguien lo copie a mano. Tiene cinco piezas, en este orden, porque
       cada una depende de la anterior.
     </p>
 
@@ -759,6 +907,26 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;border-color:var(--acento
       <article class="frente">
         <div class="frente-n">2</div>
         <div class="frente-cuerpo">
+          <h3>El Tableau que ya está pagado</h3>
+          <p>
+            La Caja tiene una herramienta analítica potente desde hace más de siete u ocho
+            años, y está <b>subutilizada</b>, porque nadie la nutre. No es un problema de
+            licencia ni de capacidad: es que los datos no llegan.
+          </p>
+          <p>
+            La fase 2 pide acceso al Tableau interno, levanta qué información le falta y de
+            qué sistema debe salir cada campo, y deja un plan para alimentarlo. El destino
+            no son los procesos del día a día, es <b>la toma de decisiones</b>: un tablero
+            de mandos donde esté metido todo. Es el entregable con mejor relación entre
+            esfuerzo y visibilidad de todo el año, porque el activo ya se pagó.
+          </p>
+          <div class="etiquetas"><span class="etq sandra">Levanta IAM™</span><span class="etq caja">Acceso y datos de la Caja</span><span class="etq mes">Meses 1 a 5</span></div>
+        </div>
+      </article>
+
+      <article class="frente">
+        <div class="frente-n">3</div>
+        <div class="frente-cuerpo">
           <h3>Los tableros enganchados a los sistemas de gestión</h3>
           <p>
             Hoy los tableros se alimentan a mano. El paso siguiente es conectarlos: el de
@@ -775,7 +943,7 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;border-color:var(--acento
       </article>
 
       <article class="frente">
-        <div class="frente-n">3</div>
+        <div class="frente-n">4</div>
         <div class="frente-cuerpo">
           <h3>Salir de la red local</h3>
           <p>
@@ -794,7 +962,7 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;border-color:var(--acento
       </article>
 
       <article class="frente">
-        <div class="frente-n">4</div>
+        <div class="frente-n">5</div>
         <div class="frente-cuerpo">
           <h3>Una app de la Caja, por áreas</h3>
           <p>
@@ -880,6 +1048,32 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;border-color:var(--acento
       </article>
 
       <article class="frente">
+        <div class="frente-n">E</div>
+        <div class="frente-cuerpo">
+          <h3>La inversión, con sus tres componentes</h3>
+          <p>
+            Conviene decirlo como lo dice la dirección: en esta Caja las inversiones se
+            entienden como cemento, edificio, sede y vehículos, y <b>una transformación
+            digital también es una inversión</b>. Y si se hace, se hace completa, no
+            comprando un portátil aquí y otro allá.
+          </p>
+          <p>
+            Son tres componentes y van juntos: <b>hardware</b>, que es el rubro más caro,
+            <b>software y licencias</b> al día, y <b>ciberseguridad</b>, que se implementa
+            en el mismo momento en que entran los equipos nuevos y no después. Dejar la
+            tercera para otro presupuesto es poner información de 120.000 afiliados en
+            máquinas que salen de la red local por primera vez.
+          </p>
+          <p>
+            El argumento para el consejo directivo es el retorno: <b>el hardware tiene un
+            ROI rápido</b>, a diferencia de una obra, donde el retorno tarda años. Y aquí el
+            retorno ya tiene cifra medida, no proyectada.
+          </p>
+          <div class="etiquetas"><span class="etq sandra">Dimensiona IAM™</span><span class="etq caja">Aprueba el consejo directivo</span></div>
+        </div>
+      </article>
+
+      <article class="frente">
         <div class="frente-n">D</div>
         <div class="frente-cuerpo">
           <h3>El levantamiento del primer mes</h3>
@@ -890,9 +1084,16 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;border-color:var(--acento
             de la Caja, es equipar a quien ya está produciendo con la herramienta.
           </p>
           <p>
-            Y el paquete es inseparable: equipo, <b>licencias de software al día y Office
+            Y el paquete es inseparable: equipo con <b>cámara y micrófono</b>, que hoy
+            faltan en varios puestos, <b>licencias de software al día y Office
             actualizado</b>. Un equipo nuevo con licencias vencidas rinde lo mismo que el
             viejo, y una licencia nueva en un equipo que no la soporta tampoco se aprovecha.
+          </p>
+          <p>
+            El diagnóstico lo puede dar en buena parte <b>Tecnología</b>, que es la que
+            conoce el estado real de cada máquina. La mentoría lo cruza con quién está
+            produciendo y lo convierte en una lista con áreas y cantidades, que es lo que
+            una decisión de inversión necesita para subir al consejo directivo.
           </p>
           <div class="etiquetas"><span class="etq sandra">Levanta IAM™</span><span class="etq caja">Decide la Caja</span><span class="etq mes">Mes 1</span></div>
         </div>
@@ -946,9 +1147,22 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;border-color:var(--acento
           <p>
             Revisar los procesos de digitalización área por área, empezando por donde el
             papel sigue siendo el soporte real de la decisión. El objetivo no es escanear
-            más: es que el documento nazca digital y no vuelva a imprimirse.
+            más: es que el documento nazca digital y no vuelva a imprimirse. Hoy buscar un
+            contrato sigue siendo ir a los papeles y empezar.
           </p>
-          <div class="etiquetas"><span class="etq sandra">Ejecuta IAM™</span><span class="etq mes">Meses 2 a 9</span></div>
+          <p>
+            Y este frente tiene dueño natural: <b>la gerencia de sostenibilidad</b>, que es
+            un área nueva. La cultura de no papel es el proyecto que le permite dejar de ser
+            un discurso y volverse una métrica. Una organización con área de sostenibilidad
+            que imprime todo tiene ahí una contradicción fácil de cerrar.
+          </p>
+          <p>
+            La firma digital es el ejemplo exacto de lo que esta fase arregla.
+            <b>La Caja ya tiene firma digital y DocuSign</b>, y aun así un documento listo
+            tarda una semana en quedar firmado. No es falta de herramienta: es
+            <b>canalización de la información</b>. Es proceso, y por eso cabe aquí.
+          </p>
+          <div class="etiquetas"><span class="etq sandra">Ejecuta IAM™</span><span class="etq caja">Gerencia de sostenibilidad</span><span class="etq mes">Meses 2 a 9</span></div>
         </div>
       </article>
 
@@ -983,6 +1197,69 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;border-color:var(--acento
             acompañamiento completo de la mentoría en la preparación y en la sustentación.
           </p>
           <div class="etiquetas"><span class="etq sandra">Gestiona y acompaña IAM™</span><span class="etq caja">Presenta el sponsor</span><span class="etq mes">Meses 2 a 4</span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ══ Ningún proceso por fuera ══ -->
+  <section>
+    <div class="tit">
+      <h2>Ningún proceso queda por fuera</h2>
+      <span class="apunte">El compromiso de fondo del año</span>
+    </div>
+    <p class="intro">
+      Esto es lo que conviene que quede entendido antes que el precio. <b>Al cabo de los
+      doce meses, dentro del alcance acordado no debe quedar un solo proceso sin levantar,
+      sin medir y sin una decisión tomada sobre él.</b> No es que se automatice todo:
+      algunos procesos se automatizan, otros se simplifican, y de otros la conclusión será
+      que así están bien. Pero ninguno se queda sin mirar.
+    </p>
+
+    <div class="frentes">
+      <article class="frente">
+        <div class="frente-n">01</div>
+        <div class="frente-cuerpo">
+          <h3>Si hay que integrar, se integra</h3>
+          <p>
+            Cuando un proceso dependa de que dos sistemas se hablen, la integración entra al
+            trabajo del año. Con lo que la Caja ya tiene, negociando la API donde haga falta,
+            y sin reemplazar el ecosistema. Lo que no se pueda integrar queda dicho, con el
+            motivo y con lo que costaría resolverlo.
+          </p>
+        </div>
+      </article>
+
+      <article class="frente">
+        <div class="frente-n">02</div>
+        <div class="frente-cuerpo">
+          <h3>Si hay que revisar la trazabilidad, se revisa</h3>
+          <p>
+            Un proceso sin trazabilidad no se puede auditar ni mejorar, solo repetir. Donde
+            el recorrido de un documento o de una solicitud no se pueda reconstruir de punta
+            a punta, ese es el trabajo: dejar el rastro antes de automatizar nada encima. Es
+            la misma razón por la que el levantamiento va primero: <b>un proceso que está
+            mal, automatizado, queda mal más rápido</b>.
+          </p>
+        </div>
+      </article>
+
+      <article class="frente">
+        <div class="frente-n">03</div>
+        <div class="frente-cuerpo">
+          <h3>Y si al final del año la conclusión es cambiar de sistema</h3>
+          <p>
+            Esta fase <b>no propone cambiar el software</b>, y es importante que quede así de
+            claro. Pero puede pasar que, con los procesos ya cimentados y la información ya
+            conectada, la Caja concluya que su siguiente paso es otro sistema de gestión.
+          </p>
+          <p>
+            Si llega ese momento, la asesoría existe. <b>La mentoría viene de tecnología, de
+            implementaciones de SAP y de proyectos de ERP</b>, así que acompañar esa decisión
+            es terreno conocido. Pero es una conversación para <b>después</b> del año de
+            transformación, con el terreno ya preparado, y no una condición de esta
+            propuesta.
+          </p>
         </div>
       </article>
     </div>
@@ -1144,7 +1421,7 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;border-color:var(--acento
           <tr>
             <td class="ritmo">Trimestral</td>
             <td><strong>Dirección</strong><span class="sub">cuatro cortes en el año</span></td>
-            <td>Revisión general: qué se cimentó, cuánto vale en pesos, qué decisiones quedan sobre la mesa y qué sigue en el trimestre siguiente.</td>
+            <td>Revisión general: qué se cimentó, cuánto vale en pesos, qué decisiones quedan sobre la mesa y qué sigue en el trimestre siguiente. <strong>Las muestran los propios usuarios</strong>, no la mentoría: el representante de cada área abre su tablero y lo explica. Media jornada, con el comité presente.</td>
           </tr>
         </tbody>
       </table>
