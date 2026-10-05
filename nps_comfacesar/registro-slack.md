@@ -6,6 +6,51 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## 🎙️ 5 oct · 12:10 p. m. · Transcripción del director: está extraída, y choca con el objetivo de Sandra
+
+**El audio no se pudo transcribir con ElevenLabs:** pedía **18.515 créditos** y la cuenta
+tiene **10.000**. Falló sin cobrar. Tampoco se pudo cortar: en este entorno no hay ffmpeg ni nada que
+parta un m4a, y la herramienta no acepta rango de tiempo. **Sandra pasó la transcripción a mano.**
+
+**Extraído a `nps_comfacesar/fase2-lo-que-pide-el-director.md`.** Interno, no es tablero, no se publica.
+
+### Lo que hay que decidir antes de escribir la propuesta
+
+| | Textual |
+|---|---|
+| **Objetivo de Sandra** | «enfocarnos solo en las áreas comprometidas, las que sacaron ejercicios adelante» |
+| **Lo que pide el director** | «quiero mejorar **no los que están proactivos, sino los que no**. Mercadeo, sistemas, vivienda» |
+
+**Son opuestos**, pero él da la lista de las que sí quiere afilar y ahí vuelven a coincidir: IPS,
+Agencia de Empleo, Subsidio, más Crédito y Auditoría Interna, que no entraron al programa. **Propuesta
+de salida, en el archivo: tres carriles** — afilar, rescatar y entrar — con nombre distinto cada uno.
+
+### Los cinco puntos que mandan en la propuesta
+
+1. **Son dos presentaciones, no una.** El cierre de la consultoría, y después la propuesta ante el
+   comité completo. Y su encuadre: *«no para que ellos me validen, a mostrar lo que yo quiero hacer»*.
+2. **El respaldo que ofrece, literal:** que cada sección diga **«solicitud del director»** y que las
+   debilidades van **«con las que él está de acuerdo»**. Es la frase más valiosa de la grabación.
+3. **El plan de inversiones es su argumento central**, con sus tres componentes, el diagnóstico de qué
+   computador para qué área, ciberseguridad incluida, y su propio contraargumento: **el ROI del hardware
+   es rápido, el de un edificio no.** Valida el hallazgo de hardware que entró hoy.
+4. **El lenguaje es «sistemas de trabajo», no «herramientas»** — Sandra lo corrigió en vivo y él lo
+   adoptó.
+5. **La cascada empieza arriba:** subdirectores, gerentes, coordinadores, en ese orden.
+
+### Dato que conviene mirar contra el puente
+
+**El 14 de septiembre él ya avaló octubre:** *«viene octubre para reforzar los que no han ido y los que
+te pidieron más horas, eso está perfecto y a mí me gusta»*. **Está dicho por él, un mes antes.**
+
+### Y una sección del archivo que es de no usar
+
+Quedó marcado explícitamente qué tramos **no se citan** en la propuesta ni en un tablero: lo de
+reemplazar a la persona de Mercadeo, lo de que hay gente que no sabe dónde trabaja, lo de «si la empresa
+fuera mía», y lo de Danilo. **Sirven para calibrar el tono, no para citarse.**
+
+---
+
 ## ✏️ 5 oct · 11:40 a. m. · El proveedor está en Ibagué, y entra un hallazgo nuevo de hardware
 
 **Sus palabras:** *«ojo que el proveedor del software está en Ibagué no Girardot»* y el hallazgo nuevo.
