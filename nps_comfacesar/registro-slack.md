@@ -28,6 +28,16 @@ corregido.
 
 **Nada que publicar.** Sin mensajes, sin programados.
 
+**3:11 p. m. · el check del Termómetro ya cuadra.** Le faltaban dos filas que estaban dentro
+del total pero no listadas: **Jurídica S12** del 1 de octubre, Lilibeth Costa, 1 de 1, con los
+tres soportes, y **IPS S5** del 30 de septiembre, cuya acta no trae tabla de convocados, así
+que va con asistencia en ✕. La tabla suma ahora exactamente **106**, verificado recomputando
+sobre la propia tabla y no a mano. Termómetro v104.
+
+**Las corridas de la 1:11, las 2:11, las 3:11 y las 4:11 no tuvieron nada que publicar.** Con
+la parte A cerrada eso va a ser lo normal. Le ofrecí a Sandra bajar la frecuencia de la rutina
+y quedó sin respuesta, así que sigue como está y no se le vuelve a preguntar.
+
 
 ## lunes 5 de octubre de 2026 · 12:50 p. m. · Corrida de la hora, y la propuesta reescrita
 
