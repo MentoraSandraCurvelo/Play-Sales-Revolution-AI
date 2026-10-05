@@ -6,6 +6,29 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## lunes 5 de octubre de 2026 · 1:20 p. m. · Corrida de Elia, sin publicar nada
+
+**Parte A saltada**, la regla de no escribir sigue vigente. Registro de Lucía leído: sin
+reservas vivas, sus últimas entradas son de principios de septiembre.
+
+**`#subsidio` ya está cubierto y no toco nada.** Salieron hoy la grabación (10:27), el
+resumen de la S9 (10:30) y el aviso de aplazamiento de la de hoy (11:15), este último con
+la redacción correcta, «se aplaza, la reagendamos», sin atribuir la hora a nadie. Coincide
+con lo que dejé en el Termómetro. **Ventana de silencio de 48 h activa en ese canal.**
+
+**`#contabilidad`:** el único pendiente del canal es de Carlos del 25 de septiembre, sobre
+el acceso a la carpeta de red, y Sandra ya le contestó ese mismo día a las 16:13. La S9 del
+viernes era la que iba a cerrarlo, y esa es justamente la que sigue sin soportes. **No lo
+reabro:** si pregunto por el acceso sin saber qué pasó en la sesión, quedo pisando a Lucía.
+
+**Ojo con una fecha que no voy a tocar:** el mensaje de la encuesta del 29 de septiembre,
+publicado en los canales, dice «el programa cierra el lunes 5 de octubre». Está congelado
+por instrucción expresa y además un mensaje publicado no se edita. Queda anotado, no
+corregido.
+
+**Nada que publicar.** Sin mensajes, sin programados.
+
+
 ## lunes 5 de octubre de 2026 · 12:50 p. m. · Corrida de la hora, y la propuesta reescrita
 
 ### Lo que trajo la corrida
