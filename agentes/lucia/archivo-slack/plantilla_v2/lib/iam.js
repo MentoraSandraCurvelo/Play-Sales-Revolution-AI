@@ -215,5 +215,204 @@ if (typeof document !== 'undefined'){
   else document.addEventListener('DOMContentLoaded', arranca);
 }
 
-window.IAM = { esc, plano, fechaLarga, fechaCorta, miles, horas, marcar, md, textoDe, limpio, iniciales, colorDe, tipoArch, recorte, makeCountUp, hero3D, promoverHTML, MESES };
+/* ---- abrir un archivo del propio archivo ----------------------------------
+   Un enlace a un archivo nuestro (actas/…, archivos/…) no se puede dejar en
+   manos del navegador. La página publicada se sirve dentro de un marco con
+   `sandbox`, y ahí el clic sobre un PDF no hace **nada**: ni pestaña nueva, ni
+   descarga, ni una línea en la consola. Es exactamente lo que se veía —la
+   tarjeta del acta estaba ahí y al pincharla no pasaba nada— y no se arregla
+   tocando el enlace: medido con `allow-popups` y sin él, con pestaña nueva y
+   sin ella, el resultado es el mismo.
+   Así que el archivo se abre aquí dentro. Se trae con fetch —mismo origen, eso
+   sí está permitido— y se pinta según lo que sea: el PDF dibujado con pdf.js
+   sobre un canvas (sin worker y sin el visor del navegador, que ahí dentro
+   tampoco existe), el CSV como tabla, la imagen y el audio con su etiqueta.
+   Abierto con doble clic desde el disco no se toca nada: en `file://` fetch no
+   funciona y el navegador sí abre el archivo por su cuenta. */
+const PROPIO = /^(?:actas|archivos)\//;
+const local = () => typeof location !== 'undefined' && location.protocol === 'file:';
+const EXT = h => (String(h).split('?')[0].split('.').pop() || '').toLowerCase();
+
+const PANEL = 'position:absolute;inset:14px;display:flex;flex-direction:column;border-radius:18px;'
+  + 'background:#0d0d0f;border:1px solid rgba(255,255,255,.14);overflow:hidden;box-shadow:0 30px 90px rgba(0,0,0,.6)';
+const BARRA = 'display:flex;align-items:center;gap:12px;padding:12px 14px;border-bottom:1px solid rgba(255,255,255,.1);flex:none';
+const BOTON = 'padding:7px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.18);background:transparent;'
+  + 'color:#f2f2f3;font:600 13px Geist,system-ui,sans-serif;cursor:pointer;text-decoration:none;white-space:nowrap';
+
+function marco(){
+  let d = document.getElementById('iam-visor');
+  if (d) return d;
+  d = document.createElement('div');
+  d.id = 'iam-visor';
+  d.style.cssText = 'position:fixed;inset:0;z-index:99999;display:none;background:rgba(6,6,7,.9)';
+  d.innerHTML = '<div style="' + PANEL + '">'
+    + '<div style="' + BARRA + '">'
+    +   '<span style="width:34px;height:34px;border-radius:10px;background:#C00000;color:#fff;display:grid;'
+    +   'place-items:center;font:600 10px Geist Mono,monospace;flex:none" data-iam="tipo">ARC</span>'
+    +   '<div style="min-width:0;flex:1">'
+    +     '<div data-iam="nombre" style="font:600 13.5px Geist,system-ui,sans-serif;color:#f2f2f3;'
+    +     'white-space:nowrap;overflow:hidden;text-overflow:ellipsis"></div>'
+    +     '<div data-iam="nota" style="font:500 11.5px Geist Mono,monospace;color:#8b8b92;margin-top:2px"></div>'
+    +   '</div>'
+    +   '<a data-iam="aparte" style="' + BOTON + '" target="_blank" rel="noopener">Abrir aparte ↗</a>'
+    +   '<button data-iam="cerrar" style="' + BOTON + '">Cerrar ✕</button>'
+    + '</div>'
+    + '<div data-iam="cuerpo" style="flex:1;overflow:auto;padding:16px;background:#060607"></div>'
+    + '</div>';
+  document.body.appendChild(d);
+  d.addEventListener('click', ev => { if (ev.target === d) cerrar(); });
+  d.querySelector('[data-iam="cerrar"]').addEventListener('click', cerrar);
+  document.addEventListener('keydown', ev => { if (ev.key === 'Escape') cerrar(); });
+  return d;
+}
+
+function cerrar(){
+  const d = document.getElementById('iam-visor');
+  if (!d) return;
+  d.style.display = 'none';
+  d.querySelector('[data-iam="cuerpo"]').innerHTML = '';   // suelta los canvas
+}
+
+const AVISO = 'font:500 13.5px Geist,system-ui,sans-serif;color:#b9b9c0;line-height:1.6;padding:10px 2px';
+
+function nota(cuerpo, texto){
+  const p = document.createElement('div');
+  p.style.cssText = AVISO; p.textContent = texto;
+  cuerpo.appendChild(p); return p;
+}
+
+/* El CSV es siempre un informe de asistencia de Teams: se lee mucho mejor como
+   tabla que como archivo descargado. Comillas incluidas, que los nombres de las
+   reuniones llevan comas. */
+function filas(texto){
+  const out = []; let f = [], campo = '', dentro = false;
+  for (let i = 0; i < texto.length; i++){
+    const c = texto[i];
+    if (dentro){
+      if (c === '"' && texto[i+1] === '"'){ campo += '"'; i++; }
+      else if (c === '"') dentro = false;
+      else campo += c;
+    } else if (c === '"') dentro = true;
+    else if (c === ',' || c === '\t'){ f.push(campo); campo = ''; }
+    else if (c === '\n'){ f.push(campo); campo = ''; if (f.some(x => x.trim())) out.push(f); f = []; }
+    else if (c !== '\r') campo += c;
+  }
+  if (campo || f.length){ f.push(campo); if (f.some(x => x.trim())) out.push(f); }
+  return out;
+}
+
+function pintarTabla(cuerpo, texto){
+  const datos = filas(texto);
+  if (!datos.length) return nota(cuerpo, 'El archivo está vacío.');
+  const t = document.createElement('table');
+  t.style.cssText = 'border-collapse:collapse;width:100%;max-width:1000px;margin:0 auto;'
+    + 'font:400 13px Geist,system-ui,sans-serif;color:#e7e7ea';
+  const anchas = datos.reduce((m, f) => Math.max(m, f.length), 0);
+  datos.forEach((f, i) => {
+    const tr = document.createElement('tr');
+    for (let k = 0; k < anchas; k++){
+      const celda = document.createElement(i ? 'td' : 'th');
+      celda.textContent = f[k] == null ? '' : f[k];
+      celda.style.cssText = 'padding:8px 10px;border-bottom:1px solid rgba(255,255,255,.08);text-align:left;vertical-align:top'
+        + (i ? '' : ';font-weight:650;color:#fff;background:rgba(192,0,0,.16);position:sticky;top:0');
+      tr.appendChild(celda);
+    }
+    t.appendChild(tr);
+  });
+  cuerpo.appendChild(t);
+}
+
+async function pintarPDF(cuerpo, url){
+  const L = window.pdfjsLib;
+  if (!L) throw new Error('el visor de PDF no está cargado');
+  const r = await fetch(url);
+  if (!r.ok) throw new Error('el archivo no está (' + r.status + ')');
+  const doc = await L.getDocument({ data: await r.arrayBuffer(), isEvalSupported: false }).promise;
+  const marca = nota(cuerpo, 'Dibujando ' + doc.numPages + (doc.numPages === 1 ? ' página…' : ' páginas…'));
+  const ancho = Math.min(Math.max(cuerpo.clientWidth - 32, 320), 1000);
+  for (let n = 1; n <= doc.numPages; n++){
+    const pag = await doc.getPage(n);
+    const uno = pag.getViewport({ scale: 1 });
+    const vista = pag.getViewport({ scale: (ancho / uno.width) * 2 });   // x2: que no se vea borroso
+    const c = document.createElement('canvas');
+    c.width = Math.round(vista.width); c.height = Math.round(vista.height);
+    c.style.cssText = 'display:block;width:100%;max-width:' + ancho + 'px;margin:0 auto 14px;'
+      + 'border-radius:10px;background:#fff;box-shadow:0 12px 40px rgba(0,0,0,.55)';
+    cuerpo.appendChild(c);
+    await pag.render({ canvasContext: c.getContext('2d'), viewport: vista }).promise;
+    marca.textContent = 'Página ' + n + ' de ' + doc.numPages;
+    await new Promise(r => setTimeout(r, 0));     // que la interfaz respire entre páginas
+  }
+  marca.remove();
+}
+
+async function pintar(cuerpo, url, nombre){
+  const e = EXT(nombre || url);
+  if (e === 'pdf') return pintarPDF(cuerpo, url);
+  if (e === 'csv' || e === 'txt' || e === 'vtt'){
+    const r = await fetch(url);
+    if (!r.ok) throw new Error('el archivo no está (' + r.status + ')');
+    return pintarTabla(cuerpo, await r.text());
+  }
+  if (['png','jpg','jpeg','gif','webp','svg'].includes(e)){
+    const img = document.createElement('img');
+    img.src = url; img.alt = nombre || '';
+    img.style.cssText = 'display:block;max-width:100%;margin:0 auto;border-radius:10px';
+    cuerpo.appendChild(img); return;
+  }
+  if (['m4a','mp3','wav','ogg','oga'].includes(e)){
+    const a = document.createElement('audio');
+    a.src = url; a.controls = true; a.style.cssText = 'width:100%;max-width:600px;margin:20px auto;display:block';
+    cuerpo.appendChild(a); return;
+  }
+  if (['mp4','mov','webm','m4v'].includes(e)){
+    if (/\.m4a$/i.test(nombre || '')) {   // audio de Slack servido como .mp4
+      const a = document.createElement('audio');
+      a.src = url; a.controls = true;
+      a.style.cssText = 'width:100%;max-width:600px;margin:20px auto;display:block';
+      cuerpo.appendChild(a); return;
+    }
+    const v = document.createElement('video');
+    v.src = url; v.controls = true;
+    v.style.cssText = 'display:block;max-width:100%;margin:0 auto;border-radius:10px';
+    cuerpo.appendChild(v); return;
+  }
+  nota(cuerpo, 'Este tipo de archivo no se puede mostrar aquí. Queda el botón «Abrir aparte».');
+}
+
+async function abrir(url, nombre, sub){
+  const d = marco();
+  const cuerpo = d.querySelector('[data-iam="cuerpo"]');
+  cuerpo.innerHTML = '';
+  d.querySelector('[data-iam="nombre"]').textContent = nombre || url;
+  d.querySelector('[data-iam="nota"]').textContent = sub || '';
+  d.querySelector('[data-iam="tipo"]').textContent = tipoArch(EXT(nombre || url));
+  d.querySelector('[data-iam="aparte"]').setAttribute('href', url);
+  d.style.display = 'block';
+  const cargando = nota(cuerpo, 'Abriendo…');
+  try {
+    await pintar(cuerpo, url, nombre);
+    cargando.remove();
+  } catch (err){
+    cargando.style.cssText = AVISO;
+    cargando.textContent = 'No se pudo abrir el archivo aquí: ' + (err && err.message ? err.message : err)
+      + '. Prueba con «Abrir aparte».';
+  }
+}
+
+if (typeof document !== 'undefined'){
+  document.addEventListener('click', ev => {
+    if (local() || ev.defaultPrevented || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.button) return;
+    const a = ev.target && ev.target.closest && ev.target.closest('a[href]');
+    if (!a || a.id === 'iam-visor' || a.closest('#iam-visor')) return;
+    const href = a.getAttribute('href') || '';
+    if (!PROPIO.test(href)) return;
+    ev.preventDefault();
+    const tarjeta = a.innerText || '';
+    const lineas = tarjeta.split('\n').map(s => s.trim()).filter(Boolean);
+    abrir(href, lineas.find(l => /\.\w{2,4}$/.test(l)) || href.split('/').pop(), lineas[lineas.length-1] || '');
+  }, true);
+}
+
+window.IAM = { esc, plano, fechaLarga, fechaCorta, miles, horas, marcar, md, textoDe, limpio, iniciales, colorDe, tipoArch, recorte, makeCountUp, hero3D, promoverHTML, abrirArchivo: abrir, cerrarVisor: cerrar, MESES };
 })();

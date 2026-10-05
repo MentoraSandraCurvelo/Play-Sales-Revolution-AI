@@ -30,6 +30,7 @@ def main():
     os.makedirs(DEST, exist_ok=True)
     html = open(os.path.join(PLANTILLA, 'IAM Archivo.dc.html'), encoding='utf-8').read()
     html = empaquetar.sin_internet(html)
+    html = empaquetar.con_visor(html)
     for etiqueta, archivo in SCRIPTS:
         js = open(os.path.join(PLANTILLA, archivo), encoding='utf-8').read()
         html = html.replace(etiqueta, '<script>\n' + en_linea(js) + '\n</script>')
@@ -54,7 +55,18 @@ def main():
     for f in sorted(os.listdir(origen)):
         if f.endswith('.pdf'):
             shutil.copy(os.path.join(origen, f), os.path.join(actas, f)); n += 1
-    print('%s  (%.1f MB)\n  %d actas en actas/' % (ruta, os.path.getsize(ruta) / 1048576, n))
+
+    # Y los adjuntos tal como se subieron a Slack, que son los que faltaban: las
+    # actas de agosto y todos los informes de asistencia.
+    m = 0
+    bajados = os.path.join(AQUI, 'adjuntos')
+    if os.path.isdir(bajados):
+        destino = os.path.join(DEST, 'archivos')
+        os.makedirs(destino, exist_ok=True)
+        for f in sorted(os.listdir(bajados)):
+            shutil.copy(os.path.join(bajados, f), os.path.join(destino, f)); m += 1
+    print('%s  (%.1f MB)\n  %d actas en actas/\n  %d adjuntos en archivos/'
+          % (ruta, os.path.getsize(ruta) / 1048576, n, m))
 
 
 if __name__ == '__main__':

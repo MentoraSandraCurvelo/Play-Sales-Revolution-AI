@@ -15,6 +15,11 @@ LIBRERIAS = {
     'react-dom.js': ('react-dom@18.3.1',        'package/umd/react-dom.production.min.js'),
     'babel.js':     ('@babel/standalone@7.29.0', 'package/babel.min.js'),
     'three.js':     ('three@0.160.0',           'package/build/three.min.js'),
+    # pdf.js dibuja las actas dentro de la app. Se usa la 3.x porque es la
+    # ultima que publica un bundle clasico: la 4 en adelante es solo ESM y aqui
+    # todo viaja incrustado en una sola pagina.
+    'pdf.js':        ('pdfjs-dist@3.11.174',     'package/legacy/build/pdf.min.js'),
+    'pdf.worker.js': ('pdfjs-dist@3.11.174',     'package/legacy/build/pdf.worker.min.js'),
 }
 
 

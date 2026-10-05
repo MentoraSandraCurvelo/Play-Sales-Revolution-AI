@@ -103,12 +103,34 @@ Cada vista tiene dirección propia, así que un canal o un acta se puede enviar 
 - `#/buscar/agente` — una búsqueda
 - `#/personas` · `#/archivos` · `#/actas` — las vistas transversales
 
-## Lo que este archivo no guarda
+## Cómo se abren los archivos (y por qué no basta con un enlace)
 
-Slack en plan gratuito exporta **el nombre del archivo, no el archivo**. Los PDF de las
-actas y las grabaciones viven en SharePoint y en la carpeta del área; aquí queda el
-índice de qué se publicó, cuándo y en qué canal — y, en el caso de las actas, **su
-contenido completo**, que es lo que de verdad no debe caducar.
+Publicada como página, la aplicación se sirve **dentro de un marco con `sandbox`**. Ahí
+un enlace a un PDF no abre nada: ni pestaña nueva, ni descarga, ni un aviso en la
+consola. Se midió con y sin `allow-popups`, con pestaña y sin ella, y el resultado es
+siempre el mismo. Por eso los adjuntos **no se dejan al navegador**: `lib/iam.js`
+intercepta el clic, se trae el archivo con `fetch` —mismo origen, eso sí funciona— y lo
+pinta dentro: el PDF con pdf.js sobre un canvas, el informe de asistencia como tabla, la
+imagen y el audio con su etiqueta. Abierto con doble clic desde el disco no se toca
+nada, porque ahí `fetch` no funciona y el navegador sí abre el archivo por su cuenta.
+
+pdf.js viaja incrustado en la página, y con él su worker **en el hilo principal**: al
+encontrar `window.pdfjsWorker` ya no intenta crear un `Worker`, que es otra cosa con la
+que no se puede contar dentro del marco.
+
+## De dónde salen los adjuntos
+
+Slack en plan gratuito exporta **el nombre del archivo, no el archivo** — pero sí el ID.
+Con ese ID se bajan a `adjuntos/`, con el ID por nombre (el de Slack lleva emojis y
+comas, y no sobrevive al viaje), y `construir.py` los enlaza. Los informes de asistencia
+salen de los que ya teníamos cosechados de Dropbox, con su texto completo.
+
+**Esa carpeta sí va al repositorio**: Slack ya ha borrado alguno —un vídeo de
+Contabilidad de agosto ya no está— y esos archivos no se pueden regenerar.
+
+Las grabaciones siguen viviendo en SharePoint; de ellas aquí queda el índice de qué se
+publicó, cuándo y en qué canal — y, en el caso de las actas, **su contenido completo**,
+que es lo que de verdad no debe caducar.
 
 ---
 ⭕ IAM™ Intelligence · Comfacesar · Sandra Curvelo, Mentora IAM™

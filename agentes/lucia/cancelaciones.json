@@ -454,6 +454,21 @@
       "compromiso": "**Era la última del programa**, así que no se recupera: _Tecnología cierra en **S6**_, la del 25 de septiembre.",
       "cuenta_como": "no realizada",
       "nota": "**Segunda caída seguida y tercera del programa** — S3 el 31 de agosto, S7 el viernes 2 y esta. *La S7 no llegó a hacerse ninguna de las dos veces.* _En el aviso no se nombra a nadie y no se dice que nadie avisó._ **Entra en el conteo del tablero.** El área cierra con el primer agente construido y corriendo, que es lo que se destaca en el aviso. *Aviso publicado el 5 de octubre con visto bueno de Sandra*, cerrando con el agente que el área dejó construido. **El tablero del cliente no se actualizó:** _instrucción expresa de Sandra_ — «no coloques métricas». El conteo real queda en 25 caídas del lado del área."
+    },
+    {
+      "area": "Subsidio y Aportes",
+      "sesion": "S10",
+      "fecha": "2026-10-05",
+      "hora": "11:00",
+      "canal": "#subsidio",
+      "quien_cancela": "IAM™ (la mentoría)",
+      "motivo": "La aplaza la mentoría, no el área. El área estaba disponible.",
+      "causa": "aplazada por la mentoría",
+      "aviso_en_canal": "https://iamteamespacio.slack.com/archives/C0BPDP5SNMD/p1791216958318869",
+      "reagendada": false,
+      "compromiso": "Se reagenda cuando estén dadas las condiciones. El punto de partida sigue siendo la S9: el tablero de la cuota monetaria con los ocho meses y la regla de alerta ajustada.",
+      "cuenta_como": "aplazada",
+      "nota": "**No es una caída del área y por eso no entra en la cifra del tablero**, igual que las dos de Mercadeo que retiró la mentoría. _El motivo real no se escribe en el canal_: lo lee todo el equipo del área, y la razón es de la relación con el responsable, no del trabajo. **Mensaje publicado con visto bueno de Sandra.** _Queda pendiente que Sandra diga si quiere contarlo de otra forma._"
     }
   ],
   "patron": {

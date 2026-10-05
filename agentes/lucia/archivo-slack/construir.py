@@ -330,6 +330,41 @@ def enlazar_adjuntos(archivo):
           % (enlazados, sueltos))
 
 
+def enlazar_por_id(archivo):
+    """Enlaza el resto de adjuntos con el archivo original de Slack.
+
+    `enlazar_adjuntos` solo alcanza a las actas que el agente ha generado: las
+    de agosto son anteriores y los informes de asistencia nunca fueron PDF
+    nuestros. Esos adjuntos quedaban en gris y al pincharlos no pasaba nada
+    —que es justo lo que se veía en pantalla—, aunque el archivo siguiera en
+    Slack.
+
+    Ahora se bajan a `adjuntos/` con el **ID de Slack como nombre**: el que
+    tienen en Slack lleva emojis, comas y tildes, y no sobrevive a viajar como
+    nombre de archivo. El nombre bonito ya lo pone la tarjeta del mensaje.
+    """
+    carpeta = os.path.join(AQUI, 'adjuntos')
+    if not os.path.isdir(carpeta):
+        return
+    hay = {}
+    for f in os.listdir(carpeta):
+        hay[f.split('.')[0]] = f
+    puestos = quedan = 0
+    for c in archivo['canales']:
+        for m in c['mensajes']:
+            for a in m['adjuntos']:
+                if a.get('url'):
+                    continue
+                f = hay.get(a.get('id'))
+                if f:
+                    a['url'] = 'archivos/' + f
+                    puestos += 1
+                else:
+                    quedan += 1
+    print('  %d adjuntos enlazados a su archivo de Slack · %d que Slack ya no tiene'
+          % (puestos, quedan))
+
+
 def main():
     archivo = json.load(open(os.path.join(AQUI, 'datos', 'archivo.json'), encoding='utf-8'))
     actas = cargar_actas()
@@ -342,6 +377,7 @@ def main():
     pdfs(archivo)
     normalizar_actas(archivo)
     enlazar_adjuntos(archivo)
+    enlazar_por_id(archivo)
     grabaciones(archivo)
     asistencia(archivo)
     pulso(archivo)

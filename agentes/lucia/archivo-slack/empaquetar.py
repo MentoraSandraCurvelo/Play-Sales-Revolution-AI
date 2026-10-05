@@ -89,6 +89,26 @@ def sin_internet(html):
     return html.replace(CDN_THREE, '<script>\n' + en_linea(lee(VENDOR, 'three.js')) + '\n</script>')
 
 
+def con_visor(html):
+    """Incrusta pdf.js para que las actas se abran dentro de la app.
+
+    Van los dos archivos y en este orden: primero `pdf.worker.js`, que al
+    cargarse en el hilo principal define `window.pdfjsWorker`, y despues
+    `pdf.js`, que al encontrarlo **ya no intenta crear un Worker** —lo dice su
+    propio codigo: `if (!isWorkerDisabled && !_mainThreadWorkerMessageHandler)`.
+    Eso es lo que hace falta aqui: dentro de un marco con `sandbox` no se puede
+    contar con Workers, ni con descargas, ni con el visor de PDF del navegador.
+    """
+    faltan = [f for f in ('pdf.js', 'pdf.worker.js') if not os.path.exists(os.path.join(VENDOR, f))]
+    if faltan:
+        raise SystemExit('faltan en plantilla_v2/vendor/: %s\ncorre antes:  python3 traer-librerias.py'
+                         % ', '.join(faltan))
+    bloque = ('<script>\n' + en_linea(lee(VENDOR, 'pdf.worker.js')) + '\n</script>\n'
+              + '<script>\n' + en_linea(lee(VENDOR, 'pdf.js')) + '\n</script>\n')
+    return html.replace('<script src="lib/iam.js"></script>',
+                        bloque + '<script src="lib/iam.js"></script>')
+
+
 def copiar_actas(dest):
     """Lleva los PDF de las actas a `<dest>/actas/`, con el nombre con el que se
     publicaron — que es el que aparece como adjunto en los mensajes."""
@@ -100,6 +120,14 @@ def copiar_actas(dest):
     for f in sorted(os.listdir(origen)):
         if f.endswith('.pdf'):
             shutil.copy(os.path.join(origen, f), os.path.join(destino, f))
+            n += 1
+    # y los adjuntos originales de Slack, con su ID por nombre
+    bajados = os.path.join(AQUI, 'adjuntos')
+    if os.path.isdir(bajados):
+        otra = os.path.join(dest, 'archivos')
+        os.makedirs(otra, exist_ok=True)
+        for f in sorted(os.listdir(bajados)):
+            shutil.copy(os.path.join(bajados, f), os.path.join(otra, f))
             n += 1
     return n
 
@@ -133,6 +161,8 @@ def main():
 
     if suelta:
         html = sin_internet(html)
+    if con_pdfs:
+        html = con_visor(html)
 
     for etiqueta, archivo in SCRIPTS:
         if etiqueta not in html:
