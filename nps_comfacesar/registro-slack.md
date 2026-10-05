@@ -6,6 +6,26 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## ⬇️ 5 oct · 11:15 a. m. · Termómetro v101: Tecnología se cayó dos veces seguidas y cierra en S6
+
+**Hoy a las 10:00 la hora pasó sin poder empezar**, igual que el viernes a las 9:00. El canal se lo
+publicó al área a las 11:00 y ahí quedó también el cierre, así que **no escribí nada**.
+
+- **Caídas 24 → 25.** **Inasistencias 11 → 12.** Lo demás del desglose queda igual.
+- **El área cierra en S6**, la del 25 de septiembre, no en S7. Ya no hay otra hora detrás a la que
+  correrle el número.
+- **Sesiones siguen en 105.**
+
+**Lo dejé dicho en el tablero con el contexto completo**, porque dos caídas seguidas leídas solas
+calumnian al área: Tecnología llegó a estas dos con **seis sesiones sin faltar una sola vez** y con su
+primer agente corriendo, el del correo del líder del área. **Las dos caídas son de las últimas dos
+horas, no del programa.**
+
+**Las fechas siguen congeladas**, verificado por conteo antes de publicar. Lo único que se escribió de
+cierre es **el de un área**, que es lo que el canal publicó, no la fecha del programa.
+
+---
+
 ## ⏳ 5 oct · 9:40 a. m. · El congelamiento tiene fecha de vencimiento: HOY
 
 **Sus palabras:** *«no pero tiene que ser hoy, si hoy no contesta ya procedo y te aviso»*.
