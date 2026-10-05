@@ -277,3 +277,98 @@ y conviene tenerlo marcado para no citarlos por inercia:
 
 **Sirven para calibrar el tono, no para citarse.** Un párrafo así en un documento que
 circula quema la relación y la propuesta.
+
+---
+
+# 11 · LO QUE DICTA SANDRA PARA LA PROPUESTA — 5 de octubre, segunda tanda
+
+Esto no es del director: es lo que ella quiere que lleve la propuesta.
+Textual donde importa.
+
+## 11.1 Duración y la salvedad
+
+Doce meses, y la razón que da es de fondo: «esto es un cambio de
+transformación digital. Yo estaría un año en el acompañamiento de Comfacesar».
+
+Y una salvedad que pide **escribir explícitamente**:
+
+> «Quiero que ellos tengan la salvedad de que no es la primera empresa en la
+> que yo estoy un año. Yo tengo empresas donde yo llevo tres años. Cuatro años.
+> Hay que hacer esa salvedad para que ellos no crean que es que yo me voy a
+> quedar ahí por siempre.»
+
+Es decir: el año no es dependencia, es el plazo de una transformación. Y hay
+antecedente de acompañamientos de tres y cuatro años en otras empresas.
+
+## 11.2 Gobierno del proyecto
+
+| Instancia | Con quién | Ritmo |
+|---|---|---|
+| Revisión de avance | Sponsor del proyecto (María Elvira) | **Mensual**, como se viene manejando ahora |
+| Revisión general | Director | **Trimestral** |
+
+## 11.3 Condiciones económicas, textual
+
+> «yo para esto lo que hago es que coloco un fee mensual, para que no les toque
+> desembolsar todo el dinero de una»
+
+- **Fee mensual**, no un pago único.
+- **El primero se paga como anticipo.**
+- Los siguientes, **el 20 de cada mes**. Descartó expresamente el último día
+  hábil: «no, el último día hábil de cada mes no, porque se enredan con el tema
+  de la nómina».
+- El monto **no lo dio**. Va como decisión suya en el tablero.
+
+## 11.4 Frentes nuevos que entran a la propuesta
+
+### a) Levantamiento de computadores — primer mes
+> «yo haría un levantamiento de información en el primer mes, que es qué
+> computadores se deben de cambiar»
+
+Criterio de prioridad que ella misma fija: **las personas que tomaron el curso
+y que tienen implementado el sistema completo**. No es un censo de toda la
+Caja: es equipar primero a quien ya está produciendo con la herramienta.
+
+Esto conecta con el hallazgo de hardware que ya se publicó el 5 de octubre.
+
+### b) Gobernanza, con Cumplimiento
+> «haría el proyecto con cumplimiento para todo el tema de gobernanza, no
+> porque lo vaya a hacer yo sino porque los asesoraría»
+
+Su rol es asesoría, no ejecución. El dueño del entregable es Cumplimiento.
+
+### c) Licenciamiento cloud — reunión con Anthropic
+> «también la compra de la licencia cloud: una reunión con Anthropic para ver
+> cuánto vale el licenciamiento, cuánto necesitamos y cuánto se aprueba. A
+> partir de allí sale una propuesta que María Elvira presentaría al director,
+> pero yo hago todo el acompañamiento»
+
+Tres preguntas que la reunión tiene que responder: cuánto vale, cuánto se
+necesita, cuánto se aprueba. Y la ruta de decisión es clara: la propuesta la
+**presenta María Elvira al director**; Sandra acompaña.
+
+### d) Vivienda y Mercadeo — las que no se vincularon
+> «revisar y trabajar de la mano con el área de vivienda y de mercadeo, que no
+> se vincularon 100% al proyecto, a ver qué va a pasar, porque el área tiene
+> mucho por hacer»
+
+Lo que sí va al papel: **sistematizar y automatizar todo lo que ellos hacen en
+el área** y volver a trabajar con ellos más de cerca.
+
+⛔ Lo que **NO** va al papel, dicho por ella misma: «yo no voy a cambiar
+personas, obviamente eso no lo vamos a escribir en la propuesta».
+
+### e) Una app para Comfacesar
+> «me gustaría crear una app para Comfacesar donde todos estuvieran
+> involucrados, es decir, unir… una app muy sencilla, por áreas, y que luego
+> pues ya todas se unan, así como hicimos con los tableros»
+
+Arranca **por áreas** y luego se unen, igual que el camino que ya se recorrió
+con los tableros. Dijo «eso no está dentro del costo del proyecto», así que
+entra como **frente aparte, fuera del fee**, para que ella lo mueva si quiere.
+
+## 11.5 Dónde cae esto en el choque con el director
+
+Él quiere entrar a las que no avanzaron: «Mercadeo, sistemas, vivienda».
+Ella acaba de poner **Vivienda y Mercadeo** en la propuesta por su cuenta.
+El choque se reduce: queda solo Tecnología, que cerró en S6 con dos caídas.
