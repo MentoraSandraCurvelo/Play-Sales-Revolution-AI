@@ -6,6 +6,82 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## lunes 5 de octubre de 2026 · 12:50 p. m. · Corrida de la hora, y la propuesta reescrita
+
+### Lo que trajo la corrida
+**Parte A saltada**, la regla de no escribir sigue vigente. Leído el registro de Lucía
+y tres canales con sesión: `#subsidio`, `#contabilidad`, `#comunicaciones`, `#sub-operativa`.
+
+**Subsidio S9 del viernes 2 ya tiene los tres soportes.** Llegaron hoy entre las 10:27
+y las 10:38: grabación, resumen y acta en PDF. El acta cierra todo: individual de
+Avelino Andrés Romero, 3:04 a 4:19 p. m., **1 h 15 min**, tabla de participantes
+**1 de 1**. Entra a la cuenta: **105 → 106 sesiones**, asistencia **180 sobre 196**,
+sigue en 92%.
+
+**La hora de Subsidio de hoy a las 11:00 no corrió.** El canal dice que se aplaza y se
+reagenda «en cuanto estén dadas las condiciones para seguir construyendo». Es de la
+mentoría, así que **no se atribuye y no entra a caídas**. Cambia la numeración:
+**el área cierra en S9**.
+
+**Contabilidad S9 del viernes sigue por confirmar**, tres días después. Lo único en el
+canal es «Hola Carlos estoy conectada» a las 11:03 del 2 de octubre. No alcanza.
+
+Publicados: Termómetro v103, Mesa v21.
+
+### ⚠️ Un error mío que vale anotar: los conteos por área
+Para la propuesta saqué las sesiones por área con un regex que leía **toda la fila**
+del check, y la columna «próxima» menciona números de sesión. Salieron infladas
+(Jurídica 12 bien, pero Comunicaciones 12 en vez de 10, Contabilidad 9 en vez de 8,
+Tecnología 7 en vez de 6, Sub. Operativa 4 en vez de 3). **La regla: contar solo la
+primera celda `<td class="ses">` de cada fila, y excluir las que digan cancelada,
+no se hizo, no se presentó, sin número, sin soporte o caída.**
+
+Conteo bueno, que suma exactamente 106:
+Jurídica 12 · Sub. Admin y Financiera 11 · Servicios Sociales 10 · Comunicaciones 10 ·
+Subsidio 9 · Contabilidad 8 · Agencia de Empleo 7 · Tecnología 6 · Mercadeo 5 ·
+Vivienda 5 · IPS 5 · Educación 4 · Sub. Operativa 3 · Talento Humano 3 ·
+Cumplimiento 2 · Tesorería 2 · Planeación 2 · Gerencia Financiera 2.
+
+Con eso, la clasificación que pidió Sandra es **12 activadas / 6 por activar**, no 13/5.
+
+### La propuesta de fase 2, cuatro versiones hoy
+https://claude.ai/artifact/6Q7za5TMhT4NjpNvyuK7cY · **v4** · privado.
+
+Lo que cambió por sus instrucciones de la tarde:
+- **Áreas, no personas.** Fuera el «51 colaboradores». Ella: «las 51 no lo aprovecharon…
+  yo más que persona diría áreas». Criterio suyo: **dos o tres sesiones es área por activar**.
+- **Horas sin decimales:** 134, no 133,9. Ojo, ella dijo «139,9, ponle 140»; la base real
+  es 133,9, así que el redondeo honesto es **134**. Se lo dije.
+- **Proyección a las tres tarifas**, no a la más baja: $253,3 M profesional,
+  **$438,0 M gerente o jefe** (el de referencia), $668,5 M directivo, sobre 6.968 h/año.
+  No puse «la sumatoria de los tres» porque serían las mismas horas contadas tres veces.
+- Con eso el argumento cambia de piso: lo ya recuperado vale **1,5 veces el fee**.
+- **Fuera toda la evaluación de asistencia.** Ella: «esto es un tema de procesos puro y
+  duro… si asistió o no asistió no suma nada». Quitada la tarjeta de 92%, la línea de los
+  25 espacios y las menciones a caídas y actas como soporte.
+- **Un PM del equipo IAM™** dentro del proyecto, y la **persona de Tecnología** que
+  comprometió Julio como contraparte, las dos como condición de arranque.
+
+### Banda de tres perfiles, unificada por decisión suya
+Los Hallazgos críticos mezclaban el profesional de 133,9 h con los dos perfiles altos de
+111,1 h: $253,0 / $363,2 / $554,3. Lo puse como encuesta y escogió **las mismas 134 h a
+las tres tarifas**. Corregido en los dos tableros de hallazgos: **$253,3 / $438,0 / $668,5**.
+Hallazgos críticos v4, Hallazgos mentora v24.
+**El registro de abajo que habla de 111,1 h no se reescribe: era verdad ese día.**
+
+### Hallazgo 41, en Hallazgos críticos
+La contraparte de Tecnología que comprometió la dirección del área. **Sin nombre en el
+tablero**; si Sandra quiere que diga Julio, lo pone ella. 41 hallazgos · 23 decisión /
+12 seguimiento / 6 a favor.
+
+### Pendiente
+- El check del Termómetro le faltan **Jurídica S12 e IPS S5** como filas (están contadas
+  en el total pero no listadas). Subsidio S8 y S9 ya quedaron dentro.
+- `mesa-comfacesar.html`, la vieja, todavía dice «De $210,0 M a $554,3 M». Está
+  reemplazada por la v2 y fuera de alcance, no la toqué.
+- `sesiones_por_area.md` quedó en el corte del 24 de agosto. Es histórico.
+
+
 ## lunes 5 de octubre de 2026 · 1:10 p. m. · Primer bosquejo de la propuesta de fase 2
 
 Sandra dictó la propuesta en tres tandas. Todo quedó en
