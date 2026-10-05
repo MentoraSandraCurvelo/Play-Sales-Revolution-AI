@@ -6,6 +6,58 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## 🚩 5 oct · 7:30 a. m. · Termómetro v100 y Mesa v19. Y hay algo que Sandra tiene que decidir
+
+### 1 · Las dos del viernes por la tarde no tienen un solo soporte
+
+**Contabilidad S9 de las 11:00 y Subsidio S9 de Avelino de las 3:00.** Verificado uno por uno:
+
+- **Canales:** nada en `#contabilidad` ni en `#subsidio` después del mediodía del viernes.
+- **Dropbox:** el archivo más nuevo de toda la carpeta del proyecto sigue siendo del **1 de octubre a
+  las 6:25 p. m.** No hay informe de asistencia de ninguna de las dos.
+
+**Lo que hace sospechar que no corrieron:** el informe de Teams se sube solo al terminar, y las dos del
+jueves lo tuvieron en Dropbox esa misma tarde. Setenta y dos horas sin ninguno de los tres soportes es el
+patrón de una hora que no corrió.
+
+**Decisión tomada: quedan «por confirmar».** No entran a las 105 sesiones ni a las 24 caídas, porque no
+hay con qué afirmar ninguna de las dos cosas. **Las cifras no se mueven.**
+
+### 2 · Hoy es el día que los tableros llaman el cierre, y el calendario tiene otra semana entera
+
+**Esto no es una pregunta sobre liberar las fechas, es un hecho nuevo que cambia el costo del congelamiento.**
+El calendario de hoy en adelante, leído esta mañana:
+
+| Día | Sesiones Comfacesar |
+|---|---|
+| **Hoy lun 5** | Tecnología S8, Subsidio S10, Sub. Operativa S5, Comunicaciones S11 y S12 |
+| **Mar 6** | Servicios Sociales S12, Agencia de Empleo S8, Vivienda S6, Subsidio S11 |
+| **Mié 7** | un espacio con los tres correos de SST, con título de Calendly |
+| **Jue 8** | Subsidio S12, Agencia de Empleo S9 |
+| **Vie 9** | Agencia de Empleo S10 |
+
+**Siete u ocho sesiones después de hoy**, y entre ellas **Servicios Sociales S12**, un área que el tablero
+declara cerrada en S10, y **Vivienda S6**, que llevaba desde el 10 de septiembre sin fecha.
+
+**Qué se hizo y qué no:**
+
+- **No se publicó ni una fecha nueva.** Ni el 6, ni el 8, ni el 9, ni el 16, ni el 31. Verificado por
+  conteo antes de publicar: ninguna mención de esas fechas aumentó.
+- **El relato del lunes 5 queda intacto**, incluida la nota «El cierre es el lunes 5 de octubre» y el
+  rótulo «la que cierra el programa» en la última de Comunicaciones.
+- **Lo único que se quitó es la cuenta de días del sello.** Decía «quedan dos días», que hoy es falso, y
+  la alternativa dentro del relato viejo sería escribir «último día», que es justamente la afirmación de
+  fecha de cierre que está prohibida. **Quitarla no publica ninguna fecha, ni la vieja ni la nueva.**
+
+**Lo que hay que saber:** el tablero ya decía desde el 1 de octubre que *«hay dos sesiones agendadas
+después del cierre»* — eso ya estaba publicado y no lo puse yo hoy. Pero **ya no son dos, son siete u
+ocho, y hoy es el último día según el tablero.** A partir de mañana el tablero público va a decir que el
+programa terminó mientras el equipo sigue sentándose a sesiones.
+
+**No le repregunto si libera las fechas**, como pidió. Se lo reporto y ella decide cuándo.
+
+---
+
 ## ✅ 2 oct · 2:20 p. m. · Termómetro v99: entraron las dos actas y el acta confirma la asistencia
 
 **Las dos sesiones del jueves quedan con los tres soportes completos.** Las actas llegaron esta mañana,
