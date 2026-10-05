@@ -6,6 +6,33 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## 🔄 5 oct · 11:20 a. m. · Repaso de los ocho tableros, a pedido de Sandra
+
+**Sus palabras:** *«actualiza tableros»*. Repasados uno por uno, con lo que se movió y lo que no:
+
+| Tablero | Estado |
+|---|---|
+| **Termómetro** | **v101**, con las caídas en 25 y Tecnología cerrada en S6 |
+| **Mesa** | **v20**, tarjeta del Termómetro al corte de las 11:15, con las 25 caídas |
+| **KPIs** | Sin cambio. **No hay dato nuevo que meter** |
+| **Sala de Control** | Sin cambio, por lo mismo |
+| **Pulso NPS** | **Congelado por instrucción suya.** No se toca |
+| **Hallazgos mentora** | Sin hallazgos nuevos hoy |
+| **Hallazgos críticos** | Sin cambio en el semáforo: 21 de 39 siguen en decisión |
+| Corte y Sala de Agentes | De Lucía, no se tocan |
+
+**Por qué KPIs y Sala de Control no se movieron, dicho en claro:** esos dos **solo cambian cuando las
+áreas cargan ejercicios en el dashboard de productividad**, no cuando corre una sesión. La última carga
+que entró fue la de IPS el 1 de octubre. **No tengo evidencia de cargas nuevas**, y no voy a inventar
+cifras ni a suponer dónde está el dashboard para leerlo: si Sandra lo pasa, se releen los dos en una
+corrida.
+
+**Lo que sí hay que mirar de esos dos:** las actas de esta semana le pidieron a varias áreas cargar el
+reporte, Comunicaciones y Servicios Sociales entre ellas. **Si cargaron, los dos tableros están cortos**
+y el ahorro real del programa es mayor que los $253 M que muestran hoy.
+
+---
+
 ## ⬇️ 5 oct · 11:15 a. m. · Termómetro v101: Tecnología se cayó dos veces seguidas y cierra en S6
 
 **Hoy a las 10:00 la hora pasó sin poder empezar**, igual que el viernes a las 9:00. El canal se lo
