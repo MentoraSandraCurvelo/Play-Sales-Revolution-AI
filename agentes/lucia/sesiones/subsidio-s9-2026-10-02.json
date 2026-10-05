@@ -1,0 +1,244 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SUBSIDIO Y APORTES",
+  "area_completa": "",
+  "sesion_num": 9,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "2 de octubre de 2026",
+  "fecha_corta": "2 octubre 2026",
+  "subtitulo_meta": "Individual de Avelino Andrés Romero · 2 de octubre de 2026 · 3:00 p. m. · 1 hora 15 minutos · Virtual — Microsoft Teams",
+  "datos_sesion": [
+    ["Área(s)", "Subsidio y Aportes — Comfacesar"],
+    ["Sesión", "N° 9 — Individual de Avelino Andrés Romero: el tablero de la cuota monetaria"],
+    ["Fecha", "2 de octubre de 2026"],
+    ["Hora inicio", "3:00 p. m. — Colombia"],
+    ["Duración de la sesión", "1 hora 15 minutos (3:04 p. m. – 4:19 p. m.)"],
+    ["Modalidad", "Virtual — Microsoft Teams"],
+    ["Asistencia", "Avelino Andrés Romero — 1 hora 14 minutos"],
+    ["Facilitadora", "Sandra Curvelo — Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "1", "etiqueta": "Tablero construido por cuenta propia", "detalle": "El área llegó con la estadística de giro ya montada, sin que nadie se lo pidiera"},
+    {"valor": "8", "etiqueta": "Meses de giro disponibles", "detalle": "De enero a agosto; el tablero nuevo arranca con enero"},
+    {"valor": "4", "etiqueta": "Tipos de análisis nuevos", "detalle": "Pictograma, dispersión, tendencia y segmentación por categoría"},
+    {"valor": "6", "etiqueta": "Categorías de beneficiario", "detalle": "Hijos, hijastros, padres, y los tres casos de discapacidad"},
+    {"valor": "2", "etiqueta": "Sectores que conviven en la cuota", "detalle": "Agropecuario, con cuota más alta, y ordinario"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "—", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Avelino Andrés Romero", "cargo": "Analista de Subsidios — Comfacesar", "correo": "liquidacionsubsidio@comfacesar.com", "modalidad": "Virtual", "nivel": "Intermedio"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 9. El área llega con un tablero construido por iniciativa propia, de modo que lo que la sesión pone a la vista no es cómo empezar, sino qué le falta a lo construido para que sirva de verdad en la conciliación.",
+  "riesgos": [
+    {
+      "titulo": "El umbral de alerta por monto no sirve tal como se planteó",
+      "nivel": "ALTO",
+      "descripcion": "Se iba a marcar en rojo todo pago por encima de un millón y medio. _Y el propio puesto lo frenó:_ **a los fallecidos sí se les puede pagar un millón o más**, así que ese corte marcaría como crítico lo que es normal. **La regla de alerta tiene que distinguir el tipo de pago, no solo el monto** — y eso es conocimiento del puesto, no del sistema.",
+      "responsable": "Avelino Andrés Romero / Antes de la S10"
+    },
+    {
+      "titulo": "El tablero se construyó sobre un solo mes",
+      "nivel": "ALTO",
+      "descripcion": "El archivo detallado que se subió es **solo de enero**, aunque la estadística de giro va de enero a agosto. _Por eso el tablero no muestra las pestañas de navegación por periodo:_ **sin varios meses no hay con qué segmentar**, y tampoco hay histórico que comparar en la conciliación.",
+      "responsable": "Avelino Andrés Romero / Antes de la S10"
+    },
+    {
+      "titulo": "La conciliación sigue haciéndose contra archivos sueltos",
+      "nivel": "ALTO",
+      "descripcion": "El objetivo que el área se puso es **garantizar la consistencia de los datos y que la conciliación dé un resultado final confiable**. Hoy eso se hace cotejando a mano un resumen contra un detallado, en archivos distintos. _Mientras los dos vivan separados, el cuadre depende de que alguien lo mire._",
+      "responsable": "Avelino Andrés Romero / Permanente"
+    },
+    {
+      "titulo": "El tablero no dice qué hacer con lo que muestra",
+      "nivel": "MEDIO",
+      "descripcion": "Entrega cifras, semáforo y gráficos, pero no conclusiones. _Quedó pedido en sesión:_ **una pestaña de hallazgos principales y acciones a tomar** — que es la que convierte el tablero en una decisión y no en una consulta.",
+      "responsable": "Avelino Andrés Romero / Antes de la S10"
+    },
+    {
+      "titulo": "El primer tablero se quedó corto frente a los datos que tiene",
+      "nivel": "MEDIO",
+      "descripcion": "El área construyó un resumen correcto pero plano: totales, sectores y discapacidad. _Con los mismos datos cabe mucho más_, y eso se demostró en la misma sesión al rehacerlo con segmentación, dispersión y tendencia.",
+      "responsable": "Avelino Andrés Romero / Resuelto en sesión"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Subir los siete meses que faltan del giro",
+      "descripcion": "El detallado que se cargó es solo de enero. Con los ocho meses el tablero habilita la navegación por periodo y la comparación, que es lo que la conciliación necesita.",
+      "responsable": "Avelino Andrés Romero",
+      "plazo": "Antes de la S10"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Redefinir la regla de alerta por tipo de pago",
+      "descripcion": "El corte por monto solo no distingue un pago alto legítimo —un fallecido— de uno que hay que revisar. La regla debe cruzar monto y tipo de beneficiario.",
+      "responsable": "Avelino Andrés Romero",
+      "plazo": "Antes de la S10"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Modelar el tablero y analizar cada resultado",
+      "descripcion": "No basta con que lo entregue: hay que leerlo, corregir lo que no cuadre y volver a pedirlo hasta que diga lo que el área necesita ver.",
+      "responsable": "Avelino Andrés Romero",
+      "plazo": "Antes de la S10"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Pedir la pestaña de hallazgos y acciones",
+      "descripcion": "Que el propio tablero señale qué encontró y qué conviene hacer. Es el paso de mostrar datos a sostener una decisión.",
+      "responsable": "Avelino Andrés Romero",
+      "plazo": "Antes de la S10"
+    },
+    {
+      "num": "05",
+      "nivel": "ALTO",
+      "titulo": "Traer el proceso que más tiempo le quita al puesto",
+      "descripcion": "Con el proyecto ya creado y los documentos cargados, para que la sesión empiece en el análisis y no en la preparación.",
+      "responsable": "Avelino Andrés Romero",
+      "plazo": "Próxima sesión"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Entender antes de construir",
+      "duracion": "~15 min",
+      "objetivo": "Partir de lo que el área ya hizo y de qué quería lograr con ello.",
+      "pasos": [
+        "Se abrió el proyecto **estadística de giro** y su conversación de conciliación, y se leyó el detalle del propio proyecto antes de tocar nada.",
+        "_El objetivo lo había escrito el área:_ **garantizar la consistencia de los datos y que la conciliación dé un resultado final confiable.**",
+        "**Quedó explicado el dominio**, que es lo que ningún sistema aporta: la cuota monetaria se paga a hijos, hijastros, padres, y a hijos, padres y hermanos en condición de discapacidad; y convive un **sector agropecuario**, con cuota más alta, con el **ordinario**."
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Dónde viven los tableros",
+      "duracion": "~6 min",
+      "objetivo": "Dejar de perder lo construido.",
+      "pasos": [
+        "El área buscaba su tablero por donde lo había dejado. **Todos quedan guardados en el menú de artefactos**, con su hora, y desde ahí se abren.",
+        "_Y hay otra forma:_ se copia y se abre en el navegador, para tener el tablero siempre a la mano y actualizado."
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El tablero dictado de principio a fin",
+      "duracion": "~30 min",
+      "objetivo": "Mostrar el salto de un resumen plano a un tablero de control.",
+      "pasos": [
+        "Se subió el Excel detallado y **se dictó la instrucción completa, palabra por palabra**, para que quedara aprendida.",
+        "Lo pedido: un **tablero HTML en formato aplicación web**, con los mejores KPIs, gráficos de tendencia, tipo dona, 3D, **pictograma**, **análisis de dispersión** y **análisis de tendencia**.",
+        "**La segmentación la dio el puesto, no la mentoría:** cuota agropecuaria, cuota ordinaria, pagos a discapacitados y pagos por fallecimiento.",
+        "Y el acabado: **semaforización por monto, el logo de Comfacesar, quién elaboró el reporte con su cargo, y la hora del corte.**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · El sistema pregunta y el puesto responde",
+      "duracion": "~8 min",
+      "objetivo": "Reconocer que las preguntas que devuelve son parte del trabajo.",
+      "pasos": [
+        "Antes de construir, el sistema preguntó: las cuotas individuales van de cinco mil a sesenta y cinco mil, muy por debajo del umbral planteado — **¿a qué nivel se aplica entonces la alerta?**",
+        "_La respuesta la puso el área:_ **al total pagado por trabajador**, porque a un mismo trabajador se le pagan varios meses.",
+        "**Y de ahí salió la corrección que más vale de la sesión:** a los fallecidos sí se les paga un millón o más, así que el umbral por monto, solo, marcaría como crítico lo que es normal."
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · Lectura del tablero entregado",
+      "duracion": "~12 min",
+      "objetivo": "Leer el resultado con criterio y saber qué se está viendo.",
+      "pasos": [
+        "El tablero salió encabezado con **quién lo elaboró, su cargo y la fecha y hora del corte**, tal como se pidió.",
+        "Trae los indicadores con su semáforo, los **trabajadores en estado crítico o de alerta**, el sector agropecuario frente al ordinario, la **segmentación de gasto por categoría no excluyente**, los pagos por fallecimiento, la tendencia diaria del giro, el análisis de tendencia y el de dispersión.",
+        "_Quedó explicado qué es cada cosa:_ **el pictograma** representa una población por cuadrito, y **el análisis de dispersión** muestra qué tan lejos está cada caso del foco esperado.",
+        "**Y el criterio general:** cuando algo del resultado no se entienda, _se le pregunta al propio sistema que lo explique de nuevo._"
+      ]
+    },
+    {
+      "titulo": "Ejercicio F · Por qué no aparecieron las pestañas",
+      "duracion": "~4 min",
+      "objetivo": "Entender una limitación real y no confundirla con un fallo.",
+      "pasos": [
+        "El tablero no mostró navegación por periodo. **No es un error: se construyó con un solo mes.**",
+        "_En cuanto se carguen los demás archivos_, aparecen las pestañas y se puede recorrer el histórico."
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "LA CONCILIACIÓN",
+      "titulo": "El cuadre deja de depender de cotejar archivos a mano",
+      "descripcion": "Con el detallado y la estadística de giro en el mismo tablero, la consistencia se ve en vez de buscarse.",
+      "estado": "En construcción",
+      "proximo_paso": "Cargar los ocho meses y volver a pedir el tablero",
+      "target": "S10"
+    },
+    {
+      "encabezado": "EL CONTROL DE PAGOS",
+      "titulo": "La semaforización señala lo que hay que mirar antes de que pase",
+      "descripcion": "Trabajadores en estado crítico o de alerta, con la regla afinada por tipo de pago y no solo por monto.",
+      "estado": "Planteado",
+      "proximo_paso": "Redefinir el umbral cruzando monto y tipo de beneficiario",
+      "target": "S10"
+    },
+    {
+      "encabezado": "DE LOS DATOS A LA DECISIÓN",
+      "titulo": "La pestaña de hallazgos es la que vale",
+      "descripcion": "Que el tablero diga qué encontró y qué acciones convienen, en vez de dejar esa lectura a quien lo abra.",
+      "estado": "Pedido en sesión",
+      "proximo_paso": "Añadirla y revisar lo que proponga",
+      "target": "S10"
+    },
+    {
+      "encabezado": "LA RUTA DEL ÁREA",
+      "titulo": "Mapear los procesos es el paso previo al agente",
+      "descripcion": "Primero cada proceso del puesto queda montado en su tablero; después el agente que los recorre solo; y al final la aplicación web del área.",
+      "estado": "Acordado",
+      "proximo_paso": "Traer el proceso que más tiempo consume",
+      "target": "Próxima sesión"
+    }
+  ],
+  "tareas_intro": "El área llega con un tablero hecho por iniciativa propia y sale de la sesión con uno de control, construido en vivo sobre su Excel real. Lo que queda no es aprender a pedirlo: es completarlo con los meses que faltan, afinar la regla de alerta con criterio del puesto y hacerle decir qué conviene hacer.",
+  "tareas": [
+    {"tarea": "Subir los siete meses de giro que faltan para tener el histórico completo", "responsable": "Avelino Andrés Romero", "prioridad": "ALTA", "plazo": "Antes de la S10"},
+    {"tarea": "Redefinir la alerta cruzando monto y tipo de pago, para no marcar como crítico lo normal", "responsable": "Avelino Andrés Romero", "prioridad": "ALTA", "plazo": "Antes de la S10"},
+    {"tarea": "Modelar el tablero y analizar cada resultado hasta que diga lo que el área necesita", "responsable": "Avelino Andrés Romero", "prioridad": "ALTA", "plazo": "Antes de la S10"},
+    {"tarea": "Pedir la pestaña de hallazgos principales y acciones a tomar", "responsable": "Avelino Andrés Romero", "prioridad": "MEDIA", "plazo": "Antes de la S10"},
+    {"tarea": "Traer el proceso que más tiempo le quita al puesto, con el proyecto creado y los documentos cargados", "responsable": "Avelino Andrés Romero", "prioridad": "ALTA", "plazo": "Próxima sesión"},
+    {"tarea": "Agendar las sesiones que siguen para alcanzar a mapear el resto de procesos", "responsable": "Avelino Andrés Romero", "prioridad": "ALTA", "plazo": "Inmediato"}
+  ],
+  "observaciones": [
+    "**El área llegó con un tablero construido por su cuenta**, sin que nadie se lo pidiera: la estadística de giro, entregada en HTML, con el total del subsidio de enero a agosto, los dos sectores, la discapacidad por tipo y los pagos por fallecimiento.",
+    "_El objetivo lo escribió el propio puesto:_ **garantizar la consistencia de los datos y que la conciliación dé un resultado final confiable.**",
+    "**El conocimiento del dominio es lo que ningún sistema aporta:** la cuota se paga a hijos, hijastros, padres y a los tres casos de discapacidad, y conviven el sector agropecuario —con cuota más alta— y el ordinario.",
+    "**La instrucción se dictó completa, palabra por palabra**, para que quedara aprendida: tablero en formato aplicación web, KPIs, tendencia, dona, 3D, pictograma, dispersión, segmentación y semaforización.",
+    "**La segmentación la dio el área**, no la mentoría — cuota agropecuaria, ordinaria, discapacitados y fallecimientos.",
+    "_El sistema preguntó antes de construir_ a qué nivel debía aplicarse la alerta, porque las cuotas individuales quedaban muy por debajo del umbral. **Contestarlo es trabajo del puesto, no del sistema.**",
+    "**Y ahí está lo más valioso de la sesión:** el área advirtió que **a los fallecidos sí se les puede pagar un millón o más**, de modo que un corte por monto marcaría como crítico lo que es normal. _La regla tiene que cruzar monto y tipo de pago._",
+    "**El tablero salió firmado:** quién lo elaboró, con su cargo, y la fecha y la hora del corte.",
+    "**Entrega también lo que el primero no tenía:** trabajadores en estado crítico o de alerta, segmentación de gasto por categoría no excluyente, pictograma, tendencia diaria del giro, análisis de tendencia y análisis de dispersión.",
+    "_Quedó explicado qué es cada cosa:_ **el pictograma** representa una población por cuadrito y **la dispersión** muestra qué tan lejos está cada caso del foco esperado.",
+    "**Cuando algo del resultado no se entienda, se le pide al propio sistema que lo explique de nuevo** — no hace falta esperar a la siguiente sesión.",
+    "**Los tableros no se pierden:** todos quedan en el menú de artefactos con su hora, y además se pueden abrir en el navegador para tenerlos siempre a mano.",
+    "**La navegación por periodo no apareció porque el archivo cargado era solo de enero.** No es un fallo: en cuanto se suban los demás meses, aparece.",
+    "**El primer tablero estaba bien pero plano.** Con los mismos datos cabía mucho más, y se demostró rehaciéndolo en la misma sesión.",
+    "**La ruta quedó dicha:** mapear cada proceso del puesto en su tablero, después el agente que los recorre solo, y al final la aplicación web del área."
+  ],
+  "proxima_sesion": {
+    "sesion": "Sesión 10",
+    "condiciones": [
+      "Los siete meses de giro que faltan ya cargados",
+      "El tablero modelado y con cada resultado analizado",
+      "La regla de alerta redefinida por tipo de pago",
+      "El proceso que más tiempo consume, con su proyecto ya creado y los documentos subidos"
+    ],
+    "agenda": [
+      "Revisión del tablero completo con el histórico de los ocho meses",
+      "La pestaña de hallazgos y acciones a tomar",
+      "Arranque del mapeo del proceso más costoso en tiempo del puesto"
+    ]
+  },
+  "pie": "IAM™ Intelligence — Documento Confidencial | Comfacesar | 2 octubre 2026 | Sandra Curvelo · Mentora IAM™ · @sandracurvelo"
+}
