@@ -439,6 +439,21 @@
       "compromiso": "**El número no avanza:** la del *lunes 5 a las 10:00 a. m.* toma la **S7**. _Tecnología cierra el programa en S7_ — no en S8, como todavía dice el título del calendario.",
       "cuenta_como": "no realizada",
       "nota": "**Era la individual del área** (`auxiliar_gt@`). *Segunda caída de Tecnología en todo el programa* — la anterior fue la **S3 del 31 de agosto**, por cruce con otras actividades. _En el aviso no se nombra a nadie_: el canal lo lee todo el equipo y aquí no hay excepción expresa como la de César. *Tampoco se dice que nadie avisó* — solo que la sesión no se pudo hacer. **Entra en las métricas del tablero del cliente: 24 sesiones caídas.** :warning: **El evento del lunes 5 hay que renombrarlo dos veces:** dice *Sesion 8* y debe decir **Sesion 7**, y la marca está mal escrita — dice `IAM™Intellgience` en vez de `IAM™ Intelligence`. _Solo Sandra puede corregirlo: el conector de Outlook es de solo lectura._ *Aviso publicado el 2 de octubre, con visto bueno de Sandra.*"
+    },
+    {
+      "area": "Tecnología",
+      "sesion": "S7",
+      "fecha": "2026-10-05",
+      "hora": "10:00",
+      "canal": "#tecnologia",
+      "quien_cancela": "—",
+      "motivo": "El área no se presentó a la sala. Sandra canceló la reunión.",
+      "causa": "inasistencia — no ingresó a la sala",
+      "aviso_en_canal": "pendiente de visto bueno de Sandra",
+      "reagendada": false,
+      "compromiso": "**Era la última del programa**, así que no se recupera: _Tecnología cierra en **S6**_, la del 25 de septiembre.",
+      "cuenta_como": "no realizada",
+      "nota": "**Segunda caída seguida y tercera del programa** — S3 el 31 de agosto, S7 el viernes 2 y esta. *La S7 no llegó a hacerse ninguna de las dos veces.* _En el aviso no se nombra a nadie y no se dice que nadie avisó._ **Entra en el conteo del tablero.** El área cierra con el primer agente construido y corriendo, que es lo que se destaca en el aviso."
     }
   ],
   "patron": {
