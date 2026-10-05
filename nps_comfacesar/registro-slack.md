@@ -6,6 +6,33 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## 🔒 5 oct · 9:30 a. m. · QUIÉN DESTRABA ESTO: Julio. Regla de operación, no una nota de paso
+
+**Sus palabras:** *«si estoy esperando a Julio que me dice si aprueba o no el puente»*.
+
+**Lo que cambia para la operación:** el congelamiento de fechas **no vence en una fecha, vence en una
+respuesta.** Hasta que Julio apruebe o niegue el periodo puente:
+
+- **Los tableros siguen diciendo lunes 5**, aunque hoy ya sea el lunes 5 y aunque el calendario tenga
+  otra semana agendada. **No se corrige por iniciativa propia.**
+- **No se publica ninguna fecha**, ni la del 16, ni la del 31, ni las sesiones del 6, 8 y 9.
+- **No se le repregunta a Sandra.** Ella avisa cuando Julio responda, en cualquiera de los dos sentidos.
+- **Lo que sí se sigue actualizando:** sesiones, caídas, numeración, asistencia y soportes. Todo lo que
+  no sea fecha de cierre.
+
+**Y queda anotado para cuando llegue la respuesta, porque hay trabajo listo detrás de las dos salidas:**
+
+- **Si Julio aprueba:** se liberan las fechas, se quita el relato del lunes 5 de los ocho tableros, entran
+  las sesiones del 6 al 9 a la tabla de agenda, y **Servicios Sociales, Vivienda y Agencia de Empleo
+  dejan de figurar como cerradas o sin fecha**, que es la contradicción más visible hoy.
+- **Si Julio niega:** el programa cerró hoy y los tableros ya lo dicen bien. Lo que habría que resolver
+  entonces son las **sesiones que quedan agendadas después del cierre** y qué se hace con ellas.
+
+**El documento existe:** `0. Propuesta Documentos iniciales/IAM Propuesta Periodo Puente Comfacesar.html`
+en Dropbox, modificado el 1 de octubre. No se toca ni se cita en ningún tablero: es material comercial.
+
+---
+
 ## 🚩 5 oct · 7:30 a. m. · Termómetro v100 y Mesa v19. Y hay algo que Sandra tiene que decidir
 
 ### 1 · Las dos del viernes por la tarde no tienen un solo soporte
