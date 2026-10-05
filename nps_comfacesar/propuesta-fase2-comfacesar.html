@@ -1,16 +1,16 @@
-<title>Segunda fase Comfacesar</title>
+<title>IAM Intelligence Fase 2</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 
 <style>
-/* Columna única de lectura, con una franja oscura que sostiene las condiciones
-   y un espinazo de trimestres que ordena el año. Familia visual IAM™. */
+/* Columna de lectura única. Dos franjas de tinta profunda sostienen el mensaje
+   central y la inversión; todo lo demás respira en claro. Familia visual IAM™. */
 :root{
   --ground:#FAF8F7;
   --surface:#FFFFFF;
   --surface-2:#F4F1F0;
-  --surface-3:#EDE8E6;
+  --surface-3:#EBE5E3;
   --line:#E4DEDC;
   --line-soft:#EFEAE8;
   --ink:#1C1614;
@@ -24,10 +24,12 @@
   --ok-suave:#EAF3EA;
   --medio:#E65100;
   --medio-suave:#FDF0E6;
-  --oscuro:#231A18;
-  --oscuro-ink:#F3EEEC;
-  --oscuro-ink-2:#BFB3AF;
-  --oscuro-line:#3B2E2B;
+  --tinta:#221A17;
+  --tinta-2:#2E2422;
+  --tinta-ink:#F6F2F0;
+  --tinta-ink-2:#BFB2AD;
+  --tinta-line:#3C2F2C;
+  --tinta-acento:#E8706B;
   --sombra:0 1px 2px rgba(28,22,20,.05), 0 10px 28px -14px rgba(28,22,20,.16);
   --display:Caladea,Cambria,Georgia,"Times New Roman",serif;
   --cuerpo:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
@@ -35,54 +37,58 @@
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
-    --ground:#151110;
+    --ground:#141010;
     --surface:#1E1917;
     --surface-2:#262020;
-    --surface-3:#2E2725;
-    --line:#332B29;
+    --surface-3:#302827;
+    --line:#342C2A;
     --line-soft:#2A2322;
-    --ink:#F3EEEC;
-    --ink-2:#C3B9B5;
-    --ink-3:#8B807C;
-    --acento:#E76060;
-    --acento-suave:#2E1C1B;
-    --azul:#8FADC8;
+    --ink:#F4EFED;
+    --ink-2:#C5BBB7;
+    --ink-3:#8D8278;
+    --acento:#E8706B;
+    --acento-suave:#2F1D1C;
+    --azul:#92B0CA;
     --azul-suave:#1B2530;
-    --ok:#6FBF73;
+    --ok:#73C377;
     --ok-suave:#1B271C;
     --medio:#F58A3C;
     --medio-suave:#2E2118;
-    --oscuro:#0D0A09;
-    --oscuro-ink:#F3EEEC;
-    --oscuro-ink-2:#A99C98;
-    --oscuro-line:#2A2220;
-    --sombra:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -14px rgba(0,0,0,.7);
+    --tinta:#0C0909;
+    --tinta-2:#15100F;
+    --tinta-ink:#F4EFED;
+    --tinta-ink-2:#A89B96;
+    --tinta-line:#2A2220;
+    --tinta-acento:#E8706B;
+    --sombra:0 1px 2px rgba(0,0,0,.45), 0 10px 28px -14px rgba(0,0,0,.75);
     color-scheme:dark;
   }
 }
 :root[data-theme="dark"]{
-  --ground:#151110;
+  --ground:#141010;
   --surface:#1E1917;
   --surface-2:#262020;
-  --surface-3:#2E2725;
-  --line:#332B29;
+  --surface-3:#302827;
+  --line:#342C2A;
   --line-soft:#2A2322;
-  --ink:#F3EEEC;
-  --ink-2:#C3B9B5;
-  --ink-3:#8B807C;
-  --acento:#E76060;
-  --acento-suave:#2E1C1B;
-  --azul:#8FADC8;
+  --ink:#F4EFED;
+  --ink-2:#C5BBB7;
+  --ink-3:#8D8278;
+  --acento:#E8706B;
+  --acento-suave:#2F1D1C;
+  --azul:#92B0CA;
   --azul-suave:#1B2530;
-  --ok:#6FBF73;
+  --ok:#73C377;
   --ok-suave:#1B271C;
   --medio:#F58A3C;
   --medio-suave:#2E2118;
-  --oscuro:#0D0A09;
-  --oscuro-ink:#F3EEEC;
-  --oscuro-ink-2:#A99C98;
-  --oscuro-line:#2A2220;
-  --sombra:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -14px rgba(0,0,0,.7);
+  --tinta:#0C0909;
+  --tinta-2:#15100F;
+  --tinta-ink:#F4EFED;
+  --tinta-ink-2:#A89B96;
+  --tinta-line:#2A2220;
+  --tinta-acento:#E8706B;
+  --sombra:0 1px 2px rgba(0,0,0,.45), 0 10px 28px -14px rgba(0,0,0,.75);
   color-scheme:dark;
 }
 
@@ -98,59 +104,84 @@ body{
 }
 h1,h2,h3,h4{font-family:var(--display);text-wrap:balance;margin:0;}
 .dato{font-family:var(--dato);font-variant-numeric:tabular-nums;}
-a{color:var(--acento);}
 :focus-visible{outline:2px solid var(--acento);outline-offset:3px;}
-@media (prefers-reduced-motion:reduce){*{transition:none !important;animation:none !important;}}
+@media (prefers-reduced-motion:reduce){*{transition:none !important;}}
 
-.marco{max-width:1020px;margin:0 auto;padding-block:0 96px;padding-left:24px;padding-right:24px;}
+.marco{max-width:1040px;margin:0 auto;padding-block:0 92px;padding-left:24px;padding-right:24px;}
 
 /* ── Portada ───────────────────────────────────────────── */
-.portada{
-  border-bottom:1px solid var(--line);
-  background:var(--surface);
-  margin-bottom:46px;
-}
-.portada-dentro{max-width:1020px;margin:0 auto;padding-block:40px 34px;padding-left:24px;padding-right:24px;}
-.marca{display:flex;align-items:center;gap:11px;margin-bottom:28px;}
-.anillo{width:13px;height:13px;border-radius:50%;border:3.5px solid var(--acento);flex:none;}
+.portada{background:var(--tinta);color:var(--tinta-ink);}
+.portada-dentro{max-width:1040px;margin:0 auto;padding-block:44px 40px;padding-left:24px;padding-right:24px;}
+.marca{display:flex;align-items:center;gap:11px;margin-bottom:34px;}
+.anillo{width:13px;height:13px;border-radius:50%;border:3.5px solid var(--tinta-acento);flex:none;}
 .marca-texto{font-family:var(--display);font-weight:700;font-size:15px;letter-spacing:.03em;}
-.cejilla{
+.claves{
+  display:flex;flex-wrap:wrap;gap:8px 20px;margin-bottom:16px;
   font-family:var(--dato);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;
-  color:var(--acento);margin-bottom:12px;
+  color:var(--tinta-acento);
 }
-h1{font-size:clamp(34px,5.6vw,58px);line-height:1.04;letter-spacing:-.02em;margin-bottom:18px;}
+h1{font-size:clamp(36px,6.4vw,66px);line-height:1.02;letter-spacing:-.022em;margin-bottom:20px;}
 h1 em{font-style:italic;font-weight:400;}
 .tesis{
-  font-size:clamp(17px,2.2vw,20px);line-height:1.5;color:var(--ink-2);
-  max-width:60ch;margin:0 0 30px;
+  font-size:clamp(17px,2.2vw,20.5px);line-height:1.5;color:var(--tinta-ink-2);
+  max-width:58ch;margin:0 0 34px;
 }
-.tesis b{color:var(--ink);font-weight:600;}
+.tesis b{color:var(--tinta-ink);font-weight:600;}
 .ficha{
-  display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
-  gap:18px 26px;padding-top:24px;border-top:1px solid var(--line-soft);
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(144px,1fr));
+  gap:18px 24px;padding-top:26px;border-top:1px solid var(--tinta-line);
 }
 .ficha div{min-width:0;}
 .ficha dt{
   font-family:var(--dato);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
-  color:var(--ink-3);margin-bottom:4px;
+  color:var(--tinta-ink-2);margin-bottom:5px;
 }
 .ficha dd{margin:0;font-size:14.5px;font-weight:600;}
-.ficha dd span{display:block;font-weight:400;font-size:12.5px;color:var(--ink-3);}
+.ficha dd span{display:block;font-weight:400;font-size:12.5px;color:var(--tinta-ink-2);}
+
+/* ── Mensaje central ───────────────────────────────────── */
+.manifiesto{background:var(--tinta-2);color:var(--tinta-ink);border-top:1px solid var(--tinta-line);}
+.manifiesto-dentro{max-width:1040px;margin:0 auto;padding-block:40px 42px;padding-left:24px;padding-right:24px;}
+.manifiesto .rotulo{
+  font-family:var(--dato);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--tinta-acento);margin-bottom:18px;
+}
+.manifiesto p.lema{
+  font-family:var(--display);font-size:clamp(23px,3.9vw,38px);line-height:1.22;
+  letter-spacing:-.012em;max-width:40ch;margin:0 0 26px;
+}
+.manifiesto p.lema b{color:var(--tinta-acento);font-weight:700;}
+.manifiesto p.glosa{color:var(--tinta-ink-2);max-width:62ch;margin:0;font-size:15.5px;}
+.manifiesto p.glosa b{color:var(--tinta-ink);font-weight:600;}
+.tres-tiempos{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));
+  gap:1px;background:var(--tinta-line);border:1px solid var(--tinta-line);
+  border-radius:3px;overflow:hidden;margin-top:30px;
+}
+.tiempo{background:var(--tinta-2);padding:18px 20px 20px;min-width:0;}
+.tiempo .cuando{
+  font-family:var(--dato);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--tinta-acento);margin-bottom:9px;
+}
+.tiempo h3{font-size:17px;margin-bottom:8px;}
+.tiempo p{margin:0;font-size:13.5px;color:var(--tinta-ink-2);line-height:1.5;}
 
 /* ── Secciones ─────────────────────────────────────────── */
-section{margin-bottom:62px;}
+section{margin-bottom:64px;}
+section:first-of-type{margin-top:48px;}
 .tit{
   display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;
   padding-bottom:10px;margin-bottom:24px;border-bottom:1.5px solid var(--acento);
 }
-.tit h2{font-size:20px;letter-spacing:.005em;}
+.tit h2{font-size:21px;letter-spacing:.004em;}
 .tit .apunte{margin-left:auto;font-size:12.5px;color:var(--ink-3);}
 .intro{color:var(--ink-2);max-width:66ch;margin:0 0 26px;}
+.intro:last-child{margin-bottom:0;}
 .intro b{color:var(--ink);font-weight:600;}
 
 /* ── Cifras ────────────────────────────────────────────── */
 .cifras{
-  display:grid;grid-template-columns:repeat(auto-fit,minmax(142px,1fr));
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
   gap:1px;background:var(--line);border:1px solid var(--line);border-radius:3px;
   overflow:hidden;margin-bottom:26px;
 }
@@ -164,21 +195,22 @@ section{margin-bottom:62px;}
 
 .destacado{
   background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--acento);
-  border-radius:3px;padding:20px 22px;box-shadow:var(--sombra);
+  border-radius:3px;padding:21px 23px;box-shadow:var(--sombra);
 }
-.destacado h3{font-size:17px;margin-bottom:9px;}
-.destacado p{margin:0 0 12px;color:var(--ink-2);font-size:14.5px;}
+.destacado h3{font-size:17.5px;margin-bottom:10px;}
+.destacado p{margin:0 0 13px;color:var(--ink-2);font-size:14.5px;}
 .destacado p:last-child{margin-bottom:0;}
+.destacado b{color:var(--ink);font-weight:600;}
 .destacado .cita{
-  font-family:var(--display);font-style:italic;font-size:16px;color:var(--ink);
-  border-left:2px solid var(--line);padding-left:14px;margin:0 0 12px;
+  font-family:var(--display);font-style:italic;font-size:16.5px;color:var(--ink);
+  border-left:2px solid var(--line);padding-left:15px;margin:0 0 13px;
 }
 
-/* ── Calles ────────────────────────────────────────────── */
+/* ── Mandos y calles ───────────────────────────────────── */
 .mandos{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px;}
 .mando{
   font:inherit;font-size:13px;font-weight:500;padding:7px 15px;border-radius:2px;cursor:pointer;
-  background:var(--surface);color:var(--ink-2);border:1px solid var(--line);transition:.14s;
+  background:var(--surface);color:var(--ink-2);border:1px solid var(--line);transition:background .14s,color .14s,border-color .14s;
 }
 .mando:hover{border-color:var(--acento);color:var(--acento);}
 .mando[aria-pressed="true"]{background:var(--acento);border-color:var(--acento);color:#fff;}
@@ -189,7 +221,6 @@ section{margin-bottom:62px;}
   background:var(--surface);border:1px solid var(--line);border-radius:4px;
   box-shadow:var(--sombra);display:flex;flex-direction:column;min-width:0;
 }
-.calle.apagada{display:none;}
 .calle-cab{padding:18px 20px 15px;border-bottom:1px solid var(--line-soft);}
 .calle-cab .rotulo{
   font-family:var(--dato);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
@@ -207,38 +238,41 @@ section{margin-bottom:62px;}
 }
 .calle-lista li:first-child{border-top:0;}
 .calle-lista .ar{font-weight:600;}
-.calle-lista .ev{color:var(--ink-3);font-size:12.5px;font-family:var(--dato);margin-left:auto;}
+.calle-lista .ev{color:var(--ink-3);font-size:12px;font-family:var(--dato);margin-left:auto;}
 .calle-pie{
   padding:13px 20px;background:var(--surface-2);border-top:1px solid var(--line-soft);
   font-size:12.5px;color:var(--ink-3);
 }
 .calle-pie b{color:var(--ink-2);font-weight:600;}
 
-/* ── Interruptor del puente ────────────────────────────── */
-.puente{
-  background:var(--surface);border:1px solid var(--line);border-radius:4px;
-  padding:20px 22px;box-shadow:var(--sombra);margin-bottom:24px;
-}
-.puente-fila{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-bottom:16px;}
-.puente-fila h3{font-size:16px;}
-.palanca{display:flex;gap:0;border:1px solid var(--line);border-radius:2px;overflow:hidden;margin-left:auto;}
+/* ── Interruptor genérico ──────────────────────────────── */
+.palanca{display:flex;border:1px solid var(--line);border-radius:2px;overflow:hidden;}
 .palanca button{
   font:inherit;font-size:12.5px;font-weight:500;padding:7px 14px;cursor:pointer;
-  background:var(--surface);color:var(--ink-2);border:0;border-left:1px solid var(--line);transition:.14s;
+  background:var(--surface);color:var(--ink-2);border:0;border-left:1px solid var(--line);
+  transition:background .14s,color .14s;
 }
 .palanca button:first-child{border-left:0;}
 .palanca button[aria-pressed="true"]{background:var(--acento);color:#fff;}
-.puente-salida{
-  display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px;
-  padding-top:16px;border-top:1px dashed var(--line);
+
+.puente{
+  background:var(--surface);border:1px solid var(--line);border-radius:4px;
+  padding:21px 23px;box-shadow:var(--sombra);margin-bottom:24px;
 }
-.puente-salida .celda{min-width:0;}
-.puente-salida .valor{
-  font-family:var(--display);font-weight:700;font-size:25px;line-height:1.1;color:var(--acento);
-  margin-bottom:4px;
+.puente-fila{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-bottom:17px;}
+.puente-fila h3{font-size:16.5px;}
+.puente-fila .palanca{margin-left:auto;}
+.salida{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(185px,1fr));gap:18px;
+  padding-top:17px;border-top:1px dashed var(--line);
 }
-.puente-salida .rot{font-size:12px;font-weight:600;margin-bottom:2px;}
-.puente-salida .exp{font-size:12px;color:var(--ink-3);line-height:1.4;}
+.salida .celda{min-width:0;}
+.salida .valor{
+  font-family:var(--display);font-weight:700;font-size:26px;line-height:1.1;color:var(--acento);
+  font-variant-numeric:tabular-nums;margin-bottom:5px;
+}
+.salida .rot{font-size:12px;font-weight:600;margin-bottom:3px;}
+.salida .exp{font-size:12px;color:var(--ink-3);line-height:1.45;}
 
 /* ── Frentes ───────────────────────────────────────────── */
 .frentes{display:grid;gap:14px;}
@@ -253,14 +287,10 @@ section{margin-bottom:62px;}
   border-right:1px solid var(--line-soft);letter-spacing:.06em;
 }
 .frente.aparte .frente-n{color:var(--ink-3);}
-.frente-cuerpo{padding:17px 20px 18px;min-width:0;}
-.frente-cuerpo h3{font-size:17.5px;line-height:1.2;margin-bottom:7px;}
+.frente-cuerpo{padding:17px 21px 18px;min-width:0;}
+.frente-cuerpo h3{font-size:17.5px;line-height:1.22;margin-bottom:8px;}
 .frente-cuerpo p{margin:0 0 12px;color:var(--ink-2);font-size:14.5px;}
-.frente-cuerpo p:last-of-type{margin-bottom:12px;}
-.frente-cuerpo blockquote{
-  font-family:var(--display);font-style:italic;font-size:15px;color:var(--ink);
-  border-left:2px solid var(--line);padding-left:13px;margin:0 0 12px;
-}
+.frente-cuerpo p b{color:var(--ink);font-weight:600;}
 .etiquetas{display:flex;flex-wrap:wrap;gap:7px;}
 .etq{
   font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;
@@ -271,13 +301,10 @@ section{margin-bottom:62px;}
 .etq.mes{background:var(--surface-3);color:var(--ink-2);font-family:var(--dato);text-transform:none;letter-spacing:0;}
 .etq.fuera{background:var(--medio-suave);color:var(--medio);}
 
-/* ── Espinazo del año ──────────────────────────────────── */
-.espinazo{display:grid;gap:0;}
-.trim{
-  display:grid;grid-template-columns:132px 1fr;gap:0;
-  border-left:2px solid var(--line);min-width:0;
-}
-.trim-rot{padding:20px 18px 24px 20px;position:relative;min-width:0;}
+/* ── Espinazo ──────────────────────────────────────────── */
+.espinazo{display:grid;}
+.trim{display:grid;grid-template-columns:134px 1fr;border-left:2px solid var(--line);min-width:0;}
+.trim-rot{padding:20px 18px 24px 22px;position:relative;min-width:0;}
 .trim-rot::before{
   content:"";position:absolute;left:-7px;top:25px;width:11px;height:11px;
   border-radius:50%;background:var(--acento);border:2px solid var(--ground);
@@ -286,26 +313,22 @@ section{margin-bottom:62px;}
   font-family:var(--dato);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
   color:var(--acento);margin-bottom:5px;
 }
-.trim-rot .meses{font-family:var(--display);font-weight:700;font-size:16px;line-height:1.2;}
-.trim-rot .rev{
-  margin-top:8px;font-size:11.5px;color:var(--ink-3);line-height:1.35;
-}
-.trim-cuerpo{padding:18px 0 24px;min-width:0;}
+.trim-rot .meses{font-family:var(--display);font-weight:700;font-size:16.5px;line-height:1.2;}
+.trim-rot .rev{margin-top:8px;font-size:11.5px;color:var(--ink-3);line-height:1.4;}
+.trim-cuerpo{padding:18px 0 26px;min-width:0;}
 .trim-cuerpo ul{list-style:none;margin:0;padding:0;display:grid;gap:9px;}
-.trim-cuerpo li{
-  display:flex;gap:11px;font-size:14px;color:var(--ink-2);align-items:baseline;
-}
+.trim-cuerpo li{display:flex;gap:11px;font-size:14px;color:var(--ink-2);align-items:baseline;}
 .trim-cuerpo li::before{
   content:"";width:5px;height:5px;border-radius:50%;background:var(--acento);
   flex:none;transform:translateY(-3px);
 }
 .trim-cuerpo li b{color:var(--ink);font-weight:600;}
 .trim-cuerpo .hito{
-  margin-top:14px;display:inline-block;font-size:12px;font-weight:600;
+  margin-top:15px;display:inline-block;font-size:12px;font-weight:600;
   background:var(--ok-suave);color:var(--ok);padding:4px 11px;border-radius:2px;
 }
 
-/* ── Gobierno ──────────────────────────────────────────── */
+/* ── Tablas ────────────────────────────────────────────── */
 .envoltura-tabla{overflow-x:auto;border:1px solid var(--line);border-radius:3px;}
 table{width:100%;border-collapse:collapse;font-size:14px;background:var(--surface);}
 th{
@@ -318,37 +341,62 @@ tr:last-child td{border-bottom:0;}
 td.ritmo{font-family:var(--dato);font-weight:500;white-space:nowrap;}
 td strong{font-weight:600;}
 td .sub{display:block;font-size:12.5px;color:var(--ink-3);margin-top:2px;}
+td.cifra-td{font-family:var(--dato);font-variant-numeric:tabular-nums;white-space:nowrap;}
 
-/* ── Franja oscura ─────────────────────────────────────── */
+/* ── Franja de inversión ───────────────────────────────── */
 .franja{
-  background:var(--oscuro);color:var(--oscuro-ink);border-radius:5px;
-  padding:34px 30px;margin-bottom:62px;
+  background:var(--tinta);color:var(--tinta-ink);border-radius:5px;
+  padding:34px 30px;margin-bottom:64px;
 }
-.franja .tit{border-bottom-color:var(--acento);}
-.franja .tit h2{color:var(--oscuro-ink);}
-.franja .tit .apunte{color:var(--oscuro-ink-2);}
-.franja p{color:var(--oscuro-ink-2);max-width:66ch;}
-.franja p b{color:var(--oscuro-ink);font-weight:600;}
+.franja .tit{border-bottom-color:var(--tinta-acento);}
+.franja .tit h2{color:var(--tinta-ink);}
+.franja .tit .apunte{color:var(--tinta-ink-2);}
+.franja p{color:var(--tinta-ink-2);max-width:66ch;}
+.franja p b{color:var(--tinta-ink);font-weight:600;}
 .franja .cita-grande{
   font-family:var(--display);font-style:italic;font-size:clamp(18px,2.4vw,22px);
-  line-height:1.45;color:var(--oscuro-ink);max-width:54ch;margin:0 0 20px;
-  border-left:2px solid var(--acento);padding-left:18px;
+  line-height:1.45;color:var(--tinta-ink);max-width:52ch;margin:0 0 20px;
+  border-left:2px solid var(--tinta-acento);padding-left:18px;
 }
+.franja .palanca{border-color:var(--tinta-line);}
+.franja .palanca button{background:var(--tinta-2);color:var(--tinta-ink-2);border-left-color:var(--tinta-line);}
+.franja .palanca button[aria-pressed="true"]{background:var(--tinta-acento);color:#1C1210;}
+.opciones-fila{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-bottom:24px;}
+.opciones-fila h3{font-size:17px;color:var(--tinta-ink);}
+.opciones-fila .palanca{margin-left:auto;}
 .condiciones{
-  display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-  gap:1px;background:var(--oscuro-line);border:1px solid var(--oscuro-line);
-  border-radius:3px;overflow:hidden;margin-top:24px;
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(192px,1fr));
+  gap:1px;background:var(--tinta-line);border:1px solid var(--tinta-line);
+  border-radius:3px;overflow:hidden;margin-bottom:26px;
 }
-.cond{background:var(--oscuro);padding:18px 20px;min-width:0;}
+.cond{background:var(--tinta);padding:18px 20px;min-width:0;}
 .cond .rot{
   font-family:var(--dato);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
-  color:var(--acento);margin-bottom:8px;
+  color:var(--tinta-acento);margin-bottom:9px;
 }
-.cond .val{font-family:var(--display);font-weight:700;font-size:23px;line-height:1.15;margin-bottom:6px;}
-.cond .exp{font-size:12.5px;color:var(--oscuro-ink-2);line-height:1.45;}
-.cond.abierta .val{color:var(--acento);}
+.cond .val{
+  font-family:var(--display);font-weight:700;font-size:24px;line-height:1.14;margin-bottom:6px;
+  font-variant-numeric:tabular-nums;
+}
+.cond .exp{font-size:12.5px;color:var(--tinta-ink-2);line-height:1.45;}
+.nota-escenario{
+  background:var(--tinta-2);border:1px solid var(--tinta-line);border-left:3px solid var(--tinta-acento);
+  border-radius:3px;padding:16px 19px;font-size:14px;color:var(--tinta-ink-2);margin-bottom:26px;
+}
+.nota-escenario b{color:var(--tinta-ink);font-weight:600;}
+.balance{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;
+  padding-top:24px;border-top:1px solid var(--tinta-line);
+}
+.balance .celda{min-width:0;}
+.balance .valor{
+  font-family:var(--display);font-weight:700;font-size:27px;line-height:1.08;
+  color:var(--tinta-acento);font-variant-numeric:tabular-nums;margin-bottom:6px;
+}
+.balance .rot{font-size:12.5px;font-weight:600;color:var(--tinta-ink);margin-bottom:3px;}
+.balance .exp{font-size:12px;color:var(--tinta-ink-2);line-height:1.45;}
 
-/* ── Lo que pone cada uno ──────────────────────────────── */
+/* ── Reparto ───────────────────────────────────────────── */
 .reparto{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:18px;}
 .lado{background:var(--surface);border:1px solid var(--line);border-radius:4px;overflow:hidden;min-width:0;}
 .lado-cab{padding:15px 19px;background:var(--surface-2);border-bottom:1px solid var(--line-soft);display:flex;align-items:center;gap:10px;}
@@ -362,10 +410,10 @@ td .sub{display:block;font-size:12.5px;color:var(--ink-3);margin-top:2px;}
 .lado li b{color:var(--ink);font-weight:600;}
 
 footer{
-  margin-top:24px;padding-top:22px;border-top:1px solid var(--line);
+  margin-top:26px;padding-top:22px;border-top:1px solid var(--line);
   font-size:12.5px;color:var(--ink-3);display:flex;gap:16px;flex-wrap:wrap;align-items:center;
 }
-footer .anillo{width:8px;height:8px;border-width:2.5px;}
+footer .anillo{width:8px;height:8px;border-width:2.5px;border-color:var(--acento);}
 
 @media (max-width:620px){
   .trim{grid-template-columns:1fr;border-left:0;border-top:1px solid var(--line);}
@@ -376,6 +424,7 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
   .frente-n{border-right:0;border-bottom:1px solid var(--line-soft);place-items:center;padding:10px 0;}
   .franja{padding:26px 20px;}
   .calle-lista .ev{margin-left:0;}
+  .puente-fila .palanca,.opciones-fila .palanca{margin-left:0;}
 }
 </style>
 
@@ -385,23 +434,76 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
       <span class="anillo"></span>
       <span class="marca-texto">IAM™ INTELLIGENCE</span>
     </div>
-    <div class="cejilla">Propuesta · segunda fase · Comfacesar</div>
-    <h1>Doce meses para <em>cimentar</em> lo que ya funciona</h1>
+    <div class="claves">
+      <span>Fase 2</span><span>Hardware</span><span>Hiperconectividad</span><span>Comfacesar</span>
+    </div>
+    <h1>Ya saben hacerlo.<br>Ahora hay que <em>conectarlo</em>.</h1>
     <p class="tesis">
-      La primera fase demostró que la Caja puede construir sus propios sistemas de trabajo:
-      <b>105 sesiones, 18 áreas y 133,9 horas a la semana</b> que hoy no se gastan en tareas
-      manuales. Lo que falta no es más entusiasmo, es cimentación, infraestructura y gobierno.
-      Eso no se hace en un trimestre: se hace en un año de acompañamiento.
+      La primera fase dejó <b>51 personas que manejan inteligencia artificial</b> y
+      <b>133,9 horas a la semana</b> que la Caja ya no gasta en tareas manuales. El límite
+      de hoy no es el conocimiento: son los equipos, la red local y el hecho de que cada
+      área guarda su avance en su propia isla. La fase 2 ataca exactamente eso.
     </p>
     <dl class="ficha">
       <div><dt>Cliente</dt><dd>Comfacesar<span>Caja de Compensación Familiar del Cesar</span></dd></div>
       <div><dt>Sponsor</dt><dd>María Elvira Marulanda<span>revisión mensual</span></dd></div>
       <div><dt>Dirección</dt><dd>Revisión trimestral<span>cuatro cortes en el año</span></dd></div>
-      <div><dt>Duración</dt><dd>12 meses<span>más la cimentación de arranque</span></dd></div>
+      <div><dt>Alcance</dt><dd>18 áreas<span>más 5 de margen</span></dd></div>
+      <div><dt>Duración</dt><dd>12 meses<span>escenario recomendado</span></dd></div>
       <div><dt>Mentoría</dt><dd>Sandra Curvelo<span>acompañamiento directo</span></dd></div>
     </dl>
   </div>
 </header>
+
+<!-- ══ Mensaje central ══ -->
+<div class="manifiesto">
+  <div class="manifiesto-dentro">
+    <div class="rotulo">El mensaje de esta fase</div>
+    <p class="lema">
+      No vamos a tener <b>islas independientes</b>. Y tampoco proponemos
+      <b>cambiar el software</b> ahora.
+    </p>
+    <p class="glosa">
+      Son las dos caras de la misma decisión. Hoy cada área construyó su propio circuito y
+      lo guarda aparte, así que el avance de una no sirve a la otra. Conectar eso no exige
+      reemplazar el ecosistema de software ni contratar gente nueva: exige equipos
+      adecuados, salir de la red local y tableros que se hablen entre ellos.
+      <b>El día de mañana la Caja puede tener un ERP, que hoy no tiene.</b> Mientras llegue
+      ese día, la inteligencia artificial es el apalancamiento que permite trabajar así,
+      sin esperarlo.
+    </p>
+
+    <div class="tres-tiempos">
+      <div class="tiempo">
+        <div class="cuando">Hoy</div>
+        <h3>Dieciocho islas</h3>
+        <p>
+          Cada área con su proceso, su archivo y su tablero alimentado a mano. Servidores
+          locales: si no estás en la red, no trabajas. Y equipos de escritorio que amarran
+          a la persona a un puesto fijo.
+        </p>
+      </div>
+      <div class="tiempo">
+        <div class="cuando">Fase 2 · doce meses</div>
+        <h3>Conectado, con el mismo software</h3>
+        <p>
+          Tableros enganchados a los sistemas de gestión, la información fuera de la red
+          local y un esquema de computación portátil. Nada de esto pide cambiar el
+          ecosistema que la Caja ya pagó.
+        </p>
+      </div>
+      <div class="tiempo">
+        <div class="cuando">Mañana</div>
+        <h3>Un ERP, cuando sea su momento</h3>
+        <p>
+          Con los procesos ya cimentados y la información ya conectada, un ERP deja de ser
+          un salto al vacío y se vuelve una decisión de presupuesto. Esta fase prepara ese
+          terreno, no lo compromete.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="marco">
 
@@ -439,13 +541,50 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
       </p>
       <p>
         Eso es lo que aprendieron las áreas en la primera fase: dejar de reportar
-        cumplimiento y empezar a reportar dinero. La segunda fase existe para que ese
-        hábito no se pierda cuando la mentoría deje de estar todas las semanas.
+        cumplimiento y empezar a reportar dinero. La fase 2 existe para que ese hábito no
+        se pierda cuando la mentoría deje de estar todas las semanas.
       </p>
     </div>
   </section>
 
-  <!-- ══ 2. Las tres calles ══ -->
+  <!-- ══ 2. Qué hace la mentoría ══ -->
+  <section>
+    <div class="tit">
+      <h2>Qué hace exactamente la mentoría</h2>
+      <span class="apunte">Y qué no</span>
+    </div>
+    <p class="intro">
+      Conviene decirlo sin rodeos, porque de ahí sale el valor del acompañamiento:
+      <b>la mentoría no instala todo</b>. La gente de la Caja ya sabe manejar inteligencia
+      artificial, eso quedó hecho en la primera fase. Lo que se compra en la fase 2 es
+      criterio de proceso.
+    </p>
+    <div class="reparto">
+      <div class="lado">
+        <div class="lado-cab"><span class="pto s"></span><strong>En esto se mete la mentoría</strong></div>
+        <ul>
+          <li>Qué se debe <b>automatizar</b> y qué no vale la pena automatizar</li>
+          <li>Qué se debe <b>digitalizar</b>, y en qué orden, para que el papel deje de volver</li>
+          <li>Diseño de los <b>tableros</b> y de cómo se conectan a los sistemas de gestión</li>
+          <li>Diseño de las <b>apps</b> por área y la ruta para unirlas después</li>
+          <li>Cimentación: que el circuito quede documentado y no dependa de quien lo armó</li>
+          <li>Acompañamiento en las decisiones de inversión, con los números sobre la mesa</li>
+        </ul>
+      </div>
+      <div class="lado">
+        <div class="lado-cab"><span class="pto c"></span><strong>Esto ya no hay que comprarlo</strong></div>
+        <ul>
+          <li>Formación básica en inteligencia artificial: <b>51 personas ya la tienen</b></li>
+          <li>Convencer a las áreas de que sirve: hay 105 sesiones y 40 hallazgos de prueba</li>
+          <li>Cambiar el ecosistema de software: <b>esta fase no lo propone</b></li>
+          <li>Contratar personal nuevo para operar lo construido</li>
+          <li>La ejecución de la migración a la nube, que es del proveedor que se contrate</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ 3. Las tres calles ══ -->
   <section>
     <div class="tit">
       <h2>Las tres calles</h2>
@@ -454,8 +593,8 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
     <p class="intro">
       Hay áreas que ya tienen circuito armado y lo que necesitan es afilarlo. Hay tres que
       la dirección puso en la mesa porque no se vincularon al cien por ciento. Y hay siete
-      que todavía no tienen un proceso construido. <b>Tratarlas igual sería el error de la
-      segunda fase.</b>
+      que todavía no construyeron su primer proceso. <b>Tratarlas igual sería el error de
+      la fase 2.</b>
     </p>
 
     <div class="mandos" role="group" aria-label="Filtrar calles">
@@ -471,7 +610,7 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
         <div class="calle-cab">
           <div class="rotulo">Calle 1 · ocho áreas</div>
           <h3>Afilar</h3>
-          <p>Entregaron ejercicio o tienen agente corriendo. Aquí la fase 2 cimenta el proceso, documenta y deja la automatización estable.</p>
+          <p>Entregaron ejercicio o tienen agente corriendo. Aquí la fase 2 cimenta el proceso, lo documenta y deja la automatización estable.</p>
         </div>
         <ul class="calle-lista">
           <li><span class="ar">Sub. Admin y Financiera</span><span class="ev">5 tareas · 45,5 h/sem</span></li>
@@ -479,13 +618,13 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
           <li><span class="ar">IPS</span><span class="ev">22,8 h/sem · midió los $600 M</span></li>
           <li><span class="ar">Servicios Sociales</span><span class="ev">12 tareas · 21,0 h/sem</span></li>
           <li><span class="ar">Comunicaciones</span><span class="ev">4 tareas · 11,6 h/sem</span></li>
-          <li><span class="ar">Subsidio</span><span class="ev">ciclo de expulsión corriendo solo</span></li>
+          <li><span class="ar">Subsidio</span><span class="ev">ciclo corriendo solo a las 12:00</span></li>
           <li><span class="ar">Sub. Operativa</span><span class="ev">4 tareas · 3,5 h/sem</span></li>
           <li><span class="ar">Contabilidad</span><span class="ev">2 tareas · 2,0 h/sem</span></li>
         </ul>
         <div class="calle-pie">
-          Subsidio es el caso a replicar: tarea programada diaria a las 12:00, probada sin
-          errores, con tablero que el área lleva al <b>Consejo Directivo</b>.
+          Subsidio es el caso a replicar: tarea programada diaria, probada sin errores, con
+          tablero que el área lleva al <b>Consejo Directivo</b>.
         </div>
       </article>
 
@@ -496,13 +635,13 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
           <p>No se vincularon al cien por ciento y tienen mucho por hacer. Entran con trabajo cercano, no con un recordatorio.</p>
         </div>
         <ul class="calle-lista">
-          <li><span class="ar">Vivienda</span><span class="ev">7 tareas cargadas, sin circuito cerrado</span></li>
+          <li><span class="ar">Vivienda</span><span class="ev">7 tareas, sin circuito cerrado</span></li>
           <li><span class="ar">Mercadeo</span><span class="ev">710 leads de turismo sin sistematizar</span></li>
-          <li><span class="ar">Tecnología</span><span class="ev">cerró en S6 con dos caídas seguidas</span></li>
+          <li><span class="ar">Tecnología</span><span class="ev">cerró en S6 con dos caídas</span></li>
         </ul>
         <div class="calle-pie">
-          El compromiso aquí es concreto: <b>sistematizar y automatizar todo lo que el área
-          hace hoy a mano</b>, trabajando de la mano con el equipo, no desde afuera.
+          El compromiso es concreto: <b>sistematizar y automatizar todo lo que el área hace
+          hoy a mano</b>, trabajando de la mano con el equipo, no desde afuera.
         </div>
       </article>
 
@@ -522,87 +661,220 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
           <li><span class="ar">Gerencia Financiera</span><span class="ev">sin circuito propio</span></li>
         </ul>
         <div class="calle-pie">
-          Tres de estas áreas tienen ahorro escrito en el acta y <b>cero líneas cargadas al
+          Tres áreas tienen ahorro escrito en el acta y <b>cero líneas cargadas al
           archivo</b>: Subsidio, Mercadeo y Educación. Cargar lo medido es tarea de la fase 2.
         </div>
       </article>
 
     </div>
+
+    <div class="destacado" style="margin-top:20px;">
+      <h3>El margen de tolerancia</h3>
+      <p>
+        El alcance base son las 18 áreas que la Caja presentó. Sobre eso, y en cualquiera de
+        los dos escenarios de contratación, la propuesta incluye un margen sin costo
+        adicional:
+      </p>
+      <p>
+        <b>Cinco áreas más con sus líderes.</b> Si no aparecen cinco áreas nuevas con líder
+        asignado, el margen se usa de otra forma: <b>diez personas más dentro del
+        proyecto</b>, en las áreas que ya están.
+      </p>
+      <p>
+        Es un margen, no una lista cerrada. Sirve para que una gerencia que quiera entrar en
+        el mes seis no tenga que esperar una renegociación.
+      </p>
+    </div>
   </section>
 
-  <!-- ══ 3. La cimentación ══ -->
+  <!-- ══ 4. Hiperconectividad ══ -->
   <section>
     <div class="tit">
-      <h2>Lo primero: cimentar lo que quedó abierto</h2>
-      <span class="apunte">Antes de abrir frentes nuevos</span>
+      <h2>Hiperconectividad</h2>
+      <span class="apunte">La palabra que resume el año</span>
     </div>
     <p class="intro">
-      Hay áreas que quedaron con el proceso a medio citar. Cerrar eso es el punto de partida
-      de la fase 2, y el tiempo que toma depende de una sola decisión que la Caja ya tiene
-      sobre la mesa.
-    </p>
-
-    <div class="puente">
-      <div class="puente-fila">
-        <h3>¿La Caja toma el puente de octubre?</h3>
-        <div class="palanca" role="group" aria-label="Escenario del puente de octubre">
-          <button id="puente-si" aria-pressed="true">Sí lo toman</button>
-          <button id="puente-no" aria-pressed="false">No lo toman</button>
-        </div>
-      </div>
-      <div class="puente-salida">
-        <div class="celda">
-          <div class="valor dato" id="p-meses">1 mes</div>
-          <div class="rot">Cimentación</div>
-          <div class="exp" id="p-exp">Con el puente, las áreas quedan con procesos cimentados y automatizaciones hechas en un mes.</div>
-        </div>
-        <div class="celda">
-          <div class="valor dato" id="p-arranque">Noviembre</div>
-          <div class="rot">Arranque de los doce meses</div>
-          <div class="exp">El año de acompañamiento empieza cuando la cimentación cierra.</div>
-        </div>
-        <div class="celda">
-          <div class="valor dato" id="p-cierre">Octubre 2027</div>
-          <div class="rot">Cierre del acompañamiento</div>
-          <div class="exp">Con traspaso al recurso interno que la Caja designe.</div>
-        </div>
-      </div>
-    </div>
-
-    <p class="intro" style="margin-bottom:0;">
-      La cimentación no es una fase aparte que se cobre dos veces: es el primer tramo del
-      acompañamiento. Lo que cambia con el puente es <b>cuándo se abren los frentes nuevos</b>,
-      no el alcance del año.
-    </p>
-  </section>
-
-  <!-- ══ 4. Los frentes ══ -->
-  <section>
-    <div class="tit">
-      <h2>Los siete frentes del año</h2>
-      <span class="apunte">Cada uno con dueño declarado</span>
-    </div>
-    <p class="intro">
-      La mentoría no ejecuta todo. En varios frentes el entregable es de la Caja y el papel
-      de IAM™ es asesorar y acompañar. Eso va dicho en cada frente, para que nadie espere
-      que el otro lo haga.
+      Hiperconectividad aquí no es una metáfora: es que el dato que produce un área llegue a
+      la otra sin que alguien lo copie a mano. Tiene cuatro piezas, en este orden, porque
+      cada una depende de la anterior.
     </p>
 
     <div class="frentes">
+      <article class="frente">
+        <div class="frente-n">1</div>
+        <div class="frente-cuerpo">
+          <h3>Saber qué hay y dónde está alojado</h3>
+          <p>
+            Un levantamiento de los sistemas de información de la Caja: cuáles son, qué
+            guarda cada uno y dónde está alojado. Nadie puede conectar lo que no está
+            inventariado, y hoy ese inventario no existe en un solo documento.
+          </p>
+          <div class="etiquetas"><span class="etq sandra">Levanta IAM™</span><span class="etq mes">Mes 1</span></div>
+        </div>
+      </article>
 
+      <article class="frente">
+        <div class="frente-n">2</div>
+        <div class="frente-cuerpo">
+          <h3>Los tableros enganchados a los sistemas de gestión</h3>
+          <p>
+            Hoy los tableros se alimentan a mano. El paso siguiente es conectarlos: el de
+            contabilidad con su sistema, y <b>el de mercadeo hablándose con el de
+            subsidio</b>, que es el caso donde el dato de uno decide la acción del otro.
+          </p>
+          <p>
+            Aquí aparece el techo que ya salió cuatro veces en los hallazgos: la integración
+            por API del software del proveedor externo, que está en Ibagué. Eso se negocia,
+            no se reemplaza.
+          </p>
+          <div class="etiquetas"><span class="etq sandra">Diseña IAM™</span><span class="etq caja">Recurso interno de la Caja</span><span class="etq mes">Meses 3 a 10</span></div>
+        </div>
+      </article>
+
+      <article class="frente">
+        <div class="frente-n">3</div>
+        <div class="frente-cuerpo">
+          <h3>Salir de la red local</h3>
+          <p>
+            La Caja trabaja sobre servidores locales. Mientras el acceso dependa de estar
+            dentro de la red, el trabajo en casa y la rotación de oficinas no funcionan de
+            verdad, y eso frena todo lo demás.
+          </p>
+          <p>
+            El frente es acompañar la búsqueda y la evaluación de un proveedor para migrar a
+            la nube, con Amazon Web Services como referencia. <b>La migración no la ejecuta
+            la mentoría</b>: la ejecuta el proveedor que la Caja contrate. El papel de IAM™
+            es ayudar a escoger bien y a que el proyecto no se quede a medias.
+          </p>
+          <div class="etiquetas"><span class="etq caja">Ejecuta el proveedor</span><span class="etq sandra">Acompaña IAM™</span><span class="etq mes">Meses 5 a 12</span></div>
+        </div>
+      </article>
+
+      <article class="frente">
+        <div class="frente-n">4</div>
+        <div class="frente-cuerpo">
+          <h3>Una app de la Caja, por áreas</h3>
+          <p>
+            El mismo camino que funcionó con los tableros: empezar sencillo y por área, y
+            después unirlas en una sola pieza donde todos estén involucrados. Un lugar de la
+            Caja, no de cada área por separado. Es el final natural de la hiperconectividad.
+          </p>
+          <p>
+            Va señalado aparte porque <b>no está dentro del fee del acompañamiento</b>. Se
+            cotiza y se decide por su cuenta, cuando la Caja quiera abrirlo.
+          </p>
+          <div class="etiquetas"><span class="etq fuera">Fuera del fee mensual</span><span class="etq mes">Cuando la Caja lo abra</span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ══ 5. Hardware ══ -->
+  <section>
+    <div class="tit">
+      <h2>Hardware: un sistema de computación portátil</h2>
+      <span class="apunte">La condición material de todo lo anterior</span>
+    </div>
+    <p class="intro">
+      Esta es una propuesta formal, no un hallazgo más. <b>Proponemos que la Caja incorpore
+      un sistema de computación portátil</b>, porque la forma de trabajo que ya está
+      adoptando no cabe en un equipo de escritorio.
+    </p>
+
+    <div class="frentes">
+      <article class="frente">
+        <div class="frente-n">A</div>
+        <div class="frente-cuerpo">
+          <h3>Qué habilita el portátil que el escritorio no</h3>
+          <p>
+            Tres cosas concretas: <b>rotación de puestos</b>, <b>trabajo en casa</b> y un
+            <b>sistema híbrido</b> de unos días en casa y unos días en la oficina. También el
+            trabajo en sala sin depender del puesto fijo, y el acceso a la información fuera
+            de la oficina, porque la persona se lleva su equipo.
+          </p>
+          <p>
+            El efecto en productividad no es teórico. La persona baja sus gastos de
+            transporte, gana el tiempo que hoy pierde en desplazamiento y sigue produciendo.
+            Y la Caja reduce costos operativos <b>con la misma persona contratada</b>, sin
+            tocar la nómina.
+          </p>
+        </div>
+      </article>
+
+      <article class="frente">
+        <div class="frente-n">B</div>
+        <div class="frente-cuerpo">
+          <h3>Cómo se mide la productividad en casa</h3>
+          <p>
+            Con el <b>login de acceso al sistema</b>, como lo hacen muchas empresas. Es una
+            medición objetiva, ya existente en la infraestructura, y que no exige vigilar a
+            nadie. El trabajo en casa no se concede a ciegas: se concede con medición.
+          </p>
+          <p>
+            Y se propone híbrido a propósito, no remoto total. La presencia sigue siendo
+            parte del esquema.
+          </p>
+        </div>
+      </article>
+
+      <article class="frente">
+        <div class="frente-n">C</div>
+        <div class="frente-cuerpo">
+          <h3>El plan de compra por nómina</h3>
+          <p>
+            Proponemos un plan donde <b>el propio empleado pueda pagar su portátil y el
+            equipo sea suyo</b>, desde un Mac hasta cualquier otro portátil que escoja, con
+            descuento de nómina.
+          </p>
+          <p>
+            La ventaja no es solo financiera. Un equipo propio se cuida distinto. Y cuando la
+            persona se va, se va con su equipo y la Caja renueva tecnología en lugar de
+            quedar <b>casada con un computador por años</b>, que es exactamente lo que está
+            pasando hoy.
+          </p>
+          <div class="etiquetas"><span class="etq sandra">Diseña IAM™</span><span class="etq caja">Decide la Caja con Talento Humano</span></div>
+        </div>
+      </article>
+
+      <article class="frente">
+        <div class="frente-n">D</div>
+        <div class="frente-cuerpo">
+          <h3>El levantamiento del primer mes</h3>
+          <p>
+            Antes de comprar nada, un levantamiento de <b>qué computadores se deben
+            cambiar</b>, con criterio de prioridad declarado: <b>primero las personas que
+            tomaron el curso y ya tienen implementado el sistema completo</b>. No es un censo
+            de la Caja, es equipar a quien ya está produciendo con la herramienta.
+          </p>
+          <p>
+            Y el paquete es inseparable: equipo, <b>licencias de software al día y Office
+            actualizado</b>. Un equipo nuevo con licencias vencidas rinde lo mismo que el
+            viejo, y una licencia nueva en un equipo que no la soporta tampoco se aprovecha.
+          </p>
+          <div class="etiquetas"><span class="etq sandra">Levanta IAM™</span><span class="etq caja">Decide la Caja</span><span class="etq mes">Mes 1</span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ══ 6. Los otros frentes ══ -->
+  <section>
+    <div class="tit">
+      <h2>Los frentes de proceso y de gobierno</h2>
+      <span class="apunte">Lo que sostiene lo construido</span>
+    </div>
+
+    <div class="frentes">
       <article class="frente">
         <div class="frente-n">F1</div>
         <div class="frente-cuerpo">
           <h3>Cimentar los procesos de las ocho áreas que ya construyeron</h3>
           <p>
             Dejar cada circuito documentado, probado y corriendo sin que dependa de la
-            persona que lo armó. Incluye cargar al archivo el ahorro que hoy está escrito
-            en actas y no figura en el tablero.
+            persona que lo armó. Incluye cargar al archivo el ahorro que hoy está escrito en
+            actas y no figura en el tablero.
           </p>
-          <div class="etiquetas">
-            <span class="etq sandra">Ejecuta IAM™</span>
-            <span class="etq mes">Meses 1 a 4</span>
-          </div>
+          <div class="etiquetas"><span class="etq sandra">Ejecuta IAM™</span><span class="etq mes">Meses 1 a 4</span></div>
         </div>
       </article>
 
@@ -611,42 +883,28 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
         <div class="frente-cuerpo">
           <h3>Volver a Vivienda y Mercadeo</h3>
           <p>
-            Son áreas con mucho por hacer que no se sumaron al cien por ciento. El trabajo
-            es sistematizar y automatizar lo que hacen hoy a mano, con sesiones de trabajo
+            Son áreas con mucho por hacer que no se sumaron al cien por ciento. El trabajo es
+            sistematizar y automatizar lo que hacen hoy a mano, con sesiones de trabajo
             cercano y no con seguimiento a distancia.
           </p>
           <p>
-            Mercadeo tiene 710 leads de turismo sin circuito, y su tablero debería hablarse
-            con el de Subsidio. Vivienda tiene la interventoría medida y sin automatizar.
+            Mercadeo tiene 710 leads de turismo sin circuito. Vivienda tiene la interventoría
+            medida y sin automatizar.
           </p>
-          <div class="etiquetas">
-            <span class="etq sandra">Ejecuta IAM™</span>
-            <span class="etq caja">Compromiso del área</span>
-            <span class="etq mes">Meses 1 a 6</span>
-          </div>
+          <div class="etiquetas"><span class="etq sandra">Ejecuta IAM™</span><span class="etq caja">Compromiso del área</span><span class="etq mes">Meses 1 a 6</span></div>
         </div>
       </article>
 
       <article class="frente">
         <div class="frente-n">F3</div>
         <div class="frente-cuerpo">
-          <h3>Levantamiento de equipos, en el primer mes</h3>
+          <h3>Digitalización y cultura de no papel</h3>
           <p>
-            Qué computadores se deben cambiar, con un criterio de prioridad claro:
-            <b>primero las personas que tomaron el curso y ya tienen implementado el sistema
-            completo</b>. No es un censo de la Caja, es equipar a quien ya está produciendo.
+            Revisar los procesos de digitalización área por área, empezando por donde el
+            papel sigue siendo el soporte real de la decisión. El objetivo no es escanear
+            más: es que el documento nazca digital y no vuelva a imprimirse.
           </p>
-          <p>
-            El hallazgo que soporta esto ya está publicado: pasar de escritorio a portátiles
-            habilita el trabajo en casa, la rotación de oficinas y el trabajo en sala sin
-            puesto fijo. Y el paquete es inseparable: equipo, licencias al día y Office
-            actualizado. Un equipo nuevo con licencias vencidas rinde lo mismo que el viejo.
-          </p>
-          <div class="etiquetas">
-            <span class="etq sandra">Levanta IAM™</span>
-            <span class="etq caja">Decide la Caja</span>
-            <span class="etq mes">Mes 1</span>
-          </div>
+          <div class="etiquetas"><span class="etq sandra">Ejecuta IAM™</span><span class="etq mes">Meses 2 a 9</span></div>
         </div>
       </article>
 
@@ -655,19 +913,15 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
         <div class="frente-cuerpo">
           <h3>Gobernanza, con Cumplimiento</h3>
           <p>
-            Reglas de uso, trazabilidad y responsabilidad sobre los sistemas de trabajo que
-            la Caja está adoptando. El dueño del entregable es Cumplimiento. La mentoría
+            Reglas de uso, trazabilidad y responsabilidad sobre los sistemas de trabajo que la
+            Caja está adoptando. <b>El dueño del entregable es Cumplimiento</b>. La mentoría
             asesora, no redacta por ellos.
           </p>
           <p>
-            Esto cierra un hallazgo que la primera fase dejó abierto: falta un responsable
-            de inteligencia artificial en la Caja, una persona con nombre, no un comité.
+            Esto cierra un hallazgo que la primera fase dejó abierto: falta un responsable de
+            inteligencia artificial en la Caja, una persona con nombre, no un comité.
           </p>
-          <div class="etiquetas">
-            <span class="etq caja">Dueño: Cumplimiento</span>
-            <span class="etq sandra">Asesora IAM™</span>
-            <span class="etq mes">Meses 2 a 7</span>
-          </div>
+          <div class="etiquetas"><span class="etq caja">Dueño: Cumplimiento</span><span class="etq sandra">Asesora IAM™</span><span class="etq mes">Meses 2 a 7</span></div>
         </div>
       </article>
 
@@ -680,89 +934,62 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
             <b>cuánto vale el licenciamiento, cuánto se necesita y cuánto se aprueba</b>.
           </p>
           <p>
-            De esa reunión sale una propuesta de compra. La ruta de decisión queda explícita:
-            la propuesta la presenta <b>María Elvira al director</b>, con el acompañamiento
-            completo de la mentoría en la preparación y en la sustentación.
+            De esa reunión sale una propuesta de compra, y la ruta de decisión queda
+            explícita: la propuesta la presenta <b>María Elvira al director</b>, con el
+            acompañamiento completo de la mentoría en la preparación y en la sustentación.
           </p>
-          <div class="etiquetas">
-            <span class="etq sandra">Gestiona y acompaña IAM™</span>
-            <span class="etq caja">Presenta el sponsor</span>
-            <span class="etq mes">Meses 2 a 4</span>
-          </div>
+          <div class="etiquetas"><span class="etq sandra">Gestiona y acompaña IAM™</span><span class="etq caja">Presenta el sponsor</span><span class="etq mes">Meses 2 a 4</span></div>
         </div>
       </article>
-
-      <article class="frente">
-        <div class="frente-n">F6</div>
-        <div class="frente-cuerpo">
-          <h3>Los tableros conectados a los sistemas de gestión</h3>
-          <p>
-            Hoy los tableros se alimentan a mano. El paso siguiente es conectarlos a los
-            sistemas internos: el de contabilidad con el suyo, y el de mercadeo hablándose
-            con el de subsidio.
-          </p>
-          <p>
-            Antes de conectar hay que saber qué hay. Por eso el frente abre con un
-            <b>levantamiento de los sistemas de información de la Caja y de dónde está
-            alojado cada uno</b>. Ahí también se negocia el techo que ya apareció cuatro
-            veces en los hallazgos: la integración por API del software del proveedor
-            externo, que está en Ibagué.
-          </p>
-          <div class="etiquetas">
-            <span class="etq sandra">Diseña IAM™</span>
-            <span class="etq caja">Recurso interno de la Caja</span>
-            <span class="etq mes">Meses 3 a 10</span>
-          </div>
-        </div>
-      </article>
-
-      <article class="frente">
-        <div class="frente-n">F7</div>
-        <div class="frente-cuerpo">
-          <h3>Salir de la red local</h3>
-          <p>
-            La Caja trabaja sobre servidores locales. Mientras el acceso dependa de estar
-            dentro de la red, el trabajo en casa y la rotación de oficinas no funcionan de
-            verdad, y eso frena todo lo demás.
-          </p>
-          <p>
-            El frente es acompañar la búsqueda y la evaluación de un proveedor para migrar
-            a la nube, con Amazon Web Services como referencia. <b>La migración no la
-            ejecuta la mentoría</b>: la ejecuta el proveedor que la Caja contrate. El papel
-            de IAM™ es ayudar a escoger bien y a que el proyecto no se quede a medias.
-          </p>
-          <div class="etiquetas">
-            <span class="etq caja">Ejecuta el proveedor</span>
-            <span class="etq sandra">Acompaña IAM™</span>
-            <span class="etq mes">Meses 5 a 12</span>
-          </div>
-        </div>
-      </article>
-
-      <article class="frente aparte">
-        <div class="frente-n">+</div>
-        <div class="frente-cuerpo">
-          <h3>Una app de la Caja, por áreas</h3>
-          <p>
-            La idea es la misma que funcionó con los tableros: empezar sencillo y por área,
-            y después unirlas en una sola pieza donde todos estén involucrados. Un lugar de
-            la Caja, no de cada área por separado.
-          </p>
-          <p>
-            Va señalado aparte porque <b>no está dentro del costo del acompañamiento</b>.
-            Se cotiza y se decide por su cuenta, cuando la Caja quiera abrirlo.
-          </p>
-          <div class="etiquetas">
-            <span class="etq fuera">Fuera del fee mensual</span>
-            <span class="etq mes">Cuando la Caja lo abra</span>
-          </div>
-        </div>
-      </article>
-
     </div>
   </section>
 
-  <!-- ══ 5. El año ══ -->
+  <!-- ══ 7. Cimentación ══ -->
+  <section>
+    <div class="tit">
+      <h2>El arranque: cerrar lo que quedó abierto</h2>
+      <span class="apunte">Antes de abrir frentes nuevos</span>
+    </div>
+    <p class="intro">
+      Varias áreas quedaron con el proceso a medio citar. Cerrar eso es el punto de partida,
+      y el tiempo que toma depende de una decisión que la Caja ya tiene sobre la mesa.
+    </p>
+
+    <div class="puente">
+      <div class="puente-fila">
+        <h3>¿La Caja toma el puente de octubre?</h3>
+        <div class="palanca" role="group" aria-label="Escenario del puente de octubre">
+          <button id="puente-si" aria-pressed="true">Sí lo toman</button>
+          <button id="puente-no" aria-pressed="false">No lo toman</button>
+        </div>
+      </div>
+      <div class="salida">
+        <div class="celda">
+          <div class="valor dato" id="p-meses">1 mes</div>
+          <div class="rot">Cimentación</div>
+          <div class="exp" id="p-exp">Con el puente, las áreas quedan con procesos cimentados y automatizaciones hechas en un mes.</div>
+        </div>
+        <div class="celda">
+          <div class="valor dato" id="p-arranque">Noviembre</div>
+          <div class="rot">Arranque del acompañamiento</div>
+          <div class="exp">El conteo de meses empieza cuando la cimentación cierra.</div>
+        </div>
+        <div class="celda">
+          <div class="valor dato" id="p-cierre">Octubre 2027</div>
+          <div class="rot">Cierre del escenario de doce meses</div>
+          <div class="exp">Con balance en pesos y traspaso al recurso interno.</div>
+        </div>
+      </div>
+    </div>
+
+    <p class="intro" style="margin-bottom:0;">
+      La cimentación no es una fase aparte que se cobre dos veces: es el primer tramo del
+      acompañamiento. Lo que cambia con el puente es <b>cuándo se abren los frentes
+      nuevos</b>, no el alcance.
+    </p>
+  </section>
+
+  <!-- ══ 8. El año ══ -->
   <section>
     <div class="tit">
       <h2>El año, trimestre por trimestre</h2>
@@ -784,6 +1011,7 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
             <li>Cimentación de los circuitos de las ocho áreas que ya construyeron</li>
             <li>Primeras sesiones de trabajo cercano con <b>Vivienda y Mercadeo</b></li>
             <li>Arranca la gobernanza con Cumplimiento y se gestiona la <b>reunión de licenciamiento</b></li>
+            <li>Diseño del plan de compra de portátiles por nómina, con Talento Humano</li>
           </ul>
           <span class="hito">Cierre: primera revisión con el director</span>
         </div>
@@ -802,6 +1030,7 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
             <li>Primeras <b>conexiones de tableros</b> a los sistemas internos, con el recurso de la Caja</li>
             <li>Automatizaciones vivas en Vivienda y Mercadeo</li>
             <li>Entran las primeras áreas de la calle 3, con circuito nuevo de principio a fin</li>
+            <li>Arranca el esquema híbrido en las áreas que ya tengan portátil</li>
           </ul>
           <span class="hito">Cierre: segunda revisión con el director</span>
         </div>
@@ -820,6 +1049,7 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
             <li>El marco de <b>gobernanza queda publicado</b> y con responsable con nombre</li>
             <li>Mercadeo y Subsidio con los tableros hablándose</li>
             <li>Resto de las áreas de la calle 3 en construcción</li>
+            <li>Primera medición de productividad del esquema híbrido, por login de acceso</li>
           </ul>
           <span class="hito">Cierre: tercera revisión con el director</span>
         </div>
@@ -846,7 +1076,7 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
     </div>
   </section>
 
-  <!-- ══ 6. Gobierno ══ -->
+  <!-- ══ 9. Gobierno ══ -->
   <section>
     <div class="tit">
       <h2>Cómo se gobierna</h2>
@@ -877,7 +1107,7 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
     </div>
   </section>
 
-  <!-- ══ 7. Reparto ══ -->
+  <!-- ══ 10. Reparto ══ -->
   <section>
     <div class="tit">
       <h2>Lo que pone cada parte</h2>
@@ -887,10 +1117,11 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
       <div class="lado">
         <div class="lado-cab"><span class="pto s"></span><strong>Lo que pone IAM™</strong></div>
         <ul>
-          <li>Acompañamiento directo durante los <b>doce meses</b></li>
-          <li>Cimentación de los circuitos de las áreas que ya construyeron</li>
+          <li>Acompañamiento directo durante todo el plazo contratado</li>
+          <li>Cimentación de los circuitos de las ocho áreas que ya construyeron</li>
           <li>Los dos levantamientos del primer mes: <b>equipos y sistemas de información</b></li>
           <li>Trabajo cercano con Vivienda y Mercadeo hasta dejarlas automatizadas</li>
+          <li>El diseño del plan de portátiles y del esquema híbrido con su medición</li>
           <li>Asesoría a Cumplimiento en el marco de gobernanza</li>
           <li>Gestión de la reunión de licenciamiento y preparación de la propuesta</li>
           <li>Diseño de las conexiones de tableros a los sistemas internos</li>
@@ -904,6 +1135,7 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
           <li>Un <b>recurso interno</b> para las conexiones, como ya se mencionó</li>
           <li>Un <b>responsable de inteligencia artificial</b> con nombre, no un comité</li>
           <li>La decisión de renovación de equipos, licencias y Office</li>
+          <li>La aprobación del plan de compra por nómina, con Talento Humano</li>
           <li>El presupuesto del licenciamiento, con la propuesta que presenta el sponsor</li>
           <li>La negociación con el proveedor de software de Ibagué para la integración por API</li>
           <li>La contratación del proveedor de migración a la nube</li>
@@ -914,59 +1146,124 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
     </div>
   </section>
 
-  <!-- ══ 8. Franja: salvedad y condiciones ══ -->
+</div>
+
+<!-- ══ 11. Inversión ══ -->
+<div class="marco" style="padding-block:0 0;">
   <div class="franja">
     <div class="tit">
-      <h2>Por qué un año, y por qué no para siempre</h2>
-      <span class="apunte">La salvedad, dicha de frente</span>
+      <h2>La inversión</h2>
+      <span class="apunte">Dos escenarios · pesos colombianos</span>
     </div>
-    <p class="cita-grande">
-      Un año no es el tiempo que toma enseñar una herramienta. Es el tiempo que toma una
-      transformación digital.
-    </p>
-    <p>
-      Doce meses no es una cifra de conveniencia. Cimentar procesos, cambiar equipos, salir
-      de la red local, poner reglas de gobernanza y conectar los tableros a los sistemas de
-      gestión son cosas que no caben en un trimestre, y que si se hacen a medias se
-      devuelven solas.
-    </p>
-    <p>
-      Y conviene decir la otra parte con la misma claridad: <b>un año no es permanencia</b>.
-      No es el primer acompañamiento de doce meses de la mentoría, y hay empresas donde el
-      acompañamiento lleva tres y cuatro años porque ellas lo pidieron, no porque quedaran
-      amarradas. El año de Comfacesar tiene cierre, entrega y traspaso a un recurso interno.
-      Lo que venga después se acuerda aparte, o no se acuerda.
-    </p>
+
+    <div class="opciones-fila">
+      <h3>Escoja el plazo para ver las condiciones</h3>
+      <div class="palanca" role="group" aria-label="Escenario de contratación">
+        <button id="op-a" aria-pressed="true">A · doce meses</button>
+        <button id="op-b" aria-pressed="false">B · seis meses</button>
+      </div>
+    </div>
 
     <div class="condiciones">
       <div class="cond">
-        <div class="rot">Modalidad</div>
-        <div class="val">Fee mensual</div>
-        <div class="exp">No hay un desembolso único por el año. El acompañamiento se paga mes a mes, para que no comprometa el flujo de una sola vez.</div>
+        <div class="rot">Fee mensual</div>
+        <div class="val dato" id="c-fee">$24.300.000</div>
+        <div class="exp" id="c-fee-exp">Doce cuotas iguales. El acompañamiento se paga mes a mes, no en un desembolso único.</div>
       </div>
       <div class="cond">
-        <div class="rot">Primer pago</div>
-        <div class="val">Anticipo</div>
-        <div class="exp">El primer fee se paga como anticipo, al inicio del acompañamiento.</div>
+        <div class="rot">Plazo</div>
+        <div class="val dato" id="c-plazo">12 meses</div>
+        <div class="exp" id="c-plazo-exp">El plazo que corresponde a una transformación digital completa.</div>
       </div>
       <div class="cond">
-        <div class="rot">Pagos siguientes</div>
-        <div class="val dato">Día 20</div>
-        <div class="exp">El 20 de cada mes. Se escoge esa fecha a propósito, para no cruzarse con el cierre de nómina.</div>
+        <div class="rot">Valor total</div>
+        <div class="val dato" id="c-total">$291.600.000</div>
+        <div class="exp">Suma de las cuotas del plazo escogido.</div>
       </div>
-      <div class="cond abierta">
-        <div class="rot">Valor del fee</div>
-        <div class="val">Por acordar</div>
-        <div class="exp">El monto mensual se cierra con la dirección junto con el alcance aprobado.</div>
+      <div class="cond">
+        <div class="rot">Forma de pago</div>
+        <div class="val">Día 20</div>
+        <div class="exp">El primer fee se paga como anticipo. Los siguientes, el 20 de cada mes, fecha escogida para no cruzarse con el cierre de nómina.</div>
+      </div>
+    </div>
+
+    <div class="nota-escenario" id="nota-esc">
+      <b>Por qué el escenario A es el recomendado.</b> Hay frentes que están atados entre
+      sí: no se puede medir la productividad del esquema híbrido antes de entregar los
+      portátiles, ni conectar tableros antes de saber dónde está alojado cada sistema. En
+      doce meses la secuencia completa cabe, y por eso el fee mensual es menor.
+    </div>
+
+    <p class="cita-grande">
+      Lo ya recuperado se repite cada año sin volver a pagarlo. El acompañamiento se paga
+      una vez.
+    </p>
+    <p>
+      Las 133,9 horas a la semana que la primera fase dejó corriendo equivalen a
+      <b>580 horas al mes</b>, o <b>$21,1 millones mensuales</b> a tarifa de perfil
+      profesional. Eso ya está medido y cargado al tablero, y es recurrente.
+    </p>
+    <p>
+      Contra eso, el escenario A cuesta $24,3 millones al mes. La diferencia anual es de
+      <b>$38,5 millones</b>, que al mismo valor hora equivale a <b>20 horas más a la
+      semana</b>. Con ocho áreas por cimentar, tres por rescatar, siete por entrar y un
+      margen de cinco áreas más, veinte horas semanales es el piso, no la meta. Todo lo que
+      pase de ahí es retorno dentro del mismo año.
+    </p>
+
+    <div class="balance">
+      <div class="celda">
+        <div class="valor dato">$21,1 M</div>
+        <div class="rot">Al mes, ya recuperados</div>
+        <div class="exp">133,9 h/semana cargadas al tablero en la primera fase.</div>
+      </div>
+      <div class="celda">
+        <div class="valor dato">20 h</div>
+        <div class="rot">A la semana, para equilibrar</div>
+        <div class="exp">Lo que la fase 2 debe sumar para pagarse dentro del mismo año.</div>
+      </div>
+      <div class="celda">
+        <div class="valor dato">$600 M</div>
+        <div class="rot">Medidos en la IPS</div>
+        <div class="exp">Costo anual del ausentismo, visible por primera vez gracias al programa.</div>
+      </div>
+      <div class="celda">
+        <div class="valor dato">23</div>
+        <div class="rot">Áreas de alcance máximo</div>
+        <div class="exp">Las 18 presentadas más el margen de cinco, sin costo adicional.</div>
       </div>
     </div>
   </div>
+</div>
 
-  <!-- ══ 9. Cierre ══ -->
+<div class="marco" style="padding-block:0 92px;">
+
+  <!-- ══ 12. La salvedad ══ -->
   <section>
     <div class="tit">
+      <h2>Un año no es permanencia</h2>
+      <span class="apunte">La salvedad, dicha de frente</span>
+    </div>
+    <p class="intro">
+      Doce meses no es una cifra de conveniencia. Cimentar procesos, cambiar equipos, salir
+      de la red local, poner reglas de gobernanza y conectar los tableros a los sistemas de
+      gestión son cosas que no caben en un trimestre, y que si se hacen a medias se
+      devuelven solas. Por eso el plazo es un año.
+    </p>
+    <p class="intro">
+      Y conviene decir la otra parte con la misma claridad. <b>Este no es el primer
+      acompañamiento de doce meses de la mentoría</b>, y hay empresas donde el
+      acompañamiento lleva tres y cuatro años porque ellas lo pidieron, no porque quedaran
+      amarradas a nadie. El año de Comfacesar tiene cierre, balance en pesos y traspaso a un
+      recurso interno de la Caja. Lo que venga después se acuerda aparte, o no se acuerda.
+    </p>
+  </section>
+
+  <!-- ══ 13. Qué se decide ══ -->
+  <section style="margin-bottom:0;">
+    <div class="tit">
       <h2>Qué se decide ahora</h2>
-      <span class="apunte">Tres cosas, en este orden</span>
+      <span class="apunte">Cuatro cosas, en este orden</span>
     </div>
     <div class="frentes">
       <article class="frente">
@@ -979,15 +1276,22 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
       <article class="frente">
         <div class="frente-n">2</div>
         <div class="frente-cuerpo">
-          <h3>El alcance de las tres calles</h3>
-          <p>Ocho áreas a afilar, tres a rescatar, siete a entrar. Si la dirección quiere mover un área de calle, se mueve aquí y no en el camino.</p>
+          <h3>El escenario: doce meses o seis</h3>
+          <p>A doce meses la secuencia completa cabe y el fee mensual es menor. A seis meses quedan frentes por cerrar, y eso hay que saberlo antes de firmar, no después.</p>
         </div>
       </article>
       <article class="frente">
         <div class="frente-n">3</div>
         <div class="frente-cuerpo">
-          <h3>El fee mensual y la fecha de arranque</h3>
-          <p>Con el alcance cerrado se fija el valor mensual, el anticipo y el calendario de los doce meses.</p>
+          <h3>El alcance de las tres calles</h3>
+          <p>Ocho áreas a afilar, tres a rescatar, siete a entrar, más el margen de cinco. Si la dirección quiere mover un área de calle, se mueve aquí y no en el camino.</p>
+        </div>
+      </article>
+      <article class="frente">
+        <div class="frente-n">4</div>
+        <div class="frente-cuerpo">
+          <h3>El sistema de computación portátil</h3>
+          <p>Es la decisión que habilita el trabajo híbrido, la rotación y el acceso fuera de la red. Incluye aprobar el plan de compra por nómina con Talento Humano.</p>
         </div>
       </article>
     </div>
@@ -995,7 +1299,7 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
 
   <footer>
     <span class="anillo"></span>
-    <span>IAM™ Intelligence · Propuesta de segunda fase para Comfacesar</span>
+    <span>IAM™ Intelligence · Fase 2 · Propuesta para Comfacesar</span>
     <span>Preparada el 5 de octubre de 2026</span>
     <span>Sandra Curvelo · Mentora IAM™</span>
   </footer>
@@ -1010,7 +1314,7 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
 
   function filtrar(cual){
     calles.forEach(function(c){
-      c.classList.toggle('apagada', cual !== 'todas' && c.dataset.calle !== cual);
+      c.hidden = (cual !== 'todas' && c.dataset.calle !== cual);
     });
     mandos.forEach(function(b){
       b.setAttribute('aria-pressed', String(b.dataset.calle === cual));
@@ -1030,12 +1334,12 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
   /* ── Escenario del puente ── */
   var btnSi = document.getElementById('puente-si');
   var btnNo = document.getElementById('puente-no');
-  var elMeses = document.getElementById('p-meses');
-  var elExp = document.getElementById('p-exp');
-  var elArr = document.getElementById('p-arranque');
-  var elCie = document.getElementById('p-cierre');
+  var pMeses = document.getElementById('p-meses');
+  var pExp = document.getElementById('p-exp');
+  var pArr = document.getElementById('p-arranque');
+  var pCie = document.getElementById('p-cierre');
 
-  var escenarios = {
+  var puentes = {
     si: {
       meses: '1 mes',
       exp: 'Con el puente, las áreas quedan con procesos cimentados y automatizaciones hechas en un mes.',
@@ -1044,21 +1348,21 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
     },
     no: {
       meses: '2 meses',
-      exp: 'Sin el puente, cimentar las áreas toma unos dos meses, porque el trabajo compite con la operación.',
+      exp: 'Sin el puente, cimentar las áreas toma unos dos meses, porque el trabajo compite con la operación del día.',
       arranque: 'Diciembre',
       cierre: 'Noviembre 2027'
     }
   };
 
   function puente(cual){
-    var e = escenarios[cual];
-    elMeses.textContent = e.meses;
-    elExp.textContent = e.exp;
-    elArr.textContent = e.arranque;
-    elCie.textContent = e.cierre;
+    var e = puentes[cual];
+    pMeses.textContent = e.meses;
+    pExp.textContent = e.exp;
+    pArr.textContent = e.arranque;
+    pCie.textContent = e.cierre;
     btnSi.setAttribute('aria-pressed', String(cual === 'si'));
     btnNo.setAttribute('aria-pressed', String(cual === 'no'));
-    try { localStorage.setItem('iam-f2-puente', cual); } catch (e2) {}
+    try { localStorage.setItem('iam-f2-puente', cual); } catch (err) {}
   }
 
   btnSi.addEventListener('click', function(){ puente('si'); });
@@ -1068,5 +1372,57 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;}
   try { pg = localStorage.getItem('iam-f2-puente') || 'si'; } catch (e) {}
   if (pg !== 'si' && pg !== 'no') pg = 'si';
   puente(pg);
+
+  /* ── Escenario de contratación ── */
+  var opA = document.getElementById('op-a');
+  var opB = document.getElementById('op-b');
+  var cFee = document.getElementById('c-fee');
+  var cFeeExp = document.getElementById('c-fee-exp');
+  var cPlazo = document.getElementById('c-plazo');
+  var cPlazoExp = document.getElementById('c-plazo-exp');
+  var cTotal = document.getElementById('c-total');
+  var nota = document.getElementById('nota-esc');
+
+  function pesos(n){
+    return '$' + n.toLocaleString('es-CO', {useGrouping:true}).replace(/,/g, '.');
+  }
+
+  var ops = {
+    a: {
+      fee: 24300000,
+      meses: 12,
+      feeExp: 'Doce cuotas iguales. El acompañamiento se paga mes a mes, no en un desembolso único.',
+      plazoExp: 'El plazo que corresponde a una transformación digital completa.',
+      nota: '<b>Por qué el escenario A es el recomendado.</b> Hay frentes que están atados entre sí: no se puede medir la productividad del esquema híbrido antes de entregar los portátiles, ni conectar tableros antes de saber dónde está alojado cada sistema. En doce meses la secuencia completa cabe, y por eso el fee mensual es menor.'
+    },
+    b: {
+      fee: 26900000,
+      meses: 6,
+      feeExp: 'Seis cuotas iguales. El fee mensual es más alto porque el mismo trabajo se concentra en la mitad del tiempo.',
+      plazoExp: 'Alcance parcial: la transformación digital no queda al cien por ciento.',
+      nota: '<b>Qué queda por fuera en el escenario B.</b> En seis meses alcanzan la cimentación, los dos levantamientos, la gobernanza y el licenciamiento. Lo que no alcanza a cerrar es la cadena larga: la migración a la nube, las conexiones de tableros a todos los sistemas y la entrada completa de las siete áreas de la calle 3. Por eso el fee mensual es mayor y el resultado es parcial, y conviene decirlo antes de firmar.'
+    }
+  };
+
+  function opcion(cual){
+    var o = ops[cual];
+    cFee.textContent = pesos(o.fee);
+    cFeeExp.textContent = o.feeExp;
+    cPlazo.textContent = o.meses + ' meses';
+    cPlazoExp.textContent = o.plazoExp;
+    cTotal.textContent = pesos(o.fee * o.meses);
+    nota.innerHTML = o.nota;
+    opA.setAttribute('aria-pressed', String(cual === 'a'));
+    opB.setAttribute('aria-pressed', String(cual === 'b'));
+    try { localStorage.setItem('iam-f2-opcion', cual); } catch (err) {}
+  }
+
+  opA.addEventListener('click', function(){ opcion('a'); });
+  opB.addEventListener('click', function(){ opcion('b'); });
+
+  var og = 'a';
+  try { og = localStorage.getItem('iam-f2-opcion') || 'a'; } catch (e) {}
+  if (og !== 'a' && og !== 'b') og = 'a';
+  opcion(og);
 })();
 </script>
