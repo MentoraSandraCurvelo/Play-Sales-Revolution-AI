@@ -296,22 +296,38 @@ def normalizar_actas(archivo):
 
 
 def enlazar_adjuntos(archivo):
-    """Da enlace a los adjuntos de los mensajes que son actas nuestras.
+    """Da enlace a los adjuntos de los mensajes que son actas que tenemos.
 
     Slack en plan gratuito exporta el nombre del archivo, no el archivo, as\u00ed que
     la mayor\u00eda de adjuntos no se pueden abrir \u2014 y conviene que se note. Pero los
-    PDF de las actas s\u00ed los tenemos generados, as\u00ed que esos s\u00ed se enlazan.
+    PDF de las actas s\u00ed los tenemos generados.
+
+    **No se emparejan por nombre**: el acta se subi\u00f3 a Slack con el nombre que
+    tuviera ese d\u00eda \u2014`ACTA_Sesion2_Comunicaciones_IAM_Intelligence.pdf`\u2014 y el PDF
+    que genera el agente se llama de otra forma. Se emparejan por lo que de
+    verdad los identifica: **el canal y el n\u00famero de sesi\u00f3n**, que es como est\u00e1n
+    archivadas.
     """
-    nuestros = {os.path.basename(v) for v in
-                json.load(open(os.path.join(AQUI, 'datos', 'pdf-mapa.json'), encoding='utf-8')).values()}
-    enlazados = 0
+    RX = re.compile(r'[Ss]esi?[o\u00f3]n[\s_]*(\d{1,2})')
+    enlazados = sueltos = 0
     for c in archivo['canales']:
+        por_sesion = {}
+        for acta in c['actas']:
+            if acta.get('pdf') and acta.get('sesion_num') is not None:
+                por_sesion[int(acta['sesion_num'])] = os.path.basename(acta['pdf'])
         for m in c['mensajes']:
             for a in m['adjuntos']:
-                if a['nombre'] in nuestros:
-                    a['url'] = 'actas/' + a['nombre']
+                if not a['nombre'].lower().endswith('.pdf'):
+                    continue
+                n = RX.search(a['nombre'])
+                destino = por_sesion.get(int(n.group(1))) if n else None
+                if destino:
+                    a['url'] = 'actas/' + destino
                     enlazados += 1
-    print('  %d adjuntos enlazados a su PDF' % enlazados)
+                else:
+                    sueltos += 1
+    print('  %d adjuntos PDF enlazados a su acta \u00b7 %d sin acta que enlazar'
+          % (enlazados, sueltos))
 
 
 def main():
