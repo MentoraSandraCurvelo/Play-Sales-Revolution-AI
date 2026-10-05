@@ -407,6 +407,10 @@ td.cifra-td{font-family:var(--dato);font-variant-numeric:tabular-nums;white-spac
   font-family:var(--display);font-weight:700;font-size:24px;line-height:1.14;margin-bottom:6px;
   font-variant-numeric:tabular-nums;
 }
+.cond .val .iva{
+  font-family:var(--texto);font-size:10.5px;font-weight:500;color:var(--tinta-ink-3);
+  letter-spacing:.02em;margin-left:5px;vertical-align:3px;
+}
 .cond .exp{font-size:12.5px;color:var(--tinta-ink-2);line-height:1.45;}
 .nota-escenario{
   background:var(--tinta-2);border:1px solid var(--tinta-line);border-left:3px solid var(--tinta-acento);
@@ -1528,7 +1532,7 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;border-color:var(--acento
   <div class="franja">
     <div class="tit">
       <h2>La inversión</h2>
-      <span class="apunte">Dos escenarios · pesos colombianos · <b style="color:var(--tinta-ink)">todos los valores son más IVA</b></span>
+      <span class="apunte">Dos escenarios · pesos colombianos · más IVA</span>
     </div>
 
     <div class="opciones-fila">
@@ -1542,7 +1546,7 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;border-color:var(--acento
     <div class="condiciones">
       <div class="cond">
         <div class="rot">Fee mensual</div>
-        <div class="val dato" id="c-fee">$24.300.000 + IVA</div>
+        <div class="val dato" id="c-fee">$24.300.000<span class="iva">+ IVA</span></div>
         <div class="exp" id="c-fee-exp">Doce cuotas iguales. El acompañamiento se paga mes a mes, no en un desembolso único.</div>
       </div>
       <div class="cond">
@@ -1552,13 +1556,13 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;border-color:var(--acento
       </div>
       <div class="cond">
         <div class="rot">Valor total</div>
-        <div class="val dato" id="c-total">$291.600.000 + IVA</div>
-        <div class="exp">Suma de las cuotas del plazo escogido. <b>Más IVA.</b></div>
+        <div class="val dato" id="c-total">$291.600.000<span class="iva">+ IVA</span></div>
+        <div class="exp">Suma de las cuotas del plazo escogido.</div>
       </div>
       <div class="cond">
         <div class="rot">Forma de pago</div>
         <div class="val">Día 20</div>
-        <div class="exp">El primer fee se paga como anticipo. Los siguientes, el 20 de cada mes, fecha escogida para no cruzarse con el cierre de nómina. <b>Todos los valores de esta propuesta son antes de IVA.</b></div>
+        <div class="exp">El primer fee se paga como anticipo. Los siguientes, el 20 de cada mes, fecha escogida para no cruzarse con el cierre de nómina.</div>
       </div>
     </div>
 
@@ -1580,7 +1584,7 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;border-color:var(--acento
       partida.
     </p>
     <p>
-      El escenario A cuesta $24,3 millones al mes, más IVA. Es decir que
+      El escenario A cuesta $24,3 millones al mes. Es decir que
       <b>lo ya recuperado vale una vez y media el fee</b>, antes de que la fase 2 sume una
       sola hora. Al perfil más conservador, el de profesional, el retorno cubre el 87% del
       fee, y aun en ese piso basta con sumar veinte horas semanales para equilibrarlo. Con
@@ -1654,7 +1658,7 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;border-color:var(--acento
         <div class="frente-n">2</div>
         <div class="frente-cuerpo">
           <h3>El escenario: doce meses o seis</h3>
-          <p>A doce meses la secuencia completa cabe y el fee mensual es menor: $24.300.000 más IVA, frente a $26.900.000 más IVA. A seis meses quedan frentes por cerrar, y eso hay que saberlo antes de firmar, no después.</p>
+          <p>A doce meses la secuencia completa cabe y el fee mensual es menor: $24.300.000 frente a $26.900.000. A seis meses quedan frentes por cerrar, y eso hay que saberlo antes de firmar, no después.</p>
         </div>
       </article>
       <article class="frente">
@@ -1768,14 +1772,14 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;border-color:var(--acento
     a: {
       fee: 24300000,
       meses: 12,
-      feeExp: 'Doce cuotas iguales, más IVA. El acompañamiento se paga mes a mes, no en un desembolso único.',
+      feeExp: 'Doce cuotas iguales. El acompañamiento se paga mes a mes, no en un desembolso único.',
       plazoExp: 'El plazo que corresponde a una transformación digital completa.',
       nota: '<b>Por qué el escenario A es el recomendado.</b> Hay frentes que están atados entre sí: no se puede medir la productividad del esquema híbrido antes de entregar los portátiles, ni conectar tableros antes de saber dónde está alojado cada sistema. En doce meses la secuencia completa cabe, y por eso el fee mensual es menor.'
     },
     b: {
       fee: 26900000,
       meses: 6,
-      feeExp: 'Seis cuotas iguales, más IVA. El fee mensual es más alto porque el mismo trabajo se concentra en la mitad del tiempo.',
+      feeExp: 'Seis cuotas iguales. El fee mensual es más alto porque el mismo trabajo se concentra en la mitad del tiempo.',
       plazoExp: 'Alcance parcial: la transformación digital no queda al cien por ciento.',
       nota: '<b>Qué queda por fuera en el escenario B.</b> En seis meses alcanzan la cimentación, los dos levantamientos, la gobernanza y el licenciamiento. Lo que no alcanza a cerrar es la cadena larga: la migración a la nube, las conexiones de tableros a todos los sistemas y la entrada completa de las cinco áreas por activar. Por eso el fee mensual es mayor y el resultado es parcial, y conviene decirlo antes de firmar.'
     }
@@ -1783,11 +1787,11 @@ footer .anillo{width:8px;height:8px;border-width:2.5px;border-color:var(--acento
 
   function opcion(cual){
     var o = ops[cual];
-    cFee.textContent = pesos(o.fee) + ' + IVA';
+    cFee.innerHTML = pesos(o.fee) + '<span class="iva">+ IVA</span>';
     cFeeExp.textContent = o.feeExp;
     cPlazo.textContent = o.meses + ' meses';
     cPlazoExp.textContent = o.plazoExp;
-    cTotal.textContent = pesos(o.fee * o.meses) + ' + IVA';
+    cTotal.innerHTML = pesos(o.fee * o.meses) + '<span class="iva">+ IVA</span>';
     nota.innerHTML = o.nota;
     opA.setAttribute('aria-pressed', String(cual === 'a'));
     opB.setAttribute('aria-pressed', String(cual === 'b'));
