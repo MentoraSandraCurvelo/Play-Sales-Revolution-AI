@@ -6,6 +6,44 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## lunes 5 de octubre de 2026 · 1:10 p. m. · Primer bosquejo de la propuesta de fase 2
+
+Sandra dictó la propuesta en tres tandas. Todo quedó en
+`fase2-lo-que-pide-el-director.md`, secciones 11 y 12, y de ahí salió el HTML.
+
+**Publicado:** `propuesta-fase2-comfacesar.html` ·
+https://claude.ai/artifact/6Q7za5TMhT4NjpNvyuK7cY · v1 · **privado**.
+Ella lo abre desde Compartir si quiere que lo vea alguien más.
+
+### Lo que define la propuesta
+- Nombre **IAM™ Intelligence, fase 2**. Palabras clave **hardware** e
+  **hiperconectividad**.
+- Mensaje central, el que pidió «grande»: no vamos a tener islas
+  independientes, y tampoco proponemos cambiar el software ahora. El ERP es de
+  mañana. Coincide con la condición del director de no tocar el ecosistema.
+- Tres calles: **afilar 8, rescatar 3, entrar 7**. Más margen de **5 áreas con
+  líderes o, si no las hay, 10 personas más**, en los dos escenarios.
+- **Escenario A** $24.300.000 mensual × 12 = $291.600.000.
+  **Escenario B** $26.900.000 mensual × 6 = $161.400.000, alcance parcial.
+  Primer fee de anticipo, los siguientes el **20 de cada mes** para no
+  cruzarse con nómina.
+- Gobierno: **mensual con el sponsor, trimestral con el director**.
+- Salvedad escrita: un año no es permanencia, hay acompañamientos de tres y
+  cuatro años en otras empresas porque lo pidieron.
+- Portátiles como propuesta formal, con plan de **compra por nómina** y
+  medición de productividad por **login de acceso**.
+- La **app por áreas va fuera del fee**.
+
+### Aritmética verificada antes de publicar
+133,9 h/sem = 580,2 h/mes = **$21,1 M/mes** a $36.351. Al año $253,0 M.
+Brecha contra el escenario A: **$38,5 M al año**, o **20,4 h/semana**.
+Calculado con node, no de memoria.
+
+### Lo que NO entró al papel, por instrucción suya
+«yo no voy a cambiar personas, obviamente eso no lo vamos a escribir en la
+propuesta». Tampoco nada de la sección 10 del archivo del director.
+
+
 ## 🎙️ 5 oct · 12:10 p. m. · Transcripción del director: está extraída, y choca con el objetivo de Sandra
 
 **El audio no se pudo transcribir con ElevenLabs:** pedía **18.515 créditos** y la cuenta
