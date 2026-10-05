@@ -6,6 +6,47 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## ✏️ 5 oct · 11:40 a. m. · El proveedor está en Ibagué, y entra un hallazgo nuevo de hardware
+
+**Sus palabras:** *«ojo que el proveedor del software está en Ibagué no Girardot»* y el hallazgo nuevo.
+
+### 1 · Girardot → Ibagué, corregido en los cuatro tableros donde estaba
+
+**Estaba mal en cuatro**, no en uno: Hallazgos críticos, Hallazgos mentora, KPIs y Termómetro. Corregido
+en los cuatro y **dicho en el Termómetro**, porque era un dato que el tablero daba por cierto.
+
+**Lo que no cambia es el fondo:** el sistema es de un proveedor externo, Tecnología lo gestiona y no lo
+construyó, y la conexión **se negocia, no se solicita internamente**. Cambia a quién hay que llamar y
+dónde queda, no la naturaleza de la gestión.
+
+### 2 · Hallazgo nuevo en Hallazgos críticos: la renovación de hardware
+
+**Tema Hardware y TI, semáforo Decisión, plazo decisión de dirección.** Redactado con lo que ella
+dictó: portátiles en vez de escritorio para habilitar **trabajo en casa, rotación de oficinas y trabajo
+en sala**, más **equipos con mejores especificaciones, licencias de software al día y Office
+actualizado**, como condición para la transformación digital.
+
+**El ángulo que se le puso, porque es lo que lo hace decidible:** las tres piezas se frenan entre sí. Un
+equipo nuevo con licencias vencidas rinde lo mismo que el viejo, y una licencia nueva en un equipo que no
+la soporta tampoco se aprovecha. **Es una inversión que se dimensiona antes de la siguiente fase, no
+durante.** Y se cruza con el hallazgo que ya estaba de los equipos sin cámara ni micrófono.
+
+**Conteos recalculados contando los artículos de verdad, no a mano:** 39 → **40 hallazgos**, y de
+decisión 21 → **22**. Semáforo verificado: 22 decisión, 12 seguimiento, 6 a favor = 40. Movidos los seis
+lugares donde la cifra estaba escrita, incluido el `aria-label` del semáforo y el pie.
+
+### 3 · Dos cosas que quedan dichas
+
+- **El hallazgo nuevo quedó solo en Hallazgos críticos, no en Hallazgos mentora.** El de mentora lleva una
+  gráfica de barras por tema que habría que regenerar para que cuadre. **Si lo quiere también allá, se
+  hace**, pero no lo metí a medias dejando la gráfica mintiendo.
+- **Hallazgos críticos ya está público.** Al publicar, el servicio reportó «cualquiera con el enlace», así
+  que Sandra ya lo abrió desde Compartir. **El director y María Elvira ya pueden entrar.**
+
+**Versiones:** Hallazgos críticos **v2** · Termómetro **v102** · KPIs **v5** · Hallazgos mentora **v23**.
+
+---
+
 ## 🔄 5 oct · 11:20 a. m. · Repaso de los ocho tableros, a pedido de Sandra
 
 **Sus palabras:** *«actualiza tableros»*. Repasados uno por uno, con lo que se movió y lo que no:
