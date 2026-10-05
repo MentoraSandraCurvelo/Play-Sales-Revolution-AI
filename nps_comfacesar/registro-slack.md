@@ -6,6 +6,27 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## ⏳ 5 oct · 9:40 a. m. · El congelamiento tiene fecha de vencimiento: HOY
+
+**Sus palabras:** *«no pero tiene que ser hoy, si hoy no contesta ya procedo y te aviso»*.
+
+**Corrige lo que escribí hace diez minutos.** Dije que el congelamiento vencía en una respuesta y no en
+una fecha. **Vence en las dos:** hoy es el plazo. Si Julio no contesta hoy, **Sandra procede y avisa.**
+
+**Qué significa para las corridas de mañana, martes 6:**
+
+- **Mañana los tableros van a estar diciendo que el programa cerró ayer**, con cuatro sesiones agendadas
+  en el día: Servicios Sociales S12, Agencia de Empleo S8, Vivienda S6 y Subsidio S11.
+- **Aun así no se toca ninguna fecha ni se le repregunta.** El cambio lo anuncia ella, en cualquiera de
+  los dos sentidos, y puede llegar hoy mismo por la tarde o mañana.
+- **Lo único que se hace sin esperarla:** sesiones, caídas, numeración, asistencia y soportes, como
+  siempre.
+
+**Cuando llegue el aviso, los dos caminos ya están descritos en la nota de las 9:30.** No hay que volver
+a pensarlos: se ejecutan.
+
+---
+
 ## 🔒 5 oct · 9:30 a. m. · QUIÉN DESTRABA ESTO: Julio. Regla de operación, no una nota de paso
 
 **Sus palabras:** *«si estoy esperando a Julio que me dice si aprueba o no el puente»*.
