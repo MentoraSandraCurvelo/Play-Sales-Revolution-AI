@@ -1,0 +1,663 @@
+<title>IAM™Hello Novasoft</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<style>
+/* Espacio de trabajo de un cliente: barra fija de secciones a la izquierda, una
+   sola columna de contenido a la derecha que en móvil pasa a ocupar todo.
+   Identidad IAM™: negro casi puro, rojo de marca y Geist, igual que el archivo. */
+:root{
+  --fondo:#060607; --fondo2:#0d0d0f; --tarjeta:#121214; --tarjeta2:#17171a;
+  --linea:rgba(255,255,255,.09); --linea2:rgba(255,255,255,.16);
+  --tinta:#f2f2f3; --tinta2:#b9b9c0; --tinta3:#7f7f88;
+  --rojo:#C00000; --rojo-claro:#FF5A55; --rojo-suave:rgba(192,0,0,.16);
+  --ok:#2E9E5B; --aviso:#C9821B;
+  --texto:'Geist',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --mono:'Geist Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme:light){
+  :root:not([data-theme="dark"]){
+    --fondo:#faf9f8; --fondo2:#ffffff; --tarjeta:#ffffff; --tarjeta2:#f4f3f2;
+    --linea:rgba(0,0,0,.10); --linea2:rgba(0,0,0,.18);
+    --tinta:#141413; --tinta2:#4a4a48; --tinta3:#78786f;
+    --rojo-claro:#A50000; --rojo-suave:rgba(192,0,0,.10);
+    color-scheme:light;
+  }
+}
+:root[data-theme="light"]{
+  --fondo:#faf9f8; --fondo2:#ffffff; --tarjeta:#ffffff; --tarjeta2:#f4f3f2;
+  --linea:rgba(0,0,0,.10); --linea2:rgba(0,0,0,.18);
+  --tinta:#141413; --tinta2:#4a4a48; --tinta3:#78786f;
+  --rojo-claro:#A50000; --rojo-suave:rgba(192,0,0,.10);
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fondo);color:var(--tinta);font-family:var(--texto);
+  font-size:14.5px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:var(--rojo-claro);text-decoration:none}
+a:hover{text-decoration:underline}
+button{font-family:inherit}
+:focus-visible{outline:2px solid var(--rojo-claro);outline-offset:2px}
+
+.app{display:grid;grid-template-columns:252px 1fr;min-height:100%}
+@media (max-width:860px){ .app{grid-template-columns:1fr} }
+
+/* barra lateral */
+.rail{border-right:1px solid var(--linea);background:var(--fondo2);
+  padding-block:18px;padding-inline:16px;display:flex;flex-direction:column;gap:22px;
+  position:sticky;top:env(safe-area-inset-top,0px);height:100vh;overflow:auto}
+@media (max-width:860px){ .rail{position:static;height:auto;border-right:0;
+  border-bottom:1px solid var(--linea)} }
+.marca{display:flex;align-items:center;gap:11px}
+.marca .caja{width:36px;height:36px;border-radius:11px;background:#0A0A0A;display:grid;
+  place-items:center;flex:none;box-shadow:0 0 0 1px var(--linea2),0 8px 24px rgba(192,0,0,.3)}
+.marca b{font-size:15px;letter-spacing:-.02em;display:block;line-height:1.2}
+.marca span{font:500 10px var(--mono);letter-spacing:.12em;text-transform:uppercase;
+  color:var(--tinta3);display:block;margin-top:2px}
+nav{display:flex;flex-direction:column;gap:2px}
+@media (max-width:860px){ nav{flex-direction:row;overflow-x:auto;gap:6px} }
+.nav-b{display:flex;align-items:center;gap:10px;padding:9px 11px;border-radius:10px;
+  border:1px solid transparent;background:transparent;color:var(--tinta2);
+  font-size:14px;font-weight:500;cursor:pointer;text-align:left;white-space:nowrap}
+.nav-b:hover{background:var(--tarjeta);color:var(--tinta)}
+.nav-b[aria-current="true"]{background:var(--rojo-suave);color:var(--tinta);
+  border-color:rgba(192,0,0,.4)}
+.nav-b .n{margin-left:auto;font:500 11px var(--mono);color:var(--tinta3)}
+.pie{margin-top:auto;font:500 11px var(--mono);color:var(--tinta3);line-height:1.6}
+@media (max-width:860px){ .pie{margin-top:12px} }
+
+/* contenido */
+main{min-width:0;padding-block:22px 40px;padding-inline:20px;max-width:980px}
+.cabecera{display:flex;align-items:flex-start;gap:14px;flex-wrap:wrap;
+  padding-bottom:16px;border-bottom:1px solid var(--linea);margin-bottom:20px}
+h1{font-size:26px;letter-spacing:-.03em;margin:0;text-wrap:balance}
+.sub{color:var(--tinta2);font-size:13.5px;margin-top:4px;max-width:62ch}
+.chip{font:500 10.5px var(--mono);letter-spacing:.1em;text-transform:uppercase;
+  padding:5px 10px;border-radius:999px;border:1px solid var(--linea2);color:var(--tinta2);
+  white-space:nowrap}
+.chip.vivo{border-color:rgba(192,0,0,.45);color:var(--rojo-claro)}
+.chip.vivo::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--rojo);
+  display:inline-block;margin-right:7px;vertical-align:middle}
+
+/* conversación */
+.hilo{display:flex;flex-direction:column;gap:2px;margin-bottom:18px}
+.msg{display:flex;gap:11px;padding:9px 11px;border-radius:12px}
+.msg:hover{background:var(--tarjeta)}
+.ini{width:34px;height:34px;border-radius:10px;flex:none;display:grid;place-items:center;
+  font:600 12px var(--mono);color:#fff;background:var(--rojo)}
+.msg .cuerpo{min-width:0;flex:1}
+.msg .quien{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap}
+.msg .quien b{font-size:14px;font-weight:650}
+.msg .quien time{font:500 11px var(--mono);color:var(--tinta3)}
+.msg p{margin:2px 0 0;white-space:pre-wrap;overflow-wrap:anywhere;font-size:14.5px}
+.dia{display:flex;align-items:center;gap:12px;margin:16px 0 6px}
+.dia::before,.dia::after{content:"";height:1px;background:var(--linea);flex:1}
+.dia span{font:500 10.5px var(--mono);letter-spacing:.1em;text-transform:uppercase;
+  color:var(--tinta3)}
+
+.escribir{position:sticky;bottom:0;padding-bottom:env(safe-area-inset-bottom,0px);
+  background:linear-gradient(to bottom,transparent,var(--fondo) 22%)}
+.caja-escribir{border:1px solid var(--linea2);background:var(--tarjeta);border-radius:16px;
+  padding:10px 12px;display:flex;flex-direction:column;gap:9px}
+.caja-escribir:focus-within{border-color:rgba(192,0,0,.5)}
+textarea{width:100%;border:0;background:transparent;color:var(--tinta);resize:none;
+  font-family:inherit;font-size:14.5px;line-height:1.55;min-height:44px;max-height:180px;
+  padding:0;outline:none}
+.fila{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.pista{font:500 11px var(--mono);color:var(--tinta3);margin-right:auto}
+.btn{padding:8px 16px;border-radius:999px;border:1px solid var(--linea2);
+  background:transparent;color:var(--tinta);font-size:13.5px;font-weight:600;cursor:pointer}
+.btn:hover:not(:disabled){border-color:var(--rojo-claro)}
+.btn:disabled{opacity:.45;cursor:default}
+.btn.principal{background:var(--rojo);border-color:var(--rojo);color:#fff}
+
+/* tarjetas y estados vacíos */
+.rejilla{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.tarjeta{border:1px solid var(--linea);background:var(--tarjeta);border-radius:16px;
+  padding:14px 16px;min-width:0}
+.tarjeta h3{margin:0;font-size:15px;font-weight:650;letter-spacing:-.01em}
+.tarjeta .meta{font:500 11.5px var(--mono);color:var(--tinta3);margin-top:5px}
+.doc{display:flex;align-items:center;gap:12px;width:100%;text-align:left;cursor:pointer;
+  border:1px solid var(--linea);background:var(--tarjeta);border-radius:14px;
+  padding:12px 14px;color:var(--tinta)}
+.doc:hover{border-color:rgba(192,0,0,.45)}
+.doc .tipo{width:38px;height:38px;border-radius:10px;flex:none;display:grid;place-items:center;
+  font:600 10px var(--mono);color:#fff;background:var(--rojo)}
+.doc .n{min-width:0}
+.doc .n b{display:block;font-size:13.5px;font-weight:600;overflow:hidden;
+  text-overflow:ellipsis;white-space:nowrap}
+.doc .n span{font:500 11.5px var(--mono);color:var(--tinta3)}
+.vacio{border:1px dashed var(--linea2);border-radius:16px;padding:26px 22px;
+  color:var(--tinta2);font-size:14px;max-width:60ch}
+.vacio b{color:var(--tinta);display:block;margin-bottom:6px;font-size:15px}
+
+/* visor de documentos */
+#visor{position:fixed;inset:0;z-index:99999;display:none;background:rgba(6,6,7,.92)}
+#visor .panel{position:absolute;inset:14px;display:flex;flex-direction:column;
+  border-radius:18px;background:var(--fondo2);border:1px solid var(--linea2);overflow:hidden}
+#visor .barra{display:flex;align-items:center;gap:12px;padding:12px 14px;
+  border-bottom:1px solid var(--linea);flex:none}
+#visor .barra .n{min-width:0;flex:1}
+#visor .barra b{display:block;font-size:13.5px;overflow:hidden;text-overflow:ellipsis;
+  white-space:nowrap}
+#visor .barra span{font:500 11.5px var(--mono);color:var(--tinta3)}
+#visor .lienzo{flex:1;overflow:auto;padding:16px;background:var(--fondo)}
+#visor canvas{display:block;width:100%;max-width:1000px;margin:0 auto 14px;border-radius:10px;
+  background:#fff;box-shadow:0 12px 40px rgba(0,0,0,.45)}
+#visor img{display:block;max-width:100%;margin:0 auto;border-radius:10px}
+#visor table{border-collapse:collapse;width:100%;max-width:1000px;margin:0 auto;font-size:13px}
+#visor th,#visor td{padding:8px 10px;border-bottom:1px solid var(--linea);text-align:left;
+  vertical-align:top}
+#visor th{background:var(--rojo-suave);font-weight:650;position:sticky;top:0}
+
+/* Halo, el avatar de la marca. Es CSS, no pesa nada, y pasea por abajo sin
+   capturar clics. A quien pide menos movimiento le sale quieto en una esquina. */
+#halo{position:fixed;left:0;bottom:18px;z-index:40;pointer-events:none;width:88px;height:88px;
+  display:grid;place-items:center;border-radius:50%;
+  background:radial-gradient(circle,rgba(192,0,0,.16),rgba(192,0,0,0) 70%);
+  animation:pasea 42s linear infinite;will-change:transform}
+@keyframes pasea{
+  0%{transform:translateX(16px) scaleX(1)}
+  49%{transform:translateX(calc(100vw - 104px)) scaleX(1)}
+  50%{transform:translateX(calc(100vw - 104px)) scaleX(-1)}
+  99%{transform:translateX(16px) scaleX(-1)}
+  100%{transform:translateX(16px) scaleX(1)}}
+.halo-baila{position:relative;display:block;width:22px;height:22px;transform:scale(2.3)}
+.halo-baila i{position:absolute;display:block;background:var(--rojo);border-radius:2px}
+.halo-aro{left:3px;top:1px;width:16px;height:16px;background:none!important;border-radius:50%;
+  border:3.5px solid var(--rojo);box-shadow:0 0 12px rgba(255,40,40,.6);
+  animation:cuerpo 1.4s ease-in-out infinite}
+.halo-brazo{top:7px;width:6px;height:2.5px;transform-origin:0 50%}
+.halo-brazo.izq{left:-4px;transform-origin:100% 50%;animation:brazo-izq 1.4s ease-in-out infinite}
+.halo-brazo.der{right:-4px;animation:brazo-der 1.4s ease-in-out infinite}
+.halo-pie{bottom:-1px;width:2.5px;height:5px}
+.halo-pie.izq{left:6px;animation:pie-izq 1.4s ease-in-out infinite}
+.halo-pie.der{right:6px;animation:pie-der 1.4s ease-in-out infinite}
+@keyframes cuerpo{0%,100%{transform:translateY(0) rotate(-7deg) scaleY(1)}
+  25%{transform:translateY(-2.5px) rotate(0) scaleY(.94)}
+  50%{transform:translateY(0) rotate(7deg) scaleY(1)}
+  75%{transform:translateY(-2.5px) rotate(0) scaleY(.94)}}
+@keyframes brazo-izq{0%,100%{transform:rotate(18deg)}50%{transform:rotate(-42deg)}}
+@keyframes brazo-der{0%,100%{transform:rotate(-18deg)}50%{transform:rotate(42deg)}}
+@keyframes pie-izq{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px) rotate(-14deg)}}
+@keyframes pie-der{0%,100%{transform:translateY(-2px) rotate(14deg)}50%{transform:translateY(0)}}
+@media (prefers-reduced-motion:reduce){
+  #halo{animation:none;left:auto;right:24px}
+  .halo-baila i{animation:none!important}
+}
+@media (max-width:700px){ #halo{display:none} }
+</style>
+
+<div class="app">
+  <aside class="rail">
+    <div class="marca">
+      <span class="caja">
+        <span class="halo-baila" aria-hidden="true" style="transform:scale(.9)">
+          <i class="halo-aro"></i><i class="halo-brazo izq"></i><i class="halo-brazo der"></i>
+          <i class="halo-pie izq"></i><i class="halo-pie der"></i>
+        </span>
+      </span>
+      <span><b>IAM™Hello</b><span id="marca-cliente">Novasoft</span></span>
+    </div>
+
+    <nav id="nav">
+      <button class="nav-b" data-vista="conversacion" aria-current="true">Conversación <span class="n" id="n-msg"></span></button>
+      <button class="nav-b" data-vista="documentos">Documentos <span class="n" id="n-doc"></span></button>
+      <button class="nav-b" data-vista="sesiones">Sesiones <span class="n" id="n-ses"></span></button>
+      <button class="nav-b" data-vista="espacio">Qué es esto</button>
+    </nav>
+
+    <div class="pie">
+      Espacio privado del proyecto.<br>
+      Lo que se escribe aquí queda.
+    </div>
+  </aside>
+
+  <main>
+    <!-- Conversación -->
+    <section id="v-conversacion">
+      <div class="cabecera">
+        <div style="min-width:0;flex:1">
+          <h1>Conversación del proyecto</h1>
+          <p class="sub">Todo lo que se escriba aquí queda guardado y nadie lo borra. Es la memoria del proyecto, no un chat que se vacía.</p>
+        </div>
+        <span class="chip vivo" id="estado-chip">En vivo</span>
+      </div>
+
+      <div class="hilo" id="hilo">
+        <div class="vacio" id="vacio-hilo">
+          <b>Todavía no hay mensajes</b>
+          Aquí van las preguntas, las decisiones y lo que se acuerde entre sesión y sesión.
+          Escribe el primero abajo y queda para todo el equipo.
+        </div>
+      </div>
+
+      <div class="escribir">
+        <div class="caja-escribir">
+          <label for="texto" style="position:absolute;left:-9999px">Escribe un mensaje</label>
+          <textarea id="texto" placeholder="Escribe aquí" rows="2"></textarea>
+          <div class="fila">
+            <span class="pista" id="pista">Conectando</span>
+            <button class="btn principal" id="enviar" disabled>Enviar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Documentos -->
+    <section id="v-documentos" hidden>
+      <div class="cabecera">
+        <div style="min-width:0;flex:1">
+          <h1>Documentos</h1>
+          <p class="sub">El material del proyecto, siempre disponible. Se abre aquí dentro, sin descargar nada.</p>
+        </div>
+      </div>
+      <div class="rejilla" id="docs"></div>
+      <div class="vacio" id="vacio-docs">
+        <b>Todavía no hay documentos</b>
+        Aquí aparece el material que entrega IAM™: guías, formatos y lo que se construya en las sesiones.
+        Se abre dentro de esta misma página.
+      </div>
+    </section>
+
+    <!-- Sesiones -->
+    <section id="v-sesiones" hidden>
+      <div class="cabecera">
+        <div style="min-width:0;flex:1">
+          <h1>Sesiones</h1>
+          <p class="sub">Cada sesión deja tres cosas: la grabación, el acta y el resumen. Quedan aquí, en orden.</p>
+        </div>
+      </div>
+      <div class="rejilla" id="sesiones"></div>
+      <div class="vacio" id="vacio-ses">
+        <b>Todavía no hay sesiones</b>
+        Cuando arranquen, cada una aparece con su fecha, su grabación y su acta completa.
+      </div>
+    </section>
+
+    <!-- Qué es esto -->
+    <section id="v-espacio" hidden>
+      <div class="cabecera">
+        <div style="min-width:0;flex:1">
+          <h1>Qué es este espacio</h1>
+          <p class="sub">Un servicio de IAM™ para el proyecto de Novasoft.</p>
+        </div>
+      </div>
+      <div class="rejilla">
+        <div class="tarjeta">
+          <h3>La memoria no se borra</h3>
+          <div class="meta">Conversación</div>
+          <p style="color:var(--tinta2);margin:10px 0 0">Lo que se escribe queda guardado fuera de la página, con su fecha y su autor. No hay historial que se corte ni mensajes que caduquen.</p>
+        </div>
+        <div class="tarjeta">
+          <h3>Privado para el proyecto</h3>
+          <div class="meta">Acceso</div>
+          <p style="color:var(--tinta2);margin:10px 0 0">Solo entra quien recibe la invitación por correo. No es un enlace público.</p>
+        </div>
+        <div class="tarjeta">
+          <h3>Todo en un sitio</h3>
+          <div class="meta">Material</div>
+          <p style="color:var(--tinta2);margin:10px 0 0">Las grabaciones, las actas y los documentos del proyecto viven aquí, y se abren sin salir de la página.</p>
+        </div>
+      </div>
+      <p class="sub" style="margin-top:20px">Lo construye y lo mantiene el equipo de IAM™. Si falta algo, se pide por la conversación.</p>
+    </section>
+  </main>
+</div>
+
+<div id="halo" aria-hidden="true">
+  <span class="halo-baila">
+    <i class="halo-aro"></i><i class="halo-brazo izq"></i><i class="halo-brazo der"></i>
+    <i class="halo-pie izq"></i><i class="halo-pie der"></i>
+  </span>
+</div>
+
+<div id="visor">
+  <div class="panel">
+    <div class="barra">
+      <span class="tipo doc-tipo" id="visor-tipo" style="width:34px;height:34px;border-radius:10px;display:grid;place-items:center;font:600 10px var(--mono);color:#fff;background:var(--rojo);flex:none">DOC</span>
+      <div class="n"><b id="visor-nombre"></b><span id="visor-nota"></span></div>
+      <button class="btn" id="visor-cerrar">Cerrar</button>
+    </div>
+    <div class="lienzo" id="visor-lienzo"></div>
+  </div>
+</div>
+
+<script src="datos.js"></script>
+<script>
+(function(){
+  'use strict';
+  var D = window.NOVASOFT || { cliente:'Novasoft', documentos:[], sesiones:[] };
+  var $ = function(id){ return document.getElementById(id); };
+  var MESES = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto',
+               'septiembre','octubre','noviembre','diciembre'];
+
+  if (D.cliente) $('marca-cliente').textContent = D.cliente;
+
+  /* ---- secciones ---- */
+  var VISTAS = ['conversacion','documentos','sesiones','espacio'];
+  function ir(v){
+    if (VISTAS.indexOf(v) < 0) v = 'conversacion';
+    VISTAS.forEach(function(x){ $('v'+'-'+x).hidden = (x !== v); });
+    [].forEach.call(document.querySelectorAll('.nav-b'), function(b){
+      b.setAttribute('aria-current', b.dataset.vista === v ? 'true' : 'false');
+    });
+    try { location.hash = v; } catch(e){}
+  }
+  [].forEach.call(document.querySelectorAll('.nav-b'), function(b){
+    b.addEventListener('click', function(){ ir(b.dataset.vista); });
+  });
+  ir((location.hash || '').replace('#',''));
+
+  /* ---- documentos y sesiones ---- */
+  function tipoDe(nombre){
+    var e = String(nombre || '').split('.').pop().toLowerCase();
+    if (e === 'pdf') return 'PDF';
+    if (e === 'csv') return 'CSV';
+    if (['png','jpg','jpeg','gif','webp','svg'].indexOf(e) >= 0) return 'IMG';
+    if (['mp4','webm','mov'].indexOf(e) >= 0) return 'VID';
+    return 'DOC';
+  }
+  function pintarDocs(){
+    var c = $('docs'), lista = D.documentos || [];
+    c.innerHTML = '';
+    $('vacio-docs').hidden = lista.length > 0;
+    $('n-doc').textContent = lista.length ? lista.length : '';
+    lista.forEach(function(d){
+      var b = document.createElement('button');
+      b.className = 'doc';
+      b.innerHTML = '<span class="tipo"></span><span class="n"><b></b><span></span></span>';
+      b.querySelector('.tipo').textContent = tipoDe(d.archivo || d.titulo);
+      b.querySelector('b').textContent = d.titulo || d.archivo;
+      b.querySelector('.n span').textContent = d.nota || '';
+      b.addEventListener('click', function(){ abrir(d.archivo, d.titulo || d.archivo, d.nota || ''); });
+      c.appendChild(b);
+    });
+  }
+  function pintarSesiones(){
+    var c = $('sesiones'), lista = D.sesiones || [];
+    c.innerHTML = '';
+    $('vacio-ses').hidden = lista.length > 0;
+    $('n-ses').textContent = lista.length ? lista.length : '';
+    lista.forEach(function(s){
+      var t = document.createElement('div');
+      t.className = 'tarjeta';
+      var h = document.createElement('h3');
+      h.textContent = s.titulo || ('Sesión ' + (s.numero || ''));
+      var m = document.createElement('div');
+      m.className = 'meta';
+      m.textContent = s.fecha || '';
+      t.appendChild(h); t.appendChild(m);
+      if (s.resumen){
+        var p = document.createElement('p');
+        p.style.cssText = 'color:var(--tinta2);margin:10px 0 0';
+        p.textContent = s.resumen;
+        t.appendChild(p);
+      }
+      var fila = document.createElement('div');
+      fila.className = 'fila';
+      fila.style.marginTop = '12px';
+      if (s.acta){
+        var ba = document.createElement('button');
+        ba.className = 'btn'; ba.textContent = 'Ver el acta';
+        ba.addEventListener('click', function(){ abrir(s.acta, s.titulo || 'Acta', s.fecha || ''); });
+        fila.appendChild(ba);
+      }
+      if (s.grabacion){
+        var a = document.createElement('a');
+        a.className = 'btn'; a.href = s.grabacion; a.target = '_blank'; a.rel = 'noopener';
+        a.textContent = 'Grabación';
+        fila.appendChild(a);
+      }
+      if (fila.children.length) t.appendChild(fila);
+      c.appendChild(t);
+    });
+  }
+
+  /* ---- visor: el documento se abre aquí dentro.
+     El marco de la página publicada no deja abrir un PDF ni descargarlo, así que
+     se trae con fetch, que sí está permitido, y se dibuja. ---- */
+  function cerrarVisor(){
+    $('visor').style.display = 'none';
+    $('visor-lienzo').innerHTML = '';
+  }
+  $('visor-cerrar').addEventListener('click', cerrarVisor);
+  $('visor').addEventListener('click', function(e){ if (e.target === $('visor')) cerrarVisor(); });
+  document.addEventListener('keydown', function(e){ if (e.key === 'Escape') cerrarVisor(); });
+
+  function aviso(c, t){
+    var p = document.createElement('p');
+    p.style.cssText = 'color:var(--tinta2);font-size:14px;max-width:60ch';
+    p.textContent = t;
+    c.appendChild(p);
+    return p;
+  }
+  function filas(texto){
+    var out = [], f = [], campo = '', dentro = false, i, ch;
+    for (i = 0; i < texto.length; i++){
+      ch = texto[i];
+      if (dentro){
+        if (ch === '"' && texto[i+1] === '"'){ campo += '"'; i++; }
+        else if (ch === '"') dentro = false;
+        else campo += ch;
+      } else if (ch === '"') dentro = true;
+      else if (ch === ',' || ch === '\t'){ f.push(campo); campo = ''; }
+      else if (ch === '\n'){ f.push(campo); campo = '';
+        if (f.some(function(x){ return x.trim(); })) out.push(f); f = []; }
+      else if (ch !== '\r') campo += ch;
+    }
+    if (campo || f.length){ f.push(campo); if (f.some(function(x){ return x.trim(); })) out.push(f); }
+    return out;
+  }
+  function abrir(archivo, nombre, nota){
+    if (!archivo) return;
+    var d = $('visor'), c = $('visor-lienzo');
+    c.innerHTML = '';
+    $('visor-nombre').textContent = nombre || archivo;
+    $('visor-nota').textContent = nota || '';
+    $('visor-tipo').textContent = tipoDe(archivo);
+    d.style.display = 'block';
+    var cargando = aviso(c, 'Abriendo');
+    var ext = String(archivo).split('.').pop().toLowerCase();
+
+    if (['png','jpg','jpeg','gif','webp','svg'].indexOf(ext) >= 0){
+      var img = document.createElement('img');
+      img.src = archivo; img.alt = nombre || '';
+      img.onload = function(){ cargando.remove(); };
+      img.onerror = function(){ cargando.textContent = 'No se pudo abrir el archivo.'; };
+      c.appendChild(img);
+      return;
+    }
+    if (['mp4','webm','mov'].indexOf(ext) >= 0){
+      var v = document.createElement('video');
+      v.src = archivo; v.controls = true;
+      v.style.cssText = 'display:block;max-width:100%;margin:0 auto;border-radius:10px';
+      c.appendChild(v); cargando.remove();
+      return;
+    }
+    fetch(archivo).then(function(r){
+      if (!r.ok) throw new Error('el archivo no está (' + r.status + ')');
+      if (ext === 'csv' || ext === 'txt') return r.text().then(function(t){ tabla(c, t); });
+      if (ext === 'pdf') return r.arrayBuffer().then(function(b){ return pdf(c, b, cargando); });
+      aviso(c, 'Este tipo de archivo no se puede mostrar aquí todavía.');
+    }).then(function(){
+      if (cargando.parentNode && cargando.textContent === 'Abriendo') cargando.remove();
+    }).catch(function(err){
+      cargando.textContent = 'No se pudo abrir el archivo: ' + (err && err.message ? err.message : err);
+    });
+  }
+  function tabla(c, texto){
+    var datos = filas(texto);
+    if (!datos.length){ aviso(c, 'El archivo está vacío.'); return; }
+    var anchas = datos.reduce(function(m, f){ return Math.max(m, f.length); }, 0);
+    var t = document.createElement('table');
+    datos.forEach(function(f, i){
+      var tr = document.createElement('tr');
+      for (var k = 0; k < anchas; k++){
+        var celda = document.createElement(i ? 'td' : 'th');
+        celda.textContent = f[k] == null ? '' : f[k];
+        tr.appendChild(celda);
+      }
+      t.appendChild(tr);
+    });
+    c.appendChild(t);
+  }
+  function pdf(c, datos, marca){
+    var L = window.pdfjsLib;
+    if (!L) throw new Error('el visor de PDF no cargó');
+    return L.getDocument({ data: datos, isEvalSupported:false }).promise.then(function(doc){
+      var ancho = Math.min(Math.max(c.clientWidth - 32, 320), 1000);
+      var n = 1;
+      function pagina(){
+        if (n > doc.numPages){ marca.remove(); return; }
+        return doc.getPage(n).then(function(p){
+          var uno = p.getViewport({ scale: 1 });
+          var vista = p.getViewport({ scale: (ancho / uno.width) * 2 });
+          var lienzo = document.createElement('canvas');
+          lienzo.width = Math.round(vista.width);
+          lienzo.height = Math.round(vista.height);
+          c.appendChild(lienzo);
+          marca.textContent = 'Página ' + n + ' de ' + doc.numPages;
+          return p.render({ canvasContext: lienzo.getContext('2d'), viewport: vista }).promise
+            .then(function(){ n++; return pagina(); });
+        });
+      }
+      return pagina();
+    });
+  }
+
+  pintarDocs();
+  pintarSesiones();
+
+  /* ---- la conversación ---- */
+  var hilo = $('hilo'), vacio = $('vacio-hilo'), pista = $('pista'),
+      enviar = $('enviar'), texto = $('texto');
+  var yo = null, perfiles = {}, mensajes = [];
+
+  function iniciales(n){
+    var p = String(n || '').trim().split(/\s+/).filter(Boolean);
+    if (!p.length) return '··';
+    return (p[0][0] + (p.length > 1 ? p[p.length-1][0] : '')).toUpperCase();
+  }
+  function fecha(ms){
+    var d = new Date(ms);
+    return d.getDate() + ' de ' + MESES[d.getMonth()] + ' de ' + d.getFullYear();
+  }
+  function hora(ms){
+    var d = new Date(ms), h = d.getHours(), m = String(d.getMinutes()).padStart(2,'0');
+    var t = h < 12 ? 'a. m.' : 'p. m.';
+    h = h % 12; if (!h) h = 12;
+    return h + ':' + m + ' ' + t;
+  }
+  function pintarHilo(){
+    $('n-msg').textContent = mensajes.length ? mensajes.length : '';
+    vacio.hidden = mensajes.length > 0;
+    [].forEach.call(hilo.querySelectorAll('[data-m]'), function(e){ e.remove(); });
+    var dia = '';
+    mensajes.forEach(function(m){
+      var f = fecha(m.ts);
+      if (f !== dia){
+        dia = f;
+        var sep = document.createElement('div');
+        sep.className = 'dia'; sep.setAttribute('data-m','');
+        var s = document.createElement('span'); s.textContent = f;
+        sep.appendChild(s);
+        hilo.appendChild(sep);
+      }
+      var nombre = (perfiles[m.autor] && perfiles[m.autor].name) || 'Alguien del equipo';
+      var el = document.createElement('div');
+      el.className = 'msg'; el.setAttribute('data-m','');
+      el.innerHTML = '<span class="ini"></span><div class="cuerpo">' +
+        '<div class="quien"><b></b><time></time></div><p></p></div>';
+      el.querySelector('.ini').textContent = iniciales(nombre);
+      el.querySelector('b').textContent = nombre;
+      el.querySelector('time').textContent = hora(m.ts);
+      el.querySelector('p').textContent = m.texto;
+      hilo.appendChild(el);
+    });
+  }
+
+  texto.addEventListener('input', function(){
+    texto.style.height = 'auto';
+    texto.style.height = Math.min(texto.scrollHeight, 180) + 'px';
+  });
+
+  function sinConexion(razon){
+    pista.textContent = razon;
+    enviar.disabled = true;
+    texto.disabled = true;
+    $('estado-chip').textContent = 'Sin conexión';
+    $('estado-chip').classList.remove('vivo');
+  }
+
+  (async function(){
+    var claude = window.claude;
+    if (!claude || !claude.use){ sinConexion('Abre esta página desde la invitación para escribir'); return; }
+    var db = null, user = null;
+    try { db = await claude.use('db'); } catch(e){ db = null; }
+    try { user = await claude.use('user'); } catch(e){ user = null; }
+    if (!db){ sinConexion('Inicia sesión para ver y escribir la conversación'); return; }
+
+    if (user){
+      try { yo = await user.id(); } catch(e){ yo = null; }
+    }
+    var puedeEscribir = true;
+    if (user && typeof user.can === 'function'){
+      var permiso = user.can('data.write');
+      if (permiso === false) puedeEscribir = false;
+    }
+
+    var col = db.collection('mensajes');
+    try {
+      col.orderBy('ts').limit(500).onSnapshot(async function(docs){
+        mensajes = (docs || []).map(function(d){
+          var v = d.data ? d.data() : d;
+          return { texto: v.texto || '', autor: v.autor || '', ts: v.ts || 0 };
+        }).filter(function(m){ return m.texto; });
+        var ids = [];
+        mensajes.forEach(function(m){ if (m.autor && ids.indexOf(m.autor) < 0) ids.push(m.autor); });
+        if (user && ids.length){
+          try { perfiles = await user.profiles(ids) || {}; } catch(e){ perfiles = perfiles || {}; }
+        }
+        pintarHilo();
+      });
+    } catch(e){
+      sinConexion('No se pudo abrir la conversación');
+      return;
+    }
+
+    if (!puedeEscribir){
+      pista.textContent = 'Puedes leer la conversación';
+      enviar.disabled = true;
+      texto.disabled = true;
+      return;
+    }
+
+    pista.textContent = 'Lo que escribas queda guardado';
+    enviar.disabled = false;
+
+    async function mandar(){
+      var t = texto.value.trim();
+      if (!t) return;
+      enviar.disabled = true;
+      var id = String(Date.now()) + '-' + Math.random().toString(36).slice(2, 8);
+      try {
+        await db.doc('mensajes/' + id).set({ texto: t, autor: yo || '', ts: Date.now() });
+        texto.value = '';
+        texto.style.height = 'auto';
+        pista.textContent = 'Lo que escribas queda guardado';
+      } catch(err){
+        pista.textContent = 'No se pudo enviar. Vuelve a intentarlo.';
+      }
+      enviar.disabled = false;
+      texto.focus();
+    }
+    enviar.addEventListener('click', mandar);
+    texto.addEventListener('keydown', function(e){
+      if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) mandar();
+    });
+  })();
+})();
+</script>
