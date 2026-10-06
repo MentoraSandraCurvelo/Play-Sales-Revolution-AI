@@ -6,6 +6,28 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## martes 6 de octubre de 2026 · 1:15 p. m. · Comunicaciones aclarado, y Sandra publicó la extensión
+
+**Las dos horas de Comunicaciones del lunes no corrieron.** Lo aclara la numeración: el canal
+registra que **la Sesión 11 del área queda para hoy martes a las 5:00**, y ese número venía
+señalado desde el 1 de octubre para la del lunes a las 4:00. Si no avanzó, esas dos horas no
+se hicieron. **Sin causa escrita en ninguna parte, así que no se atribuyen y no entran a
+caídas.** Termómetro v106. El programa se queda en **107 sesiones**.
+
+### ⚠️ Sandra publicó ella misma una fecha en el canal
+Hoy a las **10:51 a. m.**, en `#comunicaciones`: que el programa cerró el lunes, que
+**se sigue trabajando hasta el viernes 9 como adición regalada por IAM™**, y que después de
+esa fecha no hay agenda.
+
+**Los tableros siguen sin ninguna fecha de cierre, ni la vieja ni la nueva.** La instrucción
+dice que ella avisa cuando se libere, y publicar en un canal no es el aviso a mí. Pero
+**ahora hay una asimetría que conviene que ella sepa**: el cliente ya leyó una fecha que los
+tableros no dicen. Queda para que ella decida, no se corrige por iniciativa propia.
+
+**Sub. Operativa S5 sigue sin acta en Dropbox**, por lo tanto sin informe de asistencia. El
+acta más reciente del programa es la de Subsidio S9. **Contabilidad S9 va por el quinto día.**
+
+
 ## martes 6 de octubre de 2026 · 10:15 a. m. · Contexto comercial, importante para no contradecirlo en Slack
 
 **Esto no va a ningún tablero ni a ningún canal.** Queda aquí porque cambia lo que se puede
