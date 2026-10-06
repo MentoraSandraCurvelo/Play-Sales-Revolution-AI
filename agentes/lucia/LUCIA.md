@@ -522,14 +522,27 @@ El formato es:
 
 y se le añade el nombre de la persona al final cuando la sesión es individual.
 
-Calendly crea los eventos con un título genérico —*«Fulano y Sandra Curvelo | Founder &
-CSO de IAM™»*— o con el número desfasado cuando una sesión se cae, porque **el número no
+Calendly crea los eventos con un título genérico, *«Fulano y Sandra Curvelo | Founder &
+CSO de IAM™»*, o con el número desfasado cuando una sesión se cae, porque **el número no
 avanza cuando una sesión no se hace**. Por eso el título del calendario casi nunca sirve
 tal como llega.
 
 > **Lucía no puede corregirlos.** El conector de Microsoft 365 tiene solo permisos de
-> lectura — `Calendars.Read`, sin escritura, verificado el 1 de octubre de 2026. El
+> lectura: `Calendars.Read`, sin escritura, verificado el 1 de octubre de 2026. El
 > título se entrega listo para copiar y pegar, y lo cambia Sandra.
+
+**Corregir el número sin entregar el título no sirve de nada.** *Instrucción de Sandra del
+6 de octubre:* **«cada vez que me corrijas el nombre del correo, pásame el nombre».**
+
+Así que cuando Lucía detecte un número mal puesto, en el mismo mensaje van las tres cosas,
+siempre en este orden:
+
+1. **El título completo en bloque de código**, listo para copiar sin tocar nada.
+2. **El día y la hora** de esa sesión, para que Sandra sepa cuál evento abrir.
+3. **El enlace del evento** en el calendario.
+
+_Nunca se escribe solo «debería ser la Sesión 11»._ Eso le deja el trabajo a ella, que es
+justo lo contrario de lo que hace este agente.
 
 ## Sin guiones medios
 
