@@ -469,6 +469,36 @@
       "compromiso": "Se reagenda cuando estén dadas las condiciones. El punto de partida sigue siendo la S9: el tablero de la cuota monetaria con los ocho meses y la regla de alerta ajustada.",
       "cuenta_como": "aplazada",
       "nota": "**No es una caída del área y por eso no entra en la cifra del tablero**, igual que las dos de Mercadeo que retiró la mentoría. _El motivo real no se escribe en el canal_: lo lee todo el equipo del área, y la razón es de la relación con el responsable, no del trabajo. **Mensaje publicado con visto bueno de Sandra.** _Queda pendiente que Sandra diga si quiere contarlo de otra forma._"
+    },
+    {
+      "area": "Comunicaciones",
+      "sesion": "S11",
+      "fecha": "2026-10-05",
+      "hora": "—",
+      "canal": "#comunicaciones",
+      "quien_cancela": "Comfacesar",
+      "motivo": "La individual de Vidiana. El área la canceló.",
+      "causa": "cancelada por el área",
+      "aviso_en_canal": "",
+      "reagendada": false,
+      "compromiso": "",
+      "cuenta_como": "cancelada",
+      "nota": "**Es la tercera caída seguida de Comunicaciones:** _el 30 de septiembre a las 4:00, el 1 de octubre a las 2:00 y esta._ El número no avanza. _Lo dijo Sandra el 6 de octubre:_ de las dos horas del lunes, **esta se cayó y la grupal se movió al martes 6.** _No se publicó aviso en el canal_ — es una individual, y el canal lo lee todo el equipo."
+    },
+    {
+      "area": "Comunicaciones",
+      "sesion": "S11",
+      "fecha": "2026-10-05",
+      "hora": "—",
+      "canal": "#comunicaciones",
+      "quien_cancela": "Comfacesar",
+      "motivo": "La grupal del lunes. Se movió al martes 6 a las 5:00 p. m.",
+      "causa": "reagendada",
+      "aviso_en_canal": "",
+      "reagendada": true,
+      "compromiso": "Queda el martes 6 de octubre a las 5:00 p. m. — **es la Sesión 11**, porque la S11 no se ha hecho ninguna de las tres veces que estuvo agendada.",
+      "cuenta_como": "cancelada",
+      "nota": "_Una sesión agendada que no se hizo es una caída, aunque se recupere al día siguiente_ — y una reagendada cuenta como las dos cosas, igual que la S3 de Educación. **Queda por confirmar quién pidió el cambio:** si lo movió la mentoría y no el área, sale del conteo del tablero. _Sandra lo dirá._"
     }
   ],
   "patron": {
