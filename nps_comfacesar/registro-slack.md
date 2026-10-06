@@ -6,6 +6,34 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## martes 6 de octubre de 2026 · 10:15 a. m. · Contexto comercial, importante para no contradecirlo en Slack
+
+**Esto no va a ningún tablero ni a ningún canal.** Queda aquí porque cambia lo que se puede
+y no se puede decir en Slack, y una corrida futura sin este contexto puede publicar algo
+que choque.
+
+**Hay una conversación abierta sobre el cierre y el pago de la fase 1.** La administración
+plantea dudas sobre el alcance cubierto. Sandra sostiene, con razón, que no quedó nada
+pendiente: los cupos de quien no entró se reasignaron con personas nuevas y con sesiones
+adicionales de refuerzo, y además existe un otrosí que ya extendió el proyecto de
+septiembre a octubre.
+
+**Decisión suya:** las sesiones que quedan agendadas esta semana **van sin costo**, como
+gesto propio y no como compensación. Se lo comunicó al sponsor por WhatsApp.
+
+**Las tres conferencias no se empaquetan.** Valores vigentes, más IVA:
+Embajadores de Marca $6.500.000 (1,5 h) · IA para Afiliados Empresas $8.200.000 (2 h) ·
+IA para Periodistas $8.200.000 (2 h). **Total $22.900.000.** Empaquetarlas en 16 sería un
+descuento del 30%, más que el valor completo de la conferencia más barata. Se toman una por
+una, cuando el presupuesto lo permita, y ninguna depende de la fase 2.
+
+### Qué implica para las corridas de Slack
+- **La fecha de cierre sigue congelada**, y ahora con más razón: está en negociación.
+- **No se menciona en ningún canal** nada de sesiones sin costo, extensiones ni valores.
+  Si alguien pregunta en un canal por fechas, alcance o pagos, **va a Sandra, no se responde.**
+- La regla de no escribir sigue vigente. Parte A cerrada.
+
+
 ## martes 6 de octubre de 2026 · 7:30 a. m. · Corte diario del Termómetro
 
 **Fecha verificada** contra `date` y contra el último commit: martes 6, no lunes 5.
