@@ -1765,3 +1765,27 @@ enterada esa misma mañana.* **Si se confirma:**
 
 **No se toca nada hasta que Sandra confirme.** _Ella presenta la propuesta de la segunda fase la
 semana entrante_, y mencionó que Comfacesar pondría **un recurso in-house** para las conexiones.
+
+## 6 de octubre · La semana de adición, publicada en 16 canales
+
+**Sandra decidió regalar las sesiones que quedaban agendadas y extender la agenda hasta el
+viernes 9.** La forma de nombrarlo la dio ella: *«una adición que regalamos desde el equipo de
+IAM»*. El motivo de fondo no entra en ningún canal.
+
+Se publicaron **dos versiones**, aprobadas antes de salir:
+
+- **A, en los seis canales que ya tenían sesión esta semana**, con el día, la hora y el número
+  de cada una: Servicios Sociales, Agencia de Empleo, Vivienda, Subsidio, Comunicaciones e IPS.
+- **B, en los diez que no tenían ninguna:** Jurídica, Sub. Admin. y Financiera, Contabilidad,
+  Talento Humano, Cumplimiento, Planeación, Gerencia Financiera, Tesorería, Educación y
+  Sub. Operativa.
+
+**Dos canales quedaron fuera, y por razones distintas:**
+
+- **Mercadeo**, por la instrucción de Sandra de no escribir más ahí.
+- **Tecnología**, porque el día anterior se publicó que el área cierra en S6. Escribirles que
+  quedan cupos contradice ese aviso de un día para otro. *Queda pendiente de que Sandra decida
+  si entran, y con qué texto.*
+
+**Estos fueron los primeros mensajes escritos sin un solo guion medio**, que es la regla que
+Sandra fijó esa misma mañana.
