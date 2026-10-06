@@ -6,6 +6,35 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## martes 6 de octubre de 2026 · 7:30 a. m. · Corte diario del Termómetro
+
+**Fecha verificada** contra `date` y contra el último commit: martes 6, no lunes 5.
+
+**Sub. Operativa hizo su S5 el lunes a las 3:00 y el área salió con su primer agente.**
+Se llama **Maia**, nombre del área, sobre el seguimiento a requerimientos de auditoría,
+probado con un requerimiento real. Grabación publicada el lunes 6:52 p. m. y resumen
+completo en el canal. **Falta el informe de asistencia**, así que no entra al acumulado.
+
+- **107 sesiones**, desde 106.
+- **Sub. Operativa pasa de 3 a 4 sesiones**, así que cruza el umbral de área activada.
+  El reparto queda en **13 activadas y 5 por activar**, no 12 y 6.
+- Propagado a Termómetro v105, Mesa v21 y **propuesta v11**, que es la que puede salir hoy.
+  Las sesiones por área en la propuesta vuelven a sumar exactamente 107.
+
+**Comunicaciones del lunes, 4:00 y 5:00, por confirmar.** El canal no tiene nada desde el
+1 de octubre: ni aviso de sala, ni resumen, ni caída. Sin nada escrito no se atribuye.
+
+**Contabilidad S9 del viernes 2: cuatro días sin ningún soporte.**
+
+### ⚠️ La rutina diaria del Termómetro está desactualizada
+El disparador `trig_01D9FLwQwCEndPEpJHxYJWS3` apunta a **otro artefacto**
+(`8949a813-41e2-4c31-b234-d0b3ada2eb6e`) y a un archivo en el scratchpad, no al Termómetro
+real (`HxGTyCeLnuvk9oHEtHLh8Z`, `nps_comfacesar/termometro-comfacesar.html`). También trae
+una línea base de asistencia del 26 de agosto, 86% sobre 50 convocatorias, cuando hoy va en
+92% sobre 196. **Si alguien la sigue al pie de la letra, publica en el tablero equivocado.**
+No la toqué. Queda para que Sandra decida si se actualiza o se borra.
+
+
 ## lunes 5 de octubre de 2026 · 1:20 p. m. · Corrida de Elia, sin publicar nada
 
 **Parte A saltada**, la regla de no escribir sigue vigente. Registro de Lucía leído: sin
