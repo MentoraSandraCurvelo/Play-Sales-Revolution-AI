@@ -102,7 +102,8 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--redt);outline-offse
 .sigla{width:44px;height:44px;border-radius:13px;display:grid;place-items:center;flex:none;
   background:var(--redsoft);border:1px solid var(--redline);color:var(--redt);
   font:600 17px var(--mono)}
-.sigla img{width:44px;height:44px;border-radius:13px;object-fit:contain}
+.sigla img{width:100%;height:100%;border-radius:10px;object-fit:contain;display:block}
+.sigla.con-logo{padding:3px;border-color:var(--line2)}
 .fila{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;min-width:0}
 .cliente{font-weight:600;font-size:16px;letter-spacing:-.02em}
 .pastilla{font:500 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;
@@ -135,7 +136,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--redt);outline-offse
   .resumen{grid-template-columns:1fr}
   .espacio{grid-template-columns:1fr}
   .sigla{width:38px;height:38px;border-radius:11px;font-size:15px}
-  .sigla img{width:38px;height:38px;border-radius:11px}
+  .sigla.con-logo{padding:2px}
 }
 </style>
 
@@ -237,6 +238,11 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--redt);outline-offse
     var sig = document.createElement('div');
     sig.className = 'sigla';
     if (c.logo_url) {
+      // El logo va sobre su propio fondo: el de Comfacesar vive sobre blanco y
+      // el de Novasoft trae el suyo. Sin ese dato quedaría un recuadro raro
+      // sobre el oscuro.
+      sig.classList.add('con-logo');
+      if (c.logo_fondo) sig.style.background = c.logo_fondo;
       var img = document.createElement('img');
       img.src = c.logo_url;
       img.alt = c.nombre || '';
@@ -376,7 +382,8 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--redt);outline-offse
           var o = d.data() || {};
           return {
             slug: d.id, nombre: o.nombre, sigla: o.sigla, estado: o.estado,
-            programa: o.programa, url: o.url, logo_url: o.logo_url, reporte: o.reporte
+            programa: o.programa, url: o.url, logo_url: o.logo_url,
+            logo_fondo: o.logo_fondo, reporte: o.reporte
           };
         }));
       },

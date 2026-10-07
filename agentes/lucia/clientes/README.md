@@ -38,6 +38,7 @@ colores. `color` existe en el archivo para una excepción, pero se deja vacío.
 | `programa` | El programa que se le presta |
 | `espacio` | El nombre que ve el cliente arriba a la izquierda |
 | `logo` | Ruta dentro de `logos/`. Si falta, se usa `sigla` sobre el círculo rojo |
+| `logo_fondo` | El color sobre el que vive ese logo. **Hace falta:** el de Comfacesar es sobre blanco y sin ese dato quedaría un recuadro raro sobre el fondo oscuro |
 | `sigla` | Una letra, el respaldo cuando no hay logo |
 | `estado` | En qué va el cliente. Lo lee la consola |
 | `url` | La app publicada. **Esto es lo que un agente necesita para saber a dónde entrar** |
@@ -48,7 +49,9 @@ colores. `color` existe en el archivo para una excepción, pero se deja vacío.
 
 ## Lo que falta
 
-- **Los logos.** `logos/` está vacío. Mientras no estén, cada app sale con la sigla sobre el
-  círculo rojo, que se ve bien pero no es lo pedido.
+- **Los logos de los clientes que vengan.** Los de Comfacesar y Novasoft ya están.
+  _Del de Comfacesar se recortó el símbolo_, porque el logotipo completo no se lee a tamaño
+  de icono; el original entero queda en `comfacesar-completo.jpg`. **Sin logo, un cliente
+  sale con su sigla sobre el rojo IAM**, que se ve bien pero no es lo pedido.
 - **Los participantes de Novasoft**, con sus correos, y quién escribe frente a quién solo lee.
 - **La consola de Sandra**, que es su vista única sobre todos los clientes.

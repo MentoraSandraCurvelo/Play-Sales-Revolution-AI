@@ -4,7 +4,7 @@
   "nombre_largo": "",
   "programa": "IAM™ Intelligence",
   "espacio": "IAM™Hello",
-  "logo": "logos/novasoft.svg",
+  "logo": "logos/novasoft.png",
   "sigla": "N",
   "estado": "por arrancar",
   "url": "https://claude.ai/artifact/4LqxApF3bEi8gzJXiy6mgM",
@@ -12,5 +12,6 @@
   "modo": "espacio",
   "conversacion": true,
   "fuente_datos": "clientes/datos/novasoft.js",
-  "notas": "El primer cliente que entra directo a su espacio cerrado, sin pasar por ningún lado. Lleva conversación, documentos y sesiones. Faltan los correos de los participantes y quién escribe frente a quién solo lee."
+  "notas": "El primer cliente que entra directo a su espacio cerrado, sin pasar por ningún lado. Lleva conversación, documentos y sesiones. Faltan los correos de los participantes y quién escribe frente a quién solo lee.",
+  "logo_fondo": "#00958A"
 }
