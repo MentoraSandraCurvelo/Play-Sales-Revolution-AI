@@ -6,6 +6,40 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## miércoles 7 de octubre de 2026 · 2:20 p. m. · Entró el informe de Comunicaciones S11 · y el tablero todavía dice «lunes 5»
+
+**Comunicaciones S11 queda completa.** El informe de asistencia entró a Dropbox a las **8:05 de la
+mañana**, y esta mañana lo di por faltante. Lo encontré ahora porque cambié las palabras de la
+búsqueda: con «acta informe asistencia» no salía, con «acta asistencia sesion» sí.
+
+**5 de 5:** Vidiana Bendeck, César Reyes, María Elvira Marulanda, Sandra Machado y Julio César
+Pérez Ramos. Coincide exacto con la lista de participantes del acta de Lucía, que dice «cinco
+personas del área». *Dos entraron con dos dispositivos, así que el informe lista ocho filas para
+cinco personas:* se deduplica por persona, no por fila.
+
+- Marca de asistencia de la fila: ✕ → ✓
+- Pastilla del área: «falta el informe de asistencia» → «los tres soportes»
+- Fila de la agenda del martes: «falta asistencia» → «5 de 5»
+- Acumulado: **186 sobre 202 → 191 sobre 207**, sigue en 92%
+- **Termómetro v112.** El conteo sigue en 112 sesiones, recalculado desde la tabla.
+
+*Criterio:* convocados = los cinco de la lista del acta, el mismo que apliqué esta mañana a
+Agencia de Empleo S8, Vivienda S6 y Subsidio S10. Si la invitación de Outlook convocaba a más, el
+5 de 5 baja. Queda dicho.
+
+### ⚠️ Me equivoqué al escribir la rutina: el Termómetro sí dice «lunes 5»
+Al actualizar el texto de la rutina escribí que «los tableros ya no dicen lunes 5». **No es cierto.**
+Las notas en prosa del Termómetro lo repiten en **ocho pasajes**, con cuentas de días que ya no
+valen: «El cierre es el lunes 5 de octubre», «quedan once días hábiles contando hoy», «a nueve días
+hábiles del cierre».
+
+Mis guardas de esta mañana no lo cubrieron: revisé `31 de octubre` y `viernes 16`, no `lunes 5`.
+
+**No lo toqué por iniciativa propia.** Son notas fechadas de días distintos, que eran ciertas cuando
+se escribieron, y la regla vigente es que la prosa fechada no se reescribe. Pero un lector que abre
+el tablero hoy ve el corte del 7 de octubre arriba y «quedan once días hábiles» más abajo.
+**Va como encuesta.**
+
 ## miércoles 7 de octubre de 2026 · 12:15 p. m. · Primer cruce completo contra las actas de Lucía · limpio
 
 Primera corrida con el texto nuevo. **Apliqué el paso 3 a fondo**, no solo a las sesiones del día:
