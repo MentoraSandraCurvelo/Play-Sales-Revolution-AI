@@ -6,6 +6,32 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## miércoles 7 de octubre de 2026 · 9:25 a. m. · Entran las dos sesiones del martes
+
+**Servicios Sociales, Sesión 12**, 6 de octubre, 39 minutos, **2 de 2** con Juan Pablo y
+Lilian Paola. Los tres soportes. El área llevó el presupuesto de 2027 de la Media Maratón,
+no un ejercicio.
+
+**Comunicaciones, Sesión 11**, 6 de octubre, 1 h 15 min, **la primera del área con agentes**,
+dos construidos en vivo. Grabación y resumen publicados. **Falta el informe de asistencia.**
+
+- **109 sesiones**, desde 107.
+- Asistencia **183 sobre 199**, sigue en 92%.
+- Servicios Sociales 10 → 11 hechas · Comunicaciones 10 → 11 hechas.
+- Propagado: Termómetro v109, Mesa v24, propuesta v12. Las sesiones por área de la propuesta
+  vuelven a sumar exactamente 109.
+
+### ⚠️ Discrepancia de numeración en Servicios Sociales, sin resolver
+El acta dice **Sesión 12** en todas sus páginas, la carpeta de Dropbox donde está archivada
+dice **Sesión 11**, y el tablero venía en **S10**. Se registró con la numeración del acta,
+que es la fuente, y quedó señalado en el tablero. **Falta aclarar qué pasó con la S11.**
+
+**El acta de Sub. Operativa S5 ya quedó archivada** en `13. Sub-Operativa/Sesion 5/`, movida
+desde Descargas a las 7:57 de esta mañana.
+
+**Contabilidad S9 del viernes 2: seis días sin ningún soporte.**
+
+
 ## miércoles 7 de octubre de 2026 · 7:35 a. m. · Corte diario
 
 **Fecha verificada:** miércoles 7, contra `date` y contra el último commit del martes 7:06 p. m.
