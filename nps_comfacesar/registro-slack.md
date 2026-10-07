@@ -6,6 +6,37 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## miércoles 7 de octubre de 2026 · 10:30 a. m. · Corrida de la rutina · la columna «Próxima» estaba congelada
+
+**En Slack no se publicó nada.** Parte A cerrada por instrucción. Los tres DM más recientes
+(`juridicompc`, `orientadorlaboral`, `recobrosubsidioaldesempleo`) **están vacíos**, son cuentas
+recién creadas. Hoy no hubo sesiones, y los canales de ayer están dentro de la ventana de 48 horas
+de Lucía. Su registro no tiene nada programado pendiente: su tabla de programados es toda de
+agosto y septiembre.
+
+**Lo que sí encontré: cinco pastillas de «Próxima» afirmaban fechas pasadas como si vinieran.**
+La peor decía «S12 **hoy** mié 30» en un tablero fechado el 7 de octubre. Corregidas con lo que
+dicen sus propias filas, **sin afirmar nada sobre fechas futuras**, que es terreno de la parte A:
+
+| Área | Decía | Dice ahora |
+|---|---|---|
+| Jurídica | «S11 hecha · S12 hoy mié 30 · S13 jue 1» | S12 hecha el jue 1, la que cierra el área |
+| Contabilidad | «S9 · vie 2 oct, 11:00» | S9 del vie 2, sin ninguno de los tres soportes |
+| Tecnología | «S7 vie 2 · S8 lun 5» | S6 hecha, S7 y S8 cayeron, cierra en S6 |
+| IPS | «S5 · mié 30, 17:00» | S5 hecha el mié 30, falta el informe |
+| Sub. Operativa | «S5 · jue 1 oct, 15:00» | S5 hecha el lun 5, los tres soportes |
+
+**Termómetro v111.** El conteo sigue en 112, verificado desde la tabla, y **el «13 áreas sin fecha»
+no lo toqué**: ahora que ninguna pastilla afirma fecha futura, ese 13 solo se puede confirmar
+mirando el calendario, y eso es la parte A.
+
+### ⚠️ El texto de la rutina quedó viejo y es peligroso
+`trig_01QZoDXDd8uZEwNcGW2LHCCH` todavía dice **«los tableros siguen diciendo lunes 5 a propósito.
+No los corrijas por iniciativa propia»**. Sandra decidió hoy alinear los tableros con el viernes 9
+que ella misma publicó, y así quedaron. **Una corrida futura que obedezca ese texto desharía el
+trabajo de hoy.** No lo modifiqué: cambiar una rutina no es algo que haga por iniciativa propia.
+**Queda a decisión de Sandra.**
+
 ## miércoles 7 de octubre de 2026 · 10:20 a. m. · El Corte pasa a Elia
 
 Sandra decidió, por encuesta, que **el Corte de María Elvira lo mantengo yo**. Lucía sigue con
