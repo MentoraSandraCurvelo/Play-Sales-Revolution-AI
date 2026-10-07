@@ -6,6 +6,26 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## miércoles 7 de octubre de 2026 · 7:35 a. m. · Corte diario
+
+**Fecha verificada:** miércoles 7, contra `date` y contra el último commit del martes 7:06 p. m.
+
+**Llegó el acta de Sub. Operativa S5** y la sesión completa sus tres soportes. Individual de
+Gennifer Mira, 5 de octubre, 1 h 7 min, **1 de 1**. Asistencia acumulada **181 sobre 197**,
+sigue en 92%. El programa se queda en **107 sesiones**: esa sesión ya estaba contada, lo que
+faltaba era el informe. Termómetro v108.
+
+### ⚠️ El acta estaba en Descargas, no archivada
+La encontré en `/Mi Mac (MacBook-Air-de-Sandra.local)/Downloads/`, no en
+`…/IAM™ Intelligence/<área>/Sesion 5/`. Por eso las búsquedas en la ruta del proyecto daban
+cero durante todo el martes. **Conviene moverla a la carpeta del área**, y vale la pena
+revisar si hay otras actas sueltas en Descargas que el archivo no esté viendo.
+Es operación interna de IAM, así que no va al tablero.
+
+**Comunicaciones S11 del martes a las 5:00 queda por confirmar.** El canal no registra nada
+después de la hora. **Contabilidad S9 del viernes 2: cinco días sin ningún soporte.**
+
+
 ## martes 6 de octubre de 2026 · 1:15 p. m. · Comunicaciones aclarado, y Sandra publicó la extensión
 
 **Las dos horas de Comunicaciones del lunes no corrieron.** Lo aclara la numeración: el canal
