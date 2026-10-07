@@ -13,5 +13,17 @@
   "conversacion": true,
   "fuente_datos": "clientes/datos/novasoft.js",
   "notas": "El primer cliente que entra directo a su espacio cerrado, sin pasar por ningún lado. Lleva conversación, documentos y sesiones. Faltan los correos de los participantes y quién escribe frente a quién solo lee.",
-  "logo_fondo": "#00958A"
+  "logo_fondo": "#00958A",
+  "canales": [
+    {
+      "canal": "novasoft",
+      "nombre": "Novasoft",
+      "id": "NOVA-GENERAL",
+      "fijados": []
+    }
+  ],
+  "generales": [],
+  "nota_fijados": "Aquí van las carpetas de Dropbox del proyecto.",
+  "fuente_actas": "",
+  "fuente_archivos": ""
 }

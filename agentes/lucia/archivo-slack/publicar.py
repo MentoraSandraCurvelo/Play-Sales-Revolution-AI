@@ -35,8 +35,43 @@ def argumentos():
     return slug, dest
 
 SCRIPTS = (('<script src="./support.js"></script>', 'support.js'),
-           ('<script src="lib/iam.js"></script>', os.path.join('lib', 'iam.js')),
-           ('<script src="data/archivo.js"></script>', os.path.join('data', 'archivo.js')))
+           ('<script src="lib/iam.js"></script>', os.path.join('lib', 'iam.js')))
+
+# El paquete de datos es lo único que cambia de un cliente a otro. Comfacesar
+# trae el suyo dentro de la plantilla porque es el espacio original; los demás
+# lo declaran en `fuente_datos` de su archivo de cliente.
+ETIQUETA_DATOS = '<script src="data/archivo.js"></script>'
+
+
+def ruta_datos(cfg):
+    rel = cfg.get('fuente_datos')
+    if rel:
+        ruta = os.path.join(os.path.dirname(AQUI), rel) if not os.path.isabs(rel) else rel
+        if not os.path.exists(ruta):
+            raise SystemExit(
+                'el paquete de datos de %s no existe: %s\n'
+                'Córrelo primero: python3 construir_cliente.py %s'
+                % (cfg['nombre'], ruta, cfg['slug']))
+        return ruta
+    return os.path.join(PLANTILLA, 'data', 'archivo.js')
+
+
+def copiar(rel, destino, extension):
+    """Copia los archivos de una carpeta del cliente. Sin carpeta, no copia nada:
+    un cliente nuevo empieza sin actas y sin adjuntos, que es lo correcto."""
+    if not rel:
+        return 0
+    origen = rel if os.path.isabs(rel) else os.path.join(os.path.dirname(AQUI), rel)
+    if not os.path.isdir(origen):
+        raise SystemExit('la carpeta declarada no existe: %s' % origen)
+    os.makedirs(destino, exist_ok=True)
+    n = 0
+    for f in sorted(os.listdir(origen)):
+        if extension and not f.endswith(extension):
+            continue
+        shutil.copy(os.path.join(origen, f), os.path.join(destino, f))
+        n += 1
+    return n
 
 
 def en_linea(js):
@@ -53,6 +88,9 @@ def main():
     for etiqueta, archivo in SCRIPTS:
         js = open(os.path.join(PLANTILLA, archivo), encoding='utf-8').read()
         html = html.replace(etiqueta, '<script>\n' + en_linea(js) + '\n</script>')
+    datos = ruta_datos(cfg)
+    html = html.replace(ETIQUETA_DATOS,
+                        '<script>\n' + en_linea(open(datos, encoding='utf-8').read()) + '\n</script>')
 
     # fuera el envoltorio: lo pone la plataforma
     cuerpo = re.search(r'<body[^>]*>(.*)</body>', html, re.S).group(1)
@@ -72,23 +110,12 @@ def main():
     ruta = os.path.join(DEST, 'iam-hello.html')
     open(ruta, 'w', encoding='utf-8').write(frag)
 
-    actas = os.path.join(DEST, 'actas')
-    os.makedirs(actas, exist_ok=True)
-    origen = os.path.join(os.path.dirname(AQUI), 'salida')
-    n = 0
-    for f in sorted(os.listdir(origen)):
-        if f.endswith('.pdf'):
-            shutil.copy(os.path.join(origen, f), os.path.join(actas, f)); n += 1
-
-    # Y los adjuntos tal como se subieron a Slack, que son los que faltaban: las
-    # actas de agosto y todos los informes de asistencia.
-    m = 0
-    bajados = os.path.join(AQUI, 'adjuntos')
-    if os.path.isdir(bajados):
-        destino = os.path.join(DEST, 'archivos')
-        os.makedirs(destino, exist_ok=True)
-        for f in sorted(os.listdir(bajados)):
-            shutil.copy(os.path.join(bajados, f), os.path.join(destino, f)); m += 1
+    # Las actas y los adjuntos son del cliente y de nadie más. Sin esto, la
+    # publicación de cualquier cliente se llevaba las 81 actas de Comfacesar
+    # dentro de su app: el espacio cerrado dejaría de serlo en el primer
+    # cliente nuevo.
+    n = copiar(cfg.get('fuente_actas'), os.path.join(DEST, 'actas'), '.pdf')
+    m = copiar(cfg.get('fuente_archivos'), os.path.join(DEST, 'archivos'), None)
     print('%s  ·  %s  (%.1f MB)\n  %d actas en actas/\n  %d adjuntos en archivos/'
           % (ruta, cfg['nombre'], os.path.getsize(ruta) / 1048576, n, m))
     if cambios:
@@ -96,6 +123,7 @@ def main():
             print('  marca: %s  →  %s' % (viejo, nuevo))
     else:
         print('  marca: sin cambios, la plantilla ya es de este cliente')
+    print('  datos: %s' % os.path.relpath(datos, os.path.dirname(AQUI)))
     if not marca.logo(cfg):
         print('  falta el logo (clientes/%s): sale la sigla «%s»'
               % (cfg.get('logo', '?'), cfg.get('sigla', '?')))

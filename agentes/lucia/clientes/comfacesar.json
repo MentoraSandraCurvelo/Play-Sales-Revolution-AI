@@ -13,5 +13,7 @@
   "conversacion": false,
   "fuente_datos": "archivo-slack/plantilla_v2/data/archivo.js",
   "notas": "El espacio original: la réplica del Slack del programa, de solo lectura. 19 canales, actas y adjuntos. No lleva conversación porque la conversación viva está en Slack.",
-  "logo_fondo": "#FFFFFF"
+  "logo_fondo": "#FFFFFF",
+  "fuente_actas": "salida",
+  "fuente_archivos": "archivo-slack/adjuntos"
 }
