@@ -1,0 +1,200 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "VIVIENDA",
+  "area_completa": "",
+  "sesion_num": 6,
+  "fase": "Tableros y Entorno de Diseño",
+  "fecha": "6 de octubre de 2026",
+  "fecha_corta": "6 octubre 2026",
+  "subtitulo_meta": "Cindy Marcela Silva Ibarra · 6 de octubre de 2026 · 2:00 p. m. · 47 min de trabajo",
+  "datos_sesion": [
+    ["Área(s)", "Vivienda, Comfacesar"],
+    ["Sesión", "N° 6. El tablero del programa de mejoramiento y el entorno de diseño"],
+    ["Fecha", "6 de octubre de 2026"],
+    ["Duración de la sesión", "1 hora 4 minutos de sala, 47 minutos de trabajo efectivo"],
+    ["Modalidad", "Virtual, por Microsoft Teams"],
+    ["Asistencia", "Cindy Marcela Silva Ibarra, completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo, Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "6", "etiqueta": "KPIs en el tablero publicado", "detalle": "Con filtros y semaforización"},
+    {"valor": "44", "etiqueta": "Hogares en rojo que detectó", "detalle": "Más 10 actas pendientes"},
+    {"valor": "40", "etiqueta": "Fotografías agrupadas por hogar", "detalle": "Antes, durante y después, en 5 minutos"},
+    {"valor": "5", "etiqueta": "Pestañas y pasos del plan de equipo", "detalle": "Dentro del mismo tablero"},
+    {"valor": "1ª", "etiqueta": "Vez con acompañamiento social", "detalle": "En la historia de los fondos que administra la Caja"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Cindy Marcela Silva Ibarra", "cargo": "Vivienda, Comfacesar", "correo": "", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 6. El área llegó con trabajo hecho por su cuenta, así que los riesgos de esta sesión no son de aprendizaje: son de qué se publica, con qué datos y quién lo ve.",
+  "riesgos": [
+    {
+      "titulo": "El tablero salió publicado sin que las gráficas estuvieran verificadas",
+      "nivel": "CRÍTICO",
+      "descripcion": "**Al entregar el tablero, la herramienta dejó escrito que no había podido ver las gráficas antes de publicar.** _Nadie se lo preguntó: lo declaró ella._ Y ese tablero es el que va a ver la jefatura. **La instrucción que quedó en sesión es la regla, no el consejo:** _siempre se lee lo que entrega antes de mostrarlo_, y se revisa de dónde sale cada número. **Un 44 en rojo que nadie contrastó es peor que no tener tablero.**",
+      "responsable": "Cindy Marcela Silva Ibarra"
+    },
+    {
+      "titulo": "El tablero quedó compartido con cualquiera que tenga el enlace",
+      "nivel": "ALTO",
+      "descripcion": "_Para poder verlo fuera de la conversación se cambió el candado de «solo tú» a «cualquiera que tenga el enlace»._ **Y ese tablero trae detalle por hogar, vereda, estado de obra y semáforo.** _Es información identificable de beneficiarios del programa._ **Conviene decidir deliberadamente quién recibe ese enlace**, y recordar lo que se dijo en sesión: _lo que no debe ver el equipo se oculta antes de compartir._",
+      "responsable": "Cindy Marcela Silva Ibarra"
+    },
+    {
+      "titulo": "El programa se ejecuta con recursos que no son de la Caja",
+      "nivel": "ALTO",
+      "descripcion": "**El área lo dijo de entrada: esta vez los recursos son externos, así que la vigilancia del año entrante va a ser mayor.** _Por eso se rehízo todo desde cero, el plan y el informe de gestión._ **La matriz única y el checklist no son un ejercicio de orden: son la evidencia ante la Superintendencia.** _Lo que falte en el semáforo es exactamente lo que va a faltar en una auditoría._",
+      "responsable": "Cindy Marcela Silva Ibarra"
+    },
+    {
+      "titulo": "La información de origen sigue detrás de la VPN",
+      "nivel": "MEDIO",
+      "descripcion": "_Dos veces hubo que detener la sesión para conectarse a la VPN y poder abrir la carpeta compartida._ **El tablero resuelve la consulta, porque es una dirección web que se abre en cualquier dispositivo, pero la matriz que lo alimenta sigue en archivos locales.** _Mientras eso siga así, actualizar el tablero depende de tener la red de la empresa a mano._",
+      "responsable": "Cindy Marcela Silva Ibarra"
+    },
+    {
+      "titulo": "El complemento de Office no está disponible en los equipos",
+      "nivel": "MEDIO",
+      "descripcion": "**Se intentó instalar el complemento desde la tienda de Office y la versión instalada no lo admite.** _No es un problema del equipo del área:_ pasa en la mayoría de los puestos de la empresa. **Queda fuera del alcance de esta fase** y se trabaja desde la aplicación de escritorio y el navegador, que es donde todo funcionó.",
+      "responsable": "Tecnología / Comfacesar"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "ALTO", "titulo": "Revisar el tablero número por número antes de presentarlo", "descripcion": "**Los 44 hogares en rojo y las 10 actas pendientes se contrastan contra la matriz** antes de que el tablero llegue a la jefatura o a un comité.", "responsable": "Cindy Marcela Silva Ibarra", "plazo": "Antes de presentarlo"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Decidir quién recibe el enlace del tablero", "descripcion": "_Hoy lo abre cualquiera que lo tenga._ **Si va a circular, se oculta antes el detalle por hogar.**", "responsable": "Cindy Marcela Silva Ibarra", "plazo": "Inmediato"},
+    {"num": "03", "nivel": "MEDIO", "titulo": "Terminar de modelar el tablero como vista única del área", "descripcion": "**Cargarle todo lo que el área maneja**, no solo la última matriz. _Es la tarea que quedó y es el paso previo a la aplicación web._", "responsable": "Cindy Marcela Silva Ibarra", "plazo": "Antes de la próxima sesión"},
+    {"num": "04", "nivel": "MEDIO", "titulo": "Pasar las conversaciones al modo de trabajo con carpeta", "descripcion": "_En el chat no se puede agregar una carpeta después de empezar._ **En el modo de trabajo sí, en cualquier momento.** Y siempre desde la aplicación de escritorio.", "responsable": "Cindy Marcela Silva Ibarra", "plazo": "Desde ya"},
+    {"num": "05", "nivel": "MEDIO", "titulo": "Agendar la sesión del agente", "descripcion": "**Es el último peldaño y el área tiene cupos disponibles esta semana.** _Sin esa sesión, el área se queda en tableros._", "responsable": "Cindy Marcela Silva Ibarra", "plazo": "Esta semana"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Lo que el área había construido sola",
+      "duracion": "~5 min",
+      "objetivo": "Partir de lo que ya existe y no de cero.",
+      "pasos": [
+        "**El área mostró una carpeta compartida con su equipo** donde cada quien sigue una ruta con lista de chequeo y semáforo de documentos faltantes",
+        "**Una matriz única por municipio**, que unificó archivos sueltos y separa lo jurídico, lo técnico de obra y el acompañamiento social, _con el tablero de evidencias para la Superintendencia al final_",
+        "**Cuarenta fotografías agrupadas por hogar en antes, durante y después, en cinco minutos**, un trabajo en el que el equipo estaba enredado",
+        "**Un plan de trabajo para el equipo**, pedido un día de sobrecarga: _«estoy enredada, necesito que me ayudes a organizarle el trabajo a mi equipo»_",
+        "_Y el dato que ordena todo lo demás:_ **es el primer acompañamiento social que se hace en la historia de los fondos que administra la Caja.** No había precedente del cual copiar la ruta"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Del Excel al tablero web",
+      "duracion": "~20 min",
+      "objetivo": "Dejar de consultar un archivo y empezar a consultar una dirección.",
+      "pasos": [
+        "**Se partió de la última matriz** y se pidió verla como aplicación web, no como hoja de cálculo",
+        "**El logo se subió como captura de pantalla** para que tomara la colorimetría institucional, combinada con colores vivos",
+        "**Encabezado con fecha de corte y responsable**, porque un tablero sin fecha no sirve para decidir",
+        "**Seis indicadores, filtros de año, mes de obra, cuenta de cobro, vereda y estado de obra**, y semaforización",
+        "**Alertas automáticas**, que es lo que destapó los 44 hogares en rojo y las 10 actas pendientes",
+        "**Y gráficas que el área no usaba:** análisis de dispersión, líneas de tendencia, pictograma donde cada casa es un hogar coloreada por su semáforo, y detalle por hogar",
+        "_La frase que lo explica mejor que cualquier definición:_ **«la dispersión me gusta porque me dice qué tan lejos estoy del objetivo; cuando veo esas bolitas perdidas, llego más rápido»**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Una pestaña que no es un gráfico",
+      "duracion": "~5 min",
+      "objetivo": "Que el tablero no solo informe, sino que diga qué hacer.",
+      "pasos": [
+        "**Se pidió una pestaña con los pasos a seguir con todos los hallazgos del tablero**, como guía para estructurarle el plan al equipo",
+        "**Quedó dentro del mismo tablero**, al lado de los indicadores, en cinco pasos",
+        "_El cambio de fondo es ese:_ **el tablero dejó de ser un reporte y pasó a ser la agenda del área.** Quien lo abre ve el estado y la siguiente acción en la misma pantalla"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · El entorno de diseño",
+      "duracion": "~12 min",
+      "objetivo": "Separar lo que informa de lo que presenta.",
+      "pasos": [
+        "**Se subió la presentación del área al entorno de diseño** y se pidió convertirla en algo con movimiento, animación y contadores",
+        "**La referencia que se usó para el prompt fue una pantalla de bolsa de valores**, con los indicadores corriendo arriba y análisis que giran al pasar el cursor",
+        "**Incluso un avatar con los colores institucionales que pasea de un lado a otro**, y que se apaga desde los controles cuando ya no se quiere",
+        "**Después se hizo el mismo recorrido con el tablero:** se descargó y se pasó por diseño",
+        "_La regla de método quedó dicha:_ **lo que se construye en el proyecto se mejora en el entorno de diseño**, y el entorno de diseño solo funciona desde la aplicación de escritorio"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · Compartir y volver a encontrar",
+      "duracion": "~5 min",
+      "objetivo": "Que el trabajo no se pierda al cerrar la ventana.",
+      "pasos": [
+        "**La ruta del menú para volver a los tableros y las aplicaciones ya construidas**, sin buscar en la conversación",
+        "**El candado de compartir:** de «solo tú» a «cualquiera que tenga el enlace», y el enlace guardado en favoritos del navegador",
+        "**El tablero se actualiza cuando se actualiza el proyecto**, así que el enlace no envejece",
+        "**Y qué hacer cuando algo falla:** captura del error, se le comparte, y lo corrige. _«Siempre le compartes el error de lo que te está pasando»_"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 6 · 6 octubre 2026",
+      "titulo": "Avisó que no había verificado sus propias gráficas",
+      "descripcion": "**Al entregar el tablero dejó escrito que no pudo ver las gráficas antes de publicar.** _Nadie se lo preguntó._ Eso marca con precisión qué parte del tablero se puede mostrar tal cual y qué parte hay que contrastar antes, **y es la razón por la que la instrucción de la sesión fue leer siempre lo que entrega antes de mostrarlo.**",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Contrastar los 44 hogares en rojo contra la matriz",
+      "target": "Antes de presentarlo"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 6 · 6 octubre 2026",
+      "titulo": "El área ya lo estaba usando sin sesiones",
+      "descripcion": "_La razón por la que no había agendado es la mejor noticia de la sesión:_ **estaba sacándole provecho al programa en ejecución, construyendo desde cero el plan, el informe de gestión y la ruta de su equipo.** La matriz única, el semáforo de documentos y las fotografías agrupadas por hogar **se hicieron fuera de clase.** _Eso es adopción, no asistencia._",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Consolidar todo eso en una sola vista del área",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 6 · 6 octubre 2026",
+      "titulo": "El orden quedó al servicio de una auditoría, no de un informe",
+      "descripcion": "**El checklist de lo jurídico, lo técnico y el acompañamiento social, con su semáforo, es la evidencia que pide la Superintendencia.** _Y el área lo dijo sin rodeos:_ **«no teníamos nada de esto anteriormente».** Con recursos externos y más vigilancia el año entrante, _lo que hoy aparece en rojo es lo que mañana aparece en un hallazgo._",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Cerrar los documentos faltantes que marca el semáforo",
+      "target": "Antes del cierre del programa"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 6 · 6 octubre 2026",
+      "titulo": "Preguntar antes de borrar",
+      "descripcion": "_Apareció un gráfico que el área no sabía explicar._ **La indicación no fue eliminarlo:** se le pide que explique qué es, cómo se lee y cómo se cuenta. **«Antes de eliminar y decir no lo entiendo, prefiero que lo preguntes.»** _Es la diferencia entre un tablero que se simplifica hasta no decir nada y un área que sube de nivel._",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Pedir la explicación de cada gráfica que entre a la presentación",
+      "target": "Continuo"
+    }
+  ],
+  "tareas_intro": "El área llega a esta sesión con trabajo propio ya hecho. Lo que queda no es aprender a construir: es consolidar y decidir qué se publica.",
+  "tareas": [
+    {"tarea": "Contrastar los números del tablero contra la matriz antes de presentarlo", "responsable": "Cindy Marcela Silva Ibarra", "prioridad": "ALTA", "plazo": "Antes de presentarlo"},
+    {"tarea": "Definir quién recibe el enlace y ocultar el detalle por hogar si va a circular", "responsable": "Cindy Marcela Silva Ibarra", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Modelar el tablero con toda la información del área hasta que sea su vista única", "responsable": "Cindy Marcela Silva Ibarra", "prioridad": "ALTA", "plazo": "Antes de la próxima sesión"},
+    {"tarea": "Terminar de pasar el tablero por el entorno de diseño", "responsable": "Cindy Marcela Silva Ibarra", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Trabajar siempre desde la aplicación de escritorio y en modo de trabajo con carpeta", "responsable": "Cindy Marcela Silva Ibarra", "prioridad": "MEDIA", "plazo": "Desde ya"},
+    {"tarea": "Agendar la sesión del agente, que es el peldaño que falta", "responsable": "Cindy Marcela Silva Ibarra", "prioridad": "ALTA", "plazo": "Esta semana"}
+  ],
+  "observaciones": [
+    "**Esta sesión no empezó en cero.** _El área llevaba semanas usando la herramienta sin agendar_, y lo que mostró al abrir la pantalla fue trabajo propio: la matriz única por municipio, el semáforo de documentos, las fotografías organizadas por hogar y una ruta para su equipo. **La sesión sirvió para subir de nivel, no para arrancar.**",
+    "_El salto de la sesión fue de archivo a dirección web._ **Un tablero que se abre en cualquier dispositivo, con filtros, semaforización y alertas, reemplaza la consulta del Excel detrás de la VPN.** La matriz sigue siendo la fuente, pero ya no es la interfaz.",
+    "**Y el tablero no se quedó en indicadores:** se le agregó una pestaña con los pasos a seguir sobre los propios hallazgos. _Quien lo abre ve el estado y la acción en la misma pantalla._",
+    "**Hubo una advertencia que vale más que todo lo construido:** la herramienta avisó que no había podido ver sus propias gráficas antes de publicar. _Eso convierte la revisión en parte del procedimiento_, no en un consejo de buenas prácticas.",
+    "_Quedaron dos frenos que no son del área:_ **el complemento de Office no corre en la versión instalada**, que es algo general de la empresa, **y la información de origen sigue dependiendo de la red interna.** Ninguno de los dos detuvo la sesión.",
+    "**El área tiene cupos disponibles esta semana** y la siguiente sesión es la del agente, que es el último peldaño del método."
+  ],
+  "proxima_sesion": {
+    "sesion": "Vivienda, Sesión 7",
+    "condiciones": [
+      "El tablero modelado con toda la información del área",
+      "Los números del tablero ya contrastados contra la matriz",
+      "El tablero pasado por el entorno de diseño",
+      "Las conversaciones abiertas en modo de trabajo, con la carpeta del área cargada"
+    ],
+    "agenda": [
+      "El agente del área: qué circuito se le entrega primero",
+      "Unir los tableros en una sola aplicación web del área",
+      "Seguimiento de obra y acompañamiento social en la misma vista",
+      "Qué se publica y qué se oculta antes de compartir"
+    ]
+  },
+  "pie": "IAM™ Intelligence · Documento Confidencial | Comfacesar | 6 octubre 2026 | Vivienda · Sesión 6"
+}

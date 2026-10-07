@@ -205,3 +205,34 @@ la Sesión 3. Queda registrada para que no se vuelva a reconstruir desde cero.
 - Cargo: **Asistente Administrativa** del área.
 - Es quien ha asistido a las sesiones individuales del área; `Jonnathan Armenta` es el otro
   nombre del área en el listado oficial.
+
+
+## Julio César Pérez Ramos · Comunicaciones
+
+**Entró al listado el 7 de octubre**, después de la S11 grupal del 6 de octubre. Participó en
+la sesión y no figuraba aquí.
+
+- **La forma que se usa es `Julio César Pérez Ramos`.** El informe de asistencia de Teams lo
+  trae en mayúsculas y sin el segundo nombre, `JULIO PEREZ RAMOS`, y además con un segundo
+  equipo conectado como `JULIO 2`, que no es otra persona. _La forma completa sale del
+  agendamiento del jueves 8, que él mismo reservó._
+- En la sesión se le dice **Julio**.
+- **Es quien agenda las sesiones grupales de Comunicaciones.** El evento del jueves 8 a las
+  5:00 p. m. está a su nombre e incluye a `profesionalcomunicaciones@`,
+  `profesionalcomunicaciones2@`, `diseno@`, `comunicaciones@` y `web@`.
+- **Llegó a la S11 sin cámara ni micrófono funcionando** y preguntó por el entorno de código.
+  No tiene agente creado todavía.
+
+
+## Avelino Romero · Subsidio y Aportes
+
+**Entró al listado el 7 de octubre.** Venía mencionado solo como «Avelino» dentro del equipo
+de José Luciano Contreras.
+
+- **La forma que se usa es `Avelino Romero`**, que es como quedó en el agendamiento que él
+  mismo hizo.
+- Correo desde el que agenda: `liquidacionsubsudio@comfacesar.com` _(así, con la errata en
+  el dominio del buzón; es el buzón real)_.
+- **Sus sesiones se agendan con el título de otra área por error.** La del miércoles 7 a las
+  11:00 a. m. llegó como «IPS | Sesion 6». _Cuando aparezca un agendamiento desde ese correo,
+  el área es Subsidio y Aportes._

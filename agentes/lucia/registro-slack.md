@@ -1789,3 +1789,41 @@ Se publicaron **dos versiones**, aprobadas antes de salir:
 
 **Estos fueron los primeros mensajes escritos sin un solo guion medio**, que es la regla que
 Sandra fijó esa misma mañana.
+
+## 7 de octubre · Cuatro actas del martes 6 y la agenda revisada
+
+**El martes 6 fue el día más cargado del programa: cinco sesiones.** Se publicaron las cuatro
+que quedaban, todas sin un solo guion medio:
+
+| Área | Sesión | Duración | Canal |
+|---|---|---|---|
+| Agencia de Empleo | 8 | 1 h 24 min | `#agencia-de-empleo` |
+| Vivienda | 6 | 47 min de trabajo | `#vivienda` |
+| Subsidio y Aportes | 10 | 1 h 11 min | `#subsidio` |
+| Comunicaciones | 11 | 1 h 15 min | `#comunicaciones` |
+
+**De Comunicaciones salió grabación y resumen.** De las otras tres salió el resumen; _la
+grabación quedó pendiente del enlace._
+
+### Lo que apareció al revisar la agenda
+
+**Sandra pidió revisar los agendamientos con el título mal puesto.** La primera búsqueda se
+hizo filtrando por «Comfacesar» en el título, _y por eso mismo no encontró los que están
+mal: los que no llevan el nombre del cliente._ Al repetirla sin filtro aparecieron **ocho
+eventos con el título mal o sin título**, no cuatro.
+
+**El patrón es claro:** cuando el agendamiento lo hace el área desde el enlace, el título
+sale con el nombre de la persona y no con el formato del programa. _Los que sí traen el
+formato correcto son los que se nombran a mano._
+
+**Dos cosas quedaron confirmadas por la propia Sandra en la sesión de Subsidio:** que la de
+las 11:00 a. m. del miércoles 7 es de Avelino Romero y no de IPS, y que la de las 5:00 p. m.
+es la de IPS con los tres correos de SST.
+
+### Lo que arrastra
+
+**La numeración de Agencia de Empleo se movió.** El mensaje de la adición publicado el 6 de
+octubre en `#agencia-de-empleo` dice que el jueves 8 es la Sesión 9 y el viernes 9 la
+Sesión 10. _Con la sesión que se agendó el 6 por la tarde para el miércoles 7, esos números
+corren a 10 y 11._ **El mensaje del canal quedó desactualizado y la corrección necesita
+visto bueno antes de publicarse.**

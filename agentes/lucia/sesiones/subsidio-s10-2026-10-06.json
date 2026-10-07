@@ -1,0 +1,215 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SUBSIDIO Y APORTES",
+  "area_completa": "",
+  "sesion_num": 10,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "6 de octubre de 2026",
+  "fecha_corta": "6 octubre 2026",
+  "subtitulo_meta": "José Luciano Contreras · 6 de octubre de 2026 · 3:00 p. m. · 1 h 11 min",
+  "datos_sesion": [
+    ["Área(s)", "Subsidio y Aportes, Comfacesar"],
+    ["Sesión", "N° 10. La prueba del circuito completo y el tablero que vuelve al agente"],
+    ["Fecha", "6 de octubre de 2026"],
+    ["Duración de la sesión", "1 hora 11 minutos"],
+    ["Modalidad", "Virtual, por Microsoft Teams"],
+    ["Asistencia", "José Luciano Contreras, completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo, Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "15", "etiqueta": "Verificaciones correctas en la prueba", "detalle": "El circuito de principio a fin"},
+    {"valor": "3", "etiqueta": "Fallas que detectó y corrigió solo", "detalle": "Una de ellas, una omisión propia"},
+    {"valor": "7", "etiqueta": "Archivos de septiembre clasificados", "detalle": "Descargados y guardados en su carpeta"},
+    {"valor": "0", "etiqueta": "Archivos reales tocados en la prueba", "detalle": "Corrió sobre una copia aislada"},
+    {"valor": "2", "etiqueta": "Audiencias en un mismo tablero", "detalle": "La vista del área y la del Consejo"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "José Luciano Contreras", "cargo": "Coordinador de Subsidio y Aportes, Comfacesar", "correo": "", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 10. El circuito ya está armado y probado, así que lo que queda en rojo no es la construcción: es lo que pasa cuando el proceso corra solo y nadie esté mirando.",
+  "riesgos": [
+    {
+      "titulo": "El agente estuvo omitiendo archivos sin avisar",
+      "nivel": "CRÍTICO",
+      "descripcion": "**En la prueba apareció que no estaba descargando los archivos de empresas nuevas** que llegan desde otra área. _Llevaba haciéndolo desde finales de septiembre y nadie lo había notado, porque un archivo que no llega no deja rastro._ **Lo detectó y lo corrigió él mismo, y dejó los archivos en la carpeta del mes.** _La lección es la que importa:_ **una omisión silenciosa no se encuentra mirando el resultado, se encuentra corriendo la prueba.**",
+      "responsable": "José Luciano Contreras"
+    },
+    {
+      "titulo": "Un solo correo con error detenía todo el proceso",
+      "nivel": "ALTO",
+      "descripcion": "_Antes, si fallaba la descarga de un correo, se caía la corrida completa._ **Ahora sigue con los demás y reintenta el que falló en la siguiente ejecución.** Es la diferencia entre un circuito que se cae de madrugada y uno que se recupera solo. **Conviene confirmarlo en la primera corrida real**, no solo en la prueba.",
+      "responsable": "José Luciano Contreras"
+    },
+    {
+      "titulo": "La lista de archivos fuente iba a quedar a la vista del Consejo",
+      "nivel": "ALTO",
+      "descripcion": "**El tablero mostraba arriba el listado de archivos que usó para construirse.** _Eso es útil para el área y es ruido, o peor, para un Consejo Directivo._ **La salida que quedó definida es una pestaña propia para el Consejo dentro del mismo tablero**, con lo que el Consejo necesita ver, _y la vista completa reservada para el área._",
+      "responsable": "José Luciano Contreras"
+    },
+    {
+      "titulo": "El sistema de información externo sigue fuera del alcance",
+      "nivel": "MEDIO",
+      "descripcion": "_La descarga desde el sistema de información de la Caja no la puede hacer el agente por ahora._ **Esa parte sigue siendo manual y es el límite del circuito actual.** Quedó identificada como uno de los frentes de la fase siguiente, _no como un pendiente del área._",
+      "responsable": "José Luciano Contreras"
+    },
+    {
+      "titulo": "Un formato de archivo que el agente no reconoce",
+      "nivel": "MEDIO",
+      "descripcion": "**El área intentó cargar un archivo y el formato no fue reconocido.** _Quedó sin resolver en sesión porque no se identificó cuál era._ **Hay que traerlo concreto a la próxima** para cerrarlo, porque si entra en el circuito mensual va a fallar cada mes.",
+      "responsable": "José Luciano Contreras"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "ALTO", "titulo": "Verificar la primera corrida real contra la prueba", "descripcion": "**La prueba corrió sobre una copia.** _La próxima ejecución programada es la que hay que mirar de cerca_, sobre todo la recuperación de un correo fallido.", "responsable": "José Luciano Contreras", "plazo": "En la próxima ejecución"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Crear la pestaña del Consejo Directivo", "descripcion": "Con lo que el Consejo debe ver y **sin la lista de archivos fuente ni los ciclos internos.**", "responsable": "José Luciano Contreras", "plazo": "Antes de la presentación"},
+    {"num": "03", "nivel": "ALTO", "titulo": "Confirmar que el tablero diseñado quedó montado en el agente", "descripcion": "**Se descargó el paquete del entorno de diseño y se pegó la instrucción en el código del agente.** _Hay que comprobar que la siguiente corrida alimente ese tablero y no el anterior._", "responsable": "José Luciano Contreras", "plazo": "En la próxima ejecución"},
+    {"num": "04", "nivel": "MEDIO", "titulo": "Pedirle un tablero a cada agente", "descripcion": "_El agente que organiza el correo no tiene tablero._ **Sin tablero no hay forma de monitorear si está haciendo su trabajo.**", "responsable": "José Luciano Contreras", "plazo": "Esta semana"},
+    {"num": "05", "nivel": "MEDIO", "titulo": "Traer el archivo cuyo formato no se reconoció", "descripcion": "**Identificarlo y traerlo**, para resolverlo antes de que entre al circuito mensual.", "responsable": "José Luciano Contreras", "plazo": "Próxima sesión"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · La prueba del circuito completo",
+      "duracion": "~25 min",
+      "objetivo": "Saber si el proceso funciona antes de que tenga que funcionar.",
+      "pasos": [
+        "**La pregunta la hizo el área:** el proceso está programado para el final del mes, _¿se puede probar hoy como si fuera la fecha?_",
+        "**La respuesta es que sí, y es sencilla:** se le dice que se quiere hacer una prueba y después vuelve a su rutina normal",
+        "**Corrió sobre una copia aislada**, así que la carpeta y el tablero reales no se tocaron. _Eso no se lo pidió nadie_",
+        "**Quince verificaciones correctas de principio a fin**",
+        "**La rutina programada se ejecutó sin errores** y dejó dicha la hora de la siguiente",
+        "**La regla de cadencia funcionó:** la fecha de la prueba estaba fuera de la ventana, así que el proceso no hizo nada, _y nombró la fecha exacta en la que sí corresponde actuar_, atada a la sesión del Consejo",
+        "**La conexión al correo vigente**, siete archivos del mes descargados, clasificados y guardados, con las dos versiones conservadas",
+        "**Segunda ejecución sin repetir ninguna descarga**, que es la prueba de que no duplica",
+        "**Y al terminar borró la carpeta de prueba** y dejó constancia de que no había modificado los originales"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Leer el informe de la prueba",
+      "duracion": "~8 min",
+      "objetivo": "Que quien conoce el proceso sea quien valide el resultado.",
+      "pasos": [
+        "**La indicación fue literal:** _«léelo tú, que tú eres el que sabes el circuito»_",
+        "**El área leyó el informe completo en voz alta**, línea por línea, incluidas las tres fallas",
+        "_Y ahí apareció lo que no se ve en un tablero:_ **las fechas, los conteos y los nombres de carpeta solo los puede validar quien hace el trabajo**",
+        "**Después se abrieron los números para revisarlos**, no para mostrarlos"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Un tablero, dos audiencias",
+      "duracion": "~6 min",
+      "objetivo": "Separar lo que el área necesita de lo que el Consejo debe ver.",
+      "pasos": [
+        "**La pregunta del área fue si el tablero es lo que va a mostrar al Consejo Directivo**",
+        "**La salida es una pestaña propia para el Consejo dentro del mismo tablero**, y no dos tableros separados",
+        "**Fuera de la vista del Consejo: el listado de archivos fuente y los ciclos mensuales internos**",
+        "_El área decide qué entra en esa pestaña_, y se le indica. **No se adivina**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · El tablero por el entorno de diseño",
+      "duracion": "~20 min",
+      "objetivo": "Que un tablero de trabajo se pueda presentar sin rehacerlo.",
+      "pasos": [
+        "**Se subió el archivo del tablero al entorno de diseño** con una instrucción precisa: tendencias actuales, 3D, movimiento, una visual de pantalla de bolsa de valores, un avatar que se mueva de un lado a otro y el logo apareciendo en una esquina",
+        "**El avatar quedó con la foto profesional del área** y el logo institucional cargado aparte, porque sin subirlo no lo pone",
+        "**Faltó el gráfico 3D y hubo que pedirlo explícito:** _«no he visto ningún gráfico 3D, quiero uno»_. **Pedir de nuevo lo que no apareció es parte del método**",
+        "**En el entorno de diseño el texto se edita directamente sobre el documento**, con doble clic, _algo que sobre el tablero del agente no se puede hacer_",
+        "**Y los controles permiten apagar el avatar** cuando ya no se quiere"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · Devolver el tablero al agente",
+      "duracion": "~10 min",
+      "objetivo": "Cerrar el circuito para que lo construido no quede suelto.",
+      "pasos": [
+        "**Se descargó el paquete del tablero diseñado**",
+        "**Se ubicó en la carpeta donde el agente publica su tablero**",
+        "**Y se pegó en el código del agente el bloque de instrucción que el propio entorno de diseño entregó**",
+        "_Con eso el agente deja de alimentar el tablero anterior y empieza a alimentar el diseñado._ **Las adiciones futuras se hacen sobre ese**",
+        "_Este es el paso que convierte tres herramientas en un solo circuito:_ **el agente produce, el diseño presenta, y el resultado vuelve al agente**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio F · Proyecto o agente",
+      "duracion": "~5 min",
+      "objetivo": "Dejar de decidir por intuición dónde se trabaja cada cosa.",
+      "pasos": [
+        "**Un proyecto es algo puntual:** una presentación que no se va a repetir, un documento que se analiza una vez",
+        "**Un agente es todo lo repetitivo que forma un circuito de trabajo**",
+        "**Y una regla que faltaba:** _a cada agente se le pide un tablero_, porque es la única forma de monitorear si está cumpliendo",
+        "**Cada agente necesita su carpeta de datos al crearse.** Sin repositorio, el agente no tiene de dónde leer",
+        "_También quedó claro cómo trabajar fuera de la oficina:_ **la aplicación de escritorio hace de puente con el teléfono**, así que el proyecto se consulta sin estar en el equipo de la oficina"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 10 · 6 octubre 2026",
+      "titulo": "Se protegió a sí mismo sin que nadie se lo pidiera",
+      "descripcion": "**Para probar el circuito creó una copia aislada y corrió ahí.** _La carpeta real y el tablero real no se tocaron, y al terminar borró la copia y lo dejó por escrito._ **Nadie le pidió esa precaución.** _Es la diferencia entre probar un proceso y arriesgar el proceso para probarlo_, y es exactamente lo que uno esperaría de alguien con experiencia operando datos del mes.",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Repetir la prueba antes de cada cambio del circuito",
+      "target": "Continuo"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 10 · 6 octubre 2026",
+      "titulo": "Confesó una omisión propia que nadie había visto",
+      "descripcion": "_Entre las tres fallas que reportó hay una que no era un error de ejecución:_ **venía omitiendo los archivos de empresas nuevas desde finales de septiembre.** Un archivo que no se descarga no genera alerta, no deja hueco visible y no lo reclama nadie. **Lo encontró, lo corrigió, descargó lo pendiente y avisó de que ya estaba en la carpeta.** _Un sistema que reporta lo que dejó de hacer vale más que uno que solo reporta lo que hizo._",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Verificar que los archivos de septiembre estén completos",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 10 · 6 octubre 2026",
+      "titulo": "No hizo nada, y eso era lo correcto",
+      "descripcion": "**Al correr la prueba, la regla de cadencia determinó que la fecha estaba fuera de la ventana y el proceso no ejecutó nada.** _Y en lugar de quedarse callado, nombró la fecha exacta en la que sí corresponde actuar_, atada a la sesión del Consejo. **Un agente que se abstiene y explica por qué es un agente que entendió la regla**, no uno que la memorizó.",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Confirmarlo en la corrida real del cierre de mes",
+      "target": "Fin de octubre"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 10 · 6 octubre 2026",
+      "titulo": "El circuito quedó cerrado sobre sí mismo",
+      "descripcion": "_Hasta hoy el área tenía tres cosas separadas:_ un agente que produce, un tablero que muestra y un entorno de diseño que embellece. **En esta sesión el tablero diseñado se devolvió al agente, así que el agente lo alimenta en cada corrida.** _Ya no hay que rehacer la presentación cada mes:_ **el documento que se presenta al Consejo se actualiza solo.**",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Comprobar la actualización en la siguiente ejecución",
+      "target": "Próxima corrida"
+    }
+  ],
+  "tareas_intro": "El circuito está construido, probado y conectado al tablero que se presenta. Lo que queda es confirmarlo en condiciones reales y preparar lo que ve el Consejo.",
+  "tareas": [
+    {"tarea": "Verificar la próxima ejecución real y la recuperación de un correo fallido", "responsable": "José Luciano Contreras", "prioridad": "ALTA", "plazo": "Próxima corrida"},
+    {"tarea": "Crear la pestaña del Consejo Directivo, sin los archivos fuente ni los ciclos internos", "responsable": "José Luciano Contreras", "prioridad": "ALTA", "plazo": "Antes de la presentación"},
+    {"tarea": "Comprobar que el agente alimenta el tablero diseñado y no el anterior", "responsable": "José Luciano Contreras", "prioridad": "ALTA", "plazo": "Próxima corrida"},
+    {"tarea": "Pedirle tablero al agente que organiza el correo", "responsable": "José Luciano Contreras", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Identificar y traer el archivo cuyo formato no se reconoció", "responsable": "José Luciano Contreras", "prioridad": "MEDIA", "plazo": "Próxima sesión"},
+    {"tarea": "Modelar por su cuenta el tablero de los correos automáticos: construir, pasar por diseño y devolverlo al agente", "responsable": "José Luciano Contreras", "prioridad": "MEDIA", "plazo": "Antes de la próxima sesión"}
+  ],
+  "observaciones": [
+    "**Esta sesión no construyó nada nuevo: puso a prueba lo construido.** _Y la prueba fue la que sirvió_, porque destapó tres cosas que ningún tablero habría mostrado: una omisión de archivos, un proceso que se caía entero por un solo correo y un tablero que podía abrir en un mes vacío.",
+    "_El orden en que se hizo importa._ **Primero la prueba, después la lectura del informe por parte de quien conoce el proceso, y solo al final el diseño.** Si se hubiera empezado por el diseño, el circuito seguiría omitiendo archivos y nadie lo sabría.",
+    "**El paso de método más valioso de la sesión es el de devolver el tablero diseñado al agente.** _Hasta ahora cada herramienta dejaba su resultado y ahí terminaba._ Con el paquete montado en la carpeta del agente y la instrucción pegada en su código, **el documento que se presenta se actualiza en cada corrida sin volver a diseñarlo.**",
+    "**Quedó definida la distinción que el área venía resolviendo por intuición:** _lo puntual es un proyecto, lo repetitivo que forma circuito es un agente._ Y la regla que lo acompaña: **a cada agente se le pide un tablero, porque es la forma de monitorearlo.**",
+    "_Apareció una decisión de seguridad que vale registrar:_ **el área decidió no conectar cuentas personales al equipo de la empresa.** Es el criterio correcto para los conectores de un agente institucional.",
+    "**El área tiene más frentes ya identificados:** los correos automáticos que llegan de madrugada, las aprobaciones de empresa, las quejas que llegan del organismo de vigilancia y el correo propio de consulta. _Todos son el mismo patrón:_ organizar, tablero, diseño, y de vuelta al agente."
+  ],
+  "proxima_sesion": {
+    "sesion": "Subsidio y Aportes, Sesión 11",
+    "condiciones": [
+      "La ejecución real verificada contra el informe de la prueba",
+      "La pestaña del Consejo Directivo creada",
+      "El tablero diseñado confirmado como el que alimenta el agente",
+      "El archivo del formato no reconocido identificado"
+    ],
+    "agenda": [
+      "El tablero de los correos automáticos, construido por el área",
+      "Tablero de monitoreo para cada agente del área",
+      "Qué entra y qué no entra en la vista del Consejo Directivo",
+      "Los frentes pendientes: aprobaciones de empresa y quejas del organismo de vigilancia"
+    ]
+  },
+  "pie": "IAM™ Intelligence · Documento Confidencial | Comfacesar | 6 octubre 2026 | Subsidio y Aportes · Sesión 10"
+}

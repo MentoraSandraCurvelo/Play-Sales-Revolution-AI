@@ -1,0 +1,229 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "COMUNICACIONES",
+  "area_completa": "",
+  "sesion_num": 11,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "6 de octubre de 2026",
+  "fecha_corta": "6 octubre 2026",
+  "subtitulo_meta": "Sesión grupal · 6 de octubre de 2026 · 5:00 p. m. · 1 h 15 min",
+  "datos_sesion": [
+    ["Área(s)", "Comunicaciones, Comfacesar"],
+    ["Sesión", "N° 11. El primer agente del área, construido en vivo"],
+    ["Fecha", "6 de octubre de 2026"],
+    ["Duración de la sesión", "1 hora 15 minutos"],
+    ["Modalidad", "Virtual, por Microsoft Teams"],
+    ["Asistencia", "Cinco personas del área"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo, Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "2", "etiqueta": "Agentes iniciados en sesión", "detalle": "Uno de diseño y uno de priorización de correo"},
+    {"valor": "1 de 5", "etiqueta": "Personas con agente al empezar", "detalle": "El resto llegó sin ninguno"},
+    {"valor": "3 de 5", "etiqueta": "Correos clasificados en la prueba", "detalle": "Dos no eran solicitudes"},
+    {"valor": "0", "etiqueta": "Correos enviados en la prueba", "detalle": "Todo quedó en borrador"},
+    {"valor": "5", "etiqueta": "Preguntas que devolvió el agente", "detalle": "Antes de decidir por su cuenta"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Vidiana Bendeck", "cargo": "Profesional de Comunicaciones, Comfacesar", "correo": "", "modalidad": "Virtual", "nivel": "Avanzado"},
+    {"nombre": "María Elvira Marulanda", "cargo": "Contraparte del proyecto, Comfacesar", "correo": "", "modalidad": "Virtual", "nivel": "Intermedio"},
+    {"nombre": "César Reyes", "cargo": "Diseño, Comfacesar", "correo": "", "modalidad": "Virtual", "nivel": "Intermedio"},
+    {"nombre": "Sandra Machado", "cargo": "Profesional de Comunicaciones, Comfacesar", "correo": "", "modalidad": "Virtual", "nivel": "Intermedio"},
+    {"nombre": "Julio César Pérez Ramos", "cargo": "Comunicaciones, Comfacesar", "correo": "", "modalidad": "Virtual", "nivel": "Básico"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 11. Esta fue la primera sesión del área con agentes, y lo que quedó en rojo no es lo que el agente hizo mal: es lo que el proceso del área traía mal desde antes.",
+  "riesgos": [
+    {
+      "titulo": "El proceso de solicitudes no tiene una forma única de llegar",
+      "nivel": "CRÍTICO",
+      "descripcion": "**Al mapear el circuito apareció el problema de fondo: las solicitudes de diseño a veces se registran en el archivo compartido y nadie envía el correo, y a veces llega el correo y nadie registra la fila.** _Y los asuntos no traen una palabra en común, así que no hay por dónde identificarlas._ **Eso no es una limitación de la herramienta, es un proceso en desorden**, y hasta ahora se sostenía porque alguien lo revisaba a mano. _La salida que quedó definida es la correcta:_ **se fija la palabra obligatoria en el asunto y lo que no la traiga queda fuera del circuito.**",
+      "responsable": "César Reyes"
+    },
+    {
+      "titulo": "Cuatro de las cinco personas llegaron sin agente",
+      "nivel": "ALTO",
+      "descripcion": "_Al pasar revista quedó claro:_ **proyectos, tableros, tareas programadas y diseño los tiene todo el equipo. Agentes, una sola persona.** La causa quedó dicha en sesión sin adornos: **faltaron sesiones.** _Dos personas arrancaron el suyo aquí mismo_, así que el área cierra la fase con la mitad del camino hecho y el resto pendiente de trabajo propio.",
+      "responsable": "Comunicaciones"
+    },
+    {
+      "titulo": "La tarea programada solo corre con la aplicación abierta",
+      "nivel": "ALTO",
+      "descripcion": "**Lo descubrió el propio equipo leyendo lo que el agente le respondió: si la aplicación de escritorio está cerrada, la rutina no se ejecuta.** _Un agente que revisa el correo a las cinco de la tarde no revisa nada si el computador está apagado._ **La instrucción es dejar la aplicación abierta**, y conviene tenerlo claro antes de prometer una rutina diaria a nadie.",
+      "responsable": "Comunicaciones"
+    },
+    {
+      "titulo": "El agente solo tiene permiso de lectura sobre el archivo compartido",
+      "nivel": "ALTO",
+      "descripcion": "_Al intentar marcar celdas en el archivo compartido, respondió que estaba conectado solo para lectura y pidió autorización._ **No forzó nada y no falló en silencio: avisó y dijo qué necesitaba.** Mientras no se autorice la escritura, **el circuito puede detectar y avisar, pero no puede actualizar el registro.**",
+      "responsable": "César Reyes"
+    },
+    {
+      "titulo": "Una instrucción de escritura sin filtro cambió todas las filas",
+      "nivel": "MEDIO",
+      "descripcion": "**Al pedirle marcar como en proceso las solicitudes de una persona, cambió todas.** _Alguien del equipo lo había advertido en voz alta un segundo antes._ **La lección es de redacción, no de la herramienta:** una instrucción de escritura sin filtro explícito se aplica a todo. _Y conviene revisar antes de escribir sobre un archivo que ve el equipo completo._",
+      "responsable": "César Reyes"
+    },
+    {
+      "titulo": "El borrador no sonaba a la persona que lo firma",
+      "nivel": "MEDIO",
+      "descripcion": "_El primer correo redactado hablaba en plural, como si escribiera un equipo._ **Lo notó una persona del área, no la herramienta.** La corrección es simple y hay que hacerla una vez: **se le dice que hable en primera persona y se le da la despedida con la que cada quien firma.** _Ningún correo debe salir antes de eso._",
+      "responsable": "Comunicaciones"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "ALTO", "titulo": "Enviar el correo que fija la palabra obligatoria en el asunto", "descripcion": "**De ahora en adelante toda solicitud de diseño debe traerla.** _Lo que no la traiga queda fuera del circuito_, y eso ordena el proceso para todos.", "responsable": "César Reyes", "plazo": "Esta semana"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Autorizar la escritura sobre el archivo compartido", "descripcion": "Sin eso el agente avisa pero no actualiza el registro. **El agente ya dijo exactamente qué necesita.**", "responsable": "César Reyes", "plazo": "Inmediato"},
+    {"num": "03", "nivel": "ALTO", "titulo": "Dejar la aplicación de escritorio abierta", "descripcion": "**Es la condición para que la rutina programada se cumpla.** _Si no, la revisión se hace cuando se vuelva a abrir._", "responsable": "Comunicaciones", "plazo": "Desde ya"},
+    {"num": "04", "nivel": "ALTO", "titulo": "Que cada quien cree su agente", "descripcion": "**La instrucción quedó dada:** todo lo que se hace sentado al computador de forma repetida es candidato. _Dos ya están arrancados._", "responsable": "Comunicaciones", "plazo": "Antes del cierre"},
+    {"num": "05", "nivel": "MEDIO", "titulo": "Dar voz propia al agente antes del primer envío", "descripcion": "_Que hable en primera persona y firme como firma la persona._ **Mientras no esté hecho, todo queda en borrador.**", "responsable": "Comunicaciones", "plazo": "Antes de activar envíos"},
+    {"num": "06", "nivel": "MEDIO", "titulo": "Documentar los ejercicios en el tablero", "descripcion": "**Lo dijo la facilitadora al cerrar:** _un ejercicio que no queda documentado cuenta como no hecho._", "responsable": "Comunicaciones", "plazo": "Antes del cierre"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Lo que el área trajo construido",
+      "duracion": "~8 min",
+      "objetivo": "Partir de un resultado real y no de una demostración.",
+      "pasos": [
+        "**El área mostró el análisis de métricas de la red social, construido fuera de clase**",
+        "**El agente ya está conectado a la carpeta donde viven las métricas**, así que solo hay que pedirle los resultados del mes y la relación de crecimiento con el mes anterior",
+        "_Antes era otra cosa:_ **abrir la carpeta, sumar celda por celda a mano y sacar unos pocos resultados.** Ahora entrega muchas más métricas y en minutos",
+        "**Y una pregunta que ordenó el ejercicio antes de verlo:** _¿a quién se le va a presentar y en qué formato?_ Porque la estrategia cambia según el formato y según quién lo lee. **Si es para uno mismo, el formato da igual. Si alimenta un tablero del área, el formato es el que ese tablero necesita**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Qué es un agente y cuándo no lo es",
+      "duracion": "~12 min",
+      "objetivo": "Dejar de elegir herramienta por costumbre.",
+      "pasos": [
+        "**Un proyecto es algo puntual:** un artículo que hay que analizar una vez, una presentación que no se repite",
+        "**Un agente es un circuito de trabajo que se repite.** _Todo lo que se hace sentado al computador de forma repetida es candidato_",
+        "**El método también cambia.** En un proyecto se trabaja con instrucciones; **para un agente se estructura un flujograma de trabajo**, paso por paso",
+        "**Y el agente necesita dos cosas al nacer:** _un nombre_, porque se le va a hablar como a una persona, _y una carpeta local como repositorio_, que se agrega una sola vez",
+        "_La explicación del paso a paso la dio una persona del área, no la facilitadora._ **Eso ya es otro nivel de apropiación**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El agente de diseño, construido en vivo",
+      "duracion": "~25 min",
+      "objetivo": "Cerrar el hueco entre el correo y el registro compartido.",
+      "pasos": [
+        "**El caso lo puso el área:** las solicitudes de diseño se registran en un archivo compartido y a veces el correo nunca llega, o llega el correo y la fila no se registra",
+        "**El circuito que quedó escrito:** entrar al correo, identificar las solicitudes de un listado de remitentes, clasificarlas con etiquetas por área, entrar al archivo compartido, verificar que el asunto coincida con el campo de concepto y el remitente con el solicitante, y **escribirle a quien haya dejado un lado sin registrar**",
+        "**La instrucción no la completó una sola persona.** _Al preguntar qué faltaba, el equipo respondió:_ **la cadencia, el tablero y los campos exactos a verificar.** Eso es el grupo revisando una instrucción, que es justo lo que había que aprender",
+        "**Se corrió como prueba, no en producción.** Todos los correos del día estaban registrados, así que **no envió ninguno**",
+        "**Clasificó cinco correos: tres eran solicitudes y dos no**, entre ellos un acta de reunión y la convocatoria de la propia sesión",
+        "**Y dejó un caso marcado como dudoso** porque el asunto coincidía en tema pero no en texto, _preguntando si debía exigir coincidencia exacta_",
+        "**El área le dio entonces la regla que faltaba:** si el asunto y el concepto tratan el mismo tema y quien escribió el correo es quien diligenció el registro, se asume que es la misma solicitud"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · El borrador y la voz",
+      "duracion": "~8 min",
+      "objetivo": "Que un correo del agente no se note como un correo del agente.",
+      "pasos": [
+        "**Se le pidió dejar el aviso en borrador y no enviarlo**, porque era una prueba",
+        "**Al leerlo, una persona del área identificó que no sonaba al remitente: hablaba en plural**, como si escribiera un equipo",
+        "**La corrección:** que hable en primera persona y que firme como firma la persona",
+        "_Ese hallazgo no salió de la herramienta ni de la facilitadora._ **Salió de alguien que conoce cómo escribe su equipo**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · Un tablero por el entorno de diseño",
+      "duracion": "~18 min",
+      "objetivo": "Convertir un tablero de trabajo en algo presentable ante la junta.",
+      "pasos": [
+        "**Primero el archivo, no la dirección web:** se pide el enlace de descarga del archivo, porque desde una dirección web no se puede trabajar",
+        "**Apareció un error al descargar** y la indicación fue la de siempre: _captura del error, se le comparte y se le dice que lo corrija._ **No hay que saber qué era el error**",
+        "**El prompt completo:** indicadores dinámicos, 3D, animación, una visual de pantalla de bolsa de valores, un avatar que vaya de un lado a otro, el logo haciendo zoom en una esquina. _Y el criterio, dicho sin rodeos:_ **no quiero un tablero aburrido**",
+        "**El logo se tomó de la web** cuando no se tenía a mano, porque lo que importa es la colorimetría",
+        "**El resultado:** indicadores corriendo arriba, un gráfico 3D que gira con el cursor, un velocímetro, la hora, y **un avatar institucional que entrega las alertas hablando**",
+        "**Y tres controles arriba:** apagar el avatar, modo de demostración y modo junta"
+      ]
+    },
+    {
+      "titulo": "Ejercicio F · El segundo agente del área",
+      "duracion": "~10 min",
+      "objetivo": "Que la construcción no quede en una sola persona.",
+      "pasos": [
+        "**El circuito lo dictó su dueña:** identificar los correos prioritarios por cercanía de la fecha del evento",
+        "**Con dos parámetros claros:** que traigan el documento de requerimiento adjunto y la palabra obligatoria en el asunto",
+        "**Con tablero:** prioritarios, no prioritarios, días de vencimiento y semaforización por colores",
+        "**Con cadencia:** revisión todas las mañanas a las siete, _arrancando con una prueba el mismo día_",
+        "**Y entregable en formato de aplicación web**",
+        "_Quedó pendiente instalar el entorno de código en el equipo_, que es el requisito para que el agente corra"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 11 · 6 octubre 2026",
+      "titulo": "Preguntó en vez de decidir, y dijo qué estaba asumiendo",
+      "descripcion": "**Ante un correo que coincidía en tema pero no en texto, no lo clasificó ni lo descartó: lo marcó como dudoso y preguntó si debía exigir coincidencia exacta.** _Y de paso avisó de que el registro solo trae el nombre de pila del solicitante, así que no podía cruzarlo con el correo, pidió una tabla de equivalencias y dejó escritas sus suposiciones provisionales._ **Cinco preguntas antes de tocar nada.** _Eso es exactamente lo que uno le pediría a alguien nuevo en el puesto._",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Entregarle la tabla de nombres y correos",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 11 · 6 octubre 2026",
+      "titulo": "Se detuvo en el límite del permiso",
+      "descripcion": "_Al pedirle escribir en el archivo compartido respondió que estaba conectado solo para lectura, dijo qué autorización necesitaba y se quedó quieto._ **No lo intentó por otra vía y no falló en silencio.** En un archivo que ve el equipo completo, **esa frontera es la que evita el desastre**, y conviene que siga ahí incluso después de autorizar la escritura.",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Autorizar solo lo que el circuito necesita escribir",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 11 · 6 octubre 2026",
+      "titulo": "Lo que la herramienta no vio, lo vio una persona",
+      "descripcion": "**El borrador estaba bien escrito y mal firmado: hablaba en plural.** _Lo detectó una persona del área al leerlo, por el tono, no por el contenido._ **El agente no tenía forma de saberlo.** _Es la prueba más clara de para qué sirve que el borrador quede en borrador:_ **no para desconfiar, sino para poner lo que solo sabe quien trabaja ahí.**",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Fijar la voz y la firma antes del primer envío",
+      "target": "Antes de activar"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 11 · 6 octubre 2026",
+      "titulo": "El agente destapó que el problema era el proceso",
+      "descripcion": "_Al intentar darle un parámetro apareció que las solicitudes no llegan de una forma única y que a veces falta el correo o falta el registro._ **Mapear el circuito fue, en la práctica, auditar el procedimiento.** _Y la salida no es que la herramienta adivine:_ **se fija la palabra obligatoria en el asunto, se avisa al equipo, y lo que no la traiga queda fuera.** El agente ordena el proceso antes de automatizarlo.",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Enviar el aviso que fija la regla del asunto",
+      "target": "Esta semana"
+    }
+  ],
+  "tareas_intro": "La sesión dejó dos agentes arrancados y un tablero presentable. Lo que queda es terminar de habilitarlos y que el resto del equipo construya el suyo.",
+  "tareas": [
+    {"tarea": "Enviar al equipo el aviso que fija la palabra obligatoria en el asunto de las solicitudes", "responsable": "César Reyes", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Autorizar la escritura del agente sobre el archivo compartido", "responsable": "César Reyes", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Terminar el agente de diseño y correr el circuito completo con calma", "responsable": "César Reyes", "prioridad": "ALTA", "plazo": "Antes del cierre"},
+    {"tarea": "Instalar el entorno de código en el equipo para que el agente pueda correr", "responsable": "Sandra Machado", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Crear el agente propio: cada quien, su circuito más repetitivo", "responsable": "Comunicaciones", "prioridad": "ALTA", "plazo": "Antes del cierre"},
+    {"tarea": "Dar voz y firma propias al agente antes de activar cualquier envío", "responsable": "Comunicaciones", "prioridad": "MEDIA", "plazo": "Antes de activar"},
+    {"tarea": "Documentar todos los ejercicios en el tablero", "responsable": "Comunicaciones", "prioridad": "ALTA", "plazo": "Antes del cierre"},
+    {"tarea": "Dejar la aplicación de escritorio abierta para que corran las rutinas", "responsable": "Comunicaciones", "prioridad": "MEDIA", "plazo": "Desde ya"}
+  ],
+  "observaciones": [
+    "**Esta fue la primera sesión del área con agentes, y se construyeron dos en vivo.** _Hasta hoy el área tenía proyectos, tableros, tareas programadas y entorno de diseño._ **Lo que faltaba era el paso en el que el trabajo se hace sin que nadie se siente a hacerlo.**",
+    "_El momento más útil de la sesión no fue un resultado, fue un bloqueo:_ **al buscar un parámetro para identificar las solicitudes quedó al descubierto que no llegan de una forma única.** Mapear el circuito terminó siendo una auditoría del procedimiento, _y la salida no es que la herramienta adivine sino que el proceso se ordene._",
+    "**Una persona del área explicó el paso a paso de cómo se crea un agente**, con la facilitadora completando. _Cuando quien enseña es del equipo, lo aprendido deja de depender de las sesiones._",
+    "**El agente devolvió cinco preguntas antes de tocar nada** y se detuvo donde no tenía permiso, diciendo qué necesitaba. _Y lo que no pudo ver lo vio una persona:_ **el borrador hablaba en plural y no sonaba a quien lo firma.** Esa es la división del trabajo que conviene conservar.",
+    "**Quedó una condición de operación que hay que tener presente:** _la rutina programada solo corre si la aplicación de escritorio está abierta._ No es un detalle menor cuando se promete una revisión diaria a una hora fija.",
+    "_El área cierra la fase con la mitad del equipo con agente._ **La causa quedó dicha en sesión: faltaron sesiones.** Lo que falta no es conocimiento sino tiempo de construcción, y por eso la indicación de cierre fue documentar cada ejercicio en el tablero."
+  ],
+  "proxima_sesion": {
+    "sesion": "Comunicaciones, Sesión 12",
+    "condiciones": [
+      "El agente de diseño corriendo el circuito completo",
+      "La escritura sobre el archivo compartido autorizada",
+      "El aviso de la palabra obligatoria en el asunto, enviado al equipo",
+      "El entorno de código instalado en los equipos que faltan",
+      "Los ejercicios documentados en el tablero"
+    ],
+    "agenda": [
+      "El circuito de diseño de extremo a extremo, con envío real",
+      "El agente de priorización de correo y su tablero",
+      "Los agentes que falten del equipo",
+      "El tablero del área por el entorno de diseño, listo para presentar"
+    ]
+  },
+  "pie": "IAM™ Intelligence · Documento Confidencial | Comfacesar | 6 octubre 2026 | Comunicaciones · Sesión 11"
+}

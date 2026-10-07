@@ -1,0 +1,203 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SERVICIOS SOCIALES",
+  "area_completa": "",
+  "sesion_num": 12,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "6 de octubre de 2026",
+  "fecha_corta": "6 octubre 2026",
+  "subtitulo_meta": "Juan Pablo y Lilian Paola · 6 de octubre de 2026 · 10:00 a. m. · 39 min",
+  "datos_sesion": [
+    ["Área(s)", "Servicios Sociales, Comfacesar"],
+    ["Sesión", "N° 12. La Media Maratón de la Independencia: del déficit a la estrategia de 2027"],
+    ["Fecha", "6 de octubre de 2026"],
+    ["Duración de la sesión", "39 minutos"],
+    ["Modalidad", "Virtual, por Microsoft Teams"],
+    ["Asistencia", "Juan Pablo y Lilian Paola, completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo, Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "2027", "etiqueta": "La edición que se está presupuestando", "detalle": "La cuarta de la carrera"},
+    {"valor": "75%", "etiqueta": "Del patrocinio, de donde sale la utilidad", "detalle": "No de la inscripción"},
+    {"valor": "3", "etiqueta": "Hallazgos del diagnóstico", "detalle": "Volumen, costo por corredor y patrocinio"},
+    {"valor": "8", "etiqueta": "Categorías de patrocinio propuestas", "detalle": "Más un patrocinador principal"},
+    {"valor": "0", "etiqueta": "Agentes nuevos en la sesión", "detalle": "Esto es un proyecto, no un circuito"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Juan Pablo", "cargo": "Servicios Sociales, Comfacesar", "correo": "", "modalidad": "Virtual", "nivel": "Avanzado"},
+    {"nombre": "Lilian Paola", "cargo": "Servicios Sociales, Comfacesar", "correo": "", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 12. No son riesgos de aprendizaje: el área ya sabe operar el método. Son los del evento que está presupuestando, y aparecieron al ponerle números delante.",
+  "riesgos": [
+    {
+      "titulo": "La inscripción no cubre el costo por corredor",
+      "nivel": "CRÍTICO",
+      "descripcion": "_Es el primero de los tres hallazgos y el que explica a los otros dos:_ **la edición de 2026 creció en volumen y no en rentabilidad.** Más corredores, menos ingreso por cada uno. _Mientras el precio de la inscripción se calcule solo contra sí mismo, el número no da._ **El precio óptimo sale de proyectar primero el patrocinio y los costos**, y después repartir lo que falta entre los corredores.",
+      "responsable": "Lilian Paola / Juan Pablo"
+    },
+    {
+      "titulo": "La utilidad depende de cobrar el patrocinio, y se cobró tarde",
+      "nivel": "ALTO",
+      "descripcion": "**El 75% de la utilidad viene del patrocinio, no de la inscripción.** _En 2026 ese dinero entró después del evento_, y eso es lo que estrecha la caja justo cuando hay que pagar. La propuesta que salió en sesión es **la mitad a la firma y anticipos escalonados**, enero y mayo para una carrera de julio, _de modo que el día del evento no quede nada pendiente._",
+      "responsable": "Juan Pablo"
+    },
+    {
+      "titulo": "El presupuesto de los patrocinadores es de otra vigencia",
+      "nivel": "MEDIO",
+      "descripcion": "_Lo señaló el área y es exacto:_ **las empresas no pueden comprometer hoy un dinero que pertenece al presupuesto del año entrante.** No es una negativa, es un calendario: _lo que se busca ahora es que lo incluyan en su presupuesto_, y el cobro se pacta para enero y mayo. **Por eso la gestión arranca ahora y no en marzo.**",
+      "responsable": "Juan Pablo / Lilian Paola"
+    },
+    {
+      "titulo": "El calendario de eventos puede volver a cruzarse",
+      "nivel": "MEDIO",
+      "descripcion": "**Este año la carrera coincidió con los Juegos Suramericanos**, y eso compite por público, por patrocinio y por prensa. _Revisar el calendario de eventos del departamento antes de fijar la fecha_ **es gratis y evita repetirlo.**",
+      "responsable": "Juan Pablo"
+    },
+    {
+      "titulo": "Las ideas vienen sin verificar y hay que validarlas",
+      "nivel": "MEDIO",
+      "descripcion": "_El propio sistema lo dejó escrito al entregar el comparativo:_ **los casos de otras medias maratones salen de su conocimiento general y no están verificados.** Sirven para orientar, _no para sustentar una cifra ante el Consejo._ **Lo que vaya a la presentación se compara antes contra datos publicados** de Bogotá, Medellín y las carreras que se usen de referencia.",
+      "responsable": "Juan Pablo / Lilian Paola"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "ALTO", "titulo": "Arrancar ya la gestión de patrocinadores", "descripcion": "**La carrera es en julio y los anclas se cierran antes de febrero.** _El presupuesto se aprueba entre octubre y noviembre_, así que la conversación con las empresas empieza esta semana, no en marzo.", "responsable": "Juan Pablo / Lilian Paola", "plazo": "Octubre"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Recalcular el precio por corredor desde el patrocinio", "descripcion": "Proyectar primero **lo que entra por patrocinio y lo que cuesta el evento**, y de ahí sacar el precio. _Es el orden inverso al de 2026._", "responsable": "Lilian Paola", "plazo": "Antes del cierre del presupuesto"},
+    {"num": "03", "nivel": "MEDIO", "titulo": "Validar el comparativo antes de presentarlo", "descripcion": "Las referencias de otras carreras **se contrastan contra datos publicados** antes de que entren a la presentación del Consejo.", "responsable": "Juan Pablo", "plazo": "Antes de la presentación"},
+    {"num": "04", "nivel": "MEDIO", "titulo": "Construir la presentación y pasarla por diseño", "descripcion": "_Era el ejercicio planeado para hoy y no se pudo hacer_ porque la presentación todavía no existe. **Queda agendado para esta semana, con la mentoría.**", "responsable": "Juan Pablo / Lilian Paola", "plazo": "Esta semana"},
+    {"num": "05", "nivel": "MEDIO", "titulo": "Definir el grupo de inclusión de 2027", "descripcion": "**2026 fue el adulto mayor.** _La propuesta es que cada edición sume un grupo distinto_, y que ese componente sea también un paquete de patrocinio con indicadores públicos.", "responsable": "Lilian Paola", "plazo": "Antes de febrero"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · La pregunta que trajo el área",
+      "duracion": "~5 min",
+      "objetivo": "Poner sobre la mesa un problema real de presupuesto, no un ejercicio de práctica.",
+      "pasos": [
+        "**La Media Maratón de la Independencia quedó institucionalizada**, así que no está en discusión si se hace: está en discusión cómo se sostiene",
+        "**En 2026 los costos se dispararon**, en buena parte por el cambio de ruta, _y la utilidad quedó por debajo de lo esperado_",
+        "El área está armando el presupuesto de 2027 y pidió **estrategias para que el evento sea viable y más productivo**",
+        "_La pregunta llegó formulada por el área, con su diagnóstico ya hecho._ **Eso es lo que permitió que la sesión avanzara en treinta y nueve minutos**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Volver al proyecto que ya tiene la memoria",
+      "duracion": "~5 min",
+      "objetivo": "Usar lo construido en vez de empezar de cero.",
+      "pasos": [
+        "**Esto es un proyecto, no un agente**, y la distinción se dijo explícitamente: _un circuito que se repite pide un agente; una pregunta de estrategia pide un proyecto_",
+        "Se entró al **mismo proyecto de la Media Maratón** que el área ya tenía, el del informe y la presentación al Consejo",
+        "**Ahí está la memoria:** el presupuesto del año pasado, el informe ejecutivo y todo lo que pasó en la edición anterior",
+        "_Y quedó dicha una regla de uso:_ **se mantiene una sola conversación por proyecto**, salvo que el trabajo tenga fases separadas de verdad"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · La instrucción, dictada por el área",
+      "duracion": "~10 min",
+      "objetivo": "Que el conocimiento del negocio entre en la instrucción, no en la revisión posterior.",
+      "pasos": [
+        "**El contexto completo:** el presupuesto de 2027, el resultado de 2026 y qué se busca mejorar",
+        "**Estrategias de medias maratones en clima tropical**, regionales y mundiales, digitales y presenciales, _porque el clima cambia el diseño de la carrera_",
+        "**Estrategias con patrocinadores locales y nacionales**, que lo pidió Lilian Paola sobre la experiencia de las ediciones anteriores",
+        "**Una estrategia de inclusión** para 2027, sabiendo que 2026 fue el adulto mayor",
+        "**Y el plan como ideas primero**, sin presentación todavía: _primero se decide qué se va a decir, después cómo se ve_"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Lo que devolvió, y lo que el área corrigió",
+      "duracion": "~20 min",
+      "objetivo": "Separar lo que sirve de lo que no aplica a este territorio.",
+      "pasos": [
+        "**El diagnóstico en tres frases:** más corredores y menos ingreso, la inscripción no cubre el costo por corredor, y la utilidad depende de cobrar el patrocinio",
+        "**El calor como variable de diseño:** salida temprano, zonas de sombra, protocolo médico visible, hidratación reforzada",
+        "**Precios por etapa, fidelización y club de corredores**, con tarifa para repetidores y figura de corredor fundador",
+        "**Cupos solidarios financiados por empresas**, que conecta la inclusión con el patrocinio en vez de dejarla como gasto",
+        "**Turismo deportivo y paquete departamental**, con transporte que resuelva el traslado desde los municipios",
+        "**Arquitectura de patrocinio por niveles:** un principal y de seis a ocho oficiales por categoría, de hidratación a movilidad",
+        "_Y el área corrigió sobre la marcha lo que no aplica:_ **aquí no hay cultura de pagar entrada a este tipo de evento**, el kit ya está incluido en la inscripción, y el concierto de cierre existe y se hace subsidiado para las categorías A y B"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · Pedir más, cuando lo primero no basta",
+      "duracion": "~5 min",
+      "objetivo": "Aprender que la primera respuesta no es la última.",
+      "pasos": [
+        "La instrucción fue literal: **«me parece bien, pero necesito más ideas, no estoy viendo nada innovador»**",
+        "_Y la segunda vuelta trajo lo que no había salido en la primera:_ **medallas coleccionables por serie, kilómetros con nombre, una estación musical por kilómetro con su propio patrocinador y artista**",
+        "**La Copa Empresarial**, con ranking de empresas, camiseta corporativa e inscripciones en bloque: _visibilidad para el patrocinador y volumen para la carrera, en el mismo movimiento_",
+        "**Dorsal con código QR** enlazado a cupones, registro de participantes y panel para el patrocinador",
+        "_El aprendizaje no son las ideas:_ **es que insistir con una crítica concreta cambia el resultado**"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 12 · 6 octubre 2026",
+      "titulo": "Avisó que no había verificado lo que estaba diciendo",
+      "descripcion": "En mitad del comparativo con otras carreras dejó escrito que **esas referencias salían de su conocimiento general y que los casos concretos había que validarlos.** _Nadie se lo preguntó._ **Es la diferencia entre una herramienta que orienta y una que inventa**, y marca exactamente qué parte del material puede ir al Consejo tal cual y qué parte hay que contrastar antes.",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Contrastar el comparativo antes de la presentación",
+      "target": "Antes del Consejo"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 12 · 6 octubre 2026",
+      "titulo": "El área corrigió el análisis con datos que la herramienta no tenía",
+      "descripcion": "El diagnóstico decía que el patrocinio estaba sin cobrar, _porque así estaba cuando se cargó la información._ **Lilian Paola avisó en el momento de que esa gestión ya se hizo y el dinero entró.** También descartó el cobro de entrada al público y aclaró que el kit va dentro de la inscripción. _Ninguna de las tres cosas podía saberlas el sistema._ **El valor del ejercicio está en quién lo opera.**",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Actualizar el proyecto con los datos de cierre reales",
+      "target": "Octubre"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 12 · 6 octubre 2026",
+      "titulo": "La inclusión deja de ser un gasto y pasa a ser un activo comercial",
+      "descripcion": "**2026 fue el adulto mayor.** _La propuesta que salió es convertirlo en tradición:_ un grupo distinto cada edición, con cupos financiados por empresas que ya contratan personas con discapacidad. **Así el componente social se sostiene solo** y además da visibilidad al patrocinador, _con indicadores públicos que se pueden mostrar._",
+      "estado": "Propuesto en sesión",
+      "proximo_paso": "Definir el grupo de 2027 y armar el paquete de patrocinio",
+      "target": "Antes de febrero"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 12 · 6 octubre 2026",
+      "titulo": "El informe posterior al evento es una herramienta de venta",
+      "descripcion": "_Hoy el resultado se analiza puertas adentro._ **Un informe público del evento, sin las cifras internas, muestra participación, impacto ambiental y efecto en el comercio local.** Sirve para dos cosas a la vez: _que el público quiera estar en la siguiente edición_ y **que el patrocinador vea con evidencia qué compró.**",
+      "estado": "Propuesto en sesión",
+      "proximo_paso": "Definir qué se publica y qué no",
+      "target": "Antes de julio"
+    }
+  ],
+  "tareas_intro": "La sesión no dejó una herramienta nueva: dejó un plan de trabajo para el presupuesto que el área está armando esta semana.",
+  "tareas": [
+    {"tarea": "Arrancar la gestión de patrocinadores para 2027, con la estructura por niveles", "responsable": "Juan Pablo / Lilian Paola", "prioridad": "ALTA", "plazo": "Octubre"},
+    {"tarea": "Recalcular el precio por corredor proyectando primero patrocinio y costos", "responsable": "Lilian Paola", "prioridad": "ALTA", "plazo": "Antes del cierre del presupuesto"},
+    {"tarea": "Construir la presentación de la Media Maratón y pasarla por el entorno de diseño", "responsable": "Juan Pablo / Lilian Paola", "prioridad": "ALTA", "plazo": "Esta semana, con la mentoría"},
+    {"tarea": "Contrastar el comparativo de otras carreras contra datos publicados", "responsable": "Juan Pablo", "prioridad": "MEDIA", "plazo": "Antes de la presentación"},
+    {"tarea": "Definir el grupo de inclusión de 2027 y su paquete de patrocinio", "responsable": "Lilian Paola", "prioridad": "MEDIA", "plazo": "Antes de febrero"},
+    {"tarea": "Revisar el calendario de eventos del departamento antes de fijar la fecha", "responsable": "Juan Pablo", "prioridad": "MEDIA", "plazo": "Antes de febrero"},
+    {"tarea": "Pedir el plan de retorno de la inversión, para tener contra qué comparar en el cierre de julio", "responsable": "Juan Pablo", "prioridad": "MEDIA", "plazo": "Con la presentación"}
+  ],
+  "observaciones": [
+    "**El área llegó con una pregunta de negocio, no con un ejercicio.** _El presupuesto de 2027 está abierto esta semana_, y la sesión se usó para resolverlo. **Es el uso más maduro del método: la herramienta entra donde ya hay una decisión que tomar.**",
+    "_Quedó dicha con claridad la diferencia que ordena todo lo que el área ha construido:_ **un circuito que se repite pide un agente; una pregunta de estrategia pide un proyecto.** Esta era la segunda, y por eso se volvió al proyecto que ya tenía la memoria del evento en vez de montar algo nuevo.",
+    "**La instrucción la dictó el área.** El clima, los patrocinadores, la inclusión y el histórico salieron de quienes conocen la carrera. _La mentoría aportó el orden de las preguntas, no el contenido._",
+    "**Las tres correcciones que hizo el área en vivo son la parte más valiosa de la sesión:** el patrocinio ya se cobró, aquí no hay cultura de pagar entrada, y el kit va dentro de la inscripción. _Son datos que el sistema no podía tener_, y sin ellos el plan habría salido con tres supuestos falsos.",
+    "_El ejercicio que estaba previsto para hoy no se pudo hacer:_ **pasar una presentación del área por el entorno de diseño.** No existía todavía una presentación lista. Se mostró con material propio de la mentoría y **quedó agendado para esta semana**, que es cuando el área va a tener la de la Media Maratón.",
+    "**La carrera va por su cuarta edición y es la primera vez que se le hace este análisis antes de presupuestar.** _El ejercicio no depende de la herramienta:_ depende de que alguien se siente a ordenar la pregunta. **La herramienta acortó eso a treinta y nueve minutos.**"
+  ],
+  "proxima_sesion": {
+    "sesion": "Servicios Sociales, Sesión 13",
+    "condiciones": [
+      "La presentación de la Media Maratón armada, con las ideas ya escogidas",
+      "El comparativo de otras carreras contrastado contra datos publicados",
+      "La proyección de patrocinio y costos, para recalcular el precio por corredor",
+      "El grupo de inclusión de 2027 propuesto"
+    ],
+    "agenda": [
+      "La presentación pasada por el entorno de diseño, junto con la mentoría",
+      "El plan de retorno de la inversión, para comparar en el cierre de julio",
+      "Preparación de la presentación ante la dirección",
+      "Qué parte de la Media Maratón se repite lo suficiente para valer un agente"
+    ]
+  },
+  "pie": "IAM™ Intelligence · Documento Confidencial | Comfacesar | 6 octubre 2026 | Servicios Sociales · Sesión 12"
+}

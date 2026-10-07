@@ -1,0 +1,207 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "AGENCIA DE EMPLEO",
+  "area_completa": "",
+  "sesion_num": 8,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "6 de octubre de 2026",
+  "fecha_corta": "6 octubre 2026",
+  "subtitulo_meta": "Lina María Rincón · 6 de octubre de 2026 · 11:00 a. m. · 1 h 24 min",
+  "datos_sesion": [
+    ["Área(s)", "Agencia de Empleo, Comfacesar"],
+    ["Sesión", "N° 8. Matías, el agente del recobro del subsidio al desempleo"],
+    ["Fecha", "6 de octubre de 2026"],
+    ["Duración de la sesión", "1 hora 24 minutos"],
+    ["Modalidad", "Virtual, por Microsoft Teams"],
+    ["Asistencia", "Lina María Rincón, completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo, Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "14.000", "etiqueta": "Filas en el reporte real", "detalle": "El dato con el que se probó"},
+    {"valor": "2.319", "etiqueta": "Personas por notificar", "detalle": "Depuradas del reporte"},
+    {"valor": "575", "etiqueta": "Registros duplicados detectados", "detalle": "Misma cédula y periodo, hasta 8 veces"},
+    {"valor": "24", "etiqueta": "Sin correo válido", "detalle": "Quedan marcados para gestión manual"},
+    {"valor": "6", "etiqueta": "Hitos de seguimiento", "detalle": "Días 15, 31, 46, 61, 76 y 90"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Lina María Rincón", "cargo": "Agencia de Empleo, Comfacesar", "correo": "", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 8. El agente quedó construido y probado con datos reales, así que los riesgos ya no son de aprendizaje: son los que separan una prueba de un circuito en producción.",
+  "riesgos": [
+    {
+      "titulo": "575 registros duplicados en el reporte de origen",
+      "nivel": "CRÍTICO",
+      "descripcion": "**La misma cédula y el mismo periodo aparecen hasta ocho veces**, con los mismos valores. _Lo único que cambia es la fecha de corte o cómo está escrito el aportante._ **Lo detectó el agente al leer el archivo real y propuso contar cada periodo una sola vez para no cobrar dos veces.** _El área lo confirmó y añadió el matiz que faltaba:_ un mismo periodo sí puede repetirse legítimamente **si corresponde a conceptos distintos**, salud y pensión. Sin esa corrección, el criterio habría dejado fuera cobros válidos.",
+      "responsable": "Lina María Rincón"
+    },
+    {
+      "titulo": "Hay casos de 2023 que podrían volver a notificarse",
+      "nivel": "ALTO",
+      "descripcion": "_El reporte arrastra periodos desde 2023._ **El agente avisó de que puede haber personas ya notificadas, con pago hecho o con acuerdo de pago, y que sin ese listado la primera corrida le escribiría a las 2.319.** _No es un detalle de forma:_ **notificar a alguien que ya pagó es un problema con un ciudadano, no un error de sistema.** Hace falta el listado de exclusión antes del primer envío.",
+      "responsable": "Lina María Rincón"
+    },
+    {
+      "titulo": "La cuenta conectada no era la de recobros",
+      "nivel": "ALTO",
+      "descripcion": "**Matías no podía enviar nada porque el correo conectado era el personal del área y no el buzón de recobros.** _Se cambió en sesión, con fricción:_ la aplicación de escritorio y la versión web estaban con cuentas distintas y hubo que cerrar sesión y volver a entrar. **Queda pendiente conectar Google Drive con esa misma cuenta.** _Y queda una advertencia de operación:_ el conector admite una sola cuenta, así que **el agente vive en la sesión de quien opera el buzón.**",
+      "responsable": "Lina María Rincón"
+    },
+    {
+      "titulo": "Una parte del proceso no la puede hacer el agente",
+      "nivel": "MEDIO",
+      "descripcion": "_Las actividades de pago y homologación salen del portal Zenit_, **que se entra con credenciales y el agente no tiene acceso.** Esa parte sigue siendo del equipo, y así quedó escrito en el alcance. _No es una limitación que se resuelva pidiéndoselo mejor:_ **es una frontera del circuito y conviene tenerla dicha desde ahora.**",
+      "responsable": "Lina María Rincón"
+    },
+    {
+      "titulo": "La conciliación falla cuando el pago llega sin soporte",
+      "nivel": "MEDIO",
+      "descripcion": "**La cuenta de recaudo es compartida**, así que cada mes hay que conciliar contra los soportes que envía la gente. _Si alguien paga y no manda el comprobante, ese pago no se puede identificar._ **La salida propuesta en sesión es un código de recaudo por persona**, que el agente puede generar como una columna más al cargar el reporte. _Queda para la siguiente fase, pero es el cuello de botella real del proceso._",
+      "responsable": "Lina María Rincón / Contabilidad"
+    }
+  ],
+  "alertas": [
+    {"num": "01", "nivel": "ALTO", "titulo": "Entregar el listado de exclusión antes del primer envío", "descripcion": "**Quién ya pagó, quién tiene acuerdo de pago y quién está en homologación.** _Sin eso, la primera corrida notifica a las 2.319 personas._", "responsable": "Lina María Rincón", "plazo": "Antes de activar el envío"},
+    {"num": "02", "nivel": "ALTO", "titulo": "Terminar de conectar la cuenta de recobros", "descripcion": "El correo ya quedó cambiado. **Falta Google Drive con esa misma cuenta**, que es donde vive el archivo compartido de seguimiento.", "responsable": "Lina María Rincón", "plazo": "Inmediato"},
+    {"num": "03", "nivel": "ALTO", "titulo": "Probar el circuito completo con un envío de prueba", "descripcion": "_Que el agente descargue, depure, redacte y envíe un correo de muestra al propio equipo_ **antes de que salga el primero a un beneficiario.**", "responsable": "Lina María Rincón", "plazo": "Antes del viernes"},
+    {"num": "04", "nivel": "MEDIO", "titulo": "Que Jurídica revise el tono del correo", "descripcion": "**Lo pidió el propio agente.** La carta legal queda intacta porque es el soporte del cobro, _pero el texto nuevo que va arriba conviene que lo lea Jurídica antes de enviarse a un ciudadano._", "responsable": "Lina María Rincón / Jurídica", "plazo": "Antes del primer envío"},
+    {"num": "05", "nivel": "MEDIO", "titulo": "Mapear el código de recaudo", "descripcion": "Es lo que permite conciliar sin depender de que el ciudadano mande el soporte. **Se mapea ahora para poder presentarlo**, aunque se construya en la fase siguiente.", "responsable": "Lina María Rincón / Contabilidad", "plazo": "Fase 2"}
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El flujograma que el área trajo hecho",
+      "duracion": "~15 min",
+      "objetivo": "Partir del proceso real y no de una descripción aproximada.",
+      "pasos": [
+        "**El área ajustó el documento del proceso** con las actividades, las etapas, el seguimiento y los correos que intervienen",
+        "**Pidió el flujograma a partir de ese documento** y lo revisó: quitó las actividades que no eran del circuito y dejó solo lo que el agente va a ejecutar",
+        "_Hubo que pedirlo dos veces:_ la primera versión salió partida en dos y con saltos de numeración, **y se rehízo completa**",
+        "_La lección quedó dicha en sesión:_ **no hace falta que el mapa salga perfecto.** El agente pregunta por lo que falta, y esas preguntas son las que terminan de ordenar el proceso"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Montar el repositorio y los conectores",
+      "duracion": "~10 min",
+      "objetivo": "Dejar el entorno listo antes de construir.",
+      "pasos": [
+        "**La carpeta del escritorio como repositorio del agente**, que el área ya tenía de la sesión anterior",
+        "Instalación de la aplicación de código y **revisión de los conectores**: correo, calendario y repositorio",
+        "**Se conectó Slack**, pensando en la fase siguiente",
+        "_Y apareció un conflicto de cuentas:_ la aplicación de escritorio y la versión web estaban con correos distintos. **Se trabajó desde el escritorio**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Matías, y las preguntas que hizo antes de construir",
+      "duracion": "~35 min",
+      "objetivo": "Entregar un proceso completo, no una tarea suelta.",
+      "pasos": [
+        "**El área le puso nombre: Matías.** Se le subieron el flujograma y el documento del proceso",
+        "**Y antes de construir nada pidió lo que faltaba:** el modelo de carta de notificación, el ejemplo del reporte de reintegros y la consulta de solicitudes",
+        "_Después vinieron trece preguntas, y cada una cerró un hueco del proceso:_",
+        "**El texto de la carta es el mismo en todas las etapas**, administrativa, persuasiva y prejurídica",
+        "**El correo remitente estaba escrito de dos formas en los documentos.** Quedó uno solo, el correcto",
+        "**La cadencia:** la revisión es el primer lunes de cada mes, porque el reporte del Ministerio no tiene fecha fija, _y el agente detecta solo cuándo entra un archivo nuevo en la carpeta_",
+        "**Las notificaciones van cada quince días durante tres meses**, contando días calendario desde el envío del primer correo, con hitos en los días 15, 31, 46, 61, 76 y 90",
+        "**Un archivo compartido en Drive entre los tres buzones**, donde el agente anota la fecha de cada notificación y el área anota los pagos y los acuerdos, _para que nadie reciba dos veces el mismo cobro_",
+        "**El valor va discriminado por salud, pensión y transferencia económica, con el total abajo**, igual que en la carta",
+        "**Quien no tiene correo o cuyo correo rebota queda etiquetado y agrupado en un reporte**, no perdido",
+        "**El seguimiento se detiene con el pago total.** Un acuerdo de pago no lo detiene: cambia la alerta",
+        "**Con acuerdo de pago, aviso al auxiliar cinco días antes del vencimiento de la cuota**, y correo al deudor avisando del vencimiento"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Las respuestas de los ciudadanos, enrutadas",
+      "duracion": "~10 min",
+      "objetivo": "Que una respuesta no se quede sin dueño.",
+      "pasos": [
+        "_El agente preguntó quién atiende las respuestas de los beneficiarios_, y ahí el área definió el enrutamiento",
+        "**Si el correo trae palabras como inconformidad, reintegro, recurso de reposición, apelación o derecho de petición, se remite automáticamente al buzón de Jurídica**, sin pedir aprobación",
+        "**Si menciona un acuerdo de pago, alerta al auxiliar**",
+        "**Y si no está claro, también avisa** en vez de decidir por su cuenta",
+        "_Vale la pena notar de dónde salió esto:_ **no estaba en el flujograma.** Salió de una pregunta del agente y de la experiencia del área"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · El correo, rediseñado para quien lo va a leer",
+      "duracion": "~10 min",
+      "objetivo": "Que el cobro se entienda en un celular.",
+      "pasos": [
+        "**La información va en el cuerpo del correo y no en un PDF adjunto**, _porque muchos beneficiarios lo abren desde el celular y no siempre pueden descargar un archivo_",
+        "**Arriba, lo que la persona necesita:** saludo por su nombre, una explicación corta y un recuadro con el valor a devolver en grande, el periodo y la cuenta",
+        "**Tres pasos numerados y una nota que ofrece el acuerdo de pago**",
+        "**Abajo, la carta completa, intacta**",
+        "**El asunto lleva el nombre de la persona y sube de tono con la etapa**, de un recordatorio a un aviso de cobro jurídico"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 8 · 6 octubre 2026",
+      "titulo": "Dejó intacta la parte legal y pidió que Jurídica revisara la suya",
+      "descripcion": "Al rediseñar el correo **conservó la carta tal cual, y explicó por qué: es un derecho de petición firmado por el gerente y es el soporte legal del cobro.** _Y sobre el texto nuevo que redactó arriba, recomendó que Jurídica le diera una mirada al tono._ **Distinguió solo lo que podía reescribir de lo que no**, y pidió revisión humana justo donde el documento deja de ser suyo.",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Pasar el correo por Jurídica antes del primer envío",
+      "target": "Antes de activar"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 8 · 6 octubre 2026",
+      "titulo": "Encontró en el archivo lo que nadie había mirado",
+      "descripcion": "Sobre las catorce mil filas del reporte real **detectó 575 registros duplicados, 24 personas sin correo válido y un caso con valores por revisar.** _No se limitó a reportarlo:_ propuso contar cada periodo una sola vez **y pidió autorización antes de aplicarlo.** El área confirmó y añadió el matiz que el criterio necesitaba. _Ese cruce, el de un hallazgo automático con el conocimiento del puesto, es exactamente el trabajo._",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Entregar el listado de exclusión de casos antiguos",
+      "target": "Antes del primer envío"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 8 · 6 octubre 2026",
+      "titulo": "Marcó como propuesta lo que no le habían pedido",
+      "descripcion": "Además del correo de cobro **redactó el aviso de cuota próxima a vencer, y lo entregó diciendo que era propuesta suya y que faltaba aprobarlo.** _Es la misma frontera que apareció en el tablero de Servicios Sociales y en el calendario tributario de Contabilidad:_ **la herramienta separa lo que le encargaron de lo que aportó por su cuenta.**",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Aprobar o ajustar el texto del aviso",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 8 · 6 octubre 2026",
+      "titulo": "El problema de fondo no es el cobro: es la conciliación",
+      "descripcion": "**La cuenta de recaudo es compartida**, y hoy un pago solo se identifica si el ciudadano envía el soporte por correo. _Si no lo envía, el dinero entra y no se sabe de quién es._ **La salida es un código de recaudo por persona**, que el agente puede generar al cargar el reporte. _Es una idea del área, no de la herramienta_, y resuelve un problema que existía antes del programa.",
+      "estado": "Propuesto en sesión",
+      "proximo_paso": "Mapearlo con Contabilidad para presentarlo",
+      "target": "Fase 2"
+    }
+  ],
+  "tareas_intro": "El agente quedó construido y probado con el archivo real. Lo que falta no es construir: es cerrar las condiciones para que empiece a escribirle a la gente.",
+  "tareas": [
+    {"tarea": "Entregar el listado de casos ya notificados, pagados o con acuerdo, para excluirlos", "responsable": "Lina María Rincón", "prioridad": "ALTA", "plazo": "Antes del primer envío"},
+    {"tarea": "Conectar Google Drive con la cuenta de recobros y crear el archivo compartido de seguimiento", "responsable": "Lina María Rincón", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Hacer la prueba completa del circuito con un correo de muestra al propio equipo", "responsable": "Lina María Rincón", "prioridad": "ALTA", "plazo": "Antes del viernes"},
+    {"tarea": "Pasar el texto del correo por Jurídica", "responsable": "Lina María Rincón / Jurídica", "prioridad": "MEDIA", "plazo": "Antes del primer envío"},
+    {"tarea": "Aprobar el texto del aviso de cuota próxima a vencer", "responsable": "Lina María Rincón", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Mapear el código de recaudo con Contabilidad", "responsable": "Lina María Rincón", "prioridad": "MEDIA", "plazo": "Fase 2"},
+    {"tarea": "Agendar las sesiones que quedan de la semana", "responsable": "Lina María Rincón", "prioridad": "ALTA", "plazo": "Inmediato"}
+  ],
+  "observaciones": [
+    "**El área cierra la sesión con su segundo agente construido y probado sobre datos reales.** _No es una maqueta:_ Matías leyó el reporte de catorce mil filas, lo depuró, encontró los duplicados y dejó listos los 2.319 envíos. **Lo único que lo detiene es la autorización, no la técnica.**",
+    "_Lo que hizo avanzar la sesión no fue el flujograma sino lo que el flujograma no decía._ **El agente hizo trece preguntas y cada una cerró un hueco del proceso:** la cadencia, el conteo de días, qué hacer con quien no tiene correo, cuándo se detiene el seguimiento, quién atiende las respuestas. _Ese interrogatorio es, en la práctica, una auditoría del procedimiento._",
+    "**Una parte del proceso quedó explícitamente fuera del alcance del agente:** las actividades que dependen del portal externo, al que se entra con credenciales. _Dejarlo escrito desde el principio evita la discusión de después_ sobre por qué el circuito no cubre todo.",
+    "_El cambio de cuenta costó quince minutos de sesión._ **El conector admite un solo correo**, así que el agente vive en la sesión de quien opera el buzón de recobros. Conviene tenerlo presente cuando el circuito pase a producción y lo opere otra persona.",
+    "**Aparecieron dos procesos más del área, mapeados pero no construidos:** el panel de control del buzón, que avisa de los correos pendientes de respuesta pasados los días de ley, y los informes del laboratorio de empleo, _cuyo software comprado nunca llegó a funcionar y hoy se resuelve a mano._",
+    "**El área tiene sesiones disponibles hasta el viernes** y quedó dicho que nadie va a la presentación ante la dirección sin ensayarla antes con la mentoría."
+  ],
+  "proxima_sesion": {
+    "sesion": "Agencia de Empleo, Sesión 9",
+    "condiciones": [
+      "Google Drive conectado con la cuenta de recobros y el archivo de seguimiento creado",
+      "El listado de exclusión entregado",
+      "La prueba del circuito hecha con un correo de muestra",
+      "El texto del correo revisado por Jurídica"
+    ],
+    "agenda": [
+      "El circuito de Matías de extremo a extremo, con envío real controlado",
+      "El tablero de gestión del agente, con semaforización e indicadores",
+      "El panel del buzón: correos pendientes de respuesta por días",
+      "El código de recaudo, mapeado para presentarlo"
+    ]
+  },
+  "pie": "IAM™ Intelligence · Documento Confidencial | Comfacesar | 6 octubre 2026 | Agencia de Empleo · Sesión 8"
+}
