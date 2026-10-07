@@ -6,6 +6,40 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## miércoles 7 de octubre de 2026 · 9:45 a. m. · Se me pasaron tres del martes
+
+Revisando la rama de Lucía para contestar si podíamos relevarla en sus tableros, aparecieron
+**tres sesiones del 6 de octubre que no estaban en el Termómetro**. Ella ya las tenía
+procesadas y commiteadas a las 13:28 UTC. Verificadas contra Dropbox antes de registrarlas:
+las tres con los tres soportes.
+
+**Agencia de Empleo, Sesión 8**, Lina María Rincón, 1 h 24 min, **1 de 1**. Matías, el agente
+del recobro del subsidio al desempleo. 14.000 filas, 2.319 personas por notificar, 575
+duplicados y 24 sin correo válido.
+
+**Vivienda, Sesión 6**, Cindy Marcela Silva, 1 h 4 de sala y **47 minutos de trabajo
+efectivo**, **1 de 1**. El tablero del programa de mejoramiento rural, 6 KPIs, 44 hogares en
+rojo detectados.
+
+**Subsidio, Sesión 10**, José Luciano Contreras, 1 h 11 min, **1 de 1**. La prueba del
+circuito completo sobre copia aislada, 15 verificaciones correctas.
+
+- **112 sesiones**, desde 109.
+- Asistencia **186 sobre 202**, sigue en 92%.
+- Agencia de Empleo 7 → 8 · Vivienda 5 → 6 · Subsidio 9 → 10.
+- Propagado: Termómetro v110, Mesa v25, propuesta v13. Las 18 áreas de la propuesta vuelven a
+  sumar exactamente 112.
+
+### ⚠️ Por qué se escaparon
+Las actas se cargaron a Dropbox a las **9:06 a. m.**, nueve minutos antes del corte de 9:15
+que publiqué. Los otros dos soportes estaban desde las 7:58. **Estaban ahí y mi barrido no
+las levantó.** El corte de las 9:15 salió incompleto y quedó superado por el de las 9:42.
+
+### Dos descripciones de la propuesta que pueden haber quedado viejas
+Subí los números, no los textos de venta. Con las sesiones nuevas, **Agencia de Empleo
+«filtrado sin armar»** y **Vivienda «interventoría sin automatizar»** pueden ya no describir
+lo que falta. Eso es criterio de Sandra, no conteo, y queda sin tocar.
+
 ## miércoles 7 de octubre de 2026 · 9:25 a. m. · Entran las dos sesiones del martes
 
 **Servicios Sociales, Sesión 12**, 6 de octubre, 39 minutos, **2 de 2** con Juan Pablo y
