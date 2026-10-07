@@ -1,0 +1,390 @@
+<title>Consola IAM™Hello</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap">
+<style>
+/* Una columna: resumen arriba, una tarjeta por espacio de cliente debajo.
+   Oscuro por defecto, que es el mundo de IAM™Hello; el claro es la variante. */
+:root{
+  --bg:#060607; --bg2:#0C0C0E; --card:rgba(255,255,255,.035); --card2:rgba(255,255,255,.06);
+  --line:rgba(255,255,255,.08); --line2:rgba(255,255,255,.15);
+  --ink:#F5F5F7; --ink2:#A9A9AF; --ink3:#7A7A82;
+  --red:#C00000; --redt:#FF5A55; --redsoft:rgba(192,0,0,.17); --redline:rgba(255,90,85,.35);
+  --vive:#3FB950; --espera:#D29922; --quieto:#7A7A82;
+  --sans:Geist,system-ui,-apple-system,Segoe UI,sans-serif;
+  --mono:Geist Mono,ui-monospace,SFMono-Regular,Menlo,monospace;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){
+  --bg:#F5F5F6; --bg2:#FFFFFF; --card:#FFFFFF; --card2:rgba(0,0,0,.045);
+  --line:rgba(0,0,0,.08); --line2:rgba(0,0,0,.15);
+  --ink:#0B0B0C; --ink2:#46464C; --ink3:#76767C;
+  --redt:#C00000; --redsoft:rgba(192,0,0,.08); --redline:rgba(192,0,0,.3);
+  --vive:#1A7F37; --espera:#9A6700;
+  color-scheme:light;
+}}
+:root[data-theme="light"]{
+  --bg:#F5F5F6; --bg2:#FFFFFF; --card:#FFFFFF; --card2:rgba(0,0,0,.045);
+  --line:rgba(0,0,0,.08); --line2:rgba(0,0,0,.15);
+  --ink:#0B0B0C; --ink2:#46464C; --ink3:#76767C;
+  --redt:#C00000; --redsoft:rgba(192,0,0,.08); --redline:rgba(192,0,0,.3);
+  --vive:#1A7F37; --espera:#9A6700;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:14.5px;line-height:1.5;letter-spacing:-.011em;-webkit-font-smoothing:antialiased}
+.envoltura{max-width:880px;margin:0 auto;padding-inline:16px;padding-block:28px 96px}
+a{color:var(--redt);text-decoration:none}
+a:focus-visible,button:focus-visible{outline:2px solid var(--redt);outline-offset:2px;border-radius:8px}
+
+/* Halo: el avatar de la marca. El cuerpo es el círculo de IAM™ y los brazos y
+   los pies son cuatro barritas. Todo el baile es CSS, no pesa nada. */
+.halo-baila{position:relative;display:block;width:22px;height:22px}
+.halo-baila i{position:absolute;display:block;background:var(--red);border-radius:2px}
+.halo-aro{left:3px;top:1px;width:16px;height:16px;background:none!important;border-radius:50%;
+  border:3.5px solid var(--red);box-shadow:0 0 12px rgba(255,40,40,.7);
+  animation:halo-cuerpo 1.4s ease-in-out infinite}
+.halo-brazo{top:7px;width:6px;height:2.5px;transform-origin:0 50%}
+.halo-brazo.halo-izq{left:-4px;transform-origin:100% 50%;animation:halo-brazo-izq 1.4s ease-in-out infinite}
+.halo-brazo.halo-der{right:-4px;animation:halo-brazo-der 1.4s ease-in-out infinite}
+.halo-pie{bottom:-1px;width:2.5px;height:5px}
+.halo-pie.halo-izq{left:6px;animation:halo-pie-izq 1.4s ease-in-out infinite}
+.halo-pie.halo-der{right:6px;animation:halo-pie-der 1.4s ease-in-out infinite}
+@keyframes halo-cuerpo{0%,100%{transform:translateY(0) rotate(-7deg) scaleY(1)}
+  25%{transform:translateY(-2.5px) rotate(0deg) scaleY(.94)}
+  50%{transform:translateY(0) rotate(7deg) scaleY(1)}
+  75%{transform:translateY(-2.5px) rotate(0deg) scaleY(.94)}}
+@keyframes halo-brazo-izq{0%,100%{transform:rotate(18deg)}50%{transform:rotate(-42deg)}}
+@keyframes halo-brazo-der{0%,100%{transform:rotate(-18deg)}50%{transform:rotate(42deg)}}
+@keyframes halo-pie-izq{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px) rotate(-14deg)}}
+@keyframes halo-pie-der{0%,100%{transform:translateY(-2px) rotate(14deg)}50%{transform:translateY(0)}}
+
+/* Y el que pasea de un lado a otro, abajo, sin parar. */
+#halo-suelto{position:fixed;bottom:18px;left:0;z-index:5;pointer-events:none;
+  animation:halo-pasea 38s linear infinite;will-change:transform}
+@keyframes halo-pasea{
+  0%{transform:translateX(16px) scaleX(1)}
+  49%{transform:translateX(calc(100vw - 60px)) scaleX(1)}
+  50%{transform:translateX(calc(100vw - 60px)) scaleX(-1)}
+  99%{transform:translateX(16px) scaleX(-1)}
+  100%{transform:translateX(16px) scaleX(1)}}
+@media (prefers-reduced-motion:reduce){
+  .halo-baila i{animation:none!important}
+  #halo-suelto{animation:none;left:auto;right:24px}
+}
+
+.cabecera{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+.marca{position:relative;width:34px;height:34px;border-radius:11px;background:#0A0A0A;
+  display:grid;place-items:center;flex:none;
+  box-shadow:0 0 0 1px rgba(255,255,255,.08),0 8px 24px rgba(192,0,0,.35)}
+.nombre{font-weight:700;font-size:15px;letter-spacing:-.02em;line-height:1.2}
+.etiqueta{font:500 10px var(--mono);letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink3);margin-top:3px}
+.tema{margin-left:auto;width:32px;height:32px;border-radius:9px;display:grid;place-items:center;
+  color:var(--ink2);background:none;border:1px solid var(--line);font-size:13px;cursor:pointer}
+.tema:hover{background:var(--card2);color:var(--ink)}
+
+.entrada{color:var(--ink2);margin:14px 0 24px;max-width:62ch}
+
+.resumen{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:26px}
+.cifra{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;min-width:0}
+.cifra b{display:block;font-size:26px;font-weight:600;letter-spacing:-.03em;
+  font-variant-numeric:tabular-nums;line-height:1.1}
+.cifra span{display:block;font:500 10px var(--mono);letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink3);margin-top:6px}
+
+.titulin{font:500 10px var(--mono);letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink3);margin:0 0 12px}
+
+.espacios{display:flex;flex-direction:column;gap:12px}
+.espacio{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;
+  display:grid;grid-template-columns:44px 1fr;gap:14px;align-items:start;min-width:0}
+.sigla{width:44px;height:44px;border-radius:13px;display:grid;place-items:center;flex:none;
+  background:var(--redsoft);border:1px solid var(--redline);color:var(--redt);
+  font:600 17px var(--mono)}
+.sigla img{width:44px;height:44px;border-radius:13px;object-fit:contain}
+.fila{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;min-width:0}
+.cliente{font-weight:600;font-size:16px;letter-spacing:-.02em}
+.pastilla{font:500 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;
+  padding:3px 9px;border-radius:999px;border:1px solid var(--line2);color:var(--ink2);white-space:nowrap}
+.pastilla.vive{color:var(--vive);border-color:color-mix(in srgb,var(--vive) 45%,transparent)}
+.pastilla.espera{color:var(--espera);border-color:color-mix(in srgb,var(--espera) 45%,transparent)}
+.reporte{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line);min-width:0}
+.reporte .cuando{font:500 10px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--ink3)}
+.reporte .titular{margin-top:4px;font-weight:500}
+.reporte .detalle{margin-top:4px;color:var(--ink2);font-size:13.5px}
+.sin-reporte{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line);
+  color:var(--ink3);font-size:13.5px}
+.acciones{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:12px}
+.entrar{display:inline-flex;align-items:center;gap:7px;padding:7px 14px;border-radius:999px;
+  background:var(--red);color:#fff;font-size:13px;font-weight:600;
+  box-shadow:0 8px 24px rgba(192,0,0,.35)}
+.entrar:hover{filter:brightness(1.08)}
+.ruta{font:400 11.5px var(--mono);color:var(--ink3);word-break:break-all;min-width:0}
+
+.vacio{background:var(--card);border:1px dashed var(--line2);border-radius:16px;
+  padding:26px 20px;text-align:left;color:var(--ink2)}
+.vacio b{display:block;color:var(--ink);font-weight:600;font-size:15px;margin-bottom:6px}
+.vacio code{font:400 12.5px var(--mono);color:var(--redt)}
+
+.pie{margin-top:30px;padding-top:18px;border-top:1px solid var(--line);
+  color:var(--ink3);font-size:13px;max-width:62ch}
+.pie code{font:400 12.5px var(--mono);color:var(--ink2)}
+
+@media (max-width:560px){
+  .resumen{grid-template-columns:1fr}
+  .espacio{grid-template-columns:1fr}
+  .sigla{width:38px;height:38px;border-radius:11px;font-size:15px}
+  .sigla img{width:38px;height:38px;border-radius:11px}
+}
+</style>
+
+<div class="envoltura">
+  <div class="cabecera">
+    <div class="marca">
+      <span class="halo-baila" aria-hidden="true">
+        <i class="halo-aro"></i><i class="halo-brazo halo-izq"></i><i class="halo-brazo halo-der"></i>
+        <i class="halo-pie halo-izq"></i><i class="halo-pie halo-der"></i>
+      </span>
+    </div>
+    <div>
+      <div class="nombre">IAM™Hello</div>
+      <div class="etiqueta">Consola · IAM™ Intelligence</div>
+    </div>
+    <button class="tema" id="tema" type="button" title="Claro o oscuro" aria-label="Cambiar entre claro y oscuro">◑</button>
+  </div>
+
+  <p class="entrada">Todos los espacios de cliente, en una sola vista. Cada cliente
+  tiene su propia app y entra directo a la suya, sin ver que existen las demás.
+  Lo que aparece aquí abajo lo escribe el agente de cada cliente.</p>
+
+  <div class="resumen">
+    <div class="cifra"><b id="n-clientes">0</b><span>Clientes</span></div>
+    <div class="cifra"><b id="n-vivos">0</b><span>Espacios publicados</span></div>
+    <div class="cifra"><b id="n-pendientes">0</b><span>Pendientes reportados</span></div>
+  </div>
+
+  <h2 class="titulin" id="titulin">Espacios</h2>
+  <div class="espacios" id="espacios">
+    <div class="vacio">
+      <b>Abriendo el directorio</b>
+      Si no aparece nada en unos segundos, es que todavía no hay clientes dados de alta.
+      Cada cliente se da de alta con su archivo en <code>clientes/</code> y queda aquí.
+    </div>
+  </div>
+
+  <p class="pie" id="pie">Un agente reporta escribiendo en el documento de su cliente,
+  en la colección <code>clientes</code>, el bloque <code>reporte</code> con
+  <code>ts</code>, <code>titular</code>, <code>detalle</code> y <code>pendientes</code>.
+  El directorio del repositorio es el que manda: si un cliente no está en
+  <code>clientes/</code>, no existe para el producto.</p>
+</div>
+
+<div id="halo-suelto" aria-hidden="true">
+  <span class="halo-baila">
+    <i class="halo-aro"></i><i class="halo-brazo halo-izq"></i><i class="halo-brazo halo-der"></i>
+    <i class="halo-pie halo-izq"></i><i class="halo-pie halo-der"></i>
+  </span>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  // Claro u oscuro, recordado solo en este navegador. Si el almacenamiento
+  // está bloqueado, la página sigue funcionando con el tema del sistema.
+  var raiz = document.documentElement, boton = document.getElementById('tema');
+  try {
+    var guardado = localStorage.getItem('iam-hello-tema');
+    if (guardado === 'claro' || guardado === 'oscuro') {
+      raiz.setAttribute('data-theme', guardado === 'claro' ? 'light' : 'dark');
+    }
+  } catch (e) {}
+  boton.addEventListener('click', function () {
+    var oscuroAhora = raiz.getAttribute('data-theme') === 'dark' ||
+      (!raiz.hasAttribute('data-theme') &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches);
+    var nuevo = oscuroAhora ? 'light' : 'dark';
+    raiz.setAttribute('data-theme', nuevo);
+    try { localStorage.setItem('iam-hello-tema', nuevo === 'light' ? 'claro' : 'oscuro'); } catch (e) {}
+  });
+
+  var ESPACIOS = document.getElementById('espacios');
+  var PIE = document.getElementById('pie');
+
+  function texto(el, s) { el.textContent = s; }
+
+  function fecha(ts) {
+    if (!ts) return '';
+    var d = new Date(ts);
+    if (isNaN(d.getTime())) return String(ts);
+    var meses = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio',
+                 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+    return d.getDate() + ' de ' + meses[d.getMonth()] + ' de ' + d.getFullYear();
+  }
+
+  function clasePastilla(estado) {
+    var e = String(estado || '').toLowerCase();
+    if (e.indexOf('cerrad') >= 0 || e.indexOf('corriendo') >= 0 || e.indexOf('activ') >= 0) return 'vive';
+    if (e.indexOf('arrancar') >= 0 || e.indexOf('espera') >= 0 || e.indexOf('pendiente') >= 0) return 'espera';
+    return '';
+  }
+
+  function tarjeta(c) {
+    var art = document.createElement('article');
+    art.className = 'espacio';
+
+    var sig = document.createElement('div');
+    sig.className = 'sigla';
+    if (c.logo_url) {
+      var img = document.createElement('img');
+      img.src = c.logo_url;
+      img.alt = c.nombre || '';
+      sig.appendChild(img);
+    } else {
+      texto(sig, (c.sigla || (c.nombre || '?').charAt(0)).toUpperCase());
+    }
+    art.appendChild(sig);
+
+    var cuerpo = document.createElement('div');
+    cuerpo.style.minWidth = '0';
+
+    var fila = document.createElement('div');
+    fila.className = 'fila';
+    var nom = document.createElement('span');
+    nom.className = 'cliente';
+    texto(nom, c.nombre || c.slug || 'Sin nombre');
+    fila.appendChild(nom);
+    if (c.estado) {
+      var p = document.createElement('span');
+      p.className = 'pastilla ' + clasePastilla(c.estado);
+      texto(p, c.estado);
+      fila.appendChild(p);
+    }
+    if (c.programa) {
+      var pr = document.createElement('span');
+      pr.className = 'pastilla';
+      texto(pr, c.programa);
+      fila.appendChild(pr);
+    }
+    cuerpo.appendChild(fila);
+
+    var r = c.reporte;
+    if (r && (r.titular || r.detalle)) {
+      var caja = document.createElement('div');
+      caja.className = 'reporte';
+      var cuando = document.createElement('div');
+      cuando.className = 'cuando';
+      texto(cuando, 'Último reporte del agente · ' + (fecha(r.ts) || 'sin fecha'));
+      caja.appendChild(cuando);
+      if (r.titular) {
+        var t = document.createElement('div');
+        t.className = 'titular';
+        texto(t, r.titular);
+        caja.appendChild(t);
+      }
+      if (r.detalle) {
+        var d = document.createElement('div');
+        d.className = 'detalle';
+        texto(d, r.detalle);
+        caja.appendChild(d);
+      }
+      if (typeof r.pendientes === 'number' && r.pendientes > 0) {
+        var pen = document.createElement('div');
+        pen.className = 'detalle';
+        texto(pen, r.pendientes === 1 ? '1 pendiente' : r.pendientes + ' pendientes');
+        caja.appendChild(pen);
+      }
+      cuerpo.appendChild(caja);
+    } else {
+      var sin = document.createElement('div');
+      sin.className = 'sin-reporte';
+      texto(sin, 'El agente de este cliente todavía no ha reportado.');
+      cuerpo.appendChild(sin);
+    }
+
+    var acc = document.createElement('div');
+    acc.className = 'acciones';
+    if (c.url) {
+      var a = document.createElement('a');
+      a.className = 'entrar';
+      a.href = c.url;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      texto(a, 'Entrar al espacio');
+      acc.appendChild(a);
+    } else {
+      var falta = document.createElement('span');
+      falta.className = 'ruta';
+      texto(falta, 'Sin app publicada todavía');
+      acc.appendChild(falta);
+    }
+    cuerpo.appendChild(acc);
+
+    art.appendChild(cuerpo);
+    return art;
+  }
+
+  function pintar(clientes) {
+    ESPACIOS.textContent = '';
+    if (!clientes.length) {
+      var v = document.createElement('div');
+      v.className = 'vacio';
+      var b = document.createElement('b');
+      texto(b, 'Todavía no hay clientes dados de alta');
+      v.appendChild(b);
+      v.appendChild(document.createTextNode(
+        'Un cliente se da de alta con su archivo en clientes/ del repositorio, ' +
+        'y desde ahí entra a esta consola y se construye su app.'));
+      ESPACIOS.appendChild(v);
+    } else {
+      clientes.forEach(function (c) { ESPACIOS.appendChild(tarjeta(c)); });
+    }
+    texto(document.getElementById('n-clientes'), String(clientes.length));
+    texto(document.getElementById('n-vivos'),
+      String(clientes.filter(function (c) { return !!c.url; }).length));
+    var pend = clientes.reduce(function (t, c) {
+      var n = c.reporte && c.reporte.pendientes;
+      return t + (typeof n === 'number' ? n : 0);
+    }, 0);
+    texto(document.getElementById('n-pendientes'), String(pend));
+  }
+
+  function sinConexion(motivo) {
+    ESPACIOS.textContent = '';
+    var v = document.createElement('div');
+    v.className = 'vacio';
+    var b = document.createElement('b');
+    texto(b, 'El directorio no está disponible en esta vista');
+    v.appendChild(b);
+    v.appendChild(document.createTextNode(motivo));
+    ESPACIOS.appendChild(v);
+  }
+
+  // Una sola suscripción, fuera de todo render.
+  (async function () {
+    var db = null;
+    try { db = await window.claude.use('db'); } catch (e) { db = null; }
+    if (!db) {
+      sinConexion('Hay que abrirla con la cuenta dueña de los espacios. ' +
+        'Mientras tanto el directorio del repositorio sigue siendo el que manda.');
+      return;
+    }
+    db.collection('clientes').orderBy('orden').onSnapshot(
+      function (snap) {
+        pintar(snap.docs.map(function (d) {
+          var o = d.data() || {};
+          return {
+            slug: d.id, nombre: o.nombre, sigla: o.sigla, estado: o.estado,
+            programa: o.programa, url: o.url, logo_url: o.logo_url, reporte: o.reporte
+          };
+        }));
+      },
+      function (err) {
+        sinConexion(err && err.code === 'revoked'
+          ? 'El acceso cambió mientras la página estaba abierta. Vuelve a abrirla.'
+          : 'No se pudo leer el directorio. Vuelve a abrirla en un momento.');
+      });
+  })();
+})();
+</script>
