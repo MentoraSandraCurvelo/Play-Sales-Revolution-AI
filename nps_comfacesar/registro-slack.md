@@ -6,6 +6,35 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## miércoles 7 de octubre de 2026 · 11:25 a. m. · El texto de la rutina queda al día
+
+Sandra decidió, por encuesta, **actualizar el texto de la rutina** `trig_01QZoDXDd8uZEwNcGW2LHCCH`.
+Hecho. Próxima corrida 12:10. La rutina corre cada hora, de 8:00 a 4:00, días hábiles.
+
+**Lo que cambió, y nada más que eso:**
+
+1. **La sección de fechas.** Decía «no publiques ninguna fecha de cierre» y «los tableros siguen
+   diciendo lunes 5 a propósito». Ahora dice lo que ella decidió: **el viernes 9 sí se puede
+   nombrar**, porque lo publicó ella misma el 6 de octubre a las 10:51; **el 31 de octubre y el
+   viernes 16 no se nombran** mientras la propuesta siga sin aprobar; y los tableros **no se
+   devuelven al lunes 5**.
+2. **La tabla de tableros.** El Corte ya no figura como «de Lucía»: figura como mío, con la ruta
+   del archivo fuente y la regla de que va con el mismo corte que el Termómetro.
+3. **Un paso nuevo en el Paso 0.** Leer `agentes/lucia/sesiones/*.json` antes de publicar, con la
+   regla de que si traen una sesión que el Termómetro no tiene, **gana el acta**. Eso es lo que
+   habría evitado el error de hoy, y lo añadí yo: queda dicho para que ella lo sepa.
+4. **Una regla nueva sobre cifras.** Una cifra que no se puede verificar no se inventa ni se borra:
+   **se fecha**. Y si un titular y su propia tabla no cuadran, manda la tabla. Sale de lo del Corte,
+   que decía 16 agentes con una tabla de 13.
+
+**Todo lo demás quedó palabra por palabra igual**, porque el prompt se reemplaza entero y no era
+momento de reescribir reglas que funcionan.
+
+### La corrida de las 11:11 no tuvo nada que hacer
+Lucía solo commiteó IAM™ Hello, Dropbox sin movimiento desde las 9:08, los tres DM nuevos vacíos.
+Confirmado de paso que **el acta de Servicios Sociales dice `Sesion12` y vive en la carpeta
+`Sesion 11`**: la discrepancia de numeración sigue abierta.
+
 ## miércoles 7 de octubre de 2026 · 10:30 a. m. · Corrida de la rutina · la columna «Próxima» estaba congelada
 
 **En Slack no se publicó nada.** Parte A cerrada por instrucción. Los tres DM más recientes
