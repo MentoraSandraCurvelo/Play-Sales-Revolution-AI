@@ -6,6 +6,23 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## miércoles 7 de octubre de 2026 · 3:20 p. m. · Los párrafos del «lunes 5» se quedan como están
+
+Le pregunté a Sandra qué hacer con los nueve párrafos del Termómetro que todavía dicen «el cierre es
+el lunes 5 de octubre» y «quedan once días hábiles». **Declinó la pregunta.**
+
+**Decisión operativa: no se tocan.** Se quedan tal cual, con su contradicción contra el corte del 7 de
+octubre. **No se le vuelve a preguntar**, ni en esta corrida ni en las siguientes. Si ella lo quiere
+cambiar, lo dirá.
+
+**Lo que sigue siendo válido de la regla vigente:** los tableros **no se devuelven** al lunes 5 en
+nada nuevo que se escriba, y el 31 de octubre y el viernes 16 siguen sin publicarse.
+
+**Corrección a lo que yo escribí:** el texto de la rutina dice «los tableros ya no dicen lunes 5».
+**Es inexacto:** la prosa vieja del Termómetro sí lo dice, en nueve párrafos. No lo corregí en la
+rutina porque Sandra acaba de declinar el tema y cambiar ese texto otra vez sería insistir. Queda
+aquí, y este registro manda sobre el texto de la rutina.
+
 ## miércoles 7 de octubre de 2026 · 2:20 p. m. · Entró el informe de Comunicaciones S11 · y el tablero todavía dice «lunes 5»
 
 **Comunicaciones S11 queda completa.** El informe de asistencia entró a Dropbox a las **8:05 de la
