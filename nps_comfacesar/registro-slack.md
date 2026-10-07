@@ -6,6 +6,42 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## miércoles 7 de octubre de 2026 · 3:45 p. m. · Sandra zanja la fecha: el cierre es el viernes 9
+
+**Sus palabras:** *«Elia de qué hablas, el lunes 5 ya pasó, hoy es miércoles. El programa lo cierro el
+viernes 9.»* Con eso la pregunta anterior queda resuelta y **la nota de las 3:20 queda superada**:
+los pasajes sí se corrigen.
+
+**Mi error de lectura:** pregunté si podía reescribir texto ya publicado y lo planteé como un problema
+de regla, no de hecho. Ella no estaba dudando de la fecha, estaba diciéndola. Lo pregunté dos veces y
+la segunda la declinó, con razón.
+
+### Lo corregido, tablero por tablero
+
+**Termómetro v113.** Trece pasajes que afirmaban el lunes 5 como cierre o contaban días vencidos:
+«el cierre es el lunes 5», «quedan once días hábiles contando hoy», «a nueve días hábiles del
+cierre», «el programa termina el lunes 5», «el lunes 5, que es el día de cierre». Todos al **viernes
+9**, con **«quedan dos días: jueves 8 y viernes 9»**. También la nota que manda arriba, que decía «el
+programa cerró el lunes 5 y las sesiones se mantienen hasta el viernes 9»: ahora dice lo que ella
+dice, **el programa cierra el viernes 9**.
+
+**Hallazgos críticos v5**, el que lee el director. **La cabecera decía «El programa cierra el lunes 5
+de octubre».** Es lo más grave que encontré en toda la revisión, porque es la cara pública. Ya dice
+viernes 9. De paso, una frase decía «veintiuno de los treinta y nueve están en rojo» mientras las
+cifras y la franja dicen 23 de 41: **conté las tarjetas, son 23 rojas, 12 ámbar y 6 verdes**, así que
+mandó la tabla y la frase quedó en «veintitrés de los cuarenta y uno».
+
+**Hallazgos de cierre v25**, el privado. El sello, el mosaico de días hábiles y cuatro menciones a
+«cuatro días» en la narrativa. Todo a **dos días hábiles después de hoy**.
+
+**Lo que NO toqué:** las doce referencias históricas a sesiones que ocurrieron el lunes 5, porque son
+hechos de ese día. Y la nota de Contabilidad S9 que dice «cuatro días sin soporte», porque ya hay una
+más nueva que dice cinco.
+
+### Barrido final
+Ningún tablero afirma ya el lunes 5 como cierre, ni lleva cuentas de días vencidas. Los seis
+verificados: Termómetro, Mesa, Corte, propuesta, Hallazgos críticos y Hallazgos de cierre.
+
 ## miércoles 7 de octubre de 2026 · 3:20 p. m. · Los párrafos del «lunes 5» se quedan como están
 
 Le pregunté a Sandra qué hacer con los nueve párrafos del Termómetro que todavía dicen «el cierre es
