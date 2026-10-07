@@ -28,6 +28,29 @@ con cuatro minutos de diferencia.
 | **Disparador** | La corrida de las 7:00 p.m. | Días sin sesión y el calendario de medición |
 | **Frecuencia** | Un mensaje por sesión ejecutada | Máximo uno por canal por semana |
 
+## Quién mantiene cada tablero
+
+Acordado el **miércoles 7 de octubre de 2026** con Sandra. Un dueño por tablero, repartido
+por función, no por tablero suelto.
+
+| Tablero | Lo mantiene |
+|---|---|
+| Actas, canales de área y las fichas de sesión | **Lucía** |
+| Termómetro, Mesa, propuesta de Fase 2 y **el Corte de María Elvira** | **Elia** |
+
+**El Corte pasa de Lucía a Elia.** Venía sin actualizar desde el 30 de septiembre y publicaba
+103 sesiones con un contador de días vencido, mientras Lucía seguía procesando actas a diario.
+No era un problema de atención suyo: era un tablero fuera de su rutina. Elia lo republica con
+el mismo corte que el Termómetro, para que María Elvira no lea dos cifras distintas.
+
+**Lo que no cambia:** las actas y las fichas de sesión siguen siendo de Lucía, y son la fuente.
+Elia cuenta desde ahí. Si una acta de Lucía trae una sesión que el Termómetro no tiene, **gana
+el acta** y Elia corrige el conteo, no al contrario.
+
+**La razón por la que se escribió esta regla:** el 7 de octubre las actas de Lucía llevaban tres
+sesiones del día anterior que el Termómetro no tenía, y el Termómetro llevaba nueve que el Corte
+no tenía. Las dos cosas a la vez. Nadie estaba mirando el trabajo de la otra.
+
 ## Horario: 8:00 a.m. a 5:00 p.m., días hábiles
 
 **Ningún agente publica en Slack fuera de ese rango.** Un mensaje a las 7 de la noche

@@ -6,6 +6,51 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## miércoles 7 de octubre de 2026 · 10:20 a. m. · El Corte pasa a Elia
+
+Sandra decidió, por encuesta, que **el Corte de María Elvira lo mantengo yo**. Lucía sigue con
+las actas y los canales, que es donde va más rápido. Queda escrito en `agentes/CONTRATO-SLACK.md`,
+sección «Quién mantiene cada tablero», para que Lucía lo lea antes de volver a escribir.
+
+**Por qué se movió:** el Corte no se tocaba desde el 30 de septiembre y publicaba 103 sesiones,
+22 caídas y «3 días hábiles restantes», un contador que venció el 5 de octubre. María Elvira lo
+lee. Lucía mientras tanto commiteaba actas todos los días: no era desatención suya, el Corte
+estaba fuera de su rutina.
+
+**Publicado:** `corte-comfacesar.html` v8, sobre el mismo enlace, para no cambiarle la dirección
+a María Elvira. El archivo fuente queda ahora en `nps_comfacesar/`, que es donde lo mantengo.
+
+### Lo que se corrigió, y de dónde salió cada cifra
+| | Antes | Ahora | Fuente |
+|---|---|---|---|
+| Sesiones | 103 | **112** | Termómetro v110 |
+| Sesiones caídas | 22 | **25** | conteo acumulado del Termómetro |
+| Días hábiles | 3, al lunes 5 | **2, al viernes 9** | la fecha que Sandra publicó el 6 |
+| Agentes | 16 | **13** | la propia tabla de la sección 03, que enumera 13 |
+| Nota de ahorros | «los doce» | **«los diecisiete»** | la propia tabla de la sección 02 |
+| Nota de hallazgos | «los tres» | **«los cuatro»** | el propio título de la sección 04 |
+| Pie | 16 de septiembre | **7 de octubre** | |
+
+**La sección «Avance por área» sumaba 95 con un titular de 103.** La reconstruí entera con los
+18 números verificados, reordenada de mayor a menor y con las barras recalculadas sobre el nuevo
+tope, que es Jurídica con 12. Ahora suma 112 exacto.
+
+**La nota 1 decía «el acumulado de 78 sesiones»**, con una base del 18 de septiembre. Reescrita
+sobre la base actual.
+
+### Lo que dejé sin tocar, y por qué
+- **«Procesos con ahorro medido», 17.** Coincide con su tabla, así que no hay contradicción que
+  resolver. Si entraron ahorros nuevos en octubre, eso es criterio, no conteo.
+- **Toda la narrativa de la semana del 29 de septiembre.** Es cierta como historia. No reescribo
+  prosa fechada ajena; lo que hice fue añadir el párrafo de las tres caídas nuevas debajo.
+- **Los 40 guiones medios que vienen de antes.** La regla de no usarlos es del 6 de octubre y el
+  documento es anterior. Quitarlos es tocar prosa, no cifras. **Queda a decisión de Sandra.**
+
+### ⚠️ No quedé suscrita a avisos de ese tablero
+El enlace de aviso no se registró: esta sesión ya tiene los 10 que permite. Si Lucía republicara
+el Corte por su lado, **no me enteraría**. Mientras el contrato diga que lo mantengo yo, no debería
+pasar, pero queda anotado.
+
 ## miércoles 7 de octubre de 2026 · 9:45 a. m. · Se me pasaron tres del martes
 
 Revisando la rama de Lucía para contestar si podíamos relevarla en sus tableros, aparecieron
