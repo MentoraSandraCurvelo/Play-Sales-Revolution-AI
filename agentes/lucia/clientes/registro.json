@@ -1,0 +1,7 @@
+{
+  "producto": "IAM™Hello",
+  "version_registro": 1,
+  "actualizado": "2026-10-07",
+  "para_que_sirve": "El directorio único de IAM™Hello. La plantilla construye desde aquí, la consola de Sandra lista desde aquí, y cada agente lee aquí a qué app le toca entrar. Si un cliente no está en este archivo, no existe para el producto.",
+  "clientes": ["comfacesar", "novasoft"]
+}

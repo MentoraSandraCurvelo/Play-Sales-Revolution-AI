@@ -11,11 +11,28 @@ fragmento pesa 2 MB y no 6. Los PDF viajan aparte, en `actas/`, que es a donde
 ya apuntan los enlaces.
 """
 import os, re, shutil, sys
-import empaquetar
+import empaquetar, marca
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 PLANTILLA = os.path.join(AQUI, 'plantilla_v2')
-DEST = sys.argv[1] if len(sys.argv) > 1 else os.path.join(AQUI, 'publicado')
+
+
+def argumentos():
+    """`--cliente <slug>` y, opcional, la carpeta destino.
+
+    Sin `--cliente` se publica Comfacesar, que es el espacio original. El
+    destino por defecto es `publicado/<slug>`, para que publicar un cliente no
+    pise lo del anterior."""
+    args = sys.argv[1:]
+    slug = 'comfacesar'
+    if '--cliente' in args:
+        i = args.index('--cliente')
+        if i + 1 >= len(args):
+            raise SystemExit('falta el nombre del cliente después de --cliente')
+        slug = args[i + 1]
+        del args[i:i + 2]
+    dest = args[0] if args else os.path.join(AQUI, 'publicado', slug)
+    return slug, dest
 
 SCRIPTS = (('<script src="./support.js"></script>', 'support.js'),
            ('<script src="lib/iam.js"></script>', os.path.join('lib', 'iam.js')),
@@ -27,6 +44,8 @@ def en_linea(js):
 
 
 def main():
+    slug, DEST = argumentos()
+    cfg = marca.cargar(slug)
     os.makedirs(DEST, exist_ok=True)
     html = open(os.path.join(PLANTILLA, 'IAM Archivo.dc.html'), encoding='utf-8').read()
     html = empaquetar.sin_internet(html)
@@ -44,6 +63,11 @@ def main():
     # no arrancaba.
     guiones = re.findall(r'<script(?:\s[^>]*)?>.*?</script>', cabeza, re.S)
     frag = '\n'.join(guiones) + '\n' + cuerpo.strip() + '\n'
+
+    # La identidad del cliente, al final y sobre el fragmento ya armado. Si un
+    # texto de la plantilla cambió, esto detiene la publicación en vez de
+    # sacarle a un cliente una app con el nombre de otro.
+    frag, cambios = marca.aplicar(frag, cfg)
 
     ruta = os.path.join(DEST, 'iam-hello.html')
     open(ruta, 'w', encoding='utf-8').write(frag)
@@ -65,8 +89,16 @@ def main():
         os.makedirs(destino, exist_ok=True)
         for f in sorted(os.listdir(bajados)):
             shutil.copy(os.path.join(bajados, f), os.path.join(destino, f)); m += 1
-    print('%s  (%.1f MB)\n  %d actas en actas/\n  %d adjuntos en archivos/'
-          % (ruta, os.path.getsize(ruta) / 1048576, n, m))
+    print('%s  ·  %s  (%.1f MB)\n  %d actas en actas/\n  %d adjuntos en archivos/'
+          % (ruta, cfg['nombre'], os.path.getsize(ruta) / 1048576, n, m))
+    if cambios:
+        for viejo, nuevo in cambios:
+            print('  marca: %s  →  %s' % (viejo, nuevo))
+    else:
+        print('  marca: sin cambios, la plantilla ya es de este cliente')
+    if not marca.logo(cfg):
+        print('  falta el logo (clientes/%s): sale la sigla «%s»'
+              % (cfg.get('logo', '?'), cfg.get('sigla', '?')))
 
 
 if __name__ == '__main__':
