@@ -236,3 +236,17 @@ de José Luciano Contreras.
 - **Sus sesiones se agendan con el título de otra área por error.** La del miércoles 7 a las
   11:00 a. m. llegó como «IPS | Sesion 6». _Cuando aparezca un agendamiento desde ese correo,
   el área es Subsidio y Aportes._
+
+
+## Cindy Rodríguez · Subsidio y Aportes
+
+**Corrección del 7 de octubre, dictada por Sandra: Cindy Rodríguez es de Subsidio y Aportes.**
+
+- _El error venía de la tabla del relevo del 11 de septiembre_, donde aparece en la fila de
+  Crédito porque entró como representante de esa área. **El área con la que se trabaja y con
+  la que se numeran sus sesiones es Subsidio y Aportes.**
+- Correo: `atencion_reclamos@comfacesar.com` · canal `#subsidio`.
+- **Las sesiones de Subsidio llevan una sola numeración para toda el área**, sin importar
+  quién asista. _Avelino Romero, Cindy Rodríguez y José Luciano Contreras comparten la serie:_
+  la S9 del 2 de octubre fue de Avelino, la S10 del 6 de octubre de José Luciano.
+- **No confundir con Cindy Marcela Silva Ibarra**, que es Vivienda.
