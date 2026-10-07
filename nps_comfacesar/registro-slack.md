@@ -6,6 +6,26 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## miércoles 7 de octubre de 2026 · 12:15 p. m. · Primer cruce completo contra las actas de Lucía · limpio
+
+Primera corrida con el texto nuevo. **Apliqué el paso 3 a fondo**, no solo a las sesiones del día:
+bajé **las 81 fichas de `agentes/lucia/sesiones/*.json`** y las crucé una por una contra las filas
+del Termómetro, área por área y número por número.
+
+**Resultado: ninguna sesión de sus actas falta en mi tablero.** Las 112 se sostienen.
+
+El único desencuadre aparente fue **Sub. Admin y Financiera**, y es al revés de lo que temía: mi
+tablero tiene **S1 del 20 de agosto**, de la que ella no tiene acta. Sus fichas van de la S2 a la
+S11, diez; mi tablero tiene once válidas más las dos caídas del 11 y el 14 de septiembre. Cuadra.
+
+**Nada que publicar en Slack.** Lucía commiteó a las 11:42 pero sobre el molde de un cliente nuevo,
+no sobre Comfacesar. Dropbox sin movimiento desde las 9:08. DM sin novedad.
+
+*Nota de método:* el cruce se hace normalizando el nombre del área, porque los dos lados la escriben
+distinto: ella **SUBADMINISTRATIVAYFINANCIERA**, el tablero **Sub. Admin y Financiera**. Si una
+corrida futura reporta «área no encontrada», es eso y no una sesión perdida: se verifica a mano
+antes de tocar nada.
+
 ## miércoles 7 de octubre de 2026 · 11:25 a. m. · El texto de la rutina queda al día
 
 Sandra decidió, por encuesta, **actualizar el texto de la rutina** `trig_01QZoDXDd8uZEwNcGW2LHCCH`.
