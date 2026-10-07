@@ -1827,3 +1827,35 @@ octubre en `#agencia-de-empleo` dice que el jueves 8 es la Sesión 9 y el vierne
 Sesión 10. _Con la sesión que se agendó el 6 por la tarde para el miércoles 7, esos números
 corren a 10 y 11._ **El mensaje del canal quedó desactualizado y la corrección necesita
 visto bueno antes de publicarse.**
+
+## 7 de octubre · El cierre de la fase 1, en cinco canales
+
+**Sandra fijó el criterio: solo las áreas activas que no tengan sesión esta semana.**
+_A las que sí tienen sesión se les dice en vivo, no por el canal._ Mercadeo y Tecnología
+quedaron fuera por instrucción suya.
+
+| Recibió el mensaje | Última sesión |
+|---|---|
+| Servicios Sociales | S12, 6 de octubre |
+| Vivienda | S6, 6 de octubre |
+| Sub. Operativa y Comercial | S5, 5 de octubre |
+| Sub. Administrativa y Financiera | S11, 28 de septiembre |
+| Contabilidad | S8, 25 de septiembre |
+
+**Quedaron fuera por tener sesión esta semana:** Subsidio, Agencia de Empleo, IPS,
+Educación, Jurídica y Comunicaciones.
+
+**Y quedaron fuera por llevar semanas paradas:** Talento Humano (S3, 16 de septiembre),
+Cumplimiento (S2, 22 de septiembre), Tesorería (S2, 9 de septiembre), Planeación y
+Gerencia Financiera (S2, 3 de septiembre). _Dos o tres sesiones cada una y la última de
+hace un mes._
+
+El mensaje dice tres cosas: **que la fase 1 cierra el viernes 9 y cierra con éxito**, que
+no queda nada pendiente por resolver, que cada canal recibirá su reporte de cierre, y que
+**quien tenía algo agendado para la semana entrante lo conserva para la fase 2.**
+
+## 7 de octubre · Las cuatro grabaciones del martes
+
+Publicadas en `#agencia-de-empleo`, `#vivienda` y `#subsidio`, cada una bajo su resumen.
+La de `#comunicaciones` había salido antes. _Con eso el martes 6 queda cerrado del todo:
+las cuatro áreas con grabación, resumen y acta._
