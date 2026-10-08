@@ -19,11 +19,22 @@
       "canal": "novasoft",
       "nombre": "Novasoft",
       "id": "NOVA-GENERAL",
-      "fijados": []
+      "fijados": [],
+      "grabaciones": [
+        {
+          "url": "https://netorg20780382-my.sharepoint.com/:v:/g/personal/sandracurvelo_iamlatam_co/IQCdV1Oy1HjJQpVNrsC7K3jIAXvldSHnzIq4uDhweSV6va4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=lv27O6",
+          "titulo": "Sesión 1 · Perfil y SiBruno",
+          "sesion": 1,
+          "fecha": "2026-10-05",
+          "acta": false
+        }
+      ]
     }
   ],
   "generales": [],
   "nota_fijados": "Aquí van las carpetas de Dropbox del proyecto.",
   "fuente_actas": "",
-  "fuente_archivos": ""
+  "fuente_archivos": "",
+  "lema": "El espacio de trabajo del programa. Las actas, las grabaciones y la conversación del equipo, en un solo sitio y sin fecha de caducidad.",
+  "nota_archivo": "Aquí no se borra nada con el tiempo. Cada sesión deja su acta, su grabación y lo que se habló, y <b style=\"color:var(--ink)\">todo queda</b> para consultarlo cuando haga falta."
 }

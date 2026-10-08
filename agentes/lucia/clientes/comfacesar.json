@@ -15,5 +15,7 @@
   "notas": "El espacio original: la réplica del Slack del programa, de solo lectura. 19 canales, actas y adjuntos. No lleva conversación porque la conversación viva está en Slack.",
   "logo_fondo": "#FFFFFF",
   "fuente_actas": "salida",
-  "fuente_archivos": "archivo-slack/adjuntos"
+  "fuente_archivos": "archivo-slack/adjuntos",
+  "lema": "Nueve semanas de trabajo con dieciocho áreas, guardadas fuera de Slack. Aquí no caducan a los noventa días.",
+  "nota_archivo": "Slack en plan gratuito esconde los mensajes a los noventa días y borra a un año lo que pase de doce meses. Este archivo se baja <b style=\"color:var(--ink)\">el día 2 de cada mes</b> y deja de depender de eso."
 }

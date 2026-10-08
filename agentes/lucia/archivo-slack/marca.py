@@ -15,7 +15,7 @@ publicarle a Novasoft una app que dice Comfacesar.
 
     python3 marca.py novasoft     para ver qué cambiaría
 """
-import json, os, sys
+import base64, json, os, sys
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 CLIENTES = os.path.join(os.path.dirname(AQUI), 'clientes')
@@ -30,6 +30,20 @@ IDENTIDAD = (
     ('Archivo · Comfacesar',        'subtitulo', 1),
     ('IAM™ Intelligence · Comfacesar', '@programa · @nombre', 1),
     ('IAM™Hello · Archivo Comfacesar', 'IAM™Hello · @subtitulo', 1),
+    # Estas dos estaban escritas a mano en la plantilla y salían en la app de
+    # cualquier cliente: el pie decía el rango de fechas de Comfacesar y el
+    # nombre de su espacio de Slack, y la cinta sus nueve semanas. Un cliente
+    # nuevo veía los datos del anterior.
+    ('4 ago – 30 sep 2026 · IAM™Team', '@rango · @espacio', 1),
+    ('EN VIVO · 9 SEMANAS',            '@cinta', 1),
+    # Y el texto grande de la portada, que contaba las nueve semanas y las
+    # dieciocho áreas de Comfacesar, y la nota sobre Slack. Un cliente que
+    # nunca estuvo en Slack no tiene por qué leer eso en su propia app.
+    ('Nueve semanas de trabajo con dieciocho áreas, guardadas fuera de Slack. '
+     'Aquí no caducan a los noventa días.', 'lema', 1),
+    ('Slack en plan gratuito esconde los mensajes a los noventa días y borra a un año '
+     'lo que pase de doce meses. Este archivo se baja <b style="color:var(--ink)">el día 2 '
+     'de cada mes</b> y deja de depender de eso.', 'nota_archivo', 1),
 )
 
 
@@ -55,7 +69,8 @@ def _valor(plantilla, cfg):
     if not plantilla.startswith('@') and ' @' not in plantilla:
         return cfg[plantilla]
     out = plantilla
-    for campo in ('programa', 'nombre', 'espacio', 'subtitulo', 'nombre_largo'):
+    for campo in ('programa', 'nombre', 'espacio', 'subtitulo', 'nombre_largo',
+                  'rango', 'cinta', 'lema', 'nota_archivo'):
         out = out.replace('@' + campo, cfg.get(campo, ''))
     return out
 
@@ -85,6 +100,40 @@ def logo(cfg):
         return None
     ruta = os.path.join(CLIENTES, rel)
     return ruta if os.path.exists(ruta) else None
+
+
+# La baldosa de arriba a la izquierda, que en Slack es el icono del espacio.
+# Trae a Halo dibujado a mano, y ahí es donde va el logo del cliente.
+BALDOSA = '<span class="halo-baila" aria-hidden="true">'
+
+
+def poner_logo(frag, cfg):
+    """Mete el logo del cliente en la baldosa de la barra lateral.
+
+    Halo no se pierde: sigue paseando por toda la app, que es donde vive. Lo
+    que cambia es la baldosa de identidad, que debe ser del cliente igual que
+    en Slack el icono es el del espacio. Sin logo declarado, se queda Halo.
+    """
+    l = logo(cfg)
+    if not l:
+        return frag, None
+    hay = frag.count(BALDOSA)
+    if hay != 1:
+        raise MarcaIncompleta(
+            'la baldosa de la barra lateral aparece %d veces y se esperaba 1. '
+            'Cambió la plantilla: hay que actualizar BALDOSA en marca.py.' % hay)
+    ext = os.path.splitext(l)[1].lower().lstrip('.')
+    tipo = 'svg+xml' if ext == 'svg' else ('jpeg' if ext in ('jpg', 'jpeg') else ext)
+    dato = base64.b64encode(open(l, 'rb').read()).decode('ascii')
+    img = ('<img src="data:image/%s;base64,%s" alt="%s" '
+           'style="width:100%%;height:100%%;object-fit:contain;padding:3px;'
+           'border-radius:11px;background:%s">'
+           % (tipo, dato, cfg.get('nombre', ''), cfg.get('logo_fondo', '#0A0A0A')))
+    # La baldosa se reemplaza entera: desde la etiqueta de apertura hasta su
+    # cierre, para no dejar dentro los trozos dibujados de Halo.
+    i = frag.index(BALDOSA)
+    j = frag.index('</span>', frag.index('halo-pie halo-der', i)) + len('</span>')
+    return frag[:i] + img + frag[j:], l
 
 
 def main():

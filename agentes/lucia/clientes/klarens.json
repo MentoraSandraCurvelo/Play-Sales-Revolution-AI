@@ -7,7 +7,7 @@
   "logo": "logos/klarens.png",
   "sigla": "K",
   "estado": "en curso, sesión 3",
-  "url": "",
+  "url": "https://claude.ai/artifact/Xag4QKnD178XtmMPetaoFi",
   "subtitulo": "Klaren's",
   "modo": "espacio",
   "conversacion": true,
@@ -15,12 +15,26 @@
   "notas": "Programa de Social Selling, no de agentes. Perfiles de LinkedIn, página de compañía, banners y línea base de métricas. Contrato firmado el 23 de septiembre de 2026. Todavía no tiene app publicada: falta el logo y decidir si entra a Hello.",
   "logo_fondo": "#FFFFFF",
   "canales": [
-    {"canal": "perfiles", "nombre": "Perfiles y página de compañía", "fijados": []},
-    {"canal": "marketing", "nombre": "Marketing", "fijados": []},
-    {"canal": "comercial", "nombre": "Equipo comercial", "fijados": []}
+    {
+      "canal": "perfiles",
+      "nombre": "Perfiles y página de compañía",
+      "fijados": []
+    },
+    {
+      "canal": "marketing",
+      "nombre": "Marketing",
+      "fijados": []
+    },
+    {
+      "canal": "comercial",
+      "nombre": "Equipo comercial",
+      "fijados": []
+    }
   ],
   "generales": [],
   "nota_fijados": "Aquí van las carpetas de Dropbox del proyecto.",
   "fuente_actas": "",
-  "fuente_archivos": ""
+  "fuente_archivos": "",
+  "lema": "El espacio de trabajo del programa. Las actas, las grabaciones y la conversación del equipo, en un solo sitio y sin fecha de caducidad.",
+  "nota_archivo": "Aquí no se borra nada con el tiempo. Cada sesión deja su acta, su grabación y lo que se habló, y <b style=\"color:var(--ink)\">todo queda</b> para consultarlo cuando haga falta."
 }

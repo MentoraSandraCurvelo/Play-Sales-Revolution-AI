@@ -10,7 +10,7 @@ Las librerías salen del CDN —en la web sí se alcanzan—, de modo que el
 fragmento pesa 2 MB y no 6. Los PDF viajan aparte, en `actas/`, que es a donde
 ya apuntan los enlaces.
 """
-import os, re, shutil, sys
+import json, os, re, shutil, sys
 import empaquetar, marca
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
@@ -74,6 +74,39 @@ def copiar(rel, destino, extension):
     return n
 
 
+MES = ('ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic')
+
+
+def periodo(ruta_js):
+    """El rango de fechas y la cinta, sacados de los datos del propio cliente.
+
+    Estaban escritos a mano dentro de la plantilla, así que la app de cualquier
+    cliente mostraba el rango de Comfacesar y su número de semanas. Se calculan
+    aquí para que cada uno muestre lo suyo, y un cliente que arranca no muestre
+    un periodo que no ha vivido."""
+    crudo = open(ruta_js, encoding='utf-8').read()
+    i, j = crudo.find('{'), crudo.rfind('}')
+    datos = json.loads(crudo[i:j + 1]) if i >= 0 < j else {}
+
+    fechas = []
+    for c in datos.get('canales', []):
+        for k in ('desde', 'hasta'):
+            if c.get(k):
+                fechas.append(c[k])
+    def bonito(iso):
+        a, m, d = iso.split('-')
+        return '%d %s' % (int(d), MES[int(m) - 1]), a
+    if fechas:
+        (d1, a1), (d2, a2) = bonito(min(fechas)), bonito(max(fechas))
+        rango = d1 + ' – ' + d2 + ' ' + a2 if a1 == a2 else d1 + ' ' + a1 + ' – ' + d2 + ' ' + a2
+    else:
+        rango = 'Sin mensajes todavía'
+
+    n = len(datos.get('semanas') or [])
+    cinta = 'EN VIVO · %d SEMANAS' % n if n else 'EN VIVO'
+    return rango, cinta
+
+
 def en_linea(js):
     return js.replace('</script', '<\\/script').replace('<!--', '<\\!--')
 
@@ -105,7 +138,22 @@ def main():
     # La identidad del cliente, al final y sobre el fragmento ya armado. Si un
     # texto de la plantilla cambió, esto detiene la publicación en vez de
     # sacarle a un cliente una app con el nombre de otro.
+    cfg['rango'], cfg['cinta'] = periodo(datos)
     frag, cambios = marca.aplicar(frag, cfg)
+    # El logo del cliente en la baldosa de identidad, como el icono del espacio
+    # en Slack. Estaba declarado en el archivo de cliente y no lo metía nadie,
+    # así que las tres apps salían con la misma marca.
+    frag, puesto = marca.poner_logo(frag, cfg)
+
+    # La conversación. El archivo de Comfacesar es de solo lectura y así se
+    # queda; los espacios de cliente llevan además `lib/conversacion.js`, que
+    # mezcla en vivo lo que se escribe con lo que ya estaba. Va al final, para
+    # que corra cuando el componente y los datos ya están puestos. Sin esto, un
+    # cliente nuevo recibe una app vacía y muerta, que es lo que pasó con
+    # Novasoft.
+    if cfg.get('conversacion'):
+        js = open(os.path.join(PLANTILLA, 'lib', 'conversacion.js'), encoding='utf-8').read()
+        frag += '\n<script>\n' + en_linea(js) + '\n</script>\n'
 
     ruta = os.path.join(DEST, 'iam-hello.html')
     open(ruta, 'w', encoding='utf-8').write(frag)
@@ -124,9 +172,14 @@ def main():
     else:
         print('  marca: sin cambios, la plantilla ya es de este cliente')
     print('  datos: %s' % os.path.relpath(datos, os.path.dirname(AQUI)))
-    if not marca.logo(cfg):
-        print('  falta el logo (clientes/%s): sale la sigla «%s»'
-              % (cfg.get('logo', '?'), cfg.get('sigla', '?')))
+    print('  conversacion: %s' % ('encendida, necesita las capacidades db y user'
+                                  if cfg.get('conversacion') else 'apagada, archivo de solo lectura'))
+    if puesto:
+        print('  logo: %s, puesto en la baldosa sobre %s'
+              % (os.path.relpath(puesto, os.path.dirname(AQUI)), cfg.get('logo_fondo', '#0A0A0A')))
+    else:
+        print('  logo: no está (clientes/%s), se queda Halo en la baldosa'
+              % cfg.get('logo', '?'))
 
 
 if __name__ == '__main__':

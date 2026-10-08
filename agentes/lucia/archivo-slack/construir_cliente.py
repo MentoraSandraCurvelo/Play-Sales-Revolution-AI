@@ -33,7 +33,11 @@ def canal_vacio(spec):
         'adjuntos': 0,
         'actas': [],
         'fijados': spec.get('fijados', []),
-        'grabaciones': [],
+        # Un cliente nuevo no tiene grabaciones, pero puede traerlas de antes
+        # de que su espacio existiera: las de Novasoft estaban dentro de la app
+        # vieja y se habrían perdido al reconstruirla. Se declaran en el
+        # archivo de cliente y entran aquí.
+        'grabaciones': spec.get('grabaciones', []),
         'informes': [],
         'pulso': [],
     }
@@ -50,7 +54,7 @@ def paquete(cfg):
         'canales': [canal_vacio(c) for c in canales],
         # Todo lo que la vista del archivo lee y un cliente nuevo no tiene.
         'personas': [],
-        'n_grabaciones': 0,
+        'n_grabaciones': sum(len(c.get('grabaciones') or []) for c in canales),
         'asistencia': [],
         'mentoria': [],
         'sesiones_informe': [],
