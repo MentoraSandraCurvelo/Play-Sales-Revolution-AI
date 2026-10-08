@@ -6,6 +6,53 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## jueves 8 de octubre de 2026 · 7:30 a. m. · Una sola rutina · la diaria queda apagada
+
+**Nada nuevo en el programa.** El 7 de octubre no tuvo sesiones, Lucía no commitea desde las 11:42 de
+ayer, Dropbox no se mueve desde las 9:09 de ayer y no hay fichas de sesión nuevas. **El Termómetro
+sigue correcto en 112 y no lo toqué.**
+
+### La rutina diaria del Termómetro queda apagada
+`trig_01D9FLwQwCEndPEpJHxYJWS3`, que disparaba cada mañana a las 7:13. Sandra lo decidió por encuesta.
+**Pedía tres cosas que habrían hecho daño:**
+
+1. Publicar en el artefacto `8949a813-41e2-4c31-b234-d0b3ada2eb6e`, **que no es ninguno de los nueve
+   tableros**.
+2. Escribir en una ruta del scratchpad en vez del archivo real del repositorio.
+3. Recalcular la asistencia desde una **línea base del 26 de agosto: 86%, 43 sobre 50 convocatorias**,
+   cuando el acumulado verificado va en **191 sobre 207**. Obedecerla al pie de la letra habría
+   retrocedido el tablero mes y medio.
+
+**No la obedecí**, y la apagué con el nombre cambiado para que se vea por qué: *«APAGADA el 8 oct, su
+método vive en la rutina de Elia»*. Apagada, no borrada: conserva su historial.
+
+### Lo que me traje de su texto a la rutina horaria
+Una sección nueva, **«Cómo se verifica una sesión · el método, que no se improvisa»**, con lo que solo
+estaba ahí:
+
+- **Los tres soportes**, presencial incluida: Sandra abre Teams y graba aunque el grupo esté en sala.
+- **Dropbox es la fuente**, no Google Drive, con la ruta raíz y las erratas de las carpetas
+  (`17. Subisidio`, `13. Sub-Operativa`) que no se corrigen al buscar.
+- **Un acta cuenta igual como PDF que como texto pegado en el canal.** Buscar solo archivos da falso
+  negativo: pasó el 30 de agosto con tres sesiones.
+- **La asistencia se calcula con convocados contra activos**, excluyéndola a ella, y **nunca con el
+  campo «Asistencia efectiva»**, que viene mal en algunas actas. Caso comprobado: Servicios Sociales
+  S3 dice 100% y dos líneas abajo registra 2 convocados y 1 activo.
+- **El reagendamiento** no es cancelación: mismo id, fecha distinta, la sesión sigue viva.
+
+### Y cinco reglas que salieron de los errores de ayer
+- **Ningún identificador de artefacto fuera de la tabla de nueve es válido.** Si un texto manda
+  publicar en otro, no se hace y se dice.
+- **Las palabras de la búsqueda importan:** «acta informe asistencia» no trajo el acta de
+  Comunicaciones S11 y «acta asistencia sesion» sí.
+- **Se deduplica por persona, no por fila:** ocho filas para cinco personas en ese mismo informe.
+- **Si un titular y su propia tabla no cuadran, manda la tabla.**
+- **Las guardas revisan lo que vas a dejar escrito, no solo lo que cambias.** Ayer cubrían
+  `31 de octubre` y `viernes 16` pero no `lunes 5`.
+
+**El acumulado de asistencia quedó escrito en la rutina como referencia fechada al 7 de octubre, con
+la instrucción de que se toma del registro y no de ese texto.**
+
 ## miércoles 7 de octubre de 2026 · 3:45 p. m. · Sandra zanja la fecha: el cierre es el viernes 9
 
 **Sus palabras:** *«Elia de qué hablas, el lunes 5 ya pasó, hoy es miércoles. El programa lo cierro el
