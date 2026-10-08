@@ -36,6 +36,10 @@ IDENTIDAD = (
     # nuevo veía los datos del anterior.
     ('4 ago – 30 sep 2026 · IAM™Team', '@rango · @espacio', 1),
     ('EN VIVO · 9 SEMANAS',            '@cinta', 1),
+    # El nombre del programa también estaba suelto en la cabecera del canal y
+    # en la del acta: la app de Klaren's, que es IAM™ Social, decía Intelligence.
+    ('Canal privado · IAM™ Intelligence',   'Canal privado · @programa', 1),
+    ('Acta de sesión · IAM™ Intelligence',  'Acta de sesión · @programa', 1),
     # Y el texto grande de la portada, que contaba las nueve semanas y las
     # dieciocho áreas de Comfacesar, y la nota sobre Slack. Un cliente que
     # nunca estuvo en Slack no tiene por qué leer eso en su propia app.

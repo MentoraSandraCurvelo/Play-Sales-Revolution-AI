@@ -19,6 +19,27 @@ CLIENTES = os.path.join(LUCIA, 'clientes')
 DESTINO = os.path.join(CLIENTES, 'datos')
 
 
+SESIONES = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'sesiones')
+
+
+def acta(spec):
+    """Una entrada de acta: el acta entera, más dónde está su PDF.
+
+    `archivo` es el nombre del acta en `sesiones/`. Si no está, se detiene:
+    mejor eso que publicar la app de un cliente con un acta a medias."""
+    ruta = os.path.join(SESIONES, spec['archivo'])
+    if not os.path.exists(ruta):
+        raise SystemExit('el acta declarada no existe: %s' % ruta)
+    d = json.load(open(ruta, encoding='utf-8'))
+    d['archivo'] = spec['archivo']
+    d['pdf'] = 'actas/' + spec['pdf']
+    d['iso'] = spec.get('iso', '')
+    d['grabacion'] = spec.get('grabacion', '')
+    d['informe'] = spec.get('informe')
+    d['prevista'] = False
+    return d
+
+
 def canal_vacio(spec):
     """Un canal sin un solo mensaje, con todas las claves que la vista lee."""
     return {
@@ -31,7 +52,10 @@ def canal_vacio(spec):
         'desde': '',
         'hasta': '',
         'adjuntos': 0,
-        'actas': [],
+        # Las actas que el cliente ya tiene. Se declaran en su archivo y el
+        # contenido sale del acta de verdad, la de `sesiones/`, para que la app
+        # muestre la misma que se publicó y no una copia que se desactualiza.
+        'actas': [acta(a) for a in (spec.get('actas') or [])],
         'fijados': spec.get('fijados', []),
         # Un cliente nuevo no tiene grabaciones, pero puede traerlas de antes
         # de que su espacio existiera: las de Novasoft estaban dentro de la app

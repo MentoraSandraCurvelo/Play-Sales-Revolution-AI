@@ -16,24 +16,42 @@
   "logo_fondo": "#FFFFFF",
   "canales": [
     {
-      "canal": "perfiles",
-      "nombre": "Perfiles y página de compañía",
-      "fijados": []
-    },
-    {
-      "canal": "marketing",
-      "nombre": "Marketing",
-      "fijados": []
-    },
-    {
-      "canal": "comercial",
-      "nombre": "Equipo comercial",
-      "fijados": []
+      "canal": "klarens",
+      "nombre": "Klaren's",
+      "id": "KLARENS-GENERAL",
+      "fijados": [],
+      "grabaciones": [],
+      "actas": [
+        {
+          "archivo": "klarens-s2-2026-09-29.json",
+          "pdf": "ACTA_Sesion2_Klarens_Banner_29septiembre2026.pdf",
+          "iso": "2026-09-29",
+          "grabacion": "",
+          "informe": {
+            "duracion_min": 19,
+            "media_min": 18,
+            "participantes": [
+              {
+                "nombre": "Sandra Curvelo",
+                "minutos": 19,
+                "correo": "sandracurvelo@iamlatam.co",
+                "rol": "Organizador"
+              },
+              {
+                "nombre": "Jesús López",
+                "minutos": 17,
+                "correo": "",
+                "rol": "Moderador"
+              }
+            ]
+          }
+        }
+      ]
     }
   ],
   "generales": [],
   "nota_fijados": "Aquí van las carpetas de Dropbox del proyecto.",
-  "fuente_actas": "",
+  "fuente_actas": "salida/klarens",
   "fuente_archivos": "",
   "lema": "El espacio de trabajo del programa. Las actas, las grabaciones y la conversación del equipo, en un solo sitio y sin fecha de caducidad.",
   "nota_archivo": "Aquí no se borra nada con el tiempo. Cada sesión deja su acta, su grabación y lo que se habló, y <b style=\"color:var(--ink)\">todo queda</b> para consultarlo cuando haga falta."
