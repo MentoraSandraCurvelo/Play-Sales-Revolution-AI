@@ -1,0 +1,415 @@
+{
+  "proyecto": "Comfacesar",
+  "programa": "IAM™ Intelligence",
+  "anio": "2026",
+  "area": "Agencia de Empleo",
+  "area_completa": "",
+  "sesion_num": 9,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "7 de octubre de 2026",
+  "fecha_corta": "7octubre2026",
+  "subtitulo_meta": "Lina María Rincón · 7 de octubre de 2026 · 4:01 p. m. · 58 min",
+  "datos_sesion": [
+    [
+      "Área(s)",
+      "Agencia de Empleo, Comfacesar"
+    ],
+    [
+      "Sesión",
+      "N° 9. Matías en producción: el adjunto, el tablero y la primera respuesta de un ciudadano"
+    ],
+    [
+      "Fecha",
+      "7 de octubre de 2026"
+    ],
+    [
+      "Duración de la sesión",
+      "58 minutos"
+    ],
+    [
+      "Modalidad",
+      "Virtual, por Microsoft Teams"
+    ],
+    [
+      "Asistencia",
+      "Lina María Rincón, completa"
+    ],
+    [
+      "Grabación",
+      "Publicada en el canal del área"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo, Mentora IAM™ Intelligence"
+    ]
+  ],
+  "kpis": [
+    {
+      "valor": "10",
+      "etiqueta": "Correos del lote de prueba",
+      "detalle": "Enviados a direcciones del propio equipo"
+    },
+    {
+      "valor": "3",
+      "etiqueta": "Hojas que mantiene el agente",
+      "detalle": "Seguimiento, registro del auxiliar y gestiones"
+    },
+    {
+      "valor": "11",
+      "etiqueta": "Casos que el conector escribe sin problema",
+      "detalle": "Por encima de eso no es viable"
+    },
+    {
+      "valor": "2.300",
+      "etiqueta": "Casos del reporte completo",
+      "detalle": "El volumen que forzó cambiar de vía"
+    },
+    {
+      "valor": "1",
+      "etiqueta": "Tipo de respuesta que el circuito no tenía",
+      "detalle": "Una consulta, ni inconformidad ni recurso"
+    }
+  ],
+  "participantes": [
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Lina María Rincón",
+      "cargo": "Agencia de Empleo, Comfacesar",
+      "correo": "",
+      "modalidad": "Virtual",
+      "nivel": "Avanzado"
+    }
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 9. El circuito ya envía correos de verdad, con carta adjunta y tablero detrás. Eso cambia la naturaleza de los riesgos: dejaron de ser de construcción y pasaron a ser de operación, de credenciales y de qué pasa cuando el ciudadano contesta algo que nadie previó.",
+  "riesgos": [
+    {
+      "titulo": "La contraseña de aplicación quedó escrita en el chat",
+      "nivel": "CRITICO",
+      "descripcion": "**Para que el agente pudiera adjuntar la carta en PDF hubo que crear una contraseña de aplicación de Google de 16 letras**, y en el proceso quedó escrita dentro de la conversación. _El propio agente lo advirtió y recomendó lo correcto:_ **borrarla, crear una nueva y guardar esa directamente en el archivo, nunca en el chat.** *Una contraseña de aplicación da acceso al buzón completo,* así que mientras no se rote, sigue siendo una llave viva en un sitio donde no debe estar. **Quedó además una segunda contraseña creada con otro nombre, que hay que eliminar.**",
+      "responsable": "Agencia de Empleo / Inmediato"
+    },
+    {
+      "titulo": "Lo que se escriba a mano en las hojas del agente se pierde",
+      "nivel": "ALTO",
+      "descripcion": "**El conector no puede editar una hoja ya creada**, así que en cada corte el agente genera una hoja nueva con la fecha en el nombre y la anterior va a la papelera. _Consecuencia directa:_ **lo que alguien anote a mano en la hoja de seguimiento o en la de gestiones desaparece en el corte siguiente**, *y el enlace de la hoja cambia cada vez.* _Solo el registro del auxiliar admite notas a mano._ **Si eso no queda escrito, se va a perder trabajo real.**",
+      "responsable": "Agencia de Empleo / Inmediato"
+    },
+    {
+      "titulo": "Si el agente corre a diario, la cuenta de correo queda tomada",
+      "nivel": "ALTO",
+      "descripcion": "**La conexión de correo es exclusiva:** mientras el agente del recobro esté conectado a esa cuenta, _la misma persona no puede conectar su correo para sus otros trabajos._ *Puede seguir creando agentes, pero sin conexión de buzón.* **Hay que decidir desde qué cuenta corre el circuito antes de ponerlo en cadencia diaria**, porque hoy depende de una cuenta que también se necesita para otra cosa.",
+      "responsable": "Agencia de Empleo / Antes de la cadencia"
+    },
+    {
+      "titulo": "El circuito no tenía previsto que el ciudadano solo pregunte",
+      "nivel": "ALTO",
+      "descripcion": "**Al circuito se le dieron tres tipos de respuesta: inconformidad, recurso y solicitud.** _Llegó una cuarta que no estaba:_ **alguien contestó preguntando de qué se trataba el recobro.** *El agente clasificó bien, no la reenvió a Jurídica porque no encajaba en ninguno de los tres,* y la dejó como alerta en el tablero para que la responda el auxiliar. **El comportamiento fue correcto; el circuito es el que está incompleto.**",
+      "responsable": "Agencia de Empleo / Esta semana"
+    },
+    {
+      "titulo": "La firma del gerente quedó desplazada en la carta",
+      "nivel": "MEDIO",
+      "descripcion": "**En la carta adjunta la firma digital del gerente del Mecanismo de Protección al Cesante no quedó al pie de su nombre.** _Ya estaba puesta en el formato y el agente la movió al generar el PDF._ *Se le entregó el recorte del documento firmado como referencia* **para que la deje exactamente donde va.**",
+      "responsable": "Agencia de Empleo / Antes del envío real"
+    },
+    {
+      "titulo": "La dirección a pie de firma aparece de dos formas",
+      "nivel": "MEDIO",
+      "descripcion": "**El agente detectó dos direcciones distintas al pie de firma** entre la carta y el correo, _y en lugar de elegir una por su cuenta pidió confirmación._ *En sesión se consideró normal, porque una corresponde a la firma del gerente y la otra al formato de la carta,* **pero conviene confirmarlo con el área antes del envío en firme.**",
+      "responsable": "Agencia de Empleo / Antes del envío real"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "CRITICO",
+      "titulo": "Rotar la contraseña de aplicación y borrar la expuesta",
+      "descripcion": "**Eliminar la contraseña que quedó escrita en el chat, eliminar la que se creó con otro nombre y generar una nueva**, _guardándola directamente en el archivo de la carpeta del agente._ *El agente ya tiene el paso a paso pedido.*",
+      "responsable": "Lina María Rincón",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Añadir la consulta como cuarto tipo de respuesta",
+      "descripcion": "**Hoy el circuito solo reconoce inconformidad, recurso y solicitud.** _Hay que decirle qué hacer cuando la persona simplemente pregunta,_ *que es lo que más va a pasar en el primer lote real.*",
+      "responsable": "Lina María Rincón",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Dejar escrito que las notas a mano van solo en el registro del auxiliar",
+      "descripcion": "**La hoja de seguimiento y la de gestiones las reescribe el agente en cada corte.** _Cualquier anotación manual ahí se pierde._ *Es una regla de operación, no un detalle técnico, y la tiene que conocer quien use el archivo.*",
+      "responsable": "Lina María Rincón",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Decidir la cuenta desde la que corre el circuito",
+      "descripcion": "**La conexión de buzón es exclusiva.** _Si el circuito queda en cadencia diaria sobre la cuenta actual, esa persona no puede conectar su correo para nada más._ *La decisión hay que tomarla antes de programar la revisión automática.*",
+      "responsable": "Agencia de Empleo",
+      "plazo": "Antes de la cadencia"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Corregir la firma del gerente en la carta",
+      "descripcion": "**Al pie del nombre, como está en el documento original.** _El recorte de referencia ya se le entregó al agente._",
+      "responsable": "Lina María Rincón",
+      "plazo": "Antes del envío real"
+    },
+    {
+      "num": "06",
+      "nivel": "ALTO",
+      "titulo": "Documentar los ejercicios antes del corte del viernes 9",
+      "descripcion": "**El área construyó más de lo que tiene registrado.** _Si el ejercicio no está documentado al cierre de la primera fase, no entra en el reporte,_ *y el reporte es lo que se presenta.*",
+      "responsable": "Agencia de Empleo",
+      "plazo": "Viernes 9 de octubre"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El adjunto en PDF, y la llave que hacía falta",
+      "duracion": "~9 min",
+      "objetivo": "Conseguir que el correo salga con la comunicación formal adjunta, no en el cuerpo.",
+      "pasos": [
+        "**El área quería la carta como adjunto en PDF**, no el texto legal dentro del cuerpo del mensaje",
+        "**El agente explicó por qué no había enviado nada:** _con el conector de correo disponible no podía llevar el adjunto,_ *y no quiso mandar los correos sin la carta que se le había pedido*",
+        "**Planteó dos caminos y dejó elegir:** con adjunto, creando una contraseña de aplicación, o sin él",
+        "**Se creó la contraseña de aplicación de Google con el nombre que el agente indicó**, copiado tal cual, y se recuperaron las 16 letras",
+        "_Aquí ocurrió lo que vale subrayar:_ **el agente se negó a escribir la contraseña él mismo.** *«Las contraseñas no las escribo yo en ningún archivo ni campo»,* **y entregó el comando para que la guardara la persona**",
+        "**Se guardó en un archivo de texto plano dentro de la carpeta del agente**, siguiendo sus instrucciones",
+        "_Y cerró el control por su cuenta:_ **advirtió que la contraseña había quedado escrita en el chat y recomendó borrarla y crear otra**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El lote de prueba, revisado correo por correo",
+      "duracion": "~8 min",
+      "objetivo": "Comprobar qué llega realmente al buzón antes de escribirle a un beneficiario.",
+      "pasos": [
+        "**Se enviaron 10 correos de prueba a direcciones del propio equipo**, ninguno a un destinatario real",
+        "**El asunto llegó con el emoji y el nombre de la persona**, como se había pedido en la sesión anterior",
+        "**El cuerpo llegó con el diseño y los colores institucionales**, y con la llamada a abrir el adjunto: _la comunicación formal en PDF con el detalle de los valores y el fundamento legal_",
+        "**La carta llegó adjunta y con el nombre correcto de la persona** en todos los puntos del documento",
+        "**Se verificaron las cédulas contra el listado de origen**, caso por caso, y coincidían",
+        "_Se revisó también lo que el agente reporta de sí mismo:_ **un caso quedó sin notificar porque el nombre no coincidía, y lo dijo** en lugar de enviarlo igual"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · La trampa del duplicado",
+      "duracion": "~2 min",
+      "objetivo": "Verificar si el agente cumple una regla cuando nadie se la recuerda.",
+      "pasos": [
+        "**El área puso a propósito el mismo ítem dos veces en el archivo de un caso**, sin avisarle",
+        "_La regla de eliminar duplicados se había dado en la sesión anterior,_ **no en esta**",
+        "**El agente la aplicó:** la carta salió con el ítem una sola vez",
+        "_Lectura del ejercicio:_ **las reglas quedan en la memoria del circuito, no hay que repetirlas en cada corte**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · El tablero de gestión, pedido y entregado en vivo",
+      "duracion": "~4 min",
+      "objetivo": "Tener la lectura del proceso sin abrir el archivo.",
+      "pasos": [
+        "**Se le pidió un tablero en HTML con indicadores de todo lo que vaya haciendo:** _correos enviados, hallazgos, fechas de corte_",
+        "**Lo entregó en la misma sesión**, con personas en recobro y saldo en cabecera",
+        "**Ahí es donde deja las alertas** de los casos que no sabe enrutar",
+        "_Queda por moldear,_ **pero la pieza que faltaba para leer el proceso ya existe**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · Las tres hojas, y el límite del conector",
+      "duracion": "~10 min",
+      "objetivo": "Entender qué registra el agente y dónde puede escribir una persona.",
+      "pasos": [
+        "**Hoja 1, seguimiento de recobros:** cédula, nombre, periodo, valor, abonos, correo, celular, fecha de notificación, último correo, último mensaje, última llamada, acuerdo de pago, número y valor de cuotas, fechas, traslado a cartera y próximo hito",
+        "**Hoja 2, registro del auxiliar:** la única que el agente no diligencia, _porque es la de la persona_",
+        "**Hoja 3, gestiones y notificaciones:** qué se envió, a quién y en qué fecha",
+        "**Apareció el límite:** _el conector no puede editar una hoja ya creada,_ **así que cada corte genera una hoja nueva con la fecha y la anterior va a la papelera**",
+        "**El agente aclaró que la hoja nueva sale con la información acumulada**, no en blanco, cuando se le pide así",
+        "_Y marcó la consecuencia que importa:_ **lo que alguien escriba a mano en seguimiento o en gestiones se pierde en el siguiente corte**",
+        "**El segundo límite es de tamaño:** _con 11 casos escribe la hoja completa sin problema,_ **con los 2.300 del reporte grande no es viable por esa vía**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio F · Google Drive de escritorio, instalado en la sesión",
+      "duracion": "~8 min",
+      "objetivo": "Quitar de una vez el límite de tamaño y el enlace que cambia.",
+      "pasos": [
+        "**El agente propuso la salida:** instalar Google Drive para escritorio y escribir en la carpeta local",
+        "**Antes de instalar nada, el área le hizo la pregunta correcta:** _si se diligencia en el computador, ¿queda igual en la nube para que los demás lo vean?_",
+        "**Confirmó que sí, y que además mejora dos cosas:** _el enlace ya no cambia y desaparece el límite de tamaño_",
+        "**Dijo también las condiciones:** el computador encendido y con internet, y Drive abierto en la cuenta del agente cuando haga el corte",
+        "**Se descargó, se instaló y se eligió qué carpetas sincronizar**, dejando fuera las descargas",
+        "**Se verificó en el Finder que la carpeta del agente aparece**, y se le confirmó",
+        "_Regla que quedó fijada:_ **el seguimiento es de solo consulta para los demás.** *Lo que el auxiliar necesite anotar va en su registro*"
+      ]
+    },
+    {
+      "titulo": "Ejercicio G · La primera respuesta de un ciudadano",
+      "duracion": "~10 min",
+      "objetivo": "Probar el circuito en el punto donde deja de depender del área.",
+      "pasos": [
+        "**El equipo respondió los correos de prueba desde dos vías distintas**, una como respuesta directa y otra desde una cuenta personal, _para no depender del tiempo de un tercero_",
+        "**Una de las respuestas solo preguntaba de qué se trataba el recobro**",
+        "**El agente la clasificó como consulta:** _ni inconformidad, ni recurso, ni solicitud,_ **que eran los tres tipos que se le habían dado**",
+        "**Por eso no la reenvió a Jurídica y la dejó como alerta en el tablero** para que la responda el auxiliar",
+        "_Y reportó algo más por su cuenta:_ **un correo anterior que traía la palabra inconformidad pero era de subsidio, no de recobro,** *ya respondido el mismo día por el auxiliar*",
+        "**Preguntó si ese tipo de casos también debía enrutar.** _La decisión quedó tomada en sesión:_ **el circuito atiende recobro y nada de subsidio**",
+        "**Se le añadió revisar la bandeja de spam y mover a entrada lo que encuentre**, _porque en la operación manual sí llegaban respuestas ahí_",
+        "**Se le pidió revisar todo el circuito como lo haría un auditor** y reportar inconsistencias, _porque después del envío en firme no hay corrección posible_",
+        "**Y que la correspondencia salga como correspondencia institucional**, sin marcas de la herramienta que la produce"
+      ]
+    },
+    {
+      "titulo": "Ejercicio H · La cadencia, que quedó abierta",
+      "duracion": "~5 min",
+      "objetivo": "Decidir cada cuánto corre el circuito solo.",
+      "pasos": [
+        "**El agente propuso de lunes a viernes a las 8:00 de la mañana:** _revisar bandeja y spam, aplicar lo que el auxiliar haya anotado en su registro, preparar los correos del día y actualizar el tablero_",
+        "**El área coincidió en que el correo se revisa a diario**",
+        "_Ahí apareció el obstáculo real, que no es de horario:_ **si el circuito corre a diario sobre esa cuenta, la persona no puede conectar su correo para su propio trabajo**",
+        "**Quedó planteado que el circuito necesita cuenta propia**, y la decisión pendiente",
+        "_Cierre de la mentoría:_ **la meta no es que el proceso quede automático, es que el tiempo liberado se use en analizar tableros**"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 9 · 7 octubre 2026",
+      "titulo": "El control de la contraseña lo puso el agente, no la lista de chequeo",
+      "descripcion": "**Se le pidió guardar una contraseña de aplicación y se negó:** _«las contraseñas no las escribo yo en ningún archivo ni campo»._ **Entregó el comando para que la guardara la persona, y después advirtió que había quedado escrita en el chat y recomendó rotarla.** *Nadie le había dado esa regla en la sesión.* _Es el hallazgo de método de la jornada:_ **el circuito trae criterio propio sobre lo que no debe tocar.**",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Rotar la contraseña y borrar la expuesta",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "★ LO QUE SE PROBÓ SIN AVISARLE",
+      "titulo": "Cumplió una regla que nadie le recordó en esta sesión",
+      "descripcion": "**El área duplicó a propósito un ítem en el archivo de un caso para ver si lo eliminaba.** _La regla se había dado la sesión anterior._ **La carta salió con el ítem una sola vez.** *La memoria del circuito funciona, y eso cambia cuánto hay que supervisarlo en cada corte.*",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Repetir la prueba con el primer lote real",
+      "target": "Primer envío"
+    },
+    {
+      "encabezado": "★ EL LÍMITE QUE NO FRENÓ NADA",
+      "titulo": "El conector no daba para 2.300 casos, y la salida no fue bajar la ambición",
+      "descripcion": "**Con 11 casos escribía la hoja completa; con el reporte entero no era viable.** _En lugar de recortar el alcance, el agente propuso cambiar de vía:_ **Google Drive de escritorio, instalado en la misma sesión.** *Con eso desaparecen el límite de tamaño y el enlace que cambiaba en cada corte.* _Un obstáculo técnico resuelto dentro de la hora, sin esperar a nadie._",
+      "estado": "Instalado en sesión",
+      "proximo_paso": "Correr el primer corte completo sobre la carpeta local",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "★ LO QUE ENSEÑÓ EL PRIMER CIUDADANO QUE CONTESTÓ",
+      "titulo": "Clasificó bien y dejó al descubierto el hueco del circuito",
+      "descripcion": "**Llegó una respuesta que solo preguntaba de qué se trataba el recobro.** _No era inconformidad, ni recurso, ni solicitud, los tres tipos que se le habían dado._ **El agente no la forzó dentro de ninguno: la dejó como alerta en el tablero para una persona.** *El comportamiento fue el correcto y el que falta completar es el circuito,* _y eso solo se aprende enviando._",
+      "estado": "Detectado en sesión",
+      "proximo_paso": "Añadir la consulta como cuarto tipo de respuesta",
+      "target": "Esta semana"
+    }
+  ],
+  "tareas_intro": "El circuito ya envía correos con carta adjunta, registra lo que hace y tiene tablero. Lo que queda no es construcción: es cerrar la credencial, completar el tipo de respuesta que faltaba y decidir desde qué cuenta corre antes de dejarlo solo.",
+  "tareas": [
+    {
+      "tarea": "Rotar la contraseña de aplicación, borrar la expuesta y la creada con otro nombre",
+      "responsable": "Lina María Rincón",
+      "prioridad": "URGENTE",
+      "plazo": "Inmediato"
+    },
+    {
+      "tarea": "Añadir la consulta como cuarto tipo de respuesta del circuito",
+      "responsable": "Lina María Rincón",
+      "prioridad": "ALTA",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Dejar escrito que las notas a mano van solo en el registro del auxiliar",
+      "responsable": "Lina María Rincón",
+      "prioridad": "ALTA",
+      "plazo": "Inmediato"
+    },
+    {
+      "tarea": "Decidir y dejar fija la cuenta de correo desde la que corre el circuito",
+      "responsable": "Agencia de Empleo",
+      "prioridad": "ALTA",
+      "plazo": "Antes de la cadencia"
+    },
+    {
+      "tarea": "Corregir la firma del gerente al pie de su nombre en la carta",
+      "responsable": "Lina María Rincón",
+      "prioridad": "MEDIA",
+      "plazo": "Antes del envío real"
+    },
+    {
+      "tarea": "Confirmar cuál dirección va a pie de firma en la carta y en el correo",
+      "responsable": "Agencia de Empleo",
+      "prioridad": "MEDIA",
+      "plazo": "Antes del envío real"
+    },
+    {
+      "tarea": "Correr el primer corte completo sobre la carpeta local de Drive",
+      "responsable": "Lina María Rincón",
+      "prioridad": "ALTA",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Documentar los ejercicios del área antes del corte de la primera fase",
+      "responsable": "Agencia de Empleo",
+      "prioridad": "ALTA",
+      "plazo": "Viernes 9 de octubre"
+    },
+    {
+      "tarea": "Revisar el circuito con quien dirige el proceso antes de presentarlo a la dirección",
+      "responsable": "Agencia de Empleo",
+      "prioridad": "ALTA",
+      "plazo": "Antes de la presentación"
+    }
+  ],
+  "observaciones": [
+    "**La sesión anterior dejó el agente construido y probado contra el archivo real. Esta lo puso a enviar.** _Y lo que aparece cuando un circuito empieza a escribirle a la gente no es lo que se ve cuando se construye._",
+    "**El primer bloqueo era el adjunto.** _El área había pedido que la comunicación formal fuera un PDF adjunto, no texto dentro del correo,_ **y el agente no había enviado nada porque con el conector disponible no podía llevarlo.** *No mandó los correos sin la carta:* explicó por qué, planteó las dos opciones y dejó elegir.",
+    "**La salida fue una contraseña de aplicación de Google de 16 letras**, creada en vivo con el nombre que él indicó. _Y aquí está el hallazgo de la jornada:_ **el agente se negó a escribirla.** *«Las contraseñas no las escribo yo en ningún archivo ni campo.»* **Entregó el comando para que la guardara la persona y después advirtió que había quedado escrita en el chat, recomendando borrarla y crear otra.** _Nadie le dio esa regla:_ el control salió de él.",
+    "_Eso mismo deja la tarea más urgente del acta:_ **hay una contraseña viva escrita en una conversación, y una segunda creada con otro nombre.** *Una contraseña de aplicación abre el buzón completo.* **Hay que rotarla antes del envío en firme, no después.**",
+    "**Con el adjunto resuelto se envió un lote de 10 correos de prueba a direcciones del propio equipo.** _Llegó lo que se había pedido:_ emoji y nombre en el asunto, **el cuerpo con el diseño y los colores institucionales**, la llamada a abrir el adjunto, *y la carta en PDF con el nombre correcto de la persona en todos los puntos del documento.* **Las cédulas se verificaron contra el listado de origen y coincidían.**",
+    "**El área le puso una trampa y la pasó.** _Duplicó a propósito el mismo ítem en el archivo de un caso, sin avisarle._ **La regla de eliminar duplicados se había dado la sesión anterior, no en esta, y la carta salió con el ítem una sola vez.** *La memoria del circuito sostiene las reglas entre cortes,* y eso baja el costo de supervisarlo.",
+    "**El tablero de gestión se pidió y se entregó en la misma sesión:** _un reporte en HTML con indicadores, personas en recobro, saldo, hallazgos y fechas de corte._ **Ahí es donde el agente deja las alertas de lo que no sabe enrutar**, *que es exactamente para lo que sirve.*",
+    "**Después se revisó qué registra, y son tres hojas.** _La de seguimiento, con el detalle completo del caso hasta el próximo hito y el traslado a cartera._ **La de gestiones, con qué se envió, a quién y cuándo.** *Y la del auxiliar, que es la única que el agente no diligencia porque es la de la persona.*",
+    "**Y ahí apareció el límite que hay que conocer:** _el conector no puede editar una hoja ya creada._ **Cada corte genera una hoja nueva con la fecha en el nombre, la anterior va a la papelera y el enlace cambia.** *La hoja nueva sale con la información acumulada, no en blanco.* _Pero la consecuencia es dura:_ **lo que alguien escriba a mano en seguimiento o en gestiones se pierde en el corte siguiente.** *Solo el registro del auxiliar admite notas.* **Esa regla tiene que estar escrita donde la vea quien use el archivo.**",
+    "**El segundo límite era de tamaño:** _11 casos se escriben sin problema, los 2.300 del reporte completo no son viables por esa vía._ **La salida no fue recortar el alcance.** *El agente propuso instalar Google Drive para escritorio y escribir en la carpeta local,* **y se instaló en la sesión.** _Con eso desaparecen el límite y el enlace cambiante;_ a cambio hay condiciones: **el computador encendido y con internet, y Drive abierto en la cuenta del agente cuando haga el corte.**",
+    "_Antes de instalar nada, el área hizo la pregunta correcta:_ **si se escribe en el computador, ¿queda igual en la nube para los demás?** *Ese es el reflejo que se busca en la mentoría,* **preguntar antes de aceptar la solución que viene propuesta.**",
+    "**La parte más reveladora fue el final: el equipo contestó los correos de prueba para cerrar el circuito sin depender del tiempo de un tercero.** _Y una de las respuestas no encajaba en nada._ **Solo preguntaba de qué se trataba el recobro.**",
+    "**Al circuito se le habían dado tres tipos de respuesta: inconformidad, recurso y solicitud.** _Esto era una consulta._ **El agente no la forzó dentro de ninguno ni la reenvió a Jurídica: la dejó como alerta en el tablero para que la responda una persona.** *El comportamiento fue correcto.* _El que está incompleto es el circuito,_ **y eso no se descubre diseñando, se descubre enviando.**",
+    "**Reportó además, por su cuenta, un correo anterior que traía la palabra inconformidad pero era de subsidio y no de recobro**, ya respondido el mismo día por el auxiliar, _y preguntó si esos casos también debía enrutar._ **La decisión quedó tomada: el circuito atiende recobro, nada de subsidio.**",
+    "**Se le añadió revisar la bandeja de spam y mover a entrada lo que encuentre**, _porque en la operación manual sí llegaban respuestas ahí._ *Un detalle que solo conoce quien hizo el proceso a mano.*",
+    "**Se le pidió también revisar todo el circuito como lo haría un auditor y reportar inconsistencias**, _porque después del envío en firme no hay corrección posible,_ **y que la correspondencia salga como correspondencia institucional, sin marcas de la herramienta que la produce.** *De esa auditoría salieron dos cosas útiles: el caso cuyo nombre no coincidía y las dos direcciones a pie de firma.*",
+    "**Quedó pendiente la cadencia, y el obstáculo no es el horario.** _El agente propuso lunes a viernes a las 8:00 de la mañana,_ y el área coincidió en que el correo se revisa a diario. **El problema es que la conexión de buzón es exclusiva:** *si el circuito corre a diario sobre esa cuenta, esa persona no puede conectar su correo para su propio trabajo.* _El circuito necesita cuenta propia,_ **y esa decisión hay que tomarla antes de dejarlo solo.**",
+    "_Dos encargos de cierre, dichos de forma explícita:_ **documentar los ejercicios antes del corte de la primera fase**, *porque lo que no esté documentado no entra en el reporte,* **y revisar el circuito con quien dirige el proceso antes de presentarlo a la dirección.**",
+    "_Nota sobre la ventana de la sesión:_ **el informe de asistencia marca 1 hora 56 minutos porque la reunión quedó abierta cuando la facilitadora pasó a la sesión siguiente.** *La sesión efectiva fueron 58 minutos,* **y esa es la duración que se registra.**"
+  ],
+  "proxima_sesion": {
+    "sesion": "Agencia de Empleo, cierre de la primera fase y segunda fase",
+    "condiciones": [
+      "La contraseña de aplicación rotada y la expuesta eliminada",
+      "La consulta añadida como cuarto tipo de respuesta",
+      "La cuenta desde la que corre el circuito decidida",
+      "El primer corte completo corrido sobre la carpeta local de Drive",
+      "Los ejercicios del área documentados"
+    ],
+    "agenda": [
+      "El primer envío real a beneficiarios, controlado y por lotes",
+      "El flujo de pagos y acuerdos, con los hitos de seguimiento activos",
+      "El panel del buzón: correos pendientes de respuesta por días",
+      "El código de recaudo, mapeado para presentarlo",
+      "La conexión del tablero con los sistemas de información"
+    ]
+  },
+  "pie": "IAM™ Intelligence · Documento Confidencial | Comfacesar | 7 octubre 2026 | Agencia de Empleo · Sesión 9"
+}

@@ -1,0 +1,374 @@
+{
+  "proyecto": "Comfacesar",
+  "programa": "IAM™ Intelligence",
+  "anio": "2026",
+  "area": "IPS",
+  "area_completa": "",
+  "sesion_num": 6,
+  "fase": "Proyectos y Sistemas de Trabajo",
+  "fecha": "7 de octubre de 2026",
+  "fecha_corta": "7octubre2026",
+  "subtitulo_meta": "Sesión del área · 7 de octubre de 2026 · 4:58 p. m. · 54 min",
+  "datos_sesion": [
+    [
+      "Área(s)",
+      "IPS, Seguridad y Salud en el Trabajo, Comfacesar"
+    ],
+    [
+      "Sesión",
+      "N° 6. El circuito de inspecciones corriendo, y el tablero para la dirección"
+    ],
+    [
+      "Fecha",
+      "7 de octubre de 2026"
+    ],
+    [
+      "Duración de la sesión",
+      "54 minutos"
+    ],
+    [
+      "Modalidad",
+      "Virtual, por Microsoft Teams"
+    ],
+    [
+      "Asistencia",
+      "Danilo Pozo y Jurgen Saurith Araujo, completa. Una cuenta compartida del equipo, 12 minutos"
+    ],
+    [
+      "Grabación",
+      "Publicada en el canal del área"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo, Mentora IAM™ Intelligence"
+    ]
+  ],
+  "kpis": [
+    {
+      "valor": "23",
+      "etiqueta": "Sedes con código único",
+      "detalle": "El bloque A quedó como S01"
+    },
+    {
+      "valor": "3",
+      "etiqueta": "Roles en la aplicación de inspecciones",
+      "detalle": "Vigía, coordinación y lectura gerencial"
+    },
+    {
+      "valor": "800",
+      "etiqueta": "Funcionarios bajo el sistema",
+      "detalle": "Más 1.000 a 1.200 afiliados de población flotante"
+    },
+    {
+      "valor": "4",
+      "etiqueta": "Cortes del informe al año",
+      "detalle": "Enero, abril, julio y octubre, más el anual"
+    },
+    {
+      "valor": "3",
+      "etiqueta": "Reprocesos identificados en el área",
+      "detalle": "Exámenes cerrado, inspecciones casi, capacitaciones pendiente"
+    }
+  ],
+  "participantes": [
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Danilo Pozo",
+      "cargo": "IPS, Seguridad y Salud en el Trabajo, Comfacesar",
+      "correo": "",
+      "modalidad": "Virtual",
+      "nivel": "Avanzado"
+    },
+    {
+      "nombre": "Jurgen Saurith Araujo",
+      "cargo": "IPS, Seguridad y Salud en el Trabajo, Comfacesar",
+      "correo": "",
+      "modalidad": "Virtual",
+      "nivel": "Avanzado"
+    }
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 6. El área llega con el circuito de inspecciones construido y corriendo, y con los exámenes médicos cerrados. Los riesgos ya no son de construcción: son de cobertura, de registro y de las dependencias que el área no controla.",
+  "riesgos": [
+    {
+      "titulo": "El reporte del área sigue sin recoger lo construido",
+      "nivel": "ALTO",
+      "descripcion": "**Es el mismo riesgo de la sesión anterior y sigue abierto.** _El área cerró exámenes médicos, montó el ausentismo valorado y tiene el circuito de inspecciones corriendo,_ **y eso no está documentado en el reporte.** *Lo que no esté cargado al corte de la primera fase no entra en el informe,* _y el informe es lo que se presenta a la dirección._ **Se pidió de forma explícita dos veces en la sesión.**",
+      "responsable": "IPS / Viernes 9 de octubre"
+    },
+    {
+      "titulo": "El archivo fuente del tablero publicado no está localizable",
+      "nivel": "ALTO",
+      "descripcion": "**Se pidió el HTML del tablero de inspecciones que ya está publicado y no se pudo encontrar.** _El equipo trabaja alternando entre dos computadores y el archivo quedó en uno de ellos._ *Sin el archivo fuente un tablero publicado no se puede mejorar ni volver a publicar,* **y el ejercicio hubo que hacerlo con un tablero anterior.** _Costó alrededor de diez minutos de la sesión._",
+      "responsable": "IPS / Inmediato"
+    },
+    {
+      "titulo": "El inventario codificado cubre una sede, faltan las demás",
+      "nivel": "MEDIO",
+      "descripcion": "**La prueba piloto se hizo inventariando una sede y marcando cada elemento con su sello de código.** _El circuito funciona de extremo a extremo sobre esa sede,_ **pero son 23.** *Mientras el inventario no esté completo, los indicadores de cumplimiento no son comparables entre sedes,* _y es justo lo que la vista gerencial promete mostrar._",
+      "responsable": "IPS / Segunda fase"
+    },
+    {
+      "titulo": "La aplicación depende de una credencial de publicación que vence",
+      "nivel": "MEDIO",
+      "descripcion": "**Cuando la credencial del servicio donde está publicada la aplicación caduca, la app aparece como si no funcionara.** _No es una falla del tablero ni pide pago:_ **se renueva la credencial y se vuelve a publicar.** *Si eso no queda escrito, la primera vez que pase va a parecer que el sistema se cayó,* _y puede pasar justo antes de una presentación._",
+      "responsable": "IPS / Esta semana"
+    },
+    {
+      "titulo": "Los tableros se alimentan con descargas manuales",
+      "nivel": "MEDIO",
+      "descripcion": "**Hoy la información entra a los tableros bajando archivos de Excel.** _Funciona, y por eso el circuito ya opera,_ **pero cada corte depende de que alguien descargue y cargue.** *La salida es conectar los tableros a los sistemas de información por interfaces,* _y eso es trabajo de la segunda fase, no del área sola._",
+      "responsable": "IPS / Segunda fase"
+    },
+    {
+      "titulo": "Las capacitaciones siguen resolviéndose en terreno",
+      "nivel": "MEDIO",
+      "descripcion": "**Es el tercer reproceso del área y el único que sigue intacto.** _Hoy implica recorrer el departamento para capacitar a 800 trabajadores en cuatro temas,_ **con el gasto operativo que eso tiene y con el equipo fuera de la oficina.** *La propuesta ya está planteada: una aplicación con contenido asincrónico, evaluación y certificado,* _montada igual que la de inspecciones._",
+      "responsable": "IPS / Segunda fase"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Cargar exámenes e inspecciones en el reporte del área",
+      "descripcion": "**Módulo por módulo, con minutos antes y minutos ahora.** _Es lo único que convierte lo construido en resultado presentable,_ *y la fecha es el corte de la primera fase.*",
+      "responsable": "IPS",
+      "plazo": "Viernes 9 de octubre"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Guardar los archivos fuente de los tableros en un sitio único",
+      "descripcion": "**Una carpeta, en un solo computador o en la nube, con el HTML de cada tablero publicado.** _Sin el fuente no se puede mejorar lo que ya está en producción._",
+      "responsable": "IPS",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "03",
+      "nivel": "MEDIO",
+      "titulo": "Dejar escrito el procedimiento de renovación de la credencial",
+      "descripcion": "**Dos líneas bastan:** _si la aplicación deja de responder, se entra donde está publicada, se renueva la credencial y se vuelve a publicar._ *Y el soporte es el propio agente.*",
+      "responsable": "IPS",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Extender el inventario codificado al resto de las sedes",
+      "descripcion": "**Sede por sede, con el mismo criterio de código único por sede y por elemento.** _Es trabajo de inventario, no de construcción, y es lo que habilita la comparación entre sedes._",
+      "responsable": "IPS",
+      "plazo": "Segunda fase"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Mapear qué sistemas de información hay que conectar",
+      "descripcion": "**Por tablero, cuál es la fuente que hoy se baja a mano.** _Ese mapa es la entrada a la segunda fase,_ *y sin él la conexión se discute en abstracto.*",
+      "responsable": "IPS",
+      "plazo": "Antes de la segunda fase"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El tablero, pasado por el estudio de diseño",
+      "duracion": "~20 min",
+      "objetivo": "Convertir un tablero que ya funciona en una pieza presentable ante un consejo directivo.",
+      "pasos": [
+        "**El punto de partida es una distinción de método:** _el agente entrega tableros bien construidos y funcionales,_ **y el estudio de diseño les pone la capa visual.** *Se crea allá y se pasa por aquí*",
+        "**Se pidió al agente el enlace de descarga del tablero** y se descargó el archivo HTML",
+        "**Se adjuntó ese archivo en el estudio de diseño** y se escribió la instrucción completa: _animación, tres dimensiones, estilo de pantalla de bolsa, un avatar desplazándose, movimiento en toda la presentación_, **y la frase que fija el destinatario: esto es para el consejo directivo**",
+        "**El resultado trae los indicadores en cinta superior**, con el avatar recorriendo el tablero y mostrando las cifras del área",
+        "_Se enseñó también a iterar:_ **se le dijo que la parte final estaba cargada de texto y se le pidió más movimiento**, *y devolvió esa sección rehecha*",
+        "**Y el paso de vuelta, que es el que cierra el circuito:** _pedirle el código para montarlo en el agente,_ **volver a publicar el artefacto y quedarse con la nueva visual**",
+        "_Quedó dicho que este mismo recorrido sirve para cualquier tablero del área,_ **y que el prompt se puede copiar tal cual**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Exámenes médicos y ausentismo, cerrados",
+      "duracion": "~4 min",
+      "objetivo": "Confirmar el estado del frente que venía de la sesión anterior.",
+      "pasos": [
+        "**El área reporta el control de exámenes médicos al 100%** y el ausentismo con datos reales, _no estimados_",
+        "**La herramienta trabaja en tiempo real con cortes**, y la razón de los cortes es un hallazgo: _la operación manual anterior generaba discrepancias y errores que la propia revisión detectaba_",
+        "**La decisión fue cortar en septiembre y alimentar en línea desde ahí**, *en lugar de arrastrar el histórico sucio*",
+        "**Hoy el área sabe cuántos exámenes de ingreso tiene, quiénes llegan con recomendaciones y cuánto está costando el ausentismo**",
+        "_Y la frase con la que el área resume la fase:_ **estamos programando sin ser programadores**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · La aplicación de inspecciones, desde el rol del vigía",
+      "duracion": "~8 min",
+      "objetivo": "Ver el circuito en el punto donde lo usa quien está en la sede.",
+      "pasos": [
+        "**El marco es normativo:** _la obligación de inspeccionar cada sede viene del decreto 1072 y de la resolución 0312,_ **con un equipo pequeño para 800 funcionarios, entre 1.000 y 1.200 afiliados de población flotante y 23 sedes**",
+        "**La aplicación tiene tres roles.** _El del vigía va en el celular:_ entra con usuario y contraseña y tiene dos caminos, **nueva inspección o escanear el código QR**",
+        "**Cada una de las 23 sedes tiene un código único**, _el bloque A quedó como S01_, **y cada elemento tiene además su propio código impreso en un sello individual**",
+        "**El sello se aplicó inventariando una sede como prueba piloto**, sobre extintores, botiquines, camillas y lámparas de emergencia",
+        "**El vigía elige el tipo de inspección, llega al elemento y toma la foto**",
+        "_La foto no es solo evidencia:_ **registra lugar, hora y fecha exacta de la inspección**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Una inspección real, con la lectura de la foto",
+      "duracion": "~7 min",
+      "objetivo": "Comprobar que el hallazgo sale de comparar la realidad contra el parámetro.",
+      "pasos": [
+        "**Se abrió una inspección de extintor hecha en terreno ese mismo día**, con sus fotografías",
+        "**El checklist no se llena a mano:** _la lectura de la foto contra los parámetros definidos por el área lo diligencia y devuelve recomendaciones con prioridad y semaforización,_ **cumple o no cumple**",
+        "**Los parámetros son los del área, no genéricos:** presión del manómetro, sello de seguridad, estado y acceso",
+        "**Primer hallazgo del ejemplo:** _despejar el acceso al extintor retirando la planta decorativa, prioridad alta._ **La planta estaba ahí de verdad, no se puso para la prueba**",
+        "**Segundo hallazgo:** la aguja del manómetro ubicada en zona de operación, _que es la lectura que valida que el extintor sirve_",
+        "_Observación de criterio que dejó la mentoría:_ **para saber que una maceta estorba no hace falta inteligencia artificial.** *El valor no está en detectar lo evidente, está en aplicar el parámetro técnico de forma uniforme en 23 sedes y dejarlo registrado con hora y lugar*"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · La vista de coordinación y el informe trimestral",
+      "duracion": "~8 min",
+      "objetivo": "Pasar de la ejecución en sede a la decisión sobre datos.",
+      "pasos": [
+        "**La vista de coordinación muestra dónde están los vigías, las estadísticas de inspección y la hoja de vida de cada vigía**, _con qué inspecciones realizó y cuáles no_",
+        "**El informe se genera automáticamente con los indicadores** y se exporta en PDF o en otros formatos",
+        "**Los cortes son enero, abril, julio y octubre**, _que es el trimestre del área, más el anual_",
+        "**El informe propone las recomendaciones y el área confirma o anexa las suyas** según su propio criterio, *y el sistema las incorpora al documento*",
+        "_Con eso queda cubierto el requisito normativo,_ **que antes se atendía llenando formatos a mano**",
+        "**La lectura gerencial responde lo que pregunta un jefe:** _qué porcentaje de inspecciones hay a la fecha, qué sedes están cumpliendo, cuáles tienen hallazgos y cuáles son_",
+        "_La división de trabajo quedó explícita:_ **el vigía ejecuta y recopila, la coordinación decide sobre los datos ya graficados**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio F · Lo que viene, y cómo se sostiene",
+      "duracion": "~4 min",
+      "objetivo": "Dejar planteado el tercer reproceso y las condiciones de operación.",
+      "pasos": [
+        "**El área identificó tres reprocesos:** _exámenes, cerrado. Inspecciones, con detalles pendientes. Capacitaciones, intacto_",
+        "**Las capacitaciones hoy se resuelven recorriendo el departamento**, con 800 trabajadores y cuatro temas, _y con el gasto operativo que implica_",
+        "**La propuesta es la misma arquitectura de inspecciones:** aplicación con contenido asincrónico y video, evaluación, _avance por usuario según su ingreso_ **y certificado digital al terminar**",
+        "**Sobre el sostenimiento quedó una regla de operación:** _si la aplicación deja de responder, casi siempre es la credencial de publicación que venció._ *Se renueva y se vuelve a publicar*",
+        "**Y el soporte del área es el propio agente que alimenta la aplicación:** _no me sale este gráfico, no está saliendo en tiempo real,_ **se le escribe a él**",
+        "_La segunda fase quedó nombrada:_ **la era de la hiperconectividad.** *Conectar los tableros a los sistemas de información por interfaces, con acompañamiento de gerencia de proyecto,* **para dejar de alimentarlos con descargas de Excel**"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 6 · 7 octubre 2026",
+      "titulo": "El checklist dejó de ser un papel y pasó a ser una foto contra un parámetro",
+      "descripcion": "**El bloqueo que el área traía era real: el checklist manual no encajaba porque las variables se multiplican por sede y por elemento.** _Lo resolvieron ellos._ **Hoy cada sede tiene código, cada elemento tiene su QR, el vigía toma la foto y el hallazgo sale de comparar la realidad contra el parámetro técnico, con hora y lugar registrados.** *El vigía dejó de llenar formatos y la coordinación dejó de recopilar: ahora decide.*",
+      "estado": "Construido y corriendo",
+      "proximo_paso": "Extender el inventario codificado al resto de las sedes",
+      "target": "Segunda fase"
+    },
+    {
+      "encabezado": "★ EL INFORME QUE CIERRA EL REQUISITO",
+      "titulo": "El trimestral se genera solo y admite el criterio del área",
+      "descripcion": "**El informe sale con indicadores, se exporta y se presenta.** _Lo que lo hace defendible no es que sea automático:_ **es que el área confirma o anexa sus propias recomendaciones y el sistema las incorpora.** *El criterio técnico sigue siendo del profesional,* _y el formato deja de consumirle el tiempo._",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Correr el corte de octubre con el inventario ampliado",
+      "target": "Octubre"
+    },
+    {
+      "encabezado": "★ MÉTODO",
+      "titulo": "Al digitalizar el proceso, el proceso roto se arregló",
+      "descripcion": "**Los dos frentes del área empezaron igual: un procedimiento que la norma exige y una operación manual que producía errores.** _En exámenes la salida fue cortar y alimentar en línea._ **En inspecciones fue codificar el inventario antes de construir nada.** *En los dos casos el ejercicio no automatizó el desorden: lo obligó a ordenarse primero.* _Y eso es transferible a cualquier área._",
+      "estado": "Aplicado en los dos frentes",
+      "proximo_paso": "Repetirlo en capacitaciones",
+      "target": "Segunda fase"
+    },
+    {
+      "encabezado": "★ RECONOCIMIENTO",
+      "titulo": "El área cierra la primera fase con dos frentes resueltos y el tercero planteado",
+      "descripcion": "**Entre la sesión anterior y esta, el área pasó de tener la web app de exámenes sin documentar a tener el circuito de inspecciones corriendo en sede, con tres roles y el informe normativo saliendo solo.** _Lo dijeron ellos y conviene dejarlo escrito:_ **no es solo un problema del área, son horas que se liberan en toda la Caja**, *porque el dato de ausentismo le interesa a cada gerencia y el costo de la ausencia le interesa a la dirección.*",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Preparar la presentación final a la dirección",
+      "target": "Dos semanas"
+    }
+  ],
+  "tareas_intro": "El área llega al corte con los dos frentes construidos y corriendo. Lo que falta no es construir: es dejar registrado lo hecho antes del viernes, guardar los archivos fuente donde se puedan encontrar y mapear lo que la segunda fase tiene que conectar.",
+  "tareas": [
+    {
+      "tarea": "Cargar exámenes e inspecciones en el reporte del área, módulo por módulo",
+      "responsable": "IPS",
+      "prioridad": "URGENTE",
+      "plazo": "Viernes 9 de octubre"
+    },
+    {
+      "tarea": "Guardar los archivos fuente de los tableros publicados en una carpeta única",
+      "responsable": "IPS",
+      "prioridad": "ALTA",
+      "plazo": "Inmediato"
+    },
+    {
+      "tarea": "Dejar escrito el procedimiento de renovación de la credencial de publicación",
+      "responsable": "IPS",
+      "prioridad": "MEDIA",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Pasar los tableros del área por el estudio de diseño antes de la presentación",
+      "responsable": "IPS",
+      "prioridad": "MEDIA",
+      "plazo": "Antes de la presentación"
+    },
+    {
+      "tarea": "Extender el inventario codificado al resto de las sedes",
+      "responsable": "IPS",
+      "prioridad": "MEDIA",
+      "plazo": "Segunda fase"
+    },
+    {
+      "tarea": "Mapear por tablero qué sistema de información hay que conectar",
+      "responsable": "IPS",
+      "prioridad": "MEDIA",
+      "plazo": "Antes de la segunda fase"
+    },
+    {
+      "tarea": "Preparar la presentación final a la dirección con la mentoría",
+      "responsable": "IPS",
+      "prioridad": "ALTA",
+      "plazo": "Dos semanas"
+    }
+  ],
+  "observaciones": [
+    "**El área llega a esta sesión con los dos frentes que traía en construcción ya corriendo.** _Exámenes médicos reporta control al 100% y el ausentismo tiene datos reales, no estimados._ **La herramienta trabaja en tiempo real con cortes**, *y la razón de los cortes es ella misma un hallazgo:* _la operación manual anterior generaba discrepancias y errores._ **Se decidió cortar en septiembre y alimentar en línea desde ahí**, en lugar de arrastrar el histórico sucio.",
+    "_La frase con la que el área resume lo aprendido vale como registro:_ **estamos programando sin ser programadores.** *Es exactamente el objetivo de la mentoría dicho por quien lo hizo.*",
+    "**El frente nuevo es el circuito de inspecciones, y está corriendo en sede.** _El marco es normativo:_ la obligación de inspeccionar cada sede viene del decreto 1072 y de la resolución 0312, **con un equipo pequeño para 800 funcionarios, entre 1.000 y 1.200 afiliados de población flotante y 23 sedes.** *Ese desbalance es el problema que el circuito ataca.*",
+    "**La aplicación tiene tres roles y cada uno resuelve algo distinto.** _El del vigía va en el celular:_ **entra, abre una inspección nueva o escanea el código QR del elemento.** *Cada una de las 23 sedes tiene código único, el bloque A quedó como S01, y cada elemento tiene además su propio código en un sello individual,* _aplicado inventariando una sede como prueba piloto sobre extintores, botiquines, camillas y lámparas de emergencia._",
+    "**Lo que cambia el trabajo del vigía es que ya no llena un checklist.** _Toma la foto._ **La lectura de la foto contra los parámetros que el área definió diligencia el checklist y devuelve recomendaciones con prioridad y semaforización, cumple o no cumple.** *Y la foto registra lugar, hora y fecha exacta,* _lo que antes era el eslabón más débil de la evidencia._",
+    "**Se revisó una inspección real de extintor hecha ese día.** _El primer hallazgo fue despejar el acceso retirando la planta decorativa, con prioridad alta, y la planta estaba ahí de verdad._ **El segundo fue la aguja del manómetro en zona de operación**, *que es la lectura que valida que el equipo sirve.*",
+    "_Aquí la mentoría dejó una observación de criterio que conviene no perder:_ **para saber que una maceta estorba no hace falta inteligencia artificial.** *El valor no está en detectar lo evidente.* **Está en aplicar el mismo parámetro técnico de forma uniforme en 23 sedes, con registro de hora y lugar, sin depender de quién hizo la ronda.**",
+    "**La vista de coordinación es la que convierte la ronda en gestión:** _dónde están los vigías, estadísticas de inspección, y la hoja de vida de cada vigía con lo que realizó y lo que no._ *Esa última columna es la que antes no existía.*",
+    "**El informe trimestral se genera automáticamente con los indicadores y se exporta en PDF.** _Los cortes son enero, abril, julio y octubre, que es el trimestre del área, más el anual._ **Y lo que lo hace defendible es que el área confirma o anexa sus propias recomendaciones y el sistema las incorpora al documento:** *el criterio técnico sigue siendo del profesional,* _y el formato deja de consumirle el tiempo._ **Con eso queda cubierto el requisito normativo.**",
+    "**La lectura gerencial responde lo que pregunta un jefe:** _qué porcentaje de inspecciones hay a la fecha, dónde está el porcentaje que falta y por qué, qué sedes tienen hallazgos y cuáles son._ *La división quedó dicha de forma explícita:* **el vigía ejecuta y recopila, la coordinación decide sobre los datos ya graficados.** _Eso es el deber ser del área._",
+    "**Los primeros veinte minutos se dedicaron a una técnica de presentación, y la facilitadora lo advirtió al cerrarlos.** _Un tablero que funciona no es todavía una pieza para un consejo directivo._ **El recorrido es: pedir al agente el enlace de descarga del tablero, adjuntar ese HTML en el estudio de diseño y pedirle animación, tres dimensiones, estilo de pantalla de bolsa, un avatar desplazándose y movimiento en toda la presentación, diciendo para quién es.** *Y el paso de vuelta, que es el que cierra: pedirle el código, montarlo en el agente y volver a publicar.*",
+    "_Se enseñó también a iterar sobre el resultado:_ **se le dijo que la sección final estaba cargada de texto y se pidió más movimiento**, *y devolvió esa parte rehecha.* **El mismo recorrido sirve para cualquier tablero del área y el prompt se puede reutilizar tal cual.**",
+    "**Pero el ejercicio dejó al descubierto un problema de orden que hay que corregir.** _Se pidió el HTML del tablero de inspecciones que ya está publicado y no se pudo encontrar:_ **el equipo alterna entre dos computadores y el archivo quedó en uno de ellos.** *Hubo que hacer el ejercicio con un tablero anterior y costó alrededor de diez minutos.* _Sin archivo fuente, un tablero publicado no se puede mejorar ni volver a publicar._",
+    "**Sobre el sostenimiento quedó una regla que conviene tener escrita antes de que haga falta:** _cuando la aplicación deja de responder, casi siempre es la credencial del servicio donde está publicada, que venció._ **Se renueva y se vuelve a publicar.** *No es una falla del tablero.* _Si eso no está documentado, la primera vez que pase va a parecer que el sistema se cayó, y puede pasar justo antes de una presentación._",
+    "**Y una definición de soporte que ordena a quién se le pregunta:** _el área de apoyo de estas herramientas es el propio agente que las alimenta._ **No me sale este gráfico, no está saliendo en tiempo real: se le escribe a él.** *Esto es un asunto de procesos, montado sobre una herramienta, y no un desarrollo de sistemas.* _La conexión con los sistemas de información sí requiere acompañamiento técnico, y es materia de la segunda fase._",
+    "**El tercer reproceso del área sigue intacto y es el que viene: las capacitaciones.** _Hoy se resuelven recorriendo el departamento para capacitar a 800 trabajadores en cuatro temas,_ **con el gasto operativo que eso tiene y con el equipo fuera de la oficina.** *La propuesta es la misma arquitectura de inspecciones:* aplicación con contenido asincrónico y video, evaluación, _avance por usuario según su ingreso_ **y certificado digital al terminar.**",
+    "**La segunda fase quedó nombrada en la sesión: la era de la hiperconectividad.** _Hoy los tableros se alimentan bajando archivos de Excel._ **El objetivo es conectarlos a los sistemas de información por interfaces, con acompañamiento de gerencia de proyecto, para que se actualicen solos.** *Mientras eso no exista, cada corte depende de que alguien descargue y cargue.*",
+    "_Lo que el propio área puso sobre la mesa al cerrar, y que es el argumento más fuerte para la dirección:_ **esto no resuelve un problema del área, resuelve uno de la Caja.** *El dato de ausentismo le interesa a cada gerencia, porque explica por qué su gente falta,* **y el costo de la ausencia le interesa a la dirección.** _Son horas de personal que se liberan y se van a análisis._",
+    "_Nota sobre las condiciones de la sesión:_ **buena parte de la primera mitad se perdió en audio.** *El equipo trabajaba desde dos computadores conectados a la misma reunión, con eco, y con el micrófono lejos.* **Hubo que repetir indicaciones y pedir confirmación de pantalla varias veces.** _En una sesión de ejecución compartida eso cuesta ejercicio, y conviene entrar desde un solo equipo._"
+  ],
+  "proxima_sesion": {
+    "sesion": "IPS, presentación final de la primera fase y segunda fase",
+    "condiciones": [
+      "Exámenes e inspecciones cargados en el reporte del área",
+      "Los archivos fuente de los tableros guardados en un sitio único",
+      "El procedimiento de renovación de la credencial escrito",
+      "El mapa de sistemas de información por tablero"
+    ],
+    "agenda": [
+      "La presentación a la dirección, preparada con la mentoría",
+      "El inventario codificado ampliado y el cumplimiento comparado entre sedes",
+      "La aplicación de capacitaciones, planteada de extremo a extremo",
+      "La conexión de los tableros con los sistemas de información"
+    ]
+  },
+  "pie": "IAM™ Intelligence · Documento Confidencial | Comfacesar | 7 octubre 2026 | IPS · Sesión 6"
+}

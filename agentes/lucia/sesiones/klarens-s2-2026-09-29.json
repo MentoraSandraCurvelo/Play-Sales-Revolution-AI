@@ -1,0 +1,295 @@
+{
+  "proyecto": "Klaren's",
+  "programa": "IAM™ Social",
+  "anio": "2026",
+  "area": "Marketing",
+  "area_completa": "",
+  "sesion_num": 2,
+  "fase": "Marca profesional y Social Selling",
+  "fecha": "29 de septiembre de 2026",
+  "fecha_corta": "29septiembre2026",
+  "subtitulo_meta": "Jesús López · 29 de septiembre de 2026 · 11:13 a. m. · 19 min",
+  "datos_sesion": [
+    [
+      "Frente",
+      "Marketing, Klaren's"
+    ],
+    [
+      "Sesión",
+      "N° 2. El banner de la página de compañía y lo que apareció debajo"
+    ],
+    [
+      "Fecha",
+      "29 de septiembre de 2026"
+    ],
+    [
+      "Duración de la sesión",
+      "19 minutos"
+    ],
+    [
+      "Modalidad",
+      "Virtual, por Microsoft Teams"
+    ],
+    [
+      "Asistencia",
+      "Jesús López, completa"
+    ],
+    [
+      "Grabación",
+      "En la carpeta del cliente"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo, Mentora IAM™ Social"
+    ]
+  ],
+  "kpis": [
+    {
+      "valor": "1",
+      "etiqueta": "Perfil de persona operando como empresa",
+      "detalle": "Encontrado en vivo, con riesgo de bloqueo"
+    },
+    {
+      "valor": "9",
+      "etiqueta": "Contactos que tenía ese perfil",
+      "detalle": "Toda la red construida sobre la cuenta equivocada"
+    },
+    {
+      "valor": "2",
+      "etiqueta": "Administradoras nuevas de la página",
+      "detalle": "El control volvió a la empresa en la misma sesión"
+    },
+    {
+      "valor": "0",
+      "etiqueta": "Perfiles propios en el frente de marketing",
+      "detalle": "Quien gestiona la marca no tiene cuenta personal"
+    }
+  ],
+  "participantes": [
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Jesús López",
+      "cargo": "Marketing, Klaren's",
+      "correo": "marketing@klarens.com.co",
+      "modalidad": "Virtual",
+      "nivel": "Inicial"
+    }
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 2. La sesión se agendó para revisar un banner y terminó destapando un problema de fondo: la presencia de Klaren's en LinkedIn se venía construyendo sobre una cuenta que la propia plataforma no permite. Los riesgos de abajo no son de diseño, son de permanencia.",
+  "riesgos": [
+    {
+      "titulo": "Hay un perfil de persona haciendo de empresa, y LinkedIn lo bloquea",
+      "nivel": "CRITICO",
+      "descripcion": "**Al abrir la cuenta con la que se estaba trabajando apareció un perfil de persona a nombre de Lácteos del Cesar**, no una página de compañía. *LinkedIn no permite representar una empresa con un perfil personal:* **esas cuentas se bloquean, y cuando se bloquean se pierde todo lo que tengan dentro.** _El perfil ya tenía 9 contactos y aparecía con un cargo de asistente comercial en la información de contacto._ La mentoría dejó constancia con un pantallazo.",
+      "responsable": "Marketing / Inmediato"
+    },
+    {
+      "titulo": "El acceso a la página de compañía dependía de esa cuenta",
+      "nivel": "ALTO",
+      "descripcion": "**Antes de la sesión, la única vía de administración de la página era el perfil que hay que eliminar.** _Si LinkedIn lo hubiera bloqueado primero, la empresa se quedaba sin acceso a su propia página._ *Se corrigió en vivo:* la administración quedó en manos de la empresa y de la mentoría antes de tocar la cuenta.",
+      "responsable": "Marketing / Resuelto en sesión"
+    },
+    {
+      "titulo": "Quien gestiona la marca no tiene perfil propio",
+      "nivel": "ALTO",
+      "descripcion": "**Jesús López no tiene cuenta de LinkedIn.** _Por eso estaba operando desde la cuenta de la empresa:_ no era una preferencia, era la única puerta que tenía. **Sin perfil propio no hay Social Selling posible,** *y tampoco se puede cerrar el perfil que sobra, porque es el que hoy da el acceso.*",
+      "responsable": "Marketing / Esta semana"
+    },
+    {
+      "titulo": "El texto del banner no se lee",
+      "nivel": "MEDIO",
+      "descripcion": "**La pieza quedó bien montada en la página, pero la línea «tradición que los une» se pierde contra la imagen.** _Un mensaje que no se lee no comunica,_ y es justo el que carga la promesa de marca. *La salida acordada es un fondo translúcido detrás de la tipografía,* no cambiar la frase.",
+      "responsable": "Marketing / Inmediato"
+    },
+    {
+      "titulo": "El banner no se ha visto en el celular",
+      "nivel": "MEDIO",
+      "descripcion": "**Las medidas de la portada de la página y las del perfil son distintas**, y el primer intento falló por eso. _La revisión se hizo en escritorio;_ **la mayor parte de quien ve una página de LinkedIn la ve en el teléfono.** *Queda pendiente instalar la aplicación y comprobar el recorte en móvil.*",
+      "responsable": "Marketing / Inmediato"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "CRITICO",
+      "titulo": "Crear el perfil personal y eliminar la cuenta que hace de empresa",
+      "descripcion": "**En este orden, que no es negociable.** _Primero el perfil propio, sin banner y sin contenido,_ solo existiendo. **Luego avisar a la mentoría para quedar como súper administrador de la página.** *Y solo entonces cerrar la otra cuenta,* en Ajustes y privacidad, Cerrar y eliminar cuenta. _Invertir el orden deja a la empresa sin acceso a su página._",
+      "responsable": "Jesús López",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Poner fondo translúcido detrás del texto del banner",
+      "descripcion": "**La frase de marca tiene que leerse sobre cualquier foto.** _Un fondo oscuro translúcido detrás de la línea de texto resuelve el contraste sin tocar el diseño._",
+      "responsable": "Jesús López",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Comprobar el banner desde el celular",
+      "descripcion": "**Instalar LinkedIn en el teléfono y mirar la página y el perfil ahí.** _El recorte móvil es distinto del de escritorio_ y es donde más gente la va a ver.",
+      "responsable": "Jesús López",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Dejar las dos medidas documentadas",
+      "descripcion": "**Portada de página de compañía y portada de perfil no comparten medida.** _Anotarlas una vez evita repetir el intento fallido en cada pieza nueva._",
+      "responsable": "Jesús López",
+      "plazo": "Esta semana"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El banner, montado en la página de compañía",
+      "duracion": "~4 min",
+      "objetivo": "Ver la pieza puesta en el sitio real, no en la maqueta.",
+      "pasos": [
+        "**Se entró a la administración de la página** y se quitó la imagen de portada anterior desde editar página, editar imagen de portada",
+        "**El primer archivo no encajó**, y ahí salió la causa: _la portada de la página de compañía y la del perfil no tienen la misma medida_",
+        "**Se subió el archivo con la medida correcta** y la pieza quedó publicada en la página",
+        "_Primera lectura en vivo:_ **la composición funciona, pero la línea «tradición que los une» se pierde** contra la imagen de fondo",
+        "**Se acordó un fondo translúcido detrás del texto**, no un cambio de frase ni de foto"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Lo que apareció al abrir la cuenta",
+      "duracion": "~6 min",
+      "objetivo": "Entender con qué cuenta se estaba administrando la marca.",
+      "pasos": [
+        "**Al entrar no apareció una página de compañía sino un perfil de persona a nombre de Lácteos del Cesar**, con 9 contactos y un cargo de asistente comercial en la información de contacto",
+        "**La mentoría lo marcó de inmediato:** _LinkedIn no permite representar a una empresa con un perfil personal,_ **y esas cuentas se bloquean**",
+        "_El frente de marketing entendía que la cuenta venía de antes;_ **la revisión de la información de contacto mostró que es reciente**",
+        "**Se tomó pantallazo como constancia** antes de mover nada",
+        "_El hallazgo cambió el objetivo de la sesión:_ **no era ajustar un banner, era recuperar el control de la página**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · La administración de la página, devuelta a la empresa",
+      "duracion": "~5 min",
+      "objetivo": "Dejar el acceso a la página en manos correctas antes de tocar la cuenta que sobra.",
+      "pasos": [
+        "**Desde ajustes, gestionar administradores, se añadió a Sandra Curvelo como súper administradora**",
+        "**Se añadió a Mayra Alejandra Caro Daza**, que lleva el frente de perfiles y página de compañía",
+        "**Solo después se retiró el acceso del perfil que hay que eliminar**, en ese orden",
+        "_Al retirarlo, el frente de marketing perdió la entrada,_ **porque era su única credencial**",
+        "**La mentoría lo restableció de forma temporal** para que las pruebas de banner pudieran seguir hoy, y dejó la eliminación como tarea con fecha",
+        "**Se siguió la página de Klaren's desde esa cuenta**, que no la estaba siguiendo"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · El banner de perfil, probado aparte",
+      "duracion": "~4 min",
+      "objetivo": "Verificar la segunda pieza, con su propia medida.",
+      "pasos": [
+        "**Se quitó la portada anterior del perfil** y se subió la pieza preparada para esa medida",
+        "**El encaje quedó correcto**, _esta vez sin recorte raro_",
+        "**La revisión pendiente es en móvil:** se pidió instalar LinkedIn en el celular para ver cómo cae ahí",
+        "_Quedó dicho de forma explícita:_ **el perfil personal nuevo arranca sin banner.** *Primero existe la cuenta, el diseño viene después*"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 2 · 29 septiembre 2026",
+      "titulo": "La sesión evitó un bloqueo, no solo arregló un banner",
+      "descripcion": "**Toda la presencia de Klaren's en LinkedIn se estaba construyendo sobre una cuenta que la plataforma elimina.** _Si el bloqueo llega antes que la corrección, se pierde el acceso a la página de compañía y el trabajo hecho encima._ **La sesión lo detectó, lo documentó y dejó la administración en manos de la empresa el mismo día.** *Ese es el valor del frente, y no se ve en el diseño de la pieza.*",
+      "estado": "Resuelto en sesión",
+      "proximo_paso": "Eliminar la cuenta una vez exista el perfil propio",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "★ CONTRA LA LÍNEA BASE · SEMANA 1",
+      "titulo": "La página ya tiene cara propia y administración correcta",
+      "descripcion": "**En la línea base la página de compañía no tenía portada y no había administradores de la empresa registrados.** _Al cerrar esta sesión tiene banner publicado y dos administradoras,_ **y el perfil que la suplantaba está identificado y con fecha de cierre.** *Es el primer movimiento medible del frente de marketing.*",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Registrar el antes y el después en el tablero del proyecto",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "★ MÉTODO",
+      "titulo": "El orden de las operaciones es la lección transferible",
+      "descripcion": "**Dar acceso primero, quitar acceso después.** _Cuando la única credencial de una empresa es la cuenta que hay que borrar, el orden deja de ser un detalle y pasa a ser el riesgo._ *Se aplicó aquí y aplica a cualquier traspaso de página, perfil o canal.*",
+      "estado": "Aplicado en sesión",
+      "proximo_paso": "Usarlo como regla fija en los traspasos del proyecto",
+      "target": "Permanente"
+    }
+  ],
+  "tareas_intro": "El banner quedó publicado, pero la sesión deja una tarea que pesa más que el diseño: cerrar la cuenta que hace de empresa sin perder el acceso a la página. El orden importa más que la velocidad.",
+  "tareas": [
+    {
+      "tarea": "Crear el perfil personal de LinkedIn, sin banner y sin contenido",
+      "responsable": "Jesús López",
+      "prioridad": "URGENTE",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Avisar a la mentoría para quedar como súper administrador de la página",
+      "responsable": "Jesús López",
+      "prioridad": "URGENTE",
+      "plazo": "Al crear el perfil"
+    },
+    {
+      "tarea": "Eliminar la cuenta que hace de empresa, en Ajustes y privacidad, Cerrar y eliminar cuenta",
+      "responsable": "Jesús López",
+      "prioridad": "URGENTE",
+      "plazo": "Después del traspaso"
+    },
+    {
+      "tarea": "Poner fondo translúcido detrás del texto del banner para que la frase se lea",
+      "responsable": "Jesús López",
+      "prioridad": "ALTA",
+      "plazo": "Inmediato"
+    },
+    {
+      "tarea": "Instalar LinkedIn en el celular y comprobar el banner en móvil",
+      "responsable": "Jesús López",
+      "prioridad": "ALTA",
+      "plazo": "Inmediato"
+    },
+    {
+      "tarea": "Dejar documentadas las dos medidas de portada, página y perfil",
+      "responsable": "Jesús López",
+      "prioridad": "MEDIA",
+      "plazo": "Esta semana"
+    }
+  ],
+  "observaciones": [
+    "**La sesión se agendó para revisar un banner y acabó resolviendo un problema de permanencia.** _La pieza se montó en la página de compañía sin mayor dificultad,_ pero al abrir la cuenta apareció lo que importaba.",
+    "**Lo que había no era una página de compañía: era un perfil de persona a nombre de Lácteos del Cesar**, con 9 contactos y un cargo de asistente comercial en la información de contacto. *LinkedIn no permite eso,* **y la consecuencia no es una advertencia, es el bloqueo de la cuenta.**",
+    "_El frente de marketing entendía que la cuenta ya venía creada así;_ **la información de contacto mostró que es reciente.** *La mentoría dejó pantallazo de constancia antes de mover nada,* porque si la cuenta desaparece desaparece también la evidencia.",
+    "**El riesgo real no era perder el perfil, era perder la página.** _Toda la administración dependía de esa única credencial._ **Se corrigió en el orden correcto:** primero se añadieron dos administradoras de la empresa, _Sandra Curvelo y Mayra Alejandra Caro Daza_, **y solo entonces se retiró el acceso de la cuenta que sobra.**",
+    "_Al retirarlo quedó claro el otro hallazgo:_ **quien gestiona hoy la marca no tiene perfil propio de LinkedIn.** *No estaba usando la cuenta de la empresa por comodidad, era su única entrada.* **Sin perfil personal no hay Social Selling,** porque el contenido profesional lo publica una persona, no una marca.",
+    "**La mentoría restableció el acceso de forma temporal** para que las pruebas de banner no se detuvieran, _y dejó la eliminación amarrada a una condición, no a una fecha suelta:_ **se cierra cuando exista el perfil nuevo y esté puesto como súper administrador.**",
+    "**En el banner de la página se corrigió un error de medida que vale anotar:** _la portada de la página de compañía y la del perfil no comparten dimensiones._ *El primer archivo no encajó por eso,* y con la medida correcta la pieza quedó publicada.",
+    "**El banner de perfil se probó aparte y encajó bien.** _Lo que no se pudo revisar es el móvil,_ **y es donde se ve la mayoría de las páginas.** *Quedó pedido instalar la aplicación en el celular.*",
+    "_Una observación de contenido, no de técnica:_ **la línea «tradición que los une» no se lee.** *La composición funciona, el mensaje se pierde.* **La salida acordada es un fondo translúcido detrás del texto,** no cambiar la frase ni la fotografía.",
+    "**Se siguió la página de Klaren's desde la cuenta**, que no la estaba siguiendo. _Detalle menor, pero una página sin seguidores propios arranca más lento._",
+    "_Una nota sobre las condiciones de la sesión:_ **buena parte del audio se perdió por ruido del entorno** y hubo que repetir indicaciones. *La sesión rindió igual porque el guion era corto,* **pero en una de ejecución compartida ese ruido cuesta ejercicio.**"
+  ],
+  "proxima_sesion": {
+    "sesion": "Marketing, Klaren's, próxima sesión por agendar",
+    "condiciones": [
+      "El perfil personal creado y puesto como súper administrador de la página",
+      "La cuenta que hace de empresa eliminada",
+      "El banner con el texto legible, revisado en escritorio y en celular",
+      "Las dos medidas de portada documentadas"
+    ],
+    "agenda": [
+      "El perfil personal, armado desde cero con criterio profesional",
+      "La página de compañía completa, más allá de la portada",
+      "El primer contenido publicado y qué se mide de él",
+      "La línea base de marketing contra el cierre del mes"
+    ]
+  },
+  "pie": "IAM™ Social · Documento Confidencial | Klaren's | 29 septiembre 2026 | Marketing · Sesión 2"
+}

@@ -48,6 +48,19 @@ Ojo con el calendario: el evento de la S2 llegó con invitados de SST
 (`sst@`, `asistentesst@`, `auxiliarsst@`) porque la reserva se hizo desde esas
 cuentas. No son asistentes del área — no se nombran en el acta.
 
+**Jurgen Saurith Araujo** entra al registro el 7 de octubre de 2026, con la sesión 6.
+Es quien montó el circuito de inspecciones y quien lo presentó en vivo. Aparece en el
+informe de asistencia de Teams con correo verificado, y esa es la forma del nombre que
+se usó en el acta: la del informe. **Queda pendiente que Sandra confirme el cargo**, porque
+el correo registrado es de dominio universitario y no de Comfacesar.
+
+La nota del 9 de septiembre decía que Danilo Pozo era el único apoyo del área. Ya no es
+así: la sesión 6 se trabajó entre los dos. La regla no cambia, el acta sigue siendo del
+área, pero el equipo del frente de inspecciones son Danilo y Jurgen.
+
+En la sesión 6 se conectó además una cuenta compartida del equipo durante 12 minutos.
+No es una persona y no se nombra: se registra como cuenta conectada en los datos de la sesión.
+
 ---
 
 ## Relevo de representantes — decisión de la sponsor, 11 de septiembre de 2026

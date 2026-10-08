@@ -256,7 +256,7 @@ def cabecera(d):
     )
     return f"""
 <div class="cabecera">
-  <div class="marca"><span class="anillo"></span>IAM™ INTELLIGENCE</div>
+  <div class="marca"><span class="anillo"></span>{e(d.get("programa", "IAM™ Intelligence")).upper()}</div>
   <div class="proyecto">Proyecto {e(d.get('proyecto',''))} · {e(d.get('anio',''))}</div>
   <div class="kicker">{kicker}</div>
   <div class="titulo">{titulo}</div>
@@ -482,16 +482,16 @@ def proxima_sesion(d):
 # Documento
 # ---------------------------------------------------------------------------
 def construir_html(d):
-    pie = e(d.get("pie", "IAM™ Intelligence — Documento Confidencial"))
+    pie = e(d.get("pie", "IAM™ Intelligence · Documento Confidencial"))
     partes = [
         cabecera(d),
         franja_kpis(d),
         seccion("01", "DATOS DE LA SESIÓN", tabla_datos(d)),
         seccion("02", "PARTICIPANTES Y DIAGNÓSTICO INICIAL", tabla_participantes(d)),
-        seccion("03", "MAPA DE CALOR — RIESGOS DEL PROYECTO", mapa_calor(d)),
-        seccion("04", "ALERTAS CRÍTICAS — ACCIONES REQUERIDAS", alertas(d)),
-        seccion("05", "EJERCICIOS CUBIERTOS — PASO A PASO", ejercicios(d)),
-        seccion("06", "OPORTUNIDAD ESTRATÉGICA — CONFIRMADA EN ACTA", oportunidades(d)),
+        seccion("03", "MAPA DE CALOR · RIESGOS DEL PROYECTO", mapa_calor(d)),
+        seccion("04", "ALERTAS CRÍTICAS · ACCIONES REQUERIDAS", alertas(d)),
+        seccion("05", "EJERCICIOS CUBIERTOS · PASO A PASO", ejercicios(d)),
+        seccion("06", "OPORTUNIDAD ESTRATÉGICA · CONFIRMADA EN ACTA", oportunidades(d)),
         seccion(
             "07",
             f"TAREAS PARA LA PRÓXIMA SESIÓN (SESIÓN {d.get('sesion_num', 0) + 1})",
