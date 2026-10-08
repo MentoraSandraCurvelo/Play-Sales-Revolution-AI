@@ -6,6 +6,52 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## jueves 8 de octubre de 2026 · 7:35 a. m. · Cinco áreas tenían sesión hoy y el tablero decía que no tenían fecha
+
+Sandra corrigió una cuenta de días: *«pero aún no es viernes, hoy es jueves 8»*. Al ir a arreglarla
+apareció algo mayor. **Fui al calendario, que ayer no miré.**
+
+### La agenda real, de Outlook
+| Hora Colombia | Área | | Convocados |
+|---|---|---|---|
+| hoy 10:00 a. m. | Subsidio | **S12** | `atencion_reclamos@` |
+| hoy 11:00 a. m. | Jurídica | **S13** | `secretaria_juridica@`, `contratacion@`, `analistaalianzas@` |
+| hoy 3:00 p. m. | Agencia de Empleo | **S10** | `laboratoriodeempleo@`, `fomentoempresarial@` |
+| hoy 4:00 p. m. | Educación | **S5** | `rectoriacolegio@` |
+| hoy 5:00 p. m. | Comunicaciones | **S12** | seis correos |
+| mañana 11:00 a. m. | Agencia de Empleo | **S11** | `agenciaempleo@`, `juridicompc@`, `fosfec@`, `fomentoempresarial@` |
+
+**Ninguna cancelada.** Seis sesiones, cinco hoy y una mañana, que es la última del programa.
+
+### Mi error, y es de método
+Ayer reconstruí cinco pastillas de «Próxima» **leyendo las filas del propio tablero**, no el calendario.
+Escribí «sin más fechas» en Subsidio, Agencia de Empleo y Educación, y en **Jurídica llegué a escribir
+«la que cierra el área»** porque así lo decía su fila. **Tiene S13 hoy.**
+
+*La regla que faltaba:* una pastilla de «Próxima» habla del futuro, y el futuro está en el calendario,
+no en las filas de lo ya hecho. Leer el tablero para escribir el tablero es circular.
+
+**Lo que sí estaba bien:** el mosaico de «13 áreas sin fecha». 18 áreas menos las 5 con sesión hoy son
+13. Esa cifra era correcta y mis pastillas eran las equivocadas, no al contrario.
+
+### Dos saltos de numeración en el calendario
+**Subsidio va de la S10 del martes a la S12 de hoy**, y **Agencia de Empleo de la S8 a la S10**. Es el
+patrón conocido de títulos de calendario que corren adelante del número real. **Se confirma con el
+acta, no con el calendario**, y queda señalado en el tablero.
+
+### Las cuentas de días, a hoy
+Todo lo que decía «quedan dos días» o «a dos días del cierre» estaba calculado al 7. **Hoy el cierre es
+mañana.** Corregido en los cuatro tableros, con una sola forma de decirlo para que no se contradigan:
+«el cierre es mañana, viernes 9» y, en los mosaicos, **1 día hábil después de hoy**.
+
+### Publicado
+**Termómetro v114** · **Mesa v26**, con la agenda de hoy en la tarjeta · **Corte v9**, al 8 de octubre ·
+**Hallazgos de cierre v26**. El conteo sigue en 112 y la asistencia en 191 sobre 207.
+
+*Nota técnica:* una guarda de balance de etiquetas atrapó un `<strong>` sin cerrar antes de escribir, en
+una sustitución que consumía la etiqueta de apertura de la frase anterior. El archivo quedó intacto y se
+repitió corregido. **Es exactamente para eso que la guarda corre antes del write.**
+
 ## jueves 8 de octubre de 2026 · 7:30 a. m. · Una sola rutina · la diaria queda apagada
 
 **Nada nuevo en el programa.** El 7 de octubre no tuvo sesiones, Lucía no commitea desde las 11:42 de
