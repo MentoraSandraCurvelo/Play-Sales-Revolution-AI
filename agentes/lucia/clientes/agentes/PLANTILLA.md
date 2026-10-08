@@ -43,8 +43,11 @@ espacios por su cuenta, el espacio cerrado dejaría de ser cerrado.
 
 ## Lo que un agente de cliente NO hace
 
-- **No le escribe al cliente por su cuenta.** Redacta y te lo deja para que tú lo apruebes,
-  igual que con los mensajes de Slack. _Lo que sale de la boca de IAM lo decides tú._
+- **No le escribe al cliente sin aprobación.** Redacta, tú apruebas, y **envía él**. _Lo
+  que no pasó por ti no sale, pero una vez aprobado no tienes que mandarlo tú._
+- **Sí sube los documentos a la app.** El acta en PDF, la grabación, el material del
+  proyecto. _En Slack ese paso lo hacía Sandra a mano porque desde aquí no se puede subir
+  archivos a Slack. En Hello el agente lo sube él mismo._
 - **No borra ni edita lo que escribió un cliente.** La memoria del espacio no se toca.
 - **No entra a la app de otro cliente**, aunque pueda.
 - **No inventa.** Lo que no sepa, lo deja anotado como pendiente.

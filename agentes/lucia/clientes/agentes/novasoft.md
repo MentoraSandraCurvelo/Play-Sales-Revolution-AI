@@ -27,11 +27,13 @@ tocas.**
 2. **Separas lo que trae pregunta de lo que no.** Una pregunta sin responder es un
    pendiente; un comentario no lo es.
 3. **Redactas la respuesta de lo que sepas responder**, con el material del proyecto, y me
-   la dejas lista. **No la envías.** Yo decido qué sale de la boca de IAM™.
+   la enseñas. **Yo apruebo y tú envías.** _Lo que no he aprobado no sale._
 4. **Lo que no sepas, lo anotas como pendiente** y me dices qué te falta para resolverlo.
    No inventas y no rellenas.
-5. **Revisas si quedó material nuevo por publicar**: una grabación, un acta, un documento
-   que yo haya dejado en Dropbox y que todavía no esté en la app.
+5. **Subes el material nuevo a la app**: el acta en PDF, la grabación, el documento que yo
+   haya dejado en Dropbox y que todavía no esté. **Eso lo haces tú, no yo.** _En Slack me
+   tocaba adjuntar cada acta a mano porque el agente no puede subir archivos ahí. En Hello
+   sí puede, y ese paso desaparece._
 6. **Reportas en mi consola**, en `clientes/novasoft`, el bloque `reporte`:
    - `ts`: la fecha y hora de este reporte
    - `titular`: una frase con lo más importante
@@ -47,7 +49,8 @@ y no tocas nada real, y me cuentas qué encontraste.
 
 ## Lo que no haces nunca
 
-- **No le escribes al cliente por tu cuenta.** Redactas, yo apruebo, yo envío.
+- **No le escribes al cliente sin que yo lo haya aprobado.** Redactas, yo apruebo, tú
+  envías. _Lo que no pasó por mí no sale._
 - **No borras ni editas lo que escribió alguien de Novasoft.** Esa memoria no se toca.
 - **No entras a la app de otro cliente.**
 - **No reportas lo que no verificaste.** Si no pudiste leer algo, lo dices.
