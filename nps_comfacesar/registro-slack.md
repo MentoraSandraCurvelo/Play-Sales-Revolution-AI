@@ -6,6 +6,56 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## jueves 8 de octubre de 2026 · 10:25 a. m. · El miércoles 7 sí tuvo dos sesiones · el programa va en 114
+
+**Corrección a lo que escribí esta mañana dos veces:** dije que el 7 de octubre no había tenido
+sesiones. **Tuvo dos.**
+
+| Área | | Hora | Duración | Asistencia |
+|---|---|---|---|---|
+| Agencia de Empleo | **S9** | 4:01 p. m. | 58 min | 1 de 1, Lina María Rincón |
+| IPS | **S6** | 4:58 p. m. | 54 min | **2 de 2**, Danilo Pozo y Jurgen Saurith Araujo |
+
+**Agencia de Empleo S9:** «Matías en producción», con el adjunto, el tablero y **la primera respuesta
+de un ciudadano**. 10 correos del lote de prueba, 11 casos que el conector escribe sin problema, 2.300
+casos del reporte completo.
+
+**IPS S6:** el circuito de inspecciones corriendo y el tablero para la dirección. **23 sedes con código
+único, 800 funcionarios** bajo el sistema, 3 roles en la aplicación, 4 cortes del informe al año. *En el
+informe aparece además una cuenta compartida del equipo con 12 minutos: es un dispositivo, no una
+tercera persona, así que no entra al conteo.*
+
+**Las dos con los tres soportes**, verificados en Dropbox carpeta por carpeta.
+
+### Por qué no las vi antes, y no es el error de ayer
+Los soportes se cargaron a Dropbox **entre las 8:57 y las 9:27 de esta mañana**, y Lucía commiteó sus
+fichas a las **9:15**. Mi barrido grande fue a las 7:33, cuando todavía no existían, y el chequeo de las
+9:15 cayó en el mismo minuto de su commit y leyó 81 fichas. **A las 10:11 ya eran 84.** No es un fallo
+de método: es que el material no estaba.
+
+*Lo que sí conviene anotar:* **decir «no hubo sesiones» es una afirmación sobre el calendario, y yo la
+hice mirando solo Dropbox y las fichas de Lucía.** El calendario lo habría dicho desde ayer.
+
+### Y se cae el supuesto del salto de numeración
+Esta mañana anoté que el calendario saltaba de Agencia de Empleo S8 a S10. **No salta nada:** S8 el
+martes, **S9 el miércoles**, S10 hoy y S11 mañana. *Lo que parecía un salto del calendario era una
+sesión que faltaba en mi tablero.* Corregido también en la pastilla del área.
+
+**Queda abierto** el de Subsidio, que va de la S10 del martes a la S12 de hoy. Puede ser lo mismo: una
+S11 que aún no aparece.
+
+### Cifras y publicado
+- **114 sesiones**, desde 112.
+- Asistencia **191 sobre 207 → 194 sobre 210**, sigue en 92%.
+- Agencia de Empleo 8 → 9 · IPS 5 → 6.
+- **Termómetro v115** · **Mesa v27** · **Corte v10**, con la sección por área reordenada y las barras
+  recalculadas · **propuesta v14**, las 18 áreas suman 114 exacto.
+
+*Nota técnica:* dos guardas mías fallaron hoy, y las dos veces el archivo quedó intacto. Una buscaba
+«112» en todo el documento y chocaba con una nota fechada de ayer que debe conservarse; la otra contaba
+`width:` del CSS además de las barras. **Las guardas se acotan al bloque que se edita, no al archivo
+completo.**
+
 ## jueves 8 de octubre de 2026 · 7:35 a. m. · Cinco áreas tenían sesión hoy y el tablero decía que no tenían fecha
 
 Sandra corrigió una cuenta de días: *«pero aún no es viernes, hoy es jueves 8»*. Al ir a arreglarla
