@@ -6,6 +6,54 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## jueves 8 de octubre de 2026 · 12:20 p. m. · La de hoy es la S11, y una regla mía que estaba mal
+
+**No se publicó nada en Slack.** Tres correcciones en tableros.
+
+### 1 · Subsidio: la sesión de hoy es la S11, no la S12
+
+A las 11:20 escribí aquí que lo esperaba. **El canal ya lo había dicho**, el 6 de octubre a las 10:51
+en `#subsidio`, y no lo había leído:
+
+> • *Hoy martes 6, 3:00 p. m. · Sesión 10*
+> • *Jueves 8, 10:00 a. m. · **Sesión 11***
+
+Corregido en el **Termómetro** (pastilla de Subsidio y nota del día) y en la **Mesa**. El conteo no se
+mueve: la sesión de hoy no entra hasta que tenga sus tres soportes. **Sigue en 114.**
+
+*La lección, otra vez la misma:* el calendario se consultó y el canal no. **Manda el canal, y después
+el acta.** Jurídica se revisó igual y ahí sí coincide: su última acta es la S12 del 1 de octubre y la
+de hoy es la S13.
+
+### 2 · Dos tarjetas viejas en la Mesa
+
+- **Corte Comfacesar** decía «Corte al lun 21 sep · 78 sesiones». Lo mantengo yo desde el 7 de
+  octubre y va al **8 de octubre con 114 sesiones**. Quedó desfasado tres semanas.
+- **Hallazgos críticos** decía «21 de 39». Sus propias tarjetas dan **23 de 41** desde ayer.
+
+### 3 · Una regla que yo misma escribí mal esta mañana
+
+En la rutina horaria anoté que `8949a813-41e2-4c31-b234-d0b3ada2eb6e` **no era ninguno de los nueve
+tableros**, y por eso di por inválida esa parte de la rutina diaria. **Es falso.** Al leer el
+Termómetro por su enlace corto, `HxGTyCeLnuvk9oHEtHLh8Z`, el servicio devuelve justamente ese
+identificador: **son el mismo tablero en sus dos formas**, la corta y la larga.
+
+**Esta entrada corrige ese punto del texto de la rutina**, que declara que el registro manda sobre
+ella. Lo que sigue en pie de aquella decisión es lo demás: la rutina diaria recalculaba asistencia
+desde una base de agosto y duplicaba el barrido, y apagarla fue decisión de Sandra.
+
+*La regla que queda:* **un identificador que no reconozco no es un identificador ajeno.** Se lee
+antes de rechazarlo. La tabla de los nueve tableros sigue siendo la que manda, pero se comprueba
+leyendo, no comparando cadenas de texto.
+
+### Lo que queda pendiente hoy
+
+Agencia de Empleo S10 a las 3:00, Educación S5 a las 4:00 y Comunicaciones S12 a las 5:00, más
+Subsidio S11 y Jurídica S13, que ya terminaron y aún no tienen soportes. **Mañana viernes 9, Agencia
+de Empleo S11 a las 11:00, la última del programa.**
+
+---
+
 ## jueves 8 de octubre de 2026 · 11:20 a. m. · La S11 de Subsidio no es una sesión que falte: es un título
 
 **No se publicó nada.** Esto es una verificación que cierra una duda que dejé abierta esta mañana
