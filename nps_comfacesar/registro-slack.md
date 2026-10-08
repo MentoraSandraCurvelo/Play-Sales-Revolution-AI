@@ -6,6 +6,39 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## jueves 8 de octubre de 2026 · 11:20 a. m. · La S11 de Subsidio no es una sesión que falte: es un título
+
+**No se publicó nada.** Esto es una verificación que cierra una duda que dejé abierta esta mañana
+en el Termómetro, y que no cambia ningún tablero.
+
+Escribí que el salto de Subsidio, de la S10 del martes a la S12 de hoy, podía ser lo mismo que el de
+Agencia de Empleo: *una S11 que aún no aparece*. **No lo es.** Revisé el calendario área por área y
+**no existe ningún evento S11 de Subsidio**, ni hecho, ni cancelado, ni agendado.
+
+Lo que sí existe es el patrón que este tablero ya tenía documentado, y ahora se puede ver en los
+datos del propio calendario:
+
+| Evento del calendario | Acta que salió |
+|---|---|
+| «Subsidio **S10**» · 1 oct | `ACTA_Sesion8` · 1 oct |
+| «Subsidio Sesion 9» · 2 oct | `ACTA_Sesion9` · 2 oct |
+| «Subsidio Sesion 10» · 6 oct | `ACTA_Sesion10` · 6 oct |
+| «Subsidio Sesion 12» · hoy | *pendiente* |
+
+El evento del 1 de octubre se titulaba **S10** y su acta salió como **S8**: dos números de diferencia,
+exactamente el corrimiento que el canal publicó el miércoles 30 cuando se cayeron las dos horas de
+Subsidio del mismo día. **Los títulos del calendario de esta área nunca se corrigieron hacia atrás.**
+
+**Lo que se espera entonces:** el acta de la sesión de hoy debería salir como **S11**, no como S12, y
+con eso Subsidio no salta ningún número. *Se confirma con el acta, no con el calendario* — por eso
+esta nota no toca el conteo del programa, que sigue en **114**.
+
+**Un dato del convocado:** la sesión de hoy va a `atencion_reclamos@comfacesar.com`, que no es el
+correo de la S10 del martes (`coordinacionsubsidioyaportes@`, José Luciano). Son personas distintas
+del área, así que la asistencia de hoy se cuenta sobre su propio convocado.
+
+---
+
 ## jueves 8 de octubre de 2026 · 10:25 a. m. · El miércoles 7 sí tuvo dos sesiones · el programa va en 114
 
 **Corrección a lo que escribí esta mañana dos veces:** dije que el 7 de octubre no había tenido
