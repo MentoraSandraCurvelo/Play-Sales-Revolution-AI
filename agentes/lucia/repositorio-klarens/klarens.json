@@ -1,0 +1,26 @@
+{
+  "slug": "klarens",
+  "nombre": "Klaren's",
+  "nombre_largo": "Lácteos del Cesar S.A.",
+  "programa": "IAM™ Social",
+  "espacio": "IAM™Hello",
+  "logo": "logos/klarens.png",
+  "sigla": "K",
+  "estado": "en curso, sesión 3",
+  "url": "",
+  "subtitulo": "Klaren's",
+  "modo": "espacio",
+  "conversacion": true,
+  "fuente_datos": "clientes/datos/klarens.js",
+  "notas": "Programa de Social Selling, no de agentes. Perfiles de LinkedIn, página de compañía, banners y línea base de métricas. Contrato firmado el 23 de septiembre de 2026. Todavía no tiene app publicada: falta el logo y decidir si entra a Hello.",
+  "logo_fondo": "#FFFFFF",
+  "canales": [
+    {"canal": "perfiles", "nombre": "Perfiles y página de compañía", "fijados": []},
+    {"canal": "marketing", "nombre": "Marketing", "fijados": []},
+    {"canal": "comercial", "nombre": "Equipo comercial", "fijados": []}
+  ],
+  "generales": [],
+  "nota_fijados": "Aquí van las carpetas de Dropbox del proyecto.",
+  "fuente_actas": "",
+  "fuente_archivos": ""
+}
