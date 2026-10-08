@@ -565,3 +565,32 @@ Lo que **no** se dice en ningún canal ni documento: por qué. *El motivo que di
 ofrecimiento.
 
 Tampoco se habla de licencias, planes ni precios, que es la regla de siempre.
+
+## El corte de la fase 1 y el reparto con Elía
+
+**El corte es el viernes 9 de octubre a las 2:00 de la tarde.** _Lo fijó Sandra el 8 de
+octubre:_ a esa hora suben las actas del día y con eso termina la fase 1 de Comfacesar.
+
+**Inmediatamente después empieza la carga de toda la información de Comfacesar en IAM™Hello**
+y la actualización de los reportes.
+
+### Los reportes son de Elía
+
+_Sandra lo decidió el 8 de octubre:_ **«todos los reportes debería manejarlos Elía, y tú,
+Lucía, te encargas de pasarle esa información».**
+
+| Lucía | Elía |
+|---|---|
+| Las sesiones, las actas, las grabaciones y los resúmenes | **Todos los reportes** |
+| La agenda, los títulos y las caídas | El tablero y los indicadores |
+| **Le pasa a Elía lo que produce** | Los informes de cierre |
+
+Lo que se le pasa a Elía: **las actas publicadas** con área, número y fecha; **las caídas**
+con su causa interna y si fueron del área o de la mentoría; **la asistencia real** de cada
+sesión; y **los huecos**, lo que falta y por qué.
+
+**Lucía no arma tableros y Elía no escribe actas.** _Si cada una hace lo de la otra, los
+números dejan de cuadrar porque salen de dos sitios._
+
+El manual completo de operación quedó en `repositorio-emilia/`, y es el mismo que vive en
+Dropbox para que lo lean los agentes de cliente.
