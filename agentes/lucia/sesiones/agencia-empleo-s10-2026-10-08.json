@@ -1,0 +1,292 @@
+{
+  "proyecto": "Comfacesar",
+  "programa": "IAM™ Intelligence",
+  "anio": "2026",
+  "area": "Agencia de Empleo",
+  "area_completa": "",
+  "sesion_num": 10,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "8 de octubre de 2026",
+  "fecha_corta": "8octubre2026",
+  "subtitulo_meta": "Lina María Rincón y Ana María Meza · 8 de octubre de 2026 · 2:59 p. m. · 1 h 2 min",
+  "datos_sesion": [
+    ["Área(s)", "Agencia de Empleo, Comfacesar"],
+    ["Sesión", "N° 10. El acuerdo de pago en el circuito, y el laboratorio de empleo arranca"],
+    ["Fecha", "8 de octubre de 2026"],
+    ["Duración de la sesión", "1 hora 2 minutos"],
+    ["Modalidad", "Virtual, por Microsoft Teams"],
+    ["Asistencia", "Lina María Rincón y Ana María Meza, completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo, Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "24", "etiqueta": "Pruebas del laboratorio de empleo", "detalle": "Ligadas a los sectores económicos del Cesar"},
+    {"valor": "15", "etiqueta": "Día del primer envío real", "detalle": "Hasta ahora solo se probó con el propio equipo"},
+    {"valor": "2", "etiqueta": "Frentes del área con agente propio", "detalle": "Recobros y ahora el laboratorio"},
+    {"valor": "3", "etiqueta": "Documentos que recibió el agente nuevo", "detalle": "El Excel, el brochure y el informe modelo"},
+    {"valor": "2", "etiqueta": "Errores en la prueba de triángulos", "detalle": "La facilitadora la hizo en vivo"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Lina María Rincón", "cargo": "Agencia de Empleo, Comfacesar", "correo": "", "modalidad": "Virtual", "nivel": "Avanzado"},
+    {"nombre": "Ana María Meza", "cargo": "Laboratorio de empleo, Comfacesar", "correo": "", "modalidad": "Virtual", "nivel": "Inicial"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 10. El circuito de recobros ya está en su sitio y lo que entra ahora es un frente nuevo, el laboratorio de empleo, que arranca de cero con una persona que es nueva en el proyecto. Los riesgos están repartidos entre cerrar lo que queda del primero y no dejar a medias el segundo.",
+  "riesgos": [
+    {
+      "titulo": "El primer envío real es el 15 y quedan condiciones abiertas",
+      "nivel": "ALTO",
+      "descripcion": "**Todo lo probado hasta hoy salió a direcciones del propio equipo.** _El 15 es la fecha de corte del próximo envío y ahí escriben beneficiarios de verdad._ **Siguen abiertas la contraseña de aplicación por rotar, el cuarto tipo de respuesta y la firma del gerente en la carta**, *y después del envío en firme no hay corrección posible.*",
+      "responsable": "Agencia de Empleo / Antes del 15"
+    },
+    {
+      "titulo": "La facilitadora no estará las próximas dos o tres semanas",
+      "nivel": "ALTO",
+      "descripcion": "**Se dijo de forma explícita en sesión.** _El área queda moldeando el agente por su cuenta justo en el tramo donde empieza a escribirle a la gente._ *Lo que no quede escrito ahora no va a tener a quién preguntarle,* **y por eso el tablero de reporte deja de ser un adorno y pasa a ser el único sitio donde se ve qué está haciendo el agente.**",
+      "responsable": "Agencia de Empleo / Esta semana"
+    },
+    {
+      "titulo": "El tablero del agente estaba sin datos y se iba a quedar así hasta el 15",
+      "nivel": "MEDIO",
+      "descripcion": "**Al pedirlo, el área explicó que no había qué mostrar porque el envío real no ha ocurrido.** _Esperar a tener datos para construir el tablero es esperar a tenerlo cuando ya haga falta._ *La salida que se aplicó en sesión fue pedir una versión de prueba con datos de muestra,* **para moldear la forma ahora y llenarla después.**",
+      "responsable": "Agencia de Empleo / Resuelto en sesión"
+    },
+    {
+      "titulo": "El laboratorio entrega un número donde la empresa espera un criterio",
+      "nivel": "ALTO",
+      "descripcion": "**El instrumento devuelve resultados numéricos: cuántos errores, qué tan rápido.** _Y eso no es lo que decide una contratación._ *«A la empresa no le interesa si tuvo o no tuvo un error. La empresa solo quiere saber si lo elijo o no lo elijo.»* **Hoy esa parte se resuelve a mano, caso por caso, pasándole el recorte del resultado a una herramienta.** _No es un problema de la prueba: es el salto de lo cuantitativo a lo cualitativo, el mismo que ya se resolvió en otras áreas._",
+      "responsable": "Laboratorio de empleo / Esta semana"
+    },
+    {
+      "titulo": "Una evaluación mal leída le cuesta a la empresa y al candidato",
+      "nivel": "ALTO",
+      "descripcion": "**El área lo dijo con un ejemplo propio:** _alguien puede salir excelente en todo y mal en coordinación,_ **y si eso no se lee bien la empresa contrata y al mes tiene que deshacer todo.** *Contrato, liquidación y el proceso otra vez.* _El informe no es un trámite:_ **es lo que evita un reproceso que ya pagó alguien.**",
+      "responsable": "Laboratorio de empleo / Permanente"
+    },
+    {
+      "titulo": "El área entra con una persona nueva en el método",
+      "nivel": "MEDIO",
+      "descripcion": "**Ana María Meza arranca hoy desde la instalación.** _La configuración completa se hizo en sesión y la llevó Lina María Rincón, no la facilitadora,_ *que es exactamente lo que se busca.* **Pero queda pendiente lo que no se alcanzó:** _el prompt del método está en el canal y hay que pegarlo,_ **y falta que escriba quién es ella, a qué se dedica y su trayectoria**, porque de eso depende la calidad de lo que reciba de vuelta.",
+      "responsable": "Laboratorio de empleo / Inmediato"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Cerrar las condiciones del circuito antes del 15",
+      "descripcion": "**La contraseña de aplicación rotada, la consulta añadida como cuarto tipo de respuesta y la firma del gerente corregida.** _Las tres venían de la sesión anterior y las tres siguen abiertas._",
+      "responsable": "Lina María Rincón",
+      "plazo": "Antes del 15 de octubre"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Dejar corriendo el tablero de reporte del agente",
+      "descripcion": "**Con datos de muestra ahora y reales desde el 15:** _correos enviados, rebotados, contestados, segmentación, cortes por fecha y cuántos se remitieron a Jurídica._ *Es la única forma de ver qué hace el agente cuando no hay nadie mirando.*",
+      "responsable": "Lina María Rincón",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Terminar la configuración del laboratorio",
+      "descripcion": "**Pegar el prompt del método, que está publicado en el canal, y escribir quién es la evaluadora:** _profesión, trayectoria y a qué se dedica._ *Sin eso, las respuestas salen genéricas.*",
+      "responsable": "Ana María Meza",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Sacar el primer informe cualitativo y compararlo con el actual",
+      "descripcion": "**El informe nuevo al lado del que hoy se le envía al empresario.** _La diferencia entre los dos es el resultado del ejercicio,_ *y es lo que hay que documentar.*",
+      "responsable": "Ana María Meza",
+      "plazo": "Antes de la próxima sesión"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Documentar cuánto tiempo ahorra cada frente",
+      "descripcion": "**Cuánto tardaba la persona en revisar un correo, en verificar una cédula, en redactar un informe.** _Sin el antes no hay forma de decir si el agente está en su punto,_ *y es lo que va al reporte del área.*",
+      "responsable": "Agencia de Empleo",
+      "plazo": "Antes del corte"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Montar la tabla de amortización del acuerdo de pago",
+      "descripcion": "**El área ya tiene un modelo propio en Excel.** _Se le pasa al agente para que genere la tabla junto con la respuesta del acuerdo._",
+      "responsable": "Lina María Rincón",
+      "plazo": "Esta semana"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El acuerdo de pago, añadido al circuito",
+      "duracion": "~2 min",
+      "objetivo": "Cerrar el caso que obliga al ciudadano a venir en persona.",
+      "pasos": [
+        "**El área añadió una respuesta automática para cuando un correo menciona acuerdo de pago**",
+        "**El texto acusa recibo, dice el valor a la fecha y las condiciones del acuerdo**, _y explica cómo suscribirlo con los teléfonos de contacto_",
+        "_La razón de fondo es operativa:_ **el acuerdo de pago exige que la persona venga a las instalaciones**, *así que la respuesta tiene que decirlo sin esperar a que el auxiliar esté pendiente del buzón*",
+        "**Queda pendiente la tabla de amortización:** _el área ya tiene un modelo en Excel y se le va a pasar al agente para que la genere con el acuerdo_"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El tablero del agente, con datos de muestra",
+      "duracion": "~4 min",
+      "objetivo": "No esperar a tener datos para tener el tablero.",
+      "pasos": [
+        "**Se pidió el tablero del agente de recobros**, _no el del proceso, que es otro y ya existía_",
+        "**El área explicó que no había qué mostrar:** _los correos salen por corte y el primer envío real es el 15_",
+        "_La salida fue inmediata:_ **pedirle una versión de prueba con datos de muestra para ver cómo queda la forma**, *y llenarla con los reales cuando lleguen*",
+        "**Se dictaron los indicadores:** correos enviados, respuestas recibidas, rebotes, segmentación, cortes por fecha y cuántos se remitieron a Jurídica",
+        "_La instrucción que se dio al agente la escribió el área, no la facilitadora,_ **y pedía que sirviera para una reunión de junta directiva**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · La regla del tablero por agente",
+      "duracion": "~1 min",
+      "objetivo": "Dejar una regla de método que no dependa de esta sesión.",
+      "pasos": [
+        "**Cada vez que se construya un agente, se le pide su tablero de reporte.** _Siempre_",
+        "_La razón:_ **es la única manera de concentrar la información y ver qué está haciendo**, *sobre todo cuando no hay nadie mirando*",
+        "**Y el paso siguiente, cuando haya varios:** _un tablero universal,_ **una mesa de trabajo donde todos los agentes reportan lo que hacen**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · El laboratorio de empleo, y dónde se queda corto",
+      "duracion": "~12 min",
+      "objetivo": "Entender el instrumento antes de tocarlo.",
+      "pasos": [
+        "**El laboratorio evalúa candidatos con un conjunto de 24 pruebas**, _adquirido a otra caja de compensación_, **ligadas a los sectores económicos del Cesar**: conductor, mecánico, asesor, asistencia administrativa",
+        "**Los resultados se registran en una hoja de cálculo que devuelve la parte numérica:** _cuántos errores, qué tan rápido, si está en la media o por debajo_",
+        "**Y ahí se detiene.** _«A la empresa no le interesa si tuvo o no tuvo un error. La empresa solo quiere saber si lo elijo o no lo elijo»_",
+        "**El área ya lo venía resolviendo a mano:** _pasa el recorte del resultado más el brochure de las pruebas a una herramienta y le pide que amplíe la lectura cualitativa_",
+        "_El segundo uso del laboratorio pesa igual:_ **no solo selecciona, también evalúa al personal que ya está en una empresa** para decir qué habilidad potenciar en cada quien",
+        "**El riesgo que el propio área puso sobre la mesa:** _alguien excelente en todo y mal en coordinación,_ **contratado y devuelto al mes.** *Contrato, liquidación y el proceso otra vez*"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · La prueba de triángulos, hecha en vivo",
+      "duracion": "~6 min",
+      "objetivo": "Conocer el instrumento desde el lado del evaluado.",
+      "pasos": [
+        "**La facilitadora pidió que le aplicaran la prueba a ella**, _la de triángulos, que mide memoria y atención_",
+        "**Memorizó la figura, los colores y las posiciones, y las reconstruyó de memoria**",
+        "**Resultado: dos errores**, _por inversión de posición, no por color_",
+        "_Para qué sirvió:_ **entender qué mide realmente el instrumento y qué significa un error ahí dentro**, *antes de pedirle a nadie que lo interprete*"
+      ]
+    },
+    {
+      "titulo": "Ejercicio F · El proyecto del laboratorio, montado desde cero",
+      "duracion": "~30 min",
+      "objetivo": "Dejar al frente nuevo trabajando por su cuenta.",
+      "pasos": [
+        "**Instalación y configuración completas en el equipo de la evaluadora**, _y las llevó Lina María Rincón, no la facilitadora_",
+        "**Se activaron los conectores:** correo y almacenamiento",
+        "**Se importó la memoria de la herramienta que ya usaba**, _para no empezar de cero con quién es ella_",
+        "**Se creó el proyecto con el método:** rol, contexto y encargo",
+        "**El rol:** _evaluadora psicotécnica de selección de personal y de potenciación de habilidades en empresas_",
+        "**El contexto, tres documentos:** la hoja de resultados, el brochure que explica qué mide cada una de las 24 pruebas, y el informe modelo que hoy se le envía al empresario",
+        "**El encargo:** _informe cualitativo con semaforización, observaciones, fortalezas, habilidades y competencias por resultado,_ **pensado para que el empresario lo lea y entienda por qué un candidato y no otro**",
+        "_Y el agente preguntó antes de construir:_ **qué tipo de informe, individual o consolidado; en qué formato; y con qué datos la primera versión.** *Se eligió documento editable y el candidato del informe modelo como prototipo*"
+      ]
+    },
+    {
+      "titulo": "Ejercicio G · La secuencia que queda marcada",
+      "duracion": "~3 min",
+      "objetivo": "Saber qué sigue sin tener que preguntarlo.",
+      "pasos": [
+        "**Primero el informe.** _Hasta que el área lo lea y diga que la calidad está_",
+        "**Después, la hoja de cálculo convertida en tablero**, _pasándole las pestañas una a una y preguntándole qué le falta_",
+        "**Después, la réplica del aplicativo como web app**, con el logo y los colores de la Caja",
+        "_Y para la segunda fase, lo que se enunció para todo el área:_ **una aplicación de Agencia de Empleo con ingreso por contraseña y perfiles separados**, *administración, recobros y empleo,* **con un portal donde las personas suban su hoja de vida** y el área vaya construyendo su propia base de talento"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 10 · 8 octubre 2026",
+      "titulo": "La configuración del frente nuevo no la hizo la mentoría",
+      "descripcion": "**El montaje completo del laboratorio, de la instalación al proyecto creado con su método, lo llevó el propio área.** _La facilitadora acompañó y corrigió, no ejecutó._ *Ese es el resultado que se busca y es medible:* **la primera persona del área ya enseña a la segunda.** _Y llega justo cuando se anuncia que la mentoría no estará dos o tres semanas._",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Terminar la configuración del perfil de la evaluadora",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "★ EL PROBLEMA QUE EL LABORATORIO TRAÍA HECHO",
+      "titulo": "Un instrumento que mide bien y comunica mal",
+      "descripcion": "**Las 24 pruebas están ligadas a los sectores económicos del departamento y se aplican en vivo, viendo si la persona se frustra.** _Eso es información que ninguna prueba automática da._ **Pero lo que sale es un número, y el número no decide una contratación.** *El área ya había encontrado el puente por su cuenta, a mano.* _Lo que hace esta sesión es convertir ese puente en un circuito que corre siempre igual._",
+      "estado": "Construido en sesión",
+      "proximo_paso": "Sacar el primer informe y compararlo con el actual",
+      "target": "Antes de la próxima sesión"
+    },
+    {
+      "encabezado": "★ MÉTODO",
+      "titulo": "El tablero no espera a los datos",
+      "descripcion": "**Se pidió el tablero del agente y la respuesta fue que no había datos porque el envío real es el 15.** _Esperar a tenerlos es tener el tablero cuando ya hacía falta._ **Con datos de muestra se moldea la forma ahora y se llena después.** *La regla que quedó dicha vale para cualquier agente del área:* _siempre se le pide su tablero, y el día que haya varios, un tablero universal donde todos reporten._",
+      "estado": "Aplicado en sesión",
+      "proximo_paso": "Usarlo como regla fija al construir cada agente",
+      "target": "Permanente"
+    },
+    {
+      "encabezado": "★ LO QUE SE ENUNCIÓ PARA LA SEGUNDA FASE",
+      "titulo": "La aplicación de Agencia de Empleo, con su propia base de talento",
+      "descripcion": "**Ingreso por contraseña y perfiles separados para administración, recobros y empleo**, _y un portal donde las personas suban su hoja de vida._ *El área deja de depender de lo que le llegue y empieza a construir su propio banco de candidatos.* **Se construye entre el área y la mentoría, igual que se construyó el agente,** _y ya existe el mismo ejercicio hecho con otras dos áreas._",
+      "estado": "Propuesto en sesión",
+      "proximo_paso": "Enunciarlo con quien dirige el área antes de la fase 2",
+      "target": "Segunda fase"
+    }
+  ],
+  "tareas_intro": "El circuito de recobros entra en su última semana antes del primer envío real, y el área abre un segundo frente con una persona que arranca hoy. Lo que queda es cerrar las condiciones del primero y no dejar el segundo a medio configurar justo cuando la mentoría se ausenta.",
+  "tareas": [
+    {"tarea": "Rotar la contraseña de aplicación, añadir la consulta al circuito y corregir la firma del gerente", "responsable": "Lina María Rincón", "prioridad": "URGENTE", "plazo": "Antes del 15 de octubre"},
+    {"tarea": "Dejar corriendo el tablero de reporte del agente de recobros", "responsable": "Lina María Rincón", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Pegar el prompt del método y escribir el perfil de la evaluadora", "responsable": "Ana María Meza", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Sacar el primer informe cualitativo y compararlo con el que hoy se envía", "responsable": "Ana María Meza", "prioridad": "ALTA", "plazo": "Antes de la próxima sesión"},
+    {"tarea": "Convertir la hoja de resultados del laboratorio en tablero", "responsable": "Ana María Meza", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Montar la tabla de amortización del acuerdo de pago sobre el modelo del área", "responsable": "Lina María Rincón", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Documentar el tiempo que ahorra cada frente, con el antes y el ahora", "responsable": "Agencia de Empleo", "prioridad": "ALTA", "plazo": "Antes del corte"},
+    {"tarea": "Enunciar la aplicación del área con quien dirige el proceso", "responsable": "Agencia de Empleo", "prioridad": "MEDIA", "plazo": "Segunda fase"}
+  ],
+  "observaciones": [
+    "**La sesión abre con el circuito de recobros ya en su sitio y cierra abriendo un frente nuevo.** _Son dos cosas distintas en una hora, y conviene leerlas por separado._",
+    "**Lo primero que trajo el área fue un caso que el circuito no cubría:** _el acuerdo de pago._ **Cuando un correo lo menciona, el agente responde con el acuse, el valor a la fecha, las condiciones y los teléfonos de contacto.** *La razón es operativa y no técnica:* _el acuerdo exige que la persona venga a las instalaciones,_ **y eso hay que decirlo sin esperar a que el auxiliar esté pendiente del buzón.** _Queda pendiente la tabla de amortización, sobre un modelo que el área ya tiene._",
+    "**Conviene fijar la fecha que ordena todo lo demás: el primer envío a beneficiarios reales es el 15.** _Lo probado hasta hoy salió a direcciones del propio equipo._ *Y siguen abiertas las tres condiciones de la sesión anterior:* **la contraseña de aplicación por rotar, el cuarto tipo de respuesta y la firma del gerente en la carta.** _Después del envío en firme no hay corrección posible._",
+    "**Al pedir el tablero del agente apareció un razonamiento que vale corregir en cualquier área:** _no se construyó porque todavía no hay datos._ **Esperar a tener datos es tener el tablero cuando ya hacía falta.** *Se resolvió pidiendo una versión de prueba con datos de muestra,* para moldear la forma ahora y llenarla el 15.",
+    "**Y de ahí salió la regla de método de la jornada:** _cada vez que se construya un agente, se le pide su tablero de reporte._ **Siempre.** *Es la única manera de ver qué está haciendo cuando no hay nadie mirando,* _y el paso siguiente, cuando el área tenga varios, es un tablero universal donde todos reporten._",
+    "**Esa regla pesa más de lo normal esta semana, porque se anunció que la mentoría no estará las próximas dos o tres.** _El área queda moldeando el agente por su cuenta justo en el tramo en que empieza a escribirle a la gente._",
+    "**La segunda mitad fue el laboratorio de empleo, que entra al proyecto con Ana María Meza.** _Con ella se completa el equipo del área._",
+    "**El laboratorio evalúa candidatos con 24 pruebas adquiridas a otra caja de compensación**, _ligadas a los sectores económicos del Cesar:_ conductor, mecánico, asesor, asistencia administrativa. **Se aplican en vivo y a mano**, *y eso tiene un valor que ninguna prueba automática da:* _la evaluadora ve en tiempo real si la persona se frustra._",
+    "**El problema está en la salida, no en la prueba.** _La hoja de resultados devuelve la parte numérica:_ cuántos errores, qué tan rápido, si está en la media. **Y ahí se detiene.** *Lo dijo el área con una frase que resume el frente entero:* _«a la empresa no le interesa si tuvo o no tuvo un error; la empresa solo quiere saber si lo elijo o no lo elijo»._",
+    "**El área ya había encontrado el puente por su cuenta:** _pasa el recorte del resultado más el brochure de las pruebas a una herramienta y le pide que amplíe la lectura._ *Funciona, pero se rehace caso por caso.* **Lo que hace esta sesión es convertir ese puente en un circuito que corre siempre igual.**",
+    "_Y hay un segundo uso que pesa tanto como la selección:_ **el laboratorio también evalúa al personal que ya trabaja en una empresa**, para decir qué habilidad potenciar en cada quien. *Ahí el informe no elige, orienta.*",
+    "**El riesgo lo puso el propio área y es el argumento más fuerte del frente:** _alguien puede salir excelente en todo y mal en coordinación._ **Si eso no se lee bien, la empresa contrata y al mes tiene que deshacerlo:** contrato, liquidación y el proceso otra vez. *El informe no es un trámite: es lo que evita un reproceso que ya pagó alguien.*",
+    "**La facilitadora pidió que le aplicaran la prueba de triángulos a ella**, _la que mide memoria y atención._ **Memorizó la figura y la reconstruyó con dos errores, de posición y no de color.** *No fue una anécdota:* _sirvió para entender qué mide el instrumento y qué significa un error ahí dentro antes de pedirle a nadie que lo interprete._",
+    "**El montaje del proyecto lo llevó Lina María Rincón, no la mentoría, y ese es el resultado que hay que registrar.** _Instalación, conectores de correo y almacenamiento, importación de la memoria de la herramienta anterior, y el proyecto creado con el método completo:_ **rol, contexto y encargo.**",
+    "**El contexto fueron tres documentos:** la hoja de resultados, el brochure que explica qué mide cada una de las 24 pruebas, y el informe modelo que hoy se le envía al empresario. _Con los tres dentro, el agente sabe qué está leyendo._",
+    "**El encargo quedó dictado por el área:** _informe cualitativo con semaforización, observaciones, fortalezas, habilidades y competencias por resultado,_ **pensado para que el empresario entienda por qué un candidato y no otro.**",
+    "_Y el agente preguntó antes de construir, que es el comportamiento que ya se vio en el otro frente:_ **qué tipo de informe, individual o consolidado; en qué formato; y con qué datos la primera versión.** *Se eligió documento editable, para que el área lo revise, y el candidato del informe modelo como prototipo.*",
+    "**Quedó marcada la secuencia para que el área sepa qué sigue sin preguntarlo:** _primero el informe, hasta que lean y digan que la calidad está._ **Después la hoja de cálculo convertida en tablero**, pasándole las pestañas una a una. *Después la réplica del aplicativo como web app, con el logo y los colores de la Caja.*",
+    "**Y para la segunda fase se enunció lo que viene para el área entera:** _una aplicación de Agencia de Empleo con ingreso por contraseña y perfiles separados,_ administración, recobros y empleo, **con un portal donde las personas suban su hoja de vida.** *El área dejaría de depender de lo que le llegue y empezaría a construir su propio banco de talento.* _Se construye entre el área y la mentoría, y ya existe el mismo ejercicio hecho con otras dos áreas._",
+    "_Un apunte de método que quedó dicho y conviene registrar:_ **la medida de si el agente está en su punto no es que funcione, es cuántas horas devuelve.** *Cuánto tardaba la persona en revisar un correo, en verificar una cédula, en redactar un informe.* **Sin el antes, el reporte del área no puede decir nada.**",
+    "_Nota sobre la ventana de la sesión:_ **el informe de asistencia marca 1 hora 29 minutos porque la sala quedó abierta después de terminar.** *La sesión efectiva fue de 1 hora y 2 minutos,* **y esa es la duración que se registra.**"
+  ],
+  "proxima_sesion": {
+    "sesion": "Agencia de Empleo, Sesión 11",
+    "condiciones": [
+      "Las tres condiciones del circuito cerradas antes del 15",
+      "El tablero del agente de recobros corriendo, con datos de muestra",
+      "La configuración del laboratorio terminada, con el perfil de la evaluadora escrito",
+      "El primer informe cualitativo sacado y comparado con el actual"
+    ],
+    "agenda": [
+      "El informe del laboratorio, revisado y ajustado",
+      "La hoja de resultados convertida en tablero",
+      "La tabla de amortización del acuerdo de pago",
+      "La aplicación del área, enunciada para la segunda fase"
+    ]
+  },
+  "pie": "IAM™ Intelligence · Documento Confidencial | Comfacesar | 8 octubre 2026 | Agencia de Empleo · Sesión 10"
+}

@@ -1,0 +1,300 @@
+{
+  "proyecto": "Comfacesar",
+  "programa": "IAM™ Intelligence",
+  "anio": "2026",
+  "area": "Comunicaciones",
+  "area_completa": "",
+  "sesion_num": 12,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "8 de octubre de 2026",
+  "fecha_corta": "8octubre2026",
+  "subtitulo_meta": "Última sesión de la primera fase · 8 de octubre de 2026 · 5:05 p. m. · 41 min",
+  "datos_sesion": [
+    ["Área(s)", "Comunicaciones, Comfacesar"],
+    ["Sesión", "N° 12. Los agentes del área, y el monitoreo de medios auditándose a sí mismo"],
+    ["Fecha", "8 de octubre de 2026"],
+    ["Duración de la sesión", "41 minutos"],
+    ["Modalidad", "Virtual, por Microsoft Teams"],
+    ["Asistencia", "César Reyes, Sandra Machado y Julio César Pérez Ramos"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo, Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "22", "etiqueta": "Procesos del frente de monitoreo", "detalle": "Solo uno quedó automatizado hoy"},
+    {"valor": "67", "etiqueta": "Publicaciones del archivo de monitoreo", "detalle": "La hoja reportaba 99"},
+    {"valor": "19", "etiqueta": "Filas con el año mal escrito", "detalle": "2016 donde debía decir 2026"},
+    {"valor": "5", "etiqueta": "Medios que el agente encontró solo", "detalle": "De todos los que el área tiene contratados"},
+    {"valor": "2", "etiqueta": "Agentes del frente de correspondencia", "detalle": "Correo por áreas y uso de marca"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "César Reyes", "cargo": "Diseño, Comfacesar", "correo": "", "modalidad": "Virtual", "nivel": "Avanzado"},
+    {"nombre": "Sandra Machado", "cargo": "Profesional de Comunicaciones, Comfacesar", "correo": "", "modalidad": "Virtual", "nivel": "Intermedio"},
+    {"nombre": "Julio César Pérez Ramos", "cargo": "Comunicaciones, Comfacesar", "correo": "", "modalidad": "Virtual", "nivel": "Inicial"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 12, la última de la primera fase. El área llega con dos agentes funcionando en un frente y uno a medio construir en el otro. Lo que queda abierto no es de aprendizaje: es de registro, de configuración y de un archivo de origen que trae errores.",
+  "riesgos": [
+    {
+      "titulo": "Lo construido no está documentado en el tablero del área",
+      "nivel": "CRITICO",
+      "descripcion": "**Es el riesgo que cierra la primera fase en rojo.** _Los agentes están hechos y funcionando, y en el tablero no aparecen._ **La dirección y la jefatura del proyecto leen el tablero, no las grabaciones.** *Lo que no esté cargado ahí, al efecto del reporte, no existe.* _Se pidió de forma explícita que lo diligencien todos, sin excepción,_ **y el área tiene a quien sabe hacerlo.**",
+      "responsable": "Comunicaciones / Antes del corte"
+    },
+    {
+      "titulo": "El archivo de origen del monitoreo trae errores que arrastran el conteo",
+      "nivel": "ALTO",
+      "descripcion": "**El agente auditó la hoja y encontró lo que nadie había mirado.** _Una fórmula que suma solo de la fila 6 a la 20 y reporta 99 publicaciones cuando hay 67._ **Diecinueve filas con el año escrito 2016 en lugar de 2026.** *Un mismo evento escrito de dos formas distintas, que parte el conteo en dos.* _La columna de fecha de medición casi vacía._ **Y enlaces de redes con un código personal de compartir dentro.** *Sobre un archivo así, cualquier informe sale torcido.*",
+      "responsable": "Comunicaciones / Inmediato"
+    },
+    {
+      "titulo": "El agente solo reconoció una parte de los medios contratados",
+      "nivel": "ALTO",
+      "descripcion": "**Encontró alrededor de cinco, y el área tiene contratados bastantes más.** _No es un fallo del agente: nunca recibió el listado._ *El área ya identificó la salida en sesión,* **entregarle el archivo con los nombres de todos los medios**, _pero mientras eso no ocurra el monitoreo cubre una fracción y no se nota en el resultado._",
+      "responsable": "Comunicaciones / Inmediato"
+    },
+    {
+      "titulo": "El navegador rechaza la navegación y el agente no puede entrar a los perfiles",
+      "nivel": "ALTO",
+      "descripcion": "**El agente reportó que no pudo revisar los perfiles de los medios porque la navegación fue rechazada.** _El diagnóstico se dio en sesión:_ **el navegador tiene que estar iniciado con la misma cuenta que la aplicación de escritorio**, *y ahora mismo no coinciden.* _Hace falta además iniciar sesión con una cuenta institucional de monitoreo,_ **no con una personal.**",
+      "responsable": "Comunicaciones / Inmediato"
+    },
+    {
+      "titulo": "Un acceso compartido entre dos personas se pisa a sí mismo",
+      "nivel": "MEDIO",
+      "descripcion": "**El frente de monitoreo se está trabajando desde el acceso de otra persona del área.** _Funciona para construir,_ **pero los conectores quedan atados a esa cuenta:** *cuando esa persona corra sus propios circuitos, la conexión no va a estar donde hace falta.* _Conviene separarlo antes de que el agente entre en cadencia._",
+      "responsable": "Comunicaciones / Antes de la segunda fase"
+    },
+    {
+      "titulo": "Un frente de 22 procesos con uno solo resuelto",
+      "nivel": "MEDIO",
+      "descripcion": "**El monitoreo de medios es uno de veintidós procesos del frente.** _Lo que se automatizó hoy es la detección de publicaciones;_ **la curaduría, que es comprobar que los medios contratados estén publicando lo que la Caja les envió, sigue entera.** *Conviene no darla por incluida: es un agente aparte.*",
+      "responsable": "Comunicaciones / Segunda fase"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "CRITICO",
+      "titulo": "Cargar todos los ejercicios en el tablero del área",
+      "descripcion": "**Los dos agentes de correspondencia, el de uso de marca y el de monitoreo**, _con minutos antes y minutos ahora._ *Es lo que la dirección va a leer,* **y es la condición para que la primera fase cierre completa.**",
+      "responsable": "Comunicaciones",
+      "plazo": "Antes del corte"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Corregir el archivo de origen del monitoreo",
+      "descripcion": "**La fórmula de suma, las diecinueve filas con el año mal escrito y los nombres de evento duplicados.** _El agente ya dejó el detalle de qué está mal y dónde._",
+      "responsable": "Sandra Machado",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Entregarle al agente el listado completo de medios contratados",
+      "descripcion": "**Con los nombres y las cuentas de redes de cada uno.** _Sin eso el monitoreo cubre una parte y el tablero no avisa de lo que falta._",
+      "responsable": "Julio César Pérez Ramos",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Alinear la cuenta del navegador con la de la aplicación",
+      "descripcion": "**Y abrir sesión con una cuenta institucional de monitoreo.** _Es lo que está bloqueando la revisión de los perfiles,_ *y el agente ya lo reportó en lugar de devolver un resultado incompleto sin avisar.*",
+      "responsable": "Julio César Pérez Ramos",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Separar el acceso del frente de monitoreo",
+      "descripcion": "**Para que los conectores no queden atados a la cuenta de otra persona del área.** _Antes de que el agente entre en cadencia._",
+      "responsable": "Comunicaciones",
+      "plazo": "Antes de la segunda fase"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Dejar constancia de la herramienta que el área no pudo aplicar",
+      "descripcion": "**Lo enseñado con una de las herramientas no se pudo poner en práctica porque las cuentas disponibles no la tienen habilitada**, _y eso depende de la jerarquía de cuentas que administra el área de sistemas._ *Conviene que quede escrito en el reporte y no como una tarea sin hacer.*",
+      "responsable": "Comunicaciones",
+      "plazo": "Antes del corte"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Los dos agentes del frente de correspondencia",
+      "duracion": "~6 min",
+      "objetivo": "Revisar lo que el área terminó por su cuenta entre sesiones.",
+      "pasos": [
+        "**El primer agente quedó configurado y funcionando.** _Recibe los correos, los separa por etiquetas según el área a la que corresponde la solicitud,_ **y distingue cuándo dos correos son el mismo asunto aunque el remitente cambie**, *mirando si el cuerpo habla del mismo tema*",
+        "**Se le dejaron escritas las reglas completas:** qué puede modificar y qué no, _cuándo enviar, cuándo dejar en borrador y cuándo no hacer ninguna de las dos_",
+        "**El segundo es una rutina para el uso de la marca**, _que es el frente que más interrumpe fuera de horario:_ *las solicitudes de revisión del logo llegan de noche o en fin de semana y siempre con prisa*",
+        "**El circuito:** entra al correo varias veces al día, _lee la solicitud y mira la pieza,_ **va al proyecto de uso de marca, compara contra las reglas que el área ya cargó allí** y responde si está aprobada o no",
+        "**Y cuando la pieza necesita corrección, la corrige y la deja en borrador**, _porque ese envío sí requiere el visto bueno de la persona_",
+        "_La pregunta que trajo el área y que vale registrar:_ **si una rutina programada necesita o no que la aplicación esté abierta.** *La respuesta es que los dos entornos están conectados y la rutina termina en un agente de todas formas*"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El frente de monitoreo, y de qué tamaño es",
+      "duracion": "~5 min",
+      "objetivo": "Entender el proceso antes de automatizar un trozo.",
+      "pasos": [
+        "**El frente tiene 22 procesos.** _El monitoreo de medios es uno_",
+        "**Monitoreo es identificar las noticias que se publican sobre la Caja**, _en portales web y en redes sociales_",
+        "**La curaduría es otra cosa y sigue entera:** comprobar que los medios que el área tiene contratados _estén efectivamente publicando la publicidad que se les envió desde la Caja_",
+        "**Hoy el proceso se hace entrando medio por medio** y copiando el título, la red y el enlace, _sobre una plantilla que tampoco se diligenciaba sola_",
+        "_Quedó dicho que la curaduría necesita su propio agente,_ **no es un añadido del de monitoreo**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Lo que el agente devolvió en su primer barrido",
+      "duracion": "~6 min",
+      "objetivo": "Mirar el primer resultado real y encontrarle los huecos.",
+      "pasos": [
+        "**Barrió desde el día anterior hasta la tarde de la sesión** y devolvió un tablero",
+        "**Trae fecha, hora, fuente, nombre del medio, titular, tema y si el tono es positivo o negativo**, _con el titular enlazando a la noticia_",
+        "**Y una lectura agregada:** la distribución de lo encontrado, _el sentimiento de las noticias_ y **qué medios publican más**",
+        "_El hueco apareció enseguida:_ **identificó alrededor de cinco medios** cuando el área tiene contratados bastantes más",
+        "**La causa no es el agente: nunca recibió el listado.** *La salida que el área propuso en sesión es entregarle el archivo con los nombres de todos*",
+        "_Y un cambio de criterio que pidió el área:_ **interesa más el enlace de la publicación en redes que el del portal web**, *porque es ahí donde se mide de verdad*"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · La semaforización y la ingeniería inversa",
+      "duracion": "~7 min",
+      "objetivo": "Subir el tablero de inventario a herramienta de decisión.",
+      "pasos": [
+        "**Se dictó el encargo completo:** _detectar en web y redes las publicaciones que mencionen a la Caja, con el enlace, la cantidad de interacciones y los comentarios, marcando si son positivos o negativos_",
+        "**Más la semaforización con estado de alerta:** _alerta roja cuando los comentarios sean fuertes o críticos_",
+        "**Y el análisis de ingeniería inversa**, _que se explicó en sesión porque el área no conocía el término:_ **normalmente se hace algo y se obtiene un resultado; la ingeniería inversa parte del resultado y reconstruye qué lo produjo.** *Aplicado aquí: qué hizo que una publicación alcanzara lo que alcanzó, para repetirlo*",
+        "**Todo eso en el mismo tablero**, _en una pestaña aparte, con gráficos y con indicadores que dejen ver la tendencia_",
+        "**Al agente se le puso nombre en la sesión**, _porque el área se dirigía a él sin saber cómo llamarlo_"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · El archivo de origen, auditado",
+      "duracion": "~8 min",
+      "objetivo": "Darle al agente la referencia de cómo se venía trabajando.",
+      "pasos": [
+        "**Se le subió el archivo que el área llevaba manteniendo a mano**, _para que el resultado se pareciera a lo que ya se usa_",
+        "**Lo incorporó: entraron 61 registros nuevos y no duplicó los que ya estaban en el tablero**",
+        "_Y después hizo algo que nadie le pidió:_ **auditó el archivo y devolvió los errores que encontró**",
+        "**La fórmula de suma solo cuenta de la fila 6 a la 20**, _y por eso la hoja reportaba 99 publicaciones cuando hay 67_",
+        "**Diecinueve filas traen el año 2016 donde debía decir 2026**, _un error de digitación que ya estaba arrastrando_",
+        "**Un mismo evento aparece escrito de dos formas distintas**, _lo que parte el conteo en dos registros que parecen cosas diferentes_",
+        "**La columna de fecha de medición está casi vacía**, y **los enlaces de redes traían dentro un código personal de compartir**, _que el agente limpió_",
+        "_Lectura del ejercicio:_ **el archivo de origen llevaba tiempo dando cifras que no cerraban, y nadie lo había mirado así**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio F · Lo que el agente no pudo hacer, y lo dijo",
+      "duracion": "~3 min",
+      "objetivo": "Leer el reporte del propio agente en lugar de solo el resultado.",
+      "pasos": [
+        "**Reportó que no pudo revisar los perfiles de los medios** porque el navegador rechazó la navegación",
+        "**Y dijo qué le hacía falta:** _iniciar sesión con una cuenta institucional de monitoreo_",
+        "_El diagnóstico se dio en sesión:_ **el navegador tiene que estar iniciado con la misma cuenta que la aplicación de escritorio.** *Al no coincidir, no hay forma de que entre*",
+        "**La recomendación de método:** _preguntarle directamente qué hace falta para que se conecte,_ **porque devuelve el paso a paso**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio G · Dos correcciones de método",
+      "duracion": "~4 min",
+      "objetivo": "Dejar dicho cómo se trabaja, que es lo que queda cuando no hay sesión.",
+      "pasos": [
+        "**El área había pasado su instrucción por otra herramienta para redactarla mejor antes de entregarla.** _La corrección fue clara:_ **escribirla ellos mismos**, *porque es lo que activa el pensamiento estratégico, y porque el agente pregunta cuando no entiende*",
+        "_Se reconoció la intención:_ **lo que buscaban era ser más específicos**, y eso es exactamente lo que hay que ser, *solo que con sus propias palabras*",
+        "**La segunda corrección fue sobre una palabra, y se hizo en voz alta a propósito:** _«cacharrear» es improvisar y adivinar._ **Lo que el área hizo fue practicar una metodología que ya aprendió**, *y así es como se nombra en el reporte*",
+        "_El cierre:_ **de aquí en adelante es modelado.** *La estructura ya está; lo que sigue es pedirle ajustes y pasar el tablero por el estudio de diseño cuando se quiera cambiar el aspecto*"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 12 · 8 octubre 2026",
+      "titulo": "El agente auditó el archivo de origen sin que nadie se lo pidiera",
+      "descripcion": "**Se le subió la hoja del monitoreo solo como referencia de formato.** _Devolvió el tablero, y además la lista de lo que está mal:_ **una fórmula que suma de la fila 6 a la 20 y reporta 99 publicaciones donde hay 67, diecinueve filas con el año 2016 en vez de 2026, un evento contado dos veces por estar escrito de dos formas, y enlaces con un código personal dentro.** *Ese archivo llevaba tiempo alimentando informes.* _El valor del ejercicio no fue automatizar el conteo: fue descubrir que el conteo estaba mal._",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Corregir el archivo de origen antes del próximo barrido",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "★ EL AGENTE QUE AVISA",
+      "titulo": "Dijo que no pudo entrar, en vez de devolver un resultado a medias",
+      "descripcion": "**No pudo revisar los perfiles de los medios y lo reportó, nombrando lo que le faltaba.** _Un monitoreo incompleto que no avisa es peor que no tener monitoreo,_ **porque el tablero se ve igual de lleno.** *El diagnóstico quedó dado y es de configuración, no de capacidad:* _la cuenta del navegador y la de la aplicación tienen que ser la misma._",
+      "estado": "Detectado en sesión",
+      "proximo_paso": "Alinear las cuentas y abrir sesión institucional de monitoreo",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "★ EL FRENTE QUE YA NO INTERRUMPE",
+      "titulo": "El uso de marca, resuelto fuera de horario",
+      "descripcion": "**Las solicitudes de revisión del logo llegaban de noche y en fin de semana, siempre con prisa.** _Ahora una rutina entra al correo varias veces al día, compara la pieza contra las reglas que el área cargó en su proyecto y responde si está aprobada._ **Y cuando hay que corregirla, la corrige y la deja en borrador**, *porque ese envío sí lleva el criterio de una persona.* _El área construyó esto entre sesiones, sin acompañamiento._",
+      "estado": "Construido y corriendo",
+      "proximo_paso": "Documentarlo en el tablero del área",
+      "target": "Antes del corte"
+    },
+    {
+      "encabezado": "★ LA CONDICIÓN QUE CIERRA LA FASE",
+      "titulo": "Lo que no está en el tablero no cuenta",
+      "descripcion": "**El área termina la primera fase con tres agentes funcionando y ninguno documentado.** _La dirección y la jefatura del proyecto leen el tablero, no las grabaciones ni las actas._ *Se pidió de forma explícita que lo diligencien todos,* **y el área tiene dentro a quien ya sabe hacerlo.** _Es la diferencia entre haber hecho el trabajo y poder demostrarlo._",
+      "estado": "Pendiente",
+      "proximo_paso": "Cargar los cuatro ejercicios con el antes y el ahora",
+      "target": "Antes del corte"
+    }
+  ],
+  "tareas_intro": "El área cierra la primera fase con el frente de correspondencia resuelto y el de monitoreo a medio camino. Lo que queda abierto es corregir el archivo del que todo cuelga, alinear la configuración que hoy bloquea el barrido, y cargar en el tablero lo que ya está hecho.",
+  "tareas": [
+    {"tarea": "Cargar en el tablero del área los cuatro ejercicios, con el antes y el ahora", "responsable": "Comunicaciones", "prioridad": "URGENTE", "plazo": "Antes del corte"},
+    {"tarea": "Corregir la fórmula de suma, el año mal escrito y los nombres duplicados del archivo", "responsable": "Sandra Machado", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Entregar al agente el listado completo de medios contratados y sus cuentas", "responsable": "Julio César Pérez Ramos", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Alinear la cuenta del navegador con la de la aplicación y abrir sesión institucional", "responsable": "Julio César Pérez Ramos", "prioridad": "ALTA", "plazo": "Inmediato"},
+    {"tarea": "Separar el acceso del frente de monitoreo del de otra persona del área", "responsable": "Comunicaciones", "prioridad": "MEDIA", "plazo": "Antes de la segunda fase"},
+    {"tarea": "Montar el agente de curaduría, que es el proceso que queda entero", "responsable": "Comunicaciones", "prioridad": "MEDIA", "plazo": "Segunda fase"},
+    {"tarea": "Dejar escrito en el reporte qué quedó sin aplicar por no tener la herramienta habilitada", "responsable": "Comunicaciones", "prioridad": "MEDIA", "plazo": "Antes del corte"},
+    {"tarea": "Subir al canal del área todos los ejercicios de la fase", "responsable": "Comunicaciones", "prioridad": "ALTA", "plazo": "Antes del corte"}
+  ],
+  "observaciones": [
+    "**Esta fue la última sesión de la primera fase, y el área llega a ella con trabajo hecho por su cuenta entre sesiones.** _Eso es lo primero que conviene registrar._",
+    "**El frente de correspondencia quedó resuelto con dos agentes.** _El primero recibe los correos, los separa por etiquetas según el área a la que corresponde cada solicitud y distingue cuándo dos correos son el mismo asunto aunque cambie el remitente,_ **mirando si el cuerpo habla del mismo tema.** *Con las reglas completas escritas:* qué modificar y qué no, cuándo enviar y cuándo dejar en borrador.",
+    "**El segundo es el que más valor operativo tiene, porque ataca una interrupción real:** _las solicitudes de revisión del uso de la marca llegan de noche y en fin de semana, siempre con prisa._ **La rutina entra al correo varias veces al día, lee la solicitud, mira la pieza, la compara contra las reglas que el área ya cargó en su proyecto y responde si está aprobada.** *Y cuando hay que corregirla, la corrige y la deja en borrador,* _porque ese envío sí lleva el criterio de la persona._",
+    "_La pregunta que trajo el área vale dejarla escrita porque va a volver:_ **si una rutina programada necesita que la aplicación esté abierta.** *Los dos entornos están conectados y la rutina termina en un agente de todas formas,* **así que se puede crear en cualquiera de los dos.**",
+    "**La segunda mitad fue el frente de monitoreo de medios, y lo primero fue dimensionarlo:** _son 22 procesos._ **Monitoreo es identificar las noticias que se publican sobre la Caja en portales y en redes.** *La curaduría es otra cosa y sigue entera:* comprobar que los medios contratados estén publicando efectivamente la publicidad que se les envió. _Hoy se automatizó el primero, y el segundo necesita su propio agente._",
+    "**El agente hizo su primer barrido y devolvió un tablero con fecha, hora, fuente, nombre del medio, titular, tema y tono**, _con el titular enlazando a la noticia_, **más la distribución de lo encontrado y qué medios publican más.**",
+    "_El hueco apareció enseguida:_ **identificó alrededor de cinco medios cuando el área tiene contratados bastantes más.** *La causa no es el agente, es que nunca recibió el listado,* **y el área propuso la salida en la misma sesión.**",
+    "_Y un cambio de criterio que conviene registrar:_ **al área le interesa más el enlace de la publicación en redes que el del portal web**, *porque es ahí donde se mide de verdad.*",
+    "**Sobre eso se dictó el encargo completo:** detectar las publicaciones que mencionen a la Caja con su enlace, las interacciones y los comentarios marcando el tono, _una semaforización con alerta roja cuando los comentarios sean fuertes o críticos,_ **y un análisis de ingeniería inversa.**",
+    "_El término hubo que explicarlo porque el área no lo conocía, y la explicación vale como método:_ **normalmente se hace algo y se obtiene un resultado; la ingeniería inversa parte del resultado y reconstruye qué lo produjo.** *Aplicado aquí: qué hizo que una publicación alcanzara lo que alcanzó, para poder repetirlo a propósito.*",
+    ":o: **Y lo que hay que subrayar pasó al subirle el archivo que el área llevaba manteniendo a mano.**",
+    "**Se le dio solo como referencia de formato.** _Lo incorporó, entraron 61 registros nuevos y no duplicó los que ya estaban._ **Y además hizo algo que nadie le pidió: auditó el archivo.**",
+    "**Encontró que la fórmula de suma solo cuenta de la fila 6 a la 20**, _y por eso la hoja reportaba 99 publicaciones cuando hay 67._ **Diecinueve filas traen el año 2016 donde debía decir 2026.** *Un mismo evento aparece escrito de dos formas distintas y el conteo se parte en dos registros que parecen cosas diferentes.* _La columna de fecha de medición está casi vacía._ **Y los enlaces de redes traían dentro un código personal de compartir, que limpió.**",
+    "_Esa es la lectura de la jornada:_ **el valor del ejercicio no fue automatizar el conteo, fue descubrir que el conteo estaba mal.** *Ese archivo llevaba tiempo alimentando informes del área.*",
+    "**El agente reportó también lo que no pudo hacer**, _en lugar de devolver un resultado a medias:_ **no logró revisar los perfiles de los medios porque el navegador rechazó la navegación**, y dijo que le hacía falta iniciar sesión con una cuenta institucional de monitoreo. *Un monitoreo incompleto que no avisa es peor que no tener monitoreo, porque el tablero se ve igual de lleno.*",
+    "_El diagnóstico quedó dado en sesión y es de configuración:_ **el navegador tiene que estar iniciado con la misma cuenta que la aplicación de escritorio.** *Al no coincidir, no hay match y no entra.*",
+    "**Hay un asunto de accesos que conviene resolver antes de la segunda fase:** _el frente de monitoreo se está trabajando desde el acceso de otra persona del área._ *Sirve para construir, pero los conectores quedan atados a esa cuenta,* **y cuando esa persona corra sus propios circuitos la conexión no va a estar donde hace falta.**",
+    "**Dos correcciones de método, y las dos se hicieron en voz alta a propósito.** _La primera:_ el área había pasado su instrucción por otra herramienta para redactarla mejor antes de entregarla. **Conviene escribirla con sus propias palabras**, *porque es lo que activa el pensamiento estratégico y porque el agente pregunta cuando no entiende.* _La intención era buena y es la correcta: querían ser más específicos._",
+    "_La segunda fue sobre una palabra:_ **«cacharrear» es improvisar y adivinar.** *Lo que el área hizo fue practicar una metodología que ya aprendió,* **y así es como queda nombrado aquí.**",
+    "**Hubo también algo enseñado en una sesión anterior que el área no pudo poner en práctica**, _porque las cuentas disponibles no tienen esa herramienta habilitada y eso depende de la jerarquía de cuentas que administra el área de sistemas._ *Conviene que quede escrito en el reporte como una condición externa y no como una tarea sin hacer.*",
+    ":o: **Y queda el pendiente que decide cómo se lee la primera fase entera.**",
+    "**El área termina con tres agentes funcionando y ninguno documentado en el tablero.** _La dirección y la jefatura del proyecto leen el tablero, no las grabaciones ni las actas._ **Lo que no esté cargado ahí, al efecto del reporte, no existe.** *Se pidió de forma explícita que lo diligencien todos, sin excepción,* _y el área tiene dentro a quien ya sabe hacerlo._",
+    "_El cierre de la sesión:_ **de aquí en adelante es modelado.** *La estructura ya está; lo que sigue es pedir ajustes y pasar el tablero por el estudio de diseño cuando se quiera cambiar el aspecto.* **Y subir al canal todos los ejercicios de la fase.**"
+  ],
+  "proxima_sesion": {
+    "sesion": "Comunicaciones, segunda fase",
+    "condiciones": [
+      "Los cuatro ejercicios cargados en el tablero del área",
+      "El archivo de origen del monitoreo corregido",
+      "El listado completo de medios contratados entregado al agente",
+      "Las cuentas del navegador y de la aplicación alineadas",
+      "El acceso del frente de monitoreo separado"
+    ],
+    "agenda": [
+      "El monitoreo con cobertura completa de medios y lectura de perfiles",
+      "El agente de curaduría del plan de medios",
+      "La ingeniería inversa aplicada sobre publicaciones reales",
+      "Los tableros del área pasados por el estudio de diseño"
+    ]
+  },
+  "pie": "IAM™ Intelligence · Documento Confidencial | Comfacesar | 8 octubre 2026 | Comunicaciones · Sesión 12"
+}

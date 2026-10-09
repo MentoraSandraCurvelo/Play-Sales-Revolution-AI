@@ -1,0 +1,281 @@
+{
+  "proyecto": "Comfacesar",
+  "programa": "IAM™ Intelligence",
+  "anio": "2026",
+  "area": "Educación",
+  "area_completa": "",
+  "sesion_num": 5,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "8 de octubre de 2026",
+  "fecha_corta": "8octubre2026",
+  "subtitulo_meta": "Óscar Cotes · 8 de octubre de 2026 · 4:00 p. m. · 1 h 5 min",
+  "datos_sesion": [
+    ["Área(s)", "Educación, Rectoría del Colegio, Comfacesar"],
+    ["Sesión", "N° 5. De los tableros al primer agente del área"],
+    ["Fecha", "8 de octubre de 2026"],
+    ["Duración de la sesión", "1 hora 5 minutos"],
+    ["Modalidad", "Virtual, por Microsoft Teams"],
+    ["Asistencia", "Óscar Cotes, completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo, Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "4", "etiqueta": "Días de trabajo que el profesorado dio por ahorrados", "detalle": "Lo dijeron ellos, no la mentoría"},
+    {"valor": "3", "etiqueta": "Escenarios donde el área presentó lo construido", "detalle": "Consejo académico, consejo directivo y docentes"},
+    {"valor": "2", "etiqueta": "Versiones del mismo tablero", "detalle": "Un prompt por tipo de público"},
+    {"valor": "6", "etiqueta": "Áreas que replicaron el ejercicio en vivo", "detalle": "Cada docente con sus propios datos"},
+    {"valor": "1", "etiqueta": "Agente construido", "detalle": "Para los derechos de petición de la rectoría"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Óscar Cotes", "cargo": "Rectoría del Colegio, Comfacesar", "correo": "", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 5. El área llega con lo construido ya presentado a tres audiencias distintas y con el profesorado replicando el ejercicio por su cuenta. Los riesgos ya no son de aprendizaje: son de configuración y de qué pasa cuando el agente empiece a escribirle a un padre de familia.",
+  "riesgos": [
+    {
+      "titulo": "El agente estaba conectado al correo personal y no al institucional",
+      "nivel": "CRITICO",
+      "descripcion": "**Se descubrió al buscar el borrador de prueba y no encontrarlo.** _La sesión estaba abierta con una cuenta personal y los conectores habían quedado atados a ella,_ **pero los derechos de petición llegan al correo de la rectoría.** *El agente estaba leyendo y escribiendo en el buzón equivocado.* _Se corrigió en vivo: se desconectó, se reconectó con la cuenta institucional y se regeneró el borrador._ **La regla quedó dicha: todas las aplicaciones se conectan con la cuenta de la Caja, no con la personal.**",
+      "responsable": "Rectoría / Resuelto en sesión"
+    },
+    {
+      "titulo": "El agente responde a padres de familia, no al equipo",
+      "nivel": "ALTO",
+      "descripcion": "**Un derecho de petición es una solicitud formal de un acudiente y tiene términos de ley.** _Lo que salga lleva la firma del rector._ *Por eso se eligió que el agente deje la respuesta en borrador y no la envíe:* **cada una se revisa antes de salir.** _Pasarlo a envío automático es una decisión que hay que tomar a conciencia, no por comodidad._",
+      "responsable": "Rectoría / Permanente"
+    },
+    {
+      "titulo": "El agente borra el correo no deseado sin que nadie lo lea",
+      "nivel": "MEDIO",
+      "descripcion": "**Se le pidió que elimine lo que entre como no deseado, y se advirtió en sesión lo que eso significa:** _nadie va a revisar esa bandeja antes._ *Si un derecho de petición cae ahí por error, desaparece sin que quede rastro.* **Conviene que el agente lo reporte en su tablero antes de borrar, no que lo borre en silencio.**",
+      "responsable": "Rectoría / Esta semana"
+    },
+    {
+      "titulo": "La facilitadora no estará las próximas dos o tres semanas",
+      "nivel": "ALTO",
+      "descripcion": "**Se dijo de forma explícita.** _El agente queda recién construido, con un borrador de prueba y sin haber visto todavía un caso real en su cadencia._ *La recomendación que se dio fue seguir el método y no dispersarse,* **y el tablero del agente es lo que va a permitir ver qué hizo mientras nadie miraba.**",
+      "responsable": "Rectoría / Esta semana"
+    },
+    {
+      "titulo": "El área cambia de equipo y la configuración no viaja sola",
+      "nivel": "MEDIO",
+      "descripcion": "**El trabajo de hoy quedó en un equipo que el área va a reemplazar.** _La sesión de la herramienta sí trae consigo lo trabajado,_ **pero la aplicación de escritorio, los conectores y la carpeta del agente hay que montarlos otra vez.** *Conviene rehacerlo con calma y comprobar que el correo conectado vuelva a ser el institucional.*",
+      "responsable": "Rectoría / Al cambiar de equipo"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "CRITICO",
+      "titulo": "Comprobar que todos los conectores quedaron en la cuenta institucional",
+      "descripcion": "**Correo y almacenamiento.** _Hoy se corrigió el correo;_ *conviene revisar uno por uno los demás,* **porque el agente que lee el buzón equivocado no falla con error: falla en silencio.**",
+      "responsable": "Óscar Cotes",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Mantener el borrador como paso obligatorio",
+      "descripcion": "**La respuesta la revisa el rector antes de salir.** _Lo que firma la rectoría no sale automático,_ *al menos hasta que el circuito tenga recorrido.*",
+      "responsable": "Óscar Cotes",
+      "plazo": "Permanente"
+    },
+    {
+      "num": "03",
+      "nivel": "MEDIO",
+      "titulo": "Que el agente reporte el correo no deseado antes de borrarlo",
+      "descripcion": "**En el tablero, con asunto y remitente.** _Así se puede comprobar que no se fue nada que importara._",
+      "responsable": "Óscar Cotes",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Dejar corriendo el tablero del agente",
+      "descripcion": "**Cuántos derechos de petición entraron, cuántos quedaron en borrador, cuántos se enviaron y cuáles siguen esperando.** _Es la única forma de ver qué hizo durante las semanas sin sesión._",
+      "responsable": "Óscar Cotes",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Documentar en el reporte del área lo que ya está construido",
+      "descripcion": "**Los tableros de pruebas de estado, el de la planilla de notas y el agente.** _Con el antes y el ahora:_ *el profesorado ya puso una cifra, cuatro días de trabajo,* **y esa cifra es del área, no de la mentoría.**",
+      "responsable": "Óscar Cotes",
+      "plazo": "Antes del corte"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Lo que el área presentó por su cuenta",
+      "duracion": "~7 min",
+      "objetivo": "Ver qué pasó cuando lo construido salió del computador.",
+      "pasos": [
+        "**El tablero de pruebas de estado se presentó en tres escenarios distintos:** _consejo académico, consejo directivo y la reunión con todos los docentes_",
+        "**El área construyó dos versiones, no una.** _«El público no era el mismo»:_ *un prompt más especializado para el consejo y otro más sencillo para la presentación general*",
+        "**El contenido:** el índice global, la evolución institucional, el desempeño por área con la trayectoria de cada docente desde 2020, _las acciones de mejora por área_ y un cierre con los hallazgos",
+        "_El efecto que el área describió:_ **el profesorado dejó de verlo como una conversación informal.** *«Ya hay una cuestión más técnica»*",
+        "**Los colores institucionales se mantuvieron**, _que era una instrucción dada en la sesión anterior_"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · El tablero de un solo curso, desde la planilla",
+      "duracion": "~3 min",
+      "objetivo": "Bajar el análisis del colegio entero a un salón con dificultades.",
+      "pasos": [
+        "**Se partió de la planilla de notas que entregó la docente**, _sin tratarla antes_",
+        "**El resultado trae número de estudiantes, porcentajes, cuántos por debajo del desempeño básico y cuántos en alto**, _con el detalle estudiante por estudiante_",
+        "**Y lo que convierte el dato en gestión:** quiénes perdieron, _qué seguimiento se les debía_, **cuántos puntos necesitaba cada uno antes de cerrar el periodo**",
+        "**Más lo que el docente tiene que hacer con eso:** el reporte, el plan de apoyo, el diseño de la evaluación, _la rúbrica_, la comunicación con las familias y el límite de reprobación"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · El profesorado replicando en vivo",
+      "duracion": "~2 min",
+      "objetivo": "Comprobar si el método se transfiere sin la mentoría delante.",
+      "pasos": [
+        "**En la reunión de docentes, cada uno llevó su portátil y sus propias diapositivas por área**",
+        "**El área les entregó el prompt y cada docente metió los datos de su propia área**, _las seis_",
+        "**Lo que recibieron de vuelta:** _acciones de mejora por grado, responsables académicos, y qué hacer con cada curso,_ **incluido cuál no tenía ya margen de recuperación**",
+        "_La reacción quedó en una frase del propio profesorado:_ **«usted nos ha quitado con esto prácticamente cuatro días de trabajo»**",
+        "_Y el apunte de la mentoría sobre el límite de ese ejercicio:_ **el resultado depende de la configuración previa.** *Sin el método detrás, la misma herramienta entrega otra cosa*"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · El tablero, pasado por el estudio de diseño",
+      "duracion": "~10 min",
+      "objetivo": "Convertir un tablero que ya funciona en una pieza para un consejo directivo.",
+      "pasos": [
+        "**Se pidió al agente el enlace de descarga del tablero** y se descargó el archivo",
+        "**Se adjuntó en el estudio de diseño con la instrucción completa:** _animación, tres dimensiones, estilo de pantalla de bolsa, un avatar desplazándose y movimiento en toda la presentación_",
+        "**El resultado se revisó en modo presentación:** _la cinta superior con los indicadores por área y la variación,_ **un tablero tridimensional que muestra la cifra al pasar el cursor**",
+        "**Los dos tableros quedaron sincronizados:** _al marcar un área en el ranking, se marca también en el índice por ciudad_",
+        "**El avatar recorre el tablero mostrando los indicadores**, _y al final presenta lo que el consejo directivo debe llevarse_",
+        "**Y los controles para apagar lo que sobre:** _el avatar y la rotación se desactivan con un botón_",
+        "_Quedó dicho el paso siguiente:_ **se le puede pedir un simulador de qué pasa si se mueve un indicador**, *y cuando esté, se publica*"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · La herramienta entrando al computador",
+      "duracion": "~12 min",
+      "objetivo": "Dejar de subir archivos y pasar a darle la ruta.",
+      "pasos": [
+        "**Se instaló la aplicación de escritorio**, _porque las funciones que venían a continuación no existen en el navegador_",
+        "**Se agregó una carpeta del equipo y se le pidió que la ordenara**, con la ventana a la vista para seguir lo que hacía",
+        "**Trabajó sobre el equipo, sin intervención**, _y se advirtió que tocar el cursor interrumpe la tarea_",
+        "_Y aquí lo que conviene registrar:_ **reportó que no pudo terminar.** *Explicó la restricción del sistema que se lo impedía, en lugar de decir que estaba hecho*",
+        "**Lo que sí dejó:** _seis carpetas creadas y un índice de qué va en cada una,_ **para completarlo a mano**",
+        "_La lección de método:_ **a partir de ahora no hace falta subir archivos.** *Se le da la ruta y entra a buscarlo*"
+      ]
+    },
+    {
+      "titulo": "Ejercicio F · Sari, el agente de los derechos de petición",
+      "duracion": "~18 min",
+      "objetivo": "Construir el primer circuito de trabajo del área.",
+      "pasos": [
+        "**Se explicó la diferencia entre los dos entornos:** _el asistido, donde se construyen los tableros, y el agéntico, donde se construyen los agentes_",
+        "**Se creó la carpeta que sirve de repositorio** y se abrió desde la aplicación, _un paso que solo se hace una vez_",
+        "**La tarea la eligió el área:** _contestar derechos de petición,_ **que es lo que más tiempo le quita y viene siempre de padres de familia**",
+        "**El encargo quedó dictado:** entrar al correo, _tomar lo que traiga derecho de petición en el asunto,_ **y responder de forma personalizada confirmando que la solicitud está siendo revisada por la rectoría y que se responderá dentro de los términos de ley**",
+        "**La cadencia:** de lunes a viernes, a las 8:00 de la mañana y a las 4:00 de la tarde",
+        "_El agente propuso tres opciones y recomendó una:_ **dejar la respuesta en borrador para que el rector la revise antes de que salga con su nombre.** *Se eligió esa*",
+        "**Se le añadió eliminar el correo no deseado** y **entregar un tablero con lo que vaya haciendo**",
+        "**Produjo el borrador de prueba sobre un caso real del buzón**, _sin enviarlo_"
+      ]
+    },
+    {
+      "titulo": "Ejercicio G · El correo equivocado",
+      "duracion": "~6 min",
+      "objetivo": "Entender por qué el borrador no aparecía donde debía.",
+      "pasos": [
+        "**Se fue a buscar el borrador a la bandeja y no estaba**",
+        "_La causa:_ **los conectores estaban atados a una cuenta personal**, *y los derechos de petición llegan al correo de la rectoría*",
+        "**Se desconectó el correo y se volvió a conectar con la cuenta institucional**, paso a paso",
+        "**Se le pidió rehacer el borrador** y esta vez apareció en la bandeja correcta, _con la etiqueta del agente_",
+        "_La regla quedó dicha sin rodeos:_ **la sesión puede abrirse con cualquier cuenta, pero los conectores van siempre con la cuenta de la Caja.** *Si no, los circuitos no salen*"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 5 · 8 octubre 2026",
+      "titulo": "La cifra del ahorro la puso el profesorado, no la mentoría",
+      "descripcion": "**En la reunión de docentes cada uno metió los datos de su propia área y recibió de vuelta las acciones de mejora por grado.** _Y lo dijeron ellos:_ **«usted nos ha quitado con esto prácticamente cuatro días de trabajo».** *Ese es el dato más sólido que el área puede llevar a un reporte,* _porque no lo calculó quien vende el método: lo calculó quien hacía el trabajo a mano._",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Llevarlo al reporte del área con el antes y el ahora",
+      "target": "Antes del corte"
+    },
+    {
+      "encabezado": "★ EL ERROR QUE NO HABRÍA DADO LA CARA",
+      "titulo": "Un agente conectado al buzón equivocado no falla, falla en silencio",
+      "descripcion": "**El agente estaba leyendo una cuenta personal mientras los derechos de petición entraban al correo de la rectoría.** _No devolvió ningún error: devolvió un borrador perfectamente redactado sobre el buzón que no era._ *Se descubrió porque el borrador no aparecía donde se lo buscaba.* **La lección vale para cualquier área que conecte un agente:** _revisar con qué cuenta quedó atado cada conector, antes y no después._",
+      "estado": "Resuelto en sesión",
+      "proximo_paso": "Comprobar uno por uno los conectores restantes",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "★ LO QUE HIZO BIEN LA HERRAMIENTA",
+      "titulo": "Dijo que no había podido terminar",
+      "descripcion": "**Al ordenar las carpetas del equipo se topó con una restricción del sistema y lo reportó.** _Explicó qué se lo impedía y qué había intentado,_ **en lugar de dar por hecho el trabajo.** *Y dejó avanzado lo que sí pudo:* las carpetas creadas y el índice de qué va en cada una. _Un circuito que avisa cuando no puede es más fiable que uno que nunca falla._",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Repetir la tarea en el equipo nuevo",
+      "target": "Al cambiar de equipo"
+    },
+    {
+      "encabezado": "★ LO QUE SE ENUNCIÓ PARA LA SEGUNDA FASE",
+      "titulo": "Una web app donde el padre de familia radique y siga su derecho de petición",
+      "descripcion": "**Con trazabilidad para quien lo radica y entornos separados para docentes y administrativos.** _Hoy el circuito termina en un borrador que el rector revisa;_ *ahí empezaría en el momento en que el acudiente escribe.* **Es el mismo salto que otras áreas ya tienen enunciado,** _y en este caso toca directamente la relación con las familias._",
+      "estado": "Propuesto en sesión",
+      "proximo_paso": "Enunciarlo al arrancar la segunda fase",
+      "target": "Segunda fase"
+    }
+  ],
+  "tareas_intro": "El área cierra la primera fase con lo construido ya presentado, el profesorado replicando por su cuenta y su primer agente montado. Lo que queda es asegurar la configuración antes de dos semanas sin sesión, y dejar registrado lo que ya se ahorró.",
+  "tareas": [
+    {"tarea": "Comprobar que todos los conectores quedaron con la cuenta institucional", "responsable": "Óscar Cotes", "prioridad": "URGENTE", "plazo": "Inmediato"},
+    {"tarea": "Dejar corriendo el tablero del agente, con lo que entra y lo que queda en borrador", "responsable": "Óscar Cotes", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Pedir al agente que reporte el correo no deseado antes de borrarlo", "responsable": "Óscar Cotes", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Seguir moldeando la respuesta del agente hasta que el circuito esté completo", "responsable": "Óscar Cotes", "prioridad": "MEDIA", "plazo": "Estas dos semanas"},
+    {"tarea": "Documentar en el reporte del área lo construido, con el antes y el ahora", "responsable": "Óscar Cotes", "prioridad": "ALTA", "plazo": "Antes del corte"},
+    {"tarea": "Rehacer la instalación y los conectores al cambiar de equipo", "responsable": "Óscar Cotes", "prioridad": "MEDIA", "plazo": "Al cambiar de equipo"}
+  ],
+  "observaciones": [
+    "**La sesión empieza con el área rindiendo cuentas de lo que hizo sola, y eso es lo que más pesa del acta.** _El tablero de pruebas de estado no se quedó en el computador:_ **se presentó en el consejo académico, en el consejo directivo y en la reunión con todos los docentes.**",
+    "**Y no se presentó igual en los tres sitios.** _El área construyó dos versiones porque «el público no era el mismo»:_ **un prompt más especializado para el consejo y otro más sencillo para la presentación general.** *Esa distinción no se enseñó en ninguna sesión; la hizo el área.*",
+    "**El contenido llegó al nivel que hace falta para que una presentación sirva:** el índice global, la evolución institucional, _el desempeño por área con la trayectoria de cada docente desde 2020,_ **las acciones de mejora por área** y un cierre con los hallazgos.",
+    "_El efecto lo describió el área con sus palabras:_ **el profesorado dejó de verlo como una conversación informal.** *«Ya hay una cuestión más técnica.»*",
+    "**El segundo ejercicio baja el análisis del colegio entero a un salón con dificultades.** _Partiendo de la planilla de notas tal como la entregó la docente,_ el tablero devuelve número de estudiantes, porcentajes, cuántos por debajo del desempeño básico y el detalle estudiante por estudiante. **Y lo que convierte el dato en gestión:** _quiénes perdieron, qué seguimiento se les debía y cuántos puntos necesitaba cada uno antes de cerrar el periodo,_ *más el plan de apoyo, la rúbrica, la comunicación con las familias y el límite de reprobación.*",
+    ":o: **Lo que hay que subrayar pasó en la reunión de docentes, no en esta sesión.**",
+    "**Cada profesor llevó su portátil y sus propias diapositivas. El área les entregó el prompt y cada uno metió los datos de su propia área, las seis.** _Lo que recibieron de vuelta fueron acciones de mejora por grado, con responsables, y qué hacer con cada curso,_ **incluido cuál ya no tenía margen de recuperación.**",
+    "**Y la cifra la pusieron ellos:** _«usted nos ha quitado con esto prácticamente cuatro días de trabajo»._ *Ese es el dato más sólido que el área puede llevar a un reporte,* **porque no lo calculó quien enseña el método, lo calculó quien hacía el trabajo a mano.**",
+    "_La mentoría puso el límite de ese ejercicio, y conviene registrarlo:_ **el resultado depende de la configuración previa.** *La misma herramienta, sin el método detrás, entrega otra cosa.*",
+    "**La segunda mitad fue de construcción.** _El tablero se pasó por el estudio de diseño_ y volvió con la cinta de indicadores por área, **un tablero tridimensional que muestra la cifra al pasar el cursor**, *los dos tableros sincronizados entre sí,* y el avatar recorriendo los indicadores hasta cerrar con lo que el consejo directivo debe llevarse. _Con botones para apagar el avatar y la rotación cuando sobren._",
+    "**Después se instaló la aplicación de escritorio**, _porque lo que venía no existe en el navegador._ **Se le dio acceso a una carpeta del equipo y se le pidió ordenarla**, con la ventana a la vista para ver qué hacía.",
+    "_Y ahí ocurrió algo que vale más que el ejercicio:_ **reportó que no había podido terminar.** *Explicó la restricción del sistema que se lo impedía y qué había intentado,* **en lugar de dar el trabajo por hecho.** _Dejó seis carpetas creadas y un índice de qué va en cada una._ *Un circuito que avisa cuando no puede es más fiable que uno que nunca falla.*",
+    "**El cierre fue el primer agente del área: Sari, para los derechos de petición**, _que es lo que más tiempo le quita a la rectoría y viene siempre de padres de familia._",
+    "**El encargo:** entrar al correo, tomar lo que traiga derecho de petición en el asunto, _y responder de forma personalizada confirmando que la solicitud está siendo revisada por la rectoría y que se responderá dentro de los términos de ley._ **De lunes a viernes, a las 8:00 de la mañana y a las 4:00 de la tarde.**",
+    "_El agente propuso tres opciones y recomendó una:_ **dejar la respuesta en borrador para que el rector la revise antes de que salga con su nombre.** *Se eligió esa, y conviene que se quede así:* **un derecho de petición tiene términos de ley y lo que sale lleva la firma de la rectoría.**",
+    ":o: **Y lo segundo que hay que subrayar es el error que casi no da la cara.**",
+    "**Al buscar el borrador de prueba, no estaba.** _La causa: los conectores habían quedado atados a una cuenta personal, y los derechos de petición entran al correo de la rectoría._ **El agente no devolvió ningún error.** *Devolvió un borrador perfectamente redactado, sobre el buzón que no era.*",
+    "**Se corrigió en vivo:** se desconectó el correo, se volvió a conectar con la cuenta institucional y se rehízo el borrador, _que esta vez apareció donde debía, con la etiqueta del agente._ **La regla quedó dicha sin rodeos y aplica a cualquier área:** _la sesión puede abrirse con cualquier cuenta, pero los conectores van siempre con la cuenta de la Caja._",
+    "_Una advertencia que se hizo en sesión y conviene no perder:_ **al agente se le pidió eliminar el correo no deseado, y eso significa que nadie lo va a leer antes.** *Si un derecho de petición cae ahí por error, desaparece sin rastro.* **Mejor que lo reporte en el tablero antes de borrar.**",
+    "**Quedó anunciado que la mentoría no estará las próximas dos o tres semanas**, _con el agente recién construido y sin haber visto todavía un caso real en su cadencia._ *La recomendación fue seguir el método y no dispersarse.*",
+    "_Y para la segunda fase se enunció lo que viene:_ **una aplicación donde el padre de familia radique su derecho de petición y siga su trazabilidad**, con entornos separados para docentes y administrativos. *Hoy el circuito termina en un borrador que el rector revisa; ahí empezaría en el momento en que el acudiente escribe.*"
+  ],
+  "proxima_sesion": {
+    "sesion": "Educación, segunda fase",
+    "condiciones": [
+      "Los conectores comprobados uno por uno con la cuenta institucional",
+      "El tablero del agente corriendo",
+      "El agente moldeado con los casos reales de estas dos semanas",
+      "Lo construido documentado en el reporte del área"
+    ],
+    "agenda": [
+      "El circuito de derechos de petición, con recorrido real",
+      "El simulador sobre el tablero de pruebas de estado",
+      "La aplicación del área, con radicación y trazabilidad para las familias",
+      "La conexión de los tableros con los sistemas de información"
+    ]
+  },
+  "pie": "IAM™ Intelligence · Documento Confidencial | Comfacesar | 8 octubre 2026 | Educación · Sesión 5"
+}

@@ -1859,3 +1859,28 @@ no queda nada pendiente por resolver, que cada canal recibirá su reporte de cie
 Publicadas en `#agencia-de-empleo`, `#vivienda` y `#subsidio`, cada una bajo su resumen.
 La de `#comunicaciones` había salido antes. _Con eso el martes 6 queda cerrado del todo:
 las cuatro áreas con grabación, resumen y acta._
+
+## 9 de octubre · La cola vaciada, cinco sesiones
+
+**Sandra lo reclamó y tenía razón:** _las actas estaban escritas y el circuito no había salido._
+Grabación, resumen y asistencia de cinco sesiones, cada uno en su canal.
+
+| Sesión | Fecha | Canal | Qué salió |
+|---|---|---|---|
+| Agencia de Empleo S9 | 7 oct | `#agencia-de-empleo` | Grabación, resumen, asistencia |
+| IPS S6 | 7 oct | `#ips` | Grabación, resumen, asistencia |
+| Agencia de Empleo S10 | 8 oct | `#agencia-de-empleo` | Acta nueva, grabación, resumen, asistencia |
+| Educación S5 | 8 oct | `#educacion` | Acta nueva, grabación, resumen, asistencia |
+| Comunicaciones S12 | 8 oct | `#comunicaciones` | Acta nueva, grabación, resumen, asistencia |
+
+**La asistencia se publica como texto, no como archivo adjunto.** _El servidor de archivos de
+Slack está bloqueado desde donde corre el agente,_ y el informe de Teams cabe en un mensaje.
+
+### Lo que quedó registrado y conviene no perder
+
+**Dos sesiones traían la sala abierta después de terminar**, Agencia de Empleo S9 y S10. _El
+informe de Teams marcaba 1 h 56 min y 1 h 29 min;_ **las sesiones efectivas fueron 58 minutos
+y 1 h 2 min.** En los dos casos se publica la efectiva y se dice por qué.
+
+**Educación S5 y Comunicaciones S12 son las últimas de la primera fase** para esas áreas.
+_La mentoría anunció dos o tres semanas de ausencia en las dos._
