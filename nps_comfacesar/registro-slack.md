@@ -6,6 +6,74 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## viernes 9 de octubre de 2026 · 10:30 a. m. · Entraron las cinco del jueves · el programa va en 119
+
+**No se publicó nada en Slack.** Seis tableros actualizados.
+
+### Las cinco sesiones del jueves 8
+
+| Área | Sesión | Duración | Asistencia | Soportes |
+|---|---|---|---|---|
+| Subsidio | **S11** | 1 h 5 min · 9:52 a 10:58 | 1 de 1 · Cindy | informe y transcripción, **falta el acta** |
+| Jurídica | **S13** | 51 min | 2 de 3 · Lilibeth Costa, Carlos Mario Gamarra | los tres |
+| Agencia de Empleo | **S10** | 1 h 29 min | 2 de 2 · Lina María Rincón, Ana María Meza | los tres |
+| Educación | **S5** | 1 h 7 min | 1 de 1 · Óscar Cotes | los tres |
+| Comunicaciones | **S12** | 41 min | 3 de 6 · César Reyes, Sandra Machado, Julio César Pérez Ramos | los tres |
+
+**El programa pasa de 114 a 119.** La asistencia pasa de **194 sobre 210** a **203 sobre 223**, que
+redondea a **91%**: nueve personas sobre trece convocados. *Es la primera vez que el porcentaje baja
+un punto*, y lo mueve Comunicaciones, que convocó seis correos y sentó a tres. **No es una caída, es
+el tamaño de la convocatoria.**
+
+**Dos lecturas de nombres.** El informe de Jurídica trae cuatro filas y son tres personas: Carlos
+Mario Gamarra aparece dos veces, con dos dispositivos y el nombre escrito de dos formas. Y el de
+Subsidio trae dos moderadores llamados Cindy sobre **un solo correo convocado**, así que **1 de 1**,
+por la regla que ya se aplicó en la S8 del área.
+
+**Y Subsidio S11 queda confirmada por tercera fuente:** la carpeta de Dropbox se llama `Sesion 11` y
+el informe también, *aunque el título de la reunión grabado dentro del archivo todavía diga «Sesion
+12»*, que es el rótulo del calendario.
+
+### Lo que la lectura de los tableros destapó, y que no era del día
+
+Al leer cada tablero antes de republicarlo aparecieron cuatro cosas viejas. **Las guardas numéricas
+no las habían visto porque estaban escritas en palabras o en otro tablero.**
+
+- **El Corte decía «ciento catorce sesiones» y «los agentes van en dieciséis»**, con su propia ficha
+  en 13 y su propia tabla con 13 filas. *Manda la tabla*: queda en trece. Su ficha decía además
+  «ocho corriendo · ocho en construcción», que no suma 13; contando la tabla son **ocho corriendo y
+  cinco en construcción**.
+- **El Corte seguía diciendo que el proveedor del software contable está en Girardot.** Una nota del
+  Termómetro daba esa corrección por hecha «en los cuatro tableros» el 1 de octubre, y **el Corte se
+  quedó fuera**. La propuesta y Hallazgos críticos ya decían Ibagué. Corregido.
+- **Tres tableros contaban días que ya no quedan.** Hoy es el cierre, no «queda un día hábil» ni «el
+  cierre es mañana». Corregido en el Corte y en Hallazgos de cierre.
+- **La tarjeta de Educación en Hallazgos críticos, que lee el director, decía que el área llegaba al
+  cierre con dieciséis días sin sentarse y que su última sesión fue el 7 de septiembre.** Dejó de ser
+  cierto: hizo su S4 el 28 de septiembre y su S5 ayer. **Corregido en los dos tableros de hallazgos,
+  diciendo en el propio tablero qué cambió.** Las dos inasistencias del 22 y 23 de septiembre siguen
+  en pie, que es el fondo del hallazgo.
+
+*No toqué la severidad de esa tarjeta.* Sigue en rojo y por tanto el semáforo sigue en 23 de 41. **Si
+con la recuperación del área merece bajar a ámbar, es criterio tuyo, no mío**, y cambiarlo mueve el
+titular que lee la dirección.
+
+### Versiones
+
+Termómetro **v117** · Mesa **v29** · Corte **v11** · propuesta **v15** · Hallazgos críticos **v6** ·
+Hallazgos de cierre **v27**.
+
+### Lo que queda
+
+**Agencia de Empleo S11 hoy a las 11:00, la última del programa**, con cuatro correos convocados:
+`agenciaempleo`, `juridicompc`, `fosfec` y `fomentoempresarial`. Y **el acta de Subsidio S11**, que es
+el único soporte que falta de las cinco de ayer.
+
+**El Termómetro sigue sin aviso de republicación registrado para el Corte** (diez disparadores por
+sesión, al límite), así que no me enteraría si alguien lo republica por fuera.
+
+---
+
 ## jueves 8 de octubre de 2026 · 12:20 p. m. · La de hoy es la S11, y una regla mía que estaba mal
 
 **No se publicó nada en Slack.** Tres correcciones en tableros.
