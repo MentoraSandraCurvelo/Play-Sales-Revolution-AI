@@ -6,6 +6,106 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## viernes 9 de octubre de 2026 · 11:20 a. m. · EL PROGRAMA CERRÓ · relevo para Lucía
+
+> **Lucía: esto es para ti.** Sandra te pidió los mensajes de cierre. Aquí está todo verificado y
+> cerrado para que no tengas que recalcular nada. **No escribí nada en los canales:** el cierre es
+> tuyo.
+
+### La última sesión se canceló
+
+**Agencia de Empleo S11, hoy a las 11:00, la canceló el área.** El aviso de cancelación salió a las
+**9:27 a. m.** a los cuatro correos del área, **sin motivo escrito**, así que no se atribuye causa:
+se registra como cancelación del área, que es lo que confirmó Sandra.
+
+- **El área cierra en la S10**, no en la S11. *Una hora que no corre no consume número.*
+- **Las caídas pasan de 25 a 26:** doce inasistencias y **nueve cancelaciones del área**, más tres
+  cruces, una cita médica y una falla técnica.
+- El evento ya no está en el calendario.
+
+### Las cifras finales del programa · úsalas tal cual
+
+| | |
+|---|---|
+| **Sesiones verificadas** | **119** · del 11 de agosto al 8 de octubre |
+| **Asistencia** | **203 sobre 223 convocados** · **91%** |
+| **Áreas en marcha** | **18 de 18** |
+| **Sesiones caídas** | **26** |
+| **NPS** | **+20** · 20 respuestas de 51 colaboradores |
+| **Confianza usando IA** | pasa de **4,7 a 8,6** sobre las mismas 20 personas |
+| **Horas recuperadas** | **133,9 a la semana** · corte del 1 de octubre |
+
+*De las 119, la única sin asistencia calculable es **IPS S5**, cuya acta no trae la tabla de
+convocados. **118 de 119 están medidas.***
+
+### Área por área, para escribir cada canal
+
+| Área | Sesiones | Con qué cierra |
+|---|---|---|
+| Jurídica | **13** | Cuatro agentes, dos corriendo con el equipo en Slack |
+| Comunicaciones | **12** | Tres agentes construidos, ninguno documentado en su tablero |
+| Servicios Sociales | **11** | Dos agentes, uno detectó errores de origen |
+| Sub. Admin. y Financiera | **11** | Tablero de la agenda directiva |
+| Subsidio y Aportes | **11** | Circuito completo probado de principio a fin |
+| Agencia de Empleo | **10** | Matías en producción, primera respuesta a un ciudadano |
+| Contabilidad | **8** | Repuso la caída y tomó una sesión más |
+| IPS | **6** | Circuito de inspecciones corriendo, 23 sedes |
+| Tecnología | **6** | Primer agente programado, cerrada en S6 tras dos caídas |
+| Vivienda | **6** | Tablero del programa de mejoramiento rural |
+| Educación | **5** | Dos tableros publicados y su primera cifra medida |
+| Mercadeo | **5** | Primer tablero interactivo |
+| Sub. Operativa y Comercial | **4** | Retomada tras la caída del 9 de septiembre |
+| Talento Humano | **3** | Las tres personas con ejercicio propio |
+| Cumplimiento | **2** | La S2 se cayó tres veces, se recuperó el 22 |
+| Gerencia Financiera | **2** | No asistió a la S3 |
+| Planeación | **2** | Primera habilidad del programa |
+| Tesorería | **2** | Bloqueada, los títulos están en papel |
+
+**Suma 119 exacto.** Si tu mensaje da un número por área, que salga de esta tabla.
+
+### Lo último que entró, por si lo citas
+
+Las cinco del jueves 8, todas verificadas esta mañana: **Subsidio S11** (1 de 1, Cindy),
+**Jurídica S13** (2 de 3, Lilibeth Costa y Carlos Mario Gamarra), **Agencia de Empleo S10** (2 de 2,
+Lina María Rincón y Ana María Meza), **Educación S5** (1 de 1, Óscar Cotes) y **Comunicaciones S12**
+(3 de 6, César Reyes, Sandra Machado y Julio César Pérez Ramos).
+
+*El porcentaje bajó de 92% a 91% con estas cinco, y lo movió Comunicaciones, que convocó seis correos
+y sentó a tres. **No es una caída, es el tamaño de la convocatoria** — por si alguien lo pregunta.*
+
+### Lo que NO se puede nombrar en los mensajes
+
+- **El 31 de octubre y el bloque de cierre del viernes 16 NO se publican.** La propuesta de Fase 2
+  sigue sin aprobar. Instrucción de Sandra: *«no digamos nada aún»*. **Ella avisa cuando se libere.**
+- **El viernes 9 sí se nombra** como cierre, y ya está publicado en los canales desde el 6 de octubre.
+- **Nada de nombres sacados de avisos de cancelación.**
+- El símbolo es **⭕️**, y el único shortcode válido es `:o:`. **Nunca `:red_circle:`.**
+- Horario de publicación: **8:00 a. m. a 5:00 p. m., días hábiles, y nunca al filo de las 5.**
+
+### Lo que queda pendiente y no se puede cerrar hoy
+
+1. **El acta de Subsidio S11**, de ayer. Es el único soporte que falta de todo el programa. La sesión
+   sí cuenta, porque tiene grabación e informe de asistencia.
+2. **Contabilidad S9 del viernes 2 de octubre** sigue sin ninguno de los tres soportes.
+3. **Servicios Sociales:** el acta dice `Sesion12` y está archivada en la carpeta `Sesion 11`. Manda
+   el acta. Sin resolver.
+
+### Tableros, todos al cierre
+
+Termómetro **v118** · Mesa **v30** · Corte **v12** · Hallazgos críticos **v6** · Hallazgos de cierre
+**v28** · propuesta **v15**. *Los seis van con el mismo corte: viernes 9 de octubre, 11:15 a. m.*
+
+### Dos cosas que dejo en manos de Sandra, no mías
+
+- **La severidad de la tarjeta de Educación en Hallazgos críticos.** La corregí ayer porque daba al
+  área por dieciséis días sin sentarse y ya había hecho dos sesiones más, pero **la dejé en rojo**.
+  Si con la recuperación merece bajar a ámbar, eso mueve el titular de 23 de 41 que lee la dirección.
+- **Hay filas de caídas antiguas en el Termómetro que llevan nombres de personas** tomados de avisos
+  de cancelación, y la regla dice que el nombre no pasa al tablero. *No las toco*: son registro
+  fechado y borrar nombres del histórico es decisión suya.
+
+---
+
 ## viernes 9 de octubre de 2026 · 10:30 a. m. · Entraron las cinco del jueves · el programa va en 119
 
 **No se publicó nada en Slack.** Seis tableros actualizados.

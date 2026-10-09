@@ -4,6 +4,19 @@
 > con la misma identidad —el equipo de Comfacesar solo ve "IAM"—, así que dos mensajes
 > descoordinados no se leen como dos agentes: se leen como Sandra repitiéndose.
 
+## ESTADO · el programa cerró el viernes 9 de octubre de 2026
+
+**IAM™ Intelligence en Comfacesar terminó.** Cierra con **119 sesiones verificadas**, **203 asistencias sobre 223 convocados** que son **91%**, **18 áreas de 18** y **26 sesiones caídas**.
+
+**La última sesión, Agencia de Empleo S11 del viernes 9 a las 11:00, la canceló el área**, con aviso a las 9:27 y sin motivo escrito. El área cierra en la S10.
+
+- **Los mensajes de cierre en los canales los escribe Lucía**, por encargo de Sandra del 9 de octubre.
+- **Elia no escribió nada en los canales.** El relevo completo, con las cifras y el área por área, está en `nps_comfacesar/registro-slack.md`, en la entrada del 9 de octubre a las 11:20.
+- **El 31 de octubre y el bloque del viernes 16 siguen sin publicarse**, en canales y en tableros. Sandra avisa cuando se libere.
+- **Los seis tableros van al corte del viernes 9, 11:15 a. m.** Termómetro v118, Mesa v30, Corte v12, Hallazgos críticos v6, Hallazgos de cierre v28, propuesta v15.
+
+---
+
 ## El choque que originó esta regla
 
 El 26 de agosto, en `#contabilidad`, tres mensajes en cuatro horas:
