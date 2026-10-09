@@ -41,12 +41,21 @@ el valor es lo que se construyó; **aquí el valor es lo que se movió.**
 aunque la 2 haya sido de marketing y la 3 de perfiles._ Es la misma regla que en Comfacesar:
 el número es del cliente, no de la persona.
 
+## El espacio
+
+**Klaren's ya tiene app en Hello**, publicada el 8 de octubre de 2026, con su logo y con la
+conversación encendida. _La dirección está en el campo `url` de `klarens.json`._
+
+**Es un solo grupo, no un canal por frente.** _Confirmado por Sandra el 8 de octubre._ Los
+frentes de abajo siguen existiendo, pero dicen de quién es la sesión, no dónde se habla de
+ella. Está en `08-un-solo-grupo.md`.
+
 ## Lo que todavía no existe
 
-- **Klaren's no tiene app en Hello.** _Falta el logo y falta decidir si entra._ Su archivo de
-  cliente ya está, con los tres frentes como canales, así que el día que se decida es un
-  comando.
-- **No hay espacio de conversación**, así que hoy todo pasa por correo y por las sesiones.
+- **El agente de Klaren's.** _Sandra no lo ha creado y no tiene nombre._ Mientras tanto lo
+  lleva Lucía. Su flujograma está escrito en `AGENTE.md`, listo para cuando exista.
+- **El acta de la sesión 1 y la de la 3** no están en la app: la 1 nunca se escribió y de la
+  3 solo hay el PDF, sin el archivo que la app lee.
 
 ## Quién hace qué
 
@@ -54,6 +63,6 @@ el número es del cliente, no de la persona.
 |---|---|
 | **Lucía** | Las sesiones y las actas de todos los clientes |
 | **Elía** | **Todos los reportes.** El tablero y los indicadores, también los de Klaren's |
-| **Natalia** | **El espacio de Klaren's**, cuando exista |
+| **El agente de Klaren's** | **Su espacio**, cuando Sandra lo cree. _Hoy no existe y no tiene nombre: lo lleva Lucía mientras tanto_ |
 
 **Lucía produce y Elía reporta.** _Lucía no arma tableros y Elía no escribe actas._
