@@ -499,6 +499,21 @@
       "compromiso": "Queda el martes 6 de octubre a las 5:00 p. m. — **es la Sesión 11**, porque la S11 no se ha hecho ninguna de las tres veces que estuvo agendada.",
       "cuenta_como": "cancelada",
       "nota": "_Una sesión agendada que no se hizo es una caída, aunque se recupere al día siguiente_ — y una reagendada cuenta como las dos cosas, igual que la S3 de Educación. **Queda por confirmar quién pidió el cambio:** si lo movió la mentoría y no el área, sale del conteo del tablero. _Sandra lo dirá._"
+    },
+    {
+      "area": "Agencia de Empleo",
+      "sesion": "S11",
+      "fecha": "2026-10-09",
+      "hora": "11:00",
+      "canal": "#agencia-de-empleo",
+      "quien_cancela": "Comfacesar",
+      "motivo": "Compromisos laborales del área. Lo avisó Lina María Rincón en el canal a las 9:21 a. m., el mismo día, con un mensaje de cierre y agradecimiento por la fase.",
+      "causa": "cruce con otras actividades",
+      "aviso_en_canal": "https://iamteamespacio.slack.com/archives/C0BPV2YLLBU/p1791555718968099",
+      "reagendada": false,
+      "compromiso": null,
+      "cuenta_como": "cancelada",
+      "nota": "Es la última sesión agendada del área en la primera fase y era la del cierre. La numeración: el anuncio del 6 de octubre fijaba esta franja como Sesión 10, pero con la sesión que se añadió el martes 7 corre a Sesión 11. La cita ya no figura en el calendario de Outlook."
     }
   ],
   "patron": {

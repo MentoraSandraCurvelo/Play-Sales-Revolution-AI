@@ -1884,3 +1884,26 @@ y 1 h 2 min.** En los dos casos se publica la efectiva y se dice por qué.
 
 **Educación S5 y Comunicaciones S12 son las últimas de la primera fase** para esas áreas.
 _La mentoría anunció dos o tres semanas de ausencia en las dos._
+
+## 9 de octubre · Agencia de Empleo no hizo la sesión de cierre
+
+**Caída número 34 del proyecto, y la primera del área.** _Lina María Rincón avisó en el canal
+a las 9:21 a. m., el mismo día, por compromisos laborales._ El mensaje era además de cierre y
+agradecimiento por la fase.
+
+| | |
+|---|---|
+| **Sesión** | Agencia de Empleo, S11 |
+| **Franja** | Viernes 9 de octubre, 11:00 a. m. |
+| **Cuenta como** | Cancelada |
+| **Reagendada** | No. _Era la última de la primera fase_ |
+
+**Ojo con el número.** _El anuncio del 6 de octubre fijaba esta franja como Sesión 10,_ pero
+con la sesión que se añadió el martes 7 la serie corrió: **esta era la Sesión 11.** La cita ya
+no figura en el calendario de Outlook.
+
+**El aviso queda aquí como causa y en ningún documento del cliente.** _Es la regla de siempre:_
+lo que importa es que la sesión estaba agendada y no se hizo.
+
+_Con esta, Agencia de Empleo pasa de cero a una caída en todo el proyecto._ **Sigue siendo de
+las áreas más limpias del conteo.**
