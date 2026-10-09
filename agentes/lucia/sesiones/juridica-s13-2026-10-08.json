@@ -1,0 +1,282 @@
+{
+  "proyecto": "Comfacesar",
+  "programa": "IAM™ Intelligence",
+  "anio": "2026",
+  "area": "Jurídica",
+  "area_completa": "",
+  "sesion_num": 13,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "8 de octubre de 2026",
+  "fecha_corta": "8octubre2026",
+  "subtitulo_meta": "Última sesión de la primera fase · 8 de octubre de 2026 · 10:55 a. m. · 52 min",
+  "datos_sesion": [
+    ["Área(s)", "Jurídica, Comfacesar"],
+    ["Sesión", "N° 13. El tablero jurídico como web app, y el primer intento de conectar dos tableros"],
+    ["Fecha", "8 de octubre de 2026"],
+    ["Duración de la sesión", "52 minutos"],
+    ["Modalidad", "Virtual, por Microsoft Teams"],
+    ["Asistencia", "Lilibeth Costa y Carlos Mario Gamarra, completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo, Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "8", "etiqueta": "Secciones del tablero jurídico", "detalle": "De resumen a informe estratégico, en una sola vista"},
+    {"valor": "4", "etiqueta": "Agentes corriendo en contratación", "detalle": "Construidos sin acompañamiento"},
+    {"valor": "3", "etiqueta": "Niveles de prioridad del radar de contratación", "detalle": "Alta, media y baja, contra la experiencia de la Caja"},
+    {"valor": "10", "etiqueta": "Días de aviso antes de que venza un convenio", "detalle": "El agente lo notifica solo"},
+    {"valor": "1", "etiqueta": "Tablero, no varios", "detalle": "La instrucción fue sumar vistas, no crear otro"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Lilibeth Costa", "cargo": "Jurídica, Comfacesar", "correo": "", "modalidad": "Virtual", "nivel": "Avanzado"},
+    {"nombre": "Carlos Mario Gamarra", "cargo": "Contratación, Jurídica, Comfacesar", "correo": "", "modalidad": "Virtual", "nivel": "Avanzado"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 13, la última de la primera fase. El área llega con el tablero jurídico vivo y con cuatro agentes corriendo en contratación. Lo que queda abierto es de seguridad de la información, de datos sin depurar y de una conexión entre tableros que todavía no se puede hacer.",
+  "riesgos": [
+    {
+      "titulo": "El tablero tiene información confidencial y no tiene control de acceso",
+      "nivel": "CRITICO",
+      "descripcion": "**El área lo dijo en sesión: todo lo que hay dentro es información interna privada, nada va a los afiliados.** _Y hoy el tablero se abre sin contraseña, sin roles y sin restricción de descarga._ *Procesos, pretensiones, contratación y datos de recuperación de cartera en una sola vista.* **Mientras no tenga ingreso controlado, cualquiera con el enlace ve el área entera.**",
+      "responsable": "Jurídica / Inmediato"
+    },
+    {
+      "titulo": "La pestaña de informe estratégico está incompleta",
+      "nivel": "ALTO",
+      "descripcion": "**El propio agente lo detectó al leer el tablero y devolvió el resumen de lo que falta.** _El equipo está depurando datos y el área ya repartió esa tarea dentro de la oficina._ *El riesgo no es que falte: es que se presente a la dirección con huecos,* **porque es justo la pestaña que se muestra arriba.**",
+      "responsable": "Jurídica / Antes de la presentación"
+    },
+    {
+      "titulo": "Los tableros todavía no se pueden conectar entre sí",
+      "nivel": "ALTO",
+      "descripcion": "**Se intentó en vivo y el intento falló por una razón que conviene entender.** _El tablero del frente de contratación guarda sus datos en una base propia e interna,_ **fuera de la organización**, *y el acceso quedó bloqueado.* _El agente lo explicó en lugar de devolver una conexión falsa._ **La conclusión que quedó dicha: antes de comunicar tableros, el proceso tiene que estar cimentado dentro de cada uno**, y la vía es unirlos a través de un menú.",
+      "responsable": "Jurídica / Segunda fase"
+    },
+    {
+      "titulo": "Cuatro tableros separados cuestan más que uno",
+      "nivel": "MEDIO",
+      "descripcion": "**El frente de contratación tiene su información repartida en varios tableros, uno por agente.** _Funciona hoy,_ **pero en el momento de conectar los sistemas es más caro y más frágil apuntar a cinco o seis sitios que a uno solo.** *La salida ya está enunciada:* una sola vista que integre las secciones, _como la que el área ya tiene montada en el otro frente._",
+      "responsable": "Jurídica / Segunda fase"
+    },
+    {
+      "titulo": "Los datos de origen traen errores humanos que rompen el tablero",
+      "nivel": "MEDIO",
+      "descripcion": "**Todos los procesos del área viven en hojas de cálculo que llena gente.** _El área ya se topó con registros que hubo que recuperar._ *Un dato mal escrito no da error: desacomoda el tablero sin avisar.* **Quedó aprobado construir un agente que revise las hojas y señale inconsistencias antes de que lleguen al tablero.**",
+      "responsable": "Jurídica / Esta semana"
+    },
+    {
+      "titulo": "Un agente que hace de todo pierde el hilo",
+      "nivel": "MEDIO",
+      "descripcion": "**El área estaba llevando varios frentes distintos con el mismo agente.** _Legal, contractual, prejurídico, todo al mismo._ *Llega un punto en que deja de sostener el contexto.* **La regla quedó dicha: un agente por especialidad,** _y lo que es de una sola vez va en un proyecto, no en un agente._",
+      "responsable": "Jurídica / Permanente"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "CRITICO",
+      "titulo": "Poner ingreso con contraseña y roles al tablero jurídico",
+      "descripcion": "**Una vista de superadministración y vistas restringidas por correo**, _de modo que cada quien vea solo su parte._ *Más bloqueo de descargas y de capturas de pantalla, y cierre de sesión por inactividad.* **Es información interna y hoy está abierta a quien tenga el enlace.**",
+      "responsable": "Lilibeth Costa",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Terminar de depurar la pestaña de informe estratégico",
+      "descripcion": "**El agente ya entregó el listado de lo que está incompleto.** _Es la pestaña que se le muestra a la dirección._",
+      "responsable": "Jurídica",
+      "plazo": "Antes de la presentación"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Documentar los procesos del área antes del corte",
+      "descripcion": "**El plazo es el viernes por la tarde.** _El lunes y el martes se hace el corte para presentar los números,_ *y lo que no esté documentado no entra.*",
+      "responsable": "Jurídica",
+      "plazo": "Viernes 9 de octubre"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Integrar los tableros del frente de contratación en una sola vista",
+      "descripcion": "**Radar de contratación pública, convenios de práctica y convenios de medicina adscrita, en secciones de un mismo tablero.** _Es la condición para conectar después sin multiplicar el costo._",
+      "responsable": "Carlos Mario Gamarra",
+      "plazo": "Antes de la segunda fase"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Montar el agente que revisa las hojas de origen",
+      "descripcion": "**Que chequee inconsistencias y las señale antes de que lleguen al tablero.** _Aprobado en sesión._",
+      "responsable": "Lilibeth Costa",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Añadir navegación interna dentro de cada sección",
+      "descripcion": "**Hoy hay que desplazarse hasta encontrar el bloque.** _Un índice que lleve directo al ítem ahorra la búsqueda delante de la dirección._",
+      "responsable": "Lilibeth Costa",
+      "plazo": "Antes de la presentación"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El tablero jurídico, ya vivo",
+      "duracion": "~6 min",
+      "objetivo": "Revisar lo que el área construyó entre sesiones.",
+      "pasos": [
+        "**Una sola vista con ocho secciones:** _resumen, gestión contractual, contratación, asuntos legales, gestión laboral, procesos, organigrama del equipo jurídico e informe estratégico_",
+        "**Se alimenta en vivo desde hojas de cálculo**, una por coordinación, _y cada pestaña muestra cuándo se actualizó por última vez_",
+        "_Y hay un cambio de criterio que el área aplicó por su cuenta desde la sesión anterior:_ **conectó fuente por fuente y sacó solo la información que hace falta**, *en lugar de volcar toda la data.* **Era el problema que traía: había demasiado dato y poco significado**",
+        "**En procesos ya se sabe cuántos hay activos y cuáles son las pretensiones**, _con el análisis de recuperación de cartera_",
+        "_El propósito que el área le puso, y que conviene registrar:_ **que Jurídica deje de leerse como apoyo y se vea como generación de valor**, *lo que se recupera y lo que se evita en demandas*"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · De tablero a web app, con control de acceso",
+      "duracion": "~8 min",
+      "objetivo": "Resolver que información confidencial no quede abierta.",
+      "pasos": [
+        "_La pregunta que lo abrió todo:_ **si algo de lo que hay dentro va dirigido a los afiliados.** *La respuesta fue no: todo es interno y privado*",
+        "**De ahí la instrucción:** _convertir la vista en una aplicación con ingreso por contraseña,_ **una vista de superadministración y vistas restringidas asignadas por correo**",
+        "**Con el nivel de detalle de un software:** _una persona ve solo gestión contractual y asuntos legales, otra solo contratación,_ *cada quien lo suyo*",
+        "**Más tres medidas que se propusieron por el tipo de información:** _cierre de sesión por inactividad,_ **bloqueo de descargas** y *bloqueo de capturas de pantalla*",
+        "_Y una corrección de rumbo importante:_ **el área estaba pensando en crear otro tablero para lo operativo.** *No hace falta:* **se le suman vistas al mismo**, con permisos distintos",
+        "**Se añadió además una mejora de navegación:** _dentro de cada sección, un índice que lleve directo al ítem en lugar de desplazarse buscándolo_"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Los cuatro agentes del frente de contratación",
+      "duracion": "~12 min",
+      "objetivo": "Ver qué construyó el frente que llevaba tiempo sin sesión.",
+      "pasos": [
+        "**El radar de contratación pública es el más completo.** _Entra a la plataforma de contratación estatal y revisa lo que se publica, solo en el departamento del Cesar_",
+        "**Lo organiza por municipio** y muestra el plazo para presentar oferta, _el plazo para manifestar interés cuando lo hay_, **el objeto, el valor y el enlace directo al proceso**",
+        "_Y hace lo que lo convierte en herramienta y no en listado:_ **analiza si el proceso es atractivo para la Caja y lo clasifica en prioridad alta, media o baja**, *contrastándolo contra el registro de experiencia de la Caja para estimar la probabilidad de ganar*",
+        "**Envía un correo por la tarde con lo nuevo** y _avisa de los procesos que cierran en menos de tres días_",
+        "_Un hallazgo que encontró el propio agente y que el área aprovechó:_ **la fuente abierta de datos no se actualiza al instante, sino por la tarde.** *Se reprogramó para revisar durante el día y especialmente a esa hora*",
+        "**Corre solo en días hábiles**, sin fines de semana ni festivos",
+        "_Detalle que vale como regla general:_ **la plataforma pide credenciales y un agente no las escribe.** *Por eso el circuito se apoya en la fuente abierta,* **a cambio de unas horas de retraso**",
+        "**Los otros dos agentes trabajan sobre convenios:** _uno vigila el correo, detecta cuando llega un convenio de práctica firmado, extrae la información y alimenta el listado_, **que se comparte con quien hace el seguimiento**",
+        "**Detecta también las adiciones** y _avisa por correo cuando un convenio está a diez días de terminar_",
+        "**El cuarto hace lo mismo con los convenios de medicina adscrita**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Las reglas de uso, reforzadas",
+      "duracion": "~4 min",
+      "objetivo": "Dejar dicho cómo se usa esto cuando no hay sesión.",
+      "pasos": [
+        "**Agente o proyecto, y no es lo mismo:** _lo que es rutina, circuito o sistema de trabajo va en un agente._ *Lo que se hace una sola vez va en un proyecto*",
+        "**Un agente por especialidad.** _Llevar legal, contractual y prejurídico con el mismo acaba perdiendo el hilo_",
+        "**Todos los agentes entregan su tablero de reporte**, _de lo que hacen, no del tema._ *Es lo que permite ver qué hicieron cuando nadie miraba*",
+        "**Y el agente no escribe en el tablero:** _escribe en la hoja que lo alimenta,_ **y por eso el tablero está vivo**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · El primer intento de conectar dos tableros",
+      "duracion": "~13 min",
+      "objetivo": "Probar la hiperconectividad con un caso real del área.",
+      "pasos": [
+        "_La necesidad la puso el área y es buena:_ **una pestaña de alianzas estratégicas alimentada con los datos del radar de contratación**, *para medir cuántas licitaciones se presentan y cuántas se ganan, en dinero*",
+        "**Hoy el tablero muestra lo que ya se ganó; lo que falta es el camino hasta ahí**",
+        "**Se le pidió al agente conectar los dos tableros y preguntó lo correcto antes de tocar nada:** _acceso, el enlace, si necesita permiso de lectura o de edición, y en qué dirección van los datos_",
+        "**Entendió bien la respuesta:** _solo lectura del tablero de contratación, el tablero jurídico recibe, y no se toca el otro_",
+        "_Y entonces apareció el bloqueo real:_ **el tablero de contratación guarda sus datos en una base propia e interna, fuera de la organización**, *y el sistema bloqueó el acceso*",
+        "**El agente lo explicó en lugar de devolver una conexión que no existía**",
+        "_Una corrección de método en el camino:_ **al pedir una conexión hay que decir a qué tipo de tablero**, *porque la especificación cambia la respuesta*",
+        "_Y la conclusión honesta del área:_ **la información que hay hoy en el otro tablero todavía no le sirve.** *Lo que se llevó no fue la conexión: fue entender el camino*",
+        "**La regla que cierra el ejercicio:** _antes de comunicar tableros, el proceso tiene que estar cimentado dentro de cada uno,_ **y la vía de unión es un menú que los enlace**"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 13 · 8 octubre 2026",
+      "titulo": "El área dejó de acumular datos y empezó a elegirlos",
+      "descripcion": "**En la sesión anterior el problema del tablero era que tenía demasiada data y poco significado.** _El área conectó fuente por fuente y sacó solo lo que necesita,_ **y el resultado es una vista de ocho secciones que se lee.** *Y le puso un propósito que cambia cómo se mira el área entera:* **que Jurídica deje de leerse como apoyo y se vea como generación de valor,** _lo que recupera en cartera y lo que evita en demandas._",
+      "estado": "Construido y corriendo",
+      "proximo_paso": "Terminar de depurar el informe estratégico",
+      "target": "Antes de la presentación"
+    },
+    {
+      "encabezado": "★ EL FRENTE QUE TRABAJÓ SIN SESIONES",
+      "titulo": "Cuatro agentes construidos por cuenta propia",
+      "descripcion": "**El frente de contratación llevaba tiempo sin tomar sesiones y llegó con cuatro agentes corriendo.** _El radar de contratación pública no solo lista lo que se publica: clasifica cada proceso en prioridad alta, media o baja contrastándolo contra la experiencia registrada de la Caja._ **Y el propio agente descubrió que su fuente se actualiza por la tarde, así que se reprogramó para eso.** *Los otros vigilan convenios y avisan diez días antes de que venza uno.* _Nada de eso se enseñó en una sesión._",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Integrarlos en una sola vista",
+      "target": "Antes de la segunda fase"
+    },
+    {
+      "encabezado": "★ LA CONEXIÓN QUE NO SE PUDO HACER, Y POR QUÉ IMPORTA",
+      "titulo": "El intento falló y dejó la lección completa",
+      "descripcion": "**Se intentó conectar el tablero jurídico con el del frente de contratación, en vivo.** _El agente preguntó lo correcto antes de tocar nada y entendió bien la dirección de los datos._ **El bloqueo fue real: el otro tablero guarda sus datos en una base propia fuera de la organización.** *Y lo dijo, en lugar de devolver una conexión falsa.* _La lección quedó clara y ordena toda la segunda fase:_ **primero el proceso cimentado dentro de cada tablero, después la unión a través de un menú.**",
+      "estado": "Detectado en sesión",
+      "proximo_paso": "Cimentar cada tablero antes de conectar",
+      "target": "Segunda fase"
+    },
+    {
+      "encabezado": "★ LO QUE EL ÁREA PIDIÓ Y VALE MÁS QUE UN TABLERO",
+      "titulo": "Medir el camino, no solo el resultado",
+      "descripcion": "**La pestaña de alianzas estratégicas que el área propuso no mide los contratos ganados: eso ya está.** _Mide cuántas licitaciones hay que presentar para llegar ahí._ *Es un indicador de productividad del frente, no de suerte,* **y es el tipo de métrica que convierte un área de soporte en un área con cifras propias.** _No se pudo construir hoy porque los tableros no se conectan todavía, pero quedó definida._",
+      "estado": "Propuesto en sesión",
+      "proximo_paso": "Construirla cuando los dos tableros estén cimentados",
+      "target": "Segunda fase"
+    }
+  ],
+  "tareas_intro": "El área cierra la primera fase con el tablero jurídico vivo y cuatro agentes corriendo en contratación. Lo que queda es cerrarle el acceso a información que hoy está abierta, terminar de depurar lo que se va a presentar, y dejar cada tablero listo antes de intentar conectarlos.",
+  "tareas": [
+    {"tarea": "Poner ingreso con contraseña, roles por correo y bloqueo de descargas al tablero jurídico", "responsable": "Lilibeth Costa", "prioridad": "URGENTE", "plazo": "Inmediato"},
+    {"tarea": "Terminar de depurar la pestaña de informe estratégico", "responsable": "Jurídica", "prioridad": "ALTA", "plazo": "Antes de la presentación"},
+    {"tarea": "Documentar los procesos del área antes del corte", "responsable": "Jurídica", "prioridad": "ALTA", "plazo": "Viernes 9 de octubre"},
+    {"tarea": "Integrar los tableros del frente de contratación en una sola vista", "responsable": "Carlos Mario Gamarra", "prioridad": "MEDIA", "plazo": "Antes de la segunda fase"},
+    {"tarea": "Montar el agente que revisa inconsistencias en las hojas de origen", "responsable": "Lilibeth Costa", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Añadir navegación interna dentro de cada sección del tablero", "responsable": "Lilibeth Costa", "prioridad": "MEDIA", "plazo": "Antes de la presentación"},
+    {"tarea": "Enrutar los procesos atractivos al área de la Caja que corresponda", "responsable": "Carlos Mario Gamarra", "prioridad": "MEDIA", "plazo": "Segunda fase"},
+    {"tarea": "Acompañar a Renata Laino en lo que quedó montado de su frente", "responsable": "Lilibeth Costa", "prioridad": "MEDIA", "plazo": "Antes de la presentación"}
+  ],
+  "observaciones": [
+    "**Esta fue la última sesión de la primera fase para el área, y llega con las dos partes de Jurídica trabajando: el tablero del área y el frente de contratación.** _Son dos historias distintas y conviene leerlas por separado._",
+    "**El tablero jurídico ya está vivo y es una sola vista con ocho secciones:** _resumen, gestión contractual, contratación, asuntos legales, gestión laboral, procesos, organigrama del equipo e informe estratégico._ **Se alimenta en vivo desde hojas de cálculo, una por coordinación**, y cada pestaña dice cuándo se actualizó.",
+    "_Lo que cambió desde la sesión anterior no es el tamaño, es el criterio._ **El área venía con el problema de tener demasiada data y poco significado.** *Conectó fuente por fuente y extrajo solo lo que hace falta,* **y eso es lo que hace que ahora se lea.**",
+    "**En procesos ya se sabe cuántos hay activos y cuáles son las pretensiones**, _con el análisis de recuperación de cartera._ *Y el propósito que el área le puso vale registrarlo:* **que Jurídica deje de leerse como apoyo y se vea como generación de valor**, _lo que se recupera y lo que se evita en demandas._",
+    ":o: **Y aquí está el riesgo que hay que resolver antes que cualquier otra cosa.**",
+    "_La pregunta fue si algo de lo que hay dentro va dirigido a los afiliados._ **La respuesta: nada. Todo es información interna y privada.** *Y hoy ese tablero se abre sin contraseña, sin roles y sin restricción de descarga.* **Procesos, pretensiones, contratación y datos de cartera a la vista de quien tenga el enlace.**",
+    "**La instrucción quedó dada:** _convertir la vista en una aplicación con ingreso por contraseña, una vista de superadministración y vistas restringidas asignadas por correo,_ **con el detalle de un software:** una persona ve solo gestión contractual y asuntos legales, otra solo contratación. *Más cierre de sesión por inactividad, bloqueo de descargas y bloqueo de capturas de pantalla.*",
+    "_Y una corrección de rumbo que ahorra trabajo:_ **el área estaba pensando en crear otro tablero para lo operativo.** *No hace falta.* **Se le suman vistas al mismo, con permisos distintos**, y así todo queda en un sitio.",
+    "**La segunda parte de la sesión fue el frente de contratación, que llevaba tiempo sin tomar sesiones y llegó con cuatro agentes corriendo.**",
+    "**El radar de contratación pública es el más completo.** _Entra a la plataforma de contratación estatal, revisa lo publicado solo en el departamento del Cesar y lo organiza por municipio,_ **con el plazo para presentar oferta, el plazo para manifestar interés, el objeto, el valor y el enlace directo.**",
+    "_Y hace lo que lo convierte en herramienta y no en listado:_ **clasifica cada proceso en prioridad alta, media o baja, contrastándolo contra el registro de experiencia de la Caja** para estimar la probabilidad de ganarlo. *Envía un correo por la tarde con lo nuevo y avisa de lo que cierra en menos de tres días.*",
+    "_Un hallazgo que encontró el propio agente:_ **la fuente abierta de datos no se actualiza al instante sino por la tarde**, *así que el frente lo reprogramó para revisar durante el día y especialmente a esa hora.* **Corre solo en días hábiles.**",
+    "_Y un detalle que vale como regla general para todas las áreas:_ **la plataforma pide credenciales y un agente no las escribe.** *Por eso el circuito se apoya en la fuente abierta,* **a cambio de unas horas de retraso.** _Esa es la restricción y está bien asumida._",
+    "**Los otros dos agentes trabajan sobre convenios:** _vigilan el correo, detectan cuando llega uno firmado, extraen la información y alimentan el listado que se comparte con quien hace el seguimiento._ **Detectan también las adiciones y avisan por correo cuando un convenio está a diez días de terminar.** *Uno lleva convenios de práctica y el otro medicina adscrita.*",
+    "_El siguiente paso lo propuso el propio frente, no la mentoría:_ **que cuando el radar detecte un proceso altamente atractivo, identifique a qué área de la Caja corresponde y le envíe el resumen al responsable.**",
+    "**Se reforzaron tres reglas de uso que son las que sostienen el trabajo sin sesiones:** _lo que es rutina o circuito va en un agente y lo que se hace una sola vez va en un proyecto;_ **un agente por especialidad, porque uno que lleva legal, contractual y prejurídico a la vez acaba perdiendo el hilo;** *y todos los agentes entregan su tablero de reporte, de lo que hacen.*",
+    "_Con una precisión técnica que conviene no perder:_ **el agente no escribe en el tablero, escribe en la hoja que lo alimenta.** *Por eso el tablero está vivo.*",
+    ":o: **Y la última parte fue el primer intento real de conectar dos tableros, que es ya materia de la segunda fase.**",
+    "**La necesidad la puso el área y es buena:** _una pestaña de alianzas estratégicas alimentada con los datos del radar,_ **para medir cuántas licitaciones hay que presentar para llegar a las que se ganan.** *Hoy el tablero muestra el resultado; lo que falta es el camino.* _Es un indicador de productividad del frente, no de suerte._",
+    "**Se le pidió al agente conectar los dos y preguntó lo correcto antes de tocar nada:** _acceso, enlace, si necesita permiso de lectura o de edición, y en qué dirección van los datos._ **Entendió bien: solo lectura de un lado, el tablero jurídico recibe, y el otro no se toca.**",
+    "_Y entonces apareció el bloqueo real:_ **el tablero del frente de contratación guarda sus datos en una base propia e interna, fuera de la organización, y el sistema bloqueó el acceso.** *El agente lo explicó en lugar de devolver una conexión que no existía.*",
+    "**El área sacó además la conclusión honesta:** _la información que hay hoy en el otro tablero todavía no le sirve para el suyo._ *Lo que se llevó de este ejercicio no fue la conexión, fue entender el camino.*",
+    "_Y la regla que ordena toda la segunda fase quedó dicha aquí:_ **antes de comunicar tableros, el proceso tiene que estar cimentado dentro de cada uno**, *y la vía de unión es un menú que los enlace.* **Por eso la tarea inmediata del frente de contratación es integrar sus cuatro tableros en una sola vista:** _al conectar, es más barato y más firme apuntar a un repositorio que a cinco._",
+    "_Dos encargos de cierre:_ **documentar los procesos antes del viernes por la tarde**, *porque el lunes y el martes se hace el corte para presentar los números,* **y preparar con la mentoría la presentación a la dirección antes de la reunión.**",
+    "_Nota sobre las condiciones de la sesión:_ **hubo corte de energía en la ciudad y la facilitadora tuvo que trasladarse a otro sitio para conectarse.** *El audio se cortó varias veces y hubo que repetir.* **La sesión rindió completa**, pero conviene dejarlo escrito."
+  ],
+  "proxima_sesion": {
+    "sesion": "Jurídica, segunda fase",
+    "condiciones": [
+      "El tablero jurídico con ingreso por contraseña y roles por correo",
+      "La pestaña de informe estratégico depurada",
+      "Los tableros del frente de contratación integrados en una sola vista",
+      "Los procesos del área documentados antes del corte"
+    ],
+    "agenda": [
+      "La presentación a la dirección, preparada con la mentoría",
+      "La pestaña de alianzas estratégicas, con el indicador de productividad",
+      "La conexión entre los tableros del área, a través de menú",
+      "La conexión de los tableros con los sistemas de información"
+    ]
+  },
+  "pie": "IAM™ Intelligence · Documento Confidencial | Comfacesar | 8 octubre 2026 | Jurídica · Sesión 13"
+}
