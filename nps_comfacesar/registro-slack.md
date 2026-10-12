@@ -6,6 +6,106 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## lunes 12 de octubre de 2026 · 9:05 a. m. · La Sala de Control está 54 horas por debajo de lo que las áreas escribieron
+
+> **Lucía: esto responde a lo último de tu revisión del viernes**, donde dijiste que la Sala de
+> Control hay que recalcularla al corte de hoy antes de mandar un solo mensaje. **Tenías razón, y
+> el hueco es más grande de lo que parecía.** La cifra nueva no está publicada todavía: se la
+> pregunté a Sandra por encuesta, porque mueve una cifra que el director ya vio.
+
+**Leí tu revisión de las 88 actas y tu archivo de assessment.** De las dos cosas, lo que toca mi
+conteo: **nada.** Tu revisión no trae ninguna sesión que el Termómetro no tenga, así que **las 119
+sesiones, el 91% y las 26 caídas se sostienen tal cual**. Lo que sí cambia es la Sala de Control.
+
+### Primero, un dato que cambia tu propio archivo
+
+**Las cinco filas que apuntaste no están en el archivo de Drive.** Lo bajé hoy
+(`15MttClb8I_USqiJ537Ne_huySFnzF2Gg`, modificado el 9 de octubre a las 11:59 a. m.) y lo abrí hoja
+por hoja: **EDUCACION sigue en cero filas**, IPS sigue en una, Subsidio en cuatro y Jurídica en
+diecinueve. *Ninguna de tus cinco entró.* Es consistente con lo que tú misma escribiste — no puedes
+escribir dentro del archivo de Drive, y la vía que conserva el enlace la hace Sandra desde
+«Gestionar versiones». **Así que esa subida no se ha hecho.** Educación todavía no está en el
+archivo que las áreas y el director ven.
+
+### Lo que la Sala de Control no tiene
+
+La Sala de Control sostiene **35 tareas y 133,9 h/semana** con corte del 25 de septiembre. El
+archivo de Drive, hoy, tiene **51 tareas con frecuencia declarada por el área**, y eso solo da
+**178,8 h/semana**. **Son 17 filas que el tablero nunca vio**, y busqué en todo este registro si
+alguna se había dejado fuera a propósito: **ni una mención.** No es una decisión, es un hueco, y
+casi todo es de áreas que escribieron después del 25 de septiembre.
+
+| Área | Filas que faltan | Lo que más pesa |
+|---|---|---|
+| Comunicaciones | 5 | Creación de piezas gráficas, diaria, 120 → 90 · **150 min/sem** |
+| Agencia de Empleo | 4 | Recobros con el agente Matías, mensual, 1.200 → 600 · **138 min/sem** |
+| Subsidio | 4 (una en cuarentena) | Tablero de afiliaciones, diaria, 120 → 20 · **500 min/sem**, y Presentación al Consejo, mensual, 2.880 → 30 · **658 min/sem** |
+| Vivienda | 3 | Análisis de normas nuevas, diaria, 240 → 15 · **1.125 min/sem** |
+| Jurídica | 3 | Presentaciones de capacitación, Infograma, Informe de denuncias |
+| Contabilidad | 2 | Retención en la fuente, mensual, 120 → 30 |
+| Servicios Sociales | 2 | Actas de liquidación de patrocinios, 2.400 → 30 |
+| Sub. Admin y Financiera | 1 | Portal de Control Precontractual, mensual, 60 → 1 |
+
+**Lo de Subsidio es exactamente lo que señalaste:** el tablero no tenía nada suyo, y resulta que el
+área tiene cuatro filas escritas. **Dos de ellas valen 1.158 min/semana entre las dos**, más que
+Jurídica entera.
+
+### La fila duplicada de Subsidio se resuelve con la regla que ya tenía el tablero
+
+Las dos *Gestión correo* que marcaste, 60 → 15 y 1.440 → 180, las dos diarias: **la de 1.440 no
+entra a ninguna suma.** No es un criterio nuevo, es el que la Sala de Control ya aplica a sofIA y a
+matIA: **1.440 minutos son tres jornadas de ocho horas, y eso no se hace todos los días.** Queda en
+el bloque de cuarentena, a la vista y sin sumar, con las otras dos. *Si entrara literalmente, sola
+valdría 105 h/semana y se llevaría el tablero por delante.*
+
+### Y Educación entra al tablero por primera vez
+
+Tu fila del acta de la S4, **consolidado mensual de subsidios de la Ley 115, mensual, 120 → 10**,
+sí tiene las dos cifras y sí tiene frecuencia, así que entra: **25 min/semana.** Es poco, y es la
+primera vez que Educación aparece. Las otras cuatro tuyas no entran todavía y por qué:
+
+- **Educación · acciones de mejora por grado** y **IPS · conceptos de aptitud:** sin tiempos. La de
+  IPS sigue siendo, como dijiste, la fila más grande que tiene el programa sin poder entrar.
+- **Subsidio · cruce con la Registraduría**, 120 → 10: tiene tiempos, le falta la frecuencia. Va al
+  bloque de «falta la frecuencia» con las de Mercadeo, Subsidio y Agencia de Empleo.
+- **Jurídica · presentación institucional a entes de control**, 480 → 10, ocasional: entra al bloque
+  de frecuencia estimada, no al titular.
+
+### Las cifras nuevas, para que no las recalcules
+
+| | Antes | Al cierre |
+|---|---|---|
+| Tareas con frecuencia declarada | 35 | **53** |
+| Ahorro verificado | 8.031 min/sem · **133,9 h** | 11.267 min/sem · **187,8 h** |
+| Tareas ocasionales, frecuencia estimada por mí | 22 · 18,0 h | 29 · **24,9 h** |
+| Verificado más estimado | 151,9 h | **212,7 h** |
+| A tarifa de profesional, 12 meses | **$253,0 M** | **$355,0 M** |
+
+**Las tres tarifas, sobre las 187,8 h:** profesional $36.351/h → $6.826.098 por semana y **$355,0 M
+a doce meses**; gerente o jefe → $613,8 M; directivo → $936,8 M. **El tablero se sigue valorando
+todo a la de profesional**, la más baja, como está decidido desde el 25 de septiembre.
+
+### Lo que NO hice, y por qué
+
+**No publiqué nada.** El $253,0 M está en dos tableros públicos, la Sala de Control y los KPIs, y es
+la cifra que el director ya tiene. Subirla un 40% el día que salen los mensajes de cierre, y dejar
+los KPIs diciendo otra cosa, no es algo que yo deba decidir sola. **Se le preguntó a Sandra por
+encuesta y queda en espera.** Mientras no conteste:
+
+- **Lucía: no metas horas ni pesos en los mensajes de cierre.** Las 119 sesiones, el 91% y las 26
+  caídas sí están firmes y publicados, y con eso se puede cerrar sin tocar la cifra de
+  productividad.
+- La Sala de Control sigue en v13 con corte del 25 de septiembre y los KPIs en su versión actual.
+
+### Las dos cosas de tu revisión que no toqué
+
+**Las siete filas donde el acta y el archivo miden distinto**, y la duplicada de Subsidio: no las
+corregí, por lo mismo que dijiste tú — **Sandra pidió apuntar lo que falta, no corregir lo que las
+áreas registraron.** Quedan anotadas en tu documento y ahí se quedan hasta que el área confirme
+cuál cifra vale. **Lo único que hice con la duplicada fue no sumarla**, que no es corregirla.
+
+---
+
 ## viernes 9 de octubre de 2026 · 11:20 a. m. · EL PROGRAMA CERRÓ · relevo para Lucía
 
 > **Lucía: esto es para ti.** Sandra te pidió los mensajes de cierre. Aquí está todo verificado y
