@@ -6,6 +6,88 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## martes 13 de octubre de 2026 · 9:30 a. m. · La Sala de Control recalculada al cierre, lista pero sin publicar
+
+**Sandra contestó la encuesta con «me da igual»**, así que tomé la opción que había recomendado: recalcular. El
+archivo HTML está reconstruido, validado y subido a la rama. **Lo que falta es un clic suyo**, porque el servicio
+frenó la publicación.
+
+### Por qué no está publicada
+
+Al republicar, el clasificador del entorno devolvió **«Live-Shared Artifact Sensitive Delta»** y bloqueó la
+operación. La razón es razonable: **la Sala de Control está compartida con cualquiera que tenga el enlace, los
+lectores ven el cambio al instante, y la cifra en pesos se mueve un 40%.** No es un fallo del archivo ni de las
+cuentas: es una aprobación que le corresponde a ella. *Quedó dicho en el chat y el archivo está listo para
+publicarse tal cual.*
+
+### Las cifras nuevas, validadas contra la propia tabla
+
+| | Antes, corte 25 sep | Al cierre, corte 13 oct |
+|---|---|---|
+| Tareas con frecuencia declarada | 35 | **53** |
+| Ahorro verificado | 8.031 min/sem · **133,9 h** | 11.267 min/sem · **187,8 h** |
+| Ocasionales con frecuencia estimada | 22 · 18,0 h | 29 · **24,9 h** |
+| Verificado más estimado | 57 tareas · 151,9 h | 82 tareas · **212,7 h** |
+| Semana a tarifa de profesional | $4.865.581 | **$6.826.112** |
+| Doce meses, profesional | **$253,0 M** | **$355,0 M** |
+| Doce meses, gerente o jefe | $437,5 M | **$613,8 M** |
+| Doce meses, directivo | $667,8 M | **$936,8 M** |
+| Áreas con al menos una medición | 14 en la dona, 15 en la tarjeta | **15 de 21**, ya sin contradecirse |
+
+**El validador recomputa la tabla fila por fila y la suma cuadra con el titular**, que era la regla que falló el 7 de
+octubre. También comprueba balance de etiquetas, que no haya 🔴, y que no sobreviva ninguna cifra vieja fuera de
+la nota de corrección.
+
+### Lo que cambió por área
+
+| Área | Antes | Al cierre | Qué entró |
+|---|---|---|---|
+| Sub. Admin y Financiera | 45,5 h | **45,7 h** | el Portal de Control Precontractual |
+| **Vivienda** | 17,6 h | **38,4 h** | tres filas, y la que pesa es el análisis de normas nuevas, diaria 240 → 15 |
+| Jurídica | 23,1 h | **23,6 h** | presentaciones de capacitación y el informe de denuncias |
+| **Subsidio** | *ninguna* | **23,0 h** | presentación al Consejo, tablero de afiliaciones y gestión de correo |
+| IPS | 22,8 h | 22,8 h | sin cambio |
+| **Comunicaciones** | 9,5 h | **13,7 h** | cinco filas, entre ellas creación de piezas gráficas, diaria |
+| Servicios Sociales | 10,0 h | **10,9 h** | el informe de gestión del tercer trimestre |
+| **Agencia de Empleo** | 0,8 h | **4,4 h** | cuatro filas, con los recobros del agente Matías |
+| Contabilidad | 2,0 h | **2,4 h** | retención en la fuente |
+| Sub. Operativa | 2,4 h | 2,4 h | sin cambio |
+| **Educación** | *ninguna* | **0,4 h** | el consolidado de la Ley 115, del acta de su S4, que trajo Lucía |
+| Cumplimiento | 0,1 h | 0,1 h | sin cambio |
+
+### Tres decisiones de método, todas con precedente del propio tablero
+
+1. **La segunda «Gestión de correo» de Subsidio, 1.440 minutos diarios, no suma.** Son tres jornadas de ocho horas
+   al día. Entra al bloque de cuarentena con sofIA y matIA, que ya estaban ahí por lo mismo. *Si entrara literal,
+   sola valdría 105 horas por semana.* Las tres juntas darían 264,2 h/sem.
+2. **Las siete filas nuevas marcadas «Ocasional» no entran al titular.** Van al bloque de frecuencia estimada, que
+   se presenta aparte y lleva la marca «est.» fila por fila. **El titular de 187,8 h descansa solo en frecuencias que
+   declararon las áreas.**
+3. **La fila de Vivienda de 240 minutos diarios sí entra, y se dice.** Cuatro horas al día caben en una jornada, así
+   que no es imposible como las de cuarentena, pero es el dato que más convendría confirmar. Se trató igual que la
+   prevalidación precontractual de Rafael: *se deja dentro y se señala, en vez de sacarla en silencio.*
+
+### Y de paso se corrigieron cosas que venían mal de antes
+
+- **El tablero todavía decía «el cierre es el lunes 5 de octubre»** en cuatro pasajes. Nunca se corrigió el 7 de
+  octubre con los otros cuatro tableros. **Ya dice viernes 9.**
+- **La dona decía 14 de 21 y la tarjeta 15 de 21.** Ahora las dos dicen quince, que es lo que da la cuenta.
+- **La columna «Al viernes 2 oct» y la tarjeta «Al cierre, calculado al viernes 2»** eran andamio de un cierre que ya
+  pasó. Se quitaron: la proyección arranca en el cierre del viernes 9.
+- **La nota de Agencia de Empleo decía que era «el mayor margen por capturar»** con una sola línea de agosto. Ya no:
+  tiene cinco filas y 4,4 horas.
+
+### Lo que NO se tocó
+
+**Los KPIs siguen diciendo $253,0 M.** No los toqué porque la Sala de Control tampoco se publicó: mientras la una
+esté bloqueada, mover la otra dejaría dos tableros públicos contradiciéndose, que es peor que uno desactualizado.
+**En cuanto Sandra apruebe la publicación de la Sala de Control, los KPIs van detrás con la misma cifra.**
+
+**Y las siete filas donde el acta y el archivo miden distinto siguen sin corregir**, igual que ayer, porque eso lo
+confirma el área y no el tablero.
+
+---
+
 ## lunes 12 de octubre de 2026 · 9:05 a. m. · La Sala de Control está 54 horas por debajo de lo que las áreas escribieron
 
 > **Lucía: esto responde a lo último de tu revisión del viernes**, donde dijiste que la Sala de
