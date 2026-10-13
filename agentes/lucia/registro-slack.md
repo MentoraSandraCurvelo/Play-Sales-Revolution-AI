@@ -1907,3 +1907,57 @@ lo que importa es que la sesión estaba agendada y no se hizo.
 
 _Con esta, Agencia de Empleo pasa de cero a una caída en todo el proyecto._ **Sigue siendo de
 las áreas más limpias del conteo.**
+
+## 13 de octubre · Revisión de Slack al cierre y los tableros actualizados
+
+> **Elia: llegó la respuesta de tu encuesta del 12.** Sandra dijo, con estas palabras,
+> *«ya vamos a cerrar todos los tableros del proyecto, actualízalo por favor»*. Eso es el
+> permiso que estabas esperando para subir la cifra. Lo que hice con él está abajo.
+
+**Revisé los veinte canales activos desde el 9 de octubre. No hay nada nuevo del cliente.**
+El último mensaje de un área es el de Lina María Rincón del viernes 9 a las 9:21 a. m.,
+despidiéndose. Después de eso solo hay publicaciones nuestras: el circuito de Subsidio S11
+salió el sábado 10 a las 8:00 a. m. y nada más. **Cuatro días de silencio en los veinte
+canales.**
+
+**Lo único que se movió en todo el proyecto fue el archivo de Drive, y para nada.** El 9 de
+octubre a las 11:59 a. m. alguien de Comunicaciones insertó cuatro filas vacías debajo de su
+tabla, justo lo que hace falta para cargar los cuatro ejercicios que su acta de la S12 pide.
+**Las dejó vacías.** Ninguna de las áreas cargó un solo ejercicio en cuatro días, y las actas
+de la última semana se lo piden a Comunicaciones, Agencia de Empleo, Educación, Subsidio,
+Jurídica e IPS.
+
+### El archivo de assessment quedó cerrado
+
+**Volví a aplicar las cinco filas sobre la versión del 9 de octubre** y añadí lo que faltaba:
+
+- **Vivienda y Comunicaciones tenían cada una una tarea escrita fuera del rango del resumen.**
+  La novena de Vivienda, 120 a 15 semanal, y la novena de Comunicaciones, 180 a 30 mensual.
+  *Datos suyos que no contaban para nada.* Se amplió el rango y ya suman.
+- Jurídica tenía la tabla llena, así que se liberó la banda vacía de la fila 30.
+
+**El archivo cierra en 88 tareas y 724,4 horas**, que son 90,5 jornadas de ocho horas. Venía
+de 81 tareas y 708,6 horas. *Sigue sin subir a Drive: eso lo hace Sandra desde «Gestionar
+versiones».*
+
+### La Sala de Control, recalculada y sin publicar
+
+**Rehíce el tablero al cierre y llegué a tu misma cifra: 187,8 horas por semana y $355,0
+millones a doce meses.** Partí del archivo por mi cuenta, sin mirar tu tabla, y coincidimos
+hasta el decimal. Está en `tableros-cierre/`, con el generador y los datos, para que no haya
+que recalcularlo nunca más a mano.
+
+**No se publicó.** El intento quedó frenado porque el tablero está compartido en vivo y el
+cambio mueve una cifra de dinero que el director ya vio. *Es exactamente la cautela que tú
+tuviste el 12, así que las dos llegamos al mismo sitio por caminos distintos.* **Queda
+esperando el visto bueno explícito de Sandra sobre el tablero ya armado, que es distinto de
+su «actualízalo» general.**
+
+**Cuando lo dé, los dos tableros públicos se publican juntos**, la Sala de Control y los
+KPIs. Uno diciendo $253 y el otro $355 es peor que no tocar ninguno.
+
+### Lo que sigue sin poder entrar
+
+**La fila de IPS.** Dos meses a cinco minutos, el acta de su S2 pide registrarla, y sigue sin
+minutos porque nadie ha dicho si esos dos meses son de calendario o de trabajo efectivo.
+Sandra se lo pidió a Danilo por el canal el 9 de octubre y no hay respuesta.

@@ -1,0 +1,658 @@
+{
+ "firmes": [
+  {
+   "area": "Sub. Admin y Financiera",
+   "tarea": "Pre Validacion precontractual",
+   "frec": "Diaria",
+   "antes": 480.0,
+   "hoy": 30.0,
+   "sem_min": 2250.0
+  },
+  {
+   "area": "IPS",
+   "tarea": "Alimentación del Sistema de gestión de SST con Comfacesar IPS, conceptos de aptitud para seguimientos y demas actividades del sistema",
+   "frec": "Mensual",
+   "antes": 6400.0,
+   "hoy": 480.0,
+   "sem_min": 1366.164355110424
+  },
+  {
+   "area": "Vivienda",
+   "tarea": "Analisis a nuevas normas y actualizaciones de las mismas en el Sector Vivienda",
+   "frec": "Diaria",
+   "antes": 240.0,
+   "hoy": 15.0,
+   "sem_min": 1125.0
+  },
+  {
+   "area": "Subsidio",
+   "tarea": "PRESENTACION CONSEJO",
+   "frec": "Mensual",
+   "antes": 2880.0,
+   "hoy": 30.0,
+   "sem_min": 657.6973669028223
+  },
+  {
+   "area": "Subsidio",
+   "tarea": "TABLERO DE AFILIACIONES",
+   "frec": "Diaria",
+   "antes": 120.0,
+   "hoy": 20.0,
+   "sem_min": 500.0
+  },
+  {
+   "area": "Jurídica",
+   "tarea": "Tablero Teresa",
+   "frec": "Quincenal",
+   "antes": 960.0,
+   "hoy": 20.0,
+   "sem_min": 470.0
+  },
+  {
+   "area": "Comunicaciones",
+   "tarea": "Producción de pieza gráfica para canales internos",
+   "frec": "Semanal",
+   "antes": 480.0,
+   "hoy": 25.0,
+   "sem_min": 455.0
+  },
+  {
+   "area": "Servicios Sociales",
+   "tarea": "Informe de Seguimiento No 12 CCF015-05-00033 \"Proyecto Ampliación Cobertura - Segunda Etapa Centro Recreacional Buenavista - Pueblo Bello\"",
+   "frec": "Mensual",
+   "antes": 1440.0,
+   "hoy": 45.0,
+   "sem_min": 321.9255532734867
+  },
+  {
+   "area": "Servicios Sociales",
+   "tarea": "Informe de Seguimiento No 4 CCF015-05-00046 \"Proyecto Construccion De Cubierta Para Cancha Sintetica Complejo Deportivo\"",
+   "frec": "Mensual",
+   "antes": 1440.0,
+   "hoy": 240.0,
+   "sem_min": 276.9252071169778
+  },
+  {
+   "area": "Jurídica",
+   "tarea": "Seguimiento Asistentes Juridicos",
+   "frec": "Diaria",
+   "antes": 60.0,
+   "hoy": 5.0,
+   "sem_min": 275.0
+  },
+  {
+   "area": "Sub. Admin y Financiera",
+   "tarea": "Automatizacion de correo cuyo asunto: requeriminetos para aprobacion y asigancion de ODR",
+   "frec": "Diaria",
+   "antes": 60.0,
+   "hoy": 10.0,
+   "sem_min": 250.0
+  },
+  {
+   "area": "Subsidio",
+   "tarea": "GESTION CORREO",
+   "frec": "Diaria",
+   "antes": 60.0,
+   "hoy": 15.0,
+   "sem_min": 225.0
+  },
+  {
+   "area": "Vivienda",
+   "tarea": "Seguimiento y reporte a Quejas, DP, tutela, Comunicaciones internas",
+   "frec": "Diaria",
+   "antes": 60.0,
+   "hoy": 15.0,
+   "sem_min": 225.0
+  },
+  {
+   "area": "Vivienda",
+   "tarea": "Planeador Activides Generales Area",
+   "frec": "Diaria",
+   "antes": 60.0,
+   "hoy": 15.0,
+   "sem_min": 225.0
+  },
+  {
+   "area": "Jurídica",
+   "tarea": "Informe Sireci Mensual - Contraloria",
+   "frec": "Mensual",
+   "antes": 960.0,
+   "hoy": 10.0,
+   "sem_min": 219.2324556342741
+  },
+  {
+   "area": "Comunicaciones",
+   "tarea": "Creación de piezas gráficas",
+   "frec": "Diaria",
+   "antes": 120.0,
+   "hoy": 90.0,
+   "sem_min": 150.0
+  },
+  {
+   "area": "Agencia de Empleo",
+   "tarea": "Proceso de recobros, creación agente Matías",
+   "frec": "Mensual",
+   "antes": 1200.0,
+   "hoy": 600.0,
+   "sem_min": 138.4626035584889
+  },
+  {
+   "area": "Sub. Admin y Financiera",
+   "tarea": "Se implementó la automatización para la elaboración de los formatos de Órdenes de Compra y Servicios.",
+   "frec": "Diaria",
+   "antes": 30.0,
+   "hoy": 3.0,
+   "sem_min": 135.0
+  },
+  {
+   "area": "Jurídica",
+   "tarea": "Revisión Minutas Contractuales",
+   "frec": "Diaria",
+   "antes": 30.0,
+   "hoy": 5.0,
+   "sem_min": 125.0
+  },
+  {
+   "area": "Comunicaciones",
+   "tarea": "Actas y compromisos - Comité de tráfico",
+   "frec": "Semanal",
+   "antes": 120.0,
+   "hoy": 5.0,
+   "sem_min": 115.0
+  },
+  {
+   "area": "Jurídica",
+   "tarea": "Informe Comite Juridico",
+   "frec": "Mensual",
+   "antes": 480.0,
+   "hoy": 10.0,
+   "sem_min": 108.46237278748298
+  },
+  {
+   "area": "Vivienda",
+   "tarea": "Presentacion de Gestion General a Nivel Gerencial",
+   "frec": "Semanal",
+   "antes": 120.0,
+   "hoy": 15.0,
+   "sem_min": 105.0
+  },
+  {
+   "area": "Sub. Operativa",
+   "tarea": "Seguimiendo Indicadores",
+   "frec": "Mensual",
+   "antes": 480.0,
+   "hoy": 40.0,
+   "sem_min": 101.53924260955853
+  },
+  {
+   "area": "Jurídica",
+   "tarea": "Revisión RequisitosLegales Contratación",
+   "frec": "Diaria",
+   "antes": 20.0,
+   "hoy": 4.0,
+   "sem_min": 80.0
+  },
+  {
+   "area": "Jurídica",
+   "tarea": "Informe Alta Gerencia",
+   "frec": "Trimestral",
+   "antes": 960.0,
+   "hoy": 10.0,
+   "sem_min": 73.07692307692308
+  },
+  {
+   "area": "Comunicaciones",
+   "tarea": "Seguimiento solicitudes de diseño",
+   "frec": "Diaria",
+   "antes": 15.0,
+   "hoy": 1.0,
+   "sem_min": 70.0
+  },
+  {
+   "area": "Contabilidad",
+   "tarea": "Conciliaciones bancarias",
+   "frec": "Mensual",
+   "antes": 480.0,
+   "hoy": 180.0,
+   "sem_min": 69.23130177924445
+  },
+  {
+   "area": "Sub. Admin y Financiera",
+   "tarea": "Automatización del correo de solicitud de asignación de origen de recursos a la Gerencia Financiera, con revisión y adjunto de los documentos soporte como control del proceso y registro automático de la información en la matriz de seguimiento precontractual. Esta mejora facilita la trazabilidad y reduce los tiempos de gestión.",
+   "frec": "Diaria",
+   "antes": 15.0,
+   "hoy": 3.0,
+   "sem_min": 60.0
+  },
+  {
+   "area": "Contabilidad",
+   "tarea": "Reporte de viáticos",
+   "frec": "Mensual",
+   "antes": 240.0,
+   "hoy": 10.0,
+   "sem_min": 53.077331364087414
+  },
+  {
+   "area": "Servicios Sociales",
+   "tarea": "Informe De Gestion Tercer Trimestre Gerencia De Serv Sociales 2026",
+   "frec": "Trimestral",
+   "antes": 720.0,
+   "hoy": 30.0,
+   "sem_min": 53.07692307692308
+  },
+  {
+   "area": "Agencia de Empleo",
+   "tarea": "Proceso de intermediación laboral validación de hojas de vida",
+   "frec": "Diaria",
+   "antes": 32.0,
+   "hoy": 22.0,
+   "sem_min": 50.0
+  },
+  {
+   "area": "Agencia de Empleo",
+   "tarea": "Laboratorio de Empleo, ampliación de los resultados a empresarios",
+   "frec": "Diaria",
+   "antes": 25.0,
+   "hoy": 15.0,
+   "sem_min": 50.0
+  },
+  {
+   "area": "Vivienda",
+   "tarea": "Seguimiento a ejecución técnica y jurídica Mejoramiento Rural",
+   "frec": "Semanal",
+   "antes": 60.0,
+   "hoy": 15.0,
+   "sem_min": 45.0
+  },
+  {
+   "area": "Sub. Operativa",
+   "tarea": "Revisión de Costeos",
+   "frec": "Diaria",
+   "antes": 10.0,
+   "hoy": 2.0,
+   "sem_min": 40.0
+  },
+  {
+   "area": "Sub. Admin y Financiera",
+   "tarea": "Automatización de textos de notificación del proceso precontractual.",
+   "frec": "Diaria",
+   "antes": 10.0,
+   "hoy": 3.0,
+   "sem_min": 35.0
+  },
+  {
+   "area": "Comunicaciones",
+   "tarea": "Informe mensual de producción gráfica",
+   "frec": "Mensual",
+   "antes": 180.0,
+   "hoy": 30.0,
+   "sem_min": 34.61565088962222
+  },
+  {
+   "area": "Agencia de Empleo",
+   "tarea": "Tablero de indicadores de Agencia de Empleo para Grupo Primario",
+   "frec": "Mensual",
+   "antes": 180.0,
+   "hoy": 60.0,
+   "sem_min": 27.69252071169778
+  },
+  {
+   "area": "Educación",
+   "tarea": "Consolidado mensual de subsidios de la Ley 115",
+   "frec": "Mensual",
+   "antes": 120.0,
+   "hoy": 10.0,
+   "sem_min": 25.384810652389632
+  },
+  {
+   "area": "Vivienda",
+   "tarea": "seguimiento y notificación a vencimiento del SFV",
+   "frec": "Quincenal",
+   "antes": 60.0,
+   "hoy": 15.0,
+   "sem_min": 22.5
+  },
+  {
+   "area": "Contabilidad",
+   "tarea": "Reporte de retención en la fuente",
+   "frec": "Mensual",
+   "antes": 120.0,
+   "hoy": 30.0,
+   "sem_min": 20.769390533773336
+  },
+  {
+   "area": "Jurídica",
+   "tarea": "Presentaciones de capacitacion",
+   "frec": "Mensual",
+   "antes": 90.0,
+   "hoy": 5.0,
+   "sem_min": 19.61553550411926
+  },
+  {
+   "area": "Vivienda",
+   "tarea": "Ejecución ficha Tecnica Urbano",
+   "frec": "Mensual",
+   "antes": 70.0,
+   "hoy": 10.0,
+   "sem_min": 13.84626035584889
+  },
+  {
+   "area": "Vivienda",
+   "tarea": "Ejecución Ficha Técnica Rural",
+   "frec": "Mensual",
+   "antes": 70.0,
+   "hoy": 10.0,
+   "sem_min": 13.84626035584889
+  },
+  {
+   "area": "Vivienda",
+   "tarea": "Data de informe de Gestion trimestral",
+   "frec": "Mensual",
+   "antes": 90.0,
+   "hoy": 30.0,
+   "sem_min": 13.84626035584889
+  },
+  {
+   "area": "Sub. Admin y Financiera",
+   "tarea": "Implementación el Portal de Control Precontractual (Dashboard)",
+   "frec": "Mensual",
+   "antes": 60.0,
+   "hoy": 1.0,
+   "sem_min": 13.615489349918075
+  },
+  {
+   "area": "Jurídica",
+   "tarea": "Revisión de Solicitudes de elaboracion de convenios de prácticas para los estudiantes de INSTECOM",
+   "frec": "Quincenal",
+   "antes": 30.0,
+   "hoy": 4.0,
+   "sem_min": 13.0
+  },
+  {
+   "area": "Jurídica",
+   "tarea": "Revisión de contratos de bienestar con entidades públicas.",
+   "frec": "Mensual",
+   "antes": 45.0,
+   "hoy": 10.0,
+   "sem_min": 8.07698520757852
+  },
+  {
+   "area": "Cumplimiento",
+   "tarea": "Seguimiento de los POAs en la perspectiva de eficiencia",
+   "frec": "Mensual",
+   "antes": 32.0,
+   "hoy": 0.0,
+   "sem_min": 7.384672189786075
+  },
+  {
+   "area": "Jurídica",
+   "tarea": "Revisión preliminar de convenios de prácticas con universidades a nivel nacional.",
+   "frec": "Mensual",
+   "antes": 30.0,
+   "hoy": 5.0,
+   "sem_min": 5.7692751482703715
+  },
+  {
+   "area": "Jurídica",
+   "tarea": "Revisión de solicitudes de elaboración de convenios de descuentos.",
+   "frec": "Mensual",
+   "antes": 30.0,
+   "hoy": 5.0,
+   "sem_min": 5.7692751482703715
+  },
+  {
+   "area": "Jurídica",
+   "tarea": "Informe denuncias Programa de Transparencia y Ética Empresarial",
+   "frec": "Mensual",
+   "antes": 30.0,
+   "hoy": 5.0,
+   "sem_min": 5.7692751482703715
+  },
+  {
+   "area": "Jurídica",
+   "tarea": "Revisión de solicitudes de elaboración de convenios de marcos y sus anexos.",
+   "frec": "Mensual",
+   "antes": 30.0,
+   "hoy": 10.0,
+   "sem_min": 4.615420118616297
+  }
+ ],
+ "ocasionales": [
+  {
+   "area": "Comunicaciones",
+   "tarea": "Encuestas de percepción de valores y canales internos.",
+   "frec": "Ocasional",
+   "antes": 120.0,
+   "hoy": 30.0
+  },
+  {
+   "area": "Comunicaciones",
+   "tarea": "Estructuración de campaña de comunicación interna SST",
+   "frec": "Ocasional",
+   "antes": 720.0,
+   "hoy": 180.0
+  },
+  {
+   "area": "Comunicaciones",
+   "tarea": "Reestructuración campaña promoción de servicios Sácale Provecho a tu Caja",
+   "frec": "Ocasional",
+   "antes": 1440.0,
+   "hoy": 300.0
+  },
+  {
+   "area": "Comunicaciones",
+   "tarea": "Auditoría del uso del logo COMFACESAR en piezas de terceros",
+   "frec": "Ocasional",
+   "antes": 60.0,
+   "hoy": 10.0
+  },
+  {
+   "area": "Agencia de Empleo",
+   "tarea": "Creación de informe con los indicadores de la Agencia de Empleo",
+   "frec": "Ocasional",
+   "antes": 300.0,
+   "hoy": 30.0
+  },
+  {
+   "area": "Talento Humano",
+   "tarea": "GENERACION AUTOMATICAS DE ACTAS DE CONTRATOS",
+   "frec": "Ocasional",
+   "antes": 20.0,
+   "hoy": 3.0
+  },
+  {
+   "area": "Contabilidad",
+   "tarea": "Calendario de obligaciones tributarias",
+   "frec": "Ocasional",
+   "antes": 60.0,
+   "hoy": 5.0
+  },
+  {
+   "area": "Jurídica",
+   "tarea": "Revisión de formatos de inscripción de proveedores.",
+   "frec": "Ocasional",
+   "antes": 15.0,
+   "hoy": 3.0
+  },
+  {
+   "area": "Jurídica",
+   "tarea": "Consolidación trimestral del informe de sostenibilidad.",
+   "frec": "Ocasional",
+   "antes": 30.0,
+   "hoy": 8.0
+  },
+  {
+   "area": "Jurídica",
+   "tarea": "Infograma",
+   "frec": "Ocasional",
+   "antes": 90.0,
+   "hoy": 5.0
+  },
+  {
+   "area": "Jurídica",
+   "tarea": "Presentación institucional de informes a entes de control",
+   "frec": "Ocasional",
+   "antes": 480.0,
+   "hoy": 10.0
+  },
+  {
+   "area": "Sub. Operativa",
+   "tarea": "Informes Empresariales",
+   "frec": "Ocasional",
+   "antes": 240.0,
+   "hoy": 30.0
+  },
+  {
+   "area": "Sub. Operativa",
+   "tarea": "Documento Especifico POA",
+   "frec": "Ocasional",
+   "antes": 960.0,
+   "hoy": 10.0
+  },
+  {
+   "area": "Tecnología",
+   "tarea": "Revisión de las propuestas de TI y SI para realizar las Solicitudes de elaboracion de contratos.",
+   "frec": "Ocasional",
+   "antes": 30.0,
+   "hoy": 3.0
+  },
+  {
+   "area": "Tecnología",
+   "tarea": "Diligenciar el formato de soliictud de contrato o de orden de compra o de servicios.",
+   "frec": "Ocasional",
+   "antes": 20.0,
+   "hoy": 5.0
+  },
+  {
+   "area": "Tecnología",
+   "tarea": "Realizar alertas para notificar los tiempos en que se termina la videncia de un contrato o una orden de servicio o de compra",
+   "frec": "Ocasional",
+   "antes": 20.0,
+   "hoy": 5.0
+  },
+  {
+   "area": "Tecnología",
+   "tarea": "realizar analisis de ejecucion de los contratos y de las ordenes de compra y servicio",
+   "frec": "Ocasional",
+   "antes": 30.0,
+   "hoy": 5.0
+  },
+  {
+   "area": "Tecnología",
+   "tarea": "revisar los correos que llegan de parte del gerente de tecnologia solicitando la elaboracion de solicitud de contratos y oredenes, dandole pronta respuestas para continuar con los tramites pertinentes para su elaboracion.",
+   "frec": "Ocasional",
+   "antes": 30.0,
+   "hoy": 2.0
+  },
+  {
+   "area": "Subsidio",
+   "tarea": "Cruce con la Registraduría: filtrado por causal y anotaciones",
+   "frec": "Por confirmar",
+   "antes": 120.0,
+   "hoy": 10.0
+  },
+  {
+   "area": "Servicios Sociales",
+   "tarea": "Presentación resultado MMI Consejo Directivo",
+   "frec": "Ocasional",
+   "antes": 960.0,
+   "hoy": 240.0
+  },
+  {
+   "area": "Servicios Sociales",
+   "tarea": "Respuesta a anotacion 06 Auditoria Interna",
+   "frec": "Ocasional",
+   "antes": 3840.0,
+   "hoy": 240.0
+  },
+  {
+   "area": "Servicios Sociales",
+   "tarea": "Elaboracion de Actas de Contratos",
+   "frec": "Ocasional",
+   "antes": 120.0,
+   "hoy": 30.0
+  },
+  {
+   "area": "Servicios Sociales",
+   "tarea": "Revision de Actas de Contratos",
+   "frec": "Ocasional",
+   "antes": 480.0,
+   "hoy": 30.0
+  },
+  {
+   "area": "Servicios Sociales",
+   "tarea": "Informe de Sostenibilidad C.C. Crispin Villazon de Armas",
+   "frec": "Ocasional",
+   "antes": 480.0,
+   "hoy": 60.0
+  },
+  {
+   "area": "Servicios Sociales",
+   "tarea": "Acta de Cierre-FP-06 CCF015-05-00039 C.R. La Pedregosa",
+   "frec": "Ocasional",
+   "antes": 720.0,
+   "hoy": 60.0
+  },
+  {
+   "area": "Servicios Sociales",
+   "tarea": "Diligenciamiento del formato FP-03 para el Proyecto CCF015-05-00039 C.R. La Pedregosa",
+   "frec": "Ocasional",
+   "antes": 240.0,
+   "hoy": 60.0
+  },
+  {
+   "area": "Servicios Sociales",
+   "tarea": "Diligenciamiento del formato FP-03 para el Proyecto CCF015-05-00046 Cubierta Cancha Sintetica",
+   "frec": "Ocasional",
+   "antes": 240.0,
+   "hoy": 30.0
+  },
+  {
+   "area": "Servicios Sociales",
+   "tarea": "Analisis Comparativo C.C.T. Vs Propuesta Admon",
+   "frec": "Ocasional",
+   "antes": 7200.0,
+   "hoy": 45.0
+  },
+  {
+   "area": "Servicios Sociales",
+   "tarea": "Respuesta a Recomendacion No 11 Visita Ordinaria SuperSubsidio 2026",
+   "frec": "Ocasional",
+   "antes": 480.0,
+   "hoy": 30.0
+  },
+  {
+   "area": "Servicios Sociales",
+   "tarea": "Elaboracion de Actas de Liquidacion de Contratos de Patrocinio MMI 2026",
+   "frec": "Ocasional",
+   "antes": 2400.0,
+   "hoy": 30.0
+  }
+ ],
+ "cuarentena": [
+  {
+   "area": "Jurídica",
+   "tarea": "Creacion de agente IA sofIA",
+   "frec": "Diaria",
+   "antes": 960.0,
+   "hoy": 5.0,
+   "si_diaria": 79.58333333333333
+  },
+  {
+   "area": "Jurídica",
+   "tarea": "Creación de agente IA matIA",
+   "frec": "Diaria",
+   "antes": 960.0,
+   "hoy": 5.0,
+   "si_diaria": 79.58333333333333
+  },
+  {
+   "area": "Subsidio",
+   "tarea": "GESTION CORREO",
+   "frec": "Diaria",
+   "antes": 1440.0,
+   "hoy": 180.0,
+   "si_diaria": 105.0
+  }
+ ]
+}
