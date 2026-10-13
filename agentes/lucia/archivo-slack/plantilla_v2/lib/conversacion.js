@@ -46,8 +46,13 @@
         if (claves[i].indexOf('__reactFiber$') !== 0 && claves[i].indexOf('__reactInternalInstance$') !== 0) continue;
         var f = el[claves[i]];
         while (f) {
+            /* La plataforma envuelve el componente: el stateNode de la fibra es
+             un contenedor y lo nuestro cuelga de `.logic`. Se miran los dos,
+             porque el envoltorio puede cambiar y el componente suelto también
+             es válido. */
           var sn = f.stateNode;
-          if (sn && typeof sn.setState === 'function' && sn.msgCache && sn.by) return (_inst = sn);
+          var cand = (sn && sn.logic && typeof sn.logic.setState === 'function') ? sn.logic : sn;
+          if (cand && typeof cand.setState === 'function' && cand.msgCache && cand.by) return (_inst = cand);
           f = f.return;
         }
       }
@@ -241,6 +246,10 @@
             var vivos = crudos.map(function (m) {
               var p = ps && ps[m.uid];
               return {
+                /* `canal` tiene que viajar: `mezclar` agrupa por él, y sin él
+                   todos los mensajes caían en el grupo `undefined` y ningún
+                   canal recibía ninguno. Se guardaban bien y no se veían. */
+                canal: m.canal,
                 ts: m.ts, fecha: m.fecha, hora: m.hora,
                 autor: (p && p.name) || 'Alguien',
                 correo: '', uid: m.uid, texto: m.texto,
