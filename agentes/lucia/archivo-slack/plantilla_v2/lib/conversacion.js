@@ -30,6 +30,13 @@
      quien mire el código. */
   var COL = 'mensajes';
   var COL_CERRADA = 'privado';
+  /* Los canales que se crean desde dentro viven en `db`, no en la página. Van
+     en dos colecciones y no en una con un campo `cerrado`, porque un canal
+     cerrado no se tiene que poder ni nombrar: si la lista fuera una sola y
+     legible por todos, cualquiera vería que existe un canal llamado Dirección
+     aunque no pudiera leerlo. */
+  var COL_CANALES = 'canales';
+  var COL_CANALES_CERRADOS = 'canales_cerrados';
   var LIMITE = 4000;
 
   function esCerrado(canal) {
@@ -82,9 +89,32 @@
     var inst = instancia();
     if (!inst) return false;
     inst.puedeEditar = puedeEditar;
+    /* El componente guarda su propio índice de canales, hecho al construirse.
+       Un canal creado después no está ahí, y al abrirlo la vista se cae
+       buscando un canal que para ella no existe. Se rehace en cada repintado. */
+    var A = window.ARCHIVO;
+    if (A && A.canales && inst.by) {
+      A.canales.forEach(function (c) { inst.by[c.canal] = c; });
+    }
     inst.msgCache = {};
     try { inst.setState({}); } catch (e) { return false; }
     return true;
+  }
+
+  /* Un canal recién creado tiene que traer todo lo que la vista lee, o la
+     pantalla se cae al abrirlo. Es la misma forma que arma el constructor de
+     clientes nuevos, escrita aquí para el que nace en caliente. */
+  function canalNuevo(d, cerrado) {
+    return {
+      canal: String(d.canal || ''),
+      id: String(d.id || d.canal || ''),
+      nombre: String(d.nombre || d.canal || ''),
+      icono: String(d.icono || ''),
+      cerrado: !!cerrado,
+      mensajes: [], conteo: 0, conteo_total: 0,
+      desde: '', hasta: '', adjuntos: 0,
+      actas: [], fijados: [], grabaciones: [], informes: [], pulso: []
+    };
   }
 
   /* ---- mezcla ------------------------------------------------------------
@@ -98,13 +128,29 @@
     (A.canales || []).forEach(function (c) { base[c.canal] = c.mensajes.slice(); });
   }
 
+  /* Los canales de `db` se rehacen enteros en cada aviso, como los mensajes.
+     Los de la página no se tocan nunca. */
+  var baseCanales = null;
+  function mezclarCanales(A, vivos) {
+    if (!baseCanales) baseCanales = (A.canales || []).slice();
+    var yaEsta = {};
+    baseCanales.forEach(function (c) { yaEsta[c.canal] = true; });
+    var suma = baseCanales.slice();
+    vivos.forEach(function (c) {
+      if (yaEsta[c.canal]) return;   /* uno de la página manda sobre uno de db */
+      yaEsta[c.canal] = true;
+      suma.push(c);
+    });
+    A.canales = suma;
+  }
+
   function mezclar(A, vivos) {
     guardarBase(A);
     var porCanal = {};
     vivos.forEach(function (m) { (porCanal[m.canal] = porCanal[m.canal] || []).push(m); });
     (A.canales || []).forEach(function (c) {
       var nuevos = porCanal[c.canal] || [];
-      var todos = base[c.canal].concat(nuevos);
+      var todos = (base[c.canal] || []).concat(nuevos);
       todos.sort(function (a, b) { return parseFloat(a.ts) - parseFloat(b.ts); });
       c.mensajes = todos;
       c.conteo = todos.filter(function (m) { return !m.sistema; }).length;
@@ -198,6 +244,111 @@
     setInterval(revisar, 400);
   }
 
+  /* ---- crear un canal, desde dentro --------------------------------------
+     Un botón fijo y un panel pequeño, que solo aparecen para quien puede
+     editar. Se dibujan a mano y no dentro del componente: la barra lateral la
+     pinta la plantilla, que es la misma para todos los clientes, y meterle
+     mano por aquí la rompería para los que no llevan esto. */
+  var BOTON_NUEVO = 'position:fixed;left:16px;bottom:116px;z-index:36;display:none;'
+    + 'align-items:center;gap:8px;padding:9px 14px;border-radius:999px;border:0;'
+    + 'background:#C00000;color:#fff;font:620 13px Geist,system-ui,sans-serif;'
+    + 'cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.35)';
+  var PANEL = 'position:fixed;left:16px;bottom:116px;z-index:37;display:none;width:280px;'
+    + 'padding:14px;border-radius:16px;background:var(--card2,#17171a);'
+    + 'border:1px solid var(--line2,rgba(255,255,255,.14));'
+    + 'box-shadow:0 12px 40px rgba(0,0,0,.5);font:500 13px Geist,system-ui,sans-serif;'
+    + 'color:var(--ink,#f2f2f3)';
+  var CAMPO_N = 'width:100%;margin-top:6px;padding:9px 11px;border-radius:10px;'
+    + 'background:var(--bg,#09090b);border:1px solid var(--line2,rgba(255,255,255,.14));'
+    + 'color:var(--ink,#f2f2f3);font:500 13.5px Geist,system-ui,sans-serif;outline:0';
+  var ETIQ = 'display:block;margin-top:10px;font:600 11px Geist,system-ui,sans-serif;'
+    + 'letter-spacing:.06em;text-transform:uppercase;color:var(--ink3,#8a8a92)';
+
+  function montarCanales(crear) {
+    var boton = document.createElement('button');
+    boton.type = 'button';
+    boton.textContent = '+  Nuevo canal';
+    boton.style.cssText = BOTON_NUEVO;
+
+    var panel = document.createElement('div');
+    panel.style.cssText = PANEL;
+    var lNom = document.createElement('label'); lNom.style.cssText = ETIQ; lNom.textContent = 'Nombre del canal';
+    var nom = document.createElement('input'); nom.type = 'text'; nom.style.cssText = CAMPO_N; nom.maxLength = 60;
+    var lIco = document.createElement('label'); lIco.style.cssText = ETIQ; lIco.textContent = 'Icono';
+    var ico = document.createElement('input'); ico.type = 'text'; ico.style.cssText = CAMPO_N; ico.maxLength = 4;
+    ico.placeholder = 'un emoji, o nada para #';
+
+    var fila = document.createElement('label');
+    fila.style.cssText = 'display:flex;align-items:center;gap:8px;margin-top:12px;cursor:pointer';
+    var cerr = document.createElement('input'); cerr.type = 'checkbox';
+    cerr.style.cssText = 'width:16px;height:16px;accent-color:#C00000';
+    var txtCerr = document.createElement('span');
+    txtCerr.innerHTML = 'Canal cerrado \u{1F512}';
+    fila.appendChild(cerr); fila.appendChild(txtCerr);
+
+    var aviso = document.createElement('div');
+    aviso.style.cssText = 'margin-top:8px;font:500 11.5px Geist,system-ui,sans-serif;color:var(--ink3,#8a8a92);line-height:1.45';
+    aviso.textContent = 'Un canal cerrado solo lo ven y lo escriben quienes pueden editar este espacio.';
+
+    var pie = document.createElement('div');
+    pie.style.cssText = 'display:flex;gap:8px;margin-top:14px';
+    var crearBtn = document.createElement('button');
+    crearBtn.type = 'button'; crearBtn.textContent = 'Crear';
+    crearBtn.style.cssText = 'flex:1;height:36px;border-radius:10px;border:0;background:#C00000;'
+      + 'color:#fff;font:620 13px Geist,system-ui,sans-serif;cursor:pointer;text-align:center';
+    var cancelar = document.createElement('button');
+    cancelar.type = 'button'; cancelar.textContent = 'Cancelar';
+    cancelar.style.cssText = 'flex:none;height:36px;padding:0 12px;border-radius:10px;'
+      + 'border:1px solid var(--line2,rgba(255,255,255,.14));background:transparent;'
+      + 'color:var(--ink3,#8a8a92);font:600 13px Geist,system-ui,sans-serif;cursor:pointer';
+    pie.appendChild(crearBtn); pie.appendChild(cancelar);
+
+    var nota = document.createElement('div');
+    nota.style.cssText = 'margin-top:8px;font:500 11.5px Geist,system-ui,sans-serif;color:var(--ink3,#8a8a92)';
+
+    [lNom, nom, lIco, ico, fila, aviso, pie, nota].forEach(function (e) { panel.appendChild(e); });
+    document.body.appendChild(boton);
+    document.body.appendChild(panel);
+
+    function abrir(si) {
+      panel.style.display = si ? 'block' : 'none';
+      boton.style.display = si ? 'none' : (puedeEditar ? 'inline-flex' : 'none');
+      if (si) { nota.textContent = ''; nom.focus(); }
+    }
+    boton.addEventListener('click', function () { abrir(true); });
+    cancelar.addEventListener('click', function () { abrir(false); });
+
+    var creando = false;
+    function hacer() {
+      var n = nom.value.trim();
+      if (!n || creando) { if (!n) nota.textContent = 'Ponle un nombre.'; return; }
+      creando = true; crearBtn.disabled = true; nota.textContent = 'Creando\u2026';
+      crear(n, ico.value, cerr.checked).then(function () {
+        nom.value = ''; ico.value = ''; cerr.checked = false;
+        creando = false; crearBtn.disabled = false;
+        abrir(false);
+      })['catch'](function (err) {
+        creando = false; crearBtn.disabled = false;
+        var c = err && err.code;
+        nota.textContent =
+          c === 'ya_existe' ? 'Ya hay un canal con ese nombre.' :
+          c === 'nombre_vacio' ? 'Ese nombre no deja ningún texto utilizable.' :
+          (c === 'permission_denied' || c === 'not_granted')
+            ? 'No tienes permiso para crear canales aquí.'
+            : 'No se pudo crear. Vuelve a intentarlo.';
+      });
+    }
+    crearBtn.addEventListener('click', hacer);
+    nom.addEventListener('keydown', function (ev) { if (ev.key === 'Enter') hacer(); });
+
+    /* El botón aparece cuando se sabe que quien mira puede editar, y eso llega
+       más tarde que el primer pintado. */
+    setInterval(function () {
+      if (panel.style.display === 'block') return;
+      boton.style.display = puedeEditar ? 'inline-flex' : 'none';
+    }, 500);
+  }
+
   /* ---- arranque ---------------------------------------------------------- */
   function arrancar() {
     if (typeof window === 'undefined' || !window.claude || typeof window.claude.use !== 'function') return;
@@ -237,6 +388,53 @@
 
         if (document.body) montar(enviar);
         else document.addEventListener('DOMContentLoaded', function () { montar(enviar); });
+
+        /* ---- los canales, creados desde dentro -----------------------------
+           Dos suscripciones, una por colección. La de los cerrados le devuelve
+           vacío a quien no es editor, así que no hace falta preguntar nada: la
+           lista que llega ya es la que esa persona puede ver. */
+        var canalesVivos = {};
+
+        function alLlegarCanales(cual, cerrado) {
+          return function (snap) {
+            var A = window.ARCHIVO;
+            if (!A || !A.canales) return;
+            canalesVivos[cual] = snap.docs.map(function (d) {
+              return canalNuevo(d.data() || {}, cerrado);
+            }).filter(function (c) { return !!c.canal; });
+            var todos = [];
+            for (var k in canalesVivos) { if (canalesVivos[k]) todos = todos.concat(canalesVivos[k]); }
+            mezclarCanales(A, todos);
+            repintar();
+          };
+        }
+
+        [[COL_CANALES, false], [COL_CANALES_CERRADOS, true]].forEach(function (par) {
+          db.collection(par[0]).orderBy('creado').onSnapshot(
+            alLlegarCanales(par[0], par[1]),
+            function () { /* el reintento lo hace la propia suscripción */ });
+        });
+
+        function crearCanal(nombre, icono, cerrado) {
+          var slug = String(nombre).toLowerCase()
+            .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+            .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+          if (!slug) return Promise.reject({ code: 'nombre_vacio' });
+          var hay = (window.ARCHIVO && window.ARCHIVO.canales || []).some(function (c) {
+            return c.canal === slug;
+          });
+          if (hay) return Promise.reject({ code: 'ya_existe' });
+          return db.collection(cerrado ? COL_CANALES_CERRADOS : COL_CANALES).add({
+            canal: slug,
+            nombre: String(nombre).trim(),
+            icono: String(icono || '').trim(),
+            id: slug.toUpperCase(),
+            creado: new Date().toISOString()
+          });
+        }
+
+        if (document.body) montarCanales(crearCanal);
+        else document.addEventListener('DOMContentLoaded', function () { montarCanales(crearCanal); });
 
         /* Una suscripción por colección, fuera del pintado. Cada una guarda
            lo suyo y en cada aviso se rehace la lista entera: así un mensaje no
