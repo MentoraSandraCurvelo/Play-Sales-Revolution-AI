@@ -28,7 +28,16 @@
           "fecha": "2026-10-05",
           "acta": false
         }
-      ]
+      ],
+      "icono": "💬"
+    },
+    {
+      "canal": "direccion",
+      "nombre": "Dirección",
+      "id": "NOVA-DIRECCION",
+      "cerrado": true,
+      "fijados": [],
+      "grabaciones": []
     }
   ],
   "generales": [],

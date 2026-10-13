@@ -110,7 +110,7 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
       <div style="display:flex;flex-direction:column;gap:1px">
         <sc-for list="{{ chans }}" as="ch" hint-placeholder-count="10">
           <button onClick="{{ ch.go }}" style="display:flex;align-items:center;gap:10px;padding:7px 10px;border-radius:10px;background:{{ ch.bg }};color:{{ ch.color }};font-size:13.5px;transition:background .2s" style-hover="background:var(--card2);color:var(--ink)">
-            <span style="color:{{ ch.hash }};font-weight:600;width:12px">#</span>
+            <span style="color:{{ ch.hash }};font-weight:600;width:14px;text-align:center">{{ ch.ic }}</span>
             <span style="flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ ch.nombre }}</span>
             <svg width="40" height="14" viewBox="0 0 40 14" style="flex:none;overflow:visible"><polyline points="{{ ch.spark }}" fill="none" stroke="#C00000" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" opacity=".85"></polyline></svg>
             <span style="font:500 10.5px Geist Mono,monospace;color:var(--ink3);width:22px;text-align:right">{{ ch.n }}</span>
@@ -333,7 +333,7 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
       <div style="position:absolute;right:40px;top:30px;width:120px;height:120px;border-radius:50%;border:14px solid rgba(255,59,48,.5);box-shadow:0 0 60px rgba(255,40,40,.4)"></div>
       <div style="position:relative">
         <div style="font:500 11px Geist Mono,monospace;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.6)">Canal privado · IAM™ Intelligence</div>
-        <h1 style="margin:10px 0 0;font-size:clamp(34px,5vw,58px);line-height:1;font-weight:700;letter-spacing:-.045em"><span style="color:#FF3B30">#</span>{{ c.nombre }}</h1>
+        <h1 style="margin:10px 0 0;font-size:clamp(34px,5vw,58px);line-height:1;font-weight:700;letter-spacing:-.045em"><span style="color:#FF3B30">{{ c.ic }}</span>{{ c.nombre }}</h1>
         <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:18px">
           <sc-for list="{{ c.stats }}" as="s" hint-placeholder-count="4">
             <span style="padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);font-size:12.5px;color:rgba(255,255,255,.8)"><b style="color:#fff;font-weight:650">{{ s.v }}</b> {{ s.l }}</span>
@@ -1012,8 +1012,8 @@ class Component extends DCLogic {
     const sel = on => on ? { bg:'var(--redsoft)', color:'var(--ink)' } : { bg:'transparent', color:'var(--ink2)' };
     base.nav = [['portada','⌂','Resumen',''],['actas','◷','Actas',T.actas],['grabaciones','▶','Grabaciones',A.n_grabaciones],['asistencia','◉','Asistencia',A.asistencia.length],['personas','◍','Personas',T.gente],['archivos','◰','Archivos',T.arch]]
       .map(([tipo,ic,label,n]) => ({ ic, label, n, ...sel(v.tipo === tipo), go:() => this.ir({ tipo, canal:null, acta:null, persona:null }) }));
-    base.chans = A.canales.map(c => { const on = v.tipo === 'canal' && v.canal === c.canal; return { nombre:c.nombre, n:c.conteo, ...sel(on), hash: on ? 'var(--redt)' : 'var(--ink3)', spark:this.spark(c.pulso, 40, 14).pts, go:() => this.ir({ tipo:'canal', canal:c.canal, pestana:'mensajes', acta:null }) }; });
-    base.nCanales = A.canales.length; base.totalMsg = I.miles(T.msg); base.totActas = T.actas;
+    base.chans = A.canales.filter(c => !c.cerrado || this.puedeEditar).map(c => { const on = v.tipo === 'canal' && v.canal === c.canal; return { nombre:c.nombre, n:c.conteo, ic:(c.cerrado ? '\u{1F512}' : (c.icono || '#')), ...sel(on), hash: on ? 'var(--redt)' : 'var(--ink3)', spark:this.spark(c.pulso, 40, 14).pts, go:() => this.ir({ tipo:'canal', canal:c.canal, pestana:'mensajes', acta:null }) }; });
+    base.nCanales = base.chans.length; base.totalMsg = I.miles(T.msg); base.totActas = T.actas;
 
     if (s.pal){
       const hits = this.buscar(s.q.trim()); this._hits = hits; let g = null;
@@ -1062,7 +1062,7 @@ class Component extends DCLogic {
       const arch = []; for (const m of c.mensajes) for (const a of m.adjuntos) arch.push({ ...this.arch(a.tipo), nombre:a.nombre, sub:a.peso+' · '+a.tipo, fecha:I.fechaCorta(m.fecha), _f:m.fecha });
       arch.sort((x,y) => y._f.localeCompare(x._f));
       const acta = v.acta ? c.actas.find(x => x.archivo === v.acta) : null;
-      base.c = { nombre:c.nombre, canal:c.canal, tabs,
+      base.c = { nombre:c.nombre, canal:c.canal, tabs, ic:(c.cerrado ? '\u{1F512}' : (c.icono || '#')),
         stats:[{ v:c.conteo, l:'mensajes' },{ v:c.actas.length, l:'actas' },{ v:c.adjuntos, l:'archivos' },{ v:I.fechaCorta(c.desde)+' – '+I.fechaCorta(c.hasta), l:'' }],
         tabMsg: !v.acta && v.pestana === 'mensajes', tabActas: !v.acta && v.pestana === 'actas', showActa: !!acta, tabGrab: !v.acta && v.pestana === 'grabaciones', tabFij: !v.acta && v.pestana === 'fijados', tabArch: !v.acta && v.pestana === 'archivos',
         days: (!v.acta && v.pestana === 'mensajes') ? this.mensajes(c, v.sistema) : [],

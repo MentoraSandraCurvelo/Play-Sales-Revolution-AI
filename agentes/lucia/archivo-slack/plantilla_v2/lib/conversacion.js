@@ -22,8 +22,24 @@
 (function () {
   'use strict';
 
+  /* Dos colecciones, y la diferencia es de permisos, no de pantalla.
+     `mensajes` la lee cualquiera que pueda abrir el espacio. `privado` solo la
+     leen y escriben los editores, por la regla que se declara al publicar:
+     privado read admin, write admin. Un canal cerrado no trae nada dentro de la
+     página: todo lo suyo vive en `privado`, porque lo que va en la página lo ve
+     quien mire el código. */
   var COL = 'mensajes';
+  var COL_CERRADA = 'privado';
   var LIMITE = 4000;
+
+  function esCerrado(canal) {
+    var A = window.ARCHIVO;
+    if (!A || !A.canales) return false;
+    for (var i = 0; i < A.canales.length; i++) {
+      if (A.canales[i].canal === canal) return !!A.canales[i].cerrado;
+    }
+    return false;
+  }
 
   function dos(n) { return (n < 10 ? '0' : '') + n; }
   function fechaDe(d) { return d.getFullYear() + '-' + dos(d.getMonth() + 1) + '-' + dos(d.getDate()); }
@@ -35,6 +51,7 @@
      versión de React y esto deja de encontrarlo, no se rompe nada: los
      mensajes siguen guardándose y aparecen la próxima vez que se abra. */
   var _inst = null;
+  var puedeEditar = false;   /* se aplica en cada repintado, ver repintar() */
   function instancia() {
     if (_inst) return _inst;
     if (typeof document === 'undefined' || !document.body) return null;
@@ -64,6 +81,7 @@
   function repintar() {
     var inst = instancia();
     if (!inst) return false;
+    inst.puedeEditar = puedeEditar;
     inst.msgCache = {};
     try { inst.setState({}); } catch (e) { return false; }
     return true;
@@ -192,11 +210,21 @@
       var pendiente = Promise.resolve();
       if (user) { pendiente = user.id().then(function (id) { yo = id; })['catch'](function () {}); }
 
+      /* La vista esconde los canales cerrados mientras no conste que quien mira
+         puede editar. Se falla cerrado a propósito: si esto no responde, de más
+         está no enseñarlos. El permiso de verdad no es este, es la regla de la
+         colección: aunque alguien forzara la vista, `privado` no le devuelve
+         nada. */
+      if (user && typeof user.canEdit === 'function') {
+        Promise.resolve(user.canEdit())['catch'](function () { return false; })
+          .then(function (puede) { puedeEditar = !!puede; repintar(); });
+      }
+
       pendiente.then(function () {
         /* Guarda. Se escribe el identificador, nunca el nombre. */
         function enviar(canal, texto) {
           var ahora = new Date();
-          return db.collection(COL).add({
+          return db.collection(esCerrado(canal) ? COL_CERRADA : COL).add({
             canal: canal,
             uid: yo || 'anon',
             texto: texto,
@@ -210,56 +238,75 @@
         if (document.body) montar(enviar);
         else document.addEventListener('DOMContentLoaded', function () { montar(enviar); });
 
-        /* Una suscripción, fuera del pintado. */
-        db.collection(COL).orderBy('ts').onSnapshot(function (snap) {
-          var A = window.ARCHIVO;
-          if (!A || !A.canales) return;
+        /* Una suscripción por colección, fuera del pintado. Cada una guarda
+           lo suyo y en cada aviso se rehace la lista entera: así un mensaje no
+           se duplica ni se queda pegado cuando alguien lo borra.
 
-          var crudos = [];
-          snap.docs.forEach(function (d) {
-            var o = d.data(); if (!o) return;
-            /* La primera versión del espacio de Novasoft guardaba el
-               identificador en `autor` y la marca de tiempo en milisegundos.
-               No quedó ningún mensaje de entonces, pero si alguien tiene esa
-               página abierta todavía, lo que escriba se lee igual. */
-            var ts = parseFloat(o.ts) || 0;
-            if (ts > 1e12) ts = ts / 1000;
-            crudos.push({
-              id: d.id,
-              canal: String(o.canal || (A.canales[0] && A.canales[0].canal) || ''),
-              uid: String(o.uid || o.autor || 'anon'),
-              texto: String(o.texto || ''),
-              fecha: String(o.fecha || fechaDe(new Date(ts * 1000))),
-              hora: String(o.hora || horaDe(new Date(ts * 1000))),
-              ts: String(ts)
+           La colección cerrada se suscribe igual para todos. A quien no es
+           editor el servidor le devuelve vacío, que es justo lo que tiene que
+           pasar, y la página no necesita saber de permisos para comportarse
+           bien. */
+        var guardados = {};
+
+        function alLlegar(cual) {
+          return function (snap) {
+            var A = window.ARCHIVO;
+            if (!A || !A.canales) return;
+
+            var crudos = [];
+            snap.docs.forEach(function (d) {
+              var o = d.data(); if (!o) return;
+              /* La primera versión del espacio de Novasoft guardaba el
+                 identificador en `autor` y la marca de tiempo en milisegundos.
+                 No quedó ningún mensaje de entonces, pero si alguien tiene esa
+                 página abierta todavía, lo que escriba se lee igual. */
+              var ts = parseFloat(o.ts) || 0;
+              if (ts > 1e12) ts = ts / 1000;
+              crudos.push({
+                id: d.id,
+                canal: String(o.canal || (A.canales[0] && A.canales[0].canal) || ''),
+                uid: String(o.uid || o.autor || 'anon'),
+                texto: String(o.texto || ''),
+                fecha: String(o.fecha || fechaDe(new Date(ts * 1000))),
+                hora: String(o.hora || horaDe(new Date(ts * 1000))),
+                ts: String(ts)
+              });
             });
-          });
 
-          var ids = [];
-          crudos.forEach(function (m) { if (m.uid && ids.indexOf(m.uid) < 0) ids.push(m.uid); });
+            var ids = [];
+            crudos.forEach(function (m) { if (m.uid && ids.indexOf(m.uid) < 0) ids.push(m.uid); });
 
-          var nombres = user && user.profiles && ids.length
-            ? user.profiles(ids)['catch'](function () { return {}; })
-            : Promise.resolve({});
+            var nombres = user && user.profiles && ids.length
+              ? user.profiles(ids)['catch'](function () { return {}; })
+              : Promise.resolve({});
 
-          nombres.then(function (ps) {
-            var vivos = crudos.map(function (m) {
-              var p = ps && ps[m.uid];
-              return {
-                /* `canal` tiene que viajar: `mezclar` agrupa por él, y sin él
-                   todos los mensajes caían en el grupo `undefined` y ningún
-                   canal recibía ninguno. Se guardaban bien y no se veían. */
-                canal: m.canal,
-                ts: m.ts, fecha: m.fecha, hora: m.hora,
-                autor: (p && p.name) || 'Alguien',
-                correo: '', uid: m.uid, texto: m.texto,
-                adjuntos: [], hilo: null, reacciones: [], sistema: false
-              };
+            nombres.then(function (ps) {
+              guardados[cual] = crudos.map(function (m) {
+                var p = ps && ps[m.uid];
+                return {
+                  /* `canal` tiene que viajar: `mezclar` agrupa por él, y sin él
+                     todos los mensajes caían en el grupo `undefined` y ningún
+                     canal recibía ninguno. Se guardaban bien y no se veían. */
+                  canal: m.canal,
+                  ts: m.ts, fecha: m.fecha, hora: m.hora,
+                  autor: (p && p.name) || 'Alguien',
+                  correo: '', uid: m.uid, texto: m.texto,
+                  adjuntos: [], hilo: null, reacciones: [], sistema: false
+                };
+              });
+              var todos = [];
+              for (var k in guardados) { if (guardados[k]) todos = todos.concat(guardados[k]); }
+              mezclar(A, todos);
+              repintar();
             });
-            mezclar(A, vivos);
-            repintar();
-          });
-        }, function () { /* el reintento lo hace la propia suscripción */ });
+          };
+        }
+
+        [COL, COL_CERRADA].forEach(function (cual) {
+          db.collection(cual).orderBy('ts').onSnapshot(
+            alLlegar(cual),
+            function () { /* el reintento lo hace la propia suscripción */ });
+        });
       });
     })['catch'](function () { /* sin capacidades: la app sigue siendo el archivo */ });
   }

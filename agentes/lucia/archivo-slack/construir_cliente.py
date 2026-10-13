@@ -46,6 +46,13 @@ def canal_vacio(spec):
         'canal': spec['canal'],
         'id': spec.get('id', spec['canal']),
         'nombre': spec.get('nombre', spec['canal']),
+        # El icono es adorno y se elige por canal. `cerrado` no es adorno: la
+        # vista no lista el canal a quien no edita, y sus mensajes van a la
+        # colección `privado`, que el servidor solo abre a los editores. Por eso
+        # un canal cerrado nace vacío aquí: lo que se mete en la página lo lee
+        # cualquiera que mire el código.
+        'icono': spec.get('icono', ''),
+        'cerrado': bool(spec.get('cerrado')),
         'mensajes': [],
         'conteo': 0,
         'conteo_total': 0,
