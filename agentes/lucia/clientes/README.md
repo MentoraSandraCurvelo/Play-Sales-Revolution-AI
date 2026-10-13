@@ -47,6 +47,51 @@ colores. `color` existe en el archivo para una excepción, pero se deja vacío.
 | `fuente_datos` | De dónde sale el contenido al construir |
 | `notas` | Lo que hay que saber antes de tocarlo |
 
+## Abrir el espacio cerrado de un cliente
+
+**El espacio cerrado es la app entera, no el canal.** Dentro de una app, quien puede abrirla
+ve todos sus canales: no hay forma de esconderle uno. Así que un cliente nuevo es una app
+nueva, y ese es el aislamiento de verdad.
+
+**Sandra no lo monta, lo pide.** Son tres pasos y los hace Lucía:
+
+1. Un archivo `clientes/<slug>.json` con el nombre, el programa, el logo, su color de fondo
+   y los canales que lleve. Lo que distingue a un cliente del siguiente es ese archivo, no la
+   plantilla.
+2. `python3 construir_cliente.py <slug>` arma el paquete de datos, con todo en cero para un
+   espacio que arranca.
+3. `python3 publicar.py --cliente <slug>` arma la página, y Lucía la publica como artefacto.
+
+**Al publicarla hay que declararle dos capacidades**, o la conversación no funciona y no avisa:
+
+    capabilities: {"db": {"rules": [{"path": "mensajes", "read": "view", "write": "interact"}]},
+                   "user": {"scopes": ["profile"]}}
+
+La regla dice quién escribe: **leer, cualquiera que tenga acceso; escribir, de colaborador
+hacia arriba.** Y `scopes: ["profile"]` es lo que hace que salga el nombre de quien escribe en
+vez de «Alguien».
+
+## Invitar a la gente del cliente
+
+**Esto sí lo hace Sandra, y solo ella**, porque es la dueña. Desde la propia app, en el menú
+de compartir, persona por persona y con su correo.
+
+| Lo que quieres | Qué nivel le das |
+|---|---|
+| Que lea el archivo y las actas, y no escriba | **Lector** |
+| Que lea y escriba en los canales | **Colaborador** |
+| Que además pueda tocar la app | **Editor**, y eso casi nunca hace falta |
+
+**Compartir por enlace abierto no da permiso de escribir.** Quien entra así puede leer, pero
+para escribir tiene que estar invitado por su correo como colaborador. Es la diferencia entre
+mirar y participar, y se decide al invitar.
+
+**Y la persona necesita cuenta.** Sin sesión iniciada ve el archivo pero no le aparece el
+campo para escribir. _No es un error de la app: es que no sabe quién es._
+
+**Una app, una lista de invitados.** Nadie de un cliente está en la lista de otro, y por eso
+no hay manera de que vean lo ajeno ni por error.
+
 ## Lo que falta
 
 - **Los logos de los clientes que vengan.** Los de Comfacesar y Novasoft ya están.
