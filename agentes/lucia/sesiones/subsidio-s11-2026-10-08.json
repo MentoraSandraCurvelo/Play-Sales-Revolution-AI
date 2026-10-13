@@ -1,0 +1,254 @@
+{
+  "proyecto": "Comfacesar",
+  "anio": "2026",
+  "area": "SUBSIDIO Y APORTES",
+  "area_completa": "",
+  "sesion_num": 11,
+  "fase": "Agentes y Circuitos Completos",
+  "fecha": "8 de octubre de 2026",
+  "fecha_corta": "8 octubre 2026",
+  "subtitulo_meta": "Cindy Rodríguez · 8 de octubre de 2026 · 9:57 a. m. · 48 minutos · Última sesión de la primera fase",
+  "datos_sesion": [
+    ["Área(s)", "Subsidio y Aportes, Comfacesar"],
+    ["Sesión", "N° 11. El módulo de quejas y peticiones, convertido en web app"],
+    ["Fecha", "8 de octubre de 2026"],
+    ["Duración de la sesión", "48 minutos"],
+    ["Modalidad", "Virtual, por Microsoft Teams"],
+    ["Asistencia", "Cindy Rodríguez, completa"],
+    ["Grabación", "Publicada en el canal del área"],
+    ["Facilitadora", "Sandra Curvelo, Mentora IAM™ Intelligence"]
+  ],
+  "kpis": [
+    {"valor": "8", "etiqueta": "Radicados encontrados en el correo", "detalle": "En la primera búsqueda, sin salir de la sesión"},
+    {"valor": "15", "etiqueta": "Peticiones en la hoja de seguimiento", "detalle": "Varias con los días ya vencidos"},
+    {"valor": "1.000", "etiqueta": "Respuestas propias cargadas al agente", "detalle": "El área lo entrenó sola, entre sesiones"},
+    {"valor": "2", "etiqueta": "Vistas de la web app", "detalle": "Funcionario y afiliado, cada una con su ingreso"},
+    {"valor": "1", "etiqueta": "Vista que no se pudo probar", "detalle": "La de funcionario no apareció"}
+  ],
+  "participantes": [
+    {"nombre": "Sandra Curvelo", "cargo": "Mentora IAM™ (Facilitadora)", "correo": "", "modalidad": "Virtual", "nivel": "Experta"},
+    {"nombre": "Cindy Rodríguez", "cargo": "Subsidio y Aportes", "correo": "", "modalidad": "Virtual", "nivel": "Avanzada"}
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 11, la última de la primera fase del área. Lo que queda en rojo no es lo que falta por construir: es lo que ya está corriendo sobre peticiones con término de ley.",
+  "riesgos": [
+    {
+      "titulo": "Hay derechos de petición con los términos vencidos",
+      "nivel": "CRITICO",
+      "descripcion": "**La hoja de seguimiento mostraba 15 peticiones y varias con días vencidos.** _En un derecho de petición el término no es una meta interna: es de ley._ **El proceso de hoy explica por qué se vencen:** las solicitudes entran por varios canales, una persona las sube a un módulo, y la respuesta hay que copiarla ahí a mano. _Cada traspaso manual es un sitio donde se pierde un día._",
+      "responsable": "Subsidio y Aportes / Inmediato"
+    },
+    {
+      "titulo": "La vista del funcionario no se pudo probar",
+      "nivel": "ALTO",
+      "descripcion": "**Se recorrió la web app entera como afiliado** y funcionó: crear cuenta, aceptar el tratamiento de datos, radicar, recibir número y consultar la trazabilidad con la cédula. **La vista del funcionario no apareció por ninguna parte.** _Se le pidió al agente habilitarla y quedó ahí._ **Hasta que las dos vistas funcionen y el acceso esté restringido, esto no se publica.**",
+      "responsable": "Cindy Rodríguez / Antes de publicar"
+    },
+    {
+      "titulo": "El agente estaba entrenado y sin proceso",
+      "nivel": "ALTO",
+      "descripcion": "**El área le había cargado unas mil respuestas propias**, y aun así el resultado no era el que quería. _La instrucción decía «quiero que seas mi agente en estos temas» y señalaba una carpeta._ **Lo que faltaba no era información, era el proceso:** qué hace primero, cómo clasifica, qué entrega. _Con el mismo material y el proceso dicho, el mismo agente responde distinto._",
+      "responsable": "Cindy Rodríguez / Esta semana"
+    },
+    {
+      "titulo": "Los campos abiertos de la web app",
+      "nivel": "MEDIO",
+      "descripcion": "**Periodo, causa y tipo de reclamo quedaron como campos donde el usuario escribe.** _El error humano escribe cualquier cosa_, y después no hay manera de contar ni de clasificar. **Tienen que ser listas de opciones**, tomadas de la ficha que el área ya usa.",
+      "responsable": "Cindy Rodríguez / Antes de publicar"
+    },
+    {
+      "titulo": "Cuatro agentes corriendo y dos sin registrar",
+      "nivel": "MEDIO",
+      "descripcion": "**El puesto tiene cuatro agentes trabajando:** el de respuestas, el de reparto de correos, y dos más. _Dos de ellos no están en el tablero del programa._ **La dirección lee el tablero, no las sesiones**, así que un agente que no esté cargado ahí, para el reporte, no existe.",
+      "responsable": "Cindy Rodríguez / Antes del corte"
+    },
+    {
+      "titulo": "Los permisos se pedían en cada paso",
+      "nivel": "BAJO",
+      "descripcion": "**Las rutinas se detenían a pedir autorización una y otra vez**, y una de ellas no se había ejecutado en todo el día esperando ese permiso. _Se pasaron a aprobación automática en sesión._ **Un circuito que pide permiso en cada paso no es un circuito: es un formulario con otro nombre.**",
+      "responsable": "Cindy Rodríguez / Resuelto en sesión"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "CRITICO",
+      "titulo": "Revisar los ocho borradores que dejó el agente",
+      "descripcion": "**El agente encontró 8 radicados en el correo y proyectó la respuesta de cada uno**, en borrador y sin enviar. _Esa revisión es lo que decide si el circuito pasa a automático o se queda esperando._",
+      "responsable": "Cindy Rodríguez",
+      "plazo": "Inmediato"
+    },
+    {
+      "num": "02",
+      "nivel": "CRITICO",
+      "titulo": "Habilitar y probar la vista de funcionario antes de publicar",
+      "descripcion": "**La web app no sale al afiliado hasta que la otra vista exista y el ingreso esté restringido.** _Publicar con una sola vista deja el módulo abierto por el lado que no se miró._",
+      "responsable": "Cindy Rodríguez",
+      "plazo": "Antes de publicar"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Escribir el mapa del proceso de la petición y pasárselo al agente",
+      "descripcion": "**Qué hace primero, cómo clasifica por tema, fecha y norma, y qué entrega.** _Es la diferencia entre un agente con mil respuestas y un agente que sabe qué hacer con ellas._",
+      "responsable": "Cindy Rodríguez",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Cambiar periodo, causa y tipo de reclamo por listas de opciones",
+      "descripcion": "**El usuario escoge, no escribe.** _La ficha que el área ya usa tiene esos valores_, y de ahí salen las listas.",
+      "responsable": "Cindy Rodríguez",
+      "plazo": "Antes de publicar"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Montar en el entorno de agentes el paquete del tablero diseñado",
+      "descripcion": "**El tablero salió del estudio de diseño y hay que devolverlo al entorno donde trabaja el agente.** _El camino quedó dicho en sesión: pedir el paquete y volver a montarlo._",
+      "responsable": "Cindy Rodríguez",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "06",
+      "nivel": "MEDIO",
+      "titulo": "Cargar en el tablero del programa los dos agentes que faltan",
+      "descripcion": "**Con el antes y el ahora de cada uno.** _Lo que no esté ahí no entra en el reporte del cierre._",
+      "responsable": "Cindy Rodríguez",
+      "plazo": "Antes del corte"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El cuello de botella que trajo el área",
+      "duracion": "~6 min",
+      "objetivo": "Mirar el proceso real de quejas y peticiones antes de automatizar nada.",
+      "pasos": [
+        "**La sesión no empezó con un ejercicio preparado.** _Empezó con un problema que el área puso sobre la mesa:_ el módulo de quejas, reclamos y derechos de petición",
+        "**El proceso de hoy:** las solicitudes entran por varios canales, una persona las sube a un módulo, y la respuesta se copia ahí a mano",
+        "**La hoja de seguimiento mostraba 15 peticiones**, varias con los días vencidos",
+        "**El área no llegó con las manos vacías:** ya había construido un agente de respuestas y lo había entrenado con unas mil respuestas propias que tenía en el computador",
+        "**El día anterior ese agente ya había enviado una respuesta de prueba a un peticionario**",
+        "_Lo que el área pedía era ayuda con los PDF de soporte._ **Lo que apareció al mirarlo fue otra cosa**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · La corrección de método",
+      "duracion": "~8 min",
+      "objetivo": "Entender por qué un agente bien alimentado estaba dando un resultado flojo.",
+      "pasos": [
+        "**La instrucción que se le había dado era:** «quiero que seas mi agente en estos temas», más una carpeta con información",
+        "**La pregunta que lo destapó:** tengo una carpeta con información, _¿pero qué quieres que haga?_",
+        "**Faltaba el proceso completo:** qué hace primero, cómo clasifica por tema, por fecha y por norma, y qué entrega al final",
+        "**La regla quedó dicha así:** todo lo que se describe se puede hacer, pero hay que mapear el proceso",
+        "**Y el corolario:** mientras todo esté en digital, la persona no tiene que hacer nada a mano. _Lo único que no se puede automatizar es lo presencial_"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Conectar el correo y proyectar las respuestas",
+      "duracion": "~10 min",
+      "objetivo": "Dejar de subir los documentos a mano.",
+      "pasos": [
+        "**En lugar de cargar los PDF uno por uno, se conectó el agente al correo** para que tomara de ahí las peticiones",
+        "**En la primera búsqueda encontró 8 radicados**",
+        "**Se le pidió proyectar la respuesta de cada uno y dejarla en borrador**, sin enviar",
+        "**Con la plantilla de la Caja**, que el agente ya tenía en memoria de la sesión anterior del área",
+        "**Y con un resumen en el cuerpo del correo**, con los campos principales del PDF a la vista, para que se entienda de un vistazo antes de abrir el adjunto",
+        "_La condición de paso a automático la puso la propia área:_ **cuando esté segura de los borradores, no antes**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · El tablero por el estudio de diseño",
+      "duracion": "~14 min",
+      "objetivo": "Convertir un tablero que funciona en una pieza que se puede presentar.",
+      "pasos": [
+        "**Se descargó el tablero que el agente había construido y se subió al entorno de diseño**",
+        "**La instrucción se dictó completa**, y el detalle que la hace funcionar es nombrar el estilo: un tablero como los de la bolsa de Nueva York",
+        "**Lo que devolvió:** indicadores en tiempo real arriba, un tablero tridimensional de cierre contra apertura, cinta de fichas por categoría y un avatar que va leyendo los principales indicadores",
+        "**Con controles propios:** mostrar u ocultar el avatar, subir o bajar la velocidad",
+        "_El criterio que conviene retener:_ **sin nombrar ese estilo en la instrucción, este resultado no sale**",
+        "**Y el recorrido completo queda marcado:** lo que entrega el entorno de trabajo se pasa por diseño, y de diseño se devuelve al entorno del agente"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · La web app, recorrida como afiliado",
+      "duracion": "~10 min",
+      "objetivo": "Probar el circuito por donde lo va a vivir el ciudadano.",
+      "pasos": [
+        "**El encargo se dictó entero:** montar el módulo como web app publicada en línea, con dos vistas, una para los funcionarios de la Caja y otra para el afiliado, cada una con su ingreso",
+        "**El afiliado radica su petición, recibe número y consulta la trazabilidad del estado**",
+        "**Se recorrió de verdad:** crear cuenta con correo, celular y contraseña, aceptar el tratamiento de datos personales, radicar una solicitud y consultar el radicado con el número y la cédula",
+        "**Devolvió el número de radicado y la trazabilidad.** _Esa parte funciona_",
+        "**La vista de funcionario no apareció**, y ahí se detuvo la prueba",
+        "**Quedó dictado lo que falta de forma:** periodo, causa y tipo de reclamo por lista de opciones y no por escritura libre, _porque el error humano escribe cualquier cosa_"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 11 · 8 octubre 2026",
+      "titulo": "Un agente con mil respuestas y sin proceso rinde menos que uno con diez y con proceso",
+      "descripcion": "**El área hizo sola la parte difícil:** reunió unas mil respuestas propias y entrenó al agente con ellas, entre sesiones y sin que nadie se lo pidiera. _Y aun así el resultado no era el que quería._ **Lo que faltaba no era material, era decirle qué hacer con él:** qué hace primero, cómo clasifica, qué entrega. _Con el mismo repositorio y el proceso dicho, el mismo agente responde distinto._ **Es la lección más transferible de la jornada y aplica a todas las áreas.**",
+      "estado": "Corregido en sesión",
+      "proximo_paso": "Escribir el mapa del proceso y pasárselo",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "",
+      "titulo": "El afiliado deja de depender de que alguien transcriba su petición",
+      "descripcion": "**Hoy la petición llega por un canal, una persona la sube a un módulo y la respuesta se copia a mano.** _Tres traspasos, y en cada uno se puede perder un día que es de ley._ **La web app cambia el punto de entrada:** el afiliado radica directo, recibe su número y consulta solo el estado. _Eso no es comodidad para el ciudadano: es el término de ley dejando de depender de un copiar y pegar._",
+      "estado": "Construido, sin publicar",
+      "proximo_paso": "Habilitar la vista de funcionario y cerrar el acceso",
+      "target": "Antes de publicar"
+    },
+    {
+      "encabezado": "",
+      "titulo": "El tablero que no se parece a ningún otro",
+      "descripcion": "**Se pasó el tablero por el estudio de diseño con una instrucción que nombra el estilo**, el de los tableros de la bolsa de Nueva York, y volvió con indicadores vivos, un cubo tridimensional, cinta de fichas y un avatar que lee los números. _Sin esa palabra en la instrucción, el resultado es otro._ **El recorrido completo queda establecido para cualquier tablero del área:** se construye en el entorno de trabajo, se pasa por diseño y se devuelve al agente.",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Montar el paquete de vuelta en el entorno de agentes",
+      "target": "Esta semana"
+    },
+    {
+      "encabezado": "",
+      "titulo": "Cuatro agentes trabajando en un solo puesto",
+      "descripcion": "**El puesto cerró la primera fase con cuatro agentes corriendo:** el de respuestas a peticiones, el de reparto de correos entre funcionarios, y dos más. _Dos de ellos no están cargados en el tablero del programa._ **El trabajo está hecho y la mitad no se ve**, y lo que la dirección lee es el tablero.",
+      "estado": "Pendiente de registrar",
+      "proximo_paso": "Cargar los dos que faltan con su antes y su ahora",
+      "target": "Antes del corte"
+    }
+  ],
+  "tareas_intro": "El área cierra la primera fase con el agente de respuestas conectado al correo y la web app levantada. Lo que queda son condiciones de publicación, no construcción.",
+  "tareas": [
+    {"tarea": "Revisar los ocho borradores que proyectó el agente y decidir el paso a automático", "responsable": "Cindy Rodríguez", "prioridad": "URGENTE", "plazo": "Inmediato"},
+    {"tarea": "Habilitar y probar la vista de funcionario con su ingreso antes de publicar la web app", "responsable": "Cindy Rodríguez", "prioridad": "URGENTE", "plazo": "Antes de publicar"},
+    {"tarea": "Escribir el mapa del proceso de la petición y entregárselo al agente", "responsable": "Cindy Rodríguez", "prioridad": "ALTA", "plazo": "Esta semana"},
+    {"tarea": "Cambiar periodo, causa y tipo de reclamo por listas de opciones", "responsable": "Cindy Rodríguez", "prioridad": "ALTA", "plazo": "Antes de publicar"},
+    {"tarea": "Montar en el entorno de agentes el paquete del tablero diseñado", "responsable": "Cindy Rodríguez", "prioridad": "MEDIA", "plazo": "Esta semana"},
+    {"tarea": "Cargar en el tablero del programa los dos agentes que faltan, con el antes y el ahora", "responsable": "Cindy Rodríguez", "prioridad": "MEDIA", "plazo": "Antes del corte"}
+  ],
+  "observaciones": [
+    "**Esta sesión no siguió un guion: siguió un cuello de botella.** _El área llegó con un problema concreto y con trabajo hecho encima_, y lo que se trabajó fue eso. **Es la forma en que conviene usar las últimas sesiones de una fase**, cuando el método ya está y lo que falta es aplicarlo a lo que de verdad duele.",
+    "**El dato que mejor resume la jornada no es un tiempo, es una corrección.** _El agente tenía mil respuestas cargadas y una instrucción de una línea._ **Mil respuestas no suplen un proceso mal dicho**, y eso vale para cualquier área que esté construyendo agentes.",
+    "**Dos cosas quedaron sin probar y las dos se dejaron escritas en vez de darlas por hechas:** la vista de funcionario, que no apareció, y el paso de los borradores a envío automático, que el área decidió no apurar. _Un circuito que se publica a medias se cae delante del ciudadano, no delante nuestro._",
+    "_Sobre las condiciones de la sesión:_ **el área trabajó sin energía eléctrica, conectada con planta**, y la facilitadora tuvo que desplazarse para conseguir conexión. **Aun así se cubrieron los cinco ejercicios.** _Se anota porque explica el ritmo, no porque reste._",
+    "**La sesión se cortó al alcanzar el límite de uso de la herramienta**, a las 10:45. _El trabajo estaba cubierto_, pero conviene saberlo para las sesiones de construcción larga: una jornada de este tipo consume el tope en menos de una hora.",
+    "**Con esta sesión Subsidio y Aportes cierra la primera fase.** _El área entra a la segunda con cuatro agentes corriendo, un tablero diseñado y una web app levantada_, que es el punto más adelantado de todo el programa en un solo puesto."
+  ],
+  "proxima_sesion": {
+    "sesion": "Subsidio y Aportes, segunda fase",
+    "condiciones": [
+      "Los ocho borradores revisados y el circuito en automático o con el motivo de no estarlo",
+      "La vista de funcionario habilitada y probada",
+      "El mapa del proceso escrito y entregado al agente",
+      "Los dos agentes que faltan cargados en el tablero del programa"
+    ],
+    "agenda": [
+      "La web app publicada, con las dos vistas y el acceso restringido",
+      "La hiperconectividad: conectar el módulo con los sistemas internos de la Caja",
+      "El tablero de reporte de cada uno de los cuatro agentes del puesto",
+      "Qué pasa cuando una petición entra fuera de los tres tipos previstos"
+    ]
+  },
+  "pie": "IAM™ Intelligence · Documento Confidencial | Comfacesar | 8 octubre 2026 | Subsidio y Aportes · Sesión 11"
+}
