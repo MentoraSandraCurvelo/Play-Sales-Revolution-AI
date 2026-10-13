@@ -6,6 +6,77 @@
 
 Reglas en `agentes/CONTRATO-SLACK.md`.
 
+## martes 13 de octubre de 2026 · 6:15 p. m. · Rutina apagada y reporte de cierre publicado · décimo tablero
+
+**Sandra cerró la fase.** Sus palabras: *«ya terminó, así que paramos la rutina. Esta fase quedó culminada,
+deja ya el reporte en firme para hacer el tablero final de reporte de todo lo que hizo.»*
+
+### Primero, una confusión que se aclaró antes de hacer nada
+
+**Dijo «el proyecto de Klaren's».** Klaren's está fuera de alcance por su propia regla del 30 de septiembre y
+no tengo ni un dato suyo, así que no armé nada: se lo pregunté por encuesta. **Contestó «me equivoqué, quise
+decir el proyecto de Comfacesar».** *Vale la pena anotarlo: si se hubiera dado por hecho el cliente, el
+reporte habría salido con el nombre equivocado.*
+
+### La rutina quedó apagada
+
+`trig_01QZoDXDd8uZEwNcGW2LHCCH` — «Elia — Comfacesar: silencio, DM y preguntas del canal», cron
+`0 13-21 * * 1-5`. **Se desactivó con `enabled: false`, no se borró**, así que la historia de corridas se
+conserva y se puede volver a encender con una línea si hace falta. *Confirmado en la respuesta del servicio.*
+
+### El décimo tablero · Cierre del programa Comfacesar
+
+`VFbmuvwSFdVDRq8cyXzw4p` · archivo fuente `nps_comfacesar/cierre-comfacesar.html` · **v1**
+
+**La tabla de tableros eran nueve y ahora son diez.** Este entra porque Sandra lo pidió explícitamente, que
+es la única excepción que admite la regla del 30 de septiembre. **Nace privado**, como todos los artefactos:
+solo ella lo ve hasta que lo comparta desde el menú Compartir, que es algo que yo no puedo hacer.
+
+**Qué lleva, con las dos fuentes separadas y los dos cortes a la vista:**
+
+| | |
+|---|---|
+| Sesiones ejecutadas | **119** · del 11 de agosto al 8 de octubre |
+| Áreas | **18 de 18** que entraron · el alcance eran 21 |
+| Asistencia | **203 de 223** · **91%** · 118 de 119 sesiones medidas |
+| Espacios caídos | **26** · 12 inasistencias, 9 canceladas por el área, 3 cruces, 1 cita médica, 1 falla técnica |
+| NPS | **+20** · 20 respuestas de 51 colaboradores |
+| Confianza usando IA | **4,7 a 8,6** sobre las mismas 20 personas |
+| Agentes construidos | **13** · ocho corriendo |
+| Horas recuperadas | **187,8 a la semana** · 53 tareas con frecuencia declarada |
+| Valor a 12 meses | **$355,0 M** a tarifa de profesional · $613,8 M gerente · $936,8 M directivo |
+
+**Dos cortes y se dice por qué:** sesiones y asistencia al viernes 9, horas al recálculo del 13 de octubre.
+*Un reporte con un solo corte habría tenido que mentir en una de las dos mitades.*
+
+### Lo que el reporte dice que no salió bien, porque también es resultado
+
+Tiene una sección entera, **«Seis cosas que el cierre no resolvió»**: el acta que falta de Subsidio S11, los
+tres soportes ausentes de Contabilidad S9, las tres filas en cuarentena, las veintinueve frecuencias
+estimadas, las seis áreas del alcance que nunca midieron un proceso, y la numeración sin aclarar de
+Servicios Sociales. **Un reporte de cierre que solo trae lo bueno no aguanta una pregunta difícil.**
+
+### Lo validado antes de publicar
+
+Balance de etiquetas · **la tabla de áreas recomputada suma 119 exacto** · las doce barras del gráfico de
+horas suman 187,8 · los cinco tramos de caídas cubren los 26 · sin el círculo rojo que no es el símbolo de la marca · y **sin nombrar el 31 de octubre ni
+el bloque del viernes 16**, que siguen sin liberarse. *La guarda falló una vez, buscando `18</b>` cuando la
+tarjeta dice `<b>18<small> / 18</small></b>`: era la guarda la que estaba mal, no el archivo.*
+
+**Nombres de personas: ninguno.** Las tres citas de la columna de observaciones van atribuidas al área y a la
+tarea, no a la persona, aunque la Sala de Control sí las publique con nombre. En un reporte de cierre que
+puede circular, el proceso es el que importa.
+
+### Lo que sigue sin resolverse y no depende de mí
+
+**La Sala de Control pública sigue diciendo $253,0 M.** El recálculo a $355,0 M está listo y validado desde
+esta mañana, pero el servicio bloquea la republicación con «Live-Shared Artifact Sensitive Delta», porque ese
+tablero está compartido en vivo y la cifra se mueve un 40%. **Es una aprobación de Sandra, no un fallo del
+archivo.** Mientras siga así, este reporte de cierre y la Sala de Control dan cifras distintas de horas, y
+conviene saberlo antes de mandar cualquiera de los dos. *Los KPIs tampoco se tocaron, por lo mismo.*
+
+---
+
 ## martes 13 de octubre de 2026 · 9:30 a. m. · La Sala de Control recalculada al cierre, lista pero sin publicar
 
 **Sandra contestó la encuesta con «me da igual»**, así que tomé la opción que había recomendado: recalcular. El
