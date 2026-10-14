@@ -2014,3 +2014,35 @@ taller entero.
   alcanza, y sin el filtro el archivo de Comfacesar se traía el canal de Klaren's.
 - `probar.py` resuelve la ruta a absoluta. Con una relativa, Chrome devolvía `ERR_INVALID_URL`
   y las 189 vistas se leían como vacías, que parece una app rota y no lo era.
+
+### Las tres actas de Klaren's que faltaban
+
+Klaren's tenía cuatro sesiones en Slack y una sola acta escrita. Las otras tres existían
+solo como PDF. **Ahora las cuatro están escritas**, reconstruidas desde esos PDF, que se
+leyeron con `pdftotext` después de instalar poppler en el contenedor.
+
+- `klarens-s1-2026-09-01.json`, pre kick off y diagnóstico inicial de perfiles
+- `klarens-s3-2026-10-07.json`, el perfil de Mayra y el acceso a la cuenta
+- `klarens-s4-2026-10-13.json`, el kick off con todo el equipo
+
+**Hay una cosa que conviene que Sandra sepa.** El PDF de la sesión 1 lleva dentro el valor
+del contrato, el IVA, la factura y el anticipo, con nombre y cifra. *La regla es que las
+condiciones comerciales no entran en ningún entregable*, así que el acta que se escribió no
+las trae: el bloqueante se registra como «la formalización del proyecto estaba pendiente» y
+nada más. **El PDF original sí las sigue mostrando y está colgado en el canal y dentro de la
+app**, así que si se quiere cerrar del todo, hay que reemplazar ese PDF.
+
+Ese mismo PDF también nombra a una persona que fue retirada del proyecto antes de empezar.
+*En el acta nueva aparece el hecho, no el nombre.*
+
+### Lo que trajo escribirlas
+
+`construir_cliente.py` arma ahora las vistas de asistencia, mentoría e informes con la clave
+`informe` de cada acta, igual que Comfacesar hace con los informes de Teams. Klaren's pasa de
+cero a **6 personas, 8 participaciones y 7 horas en sala**, con la facilitadora aparte.
+
+*Y apareció un duplicado al hacerlo:* Mayra figuraba como «Mayra Caro» y como «Mayra Alejandra
+Caro», y los minutos se partían en dos. **Se unificó a la forma de Slack**, que es la que manda
+cuando el listado y Slack no coinciden.
+
+**Klaren's queda en 15 de 15 vistas.**

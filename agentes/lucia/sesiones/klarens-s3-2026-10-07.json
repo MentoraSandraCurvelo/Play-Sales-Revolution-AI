@@ -1,0 +1,385 @@
+{
+  "proyecto": "Klaren's",
+  "programa": "IAM™ Social",
+  "anio": "2026",
+  "area": "Perfil y Vocería",
+  "area_completa": "Dirección de Marketing y Ventas, Klaren's, Lácteos del Cesar S.A.",
+  "sesion_num": 3,
+  "fase": "Marca profesional y Social Selling",
+  "fecha": "7 de octubre de 2026",
+  "fecha_corta": "7octubre2026",
+  "subtitulo_meta": "Mayra Alejandra Caro · 7 de octubre de 2026 · 10:04 a. m. · 1 h 13 min",
+  "datos_sesion": [
+    [
+      "Área",
+      "Dirección de Marketing y Ventas, Klaren's, Lácteos del Cesar S.A."
+    ],
+    [
+      "Sesión",
+      "N° 3. El perfil de la líder comercial y el acceso a la cuenta"
+    ],
+    [
+      "Fecha",
+      "7 de octubre de 2026"
+    ],
+    [
+      "Duración de la sesión",
+      "1 hora 13 minutos"
+    ],
+    [
+      "Modalidad",
+      "Virtual, por Microsoft Teams"
+    ],
+    [
+      "Asistencia",
+      "Mayra Alejandra Caro, 1 hora de participación efectiva. Ingresó 14 minutos después del inicio"
+    ],
+    [
+      "Grabación",
+      "Publicada en el canal del proyecto y vinculada en la Torre de Control"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo, Mentora IAM™ Social"
+    ]
+  ],
+  "kpis": [
+    {
+      "valor": "13",
+      "etiqueta": "Campos del perfil intervenidos",
+      "detalle": "Del banner al extracto, en vivo"
+    },
+    {
+      "valor": "0",
+      "etiqueta": "Credenciales en poder de Mayra al iniciar",
+      "detalle": "No recordaba su propia contraseña"
+    },
+    {
+      "valor": "60 → 6",
+      "etiqueta": "Productos del portafolio",
+      "detalle": "La reconversión que nadie ha publicado"
+    },
+    {
+      "valor": "1",
+      "etiqueta": "Estudio Nielsen sin comunicar",
+      "detalle": "Marca número uno de la categoría"
+    },
+    {
+      "valor": "14",
+      "etiqueta": "Minutos de inicio perdidos",
+      "detalle": "De una hora agendada"
+    }
+  ],
+  "participantes": [
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ Social, facilitadora",
+      "correo": "",
+      "modalidad": "Virtual, 1 h 13 min",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Mayra Caro",
+      "cargo": "Líder de Marketing y Ventas. Representante legal suplente",
+      "correo": "mcaro@klarens.com.co",
+      "modalidad": "Virtual, 1 h 0 min",
+      "nivel": "Inicial"
+    },
+    {
+      "nombre": "Jesús López Larios",
+      "cargo": "Comunicador Visual, responsable de la página de compañía",
+      "correo": "marketing@klarens.com.co",
+      "modalidad": "Convocado, no se conectó",
+      "nivel": "Sin perfil medido"
+    }
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 3. El perfil avanzó, así que lo que queda en rojo no es el diseño: es quién controla la cuenta y qué se dejó de hacer.",
+  "riesgos": [
+    {
+      "titulo": "La compañía no controla el perfil de su propia vocera",
+      "nivel": "CRITICO",
+      "descripcion": "**Mayra no tenía sus credenciales de LinkedIn y declaró que un tercero le administra la cuenta.** _No recordaba la contraseña y hubo que restablecerla por correo durante la sesión._ Es la líder comercial y representante legal suplente: **su perfil es un activo institucional, no una cuenta personal.** _Un perfil bien construido sobre un acceso que administra un tercero no es un activo, es una exposición._",
+      "responsable": "Mayra Caro"
+    },
+    {
+      "titulo": "La página de compañía no se trabajó",
+      "nivel": "ALTO",
+      "descripcion": "**Era la mitad del objetivo de la sesión.** _Mayra convocó a Jesús López al inicio y pidió unos minutos para que se conectara, pero estaba en la toma de fotografías y no entró._ El informe de asistencia confirma dos participantes. **La página sigue sin descripción institucional ni verificación.**",
+      "responsable": "Jesús López Larios"
+    },
+    {
+      "titulo": "El perfil quedó a mitad de camino y es el modelo del kick off",
+      "nivel": "ALTO",
+      "descripcion": "**Se construyeron banner, foto, titular, identidad de búsqueda y extracto.** _Quedaron pendientes experiencia, educación, licencias, proyectos, cursos, aptitudes, reconocimientos, voluntariado e idiomas._ **Sin ellas el perfil no alcanza nivel PRO y no sirve como pieza de demostración el martes 13**, que es la función que se le asignó.",
+      "responsable": "Mayra Caro"
+    },
+    {
+      "titulo": "Verificación de identidad de LinkedIn pendiente",
+      "nivel": "MEDIO",
+      "descripcion": "**LinkedIn la ofreció durante la sesión y solo la puede completar Mayra**, porque exige cargar su documento. _Un perfil verificado sostiene mejor la vocería de quien firma como representante legal suplente._",
+      "responsable": "Mayra Caro"
+    },
+    {
+      "titulo": "Un frente nuevo pedido por el cliente y sin fecha",
+      "nivel": "MEDIO",
+      "descripcion": "**Mayra pidió, por iniciativa propia, una sesión con Rosa Altahona lo más pronto posible.** _Talento Humano tiene vacantes de perfiles altos que no consigue cubrir._ Encaja en el programa, **pero al cierre no tiene fecha ni alcance.**",
+      "responsable": "Mayra Caro y Sandra Curvelo"
+    },
+    {
+      "titulo": "El enlace de WhatsApp no se pudo generar",
+      "nivel": "BAJO",
+      "descripcion": "**El generador no respondió en sesión y el enlace quedó fuera del perfil.** _Es el canal por el que la gente escribe en lugar de llamar_, así que conviene cerrarlo antes del kick off para que el perfil modelo lo tenga.",
+      "responsable": "Mayra Caro"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "CRITICO",
+      "titulo": "Cambiar la contraseña de LinkedIn y retirar los accesos de terceros",
+      "descripcion": "**La clave con la que se entró en la sesión la conocen personas distintas a Mayra.** _Debe cambiarla por una que solo ella conozca, revisar las sesiones activas y cerrar las que no reconozca, y activar la verificación en dos pasos._ **Si alguien del equipo necesita publicar en nombre de la empresa, se hace como administrador de la página, nunca con la cuenta personal de Mayra.**",
+      "responsable": "Mayra Caro",
+      "plazo": "Hoy"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Completar las secciones pendientes del perfil",
+      "descripcion": "**Experiencia, educación, licencias y certificaciones, proyectos, cursos, aptitudes, reconocimientos, voluntariado e idiomas.** _El recorrido por cada sección y la forma de llenarla se hizo en pantalla durante la sesión._",
+      "responsable": "Mayra Caro",
+      "plazo": "Antes del martes 13"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Retomar la página de compañía con Jesús",
+      "descripcion": "**Falta la descripción institucional, el eslogan, los enlaces y la verificación de la página.** _Jesús mencionó que la va a manejar junto a otra persona que no figura en el equipo del proyecto._ **Hay que confirmar quién es y si requiere perfil dentro del programa.**",
+      "responsable": "Jesús López Larios",
+      "plazo": "Antes del martes 13"
+    },
+    {
+      "num": "04",
+      "nivel": "ALTO",
+      "titulo": "Enviar el informe de Nielsen",
+      "descripcion": "**Mayra ofreció enviarlo en sesión.** _Es el soporte documental del liderazgo de categoría y la materia prima del primer contenido del programa._ **Sin el informe en mano, ninguna cifra de participación de mercado se publica.**",
+      "responsable": "Mayra Caro",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "05",
+      "nivel": "MEDIO",
+      "titulo": "Completar la verificación de identidad y el enlace de WhatsApp",
+      "descripcion": "**Las dos acciones que no se pudieron ejecutar desde la pantalla compartida** _y que cierran el perfil._",
+      "responsable": "Mayra Caro",
+      "plazo": "Antes del martes 13"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Recuperar el acceso a la cuenta",
+      "duracion": "~5 min",
+      "objetivo": "Poder trabajar el perfil, y descubrir quién lo controla.",
+      "pasos": [
+        "**Se pidió a Mayra entrar desde el computador** para hacer los cambios en vivo",
+        "**No tenía las credenciales a mano** _y declaró que un tercero le administra la cuenta_",
+        "Se localizó el correo asociado desde **Ajustes y privacidad, Inicio de sesión y seguridad**",
+        "**No recordaba la contraseña**, así que se usó el flujo de recuperación por correo",
+        "_Se definió una clave provisional para trabajar la sesión_, **con el acuerdo expreso de que Mayra la cambie después**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Banner, foto y titular con palabras clave",
+      "duracion": "~15 min",
+      "objetivo": "Que el perfil se vea como parte de la compañía y aparezca en las búsquedas correctas.",
+      "pasos": [
+        "**Se cargó el banner de perfil, el mismo definido con Marketing**, _para que haya linealidad entre la página y los perfiles del equipo_",
+        "**El banner cuenta el emblema de la empresa, no el producto en góndola.** _En LinkedIn no se vende la bolsa, se vende la compañía_",
+        "Se cargó la fotografía profesional **tomada por Marketing ese mismo día**",
+        "**El titular se construyó con el rol primero y no el cargo:** _líder de marketing y ventas, en lugar de la denominación interna_",
+        "**Se sumaron los términos por los que debe aparecer:** sabor costeño, industria de alimentos, cero grasas trans, socialmente responsables y negociaciones con cadenas",
+        "_Se ajustó al límite de caracteres de LinkedIn_, probando el corte hasta que entrara completo"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · Identidad de búsqueda",
+      "duracion": "~6 min",
+      "objetivo": "Que la gente la encuentre por el nombre con el que la conocen.",
+      "pasos": [
+        "**Se preguntó cómo la llaman sus clientes.** _La respuesta fue Maleja, no Mayra Alejandra_",
+        "**Se cambió el nombre de visualización a Maleja Caro**, que es con el que ya la buscan",
+        "Se editó la URL del perfil **para reemplazar el código que LinkedIn asigna por defecto**",
+        "_En su lugar se pusieron palabras clave de negocio:_ **negocios, ventas y marketing**",
+        "**Se mostró en pantalla dónde se hace el cambio**, para que Mayra lo pueda repetir"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Contacto, ubicación y perfil en inglés",
+      "duracion": "~10 min",
+      "objetivo": "Cerrar los campos que el algoritmo lee y casi nadie llena.",
+      "pasos": [
+        "Se cargaron **país, Colombia, y el código postal de Valledupar**",
+        "Se añadió **el teléfono corporativo** como teléfono de trabajo",
+        "**Se cargó mes y día de nacimiento**, _por el criterio de que una felicitación abre conversación comercial_",
+        "Se añadió **el sitio web de la compañía**",
+        "**Se activó el perfil secundario en inglés**, _previendo negociaciones con cadenas y marcas internacionales_",
+        "**Se intentó generar el enlace directo de WhatsApp y el generador no respondió.** _Quedó pendiente_"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · El mapa del perfil",
+      "duracion": "~8 min",
+      "objetivo": "Que Mayra sepa qué secciones existen y qué va en cada una, para terminarlo sola.",
+      "pasos": [
+        "**Se recorrió el menú de añadir sección completo**, _separando lo esencial, lo recomendado y lo adicional_",
+        "**Licencias y certificaciones:** todo lo que la volvió especialista y no aparece en el título profesional. _Se cargó una como ejemplo en vivo_",
+        "**Aptitudes:** inteligencia artificial, venta digital, estrategia y marketing digital, _de a una, porque LinkedIn no admite varias a la vez_",
+        "**Proyectos:** todo proyecto en el que esté vinculada, con fotografías si las tiene",
+        "**Cursos:** lo que está estudiando ahora, _distinto de las certificaciones ya obtenidas_",
+        "**Reconocimientos, voluntariado e idiomas.** _El criterio es que los campos que LinkedIn creó existen por algo y no se ignoran_"
+      ]
+    },
+    {
+      "titulo": "Ejercicio F · El extracto, construido en vivo",
+      "duracion": "~25 min",
+      "objetivo": "Pasar de la descripción de un cargo, que puede escribir cualquiera, a una historia de resultados.",
+      "pasos": [
+        "**Estructura fijada:** propósito profesional en los tres primeros renglones, trayectoria con resultados, historias de éxito y marca personal al cierre",
+        "**Se eligió la tercera persona**, _para que el texto se lea como una historia contada por alguien más y no como un inventario de logros propios_",
+        "**Propósito:** negociaciones inteligentes y productivas, _entendiendo que cada negociación es un mundo que hay que leer antes de cerrar_",
+        "**Es contadora de profesión y no la ejerce**, _pero la formación financiera es la herramienta con la que lee rentabilidad, presupuesto y proyección antes de decidir_",
+        "**Primera historia:** tras un periodo en el que la operación llegó a detenerse por completo, _lideró la redefinición del portafolio de más de 60 productos a 6_, identificando el core real del negocio, el suero costeño",
+        "**Segunda:** desde esa especialización se impulsaron marcas propias y maquila para compañías de consumo masivo, _hasta alcanzar cobertura nacional en todas las plataformas de distribución_",
+        "**Tercera:** la expansión del suero costeño de esparcible regional a ingrediente de receta, con alianzas de marca nacionales. _Es un cambio cultural, no solo comercial_",
+        "**Mayra pidió expresamente que el extracto diga crecimiento a doble dígito y no el porcentaje exacto.** _Se respetó_",
+        "**Percepción del equipo:** una estructura que pasó a ser horizontal después de la crisis, _y una líder a la que el equipo describe como alguien que escucha y da voz y voto_",
+        "**Marca personal:** lectura de tendencias de mercado y comunicación, el ejercicio, correr, la vida saludable y la familia",
+        "**Mayra pidió incorporar su fe como base de sus decisiones** y se incluyó en el cierre del extracto",
+        "**El extracto se leyó completo en voz alta para su aprobación y se publicó en el perfil**"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 3 · 7 octubre 2026",
+      "titulo": "Hay un estudio de Nielsen recién comprado que nadie ha comunicado",
+      "descripcion": "**La compañía acaba de adquirir el estudio de mercado de Nielsen y Klaren's figura como marca número uno de suero costeño en el país**, con cobertura en todas las plataformas de distribución nacionales. _Mayra lo dijo en sesión y ofreció enviar el informe._ **Un dato de tercero independiente es el activo de contenido más valioso que puede tener un programa de social selling, porque no se discute.** _Hoy está en un informe que nadie fuera de la compañía ha visto._",
+      "estado": "Declarado en sesión, informe pendiente",
+      "proximo_paso": "Convertirlo en la primera pieza de contenido",
+      "target": "Semana del 13 de octubre"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 3 · 7 octubre 2026",
+      "titulo": "De 60 productos a 6, después de un año con la planta en silencio",
+      "descripcion": "**La historia apareció al construir el extracto y es una reconversión industrial completa:** _una fábrica de más de 40 años, un año de operación detenida, y una decisión de especializarse en lo único que la hacía distinta._ **No es una anécdota, es el argumento que explica por qué Klaren's es líder de su categoría.** _Quedó escrita en el perfil de Mayra y no está publicada en ningún otro lugar._",
+      "estado": "Incorporada al extracto",
+      "proximo_paso": "Convertirla en el contenido ancla del lanzamiento",
+      "target": "Kick off del 13 de octubre"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 3 · 7 octubre 2026",
+      "titulo": "La vocera del programa es representante legal suplente",
+      "descripcion": "**Lo mencionó al contar su rol durante la crisis.** _No es solo la líder comercial: tiene representación legal de la compañía y pertenece al grupo directivo._ **Eso cambia el peso de lo que publique y la convierte en la voz institucional de Klaren's en LinkedIn, por encima de la propia página.** _También eleva el riesgo de que su cuenta la administre alguien más._",
+      "estado": "Verificado en sesión",
+      "proximo_paso": "Asegurar el acceso exclusivo antes de que empiece a publicar",
+      "target": "Inmediato"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 3 · 7 octubre 2026",
+      "titulo": "Talento Humano pidió entrar al programa sin que se le ofreciera",
+      "descripcion": "**Mayra pidió agendar con Rosa Altahona lo más pronto posible**, _porque tiene vacantes de perfiles altos que no logra cubrir con los canales que usa hoy._ **Es el cliente identificando por su cuenta un segundo uso de LinkedIn dentro de la misma empresa.** _Reclutamiento por redes es un frente que no está en el alcance actual y que el cliente está solicitando._",
+      "estado": "Solicitado por el cliente, sin fecha ni alcance",
+      "proximo_paso": "Definir si entra en el alcance actual o como alcance nuevo",
+      "target": "Antes del cierre de octubre"
+    }
+  ],
+  "tareas_intro": "El perfil modelo tiene que estar terminado antes del kick off, porque es la pieza con la que se le muestra al equipo qué se espera de cada uno.",
+  "tareas": [
+    {
+      "tarea": "Cambiar la contraseña de LinkedIn, cerrar sesiones no reconocidas y activar la verificación en dos pasos",
+      "responsable": "Mayra Caro",
+      "prioridad": "ALTA",
+      "plazo": "Hoy"
+    },
+    {
+      "tarea": "Completar experiencia, educación, licencias, proyectos, cursos, aptitudes, reconocimientos, voluntariado e idiomas",
+      "responsable": "Mayra Caro",
+      "prioridad": "ALTA",
+      "plazo": "Antes del 13 de octubre"
+    },
+    {
+      "tarea": "Trabajar la página de compañía: descripción institucional, enlaces y verificación",
+      "responsable": "Jesús López",
+      "prioridad": "ALTA",
+      "plazo": "Antes del 13 de octubre"
+    },
+    {
+      "tarea": "Enviar el informe de Nielsen que soporta el liderazgo de categoría",
+      "responsable": "Mayra Caro",
+      "prioridad": "ALTA",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Enviar ticket promedio y tasa de cierre histórica, pendiente desde septiembre",
+      "responsable": "Mayra Caro",
+      "prioridad": "ALTA",
+      "plazo": "Antes del informe de cierre"
+    },
+    {
+      "tarea": "Completar la verificación de identidad de LinkedIn con documento",
+      "responsable": "Mayra Caro",
+      "prioridad": "MEDIA",
+      "plazo": "Antes del 13 de octubre"
+    },
+    {
+      "tarea": "Generar y enviar el enlace directo de WhatsApp para el perfil",
+      "responsable": "Mayra Caro",
+      "prioridad": "MEDIA",
+      "plazo": "Antes del 13 de octubre"
+    },
+    {
+      "tarea": "Confirmar quién es la persona señalada como corresponsable de la página y si requiere perfil dentro del programa",
+      "responsable": "Jesús López",
+      "prioridad": "MEDIA",
+      "plazo": "Antes del 13 de octubre"
+    },
+    {
+      "tarea": "Definir fecha y alcance de la sesión con Rosa Altahona, Talento Humano",
+      "responsable": "Mayra Caro",
+      "prioridad": "MEDIA",
+      "plazo": "Octubre"
+    },
+    {
+      "tarea": "Preparar banners, instructivos y la agenda individual del equipo",
+      "responsable": "Sandra Curvelo",
+      "prioridad": "ALTA",
+      "plazo": "Antes del 13 de octubre"
+    }
+  ],
+  "observaciones": [
+    "**La sesión se agendó para una hora y Mayra ingresó 14 minutos tarde porque se desconectó para convocar a Jesús.** _El tiempo efectivo con ella fue de una hora justa y se usó completa._ **El extracto no se puede construir en menos:** exige la atención sin interrupciones de la persona, _porque las historias no las escribe la facilitadora, las cuenta ella._",
+    "**El orden importó.** _Primero el acceso, después lo visual, luego la identidad de búsqueda, y el extracto al final._ **Si el extracto se hubiera trabajado al principio, la historia de los 60 productos a 6 no habría salido:** apareció cuando ya había media hora de conversación encima.",
+    "**El hallazgo más grave de la sesión no era el objetivo de la sesión.** _Se iba a construir un perfil y lo que apareció fue que la compañía no controla la cuenta de su vocera institucional._",
+    "**Mayra pidió que el extracto no publique el porcentaje exacto de crecimiento y que diga crecimiento a doble dígito.** _La decisión del cliente sobre qué cifra se publica manda sobre el criterio de impacto._ Se respetó sin discusión.",
+    "**Mayra pidió incorporar su fe como base de sus decisiones y se incluyó.** _Un extracto que no refleja lo que la persona considera su fundamento no lo sostiene con el tiempo, y el perfil se abandona._",
+    "**Apareció un nombre nuevo señalado como corresponsable de la página junto con Jesús.** _No figura en el equipo del proyecto._ **Hay que confirmarlo antes del kick off, porque define si el programa tiene seis perfiles o siete.**",
+    "**El perfil de Mayra es ahora la plantilla visual del equipo.** _Banner alineado con la página, titular por rol y no por cargo, URL con palabras clave y extracto en tercera persona_ es exactamente lo que se replica en el resto de los perfiles.",
+    "**Por política del programa, ninguna credencial, código de verificación, número personal ni correo personal se consigna en esta acta ni en ningún otro entregable.**"
+  ],
+  "proxima_sesion": {
+    "sesion": "Klaren's, Sesión 4. Kick off con todo el equipo. Martes 13 de octubre, 3:00 p. m., virtual por Microsoft Teams",
+    "condiciones": [
+      "El perfil de Mayra completo en sus secciones pendientes",
+      "La contraseña cambiada y los accesos de terceros retirados",
+      "Los banners de perfil y de página listos para entregar",
+      "El instructivo de construcción de perfil listo",
+      "Todo el equipo dentro del canal del proyecto"
+    ],
+    "agenda": [
+      "La presentación del método y las reglas del juego a todo el equipo",
+      "La radiografía de los perfiles como punto de partida medido",
+      "El perfil de Mayra como pieza modelo",
+      "El agendamiento de las sesiones individuales de perfil"
+    ]
+  },
+  "pie": "IAM™ Social · Documento Confidencial | Klaren's, Lácteos del Cesar S.A. | 7 octubre 2026 | Perfil y Vocería · Sesión 3"
+}

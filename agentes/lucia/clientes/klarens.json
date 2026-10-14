@@ -26,24 +26,48 @@
           "titulo": "Sesión 1 · Pre Kick Off",
           "sesion": 1,
           "fecha": "2026-09-01",
-          "acta": false
+          "acta": true
         },
         {
           "url": "https://netorg20780382-my.sharepoint.com/:v:/g/personal/sandracurvelo_iamlatam_co/IQBcePMpEiJoTJdLs4TzrPGWAeBT0rkGBCPFW34ygU_0Iww?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WI0Y95",
           "titulo": "Sesión 3 · Perfil de Mayra y Página de Compañía",
           "sesion": 3,
           "fecha": "2026-10-07",
-          "acta": false
+          "acta": true
         },
         {
           "url": "https://netorg20780382-my.sharepoint.com/:v:/g/personal/sandracurvelo_iamlatam_co/IQB5T9E4ZTtESpbrwhc6QgzbAU5v89ovbSJIRntgUk7GtpI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=UdqENq",
           "titulo": "Sesión 4 · Kick off IAM™ Social",
           "sesion": 4,
           "fecha": "2026-10-13",
-          "acta": false
+          "acta": true
         }
       ],
       "actas": [
+        {
+          "archivo": "klarens-s1-2026-09-01.json",
+          "pdf": "klarens-kickoff-v2.pdf",
+          "iso": "2026-09-01",
+          "grabacion": "https://netorg20780382-my.sharepoint.com/:v:/g/personal/sandracurvelo_iamlatam_co/IQB-CCVv0GlfQK_xlJmZeJb-AUluwfSZylrYTtmtk8uNty8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hDMWsm",
+          "informe": {
+            "duracion_min": 66,
+            "media_min": 66,
+            "participantes": [
+              {
+                "nombre": "Sandra Curvelo",
+                "minutos": 66,
+                "correo": "sandracurvelo@iamlatam.co",
+                "rol": "Organizador"
+              },
+              {
+                "nombre": "Mayra Caro",
+                "minutos": 66,
+                "correo": "mcaro@klarens.com.co",
+                "rol": "Asistente"
+              }
+            ]
+          }
+        },
         {
           "archivo": "klarens-s2-2026-09-29.json",
           "pdf": "ACTA_Sesion2_Klarens_Banner_29septiembre2026.pdf",
@@ -67,6 +91,78 @@
               }
             ]
           }
+        },
+        {
+          "archivo": "klarens-s3-2026-10-07.json",
+          "pdf": "ACTA_Sesion3_Klarens_PerfilMayra_7octubre2026.pdf",
+          "iso": "2026-10-07",
+          "grabacion": "https://netorg20780382-my.sharepoint.com/:v:/g/personal/sandracurvelo_iamlatam_co/IQBcePMpEiJoTJdLs4TzrPGWAeBT0rkGBCPFW34ygU_0Iww?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WI0Y95",
+          "informe": {
+            "duracion_min": 73,
+            "media_min": 67,
+            "participantes": [
+              {
+                "nombre": "Sandra Curvelo",
+                "minutos": 73,
+                "correo": "sandracurvelo@iamlatam.co",
+                "rol": "Organizador"
+              },
+              {
+                "nombre": "Mayra Caro",
+                "minutos": 60,
+                "correo": "mcaro@klarens.com.co",
+                "rol": "Asistente"
+              }
+            ]
+          }
+        },
+        {
+          "archivo": "klarens-s4-2026-10-13.json",
+          "pdf": "ACTA_Sesion4_Klarens_KickOff_13octubre2026.pdf",
+          "iso": "2026-10-13",
+          "grabacion": "https://netorg20780382-my.sharepoint.com/:v:/g/personal/sandracurvelo_iamlatam_co/IQB5T9E4ZTtESpbrwhc6QgzbAU5v89ovbSJIRntgUk7GtpI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=UdqENq",
+          "informe": {
+            "duracion_min": 78,
+            "media_min": 59,
+            "participantes": [
+              {
+                "nombre": "Sandra Curvelo",
+                "minutos": 78,
+                "correo": "sandracurvelo@iamlatam.co",
+                "rol": "Organizador"
+              },
+              {
+                "nombre": "Liliana Restrepo",
+                "minutos": 73,
+                "correo": "coordinador.antioquia@klarens.com.co",
+                "rol": "Asistente"
+              },
+              {
+                "nombre": "Allan Jimenez",
+                "minutos": 64,
+                "correo": "",
+                "rol": "Asistente"
+              },
+              {
+                "nombre": "Katherin Cristancho",
+                "minutos": 64,
+                "correo": "coordinador.bogota@klarens.com.co",
+                "rol": "Asistente"
+              },
+              {
+                "nombre": "Rosa Altahona",
+                "minutos": 63,
+                "correo": "raltahona@klarens.com.co",
+                "rol": "Asistente"
+              },
+              {
+                "nombre": "Jesús López",
+                "minutos": 12,
+                "correo": "marketing@klarens.com.co",
+                "rol": "Asistente"
+              }
+            ]
+          }
         }
       ],
       "fuente_slack": "iam-social-selling-klarens"
@@ -74,7 +170,7 @@
   ],
   "generales": [],
   "nota_fijados": "Aquí van las carpetas de Dropbox del proyecto.",
-  "fuente_actas": "salida/klarens",
+  "fuente_actas": "clientes/actas/klarens",
   "fuente_archivos": "clientes/adjuntos/klarens",
   "lema": "El espacio de trabajo del programa. Las actas, las grabaciones y la conversación del equipo, en un solo sitio y sin fecha de caducidad.",
   "nota_archivo": "Aquí no se borra nada con el tiempo. Cada sesión deja su acta, su grabación y lo que se habló, y <b style=\"color:var(--ink)\">todo queda</b> para consultarlo cuando haga falta."

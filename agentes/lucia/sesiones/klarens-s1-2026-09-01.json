@@ -1,0 +1,311 @@
+{
+  "proyecto": "Klaren's",
+  "programa": "IAM™ Social",
+  "anio": "2026",
+  "area": "Dirección",
+  "area_completa": "Dirección de Marketing y Ventas, Klaren's",
+  "sesion_num": 1,
+  "fase": "Marca profesional y Social Selling",
+  "fecha": "1 de septiembre de 2026",
+  "fecha_corta": "1septiembre2026",
+  "subtitulo_meta": "Mayra Caro · 1 de septiembre de 2026 · 1 h 6 min",
+  "datos_sesion": [
+    [
+      "Proyecto",
+      "Klaren's, estrategia de Social Selling en LinkedIn"
+    ],
+    [
+      "Sesión",
+      "N° 1. Pre kick off, diagnóstico inicial de perfiles"
+    ],
+    [
+      "Fecha",
+      "1 de septiembre de 2026"
+    ],
+    [
+      "Duración de la sesión",
+      "1 hora 6 minutos"
+    ],
+    [
+      "Modalidad",
+      "Virtual"
+    ],
+    [
+      "Asistencia",
+      "Sandra Curvelo y Mayra Caro. Los demás perfiles no asistieron: el diagnóstico se levantó revisando sus perfiles"
+    ],
+    [
+      "Grabación",
+      "Publicada en el canal del proyecto"
+    ],
+    [
+      "Objetivo",
+      "Diagnóstico de perfiles de LinkedIn, definición de la estrategia y primer mapa de calor"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo, Mentora IAM™ Social"
+    ]
+  ],
+  "kpis": [
+    {
+      "valor": "5",
+      "etiqueta": "Perfiles activos",
+      "detalle": "Mayra, Paola, Alan, Liliana y Katherine"
+    },
+    {
+      "valor": "2",
+      "etiqueta": "Meses de proyecto",
+      "detalle": "Septiembre y octubre de 2026"
+    },
+    {
+      "valor": "2.500",
+      "etiqueta": "Meta de contactos nuevos",
+      "detalle": "Crecimiento grupal sobre una base de unos 400"
+    },
+    {
+      "valor": "10",
+      "etiqueta": "Dimensiones críticas",
+      "detalle": "Todos los perfiles en rojo"
+    },
+    {
+      "valor": "1",
+      "etiqueta": "Gran oportunidad",
+      "detalle": "Entre los veinte mejores dips del mundo"
+    }
+  ],
+  "participantes": [
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ Social (Facilitadora)",
+      "correo": "",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Mayra Caro",
+      "cargo": "Dirección, Klaren's. Principal punto de contacto del proyecto",
+      "correo": "mcaro@klarens.com.co",
+      "modalidad": "Virtual",
+      "nivel": "Inicial"
+    }
+  ],
+  "mapa_calor_intro": "Índice de madurez de los perfiles después del pre kick off. El diagnóstico se levantó con Mayra como vocera del equipo, revisando los perfiles en pantalla. Todas las dimensiones salen en rojo, que es el punto de partida esperado de un equipo que nunca ha trabajado su presencia profesional.",
+  "riesgos": [
+    {
+      "titulo": "Fotografía de perfil profesional",
+      "nivel": "CRITICO",
+      "descripcion": "**Vacía en 4 de los 5 perfiles y en la página de empresa.** _Un perfil cambió su foto antes de la sesión, sin coordinación previa con la mentoría._",
+      "responsable": "Equipo / Antes del kick off"
+    },
+    {
+      "titulo": "Banner y fondo estratégico",
+      "nivel": "CRITICO",
+      "descripcion": "**Un perfil tiene banner instalado pero sin estrategia definida. Todos los demás, vacíos.** _Queda pendiente que el diseñador entregue tres opciones por perfil._",
+      "responsable": "Diseñador / Esta semana"
+    },
+    {
+      "titulo": "Titular con palabras clave",
+      "nivel": "CRITICO",
+      "descripcion": "**Todos vacíos.** _Las palabras clave se seleccionaron en esta sesión._ Estructura definida: **cargo, empresa, palabras clave y diferencial propio.**",
+      "responsable": "Equipo / Semana 1 y 2"
+    },
+    {
+      "titulo": "Extracto y resumen estratégico",
+      "nivel": "CRITICO",
+      "descripcion": "**Todos vacíos.** _El texto está por construir, alineado con el posicionamiento de Klaren's:_ suero costeño, cien por ciento natural, cero grasas trans.",
+      "responsable": "Equipo / Semana 1 y 2"
+    },
+    {
+      "titulo": "Experiencia documentada y destrezas",
+      "nivel": "CRITICO",
+      "descripcion": "**Todos vacíos.** _Requiere documentar logros cuantitativos y contribuciones al negocio,_ e incluir validaciones de pares del propio equipo.",
+      "responsable": "Equipo / Semana 1 y 2"
+    },
+    {
+      "titulo": "Publicaciones y participación en la red",
+      "nivel": "CRITICO",
+      "descripcion": "**Nadie publica de forma activa y la página de empresa lleva alrededor de un año sin publicaciones.** _El equipo no comenta ni comparte contenido de la marca._ **Es la dimensión con mayor oportunidad de impacto inmediato.**",
+      "responsable": "Equipo / Semana 3 y 4"
+    },
+    {
+      "titulo": "Nivel de madurez y Social Selling Index",
+      "nivel": "ALTO",
+      "descripcion": "**Todos los perfiles en nivel bajo.** _El índice se estimó entre 15 y 25 por perfil a partir de la conversación, no verificado en la plataforma._ **Meta al cierre: nivel PRO, con el semáforo en verde y el índice por encima de 50.**",
+      "responsable": "Cada participante / Inmediato"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "CRITICO",
+      "titulo": "La formalización del proyecto estaba pendiente",
+      "descripcion": "**Mientras no esté cerrada la formalización, el kick off oficial no se puede agendar.** _Es el bloqueante número uno del proyecto y de él depende todo el cronograma que viene abajo._",
+      "responsable": "Sandra Curvelo y Mayra Caro",
+      "plazo": "2 de septiembre de 2026"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "La página de empresa lleva alrededor de un año inactiva",
+      "descripcion": "**La página de Klaren's en LinkedIn no tiene publicaciones recientes.** _El contenido más reciente es de hace aproximadamente un año._ Esto afecta directamente el alcance orgánico de la marca y la credibilidad ante clientes y aliados. **Es el perfil con mayor oportunidad de impacto inmediato.**",
+      "responsable": "Mayra Caro",
+      "plazo": "Estrategia de contenido, semana 3 y 4"
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "El Social Selling Index no tiene datos reales",
+      "descripcion": "**Los valores que aparecen en esta acta son estimaciones basadas en la conversación.** _Ninguno fue verificado directamente en la plataforma._ **Sin una línea base real no es posible medir el progreso del proyecto de forma objetiva.**",
+      "responsable": "Cada participante",
+      "plazo": "Antes del kick off"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Hubo cambios en los perfiles antes del inicio formal",
+      "descripcion": "**Un perfil cambió su fotografía antes de la sesión sin coordinación, y otro tiene un banner instalado sin estrategia definida.** _Son acciones de buena intención_, pero **representan un riesgo de inconsistencia si no se alinean con la estrategia que se está construyendo.**",
+      "responsable": "Mayra Caro, para comunicarlo al equipo",
+      "plazo": "Antes del kick off"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El diagnóstico de los cinco perfiles",
+      "duracion": "~30 min",
+      "objetivo": "Medir el punto de partida antes de tocar nada.",
+      "pasos": [
+        "**Se revisaron los perfiles en pantalla, uno por uno, con Mayra como vocera del equipo**",
+        "_Se levantó el índice de madurez sobre diez dimensiones:_ foto, banner, titular, extracto, experiencia, destrezas, recomendaciones, publicaciones, participación en la red y modo creador",
+        "**Las diez salieron en rojo**, que es el punto de partida de un equipo que nunca ha trabajado su presencia profesional",
+        "**Contactos confirmados en sesión:** Mayra 29 y Paola 39. _El resto quedó por confirmar_",
+        "_El índice de Social Selling se estimó, no se verificó,_ **y quedó anotado como tal para no partir de un número falso**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Las palabras clave del titular",
+      "duracion": "~15 min",
+      "objetivo": "Fijar por qué términos tiene que aparecer el equipo en las búsquedas.",
+      "pasos": [
+        "**Estructura del titular definida:** cargo, empresa, palabras clave y diferencial propio del área",
+        "**Seleccionadas para el titular:** industria de alimentos, sabor caribeño, socialmente responsables, embajador vallenato, origen natural, cero grasas trans, sour cream y marca líder en suero",
+        "_En el universo de reserva quedaron:_ suero costeño artesanal, entre los veinte mejores dips del mundo, cien por ciento natural, sin preservantes artificiales, salud y bienestar, aditivos naturales, producción colombiana, tradicional costeño, gastronomía caribeña y auténtico sabor regional",
+        "**Las palabras clave son comunes a todo el equipo salvo el diferencial de cada área**"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · La hoja de ruta de los dos meses",
+      "duracion": "~20 min",
+      "objetivo": "Dejar el cronograma escrito antes de empezar.",
+      "pasos": [
+        "**Fase 0, pre kick off:** canal del proyecto creado, grabación y acta subidas, ejemplos de banner enviados",
+        "**Fase 1, kick off oficial:** fotografía profesional de Mayra, diseño final de banners, acceso de administración a la página de empresa y captura de las métricas iniciales",
+        "**Semanas 1 y 2:** titulares con palabras clave, extractos, sección de experiencia y modo creador en todos los perfiles activos",
+        "**Semanas 3 y 4:** estrategia de contenido iniciada en perfiles y página, _y primer reporte del índice ya verificado_",
+        "**Semanas 5 y 6:** revisión del mapa de calor, ajuste de táctica para los perfiles rezagados e inicio de la red activa",
+        "**Semanas 7 y 8:** cierre del ciclo con el reporte final de índice compuesto, índice verificado y crecimiento de red",
+        "**Hito final, fin de octubre:** _todos los perfiles en estado PRO, más de 2.500 contactos nuevos en el grupo y el índice por encima de 50 por perfil_"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 1 · 1 septiembre 2026",
+      "titulo": "Klaren's está entre los veinte mejores dips del mundo y no lo dice en ninguna parte",
+      "descripcion": "**Durante la sesión se reveló que el suero costeño de Klaren's aparece en la lista de los veinte mejores dips del mundo.** _Es un diferencial competitivo que ningún competidor latinoamericano puede replicar._ **Hoy no aparece en ningún titular, extracto ni contenido de LinkedIn de los perfiles del equipo.** _Es la palanca de posicionamiento más poderosa de la estrategia._ La ejecución incluye titular actualizado con esa referencia, publicaciones que expliquen el proceso artesanal y una serie de video corto con el producto en contexto gastronómico.",
+      "estado": "Confirmado en sesión, por activar",
+      "proximo_paso": "Contenido de posicionamiento, serie de publicaciones y video corto",
+      "target": "Semanas 3 y 4"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 1 · 1 septiembre 2026",
+      "titulo": "La página de empresa es la pieza con más recorrido disponible",
+      "descripcion": "**Lleva alrededor de un año sin publicar, así que cualquier actividad sostenida mueve el indicador desde cero.** _No compite con el trabajo de los perfiles: lo amplifica._ **Es el único activo del proyecto que ya existe, ya tiene audiencia y no hay que construir desde cero.**",
+      "estado": "Diagnosticado en sesión",
+      "proximo_paso": "Entrar a la estrategia de contenido con frecuencia semanal",
+      "target": "Semanas 3 y 4"
+    }
+  ],
+  "tareas_intro": "La sesión reparte los compromisos en dos bloques: los de la mentoría, que preparan el terreno, y los de Klaren's, que son los que desbloquean el kick off oficial.",
+  "tareas": [
+    {
+      "tarea": "Crear el canal del proyecto con todos los participantes",
+      "responsable": "Sandra Curvelo",
+      "prioridad": "ALTA",
+      "plazo": "Inmediato"
+    },
+    {
+      "tarea": "Subir la grabación de la sesión y el acta de compromisos al canal",
+      "responsable": "Sandra Curvelo",
+      "prioridad": "ALTA",
+      "plazo": "Inmediato"
+    },
+    {
+      "tarea": "Enviar el documento con ejemplos de banners estratégicos para el diseñador",
+      "responsable": "Sandra Curvelo",
+      "prioridad": "ALTA",
+      "plazo": "2 de septiembre"
+    },
+    {
+      "tarea": "Agregar a la mentoría como administradora de la página de empresa en LinkedIn",
+      "responsable": "Mayra Caro",
+      "prioridad": "URGENTE",
+      "plazo": "Lo antes posible"
+    },
+    {
+      "tarea": "Tomar capturas de las métricas iniciales de la página de empresa, en vista de administración",
+      "responsable": "Mayra Caro",
+      "prioridad": "ALTA",
+      "plazo": "Antes del kick off"
+    },
+    {
+      "tarea": "Encargar al diseñador el banner de perfil y de empresa, tres opciones de cada uno",
+      "responsable": "Mayra Caro",
+      "prioridad": "ALTA",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Avisar cuando el banner esté listo para agendar el perfil de Mayra y el kick off oficial",
+      "responsable": "Mayra Caro",
+      "prioridad": "ALTA",
+      "plazo": "Tan pronto esté listo"
+    },
+    {
+      "tarea": "Verificar el Social Selling Index real en la plataforma y reportarlo al canal",
+      "responsable": "Cada participante",
+      "prioridad": "ALTA",
+      "plazo": "Antes del kick off"
+    },
+    {
+      "tarea": "Confirmar los contactos iniciales de los perfiles que faltan",
+      "responsable": "Mayra Caro",
+      "prioridad": "MEDIA",
+      "plazo": "Antes del kick off"
+    }
+  ],
+  "observaciones": [
+    "**Un perfil fue retirado del proyecto antes de iniciar y el cambio no se documentó formalmente.** _Se recomienda dejar constancia en el canal._",
+    "**La formalización es el paso bloqueante:** _hasta no cerrarla no se puede agendar el kick off oficial ni iniciar la ejecución._",
+    "**Los índices que aparecen en esta acta son estimados a partir de la conversación.** _Cada participante debe verificar el suyo directamente en LinkedIn y reportarlo al canal._ **Un número estimado sirve para conversar, no para medir.**",
+    "**Mayra actuó como vocera del equipo.** _Los otros cuatro perfiles no estuvieron presentes, así que sus datos de contactos y configuración quedan por confirmar._",
+    "**La página de empresa lleva alrededor de un año sin publicaciones.** _Es el hallazgo más urgente a resolver una vez arranque la ejecución._",
+    "**Por política del programa, las condiciones comerciales del proyecto no se consignan en esta acta ni en ningún otro entregable.** _Los compromisos que aparecen arriba son los de ejecución._"
+  ],
+  "proxima_sesion": {
+    "sesion": "Klaren's, kick off oficial. Se agenda en cuanto estén los banners y cerrada la formalización",
+    "condiciones": [
+      "El canal del proyecto creado con todo el equipo dentro",
+      "Los banners de perfil y de empresa entregados por el diseñador",
+      "La mentoría con acceso de administración a la página de empresa",
+      "Las métricas iniciales de la página capturadas",
+      "El índice de Social Selling verificado por cada participante"
+    ],
+    "agenda": [
+      "La fotografía profesional de Mayra y el diseño final de los banners",
+      "La optimización de titulares con las palabras clave seleccionadas",
+      "El extracto y la sección de experiencia de los perfiles activos",
+      "La activación del modo creador en todos los perfiles"
+    ]
+  },
+  "pie": "IAM™ Social · Documento Confidencial | Klaren's | 1 septiembre 2026 | Dirección · Sesión 1"
+}

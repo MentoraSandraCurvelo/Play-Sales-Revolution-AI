@@ -85,6 +85,54 @@ def enlazar_adjuntos(mensajes, carpeta):
     return n
 
 
+MENTORIA = 'Sandra Curvelo'
+
+
+def asistencia_de(canales):
+    """Las vistas de asistencia y de personas, armadas con los informes de cada acta.
+
+    La plantilla espera tres listas que en Comfacesar salen de los informes de
+    Teams. Aqui salen de lo que cada acta declara en su clave `informe`, que es
+    lo mismo medido a mano. La facilitadora va aparte, en `mentoria`, para que
+    no compita en el ranking con el equipo del cliente."""
+    gente, sesiones = {}, []
+    for c in canales:
+        for a in c.get('actas') or []:
+            inf = a.get('informe')
+            if not inf:
+                continue
+            num = a.get('sesion_num') or 0
+            sesiones.append({
+                'titulo': a.get('subtitulo_meta') or a.get('archivo'),
+                'fecha': a.get('iso', ''), 'hora': '',
+                'duracion_min': inf.get('duracion_min', 0),
+                'media_min': inf.get('media_min', 0),
+                'canal': c['canal'], 'sesion': num,
+                'archivo': a.get('archivo', ''),
+                'participantes': inf.get('participantes') or [],
+            })
+            for q in inf.get('participantes') or []:
+                r = gente.setdefault(q['nombre'], {
+                    'nombre': q['nombre'], 'cargo': '', 'correo': q.get('correo') or '',
+                    'minutos': 0, 'sesiones': []})
+                r['minutos'] += q.get('minutos', 0)
+                r['correo'] = r['correo'] or (q.get('correo') or '')
+                r['sesiones'].append({'canal': c['canal'], 'sesion': num,
+                                      'fecha': a.get('iso', ''),
+                                      'minutos': q.get('minutos', 0),
+                                      'rol': q.get('rol', '')})
+            for q in a.get('participantes') or []:
+                if q.get('nombre') in gente and q.get('cargo'):
+                    gente[q['nombre']]['cargo'] = q['cargo']
+    for r in gente.values():
+        r['sesiones'].sort(key=lambda x: x['fecha'], reverse=True)
+    equipo = sorted((r for n, r in gente.items() if n != MENTORIA),
+                    key=lambda r: -r['minutos'])
+    mentoria = [r for n, r in gente.items() if n == MENTORIA]
+    sesiones.sort(key=lambda x: x['fecha'], reverse=True)
+    return equipo, mentoria, sesiones
+
+
 def personas_de(canales):
     """Quien escribio en los canales que el cliente trae de Slack.
 
@@ -161,19 +209,21 @@ def paquete(cfg):
     rel = cfg.get('fuente_archivos')
     adjuntos = (rel if not rel or os.path.isabs(rel)
                 else os.path.join(LUCIA, rel))
+    hechos = [canal_vacio(c, adjuntos) for c in canales]
+    asistencia = asistencia_de(hechos)
     if not canales:
         raise SystemExit('a %s.json le faltan los canales' % cfg['slug'])
     return {
         'espacio': cfg['espacio'],
         'cliente': cfg['nombre'],
         'programa': cfg['programa'],
-        'canales': [canal_vacio(c, adjuntos) for c in canales],
+        'canales': hechos,
         # Todo lo que la vista del archivo lee y un cliente nuevo no tiene.
         'personas': personas_de(canales),
         'n_grabaciones': sum(len(c.get('grabaciones') or []) for c in canales),
-        'asistencia': [],
-        'mentoria': [],
-        'sesiones_informe': [],
+        'asistencia': asistencia[0],
+        'mentoria': asistencia[1],
+        'sesiones_informe': asistencia[2],
         'semanas': [],
         'pulso': [],
         'pulso_actas': [],

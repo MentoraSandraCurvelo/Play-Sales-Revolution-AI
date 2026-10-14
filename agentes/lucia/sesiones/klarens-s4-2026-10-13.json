@@ -1,0 +1,401 @@
+{
+  "proyecto": "Klaren's",
+  "programa": "IAM™ Social",
+  "anio": "2026",
+  "area": "Equipo comercial",
+  "area_completa": "",
+  "sesion_num": 4,
+  "fase": "Marca profesional y Social Selling",
+  "fecha": "13 de octubre de 2026",
+  "fecha_corta": "13octubre2026",
+  "subtitulo_meta": "Equipo comercial · 13 de octubre de 2026 · 3:00 p. m. · 1 h 18 min",
+  "datos_sesion": [
+    [
+      "Frente",
+      "Equipo comercial, Klaren's"
+    ],
+    [
+      "Sesión",
+      "N° 4. Lanzamiento oficial del proyecto con todo el equipo"
+    ],
+    [
+      "Fecha",
+      "13 de octubre de 2026"
+    ],
+    [
+      "Duración de la sesión",
+      "1 hora 18 minutos"
+    ],
+    [
+      "Modalidad",
+      "Virtual, por Microsoft Teams"
+    ],
+    [
+      "Asistencia",
+      "Equipo comercial, Talento Humano y Marketing. Mayra Caro no pudo acompañar la sesión"
+    ],
+    [
+      "Grabación",
+      "Publicada en el canal y en la carpeta del cliente"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo, Mentora IAM™ Social"
+    ]
+  ],
+  "kpis": [
+    {
+      "valor": "388",
+      "etiqueta": "Contactos del equipo hoy",
+      "detalle": "La meta del programa son 3.000"
+    },
+    {
+      "valor": "13 %",
+      "etiqueta": "Avance de la red",
+      "detalle": "Punto de partida medido en sesión"
+    },
+    {
+      "valor": "77 %",
+      "etiqueta": "Criticidad de los perfiles",
+      "detalle": "Solo un 8 % está listo para la estrategia"
+    },
+    {
+      "valor": "2",
+      "etiqueta": "Perfiles que no existen",
+      "detalle": "Jesús López y Rosa Altahona"
+    },
+    {
+      "valor": "500",
+      "etiqueta": "Contactos nuevos por persona",
+      "detalle": "La meta individual de las ocho semanas"
+    }
+  ],
+  "participantes": [
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Liliana Restrepo",
+      "cargo": "Coordinadora, zona Occidente",
+      "correo": "",
+      "modalidad": "Virtual, 1 h 13 min",
+      "nivel": "Inicial"
+    },
+    {
+      "nombre": "Allan Jimenez",
+      "cargo": "Coordinador, zona Costa",
+      "correo": "",
+      "modalidad": "Virtual, 1 h 4 min",
+      "nivel": "Inicial"
+    },
+    {
+      "nombre": "Katherin Cristancho",
+      "cargo": "Coordinadora, zona Centro, operación Bogotá",
+      "correo": "",
+      "modalidad": "Virtual, 1 h 4 min",
+      "nivel": "Inicial"
+    },
+    {
+      "nombre": "Rosa Altahona",
+      "cargo": "Jefe de Talento Humano",
+      "correo": "raltahona@klarens.com.co",
+      "modalidad": "Virtual, 1 h 3 min",
+      "nivel": "Sin perfil"
+    },
+    {
+      "nombre": "Jesús López",
+      "cargo": "Comunicador Visual",
+      "correo": "marketing@klarens.com.co",
+      "modalidad": "Virtual, 12 min. Entró en el minuto 62",
+      "nivel": "Sin perfil"
+    },
+    {
+      "nombre": "Mayra Caro",
+      "cargo": "Líder de Marketing y Ventas, sponsor del proyecto",
+      "correo": "mcaro@klarens.com.co",
+      "modalidad": "No pudo acompañar la sesión",
+      "nivel": "Inicial"
+    }
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 4. El lanzamiento se hizo y el equipo respondió bien, así que lo que queda en rojo no es la metodología: es quién todavía no existe en LinkedIn y una objeción de fondo que conviene no dejar pasar.",
+  "riesgos": [
+    {
+      "titulo": "Dos de los siete perfiles del programa todavía no existen",
+      "nivel": "ALTO",
+      "descripcion": "**Jesús López no tiene cuenta de LinkedIn y a Rosa Altahona no se la encontró en la plataforma.** _Se dijo en sesión, con la radiografía en pantalla._ El programa se vendió sobre siete líderes, seis personas más la página de compañía, **y hoy solo cuatro perfiles están medidos.** _Jesús lleva esa tarea pendiente desde la sesión 2, del 29 de septiembre._",
+      "responsable": "Jesús López y Rosa Altahona / Esta semana"
+    },
+    {
+      "titulo": "Una objeción de fondo que no se resolvió en la sesión",
+      "nivel": "ALTO",
+      "descripcion": "**Liliana Restrepo dijo que su vida profesional no la define su trabajo en Klaren's**, y antes había dicho que no es de redes sociales y que le quedan dudas. _Fue la que más tiempo estuvo conectada, 1 hora 13 minutos, así que no es desinterés: es una objeción real._ Se acordó resolverla en su sesión individual. **Un perfil construido sobre una persona que no quiere volcarlo a la empresa no se sostiene solo después de las ocho semanas.**",
+      "responsable": "Sandra Curvelo / En la sesión individual de perfil"
+    },
+    {
+      "titulo": "Jesús entró en el minuto 62 de una sesión de 78",
+      "nivel": "MEDIO",
+      "descripcion": "**Informó que no se pudo conectar porque tenía temas de prioridad.** _Entró cuando quedaban dieciséis minutos y se perdió la metodología completa, la radiografía y las reglas del juego._ Es quien toma las fotografías de todo el equipo y quien maneja la página de compañía, **así que es el que menos puede quedarse fuera del criterio.**",
+      "responsable": "Jesús López / Antes de su sesión individual"
+    },
+    {
+      "titulo": "Una competidora regional más pequeña ocupa el posicionamiento de Klaren's",
+      "nivel": "MEDIO",
+      "descripcion": "**En la comparación presentada, La Mejor habla en LinkedIn de tradición y sabor costeño, que es exactamente el territorio de Klaren's.** _Puede ser una empresa más pequeña y aun así tiene la vocería digital por encima._ Alpina lidera el sector con contenido educativo y recetas, Colanta con sostenibilidad e historias de productores, Alquería con tecnología y cadena de frío. **El territorio está ocupado por quien llegó antes, no por quien es más grande.**",
+      "responsable": "Equipo comercial / Fase de contenido"
+    },
+    {
+      "titulo": "La operación de Bogotá presiona la agenda de Katherin",
+      "nivel": "MEDIO",
+      "descripcion": "**Katherin Cristancho se desconectó a los cinco minutos y volvió**, y al cierre explicó que su operación es distinta a la de las otras zonas y que la estaban presionando por no estar. _Pidió que las sesiones grupales sean a primera hora de la mañana y Liliana estuvo de acuerdo._ **El proyecto se declara exitoso por encima del 85 % de asistencia, así que la franja horaria no es un detalle de cortesía.**",
+      "responsable": "Sandra Curvelo / Al programar las grupales"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Que los cinco agenden su sesión individual de perfil",
+      "descripcion": "**El enlace de agendamiento está en el marcador del canal.** _Sin los perfiles construidos no se puede pasar a la fase de red, que es la que mueve el indicador._ **La agenda la pone cada uno, no la mentoría.**",
+      "responsable": "Equipo comercial",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Crear los perfiles de LinkedIn de Jesús y de Rosa",
+      "descripcion": "**Sin cuenta no hay perfil, no hay medición y no hay línea base.** _El de Jesús viene pendiente desde el 29 de septiembre._ Son dos de los seis perfiles del programa.",
+      "responsable": "Jesús López y Rosa Altahona",
+      "plazo": "Antes de su sesión individual"
+    },
+    {
+      "num": "03",
+      "nivel": "MEDIO",
+      "titulo": "Entregar las fotografías que faltan",
+      "descripcion": "**Jesús informó que ya tiene las de Allan y las de Rosa y que se las pasó a la mentoría.** _Faltan las de Katherin y Liliana, y él quedó de coordinarlas durante la semana._ Criterio: fondo limpio, de la cintura hacia arriba, sin filtros, con la camisa institucional.",
+      "responsable": "Jesús López",
+      "plazo": "Esta semana"
+    },
+    {
+      "num": "04",
+      "nivel": "MEDIO",
+      "titulo": "Enviar al canal la presentación, el instructivo y las palabras clave",
+      "descripcion": "**Se prometió en sesión:** la minuta, la grabación, la presentación, el enlace de agendamiento y el instructivo de perfil con las palabras clave definidas. _Las palabras clave son las mismas para todos, menos el rol._",
+      "responsable": "Sandra Curvelo",
+      "plazo": "Hoy"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Cómo nos vamos a comunicar",
+      "duracion": "~7 min",
+      "objetivo": "Sacar el proyecto de WhatsApp y dejarlo en un solo canal con registro.",
+      "pasos": [
+        "**Se descartó WhatsApp de forma explícita:** _no permite la comunicación integrada con los tableros y no tiene el nivel de cifrado que exige el proyecto_",
+        "**Se recorrió el canal en pantalla:** los marcadores de arriba, la carpeta de agendamiento y dónde quedan los archivos",
+        "**Se escribe por el canal, nunca por mensaje directo.** _Lo que va por directo no lo ve el agente y se pierde_",
+        "Se explicó que hay una agente que entra al canal y hace el monitoreo, **y que su reporte lo lee Mayra como sponsor**",
+        "_Rosa y Katherin aceptaron la invitación durante la sesión._ Liliana ya la había aceptado",
+        "**Se anunció que del canal se pasará a IAM™Hello más adelante**, cuando el equipo esté habituado"
+      ]
+    },
+    {
+      "titulo": "Ejercicio B · Qué es y qué no es este proyecto",
+      "duracion": "~12 min",
+      "objetivo": "Separar un taller de LinkedIn de una estrategia comercial de ocho semanas.",
+      "pasos": [
+        "**No es un taller, no es un curso de LinkedIn, no es una agencia que active la voz de la marca, y no se buscan likes.** _Un taller termina cuando se apaga el proyector_",
+        "**Sí es un sistema con método instalado en ocho semanas** sobre siete líderes, seis personas más la página de compañía",
+        "_Se distinguió marca personal de marca profesional:_ **la profesional es la que se monetiza con el conocimiento.** Aquí se trabaja la profesional",
+        "**Se trabaja venta B2B dentro de LinkedIn, no Instagram.** _Cada red tiene su propósito, pero la reputación es una sola_",
+        "Se mostró el caso del perfil incongruente: **impecable en LinkedIn y en modo fiesta permanente en Instagram.** _La huella digital es la que se consulta, no la que se declara_",
+        "**La confianza migró del logo a las personas:** el contenido compartido desde los perfiles duplica la interacción frente al de la marca, _y los colaboradores alcanzan diez veces más conexiones que la página_"
+      ]
+    },
+    {
+      "titulo": "Ejercicio C · La radiografía de Klaren's hoy",
+      "duracion": "~10 min",
+      "objetivo": "Fijar el punto de partida antes de tocar un solo perfil.",
+      "pasos": [
+        "**Se mostró el mapa de calor de los perfiles, con su colorimetría:** rojo es el campo inactivo, amarillo activo pero sin estrategia, verde apalancable",
+        "**77 % de criticidad, 15 % apalancable y solo un 8 % listo** para desplegar la estrategia",
+        "_La red hoy:_ Allan 170, Liliana 115, Katherin 73 y Mayra 29. **Total del equipo, 388 contactos**",
+        "**La meta son 500 por persona y 3.000 en el grupo**, con un avance actual del 13 %",
+        "_El criterio de los 500 no es arbitrario:_ se citó un estudio de mercado del sector de mentoría en LinkedIn, **y se aclaró que son 500 con quien de verdad se pueda hacer negocio**",
+        "Se comparó con el sector: _Alpina por encima de 150.000 seguidores, Colanta 40.000, Alquería 22.000, La Mejor 3.000._ **La cifra de Klaren's se mencionó de dos formas distintas en la misma sesión, 1.000 y 600, y queda por confirmar**",
+        "**Dos perfiles sin existir**, Jesús y Rosa, _y la página de compañía sin actividad de publicación_"
+      ]
+    },
+    {
+      "titulo": "Ejercicio D · Qué se trabaja en un perfil",
+      "duracion": "~8 min",
+      "objetivo": "Que cada uno sepa qué va a construir en su sesión individual.",
+      "pasos": [
+        "**La fotografía:** fondo limpio, de la cintura hacia arriba, sin escote, sin piscina ni palmera, sin filtros. _Se descartan negocios por la foto_",
+        "**El titular con palabras clave**, la experiencia y el extracto contado en clave de cliente",
+        "**El banner corporativo, que ya está definido:** _no muestra producto, muestra la representación humana de la marca_",
+        "**La URL personalizada y la actividad que el algoritmo registra:** a quién se le da me gusta, qué se comenta, cómo se habla",
+        "_Se mostró el perfil de Mayra antes y después_ **como la pieza modelo que todos replican**",
+        "**Las palabras clave son las mismas para todo el equipo salvo el rol**, y van en un instructivo. _No las decide cada uno por su lado_"
+      ]
+    },
+    {
+      "titulo": "Ejercicio E · Las reglas del juego",
+      "duracion": "~5 min",
+      "objetivo": "Dejar por escrito qué sostiene el proyecto y qué lo rompe.",
+      "pasos": [
+        "**Sesiones de una hora, en punto.** _La estrategia está programada minuto a minuto_",
+        "**Cámaras activadas.** Es un proyecto de interacción y de aprendizaje, _no una transmisión_",
+        "**Todas las sesiones se graban** y cada una deja acta y resumen en el canal",
+        "**El proyecto se considera exitoso por encima del 85 % de asistencia.** _Quien va a dos de diez sesiones no tiene credibilidad para evaluar el resultado_",
+        "**Se medirá con una encuesta de NPS, en los dos sentidos:** el equipo evalúa la mentoría y la mentoría evalúa al equipo",
+        "**Todavía no se publica.** _Allan preguntó si podía empezar ya y se le dijo que no:_ el perfil no está en condiciones y la fase de contenido llega después"
+      ]
+    },
+    {
+      "titulo": "Ejercicio F · El cierre, uno por uno",
+      "duracion": "~10 min",
+      "objetivo": "Oír la expectativa real de cada quien antes de empezar.",
+      "pasos": [
+        "**Allan Jimenez:** quiere empezar a publicar ya _y pidió que su sesión sea presencial._ Se aceptó",
+        "**Liliana Restrepo:** veía LinkedIn como algo personal, no es de redes _y dijo que su vida profesional no la define su trabajo en Klaren's._ Se pasó a su sesión individual",
+        "**Rosa Altahona:** quiere que la marca sea visible a nivel nacional, _porque contratar en Valledupar es fácil y fuera es complicado_",
+        "_Rosa aportó un dato de narrativa:_ **la inversión en el programa de televisión hizo que el interior del país conociera el suero**, y eso ayudó a la venta de los coordinadores",
+        "**Katherin Cristancho:** su operación en Bogotá es distinta a las demás y está bajo presión, _pero entra con disposición_",
+        "**Jesús López:** pone sus conocimientos audiovisuales al servicio del equipo _y ya entregó las fotos de Allan y de Rosa_"
+      ]
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 4 · 13 octubre 2026",
+      "titulo": "Talento Humano llegó al kick off con un problema concreto que LinkedIn resuelve",
+      "descripcion": "**Rosa Altahona dijo que cubrir una vacante en Valledupar es fácil y fuera es complicado, porque la marca no se conoce.** _Es el mismo frente que Mayra pidió el 7 de octubre, ahora con el caso de uso en la mesa y con la persona dentro del proyecto._ **Marca empleadora y atracción de talento por LinkedIn no está en el alcance de las ocho semanas, y es el cliente quien lo trae por segunda vez.**",
+      "estado": "Planteado por la jefa de Talento Humano en sesión",
+      "proximo_paso": "Definir si entra en el alcance actual o como una propuesta aparte",
+      "target": "Antes del cierre de octubre"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 4 · 13 octubre 2026",
+      "titulo": "El equipo pidió adelantar el horario, y eso sostiene la asistencia",
+      "descripcion": "**Katherin pidió que las sesiones grupales sean a primera hora de la mañana y Liliana estuvo de acuerdo de inmediato.** _No es una preferencia menor:_ el proyecto se declara exitoso por encima del 85 % de asistencia, **y una franja que el equipo propone se cumple mejor que una que se le impone.** _Son vendedores: la tarde es cuando el cliente llama._",
+      "estado": "Acordado en sesión, pendiente de aplicar",
+      "proximo_paso": "Programar las grupales en la mañana desde la fase de red",
+      "target": "Siguiente sesión grupal"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 4 · 13 octubre 2026",
+      "titulo": "El territorio de Klaren's está ocupado en LinkedIn por una marca más pequeña",
+      "descripcion": "**La Mejor comunica tradición y sabor costeño, que es exactamente el posicionamiento de Klaren's**, y lo hace con más vocería digital aun siendo una empresa menor. _Alpina, Colanta y Alquería ocupan contenido educativo, sostenibilidad y cadena de frío._ **Queda libre el relato que ninguna está contando: la reconversión industrial de Klaren's y el liderazgo de categoría que respalda el estudio de Nielsen.** _Ese es el contenido ancla y no lo tiene nadie más._",
+      "estado": "Diagnóstico presentado al equipo",
+      "proximo_paso": "Construirlo en la fase de contenido, con el informe de Nielsen en mano",
+      "target": "Fase de contenido"
+    },
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 4 · 13 octubre 2026",
+      "titulo": "Allan quiere empezar hoy y pidió verse en persona",
+      "descripcion": "**Preguntó dos veces si ya podía publicar y pidió que su sesión de perfil fuera presencial.** _Dijo que siempre había querido este tipo de enseñanza._ Es el que más red tiene del equipo, 170 contactos, **y el único que pidió acelerar.** _En un grupo con una objeción de fondo y dos perfiles sin crear, el que empuja es un activo que conviene usar como referencia interna._ Se le pidió esperar a la fase de contenido para no publicar sin estrategia.",
+      "estado": "Sesión presencial aceptada",
+      "proximo_paso": "Agendarla y usar su avance como ejemplo para el resto",
+      "target": "Esta semana"
+    }
+  ],
+  "tareas_intro": "La fase de perfiles es individual y arranca esta semana. Sin los seis perfiles construidos no se pasa a la fase de red, que es la que mueve el indicador de 388 a 3.000.",
+  "tareas": [
+    {
+      "tarea": "Agendar la sesión individual de perfil desde el enlace del canal",
+      "responsable": "Allan, Liliana, Katherin, Rosa y Jesús",
+      "prioridad": "URGENTE",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Crear el perfil personal de LinkedIn",
+      "responsable": "Jesús López y Rosa Altahona",
+      "prioridad": "URGENTE",
+      "plazo": "Antes de su sesión individual"
+    },
+    {
+      "tarea": "Poner al día a Mayra con la grabación y el resumen del kick off",
+      "responsable": "Sandra Curvelo",
+      "prioridad": "ALTA",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Enviar al canal la presentación, el instructivo de perfil y las palabras clave",
+      "responsable": "Sandra Curvelo",
+      "prioridad": "ALTA",
+      "plazo": "Hoy"
+    },
+    {
+      "tarea": "Tomar y entregar las fotografías de Katherin y de Liliana",
+      "responsable": "Jesús López",
+      "prioridad": "ALTA",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Trabajar el bloque de página de compañía en la próxima sesión con Mayra",
+      "responsable": "Sandra Curvelo",
+      "prioridad": "ALTA",
+      "plazo": "Próxima sesión con Mayra"
+    },
+    {
+      "tarea": "Resolver en sesión individual la objeción de Liliana sobre volcar su perfil a Klaren's",
+      "responsable": "Sandra Curvelo",
+      "prioridad": "ALTA",
+      "plazo": "En su sesión de perfil"
+    },
+    {
+      "tarea": "Agendar la sesión de perfil de Allan en modalidad presencial",
+      "responsable": "Allan Jimenez",
+      "prioridad": "MEDIA",
+      "plazo": "Esta semana"
+    },
+    {
+      "tarea": "Programar las sesiones grupales en horario de mañana",
+      "responsable": "Sandra Curvelo",
+      "prioridad": "MEDIA",
+      "plazo": "Desde la fase de red"
+    },
+    {
+      "tarea": "Confirmar el número real de seguidores de la página de compañía",
+      "responsable": "Sandra Curvelo",
+      "prioridad": "MEDIA",
+      "plazo": "Antes del próximo corte"
+    },
+    {
+      "tarea": "Definir fecha y alcance del frente de marca empleadora con Talento Humano",
+      "responsable": "Rosa Altahona y Sandra Curvelo",
+      "prioridad": "MEDIA",
+      "plazo": "Antes del cierre de octubre"
+    }
+  ],
+  "observaciones": [
+    "**El informe de asistencia escribe los nombres distinto a como los lleva el tablero del proyecto:** Katherin Cristancho y Allan Jimenez, frente a Katerin y Alan. _Se publica con la forma del informe de asistencia y queda anotado para que el tablero se unifique._",
+    "**La meta de red que se presentó al equipo son 3.000 contactos, 500 por persona.** _El tablero del proyecto venía con 3.500._ Hay que alinear las dos cifras antes del primer corte, **porque es el número con el que se evalúa el programa.**",
+    "**La cifra de seguidores de la página se dijo de dos maneras en la misma sesión**, mil al principio y seiscientos en la comparación con el sector. _Queda como pendiente de verificar y no se publica ninguna de las dos hasta confirmarla._",
+    "**La objeción de Liliana es la más seria del kick off y no vino de quien menos participó: fue la que más tiempo estuvo conectada.** _Dijo que su vida profesional no la define su trabajo en Klaren's y pidió hablarlo en privado._ Se atiende en su sesión individual, no en grupo.",
+    "**El cierre uno por uno es lo que más información dio de toda la sesión.** _Allan quiere acelerar, Rosa trajo un problema concreto de contratación, Katherin está bajo presión operativa y Liliana puso una objeción de fondo._ **Sin esa ronda, el acta diría que el kick off salió bien y ya.**",
+    "_Rosa aportó un dato de narrativa que vale para la fase de contenido:_ **la inversión de Klaren's en un programa de televisión de alcance nacional hizo que el interior del país conociera el suero costeño**, y eso se tradujo en venta para los coordinadores. _Es un antecedente de que la visibilidad mueve el producto, contado por alguien de la casa._",
+    "**El equipo quedó enterado de que existe una agente que monitorea el canal y cuyo reporte lee Mayra como sponsor.** _Se dijo en voz alta durante la sesión._"
+  ],
+  "proxima_sesion": {
+    "sesion": "Klaren's, Sesión 5 y siguientes. Sesiones individuales de perfil, una por persona, durante la semana del 13 de octubre",
+    "condiciones": [
+      "Cada uno con su sesión agendada desde el enlace del canal",
+      "Los perfiles de Jesús y de Rosa creados",
+      "Las fotografías de los seis entregadas",
+      "El instructivo de perfil y las palabras clave recibidos por el canal",
+      "Todos dentro del canal, no por mensaje directo"
+    ],
+    "agenda": [
+      "La construcción del perfil de cada uno, en vivo y en pantalla compartida",
+      "El titular, el extracto y la identidad de búsqueda, con las palabras clave comunes",
+      "La medición individual de red y de Social Selling Index como línea base",
+      "Al terminar los seis, la fase grupal de red estratégica"
+    ]
+  },
+  "pie": "IAM™ Social · Documento Confidencial | Klaren's | 13 octubre 2026 | Equipo comercial · Sesión 4"
+}
