@@ -133,12 +133,21 @@
   var baseCanales = null;
   function mezclarCanales(A, vivos) {
     if (!baseCanales) baseCanales = (A.canales || []).slice();
-    var yaEsta = {};
-    baseCanales.forEach(function (c) { yaEsta[c.canal] = true; });
+    var porSlug = {};
+    baseCanales.forEach(function (c) { porSlug[c.canal] = c; });
     var suma = baseCanales.slice();
     vivos.forEach(function (c) {
-      if (yaEsta[c.canal]) return;   /* uno de la página manda sobre uno de db */
-      yaEsta[c.canal] = true;
+      var ya = porSlug[c.canal];
+      if (ya) {
+        /* Un canal de la página no se duplica ni se reemplaza: lo que llega de
+           `db` con su mismo nombre corto es un cambio de nombre o de icono, y
+           se aplica encima. Así se puede renombrar un canal que nació dentro
+           del archivo, sin tocar el archivo. */
+        if (c.nombre) ya.nombre = c.nombre;
+        if (typeof c.icono === 'string') ya.icono = c.icono;
+        return;
+      }
+      porSlug[c.canal] = c;
       suma.push(c);
     });
     A.canales = suma;
@@ -264,14 +273,18 @@
   var ETIQ = 'display:block;margin-top:10px;font:600 11px Geist,system-ui,sans-serif;'
     + 'letter-spacing:.06em;text-transform:uppercase;color:var(--ink3,#8a8a92)';
 
-  function montarCanales(crear) {
+  function montarCanales(crear, renombrar) {
     var boton = document.createElement('button');
     boton.type = 'button';
-    boton.textContent = '+  Nuevo canal';
+    boton.textContent = '+  Canales';
     boton.style.cssText = BOTON_NUEVO;
 
     var panel = document.createElement('div');
     panel.style.cssText = PANEL;
+
+    var lSel = document.createElement('label'); lSel.style.cssText = ETIQ; lSel.textContent = 'Qué quieres hacer';
+    var sel = document.createElement('select'); sel.style.cssText = CAMPO_N;
+
     var lNom = document.createElement('label'); lNom.style.cssText = ETIQ; lNom.textContent = 'Nombre del canal';
     var nom = document.createElement('input'); nom.type = 'text'; nom.style.cssText = CAMPO_N; nom.maxLength = 60;
     var lIco = document.createElement('label'); lIco.style.cssText = ETIQ; lIco.textContent = 'Icono';
@@ -288,61 +301,111 @@
 
     var aviso = document.createElement('div');
     aviso.style.cssText = 'margin-top:8px;font:500 11.5px Geist,system-ui,sans-serif;color:var(--ink3,#8a8a92);line-height:1.45';
-    aviso.textContent = 'Un canal cerrado solo lo ven y lo escriben quienes pueden editar este espacio.';
 
     var pie = document.createElement('div');
     pie.style.cssText = 'display:flex;gap:8px;margin-top:14px';
-    var crearBtn = document.createElement('button');
-    crearBtn.type = 'button'; crearBtn.textContent = 'Crear';
-    crearBtn.style.cssText = 'flex:1;height:36px;border-radius:10px;border:0;background:#C00000;'
+    var ok = document.createElement('button');
+    ok.type = 'button';
+    ok.style.cssText = 'flex:1;height:36px;border-radius:10px;border:0;background:#C00000;'
       + 'color:#fff;font:620 13px Geist,system-ui,sans-serif;cursor:pointer;text-align:center';
     var cancelar = document.createElement('button');
-    cancelar.type = 'button'; cancelar.textContent = 'Cancelar';
+    cancelar.type = 'button'; cancelar.textContent = 'Cerrar';
     cancelar.style.cssText = 'flex:none;height:36px;padding:0 12px;border-radius:10px;'
       + 'border:1px solid var(--line2,rgba(255,255,255,.14));background:transparent;'
       + 'color:var(--ink3,#8a8a92);font:600 13px Geist,system-ui,sans-serif;cursor:pointer';
-    pie.appendChild(crearBtn); pie.appendChild(cancelar);
+    pie.appendChild(ok); pie.appendChild(cancelar);
 
     var nota = document.createElement('div');
-    nota.style.cssText = 'margin-top:8px;font:500 11.5px Geist,system-ui,sans-serif;color:var(--ink3,#8a8a92)';
+    nota.style.cssText = 'margin-top:8px;font:500 11.5px Geist,system-ui,sans-serif;color:var(--ink3,#8a8a92);line-height:1.45';
 
-    [lNom, nom, lIco, ico, fila, aviso, pie, nota].forEach(function (e) { panel.appendChild(e); });
+    /* Invitar no es cosa del canal: se invita al espacio entero, desde el menú
+       de compartir de la página, y solo lo puede hacer quien es dueño. Aquí no
+       se finge un botón que no existe: se dice dónde está el que sí existe. */
+    var invitar = document.createElement('div');
+    invitar.style.cssText = 'margin-top:14px;padding-top:12px;border-top:1px solid var(--line2,rgba(255,255,255,.12));'
+      + 'font:500 11.5px Geist,system-ui,sans-serif;color:var(--ink3,#8a8a92);line-height:1.5';
+    invitar.innerHTML = '<b style="color:var(--ink,#f2f2f3)">Para invitar a alguien</b><br>'
+      + 'se invita al espacio entero, no al canal, desde el men\u00fa de compartir de esta p\u00e1gina. '
+      + 'Como <b style="color:var(--ink,#f2f2f3)">colaborador</b> para que escriba, como lector para que solo lea.';
+
+    [lSel, sel, lNom, nom, lIco, ico, fila, aviso, pie, nota, invitar]
+      .forEach(function (e) { panel.appendChild(e); });
     document.body.appendChild(boton);
     document.body.appendChild(panel);
+
+    function listaCanales() {
+      var A = window.ARCHIVO;
+      return ((A && A.canales) || []).filter(function (c) { return !c.cerrado || puedeEditar; });
+    }
+
+    function llenarSelect() {
+      var antes = sel.value;
+      sel.innerHTML = '';
+      var o0 = document.createElement('option');
+      o0.value = ''; o0.textContent = 'Crear un canal nuevo';
+      sel.appendChild(o0);
+      listaCanales().slice().sort(function (a, b) {
+        return (a.nombre || a.canal).localeCompare(b.nombre || b.canal, 'es', { sensitivity: 'base' });
+      }).forEach(function (c) {
+        var o = document.createElement('option');
+        o.value = c.canal;
+        o.textContent = 'Renombrar  ' + (c.cerrado ? '\u{1F512} ' : (c.icono ? c.icono + ' ' : '')) + (c.nombre || c.canal);
+        sel.appendChild(o);
+      });
+      if (antes) sel.value = antes;
+    }
+
+    function modo() {
+      var slug = sel.value;
+      var editando = !!slug;
+      ok.textContent = editando ? 'Guardar' : 'Crear';
+      fila.style.display = editando ? 'none' : 'flex';
+      nota.textContent = '';
+      if (editando) {
+        var c = listaCanales().filter(function (x) { return x.canal === slug; })[0];
+        nom.value = c ? (c.nombre || c.canal) : '';
+        ico.value = c ? (c.icono || '') : '';
+        aviso.textContent = 'Cambia el nombre y el icono. Si quieres que pase de abierto a cerrado o al rev\u00e9s, d\u00edmelo: eso mueve los mensajes de sitio y no se hace con un clic.';
+      } else {
+        nom.value = ''; ico.value = ''; cerr.checked = false;
+        aviso.textContent = 'Un canal cerrado solo lo ven y lo escriben quienes pueden editar este espacio.';
+      }
+    }
+    sel.addEventListener('change', modo);
 
     function abrir(si) {
       panel.style.display = si ? 'block' : 'none';
       boton.style.display = si ? 'none' : (puedeEditar ? 'inline-flex' : 'none');
-      if (si) { nota.textContent = ''; nom.focus(); }
+      if (si) { llenarSelect(); sel.value = ''; modo(); nom.focus(); }
     }
     boton.addEventListener('click', function () { abrir(true); });
     cancelar.addEventListener('click', function () { abrir(false); });
 
-    var creando = false;
+    var trabajando = false;
     function hacer() {
       var n = nom.value.trim();
-      if (!n || creando) { if (!n) nota.textContent = 'Ponle un nombre.'; return; }
-      creando = true; crearBtn.disabled = true; nota.textContent = 'Creando\u2026';
-      crear(n, ico.value, cerr.checked).then(function () {
-        nom.value = ''; ico.value = ''; cerr.checked = false;
-        creando = false; crearBtn.disabled = false;
+      if (trabajando) return;
+      if (!n) { nota.textContent = 'Ponle un nombre.'; return; }
+      trabajando = true; ok.disabled = true;
+      nota.textContent = sel.value ? 'Guardando\u2026' : 'Creando\u2026';
+      var p = sel.value ? renombrar(sel.value, n, ico.value) : crear(n, ico.value, cerr.checked);
+      p.then(function () {
+        trabajando = false; ok.disabled = false;
         abrir(false);
       })['catch'](function (err) {
-        creando = false; crearBtn.disabled = false;
+        trabajando = false; ok.disabled = false;
         var c = err && err.code;
         nota.textContent =
           c === 'ya_existe' ? 'Ya hay un canal con ese nombre.' :
-          c === 'nombre_vacio' ? 'Ese nombre no deja ningún texto utilizable.' :
+          c === 'nombre_vacio' ? 'Ese nombre no deja ning\u00fan texto utilizable.' :
           (c === 'permission_denied' || c === 'not_granted')
-            ? 'No tienes permiso para crear canales aquí.'
-            : 'No se pudo crear. Vuelve a intentarlo.';
+            ? 'No tienes permiso para esto aqu\u00ed.'
+            : 'No se pudo guardar. Vuelve a intentarlo.';
       });
     }
-    crearBtn.addEventListener('click', hacer);
+    ok.addEventListener('click', hacer);
     nom.addEventListener('keydown', function (ev) { if (ev.key === 'Enter') hacer(); });
 
-    /* El botón aparece cuando se sabe que quien mira puede editar, y eso llega
-       más tarde que el primer pintado. */
     setInterval(function () {
       if (panel.style.display === 'block') return;
       boton.style.display = puedeEditar ? 'inline-flex' : 'none';
@@ -394,13 +457,17 @@
            vacío a quien no es editor, así que no hace falta preguntar nada: la
            lista que llega ya es la que esa persona puede ver. */
         var canalesVivos = {};
+        /* slug -> {col, id}, para poder renombrar después sin volver a buscar. */
+        var dondeVive = {};
 
         function alLlegarCanales(cual, cerrado) {
           return function (snap) {
             var A = window.ARCHIVO;
             if (!A || !A.canales) return;
             canalesVivos[cual] = snap.docs.map(function (d) {
-              return canalNuevo(d.data() || {}, cerrado);
+              var o = d.data() || {};
+              if (o.canal) dondeVive[String(o.canal)] = { col: cual, id: d.id };
+              return canalNuevo(o, cerrado);
             }).filter(function (c) { return !!c.canal; });
             var todos = [];
             for (var k in canalesVivos) { if (canalesVivos[k]) todos = todos.concat(canalesVivos[k]); }
@@ -433,8 +500,24 @@
           });
         }
 
-        if (document.body) montarCanales(crearCanal);
-        else document.addEventListener('DOMContentLoaded', function () { montarCanales(crearCanal); });
+        /* Renombrar. Si el canal nació en `db` se actualiza su documento. Si
+           nació dentro de la página no hay documento que tocar, así que se
+           crea uno con su mismo nombre corto: la mezcla lo lee como un cambio
+           de nombre y lo aplica encima, sin tocar el archivo. */
+        function renombrarCanal(slug, nombre, icono) {
+          var n = String(nombre || '').trim();
+          if (!n) return Promise.reject({ code: 'nombre_vacio' });
+          var donde = dondeVive[slug];
+          var campos = { nombre: n, icono: String(icono || '').trim() };
+          if (donde) return db.collection(donde.col).doc(donde.id).update(campos);
+          campos.canal = slug;
+          campos.id = slug.toUpperCase();
+          campos.creado = new Date().toISOString();
+          return db.collection(COL_CANALES).add(campos);
+        }
+
+        if (document.body) montarCanales(crearCanal, renombrarCanal);
+        else document.addEventListener('DOMContentLoaded', function () { montarCanales(crearCanal, renombrarCanal); });
 
         /* Una suscripción por colección, fuera del pintado. Cada una guarda
            lo suyo y en cada aviso se rehace la lista entera: así un mensaje no

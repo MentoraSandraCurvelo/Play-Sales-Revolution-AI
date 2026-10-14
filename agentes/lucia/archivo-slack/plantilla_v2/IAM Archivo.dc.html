@@ -1012,7 +1012,7 @@ class Component extends DCLogic {
     const sel = on => on ? { bg:'var(--redsoft)', color:'var(--ink)' } : { bg:'transparent', color:'var(--ink2)' };
     base.nav = [['portada','⌂','Resumen',''],['actas','◷','Actas',T.actas],['grabaciones','▶','Grabaciones',A.n_grabaciones],['asistencia','◉','Asistencia',A.asistencia.length],['personas','◍','Personas',T.gente],['archivos','◰','Archivos',T.arch]]
       .map(([tipo,ic,label,n]) => ({ ic, label, n, ...sel(v.tipo === tipo), go:() => this.ir({ tipo, canal:null, acta:null, persona:null }) }));
-    base.chans = A.canales.filter(c => !c.cerrado || this.puedeEditar).map(c => { const on = v.tipo === 'canal' && v.canal === c.canal; return { nombre:c.nombre, n:c.conteo, ic:(c.cerrado ? '\u{1F512}' : (c.icono || '#')), ...sel(on), hash: on ? 'var(--redt)' : 'var(--ink3)', spark:this.spark(c.pulso, 40, 14).pts, go:() => this.ir({ tipo:'canal', canal:c.canal, pestana:'mensajes', acta:null }) }; });
+    base.chans = A.canales.filter(c => !c.cerrado || this.puedeEditar).slice().sort((a, b) => (a.nombre || a.canal).localeCompare(b.nombre || b.canal, 'es', { sensitivity: 'base' })).map(c => { const on = v.tipo === 'canal' && v.canal === c.canal; return { nombre:c.nombre, n:c.conteo, ic:(c.cerrado ? '\u{1F512}' : (c.icono || '#')), ...sel(on), hash: on ? 'var(--redt)' : 'var(--ink3)', spark:this.spark(c.pulso, 40, 14).pts, go:() => this.ir({ tipo:'canal', canal:c.canal, pestana:'mensajes', acta:null }) }; });
     base.nCanales = base.chans.length; base.totalMsg = I.miles(T.msg); base.totActas = T.actas;
 
     if (s.pal){
