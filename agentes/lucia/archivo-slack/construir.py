@@ -370,6 +370,13 @@ def main():
     actas = cargar_actas()
     fijados = json.load(open(os.path.join(AQUI, 'fijados.json'), encoding='utf-8'))
 
+    # raw/ guarda todo lo que el conector alcanza, incluidos los canales de
+    # otros clientes y los que se archivaron vacios. Aqui entra solo Comfacesar.
+    fuera = [c['canal'] for c in archivo['canales'] if c['canal'] not in NOMBRE]
+    if fuera:
+        print('  fuera de Comfacesar:', ', '.join(sorted(fuera)))
+    archivo['canales'] = [c for c in archivo['canales'] if c['canal'] in NOMBRE]
+
     for c in archivo['canales']:
         c['nombre'] = NOMBRE.get(c['canal'], c['canal'])
         c['actas'] = actas.get(c['canal'], [])

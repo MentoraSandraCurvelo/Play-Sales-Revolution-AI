@@ -47,7 +47,10 @@ def rutas(html):
 
 
 def main():
-    carpeta = sys.argv[1] if len(sys.argv) > 1 else os.path.join(AQUI, 'entregable')
+    # Absoluta siempre: Chrome resuelve file:// desde la raiz, no desde el
+    # directorio de trabajo, y una ruta relativa devuelve ERR_INVALID_URL
+    # en las 189 vistas, que se leen como si la app estuviera vacia.
+    carpeta = os.path.abspath(sys.argv[1]) if len(sys.argv) > 1 else os.path.join(AQUI, 'entregable')
     html = next(os.path.join(carpeta, f) for f in sorted(os.listdir(carpeta)) if f.endswith('.html'))
     todas = rutas(html)
     print('%s\n%d vistas por probar\n' % (html, len(todas)))

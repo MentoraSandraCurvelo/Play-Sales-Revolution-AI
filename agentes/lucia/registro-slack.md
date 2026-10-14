@@ -1961,3 +1961,56 @@ KPIs. Uno diciendo $253 y el otro $355 es peor que no tocar ninguno.
 **La fila de IPS.** Dos meses a cinco minutos, el acta de su S2 pide registrarla, y sigue sin
 minutos porque nadie ha dicho si esos dos meses son de calendario o de trabajo efectivo.
 Sandra se lo pidió a Danilo por el canal el 9 de octubre y no hay respuesta.
+
+---
+
+## 14 de octubre · El archivo se pone al día con Slack
+
+El archivo se había quedado en el **30 de septiembre**. Faltaban dos semanas enteras, que son
+justo las del cierre de la fase 1.
+
+**Entraron 135 mensajes nuevos en 17 canales.** El archivo pasa de 992 a 1.127 mensajes, y
+el de Comfacesar de 799 a 898. Los adjuntos suben de 145 a 162 y las grabaciones de 104 a
+120. Las 16 actas de octubre ya estaban escritas; lo que faltaba era la conversación
+alrededor de ellas.
+
+*Lo que trae ese tramo no es relleno:* las sesiones 11, 12 y 13 de varias áreas, el aviso de
+que la fase 1 cierra el viernes 9, las caídas de sesión de Tecnología y Sub. Operativa, y la
+despedida de Agencia de Empleo.
+
+### Por qué no entró solo
+
+`extraer.py` guarda un canal únicamente cuando el volcado nuevo es más largo que el guardado,
+que es lo correcto para no pisar una lectura completa con una parcial. Pero una lectura
+*desde una fecha* siempre es más corta, así que lo nuevo nunca entraba. Se añadió
+`fusionar.py`, que parte los dos volcados en mensajes, los junta por marca de tiempo y vuelve
+a escribir el canal entero. Nada se pierde y nada se duplica.
+
+### Klaren's deja de estar vacío
+
+El canal de Klaren's llevaba desde el 1 de septiembre en Slack y la app no mostraba ni un
+mensaje. Ahora trae **28 mensajes, 5 adjuntos, 3 grabaciones y sus personas**, del 1 de
+septiembre al 13 de octubre.
+
+Para eso `construir_cliente.py` aprendió tres cosas: un canal de cliente puede declarar
+`fuente_slack` y entonces no nace vacío; los adjuntos se enlazan por su ID de Slack como ya
+se hacía en Comfacesar; y las personas salen de quien escribió en ese canal, no de las 65 del
+taller entero.
+
+### Lo que no se pudo traer
+
+- **Tres actas de Klaren's existen solo como PDF**, la del pre kick off, la de la sesión 3 y
+  la de la sesión 4. Están descargadas y se abren desde el mensaje, pero no hay acta
+  estructurada en `sesiones/`, así que no se navegan como las de Comfacesar.
+- **Cuatro adjuntos de Comfacesar siguen sin bajar.** Dos informes de asistencia en CSV, un
+  video de Contabilidad y uno sin tipo. El servidor de archivos devuelve error al pedirlos.
+  Los PDF sí bajan.
+- **Los tres canales archivados están vacíos.** `team-finanzas`, `infraestructura` y
+  `presupuesto` solo tienen «se unió al canal» y «archivó el canal». No entran al archivo.
+
+### Dos arreglos de camino
+
+- `construir.py` filtra a los 19 canales de Comfacesar. `raw/` guarda todo lo que el conector
+  alcanza, y sin el filtro el archivo de Comfacesar se traía el canal de Klaren's.
+- `probar.py` resuelve la ruta a absoluta. Con una relativa, Chrome devolvía `ERR_INVALID_URL`
+  y las 189 vistas se leían como vacías, que parece una app rota y no lo era.

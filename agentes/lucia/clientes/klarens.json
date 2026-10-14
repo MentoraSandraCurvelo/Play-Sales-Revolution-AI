@@ -6,7 +6,7 @@
   "espacio": "IAM™Hello",
   "logo": "logos/klarens.png",
   "sigla": "K",
-  "estado": "en curso, sesión 3",
+  "estado": "en curso, sesión 4",
   "url": "https://claude.ai/artifact/Xag4QKnD178XtmMPetaoFi",
   "subtitulo": "Klaren's",
   "modo": "espacio",
@@ -20,7 +20,29 @@
       "nombre": "Klaren's",
       "id": "KLARENS-GENERAL",
       "fijados": [],
-      "grabaciones": [],
+      "grabaciones": [
+        {
+          "url": "https://netorg20780382-my.sharepoint.com/:v:/g/personal/sandracurvelo_iamlatam_co/IQB-CCVv0GlfQK_xlJmZeJb-AUluwfSZylrYTtmtk8uNty8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hDMWsm",
+          "titulo": "Sesión 1 · Pre Kick Off",
+          "sesion": 1,
+          "fecha": "2026-09-01",
+          "acta": false
+        },
+        {
+          "url": "https://netorg20780382-my.sharepoint.com/:v:/g/personal/sandracurvelo_iamlatam_co/IQBcePMpEiJoTJdLs4TzrPGWAeBT0rkGBCPFW34ygU_0Iww?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=WI0Y95",
+          "titulo": "Sesión 3 · Perfil de Mayra y Página de Compañía",
+          "sesion": 3,
+          "fecha": "2026-10-07",
+          "acta": false
+        },
+        {
+          "url": "https://netorg20780382-my.sharepoint.com/:v:/g/personal/sandracurvelo_iamlatam_co/IQB5T9E4ZTtESpbrwhc6QgzbAU5v89ovbSJIRntgUk7GtpI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=UdqENq",
+          "titulo": "Sesión 4 · Kick off IAM™ Social",
+          "sesion": 4,
+          "fecha": "2026-10-13",
+          "acta": false
+        }
+      ],
       "actas": [
         {
           "archivo": "klarens-s2-2026-09-29.json",
@@ -46,13 +68,14 @@
             ]
           }
         }
-      ]
+      ],
+      "fuente_slack": "iam-social-selling-klarens"
     }
   ],
   "generales": [],
   "nota_fijados": "Aquí van las carpetas de Dropbox del proyecto.",
   "fuente_actas": "salida/klarens",
-  "fuente_archivos": "",
+  "fuente_archivos": "clientes/adjuntos/klarens",
   "lema": "El espacio de trabajo del programa. Las actas, las grabaciones y la conversación del equipo, en un solo sitio y sin fecha de caducidad.",
   "nota_archivo": "Aquí no se borra nada con el tiempo. Cada sesión deja su acta, su grabación y lo que se habló, y <b style=\"color:var(--ink)\">todo queda</b> para consultarlo cuando haga falta."
 }
