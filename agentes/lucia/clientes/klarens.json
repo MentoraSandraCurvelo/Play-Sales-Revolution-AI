@@ -165,7 +165,8 @@
           }
         }
       ],
-      "fuente_slack": "iam-social-selling-klarens"
+      "fuente_slack": "iam-social-selling-klarens",
+      "desde": "2026-10-13"
     }
   ],
   "generales": [],

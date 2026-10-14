@@ -2070,3 +2070,27 @@ cruce que ya se había corregido con los adjuntos.*
 
 También se retiró un PDF de IPS duplicado, el mismo acta guardada dos veces con distinta
 grafía, `Ips` y `IPS`. Se queda la que apunta el mapa de PDF.
+
+### Klaren's arranca en su kick off
+
+Sandra borró de Slack el PDF con las condiciones comerciales. *Se comprobó leyendo el canal:
+el mensaje del 2 de septiembre sigue, pero el archivo ya no responde.* Con él se fue también
+el CSV de asistencia de la misma tanda, que no tenía nada sensible.
+
+**Y decidió algo mejor que ir tapando agujeros: que el espacio empiece en la sesión 4.** El
+kick off del 13 de octubre es cuando entra el equipo completo. *Lo anterior fueron sesiones
+de preparación con una sola persona*, y entre esos mensajes había un recado pidiendo el
+contrato firmado y la aceptación de la factura, que todo el equipo de Klaren's estaba viendo.
+
+El canal del cliente admite ahora una clave `desde`. **Recorta mensajes, actas, grabaciones,
+personas y asistencia a partir de esa fecha.** Es recorte de presentación, no de borrado: en
+`raw/`, en el archivo normalizado y en `sesiones/` queda todo.
+
+Klaren's pasa de 28 mensajes y 4 actas a **3 mensajes, 1 acta, 1 grabación y 5 personas en
+asistencia**, del 13 de octubre. Los PDF de las sesiones 2 y 3 salieron de la carpeta que la
+app publica y de los archivos del artefacto. *La app sirve ahora tres archivos y ninguno es
+de antes del kick off.*
+
+Dos contadores no respetaban el corte y se corrigieron: **las personas salían de la lectura
+completa** en vez de los mensajes mostrados, y **el total de grabaciones se calculaba sobre
+la declaración** en vez de sobre lo que queda.

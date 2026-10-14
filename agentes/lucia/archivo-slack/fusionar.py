@@ -30,8 +30,12 @@ def partir(texto):
 def volcados():
     """Todo texto 'Channel: #...' que aparezca en el registro de la sesion."""
     vistos = []
-    for f in glob.glob(os.path.join(LOGS, '*', 'tool-results',
-                                    'mcp-Slack-slack_read_channel-*.txt')):
+    # Por antiguedad: cuando el mismo mensaje aparece en dos lecturas, manda la
+    # ultima. Importa cuando Slack pierde un adjunto, porque la lectura nueva
+    # trae el bloque con el archivo ya marcado como no disponible.
+    for f in sorted(glob.glob(os.path.join(LOGS, '*', 'tool-results',
+                                           'mcp-Slack-slack_read_channel-*.txt')),
+                    key=os.path.getmtime):
         vistos.append(open(f, encoding='utf-8').read())
     for jl in glob.glob(os.path.join(LOGS, '*.jsonl')):
         for linea in open(jl, encoding='utf-8'):

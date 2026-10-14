@@ -60,6 +60,28 @@ def acta(spec):
     return d
 
 
+def recortar(slack, desde):
+    """Deja el canal a partir de una fecha, si el cliente declara `desde`.
+
+    Un espacio de cliente no siempre empieza el dia que nace el canal de Slack.
+    Klaren's arranca en su kick off: lo anterior fueron sesiones de preparacion
+    con una sola persona, con conversacion que no corresponde al equipo que hoy
+    entra a la app. El recorte es de presentacion, no de borrado: en `raw/` y en
+    el archivo normalizado queda todo."""
+    if not slack or not desde:
+        return slack
+    ms = [m for m in slack.get('mensajes') or [] if m.get('fecha', '') >= desde]
+    vivos = [m for m in ms if not m.get('sistema')]
+    q = dict(slack)
+    q['mensajes'] = ms
+    q['conteo'] = len(vivos)
+    q['conteo_total'] = len(ms)
+    q['desde'] = min((m['fecha'] for m in ms), default='')
+    q['hasta'] = max((m['fecha'] for m in ms), default='')
+    q['adjuntos'] = sum(len(m.get('adjuntos') or []) for m in ms)
+    return q
+
+
 def enlazar_adjuntos(mensajes, carpeta):
     """Apunta cada adjunto al archivo bajado de Slack, nombrado por su ID.
 
@@ -137,24 +159,23 @@ def asistencia_de(canales):
     return equipo, mentoria, sesiones
 
 
-def personas_de(canales):
+def personas_de(hechos):
     """Quien escribio en los canales que el cliente trae de Slack.
 
-    Se recorta a esos canales: el archivo normalizado lleva las 65 personas
-    del taller entero, y en el espacio de un cliente solo tiene sentido ver
-    a los suyos. Los contadores se recalculan sobre sus propios mensajes."""
-    nombres = [c['fuente_slack'] for c in canales if c.get('fuente_slack')]
-    if not nombres:
-        return []
-    d = json.load(open(ARCHIVO_SLACK, encoding='utf-8'))
-    suyos = {c['canal']: c for c in d['canales'] if c['canal'] in nombres}
+    Se cuenta sobre los mensajes que la app va a mostrar, ya recortados por
+    `desde`, y no sobre la lectura completa: si no, aparece gente que escribio
+    antes de que el espacio del cliente empezara. Los nombres y correos salen
+    del archivo normalizado, que es donde el conector los deja."""
     cuenta, vistos = {}, {}
-    for nombre, c in suyos.items():
-        for m in c['mensajes']:
+    for c in hechos:
+        for m in c.get('mensajes') or []:
             if m.get('sistema'):
                 continue
             cuenta[m['uid']] = cuenta.get(m['uid'], 0) + 1
-            vistos.setdefault(m['uid'], set()).add(nombre)
+            vistos.setdefault(m['uid'], set()).add(c['canal'])
+    if not cuenta:
+        return []
+    d = json.load(open(ARCHIVO_SLACK, encoding='utf-8'))
     salida = []
     for p in d['personas']:
         if p['uid'] in cuenta:
@@ -172,6 +193,7 @@ def canal_vacio(spec, adjuntos=None):
     Nace vacio salvo que el cliente declare `fuente_slack`: entonces trae la
     conversacion real de ese canal."""
     slack = canal_slack(spec['fuente_slack']) if spec.get('fuente_slack') else {}
+    slack = recortar(slack, spec.get('desde'))
     if slack:
         enlazados = enlazar_adjuntos(slack.get('mensajes') or [], adjuntos)
         print('  %s: %d mensajes de Slack, %d adjuntos enlazados'
@@ -196,13 +218,15 @@ def canal_vacio(spec, adjuntos=None):
         # Las actas que el cliente ya tiene. Se declaran en su archivo y el
         # contenido sale del acta de verdad, la de `sesiones/`, para que la app
         # muestre la misma que se publicó y no una copia que se desactualiza.
-        'actas': [acta(a) for a in (spec.get('actas') or [])],
+        'actas': [acta(a) for a in (spec.get('actas') or [])
+                  if not spec.get('desde') or a.get('iso', '') >= spec['desde']],
         'fijados': spec.get('fijados', []),
         # Un cliente nuevo no tiene grabaciones, pero puede traerlas de antes
         # de que su espacio existiera: las de Novasoft estaban dentro de la app
         # vieja y se habrían perdido al reconstruirla. Se declaran en el
         # archivo de cliente y entran aquí.
-        'grabaciones': spec.get('grabaciones', []),
+        'grabaciones': [g for g in (spec.get('grabaciones') or [])
+                        if not spec.get('desde') or g.get('fecha', '') >= spec['desde']],
         'informes': [],
         'pulso': [],
     }
@@ -223,8 +247,8 @@ def paquete(cfg):
         'programa': cfg['programa'],
         'canales': hechos,
         # Todo lo que la vista del archivo lee y un cliente nuevo no tiene.
-        'personas': personas_de(canales),
-        'n_grabaciones': sum(len(c.get('grabaciones') or []) for c in canales),
+        'personas': personas_de(hechos),
+        'n_grabaciones': sum(len(c.get('grabaciones') or []) for c in hechos),
         'asistencia': asistencia[0],
         'mentoria': asistencia[1],
         'sesiones_informe': asistencia[2],
