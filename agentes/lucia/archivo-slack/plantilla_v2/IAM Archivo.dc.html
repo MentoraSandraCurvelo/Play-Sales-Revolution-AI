@@ -1012,7 +1012,7 @@ class Component extends DCLogic {
     const sel = on => on ? { bg:'var(--redsoft)', color:'var(--ink)' } : { bg:'transparent', color:'var(--ink2)' };
     base.nav = [['portada','⌂','Resumen',''],['actas','◷','Actas',T.actas],['grabaciones','▶','Grabaciones',A.n_grabaciones],['asistencia','◉','Asistencia',A.asistencia.length],['personas','◍','Personas',T.gente],['archivos','◰','Archivos',T.arch]]
       .map(([tipo,ic,label,n]) => ({ ic, label, n, ...sel(v.tipo === tipo), go:() => this.ir({ tipo, canal:null, acta:null, persona:null }) }));
-    base.chans = A.canales.filter(c => !c.cerrado || this.puedeEditar).slice().sort((a, b) => (a.nombre || a.canal).localeCompare(b.nombre || b.canal, 'es', { sensitivity: 'base' })).map(c => { const on = v.tipo === 'canal' && v.canal === c.canal; return { nombre:c.nombre, n:c.conteo, ic:(c.cerrado ? '\u{1F512}' : (c.icono || '#')), ...sel(on), hash: on ? 'var(--redt)' : 'var(--ink3)', spark:this.spark(c.pulso, 40, 14).pts, go:() => this.ir({ tipo:'canal', canal:c.canal, pestana:'mensajes', acta:null }) }; });
+    base.chans = A.canales.filter(c => !c.cerrado || this.puedeEditar).slice().sort((a, b) => (a.nombre || a.canal).localeCompare(b.nombre || b.canal, 'es', { sensitivity: 'base' })).map(c => { const on = v.tipo === 'canal' && v.canal === c.canal; return { nombre:c.nombre, n:c.conteo, ic:(c.cerrado ? '\u{1F512}' : (c.icono || '\u{1F513}')), ...sel(on), hash: on ? 'var(--redt)' : 'var(--ink3)', spark:this.spark(c.pulso, 40, 14).pts, go:() => this.ir({ tipo:'canal', canal:c.canal, pestana:'mensajes', acta:null }) }; });
     base.nCanales = base.chans.length; base.totalMsg = I.miles(T.msg); base.totActas = T.actas;
 
     if (s.pal){
@@ -1062,7 +1062,7 @@ class Component extends DCLogic {
       const arch = []; for (const m of c.mensajes) for (const a of m.adjuntos) arch.push({ ...this.arch(a.tipo), nombre:a.nombre, sub:a.peso+' · '+a.tipo, fecha:I.fechaCorta(m.fecha), _f:m.fecha });
       arch.sort((x,y) => y._f.localeCompare(x._f));
       const acta = v.acta ? c.actas.find(x => x.archivo === v.acta) : null;
-      base.c = { nombre:c.nombre, canal:c.canal, tabs, ic:(c.cerrado ? '\u{1F512}' : (c.icono || '#')),
+      base.c = { nombre:c.nombre, canal:c.canal, tabs, ic:(c.cerrado ? '\u{1F512}' : (c.icono || '\u{1F513}')),
         stats:[{ v:c.conteo, l:'mensajes' },{ v:c.actas.length, l:'actas' },{ v:c.adjuntos, l:'archivos' },{ v:I.fechaCorta(c.desde)+' – '+I.fechaCorta(c.hasta), l:'' }],
         tabMsg: !v.acta && v.pestana === 'mensajes', tabActas: !v.acta && v.pestana === 'actas', showActa: !!acta, tabGrab: !v.acta && v.pestana === 'grabaciones', tabFij: !v.acta && v.pestana === 'fijados', tabArch: !v.acta && v.pestana === 'archivos',
         days: (!v.acta && v.pestana === 'mensajes') ? this.mensajes(c, v.sistema) : [],
