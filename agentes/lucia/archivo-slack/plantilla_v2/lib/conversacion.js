@@ -289,7 +289,7 @@
     var nom = document.createElement('input'); nom.type = 'text'; nom.style.cssText = CAMPO_N; nom.maxLength = 60;
     var lIco = document.createElement('label'); lIco.style.cssText = ETIQ; lIco.textContent = 'Icono';
     var ico = document.createElement('input'); ico.type = 'text'; ico.style.cssText = CAMPO_N; ico.maxLength = 4;
-    ico.placeholder = 'un emoji, o nada para \u{1F513}';
+    ico.placeholder = 'un emoji, o nada para \u{1F7E2}';
 
     var fila = document.createElement('label');
     fila.style.cssText = 'display:flex;align-items:center;gap:8px;margin-top:12px;cursor:pointer';
@@ -349,7 +349,7 @@
       }).forEach(function (c) {
         var o = document.createElement('option');
         o.value = c.canal;
-        o.textContent = 'Renombrar  ' + (c.cerrado ? '\u{1F512} ' : (c.icono || '\u{1F513}') + ' ') + (c.nombre || c.canal);
+        o.textContent = 'Renombrar  ' + (c.cerrado ? '\u{1F512} ' : (c.icono || '\u{1F7E2}') + ' ') + (c.nombre || c.canal);
         sel.appendChild(o);
       });
       if (antes) sel.value = antes;
