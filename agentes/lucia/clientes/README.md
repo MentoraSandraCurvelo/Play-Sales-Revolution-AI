@@ -67,24 +67,38 @@ nueva, y ese es el aislamiento de verdad.
     capabilities: {"db": {"rules": [{"path": "mensajes", "read": "view", "write": "interact"}]},
                    "user": {"scopes": ["profile"]}}
 
-La regla dice quién escribe: **leer, cualquiera que tenga acceso; escribir, de colaborador
-hacia arriba.** Y `scopes: ["profile"]` es lo que hace que salga el nombre de quien escribe en
-vez de «Alguien».
+La regla dice quién escribe: **leer, cualquiera que tenga acceso; escribir, de `interact`
+hacia arriba.** _En la práctica eso es el nivel Editor_, por lo que se explica más abajo. Y
+`scopes: ["profile"]` es lo que hace que salga el nombre de quien escribe en vez de «Alguien».
 
 ## Invitar a la gente del cliente
 
 **Esto sí lo hace Sandra, y solo ella**, porque es la dueña. Desde la propia app, en el menú
 de compartir, persona por persona y con su correo.
 
-| Lo que quieres | Qué nivel le das |
-|---|---|
-| Que lea el archivo y las actas, y no escriba | **Lector** |
-| Que lea y escriba en los canales | **Colaborador** |
-| Que además pueda tocar la app | **Editor**, y eso casi nunca hace falta |
+**El menú de compartir ofrece tres niveles, y solo uno sirve aquí.**
 
-**Compartir por enlace abierto no da permiso de escribir.** Quien entra así puede leer, pero
-para escribir tiene que estar invitado por su correo como colaborador. Es la diferencia entre
-mirar y participar, y se decide al invitar.
+| Nivel del menú | Qué puede hacer |
+|---|---|
+| **Editor** | Leer, escribir en los canales, abrir y descargar los documentos, ver los canales cerrados 🔒 y crear o renombrar canales |
+| Comentarista | Solo leer. El propio panel lo dice: no puede cambiar los datos del artefacto |
+| Visualizador | Solo leer |
+
+**La regla de los proyectos IAM™Hello es que todo el mundo entra como Editor.** No se usan los
+niveles de solo lectura: quien está en el espacio participa, y quien no participa no está.
+
+Eso trae dos consecuencias que conviene tener presentes:
+
+- **El enlace abierto hay que quitarlo.** Una persona de fuera de la organización invitada como
+  editor mantiene ese nivel _solo mientras el espacio no esté compartido también por enlace_.
+  Con el enlace encendido se queda en lectura, aunque el menú diga Editor. Y al apagarlo, el
+  enlace que ya se repartió deja de servir: toca invitar a todos por correo.
+- **Los canales cerrados 🔒 dejan de esconder nada.** Son visibles para quien puede editar, y
+  aquí puede editar todo el mundo. _En un espacio de un solo nivel, el candado es una etiqueta,
+  no una pared._ Lo que no deba ver alguien del equipo va en otro espacio, no en otro canal.
+
+**Las invitaciones caducan a los treinta días.** En un programa de ocho semanas eso cae a mitad
+de camino, así que conviene dejarlo en el calendario el día que se invita.
 
 **Y la persona necesita cuenta.** Sin sesión iniciada ve el archivo pero no le aparece el
 campo para escribir. _No es un error de la app: es que no sabe quién es._
