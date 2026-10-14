@@ -48,7 +48,11 @@ def acta(spec):
         raise SystemExit('el acta declarada no existe: %s' % ruta)
     d = json.load(open(ruta, encoding='utf-8'))
     d['archivo'] = spec['archivo']
-    d['pdf'] = 'actas/' + spec['pdf']
+    # Un acta puede quedarse sin PDF a proposito, cuando el original se retira
+    # porque llevaba dentro algo que no debe circular. El acta escrita sigue
+    # siendo la version vigente, asi que la vista se arma igual y solo deja de
+    # ofrecer el boton de abrir el PDF.
+    d['pdf'] = ('actas/' + spec['pdf']) if spec.get('pdf') else ''
     d['iso'] = spec.get('iso', '')
     d['grabacion'] = spec.get('grabacion', '')
     d['informe'] = spec.get('informe')

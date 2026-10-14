@@ -2046,3 +2046,27 @@ Caro», y los minutos se partían en dos. **Se unificó a la forma de Slack**, q
 cuando el listado y Slack no coinciden.
 
 **Klaren's queda en 15 de 15 vistas.**
+
+### Corrección sobre dónde estaba el contrato
+
+**Dije que el PDF del pre kick off estaba dentro de la app publicada de Klaren's. No era
+cierto.** Al listar los archivos que el artefacto sirve de verdad, resultó que solo llevaba
+el PDF de la sesión 2. *El del pre kick off estaba en la carpeta de construcción local y en
+el repositorio, nunca en la app.* **La exposición real era solo Slack.**
+
+Se retiró igualmente de las dos carpetas del repositorio y el acta de la sesión 1 queda sin
+PDF, con el acta escrita como versión vigente. `construir_cliente.py` admite ahora un acta
+sin PDF en vez de reventar.
+
+### Lo que el listado destapó de paso
+
+**Los PDF de las doce actas de octubre nunca se habían publicado.** Las publicaciones de hoy
+enviaban solo la página, y los archivos que no se mandan se conservan, así que nada se
+perdió, pero *los botones de «Abrir el PDF» de octubre no abrían nada.* Ya están arriba.
+
+**Y había dos PDF de Klaren's cayendo dentro de la app de Comfacesar.** Estaban sueltos en
+`salida/`, que es la carpeta que Comfacesar copia entera. Se sacaron. *Es el mismo tipo de
+cruce que ya se había corregido con los adjuntos.*
+
+También se retiró un PDF de IPS duplicado, el mismo acta guardada dos veces con distinta
+grafía, `Ips` y `IPS`. Se queda la que apunta el mapa de PDF.

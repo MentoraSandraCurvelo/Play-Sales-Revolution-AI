@@ -46,7 +46,6 @@
       "actas": [
         {
           "archivo": "klarens-s1-2026-09-01.json",
-          "pdf": "klarens-kickoff-v2.pdf",
           "iso": "2026-09-01",
           "grabacion": "https://netorg20780382-my.sharepoint.com/:v:/g/personal/sandracurvelo_iamlatam_co/IQB-CCVv0GlfQK_xlJmZeJb-AUluwfSZylrYTtmtk8uNty8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hDMWsm",
           "informe": {
@@ -66,7 +65,8 @@
                 "rol": "Asistente"
               }
             ]
-          }
+          },
+          "nota_pdf": "El PDF original se retiró. El acta escrita es la versión vigente."
         },
         {
           "archivo": "klarens-s2-2026-09-29.json",
