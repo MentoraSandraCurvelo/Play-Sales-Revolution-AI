@@ -2130,3 +2130,13 @@ cosas se resuelven con el mismo paso: enlace abierto fuera, invitación por corr
 **Se declaró solo en Klaren's.** Comfacesar tiene dieciocho áreas que pueden estar entrando por
 el enlace ahora mismo, y volverlo privado sin aviso las dejaría fuera. Los tres comparten la
 plantilla nueva; en los dos que no la declaran, el clip no se dibuja y nadie se entera.
+
+### Los tres espacios, privados y con archivos
+
+Sandra cerró los enlaces abiertos de los tres el 15 de octubre, así que la condición que
+bloqueaba el almacén desapareció. **La capacidad queda declarada en Comfacesar, Novasoft y
+Klaren's**, y los tres pasan a «solo el dueño y quien esté invitado».
+
+_Eso cambia el modo de entrar en los tres a la vez:_ **ya no hay enlace que repartir.** Nadie
+abre un espacio si no está invitado por su correo como Editor. En Comfacesar son dieciocho
+áreas que estaban entrando por el enlace y que ahora hay que invitar una por una.
