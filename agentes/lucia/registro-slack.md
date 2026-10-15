@@ -2094,3 +2094,39 @@ de antes del kick off.*
 Dos contadores no respetaban el corte y se corrigieron: **las personas salían de la lectura
 completa** en vez de los mensajes mostrados, y **el total de grabaciones se calculaba sobre
 la declaración** en vez de sobre lo que queda.
+
+## 15 de octubre · Subir archivos desde el chat
+
+El chat solo mandaba texto. **Ahora lleva un clip** que sube el archivo al elegirlo, lo muestra
+en una ficha con su peso y una × para quitarlo, y lo manda con el mensaje.
+
+_Del archivo se guarda el identificador, nunca la dirección._ La dirección vale solo para la
+vista de quien lo subió, y se reconstruye al pintar como `/_blob/<id>`, que es la única ruta
+desde la raíz que el artefacto sirve y resuelve en todas sus versiones.
+
+**Quitar el archivo lo borra del almacén de verdad**, que es la única vez que se puede borrar
+uno: una acción deliberada de la persona. Si no, quedaría basura que nadie reclama.
+
+### Lo que se comprobó
+
+Con un almacén simulado, los cuatro caminos:
+
+- **Un .pdf sin tipo declarado** por el navegador se sube igual, porque el tipo se elige por la
+  extensión. _El navegador no es de fiar aquí: un .csv en Windows llega como hoja de cálculo de
+  Microsoft y el almacén lo rechaza._
+- **Un .xlsx** se rechaza antes de subir, con el motivo en claro: para un Word o un Excel, el
+  enlace de la nube.
+- **Un archivo de 21 MB** se rechaza con su peso y el tope del tipo.
+- **La × borra** y el almacén recibe la orden.
+- **A quien solo lee no se le dibuja el clip**, porque el almacén le resuelve nulo.
+
+### La capacidad vuelve privado el espacio
+
+**Esto se confirmó publicando.** Klaren's estaba en «cualquiera con el enlace» y al declarar
+`assets` pasó a «solo tú», en la misma publicación y sin que nadie lo pidiera. _Es la misma
+condición que ya pedía el nivel Editor para gente de fuera de la organización_, así que las dos
+cosas se resuelven con el mismo paso: enlace abierto fuera, invitación por correo.
+
+**Se declaró solo en Klaren's.** Comfacesar tiene dieciocho áreas que pueden estar entrando por
+el enlace ahora mismo, y volverlo privado sin aviso las dejaría fuera. Los tres comparten la
+plantilla nueva; en los dos que no la declaran, el clip no se dibuja y nadie se entera.

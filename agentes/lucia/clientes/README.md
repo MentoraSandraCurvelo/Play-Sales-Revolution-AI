@@ -97,6 +97,28 @@ Eso trae dos consecuencias que conviene tener presentes:
   aquí puede editar todo el mundo. _En un espacio de un solo nivel, el candado es una etiqueta,
   no una pared._ Lo que no deba ver alguien del equipo va en otro espacio, no en otro canal.
 
+## Subir archivos desde el chat
+
+Se activa declarando una capacidad más al publicar:
+
+    capabilities: {"db": {...}, "user": {...}, "assets": {}}
+
+**Declararla vuelve el espacio privado.** No es una opción: la plataforma lo hace sola, y el
+enlace abierto deja de funcionar en el momento. _Se comprobó en Klaren's el 15 de octubre: la
+app pasó de «cualquiera con el enlace» a «solo tú» en la misma publicación._ Como el nivel
+Editor tampoco funciona para gente de fuera con el enlace encendido, **las dos cosas piden lo
+mismo** y conviene hacerlas juntas.
+
+**Solo sube quien puede escribir.** A quien solo lee, el almacén le resuelve nulo y el clip no
+se dibuja. No hay que esconderlo a mano.
+
+**El juego de tipos es cerrado y no incluye ofimática.** Entran imágenes, PDF, video, CSV,
+Markdown, JSON y texto. _No entran .docx, .xlsx, .pptx ni .zip._ Para esos, el enlace de la
+nube, que es lo que el equipo ya hace. El tope son 20 MB por archivo.
+
+Un espacio sin la capacidad declarada sigue funcionando igual: el clip no aparece y nadie se
+entera. _Por eso se puede encender cliente por cliente._
+
 **Las invitaciones caducan a los treinta días.** En un programa de ocho semanas eso cae a mitad
 de camino, así que conviene dejarlo en el calendario el día que se invita.
 

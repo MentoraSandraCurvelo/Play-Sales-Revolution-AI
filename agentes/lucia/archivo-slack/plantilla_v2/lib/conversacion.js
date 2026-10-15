@@ -181,6 +181,54 @@
   var BOTON = 'flex:none;height:42px;padding:0 18px;border-radius:999px;border:0;background:#C00000;'
     + 'color:#fff;font:620 14px Geist,system-ui,sans-serif;cursor:pointer';
   var NOTA = 'max-width:900px;margin:6px auto 0;font:500 12px Geist,system-ui,sans-serif;color:var(--ink3,#8a8a92)';
+  var CLIP = 'flex:none;width:42px;height:42px;border-radius:999px;border:1px solid var(--linea,#2a2a30);'
+    + 'background:transparent;color:var(--ink2,#b9b9c0);font:400 19px Geist,system-ui,sans-serif;cursor:pointer';
+  var FICHA = 'max-width:900px;margin:0 auto 8px;display:flex;align-items:center;gap:10px;padding:9px 12px;'
+    + 'border:1px solid var(--linea,#2a2a30);border-radius:12px;background:var(--fondo2,#121216)';
+  var QUITA = 'flex:none;width:24px;height:24px;border-radius:999px;border:0;background:transparent;'
+    + 'color:var(--ink3,#8a8a92);font:400 17px Geist,system-ui,sans-serif;cursor:pointer;line-height:1'
+
+  /* ---- archivos ----------------------------------------------------------
+     El almacén del artefacto acepta un juego cerrado de tipos, y no están los
+     de ofimática: nada de .docx, .xlsx, .pptx ni .zip. Para esos el equipo
+     sigue pegando el enlace de la nube, que es lo que ya hace. Aquí se eligen
+     por extensión porque el tipo que declara el navegador no es de fiar: un
+     .csv en Windows llega como application/vnd.ms-excel y el almacén lo
+     rechaza. */
+  var TIPOS = {
+    png: 'image/png', jpg: 'image/jpeg', jpeg: 'image/jpeg', gif: 'image/gif',
+    webp: 'image/webp', svg: 'image/svg+xml',
+    mp4: 'video/mp4', webm: 'video/webm',
+    pdf: 'application/pdf',
+    csv: 'text/csv', md: 'text/markdown', json: 'application/json',
+    txt: 'text/plain', css: 'text/css', js: 'text/javascript'
+  };
+  var TOPE = { 'image/svg+xml': 2, 'text/css': 16, 'text/javascript': 16 };
+
+  function extDe(nombre) {
+    var m = /\.([A-Za-z0-9]+)$/.exec(String(nombre || ''));
+    return m ? m[1].toLowerCase() : '';
+  }
+
+  function pesoDe(b) {
+    if (b >= 1048576) return (b / 1048576).toFixed(1) + ' MB';
+    if (b >= 1024) return Math.round(b / 1024) + ' KB';
+    return b + ' B';
+  }
+
+  /* El almacén devuelve su propio motivo. Se traduce aquí para que la persona
+     lea qué hacer y no un código. */
+  function porQueNo(err) {
+    var c = err && err.code;
+    if (c === 'too_large') return 'El archivo pesa demasiado. El tope son 20 MB.';
+    if (c === 'unsupported_type') return 'Ese tipo de archivo no se puede subir aquí.';
+    if (c === 'quota_or_state') return 'El espacio de archivos está lleno. Avísame y lo reviso.';
+    if (c === 'rate_limited') return 'Vas muy rápido. Espera un momento y vuelve a intentarlo.';
+    if (c === 'upstream_auth') return 'Se perdió la sesión. Recarga la página y entra otra vez.';
+    if (c === 'not_granted' || c === 'capability_disabled' || c === 'capability_removed')
+      return 'No tienes permiso para subir archivos en este espacio.';
+    return 'No se pudo subir el archivo. Vuelve a intentarlo.';
+  }
 
   function canalDelHash() {
     var t = decodeURIComponent(String(location.hash || '').replace(/^#\/?/, '')).split('/').filter(Boolean);
@@ -189,7 +237,7 @@
     return t[0];
   }
 
-  function montar(enviar) {
+  function montar(enviar, almacen) {
     var caja = document.createElement('div');
     caja.id = 'iam-escribir';
     caja.style.cssText = CAJA;
@@ -205,8 +253,31 @@
     boton.style.cssText = BOTON;
     var nota = document.createElement('div');
     nota.style.cssText = NOTA;
+
+    /* El clip solo existe si el almacén respondió. A quien solo lee le
+       resuelve nulo, así que no ve el botón en vez de verlo y que falle. */
+    var clip = null, archivo = null, ficha = null, subiendo = false;
+    if (almacen) {
+      clip = document.createElement('button');
+      clip.type = 'button';
+      clip.textContent = '\uD83D\uDCCE';
+      clip.title = 'Adjuntar un archivo';
+      clip.setAttribute('aria-label', 'Adjuntar un archivo');
+      clip.style.cssText = CLIP;
+      archivo = document.createElement('input');
+      archivo.type = 'file';
+      archivo.style.display = 'none';
+      archivo.accept = Object.keys(TIPOS).map(function (e) { return '.' + e; }).join(',');
+      ficha = document.createElement('div');
+      ficha.style.cssText = FICHA;
+      ficha.style.display = 'none';
+      caja.appendChild(ficha);
+      fila.appendChild(clip);
+    }
+
     fila.appendChild(campo); fila.appendChild(boton);
     caja.appendChild(fila); caja.appendChild(nota);
+    if (archivo) caja.appendChild(archivo);
     document.body.appendChild(caja);
 
     function crecer() {
@@ -215,22 +286,84 @@
     }
     function decir(t) { nota.textContent = t || ''; }
 
+    /* El adjunto ya subido y todavía sin enviar. Se sube al elegirlo, no al
+       enviar, para que la espera se vea y no parezca que el botón se colgó. */
+    var puesto = null;
+
+    function pintarFicha() {
+      if (!ficha) return;
+      ficha.innerHTML = '';
+      if (!puesto) { ficha.style.display = 'none'; return; }
+      ficha.style.display = 'flex';
+      var txt = document.createElement('div');
+      txt.style.cssText = 'flex:1;min-width:0;font:500 13px Geist,system-ui,sans-serif;color:var(--ink,#f2f2f3);'
+        + 'overflow:hidden;text-overflow:ellipsis;white-space:nowrap';
+      txt.textContent = puesto.nombre + '  ·  ' + puesto.peso;
+      var x = document.createElement('button');
+      x.type = 'button';
+      x.textContent = '\u00D7';
+      x.title = 'Quitar el archivo';
+      x.setAttribute('aria-label', 'Quitar el archivo');
+      x.style.cssText = QUITA;
+      x.addEventListener('click', quitar);
+      ficha.appendChild(txt); ficha.appendChild(x);
+    }
+
+    /* Quitarlo lo borra del almacén de verdad. Es una acción deliberada de la
+       persona, que es la única vez que se puede borrar un archivo. */
+    function quitar() {
+      if (!puesto || subiendo) return;
+      var id = puesto.id;
+      puesto = null; pintarFicha(); decir('');
+      if (almacen && almacen['delete']) {
+        Promise.resolve(almacen['delete'](id))['catch'](function () { /* queda huérfano, no es grave */ });
+      }
+    }
+
+    function elegido() {
+      var f = archivo.files && archivo.files[0];
+      archivo.value = '';
+      if (!f || subiendo) return;
+      if (puesto) quitar();
+      var tipo = TIPOS[extDe(f.name)];
+      if (!tipo) {
+        decir('Ese tipo de archivo no se puede subir. Para un Word, un Excel o una presentación, pega el enlace de la nube.');
+        return;
+      }
+      var tope = (TOPE[tipo] || 20) * 1048576;
+      if (f.size > tope) { decir('El archivo pesa ' + pesoDe(f.size) + ' y el tope para este tipo son ' + (tope / 1048576) + ' MB.'); return; }
+      subiendo = true; clip.disabled = true; boton.disabled = true;
+      decir('Subiendo ' + f.name + '\u2026');
+      Promise.resolve(almacen.upload(f, { type: tipo })).then(function (r) {
+        puesto = { id: r.id, nombre: f.name, tipo: r.contentType, peso: pesoDe(r.sizeBytes) };
+        decir(''); pintarFicha();
+      })['catch'](function (err) { decir(porQueNo(err)); })
+        .then(function () { subiendo = false; clip.disabled = false; boton.disabled = false; });
+    }
+
+    if (clip) {
+      clip.addEventListener('click', function () { archivo.click(); });
+      archivo.addEventListener('change', elegido);
+    }
+
     var mandando = false;
     function manda() {
       var txt = campo.value.trim();
-      if (!txt || mandando) return;
+      /* Con un archivo puesto, el texto deja de ser obligatorio. */
+      if ((!txt && !puesto) || mandando || subiendo) return;
       if (txt.length > LIMITE) { decir('El mensaje es muy largo, quedan ' + (txt.length - LIMITE) + ' caracteres de más.'); return; }
       var canal = canalDelHash();
       if (!canal) return;
-      mandando = true; boton.disabled = true; decir('Enviando…');
-      enviar(canal, txt).then(function () {
-        campo.value = ''; crecer(); decir('');
+      mandando = true; boton.disabled = true; if (clip) clip.disabled = true;
+      decir('Enviando\u2026');
+      enviar(canal, txt, puesto).then(function () {
+        campo.value = ''; puesto = null; pintarFicha(); crecer(); decir('');
       })['catch'](function (err) {
         var c = err && err.code;
         decir(c === 'permission_denied' || c === 'not_granted'
           ? 'No tienes permiso para escribir en este espacio.'
           : 'No se pudo enviar. Vuelve a intentarlo.');
-      }).then(function () { mandando = false; boton.disabled = false; });
+      }).then(function () { mandando = false; boton.disabled = false; if (clip) clip.disabled = false; });
     }
 
     campo.addEventListener('input', crecer);
@@ -416,8 +549,11 @@
   function arrancar() {
     if (typeof window === 'undefined' || !window.claude || typeof window.claude.use !== 'function') return;
 
-    Promise.all([window.claude.use('db'), window.claude.use('user')]).then(function (par) {
-      var db = par[0], user = par[1];
+    Promise.all([window.claude.use('db'), window.claude.use('user'),
+                 window.claude.use('assets')]).then(function (par) {
+      /* El almacén resuelve nulo para quien solo lee, y también cuando no se
+         declaró la capacidad. En los dos casos el clip no se dibuja. */
+      var db = par[0], user = par[1], almacen = par[2];
       if (!db) return;               /* archivo de solo lectura: no se toca nada */
 
       var yo = null;
@@ -436,9 +572,9 @@
 
       pendiente.then(function () {
         /* Guarda. Se escribe el identificador, nunca el nombre. */
-        function enviar(canal, texto) {
+        function enviar(canal, texto, adjunto) {
           var ahora = new Date();
-          return db.collection(esCerrado(canal) ? COL_CERRADA : COL).add({
+          var doc = {
             canal: canal,
             uid: yo || 'anon',
             texto: texto,
@@ -446,11 +582,21 @@
             hora: horaDe(ahora),
             ts: String(ahora.getTime() / 1000),
             creado: ahora.toISOString()
-          });
+          };
+          /* Del archivo se guarda el identificador, nunca la dirección: la
+             dirección vale para la vista de quien lo subió y se arma luego a
+             partir del identificador, que no caduca. */
+          if (adjunto) {
+            doc.adjunto = {
+              id: adjunto.id, nombre: adjunto.nombre,
+              tipo: adjunto.tipo, peso: adjunto.peso
+            };
+          }
+          return db.collection(esCerrado(canal) ? COL_CERRADA : COL).add(doc);
         }
 
-        if (document.body) montar(enviar);
-        else document.addEventListener('DOMContentLoaded', function () { montar(enviar); });
+        if (document.body) montar(enviar, almacen);
+        else document.addEventListener('DOMContentLoaded', function () { montar(enviar, almacen); });
 
         /* ---- los canales, creados desde dentro -----------------------------
            Dos suscripciones, una por colección. La de los cerrados le devuelve
@@ -550,7 +696,8 @@
                 texto: String(o.texto || ''),
                 fecha: String(o.fecha || fechaDe(new Date(ts * 1000))),
                 hora: String(o.hora || horaDe(new Date(ts * 1000))),
-                ts: String(ts)
+                ts: String(ts),
+                adjunto: o.adjunto || null
               });
             });
 
@@ -572,7 +719,17 @@
                   ts: m.ts, fecha: m.fecha, hora: m.hora,
                   autor: (p && p.name) || 'Alguien',
                   correo: '', uid: m.uid, texto: m.texto,
-                  adjuntos: [], hilo: null, reacciones: [], sistema: false
+                  /* `/_blob/<id>` es la única ruta desde la raíz que el
+                     artefacto sirve, y resuelve en todas sus versiones. Por eso
+                     se arma aquí y no se guarda. */
+                  adjuntos: m.adjunto && m.adjunto.id ? [{
+                    id: m.adjunto.id,
+                    nombre: String(m.adjunto.nombre || 'archivo'),
+                    tipo: String(m.adjunto.tipo || ''),
+                    peso: String(m.adjunto.peso || ''),
+                    url: '/_blob/' + m.adjunto.id
+                  }] : [],
+                  hilo: null, reacciones: [], sistema: false
                 };
               });
               var todos = [];
