@@ -1,10 +1,11 @@
-# Semana IA Empresarial en LinkedIn · Borradores para aprobación
+# Semana IA Empresarial y Productividad en LinkedIn · Borradores para aprobación
 
 **Semana:** lunes 26 al viernes 30 de octubre de 2026
+**Eje:** IA para medir y multiplicar la productividad de TODAS las áreas del negocio (gerencia, comercial, finanzas, talento humano, operaciones, servicio al cliente, marketing, jurídica)
 **Frecuencia:** 2 publicaciones diarias (mañana 7:30 a. m. y tarde 5:30 p. m., hora Bogotá)
-**Estado:** BORRADOR, nada se publica sin aprobación de Sandra
+**Estado:** BORRADOR v2, nada se publica sin aprobación de Sandra
 
-> Horarios: estimación basada en estudios generales de LinkedIn que favorecen la franja de entrada y salida laboral entre semana. Es aproximado, verifícalo con las analíticas de tu perfil (Analíticas > Contenido > Seguidores activos).
+> Horarios: estimación basada en estudios generales de LinkedIn que favorecen la franja de entrada y salida laboral entre semana. Es aproximado, verifícalo con las analíticas de tu perfil.
 
 ---
 
@@ -12,223 +13,240 @@
 
 | Día | Mañana 7:30 a. m. | Tarde 5:30 p. m. |
 |---|---|---|
-| Lun 26 | Post autoridad: "88% usa IA, casi nadie gana con ella" | Carrusel: 5 tareas que la IA hace mejor que tu equipo y 3 que nunca |
-| Mar 27 | Caso propio: construí un juego de ventas con IA | Video de Sandra: las 3 decisiones que te hacen perder la venta |
-| Mié 28 | Post educativo: Método ⭕ 3 pasos para meter IA al equipo comercial | Carrusel: 7 prompts para vendedores B2B |
-| Jue 29 | Post país: el cuello de botella de la IA en Colombia son las personas (post para el VP) | Carrusel: Modelo para formar vendedores con IA en 90 días |
-| Vie 30 | Encuesta debate: "O usas la IA en tu día o vas a desaparecer" | Video cierre: lo que aprendí esta semana + invitación |
+| Lun 26 | Post autoridad: "Colombia trabaja más horas que nadie y produce casi 4 veces menos" | Carrusel: 1 tarea por área que la IA ya hace mejor que tu equipo |
+| Mar 27 | Caso propio: cómo diagnostico la productividad de una empresa con IA (+ el juego como ejemplo comercial) | Video de Sandra: "¿Cuántas horas está botando tu empresa?" |
+| Mié 28 | Post educativo: Método ⭕ 3 pasos para medir productividad con IA en cualquier área | Carrusel: 8 prompts, uno por área del negocio |
+| Jue 29 | Post país: productividad + IA, el post para el Vicepresidente | Carrusel: Modelo de 90 días para subir la productividad de una pyme con IA |
+| Vie 30 | Encuesta debate: ¿qué área de tu empresa pierde más horas? | Video cierre: lo que aprendí esta semana + invitación |
 
 ---
 
 ## LUNES 26 · MAÑANA · Post de autoridad (texto)
 
-El 88% de las organizaciones ya usa IA en al menos un área del negocio.
+Colombia es el país de la OCDE donde más horas se trabaja al año.
 
-Y aun así, la mayoría no ve el impacto en sus resultados.
+Y aun así, cada hora trabajada produce casi 4 veces menos que el promedio de la OCDE.
 
-¿Por qué? Porque compraron la herramienta y se olvidaron del método.
+18,5 dólares por hora en Colombia. 71,5 dólares en la OCDE.
 
-Es como comprar un Ferrari y dejarlo en el parqueadero porque nadie en la empresa sabe manejar cambios.
+No es un problema de esfuerzo. Es un problema de método.
 
-En los equipos comerciales que acompaño veo el mismo patrón:
+Es como remar más fuerte en un bote que tiene el ancla abajo. Más horas no te mueven más rápido, solo te cansan más.
 
-⭕ Licencias de IA pagadas que nadie abre
-⭕ Vendedores usando ChatGPT a escondidas, sin lineamientos
-⭕ Gerentes que miden "uso" pero no miden conversión
+Y desde julio la jornada bajó a 42 horas. Producir lo mismo, o más, con menos horas solo tiene un camino: productividad.
 
-Un dato que debería quitarle el sueño a cualquier director comercial: según Salesforce, los vendedores dedican cerca del 70% de su tiempo a tareas que no son vender.
+En las empresas que acompaño veo el ancla en todas las áreas:
 
-Ahí está la verdadera oportunidad de la IA. No en reemplazar al vendedor, sino en devolverle su tiempo para que venda.
+⭕ Finanzas conciliando a mano
+⭕ Talento humano filtrando hojas de vida una por una
+⭕ Servicio al cliente respondiendo 50 veces la misma pregunta
+⭕ Gerencia armando informes que nadie lee
+⭕ Comercial con más tiempo en el CRM que con el cliente
 
-Lo que no se mide no puede ser mejorado. Y lo que se implementa sin método se convierte en gasto, no en inversión.
+La IA no es un lujo tecnológico. Es la forma más rápida de levantar el ancla.
 
-Esta semana voy a mostrar, paso a paso, cómo llevamos la IA del discurso a la caja registradora.
+Pero ojo: lo que no se mide no puede ser mejorado. Sin línea base, la IA es otro gasto.
 
-👉 Pregunta para tu equipo: ¿cuántas horas a la semana pierden tus vendedores en tareas que la IA ya podría hacer?
+Esta semana voy a mostrar cómo medimos y multiplicamos la productividad, área por área.
 
-#IAEmpresarial #Ventas #SocialSelling #TransformaciónDigital #Liderazgo
+👉 ¿Cuál es el ancla de tu empresa?
 
-*Fuentes: McKinsey, The State of AI 2025; Salesforce, State of Sales.*
+#Productividad #IAEmpresarial #Colombia #TransformaciónDigital #Liderazgo
+
+*Fuentes: Consejo Privado de Competitividad, Informe Nacional de Competitividad 2025-2026 (dato de The Conference Board 2024); OCDE, horas trabajadas.*
 
 ---
 
-## LUNES 26 · TARDE · Carrusel (8 slides)
+## LUNES 26 · TARDE · Carrusel (10 slides)
 
 **Copy del post:**
-La IA no viene por tu trabajo. Viene por las tareas que odias de tu trabajo.
-Te dejo las 5 que ya deberías delegarle y las 3 que nunca debes soltar. Guárdalo para tu próxima reunión de equipo 🔖
-¿Cuál agregarías tú?
-#IAEmpresarial #Ventas #SocialSelling #Productividad
+La IA no viene por tu trabajo. Viene por las tareas que le roban horas a tu trabajo.
+Una por área, para que ninguna gerencia diga "eso no aplica para mí". Guárdalo 🔖 y compártelo con tu comité.
+¿Cuál agregarías?
+#Productividad #IAEmpresarial #Gerencia #TransformaciónDigital
 
-**Slides (fondo blanco, acentos rojos, tipografía Montserrat):**
+**Slides (fondo blanco, acentos rojos, Montserrat):**
 
-1. **GANCHO:** 5 tareas comerciales que la IA hace mejor que tu equipo… y 3 que NUNCA debe hacer
-2. ⭕ **Investigar al prospecto antes de la llamada.** De 40 minutos a 5.
-3. ⭕ **Resumir reuniones y sacar compromisos.** Nadie vuelve a decir "¿qué quedamos?"
-4. ⭕ **Primer borrador de propuestas y correos.** El vendedor edita, no arranca de cero.
-5. ⭕ **Priorizar leads (lead scoring).** Datos, no corazonadas.
-6. ⭕ **Analizar el pipeline y detectar negocios en riesgo.** Alertas antes de perder el cierre.
-7. **LAS 3 QUE NUNCA:** Construir confianza · Leer el silencio en una negociación · Decidir el precio final con el cliente
-8. **CTA:** "La IA amplifica método, no reemplaza estrategia." Sígueme para la serie completa de IA Empresarial · Sandra Curvelo
+1. **GANCHO:** 1 tarea por área que la IA ya hace mejor que tu equipo
+2. ⭕ **Gerencia:** convertir 20 reportes en un tablero de 1 página con alertas.
+3. ⭕ **Finanzas:** conciliaciones, clasificación de gastos y primeros borradores de análisis de variaciones.
+4. ⭕ **Talento humano:** filtrar hojas de vida contra el perfil y redactar descripciones de cargo.
+5. ⭕ **Operaciones y logística:** detectar cuellos de botella y documentar procesos.
+6. ⭕ **Servicio al cliente:** responder preguntas frecuentes y clasificar PQRS por urgencia.
+7. ⭕ **Marketing:** primeros borradores de contenido y análisis de resultados de campañas.
+8. ⭕ **Comercial:** investigar al prospecto y priorizar oportunidades.
+9. ⭕ **Jurídica:** resumir contratos y señalar cláusulas de riesgo (siempre con revisión de un abogado).
+10. **CTA:** "La IA amplifica método, no reemplaza criterio." · Sandra Curvelo · IA Empresarial
 
 ---
 
-## MARTES 27 · MAÑANA · Caso propio (texto + imagen del juego)
+## MARTES 27 · MAÑANA · Caso propio (texto + imagen)
 
-Construí un juego para demostrarle a los vendedores que la IA no es una amenaza.
+Cuando entro a una empresa no pregunto "¿qué herramienta de IA quieren?".
 
-Se llama **Sales Revolution AI: El Desafío.**
+Pregunto: "¿en qué se les van las horas?"
 
-La dinámica es simple: estás cerrando el trimestre con una meta agresiva y tienes que tomar 3 decisiones.
+Porque la productividad no se mejora con licencias. Se mejora con un diagnóstico.
 
-⭕ Etapa 1, Prospección: ¿buscas a mano, compras una base de datos o usas IA?
-⭕ Etapa 2, Cualificación: ¿llamas en orden alfabético o dejas que la IA de tu CRM priorice?
-⭕ Etapa 3, Personalización: ¿usas la misma plantilla de siempre o un asistente que te ayuda a encontrar el ángulo exacto?
+Así trabajo:
 
-Lo interesante no es el puntaje. Es la cara de los participantes cuando ven que sus hábitos de siempre los dejaban en la etapa 1.
+⭕ **1. Mapa de horas por área.** Cuánto tiempo va a tareas repetitivas, reportes, reprocesos y reuniones.
+⭕ **2. Priorización.** Qué tarea libera más horas con menos riesgo.
+⭕ **3. Entrenamiento con práctica.** No con diapositivas.
 
-Así como los pilotos se entrenan en simulador antes de volar un avión real, los vendedores necesitan equivocarse en un entorno seguro antes de equivocarse frente al cliente.
+Para el área comercial, por ejemplo, construí un simulador: **Sales Revolution AI: El Desafío.** El participante toma 3 decisiones (prospectar, priorizar, personalizar) y ve en tiempo real cuántas horas y oportunidades pierde con sus hábitos de siempre.
 
-Por eso no enseño IA con diapositivas. La enseño con decisiones.
+Así como los pilotos se entrenan en simulador antes de volar, los equipos necesitan equivocarse en un entorno seguro antes de equivocarse con la plata de la empresa.
 
-👉 ¿Quieres probar el desafío con tu equipo? Escríbeme "DESAFÍO" en comentarios y te envío el acceso.
+La misma lógica aplica para finanzas, talento humano o servicio al cliente: primero se mide, después se entrena, después se escala.
 
-#IAEmpresarial #Gamificación #Ventas #FormaciónComercial #SocialSelling
+👉 Si quieres el diagnóstico de horas para tu equipo, comenta "HORAS" y te envío la plantilla.
 
-> ⚠️ Para publicar necesito el link público de la app (Streamlit) y una captura de pantalla.
+#Productividad #IAEmpresarial #Gamificación #TransformaciónDigital #Gerencia
+
+> ⚠️ Necesito el link público del juego, una captura y confirmar que tienes la plantilla de diagnóstico para enviar (si no, la armo).
 
 ---
 
 ## MARTES 27 · TARDE · Video de Sandra (60 a 90 segundos, vertical)
 
-**Título en pantalla:** Las 3 decisiones que te hacen perder la venta (y cómo la IA las corrige)
+**Título en pantalla:** ¿Cuántas horas está botando tu empresa?
 
 **Guion:**
 
-- **0 a 3 s (gancho, mirando a cámara):** "Tu vendedor no pierde la venta en el cierre. La pierde en la primera hora del lunes."
-- **3 a 20 s:** "Decisión 1: buscar prospectos a mano. Dos días, 10 contactos. Con IA, 50 tomadores de decisión en una hora." (mostrar pantalla del juego)
-- **20 a 40 s:** "Decisión 2: llamar en orden alfabético. Pierdes la mañana con curiosos mientras el cliente caliente agenda con tu competencia."
-- **40 a 60 s:** "Decisión 3: la misma plantilla para todos. Tu correo termina en spam."
-- **60 a 75 s (cierre):** "O usas la IA en tu día o vas a desaparecer. Comenta DESAFÍO y te mando el juego para tu equipo."
+- **0 a 3 s (a cámara):** "Tu empresa no tiene un problema de gente. Tiene un problema de horas."
+- **3 a 25 s:** "Haz esta cuenta: si 10 personas pierden 1 hora al día en tareas repetitivas, son 50 horas a la semana. Más de una persona de tiempo completo trabajando para nada."
+- **25 a 50 s:** "Y pasa en todas las áreas: el informe de gerencia, la conciliación de finanzas, las hojas de vida de talento humano, las mismas preguntas en servicio al cliente."
+- **50 a 70 s:** "La IA puede devolver buena parte de esas horas. Pero solo si primero las mides."
+- **70 a 80 s (cierre):** "Lo que no se mide no puede ser mejorado. Comenta HORAS y te mando la plantilla para medir tu equipo."
 
-**Producción:** celular vertical, luz natural de frente, subtítulos quemados (gran parte del video en LinkedIn se ve sin sonido), blusa o fondo con acento rojo.
+**Cálculo del guion:** 10 personas × 1 hora × 5 días = 50 horas. Con la jornada de 42 horas, 50 horas equivalen a 1,2 personas de tiempo completo (50 ÷ 42). Es un ejemplo ilustrativo, no un dato.
 
-**Copy del post:** Grabé esto en 1 minuto para que lo veas en menos. ¿Cuál de las 3 decisiones ves más en tu equipo? 👇 #IAEmpresarial #Ventas #SocialSelling
+**Producción:** celular vertical, luz natural de frente, subtítulos quemados, acento rojo en vestuario o fondo.
+
+**Copy:** 1 minuto para que hagas una cuenta que puede cambiar tu presupuesto 2027. ¿Cuántas horas crees que pierde tu equipo? 👇 #Productividad #IAEmpresarial
 
 ---
 
 ## MIÉRCOLES 28 · MAÑANA · Post educativo (texto)
 
-¿Quieres meter IA en tu equipo comercial sin botar la plata? Hazlo en este orden.
+¿Quieres subir la productividad con IA sin botar la plata? Hazlo en este orden, sirve para cualquier área.
 
-La mayoría empieza por la herramienta. Error. Es como Netflix si hubiera empezado comprando cámaras antes de entender qué quería ver la gente.
+La mayoría empieza por la herramienta. Error. Es como Netflix si hubiera comprado cámaras antes de entender qué quería ver la gente.
 
 **Método ⭕ 3 pasos:**
 
-⭕ **1. Mide primero.** Antes de cualquier licencia, registra 1 semana: cuántas horas va a investigación, CRM, correos y reportes. Esa es tu línea base.
+⭕ **1. Mide primero.** Una semana registrando horas por tarea: reportes, correos, reprocesos, reuniones. Esa es tu línea base.
 
-⭕ **2. Automatiza una sola tarea.** No diez. Una. La que más horas consume. Entrena al equipo, define lineamientos y prompts estándar.
+⭕ **2. Automatiza una sola tarea por área.** No diez. Una. La que más horas consume. Con lineamientos claros de uso y seguridad de la información.
 
-⭕ **3. Mide otra vez y escala.** Compara contra la línea base: horas liberadas, reuniones agendadas, tasa de conversión. Si el número mejora, pasa a la siguiente tarea.
+⭕ **3. Mide otra vez y escala.** Horas liberadas, tiempo de ciclo, errores, costo por proceso. Si el número mejora, pasas a la siguiente tarea.
 
-Microsoft reportó que el 75% de los trabajadores del conocimiento ya usa IA en su trabajo, y muchos con herramientas que trajeron por su cuenta. Tu equipo probablemente ya la usa. La pregunta es si la usa con método o a ciegas.
+Microsoft reportó que el 75% de los trabajadores del conocimiento ya usa IA en su trabajo, muchos con herramientas que trajeron por su cuenta. Tu equipo probablemente ya la usa. La pregunta es si la usa con método o a ciegas, y con los datos de tu empresa expuestos.
 
-No se trata de sumar más prospectos, sino de convertir mejor los que ya tienes.
+Lo que se implementa sin método se convierte en gasto, no en inversión.
 
 👉 ¿En qué paso está hoy tu empresa? Responde 1, 2 o 3.
 
-#IAEmpresarial #DirecciónComercial #Ventas #Productividad #SocialSelling
+#Productividad #IAEmpresarial #Gerencia #TransformaciónDigital #Liderazgo
 
 *Fuente: Microsoft y LinkedIn, Work Trend Index 2024.*
 
 ---
 
-## MIÉRCOLES 28 · TARDE · Carrusel "Prompt kit" (9 slides)
+## MIÉRCOLES 28 · TARDE · Carrusel "Prompt kit por área" (10 slides)
 
 **Copy del post:**
-Te regalo los 7 prompts que uso con equipos comerciales. Cópialos, cámbiales los corchetes y úsalos mañana. Guárdalo 🔖 y compártelo con tu equipo.
-#IAEmpresarial #Prompts #Ventas #SocialSelling
+8 prompts, uno por área. Cópialos, cambia los corchetes y úsalos mañana. Nunca pegues datos confidenciales en herramientas no aprobadas por tu empresa. Guárdalo 🔖
+#Productividad #IAEmpresarial #Prompts #Gerencia
 
 **Slides:**
 
-1. **GANCHO:** 7 prompts que convierten a cualquier vendedor en un vendedor con IA
-2. ⭕ **Investigación:** "Actúa como analista comercial. Resume en 5 puntos la situación de [empresa], sus retos probables en [sector] y 3 preguntas para mi primera reunión."
-3. ⭕ **Mensaje LinkedIn:** "Escribe un mensaje de conexión de máximo 300 caracteres para [cargo] que publicó sobre [tema], sin vender, invitando a conversar."
-4. ⭕ **Objeciones:** "Mi cliente dice [objeción]. Dame 3 respuestas: una con datos, una con pregunta y una con caso de éxito."
-5. ⭕ **Resumen de reunión:** "De esta transcripción extrae: compromisos, responsables, fechas y riesgos del negocio."
-6. ⭕ **Propuesta:** "Estructura una propuesta para [cliente] con: dolor, costo de no actuar, solución, KPIs e inversión como ROI."
-7. ⭕ **Follow up:** "Escribe un seguimiento para un cliente que no responde hace 10 días, aportando un dato nuevo de [tema] y un CTA de bajo compromiso."
-8. ⭕ **Post de marca profesional:** "Convierte este aprendizaje de mi semana [texto] en un post de LinkedIn con gancho, ejemplo y pregunta final."
-9. **CTA:** "La IA es tan buena como la pregunta que le haces." · Sígueme, Sandra Curvelo · IA Empresarial
+1. **GANCHO:** 8 prompts para que cada área de tu empresa recupere horas esta semana
+2. ⭕ **Gerencia:** "Resume estos indicadores [datos] en 5 alertas para el comité: qué mejoró, qué empeoró y qué decisión requiere."
+3. ⭕ **Finanzas:** "Explica las 3 variaciones más grandes entre presupuesto y real de [periodo] y sus posibles causas."
+4. ⭕ **Talento humano:** "Compara esta hoja de vida con el perfil [cargo] y dame fortalezas, brechas y 5 preguntas de entrevista."
+5. ⭕ **Operaciones:** "Describe este proceso [pasos] e identifica reprocesos, cuellos de botella y tareas automatizables."
+6. ⭕ **Servicio al cliente:** "Clasifica estas PQRS por urgencia y tema, y redacta una respuesta empática para cada categoría."
+7. ⭕ **Marketing:** "Con estos resultados de campaña [datos] dime qué funcionó, qué no y 3 pruebas para el próximo mes."
+8. ⭕ **Comercial:** "Resume la situación de [empresa] en [sector] y dame 3 preguntas para mi primera reunión."
+9. ⭕ **Jurídica:** "Resume este contrato y señala cláusulas de riesgo para revisión del abogado."
+10. **CTA:** "La IA es tan buena como la pregunta que le haces." · Sandra Curvelo · IA Empresarial
 
 ---
 
 ## JUEVES 29 · MAÑANA · Post país (texto) · EL POST PARA EL VICEPRESIDENTE
 
-Colombia no tiene un problema de tecnología para la IA. Tiene un problema de personas que sepan convertirla en ingresos.
+Colombia tiene el reto de productividad más grande de la OCDE. Y la IA es la palanca más rápida que hemos tenido en décadas para cerrarlo.
 
-En ANDICOM 2026, el vicepresidente José Manuel Restrepo planteó que el talento colombiano debe desarrollar habilidades en inteligencia artificial, y que la IA y los servicios digitales serán sectores estratégicos para el país.
+Los números son contundentes:
 
-Estoy de acuerdo. Y quiero sumar una mirada desde la trinchera comercial:
+⭕ Una hora de trabajo en Colombia produce 18,5 dólares. En la OCDE, 71,5. Casi 4 veces menos.
+⭕ Somos el país de la OCDE donde más horas se trabaja al año.
+⭕ Y desde julio la jornada es de 42 horas semanales.
 
-⭕ La IA que no se vende, no se adopta. Detrás de cada transformación digital hay un vendedor, un asesor o un emprendedor que tiene que explicarla, defenderla y cerrarla.
+Menos horas, con la misma productividad, es una ecuación que no cierra. La única salida es producir más por cada hora.
 
-⭕ Las pymes no necesitan más cursos teóricos. Necesitan que su equipo comercial aprenda a usar IA en su día a día, con métricas.
+En ANDICOM 2026, el vicepresidente José Manuel Restrepo planteó que la IA y los servicios digitales serán sectores estratégicos para el país y que el talento colombiano debe desarrollar habilidades en inteligencia artificial.
 
-⭕ Formar en IA sin medir resultados es como sembrar sin saber si hubo cosecha.
+Estoy de acuerdo, y quiero sumar una mirada desde dentro de las empresas:
 
-Por eso propongo algo concreto: que la formación en IA incluya un componente de ventas y marca profesional, para que cada persona formada salga no solo sabiendo usar la herramienta, sino generando oportunidades de negocio con ella.
+⭕ La IA no sube la productividad por instalarla. La sube cuando cada área mide sus horas, elige qué automatizar y verifica el resultado.
+⭕ El 99% de las empresas en Colombia son mipymes. Ahí está el potencial, y también la brecha.
+⭕ Formar en IA sin medir productividad es como sembrar sin saber si hubo cosecha.
 
-Lo he probado con equipos comerciales en Colombia. Funciona cuando hay método y medición.
+Mi propuesta: que la formación en IA del país tenga un indicador obligatorio, horas liberadas y valor producido por hora en la empresa donde se aplica. Así la IA se ve en el PIB, no solo en los certificados.
 
-👉 Si trabajas en formación, gobierno o empresa: ¿qué le falta a la formación en IA para que se vea en el PIB y no solo en los certificados?
+Lo he aplicado con equipos en Colombia en gerencia, comercial y operaciones. Funciona cuando hay método y medición.
 
-#IAColombia #TalentoDigital #IAEmpresarial #SENA #Ventas
+👉 Si trabajas en gobierno, formación o empresa: ¿cómo deberíamos medir el impacto de la IA en la productividad del país?
+
+#Productividad #IAColombia #IAEmpresarial #TalentoDigital #Competitividad
 
 > ⚠️ **Antes de publicar:**
-> 1. Leer la nota original y confirmar que el planteamiento se parafrasea bien (no lo pongo entre comillas porque no tengo su frase textual): https://impactotic.co/eventos-tic/andicom/jose-manuel-restrepo-en-andicom-2026-colombia-apostara-por-ia-energia-y-servicios-digitales/
-> 2. Etiquetarlo (@José Manuel Restrepo) solo en este post, una vez, y solo si tu perfil le permite la mención.
-> 3. Confirmar el nombre exacto del programa de becas de IA con el SENA. No encontré fuente pública que lo confirme, por eso no lo nombro.
+> 1. Leer la nota de ANDICOM y confirmar que el planteamiento se parafrasea bien (no lo pongo entre comillas porque no tengo su frase textual): https://impactotic.co/eventos-tic/andicom/jose-manuel-restrepo-en-andicom-2026-colombia-apostara-por-ia-energia-y-servicios-digitales/
+> 2. Etiquetarlo (@José Manuel Restrepo) solo en este post, una vez.
+> 3. El dato de "99% mipymes" es la cifra que cita habitualmente el gobierno y los gremios (MinCIT, Confecámaras). Confianza media, verifícalo.
+> 4. Confirmar que "gerencia, comercial y operaciones" corresponde a proyectos reales tuyos; si no, ajusto las áreas.
+> 5. El programa de becas de IA del SENA no se menciona hasta tener fuente.
 
 ---
 
 ## JUEVES 29 · TARDE · Carrusel "Modelo 90 días" (8 slides)
 
 **Copy del post:**
-Así formaría a 1.000 vendedores en IA en 90 días, con resultados medibles y no solo diplomas. Lo dejo abierto para quien quiera construirlo conmigo.
-#IAColombia #TalentoDigital #IAEmpresarial #SENA #FormaciónComercial
+Así subiría la productividad de una pyme con IA en 90 días, medida en horas y en pesos, no en diplomas. Lo dejo abierto para quien quiera escalarlo conmigo.
+#Productividad #IAColombia #Pymes #IAEmpresarial #Competitividad
 
 **Slides:**
 
-1. **GANCHO:** Cómo formar vendedores con IA en 90 días (y medirlo en ventas, no en certificados)
-2. **El problema:** Formar en IA sin aplicarla a vender deja la tecnología en el aula.
-3. ⭕ **Días 1 a 30, Fundamentos:** IA aplicada a prospección, investigación y redacción. Línea base de cada participante.
-4. ⭕ **Días 31 a 60, Práctica:** Simulador "Sales Revolution AI", casos reales, marca profesional en LinkedIn.
-5. ⭕ **Días 61 a 90, Campo:** Cada participante genera oportunidades reales para una pyme o su propio emprendimiento.
-6. **KPIs:** índice SSI de LinkedIn, reuniones agendadas, oportunidades generadas, tasa de conversión.
+1. **GANCHO:** Cómo subir la productividad de una pyme con IA en 90 días (y demostrarlo con números)
+2. **El problema:** Más horas no es más productividad. Colombia ya lo comprobó.
+3. ⭕ **Días 1 a 30, Medir:** mapa de horas por área y línea base de productividad (valor producido por hora).
+4. ⭕ **Días 31 a 60, Implementar:** 1 tarea por área con IA, lineamientos de uso y seguridad, entrenamiento práctico con simuladores.
+5. ⭕ **Días 61 a 90, Escalar:** medir otra vez, replicar lo que funcionó, documentar el caso.
+6. **KPIs:** horas liberadas por persona · tiempo de ciclo de procesos · errores y reprocesos · costo por proceso · valor producido por hora.
 7. **La frase:** "Lo que no se mide no puede ser mejorado."
-8. **CTA:** ¿Formación pública, empresa o gremio? Hablemos. Sandra Curvelo · IA Empresarial
-
-> Nota: la cifra de 1.000 es un ejemplo de escala, no un compromiso ni un dato. Ajústala si quieres.
+8. **CTA:** ¿Empresa, gremio o programa público? Hablemos. Sandra Curvelo · IA Empresarial
 
 ---
 
 ## VIERNES 30 · MAÑANA · Encuesta debate
 
 **Texto:**
+Colombia trabaja más horas que cualquier país de la OCDE y produce casi 4 veces menos por hora.
+Si tuvieras que meter IA mañana en un área de tu empresa para recuperar horas, ¿cuál sería? 👇
 "O usas la IA en tu día o vas a desaparecer."
-Lo digo en cada formación y siempre hay alguien que se incomoda. Gartner proyecta que para 2028 el 60% del trabajo de los vendedores B2B se hará a través de interfaces conversacionales con IA generativa.
-Quiero saber qué piensa mi red 👇
 
-**Encuesta:** ¿Estás de acuerdo?
-- Totalmente, ya la uso a diario
-- Sí, pero mi empresa no me deja
-- Exagerado, la relación humana gana
-- Todavía no sé por dónde empezar
+**Encuesta:** ¿Qué área pierde más horas en tu empresa?
+- Gerencia y reportes
+- Finanzas y administración
+- Comercial y servicio al cliente
+- Talento humano y operaciones
 
-#IAEmpresarial #Ventas #FuturoDelTrabajo #SocialSelling
+#Productividad #IAEmpresarial #Gerencia #Colombia
 
-> Las encuestas generan muchos votos pero pocos comentarios. Te sugiero responder cada comentario en la primera hora.
+> Las encuestas dan muchos votos y pocos comentarios. Responde cada comentario en la primera hora.
 
 ---
 
@@ -236,23 +254,23 @@ Quiero saber qué piensa mi red 👇
 
 **Guion:**
 
-- **Gancho:** "Esta semana publiqué 10 piezas sobre IA empresarial. Esto fue lo que más me preguntaron."
-- **Desarrollo:** Las 2 o 3 preguntas reales que hayan llegado en comentarios y mensajes (las armamos el jueves con datos reales).
-- **Cierre:** "Si lideras un equipo comercial o un programa de formación y quieres llevar la IA a resultados, escríbeme. Lo que no se mide no puede ser mejorado."
+- **Gancho:** "Esta semana hablé de productividad e IA en todas las áreas de la empresa. Esto fue lo que más me preguntaron."
+- **Desarrollo:** 2 o 3 preguntas reales de comentarios y mensajes, más el resultado de la encuesta (lo armamos el viernes con datos reales).
+- **Cierre:** "Si lideras una empresa, un área o un programa de formación y quieres llevar la IA a productividad medible, escríbeme. Lo que no se mide no puede ser mejorado."
 
-**Copy:** Semana 1 de IA Empresarial. ¿Qué tema quieres que trabaje la próxima? 👇 #IAEmpresarial #SocialSelling
+**Copy:** Semana 1 de IA Empresarial y Productividad. ¿Qué área quieres que trabaje la próxima semana? 👇 #Productividad #IAEmpresarial
 
 ---
 
 ## Estrategia para que te vea el vicepresidente José Manuel Restrepo
 
-1. **Coherencia temática:** toda la semana habla de IA + talento + productividad, la misma agenda que él presentó en ANDICOM 2026.
-2. **Comentarios de valor en sus publicaciones:** comentar en la primera hora de sus posts con un aporte concreto (dato o propuesta), no "¡Excelente!". Máximo 2 o 3 comentarios en la semana para no parecer insistente.
-3. **Una sola mención:** solo el jueves AM. Etiquetarlo en todo se percibe como spam.
-4. **Solicitud de conexión o mensaje (después del jueves):** "Señor Vicepresidente, comparto su visión de ANDICOM sobre talento en IA. Diseñé un modelo de formación comercial con IA medible en resultados. Me encantaría presentárselo a su equipo." Si no acepta mensajes, buscar a su equipo de despacho o asesores en LinkedIn.
-5. **Puertas paralelas:** gremios y el ecosistema (SENA, MinTIC, cámaras de comercio, ANDICOM/CINTEL) suelen ser más rápidos que ir directo a un alto funcionario. Esto es mi criterio, no un dato.
+1. **Su idioma es productividad y competitividad:** es economista, fue ministro de Comercio, Industria y Turismo y de Hacienda. Toda la semana habla de productividad + IA + talento, con datos del Consejo Privado de Competitividad y la OCDE, que son referentes en su mundo.
+2. **Comentarios de valor en sus publicaciones:** en la primera hora, con un dato o propuesta concreta. Máximo 2 o 3 en la semana.
+3. **Una sola mención:** solo el jueves AM.
+4. **Mensaje después del jueves:** "Señor Vicepresidente, comparto su visión de ANDICOM sobre IA y talento. Diseñé un modelo para subir la productividad de las mipymes con IA, medido en horas liberadas y valor por hora. Me encantaría presentárselo a su equipo." Si no acepta mensajes, buscar a su equipo de despacho o asesores.
+5. **Puertas paralelas:** Consejo Privado de Competitividad, Confecámaras, cámaras de comercio, ANDICOM/CINTEL, SENA. Esto es mi criterio, no un dato.
 
-> Honestidad: ningún post garantiza que él lo vea. El algoritmo y su equipo de comunicaciones filtran. Lo que sí aumenta la probabilidad es que contactos en común interactúen con tu contenido.
+> Honestidad: ningún post garantiza que él lo vea. Lo que más aumenta la probabilidad es que contactos en común interactúen con tu contenido.
 
 ---
 
@@ -260,9 +278,11 @@ Quiero saber qué piensa mi red 👇
 
 | Dato | Fuente | Confianza |
 |---|---|---|
-| 88% de organizaciones usa IA en al menos una función | McKinsey, The State of AI 2025 | Media alta, verifícalo antes de publicar |
-| Vendedores dedican ~70% del tiempo a tareas no comerciales | Salesforce, State of Sales | Media alta, es aproximado, verifícalo |
+| Productividad por hora: Colombia 18,5 USD vs OCDE 71,51 USD | CPC, Informe Nacional de Competitividad 2025-2026 (The Conference Board 2024) | Alta, tomado del extracto del informe |
+| "Casi 4 veces menos" | Cálculo: 71,51 ÷ 18,5 = 3,87 | Alta (es aritmética sobre el dato anterior) |
+| Colombia, país OCDE con más horas trabajadas al año (~2.288 h) | OCDE, citado por Xataka y Portafolio | Media alta, verifícalo |
+| Jornada de 42 horas desde julio de 2026 | Ley 2101 de 2021 (reducción gradual) | Media alta, verifica la fecha exacta |
+| 99% de las empresas son mipymes | MinCIT y gremios | Media, verifícalo |
 | 75% de trabajadores del conocimiento usa IA en el trabajo | Microsoft y LinkedIn, Work Trend Index 2024 | Media alta, verifícalo |
-| Para 2028, 60% del trabajo de vendedores B2B vía interfaces conversacionales con IA generativa | Gartner (proyección 2024) | Media, verifícalo |
 | Restrepo, vicepresidente 2026 a 2030; agenda IA y talento en ANDICOM 2026 | El Espectador, Blu Radio, Impacto TIC | Alta |
 | Programa de becas de IA del SENA ligado al VP | No encontré fuente | Sin confirmar, necesito tu fuente |
