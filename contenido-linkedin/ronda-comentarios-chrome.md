@@ -26,7 +26,9 @@ PASO 4 · PUBLICA SOLO LO APROBADO, con el texto exacto que yo aprobé, dejando 
 - Gobierno: MinTIC, MinCIT, SENA, DNP
 - Gremios y competitividad: Consejo Privado de Competitividad, ANDI, Confecámaras, Asocajas
 - Ecosistema: ANDICOM / CINTEL
-- Clientes (relación y expansión, sin mencionar proyectos en los comentarios): Drummond
+- Clientes según iamlatam.co (relación y expansión, sin mencionar proyectos en los comentarios): Drummond, Grupo Bimbo, Bavaria, Grupo Abstract, Grupo Logis, Nuo Corp, Winterhalter, Softtek, Seidor, Inka's Berries, Argentis, Mareauto, De Mis Manos, SQA, Exis Consulting, Ricoh, Fundación Hematológica de Colombia, U. Área Andina, U. Sergio Arboleda, U. Externado, Foro de Presidentes
+- Voceros de clientes con testimonio en la web (comentar sus posts fortalece la relación): Pablo Urrutia (VP Public Affairs, Drummond), Carlos Olivo (Director de Entrenamiento, Drummond), Paola De Ávila (Directora Comercial, Grupo Logis)
+- Prospectos parecidos a clientes, por sector (sugerencia de Claude, por validar): consumo masivo como Bimbo y Bavaria (Grupo Nutresa, Alpina, Postobón); servicios TI y SAP como Softtek, Seidor y SQA (NTT DATA, Indra); universidades como Externado y Sergio Arboleda (Universidad del Rosario, Universidad EIA, donde el VP Restrepo fue rector)
 - Prospectos, cajas de compensación (mismo sector del caso de productividad): Comfamiliar Atlántico, Colsubsidio, Compensar, Cafam, Comfama, Comfandi
 - Prospectos, sector público regional: Alcaldía de Valledupar, Gobernación del Cesar
 - Prospectos, educación: Areandina, Universidad Autónoma del Caribe

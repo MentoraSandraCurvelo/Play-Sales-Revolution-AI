@@ -46,3 +46,10 @@ A ritmo actual, 2.547 ÷ 3,4 = ~750 días (unos 2 años) para llegar a 10.000.
 - Videos siempre con texto en el post y subtítulos.
 - Nada de reposts sin aporte propio.
 - Horario: la audiencia está en Colombia; España no justifica ajustar horas.
+
+## Hallazgos de la web iamlatam.co (28 oct 2026)
+
+- 21 clientes listados en "Algunos clientes". Comfacesar no aparece (coherente con la confidencialidad).
+- Inconsistencia: la web dice "Presencia IAM™, 8 países" (agrega Brasil) y en otras partes dice "7 países". Definir la cifra oficial.
+- La línea IAM™ Intelligence en la web todavía habla de IA aplicada al ciclo comercial; no menciona productividad de todas las áreas, el IAE™ ni el Método DIAL-3R™.
+- Testimonios de voceros de clientes: Pablo Urrutia y Carlos Olivo (Drummond), Paola De Ávila (Grupo Logis).
