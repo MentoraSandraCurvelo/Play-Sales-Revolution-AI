@@ -36,7 +36,17 @@ Convertir en hashtag la palabra clave de un párrafo cada 2 párrafos, más o me
 - Todo carrusel pasa por Claude Design y por aprobación antes de publicarse.
 - Mencionar a personas (ej. el Vicepresidente) solo cuando Sandra lo apruebe para ese post.
 
-## 5. Estilo
+## 5. Comentarios en publicaciones de otros (opción B: Claude en Chrome)
+
+- **Máximo 10 comentarios al día.**
+- Cada comentario aporta valor: un dato, una experiencia propia o una pregunta inteligente. Nada genérico ("¡Excelente!", "Totalmente de acuerdo").
+- Estructura: 1) conectar con lo que dijo el autor, 2) aportar el dato o la experiencia de Sandra, 3) cerrar con una idea o pregunta que abra conversación. Entre 2 y 5 líneas.
+- **Sandra aprueba cada comentario antes de publicarlo.** Sin su sí, no se publica.
+- Sin hashtags de marca en los comentarios. Sin vender en el primer comentario.
+- Nunca nombrar clientes confidenciales (Comfacesar).
+- Ritmo humano: los comentarios aprobados se publican espaciados, no en ráfaga.
+
+## 6. Estilo
 
 - "IA", nunca "AI". "Marca profesional", nunca "marca personal".
 - ⭕ para marcar puntos clave.
