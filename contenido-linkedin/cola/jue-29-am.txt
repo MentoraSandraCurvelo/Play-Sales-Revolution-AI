@@ -18,8 +18,10 @@ En una caja de compensación familiar en Colombia aplicamos IA con 18 áreas dur
 ⭕ 90% menos tiempo en las tareas medidas
 ⭕ Un informe que tomaba 2 días hoy toma 10 minutos
 
-La IA no sube la productividad por instalarla. La sube cuando cada área mide sus horas, elige qué automatizar y verifica el resultado. Formar en IA sin #Medición es como sembrar sin saber si hubo cosecha.
+Ahí está la diferencia. Enseñar IA no basta. En IAM™ Intelligence no enseñamos herramientas: instalamos un sistema de trabajo con el Método DIAL-3R™ y lo medimos con el IAE™, nuestro Índice de IA Empresarial. Cada semana muestra qué área sube, cuál baja y cuántas horas recupera.
 
-Mi propuesta: que la formación en IA del país tenga un indicador obligatorio, horas liberadas y valor producido por hora. Así la IA se ve en el #PIB y no solo en los certificados.
+Lo que no se mide no puede ser mejorado.
 
-👉 Si trabajas en gobierno, formación o empresa: ¿cómo deberíamos medir el impacto de la IA en la productividad del país?
+Mi propuesta para el país: que toda formación en IA tenga un indicador obligatorio de productividad, horas liberadas y valor producido por hora. Así la IA se ve en el #PIB y no solo en los certificados.
+
+👉 ¿Tu organización sabe hoy cuántas horas recupera con IA cada semana? Si la respuesta es no, ahí empieza el trabajo.
