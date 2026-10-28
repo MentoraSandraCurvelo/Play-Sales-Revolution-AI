@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-- **Seguidores hoy:** 7.000 y pico (dato de Sandra, 28 oct 2026). Pendiente la cifra exacta.
+- **Seguidores hoy:** 7.453 (28 oct 2026, leído con Claude en Chrome). Ver `diagnostico-2026-10-28.md`.
 - **Meta:** pasar de 10.000 lo antes posible.
 - **Posicionamiento:** referente de **IA empresarial y productividad** en Colombia (IAM Intelligent).
 - **Objetivo estratégico:** que el vicepresidente José Manuel Restrepo y su equipo la vean como aliada en IA, talento y productividad.
