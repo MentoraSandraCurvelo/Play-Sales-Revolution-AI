@@ -39,4 +39,4 @@ La llave de la API tiene permisos `openid`, `profile` y `w_member_social`: **pub
 ## Cifras oficiales de trayectoria (confirmadas por Sandra)
 
 - **+1.500 profesionales** formados (28 oct 2026). Reemplaza el "+1.000" que aún aparece en el "Acerca de" y quizá en el banner.
-- **+40 empresas** · **7 países** de Latinoamérica.
+- **+40 empresas** · **8 países** de Latinoamérica (confirmado por Sandra el 28 oct 2026): Colombia, Ecuador, Costa Rica, Perú, Panamá, México, Brasil y Chile. Pendiente: la web lista Argentina en vez de Chile.
