@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash contenido-linkedin/publicar.sh:*)"
+    ]
+  }
+}
