@@ -32,9 +32,13 @@ La llave de la API tiene permisos `openid`, `profile` y `w_member_social`: **pub
 
 ## Pendientes de Sandra
 
-- [ ] Cifra exacta de seguidores y crecimiento de los últimos 90 días
+- [x] Cifra exacta de seguidores y crecimiento de los últimos 90 días (7.453, ~306 en 90 días)
 - [ ] Exportar analíticas de contenido (Excel) de los últimos 365 días
-- [ ] Perfil en PDF (botón "Más" > "Guardar en PDF")
+- [x] Lectura del perfil (hecha con Claude en Chrome)
+- [x] Titular nuevo en español e inglés, guardado el 28 oct 2026
+- [ ] "Acerca de" en español con +1.500 profesionales y 8 países
+- [ ] Banner: actualizar a 8 países y +1.500 profesionales
+- [ ] Web iamlatam.co: actualizar línea IAM™ Intelligence (productividad, IAE™, DIAL-3R™) y frases que dicen 7 países
 
 ## Cifras oficiales de trayectoria (confirmadas por Sandra)
 
