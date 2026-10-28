@@ -36,11 +36,11 @@ La llave de la API tiene permisos `openid`, `profile` y `w_member_social`: **pub
 - [ ] Exportar analíticas de contenido (Excel) de los últimos 365 días
 - [x] Lectura del perfil (hecha con Claude en Chrome)
 - [x] Titular nuevo en español e inglés, guardado el 28 oct 2026
-- [ ] "Acerca de" en español con +1.500 profesionales y 8 países
+- [x] "Acerca de" en español e inglés con +1.500 profesionales y 8 países, guardado el 28 oct 2026
 - [ ] Banner: actualizar a 8 países y +1.500 profesionales
 - [ ] Web iamlatam.co: actualizar línea IAM™ Intelligence (productividad, IAE™, DIAL-3R™) y frases que dicen 7 países
 
 ## Cifras oficiales de trayectoria (confirmadas por Sandra)
 
-- **+1.500 profesionales** formados (28 oct 2026). Reemplaza el "+1.000" que aún aparece en el "Acerca de" y quizá en el banner.
+- **+1.500 profesionales** formados (28 oct 2026). Ya actualizado en titular y "Acerca de"; falta revisar el banner.
 - **+40 empresas** · **8 países** de Latinoamérica (confirmado por Sandra el 28 oct 2026): Colombia, Ecuador, Costa Rica, Perú, Panamá, México, Brasil y Argentina (coincide con la web).
