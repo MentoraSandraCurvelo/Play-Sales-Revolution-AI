@@ -31,7 +31,8 @@ Convertir en hashtag la palabra clave de un párrafo cada 2 párrafos, más o me
 
 ## 4. Flujo de aprobación
 
-- Ningún post sale sin aprobación explícita de Sandra.
+- **REGLA DE ORO: Sandra SIEMPRE ve el post completo, tal como va a salir, antes de publicarlo.** Sin su "sí" explícito a ese texto, no se publica. Aplica también a las publicaciones automáticas: solo salen textos que ella ya vio y aprobó.
+- Cifras: solo datos reales y verificables. Se pueden presentar en la unidad que más impacte (semana, mes, año) siempre que la cuenta sea correcta y se pueda explicar.
 - Todo carrusel pasa por Claude Design y por aprobación antes de publicarse.
 - Mencionar a personas (ej. el Vicepresidente) solo cuando Sandra lo apruebe para ese post.
 
