@@ -20,11 +20,17 @@ PASO 3 · ESPERA MI APROBACIÓN. No publiques nada todavía. Yo te diré cuáles
 PASO 4 · PUBLICA SOLO LO APROBADO, con el texto exacto que yo aprobé, dejando al menos 2 minutos entre un comentario y otro. No des like ni hagas nada más. Al final dime cuáles quedaron publicados, con su link.
 ```
 
-## Lista de cuentas clave (pendiente de completar con Sandra)
+## Lista de cuentas clave (propuesta, pendiente de aprobación de Sandra)
 
 - José Manuel Restrepo (vicepresidente de Colombia)
 - Gobierno: MinTIC, MinCIT, SENA, DNP
 - Gremios y competitividad: Consejo Privado de Competitividad, ANDI, Confecámaras, Asocajas
 - Ecosistema: ANDICOM / CINTEL
-- Prospectos: Comfamiliar Atlántico, Drummond
+- Clientes (relación y expansión, sin mencionar proyectos en los comentarios): Drummond
+- Prospectos, cajas de compensación (mismo sector del caso de productividad): Comfamiliar Atlántico, Colsubsidio, Compensar, Cafam, Comfama, Comfandi
+- Prospectos, sector público regional: Alcaldía de Valledupar, Gobernación del Cesar
+- Prospectos, educación: Areandina, Universidad Autónoma del Caribe
+- Prospectos, minería y energía: Cerrejón
 - Líderes de IA y ventas en Colombia: (nombres por definir con Sandra)
+
+Rotación sugerida (máximo 10 comentarios al día): lunes y jueves gobierno y gremios; martes y viernes prospectos; miércoles clientes y líderes de IA. El VP se revisa todos los días.
