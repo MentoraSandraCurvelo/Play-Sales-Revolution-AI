@@ -35,3 +35,8 @@ La llave de la API tiene permisos `openid`, `profile` y `w_member_social`: **pub
 - [ ] Cifra exacta de seguidores y crecimiento de los últimos 90 días
 - [ ] Exportar analíticas de contenido (Excel) de los últimos 365 días
 - [ ] Perfil en PDF (botón "Más" > "Guardar en PDF")
+
+## Cifras oficiales de trayectoria (confirmadas por Sandra)
+
+- **+1.500 profesionales** formados (28 oct 2026). Reemplaza el "+1.000" que aún aparece en el "Acerca de" y quizá en el banner.
+- **+40 empresas** · **7 países** de Latinoamérica.

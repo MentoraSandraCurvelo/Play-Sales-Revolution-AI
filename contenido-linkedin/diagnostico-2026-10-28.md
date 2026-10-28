@@ -36,7 +36,7 @@ A ritmo actual, 2.547 ÷ 3,4 = ~750 días (unos 2 años) para llegar a 10.000.
 1. En las publicaciones aparece el titular viejo en inglés ("Mentor AI-Driven Sales Strategy… GEMMAS"). Revisar la versión en inglés del perfil.
 2. El titular actual lista 5 submarcas y no menciona productividad ni el IAE™.
 3. El "Acerca de" que se ve está en inglés.
-4. Inconsistencia de cifras: el perfil dice "+1.000 profesionales" y la propuesta de la Alcaldía dice "1.500+". Definir cuál es la vigente.
+4. Inconsistencia de cifras: el perfil dice "+1.000 profesionales" y la propuesta de la Alcaldía dice "1.500+". **Cifra vigente confirmada por Sandra: más de 1.500 profesionales.** Actualizar el "Acerca de" y el banner.
 5. Destacados: mezcla de eventos; falta el caso de productividad, el IAE™ y el enlace para agendar.
 
 ## Ajustes al plan de contenido
