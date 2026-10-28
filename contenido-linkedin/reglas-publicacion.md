@@ -17,12 +17,11 @@ Estas reglas aplican a TODA publicación que Claude haga en el perfil de Sandra,
 
 Además, 2 o 3 hashtags temáticos del post (ej. #Productividad, #IAEmpresarial).
 
-> ⚠️ Pendiente: Sandra confirma la escritura exacta (IAM, Iam o IAm).
+Escritura confirmada por Sandra: **IAM** en mayúscula (#IAMIntelligent).
 
 ## 2. Hashtags dentro del texto
 
-Convertir en hashtag la palabra clave de los párrafos, variando entre posts.
-Cantidad: pendiente de decisión de Sandra (1 por párrafo o 1 cada 2 párrafos).
+Convertir en hashtag la palabra clave de un párrafo cada 2 párrafos, más o menos **5 en el texto**, variando entre posts.
 
 ## 3. Confidencialidad de clientes
 
