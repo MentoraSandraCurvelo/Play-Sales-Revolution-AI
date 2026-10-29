@@ -19,7 +19,31 @@ if q.get("estado") != "aprobado":
 if q.get("urn"):
     sys.exit(f"Ya publicado: {q['urn']}")
 json.dump(q["payload"], open(sys.argv[2], 'w', encoding='utf-8'), ensure_ascii=False)
+open(sys.argv[2] + '.imagen', 'w').write(q.get("imagen") or "")
+open(sys.argv[2] + '.alt', 'w', encoding='utf-8').write(q.get("alt") or "Sandra Curvelo · IAM™")
 EOF
+
+# Si el post lleva foto: se sube primero al almacenamiento privado de LinkedIn y se adjunta
+IMG="$(cat "$TMP/payload.json.imagen")"
+if [ -n "$IMG" ]; then
+  REPO="$(cd "$DIR/.." && pwd)"
+  [ -f "$REPO/$IMG" ] || { echo "No existe la imagen $IMG"; exit 1; }
+  curl -sS -o "$TMP/init.json" -X POST "https://api.linkedin.com/rest/images?action=initializeUpload" \
+    -H "Content-Type: application/json" \
+    -H "LinkedIn-Version: 202601" \
+    -H "X-Restli-Protocol-Version: 2.0.0" \
+    --data '{"initializeUploadRequest":{"owner":"urn:li:person:tsJbwdb3B2"}}'
+  UPLOAD_URL=$(python3 -I -c "import json,sys;print(json.load(open(sys.argv[1]))['value']['uploadUrl'])" "$TMP/init.json")
+  IMAGE_URN=$(python3 -I -c "import json,sys;print(json.load(open(sys.argv[1]))['value']['image'])" "$TMP/init.json")
+  UP=$(curl -sS -o /dev/null -w "%{http_code}" -X PUT "$UPLOAD_URL" -H "Content-Type: image/jpeg" --data-binary @"$REPO/$IMG")
+  [ "$UP" = "201" ] || [ "$UP" = "200" ] || { echo "Error subiendo la imagen: HTTP $UP"; exit 1; }
+  python3 -I - "$TMP/payload.json" "$IMAGE_URN" "$TMP/payload.json.alt" <<'EOF'
+import json, sys
+p = json.load(open(sys.argv[1], encoding='utf-8'))
+p["content"] = {"media": {"id": sys.argv[2], "altText": open(sys.argv[3], encoding='utf-8').read()}}
+json.dump(p, open(sys.argv[1], 'w', encoding='utf-8'), ensure_ascii=False)
+EOF
+fi
 
 CODE=$(curl -sS -D "$TMP/headers" -o "$TMP/body" -w "%{http_code}" -X POST https://api.linkedin.com/rest/posts \
   -H "Content-Type: application/json" \
