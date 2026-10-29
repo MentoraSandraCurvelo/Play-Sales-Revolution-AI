@@ -1,0 +1,21 @@
+{
+  "id": "jue-05-am",
+  "estado": "aprobado",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-10-29",
+  "programado_bogota": "2026-11-05 07:30",
+  "imagen": "contenido-linkedin/fotos/equipo-intelligence-2026-08-11.jpg",
+  "urn": null,
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "El 11 de agosto entré a una sala con más de 50 personas de 18 áreas distintas.\n\nJurídica, finanzas, talento humano, servicios sociales, tecnología, mercadeo. Cada una con sus procesos, sus urgencias y sus dudas sobre la IA.\n\nEse día medimos algo que casi nadie mide: la confianza.\n\nEn la encuesta de seguimiento, las personas que respondieron calificaron su seguridad para usar {hashtag|\\#|IA} en 4,7 sobre 10 antes de empezar.\n\n9 semanas después: 8,6. Y ninguna bajó.\n\nEse es el dato que más me importa. Porque la tecnología no transforma organizaciones. Las personas que aprenden a trabajar con ella, sí.\n\nCuando la confianza sube, llegan los resultados: más de 800 horas al mes recuperadas y 90% menos tiempo en las tareas medidas.\n\nLo que no se mide no puede ser mejorado. Y eso incluye a las personas.\n\n👉 Del 1 al 10, ¿cuánta confianza tiene tu equipo hoy para usar IA en su trabajo diario?\n\n{hashtag|\\#|IAEmpresarial} {hashtag|\\#|TalentoHumano} {hashtag|\\#|Productividad} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
+  }
+}
