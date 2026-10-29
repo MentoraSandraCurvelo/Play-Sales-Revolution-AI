@@ -25,7 +25,7 @@ Convertir en hashtag la palabra clave de un párrafo cada 2 párrafos, más o me
 
 ## 3. Confidencialidad de clientes
 
-- **Nunca** publicar el nombre de Comfacesar. Referirse a él como "una caja de compensación familiar en Colombia" o "una organización con más de X colaboradores", sin datos que permitan identificarlo.
+- **Actualización 29 oct 2026:** Comfacesar autorizó publicar fotos y el caso de éxito. Pendiente confirmar con Sandra si se puede usar el nombre y etiquetar la página de la caja. Hasta esa confirmación: no publicar el nombre de Comfacesar. Referirse a él como "una caja de compensación familiar en Colombia" o "una organización con más de X colaboradores", sin datos que permitan identificarlo.
 - Nunca publicar nombres de personas de equipos cliente.
 - Los resultados y la metodología sí se pueden contar.
 
