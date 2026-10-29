@@ -1,10 +1,10 @@
 {
   "id": "jue-29-am",
-  "estado": "aprobado",
+  "estado": "publicado",
   "aprobado_por": "Sandra",
   "aprobado_el": "2026-10-29",
   "programado_bogota": "2026-10-29 07:30",
-  "urn": null,
+  "urn": "urn:li:share:7521552122438635520",
   "payload": {
     "author": "urn:li:person:tsJbwdb3B2",
     "commentary": "Ayer compartí un dato que deberíamos tener presente: un trabajador colombiano genera casi 4 veces menos valor por hora que el promedio de la OCDE, el grupo de 38 países que se comparan para crecer. Y desde julio trabajamos 42 horas a la semana. Menos horas con la misma {hashtag|\\#|Productividad} es una ecuación que no cierra.\n\nHoy quiero hablar de la salida.\n\nEn ANDICOM 2026, el vicepresidente José Manuel Restrepo planteó que la IA y los servicios digitales serán sectores estratégicos para el país y que el talento colombiano debe desarrollar habilidades en {hashtag|\\#|InteligenciaArtificial}.\n\nEstoy de acuerdo, y quiero sumar evidencia desde dentro de las empresas.\n\nEn una caja de compensación familiar en Colombia aplicamos IA con 18 áreas durante 9 semanas: jurídica, financiera, talento humano, servicios sociales y más. El resultado:\n\n⭕ Más de 800 horas al mes recuperadas, el equivalente a casi 5 personas de tiempo completo\n⭕ 90% menos tiempo en las tareas medidas\n⭕ Un informe que tomaba 2 días hoy toma 10 minutos\n\nAhí está la diferencia. Enseñar IA no basta. En IAM™ Intelligence no enseñamos herramientas: instalamos un sistema de trabajo con el Método DIAL-3R™ y lo medimos con el IAE™, nuestro Índice de IA Empresarial. Cada semana muestra qué área sube, cuál baja y cuántas horas recupera.\n\nLo que no se mide no puede ser mejorado.\n\nMi propuesta para el país: que toda formación en IA tenga un indicador obligatorio de productividad, horas liberadas y valor producido por hora. Así la IA se ve en el {hashtag|\\#|PIB} y no solo en los certificados.\n\n👉 ¿Tu organización sabe hoy cuántas horas recupera con IA cada semana? Si la respuesta es no, ahí empieza el trabajo.\n\n{hashtag|\\#|IAEmpresarial} {hashtag|\\#|IAColombia} {hashtag|\\#|Competitividad} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
@@ -17,5 +17,6 @@
     "lifecycleState": "PUBLISHED",
     "isReshareDisabledByAuthor": false
   },
-  "version": "v2-OCDE"
+  "version": "v2-OCDE",
+  "publicado_utc": "2026-10-29T12:42:50+00:00"
 }
