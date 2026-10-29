@@ -1,6 +1,6 @@
 {
   "id": "jue-29-pm",
-  "estado": "en_revision",
+  "estado": "aprobado",
   "programado_bogota": "2026-10-29 17:30",
   "urn": null,
   "payload": {
@@ -14,5 +14,7 @@
     },
     "lifecycleState": "PUBLISHED",
     "isReshareDisabledByAuthor": false
-  }
+  },
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-10-29"
 }
