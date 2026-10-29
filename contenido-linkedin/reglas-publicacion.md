@@ -52,3 +52,16 @@ Convertir en hashtag la palabra clave de un párrafo cada 2 párrafos, más o me
 - ⭕ para marcar puntos clave.
 - Datos con fuente; si es estimado, se dice.
 - Sin guiones para separar ideas; usar comas.
+
+## 7. Definiciones oficiales
+
+**IAE™, Índice de IA Empresarial** (confirmado por Sandra el 29 oct 2026): mide cuánto aumenta la productividad de cada área gracias a la IA. Combina 3 cosas:
+- **Adopción:** qué porcentaje del equipo usa la IA en su trabajo real.
+- **Horas recuperadas:** el tiempo de cada tarea antes y después de la IA, multiplicado por su frecuencia.
+- **Evolución:** se mide desde una línea base en la semana 1 y se sigue en el tiempo, para ver qué área sube y cuál baja.
+
+**Método DIAL-3R™:** Diagnosticar, Instruir, Aplicar y Liberar, más el ciclo Rutina, Resultado y Repetición. En la práctica: mapear el proceso (que no esté roto), medir la línea base, llevarlo a un proyecto de IA con tablero de control, pasarlo a IA agéntica con botón de aprobación humana. "Amplificar un proceso roto con IA es amplificar el caos."
+
+## 8. Tableros y demostraciones (POC)
+
+Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el sistema real de IAM™ con datos de ejemplo. Al publicarlos se dice: "Así se ve el tablero que implementamos. Los datos que ves son de ejemplo, para proteger la información de nuestros clientes." No se dice que son datos reales de un cliente.
