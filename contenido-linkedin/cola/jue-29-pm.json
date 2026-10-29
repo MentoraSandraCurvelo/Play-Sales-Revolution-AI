@@ -1,0 +1,18 @@
+{
+  "id": "jue-29-pm",
+  "estado": "en_revision",
+  "programado_bogota": "2026-10-29 17:30",
+  "urn": null,
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "Una abogada me dijo en la tercera sesión: \"Ese informe me roba 2 días cada mes\".\n\nEra el informe mensual para un ente de control. 16 horas de copiar, cruzar y redactar.\n\nLo primero que hicimos no fue abrir una herramienta de IA. Fue revisar el proceso.\n\nPorque amplificar un proceso roto con IA es amplificar el caos.\n\nAsí lo resolvimos:\n\n⭕ 1. Mapeamos el proceso para confirmar que no estuviera roto y encontrar dónde mejorarlo\n⭕ 2. Medimos cuánto tardaba de verdad, paso por paso. Esa fue la línea base\n⭕ 3. Llevamos el proceso a un proyecto de IA y construimos su tablero de control\n⭕ 4. Lo pasamos a {hashtag|\\#|IAAgéntica}: un agente con su circuito de trabajo conectado a su correo, Google Drive y Google Calendar, con alertas tributarias y su criterio jurídico para redactar el documento\n⭕ 5. Pusimos un botón de aprobación: ella revisa, decide y firma\n\nHoy ese informe le toma 10 minutos.\n\nNo es magia. Es {hashtag|\\#|Método}. El agente hace el trabajo pesado y ella hace lo que nadie más puede hacer: decidir.\n\nMultiplica eso por 18 áreas y entiendes por qué en esa organización recuperamos más de 800 horas al mes.\n\nLo que no se mide no puede ser mejorado.\n\n👉 ¿Qué informe de tu área te roba más tiempo cada mes? Te leo en comentarios.\n\n{hashtag|\\#|IAEmpresarial} {hashtag|\\#|Productividad} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
+  }
+}

@@ -1,0 +1,25 @@
+Una abogada me dijo en la tercera sesión: "Ese informe me roba 2 días cada mes".
+
+Era el informe mensual para un ente de control. 16 horas de copiar, cruzar y redactar.
+
+Lo primero que hicimos no fue abrir una herramienta de IA. Fue revisar el proceso.
+
+Porque amplificar un proceso roto con IA es amplificar el caos.
+
+Así lo resolvimos:
+
+⭕ 1. Mapeamos el proceso para confirmar que no estuviera roto y encontrar dónde mejorarlo
+⭕ 2. Medimos cuánto tardaba de verdad, paso por paso. Esa fue la línea base
+⭕ 3. Llevamos el proceso a un proyecto de IA y construimos su tablero de control
+⭕ 4. Lo pasamos a #IAAgéntica: un agente con su circuito de trabajo conectado a su correo, Google Drive y Google Calendar, con alertas tributarias y su criterio jurídico para redactar el documento
+⭕ 5. Pusimos un botón de aprobación: ella revisa, decide y firma
+
+Hoy ese informe le toma 10 minutos.
+
+No es magia. Es #Método. El agente hace el trabajo pesado y ella hace lo que nadie más puede hacer: decidir.
+
+Multiplica eso por 18 áreas y entiendes por qué en esa organización recuperamos más de 800 horas al mes.
+
+Lo que no se mide no puede ser mejorado.
+
+👉 ¿Qué informe de tu área te roba más tiempo cada mes? Te leo en comentarios.
