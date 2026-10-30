@@ -52,8 +52,6 @@ ella. Está en `08-un-solo-grupo.md`.
 
 ## Lo que todavía no existe
 
-- **El agente de Klaren's.** _Sandra no lo ha creado y no tiene nombre._ Mientras tanto lo
-  lleva Lucía. Su flujograma está escrito en `AGENTE.md`, listo para cuando exista.
 - **El acta de la sesión 1 y la de la 3** no están en la app: la 1 nunca se escribió y de la
   3 solo hay el PDF, sin el archivo que la app lee.
 
@@ -63,6 +61,6 @@ ella. Está en `08-un-solo-grupo.md`.
 |---|---|
 | **Lucía** | Las sesiones y las actas de todos los clientes |
 | **Elía** | **Todos los reportes.** El tablero y los indicadores, también los de Klaren's |
-| **El agente de Klaren's** | **Su espacio**, cuando Sandra lo cree. _Hoy no existe y no tiene nombre: lo lleva Lucía mientras tanto_ |
+| **María** | **El espacio de Klaren's.** _Sandra la nombró el 30 de octubre de 2026._ Su flujograma está en `AGENTE.md` |
 
 **Lucía produce y Elía reporta.** _Lucía no arma tableros y Elía no escribe actas._

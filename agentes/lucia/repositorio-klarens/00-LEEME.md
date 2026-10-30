@@ -23,7 +23,7 @@ la fecha en que Sandra la pidió.
 | `06-de-slack-a-hello.md` | **Qué cambia ahora que esto vive en Hello** |
 | `07-klarens.md` | **Qué es Klaren's y en qué se diferencia de Comfacesar** |
 | `08-un-solo-grupo.md` | **Por qué aquí no hay un canal por frente** |
-| `AGENTE.md` | El flujograma del agente de Klaren's, **que todavía no existe** |
+| `AGENTE.md` | El flujograma de **María**, el agente de Klaren's |
 | `ESTADO.md` | Dónde está todo hoy |
 
 ## La regla que está por encima de todas
@@ -48,3 +48,6 @@ un aviso, no a frenar un acta entera._
 Natalia» por un agente que nadie había creado:_ al replicar para Klaren's lo que existía
 para Novasoft, **se dio por hecho un nombre en vez de preguntarlo.** Un hueco se deja
 abierto y se dice; no se tapa con algo que suene bien.
+
+_El 30 de octubre de 2026 Sandra puso el nombre de verdad: **María**._ Tardó tres semanas en
+llegar, y llegó de quien tenía que llegar.

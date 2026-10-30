@@ -7,6 +7,7 @@
 | **Lucía** | **Las sesiones.** Lee las transcripciones, escribe las actas, publica las grabaciones y los resúmenes, vigila la agenda y los títulos, registra las caídas |
 | **Elía** | **Los reportes.** Todos. El tablero, los indicadores, los informes de cierre |
 | **Emilia** | **El espacio de Novasoft.** Y un agente por cliente que venga, con la misma receta |
+| **María** | **El espacio de Klaren's.** _Sandra la nombró el 30 de octubre de 2026_ |
 
 ## El flujo entre Lucía y Elía
 

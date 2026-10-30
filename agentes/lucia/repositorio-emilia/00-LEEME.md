@@ -18,7 +18,7 @@ la fecha en que Sandra la pidió.
 | `05-caidas-y-numeracion.md` | Una sesión que no se hizo, y cómo se numera |
 | `06-de-slack-a-hello.md` | **Qué cambia ahora que esto vive en Hello** |
 | `07-quien-hace-que.md` | **Lucía, Elía y Emilia: quién hace qué y qué se pasan** |
-| `EMILIA.md` | El flujograma del agente de Novasoft |
+| `EMILIA.md` | El flujograma de **Emilia**, el agente de Novasoft |
 | `ESTADO.md` | Dónde está todo hoy |
 
 ## La regla que está por encima de todas

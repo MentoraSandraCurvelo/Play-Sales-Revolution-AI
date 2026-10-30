@@ -30,9 +30,11 @@ pedir la propietaria del espacio.
 | **Google Calendar** | Evento mensual recurrente, el 2 a las 7:30 a. m. | `RRULE:FREQ=MONTHLY;BYMONTHDAY=2` · aviso 10 min antes y correo el día anterior · lleva el paso a paso dentro |
 | **Routine de Claude** | `trig_01VwFuBBuwHiUsFeLGAckZY4` · el 2 a las 7:22 a. m. | Despierta una sesión que le escribe a Sandra · aviso al teléfono y al correo |
 
-**No se pudo dejar en Outlook.** *El conector de Microsoft 365 de esta sesión es de solo lectura del
-calendario* — tiene `Calendars.Read`, no `Calendars.ReadWrite`. **Por la misma razón, Lucía tampoco
-puede corregir los títulos de los eventos del calendario de trabajo:** eso lo hace Sandra.
+**Ahora sí se puede dejar en Outlook.** *El 30 de octubre de 2026 Sandra dio el consentimiento de
+administrador y el conector quedó con `Calendars.ReadWrite`*, verificado ese día renombrando un
+evento real. **Por la misma razón, Lucía ya corrige los títulos de los eventos del calendario de
+trabajo** en vez de pasárselos a Sandra para que los pegue. _El recordatorio sigue donde está:
+mover lo que ya funciona no es urgente._
 
 ## Límite de la Routine, y cómo se levanta
 

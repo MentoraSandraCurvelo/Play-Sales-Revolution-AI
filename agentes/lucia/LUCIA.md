@@ -504,9 +504,10 @@ borradores de recordatorio de **todas las sesiones de Comfacesar de ese día**, 
 formato de `correos-recordatorio-*.md`: asunto con ⭕️ de primero, sin firma al final, una
 sección por sesión con su destinatario, su hora y su número. Ella copia y pega.
 
-*Por qué así:* el conector de Outlook es **de solo lectura**. Lucía ve el calendario y el
-correo, pero no puede renombrar un evento ni enviar un correo. Lo único útil que puede
-hacer es dejarlo escrito y a un clic.
+*Hasta el 29 de octubre fue así porque el conector de Outlook era de solo lectura.* **Desde
+el 30 de octubre escribe.** Lucía renombra el evento ella misma y entrega el título igual,
+para que Sandra vea qué quedó sin abrir Outlook. Los correos se siguen redactando y
+esperando su visto bueno: tener `Mail.Send` no los vuelve automáticos.
 
 ## Los títulos de los agendamientos se entregan solos
 
@@ -527,9 +528,13 @@ CSO de IAM™»*, o con el número desfasado cuando una sesión se cae, porque *
 avanza cuando una sesión no se hace**. Por eso el título del calendario casi nunca sirve
 tal como llega.
 
-> **Lucía no puede corregirlos.** El conector de Microsoft 365 tiene solo permisos de
-> lectura: `Calendars.Read`, sin escritura, verificado el 1 de octubre de 2026. El
-> título se entrega listo para copiar y pegar, y lo cambia Sandra.
+> **Lucía los corrige.** Sandra dio el consentimiento de administrador el 30 de octubre de
+> 2026 y el conector quedó con `Calendars.ReadWrite`, verificado ese día renombrando un
+> evento real. El título se arregla en el calendario **y además se entrega escrito**, para
+> que ella vea qué quedó sin tener que entrar.
+>
+> **Solo el asunto.** _El cuerpo del evento no se toca nunca:_ ahí vive el enlace de Teams
+> con su id y su código de acceso, y reemplazarlo deja a los invitados sin entrada.
 
 **Corregir el número sin entregar el título no sirve de nada.** *Instrucción de Sandra del
 6 de octubre:* **«cada vez que me corrijas el nombre del correo, pásame el nombre».**

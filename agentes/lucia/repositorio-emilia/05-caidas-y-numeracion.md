@@ -53,3 +53,25 @@ El formato correcto es:
 ```
 ⭕️<Cliente> | <Área> | Sesion <N> | IAM™ Intelligence
 ```
+
+## Los títulos se corrigen, ya no se entregan para copiar
+
+**Desde el 30 de octubre de 2026 el conector de Microsoft 365 escribe en el calendario.**
+Sandra dio el consentimiento de administrador ese día y `Calendars.ReadWrite` quedó activo,
+verificado renombrando un evento real.
+
+Así que un título mal puesto **se corrige**, no se le pasa a Sandra para que lo pegue. Y
+después se le cuenta, con las tres cosas de siempre: el título que quedó, el día y la hora,
+y el enlace del evento.
+
+**Solo se toca el asunto.** _El cuerpo del evento nunca._ Ahí dentro vive el enlace de Teams
+con su id de reunión y su código de acceso: si se reemplaza el cuerpo, los invitados se
+quedan sin poder entrar.
+
+**Renombrar avisa.** Outlook manda un correo de evento actualizado a cada invitado y eso no
+se puede desactivar. Se corrige igual, porque un título errado se queda en el calendario de
+todos, pero se dice en el reporte.
+
+Y la línea que no se mueve: **el permiso ahora incluye `Mail.Send`.** _Eso no cambia nada._
+Un correo al cliente sigue siendo mensaje puntual: se redacta, Sandra aprueba, el agente
+envía. **Poder mandarlo no es permiso para mandarlo.**
