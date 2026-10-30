@@ -23,3 +23,12 @@ Descartadas de esa sesión: la mesa principal y el directivo hablando (pendón c
 Otras carpetas de Drive por revisar: `FOTOS`, `Fotos y videos`, `Audiovisual`, `Area Andina`, `6 junio 2026`, `Sesión 1`, y un lote de fotos RAW `_TOM46xx.ARW` del 6 jul 2026 (25 MB cada una, formato de cámara Sony).
 
 Fotos `189_MUNISD` (oct 2026): competencia infantil de BMX, personales. No se usan.
+
+## Actualización 30 oct 2026 (tarde): Dropbox ya abre
+
+Sandra agregó el dominio de Dropbox y las descargas funcionan.
+
+- `/1-IAM™/Drummond Conferencia/FOTOS`: 12 fotos editadas revisadas (hoja: `hojas/drummond-conferencia.jpg`). Hay 186 más sin editar en `Fotos Sin editar`. Drummond es cliente y se puede nombrar; ojo con caras de colaboradores en primer plano.
+- `/2-Contenido/Mujer radiante/FOTOS/FOTOS`: 13 fotos revisadas de 34 (hoja: `hojas/mujer-radiante.jpg`). Auditorio grande, Sandra en traje rojo en tarima.
+- `/2-Contenido/Marketing Jurgen`: pendiente de revisar.
+- Foto de perfil actual de LinkedIn: no se pudo ver (la red bloquea media.licdn.com).
