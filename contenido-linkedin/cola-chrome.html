@@ -1,0 +1,66 @@
+<title>Cola IAM LinkedIn</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Outfit:wght@400;600&display=swap">
+<style>
+/* Layout: una columna de lectura; cada post es un bloque con estado visible para Sandra y para Claude en Chrome */
+:root{
+  --bg:#fbf8f8; --fg:#1a1415; --muted:#6b5d5f; --line:#e7dcdd; --card:#ffffff;
+  --red:#c00000; --ok:#1d7a45; --done:#6b5d5f;
+  --display:"Playfair Display",Georgia,serif; --body:"Outfit",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0d0b0b; --fg:#f3eded; --muted:#a8999b; --line:#2c2425; --card:#161213;
+  --red:#ff4a4a; --ok:#4fc483; --done:#a8999b; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0d0b0b; --fg:#f3eded; --muted:#a8999b; --line:#2c2425; --card:#161213;
+  --red:#ff4a4a; --ok:#4fc483; --done:#a8999b; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 56px}
+main{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+.eyebrow{font-weight:600;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--red)}
+h1{font-family:var(--display);font-size:clamp(28px,6vw,40px);line-height:1.1;margin:6px 0 0;text-wrap:balance}
+h2{font-family:var(--display);font-size:22px;margin:0;text-wrap:balance}
+p{margin:0;max-width:65ch}
+.muted{color:var(--muted)}
+section{display:flex;flex-direction:column;gap:14px}
+ol{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px}
+.post{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.row{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center}
+.pill{font-weight:600;font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:3px 10px;border-radius:99px;border:1.5px solid currentColor}
+.pill.ok{color:var(--ok)} .pill.done{color:var(--done)}
+a{color:var(--red);word-break:break-all}
+blockquote{margin:0;padding:12px 14px;border-left:3px solid var(--red);background:var(--bg);border-radius:4px;white-space:pre-wrap}
+code{font-size:14px}
+</style>
+
+<main>
+  <header>
+    <div class="eyebrow">Sandra Curvelo · IAM™</div>
+    <h1>Cola de LinkedIn para Claude en Chrome</h1>
+    <p class="muted" style="margin-top:10px">Claude la actualiza cada vez que publica. Claude en Chrome la lee en su rutina diaria. Solo se publica lo marcado como APROBADO.</p>
+  </header>
+
+  <section aria-labelledby="reglas">
+    <h2 id="reglas">Reglas para Claude en Chrome</h2>
+    <ol>
+      <li>Para cada post con estado <strong>APROBADO</strong>: ábrelo, dale "Recomendar" si no tiene mi like, y publica el primer comentario exactamente como está escrito aquí, si aún no está publicado.</li>
+      <li>Nunca publiques un comentario que no esté en esta página. Nunca cambies una palabra.</li>
+      <li>Si un post ya tiene mi primer comentario, no lo repitas.</li>
+      <li>Para los comentarios en publicaciones de otras personas: redacta y muéstrame cada uno en el panel. Publica solo los que yo apruebe con "sí". Máximo 10 al día, separados por 2 minutos.</li>
+    </ol>
+  </section>
+
+  <section aria-labelledby="posts">
+    <h2 id="posts">Primer comentario por post</h2>
+
+    <article class="post">
+      <div class="row">
+        <span class="pill ok">Aprobado</span>
+        <span class="muted">Vie 30 oct 2026 · post del agente de IA</span>
+      </div>
+      <a href="https://www.linkedin.com/feed/update/urn:li:share:7521981506832048129/">https://www.linkedin.com/feed/update/urn:li:share:7521981506832048129/</a>
+      <div><strong>Acciones:</strong> like, primer comentario y etiquetar a @Anthropic al final del texto (editar publicación).</div>
+      <blockquote>Dato para los que me preguntan cómo funciona: el agente prepara todo, pero nada sale sin mi aprobación. Ese botón es la diferencia entre automatizar y delegar con criterio. ¿Tú qué tarea no soltarías nunca?</blockquote>
+    </article>
+  </section>
+</main>

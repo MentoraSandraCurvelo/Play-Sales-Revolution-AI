@@ -45,6 +45,7 @@ Convertir en hashtag la palabra clave de un párrafo cada 2 párrafos, más o me
 - Sin hashtags de marca en los comentarios. Sin vender en el primer comentario.
 - Nunca nombrar clientes confidenciales (Comfacesar).
 - Ritmo humano: los comentarios aprobados se publican espaciados, no en ráfaga.
+- **Primer comentario propio (30 oct 2026):** cada post sale con su primer comentario redactado para que Sandra lo apruebe junto con el post. Al publicar, Claude lo agrega como APROBADO en la página "Cola IAM LinkedIn" (https://claude.ai/artifact/3rS4cJB2opfxrwTMFUCyGe, fuente `contenido-linkedin/cola-chrome.html`). La rutina diaria de Claude en Chrome (`rutina-chrome.md`) le da like al post y publica ese comentario.
 
 ## 6. Estilo
 
