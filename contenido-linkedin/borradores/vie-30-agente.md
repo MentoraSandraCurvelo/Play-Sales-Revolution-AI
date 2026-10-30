@@ -1,7 +1,7 @@
 # Vie 30 oct · 5:30 p. m. · "Este post lo publicó un agente de IA"
 
-Imagen: `contenido-linkedin/imagenes/agente-publica.jpg` (foto "Foto Red Conference" de Fotos Profesionales)
-Estado: pendiente de aprobación de Sandra
+Imagen: `contenido-linkedin/imagenes/agente-publica.jpg` (foto real de conferencia, 12 ago 2026)
+Estado: publicado el 30 oct 2026 (urn:li:share:7521981506832048129). Foto final: conferencia real, no la retocada con IA
 
 ---
 

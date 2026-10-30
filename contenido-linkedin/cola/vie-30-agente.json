@@ -1,0 +1,23 @@
+{
+  "id": "vie-30-agente",
+  "estado": "publicado",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-10-30",
+  "programado_bogota": "ya",
+  "imagen": "contenido-linkedin/imagenes/agente-publica.jpg",
+  "urn": "urn:li:share:7521981506832048129",
+  "alt": "Sandra Curvelo dando una conferencia con el texto: Este post lo publicó un agente de IA. Yo solo dije: sí.",
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "Este post no lo publiqué yo.\n\nLo publicó un agente de IA, directamente en mi LinkedIn. Yo hice una sola cosa: leerlo y decir \"sí, publícalo\".\n\nHasta hace poco, las herramientas solo te dejaban programar. Tú escribías, tú diseñabas, tú subías la foto, y la máquina apretaba el botón a la hora indicada.\n\nEsto es otra liga. Esta semana mi agente de {hashtag|\\#|IAEmpresarial}:\n\n⭕ Revisó las métricas de mi perfil y me dijo qué funciona y qué no\n⭕ Escribió los posts con mis reglas de marca, mis hashtags y mis cifras reales\n⭕ Escogió fotos de mis eventos y borró el nombre de un cliente que se veía en una pantalla\n⭕ Actualizó mi página web\n⭕ Y publica a la hora acordada, solo si yo lo apruebo\n\nAhí está la clave. No le entregué mi {hashtag|\\#|MarcaProfesional} a una máquina. Le puse un {hashtag|\\#|Método}.\n\nEs lo mismo que hago en las empresas con DIAL-3R™: primero mapeas el proceso, después lo llevas a la IA, y al final dejas un botón de aprobación humana. La IA hace el trabajo pesado. Tú decides.\n\nLa pregunta ya no es si un {hashtag|\\#|AgenteDeIA} puede trabajar por ti. Es cuántas horas de tu semana sigues gastando en tareas que ya no necesitan tus manos.\n\n👉 Si tú tuvieras la última palabra, ¿qué tarea de tu semana le entregarías hoy a un agente de IA?\n\n{hashtag|\\#|Productividad} {hashtag|\\#|Claude} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
+  },
+  "publicado_utc": "2026-10-30T17:09:03+00:00"
+}
