@@ -21,3 +21,10 @@ Objetivo: que los entes del Estado vean a Sandra como la referente en IA para en
 | Vie 6 | Una IA que lee pliegos de SECOP II antes que el comité: transparencia con supervisión humana | Radar de pliegos genérico, datos de ejemplo |
 
 Mención al Vicepresidente: una vez en la semana, en el post del IAE™ (productividad y talento, su agenda), no en todos.
+
+## Ajuste 30 oct 2026 (decisión de Sandra)
+
+- No se mezcla sector público con privado: el post del IAE™ con datos de la caja sale en otra semana, no en esta.
+- Los tableros se muestran en VIDEO, moviéndose, no en foto. Copia sin nada de Valledupar en `demos/tableros-sector-publico.html` ("ejemplo ficticio"). Video grabado: `videos/tableros-sector-publico.mp4` (38 s, 1080x1350).
+- Frase permitida: "vengo trabajando este sistema para alcaldías". Nunca el nombre de la entidad.
+- Pendiente: video del ejercicio jurídico en vivo (redactar la contestación de una demanda) y video del Radar SECOP solo.

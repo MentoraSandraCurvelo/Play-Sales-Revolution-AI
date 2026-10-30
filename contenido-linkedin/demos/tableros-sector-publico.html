@@ -1,0 +1,353 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Tableros IA Sector Público</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: barra de marca, pestañas por POC, cada tablero = fila de KPIs, gráfico + tabla, panel de IA */
+:root{
+  --bg:#F3F5F2; --surface:#FFFFFF; --ink:#13272A; --muted:#5B6B68; --line:#DCE2DE;
+  --brand:#0F3B3A; --accent:#C9771A; --accent-soft:#F6E7D2;
+  --ok:#1F7A4D; --ok-soft:#DDF0E5; --warn:#A86A00; --warn-soft:#FBEFD3; --crit:#B3261E; --crit-soft:#F8DEDB;
+  --info:#24577A; --info-soft:#DDEAF3;
+  --f-display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --f-body:"IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --f-mono:"IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0E1716; --surface:#152220; --ink:#E6EEEB; --muted:#9AAEA9; --line:#26372F;
+  --brand:#7FCBB8; --accent:#E9A04A; --accent-soft:#3A2A14;
+  --ok:#5CC48C; --ok-soft:#173326; --warn:#E5B04E; --warn-soft:#382B10; --crit:#F08A80; --crit-soft:#3B1C19;
+  --info:#7DB4DA; --info-soft:#15293A; color-scheme:dark }}
+:root[data-theme="dark"]{
+  --bg:#0E1716; --surface:#152220; --ink:#E6EEEB; --muted:#9AAEA9; --line:#26372F;
+  --brand:#7FCBB8; --accent:#E9A04A; --accent-soft:#3A2A14;
+  --ok:#5CC48C; --ok-soft:#173326; --warn:#E5B04E; --warn-soft:#382B10; --crit:#F08A80; --crit-soft:#3B1C19;
+  --info:#7DB4DA; --info-soft:#15293A; color-scheme:dark }
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:20px;padding-block:20px 48px;display:grid;gap:18px}
+header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px}
+.brandline{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--f-display);font-weight:800;font-size:clamp(26px,4vw,38px);line-height:1.05;margin:4px 0 0;text-wrap:balance;color:var(--brand)}
+.sim{display:flex;gap:10px;align-items:flex-start;background:var(--accent-soft);border:1px solid var(--accent);border-radius:10px;padding:10px 14px;font-size:13.5px}
+.sim b{color:var(--accent)}
+nav.tabs{display:flex;flex-wrap:wrap;gap:6px;border-bottom:1px solid var(--line)}
+nav.tabs button{font:600 14.5px var(--f-body);color:var(--muted);background:none;border:0;border-bottom:3px solid transparent;padding:10px 14px;cursor:pointer}
+nav.tabs button[aria-selected="true"]{color:var(--brand);border-bottom-color:var(--accent)}
+nav.tabs button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.tabsub{font:400 12px var(--f-mono);display:block;color:var(--muted)}
+section.board{display:grid;gap:16px}
+.intro{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;align-items:baseline}
+.intro h2{font-family:var(--f-display);font-weight:600;font-size:22px;margin:0}
+.intro p{margin:0;color:var(--muted);max-width:62ch;font-size:14px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:2px}
+.kpi .lbl{font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.kpi .val{font-family:var(--f-display);font-weight:800;font-size:30px;font-variant-numeric:tabular-nums;line-height:1.1}
+.kpi .note{font-size:12.5px;color:var(--muted)}
+.delta{font-family:var(--f-mono);font-size:12px;font-weight:500}
+.up{color:var(--ok)} .down{color:var(--crit)}
+.grid2{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:14px}
+@media (max-width:860px){.grid2{grid-template-columns:minmax(0,1fr)}}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;display:grid;gap:10px;min-width:0;align-content:start}
+.panel h3{font-size:14px;margin:0;font-weight:600;letter-spacing:.02em}
+.panel h3 small{font-weight:400;color:var(--muted);font-size:12.5px;margin-left:6px}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13.5px;font-variant-numeric:tabular-nums}
+th{text-align:left;font-weight:600;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:8px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+tr.sel td{background:var(--info-soft)}
+tbody tr.click{cursor:pointer}
+tbody tr.click:hover td{background:var(--bg)}
+.mono{font-family:var(--f-mono);font-size:12.5px}
+.pill{display:inline-block;font-size:11.5px;font-weight:600;padding:2px 9px;border-radius:999px;white-space:nowrap}
+.p-ok{background:var(--ok-soft);color:var(--ok)} .p-warn{background:var(--warn-soft);color:var(--warn)}
+.p-crit{background:var(--crit-soft);color:var(--crit)} .p-info{background:var(--info-soft);color:var(--info)}
+.ai{border:1px dashed var(--accent);background:var(--surface)}
+.ai .tag{font:500 11.5px var(--f-mono);color:var(--accent);letter-spacing:.06em;text-transform:uppercase}
+.draft{font-size:13.5px;background:var(--bg);border-radius:8px;padding:12px 14px;white-space:pre-line;max-height:340px;overflow:auto}
+.meta{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:13px}
+.meta dt{color:var(--muted)} .meta dd{margin:0}
+.btnrow{display:flex;flex-wrap:wrap;gap:8px}
+.btn{font:600 13px var(--f-body);border-radius:8px;padding:8px 12px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.btn.primary{background:var(--brand);color:var(--surface);border-color:var(--brand)}
+.btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.toast{font-size:13px;color:var(--ok);min-height:1.2em}
+.bar{display:grid;grid-template-columns:minmax(120px,1.1fr) minmax(0,2fr) 52px;gap:10px;align-items:center;font-size:13px}
+.track{height:12px;background:var(--bg);border-radius:6px;overflow:hidden;border:1px solid var(--line)}
+.fill{height:100%;border-radius:6px}
+.list{display:grid;gap:8px}
+.foot{font-size:12.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px;display:grid;gap:4px}
+svg text{fill:var(--muted);font-family:var(--f-mono);font-size:11px}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12.5px;color:var(--muted)}
+.sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:middle}
+@media (prefers-reduced-motion:no-preference){.fill{transition:width .5s ease}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="brandline">⭕ IAM™ Intelligence · Sector público · Sistema demostrativo</div>
+      <h1>Tres tableros, tres frentes de IA con supervisión humana</h1>
+    </div>
+  </header>
+
+  <div class="sim" role="note"><span>⚠️</span><div><b>Datos simulados para demostración.</b> Ejemplo ficticio. Todas las cifras, radicados, procesos y metas son de ejemplo y no corresponden a ninguna entidad real.</div></div>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" id="t-pqrsd" aria-selected="true" aria-controls="b-pqrsd">PQRSD asistidas<span class="tabsub">Secretaría General</span></button>
+    <button role="tab" id="t-secop" aria-selected="false" aria-controls="b-secop">Radar SECOP<span class="tabsub">Contratación · Jurídica</span></button>
+    <button role="tab" id="t-plan" aria-selected="false" aria-controls="b-plan">Plan de Desarrollo<span class="tabsub">Oficina Asesora de Planeación</span></button>
+  </nav>
+
+  <!-- ===================== PQRSD ===================== -->
+  <section class="board" id="b-pqrsd" role="tabpanel" aria-labelledby="t-pqrsd">
+    <div class="intro">
+      <h2>PQRSD con borrador de IA</h2>
+      <p>Claude clasifica, asigna dependencia, calcula el plazo de la Ley 1755 y propone el borrador. El servidor revisa, ajusta y firma.</p>
+    </div>
+    <div class="kpis">
+      <div class="kpi"><span class="lbl">PQRSD del mes</span><span class="val">1.240</span><span class="note">simulado · <span class="delta up">▲ 6% vs mes anterior</span></span></div>
+      <div class="kpi"><span class="lbl">Respondidas a tiempo</span><span class="val">93%</span><span class="note">simulado · <span class="delta up">▲ 11 pts vs línea base 82%</span></span></div>
+      <div class="kpi"><span class="lbl">Minutos de redacción</span><span class="val">20 <span style="font-size:16px;color:var(--muted)">vs 40</span></span><span class="note">estimado · supuesto del 50%, verificar</span></div>
+      <div class="kpi"><span class="lbl">Borradores aceptados</span><span class="val">78%</span><span class="note">con cambios menores · simulado</span></div>
+    </div>
+    <div class="grid2">
+      <div class="panel">
+        <h3>Bandeja priorizada por plazo legal <small>toca una fila para ver el borrador</small></h3>
+        <div class="scroll"><table id="pq-table">
+          <thead><tr><th>Radicado</th><th>Tipo</th><th>Tema</th><th>Dependencia (IA)</th><th>Plazo</th><th>Días hábiles rest.</th><th>Estado</th></tr></thead>
+          <tbody></tbody>
+        </table></div>
+      </div>
+      <div class="panel ai" id="pq-draft"></div>
+    </div>
+    <div class="grid2">
+      <div class="panel">
+        <h3>Respuestas por semana <small>simulado</small></h3>
+        <div class="legend"><span><i class="sw" style="background:var(--ok)"></i>A tiempo</span><span><i class="sw" style="background:var(--crit)"></i>Fuera de plazo</span><span><i class="sw" style="background:var(--accent)"></i>Inicio del piloto</span></div>
+        <div id="pq-chart"></div>
+      </div>
+      <div class="panel">
+        <h3>Top temas detectados por la IA <small>simulado</small></h3>
+        <div class="list" id="pq-temas"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SECOP ===================== -->
+  <section class="board" id="b-secop" role="tabpanel" aria-labelledby="t-secop" hidden>
+    <div class="intro">
+      <h2>Radar de procesos SECOP II</h2>
+      <p>Claude lee estudios previos, pliegos, adendas y minutas publicadas y genera una ficha con alertas. El abogado confirma o descarta cada hallazgo. Solo información pública.</p>
+    </div>
+    <div class="kpis">
+      <div class="kpi"><span class="lbl">Procesos analizados</span><span class="val">25</span><span class="note">20 adjudicados + 5 en curso · alcance POC</span></div>
+      <div class="kpi"><span class="lbl">Hallazgos confirmados</span><span class="val">31 <span style="font-size:16px;color:var(--muted)">de 42</span></span><span class="note">74% de precisión · simulado</span></div>
+      <div class="kpi"><span class="lbl">Horas de revisión por proceso</span><span class="val">0,8 <span style="font-size:16px;color:var(--muted)">vs 3</span></span><span class="note">estimado · se mide en la POC</span></div>
+      <div class="kpi"><span class="lbl">Valor revisado</span><span class="val">$48.600 M</span><span class="note">suma de procesos de ejemplo · simulado</span></div>
+    </div>
+    <div class="grid2">
+      <div class="panel">
+        <h3>Procesos con ficha IA <small>toca una fila para ver la ficha</small></h3>
+        <div class="scroll"><table id="sc-table">
+          <thead><tr><th>Proceso</th><th>Objeto</th><th>Modalidad</th><th>Valor</th><th>Alertas</th><th>Riesgo</th></tr></thead>
+          <tbody></tbody>
+        </table></div>
+      </div>
+      <div class="panel ai" id="sc-ficha"></div>
+    </div>
+    <div class="panel">
+      <h3>Hallazgos por tipo <small>simulado</small></h3>
+      <div class="list" id="sc-tipos"></div>
+    </div>
+  </section>
+
+  <!-- ===================== PLAN ===================== -->
+  <section class="board" id="b-plan" role="tabpanel" aria-labelledby="t-plan" hidden>
+    <div class="intro">
+      <h2>Seguimiento al Plan de Desarrollo 2024-2027</h2>
+      <p>Claude consolida las matrices del Plan Indicativo, señala metas rezagadas y redacta el informe en lenguaje claro para la rendición de cuentas, citando la fuente de cada cifra.</p>
+    </div>
+    <div class="kpis">
+      <div class="kpi"><span class="lbl">Plan de Desarrollo</span><span class="val" style="font-size:20px">Plan de Desarrollo Municipal</span><span class="note">municipio de ejemplo · 2024-2027</span></div>
+      <div class="kpi"><span class="lbl">Inversión prevista</span><span class="val">$1,2 billones</span><span class="note">ejemplo · 2024-2027</span></div>
+      <div class="kpi"><span class="lbl">Índice de Desempeño Institucional</span><span class="val">80,0</span><span class="note">ejemplo · vigencia 2025</span></div>
+      <div class="kpi"><span class="lbl">Avance físico ponderado</span><span class="val">61%</span><span class="note">simulado · corte 30 sep 2026</span></div>
+    </div>
+    <div class="grid2">
+      <div class="panel">
+        <h3>Avance por eje frente a lo esperado <small>ejemplo</small></h3>
+        <div class="legend"><span><i class="sw" style="background:var(--brand)"></i>Avance reportado</span><span><i class="sw" style="background:var(--accent)"></i>Esperado al corte (69%)</span></div>
+        <div class="list" id="pl-ejes"></div>
+      </div>
+      <div class="panel ai">
+        <span class="tag">⭕ Borrador generado por IA · revisar antes de publicar</span>
+        <h3>Resumen en lenguaje claro para la ciudadanía</h3>
+        <div class="draft">El municipio avanza en su Plan de Desarrollo: a septiembre de 2026 se ha cumplido el 61% de lo previsto para todo el cuatrienio.
+
+Lo que va bien: la gestión institucional (78%).
+
+Lo que necesita atención: las obras de infraestructura van al 48%, por debajo del 69% esperado a esta fecha. Las metas más rezagadas son pavimentación urbana y redes de acueducto en corregimientos.
+
+Fuente de cada cifra: Matriz Plan Indicativo, hoja "Seguimiento T3-2026", filas 12 a 140.</div>
+        <div class="btnrow"><button class="btn primary" id="pl-ok" type="button">Aprobar borrador</button><button class="btn" id="pl-cite" type="button">Ver fuentes citadas</button></div>
+        <div class="toast" id="pl-toast" aria-live="polite"></div>
+      </div>
+    </div>
+    <div class="panel">
+      <h3>Metas rezagadas detectadas por la IA <small>simulado</small></h3>
+      <div class="scroll"><table id="pl-table">
+        <thead><tr><th>Eje</th><th>Meta de producto</th><th>Responsable</th><th>Meta 2027</th><th>Logrado</th><th>Avance</th><th>Alerta</th></tr></thead>
+        <tbody></tbody>
+      </table></div>
+    </div>
+  </section>
+
+  <div class="foot">
+    <span>⭕ IAM™ Intelligence · Sistema demostrativo con datos ficticios.</span>
+    <span>Principios de las POC: datos anonimizados o públicos, la IA redacta y el servidor decide y firma, registro de cada salida, cero decisiones automáticas sobre derechos ciudadanos (Ley 1581, Ley 1755, Guía Ética de IA de MinTIC).</span>
+  </div>
+</div>
+
+<script>
+(function(){
+  // ---------- Tabs ----------
+  const tabs=[...document.querySelectorAll('[role=tab]')];
+  function show(id){
+    tabs.forEach(t=>{const on=t.id===id;t.setAttribute('aria-selected',on);document.getElementById(t.getAttribute('aria-controls')).hidden=!on;});
+    try{localStorage.setItem('iam-tab',id)}catch(e){}
+  }
+  tabs.forEach(t=>t.addEventListener('click',()=>show(t.id)));
+  const hashMap={pqrsd:'t-pqrsd',secop:'t-secop',plan:'t-plan'};
+  let start=hashMap[(location.hash||'').slice(1)];
+  if(!start){try{start=localStorage.getItem('iam-tab')}catch(e){}}
+  if(start&&document.getElementById(start))show(start);
+
+  const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+  // ---------- PQRSD ----------
+  const pq=[
+    {rad:'2026-PQ-08841',tipo:'Petición',tema:'Alumbrado público barrio Central',dep:'Infraestructura',plazo:'15 días',dias:2,estado:['Borrador IA listo','p-warn'],
+     texto:'Solicito la reparación de 4 luminarias apagadas en la calle 9 con carrera 19, barrio Central, desde hace tres semanas.',
+     fund:'Art. 14 Ley 1437 de 2011 (sustituido por Ley 1755 de 2015): 15 días hábiles.',
+     borrador:'Respetado(a) ciudadano(a):\n\nEn atención a su petición radicada con el número 2026-PQ-08841, le informamos que la Secretaría de Infraestructura programó la visita técnica a la calle 9 con carrera 19 del barrio Central para el [fecha], con el fin de verificar y reparar las cuatro luminarias reportadas.\n\nUna vez realizada la intervención, le notificaremos por este mismo medio.\n\nCordialmente,\n[Nombre y firma del servidor responsable]'},
+    {rad:'2026-PQ-08856',tipo:'Solicitud de información',tema:'Estado de subsidio adulto mayor',dep:'Inclusión Social',plazo:'10 días',dias:1,estado:['Riesgo de vencer','p-crit'],
+     texto:'Quiero saber en qué estado está la inscripción de mi madre al programa de adulto mayor, radicada en julio.',
+     fund:'Art. 14 num. 1 Ley 1755 de 2015: 10 días hábiles para solicitudes de información. Contiene datos personales: verificar identidad del solicitante (Ley 1581 de 2012).',
+     borrador:'Respetado(a) ciudadano(a):\n\nEn respuesta a su solicitud 2026-PQ-08856, le informamos que la inscripción al programa de protección al adulto mayor se encuentra en estado [estado según base de datos], con fecha de actualización [fecha].\n\nPara entregar el detalle completo, y en cumplimiento de la Ley 1581 de 2012, le solicitamos acreditar su calidad de familiar o autorizado.\n\nCordialmente,\n[Nombre y firma del servidor responsable]'},
+    {rad:'2026-PQ-08870',tipo:'Queja',tema:'Ruido de establecimiento nocturno',dep:'Gobierno · Convivencia',plazo:'15 días',dias:6,estado:['En revisión humana','p-info'],
+     texto:'Un establecimiento en la carrera 4 pone música a alto volumen todas las noches hasta las 3 a.m.',
+     fund:'Ley 1801 de 2016 (Código de Policía), comportamientos que afectan la tranquilidad. Plazo 15 días hábiles.',
+     borrador:'Respetado(a) ciudadano(a):\n\nRecibimos su queja 2026-PQ-08870 sobre ruido en la carrera 4. La Secretaría de Gobierno trasladó el caso a la Inspección de Policía competente para verificación en horario nocturno, conforme a la Ley 1801 de 2016.\n\nLe informaremos el resultado de la diligencia.\n\nCordialmente,\n[Nombre y firma del servidor responsable]'},
+    {rad:'2026-PQ-08877',tipo:'Consulta',tema:'Descuento por pronto pago predial 2027',dep:'Hacienda',plazo:'30 días',dias:21,estado:['Firmada','p-ok'],
+     texto:'¿Habrá descuento por pronto pago del impuesto predial en 2027 y hasta qué fecha?',
+     fund:'Art. 14 num. 2 Ley 1755 de 2015: 30 días hábiles para consultas. Fuente: Estatuto Tributario municipal y calendario tributario vigente.',
+     borrador:'Respuesta firmada y enviada. El borrador de la IA se aceptó con un cambio: se actualizó la fecha del calendario tributario.'},
+    {rad:'2026-PQ-08890',tipo:'Petición',tema:'Poda de árbol con riesgo de caída',dep:'Medio Ambiente',plazo:'15 días',dias:9,estado:['Borrador IA listo','p-warn'],
+     texto:'Un árbol de mango en el parque del barrio El Prado tiene ramas secas sobre los cables. Pido poda urgente.',
+     fund:'Ley 1755 de 2015: 15 días hábiles. La IA sugiere marcar como prioritaria por riesgo para la vida.',
+     borrador:'Respetado(a) ciudadano(a):\n\nEn atención a su petición 2026-PQ-08890, la Secretaría de Medio Ambiente priorizó la visita de evaluación del árbol ubicado en el parque del barrio El Prado, dada la posible afectación a las redes eléctricas.\n\nEl concepto técnico definirá si procede poda o tala, y se coordinará con la empresa de energía.\n\nCordialmente,\n[Nombre y firma del servidor responsable]'},
+    {rad:'2026-PQ-08902',tipo:'Reclamo',tema:'Cobro doble de ICA',dep:'Hacienda',plazo:'15 días',dias:12,estado:['Borrador IA listo','p-warn'],
+     texto:'Me llegó cobro del ICA del bimestre 3 que ya pagué. Adjunto recibo.',
+     fund:'Ley 1755 de 2015: 15 días hábiles. Reserva tributaria: no cargar datos del contribuyente a la IA en la POC.',
+     borrador:'Respetado(a) contribuyente:\n\nRecibimos su reclamo 2026-PQ-08902. La Secretaría de Hacienda verificará el pago del bimestre 3 con el soporte adjunto y, de confirmarse el doble cobro, procederá a la corrección del estado de cuenta.\n\nCordialmente,\n[Nombre y firma del servidor responsable]'}
+  ];
+  const tb=document.querySelector('#pq-table tbody'), dr=document.getElementById('pq-draft');
+  function dayPill(d){return d<=2?'p-crit':d<=6?'p-warn':'p-ok'}
+  pq.forEach((r,i)=>{
+    const tr=document.createElement('tr');tr.className='click';tr.tabIndex=0;
+    tr.innerHTML=`<td class="mono">${r.rad}</td><td>${r.tipo}</td><td>${esc(r.tema)}</td><td>${r.dep}</td><td class="mono">${r.plazo}</td><td><span class="pill ${dayPill(r.dias)}">${r.dias}</span></td><td><span class="pill ${r.estado[1]}">${r.estado[0]}</span></td>`;
+    tr.addEventListener('click',()=>selPq(i));tr.addEventListener('keydown',e=>{if(e.key==='Enter')selPq(i)});
+    tb.appendChild(tr);
+  });
+  function selPq(i){
+    [...tb.rows].forEach((r,j)=>r.classList.toggle('sel',j===i));
+    const r=pq[i];
+    dr.innerHTML=`<span class="tag">⭕ Borrador generado por IA · el servidor revisa y firma</span>
+      <h3>${r.rad} · ${r.tipo}</h3>
+      <dl class="meta"><dt>Solicitud</dt><dd>${esc(r.texto)}</dd><dt>Dependencia</dt><dd>${r.dep}</dd><dt>Fundamento</dt><dd>${esc(r.fund)}</dd></dl>
+      <div class="draft">${esc(r.borrador)}</div>
+      <div class="btnrow"><button class="btn primary" type="button" id="pq-ok">Aprobar y pasar a firma</button><button class="btn" type="button" id="pq-edit">Devolver con ajustes</button></div>
+      <div class="toast" id="pq-toast" aria-live="polite"></div>`;
+    document.getElementById('pq-ok').onclick=()=>{document.getElementById('pq-toast').textContent='Borrador aprobado. Queda en la bandeja de firma del servidor responsable (demo).'};
+    document.getElementById('pq-edit').onclick=()=>{document.getElementById('pq-toast').textContent='Devuelto a la IA con comentarios para un nuevo borrador (demo).'};
+  }
+  selPq(0);
+
+  // Weekly chart
+  const weeks=['S1','S2','S3','S4','S5','S6','S7','S8'];
+  const ontime=[230,241,226,238,262,275,281,290], late=[52,49,55,47,31,22,18,14];
+  (function(){
+    const W=560,H=220,pl=36,pb=26,pt=10,max=320,bw=(W-pl-10)/weeks.length;
+    let s=`<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Respuestas por semana, simulado">`;
+    [0,100,200,300].forEach(v=>{const y=H-pb-(v/max)*(H-pb-pt);s+=`<line x1="${pl}" x2="${W-6}" y1="${y}" y2="${y}" stroke="var(--line)"/><text x="${pl-6}" y="${y+4}" text-anchor="end">${v}</text>`});
+    weeks.forEach((w,i)=>{
+      const x=pl+i*bw+bw*0.2,b=bw*0.6,h1=(ontime[i]/max)*(H-pb-pt),h2=(late[i]/max)*(H-pb-pt),y0=H-pb;
+      s+=`<rect x="${x}" y="${y0-h1}" width="${b}" height="${h1}" fill="var(--ok)" rx="2"/><rect x="${x}" y="${y0-h1-h2-2}" width="${b}" height="${h2}" fill="var(--crit)" rx="2"/><text x="${x+b/2}" y="${H-8}" text-anchor="middle">${w}</text>`;
+    });
+    const xp=pl+4*bw;s+=`<line x1="${xp}" x2="${xp}" y1="${pt}" y2="${H-pb}" stroke="var(--accent)" stroke-dasharray="4 3" stroke-width="1.5"/><text x="${xp+4}" y="${pt+10}" style="fill:var(--accent)">Piloto IA</text></svg>`;
+    document.getElementById('pq-chart').innerHTML=s;
+  })();
+  const temas=[['Alumbrado y vías',312],['Servicios sociales',248],['Impuestos predial e ICA',205],['Convivencia y ruido',161],['Ambiente y arbolado',118]];
+  document.getElementById('pq-temas').innerHTML=temas.map(([t,v])=>`<div class="bar"><span>${t}</span><div class="track"><div class="fill" style="width:${v/312*100}%;background:var(--brand)"></div></div><span class="mono">${v}</span></div>`).join('');
+
+  // ---------- SECOP ----------
+  const sc=[
+    {id:'MUN-LP-012-2026',obj:'Pavimentación vías urbanas comuna 4',mod:'Licitación pública',val:'$18.400 M',al:4,ri:['Alto','p-crit'],
+     ficha:[['Experiencia exigida','3,5 veces el presupuesto oficial: posible limitación de pluralidad de oferentes.','p-crit'],['Plazo','Cronograma de 120 días con adenda que reduce a 90 sin ajustar el valor.','p-warn'],['Indicador financiero','Capital de trabajo superior al 60% del presupuesto.','p-warn'],['Coherencia','Cantidad de m² distinta entre estudios previos (12.400) y anexo técnico (11.900).','p-crit']]},
+    {id:'MUN-SA-031-2026',obj:'Suministro de alimentos PAE',mod:'Selección abreviada',val:'$9.850 M',al:2,ri:['Medio','p-warn'],
+     ficha:[['Plazo','Fecha de cierre a 5 días hábiles de la publicación del pliego definitivo.','p-warn'],['Garantías','Póliza de cumplimiento al 10%, consistente con la norma.','p-ok'],['Coherencia','Número de raciones diarias igual en todos los documentos.','p-ok'],['Requisito técnico','Certificación sanitaria con fecha de expedición restrictiva.','p-warn']]},
+    {id:'MUN-CM-044-2026',obj:'Interventoría parque lineal',mod:'Concurso de méritos',val:'$1.240 M',al:1,ri:['Bajo','p-ok'],
+     ficha:[['Perfil profesional','Experiencia específica razonable frente al objeto.','p-ok'],['Coherencia','Plazo de interventoría alineado con el de obra.','p-ok'],['Ponderación','Factor de calidad bien descrito; sugerencia de aclarar puntaje de apoyo a la industria nacional.','p-warn']]},
+    {id:'MUN-MC-089-2026',obj:'Mantenimiento de aires acondicionados',mod:'Mínima cuantía',val:'$96 M',al:0,ri:['Bajo','p-ok'],
+     ficha:[['Revisión general','Sin alertas. Documentos consistentes y plazos dentro de la norma.','p-ok']]},
+    {id:'MUN-LP-015-2026',obj:'Redes de acueducto corregimientos',mod:'Licitación pública',val:'$19.010 M',al:3,ri:['Alto','p-crit'],
+     ficha:[['Presupuesto','Precios unitarios de tubería 18% por encima del promedio de procesos comparables en SECOP.','p-crit'],['Riesgos','Matriz de riesgos sin asignar el riesgo predial.','p-warn'],['Coherencia','Cronograma de obra no contempla temporada de lluvias.','p-warn']]}
+  ];
+  const stb=document.querySelector('#sc-table tbody'), sf=document.getElementById('sc-ficha');
+  sc.forEach((r,i)=>{
+    const tr=document.createElement('tr');tr.className='click';tr.tabIndex=0;
+    tr.innerHTML=`<td class="mono">${r.id}</td><td>${esc(r.obj)}</td><td>${r.mod}</td><td class="mono">${r.val}</td><td class="mono">${r.al}</td><td><span class="pill ${r.ri[1]}">${r.ri[0]}</span></td>`;
+    tr.addEventListener('click',()=>selSc(i));tr.addEventListener('keydown',e=>{if(e.key==='Enter')selSc(i)});
+    stb.appendChild(tr);
+  });
+  function selSc(i){
+    [...stb.rows].forEach((r,j)=>r.classList.toggle('sel',j===i));
+    const r=sc[i];
+    sf.innerHTML=`<span class="tag">⭕ Ficha generada por IA · el abogado confirma o descarta</span>
+      <h3>${r.id}</h3>
+      <dl class="meta"><dt>Objeto</dt><dd>${esc(r.obj)}</dd><dt>Modalidad</dt><dd>${r.mod}</dd><dt>Valor</dt><dd>${r.val}</dd></dl>
+      <div class="list">${r.ficha.map(f=>`<div><span class="pill ${f[2]}">${f[0]}</span><div style="font-size:13.5px;margin-top:3px">${esc(f[1])}</div></div>`).join('')}</div>
+      <div class="btnrow"><button class="btn primary" type="button" id="sc-ok">Confirmar hallazgos</button><button class="btn" type="button" id="sc-no">Descartar uno</button></div>
+      <div class="toast" id="sc-toast" aria-live="polite"></div>`;
+    document.getElementById('sc-ok').onclick=()=>{document.getElementById('sc-toast').textContent='Hallazgos confirmados y enviados al comité evaluador (demo).'};
+    document.getElementById('sc-no').onclick=()=>{document.getElementById('sc-toast').textContent='Hallazgo descartado. Se registra como falso positivo para medir precisión (demo).'};
+  }
+  selSc(0);
+  const tipos=[['Experiencia o requisitos desproporcionados',11],['Inconsistencias entre documentos',9],['Plazos y cronogramas',8],['Precios fuera de rango comparable',7],['Matriz de riesgos incompleta',7]];
+  document.getElementById('sc-tipos').innerHTML=tipos.map(([t,v])=>`<div class="bar"><span>${t}</span><div class="track"><div class="fill" style="width:${v/11*100}%;background:var(--accent)"></div></div><span class="mono">${v}</span></div>`).join('');
+
+  // ---------- PLAN ----------
+  const ejes=[['Municipio social e incluyente',64],['Infraestructura sostenible',48],['Impulso económico y sostenible',57],['Gestión institucional',78]];
+  const esperado=69;
+  document.getElementById('pl-ejes').innerHTML=ejes.map(([e,v])=>{
+    const c=v>=esperado?'var(--ok)':v>=esperado-10?'var(--brand)':'var(--crit)';
+    return `<div class="bar"><span>${e}</span><div class="track" style="position:relative"><div class="fill" style="width:${v}%;background:${c}"></div><span style="position:absolute;top:-3px;bottom:-3px;left:${esperado}%;width:2px;background:var(--accent)"></span></div><span class="mono">${v}%</span></div>`}).join('');
+  const metas=[
+    ['Infraestructura','Km de vías urbanas pavimentadas','Sec. Infraestructura',45,16,'crit'],
+    ['Infraestructura','Corregimientos con acueducto optimizado','Sec. Infraestructura',10,4,'crit'],
+    ['Social','Adultos mayores atendidos en centros vida','Inclusión Social',6000,3500,'warn'],
+    ['Económico','Emprendimientos fortalecidos','Desarrollo Económico',800,430,'warn'],
+    ['Social','Sedes educativas con conectividad','Sec. Educación',120,74,'warn']
+  ];
+  document.querySelector('#pl-table tbody').innerHTML=metas.map(m=>{
+    const p=Math.round(m[4]/m[3]*100);
+    const lab=m[5]==='crit'?['Crítica','p-crit']:['Atención','p-warn'];
+    return `<tr><td>${m[0]}</td><td>${m[1]}</td><td>${m[2]}</td><td class="mono">${m[3].toLocaleString('es-CO')}</td><td class="mono">${m[4].toLocaleString('es-CO')}</td><td class="mono">${p}%</td><td><span class="pill ${lab[1]}">${lab[0]}</span></td></tr>`}).join('');
+  document.getElementById('pl-ok').onclick=()=>{document.getElementById('pl-toast').textContent='Borrador aprobado por Planeación para el informe de rendición de cuentas (demo).'};
+  document.getElementById('pl-cite').onclick=()=>{document.getElementById('pl-toast').textContent='Cada cifra enlaza a la celda de origen en la matriz del Plan Indicativo (demo).'};
+})();
+</script>
+
+</body></html>
