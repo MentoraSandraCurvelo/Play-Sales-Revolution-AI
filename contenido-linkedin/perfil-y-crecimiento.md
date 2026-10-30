@@ -37,7 +37,9 @@ La llave de la API tiene permisos `openid`, `profile` y `w_member_social`: **pub
 - [x] Lectura del perfil (hecha con Claude en Chrome)
 - [x] Titular nuevo en español e inglés, guardado el 28 oct 2026
 - [x] "Acerca de" en español e inglés con +1.500 profesionales y 8 países, guardado el 28 oct 2026
-- [ ] Banner: actualizar a 8 países y +1.500 profesionales
+- [ ] Banner: por ahora se queda el de Halloween (decisión de Sandra, 30 oct 2026). Hay un banner nuevo listo en `imagenes/banner-linkedin-2026.jpg` para cuando lo quiera cambiar.
+- [x] Foto de perfil nueva: `fotos/perfil-linkedin-2026.jpg` (tarima Mujer Radiante), enviada a Claude en Chrome el 30 oct 2026.
+- [x] Rutina diaria de Claude en Chrome configurada por Sandra el 30 oct 2026 (`rutina-chrome.md`).
 - [x] Web iamlatam.co: imagen de vista previa, 8 países y línea IAM™ Intelligence con IAE™ y DIAL-3R™ (publicado en Netlify el 29 oct 2026, deploy 6ae29543e479472296872d62). La fuente oficial de la web ahora es la carpeta `sitio-web/` de este repositorio.
 
 ## Cifras oficiales de trayectoria (confirmadas por Sandra)
