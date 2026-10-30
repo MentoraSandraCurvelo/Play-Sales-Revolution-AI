@@ -65,3 +65,11 @@ Convertir en hashtag la palabra clave de un párrafo cada 2 párrafos, más o me
 ## 8. Tableros y demostraciones (POC)
 
 Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el sistema real de IAM™ con datos de ejemplo. Al publicarlos se dice: "Así se ve el tablero que implementamos. Los datos que ves son de ejemplo, para proteger la información de nuestros clientes." No se dice que son datos reales de un cliente.
+
+## 9. Fotos (decisión de Sandra, 30 oct 2026)
+
+- Fuentes, en este orden: Dropbox `/Fotos Profesionales`, Dropbox `/1-IAM™/Fotos Marca Profesional`, Google Drive (carpetas de eventos y clientes), fotos ya publicadas en LinkedIn. Google Photos no tiene conector aquí: si hace falta una foto de allá, Sandra la pasa a Drive.
+- **Sandra aprueba cada foto antes de usarla**, igual que el texto.
+- Antes de proponer una foto se revisa que no aparezca nada que identifique a un cliente confidencial: logos en pendones, nombres de archivo en pantallas proyectadas, carnés. Si aparece, se recorta o se difumina, y se le muestra a Sandra la versión editada.
+- No se usan fotos donde un cliente sale en primer plano con su cara reconocible sin autorización, ni fotos personales o familiares.
+- Las fotos aprobadas se guardan en `contenido-linkedin/fotos/` con nombre descriptivo y fecha.
