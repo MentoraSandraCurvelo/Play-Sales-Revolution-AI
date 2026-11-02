@@ -43,7 +43,8 @@ Tiempo: lo que tomaba días sale en minutos.
 Facilidad: tu equipo no tiene que ser experto en tecnología para usarlo.
 Decisiones: información lista para decidir hoy, no la próxima semana.
 Cada empresa tiene su propio número. En una sola, fueron 140 horas cada semana.
-Y tu competencia ya lo está midiendo. ¿Y tú?"
+Y tu competencia ya lo está midiendo. ¿Y tú?
+Comenta CLAUDE y te envío más información."
 
 **En pantalla, un índice por golpe:**
 ⏱ HORAS · menos horas en tareas repetitivas
@@ -52,7 +53,7 @@ Y tu competencia ya lo está midiendo. ¿Y tú?"
 ⚡ TIEMPO · de días a minutos
 🤝 FACILIDAD · sin ser experto en tecnología
 🎯 DECISIONES · información lista hoy
-**Pantalla final:** Tu competencia ya lo está midiendo. ¿Y tú? · Comenta IAE
+**Pantalla final:** Tu competencia ya lo está midiendo. ¿Y tú? · Comenta CLAUDE para recibir más información
 
 **Nota:** la frase del ejemplo ("En una sola, fueron 140 horas cada semana") es opcional. Si se quita, el cierre queda 100% general.
 
@@ -94,7 +95,7 @@ Lo que nadie te cuenta:
 
 Yo lo mido con el IAE™, Índice de Inteligencia Artificial Empresarial.
 
-Comenta IAE y te digo cómo medir tu empresa.
+Comenta CLAUDE y te envío más información.
 
 Fuentes: precios publicados por Anthropic (verificar en claude.com/pricing). PwC, 2025 Global AI Jobs Barometer. Presidencia de la República, octubre de 2026. Medición propia IAM™.
 
