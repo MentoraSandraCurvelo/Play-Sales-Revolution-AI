@@ -1,8 +1,8 @@
 # Sandra sin rodeos · La cruda realidad de Claude
 ## Episodio 1 · Lo que nadie te cuenta de Claude
 
-Formato: entrevista rápida. Giovanni hace de empresario escéptico que ya vio mil Reels de Claude con tableros bonitos. Sandra cuenta lo que nadie cuenta: precios, sistema de trabajo, agentes, habilidades, plugins, lo que gana una empresa, el IAE y lo que Claude puede hacer en lo público.
-Duración: unos 80 segundos editado. Si pasa de 90, se parte en 2 Reels: Parte 1 (preguntas 1 a 3) y Parte 2 (preguntas 4 a 6).
+Formato: entrevista rápida. Giovanni hace de empresario escéptico que ya vio mil Reels de Claude con tableros bonitos. Sandra cuenta lo que nadie cuenta: precios, sistema de trabajo, agentes, habilidades, plugins, lo que gana una empresa y el IAE.
+Duración: unos 80 segundos editado. Si pasa de 90, se parte en 2 Reels: Parte 1 (preguntas 1 a 3) y Parte 2 (preguntas 4 y 5).
 
 > Reglas: el cliente no se nombra. Cifras sin decimales. Verificar precios en claude.com/pricing el día de grabar.
 
@@ -28,14 +28,7 @@ Duración: unos 80 segundos editado. Si pasa de 90, se parte en 2 Reels: Parte 1
 **Sandra:** "En una caja de compensación muy grande en Colombia: 140 horas cada semana. 255 millones de pesos al año. Y lo mido con mi Índice de Inteligencia Artificial Empresarial, el IAE. Casi nadie está midiendo esto. Y lo que no se mide no se puede mejorar."
 **En pantalla:** 140 horas por semana · $255 millones al año · IAE™
 
-## 5 · Claude en lo público
-**Giovanni:** "¿Y esto sirve solo para empresas privadas, o también para un gobierno?"
-**Sandra:** "Para un gobierno es donde más se nota. Estoy llevando esto a una alcaldía. Llega una petición de un ciudadano y Claude la clasifica, la manda a la dependencia correcta, calcula el plazo legal y deja lista la respuesta. El funcionario revisa y firma. Con los contratos, Claude lee los pliegos y marca los riesgos antes de que alguien firme. Y le preguntas por el Plan de Desarrollo qué metas van atrasadas, y te responde con la fuente. Eso no es tecnología. Es un gobierno que le responde más rápido al ciudadano."
-**En pantalla, una por golpe:** Peticiones: clasificadas y con respuesta lista · Contratos: riesgos marcados antes de firmar · Plan de Desarrollo: responde con la fuente · El funcionario revisa y firma
-
-**Nota:** la alcaldía es una propuesta con pruebas de concepto, no un contrato en ejecución. Por eso Sandra dice "estoy llevando esto", y no se dan cifras de resultados de la alcaldía: los números de esos tableros son simulados. Confirmar con Sandra si se nombra "la Alcaldía de Valledupar" o solo "una alcaldía".
-
-## 6 · Cierre: los 6 índices
+## 5 · Cierre: los 6 índices
 **Giovanni** (serio): "Última. Dame razones concretas: ¿por qué una empresa debería trabajar con Claude?"
 **Sandra** (a cámara, un dedo por cada índice, ritmo rápido):
 "Te doy 6 índices.
@@ -89,5 +82,5 @@ Fuentes: precios publicados por Anthropic (verificar en claude.com/pricing). Med
 1. Giovanni es el empresario que ya vio todo y no se impresiona: preguntas cortas, tono seco.
 2. Sandra arranca cada respuesta con la idea, nunca con "bueno" o "mira".
 3. La respuesta 3 es la más larga: Sandra la puede contar con los dedos (1 proyecto, 2 agente, 3 habilidades, 4 plugins). Eso ayuda al ritmo y a la edición.
-4. En la 6, Sandra mira a cámara.
+4. En el cierre, Sandra mira a cámara.
 5. Vertical 9:16, subtítulos todo el tiempo, cada cifra en pantalla en el segundo exacto en que se dice.
