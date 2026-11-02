@@ -32,28 +32,29 @@ Duración: unos 80 segundos editado. Si pasa de 90, se parte en 2 Reels: Parte 1
 **Sandra:** "PwC lo midió: los cargos que piden habilidades de IA pagan en promedio 56% más. Y el presidente anunció un millón de becas en inteligencia artificial. El país se está entrenando. La pregunta es si tu empresa lo va a aprovechar o se lo va a regalar a la competencia."
 **En pantalla:** +56% de salario en cargos que piden IA · 1 millón de becas en IA
 
-## 6 · CIERRE FINAL (los índices)
+## 6 · CIERRE FINAL (los índices, versión general)
 **Giovanni** (serio): "Última. Dame razones concretas: ¿por qué una empresa debería trabajar con Claude?"
 **Sandra** (a cámara, un dedo por cada índice, ritmo rápido):
-"Te doy 6 índices, medidos en una sola empresa que trabaja con Claude.
-Horas: 140 recuperadas cada semana.
-Personas: el trabajo de 3 personas y media, sin contratar a nadie.
-Plata: 255 millones de pesos al año.
-Retorno: más de 10 veces lo que cuestan las licencias.
-Tiempo: un informe de 8 horas sale en 10 minutos.
-Facilidad: el equipo que le tenía miedo a la IA terminó confiando en ella. 20 de 20.
+"Te doy 6 índices.
+Horas: menos horas perdidas en tareas repetitivas.
+Personas: el mismo equipo hace más, sin tener que contratar.
+Plata: menos costo operativo cada mes.
+Tiempo: lo que tomaba días sale en minutos.
+Facilidad: tu equipo no tiene que ser experto en tecnología para usarlo.
+Decisiones: información lista para decidir hoy, no la próxima semana.
+Cada empresa tiene su propio número. En una sola, fueron 140 horas cada semana.
 Y tu competencia ya lo está midiendo. ¿Y tú?"
 
-**En pantalla, un índice por golpe, con su ícono:**
-⏱ HORAS · 140 por semana
-👥 PERSONAS · 3 y media sin contratar
-💰 PLATA · $255 millones al año
-📈 RETORNO · más de 10 veces las licencias
-⚡ TIEMPO · 8 horas → 10 minutos
-🤝 FACILIDAD · 20 de 20 confían
+**En pantalla, un índice por golpe:**
+⏱ HORAS · menos horas en tareas repetitivas
+👥 PERSONAS · más resultados con el mismo equipo
+💰 PLATA · menos costo operativo
+⚡ TIEMPO · de días a minutos
+🤝 FACILIDAD · sin ser experto en tecnología
+🎯 DECISIONES · información lista hoy
 **Pantalla final:** Tu competencia ya lo está midiendo. ¿Y tú? · Comenta IAE
 
-**Fuentes de cada índice (tableros IAM™):** horas y plata, cifras de cierre de Sandra. Personas: 140 ÷ 40 horas semanales = 3,5. Retorno: en la propuesta de Valledupar, $253 millones frente a $24 millones al año en licencias para 25 personas daba 10,5 veces; con $255 millones da unas 10,6 veces, por eso se dice "más de 10 veces". Tiempo: Sala de Control. Facilidad: encuesta anónima, las 20 personas que respondieron subieron su confianza.
+**Nota:** la frase del ejemplo ("En una sola, fueron 140 horas cada semana") es opcional. Si se quita, el cierre queda 100% general.
 
 ## 6c · Cierre anterior (resultados)
 **Giovanni** (serio): "Última. En concreto: ¿qué gana una empresa trabajando con Claude?"
