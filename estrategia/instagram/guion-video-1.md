@@ -32,10 +32,14 @@ Duración: unos 80 segundos editado. Si pasa de 90, se parte en 2 Reels: Parte 1
 **Sandra:** "PwC lo midió: los cargos que piden habilidades de IA pagan en promedio 56% más. Y el presidente anunció un millón de becas en inteligencia artificial. El país se está entrenando. La pregunta es si tu empresa lo va a aprovechar o se lo va a regalar a la competencia."
 **En pantalla:** +56% de salario en cargos que piden IA · 1 millón de becas en IA
 
-## 6 · Cierre
-**Giovanni** (serio): "Última. Un presidente de empresa te está viendo. ¿Qué le dices?"
-**Sandra** (cambia la mirada a cámara): "Que deje de comprar licencias y empiece a construir un sistema. Y si quiere saber cuál es el índice de su empresa, que me escriba."
-**En pantalla:** Comenta IAE y te digo cómo medir tu empresa · Ep. 1
+## 6 · Cierre (bucle abierto hacia el Ep. 2)
+**Giovanni** (serio): "Última. ¿Y qué mide ese índice?"
+**Sandra** (sonríe, mira a cámara): "Lo que ninguna licencia te dice. Hazte una sola pregunta: si mañana tu equipo dejara de usar Claude, ¿cuántas horas perderías? Si no sabes el número, tu empresa no tiene inteligencia artificial. Tiene licencias. En el próximo video te muestro cómo se mide."
+**En pantalla:** ¿Tu empresa tiene IA o tiene licencias? · Parte 2 en el próximo video · Comenta IAE
+
+### Cierres alternativos
+- **Reto directo:** Sandra a cámara: "Te reto: pregúntale hoy a tu equipo cuántas horas le devolvió Claude este mes. Si te responden con un número, felicitaciones. Si te responden 'muchas', comenta IAE y te muestro lo que te estás perdiendo."
+- **Secreto:** Giovanni: "¿Y cuál es el error que más ves?" Sandra: "Uno que cometen casi todas las empresas el primer mes. Y te lo cuento en el próximo video."
 
 ---
 
