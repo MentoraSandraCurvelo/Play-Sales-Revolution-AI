@@ -30,3 +30,9 @@ PARTE 2 · Comentarios de visibilidad (con mi aprobación)
 6. Muéstrame los 10 en el panel, numerados, con el enlace de cada publicación. ESPERA mi respuesta.
 7. Publica solo los que yo apruebe ("sí a todos", "sí al 1, 3 y 7", o con mis cambios). Deja 2 minutos entre uno y otro.
 8. Al final dame un resumen: qué publicaste, dónde y qué quedó pendiente.
+
+PARTE 3 · Métricas (agregada el 2 nov 2026; la API no deja leerlas: 403)
+9. Entra a cada uno de mis posts de los últimos 7 días y anota, en una tabla: fecha, primeras palabras del post, impresiones, reacciones, comentarios, compartidos y seguidores nuevos que muestre la analítica del post.
+10. Revisa los comentarios que dejé en publicaciones de otros en los últimos 3 días: cuántas reacciones y respuestas recibió cada uno, y si el autor contestó.
+11. Anota el total de seguidores de hoy (mi página de Analíticas, Audiencia).
+12. Entrégame todo en una sola tabla al final, sin opinar. No inventes cifras: si un dato no aparece, escribe "no visible".
