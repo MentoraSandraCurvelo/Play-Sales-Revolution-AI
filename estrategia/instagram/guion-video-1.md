@@ -32,7 +32,16 @@ Duración: unos 80 segundos editado. Si pasa de 90, se parte en 2 Reels: Parte 1
 **Sandra:** "PwC lo midió: los cargos que piden habilidades de IA pagan en promedio 56% más. Y el presidente anunció un millón de becas en inteligencia artificial. El país se está entrenando. La pregunta es si tu empresa lo va a aprovechar o se lo va a regalar a la competencia."
 **En pantalla:** +56% de salario en cargos que piden IA · 1 millón de becas en IA
 
-## 6 · Cierre (bucle abierto hacia el Ep. 2)
+## 6 · Cierre recomendado (resultados)
+**Giovanni** (serio): "Última. En concreto: ¿qué gana una empresa trabajando con Claude?"
+**Sandra** (a cámara, contando con los dedos): "Te lo digo en resultados. Un informe de 8 horas sale en 10 minutos. Una minuta que tomaba media hora, en 5. Las actas de todas las reuniones listas a las 8 de la mañana sin que nadie las escriba. Y el equipo que le tenía miedo a la IA terminó confiando en ella. Eso, en una sola empresa, son 140 horas cada semana. ¿Quieres saber cuántas tiene la tuya? Comenta IAE."
+**En pantalla, una por golpe:** 8 horas → 10 minutos · 30 minutos → 5 · Actas listas a las 8 a. m. · 140 horas cada semana · Comenta IAE
+
+### Cierre alternativo de resultados (más corto)
+**Giovanni:** "Resúmelo en una frase: ¿qué gana una empresa con Claude?"
+**Sandra:** "Tiempo que se vuelve plata. 140 horas cada semana, el trabajo de 3 personas y media, 255 millones al año. Y tu competencia ya lo está midiendo. ¿Tú?"
+
+## 6b · Cierre anterior (bucle abierto hacia el Ep. 2)
 **Giovanni** (serio): "Última. ¿Y qué mide ese índice?"
 **Sandra** (sonríe, mira a cámara): "Lo que ninguna licencia te dice. Hazte una sola pregunta: si mañana tu equipo dejara de usar Claude, ¿cuántas horas perderías? Si no sabes el número, tu empresa no tiene inteligencia artificial. Tiene licencias. En el próximo video te muestro cómo se mide."
 **En pantalla:** ¿Tu empresa tiene IA o tiene licencias? · Parte 2 en el próximo video · Comenta IAE
