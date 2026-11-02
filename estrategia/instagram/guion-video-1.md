@@ -32,7 +32,30 @@ Duración: unos 80 segundos editado. Si pasa de 90, se parte en 2 Reels: Parte 1
 **Sandra:** "PwC lo midió: los cargos que piden habilidades de IA pagan en promedio 56% más. Y el presidente anunció un millón de becas en inteligencia artificial. El país se está entrenando. La pregunta es si tu empresa lo va a aprovechar o se lo va a regalar a la competencia."
 **En pantalla:** +56% de salario en cargos que piden IA · 1 millón de becas en IA
 
-## 6 · Cierre recomendado (resultados)
+## 6 · CIERRE FINAL (los índices)
+**Giovanni** (serio): "Última. Dame razones concretas: ¿por qué una empresa debería montar este sistema?"
+**Sandra** (a cámara, un dedo por cada índice, ritmo rápido):
+"Te doy 6 índices, medidos en una sola empresa.
+Horas: 140 recuperadas cada semana.
+Personas: el trabajo de 3 personas y media, sin contratar a nadie.
+Plata: 255 millones de pesos al año.
+Retorno: más de 10 veces lo que cuestan las licencias.
+Tiempo: un informe de 8 horas sale en 10 minutos.
+Facilidad: el equipo que le tenía miedo a la IA terminó confiando en ella. 20 de 20.
+Y tu competencia ya lo está midiendo. ¿Y tú?"
+
+**En pantalla, un índice por golpe, con su ícono:**
+⏱ HORAS · 140 por semana
+👥 PERSONAS · 3 y media sin contratar
+💰 PLATA · $255 millones al año
+📈 RETORNO · más de 10 veces las licencias
+⚡ TIEMPO · 8 horas → 10 minutos
+🤝 FACILIDAD · 20 de 20 confían
+**Pantalla final:** Tu competencia ya lo está midiendo. ¿Y tú? · Comenta IAE
+
+**Fuentes de cada índice (tableros IAM™):** horas y plata, cifras de cierre de Sandra. Personas: 140 ÷ 40 horas semanales = 3,5. Retorno: en la propuesta de Valledupar, $253 millones frente a $24 millones al año en licencias para 25 personas daba 10,5 veces; con $255 millones da unas 10,6 veces, por eso se dice "más de 10 veces". Tiempo: Sala de Control. Facilidad: encuesta anónima, las 20 personas que respondieron subieron su confianza.
+
+## 6c · Cierre anterior (resultados)
 **Giovanni** (serio): "Última. En concreto: ¿qué gana una empresa trabajando con Claude?"
 **Sandra** (a cámara, contando con los dedos): "Te lo digo en resultados. Un informe de 8 horas sale en 10 minutos. Una minuta que tomaba media hora, en 5. Las actas de todas las reuniones listas a las 8 de la mañana sin que nadie las escriba. Y el equipo que le tenía miedo a la IA terminó confiando en ella. Eso, en una sola empresa, son 140 horas cada semana. ¿Quieres saber cuántas tiene la tuya? Comenta IAE."
 **En pantalla, una por golpe:** 8 horas → 10 minutos · 30 minutos → 5 · Actas listas a las 8 a. m. · 140 horas cada semana · Comenta IAE
