@@ -32,7 +32,7 @@ Duración: unos 80 segundos editado. Si pasa de 90, se parte en 2 Reels: Parte 1
 **Sandra:** "PwC lo midió: los cargos que piden habilidades de IA pagan en promedio 56% más. Y el presidente anunció un millón de becas en inteligencia artificial. El país se está entrenando. La pregunta es si tu empresa lo va a aprovechar o se lo va a regalar a la competencia."
 **En pantalla:** +56% de salario en cargos que piden IA · 1 millón de becas en IA
 
-## 6 · CIERRE FINAL (los índices, versión general)
+## 6 · Cierre: los 6 índices
 **Giovanni** (serio): "Última. Dame razones concretas: ¿por qué una empresa debería trabajar con Claude?"
 **Sandra** (a cámara, un dedo por cada índice, ritmo rápido):
 "Te doy 6 índices.
@@ -42,7 +42,7 @@ Plata: menos costo operativo cada mes.
 Tiempo: lo que tomaba días sale en minutos.
 Facilidad: tu equipo no tiene que ser experto en tecnología para usarlo.
 Decisiones: información lista para decidir hoy, no la próxima semana.
-Cada empresa tiene su propio número. En una sola, fueron 140 horas cada semana.
+Cada empresa tiene su propio número.
 Y tu competencia ya lo está midiendo. ¿Y tú?
 Comenta CLAUDE y te envío más información."
 
@@ -54,26 +54,6 @@ Comenta CLAUDE y te envío más información."
 🤝 FACILIDAD · sin ser experto en tecnología
 🎯 DECISIONES · información lista hoy
 **Pantalla final:** Tu competencia ya lo está midiendo. ¿Y tú? · Comenta CLAUDE para recibir más información
-
-**Nota:** la frase del ejemplo ("En una sola, fueron 140 horas cada semana") es opcional. Si se quita, el cierre queda 100% general.
-
-## 6c · Cierre anterior (resultados)
-**Giovanni** (serio): "Última. En concreto: ¿qué gana una empresa trabajando con Claude?"
-**Sandra** (a cámara, contando con los dedos): "Te lo digo en resultados. Un informe de 8 horas sale en 10 minutos. Una minuta que tomaba media hora, en 5. Las actas de todas las reuniones listas a las 8 de la mañana sin que nadie las escriba. Y el equipo que le tenía miedo a la IA terminó confiando en ella. Eso, en una sola empresa, son 140 horas cada semana. ¿Quieres saber cuántas tiene la tuya? Comenta IAE."
-**En pantalla, una por golpe:** 8 horas → 10 minutos · 30 minutos → 5 · Actas listas a las 8 a. m. · 140 horas cada semana · Comenta IAE
-
-### Cierre alternativo de resultados (más corto)
-**Giovanni:** "Resúmelo en una frase: ¿qué gana una empresa con Claude?"
-**Sandra:** "Tiempo que se vuelve plata. 140 horas cada semana, el trabajo de 3 personas y media, 255 millones al año. Y tu competencia ya lo está midiendo. ¿Tú?"
-
-## 6b · Cierre anterior (bucle abierto hacia el Ep. 2)
-**Giovanni** (serio): "Última. ¿Y qué mide ese índice?"
-**Sandra** (sonríe, mira a cámara): "Lo que ninguna licencia te dice. Hazte una sola pregunta: si mañana tu equipo dejara de usar Claude, ¿cuántas horas perderías? Si no sabes el número, tu empresa no tiene inteligencia artificial. Tiene licencias. En el próximo video te muestro cómo se mide."
-**En pantalla:** ¿Tu empresa tiene IA o tiene licencias? · Parte 2 en el próximo video · Comenta IAE
-
-### Cierres alternativos
-- **Reto directo:** Sandra a cámara: "Te reto: pregúntale hoy a tu equipo cuántas horas le devolvió Claude este mes. Si te responden con un número, felicitaciones. Si te responden 'muchas', comenta IAE y te muestro lo que te estás perdiendo."
-- **Secreto:** Giovanni: "¿Y cuál es el error que más ves?" Sandra: "Uno que cometen casi todas las empresas el primer mes. Y te lo cuento en el próximo video."
 
 ---
 
