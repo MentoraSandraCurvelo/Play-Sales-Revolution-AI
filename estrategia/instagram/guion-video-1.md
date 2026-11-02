@@ -1,37 +1,34 @@
 # Sandra sin rodeos · La cruda realidad de Claude
 ## Episodio 1 · Lo que nadie te cuenta de Claude
 
-Formato: entrevista rápida. Giovanni hace de empresario escéptico que ya vio mil Reels de Claude con tableros bonitos. Sandra cuenta lo que nadie cuenta: precios, sistema de trabajo, agentes, habilidades, plugins, lo que gana una empresa y el IAE.
+Formato: autopregunta. Sandra sola a cámara se hace las preguntas que tiene el espectador y las responde. Sandra cuenta lo que nadie cuenta: precios, sistema de trabajo, agentes, habilidades, plugins, lo que gana una empresa y el IAE.
 Duración: unos 80 segundos editado. Si pasa de 90, se parte en 2 Reels: Parte 1 (preguntas 1 a 3) y Parte 2 (preguntas 4 y 5).
 
 > Reglas: el cliente no se nombra. Cifras sin decimales. Verificar precios en claude.com/pricing el día de grabar.
 
 ---
 
+## Formato: Sandra sola a cámara, autopregunta en todo el episodio
+
 ## 1 · Gancho (0 a 3 segundos)
 **En pantalla:** SANDRA SIN RODEOS · Ep. 1 · Lo que nadie te cuenta de Claude.
-**Giovanni** (retador, sin saludo): "Sandra, todo el mundo en Instagram muestra tableros bonitos con Claude. ¿Qué es lo que nadie está contando?"
-**Sandra:** "Que un tablero no es un sistema. Y que Claude no es gratis."
+**Sandra:** "¿Todo el mundo en Instagram muestra tableros bonitos con Claude? ¿Sabes qué no te están contando? Que un tablero no es un sistema. Y que Claude no es gratis."
 
 ## 2 · La plata
-**Giovanni:** "¿Cuánto cuesta de verdad?"
-**Sandra:** "Para trabajar en serio, entre 20 y 200 dólares al mes por persona, según el plan. Ahora multiplícalo por tu equipo. Si no sabes qué te devuelve, eso es un gasto, no una inversión."
+**Sandra:** "¿Cuánto cuesta de verdad? Para trabajar en serio, entre 20 y 200 dólares al mes por persona, según el plan. Ahora multiplícalo por tu equipo. Si no sabes qué te devuelve, eso es un gasto, no una inversión."
 **En pantalla:** Entre 20 y 200 dólares al mes por persona.
 
 ## 3 · El sistema
-**Giovanni** (escéptico): "¿Y entonces qué es lo que sí sirve?"
-**Sandra:** "El sistema. Un proyecto es una carpeta con contexto donde tú le preguntas. Un agente trabaja solo. Yo tengo una agente que arma las actas de todas las reuniones del día y las deja listas a las 8 de la mañana. Las habilidades le enseñan a trabajar como trabaja tu empresa, y los plugins lo conectan a tu correo, tu Drive y tu Slack. Eso no es un chat. Es un equipo."
+**Sandra (contando con los dedos):** "¿Y entonces qué es lo que sí sirve? El sistema. Un proyecto es una carpeta con contexto donde tú le preguntas. Un agente trabaja solo. Yo tengo una agente que arma las actas de todas las reuniones del día y las deja listas a las 8 de la mañana. Las habilidades le enseñan a trabajar como trabaja tu empresa, y los plugins lo conectan a tu correo, tu Drive y tu Slack. Eso no es un chat. Es un equipo."
 **En pantalla, una por golpe:** Proyecto: tú preguntas · Agente: trabaja solo · Habilidades: trabaja como tu empresa · Plugins: se conecta a tus herramientas
 
 ## 4 · Lo que gana una empresa
-**Giovanni:** "Bonito. ¿Y cuánto gana una empresa con eso?"
-**Sandra:** "En una caja de compensación muy grande en Colombia: 140 horas cada semana. 255 millones de pesos al año. Y lo mido con mi Índice de Inteligencia Artificial Empresarial, el IAE. Casi nadie está midiendo esto. Y lo que no se mide no se puede mejorar."
+**Sandra:** "¿Y cuánto gana una empresa con eso? En una caja de compensación muy grande en Colombia: 140 horas cada semana. 255 millones de pesos al año. Y lo mido con mi Índice de Inteligencia Artificial Empresarial, el IAE. Casi nadie está midiendo esto. Y lo que no se mide no se puede mejorar."
 **En pantalla:** 140 horas por semana · $255 millones al año · IAE™
 
 ## 5 · Cierre: los 6 índices
-**Giovanni** (serio): "Última. Dame razones concretas: ¿por qué una empresa debería trabajar con Claude?"
-**Sandra** (a cámara, un dedo por cada índice, ritmo rápido):
-"Te doy 6 índices.
+**Sandra (a cámara, un dedo por cada índice, ritmo rápido):**
+"¿Por qué una empresa debería trabajar con Claude? Te doy 6 índices.
 Horas: menos horas perdidas en tareas repetitivas.
 Personas: el mismo equipo hace más, sin tener que contratar.
 Plata: menos costo operativo cada mes.
