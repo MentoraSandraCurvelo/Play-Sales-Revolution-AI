@@ -15,8 +15,8 @@ Duración: unos 80 segundos editado. Si pasa de 90, se parte en 2 Reels: Parte 1
 **Sandra:** "¿Todo el mundo en Instagram muestra tableros bonitos con Claude? ¿Sabes qué no te están contando? Que un tablero no es un sistema. Y que Claude no es gratis."
 
 ## 2 · El dinero
-**Sandra:** "¿Cuánto cuesta de verdad? Para trabajar en serio, entre 20 y 200 dólares al mes por persona, según el plan. Ahora multiplícalo por tu equipo. Si no sabes qué te devuelve, eso es un gasto, no una inversión."
-**En pantalla:** Entre 20 y 200 dólares al mes por persona.
+**Sandra:** "¿Cuánto cuesta de verdad? Para trabajar en serio, entre 20 y 200 dólares al mes por persona, según el plan. Y ojo: Claude funciona como los megas de tu celular. Todo lo que le escribes y todo lo que te responde se mide en tokens. Si tu equipo se gasta el paquete, se queda esperando. Ahora multiplícalo por tu equipo. Si no sabes qué te devuelve, eso es un gasto, no una inversión."
+**En pantalla:** Entre 20 y 200 dólares al mes por persona. · Claude se mide como los megas: en tokens.
 
 ## 3 · El sistema
 **Sandra (contando con los dedos):** "¿Y entonces qué es lo que sí sirve? El sistema. Un proyecto es una carpeta con contexto donde tú le preguntas. Un agente trabaja solo. Yo tengo una agente que arma las actas de todas las reuniones del día y las deja listas a las 8 de la mañana. Las habilidades le enseñan a trabajar como trabaja tu empresa, y los plugins lo conectan a tu correo, tu Drive y tu Slack. Eso no es un chat. Es un equipo."
