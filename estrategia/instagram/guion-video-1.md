@@ -54,7 +54,7 @@ Comenta CLAUDE y te envío más información."
 
 1. **El del guion:** "Todo el mundo muestra tableros bonitos con Claude. ¿Qué es lo que nadie está contando?"
 2. **Sandra a cámara, frase seca:** "Claude no es gratis. Y nadie te está diciendo cuánto cuesta de verdad."
-3. **Giovanni provoca:** "Sandra, ¿Claude es una moda de Instagram?" Sandra: "Para el que hace tableros, sí. Para el que monta un sistema, no."
+3. **Autopregunta:** "¿Claude es una moda de Instagram? Para el que hace tableros, sí. Para el que monta un sistema, no."
 
 ## Caption
 
@@ -76,7 +76,7 @@ Fuentes: precios publicados por Anthropic (verificar en claude.com/pricing). Med
 
 ## Notas de dirección
 
-1. Giovanni es el empresario que ya vio todo y no se impresiona: preguntas cortas, tono seco.
+1. Giovanni dirige detrás de cámara. Sandra dice cada pregunta como si "pillara" al espectador, hace una pausa de medio segundo y responde. La pregunta va como texto en pantalla.
 2. Sandra arranca cada respuesta con la idea, nunca con "bueno" o "mira".
 3. La respuesta 3 es la más larga: Sandra la puede contar con los dedos (1 proyecto, 2 agente, 3 habilidades, 4 plugins). Eso ayuda al ritmo y a la edición.
 4. En el cierre, Sandra mira a cámara.
