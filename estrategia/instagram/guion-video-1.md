@@ -33,9 +33,9 @@ Duración: unos 80 segundos editado. Si pasa de 90, se parte en 2 Reels: Parte 1
 **En pantalla:** +56% de salario en cargos que piden IA · 1 millón de becas en IA
 
 ## 6 · CIERRE FINAL (los índices)
-**Giovanni** (serio): "Última. Dame razones concretas: ¿por qué una empresa debería montar este sistema?"
+**Giovanni** (serio): "Última. Dame razones concretas: ¿por qué una empresa debería trabajar con Claude?"
 **Sandra** (a cámara, un dedo por cada índice, ritmo rápido):
-"Te doy 6 índices, medidos en una sola empresa.
+"Te doy 6 índices, medidos en una sola empresa que trabaja con Claude.
 Horas: 140 recuperadas cada semana.
 Personas: el trabajo de 3 personas y media, sin contratar a nadie.
 Plata: 255 millones de pesos al año.
