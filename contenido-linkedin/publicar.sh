@@ -18,7 +18,11 @@ if q.get("estado") != "aprobado":
     sys.exit(f"No se publica: estado '{q.get('estado')}' (debe ser 'aprobado')")
 if q.get("urn"):
     sys.exit(f"Ya publicado: {q['urn']}")
-json.dump(q["payload"], open(sys.argv[2], 'w', encoding='utf-8'), ensure_ascii=False)
+p = q["payload"]
+# Video ya subido con /rest/videos (urn:li:video:...): se adjunta directo
+if q.get("video"):
+    p["content"] = {"media": {"id": q["video"], "title": q.get("titulo_video", "IAM™ Intelligence")}}
+json.dump(p, open(sys.argv[2], 'w', encoding='utf-8'), ensure_ascii=False)
 open(sys.argv[2] + '.imagen', 'w').write(q.get("imagen") or "")
 open(sys.argv[2] + '.alt', 'w', encoding='utf-8').write(q.get("alt") or "Sandra Curvelo · IAM™")
 EOF
