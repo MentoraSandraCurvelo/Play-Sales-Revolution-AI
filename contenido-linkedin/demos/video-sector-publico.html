@@ -1,0 +1,158 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<title>IA para entidades públicas</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;600;700&display=swap">
+<style>
+/* Escenario 1080x1350, negro IAM con rojo como único acento, mismo lenguaje del deck de propuesta */
+:root{--red:#cc0000;--red-hi:#ff4747;--ink:#0a0a0a;--ink2:#151515;--ink3:#1f1f1f;--rule:#2c2c2c;--on:#f3f1ec;--mute:#aaa59c;--dim:#7e7a73;--good:#5fcf8e;--warn:#f0b14a;
+--h:"Archivo Black","Arial Black",Arial,sans-serif;--b:"Archivo",Arial,sans-serif}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1350px;overflow:hidden;background:var(--ink);color:var(--on);font-family:var(--b)}
+.sc{position:absolute;inset:0;padding:96px 84px 110px;display:flex;flex-direction:column;gap:34px;opacity:0;transition:opacity .6s}
+.sc.on{opacity:1}
+.sc::before{content:"";position:absolute;left:0;top:0;bottom:0;width:14px;background:var(--red)}
+.eb{font:700 24px var(--b);letter-spacing:4px;text-transform:uppercase;color:var(--red-hi)}
+h1{font:400 92px/1.02 var(--h);letter-spacing:-2px}
+h2{font:400 58px/1.06 var(--h);letter-spacing:-1px}
+.red{color:var(--red-hi)}
+.lede{font-size:32px;line-height:1.38;color:var(--mute)}
+.ft{position:absolute;left:84px;right:84px;bottom:46px;display:flex;justify-content:space-between;font-size:21px;color:var(--dim)}
+.tag{align-self:flex-start;font:700 20px var(--b);letter-spacing:3px;color:#fff;background:var(--red);padding:8px 16px}
+/* IAE */
+.wk{display:flex;align-items:baseline;gap:18px}
+.wk .n{font:400 120px/1 var(--h);color:var(--red-hi);font-variant-numeric:tabular-nums}
+.wk .l{font-size:28px;color:var(--mute)}
+.rows{display:flex;flex-direction:column;gap:26px}
+.row{display:grid;grid-template-columns:300px 1fr 150px;align-items:center;gap:20px;font-size:28px}
+.row .nm{font-weight:700;text-align:right}
+.trk{height:44px;background:var(--ink3);position:relative}
+.bar{position:absolute;left:0;top:0;bottom:0;background:var(--red);transition:width 1s cubic-bezier(.3,.8,.2,1)}
+.val{font:400 40px var(--h);font-variant-numeric:tabular-nums;display:flex;align-items:center;gap:8px}
+.dl{font:700 22px var(--b)}
+.up{color:var(--good)}.dn{color:var(--red-hi)}
+.note{font-size:28px;line-height:1.4;padding:22px 28px;border-left:8px solid var(--red);background:var(--ink2)}
+/* ventanas */
+.win{border:1px solid var(--rule);background:var(--ink2);display:flex;flex-direction:column;overflow:hidden}
+.win .hd{display:flex;justify-content:space-between;padding:16px 24px;font:700 21px var(--b);letter-spacing:2px;text-transform:uppercase;color:var(--mute);border-bottom:1px solid var(--rule)}
+.live{display:inline-flex;align-items:center;gap:10px;color:var(--red-hi)}
+.live::before{content:"";width:12px;height:12px;border-radius:50%;background:var(--red-hi);animation:bl 1.1s infinite}
+@keyframes bl{50%{opacity:.2}}
+.tk{display:grid;grid-template-columns:190px 1fr;gap:6px 16px;padding:16px 24px;border-bottom:1px solid var(--rule);font-size:24px;opacity:0;transform:translateX(-40px);transition:all .5s}
+.tk.in{opacity:1;transform:none}
+.tk.sel{background:#2a1212;box-shadow:inset 8px 0 0 var(--red-hi)}
+.tk .rd{color:var(--dim);font-variant-numeric:tabular-nums}
+.chips{grid-column:2;display:flex;gap:8px;flex-wrap:wrap}
+.chip{font:700 19px var(--b);padding:5px 12px;border-radius:30px}
+.c-a{background:#3a1717;color:#ffb3b3}.c-b{background:#2b2b2b;color:#e6e2da}.c-g{background:#173525;color:#9be3b8}.c-w{background:#3a2a10;color:#ffd08a}
+.typed{white-space:pre-wrap;font-size:25px;line-height:1.5;color:var(--on);padding:22px 26px;min-height:250px}
+.caret::after{content:"▍";color:var(--red-hi);animation:bl .8s infinite}
+/* secop */
+.doc{position:relative;padding:26px 30px;display:flex;flex-direction:column;gap:14px;background:#f3f2ef;color:#141414;overflow:hidden}
+.ln{height:16px;background:#dedad3}
+.scan{position:absolute;left:0;right:0;height:90px;background:linear-gradient(180deg,rgba(204,0,0,0),rgba(204,0,0,.18),rgba(204,0,0,0));animation:scan 2.6s linear infinite}
+@keyframes scan{from{top:-90px}to{top:100%}}
+.hl{font-size:25px;line-height:1.35;padding:14px 18px;background:#f6dede;border-left:6px solid var(--red);opacity:0;transition:opacity .5s}
+.hl.in{opacity:1}
+/* plan */
+.ax{display:grid;grid-template-columns:330px 1fr 110px;gap:18px;align-items:center;font-size:26px}
+.ax .nm{font-weight:700;text-align:right}
+.exp{position:absolute;top:-8px;bottom:-8px;width:4px;background:var(--warn)}
+</style></head><body>
+
+<section class="sc" id="s0">
+  <p class="eb">IAM™ Intelligence · Sector público</p>
+  <h1>Así se ve la IA trabajando en una <span class="red">entidad pública.</span></h1>
+  <p class="lede">La IA hace el trabajo pesado.<br>El servidor público decide y firma.</p>
+  <div style="flex:1"></div>
+  <p class="tag">Ejemplo ficticio · datos de demostración</p>
+  <div class="ft"><span>Sandra Curvelo · Founder &amp; CSO, IAM™</span><span>IAM™ Intelligence</span></div>
+</section>
+
+<section class="sc" id="s1">
+  <p class="eb">IAE™ · Índice de IA por dependencia</p>
+  <h2>La productividad no sube pareja. <span class="red">Por eso se mide cada semana.</span></h2>
+  <div class="wk"><span class="n" id="wkn">S1</span><span class="l">semana del programa · índice 0 a 100</span></div>
+  <div class="rows" id="iae"></div>
+  <div style="flex:1"></div>
+  <p class="note" id="iae-note">Línea base en la semana 1. Cada dependencia se mide contra sí misma.</p>
+  <div class="ft"><span>Ejemplo ficticio</span><span>IAE™ = adopción + horas recuperadas + evolución</span></div>
+</section>
+
+<section class="sc" id="s2">
+  <p class="eb">PQRSD · Secretaría General</p>
+  <h2>La IA clasifica, calcula el plazo y <span class="red">propone la respuesta.</span></h2>
+  <div class="win"><div class="hd"><span>Radicados de hoy</span><span class="live">clasificando</span></div><div id="pq"></div></div>
+  <div class="win" style="flex:1"><div class="hd"><span>Borrador de respuesta</span><span style="color:var(--red-hi)">el servidor revisa y firma</span></div><p class="typed caret" id="pqd"></p></div>
+  <div class="ft"><span>Ejemplo ficticio · plazos según Ley 1755 de 2015</span><span>IAM™ Intelligence</span></div>
+</section>
+
+<section class="sc" id="s3">
+  <p class="eb">Radar SECOP II · Contratación</p>
+  <h2>La IA lee el pliego antes que el comité. <span class="red">El abogado decide.</span></h2>
+  <div class="win" style="flex:1"><div class="hd"><span>Estudios previos · obra de ejemplo</span><span class="live">revisando</span></div>
+   <div class="doc" style="flex:1"><div class="scan"></div>
+    <div class="ln" style="width:92%"></div><div class="ln" style="width:78%"></div>
+    <div class="hl" id="h1"><b>Experiencia exigida:</b> 5 contratos de más de 3 veces el presupuesto. Puede limitar la pluralidad de oferentes.</div>
+    <div class="ln" style="width:86%"></div><div class="ln" style="width:64%"></div>
+    <div class="hl" id="h2"><b>Inconsistencia:</b> plazo de 90 días en estudios previos y 120 días en el anexo técnico.</div>
+    <div class="ln" style="width:88%"></div><div class="ln" style="width:72%"></div>
+    <div class="hl" id="h3"><b>Matriz de riesgos:</b> el riesgo geotécnico no tiene responsable asignado.</div>
+    <div class="ln" style="width:80%"></div>
+   </div></div>
+  <div class="ft"><span>Ejemplo ficticio · solo información pública</span><span>IAM™ Intelligence</span></div>
+</section>
+
+<section class="sc" id="s4">
+  <p class="eb">Plan de Desarrollo · Rendición de cuentas</p>
+  <h2>El ciudadano ve cómo avanza cada proyecto, <span class="red">en lenguaje claro.</span></h2>
+  <div class="rows" id="plan"></div>
+  <p style="font-size:22px;color:var(--warn);font-weight:700">▍ Esperado al corte: 69%</p>
+  <div class="win" style="flex:1"><div class="hd"><span>Resumen para la ciudadanía · borrador IA</span><span style="color:var(--red-hi)">Planeación aprueba</span></div><p class="typed caret" id="pld"></p></div>
+  <div class="ft"><span>Ejemplo ficticio · cada cifra cita su fuente</span><span>IAM™ Intelligence</span></div>
+</section>
+
+<section class="sc" id="s5" style="justify-content:center">
+  <p class="eb">IAM™ Intelligence</p>
+  <h1>Lo que no se mide <span class="red">no puede ser mejorado.</span></h1>
+  <p class="lede">Nada se publica sin un humano.<br>Todas las cifras de este video son de ejemplo y no corresponden a ninguna entidad real.</p>
+  <div class="ft"><span>Sandra Curvelo · Founder &amp; CSO, IAM™</span><span>iamlatam.co</span></div>
+</section>
+
+<script>
+const $=id=>document.getElementById(id), sleep=ms=>new Promise(r=>setTimeout(r,ms));
+const show=i=>document.querySelectorAll('.sc').forEach((s,j)=>s.classList.toggle('on',i===j));
+async function type(el,txt,ms){el.textContent='';for(const ch of txt){el.textContent+=ch;await sleep(ms)}}
+// IAE ficticio
+const D=[['Planeación',[25,34,42,50,58,63,70,76]],['Jurídica',[20,28,35,33,48,55,61,68]],['Hacienda',[22,30,38,45,44,52,60,64]],['Secretaría General',[18,26,30,27,40,49,57,66]],['Obras Públicas',[15,18,16,22,25,24,31,38]]];
+$('iae').innerHTML=D.map((d,i)=>`<div class="row"><span class="nm">${d[0]}</span><div class="trk"><i class="bar" id="b${i}" style="width:0"></i></div><span class="val"><span id="v${i}">0</span><span class="dl" id="d${i}"></span></span></div>`).join('');
+const P=[['Social e incluyente',64],['Infraestructura',48],['Desarrollo económico',57],['Gestión institucional',78]];
+$('plan').innerHTML=P.map((p,i)=>`<div class="ax"><span class="nm">${p[0]}</span><div class="trk"><i class="bar" id="p${i}" style="width:0"></i><i class="exp" style="left:69%"></i></div><span class="val" id="pv${i}">0%</span></div>`).join('');
+const PQ=[['PQ-08841','Alumbrado público · barrio Central',[['Petición','c-b'],['Infraestructura','c-b'],['2 días','c-a']]],['PQ-08856','Estado de subsidio adulto mayor',[['Información','c-b'],['Inclusión Social','c-b'],['1 día','c-a']]],['PQ-08877','Descuento predial 2027',[['Consulta','c-b'],['Hacienda','c-b'],['21 días','c-g']]],['PQ-08890','Poda de árbol con riesgo',[['Petición','c-b'],['Ambiente','c-b'],['9 días','c-w']]]];
+$('pq').innerHTML=PQ.map((r,i)=>`<div class="tk" id="t${i}"><span class="rd">${r[0]}</span><span>${r[1]}</span><span></span><span class="chips">${r[2].map(c=>`<span class="chip ${c[1]}">${c[0]}</span>`).join('')}</span></div>`).join('');
+window.run=async()=>{
+ show(0);await sleep(4800);
+ show(1);await sleep(700);
+ for(let w=0;w<8;w++){
+  $('wkn').textContent='S'+(w+1);
+  D.forEach((d,i)=>{const v=d[1][w],p=w?d[1][w-1]:v;$('b'+i).style.width=v+'%';$('v'+i).textContent=v;const e=$('d'+i);e.textContent=w?(v>=p?'▲'+(v-p):'▼'+(p-v)):'';e.className='dl '+(v>=p?'up':'dn')});
+  if(w===3)$('iae-note').innerHTML='Semana 4: <b>Secretaría General y Jurídica bajan.</b> El tablero lo muestra a tiempo y se ajusta el acompañamiento.';
+  if(w===6)$('iae-note').innerHTML='Semana 8: <b>las 5 dependencias por encima de su línea base.</b> Obras Públicas es la siguiente prioridad.';
+  await sleep(1350);
+ }
+ await sleep(2600);
+ show(2);await sleep(600);
+ for(let i=0;i<PQ.length;i++){$('t'+i).classList.add('in');await sleep(450)}
+ $('t1').classList.add('sel');await sleep(500);
+ await type($('pqd'),'Respetado(a) ciudadano(a):\n\nSu solicitud PQ-08856 fue asignada a Inclusión Social. La inscripción se encuentra en estado [verificar en base de datos]. Para entregar el detalle, y según la Ley 1581, le pedimos acreditar su calidad de familiar.\n\n[Firma del servidor responsable]',22);
+ await sleep(1800);
+ show(3);await sleep(1400);
+ for(const h of ['h1','h2','h3']){$(h).classList.add('in');await sleep(2100)}
+ await sleep(1500);
+ show(4);await sleep(600);
+ P.forEach((p,i)=>{$('p'+i).style.width=p[1]+'%';$('p'+i).style.background=p[1]>=69?'#5fcf8e':p[1]>=59?'#cc0000':'#ff4747';$('pv'+i).textContent=p[1]+'%'});
+ await sleep(1200);
+ await type($('pld'),'A septiembre se ha cumplido el 61% del plan. Lo que va bien: gestión institucional (78%). Lo que necesita atención: infraestructura va en 48%, por debajo del 69% esperado.\nFuente de cada cifra: matriz del Plan Indicativo.',24);
+ await sleep(1800);
+ show(5);await sleep(5200);
+ window.done=true;
+};
+</script></body></html>
