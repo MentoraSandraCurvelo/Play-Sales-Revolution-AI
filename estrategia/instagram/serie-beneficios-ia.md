@@ -1,4 +1,5 @@
-# Serie de Reels: "¿Y tu empresa qué?"
+# Sandra sin rodeos · La cruda realidad de Claude
+## Banco de episodios: beneficios de la IA para directivos
 
 Formato: Giovanni pregunta, Sandra responde. Cada episodio toma un beneficio concreto de la IA (horas, plata, logística, crecimiento, atención) y lo aterriza con una referencia real: el Gobierno de Colombia, grandes empresas y el caso medido de Sandra.
 Audiencia: presidentes, juntas directivas, directivos y líderes de proceso. Objetivo: que piensen "quiero contratar a Sandra".

@@ -1,4 +1,5 @@
-# Entrevista: "No es un curso, es un sistema"
+# Sandra sin rodeos · La cruda realidad de Claude
+## Banco de episodios: "No es un curso, es un sistema"
 
 Serie de productividad con IA. Giovanni pregunta como un escéptico que pone a prueba a Sandra; ella responde de frente.
 Ángulo: mientras todos venden cursos de IA, Sandra muestra lo que pasa cuando la IA se instala como sistema de trabajo y se mide.

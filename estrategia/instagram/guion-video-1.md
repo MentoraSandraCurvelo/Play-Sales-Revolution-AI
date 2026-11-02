@@ -1,4 +1,5 @@
-# Video 1 · "La cruda realidad de Claude"
+# Sandra sin rodeos · La cruda realidad de Claude
+## Episodio 1 · Lo que nadie te cuenta de Claude
 
 Formato: entrevista rápida. Giovanni hace de empresario escéptico que ya vio mil Reels de Claude con tableros bonitos. Sandra cuenta lo que nadie cuenta: precios, sistema de trabajo, agentes, habilidades, plugins, lo que gana una empresa, el IAE y lo que Claude puede hacer en lo público.
 Duración: unos 80 segundos editado. Si pasa de 90, se parte en 2 Reels: Parte 1 (preguntas 1 a 3) y Parte 2 (preguntas 4 a 6).
@@ -8,7 +9,7 @@ Duración: unos 80 segundos editado. Si pasa de 90, se parte en 2 Reels: Parte 1
 ---
 
 ## 1 · Gancho (0 a 3 segundos)
-**En pantalla:** Lo que nadie te cuenta de Claude.
+**En pantalla:** SANDRA SIN RODEOS · Ep. 1 · Lo que nadie te cuenta de Claude.
 **Giovanni** (retador, sin saludo): "Sandra, todo el mundo en Instagram muestra tableros bonitos con Claude. ¿Qué es lo que nadie está contando?"
 **Sandra:** "Que un tablero no es un sistema. Y que Claude no es gratis."
 
@@ -55,7 +56,7 @@ Comenta CLAUDE y te envío más información."
 ⚡ TIEMPO · de días a minutos
 🤝 FACILIDAD · sin ser experto en tecnología
 🎯 DECISIONES · información lista hoy
-**Pantalla final:** Tu competencia ya lo está midiendo. ¿Y tú? · Comenta CLAUDE para recibir más información
+**Pantalla final:** Tu competencia ya lo está midiendo. ¿Y tú? · Comenta CLAUDE para recibir más información · Sandra sin rodeos · Ep. 1
 
 ---
 
@@ -81,7 +82,7 @@ Comenta CLAUDE y te envío más información.
 
 Fuentes: precios publicados por Anthropic (verificar en claude.com/pricing). Medición propia IAM™.
 
-#Claude #InteligenciaArtificial #IAEmpresarial #Productividad #Agentes #Liderazgo #Colombia
+#SandraSinRodeos #Claude #InteligenciaArtificial #IAEmpresarial #Productividad #Agentes #Liderazgo #Colombia
 
 ## Notas de dirección
 
