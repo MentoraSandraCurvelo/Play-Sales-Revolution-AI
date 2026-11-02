@@ -7,20 +7,21 @@ Formato: entrevista rápida. Duración objetivo: entre 50 y 60 segundos editado.
 
 ---
 
+## Primera parte: Sandra sola a cámara, en formato de autopregunta (preguntas 1 a 3)
+
 ## 1 · Gancho
 **En pantalla:** SANDRA SIN RODEOS · Ep. 2 · Estás usando la IA mal.
-**Giovanni:** "Mi equipo ya usa IA: le meten un documento y le piden un resumen."
-**Sandra:** "Entonces no usa IA. Usa un atajo."
+**Sandra (a cámara):** "¿Tu equipo ya usa IA? ¿Le mete un documento y le pide un resumen? Entonces no usa IA. Usa un atajo."
 
 ## 2 · El humo
-**Giovanni:** "Pero hay empresas con tableros espectaculares."
-**Sandra:** "Pregúntales cómo es el proceso detrás. No saben. Y si tu proceso está roto, la IA no lo arregla. Lo amplifica."
+**Sandra:** "¿Y esas empresas con tableros espectaculares? Pregúntales cómo es el proceso detrás. No saben. Y si tu proceso está roto, la IA no lo arregla. Lo amplifica."
 **En pantalla:** Si tu proceso está roto, la IA no lo arregla. Lo amplifica.
 
 ## 3 · El índice
-**Giovanni:** "¿Y cómo sé si estoy vendiendo humo?"
-**Sandra:** "Midiendo. Por eso creé el IAE: no mide licencias, mide lo que la IA te devuelve. Si no se mide, no es un sistema. Es un juguete."
+**Sandra:** "¿Cómo sabes si estás vendiendo humo? Midiendo. Por eso creé el IAE: no mide licencias, mide lo que la IA te devuelve. Si no se mide, no es un sistema. Es un juguete."
 **En pantalla:** IAE™ · Si no se mide, es un juguete.
+
+## Segunda parte: entra Giovanni (preguntas 4 a 6)
 
 ## 4 · ¿Y qué hago con las horas?
 **Giovanni:** "Ok, recupero las horas. ¿Y qué hago con ellas?"
