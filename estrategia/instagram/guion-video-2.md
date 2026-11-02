@@ -1,48 +1,36 @@
 # Sandra sin rodeos · La cruda realidad de Claude
 ## Episodio 2 · Estás usando la IA para amplificar el caos
 
-Formato: entrevista rápida, igual que el Ep. 1. Giovanni provoca; Sandra golpea con frases cortas. A mitad del video se muestran los tableros de la propuesta para la alcaldía.
-Duración objetivo: entre 70 y 90 segundos editado.
+Formato: entrevista rápida. Duración objetivo: entre 45 y 55 segundos editado.
 
-> Reglas: el cliente privado no se nombra ("una caja de compensación muy grande en Colombia"). La alcaldía va como "una alcaldía" mientras la propuesta no esté firmada. Los tableros de la alcaldía son una demo con datos de ejemplo: se dice "lo que estamos proponiendo" o "lo que se va a implementar", nunca "lo que logramos".
+> Reglas: el cliente privado no se nombra. La alcaldía va como "una alcaldía". Los tableros son una demo con datos de ejemplo.
 
 ---
 
-## 1 · Gancho (0 a 3 segundos)
+## 1 · Gancho
 **En pantalla:** SANDRA SIN RODEOS · Ep. 2 · Estás usando la IA mal.
-**Giovanni** (directo): "Sandra, mi equipo ya usa IA todos los días. Le meten un documento y le piden un resumen."
-**Sandra** (sin pausa): "Entonces tu equipo no usa IA. Usa un atajo."
+**Giovanni:** "Mi equipo ya usa IA: le meten un documento y le piden un resumen."
+**Sandra:** "Entonces no usa IA. Usa un atajo."
 
-## 2 · El golpe
-**Giovanni:** "¿Cómo así? Si funciona."
-**Sandra:** "Funciona para salir del paso. 'Hazme un resumen'. 'Hazme un tablero'. Eso lo hace cualquiera. Y muchas empresas ni saben que llevan meses así: pegando documentos, copiando respuestas y creyendo que ya se transformaron."
-**En pantalla:** "Hazme un resumen" no es transformación digital.
+## 2 · El humo
+**Giovanni:** "Pero hay empresas con tableros espectaculares."
+**Sandra:** "Pregúntales cómo es el proceso detrás. No saben. Y si tu proceso está roto, la IA no lo arregla. Lo amplifica."
+**En pantalla:** Si tu proceso está roto, la IA no lo arregla. Lo amplifica.
 
-## 3 · El humo
-**Giovanni** (escéptico): "Pero hay empresas mostrando tableros espectaculares con IA."
-**Sandra:** "Y pregúntales cómo funciona el proceso que hay detrás. La mayoría no sabe. Montan un tablero sofisticado para descrestar, pero nunca revisaron el proceso real. Y si tu proceso está roto, la IA no lo arregla. Lo amplifica. Es caos, pero más rápido."
-**En pantalla, frase fuerte:** Si tu proceso está roto, la IA no lo arregla. Lo amplifica.
+## 3 · El índice
+**Giovanni:** "¿Y cómo sé si estoy vendiendo humo?"
+**Sandra:** "Midiendo. Por eso creé el IAE: no mide licencias, mide lo que la IA te devuelve. Si no se mide, no es un sistema. Es un juguete."
+**En pantalla:** IAE™ · Si no se mide, es un juguete.
 
-## 4 · El índice
-**Giovanni:** "¿Y cómo sé si yo estoy vendiendo humo?"
-**Sandra:** "Midiendo. Para eso creé el IAE, el Índice de Inteligencia Artificial Empresarial. No mide cuántas licencias compraste ni cuántos prompts escribiste. Mide lo que la IA le devuelve a tu empresa: horas liberadas y valor producido por cada hora. Si no lo puedes medir, no es un sistema. Es un juguete."
-**En pantalla:** IAE™ · No mide licencias. Mide lo que la IA te devuelve.
-
-## 5 · La alcaldía (aquí entran los tableros)
+## 4 · La alcaldía (B-roll de los tableros, 6 a 8 segundos)
 **Giovanni:** "Muéstrame algo real."
-**Sandra:** "Esto es lo que estamos proponiendo para una alcaldía."
-**[B-ROLL: grabación de pantalla de los tableros, 8 a 12 segundos, con Sandra hablando encima]**
-**Sandra (voz en off):** "Una petición llega y Claude la clasifica, calcula el plazo legal y deja la respuesta lista para que el funcionario revise y firme. Los contratos se revisan antes de firmar. Y el Plan de Desarrollo se explica en lenguaje claro. En una alcaldía la ganancia es distinta: cada hora que se libera es una hora que se le devuelve al ciudadano. Y el ciudadano puede ver cómo va cada dependencia."
-**En pantalla, sobre el B-roll:** DEMO · DATOS DE EJEMPLO · Cada hora liberada es una hora para el ciudadano.
+**Sandra (voz en off sobre los tableros):** "Esto estamos proponiendo para una alcaldía. Claude clasifica las peticiones y deja la respuesta lista. El funcionario firma. Y cada hora liberada es una hora para el ciudadano."
+**En pantalla:** DEMO · DATOS DE EJEMPLO · Cada hora liberada es una hora para el ciudadano.
 
-## 6 · ¿Y después qué?
+## 5 · Cierre con anuncio del Ep. 3
 **Giovanni:** "Ok, recupero las horas. ¿Y después qué?"
-**Sandra:** "Esa es la pregunta que nadie se hace. En una caja de compensación muy grande en Colombia recuperamos 140 horas cada semana. Pero recuperar horas es el primer paso. Lo que viene después es lo que de verdad cambia el juego."
-
-## 7 · Cierre con bucle hacia el Ep. 3
-**Giovanni:** "¿Qué viene?"
-**Sandra** (a cámara): "Hoy cada área tiene su tablero, su IA y sus horas. Ahora imagínate todos esos tableros conectados, hablando entre ellos, y la gerencia viendo la empresa completa en tiempo real. Eso se llama hiperconectividad. Y te lo cuento en el próximo episodio."
-**En pantalla:** Próximo episodio: HIPERCONECTIVIDAD · Sígueme para no perdértelo · Comenta CLAUDE
+**Sandra (a cámara):** "Después conectas todos los tableros de la empresa. Eso se llama hiperconectividad. Y te lo cuento en el próximo episodio."
+**En pantalla:** Próximo: HIPERCONECTIVIDAD · Comenta CLAUDE
 
 ---
 
