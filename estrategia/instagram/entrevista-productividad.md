@@ -1,135 +1,157 @@
 # Entrevista: "No es un curso, es un sistema"
 
-Serie de productividad con IA. Giovanni pregunta, Sandra responde.
-Ángulo: mientras todos venden cursos de IA para vendedores, financieros o abogados, Sandra muestra lo que pasa cuando la IA se instala como sistema de trabajo y se mide.
+Serie de productividad con IA. Giovanni pregunta como un escéptico que pone a prueba a Sandra; ella responde de frente.
+Ángulo: mientras todos venden cursos de IA, Sandra muestra lo que pasa cuando la IA se instala como sistema de trabajo y se mide.
 
 > Cliente: no se nombra. Siempre decir "una caja de compensación muy grande en Colombia".
 > Cifras de cierre acordadas por Sandra: 140 horas por semana y $255 millones a 12 meses. Sin decimales en cámara.
 
-Cada respuesta dura entre 30 y 45 segundos. La primera frase es el gancho: va sin introducción.
+## Reglas de enganche que usa este guion
+
+Son prácticas comunes de creadores y lo que Instagram ha comunicado sobre sus señales de ranking hasta mi última actualización. No son reglas oficiales garantizadas; se validan con los datos de la cuenta.
+
+1. **La primera frase es un golpe.** Nada de "bueno", "mira", "te cuento". La respuesta arranca con la opinión fuerte o con el número.
+2. **Giovanni pregunta como escéptico**, no como entrevistador amable. La tensión retiene.
+3. **Bucle abierto:** la respuesta promete algo ("y te digo cuál es la trampa") y lo entrega al final, así la gente se queda hasta el cierre.
+4. **Contenido para reenviar:** cada video está pensado para que alguien se lo mande a su jefe, a su equipo o al de finanzas. Los envíos son de las señales más fuertes para llegar a gente que no te sigue.
+5. **Corto:** entre 20 y 35 segundos por respuesta en el primer lanzamiento.
+6. **Polémica con datos, no con ataques:** se critica la práctica (cursos sin medición), nunca a una persona o empresa con nombre.
 
 ---
 
-## Ep. 1 · "¿Tú también vendes un curso de IA?"
-**Texto en pantalla:** Todos venden cursos de IA. Yo no.
+## Ep. 1 · LANZAMIENTO
+**Giovanni:** "Sandra, sin rodeos: ¿los cursos de IA son una estafa?"
+**Texto en pantalla:** ¿Los cursos de IA son una estafa?
 
 **Sandra:**
-No. Y te digo por qué. Un curso te deja un certificado. Un sistema te deja horas de vuelta en tu semana.
-Yo no enseño tecnología, instalo sistemas de trabajo. Me siento con cada persona, con sus documentos reales, con su proceso real, y no me voy hasta que la IA está metida en su rutina.
-Y lo más importante: lo mido. Antes y después. Porque lo que no se mide no se puede mejorar.
-Si alguien te vende IA y no te muestra cuántas horas te devuelve, te está vendiendo un curso.
+La mayoría, sí. Y no porque enseñen mal.
+Es porque te venden un certificado y te dejan solo el lunes con el mismo trabajo de siempre.
+Pregúntale a quien te vende el curso una sola cosa: ¿cuántas horas le devolviste a tu último cliente?
+Si no tiene el número, no te vendió IA. Te vendió entretenimiento.
+Yo no doy cursos. Yo instalo sistemas. Y los mido.
 
-**Llamado a la acción:** Sigue la serie, que en el próximo te muestro los números.
+**Remate en pantalla:** Si no tiene el número, te vendió entretenimiento.
+**Llamado a la acción:** Envíaselo a quien acaba de pagar un curso de IA.
 
 ---
 
-## Ep. 2 · "¿Cuánto tiempo le ahorra la IA a una empresa, de verdad?"
-**Texto en pantalla:** 140 horas por semana. Medidas.
+## Ep. 2
+**Giovanni:** "¿Y tú sí tienes el número?"
+**Texto en pantalla:** 140 horas. Cada semana.
 
 **Sandra:**
-140 horas a la semana. No es una proyección, es lo que medimos tarea por tarea en una caja de compensación muy grande en Colombia.
-Eso son más de 17 días de trabajo cada semana. El equivalente a 3 personas y media a tiempo completo, sin contratar a nadie.
-Fueron 9 semanas, 51 colaboradores, 18 áreas. 35 tareas medidas: cuánto tardaban antes, cuánto tardan hoy y cuántas veces las hacen.
-Esa es la diferencia entre "la IA es muy útil" y "la IA me devolvió tres personas".
+140 horas. Cada semana.
+Medidas tarea por tarea en una caja de compensación muy grande en Colombia.
+Eso es el trabajo de 3 personas y media. Sin contratar a nadie. Sin despedir a nadie.
+Ahora piensa en tu empresa: ¿cuántas personas tienes haciendo trabajo que una máquina hace en minutos?
 
-**Llamado a la acción:** Envíaselo a tu gerente.
+**Remate en pantalla:** 3 personas y media. Sin contratar a nadie.
+**Llamado a la acción:** Envíaselo a tu gerente. Que haga la cuenta.
 
 ---
 
-## Ep. 3 · "¿Cuál fue la tarea que más te impactó?"
+## Ep. 3
+**Giovanni:** "Eso suena a humo. Dame un ejemplo real."
 **Texto en pantalla:** 8 horas → 10 minutos.
 
 **Sandra:**
-Un informe del Comité Jurídico. Antes tomaba 480 minutos. Ocho horas. Hoy se hace en 10.
-Y la revisión de minutas pasó de 30 minutos a 5.
-Pero ojo, la IA no firma. La IA prepara el borrador, el abogado revisa, decide y firma. Eso no cambia.
-Lo que cambia es que ese abogado ya no pasa el día copiando y pegando. Ahora pasa el día pensando, que es para lo que le pagan.
+Un informe para un comité jurídico. Ocho horas de trabajo.
+Hoy sale en 10 minutos.
+Y antes de que me digas que la IA se lo inventa todo: la IA hace el borrador, el abogado revisa y firma.
+La diferencia es que ese abogado ya no pasa el día copiando y pegando. Ahora pasa el día pensando. Que es para lo que le pagan.
 
+**Remate en pantalla:** Ya no copia y pega. Ahora piensa.
 **Llamado a la acción:** Comenta cuál es la tarea que más tiempo te roba.
 
 ---
 
-## Ep. 4 · "¿Por qué tanta gente usa IA y no ve resultados?"
-**Texto en pantalla:** 5 sesiones vs 8 sesiones. Ganó la que midió.
+## Ep. 4
+**Giovanni:** "Mi equipo usa ChatGPT todo el día y no veo que produzcan más. ¿Qué está pasando?"
+**Texto en pantalla:** Tu equipo usa IA. Y no sirve de nada.
 
 **Sandra:**
-Porque no mide. Te pongo un caso real.
-Un área se sentó conmigo 5 veces y hoy recupera casi 18 horas a la semana. Otra se sentó 8 veces y aparece con 2.
-¿La diferencia? La primera midió desde el día uno. La segunda no.
-Más sesiones no es más ahorro. Más prompts no es más productividad. Lo que separa a los que ganan de los que no, es medir.
+Que nadie está midiendo. Te lo pruebo.
+Un área se sentó conmigo 5 veces y hoy recupera casi 18 horas a la semana.
+Otra se sentó 8 veces. ¿Sabes cuánto recupera? 2.
+Más sesiones, menos resultado. ¿La diferencia? La primera midió desde el día uno.
+Usar IA no es lo mismo que ganar con IA.
 
-**Llamado a la acción:** Guárdalo para tu próxima reunión de equipo.
+**Remate en pantalla:** Usar IA no es lo mismo que ganar con IA.
+**Llamado a la acción:** Envíaselo a tu equipo.
 
 ---
 
-## Ep. 5 · "¿La IA le va a quitar el trabajo a la gente?"
-**Texto en pantalla:** No quitó 3 personas. Devolvió 3 personas.
+## Ep. 5
+**Giovanni:** "¿Cuánta plata está botando una empresa por no hacer esto?"
+**Texto en pantalla:** $255 millones. Y es el piso.
 
 **Sandra:**
-Lo que vi fue lo contrario. No despedimos a nadie. Le devolvimos a la empresa el tiempo de 3 personas y media.
-Y ese tiempo no desapareció: se reinvirtió en atender mejor, en vender más, en pensar.
-La IA no te reemplaza. Te reemplaza el que la usa con método mientras tú sigues haciendo todo a mano.
+En este caso, 255 millones de pesos al año.
+Y escucha bien: eso es calculado con la tarifa hora más baja de la empresa. Es el piso.
+Cada semana que no lo haces, esa plata se va en gente capaz haciendo trabajo de máquina.
+La IA no es un gasto de tecnología. Es la plata que hoy estás dejando sobre la mesa.
 
-**Llamado a la acción:** Envíaselo a alguien que todavía le tiene miedo a la IA.
-
----
-
-## Ep. 6 · "¿La gente se resiste a la IA?"
-**Texto en pantalla:** Confianza en la IA: de 5 a 9
-
-**Sandra:**
-Al principio, sí. La confianza para usar IA arrancó en menos de 5 sobre 10.
-Al final del programa estaba en casi 9. Y de las 20 personas que respondieron la encuesta, las 20 subieron. Ninguna bajó.
-La resistencia no es a la tecnología. Es a no saber cómo empezar. Cuando trabajas con tus propios documentos y ves el resultado en tu propio escritorio, el miedo se va solo.
-
-**Llamado a la acción:** Comenta del 1 al 10 qué tan seguro te sientes hoy usando IA.
-
----
-
-## Ep. 7 · "¿Cuál es tu método?"
-**Texto en pantalla:** Método DIAL-3R™
-
-**Sandra:**
-Se llama DIAL-3R™. Cuatro pasos.
-Diagnosticar: dónde la IA genera más impacto en tu proceso.
-Instruir: cómo se le habla a la IA, porque el prompt es el diferencial.
-Aplicar: con tus documentos reales, protegiendo los datos.
-Liberar: que la persona opere sola, con su rutina.
-Y después el ciclo de las 3R: Rutina, Resultado, Repetición. Así la IA deja de ser un experimento y se vuelve hábito.
-
-**Llamado a la acción:** Guárdalo.
-
----
-
-## Ep. 8 · "¿Cuánto vale una hora recuperada?"
-**Texto en pantalla:** $255 millones al año. A la tarifa más baja.
-
-**Sandra:**
-Esa es la pregunta que debería hacerse todo gerente.
-Esas 140 horas semanales, valoradas a la tarifa hora más baja de la empresa, son 255 millones de pesos a 12 meses.
-A la tarifa más baja. O sea, el piso.
-Cuando le pones precio a la hora, la IA deja de ser un gasto de tecnología y se vuelve la mejor inversión del año.
-
+**Remate en pantalla:** Es la plata que hoy estás dejando sobre la mesa.
 **Llamado a la acción:** Envíaselo a tu director financiero.
 
 ---
 
-## Ep. 9 · "Si un gerente me está viendo, ¿por dónde empieza mañana?"
-**Texto en pantalla:** 1 proceso. Mide antes. Mide después.
+## Ep. 6
+**Giovanni:** "Siendo honestos: ¿la IA va a dejar a mucha gente sin trabajo?"
+**Texto en pantalla:** La IA no te va a quitar el trabajo.
 
 **Sandra:**
-Tres pasos, mañana mismo.
-Uno: escoge un solo proceso, el que más tiempo le roba a tu equipo.
-Dos: mide cuánto tarda hoy, en minutos, y cuántas veces a la semana se hace.
-Tres: aplícale IA y vuelve a medir.
-No empieces con un curso para 200 personas. Empieza con un proceso, un número y un resultado que puedas mostrar.
+La IA no te va a quitar el trabajo.
+Te lo va a quitar alguien que la usa con método mientras tú sigues haciendo todo a mano.
+En este proyecto no salió nadie. Al contrario: le devolvimos a la empresa el tiempo de 3 personas y media para vender más y atender mejor.
+La pregunta no es si la IA llega a tu cargo. Es si llega primero a ti o a tu competencia.
 
-**Llamado a la acción:** Comenta "SISTEMA" y te cuento cómo lo hacemos en tu empresa.
+**Remate en pantalla:** ¿Llega primero a ti o a tu competencia?
+**Llamado a la acción:** Comenta "YO" si quieres que llegue primero a ti.
 
 ---
 
+## Ep. 7
+**Giovanni:** "¿Y la gente no le tiene pánico a todo esto?"
+**Texto en pantalla:** Empezaron con miedo. Terminaron así.
+
+**Sandra:**
+Pánico, no. Desconfianza, mucha.
+La confianza para usar IA arrancó en menos de 5 sobre 10.
+Terminó en casi 9. Y de 20 personas que respondieron, las 20 subieron. Ni una bajó.
+El miedo no es a la tecnología. Es a no saber por dónde empezar. Cuando ves tu propio trabajo resuelto en minutos, el miedo se va solo.
+
+**Remate en pantalla:** 20 de 20 subieron. Ni una bajó.
+**Llamado a la acción:** Del 1 al 10, ¿qué tan seguro te sientes hoy con la IA? Comenta tu número.
+
+---
+
+## Ep. 8 · CIERRE DE TEMPORADA
+**Giovanni:** "Ok, me convenciste. Soy gerente. ¿Qué hago mañana a las 8 de la mañana?"
+**Texto en pantalla:** Mañana a las 8. 3 pasos.
+
+**Sandra:**
+No compres un curso para 200 personas. Ese es el error más caro.
+Uno: escoge el proceso que más horas le roba a tu equipo.
+Dos: mide cuánto tarda hoy, en minutos.
+Tres: métele IA y vuelve a medir.
+Un proceso, un número, un resultado. Así arranqué con una empresa que hoy recupera 140 horas cada semana.
+
+**Remate en pantalla:** Un proceso. Un número. Un resultado.
+**Llamado a la acción:** Comenta "SISTEMA" y te escribo para contarte cómo lo hacemos en tu empresa.
+
+---
+
+## Orden de publicación recomendado
+
+1. **Ep. 1 primero.** Es polémico, te posiciona contra lo que hace todo el mundo y provoca comentarios. Ninguno de los otros abre la conversación tan fuerte.
+2. **Ep. 2 al día siguiente**, porque responde la pregunta que deja el 1: "¿y tú sí tienes el número?". Así los 2 videos se empujan entre sí.
+3. Del 3 al 8 en orden. El 8 cierra la temporada con el llamado comercial.
+
 ## Notas para Giovanni en la grabación
-1. Haz la pregunta corta, mirando a Sandra, como si fuera tu duda real. Nada de leer.
-2. Si Sandra se extiende, deja que siga: en edición cortamos a 30 o 45 segundos.
-3. Graba 2 tomas de la primera frase de cada respuesta: es el gancho y es lo que decide si la gente se queda.
-4. Las cifras van en texto grande en pantalla en el momento en que Sandra las dice.
+
+1. Pregunta con cara de escéptico, como si de verdad dudaras. Nada de leer.
+2. Sandra arranca con la primera frase sin pausa, mirando a cámara o a ti.
+3. Graba 3 tomas de la primera frase de cada respuesta: es el gancho y decide si la gente se queda.
+4. Las cifras y el remate van en texto grande en pantalla en el momento exacto en que Sandra los dice.
+5. Corta en edición todos los silencios. Ritmo rápido.
