@@ -1,7 +1,7 @@
 # Sandra sin rodeos · La cruda realidad de Claude
 ## Episodio 2 · Estás usando la IA para amplificar el caos
 
-Formato: entrevista rápida. Duración objetivo: entre 45 y 55 segundos editado.
+Formato: entrevista rápida. Duración objetivo: entre 50 y 60 segundos editado.
 
 > Reglas: el cliente privado no se nombra. La alcaldía va como "una alcaldía". Los tableros son una demo con datos de ejemplo.
 
@@ -22,15 +22,22 @@ Formato: entrevista rápida. Duración objetivo: entre 45 y 55 segundos editado.
 **Sandra:** "Midiendo. Por eso creé el IAE: no mide licencias, mide lo que la IA te devuelve. Si no se mide, no es un sistema. Es un juguete."
 **En pantalla:** IAE™ · Si no se mide, es un juguete.
 
-## 4 · La alcaldía (B-roll de los tableros, 6 a 8 segundos)
-**Giovanni:** "Muéstrame algo real."
-**Sandra (voz en off sobre los tableros):** "Esto estamos proponiendo para una alcaldía. Claude clasifica las peticiones y deja la respuesta lista. El funcionario firma. Y cada hora liberada es una hora para el ciudadano."
-**En pantalla:** DEMO · DATOS DE EJEMPLO · Cada hora liberada es una hora para el ciudadano.
+## 4 · ¿Y qué hago con las horas?
+**Giovanni:** "Ok, recupero las horas. ¿Y qué hago con ellas?"
+**Sandra:** "Esa es la pregunta del millón. Si no decides en qué se invierten, se pierden en reuniones. Yo diseño con cada área en qué se van a usar esas horas, para que se vean donde importa: en la plata que gana la empresa."
+**En pantalla:** Horas que no se planean, se pierden en reuniones.
 
-## 5 · Cierre con anuncio del Ep. 3
-**Giovanni:** "Ok, recupero las horas. ¿Y después qué?"
-**Sandra (a cámara):** "Después conectas todos los tableros de la empresa. Eso se llama hiperconectividad. Y te lo cuento en el próximo episodio."
+## 5 · En lo público (B-roll del tablero, 6 a 8 segundos)
+**Giovanni:** "¿Y en el sector público?"
+**Sandra (voz en off sobre el tablero):** "Ahí cada hora liberada es una hora más de atención al ciudadano. Así funciona un tablero para una alcaldía: cada área lo alimenta, y el ciudadano ve en tiempo real cómo avanza cada proyecto."
+**En pantalla:** Cada hora liberada, una hora más para el ciudadano · (pequeño, en una esquina) Datos ilustrativos
+
+## 6 · Cierre con anuncio del Ep. 3
+**Giovanni:** "¿Y después qué viene?"
+**Sandra (a cámara):** "Conectar todos los tableros de la organización. Eso se llama hiperconectividad. Y te lo cuento en el próximo episodio."
 **En pantalla:** Próximo: HIPERCONECTIVIDAD · Comenta CLAUDE
+
+> Nota sobre la alcaldía: no se dice nombre, ciudad ni país. Se habla en presente de cómo funciona el tablero ("así funciona un tablero para una alcaldía"), sin afirmar que ya está implementado, porque la propuesta todavía no está firmada y los datos del tablero son ilustrativos. Antes de grabar, tapar el encabezado del tablero.
 
 ---
 
