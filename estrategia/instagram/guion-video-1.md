@@ -1,103 +1,72 @@
-# Video 1 · Lanzamiento · "¿Y tu empresa qué?"
+# Video 1 · "La cruda realidad de Claude"
 
-Formato: entrevista rápida. Giovanni ataca como un presidente escéptico, Sandra responde sin titubear. 5 preguntas que van subiendo de tono.
-Duración objetivo: entre 55 y 70 segundos ya editado. Si en la edición pasa de 75, se parte en 2 Reels (preguntas 1 a 3, y preguntas 4 y 5).
+Formato: entrevista rápida. Giovanni hace de empresario escéptico que ya vio mil Reels de Claude con tableros bonitos. Sandra cuenta lo que nadie cuenta: precios, sistema de trabajo, agentes, habilidades, plugins, lo que gana una empresa y el IAE.
+Duración: unos 80 segundos editado. Si pasa de 90, se parte en 2 Reels: Parte 1 (preguntas 1 a 3) y Parte 2 (preguntas 4 a 6).
 
-> Reglas: el cliente no se nombra ("una caja de compensación muy grande en Colombia"). Cifras sin decimales. Verificar el día de grabar las noticias del Gobierno (septiembre y octubre de 2026).
-
----
-
-## Arranque (0 a 3 segundos)
-**Texto en pantalla, grande:** 66% de las empresas usa IA. Solo 12% gana plata con ella.
-
-**Giovanni** (directo a Sandra, sin saludo, tono retador):
-"Sandra, ¿es verdad que la mayoría de las empresas está botando la plata en inteligencia artificial?"
-
-**Sandra** (sin pausa, mirándolo fijo):
-"Sí. En Colombia, 66 de cada 100 empresas ya usan IA. ¿Sabes cuántas pueden demostrar que les está dando plata? 12."
+> Reglas: el cliente no se nombra. Cifras sin decimales. Verificar precios en claude.com/pricing el día de grabar.
 
 ---
 
-## Pregunta 2 · El golpe
-**Giovanni** (rápido, casi interrumpiendo):
-"¿Y las otras 54?"
+## 1 · Gancho (0 a 3 segundos)
+**En pantalla:** Lo que nadie te cuenta de Claude.
+**Giovanni** (retador, sin saludo): "Sandra, todo el mundo en Instagram muestra tableros bonitos con Claude. ¿Qué es lo que nadie está contando?"
+**Sandra:** "Que un tablero no es un sistema. Y que Claude no es gratis."
 
-**Sandra:**
-"Pagando licencias. Comprando cursos. Y esperando un milagro."
+## 2 · La plata
+**Giovanni:** "¿Cuánto cuesta de verdad?"
+**Sandra:** "Para trabajar en serio, entre 20 y 200 dólares al mes por persona, según el plan. Ahora multiplícalo por tu equipo. Si no sabes qué te devuelve, eso es un gasto, no una inversión."
+**En pantalla:** Entre 20 y 200 dólares al mes por persona.
 
-**Texto en pantalla:** Pagando licencias. Comprando cursos. Esperando un milagro.
+## 3 · El sistema
+**Giovanni** (escéptico): "¿Y entonces qué es lo que sí sirve?"
+**Sandra:** "El sistema. Un proyecto es una carpeta con contexto donde tú le preguntas. Un agente trabaja solo. Yo tengo una agente que arma las actas de todas las reuniones del día y las deja listas a las 8 de la mañana. Las habilidades le enseñan a trabajar como trabaja tu empresa, y los plugins lo conectan a tu correo, tu Drive y tu Slack. Eso no es un chat. Es un equipo."
+**En pantalla, una por golpe:** Proyecto: tú preguntas · Agente: trabaja solo · Habilidades: trabaja como tu empresa · Plugins: se conecta a tus herramientas
 
----
+## 4 · Lo que gana una empresa
+**Giovanni:** "Bonito. ¿Y cuánto gana una empresa con eso?"
+**Sandra:** "En una caja de compensación muy grande en Colombia: 140 horas cada semana. 255 millones de pesos al año. Y lo mido con mi Índice de Inteligencia Artificial Empresarial, el IAE. Casi nadie está midiendo esto. Y lo que no se mide no se puede mejorar."
+**En pantalla:** 140 horas por semana · $255 millones al año · IAE™
 
-## Pregunta 3 · La prueba
-**Giovanni** (cruzado de brazos, escéptico):
-"Todo el mundo dice que sabe de IA. ¿Tú qué tienes que no tengan los demás?"
+## 5 · Las personas y el país
+**Giovanni:** "¿Y a la gente le conviene aprender esto o es pura moda?"
+**Sandra:** "PwC lo midió: los cargos que piden habilidades de IA pagan en promedio 56% más. Y el presidente anunció un millón de becas en inteligencia artificial. El país se está entrenando. La pregunta es si tu empresa lo va a aprovechar o se lo va a regalar a la competencia."
+**En pantalla:** +56% de salario en cargos que piden IA · 1 millón de becas en IA
 
-**Sandra:**
-"El número. Yo no doy cursos, yo instalo la IA en los procesos y mido. En una caja de compensación muy grande en Colombia recuperamos 140 horas cada semana. Eso es el trabajo de 3 personas y media, sin contratar a nadie. 255 millones de pesos al año."
-
-**Texto en pantalla, una cifra por golpe:** 140 horas cada semana · 3 personas y media · $255 millones al año
-
----
-
-## Pregunta 4 · La que incomoda
-**Giovanni:**
-"Pero eso es un tema del área de sistemas, ¿no?"
-
-**Sandra** (se inclina hacia adelante):
-"Ese es el error que le está costando millones a las empresas. El presidente de Colombia ya dijo que la IA va a ser política de Estado. Si el país ya decidió, ¿por qué en tu empresa lo sigue decidiendo el de sistemas?"
-
-**Texto en pantalla:** El país ya decidió. ¿Y tu empresa qué?
-
----
-
-## Pregunta 5 · El cierre
-**Giovanni** (más bajo, serio):
-"Última. Si un presidente de empresa está viendo esto, ¿qué le dices?"
-
-**Sandra** (a cámara, no a Giovanni):
-"Que no me pregunte si la IA funciona. Que le pregunte a su equipo cuántas horas le devolvió este mes. Y si nadie sabe el número, escríbeme."
-
-**Texto en pantalla:** Si nadie sabe el número, escríbeme.
-**Cierre en pantalla:** Comenta SISTEMA · Ep. 1 · ¿Y tu empresa qué?
+## 6 · Cierre
+**Giovanni** (serio): "Última. Un presidente de empresa te está viendo. ¿Qué le dices?"
+**Sandra** (cambia la mirada a cámara): "Que deje de comprar licencias y empiece a construir un sistema. Y si quiere saber cuál es el índice de su empresa, que me escriba."
+**En pantalla:** Comenta IAE y te digo cómo medir tu empresa · Ep. 1
 
 ---
 
-## 3 ganchos alternativos para probar
+## 3 ganchos para probar
 
-Graben los 3 al inicio de la sesión. Si la cuenta tiene Reels de prueba, publiquen 2 versiones y dejen la que retenga más.
-
-1. **Pregunta (la del guion):** "Sandra, ¿es verdad que la mayoría de las empresas está botando la plata en inteligencia artificial?"
-2. **Cifra seca:** Sandra a cámara, sin pregunta: "54 de cada 100 empresas en Colombia están pagando IA que no les devuelve un peso."
-3. **Directo al presidente:** Giovanni: "Sandra, si fueras presidente de una empresa, ¿qué es lo primero que dejarías de pagar en IA?" Sandra: "Los cursos."
-
----
+1. **El del guion:** "Todo el mundo muestra tableros bonitos con Claude. ¿Qué es lo que nadie está contando?"
+2. **Sandra a cámara, frase seca:** "Claude no es gratis. Y nadie te está diciendo cuánto cuesta de verdad."
+3. **Giovanni provoca:** "Sandra, ¿Claude es una moda de Instagram?" Sandra: "Para el que hace tableros, sí. Para el que monta un sistema, no."
 
 ## Caption
 
-¿Tu empresa está en el 12% o en el 54%? 👇
+Claude no es gratis. Y un tablero bonito no es un sistema. 👇
 
-66 de cada 100 empresas en Colombia ya usan inteligencia artificial.
-Solo 12 pueden demostrar que les está dando plata.
+Lo que nadie te cuenta:
+⭕ Cuesta entre 20 y 200 dólares al mes por persona
+⭕ Un proyecto no es lo mismo que un agente
+⭕ Habilidades y plugins son los que convierten un chat en un equipo
+⭕ En una caja de compensación muy grande en Colombia: 140 horas recuperadas cada semana
 
-La diferencia no es la herramienta. Es medir.
-En una caja de compensación muy grande en Colombia lo medimos: 140 horas recuperadas cada semana.
+Yo lo mido con el IAE™, Índice de Inteligencia Artificial Empresarial.
 
-El país ya decidió que la IA es política de Estado. ¿Y tu empresa qué?
+Comenta IAE y te digo cómo medir tu empresa.
 
-Comenta SISTEMA y te cuento cómo lo hacemos.
+Fuentes: precios publicados por Anthropic (verificar en claude.com/pricing). PwC, 2025 Global AI Jobs Barometer. Presidencia de la República, octubre de 2026. Medición propia IAM™.
 
-Fuentes: IDC y HubSpot, citadas en el AI Summit Colombia, mayo de 2026. Presidencia de la República, septiembre de 2026. Medición propia IAM™.
+#Claude #InteligenciaArtificial #IAEmpresarial #Productividad #Agentes #Liderazgo #Colombia
 
-#InteligenciaArtificial #IAEmpresarial #Productividad #Liderazgo #Empresas #Colombia
+## Notas de dirección
 
----
-
-## Notas de dirección para la grabación
-
-1. **Giovanni no es amable.** Es el presidente que duda y que no tiene tiempo. Preguntas cortas, tono seco, mirada directa.
-2. **Sandra nunca empieza con "bueno", "mira" o "pues".** La primera palabra de cada respuesta es la idea.
-3. **La pregunta 2 es la más importante:** "¿Y las otras 54?" tiene que sonar casi como una interrupción. Graben 3 tomas.
-4. **En la pregunta 5, Sandra mira a cámara.** Ese cambio de mirada le avisa al espectador que ahora le habla a él.
-5. **Plano:** vertical 9:16, los 2 en cuadro para las preguntas y un plano cerrado de Sandra para las respuestas. Si solo hay 1 cámara, Giovanni fuera de cuadro y su pregunta como texto en pantalla.
-6. **Edición:** cortar todos los silencios, cada cifra en pantalla en el segundo exacto en que Sandra la dice y subtítulos todo el tiempo.
+1. Giovanni es el empresario que ya vio todo y no se impresiona: preguntas cortas, tono seco.
+2. Sandra arranca cada respuesta con la idea, nunca con "bueno" o "mira".
+3. La respuesta 3 es la más larga: Sandra la puede contar con los dedos (1 proyecto, 2 agente, 3 habilidades, 4 plugins). Eso ayuda al ritmo y a la edición.
+4. En la 6, Sandra mira a cámara.
+5. Vertical 9:16, subtítulos todo el tiempo, cada cifra en pantalla en el segundo exacto en que se dice.
