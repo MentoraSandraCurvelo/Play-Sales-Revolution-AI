@@ -22,7 +22,7 @@ Formato: entrevista rápida. Duración objetivo: entre 50 y 60 segundos editado.
 **En pantalla:** IAE™ · Si no se mide, es un juguete.
 
 ## 4 · ¿Y qué hago con las horas?
-**Sandra:** "¿Recuperaste las horas? ¿Y ahora qué haces con ellas? Si no decides en qué se invierten, se pierden en reuniones. Yo diseño con cada área en qué se van a usar, para que se vean donde importa: en la plata que gana la empresa."
+**Sandra:** "¿Recuperaste las horas? ¿Y ahora qué haces con ellas? Si no decides en qué se invierten, se pierden en reuniones. Yo diseño con cada área en qué se van a usar, para que se vean donde importa: en el dinero que gana la empresa."
 **En pantalla:** Horas que no se planean, se pierden en reuniones.
 
 ## 5 · En lo público (B-roll del tablero, 6 a 8 segundos)

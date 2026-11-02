@@ -1,7 +1,7 @@
 # Sandra sin rodeos · La cruda realidad de Claude
 ## Banco de episodios: beneficios de la IA para directivos
 
-Formato: Giovanni pregunta, Sandra responde. Cada episodio toma un beneficio concreto de la IA (horas, plata, logística, crecimiento, atención) y lo aterriza con una referencia real: el Gobierno de Colombia, grandes empresas y el caso medido de Sandra.
+Formato: Giovanni pregunta, Sandra responde. Cada episodio toma un beneficio concreto de la IA (horas, dinero, logística, crecimiento, atención) y lo aterriza con una referencia real: el Gobierno de Colombia, grandes empresas y el caso medido de Sandra.
 Audiencia: presidentes, juntas directivas, directivos y líderes de proceso. Objetivo: que piensen "quiero contratar a Sandra".
 
 > Reglas fijas:
@@ -51,7 +51,7 @@ Y aquí viene lo que nadie te dice: el Gobierno va a formar personas. Pero nadie
 
 **Sandra:**
 Ese es exactamente el problema. En Colombia, 66 de cada 100 empresas ya usan IA.
-¿Sabes cuántas pueden demostrar que les está dando plata? 12.
+¿Sabes cuántas pueden demostrar que les está dando dinero? 12.
 O sea, la mayoría está pagando licencias y no sabe qué le devuelven.
 Y no es un problema colombiano: en el mundo, casi 9 de cada 10 empresas usan IA y solo 4 de cada 10 ven impacto en sus utilidades.
 La diferencia entre las que ganan y las que no es una sola: miden.
@@ -79,29 +79,29 @@ Ahora haz la cuenta en tu empresa: ¿cuántas personas tienes haciendo trabajo q
 
 ---
 
-## Ep. 4 · Plata
-**Giovanni:** "Las horas suenan bonito, pero a un presidente le importa la plata. ¿Cuánta plata es?"
+## Ep. 4 · Dinero
+**Giovanni:** "Las horas suenan bonito, pero a un presidente le importa el dinero. ¿Cuánto dinero es?"
 **Texto en pantalla:** $255 millones. Y es el piso.
 
 **Sandra:**
 255 millones de pesos al año.
 Y escucha bien: eso está calculado con la tarifa hora más baja de la empresa. Es el piso, no el techo.
-Cada semana que una empresa no hace esto, esa plata se va en gente capaz haciendo trabajo de máquina.
+Cada semana que una empresa no hace esto, ese dinero se va en gente capaz haciendo trabajo de máquina.
 Esto no es un tema del área de tecnología. Es una decisión de presidencia.
 
-**Remate en pantalla:** Es la plata que hoy estás dejando sobre la mesa.
+**Remate en pantalla:** Es el dinero que hoy estás dejando sobre la mesa.
 **Llamado a la acción:** Envíaselo a tu director financiero.
 **Fuente para el caption:** Medición propia IAM™, valor de las horas recuperadas a la tarifa hora más baja, proyectado a 12 meses.
 
 ---
 
 ## Ep. 5 · Logística
-**Giovanni:** "¿Y en logística? Porque ahí es donde se va la plata: camiones, rutas, bodegas."
-**Texto en pantalla:** Tu logística está botando plata en cada kilómetro.
+**Giovanni:** "¿Y en logística? Porque ahí es donde se va el dinero: camiones, rutas, bodegas."
+**Texto en pantalla:** Tu logística está botando dinero en cada kilómetro.
 
 **Sandra:**
 Ahí es donde más rápido se ve.
-La IA cruza los datos de tus rutas, tus entregas y tus vehículos, y te dice dónde estás perdiendo plata por kilómetro, por hora y por camión.
+La IA cruza los datos de tus rutas, tus entregas y tus vehículos, y te dice dónde estás perdiendo dinero por kilómetro, por hora y por camión.
 Planeación de rutas, inventario que no se queda quieto en bodega, despachos que salen completos.
 Y lo más importante: el jefe de logística deja de apagar incendios en Excel y empieza a tomar decisiones con datos del día.
 La pregunta no es si la IA sirve en logística. Es cuánto te está costando cada mes que no la usas.

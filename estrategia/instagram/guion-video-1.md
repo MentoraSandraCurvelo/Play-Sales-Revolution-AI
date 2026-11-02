@@ -14,7 +14,7 @@ Duración: unos 80 segundos editado. Si pasa de 90, se parte en 2 Reels: Parte 1
 **En pantalla:** SANDRA SIN RODEOS · Ep. 1 · Lo que nadie te cuenta de Claude.
 **Sandra:** "¿Todo el mundo en Instagram muestra tableros bonitos con Claude? ¿Sabes qué no te están contando? Que un tablero no es un sistema. Y que Claude no es gratis."
 
-## 2 · La plata
+## 2 · El dinero
 **Sandra:** "¿Cuánto cuesta de verdad? Para trabajar en serio, entre 20 y 200 dólares al mes por persona, según el plan. Ahora multiplícalo por tu equipo. Si no sabes qué te devuelve, eso es un gasto, no una inversión."
 **En pantalla:** Entre 20 y 200 dólares al mes por persona.
 
@@ -31,7 +31,7 @@ Duración: unos 80 segundos editado. Si pasa de 90, se parte en 2 Reels: Parte 1
 "¿Por qué una empresa debería trabajar con Claude? Te doy 6 índices.
 Horas: menos horas perdidas en tareas repetitivas.
 Personas: el mismo equipo hace más, sin tener que contratar.
-Plata: menos costo operativo cada mes.
+Dinero: menos costo operativo cada mes.
 Tiempo: lo que tomaba días sale en minutos.
 Facilidad: tu equipo no tiene que ser experto en tecnología para usarlo.
 Decisiones: información lista para decidir hoy, no la próxima semana.
@@ -42,7 +42,7 @@ Comenta CLAUDE y te envío más información."
 **En pantalla, un índice por golpe:**
 ⏱ HORAS · menos horas en tareas repetitivas
 👥 PERSONAS · más resultados con el mismo equipo
-💰 PLATA · menos costo operativo
+💰 DINERO · menos costo operativo
 ⚡ TIEMPO · de días a minutos
 🤝 FACILIDAD · sin ser experto en tecnología
 🎯 DECISIONES · información lista hoy

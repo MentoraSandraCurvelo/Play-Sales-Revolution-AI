@@ -1,0 +1,221 @@
+<title>Teleprompter IA sin rodeos</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: estudio de grabación. Fondo negro fijo (un solo look, como un teleprompter real),
+   barra de control abajo, línea guía de lectura a un tercio de la pantalla, rojo IAM como único acento. */
+:root{
+  --ink:#0b0909; --panel:#151212; --line:#2a2424;
+  --text:#f5f1ee; --mute:#9b918d; --q:#ff4d4d; --red:#c00000;
+  --f-read:"Montserrat","Helvetica Neue",Arial,sans-serif;
+  --f-ui:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --size:56px; --guide:34%;
+  color-scheme:dark;
+}
+html,body{height:100%}
+body{background:var(--ink);color:var(--text);font-family:var(--f-read);overflow:hidden}
+*{box-sizing:border-box}
+
+/* Cabecera */
+header{position:fixed;left:0;right:0;top:0;z-index:5;
+  padding-top:calc(10px + env(safe-area-inset-top,0px));padding-bottom:10px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;
+  background:linear-gradient(var(--ink) 70%,transparent)}
+.brand{font-weight:800;font-size:15px;letter-spacing:.08em;display:flex;align-items:center;gap:8px}
+.ring{width:12px;height:12px;border-radius:50%;border:3px solid var(--red);flex:none}
+.brand small{font-weight:500;color:var(--mute);letter-spacing:.02em;font-size:13px}
+.eps{display:flex;gap:6px;margin-left:auto}
+.ep{font:500 13px var(--f-ui);color:var(--mute);background:transparent;border:1px solid var(--line);
+  padding:7px 12px;border-radius:999px;cursor:pointer}
+.ep[aria-pressed="true"]{color:var(--text);border-color:var(--red);background:#2a0d0d}
+
+/* Zona de lectura */
+#viewport{position:fixed;inset:0;overflow-y:auto;scrollbar-width:none;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+#viewport::-webkit-scrollbar{display:none}
+#script{max-width:1100px;margin:0 auto;padding-top:var(--guide);padding-bottom:75vh;
+  font-size:var(--size);line-height:1.38;font-weight:700;text-wrap:pretty}
+#script.mirror{transform:scaleX(-1)}
+.ep-title{font-size:.5em;color:var(--mute);font-weight:500;letter-spacing:.04em;margin:0 0 .4em}
+.ep-title b{color:var(--q);font-weight:800}
+.block{margin:0 0 1.3em}
+.tag{font:500 .3em var(--f-ui);color:var(--mute);letter-spacing:.14em;text-transform:uppercase;margin:0 0 .5em}
+.q{color:var(--q)}
+.a{color:var(--text)}
+.dir{display:block;font-size:.42em;color:var(--mute);font-weight:500;font-style:italic;margin:.3em 0}
+.hit{background:linear-gradient(transparent 62%,rgba(192,0,0,.55) 62%)}
+.end{font-size:.45em;color:var(--mute);font-weight:500;text-align:center;padding-top:1em;border-top:1px solid var(--line)}
+
+/* Línea guía */
+#guide{position:fixed;left:0;right:0;top:var(--guide);height:0;z-index:3;pointer-events:none;
+  border-top:2px solid rgba(192,0,0,.75)}
+#guide::before,#guide::after{content:"";position:absolute;top:-9px;border:8px solid transparent}
+#guide::before{left:max(4px,env(safe-area-inset-left,0px));border-left:12px solid var(--red)}
+#guide::after{right:max(4px,env(safe-area-inset-right,0px));border-right:12px solid var(--red)}
+#fadeTop{position:fixed;left:0;right:0;top:0;height:calc(var(--guide) - 10px);z-index:2;pointer-events:none;
+  background:linear-gradient(var(--ink) 30%,rgba(11,9,9,.55))}
+
+/* Controles */
+#bar{position:fixed;left:0;right:0;bottom:0;z-index:6;background:var(--panel);border-top:1px solid var(--line);
+  padding-top:10px;padding-bottom:calc(10px + env(safe-area-inset-bottom,0px));
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;font-family:var(--f-ui);font-size:13px;color:var(--mute)}
+#bar button{font:500 14px var(--f-ui);color:var(--text);background:#211c1c;border:1px solid var(--line);
+  border-radius:8px;padding:9px 14px;cursor:pointer;min-width:44px}
+#bar button:hover{border-color:var(--red)}
+#bar button:focus-visible,.ep:focus-visible{outline:2px solid var(--q);outline-offset:2px}
+#play{background:var(--red)!important;border-color:var(--red)!important;min-width:110px!important;font-weight:500}
+.ctl{display:flex;align-items:center;gap:8px}
+.ctl input{accent-color:var(--red);width:120px}
+.val{color:var(--text);min-width:3ch;font-variant-numeric:tabular-nums}
+#prog{flex:1 1 120px;height:4px;background:var(--line);border-radius:4px;overflow:hidden;min-width:80px}
+#prog i{display:block;height:100%;width:0;background:var(--red)}
+.hint{width:100%;font-size:11.5px;color:#6f6663}
+@media (max-width:640px){.ctl input{width:84px}.hint{display:none}.brand small{display:none}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<header>
+  <div class="brand"><span class="ring"></span>IA SIN RODEOS <small>con Sandra Curvelo</small></div>
+  <div class="eps" role="group" aria-label="Episodio">
+    <button class="ep" id="ep1" aria-pressed="true" type="button">Ep. 1</button>
+    <button class="ep" id="ep2" aria-pressed="false" type="button">Ep. 2</button>
+  </div>
+</header>
+
+<div id="viewport"><div id="script"></div></div>
+<div id="fadeTop"></div>
+<div id="guide" aria-hidden="true"></div>
+
+<div id="bar">
+  <button id="play" type="button">▶ Iniciar</button>
+  <button id="restart" type="button" title="Volver al inicio">⟲</button>
+  <div class="ctl"><label for="speed">Velocidad</label><input id="speed" type="range" min="1" max="10" step="1" value="3"><span class="val" id="speedV">3</span></div>
+  <div class="ctl"><button id="smaller" type="button" aria-label="Letra más pequeña">A−</button><span class="val" id="sizeV">56</span><button id="bigger" type="button" aria-label="Letra más grande">A+</button></div>
+  <button id="mirror" type="button" aria-pressed="false">Espejo</button>
+  <button id="full" type="button">Pantalla completa</button>
+  <div id="prog" aria-hidden="true"><i></i></div>
+  <div class="hint">Teclado: espacio inicia o pausa · flechas ↑ ↓ velocidad · + y − tamaño de letra · toca el texto para pausar</div>
+</div>
+
+<script>
+(function(){
+  // ---------- Guiones ----------
+  // q = pregunta (rojo), a = respuesta (blanco), d = indicación de dirección (gris, no se lee)
+  const EPS = {
+    ep1: {
+      title: 'Ep. 1 · <b>Lo que nadie te cuenta de Claude</b>',
+      blocks: [
+        {tag:'Gancho', q:'¿Todo el mundo en Instagram muestra tableros bonitos con Claude? ¿Sabes qué no te están contando?', a:'Que un tablero no es un sistema. <span class="hit">Y que Claude no es gratis.</span>'},
+        {tag:'El dinero', q:'¿Cuánto cuesta de verdad?', a:'Para trabajar en serio, entre 20 y 200 dólares al mes por persona, según el plan. Ahora multiplícalo por tu equipo. Si no sabes qué te devuelve, eso es <span class="hit">un gasto, no una inversión.</span>'},
+        {tag:'El sistema', q:'¿Y entonces qué es lo que sí sirve?', d:'Cuenta con los dedos', a:'El sistema. Un proyecto es una carpeta con contexto donde tú le preguntas. Un agente trabaja solo. Yo tengo una agente que arma las actas de todas las reuniones del día y las deja listas a las 8 de la mañana. Las habilidades le enseñan a trabajar como trabaja tu empresa, y los plugins lo conectan a tu correo, tu Drive y tu Slack. Eso no es un chat. <span class="hit">Es un equipo.</span>'},
+        {tag:'Lo que gana una empresa', q:'¿Y cuánto gana una empresa con eso?', a:'En una caja de compensación muy grande en Colombia: 140 horas cada semana. 255 millones de pesos al año. Y lo mido con mi Índice de Inteligencia Artificial Empresarial, el IAE. Casi nadie está midiendo esto. Y <span class="hit">lo que no se mide no se puede mejorar.</span>'},
+        {tag:'Cierre · los 6 índices', q:'¿Por qué una empresa debería trabajar con Claude?', d:'A cámara · un dedo por índice · ritmo rápido', a:'Te doy 6 índices.<br>Horas: menos horas perdidas en tareas repetitivas.<br>Personas: el mismo equipo hace más, sin tener que contratar.<br>Dinero: menos costo operativo cada mes.<br>Tiempo: lo que tomaba días sale en minutos.<br>Facilidad: tu equipo no tiene que ser experto en tecnología para usarlo.<br>Decisiones: información lista para decidir hoy, no la próxima semana.<br>Cada empresa tiene su propio número.<br>Y tu competencia ya lo está midiendo. <span class="hit">¿Y tú?</span><br>Comenta CLAUDE y te envío más información.'}
+      ]
+    },
+    ep2: {
+      title: 'Ep. 2 · <b>Tablero bonito, proceso roto</b>',
+      blocks: [
+        {tag:'Gancho', q:'¿Tu equipo ya usa IA? ¿Le mete un documento y le pide un resumen?', a:'Entonces no usa IA. <span class="hit">Usa un atajo.</span>'},
+        {tag:'El humo', q:'¿Y esas empresas con tableros espectaculares?', a:'Pregúntales cómo es el proceso detrás. No saben. Y si tu proceso está roto, la IA no lo arregla. <span class="hit">Lo amplifica.</span>'},
+        {tag:'El índice', q:'¿Cómo sabes si estás vendiendo humo?', a:'Midiendo. Por eso creé el IAE: no mide licencias, mide lo que la IA te devuelve. Si no se mide, no es un sistema. <span class="hit">Es un juguete.</span>'},
+        {tag:'Las horas', q:'¿Recuperaste las horas? ¿Y ahora qué haces con ellas?', a:'Si no decides en qué se invierten, se pierden en reuniones. Yo diseño con cada área en qué se van a usar, para que se vean donde importa: <span class="hit">en el dinero que gana la empresa.</span>'},
+        {tag:'En lo público', q:'¿Y en el sector público?', d:'Voz en off sobre el tablero', a:'Ahí cada hora liberada es <span class="hit">una hora más de atención al ciudadano.</span> Así funciona un tablero para una alcaldía: cada área lo alimenta, y el ciudadano ve en tiempo real cómo avanza cada proyecto.'},
+        {tag:'Cierre', q:'¿Y después qué viene?', d:'A cámara · baja un poco la voz', a:'Conectar todos los tableros de la organización. Eso se llama <span class="hit">hiperconectividad.</span> Y te lo cuento en el próximo episodio.'}
+      ]
+    }
+  };
+
+  const $ = id => document.getElementById(id);
+  const vp = $('viewport'), sc = $('script'), playBtn = $('play');
+  const store = {
+    get(k,d){ try{ const v = localStorage.getItem('tp-'+k); return v===null ? d : JSON.parse(v);}catch(e){ return d; } },
+    set(k,v){ try{ localStorage.setItem('tp-'+k, JSON.stringify(v)); }catch(e){} }
+  };
+
+  let ep = store.get('ep','ep1'); if(!EPS[ep]) ep='ep1';
+  let size = store.get('size',56), speed = store.get('speed',3), mirror = store.get('mirror',false);
+  let playing = false, last = 0, acc = 0, wake = null;
+
+  function render(){
+    const e = EPS[ep];
+    sc.innerHTML = '<p class="ep-title">' + e.title + '</p>' + e.blocks.map(b =>
+      '<div class="block"><p class="tag">' + b.tag + '</p>' +
+      '<p class="q">' + b.q + '</p>' +
+      (b.d ? '<span class="dir">(' + b.d + ')</span>' : '') +
+      '<p class="a">' + b.a + '</p></div>').join('') +
+      '<p class="end">Fin del episodio · ⟲ para repetir la toma</p>';
+    ['ep1','ep2'].forEach(k => $(k).setAttribute('aria-pressed', String(k===ep)));
+    vp.scrollTop = 0; updateProg();
+  }
+  function applySize(){
+    size = Math.max(28, Math.min(120, size));
+    document.documentElement.style.setProperty('--size', size+'px');
+    $('sizeV').textContent = size; store.set('size', size);
+  }
+  function applySpeed(){
+    speed = Math.max(1, Math.min(10, speed));
+    $('speed').value = speed; $('speedV').textContent = speed; store.set('speed', speed);
+  }
+  function applyMirror(){
+    sc.classList.toggle('mirror', mirror);
+    $('mirror').setAttribute('aria-pressed', String(mirror)); store.set('mirror', mirror);
+  }
+  function updateProg(){
+    const max = vp.scrollHeight - vp.clientHeight;
+    $('prog').firstElementChild.style.width = (max>0 ? vp.scrollTop/max*100 : 0) + '%';
+  }
+  async function lockScreen(on){
+    try{
+      if(on && 'wakeLock' in navigator){ wake = await navigator.wakeLock.request('screen'); }
+      else if(!on && wake){ await wake.release(); wake = null; }
+    }catch(e){}
+  }
+  function setPlaying(on){
+    playing = on; playBtn.textContent = on ? '❚❚ Pausa' : '▶ Iniciar';
+    lockScreen(on);
+    if(on){ last = performance.now(); acc = 0; requestAnimationFrame(tick); }
+  }
+  function tick(t){
+    if(!playing) return;
+    const dt = (t - last)/1000; last = t;
+    // velocidad en píxeles por segundo, proporcional al tamaño de letra
+    acc += dt * speed * size * 0.22;
+    const step = Math.floor(acc);
+    if(step){ vp.scrollTop += step; acc -= step; }
+    updateProg();
+    if(vp.scrollTop + vp.clientHeight >= vp.scrollHeight - 2){ setPlaying(false); return; }
+    requestAnimationFrame(tick);
+  }
+
+  playBtn.onclick = () => setPlaying(!playing);
+  $('restart').onclick = () => { setPlaying(false); vp.scrollTop = 0; updateProg(); };
+  $('speed').oninput = e => { speed = +e.target.value; applySpeed(); };
+  $('bigger').onclick = () => { size += 4; applySize(); };
+  $('smaller').onclick = () => { size -= 4; applySize(); };
+  $('mirror').onclick = () => { mirror = !mirror; applyMirror(); };
+  $('full').onclick = () => {
+    try{
+      if(document.fullscreenElement) document.exitFullscreen();
+      else document.documentElement.requestFullscreen().catch(()=>{});
+    }catch(e){}
+  };
+  ['ep1','ep2'].forEach(k => $(k).onclick = () => { setPlaying(false); ep = k; store.set('ep', ep); render(); });
+  sc.addEventListener('click', () => setPlaying(!playing));
+  vp.addEventListener('scroll', updateProg, {passive:true});
+  document.addEventListener('keydown', e => {
+    if(e.target.tagName === 'INPUT') return;
+    if(e.code === 'Space'){ e.preventDefault(); setPlaying(!playing); }
+    else if(e.key === 'ArrowUp'){ e.preventDefault(); speed++; applySpeed(); }
+    else if(e.key === 'ArrowDown'){ e.preventDefault(); speed--; applySpeed(); }
+    else if(e.key === '+' || e.key === '='){ size += 4; applySize(); }
+    else if(e.key === '-'){ size -= 4; applySize(); }
+  });
+  document.addEventListener('visibilitychange', () => { if(document.visibilityState==='visible' && playing) lockScreen(true); });
+
+  applySize(); applySpeed(); applyMirror(); render();
+})();
+</script>

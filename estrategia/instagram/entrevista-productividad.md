@@ -84,17 +84,17 @@ Comprar licencias no es estrategia. Medir sí.
 ---
 
 ## Ep. 5
-**Giovanni:** "¿Cuánta plata está botando una empresa por no hacer esto?"
+**Giovanni:** "¿Cuánto dinero está botando una empresa por no hacer esto?"
 **Texto en pantalla:** $255 millones. Y es el piso.
 
 **Sandra:**
 En este caso, 255 millones de pesos al año.
 Y escucha bien: eso es calculado con la tarifa hora más baja de la empresa. Es el piso.
-Cada semana que no lo haces, esa plata se va en gente capaz haciendo trabajo de máquina.
+Cada semana que no lo haces, ese dinero se va en gente capaz haciendo trabajo de máquina.
 Esto no es un tema del área de tecnología. Es una decisión de presidencia.
-La IA no es un gasto. Es la plata que hoy estás dejando sobre la mesa.
+La IA no es un gasto. Es el dinero que hoy estás dejando sobre la mesa.
 
-**Remate en pantalla:** Es la plata que hoy estás dejando sobre la mesa.
+**Remate en pantalla:** Es el dinero que hoy estás dejando sobre la mesa.
 **Llamado a la acción:** Envíaselo a tu presidente o a tu director financiero.
 
 ---
