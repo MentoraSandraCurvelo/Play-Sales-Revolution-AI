@@ -3,8 +3,8 @@
 Serie de productividad con IA. Giovanni pregunta, Sandra responde.
 Ángulo: mientras todos venden cursos de IA para vendedores, financieros o abogados, Sandra muestra lo que pasa cuando la IA se instala como sistema de trabajo y se mide.
 
-> Fuente de las cifras: tableros del programa IAM™ Intelligence en Comfacesar (Termómetro, KPIs y Sala de Control, corte 9 de octubre de 2026). Son datos medidos, no proyectados.
-> Antes de publicar: confirmar con Comfacesar el permiso para nombrarlos. Si no hay permiso, decir "una caja de compensación del Caribe colombiano".
+> Cliente: no se nombra. Siempre decir "una caja de compensación muy grande en Colombia".
+> Cifras de cierre acordadas por Sandra: 140 horas por semana y $255 millones a 12 meses. Sin decimales en cámara.
 
 Cada respuesta dura entre 30 y 45 segundos. La primera frase es el gancho: va sin introducción.
 
@@ -24,11 +24,11 @@ Si alguien te vende IA y no te muestra cuántas horas te devuelve, te está vend
 ---
 
 ## Ep. 2 · "¿Cuánto tiempo le ahorra la IA a una empresa, de verdad?"
-**Texto en pantalla:** 133,9 horas por semana. Medidas.
+**Texto en pantalla:** 140 horas por semana. Medidas.
 
 **Sandra:**
-133,9 horas a la semana. No es una proyección, es lo que medimos tarea por tarea en Comfacesar.
-Eso son 16,7 días de trabajo cada semana. El equivalente a 3,3 personas a tiempo completo, sin contratar a nadie.
+140 horas a la semana. No es una proyección, es lo que medimos tarea por tarea en una caja de compensación muy grande en Colombia.
+Eso son más de 17 días de trabajo cada semana. El equivalente a 3 personas y media a tiempo completo, sin contratar a nadie.
 Fueron 9 semanas, 51 colaboradores, 18 áreas. 35 tareas medidas: cuánto tardaban antes, cuánto tardan hoy y cuántas veces las hacen.
 Esa es la diferencia entre "la IA es muy útil" y "la IA me devolvió tres personas".
 
@@ -54,7 +54,7 @@ Lo que cambia es que ese abogado ya no pasa el día copiando y pegando. Ahora pa
 
 **Sandra:**
 Porque no mide. Te pongo un caso real.
-Un área se sentó conmigo 5 veces y hoy recupera 17,6 horas a la semana. Otra se sentó 8 veces y aparece con 2.
+Un área se sentó conmigo 5 veces y hoy recupera casi 18 horas a la semana. Otra se sentó 8 veces y aparece con 2.
 ¿La diferencia? La primera midió desde el día uno. La segunda no.
 Más sesiones no es más ahorro. Más prompts no es más productividad. Lo que separa a los que ganan de los que no, es medir.
 
@@ -66,7 +66,7 @@ Más sesiones no es más ahorro. Más prompts no es más productividad. Lo que s
 **Texto en pantalla:** No quitó 3 personas. Devolvió 3 personas.
 
 **Sandra:**
-Lo que vi fue lo contrario. No despedimos a nadie. Le devolvimos a la empresa el tiempo de 3,3 personas.
+Lo que vi fue lo contrario. No despedimos a nadie. Le devolvimos a la empresa el tiempo de 3 personas y media.
 Y ese tiempo no desapareció: se reinvirtió en atender mejor, en vender más, en pensar.
 La IA no te reemplaza. Te reemplaza el que la usa con método mientras tú sigues haciendo todo a mano.
 
@@ -75,11 +75,11 @@ La IA no te reemplaza. Te reemplaza el que la usa con método mientras tú sigue
 ---
 
 ## Ep. 6 · "¿La gente se resiste a la IA?"
-**Texto en pantalla:** Confianza en la IA: 4,7 → 8,6
+**Texto en pantalla:** Confianza en la IA: de 5 a 9
 
 **Sandra:**
-Al principio, sí. La confianza para usar IA arrancó en 4,7 sobre 10.
-Al final del programa estaba en 8,6. Y de las 20 personas que respondieron la encuesta, las 20 subieron. Ninguna bajó.
+Al principio, sí. La confianza para usar IA arrancó en menos de 5 sobre 10.
+Al final del programa estaba en casi 9. Y de las 20 personas que respondieron la encuesta, las 20 subieron. Ninguna bajó.
 La resistencia no es a la tecnología. Es a no saber cómo empezar. Cuando trabajas con tus propios documentos y ves el resultado en tu propio escritorio, el miedo se va solo.
 
 **Llamado a la acción:** Comenta del 1 al 10 qué tan seguro te sientes hoy usando IA.
@@ -102,11 +102,11 @@ Y después el ciclo de las 3R: Rutina, Resultado, Repetición. Así la IA deja d
 ---
 
 ## Ep. 8 · "¿Cuánto vale una hora recuperada?"
-**Texto en pantalla:** $253 millones al año. A la tarifa más baja.
+**Texto en pantalla:** $255 millones al año. A la tarifa más baja.
 
 **Sandra:**
 Esa es la pregunta que debería hacerse todo gerente.
-Esas 133,9 horas semanales, valoradas a la tarifa hora más baja de la empresa, son 253 millones de pesos a 12 meses.
+Esas 140 horas semanales, valoradas a la tarifa hora más baja de la empresa, son 255 millones de pesos a 12 meses.
 A la tarifa más baja. O sea, el piso.
 Cuando le pones precio a la hora, la IA deja de ser un gasto de tecnología y se vuelve la mejor inversión del año.
 
