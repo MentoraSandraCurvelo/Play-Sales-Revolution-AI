@@ -2,6 +2,7 @@
 
 Serie de productividad con IA. Giovanni pregunta como un escéptico que pone a prueba a Sandra; ella responde de frente.
 Ángulo: mientras todos venden cursos de IA, Sandra muestra lo que pasa cuando la IA se instala como sistema de trabajo y se mide.
+Audiencia: presidentes, juntas directivas, gerentes generales, directivos y líderes de proceso. El objetivo es que al terminar el video piensen: "quiero contratar a Sandra".
 
 > Cliente: no se nombra. Siempre decir "una caja de compensación muy grande en Colombia".
 > Cifras de cierre acordadas por Sandra: 140 horas por semana y $255 millones a 12 meses. Sin decimales en cámara.
@@ -43,10 +44,10 @@ Yo no doy cursos. Yo instalo sistemas. Y los mido.
 140 horas. Cada semana.
 Medidas tarea por tarea en una caja de compensación muy grande en Colombia.
 Eso es el trabajo de 3 personas y media. Sin contratar a nadie. Sin despedir a nadie.
-Ahora piensa en tu empresa: ¿cuántas personas tienes haciendo trabajo que una máquina hace en minutos?
+Si eres presidente de una empresa, hazte una sola pregunta: ¿cuántos sueldos estás pagando por trabajo que una máquina hace en minutos?
 
 **Remate en pantalla:** 3 personas y media. Sin contratar a nadie.
-**Llamado a la acción:** Envíaselo a tu gerente. Que haga la cuenta.
+**Llamado a la acción:** Envíaselo a tu presidente. Que haga la cuenta.
 
 ---
 
@@ -66,18 +67,18 @@ La diferencia es que ese abogado ya no pasa el día copiando y pegando. Ahora pa
 ---
 
 ## Ep. 4
-**Giovanni:** "Mi equipo usa ChatGPT todo el día y no veo que produzcan más. ¿Qué está pasando?"
-**Texto en pantalla:** Tu equipo usa IA. Y no sirve de nada.
+**Giovanni:** "Un presidente me dice: ya les pagué licencias de IA a todos y no veo resultados. ¿Qué está pasando?"
+**Texto en pantalla:** Pagaste licencias de IA. Y no ves resultados.
 
 **Sandra:**
-Que nadie está midiendo. Te lo pruebo.
+Que nadie en su empresa está midiendo. Te lo pruebo.
 Un área se sentó conmigo 5 veces y hoy recupera casi 18 horas a la semana.
 Otra se sentó 8 veces. ¿Sabes cuánto recupera? 2.
 Más sesiones, menos resultado. ¿La diferencia? La primera midió desde el día uno.
-Usar IA no es lo mismo que ganar con IA.
+Comprar licencias no es estrategia. Medir sí.
 
-**Remate en pantalla:** Usar IA no es lo mismo que ganar con IA.
-**Llamado a la acción:** Envíaselo a tu equipo.
+**Remate en pantalla:** Comprar licencias no es estrategia. Medir sí.
+**Llamado a la acción:** Envíaselo a tu junta directiva.
 
 ---
 
@@ -89,22 +90,24 @@ Usar IA no es lo mismo que ganar con IA.
 En este caso, 255 millones de pesos al año.
 Y escucha bien: eso es calculado con la tarifa hora más baja de la empresa. Es el piso.
 Cada semana que no lo haces, esa plata se va en gente capaz haciendo trabajo de máquina.
-La IA no es un gasto de tecnología. Es la plata que hoy estás dejando sobre la mesa.
+Esto no es un tema del área de tecnología. Es una decisión de presidencia.
+La IA no es un gasto. Es la plata que hoy estás dejando sobre la mesa.
 
 **Remate en pantalla:** Es la plata que hoy estás dejando sobre la mesa.
-**Llamado a la acción:** Envíaselo a tu director financiero.
+**Llamado a la acción:** Envíaselo a tu presidente o a tu director financiero.
 
 ---
 
 ## Ep. 6
-**Giovanni:** "Siendo honestos: ¿la IA va a dejar a mucha gente sin trabajo?"
+**Giovanni:** "Siendo honestos: ¿la IA va a dejar a mucha gente sin trabajo? ¿Incluso a los directivos?"
 **Texto en pantalla:** La IA no te va a quitar el trabajo.
 
 **Sandra:**
 La IA no te va a quitar el trabajo.
 Te lo va a quitar alguien que la usa con método mientras tú sigues haciendo todo a mano.
 En este proyecto no salió nadie. Al contrario: le devolvimos a la empresa el tiempo de 3 personas y media para vender más y atender mejor.
-La pregunta no es si la IA llega a tu cargo. Es si llega primero a ti o a tu competencia.
+Y eso aplica también arriba. El directivo que lidera con IA va a reemplazar al que la delega y se olvida.
+La pregunta no es si la IA llega a tu empresa. Es si llega primero a ti o a tu competencia.
 
 **Remate en pantalla:** ¿Llega primero a ti o a tu competencia?
 **Llamado a la acción:** Comenta "YO" si quieres que llegue primero a ti.
@@ -127,18 +130,19 @@ El miedo no es a la tecnología. Es a no saber por dónde empezar. Cuando ves tu
 ---
 
 ## Ep. 8 · CIERRE DE TEMPORADA
-**Giovanni:** "Ok, me convenciste. Soy gerente. ¿Qué hago mañana a las 8 de la mañana?"
-**Texto en pantalla:** Mañana a las 8. 3 pasos.
+**Giovanni:** "Ok, me convenciste. Soy presidente de una empresa. ¿Qué hago el lunes a las 8 de la mañana?"
+**Texto en pantalla:** Presidente: el lunes a las 8. 3 pasos.
 
 **Sandra:**
 No compres un curso para 200 personas. Ese es el error más caro.
-Uno: escoge el proceso que más horas le roba a tu equipo.
-Dos: mide cuánto tarda hoy, en minutos.
-Tres: métele IA y vuelve a medir.
+Uno: reúne a tus líderes de proceso y pídeles el proceso que más horas les roba.
+Dos: exige que lo midan hoy, en minutos.
+Tres: que le metan IA y te traigan el número de vuelta.
+La IA no se delega al área de sistemas. Se lidera desde la presidencia.
 Un proceso, un número, un resultado. Así arranqué con una empresa que hoy recupera 140 horas cada semana.
 
 **Remate en pantalla:** Un proceso. Un número. Un resultado.
-**Llamado a la acción:** Comenta "SISTEMA" y te escribo para contarte cómo lo hacemos en tu empresa.
+**Llamado a la acción:** Si eres presidente, directivo o líder de proceso, comenta "SISTEMA" y te escribo para contarte cómo lo hacemos en tu empresa.
 
 ---
 
