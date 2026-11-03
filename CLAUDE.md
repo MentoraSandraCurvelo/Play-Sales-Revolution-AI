@@ -8,6 +8,8 @@ Todo lo que salga visual (tableros, mesas, reportes, páginas, presentaciones, p
 - Un avatar de Isaía que camina de un lado a otro y va diciendo los hallazgos clave en un globo de texto.
 - Identidad IAM™: anillo ⭕ y rojo IAM como acento.
 - Respetar a quien desactiva animaciones (prefers-reduced-motion) y no inventar cifras: todo sale de datos reales, con fecha de corte.
+- Tipografía de contraste (aprobada por Sandra, siempre así): títulos grandes en serif blanco con la segunda frase en degradado rojo IAM → ámbar; etiquetas y cifras en letra monoespaciada en mayúsculas con espaciado amplio; texto de apoyo en gris claro con lo clave en blanco negrita. Fondo casi negro.
+- Fotos: usar fotos reales de Sandra de Dropbox ("/Fotos Profesionales" y "/2-Contenido/Mujer radiante", las de escenario con traje rojo). Evitar fotos donde aparezcan otras personas reconocibles sin su permiso.
 - Antes de entregar, revisar el diseño completo una vez más contra esta lista.
 
 ## Idioma y tono

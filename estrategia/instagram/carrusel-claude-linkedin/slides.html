@@ -1,0 +1,91 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#000;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
+.s{width:1080px;height:1350px;position:relative;overflow:hidden;color:#e9eef3;
+ background:radial-gradient(900px 600px at 15% 0%,#15263a 0,transparent 60%),radial-gradient(800px 600px at 100% 100%,#2a0b0e 0,transparent 60%),#05070a}
+.mono{font-family:Menlo,"DejaVu Sans Mono",monospace}
+.tape{position:absolute;top:0;left:0;right:0;height:64px;display:flex;align-items:center;gap:34px;padding:0 48px;background:#07090d;border-bottom:1px solid #1c2632;font-size:21px;white-space:nowrap;letter-spacing:.06em;z-index:3}
+.tape b{color:#e9eef3}.up{color:#19e28b}.dn{color:#ff4d5e}.am{color:#ffb020}
+.brand{position:absolute;bottom:44px;left:56px;right:56px;display:flex;align-items:center;justify-content:space-between;font-size:22px;letter-spacing:.14em;color:#808d9a;z-index:3}
+.ring{display:inline-block;width:26px;height:26px;border-radius:50%;border:5px solid #ff2d2d;box-shadow:0 0 18px #ff2d2d;vertical-align:-5px;margin-right:12px}
+.photo{position:absolute;inset:0;background-size:cover;background-position:center}
+.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,7,10,.92) 0%,rgba(5,7,10,.35) 38%,rgba(5,7,10,.1) 60%,rgba(5,7,10,.85) 100%)}
+.shadeB{position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,7,10,.25) 0%,rgba(5,7,10,.1) 40%,rgba(5,7,10,.92) 72%,#05070a 100%)}
+.eye{font-size:24px;letter-spacing:.24em;color:#ff2d2d;font-weight:800}
+h1{font-family:Georgia,"Times New Roman",serif;font-weight:400;line-height:1.02;letter-spacing:-.01em}
+h1 em{font-style:normal;background:linear-gradient(90deg,#ff2d2d,#ffb020);-webkit-background-clip:text;background-clip:text;color:transparent}
+.pad{position:absolute;left:72px;right:72px;z-index:2}
+.big{font-size:96px}
+.body{font-size:40px;line-height:1.4;color:#c4cfda}
+.body b{color:#fff}
+.card{background:linear-gradient(160deg,#121a24,#0b1016);border:1px solid #233142;border-radius:24px;padding:34px 38px;display:flex;gap:26px;align-items:flex-start}
+.num{font-size:64px;font-weight:700;color:#ff2d2d;line-height:1;min-width:84px}
+.card p{font-size:36px;line-height:1.35;color:#c9d3dc}.card p b{color:#fff;display:block;font-size:40px;margin-bottom:6px}
+.swipe{position:absolute;right:56px;bottom:110px;font-size:26px;letter-spacing:.2em;color:#ffb020;z-index:3}
+.pager{color:#ffb020}
+.cta{display:inline-block;margin-top:34px;padding:22px 34px;border-radius:999px;background:linear-gradient(90deg,#c00000,#7a0f16);border:2px solid #ff2d2d;font-size:36px;font-weight:800;letter-spacing:.08em;color:#fff}
+</style></head><body>
+
+<!-- 1 PORTADA -->
+<section class="s" id="s1">
+  <div class="photo" style="background-image:url('p1.png')"></div><div class="shadeB"></div>
+  <div class="tape mono"><span><b>CLAUDE</b> <span class="up">▲ CONECTADO</span></span><span><b>LINKEDIN</b> <span class="up">▲ ACTIVO</span></span><span><b>APROBACIÓN</b> <span class="am">● SANDRA</span></span></div>
+  <div class="pad" style="bottom:170px"><p class="eye mono">IA SIN RODEOS · CASO REAL</p>
+    <h1 class="big" style="margin-top:22px;font-size:88px">Conecté Claude con mi LinkedIn.<br><em>Nada sale sin mi "sí".</em></h1></div>
+  <div class="swipe mono" style="bottom:112px">DESLIZA →</div>
+  <div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">1/6</span></div>
+</section>
+
+<!-- 2 PROBLEMA -->
+<section class="s" id="s2">
+  <div class="tape mono"><span><b>HORAS EN LINKEDIN</b> <span class="dn">▼ SE VAN SOLAS</span></span><span><b>CONSTANCIA</b> <span class="dn">▼ IRREGULAR</span></span></div>
+  <div class="pad" style="top:200px"><p class="eye mono">EL PROBLEMA</p>
+    <h1 style="font-size:84px;margin-top:22px">LinkedIn vende.<br><em>Pero se come tu agenda.</em></h1>
+    <p class="body" style="margin-top:44px">Publicar, comentar, responder y estar presente todos los días.<br><br>Si lo haces a mano, lo dejas de hacer en la semana más ocupada. <b>Justo cuando más lo necesitas.</b></p></div>
+  <div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">2/6</span></div>
+</section>
+
+<!-- 3 SISTEMA -->
+<section class="s" id="s3">
+  <div class="tape mono"><span><b>SISTEMA</b> <span class="up">▲ EN MARCHA</span></span><span><b>TAREAS</b> <span class="am">3 AUTOMATIZADAS</span></span></div>
+  <div class="pad" style="top:150px"><p class="eye mono">LO QUE HACE HOY MI SISTEMA</p>
+    <h1 style="font-size:72px;margin:22px 0 40px">Claude prepara.<br><em>Yo decido.</em></h1>
+    <div style="display:grid;gap:22px">
+      <div class="card"><span class="num mono">01</span><p><b>Prepara mis publicaciones</b>Con mi voz, mis datos y mi método.</p></div>
+      <div class="card"><span class="num mono">02</span><p><b>Redacta mis comentarios</b>El primero de cada post y los de la conversación.</p></div>
+      <div class="card"><span class="num mono">03</span><p><b>Revisa quién me respondió</b>Para que nadie se quede sin respuesta.</p></div>
+    </div></div>
+  <div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">3/6</span></div>
+</section>
+
+<!-- 4 REGLA -->
+<section class="s" id="s4">
+  <div class="photo" style="background-image:url('p2.png')"></div><div class="shadeB"></div>
+  <div class="tape mono"><span><b>REGLA DE ORO</b> <span class="am">● 100% CON APROBACIÓN</span></span></div>
+  <div class="pad" style="bottom:170px"><p class="eye mono">LA REGLA DE ORO</p>
+    <h1 style="font-size:80px;margin-top:22px">Todo lo que sale a mi nombre <em>necesita mi "sí".</em></h1>
+    <p class="body" style="margin-top:30px">Automatizar no es delegar el criterio.</p></div>
+  <div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">4/6</span></div>
+</section>
+
+<!-- 5 RESULTADO -->
+<section class="s" id="s5">
+  <div class="photo" style="background-image:url('p3.png')"></div><div class="shade" style="background:linear-gradient(180deg,rgba(5,7,10,.94) 0%,rgba(5,7,10,.88) 55%,rgba(5,7,10,.55) 100%)"></div>
+  <div class="tape mono"><span><b>CONSTANCIA</b> <span class="up">▲ DIARIA</span></span><span><b>MI VOZ</b> <span class="up">▲ INTACTA</span></span><span><b>MI TIEMPO</b> <span class="up">▲ DE VUELTA</span></span></div>
+  <div class="pad" style="top:220px"><p class="eye mono">LO QUE GANÉ</p>
+    <h1 style="font-size:96px;margin-top:22px">Constancia<br><em>sin perder mi voz.</em></h1>
+    <p class="body" style="margin-top:44px">LinkedIn premia a quien aparece. El sistema me ayuda a aparecer.<br><br><b>Y yo sigo siendo la que habla.</b></p></div>
+  <div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">5/6</span></div>
+</section>
+
+<!-- 6 CTA -->
+<section class="s" id="s6">
+  <div class="tape mono"><span><b>TU TURNO</b> <span class="am">● COMENTA</span></span></div>
+  <div class="pad" style="top:260px"><p class="eye mono">TU TURNO</p>
+    <h1 style="font-size:88px;margin-top:22px">¿Qué tarea de LinkedIn <em>no soltarías nunca?</em></h1>
+    <p class="body" style="margin-top:40px">Te leo en los comentarios.</p>
+    <span class="cta mono">COMENTA "LINKEDIN" 👇</span>
+    <p class="body" style="margin-top:26px;font-size:32px">y te cuento cómo lo armé.</p></div>
+  <div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">6/6</span></div>
+</section>
+</body></html>
