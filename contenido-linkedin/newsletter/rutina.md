@@ -19,7 +19,7 @@ Cada 15 días, los jueves a las 7:30 a. m. hora Bogotá. Calendario en `plan.md`
 | Martes a viernes | Sandra | Revisa la vista previa y aprueba o pide cambios |
 | Al aprobar | Claude en Chrome | Arma el borrador en el editor de LinkedIn con los archivos de Descargas y manda pantallazos. Si LinkedIn deja programar, lo programa para el jueves 7:30 a. m. |
 | Jueves 7:30 a. m. | Claude en Chrome | Publica (si no quedó programado) |
-| Jueves a domingo | Claude en Chrome | Responde a quien comente la palabra clave y le envía la guía, con los mensajes aprobados por Sandra |
+| Jueves a domingo | Claude en Chrome | Responde a quien comente la palabra clave con el link https://iamlatam.co/guias/ y el mensaje aprobado por Sandra. Respuesta aprobada (ed. 1): "Hola [nombre], aquí está tu guía paso a paso: https://iamlatam.co/guias/ Cuéntame qué parte vas a aplicar primero." Respuestas espaciadas, no en ráfaga |
 
 ## Reglas
 - Sin emojis (regla 13). Solo ⭕.

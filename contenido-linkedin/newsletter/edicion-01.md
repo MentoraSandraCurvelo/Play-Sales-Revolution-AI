@@ -3,8 +3,8 @@ Estado: APROBADO por Sandra el 3 nov 2026 (borrador armado en LinkedIn por Chrom
 Portada: newsletter/edicion-01-banner.jpg
 Imágenes dentro del artículo: ed01-img1-sistema.jpg, ed01-img2-medicion.jpg, ed01-img3-seguridad.jpg
 Video en la mitad: ed01-video-sistema.mp4 (24 s)
-Guía (palabra clave AGENTE): se entrega con el link https://iamlatam.co/guias/ (el PDF está publicado ahí). Respuesta propuesta, pendiente de aprobación de Sandra: "Hola [nombre], aquí está tu guía paso a paso: https://iamlatam.co/guias/ Cuéntame qué parte vas a aplicar primero."
-Borrador en LinkedIn: guardado por Chrome el 3 nov (portada, 3 imágenes y video en su lugar). Propuestas pendientes: flechas de la sección 1 a lista numerada, pies de imagen con las frases de cada marcador, quitar renglones vacíos bajo las imágenes.
+Guía (palabra clave AGENTE): se entrega con el link https://iamlatam.co/guias/ (el PDF está publicado ahí). Respuesta APROBADA por Sandra el 3 nov 2026: "Hola [nombre], aquí está tu guía paso a paso: https://iamlatam.co/guias/ Cuéntame qué parte vas a aplicar primero."
+Borrador en LinkedIn: guardado por Chrome el 3 nov (portada, 3 imágenes y video en su lugar). Ajustes APROBADOS por Sandra el 3 nov y enviados a Chrome: flechas de la sección 1 a lista numerada, pies de imagen con las frases de cada marcador, quitar renglones vacíos bajo las imágenes.
 ---
 ## Título
 Le di las llaves de mi LinkedIn a una IA. Esto es lo que nadie te dice (y lo que nunca le dejo hacer)
