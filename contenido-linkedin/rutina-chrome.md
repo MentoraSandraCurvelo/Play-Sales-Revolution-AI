@@ -14,6 +14,7 @@ PARTE 1 · Mis publicaciones (sin preguntarme, ya están aprobadas)
    a. Ábrelo. Si no tiene mi "Recomendar", dáselo.
    b. Si todavía no tiene mi primer comentario, publícalo copiando el texto exacto de la página. No cambies ninguna palabra.
    c. Si la página pide otra acción (por ejemplo, etiquetar a alguien editando el post), hazla.
+   d. (Agregado el 3 nov 2026, activo cuando Sandra apruebe el texto fijo) Comparte el post desde la página de empresa IAM™ ("Repostear con tu opinión" como IAM™), con el texto fijo aprobado que aparece en la página de la cola. Solo una vez por post.
 3. No publiques nada que no esté en esa página.
 
 PARTE 2 · Comentarios de visibilidad (con mi aprobación)
