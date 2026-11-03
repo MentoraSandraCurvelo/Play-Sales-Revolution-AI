@@ -110,3 +110,10 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Combinaciones en rotación: 1) fondo blanco con rojo y negro; 2) fondo rojo con blanco; 3) fondo negro con rojo y blanco.
 - Acento ocasional (máximo 1 de cada 4 piezas): amarillo #FFC400, naranja #FF6B00 o azul oscuro #0B1F3A como fondo o detalle, siempre con el rojo presente.
 - Nunca 2 posts seguidos con el mismo fondo. En la newsletter, cada imagen de una misma edición con un fondo distinto.
+
+## 16. Calendario de lunes a domingo, todas las semanas (3 nov 2026, decisión de Sandra)
+
+- Lunes a viernes: 2 posts (7:30 a. m. y 5:30 p. m.). Sábado: 1 post (9:00 a. m.). Domingo: 1 post (5:00 p. m.). Hora Bogotá.
+- Cada jueves Claude arma el calendario completo de la semana siguiente (lunes a domingo) con textos, imágenes y primeros comentarios, para que Sandra lo apruebe el jueves o el viernes. Nada sale sin su sí.
+- Mezcla semanal: casos privados, sector público (sin mezclar en un mismo post), método (IAE™, DIAL-3R™), tableros con datos de ejemplo, historia de Sandra, IA práctica, fin de semana más cercano.
+- Colores en rotación (regla 15).

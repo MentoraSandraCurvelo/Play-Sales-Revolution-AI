@@ -1,0 +1,20 @@
+{
+  "id": "vie-06",
+  "estado": "pendiente",
+  "programado_bogota": "2026-11-06 07:30",
+  "imagen": "contenido-linkedin/imagenes/vie-06-iae.jpg",
+  "urn": null,
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "Comprar licencias de IA no es lo mismo que usar la IA.\n\nY usarla no es lo mismo que medir lo que cambió.\n\nEsa es la pregunta que casi nadie se hace en las empresas: ¿cómo sé si la {hashtag|\\#|IA} de verdad está sirviendo?\n\nPor eso creé el IAE™, el Índice de IA Empresarial. Mide 3 cosas:\n\n⭕ Adopción: qué porcentaje del equipo usa la IA en su trabajo real.\n\n⭕ Horas recuperadas: cuánto tarda cada tarea antes y después de la IA, multiplicado por cuántas veces se hace.\n\n⭕ Evolución: se mide desde la semana 1 y se sigue en el tiempo, para ver qué área sube y cuál baja.\n\nCon eso, la conversación con la gerencia cambia. Ya no es \"estamos usando IA\". Es \"recuperamos más de 800 horas al mes\", que fue lo que medimos en un programa con 18 áreas.\n\nLo que no se mide no puede ser mejorado. Y la {hashtag|\\#|IAEmpresarial} no es la excepción.\n\n¿Tu empresa ya mide el impacto de la IA o todavía cuenta solo las licencias?\n\nSi quieres ver cómo se ve un tablero real del IAE™, sígueme: cada semana muestro uno.\n\n{hashtag|\\#|Productividad} {hashtag|\\#|TransformacionDigital} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
+  },
+  "alt": "Comprar IA no es usar IA. Así lo medimos: IAE, Índice de IA Empresarial: adopción, horas recuperadas y evolución."
+}
