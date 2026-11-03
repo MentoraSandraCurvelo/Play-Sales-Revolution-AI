@@ -281,10 +281,8 @@ s8 = slide("antes-hoy", "Antes y hoy", f"""
   <p class="lede">No es un ahorro que ocurrió una vez. Es una hora que vuelve
     <b>cada semana</b>, porque el proceso cambió, no porque alguien corrió más.</p>
   <div class="col" style="gap:22px;flex:1;justify-content:center">
-    {barra("Una semana", f"{ent(P['horas'])} h", 100, 0, cols="260px 1fr 190px")}
-    {barra("Un mes", f"{mil(P['horas'] * 4.33)} h", 100, .2, cols="260px 1fr 190px")}
-    {barra("Un año, 52 semanas", f"{mil(P['horas'] * 52)} h", 100, .4, cols="260px 1fr 190px")}
-  </div>
+  <div class="f1" style="min-width:0"><svg id="acum" viewBox="0 0 1680 372" role="img"
+    aria-label="Horas acumuladas semana a semana durante un año"></svg></div>
   <div class="grid3">
     {tile(f'{mil(P["horas"] * 52)}<small> h</small>', "al año, si nada más cambia", "", .6)}
     {tile(f'{ent(P["horas"] / 44)}', "personas a tiempo completo, sin contratar a nadie", "44 h por semana", .7)}
@@ -694,6 +692,7 @@ function ir(n){
   cuenta(s);
   if(s.id==='indice-3d')arranca3d();else detiene3d();
   if(s.id==='confianza')dibujaConf();
+  if(s.id==='antes-hoy')dibujaAcum();
   try{location.hash=s.id}catch(e){}
 }
 document.getElementById('prev').onclick=()=>ir(cur-1);
@@ -825,6 +824,41 @@ function arranca3d(){
 }
 function detiene3d(){ if(raf){cancelAnimationFrame(raf);raf=0;} }
 
+/* ── la escalera de las 52 semanas ──
+   Cada escalón es una semana que devuelve las mismas horas. La escalera es la
+   forma del dato: no es un ahorro de una vez, es uno que se repite. */
+function dibujaAcum(){
+  const sv=document.getElementById('acum');
+  if(sv.dataset.ok)return;sv.dataset.ok='1';
+  const H=__HORAS__, N=52, TOT=H*N;
+  const L=170,R=1620,T=46,B=296;
+  const x=w=>L+w/N*(R-L), y=h=>B-h/TOT*(B-T);
+  let o='';
+  for(let i=0;i<=4;i++){
+    const v=TOT*i/4;
+    o+='<line x1="'+(L-18)+'" y1="'+y(v)+'" x2="'+R+'" y2="'+y(v)+'" stroke="#2b2b2b" stroke-width="1"/>'
+      +'<text x="'+(L-30)+'" y="'+(y(v)+7)+'" fill="#7c7871" font-size="20" text-anchor="end">'
+      +v.toLocaleString('es-CO',{maximumFractionDigits:0})+'</text>';
+  }
+  let d='M '+x(0)+' '+y(0);
+  for(let w=1;w<=N;w++) d+=' L '+x(w)+' '+y(H*(w-1))+' L '+x(w)+' '+y(H*w);
+  o+='<path d="'+d+' L '+x(N)+' '+B+' L '+x(0)+' '+B+' Z" fill="#ff4a4a" fill-opacity=".15"/>'
+    +'<path d="'+d+'" fill="none" stroke="#ff4a4a" stroke-width="3" stroke-linejoin="round"/>';
+  [[4.33,'Al mes'],[13,'Al trimestre'],[N,'Al año']].forEach(([w,et])=>{
+    const v=H*w, px=x(w), py=y(v);
+    o+='<line x1="'+px+'" y1="'+py+'" x2="'+px+'" y2="'+B+'" stroke="#ff4a4a" stroke-width="1" stroke-dasharray="5 5" opacity=".5"/>'
+      +'<circle cx="'+px+'" cy="'+py+'" r="9" fill="#ff4a4a"/>';
+    /* el último hito toca el techo del gráfico, así que su etiqueta va debajo */
+    const arriba = w<N, ty = arriba ? py-22 : py+34;
+    o+='<text x="'+(px-18)+'" y="'+ty+'" fill="#f4f2ec" font-size="30" font-weight="700" text-anchor="end">'
+      +Math.round(v).toLocaleString('es-CO')+' h</text>'
+      +'<text x="'+(px-18)+'" y="'+(ty+28)+'" fill="#a8a39a" font-size="21" text-anchor="end">'+et+'</text>';
+  });
+  o+='<text x="'+x(0)+'" y="'+(B+32)+'" fill="#7c7871" font-size="20">Semana 1</text>'
+    +'<text x="'+R+'" y="'+(B+32)+'" fill="#7c7871" font-size="20" text-anchor="end">Semana 52</text>';
+  sv.innerHTML=o;
+}
+
 /* ── confianza: las dos medias, y la distribución real del NPS ──
    Solo entran cifras agregadas, que son las que la encuesta dejó.
    No existen las respuestas individuales, así que no se dibuja una por persona. */
@@ -884,7 +918,8 @@ assert round((NPS_DIST["p"] - NPS_DIST["d"]) / P["respuestas_nps"] * 100) == P["
 js = (JS.replace("__DATOS__", datos_js)
       .replace("__ANTES__", repr(ANTES))
       .replace("__DESPUES__", repr(DESPUES))
-      .replace("__NPS__", json.dumps(NPS_DIST)))
+      .replace("__NPS__", json.dumps(NPS_DIST))
+      .replace("__HORAS__", repr(P["horas"])))
 
 HTML = f"""<title>Cierre IAM™ Intelligence Comfacesar</title>
 <meta name="claude:viewport-fit-sides" content="cover">
