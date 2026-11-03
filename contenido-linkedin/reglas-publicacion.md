@@ -74,3 +74,9 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Antes de proponer una foto se revisa que no aparezca nada que identifique a un cliente confidencial: logos en pendones, nombres de archivo en pantallas proyectadas, carnés. Si aparece, se recorta o se difumina, y se le muestra a Sandra la versión editada.
 - No se usan fotos donde un cliente sale en primer plano con su cara reconocible sin autorización, ni fotos personales o familiares.
 - Las fotos aprobadas se guardan en `contenido-linkedin/fotos/` con nombre descriptivo y fecha.
+
+## 10. Conversión a seguidores (3 nov 2026, decisión de Sandra)
+
+- Las métricas del 3 nov mostraron casi 5 veces más impresiones pero solo +8 seguidores en 6 días y 0 seguidores nuevos por post.
+- Todo post nuevo cierra con una invitación a seguir a Sandra, además de la pregunta. Fórmula base, variando las palabras: "Si quieres ver cómo se mide la IA en [tema], sígueme: cada semana muestro un tablero real."
+- La invitación va después de la pregunta y antes de los hashtags. Una sola línea.
