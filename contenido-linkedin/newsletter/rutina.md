@@ -7,7 +7,7 @@ Cada 15 días, los jueves a las 7:30 a. m. hora Bogotá. Calendario en `plan.md`
 2. Título fuerte, sin emojis. Apertura corta en primera persona.
 3. 4 secciones numeradas "Lo que nadie te dice: …", cada una con "La capacidad clave".
 4. Negritas en las frases clave, citas para reglas y prompts, ⭕ como único símbolo, hashtags dentro del texto y al final.
-5. 3 imágenes dentro del artículo, estilo negro y rojo.
+5. 3 imágenes dentro del artículo con colores de marca en rotación (regla 15): cada imagen con un fondo distinto (blanco, rojo, negro, y a veces un acento amarillo, naranja o azul oscuro). Aplica desde la edición 2 (26 nov 2026); la edición 1 se queda en negro.
 6. 1 video en vivo en la mitad: demo grabada de la herramienta o de un tablero real con datos de ejemplo (sector público o empresas). Nunca nombres de clientes ni de entidades.
 7. Prompts listos para copiar, con [corchetes] para lo que cambia el lector.
 8. Conclusión + palabra clave en comentarios a cambio de una guía en PDF + invitación a seguir a Sandra y a la página IAM™.
