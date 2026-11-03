@@ -45,4 +45,4 @@ Lo que no se mide no puede ser mejorado.
 - Especialidades: 20 (las 12 nuevas + Estrategia Comercial, Sales Enablement, Prospección Digital, Sales Coaching, Revenue Strategy, KPI Comercial, Personal Branding, Brand Ambassadors).
 - Portada: banner-pagina-iam-v9.jpg.
 - Sin cambios: sector, tamaño (0-1, correcto), logo.
-- Pendiente de Sandra: decidir si el botón vuelve a WhatsApp (https://wa.link/9223ez).
+- Botón: se queda Calendly (decisión de Sandra, 3 nov 2026: por WhatsApp nadie escribía).
