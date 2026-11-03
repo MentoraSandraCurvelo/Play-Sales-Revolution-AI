@@ -94,3 +94,11 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 
 - No usar emojis en posts, comentarios, newsletter ni imágenes: se ven "típicos de IA". La única excepción es el círculo rojo ⭕, la marca de Sandra.
 - En la newsletter, el formato lo da el editor de LinkedIn: títulos, negritas, citas y listas.
+
+## 14. Mensajes internos y prospección (3 nov 2026, decisión de Sandra)
+
+- Claude en Chrome lee, investiga y redacta los mensajes en el chat de LinkedIn, y los deja SIN ENVIAR. Sandra revisa y hace clic en "Enviar" con su mano. Motivo: el Acuerdo de usuario de LinkedIn prohíbe enviar mensajes con métodos automatizados (verificar en la versión vigente); el perfil es el activo comercial principal.
+- Máximo 10 a 15 mensajes al día (criterio, no límite publicado por LinkedIn).
+- Solo a conexiones ya hechas. Sin enlaces ni venta en el primer mensaje, salvo que Sandra lo apruebe.
+- Paso 1: Chrome analiza en modo solo lectura las últimas 30 conversaciones de prospección de Sandra y entrega su estilo, 5 aperturas anonimizadas ([nombre], [empresa], [cargo]) y cuántas terminaron en reunión.
+- Las plantillas nunca llevan nombres de personas ni de clientes (nunca Comfacesar).
