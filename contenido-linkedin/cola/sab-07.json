@@ -1,0 +1,20 @@
+{
+  "id": "sab-07",
+  "estado": "pendiente",
+  "programado_bogota": "2026-11-07 09:00",
+  "imagen": null,
+  "urn": null,
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "Este fin de semana no te voy a hablar de productividad.\n\nTe voy a hablar de tu tiempo.\n\n5 cosas que le puedes pedir hoy a una {hashtag|\\#|IA}, sin ser experto:\n\n⭕ \"Con lo que tengo en la nevera: \\[lista\\], dame 3 recetas de menos de 30 minutos.\"\n\n⭕ \"Organízame un plan de domingo con mis hijos de \\[edad\\] en \\[ciudad\\], con un presupuesto de \\[valor\\].\"\n\n⭕ \"Resúmeme este artículo largo en 5 puntos: \\[pega el texto\\].\"\n\n⭕ \"Explícale a mi hijo de 10 años qué es \\[tema de la tarea\\], con un ejemplo de fútbol.\"\n\n⭕ \"Ayúdame a escribir un mensaje difícil para \\[persona\\], en tono amable y firme.\"\n\nLa IA no solo sirve para trabajar más. Sirve para recuperar tiempo para lo que importa.\n\nEn las empresas lo mido en horas. El fin de semana se mide en momentos.\n\n¿Cuál de estos vas a probar hoy?\n\nSi quieres más usos prácticos de la IA, para el trabajo y para la vida, sígueme.\n\n{hashtag|\\#|Productividad} {hashtag|\\#|VidaYTrabajo} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
+  },
+  "nota": "Post de fin de semana, tono más cercano. Imagen por definir con Sandra."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "dom-08",
+  "estado": "pendiente",
+  "programado_bogota": "2026-11-08 17:00",
+  "imagen": null,
+  "urn": null,
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "Domingo en la tarde. La hora en la que muchos ya están pensando en el lunes.\n\nTe dejo una pregunta que le hago a los equipos con los que trabajo:\n\nSi la {hashtag|\\#|IA} te devolviera 4 horas a la semana, ¿en qué las usarías?\n\nCasi todos responden rápido: \"en sacar pendientes\".\n\nPocos dicen: \"en pensar\", \"en mi familia\", \"en aprender algo nuevo\".\n\nAhí está la diferencia entre usar la IA para correr más rápido y usarla para trabajar mejor.\n\nRecuperar tiempo sin propósito es llenar el espacio libre con más trabajo.\n\nEsta semana, antes de buscar la herramienta, define para qué quieres el tiempo.\n\n¿Tú en qué usarías esas 4 horas?\n\nSi quieres empezar cada semana con {hashtag|\\#|Productividad} real y no con más carga, sígueme.\n\n{hashtag|\\#|LiderazgoConProposito} {hashtag|\\#|IAEmpresarial} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
+  },
+  "nota": "Post de fin de semana, tono más cercano. Imagen por definir con Sandra."
+}
