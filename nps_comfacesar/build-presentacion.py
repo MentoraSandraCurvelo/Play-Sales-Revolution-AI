@@ -280,7 +280,6 @@ s8 = slide("antes-hoy", "Antes y hoy", f"""
   <h2>Las {ent(P['horas'])} horas, cada semana, otra vez</h2>
   <p class="lede">No es un ahorro que ocurrió una vez. Es una hora que vuelve
     <b>cada semana</b>, porque el proceso cambió, no porque alguien corrió más.</p>
-  <div class="col" style="gap:22px;flex:1;justify-content:center">
   <div class="f1" style="min-width:0"><svg id="acum" viewBox="0 0 1680 372" role="img"
     aria-label="Horas acumuladas semana a semana durante un año"></svg></div>
   <div class="grid3">
@@ -411,63 +410,58 @@ s14 = slide("islas", "Dieciocho islas", f"""
     cada semana, en {len([a for a in D.HORAS if D.HORAS[a] > 0])} áreas distintas.
     <b>Eso es trabajo que se recupera dos veces.</b></p>""", oscura=False)
 
-# ───────────────────────── 15 · los seis frentes ─────────────────────────
+# ──────────────── 15 · la fase 2, enunciada y no vendida ────────────────
 
-fr = "".join(
-    f'<div class="col frente rv" style="--d:{.08 * i}s">'
-    f'<p class="num2">0{i + 1}</p><h3>{t}</h3><p class="hair">{desc}</p></div>'
-    for i, (t, desc) in enumerate(D.FRENTES))
+enun = "".join(
+    f'<div class="col f1 enun rv" style="--d:{.12 + i * .2}s">'
+    f'<p class="eb">{t}</p>'
+    f'<ul>{"".join(f"<li>{x}</li>" for x in puntos)}</ul></div>'
+    for i, (t, puntos) in enumerate(D.ENUNCIADO))
 
-s15 = slide("frentes", "Hiperconectividad", f"""
-  <p class="eb">La apuesta</p>
-  <h2>Hiperconectividad: seis frentes</h2>
-  <div class="grid3 alto">{fr}</div>""",
-            pie="Sin cambiar el ecosistema de software y sin contratar más personas · son procesos y conexiones")
+s15 = slide("hacia-donde", "Hacia dónde va", f"""
+  <p class="eb">Bloque 03 · lo que viene</p>
+  <h2>Ya saben hacerlo. Ahora hay que conectarlo.</h2>
+  <p class="lede">El límite de hoy no es el conocimiento. Son los equipos, la red local,
+    y que cada área guarda su avance en su propia isla. <b>Esto queda enunciado,
+    no es lo que se decide hoy.</b></p>
+  <div class="row" style="gap:28px;flex:1;align-items:stretch;max-height:470px">{enun}</div>
+  <p class="note rv" style="--d:.6s">Nada de esto pide cambiar el ecosistema de software
+    que la Caja ya pagó, ni contratar a nadie. <b>Son procesos y conexiones.</b></p>""",
+            oscura=False,
+            pie="Enunciado, no propuesta: el alcance, el plazo y la inversión van en el documento de la fase 2, aparte")
 
-# ───────────────────────── 16 · el año ─────────────────────────
+# ──────────────── 16 · el cierre del programa ────────────────
 
-tr = "".join(
-    f'<div class="col tri rv" style="--d:{.12 * i}s">'
-    f'<p class="eb">{t}</p><p class="meses">{m}</p><h3>{titulo}</h3>'
-    f'<ul>{"".join(f"<li>{x}</li>" for x in items)}</ul></div>'
-    for i, (t, m, titulo, items) in enumerate(D.TRIMESTRES))
+ag_c = sum(v[0] for v in D.AGENTES.values())
+ag_r = sum(v[1] for v in D.AGENTES.values())
 
-s16 = slide("anio", "El año, mes por mes", f"""
-  <p class="eb">Bloque 03 · el año</p>
-  <h2>Doce meses, y qué pasa en cada bloque</h2>
-  <div class="row" style="gap:20px;flex:1;align-items:stretch">{tr}</div>""", oscura=False,
-            pie="Cada trimestre cierra con una revisión de la dirección · el detalle de la inversión va en el documento de la propuesta, aparte")
+QUEDA = [
+    (f"{len(D.HORAS)}", "áreas con al menos un proceso propio, medido y andando"),
+    (f"{ag_c}<small> / {ag_r}</small>", "agentes construidos, y los que ya corren solos"),
+    (f"{ent(P['horas'])}<small> h</small>", "que vuelven cada semana, sin volver a invertir"),
+]
+queda = "".join(
+    f'<div class="row paso rv" style="--d:{.12 + i * .18}s">'
+    f'<p class="big" style="font-size:66px;min-width:230px">{v}</p>'
+    f'<p class="sub" style="font-weight:400;font-size:26px;align-self:center">{t}</p></div>'
+    for i, (v, t) in enumerate(QUEDA))
 
-# ───────────────────────── 17 · cierre ─────────────────────────
-
-s17 = slide("cierre", "Qué decide la dirección", f"""
+s16 = slide("cierre", "Lo que se queda en la Caja", f"""
   <div class="row" style="gap:80px;flex:1">
-    <div class="col f1" style="gap:26px">
-      <p class="big" style="font-size:120px;color:var(--red-hi)">IAM™</p>
-      <p class="sub">Intelligence · fase 2</p>
-      <h2 style="font-size:52px">Ya saben hacerlo.<br>Ahora hay que conectarlo.</h2>
-      <p class="hair">Las palabras de la fase que viene son dos: <b>hardware</b> e
-        <b>hiperconectividad</b>. No hay islas independientes, y tampoco se sugiere
-        cambiar el software hoy.</p>
+    <div class="col f1" style="gap:26px;justify-content:center">
+      <p class="big" style="font-size:118px;color:var(--red-hi)">IAM™</p>
+      <p class="sub">Intelligence · fase 1, cerrada</p>
+      <h2 style="font-size:46px">Esto ya no depende<br>de la mentoría.</h2>
+      <p class="hair">{P['sesiones']} sesiones en {P['areas']} áreas, de {P['inicio']} al
+        {P['cierre']}. <b>Lo que se construyó se queda en la Caja</b>, con la gente que lo armó.</p>
     </div>
-    <div class="col f1" style="gap:30px">
-      <h3 class="q">Qué decide la dirección</h3>
-      <div class="row paso rv" style="--d:.1s"><p class="num">01</p>
-        <div class="col"><h3>El alcance de las tres calles</h3>
-        <p class="hair">Afilar lo que ya corre, rescatar a las que no se vincularon,
-          y cuáles áreas nuevas entran.</p></div></div>
-      <div class="row paso rv" style="--d:.3s"><p class="num">02</p>
-        <div class="col"><h3>El levantamiento de equipos</h3>
-        <p class="hair">Qué computadores se cambian, en qué áreas y con qué prioridad.
-          Es el primer mes.</p></div></div>
-      <div class="row paso rv" style="--d:.5s"><p class="num">03</p>
-        <div class="col"><h3>La reunión de licenciamiento</h3>
-        <p class="hair">Cuánto vale, cuánto se necesita y cuánto se aprueba.
-          La propuesta la presenta el sponsor a la dirección.</p></div></div>
+    <div class="col f1" style="gap:34px;justify-content:center">
+      <h3 class="q">Lo que se queda</h3>
+      {queda}
     </div>
   </div>""", pie="Sandra Curvelo · Mentora IAM™ · Influence, AI & Monetization")
 
-SLIDES = [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17]
+SLIDES = [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16]
 
 # ───────────────────────── CSS ─────────────────────────
 
@@ -602,6 +596,13 @@ td.st{color:var(--red)!important;font-weight:800} .dk td.st{color:var(--red-hi)!
 .lt .open,.lt .frente{background:var(--card);border-top:4px solid var(--red)}
 .num2{font-family:var(--f-h);font-weight:800;font-size:34px;color:var(--red)}
 .dk .num2{color:var(--red-hi)}
+.enun{padding:30px 34px;gap:18px}
+.dk .enun{background:var(--ink-2);border-top:5px solid var(--red-hi)}
+.lt .enun{background:var(--card);border-top:5px solid var(--red)}
+.enun .eb{font-size:26px;letter-spacing:3px}
+.enun ul{font-size:25px;line-height:1.45;display:flex;flex-direction:column;gap:16px}
+.dk .enun ul{color:var(--mute-d)} .lt .enun ul{color:var(--mute-l)}
+.enun li::marker{color:var(--red)}
 .tri{flex:1;padding:24px 24px 26px;gap:10px}
 .dk .tri{background:var(--ink-2);border-top:5px solid var(--red-hi)}
 .lt .tri{background:var(--card);border-top:5px solid var(--red)}

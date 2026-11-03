@@ -151,7 +151,25 @@ INDICACIONES = [
     ("La hiperconectividad", "Qué necesitaría el área para quedar conectada a los sistemas de información."),
 ]
 
-# los seis frentes de hiperconectividad, de la propuesta de fase 2
+# Fase 2, enunciada y no vendida. Decisión de Sandra del 3 de noviembre: esta es
+# una presentación de cierre de proyecto, así que la fase 2 entra como inventario
+# de hacia dónde va, sin detalle, sin cifras y sin pedirle una decisión a nadie.
+# El lenguaje es el de la propuesta, propuesta-fase2-comfacesar.html.
+ENUNCIADO = [
+    ("Hiperconectividad", [
+        "Saber qué sistemas de información hay y dónde está alojado cada uno",
+        "Los tableros enganchados a la gestión, en vez de alimentados a mano",
+        "La información fuera de la red local, y un solo lugar donde trabaja la Caja",
+    ]),
+    ("Hardware", [
+        "La forma de trabajo que las áreas ya adoptaron no cabe en un equipo de escritorio",
+        "Un sistema de computación portátil, con rotación de puestos y esquema híbrido",
+        "Los equipos que hoy son el límite, levantados y priorizados",
+    ]),
+]
+
+# El detalle de los seis frentes y el año trimestre por trimestre quedan aquí,
+# fuera de la presentación de cierre. Son material de la propuesta, no del cierre.
 FRENTES = [
     ("Saber qué hay y dónde está",
      "El inventario de los sistemas de información de la Caja y dónde está alojado cada uno. Sin ese mapa no se conecta nada."),

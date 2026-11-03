@@ -132,6 +132,13 @@ td.st{color:var(--red)!important;font-weight:800} .dk td.st{color:var(--red-hi)!
 .lt .open,.lt .frente{background:var(--card);border-top:4px solid var(--red)}
 .num2{font-family:var(--f-h);font-weight:800;font-size:34px;color:var(--red)}
 .dk .num2{color:var(--red-hi)}
+.enun{padding:30px 34px;gap:18px}
+.dk .enun{background:var(--ink-2);border-top:5px solid var(--red-hi)}
+.lt .enun{background:var(--card);border-top:5px solid var(--red)}
+.enun .eb{font-size:26px;letter-spacing:3px}
+.enun ul{font-size:25px;line-height:1.45;display:flex;flex-direction:column;gap:16px}
+.dk .enun ul{color:var(--mute-d)} .lt .enun ul{color:var(--mute-l)}
+.enun li::marker{color:var(--red)}
 .tri{flex:1;padding:24px 24px 26px;gap:10px}
 .dk .tri{background:var(--ink-2);border-top:5px solid var(--red-hi)}
 .lt .tri{background:var(--card);border-top:5px solid var(--red)}
@@ -283,7 +290,6 @@ td.st{color:var(--red)!important;font-weight:800} .dk td.st{color:var(--red-hi)!
   <h2>Las 250 horas, cada semana, otra vez</h2>
   <p class="lede">No es un ahorro que ocurrió una vez. Es una hora que vuelve
     <b>cada semana</b>, porque el proceso cambió, no porque alguien corrió más.</p>
-  <div class="col" style="gap:22px;flex:1;justify-content:center">
   <div class="f1" style="min-width:0"><svg id="acum" viewBox="0 0 1680 372" role="img"
     aria-label="Horas acumuladas semana a semana durante un año"></svg></div>
   <div class="grid3">
@@ -366,43 +372,30 @@ td.st{color:var(--red)!important;font-weight:800} .dk td.st{color:var(--red-hi)!
     cada semana, en 11 áreas distintas.
     <b>Eso es trabajo que se recupera dos veces.</b></p>
 </section>
-<section class="slide dk" id="frentes" data-t="Hiperconectividad" data-ft="Sin cambiar el ecosistema de software y sin contratar más personas · son procesos y conexiones">
+<section class="slide lt" id="hacia-donde" data-t="Hacia dónde va" data-ft="Enunciado, no propuesta: el alcance, el plazo y la inversión van en el documento de la fase 2, aparte">
 
-  <p class="eb">La apuesta</p>
-  <h2>Hiperconectividad: seis frentes</h2>
-  <div class="grid3 alto"><div class="col frente rv" style="--d:0.0s"><p class="num2">01</p><h3>Saber qué hay y dónde está</h3><p class="hair">El inventario de los sistemas de información de la Caja y dónde está alojado cada uno. Sin ese mapa no se conecta nada.</p></div><div class="col frente rv" style="--d:0.08s"><p class="num2">02</p><h3>Un solo lugar donde trabaja la Caja</h3><p class="hair">IAM™ Hello: la puerta única por la que cada área entra a lo suyo, en vez de dieciocho entradas distintas.</p></div><div class="col frente rv" style="--d:0.16s"><p class="num2">03</p><h3>El Tableau que ya está pagado</h3><p class="hair">Lleva ocho años comprado y subutilizado porque nadie lo alimenta. Es el activo más barato de activar.</p></div><div class="col frente rv" style="--d:0.24s"><p class="num2">04</p><h3>Los tableros enganchados a la gestión</h3><p class="hair">Que el tablero del área lea del sistema en vez de que alguien le copie los datos a mano cada semana.</p></div><div class="col frente rv" style="--d:0.32s"><p class="num2">05</p><h3>Salir de la red local</h3><p class="hair">Hoy la información vive en equipos y carpetas locales. Mientras siga ahí, no se puede conectar ni respaldar.</p></div><div class="col frente rv" style="--d:0.4s"><p class="num2">06</p><h3>Una app de la Caja, por áreas</h3><p class="hair">Arranca por áreas y después se unen, el mismo camino que ya recorrieron los tableros.</p></div></div>
+  <p class="eb">Bloque 03 · lo que viene</p>
+  <h2>Ya saben hacerlo. Ahora hay que conectarlo.</h2>
+  <p class="lede">El límite de hoy no es el conocimiento. Son los equipos, la red local,
+    y que cada área guarda su avance en su propia isla. <b>Esto queda enunciado,
+    no es lo que se decide hoy.</b></p>
+  <div class="row" style="gap:28px;flex:1;align-items:stretch;max-height:470px"><div class="col f1 enun rv" style="--d:0.12s"><p class="eb">Hiperconectividad</p><ul><li>Saber qué sistemas de información hay y dónde está alojado cada uno</li><li>Los tableros enganchados a la gestión, en vez de alimentados a mano</li><li>La información fuera de la red local, y un solo lugar donde trabaja la Caja</li></ul></div><div class="col f1 enun rv" style="--d:0.32s"><p class="eb">Hardware</p><ul><li>La forma de trabajo que las áreas ya adoptaron no cabe en un equipo de escritorio</li><li>Un sistema de computación portátil, con rotación de puestos y esquema híbrido</li><li>Los equipos que hoy son el límite, levantados y priorizados</li></ul></div></div>
+  <p class="note rv" style="--d:.6s">Nada de esto pide cambiar el ecosistema de software
+    que la Caja ya pagó, ni contratar a nadie. <b>Son procesos y conexiones.</b></p>
 </section>
-<section class="slide lt" id="anio" data-t="El año, mes por mes" data-ft="Cada trimestre cierra con una revisión de la dirección · el detalle de la inversión va en el documento de la propuesta, aparte">
-
-  <p class="eb">Bloque 03 · el año</p>
-  <h2>Doce meses, y qué pasa en cada bloque</h2>
-  <div class="row" style="gap:20px;flex:1;align-items:stretch"><div class="col tri rv" style="--d:0.0s"><p class="eb">Trimestre 1</p><p class="meses">Meses 1 a 3</p><h3>Levantar y cerrar lo abierto</h3><ul><li>Levantamiento de equipos, con la lista priorizada de qué computadores se cambian y por qué</li><li>Levantamiento de sistemas: qué hay y dónde está alojado cada uno</li><li>Cimentación de los circuitos de las áreas que ya construyeron</li><li>Primeras sesiones de trabajo cercano con Vivienda y Mercadeo</li><li>Arranca la gobernanza con Cumplimiento y se gestiona la reunión de licenciamiento</li><li>Diseño del plan de equipos portátiles, con Talento Humano</li></ul></div><div class="col tri rv" style="--d:0.12s"><p class="eb">Trimestre 2</p><p class="meses">Meses 4 a 6</p><h3>Decidir y conectar</h3><ul><li>La propuesta de licenciamiento queda lista y el sponsor la presenta al director</li><li>El plan de renovación de equipos entra en ejecución con lo que la dirección apruebe</li><li>Primeras conexiones de tableros a los sistemas internos, con el recurso de la Caja</li><li>Automatizaciones vivas en Vivienda, y Mercadeo con su base de datos conectada</li><li>Entran las primeras áreas por activar, con circuito nuevo de principio a fin</li><li>Arranca el esquema híbrido en las áreas que ya tengan portátil</li></ul></div><div class="col tri rv" style="--d:0.24s"><p class="eb">Trimestre 3</p><p class="meses">Meses 7 a 9</p><h3>Infraestructura y reglas</h3><ul><li>Evaluación y selección del proveedor de migración a la nube</li><li>Negociación del techo de integración con el proveedor de software</li><li>El marco de gobernanza queda publicado y con responsable con nombre</li><li>Mercadeo y Subsidio con los tableros hablándose</li><li>Las áreas por activar, en construcción</li><li>Primera medición de productividad del esquema híbrido</li></ul></div><div class="col tri rv" style="--d:0.36s"><p class="eb">Trimestre 4</p><p class="meses">Meses 10 a 12</p><h3>Dejarlo andando sin la mentoría</h3><ul><li>Acompañamiento de la migración a la nube que ejecuta el proveedor</li><li>Las 18 áreas con al menos un circuito cimentado y medido</li><li>Traspaso formal al recurso interno que la Caja designe</li><li>Balance del año en horas y en pesos, no en porcentaje de avance</li><li>Cierre: cuarta revisión con el director y entrega</li></ul></div></div>
-</section>
-<section class="slide dk" id="cierre" data-t="Qué decide la dirección" data-ft="Sandra Curvelo · Mentora IAM™ · Influence, AI & Monetization">
+<section class="slide dk" id="cierre" data-t="Lo que se queda en la Caja" data-ft="Sandra Curvelo · Mentora IAM™ · Influence, AI & Monetization">
 
   <div class="row" style="gap:80px;flex:1">
-    <div class="col f1" style="gap:26px">
-      <p class="big" style="font-size:120px;color:var(--red-hi)">IAM™</p>
-      <p class="sub">Intelligence · fase 2</p>
-      <h2 style="font-size:52px">Ya saben hacerlo.<br>Ahora hay que conectarlo.</h2>
-      <p class="hair">Las palabras de la fase que viene son dos: <b>hardware</b> e
-        <b>hiperconectividad</b>. No hay islas independientes, y tampoco se sugiere
-        cambiar el software hoy.</p>
+    <div class="col f1" style="gap:26px;justify-content:center">
+      <p class="big" style="font-size:118px;color:var(--red-hi)">IAM™</p>
+      <p class="sub">Intelligence · fase 1, cerrada</p>
+      <h2 style="font-size:46px">Esto ya no depende<br>de la mentoría.</h2>
+      <p class="hair">119 sesiones en 18 áreas, de 11 de agosto al
+        9 de octubre. <b>Lo que se construyó se queda en la Caja</b>, con la gente que lo armó.</p>
     </div>
-    <div class="col f1" style="gap:30px">
-      <h3 class="q">Qué decide la dirección</h3>
-      <div class="row paso rv" style="--d:.1s"><p class="num">01</p>
-        <div class="col"><h3>El alcance de las tres calles</h3>
-        <p class="hair">Afilar lo que ya corre, rescatar a las que no se vincularon,
-          y cuáles áreas nuevas entran.</p></div></div>
-      <div class="row paso rv" style="--d:.3s"><p class="num">02</p>
-        <div class="col"><h3>El levantamiento de equipos</h3>
-        <p class="hair">Qué computadores se cambian, en qué áreas y con qué prioridad.
-          Es el primer mes.</p></div></div>
-      <div class="row paso rv" style="--d:.5s"><p class="num">03</p>
-        <div class="col"><h3>La reunión de licenciamiento</h3>
-        <p class="hair">Cuánto vale, cuánto se necesita y cuánto se aprueba.
-          La propuesta la presenta el sponsor a la dirección.</p></div></div>
+    <div class="col f1" style="gap:34px;justify-content:center">
+      <h3 class="q">Lo que se queda</h3>
+      <div class="row paso rv" style="--d:0.12s"><p class="big" style="font-size:66px;min-width:230px">12</p><p class="sub" style="font-weight:400;font-size:26px;align-self:center">áreas con al menos un proceso propio, medido y andando</p></div><div class="row paso rv" style="--d:0.3s"><p class="big" style="font-size:66px;min-width:230px">13<small> / 5</small></p><p class="sub" style="font-weight:400;font-size:26px;align-self:center">agentes construidos, y los que ya corren solos</p></div><div class="row paso rv" style="--d:0.48s"><p class="big" style="font-size:66px;min-width:230px">250<small> h</small></p><p class="sub" style="font-weight:400;font-size:26px;align-self:center">que vuelven cada semana, sin volver a invertir</p></div>
     </div>
   </div>
 </section>
