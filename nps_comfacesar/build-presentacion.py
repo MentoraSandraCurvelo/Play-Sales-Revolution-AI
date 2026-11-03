@@ -17,8 +17,24 @@ d = D.construir_datos()
 P = d["programa"]
 
 
+def horas(area):
+    """Las horas de un área, en entero. Si el reparto la dejó en cero pero el
+    área sí midió algo, se muestra «<1» en vez de cero: cero diría que no hizo
+    nada, y no es lo que pasó."""
+    h = D.HORAS.get(area, 0)
+    if h == 0 and D.CRUDAS.get(area, 0) > 0:
+        return "&lt;1"
+    return f"{h:,.0f}".replace(",", ".")
+
+
 def mil(n):
     return f"{n:,.0f}".replace(",", ".")
+
+
+def ent(n):
+    """Entero con punto de millar. Un valor menor que una hora, pero no cero, se
+    muestra como «<1»: redondearlo a cero haría parecer que el área no hizo nada."""
+    return "&lt;1" if 0 < n < 1 else f"{n:,.0f}".replace(",", ".")
 
 
 def dec(n, k=1):
@@ -81,10 +97,10 @@ s1 = slide("portada", "Portada", f"""
       <div class="row wrap">{chips}</div>
     </div>
     <div class="col" style="width:540px;gap:0;border-left:1px solid var(--rule-d);padding-left:38px">
-      <p class="big huge">{dec(P['horas'])}</p>
+      <p class="big huge">{ent(P['horas'])}</p>
       <p class="sub" style="padding-top:10px">horas recuperadas cada semana</p>
-      <p class="hair" style="padding-top:12px">equivalen a {dec(P['horas'] / 48, 1)} jornadas de trabajo, o a
-        {dec(P['horas'] / 44, 1)} personas a tiempo completo, sin contratar a nadie</p>
+      <p class="hair" style="padding-top:12px">equivalen a {ent(P['horas'] / 48)} jornadas de trabajo, o a
+        {ent(P['horas'] / 44)} personas a tiempo completo, sin contratar a nadie</p>
     </div>
   </div>""", pie="Sandra Curvelo · Mentora IAM™ · recuperación semanal del programa, establecida por la mentoría sobre la medición tarea por tarea")
 
@@ -121,7 +137,7 @@ tiles = "".join([
     tile(f'{P["areas"]}<small> / {P["areas"]}</small>', "áreas llegaron al cierre, ninguna quedó por fuera", "", .13),
     tile(f'{P["asistencia"]}<small>%</small>',
          f'de asistencia acumulada: {P["asistieron"]} de {P["convocados"]} convocados', "", .21),
-    tile(f'{dec(P["horas"])}<small> h</small>', "recuperadas cada semana en toda la Caja", "", .29),
+    tile(f'{ent(P["horas"])}<small> h</small>', "recuperadas cada semana en toda la Caja", "", .29),
     tile(f'{dec(P["confianza"][0])}<small> → </small>{dec(P["confianza"][1])}',
          "confianza usando IA, antes y después, escala de 1 a 10", f'{P["respuestas_nps"]} respuestas anónimas', .37),
     tile(f'+{P["nps"]}', "NPS del programa", "escala de −100 a +100", .45),
@@ -139,7 +155,7 @@ s3 = slide("resultados", "Los resultados", f"""
 # ───────────────────────── 4 · horas por área ─────────────────────────
 
 hmax = max(D.HORAS.values())
-hb = "".join(barra(a, f'{dec(h)} h', h / hmax * 100, .08 * i)
+hb = "".join(barra(a, f'{horas(a)} h', h / hmax * 100, .08 * i)
              for i, (a, h) in enumerate(sorted(D.HORAS.items(), key=lambda x: -x[1])))
 
 s4 = slide("horas", "Horas por área", f"""
@@ -148,7 +164,7 @@ s4 = slide("horas", "Horas por área", f"""
   <div class="row" style="gap:56px;flex:1;align-items:center">
     <div class="col f1" style="gap:12px">{hb}</div>
     <div class="col" style="width:470px;gap:24px">
-      <div><p class="big huge">{dec(P['horas'])}</p><p class="sub">horas por semana</p></div>
+      <div><p class="big huge">{ent(P['horas'])}</p><p class="sub">horas por semana</p></div>
       <p class="note">Doce áreas de dieciocho concentran la recuperación. <b>Las otras seis
         también construyeron:</b> lo que no hicieron fue anotarlo, y esa es una de las cosas
         que esta fase deja abiertas.</p>
@@ -203,7 +219,7 @@ s6 = slide("indice-3d", "El índice en 3D", f"""
       <h2>El relieve de la Caja, hoy</h2>
     </div>
     <div class="col" style="text-align:right;gap:4px">
-      <p class="big" style="font-size:78px">{dec(d['promedio']['septiembre'])}<small> → </small>{dec(d['promedio']['cierre'])}</p>
+      <p class="big" style="font-size:78px">{ent(d['promedio']['septiembre'])}<small> → </small>{ent(d['promedio']['cierre'])}</p>
       <p class="hair">IIE promedio · 30 de septiembre al cierre</p>
     </div>
   </div>
@@ -231,7 +247,7 @@ def fila_mov(a, i):
             f'<span class="lb">{a}</span>'
             f'<div class="trk"><i class="bar soft" style="--w:{s / imax * 100:.1f}%;--d:{.05 * i}s"></i>'
             f'<i class="bar" style="--w:{c / imax * 100:.1f}%;--d:{.3 + .05 * i}s"></i></div>'
-            f'<span class="vl {sig}">{"+" + dec(delta) if delta > .05 else "·"}</span></div>')
+            f'<span class="vl {sig}">{"+" + ent(delta) if delta > .05 else "·"}</span></div>')
 
 
 s7 = slide("movimiento", "Quién subió y quién no", f"""
@@ -244,9 +260,9 @@ s7 = slide("movimiento", "Quién subió y quién no", f"""
       {"".join(fila_mov(a, i) for i, a in enumerate(quietas))}
     </div>
     <div class="col" style="width:430px;gap:20px;justify-content:center">
-      <p class="note"><b>Agencia de Empleo es la que más subió,</b> +{dec(d['cierre']['Agencia de Empleo']['iie'] - d['septiembre']['Agencia de Empleo']['iie'])} puntos.
+      <p class="note"><b>Agencia de Empleo es la que más subió,</b> +{ent(d['cierre']['Agencia de Empleo']['iie'] - d['septiembre']['Agencia de Empleo']['iie'])} puntos.
         Puso a Matías en producción y le respondió a un ciudadano de verdad.</p>
-      <p class="note"><b>Sub. Admin y Financiera tiene el mayor impacto en horas, {dec(D.HORAS['Sub. Admin y Financiera'])},
+      <p class="note"><b>Sub. Admin y Financiera tiene el mayor impacto en horas, {ent(D.HORAS['Sub. Admin y Financiera'])},
         y aun así no se movió.</b> Hizo todo en septiembre y nada después del cierre.</p>
       <p class="hair">La barra gris es septiembre, la roja es hoy. El corte de septiembre se
         reconstruye con las {P['fichas_fechadas']} sesiones que llevan acta fechada de las {P['sesiones']}.</p>
@@ -261,18 +277,18 @@ red = P["horas"] * 11 / antes_h * 100
 
 s8 = slide("antes-hoy", "Antes y hoy", f"""
   <p class="eb">Tarea por tarea</p>
-  <h2>Las {dec(P['horas'])} horas, cada semana, otra vez</h2>
+  <h2>Las {ent(P['horas'])} horas, cada semana, otra vez</h2>
   <p class="lede">No es un ahorro que ocurrió una vez. Es una hora que vuelve
     <b>cada semana</b>, porque el proceso cambió, no porque alguien corrió más.</p>
   <div class="col" style="gap:22px;flex:1;justify-content:center">
-    {barra("Una semana", f"{dec(P['horas'])} h", 100, 0, cols="260px 1fr 190px")}
-    {barra("Un mes", f"{dec(P['horas'] * 4.33)} h", 100, .2, cols="260px 1fr 190px")}
+    {barra("Una semana", f"{ent(P['horas'])} h", 100, 0, cols="260px 1fr 190px")}
+    {barra("Un mes", f"{mil(P['horas'] * 4.33)} h", 100, .2, cols="260px 1fr 190px")}
     {barra("Un año, 52 semanas", f"{mil(P['horas'] * 52)} h", 100, .4, cols="260px 1fr 190px")}
   </div>
   <div class="grid3">
     {tile(f'{mil(P["horas"] * 52)}<small> h</small>', "al año, si nada más cambia", "", .6)}
-    {tile(f'{dec(P["horas"] / 44, 1)}', "personas a tiempo completo, sin contratar a nadie", "44 h por semana", .7)}
-    {tile(f'{dec(P["horas"] / 48, 1)}', "jornadas de trabajo recuperadas por semana", "48 h = una jornada de 8 h × 6", .8)}
+    {tile(f'{ent(P["horas"] / 44)}', "personas a tiempo completo, sin contratar a nadie", "44 h por semana", .7)}
+    {tile(f'{ent(P["horas"] / 48)}', "jornadas de trabajo recuperadas por semana", "48 h = una jornada de 8 h × 6", .8)}
   </div>""",
            pie="Las horas son recurrentes: vuelven cada semana sin volver a invertir en el programa, porque lo que cambió fue el proceso")
 
@@ -285,12 +301,13 @@ def fila_tarifa(nombre, tarifa, nota, i):
             f'{f"<br><span class=hair>{nota}</span>" if nota else ""}</td>'
             f'<td class="num">${mil(tarifa)}</td>'
             f'<td class="num">${mil(sem)}</td>'
-            f'<td class="num st">${dec(anio / 1_000_000)} M</td></tr>')
+            f'<td class="num st">${ent(anio / 1_000_000)} M</td></tr>')
 
 
 s9 = slide("pesos", "El valor en pesos", f"""
+  <div class="col" style="gap:32px;flex:1;justify-content:center">
   <p class="eb">La cuenta</p>
-  <h2>Las mismas {dec(P['horas'])} horas, a las tres tarifas de la Caja</h2>
+  <h2>Las mismas {ent(P['horas'])} horas, a las tres tarifas de la Caja</h2>
   <table class="t">
     <tr><th style="width:34%">Perfil que ejecuta</th><th class="num">Costo hora</th>
         <th class="num">Por semana</th><th class="num">A doce meses</th></tr>
@@ -298,7 +315,8 @@ s9 = slide("pesos", "El valor en pesos", f"""
   </table>
   <p class="note rv" style="--d:.7s">El reporte usa <b>la tarifa más baja</b>, la profesional, para que
     la cifra no dependa de quién la mire. A la tarifa directiva la misma hora vale
-    {dec(D.TARIFAS[2][1] / D.TARIFAS[0][1])} veces más.</p>""", oscura=False,
+    {ent(D.TARIFAS[2][1] / D.TARIFAS[0][1])} veces más.</p>
+  </div>""", oscura=False,
            pie="Tarifas de costo hora entregadas por Comfacesar · 52 semanas al año · la cifra base es la del perfil profesional")
 
 # ───────────────────────── 10 · confianza ─────────────────────────
@@ -341,14 +359,14 @@ def fila_area(i, area, ini, muestra):
     quien = D.PRESENTA.get(area, "")
     iie_a = d["cierre"][area]["iie"]
     h = D.HORAS.get(area, 0.0)
-    met = f'{dec(h)} h' if h else "por medir"
+    met = f'{horas(area)} h' if area in D.HORAS else "por medir"
     return (f'<div class="row ja rv" style="--d:{.04 * i}s">'
             f'<p class="n">{i + 1:02d}</p>{mono(ini)}'
             f'<p class="an f1">{area}'
             f'{f" · <span class=who>{quien}</span>" if quien else ""}'
             f'<span class="qm"> · {muestra}</span></p>'
             f'<p class="vl" style="width:110px;text-align:right">{met}</p>'
-            f'<p class="iie" style="width:84px;text-align:right">{dec(iie_a)}</p></div>')
+            f'<p class="iie" style="width:84px;text-align:right">{ent(iie_a)}</p></div>')
 
 
 s12 = slide("jornada", "Las doce áreas", f"""
@@ -688,7 +706,7 @@ addEventListener('keydown',e=>{
 /* ── el ranking al lado del 3D ── */
 document.getElementById('rank3d').innerHTML=DATA.map((x,i)=>
   '<div class="rk"><i>'+(i+1)+'</i><span>'+x.a+'</span><b>'+
-  x.c.toLocaleString('es-CO',{minimumFractionDigits:1,maximumFractionDigits:1})+'</b></div>'
+  Math.round(x.c)+'</b></div>'
 ).join('');
 
 /* ── 3D propio, sin librería y sin CDN ────────────────────────────────

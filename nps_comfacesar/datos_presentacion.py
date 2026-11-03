@@ -55,12 +55,19 @@ MEDIDAS = {
     "Sub. Operativa": 2.4, "Educación": 0.4, "Cumplimiento": 0.1,
 }
 FACTOR = PROGRAMA["horas"] / sum(MEDIDAS.values())
-HORAS = {a: round(h * FACTOR, 1) for a, h in MEDIDAS.items()}
-# el redondeo a un decimal deja un resto; se carga al área más grande para que
-# la suma del desglose dé exactamente el total que se presenta
-_mayor = max(HORAS, key=HORAS.get)
-HORAS[_mayor] = round(HORAS[_mayor] + PROGRAMA["horas"] - sum(HORAS.values()), 1)
-assert abs(sum(HORAS.values()) - PROGRAMA["horas"]) < 1e-9, sum(HORAS.values())
+CRUDAS = {a: h * FACTOR for a, h in MEDIDAS.items()}
+
+# Las horas se presentan en enteros. Redondear cada una por separado deja la
+# suma en 249 o en 251, así que se reparte por resto mayor: cada área se lleva
+# su parte entera y los puntos que sobran van a las de mayor fracción. Así el
+# desglose suma exactamente el total que se presenta.
+_piso = {a: int(h) for a, h in CRUDAS.items()}
+_sobran = int(round(PROGRAMA["horas"] - sum(_piso.values())))
+_cola = sorted(CRUDAS, key=lambda a: CRUDAS[a] - _piso[a], reverse=True)
+HORAS = dict(_piso)
+for a in _cola[:_sobran]:
+    HORAS[a] += 1
+assert sum(HORAS.values()) == PROGRAMA["horas"], sum(HORAS.values())
 
 # procesos documentados en firme
 PROCESOS = {
