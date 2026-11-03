@@ -10,25 +10,32 @@ alineadas en el teléfono. Las tablas de markdown no se ven en WhatsApp.
 
 ⭕️ María Elvira, te paso el orden de las áreas que presentan el viernes 6, jornada completa.
 
-Son las nueve que llegan con procesos activos y documentados.
+Son las once que llegan con procesos activos y documentados.
 
 ```
   N°   ÁREA
   ──   ───────────────────────
-  1    Agencia de Empleo
-  2    IPS
-  3    Sub. Admin y Financiera
-  4    Educación
-  5    Vivienda
-  6    Jurídica
-  7    Subsidio y Aportes
-  8    Servicios Sociales
-  9    Comunicaciones
+   1   Agencia de Empleo
+   2   IPS
+   3   Sub. Admin y Financiera
+   4   Educación
+   5   Vivienda
+   6   Jurídica
+   7   Subsidio y Aportes
+   8   Servicios Sociales
+   9   Comunicaciones
+  10   Contabilidad
+  11   Sub. Operativa
 ```
 
 En la 3 presenta Rafael Solano.
 
-Cada área muestra en vivo lo que construyó, con el antes y el después en horas y en pesos. No hay que preparar presentación.
+Y estas son las indicaciones para todas. Una o dos diapositivas bastan, lo demás se muestra en vivo.
+
+• El flujo de trabajo, cómo lo hacían antes y cómo lo hacen ahora.
+• Cuánto tardaba el proceso antes, cuánto tarda ahora, y en qué están usando esas horas recuperadas.
+• El inventario de lo que les quedó por hacer, o lo que quisieran en una segunda fase.
+• La hiperconectividad, qué necesitarían para quedar conectados a los sistemas de información.
 
 IAM™ Intelligence 💪
 
@@ -36,16 +43,27 @@ IAM™ Intelligence 💪
 
 ## De dónde sale cada cosa
 
-**El criterio de «activas con procesos activos».** Tus palabras del 5 de octubre:
-*«las áreas comprometidas, que son las que sacaron ejercicios adelante»*. Son siete
-en tu carril de Afilar, IPS, Agencia de Empleo, Subsidio, Jurídica, Sub. Admin y
-Financiera, Servicios Sociales y Comunicaciones, más Educación y Vivienda que tú
-pediste de cuarta y quinta. Las nueve tienen procesos medidos en la Sala de Control.
+**El criterio de «activas con procesos activos».** Las once que tienen procesos
+medidos y en firme en la Sala de Control, que es la regla que las dos sesiones del
+30 de octubre repiten para esta jornada: lo que no está documentado no se presenta.
+Dentro están las siete de tu carril de Afilar del 5 de octubre, *«las áreas
+comprometidas, que son las que sacaron ejercicios adelante»*, más Educación y
+Vivienda que pediste de cuarta y quinta, más Contabilidad y Sub. Operativa.
 
-**El orden.** Las cinco primeras las fijaste tú. De la sexta a la novena las puse
+**El orden.** Las cinco primeras las fijaste tú. De la sexta a la undécima las puse
 por horas recuperadas, de mayor a menor, Jurídica 23,6, Subsidio 23,0, Comunicaciones
-13,7 y Servicios Sociales 10,9. Servicios Sociales queda de octava y no de novena
-porque es la única del grupo que ya tiene espacio asignado en la jornada.
+13,7, Servicios Sociales 10,9, y Contabilidad y Sub. Operativa con 2,4 cada una.
+Servicios Sociales queda de octava y no de novena porque es la única del grupo que ya
+tiene espacio asignado en la jornada. Contabilidad va antes de Sub. Operativa porque
+tiene ocho sesiones de recorrido y porque el director nombró a Carlos como el usuario
+que debería mostrar su tablero.
+
+**Las cuatro indicaciones.** Son tuyas, del 3 de noviembre. Las puse en viñetas y no
+numeradas para que no se confundan con los números de las áreas. Mantuve «una o dos
+diapositivas bastan, lo demás se muestra en vivo» porque la indicación que ya recibieron
+las áreas el 30 de octubre era no preparar presentación elaborada, y conviene que las dos
+cosas no se contradigan. La tercera y la cuarta son nuevas para las áreas: ninguna de las
+dos sesiones del 30 de octubre les pidió inventario de segunda fase ni hiperconectividad.
 
 **La fecha y la jornada.** De las dos sesiones del 30 de octubre, que fueron de
 preparación de esta presentación. La ficha de IPS dice que el área va en segundo
@@ -62,11 +80,12 @@ Financiera Comfacesar», no con su nombre.
 muestra 133,9 horas porque el recálculo a 187,8 sigue sin poder publicarse, así que si
 María Elvira abre el tablero vería una cifra distinta a la del WhatsApp.
 
-**Contabilidad, Sub. Operativa y Cumplimiento.** Tienen procesos medidos, 2,4, 2,4 y
-0,1 horas, pero no están en tu carril de Afilar y su última sesión fue entre el 16 y
-el 25 de septiembre. Contabilidad es la que más dudo: el director nombró a Carlos como
-ejemplo de usuario que debería mostrar su tablero. Si la quieres dentro, entra de
-décima y el resto no se mueve.
+**Cumplimiento.** Es la única de las doce con procesos medidos que queda fuera. Llegó
+solo a la S2, del 22 de septiembre, y sus cuatro ejercicios son de formación, el canal,
+el tablero, el prompt y el método CREA, no un proceso en producción. Tiene 0,1 horas
+medidas. Además su representante original salió del programa en el relevo que aprobó
+María Elvira el 11 de septiembre, por haber cancelado la S2 sin reagendar. Si la
+quieres dentro entra de duodécima y el resto no se mueve.
 
 **Un nombre por área.** No lo puse, salvo Rafael. Subsidio cerró con Cindy Rodríguez
 pero el representante aprobado es José Luciano Contreras, Jurídica tiene tres personas
@@ -79,5 +98,6 @@ justo el error que no conviene.
 Lucía no estaba corriendo, así que no pude preguntarle en vivo cuáles áreas no van,
 como me dijiste. Su registro y su archivo de Slack llegan hasta el 13 de octubre y no
 tienen nada de esta presentación. Así que **el corte entre activas e inactivas es mi
-lectura de sus 94 fichas y del tablero, no su confirmación.** Cuando ella corra, o
+lectura de sus 94 fichas y del tablero, no su confirmación.** El conteo de once lo
+pusiste tú y cuadra con el tablero. Cuando ella corra, o
 cuando tú me digas, lo ajusto en un minuto.
