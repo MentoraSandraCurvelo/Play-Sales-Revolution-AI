@@ -8,7 +8,7 @@ rinde bien y se lee de corrido.
 
 ---
 
-⭕️ María Elvira, sí presentan todas. Este es el orden del viernes 6 y quién pasa por cada área.
+⭕️ María Elvira, de las dieciocho áreas del programa presentan doce. Este es el orden del viernes 6 y quién pasa por cada una.
 
 *1. Agencia de Empleo* · Lina María Rincón y José Jaime Maya
 *2. IPS* · Danilo Pozo, con dos personas más de su equipo
@@ -23,9 +23,16 @@ rinde bien y se lee de corrido.
 *11. Sub. Operativa* · Jennifer
 *12. Gerencia Financiera* · Liliany
 
-Ojo con un detalle: son dos Cindy distintas. Cindy Silva es la de Vivienda y Cindy Rodríguez la de Subsidio.
+Las seis que no presentan, con la fecha de su última sesión:
 
-IAM™ Intelligence 💪
+*Tecnología*, 25 de septiembre
+*Mercadeo*, 24 de septiembre
+*Cumplimiento*, 22 de septiembre
+*Talento Humano*, 16 de septiembre
+*Tesorería*, 9 de septiembre
+*Planeación*, 3 de septiembre
+
+IAM™ Intelligence
 
 ---
 
@@ -38,11 +45,20 @@ tercera. No se movió nada.
 de Agencia de Empleo el 15 de agosto y escribe desde `agenciaempleo@comfacesar.com`,
 el buzón del área, que es lo coherente con que sea el líder.
 
-**Las dos Cindy van con apellido a propósito.** El registro tiene una advertencia
-expresa sobre ellas, porque son personas distintas: **Cindy Marcela Silva Ibarra**
-es de Vivienda, con `fovis@comfacesar.com`, y **Cindy Rodríguez** es de Subsidio y
-Aportes, con `atencion_reclamos@comfacesar.com`. Escribir «Cindy» a secas en un
-mensaje a la sponsor es la forma más fácil de que alguien cite a la que no es.
+**Las dos Cindy van con apellido, y sin advertencia.** Cada una queda en su área
+y con eso basta: **Cindy Silva** en Vivienda, con `fovis@comfacesar.com`, y
+**Cindy Rodríguez** en Subsidio y Aportes, con `atencion_reclamos@comfacesar.com`.
+
+**Las seis que no presentan** salen de cruzar las doce de la jornada contra las
+dieciocho del programa. Tú nombraste cuatro, Tesorería, Cumplimiento, Planeación
+y Talento Humano; faltaban **Mercadeo y Tecnología**, que son dos, no una. Las
+fechas son la de la última sesión con acta de cada área.
+
+**Conviene tener presente** que Mercadeo y Tecnología son dos de las tres áreas
+que el director pidió mejorar por su cuenta, *«no los que están proactivos, sino
+los que no, mercadeo, sistemas, vivienda»*. De esas tres solo Vivienda presenta,
+y ahora de tercera. Si él pregunta por las otras dos el viernes, no hay nadie en
+la lista que le responda.
 
 **Comunicaciones queda abierta** porque tú dijiste que ella diga quiénes pasan.
 Es su propia área, así que la pregunta va donde corresponde. Las últimas sesiones
