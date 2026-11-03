@@ -50,5 +50,6 @@ La llave de la API tiene permisos `openid`, `profile` y `w_member_social`: **pub
 ## Banners (3 nov 2026)
 
 - Perfil: `imagenes/banner-perfil-v4.jpg` (subido). Texto a la derecha para que la foto de perfil no lo tape. Botón "Agenda 30 minutos · iamlatam.co".
-- Página IAM™: `imagenes/banner-pagina-iam-v7.jpg` (aprobado por Sandra). "IA" en grande, prueba de +800 h al mes, tablero IAE™ con la sigla explicada y foto de Sandra. La esquina de abajo a la izquierda queda libre por el logo.
+- Página IAM™: `imagenes/banner-pagina-iam-v9.jpg` (subida el 3 nov 2026, verificada con simulación de Chrome; la v7 se descartó porque el logo tapaba texto). "IA" en grande, prueba de +800 h al mes, tablero IAE™ con la sigla explicada y foto de Sandra. La esquina de abajo a la izquierda queda libre por el logo.
 - Página IAM™: 105 seguidores frente a 7.461 del perfil (3 nov). El perfil es el motor.
+- Tamaño de la página: "0-1 empleados" es correcto (Sandra es la única empleada, 3 nov 2026). No se cambia.
