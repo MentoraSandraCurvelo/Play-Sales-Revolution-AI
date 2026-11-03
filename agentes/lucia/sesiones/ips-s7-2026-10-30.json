@@ -1,0 +1,204 @@
+{
+  "proyecto": "Comfacesar",
+  "programa": "IAM™ Intelligence",
+  "anio": "2026",
+  "area": "IPS",
+  "area_completa": "IPS, Seguridad y Salud en el Trabajo",
+  "sesion_num": 7,
+  "fase": "Cierre de la primera fase",
+  "fecha": "30 de octubre de 2026",
+  "fecha_corta": "30octubre2026",
+  "subtitulo_meta": "Preparación de la presentación final · 30 de octubre de 2026 · 2:00 p. m. · 46 min",
+  "datos_sesion": [
+    [
+      "Área(s)",
+      "IPS, Seguridad y Salud en el Trabajo, Comfacesar"
+    ],
+    [
+      "Sesión",
+      "N° 7. Preparación de la presentación al director del viernes 6 de noviembre"
+    ],
+    [
+      "Fecha",
+      "Viernes 30 de octubre de 2026, 2:00 p. m."
+    ],
+    [
+      "Duración",
+      "46 minutos"
+    ],
+    [
+      "Modalidad",
+      "Virtual, Microsoft Teams"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo, Mentora IAM™"
+    ]
+  ],
+  "kpis": [
+    {
+      "valor": "222",
+      "etiqueta": "Millones de pesos al año",
+      "detalle": "Lo que cuesta hoy cumplir el cronograma de capacitaciones como se viene haciendo"
+    },
+    {
+      "valor": "53",
+      "etiqueta": "Temas de capacitación",
+      "detalle": "El cronograma que exige la norma para los panoramas de riesgo del personal"
+    },
+    {
+      "valor": "23",
+      "etiqueta": "Sedes",
+      "detalle": "Alrededor de 900 trabajadores y cerca de 160 cargos distintos"
+    },
+    {
+      "valor": "20.000",
+      "etiqueta": "Kilómetros al año",
+      "detalle": "Doce viajes a siete u ocho municipios del Cesar en condiciones normales"
+    }
+  ],
+  "participantes": [
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Danilo Pozo",
+      "cargo": "Líder de Seguridad y Salud en el Trabajo",
+      "correo": "sst@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Avanzado"
+    },
+    {
+      "nombre": "Jurgen Saurith Araujo",
+      "cargo": "Equipo de Seguridad y Salud en el Trabajo",
+      "correo": "auxiliarsst@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Avanzado"
+    }
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 7. El área llega al cierre con la plataforma de capacitaciones construida y probada, y con el costo del proceso actual cuantificado. Lo que queda no es construir: es dejarlo registrado antes del viernes.",
+  "riesgos": [
+    {
+      "titulo": "La plataforma no está registrada en el tablero del área",
+      "nivel": "ALTO",
+      "descripcion": "**El ejercicio más importante del área no figura en el tablero.** _Y la regla del cierre es que lo que no está documentado no se presenta._ Si el viernes se muestra la plataforma sin su registro, queda sin la cifra de antes y después que la sostiene."
+    },
+    {
+      "titulo": "El costo del servidor sigue sin definir",
+      "nivel": "MEDIO",
+      "descripcion": "**La plataforma corre hoy sobre un computador adaptado como servidor**, montado para las pruebas piloto. _No hay dato del costo de llevarlo a un servidor en línea_, y la caja tiene servidores propios cuyo uso tampoco está decidido."
+    },
+    {
+      "titulo": "Los agentes necesitan corrección antes de mostrarse",
+      "nivel": "MEDIO",
+      "descripcion": "**El área tiene agentes creados y funcionando**, pero el equipo señaló que hay cosas por corregir. _Un agente que falla delante del director resta en vez de sumar._"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Registrar la plataforma de capacitaciones en el tablero",
+      "descripcion": "**Con su antes y su después, en horas y en pesos.** _Es el ejercicio que sostiene la cifra de 222 millones._ Sin ese registro no se puede presentar."
+    },
+    {
+      "num": "02",
+      "nivel": "MEDIO",
+      "titulo": "Repasar los agentes antes del viernes",
+      "descripcion": "**Dejarlos corriendo y verificados**, porque el director va a ver qué tareas hacen solos: correos, resúmenes, informes."
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · El contexto normativo y su costo",
+      "duracion": "~10 min",
+      "objetivo": "Dejar cuantificado de dónde viene el área antes de mostrar la herramienta.",
+      "pasos": [
+        "El decreto 1072 y la resolución 0312 obligan a capacitar según el panorama de riesgo de cada cargo.",
+        "Veintitrés sedes, alrededor de 900 trabajadores y cerca de 160 cargos convierten eso en un cronograma de 53 temas.",
+        "El equipo se traslada a siete u ocho municipios del Cesar, doce viajes al año y alrededor de 20.000 kilómetros.",
+        "Comisiones de viaje, hoteles, combustible y peajes suman cerca de 222 millones de pesos al año."
+      ],
+      "resultado": "El área llega a la presentación con el costo del proceso actual puesto en números, no en adjetivos."
+    },
+    {
+      "titulo": "Ejercicio B · La plataforma de capacitaciones prevencionistas",
+      "duracion": "~20 min",
+      "objetivo": "Revisar la herramienta completa, de la inscripción al certificado firmado.",
+      "pasos": [
+        "Dos perfiles: administrativo y colaborador.",
+        "El cruce de la matriz de peligro, el plan de capacitaciones y la base de datos de funcionarios asigna por número de cédula las capacitaciones que le tocan a cada cargo, y suma las del rol cuando la persona pertenece a un comité.",
+        "El video no se puede adelantar y la evaluación solo se habilita cuando la capacitación se ve completa.",
+        "Antes de abrir el módulo el colaborador firma desde el teléfono o el computador y acepta el tratamiento de datos.",
+        "Las firmas caen en el formato de asistencia del sistema de gestión, descargable en Excel.",
+        "El acceso solo se permite en horario laboral, por la ley de desconexión laboral.",
+        "Hay módulo de invitados para contratistas que no son empleados de la caja."
+      ],
+      "resultado": "El cumplimiento normativo queda demostrable de punta a punta: capacitación vista, evaluación ganada, certificado emitido y firma registrada."
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 7 · 30 octubre 2026",
+      "titulo": "La firma fue el detalle que convirtió la herramienta en prueba",
+      "cuerpo": "**El certificado automático no bastaba.** _Lo que pide un ente de control es el formulario firmado_, y esa objeción la puso el área, no la herramienta. De ahí salió la firma previa al módulo que alimenta el formato de asistencia. **Es el paso que convierte una plataforma de cursos en un respaldo jurídico.**"
+    },
+    {
+      "encabezado": "★ LA CORRECCIÓN QUE HAY QUE LLEVAR A LA PRESENTACIÓN",
+      "titulo": "No es un software. Es una aplicación web hecha con inteligencia artificial",
+      "cuerpo": "**Quedó corregido en la sesión y conviene decirlo así el viernes.** _Jurgen no está desarrollando un producto de software_: construyó una plataforma con herramientas de IA y la montó en un servidor. **Decirlo con precisión protege al área de una expectativa que no le corresponde.**"
+    },
+    {
+      "encabezado": "★ EL ALCANCE QUE EL ÁREA YA VE",
+      "titulo": "Los alimentadores están identificados: Talento Humano y Jurídica",
+      "cuerpo": "**El área sabe de dónde le entra la gente.** _Talento Humano trae los términos fijos, indefinidos y de bolsa; Jurídica trae los contratistas._ Con esos dos definidos, nadie entra a la caja sin pasar por la herramienta. **Y otras áreas ya quieren su propio módulo dentro de la misma plataforma.**"
+    }
+  ],
+  "tareas_intro": "El área llega al cierre con la plataforma construida, probada y con su costo cuantificado. Lo que falta antes del viernes es registro y repaso, no construcción.",
+  "tareas": [
+    {
+      "tarea": "Registrar el ejercicio de la plataforma de capacitaciones en el tablero del área, con antes y después en horas y en pesos",
+      "responsable": "Jurgen Saurith Araujo",
+      "prioridad": "URGENTE",
+      "plazo": "Antes del viernes 6"
+    },
+    {
+      "tarea": "Repasar y corregir los agentes del área para mostrarlos funcionando",
+      "responsable": "IPS",
+      "prioridad": "ALTA",
+      "plazo": "Antes del viernes 6"
+    },
+    {
+      "tarea": "Armar la narrativa del antes y el después por cada ejercicio: incapacidades, vigías, inventario con código QR y la plataforma",
+      "responsable": "Danilo Pozo",
+      "prioridad": "ALTA",
+      "plazo": "Antes del viernes 6"
+    },
+    {
+      "tarea": "Cerrar el dato del costo del servidor, o dejarlo declarado como pendiente en la presentación",
+      "responsable": "Jurgen Saurith Araujo",
+      "prioridad": "MEDIA",
+      "plazo": "Antes del viernes 6"
+    }
+  ],
+  "observaciones": [
+    "**El área tiene una hora en la jornada del viernes 6 y va en segundo lugar**, después de Agencia de Empleo. _Es una de las áreas que la dirección quiere ver._",
+    "**El ahorro que el área proyecta está entre 100 y 150 millones de pesos al año**, y a eso le suma algo que no se mide en pesos: dejar de exponer al equipo a viajar por municipios con riesgo público.",
+    "**La fórmula que el área identificó como causa de su resultado es de dos personas.** _El líder pone la norma y el criterio; el equipo pone las horas y la construcción._ Danilo lo dijo sin rodeos: el éxito viene por Jurgen.",
+    "**El área pidió explícitamente que la dirección entienda el punto de partida antes de ver la herramienta.** Por eso llevan diapositivas de contexto, aunque la indicación general era no preparar presentación.",
+    "**Nota de nombre:** el informe de Teams lo trae como DANIEL POZO. _Él mismo lo aclaró en la sesión:_ se llama Daniel Danilo y todo el mundo le dice Danilo. **En las actas se nombra Danilo Pozo**, que es la forma que usa Slack."
+  ],
+  "proxima_sesion": {
+    "sesion": "Presentación final ante la dirección, viernes 6 de noviembre",
+    "condiciones": [
+      "La plataforma registrada en el tablero del área",
+      "Los agentes corregidos y corriendo",
+      "El antes y el después armado por cada ejercicio, en horas y en pesos"
+    ]
+  },
+  "pie": "IAM™ Intelligence · Documento Confidencial | Comfacesar | 30 octubre 2026 | IPS · Sesión 7"
+}

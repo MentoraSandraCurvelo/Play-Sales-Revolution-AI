@@ -1,0 +1,178 @@
+{
+  "proyecto": "Comfacesar",
+  "programa": "IAM™ Intelligence",
+  "anio": "2026",
+  "area": "Servicios Sociales",
+  "area_completa": "Servicios Sociales",
+  "sesion_num": 13,
+  "fase": "Cierre de la primera fase",
+  "fecha": "30 de octubre de 2026",
+  "fecha_corta": "30octubre2026",
+  "subtitulo_meta": "Preparación de la presentación final · 30 de octubre de 2026 · 3:00 p. m. · 12 min",
+  "datos_sesion": [
+    [
+      "Área(s)",
+      "Servicios Sociales, Comfacesar"
+    ],
+    [
+      "Sesión",
+      "N° 13. Preparación de la presentación al director del viernes 6 de noviembre"
+    ],
+    [
+      "Fecha",
+      "Viernes 30 de octubre de 2026, 3:00 p. m."
+    ],
+    [
+      "Duración",
+      "12 minutos"
+    ],
+    [
+      "Modalidad",
+      "Virtual, Microsoft Teams"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo, Mentora IAM™"
+    ]
+  ],
+  "kpis": [
+    {
+      "valor": "13",
+      "etiqueta": "Sesiones del área",
+      "detalle": "Servicios Sociales es una de las áreas con más recorrido del programa"
+    },
+    {
+      "valor": "3",
+      "etiqueta": "Semanas sin sesión",
+      "detalle": "La última fue el 6 de octubre, y en ese tiempo el área siguió trabajando sola"
+    },
+    {
+      "valor": "30",
+      "etiqueta": "Minutos en la jornada",
+      "detalle": "El área maneja su tiempo dentro de ese espacio"
+    }
+  ],
+  "participantes": [
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Juan Pablo",
+      "cargo": "Servicios Sociales",
+      "correo": "pro_juniorss@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Avanzado"
+    }
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 13. El área llega al cierre con ejercicios hechos que no están registrados, y con una lectura propia que subestima lo logrado.",
+  "riesgos": [
+    {
+      "titulo": "Hay ejercicios hechos que no están en el tablero",
+      "nivel": "ALTO",
+      "descripcion": "**El área lo reconoció en la sesión:** _ha hecho ejercicios y no los ha ido subiendo._ Y la regla del cierre es que lo que no está documentado no se presenta. **Es trabajo ya hecho que corre el riesgo de no contar.**"
+    },
+    {
+      "titulo": "El área tiende a minimizar lo que logró",
+      "nivel": "ALTO",
+      "descripcion": "**El argumento del área es que su proceso no es operativo**, que usa la herramienta dos o tres veces por semana y que por eso pesa menos que la de un área con rutinas estructuradas. _Esa lectura lleva a presentar en quince minutos lo que merece media hora._"
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Actualizar el tablero antes del viernes",
+      "descripcion": "**Con los ejercicios que el área ya hizo y no ha subido.** _Es el inventario de lo que se puede mostrar._"
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Presentar el antes y el después en horas y en pesos",
+      "descripcion": "**Tres diapositivas bastan.** _Cuánto tardaba el proceso antes, cuánto tarda ahora, y qué representa eso en dinero._ Si el área no tiene el cálculo, la mentoría lo aporta."
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Qué se presenta y cómo",
+      "duracion": "~6 min",
+      "objetivo": "Fijar el formato de la presentación al director.",
+      "pasos": [
+        "El viernes 6 es jornada completa y el área pasa en representación de Servicios Sociales.",
+        "No hay que preparar una presentación visual elaborada: se muestra en vivo lo construido.",
+        "El eje es el antes y el después, expresado en horas y en pesos.",
+        "Se muestran los ejercicios documentados, uno por uno, con lo que cada uno resolvió."
+      ],
+      "resultado": "El área sale con el formato claro y con la tarea de actualizar el tablero, que es de donde salen los ejercicios que puede mostrar."
+    },
+    {
+      "titulo": "Ejercicio B · La corrección sobre el peso del área",
+      "duracion": "~5 min",
+      "objetivo": "Desmontar la idea de que un área poco operativa tiene menos que mostrar.",
+      "pasos": [
+        "El área plantea que usa la herramienta dos o tres veces por semana y que hay áreas que la usan a toda hora.",
+        "Lo que mide el proyecto es el tiempo recuperado y la productividad, no la frecuencia de uso.",
+        "La comparación no es contra otra área: es contra el propio punto de partida.",
+        "La pregunta que suma es en qué se está empleando ahora el tiempo que se liberó."
+      ],
+      "resultado": "Queda dicho que la presentación no debe minimizar nada, y que si falta algo es importante decirlo para que entre en el alcance de lo que sigue."
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 13 · 30 octubre 2026",
+      "titulo": "La frecuencia de uso no es la medida, y confundirlas le cuesta al área",
+      "cuerpo": "**El área llegó convencida de que con quince minutos bastaba**, porque su proceso no es tan operativo como el de una IPS o una tesorería. _Eso es confundir cuántas veces se usa la herramienta con cuánto tiempo devolvió._ **Lo que el proyecto mide es productividad, y eso no depende de si el área maneja rutinas estructuradas.**"
+    },
+    {
+      "encabezado": "★ EL VACÍO QUE EL ÁREA IDENTIFICÓ POR SU CUENTA",
+      "titulo": "Trabajar la misma información desde el equipo de escritorio y el portátil",
+      "cuerpo": "**Hoy le toca llevar y traer archivos entre los dos equipos.** _Lo que pide es que lo que haga en uno quede actualizado en el otro._ **Es exactamente el problema que resuelve la conectividad entre áreas y equipos**, y no es un asunto de Servicios Sociales sino transversal a toda la caja."
+    }
+  ],
+  "tareas_intro": "La sesión fue corta porque el área está lista en lo sustancial. Lo que falta es registro, y una decisión sobre cómo se cuenta.",
+  "tareas": [
+    {
+      "tarea": "Actualizar el tablero con los ejercicios hechos y no subidos",
+      "responsable": "Juan Pablo",
+      "prioridad": "URGENTE",
+      "plazo": "Antes del viernes 6"
+    },
+    {
+      "tarea": "Armar tres diapositivas con el antes y el después, en horas y en pesos",
+      "responsable": "Juan Pablo",
+      "prioridad": "ALTA",
+      "plazo": "Antes del viernes 6"
+    },
+    {
+      "tarea": "Preparar la lista de los ejercicios a mostrar, entre ellos las actas de inicio, finalización y liquidación de contrato, y el presupuesto de la carrera",
+      "responsable": "Juan Pablo",
+      "prioridad": "ALTA",
+      "plazo": "Antes del viernes 6"
+    },
+    {
+      "tarea": "Aportar el cálculo de horas y pesos si el área no alcanza a hacerlo",
+      "responsable": "Mentoría IAM™",
+      "prioridad": "MEDIA",
+      "plazo": "Antes del viernes 6"
+    }
+  ],
+  "observaciones": [
+    "**El área tiene media hora asignada y puede usar menos si así lo decide.** _La indicación fue que no se estrese y que mantenga la presentación simple, pero sin minimizar lo construido._",
+    "**Juan Pablo había rechazado la invitación del calendario el 29 de octubre** y aun así asistió. _La sesión se hizo y quedó grabada._",
+    "**La sesión duró doce minutos.** Es la más corta del área en todo el programa, y fue suficiente porque lo que quedaba era acordar formato, no construir.",
+    "**Entre los ejercicios del área que el propio Juan Pablo mencionó** están las plantillas que venía diligenciando a mano: actas de inicio, de finalización y de liquidación de contrato."
+  ],
+  "proxima_sesion": {
+    "sesion": "Presentación final ante la dirección, viernes 6 de noviembre",
+    "condiciones": [
+      "El tablero actualizado con los ejercicios pendientes de subir",
+      "El antes y el después armado, en horas y en pesos",
+      "La lista de ejercicios a mostrar definida"
+    ]
+  },
+  "pie": "IAM™ Intelligence · Documento Confidencial | Comfacesar | 30 octubre 2026 | Servicios Sociales · Sesión 13"
+}
