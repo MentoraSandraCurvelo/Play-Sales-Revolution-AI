@@ -1,21 +1,24 @@
-# Newsletter de Sandra en LinkedIn · plan editorial (3 nov 2026)
+# Newsletter "Lo que nadie te dice de la IA" · plan editorial (actualizado 3 nov 2026)
 
-- Cadencia: cada 15 días (decisión de Sandra).
-- Formato: el mismo de la última edición publicada (hace un año): banner, enlaces y estructura. Pendiente: que Chrome copie esa edición completa para replicarla.
-- Tema: IA pura y dura, práctica, con tips. No solo Claude: también Gemini, NotebookLM y el ecosistema de Google.
-- Regla: las funciones de las herramientas cambian cada mes. Antes de escribir cada edición se verifica en la documentación oficial que cada función, nombre y paso exista hoy. Lo que no se pueda verificar, no entra.
-- Cada edición cierra con invitación a seguir a Sandra y a la página IAM™.
-- Flujo: Claude redacta y diseña el banner → Sandra aprueba → Claude en Chrome toma pantallazos reales de cada paso y publica.
+- Nombre nuevo aprobado por Sandra: **Lo que nadie te dice de la IA** (antes "IA + Ventas= Exito Garantizado").
+- Descripción: La IA no es una herramienta, es un sistema de trabajo. Cada 15 días te cuento lo que sí funciona en las empresas y en las redes, paso a paso y medido en horas y en pesos. Por Sandra Curvelo.
+- Cadencia: cada 15 días. Formato: el de la edición del 12 jun 2025 (ver `formato.md`).
+- Temas: IA práctica en general, no sesgada a una marca. Claude, Gemini, Google, Mentimeter, redes sociales y lo que sirva.
+- Regla: las funciones cambian cada mes. Antes de escribir cada edición se verifica en la documentación oficial que cada función, nombre, plan y paso exista ese día. Lo que no se pueda verificar, no entra.
 
-## Calendario propuesto (fechas por confirmar)
+## Calendario (fechas por confirmar)
 
 | # | Fecha | Tema |
 |---|---|---|
-| 1 | Jue 12 nov | Cómo conecté LinkedIn con Claude: el agente que publica por mí y por qué yo apruebo todo. Incluye el error de seguridad que no debes cometer con tu llave |
-| 2 | Jue 26 nov | Agente en la nube vs Claude en Chrome: qué puede hacer cada uno. Bonus: analiza tu perfil de LinkedIn con IA |
-| 3 | Jue 10 dic | Proyectos, agentes, habilidades y plugins: el mapa para no perderse. Instructivo para crear tu primer agente |
-| 4 | Jue 7 ene | Gemini Deep Research: investigación profunda en minutos, y cuándo usarla en vez de Claude |
-| 5 | Jue 21 ene | El entorno de Google: Gemini en Workspace, NotebookLM y los planes de Google |
-| 6 | Jue 4 feb | Diseña tus banners y carruseles con IA, y usa la IA para comentar en LinkedIn sin perder tu voz |
+| 1 | Jue 12 nov | Conecté LinkedIn con Claude: el agente que publica por mí, por qué yo apruebo todo y el error de seguridad que no debes cometer |
+| 2 | Jue 26 nov | Tu IA, experta en LinkedIn e Instagram: revisar métricas y saber qué funciona sin depender de un analista |
+| 3 | Jue 10 dic | Proyectos, agentes, habilidades y plugins: el mapa para no perderse, con instructivo para crear tu primer agente |
+| 4 | Jue 7 ene | Gemini Deep Research y los planes de IA de Google: qué incluye cada uno y para qué te sirve |
+| 5 | Jue 21 ene | NotebookLM y el entorno de Google Workspace: tu segundo cerebro de trabajo |
+| 6 | Jue 4 feb | Conferencias con IA: Mentimeter para que el público participe, y banners y carruseles diseñados con IA |
 
-El 24 de diciembre se salta por fiestas; la edición 4 pasa a enero.
+## Banco de temas para después
+- Agente en la nube vs Claude en Chrome: qué puede hacer cada uno.
+- Analiza tu perfil de LinkedIn con IA.
+- Comentar en LinkedIn con IA sin perder tu voz (y por qué tú siempre apruebas).
+- Darle un rol a la IA: "actúa como experto en LinkedIn / en Instagram" y cómo se vuelve una habilidad reutilizable.
