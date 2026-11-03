@@ -19,7 +19,7 @@ PARTE 1 · Mis publicaciones (sin preguntarme, ya están aprobadas)
 
 PARTE 2 · Comentarios de visibilidad (con mi aprobación)
 3a. PRIMERO, el Vicepresidente: abre el perfil de José Manuel Restrepo, sección Actividad. Si tiene una publicación de las últimas 24 horas donde yo no he comentado, ese es el comentario número 1 del día, y márcalo como URGENTE si la publicación tiene menos de 2 horas. (Agregado el 3 nov 2026: el comentario en su post de Guyana tuvo 248 impresiones y 7 reacciones, mi mejor resultado de la semana.)
-3b. Revisa si alguien respondió a mis comentarios o comentó en mis posts. Para cada respuesta, redacta una contestación corta y muéstramela con los demás para aprobar.
+3b. (Actualizado el 3 nov 2026) Revisa si alguien respondió a mis comentarios en publicaciones de otros o comentó en mis posts. A CADA respuesta dale "Recomendar" de inmediato, sin preguntarme (aprobado por Sandra). Si la respuesta trae una pregunta, un dato o una idea que merece seguir la conversación, redacta además una contestación corta (1 a 3 líneas, sin vender, sin hashtags) y muéstramela con los demás comentarios para aprobar. Nadie que me responda se queda sin al menos un like.
 4. Busca en mi feed y en LinkedIn publicaciones de las últimas 48 horas sobre IA empresarial, productividad, transformación digital, talento, gobierno, cajas de compensación y gremios. Prioriza:
    - El Vicepresidente José Manuel Restrepo y su equipo.
    - Líderes de IA en Colombia y Latinoamérica.
