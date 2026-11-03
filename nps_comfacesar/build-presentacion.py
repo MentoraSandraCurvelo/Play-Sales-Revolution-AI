@@ -904,4 +904,23 @@ HTML = f"""<title>Cierre IAM™ Intelligence Comfacesar</title>
 """
 
 SALIDA.write_text(HTML, encoding="utf-8")
+
+# Versión autónoma, para descargar y abrir fuera de la plataforma de artefactos.
+# El archivo publicado va sin doctype ni cabecera porque la plataforma los pone;
+# este los lleva, para que abra igual en cualquier navegador o se pueda subir
+# como archivo a otro lado.
+SUELTO = RAIZ / "presentacion-cierre-comfacesar-descargable.html"
+_corte = HTML.index('<div id="vp">')
+_cabeza, _cuerpo = HTML[:_corte], HTML[_corte:]
+SUELTO.write_text(
+    '<!doctype html>\n<html lang="es">\n<head>\n<meta charset="utf-8">\n'
+    '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">\n'
+    + _cabeza +
+    '<style>:root{color-scheme:light;box-sizing:border-box}'
+    'html,body{height:100%}body{margin:0;background:#050505;color:#f4f2ec}'
+    'img{max-width:100%}[hidden]{display:none!important}</style>\n'
+    '</head>\n<body>\n' + _cuerpo + '</body>\n</html>\n',
+    encoding="utf-8")
+
 print(f"escrito {SALIDA.name} · {len(HTML):,} bytes · {len(SLIDES)} diapositivas")
+print(f"escrito {SUELTO.name} · versión autónoma para descargar")

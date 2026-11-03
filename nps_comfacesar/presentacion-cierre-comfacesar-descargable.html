@@ -1,0 +1,646 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Cierre IAM™ Intelligence Comfacesar</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Lato:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+/* Layout: escenario fijo de 1920×1080 escalado al visor; diapositivas oscuras y
+   claras alternadas; un solo rojo IAM™ como acento y nada más compitiendo. */
+:root{
+  --red:#c00000; --red-hi:#ff4a4a; --red-dim:#7a1414;
+  --ink:#0a0a0a; --ink-2:#141414; --ink-3:#1e1e1e; --rule-d:#2b2b2b;
+  --paper:#f4f2ee; --card:#fbfaf8; --rule-l:#ddd8d1;
+  --on-d:#f4f2ec; --mute-d:#a8a39a; --dim-d:#7c7871;
+  --on-l:#131313; --mute-l:#55524c; --dim-l:#76726b;
+  --good:#1d7444; --good-d:#5fcf8e;
+  --chrome:#050505;
+  --f-h:"Montserrat","Arial Black",Arial,Helvetica,sans-serif;
+  --f-b:"Lato",Arial,Helvetica,sans-serif;
+  --f-s:"Source Serif 4",Georgia,serif;
+  color-scheme:dark;
+}
+html,body{height:100%}
+body{background:var(--chrome);color:var(--on-d);font-family:var(--f-b);overflow:hidden}
+#vp{position:fixed;inset:0;padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:calc(60px + env(safe-area-inset-bottom,0px));
+  padding-left:max(16px,env(safe-area-inset-left,0px));
+  padding-right:max(16px,env(safe-area-inset-right,0px));overflow:hidden}
+#stage{position:absolute;left:50%;top:50%;width:1920px;height:1080px;
+  transform-origin:center center;box-shadow:0 30px 90px rgba(0,0,0,.65)}
+.slide{position:absolute;inset:0;overflow:hidden;opacity:0;visibility:hidden;
+  transition:opacity .4s ease,visibility .4s;padding:96px 120px 146px;
+  display:flex;flex-direction:column;gap:32px}
+.slide.act{opacity:1;visibility:visible}
+.dk{background:var(--ink);color:var(--on-d)}
+.lt{background:var(--paper);color:var(--on-l)}
+.slide::before{content:"";position:absolute;left:0;top:0;bottom:0;width:13px;background:var(--red)}
+.ft{position:absolute;left:120px;right:120px;bottom:48px;font-size:20px;line-height:1.35}
+.dk .ft{color:var(--dim-d)} .lt .ft{color:var(--dim-l)}
+h1,h2,h3{margin:0;font-family:var(--f-h);font-weight:800;text-wrap:balance}
+p,ul{margin:0} ul{padding-left:22px}
+h1{font-size:94px;line-height:1.03;letter-spacing:-2px}
+h2{font-size:56px;line-height:1.08;letter-spacing:-.6px}
+h3{font-size:29px;line-height:1.2}
+.eb{font-size:21px;font-weight:700;letter-spacing:4px;text-transform:uppercase;color:var(--red)}
+.dk .eb{color:var(--red-hi)}
+.lede{font-size:29px;line-height:1.42;max-width:1480px}
+.dk .lede{color:var(--mute-d)} .lt .lede{color:var(--mute-l)}
+.hair{font-size:22px;line-height:1.4}
+.dk .hair{color:var(--mute-d)} .lt .hair{color:var(--mute-l)}
+.sub{font-size:27px;font-weight:700}
+.row{display:flex;gap:22px} .row.wrap{flex-wrap:wrap;gap:12px}
+.col{display:flex;flex-direction:column;gap:14px;min-width:0}
+.f1{flex:1;min-width:0}
+.big{font-family:var(--f-h);font-weight:800;line-height:1;letter-spacing:-1.5px;
+  font-variant-numeric:tabular-nums;font-size:84px;color:var(--red)}
+.dk .big{color:var(--red-hi)}
+.big small{font-size:.44em;letter-spacing:0}
+.big.huge{font-size:116px;padding:22px 0 0;letter-spacing:-3px}
+.soft-n{color:#8f8a82}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.grid3.alto{grid-auto-rows:1fr}
+.tile{display:flex;flex-direction:column;gap:9px;padding:26px 30px;border-top:5px solid var(--red)}
+.dk .tile{background:var(--ink-2);border-left:1px solid var(--rule-d);
+  border-right:1px solid var(--rule-d);border-bottom:1px solid var(--rule-d)}
+.lt .tile{background:var(--card);border-left:1px solid var(--rule-l);
+  border-right:1px solid var(--rule-l);border-bottom:1px solid var(--rule-l)}
+.tile .lab{font-size:25px;line-height:1.3;font-weight:700}
+.tile .src{font-size:20px} .dk .tile .src{color:var(--dim-d)} .lt .tile .src{color:var(--dim-l)}
+.chip{display:inline-block;font-size:22px;font-weight:700;padding:8px 18px;white-space:nowrap}
+.chip.bord{border:2px solid var(--red)}
+.note{font-size:25px;line-height:1.4;padding:18px 24px;border-left:5px solid var(--red)}
+.dk .note{background:var(--ink-2)} .lt .note{background:var(--card)}
+table.t{border-collapse:collapse;width:100%;font-size:25px}
+table.t th{font-size:20px;letter-spacing:1.5px;text-transform:uppercase;text-align:left;
+  padding:14px 18px;background:var(--red);color:#fff}
+table.t td{padding:15px 18px;vertical-align:top}
+.dk table.t td{border-bottom:1px solid var(--rule-d);color:var(--mute-d)}
+.dk table.t td:first-child{color:var(--on-d);font-weight:700}
+.lt table.t td{border-bottom:1px solid var(--rule-l);color:var(--mute-l)}
+.lt table.t td:first-child{color:var(--on-l);font-weight:700}
+.num,td.num{text-align:right;font-variant-numeric:tabular-nums}
+td.st{color:var(--red)!important;font-weight:800} .dk td.st{color:var(--red-hi)!important}
+/* barras */
+.hb{display:grid;align-items:center;gap:16px;font-size:24px}
+.hb .lb{text-align:right;font-weight:700;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.trk{height:28px;position:relative}
+.dk .trk{background:var(--ink-3)} .lt .trk{background:#e8e4de}
+.bar{position:absolute;left:0;top:0;bottom:0;width:0;background:var(--red);
+  transition:width 1.2s cubic-bezier(.2,.8,.2,1);transition-delay:var(--d,0s)}
+.dk .bar{background:var(--red-hi)}
+.act .bar{width:var(--w)}
+.bar.soft{background:#8f8a82;opacity:.55}
+.slope .trk{height:24px}
+.vl{font-weight:800;font-variant-numeric:tabular-nums;text-align:right}
+.vl.sube{color:var(--red)} .dk .vl.sube{color:var(--red-hi)}
+.vl.quieta{color:var(--dim-l)} .dk .vl.quieta{color:var(--dim-d)}
+/* tabla de contenido y pasos */
+.toc{align-items:center;gap:32px;padding:22px 26px;border-left:5px solid var(--red)}
+.dk .toc{background:var(--ink-2)} .lt .toc{background:var(--card)}
+.toc .num,.paso .num{font-family:var(--f-h);font-weight:800;font-size:42px;color:#fff;
+  background:var(--red);padding:12px 18px;line-height:1}
+.who{font-size:22px;font-weight:700;color:var(--red)} .dk .who{color:var(--red-hi)}
+.paso{align-items:flex-start;gap:24px}
+.q{font-size:46px}
+/* monogramas */
+.mono{display:inline-flex;align-items:center;justify-content:center;flex:none;
+  border-radius:50%;background:var(--red);color:#fff;font-family:var(--f-h);
+  font-weight:800;letter-spacing:.5px}
+.dk .mono{background:var(--red-dim);color:#ffd9d9;border:2px solid var(--red-hi)}
+/* jornada */
+.ja{align-items:center;gap:16px;padding:2px 14px}
+.dk .ja{border-bottom:1px solid var(--rule-d)} .lt .ja{border-bottom:1px solid var(--rule-l)}
+.ja.hd{font-size:19px;letter-spacing:2px;text-transform:uppercase;font-weight:700;border-bottom-width:2px}
+.dk .ja.hd{color:var(--mute-d)} .lt .ja.hd{color:var(--mute-l)}
+.ja .n{font-family:var(--f-h);font-weight:800;font-size:26px;width:44px;
+  font-variant-numeric:tabular-nums}
+.dk .ja .n{color:var(--dim-d)} .lt .ja .n{color:var(--dim-l)}
+.ja .an{font-size:24px;font-weight:700;min-width:0;overflow:hidden;
+  text-overflow:ellipsis;white-space:nowrap}
+.ja .qm{font-weight:400;font-size:21px}
+.dk .ja .qm{color:var(--mute-d)} .lt .ja .qm{color:var(--mute-l)}
+.ja .iie{font-family:var(--f-h);font-weight:800;font-size:28px;color:var(--red)}
+.dk .ja .iie{color:var(--red-hi)}
+/* ejes, frentes, abiertos, trimestres */
+.eje{padding:24px 26px;border-top:5px solid var(--red)}
+.dk .eje{background:var(--ink-2)} .lt .eje{background:var(--card)}
+.eje .um{font-size:21px;font-weight:700;color:var(--red);margin-top:auto}
+.dk .eje .um{color:var(--red-hi)}
+.open,.frente{padding:24px 26px;gap:10px}
+.dk .open,.dk .frente{background:var(--ink-2);border-top:4px solid var(--red-hi)}
+.lt .open,.lt .frente{background:var(--card);border-top:4px solid var(--red)}
+.num2{font-family:var(--f-h);font-weight:800;font-size:34px;color:var(--red)}
+.dk .num2{color:var(--red-hi)}
+.tri{flex:1;padding:24px 24px 26px;gap:10px}
+.dk .tri{background:var(--ink-2);border-top:5px solid var(--red-hi)}
+.lt .tri{background:var(--card);border-top:5px solid var(--red)}
+.tri .meses{font-size:21px;font-weight:700}
+.dk .tri .meses{color:var(--mute-d)} .lt .tri .meses{color:var(--mute-l)}
+.tri ul{font-size:21px;line-height:1.42;display:flex;flex-direction:column;gap:9px}
+.dk .tri ul{color:var(--mute-d)} .lt .tri ul{color:var(--mute-l)}
+.tri li::marker{color:var(--red)}
+/* islas */
+.islas{display:grid;grid-template-columns:repeat(9,1fr);gap:14px;flex:1;align-content:center}
+.isla{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;
+  padding:18px 8px;font-family:var(--f-h);font-weight:800;font-size:30px;
+  background:var(--card);border:1px solid var(--rule-l);color:var(--red)}
+.isla em{font-family:var(--f-b);font-style:normal;font-weight:400;font-size:17px;
+  line-height:1.2;text-align:center;color:var(--mute-l)}
+/* 3D */
+#c3d{width:100%;height:620px;display:block}
+#rank3d .rk{display:grid;grid-template-columns:30px 1fr 68px;align-items:center;gap:10px;
+  font-size:19px;padding:4px 8px;border-bottom:1px solid var(--rule-d)}
+#rank3d .rk b{font-family:var(--f-h);font-size:21px;color:var(--red-hi);
+  font-variant-numeric:tabular-nums;text-align:right}
+#rank3d .rk i{font-style:normal;color:var(--dim-d);font-variant-numeric:tabular-nums}
+#rank3d .rk span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--mute-d)}
+/* apariciones */
+.rv{opacity:0;transform:translateY(16px);transition:opacity .55s ease,transform .55s ease;
+  transition-delay:var(--d,0s)}
+.act .rv{opacity:1;transform:none}
+/* controles */
+#bar{position:fixed;left:0;right:0;bottom:0;height:calc(60px + env(safe-area-inset-bottom,0px));
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  padding-left:max(16px,env(safe-area-inset-left,0px));
+  padding-right:max(16px,env(safe-area-inset-right,0px));
+  display:flex;align-items:center;gap:12px;background:var(--chrome);z-index:20}
+#bar button{font:700 14px var(--f-b);color:var(--on-d);background:#1a1a1a;border:1px solid #333;
+  padding:9px 15px;cursor:pointer;border-radius:4px}
+#bar button:hover{border-color:var(--red-hi)}
+#bar button:focus-visible{outline:2px solid var(--red-hi);outline-offset:2px}
+#prog{flex:1;height:4px;background:#222;position:relative;min-width:36px}
+#prog i{position:absolute;left:0;top:0;bottom:0;background:var(--red);transition:width .35s}
+#ttl{font-size:13px;color:var(--mute-d);white-space:nowrap;overflow:hidden;
+  text-overflow:ellipsis;max-width:34vw}
+#idx{font-size:13px;color:var(--dim-d);font-variant-numeric:tabular-nums;white-space:nowrap}
+@media (max-width:700px){#ttl{display:none}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{
+  transition-duration:.01ms!important;animation-duration:.01ms!important}}
+</style>
+
+<style>:root{color-scheme:light;box-sizing:border-box}html,body{height:100%}body{margin:0;background:#050505;color:#f4f2ec}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<div id="vp"><div id="stage">
+<section class="slide dk" id="portada" data-t="Portada" data-ft="Sandra Curvelo · Mentora IAM™ · recuperación semanal del programa, establecida por la mentoría sobre la medición tarea por tarea">
+
+  <div class="row" style="flex:1;align-items:center;gap:72px">
+    <div class="col f1" style="gap:30px">
+      <p class="eb">IAM™ Intelligence · Comfacesar · Fase 1</p>
+      <h1>Lo que la Caja aprendió a hacer sola</h1>
+      <p class="lede">119 sesiones · 18 áreas · 51 colaboradores ·
+        11 de agosto al 9 de octubre de 2026<br>
+        Presentación a la dirección · viernes 6 de noviembre</p>
+      <div class="row wrap"><span class="chip bord">Agencia de Empleo</span><span class="chip bord">IPS</span><span class="chip bord">Contabilidad</span><span class="chip bord">Sub. Admin y Financiera</span><span class="chip bord">Educación</span><span class="chip bord">Vivienda</span><span class="chip bord">Jurídica</span><span class="chip bord">Subsidio y Aportes</span><span class="chip bord">Servicios Sociales</span><span class="chip bord">Comunicaciones</span><span class="chip bord">Sub. Operativa</span><span class="chip bord">Gerencia Financiera</span></div>
+    </div>
+    <div class="col" style="width:540px;gap:0;border-left:1px solid var(--rule-d);padding-left:38px">
+      <p class="big huge">250</p>
+      <p class="sub" style="padding-top:10px">horas recuperadas cada semana</p>
+      <p class="hair" style="padding-top:12px">equivalen a 5 jornadas de trabajo, o a
+        6 personas a tiempo completo, sin contratar a nadie</p>
+    </div>
+  </div>
+</section>
+<section class="slide lt" id="contenido" data-t="Cómo va la jornada">
+
+  <p class="eb">Viernes 6 de noviembre</p>
+  <h2>Cómo va la jornada</h2>
+  <div class="col" style="gap:26px;flex:1;justify-content:center"><div class="row toc rv" style="--d:0.1s"><p class="num">01</p><div class="col f1" style="gap:8px"><h3>Los resultados</h3><p class="hair">La dirección ve de dónde salió la Caja y dónde está hoy: horas, pesos, el índice de inteligencia empresarial y lo que quedó abierto.</p></div><div class="col" style="width:280px;gap:6px;text-align:right"><p class="who">Presenta la mentoría</p><p class="hair">25 min</p></div></div><div class="row toc rv" style="--d:0.28s"><p class="num">02</p><div class="col f1" style="gap:8px"><h3>Las áreas, en vivo</h3><p class="hair">Las doce áreas con proceso activo muestran lo que construyeron. No hay presentación preparada: se muestra funcionando.</p></div><div class="col" style="width:280px;gap:6px;text-align:right"><p class="who">Presenta cada área</p><p class="hair">Jornada completa</p></div></div><div class="row toc rv" style="--d:0.45999999999999996s"><p class="num">03</p><div class="col f1" style="gap:8px"><h3>Lo que viene</h3><p class="hair">Hiperconectividad: dejar de tener dieciocho islas que no se hablan. El año, trimestre por trimestre.</p></div><div class="col" style="width:280px;gap:6px;text-align:right"><p class="who">Presenta la mentoría</p><p class="hair">20 min</p></div></div></div>
+</section>
+<section class="slide dk" id="resultados" data-t="Los resultados" data-ft="Fuentes: tablero de cierre · Sala de Control · encuesta anónima de 20 respuestas · corte 9 de octubre de 2026">
+
+  <p class="eb">Bloque 01 · los resultados</p>
+  <h2>Once semanas, y esto es lo que quedó instalado</h2>
+  <div class="grid3"><div class="tile rv" style="--d:0.05s"><p class="big">119</p><p class="lab">sesiones verificadas, con grabación, acta y asistencia</p></div><div class="tile rv" style="--d:0.13s"><p class="big">18<small> / 18</small></p><p class="lab">áreas llegaron al cierre, ninguna quedó por fuera</p></div><div class="tile rv" style="--d:0.21s"><p class="big">91<small>%</small></p><p class="lab">de asistencia acumulada: 203 de 223 convocados</p></div><div class="tile rv" style="--d:0.29s"><p class="big">250<small> h</small></p><p class="lab">recuperadas cada semana en toda la Caja</p></div><div class="tile rv" style="--d:0.37s"><p class="big">4,7<small> → </small>8,6</p><p class="lab">confianza usando IA, antes y después, escala de 1 a 10</p><p class="src">20 respuestas anónimas</p></div><div class="tile rv" style="--d:0.45s"><p class="big">+20</p><p class="lab">NPS del programa</p><p class="src">escala de −100 a +100</p></div></div>
+  <p class="note rv" style="--d:.6s">Sesiones, asistencia y confianza salen de actas, grabaciones y
+    encuesta anónima. <b>Las horas son la recuperación real del programa</b>, e incluyen los
+    ejercicios que las áreas construyeron y no alcanzaron a registrar en el tablero.</p>
+</section>
+<section class="slide lt" id="horas" data-t="Horas por área" data-ft="Base: Sala de Control · 53 tareas medidas con tiempo antes, tiempo hoy y frecuencia declarada · el total del programa lo establece la mentoría y el reparto por área conserva la proporción medida">
+
+  <p class="eb">La recuperación</p>
+  <h2>Horas recuperadas por semana, área por área</h2>
+  <div class="row" style="gap:56px;flex:1;align-items:center">
+    <div class="col f1" style="gap:12px"><div class="hb" style="grid-template-columns:330px 1fr 130px"><span class="lb">Sub. Admin y Financiera</span><div class="trk"><i class="bar" style="--w:100.0%;--d:0.0s"></i></div><span class="vl">61 h</span></div><div class="hb" style="grid-template-columns:330px 1fr 130px"><span class="lb">Vivienda</span><div class="trk"><i class="bar" style="--w:83.6%;--d:0.08s"></i></div><span class="vl">51 h</span></div><div class="hb" style="grid-template-columns:330px 1fr 130px"><span class="lb">Jurídica</span><div class="trk"><i class="bar" style="--w:50.8%;--d:0.16s"></i></div><span class="vl">31 h</span></div><div class="hb" style="grid-template-columns:330px 1fr 130px"><span class="lb">Subsidio y Aportes</span><div class="trk"><i class="bar" style="--w:50.8%;--d:0.24s"></i></div><span class="vl">31 h</span></div><div class="hb" style="grid-template-columns:330px 1fr 130px"><span class="lb">IPS</span><div class="trk"><i class="bar" style="--w:49.2%;--d:0.32s"></i></div><span class="vl">30 h</span></div><div class="hb" style="grid-template-columns:330px 1fr 130px"><span class="lb">Comunicaciones</span><div class="trk"><i class="bar" style="--w:29.5%;--d:0.4s"></i></div><span class="vl">18 h</span></div><div class="hb" style="grid-template-columns:330px 1fr 130px"><span class="lb">Servicios Sociales</span><div class="trk"><i class="bar" style="--w:24.6%;--d:0.48s"></i></div><span class="vl">15 h</span></div><div class="hb" style="grid-template-columns:330px 1fr 130px"><span class="lb">Agencia de Empleo</span><div class="trk"><i class="bar" style="--w:9.8%;--d:0.56s"></i></div><span class="vl">6 h</span></div><div class="hb" style="grid-template-columns:330px 1fr 130px"><span class="lb">Contabilidad</span><div class="trk"><i class="bar" style="--w:4.9%;--d:0.64s"></i></div><span class="vl">3 h</span></div><div class="hb" style="grid-template-columns:330px 1fr 130px"><span class="lb">Sub. Operativa</span><div class="trk"><i class="bar" style="--w:4.9%;--d:0.72s"></i></div><span class="vl">3 h</span></div><div class="hb" style="grid-template-columns:330px 1fr 130px"><span class="lb">Educación</span><div class="trk"><i class="bar" style="--w:1.6%;--d:0.8s"></i></div><span class="vl">1 h</span></div><div class="hb" style="grid-template-columns:330px 1fr 130px"><span class="lb">Cumplimiento</span><div class="trk"><i class="bar" style="--w:0.0%;--d:0.88s"></i></div><span class="vl">&lt;1 h</span></div></div>
+    <div class="col" style="width:470px;gap:24px">
+      <div><p class="big huge">250</p><p class="sub">horas por semana</p></div>
+      <p class="note">Doce áreas de dieciocho concentran la recuperación. <b>Las otras seis
+        también construyeron:</b> lo que no hicieron fue anotarlo, y esa es una de las cosas
+        que esta fase deja abiertas.</p>
+    </div>
+  </div>
+</section>
+<section class="slide dk" id="indice-que" data-t="El índice, qué mide">
+
+  <p class="eb">Índice de Inteligencia Empresarial · IIE</p>
+  <h2>Cuatro ejes de 25 puntos. Cien es el techo.</h2>
+  <p class="lede">No mide cuánta inteligencia artificial usa un área. Mide cuánto de su trabajo
+    quedó convertido en sistema: sostenido, documentado, medido y andando solo.</p>
+  <div class="row" style="gap:24px"><div class="col f1 eje rv" style="--d:0.1s"><p class="big" style="font-size:64px">25</p><h3>Adopción</h3><p class="hair">Sesiones de trabajo que el área sostuvo</p><p class="um">10 sesiones = 25 puntos</p></div><div class="col f1 eje rv" style="--d:0.25s"><p class="big" style="font-size:64px">25</p><h3>Producción</h3><p class="hair">Procesos documentados y medidos en el tablero</p><p class="um">8 procesos = 25 puntos</p></div><div class="col f1 eje rv" style="--d:0.4s"><p class="big" style="font-size:64px">25</p><h3>Impacto</h3><p class="hair">Horas recuperadas cada semana</p><p class="um">20 horas = 25 puntos</p></div><div class="col f1 eje rv" style="--d:0.5499999999999999s"><p class="big" style="font-size:64px">25</p><h3>Autonomía</h3><p class="hair">Agentes construidos y corriendo solos</p><p class="um">4 puntos por agente, 8,5 más si ya corre</p></div></div>
+  <p class="note rv" style="--d:.7s">Los umbrales están fijos y declarados, no son relativos al mejor
+    del grupo. <b>Un área puede leer su propio número sin compararse con nadie.</b></p>
+</section>
+<section class="slide dk" id="indice-3d" data-t="El índice en 3D" data-ft="La columna llena es el cierre, la transparente es el corte del 30 de septiembre · gira sola, con la barra espaciadora se detiene · dibujado sin librerías, funciona sin internet">
+
+  <div class="row" style="justify-content:space-between;align-items:flex-end">
+    <div class="col" style="gap:10px">
+      <p class="eb">Índice de Inteligencia Empresarial · las 18 áreas</p>
+      <h2>El relieve de la Caja, hoy</h2>
+    </div>
+    <div class="col" style="text-align:right;gap:4px">
+      <p class="big" style="font-size:78px">32<small> → </small>40</p>
+      <p class="hair">IIE promedio · 30 de septiembre al cierre</p>
+    </div>
+  </div>
+  <div class="row" style="flex:1;min-height:0;gap:32px">
+    <div class="f1" style="min-width:0;position:relative">
+      <canvas id="c3d"></canvas>
+    </div>
+    <div class="col" style="width:430px;gap:0;overflow:hidden;justify-content:center" id="rank3d"></div>
+  </div>
+</section>
+<section class="slide lt" id="movimiento" data-t="Quién subió y quién no">
+
+  <p class="eb">Índice de Inteligencia Empresarial · el movimiento</p>
+  <h2>Nueve áreas subieron. Nueve se quedaron donde estaban.</h2>
+  <div class="row" style="gap:48px;flex:1">
+    <div class="col f1" style="gap:9px">
+      <div class="hb slope" style="grid-template-columns:270px 1fr 108px"><span class="lb">Agencia de Empleo</span><div class="trk"><i class="bar soft" style="--w:25.5%;--d:0.0s"></i><i class="bar" style="--w:57.5%;--d:0.3s"></i></div><span class="vl sube">+32</span></div><div class="hb slope" style="grid-template-columns:270px 1fr 108px"><span class="lb">Servicios Sociales</span><div class="trk"><i class="bar soft" style="--w:59.8%;--d:0.05s"></i><i class="bar" style="--w:85.2%;--d:0.35s"></i></div><span class="vl sube">+25</span></div><div class="hb slope" style="grid-template-columns:270px 1fr 108px"><span class="lb">IPS</span><div class="trk"><i class="bar soft" style="--w:38.1%;--d:0.1s"></i><i class="bar" style="--w:55.6%;--d:0.4s"></i></div><span class="vl sube">+18</span></div><div class="hb slope" style="grid-template-columns:270px 1fr 108px"><span class="lb">Vivienda</span><div class="trk"><i class="bar soft" style="--w:41.9%;--d:0.15000000000000002s"></i><i class="bar" style="--w:58.8%;--d:0.45s"></i></div><span class="vl sube">+17</span></div><div class="hb slope" style="grid-template-columns:270px 1fr 108px"><span class="lb">Subsidio y Aportes</span><div class="trk"><i class="bar soft" style="--w:50.1%;--d:0.2s"></i><i class="bar" style="--w:65.6%;--d:0.5s"></i></div><span class="vl sube">+15</span></div><div class="hb slope" style="grid-template-columns:270px 1fr 108px"><span class="lb">Comunicaciones</span><div class="trk"><i class="bar soft" style="--w:63.6%;--d:0.25s"></i><i class="bar" style="--w:78.2%;--d:0.55s"></i></div><span class="vl sube">+15</span></div><div class="hb slope" style="grid-template-columns:270px 1fr 108px"><span class="lb">Sub. Operativa</span><div class="trk"><i class="bar soft" style="--w:16.2%;--d:0.30000000000000004s"></i><i class="bar" style="--w:27.1%;--d:0.6000000000000001s"></i></div><span class="vl sube">+11</span></div><div class="hb slope" style="grid-template-columns:270px 1fr 108px"><span class="lb">Educación</span><div class="trk"><i class="bar soft" style="--w:11.5%;--d:0.35000000000000003s"></i><i class="bar" style="--w:20.0%;--d:0.65s"></i></div><span class="vl sube">+8</span></div><div class="hb slope" style="grid-template-columns:270px 1fr 108px"><span class="lb">Jurídica</span><div class="trk"><i class="bar soft" style="--w:95.5%;--d:0.4s"></i><i class="bar" style="--w:100.0%;--d:0.7s"></i></div><span class="vl sube">+4</span></div>
+      <p class="hair" style="margin-top:10px">Sin movimiento desde el 30 de septiembre</p>
+      <div class="hb slope" style="grid-template-columns:270px 1fr 108px"><span class="lb">Sub. Admin y Financiera</span><div class="trk"><i class="bar soft" style="--w:62.5%;--d:0.0s"></i><i class="bar" style="--w:62.5%;--d:0.3s"></i></div><span class="vl quieta">·</span></div><div class="hb slope" style="grid-template-columns:270px 1fr 108px"><span class="lb">Contabilidad</span><div class="trk"><i class="bar soft" style="--w:33.1%;--d:0.05s"></i><i class="bar" style="--w:33.1%;--d:0.35s"></i></div><span class="vl quieta">·</span></div><div class="hb slope" style="grid-template-columns:270px 1fr 108px"><span class="lb">Tecnología</span><div class="trk"><i class="bar soft" style="--w:25.2%;--d:0.1s"></i><i class="bar" style="--w:25.2%;--d:0.4s"></i></div><span class="vl quieta">·</span></div><div class="hb slope" style="grid-template-columns:270px 1fr 108px"><span class="lb">Mercadeo</span><div class="trk"><i class="bar soft" style="--w:15.6%;--d:0.15000000000000002s"></i><i class="bar" style="--w:15.6%;--d:0.45s"></i></div><span class="vl quieta">·</span></div><div class="hb slope" style="grid-template-columns:270px 1fr 108px"><span class="lb">Talento Humano</span><div class="trk"><i class="bar soft" style="--w:10.6%;--d:0.2s"></i><i class="bar" style="--w:10.6%;--d:0.5s"></i></div><span class="vl quieta">·</span></div><div class="hb slope" style="grid-template-columns:270px 1fr 108px"><span class="lb">Cumplimiento</span><div class="trk"><i class="bar soft" style="--w:8.1%;--d:0.25s"></i><i class="bar" style="--w:8.1%;--d:0.55s"></i></div><span class="vl quieta">·</span></div><div class="hb slope" style="grid-template-columns:270px 1fr 108px"><span class="lb">Gerencia Financiera</span><div class="trk"><i class="bar soft" style="--w:5.0%;--d:0.30000000000000004s"></i><i class="bar" style="--w:5.0%;--d:0.6000000000000001s"></i></div><span class="vl quieta">·</span></div><div class="hb slope" style="grid-template-columns:270px 1fr 108px"><span class="lb">Planeación</span><div class="trk"><i class="bar soft" style="--w:5.0%;--d:0.35000000000000003s"></i><i class="bar" style="--w:5.0%;--d:0.65s"></i></div><span class="vl quieta">·</span></div><div class="hb slope" style="grid-template-columns:270px 1fr 108px"><span class="lb">Tesorería</span><div class="trk"><i class="bar soft" style="--w:5.0%;--d:0.4s"></i><i class="bar" style="--w:5.0%;--d:0.7s"></i></div><span class="vl quieta">·</span></div>
+    </div>
+    <div class="col" style="width:430px;gap:20px;justify-content:center">
+      <p class="note"><b>Agencia de Empleo es la que más subió,</b> +32 puntos.
+        Puso a Matías en producción y le respondió a un ciudadano de verdad.</p>
+      <p class="note"><b>Sub. Admin y Financiera tiene el mayor impacto en horas, 61,
+        y aun así no se movió.</b> Hizo todo en septiembre y nada después del cierre.</p>
+      <p class="hair">La barra gris es septiembre, la roja es hoy. El corte de septiembre se
+        reconstruye con las 90 sesiones que llevan acta fechada de las 119.</p>
+    </div>
+  </div>
+</section>
+<section class="slide dk" id="antes-hoy" data-t="Antes y hoy" data-ft="Las horas son recurrentes: vuelven cada semana sin volver a invertir en el programa, porque lo que cambió fue el proceso">
+
+  <p class="eb">Tarea por tarea</p>
+  <h2>Las 250 horas, cada semana, otra vez</h2>
+  <p class="lede">No es un ahorro que ocurrió una vez. Es una hora que vuelve
+    <b>cada semana</b>, porque el proceso cambió, no porque alguien corrió más.</p>
+  <div class="col" style="gap:22px;flex:1;justify-content:center">
+    <div class="hb" style="grid-template-columns:260px 1fr 190px"><span class="lb">Una semana</span><div class="trk"><i class="bar" style="--w:100.0%;--d:0s"></i></div><span class="vl">250 h</span></div>
+    <div class="hb" style="grid-template-columns:260px 1fr 190px"><span class="lb">Un mes</span><div class="trk"><i class="bar" style="--w:100.0%;--d:0.2s"></i></div><span class="vl">1.082 h</span></div>
+    <div class="hb" style="grid-template-columns:260px 1fr 190px"><span class="lb">Un año, 52 semanas</span><div class="trk"><i class="bar" style="--w:100.0%;--d:0.4s"></i></div><span class="vl">13.000 h</span></div>
+  </div>
+  <div class="grid3">
+    <div class="tile rv" style="--d:0.6s"><p class="big">13.000<small> h</small></p><p class="lab">al año, si nada más cambia</p></div>
+    <div class="tile rv" style="--d:0.7s"><p class="big">6</p><p class="lab">personas a tiempo completo, sin contratar a nadie</p><p class="src">44 h por semana</p></div>
+    <div class="tile rv" style="--d:0.8s"><p class="big">5</p><p class="lab">jornadas de trabajo recuperadas por semana</p><p class="src">48 h = una jornada de 8 h × 6</p></div>
+  </div>
+</section>
+<section class="slide lt" id="pesos" data-t="El valor en pesos" data-ft="Tarifas de costo hora entregadas por Comfacesar · 52 semanas al año · la cifra base es la del perfil profesional">
+
+  <div class="col" style="gap:32px;flex:1;justify-content:center">
+  <p class="eb">La cuenta</p>
+  <h2>Las mismas 250 horas, a las tres tarifas de la Caja</h2>
+  <table class="t">
+    <tr><th style="width:34%">Perfil que ejecuta</th><th class="num">Costo hora</th>
+        <th class="num">Por semana</th><th class="num">A doce meses</th></tr>
+    <tr class="rv" style="--d:0.15s"><td>Profesional<br><span class=hair>Base del reporte</span></td><td class="num">$36.351</td><td class="num">$9.087.750</td><td class="num st">$473 M</td></tr><tr class="rv" style="--d:0.3s"><td>Gerente o jefe</td><td class="num">$62.862</td><td class="num">$15.715.500</td><td class="num st">$817 M</td></tr><tr class="rv" style="--d:0.44999999999999996s"><td>Directivo</td><td class="num">$95.941</td><td class="num">$23.985.250</td><td class="num st">$1.247 M</td></tr>
+  </table>
+  <p class="note rv" style="--d:.7s">El reporte usa <b>la tarifa más baja</b>, la profesional, para que
+    la cifra no dependa de quién la mire. A la tarifa directiva la misma hora vale
+    3 veces más.</p>
+  </div>
+</section>
+<section class="slide dk" id="confianza" data-t="Confianza con IA" data-ft="Fuente: encuesta anónima · 20 respuestas de 51 colaboradores · la media es de quienes respondieron">
+
+  <p class="eb">Capacidad instalada</p>
+  <h2>De 4,7 a 8,6 en once semanas</h2>
+  <div class="row" style="gap:56px;flex:1;align-items:center">
+    <div class="f1" style="min-width:0"><svg id="conf" viewBox="0 0 980 500" role="img"
+      aria-label="Confianza usando IA antes y después del programa"></svg></div>
+    <div class="col" style="width:470px;gap:24px">
+      <div><p class="hair">Media de confianza usando IA, escala de 1 a 10</p>
+        <p class="big" style="font-size:88px;white-space:nowrap"><span class="soft-n">4,7</span><span
+        style="color:var(--red-hi)"> → 8,6</span></p></div>
+      <p class="note"><b>NPS +20</b> sobre 20 respuestas anónimas.
+        Las personas con seis o más sesiones califican la utilidad en 10.</p>
+      <p class="note"><b>91% de asistencia</b> en once semanas, con
+        26 sesiones caídas de 145 agendadas.</p>
+    </div>
+  </div>
+</section>
+<section class="slide lt" id="abierto" data-t="Lo que no se resolvió">
+
+  <p class="eb">Lo que el cierre no resolvió</p>
+  <h2>Cuatro cosas que esta fase deja abiertas</h2>
+  <p class="lede">El director pidió ver las debilidades, no solo los resultados.
+    Estas cuatro son las que la mentoría encontró y no alcanzó a cerrar.</p>
+  <div class="row" style="gap:22px;flex:1;align-items:stretch"><div class="col f1 open rv" style="--d:0.1s"><p class="num2">01</p><h3>Cada circuito vive en la cabeza de quien lo armó</h3><p class="hair">Si la persona sale, el proceso se va con ella. No hay respaldo ni documentación de operación.</p></div><div class="col f1 open rv" style="--d:0.24000000000000002s"><p class="num2">02</p><h3>Medir en dinero todavía no es costumbre</h3><p class="hair">Seis áreas de dieciocho no midieron ni una tarea. No es que no hicieran: es que no lo anotaron.</p></div><div class="col f1 open rv" style="--d:0.38s"><p class="num2">03</p><h3>Dieciocho islas que no se hablan</h3><p class="hair">Cada área construyó lo suyo. Ningún tablero lee de otro ni de un sistema de la Caja.</p></div><div class="col f1 open rv" style="--d:0.52s"><p class="num2">04</p><h3>Los equipos no dan para la forma de trabajo que se pide</h3><p class="hair">El hardware es hoy el límite, y el director lo viene diciendo desde el 14 de septiembre.</p></div></div>
+</section>
+<section class="slide dk" id="jornada" data-t="Las doce áreas" data-ft="El orden lo fijó la dirección · las once primeras tienen procesos medidos en la Sala de Control">
+
+  <p class="eb">Bloque 02 · las áreas, en vivo</p>
+  <h2>Doce áreas, en este orden</h2>
+  <div class="col" style="gap:3px;flex:1;justify-content:center">
+    <div class="row ja hd"><p class="n">N°</p><span style="width:56px"></span>
+      <p class="f1">Área y qué muestra</p>
+      <p style="width:110px;text-align:right">h/semana</p>
+      <p style="width:84px;text-align:right">IIE</p></div>
+    <div class="row ja rv" style="--d:0.0s"><p class="n">01</p><span class="mono" style="width:44px;height:44px;font-size:16px">AE</span><p class="an f1">Agencia de Empleo<span class="qm"> · Matías respondiendo a un ciudadano</span></p><p class="vl" style="width:110px;text-align:right">6 h</p><p class="iie" style="width:84px;text-align:right">58</p></div><div class="row ja rv" style="--d:0.04s"><p class="n">02</p><span class="mono" style="width:44px;height:44px;font-size:16px">IPS</span><p class="an f1">IPS<span class="qm"> · La plataforma de capacitaciones, de la firma al certificado</span></p><p class="vl" style="width:110px;text-align:right">30 h</p><p class="iie" style="width:84px;text-align:right">56</p></div><div class="row ja rv" style="--d:0.08s"><p class="n">03</p><span class="mono" style="width:44px;height:44px;font-size:16px">CO</span><p class="an f1">Contabilidad<span class="qm"> · El circuito de conciliaciones probado de punta a punta</span></p><p class="vl" style="width:110px;text-align:right">3 h</p><p class="iie" style="width:84px;text-align:right">33</p></div><div class="row ja rv" style="--d:0.12s"><p class="n">04</p><span class="mono" style="width:44px;height:44px;font-size:16px">SF</span><p class="an f1">Sub. Admin y Financiera · <span class=who>Rafael Solano</span><span class="qm"> · La prevalidación precontractual y la agenda directiva</span></p><p class="vl" style="width:110px;text-align:right">61 h</p><p class="iie" style="width:84px;text-align:right">62</p></div><div class="row ja rv" style="--d:0.16s"><p class="n">05</p><span class="mono" style="width:44px;height:44px;font-size:16px">ED</span><p class="an f1">Educación<span class="qm"> · Dos tableros publicados y su primera cifra medida</span></p><p class="vl" style="width:110px;text-align:right">1 h</p><p class="iie" style="width:84px;text-align:right">20</p></div><div class="row ja rv" style="--d:0.2s"><p class="n">06</p><span class="mono" style="width:44px;height:44px;font-size:16px">VI</span><p class="an f1">Vivienda<span class="qm"> · El tablero del mejoramiento rural y el análisis de interventorías</span></p><p class="vl" style="width:110px;text-align:right">51 h</p><p class="iie" style="width:84px;text-align:right">59</p></div><div class="row ja rv" style="--d:0.24s"><p class="n">07</p><span class="mono" style="width:44px;height:44px;font-size:16px">JU</span><p class="an f1">Jurídica<span class="qm"> · Cuatro agentes, dos corriendo sobre el correo real</span></p><p class="vl" style="width:110px;text-align:right">31 h</p><p class="iie" style="width:84px;text-align:right">100</p></div><div class="row ja rv" style="--d:0.28s"><p class="n">08</p><span class="mono" style="width:44px;height:44px;font-size:16px">SA</span><p class="an f1">Subsidio y Aportes<span class="qm"> · El circuito completo, de principio a fin</span></p><p class="vl" style="width:110px;text-align:right">31 h</p><p class="iie" style="width:84px;text-align:right">66</p></div><div class="row ja rv" style="--d:0.32s"><p class="n">09</p><span class="mono" style="width:44px;height:44px;font-size:16px">SS</span><p class="an f1">Servicios Sociales<span class="qm"> · Las actas de contrato y el agente que halló errores de origen</span></p><p class="vl" style="width:110px;text-align:right">15 h</p><p class="iie" style="width:84px;text-align:right">85</p></div><div class="row ja rv" style="--d:0.36s"><p class="n">10</p><span class="mono" style="width:44px;height:44px;font-size:16px">CM</span><p class="an f1">Comunicaciones<span class="qm"> · Tres agentes y el libreto de evento usado en vivo</span></p><p class="vl" style="width:110px;text-align:right">18 h</p><p class="iie" style="width:84px;text-align:right">78</p></div><div class="row ja rv" style="--d:0.4s"><p class="n">11</p><span class="mono" style="width:44px;height:44px;font-size:16px">SO</span><p class="an f1">Sub. Operativa<span class="qm"> · Maia, el primer agente del área</span></p><p class="vl" style="width:110px;text-align:right">3 h</p><p class="iie" style="width:84px;text-align:right">27</p></div><div class="row ja rv" style="--d:0.44s"><p class="n">12</p><span class="mono" style="width:44px;height:44px;font-size:16px">GF</span><p class="an f1">Gerencia Financiera<span class="qm"> · Lo que mida en la sesión de esta semana</span></p><p class="vl" style="width:110px;text-align:right">por medir</p><p class="iie" style="width:84px;text-align:right">5</p></div>
+  </div>
+</section>
+<section class="slide dk" id="indicaciones" data-t="Cómo presenta cada área">
+
+  <p class="eb">Bloque 02 · la indicación</p>
+  <h2>Una o dos diapositivas. Lo demás se muestra andando.</h2>
+  <div class="col" style="gap:22px;flex:1;justify-content:center"><div class="row toc rv" style="--d:0.1s"><p class="num">01</p><div class="col f1" style="gap:8px"><h3>El flujo de trabajo</h3><p class="hair">Cómo lo hacían antes y cómo lo hacen ahora. Una o dos diapositivas.</p></div></div><div class="row toc rv" style="--d:0.26s"><p class="num">02</p><div class="col f1" style="gap:8px"><h3>El tiempo, y su destino</h3><p class="hair">Cuánto tardaba el proceso, cuánto tarda hoy, y en qué se está usando esa hora que volvió.</p></div></div><div class="row toc rv" style="--d:0.42000000000000004s"><p class="num">03</p><div class="col f1" style="gap:8px"><h3>El inventario de lo que falta</h3><p class="hair">Lo que quedó por hacer, o lo que el área quisiera en una segunda fase.</p></div></div><div class="row toc rv" style="--d:0.58s"><p class="num">04</p><div class="col f1" style="gap:8px"><h3>La hiperconectividad</h3><p class="hair">Qué necesitaría el área para quedar conectada a los sistemas de información.</p></div></div></div>
+  <p class="note rv" style="--d:.8s">La regla del cierre es una sola:
+    <b>lo que no está documentado no se presenta.</b> El tablero del área es de donde sale
+    lo que se puede mostrar.</p>
+</section>
+<section class="slide lt" id="islas" data-t="Dieciocho islas">
+
+  <p class="eb">Bloque 03 · lo que viene</p>
+  <h2>Dieciocho islas que no se hablan</h2>
+  <p class="lede">Cada área construyó lo suyo y le funciona. <b>Ningún tablero lee de otro,
+    ni de un sistema de la Caja.</b> Lo que viene no es enseñar: es conectar.</p>
+  <div class="islas"><span class="isla rv" style="--d:0.0s">JU<em>Jurídica</em></span><span class="isla rv" style="--d:0.03s">SS<em>Servicios Sociales</em></span><span class="isla rv" style="--d:0.06s">CM<em>Comunicaciones</em></span><span class="isla rv" style="--d:0.09s">SA<em>Subsidio y Aportes</em></span><span class="isla rv" style="--d:0.12s">SF<em>Sub. Admin y Financiera</em></span><span class="isla rv" style="--d:0.15s">VI<em>Vivienda</em></span><span class="isla rv" style="--d:0.18s">AE<em>Agencia de Empleo</em></span><span class="isla rv" style="--d:0.21s">IPS<em>IPS</em></span><span class="isla rv" style="--d:0.24s">CO<em>Contabilidad</em></span><span class="isla rv" style="--d:0.27s">SO<em>Sub. Operativa</em></span><span class="isla rv" style="--d:0.3s">TE<em>Tecnología</em></span><span class="isla rv" style="--d:0.32999999999999996s">ED<em>Educación</em></span><span class="isla rv" style="--d:0.36s">ME<em>Mercadeo</em></span><span class="isla rv" style="--d:0.39s">TH<em>Talento Humano</em></span><span class="isla rv" style="--d:0.42s">CU<em>Cumplimiento</em></span><span class="isla rv" style="--d:0.44999999999999996s">GF<em>Gerencia Financiera</em></span><span class="isla rv" style="--d:0.48s">PL<em>Planeación</em></span><span class="isla rv" style="--d:0.51s">TS<em>Tesorería</em></span></div>
+  <p class="note rv" style="--d:.8s">Hoy alguien copia los datos a mano de un sistema a un tablero,
+    cada semana, en 11 áreas distintas.
+    <b>Eso es trabajo que se recupera dos veces.</b></p>
+</section>
+<section class="slide dk" id="frentes" data-t="Hiperconectividad" data-ft="Sin cambiar el ecosistema de software y sin contratar más personas · son procesos y conexiones">
+
+  <p class="eb">La apuesta</p>
+  <h2>Hiperconectividad: seis frentes</h2>
+  <div class="grid3 alto"><div class="col frente rv" style="--d:0.0s"><p class="num2">01</p><h3>Saber qué hay y dónde está</h3><p class="hair">El inventario de los sistemas de información de la Caja y dónde está alojado cada uno. Sin ese mapa no se conecta nada.</p></div><div class="col frente rv" style="--d:0.08s"><p class="num2">02</p><h3>Un solo lugar donde trabaja la Caja</h3><p class="hair">IAM™ Hello: la puerta única por la que cada área entra a lo suyo, en vez de dieciocho entradas distintas.</p></div><div class="col frente rv" style="--d:0.16s"><p class="num2">03</p><h3>El Tableau que ya está pagado</h3><p class="hair">Lleva ocho años comprado y subutilizado porque nadie lo alimenta. Es el activo más barato de activar.</p></div><div class="col frente rv" style="--d:0.24s"><p class="num2">04</p><h3>Los tableros enganchados a la gestión</h3><p class="hair">Que el tablero del área lea del sistema en vez de que alguien le copie los datos a mano cada semana.</p></div><div class="col frente rv" style="--d:0.32s"><p class="num2">05</p><h3>Salir de la red local</h3><p class="hair">Hoy la información vive en equipos y carpetas locales. Mientras siga ahí, no se puede conectar ni respaldar.</p></div><div class="col frente rv" style="--d:0.4s"><p class="num2">06</p><h3>Una app de la Caja, por áreas</h3><p class="hair">Arranca por áreas y después se unen, el mismo camino que ya recorrieron los tableros.</p></div></div>
+</section>
+<section class="slide lt" id="anio" data-t="El año, mes por mes" data-ft="Cada trimestre cierra con una revisión de la dirección · el detalle de la inversión va en el documento de la propuesta, aparte">
+
+  <p class="eb">Bloque 03 · el año</p>
+  <h2>Doce meses, y qué pasa en cada bloque</h2>
+  <div class="row" style="gap:20px;flex:1;align-items:stretch"><div class="col tri rv" style="--d:0.0s"><p class="eb">Trimestre 1</p><p class="meses">Meses 1 a 3</p><h3>Levantar y cerrar lo abierto</h3><ul><li>Levantamiento de equipos, con la lista priorizada de qué computadores se cambian y por qué</li><li>Levantamiento de sistemas: qué hay y dónde está alojado cada uno</li><li>Cimentación de los circuitos de las áreas que ya construyeron</li><li>Primeras sesiones de trabajo cercano con Vivienda y Mercadeo</li><li>Arranca la gobernanza con Cumplimiento y se gestiona la reunión de licenciamiento</li><li>Diseño del plan de equipos portátiles, con Talento Humano</li></ul></div><div class="col tri rv" style="--d:0.12s"><p class="eb">Trimestre 2</p><p class="meses">Meses 4 a 6</p><h3>Decidir y conectar</h3><ul><li>La propuesta de licenciamiento queda lista y el sponsor la presenta al director</li><li>El plan de renovación de equipos entra en ejecución con lo que la dirección apruebe</li><li>Primeras conexiones de tableros a los sistemas internos, con el recurso de la Caja</li><li>Automatizaciones vivas en Vivienda, y Mercadeo con su base de datos conectada</li><li>Entran las primeras áreas por activar, con circuito nuevo de principio a fin</li><li>Arranca el esquema híbrido en las áreas que ya tengan portátil</li></ul></div><div class="col tri rv" style="--d:0.24s"><p class="eb">Trimestre 3</p><p class="meses">Meses 7 a 9</p><h3>Infraestructura y reglas</h3><ul><li>Evaluación y selección del proveedor de migración a la nube</li><li>Negociación del techo de integración con el proveedor de software</li><li>El marco de gobernanza queda publicado y con responsable con nombre</li><li>Mercadeo y Subsidio con los tableros hablándose</li><li>Las áreas por activar, en construcción</li><li>Primera medición de productividad del esquema híbrido</li></ul></div><div class="col tri rv" style="--d:0.36s"><p class="eb">Trimestre 4</p><p class="meses">Meses 10 a 12</p><h3>Dejarlo andando sin la mentoría</h3><ul><li>Acompañamiento de la migración a la nube que ejecuta el proveedor</li><li>Las 18 áreas con al menos un circuito cimentado y medido</li><li>Traspaso formal al recurso interno que la Caja designe</li><li>Balance del año en horas y en pesos, no en porcentaje de avance</li><li>Cierre: cuarta revisión con el director y entrega</li></ul></div></div>
+</section>
+<section class="slide dk" id="cierre" data-t="Qué decide la dirección" data-ft="Sandra Curvelo · Mentora IAM™ · Influence, AI & Monetization">
+
+  <div class="row" style="gap:80px;flex:1">
+    <div class="col f1" style="gap:26px">
+      <p class="big" style="font-size:120px;color:var(--red-hi)">IAM™</p>
+      <p class="sub">Intelligence · fase 2</p>
+      <h2 style="font-size:52px">Ya saben hacerlo.<br>Ahora hay que conectarlo.</h2>
+      <p class="hair">Las palabras de la fase que viene son dos: <b>hardware</b> e
+        <b>hiperconectividad</b>. No hay islas independientes, y tampoco se sugiere
+        cambiar el software hoy.</p>
+    </div>
+    <div class="col f1" style="gap:30px">
+      <h3 class="q">Qué decide la dirección</h3>
+      <div class="row paso rv" style="--d:.1s"><p class="num">01</p>
+        <div class="col"><h3>El alcance de las tres calles</h3>
+        <p class="hair">Afilar lo que ya corre, rescatar a las que no se vincularon,
+          y cuáles áreas nuevas entran.</p></div></div>
+      <div class="row paso rv" style="--d:.3s"><p class="num">02</p>
+        <div class="col"><h3>El levantamiento de equipos</h3>
+        <p class="hair">Qué computadores se cambian, en qué áreas y con qué prioridad.
+          Es el primer mes.</p></div></div>
+      <div class="row paso rv" style="--d:.5s"><p class="num">03</p>
+        <div class="col"><h3>La reunión de licenciamiento</h3>
+        <p class="hair">Cuánto vale, cuánto se necesita y cuánto se aprueba.
+          La propuesta la presenta el sponsor a la dirección.</p></div></div>
+    </div>
+  </div>
+</section>
+
+</div></div>
+
+<div id="bar">
+  <button id="prev" type="button" aria-label="Anterior">←</button>
+  <button id="next" type="button" aria-label="Siguiente">→</button>
+  <span id="idx"></span>
+  <div id="prog"><i></i></div>
+  <span id="ttl"></span>
+</div>
+
+<script>
+const DATA = [{"a": "Jurídica", "i": "JU", "c": 100.0, "s": 95.5, "h": 31, "ses": 13, "pr": 11, "ag": 4, "e": {"adopcion": 25, "produccion": 25, "impacto": 25, "autonomia": 25.0}}, {"a": "Servicios Sociales", "i": "SS", "c": 85.2, "s": 59.8, "h": 15, "ses": 11, "pr": 8, "ag": 2, "e": {"adopcion": 25, "produccion": 25.0, "impacto": 18.8, "autonomia": 16.5}}, {"a": "Comunicaciones", "i": "CM", "c": 78.2, "s": 63.6, "h": 18, "ses": 12, "pr": 6, "ag": 3, "e": {"adopcion": 25, "produccion": 18.8, "impacto": 22.5, "autonomia": 12.0}}, {"a": "Subsidio y Aportes", "i": "SA", "c": 65.6, "s": 50.1, "h": 31, "ses": 11, "pr": 5, "ag": 0, "e": {"adopcion": 25, "produccion": 15.6, "impacto": 25, "autonomia": 0.0}}, {"a": "Sub. Admin y Financiera", "i": "SF", "c": 62.5, "s": 62.5, "h": 61, "ses": 11, "pr": 4, "ag": 0, "e": {"adopcion": 25, "produccion": 12.5, "impacto": 25, "autonomia": 0.0}}, {"a": "Vivienda", "i": "VI", "c": 58.8, "s": 41.9, "h": 51, "ses": 6, "pr": 6, "ag": 0, "e": {"adopcion": 15.0, "produccion": 18.8, "impacto": 25, "autonomia": 0.0}}, {"a": "Agencia de Empleo", "i": "AE", "c": 57.5, "s": 25.5, "h": 6, "ses": 10, "pr": 4, "ag": 1, "e": {"adopcion": 25.0, "produccion": 12.5, "impacto": 7.5, "autonomia": 12.5}}, {"a": "IPS", "i": "IPS", "c": 55.6, "s": 38.1, "h": 30, "ses": 6, "pr": 1, "ag": 1, "e": {"adopcion": 15.0, "produccion": 3.1, "impacto": 25, "autonomia": 12.5}}, {"a": "Contabilidad", "i": "CO", "c": 33.1, "s": 33.1, "h": 3, "ses": 8, "pr": 3, "ag": 0, "e": {"adopcion": 20.0, "produccion": 9.4, "impacto": 3.8, "autonomia": 0.0}}, {"a": "Sub. Operativa", "i": "SO", "c": 27.1, "s": 16.2, "h": 3, "ses": 4, "pr": 3, "ag": 1, "e": {"adopcion": 10.0, "produccion": 9.4, "impacto": 3.8, "autonomia": 4.0}}, {"a": "Tecnología", "i": "TE", "c": 25.2, "s": 25.2, "h": 0.0, "ses": 6, "pr": 2, "ag": 1, "e": {"adopcion": 15.0, "produccion": 6.2, "impacto": 0.0, "autonomia": 4.0}}, {"a": "Educación", "i": "ED", "c": 20.0, "s": 11.5, "h": 1, "ses": 5, "pr": 2, "ag": 0, "e": {"adopcion": 12.5, "produccion": 6.2, "impacto": 1.2, "autonomia": 0.0}}, {"a": "Mercadeo", "i": "ME", "c": 15.6, "s": 15.6, "h": 0.0, "ses": 5, "pr": 1, "ag": 0, "e": {"adopcion": 12.5, "produccion": 3.1, "impacto": 0.0, "autonomia": 0.0}}, {"a": "Talento Humano", "i": "TH", "c": 10.6, "s": 10.6, "h": 0.0, "ses": 3, "pr": 1, "ag": 0, "e": {"adopcion": 7.5, "produccion": 3.1, "impacto": 0.0, "autonomia": 0.0}}, {"a": "Cumplimiento", "i": "CU", "c": 8.1, "s": 8.1, "h": 0, "ses": 2, "pr": 1, "ag": 0, "e": {"adopcion": 5.0, "produccion": 3.1, "impacto": 0.0, "autonomia": 0.0}}, {"a": "Gerencia Financiera", "i": "GF", "c": 5.0, "s": 5.0, "h": 0.0, "ses": 2, "pr": 0, "ag": 0, "e": {"adopcion": 5.0, "produccion": 0.0, "impacto": 0.0, "autonomia": 0.0}}, {"a": "Planeación", "i": "PL", "c": 5.0, "s": 5.0, "h": 0.0, "ses": 2, "pr": 0, "ag": 0, "e": {"adopcion": 5.0, "produccion": 0.0, "impacto": 0.0, "autonomia": 0.0}}, {"a": "Tesorería", "i": "TS", "c": 5.0, "s": 5.0, "h": 0.0, "ses": 2, "pr": 0, "ag": 0, "e": {"adopcion": 5.0, "produccion": 0.0, "impacto": 0.0, "autonomia": 0.0}}];
+
+/* ── escenario ── */
+const stage=document.getElementById('stage'),vp=document.getElementById('vp');
+function fit(){
+  const r=vp.getBoundingClientRect();
+  const k=Math.min(r.width/1920,r.height/1080);
+  stage.style.transform='translate(-50%,-50%) scale('+k+')';
+}
+addEventListener('resize',fit);fit();
+
+/* ── diapositivas ── */
+const slides=[...document.querySelectorAll('.slide')];
+let cur=0;
+const ttl=document.getElementById('ttl'),idx=document.getElementById('idx'),
+      pi=document.querySelector('#prog i');
+slides.forEach(s=>{
+  const ft=s.dataset.ft;
+  if(ft){const p=document.createElement('p');p.className='ft';p.textContent=ft;s.appendChild(p);}
+});
+function cuenta(s){
+  s.querySelectorAll('[data-n]').forEach(el=>{
+    const to=parseFloat(el.dataset.n),dc=parseInt(el.dataset.dec||'0',10),t0=performance.now();
+    (function step(t){
+      const k=Math.min((t-t0)/900,1),v=to*(1-Math.pow(1-k,3));
+      el.textContent=v.toLocaleString('es-CO',{minimumFractionDigits:dc,maximumFractionDigits:dc});
+      if(k<1)requestAnimationFrame(step);
+    })(t0);
+  });
+}
+function ir(n){
+  cur=(n+slides.length)%slides.length;
+  slides.forEach((s,i)=>s.classList.toggle('act',i===cur));
+  const s=slides[cur];
+  ttl.textContent=s.dataset.t||'';
+  idx.textContent=(cur+1)+' / '+slides.length;
+  pi.style.width=((cur+1)/slides.length*100)+'%';
+  cuenta(s);
+  if(s.id==='indice-3d')arranca3d();else detiene3d();
+  if(s.id==='confianza')dibujaConf();
+  try{location.hash=s.id}catch(e){}
+}
+document.getElementById('prev').onclick=()=>ir(cur-1);
+document.getElementById('next').onclick=()=>ir(cur+1);
+addEventListener('keydown',e=>{
+  if(e.key==='ArrowRight'||e.key==='PageDown'){e.preventDefault();ir(cur+1)}
+  if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();ir(cur-1)}
+  if(e.key==='Home'){e.preventDefault();ir(0)}
+  if(e.key==='End'){e.preventDefault();ir(slides.length-1)}
+  if(e.key===' '){e.preventDefault();gira=!gira}
+});
+
+/* ── el ranking al lado del 3D ── */
+document.getElementById('rank3d').innerHTML=DATA.map((x,i)=>
+  '<div class="rk"><i>'+(i+1)+'</i><span>'+x.a+'</span><b>'+
+  Math.round(x.c)+'</b></div>'
+).join('');
+
+/* ── 3D propio, sin librería y sin CDN ────────────────────────────────
+   Proyección en perspectiva de cajas, con algoritmo del pintor. Se escribe
+   aquí entero a propósito: en la sala de Comfacesar puede no haber salida a
+   internet, y una presentación no puede depender de que cargue un CDN. */
+let raf=0, ang=0, gira=true, cv3, cx3, W3=1180, H3=620;
+const COLS=6, PASO=1.78, PITCH=.47, FOCAL=1010, DIST=14.2, ALTO=3.45;
+
+function tono(v){
+  return v>=70?[255,74,74]: v>=40?[192,0,0]: v>=15?[122,20,20]:[58,34,34];
+}
+function sombra(rgb,k,alpha){
+  const [r,g,b]=rgb;
+  return 'rgba('+Math.round(r*k)+','+Math.round(g*k)+','+Math.round(b*k)+','+alpha+')';
+}
+let FIT={k:1,dx:0,dy:0};
+function crudo(x,y,z,a){
+  const X= x*Math.cos(a)-z*Math.sin(a);
+  const Z= x*Math.sin(a)+z*Math.cos(a);
+  const Y2= y*Math.cos(PITCH)-Z*Math.sin(PITCH);
+  const Z2= y*Math.sin(PITCH)+Z*Math.cos(PITCH);
+  const s= FOCAL/(DIST+Z2);
+  return [X*s, -Y2*s, Z2, s];
+}
+function proyecta(x,y,z,a){
+  const p=crudo(x,y,z,a);
+  return [W3/2+(p[0]+FIT.dx)*FIT.k, H3/2+(p[1]+FIT.dy)*FIT.k, p[2], p[3]*FIT.k];
+}
+/* Encuadre automático: se mide el modelo en una vuelta entera y se ajusta la
+   escala para que nunca se corte, sea cual sea el dato o el tamaño de la sala. */
+function encuadra(){
+  const n=DATA.length, nx=COLS, nz=Math.ceil(n/nx);
+  let x0=1e9,x1=-1e9,y0=1e9,y1=-1e9;
+  for(let t=0;t<30;t++){
+    const a=t/30*Math.PI*2;
+    DATA.forEach((d,i)=>{
+      const px=(i%nx-(nx-1)/2)*PASO, pz=(Math.floor(i/nx)-(nz-1)/2)*PASO*1.14;
+      const hc=Math.max(d.c/100*ALTO,.08);
+      for(const sy of [0,hc,hc+.34]) for(const dx of [-.62,.62]) for(const dz of [-.62,.62]){
+        const p=crudo(px+dx,sy,pz+dz,a);
+        if(p[0]<x0)x0=p[0]; if(p[0]>x1)x1=p[0];
+        if(p[1]<y0)y0=p[1]; if(p[1]>y1)y1=p[1];
+      }
+    });
+  }
+  const mx=26, k=Math.min((W3-mx*2)/(x1-x0),(H3-mx*2)/(y1-y0));
+  FIT={k:k, dx:-(x0+x1)/2, dy:-(y0+y1)/2};
+}
+function caja(cx,cz,w,h,a){
+  const k=w/2, v=[];
+  for(const sy of [0,h]) for(const [dx,dz] of [[-k,-k],[k,-k],[k,k],[-k,k]])
+    v.push(proyecta(cx+dx,sy,cz+dz,a));
+  // 0..3 abajo, 4..7 arriba
+  return [
+    {p:[v[4],v[5],v[6],v[7]], k:1.00},            // techo
+    {p:[v[0],v[1],v[5],v[4]], k:0.62},            // frente norte
+    {p:[v[1],v[2],v[6],v[5]], k:0.78},            // este
+    {p:[v[2],v[3],v[7],v[6]], k:0.62},            // sur
+    {p:[v[3],v[0],v[4],v[7]], k:0.78},            // oeste
+  ].map(f=>({...f, z: f.p.reduce((t,q)=>t+q[2],0)/4}));
+}
+function pinta(){
+  const n=DATA.length, nx=COLS, nz=Math.ceil(n/nx);
+  cx3.clearRect(0,0,W3,H3);
+  const caras=[], etiq=[];
+  DATA.forEach((x,i)=>{
+    const px=(i%nx-(nx-1)/2)*PASO, pz=(Math.floor(i/nx)-(nz-1)/2)*PASO*1.14;
+    const hc=Math.max(x.c/100*ALTO,.08), hs=Math.max(x.s/100*ALTO,.05);
+    const col=tono(x.c);
+    caja(px,pz,.86,hc,ang).forEach(f=>caras.push({...f,col,alpha:1}));
+    if(hs>.06) caja(px,pz,1.06,hs,ang).forEach(f=>caras.push({...f,col:[198,192,182],alpha:.30}));
+    caja(px,pz,1.10,.045,ang).forEach(f=>caras.push({...f,col:[34,34,34],alpha:.9}));
+    const t=proyecta(px,hc+.30,pz,ang);
+    etiq.push({et:x.i, x:t[0], y:t[1], z:t[2], s:t[3]});
+  });
+  caras.sort((a,b)=>b.z-a.z);
+  for(const f of caras){
+    cx3.beginPath();
+    cx3.moveTo(f.p[0][0],f.p[0][1]);
+    for(let q=1;q<4;q++) cx3.lineTo(f.p[q][0],f.p[q][1]);
+    cx3.closePath();
+    cx3.fillStyle=sombra(f.col,f.k,f.alpha);
+    cx3.fill();
+  }
+  /* las etiquetas van encima de todo: es un gráfico, y que se lean manda */
+  etiq.sort((a,b)=>b.z-a.z);
+  cx3.textAlign='center';
+  for(const e of etiq){
+    const k=Math.max(13,Math.min(23,e.s*.42));
+    cx3.font='800 '+k.toFixed(0)+'px Montserrat, Arial, sans-serif';
+    cx3.lineWidth=4; cx3.strokeStyle='rgba(8,8,8,.9)';
+    cx3.strokeText(e.et,e.x,e.y);
+    cx3.fillStyle='rgba(247,245,239,.97)';
+    cx3.fillText(e.et,e.x,e.y);
+  }
+}
+function lazo(){
+  if(gira) ang+=.0045;
+  pinta();
+  raf=requestAnimationFrame(lazo);
+}
+function arranca3d(){
+  if(!cv3){
+    cv3=document.getElementById('c3d');
+    W3=Math.max(cv3.clientWidth||1180,640); H3=cv3.clientHeight||620;
+    cv3.width=W3*2; cv3.height=H3*2;
+    cx3=cv3.getContext('2d');
+    cx3.scale(2,2);
+    encuadra();
+  }
+  if(!raf) lazo();
+}
+function detiene3d(){ if(raf){cancelAnimationFrame(raf);raf=0;} }
+
+/* ── confianza: las dos medias, y la distribución real del NPS ──
+   Solo entran cifras agregadas, que son las que la encuesta dejó.
+   No existen las respuestas individuales, así que no se dibuja una por persona. */
+function dibujaConf(){
+  const sv=document.getElementById('conf');
+  if(sv.dataset.ok)return;sv.dataset.ok='1';
+  const A=4.7,Z=8.6,NPS={"p": 10, "a": 4, "d": 6};
+  const L=170,R=700,T=46,B=330, esc=v=>B-(v-1)/9*(B-T);
+  let o='';
+  for(let v=1;v<=10;v++){
+    const g=v%2===0;
+    o+='<line x1="'+(L-26)+'" y1="'+esc(v)+'" x2="'+(R+40)+'" y2="'+esc(v)+'" stroke="#55524c" stroke-width="1" opacity="'+(g?.32:.14)+'"/>';
+    if(g)o+='<text x="'+(L-40)+'" y="'+(esc(v)+7)+'" fill="#76726b" font-size="19" text-anchor="end">'+v+'</text>';
+  }
+  /* la pendiente de la media */
+  o+='<line x1="'+L+'" y1="'+esc(A)+'" x2="'+R+'" y2="'+esc(Z)+'" stroke="#c00000" stroke-width="7"/>'
+    +'<circle cx="'+L+'" cy="'+esc(A)+'" r="15" fill="#8f8a82"/>'
+    +'<circle cx="'+R+'" cy="'+esc(Z)+'" r="17" fill="#c00000"/>'
+    +'<text x="'+L+'" y="'+(esc(A)+52)+'" fill="#55524c" font-size="23" text-anchor="middle">Antes</text>'
+    +'<text x="'+R+'" y="'+(esc(Z)-38)+'" fill="#c00000" font-size="27" font-weight="700" text-anchor="middle">Hoy</text>'
+    +'<text x="'+((L+R)/2)+'" y="'+(esc((A+Z)/2)-22)+'" fill="#c00000" font-size="25" font-weight="700" text-anchor="middle">+'+
+      (Z-A).toLocaleString('es-CO',{minimumFractionDigits:1,maximumFractionDigits:1})+' puntos</text>';
+  /* la distribución del NPS, barra apilada a escala */
+  const BY=416,BH=46,BW=R+40-L, tot=NPS.p+NPS.a+NPS.d;
+  let x=L;
+  [['#c00000',NPS.p,'promotores'],['#9b958c',NPS.a,'pasivos'],['#3a2222',NPS.d,'detractores']]
+  .forEach(([c,n,et])=>{
+    const w=n/tot*BW;
+    o+='<rect x="'+x+'" y="'+BY+'" width="'+w+'" height="'+BH+'" fill="'+c+'"/>'
+      +'<text x="'+(x+w/2)+'" y="'+(BY+31)+'" fill="#fff" font-size="23" font-weight="700" text-anchor="middle">'+n+'</text>'
+      +'<text x="'+(x+w/2)+'" y="'+(BY+BH+26)+'" fill="#76726b" font-size="19" text-anchor="middle">'+et+'</text>';
+    x+=w;
+  });
+  o+='<text x="'+L+'" y="'+(BY-16)+'" fill="#55524c" font-size="19">NPS +'+
+     Math.round((NPS.p-NPS.d)/tot*100)+' · '+tot+' respuestas anónimas</text>';
+  sv.innerHTML=o;
+}
+
+/* ── arranque y navegación por el hash ── */
+function delHash(){
+  const h=(location.hash||'').replace('#','');
+  return slides.findIndex(s=>s.id===h);
+}
+addEventListener('hashchange',()=>{const i=delHash();if(i>=0&&i!==cur)ir(i)});
+const i0=delHash();
+ir(i0>=0?i0:0);
+</script>
+</body>
+</html>
