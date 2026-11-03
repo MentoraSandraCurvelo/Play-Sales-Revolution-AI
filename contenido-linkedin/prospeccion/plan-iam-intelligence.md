@@ -14,6 +14,9 @@ Regla 14: Chrome redacta y deja sin enviar; Sandra envía. Máx. 10 a 15 al día
 - Caso finanzas: una persona entrenada creó un agente que revisa 2.000 legalizaciones en 10 minutos, sin errores (CONFIRMAR con Sandra el dato exacto antes de usar).
 - Tableros: siempre "datos de ejemplo". Nunca nombrar Comfacesar ni Alcaldía de Valledupar: "una caja de compensación en Colombia", "una entidad pública".
 
+## Decisión de Sandra (3 nov 2026)
+Primero romper el hielo con algo real del perfil o de una publicación del prospecto, con la voz de Sandra. La propuesta de reunión va después ("aprovecho para contarte..."), no en el saludo. Las plantillas se rehacen con el análisis de mensajes de Chrome.
+
 ## Secuencia
 | Día | Acción |
 |---|---|
