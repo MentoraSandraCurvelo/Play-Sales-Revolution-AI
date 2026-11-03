@@ -1,0 +1,30 @@
+{
+  "id": "mar-03-encuesta",
+  "estado": "aprobado",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-03",
+  "programado_bogota": "2026-11-03 17:30",
+  "encuesta": {
+    "pregunta": "¿Qué tarea de tu entidad pasarías primero a la IA?",
+    "opciones": [
+      "Responder PQRSD",
+      "Revisar pliegos SECOP",
+      "Informes de gestión",
+      "Conceptos jurídicos"
+    ],
+    "duracion": "THREE_DAYS"
+  },
+  "urn": null,
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "Si mañana tu entidad pudiera entregarle una sola tarea a la IA, con un funcionario revisando y firmando, ¿cuál sería?\n\nEsta mañana mostré cómo se ven los tableros. Ahora quiero saber por dónde empezarías tú. El viernes comparto los resultados.\n\nSi quieres ver cómo se mide la IA en el {hashtag|\\#|SectorPúblico}, sígueme: cada semana muestro un tablero real.\n\n{hashtag|\\#|GobiernoDigital} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
+  }
+}

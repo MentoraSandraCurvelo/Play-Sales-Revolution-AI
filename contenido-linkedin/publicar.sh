@@ -22,6 +22,10 @@ p = q["payload"]
 # Video ya subido con /rest/videos (urn:li:video:...): se adjunta directo
 if q.get("video"):
     p["content"] = {"media": {"id": q["video"], "title": q.get("titulo_video", "IAM™ Intelligence")}}
+# Encuesta nativa de LinkedIn
+if q.get("encuesta"):
+    e = q["encuesta"]
+    p["content"] = {"poll": {"question": e["pregunta"], "options": [{"text": o} for o in e["opciones"]], "settings": {"duration": e.get("duracion", "THREE_DAYS")}}}
 json.dump(p, open(sys.argv[2], 'w', encoding='utf-8'), ensure_ascii=False)
 open(sys.argv[2] + '.imagen', 'w').write(q.get("imagen") or "")
 open(sys.argv[2] + '.alt', 'w', encoding='utf-8').write(q.get("alt") or "Sandra Curvelo · IAM™")
