@@ -37,5 +37,5 @@ PARTE 2 · Comentarios de visibilidad (con mi aprobación)
 PARTE 3 · Métricas (agregada el 2 nov 2026; la API no deja leerlas: 403)
 9. Entra a cada uno de mis posts de los últimos 7 días y anota, en una tabla: fecha, primeras palabras del post, impresiones, reacciones, comentarios, compartidos y seguidores nuevos que muestre la analítica del post.
 10. Revisa los comentarios que dejé en publicaciones de otros en los últimos 3 días: cuántas reacciones y respuestas recibió cada uno, y si el autor contestó.
-11. Anota el total de seguidores de hoy (mi página de Analíticas, Audiencia).
+11. Anota 3 cifras de hoy: total de seguidores de mi perfil (Analíticas, Audiencia), seguidores de la página IAM™ (vista de administradora, Analíticas, Seguidores) y suscriptores de la newsletter "Lo que nadie te dice de la IA". Si alguna no aparece, escribe "no visible".
 12. Entrégame todo en una sola tabla al final, sin opinar. No inventes cifras: si un dato no aparece, escribe "no visible".
