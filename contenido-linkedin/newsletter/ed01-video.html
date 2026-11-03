@@ -1,0 +1,33 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Así funciona mi sistema</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;600;700&display=swap">
+<style>
+:root{--red:#cc0000;--hi:#ff4747;--ink:#0a0a0a;--ink2:#151515;--rule:#2c2c2c;--on:#f3f1ec;--mute:#aaa59c;--good:#5fcf8e;--h:"Archivo Black",Arial,sans-serif;--b:"Archivo",Arial,sans-serif}
+*{box-sizing:border-box;margin:0}html,body{width:1280px;height:720px;overflow:hidden;background:var(--ink);color:var(--on);font-family:var(--b)}
+body::before{content:"";position:fixed;left:0;top:0;bottom:0;width:12px;background:var(--red)}
+.sc{position:absolute;inset:0;padding:70px 90px;display:flex;flex-direction:column;gap:30px;opacity:0;transition:opacity .5s}.sc.on{opacity:1}
+.eb{font:700 20px var(--b);letter-spacing:4px;color:var(--hi);text-transform:uppercase}
+h1{font:400 64px/1.05 var(--h)}h2{font:400 46px/1.08 var(--h)}.red{color:var(--hi)}
+.flow{display:flex;align-items:center;gap:18px;margin-top:20px}
+.st{flex:1;background:var(--ink2);border:1px solid var(--rule);border-top:6px solid var(--red);padding:22px;min-height:190px;opacity:.15;transform:translateY(14px);transition:all .5s}
+.st.in{opacity:1;transform:none}.st b{display:block;font:400 26px var(--h);margin-bottom:10px}.st span{font-size:20px;color:var(--mute);line-height:1.35}
+.st.ok{border-top-color:var(--good)}
+.ar{font:400 40px var(--h);color:var(--hi);opacity:.15;transition:opacity .4s}.ar.in{opacity:1}
+.big{font:400 120px/1 var(--h);color:var(--hi)}
+</style></head><body>
+<section class="sc" id="a"><p class="eb">Lo que nadie te dice de la IA</p><h1>Así funciona mi sistema<br><span class="red">de LinkedIn con IA.</span></h1><p style="font-size:26px;color:var(--mute)">4 pasos. 1 regla.</p></section>
+<section class="sc" id="b"><p class="eb">El sistema</p><h2>La IA hace el trabajo pesado. <span class="red">Yo decido.</span></h2>
+<div class="flow">
+<div class="st" id="s1"><b>1. Prepara</b><span>El agente escribe el post, diseña la imagen o el video.</span></div><span class="ar" id="a1">→</span>
+<div class="st ok" id="s2"><b>2. Apruebo</b><span>Leo el texto exacto. Sin mi "sí", no sale nada.</span></div><span class="ar" id="a2">→</span>
+<div class="st" id="s3"><b>3. Publica</b><span>Sale solo a la hora acordada, por la API oficial.</span></div><span class="ar" id="a3">→</span>
+<div class="st" id="s4"><b>4. Mide</b><span>Chrome trae likes, comentarios y métricas.</span></div>
+</div></section>
+<section class="sc" id="c" style="justify-content:center"><p class="eb">Lo que pasó</p><p class="big">×5</p><h2>impresiones al día<br><span class="red">la primera semana.</span></h2><p style="font-size:20px;color:var(--mute)">Dato aproximado: 4 posts frente al promedio de los 90 días anteriores.</p></section>
+<section class="sc" id="d" style="justify-content:center"><h1>La IA no es una herramienta.<br><span class="red">Es un sistema de trabajo.</span></h1><p style="font-size:24px;color:var(--mute)">Sandra Curvelo · Founder &amp; CSO, IAM™</p></section>
+<script>
+const $=i=>document.getElementById(i),s=m=>new Promise(r=>setTimeout(r,m));
+const show=i=>document.querySelectorAll('.sc').forEach(e=>e.classList.toggle('on',e.id===i));
+window.run=async()=>{show('a');await s(3500);show('b');await s(800);
+for(const k of ['s1','a1','s2','a2','s3','a3','s4']){$(k).classList.add('in');await s(k[0]=='s'?1900:300)}
+await s(2200);show('c');await s(4200);show('d');await s(4200);window.done=true};
+</script></body></html>
