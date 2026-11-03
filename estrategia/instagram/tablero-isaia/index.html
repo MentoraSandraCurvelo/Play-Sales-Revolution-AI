@@ -1,99 +1,176 @@
 <meta name="dash-one-writer">
 <style>
-.isa{font-family:var(--font-anthropic-sans);display:grid;gap:var(--cds-gap-lg)}
-.isa-head{display:grid;gap:var(--cds-gap-xs)}
-.isa-eyebrow{margin:0;font-size:var(--cds-font-size-caption);letter-spacing:.08em;text-transform:uppercase;color:#c00000;font-weight:var(--cds-font-weight-medium)}
-.isa-title{margin:0;font-family:var(--font-anthropic-serif);font-weight:400;font-size:var(--cds-font-size-title);text-wrap:balance}
-.isa-take{margin:0;font-size:var(--cds-font-size-body);max-width:70ch;line-height:1.5}
-.isa .isa-take b{font-weight:600;font-variant-numeric:tabular-nums}
-.isa-note{margin:0;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
-.isa-tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,10rem),1fr));gap:var(--cds-gap-md)}
-.isa-tile{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-md);display:grid;gap:var(--cds-gap-xs);border-top:3px solid #c00000}
-.isa-lab{margin:0;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
-.isa-big{margin:0;font-family:var(--font-anthropic-serif);font-weight:400;font-size:var(--cds-font-size-title);font-variant-numeric:tabular-nums;min-height:1.2em}
-.isa-sub{margin:0;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
-.isa-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,22rem),1fr));gap:var(--cds-gap-md)}
-.isa-card{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-lg);display:grid;gap:var(--cds-gap-sm);min-width:0;align-content:start}
-.isa-card h2{margin:0;font-size:var(--cds-font-size-heading);font-weight:var(--cds-font-weight-medium)}
-.isa-cap{margin:0;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);line-height:1.45}
-.isa-legend{display:flex;gap:var(--cds-gap-md);font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
-.isa-sw{display:inline-block;width:.7rem;height:.7rem;border-radius:2px;margin-right:.35rem;vertical-align:-1px}
-.isa-chart{position:relative;min-height:280px}
-.isa-tip{position:absolute;background:var(--cds-surface-popover);border:1px solid var(--cds-border);border-radius:var(--cds-radius);box-shadow:var(--cds-shadow-popover);padding:var(--cds-pad-xs) var(--cds-pad-sm);font-size:var(--cds-font-size-caption);pointer-events:none;max-width:16rem;line-height:1.4}
-.isa-tip-d{color:var(--cds-text-secondary)}
-.isa-fail{display:flex;align-items:center;justify-content:center;gap:.5rem;min-height:280px;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
-.isa-fail i{width:.375rem;height:.375rem;border-radius:50%;background:var(--color-bad)}
-.isa-scroll{overflow-x:auto;max-height:32rem;overflow-y:auto}
-.isa-table{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-caption);font-variant-numeric:tabular-nums}
-.isa-table th{text-align:left;font-weight:var(--cds-font-weight-medium);color:var(--color-fg-muted);padding:var(--cds-pad-xs) var(--cds-pad-sm);border-bottom:1px solid var(--color-border-line);position:sticky;top:0;background:var(--color-panel);white-space:nowrap}
-.isa-table td{padding:var(--cds-pad-xs) var(--cds-pad-sm);border-bottom:1px solid var(--color-border-line);vertical-align:top}
-.isa-table .n{text-align:right}
-.isa-tema{min-width:12rem}
-.isa-pill{display:inline-block;padding:1px 8px;border-radius:999px;font-size:var(--cds-font-size-caption);border:1px solid var(--color-border-line)}
-.isa-hit{color:var(--color-ok);font-weight:600}
-.isa-goals{display:grid;gap:var(--cds-gap-sm);font-size:var(--cds-font-size-body);line-height:1.5}
-.isa-goals p{margin:0}
-.isa .isa-goals b{font-variant-numeric:tabular-nums}
+#dash-root{--dash-gutter:0}
+.ws{--bg:#06080b;--panel:#0d1117;--panel2:#111821;--line:#1d2733;--fg:#e9eef3;--mut:#7f8c99;--up:#19e28b;--down:#ff4d5e;--amb:#ffb020;--iam:#ff2d2d;
+  background:radial-gradient(1200px 500px at 15% -10%,#14212e 0,transparent 60%),var(--bg);color:var(--fg);font-family:var(--font-anthropic-sans);
+  border-radius:var(--cds-radius);overflow:hidden;display:grid;gap:var(--cds-gap-md);padding-block:0 var(--cds-pad-lg);color-scheme:dark}
+.ws *{box-sizing:border-box}
+.ws-mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-variant-numeric:tabular-nums}
+.ws-bar{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;padding:12px 18px;border-bottom:1px solid var(--line);background:linear-gradient(90deg,#0b0f14,#10161d)}
+.ws-logo{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.12em;font-size:13px}
+.ws-ring{width:14px;height:14px;border-radius:50%;border:3px solid var(--iam);box-shadow:0 0 12px var(--iam)}
+.ws-live{display:inline-flex;align-items:center;gap:6px;font-size:11px;letter-spacing:.14em;color:var(--up)}
+.ws-live i{width:7px;height:7px;border-radius:50%;background:var(--up)}
+.ws-stamp{margin-left:auto;font-size:11px;color:var(--mut)}
+.ws-ticker{overflow:hidden;border-bottom:1px solid var(--line);background:#080b0f;white-space:nowrap;mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.ws-track{display:inline-flex;gap:28px;padding:9px 0;font-size:12px;min-height:34px}
+.ws-tk{display:inline-flex;gap:8px;align-items:baseline}
+.ws-tk b{color:var(--fg);font-weight:600}
+.ws-up{color:var(--up)} .ws-down{color:var(--down)} .ws-amb{color:var(--amb)}
+.ws-in{padding-inline:18px;display:grid;gap:var(--cds-gap-md)}
+.ws-hero{display:grid;gap:6px}
+.ws-eyebrow{margin:0;font-size:11px;letter-spacing:.18em;color:var(--iam);font-weight:700}
+.ws-title{margin:0;font-family:var(--font-anthropic-serif);font-weight:400;font-size:clamp(26px,3.4vw,38px);line-height:1.08;text-wrap:balance}
+.ws-take{margin:0;color:#b9c4cf;max-width:72ch;line-height:1.5}
+.ws .ws-take b{color:var(--fg);font-weight:600}
+.ws-kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,11rem),1fr));gap:12px}
+.ws-kpi{position:relative;background:linear-gradient(160deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:6px;overflow:hidden;transition:transform .25s,border-color .25s}
+.ws-kpi:hover{transform:translateY(-3px);border-color:#2c3a4a}
+.ws-kpi::before{content:"";position:absolute;inset:0 0 auto;height:2px;background:linear-gradient(90deg,var(--iam),transparent)}
+.ws-lab{margin:0;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--mut)}
+.ws-big{margin:0;font-size:clamp(26px,3vw,34px);font-weight:600;line-height:1;min-height:1em}
+.ws-chip{margin:0;font-size:11px;letter-spacing:.06em;min-height:1.2em}
+.ws-grid{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:12px}
+@media (max-width:860px){.ws-grid{grid-template-columns:minmax(0,1fr)}}
+.ws-card{background:linear-gradient(160deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:10px;padding:16px;display:grid;gap:10px;min-width:0;align-content:start}
+.ws-card h2{margin:0;font-size:14px;letter-spacing:.08em;text-transform:uppercase;font-weight:600}
+.ws-cap{margin:0;font-size:12px;color:var(--mut);line-height:1.45}
+.ws-legend{display:flex;gap:16px;font-size:11px;color:var(--mut)}
+.ws-sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.ws-stage{position:relative}
+.ws-runway{position:relative;height:96px;margin-bottom:-6px}
+.ws-avatar{position:absolute;bottom:0;left:0;width:150px;display:grid;justify-items:center;gap:4px}
+.ws-say{position:relative;background:#0b1118;border:1px solid #2a3847;border-radius:10px;padding:6px 10px;font-size:11.5px;line-height:1.35;width:150px;min-height:44px;box-shadow:0 6px 18px rgba(0,0,0,.45)}
+.ws-say::after{content:"";position:absolute;bottom:-6px;left:50%;width:10px;height:10px;background:#0b1118;border-right:1px solid #2a3847;border-bottom:1px solid #2a3847;transform:translateX(-50%) rotate(45deg)}
+.ws-say p{margin:0} .ws-say p.is-off{display:none}
+.ws .ws-say b{color:var(--up);font-weight:600}
+.ws-bot{width:44px;height:44px}
+.ws-chart{position:relative;min-height:300px}
+.ws-tip{position:absolute;background:#0b1118;border:1px solid #2a3847;border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.5);padding:6px 10px;font-size:12px;pointer-events:none;max-width:16rem;line-height:1.4;z-index:2}
+.ws-tip-d{color:var(--mut)}
+.ws-fail{display:flex;align-items:center;justify-content:center;gap:.5rem;min-height:300px;font-size:12px;color:var(--mut)}
+.ws-fail i{width:.375rem;height:.375rem;border-radius:50%;background:var(--down)}
+.ws-goals{display:grid;gap:12px}
+.ws-goal{display:grid;gap:6px}
+.ws-goal p{margin:0;font-size:12.5px;color:#b9c4cf}
+.ws .ws-goal b{color:var(--fg)}
+.ws-meter{height:8px;border-radius:99px;background:#1a2430;overflow:hidden}
+.ws-meter i{display:block;height:100%;width:0;border-radius:99px;background:linear-gradient(90deg,var(--iam),var(--amb));transition:width 1.2s cubic-bezier(.2,.8,.2,1)}
+.ws-scroll{overflow:auto;max-height:30rem}
+.ws-table{width:100%;border-collapse:collapse;font-size:12px}
+.ws-table th{text-align:left;font-weight:600;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut);padding:8px 10px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--panel);white-space:nowrap}
+.ws-table td{padding:8px 10px;border-bottom:1px solid #151d27;vertical-align:top}
+.ws-table tbody tr:hover td{background:#121a24}
+.ws-table .n{text-align:right}
+.ws-tema{min-width:12rem;color:#c9d3dc}
 [data-dash-source-state=empty]{color:transparent}
 [data-dash-source-state=refreshing]{opacity:.5;transition:opacity var(--cds-dur-slow)}
+@media (prefers-reduced-motion:no-preference){
+  .ws-track{animation:ws-scroll 48s linear infinite}
+  .ws-ticker:hover .ws-track{animation-play-state:paused}
+  .ws-live i{animation:ws-blink 1.4s ease-in-out infinite}
+  .ws-avatar{animation:ws-walk 22s ease-in-out infinite}
+  .ws-bot{animation:ws-bob .9s ease-in-out infinite}
+  .ws-face{animation:ws-face 22s steps(1) infinite;transform-box:fill-box;transform-origin:center}
+  .ws-in3d{animation:ws-grow .9s cubic-bezier(.2,.8,.2,1) both;transform-box:fill-box;transform-origin:bottom}
+  .ws-say p:not(.is-off){animation:ws-fade .5s ease-out}
+}
+@keyframes ws-scroll{to{transform:translateX(-50%)}}
+@keyframes ws-blink{50%{opacity:.25}}
+@keyframes ws-walk{0%{left:0;transform:translateX(0)}50%{left:100%;transform:translateX(-100%)}100%{left:0;transform:translateX(0)}}
+@keyframes ws-face{0%{transform:scaleX(1)}50%{transform:scaleX(-1)}}
+@keyframes ws-bob{50%{transform:translateY(-3px)}}
+@keyframes ws-grow{from{transform:scaleY(0);opacity:0}to{transform:scaleY(1);opacity:1}}
+@keyframes ws-fade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
 </style>
 
-<div class="isa">
-  <header class="isa-head">
-    <p class="isa-eyebrow">⭕ IAM™ · Isaía · Instagram</p>
-    <h1 class="isa-title">Tablero Isaía · @sandracurvelo_iam</h1>
-    <p class="isa-take">Los Reels alcanzan una mediana de <b data-draw="t-reel" data-source="resumen" data-field="alcance_mediano" data-where="formato=Reel">—</b> personas, frente a <b data-draw="t-feed" data-source="resumen" data-field="alcance_mediano" data-where="formato=Feed">—</b> del feed. La cuenta lleva <b data-draw="t-dias" data-source="ritmo" data-field="dias_sin_publicar">—</b> días sin publicar: la serie IA SIN RODEOS es el regreso.</p>
-    <p class="isa-note">Consulta directa a la API de Meta · últimas 20 publicaciones · corte del <span data-draw="t-corte" data-source="perfil" data-field="fecha_consulta" data-row="0">—</span></p>
-  </header>
-
-  <div class="isa-tiles">
-    <div class="isa-tile"><p class="isa-lab">Seguidores</p><p class="isa-big" data-draw="k-seg" data-source="perfil" data-field="seguidores" data-row="0">—</p><p class="isa-sub">Total actual de la cuenta</p></div>
-    <div class="isa-tile"><p class="isa-lab">Alcance mediano de Reels</p><p class="isa-big" data-draw="k-reel" data-source="resumen" data-field="alcance_mediano" data-where="formato=Reel">—</p><p class="isa-sub">Personas únicas por Reel</p></div>
-    <div class="isa-tile"><p class="isa-lab">Compartidos</p><p class="isa-big" data-draw="k-comp" data-source="totales" data-field="compartidos">—</p><p class="isa-sub">Suma de las últimas 20</p></div>
-    <div class="isa-tile"><p class="isa-lab">Guardados</p><p class="isa-big" data-draw="k-guard" data-source="totales" data-field="guardados">—</p><p class="isa-sub">Suma de las últimas 20</p></div>
-    <div class="isa-tile"><p class="isa-lab">Días sin publicar</p><p class="isa-big" data-draw="k-dias" data-source="ritmo" data-field="dias_sin_publicar">—</p><p class="isa-sub">Desde la última publicación</p></div>
+<div class="ws">
+  <div class="ws-bar">
+    <span class="ws-logo"><span class="ws-ring"></span>IAM™ · ISAÍA TERMINAL</span>
+    <span class="ws-live ws-mono"><i></i>INSTAGRAM · @SANDRACURVELO_IAM</span>
+    <span class="ws-stamp ws-mono">CORTE <span data-draw="t-corte" data-source="perfil" data-field="fecha_consulta" data-row="0">—</span> · API DE META</span>
   </div>
 
-  <section class="isa-card" id="alcance">
-    <h2>Alcance por publicación</h2>
-    <p class="isa-cap">Personas únicas que vieron cada publicación, de la más antigua a la más reciente. La línea punteada es la meta de cada episodio de la serie. Las barras que pasan el tope de la gráfica muestran su cifra arriba.</p>
-    <div class="isa-legend"><span><i class="isa-sw isa-sw-reel"></i>Reel</span><span><i class="isa-sw isa-sw-feed"></i>Feed</span></div>
-    <div class="isa-chart" data-draw="chart" data-source="publicaciones"></div>
-  </section>
+  <div class="ws-ticker" aria-label="Cinta de publicaciones">
+    <div class="ws-track ws-mono" data-draw="ticker" data-source="publicaciones"></div>
+  </div>
 
-  <div class="isa-grid">
-    <section class="isa-card" id="formatos">
-      <h2>Reels frente a feed</h2>
-      <p class="isa-cap">Mediana de alcance y suma de guardados y compartidos por formato. Retención: segundos promedio que la gente ve cada Reel.</p>
-      <div class="isa-scroll">
-        <table class="isa-table" data-source="resumen" data-row-key="formato">
-          <thead><tr><th data-field="formato">Formato</th><th data-field="publicaciones" class="n">Publicaciones</th><th data-field="alcance_mediano" class="n">Alcance mediano</th><th data-field="guardados" class="n">Guardados</th><th data-field="compartidos" class="n">Compartidos</th><th data-field="retencion_promedio" class="n">Retención (s)</th></tr></thead>
-          <tbody data-draw="t-resumen"></tbody>
+  <div class="ws-in">
+    <header class="ws-hero">
+      <p class="ws-eyebrow">MERCADO DE ATENCIÓN · ÚLTIMAS 20 PUBLICACIONES</p>
+      <h1 class="ws-title">Tablero Isaía · Instagram</h1>
+      <p class="ws-take">Los Reels cotizan a <b data-draw="t-reel" data-source="resumen" data-field="alcance_mediano" data-where="formato=Reel">—</b> personas de mediana, frente a <b data-draw="t-feed" data-source="resumen" data-field="alcance_mediano" data-where="formato=Feed">—</b> del feed. La cuenta lleva <b data-draw="t-dias" data-source="ritmo" data-field="dias_sin_publicar">—</b> días sin publicar: la serie IA SIN RODEOS es la reapertura del mercado.</p>
+    </header>
+
+    <div class="ws-kpis">
+      <div class="ws-kpi"><p class="ws-lab">Seguidores</p><p class="ws-big ws-mono" data-draw="k-seg" data-source="perfil" data-field="seguidores" data-row="0">—</p><p class="ws-chip ws-mono ws-amb">BASE ACTUAL</p></div>
+      <div class="ws-kpi"><p class="ws-lab">Alcance mediano Reels</p><p class="ws-big ws-mono" data-draw="k-reel" data-source="resumen" data-field="alcance_mediano" data-where="formato=Reel">—</p><p class="ws-chip ws-mono" data-draw="c-reel" data-source="resumen" data-field="alcance_mediano" data-where="formato=Reel">—</p></div>
+      <div class="ws-kpi"><p class="ws-lab">Récord de alcance</p><p class="ws-big ws-mono" data-draw="k-rec" data-source="record" data-field="alcance_max">—</p><p class="ws-chip ws-mono ws-up">▲ REEL VIRAL</p></div>
+      <div class="ws-kpi"><p class="ws-lab">Compartidos</p><p class="ws-big ws-mono" data-draw="k-comp" data-source="totales" data-field="compartidos">—</p><p class="ws-chip ws-mono ws-up">SUMA DE LAS ÚLTIMAS 20</p></div>
+      <div class="ws-kpi"><p class="ws-lab">Guardados</p><p class="ws-big ws-mono" data-draw="k-guard" data-source="totales" data-field="guardados">—</p><p class="ws-chip ws-mono ws-down">▼ POR DEBAJO DEL POTENCIAL</p></div>
+      <div class="ws-kpi"><p class="ws-lab">Días sin publicar</p><p class="ws-big ws-mono" data-draw="k-dias" data-source="ritmo" data-field="dias_sin_publicar">—</p><p class="ws-chip ws-mono ws-down">▼ MERCADO CERRADO</p></div>
+    </div>
+
+    <div class="ws-grid">
+      <section class="ws-card" id="alcance">
+        <h2>Alcance por publicación · 3D</h2>
+        <p class="ws-cap">Personas únicas por publicación, de la más antigua a la más reciente. La línea roja es la meta de cada episodio. Las barras que rompen el techo muestran su cifra arriba. Pasa el mouse por cada barra.</p>
+        <div class="ws-legend"><span><i class="ws-sw ws-sw-reel"></i>Reel</span><span><i class="ws-sw ws-sw-feed"></i>Feed</span></div>
+        <div class="ws-stage">
+          <div class="ws-runway">
+            <div class="ws-avatar">
+              <div class="ws-say">
+                <p>Los Reels alcanzan <b data-draw="b1" data-source="resumen" data-field="alcance_mediano" data-where="formato=Reel">—</b> personas. El feed, <b data-draw="b2" data-source="resumen" data-field="alcance_mediano" data-where="formato=Feed">—</b>.</p>
+                <p class="is-off">Tu récord: <b data-draw="b3" data-source="record" data-field="alcance_max">—</b> personas con un solo Reel.</p>
+                <p class="is-off">Llevas <b data-draw="b4" data-source="ritmo" data-field="dias_sin_publicar">—</b> días sin publicar. Toca el Episodio 1.</p>
+                <p class="is-off">Meta por episodio: <b data-draw="b5">—</b> de alcance y <b data-draw="b6">—</b> compartidos.</p>
+              </div>
+              <svg class="ws-bot" viewBox="0 0 44 44" aria-label="Isaía">
+                <g class="ws-face">
+                  <line x1="22" y1="3" x2="22" y2="9" stroke="#ff2d2d" stroke-width="2" stroke-linecap="round"/>
+                  <circle cx="22" cy="3" r="2.5" fill="#ff2d2d"/>
+                  <rect x="7" y="9" width="30" height="24" rx="9" fill="#1b2633" stroke="#3a4b5e" stroke-width="1.5"/>
+                  <rect x="11" y="14" width="22" height="12" rx="5" fill="#06080b"/>
+                  <circle cx="17" cy="20" r="2.4" fill="#19e28b"/>
+                  <circle cx="27" cy="20" r="2.4" fill="#19e28b"/>
+                  <path d="M31 22 l5 -3" stroke="#19e28b" stroke-width="1.5" stroke-linecap="round"/>
+                  <circle cx="22" cy="38" r="5" fill="none" stroke="#ff2d2d" stroke-width="2.5"/>
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div class="ws-chart" data-draw="chart" data-source="publicaciones"></div>
+        </div>
+      </section>
+
+      <section class="ws-card" id="metas">
+        <h2>Metas IA SIN RODEOS</h2>
+        <p class="ws-cap">Metas propias de la cuenta, no promedios de la industria. Las barras muestran el avance de la mejor publicación reciente frente a cada meta.</p>
+        <div class="ws-goals">
+          <div class="ws-goal"><p>Alcance por episodio: meta <b data-draw="meta-alcance">—</b> personas · publicaciones que la superan: <b data-draw="t-sobre" data-source="totales" data-field="sobre_meta">—</b> de 20</p><div class="ws-meter"><i data-draw="m-alc" data-source="totales" data-field="sobre_meta"></i></div></div>
+          <div class="ws-goal"><p>Compartidos por episodio: meta <b data-draw="meta-comp">—</b> · récord actual: <b data-draw="t-reccomp" data-source="record" data-field="compartidos_max">—</b></p><div class="ws-meter"><i data-draw="m-comp" data-source="record" data-field="compartidos_max"></i></div></div>
+        </div>
+        <h2>Reels frente a feed</h2>
+        <div class="ws-scroll">
+          <table class="ws-table ws-mono" data-source="resumen" data-row-key="formato">
+            <thead><tr><th data-field="formato">Formato</th><th data-field="publicaciones" class="n">Pub.</th><th data-field="alcance_mediano" class="n">Alc. med.</th><th data-field="compartidos" class="n">Comp.</th><th data-field="guardados" class="n">Guard.</th><th data-field="retencion_promedio" class="n">Ret. (s)</th></tr></thead>
+            <tbody data-draw="t-resumen"></tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+
+    <section class="ws-card" id="publicaciones">
+      <h2>Libro de órdenes · últimas 20 publicaciones</h2>
+      <p class="ws-cap">En verde, lo que supera la meta de alcance o de compartidos. En rojo, lo que queda por debajo de la meta de alcance.</p>
+      <div class="ws-scroll">
+        <table class="ws-table ws-mono" data-source="publicaciones" data-row-key="id">
+          <thead><tr><th data-field="fecha">Fecha</th><th data-field="formato">Formato</th><th data-field="tema">Tema</th><th data-field="alcance" class="n">Alcance</th><th data-field="vistas" class="n">Vistas</th><th data-field="me_gusta" class="n">Me gusta</th><th data-field="guardados" class="n">Guard.</th><th data-field="compartidos" class="n">Comp.</th><th data-field="retencion_seg" class="n">Ret. (s)</th></tr></thead>
+          <tbody data-draw="t-posts"></tbody>
         </table>
       </div>
     </section>
-
-    <section class="isa-card" id="metas">
-      <h2>Metas de la serie IA SIN RODEOS</h2>
-      <p class="isa-cap">Metas propias, calculadas sobre la historia de la cuenta y no sobre promedios de la industria.</p>
-      <div class="isa-goals">
-        <p>Cada episodio debe superar <b data-draw="meta-alcance">—</b> personas de alcance, la mediana actual de los Reels.</p>
-        <p>Cada episodio debe llegar a <b data-draw="meta-comp">—</b> compartidos o más, el récord actual de la cuenta.</p>
-        <p>Hoy, <b data-draw="t-sobre" data-source="totales" data-field="sobre_meta">—</b> de las últimas 20 publicaciones superan la meta de alcance.</p>
-      </div>
-    </section>
   </div>
-
-  <section class="isa-card" id="publicaciones">
-    <h2>Las últimas 20 publicaciones</h2>
-    <p class="isa-cap">En verde, lo que supera la meta de alcance o de compartidos.</p>
-    <div class="isa-scroll">
-      <table class="isa-table" data-source="publicaciones" data-row-key="id">
-        <thead><tr><th data-field="fecha">Fecha</th><th data-field="formato">Formato</th><th data-field="tema">Tema</th><th data-field="alcance" class="n">Alcance</th><th data-field="vistas" class="n">Vistas</th><th data-field="me_gusta" class="n">Me gusta</th><th data-field="guardados" class="n">Guardados</th><th data-field="compartidos" class="n">Compartidos</th><th data-field="retencion_seg" class="n">Retención (s)</th></tr></thead>
-        <tbody data-draw="t-posts"></tbody>
-      </table>
-    </div>
-  </section>
 </div>
 
 <script>
@@ -103,6 +180,8 @@ const fint = loc.format(',d'), fdec = loc.format(',.1f');
 const num = (v) => (v === '' || v == null ? null : Number(v));
 const MESES = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
 const fecha = (s) => { const [y, m, d] = String(s).slice(0, 10).split('-'); return `${Number(d)} ${MESES[Number(m) - 1]} ${y.slice(2)}`; };
+const calm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const C = {reel: '#19e28b', feed: '#ffb020', meta: '#ff2d2d'};
 
 dash.calc('resumen', {
   title: 'Reels frente a feed',
@@ -111,28 +190,25 @@ dash.calc('resumen', {
   fn: (publicaciones) => ['Reel', 'Feed'].map((formato) => {
     const p = publicaciones.filter((r) => r.formato === formato);
     const ret = p.map((r) => Number(r.retencion_seg)).filter((x) => x > 0);
-    return {
-      formato,
-      publicaciones: p.length,
-      alcance_mediano: d3.median(p, (r) => Number(r.alcance)),
-      guardados: d3.sum(p, (r) => Number(r.guardados)),
-      compartidos: d3.sum(p, (r) => Number(r.compartidos)),
-      retencion_promedio: ret.length ? Math.round(d3.mean(ret) * 10) / 10 : null
-    };
+    return {formato, publicaciones: p.length, alcance_mediano: d3.median(p, (r) => Number(r.alcance)),
+      guardados: d3.sum(p, (r) => Number(r.guardados)), compartidos: d3.sum(p, (r) => Number(r.compartidos)),
+      retencion_promedio: ret.length ? Math.round(d3.mean(ret) * 10) / 10 : null};
   })
 });
-
 dash.calc('totales', {
   title: 'Totales de las últimas 20',
   description: 'Suma de compartidos y guardados, y cuántas publicaciones superan 411 de alcance.',
   inputs: ['publicaciones'],
-  fn: (publicaciones) => [{
-    compartidos: d3.sum(publicaciones, (r) => Number(r.compartidos)),
+  fn: (publicaciones) => [{compartidos: d3.sum(publicaciones, (r) => Number(r.compartidos)),
     guardados: d3.sum(publicaciones, (r) => Number(r.guardados)),
-    sobre_meta: publicaciones.filter((r) => Number(r.alcance) > 411).length
-  }]
+    sobre_meta: publicaciones.filter((r) => Number(r.alcance) > 411).length}]
 });
-
+dash.calc('record', {
+  title: 'Récords',
+  description: 'El mayor alcance y el mayor número de compartidos de una sola publicación.',
+  inputs: ['publicaciones'],
+  fn: (publicaciones) => [{alcance_max: d3.max(publicaciones, (r) => Number(r.alcance)), compartidos_max: d3.max(publicaciones, (r) => Number(r.compartidos))}]
+});
 dash.calc('ritmo', {
   title: 'Días sin publicar',
   description: 'Días entre la última publicación y la fecha de la consulta.',
@@ -140,29 +216,94 @@ dash.calc('ritmo', {
   fn: (perfil) => [{dias_sin_publicar: Math.round((Date.parse(perfil[0].fecha_consulta) - Date.parse(perfil[0].ultima_publicacion)) / 864e5)}]
 });
 
-const COLORS = () => ({reel: dash.colors[0], feed: 'var(--cds-chart-muted)'});
-document.querySelectorAll('.isa-sw-reel').forEach((e) => { e.style.background = COLORS().reel; });
-document.querySelectorAll('.isa-sw-feed').forEach((e) => { e.style.background = COLORS().feed; });
+document.querySelectorAll('.ws-sw-reel').forEach((e) => { e.style.background = C.reel; });
+document.querySelectorAll('.ws-sw-feed').forEach((e) => { e.style.background = C.feed; });
 
-const text = (name, id, pick) => dash.draw(name, (el) => {
+// Isaía cambia de frase cada 5 segundos
+let sayIx = 0;
+setInterval(() => {
+  document.querySelectorAll('.ws-say').forEach((box) => {
+    const ps = [...box.querySelectorAll('p')];
+    if (!ps.length) return;
+    sayIx = (sayIx + 1) % ps.length;
+    ps.forEach((p, i) => p.classList.toggle('is-off', i !== sayIx));
+  });
+}, 5000);
+
+const one = (rows, key, val) => rows.find((r) => r[key] === val);
+const countUp = (el, value, fmt) => {
+  if (calm || el._shown === value) { el.textContent = fmt(value); el._shown = value; return; }
+  const from = el._shown ?? 0, t0 = performance.now(), dur = 1400;
+  el._shown = value;
+  const step = (t) => {
+    const k = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - k, 3);
+    el.textContent = fmt(from + (value - from) * e);
+    if (k < 1 && el._shown === value) requestAnimationFrame(step);
+  };
+  requestAnimationFrame(step);
+};
+const drawNum = (name, id, pick, anim) => dash.draw(name, (el) => {
   const g = dash.data(id);
   el.classList.toggle('dash-skeleton', g.status === 'loading');
-  el.textContent = g.status === 'ok' && g.data.length ? pick(g.data) : '—';
+  if (g.status !== 'ok' || !g.data.length) { el.textContent = '—'; el._shown = undefined; return; }
+  const v = pick(g.data);
+  if (anim) countUp(el, v, (x) => fint(Math.round(x))); else el.textContent = fint(v);
 });
-const one = (rows, key, val) => rows.find((r) => r[key] === val);
 
-text('t-reel', 'resumen', (r) => fint(one(r, 'formato', 'Reel').alcance_mediano));
-text('t-feed', 'resumen', (r) => fint(one(r, 'formato', 'Feed').alcance_mediano));
-text('k-reel', 'resumen', (r) => fint(one(r, 'formato', 'Reel').alcance_mediano));
-text('t-dias', 'ritmo', (r) => fint(r[0].dias_sin_publicar));
-text('k-dias', 'ritmo', (r) => fint(r[0].dias_sin_publicar));
-text('t-corte', 'perfil', (r) => fecha(r[0].fecha_consulta));
-text('k-seg', 'perfil', (r) => fint(r[0].seguidores));
-text('k-comp', 'totales', (r) => fint(r[0].compartidos));
-text('k-guard', 'totales', (r) => fint(r[0].guardados));
-text('t-sobre', 'totales', (r) => fint(r[0].sobre_meta));
-dash.draw('meta-alcance', (el) => { el.textContent = fint(META_ALCANCE); });
-dash.draw('meta-comp', (el) => { el.textContent = fint(META_COMP); });
+drawNum('t-reel', 'resumen', (r) => one(r, 'formato', 'Reel').alcance_mediano);
+drawNum('t-feed', 'resumen', (r) => one(r, 'formato', 'Feed').alcance_mediano);
+drawNum('t-dias', 'ritmo', (r) => r[0].dias_sin_publicar);
+drawNum('b1', 'resumen', (r) => one(r, 'formato', 'Reel').alcance_mediano);
+drawNum('b2', 'resumen', (r) => one(r, 'formato', 'Feed').alcance_mediano);
+drawNum('b3', 'record', (r) => r[0].alcance_max);
+drawNum('b4', 'ritmo', (r) => r[0].dias_sin_publicar);
+drawNum('t-sobre', 'totales', (r) => r[0].sobre_meta);
+drawNum('t-reccomp', 'record', (r) => r[0].compartidos_max);
+drawNum('k-seg', 'perfil', (r) => Number(r[0].seguidores), true);
+drawNum('k-reel', 'resumen', (r) => one(r, 'formato', 'Reel').alcance_mediano, true);
+drawNum('k-rec', 'record', (r) => r[0].alcance_max, true);
+drawNum('k-comp', 'totales', (r) => r[0].compartidos, true);
+drawNum('k-guard', 'totales', (r) => r[0].guardados, true);
+drawNum('k-dias', 'ritmo', (r) => r[0].dias_sin_publicar, true);
+['meta-alcance', 'b5'].forEach((n) => dash.draw(n, (el) => { el.textContent = fint(META_ALCANCE); }));
+['meta-comp', 'b6'].forEach((n) => dash.draw(n, (el) => { el.textContent = fint(META_COMP); }));
+dash.draw('t-corte', (el) => { const g = dash.data('perfil'); el.textContent = g.status === 'ok' && g.data.length ? fecha(g.data[0].fecha_consulta).toUpperCase() : '—'; });
+
+dash.draw('c-reel', (el) => {
+  const g = dash.data('resumen');
+  el.className = 'ws-chip ws-mono';
+  if (g.status !== 'ok') { el.textContent = '—'; return; }
+  const r = one(g.data, 'formato', 'Reel'), f = one(g.data, 'formato', 'Feed');
+  const pct = Math.round((r.alcance_mediano / f.alcance_mediano - 1) * 100);
+  el.classList.add(pct >= 0 ? 'ws-up' : 'ws-down');
+  el.textContent = `${pct >= 0 ? '▲' : '▼'} ${fint(Math.abs(pct))}% VS FEED`;
+});
+
+const meter = (name, id, pick, goal) => dash.draw(name, (el) => {
+  const g = dash.data(id);
+  if (g.status !== 'ok') { el.style.width = '0%'; return; }
+  const k = Math.min(1, pick(g.data) / goal);
+  requestAnimationFrame(() => { el.style.width = (k * 100) + '%'; });
+});
+meter('m-alc', 'totales', (r) => r[0].sobre_meta, 20);
+meter('m-comp', 'record', (r) => r[0].compartidos_max, META_COMP);
+
+dash.draw('ticker', (el) => {
+  const g = dash.data('publicaciones');
+  el.replaceChildren();
+  if (g.status !== 'ok') return;
+  const rows = [...g.data].sort((a, b) => (a.fecha < b.fecha ? 1 : -1));
+  const make = () => rows.map((r) => {
+    const a = Number(r.alcance), up = a > META_ALCANCE;
+    const s = document.createElement('span'); s.className = 'ws-tk';
+    const t = document.createElement('b'); t.textContent = `${r.formato.toUpperCase()} ${fecha(r.fecha).toUpperCase()}`;
+    const v = document.createElement('span'); v.className = up ? 'ws-up' : 'ws-down';
+    v.textContent = `${up ? '▲' : '▼'} ${fint(a)} ALC`;
+    const c = document.createElement('span'); c.className = 'ws-amb'; c.textContent = `${fint(Number(r.compartidos))} COMP`;
+    s.append(t, v, c); return s;
+  });
+  el.append(...make(), ...make());
+});
 
 dash.draw('t-resumen', (tb) => {
   const g = dash.data('resumen');
@@ -170,8 +311,8 @@ dash.draw('t-resumen', (tb) => {
   if (g.status !== 'ok') return;
   g.data.forEach((r) => {
     const tr = document.createElement('tr');
-    [r.formato, fint(r.publicaciones), fint(r.alcance_mediano), fint(r.guardados), fint(r.compartidos), r.retencion_promedio == null ? '—' : fdec(r.retencion_promedio)]
-      .forEach((v, i) => { const td = document.createElement('td'); td.textContent = v; if (i) td.className = 'n'; tr.appendChild(td); });
+    [[r.formato, r.formato === 'Reel' ? 'ws-up' : 'ws-amb'], [fint(r.publicaciones), 'n'], [fint(r.alcance_mediano), 'n'], [fint(r.compartidos), 'n'], [fint(r.guardados), 'n'], [r.retencion_promedio == null ? '—' : fdec(r.retencion_promedio), 'n']]
+      .forEach(([v, c]) => { const td = document.createElement('td'); td.textContent = v; td.className = c; tr.appendChild(td); });
     tb.appendChild(tr);
   });
 });
@@ -181,63 +322,68 @@ dash.draw('t-posts', (tb) => {
   tb.replaceChildren();
   if (g.status !== 'ok') return;
   [...g.data].sort((a, b) => (a.fecha < b.fecha ? 1 : -1)).forEach((r) => {
-    const tr = document.createElement('tr');
-    tr.dataset.key = r.id;
-    const cells = [
-      [fecha(r.fecha)], [r.formato], [r.tema, 'isa-tema'],
-      [fint(num(r.alcance)), 'n' + (num(r.alcance) > META_ALCANCE ? ' isa-hit' : '')],
-      [num(r.vistas) == null ? '—' : fint(num(r.vistas)), 'n'], [fint(num(r.me_gusta)), 'n'],
-      [fint(num(r.guardados)), 'n'], [fint(num(r.compartidos)), 'n' + (num(r.compartidos) >= META_COMP ? ' isa-hit' : '')],
-      [num(r.retencion_seg) == null ? '—' : fdec(num(r.retencion_seg)), 'n']
-    ];
-    cells.forEach(([v, c]) => { const td = document.createElement('td'); td.textContent = v; if (c) td.className = c; tr.appendChild(td); });
+    const tr = document.createElement('tr'); tr.dataset.key = r.id;
+    const a = num(r.alcance), sh = num(r.compartidos);
+    [[fecha(r.fecha)], [r.formato, r.formato === 'Reel' ? 'ws-up' : 'ws-amb'], [r.tema, 'ws-tema'],
+     [fint(a), 'n ' + (a > META_ALCANCE ? 'ws-up' : 'ws-down')], [num(r.vistas) == null ? '—' : fint(num(r.vistas)), 'n'],
+     [fint(num(r.me_gusta)), 'n'], [fint(num(r.guardados)), 'n'], [fint(sh), 'n' + (sh >= META_COMP ? ' ws-up' : '')],
+     [num(r.retencion_seg) == null ? '—' : fdec(num(r.retencion_seg)), 'n']]
+      .forEach(([v, c]) => { const td = document.createElement('td'); td.textContent = v; if (c) td.className = c; tr.appendChild(td); });
     tb.appendChild(tr);
   });
 });
 
+let grown = false;
 dash.draw('chart', (el) => {
   const g = dash.data('publicaciones');
   el.replaceChildren();
   if (g.status === 'error' || g.status === 'connect') {
-    const f = document.createElement('div'); f.className = 'isa-fail';
-    f.append(document.createElement('i'), 'Failed to load'); el.appendChild(f); return;
+    const f = document.createElement('div'); f.className = 'ws-fail'; f.append(document.createElement('i'), 'Failed to load'); el.appendChild(f); return;
   }
   if (g.status !== 'ok') return;
   const rows = [...g.data].map((r) => ({...r, a: Number(r.alcance)})).sort((a, b) => (a.fecha < b.fecha ? -1 : 1));
-  const W = Math.max(280, el.clientWidth), H = 280, m = {t: 28, r: 8, b: 34, l: 44};
-  const CAP = 2500;
-  const x = d3.scaleBand(rows.map((r) => r.id), [m.l, W - m.r]).padding(0.25);
+  const W = Math.max(300, el.clientWidth), H = 300, m = {t: 30, r: 18, b: 36, l: 48}, CAP = 2500, DX = 9, DY = 7;
+  const x = d3.scaleBand(rows.map((r) => r.id), [m.l, W - m.r - DX]).padding(0.32);
   const y = d3.scaleLinear([0, CAP], [H - m.b, m.t]);
-  const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Alcance por publicación');
-  svg.append('g').selectAll('line').data(y.ticks(5)).join('line')
-    .attr('x1', m.l).attr('x2', W - m.r).attr('y1', (d) => y(d)).attr('y2', (d) => y(d)).attr('stroke', 'var(--cds-chart-grid)');
-  svg.append('g').selectAll('text').data(y.ticks(5)).join('text')
-    .attr('x', m.l - 6).attr('y', (d) => y(d) + 4).attr('text-anchor', 'end').attr('fill', 'var(--color-fg-muted)').attr('font-size', 11).text((d) => fint(d));
-  const c = COLORS();
-  svg.append('g').selectAll('rect').data(rows).join('rect')
-    .attr('x', (r) => x(r.id)).attr('width', Math.min(32, x.bandwidth()))
-    .attr('y', (r) => y(Math.min(r.a, CAP))).attr('height', (r) => y(0) - y(Math.min(r.a, CAP)))
-    .attr('rx', 2).style('fill', (r) => (r.formato === 'Reel' ? c.reel : c.feed));
-  svg.append('g').selectAll('text').data(rows.filter((r) => r.a > CAP)).join('text')
-    .attr('x', (r) => x(r.id) + Math.min(32, x.bandwidth()) / 2).attr('y', m.t - 8).attr('text-anchor', 'middle')
-    .attr('font-size', 11).attr('fill', 'var(--color-fg)').text((r) => fint(r.a));
-  svg.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(META_ALCANCE)).attr('y2', y(META_ALCANCE))
-    .attr('stroke', 'var(--cds-chart-reference)').attr('stroke-dasharray', '4 4');
-  svg.append('text').attr('x', W - m.r).attr('y', y(META_ALCANCE) - 5).attr('text-anchor', 'end').attr('font-size', 11)
-    .attr('fill', 'var(--color-fg-muted)').text(`Meta ${fint(META_ALCANCE)}`);
-  const step = Math.max(1, Math.ceil(rows.length / Math.max(2, Math.floor((W - m.l) / 70))));
+  const bw = Math.min(26, x.bandwidth());
+  const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Alcance por publicación en 3D');
+  const defs = svg.append('defs');
+  [['reel', C.reel], ['feed', C.feed]].forEach(([k, col]) => {
+    const lg = defs.append('linearGradient').attr('id', 'ws-g-' + k).attr('x1', 0).attr('x2', 0).attr('y1', 0).attr('y2', 1);
+    lg.append('stop').attr('offset', 0).style('stop-color', col).style('stop-opacity', 1);
+    lg.append('stop').attr('offset', 1).style('stop-color', col).style('stop-opacity', .55);
+  });
+  // piso en perspectiva
+  svg.append('polygon').attr('points', `${m.l},${H - m.b} ${W - m.r - DX},${H - m.b} ${W - m.r},${H - m.b - DY} ${m.l + DX},${H - m.b - DY}`).attr('fill', '#0f1720').attr('stroke', '#1d2733');
+  y.ticks(5).forEach((d) => {
+    svg.append('line').attr('x1', m.l + DX).attr('x2', W - m.r).attr('y1', y(d) - DY).attr('y2', y(d) - DY).attr('stroke', '#16202b');
+    svg.append('text').attr('x', m.l - 6).attr('y', y(d) + 4).attr('text-anchor', 'end').attr('fill', '#7f8c99').attr('font-size', 11).attr('font-family', 'ui-monospace,Menlo,monospace').text(fint(d));
+  });
+  const bars = svg.append('g').selectAll('g').data(rows).join('g').attr('class', grown || calm ? '' : 'ws-in3d')
+    .each(function (r, i) { if (!grown && !calm) this.style.animationDelay = (i * 45) + 'ms'; });
+  bars.each(function (r) {
+    const gx = d3.select(this), x0 = x(r.id), top = y(Math.min(r.a, CAP)), base = y(0), k = r.formato === 'Reel' ? 'reel' : 'feed', col = C[k];
+    gx.append('polygon').attr('points', `${x0 + bw},${top} ${x0 + bw + DX},${top - DY} ${x0 + bw + DX},${base - DY} ${x0 + bw},${base}`).style('fill', d3.color(col).darker(1.4));
+    gx.append('rect').attr('x', x0).attr('y', top).attr('width', bw).attr('height', base - top).attr('fill', `url(#ws-g-${k})`);
+    gx.append('polygon').attr('points', `${x0},${top} ${x0 + DX},${top - DY} ${x0 + bw + DX},${top - DY} ${x0 + bw},${top}`).style('fill', d3.color(col).brighter(.8));
+    if (r.a > CAP) gx.append('text').attr('x', x0 + bw / 2 + DX / 2).attr('y', top - DY - 6).attr('text-anchor', 'middle').attr('font-size', 11).attr('font-weight', 700).attr('fill', '#e9eef3').attr('font-family', 'ui-monospace,Menlo,monospace').text(fint(r.a));
+  });
+  grown = true;
+  const ym = y(META_ALCANCE);
+  svg.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', ym).attr('y2', ym).attr('stroke', C.meta).attr('stroke-width', 1.5).attr('stroke-dasharray', '5 4');
+  svg.append('text').attr('x', m.l + 4).attr('y', ym - 6).attr('font-size', 11).attr('font-weight', 700).attr('fill', C.meta).attr('font-family', 'ui-monospace,Menlo,monospace').text(`META ${fint(META_ALCANCE)}`);
+  const step = Math.max(1, Math.ceil(rows.length / Math.max(2, Math.floor((W - m.l) / 72))));
   svg.append('g').selectAll('text').data(rows.filter((_, i) => i % step === 0)).join('text')
-    .attr('x', (r) => x(r.id) + Math.min(32, x.bandwidth()) / 2).attr('y', H - m.b + 16).attr('text-anchor', 'middle')
-    .attr('font-size', 11).attr('fill', 'var(--color-fg-muted)').text((r) => fecha(r.fecha));
-  const tip = document.createElement('div'); tip.className = 'isa-tip'; tip.hidden = true; el.appendChild(tip);
+    .attr('x', (r) => x(r.id) + bw / 2).attr('y', H - m.b + 18).attr('text-anchor', 'middle').attr('font-size', 11).attr('fill', '#7f8c99').attr('font-family', 'ui-monospace,Menlo,monospace').text((r) => fecha(r.fecha));
+  const tip = document.createElement('div'); tip.className = 'ws-tip'; tip.hidden = true; el.appendChild(tip);
   svg.append('g').selectAll('rect').data(rows).join('rect')
-    .attr('x', (r) => x(r.id) - x.step() * x.paddingInner() / 2).attr('width', x.step()).attr('y', m.t).attr('height', H - m.t - m.b)
-    .attr('fill', 'transparent')
+    .attr('x', (r) => x(r.id) - x.step() * x.paddingInner() / 2).attr('width', x.step()).attr('y', m.t - DY).attr('height', H - m.t - m.b + DY).attr('fill', 'transparent')
     .on('pointerenter pointermove', (ev, r) => {
       tip.replaceChildren();
-      const d = document.createElement('div'); d.className = 'isa-tip-d'; d.textContent = `${fecha(r.fecha)} · ${r.formato}`;
+      const d = document.createElement('div'); d.className = 'ws-tip-d'; d.textContent = `${fecha(r.fecha)} · ${r.formato}`;
       const t = document.createElement('div'); t.textContent = r.tema;
-      const v = document.createElement('div'); v.textContent = `Alcance ${fint(r.a)} · Compartidos ${fint(Number(r.compartidos))}`;
+      const v = document.createElement('div'); v.className = r.a > META_ALCANCE ? 'ws-up' : 'ws-down';
+      v.textContent = `${r.a > META_ALCANCE ? '▲' : '▼'} Alcance ${fint(r.a)} · Compartidos ${fint(Number(r.compartidos))}`;
       tip.append(d, t, v); tip.hidden = false;
       const [px, py] = d3.pointer(ev, el);
       tip.style.left = Math.max(0, Math.min(px + 12, el.clientWidth - tip.offsetWidth)) + 'px';

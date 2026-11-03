@@ -1,0 +1,137 @@
+<title>Mesa Marca Personal</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Lato:wght@400;700;900&display=swap">
+<style>
+/* Layout: la misma Mesa de Comfacesar. Una columna, pestañas por frente, tarjetas que abren cada reporte vivo. */
+:root{
+  --ground:#FAF7F7;--surface:#FFFFFF;--surface-2:#F3EEEE;--ink:#1A1315;--ink-2:#4A3E40;--muted:#6B5E60;
+  --line:#E6DDDD;--line-strong:#D2C6C6;--accent:#C00000;--accent-soft:#F7E7E7;--good:#1B6B45;--good-bg:#E2F0E9;--warn:#8F5407;--warn-bg:#F8EBDA;
+  --f-display:"Montserrat","Helvetica Neue",Arial,sans-serif;--f-body:"Source Serif 4",Georgia,serif;--f-ui:"Lato","Segoe UI",Helvetica,Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --ground:#121011;--surface:#1B1819;--surface-2:#232021;--ink:#F1ECEC;--ink-2:#D5CCCC;--muted:#A0918F;--line:#2C2627;--line-strong:#3D3536;
+  --accent:#E85555;--accent-soft:#33201F;--good:#6FCB9B;--good-bg:#163024;--warn:#E5AC66;--warn-bg:#332616;color-scheme:dark}}
+:root[data-theme="dark"]{--ground:#121011;--surface:#1B1819;--surface-2:#232021;--ink:#F1ECEC;--ink-2:#D5CCCC;--muted:#A0918F;--line:#2C2627;--line-strong:#3D3536;
+  --accent:#E85555;--accent-soft:#33201F;--good:#6FCB9B;--good-bg:#163024;--warn:#E5AC66;--warn-bg:#332616;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--f-body);font-size:1.0625rem;line-height:1.6;margin:0;
+  padding-left:max(1.25rem,env(safe-area-inset-left,0px));padding-right:max(1.25rem,env(safe-area-inset-right,0px));padding-block:0 5rem;-webkit-font-smoothing:antialiased}
+.wrap{max-width:56rem;margin:0 auto}
+.eyebrow{font-family:var(--f-ui);font-weight:900;font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);margin:0}
+h1{font-family:var(--f-display);font-size:clamp(2rem,5.5vw,2.8rem);font-weight:800;line-height:1.03;letter-spacing:-.025em;text-wrap:balance;margin:.5rem 0 0}
+p{margin:0}
+.lede{font-size:1.08rem;color:var(--muted);text-wrap:pretty}
+header.top{display:flex;flex-direction:column;gap:.8rem;padding:3rem 0 1.6rem;border-bottom:3px solid var(--accent)}
+.stamp{font-family:var(--f-ui);font-size:.75rem;color:var(--muted)}
+.tabs{display:flex;flex-wrap:wrap;border-bottom:1px solid var(--line-strong);margin-top:2rem}
+.tab{font-family:var(--f-display);font-weight:800;font-size:1.02rem;background:transparent;color:var(--muted);border:0;border-bottom:3px solid transparent;margin-bottom:-1px;padding:.75rem 1.2rem .8rem;cursor:pointer;display:flex;align-items:center;gap:.5rem}
+.tab:hover{color:var(--ink)}
+.tab[aria-selected="true"]{color:var(--accent);border-bottom-color:var(--accent)}
+.tab:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+.dot{width:.5rem;height:.5rem;border-radius:50%;background:currentColor;opacity:.55}
+.panel{padding-top:1.7rem;display:flex;flex-direction:column;gap:1.4rem}
+.quien{font-size:1rem;color:var(--ink-2)}
+.grupo{display:flex;flex-direction:column;gap:.55rem}
+.grupo>h3{font-family:var(--f-ui);font-size:.7rem;font-weight:900;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 .25rem}
+.rep{text-decoration:none;color:inherit;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);padding:1rem 1.15rem;display:flex;flex-direction:column;gap:.4rem}
+.rep:hover{border-color:var(--line-strong);border-left-color:var(--accent)}
+.rep:hover .nombre{color:var(--accent)}
+.rep:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.rep.off{border-left-color:var(--line-strong)}
+.fila{display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap}
+.nombre{font-family:var(--f-display);font-size:1.18rem;font-weight:800;letter-spacing:-.015em}
+.sub{font-family:var(--f-ui);font-size:.76rem;font-weight:700;color:var(--muted)}
+.rep p{font-size:.96rem;color:var(--ink-2);text-wrap:pretty}
+.meta{font-family:var(--f-ui);font-size:.73rem;color:var(--muted);display:flex;gap:.3rem .85rem;flex-wrap:wrap}
+.meta b{font-weight:900;color:var(--ink-2)}
+.abrir{font-family:var(--f-ui);font-size:.72rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.pill{display:inline-flex;font-family:var(--f-ui);font-weight:900;font-size:.66rem;letter-spacing:.07em;text-transform:uppercase;padding:.2rem .48rem;border-radius:3px}
+.pill.good{background:var(--good-bg);color:var(--good)} .pill.warn{background:var(--warn-bg);color:var(--warn)}
+.note{border-left:3px solid var(--line-strong);background:var(--surface-2);padding:1rem 1.15rem;font-size:.95rem}
+footer{margin-top:3rem;padding-top:1.25rem;border-top:1px solid var(--line);font-family:var(--f-ui);font-size:.74rem;color:var(--muted)}
+@media (prefers-reduced-motion:no-preference){.tab,.rep,.nombre{transition:color .15s ease,border-color .15s ease}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <p class="eyebrow">IAM™ · Marca personal Sandra Curvelo · IA SIN RODEOS</p>
+    <h1>Mesa Marca Personal</h1>
+    <p class="lede">Todo lo de tu marca personal en un solo sitio. Guarda este enlace y desde aquí entras a cualquier reporte.</p>
+    <p class="stamp">Actualizada: martes 3 de noviembre de 2026 · temporada 1 en preparación</p>
+  </header>
+
+  <div class="tabs" role="tablist" aria-label="Frentes de la marca personal">
+    <button class="tab" role="tab" id="t-ig" aria-controls="p-ig" aria-selected="true"><span class="dot"></span>Instagram</button>
+    <button class="tab" role="tab" id="t-li" aria-controls="p-li" aria-selected="false"><span class="dot"></span>LinkedIn</button>
+  </div>
+
+  <div class="panel" role="tabpanel" id="p-ig" aria-labelledby="t-ig">
+    <p class="quien">Isaía mide y Giovanni publica. Aquí está cómo va la cuenta y lo que se graba para la serie.</p>
+
+    <div class="grupo">
+      <h3>Medición</h3>
+      <a class="rep" href="https://claude.ai/artifact/K5KViaj7vCXjHhcKm4snmW">
+        <div class="fila"><span class="nombre">Tablero Isaía</span><span class="sub">Terminal de Instagram</span><span class="pill good">Nuevo</span></div>
+        <p>Alcance, compartidos, guardados y retención de las últimas 20 publicaciones, leídos de la API de Meta. Con la meta de cada episodio de la serie y el estado de la cuenta.</p>
+        <div class="meta"><span>Corte <b>mar 3 nov · 2026</b></span><span>348 seguidores · <b>411</b> de alcance mediano en Reels</span><span>Se actualiza <b>cuando Isaía hace un corte</b></span></div>
+        <span class="abrir">Abrir el tablero →</span>
+      </a>
+    </div>
+
+    <div class="grupo">
+      <h3>Producción</h3>
+      <a class="rep" href="https://claude.ai/artifact/AniSgFTV2ZyDuur1jugbNU">
+        <div class="fila"><span class="nombre">Teleprompter</span><span class="sub">IA SIN RODEOS · episodios 1 y 2</span><span class="pill good">Vigente</span></div>
+        <p>Los guiones listos para grabar, con desplazamiento automático, tamaño de letra y modo espejo. Preguntas en rojo, respuestas en blanco y las frases golpe subrayadas.</p>
+        <div class="meta"><span>Ep. 1 <b>Lo que nadie te cuenta de Claude</b></span><span>Ep. 2 <b>Tablero bonito, proceso roto</b></span></div>
+        <span class="abrir">Abrir el teleprompter →</span>
+      </a>
+    </div>
+
+    <p class="note">Próximo en la Mesa: el corte del Episodio 1 a la hora, a las 24 horas, a las 72 horas y a los 7 días, comparado con la línea base.</p>
+  </div>
+
+  <div class="panel" role="tabpanel" id="p-li" aria-labelledby="t-li" hidden>
+    <p class="quien">LinkedIn es donde se cierra el negocio B2B. Cada episodio de Instagram tiene su publicación aquí.</p>
+    <div class="grupo">
+      <h3>Publicaciones</h3>
+      <a class="rep" href="https://claude.ai/artifact/3rS4cJB2opfxrwTMFUCyGe">
+        <div class="fila"><span class="nombre">Cola IAM LinkedIn</span><span class="sub">Publicaciones programadas</span><span class="pill good">Vigente</span></div>
+        <p>La cola de publicaciones de LinkedIn de la marca IAM™.</p>
+        <span class="abrir">Abrir la cola →</span>
+      </a>
+    </div>
+  </div>
+
+  <footer>IAM™ · Mesa Marca Personal · Los reportes marcados «vigente» se actualizan solos; esta mesa se toca solo cuando aparece o se retira un reporte</footer>
+</div>
+
+<script>
+(function () {
+  var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab'));
+  function select(tab, focus) {
+    tabs.forEach(function (t) {
+      var on = t === tab;
+      t.setAttribute('aria-selected', on ? 'true' : 'false');
+      document.getElementById(t.getAttribute('aria-controls')).hidden = !on;
+    });
+    if (focus) tab.focus();
+    try { localStorage.setItem('mesa-mp-tab', tab.id); } catch (e) {}
+  }
+  tabs.forEach(function (tab, i) {
+    tab.addEventListener('click', function () { select(tab, true); });
+    tab.addEventListener('keydown', function (e) {
+      var next = null;
+      if (e.key === 'ArrowRight') next = tabs[(i + 1) % tabs.length];
+      if (e.key === 'ArrowLeft') next = tabs[(i - 1 + tabs.length) % tabs.length];
+      if (next) { e.preventDefault(); select(next, true); }
+    });
+  });
+  var saved = null;
+  try { saved = localStorage.getItem('mesa-mp-tab'); } catch (e) {}
+  var t = saved && document.getElementById(saved);
+  if (t) select(t, false);
+})();
+</script>
