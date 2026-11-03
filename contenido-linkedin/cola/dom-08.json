@@ -1,6 +1,6 @@
 {
   "id": "dom-08",
-  "estado": "pendiente",
+  "estado": "texto_aprobado_falta_imagen",
   "programado_bogota": "2026-11-08 17:00",
   "imagen": "contenido-linkedin/imagenes/fin-semana-dom-08.jpg",
   "urn": null,
@@ -16,5 +16,7 @@
     "lifecycleState": "PUBLISHED",
     "isReshareDisabledByAuthor": false
   },
-  "alt": "Si la IA te devolviera 4 horas a la semana, ¿en qué las usarías?"
+  "alt": "Sandra Curvelo en tarima con micrófono. Si la IA te devolviera 4 horas a la semana, ¿en qué las usarías?",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-03"
 }
