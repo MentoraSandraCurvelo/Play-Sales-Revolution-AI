@@ -17,10 +17,10 @@ Son las doce que van, en este orden.
   ──   ───────────────────────
    1   Agencia de Empleo
    2   IPS
-   3   Contabilidad
-   4   Sub. Admin y Financiera
-   5   Educación
-   6   Vivienda
+   3   Vivienda
+   4   Contabilidad
+   5   Sub. Admin y Financiera
+   6   Educación
    7   Jurídica
    8   Subsidio y Aportes
    9   Servicios Sociales
@@ -29,7 +29,7 @@ Son las doce que van, en este orden.
   12   Gerencia Financiera
 ```
 
-En la 4 presenta Rafael Solano.
+En la 5 presenta Rafael Solano.
 
 Y estas son las indicaciones para todas. Una o dos diapositivas bastan, lo demás se muestra en vivo.
 

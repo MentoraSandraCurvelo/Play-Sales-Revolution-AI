@@ -12,10 +12,10 @@ rinde bien y se lee de corrido.
 
 *1. Agencia de Empleo* · Lina María Rincón y José Jaime Maya
 *2. IPS* · Danilo Pozo, con dos personas más de su equipo
-*3. Contabilidad* · Carlos Lozano
-*4. Sub. Admin y Financiera* · Rafael Solano
-*5. Educación* · Óscar Cotes
-*6. Vivienda* · Cindy Silva
+*3. Vivienda* · Cindy Silva
+*4. Contabilidad* · Carlos Lozano
+*5. Sub. Admin y Financiera* · Rafael Solano
+*6. Educación* · Óscar Cotes y Julissa Pérez
 *7. Jurídica* · Carlos Mario Gamarra, Renata Laino y Lilibeth Costa
 *8. Subsidio y Aportes* · Cindy Rodríguez
 *9. Servicios Sociales* · Juan Pablo
@@ -72,3 +72,9 @@ cruzar contra su cuenta de Slack antes de fijar una forma, y manda Slack.
 
 **Óscar Cotes** aparece en la ficha de Educación como Rectoría del Colegio.
 Confirma si prefieres que vaya con el cargo.
+
+**Julissa va con doble ese.** Tú la dijiste «Julisa», y en Slack su cuenta es
+**Julissa Pérez Pérez**, con `auxiliareducacion@comfacesar.com`, que cuadra con
+que sea la auxiliar del área. La regla del registro es que manda Slack, porque
+es la persona escribiendo su propio nombre. En el mensaje va como «Julissa Pérez»,
+sin repetir el apellido, que es la forma corta que ella misma usa.

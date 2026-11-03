@@ -115,10 +115,10 @@ TARIFAS = [("Profesional", 36351, "Base del reporte"),
 JORNADA = [
     ("Agencia de Empleo", "AE", "Matías respondiendo a un ciudadano"),
     ("IPS", "IPS", "La plataforma de capacitaciones, de la firma al certificado"),
+    ("Vivienda", "VI", "El tablero del mejoramiento rural y el análisis de interventorías"),
     ("Contabilidad", "CO", "El circuito de conciliaciones probado de punta a punta"),
     ("Sub. Admin y Financiera", "SF", "La prevalidación precontractual y la agenda directiva"),
     ("Educación", "ED", "Dos tableros publicados y su primera cifra medida"),
-    ("Vivienda", "VI", "El tablero del mejoramiento rural y el análisis de interventorías"),
     ("Jurídica", "JU", "Cuatro agentes, dos corriendo sobre el correo real"),
     ("Subsidio y Aportes", "SA", "El circuito completo, de principio a fin"),
     ("Servicios Sociales", "SS", "Las actas de contrato y el agente que halló errores de origen"),
@@ -126,7 +126,23 @@ JORNADA = [
     ("Sub. Operativa", "SO", "Maia, el primer agente del área"),
     ("Gerencia Financiera", "GF", "Lo que mida en la sesión de esta semana"),
 ]
-PRESENTA = {"Sub. Admin y Financiera": "Rafael Solano"}
+# Quién presenta por cada área, en forma corta, que es la que cabe en la columna
+# de la diapositiva. Los nombres completos están en el mensaje a María Elvira,
+# whatsapp-maria-elvira-quien-presenta.md, cruzados contra Slack.
+PRESENTA = {
+    "Agencia de Empleo": "Lina Rincón y José Jaime Maya",
+    "IPS": "Danilo Pozo y equipo",
+    "Vivienda": "Cindy Silva",
+    "Contabilidad": "Carlos Lozano",
+    "Sub. Admin y Financiera": "Rafael Solano",
+    "Educación": "Óscar Cotes y Julissa Pérez",
+    "Jurídica": "Gamarra, Laino y Costa",
+    "Subsidio y Aportes": "Cindy Rodríguez",
+    "Servicios Sociales": "Juan Pablo",
+    "Comunicaciones": "por confirmar",
+    "Sub. Operativa": "Jennifer",
+    "Gerencia Financiera": "Liliany",
+}
 
 INDICACIONES = [
     ("El flujo de trabajo", "Cómo lo hacían antes y cómo lo hacen ahora. Una o dos diapositivas."),

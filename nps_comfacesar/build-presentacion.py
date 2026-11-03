@@ -362,9 +362,8 @@ def fila_area(i, area, ini, muestra):
     met = f'{horas(area)} h' if area in D.HORAS else "por medir"
     return (f'<div class="row ja rv" style="--d:{.04 * i}s">'
             f'<p class="n">{i + 1:02d}</p>{mono(ini)}'
-            f'<p class="an f1">{area}'
-            f'{f" · <span class=who>{quien}</span>" if quien else ""}'
-            f'<span class="qm"> · {muestra}</span></p>'
+            f'<p class="an f1">{area}<span class="qm"> · {muestra}</span></p>'
+            f'<p class="who pr">{quien}</p>'
             f'<p class="vl" style="width:110px;text-align:right">{met}</p>'
             f'<p class="iie" style="width:84px;text-align:right">{ent(iie_a)}</p></div>')
 
@@ -373,8 +372,9 @@ s12 = slide("jornada", "Las doce áreas", f"""
   <p class="eb">Bloque 02 · las áreas, en vivo</p>
   <h2>Doce áreas, en este orden</h2>
   <div class="col" style="gap:3px;flex:1;justify-content:center">
-    <div class="row ja hd"><p class="n">N°</p><span style="width:56px"></span>
+    <div class="row ja hd"><p class="n">N°</p><span style="width:44px"></span>
       <p class="f1">Área y qué muestra</p>
+      <p class="pr">Quién presenta</p>
       <p style="width:110px;text-align:right">h/semana</p>
       <p style="width:84px;text-align:right">IIE</p></div>
     {"".join(fila_area(i, a, ini, m) for i, (a, ini, m) in enumerate(D.JORNADA))}
@@ -585,6 +585,9 @@ td.st{color:var(--red)!important;font-weight:800} .dk td.st{color:var(--red-hi)!
 .ja .n{font-family:var(--f-h);font-weight:800;font-size:26px;width:44px;
   font-variant-numeric:tabular-nums}
 .dk .ja .n{color:var(--dim-d)} .lt .ja .n{color:var(--dim-l)}
+.ja .pr{width:330px;flex:none;font-size:20px;overflow:hidden;
+  text-overflow:ellipsis;white-space:nowrap}
+.ja.hd .pr{font-size:19px}
 .ja .an{font-size:24px;font-weight:700;min-width:0;overflow:hidden;
   text-overflow:ellipsis;white-space:nowrap}
 .ja .qm{font-weight:400;font-size:21px}
