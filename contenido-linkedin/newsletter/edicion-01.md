@@ -1,5 +1,5 @@
 # Edición 1 · jue 12 nov 2026 · Lo que nadie te dice de la IA
-Estado: BORRADOR v2 (dinámico) para aprobación de Sandra.
+Estado: APROBADO por Sandra el 3 nov 2026 (borrador armado en LinkedIn por Chrome). Sale el jue 12 nov 7:30 a. m.
 Portada: newsletter/edicion-01-banner.jpg
 Imágenes dentro del artículo: ed01-img1-sistema.jpg, ed01-img2-medicion.jpg, ed01-img3-seguridad.jpg
 Video en la mitad: ed01-video-sistema.mp4 (24 s)
