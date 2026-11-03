@@ -1,0 +1,96 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<title>Guía: conecta tu LinkedIn con un agente de IA</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800;900&family=Outfit:wght@400;600&display=swap">
+<style>
+@page{size:A4;margin:0}
+*{box-sizing:border-box;margin:0}
+body{font-family:Outfit,Arial,sans-serif;color:#1a1415;font-size:11.5pt;line-height:1.5}
+.pg{width:210mm;height:297mm;padding:20mm 18mm 16mm 22mm;position:relative;page-break-after:always;overflow:hidden}
+.pg::before{content:"";position:absolute;left:0;top:0;bottom:0;width:6mm;background:#c00000}
+.cover{background:#0a0a0a;color:#f3f1ec;display:flex;flex-direction:column;justify-content:center;gap:8mm}
+.eb{font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#e00000;font-size:10pt}
+h1{font-family:"Playfair Display",Georgia,serif;font-weight:900;font-size:34pt;line-height:1.05}
+h2{font-family:"Playfair Display",Georgia,serif;font-weight:800;font-size:19pt;margin:0 0 4mm}
+h3{font-size:12.5pt;margin:5mm 0 1.5mm}
+p,li{max-width:160mm}
+ol,ul{padding-left:6mm;display:flex;flex-direction:column;gap:1.8mm}
+.red{color:#e00000}
+.box{border-left:4px solid #c00000;background:#f6f1f1;padding:4mm 5mm;margin:4mm 0}
+.prompt{font-family:ui-monospace,Menlo,monospace;font-size:10pt;background:#151515;color:#f3f1ec;padding:4mm 5mm;border-radius:2mm;margin:2mm 0 4mm;white-space:pre-wrap}
+.ft{position:absolute;left:22mm;right:18mm;bottom:8mm;font-size:8.5pt;color:#7e7a73;display:flex;justify-content:space-between}
+.cover .ft{color:#7e7a73}
+table{border-collapse:collapse;width:100%;font-size:10.5pt;margin-top:3mm}
+th{background:#c00000;color:#fff;text-align:left;padding:2mm 3mm}
+td{border-bottom:1px solid #e3dada;padding:2mm 3mm;vertical-align:top}
+</style></head><body>
+
+<section class="pg cover">
+  <p class="eb">Lo que nadie te dice de la IA · Guía 1</p>
+  <h1>Conecta tu LinkedIn<br>con un agente de <span class="red">IA</span></h1>
+  <p style="font-size:14pt;color:#bdb8b0;max-width:150mm">Paso a paso, con la lista de seguridad y la regla de oro: la IA hace el trabajo pesado, tú tienes la última palabra.</p>
+  <p style="font-size:11pt;color:#f3f1ec;margin-top:10mm">Sandra Curvelo · Founder &amp; CSO, IAM™</p>
+  <div class="ft"><span>Información verificada a noviembre de 2026. Los portales cambian: si una pantalla no coincide, busca la opción equivalente.</span><span>iamlatam.co</span></div>
+</section>
+
+<section class="pg">
+  <h2>1. Antes de conectar nada: el mapa</h2>
+  <p>Un sistema de publicación con IA tiene dos piezas. Cada una hace lo que la otra no puede.</p>
+  <table>
+    <tr><th>Pieza</th><th>Qué hace</th><th>Qué no hace</th></tr>
+    <tr><td><b>Agente en la nube</b><br>(con la API oficial de LinkedIn)</td><td>Publica posts con texto, foto, video y encuestas, a la hora programada</td><td>No comenta, no da "me gusta" y no lee tus métricas</td></tr>
+    <tr><td><b>Asistente en el navegador</b><br>(por ejemplo, Claude en Chrome)</td><td>Trabaja dentro de tu sesión: comenta, revisa métricas, edita tu perfil</td><td>Solo funciona con tu navegador abierto</td></tr>
+  </table>
+  <div class="box"><b>La regla de oro.</b> Ninguna de las dos piezas publica nada sin tu aprobación explícita. Escríbelo en las instrucciones del agente desde el primer día.</div>
+
+  <h2 style="margin-top:6mm">2. Conecta la API de LinkedIn</h2>
+  <ol>
+    <li>Necesitas una <b>página de empresa</b> en LinkedIn: el portal de desarrolladores pide asociar la aplicación a una.</li>
+    <li>Entra al <b>portal de desarrolladores de LinkedIn</b> (LinkedIn Developers) y crea una aplicación con el nombre de tu marca.</li>
+    <li>En la pestaña de productos, solicita el producto para <b>compartir publicaciones</b> y el de <b>inicio de sesión</b>. Así tu aplicación puede publicar en tu nombre.</li>
+    <li>Genera la <b>llave de acceso</b> (access token) con tu propia cuenta. Esa llave es la que le das al agente.</li>
+    <li>Guárdala en el espacio de <b>secretos</b> de la herramienta del agente. Nunca en el chat.</li>
+  </ol>
+  <div class="box">Las llaves de LinkedIn vencen. Anota la fecha en que la generaste y renuévala antes de que expire, o el agente dejará de publicar.</div>
+  <div class="ft"><span>Lo que nadie te dice de la IA · Sandra Curvelo</span><span>2</span></div>
+</section>
+
+<section class="pg">
+  <h2>3. Lista de seguridad</h2>
+  <ul>
+    <li>☐ Nunca pegues tu llave en un chat, un correo o un documento.</li>
+    <li>☐ Nunca la muestres en un pantallazo o en una videollamada.</li>
+    <li>☐ Guárdala solo en el espacio de secretos de la herramienta.</li>
+    <li>☐ Si sospechas que alguien la vio, genera una nueva: la anterior deja de servir.</li>
+    <li>☐ Dale a la aplicación solo los permisos que necesita.</li>
+    <li>☐ Revisa cada mes qué publicó el agente.</li>
+  </ul>
+
+  <h2 style="margin-top:7mm">4. Las instrucciones del agente</h2>
+  <p>Copia esto como base y ajústalo a tu marca:</p>
+  <div class="prompt">Eres mi asistente de publicación en LinkedIn.
+Reglas:
+1. Nunca publiques nada que yo no haya aprobado con un "sí" explícito.
+2. No inventes cifras, fuentes ni citas. Si no sabes algo, dilo.
+3. Nunca nombres clientes sin mi autorización.
+4. Cada post: una historia o un dato real, una idea por párrafo, y una pregunta al final.
+5. Antes de publicar, muéstrame el texto exacto, la imagen y la hora.</div>
+
+  <h2 style="margin-top:6mm">5. Tres prompts para empezar hoy</h2>
+  <h3>Revisa tu perfil</h3>
+  <div class="prompt">Actúa como experto en LinkedIn y en marca profesional. Te pego mi titular, mi Acerca de y mis últimos 5 posts. Dime 3 cosas que le impiden a un gerente de mi sector seguirme y cómo las corrijo.</div>
+  <h3>Planea tu semana</h3>
+  <div class="prompt">Actúa como estratega de contenido en LinkedIn para [tu sector]. Proponme 4 posts para esta semana: 2 historias reales, 1 dato con fuente y 1 pregunta para mi audiencia. No inventes cifras.</div>
+  <h3>Comenta con valor</h3>
+  <div class="prompt">Te pego un post de un líder de mi sector. Redacta un comentario de 3 líneas que aporte un dato o una experiencia, sin vender y sin frases genéricas. Yo lo reviso antes de publicarlo.</div>
+  <div class="ft"><span>Lo que nadie te dice de la IA · Sandra Curvelo</span><span>3</span></div>
+</section>
+
+<section class="pg cover" style="justify-content:center">
+  <p class="eb">Lo que no se mide no puede ser mejorado</p>
+  <h1 style="font-size:28pt">Mide antes y después.</h1>
+  <p style="font-size:13pt;color:#bdb8b0;max-width:150mm">Anota hoy tus impresiones, tus reacciones y tus seguidores. En 2 semanas compáralos. Esa es la única forma de saber si tu sistema funciona.</p>
+  <p style="font-size:13pt;color:#f3f1ec;max-width:150mm;margin-top:6mm">¿Quieres implementarlo en tu equipo? Agenda 30 minutos conmigo en <b>iamlatam.co</b></p>
+  <p style="font-size:11pt;color:#bdb8b0;margin-top:4mm">Sígueme en LinkedIn: cada 15 días, una verdad nueva sobre la IA.</p>
+  <div class="ft"><span>Sandra Curvelo · Founder &amp; CSO, IAM™</span><span>4</span></div>
+</section>
+</body></html>
