@@ -1,8 +1,8 @@
 {
   "id": "vie-06",
-  "estado": "pendiente",
+  "estado": "aprobado",
   "programado_bogota": "2026-11-06 07:30",
-  "imagen": "contenido-linkedin/imagenes/vie-06-iae.jpg",
+  "imagen": "contenido-linkedin/imagenes/vie-06-tablero-iae.jpg",
   "urn": null,
   "payload": {
     "author": "urn:li:person:tsJbwdb3B2",
@@ -16,5 +16,8 @@
     "lifecycleState": "PUBLISHED",
     "isReshareDisabledByAuthor": false
   },
-  "alt": "Comprar IA no es usar IA. Así lo medimos: IAE, Índice de IA Empresarial: adopción, horas recuperadas y evolución."
+  "alt": "Tablero IAE con datos de ejemplo y áreas ficticias: Tesorería, Cartera, Compras, Cumplimiento, Contabilidad, Talento Humano suben; Servicio al Cliente y Jurídica bajan.",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-03",
+  "nota_imagen": "Tablero con datos de ejemplo y áreas ficticias; dice en la imagen \"Datos de ejemplo · áreas ficticias\" (regla 8). Fuente: demos/tablero-iae-vie-06.html"
 }

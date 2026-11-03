@@ -117,3 +117,7 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Cada jueves Claude arma el calendario completo de la semana siguiente (lunes a domingo) con textos, imágenes y primeros comentarios, para que Sandra lo apruebe el jueves o el viernes. Nada sale sin su sí.
 - Mezcla semanal: casos privados, sector público (sin mezclar en un mismo post), método (IAE™, DIAL-3R™), tableros con datos de ejemplo, historia de Sandra, IA práctica, fin de semana más cercano.
 - Colores en rotación (regla 15).
+
+## 17. Resultados de encuestas (3 nov 2026, decisión de Sandra)
+
+- Solo se publica un post de resultados si la encuesta tuvo votos suficientes para no quedar mal. Umbral: 30 votos o más (criterio, ajustable por Sandra). Por debajo, no se publica y la promesa se cumple con un comentario dentro de la misma encuesta, aprobado por Sandra.
