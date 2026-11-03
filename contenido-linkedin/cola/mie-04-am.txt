@@ -1,0 +1,22 @@
+¿Cuánto tiempo le toma a tu oficina jurídica armar la contestación de una demanda?
+
+En muchas entidades el abogado no tiene tiempo de pensar. Lo tiene ocupado buscando en el expediente, contando términos y armando la estructura.
+
+Así se ve cuando la IA hace el trabajo pesado:
+
+⭕ El abogado da una instrucción clara: rol, contexto, tarea, formato y límites
+⭕ La IA ordena el expediente y arma el borrador: hechos, pretensiones, excepciones y pruebas
+⭕ Señala los términos que vencen
+⭕ El abogado verifica cada cita, decide la estrategia y firma
+
+Y una regla que no se negocia en la instrucción: "No inventes normas ni jurisprudencia. Si falta un dato, dilo."
+
+La IA no firma. Le devuelve al abogado el tiempo para pensar.
+
+El video es un ejemplo ficticio, con la estructura con la que trabajamos en las áreas jurídicas. #LegalTech con criterio en el #SectorPúblico.
+
+Lo que no se mide no puede ser mejorado.
+
+👉 Si trabajas en una oficina jurídica: ¿qué parte de tu trabajo le entregarías primero a la IA?
+
+Si quieres ver cómo se mide la IA en lo jurídico, sígueme: cada semana muestro un caso real.

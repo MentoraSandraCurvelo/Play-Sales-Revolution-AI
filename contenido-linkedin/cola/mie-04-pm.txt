@@ -1,0 +1,21 @@
+Más de 2.000 legalizaciones. Revisadas una por una.
+
+Así me lo contó una persona del área de finanzas: descargaba el archivo de legalizaciones del software interno, lo pasaba a Excel y las revisaba una a una. Filtros, a veces tablas dinámicas, y mucha paciencia.
+
+No le enseñamos una herramienta nueva. Instalamos un sistema de trabajo con Claude como columna vertebral:
+
+⭕ Creamos un agente que hace la revisión
+⭕ Le dimos parámetros de referencia claros: qué está bien, qué es una alerta y qué hay que mirar
+⭕ El agente saca el análisis y, con Claude Design, arma el tablero y el reporte
+
+Hoy ese reporte está listo en 10 minutos. Y sin los errores de revisar a mano.
+
+La decisión sigue siendo de la persona: qué se aprueba y qué no. La diferencia es que llega a esa decisión con todo revisado.
+
+Eso es #IAEmpresarial: no reemplaza al equipo de #Finanzas, le quita lo repetitivo.
+
+Lo que no se mide no puede ser mejorado.
+
+👉 ¿Qué revisión de tu área se sigue haciendo una por una?
+
+Si quieres ver cómo se mide la IA en finanzas, sígueme: cada semana comparto un caso real.
