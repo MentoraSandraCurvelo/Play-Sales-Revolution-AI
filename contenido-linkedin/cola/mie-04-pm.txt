@@ -2,11 +2,13 @@ Más de 2.000 legalizaciones. Revisadas una por una.
 
 Así me lo contó una persona del área de finanzas: descargaba el archivo de legalizaciones del software interno, lo pasaba a Excel y las revisaba una a una. Filtros, a veces tablas dinámicas, y mucha paciencia.
 
-No le enseñamos una herramienta nueva. Instalamos un sistema de trabajo con Claude como columna vertebral:
+No le enseñé una herramienta nueva. Le enseñé un sistema de trabajo con Claude como columna vertebral. Y desde ahí, esa persona misma:
 
-⭕ Creamos un agente que hace la revisión
-⭕ Le dimos parámetros de referencia claros: qué está bien, qué es una alerta y qué hay que mirar
-⭕ El agente saca el análisis y, con Claude Design, arma el tablero y el reporte
+⭕ Creó un agente que hace la revisión
+⭕ Le dio parámetros de referencia claros: qué está bien, qué es una alerta y qué hay que mirar
+⭕ Con el agente saca el análisis y, con Claude Design, arma el tablero y el reporte
+
+No depende de mí. Lo construyó con su propio criterio. Eso es lo que buscamos: activar el pensamiento creativo y estratégico de cada persona.
 
 Hoy ese reporte está listo en 10 minutos. Y sin los errores de revisar a mano.
 
