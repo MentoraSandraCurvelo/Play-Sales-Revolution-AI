@@ -22,3 +22,10 @@
 - Analiza tu perfil de LinkedIn con IA.
 - Comentar en LinkedIn con IA sin perder tu voz (y por qué tú siempre apruebas).
 - Darle un rol a la IA: "actúa como experto en LinkedIn / en Instagram" y cómo se vuelve una habilidad reutilizable.
+
+
+## Logo
+3 nov 2026: logo-newsletter-A.jpg (1080x1080) puesto por Chrome en lugar de la imagen de la muñeca de IA. Nombre, descripción y frecuencia sin cambios.
+
+## Perfil
+3 nov 2026: iamlatam.co/guias en el primer lugar de Destacados.

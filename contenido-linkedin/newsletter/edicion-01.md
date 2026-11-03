@@ -4,7 +4,7 @@ Portada: newsletter/edicion-01-banner.jpg
 Imágenes dentro del artículo: ed01-img1-sistema.jpg, ed01-img2-medicion.jpg, ed01-img3-seguridad.jpg
 Video en la mitad: ed01-video-sistema.mp4 (24 s)
 Guía (palabra clave AGENTE): se entrega con el link https://iamlatam.co/guias/ (el PDF está publicado ahí). Respuesta APROBADA por Sandra el 3 nov 2026: "Hola [nombre], aquí está tu guía paso a paso: https://iamlatam.co/guias/ Cuéntame qué parte vas a aplicar primero."
-Borrador en LinkedIn: guardado por Chrome el 3 nov (portada, 3 imágenes y video en su lugar). Ajustes APROBADOS por Sandra el 3 nov y enviados a Chrome: flechas de la sección 1 a lista numerada, pies de imagen con las frases de cada marcador, quitar renglones vacíos bajo las imágenes.
+Borrador en LinkedIn: guardado por Chrome el 3 nov (portada, 3 imágenes y video en su lugar). Ajustes APROBADOS y HECHOS por Chrome el 3 nov (borrador "Draft - saved"): flechas de la sección 1 a lista numerada, pies de imagen con las frases de cada marcador, quitar renglones vacíos bajo las imágenes.
 ---
 ## Título
 Le di las llaves de mi LinkedIn a una IA. Esto es lo que nadie te dice (y lo que nunca le dejo hacer)
@@ -27,10 +27,10 @@ Pero hay una regla que no se negocia:
 ## 1. Lo que nadie te dice: conectar LinkedIn con la IA **no es un clic**
 Todos los videos muestran el resultado. **Ninguno muestra el camino.**
 **La capacidad clave:** LinkedIn tiene una puerta oficial para que una aplicación publique en tu nombre. Se llama **API**. Para abrirla:
-→ Creé una aplicación en el portal de desarrolladores de LinkedIn
-→ La asocié a la página de mi empresa
-→ Activé el permiso para **compartir publicaciones**
-→ Generé una **llave de acceso**
+1. Creé una aplicación en el portal de desarrolladores de LinkedIn
+2. La asocié a la página de mi empresa
+3. Activé el permiso para **compartir publicaciones**
+4. Generé una **llave de acceso**
 Luego le di esa llave a Claude, que trabaja como agente en la nube. **Guardada en un espacio seguro, nunca en el chat.**
 ¿Fue técnico? Un poco. ¿Lo hice yo? **Sí.** Paso a paso, con la IA explicándome cada pantalla. #AgentesDeIA
 ---
