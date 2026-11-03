@@ -1,0 +1,248 @@
+<meta name="dash-one-writer">
+<style>
+.isa{font-family:var(--font-anthropic-sans);display:grid;gap:var(--cds-gap-lg)}
+.isa-head{display:grid;gap:var(--cds-gap-xs)}
+.isa-eyebrow{margin:0;font-size:var(--cds-font-size-caption);letter-spacing:.08em;text-transform:uppercase;color:#c00000;font-weight:var(--cds-font-weight-medium)}
+.isa-title{margin:0;font-family:var(--font-anthropic-serif);font-weight:400;font-size:var(--cds-font-size-title);text-wrap:balance}
+.isa-take{margin:0;font-size:var(--cds-font-size-body);max-width:70ch;line-height:1.5}
+.isa .isa-take b{font-weight:600;font-variant-numeric:tabular-nums}
+.isa-note{margin:0;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.isa-tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,10rem),1fr));gap:var(--cds-gap-md)}
+.isa-tile{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-md);display:grid;gap:var(--cds-gap-xs);border-top:3px solid #c00000}
+.isa-lab{margin:0;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.isa-big{margin:0;font-family:var(--font-anthropic-serif);font-weight:400;font-size:var(--cds-font-size-title);font-variant-numeric:tabular-nums;min-height:1.2em}
+.isa-sub{margin:0;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.isa-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,22rem),1fr));gap:var(--cds-gap-md)}
+.isa-card{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-lg);display:grid;gap:var(--cds-gap-sm);min-width:0;align-content:start}
+.isa-card h2{margin:0;font-size:var(--cds-font-size-heading);font-weight:var(--cds-font-weight-medium)}
+.isa-cap{margin:0;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);line-height:1.45}
+.isa-legend{display:flex;gap:var(--cds-gap-md);font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.isa-sw{display:inline-block;width:.7rem;height:.7rem;border-radius:2px;margin-right:.35rem;vertical-align:-1px}
+.isa-chart{position:relative;min-height:280px}
+.isa-tip{position:absolute;background:var(--cds-surface-popover);border:1px solid var(--cds-border);border-radius:var(--cds-radius);box-shadow:var(--cds-shadow-popover);padding:var(--cds-pad-xs) var(--cds-pad-sm);font-size:var(--cds-font-size-caption);pointer-events:none;max-width:16rem;line-height:1.4}
+.isa-tip-d{color:var(--cds-text-secondary)}
+.isa-fail{display:flex;align-items:center;justify-content:center;gap:.5rem;min-height:280px;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.isa-fail i{width:.375rem;height:.375rem;border-radius:50%;background:var(--color-bad)}
+.isa-scroll{overflow-x:auto;max-height:32rem;overflow-y:auto}
+.isa-table{width:100%;border-collapse:collapse;font-size:var(--cds-font-size-caption);font-variant-numeric:tabular-nums}
+.isa-table th{text-align:left;font-weight:var(--cds-font-weight-medium);color:var(--color-fg-muted);padding:var(--cds-pad-xs) var(--cds-pad-sm);border-bottom:1px solid var(--color-border-line);position:sticky;top:0;background:var(--color-panel);white-space:nowrap}
+.isa-table td{padding:var(--cds-pad-xs) var(--cds-pad-sm);border-bottom:1px solid var(--color-border-line);vertical-align:top}
+.isa-table .n{text-align:right}
+.isa-tema{min-width:12rem}
+.isa-pill{display:inline-block;padding:1px 8px;border-radius:999px;font-size:var(--cds-font-size-caption);border:1px solid var(--color-border-line)}
+.isa-hit{color:var(--color-ok);font-weight:600}
+.isa-goals{display:grid;gap:var(--cds-gap-sm);font-size:var(--cds-font-size-body);line-height:1.5}
+.isa-goals p{margin:0}
+.isa .isa-goals b{font-variant-numeric:tabular-nums}
+[data-dash-source-state=empty]{color:transparent}
+[data-dash-source-state=refreshing]{opacity:.5;transition:opacity var(--cds-dur-slow)}
+</style>
+
+<div class="isa">
+  <header class="isa-head">
+    <p class="isa-eyebrow">⭕ IAM™ · Isaía · Instagram</p>
+    <h1 class="isa-title">Tablero Isaía · @sandracurvelo_iam</h1>
+    <p class="isa-take">Los Reels alcanzan una mediana de <b data-draw="t-reel" data-source="resumen" data-field="alcance_mediano" data-where="formato=Reel">—</b> personas, frente a <b data-draw="t-feed" data-source="resumen" data-field="alcance_mediano" data-where="formato=Feed">—</b> del feed. La cuenta lleva <b data-draw="t-dias" data-source="ritmo" data-field="dias_sin_publicar">—</b> días sin publicar: la serie IA SIN RODEOS es el regreso.</p>
+    <p class="isa-note">Consulta directa a la API de Meta · últimas 20 publicaciones · corte del <span data-draw="t-corte" data-source="perfil" data-field="fecha_consulta" data-row="0">—</span></p>
+  </header>
+
+  <div class="isa-tiles">
+    <div class="isa-tile"><p class="isa-lab">Seguidores</p><p class="isa-big" data-draw="k-seg" data-source="perfil" data-field="seguidores" data-row="0">—</p><p class="isa-sub">Total actual de la cuenta</p></div>
+    <div class="isa-tile"><p class="isa-lab">Alcance mediano de Reels</p><p class="isa-big" data-draw="k-reel" data-source="resumen" data-field="alcance_mediano" data-where="formato=Reel">—</p><p class="isa-sub">Personas únicas por Reel</p></div>
+    <div class="isa-tile"><p class="isa-lab">Compartidos</p><p class="isa-big" data-draw="k-comp" data-source="totales" data-field="compartidos">—</p><p class="isa-sub">Suma de las últimas 20</p></div>
+    <div class="isa-tile"><p class="isa-lab">Guardados</p><p class="isa-big" data-draw="k-guard" data-source="totales" data-field="guardados">—</p><p class="isa-sub">Suma de las últimas 20</p></div>
+    <div class="isa-tile"><p class="isa-lab">Días sin publicar</p><p class="isa-big" data-draw="k-dias" data-source="ritmo" data-field="dias_sin_publicar">—</p><p class="isa-sub">Desde la última publicación</p></div>
+  </div>
+
+  <section class="isa-card" id="alcance">
+    <h2>Alcance por publicación</h2>
+    <p class="isa-cap">Personas únicas que vieron cada publicación, de la más antigua a la más reciente. La línea punteada es la meta de cada episodio de la serie. Las barras que pasan el tope de la gráfica muestran su cifra arriba.</p>
+    <div class="isa-legend"><span><i class="isa-sw isa-sw-reel"></i>Reel</span><span><i class="isa-sw isa-sw-feed"></i>Feed</span></div>
+    <div class="isa-chart" data-draw="chart" data-source="publicaciones"></div>
+  </section>
+
+  <div class="isa-grid">
+    <section class="isa-card" id="formatos">
+      <h2>Reels frente a feed</h2>
+      <p class="isa-cap">Mediana de alcance y suma de guardados y compartidos por formato. Retención: segundos promedio que la gente ve cada Reel.</p>
+      <div class="isa-scroll">
+        <table class="isa-table" data-source="resumen" data-row-key="formato">
+          <thead><tr><th data-field="formato">Formato</th><th data-field="publicaciones" class="n">Publicaciones</th><th data-field="alcance_mediano" class="n">Alcance mediano</th><th data-field="guardados" class="n">Guardados</th><th data-field="compartidos" class="n">Compartidos</th><th data-field="retencion_promedio" class="n">Retención (s)</th></tr></thead>
+          <tbody data-draw="t-resumen"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="isa-card" id="metas">
+      <h2>Metas de la serie IA SIN RODEOS</h2>
+      <p class="isa-cap">Metas propias, calculadas sobre la historia de la cuenta y no sobre promedios de la industria.</p>
+      <div class="isa-goals">
+        <p>Cada episodio debe superar <b data-draw="meta-alcance">—</b> personas de alcance, la mediana actual de los Reels.</p>
+        <p>Cada episodio debe llegar a <b data-draw="meta-comp">—</b> compartidos o más, el récord actual de la cuenta.</p>
+        <p>Hoy, <b data-draw="t-sobre" data-source="totales" data-field="sobre_meta">—</b> de las últimas 20 publicaciones superan la meta de alcance.</p>
+      </div>
+    </section>
+  </div>
+
+  <section class="isa-card" id="publicaciones">
+    <h2>Las últimas 20 publicaciones</h2>
+    <p class="isa-cap">En verde, lo que supera la meta de alcance o de compartidos.</p>
+    <div class="isa-scroll">
+      <table class="isa-table" data-source="publicaciones" data-row-key="id">
+        <thead><tr><th data-field="fecha">Fecha</th><th data-field="formato">Formato</th><th data-field="tema">Tema</th><th data-field="alcance" class="n">Alcance</th><th data-field="vistas" class="n">Vistas</th><th data-field="me_gusta" class="n">Me gusta</th><th data-field="guardados" class="n">Guardados</th><th data-field="compartidos" class="n">Compartidos</th><th data-field="retencion_seg" class="n">Retención (s)</th></tr></thead>
+        <tbody data-draw="t-posts"></tbody>
+      </table>
+    </div>
+  </section>
+</div>
+
+<script>
+const META_ALCANCE = 411, META_COMP = 20;
+const loc = d3.formatLocale({decimal: ',', thousands: '.', grouping: [3], currency: ['$', '']});
+const fint = loc.format(',d'), fdec = loc.format(',.1f');
+const num = (v) => (v === '' || v == null ? null : Number(v));
+const MESES = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+const fecha = (s) => { const [y, m, d] = String(s).slice(0, 10).split('-'); return `${Number(d)} ${MESES[Number(m) - 1]} ${y.slice(2)}`; };
+
+dash.calc('resumen', {
+  title: 'Reels frente a feed',
+  description: 'Por formato: publicaciones, mediana de alcance, guardados, compartidos y retención promedio.',
+  inputs: ['publicaciones'],
+  fn: (publicaciones) => ['Reel', 'Feed'].map((formato) => {
+    const p = publicaciones.filter((r) => r.formato === formato);
+    const ret = p.map((r) => Number(r.retencion_seg)).filter((x) => x > 0);
+    return {
+      formato,
+      publicaciones: p.length,
+      alcance_mediano: d3.median(p, (r) => Number(r.alcance)),
+      guardados: d3.sum(p, (r) => Number(r.guardados)),
+      compartidos: d3.sum(p, (r) => Number(r.compartidos)),
+      retencion_promedio: ret.length ? Math.round(d3.mean(ret) * 10) / 10 : null
+    };
+  })
+});
+
+dash.calc('totales', {
+  title: 'Totales de las últimas 20',
+  description: 'Suma de compartidos y guardados, y cuántas publicaciones superan 411 de alcance.',
+  inputs: ['publicaciones'],
+  fn: (publicaciones) => [{
+    compartidos: d3.sum(publicaciones, (r) => Number(r.compartidos)),
+    guardados: d3.sum(publicaciones, (r) => Number(r.guardados)),
+    sobre_meta: publicaciones.filter((r) => Number(r.alcance) > 411).length
+  }]
+});
+
+dash.calc('ritmo', {
+  title: 'Días sin publicar',
+  description: 'Días entre la última publicación y la fecha de la consulta.',
+  inputs: ['perfil'],
+  fn: (perfil) => [{dias_sin_publicar: Math.round((Date.parse(perfil[0].fecha_consulta) - Date.parse(perfil[0].ultima_publicacion)) / 864e5)}]
+});
+
+const COLORS = () => ({reel: dash.colors[0], feed: 'var(--cds-chart-muted)'});
+document.querySelectorAll('.isa-sw-reel').forEach((e) => { e.style.background = COLORS().reel; });
+document.querySelectorAll('.isa-sw-feed').forEach((e) => { e.style.background = COLORS().feed; });
+
+const text = (name, id, pick) => dash.draw(name, (el) => {
+  const g = dash.data(id);
+  el.classList.toggle('dash-skeleton', g.status === 'loading');
+  el.textContent = g.status === 'ok' && g.data.length ? pick(g.data) : '—';
+});
+const one = (rows, key, val) => rows.find((r) => r[key] === val);
+
+text('t-reel', 'resumen', (r) => fint(one(r, 'formato', 'Reel').alcance_mediano));
+text('t-feed', 'resumen', (r) => fint(one(r, 'formato', 'Feed').alcance_mediano));
+text('k-reel', 'resumen', (r) => fint(one(r, 'formato', 'Reel').alcance_mediano));
+text('t-dias', 'ritmo', (r) => fint(r[0].dias_sin_publicar));
+text('k-dias', 'ritmo', (r) => fint(r[0].dias_sin_publicar));
+text('t-corte', 'perfil', (r) => fecha(r[0].fecha_consulta));
+text('k-seg', 'perfil', (r) => fint(r[0].seguidores));
+text('k-comp', 'totales', (r) => fint(r[0].compartidos));
+text('k-guard', 'totales', (r) => fint(r[0].guardados));
+text('t-sobre', 'totales', (r) => fint(r[0].sobre_meta));
+dash.draw('meta-alcance', (el) => { el.textContent = fint(META_ALCANCE); });
+dash.draw('meta-comp', (el) => { el.textContent = fint(META_COMP); });
+
+dash.draw('t-resumen', (tb) => {
+  const g = dash.data('resumen');
+  tb.replaceChildren();
+  if (g.status !== 'ok') return;
+  g.data.forEach((r) => {
+    const tr = document.createElement('tr');
+    [r.formato, fint(r.publicaciones), fint(r.alcance_mediano), fint(r.guardados), fint(r.compartidos), r.retencion_promedio == null ? '—' : fdec(r.retencion_promedio)]
+      .forEach((v, i) => { const td = document.createElement('td'); td.textContent = v; if (i) td.className = 'n'; tr.appendChild(td); });
+    tb.appendChild(tr);
+  });
+});
+
+dash.draw('t-posts', (tb) => {
+  const g = dash.data('publicaciones');
+  tb.replaceChildren();
+  if (g.status !== 'ok') return;
+  [...g.data].sort((a, b) => (a.fecha < b.fecha ? 1 : -1)).forEach((r) => {
+    const tr = document.createElement('tr');
+    tr.dataset.key = r.id;
+    const cells = [
+      [fecha(r.fecha)], [r.formato], [r.tema, 'isa-tema'],
+      [fint(num(r.alcance)), 'n' + (num(r.alcance) > META_ALCANCE ? ' isa-hit' : '')],
+      [num(r.vistas) == null ? '—' : fint(num(r.vistas)), 'n'], [fint(num(r.me_gusta)), 'n'],
+      [fint(num(r.guardados)), 'n'], [fint(num(r.compartidos)), 'n' + (num(r.compartidos) >= META_COMP ? ' isa-hit' : '')],
+      [num(r.retencion_seg) == null ? '—' : fdec(num(r.retencion_seg)), 'n']
+    ];
+    cells.forEach(([v, c]) => { const td = document.createElement('td'); td.textContent = v; if (c) td.className = c; tr.appendChild(td); });
+    tb.appendChild(tr);
+  });
+});
+
+dash.draw('chart', (el) => {
+  const g = dash.data('publicaciones');
+  el.replaceChildren();
+  if (g.status === 'error' || g.status === 'connect') {
+    const f = document.createElement('div'); f.className = 'isa-fail';
+    f.append(document.createElement('i'), 'Failed to load'); el.appendChild(f); return;
+  }
+  if (g.status !== 'ok') return;
+  const rows = [...g.data].map((r) => ({...r, a: Number(r.alcance)})).sort((a, b) => (a.fecha < b.fecha ? -1 : 1));
+  const W = Math.max(280, el.clientWidth), H = 280, m = {t: 28, r: 8, b: 34, l: 44};
+  const CAP = 2500;
+  const x = d3.scaleBand(rows.map((r) => r.id), [m.l, W - m.r]).padding(0.25);
+  const y = d3.scaleLinear([0, CAP], [H - m.b, m.t]);
+  const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Alcance por publicación');
+  svg.append('g').selectAll('line').data(y.ticks(5)).join('line')
+    .attr('x1', m.l).attr('x2', W - m.r).attr('y1', (d) => y(d)).attr('y2', (d) => y(d)).attr('stroke', 'var(--cds-chart-grid)');
+  svg.append('g').selectAll('text').data(y.ticks(5)).join('text')
+    .attr('x', m.l - 6).attr('y', (d) => y(d) + 4).attr('text-anchor', 'end').attr('fill', 'var(--color-fg-muted)').attr('font-size', 11).text((d) => fint(d));
+  const c = COLORS();
+  svg.append('g').selectAll('rect').data(rows).join('rect')
+    .attr('x', (r) => x(r.id)).attr('width', Math.min(32, x.bandwidth()))
+    .attr('y', (r) => y(Math.min(r.a, CAP))).attr('height', (r) => y(0) - y(Math.min(r.a, CAP)))
+    .attr('rx', 2).style('fill', (r) => (r.formato === 'Reel' ? c.reel : c.feed));
+  svg.append('g').selectAll('text').data(rows.filter((r) => r.a > CAP)).join('text')
+    .attr('x', (r) => x(r.id) + Math.min(32, x.bandwidth()) / 2).attr('y', m.t - 8).attr('text-anchor', 'middle')
+    .attr('font-size', 11).attr('fill', 'var(--color-fg)').text((r) => fint(r.a));
+  svg.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(META_ALCANCE)).attr('y2', y(META_ALCANCE))
+    .attr('stroke', 'var(--cds-chart-reference)').attr('stroke-dasharray', '4 4');
+  svg.append('text').attr('x', W - m.r).attr('y', y(META_ALCANCE) - 5).attr('text-anchor', 'end').attr('font-size', 11)
+    .attr('fill', 'var(--color-fg-muted)').text(`Meta ${fint(META_ALCANCE)}`);
+  const step = Math.max(1, Math.ceil(rows.length / Math.max(2, Math.floor((W - m.l) / 70))));
+  svg.append('g').selectAll('text').data(rows.filter((_, i) => i % step === 0)).join('text')
+    .attr('x', (r) => x(r.id) + Math.min(32, x.bandwidth()) / 2).attr('y', H - m.b + 16).attr('text-anchor', 'middle')
+    .attr('font-size', 11).attr('fill', 'var(--color-fg-muted)').text((r) => fecha(r.fecha));
+  const tip = document.createElement('div'); tip.className = 'isa-tip'; tip.hidden = true; el.appendChild(tip);
+  svg.append('g').selectAll('rect').data(rows).join('rect')
+    .attr('x', (r) => x(r.id) - x.step() * x.paddingInner() / 2).attr('width', x.step()).attr('y', m.t).attr('height', H - m.t - m.b)
+    .attr('fill', 'transparent')
+    .on('pointerenter pointermove', (ev, r) => {
+      tip.replaceChildren();
+      const d = document.createElement('div'); d.className = 'isa-tip-d'; d.textContent = `${fecha(r.fecha)} · ${r.formato}`;
+      const t = document.createElement('div'); t.textContent = r.tema;
+      const v = document.createElement('div'); v.textContent = `Alcance ${fint(r.a)} · Compartidos ${fint(Number(r.compartidos))}`;
+      tip.append(d, t, v); tip.hidden = false;
+      const [px, py] = d3.pointer(ev, el);
+      tip.style.left = Math.max(0, Math.min(px + 12, el.clientWidth - tip.offsetWidth)) + 'px';
+      tip.style.top = Math.max(0, py - tip.offsetHeight - 8) + 'px';
+    })
+    .on('pointerleave', () => { tip.hidden = true; });
+});
+</script>
