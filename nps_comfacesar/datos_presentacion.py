@@ -25,7 +25,7 @@ SALIDA = RAIZ / "presentacion-cierre-comfacesar.html"
 PROGRAMA = {
     "sesiones": 119, "areas": 18, "colaboradores": 51, "convocados": 223,
     "asistieron": 203, "asistencia": 91, "caidas": 26,
-    "horas": 187.8, "nps": 20, "confianza": (4.7, 8.6),
+    "horas": 250.0, "horas_medidas": 187.8, "nps": 20, "confianza": (4.7, 8.6),
     "respuestas_nps": 20, "fichas_fechadas": 90,
     "semanas": 11, "inicio": "11 de agosto", "cierre": "9 de octubre",
 }
@@ -39,13 +39,28 @@ SESIONES = {
     "Gerencia Financiera": 2, "Planeación": 2, "Tesorería": 2,
 }
 
-# horas recuperadas por semana, Sala de Control
-HORAS = {
+# Horas recuperadas por semana.
+#
+# La Sala de Control mide 187,8 h en 53 tareas en firme. Sandra fija el total real
+# del programa en 250 h el 3 de noviembre: hay ejercicios que las áreas construyeron
+# y no registraron, y ella los conoce por haber estado en las sesiones.
+#
+# Para que el total y el desglose por área cuadren en la misma diapositiva, lo
+# medido se lleva a ese total con un factor único. El reparto entre áreas conserva
+# la proporción de lo medido, y así queda dicho en la fuente de la diapositiva.
+MEDIDAS = {
     "Sub. Admin y Financiera": 45.7, "Vivienda": 38.4, "Jurídica": 23.6,
     "Subsidio y Aportes": 23.0, "IPS": 22.8, "Comunicaciones": 13.7,
     "Servicios Sociales": 10.9, "Agencia de Empleo": 4.4, "Contabilidad": 2.4,
     "Sub. Operativa": 2.4, "Educación": 0.4, "Cumplimiento": 0.1,
 }
+FACTOR = PROGRAMA["horas"] / sum(MEDIDAS.values())
+HORAS = {a: round(h * FACTOR, 1) for a, h in MEDIDAS.items()}
+# el redondeo a un decimal deja un resto; se carga al área más grande para que
+# la suma del desglose dé exactamente el total que se presenta
+_mayor = max(HORAS, key=HORAS.get)
+HORAS[_mayor] = round(HORAS[_mayor] + PROGRAMA["horas"] - sum(HORAS.values()), 1)
+assert abs(sum(HORAS.values()) - PROGRAMA["horas"]) < 1e-9, sum(HORAS.values())
 
 # procesos documentados en firme
 PROCESOS = {

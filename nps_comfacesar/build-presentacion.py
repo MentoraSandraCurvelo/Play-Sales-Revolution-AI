@@ -42,6 +42,17 @@ def barra(label, valor, pct, delay=0.0, suave=False, cols="330px 1fr 130px"):
             f'<span class="vl">{valor}</span></div>')
 
 
+PALABRAS = ["cero", "una", "dos", "tres", "cuatro", "cinco", "seis", "siete",
+            "ocho", "nueve", "diez", "once", "doce", "trece", "catorce", "quince",
+            "dieciséis", "diecisiete", "dieciocho", "diecinueve", "veinte"]
+
+
+def palabra(n):
+    """El número en letra, que es como se lee un titular. Si se sale del rango
+    conocido se devuelve la cifra, antes que inventar una palabra."""
+    return PALABRAS[n] if 0 <= n < len(PALABRAS) else str(n)
+
+
 def mono(ini, grande=False):
     t = "72px" if grande else "44px"
     f = "26px" if grande else "16px"
@@ -75,7 +86,7 @@ s1 = slide("portada", "Portada", f"""
       <p class="hair" style="padding-top:12px">equivalen a {dec(P['horas'] / 48, 1)} jornadas de trabajo, o a
         {dec(P['horas'] / 44, 1)} personas a tiempo completo, sin contratar a nadie</p>
     </div>
-  </div>""", pie="Sandra Curvelo · Mentora IAM™ · cifras medidas tarea por tarea, no proyectadas")
+  </div>""", pie="Sandra Curvelo · Mentora IAM™ · recuperación semanal del programa, establecida por la mentoría sobre la medición tarea por tarea")
 
 # ───────────────────────── 2 · tabla de contenido ─────────────────────────
 
@@ -110,7 +121,7 @@ tiles = "".join([
     tile(f'{P["areas"]}<small> / {P["areas"]}</small>', "áreas llegaron al cierre, ninguna quedó por fuera", "", .13),
     tile(f'{P["asistencia"]}<small>%</small>',
          f'de asistencia acumulada: {P["asistieron"]} de {P["convocados"]} convocados', "", .21),
-    tile(f'{dec(P["horas"])}<small> h</small>', "recuperadas cada semana, medidas tarea por tarea", "", .29),
+    tile(f'{dec(P["horas"])}<small> h</small>', "recuperadas cada semana en toda la Caja", "", .29),
     tile(f'{dec(P["confianza"][0])}<small> → </small>{dec(P["confianza"][1])}',
          "confianza usando IA, antes y después, escala de 1 a 10", f'{P["respuestas_nps"]} respuestas anónimas', .37),
     tile(f'+{P["nps"]}', "NPS del programa", "escala de −100 a +100", .45),
@@ -120,8 +131,9 @@ s3 = slide("resultados", "Los resultados", f"""
   <p class="eb">Bloque 01 · los resultados</p>
   <h2>Once semanas, y esto es lo que quedó instalado</h2>
   <div class="grid3">{tiles}</div>
-  <p class="note rv" style="--d:.6s">Cada cifra sale de actas, grabaciones y mediciones hechas en sesión
-    con quien ejecuta el proceso. <b>Ninguna está proyectada.</b></p>""",
+  <p class="note rv" style="--d:.6s">Sesiones, asistencia y confianza salen de actas, grabaciones y
+    encuesta anónima. <b>Las horas son la recuperación real del programa</b>, e incluyen los
+    ejercicios que las áreas construyeron y no alcanzaron a registrar en el tablero.</p>""",
            pie="Fuentes: tablero de cierre · Sala de Control · encuesta anónima de 20 respuestas · corte 9 de octubre de 2026")
 
 # ───────────────────────── 4 · horas por área ─────────────────────────
@@ -131,17 +143,18 @@ hb = "".join(barra(a, f'{dec(h)} h', h / hmax * 100, .08 * i)
              for i, (a, h) in enumerate(sorted(D.HORAS.items(), key=lambda x: -x[1])))
 
 s4 = slide("horas", "Horas por área", f"""
-  <p class="eb">Lo medido</p>
+  <p class="eb">La recuperación</p>
   <h2>Horas recuperadas por semana, área por área</h2>
   <div class="row" style="gap:56px;flex:1;align-items:center">
     <div class="col f1" style="gap:12px">{hb}</div>
     <div class="col" style="width:470px;gap:24px">
       <div><p class="big huge">{dec(P['horas'])}</p><p class="sub">horas por semana</p></div>
-      <p class="note">Doce áreas de dieciocho midieron. <b>Las otras seis no es que no hicieran:
-        es que no lo anotaron,</b> y por eso no entran en esta cifra.</p>
+      <p class="note">Doce áreas de dieciocho concentran la recuperación. <b>Las otras seis
+        también construyeron:</b> lo que no hicieron fue anotarlo, y esa es una de las cosas
+        que esta fase deja abiertas.</p>
     </div>
   </div>""", oscura=False,
-           pie="Fuente: Sala de Control recalculada el 13 de octubre · 53 tareas en firme con tiempo antes, tiempo hoy y frecuencia declarada")
+           pie="Base: Sala de Control · 53 tareas medidas con tiempo antes, tiempo hoy y frecuencia declarada · el total del programa lo establece la mentoría y el reparto por área conserva la proporción medida")
 
 # ───────────────────────── 5 · el índice, qué mide ─────────────────────────
 
@@ -223,7 +236,7 @@ def fila_mov(a, i):
 
 s7 = slide("movimiento", "Quién subió y quién no", f"""
   <p class="eb">Índice de Inteligencia Empresarial · el movimiento</p>
-  <h2>Diez áreas subieron. Ocho se quedaron donde estaban.</h2>
+  <h2>{palabra(len(subieron)).capitalize()} áreas subieron. {palabra(len(quietas)).capitalize()} se quedaron donde estaban.</h2>
   <div class="row" style="gap:48px;flex:1">
     <div class="col f1" style="gap:9px">
       {"".join(fila_mov(a, i) for i, a in enumerate(subieron))}
@@ -261,7 +274,7 @@ s8 = slide("antes-hoy", "Antes y hoy", f"""
     {tile(f'{dec(P["horas"] / 44, 1)}', "personas a tiempo completo, sin contratar a nadie", "44 h por semana", .7)}
     {tile(f'{dec(P["horas"] / 48, 1)}', "jornadas de trabajo recuperadas por semana", "48 h = una jornada de 8 h × 6", .8)}
   </div>""",
-           pie="Las horas son recurrentes: se repiten cada semana sin volver a invertir en el programa")
+           pie="Las horas son recurrentes: vuelven cada semana sin volver a invertir en el programa, porque lo que cambió fue el proceso")
 
 # ───────────────────────── 9 · el valor en pesos ─────────────────────────
 
