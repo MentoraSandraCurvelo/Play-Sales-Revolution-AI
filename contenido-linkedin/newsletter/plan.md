@@ -31,3 +31,8 @@
 
 ## Perfil
 3 nov 2026: iamlatam.co/guias en el primer lugar de Destacados.
+
+## Identidad final (3 nov 2026, aprobada por Sandra)
+- Logo: logo-newsletter-D3.jpg (puesto por Chrome).
+- Descripción (104 de 120 caracteres): "La IA en las empresas de América Latina: qué funciona, qué no y cómo se mide. Guías gratis cada 15 días."
+- Texto anterior de respaldo: "Este news esta creado para dar a conocer como usar la IA en ventas en diferentes frentes del proceso de ventas."
