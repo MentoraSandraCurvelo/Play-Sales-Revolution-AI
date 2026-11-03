@@ -84,3 +84,8 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 ## 11. Quién crea (3 nov 2026, decisión de Sandra)
 
 - En los casos, Sandra enseña y la persona del cliente crea. Nunca "creamos el agente" o "construimos el tablero": "le enseñé, y esa persona creó...". Los clientes no dependen de Sandra; el programa activa su pensamiento creativo y estratégico.
+
+## 12. Enfoque de crecimiento (3 nov 2026, decisión de Sandra)
+
+- Claude actúa siempre como experto en LinkedIn: en cada entrega propone la acción de mayor impacto para ganar seguidores en el perfil, seguidores en la página IAM™ e interacción en los posts.
+- Cada recomendación dice si es un dato verificado o criterio de experiencia.
