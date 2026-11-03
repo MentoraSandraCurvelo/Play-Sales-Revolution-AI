@@ -1,13 +1,13 @@
 {
   "id": "lun-02-video",
-  "estado": "aprobado",
+  "estado": "publicado",
   "aprobado_por": "Sandra",
   "programado_bogota": "2026-11-03 07:30",
   "video": "urn:li:video:D4E10AQFhd-Mu67FvKg",
   "titulo_video": "IA para entidades públicas · IAM™ Intelligence",
   "archivo_video": "contenido-linkedin/videos/ia-entidades-publicas-v3.mp4",
   "primer_comentario": "Para quienes trabajan en entidades públicas: el sistema se diseña con datos anonimizados o públicos, cumpliendo la Ley 1581 y la Guía Ética de IA de MinTIC. Ninguna decisión sobre derechos ciudadanos queda en manos de la IA.",
-  "urn": null,
+  "urn": "urn:li:ugcPost:7523360966781104128",
   "payload": {
     "author": "urn:li:person:tsJbwdb3B2",
     "commentary": "¿Cómo sería una entidad pública donde el ciudadano ve, en lenguaje claro, cómo avanza cada proyecto?\n\nVengo trabajando este sistema para alcaldías y entidades públicas. Una regla: la IA hace el trabajo pesado y el funcionario público decide y firma.\n\n⭕ IAE™ por dependencia: cada semana se ve qué área sube y cuál baja, para ajustar a tiempo\n⭕ Plan de Desarrollo: el ciudadano ve el avance de cada eje, y la IA redacta el informe en lenguaje claro, citando la fuente de cada cifra\n⭕ PQRSD: la IA clasifica cada solicitud, calcula el plazo de la Ley 1755 y propone el borrador. El funcionario revisa y firma\n⭕ Radar SECOP II: la IA lee los pliegos y marca alertas. El abogado confirma o descarta cada una\n\nNada se publica sin un humano. Eso es {hashtag|\\#|GobiernoDigital} con criterio.\n\nAsí funciona el sistema. Los datos que ves son un ejemplo ficticio, para proteger la información de las entidades.\n\nEn el {hashtag|\\#|SectorPúblico} la pregunta ya no es si usar IA. Es si vas a medir cuánto le devuelve al ciudadano.\n\nLo que no se mide no puede ser mejorado.\n\nPresidente Abelardo de la Espriella, Vicepresidente José Manuel Restrepo, MinTIC, Función Pública, SENA y Asocapitales: ¿y si la próxima meta de productividad del Estado se midiera dependencia por dependencia?\n\n👉 Si trabajas en una entidad pública: ¿cuál de estos tableros necesitaría primero tu entidad?\n\n{hashtag|\\#|IAEmpresarial} {hashtag|\\#|TransformaciónDigital} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
@@ -20,5 +20,6 @@
     "lifecycleState": "PUBLISHED",
     "isReshareDisabledByAuthor": false
   },
-  "aprobado_el": "2026-11-03"
+  "aprobado_el": "2026-11-03",
+  "publicado_utc": "2026-11-03T12:30:32+00:00"
 }
