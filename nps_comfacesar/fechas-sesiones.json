@@ -1,0 +1,452 @@
+[
+{
+"area": "Agencia de Empleo",
+"s": 4,
+"fecha": "2026-09-03"
+},
+{
+"area": "Agencia de Empleo",
+"s": 5,
+"fecha": "2026-09-08"
+},
+{
+"area": "Agencia de Empleo",
+"s": 6,
+"fecha": "2026-09-10"
+},
+{
+"area": "Agencia de Empleo",
+"s": 7,
+"fecha": "2026-09-29"
+},
+{
+"area": "Agencia de Empleo",
+"s": 8,
+"fecha": "2026-10-06"
+},
+{
+"area": "Agencia de Empleo",
+"s": 9,
+"fecha": "2026-10-07"
+},
+{
+"area": "Agencia de Empleo",
+"s": 10,
+"fecha": "2026-10-08"
+},
+{
+"area": "Comunicaciones",
+"s": 4,
+"fecha": "2026-09-04"
+},
+{
+"area": "Comunicaciones",
+"s": 5,
+"fecha": "2026-09-09"
+},
+{
+"area": "Comunicaciones",
+"s": 6,
+"fecha": "2026-09-17"
+},
+{
+"area": "Comunicaciones",
+"s": 7,
+"fecha": "2026-09-17"
+},
+{
+"area": "Comunicaciones",
+"s": 8,
+"fecha": "2026-09-23"
+},
+{
+"area": "Comunicaciones",
+"s": 9,
+"fecha": "2026-09-25"
+},
+{
+"area": "Comunicaciones",
+"s": 10,
+"fecha": "2026-09-29"
+},
+{
+"area": "Comunicaciones",
+"s": 11,
+"fecha": "2026-10-06"
+},
+{
+"area": "Comunicaciones",
+"s": 12,
+"fecha": "2026-10-08"
+},
+{
+"area": "Contabilidad",
+"s": 2,
+"fecha": "2026-08-26"
+},
+{
+"area": "Contabilidad",
+"s": 3,
+"fecha": "2026-09-01"
+},
+{
+"area": "Contabilidad",
+"s": 4,
+"fecha": "2026-09-02"
+},
+{
+"area": "Contabilidad",
+"s": 5,
+"fecha": "2026-09-07"
+},
+{
+"area": "Contabilidad",
+"s": 6,
+"fecha": "2026-09-11"
+},
+{
+"area": "Contabilidad",
+"s": 7,
+"fecha": "2026-09-17"
+},
+{
+"area": "Contabilidad",
+"s": 8,
+"fecha": "2026-09-25"
+},
+{
+"area": "Cumplimiento",
+"s": 1,
+"fecha": "2026-08-26"
+},
+{
+"area": "Cumplimiento",
+"s": 2,
+"fecha": "2026-09-22"
+},
+{
+"area": "Educación",
+"s": 3,
+"fecha": "2026-09-07"
+},
+{
+"area": "Educación",
+"s": 4,
+"fecha": "2026-09-28"
+},
+{
+"area": "Educación",
+"s": 5,
+"fecha": "2026-10-08"
+},
+{
+"area": "Gerencia Financiera",
+"s": 2,
+"fecha": "2026-09-03"
+},
+{
+"area": "IPS",
+"s": 2,
+"fecha": "2026-09-09"
+},
+{
+"area": "IPS",
+"s": 3,
+"fecha": "2026-09-17"
+},
+{
+"area": "IPS",
+"s": 4,
+"fecha": "2026-09-23"
+},
+{
+"area": "IPS",
+"s": 5,
+"fecha": "2026-09-30"
+},
+{
+"area": "IPS",
+"s": 6,
+"fecha": "2026-10-07"
+},
+{
+"area": "IPS",
+"s": 7,
+"fecha": "2026-10-30"
+},
+{
+"area": "Jurídica",
+"s": 3,
+"fecha": "2026-08-31"
+},
+{
+"area": "Jurídica",
+"s": 4,
+"fecha": "2026-09-03"
+},
+{
+"area": "Jurídica",
+"s": 5,
+"fecha": "2026-09-07"
+},
+{
+"area": "Jurídica",
+"s": 6,
+"fecha": "2026-09-09"
+},
+{
+"area": "Jurídica",
+"s": 7,
+"fecha": "2026-09-16"
+},
+{
+"area": "Jurídica",
+"s": 8,
+"fecha": "2026-09-17"
+},
+{
+"area": "Jurídica",
+"s": 9,
+"fecha": "2026-09-22"
+},
+{
+"area": "Jurídica",
+"s": 10,
+"fecha": "2026-09-23"
+},
+{
+"area": "Jurídica",
+"s": 11,
+"fecha": "2026-09-24"
+},
+{
+"area": "Jurídica",
+"s": 12,
+"fecha": "2026-10-01"
+},
+{
+"area": "Jurídica",
+"s": 13,
+"fecha": "2026-10-08"
+},
+{
+"area": "Mercadeo",
+"s": 4,
+"fecha": "2026-09-17"
+},
+{
+"area": "Mercadeo",
+"s": 5,
+"fecha": "2026-09-24"
+},
+{
+"area": "Planeación",
+"s": 2,
+"fecha": "2026-09-03"
+},
+{
+"area": "Servicios Sociales",
+"s": 4,
+"fecha": "2026-08-27"
+},
+{
+"area": "Servicios Sociales",
+"s": 5,
+"fecha": "2026-08-31"
+},
+{
+"area": "Servicios Sociales",
+"s": 6,
+"fecha": "2026-09-10"
+},
+{
+"area": "Servicios Sociales",
+"s": 7,
+"fecha": "2026-09-15"
+},
+{
+"area": "Servicios Sociales",
+"s": 8,
+"fecha": "2026-09-16"
+},
+{
+"area": "Servicios Sociales",
+"s": 9,
+"fecha": "2026-09-24"
+},
+{
+"area": "Servicios Sociales",
+"s": 10,
+"fecha": "2026-09-29"
+},
+{
+"area": "Servicios Sociales",
+"s": 12,
+"fecha": "2026-10-06"
+},
+{
+"area": "Servicios Sociales",
+"s": 13,
+"fecha": "2026-10-30"
+},
+{
+"area": "Sub. Admin y Financiera",
+"s": 2,
+"fecha": "2026-09-02"
+},
+{
+"area": "Sub. Admin y Financiera",
+"s": 3,
+"fecha": "2026-09-07"
+},
+{
+"area": "Sub. Admin y Financiera",
+"s": 4,
+"fecha": "2026-09-08"
+},
+{
+"area": "Sub. Admin y Financiera",
+"s": 5,
+"fecha": "2026-09-09"
+},
+{
+"area": "Sub. Admin y Financiera",
+"s": 6,
+"fecha": "2026-09-14"
+},
+{
+"area": "Sub. Admin y Financiera",
+"s": 7,
+"fecha": "2026-09-16"
+},
+{
+"area": "Sub. Admin y Financiera",
+"s": 8,
+"fecha": "2026-09-16"
+},
+{
+"area": "Sub. Admin y Financiera",
+"s": 9,
+"fecha": "2026-09-21"
+},
+{
+"area": "Sub. Admin y Financiera",
+"s": 10,
+"fecha": "2026-09-23"
+},
+{
+"area": "Sub. Admin y Financiera",
+"s": 11,
+"fecha": "2026-09-28"
+},
+{
+"area": "Sub. Operativa",
+"s": 3,
+"fecha": "2026-09-01"
+},
+{
+"area": "Sub. Operativa",
+"s": 4,
+"fecha": "2026-09-22"
+},
+{
+"area": "Sub. Operativa",
+"s": 5,
+"fecha": "2026-10-05"
+},
+{
+"area": "Subsidio y Aportes",
+"s": 1,
+"fecha": "2026-08-24"
+},
+{
+"area": "Subsidio y Aportes",
+"s": 3,
+"fecha": "2026-09-08"
+},
+{
+"area": "Subsidio y Aportes",
+"s": 4,
+"fecha": "2026-09-18"
+},
+{
+"area": "Subsidio y Aportes",
+"s": 5,
+"fecha": "2026-09-28"
+},
+{
+"area": "Subsidio y Aportes",
+"s": 6,
+"fecha": "2026-09-28"
+},
+{
+"area": "Subsidio y Aportes",
+"s": 7,
+"fecha": "2026-09-29"
+},
+{
+"area": "Subsidio y Aportes",
+"s": 8,
+"fecha": "2026-10-01"
+},
+{
+"area": "Subsidio y Aportes",
+"s": 9,
+"fecha": "2026-10-02"
+},
+{
+"area": "Subsidio y Aportes",
+"s": 10,
+"fecha": "2026-10-06"
+},
+{
+"area": "Subsidio y Aportes",
+"s": 11,
+"fecha": "2026-10-08"
+},
+{
+"area": "Talento Humano",
+"s": 2,
+"fecha": "2026-09-01"
+},
+{
+"area": "Talento Humano",
+"s": 3,
+"fecha": "2026-09-16"
+},
+{
+"area": "Tecnología",
+"s": 3,
+"fecha": "2026-09-11"
+},
+{
+"area": "Tecnología",
+"s": 4,
+"fecha": "2026-09-17"
+},
+{
+"area": "Tecnología",
+"s": 5,
+"fecha": "2026-09-23"
+},
+{
+"area": "Tecnología",
+"s": 6,
+"fecha": "2026-09-25"
+},
+{
+"area": "Tesorería",
+"s": 2,
+"fecha": "2026-09-09"
+},
+{
+"area": "Vivienda",
+"s": 5,
+"fecha": "2026-09-10"
+},
+{
+"area": "Vivienda",
+"s": 6,
+"fecha": "2026-10-06"
+}
+]

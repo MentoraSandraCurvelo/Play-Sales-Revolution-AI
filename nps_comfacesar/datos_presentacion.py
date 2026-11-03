@@ -1,0 +1,249 @@
+# -*- coding: utf-8 -*-
+"""Genera la presentación de cierre de Comfacesar, viernes 6 de noviembre de 2026.
+
+Todo número que aparece en la presentación sale de aquí. El jueves a las 4 de la
+tarde se actualizan las constantes de este archivo, se corre y se publica.
+
+    python3 build-presentacion.py && validar
+
+Fuentes de cada bloque:
+  SESIONES   tablero de cierre, columna "Sesiones" · 119 en 18 áreas
+  HORAS      Sala de Control recalculada el 13 de octubre · 187,8 h/semana
+  PROCESOS   bloque en firme de la Sala de Control · 53 tareas medidas
+  AGENTES    tablero de cierre, columna "Con qué cierra"
+  FECHAS     fichas de sesión de Lucía · 90 de las 119 llevan acta fechada
+"""
+import json, re, sys
+from collections import defaultdict
+from pathlib import Path
+
+RAIZ = Path(__file__).resolve().parent
+SALIDA = RAIZ / "presentacion-cierre-comfacesar.html"
+
+# ───────────────────────── datos del programa ─────────────────────────
+
+PROGRAMA = {
+    "sesiones": 119, "areas": 18, "colaboradores": 51, "convocados": 223,
+    "asistieron": 203, "asistencia": 91, "caidas": 26,
+    "horas": 187.8, "nps": 20, "confianza": (4.7, 8.6),
+    "respuestas_nps": 20, "fichas_fechadas": 90,
+    "semanas": 11, "inicio": "11 de agosto", "cierre": "9 de octubre",
+}
+
+# sesiones totales al cierre, del tablero de cierre
+SESIONES = {
+    "Jurídica": 13, "Comunicaciones": 12, "Servicios Sociales": 11,
+    "Sub. Admin y Financiera": 11, "Subsidio y Aportes": 11, "Agencia de Empleo": 10,
+    "Contabilidad": 8, "IPS": 6, "Tecnología": 6, "Vivienda": 6, "Educación": 5,
+    "Mercadeo": 5, "Sub. Operativa": 4, "Talento Humano": 3, "Cumplimiento": 2,
+    "Gerencia Financiera": 2, "Planeación": 2, "Tesorería": 2,
+}
+
+# horas recuperadas por semana, Sala de Control
+HORAS = {
+    "Sub. Admin y Financiera": 45.7, "Vivienda": 38.4, "Jurídica": 23.6,
+    "Subsidio y Aportes": 23.0, "IPS": 22.8, "Comunicaciones": 13.7,
+    "Servicios Sociales": 10.9, "Agencia de Empleo": 4.4, "Contabilidad": 2.4,
+    "Sub. Operativa": 2.4, "Educación": 0.4, "Cumplimiento": 0.1,
+}
+
+# procesos documentados en firme
+PROCESOS = {
+    "Jurídica": 11, "Servicios Sociales": 8, "Vivienda": 6, "Comunicaciones": 6,
+    "Subsidio y Aportes": 5, "Agencia de Empleo": 4, "Sub. Admin y Financiera": 4,
+    "Sub. Operativa": 3, "Contabilidad": 3, "Tecnología": 2, "Educación": 2,
+    "IPS": 1, "Mercadeo": 1, "Cumplimiento": 1, "Talento Humano": 1,
+}
+
+# agentes, de la columna "Con qué cierra"
+AGENTES = {
+    "Jurídica": (4, 2), "Comunicaciones": (3, 0), "Servicios Sociales": (2, 1),
+    "Agencia de Empleo": (1, 1), "IPS": (1, 1), "Tecnología": (1, 0),
+    "Sub. Operativa": (1, 0),
+}
+
+# qué cierra cada área, del tablero de cierre
+CIERRA = {
+    "Jurídica": "Cuatro agentes, dos corriendo con el equipo en Slack",
+    "Comunicaciones": "Tres agentes construidos",
+    "Servicios Sociales": "Dos agentes, uno detectó errores de origen en los datos",
+    "Sub. Admin y Financiera": "Tablero de la agenda directiva y el portal precontractual",
+    "Subsidio y Aportes": "Circuito completo probado de principio a fin",
+    "Agencia de Empleo": "Matías en producción, con su primera respuesta a un ciudadano",
+    "Contabilidad": "Repuso la sesión caída y tomó una más",
+    "IPS": "Circuito de inspecciones corriendo sobre 23 sedes",
+    "Tecnología": "Primer agente programado por el área",
+    "Vivienda": "Tablero del programa de mejoramiento rural",
+    "Educación": "Dos tableros publicados y su primera cifra medida",
+    "Mercadeo": "Primer tablero interactivo",
+    "Sub. Operativa": "Retomada tras la caída del 9 de septiembre",
+    "Talento Humano": "Las tres personas con ejercicio propio",
+    "Cumplimiento": "La S2 se cayó tres veces y se recuperó el 22 de septiembre",
+    "Gerencia Financiera": "Quedó sin la tercera sesión",
+    "Planeación": "La primera habilidad construida del programa",
+    "Tesorería": "Bloqueada: sus títulos siguen en papel",
+}
+
+# tarifas de costo hora de Comfacesar
+TARIFAS = [("Profesional", 36351, "Base del reporte"),
+           ("Gerente o jefe", 62862, ""),
+           ("Directivo", 95941, "")]
+
+# el orden de la jornada del viernes 6, fijado por Sandra
+JORNADA = [
+    ("Agencia de Empleo", "AE", "Matías respondiendo a un ciudadano"),
+    ("IPS", "IPS", "La plataforma de capacitaciones, de la firma al certificado"),
+    ("Contabilidad", "CO", "El circuito de conciliaciones probado de punta a punta"),
+    ("Sub. Admin y Financiera", "SF", "La prevalidación precontractual y la agenda directiva"),
+    ("Educación", "ED", "Dos tableros publicados y su primera cifra medida"),
+    ("Vivienda", "VI", "El tablero del mejoramiento rural y el análisis de interventorías"),
+    ("Jurídica", "JU", "Cuatro agentes, dos corriendo sobre el correo real"),
+    ("Subsidio y Aportes", "SA", "El circuito completo, de principio a fin"),
+    ("Servicios Sociales", "SS", "Las actas de contrato y el agente que halló errores de origen"),
+    ("Comunicaciones", "CM", "Tres agentes y el libreto de evento usado en vivo"),
+    ("Sub. Operativa", "SO", "Maia, el primer agente del área"),
+    ("Gerencia Financiera", "GF", "Lo que mida en la sesión de esta semana"),
+]
+PRESENTA = {"Sub. Admin y Financiera": "Rafael Solano"}
+
+INDICACIONES = [
+    ("El flujo de trabajo", "Cómo lo hacían antes y cómo lo hacen ahora. Una o dos diapositivas."),
+    ("El tiempo, y su destino", "Cuánto tardaba el proceso, cuánto tarda hoy, y en qué se está usando esa hora que volvió."),
+    ("El inventario de lo que falta", "Lo que quedó por hacer, o lo que el área quisiera en una segunda fase."),
+    ("La hiperconectividad", "Qué necesitaría el área para quedar conectada a los sistemas de información."),
+]
+
+# los seis frentes de hiperconectividad, de la propuesta de fase 2
+FRENTES = [
+    ("Saber qué hay y dónde está",
+     "El inventario de los sistemas de información de la Caja y dónde está alojado cada uno. Sin ese mapa no se conecta nada."),
+    ("Un solo lugar donde trabaja la Caja",
+     "IAM™ Hello: la puerta única por la que cada área entra a lo suyo, en vez de dieciocho entradas distintas."),
+    ("El Tableau que ya está pagado",
+     "Lleva ocho años comprado y subutilizado porque nadie lo alimenta. Es el activo más barato de activar."),
+    ("Los tableros enganchados a la gestión",
+     "Que el tablero del área lea del sistema en vez de que alguien le copie los datos a mano cada semana."),
+    ("Salir de la red local",
+     "Hoy la información vive en equipos y carpetas locales. Mientras siga ahí, no se puede conectar ni respaldar."),
+    ("Una app de la Caja, por áreas",
+     "Arranca por áreas y después se unen, el mismo camino que ya recorrieron los tableros."),
+]
+
+# el año, trimestre por trimestre, de la propuesta. Sin un solo peso.
+TRIMESTRES = [
+    ("Trimestre 1", "Meses 1 a 3", "Levantar y cerrar lo abierto", [
+        "Levantamiento de equipos, con la lista priorizada de qué computadores se cambian y por qué",
+        "Levantamiento de sistemas: qué hay y dónde está alojado cada uno",
+        "Cimentación de los circuitos de las áreas que ya construyeron",
+        "Primeras sesiones de trabajo cercano con Vivienda y Mercadeo",
+        "Arranca la gobernanza con Cumplimiento y se gestiona la reunión de licenciamiento",
+        "Diseño del plan de equipos portátiles, con Talento Humano",
+    ]),
+    ("Trimestre 2", "Meses 4 a 6", "Decidir y conectar", [
+        "La propuesta de licenciamiento queda lista y el sponsor la presenta al director",
+        "El plan de renovación de equipos entra en ejecución con lo que la dirección apruebe",
+        "Primeras conexiones de tableros a los sistemas internos, con el recurso de la Caja",
+        "Automatizaciones vivas en Vivienda, y Mercadeo con su base de datos conectada",
+        "Entran las primeras áreas por activar, con circuito nuevo de principio a fin",
+        "Arranca el esquema híbrido en las áreas que ya tengan portátil",
+    ]),
+    ("Trimestre 3", "Meses 7 a 9", "Infraestructura y reglas", [
+        "Evaluación y selección del proveedor de migración a la nube",
+        "Negociación del techo de integración con el proveedor de software",
+        "El marco de gobernanza queda publicado y con responsable con nombre",
+        "Mercadeo y Subsidio con los tableros hablándose",
+        "Las áreas por activar, en construcción",
+        "Primera medición de productividad del esquema híbrido",
+    ]),
+    ("Trimestre 4", "Meses 10 a 12", "Dejarlo andando sin la mentoría", [
+        "Acompañamiento de la migración a la nube que ejecuta el proveedor",
+        "Las 18 áreas con al menos un circuito cimentado y medido",
+        "Traspaso formal al recurso interno que la Caja designe",
+        "Balance del año en horas y en pesos, no en porcentaje de avance",
+        "Cierre: cuarta revisión con el director y entrega",
+    ]),
+]
+
+# lo que el cierre no resolvió, del tablero de cierre
+ABIERTO = [
+    ("Cada circuito vive en la cabeza de quien lo armó",
+     "Si la persona sale, el proceso se va con ella. No hay respaldo ni documentación de operación."),
+    ("Medir en dinero todavía no es costumbre",
+     "Seis áreas de dieciocho no midieron ni una tarea. No es que no hicieran: es que no lo anotaron."),
+    ("Dieciocho islas que no se hablan",
+     "Cada área construyó lo suyo. Ningún tablero lee de otro ni de un sistema de la Caja."),
+    ("Los equipos no dan para la forma de trabajo que se pide",
+     "El hardware es hoy el límite, y el director lo viene diciendo desde el 14 de septiembre."),
+]
+
+
+# ───────────────────────── el índice (IIE) ─────────────────────────
+
+UMBRALES = {"adopcion": 10, "produccion": 8, "impacto": 20.0}
+
+
+def cargar_fechas():
+    """Fechas de sesión por área, de las fichas de Lucía."""
+    f = RAIZ / "fechas-sesiones.json"
+    if not f.exists():
+        sys.exit("falta fechas-sesiones.json: córrelo con extraer-fechas.sh")
+    crudo = json.loads(f.read_text(encoding="utf-8"))
+    d = defaultdict(list)
+    for r in crudo:
+        d[r["area"]].append(r["fecha"])
+    return d
+
+
+def ejes(ses, proc, horas, ag):
+    construidos, corriendo = ag
+    return {
+        "adopcion": min(ses / UMBRALES["adopcion"], 1) * 25,
+        "produccion": min(proc / UMBRALES["produccion"], 1) * 25,
+        "impacto": min(horas / UMBRALES["impacto"], 1) * 25,
+        "autonomia": min(construidos * 4 + corriendo * 8.5, 25.0),
+    }
+
+
+def iie(area, fechas, hasta=None):
+    todas = fechas.get(area, [])
+    if hasta is None:
+        ses, esc = SESIONES[area], 1.0
+    else:
+        ses = sum(1 for f in todas if f <= hasta)
+        esc = (ses / len(todas)) if todas else 0.0
+        ses = round(SESIONES[area] * esc)
+    proc = round(PROCESOS.get(area, 0) * esc)
+    horas = HORAS.get(area, 0.0) * esc
+    c, r = AGENTES.get(area, (0, 0))
+    ag = (int(c * esc), int(r * esc))
+    e = ejes(ses, proc, horas, ag)
+    return {"area": area, "sesiones": ses, "procesos": proc, "horas": round(horas, 1),
+            "agentes": ag[0], "corriendo": ag[1],
+            "ejes": {k: round(v, 1) for k, v in e.items()},
+            "iie": round(sum(e.values()), 1)}
+
+
+def construir_datos():
+    fechas = cargar_fechas()
+    cierre = {a: iie(a, fechas) for a in SESIONES}
+    sept = {a: iie(a, fechas, "2026-09-30") for a in SESIONES}
+    orden = sorted(SESIONES, key=lambda a: -cierre[a]["iie"])
+    return {
+        "programa": PROGRAMA, "umbrales": UMBRALES, "orden": orden,
+        "cierre": cierre, "septiembre": sept, "cierra": CIERRA,
+        "horas": HORAS, "jornada": JORNADA, "presenta": PRESENTA,
+        "promedio": {
+            "cierre": round(sum(cierre[a]["iie"] for a in SESIONES) / len(SESIONES), 1),
+            "septiembre": round(sum(sept[a]["iie"] for a in SESIONES) / len(SESIONES), 1),
+        },
+    }
+
+
+if __name__ == "__main__":
+    d = construir_datos()
+    print(f"{'ÁREA':26}{'IIE':>7}{'sep':>7}{'Δ':>7}")
+    for a in d["orden"]:
+        c, s = d["cierre"][a]["iie"], d["septiembre"][a]["iie"]
+        print(f"{a:26}{c:>7.1f}{s:>7.1f}{c - s:>+7.1f}")
+    print(f"\npromedio: {d['promedio']['septiembre']} → {d['promedio']['cierre']}")
+    print(f"horas: {sum(HORAS.values()):.1f} · sesiones: {sum(SESIONES.values())}")
