@@ -27,6 +27,7 @@
 ## Logo
 3 nov 2026: logo-newsletter-A.jpg (1080x1080) puesto por Chrome en lugar de la imagen de la muñeca de IA. Nombre, descripción y frecuencia sin cambios.
 3 nov 2026: Sandra escogió logo-newsletter-C.jpg (letra gruesa en relieve, legible en miniatura) para reemplazar el A.
+3 nov 2026: Sandra probó D2 (puesto por Chrome); en miniatura el texto de arriba no se leía. Se hizo D3: texto negro sin sombra, más grande, e IA roja en relieve.
 
 ## Perfil
 3 nov 2026: iamlatam.co/guias en el primer lugar de Destacados.
