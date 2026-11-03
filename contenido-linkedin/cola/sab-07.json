@@ -2,7 +2,7 @@
   "id": "sab-07",
   "estado": "pendiente",
   "programado_bogota": "2026-11-07 09:00",
-  "imagen": null,
+  "imagen": "contenido-linkedin/imagenes/fin-semana-sab-07.jpg",
   "urn": null,
   "payload": {
     "author": "urn:li:person:tsJbwdb3B2",
@@ -16,5 +16,5 @@
     "lifecycleState": "PUBLISHED",
     "isReshareDisabledByAuthor": false
   },
-  "nota": "Post de fin de semana, tono más cercano. Imagen por definir con Sandra."
+  "alt": "Tu fin de semana también merece IA: 5 usos prácticos, por Sandra Curvelo, IAM"
 }

@@ -2,7 +2,7 @@
   "id": "dom-08",
   "estado": "pendiente",
   "programado_bogota": "2026-11-08 17:00",
-  "imagen": null,
+  "imagen": "contenido-linkedin/imagenes/fin-semana-dom-08.jpg",
   "urn": null,
   "payload": {
     "author": "urn:li:person:tsJbwdb3B2",
@@ -16,5 +16,5 @@
     "lifecycleState": "PUBLISHED",
     "isReshareDisabledByAuthor": false
   },
-  "nota": "Post de fin de semana, tono más cercano. Imagen por definir con Sandra."
+  "alt": "Si la IA te devolviera 4 horas a la semana, ¿en qué las usarías?"
 }
