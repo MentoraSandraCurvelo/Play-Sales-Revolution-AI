@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Guías de IA · Lo que nadie te dice de la IA · Sandra Curvelo</title>
+<meta name="description" content="Guías gratuitas y paso a paso para aplicar la IA en tu equipo. Cada 15 días, una nueva con la newsletter Lo que nadie te dice de la IA, de Sandra Curvelo.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://iamlatam.co/guias/">
+<meta property="og:title" content="Guías gratuitas · Lo que nadie te dice de la IA">
+<meta property="og:description" content="Paso a paso para aplicar la IA en tu equipo. Por Sandra Curvelo, IAM™.">
+<meta property="og:image" content="https://iamlatam.co/guias/og-guias.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Outfit:wght@300;400;500;600&display=swap">
+<style>
+/* Mismos tokens de iamlatam.co: negro, rojo IAM, Playfair para titulares, Outfit para texto */
+:root{--red:#C00000;--red-hi:#E00000;--black:#080808;--dark:#161616;--carbon:#1e1e1e;--smoke:#2a2a2a;--silver:#888;--mist:#bbb;--white:#fff;
+--display:'Playfair Display',Georgia,serif;--body:'Outfit',system-ui,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--black);color:var(--white);font-family:var(--body);font-weight:300;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1140px;margin:0 auto;padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px))}
+a{color:inherit}
+nav{border-bottom:1px solid var(--smoke)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;padding-block:20px}
+.logo{font-family:var(--display);font-weight:900;font-size:24px;text-decoration:none;letter-spacing:.5px}
+.logo span{color:var(--red-hi)}
+.back{font-size:14px;color:var(--mist);text-decoration:none;letter-spacing:.04em}
+.back:hover{color:var(--white)}
+.hero{position:relative;padding-block:96px 72px;border-left:6px solid var(--red)}
+.eb{font-weight:600;font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:var(--red-hi)}
+h1{font-family:var(--display);font-weight:900;font-size:clamp(40px,7vw,84px);line-height:1.02;margin-top:18px;text-wrap:balance}
+h1 em{font-style:normal;color:var(--red-hi)}
+.lede{font-size:clamp(18px,2.2vw,22px);color:var(--mist);max-width:640px;margin-top:24px}
+.thesis{margin-top:28px;font-family:var(--display);font-style:italic;font-size:22px;color:var(--white)}
+.thesis b{color:var(--red-hi);font-style:normal}
+section{padding-block:64px}
+h2{font-family:var(--display);font-weight:700;font-size:clamp(28px,4vw,40px);line-height:1.15;text-wrap:balance}
+.guide{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:56px;align-items:center;margin-top:36px;background:var(--dark);border:1px solid var(--smoke);border-top:4px solid var(--red);padding:48px}
+.cover{width:100%;box-shadow:0 30px 60px rgba(0,0,0,.6);transform:rotate(-2deg);transition:transform .4s}
+.guide:hover .cover{transform:rotate(0)}
+.tag{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--black);background:var(--white);padding:5px 12px}
+.guide h3{font-family:var(--display);font-weight:900;font-size:clamp(26px,3.2vw,38px);line-height:1.1;margin-top:16px}
+.guide p{color:var(--mist);margin-top:14px;max-width:560px}
+.guide ul{list-style:none;margin-top:20px;display:flex;flex-direction:column;gap:10px}
+.guide li{padding-left:30px;position:relative}
+.guide li::before{content:"⭕";position:absolute;left:0;top:0;font-size:15px}
+.btns{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px}
+.btn{display:inline-block;font-weight:600;font-size:15px;letter-spacing:.04em;text-decoration:none;padding:15px 28px;border:1.5px solid var(--red-hi);transition:background .2s,color .2s}
+.btn.primary{background:var(--red);border-color:var(--red)}
+.btn.primary:hover{background:var(--red-hi)}
+.btn.ghost:hover{background:var(--red-hi)}
+.btn:focus-visible{outline:2px solid var(--white);outline-offset:3px}
+.next{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:32px}
+.card{background:var(--carbon);border:1px solid var(--smoke);padding:28px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.card .n{font-family:var(--display);font-weight:900;font-size:40px;color:var(--red-hi);line-height:1}
+.card h4{font-size:18px;font-weight:500;line-height:1.35}
+.card .d{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--silver);margin-top:auto}
+.cta{background:var(--red);padding-block:72px}
+.cta .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:28px}
+.cta h2{max-width:620px}
+.cta .btn{border-color:var(--white);background:var(--black)}
+.cta .btn:hover{background:var(--white);color:var(--black)}
+footer{padding-block:36px;color:var(--silver);font-size:14px;border-top:1px solid var(--smoke)}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+@media (max-width:760px){.guide{grid-template-columns:1fr;padding:28px;gap:32px}.cover{max-width:260px;margin:0 auto;display:block}.hero{padding-block:64px 48px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><a class="logo" href="https://iamlatam.co/">IAM<span>™</span></a><a class="back" href="https://iamlatam.co/">Volver a iamlatam.co</a></div></nav>
+
+<header class="wrap hero">
+  <p class="eb">Lo que nadie te dice de la IA</p>
+  <h1>Guías de <em>IA</em> que sí funcionan en tu equipo.</h1>
+  <p class="lede">Cada 15 días publico una edición de mi newsletter en LinkedIn. Cada edición trae una guía práctica, paso a paso, para que la apliques el mismo día. Gratis.</p>
+  <p class="thesis">La IA no es una herramienta. <b>Es un sistema de trabajo.</b></p>
+</header>
+
+<section class="wrap" aria-labelledby="disponible">
+  <p class="eb">Disponible</p>
+  <h2 id="disponible">La guía de esta quincena</h2>
+  <article class="guide">
+    <img class="cover" src="guia-1-portada-1.jpg" alt="Portada de la guía: Conecta tu LinkedIn con un agente de IA" width="340" height="481">
+    <div>
+      <span class="tag">Guía 1 · Noviembre 2026</span>
+      <h3>Conecta tu LinkedIn con un agente de IA</h3>
+      <p>Cómo armé el sistema que prepara y publica mi contenido en LinkedIn, con la regla que no se negocia: nada sale sin mi aprobación.</p>
+      <ul>
+        <li>El mapa: qué hace el agente en la nube y qué hace el asistente en el navegador</li>
+        <li>El paso a paso para conectar la API oficial de LinkedIn</li>
+        <li>La lista de seguridad para cuidar tu llave de acceso</li>
+        <li>Las instrucciones base del agente y 3 prompts listos para copiar</li>
+      </ul>
+      <div class="btns">
+        <a class="btn primary" href="guia-1-agente-linkedin.pdf" download>Descargar la guía (PDF)</a>
+        <a class="btn ghost" href="https://www.linkedin.com/newsletters/ia-ventas=-exito-garantizado-6952337560673157120/" target="_blank" rel="noopener">Suscribirme a la newsletter</a>
+      </div>
+    </div>
+  </article>
+</section>
+
+<section class="wrap" aria-labelledby="proximas">
+  <p class="eb">Próximamente</p>
+  <h2 id="proximas">Las guías que vienen</h2>
+  <div class="next">
+    <div class="card"><span class="n">2</span><h4>Tu IA, experta en LinkedIn e Instagram: métricas sin depender de un analista</h4><span class="d">26 de noviembre</span></div>
+    <div class="card"><span class="n">3</span><h4>Proyectos, agentes, habilidades y plugins: tu primer agente paso a paso</h4><span class="d">10 de diciembre</span></div>
+    <div class="card"><span class="n">4</span><h4>Investigación profunda con Gemini y los planes de IA de Google</h4><span class="d">7 de enero</span></div>
+    <div class="card"><span class="n">5</span><h4>NotebookLM y Google Workspace: tu segundo cerebro de trabajo</h4><span class="d">21 de enero</span></div>
+  </div>
+</section>
+
+<section class="cta" aria-labelledby="cta">
+  <div class="wrap">
+    <h2 id="cta">¿Quieres llevar esto a tu equipo, con resultados que se miden en horas y en pesos?</h2>
+    <a class="btn" href="https://calendly.com/sandracurvelo-mentoraventasdigitales-ia" target="_blank" rel="noopener">Agenda 30 minutos con Sandra</a>
+  </div>
+</section>
+
+<footer><div class="wrap"><span>Sandra Curvelo · Founder &amp; CSO, IAM™ · Lo que no se mide no puede ser mejorado.</span><a href="https://iamlatam.co/">iamlatam.co</a></div></footer>
+</body>
+</html>
