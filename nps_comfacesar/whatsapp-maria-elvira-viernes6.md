@@ -52,8 +52,9 @@ comprometidas, que son las que sacaron ejercicios adelante»*, más Educación y
 Vivienda, más Contabilidad y Sub. Operativa.
 
 **Gerencia Financiera es la excepción, y entra por tu decisión del 3 de noviembre.**
-No tiene procesos medidos en la Sala de Control y se quedó en la S2 del 3 de
-septiembre. Va de última. En el mensaje cambié «las once que llegan con procesos
+Hoy no tiene procesos medidos en la Sala de Control y se quedó en la S2 del 3 de
+septiembre, pero **los mide en la reunión de esta semana**, así que para el viernes
+deja de ser excepción. Va de última. En el mensaje cambié «las once que llegan con procesos
 activos y documentados» por «las doce que van, en este orden», porque la frase
 anterior ya no sería cierta para ella y el director podría cruzarla con el tablero.
 
