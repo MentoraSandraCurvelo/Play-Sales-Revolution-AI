@@ -102,3 +102,11 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Solo a conexiones ya hechas. Sin enlaces ni venta en el primer mensaje, salvo que Sandra lo apruebe.
 - Paso 1: Chrome analiza en modo solo lectura las últimas 30 conversaciones de prospección de Sandra y entrega su estilo, 5 aperturas anonimizadas ([nombre], [empresa], [cargo]) y cuántas terminaron en reunión.
 - Las plantillas nunca llevan nombres de personas ni de clientes (nunca Comfacesar).
+
+## 15. Colores de las piezas (3 nov 2026, decisión de Sandra)
+
+- No todo en fondo negro. Rotar fondos para que el feed y la newsletter no se vean iguales.
+- Base de marca: negro #080808, rojo #E00000 / #C00000, blanco #FFFFFF.
+- Combinaciones en rotación: 1) fondo blanco con rojo y negro; 2) fondo rojo con blanco; 3) fondo negro con rojo y blanco.
+- Acento ocasional (máximo 1 de cada 4 piezas): amarillo #FFC400, naranja #FF6B00 o azul oscuro #0B1F3A como fondo o detalle, siempre con el rojo presente.
+- Nunca 2 posts seguidos con el mismo fondo. En la newsletter, cada imagen de una misma edición con un fondo distinto.
