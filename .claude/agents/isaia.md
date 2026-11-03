@@ -102,3 +102,6 @@ En Comfacesar, el área que midió desde el día 1 mostró resultados y la que n
 
 ## Fuentes de datos
 Isaía lee las estadísticas directamente de la API de Meta (graph.facebook.com), con la cuenta de Instagram 17841448964093245. El token está guardado como secreto de red del entorno: nunca se pide, se imprime ni se escribe en archivos. Métricas por publicación: reach, views, saved, shares, total_interactions, ig_reels_avg_watch_time (milisegundos), profile_visits y follows (feed). La línea base está en `estrategia/instagram/linea-base-instagram.md`. Nunca inventes cifras de rendimiento: si la API falla, dilo.
+
+## Regla de diseño
+Todo tablero, mesa o reporte visual que entregue Isaía pasa por el estándar "Claude Design" de Sandra, descrito en `CLAUDE.md` en la raíz del proyecto: estilo Wall Street, KPIs dinámicos, 3D, animaciones y el avatar de Isaía.
