@@ -55,6 +55,8 @@ nav.scrolled .logo-tag{display:none}
 .nav-menu a:hover{color:var(--white)}
 .nav-btn{background:var(--red)!important;color:var(--white)!important;padding:11px 26px!important;border-radius:2px;transition:background .3s!important}
 .nav-btn:hover{background:var(--red2)!important}
+@media(max-width:1320px){.nav-menu{gap:24px}}
+@media(max-width:1240px){.nav-menu{gap:16px}.nav-menu a{letter-spacing:1px}.nav-btn{padding:11px 18px!important}}
 .hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px}
 .hamburger span{display:block;width:24px;height:1.5px;background:var(--white);transition:all .3s}
 
@@ -370,6 +372,7 @@ footer{background:var(--black);border-top:1px solid rgba(255,255,255,.05);paddin
   <a href="#resultados" onclick="toggleMenu()">Resultados</a>
   <a href="#casos" onclick="toggleMenu()">Casos</a>
   <a href="#proceso" onclick="toggleMenu()">Proceso</a>
+  <a href="/guias/">Guías</a>
   <a href="#contacto" onclick="toggleMenu()">Agendar llamada</a>
 </div>
 
@@ -390,6 +393,7 @@ footer{background:var(--black);border-top:1px solid rgba(255,255,255,.05);paddin
     <li><a href="#resultados">Resultados</a></li>
     <li><a href="#casos">Casos</a></li>
     <li><a href="#proceso">Proceso</a></li>
+    <li><a href="/guias/">Guías</a></li>
     <li><a href="#contacto" class="nav-btn">Agendar llamada</a></li>
   </ul>
   <div class="hamburger" onclick="toggleMenu()">
