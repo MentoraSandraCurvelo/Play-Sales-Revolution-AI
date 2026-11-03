@@ -134,6 +134,16 @@ no con correo de Comfacesar — por eso su sesión no cruza con el canal del ár
 aparezca una cita suya, hay que preguntar a cuál de los dos programas corresponde antes
 de armar nada.**
 
+**Rafael Solano agenda desde el buzón del área.** _Confirmado por Sandra el 3 de noviembre
+de 2026._ Sus reservas llegan con el correo **`requerimientoscontratos@comfacesar.com`** y el
+nombre que muestra Calendly es **«Sub. Administrativa y Financiera Comfacesar»**, no el suyo.
+_Por eso una cita de Rafael no se reconoce por el nombre del invitado._ En Slack es
+`U0BRNLRDS20`, Rafael Jose Solano Fernandez.
+
+**Así que el área entra por tres puertas distintas:** el Gmail personal de Liliany, el buzón
+de requerimientos de Rafael, y el canal `#sub-admin-y-financiera-infraestructura`. _Ninguna
+cruza sola con las otras._
+
 **Apellido por confirmar.** En las actas del 8 y el 16 de septiembre quedó como *Liliany
 Gómez*; en la reserva figura como *Liliany Zuleta*. No se corrigió nada porque los dos
 documentos ya están publicados: **hay que confirmarlo con Sandra antes de tocarlos.**
