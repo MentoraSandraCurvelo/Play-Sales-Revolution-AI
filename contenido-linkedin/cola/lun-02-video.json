@@ -1,7 +1,7 @@
 {
   "id": "lun-02-video",
-  "estado": "pendiente",
-  "aprobado_por": null,
+  "estado": "aprobado",
+  "aprobado_por": "Sandra",
   "programado_bogota": "2026-11-03 07:30",
   "video": "urn:li:video:D4E10AQFhd-Mu67FvKg",
   "titulo_video": "IA para entidades públicas · IAM™ Intelligence",
@@ -19,5 +19,6 @@
     },
     "lifecycleState": "PUBLISHED",
     "isReshareDisabledByAuthor": false
-  }
+  },
+  "aprobado_el": "2026-11-03"
 }
