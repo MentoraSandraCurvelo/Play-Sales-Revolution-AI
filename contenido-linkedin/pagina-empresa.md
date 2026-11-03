@@ -38,3 +38,11 @@ NUESTRAS 5 LÍNEAS
 Lo que no se mide no puede ser mejorado.
 
 👉 Agenda 30 minutos con Sandra Curvelo, Founder & CSO: iamlatam.co
+
+## Aplicado (3 nov 2026, por Claude en Chrome)
+- Nombre, frase, sitio web, botón (Contact us → Calendly), ubicación: guardados.
+- Descripción nueva: guardada (1.056 de 2.000 caracteres).
+- Especialidades: 20 (las 12 nuevas + Estrategia Comercial, Sales Enablement, Prospección Digital, Sales Coaching, Revenue Strategy, KPI Comercial, Personal Branding, Brand Ambassadors).
+- Portada: banner-pagina-iam-v9.jpg.
+- Sin cambios: sector, tamaño (0-1, correcto), logo.
+- Pendiente de Sandra: decidir si el botón vuelve a WhatsApp (https://wa.link/9223ez).
