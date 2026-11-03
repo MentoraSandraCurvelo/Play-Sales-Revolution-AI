@@ -80,3 +80,7 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Las métricas del 3 nov mostraron casi 5 veces más impresiones pero solo +8 seguidores en 6 días y 0 seguidores nuevos por post.
 - Todo post nuevo cierra con una invitación a seguir a Sandra, además de la pregunta. Fórmula base, variando las palabras: "Si quieres ver cómo se mide la IA en [tema], sígueme: cada semana muestro un tablero real."
 - La invitación va después de la pregunta y antes de los hashtags. Una sola línea.
+
+## 11. Quién crea (3 nov 2026, decisión de Sandra)
+
+- En los casos, Sandra enseña y la persona del cliente crea. Nunca "creamos el agente" o "construimos el tablero": "le enseñé, y esa persona creó...". Los clientes no dependen de Sandra; el programa activa su pensamiento creativo y estratégico.
