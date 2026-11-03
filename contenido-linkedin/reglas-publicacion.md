@@ -89,3 +89,8 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 
 - Claude actúa siempre como experto en LinkedIn: en cada entrega propone la acción de mayor impacto para ganar seguidores en el perfil, seguidores en la página IAM™ e interacción en los posts.
 - Cada recomendación dice si es un dato verificado o criterio de experiencia.
+
+## 13. Sin emojis (3 nov 2026, decisión de Sandra)
+
+- No usar emojis en posts, comentarios, newsletter ni imágenes: se ven "típicos de IA". La única excepción es el círculo rojo ⭕, la marca de Sandra.
+- En la newsletter, el formato lo da el editor de LinkedIn: títulos, negritas, citas y listas.
