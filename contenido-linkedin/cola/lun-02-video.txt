@@ -1,10 +1,10 @@
 ¿Cómo sería una entidad pública donde el ciudadano ve, en lenguaje claro, cómo avanza cada proyecto?
 
-Vengo trabajando este sistema para alcaldías y entidades públicas. Una regla: la IA hace el trabajo pesado y el servidor público decide y firma.
+Vengo trabajando este sistema para alcaldías y entidades públicas. Una regla: la IA hace el trabajo pesado y el funcionario público decide y firma.
 
 ⭕ IAE™ por dependencia: cada semana se ve qué área sube y cuál baja, para ajustar a tiempo
 ⭕ Plan de Desarrollo: el ciudadano ve el avance de cada eje, y la IA redacta el informe en lenguaje claro, citando la fuente de cada cifra
-⭕ PQRSD: la IA clasifica cada solicitud, calcula el plazo de la Ley 1755 y propone el borrador. El servidor revisa y firma
+⭕ PQRSD: la IA clasifica cada solicitud, calcula el plazo de la Ley 1755 y propone el borrador. El funcionario revisa y firma
 ⭕ Radar SECOP II: la IA lee los pliegos y marca alertas. El abogado confirma o descarta cada una
 
 Nada se publica sin un humano. Eso es #GobiernoDigital con criterio.
@@ -14,5 +14,7 @@ Así funciona el sistema. Los datos que ves son un ejemplo ficticio, para proteg
 En el #SectorPúblico la pregunta ya no es si usar IA. Es si vas a medir cuánto le devuelve al ciudadano.
 
 Lo que no se mide no puede ser mejorado.
+
+Vicepresidente José Manuel Restrepo, MinTIC, Función Pública, ESAP, SENA y Asocapitales: ¿y si la próxima meta de productividad del Estado se midiera dependencia por dependencia?
 
 👉 Si trabajas en una entidad pública: ¿cuál de estos tableros necesitaría primero tu entidad?

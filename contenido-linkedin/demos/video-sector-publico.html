@@ -61,7 +61,7 @@ h2{font:400 58px/1.06 var(--h);letter-spacing:-1px}
 <section class="sc" id="s0">
   <p class="eb">IAM™ Intelligence · Sector público</p>
   <h1>Así se ve la IA trabajando en una <span class="red">entidad pública.</span></h1>
-  <p class="lede">La IA hace el trabajo pesado.<br>El servidor público decide y firma.</p>
+  <p class="lede">La IA hace el trabajo pesado.<br>El funcionario público decide y firma.</p>
   <div style="flex:1"></div>
   <p class="tag">Ejemplo ficticio · datos de demostración</p>
   <div class="ft"><span>Sandra Curvelo · Founder &amp; CSO, IAM™</span><span>IAM™ Intelligence</span></div>
@@ -81,7 +81,7 @@ h2{font:400 58px/1.06 var(--h);letter-spacing:-1px}
   <p class="eb">PQRSD · Secretaría General</p>
   <h2>La IA clasifica, calcula el plazo y <span class="red">propone la respuesta.</span></h2>
   <div class="win"><div class="hd"><span>Radicados de hoy</span><span class="live">clasificando</span></div><div id="pq"></div></div>
-  <div class="win" style="flex:1"><div class="hd"><span>Borrador de respuesta</span><span style="color:var(--red-hi)">el servidor revisa y firma</span></div><p class="typed caret" id="pqd"></p></div>
+  <div class="win" style="flex:1"><div class="hd"><span>Borrador de respuesta</span><span style="color:var(--red-hi)">el funcionario revisa y firma</span></div><p class="typed caret" id="pqd"></p></div>
   <div class="ft"><span>Ejemplo ficticio · plazos según Ley 1755 de 2015</span><span>IAM™ Intelligence</span></div>
 </section>
 
@@ -142,7 +142,7 @@ window.run=async()=>{
  show(2);await sleep(600);
  for(let i=0;i<PQ.length;i++){$('t'+i).classList.add('in');await sleep(450)}
  $('t1').classList.add('sel');await sleep(500);
- await type($('pqd'),'Respetado(a) ciudadano(a):\n\nSu solicitud PQ-08856 fue asignada a Inclusión Social. La inscripción se encuentra en estado [verificar en base de datos]. Para entregar el detalle, y según la Ley 1581, le pedimos acreditar su calidad de familiar.\n\n[Firma del servidor responsable]',22);
+ await type($('pqd'),'Respetado(a) ciudadano(a):\n\nSu solicitud PQ-08856 fue asignada a Inclusión Social. La inscripción se encuentra en estado [verificar en base de datos]. Para entregar el detalle, y según la Ley 1581, le pedimos acreditar su calidad de familiar.\n\n[Firma del funcionario responsable]',22);
  await sleep(1800);
  show(3);await sleep(1400);
  for(const h of ['h1','h2','h3']){$(h).classList.add('in');await sleep(2100)}
