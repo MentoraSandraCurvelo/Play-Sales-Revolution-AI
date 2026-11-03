@@ -10,7 +10,7 @@ Todo lo que salga visual (tableros, mesas, reportes, páginas, presentaciones, p
 - Respetar a quien desactiva animaciones (prefers-reduced-motion) y no inventar cifras: todo sale de datos reales, con fecha de corte.
 - Tipografía de contraste (aprobada por Sandra, siempre así): títulos grandes en serif blanco con la segunda frase en degradado rojo IAM → ámbar; etiquetas y cifras en letra monoespaciada en mayúsculas con espaciado amplio; texto de apoyo en gris claro con lo clave en blanco negrita. Fondo casi negro.
 - Fotos: usar fotos reales de Sandra de Dropbox ("/Fotos Profesionales" y "/2-Contenido/Mujer radiante", las de escenario con traje rojo). Evitar fotos donde aparezcan otras personas reconocibles sin su permiso.
-- Montajes con IA (aprobados por Sandra): para cada pieza, además de sus fotos reales, crear montajes en ElevenLabs a partir de sus fotos de Dropbox, cambiando atuendo, pose y escenario (oficina ejecutiva de noche, sala tipo Wall Street, escenario), manteniendo su misma cara y su mismo pelo. Generarlos en formato vertical para Instagram y mostrarle cada montaje antes de usarlo: si la cara no es fiel, no se usa.
+- Montajes con IA (aprobados por Sandra): para cada pieza, además de sus fotos reales, crear montajes en ElevenLabs a partir de sus fotos de Dropbox, cambiando atuendo, pose y escenario (oficina ejecutiva de noche, sala tipo Wall Street, escenario, y escenarios futuristas: puente de una nave espacial, hologramas, ciudad del futuro), manteniendo su misma cara y su mismo pelo. Generarlos en formato vertical para Instagram y mostrarle cada montaje antes de usarlo: si la cara no es fiel, no se usa.
 - Antes de entregar, revisar el diseño completo una vez más contra esta lista.
 
 ## Idioma y tono
