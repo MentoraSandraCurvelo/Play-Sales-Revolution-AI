@@ -10,7 +10,7 @@ alineadas en el teléfono. Las tablas de markdown no se ven en WhatsApp.
 
 ⭕️ María Elvira, te paso el orden de las áreas que presentan el viernes 6, jornada completa.
 
-Son las once que llegan con procesos activos y documentados.
+Son las doce que van, en este orden.
 
 ```
   N°   ÁREA
@@ -26,6 +26,7 @@ Son las once que llegan con procesos activos y documentados.
    9   Servicios Sociales
   10   Comunicaciones
   11   Sub. Operativa
+  12   Gerencia Financiera
 ```
 
 En la 4 presenta Rafael Solano.
@@ -43,12 +44,18 @@ IAM™ Intelligence 💪
 
 ## De dónde sale cada cosa
 
-**El criterio de «activas con procesos activos».** Las once que tienen procesos
+**El criterio de «activas con procesos activos».** Once de las doce tienen procesos
 medidos y en firme en la Sala de Control, que es la regla que las dos sesiones del
 30 de octubre repiten para esta jornada: lo que no está documentado no se presenta.
 Dentro están las siete de tu carril de Afilar del 5 de octubre, *«las áreas
 comprometidas, que son las que sacaron ejercicios adelante»*, más Educación y
-Vivienda que pediste de cuarta y quinta, más Contabilidad y Sub. Operativa.
+Vivienda, más Contabilidad y Sub. Operativa.
+
+**Gerencia Financiera es la excepción, y entra por tu decisión del 3 de noviembre.**
+No tiene procesos medidos en la Sala de Control y se quedó en la S2 del 3 de
+septiembre. Va de última. En el mensaje cambié «las once que llegan con procesos
+activos y documentados» por «las doce que van, en este orden», porque la frase
+anterior ya no sería cierta para ella y el director podría cruzarla con el tablero.
 
 **El orden.** Lo fijaste tú: Agencia de Empleo, IPS, **Contabilidad de tercera**,
 Sub. Admin y Financiera, Educación y Vivienda. De la séptima a la undécima las puse por
@@ -82,12 +89,20 @@ Financiera Comfacesar», no con su nombre.
 muestra 133,9 horas porque el recálculo a 187,8 sigue sin poder publicarse, así que si
 María Elvira abre el tablero vería una cifra distinta a la del WhatsApp.
 
-**Cumplimiento.** Es la única de las doce con procesos medidos que queda fuera. Llegó
+**Cumplimiento.** Es la única con procesos medidos que queda fuera. Llegó
 solo a la S2, del 22 de septiembre, y sus cuatro ejercicios son de formación, el canal,
 el tablero, el prompt y el método CREA, no un proceso en producción. Tiene 0,1 horas
 medidas. Además su representante original salió del programa en el relevo que aprobó
 María Elvira el 11 de septiembre, por haber cancelado la S2 sin reagendar. Si la
 quieres dentro entra de duodécima y el resto no se mueve.
+
+**El nombre de quien presenta por Gerencia Financiera.** Dijiste «Lilibeth de eco».
+En el registro hay tres formas parecidas y ninguna es de esa área: **Lilibeth Costa**
+es de Jurídica, **Lisbeth Cuadrado Herrera** de Contabilidad y **Liliany** de Sub.
+Admin y Financiera, y además es de Ambassadors. Gerencia Financiera tiene registrados
+a Wilgenes Salgado, Yeraldin Murgas y Carlos Mario Mendoza. La regla del registro es
+que ante una cuarta forma del nombre se pregunta en vez de elegir, así que no la nombré
+en el mensaje y queda pendiente confirmarlo para el acta.
 
 **Un nombre por área.** No lo puse, salvo Rafael. Subsidio cerró con Cindy Rodríguez
 pero el representante aprobado es José Luciano Contreras, Jurídica tiene tres personas
