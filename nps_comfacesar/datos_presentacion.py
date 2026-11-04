@@ -106,10 +106,18 @@ CIERRA = {
     "Tesorería": "Bloqueada: sus títulos siguen en papel",
 }
 
-# tarifas de costo hora de Comfacesar
+# Tarifas de costo hora de Comfacesar. NO se publican: son dato sensible y
+# Sandra pidió el 4 de noviembre que no aparezcan en la presentación.
+# Quedan aquí para que la cifra sea trazable, y el generador comprueba que
+# ninguna se cuele en el HTML.
 TARIFAS = [("Profesional", 36351, "Base del reporte"),
            ("Gerente o jefe", 62862, ""),
            ("Directivo", 95941, "")]
+
+# Un proceso no lo ejecuta un solo perfil: hay profesionales que lo hacen y
+# jefes que lo revisan. La valoración usa el promedio de esos dos, no el de
+# todos, porque el perfil directivo no ejecuta tareas.
+TARIFA_MEZCLA = (TARIFAS[0][1] + TARIFAS[1][1]) / 2
 
 # el orden de la jornada del viernes 6, fijado por Sandra
 JORNADA = [

@@ -302,30 +302,32 @@ s8 = slide("antes-hoy", "Antes y hoy", f"""
 
 # ───────────────────────── 9 · el valor en pesos ─────────────────────────
 
-def fila_tarifa(nombre, tarifa, nota, i):
-    sem = P["horas"] * tarifa
-    anio = sem * 52
-    return (f'<tr class="rv" style="--d:{.15 + i * .15}s"><td>{nombre}'
-            f'{f"<br><span class=hair>{nota}</span>" if nota else ""}</td>'
-            f'<td class="num">${mil(tarifa)}</td>'
-            f'<td class="num">${mil(sem)}</td>'
-            f'<td class="num st">${ent(anio / 1_000_000)} M</td></tr>')
+# Sin tarifas a la vista: solo los totales, a una tarifa promedio de los perfiles
+# que ejecutan y revisan. El costo hora de cada perfil no se publica.
+_sem = P["horas"] * D.TARIFA_MEZCLA
+_anio = _sem * 52
+_mes = _anio / 12
 
+PLATA = [("Cada semana", _sem), ("Cada mes", _mes), ("En doce meses", _anio)]
+plata = "".join(
+    f'<div class="tile rv" style="--d:{.1 + i * .16}s">'
+    f'<p class="big" style="font-size:52px;letter-spacing:-1px">${mil(v)}</p>'
+    f'<p class="lab">{t}</p></div>'
+    for i, (t, v) in enumerate(PLATA))
 
 s9 = slide("pesos", "El valor en pesos", f"""
   <div class="col" style="gap:32px;flex:1;justify-content:center">
   <p class="eb">La cuenta</p>
-  <h2>Las mismas {ent(P['horas'])} horas, a las tres tarifas de la Caja</h2>
-  <table class="t">
-    <tr><th style="width:34%">Perfil que ejecuta</th><th class="num">Costo hora</th>
-        <th class="num">Por semana</th><th class="num">A doce meses</th></tr>
-    {"".join(fila_tarifa(n, t, nota, i) for i, (n, t, nota) in enumerate(D.TARIFAS))}
-  </table>
-  <p class="note rv" style="--d:.7s">El reporte usa <b>la tarifa más baja</b>, la profesional, para que
-    la cifra no dependa de quién la mire. A la tarifa directiva la misma hora vale
-    {ent(D.TARIFAS[2][1] / D.TARIFAS[0][1])} veces más.</p>
+  <h2>Lo que valen {ent(P['horas'])} horas que vuelven cada semana</h2>
+  <p class="lede">Un proceso no lo ejecuta un solo perfil. Hay quien lo hace y quien lo
+    revisa, así que la valoración usa <b>un promedio de los perfiles que intervienen</b>,
+    no el costo de una persona en particular.</p>
+  <div class="grid3">{plata}</div>
+  <p class="note rv" style="--d:.6s">Es dinero que <b>no se deja de gastar una vez</b>:
+    son horas de gente que ya está contratada y que ahora se emplean en otra cosa.
+    {ent(P['horas'] * 52)} horas al año que la Caja recupera sin contratar a nadie.</p>
   </div>""", oscura=False,
-           pie="Tarifas de costo hora entregadas por Comfacesar · 52 semanas al año · la cifra base es la del perfil profesional")
+           pie="Horas medidas por el programa y valoradas con las tarifas de costo hora de Comfacesar · 52 semanas al año")
 
 # ───────────────────────── 10 · confianza ─────────────────────────
 
@@ -1053,6 +1055,11 @@ HTML = f"""<title>Cierre IAM™ Intelligence Comfacesar</title>
 # Un id de dibujo que coincida con el de una diapositiva hace que
 # getElementById devuelva la sección y el dibujo le borre el contenido.
 # Pasó con "islas": el SVG y la diapositiva se llamaban igual.
+# Las tarifas por perfil no se publican. Si alguna se cuela en el HTML, para.
+for _n, _v, _ in D.TARIFAS:
+    _fmt = f"{_v:,.0f}".replace(",", ".")
+    assert _fmt not in HTML, f"se coló la tarifa de {_n}: {_fmt}"
+
 _ids_slide = set(re.findall(r'<section class="slide[^>]*id="([^"]+)"', HTML))
 _ids_dibujo = set(re.findall(r'<(?:svg|canvas) id="([^"]+)"', HTML))
 _choque = _ids_slide & _ids_dibujo
