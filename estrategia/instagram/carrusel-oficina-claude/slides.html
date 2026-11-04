@@ -1,0 +1,147 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#000;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
+.s{width:1080px;height:1350px;position:relative;overflow:hidden;color:#e9eef3;
+ background:radial-gradient(900px 600px at 15% 0%,#15263a 0,transparent 60%),radial-gradient(800px 600px at 100% 100%,#2a0b0e 0,transparent 60%),#05070a}
+.mono{font-family:Menlo,"DejaVu Sans Mono",monospace}
+.tape{position:absolute;top:0;left:0;right:0;height:64px;display:flex;align-items:center;gap:34px;padding:0 48px;background:#07090d;border-bottom:1px solid #1c2632;font-size:21px;white-space:nowrap;letter-spacing:.06em;z-index:3}
+.tape b{color:#e9eef3}.up{color:#19e28b}.dn{color:#ff4d5e}.am{color:#ffb020}
+.brand{position:absolute;bottom:44px;left:56px;right:56px;display:flex;align-items:center;justify-content:space-between;font-size:22px;letter-spacing:.14em;color:#808d9a;z-index:3}
+.ring{display:inline-block;width:26px;height:26px;border-radius:50%;border:5px solid #ff2d2d;box-shadow:0 0 18px #ff2d2d;vertical-align:-5px;margin-right:12px}
+.photo{position:absolute;inset:0;background-size:cover;background-position:center top}
+.shadeB{position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,7,10,.25) 0%,rgba(5,7,10,.05) 35%,rgba(5,7,10,.9) 66%,#05070a 100%)}
+.eye{font-size:24px;letter-spacing:.24em;color:#ff2d2d;font-weight:800}
+h1{font-family:Georgia,"Times New Roman",serif;font-weight:400;line-height:1.04;letter-spacing:-.01em}
+h1 em{font-style:normal;background:linear-gradient(90deg,#ff2d2d,#ffb020);-webkit-background-clip:text;background-clip:text;color:transparent}
+.pad{position:absolute;left:72px;right:72px;z-index:2}
+.body{font-size:38px;line-height:1.4;color:#c4cfda}
+.body b{color:#fff}
+.swipe{position:absolute;right:56px;bottom:112px;font-size:26px;letter-spacing:.2em;color:#ffb020;z-index:3}
+.pager{color:#ffb020}
+.lt .badge{color:#c77a00;border-color:#c77a00}
+.badge{display:inline-flex;align-items:center;gap:14px;font-size:24px;letter-spacing:.16em;color:#ffb020;border:2px solid #ffb020;border-radius:999px;padding:10px 22px}
+.term{margin-top:40px;background:#0a0f15;border:1px solid #2a3a4c;border-radius:22px;overflow:hidden;box-shadow:0 30px 60px rgba(0,0,0,.5)}
+.term-h{display:flex;align-items:center;gap:12px;padding:16px 24px;background:#111923;border-bottom:1px solid #2a3a4c;font-size:20px;letter-spacing:.14em;color:#808d9a}
+.term-h i{width:14px;height:14px;border-radius:50%;display:inline-block}
+.term-h span{margin-left:auto;color:#19e28b}
+.term-b{padding:30px 34px;font-size:31px;line-height:1.5;color:#e9eef3}
+.term-b .p{color:#ff2d2d;font-weight:700}
+.term-b mark{background:none;color:#ffb020}
+.why{margin-top:34px;font-size:30px;line-height:1.45;color:#9aa6b2}
+.why b{color:#fff}
+.cta{display:inline-block;margin-top:34px;padding:22px 34px;border-radius:999px;background:linear-gradient(90deg,#c00000,#7a0f16);border:2px solid #ff2d2d;font-size:34px;font-weight:800;letter-spacing:.08em;color:#fff}
+.num{font-size:150px;font-weight:700;color:#ff2d2d;line-height:.8;position:absolute;right:72px;top:150px;opacity:.18}
+
+.lt{color:#14181d}
+.lt.w{background:#fbfaf7}.lt.b{background:linear-gradient(160deg,#f3ece2,#e9dfd1)}.lt.g{background:linear-gradient(160deg,#eef0f3,#e2e5ea)}
+.lt .tape{background:#14181d;border-bottom:none}
+.lt h1{color:#14181d}
+.lt h1 em{background:linear-gradient(90deg,#d10f0f,#e08a00);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lt .eye{color:#d10f0f}
+.lt .body{color:#4a535d}.lt .body b{color:#14181d}
+.lt .why{color:#5a636d}.lt .why b{color:#14181d}
+.lt .brand{color:#5a636d}.lt .pager{color:#c77a00}
+.lt .num{opacity:.12;color:#d10f0f}
+.lt .term{box-shadow:0 30px 60px rgba(20,24,29,.25)}
+.steps{display:grid;gap:16px;margin-top:36px}
+.st{display:flex;gap:20px;align-items:flex-start;background:#fff;border:1px solid #e3ddd2;border-radius:18px;padding:22px 26px;box-shadow:0 10px 24px rgba(20,24,29,.06)}
+.st .k{font:700 30px/1 Menlo,"DejaVu Sans Mono",monospace;color:#d10f0f;min-width:44px}
+.st p{font-size:32px;line-height:1.35;color:#3d4650}.st p b{color:#14181d}
+.ui{display:inline-block;font:700 26px/1.2 Menlo,"DejaVu Sans Mono",monospace;background:#14181d;color:#ffb020;border-radius:8px;padding:3px 10px;letter-spacing:.02em}
+.chips{display:grid;gap:14px;margin-top:34px}
+.chip{display:flex;align-items:center;gap:18px;border-radius:16px;padding:20px 24px;font-size:31px;line-height:1.3;color:#3d4650;background:#fff;border:1px solid #e3ddd2}
+.chip b{color:#14181d}
+.dot{width:20px;height:20px;border-radius:50%;flex:none}
+.dk .st,.dk .chip{background:#0f151d;border-color:#233142}.dk .st p,.dk .chip{color:#c4cfda}.dk .st p b,.dk .chip b{color:#fff}
+</style></head><body>
+
+
+<section class="s lt w" id="s1">
+  <div class="photo" style="background-image:url('p1.png')"></div><div class="shadeB" style="background:linear-gradient(180deg,rgba(251,250,247,0) 0%,rgba(251,250,247,0) 45%,rgba(251,250,247,.92) 66%,#fbfaf7 100%)"></div>
+  <div class="tape mono"><span><b>CONECTORES</b> <span class="up">▲ ACTIVOS</span></span><span><b>PASOS</b> <span class="am">● 5</span></span><span><b>GUÁRDALO</b> <span class="am">● 📌</span></span></div>
+  <div class="pad" style="bottom:170px"><span class="badge mono">⭕ IA SIN RODEOS · INSTRUCTIVO</span>
+    <h1 style="margin-top:26px;font-size:90px">Arma tu oficina con Claude.<br><em>Paso a paso.</em></h1></div>
+  <div class="swipe mono">DESLIZA →</div><div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">1/8</span></div>
+</section>
+
+<section class="s lt w" id="s2">
+  <div class="tape mono"><span><b>SIN CONECTOR</b> <span class="dn">▼ COPIAR Y PEGAR</span></span><span><b>CON CONECTOR</b> <span class="up">▲ TRABAJA CONTIGO</span></span></div>
+  <div class="pad" style="top:190px"><p class="eye mono">PRIMERO, LO BÁSICO</p>
+    <h1 style="font-size:84px;margin-top:22px">Un conector es <em>un puente.</em></h1>
+    <p class="body" style="margin-top:40px">Conecta a Claude con las herramientas donde ya trabajas: <b>tu correo, tu calendario, tus documentos.</b></p>
+    <div class="chips">
+      <div class="chip"><span class="dot" style="background:#ff4d5e"></span><span><b>Sin conector:</b> Claude solo sabe lo que tú le pegas.</span></div>
+      <div class="chip"><span class="dot" style="background:#19e28b"></span><span><b>Con conector:</b> lee tu agenda y tus correos para ayudarte de verdad.</span></div>
+    </div></div><div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">2/8</span></div>
+</section>
+
+<section class="s lt b" id="s3">
+  <div class="tape mono"><span><b>PASO 1</b> <span class="up">▲ CONECTAR</span></span></div>
+  <div class="num mono">01</div>
+  <div class="pad" style="top:150px"><p class="eye mono">PASO 1</p>
+    <h1 style="font-size:78px;margin-top:20px">Agrega tu<br><em>primer conector.</em></h1>
+    <div class="steps">
+      <div class="st"><span class="k">a</span><p>Entra a <span class="ui">Customize</span> → <span class="ui">Connectors</span></p></div>
+      <div class="st"><span class="k">b</span><p>Toca el <span class="ui">+</span> y elige uno: <b>Gmail, Google Calendar o Drive</b> son buenos para empezar.</p></div>
+      <div class="st"><span class="k">c</span><p>Dale <span class="ui">Connect</span> e inicia sesión con tu cuenta.</p></div>
+    </div></div><div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">3/8</span></div>
+</section>
+
+<section class="s lt g" id="s4">
+  <div class="tape mono"><span><b>PASO 2</b> <span class="up">▲ ENCENDER</span></span></div>
+  <div class="num mono">02</div>
+  <div class="pad" style="top:150px"><p class="eye mono">PASO 2</p>
+    <h1 style="font-size:78px;margin-top:20px">Enciéndelo<br><em>en el chat.</em></h1>
+    <div class="steps">
+      <div class="st"><span class="k">a</span><p>En el chat, toca el <span class="ui">+</span> abajo a la izquierda, o escribe <span class="ui">/</span></p></div>
+      <div class="st"><span class="k">b</span><p>Pasa por <span class="ui">Connectors</span></p></div>
+      <div class="st"><span class="k">c</span><p><b>Enciende solo los que necesitas</b> para esa conversación.</p></div>
+    </div></div><div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">4/8</span></div>
+</section>
+
+<section class="s lt w" id="s5">
+  <div class="tape mono"><span><b>PASO 3</b> <span class="am">● PERMISOS</span></span><span><b>ENVIAR SIN REVISAR</b> <span class="dn">▼ NO</span></span></div>
+  <div class="num mono">03</div>
+  <div class="pad" style="top:150px"><p class="eye mono">PASO 3 · EL MÁS IMPORTANTE</p>
+    <h1 style="font-size:78px;margin-top:20px">Decide qué puede<br><em>hacer solo.</em></h1>
+    <p class="body" style="margin-top:30px;font-size:34px">En <span class="ui">Customize</span> → <span class="ui">Connectors</span>, abre el conector y busca <span class="ui">Tool permissions</span>:</p>
+    <div class="chips">
+      <div class="chip"><span class="dot" style="background:#19e28b"></span><span><b>Always allow:</b> leer y buscar.</span></div>
+      <div class="chip"><span class="dot" style="background:#ffb020"></span><span><b>Needs approval:</b> todo lo que envía o publica a tu nombre.</span></div>
+      <div class="chip"><span class="dot" style="background:#ff4d5e"></span><span><b>Blocked:</b> lo que nunca debe tocar.</span></div>
+    </div></div><div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">5/8</span></div>
+</section>
+
+<section class="s" id="s6">
+  <div class="tape mono"><span><b>PASO 4</b> <span class="up">▲ CONTEXTO</span></span><span><b>MÉTODO</b> <span class="am">● CREA</span></span></div>
+  <div class="num mono">04</div>
+  <div class="pad dk" style="top:150px"><p class="eye mono">PASO 4</p>
+    <h1 style="font-size:78px;margin-top:20px">Crea un proyecto<br><em>con tu contexto.</em></h1>
+    <p class="body" style="margin-top:26px;font-size:34px">Escribe las instrucciones con el <b>método CREA:</b></p>
+    <div class="steps" style="gap:12px;margin-top:24px">
+      <div class="st" style="padding:16px 24px"><span class="k">C</span><p><b>Contexto:</b> quién eres y a quién le vendes.</p></div>
+      <div class="st" style="padding:16px 24px"><span class="k">R</span><p><b>Rol:</b> qué papel cumple Claude para ti.</p></div>
+      <div class="st" style="padding:16px 24px"><span class="k">E</span><p><b>Entrega:</b> cómo quieres la respuesta.</p></div>
+      <div class="st" style="padding:16px 24px"><span class="k">A</span><p><b>Acción:</b> qué debe hacer, paso a paso.</p></div>
+    </div>
+    <p class="body" style="margin-top:22px;font-size:30px">Y súbele tus archivos: tu método, tus servicios y 3 publicaciones tuyas.</p></div><div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">6/8</span></div>
+</section>
+
+<section class="s lt b" id="s7">
+  <div class="tape mono"><span><b>PASO 5</b> <span class="up">▲ A TRABAJAR</span></span></div>
+  <div class="num mono">05</div>
+  <div class="pad" style="top:150px"><p class="eye mono">PASO 5</p>
+    <h1 style="font-size:78px;margin-top:20px">Pídele<br><em>trabajo real.</em></h1>
+    <div class="term mono"><div class="term-h"><i style="background:#ff4d5e"></i><i style="background:#ffb020"></i><i style="background:#19e28b"></i>CLAUDE<span>● COPIA ESTO</span></div>
+      <div class="term-b"><span class="p">›</span> Revisa mi calendario de mañana y mis correos de hoy. Dime qué reuniones tengo, qué debo preparar para cada una y qué correos necesitan respuesta.</div></div>
+    <p class="why"><b>Eso es una oficina:</b> Claude junta la información y <b>tú decides.</b></p></div><div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">7/8</span></div>
+</section>
+
+<section class="s" id="s8">
+  <div class="tape mono"><span><b>TU TURNO</b> <span class="am">● GUARDA Y COMENTA</span></span></div>
+  <div class="pad" style="top:250px"><p class="eye mono">TU TURNO</p>
+    <h1 style="font-size:88px;margin-top:22px">¿Qué conectarías <em>primero?</em></h1>
+    <p class="body" style="margin-top:40px">📌 <b>Guárdalo</b> para hacerlo con calma.<br>Y cuéntame: ¿correo, calendario o documentos?</p>
+    <p class="body" style="margin-top:40px;font-size:28px;color:#808d9a">Los nombres de los menús pueden cambiar con las actualizaciones de Claude.</p></div><div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">8/8</span></div>
+</section>
+</body></html>
