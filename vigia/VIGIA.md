@@ -1,7 +1,7 @@
 # VigIA · Agente de orden documental (Dropbox + Google Drive)
 
 Rutina: todos los días, 12:00 y 16:00 hora Colombia (America/Bogota).
-Estado: Dropbox activo en la estructura. Google Drive pendiente (misma estructura, fase 2).
+Estado: Dropbox y Google Drive activos con la misma estructura (Drive reorganizado el 4 nov 2026: 114 elementos sueltos en la raíz pasaron a 14 carpetas).
 
 ## Bandejas que vacía
 1. `/Mi Mac (MacBook-Air-de-Sandra.local)/Downloads` (Descargas del Mac sincronizada con Dropbox)
@@ -43,3 +43,10 @@ Estado: Dropbox activo en la estructura. Google Drive pendiente (misma estructur
 - Nunca se borra nada. VigIA propone y Sandra autoriza; recién ahí se envía a la papelera.
 - No se tocan: respaldo `Mi Mac` (salvo Downloads), `Aplicaciones`, `Vault`, `Caude Code`, `mi-negocio`.
 - Lo dudoso va a `00-ENTRADA/Por revisar` con una pregunta concreta en el informe.
+
+## Google Drive
+- Bandejas: raíz de "Mi unidad" y `00-ENTRADA` (sin contar `Por revisar`).
+- Misma estructura: 1-IAM™, 2-Contenido (LinkedIn, Investigaciones), 3-Clientes (una carpeta por cliente y `3. Pipeline`), 4-Personal (Familia, Francesco, Identidad, Legal, CV), 5-Formación, 9-Archivo.
+- Los documentos creados desde Gemini, que quedan con el prompt como nombre, se abren y se renombran.
+- No se tocan las carpetas de aplicaciones: Colab Notebooks, Google Meet, Opal, Gemini Gems, Google AI Studio, Saved from Chrome.
+- Denny Delgado es cliente: va a `3-Clientes/Denny Delgado` en las dos nubes.
