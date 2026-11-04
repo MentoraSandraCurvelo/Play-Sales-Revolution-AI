@@ -14,6 +14,13 @@ Sandra no quiere hacer tareas manuales. Antes de pedirle que suba, descargue, co
 - **LinkedIn (API conectada):** solo ve el perfil personal de Sandra. No da acceso de administradora a páginas de compañía ni a perfiles de terceros. Para Analytics de páginas y perfiles de embajadores: Claude in Chrome desde el computador de Sandra.
 - **Claude in Chrome:** solo funciona desde el computador de Sandra con la extensión conectada; no desde sesiones en la nube.
 
+## Fotos de Sandra (uso libre, se pueden editar con IA)
+
+- Dropbox `/Fotos Profesionales` (212 archivos, alta resolución). Favorita para presentaciones ejecutivas: `Foto Red Conference.png` (blazer rojo).
+- Dropbox `/1-IAM™/Fotos Marca Profesional` y `/2-Contenido/Marketing Jurgen` (carpeta de Jürgen).
+- Carpeta de Jesús y más fotos en Google Drive.
+- Foto de perfil de LinkedIn vía API (solo 400 × 400).
+
 ## Cómo responder
 
 - Español de Colombia. Sin guiones para separar ideas: usar comas.
