@@ -1,0 +1,87 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Inter Black,88,&H00FFFFFF,&H00FFFFFF,&H00141414,&H80000000,1,0,0,0,100,100,2,0,1,7,3,2,70,70,420,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:01.24,Sub,,0,0,0,,¿Sigues  utilizando  la
+Dialogue: 0,0:00:01.24,0:00:03.22,Sub,,0,0,0,,inteligencia  artificial  para
+Dialogue: 0,0:00:03.22,0:00:04.67,Sub,,0,0,0,,escribir  textos?
+Dialogue: 0,0:00:04.67,0:00:05.97,Sub,,0,0,0,,Eso  es  inteligencia
+Dialogue: 0,0:00:05.97,0:00:07.45,Sub,,0,0,0,,artificial  {\c&H20B0FF&}generativa{\c&HFFFFFF&}  y
+Dialogue: 0,0:00:07.45,0:00:07.91,Sub,,0,0,0,,lo  que  está
+Dialogue: 0,0:00:07.91,0:00:08.83,Sub,,0,0,0,,revolucionando  a  las
+Dialogue: 0,0:00:08.83,0:00:10.23,Sub,,0,0,0,,organizaciones  es  la
+Dialogue: 0,0:00:10.23,0:00:12.96,Sub,,0,0,0,,inteligencia  artificial  {\c&H2D2DFF&}agéntica.{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.96,0:00:13.98,Sub,,0,0,0,,La  {\c&H20B0FF&}generativa{\c&HFFFFFF&}  te
+Dialogue: 0,0:00:13.98,0:00:14.92,Sub,,0,0,0,,responde  cuando  le
+Dialogue: 0,0:00:14.92,0:00:15.80,Sub,,0,0,0,,preguntas  y  la
+Dialogue: 0,0:00:15.80,0:00:17.12,Sub,,0,0,0,,{\c&H2D2DFF&}agéntica{\c&HFFFFFF&}  {\c&H20B0FF&}trabaja{\c&HFFFFFF&}  por
+Dialogue: 0,0:00:17.12,0:00:17.46,Sub,,0,0,0,,ti.
+Dialogue: 0,0:00:17.46,0:00:18.14,Sub,,0,0,0,,revisa,
+Dialogue: 0,0:00:18.14,0:00:19.18,Sub,,0,0,0,,decide  el  siguiente
+Dialogue: 0,0:00:19.18,0:00:20.06,Sub,,0,0,0,,paso  y  todo
+Dialogue: 0,0:00:20.06,0:00:21.09,Sub,,0,0,0,,lo  deja  listo.
+Dialogue: 0,0:00:21.09,0:00:21.31,Sub,,0,0,0,,Yo,
+Dialogue: 0,0:00:21.31,0:00:21.87,Sub,,0,0,0,,por  ejemplo,
+Dialogue: 0,0:00:21.87,0:00:22.67,Sub,,0,0,0,,tengo  un  {\c&H2D2DFF&}agente{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.67,0:00:23.29,Sub,,0,0,0,,que  arma  las
+Dialogue: 0,0:00:23.29,0:00:24.07,Sub,,0,0,0,,actas  de  todas
+Dialogue: 0,0:00:24.07,0:00:24.79,Sub,,0,0,0,,mis  reuniones.
+Dialogue: 0,0:00:24.79,0:00:25.53,Sub,,0,0,0,,Tengo  otro  que
+Dialogue: 0,0:00:25.53,0:00:26.57,Sub,,0,0,0,,publica  en  Instagram,
+Dialogue: 0,0:00:26.57,0:00:27.25,Sub,,0,0,0,,tengo  otro  que
+Dialogue: 0,0:00:27.25,0:00:28.93,Sub,,0,0,0,,publica  en  LinkedIn.
+Dialogue: 0,0:00:28.93,0:00:30.05,Sub,,0,0,0,,Tengo  una  oficina
+Dialogue: 0,0:00:30.05,0:00:30.85,Sub,,0,0,0,,armada  donde  hay
+Dialogue: 0,0:00:30.85,0:00:31.59,Sub,,0,0,0,,un  director  de
+Dialogue: 0,0:00:31.59,0:00:32.03,Sub,,0,0,0,,compras,
+Dialogue: 0,0:00:32.03,0:00:32.71,Sub,,0,0,0,,un  director  de
+Dialogue: 0,0:00:32.71,0:00:33.25,Sub,,0,0,0,,finanzas,
+Dialogue: 0,0:00:33.25,0:00:33.93,Sub,,0,0,0,,un  director  de
+Dialogue: 0,0:00:33.93,0:00:34.51,Sub,,0,0,0,,ventas.
+Dialogue: 0,0:00:34.51,0:00:35.41,Sub,,0,0,0,,¿cómo  crear  tu
+Dialogue: 0,0:00:35.41,0:00:36.45,Sub,,0,0,0,,primer  {\c&H2D2DFF&}agente?{\c&HFFFFFF&}
+Dialogue: 0,0:00:36.45,0:00:37.35,Sub,,0,0,0,,Son  {\c&H2D2DFF&}solo{\c&HFFFFFF&}  {\c&H20B0FF&}tres{\c&HFFFFFF&}
+Dialogue: 0,0:00:37.35,0:00:37.90,Sub,,0,0,0,,pasos.
+Dialogue: 0,0:00:37.90,0:00:38.38,Sub,,0,0,0,,{\c&H20B0FF&}Uno,{\c&HFFFFFF&}
+Dialogue: 0,0:00:38.38,0:00:39.24,Sub,,0,0,0,,dale  el  {\c&H20B0FF&}método{\c&HFFFFFF&}
+Dialogue: 0,0:00:39.24,0:00:39.82,Sub,,0,0,0,,{\c&H2D2DFF&}CREA,{\c&HFFFFFF&}
+Dialogue: 0,0:00:39.82,0:00:40.77,Sub,,0,0,0,,contexto,
+Dialogue: 0,0:00:40.80,0:00:41.90,Sub,,0,0,0,,rol  que  quieres
+Dialogue: 0,0:00:41.90,0:00:42.89,Sub,,0,0,0,,que  te  entregue
+Dialogue: 0,0:00:42.96,0:00:43.80,Sub,,0,0,0,,y  la  acción.
+Dialogue: 0,0:00:43.80,0:00:44.22,Sub,,0,0,0,,{\c&H20B0FF&}Dos,{\c&HFFFFFF&}
+Dialogue: 0,0:00:44.22,0:00:45.14,Sub,,0,0,0,,conéctalos  con  tus
+Dialogue: 0,0:00:45.14,0:00:46.42,Sub,,0,0,0,,{\c&H20B0FF&}herramientas{\c&HFFFFFF&}  de  trabajo.
+Dialogue: 0,0:00:46.42,0:00:47.22,Sub,,0,0,0,,Lo  puedes  conectar
+Dialogue: 0,0:00:47.22,0:00:48.55,Sub,,0,0,0,,con  redes  sociales,
+Dialogue: 0,0:00:48.76,0:00:50.50,Sub,,0,0,0,,con  tu  calendario,
+Dialogue: 0,0:00:50.50,0:00:51.49,Sub,,0,0,0,,con  tu  correo,
+Dialogue: 0,0:00:51.49,0:00:52.36,Sub,,0,0,0,,Y  {\c&H20B0FF&}tres,{\c&HFFFFFF&}
+Dialogue: 0,0:00:52.49,0:00:53.77,Sub,,0,0,0,,dale  un  {\c&H20B0FF&}sistema{\c&HFFFFFF&}
+Dialogue: 0,0:00:53.77,0:00:54.29,Sub,,0,0,0,,de  trabajo,
+Dialogue: 0,0:00:54.29,0:00:54.79,Sub,,0,0,0,,es  decir,
+Dialogue: 0,0:00:54.79,0:00:55.77,Sub,,0,0,0,,un  circuito  que
+Dialogue: 0,0:00:55.77,0:00:57.13,Sub,,0,0,0,,vaya  corriendo  y
+Dialogue: 0,0:00:57.13,0:00:57.75,Sub,,0,0,0,,él  te  arma
+Dialogue: 0,0:00:57.75,0:00:58.67,Sub,,0,0,0,,la  rutina  y
+Dialogue: 0,0:00:58.67,0:00:59.53,Sub,,0,0,0,,{\c&H20B0FF&}trabaja{\c&HFFFFFF&}  por  sí
+Dialogue: 0,0:00:59.53,0:00:59.83,Sub,,0,0,0,,{\c&H2D2DFF&}solo.{\c&HFFFFFF&}
+Dialogue: 0,0:00:59.83,0:01:00.53,Sub,,0,0,0,,Es  más,
+Dialogue: 0,0:01:00.53,0:01:02.00,Sub,,0,0,0,,te  propone  soluciones.
+Dialogue: 0,0:01:02.00,0:01:03.20,Sub,,0,0,0,,Y  tú  {\c&H2D2DFF&}solo{\c&HFFFFFF&}
+Dialogue: 0,0:01:03.20,0:01:03.90,Sub,,0,0,0,,{\c&H2D2DFF&}apruebas.{\c&HFFFFFF&}
+Dialogue: 0,0:01:03.90,0:01:04.49,Sub,,0,0,0,,¿Quieres  armar  tu
+Dialogue: 0,0:01:04.49,0:01:05.53,Sub,,0,0,0,,primer  {\c&H2D2DFF&}agente?{\c&HFFFFFF&}
+Dialogue: 0,0:01:05.53,0:01:06.57,Sub,,0,0,0,,Comenta  la  palabra
+Dialogue: 0,0:01:06.57,0:01:07.39,Sub,,0,0,0,,{\c&H2D2DFF&}AGENTE{\c&HFFFFFF&}  y  te
+Dialogue: 0,0:01:07.39,0:01:08.93,Sub,,0,0,0,,envío  un  {\c&H20B0FF&}tablero,{\c&HFFFFFF&}
+Dialogue: 0,0:01:08.93,0:01:10.25,Sub,,0,0,0,,no  un  {\c&H20B0FF&}PDF,{\c&HFFFFFF&}
+Dialogue: 0,0:01:10.25,0:01:11.05,Sub,,0,0,0,,un  {\c&H20B0FF&}tablero{\c&HFFFFFF&}  en
+Dialogue: 0,0:01:11.05,0:01:11.72,Sub,,0,0,0,,directo
