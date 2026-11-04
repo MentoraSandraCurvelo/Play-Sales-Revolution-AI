@@ -1,0 +1,113 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#000;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
+.s{width:1080px;height:1350px;position:relative;overflow:hidden;color:#e9eef3;
+ background:radial-gradient(900px 600px at 15% 0%,#15263a 0,transparent 60%),radial-gradient(800px 600px at 100% 100%,#2a0b0e 0,transparent 60%),#05070a}
+.mono{font-family:Menlo,"DejaVu Sans Mono",monospace}
+.tape{position:absolute;top:0;left:0;right:0;height:64px;display:flex;align-items:center;gap:34px;padding:0 48px;background:#07090d;border-bottom:1px solid #1c2632;font-size:21px;white-space:nowrap;letter-spacing:.06em;z-index:3}
+.tape b{color:#e9eef3}.up{color:#19e28b}.dn{color:#ff4d5e}.am{color:#ffb020}
+.brand{position:absolute;bottom:44px;left:56px;right:56px;display:flex;align-items:center;justify-content:space-between;font-size:22px;letter-spacing:.14em;color:#808d9a;z-index:3}
+.ring{display:inline-block;width:26px;height:26px;border-radius:50%;border:5px solid #ff2d2d;box-shadow:0 0 18px #ff2d2d;vertical-align:-5px;margin-right:12px}
+.photo{position:absolute;inset:0;background-size:cover;background-position:center top}
+.shadeB{position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,7,10,.25) 0%,rgba(5,7,10,.05) 35%,rgba(5,7,10,.9) 66%,#05070a 100%)}
+.eye{font-size:24px;letter-spacing:.24em;color:#ff2d2d;font-weight:800}
+h1{font-family:Georgia,"Times New Roman",serif;font-weight:400;line-height:1.04;letter-spacing:-.01em}
+h1 em{font-style:normal;background:linear-gradient(90deg,#ff2d2d,#ffb020);-webkit-background-clip:text;background-clip:text;color:transparent}
+.pad{position:absolute;left:72px;right:72px;z-index:2}
+.body{font-size:38px;line-height:1.4;color:#c4cfda}
+.body b{color:#fff}
+.swipe{position:absolute;right:56px;bottom:112px;font-size:26px;letter-spacing:.2em;color:#ffb020;z-index:3}
+.pager{color:#ffb020}
+.badge{display:inline-flex;align-items:center;gap:14px;font-size:24px;letter-spacing:.16em;color:#ffb020;border:2px solid #ffb020;border-radius:999px;padding:10px 22px}
+.term{margin-top:40px;background:#0a0f15;border:1px solid #2a3a4c;border-radius:22px;overflow:hidden;box-shadow:0 30px 60px rgba(0,0,0,.5)}
+.term-h{display:flex;align-items:center;gap:12px;padding:16px 24px;background:#111923;border-bottom:1px solid #2a3a4c;font-size:20px;letter-spacing:.14em;color:#808d9a}
+.term-h i{width:14px;height:14px;border-radius:50%;display:inline-block}
+.term-h span{margin-left:auto;color:#19e28b}
+.term-b{padding:30px 34px;font-size:31px;line-height:1.5;color:#e9eef3}
+.term-b .p{color:#ff2d2d;font-weight:700}
+.term-b mark{background:none;color:#ffb020}
+.why{margin-top:34px;font-size:30px;line-height:1.45;color:#9aa6b2}
+.why b{color:#fff}
+.cta{display:inline-block;margin-top:34px;padding:22px 34px;border-radius:999px;background:linear-gradient(90deg,#c00000,#7a0f16);border:2px solid #ff2d2d;font-size:34px;font-weight:800;letter-spacing:.08em;color:#fff}
+.num{font-size:150px;font-weight:700;color:#ff2d2d;line-height:.8;position:absolute;right:72px;top:150px;opacity:.18}
+
+.lt{color:#14181d}
+.lt.w{background:#fbfaf7}.lt.b{background:linear-gradient(160deg,#f3ece2,#e9dfd1)}.lt.g{background:linear-gradient(160deg,#eef0f3,#e2e5ea)}
+.lt .tape{background:#14181d;border-bottom:none}
+.lt h1{color:#14181d}
+.lt h1 em{background:linear-gradient(90deg,#d10f0f,#e08a00);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lt .eye{color:#d10f0f}
+.lt .body{color:#4a535d}.lt .body b{color:#14181d}
+.lt .why{color:#5a636d}.lt .why b{color:#14181d}
+.lt .brand{color:#5a636d}.lt .pager{color:#c77a00}
+.lt .num{opacity:.12;color:#d10f0f}
+.lt .term{box-shadow:0 30px 60px rgba(20,24,29,.25)}
+</style></head><body>
+
+<!-- 1 PORTADA -->
+<section class="s" id="s1">
+  <div class="photo" style="background-image:url('p1.png')"></div><div class="shadeB"></div>
+  <div class="tape mono"><span><b>PROMPTS</b> <span class="up">▲ 3 LISTOS</span></span><span><b>LINKEDIN</b> <span class="up">▲ ACTIVO</span></span><span><b>GUÁRDALO</b> <span class="am">● 📌</span></span></div>
+  <div class="pad" style="bottom:170px"><span class="badge mono">⭕ IA SIN RODEOS · TIP</span>
+    <h1 style="margin-top:26px;font-size:92px">3 cosas que le pido a Claude para mi LinkedIn.<br><em>Cópialas.</em></h1></div>
+  <div class="swipe mono">DESLIZA →</div>
+  <div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">1/6</span></div>
+</section>
+
+<!-- 2 PROMPT 1 -->
+<section class="s lt w" id="s2">
+  <div class="tape mono"><span><b>TAREA 01</b> <span class="up">▲ PUBLICAR</span></span><span><b>TIEMPO</b> <span class="up">▲ AHORRADO</span></span></div>
+  <div class="num mono">01</div>
+  <div class="pad" style="top:150px"><p class="eye mono">PARA PUBLICAR</p>
+    <h1 style="font-size:76px;margin-top:20px">Prepara mi<br><em>publicación.</em></h1>
+    <div class="term mono"><div class="term-h"><i style="background:#ff4d5e"></i><i style="background:#ffb020"></i><i style="background:#19e28b"></i>CLAUDE<span>● COPIA ESTO</span></div>
+      <div class="term-b"><span class="p">›</span> Escribe una publicación de LinkedIn sobre <mark>[tu tema]</mark>, con mi voz. Primera línea que enganche, una sola idea, un dato y cierre con una pregunta. Corta y sin palabras de relleno.</div></div>
+    <p class="why"><b>Por qué funciona:</b> le dices exactamente la estructura. No le pides "un post", le pides <b>tu</b> post.</p></div>
+  <div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">2/6</span></div>
+</section>
+
+<!-- 3 PROMPT 2 -->
+<section class="s lt b" id="s3">
+  <div class="tape mono"><span><b>TAREA 02</b> <span class="up">▲ COMENTAR</span></span><span><b>"EXCELENTE POST"</b> <span class="dn">▼ PROHIBIDO</span></span></div>
+  <div class="num mono">02</div>
+  <div class="pad" style="top:150px"><p class="eye mono">PARA COMENTAR</p>
+    <h1 style="font-size:76px;margin-top:20px">Redacta mi<br><em>comentario.</em></h1>
+    <div class="term mono"><div class="term-h"><i style="background:#ff4d5e"></i><i style="background:#ffb020"></i><i style="background:#19e28b"></i>CLAUDE<span>● COPIA ESTO</span></div>
+      <div class="term-b"><span class="p">›</span> Lee esta publicación y propón 3 comentarios que aporten una idea nueva o una experiencia mía. Máximo 3 líneas cada uno. Nada de "excelente post".<br><mark>[pega la publicación]</mark></div></div>
+    <p class="why"><b>Por qué funciona:</b> un buen comentario en el post de otro te pone frente a <b>su</b> audiencia.</p></div>
+  <div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">3/6</span></div>
+</section>
+
+<!-- 4 PROMPT 3 -->
+<section class="s lt g" id="s4">
+  <div class="tape mono"><span><b>TAREA 03</b> <span class="up">▲ RESPONDER</span></span><span><b>OPORTUNIDADES</b> <span class="am">● A LA VISTA</span></span></div>
+  <div class="num mono">03</div>
+  <div class="pad" style="top:150px"><p class="eye mono">PARA NO PERDER CLIENTES</p>
+    <h1 style="font-size:76px;margin-top:20px">Revisa quién<br><em>me respondió.</em></h1>
+    <div class="term mono"><div class="term-h"><i style="background:#ff4d5e"></i><i style="background:#ffb020"></i><i style="background:#19e28b"></i>CLAUDE<span>● COPIA ESTO</span></div>
+      <div class="term-b"><span class="p">›</span> Estos son los comentarios de mi última publicación. Dime quién mostró interés en trabajar conmigo, qué preguntó y propón una respuesta para cada uno.<br><mark>[pega los comentarios]</mark></div></div>
+    <p class="why"><b>Por qué funciona:</b> en los comentarios hay prospectos. <b>El que no responde, los pierde.</b></p></div>
+  <div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">4/6</span></div>
+</section>
+
+<!-- 5 REGLA -->
+<section class="s" id="s5">
+  <div class="photo" style="background-image:url('p2.jpg');background-position:center 20%"></div><div class="shadeB"></div>
+  <div class="tape mono"><span><b>REGLA DE ORO</b> <span class="am">● TÚ APRUEBAS</span></span></div>
+  <div class="pad" style="bottom:170px"><p class="eye mono">LA REGLA DE ORO</p>
+    <h1 style="font-size:84px;margin-top:22px">Claude propone.<br><em>Tú decides.</em></h1>
+    <p class="body" style="margin-top:28px">Léelo, ajústalo y ponle tu historia. <b>Lo que sale a tu nombre lleva tu criterio.</b></p></div>
+  <div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">5/6</span></div>
+</section>
+
+<!-- 6 CTA -->
+<section class="s lt w" id="s6">
+  <div class="tape mono"><span><b>TU TURNO</b> <span class="am">● GUARDA Y COMENTA</span></span></div>
+  <div class="pad" style="top:250px"><p class="eye mono">TU TURNO</p>
+    <h1 style="font-size:88px;margin-top:22px">¿Cuál vas a probar <em>primero?</em></h1>
+    <p class="body" style="margin-top:40px">📌 <b>Guárdalo</b> para tenerlo a mano.<br>Y cuéntame en los comentarios: 1, 2 o 3.</p>
+    <span class="cta mono">COMENTA "CLAUDE" 👇</span>
+    <p class="body" style="margin-top:26px;font-size:32px">y te envío más prompts para tu LinkedIn.</p></div>
+  <div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">6/6</span></div>
+</section>
+</body></html>
