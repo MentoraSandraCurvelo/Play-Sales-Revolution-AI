@@ -8,6 +8,7 @@ en el HTML: todos entran desde el módulo de datos, para que el jueves a las 4 s
 actualice una constante y se regenere la presentación completa.
 """
 import json
+import re
 from pathlib import Path
 import datos_presentacion as D
 
@@ -406,21 +407,33 @@ s13 = slide("indicaciones", "Cómo presenta cada área", f"""
     <b>lo que no está documentado no se presenta.</b> El tablero del área es de donde sale
     lo que se puede mostrar.</p>""")
 
-# ───────────────────────── 14 · las dieciocho islas ─────────────────────────
+# ──────────────── 14 · las dieciocho islas ────────────────
 
-islas = "".join(
-    f'<span class="isla rv" style="--d:{.03 * i}s">{INI.get(a, a[:2].upper())}'
-    f'<em>{a}</em></span>' for i, a in enumerate(d["orden"]))
+HECHOS = [
+    ("Cada área con lo suyo",
+     "Su proceso, su archivo y su tablero alimentado a mano, cada semana, por una persona."),
+    ("Si no estás en la red, no trabajas",
+     "La información vive en servidores locales y en carpetas de cada equipo."),
+    ("El puesto fijo amarra",
+     "Equipos de escritorio para una forma de trabajo que ya no es de escritorio."),
+]
+hechos = "".join(
+    f'<div class="col hecho rv" style="--d:{.15 + i * .18}s">'
+    f'<h3>{t}</h3><p class="hair">{desc}</p></div>'
+    for i, (t, desc) in enumerate(HECHOS))
 
 s14 = slide("islas", "Dieciocho islas", f"""
   <p class="eb">Bloque 03 · lo que viene</p>
   <h2>Dieciocho islas que no se hablan</h2>
-  <p class="lede">Cada área construyó lo suyo y le funciona. <b>Ningún tablero lee de otro,
-    ni de un sistema de la Caja.</b> Lo que viene no es enseñar: es conectar.</p>
-  <div class="islas">{islas}</div>
-  <p class="note rv" style="--d:.8s">Hoy alguien copia los datos a mano de un sistema a un tablero,
-    cada semana, en {len([a for a in D.HORAS if D.HORAS[a] > 0])} áreas distintas.
-    <b>Eso es trabajo que se recupera dos veces.</b></p>""", oscura=False)
+  <div class="row" style="gap:48px;flex:1;min-height:0;align-items:center">
+    <div class="f1" style="min-width:0"><svg id="mapa-islas" viewBox="0 0 1020 600" role="img"
+      aria-label="Las dieciocho áreas, cada una aislada de las demás"></svg></div>
+    <div class="col" style="width:520px;gap:20px">{hechos}
+      <p class="note">Entre una isla y otra <b>no hay una sola línea.</b> Ese es el punto,
+        y es lo único que la primera fase no podía resolver sola.</p>
+    </div>
+  </div>""", oscura=False,
+            pie="El tamaño de cada isla es el índice de inteligencia empresarial del área · ninguna está conectada a otra")
 
 # ──────────────── 15 · la fase 2, enunciada y no vendida ────────────────
 
@@ -608,6 +621,10 @@ td.st{color:var(--red)!important;font-weight:800} .dk td.st{color:var(--red-hi)!
 .lt .open,.lt .frente{background:var(--card);border-top:4px solid var(--red)}
 .num2{font-family:var(--f-h);font-weight:800;font-size:34px;color:var(--red)}
 .dk .num2{color:var(--red-hi)}
+.hecho{padding:20px 24px;gap:7px}
+.dk .hecho{background:var(--ink-2);border-left:4px solid var(--red-hi)}
+.lt .hecho{background:var(--card);border-left:4px solid var(--red)}
+.hecho h3{font-size:25px}
 .enun{padding:30px 34px;gap:18px}
 .dk .enun{background:var(--ink-2);border-top:5px solid var(--red-hi)}
 .lt .enun{background:var(--card);border-top:5px solid var(--red)}
@@ -705,7 +722,7 @@ function ir(n){
   cuenta(s);
   if(s.id==='indice-3d')arranca3d();else detiene3d();
   if(s.id==='confianza')dibujaConf();
-  if(s.id==='antes-hoy')dibujaAcum();
+  if(s.id==='antes-hoy')dibujaAcum();\n  if(s.id==='islas')dibujaIslas();
   try{location.hash=s.id}catch(e){}
 }
 document.getElementById('prev').onclick=()=>ir(cur-1);
@@ -837,6 +854,35 @@ function arranca3d(){
 }
 function detiene3d(){ if(raf){cancelAnimationFrame(raf);raf=0;} }
 
+/* ── las dieciocho islas ──
+   Cada área es una isla con lo suyo alrededor. Lo que cuenta aquí es lo que no
+   se dibuja: no hay una sola línea entre dos islas. */
+function dibujaIslas(){
+  const sv=document.getElementById('mapa-islas');
+  if(sv.dataset.ok)return;sv.dataset.ok='1';
+  const W=1020,H=600,NX=6,NY=Math.ceil(DATA.length/6);
+  const cw=W/NX, ch=(H-40)/NY;
+  /* desorden fijo, para que parezcan islas y no una rejilla, pero siempre igual */
+  const jit=i=>{const a=Math.sin(i*12.9898)*43758.5453; return a-Math.floor(a);};
+  let o='';
+  DATA.forEach((x,i)=>{
+    const cx=(i%NX+.5)*cw + (jit(i)-.5)*34;
+    const cy=Math.floor(i/NX)*ch + ch*.55 + (jit(i+99)-.5)*30;
+    const R=16+x.c/100*26;
+    const col=x.c>=70?'#c00000':x.c>=40?'#d44040':x.c>=15?'#b07878':'#9b958c';
+    o+='<circle cx="'+cx+'" cy="'+cy+'" r="'+(R+17)+'" fill="none" stroke="'+col+
+       '" stroke-width="1.4" stroke-dasharray="3 6" opacity=".55"/>';
+    for(let k=0;k<3;k++){
+      const a=(jit(i+k*7)*6.283), rr=R+10;
+      o+='<circle cx="'+(cx+Math.cos(a)*rr)+'" cy="'+(cy+Math.sin(a)*rr)+'" r="3.6" fill="'+col+'" opacity=".75"/>';
+    }
+    o+='<circle cx="'+cx+'" cy="'+cy+'" r="'+R+'" fill="'+col+'"/>'
+      +'<text x="'+cx+'" y="'+(cy+6)+'" fill="#fbfaf8" font-size="'+Math.max(13,R*.62).toFixed(0)+
+       '" font-weight="800" text-anchor="middle" font-family="Montserrat,Arial,sans-serif">'+x.i+'</text>';
+  });
+  sv.innerHTML=o;
+}
+
 /* ── la escalera de las 52 semanas ──
    Cada escalón es una semana que devuelve las mismas horas. La escalera es la
    forma del dato: no es un ahorro de una vez, es uno que se repite. */
@@ -945,6 +991,17 @@ HTML = f"""<title>Cierre IAM™ Intelligence Comfacesar</title>
 
 <script>{js}</script>
 """
+
+# Un id de dibujo que coincida con el de una diapositiva hace que
+# getElementById devuelva la sección y el dibujo le borre el contenido.
+# Pasó con "islas": el SVG y la diapositiva se llamaban igual.
+_ids_slide = set(re.findall(r'<section class="slide[^>]*id="([^"]+)"', HTML))
+_ids_dibujo = set(re.findall(r'<(?:svg|canvas) id="([^"]+)"', HTML))
+_choque = _ids_slide & _ids_dibujo
+assert not _choque, f"id repetido entre diapositiva y dibujo: {_choque}"
+_todos = re.findall(r'\sid="([^"]+)"', HTML)
+_dup = {i for i in _todos if _todos.count(i) > 1}
+assert not _dup, f"ids duplicados en el HTML: {_dup}"
 
 SALIDA.write_text(HTML, encoding="utf-8")
 

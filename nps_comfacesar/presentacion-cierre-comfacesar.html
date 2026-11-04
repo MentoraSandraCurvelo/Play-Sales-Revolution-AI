@@ -132,6 +132,10 @@ td.st{color:var(--red)!important;font-weight:800} .dk td.st{color:var(--red-hi)!
 .lt .open,.lt .frente{background:var(--card);border-top:4px solid var(--red)}
 .num2{font-family:var(--f-h);font-weight:800;font-size:34px;color:var(--red)}
 .dk .num2{color:var(--red-hi)}
+.hecho{padding:20px 24px;gap:7px}
+.dk .hecho{background:var(--ink-2);border-left:4px solid var(--red-hi)}
+.lt .hecho{background:var(--card);border-left:4px solid var(--red)}
+.hecho h3{font-size:25px}
 .enun{padding:30px 34px;gap:18px}
 .dk .enun{background:var(--ink-2);border-top:5px solid var(--red-hi)}
 .lt .enun{background:var(--card);border-top:5px solid var(--red)}
@@ -363,16 +367,18 @@ td.st{color:var(--red)!important;font-weight:800} .dk td.st{color:var(--red-hi)!
     <b>lo que no está documentado no se presenta.</b> El tablero del área es de donde sale
     lo que se puede mostrar.</p>
 </section>
-<section class="slide lt" id="islas" data-t="Dieciocho islas">
+<section class="slide lt" id="islas" data-t="Dieciocho islas" data-ft="El tamaño de cada isla es el índice de inteligencia empresarial del área · ninguna está conectada a otra">
 
   <p class="eb">Bloque 03 · lo que viene</p>
   <h2>Dieciocho islas que no se hablan</h2>
-  <p class="lede">Cada área construyó lo suyo y le funciona. <b>Ningún tablero lee de otro,
-    ni de un sistema de la Caja.</b> Lo que viene no es enseñar: es conectar.</p>
-  <div class="islas"><span class="isla rv" style="--d:0.0s">JU<em>Jurídica</em></span><span class="isla rv" style="--d:0.03s">SS<em>Servicios Sociales</em></span><span class="isla rv" style="--d:0.06s">CM<em>Comunicaciones</em></span><span class="isla rv" style="--d:0.09s">SA<em>Subsidio y Aportes</em></span><span class="isla rv" style="--d:0.12s">SF<em>Sub. Admin y Financiera</em></span><span class="isla rv" style="--d:0.15s">VI<em>Vivienda</em></span><span class="isla rv" style="--d:0.18s">AE<em>Agencia de Empleo</em></span><span class="isla rv" style="--d:0.21s">IPS<em>IPS</em></span><span class="isla rv" style="--d:0.24s">CO<em>Contabilidad</em></span><span class="isla rv" style="--d:0.27s">SO<em>Sub. Operativa</em></span><span class="isla rv" style="--d:0.3s">TE<em>Tecnología</em></span><span class="isla rv" style="--d:0.32999999999999996s">ED<em>Educación</em></span><span class="isla rv" style="--d:0.36s">ME<em>Mercadeo</em></span><span class="isla rv" style="--d:0.39s">TH<em>Talento Humano</em></span><span class="isla rv" style="--d:0.42s">CU<em>Cumplimiento</em></span><span class="isla rv" style="--d:0.44999999999999996s">GF<em>Gerencia Financiera</em></span><span class="isla rv" style="--d:0.48s">PL<em>Planeación</em></span><span class="isla rv" style="--d:0.51s">TS<em>Tesorería</em></span></div>
-  <p class="note rv" style="--d:.8s">Hoy alguien copia los datos a mano de un sistema a un tablero,
-    cada semana, en 11 áreas distintas.
-    <b>Eso es trabajo que se recupera dos veces.</b></p>
+  <div class="row" style="gap:48px;flex:1;min-height:0;align-items:center">
+    <div class="f1" style="min-width:0"><svg id="mapa-islas" viewBox="0 0 1020 600" role="img"
+      aria-label="Las dieciocho áreas, cada una aislada de las demás"></svg></div>
+    <div class="col" style="width:520px;gap:20px"><div class="col hecho rv" style="--d:0.15s"><h3>Cada área con lo suyo</h3><p class="hair">Su proceso, su archivo y su tablero alimentado a mano, cada semana, por una persona.</p></div><div class="col hecho rv" style="--d:0.32999999999999996s"><h3>Si no estás en la red, no trabajas</h3><p class="hair">La información vive en servidores locales y en carpetas de cada equipo.</p></div><div class="col hecho rv" style="--d:0.51s"><h3>El puesto fijo amarra</h3><p class="hair">Equipos de escritorio para una forma de trabajo que ya no es de escritorio.</p></div>
+      <p class="note">Entre una isla y otra <b>no hay una sola línea.</b> Ese es el punto,
+        y es lo único que la primera fase no podía resolver sola.</p>
+    </div>
+  </div>
 </section>
 <section class="slide lt" id="hacia-donde" data-t="Hacia dónde va" data-ft="Enunciado, no propuesta: el alcance, el plazo y la inversión van en el documento de la fase 2, aparte">
 
@@ -454,6 +460,7 @@ function ir(n){
   if(s.id==='indice-3d')arranca3d();else detiene3d();
   if(s.id==='confianza')dibujaConf();
   if(s.id==='antes-hoy')dibujaAcum();
+  if(s.id==='islas')dibujaIslas();
   try{location.hash=s.id}catch(e){}
 }
 document.getElementById('prev').onclick=()=>ir(cur-1);
@@ -584,6 +591,35 @@ function arranca3d(){
   if(!raf) lazo();
 }
 function detiene3d(){ if(raf){cancelAnimationFrame(raf);raf=0;} }
+
+/* ── las dieciocho islas ──
+   Cada área es una isla con lo suyo alrededor. Lo que cuenta aquí es lo que no
+   se dibuja: no hay una sola línea entre dos islas. */
+function dibujaIslas(){
+  const sv=document.getElementById('mapa-islas');
+  if(sv.dataset.ok)return;sv.dataset.ok='1';
+  const W=1020,H=600,NX=6,NY=Math.ceil(DATA.length/6);
+  const cw=W/NX, ch=(H-40)/NY;
+  /* desorden fijo, para que parezcan islas y no una rejilla, pero siempre igual */
+  const jit=i=>{const a=Math.sin(i*12.9898)*43758.5453; return a-Math.floor(a);};
+  let o='';
+  DATA.forEach((x,i)=>{
+    const cx=(i%NX+.5)*cw + (jit(i)-.5)*34;
+    const cy=Math.floor(i/NX)*ch + ch*.55 + (jit(i+99)-.5)*30;
+    const R=16+x.c/100*26;
+    const col=x.c>=70?'#c00000':x.c>=40?'#d44040':x.c>=15?'#b07878':'#9b958c';
+    o+='<circle cx="'+cx+'" cy="'+cy+'" r="'+(R+17)+'" fill="none" stroke="'+col+
+       '" stroke-width="1.4" stroke-dasharray="3 6" opacity=".55"/>';
+    for(let k=0;k<3;k++){
+      const a=(jit(i+k*7)*6.283), rr=R+10;
+      o+='<circle cx="'+(cx+Math.cos(a)*rr)+'" cy="'+(cy+Math.sin(a)*rr)+'" r="3.6" fill="'+col+'" opacity=".75"/>';
+    }
+    o+='<circle cx="'+cx+'" cy="'+cy+'" r="'+R+'" fill="'+col+'"/>'
+      +'<text x="'+cx+'" y="'+(cy+6)+'" fill="#fbfaf8" font-size="'+Math.max(13,R*.62).toFixed(0)+
+       '" font-weight="800" text-anchor="middle" font-family="Montserrat,Arial,sans-serif">'+x.i+'</text>';
+  });
+  sv.innerHTML=o;
+}
 
 /* ── la escalera de las 52 semanas ──
    Cada escalón es una semana que devuelve las mismas horas. La escalera es la
