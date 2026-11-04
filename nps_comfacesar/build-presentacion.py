@@ -426,14 +426,16 @@ s14 = slide("islas", "Dieciocho islas", f"""
   <p class="eb">Bloque 03 · lo que viene</p>
   <h2>Dieciocho islas que no se hablan</h2>
   <div class="row" style="gap:48px;flex:1;min-height:0;align-items:center">
-    <div class="f1" style="min-width:0"><svg id="mapa-islas" viewBox="0 0 1020 600" role="img"
-      aria-label="Las dieciocho áreas, cada una aislada de las demás"></svg></div>
+    <div class="f1 lienzo" style="min-width:0">
+      <canvas id="burbujas" aria-label="Las dieciocho áreas como burbujas sueltas, ninguna conectada"></canvas>
+      <div id="tip-isla" class="tip" hidden></div>
+    </div>
     <div class="col" style="width:520px;gap:20px">{hechos}
       <p class="note">Entre una isla y otra <b>no hay una sola línea.</b> Ese es el punto,
         y es lo único que la primera fase no podía resolver sola.</p>
     </div>
   </div>""", oscura=False,
-            pie="El tamaño de cada isla es el índice de inteligencia empresarial del área · ninguna está conectada a otra")
+            pie="Cada burbuja es un área y su tamaño es el índice · pasa el cursor por una para ver cuál es · ninguna está conectada a otra")
 
 # ──────────────── 15 · la fase 2, enunciada y no vendida ────────────────
 
@@ -621,6 +623,14 @@ td.st{color:var(--red)!important;font-weight:800} .dk td.st{color:var(--red-hi)!
 .lt .open,.lt .frente{background:var(--card);border-top:4px solid var(--red)}
 .num2{font-family:var(--f-h);font-weight:800;font-size:34px;color:var(--red)}
 .dk .num2{color:var(--red-hi)}
+.lienzo{position:relative}
+#burbujas{width:100%;height:600px;display:block;cursor:default}
+.tip{position:absolute;transform:translate(-50%,-100%);pointer-events:none;
+  display:flex;flex-direction:column;gap:3px;padding:12px 18px;white-space:nowrap;
+  background:var(--ink);color:var(--on-d);border-left:4px solid var(--red-hi);
+  box-shadow:0 8px 26px rgba(0,0,0,.22);z-index:4}
+.tip b{font-family:var(--f-h);font-size:25px;font-weight:800}
+.tip span{font-size:20px;color:var(--mute-d)}
 .hecho{padding:20px 24px;gap:7px}
 .dk .hecho{background:var(--ink-2);border-left:4px solid var(--red-hi)}
 .lt .hecho{background:var(--card);border-left:4px solid var(--red)}
@@ -722,7 +732,7 @@ function ir(n){
   cuenta(s);
   if(s.id==='indice-3d')arranca3d();else detiene3d();
   if(s.id==='confianza')dibujaConf();
-  if(s.id==='antes-hoy')dibujaAcum();\n  if(s.id==='islas')dibujaIslas();
+  if(s.id==='antes-hoy')dibujaAcum();\n  if(s.id==='islas')arrancaIslas();else detieneIslas();
   try{location.hash=s.id}catch(e){}
 }
 document.getElementById('prev').onclick=()=>ir(cur-1);
@@ -854,34 +864,82 @@ function arranca3d(){
 }
 function detiene3d(){ if(raf){cancelAnimationFrame(raf);raf=0;} }
 
-/* ── las dieciocho islas ──
-   Cada área es una isla con lo suyo alrededor. Lo que cuenta aquí es lo que no
-   se dibuja: no hay una sola línea entre dos islas. */
-function dibujaIslas(){
-  const sv=document.getElementById('mapa-islas');
-  if(sv.dataset.ok)return;sv.dataset.ok='1';
-  const W=1020,H=600,NX=6,NY=Math.ceil(DATA.length/6);
-  const cw=W/NX, ch=(H-40)/NY;
-  /* desorden fijo, para que parezcan islas y no una rejilla, pero siempre igual */
-  const jit=i=>{const a=Math.sin(i*12.9898)*43758.5453; return a-Math.floor(a);};
-  let o='';
-  DATA.forEach((x,i)=>{
-    const cx=(i%NX+.5)*cw + (jit(i)-.5)*34;
-    const cy=Math.floor(i/NX)*ch + ch*.55 + (jit(i+99)-.5)*30;
-    const R=16+x.c/100*26;
-    const col=x.c>=70?'#c00000':x.c>=40?'#d44040':x.c>=15?'#b07878':'#9b958c';
-    o+='<circle cx="'+cx+'" cy="'+cy+'" r="'+(R+17)+'" fill="none" stroke="'+col+
-       '" stroke-width="1.4" stroke-dasharray="3 6" opacity=".55"/>';
-    for(let k=0;k<3;k++){
-      const a=(jit(i+k*7)*6.283), rr=R+10;
-      o+='<circle cx="'+(cx+Math.cos(a)*rr)+'" cy="'+(cy+Math.sin(a)*rr)+'" r="3.6" fill="'+col+'" opacity=".75"/>';
-    }
-    o+='<circle cx="'+cx+'" cy="'+cy+'" r="'+R+'" fill="'+col+'"/>'
-      +'<text x="'+cx+'" y="'+(cy+6)+'" fill="#fbfaf8" font-size="'+Math.max(13,R*.62).toFixed(0)+
-       '" font-weight="800" text-anchor="middle" font-family="Montserrat,Arial,sans-serif">'+x.i+'</text>';
-  });
-  sv.innerHTML=o;
+/* ── las dieciocho burbujas ──
+   Cada área es una burbuja suelta que flota. Sin siglas encima, porque fuera de
+   contexto no se entienden: el nombre sale al pasar el cursor. Y sin una sola
+   línea entre dos burbujas, que es lo que la diapositiva quiere decir. */
+let bRaf=0, bCv, bCx, bW=1020, bH=600, BURB=[], bTip, bHover=-1;
+
+function tonoIsla(v){
+  if(v>=70) return ['#ff9090','#d01414','#850000'];
+  if(v>=40) return ['#ffa6a6','#e04a4a','#991f1f'];
+  if(v>=15) return ['#e6c2c2','#bb8080','#7d4f4f'];
+  return ['#dcd8d1','#aaa49b','#6f6a63'];
 }
+function initBurbujas(){
+  if(BURB.length) return;
+  bCv=document.getElementById('burbujas'); bTip=document.getElementById('tip-isla');
+  bW=bCv.clientWidth||1020; bH=bCv.clientHeight||600;
+  bCv.width=bW*2; bCv.height=bH*2; bCx=bCv.getContext('2d'); bCx.scale(2,2);
+  const jit=i=>{const a=Math.sin(i*12.9898)*43758.5453; return a-Math.floor(a);};
+  DATA.forEach((x,i)=>{
+    const r=22+x.c/100*36;
+    BURB.push({d:x, r:r, x:r+8+jit(i)*(bW-2*r-16), y:r+8+jit(i+50)*(bH-2*r-16),
+               vx:(jit(i+7)-.5)*.42, vy:(jit(i+13)-.5)*.42, f:jit(i+21)*6.283});
+  });
+  bCv.addEventListener('mousemove',e=>{
+    const rc=bCv.getBoundingClientRect();
+    const mx=(e.clientX-rc.left)*bW/rc.width, my=(e.clientY-rc.top)*bH/rc.height;
+    let h=-1;
+    for(let k=BURB.length-1;k>=0;k--){
+      const b=BURB[k];
+      if(Math.hypot(b.x-mx,b.y-my)<=b.r){h=k;break;}
+    }
+    if(h!==bHover){
+      bHover=h;
+      if(h<0){bTip.hidden=true;}
+      else{
+        const d=BURB[h].d;
+        bTip.innerHTML='<b>'+d.a+'</b><span>'+(d.h?d.h+' h cada semana · ':'')+'índice '+Math.round(d.c)+'</span>';
+        bTip.hidden=false;
+      }
+    }
+    if(bHover>=0){
+      /* el globito no puede salirse del lienzo: se acota a los lados y, si la
+         burbuja está muy arriba, se voltea para abajo */
+      const b=BURB[bHover], k=rc.width/bW;
+      const tw=bTip.offsetWidth||220, th=bTip.offsetHeight||70;
+      const x=Math.min(Math.max(b.x*k, tw/2+6), rc.width-tw/2-6);
+      const arriba=(b.y-b.r)*k-14-th > 0;
+      bTip.style.left=x+'px';
+      bTip.style.top=(arriba ? (b.y-b.r)*k-14 : (b.y+b.r)*k+14+th)+'px';
+    }
+  });
+  bCv.addEventListener('mouseleave',()=>{bHover=-1;bTip.hidden=true;});
+}
+function pintaBurbujas(t){
+  bCx.clearRect(0,0,bW,bH);
+  BURB.forEach((b,i)=>{
+    b.x+=b.vx; b.y+=b.vy;
+    if(b.x<b.r+6||b.x>bW-b.r-6) b.vx*=-1;
+    if(b.y<b.r+6||b.y>bH-b.r-6) b.vy*=-1;
+    const cy=b.y+Math.sin(t/1000+b.f)*3.5;
+    const [hi,mid,lo]=tonoIsla(b.d.c);
+    bCx.beginPath();
+    bCx.ellipse(b.x,cy+b.r*.98,b.r*.74,b.r*.18,0,0,6.283);
+    bCx.fillStyle='rgba(25,22,20,.10)'; bCx.fill();
+    const g=bCx.createRadialGradient(b.x-b.r*.34,cy-b.r*.4,b.r*.08,b.x,cy,b.r);
+    g.addColorStop(0,hi); g.addColorStop(.5,mid); g.addColorStop(1,lo);
+    bCx.beginPath(); bCx.arc(b.x,cy,b.r,0,6.283); bCx.fillStyle=g; bCx.fill();
+    if(i===bHover){bCx.lineWidth=3.5; bCx.strokeStyle='#c00000'; bCx.stroke();}
+    bCx.beginPath();
+    bCx.ellipse(b.x-b.r*.32,cy-b.r*.44,b.r*.25,b.r*.15,-.5,0,6.283);
+    bCx.fillStyle='rgba(255,255,255,.45)'; bCx.fill();
+  });
+}
+function lazoBurbujas(t){ pintaBurbujas(t||0); bRaf=requestAnimationFrame(lazoBurbujas); }
+function arrancaIslas(){ initBurbujas(); if(!bRaf) lazoBurbujas(0); }
+function detieneIslas(){ if(bRaf){cancelAnimationFrame(bRaf); bRaf=0;} }
 
 /* ── la escalera de las 52 semanas ──
    Cada escalón es una semana que devuelve las mismas horas. La escalera es la
