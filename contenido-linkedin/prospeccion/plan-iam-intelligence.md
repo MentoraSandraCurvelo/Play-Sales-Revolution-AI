@@ -7,6 +7,11 @@ Regla 14: Chrome redacta y deja sin enviar; Sandra envía. Máx. 10 a 15 al día
 1. Cajas de compensación familiar. Decisor: Director(a) administrativo(a) / Gerente general. Producto: IAM™ Intelligence (fase 2: IAM™ Ambassadors, narrativa corporativa).
 2. Empresas grandes B2B de cualquier industria. Primer contacto: Gerente general / Presidente / CEO. Segundo contacto (multihilo): Director(a) comercial / VP comercial.
 
+3. Cámaras de Comercio (agregado el 4 nov 2026 por Sandra: un cliente le contó que las cámaras están contratando expertos en IA para formar a empresas afiliadas; dato de un cliente, no verificado). Producto: IAM™ Intelligence como programa de formación para afiliados y para el equipo de la cámara.
+   - Roles, en orden: Presidente(a) ejecutivo(a); Vicepresidente(a) o Director(a) de Desarrollo Empresarial / Competitividad / Innovación / Transformación Digital; Director(a) de Afiliados; Coordinador(a) de Formación o Capacitación Empresarial.
+   - Paso 1: invitación a conectar con nota corta (sin vender). Paso 2: cuando acepte, like o comentario en una publicación suya. Paso 3: mensaje interno con la voz de Sandra (regla 14).
+   - Máximo 15 invitaciones al día a cámaras, dentro del total diario.
+
 ## Cifras permitidas (verificadas y ya aprobadas en posts)
 - Más de 50 personas de 18 áreas en un programa.
 - Más de 800 horas al mes recuperadas y 90% menos tiempo en las tareas medidas.
