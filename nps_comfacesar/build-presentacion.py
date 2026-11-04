@@ -904,6 +904,17 @@ function arranca3d(){
 }
 function detiene3d(){ if(raf){cancelAnimationFrame(raf);raf=0;} }
 
+/* ── un trazo que se dibuja solo ── */
+function traza(el,ms,retardo){
+  if(!el||!el.getTotalLength)return;
+  const L=el.getTotalLength();
+  el.style.strokeDasharray=L; el.style.strokeDashoffset=L;
+  requestAnimationFrame(()=>{
+    el.style.transition='stroke-dashoffset '+ms+'ms cubic-bezier(.3,.8,.2,1) '+(retardo||0)+'ms';
+    el.style.strokeDashoffset=0;
+  });
+}
+
 /* ── las dieciocho burbujas ──
    Cada área es una burbuja suelta que flota. Sin siglas encima, porque fuera de
    contexto no se entienden: el nombre sale al pasar el cursor. Y sin una sola
@@ -1000,7 +1011,7 @@ function dibujaAcum(){
   let d='M '+x(0)+' '+y(0);
   for(let w=1;w<=N;w++) d+=' L '+x(w)+' '+y(H*(w-1))+' L '+x(w)+' '+y(H*w);
   o+='<path d="'+d+' L '+x(N)+' '+B+' L '+x(0)+' '+B+' Z" fill="#ff4a4a" fill-opacity=".15"/>'
-    +'<path d="'+d+'" fill="none" stroke="#ff4a4a" stroke-width="3" stroke-linejoin="round"/>';
+    +'<path class="traza" d="'+d+'" fill="none" stroke="#ff4a4a" stroke-width="3" stroke-linejoin="round"/>';
   [[4.33,'Al mes'],[13,'Al trimestre'],[N,'Al año']].forEach(([w,et])=>{
     const v=H*w, px=x(w), py=y(v);
     o+='<line x1="'+px+'" y1="'+py+'" x2="'+px+'" y2="'+B+'" stroke="#ff4a4a" stroke-width="1" stroke-dasharray="5 5" opacity=".5"/>'
@@ -1014,6 +1025,7 @@ function dibujaAcum(){
   o+='<text x="'+x(0)+'" y="'+(B+32)+'" fill="#7c7871" font-size="20">Semana 1</text>'
     +'<text x="'+R+'" y="'+(B+32)+'" fill="#7c7871" font-size="20" text-anchor="end">Semana 52</text>';
   sv.innerHTML=o;
+  traza(sv.querySelector('.traza'),1900,120);
 }
 
 /* ── confianza: las dos medias, y la distribución real del NPS ──
@@ -1031,7 +1043,7 @@ function dibujaConf(){
     if(g)o+='<text x="'+(L-40)+'" y="'+(esc(v)+7)+'" fill="#76726b" font-size="19" text-anchor="end">'+v+'</text>';
   }
   /* la pendiente de la media */
-  o+='<line x1="'+L+'" y1="'+esc(A)+'" x2="'+R+'" y2="'+esc(Z)+'" stroke="#c00000" stroke-width="7"/>'
+  o+='<line class="traza" x1="'+L+'" y1="'+esc(A)+'" x2="'+R+'" y2="'+esc(Z)+'" stroke="#c00000" stroke-width="7"/>'
     +'<circle cx="'+L+'" cy="'+esc(A)+'" r="15" fill="#8f8a82"/>'
     +'<circle cx="'+R+'" cy="'+esc(Z)+'" r="17" fill="#c00000"/>'
     +'<text x="'+L+'" y="'+(esc(A)+52)+'" fill="#55524c" font-size="23" text-anchor="middle">Antes</text>'
@@ -1052,6 +1064,7 @@ function dibujaConf(){
   o+='<text x="'+L+'" y="'+(BY-16)+'" fill="#55524c" font-size="19">Cómo se repartieron las '+
      tot+' respuestas</text>';
   sv.innerHTML=o;
+  traza(sv.querySelector('.traza'),1200,200);
 }
 
 /* ── arranque y navegación por el hash ── */
