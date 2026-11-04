@@ -121,3 +121,8 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 ## 17. Resultados de encuestas (3 nov 2026, decisión de Sandra)
 
 - Solo se publica un post de resultados si la encuesta tuvo votos suficientes para no quedar mal. Umbral: 30 votos o más (criterio, ajustable por Sandra). Por debajo, no se publica y la promesa se cumple con un comentario dentro de la misma encuesta, aprobado por Sandra.
+
+## 18. Reacciones (4 nov 2026, decisión de Sandra)
+
+- Cada publicación donde Sandra comenta lleva su reacción "Interesante" (Insightful).
+- Sin autolike: Sandra no le da like a sus propios comentarios.
