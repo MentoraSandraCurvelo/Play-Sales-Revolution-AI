@@ -1,0 +1,119 @@
+[
+ {
+  "id": "ep1-1",
+  "ep": "ep1",
+  "orden": 1,
+  "bloque": "Gancho · 0 a 3 segundos",
+  "dice": "¿Todo el mundo en Instagram muestra tableros bonitos con Claude? ¿Sabes qué no te están contando? Que un tablero no es un sistema. Y que Claude no es gratis.",
+  "pantalla": "IA SIN RODEOS · Ep. 1 · Lo que nadie te cuenta de Claude",
+  "nota": ""
+ },
+ {
+  "id": "ep1-2",
+  "ep": "ep1",
+  "orden": 2,
+  "bloque": "El dinero",
+  "dice": "¿Cuánto cuesta de verdad? Para trabajar en serio, entre 20 y 200 dólares al mes por persona, según el plan. Y ojo: Claude funciona como los megas de tu celular. Todo lo que le escribes y todo lo que te responde se mide en tokens. Si tu equipo se gasta el paquete, se queda esperando. Ahora multiplícalo por tu equipo. Si no sabes qué te devuelve, eso es un gasto, no una inversión.",
+  "pantalla": "Entre 20 y 200 dólares al mes por persona · Claude se mide como los megas: en tokens",
+  "nota": "Verificar precios en claude.com/pricing el día de grabar."
+ },
+ {
+  "id": "ep1-3",
+  "ep": "ep1",
+  "orden": 3,
+  "bloque": "El sistema",
+  "dice": "¿Y entonces qué es lo que sí sirve? El sistema. Un proyecto es una carpeta con contexto donde tú le preguntas. Un agente trabaja solo. Yo tengo una agente que arma las actas de todas las reuniones del día y las deja listas a las 8 de la mañana. Las habilidades le enseñan a trabajar como trabaja tu empresa, y los plugins lo conectan a tu correo, tu Drive y tu Slack. Eso no es un chat. Es un equipo.",
+  "pantalla": "Proyecto: tú preguntas · Agente: trabaja solo · Habilidades: trabaja como tu empresa · Plugins: se conecta a tus herramientas",
+  "nota": "Sandra lo cuenta con los dedos: 1, 2, 3, 4."
+ },
+ {
+  "id": "ep1-4",
+  "ep": "ep1",
+  "orden": 4,
+  "bloque": "Lo que gana una empresa",
+  "dice": "¿Y cuánto gana una empresa con eso? En una caja de compensación muy grande en Colombia: 140 horas cada semana. 255 millones de pesos al año. Y lo mido con mi Índice de Inteligencia Artificial Empresarial, el IAE. Casi nadie está midiendo esto. Y lo que no se mide no se puede mejorar.",
+  "pantalla": "140 horas por semana · $255 millones al año · IAE™",
+  "nota": "El cliente no se nombra. Cifras sin decimales."
+ },
+ {
+  "id": "ep1-5",
+  "ep": "ep1",
+  "orden": 5,
+  "bloque": "Cierre · los 6 índices",
+  "dice": "¿Por qué una empresa debería trabajar con Claude? Te doy 6 índices. Horas: menos horas perdidas en tareas repetitivas. Personas: el mismo equipo hace más, sin tener que contratar. Dinero: menos costo operativo cada mes. Tiempo: lo que tomaba días sale en minutos. Facilidad: tu equipo no tiene que ser experto en tecnología para usarlo. Decisiones: información lista para decidir hoy, no la próxima semana. Cada empresa tiene su propio número. Y tu competencia ya lo está midiendo. ¿Y tú? Comenta CLAUDE y te envío más información.",
+  "pantalla": "⏱ HORAS · 👥 PERSONAS · 💰 DINERO · ⚡ TIEMPO · 🤝 FACILIDAD · 🎯 DECISIONES · Tu competencia ya lo está midiendo. ¿Y tú? · Comenta CLAUDE",
+  "nota": "Un dedo por cada índice, ritmo rápido, mirando a cámara."
+ },
+ {
+  "id": "ep1-6",
+  "ep": "ep1",
+  "orden": 6,
+  "bloque": "Texto de la publicación",
+  "dice": "Claude no es gratis. Y un tablero bonito no es un sistema. 👇 Lo que nadie te cuenta: ⭕ Cuesta entre 20 y 200 dólares al mes por persona ⭕ Un proyecto no es lo mismo que un agente ⭕ Habilidades y plugins son los que convierten un chat en un equipo ⭕ En una caja de compensación muy grande en Colombia: 140 horas recuperadas cada semana. Yo lo mido con el IAE™, Índice de Inteligencia Artificial Empresarial. Comenta CLAUDE y te envío más información.",
+  "pantalla": "#IASinRodeos #Claude #InteligenciaArtificial #IAEmpresarial #Productividad #Agentes #Liderazgo #Colombia",
+  "nota": ""
+ },
+ {
+  "id": "ep2-1",
+  "ep": "ep2",
+  "orden": 1,
+  "bloque": "Gancho",
+  "dice": "¿Tu equipo ya usa IA? ¿Le mete un documento y le pide un resumen? Entonces no usa IA. Usa un atajo.",
+  "pantalla": "IA SIN RODEOS · Ep. 2 · Estás usando la IA mal",
+  "nota": ""
+ },
+ {
+  "id": "ep2-2",
+  "ep": "ep2",
+  "orden": 2,
+  "bloque": "El humo",
+  "dice": "¿Y esas empresas con tableros espectaculares? Pregúntales cómo es el proceso detrás. No saben. Y si tu proceso está roto, la IA no lo arregla. Lo amplifica.",
+  "pantalla": "Si tu proceso está roto, la IA no lo arregla. Lo amplifica.",
+  "nota": ""
+ },
+ {
+  "id": "ep2-3",
+  "ep": "ep2",
+  "orden": 3,
+  "bloque": "El índice",
+  "dice": "¿Cómo sabes si estás vendiendo humo? Midiendo. Por eso creé el IAE: no mide licencias, mide lo que la IA te devuelve. Si no se mide, no es un sistema. Es un juguete.",
+  "pantalla": "IAE™ · Si no se mide, es un juguete.",
+  "nota": "Frase fuerte: despacio, con pausa corta después."
+ },
+ {
+  "id": "ep2-4",
+  "ep": "ep2",
+  "orden": 4,
+  "bloque": "¿Y qué hago con las horas?",
+  "dice": "¿Recuperaste las horas? ¿Y ahora qué haces con ellas? Si no decides en qué se invierten, se pierden en reuniones. Yo diseño con cada área en qué se van a usar, para que se vean donde importa: en el dinero que gana la empresa.",
+  "pantalla": "Horas que no se planean, se pierden en reuniones.",
+  "nota": ""
+ },
+ {
+  "id": "ep2-5",
+  "ep": "ep2",
+  "orden": 5,
+  "bloque": "En lo público · imágenes del tablero",
+  "dice": "¿Y en el sector público? Ahí cada hora liberada es una hora más de atención al ciudadano. Así funciona un tablero para una alcaldía: cada área lo alimenta, y el ciudadano ve en tiempo real cómo avanza cada proyecto.",
+  "pantalla": "Cada hora liberada, una hora más para el ciudadano · (pequeño) Datos ilustrativos",
+  "nota": "Voz en off sobre 6 a 8 segundos del tablero. No decir nombre, ciudad ni país. Tapar el encabezado del tablero antes de grabar."
+ },
+ {
+  "id": "ep2-6",
+  "ep": "ep2",
+  "orden": 6,
+  "bloque": "Cierre · anuncio del Ep. 3",
+  "dice": "¿Y después qué viene? Conectar todos los tableros de la organización. Eso se llama hiperconectividad. Y te lo cuento en el próximo episodio.",
+  "pantalla": "Próximo: HIPERCONECTIVIDAD · Comenta CLAUDE",
+  "nota": "Mirando a cámara, bajando un poco la voz en \"hiperconectividad\"."
+ },
+ {
+  "id": "ep2-7",
+  "ep": "ep2",
+  "orden": 7,
+  "bloque": "Texto de la publicación",
+  "dice": "Si tu proceso está roto, la IA no lo arregla. Lo amplifica. 👇 Lo que estoy viendo en las empresas: ⭕ Equipos que creen que \"hazme un resumen\" es usar IA ⭕ Tableros espectaculares encima de procesos que nadie ha revisado ⭕ Caos, pero más rápido. Por eso mido con el IAE™, Índice de Inteligencia Artificial Empresarial: no cuántas licencias compraste, sino lo que la IA le devuelve a tu empresa. Y después de recuperar las horas, viene lo más grande: la hiperconectividad. Te lo cuento en el próximo episodio. Comenta CLAUDE y te envío más información.",
+  "pantalla": "#IASinRodeos #Claude #InteligenciaArtificial #IAEmpresarial #Productividad #Procesos #Liderazgo #Colombia",
+  "nota": ""
+ }
+]
