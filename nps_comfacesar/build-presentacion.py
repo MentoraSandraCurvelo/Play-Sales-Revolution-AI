@@ -41,6 +41,14 @@ def dec(n, k=1):
     return f"{n:,.{k}f}".replace(",", "·").replace(".", ",").replace("·", ".")
 
 
+# De la encuesta solo quedaron las cifras agregadas: las dos medias y el reparto
+# de promotores, pasivos y detractores. Las respuestas individuales no existen en
+# ningún archivo, así que no se dibuja una línea por persona.
+ANTES, DESPUES = P["confianza"]
+NPS_DIST = {"p": 10, "a": 4, "d": 6}
+assert sum(NPS_DIST.values()) == P["respuestas_nps"], NPS_DIST
+assert round((NPS_DIST["p"] - NPS_DIST["d"]) / P["respuestas_nps"] * 100) == P["nps"]
+
 # ───────────────────────── piezas reutilizables ─────────────────────────
 
 def tile(big, lab, src="", delay=0.0, chico=False):
@@ -140,7 +148,9 @@ tiles = "".join([
     tile(f'{ent(P["horas"])}<small> h</small>', "recuperadas cada semana en toda la Caja", "", .29),
     tile(f'{dec(P["confianza"][0])}<small> → </small>{dec(P["confianza"][1])}',
          "confianza usando IA, antes y después, escala de 1 a 10", f'{P["respuestas_nps"]} respuestas anónimas', .37),
-    tile(f'+{P["nps"]}', "NPS del programa", "escala de −100 a +100", .45),
+    tile(f'{round(NPS_DIST["p"] / P["respuestas_nps"] * 100)}<small>%</small>',
+         "de quienes respondieron son promotores del programa",
+         f'NPS +{P["nps"]} sobre {P["respuestas_nps"]} respuestas anónimas', .45),
 ])
 
 s3 = slide("resultados", "Los resultados", f"""
@@ -328,10 +338,12 @@ s10 = slide("confianza", "Confianza con IA", f"""
       <div><p class="hair">Media de confianza usando IA, escala de 1 a 10</p>
         <p class="big" style="font-size:88px;white-space:nowrap"><span class="soft-n">{dec(P['confianza'][0])}</span><span
         style="color:var(--red-hi)"> → {dec(P['confianza'][1])}</span></p></div>
-      <p class="note"><b>NPS +{P['nps']}</b> sobre {P['respuestas_nps']} respuestas anónimas.
-        Las personas con seis o más sesiones califican la utilidad en 10.</p>
-      <p class="note"><b>{P['asistencia']}% de asistencia</b> en once semanas, con
-        {P['caidas']} sesiones caídas de {P['sesiones'] + P['caidas']} agendadas.</p>
+      <p class="note"><b>La mitad de quienes respondieron son promotores.</b>
+        NPS +{P['nps']}, positivo, sobre {P['respuestas_nps']} respuestas anónimas.</p>
+      <p class="note"><b>Quienes tomaron seis o más sesiones califican la utilidad en 10.</b>
+        Es el mismo patrón del índice: el resultado sigue a quien se sentó.</p>
+      <p class="hair">{P['asistencia']}% de asistencia en once semanas, con {P['caidas']}
+        sesiones caídas de {P['sesiones'] + P['caidas']} agendadas.</p>
     </div>
   </div>""",
             pie=f"Fuente: encuesta anónima · {P['respuestas_nps']} respuestas de {P['colaboradores']} colaboradores · la media es de quienes respondieron")
@@ -893,8 +905,8 @@ function dibujaConf(){
       +'<text x="'+(x+w/2)+'" y="'+(BY+BH+26)+'" fill="#76726b" font-size="19" text-anchor="middle">'+et+'</text>';
     x+=w;
   });
-  o+='<text x="'+L+'" y="'+(BY-16)+'" fill="#55524c" font-size="19">NPS +'+
-     Math.round((NPS.p-NPS.d)/tot*100)+' · '+tot+' respuestas anónimas</text>';
+  o+='<text x="'+L+'" y="'+(BY-16)+'" fill="#55524c" font-size="19">Cómo se repartieron las '+
+     tot+' respuestas</text>';
   sv.innerHTML=o;
 }
 
@@ -907,14 +919,6 @@ addEventListener('hashchange',()=>{const i=delHash();if(i>=0&&i!==cur)ir(i)});
 const i0=delHash();
 ir(i0>=0?i0:0);
 """
-
-# De la encuesta solo quedaron las cifras agregadas: las dos medias y el reparto
-# de promotores, pasivos y detractores. Las respuestas individuales no existen en
-# ningún archivo, así que no se dibuja una línea por persona.
-ANTES, DESPUES = P["confianza"]
-NPS_DIST = {"p": 10, "a": 4, "d": 6}
-assert sum(NPS_DIST.values()) == P["respuestas_nps"], NPS_DIST
-assert round((NPS_DIST["p"] - NPS_DIST["d"]) / P["respuestas_nps"] * 100) == P["nps"]
 
 js = (JS.replace("__DATOS__", datos_js)
       .replace("__ANTES__", repr(ANTES))
