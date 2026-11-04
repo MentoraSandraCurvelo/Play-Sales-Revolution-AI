@@ -24,3 +24,10 @@
 
 - Es un servicio que Sandra también ofrece: mostrarlo como parte de IAM™ (quién es responsable, qué tareas sí y cuáles no, cómo se mide y se audita).
 - Buen tema para la prospección de gerentes generales y cámaras de comercio.
+
+## La pregunta correcta para el presupuesto 2027 (idea de Sandra, 4 nov 2026) · PRIORIDAD 1
+
+- La pregunta no es "¿qué sectores necesitan IA?", sino "¿qué empresas están dispuestas a invertir en IA en su presupuesto 2027?".
+- Y no invertir en comprar licencias, sino en alguien que enseñe a instalar un sistema de trabajo por áreas donde se mida la productividad.
+- Diferencial: el IAE™, que mide 3 cosas: adopción (porcentaje del equipo que usa la IA en su trabajo real), horas recuperadas (tiempo antes y después, por frecuencia) y evolución (desde la semana 1, qué área sube y cuál baja).
+- Momento ideal: noviembre y diciembre, mientras las empresas cierran presupuesto. Conecta con la prospección de gerentes generales y cámaras de comercio.
