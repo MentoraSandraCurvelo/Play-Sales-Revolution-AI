@@ -19,7 +19,23 @@ Estado: Dropbox activo en la estructura. Google Drive pendiente (misma estructur
 | `5-Formación` | Cursos, Mentoria IA, HTML Ejercicios, Slack. |
 | `9-Archivo` | Histórico y `Duplicados/Videos y fotos duplicadas`. |
 
+## Autonomía (aprobada por Sandra el 4 nov 2026)
+| VigIA lo hace sola | VigIA pregunta siempre |
+|---|---|
+| Mover a carpetas que ya existen con su estructura | Enviar cualquier cosa a la papelera |
+| Renombrar con el formato aprobado | Tocar Contabilidad fuera de las rutas fijas |
+| Crear subcarpetas dentro de una estructura aprobada | Crear una carpeta de cliente o proyecto nueva |
+| Mandar duplicados exactos a `9-Archivo/Duplicados` | Cuando no sabe de quién es un documento |
+
+## Ubicaciones fijas de clientes
+- Comfacesar: `3-Clientes/1.Cerradas/2. IAM Social/2026/Comfacesar/Seguimiento Proyecto IAM™/` (Intelligence por área y `Sesion N`; Ambassadors).
+- Novasoft: `3-Clientes/1.Cerradas/2. IAM Social/2026/Novasot/`.
+- Grupo Abstract: todo en `3-Clientes/1.Cerradas/2. IAM Social/2023/13. Grupo Abstract/`.
+- Prospectos nuevos: `3-Clientes/3. Pipeline/<Cliente>`.
+- Sibruno (herramienta de prospección): `1-IAM™/Herramientas/Sibruno`.
+
 ## Reglas
+- No se tocan archivos modificados en los últimos 30 minutos: Sandra puede estar editándolos.
 - Si ya existe una carpeta con lineamiento (sesiones numeradas, años, meses), se respeta tal cual. No se inventa estructura; se sugiere.
 - Nombres sin fecha al inicio: nombre claro + tipo de documento. Los archivos que entran a carpetas con lineamiento propio conservan su nombre original.
 - PDFs y documentos con nombre ambiguo se abren y se leen antes de decidir.
