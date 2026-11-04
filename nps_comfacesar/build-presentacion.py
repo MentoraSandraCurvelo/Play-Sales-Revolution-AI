@@ -504,15 +504,15 @@ def gantt(t, a, b, i):
             f'<span class="gm">{meses}</span></div>')
 
 regla = "".join(f'<span>{m}</span>' for m in range(1, 13))
-s16b = slide("cronograma", "Los doce bloques", f"""
+s16b = slide("cronograma", "Los bloques del año", f"""
   <p class="eb">Bloque 03 · el año</p>
-  <h2>Los doce bloques, y en qué meses va cada uno</h2>
-  <div class="col" style="gap:5px;flex:1;justify-content:center">
+  <h2>Los {palabra(len(D.CRONOGRAMA))} bloques, y en qué meses va cada uno</h2>
+  <div class="col" style="gap:4px;flex:1;justify-content:center">
     <div class="gl hdr"><span class="lb">Frente de trabajo</span>
       <div class="regla">{regla}</div><span class="gm">Meses</span></div>
     {"".join(gantt(t, a, b, i) for i, (t, a, b) in enumerate(D.CRONOGRAMA))}
   </div>""", oscura=False,
-             pie="Los doce frentes de la fase 2 con el rango de meses que trae la propuesta · el alcance y la inversión se tratan aparte")
+             pie="Los frentes de la fase 2 con el rango de meses que trae la propuesta · el alcance y la inversión se tratan aparte")
 
 SLIDES = [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16b, s16]
 
@@ -649,7 +649,7 @@ td.st{color:var(--red)!important;font-weight:800} .dk td.st{color:var(--red-hi)!
 .lt .open,.lt .frente{background:var(--card);border-top:4px solid var(--red)}
 .num2{font-family:var(--f-h);font-weight:800;font-size:34px;color:var(--red)}
 .dk .num2{color:var(--red-hi)}
-.gl{display:grid;grid-template-columns:430px 1fr 136px;align-items:center;gap:16px;font-size:21px}
+.gl{display:grid;grid-template-columns:490px 1fr 132px;align-items:center;gap:16px;font-size:20px}
 .gl .lb{font-weight:700;text-align:right;min-width:0;overflow:hidden;
   text-overflow:ellipsis;white-space:nowrap}
 .gl .gm{font-size:19px;font-variant-numeric:tabular-nums}
