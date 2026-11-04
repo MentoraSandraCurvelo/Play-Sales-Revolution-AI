@@ -1,0 +1,41 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Inter Black,92,&H00FFFFFF,&H00FFFFFF,&H00141414,&H80000000,1,0,0,0,100,100,2,0,1,7,3,2,70,70,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.26,0:00:01.98,Sub,,0,0,0,,Claude  ya  puede
+Dialogue: 0,0:00:01.98,0:00:02.86,Sub,,0,0,0,,ser  el  mejor
+Dialogue: 0,0:00:02.86,0:00:03.52,Sub,,0,0,0,,{\c&H2D2DFF&}vendedor{\c&HFFFFFF&}  de  tu
+Dialogue: 0,0:00:03.52,0:00:03.94,Sub,,0,0,0,,{\c&H20B0FF&}equipo.{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.94,0:00:05.24,Sub,,0,0,0,,¿Te  digo  lo
+Dialogue: 0,0:00:05.24,0:00:05.82,Sub,,0,0,0,,que  {\c&H2D2DFF&}nadie{\c&HFFFFFF&}  te
+Dialogue: 0,0:00:05.82,0:00:06.97,Sub,,0,0,0,,está  {\c&H20B0FF&}contando?{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.12,0:00:08.47,Sub,,0,0,0,,Pero  ojo,
+Dialogue: 0,0:00:08.70,0:00:09.48,Sub,,0,0,0,,cuidado,
+Dialogue: 0,0:00:09.48,0:00:10.38,Sub,,0,0,0,,primero  el  {\c&H20B0FF&}método{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.38,0:00:10.82,Sub,,0,0,0,,y  luego  la
+Dialogue: 0,0:00:10.82,0:00:11.58,Sub,,0,0,0,,{\c&H20B0FF&}herramienta.{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.58,0:00:12.37,Sub,,0,0,0,,¿Por  qué?
+Dialogue: 0,0:00:17.08,0:00:17.68,Sub,,0,0,0,,pero  si  tú
+Dialogue: 0,0:00:17.68,0:00:18.66,Sub,,0,0,0,,no  tienes  definido
+Dialogue: 0,0:00:18.66,0:00:20.27,Sub,,0,0,0,,tu  {\c&H20B0FF&}proceso{\c&HFFFFFF&}  {\c&H20B0FF&}comercial,{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.48,0:00:20.86,Sub,,0,0,0,,lo  que  va
+Dialogue: 0,0:00:20.86,0:00:21.48,Sub,,0,0,0,,a  hacer  es
+Dialogue: 0,0:00:21.48,0:00:23.07,Sub,,0,0,0,,{\c&H2D2DFF&}amplificar{\c&HFFFFFF&}  el  {\c&H2D2DFF&}caos.{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.07,0:00:24.36,Sub,,0,0,0,,¿Y  sabes  algo?
+Dialogue: 0,0:00:24.41,0:00:25.95,Sub,,0,0,0,,También  mentoreo  equipos
+Dialogue: 0,0:00:25.95,0:00:27.17,Sub,,0,0,0,,comerciales  en  más
+Dialogue: 0,0:00:27.17,0:00:27.93,Sub,,0,0,0,,de  {\c&H20B0FF&}siete{\c&HFFFFFF&}  {\c&H20B0FF&}países{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.93,0:00:29.21,Sub,,0,0,0,,en  Latinoamérica.
+Dialogue: 0,0:00:29.21,0:00:29.81,Sub,,0,0,0,,Si  quieres  que
+Dialogue: 0,0:00:29.81,0:00:30.63,Sub,,0,0,0,,te  envíe  una
+Dialogue: 0,0:00:30.63,0:00:31.61,Sub,,0,0,0,,{\c&H20B0FF&}guía{\c&HFFFFFF&}  completa  de
+Dialogue: 0,0:00:31.61,0:00:32.67,Sub,,0,0,0,,cómo  vender  así,
+Dialogue: 0,0:00:32.67,0:00:33.75,Sub,,0,0,0,,comenta  la  palabra
+Dialogue: 0,0:00:33.75,0:00:34.03,Sub,,0,0,0,,{\c&H2D2DFF&}VENTA{\c&HFFFFFF&}
