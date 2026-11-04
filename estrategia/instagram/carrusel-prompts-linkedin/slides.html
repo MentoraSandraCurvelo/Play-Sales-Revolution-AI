@@ -42,72 +42,93 @@ h1 em{font-style:normal;background:linear-gradient(90deg,#ff2d2d,#ffb020);-webki
 .lt .brand{color:#5a636d}.lt .pager{color:#c77a00}
 .lt .num{opacity:.12;color:#d10f0f}
 .lt .term{box-shadow:0 30px 60px rgba(20,24,29,.25)}
+
+.handle{position:absolute;top:96px;left:72px;font-size:24px;letter-spacing:.12em;color:#5a636d;z-index:3}
+.s:not(.lt) .handle{color:#9aa6b2}
+.sub{font-size:36px;line-height:1.35;color:#5a636d;margin-top:22px}
+.s:not(.lt) .sub{color:#9aa6b2}
+.ui-panel{margin-top:44px;background:linear-gradient(160deg,#121a24,#0a0f15);border:1px solid #2a3a4c;border-radius:28px;padding:26px 28px;box-shadow:0 34px 70px rgba(20,24,29,.35),0 0 0 1px rgba(255,45,45,.08);color:#e9eef3}
+.ui-top{display:flex;align-items:center;gap:12px;font:700 20px/1 Menlo,"DejaVu Sans Mono",monospace;letter-spacing:.14em;color:#808d9a;margin-bottom:18px}
+.ui-top .live{margin-left:auto;color:#19e28b}
+.cm{display:flex;gap:16px;align-items:center;padding:14px 16px;border-radius:16px;background:#151e29;margin-top:10px;font-size:26px;line-height:1.3}
+.cm .av{width:52px;height:52px;border-radius:50%;flex:none;display:grid;place-items:center;font:700 22px/1 Menlo,monospace;color:#05070a}
+.cm b{display:block;font-size:22px;color:#9aa6b2;font-weight:600;margin-bottom:2px}
+.cm.hot{background:linear-gradient(90deg,rgba(255,45,45,.22),rgba(255,176,32,.10));border:1px solid rgba(255,45,45,.55);box-shadow:0 0 30px rgba(255,45,45,.18)}
+.cm.dim{opacity:.55}
+.grp{margin-top:16px;border-radius:18px;padding:14px 16px;border:1px solid #2a3a4c}
+.grp h4{display:flex;justify-content:space-between;font:700 22px/1 Menlo,monospace;letter-spacing:.12em;margin:4px 4px 6px}
+.why-row{display:flex;gap:16px;align-items:flex-start;padding:16px;border-radius:16px;background:#151e29;margin-top:12px;font-size:27px;line-height:1.35;color:#c4cfda}
+.why-row i{font-style:normal;width:48px;height:48px;border-radius:14px;display:grid;place-items:center;flex:none;font-size:26px}
+.why-row b{color:#fff;display:block;font-size:25px}
+.btns{display:flex;gap:14px;margin-top:20px}
+.btn{font:700 24px/1 Menlo,monospace;letter-spacing:.1em;padding:18px 26px;border-radius:999px}
+.pill{position:absolute;left:72px;bottom:120px;z-index:3;font-size:32px;font-weight:800;color:#fff;padding:14px 28px;border-radius:999px;border:2px solid #ff2d2d;background:rgba(5,7,10,.55)}
 </style></head><body>
 
-<!-- 1 PORTADA -->
+
 <section class="s" id="s1">
   <div class="photo" style="background-image:url('p1.png')"></div><div class="shadeB"></div>
-  <div class="tape mono"><span><b>PROMPTS</b> <span class="up">▲ 3 LISTOS</span></span><span><b>LINKEDIN</b> <span class="up">▲ ACTIVO</span></span><span><b>GUÁRDALO</b> <span class="am">● 📌</span></span></div>
-  <div class="pad" style="bottom:170px"><span class="badge mono">⭕ IA SIN RODEOS · TIP</span>
-    <h1 style="margin-top:26px;font-size:92px">3 cosas que le pido a Claude para mi LinkedIn.<br><em>Cópialas.</em></h1></div>
-  <div class="swipe mono">DESLIZA →</div>
+  <div class="tape mono"><span><b>COMENTARIOS</b> <span class="am">● 6 NUEVOS</span></span><span><b>PROSPECTOS</b> <span class="up">▲ 2 DETECTADOS</span></span></div>
+  <div class="pad" style="bottom:210px"><span class="badge mono">⭕ IA SIN RODEOS · VENTAS</span>
+    <h1 style="margin-top:24px;font-size:80px">¿Y si Claude te dijera cuál de tus comentarios <em>es un cliente?</em></h1></div>
+  <div class="pill">Sin perder un prospecto más.</div>
   <div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">1/6</span></div>
 </section>
 
-<!-- 2 PROMPT 1 -->
 <section class="s lt w" id="s2">
-  <div class="tape mono"><span><b>TAREA 01</b> <span class="up">▲ PUBLICAR</span></span><span><b>TIEMPO</b> <span class="up">▲ AHORRADO</span></span></div>
-  <div class="num mono">01</div>
-  <div class="pad" style="top:150px"><p class="eye mono">PARA PUBLICAR</p>
-    <h1 style="font-size:76px;margin-top:20px">Prepara mi<br><em>publicación.</em></h1>
-    <div class="term mono"><div class="term-h"><i style="background:#ff4d5e"></i><i style="background:#ffb020"></i><i style="background:#19e28b"></i>CLAUDE<span>● COPIA ESTO</span></div>
-      <div class="term-b"><span class="p">›</span> Escribe una publicación de LinkedIn sobre <mark>[tu tema]</mark>, con mi voz. Primera línea que enganche, una sola idea, un dato y cierre con una pregunta. Corta y sin palabras de relleno.</div></div>
-    <p class="why"><b>Por qué funciona:</b> le dices exactamente la estructura. No le pides "un post", le pides <b>tu</b> post.</p></div>
-  <div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">2/6</span></div>
+  <div class="tape mono"><span><b>PROSPECTOS</b> <span class="dn">▼ ESCONDIDOS</span></span></div><div class="handle mono">@SANDRACURVELO_IAM</div>
+  <div class="pad" style="top:160px"><h1 style="font-size:70px">El problema no es tener pocos comentarios. Es no ver <em>cuál es una venta.</em></h1>
+    <p class="sub">Los clientes se esconden entre los "¡felicidades!".</p>
+    <div class="ui-panel"><div class="ui-top">COMENTARIOS DE TU PUBLICACIÓN<span class="live">● 6</span></div>
+      <div class="cm"><span class="av" style="background:#9aa6b2">AR</span><span><b>Andrés R.</b>¡Felicitaciones, Sandra! 👏</span></div>
+      <div class="cm"><span class="av" style="background:#9aa6b2">MV</span><span><b>Mónica V.</b>Gran reflexión 🔥</span></div>
+      <div class="cm"><span class="av" style="background:#9aa6b2">LP</span><span><b>Laura P.</b>¿Esto lo haces para equipos de ventas? Somos 40.</span></div>
+      <div class="cm"><span class="av" style="background:#9aa6b2">JT</span><span><b>Jorge T.</b>Totalmente de acuerdo</span></div>
+      <div class="cm"><span class="av" style="background:#9aa6b2">CM</span><span><b>Carlos M.</b>¿Cuánto dura el programa?</span></div>
+      <div class="cm"><span class="av" style="background:#9aa6b2">PS</span><span><b>Paula S.</b>Me encantó. ¿Dónde puedo aprender más?</span></div>
+    </div></div><div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">2/6</span></div>
 </section>
 
-<!-- 3 PROMPT 2 -->
 <section class="s lt b" id="s3">
-  <div class="tape mono"><span><b>TAREA 02</b> <span class="up">▲ COMENTAR</span></span><span><b>"EXCELENTE POST"</b> <span class="dn">▼ PROHIBIDO</span></span></div>
-  <div class="num mono">02</div>
-  <div class="pad" style="top:150px"><p class="eye mono">PARA COMENTAR</p>
-    <h1 style="font-size:76px;margin-top:20px">Redacta mi<br><em>comentario.</em></h1>
-    <div class="term mono"><div class="term-h"><i style="background:#ff4d5e"></i><i style="background:#ffb020"></i><i style="background:#19e28b"></i>CLAUDE<span>● COPIA ESTO</span></div>
-      <div class="term-b"><span class="p">›</span> Lee esta publicación y propón 3 comentarios que aporten una idea nueva o una experiencia mía. Máximo 3 líneas cada uno. Nada de "excelente post".<br><mark>[pega la publicación]</mark></div></div>
-    <p class="why"><b>Por qué funciona:</b> un buen comentario en el post de otro te pone frente a <b>su</b> audiencia.</p></div>
-  <div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">3/6</span></div>
+  <div class="tape mono"><span><b>CLAUDE</b> <span class="up">▲ ORDENANDO</span></span></div><div class="handle mono">@SANDRACURVELO_IAM</div>
+  <div class="pad" style="top:160px"><h1 style="font-size:72px">Claude los lee y los ordena <em>por intención.</em></h1>
+    <p class="sub">De ruido a oportunidades en segundos.</p>
+    <div class="ui-panel"><div class="ui-top">✳ PRIORIZADOS POR CLAUDE</div>
+      <div class="grp" style="border-color:rgba(255,45,45,.6);background:rgba(255,45,45,.08)"><h4><span style="color:#ff6b6b">● INTERÉS COMERCIAL</span><span style="color:#ff6b6b">2</span></h4>
+        <div class="cm hot"><span class="av" style="background:#ff6b6b">LP</span><span><b>Laura P.</b>¿Esto lo haces para equipos de ventas? Somos 40.</span></div>
+        <div class="cm hot"><span class="av" style="background:#ff6b6b">CM</span><span><b>Carlos M.</b>¿Cuánto dura el programa?</span></div></div>
+      <div class="grp" style="border-color:rgba(255,176,32,.45)"><h4><span style="color:#ffb020">● CONVERSACIÓN</span><span style="color:#ffb020">2</span></h4></div>
+      <div class="grp"><h4><span style="color:#808d9a">● SOLO SALUDO</span><span style="color:#808d9a">2</span></h4></div>
+    </div></div><div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">3/6</span></div>
 </section>
 
-<!-- 4 PROMPT 3 -->
-<section class="s lt g" id="s4">
-  <div class="tape mono"><span><b>TAREA 03</b> <span class="up">▲ RESPONDER</span></span><span><b>OPORTUNIDADES</b> <span class="am">● A LA VISTA</span></span></div>
-  <div class="num mono">03</div>
-  <div class="pad" style="top:150px"><p class="eye mono">PARA NO PERDER CLIENTES</p>
-    <h1 style="font-size:76px;margin-top:20px">Revisa quién<br><em>me respondió.</em></h1>
-    <div class="term mono"><div class="term-h"><i style="background:#ff4d5e"></i><i style="background:#ffb020"></i><i style="background:#19e28b"></i>CLAUDE<span>● COPIA ESTO</span></div>
-      <div class="term-b"><span class="p">›</span> Estos son los comentarios de mi última publicación. Dime quién mostró interés en trabajar conmigo, qué preguntó y propón una respuesta para cada uno.<br><mark>[pega los comentarios]</mark></div></div>
-    <p class="why"><b>Por qué funciona:</b> en los comentarios hay prospectos. <b>El que no responde, los pierde.</b></p></div>
-  <div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">4/6</span></div>
+<section class="s" id="s4">
+  <div class="tape mono"><span><b>CRITERIO</b> <span class="up">▲ A LA VISTA</span></span></div><div class="handle mono">@SANDRACURVELO_IAM</div>
+  <div class="pad" style="top:160px"><h1 style="font-size:72px">No solo los ordena. Te dice <em>por qué es cliente.</em></h1>
+    <p class="sub">No es una caja negra: te muestra el criterio.</p>
+    <div class="ui-panel"><div class="ui-top">✳ CLAUDE EXPLICA · LAURA P.</div>
+      <div class="why-row"><i style="background:rgba(25,226,139,.15);color:#19e28b">👥</i><span><b>Habla de su equipo</b>"Somos 40": decide por un grupo, no solo por ella.</span></div>
+      <div class="why-row"><i style="background:rgba(255,176,32,.15);color:#ffb020">?</i><span><b>Hace una pregunta de compra</b>Pregunta si lo haces para equipos de ventas.</span></div>
+      <div class="why-row"><i style="background:rgba(255,45,45,.15);color:#ff6b6b">↗</i><span><b>Siguiente paso sugerido</b>Responderle hoy e invitarla a una conversación.</span></div>
+    </div></div><div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">4/6</span></div>
 </section>
 
-<!-- 5 REGLA -->
-<section class="s" id="s5">
-  <div class="photo" style="background-image:url('p2.jpg');background-position:center 20%"></div><div class="shadeB"></div>
-  <div class="tape mono"><span><b>REGLA DE ORO</b> <span class="am">● TÚ APRUEBAS</span></span></div>
-  <div class="pad" style="bottom:170px"><p class="eye mono">LA REGLA DE ORO</p>
-    <h1 style="font-size:84px;margin-top:22px">Claude propone.<br><em>Tú decides.</em></h1>
-    <p class="body" style="margin-top:28px">Léelo, ajústalo y ponle tu historia. <b>Lo que sale a tu nombre lleva tu criterio.</b></p></div>
-  <div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">5/6</span></div>
+<section class="s lt g" id="s5">
+  <div class="tape mono"><span><b>APROBACIÓN</b> <span class="am">● 100% TUYA</span></span></div><div class="handle mono">@SANDRACURVELO_IAM</div>
+  <div class="pad" style="top:160px"><h1 style="font-size:72px">Te propone la respuesta. <em>Tú decides.</em></h1>
+    <p class="sub">Nada sale a tu nombre sin tu "sí".</p>
+    <div class="ui-panel"><div class="ui-top">✳ BORRADOR PARA LAURA P.<span class="live" style="color:#ffb020">● ESPERA TU SÍ</span></div>
+      <div class="cm" style="display:block;font-size:28px;line-height:1.45;padding:22px">¡Hola, Laura! Sí, trabajo con equipos comerciales como el tuyo. ¿Te parece si conversamos 20 minutos esta semana y me cuentas cómo están vendiendo hoy?</div>
+      <div class="btns"><span class="btn" style="background:#19e28b;color:#05070a">✓ APROBAR</span><span class="btn" style="border:2px solid #808d9a;color:#c4cfda">EDITAR</span></div>
+    </div></div><div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">5/6</span></div>
 </section>
 
-<!-- 6 CTA -->
 <section class="s lt w" id="s6">
-  <div class="tape mono"><span><b>TU TURNO</b> <span class="am">● GUARDA Y COMENTA</span></span></div>
+  <div class="tape mono"><span><b>TU TURNO</b> <span class="am">● COMENTA</span></span></div><div class="handle mono">@SANDRACURVELO_IAM</div>
   <div class="pad" style="top:250px"><p class="eye mono">TU TURNO</p>
-    <h1 style="font-size:88px;margin-top:22px">¿Cuál vas a probar <em>primero?</em></h1>
-    <p class="body" style="margin-top:40px">📌 <b>Guárdalo</b> para tenerlo a mano.<br>Y cuéntame en los comentarios: 1, 2 o 3.</p>
+    <h1 style="font-size:84px;margin-top:22px">¿Cuántos clientes se te escaparon <em>este mes?</em></h1>
+    <p class="body" style="margin-top:40px">Te regalo el prompt exacto para que Claude revise tus comentarios.</p>
     <span class="cta mono">COMENTA "CLAUDE" 👇</span>
-    <p class="body" style="margin-top:26px;font-size:32px">y te envío más prompts para tu LinkedIn.</p></div>
-  <div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">6/6</span></div>
+    <p class="body" style="margin-top:26px;font-size:32px">y te lo envío por mensaje directo. 📌 Guárdalo.</p></div><div class="brand mono"><span><span class="ring"></span>SANDRA CURVELO · IAM™</span><span class="pager">6/6</span></div>
 </section>
 </body></html>
