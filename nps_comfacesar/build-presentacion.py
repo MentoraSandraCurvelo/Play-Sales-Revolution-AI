@@ -102,7 +102,7 @@ s1 = slide("portada", "Portada", f"""
       <h1>Lo que la Caja aprendió a hacer sola</h1>
       <p class="lede">{P['sesiones']} sesiones · {P['areas']} áreas · {P['colaboradores']} colaboradores ·
         {P['inicio']} al {P['cierre']} de 2026<br>
-        Presentación a la dirección · viernes 6 de noviembre</p>
+        Presentación a la dirección · {D.JORNADA_FECHA}</p>
       <div class="row wrap">{chips}</div>
     </div>
     <div class="col" style="width:540px;gap:0;border-left:1px solid var(--rule-d);padding-left:38px">
@@ -135,7 +135,7 @@ toc = "".join(
     for i, (n, t, desc, quien, dur) in enumerate(bloques))
 
 s2 = slide("contenido", "Cómo va la jornada", f"""
-  <p class="eb">Viernes 6 de noviembre</p>
+  <p class="eb">{D.JORNADA_FECHA.capitalize()}</p>
   <h2>Cómo va la jornada</h2>
   <div class="col" style="gap:26px;flex:1;justify-content:center">{toc}</div>""", oscura=False)
 
@@ -1146,6 +1146,12 @@ def anima_numeros(html):
 
 HTML = anima_numeros(HTML)
 assert HTML.count("data-n=") >= 18, HTML.count("data-n=")
+
+# Mientras la jornada no tenga fecha, ninguna fecha concreta puede colarse en
+# la presentación. Comfacesar aplazó la del 6 de noviembre el 4 de noviembre.
+if not D.JORNADA_FIJADA:
+    for _mal in ("viernes 6", "6 de noviembre", "viernes 13", "13 de noviembre"):
+        assert _mal not in HTML, f"la jornada no tiene fecha y aparece {_mal!r}"
 
 SALIDA.write_text(HTML, encoding="utf-8")
 

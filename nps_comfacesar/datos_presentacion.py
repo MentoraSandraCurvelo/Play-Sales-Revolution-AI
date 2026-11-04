@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Genera la presentación de cierre de Comfacesar, viernes 6 de noviembre de 2026.
+"""Genera la presentación de cierre de Comfacesar para la jornada ante la dirección.
 
 Todo número que aparece en la presentación sale de aquí. El jueves a las 4 de la
 tarde se actualizan las constantes de este archivo, se corre y se publica.
@@ -29,6 +29,17 @@ PROGRAMA = {
     "respuestas_nps": 20, "fichas_fechadas": 90,
     "semanas": 11, "inicio": "11 de agosto", "cierre": "9 de octubre",
 }
+
+# La fecha de la jornada ante la dirección. El 4 de noviembre Comfacesar aplazó
+# la del viernes 6 sin dar fecha nueva, así que vive en una sola constante: en
+# cuanto haya fecha se cambia aquí y se regenera toda la presentación.
+#
+#   JORNADA_FECHA   cómo se nombra en los titulares, p. ej. "viernes 6 de noviembre"
+#   JORNADA_CORTA   la forma corta, p. ej. "viernes 6"
+#   JORNADA_FIJADA  False mientras no haya fecha confirmada
+JORNADA_FECHA = "fecha por confirmar"
+JORNADA_CORTA = "la jornada"
+JORNADA_FIJADA = False
 
 # sesiones totales al cierre, del tablero de cierre
 SESIONES = {
@@ -118,7 +129,7 @@ TARIFAS = [("Profesional", 36351, "Base del reporte"),
 # todos, porque el perfil directivo no ejecuta tareas.
 TARIFA_MEZCLA = (TARIFAS[0][1] + TARIFAS[1][1]) / 2
 
-# el orden de la jornada del viernes 6, fijado por Sandra
+# el orden de la jornada, fijado por Sandra
 JORNADA = [
     ("Agencia de Empleo", "AE", "Matías respondiendo a un ciudadano"),
     ("IPS", "IPS", "La plataforma de capacitaciones, de la firma al certificado"),
