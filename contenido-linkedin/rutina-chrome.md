@@ -32,7 +32,7 @@ PARTE 2 · Comentarios de visibilidad (con mi aprobación)
    - Cierra con una pregunta o idea que abra conversación.
    - Sin hashtags, sin vender, sin nombrar clientes confidenciales (nunca Comfacesar), sin frases genéricas como "excelente post".
 6. Muéstrame los 10 en el panel, numerados, con el enlace de cada publicación. ESPERA mi respuesta.
-7. Publica solo los que yo apruebe ("sí a todos", "sí al 1, 3 y 7", o con mis cambios). Deja 2 minutos entre uno y otro.
+7. Publica solo los que yo apruebe ("sí a todos", "sí al 1, 3 y 7", o con mis cambios). Deja 2 minutos entre uno y otro. (4 nov 2026) A cada publicación donde publiques un comentario mío, ponle la reacción "Interesante" (Insightful) si no tiene una reacción mía.
 8. Al final dame un resumen: qué publicaste, dónde y qué quedó pendiente.
 
 PARTE 3 · Métricas (agregada el 2 nov 2026; la API no deja leerlas: 403)
