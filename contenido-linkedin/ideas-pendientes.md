@@ -15,3 +15,12 @@
 
 - Post propio explicando qué mide el IAE™ (usabilidad de IA por área, sube o baja por semana, horas recuperadas) y por qué es el diferencial de IAM™ Intelligence.
 - Evaluar registro de marca ante la SIC.
+
+## Uso responsable de la IA (idea de Sandra, 4 nov 2026)
+
+- Conectar con lo que Sandra ya aplica: la IA prepara, la persona decide y firma; datos anonimizados; Ley 1581 (Colombia).
+
+## Plan de gobernanza de IA para empresas (idea de Sandra, 4 nov 2026)
+
+- Es un servicio que Sandra también ofrece: mostrarlo como parte de IAM™ (quién es responsable, qué tareas sí y cuáles no, cómo se mide y se audita).
+- Buen tema para la prospección de gerentes generales y cámaras de comercio.
