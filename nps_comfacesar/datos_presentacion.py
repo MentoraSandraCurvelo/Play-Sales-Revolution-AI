@@ -112,6 +112,7 @@ CIERRA = {
     "Sub. Operativa": "Retomada tras la caída del 9 de septiembre",
     "Talento Humano": "Las tres personas con ejercicio propio",
     "Cumplimiento": "La S2 se cayó tres veces y se recuperó el 22 de septiembre",
+    "Gerencia Financiera": "Quedó sin la tercera sesión",
     "Planeación": "La primera habilidad construida del programa",
     "Tesorería": "Bloqueada: sus títulos siguen en papel",
 }

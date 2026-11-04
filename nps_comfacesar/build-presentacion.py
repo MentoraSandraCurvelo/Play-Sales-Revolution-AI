@@ -178,9 +178,9 @@ s4 = slide("horas", "Horas por área", f"""
       <div><p class="big huge">{ent(P['horas'])}</p><p class="sub">horas por semana</p></div>
       <p class="note">Para entrar aquí, el área tuvo que anotar cuánto tardaba la tarea,
         cuánto tarda hoy y cuántas veces la hace. <b>Seis áreas no lo anotaron.</b></p>
-      <p class="note">De esas seis, <b>cuatro sí construyeron</b> y no lo midieron:
-        Tecnología, Mercadeo, Talento Humano y Planeación. Las otras dos no alcanzaron:
-        Tesorería sigue con sus títulos en papel y Gerencia Financiera se quedó en la S2.</p>
+      <p class="note"><b>Las seis construyeron igual.</b> Lo que no hicieron fue
+        registrarlo, y por eso no suman horas aquí. Medir en pesos todavía no es
+        costumbre, y es una de las cosas que esta fase deja abiertas.</p>
     </div>
   </div>""", oscura=False,
            pie="Base: Sala de Control · 53 tareas medidas con tiempo antes, tiempo hoy y frecuencia declarada · el total del programa lo establece la mentoría y el reparto por área conserva la proporción medida")
@@ -467,7 +467,7 @@ ag_c = sum(v[0] for v in D.AGENTES.values())
 ag_r = sum(v[1] for v in D.AGENTES.values())
 
 QUEDA = [
-    (f"{len(D.HORAS)}", "áreas con al menos un proceso propio, medido y andando"),
+    (f"{P['areas']}", "áreas con al menos un proceso propio andando"),
     (f"{ag_c}<small> / {ag_r}</small>", "agentes construidos, y los que ya corren solos"),
     (f"{ent(P['horas'])}<small> h</small>", "que vuelven cada semana, sin volver a invertir"),
 ]
