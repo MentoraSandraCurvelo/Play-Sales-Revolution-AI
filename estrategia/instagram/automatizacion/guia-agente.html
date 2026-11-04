@@ -1,0 +1,199 @@
+<title>Tu primer agente · Sandra Curvelo</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=IBM+Plex+Sans:wght@400;600&family=JetBrains+Mono:wght@400;700&display=swap">
+<style>
+/* Terminal de Wall Street de una sola página: cinta arriba, portada, 9 fichas de prompt con botón Copiar, regla de oro y cierre. Diseño oscuro deliberado (estándar Claude Design de Sandra). */
+:root{
+  --bg:#05070a; --panel:#0c1118; --panel2:#111923; --line:#1f2b38;
+  --fg:#e9eef3; --muted:#9aa6b2; --dim:#6c7986;
+  --iam:#ff2d2d; --iam-deep:#c00000; --up:#19e28b; --amb:#ffb020; --down:#ff4d5e;
+  --serif:"Fraunces",Georgia,"Times New Roman",serif;
+  --sans:"IBM Plex Sans","Helvetica Neue",Arial,sans-serif;
+  --mono:"JetBrains Mono",Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:16px;line-height:1.55;
+  background-image:radial-gradient(900px 520px at 10% -5%,#13233a 0,transparent 60%),radial-gradient(800px 600px at 105% 30%,#2a0b0e 0,transparent 55%)}
+.mono{font-family:var(--mono)}
+.tape{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;overflow:hidden;white-space:nowrap;background:#07090d;border-bottom:1px solid var(--line);font-family:var(--mono);font-size:12px;letter-spacing:.08em;
+  mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:#07090d}
+.track{display:inline-flex;gap:32px;padding:10px 0}
+.track span b{color:var(--fg);font-weight:700}
+.up{color:var(--up)} .amb{color:var(--amb)} .down{color:var(--down)}
+.wrap{max-width:860px;margin:0 auto;padding-block:40px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:28px}
+.brandrow{display:flex;align-items:center;gap:12px;font-family:var(--mono);font-size:12px;letter-spacing:.16em;color:var(--muted)}
+.ring{width:18px;height:18px;border-radius:50%;border:4px solid var(--iam);box-shadow:0 0 14px var(--iam);flex:none}
+.eyebrow{margin:0;font-family:var(--mono);font-size:12px;letter-spacing:.22em;color:var(--iam);font-weight:700;text-transform:uppercase}
+h1{margin:6px 0 0;font-family:var(--serif);font-weight:400;font-size:clamp(36px,7vw,64px);line-height:1.02;letter-spacing:-.01em;text-wrap:balance}
+h1 em,h2 em{font-style:normal;background:linear-gradient(90deg,var(--iam),var(--amb));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{margin:0;max-width:62ch;color:#c4cfda;font-size:17px}
+.lead b{color:#fff}
+.how{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,13rem),1fr));gap:12px}
+.how div{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;font-size:14px;color:var(--muted)}
+.how b{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.16em;color:var(--amb);margin-bottom:4px}
+.how strong{color:var(--fg)}
+h2{margin:18px 0 0;font-family:var(--serif);font-weight:400;font-size:clamp(26px,4.4vw,36px);line-height:1.1;text-wrap:balance}
+.group{display:grid;gap:14px}
+.prompt{position:relative;background:linear-gradient(160deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:14px;overflow:hidden;transition:transform .25s,border-color .25s,box-shadow .25s;transform-style:preserve-3d}
+.prompt:hover{border-color:#2f3f52;box-shadow:0 18px 40px rgba(0,0,0,.45)}
+.p-head{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;padding:12px 16px;border-bottom:1px solid var(--line);background:#0e151e}
+.p-num{font-family:var(--mono);font-weight:700;color:var(--iam);font-size:15px}
+.p-title{font-weight:600;font-size:16px;min-width:0}
+.p-tag{margin-left:auto;font-family:var(--mono);font-size:11px;letter-spacing:.12em}
+.p-body{margin:0;padding:16px 18px 6px;font-family:var(--mono);font-size:14px;line-height:1.65;color:var(--fg);white-space:pre-wrap;overflow-wrap:anywhere}
+.p-body .fill{color:var(--amb)}
+.p-foot{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;padding:8px 18px 16px}
+.p-why{margin:0;flex:1 1 18rem;min-width:0;font-size:14px;color:var(--muted)}
+.p-why b{color:var(--fg)}
+.copy{font:700 12px/1 var(--mono);letter-spacing:.12em;color:var(--fg);background:transparent;border:1px solid var(--iam);border-radius:999px;padding:10px 16px;cursor:pointer;transition:background .2s,color .2s}
+.copy:hover{background:var(--iam);color:#fff}
+.copy:focus-visible{outline:2px solid var(--amb);outline-offset:3px}
+.copy.done{border-color:var(--up);color:var(--up);background:transparent}
+.rule{display:grid;gap:10px;background:linear-gradient(120deg,#1a0a0d,var(--panel));border:1px solid #4a1a20;border-radius:16px;padding:22px}
+.rule p{margin:0;color:#c4cfda;max-width:62ch}
+.rule b{color:#fff}
+.stage{position:relative;height:118px;margin-top:6px}
+.isaia{position:absolute;bottom:0;left:0;display:grid;justify-items:center;gap:6px;width:220px}
+.say{position:relative;background:#0b1118;border:1px solid #2a3847;border-radius:12px;padding:8px 12px;font-size:13px;line-height:1.35;width:220px;box-shadow:0 8px 20px rgba(0,0,0,.45)}
+.say::after{content:"";position:absolute;bottom:-6px;left:50%;width:10px;height:10px;background:#0b1118;border-right:1px solid #2a3847;border-bottom:1px solid #2a3847;transform:translateX(-50%) rotate(45deg)}
+.say p{margin:0}.say p[hidden]{display:none}
+.say b{color:var(--up)}
+.bot{width:42px;height:42px}
+.end{display:grid;gap:12px;text-align:left;border-top:1px solid var(--line);padding-top:24px}
+.end p{margin:0;color:#c4cfda;max-width:62ch}
+.end b{color:#fff}
+.sign{font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:var(--dim)}
+@media (prefers-reduced-motion:no-preference){
+  .track{animation:tape 40s linear infinite}
+  .isaia{animation:walk 20s ease-in-out infinite}
+  .bot{animation:bob .9s ease-in-out infinite}
+  .face{animation:face 20s steps(1) infinite;transform-box:fill-box;transform-origin:center}
+  .prompt{animation:rise .6s cubic-bezier(.2,.8,.2,1) both}
+  .say p:not([hidden]){animation:fade .4s ease-out}
+}
+@keyframes tape{to{transform:translateX(-50%)}}
+@keyframes walk{0%{left:0;transform:translateX(0)}50%{left:100%;transform:translateX(-100%)}100%{left:0;transform:translateX(0)}}
+@keyframes bob{50%{transform:translateY(-3px)}}
+@keyframes face{0%{transform:scaleX(1)}50%{transform:scaleX(-1)}}
+@keyframes rise{from{transform:translateY(10px)}to{transform:none}}
+@keyframes fade{from{opacity:.2}to{opacity:1}}
+</style>
+
+<div class="tape" aria-hidden="true"><div class="track">
+  <span><b>IA GENERATIVA</b> <span class="amb">● RESPONDE</span></span><span><b>IA AGÉNTICA</b> <span class="up">▲ TRABAJA POR TI</span></span><span><b>MISIÓN</b> <span class="up">▲ CREA</span></span><span><b>CONECTORES</b> <span class="up">▲ ACTIVOS</span></span><span><b>RUTINA</b> <span class="up">▲ CORRIENDO</span></span><span><b>APROBACIÓN</b> <span class="amb">● SIEMPRE TÚ</span></span>
+  <span><b>IA GENERATIVA</b> <span class="amb">● RESPONDE</span></span><span><b>IA AGÉNTICA</b> <span class="up">▲ TRABAJA POR TI</span></span><span><b>MISIÓN</b> <span class="up">▲ CREA</span></span><span><b>CONECTORES</b> <span class="up">▲ ACTIVOS</span></span><span><b>RUTINA</b> <span class="up">▲ CORRIENDO</span></span><span><b>APROBACIÓN</b> <span class="amb">● SIEMPRE TÚ</span></span>
+</div></div>
+
+<main class="wrap">
+  <div class="brandrow"><span class="ring"></span>SANDRA CURVELO · IAM™ · IA SIN RODEOS</div>
+  <header>
+    <p class="eyebrow">Tablero práctico · IA agéntica</p>
+    <h1>Tu primer agente. <em>En 3 pasos.</em></h1>
+  </header>
+  <p class="lead">La IA generativa te responde cuando le preguntas. <b>La IA agéntica trabaja por ti:</b> revisa, decide el siguiente paso y te lo deja listo. Este tablero te lleva de una a otra en 3 pasos. Y la regla de siempre: <b>tu agente propone, tú apruebas.</b></p>
+
+  <div class="how">
+    <div><b>IA GENERATIVA</b><strong>Tú preguntas, ella responde.</strong> Un texto, un resumen, una idea. Y ahí se queda.</div>
+    <div><b>IA AGÉNTICA</b><strong>Tú le das una misión, ella la ejecuta.</strong> Revisa, ordena, propone y te avisa.</div>
+  </div>
+
+  <h2>Paso 1. <em>Dale una misión CREA.</em></h2>
+  <section class="group">
+    <article class="prompt"><div class="p-head"><span class="p-num">C·R·E·A</span><span class="p-title">La misión de tu agente</span><span class="p-tag amb">● BASE</span></div>
+      <p class="p-body">Contexto: trabajo en <span class="fill">[tu empresa y tu área]</span> y mi objetivo es <span class="fill">[lo que quieres lograr]</span>.
+Rol: eres mi agente de <span class="fill">[actas, ventas, redes, finanzas…]</span>. Trabajas por mí: revisas, decides el siguiente paso y me lo dejas listo.
+Entrega: <span class="fill">[una tabla, un resumen de 5 líneas, un borrador]</span>, siempre con el siguiente paso.
+Acción: cada vez que te active, <span class="fill">[la tarea concreta]</span>. Nunca envías ni publicas nada sin mi aprobación.</p>
+      <div class="p-foot"><p class="p-why"><b>Por qué funciona:</b> sin misión, un agente es solo un chat. Con CREA sabe quién eres, qué hace y cómo entregarte.</p><button class="copy" type="button">COPIAR</button></div></article>
+
+  </section>
+
+  <h2>Paso 2. <em>Conéctalo a tus herramientas.</em></h2>
+  <div class="how">
+    <div><b>DÓNDE</b><strong>Configuración → Conectores</strong> en Claude. Toca el + y elige.</div>
+    <div><b>CUÁLES</b><strong>Correo, calendario, Drive, Dropbox, Canva</strong> y las que uses todos los días.</div>
+    <div><b>PERMISOS</b><strong>Lo que envía o publica a tu nombre</strong>, siempre con tu aprobación.</div>
+  </div>
+  <p class="lead" style="font-size:14px;color:var(--dim)">Los nombres de los menús pueden cambiar con las actualizaciones de Claude.</p>
+
+  <h2>Paso 3. <em>Dale un sistema de trabajo.</em></h2>
+  <p class="lead">Un agente brilla cuando repite una rutina. Copia una de estas misiones, ajústala y ponla a correr. Así arranqué mi propia oficina de agentes.</p>
+  <section class="group">
+    <article class="prompt"><div class="p-head"><span class="p-num">01</span><span class="p-title">Agente de actas</span><span class="p-tag up">▲ REUNIONES</span></div>
+      <p class="p-body">Revisa las reuniones de hoy en mi calendario y las notas o transcripciones que tengo en <span class="fill">[Drive o Dropbox]</span>. Arma el acta de cada una: acuerdos, responsables y fechas. Déjame la lista de pendientes lista para mañana a las 8.</p>
+      <div class="p-foot"><p class="p-why"><b>Por qué funciona:</b> nadie vuelve a preguntar "¿y qué quedamos?".</p><button class="copy" type="button">COPIAR</button></div></article>
+
+    <article class="prompt"><div class="p-head"><span class="p-num">02</span><span class="p-title">Agente comercial</span><span class="p-tag up">▲ VENTAS</span></div>
+      <p class="p-body">Revisa mi correo y mi cartera de clientes <span class="fill">[pega tu tabla o tu Excel]</span>. Dime qué clientes llevan más de 7 días sin respuesta, propón el seguimiento para cada uno y marca las ventas en riesgo.</p>
+      <div class="p-foot"><p class="p-why"><b>Por qué funciona:</b> ningún cliente se queda sin seguimiento.</p><button class="copy" type="button">COPIAR</button></div></article>
+
+    <article class="prompt"><div class="p-head"><span class="p-num">03</span><span class="p-title">Agente de LinkedIn</span><span class="p-tag up">▲ MARCA</span></div>
+      <p class="p-body">Con mi estilo y mis temas <span class="fill">[tus 3 temas]</span>, prepárame 3 publicaciones para esta semana y 5 comentarios para publicaciones de mi red. Déjalos como borrador para que yo los apruebe.</p>
+      <div class="p-foot"><p class="p-why"><b>Por qué funciona:</b> constancia sin perder tu voz.</p><button class="copy" type="button">COPIAR</button></div></article>
+
+    <article class="prompt"><div class="p-head"><span class="p-num">04</span><span class="p-title">Agente de finanzas</span><span class="p-tag amb">● CIFRAS</span></div>
+      <p class="p-body">Con este archivo de ingresos y gastos <span class="fill">[pega o conecta tu archivo]</span>, dime cómo vamos frente al presupuesto del mes, qué gasto se salió de lo normal y qué debo revisar esta semana.</p>
+      <div class="p-foot"><p class="p-why"><b>Por qué funciona:</b> ves el problema antes de que cueste dinero.</p><button class="copy" type="button">COPIAR</button></div></article>
+
+    <article class="prompt"><div class="p-head"><span class="p-num">05</span><span class="p-title">Junta de agentes del viernes</span><span class="p-tag amb">● SISTEMA</span></div>
+      <p class="p-body">Reúne lo que hicieron esta semana mis agentes de actas, ventas, LinkedIn y finanzas. Dame un tablero de una página: qué avanzó, qué está en riesgo y las 3 decisiones que debo tomar el lunes.</p>
+      <div class="p-foot"><p class="p-why"><b>Por qué funciona:</b> pasas de tener herramientas a tener un sistema de trabajo.</p><button class="copy" type="button">COPIAR</button></div></article>
+
+  </section>
+
+  <section class="rule">
+    <p class="eyebrow">La regla de oro</p>
+    <h2 style="margin:0">Tu agente propone. <em>Tú apruebas.</em></h2>
+    <p>La IA agéntica bien hecha no es soltar el control: es darle autonomía para trabajar y quedarte con la decisión. <b>Lo que sale a tu nombre lleva tu criterio.</b></p>
+    <div class="stage" aria-label="Isaía, asistente de Sandra">
+      <div class="isaia">
+        <div class="say">
+          <p>Empieza con <b>un solo agente</b>: el de actas es el más fácil.</p>
+          <p hidden>Sin misión <b>CREA</b>, tu agente se pierde.</p>
+          <p hidden>Conecta solo lo que necesita. <b>Menos es más.</b></p>
+          <p hidden>Lo que está en <b>[corchetes]</b> lo cambias tú.</p>
+        </div>
+        <svg class="bot" viewBox="0 0 44 44" role="img" aria-label="Isaía"><g class="face">
+          <line x1="22" y1="3" x2="22" y2="9" stroke="#ff2d2d" stroke-width="2" stroke-linecap="round"/><circle cx="22" cy="3" r="2.5" fill="#ff2d2d"/>
+          <rect x="7" y="9" width="30" height="24" rx="9" fill="#1b2633" stroke="#3a4b5e" stroke-width="1.5"/><rect x="11" y="14" width="22" height="12" rx="5" fill="#06080b"/>
+          <circle cx="17" cy="20" r="2.4" fill="#19e28b"/><circle cx="27" cy="20" r="2.4" fill="#19e28b"/><circle cx="22" cy="38" r="5" fill="none" stroke="#ff2d2d" stroke-width="2.5"/></g></svg>
+      </div>
+    </div>
+  </section>
+
+  <footer class="end">
+    <p><b>¿Quieres montar una oficina de agentes en tu empresa?</b> Escríbeme por mensaje directo en Instagram o en LinkedIn y lo conversamos.</p>
+    <p class="sign">⭕ SANDRA CURVELO · MENTORA EN VENTAS DIGITALES Y MARCA PROFESIONAL · @SANDRACURVELO_IAM</p>
+  </footer>
+</main>
+
+<script>
+(() => {
+  const calm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.prompt').forEach((card, i) => {
+    if (!calm) card.style.animationDelay = (i * 50) + 'ms';
+    if (calm) return;
+    card.addEventListener('pointermove', (e) => {
+      const r = card.getBoundingClientRect();
+      const x = (e.clientX - r.left) / r.width - .5, y = (e.clientY - r.top) / r.height - .5;
+      card.style.transform = `perspective(900px) rotateX(${(-y * 3).toFixed(2)}deg) rotateY(${(x * 4).toFixed(2)}deg)`;
+    });
+    card.addEventListener('pointerleave', () => { card.style.transform = ''; });
+  });
+  document.querySelectorAll('.copy').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const body = btn.closest('.prompt').querySelector('.p-body');
+      const text = body.innerText.trim();
+      const ok = () => { btn.textContent = 'COPIADO ✓'; btn.classList.add('done'); setTimeout(() => { btn.textContent = 'COPIAR'; btn.classList.remove('done'); }, 1800); };
+      const fallback = () => { const s = window.getSelection(), rg = document.createRange(); rg.selectNodeContents(body); s.removeAllRanges(); s.addRange(rg); btn.textContent = 'SELECCIONADO'; };
+      try { navigator.clipboard.writeText(text).then(ok, fallback); } catch (e) { fallback(); }
+    });
+  });
+  const lines = [...document.querySelectorAll('.say p')];
+  let ix = 0;
+  setInterval(() => { ix = (ix + 1) % lines.length; lines.forEach((p, i) => { p.hidden = i !== ix; }); }, 4500);
+})();
+</script>
