@@ -1,6 +1,6 @@
 # Rutina diaria de Claude en Chrome · LinkedIn de Sandra
 
-Se guarda una sola vez en Claude en Chrome como tarea programada (o atajo), de lunes a domingo (regla 16): lunes a viernes a las 8:00 a. m. y a las 6:00 p. m.; sábado a las 9:30 a. m.; domingo a las 5:30 p. m. Hora Bogotá, 30 minutos después de cada publicación. Fines de semana: máximo 5 comentarios.
+Se guarda en Claude en Chrome como tarea programada, 5 minutos después de cada publicación (actualizado el 4 nov 2026): lunes a viernes 7:35 a. m. y 5:35 p. m.; sábado 9:05 a. m.; domingo 5:05 p. m., hora Bogotá. La Parte 1 va primero. Fines de semana: máximo 5 comentarios.
 
 Página que la rutina lee: https://claude.ai/artifact/3rS4cJB2opfxrwTMFUCyGe (Cola IAM LinkedIn). Claude la actualiza cada vez que publica un post.
 
