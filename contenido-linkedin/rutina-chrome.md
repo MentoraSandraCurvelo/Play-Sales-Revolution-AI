@@ -25,6 +25,7 @@ PARTE 2 · Comentarios de visibilidad (con mi aprobación)
    - Líderes de IA en Colombia y Latinoamérica.
    - Gremios, cajas de compensación y entidades de gobierno.
    - Directivos de mis clientes (por ejemplo, Drummond).
+   - (Agregado el 4 nov 2026 por Sandra) También cualquier publicación o documento (PDF, carrusel, informe, estudio) sobre IA o productividad publicado por cámaras de comercio de Colombia y América Latina y sus directivos, empresas privadas grandes de cualquier industria y sus directivos, y las personas de mi lista de prospección. Estos comentarios preparan los mensajes de prospección. En cada lista de 10, al menos 3 deben ser de cámaras de comercio o empresas privadas grandes.
 5. Escoge hasta 10 publicaciones de sectores distintos. Para cada una redacta un comentario de 2 a 5 líneas:
    - Conecta con lo que dijo el autor.
    - Aporta un dato, una experiencia mía o una idea de método (medir antes de automatizar, IAE™, DIAL-3R™).
