@@ -137,6 +137,22 @@ td.st{color:var(--red)!important;font-weight:800} .dk td.st{color:var(--red-hi)!
 .lt .open,.lt .frente{background:var(--card);border-top:4px solid var(--red)}
 .num2{font-family:var(--f-h);font-weight:800;font-size:34px;color:var(--red)}
 .dk .num2{color:var(--red-hi)}
+.gl{display:grid;grid-template-columns:430px 1fr 136px;align-items:center;gap:16px;font-size:21px}
+.gl .lb{font-weight:700;text-align:right;min-width:0;overflow:hidden;
+  text-overflow:ellipsis;white-space:nowrap}
+.gl .gm{font-size:19px;font-variant-numeric:tabular-nums}
+.dk .gl .gm{color:var(--mute-d)} .lt .gl .gm{color:var(--mute-l)}
+.gl.hdr{font-size:19px;letter-spacing:2px;text-transform:uppercase;padding-bottom:8px}
+.dk .gl.hdr{color:var(--mute-d)} .lt .gl.hdr{color:var(--mute-l)}
+.gt{position:relative;height:28px}
+.dk .gt{background:var(--ink-3)} .lt .gt{background:#e8e4de}
+.gb{position:absolute;top:0;bottom:0;width:0;left:var(--l);background:var(--red);
+  transition:width 1s cubic-bezier(.2,.8,.2,1);transition-delay:var(--d,0s)}
+.dk .gb{background:var(--red-hi)}
+.act .gb{width:var(--w)}
+.regla{display:grid;grid-template-columns:repeat(12,1fr);font-size:17px;text-align:center}
+.regla span{padding-bottom:4px}
+.dk .regla{border-bottom:1px solid var(--rule-d)} .lt .regla{border-bottom:1px solid var(--rule-l)}
 .lienzo{position:relative}
 #burbujas{width:100%;height:600px;display:block;cursor:default}
 .tip{position:absolute;transform:translate(-50%,-100%);pointer-events:none;
@@ -219,7 +235,7 @@ td.st{color:var(--red)!important;font-weight:800} .dk td.st{color:var(--red-hi)!
       <div class="row wrap"><span class="chip bord">Agencia de Empleo</span><span class="chip bord">IPS</span><span class="chip bord">Vivienda</span><span class="chip bord">Contabilidad</span><span class="chip bord">Sub. Admin y Financiera</span><span class="chip bord">Educación</span><span class="chip bord">Jurídica</span><span class="chip bord">Subsidio y Aportes</span><span class="chip bord">Servicios Sociales</span><span class="chip bord">Comunicaciones</span><span class="chip bord">Sub. Operativa</span><span class="chip bord">Gerencia Financiera</span></div>
     </div>
     <div class="col" style="width:540px;gap:0;border-left:1px solid var(--rule-d);padding-left:38px">
-      <p class="big huge">250</p>
+      <p class="big huge"><span data-n="250.0" data-dec="0">250</span></p>
       <p class="sub" style="padding-top:10px">horas recuperadas cada semana</p>
       <p class="hair" style="padding-top:12px">equivalen a 5 jornadas de trabajo, o a
         6 personas a tiempo completo, sin contratar a nadie</p>
@@ -236,7 +252,7 @@ td.st{color:var(--red)!important;font-weight:800} .dk td.st{color:var(--red-hi)!
 
   <p class="eb">Bloque 01 · los resultados</p>
   <h2>Once semanas, y esto es lo que quedó instalado</h2>
-  <div class="grid3"><div class="tile rv" style="--d:0.05s"><p class="big">119</p><p class="lab">sesiones verificadas, con grabación, acta y asistencia</p></div><div class="tile rv" style="--d:0.13s"><p class="big">18<small> / 18</small></p><p class="lab">áreas llegaron al cierre, ninguna quedó por fuera</p></div><div class="tile rv" style="--d:0.21s"><p class="big">91<small>%</small></p><p class="lab">de asistencia acumulada: 203 de 223 convocados</p></div><div class="tile rv" style="--d:0.29s"><p class="big">250<small> h</small></p><p class="lab">recuperadas cada semana en toda la Caja</p></div><div class="tile rv" style="--d:0.37s"><p class="big">4,7<small> → </small>8,6</p><p class="lab">confianza usando IA, antes y después, escala de 1 a 10</p><p class="src">20 respuestas anónimas</p></div><div class="tile rv" style="--d:0.45s"><p class="big">50<small>%</small></p><p class="lab">de quienes respondieron son promotores del programa</p><p class="src">NPS +20 sobre 20 respuestas anónimas</p></div></div>
+  <div class="grid3"><div class="tile rv" style="--d:0.05s"><p class="big"><span data-n="119.0" data-dec="0">119</span></p><p class="lab">sesiones verificadas, con grabación, acta y asistencia</p></div><div class="tile rv" style="--d:0.13s"><p class="big"><span data-n="18.0" data-dec="0">18</span><small> / <span data-n="18.0" data-dec="0">18</span></small></p><p class="lab">áreas llegaron al cierre, ninguna quedó por fuera</p></div><div class="tile rv" style="--d:0.21s"><p class="big"><span data-n="91.0" data-dec="0">91</span><small>%</small></p><p class="lab">de asistencia acumulada: 203 de 223 convocados</p></div><div class="tile rv" style="--d:0.29s"><p class="big"><span data-n="250.0" data-dec="0">250</span><small> h</small></p><p class="lab">recuperadas cada semana en toda la Caja</p></div><div class="tile rv" style="--d:0.37s"><p class="big"><span data-n="4.7" data-dec="1">4,7</span><small> → </small><span data-n="8.6" data-dec="1">8,6</span></p><p class="lab">confianza usando IA, antes y después, escala de 1 a 10</p><p class="src">20 respuestas anónimas</p></div><div class="tile rv" style="--d:0.45s"><p class="big"><span data-n="50.0" data-dec="0">50</span><small>%</small></p><p class="lab">de quienes respondieron son promotores del programa</p><p class="src">NPS +20 sobre 20 respuestas anónimas</p></div></div>
   <p class="note rv" style="--d:.6s">Sesiones, asistencia y confianza salen de actas, grabaciones y
     encuesta anónima. <b>Las horas son la recuperación real del programa</b>, e incluyen los
     ejercicios que las áreas construyeron y no alcanzaron a registrar en el tablero.</p>
@@ -248,7 +264,7 @@ td.st{color:var(--red)!important;font-weight:800} .dk td.st{color:var(--red-hi)!
   <div class="row" style="gap:56px;flex:1;align-items:center">
     <div class="col f1" style="gap:12px"><div class="hb" style="grid-template-columns:330px 1fr 130px"><span class="lb">Sub. Admin y Financiera</span><div class="trk"><i class="bar" style="--w:100.0%;--d:0.0s"></i></div><span class="vl">61 h</span></div><div class="hb" style="grid-template-columns:330px 1fr 130px"><span class="lb">Vivienda</span><div class="trk"><i class="bar" style="--w:83.6%;--d:0.08s"></i></div><span class="vl">51 h</span></div><div class="hb" style="grid-template-columns:330px 1fr 130px"><span class="lb">Jurídica</span><div class="trk"><i class="bar" style="--w:50.8%;--d:0.16s"></i></div><span class="vl">31 h</span></div><div class="hb" style="grid-template-columns:330px 1fr 130px"><span class="lb">Subsidio y Aportes</span><div class="trk"><i class="bar" style="--w:50.8%;--d:0.24s"></i></div><span class="vl">31 h</span></div><div class="hb" style="grid-template-columns:330px 1fr 130px"><span class="lb">IPS</span><div class="trk"><i class="bar" style="--w:49.2%;--d:0.32s"></i></div><span class="vl">30 h</span></div><div class="hb" style="grid-template-columns:330px 1fr 130px"><span class="lb">Comunicaciones</span><div class="trk"><i class="bar" style="--w:29.5%;--d:0.4s"></i></div><span class="vl">18 h</span></div><div class="hb" style="grid-template-columns:330px 1fr 130px"><span class="lb">Servicios Sociales</span><div class="trk"><i class="bar" style="--w:24.6%;--d:0.48s"></i></div><span class="vl">15 h</span></div><div class="hb" style="grid-template-columns:330px 1fr 130px"><span class="lb">Agencia de Empleo</span><div class="trk"><i class="bar" style="--w:9.8%;--d:0.56s"></i></div><span class="vl">6 h</span></div><div class="hb" style="grid-template-columns:330px 1fr 130px"><span class="lb">Contabilidad</span><div class="trk"><i class="bar" style="--w:4.9%;--d:0.64s"></i></div><span class="vl">3 h</span></div><div class="hb" style="grid-template-columns:330px 1fr 130px"><span class="lb">Sub. Operativa</span><div class="trk"><i class="bar" style="--w:4.9%;--d:0.72s"></i></div><span class="vl">3 h</span></div><div class="hb" style="grid-template-columns:330px 1fr 130px"><span class="lb">Educación</span><div class="trk"><i class="bar" style="--w:1.6%;--d:0.8s"></i></div><span class="vl">1 h</span></div><div class="hb" style="grid-template-columns:330px 1fr 130px"><span class="lb">Cumplimiento</span><div class="trk"><i class="bar" style="--w:0.0%;--d:0.88s"></i></div><span class="vl">&lt;1 h</span></div></div>
     <div class="col" style="width:470px;gap:24px">
-      <div><p class="big huge">250</p><p class="sub">horas por semana</p></div>
+      <div><p class="big huge"><span data-n="250.0" data-dec="0">250</span></p><p class="sub">horas por semana</p></div>
       <p class="note">Doce áreas de dieciocho concentran la recuperación. <b>Las otras seis
         también construyeron:</b> lo que no hicieron fue anotarlo, y esa es una de las cosas
         que esta fase deja abiertas.</p>
@@ -261,7 +277,7 @@ td.st{color:var(--red)!important;font-weight:800} .dk td.st{color:var(--red-hi)!
   <h2>Cuatro ejes de 25 puntos. Cien es el techo.</h2>
   <p class="lede">No mide cuánta inteligencia artificial usa un área. Mide cuánto de su trabajo
     quedó convertido en sistema: sostenido, documentado, medido y andando solo.</p>
-  <div class="row" style="gap:24px"><div class="col f1 eje rv" style="--d:0.1s"><p class="big" style="font-size:64px">25</p><h3>Adopción</h3><p class="hair">Sesiones de trabajo que el área sostuvo</p><p class="um">10 sesiones = 25 puntos</p></div><div class="col f1 eje rv" style="--d:0.25s"><p class="big" style="font-size:64px">25</p><h3>Producción</h3><p class="hair">Procesos documentados y medidos en el tablero</p><p class="um">8 procesos = 25 puntos</p></div><div class="col f1 eje rv" style="--d:0.4s"><p class="big" style="font-size:64px">25</p><h3>Impacto</h3><p class="hair">Horas recuperadas cada semana</p><p class="um">20 horas = 25 puntos</p></div><div class="col f1 eje rv" style="--d:0.5499999999999999s"><p class="big" style="font-size:64px">25</p><h3>Autonomía</h3><p class="hair">Agentes construidos y corriendo solos</p><p class="um">4 puntos por agente, 8,5 más si ya corre</p></div></div>
+  <div class="row" style="gap:24px"><div class="col f1 eje rv" style="--d:0.1s"><p class="big" style="font-size:64px"><span data-n="25.0" data-dec="0">25</span></p><h3>Adopción</h3><p class="hair">Sesiones de trabajo que el área sostuvo</p><p class="um">10 sesiones = 25 puntos</p></div><div class="col f1 eje rv" style="--d:0.25s"><p class="big" style="font-size:64px"><span data-n="25.0" data-dec="0">25</span></p><h3>Producción</h3><p class="hair">Procesos documentados y medidos en el tablero</p><p class="um">8 procesos = 25 puntos</p></div><div class="col f1 eje rv" style="--d:0.4s"><p class="big" style="font-size:64px"><span data-n="25.0" data-dec="0">25</span></p><h3>Impacto</h3><p class="hair">Horas recuperadas cada semana</p><p class="um">20 horas = 25 puntos</p></div><div class="col f1 eje rv" style="--d:0.5499999999999999s"><p class="big" style="font-size:64px"><span data-n="25.0" data-dec="0">25</span></p><h3>Autonomía</h3><p class="hair">Agentes construidos y corriendo solos</p><p class="um">4 puntos por agente, 8,5 más si ya corre</p></div></div>
   <p class="note rv" style="--d:.7s">Los umbrales están fijos y declarados, no son relativos al mejor
     del grupo. <b>Un área puede leer su propio número sin compararse con nadie.</b></p>
 </section>
@@ -273,7 +289,7 @@ td.st{color:var(--red)!important;font-weight:800} .dk td.st{color:var(--red-hi)!
       <h2>El relieve de la Caja, hoy</h2>
     </div>
     <div class="col" style="text-align:right;gap:4px">
-      <p class="big" style="font-size:78px">32<small> → </small>40</p>
+      <p class="big" style="font-size:78px"><span data-n="32.0" data-dec="0">32</span><small> → </small><span data-n="40.0" data-dec="0">40</span></p>
       <p class="hair">IIE promedio · 30 de septiembre al cierre</p>
     </div>
   </div>
@@ -313,9 +329,9 @@ td.st{color:var(--red)!important;font-weight:800} .dk td.st{color:var(--red-hi)!
   <div class="f1" style="min-width:0"><svg id="acum" viewBox="0 0 1680 372" role="img"
     aria-label="Horas acumuladas semana a semana durante un año"></svg></div>
   <div class="grid3">
-    <div class="tile rv" style="--d:0.6s"><p class="big">13.000<small> h</small></p><p class="lab">al año, si nada más cambia</p></div>
-    <div class="tile rv" style="--d:0.7s"><p class="big">6</p><p class="lab">personas a tiempo completo, sin contratar a nadie</p><p class="src">44 h por semana</p></div>
-    <div class="tile rv" style="--d:0.8s"><p class="big">5</p><p class="lab">jornadas de trabajo recuperadas por semana</p><p class="src">48 h = una jornada de 8 h × 6</p></div>
+    <div class="tile rv" style="--d:0.6s"><p class="big"><span data-n="13000.0" data-dec="0">13.000</span><small> h</small></p><p class="lab">al año, si nada más cambia</p></div>
+    <div class="tile rv" style="--d:0.7s"><p class="big"><span data-n="6.0" data-dec="0">6</span></p><p class="lab">personas a tiempo completo, sin contratar a nadie</p><p class="src">44 h por semana</p></div>
+    <div class="tile rv" style="--d:0.8s"><p class="big"><span data-n="5.0" data-dec="0">5</span></p><p class="lab">jornadas de trabajo recuperadas por semana</p><p class="src">48 h = una jornada de 8 h × 6</p></div>
   </div>
 </section>
 <section class="slide lt" id="pesos" data-t="El valor en pesos" data-ft="Horas medidas por el programa y valoradas con las tarifas de costo hora de Comfacesar · 52 semanas al año">
@@ -326,7 +342,7 @@ td.st{color:var(--red)!important;font-weight:800} .dk td.st{color:var(--red-hi)!
   <p class="lede">Un proceso no lo ejecuta un solo perfil. Hay quien lo hace y quien lo
     revisa, así que la valoración usa <b>un promedio de los perfiles que intervienen</b>,
     no el costo de una persona en particular.</p>
-  <div class="grid3"><div class="tile rv" style="--d:0.1s"><p class="big" style="font-size:52px;letter-spacing:-1px">$12.401.625</p><p class="lab">Cada semana</p></div><div class="tile rv" style="--d:0.26s"><p class="big" style="font-size:52px;letter-spacing:-1px">$53.740.375</p><p class="lab">Cada mes</p></div><div class="tile rv" style="--d:0.42000000000000004s"><p class="big" style="font-size:52px;letter-spacing:-1px">$644.884.500</p><p class="lab">En doce meses</p></div></div>
+  <div class="grid3"><div class="tile rv" style="--d:0.1s"><p class="big" style="font-size:52px;letter-spacing:-1px">$<span data-n="12401625.0" data-dec="0">12.401.625</span></p><p class="lab">Cada semana</p></div><div class="tile rv" style="--d:0.26s"><p class="big" style="font-size:52px;letter-spacing:-1px">$<span data-n="53740375.0" data-dec="0">53.740.375</span></p><p class="lab">Cada mes</p></div><div class="tile rv" style="--d:0.42000000000000004s"><p class="big" style="font-size:52px;letter-spacing:-1px">$<span data-n="644884500.0" data-dec="0">644.884.500</span></p><p class="lab">En doce meses</p></div></div>
   <p class="note rv" style="--d:.6s">Es dinero que <b>no se deja de gastar una vez</b>:
     son horas de gente que ya está contratada y que ahora se emplean en otra cosa.
     13.000 horas al año que la Caja recupera sin contratar a nadie.</p>
@@ -341,8 +357,8 @@ td.st{color:var(--red)!important;font-weight:800} .dk td.st{color:var(--red-hi)!
       aria-label="Confianza usando IA antes y después del programa"></svg></div>
     <div class="col" style="width:470px;gap:24px">
       <div><p class="hair">Media de confianza usando IA, escala de 1 a 10</p>
-        <p class="big" style="font-size:88px;white-space:nowrap"><span class="soft-n">4,7</span><span
-        style="color:var(--red-hi)"> → 8,6</span></p></div>
+        <p class="big" style="font-size:88px;white-space:nowrap"><span class="soft-n"><span data-n="4.7" data-dec="1">4,7</span></span><span
+        style="color:var(--red-hi)"> → <span data-n="8.6" data-dec="1">8,6</span></span></p></div>
       <p class="note"><b>La mitad de quienes respondieron son promotores.</b>
         NPS +20, positivo, sobre 20 respuestas anónimas.</p>
       <p class="note"><b>Quienes tomaron seis o más sesiones califican la utilidad en 10.</b>
@@ -408,6 +424,16 @@ td.st{color:var(--red)!important;font-weight:800} .dk td.st{color:var(--red-hi)!
   <p class="note rv" style="--d:.6s">Nada de esto pide cambiar el ecosistema de software
     que la Caja ya pagó, ni contratar a nadie. <b>Son procesos y conexiones.</b></p>
 </section>
+<section class="slide lt" id="cronograma" data-t="Los doce bloques" data-ft="Los doce frentes de la fase 2 con el rango de meses que trae la propuesta · el alcance y la inversión se tratan aparte">
+
+  <p class="eb">Bloque 03 · el año</p>
+  <h2>Los doce bloques, y en qué meses va cada uno</h2>
+  <div class="col" style="gap:5px;flex:1;justify-content:center">
+    <div class="gl hdr"><span class="lb">Frente de trabajo</span>
+      <div class="regla"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span></div><span class="gm">Meses</span></div>
+    <div class="gl rv" style="--d:0.0s"><span class="lb">Inventario de sistemas: qué hay y dónde</span><div class="gt"><i class="gb" style="--l:0.0000%;--w:8.3333%;--d:0.3s"></i></div><span class="gm">Mes 1</span></div><div class="gl rv" style="--d:0.05s"><span class="lb">Levantamiento de equipos</span><div class="gt"><i class="gb" style="--l:0.0000%;--w:8.3333%;--d:0.37s"></i></div><span class="gm">Mes 1</span></div><div class="gl rv" style="--d:0.1s"><span class="lb">IAM™ Hello, un solo lugar de trabajo</span><div class="gt"><i class="gb" style="--l:0.0000%;--w:25.0000%;--d:0.44s"></i></div><span class="gm">Meses 1 a 3</span></div><div class="gl rv" style="--d:0.15000000000000002s"><span class="lb">Cimentar lo que las áreas ya construyeron</span><div class="gt"><i class="gb" style="--l:0.0000%;--w:33.3333%;--d:0.51s"></i></div><span class="gm">Meses 1 a 4</span></div><div class="gl rv" style="--d:0.2s"><span class="lb">El Tableau que ya está pagado</span><div class="gt"><i class="gb" style="--l:0.0000%;--w:41.6667%;--d:0.5800000000000001s"></i></div><span class="gm">Meses 1 a 5</span></div><div class="gl rv" style="--d:0.25s"><span class="lb">Volver a Vivienda y Mercadeo</span><div class="gt"><i class="gb" style="--l:0.0000%;--w:50.0000%;--d:0.65s"></i></div><span class="gm">Meses 1 a 6</span></div><div class="gl rv" style="--d:0.30000000000000004s"><span class="lb">Licenciamiento, con el sponsor</span><div class="gt"><i class="gb" style="--l:8.3333%;--w:25.0000%;--d:0.72s"></i></div><span class="gm">Meses 2 a 4</span></div><div class="gl rv" style="--d:0.35000000000000003s"><span class="lb">Gobernanza, con Cumplimiento</span><div class="gt"><i class="gb" style="--l:8.3333%;--w:50.0000%;--d:0.79s"></i></div><span class="gm">Meses 2 a 7</span></div><div class="gl rv" style="--d:0.4s"><span class="lb">IAM™ Commercial en Mercadeo</span><div class="gt"><i class="gb" style="--l:8.3333%;--w:66.6667%;--d:0.8600000000000001s"></i></div><span class="gm">Meses 2 a 9</span></div><div class="gl rv" style="--d:0.45s"><span class="lb">Digitalización y cultura de no papel</span><div class="gt"><i class="gb" style="--l:8.3333%;--w:66.6667%;--d:0.9300000000000002s"></i></div><span class="gm">Meses 2 a 9</span></div><div class="gl rv" style="--d:0.5s"><span class="lb">Tableros enganchados a la gestión</span><div class="gt"><i class="gb" style="--l:16.6667%;--w:66.6667%;--d:1.0s"></i></div><span class="gm">Meses 3 a 10</span></div><div class="gl rv" style="--d:0.55s"><span class="lb">Salir de la red local</span><div class="gt"><i class="gb" style="--l:33.3333%;--w:66.6667%;--d:1.07s"></i></div><span class="gm">Meses 5 a 12</span></div>
+  </div>
+</section>
 <section class="slide dk" id="cierre" data-t="Lo que se queda en la Caja" data-ft="Sandra Curvelo · Mentora IAM™ · Influence, AI & Monetization">
 
   <div class="row" style="gap:80px;flex:1">
@@ -420,7 +446,7 @@ td.st{color:var(--red)!important;font-weight:800} .dk td.st{color:var(--red-hi)!
     </div>
     <div class="col f1" style="gap:34px;justify-content:center">
       <h3 class="q">Lo que se queda</h3>
-      <div class="row paso rv" style="--d:0.12s"><p class="big" style="font-size:66px;min-width:230px">12</p><p class="sub" style="font-weight:400;font-size:26px;align-self:center">áreas con al menos un proceso propio, medido y andando</p></div><div class="row paso rv" style="--d:0.3s"><p class="big" style="font-size:66px;min-width:230px">13<small> / 5</small></p><p class="sub" style="font-weight:400;font-size:26px;align-self:center">agentes construidos, y los que ya corren solos</p></div><div class="row paso rv" style="--d:0.48s"><p class="big" style="font-size:66px;min-width:230px">250<small> h</small></p><p class="sub" style="font-weight:400;font-size:26px;align-self:center">que vuelven cada semana, sin volver a invertir</p></div>
+      <div class="row paso rv" style="--d:0.12s"><p class="big" style="font-size:66px;min-width:230px"><span data-n="12.0" data-dec="0">12</span></p><p class="sub" style="font-weight:400;font-size:26px;align-self:center">áreas con al menos un proceso propio, medido y andando</p></div><div class="row paso rv" style="--d:0.3s"><p class="big" style="font-size:66px;min-width:230px"><span data-n="13.0" data-dec="0">13</span><small> / <span data-n="5.0" data-dec="0">5</span></small></p><p class="sub" style="font-weight:400;font-size:26px;align-self:center">agentes construidos, y los que ya corren solos</p></div><div class="row paso rv" style="--d:0.48s"><p class="big" style="font-size:66px;min-width:230px"><span data-n="250.0" data-dec="0">250</span><small> h</small></p><p class="sub" style="font-weight:400;font-size:26px;align-self:center">que vuelven cada semana, sin volver a invertir</p></div>
     </div>
   </div>
 </section>

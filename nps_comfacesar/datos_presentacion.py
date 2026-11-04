@@ -176,6 +176,26 @@ ENUNCIADO = [
     ]),
 ]
 
+# Los doce bloques de la fase 2 con su rango de meses, tal como están en la
+# propuesta. Es el cronograma que Sandra quiere al final: qué se hace y cuándo,
+# sin precio y sin pedir una decisión.
+CRONOGRAMA = [
+    ('Inventario de sistemas: qué hay y dónde', 1, 1),
+    ('Levantamiento de equipos', 1, 1),
+    ('IAM™ Hello, un solo lugar de trabajo', 1, 3),
+    ('Cimentar lo que las áreas ya construyeron', 1, 4),
+    ('El Tableau que ya está pagado', 1, 5),
+    ('Volver a Vivienda y Mercadeo', 1, 6),
+    ('Licenciamiento, con el sponsor', 2, 4),
+    ('Gobernanza, con Cumplimiento', 2, 7),
+    ('IAM™ Commercial en Mercadeo', 2, 9),
+    ('Digitalización y cultura de no papel', 2, 9),
+    ('Tableros enganchados a la gestión', 3, 10),
+    ('Salir de la red local', 5, 12),
+]
+assert len(CRONOGRAMA) == 12, len(CRONOGRAMA)
+assert all(1 <= a <= b <= 12 for _, a, b in CRONOGRAMA)
+
 # El detalle de los seis frentes y el año trimestre por trimestre quedan aquí,
 # fuera de la presentación de cierre. Son material de la propuesta, no del cierre.
 FRENTES = [

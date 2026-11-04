@@ -490,7 +490,29 @@ s16 = slide("cierre", "Lo que se queda en la Caja", f"""
     </div>
   </div>""", pie="Sandra Curvelo · Mentora IAM™ · Influence, AI & Monetization")
 
-SLIDES = [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16]
+# ──────────────── 16 · los doce bloques del año ────────────────
+
+def gantt(t, a, b, i):
+    izq = (a - 1) / 12 * 100
+    anc = (b - a + 1) / 12 * 100
+    meses = f"Mes {a}" if a == b else f"Meses {a} a {b}"
+    return (f'<div class="gl rv" style="--d:{.05 * i}s"><span class="lb">{t}</span>'
+            f'<div class="gt"><i class="gb" style="--l:{izq:.4f}%;--w:{anc:.4f}%;'
+            f'--d:{.3 + .07 * i}s"></i></div>'
+            f'<span class="gm">{meses}</span></div>')
+
+regla = "".join(f'<span>{m}</span>' for m in range(1, 13))
+s16b = slide("cronograma", "Los doce bloques", f"""
+  <p class="eb">Bloque 03 · el año</p>
+  <h2>Los doce bloques, y en qué meses va cada uno</h2>
+  <div class="col" style="gap:5px;flex:1;justify-content:center">
+    <div class="gl hdr"><span class="lb">Frente de trabajo</span>
+      <div class="regla">{regla}</div><span class="gm">Meses</span></div>
+    {"".join(gantt(t, a, b, i) for i, (t, a, b) in enumerate(D.CRONOGRAMA))}
+  </div>""", oscura=False,
+             pie="Los doce frentes de la fase 2 con el rango de meses que trae la propuesta · el alcance y la inversión se tratan aparte")
+
+SLIDES = [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16b, s16]
 
 # ───────────────────────── CSS ─────────────────────────
 
@@ -625,6 +647,22 @@ td.st{color:var(--red)!important;font-weight:800} .dk td.st{color:var(--red-hi)!
 .lt .open,.lt .frente{background:var(--card);border-top:4px solid var(--red)}
 .num2{font-family:var(--f-h);font-weight:800;font-size:34px;color:var(--red)}
 .dk .num2{color:var(--red-hi)}
+.gl{display:grid;grid-template-columns:430px 1fr 136px;align-items:center;gap:16px;font-size:21px}
+.gl .lb{font-weight:700;text-align:right;min-width:0;overflow:hidden;
+  text-overflow:ellipsis;white-space:nowrap}
+.gl .gm{font-size:19px;font-variant-numeric:tabular-nums}
+.dk .gl .gm{color:var(--mute-d)} .lt .gl .gm{color:var(--mute-l)}
+.gl.hdr{font-size:19px;letter-spacing:2px;text-transform:uppercase;padding-bottom:8px}
+.dk .gl.hdr{color:var(--mute-d)} .lt .gl.hdr{color:var(--mute-l)}
+.gt{position:relative;height:28px}
+.dk .gt{background:var(--ink-3)} .lt .gt{background:#e8e4de}
+.gb{position:absolute;top:0;bottom:0;width:0;left:var(--l);background:var(--red);
+  transition:width 1s cubic-bezier(.2,.8,.2,1);transition-delay:var(--d,0s)}
+.dk .gb{background:var(--red-hi)}
+.act .gb{width:var(--w)}
+.regla{display:grid;grid-template-columns:repeat(12,1fr);font-size:17px;text-align:center}
+.regla span{padding-bottom:4px}
+.dk .regla{border-bottom:1px solid var(--rule-d)} .lt .regla{border-bottom:1px solid var(--rule-l)}
 .lienzo{position:relative}
 #burbujas{width:100%;height:600px;display:block;cursor:default}
 .tip{position:absolute;transform:translate(-50%,-100%);pointer-events:none;
@@ -1067,6 +1105,32 @@ assert not _choque, f"id repetido entre diapositiva y dibujo: {_choque}"
 _todos = re.findall(r'\sid="([^"]+)"', HTML)
 _dup = {i for i in _todos if _todos.count(i) > 1}
 assert not _dup, f"ids duplicados en el HTML: {_dup}"
+
+# Los números grandes se animan contando desde cero. El motor estaba escrito
+# desde el principio pero ningún número llevaba la marca que lo activa, así que
+# nunca arrancaba. Aquí se marca cada cifra dentro de un elemento .big.
+_NUM = re.compile(r"(?<![\d.,])(\d{1,3}(?:\.\d{3})*(?:,\d+)?)(?![\d.,])")
+
+
+def _marca(m):
+    txt = m.group(1)
+    val = float(txt.replace(".", "").replace(",", "."))
+    dec = len(txt.split(",")[1]) if "," in txt else 0
+    return f'<span data-n="{val}" data-dec="{dec}">{txt}</span>'
+
+
+def anima_numeros(html):
+    def por_big(m):
+        trozos = re.split(r"(<[^>]+>)", m.group(2))
+        return m.group(1) + "".join(
+            t if t.startswith("<") else _NUM.sub(_marca, t) for t in trozos
+        ) + m.group(3)
+
+    return re.sub(r'(<p class="big[^"]*"[^>]*>)(.*?)(</p>)', por_big, html, flags=re.S)
+
+
+HTML = anima_numeros(HTML)
+assert HTML.count("data-n=") >= 18, HTML.count("data-n=")
 
 SALIDA.write_text(HTML, encoding="utf-8")
 
