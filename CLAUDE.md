@@ -13,6 +13,8 @@ Todo lo que salga visual (tableros, mesas, reportes, páginas, presentaciones, p
 - Portadas de carruseles: montaje en ElevenLabs con temas de IA (saliendo de un deportivo rojo sin marcas visibles, puente de una nave espacial, tablero o hologramas en 3D, ciudad del futuro), siempre con su misma cara y su mismo pelo.
 - Fotos: usar fotos reales de Sandra de Dropbox ("/Fotos Profesionales" y "/2-Contenido/Mujer radiante", las de escenario con traje rojo). Evitar fotos donde aparezcan otras personas reconocibles sin su permiso.
 - Montajes con IA (aprobados por Sandra): para cada pieza, además de sus fotos reales, crear montajes en ElevenLabs a partir de sus fotos de Dropbox, cambiando atuendo, pose y escenario (oficina ejecutiva de noche, sala tipo Wall Street, escenario, y escenarios futuristas: puente de una nave espacial, hologramas, ciudad del futuro), manteniendo su misma cara y su mismo pelo. Generarlos en formato vertical para Instagram y mostrarle cada montaje antes de usarlo: si la cara no es fiel, no se usa.
+- Sin avatares hablando: Sandra probó los avatares de foto con voz (4 nov 2026) y no le gustaron (dientes raros, ritmo pausado, se ven ficticios). Sus videos son tomas reales grabadas por ella; los montajes con IA son solo imágenes fijas o clips cortos sin habla.
+- Cuerpo en los montajes: Sandra es delgada de cadera y de piernas. En todo montaje de cuerpo entero o de rodillas para arriba, pedir explícitamente cadera y piernas delgadas.
 - Antes de entregar, revisar el diseño completo una vez más contra esta lista.
 
 ## Regla: cada "Comenta [PALABRA]" lleva su guía y su respuesta automática

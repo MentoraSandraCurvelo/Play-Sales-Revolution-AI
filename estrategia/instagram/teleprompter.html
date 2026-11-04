@@ -84,6 +84,7 @@ header{position:fixed;left:0;right:0;top:0;z-index:5;
     <button class="ep" id="ep1" aria-pressed="true" type="button">Ep. 1</button>
     <button class="ep" id="ep2" aria-pressed="false" type="button">Ep. 2</button>
     <button class="ep" id="ventas" aria-pressed="false" type="button">Reel Ventas</button>
+    <button class="ep" id="agentica" aria-pressed="false" type="button">Reel Agéntica</button>
   </div>
 </header>
 
@@ -128,6 +129,15 @@ header{position:fixed;left:0;right:0;top:0;z-index:5;
         {tag:'Cierre', q:'¿Y después qué viene?', d:'A cámara · baja un poco la voz', a:'Conectar todos los tableros de la organización. Eso se llama <span class="hit">hiperconectividad.</span> Y te lo cuento en el próximo episodio.'}
       ]
     }
+    ,agentica: {
+      title: 'Reel · <b>IA generativa vs. IA agéntica</b>',
+      blocks: [
+        {tag:'Toma 1 · Gancho', q:'¿Sigues usando la IA para que te escriba textos?', d:'A cámara · energía alta · cejas arriba en la pregunta', a:'Eso es IA generativa. Lo que está cambiando las empresas <span class="hit">es la IA agéntica.</span>'},
+        {tag:'Toma 2 · La diferencia', q:'¿Y cuál es la diferencia?', d:'A cámara · cuenta con la mano: una mano para cada una', a:'La generativa te responde cuando le preguntas. <span class="hit">La agéntica trabaja por ti.</span> Revisa, decide el siguiente paso y te lo deja listo. Yo tengo una agente que arma las actas de todas mis reuniones y me las deja listas a las 8 de la mañana.'},
+        {tag:'Toma 3 · El tip', q:'¿Cómo creas tu primer agente?', d:'A cámara, y luego grabas tu pantalla haciendo estos 3 pasos', a:'Tres pasos. Uno: dale una misión con el método CREA. Dos: conéctalo a tus herramientas, tu correo y tu agenda. Tres: dale una tarea que repita solo. <span class="hit">Y tú solo apruebas.</span>'},
+        {tag:'Toma 4 · Cierre', q:'¿Quieres armar el tuyo?', d:'A cámara · sonrisa · señala abajo al decir "comenta"', a:'<span class="hit">Comenta AGENTE</span> y te paso tu tablero para crear tu primer agente. No es un PDF.'}
+      ]
+    }
     ,ventas: {
       title: 'Reel · <b>Claude, ¿el mejor vendedor de tu equipo?</b>',
       blocks: [
@@ -157,7 +167,7 @@ header{position:fixed;left:0;right:0;top:0;z-index:5;
       (b.d ? '<span class="dir">(' + b.d + ')</span>' : '') +
       '<p class="a">' + b.a + '</p></div>').join('') +
       '<p class="end">Fin del episodio · ⟲ para repetir la toma</p>';
-    ['ep1','ep2','ventas'].forEach(k => $(k).setAttribute('aria-pressed', String(k===ep)));
+    ['ep1','ep2','ventas','agentica'].forEach(k => $(k).setAttribute('aria-pressed', String(k===ep)));
     vp.scrollTop = 0; updateProg();
   }
   function applySize(){
@@ -212,7 +222,7 @@ header{position:fixed;left:0;right:0;top:0;z-index:5;
       else document.documentElement.requestFullscreen().catch(()=>{});
     }catch(e){}
   };
-  ['ep1','ep2','ventas'].forEach(k => $(k).onclick = () => { setPlaying(false); ep = k; store.set('ep', ep); render(); });
+  ['ep1','ep2','ventas','agentica'].forEach(k => $(k).onclick = () => { setPlaying(false); ep = k; store.set('ep', ep); render(); });
   sc.addEventListener('click', () => setPlaying(!playing));
   vp.addEventListener('scroll', updateProg, {passive:true});
   document.addEventListener('keydown', e => {

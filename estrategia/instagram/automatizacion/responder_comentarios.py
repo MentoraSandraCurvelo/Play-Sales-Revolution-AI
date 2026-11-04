@@ -16,18 +16,20 @@ YO = "sandracurvelo_iam"
 # Palabra clave (expresión regular) -> mensaje directo con su guía. La primera que coincida gana.
 PALABRAS = [
     (re.compile(r"\bventas?\b", re.I),
-     "¡Hola! Gracias por comentar 🙌 Aquí tienes mi guía para vender con Claude, con el método CREA y 6 prompts "
-     "comerciales listos para copiar: https://claude.ai/artifact/2C6WmB3NDLUKMLLr72xGnB Cuéntame cuál te funcionó. Sandra"),
+     "¡Hola! Gracias por comentar 🙌 Ya te paso tu tablero para crear tu agente comercial con Claude. No es un PDF: "
+     "es una página interactiva con la misión CREA y 6 tareas de IA agéntica que copias con un clic 👉 "
+     "https://claude.ai/artifact/2C6WmB3NDLUKMLLr72xGnB Cuéntame cuál te funcionó. Sandra"),
     (re.compile(r"\b(claude|linkedin)\b", re.I),
-     "¡Hola! Gracias por comentar 🙌 Aquí tienes la guía con los prompts que uso con Claude para mi LinkedIn: "
-     "https://claude.ai/artifact/XMtd5GiGfXSuGePjeaZRmX Cópialos y cuéntame cuál te funcionó. Sandra"),
+     "¡Hola! Gracias por comentar 🙌 Ya te paso tu tablero con los prompts que uso con Claude para mi LinkedIn. "
+     "No es un PDF: es una página interactiva donde copias cada prompt con un clic 👉 "
+     "https://claude.ai/artifact/XMtd5GiGfXSuGePjeaZRmX Cuéntame cuál te funcionó. Sandra"),
 ]
 def mensaje_para(texto):
     for rx, dm in PALABRAS:
         if rx.search(texto or ""):
             return dm
     return None
-PUBLICA = "¡Te lo envié por mensaje directo! 📩"
+PUBLICA = "¡Ya te paso tu tablero por mensaje directo! 📩"
 PRUEBA = "--prueba" in sys.argv
 
 
