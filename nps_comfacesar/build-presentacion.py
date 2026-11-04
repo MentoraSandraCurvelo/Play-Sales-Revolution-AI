@@ -119,7 +119,7 @@ bloques = [
     ("01", "Los resultados", "La dirección ve de dónde salió la Caja y dónde está hoy: horas, pesos, "
                              "el índice de inteligencia empresarial y lo que quedó abierto.",
      "Presenta la mentoría", "25 min"),
-    ("02", "Las áreas, en vivo", f"Las doce áreas con proceso activo muestran lo que construyeron. "
+    ("02", "Las áreas, en vivo", f"Las {palabra(len(D.JORNADA))} áreas con proceso activo muestran lo que construyeron. "
                                  f"No hay presentación preparada: se muestra funcionando.",
      "Presenta cada área", "Jornada completa"),
     ("03", "Lo que viene", "Hiperconectividad: dejar de tener dieciocho islas que no se hablan. "
@@ -382,9 +382,9 @@ def fila_area(i, area, ini, muestra):
             f'<p class="iie" style="width:84px;text-align:right">{ent(iie_a)}</p></div>')
 
 
-s12 = slide("jornada", "Las doce áreas", f"""
+s12 = slide("jornada", "Las áreas de la jornada", f"""
   <p class="eb">Bloque 02 · las áreas, en vivo</p>
-  <h2>Doce áreas, en este orden</h2>
+  <h2>{palabra(len(D.JORNADA)).capitalize()} áreas, en este orden</h2>
   <div class="col" style="gap:3px;flex:1;justify-content:center">
     <div class="row ja hd"><p class="n">N°</p><span style="width:44px"></span>
       <p class="f1">Área y qué muestra</p>
@@ -393,7 +393,7 @@ s12 = slide("jornada", "Las doce áreas", f"""
       <p style="width:84px;text-align:right">IIE</p></div>
     {"".join(fila_area(i, a, ini, m) for i, (a, ini, m) in enumerate(D.JORNADA))}
   </div>""",
-            pie="El orden lo fijó la dirección · las once primeras tienen procesos medidos en la Sala de Control")
+            pie="El orden lo fijó la dirección · todas tienen procesos medidos en la Sala de Control")
 
 # ───────────────────────── 13 · las indicaciones ─────────────────────────
 

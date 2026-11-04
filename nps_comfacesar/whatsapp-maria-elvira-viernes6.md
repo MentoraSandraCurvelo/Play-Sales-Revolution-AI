@@ -10,7 +10,7 @@ alineadas en el teléfono. Las tablas de markdown no se ven en WhatsApp.
 
 ⭕️ María Elvira, te paso el orden de las áreas que presentan el viernes 6, jornada completa.
 
-Son las doce que van, en este orden.
+Son las once que van, en este orden.
 
 ```
   N°   ÁREA
@@ -26,7 +26,6 @@ Son las doce que van, en este orden.
    9   Servicios Sociales
   10   Comunicaciones
   11   Sub. Operativa
-  12   Gerencia Financiera
 ```
 
 En la 5 presenta Rafael Solano.

@@ -101,7 +101,6 @@ CIERRA = {
     "Sub. Operativa": "Retomada tras la caída del 9 de septiembre",
     "Talento Humano": "Las tres personas con ejercicio propio",
     "Cumplimiento": "La S2 se cayó tres veces y se recuperó el 22 de septiembre",
-    "Gerencia Financiera": "Quedó sin la tercera sesión",
     "Planeación": "La primera habilidad construida del programa",
     "Tesorería": "Bloqueada: sus títulos siguen en papel",
 }
@@ -132,7 +131,6 @@ JORNADA = [
     ("Servicios Sociales", "SS", "Las actas de contrato y el agente que halló errores de origen"),
     ("Comunicaciones", "CM", "Tres agentes y el libreto de evento usado en vivo"),
     ("Sub. Operativa", "SO", "Maia, el primer agente del área"),
-    ("Gerencia Financiera", "GF", "Lo que mida en la sesión de esta semana"),
 ]
 # Quién presenta por cada área, en forma corta, que es la que cabe en la columna
 # de la diapositiva. Los nombres completos están en el mensaje a María Elvira,
@@ -149,7 +147,6 @@ PRESENTA = {
     "Servicios Sociales": "Juan Pablo",
     "Comunicaciones": "por confirmar",
     "Sub. Operativa": "Jennifer",
-    "Gerencia Financiera": "Liliany",
 }
 
 INDICACIONES = [
