@@ -1,9 +1,9 @@
 {
   "id": "mie-04-pm",
-  "estado": "aprobado",
+  "estado": "publicado",
   "programado_bogota": "2026-11-04 17:30",
   "primer_comentario": "La pregunta que me hacen siempre: ¿y si el agente se equivoca? Por eso los parámetros los define el área de finanzas, y cualquier caso fuera de rango vuelve a una persona. El agente revisa; la persona decide.",
-  "urn": null,
+  "urn": "urn:li:share:7523874541773713408",
   "payload": {
     "author": "urn:li:person:tsJbwdb3B2",
     "commentary": "Más de 2.000 legalizaciones. Revisadas una por una.\n\nAsí me lo contó una persona del área de finanzas: descargaba el archivo de legalizaciones del software interno, lo pasaba a Excel y las revisaba una a una. Filtros, a veces tablas dinámicas, y mucha paciencia.\n\nNo le enseñé una herramienta nueva. Le enseñé un sistema de trabajo con Claude como columna vertebral. Y desde ahí, esa persona misma:\n\n⭕ Creó un agente que hace la revisión\n⭕ Le dio parámetros de referencia claros: qué está bien, qué es una alerta y qué hay que mirar\n⭕ Con el agente saca el análisis y, con Claude Design, arma el tablero y el reporte\n\nNo depende de mí. Lo construyó con su propio criterio. Eso es lo que buscamos: activar el pensamiento creativo y estratégico de cada persona.\n\nHoy ese reporte está listo en 10 minutos. Y sin los errores de revisar a mano.\n\nLa decisión sigue siendo de la persona: qué se aprueba y qué no. La diferencia es que llega a esa decisión con todo revisado.\n\nEso es {hashtag|\\#|IAEmpresarial}: no reemplaza al equipo de {hashtag|\\#|Finanzas}, le quita lo repetitivo.\n\nLo que no se mide no puede ser mejorado.\n\n¿Qué revisión de tu área se sigue haciendo una por una?\n\nSi quieres ver cómo se mide la IA en finanzas, sígueme: cada semana comparto un caso real.\n\n{hashtag|\\#|Productividad} {hashtag|\\#|AgentesDeIA} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
@@ -17,5 +17,6 @@
     "isReshareDisabledByAuthor": false
   },
   "aprobado_por": "Sandra",
-  "aprobado_el": "2026-11-03"
+  "aprobado_el": "2026-11-03",
+  "publicado_utc": "2026-11-04T22:31:18+00:00"
 }
