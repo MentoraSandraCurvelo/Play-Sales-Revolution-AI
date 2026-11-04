@@ -1,12 +1,12 @@
 {
   "id": "mie-04-am",
-  "estado": "aprobado",
+  "estado": "publicado",
   "programado_bogota": "2026-11-04 07:30",
   "video": "urn:li:video:D4E10AQFdMpwk2YGAoQ",
   "titulo_video": "Contestación de demanda con IA · IAM™ Intelligence",
   "archivo_video": "contenido-linkedin/videos/ia-juridica-demanda.mp4",
   "primer_comentario": "Para los abogados que preguntan por la confidencialidad: el expediente se trabaja anonimizado y la IA no decide ni firma. ¿Qué otra pieza procesal te gustaría ver en un próximo video?",
-  "urn": null,
+  "urn": "urn:li:ugcPost:7523723452566978560",
   "payload": {
     "author": "urn:li:person:tsJbwdb3B2",
     "commentary": "¿Cuánto tiempo le toma a tu oficina jurídica armar la contestación de una demanda?\n\nEn muchas entidades el abogado no tiene tiempo de pensar. Lo tiene ocupado buscando en el expediente, contando términos y armando la estructura.\n\nAsí se ve cuando la IA hace el trabajo pesado:\n\n⭕ El abogado da una instrucción clara: rol, contexto, tarea, formato y límites\n⭕ La IA ordena el expediente y arma el borrador: hechos, pretensiones, excepciones y pruebas\n⭕ Señala los términos que vencen\n⭕ El abogado verifica cada cita, decide la estrategia y firma\n\nY una regla que no se negocia en la instrucción: \"No inventes normas ni jurisprudencia. Si falta un dato, dilo.\"\n\nLa IA no firma. Le devuelve al abogado el tiempo para pensar.\n\nEl video es un ejemplo ficticio, con la estructura con la que trabajamos en las áreas jurídicas. {hashtag|\\#|LegalTech} con criterio en el {hashtag|\\#|SectorPúblico}.\n\nLo que no se mide no puede ser mejorado.\n\nSi trabajas en una oficina jurídica: ¿qué parte de tu trabajo le entregarías primero a la IA?\n\nSi quieres ver cómo se mide la IA en lo jurídico, sígueme: cada semana muestro un caso real.\n\n{hashtag|\\#|GobiernoDigital} {hashtag|\\#|IAEmpresarial} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
@@ -20,5 +20,6 @@
     "isReshareDisabledByAuthor": false
   },
   "aprobado_por": "Sandra",
-  "aprobado_el": "2026-11-03"
+  "aprobado_el": "2026-11-03",
+  "publicado_utc": "2026-11-04T12:30:55+00:00"
 }
