@@ -1,0 +1,214 @@
+{
+  "proyecto": "Comfacesar",
+  "programa": "IAM™ Intelligence",
+  "anio": "2026",
+  "area": "Subsidio y Aportes",
+  "area_completa": "Subsidio y Aportes",
+  "sesion_num": 12,
+  "fase": "Cierre de la primera fase",
+  "fecha": "3 de noviembre de 2026",
+  "fecha_corta": "3noviembre2026",
+  "subtitulo_meta": "Preparación de la presentación final · 3 de noviembre de 2026 · 11:00 a. m. · 50 min",
+  "datos_sesion": [
+    [
+      "Área(s)",
+      "Subsidio y Aportes, Comfacesar"
+    ],
+    [
+      "Sesión",
+      "N° 12. Preparación de la presentación al director del viernes 6 de noviembre"
+    ],
+    [
+      "Fecha",
+      "Martes 3 de noviembre de 2026, 11:00 a. m."
+    ],
+    [
+      "Duración",
+      "50 minutos"
+    ],
+    [
+      "Modalidad",
+      "Virtual, Microsoft Teams"
+    ],
+    [
+      "Facilitadora",
+      "Sandra Curvelo, Mentora IAM™"
+    ]
+  ],
+  "kpis": [
+    {
+      "valor": "5",
+      "etiqueta": "Agentes del área",
+      "detalle": "María, Harvey, Afilia, Espedia y Requi, este último todavía en crudo"
+    },
+    {
+      "valor": "17",
+      "etiqueta": "Afiliaciones contestadas",
+      "detalle": "Por la mesa de Afilia, más 8 que proceden, 9 que no proceden y 7 por responder"
+    },
+    {
+      "valor": "2",
+      "etiqueta": "Revisiones de correo al día",
+      "detalle": "Afilia entra a las 10:00 a. m. y a las 4:00 p. m., y se puede forzar a demanda"
+    },
+    {
+      "valor": "4",
+      "etiqueta": "Frentes de la coordinación",
+      "detalle": "Presupuesto, Agente 360, Asistia y Anexia, que el área presenta en representación"
+    }
+  ],
+  "participantes": [
+    {
+      "nombre": "Sandra Curvelo",
+      "cargo": "Mentora IAM™ (Facilitadora)",
+      "correo": "",
+      "modalidad": "Virtual",
+      "nivel": "Experta"
+    },
+    {
+      "nombre": "Cindy Rodríguez",
+      "cargo": "Subsidio y Aportes",
+      "correo": "atencion_reclamos@comfacesar.com",
+      "modalidad": "Virtual",
+      "nivel": "Avanzado"
+    }
+  ],
+  "mapa_calor_intro": "Riesgos identificados en la Sesión 12. El área llega con cinco agentes construidos y corriendo, pero con dos de ellos sin documentar y con la asistencia del viernes sin confirmar.",
+  "riesgos": [
+    {
+      "titulo": "Espedia y Anexia no están en el tablero",
+      "nivel": "ALTO",
+      "descripcion": "**Dos de los ejercicios que el área va a mostrar no figuran en el tablero.** _Espedia es del área y Anexia es de la coordinación._ La regla del cierre es que lo que no está documentado no se presenta, y el tablero lo tiene el director. **El corte es el jueves.**"
+    },
+    {
+      "titulo": "La asistencia del viernes no está confirmada",
+      "nivel": "ALTO",
+      "descripcion": "**El área tiene una capacitación de área andina esa semana** y no estaba claro si cae el jueves o el viernes. _Quedó de confirmarlo._ Si cae el viernes, Subsidio y Aportes se queda sin quien presente, porque la coordinación tampoco estará."
+    },
+    {
+      "titulo": "El área llegó midiendo su aporte por debajo de lo construido",
+      "nivel": "MEDIO",
+      "descripcion": "**La sesión abrió con la duda de si el área tenía algo que mostrar.** _Con cinco agentes corriendo, un portal, la gestión diaria del correo automatizada y una mesa de afiliaciones con cifras vivas._ La conversación se fue en reconstruir el inventario de lo propio."
+    }
+  ],
+  "alertas": [
+    {
+      "num": "01",
+      "nivel": "ALTO",
+      "titulo": "Documentar Espedia en el tablero",
+      "descripcion": "**Hoy mismo.** _Es el agente de certificaciones de cobro_, el que arma la autorización a terceros desde un comando. Está corriendo y no está registrado."
+    },
+    {
+      "num": "02",
+      "nivel": "ALTO",
+      "titulo": "Preguntar por Anexia y documentarla",
+      "descripcion": "**Entre hoy y mañana, no el jueves.** _Es el análisis de bases de datos de la coordinación_ y es de lo que más tiempo está ahorrando. El corte del tablero es el jueves."
+    },
+    {
+      "num": "03",
+      "nivel": "ALTO",
+      "titulo": "Confirmar la capacitación de área andina",
+      "descripcion": "**Si cae el viernes, hay que resolverlo ya.** _La presentación al director es una sola vez._"
+    }
+  ],
+  "ejercicios": [
+    {
+      "titulo": "Ejercicio A · Reconstruir el inventario del área",
+      "duracion": "~18 min",
+      "objetivo": "Pasar del «no sé si tengo algo que mostrar» a la lista concreta de lo construido.",
+      "pasos": [
+        "María, la gestión diaria del correo: identifica mensajes, organiza la información, hace el reparto a los funcionarios encargados y sigue las solicitudes.",
+        "Harvey, los derechos de petición: produce la respuesta y se apoya en un banco propio.",
+        "Afilia, la mesa de afiliaciones: descarga del correo, dice cuáles proceden y cuáles no y por qué, y deja la respuesta lista para enviar o modificar.",
+        "Espedia, las certificaciones de cobro: desde un comando arma la autorización a terceros con titular, cédula, tarjeta y motivo.",
+        "Requi, todavía en crudo, que se muestra igual y queda para lo que sigue."
+      ],
+      "resultado": "Cinco agentes identificados, con su función descrita en palabras del área y no en etiquetas."
+    },
+    {
+      "titulo": "Ejercicio B · Cómo se cuenta cada uno al director",
+      "duracion": "~12 min",
+      "objetivo": "Fijar la estructura de la presentación, agente por agente.",
+      "pasos": [
+        "Una diapositiva por agente con el flujo manual de antes, paso a paso, y el flujo de ahora.",
+        "El tiempo que tomaba antes y el que toma ahora, en cada uno.",
+        "Después de la diapositiva, la demostración en vivo: quitar el slide y mostrarlo corriendo.",
+        "Al cerrar los cinco, la conclusión: cuántas horas se recuperaron y en qué se están empleando ahora.",
+        "Y el inventario de lo que falta, que es lo que entra en el alcance de lo que sigue."
+      ],
+      "resultado": "El área sale con la estructura definida y con la indicación de describir el circuito, no solo de mostrar el resultado."
+    }
+  ],
+  "oportunidades": [
+    {
+      "encabezado": "★ LO QUE HAY QUE SUBRAYAR · SESIÓN 12 · 3 noviembre 2026",
+      "titulo": "Afilia ya no es una promesa: tiene cifras vivas",
+      "cuerpo": "**En la pantalla, durante la sesión:** _7 solicitudes por responder, 8 que proceden, 9 que no proceden y 17 ya contestadas._ **Revisa el correo dos veces al día, a las 10:00 y a las 4:00**, y se puede forzar cuando llega un usuario presencial. Eso no es un piloto, es un proceso operando."
+    },
+    {
+      "encabezado": "★ LA DISTANCIA ENTRE LO CONSTRUIDO Y LO QUE EL ÁREA CREE QUE TIENE",
+      "titulo": "La sesión empezó preguntando si había algo que mostrar",
+      "cuerpo": "**Y terminó con cinco agentes inventariados y una estructura de presentación.** _Entre lo uno y lo otro no se construyó nada nuevo: solo se puso nombre a lo que ya estaba corriendo._ **Vale la pena mirarlo para las demás áreas**, porque lo que no se nombra tampoco se presenta."
+    },
+    {
+      "encabezado": "★ EL ÁREA PRESENTA POR DOS",
+      "titulo": "La coordinación no puede estar, y su trabajo se muestra igual",
+      "cuerpo": "**José Luciano Contreras está en permisos por una contingencia personal.** _Lo suyo se presenta de todos modos_: el tablero de presupuesto 2025 contra 2026, que antes era manual, el Agente 360 para la redistribución de funciones, Asistia para la gestión de su correo, y Anexia para el análisis de las bases de datos que maneja. **Anexia es la que más tiempo le está ahorrando y es la que no está documentada.**"
+    }
+  ],
+  "tareas_intro": "El área no tiene que construir nada antes del viernes. Tiene que documentar dos cosas, armar la narrativa y confirmar que puede estar.",
+  "tareas": [
+    {
+      "tarea": "Documentar Espedia en el tablero del área, con antes y después",
+      "responsable": "Cindy Rodríguez",
+      "prioridad": "URGENTE",
+      "plazo": "Hoy martes 3"
+    },
+    {
+      "tarea": "Preguntar a la coordinación por Anexia y documentarla en el tablero",
+      "responsable": "Cindy Rodríguez",
+      "prioridad": "URGENTE",
+      "plazo": "Entre hoy y mañana"
+    },
+    {
+      "tarea": "Confirmar si la capacitación de área andina cae el jueves o el viernes",
+      "responsable": "Cindy Rodríguez",
+      "prioridad": "URGENTE",
+      "plazo": "Hoy martes 3"
+    },
+    {
+      "tarea": "Armar la presentación: una diapositiva por agente con el flujo de antes y el de ahora, en tiempo",
+      "responsable": "Cindy Rodríguez",
+      "prioridad": "ALTA",
+      "plazo": "Antes del viernes 6"
+    },
+    {
+      "tarea": "Cerrar con las horas recuperadas y en qué se están empleando ahora",
+      "responsable": "Cindy Rodríguez",
+      "prioridad": "ALTA",
+      "plazo": "Antes del viernes 6"
+    },
+    {
+      "tarea": "Armar el inventario de procesos por mejorar del área, incluyendo los de Avelino y Carlos",
+      "responsable": "Cindy Rodríguez",
+      "prioridad": "MEDIA",
+      "plazo": "Antes del viernes 6"
+    }
+  ],
+  "observaciones": [
+    "**José Luciano Contreras no pudo asistir**, por permisos ante una contingencia personal. _Su trabajo lo presenta el área en su representación._",
+    "**El corte del tablero es el jueves**, para que el director lo tenga en tiempo real el viernes. Todo lo que entre después no alcanza a aparecer.",
+    "**La indicación de forma fue describir el circuito, no solo mostrar el resultado.** _El director no estuvo en las sesiones_, así que un tablero sin el antes no le dice nada.",
+    "**En la asistencia aparecen tres cuentas**: la de la mentoría, la de Cindy Rodríguez, y una tercera identificada solo como «cindy pao», que estuvo 42 minutos y no intervino. _No está en el roster del área y queda por confirmar quién es._",
+    "**La información del lugar y el horario del viernes la envía Comunicaciones por correo.**"
+  ],
+  "proxima_sesion": {
+    "sesion": "Presentación final ante la dirección, viernes 6 de noviembre",
+    "condiciones": [
+      "Espedia y Anexia documentadas en el tablero antes del corte del jueves",
+      "La presentación armada por agente, con antes y después en tiempo",
+      "La asistencia del viernes confirmada"
+    ]
+  },
+  "pie": "IAM™ Intelligence · Documento Confidencial | Comfacesar | 3 noviembre 2026 | Subsidio y Aportes · Sesión 12"
+}
