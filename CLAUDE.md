@@ -15,6 +15,15 @@ Todo lo que salga visual (tableros, mesas, reportes, páginas, presentaciones, p
 - Montajes con IA (aprobados por Sandra): para cada pieza, además de sus fotos reales, crear montajes en ElevenLabs a partir de sus fotos de Dropbox, cambiando atuendo, pose y escenario (oficina ejecutiva de noche, sala tipo Wall Street, escenario, y escenarios futuristas: puente de una nave espacial, hologramas, ciudad del futuro), manteniendo su misma cara y su mismo pelo. Generarlos en formato vertical para Instagram y mostrarle cada montaje antes de usarlo: si la cara no es fiel, no se usa.
 - Antes de entregar, revisar el diseño completo una vez más contra esta lista.
 
+## Regla: cada "Comenta [PALABRA]" lleva su guía y su respuesta automática
+Siempre que una pieza pida comentar una palabra clave, antes de publicarla:
+1. Crear la guía de esa palabra como página con el estilo de Sandra (por ejemplo, la guía de prompts para CLAUDE y LINKEDIN o la guía para vender con Claude para VENTA y VENTAS).
+2. Agregar la palabra a `estrategia/instagram/automatizacion/responder_comentarios.py`, que cada hora responde en público y envía la guía por mensaje directo.
+3. Recordarle a Sandra que comparta la guía con "cualquier persona con el enlace".
+
+## Publicación
+Sandra graba y aprueba el material; Claude decide la fecha y la hora de publicación de las piezas aprobadas, las programa y le avisa cada vez (4 nov 2026). Lo que no ha visto Sandra no se publica.
+
 ## Idioma y tono
 Español de Colombia, tuteo. Sin guiones para separar ideas. Números y signos en su formato. "Dinero", no "plata".
 

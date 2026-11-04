@@ -1,6 +1,7 @@
-"""Isaía · respuesta automática a quien comenta CLAUDE o LINKEDIN.
+"""Isaía · respuesta automática a quien comenta una palabra clave.
 
 Aprobado por Sandra el 4 nov 2026: texto del mensaje directo, respuesta pública y revisión cada hora.
+Regla de Sandra: cada llamado a comentar una palabra lleva su guía y su entrada en PALABRAS.
 El token de Meta lo inyecta el entorno como secreto de red: este script nunca lo lee ni lo imprime.
 
 Uso:
@@ -12,10 +13,20 @@ import json, re, subprocess, sys, datetime as dt
 API = "https://graph.facebook.com/v21.0"
 IG = "17841448964093245"
 YO = "sandracurvelo_iam"
-GUIA = "https://claude.ai/artifact/XMtd5GiGfXSuGePjeaZRmX"
-CLAVE = re.compile(r"\b(claude|linkedin)\b", re.I)
-DM = ("¡Hola! Gracias por comentar 🙌 Aquí tienes la guía con los prompts que uso con Claude "
-      f"para mi LinkedIn: {GUIA} Cópialos y cuéntame cuál te funcionó. Sandra")
+# Palabra clave (expresión regular) -> mensaje directo con su guía. La primera que coincida gana.
+PALABRAS = [
+    (re.compile(r"\bventas?\b", re.I),
+     "¡Hola! Gracias por comentar 🙌 Aquí tienes mi guía para vender con Claude, con el método CREA y 6 prompts "
+     "comerciales listos para copiar: https://claude.ai/artifact/2C6WmB3NDLUKMLLr72xGnB Cuéntame cuál te funcionó. Sandra"),
+    (re.compile(r"\b(claude|linkedin)\b", re.I),
+     "¡Hola! Gracias por comentar 🙌 Aquí tienes la guía con los prompts que uso con Claude para mi LinkedIn: "
+     "https://claude.ai/artifact/XMtd5GiGfXSuGePjeaZRmX Cópialos y cuéntame cuál te funcionó. Sandra"),
+]
+def mensaje_para(texto):
+    for rx, dm in PALABRAS:
+        if rx.search(texto or ""):
+            return dm
+    return None
 PUBLICA = "¡Te lo envié por mensaje directo! 📩"
 PRUEBA = "--prueba" in sys.argv
 
@@ -41,7 +52,8 @@ def main():
     enviados, fallos, pendientes = [], [], []
     for m in d.get("media", {}).get("data", []):
         for c in m.get("comments", {}).get("data", []):
-            if c.get("username") == YO or not CLAVE.search(c.get("text", "")):
+            DM = mensaje_para(c.get("text", ""))
+            if c.get("username") == YO or not DM:
                 continue
             if any(r.get("username") == YO for r in c.get("replies", {}).get("data", [])):
                 continue  # ya se le respondió
