@@ -1,0 +1,21 @@
+{
+  "id": "vie-13-am",
+  "estado": "pendiente",
+  "programado_bogota": "2026-11-13 07:30",
+  "imagen": "contenido-linkedin/imagenes/vie-13-am.jpg",
+  "urn": null,
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "Amplificar un proceso roto con IA es amplificar el caos.\n\nPor eso creé el método DIAL-3R™. Antes de escalar cualquier herramienta, cada área pasa por 4 pasos:\n\n⭕ Diagnosticar: mapear el proceso, verificar que no esté roto y medir la línea base.\n\n⭕ Instruir: enseñarle al equipo a trabajar con la IA sobre ese proceso.\n\n⭕ Aplicar: llevarlo a un proyecto de IA con tablero de control.\n\n⭕ Liberar: pasarlo a IA agéntica, con botón de aprobación humana.\n\nY después, el ciclo que lo sostiene: Rutina, Resultado y Repetición.\n\nLo más importante: yo no construyo la IA por el equipo. Le enseño al equipo a construirla. Así no depende de mí cuando termino.\n\n{hashtag|\\#|IA} con método es {hashtag|\\#|Productividad} que se queda.\n\n¿En cuál de los 4 pasos crees que se quedan la mayoría de las empresas?\n\nSígueme si quieres conocer el método completo, paso a paso.\n\n{hashtag|\\#|DIAL3R} {hashtag|\\#|IAEmpresarial} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
+  },
+  "primer_comentario": "Una señal de que el proceso está roto: 3 personas del área te explican la misma tarea de 3 formas distintas. Ahí todavía no hay que automatizar. Primero hay que acordar.",
+  "alt": "Amplificar un proceso roto con IA es amplificar el caos."
+}

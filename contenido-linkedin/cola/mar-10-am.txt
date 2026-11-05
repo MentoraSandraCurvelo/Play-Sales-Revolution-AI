@@ -1,0 +1,23 @@
+¿Quién es el responsable de la IA en tu empresa?
+
+Si la respuesta es "el área de tecnología", hay un problema.
+
+Tecnología sabe de herramientas. Pero no sabe qué tarea de jurídica se puede llevar a la IA, ni qué dato de talento humano nunca debe salir de la empresa.
+
+Un plan de gobernanza de #IA responde 5 preguntas:
+
+⭕ Quién es el responsable en cada área.
+
+⭕ Qué tareas sí se le dan a la IA y cuáles no.
+
+⭕ Qué datos pueden entrar y cuáles nunca.
+
+⭕ Quién revisa y firma lo que la IA produce.
+
+⭕ Cómo se mide y cómo se audita.
+
+En IAM™ armo ese plan con cada empresa antes de escalar la IA. Porque escalar sin gobierno es multiplicar el riesgo al mismo ritmo que la #Productividad.
+
+¿Tu empresa ya tiene un responsable de IA por área?
+
+Si estás armando el tuyo, sígueme: voy a compartir cómo se construye, paso a paso.

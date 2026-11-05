@@ -1,0 +1,21 @@
+{
+  "id": "jue-12-pm",
+  "estado": "pendiente",
+  "programado_bogota": "2026-11-12 17:30",
+  "imagen": "contenido-linkedin/imagenes/jue-12-pm.jpg",
+  "urn": null,
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "Si diriges una cámara de comercio o un gremio, tienes algo que ninguna empresa tiene sola: muchas empresas afiliadas que confían en lo que les recomiendas.\n\nY hoy casi todas tienen la misma pregunta: ¿por dónde empiezo con la {hashtag|\\#|IA}?\n\nUn curso de herramientas responde el \"cómo\". Pero los afiliados necesitan algo más:\n\n⭕ Saber qué proceso llevar primero a la IA.\n\n⭕ Medir si de verdad les devolvió tiempo.\n\n⭕ Tener reglas claras de uso responsable.\n\nUn programa de formación con medición convierte una charla en un resultado que la cámara puede mostrar.\n\nEsa es la diferencia entre capacitar y transformar.\n\nSi trabajas en una cámara de comercio o un gremio de América Latina, ¿cómo están acompañando a sus afiliados con la IA?\n\nSígueme: voy a compartir cómo se mide la IA en empresas de distintos tamaños y sectores.\n\n{hashtag|\\#|CamarasDeComercio} {hashtag|\\#|IAEmpresarial} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
+  },
+  "primer_comentario": "Para las cámaras y gremios que estén armando su agenda de formación 2027: el mejor indicador no es cuántas personas asistieron, sino cuántas empresas siguen usando lo que aprendieron 90 días después.",
+  "alt": "Si diriges una cámara de comercio o un gremio, tienes algo que ninguna empresa tiene sola: muchas empresas afiliadas que confían en lo que les recomiendas."
+}

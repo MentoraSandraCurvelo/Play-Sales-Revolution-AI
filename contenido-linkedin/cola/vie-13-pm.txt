@@ -1,0 +1,19 @@
+En una entidad pública, la IA no reemplaza al funcionario. Le quita el trabajo que no lo deja atender al ciudadano.
+
+3 tareas donde la IA puede preparar el trabajo, y el funcionario revisa y firma:
+
+⭕ PQRSDF: clasificar cada solicitud, proponer el borrador de respuesta y alertar las que están por vencer.
+
+⭕ Pliegos: revisar requisitos y señalar riesgos antes de publicar.
+
+⭕ Plan de desarrollo: seguir metas e indicadores en un tablero que se actualiza solo.
+
+En los 3 casos la regla es la misma: la IA prepara, el funcionario decide.
+
+Así se ve el tablero que implementamos. Los datos que ves son de ejemplo, para proteger la información de nuestros clientes.
+
+La #IA en el #SectorPúblico no es para hacer menos. Es para atender mejor.
+
+¿Cuál de estas 3 tareas le quitaría más carga a tu entidad?
+
+Sígueme si trabajas en el sector público: cada semana muestro cómo se mide la IA en lo real.

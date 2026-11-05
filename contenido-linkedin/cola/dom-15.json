@@ -1,0 +1,21 @@
+{
+  "id": "dom-15",
+  "estado": "pendiente",
+  "programado_bogota": "2026-11-15 17:00",
+  "imagen": "contenido-linkedin/imagenes/dom-15.jpg",
+  "urn": null,
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "Domingo. Antes de abrir el correo del lunes, te propongo un ejercicio de 5 minutos.\n\nEscribe las 3 tareas que más repetiste esta semana. Al lado de cada una, responde:\n\n⭕ ¿Cuánto tiempo me tomó?\n\n⭕ ¿Alguien más podría prepararla y yo solo revisarla?\n\n⭕ ¿Qué haría con ese tiempo si lo recuperara?\n\nEse papel es tu primera línea base. Y sin línea base, no hay forma de saber si la {hashtag|\\#|IA} te ayudó.\n\nLo que no se mide no puede ser mejorado. Ni en una empresa, ni en tu semana.\n\n¿Cuál es la tarea que más repites y que menos te gusta?\n\nSígueme para empezar cada semana con {hashtag|\\#|Productividad} real.\n\n{hashtag|\\#|Productividad} {hashtag|\\#|IAEmpresarial} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
+  },
+  "primer_comentario": "Si quieres llevarlo un paso más allá, pega esas 3 tareas en tu IA y pregúntale: \"¿Cuál de estas podrías prepararme tú, y qué necesitarías de mí para hacerlo bien?\"",
+  "alt": "Domingo. Antes de abrir el correo del lunes, te propongo un ejercicio de 5 minutos."
+}
