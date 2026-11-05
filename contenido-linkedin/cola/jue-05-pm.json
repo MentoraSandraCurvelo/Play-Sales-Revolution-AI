@@ -1,0 +1,21 @@
+{
+  "id": "jue-05-pm",
+  "estado": "pendiente",
+  "programado_bogota": "2026-11-05 18:55",
+  "imagen": "contenido-linkedin/imagenes/jue-05-pm.jpg",
+  "urn": null,
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "Pregunta rápida para cerrar el jueves:\n\nSi mañana pudieras entregarle a la {hashtag|\\#|IA} una sola tarea de tu trabajo, ¿cuál sería?\n\nNo la más difícil. La que más se repite.\n\nPorque ahí es donde la IA devuelve más tiempo: en lo que haces 20 veces a la semana, no en lo que haces una vez al año.\n\nTe leo en los comentarios. Con las respuestas que más se repitan armo una guía práctica para llevar esa tarea a la IA.\n\nSi quieres verla paso a paso, sígueme: cada semana comparto cómo se mide la {hashtag|\\#|Productividad} con IA.\n\n{hashtag|\\#|IAEmpresarial} {hashtag|\\#|Productividad} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
+  },
+  "primer_comentario": "Empiezo yo: en mi caso fue la preparación de mis publicaciones de LinkedIn. Hoy la IA me prepara el borrador y yo decido qué sale. ¿Y tú?",
+  "alt": "¿Qué tarea le entregarías a la IA? Sandra Curvelo"
+}
