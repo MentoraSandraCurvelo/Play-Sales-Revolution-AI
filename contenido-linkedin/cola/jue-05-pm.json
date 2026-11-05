@@ -1,6 +1,6 @@
 {
   "id": "jue-05-pm",
-  "estado": "pendiente",
+  "estado": "descartado",
   "programado_bogota": "2026-11-05 18:55",
   "imagen": "contenido-linkedin/imagenes/jue-05-pm.jpg",
   "urn": null,
@@ -17,5 +17,6 @@
     "isReshareDisabledByAuthor": false
   },
   "primer_comentario": "Empiezo yo: en mi caso fue la preparación de mis publicaciones de LinkedIn. Hoy la IA me prepara el borrador y yo decido qué sale. ¿Y tú?",
-  "alt": "¿Qué tarea le entregarías a la IA? Sandra Curvelo"
+  "alt": "¿Qué tarea le entregarías a la IA? Sandra Curvelo",
+  "nota": "Sandra decidió no publicarlo (5 nov 2026). No se publica."
 }
