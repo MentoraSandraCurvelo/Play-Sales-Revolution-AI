@@ -2,7 +2,7 @@
   "id": "vie-13-pm",
   "estado": "pendiente",
   "programado_bogota": "2026-11-13 17:30",
-  "imagen": "contenido-linkedin/imagenes/vie-13-pm.jpg",
+  "imagen": null,
   "urn": null,
   "payload": {
     "author": "urn:li:person:tsJbwdb3B2",
@@ -17,5 +17,8 @@
     "isReshareDisabledByAuthor": false
   },
   "primer_comentario": "Para quienes preguntan por los datos: el sistema se diseña con datos anonimizados o públicos, y ninguna decisión sobre derechos del ciudadano queda en manos de la IA.",
-  "alt": "En una entidad pública, la IA no reemplaza al funcionario. Le quita el trabajo que no lo deja atender al ciudadano."
+  "alt": "En una entidad pública, la IA no reemplaza al funcionario. Le quita el trabajo que no lo deja atender al ciudadano.",
+  "archivo_video": "contenido-linkedin/videos/pqrsd-vie-13.mp4",
+  "video": null,
+  "titulo_video": "PQRSD con IA: la IA prepara, el funcionario firma"
 }
