@@ -27,7 +27,9 @@ header{position:fixed;left:0;right:0;top:0;z-index:5;
 .brand{font-weight:800;font-size:15px;letter-spacing:.08em;display:flex;align-items:center;gap:8px}
 .ring{width:12px;height:12px;border-radius:50%;border:3px solid var(--red);flex:none}
 .brand small{font-weight:500;color:var(--mute);letter-spacing:.02em;font-size:13px}
-.eps{display:flex;gap:6px;margin-left:auto}
+.eps{display:flex;gap:6px;margin-left:auto;overflow-x:auto;max-width:100%;min-width:0;scrollbar-width:none}
+.eps::-webkit-scrollbar{display:none}
+.ep{flex:none;white-space:nowrap}
 .ep{font:500 13px var(--f-ui);color:var(--mute);background:transparent;border:1px solid var(--line);
   padding:7px 12px;border-radius:999px;cursor:pointer}
 .ep[aria-pressed="true"]{color:var(--text);border-color:var(--red);background:#2a0d0d}
@@ -85,6 +87,10 @@ header{position:fixed;left:0;right:0;top:0;z-index:5;
     <button class="ep" id="ep2" aria-pressed="false" type="button">Ep. 2</button>
     <button class="ep" id="ventas" aria-pressed="false" type="button">Reel Ventas</button>
     <button class="ep" id="agentica" aria-pressed="false" type="button">Reel Agéntica</button>
+    <button class="ep" id="envivo" aria-pressed="false" type="button">14 nov · Agente en vivo</button>
+    <button class="ep" id="leads" aria-pressed="false" type="button">16 nov · 100 contactos</button>
+    <button class="ep" id="reunion" aria-pressed="false" type="button">18 nov · Antes de la reunión</button>
+    <button class="ep" id="mensajes" aria-pressed="false" type="button">21 nov · Nadie responde</button>
   </div>
 </header>
 
@@ -146,6 +152,40 @@ header{position:fixed;left:0;right:0;top:0;z-index:5;
         {tag:'Toma 3 · Cierre', q:'¿Quieres que tu equipo venda así?', d:'A cámara · sonrisa · señala abajo al decir "comenta"', a:'Yo acompaño equipos comerciales en siete países. <span class="hit">Comenta VENTAS</span> y te envío la guía para empezar.'}
       ]
     }
+    ,envivo: {
+      title: 'Reel 14 nov · <b>Tu agente trabajando de verdad</b>',
+      blocks: [
+        {tag:'Toma 1 · Gancho', q:'¿Este correo lo escribiste tú?', d:'A cámara · energía alta · señala hacia arriba (ahí va la pantalla)', a:'No. Lo escribió y lo envió mi agente. <span class="hit">Y además lo dejó registrado en mi CRM.</span>'},
+        {tag:'Toma 2 · Los 3 pasos', q:'¿Cómo lo armas?', d:'A cámara · cuenta con los dedos', a:'Tres pasos. Uno: abres Claude, Configuración, Conectores, y enciendes tu correo, tu calendario y tu CRM. Dos: le pegas tus instrucciones: quién eres, qué vendes y cómo escribes. Tres: le das la misión.'},
+        {tag:'Toma 3 · La misión', q:'¿Y qué misión le das?', d:'A cámara · ritmo tranquilo', a:'Escríbele a este cliente, envíale la propuesta y regístralo en el CRM. Él lo hace. <span class="hit">Tú solo apruebas.</span>'},
+        {tag:'Toma 4 · Cierre', q:'¿Quieres conectarlo tú?', d:'A cámara · sonrisa · señala abajo al decir "comenta"', a:'<span class="hit">Comenta CONECTA</span> y te paso la guía completa.'},
+        {tag:'Pantallas · grábalas en el Mac (Cmd + Shift + 5)', q:'Lista de grabaciones', d:'Sin datos de clientes: usa un contacto de prueba', a:'1. Conectores encendiéndose (correo, calendario, CRM).<br>2. Tus instrucciones iniciales en pantalla.<br>3. La página de descarga de Claude y de Claude Code.<br>4. El agente escribiendo y enviando un correo a tu propio correo.<br>5. El CRM con un Cliente Demo que se actualiza.'}
+      ]
+    }
+    ,leads: {
+      title: 'Reel 16 nov · <b>Tienes 100 contactos, ¿a cuál llamas primero?</b>',
+      blocks: [
+        {tag:'Toma 1 · Gancho', q:'Tienes 100 contactos. ¿A cuál llamas primero?', d:'A cámara · pausa antes de responder', a:'Si dices "al primero de la lista", <span class="hit">estás perdiendo ventas.</span>'},
+        {tag:'Toma 2 · El método', q:'¿Y cómo decides?', d:'A cámara · cuenta con los dedos las señales', a:'Por señales de compra, no por orden alfabético. Le pasas a Claude tu lista y le dices: ordénalos por quién visitó mi perfil, quién me respondió, quién cambió de cargo y quién tiene presupuesto este trimestre. En segundos tienes los 10 a los que llamas hoy. <span class="hit">Los otros 90 pueden esperar.</span>'},
+        {tag:'Toma 3 · Cierre', q:'¿Quieres el paso a paso?', d:'A cámara · sonrisa · señala abajo', a:'<span class="hit">Comenta VENTAS</span> y te paso la guía para vender con Claude.'}
+      ]
+    }
+    ,reunion: {
+      title: 'Reel 18 nov · <b>Lo que le pido a Claude antes de una reunión</b>',
+      blocks: [
+        {tag:'Toma 1 · Gancho', q:'¿Llegas a la reunión con un cliente sin prepararte?', d:'A cámara · cejas arriba', a:'Tu cliente lo nota <span class="hit">en el primer minuto.</span>'},
+        {tag:'Toma 2 · El prompt', q:'¿Qué le pides a Claude antes?', d:'A cámara · aquí entra el prompt en pantalla', a:'Cinco minutos antes le escribo esto: investiga a esta empresa y a esta persona. Dame sus 3 prioridades de este año, 3 preguntas que la hagan pensar y la objeción que me va a poner. <span class="hit">Llego sabiendo más que mi competencia.</span>'},
+        {tag:'Toma 3 · Cierre', q:'¿Lo vas a usar?', d:'A cámara · sonrisa', a:'Guarda este video para tu próxima reunión. <span class="hit">Y envíaselo a tu equipo comercial.</span>'}
+      ]
+    }
+    ,mensajes: {
+      title: 'Reel 21 nov · <b>¿Por qué nadie te responde los mensajes?</b>',
+      blocks: [
+        {tag:'Toma 1 · Gancho', q:'¿Por qué nadie te responde los mensajes?', d:'A cámara · directo, sin sonrisa', a:'Porque <span class="hit">suenan a plantilla.</span>'},
+        {tag:'Toma 2 · El cambio', q:'¿Y cómo lo arreglo con IA?', d:'A cámara · ritmo tranquilo', a:'No le pidas a Claude que escriba por ti. Pídele que lea primero: el perfil de tu cliente, su última publicación y lo que hace su empresa. Y que te proponga un mensaje de 3 líneas que solo le sirva a esa persona. Eso no es spam. <span class="hit">Es una conversación.</span>'},
+        {tag:'Toma 3 · Cierre', q:'¿Quieres mis prompts?', d:'A cámara · sonrisa · señala abajo', a:'<span class="hit">Comenta CLAUDE</span> y te los paso por mensaje directo.'}
+      ]
+    }
   };
 
   const $ = id => document.getElementById(id);
@@ -167,7 +207,7 @@ header{position:fixed;left:0;right:0;top:0;z-index:5;
       (b.d ? '<span class="dir">(' + b.d + ')</span>' : '') +
       '<p class="a">' + b.a + '</p></div>').join('') +
       '<p class="end">Fin del episodio · ⟲ para repetir la toma</p>';
-    ['ep1','ep2','ventas','agentica'].forEach(k => $(k).setAttribute('aria-pressed', String(k===ep)));
+    Object.keys(EPS).forEach(k => $(k).setAttribute('aria-pressed', String(k===ep)));
     vp.scrollTop = 0; updateProg();
   }
   function applySize(){
@@ -222,7 +262,7 @@ header{position:fixed;left:0;right:0;top:0;z-index:5;
       else document.documentElement.requestFullscreen().catch(()=>{});
     }catch(e){}
   };
-  ['ep1','ep2','ventas','agentica'].forEach(k => $(k).onclick = () => { setPlaying(false); ep = k; store.set('ep', ep); render(); });
+  Object.keys(EPS).forEach(k => $(k).onclick = () => { setPlaying(false); ep = k; store.set('ep', ep); render(); });
   sc.addEventListener('click', () => setPlaying(!playing));
   vp.addEventListener('scroll', updateProg, {passive:true});
   document.addEventListener('keydown', e => {

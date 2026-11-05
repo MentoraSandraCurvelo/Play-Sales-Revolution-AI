@@ -29,6 +29,11 @@ Sandra graba y aprueba el material; Claude decide la fecha y la hora de publicac
 ## Idioma y tono
 Español de Colombia, tuteo. Sin guiones para separar ideas. Números y signos en su formato. "Dinero", no "plata".
 
+## Frecuencia y pauta en Instagram (aprobado 5 nov 2026)
+- 5 publicaciones por semana: lunes reel 12:30 p. m., martes carrusel 6:30 p. m., miércoles reel 12:30 p. m., viernes carrusel 6:30 p. m., sábado reel 12:30 p. m. (hora Colombia). Referencia: Eduardo Vázquez publica 4.8 por semana.
+- Sandra graba un día por semana todas las tomas de los reels de esa semana; Claude edita y hace los carruseles.
+- Pauta: solo se promociona lo que en sus primeras 48 horas supera la mediana de alcance (411 reels, 238 carruseles) o llega a 20 compartidos. Claude avisa con los números y Sandra decide el presupuesto. Claude nunca paga ni promociona por su cuenta.
+
 ## Cifras de marca
 De aquí en adelante (5 nov 2026): presencia en 8 países (Colombia, México, Perú, Argentina, Ecuador, Panamá, Costa Rica y Brasil). Las piezas ya hechas con "7 países" se dejan como están.
 
