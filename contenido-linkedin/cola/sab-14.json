@@ -1,6 +1,6 @@
 {
   "id": "sab-14",
-  "estado": "pendiente",
+  "estado": "aprobado",
   "programado_bogota": "2026-11-14 09:00",
   "imagen": "contenido-linkedin/imagenes/sab-14.jpg",
   "urn": null,
@@ -17,5 +17,7 @@
     "isReshareDisabledByAuthor": false
   },
   "primer_comentario": "Un prompt para practicar hoy: \"Actúa como [rol]. Necesito [tarea] para [objetivo]. Antes de responder, hazme 3 preguntas para entender mejor lo que necesito.\"",
-  "alt": "5 errores que todos cometemos cuando le pedimos algo a la IA, y cómo arreglarlos este fin de semana:"
+  "alt": "5 errores que todos cometemos cuando le pedimos algo a la IA, y cómo arreglarlos este fin de semana:",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-05"
 }

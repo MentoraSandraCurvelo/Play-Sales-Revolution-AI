@@ -1,6 +1,6 @@
 {
   "id": "mie-11-am",
-  "estado": "pendiente",
+  "estado": "aprobado",
   "programado_bogota": "2026-11-11 07:30",
   "imagen": "contenido-linkedin/imagenes/mie-11-am.jpg",
   "urn": null,
@@ -17,5 +17,7 @@
     "isReshareDisabledByAuthor": false
   },
   "primer_comentario": "Un ejercicio sencillo: al cierre de cada mes, pídele a cada área que escriba en una línea en qué usó el tiempo que le devolvió la IA. En 3 meses tienes la historia que tu gerencia quiere escuchar.",
-  "alt": "Recuperar horas con IA es la fase 1."
+  "alt": "Recuperar horas con IA es la fase 1.",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-05"
 }

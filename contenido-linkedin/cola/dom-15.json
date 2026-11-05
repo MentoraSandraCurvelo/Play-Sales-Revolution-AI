@@ -1,6 +1,6 @@
 {
   "id": "dom-15",
-  "estado": "pendiente",
+  "estado": "aprobado",
   "programado_bogota": "2026-11-15 17:00",
   "imagen": "contenido-linkedin/imagenes/dom-15.jpg",
   "urn": null,
@@ -18,5 +18,7 @@
   },
   "primer_comentario": "Si quieres llevarlo un paso más allá, pega esas 3 tareas en tu IA y pregúntale: \"¿Cuál de estas podrías prepararme tú, y qué necesitarías de mí para hacerlo bien?\"",
   "alt": "Domingo. Antes de abrir el correo del lunes, te propongo un ejercicio de 5 minutos.",
-  "foto_origen": "Dropbox /1-IAM™/Fotos Profesionales (1 web)"
+  "foto_origen": "Dropbox /1-IAM™/Fotos Profesionales (1 web)",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-05"
 }

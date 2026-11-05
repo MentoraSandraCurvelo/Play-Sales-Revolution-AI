@@ -1,6 +1,6 @@
 {
   "id": "vie-13-am",
-  "estado": "pendiente",
+  "estado": "aprobado",
   "programado_bogota": "2026-11-13 07:30",
   "imagen": "contenido-linkedin/imagenes/vie-13-am.jpg",
   "urn": null,
@@ -17,5 +17,7 @@
     "isReshareDisabledByAuthor": false
   },
   "primer_comentario": "Una señal de que el proceso está roto: 3 personas del área te explican la misma tarea de 3 formas distintas. Ahí todavía no hay que automatizar. Primero hay que acordar.",
-  "alt": "Amplificar un proceso roto con IA es amplificar el caos."
+  "alt": "Amplificar un proceso roto con IA es amplificar el caos.",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-05"
 }

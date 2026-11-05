@@ -1,6 +1,6 @@
 {
   "id": "lun-09-am",
-  "estado": "pendiente",
+  "estado": "aprobado",
   "programado_bogota": "2026-11-09 07:30",
   "imagen": "contenido-linkedin/imagenes/lun-09-am.jpg",
   "urn": null,
@@ -18,5 +18,7 @@
   },
   "primer_comentario": "Una pregunta para llevar a la reunión de presupuesto: ¿cómo vamos a saber, en 90 días, si la inversión en IA funcionó? Si nadie en la mesa la puede responder, lo que falta es el método, no la herramienta.",
   "alt": "Es temporada de presupuestos. Y en el de 2027 casi todas las empresas van a tener una línea que dice: IA.",
-  "foto_origen": "Dropbox /1-IAM™/Fotos Profesionales (4575)"
+  "foto_origen": "Dropbox /1-IAM™/Fotos Profesionales (4575)",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-05"
 }

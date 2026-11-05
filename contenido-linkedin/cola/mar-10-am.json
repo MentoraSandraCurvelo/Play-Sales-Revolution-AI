@@ -1,6 +1,6 @@
 {
   "id": "mar-10-am",
-  "estado": "pendiente",
+  "estado": "aprobado",
   "programado_bogota": "2026-11-10 07:30",
   "imagen": "contenido-linkedin/imagenes/mar-10-am.jpg",
   "urn": null,
@@ -18,5 +18,7 @@
   },
   "primer_comentario": "Si quieres empezar hoy: pídele a cada jefe de área una lista de 3 tareas donde su equipo ya usa IA. Esa lista es el primer borrador de tu plan de gobernanza.",
   "alt": "¿Quién es el responsable de la IA en tu empresa?",
-  "foto_origen": "Dropbox /1-IAM™/Fotos Profesionales (4641)"
+  "foto_origen": "Dropbox /1-IAM™/Fotos Profesionales (4641)",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-05"
 }

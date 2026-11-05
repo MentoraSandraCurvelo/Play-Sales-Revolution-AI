@@ -1,6 +1,6 @@
 {
   "id": "jue-12-pm",
-  "estado": "pendiente",
+  "estado": "aprobado",
   "programado_bogota": "2026-11-12 17:30",
   "imagen": "contenido-linkedin/imagenes/jue-12-pm.jpg",
   "urn": null,
@@ -18,5 +18,7 @@
   },
   "primer_comentario": "Para las cámaras y gremios que estén armando su agenda de formación 2027: el mejor indicador no es cuántas personas asistieron, sino cuántas empresas siguen usando lo que aprendieron 90 días después.",
   "alt": "Si diriges una cámara de comercio o un gremio, tienes algo que ninguna empresa tiene sola: muchas empresas afiliadas que confían en lo que les recomiendas.",
-  "foto_origen": "Dropbox /1-IAM™/Fotos Profesionales (Red Conference)"
+  "foto_origen": "Dropbox /1-IAM™/Fotos Profesionales (Red Conference)",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-05"
 }

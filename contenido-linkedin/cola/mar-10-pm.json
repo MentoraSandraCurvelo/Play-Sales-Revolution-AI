@@ -1,6 +1,6 @@
 {
   "id": "mar-10-pm",
-  "estado": "pendiente",
+  "estado": "aprobado",
   "programado_bogota": "2026-11-10 17:30",
   "imagen": "contenido-linkedin/imagenes/mar-10-pm.jpg",
   "urn": null,
@@ -18,5 +18,7 @@
   },
   "primer_comentario": "Prompt para probarlo hoy: \"Te pego los comentarios de mi publicación: [pega aquí]. Clasifícalos en interés comercial, conversación o saludo, y explícame por qué. No respondas por mí.\"",
   "alt": "Tus próximos clientes ya te están escribiendo. Solo que lo hacen en los comentarios.",
-  "foto_origen": "Dropbox /1-IAM™/Fotos Profesionales (4675)"
+  "foto_origen": "Dropbox /1-IAM™/Fotos Profesionales (4675)",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-05"
 }
