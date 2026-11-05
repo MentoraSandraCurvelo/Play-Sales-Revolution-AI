@@ -51,7 +51,7 @@ if st.session_state.stage == 'intro':
     mentor_quote("Como siempre digo, lo que no se mide, no se puede mejorar. Hoy, vamos a demostrar que la IA no es una amenaza, es el copiloto más potente que puedes tener. ¿Listo/a para redefinir el juego?")
     if st.button("Comenzar mi Jornada"):
         st.session_state.stage = 'prospecting'
-        st.experimental_rerun()
+        st.rerun()
 
 # --- Etapa de Prospección ---
 elif st.session_state.stage == 'prospecting':
@@ -66,19 +66,19 @@ elif st.session_state.stage == 'prospecting':
             st.session_state.score += 0
             st.session_state.feedback = "Has pasado dos días buscando y solo has encontrado 10 contactos. El tiempo es oro y lo estás perdiendo en tareas manuales."
             st.session_state.stage = 'qualification'
-            st.experimental_rerun()
+            st.rerun()
     with col2:
         if st.button("Usar una herramienta de IA"):
             st.session_state.score += 1
             st.session_state.feedback = "¡DECISIÓN CORRECTA! Has utilizado Lusha para obtener datos de 50 tomadores de decisión en menos de una hora."
             st.session_state.stage = 'qualification'
-            st.experimental_rerun()
+            st.rerun()
     with col3:
         if st.button("Comprar base de datos"):
             st.session_state.score += 0
             st.session_state.feedback = "La base de datos está desactualizada. Muchos correos rebotan y has gastado presupuesto en información de baja calidad."
             st.session_state.stage = 'qualification'
-            st.experimental_rerun()
+            st.rerun()
         
 # --- Etapa de Cualificación ---
 elif st.session_state.stage == 'qualification':
@@ -91,17 +91,17 @@ elif st.session_state.stage == 'qualification':
         st.session_state.score += 1
         st.session_state.feedback = "¡EXCELENTE ESTRATEGIA! La IA te presenta un ranking y te enfocas en el Top 20. Estás trabajando de forma inteligente."
         st.session_state.stage = 'personalization'
-        st.experimental_rerun()
+        st.rerun()
     if st.button("Revisar historial manually"): # Changed button text slightly to be unique
         st.session_state.score += 0
         st.session_state.feedback = "Te toma un día entero. Mientras lo hacías, el lead más 'caliente' agendó una reunión con tu competencia."
         st.session_state.stage = 'personalization'
-        st.experimental_rerun()
+        st.rerun()
     if st.button("Llamar en orden alfabético"):
         st.session_state.score += 0
         st.session_state.feedback = "Has perdido la mañana hablando con leads que solo estaban curioseando."
         st.session_state.stage = 'personalization'
-        st.experimental_rerun()
+        st.rerun()
 
 # --- Etapa de Personalización ---
 elif st.session_state.stage == 'personalization':
@@ -114,17 +114,17 @@ elif st.session_state.stage == 'personalization':
         st.session_state.score += 1
         st.session_state.feedback = "¡JUGADA MAESTRA! En segundos, la IA te sugiere un ángulo hiper-relevante. Recibes una respuesta en menos de una hora."
         st.session_state.stage = 'conclusion'
-        st.experimental_rerun()
+        st.rerun()
     if st.button("Investigar manualmente"):
         st.session_state.score += 0
         st.session_state.feedback = "Encuentras un buen ángulo, pero tardas tanto que otro vendedor, armado con IA, ya ha iniciado la conversación."
         st.session_state.stage = 'conclusion'
-        st.experimental_rerun()
+        st.rerun()
     if st.button("Usar la misma plantilla"):
         st.session_state.score += 0
         st.session_state.feedback = "Tu correo es eliminado sin ser leído. Parecía spam. Perdiste una gran oportunidad."
         st.session_state.stage = 'conclusion'
-        st.experimental_rerun()
+        st.rerun()
 
 # --- Etapa de Conclusión ---
 elif st.session_state.stage == 'conclusion':
@@ -144,4 +144,4 @@ elif st.session_state.stage == 'conclusion':
     if st.button("Jugar de Nuevo"):
         for key in st.session_state.keys():
             del st.session_state[key]
-        st.experimental_rerun()
+        st.rerun()
