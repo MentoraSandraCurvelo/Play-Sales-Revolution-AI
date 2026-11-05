@@ -36,3 +36,6 @@
 - Logo: logo-newsletter-D3.jpg (puesto por Chrome).
 - Descripción (104 de 120 caracteres): "La IA en las empresas de América Latina: qué funciona, qué no y cómo se mide. Guías gratis cada 15 días."
 - Texto anterior de respaldo: "Este news esta creado para dar a conocer como usar la IA en ventas en diferentes frentes del proceso de ventas."
+
+## Nombre confirmado (5 nov 2026)
+Sandra confirma "Lo que nadie te dice de la IA" para la newsletter de LinkedIn. "IA sin rodeos" es solo de Instagram. Del estilo "sin rodeos" se toma el tono (frases cortas y directas), no el nombre. Revisión con datos después de 3 ediciones (12 nov, 26 nov, 10 dic): suscriptores nuevos, lectura y comentarios.
