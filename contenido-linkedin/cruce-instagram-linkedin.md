@@ -28,3 +28,4 @@ Fuente: rama claude/ecstatic-hawking-b5uxn3 (Isaía), carpeta estrategia/instagr
 
 ## Decisión de Sandra (5 nov 2026, en la sesión de Isaía)
 "Deja así, no cambies nada": Instagram mantiene sus cifras (países, 140 h/semana) y el audio del reel de ventas. LinkedIn sigue con sus cifras actuales (8 países, más de 800 horas al mes) hasta que Sandra diga otra cosa.
+Precisión de Sandra (5 nov, vía Isaía): las piezas de Instagram ya hechas se quedan con "7 países"; todo lo nuevo de Instagram dice 8 países.
