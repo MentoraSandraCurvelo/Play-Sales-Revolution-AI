@@ -34,6 +34,11 @@ Español de Colombia, tuteo. Sin guiones para separar ideas. Números y signos e
 - Sandra graba un día por semana todas las tomas de los reels de esa semana; Claude edita y hace los carruseles.
 - Pauta: solo se promociona lo que en sus primeras 48 horas supera la mediana de alcance (411 reels, 238 carruseles) o llega a 20 compartidos. Claude avisa con los números y Sandra decide el presupuesto. Claude nunca paga ni promociona por su cuenta.
 
+## Historias y comentarios (aprobado 5 nov 2026)
+- Claude publica historias por la API: una después de cada publicación del feed (aviso "Nuevo reel" o "Nuevo carrusel") y una de detrás de cámaras los domingos, con fotos y videos reales de Sandra de Dropbox. Fondos alternados y difuminar a otras personas reconocibles.
+- La API no permite stickers ni compartir la publicación con enlace; eso lo hace Sandra en la app si quiere.
+- Claude no comenta en cuentas ajenas (la API no lo permite y Instagram lo castiga como spam). Cada mañana le deja a Sandra 5 publicaciones de cuentas de su tema con un comentario sugerido para que ella lo pegue.
+
 ## Cifras de marca
 De aquí en adelante (5 nov 2026): presencia en 8 países (Colombia, México, Perú, Argentina, Ecuador, Panamá, Costa Rica y Brasil). Las piezas ya hechas con "7 países" se dejan como están.
 
