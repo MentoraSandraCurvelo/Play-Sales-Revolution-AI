@@ -40,6 +40,15 @@ Español de Colombia, tuteo. Sin guiones para separar ideas. Números y signos e
 - La API no permite stickers ni compartir la publicación con enlace; eso lo hace Sandra en la app si quiere.
 - Claude no comenta en cuentas ajenas (la API no lo permite y Instagram lo castiga como spam). Cada mañana le deja a Sandra 5 publicaciones de cuentas de su tema con un comentario sugerido para que ella lo pegue.
 
+## Lineamientos de Denny, community manager (5 nov 2026)
+Detalle en `estrategia/instagram/lineamientos-denny.md`. Resumen:
+- Antes de cada grabación: guía de ropa y colores según el fondo. Si la ropa ya no combina, adaptar el fondo para que se vea elegante.
+- Instagram 100% ejecutivo, directivo, elegante y exclusivo. TikTok orgánico, cercano y con otra edición. Cada toma sale en las dos versiones.
+- 70% del contenido busca ventas y 30% alcance. Educar y crear la necesidad, no solo vender.
+- Concepto futurista: escritorio oscuro y elegante, luces que se prenden con un gesto, hologramas que salen de la tablet. Indicar gestos y segundos por toma.
+- Imágenes con acabado de diseño humano, no genérico de IA.
+- Campañas de Meta para clientes potenciales (Valledupar y los otros países), no para visibilidad.
+
 ## Cifras de marca
 De aquí en adelante (5 nov 2026): presencia en 8 países (Colombia, México, Perú, Argentina, Ecuador, Panamá, Costa Rica y Brasil). Las piezas ya hechas con "7 países" se dejan como están.
 
