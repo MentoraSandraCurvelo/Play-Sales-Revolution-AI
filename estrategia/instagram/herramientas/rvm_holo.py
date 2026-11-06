@@ -1,5 +1,5 @@
 """Recorte RVM sobre escenario animado + entrada holográfica (Sandra se materializa).
-uso: rvm_holo.py entrada.mp4 fondo_loop.mp4 salida.mp4 [y_crop] [intro_seg] [scan|mosaic]"""
+uso: rvm_holo.py entrada.mp4 fondo_loop.mp4 salida.mp4 [y_crop, -1 si la entrada ya viene encuadrada a 1080x1920] [intro_seg] [scan|mosaic]"""
 import sys, subprocess, numpy as np, cv2, onnxruntime as ort
 src, bgv, out = sys.argv[1:4]
 ycrop = int(sys.argv[4]) if len(sys.argv) > 4 else 40
@@ -10,7 +10,7 @@ MODEL = "/tmp/claude-0/-home-user-Play-Sales-Revolution-AI/56e793ef-bf15-5592-81
 sess = ort.InferenceSession(MODEL, providers=["CPUExecutionProvider"])
 rec = [np.zeros([1, 1, 1, 1], np.float32)] * 4
 dsr = np.array([0.4], np.float32)
-dec = subprocess.Popen(["ffmpeg", "-v", "error", "-i", src, "-vf", f"scale=-2:2266,crop={W}:{H}:(iw-{W})/2:{ycrop}",
+dec = subprocess.Popen(["ffmpeg", "-v", "error", "-i", src, "-vf", (f"scale={W}:{H}" if ycrop < 0 else f"scale=-2:2266,crop={W}:{H}:(iw-{W})/2:{ycrop}"),
                         "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], stdout=subprocess.PIPE)
 bgd = subprocess.Popen(["ffmpeg", "-v", "error", "-stream_loop", "-1", "-i", bgv, "-vf", f"scale={W}:{H}",
                         "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], stdout=subprocess.PIPE)
