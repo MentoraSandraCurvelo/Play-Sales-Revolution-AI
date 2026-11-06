@@ -1,9 +1,10 @@
 """Recorte RVM sobre escenario animado + entrada holográfica (Sandra se materializa).
-uso: rvm_holo.py entrada.mp4 fondo_loop.mp4 salida.mp4 [y_crop] [intro_seg]"""
+uso: rvm_holo.py entrada.mp4 fondo_loop.mp4 salida.mp4 [y_crop] [intro_seg] [scan|mosaic]"""
 import sys, subprocess, numpy as np, cv2, onnxruntime as ort
 src, bgv, out = sys.argv[1:4]
 ycrop = int(sys.argv[4]) if len(sys.argv) > 4 else 40
 INTRO = float(sys.argv[5]) if len(sys.argv) > 5 else 1.4
+MODE = sys.argv[6] if len(sys.argv) > 6 else "scan"   # scan: holograma que se escanea | mosaic: se arma en píxeles de datos
 W, H, FPS = 1080, 1920, 30
 MODEL = "/tmp/claude-0/-home-user-Play-Sales-Revolution-AI/56e793ef-bf15-5592-8182-e12bf01cfd05/scratchpad/modelos/rvm.onnx"
 sess = ort.InferenceSession(MODEL, providers=["CPUExecutionProvider"])
@@ -36,7 +37,20 @@ while True:
     rim = np.clip(cv2.GaussianBlur(a[..., 0], (0, 0), 3)[..., None] - cv2.GaussianBlur(a[..., 0], (0, 0), 14)[..., None], 0, 1)
     f = np.clip(f + rim * 0.9 * ((1 - xs) * np.array([0.1, 0.7, 0.9], np.float32) + xs * np.array([0.9, 0.12, 0.1], np.float32)), 0, 1)
     k = 0.0
-    if t < INTRO:
+    if t < INTRO and MODE == "mosaic":
+        k = 1 - sm(INTRO * 0.35, INTRO, t)
+        bs = max(1, int(2 + 70 * k))
+        if bs > 1:
+            sw, shh = max(1, W // bs), max(1, H // bs)
+            f = cv2.resize(cv2.resize(f, (sw, shh), interpolation=cv2.INTER_AREA), (W, H), interpolation=cv2.INTER_NEAREST)
+            a = cv2.resize(cv2.resize(a[..., 0], (sw, shh), interpolation=cv2.INTER_AREA), (W, H), interpolation=cv2.INTER_NEAREST)[..., None]
+            if not hasattr(sys, "_blk"): sys._blk = np.random.default_rng(11).random((H // 4 + 1, W // 4 + 1)).astype(np.float32)
+            bm = cv2.resize(sys._blk, (sw, shh), interpolation=cv2.INTER_NEAREST)
+            bm = cv2.resize(bm, (W, H), interpolation=cv2.INTER_NEAREST)[..., None]
+            a = a * (bm < sm(0, INTRO * 0.6, t) * 1.05)
+        green = np.array([0.1, 0.89, 0.55], np.float32)
+        f = f * (1 - 0.7 * k) + (0.3 + 0.7 * f.mean(2, keepdims=True)) * green * 0.7 * k
+    elif t < INTRO:
         k = 1 - sm(INTRO * 0.55, INTRO, t)                 # cuánto holograma queda
         line = 1.05 - sm(0, INTRO * 0.7, t) * 1.15         # la línea de escaneo sube
         reveal = sm(line - 0.02, line + 0.02, yy)
