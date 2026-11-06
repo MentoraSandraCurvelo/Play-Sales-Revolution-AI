@@ -22,6 +22,6 @@
   "nota_imagen": "Tablero con datos de ejemplo y áreas ficticias; dice en la imagen \"Datos de ejemplo · áreas ficticias\" (regla 8). Fuente: demos/tablero-iae-vie-06.html",
   "publicado_utc": "2026-11-06T12:30:50+00:00",
   "publicado_el": "2026-11-06 07:30 Bogotá",
-  "primer_comentario_borrador": "Una aclaración sobre el tablero de la imagen: las áreas y los datos son de ejemplo, para proteger la información de nuestros clientes. La estructura sí es la real: adopción, horas recuperadas y evolución semana a semana. ¿Qué indicador agregarías tú para medir la IA en tu empresa?",
-  "primer_comentario_estado": "pendiente de aprobación de Sandra"
+  "primer_comentario_estado": "aprobado por Sandra el 6 nov 2026; en la página de la cola para Chrome",
+  "primer_comentario": "Una aclaración sobre el tablero de la imagen: las áreas y los datos son de ejemplo, para proteger la información de nuestros clientes. La estructura sí es la real: adopción, horas recuperadas y evolución semana a semana. ¿Qué indicador agregarías tú para medir la IA en tu empresa?"
 }
