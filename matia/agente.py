@@ -102,7 +102,7 @@ def render_html(deal: Deal, nombre: str, foco: int) -> str:
   </td></tr>
   <tr><td style="padding:18px 0;border-top:1px solid #2a2d36;color:{m['texto_suave']};font-size:13px;line-height:1.6;">
     <b style="color:{m['blanco']};">{e(m['firma'])}</b><br>{e(m['rol'])}<br>{e(m['nombre'])}
-    <div style="font-size:11px;margin-top:14px;color:#6b6f7b;">Correo de demostración generado por MATIA en modo simulado. No fue enviado a ninguna persona real.</div>
+    <div style="font-size:11px;margin-top:14px;color:#6b6f7b;">Correo de demostración generado por MATIA con Claude, de Anthropic, en modo simulado. No fue enviado a ninguna persona real.</div>
   </td></tr>
 </table></td></tr></table></body></html>"""
 

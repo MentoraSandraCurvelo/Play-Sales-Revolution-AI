@@ -1,0 +1,309 @@
+<title>MATIA IAM™</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap">
+<style>
+/* Layout: app de CRM oscura, barra superior con marca y sello Claude, KPIs, pestañas y paneles. Diseño de una sola apariencia (oscura), a propósito, por identidad IAM™. */
+:root {
+  --bg: #0b0c0f;
+  --panel: #15171d;
+  --panel-2: #1c1f27;
+  --line: #2a2d36;
+  --fg: #f4f4f6;
+  --muted: #a3a8b4;
+  --red: #e50914;
+  --red-soft: #e5091422;
+  --ok: #3ccf8e;
+  --claude: #d97757;
+  --font: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+.wrap > *, #appView > * { min-width: 0; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font); font-size: 14px; line-height: 1.5; }
+.wrap { max-width: 1240px; margin: 0 auto; padding-block: 20px 48px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 20px; }
+h1, h2, h3 { margin: 0; text-wrap: balance; }
+button { font-family: inherit; font-size: 14px; font-weight: 600; border-radius: 6px; padding: 11px 18px; cursor: pointer; border: 1px solid var(--line); background: var(--panel-2); color: var(--fg); }
+button.primary { background: var(--red); border-color: var(--red); color: #fff; }
+button:disabled { opacity: .45; cursor: not-allowed; }
+button:focus-visible, input:focus-visible, select:focus-visible, [role=tab]:focus-visible { outline: 2px solid var(--red); outline-offset: 2px; }
+
+.top { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; justify-content: space-between; border-bottom: 3px solid var(--red); padding-bottom: 14px; }
+.brand { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.brand b { font-size: 24px; font-weight: 800; letter-spacing: .5px; }
+.brand .dot { color: var(--red); font-size: inherit; letter-spacing: 0; text-transform: none; }
+.brand span { color: var(--muted); font-size: 11px; letter-spacing: 2px; text-transform: uppercase; }
+.claude { display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--claude); color: var(--fg); border-radius: 999px; padding: 6px 14px; font-size: 12px; font-weight: 600; }
+.claude svg { width: 16px; height: 16px; }
+.claude em { font-style: normal; color: var(--claude); }
+
+.sim { background: var(--red-soft); border: 1px solid var(--red); border-radius: 6px; padding: 10px 14px; font-size: 13px; }
+
+.login { max-width: 440px; margin: 40px auto; background: var(--panel); border-radius: 10px; padding: 28px; display: grid; gap: 14px; }
+.login label { display: grid; gap: 6px; font-size: 12px; color: var(--muted); letter-spacing: .5px; text-transform: uppercase; }
+.login input, .login select { font-family: inherit; font-size: 14px; padding: 10px 12px; border-radius: 6px; border: 1px solid var(--line); background: var(--bg); color: var(--fg); }
+
+.kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.kpi { background: var(--panel); border-radius: 8px; padding: 14px 16px; }
+.kpi .v { font-size: clamp(15px, 4.2vw, 22px); overflow-wrap: anywhere; font-weight: 800; font-variant-numeric: tabular-nums; }
+.kpi .l { font-size: 11px; color: var(--muted); letter-spacing: 1px; text-transform: uppercase; }
+
+.tabs { display: flex; gap: 4px; flex-wrap: wrap; border-bottom: 1px solid var(--line); }
+.tabs [role=tab] { background: none; border: 0; border-bottom: 2px solid transparent; border-radius: 0; color: var(--muted); padding: 10px 14px; }
+.tabs [role=tab][aria-selected=true] { color: var(--fg); border-bottom-color: var(--red); }
+
+.board { display: grid; grid-template-columns: repeat(5, minmax(200px, 1fr)); gap: 12px; overflow-x: auto; padding-bottom: 6px; }
+.col h3 { font-size: 12px; letter-spacing: 1px; text-transform: uppercase; padding-bottom: 8px; border-bottom: 2px solid var(--red); margin-bottom: 10px; }
+.col h3 small { color: var(--muted); font-weight: 500; }
+.card { background: var(--panel); border-radius: 6px; padding: 10px 12px; margin-bottom: 8px; font-size: 13px; border: 1px solid transparent; }
+.card.demo { border-color: var(--red); }
+.card .meta { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.badge { display: inline-block; background: var(--red); color: #fff; font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 3px; letter-spacing: .5px; }
+.flash { animation: flash 1.4s ease-out; }
+@keyframes flash { from { box-shadow: 0 0 0 3px var(--red); } to { box-shadow: 0 0 0 0 transparent; } }
+
+.split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr); gap: 20px; }
+.facts { background: var(--panel); border-radius: 8px; padding: 18px; display: grid; gap: 8px; align-content: start; }
+.facts dt { font-size: 11px; color: var(--muted); letter-spacing: 1px; text-transform: uppercase; }
+.facts dd { margin: 0 0 6px; }
+.stages { display: grid; grid-template-columns: repeat(5, 1fr); gap: 4px; margin-top: 4px; }
+.stages i { height: 6px; border-radius: 3px; background: var(--line); }
+.stages i.on { background: var(--red); }
+.timeline { display: grid; gap: 8px; }
+.ev { background: var(--panel); border-radius: 6px; padding: 10px 14px; border-left: 3px solid var(--line); }
+.ev.mail { border-left-color: var(--red); }
+.ev.stage { border-left-color: var(--ok); }
+.ev b { font-size: 13px; }
+.ev .d { color: var(--muted); font-size: 12px; }
+
+.actions { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.tablewrap { overflow-x: auto; background: var(--panel); border-radius: 8px; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+th { color: var(--muted); font-size: 11px; letter-spacing: 1px; text-transform: uppercase; font-weight: 600; }
+.pill { font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 999px; background: var(--panel-2); }
+.pill.yes { background: #3ccf8e26; color: var(--ok); }
+
+.mails { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: 16px; }
+.mlist { display: grid; gap: 6px; align-content: start; }
+.mlist button { text-align: left; font-weight: 500; display: grid; gap: 2px; }
+.mlist button[aria-pressed=true] { border-color: var(--red); }
+.mlist small { color: var(--muted); font-size: 12px; }
+.preview { background: #0b0c0f; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.preview iframe { width: 100%; height: 980px; border: 0; display: block; }
+.empty { color: var(--muted); padding: 24px; background: var(--panel); border-radius: 8px; }
+.note { color: var(--muted); font-size: 12px; }
+
+@media (max-width: 860px) {
+  .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .split, .mails { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) { .flash { animation: none; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand"><b>MATIA<span class="dot"> ●</span></b><span>Agente de toques de valor · IAM™</span></div>
+    <span class="claude" title="Esta demo fue construida con Claude, de Anthropic">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#d97757" d="M12 1.5l1.9 6.6 6.6-1.9-4.7 5 4.7 5-6.6-1.9L12 22.5l-1.9-6.6-6.6 1.9 4.7-5-4.7-5 6.6 1.9z"/></svg>
+      Hecho con <em>Claude</em> de Anthropic
+    </span>
+  </header>
+
+  <div class="sim"><b>Simulación para clase.</b> El CRM, los clientes, los correos y las respuestas son de mentira. No se conecta a ningún CRM real y no se envía ningún correo.</div>
+
+  <section id="loginView" class="login" aria-label="Conectar CRM">
+    <h2>Conectar CRM</h2>
+    <label for="crm">CRM<select id="crm"><option>Pipedrive (simulado)</option></select></label>
+    <label for="dom">Dominio de la empresa<input id="dom" value="iam-demo.pipedrive.com"></label>
+    <label for="tok">API token<input id="tok" type="password" value="demo-token-0000"></label>
+    <button class="primary" id="btnLogin">Conectar y sincronizar pipeline</button>
+    <p class="note">No se guarda ninguna credencial.</p>
+  </section>
+
+  <main id="appView" hidden style="display:grid; gap:20px;">
+    <div class="actions" style="justify-content:space-between">
+      <div class="note" id="status"></div>
+      <button id="btnReset">Reiniciar demo</button>
+    </div>
+    <div class="kpis" id="kpis"></div>
+    <div class="tabs" role="tablist">
+      <button role="tab" id="tab-pipeline" aria-selected="true">Pipeline</button>
+      <button role="tab" id="tab-demo" aria-selected="false">Cliente Demo</button>
+      <button role="tab" id="tab-matia" aria-selected="false">MATIA: jornada de hoy</button>
+      <button role="tab" id="tab-log" aria-selected="false">Bandeja de enviados</button>
+    </div>
+    <section id="p-pipeline"></section>
+    <section id="p-demo" hidden></section>
+    <section id="p-matia" hidden></section>
+    <section id="p-log" hidden></section>
+  </main>
+</div>
+
+<script>
+const ETAPAS = ["Prospecto", "Contactado", "Reunión agendada", "Propuesta enviada", "Negociación"];
+const PROB = { "Prospecto": .10, "Contactado": .20, "Reunión agendada": .40, "Propuesta enviada": .60, "Negociación": .80 };
+const DOLORES = [
+  { t: "Vendedores invisibles en LinkedIn", s: "Tu equipo tiene perfil, pero no tiene presencia: nadie los busca, nadie los recuerda. El cliente llega a la reunión ya comparando precios, porque nunca vio autoridad antes.",
+    v: "Un perfil de vendedor no es una hoja de vida, es una vitrina. Cambia el titular de \"Ejecutivo comercial\" por el problema que resuelves y para quién.",
+    tip: "Reto de 5 minutos: pide a cada vendedor reescribir su titular con la fórmula Ayudo a [cliente] a lograr [resultado] sin [dolor]." },
+  { t: "Prospección en frío que no responde", s: "Mensajes genéricos, plantillas copiadas y la misma lista de contactos de siempre. Más actividad no está generando más reuniones, solo más desgaste del equipo.",
+    v: "El mensaje que funciona no vende en la primera línea, demuestra que investigaste. Primero contexto, después propuesta.",
+    tip: "Antes de escribir, interactúa 2 veces con el contenido del prospecto. Cuando llegue tu mensaje, ya no serás un extraño." },
+  { t: "Pipeline lleno que no convierte", s: "Muchas oportunidades abiertas, pocas avanzan y nadie sabe exactamente por qué. El forecast se vuelve un acto de fe y el cierre de mes depende de la suerte.",
+    v: "Cada oportunidad necesita un siguiente paso con fecha. Si no tiene próxima acción, no es pipeline, es una lista de deseos.",
+    tip: "Revisa hoy tus 10 oportunidades más grandes y escribe para cada una: siguiente paso, fecha y responsable." },
+];
+const ANGULO = {
+  "Prospecto": "Te comparto una idea práctica, sin compromiso.",
+  "Contactado": "Retomando nuestra conversación, quise dejarte algo útil para tu equipo.",
+  "Reunión agendada": "Antes de vernos, te dejo una idea para que llegues con ventaja a la reunión.",
+  "Propuesta enviada": "Mientras revisas la propuesta, te comparto el primer paso que trabajaríamos juntos.",
+  "Negociación": "Para que tomes la decisión con toda la información, esto es lo que cambia en las primeras semanas.",
+};
+const ASUNTOS = ["{n}, una idea para {e} esta semana", "{n}: el dolor que más frena a los equipos de {i}", "3 dolores comerciales (y uno es el de {e})"];
+const EMPRESAS = [["Andina Logística","Logística"],["Nexo Seguros","Seguros"],["Altamira Software","Tecnología"],["Cafés del Quindío Export","Alimentos"],["Grupo Inmobiliario Prado","Inmobiliario"],["Clínica Horizonte","Salud"],["Banca Futura","Servicios financieros"],["EduMás Corporativo","Educación"],["Textiles Medellín Pro","Manufactura"],["Energía Solar Caribe","Energía"],["Consultores Bolívar","Consultoría"],["Farmacorp Andes","Farmacéutica"],["Telecom Pacífico","Telecomunicaciones"],["Agroinsumos del Llano","Agroindustria"],["Retail Plaza 93","Retail"],["Automotores Sabana","Automotriz"],["Hotelería Cartagena Bay","Turismo"],["Constructora Altos del Sol","Construcción"],["Fintech Pago Ya","Fintech"],["Laboratorios Vital","Salud"],["Distribuidora Norte","Distribución"],["Cloud Latam Partners","Tecnología"],["Seguros Cóndor","Seguros"],["Mobiliario Nórdico Bogotá","Retail"],["Transportes Magdalena","Logística"],["Aseguradora Guardián","Seguros"],["DataPro Analytics","Tecnología"],["Lácteos La Sabana","Alimentos"],["Urbana Propiedades","Inmobiliario"],["Odonto Sonrisa Red","Salud"],["Cooperativa Avanza","Servicios financieros"],["Academia Líderes 360","Educación"],["Plásticos Industriales Cali","Manufactura"],["Eólica Guajira","Energía"],["Estrategia & Talento","Consultoría"],["Conecta Fibra","Telecomunicaciones"],["Flores del Oriente","Agroindustria"],["Moda Express Andina","Retail"],["Motos del Valle","Automotriz"],["SaaS Contable Pro","Tecnología"]];
+const NOMBRES = ["Laura","Andrés","Camila","Santiago","Valentina","Juan Pablo","Daniela","Felipe","Mariana","Sebastián","Natalia","Carlos","Paula","Alejandro","Catalina","Mateo","Juliana","Ricardo","Isabella","Diego","Manuela","Esteban","Sofía","Tomás"];
+const APELLIDOS = ["Gómez","Restrepo","Martínez","Ospina","Rodríguez","Vélez","Pardo","Castaño","Herrera","Zuluaga","Moreno","Arango","Salazar","Quintero","Rojas","Cárdenas"];
+const CARGOS = ["Director Comercial","Gerente de Ventas","VP de Ventas","Head of Sales","Gerente General","Directora de Marketing","Líder de Desarrollo de Negocio"];
+
+function rng(seed) { let a = seed >>> 0; return () => { a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+const pick = (r, arr) => arr[Math.floor(r() * arr.length)];
+const slug = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]/g, "");
+const iso = d => d.toISOString().slice(0, 10);
+const addDays = (d, n) => { const x = new Date(d); x.setUTCDate(x.getUTCDate() + n); return x; };
+const daysBetween = (a, b) => Math.round((new Date(a) - new Date(b)) / 864e5);
+const cop = v => "$" + v.toLocaleString("es-CO");
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+let S;
+function nuevoEstado() {
+  const hoy = new Date(); hoy.setUTCHours(0, 0, 0, 0);
+  const r = rng(2026), deals = [];
+  deals.push({ id: 1, empresa: "Cliente Demo S.A.S.", contacto: "Andrea (Cliente Demo)", cargo: "Directora Comercial", email: "cliente.demo@example.com", industria: "Servicios B2B", valor: 48000000, etapa: "Contactado", dolor: 0, ultimo: iso(addDays(hoy, -9)), toques: 0, demo: true,
+    acts: [{ f: iso(addDays(hoy, -9)), tipo: "Llamada", d: "Primera conversación, interés en social selling para su equipo de 12 vendedores." }] });
+  EMPRESAS.forEach(([empresa, industria], i) => {
+    const n = pick(r, NOMBRES), a = pick(r, APELLIDOS);
+    const w = r() * 100, etapa = w < 30 ? ETAPAS[0] : w < 55 ? ETAPAS[1] : w < 75 ? ETAPAS[2] : w < 90 ? ETAPAS[3] : ETAPAS[4];
+    const ult = iso(addDays(hoy, -(1 + Math.floor(r() * 30))));
+    deals.push({ id: i + 2, empresa, contacto: `${n} ${a}`, cargo: pick(r, CARGOS), email: `${slug(n)}.${slug(a)}@${slug(empresa)}.example.com`, industria,
+      valor: (8 + Math.floor(r() * 112)) * 1000000, etapa, dolor: Math.floor(r() * 3), ultimo: ult, toques: 0, demo: false,
+      acts: [{ f: ult, tipo: "Nota", d: `Deal creado en etapa ${etapa}.` }] });
+  });
+  return { hoy: iso(hoy), deals, jornadas: [], tab: "pipeline", sel: 0 };
+}
+
+const ponderado = d => Math.round(d.valor * PROB[d.etapa]);
+const prioridad = d => (ponderado(d) / 1e6) * Math.max(daysBetween(S.hoy, d.ultimo), 1);
+function cola() {
+  return S.deals.filter(d => d.demo || daysBetween(S.hoy, d.ultimo) >= 3)
+    .sort((a, b) => (b.demo - a.demo) || (prioridad(b) - prioridad(a))).slice(0, 10);
+}
+
+function correoHTML(d, foco) {
+  const nombre = d.contacto.split(" ")[0];
+  const cards = DOLORES.map((x, i) => `
+    <div style="background:#1a1c23;border-left:4px solid ${i === foco ? "#E50914" : "#2a2d36"};border-radius:4px;padding:18px 20px;margin:0 0 14px;">
+      ${i === foco ? `<span style="background:#E50914;color:#fff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:3px;letter-spacing:.5px;">EL QUE MÁS VEO EN ${esc(d.industria.toUpperCase())}</span><br><br>` : ""}
+      <div style="color:#E50914;font-size:13px;font-weight:600;">DOLOR ${i + 1}</div>
+      <div style="color:#FAFAFA;font-size:17px;font-weight:600;margin:4px 0 8px;">${esc(x.t)}</div>
+      <div style="color:#B8BCC8;font-size:14px;line-height:1.5;">${esc(x.s)}</div>
+    </div>`).join("");
+  const x = DOLORES[foco];
+  return `<!doctype html><html lang="es"><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet"></head>
+<body style="margin:0;background:#0b0c0f;font-family:Montserrat,Arial,sans-serif;"><div style="max-width:600px;margin:0 auto;padding:24px 16px;">
+<div style="padding:0 0 20px;border-bottom:3px solid #E50914;"><span style="color:#FAFAFA;font-size:22px;font-weight:800;letter-spacing:1px;">IAM™</span><span style="color:#E50914;font-size:22px;font-weight:800;"> ●</span>
+<div style="color:#B8BCC8;font-size:12px;letter-spacing:2px;margin-top:4px;">SOCIAL SELLING · MARCA PROFESIONAL</div></div>
+<p style="color:#FAFAFA;font-size:16px;line-height:1.6;margin:28px 0 18px;">Hola ${esc(nombre)},<br><br>${esc(ANGULO[d.etapa])}<br><br>Trabajando con equipos comerciales veo que casi siempre aparecen estos <b style="color:#E50914;">3 dolores</b>:</p>
+${cards}
+<div style="background:#E50914;border-radius:4px;padding:20px 22px;color:#fff;margin-top:22px;"><div style="font-size:12px;font-weight:600;letter-spacing:1.5px;">TOQUE DE VALOR PARA ${esc(d.empresa.toUpperCase())}</div>
+<div style="font-size:15px;line-height:1.6;margin-top:8px;">${esc(x.v)}</div><div style="font-size:14px;line-height:1.6;margin-top:10px;font-weight:600;">${esc(x.tip)}</div></div>
+<div style="text-align:center;padding:26px 0;"><span style="background:#FAFAFA;color:#0b0c0f;font-weight:800;font-size:14px;padding:14px 28px;border-radius:4px;display:inline-block;">Agendemos 20 minutos</span></div>
+<div style="padding:18px 0;border-top:1px solid #2a2d36;color:#B8BCC8;font-size:13px;line-height:1.6;"><b style="color:#FAFAFA;">Sandra Curvelo</b><br>Mentora en Social Selling y Marca Profesional<br>IAM™
+<div style="font-size:11px;margin-top:14px;color:#6b6f7b;">Correo de demostración generado por MATIA con Claude, de Anthropic, en modo simulado. No fue enviado a ninguna persona real.</div></div>
+</div></body></html>`;
+}
+
+function ejecutar() {
+  const r = rng(Number(S.hoy.replace(/-/g, "")));
+  const hora = new Date().toLocaleTimeString("es-CO", { hour: "2-digit", minute: "2-digit" });
+  const enviados = cola().map(d => {
+    const foco = (d.dolor + d.toques) % 3;
+    const asunto = ASUNTOS[d.toques % 3].replace("{n}", d.contacto.split(" ")[0]).replace("{e}", d.empresa).replace("{i}", d.industria.toLowerCase());
+    const html = correoHTML(d, foco), etapaAntes = d.etapa;
+    d.acts.push({ f: S.hoy, tipo: "Correo MATIA", d: `Toque de valor: ${DOLORES[foco].t}. Asunto: ${asunto}` });
+    d.ultimo = S.hoy; d.toques++;
+    const respondio = d.demo || r() < 0.2;
+    if (respondio) {
+      const i = ETAPAS.indexOf(d.etapa);
+      if (i < ETAPAS.length - 1) { d.etapa = ETAPAS[i + 1]; d.acts.push({ f: S.hoy, tipo: "Cambio de etapa", d: `${etapaAntes} → ${d.etapa} tras respuesta al correo.` }); }
+      else d.acts.push({ f: S.hoy, tipo: "Respuesta", d: "El cliente respondió, listo para cierre." });
+    }
+    return { id: d.id, para: d.email, empresa: d.empresa, etapa: etapaAntes, asunto, dolor: DOLORES[foco].t, hora, respondio, html };
+  });
+  S.jornadas.push({ fecha: S.hoy, enviados }); S.sel = 0; S.flash = true;
+}
+
+function render() {
+  const tot = S.deals.reduce((a, d) => a + d.valor, 0), pon = S.deals.reduce((a, d) => a + ponderado(d), 0);
+  const env = S.jornadas.reduce((a, j) => a + j.enviados.length, 0), resp = S.jornadas.reduce((a, j) => a + j.enviados.filter(e => e.respondio).length, 0);
+  document.getElementById("status").textContent = `Conectado a iam-demo.pipedrive.com (simulado) · Día de la simulación: ${S.hoy}`;
+  document.getElementById("kpis").innerHTML = [[S.deals.length, "Deals abiertos"], [cop(tot), "Valor pipeline COP"], [cop(pon), "Valor ponderado COP"], [`${env} / ${resp}`, "Correos / respuestas (sim.)"]]
+    .map(([v, l]) => `<div class="kpi"><div class="v">${v}</div><div class="l">${l}</div></div>`).join("");
+
+  for (const t of ["pipeline", "demo", "matia", "log"]) {
+    document.getElementById("tab-" + t).setAttribute("aria-selected", S.tab === t);
+    document.getElementById("p-" + t).hidden = S.tab !== t;
+  }
+
+  document.getElementById("p-pipeline").innerHTML = `<div class="board">${ETAPAS.map(e => {
+    const ds = S.deals.filter(d => d.etapa === e).sort((a, b) => (b.demo - a.demo) || (b.valor - a.valor));
+    return `<div class="col"><h3>${e} <small>· ${ds.length}</small></h3>${ds.map(d => `<div class="card ${d.demo ? "demo" + (S.flash ? " flash" : "") : ""}">${d.demo ? '<span class="badge">DEMO</span> ' : ""}<b>${esc(d.empresa)}</b><br>${esc(d.contacto)}<div class="meta">${cop(d.valor)} · ${daysBetween(S.hoy, d.ultimo)} días sin toque · ${d.toques} toques</div></div>`).join("")}</div>`;
+  }).join("")}</div>`;
+
+  const demo = S.deals[0], idx = ETAPAS.indexOf(demo.etapa);
+  document.getElementById("p-demo").innerHTML = `<div class="split">
+    <dl class="facts"><h2>${esc(demo.empresa)}</h2>
+      <dt>Contacto</dt><dd>${esc(demo.contacto)}, ${esc(demo.cargo)}</dd>
+      <dt>Correo</dt><dd>${esc(demo.email)}</dd>
+      <dt>Valor</dt><dd>${cop(demo.valor)} COP</dd>
+      <dt>Etapa actual</dt><dd>${demo.etapa} <span class="note">(${Math.round(PROB[demo.etapa] * 100)}% de probabilidad, supuesto didáctico)</span>
+        <div class="stages">${ETAPAS.map((_, i) => `<i class="${i <= idx ? "on" : ""}"></i>`).join("")}</div></dd>
+      <dt>Dolor principal</dt><dd>${DOLORES[demo.dolor].t}</dd>
+      <dt>Toques de MATIA</dt><dd>${demo.toques}</dd></dl>
+    <div class="timeline"><h3>Línea de tiempo · se actualiza cada jornada</h3>${demo.acts.slice().reverse().map(a => `<div class="ev ${a.tipo === "Correo MATIA" ? "mail" : a.tipo === "Cambio de etapa" ? "stage" : ""}"><b>${a.tipo}</b> <span class="d">· ${a.f}</span><br>${esc(a.d)}</div>`).join("")}</div></div>`;
+
+  const ya = S.jornadas.some(j => j.fecha === S.hoy), c = cola(), ult = S.jornadas[S.jornadas.length - 1];
+  const hoyJ = ult && ult.fecha === S.hoy ? ult : null;
+  document.getElementById("p-matia").innerHTML = `<div style="display:grid;gap:16px">
+    <p style="margin:0;max-width:75ch">MATIA elige <b>10 deals por día</b>: el Cliente Demo siempre y los otros 9 por prioridad = valor ponderado (millones COP) × días sin toque. Nadie recibe 2 correos en menos de 3 días.</p>
+    <div class="actions"><button class="primary" id="btnRun" ${ya ? "disabled" : ""}>Ejecutar MATIA: enviar ${c.length} correos (simulado)</button><button id="btnNext">Avanzar al día siguiente ⏭</button>
+      ${ya ? '<span class="note">Jornada de hoy completada. Avanza al día siguiente para la próxima tanda.</span>' : ""}</div>
+    ${hoyJ ? `<div class="mails"><div class="mlist">${hoyJ.enviados.map((e, i) => `<button data-i="${i}" aria-pressed="${i === S.sel}"><span>${esc(e.empresa)} ${e.respondio ? '<span class="pill yes">Respondió</span>' : ""}</span><small>${esc(e.asunto)}</small></button>`).join("")}</div>
+      <div class="preview"><iframe title="Vista previa del correo" sandbox="" id="frame"></iframe></div></div>`
+    : `<div class="tablewrap"><table><thead><tr><th>Empresa</th><th>Contacto</th><th>Etapa</th><th>Días sin toque</th><th>Prioridad</th></tr></thead><tbody>${c.map(d => `<tr><td>${d.demo ? '<span class="badge">DEMO</span> ' : ""}${esc(d.empresa)}</td><td>${esc(d.contacto)}</td><td>${d.etapa}</td><td>${daysBetween(S.hoy, d.ultimo)}</td><td>${prioridad(d).toFixed(1)}</td></tr>`).join("")}</tbody></table></div>`}
+  </div>`;
+  if (hoyJ) document.getElementById("frame").srcdoc = hoyJ.enviados[S.sel].html;
+
+  document.getElementById("p-log").innerHTML = S.jornadas.length ? S.jornadas.slice().reverse().map(j => `<h3 style="margin:8px 0">${j.fecha} · ${j.enviados.length} correos</h3><div class="tablewrap"><table><thead><tr><th>Hora</th><th>Para</th><th>Empresa</th><th>Asunto</th><th>Dolor foco</th><th>Estado</th></tr></thead><tbody>${j.enviados.map(e => `<tr><td>${e.hora}</td><td>${esc(e.para)}</td><td>${esc(e.empresa)}</td><td>${esc(e.asunto)}</td><td>${esc(e.dolor)}</td><td><span class="pill ${e.respondio ? "yes" : ""}">${e.respondio ? "Respondió (sim.)" : "Enviado (sim.)"}</span></td></tr>`).join("")}</tbody></table></div>`).join("")
+    : `<div class="empty">Todavía no hay envíos. Ejecuta MATIA en la pestaña de la jornada.</div>`;
+  S.flash = false;
+}
+
+document.addEventListener("click", e => {
+  const t = e.target.closest("button"); if (!t) return;
+  if (t.id === "btnLogin") { document.getElementById("loginView").hidden = true; document.getElementById("appView").hidden = false; S.logged = true; render(); }
+  else if (t.id === "btnReset") { S = nuevoEstado(); S.logged = true; render(); }
+  else if (t.id === "btnRun") { ejecutar(); render(); }
+  else if (t.id === "btnNext") { S.hoy = iso(addDays(new Date(S.hoy), 1)); render(); }
+  else if (t.getAttribute("role") === "tab") { S.tab = t.id.slice(4); render(); }
+  else if (t.dataset.i !== undefined) { S.sel = Number(t.dataset.i); render(); }
+});
+
+function start(data) {
+  S = data && data.S ? data.S : nuevoEstado();
+  if (S.logged) { document.getElementById("loginView").hidden = true; document.getElementById("appView").hidden = false; render(); }
+}
+window.claude?.hot?.snapshot?.(() => ({ S }));
+window.claude?.hot?.ready ? window.claude.hot.ready(start) : start(window.claude?.hot?.data ?? {});
+</script>

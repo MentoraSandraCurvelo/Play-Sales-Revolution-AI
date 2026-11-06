@@ -25,4 +25,6 @@ En el menú lateral entra a **MATIA Agente de Correos**.
 - `matia/crm_simulado.py`: clientes ficticios y etapas del pipeline.
 - `matia/agente.py`: reglas (10 correos por día, mínimo 3 días entre toques) y el HTML del correo.
 
+Versión web (sin instalar nada): https://claude.ai/artifact/LvZR3ihbJDgRCqiQRh7skP, código en `matia/demo_web/index.html`.
+
 Versión terminal: `python run_matia.py 5` guarda 5 días de correos en `salida_matia/`.

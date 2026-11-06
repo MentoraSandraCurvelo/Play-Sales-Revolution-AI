@@ -50,7 +50,7 @@ if "matia_login" not in ss:
 if not ss.matia_login:
     st.image("logo.png", width=160)
     st.title("Conectar CRM")
-    st.caption("Simulación para clase. No se conecta a ningún CRM real y no se guarda ninguna credencial.")
+    st.caption("Simulación para clase. No se conecta a ningún CRM real y no se guarda ninguna credencial. Hecho con Claude de Anthropic.")
     with st.form("login"):
         st.selectbox("CRM", ["Pipedrive (simulado)"])
         st.text_input("Dominio de la empresa", value="iam-demo.pipedrive.com")
@@ -69,6 +69,8 @@ c1, c2 = st.columns([3, 1])
 with c1:
     st.markdown(f"## MATIA <span style='color:{ROJO}'>●</span> agente de toques de valor", unsafe_allow_html=True)
     st.caption(f"Conectado a: iam-demo.pipedrive.com (simulado) · Fecha de la simulación: {hoy.isoformat()}")
+    st.markdown("<span style='border:1px solid #d97757;border-radius:999px;padding:4px 12px;font-size:12px;font-weight:600;'>"
+                "✳ Hecho con <span style='color:#d97757'>Claude</span> de Anthropic</span>", unsafe_allow_html=True)
 with c2:
     if st.button("Reiniciar demo"):
         for k in [k for k in ss.keys() if k.startswith("matia_")]:
