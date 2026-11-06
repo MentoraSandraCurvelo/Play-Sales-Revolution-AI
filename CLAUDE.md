@@ -28,6 +28,9 @@ Siempre que una pieza pida comentar una palabra clave, antes de publicarla:
 ## Publicación
 Sandra graba y aprueba el material; Claude decide la fecha y la hora de publicación de las piezas aprobadas, las programa y le avisa cada vez (4 nov 2026). Lo que no ha visto Sandra no se publica.
 
+## Cada sesión en lo suyo (6 nov 2026)
+Lo de Instagram se trabaja y se queda en la sesión de Instagram (Isaía); lo de LinkedIn se trabaja en la sesión de Demetri. Isaía no adapta piezas de Instagram para LinkedIn: si Demetri necesita algo, lo cambia en su sesión. Compartir datos que Demetri pida (por ejemplo, métricas) sí está bien.
+
 ## Idioma y tono
 Español de Colombia, tuteo. Sin guiones para separar ideas. Números y signos en su formato. "Dinero", no "plata".
 
