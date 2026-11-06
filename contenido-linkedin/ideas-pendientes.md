@@ -31,3 +31,9 @@
 - Y no invertir en comprar licencias, sino en alguien que enseñe a instalar un sistema de trabajo por áreas donde se mida la productividad.
 - Diferencial: el IAE™, que mide 3 cosas: adopción (porcentaje del equipo que usa la IA en su trabajo real), horas recuperadas (tiempo antes y después, por frecuencia) y evolución (desde la semana 1, qué área sube y cuál baja).
 - Momento ideal: noviembre y diciembre, mientras las empresas cierran presupuesto. Conecta con la prospección de gerentes generales y cámaras de comercio.
+
+## Títulos vs. logros (idea de Sandra, 6 nov 2026)
+
+- Mensaje central: mostramos títulos, escarapelas y fotos de eventos, pero casi nunca el impacto que causamos en la empresa, el entorno y la comunidad.
+- Pilar: marca profesional. Fórmula propuesta: "Hice [qué] para [quién], y eso cambió [resultado medible]".
+- Borrador v1 en espera de aprobación (ver chat del 6 nov). Candidato para la semana del 16 nov.
