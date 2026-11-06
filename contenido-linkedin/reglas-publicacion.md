@@ -126,3 +126,7 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 
 - Cada publicación donde Sandra comenta lleva su reacción "Interesante" (Insightful).
 - Sin autolike: Sandra no le da like a sus propios comentarios.
+
+## 19. Dudas sobre un texto aprobado (6 nov 2026, decisión de Sandra)
+
+- Si Chrome tiene una duda sobre un texto aprobado, no lo cambia: lo deja sin publicar y le pregunta a Sandra. Ejemplo: una frase que parece atribuirle a alguien algo que no se puede confirmar.
