@@ -1,0 +1,33 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#04060a;font-family:Inter,Arial,sans-serif}
+.sky{position:absolute;inset:0;background:radial-gradient(900px 900px at 50% 38%,#0e2236 0,transparent 65%),radial-gradient(700px 600px at 90% 95%,rgba(150,12,20,.55) 0,transparent 70%),radial-gradient(600px 500px at 0% 80%,rgba(0,140,170,.25) 0,transparent 70%)}
+.floor{position:absolute;left:-600px;right:-600px;bottom:0;height:900px;transform:perspective(500px) rotateX(60deg);transform-origin:50% 100%;
+ background-image:linear-gradient(rgba(0,220,255,.35) 2px,transparent 2px),linear-gradient(90deg,rgba(0,220,255,.35) 2px,transparent 2px);background-size:110px 110px;animation:fl 8s linear infinite;
+ -webkit-mask-image:linear-gradient(to top,#000 20%,transparent 100%)}
+@keyframes fl{to{background-position:0 880px}}
+.ring{position:absolute;left:50%;top:1380px;width:900px;height:900px;margin-left:-450px;border-radius:50%;border:3px solid rgba(255,45,45,.7);box-shadow:0 0 60px rgba(255,45,45,.6),inset 0 0 60px rgba(255,45,45,.4);transform:perspective(700px) rotateX(75deg);animation:pu 4s ease-in-out infinite}
+.ring.b{width:640px;height:640px;margin-left:-320px;top:1510px;border-color:rgba(0,220,255,.7);box-shadow:0 0 50px rgba(0,220,255,.6);animation-delay:-2s}
+@keyframes pu{0%,100%{opacity:.55}50%{opacity:1}}
+.p{position:absolute;width:330px;padding:24px 26px;border-radius:22px;border:2px solid rgba(0,220,255,.55);background:linear-gradient(160deg,rgba(0,190,230,.16),rgba(0,60,90,.10));box-shadow:0 0 40px rgba(0,220,255,.25),inset 0 0 30px rgba(0,220,255,.12);color:#bff6ff}
+.p h4{font:800 20px/1 "JetBrains Mono",monospace;letter-spacing:.18em;color:#7fe9ff;margin-bottom:18px}
+.bar{height:14px;border-radius:7px;background:rgba(127,233,255,.35);margin-top:12px}
+.bar.rd{background:rgba(255,80,80,.55)} .bar.am{background:rgba(255,176,32,.55)}
+.av{width:70px;height:70px;border-radius:50%;border:3px solid #7fe9ff;display:inline-block;vertical-align:middle;margin-right:16px;box-shadow:0 0 20px rgba(0,220,255,.6)}
+.l{position:absolute;left:-40px;transform:perspective(900px) rotateY(32deg)}
+.r{position:absolute;right:-40px;transform:perspective(900px) rotateY(-32deg)}
+.f1{top:300px;animation:fa 8s ease-in-out infinite}.f2{top:820px;animation:fa 8s ease-in-out infinite -3s}
+.f3{top:380px;animation:fa 8s ease-in-out infinite -5s}.f4{top:900px;animation:fa 8s ease-in-out infinite -1.5s}
+@keyframes fa{0%,100%{margin-top:0;opacity:.85}50%{margin-top:-26px;opacity:1}}
+.scan{position:absolute;left:0;right:0;height:180px;background:linear-gradient(transparent,rgba(0,220,255,.10),transparent);animation:sc 4s linear infinite}
+@keyframes sc{from{top:-200px}to{top:1920px}}
+.dots{position:absolute;inset:0;background-image:radial-gradient(rgba(127,233,255,.55) 1.5px,transparent 2px);background-size:90px 130px;animation:dt 8s linear infinite;opacity:.35;-webkit-mask-image:radial-gradient(closest-side,#000,transparent)}
+@keyframes dt{to{background-position:0 -260px}}
+</style></head><body>
+<div class="sky"></div><div class="dots"></div><div class="floor"></div><div class="ring"></div><div class="ring b"></div>
+<div class="p l f1"><h4>PERFIL · CLIENTE</h4><span class="av"></span><div style="display:inline-block;width:170px;vertical-align:middle"><div class="bar"></div><div class="bar" style="width:70%"></div></div><div class="bar" style="width:90%;margin-top:22px"></div><div class="bar" style="width:60%"></div></div>
+<div class="p l f2"><h4>NOTICIAS</h4><div class="bar am"></div><div class="bar" style="width:80%"></div><div class="bar am" style="width:65%;margin-top:22px"></div><div class="bar" style="width:85%"></div></div>
+<div class="p r f3"><h4>PRIORIDADES</h4><div class="bar rd" style="width:95%"></div><div class="bar am" style="width:75%"></div><div class="bar" style="width:55%"></div><div class="bar" style="width:40%"></div></div>
+<div class="p r f4"><h4>OBJECIÓN</h4><div class="bar rd" style="width:85%"></div><div class="bar" style="width:70%"></div><div class="bar" style="width:50%"></div></div>
+<div class="scan"></div>
+</body></html>
