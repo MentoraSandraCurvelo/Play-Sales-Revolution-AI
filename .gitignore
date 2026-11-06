@@ -1,1 +1,3 @@
 salida_matia/
+__pycache__/
+*.pyc
