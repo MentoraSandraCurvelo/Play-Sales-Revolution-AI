@@ -130,3 +130,7 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 ## 19. Dudas sobre un texto aprobado (6 nov 2026, decisión de Sandra)
 
 - Si Chrome tiene una duda sobre un texto aprobado, no lo cambia: lo deja sin publicar y le pregunta a Sandra. Ejemplo: una frase que parece atribuirle a alguien algo que no se puede confirmar.
+
+## 20. Voz de Sandra (6 nov 2026)
+
+- Frases que suenan a IA y no se usan: "Mi respuesta honesta". Ante la duda, empezar directo, en primera persona y sin muletillas.
