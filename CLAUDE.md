@@ -15,6 +15,7 @@ Todo lo que salga visual (tableros, mesas, reportes, páginas, presentaciones, p
 - Montajes con IA (aprobados por Sandra): para cada pieza, además de sus fotos reales, crear montajes en ElevenLabs a partir de sus fotos de Dropbox, cambiando atuendo, pose y escenario (oficina ejecutiva de noche, sala tipo Wall Street, escenario, y escenarios futuristas: puente de una nave espacial, hologramas, ciudad del futuro), manteniendo su misma cara y su mismo pelo. Generarlos en formato vertical para Instagram y mostrarle cada montaje antes de usarlo: si la cara no es fiel, no se usa.
 - Sin avatares hablando: Sandra probó los avatares de foto con voz (4 nov 2026) y no le gustaron (dientes raros, ritmo pausado, se ven ficticios). Sus videos son tomas reales grabadas por ella; los montajes con IA son solo imágenes fijas o clips cortos sin habla.
 - Cuerpo en los montajes: Sandra es delgada de cadera y de piernas. En todo montaje de cuerpo entero o de rodillas para arriba, pedir explícitamente cadera y piernas delgadas.
+- Recorte de Sandra en los videos (6 nov 2026): siempre con el modelo de video RVM (`estrategia/instagram/herramientas/rvm_comp.py`): cabello y bordes cuadro por cuadro, color de piel sin el reflejo de la pared, luz del fondo que envuelve la silueta, fondo con profundidad de campo, nitidez suave y grano parejo. Nunca el recorte rápido de baja resolución.
 - Antes de entregar, revisar el diseño completo una vez más contra esta lista.
 
 ## Regla: cada "Comenta [PALABRA]" lleva su guía y su respuesta automática
