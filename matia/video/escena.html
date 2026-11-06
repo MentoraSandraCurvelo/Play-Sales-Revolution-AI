@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<title>MATIA video</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Montserrat:wght@600;800&display=swap">
+<style>
+/* Escena animada por tiempo: render(t) dibuja cada cuadro. Estética clara tipo entorno Claude. */
+:root {
+  --bg: #faf9f5; --side: #f0eee6; --line: #e3e0d6; --fg: #1f1e1d; --muted: #6f6b62;
+  --claude: #d97757; --ok: #2f8f5b; --iam: #e50914; --ink: #0b0c0f;
+  --ui: "Inter", system-ui, sans-serif; --serif: "Source Serif 4", Georgia, serif; --brand: "Montserrat", Arial, sans-serif;
+}
+* { box-sizing: border-box; margin: 0; }
+html, body { width: 100%; height: 100%; overflow: hidden; background: var(--bg); color: var(--fg); font-family: var(--ui); }
+#stage { position: absolute; inset: 0; display: grid; }
+body.v #stage { grid-template-rows: auto minmax(0, 0.92fr) minmax(0, 1.08fr); }
+body.h #stage { grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); grid-template-rows: auto minmax(0, 1fr); }
+.bar { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--line); background: var(--bg); }
+body.h .bar { grid-column: 1 / -1; }
+.spark { width: 22px; height: 22px; }
+.bar .name { font-weight: 600; font-size: 16px; }
+.bar .proj { margin-left: 6px; font-size: 13px; color: var(--muted); padding: 4px 10px; border: 1px solid var(--line); border-radius: 8px; background: #fff; }
+.bar .sim { margin-left: auto; font-size: 11px; font-weight: 600; letter-spacing: .4px; color: var(--muted); }
+
+.chat { padding: 18px 22px; display: flex; flex-direction: column; gap: 14px; overflow: hidden; }
+.user { align-self: flex-end; max-width: 88%; background: var(--side); border-radius: 14px; padding: 12px 15px; font-size: 14.5px; line-height: 1.45; min-height: 20px; }
+.resp { font-family: var(--serif); font-size: 16px; line-height: 1.5; display: flex; flex-direction: column; gap: 10px; }
+.resp .head { display: flex; gap: 10px; align-items: flex-start; }
+.resp .head .spark { flex: none; margin-top: 2px; }
+.steps { display: flex; flex-direction: column; gap: 7px; font-family: var(--ui); font-size: 13.5px; }
+.step { display: flex; align-items: center; gap: 10px; border: 1px solid var(--line); background: #fff; border-radius: 10px; padding: 8px 12px; }
+.step .ic { width: 18px; height: 18px; border-radius: 50%; flex: none; display: grid; place-items: center; font-size: 11px; color: #fff; }
+.step .ic.run { border: 2px solid var(--line); border-top-color: var(--claude); }
+.step .ic.done { background: var(--ok); }
+.step .t { flex: 1; }
+.step .r { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 12.5px; }
+.final { font-family: var(--serif); }
+.final b { font-weight: 600; }
+.cursor { display: inline-block; width: 7px; height: 1em; background: var(--fg); vertical-align: -2px; margin-left: 1px; }
+
+.panelwrap { padding: 14px 18px 18px; min-height: 0; display: flex; }
+body.h .panelwrap { padding: 18px 22px 22px 6px; }
+.panel { flex: 1; min-height: 0; border: 1px solid var(--line); border-radius: 14px; background: #fff; box-shadow: 0 6px 24px #1f1e1d12; display: flex; flex-direction: column; overflow: hidden; }
+.ptop { display: flex; align-items: center; gap: 8px; padding: 10px 14px; border-bottom: 1px solid var(--line); font-size: 13px; }
+.ptop .title { font-weight: 600; }
+.ptop .tabs { margin-left: auto; display: flex; gap: 4px; }
+.ptop .tab { font-size: 11.5px; padding: 4px 9px; border-radius: 6px; color: var(--muted); }
+.ptop .tab.on { background: var(--side); color: var(--fg); font-weight: 600; }
+.pbody { position: relative; flex: 1; min-height: 0; overflow: hidden; }
+.view { position: absolute; inset: 0; padding: 14px; }
+
+/* Pipeline */
+.board { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 7px; height: 100%; }
+.col { background: var(--bg); border-radius: 8px; padding: 6px; display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+.col h4 { font-size: 9.5px; letter-spacing: .4px; text-transform: uppercase; color: var(--muted); padding: 2px 2px 5px; border-bottom: 2px solid var(--line); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.card { background: #fff; border: 1px solid var(--line); border-radius: 6px; padding: 5px 6px; font-size: 10px; line-height: 1.3; position: relative; }
+.card b { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 600; }
+.card span { color: var(--muted); }
+.card.pick { border-color: var(--claude); box-shadow: 0 0 0 2px #d9775733; }
+.card .tick { position: absolute; top: -6px; right: -6px; width: 16px; height: 16px; border-radius: 50%; background: var(--claude); color: #fff; font-size: 10px; display: grid; place-items: center; }
+.card.demo { border-color: var(--iam); }
+.ghost { position: absolute; z-index: 5; pointer-events: none; }
+
+/* Correo */
+.mail { height: 100%; background: var(--ink); border-radius: 8px; padding: 16px 18px; font-family: var(--brand); color: #fafafa; overflow: hidden; position: relative; }
+.mail .hdr { border-bottom: 3px solid var(--iam); padding-bottom: 8px; display: flex; justify-content: space-between; align-items: baseline; }
+.mail .hdr b { font-size: 18px; font-weight: 800; } .mail .hdr b i { color: var(--iam); font-style: normal; }
+.mail .to { font-family: var(--ui); font-size: 10.5px; color: #a3a8b4; }
+.mail .hi { font-family: var(--ui); font-size: 13px; line-height: 1.5; margin: 10px 0 8px; min-height: 40px; }
+.dolor { background: #1a1c23; border-left: 4px solid #2a2d36; border-radius: 4px; padding: 7px 10px; margin-bottom: 6px; font-size: 12px; font-weight: 600; }
+.dolor small { display: block; color: var(--iam); font-size: 9.5px; letter-spacing: .5px; }
+.dolor.foco { border-left-color: var(--iam); }
+.valor { background: var(--iam); border-radius: 4px; padding: 9px 11px; font-family: var(--ui); font-size: 11.5px; line-height: 1.45; margin-top: 8px; }
+.valor b { display: block; font-family: var(--brand); font-size: 9.5px; letter-spacing: 1px; margin-bottom: 3px; }
+.cta { margin: 10px auto 0; width: max-content; background: #fafafa; color: var(--ink); font-weight: 800; font-size: 11.5px; padding: 7px 14px; border-radius: 4px; }
+.stamp { position: absolute; right: 16px; bottom: 16px; background: var(--ok); color: #fff; font-family: var(--ui); font-weight: 700; font-size: 13px; padding: 7px 12px; border-radius: 8px; }
+.outbox { display: flex; flex-direction: column; gap: 6px; }
+.orow { display: flex; align-items: center; gap: 10px; background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 7px 10px; font-size: 12px; }
+.orow .n { width: 22px; height: 22px; border-radius: 50%; background: var(--ink); color: #fff; display: grid; place-items: center; font-size: 10.5px; font-weight: 700; flex: none; }
+.orow .e { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.orow .s { color: var(--ok); font-weight: 600; font-size: 11px; }
+.counter { font-size: 12px; color: var(--muted); margin-bottom: 8px; display: flex; justify-content: space-between; }
+.prog { height: 6px; border-radius: 3px; background: var(--side); overflow: hidden; margin-bottom: 10px; }
+.prog i { display: block; height: 100%; background: var(--claude); }
+
+/* Cierre */
+#end { position: absolute; inset: 0; background: var(--bg); display: grid; place-items: center; text-align: center; z-index: 20; }
+#end .in { display: grid; gap: 16px; justify-items: center; padding: 24px; }
+#end .logo { font-family: var(--brand); font-weight: 800; font-size: 46px; color: var(--ink); }
+#end .logo i { color: var(--iam); font-style: normal; }
+#end .claim { font-family: var(--serif); font-size: 24px; max-width: 18ch; line-height: 1.3; }
+#end .made { display: flex; align-items: center; gap: 8px; border: 1px solid var(--claude); border-radius: 999px; padding: 7px 16px; font-size: 14px; font-weight: 600; }
+#end .made em { font-style: normal; color: var(--claude); }
+#end .note { font-size: 12px; color: var(--muted); }
+</style></head>
+<body class="v">
+<div id="stage">
+  <div class="bar">
+    <svg class="spark" viewBox="0 0 24 24"><path fill="#d97757" d="M12 1.5l1.9 6.6 6.6-1.9-4.7 5 4.7 5-6.6-1.9L12 22.5l-1.9-6.6-6.6 1.9 4.7-5-4.7-5 6.6 1.9z"/></svg>
+    <span class="name">Claude</span><span class="proj">MATIA · Agente de correos IAM™</span>
+    <span class="sim">DEMO SIMULADA</span>
+  </div>
+  <div class="chat">
+    <div class="user" id="user"></div>
+    <div class="resp" id="resp">
+      <div class="head"><svg class="spark" viewBox="0 0 24 24"><path fill="#d97757" d="M12 1.5l1.9 6.6 6.6-1.9-4.7 5 4.7 5-6.6-1.9L12 22.5l-1.9-6.6-6.6 1.9 4.7-5-4.7-5 6.6 1.9z"/></svg><span id="intro"></span></div>
+      <div class="steps" id="steps"></div>
+      <div class="final" id="final"></div>
+    </div>
+  </div>
+  <div class="panelwrap"><div class="panel">
+    <div class="ptop"><span class="title">Pipedrive · Pipeline (simulado)</span><div class="tabs"><span class="tab" id="tb0">Pipeline</span><span class="tab" id="tb1">Correos</span><span class="tab" id="tb2">Cliente Demo</span></div></div>
+    <div class="pbody">
+      <div class="view" id="vPipe"><div class="board" id="board"></div></div>
+      <div class="view" id="vMail"></div>
+      <div class="view" id="vOut"></div>
+    </div>
+  </div></div>
+</div>
+<div id="end"><div class="in">
+  <div class="logo">MATIA<i> ●</i></div>
+  <div class="claim">10 toques de valor al día, mientras tu equipo vende.</div>
+  <div class="made"><svg class="spark" viewBox="0 0 24 24"><path fill="#d97757" d="M12 1.5l1.9 6.6 6.6-1.9-4.7 5 4.7 5-6.6-1.9L12 22.5l-1.9-6.6-6.6 1.9 4.7-5-4.7-5 6.6 1.9z"/></svg>Hecho con <em>Claude</em> · IAM™</div>
+  <div class="note">Demo simulada para clase. CRM, clientes y correos ficticios.</div>
+</div></div>
+
+<script>
+const ETAPAS = ["Prospecto", "Contactado", "Reunión", "Propuesta", "Negociación"];
+const DEALS = [
+  ["Cliente Demo S.A.S.", 1, true], ["Andina Logística", 0], ["Nexo Seguros", 2], ["Altamira Software", 1], ["Clínica Horizonte", 3],
+  ["Banca Futura", 0], ["EduMás Corporativo", 1], ["Energía Solar Caribe", 2], ["Fintech Pago Ya", 4], ["Retail Plaza 93", 0],
+  ["Telecom Pacífico", 1], ["Seguros Cóndor", 3], ["DataPro Analytics", 2], ["Lácteos La Sabana", 0], ["Conecta Fibra", 1],
+];
+const PICKS = [0, 3, 4, 7, 8, 11, 12, 2, 6, 14];
+const VALS = ["$48M", "$62M", "$35M", "$90M", "$27M", "$71M", "$44M", "$58M", "$112M", "$19M", "$66M", "$83M", "$40M", "$22M", "$51M"];
+const USER = "MATIA, corre la jornada de hoy: toma el pipeline de Pipedrive y envía 10 toques de valor con los 3 dolores.";
+const INTRO = "Perfecto, Sandra. Empiezo la jornada.";
+const STEPS = [
+  [4.6, 6.4, "Conectando a Pipedrive", "simulado"],
+  [6.4, 8.4, "Leyendo el pipeline", "41 deals"],
+  [8.4, 11.0, "Priorizando: valor × días sin toque", "10 elegidos"],
+  [11.0, 26.5, "Redactando y enviando correos", null],
+  [26.5, 30.0, "Actualizando el CRM", "1 cambio de etapa"],
+];
+const FINAL = "Jornada completa: <b>10 correos enviados</b> y el Cliente Demo pasó a <b>Reunión agendada</b>.";
+const DOL = ["Vendedores invisibles en LinkedIn", "Prospección en frío que no responde", "Pipeline lleno que no convierte"];
+const T_END = 37;
+
+const $ = id => document.getElementById(id);
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const ease = x => { x = clamp(x); return x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2; };
+const prog = (t, a, b) => ease((t - a) / (b - a));
+const typed = (s, t, a, cps) => s.slice(0, Math.max(0, Math.floor((t - a) * cps)));
+const show = (el, o, dy = 10) => { el.style.opacity = o; el.style.transform = `translateY(${(1 - o) * dy}px)`; };
+
+function board(t) {
+  const demoStage = t >= 27.5 ? 2 : 1;
+  const picked = new Set(PICKS.filter((_, i) => t >= 8.6 + i * 0.22));
+  const cols = ETAPAS.map((e, ci) => {
+    const cards = DEALS.map((d, i) => ({ d, i, st: i === 0 ? demoStage : d[1] })).filter(x => x.st === ci);
+    return `<div class="col"><h4>${e} · ${cards.length}</h4>${cards.map(({ d, i }) => {
+      const pk = picked.has(i), sent = t >= 11 && PICKS.indexOf(i) >= 0 && t >= 18.5 + PICKS.indexOf(i) * 0.8;
+      const moving = i === 0 && t >= 26.6 && t < 27.5;
+      return `<div class="card ${d[2] ? "demo" : ""} ${pk ? "pick" : ""}" data-i="${i}" style="${moving ? "visibility:hidden" : ""}"><b>${d[0]}</b><span>${VALS[i]}${sent ? " · ✉" : ""}</span>${pk ? '<i class="tick">✓</i>' : ""}</div>`;
+    }).join("")}</div>`;
+  }).join("");
+  $("board").innerHTML = cols;
+  // Tarjeta del Cliente Demo volando de Contactado a Reunión
+  let g = document.querySelector(".ghost");
+  if (t >= 26.6 && t < 27.5) {
+    const colEls = document.querySelectorAll(".col"), pb = $("vPipe").getBoundingClientRect();
+    const a = colEls[1].getBoundingClientRect(), b = colEls[2].getBoundingClientRect();
+    const p = prog(t, 26.6, 27.5);
+    if (!g) { g = document.createElement("div"); g.className = "card demo pick ghost"; $("vPipe").appendChild(g); }
+    g.innerHTML = `<b>${DEALS[0][0]}</b><span>${VALS[0]}</span>`;
+    const w = a.width - 12;
+    g.style.width = w + "px";
+    g.style.left = (a.left - pb.left + 6 + (b.left - a.left) * p) + "px";
+    g.style.top = (a.top - pb.top + 26 - Math.sin(p * Math.PI) * 30) + "px";
+    g.style.transform = `rotate(${Math.sin(p * Math.PI) * 4}deg) scale(${1 + Math.sin(p * Math.PI) * .08})`;
+    g.style.boxShadow = `0 ${8 + 12 * Math.sin(p * Math.PI)}px 24px #1f1e1d33`;
+  } else if (g) g.remove();
+}
+
+function mail(t) {
+  const a = 11.4;
+  const hi = typed("Hola Andrea,\nRetomando nuestra conversación, quise dejarte algo útil para tu equipo.", t, a + .4, 34).replace("\n", "<br>");
+  const d = DOL.map((x, i) => { const o = prog(t, a + 2.9 + i * .45, a + 3.4 + i * .45); return `<div class="dolor ${i === 0 ? "foco" : ""}" style="opacity:${o};transform:translateX(${(1 - o) * -16}px)"><small>DOLOR ${i + 1}</small>${x}</div>`; }).join("");
+  const vo = prog(t, a + 4.6, a + 5.1), co = prog(t, a + 5.3, a + 5.7), so = prog(t, a + 6.2, a + 6.5);
+  $("vMail").innerHTML = `<div class="mail"><div class="hdr"><b>IAM™<i> ●</i></b><span class="to">Para: cliente.demo@example.com</span></div>
+    <div class="hi">${hi}${t < a + 2.9 ? '<span class="cursor" style="background:#fafafa"></span>' : ""}</div>${d}
+    <div class="valor" style="opacity:${vo};transform:scale(${.96 + .04 * vo})"><b>TOQUE DE VALOR</b>Un perfil de vendedor no es una hoja de vida, es una vitrina.</div>
+    <div class="cta" style="opacity:${co}">Agendemos 20 minutos</div>
+    <div class="stamp" style="opacity:${so};transform:scale(${1.4 - .4 * so}) rotate(-4deg)">✓ Enviado</div></div>`;
+}
+
+function outbox(t) {
+  const n = Math.min(10, 1 + Math.max(0, Math.floor((t - 18.6) / 0.8)));
+  const rows = PICKS.slice(0, n).map((i, k) => {
+    const o = k === 0 ? 1 : prog(t, 18.6 + (k - 1) * .8, 18.6 + (k - 1) * .8 + .35);
+    return `<div class="orow" style="opacity:${o};transform:translateY(${(1 - o) * 12}px)"><span class="n">${k + 1}</span><span class="e">${DEALS[i][0]}</span><span class="s">✓ Enviado</span></div>`;
+  }).reverse().join("");
+  $("vOut").innerHTML = `<div class="counter"><span>Correos de la jornada</span><b>${n} / 10</b></div><div class="prog"><i style="width:${n * 10}%"></i></div><div class="outbox">${rows}</div>`;
+}
+
+function render(t) {
+  // Chat
+  $("user").innerHTML = typed(USER, t, 0.3, 38) + (t < 3.2 ? '<span class="cursor"></span>' : "");
+  show($("user"), clamp(t / .3));
+  show($("resp"), prog(t, 3.4, 3.8));
+  $("intro").textContent = typed(INTRO, t, 3.6, 40);
+  $("steps").innerHTML = STEPS.filter(s => t >= s[0]).map(([a, b, txt, r]) => {
+    const done = t >= b, o = prog(t, a, a + .3);
+    let right = r;
+    if (r === null) right = `${Math.min(10, Math.max(0, t >= 18.6 ? 1 + Math.floor((t - 18.6) / .8) : 0))} / 10`;
+    return `<div class="step" style="opacity:${o};transform:translateY(${(1 - o) * 8}px)"><span class="ic ${done ? "done" : "run"}" style="${done ? "" : `transform:rotate(${t * 360}deg)`}">${done ? "✓" : ""}</span><span class="t">${txt}</span><span class="r">${done || r === null ? right : "…"}</span></div>`;
+  }).join("");
+  const fo = prog(t, 30.2, 30.8);
+  $("final").innerHTML = fo > 0 ? FINAL : ""; show($("final"), fo);
+
+  // Panel: Pipeline (4.6 a 11.2), Correo (11.2 a 18.6), Bandeja (18.6 a 26.4), Pipeline con movimiento (26.4 a 33)
+  const vp = (t >= 4.6 && t < 11.2) || t >= 26.4, vm = t >= 11.2 && t < 18.6, vo = t >= 18.6 && t < 26.4;
+  $("vPipe").style.opacity = t < 4.6 ? .35 : 1;
+  $("vPipe").hidden = !(vp || t < 4.6); $("vMail").hidden = !vm; $("vOut").hidden = !vo;
+  $("tb0").className = "tab" + (vp ? " on" : ""); $("tb1").className = "tab" + (vm || vo ? " on" : ""); $("tb2").className = "tab";
+  if (!$("vPipe").hidden) board(t); if (vm) mail(t); if (vo) outbox(t);
+
+  // Cierre
+  const eo = prog(t, 33, 33.8);
+  $("end").style.opacity = eo; $("end").style.visibility = eo > 0 ? "visible" : "hidden";
+  document.querySelector("#end .in").style.transform = `translateY(${(1 - eo) * 20}px)`;
+}
+window.render = render; window.T_END = T_END;
+const q = new URLSearchParams(location.search);
+document.body.className = q.get("o") === "h" ? "h" : "v";
+if (q.get("play")) { const t0 = performance.now(); const loop = () => { render(((performance.now() - t0) / 1000) % T_END); requestAnimationFrame(loop); }; loop(); }
+else render(Number(q.get("t") || 0));
+</script>
+</body></html>
