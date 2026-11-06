@@ -30,5 +30,8 @@ Sandra agregó el dominio de Dropbox y las descargas funcionan.
 
 - `/1-IAM™/Drummond Conferencia/FOTOS`: 12 fotos editadas revisadas (hoja: `hojas/drummond-conferencia.jpg`). Hay 186 más sin editar en `Fotos Sin editar`. Drummond es cliente y se puede nombrar; ojo con caras de colaboradores en primer plano.
 - `/2-Contenido/Mujer radiante/FOTOS/FOTOS`: 13 fotos revisadas de 34 (hoja: `hojas/mujer-radiante.jpg`). Auditorio grande, Sandra en traje rojo en tarima.
-- `/2-Contenido/Marketing Jurgen`: pendiente de revisar.
+- `/2-Contenido/Marketing Jurgen`: revisada el 6 nov 2026 (muestra de 18; hoja de candidatas: `fotos/candidatas-jurgen.jpg`). Sandra pidió que esta carpeta entre siempre en la selección de fotos de la planeación de los jueves.
+  - Candidatas: A `UDES/SÁBADO/FOTOS/DSC05721.jpg` (primer plano, traje rojo, micrófono, sin logos; la mejor), B `DSC05689.jpg` (cuerpo entero en tarima; atril con logo de la universidad), C `DSC05732.jpg` (gesto fuerte; pendón "Educación TIC con Drummond" detrás), D `Video para panel/IMG_4618.JPG` (tarima de Marca Profesional; foto antigua, camiseta roja).
+  - No usar: las capturas PNG `IMG_82xx` (fotos grupales de 2018 y 2019 con banderas de SAP y Seidor, en formato pantallazo), `UDES/SÁBADO/FOTOS/IMG_4293.jpg` (sale con otra persona; pedir permiso antes).
+  - Falta revisar: `DRUMMOND/FOTOS` (DSC05041 a DSC05255) y el resto de UDES.
 - Foto de perfil actual de LinkedIn: no se pudo ver (la red bloquea media.licdn.com).
