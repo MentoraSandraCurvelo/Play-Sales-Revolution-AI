@@ -17,6 +17,7 @@ Todo lo que salga visual (tableros, mesas, reportes, páginas, presentaciones, p
 - Cuerpo en los montajes: Sandra es delgada de cadera y de piernas. En todo montaje de cuerpo entero o de rodillas para arriba, pedir explícitamente cadera y piernas delgadas.
 - Recorte de Sandra en los videos (6 nov 2026): siempre con el modelo de video RVM (`estrategia/instagram/herramientas/rvm_comp.py`): cabello y bordes cuadro por cuadro, color de piel sin el reflejo de la pared, luz del fondo que envuelve la silueta, fondo con profundidad de campo, nitidez suave y grano parejo. Nunca el recorte rápido de baja resolución.
 - Reels (6 nov 2026): ningún reel repite el fondo de otro. Cada uno lleva su propio escenario, idealmente animado y futurista (hologramas, paneles, luces), y una entrada innovadora, por ejemplo Sandra materializándose como holograma (`estrategia/instagram/herramientas/rvm_holo.py`). Si hay créditos en ElevenLabs, sumar un montaje nuevo de ella con pantalla holográfica.
+- Encuadre de los reels (7 nov 2026): mostrar primero la versión más abierta (más lejana) y que Sandra decida si se acerca la cámara. No entregar de entrada un plano cerrado. El reel "Tu agente conectado" queda cerrado porque ella lo aprobó así.
 - Antes de entregar, revisar el diseño completo una vez más contra esta lista.
 
 ## Regla: cada "Comenta [PALABRA]" lleva su guía y su respuesta automática
