@@ -1,4 +1,4 @@
-# TikTok · plan de arranque con material de Instagram (7 nov 2026)
+# Tikia · TikTok · plan de arranque con material de Instagram (7 nov 2026)
 
 Fuente: respuesta de Isaía (sesión de Instagram) del 7 nov 2026, 15:17 UTC, y archivos de su rama `claude/ecstatic-hawking-b5uxn3`.
 Regla: cada video sale en TikTok **después** de su estreno en Instagram, para no pisar el estreno. Nada sale sin aprobación de Sandra.

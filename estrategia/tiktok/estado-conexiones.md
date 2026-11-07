@@ -1,4 +1,4 @@
-# TikTok · estado de conexiones (corte 7 nov 2026, 15:30 UTC)
+# Tikia · TikTok · estado de conexiones (corte 7 nov 2026, 15:30 UTC)
 
 | Vía | Para qué | Estado | Qué falta |
 |---|---|---|---|
