@@ -4,7 +4,7 @@ import sys, subprocess, numpy as np, cv2, onnxruntime as ort
 src, bgv, out = sys.argv[1:4]
 ycrop = int(sys.argv[4]) if len(sys.argv) > 4 else 40
 INTRO = float(sys.argv[5]) if len(sys.argv) > 5 else 1.4
-MODE = sys.argv[6] if len(sys.argv) > 6 else "scan"   # scan: holograma que se escanea | mosaic: se arma en píxeles de datos
+MODE = sys.argv[6] if len(sys.argv) > 6 else "scan"   # scan: holograma que se escanea | mosaic: píxeles de datos | ring: aparece desde un anillo rojo IAM
 W, H, FPS = 1080, 1920, 30
 MODEL = "/tmp/claude-0/-home-user-Play-Sales-Revolution-AI/56e793ef-bf15-5592-8182-e12bf01cfd05/scratchpad/modelos/rvm.onnx"
 sess = ort.InferenceSession(MODEL, providers=["CPUExecutionProvider"])
@@ -50,6 +50,16 @@ while True:
             a = a * (bm < sm(0, INTRO * 0.6, t) * 1.05)
         green = np.array([0.1, 0.89, 0.55], np.float32)
         f = f * (1 - 0.7 * k) + (0.3 + 0.7 * f.mean(2, keepdims=True)) * green * 0.7 * k
+    elif t < INTRO and MODE == "ring":
+        k = 1 - sm(INTRO * 0.5, INTRO, t)
+        if not hasattr(sys, "_rr"):
+            yy2, xx2 = np.mgrid[0:H, 0:W].astype(np.float32); sys._rr = np.sqrt((xx2 - W / 2) ** 2 + (yy2 - H * 0.42) ** 2)[..., None] / (H * 0.75)
+        rad = sm(0, INTRO * 0.75, t) * 1.05
+        reveal = 1 - sm(rad - 0.03, rad + 0.03, sys._rr)
+        edge = np.exp(-((sys._rr - rad) / 0.012) ** 2)
+        red = np.array([1.0, 0.18, 0.18], np.float32); amb = np.array([1.0, 0.69, 0.13], np.float32)
+        f = f * (1 - 0.6 * k) + (0.25 + 0.75 * f.mean(2, keepdims=True)) * red * 0.6 * k + edge * a * amb * 1.5 * (k > 0.02)
+        a = a * reveal
     elif t < INTRO:
         k = 1 - sm(INTRO * 0.55, INTRO, t)                 # cuánto holograma queda
         line = 1.05 - sm(0, INTRO * 0.7, t) * 1.15         # la línea de escaneo sube
