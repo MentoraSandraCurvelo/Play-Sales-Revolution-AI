@@ -1,5 +1,5 @@
 ¿Ese correo lo escribiste tú?
-No. Lo escribió mi asistente, lo dejó listo y lo registró en el CRM.
+No. Lo escribió mi agente, lo dejó listo y lo registró en el CRM.
 
 Así se arma en 3 pasos:
 1. Enciende tus conectores en Claude: calendario, Google Drive y tu CRM.
