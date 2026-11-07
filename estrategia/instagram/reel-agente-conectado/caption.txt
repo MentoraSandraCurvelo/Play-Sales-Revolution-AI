@@ -1,0 +1,13 @@
+¿Ese correo lo escribiste tú?
+No. Lo escribió mi asistente, lo dejó listo y lo registró en el CRM.
+
+Así se arma en 3 pasos:
+1. Enciende tus conectores en Claude: calendario, Google Drive y tu CRM.
+2. Pégale tus instrucciones: quién eres, qué haces y cómo escribes.
+3. Dale la misión: escríbele a este cliente, sube este PDF a Drive, agenda la reunión.
+
+El agente hace el trabajo. Tú solo apruebas.
+
+Comenta CONECTA y te envío el tablero con el paso a paso. No te lo envío yo: te lo envía mi agente. 😉
+
+#IAAgéntica #Claude #VentasConIA #SocialSelling #Productividad #InteligenciaArtificial
