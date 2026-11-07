@@ -1,9 +1,9 @@
 {
   "id": "sab-07",
-  "estado": "aprobado",
+  "estado": "publicado",
   "programado_bogota": "2026-11-07 09:00",
   "imagen": "contenido-linkedin/imagenes/fin-semana-sab-07.jpg",
-  "urn": null,
+  "urn": "urn:li:share:7524833300272558080",
   "payload": {
     "author": "urn:li:person:tsJbwdb3B2",
     "commentary": "Este fin de semana no te voy a hablar de productividad.\n\nTe voy a hablar de tu tiempo.\n\n5 cosas que le puedes pedir hoy a una {hashtag|\\#|IA}, sin ser experto:\n\n⭕ \"Con lo que tengo en la nevera: \\[lista\\], dame 3 recetas de menos de 30 minutos.\"\n\n⭕ \"Organízame un plan de domingo con mis hijos de \\[edad\\] en \\[ciudad\\], con un presupuesto de \\[valor\\].\"\n\n⭕ \"Resúmeme este artículo largo en 5 puntos: \\[pega el texto\\].\"\n\n⭕ \"Explícale a mi hijo de 10 años qué es \\[tema de la tarea\\], con un ejemplo de fútbol.\"\n\n⭕ \"Ayúdame a escribir un mensaje difícil para \\[persona\\], en tono amable y firme.\"\n\nLa IA no solo sirve para trabajar más. Sirve para recuperar tiempo para lo que importa.\n\nEn las empresas lo mido en horas. El fin de semana se mide en momentos.\n\n¿Cuál de estos vas a probar hoy?\n\nSi quieres más usos prácticos de la IA, para el trabajo y para la vida, sígueme.\n\n{hashtag|\\#|Productividad} {hashtag|\\#|VidaYTrabajo} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
@@ -20,5 +20,6 @@
   "aprobado_por": "Sandra",
   "aprobado_el": "2026-11-03",
   "primer_comentario": "Mi favorito es el último: el mensaje difícil. La IA no te quita la conversación, te ayuda a llegar a ella con calma. ¿Cuál fue el último mensaje que te costó escribir?",
-  "primer_comentario_aprobado_el": "2026-11-06"
+  "primer_comentario_aprobado_el": "2026-11-06",
+  "publicado_utc": "2026-11-07T14:01:04+00:00"
 }
