@@ -14,3 +14,14 @@ Regla: cada video sale en TikTok **después** de su estreno en Instagram, para n
 Excluido: reel-contactos (versión con sombrero), Sandra no la quiere. Se va a regrabar.
 
 Estoy suponiendo el desfase: TikTok de 24 a 48 horas después de Instagram. Se ajusta con los datos de las primeras 4 semanas.
+
+## Decisión de Sandra (7 nov 2026)
+TikTok arranca con los videos donde sale ella en persona (tomas reales). El video con voz clonada (#5) no abre la cuenta: queda en reserva.
+
+Orden propuesto:
+1. Agente conectado con MATIA (corte TikTok, 25 a 35 s)
+2. Reunión (5 minutos antes de la reunión)
+3. Ventas (rehecho desde tomas.mp4)
+4. IA agéntica (rehecho desde corte.mp4)
+
+Estructura de cada video: gancho de 2 s con su cara y texto, 1 sola idea, prueba en pantalla, cierre con una acción (seguir para la parte 2, guardar o escribir al perfil).
