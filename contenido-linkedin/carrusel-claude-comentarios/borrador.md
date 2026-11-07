@@ -32,3 +32,6 @@ Sígueme si quieres usar la #IA para vender en LinkedIn con método.
 - Hecho 6 nov: "IA SIN RODEOS · VENTAS" y @sandracurvelo_iam cambiados por "LO QUE NADIE TE DICE DE LA IA"; lámina 6 dice "y te dejo el enlace en la respuesta. Guárdalo."
 - Entrega del prompt: respuesta al comentario con el link de la guía (https://claude.ai/artifact/XMtd5GiGfXSuGePjeaZRmX), que debe estar compartida con cualquier persona con el enlace.
 - Publicación como documento por API: por probar.
+
+## Decisión de Sandra (6 nov 2026)
+No se publica en LinkedIn: repite el post aprobado del martes 10 (5:30 p. m.). Se queda la parrilla como está.
