@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#07050c;font-family:"JetBrains Mono",monospace}
+.sky{position:absolute;inset:0;background:radial-gradient(700px 700px at 50% 42%,rgba(255,45,45,.22) 0,transparent 65%),radial-gradient(900px 800px at 50% 100%,rgba(60,20,90,.55) 0,transparent 70%),radial-gradient(600px 600px at 0% 10%,rgba(255,176,32,.12) 0,transparent 70%)}
+svg{position:absolute;inset:0}
+.ln{stroke:url(#g);stroke-width:3;fill:none;stroke-dasharray:14 22;animation:fl 2s linear infinite;filter:drop-shadow(0 0 8px rgba(255,80,60,.8))}
+@keyframes fl{to{stroke-dashoffset:-72}}
+.core{position:absolute;left:390px;top:640px;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(255,90,60,.55),rgba(255,45,45,.12) 55%,transparent 70%);animation:pu 2s ease-in-out infinite}
+.ring{position:absolute;left:340px;top:590px;width:400px;height:400px;border-radius:50%;border:3px solid rgba(255,45,45,.6);box-shadow:0 0 40px rgba(255,45,45,.5);animation:rot 8s linear infinite}
+.ring:after{content:"";position:absolute;left:-12px;top:50%;width:20px;height:20px;border-radius:50%;background:#ffb020;box-shadow:0 0 20px #ffb020}
+@keyframes rot{to{transform:rotate(360deg)}} @keyframes pu{50%{transform:scale(1.12);opacity:.8}}
+.n{position:absolute;width:250px;padding:20px 22px;border-radius:20px;background:linear-gradient(160deg,rgba(30,22,40,.92),rgba(14,10,20,.92));border:2px solid rgba(255,120,90,.55);box-shadow:0 0 34px rgba(255,60,50,.3);color:#f3e9e6;animation:fa 8s ease-in-out infinite}
+.n b{display:block;font:800 18px/1 "JetBrains Mono";letter-spacing:.18em;color:#ffb020;margin-bottom:12px}
+.n span{font:600 22px/1.3 Inter,Arial;color:#f3e9e6}
+.n i{float:right;font-style:normal;color:#19e28b;font:800 16px/1 "JetBrains Mono"}
+@keyframes fa{0%,100%{margin-top:0}50%{margin-top:-22px}}
+.dots{position:absolute;inset:0;background-image:radial-gradient(rgba(255,176,32,.5) 1.5px,transparent 2px);background-size:120px 120px;opacity:.25;animation:dt 8s linear infinite}
+@keyframes dt{to{background-position:0 -240px}}
+.floor{position:absolute;left:-500px;right:-500px;bottom:0;height:700px;transform:perspective(500px) rotateX(62deg);transform-origin:50% 100%;background-image:linear-gradient(rgba(255,60,60,.28) 2px,transparent 2px),linear-gradient(90deg,rgba(255,60,60,.28) 2px,transparent 2px);background-size:120px 120px;animation:fg 8s linear infinite;-webkit-mask-image:linear-gradient(to top,#000 20%,transparent 100%)}
+@keyframes fg{to{background-position:0 960px}}
+</style></head><body><div class="sky"></div><div class="dots"></div><div class="floor"></div>
+<svg viewBox="0 0 1080 1920"><defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#ffb020"/><stop offset="1" stop-color="#ff2d2d"/></linearGradient></defs>
+<path class="ln" d="M180 330 C 300 500, 420 600, 540 790"/><path class="ln" d="M900 380 C 780 520, 660 640, 540 790"/>
+<path class="ln" d="M150 1080 C 300 980, 420 900, 540 790"/><path class="ln" d="M930 1120 C 780 1000, 660 900, 540 790"/><path class="ln" d="M540 260 C 540 420, 540 600, 540 790"/></svg>
+<div class="ring"></div><div class="core"></div>
+<div class="n" style="left:40px;top:250px"><b>CALENDARIO</b><span>Reunión 3:00 p. m.</span> <i>▲ ON</i></div>
+<div class="n" style="right:30px;top:300px;animation-delay:-3s"><b>GOOGLE DRIVE</b><span>Propuesta.pdf</span> <i>▲ ON</i></div>
+<div class="n" style="left:20px;top:1000px;animation-delay:-5s"><b>CRM</b><span>Cliente registrado</span> <i>▲ ON</i></div>
+<div class="n" style="right:20px;top:1040px;animation-delay:-1.5s"><b>CORREO</b><span>Borrador listo</span> <i>● TÚ APRUEBAS</i></div>
+<div class="n" style="left:415px;top:130px;width:250px;animation-delay:-6s"><b>TU VOZ</b><span>Instrucciones</span> <i>▲ ON</i></div>
+</body></html>
