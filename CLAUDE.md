@@ -27,6 +27,7 @@ Siempre que una pieza pida comentar una palabra clave, antes de publicarla:
 3. Recordarle a Sandra que comparta la guía con "cualquier persona con el enlace".
 
 ## Publicación
+Todo reel lleva portada propia (7 nov 2026): foto de Sandra del mismo video con el título en Claude Design. Se le muestran 2 opciones, ella escoge y la portada se publica con `cover_url`. Ningún reel sale con la portada automática de Instagram.
 Sandra graba y aprueba el material; Claude decide la fecha y la hora de publicación de las piezas aprobadas, las programa y le avisa cada vez (4 nov 2026). Lo que no ha visto Sandra no se publica.
 
 ## Cada sesión en lo suyo (6 nov 2026)
