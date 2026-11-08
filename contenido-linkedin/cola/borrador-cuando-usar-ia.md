@@ -1,0 +1,40 @@
+# Borrador · ¿En qué momento uso la IA? (idea de Sandra, 8 nov 2026) · sin aprobar
+Pilar: IA empresarial + presupuesto 2027 (prioridad 1 de ideas pendientes). CTA a asesoría.
+
+## Post
+En todas mis mentorías de IA empresarial me hacen la misma pregunta:
+
+"Sandra, ¿en qué momento tengo que usar la IA?"
+
+Mi respuesta: en todo lo que haces en el computador.
+
+No para que piense por ti. Para que trabaje contigo:
+
+⭕ Con tu voz y tu criterio, configurada para tu trabajo.
+⭕ Con proyectos, agentes, habilidades y plugins que tú mismo programas.
+⭕ Con un stack para cada área. Para mí la mejor es Claude, pero en marketing y comunicaciones también sumo NotebookLM y Gemini.
+
+Y aquí viene lo que casi nadie dice:
+
+Cuando la IA toca todo tu trabajo, toca toda la información de tu empresa.
+
+Por eso no puede ser que cada persona compre su licencia con su tarjeta. Eso no es adopción, es riesgo.
+
+Se necesita:
+
+⭕ Licencias empresariales, no individuales.
+⭕ Gobernanza: quién usa qué, con qué datos y con qué reglas.
+⭕ Acompañamiento, para que el equipo aprenda a trabajar con la IA y no solo a usar una herramienta.
+
+Y algo más: no necesitas un curso de "Claude para vendedores" o "Claude para contadores". Lo que tu equipo necesita aprender es inteligencia artificial. La herramienta cambia; el método se queda.
+
+Si estás armando el presupuesto 2027, este es el momento de revisarlo.
+
+Escríbeme y te asesoro. Si al final no es conmigo, no importa: lo importante es que tu empresa haga una buena inversión en IA el próximo año.
+
+¿Tu empresa ya tiene la IA en el presupuesto 2027?
+
+#IAEmpresarial #Presupuesto2027 #GobernanzaDeIA
+
+## Primer comentario (propuesto)
+Si quieres revisar el tuyo, agenda 30 minutos conmigo aquí: https://calendly.com/sandracurvelo-mentoraventasdigitales-ia
