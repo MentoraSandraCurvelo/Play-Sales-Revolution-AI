@@ -2,4 +2,4 @@
 - Fuente: estrategia/instagram/reel-agente-conectado/publicar/reel_agente_con_matia.mp4 (rama de Isaía). Estreno en Instagram: 7 nov 2026, https://www.instagram.com/reel/DfctYNPlYop/
 - Cambios: video al 92% anclado arriba con fondo difuminado, para que subtítulos y rótulos de PASO queden por encima de los botones de TikTok. Se quitó la tarjeta final de 2,6 s ("Comenta CONECTA" estática). Queda en 54 s. Se mantiene el rótulo DEMO SIMULADA.
 - Ojo: el audio dice "dale abajo CONECTA y te lo envía mi agente". En TikTok no hay respuesta automática: los comentarios CONECTA los responde Sandra con el enlace de la guía, o se cambia el texto. Pendiente de Sandra.
-- Estado: pendiente de aprobación de Sandra. No publicado.
+- Estado: publicado por Sandra en TikTok el 8 nov 2026 (hora aprox. 12:57 Colombia). Enlace: pendiente.
