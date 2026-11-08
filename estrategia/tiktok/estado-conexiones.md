@@ -8,3 +8,6 @@
 | Red del entorno | Llegar a tiktok.com, open.tiktokapis.com y la API de Postiz | **Bloqueada** (403 del proxy) | Agregar esos dominios a un entorno propio de TikTok, con aprobación de Sandra |
 
 Conclusión: hoy **no se puede ver ni publicar** en TikTok desde aquí. Nada se publicó.
+
+## 8 nov 2026
+Sandra decidió no usar Postiz. Publicación manual (app o Claude in Chrome). Se borraron el recordatorio y el evento de calendario de la prueba de Postiz.
