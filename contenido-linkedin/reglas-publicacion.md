@@ -134,3 +134,8 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 ## 20. Voz de Sandra (6 nov 2026)
 
 - Frases que suenan a IA y no se usan: "Mi respuesta honesta". Ante la duda, empezar directo, en primera persona y sin muletillas.
+
+## 21. Variedad visual (8 nov 2026, conversación con Sandra)
+
+- Se mantiene la identidad (tipografía, rojo IAM™, franja con el nombre), pero se alterna el formato: foto protagonista, video, documento o tablero, solo texto y fondos de la paleta (negro, blanco, rojo, azul oscuro, naranja).
+- Nunca 2 posts seguidos con el mismo fondo y la misma composición.
