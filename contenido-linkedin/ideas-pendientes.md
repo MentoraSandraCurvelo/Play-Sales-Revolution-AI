@@ -37,3 +37,7 @@
 - Mensaje central: mostramos títulos, escarapelas y fotos de eventos, pero casi nunca el impacto que causamos en la empresa, el entorno y la comunidad.
 - Pilar: marca profesional. Fórmula propuesta: "Hice [qué] para [quién], y eso cambió [resultado medible]".
 - Borrador v1 en espera de aprobación (ver chat del 6 nov). Candidato para la semana del 16 nov.
+
+## Videos de Instagram para LinkedIn (aprobado por Sandra, 8 nov 2026)
+- Gorra roja (videos/ventas-borrador.mp4): cambiar la lámina final "IA SIN RODEOS · Comenta VENTA" por la marca de LinkedIn; revisar la notificación de Instagram. Semana del 16, al mediodía.
+- Gorra negra (videos/agente-borrador.mp4): el audio pide "CONECTA"; Chrome responde con el link del tablero. Cambiar la lámina final de "mensaje directo". Semana del 16, al mediodía.
