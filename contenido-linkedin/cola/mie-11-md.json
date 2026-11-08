@@ -11,5 +11,19 @@
   "aprobado_por": "Sandra",
   "aprobado_el": "2026-11-08",
   "texto_archivo": "contenido-linkedin/cola/mie-11-md.txt",
-  "video": "urn:li:video:D4E10AQFifwKuzajETg"
+  "video": "urn:li:video:D4E10AQFifwKuzajETg",
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "El cliente nota en el primer minuto si llegaste preparado.\n\nY casi nunca es por falta de experiencia. Es por falta de 5 minutos.\n\nAntes de cada reunión, incluso de camino en el carro, le pido a Claude:\n\n⭕ Investiga a esta persona y a su empresa.\n\n⭕ Revisa su LinkedIn, su página web y las noticias donde la mencionen.\n\n⭕ Dame las prioridades de compra que la empresa anunció este año.\n\n⭕ Dime qué objeción me va a poner.\n\nLlegas sabiendo más que tu competencia.\n\nEn {hashtag|\\#|Ventas} B2B, la preparación no se nota en la presentación. Se nota en la primera pregunta que haces.\n\n¿Cuánto tiempo le dedica tu equipo a preparar cada reunión?\n\nGuarda este video y compártelo con tu equipo comercial.\n\nSígueme si quieres vender con {hashtag|\\#|IA} y con método.\n\n{hashtag|\\#|VentasB2B} {hashtag|\\#|IA} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
+  },
+  "titulo_video": "Antes de la reunión",
+  "urn": null
 }
