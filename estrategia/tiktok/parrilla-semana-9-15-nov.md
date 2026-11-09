@@ -12,6 +12,6 @@ Fuente: agenda real de Isaía (9 nov, 11:55 UTC). Regla: TikTok sale después de
 | Por definir | Pieza desde LinkedIn | n/a | esperando a Demetri | Pendiente |
 
 ## Material de Demetri (LinkedIn) aprovechable
-- Dom 15 carrusel "5 errores al pedirle algo a la IA" (7 fotos 1080x1920, carrusel-5-errores/). Aprobado hacerlo (9 nov); falta OK del diseño.
+- Dom 15 carrusel "5 errores al pedirle algo a la IA" (7 fotos 1080x1920, carrusel-5-errores/). Diseño aprobado por Sandra (9 nov).
 - Vie 13 video tablero PQRSD (20 s, datos de ejemplo, sin Sandra) → opcional. Pendiente de Sandra.
 - Video IAE™ cuando Sandra lo grabe (teleprompter de Demetri) → TikTok también.
