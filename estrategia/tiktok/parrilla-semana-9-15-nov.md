@@ -10,3 +10,8 @@ Fuente: agenda real de Isaía (9 nov, 11:55 UTC). Regla: TikTok sale después de
 | Sáb 14 o dom 15 | 5 ajustes ACTIVA | Vie 13 si graba | no grabado | Pendiente de Sandra |
 | Por definir | Conferencias UDES / Drummond | Mié 11, sáb 14, dom 15 (propuestas) | Dropbox /2-Contenido/Marketing Jurgen | Pendiente de Sandra (si se nombran) |
 | Por definir | Pieza desde LinkedIn | n/a | esperando a Demetri | Pendiente |
+
+## Material de Demetri (LinkedIn) aprovechable
+- Sáb 14 "5 errores al pedirle algo a la IA" (imagen) → posible carrusel de fotos en TikTok. Pendiente de Sandra.
+- Vie 13 video tablero PQRSD (20 s, datos de ejemplo, sin Sandra) → opcional. Pendiente de Sandra.
+- Video IAE™ cuando Sandra lo grabe (teleprompter de Demetri) → TikTok también.
