@@ -147,5 +147,6 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 ## 23. Formato de mensajes a Sandra (9 nov 2026, decisión de Sandra, aplica a todos sus agentes)
 
 - 🟢 PEGA EN CHROME (o EJECUTO YO): bloque listo para usar sin leer; solo cosas ya aprobadas o que no publican, borran ni comprometen nada.
-- 🔴 DECIDE TÚ: máximo 1 o 2 líneas con la pregunta y la recomendación. Todo lo que publique, borre, envíe, pague o comprometa a Sandra o a un cliente va aquí.
+- ⭕ DECIDE TÚ: máximo 1 o 2 líneas con la pregunta y la recomendación. Todo lo que publique, borre, envíe, pague o comprometa a Sandra o a un cliente va aquí.
 - El resto del mensaje es explicación opcional.
+- (9 nov 2026) Corrección de Sandra, transmitida por EmilIA: se usa ⭕ y no el punto rojo.
