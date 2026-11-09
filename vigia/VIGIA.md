@@ -50,3 +50,8 @@ Estado: Dropbox y Google Drive activos con la misma estructura (Drive reorganiza
 - Los documentos creados desde Gemini, que quedan con el prompt como nombre, se abren y se renombran.
 - No se tocan las carpetas de aplicaciones: Colab Notebooks, Google Meet, Opal, Gemini Gems, Google AI Studio, Saved from Chrome.
 - Denny Delgado es cliente: va a `3-Clientes/Denny Delgado` en las dos nubes.
+
+## Formato de mensajes (aprobado por Sandra el 9 nov 2026)
+- 🟢 EJECUTO YO: lo que VigIA ya hizo o lo que no compromete nada.
+- ⭕ DECIDE TÚ: máximo 1 o 2 líneas por punto, con la pregunta y la recomendación. Aquí va todo lo que borre, mande a la papelera o comprometa algo.
+- Nunca el punto rojo, siempre el círculo ⭕. El resto del mensaje es explicación opcional.
