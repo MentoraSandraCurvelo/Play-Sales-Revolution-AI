@@ -14,3 +14,4 @@ Sandra decidió no usar Postiz. Publicación manual (app o Claude in Chrome). Se
 
 ## 9 nov 2026
 Supermetrics TikTok Organic: prueba vencida el 15 oct 2026 y conectado con la cuenta personal gorda_cr83 (no la de marca). No se usa. Métricas privadas: Claude in Chrome sobre TikTok Studio o capturas de Sandra.
+Rutina TikTok (página de memoria para Chrome): https://claude.ai/artifact/WJCHAa8Zmzzxyg7BQvu4B4 · palabra clave: rutina TikTok

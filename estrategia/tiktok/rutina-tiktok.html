@@ -1,0 +1,116 @@
+<title>Rutina TikTok IAM</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: una sola columna de bitácora, de lo urgente (Dónde quedamos) a lo permanente (reglas). Tema oscuro fijo, estética IAM. */
+:root{
+  --bg:#0b0c0f; --panel:#14161b; --line:#262a33; --fg:#f2f3f5; --muted:#a4abb6;
+  --red:#E50914; --amber:#FF9F1C; --green:#2fbf71;
+  --serif:"Instrument Serif",Georgia,serif; --sans:"Inter",system-ui,sans-serif; --mono:"JetBrains Mono","DejaVu Sans Mono",monospace;
+  color-scheme:dark;
+}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:16px;line-height:1.55}
+.wrap{max-width:860px;margin:0 auto;padding-block:40px 80px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:36px}
+.eye{font-family:var(--mono);text-transform:uppercase;letter-spacing:.16em;font-size:12px;color:var(--red)}
+h1{font-family:var(--serif);font-weight:400;font-size:clamp(40px,8vw,64px);line-height:1;margin:8px 0 0;text-wrap:balance}
+h1 em,h2 em{font-style:normal;background:linear-gradient(90deg,var(--red),var(--amber));-webkit-background-clip:text;background-clip:text;color:transparent}
+h2{font-family:var(--serif);font-weight:400;font-size:32px;margin:0 0 14px;text-wrap:balance}
+p{margin:0}
+.lead{color:var(--muted);max-width:65ch}
+.lead b{color:var(--fg)}
+section{display:flex;flex-direction:column;gap:12px}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px 22px;min-width:0}
+.box.hot{border-color:var(--red)}
+ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+li b{color:var(--fg)}
+li{color:var(--muted)}
+.tbl{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.pill{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:3px 9px;border-radius:99px;border:1px solid currentColor;white-space:nowrap}
+.ok{color:var(--green)}.wait{color:var(--amber)}.no{color:var(--red)}
+pre{white-space:pre-wrap;word-break:break-word;background:#0f1115;border:1px solid var(--line);border-radius:10px;padding:14px;font-family:var(--mono);font-size:13px;color:var(--fg);margin:0}
+.copy{align-self:flex-start;font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;background:transparent;color:var(--fg);border:1px solid var(--red);border-radius:99px;padding:8px 14px;cursor:pointer}
+.copy:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+.kw{font-family:var(--mono);color:var(--amber)}
+.foot{font-family:var(--mono);font-size:12px;color:var(--muted);letter-spacing:.08em}
+</style>
+<div class="wrap">
+
+<header>
+  <p class="eye">⭕ IAM™ · Tikia · @sandracurvelo_iam</p>
+  <h1>Rutina <em>TikTok</em></h1>
+  <p class="lead" style="margin-top:14px">Página de memoria para Claude in Chrome. Palabra clave: <span class="kw">rutina TikTok</span>. Chrome lee esta página y sigue donde quedamos. <b>Tikia la actualiza</b> cada vez que Sandra le pega un reporte.</p>
+</header>
+
+<section>
+  <h2>Dónde <em>quedamos</em></h2>
+  <div class="box hot">
+    <p class="eye">Corte 9 nov 2026 · 6:00 p. m. Colombia</p>
+    <ul style="margin-top:10px">
+      <li><b>Publicado:</b> "Tu agente conectado" (gorra negra), 8 nov. 136 vistas, tiempo medio 2,88 s, 0% lo vio completo. La gente se va en el segundo 2: el problema es el gancho.</li>
+      <li><b>Mañana mar 10:</b> publicar "Reunión" en su versión v2, con gancho grande en los primeros 3 segundos.</li>
+      <li><b>Mié 11:</b> "Ventas" (Tikia la está editando).</li>
+      <li><b>Dom 15:</b> carrusel "5 errores al pedirle algo a la IA" (aprobado).</li>
+      <li><b>Falta medir:</b> "Reunión" a las 24 h, en TikTok Studio.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Qué hace <em>Chrome</em></h2>
+  <div class="box">
+    <ul>
+      <li><b>Medir</b> cada video en TikTok Studio a las 24 h y a los 7 días: visualizaciones, tiempo medio, % completo, seguidores nuevos, fuentes de tráfico, edad y país.</li>
+      <li><b>Solo lectura.</b> Nunca publica, edita, borra, sigue cuentas, comenta ni da me gusta, salvo que Sandra lo pida en ese momento.</li>
+      <li><b>Solo la cuenta de marca @sandracurvelo_iam.</b> La cuenta personal no se abre ni se mide.</li>
+      <li>Si TikTok pide contraseña o verificación, se detiene y avisa.</li>
+      <li>Al terminar, entrega el reporte en lista para que Sandra lo pegue a Tikia.</li>
+    </ul>
+  </div>
+  <pre id="prompt">rutina TikTok
+Lee la página "Rutina TikTok IAM" y sigue donde quedamos. Entra a TikTok Studio con la cuenta @sandracurvelo_iam, solo lectura. Para cada video de la tabla "Pendiente de medir": visualizaciones, tiempo total, tiempo medio, % que vio completo, nuevos seguidores, fuentes de tráfico, edad, países y en qué segundo se va la gente. Dame las cifras tal como aparecen, sin calcular ni inventar. Si algo no aparece, dímelo.</pre>
+  <button class="copy" id="copyBtn" type="button">Copiar instrucción</button>
+</section>
+
+<section>
+  <h2>Parrilla de la <em>semana</em></h2>
+  <div class="tbl box">
+    <table>
+      <thead><tr><th>Día</th><th>Pieza</th><th>Estado</th><th>Medir</th></tr></thead>
+      <tbody>
+        <tr><td>Dom 8</td><td>Tu agente conectado (gorra negra)</td><td><span class="pill ok">Publicado</span></td><td>7 días: dom 15</td></tr>
+        <tr><td>Mar 10</td><td>Reunión v2</td><td><span class="pill wait">Por publicar</span></td><td>24 h: mié 11</td></tr>
+        <tr><td>Mié 11</td><td>Ventas</td><td><span class="pill wait">En edición</span></td><td>24 h: jue 12</td></tr>
+        <tr><td>Vie 13</td><td>IA agéntica</td><td><span class="pill wait">Decide Sandra (recorte)</span></td><td>n/a</td></tr>
+        <tr><td>Dom 15</td><td>Carrusel 5 errores</td><td><span class="pill ok">Aprobado</span></td><td>24 h: lun 16</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <h2>Reglas de <em>marca</em></h2>
+  <div class="box">
+    <ul>
+      <li>TikTok sale después del estreno en Instagram. Primero los videos donde sale Sandra.</li>
+      <li>Nada se publica sin el sí de Sandra.</li>
+      <li>Nunca nombrar a Comfacesar, a la Alcaldía de Valledupar ni a personas de equipos cliente. Tableros con "datos de ejemplo".</li>
+      <li>Ninguna cifra de horas recuperadas sin el sí de Sandra.</li>
+      <li>IAE™: Índice de Actividad de Inteligencia Artificial Empresarial.</li>
+      <li>Emojis sí en TikTok. Español de Colombia, sin guiones para separar ideas.</li>
+      <li>Gancho en los primeros 2 segundos: cara de Sandra y texto grande. Llamados fáciles: guárdalo, envíaselo a tu equipo.</li>
+    </ul>
+  </div>
+</section>
+
+<p class="foot">Actualizada por Tikia · 9 nov 2026 · Fuente de cifras: TikTok Studio leído por Chrome</p>
+</div>
+<script>
+document.getElementById('copyBtn').addEventListener('click',function(){
+  var t=document.getElementById('prompt').innerText,b=this;
+  function sel(){var r=document.createRange();r.selectNodeContents(document.getElementById('prompt'));var s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selecciónalo y copia';}
+  try{navigator.clipboard.writeText(t).then(function(){b.textContent='Copiado';},sel);}catch(e){sel();}
+});
+</script>
