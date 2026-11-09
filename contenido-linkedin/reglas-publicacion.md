@@ -139,3 +139,7 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 
 - Se mantiene la identidad (tipografía, rojo IAM™, franja con el nombre), pero se alterna el formato: foto protagonista, video, documento o tablero, solo texto y fondos de la paleta (negro, blanco, rojo, azul oscuro, naranja).
 - Nunca 2 posts seguidos con el mismo fondo y la misma composición.
+
+## 22. Nombre del índice (9 nov 2026, decisión de Sandra)
+
+- En LinkedIn el índice se presenta completo: "IAE™, Índice de Actividad de Inteligencia Artificial Empresarial". La sigla IAE™ se mantiene.
