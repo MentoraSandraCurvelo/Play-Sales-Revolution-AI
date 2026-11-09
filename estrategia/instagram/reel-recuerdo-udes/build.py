@@ -25,8 +25,8 @@ fmt = lambda x: f"0:{int(x//60):02d}:{x-60*int(x//60):05.2f}"
 TR = json.load(open("track_s.json")); CX, CY = TR["cx"], TR["cy"]
 def pos(t):
     i = min(len(CX) - 1, max(0, int(round(t * 10))))
-    return round(CX[i]), round(CY[i] - 25)
-PW, PH, R = 660, 175, 44
+    return round(CX[i]), round(CY[i] + 90)
+PW, PH, R = 680, 210, 48
 panel = (f"m {R} 0 l {PW-R} 0 b {PW} 0 {PW} 0 {PW} {R} l {PW} {PH-R} b {PW} {PH} {PW} {PH} {PW-R} {PH} "
          f"l {R} {PH} b 0 {PH} 0 {PH} 0 {PH-R} l 0 {R} b 0 0 0 0 {R} 0")
 ev = []
