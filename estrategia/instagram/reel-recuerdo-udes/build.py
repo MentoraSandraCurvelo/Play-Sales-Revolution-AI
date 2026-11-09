@@ -1,16 +1,16 @@
 import json, subprocess
 S = "/tmp/claude-0/-home-user-Play-Sales-Revolution-AI/56e793ef-bf15-5592-8182-e12bf01cfd05/scratchpad"
-SRC = f"{S}/udes/edit/IMG_4146.mov"
-W = json.load(open("words.json"))
+SRC = f"{S}/udes/edit/cut.mov"
+W = json.load(open("words_all.json"))
 FIX = {("Está", "la"): ("Están", "las")}
 for i in range(len(W) - 1):
     k = (W[i]["text"], W[i + 1]["text"])
     if k in FIX: W[i]["text"], W[i + 1]["text"] = FIX[k]
-BODY = 30.75; END = 2.6; TOTAL = round(BODY + END, 2)
+BODY = 38.79; END = 2.6; TOTAL = round(BODY + END, 2)
 t_int = next(w["start"] for w in W if w["text"].lower().startswith("luego"))
 OV = [("o1.png", 0, 5.0), ("o2.png", 5.0, t_int), ("o3.png", t_int, BODY)]
-RED = {"intención", "intención.", "propósito", "clientes.", "linkedin"}
-AMB = {"interrupción,", "interrupción", "entretenimiento.", "instagram,", "facebook,", "x"}
+RED = {"intención", "intención.", "propósito", "clientes.", "linkedin", "relaciones", "comerciales."}
+AMB = {"conexiones", "estrategia,", "interrupción,", "interrupción", "entretenimiento.", "instagram,", "facebook,", "x"}
 def wa(t):
     c = t.lower().strip("¿?,.:")
     if c in {x.strip(",.") for x in RED}: return r"{\c&H2D2DFF&}" + t + r"{\c&HFFFFFF&}"
