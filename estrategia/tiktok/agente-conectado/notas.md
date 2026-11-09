@@ -8,5 +8,5 @@
 | Corte | Hora UTC | Vistas | Me gusta | Comentarios | Compartidos | Guardados | Seguidores perfil |
 |---|---|---|---|---|---|---|---|
 | 5 min | 2026-11-08 18:00 | 4 | 0 | 0 | 0 | 0 | 448 |
-Publicado: 2026-11-08 17:55:30 UTC (12:55 p. m. Colombia). Fuente: datos públicos de TikTok, sin sesión.
 | 24 h | 2026-11-09 18:01 | 135 | 3 | 0 | 0 | 0 | 447 |
+Publicado: 2026-11-08 17:55:30 UTC (12:55 p. m. Colombia). Fuente: datos públicos de TikTok, sin sesión.
