@@ -11,3 +11,6 @@ Conclusión: hoy **no se puede ver ni publicar** en TikTok desde aquí. Nada se 
 
 ## 8 nov 2026
 Sandra decidió no usar Postiz. Publicación manual (app o Claude in Chrome). Se borraron el recordatorio y el evento de calendario de la prueba de Postiz.
+
+## 9 nov 2026
+Supermetrics TikTok Organic: prueba vencida el 15 oct 2026 y conectado con la cuenta personal gorda_cr83 (no la de marca). No se usa. Métricas privadas: Claude in Chrome sobre TikTok Studio o capturas de Sandra.
