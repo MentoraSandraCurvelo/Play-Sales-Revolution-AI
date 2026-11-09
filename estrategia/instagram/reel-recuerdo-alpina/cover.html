@@ -1,16 +1,22 @@
 <!doctype html><html><head><meta charset="utf-8"><style>
 *{margin:0;padding:0;box-sizing:border-box}
 .c{width:1080px;height:1920px;position:relative;overflow:hidden;font-family:Inter,Arial,sans-serif}
-.c img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.sh{position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,7,10,0) 38%,rgba(5,7,10,.88) 66%,#05070a 100%)}
-.t{position:absolute;left:80px;right:80px;bottom:260px;color:#fff}
+.c img{position:absolute;left:0;top:0;width:1080px;height:1920px;transform-origin:0 0}
 .eye{font:800 30px/1 "JetBrains Mono";letter-spacing:.22em;color:#ff4d4d}
-h1{font-family:Georgia,serif;font-weight:400;font-size:132px;line-height:1;margin-top:26px}
+h1{font-family:Georgia,serif;font-weight:400;font-size:124px;line-height:1;margin-top:26px}
 em{font-style:normal;background:linear-gradient(90deg,#ff2d2d,#ffb020);-webkit-background-clip:text;background-clip:text;color:transparent}
-.s{font:700 30px/1 "JetBrains Mono";letter-spacing:.16em;color:#9aa6b2;margin-top:34px}
-.top{position:absolute;top:0;left:0;right:0;height:46%;background:linear-gradient(180deg,#05070a 0,#05070a 55%,rgba(5,7,10,0) 100%)}
-.t2{position:absolute;top:150px;left:80px;right:80px;color:#fff}
+.s{font:700 28px/1 "JetBrains Mono";letter-spacing:.16em;margin-top:30px}
+/* opción 1: título arriba sobre negro, foto cerrada abajo */
+#c1 img{transform:translate(-300px,280px) scale(1.65)}
+#c1{background:#05070a}
+#c1 .band{position:absolute;left:0;right:0;top:0;height:760px;background:linear-gradient(180deg,#05070a 0,#05070a 72%,rgba(5,7,10,0) 100%)}
+#c1 .t{position:absolute;top:150px;left:80px;right:80px;color:#fff}
+/* opción 2: foto cerrada arriba, banda beige abajo */
+#c2 img{transform:translate(-360px,-120px) scale(1.7)}
+#c2 .band{position:absolute;left:0;right:0;bottom:0;height:720px;background:#efe6d8;border-top:6px solid #c00000}
+#c2 .t{position:absolute;bottom:150px;left:80px;right:80px;color:#14181d}
+#c2 .s{color:#5a636d}
 </style></head><body>
-<div class="c" id="c1"><img src="f1.jpg"><div class="sh"></div><div class="t"><p class="eye">⭕ RECUERDOS · EN ESTE PANEL</p><h1>¿Llamada en frío? <em>Primero búscalo.</em></h1><p class="s">SANDRA CURVELO · IAM™</p></div></div>
-<div class="c" id="c2"><img src="f2.jpg"><div class="sh"></div><div class="t"><p class="eye">⭕ RECUERDOS · EN ESTE PANEL</p><h1>No llames en frío. <em>Llega sabiendo.</em></h1><p class="s">SANDRA CURVELO · IAM™</p></div></div>
+<div class="c" id="c1"><img src="f1.jpg"><div class="band"></div><div class="t"><p class="eye">⭕ RECUERDOS · EN ESTE PANEL</p><h1>No llames en frío. <em>Llega sabiendo.</em></h1><p class="s" style="color:#9aa6b2">SANDRA CURVELO · IAM™</p></div></div>
+<div class="c" id="c2"><img src="f2.jpg"><div class="band"></div><div class="t"><p class="eye" style="color:#c00000">⭕ RECUERDOS · EN ESTE PANEL</p><h1>¿Llamada en frío? <em>Primero búscalo.</em></h1><p class="s">SANDRA CURVELO · IAM™</p></div></div>
 </body></html>
