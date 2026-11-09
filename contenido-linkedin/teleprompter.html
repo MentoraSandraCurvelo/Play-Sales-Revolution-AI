@@ -1,0 +1,94 @@
+<title>Teleprompter Sandra</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap">
+<style>
+/* Layout: barra de control fija arriba, guion a pantalla completa con línea de lectura; diseño oscuro único a propósito (lectura frente a cámara) */
+:root{
+  --bg:#0b0b0c; --panel:#161618; --fg:#f4f2ee; --muted:#9a968f; --line:#2a2a2d; --red:#e00000; --red-hi:#ff4d4d;
+  --f:"Outfit",system-ui,-apple-system,sans-serif;
+  color-scheme:dark;
+}
+html,body{height:100%}
+body{background:var(--bg);color:var(--fg);font-family:var(--f)}
+.bar{position:fixed;top:0;left:0;right:0;z-index:5;background:var(--panel);border-bottom:1px solid var(--line);
+  padding-top:calc(10px + env(safe-area-inset-top,0px));padding-bottom:10px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.bar button,.bar select{font:600 15px var(--f);color:var(--fg);background:#232326;border:1px solid var(--line);border-radius:8px;padding:9px 14px;cursor:pointer}
+.bar button.on{background:var(--red);border-color:var(--red)}
+.bar button:focus-visible,.bar select:focus-visible{outline:2px solid var(--red-hi);outline-offset:2px}
+.bar label{font-size:13px;color:var(--muted);display:flex;align-items:center;gap:6px}
+.bar input[type=range]{width:110px;accent-color:var(--red)}
+.sp{flex:1}
+#play{min-width:120px}
+#stage{height:100%;overflow-y:auto;scroll-behavior:auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+#stage.mirror #script{transform:scaleX(-1)}
+#script{max-width:900px;margin:0 auto;padding-block:45vh 70vh;font-size:var(--size,44px);line-height:1.45;font-weight:600}
+#script p{margin:0 0 1.1em}
+#script .cue{display:block;font-size:.42em;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--red-hi);margin-bottom:.35em}
+#script .fill{color:#ffd166}
+.guide{position:fixed;left:0;right:0;top:40%;height:0;border-top:2px dashed rgba(224,0,0,.55);pointer-events:none;z-index:2}
+.note{max-width:900px;margin:0 auto;font-size:16px;color:var(--muted);padding-top:120px}
+@media (max-width:640px){#script{font-size:calc(var(--size,44px)*.7)}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="bar">
+  <select id="pick" aria-label="Guion">
+    <option value="iae">Video IAE™ (índice)</option>
+    <option value="ajustes">Video 5 ajustes</option>
+  </select>
+  <button id="play" type="button">▶ Iniciar</button>
+  <button id="top" type="button">Inicio</button>
+  <label for="speed">Velocidad <input id="speed" type="range" min="10" max="120" value="40"></label>
+  <label for="size">Letra <input id="size" type="range" min="28" max="80" value="44"></label>
+  <span class="sp"></span>
+  <button id="mir" type="button">Espejo</button>
+</div>
+<div class="guide" aria-hidden="true"></div>
+<div id="stage"><div id="script"></div></div>
+
+<script>
+(function(){
+  const S={
+    iae:`<p><span class="cue">Gancho · a cámara</span>Tu empresa pagó licencias de IA. ¿Sabes quién las está usando de verdad?</p>
+<p><span class="cue">El problema</span>La mayoría de las empresas no lo sabe. Compran, capacitan, y después no tienen forma de saber si eso cambió algo.</p>
+<p><span class="cue">Tu creación</span>Por eso creé el IAE™, el Índice de IA Empresarial. Un tablero por área que muestra, en tiempo real, quién está usando la IA, quién no, y cuántas horas se están recuperando cada día.</p>
+<p><span class="cue">Las 4 fuentes · cuenta con los dedos</span>Se alimenta de 4 fuentes. Uno, el licenciamiento: quién tiene la herramienta y quién la usa. Dos, lo que reporta cada equipo. Tres, lo que mido yo en las sesiones. Cuatro, <span class="fill">[la cuarta fuente]</span>.</p>
+<p><span class="cue">El valor</span>Con eso la conversación con la gerencia cambia. Ya no es "estamos usando IA". Es "esta área subió, esta bajó, y estas son las horas que recuperamos esta semana".</p>
+<p><span class="cue">Cierre · a cámara</span>Lo que no se mide no puede ser mejorado. Y la IA no es la excepción. Si quieres ver cómo se vería en tu empresa, escríbeme.</p>`,
+    ajustes:`<p><span class="cue">Gancho · a cámara</span>¿Usas la IA como buscador? Preguntas, copias la respuesta y cierras la ventana.</p>
+<p><span class="cue">El problema</span>Así la mayoría de los equipos están desperdiciando la herramienta que más productividad les puede dar.</p>
+<p><span class="cue">Los 5 ajustes · muestra la pantalla</span>Te doy 5 ajustes para que Claude deje de ser un buscador y empiece a trabajar contigo.</p>
+<p>Uno: usa la app de escritorio, no solo el navegador.</p>
+<p>Dos: crea un proyecto por área, con sus archivos y sus instrucciones.</p>
+<p>Tres: conéctala a tus herramientas. Tu correo, tu Drive, tu calendario.</p>
+<p>Cuatro: crea una habilidad para las tareas que repites cada semana.</p>
+<p>Cinco: programa las tareas que se hacen solas. <span class="fill">[por confirmar]</span></p>
+<p><span class="cue">Consejo</span>No tienes que activar los 5 hoy. Empieza con uno.</p>
+<p><span class="cue">Empresas</span>Y si lo vas a llevar a tu empresa, hazlo con licencias empresariales y reglas claras. Tu información lo vale.</p>
+<p><span class="cue">Cierre · a cámara</span>Comenta <span class="fill">[palabra clave]</span> y te dejo la guía.</p>`
+  };
+  const stage=document.getElementById('stage'),box=document.getElementById('script'),
+        pick=document.getElementById('pick'),play=document.getElementById('play'),
+        speed=document.getElementById('speed'),size=document.getElementById('size');
+  let running=false,last=0,acc=0;
+  function load(){box.innerHTML=S[pick.value];stage.scrollTop=0;stop()}
+  function stop(){running=false;play.textContent='▶ Iniciar';play.classList.remove('on')}
+  function tick(t){
+    if(!running)return;
+    const dt=last?(t-last)/1000:0;last=t;
+    acc+=dt*Number(speed.value);
+    if(acc>=1){const n=Math.floor(acc);stage.scrollTop+=n;acc-=n}
+    if(stage.scrollTop+stage.clientHeight>=stage.scrollHeight-2){stop();return}
+    requestAnimationFrame(tick);
+  }
+  play.onclick=()=>{if(running){stop();return}running=true;last=0;play.textContent='❚❚ Pausa';play.classList.add('on');requestAnimationFrame(tick)};
+  document.getElementById('top').onclick=()=>{stage.scrollTop=0;stop()};
+  document.getElementById('mir').onclick=e=>{stage.classList.toggle('mirror');e.currentTarget.classList.toggle('on')};
+  size.oninput=()=>{box.style.setProperty('--size',size.value+'px')};
+  pick.onchange=load;
+  document.addEventListener('keydown',e=>{if(e.code==='Space'&&e.target.tagName!=='SELECT'){e.preventDefault();play.click()}});
+  load();
+})();
+</script>
