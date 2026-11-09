@@ -10,3 +10,11 @@
 | 5 min | 2026-11-08 18:00 | 4 | 0 | 0 | 0 | 0 | 448 |
 | 24 h | 2026-11-09 18:01 | 135 | 3 | 0 | 0 | 0 | 447 |
 Publicado: 2026-11-08 17:55:30 UTC (12:55 p. m. Colombia). Fuente: datos públicos de TikTok, sin sesión.
+
+## TikTok Studio (leído por Claude in Chrome, 9 nov 2026 ~5:38 p. m. Colombia)
+- Visualizaciones 136 · tiempo total 6 min 28 s · tiempo medio 2,88 s · vieron completo 0% · nuevos seguidores 0
+- Retención: la mayoría deja de mirar en el segundo 2 (dura 54 s)
+- Tráfico: Para ti 97,8% · Otro 1,5% · Perfil 0,7%
+- Edad: 18-24 18% · 25-34 24% · 35-44 25% · 45-54 19% · 55+ 14% · Sexo 50/50
+- Países: Colombia 91,6% · Venezuela 2,1% · Panamá 1,4% · EE. UU. 1,4%
+- Conclusión: TikTok sí lo repartió (Para ti), el gancho de los 2 primeros segundos no retuvo.
