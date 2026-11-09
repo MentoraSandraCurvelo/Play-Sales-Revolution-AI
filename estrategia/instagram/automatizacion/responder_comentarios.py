@@ -15,6 +15,10 @@ IG = "17841448964093245"
 YO = "sandracurvelo_iam"
 # Palabra clave (expresión regular) -> mensaje directo con su guía. La primera que coincida gana.
 PALABRAS = [
+    (re.compile(r"\bactiva\b", re.I),
+     "¡Hola! Gracias por comentar 🙌 Ya te paso tu guía con los 5 ajustes para que Claude trabaje contigo y no sea solo un buscador. "
+     "No es un PDF: es una página interactiva con los prompts que copias con un clic 👉 "
+     "https://claude.ai/artifact/JvSbAozt2FJ1DfnvGwagfM Cuéntame cuál activaste primero. Sandra"),
     (re.compile(r"\bconecta\b", re.I),
      "¡Hola! Gracias por comentar 🙌 Ya te paso tu tablero para conectar tu agente a tu calendario, tu Drive y tu CRM. "
      "No es un PDF: es una página interactiva con los 3 pasos y 4 misiones que copias con un clic 👉 "
