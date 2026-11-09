@@ -1,0 +1,44 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Inter Black,84,&H00FFFFFF,&H00FFFFFF,&H00141414,&H80000000,1,0,0,0,100,100,2,0,1,7,3,2,70,70,380,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.86,Sub,,0,0,0,,Yo  divido  las
+Dialogue: 0,0:00:00.86,0:00:01.54,Sub,,0,0,0,,redes  en  dos
+Dialogue: 0,0:00:01.54,0:00:02.06,Sub,,0,0,0,,tipos.
+Dialogue: 0,0:00:02.06,0:00:02.84,Sub,,0,0,0,,Están  las  redes
+Dialogue: 0,0:00:02.84,0:00:05.06,Sub,,0,0,0,,de  {\c&H20B0FF&}interrupción,{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.06,0:00:05.79,Sub,,0,0,0,,es  decir,
+Dialogue: 0,0:00:05.86,0:00:06.94,Sub,,0,0,0,,cuando  yo  estoy
+Dialogue: 0,0:00:06.94,0:00:08.14,Sub,,0,0,0,,trabajando  y  quiero
+Dialogue: 0,0:00:08.14,0:00:09.70,Sub,,0,0,0,,desconectar  del  trabajo,
+Dialogue: 0,0:00:09.70,0:00:10.18,Sub,,0,0,0,,me  voy  a
+Dialogue: 0,0:00:10.18,0:00:10.97,Sub,,0,0,0,,{\c&H20B0FF&}Instagram,{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.08,0:00:11.58,Sub,,0,0,0,,me  voy  a
+Dialogue: 0,0:00:11.58,0:00:12.38,Sub,,0,0,0,,{\c&H20B0FF&}Facebook,{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.38,0:00:12.80,Sub,,0,0,0,,me  voy  a
+Dialogue: 0,0:00:12.80,0:00:14.64,Sub,,0,0,0,,{\c&H20B0FF&}X{\c&HFFFFFF&}  para  saber
+Dialogue: 0,0:00:14.64,0:00:15.26,Sub,,0,0,0,,un  poco  lo
+Dialogue: 0,0:00:15.26,0:00:15.86,Sub,,0,0,0,,que  están  haciendo
+Dialogue: 0,0:00:15.86,0:00:16.92,Sub,,0,0,0,,mis  familiares,
+Dialogue: 0,0:00:16.92,0:00:17.66,Sub,,0,0,0,,mis  amigos  para
+Dialogue: 0,0:00:17.66,0:00:18.65,Sub,,0,0,0,,{\c&H20B0FF&}entretenimiento.{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.06,0:00:19.66,Sub,,0,0,0,,Y  luego  están
+Dialogue: 0,0:00:19.66,0:00:20.30,Sub,,0,0,0,,las  redes  de
+Dialogue: 0,0:00:20.30,0:00:21.24,Sub,,0,0,0,,{\c&H2D2DFF&}intención.{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.24,0:00:22.14,Sub,,0,0,0,,Y  {\c&H2D2DFF&}LinkedIn{\c&HFFFFFF&}  es
+Dialogue: 0,0:00:22.14,0:00:22.64,Sub,,0,0,0,,una  red  de
+Dialogue: 0,0:00:22.64,0:00:23.28,Sub,,0,0,0,,{\c&H2D2DFF&}intención.{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.28,0:00:23.84,Sub,,0,0,0,,Es  una  red
+Dialogue: 0,0:00:23.84,0:00:24.58,Sub,,0,0,0,,en  la  que
+Dialogue: 0,0:00:24.58,0:00:26.62,Sub,,0,0,0,,tú  entras  porque
+Dialogue: 0,0:00:26.62,0:00:27.80,Sub,,0,0,0,,tienes  un  {\c&H2D2DFF&}propósito{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.80,0:00:28.63,Sub,,0,0,0,,claro,
+Dialogue: 0,0:00:28.86,0:00:29.58,Sub,,0,0,0,,sea  porque  vas
+Dialogue: 0,0:00:29.58,0:00:30.75,Sub,,0,0,0,,a  buscar  {\c&H2D2DFF&}clientes.{\c&HFFFFFF&}
