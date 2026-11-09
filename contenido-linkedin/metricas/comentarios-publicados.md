@@ -12,3 +12,6 @@
 9. Valentina Ángel https://lnkd.in/p/euzv_aGM (Chrome cambió el inicio sin aprobación: "Muy de acuerdo con el enfoque del episodio")
 10. Axioma Comunicaciones https://lnkd.in/p/ejfhFR4F
 Sin resultados: MinTIC y líderes de IA de Latinoamérica (últimas 48 horas).
+
+## Pendiente (9 nov 2026)
+- Compartir desde IAM™ el post del 4 nov (caso finanzas) con la frase 3: la tarea de las 9:20 a. m. del sábado no corrió porque Chrome no estaba conectado.
