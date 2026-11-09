@@ -1,0 +1,24 @@
+{
+  "id": "mar-17-md",
+  "estado": "aprobado",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-09",
+  "programado_bogota": "2026-11-17 12:30",
+  "archivo_video": "contenido-linkedin/videos/recuerdo-panel-intencion.mp4",
+  "titulo_video": "No es interrupción. Es intención.",
+  "urn": null,
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "En este panel hablé de por qué toda mi estrategia está en LinkedIn.\n\nInstagram, Facebook y X son redes de interrupción: te muestran lo que no buscaste.\n\nLinkedIn es una red de intención. Aquí la gente entra a trabajar, a aprender y a decidir.\n\nPor eso aquí una conexión se puede convertir en una relación comercial.\n\n¿Tú qué buscas cuando entras a LinkedIn?\n\nSígueme si quieres convertir tus conexiones en conversaciones de negocio.\n\n{hashtag|\\#|SocialSelling} {hashtag|\\#|LinkedIn} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
+  },
+  "nota": "Reel de recuerdos de conferencias (Isaía). No nombrar UDES, iTech ni el año: 'en este panel'. Falta primer comentario.",
+  "video": "urn:li:video:D4E10AQEJNT9xkXwbVA"
+}
