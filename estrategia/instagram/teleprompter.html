@@ -83,6 +83,7 @@ header{position:fixed;left:0;right:0;top:0;z-index:5;
 <header>
   <div class="brand"><span class="ring"></span>IA SIN RODEOS <small>con Sandra Curvelo</small></div>
   <div class="eps" role="group" aria-label="Episodio">
+    <button class="ep" id="activa" aria-pressed="false" type="button">NUEVO · 5 ajustes ACTIVA</button>
     <button class="ep" id="ep1" aria-pressed="true" type="button">Ep. 1</button>
     <button class="ep" id="ep2" aria-pressed="false" type="button">Ep. 2</button>
     <button class="ep" id="ventas" aria-pressed="false" type="button">Reel Ventas</button>
@@ -114,6 +115,19 @@ header{position:fixed;left:0;right:0;top:0;z-index:5;
   // ---------- Guiones ----------
   // q = pregunta (rojo), a = respuesta (blanco), d = indicación de dirección (gris, no se lee)
   const EPS = {
+    activa: {
+      title: 'Reel nuevo · <b>¿Usas Claude como buscador? 5 ajustes</b>',
+      blocks: [
+        {tag:'Toma 1 · Gancho', q:'¿Usas Claude como buscador? Preguntas, copias y cierras.', d:'A cámara · cejas arriba · pausa de 1 segundo antes de la respuesta', a:'<span class="hit">Te estás perdiendo lo mejor.</span> Te doy 5 ajustes para que trabaje contigo.'},
+        {tag:'Toma 2 · Ajuste 1', q:'Uno.', d:'A cámara · muestra 1 dedo · aquí entra tu pantalla de Proyectos', a:'Crea un proyecto por cliente o por área, <span class="hit">con tus archivos y tus instrucciones.</span>'},
+        {tag:'Toma 3 · Ajuste 2', q:'Dos.', d:'Muestra 2 dedos · pantalla de Conectores', a:'Conecta tu correo, tu calendario y tu Drive. <span class="hit">Solo lo que necesita.</span>'},
+        {tag:'Toma 4 · Ajuste 3', q:'Tres.', d:'Muestra 3 dedos · pantalla de tus instrucciones', a:'Pégale cómo escribes, <span class="hit">para que suene a ti y no a un robot.</span>'},
+        {tag:'Toma 5 · Ajuste 4', q:'Cuatro.', d:'Muestra 4 dedos · pantalla con la reunión preparada', a:'Pídele que te prepare la reunión de mañana <span class="hit">con todo lo que ya tiene de ese cliente.</span>'},
+        {tag:'Toma 6 · Ajuste 5', q:'Cinco.', d:'Muestra la mano abierta · pantalla del informe', a:'Déjale tus tareas de cada semana, <span class="hit">como el informe del lunes.</span>'},
+        {tag:'Toma 7 · Cierre', q:'¿Por dónde empiezo?', d:'A cámara · sonrisa · señala abajo al decir "comenta"', a:'No actives los cinco hoy. Empieza con uno. <span class="hit">Comenta ACTIVA</span> y te mando la guía paso a paso.'},
+        {tag:'Pantallas · grábalas en el Mac (Cmd + Shift + 5)', q:'Lista de grabaciones · 5 segundos cada una', d:'Sin datos de clientes reales: usa un cliente de prueba', a:'1. Un proyecto abierto con sus archivos.<br>2. La pantalla de Conectores.<br>3. Tus instrucciones de estilo.<br>4. Claude preparando una reunión.<br>5. Claude armando el informe semanal.'}
+      ]
+    },
     ep1: {
       title: 'Ep. 1 · <b>Lo que nadie te cuenta de Claude</b>',
       blocks: [
