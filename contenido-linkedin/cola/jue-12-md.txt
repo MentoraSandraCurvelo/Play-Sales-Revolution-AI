@@ -1,0 +1,20 @@
+Tu empresa pagó licencias de IA. ¿Sabes quién las está usando de verdad?
+
+La mayoría de las empresas no lo sabe. Compran, capacitan y después no tienen forma de demostrar si algo cambió.
+
+Por eso creé el IAE™, el Índice de Actividad de Inteligencia Artificial Empresarial: un tablero por área que muestra quién usa la IA, quién no y cuántas horas se recuperan cada día.
+
+No es una autoevaluación. Se alimenta de 4 fuentes cruzadas:
+
+⭕ Adopción: el uso real de las licencias, semana a semana.
+⭕ Horas recuperadas: una línea base por persona, tarea por tarea.
+⭕ Agentes y tableros que cada área tiene funcionando, verificados cada 15 días.
+⭕ Calidad: una encuesta anónima y el visto bueno del jefe a los entregables.
+
+Con eso, la conversación con la gerencia cambia. Ya no es "estamos usando IA". Es "esta área subió, esta bajó y estas son las horas que recuperamos esta semana".
+
+En el video te muestro los 2 tableros, con datos de ejemplo.
+
+Lo que no se mide no puede ser mejorado. Y la IA no es la excepción.
+
+¿Tu empresa ya sabe cuántas horas le está devolviendo la IA?
