@@ -22,11 +22,30 @@ for w in W:
     if len(cur) == 3 or w["text"][-1] in ",.?:": chunks.append(cur); cur = []
 if cur: chunks.append(cur)
 fmt = lambda x: f"0:{int(x//60):02d}:{x-60*int(x//60):05.2f}"
+TR = json.load(open("track_s.json")); CX, CY = TR["cx"], TR["cy"]
+def pos(t):
+    i = min(len(CX) - 1, max(0, int(round(t * 10))))
+    return round(CX[i]), round(CY[i] - 25)
+PW, PH, R = 660, 175, 44
+panel = (f"m {R} 0 l {PW-R} 0 b {PW} 0 {PW} 0 {PW} {R} l {PW} {PH-R} b {PW} {PH} {PW} {PH} {PW-R} {PH} "
+         f"l {R} {PH} b 0 {PH} 0 {PH} 0 {PH-R} l 0 {R} b 0 0 0 0 {R} 0")
 ev = []
+t = 0.0
+while t < BODY - 1e-6:
+    t2 = min(BODY, round(t + 0.2, 2)); (x1, y1), (x2, y2) = pos(t), pos(t2)
+    fade = r"\fad(250,0)" if t == 0 else ""
+    ev.append(f"Dialogue: 0,{fmt(t)},{fmt(t2)},Panel,,0,0,0,,{{\\an5\\move({x1},{y1},{x2},{y2})\\p1{fade}}}{panel}")
+    t = t2
 for i, ch in enumerate(chunks):
     st = ch[0]["start"]; en = ch[-1]["end"] + 0.15
     if i + 1 < len(chunks): en = min(en + 0.2, chunks[i + 1][0]["start"])
-    ev.append(f"Dialogue: 0,{fmt(st)},{fmt(min(en, BODY))},Sub,,0,0,0,,{'  '.join(wa(w['text']) for w in ch)}")
+    en = min(en, BODY)
+    # follow the panel in 0.2 s steps so text stays centered on it
+    a = st
+    while a < en - 1e-6:
+        b = min(en, round(a + 0.2, 2)); (x1, y1), (x2, y2) = pos(a), pos(b)
+        ev.append(f"Dialogue: 1,{fmt(a)},{fmt(b)},Sub,,0,0,0,,{{\\an5\\move({x1},{y1},{x2},{y2})}}{'  '.join(wa(w['text']) for w in ch)}")
+        a = b
 open("subs.ass", "w").write("""[Script Info]
 ScriptType: v4.00+
 PlayResX: 1080
@@ -34,7 +53,8 @@ PlayResY: 1920
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Sub,Inter Black,84,&H00FFFFFF,&H00FFFFFF,&H00141414,&H80000000,1,0,0,0,100,100,2,0,1,7,3,2,70,70,380,1
+Style: Sub,Inter Black,66,&H00FFFFFF,&H00FFFFFF,&H00141414,&H80000000,1,0,0,0,100,100,1,0,1,2,0,5,0,0,0,1
+Style: Panel,Arial,20,&H200B0805,&H200B0805,&H802D2DFF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,5,0,0,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
