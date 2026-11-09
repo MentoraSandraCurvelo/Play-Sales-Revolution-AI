@@ -82,6 +82,13 @@ body.h .panelwrap { padding: 18px 22px 22px 6px; }
 .prog { height: 6px; border-radius: 3px; background: var(--side); overflow: hidden; margin-bottom: 10px; }
 .prog i { display: block; height: 100%; background: var(--claude); }
 
+/* Gancho inicial */
+#hook { position: absolute; left: 0; right: 0; top: 0; height: 50%; z-index: 15; display: none; padding: 22px; background: var(--bg); text-align: center; flex-direction: column; justify-content: center; align-items: center; }
+body.h #hook { right: auto; width: 45%; height: 100%; }
+#hook .hk { font-family: var(--brand); font-weight: 800; font-size: 34px; line-height: 1.15; color: var(--ink); }
+#hook .hk span { color: var(--iam); }
+#hook .hs { margin-top: 10px; font-size: 12px; font-weight: 600; letter-spacing: .6px; color: var(--muted); }
+body.h #hook .hk { font-size: 40px; }
 /* Cierre */
 #end { position: absolute; inset: 0; background: var(--bg); display: grid; place-items: center; text-align: center; z-index: 20; }
 #end .in { display: grid; gap: 16px; justify-items: center; padding: 24px; }
@@ -116,6 +123,7 @@ body.h .panelwrap { padding: 18px 22px 22px 6px; }
     </div>
   </div></div>
 </div>
+<div id="hook"><div class="hk">¿Y si tu pipeline<br>se moviera <span>solo</span>?</div><div class="hs">DEMO SIMULADA · Hecho con Claude</div></div>
 <div id="end"><div class="in">
   <div class="logo">MATIA<i> ●</i></div>
   <div class="claim">10 toques de valor al día, mientras tu equipo vende.</div>
@@ -229,10 +237,20 @@ function render(t) {
   $("end").style.opacity = eo; $("end").style.visibility = eo > 0 ? "visible" : "hidden";
   document.querySelector("#end .in").style.transform = `translateY(${(1 - eo) * 20}px)`;
 }
-window.render = render; window.T_END = T_END;
+const HOOK = 3.6, HOOK_FROM = 26.2, baseRender = render;
+function renderHook(T) {
+  const h = $("hook");
+  if (T < HOOK) {
+    baseRender(HOOK_FROM + T);
+    const o = clamp(T / .25) * clamp((HOOK - T) / .3);
+    h.style.display = "flex"; h.style.opacity = o; h.style.transform = `translateY(${(1 - clamp(T / .3)) * -14}px)`;
+  } else { h.style.display = "none"; baseRender(T - HOOK); }
+}
+const useHook = new URLSearchParams(location.search).get("hook") === "1";
+window.render = useHook ? renderHook : baseRender; window.T_END = useHook ? T_END + HOOK : T_END;
 const q = new URLSearchParams(location.search);
 document.body.className = q.get("o") === "h" ? "h" : "v";
-if (q.get("play")) { const t0 = performance.now(); const loop = () => { render(((performance.now() - t0) / 1000) % T_END); requestAnimationFrame(loop); }; loop(); }
-else render(Number(q.get("t") || 0));
+if (q.get("play")) { const t0 = performance.now(); const loop = () => { window.render(((performance.now() - t0) / 1000) % window.T_END); requestAnimationFrame(loop); }; loop(); }
+else window.render(Number(q.get("t") || 0));
 </script>
 </body></html>

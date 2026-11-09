@@ -19,11 +19,11 @@ Sandra pidió que MATIA se comunique **siempre** con IsaIA, el agente que lleva 
 - Mostrar que está hecho con Claude ("Hecho con Claude · IAM™").
 - Identidad: rojo #E50914, negro #0b0c0f, fuente Montserrat. Escribir en español de Colombia.
 
-## Formato de mensajes para Sandra (aprobado por Sandra el 9 nov 2026)
+## Formato de mensajes para Sandra (aprobado por Sandra el 9 nov 2026; usar siempre ⭕, nunca 🔴)
 
 Sandra pega lo que le mandamos sin leerlo todo. Cada mensaje para ella va separado en 2 etiquetas:
 
 - 🟢 **PEGA EN CHROME (o EJECUTO YO):** un bloque listo para copiar o una acción que hace el agente. Solo cosas ya aprobadas o que no publican, borran, envían, pagan ni comprometen a Sandra o a un cliente.
-- 🔴 **DECIDE TÚ:** máximo 1 o 2 líneas con la pregunta y la recomendación. Todo lo que publique, borre, envíe, pague o comprometa a Sandra o a un cliente va aquí y espera su respuesta.
+- ⭕ **DECIDE TÚ:** máximo 1 o 2 líneas con la pregunta y la recomendación. Todo lo que publique, borre, envíe, pague o comprometa a Sandra o a un cliente va aquí y espera su respuesta.
 
 El resto del mensaje es explicación opcional que ella puede saltar.
