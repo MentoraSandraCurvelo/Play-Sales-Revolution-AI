@@ -1,9 +1,9 @@
 {
   "id": "lun-09-pm",
-  "estado": "aprobado",
+  "estado": "publicado",
   "programado_bogota": "2026-11-09 17:30",
   "imagen": "contenido-linkedin/imagenes/lun-09-pm.jpg",
-  "urn": null,
+  "urn": "urn:li:share:7525695089071890432",
   "payload": {
     "author": "urn:li:person:tsJbwdb3B2",
     "commentary": "Usar la IA de forma responsable no es firmar una política y guardarla en un cajón.\n\nEs decidir, tarea por tarea, qué hace la IA y qué hace la persona.\n\nEn los programas que lidero hay 3 reglas que no se negocian:\n\n⭕ La IA prepara. La persona revisa, decide y firma.\n\n⭕ Los datos personales se anonimizan antes de entrar a cualquier herramienta, como lo exige la ley de protección de datos en Colombia.\n\n⭕ Ninguna decisión que afecte los derechos de una persona queda en manos de la IA.\n\nSuena básico. Pero cuando un equipo descubre que la IA le ahorra horas, la tentación es soltarle todo.\n\nAhí es donde se necesita método, no entusiasmo.\n\nLa {hashtag|\\#|IA} responsable no frena la {hashtag|\\#|Productividad}. La protege.\n\n¿Cuál de estas 3 reglas le falta hoy a tu empresa?\n\nSígueme si quieres más IA aplicada con criterio, no solo con velocidad.\n\n{hashtag|\\#|IAResponsable} {hashtag|\\#|Ley1581} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
@@ -19,5 +19,6 @@
   "primer_comentario": "Una forma práctica de empezar: haz la lista de las tareas donde tu equipo ya usa IA y escribe al lado quién revisa el resultado. Si alguna no tiene responsable, ahí está tu primer riesgo.",
   "alt": "Usar la IA de forma responsable no es firmar una política y guardarla en un cajón.",
   "aprobado_por": "Sandra",
-  "aprobado_el": "2026-11-05"
+  "aprobado_el": "2026-11-05",
+  "publicado_utc": "2026-11-09T23:05:30+00:00"
 }
