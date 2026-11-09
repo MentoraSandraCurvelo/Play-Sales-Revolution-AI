@@ -1,9 +1,9 @@
 {
   "id": "lun-09-am",
-  "estado": "aprobado",
+  "estado": "publicado",
   "programado_bogota": "2026-11-09 07:30",
   "imagen": "contenido-linkedin/imagenes/lun-09-am.jpg",
-  "urn": null,
+  "urn": "urn:li:share:7525536899126476801",
   "payload": {
     "author": "urn:li:person:tsJbwdb3B2",
     "commentary": "Es temporada de presupuestos. Y en el de 2027 casi todas las empresas van a tener una línea que dice: IA.\n\nLa pregunta no es si invertir en IA. Es en qué.\n\nOpción 1: comprar licencias.\nOpción 2: instalar un sistema de trabajo por áreas, donde se mide qué cambia.\n\nLa primera es un gasto. La segunda es una inversión.\n\nUna licencia sin método termina como la caminadora de la casa: comprada con ilusión y usada para colgar ropa.\n\nPor eso en mis programas no empiezo por la herramienta. Empiezo por el IAE™, el Índice de IA Empresarial, que mide 3 cosas:\n\n⭕ Adopción: qué porcentaje del equipo usa la IA en su trabajo real.\n\n⭕ Horas recuperadas: cuánto tarda cada tarea antes y después.\n\n⭕ Evolución: qué área sube y cuál baja, semana a semana.\n\nSi vas a poner {hashtag|\\#|IA} en tu presupuesto 2027, ponle también cómo la vas a medir.\n\n¿Tu empresa ya definió en qué va a invertir en IA el próximo año?\n\nSi quieres ver cómo se mide la IA en una empresa real, sígueme: cada semana muestro un tablero.\n\n{hashtag|\\#|Presupuesto2027} {hashtag|\\#|IAEmpresarial} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
@@ -20,5 +20,6 @@
   "alt": "Es temporada de presupuestos. Y en el de 2027 casi todas las empresas van a tener una línea que dice: IA.",
   "foto_origen": "Dropbox /1-IAM™/Fotos Profesionales (4575)",
   "aprobado_por": "Sandra",
-  "aprobado_el": "2026-11-05"
+  "aprobado_el": "2026-11-05",
+  "publicado_utc": "2026-11-09T12:36:54+00:00"
 }
