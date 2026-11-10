@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TEMPLIA · Propuesta IAM™ Intelligence para Templo de la Belleza</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --red:#C00000; --red-dark:#8B0000; --black:#0A0A0A; --carbon:#1A1A1A;
+    --line:#E5E5E5; --soft:#F5F5F5; --pink:#FFF5F5; --text:#2B2B2B; --muted:#6B6B6B;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#E9E9E9;font-family:'Outfit',Arial,sans-serif;color:var(--text);font-size:15px;line-height:1.6}
+  .page{width:210mm;min-height:297mm;margin:24px auto;background:#fff;position:relative;overflow:hidden;box-shadow:0 10px 40px rgba(0,0,0,.12)}
+  .pad{padding:22mm 20mm 26mm}
+  h1,h2,h3,.serif{font-family:'Playfair Display',Georgia,serif}
+  h2{font-size:28px;line-height:1.15;margin:0 0 14px;color:var(--black);font-weight:900}
+  h3{font-size:19px;margin:0 0 6px;color:var(--black)}
+  p{margin:0 0 12px}
+  .eyebrow{font-weight:600;font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:var(--red);margin-bottom:8px}
+  .red{color:var(--red)}
+  .foot{position:absolute;left:20mm;right:20mm;bottom:10mm;display:flex;justify-content:space-between;font-size:10px;color:#9A9A9A;border-top:1px solid var(--line);padding-top:6px}
+  .wordmark{font-family:'Playfair Display',Georgia,serif;font-weight:900;letter-spacing:-1px}
+  .wordmark sup{font-size:.3em;vertical-align:top;position:relative;top:.4em;letter-spacing:0}
+
+  /* Portada */
+  .cover{background:var(--black);color:#fff;border-left:10px solid var(--red)}
+  .cover .pad{padding:24mm 20mm}
+  .cover .wordmark{font-size:64px;color:#fff;line-height:1}
+  .cover .ghost{position:absolute;right:-10mm;top:70mm;font-family:'Playfair Display',Georgia,serif;font-weight:900;font-size:230px;color:#161616;line-height:1;letter-spacing:-6px;user-select:none}
+  .cover .name{font-family:'Playfair Display',Georgia,serif;font-weight:900;font-size:96px;line-height:.95;margin:70mm 0 6mm;position:relative}
+  .cover .name span{color:var(--red)}
+  .cover .sub{font-size:20px;font-weight:300;color:#D0D0D0;max-width:140mm;position:relative}
+  .cover .meta{position:absolute;left:20mm;right:20mm;bottom:22mm;display:flex;gap:10mm;border-top:1px solid #2A2A2A;padding-top:8mm;font-size:13px;color:#BDBDBD}
+  .cover .meta b{display:block;color:#fff;font-weight:600;font-size:14px}
+  .cover .iso{position:absolute;right:16mm;top:18mm;width:28mm}
+
+  /* Componentes */
+  .callout{background:var(--pink);border-left:4px solid var(--red);padding:16px 20px;margin:18px 0}
+  .big{font-family:'Playfair Display',Georgia,serif;font-weight:900;font-size:40px;color:var(--red);line-height:1}
+  .src{font-size:10.5px;color:var(--muted)}
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0}
+  .chip{background:var(--soft);border-top:3px solid var(--red);padding:10px 12px;font-size:13px}
+  .chip b{display:block;color:var(--black);font-size:14px}
+  .session{display:grid;grid-template-columns:30mm 1fr;gap:0;border:1px solid var(--line);margin-bottom:10px;break-inside:avoid}
+  .session .tag{background:var(--black);color:#fff;padding:14px 12px;text-align:center}
+  .session .tag .n{font-family:'Playfair Display',Georgia,serif;font-weight:900;font-size:30px;line-height:1;color:var(--red)}
+  .session .tag .w{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:#BBB;margin-top:6px}
+  .session.done .tag{background:var(--red)}
+  .session.done .tag .n{color:#fff}
+  .session .body{padding:12px 16px}
+  .session .body h3{font-size:17px}
+  .session .body ul{margin:4px 0 6px;padding-left:18px;font-size:13.5px}
+  .session .body li{margin-bottom:2px}
+  .deliver{font-size:12.5px;color:var(--red-dark);font-weight:600}
+  .badge{display:inline-block;background:var(--red);color:#fff;font-size:10px;font-weight:600;letter-spacing:1px;padding:2px 8px;border-radius:3px;margin-left:6px;vertical-align:middle}
+  table.t{width:100%;border-collapse:collapse;font-size:13.5px;margin:10px 0 16px}
+  table.t th{background:var(--black);color:#fff;text-align:left;padding:9px 10px;font-weight:600;font-size:12px;letter-spacing:.5px}
+  table.t td{border-bottom:1px solid var(--line);padding:9px 10px;vertical-align:top}
+  table.t tr:nth-child(even) td{background:#FAFAFA}
+  .agent{border:1px solid var(--line);border-left:4px solid var(--red);padding:12px 14px;margin-bottom:8px;break-inside:avoid}
+  .agent b{font-family:'Playfair Display',Georgia,serif;font-size:16px;color:var(--black)}
+  .price{background:var(--black);color:#fff;padding:22px 24px;margin:12px 0 18px;display:flex;justify-content:space-between;align-items:center;gap:16px}
+  .price .amt{font-family:'Playfair Display',Georgia,serif;font-weight:900;font-size:40px;line-height:1}
+  .price .amt small{font-family:'Outfit',Arial,sans-serif;font-size:14px;font-weight:400;color:#BBB}
+  .price .inc{font-size:13px;color:#CFCFCF;max-width:80mm}
+  .opts{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:10px 0 14px}
+  .opt{border:1px solid var(--line);padding:12px;font-size:13px;break-inside:avoid}
+  .opt b{display:block;font-size:14px;color:var(--black);margin-bottom:4px}
+  .sign{border:2px solid var(--black);padding:16px 18px;margin-top:14px;break-inside:avoid}
+  .line{border-bottom:1px solid #999;height:26px;margin:6px 0 10px}
+  .box{display:inline-block;width:13px;height:13px;border:1.5px solid var(--black);margin-right:6px;vertical-align:-2px}
+  .cta{display:inline-block;background:var(--red);color:#fff;text-decoration:none;font-weight:600;padding:12px 22px;border-radius:4px;margin-top:6px}
+  ul.check{list-style:none;padding:0;margin:6px 0 12px}
+  ul.check li{padding-left:26px;position:relative;margin-bottom:6px}
+  ul.check li:before{content:"⭕";position:absolute;left:0;font-size:12px;top:2px}
+
+  @page{size:A4;margin:0}
+  @media print{
+    body{background:#fff;font-size:13.5px;line-height:1.5}
+    .page{margin:0;box-shadow:none;page-break-after:always;height:297mm;min-height:0}
+    .page:not(.cover) .pad{padding:15mm 18mm 18mm}
+    h2{font-size:25px}
+    .session{margin-bottom:7px}
+    .session .body{padding:8px 14px}
+    .session .body ul{font-size:12.5px}
+    .grid3{gap:7px;margin:10px 0}
+    .chip{padding:7px 10px}
+    .callout{margin:12px 0;padding:12px 18px}
+    .cover .ghost{display:none}
+    .opts{margin:6px 0 8px}
+    .sign{margin-top:8px;padding:12px 16px}
+    .sign .line{height:20px;margin:4px 0 8px}
+    .closing{margin-top:12px !important;font-size:16px !important}
+    .cover{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  }
+  @media screen and (max-width:820px){
+    .page{width:100%;min-height:auto;margin:0 0 12px}
+    .pad{padding:28px 18px 60px}
+    .cover .name{font-size:64px;margin-top:120px}
+    .cover .ghost{display:none}
+    .cover .meta{position:static;flex-wrap:wrap;margin-top:40px}
+    .grid3,.opts{grid-template-columns:1fr}
+    .price{flex-direction:column;align-items:flex-start}
+    .session{grid-template-columns:72px 1fr}
+    .foot{left:18px;right:18px}
+  }
+</style>
+</head>
+<body>
+
+<!-- ================= PORTADA ================= -->
+<section class="page cover">
+  <div class="ghost">IAM</div>
+  <img class="iso" src="../../logo.png" alt="" onerror="this.style.display='none'">
+  <div class="pad">
+    <div class="wordmark">IAM<sup>™</sup></div>
+    <div class="eyebrow" style="margin-top:10px">IAM™ Intelligence · Fase 2</div>
+    <div class="name">Templ<span>ia</span></div>
+    <p class="sub">Inteligencia artificial con Claude para poner en orden la casa del Templo de la Belleza: inventarios, procesos y agentes que trabajan para la gerencia.</p>
+  </div>
+  <div class="meta">
+    <div><b>Para</b>Denis Delgado, Propietario<br>Andrés, Gerente</div>
+    <div><b>Cliente</b>Templo de la Belleza<br>Valledupar, Cesar</div>
+    <div><b>Fecha</b>10 de noviembre de 2026<br>Vigencia: 8 días</div>
+    <div><b>Por</b>Sandra Curvelo<br>Founder &amp; CSO · IAM™</div>
+  </div>
+</section>
+
+<!-- ================= 1. CONTEXTO ================= -->
+<section class="page">
+  <div class="pad">
+    <div class="eyebrow">01 · Contexto</div>
+    <h2>Un salón que ya vende.<br><span class="red">Ahora necesita un sistema.</span></h2>
+    <p>Denis, en la primera fase trabajamos contigo la visión del negocio. Hoy el reto pasa a la operación: el Templo de la Belleza maneja nueve líneas de servicio al mismo tiempo, cada una con sus productos, sus tiempos y su forma de cobrar. Sin un sistema, la gerencia se convierte en apagar incendios.</p>
+
+    <div class="grid3">
+      <div class="chip"><b>Color</b>Tintes, oxidantes, decoloración</div>
+      <div class="chip"><b>Maquillaje</b>Social y eventos</div>
+      <div class="chip"><b>Blower</b>Cepillado y styling</div>
+      <div class="chip"><b>Lavado</b>Shampoo y acondicionador</div>
+      <div class="chip"><b>Hidratación</b>Tratamientos capilares</div>
+      <div class="chip"><b>Uñas</b>Manicure y pedicure</div>
+      <div class="chip"><b>Depilación</b>Cera e insumos</div>
+      <div class="chip"><b>Bar</b>Bebidas y atención</div>
+      <div class="chip"><b>Gerencia</b>Caja, equipo y proveedores</div>
+    </div>
+
+    <h3>Lo que identificamos</h3>
+    <ul class="check">
+      <li><b>Inventario sin control:</b> no se sabe con precisión qué hay, qué se gastó por servicio ni cuándo pedir.</li>
+      <li><b>Procesos en la cabeza de las personas:</b> si alguien falta, la calidad del servicio cambia.</li>
+      <li><b>La gerencia operando, no dirigiendo:</b> Andrés invierte horas en tareas que hoy la IA puede hacer en minutos.</li>
+    </ul>
+
+    <div class="callout">
+      <div class="big">60% a 70%</div>
+      <p style="margin:6px 0 4px">del tiempo de los colaboradores se va en actividades que la IA generativa y otras tecnologías actuales tienen el potencial de automatizar.</p>
+      <div class="src">Fuente: McKinsey &amp; Company, <i>The economic potential of generative AI: The next productivity frontier</i>, junio 2023.</div>
+    </div>
+
+    <p>Piénsalo como un salón con nueve sillas y una sola agenda de papel: el talento está, pero el sistema no deja escalar. <b>Templia</b> es esa agenda, ese inventario y ese manual, construidos con IA y en manos de Andrés.</p>
+  </div>
+  <div class="foot"><span>IAM™ · Templia · Templo de la Belleza</span><span>iamlatam.co</span></div>
+</section>
+
+<!-- ================= 2. PLAN ================= -->
+<section class="page">
+  <div class="pad">
+    <div class="eyebrow">02 · Plan de trabajo · Método DIAL-3R™</div>
+    <h2>5 sesiones, 1 mes,<br><span class="red">una casa en orden.</span></h2>
+    <p style="font-size:14px">Una sesión virtual semanal de 1 hora con Andrés. Cada sesión termina con un entregable funcionando, no con teoría.</p>
+
+    <div class="session done">
+      <div class="tag"><div class="n">00</div><div class="w">9 nov</div></div>
+      <div class="body">
+        <h3>Asesoría de diagnóstico <span class="badge">EJECUTADA</span></h3>
+        <ul><li>Lectura del negocio, prioridades de la gerencia y puntos de desorden.</li></ul>
+      </div>
+    </div>
+
+    <div class="session">
+      <div class="tag"><div class="n">01</div><div class="w">Semana 1</div></div>
+      <div class="body">
+        <h3>El cerebro del Templo · Diagnosticar e Instruir</h3>
+        <ul>
+          <li>Configuración de Claude para el negocio: un Proyecto con la carta de servicios, precios, proveedores y políticas del salón.</li>
+          <li>Cómo pedirle a la IA: instrucciones por rol (gerencia, recepción, estilistas).</li>
+          <li>Línea base: cuántas horas a la semana se van hoy en tareas manuales.</li>
+        </ul>
+        <div class="deliver">Entregable: Proyecto "Templo de la Belleza" en Claude + guía de instrucciones.</div>
+      </div>
+    </div>
+
+    <div class="session">
+      <div class="tag"><div class="n">02</div><div class="w">Semana 2</div></div>
+      <div class="body">
+        <h3>Inventario vivo · Aplicar</h3>
+        <ul>
+          <li>Maestro de inventario por las 9 líneas: producto, presentación, proveedor, costo, stock mínimo.</li>
+          <li>Ficha de consumo por servicio, por ejemplo cuánto tinte y oxidante gasta un color o cuánta cera una depilación.</li>
+          <li>Rutina de conteo semanal con apoyo de Claude y alerta de punto de pedido.</li>
+        </ul>
+        <div class="deliver">Entregable: plantilla de inventario en Excel o Google Sheets + rutina de conteo.</div>
+      </div>
+    </div>
+
+    <div class="session">
+      <div class="tag"><div class="n">03</div><div class="w">Semana 3</div></div>
+      <div class="body">
+        <h3>Casa en orden · Aplicar</h3>
+        <ul>
+          <li>Protocolos por servicio: lavado, hidratación, blower, color, maquillaje, uñas, depilación y bar.</li>
+          <li>Checklists de apertura y cierre, roles y responsables.</li>
+          <li>Costo real por servicio y margen: qué servicios dejan más dinero.</li>
+        </ul>
+        <div class="deliver">Entregable: Manual operativo v1 del Templo, redactado con IA.</div>
+      </div>
+    </div>
+
+    <div class="session">
+      <div class="tag"><div class="n">04</div><div class="w">Semana 4</div></div>
+      <div class="body">
+        <h3>Agentes Templia · Liberar</h3>
+        <ul>
+          <li>Tres asistentes en Claude trabajando para la gerencia (detalle en la página siguiente).</li>
+          <li>Tablero IAE™: horas recuperadas y avance por área.</li>
+          <li>Plan de 90 días con el ciclo 3R: Rutina, Resultado y Repetición.</li>
+        </ul>
+        <div class="deliver">Entregable: 3 asistentes configurados + tablero + plan 90 días.</div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>IAM™ · Templia · Templo de la Belleza</span><span>iamlatam.co</span></div>
+</section>
+
+<!-- ================= 3. AGENTES + KPIs ================= -->
+<section class="page">
+  <div class="pad">
+    <div class="eyebrow">03 · Agentes Templia</div>
+    <h2>Tres asistentes que <span class="red">trabajan para Andrés.</span></h2>
+    <p style="font-size:14px">Se configuran en Claude como proyectos con instrucciones y documentos propios del salón. Andrés les habla en lenguaje normal y ellos responden con el formato del Templo.</p>
+
+    <div class="agent"><b>⭕ Agente Inventario</b><br>Recibe el conteo semanal, lo cruza con el consumo por servicio y entrega la lista de pedido por proveedor, con los productos en riesgo de agotarse.</div>
+    <div class="agent"><b>⭕ Agente Recepción</b><br>Redacta respuestas para WhatsApp, confirmaciones de cita, recordatorios y sugerencias de servicio adicional (hidratación, uñas, bar) con el tono de la marca.</div>
+    <div class="agent"><b>⭕ Agente Gerencia</b><br>Con los datos de la semana arma el reporte: servicios más vendidos, consumo de insumos, alertas y tres decisiones sugeridas para la siguiente semana.</div>
+
+    <div class="eyebrow" style="margin-top:22px">04 · Lo que vamos a medir</div>
+    <table class="t">
+      <tr><th>Indicador</th><th>Cómo se mide</th><th>Meta del mes</th></tr>
+      <tr><td>Inventario documentado</td><td>Productos en el maestro vs. productos en el salón</td><td>100% de las 9 líneas</td></tr>
+      <tr><td>Exactitud del inventario</td><td>Conteo físico vs. registro</td><td>95% o más</td></tr>
+      <tr><td>Servicios con protocolo y costo</td><td>Servicios documentados vs. carta</td><td>100%</td></tr>
+      <tr><td>Horas recuperadas de la gerencia</td><td>Índice IAE™, línea base en la sesión 1</td><td>Medición semanal</td></tr>
+      <tr><td>Adopción</td><td>Uso semanal de los 3 agentes</td><td>3 de 3 en uso</td></tr>
+    </table>
+    <p class="src">Las metas se ajustan con la línea base que levantemos en la sesión 1. Lo que no se mide no puede ser mejorado.</p>
+  </div>
+  <div class="foot"><span>IAM™ · Templia · Templo de la Belleza</span><span>iamlatam.co</span></div>
+</section>
+
+<!-- ================= 4. INVERSIÓN ================= -->
+<section class="page">
+  <div class="pad">
+    <div class="eyebrow">05 · Inversión</div>
+    <h2>Una inversión en orden,<br><span class="red">no un gasto en capacitación.</span></h2>
+
+    <div class="price">
+      <div>
+        <div class="amt">$5.900.000 <small>COP</small></div>
+        <div style="font-size:12px;color:#BBB;margin-top:6px">Programa Templia · 1 mes</div>
+      </div>
+      <div class="inc">Incluye la asesoría de diagnóstico ya ejecutada + 4 sesiones semanales virtuales de 1 hora + los entregables de cada sesión.</div>
+    </div>
+
+    <h3>Durante el mes, además</h3>
+    <ul class="check">
+      <li><b>Sesiones de refuerzo bajo demanda:</b> Andrés puede solicitar consultas sueltas o sesiones adicionales cuando las necesite durante la vigencia del programa. Valor por sesión a convenir.</li>
+      <li><b>No incluido:</b> la suscripción de Claude (plan de pago) corre por cuenta del Templo y se define en la sesión 1 según el uso.</li>
+    </ul>
+
+    <div class="eyebrow" style="margin-top:22px">06 · Forma de pago</div>
+    <h3>Denis, queremos que tú nos digas cómo te queda mejor.</h3>
+    <p>La forma de pago es a convenir. Cuéntanos cuál modalidad prefieres y la dejamos acordada por escrito antes de la sesión 1, con valores, fechas y saldos claros para ambas partes.</p>
+    <div class="opts">
+      <div class="opt"><b>Pago único</b>Transferencia al inicio del programa.</div>
+      <div class="opt"><b>Pago por partes</b>Cuotas en las fechas que propongas.</div>
+      <div class="opt"><b>Intercambio de servicios</b>Servicios del Templo, con valor de lista acordado, registro de cada servicio tomado y saldo actualizado.</div>
+    </div>
+
+    <div class="sign">
+      <div class="eyebrow">07 · Próximo paso</div>
+      <p style="margin-bottom:6px"><span class="box"></span><b>Sí, acepto la propuesta Templia.</b></p>
+      <p style="margin:10px 0 0;font-size:14px">Así quiero hacer el pago:</p>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div style="display:flex;gap:18px;font-size:13px">
+        <div style="flex:1">Nombre y firma<div class="line"></div></div>
+        <div style="width:45mm">Fecha<div class="line"></div></div>
+      </div>
+      <p style="font-size:13px;margin:4px 0 0">Responde este documento o escríbeme por WhatsApp y agendamos la sesión 1 esta misma semana.</p>
+      <a class="cta" href="https://wa.me/573165327227?text=Hola%20Sandra%2C%20aceptamos%20la%20propuesta%20Templia%20y%20queremos%20pagar%20as%C3%AD%3A%20">Responder por WhatsApp &rarr;</a>
+    </div>
+
+    <p class="closing" style="margin-top:22px;font-family:'Playfair Display',Georgia,serif;font-style:italic;font-size:18px;color:var(--black)">"Las ventas no se improvisan, se diseñan. La operación tampoco."</p>
+    <p style="font-size:13px;color:var(--muted)">Sandra Curvelo · Founder &amp; CSO · IAM™ · sandracurvelo@iamlatam.co · iamlatam.co</p>
+  </div>
+  <div class="foot"><span>IAM™ · Templia · Templo de la Belleza</span><span>Propuesta válida hasta el 18 de noviembre de 2026</span></div>
+</section>
+
+</body>
+</html>
