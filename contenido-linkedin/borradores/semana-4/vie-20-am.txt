@@ -1,0 +1,15 @@
+Así se ve un piloto de IA por área, semana a semana.
+
+Semana 1: medimos. Cuánto tarda hoy cada tarea que se repite, cuántas veces al mes se hace y quién la hace. Sin esa línea base, después no hay forma de demostrar nada.
+
+Semana 5: ya hay tareas reales resueltas con IA. Aparecen los primeros agentes y las primeras horas recuperadas. Y aparecen los que no avanzan: ahí se acompaña, no se castiga.
+
+Semana 9: cada área presenta su resultado ante la gerencia. Horas antes, horas después, qué cambió y qué sigue.
+
+⭕ No se compran licencias para todos el mismo día.
+⭕ No se empieza por la herramienta, se empieza por la tarea.
+⭕ Y todo se mide en el IAE™, el Índice de Actividad de Inteligencia Artificial Empresarial.
+
+Así lo hicimos en un programa con más de 50 personas de 18 áreas.
+
+¿Tu empresa está comprando IA o está instalando un sistema para usarla?
