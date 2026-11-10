@@ -150,3 +150,13 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - ⭕ DECIDE TÚ: máximo 1 o 2 líneas con la pregunta y la recomendación. Todo lo que publique, borre, envíe, pague o comprometa a Sandra o a un cliente va aquí.
 - El resto del mensaje es explicación opcional.
 - (9 nov 2026) Corrección de Sandra, transmitida por EmilIA: se usa ⭕ y no el punto rojo.
+
+## 24. Recordar lo pendiente (10 nov 2026, decisión de Sandra)
+
+- Cada vez que Sandra dé una instrucción, al final de la respuesta va el bloque "📌 PILA, SANDRA": lo que está pendiente de su aprobación o de su acción, en una línea cada cosa, empezando por la prospección.
+- La fuente es pendientes-sandra.md; se actualiza en cada respuesta.
+- Prospección es prioridad 1: si una tarea de prospección lleva más de 2 días sin avanzar, se dice primero y se propone cómo destrabarla.
+
+## 25. Objetivos ProBarranquilla y ProColombia (10 nov 2026, decisión de Sandra)
+
+- En cada ronda de comentarios, primero ProBarranquilla, ProColombia y sus directivos (al menos 2 de cada lista de 10 si publicaron en las últimas 72 horas).
