@@ -27,3 +27,7 @@ Fundadora y CSO de IAM™
 - Requisitos: persona natural, título y posgrado, 3 años diseñando programas de formación o acompañamiento empresarial; formato de inscripción en Excel. Cierre: 9 nov 2026.
 - Borrador en Gmail (10 nov) dirigido a rlara@, ajustado al área y preguntando por segunda ronda o propuestas tardías.
 - Siguiente: si responden, diligenciar formato y registrarse como proveedor (registroproveedor@).
+
+## Enviado (10 nov 2026)
+- Sandra envió el correo desde sandracurvelo@iamlatam.co a rlara@camarabaq.org.co con 4 adjuntos (PDF, macroprocesos, ciudadano PQRSDF, índice por dependencia).
+- Seguimiento: lunes 16 nov si no hay respuesta (recordatorio programado).

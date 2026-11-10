@@ -6,7 +6,7 @@ Actualizado: 10 nov 2026, 7:15 a. m.
 - [Sandra] Tarea programada "rutina IAM" creada en Cowork el 10 nov (según Sandra). Verificar en la lista de programadas la próxima ejecución; prueba real: 5:35 p. m. del 10 nov.
 
 ## Prospección (prioridad 1)
-- PRIORIDAD HOY: Cámara de Comercio de Barranquilla (convocatoria de formación 2027). Chrome investiga; Claude ajusta el mensaje; Sandra envía. Ver prospeccion/camara-barranquilla.md.
+- Cámara de Comercio de Barranquilla: correo ENVIADO el 10 nov. Seguimiento el lun 16 si no responden.
 - [Chrome] Lista de hasta 30 directivos de cámaras de comercio: pedida el 4 nov, sin entregar. Sandra debe escribir "rutina IAM" con Chrome abierto.
 - [Chrome] Enviar invitación a Fernando Barraza con la nota aprobada (10 nov); confirmar envío.
 - [Sandra] 0 invitaciones enviadas en 7 días: aprobar ritmo de 15 al día cuando llegue la lista de cámaras.
