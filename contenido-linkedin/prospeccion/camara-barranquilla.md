@@ -20,3 +20,10 @@ Me encantaría tener 20 minutos para mostrarle cómo se vería aplicado a los em
 
 Sandra Curvelo
 Fundadora y CSO de IAM™
+
+## Detalle de la convocatoria (Chrome, 10 nov)
+- Publicó: página de la Cámara de Comercio de Barranquilla (sin persona). Correos: rlara@camarabaq.org.co (en el post) y registroproveedor@camarabaq.org.co (formato de registro de proveedores, genérico).
+- Objeto: metodología de formación y fortalecimiento empresarial del Área de Economía Social y Solidaria 2027 (ruta con diagnóstico, cierre de brechas, conexión con oportunidades y medición). Ejecución 1 mes en Barranquilla.
+- Requisitos: persona natural, título y posgrado, 3 años diseñando programas de formación o acompañamiento empresarial; formato de inscripción en Excel. Cierre: 9 nov 2026.
+- Borrador en Gmail (10 nov) dirigido a rlara@, ajustado al área y preguntando por segunda ronda o propuestas tardías.
+- Siguiente: si responden, diligenciar formato y registrarse como proveedor (registroproveedor@).
