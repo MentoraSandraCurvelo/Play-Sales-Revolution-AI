@@ -1,20 +1,14 @@
-Tu empresa pagó licencias de IA. ¿Sabes quién las está usando de verdad?
+El viernes les prometí que cada semana iba a mostrar un tablero del IAE™. Hoy lo abro por dentro.
 
-La mayoría de las empresas no lo sabe. Compran, capacitan y después no tienen forma de demostrar si algo cambió.
+En el video te explico de dónde salen los datos del IAE™, el Índice de Actividad de Inteligencia Artificial Empresarial. No es una encuesta de "¿sí estás usando la IA?". Son 4 fuentes que se cruzan:
 
-Por eso creé el IAE™, el Índice de Actividad de Inteligencia Artificial Empresarial: un tablero por área que muestra quién usa la IA, quién no y cuántas horas se recuperan cada día.
-
-No es una autoevaluación. Se alimenta de 4 fuentes cruzadas:
-
-⭕ Adopción: el uso real de las licencias, semana a semana.
-⭕ Horas recuperadas: una línea base por persona, tarea por tarea.
+⭕ Adopción: el uso real de las licencias, que llega solo, semana a semana.
+⭕ Horas recuperadas: una línea base por persona, tarea por tarea, validada en sesión.
 ⭕ Agentes y tableros que cada área tiene funcionando, verificados cada 15 días.
 ⭕ Calidad: una encuesta anónima y el visto bueno del jefe a los entregables.
 
-Con eso, la conversación con la gerencia cambia. Ya no es "estamos usando IA". Es "esta área subió, esta bajó y estas son las horas que recuperamos esta semana".
+Al final te muestro los 2 tableros que salen de ahí, con datos de ejemplo: las horas que ahorra cada área y los procesos que van al día o en riesgo.
 
-En el video te muestro los 2 tableros, con datos de ejemplo.
+Y me quedó una pregunta para el próximo post: si ya recuperaste esas horas, ¿en qué las estás invirtiendo para que se vean en el EBITDA?
 
-Lo que no se mide no puede ser mejorado. Y la IA no es la excepción.
-
-¿Tu empresa ya sabe cuántas horas le está devolviendo la IA?
+¿Cuál de estas 4 fuentes es la que tu empresa todavía no mide?
