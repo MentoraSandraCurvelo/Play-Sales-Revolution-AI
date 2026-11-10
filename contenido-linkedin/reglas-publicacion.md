@@ -160,3 +160,10 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 ## 25. Objetivos ProBarranquilla y ProColombia (10 nov 2026, decisión de Sandra)
 
 - En cada ronda de comentarios, primero ProBarranquilla, ProColombia y sus directivos (al menos 2 de cada lista de 10 si publicaron en las últimas 72 horas).
+
+## 26. Respuestas automáticas y cuentas prioritarias (10 nov 2026, decisión de Sandra)
+
+- Chrome contesta solo (1 a 3 líneas, sin vender, sin cifras) los comentarios en los posts de Sandra y las respuestas a sus comentarios, y les da like.
+- En hilos de cuentas prioritarias (Vicepresidente José Manuel Restrepo, Presidente de la República, ProBarranquilla, ProColombia, cámaras de comercio) siempre muestra el texto y espera el sí.
+- Al final de cada ronda, reporte con todo lo publicado (texto, link y antigüedad).
+- Objetivo con el Vicepresidente: que vea a Sandra como autoridad en IA para el gobierno. Comentar todas sus publicaciones con aportes de fondo sobre IA en el sector público.
