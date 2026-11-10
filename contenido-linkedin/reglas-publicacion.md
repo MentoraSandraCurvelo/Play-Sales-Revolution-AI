@@ -183,3 +183,7 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Máximo 200 caracteres (límite de LinkedIn). Claude cuenta los caracteres antes de proponerla.
 - A Sandra le quedan pocas invitaciones con nota al mes (3 al 10 nov): se reservan para los prospectos más valiosos; al resto, comentar primero e invitar sin nota.
 - Antes de mandar o publicar un video, revisarlo fotograma por fotograma: nunca nombres de personas de equipos cliente ni de entidades.
+
+## 30. Comfacesar con nombre en posts públicos (10 nov 2026, decisión de Sandra)
+
+- Desde el 10 nov se puede nombrar a Comfacesar como cliente en publicaciones públicas (Sandra ya publicó foto con ellos). Sigue sin nombrarse la Alcaldía de Valledupar ni personas de los equipos cliente. Las cifras siguen siendo solo las verificadas.
