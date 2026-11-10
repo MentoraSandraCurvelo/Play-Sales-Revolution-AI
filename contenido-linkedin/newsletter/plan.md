@@ -11,8 +11,9 @@
 | # | Fecha | Tema |
 |---|---|---|
 | 1 | Jue 12 nov | Conecté LinkedIn con Claude: el agente que publica por mí, por qué yo apruebo todo y el error de seguridad que no debes cometer |
-| 2 | Jue 26 nov | Tu IA, experta en LinkedIn e Instagram: revisar métricas y saber qué funciona sin depender de un analista |
-| 3 | Jue 10 dic | Proyectos, agentes, habilidades y plugins: el mapa para no perderse, con instructivo para crear tu primer agente |
+| 2 | Jue 26 nov | "Tu vendedor no necesita otro curso. Necesita trabajar con inteligencia artificial, con método." Guía La semana del vendedor con IA (PDF), 5 vectores, prompts por día. Título de Sandra (10 nov) |
+| 3 | Jue 10 dic | Tu IA, experta en LinkedIn e Instagram: revisar métricas y saber qué funciona sin depender de un analista (movido desde el 26 nov) |
+| 4 | Jue 24 dic o 7 ene | Proyectos, agentes, habilidades y plugins: el mapa para no perderse, con instructivo para crear tu primer agente |
 | 4 | Jue 7 ene | Gemini Deep Research y los planes de IA de Google: qué incluye cada uno y para qué te sirve |
 | 5 | Jue 21 ene | NotebookLM y el entorno de Google Workspace: tu segundo cerebro de trabajo |
 | 6 | Jue 4 feb | Conferencias con IA: Mentimeter para que el público participe, y banners y carruseles diseñados con IA |
