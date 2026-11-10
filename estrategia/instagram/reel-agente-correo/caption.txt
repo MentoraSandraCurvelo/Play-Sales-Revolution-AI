@@ -1,0 +1,16 @@
+Te pasas el día leyendo, respondiendo, archivando y etiquetando correos. ⭕
+
+Ya puedes conectar Claude a tu correo de Outlook (Microsoft 365) o de Gmail. Con eso armé un agente que:
+
+1. Lee tu bandeja.
+2. Clasifica cada correo: responder hoy, delegar, leer después o archivar.
+3. Te deja los borradores listos.
+4. No envía, no borra y no archiva nada sin tu aprobación.
+
+Y aquí está la diferencia: muchos te dicen "comenta y te mando un PDF". Yo no te mando algo para leer. Te mando el agente ya construido: lo copias, lo pegas en Claude y empieza a trabajar.
+
+Importante: es una DEMO SIMULADA. La bandeja, los remitentes y los correos son ficticios, armados para enseñar.
+
+¿Lo quieres? Comenta CORREO y te lo envío por mensaje directo.
+
+#IAAgéntica #Claude #Productividad #VentasConIA #Outlook

@@ -15,6 +15,11 @@ IG = "17841448964093245"
 YO = "sandracurvelo_iam"
 # Palabra clave (expresión regular) -> mensaje directo con su guía. La primera que coincida gana.
 PALABRAS = [
+    (re.compile(r"\bcorreos?\b", re.I),
+     "¡Hola! Gracias por comentar 🙌 Aquí no te mando un PDF: te mando tu agente de correo ya construido para Outlook o Gmail. "
+     "Lo copias, lo pegas en Claude y queda listo para ordenar tu bandeja y dejarte los borradores 👉 "
+     "https://claude.ai/artifact/7VxGosBCqtzQCxnQBxXvLW Cuéntame cuántos correos te ordenó el primer día. Sandra",
+     "¡Ya te mandé tu agente por mensaje directo! 📩"),
     (re.compile(r"\bactiva\b", re.I),
      "¡Hola! Gracias por comentar 🙌 Ya te paso tu guía con los 5 ajustes para que Claude trabaje contigo y no sea solo un buscador. "
      "No es un PDF: es una página interactiva con los prompts que copias con un clic 👉 "
@@ -36,12 +41,13 @@ PALABRAS = [
      "No es un PDF: es una página interactiva donde copias cada prompt con un clic 👉 "
      "https://claude.ai/artifact/XMtd5GiGfXSuGePjeaZRmX Cuéntame cuál te funcionó. Sandra"),
 ]
-def mensaje_para(texto):
-    for rx, dm in PALABRAS:
-        if rx.search(texto or ""):
-            return dm
-    return None
 PUBLICA = "¡Ya te paso tu tablero por mensaje directo! 📩"
+def mensaje_para(texto):
+    """Devuelve (mensaje directo, respuesta pública) de la primera palabra que coincida."""
+    for rx, dm, *pub in PALABRAS:
+        if rx.search(texto or ""):
+            return dm, (pub[0] if pub else PUBLICA)
+    return None, None
 PRUEBA = "--prueba" in sys.argv
 
 
@@ -66,7 +72,7 @@ def main():
     enviados, fallos, pendientes = [], [], []
     for m in d.get("media", {}).get("data", []):
         for c in m.get("comments", {}).get("data", []):
-            DM = mensaje_para(c.get("text", ""))
+            DM, PUB = mensaje_para(c.get("text", ""))
             if c.get("username") == YO or not DM:
                 continue
             if any(r.get("username") == YO for r in c.get("replies", {}).get("data", [])):
@@ -84,7 +90,7 @@ def main():
                 item["error"] = r["error"].get("message")
                 fallos.append(item)
                 continue  # sin mensaje directo no se dice en público que se envió
-            p = api("POST", f"{c['id']}/replies", {"message": PUBLICA})
+            p = api("POST", f"{c['id']}/replies", {"message": PUB})
             item["respuesta_publica"] = "ok" if "id" in p else p.get("error", {}).get("message")
             enviados.append(item)
     print(json.dumps({"estado": "ok", "prueba": PRUEBA, "enviados": enviados, "fallos": fallos,

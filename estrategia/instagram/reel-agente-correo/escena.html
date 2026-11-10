@@ -1,0 +1,117 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1920px;overflow:hidden;font-family:Inter,Arial,sans-serif;color:#e9eef3;
+ background:radial-gradient(900px 700px at 10% 0%,#13233a 0,transparent 60%),radial-gradient(900px 700px at 100% 100%,#2a0b0e 0,transparent 60%),#05070a}
+.mono{font-family:"JetBrains Mono",monospace}
+em{font-style:normal;background:linear-gradient(90deg,#ff2d2d,#ffb020);-webkit-background-clip:text;background-clip:text;color:transparent}
+.top{position:absolute;top:60px;left:60px;right:60px;display:flex;justify-content:space-between;align-items:center;font:800 24px/1 "JetBrains Mono";letter-spacing:.18em;z-index:5}
+.top .ring{display:inline-block;width:22px;height:22px;border-radius:50%;border:5px solid #ff2d2d;vertical-align:-4px;margin-right:12px}
+.demo{color:#ffb020}
+/* acto 1: PDF vs agente */
+.a1{position:absolute;inset:0;padding:300px 70px 0;transition:opacity .6s}
+.a1 h1{font-family:Georgia,serif;font-weight:400;font-size:100px;line-height:1.04}
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:90px}
+.box{border-radius:30px;padding:40px 34px;min-height:480px;opacity:0;transform:translateY(40px);transition:all .6s}
+.box.on{opacity:1;transform:none}
+.box .ic{font-size:110px;line-height:1}
+.box h3{font:800 34px/1 "JetBrains Mono";letter-spacing:.14em;margin:34px 0 22px}
+.box p{font-size:36px;line-height:1.35;color:#9aa6b2}
+.pdf{background:#0e1218;border:2px solid #1f2731}
+.pdf h3{color:#6b7682}
+.pdf .x{text-decoration:line-through;text-decoration-thickness:5px;text-decoration-color:transparent;transition:text-decoration-color .5s}
+.pdf.cut .x{text-decoration-color:#ff2d2d}
+.ag{background:linear-gradient(160deg,#1a0c10,#0c1118);border:2px solid #ff2d2d;box-shadow:0 0 0 0 rgba(255,45,45,.0);transition:all .6s}
+.ag.glow{box-shadow:0 0 70px rgba(255,45,45,.45)}
+.ag h3{color:#ff4d4d}.ag p b{color:#fff}
+/* acto 2: bandeja */
+.a2{position:absolute;inset:0;opacity:0;transition:opacity .6s}
+.hook{position:absolute;top:130px;left:60px;right:60px}
+.hook h1{font-family:Georgia,serif;font-weight:400;font-size:84px;line-height:1.04}
+.win{position:absolute;left:50px;right:50px;top:440px;height:1340px;border-radius:30px;background:#0c1118;border:1px solid #1f2b38;box-shadow:0 40px 90px rgba(0,0,0,.5);overflow:hidden}
+.bar{height:64px;display:flex;align-items:center;gap:12px;padding:0 24px;background:#0e151e;border-bottom:1px solid #1f2b38;font:700 22px/1 "JetBrains Mono";color:#9aa6b2}
+.bar .cnt{margin-left:auto;color:#ff4d4d;font-size:24px}
+.dot{width:14px;height:14px;border-radius:50%;background:#2a3847}
+.agent{padding:22px 28px;border-bottom:1px solid #1f2b38}
+.who{font:800 22px/1 "JetBrains Mono";letter-spacing:.14em;color:#ff4d4d;margin-bottom:14px}
+.ask{background:#151e29;border:1px solid #2a3a4c;border-radius:18px;padding:16px 20px;font-size:32px;min-height:74px}
+.list{padding:14px 28px}
+.row{display:flex;align-items:center;gap:18px;padding:17px 18px;border-radius:16px;background:#0f1620;border:1px solid #1c2633;margin-bottom:10px;max-height:110px;transition:all .5s}
+.row .av{width:60px;height:60px;border-radius:50%;background:linear-gradient(135deg,#3a4b5e,#1b2633);flex:none}
+.row .t{flex:1;min-width:0}
+.row .n{font-size:24px;color:#9aa6b2;filter:blur(7px)}
+.row .s{font-size:31px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tag{font:800 21px/1 "JetBrains Mono";letter-spacing:.08em;padding:11px 14px;border-radius:999px;opacity:0;transform:scale(.6);transition:all .35s;white-space:nowrap}
+.row.tg .tag{opacity:1;transform:none}
+.r{background:rgba(255,45,45,.15);color:#ff5a5a;border:1px solid #ff2d2d}
+.d{background:rgba(255,176,32,.13);color:#ffb020;border:1px solid #ffb020}
+.l{background:rgba(80,160,255,.12);color:#7fb6ff;border:1px solid #4d8fe0}
+.a{background:rgba(150,160,170,.1);color:#8b96a2;border:1px solid #3a4652}
+.row.gone{opacity:0;max-height:0;padding:0 18px;margin:0;border-width:0}
+.draft{margin:10px 28px 0;background:#111923;border:1px solid #233142;border-radius:22px;padding:24px;opacity:0;transform:translateY(30px);transition:all .5s}
+.draft.on{opacity:1;transform:none}
+.draft .lbl{font:800 21px/1 "JetBrains Mono";letter-spacing:.12em;color:#19e28b;margin-bottom:14px;display:flex;justify-content:space-between}
+.draft .lbl span+span{color:#ffb020}
+.txt{font-size:30px;line-height:1.4;min-height:126px}
+.btns{display:flex;gap:16px;margin-top:16px;align-items:center}
+.btn{font:800 24px/1 "JetBrains Mono";padding:18px 26px;border-radius:999px;border:2px solid #2a3a4c;color:#9aa6b2}
+.btn.ok{border-color:#ff2d2d;color:#fff;background:linear-gradient(90deg,#c00000,#7a0f16)}
+.foot{position:absolute;bottom:60px;left:60px;right:60px;text-align:center;font:700 24px/1.4 "JetBrains Mono";letter-spacing:.14em;color:#9aa6b2}
+/* acto 3 */
+.end{position:absolute;inset:0;background:#05070a;display:flex;flex-direction:column;justify-content:center;padding:0 90px;opacity:0;transition:opacity .8s;z-index:9}
+.end h1{font-family:Georgia,serif;font-weight:400;font-size:116px;line-height:1.02}
+.cta{margin-top:70px;display:inline-block;align-self:flex-start;font:800 46px/1 "JetBrains Mono";letter-spacing:.16em;padding:30px 40px;border-radius:999px;border:3px solid #ff2d2d;color:#fff;background:linear-gradient(90deg,#c00000,#7a0f16)}
+</style></head><body>
+<div class="top"><span><span class="ring"></span>IAM™</span><span class="demo">DEMO SIMULADA</span></div>
+
+<div class="a1" id="a1">
+ <h1>Otros te mandan un PDF. <em>Yo te mando el agente.</em></h1>
+ <div class="vs">
+  <div class="box pdf" id="b1"><div class="ic">📄</div><h3>UN PDF</h3><p><span class="x">Lo lees.</span><br><span class="x">Se queda en descargas.</span></p></div>
+  <div class="box ag" id="b2"><div class="ic">✶</div><h3>UN AGENTE</h3><p><b>Lo copias, lo pegas</b> y trabaja por ti desde el primer día.</p></div>
+ </div>
+</div>
+
+<div class="a2" id="a2">
+ <div class="hook"><h1>Tu bandeja se ordena sola. <em>Tú solo apruebas.</em></h1></div>
+ <div class="win">
+  <div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span>&nbsp; BANDEJA DE ENTRADA · SIMULADA<span class="cnt" id="cnt">47 SIN LEER</span></div>
+  <div class="agent"><p class="who">✶ AGENTE DE CORREO CON CLAUDE</p><div class="ask" id="ask"></div></div>
+  <div class="list" id="list">
+   <div class="row" data-k="r"><div class="av"></div><div class="t"><p class="n">Cliente Uno</p><p class="s">Propuesta: ¿podemos ajustar el valor?</p></div><span class="tag r">RESPONDER HOY</span></div>
+   <div class="row" data-k="a"><div class="av"></div><div class="t"><p class="n">Boletín Semanal</p><p class="s">Las 10 tendencias del mes</p></div><span class="tag a">ARCHIVAR</span></div>
+   <div class="row" data-k="d"><div class="av"></div><div class="t"><p class="n">Equipo Interno</p><p class="s">Cotización pendiente del cliente nuevo</p></div><span class="tag d">DELEGAR</span></div>
+   <div class="row" data-k="a"><div class="av"></div><div class="t"><p class="n">Notificaciones</p><p class="s">Tienes 12 notificaciones nuevas</p></div><span class="tag a">ARCHIVAR</span></div>
+   <div class="row" data-k="r"><div class="av"></div><div class="t"><p class="n">Gerente Comercial</p><p class="s">¿Confirmas la reunión del jueves?</p></div><span class="tag r">RESPONDER HOY</span></div>
+   <div class="row" data-k="l"><div class="av"></div><div class="t"><p class="n">Proveedor Demo</p><p class="s">Informe trimestral adjunto</p></div><span class="tag l">LEER DESPUÉS</span></div>
+   <div class="row" data-k="a"><div class="av"></div><div class="t"><p class="n">Tienda en línea</p><p class="s">Tu recibo de compra</p></div><span class="tag a">ARCHIVAR</span></div>
+   <div class="row" data-k="r"><div class="av"></div><div class="t"><p class="n">Prospecto Demo</p><p class="s">Me interesa el programa para mi equipo</p></div><span class="tag r">RESPONDER HOY</span></div>
+  </div>
+  <div class="draft" id="dr"><p class="lbl"><span>✓ 3 BORRADORES LISTOS</span><span>NADA SE ENVÍA SIN TI</span></p>
+   <div class="txt" id="dt"></div>
+   <div class="btns"><span class="btn ok">✓ APROBAR</span><span class="btn">EDITAR</span></div></div>
+ </div>
+ <p class="foot">HECHO CON CLAUDE · OUTLOOK O GMAIL · DATOS FICTICIOS</p>
+</div>
+
+<div class="end" id="end"><p class="mono" style="font-size:32px;letter-spacing:.24em;color:#ff2d2d;font-weight:800">⭕ IAM™ · SANDRA CURVELO</p>
+ <h1 style="margin-top:30px">No es un PDF. <em>Es tu agente, ya construido.</em></h1>
+ <span class="cta">COMENTA CORREO</span>
+ <p class="mono" style="margin-top:36px;font-size:28px;letter-spacing:.14em;color:#9aa6b2">Y TE LO MANDO LISTO PARA PEGAR EN CLAUDE</p></div>
+<script>
+const $=id=>document.getElementById(id);
+const type=(el,s,ms)=>{let i=0;const t=setInterval(()=>{el.textContent=s.slice(0,++i);if(i>=s.length)clearInterval(t)},ms)};
+setTimeout(()=>$('b1').classList.add('on'),500);
+setTimeout(()=>$('b2').classList.add('on'),1100);
+setTimeout(()=>$('b1').classList.add('cut'),2300);
+setTimeout(()=>$('b2').classList.add('glow'),2700);
+setTimeout(()=>{$('a1').style.opacity=0;$('a2').style.opacity=1},5000);
+setTimeout(()=>type($('ask'),'Revisa mi correo.',55),5900);
+const rows=[...document.querySelectorAll('.row')];
+rows.forEach((r,i)=>setTimeout(()=>r.classList.add('tg'),7300+i*420));
+const cnt=$('cnt');let n=47;
+setTimeout(()=>{const t=setInterval(()=>{n-=1;cnt.textContent=n+' SIN LEER';if(n<=6){clearInterval(t);cnt.textContent='6 PARA TI';cnt.style.color='#19e28b'}},45)},10900);
+setTimeout(()=>rows.filter(r=>r.dataset.k==='a').forEach(r=>r.classList.add('gone')),11300);
+setTimeout(()=>rows.filter(r=>r.dataset.k==='l'||r.dataset.k==='d').forEach(r=>r.classList.add('gone')),12300);
+setTimeout(()=>{$('dr').classList.add('on');type($('dt'),'Hola, gracias por tu interés en el programa. Te propongo una llamada de 20 minutos el jueves a las 10:00 a. m. ¿Te queda bien?',30)},13300);
+setTimeout(()=>$('end').style.opacity=1,19600);
+</script></body></html>
