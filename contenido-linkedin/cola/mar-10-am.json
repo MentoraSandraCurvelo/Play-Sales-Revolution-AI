@@ -1,9 +1,9 @@
 {
   "id": "mar-10-am",
-  "estado": "aprobado",
+  "estado": "publicado",
   "programado_bogota": "2026-11-10 07:30",
   "imagen": "contenido-linkedin/imagenes/mar-10-am.jpg",
-  "urn": null,
+  "urn": "urn:li:share:7525899303865892864",
   "payload": {
     "author": "urn:li:person:tsJbwdb3B2",
     "commentary": "¿Quién es el responsable de la IA en tu empresa?\n\nSi la respuesta es \"el área de tecnología\", hay un problema.\n\nTecnología sabe de herramientas. Pero no sabe qué tarea de jurídica se puede llevar a la IA, ni qué dato de talento humano nunca debe salir de la empresa.\n\nUn plan de gobernanza de {hashtag|\\#|IA} responde 5 preguntas:\n\n⭕ Quién es el responsable en cada área.\n\n⭕ Qué tareas sí se le dan a la IA y cuáles no.\n\n⭕ Qué datos pueden entrar y cuáles nunca.\n\n⭕ Quién revisa y firma lo que la IA produce.\n\n⭕ Cómo se mide y cómo se audita.\n\nEn IAM™ armo ese plan con cada empresa antes de escalar la IA. Porque escalar sin gobierno es multiplicar el riesgo al mismo ritmo que la {hashtag|\\#|Productividad}.\n\n¿Tu empresa ya tiene un responsable de IA por área?\n\nSi estás armando el tuyo, sígueme: voy a compartir cómo se construye, paso a paso.\n\n{hashtag|\\#|GobernanzaDeIA} {hashtag|\\#|IAEmpresarial} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
@@ -20,5 +20,6 @@
   "alt": "¿Quién es el responsable de la IA en tu empresa?",
   "foto_origen": "Dropbox /1-IAM™/Fotos Profesionales (4641)",
   "aprobado_por": "Sandra",
-  "aprobado_el": "2026-11-05"
+  "aprobado_el": "2026-11-05",
+  "publicado_utc": "2026-11-10T12:36:58+00:00"
 }
