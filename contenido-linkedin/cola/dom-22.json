@@ -1,0 +1,21 @@
+{
+  "id": "dom-22",
+  "estado": "aprobado",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-10",
+  "programado_bogota": "2026-11-22 17:00",
+  "urn": null,
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "Domingo. Antes de pensar en la lista de tareas del lunes, haz este ejercicio de 3 minutos.\n\nEscribe el logro de tu semana. No la tarea, el logro.\n\n\"Hice 12 reuniones\" es una tarea.\n\"Cerré el contrato que llevaba 3 meses en pausa\" es un logro.\n\n\"Respondí 80 correos\" es una tarea.\n\"Dejé funcionando el proceso que nos quitaba 2 días cada mes\" es un logro.\n\nSi al final de la semana solo tienes tareas, estuviste ocupado. Si tienes un logro, avanzaste.\n\nY ese logro es el que después cuentas en tu perfil, en tu evaluación y en tu próxima negociación.\n\n¿Cuál fue tu logro de esta semana?\n\n{hashtag|\\#|MarcaProfesional} {hashtag|\\#|Productividad} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
+  },
+  "nota": "Texto aprobado el 10 nov. Formato: texto solo. Sin primer comentario aún."
+}

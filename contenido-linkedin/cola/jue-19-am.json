@@ -1,0 +1,21 @@
+{
+  "id": "jue-19-am",
+  "estado": "aprobado",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-10",
+  "programado_bogota": "2026-11-19 07:30",
+  "urn": null,
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "Tu empresa tiene cientos de empleados en LinkedIn.\n\nY la única que publica es la página de la empresa.\n\nHay una verdad que muchas marcas no quieren escuchar: la gente confía más en personas que en logos. Un post de tu gerente comercial, de tu ingeniera o de tu asesor de servicio llega a gente que tu página nunca va a alcanzar.\n\nEso es un programa de embajadores de marca: tu equipo contando, con su voz, lo que la empresa hace bien.\n\nNo se trata de obligar a nadie a compartir el post corporativo. Se trata de:\n\n⭕ Que cada persona tenga un perfil que la represente bien.\n⭕ Que sepa qué contar y qué no.\n⭕ Que tenga una razón para hacerlo: crecer su propia marca profesional.\n\nCuando tu equipo habla, tu marca deja de ser un anuncio y se vuelve una conversación.\n\n¿Cuántas personas de tu empresa hablan hoy de lo que hacen en LinkedIn?\n\n{hashtag|\\#|EmbajadoresDeMarca} {hashtag|\\#|MarcaEmpleadora} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
+  },
+  "nota": "Texto aprobado el 10 nov. Formato: texto solo. Sin primer comentario aún."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "mar-17-am",
+  "estado": "aprobado",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-10",
+  "programado_bogota": "2026-11-17 07:30",
+  "urn": null,
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "Revisa tu perfil de LinkedIn y cuenta cuántas veces aparece un título.\n\nAhora cuenta cuántas veces aparece un resultado.\n\nMostramos diplomas, escarapelas y fotos de eventos. Pero casi nunca contamos el impacto que causamos en la empresa, en el equipo o en la comunidad.\n\nY eso es lo que de verdad compra un cliente o un empleador: lo que cambia cuando tú llegas.\n\nLa fórmula que uso con las personas que mentoreo es simple:\n\n⭕ Hice \\[qué\\]\n⭕ para \\[quién\\]\n⭕ y eso cambió \\[un resultado que se pueda medir\\]\n\nUn título dice que estudiaste. Un logro dice que transformaste algo.\n\nTu marca profesional no se construye con lo que tienes colgado en la pared. Se construye con lo que dejas funcionando.\n\nTe reto: escribe en los comentarios tu logro con esa fórmula. Te leo.\n\n{hashtag|\\#|MarcaProfesional} {hashtag|\\#|LinkedIn} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
+  },
+  "nota": "Texto aprobado el 10 nov. Formato: foto de Sandra por elegir. Sin primer comentario aún."
+}

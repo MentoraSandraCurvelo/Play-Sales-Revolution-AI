@@ -1,0 +1,31 @@
+{
+  "id": "jue-19-pm",
+  "estado": "aprobado",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-10",
+  "programado_bogota": "2026-11-19 17:30",
+  "urn": null,
+  "encuesta": {
+    "pregunta": "¿En qué invertirías 4 horas más a la semana?",
+    "opciones": [
+      "Más tiempo con clientes",
+      "Formarme en algo nuevo",
+      "Mejorar procesos del área",
+      "Descansar, también cuenta"
+    ],
+    "duracion": "THREE_DAYS"
+  },
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "Si la IA te devolviera 4 horas a la semana, ¿en qué las invertirías?\n\nEsta semana hablamos de la fase 2: recuperar horas no basta, hay que decidir en qué se invierten.\n\nVota y cuéntame en los comentarios por qué.\n\n{hashtag|\\#|IAEmpresarial} {hashtag|\\#|Productividad} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
+  },
+  "nota": "Encuesta aprobada el 10 nov."
+}

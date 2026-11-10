@@ -1,0 +1,21 @@
+{
+  "id": "mie-18-pm",
+  "estado": "aprobado",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-10",
+  "programado_bogota": "2026-11-18 17:30",
+  "urn": null,
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "La confianza también se mide.\n\nAl empezar un programa de IA con un equipo de 18 áreas, les pedimos calificar de 1 a 10 qué tan seguros se sentían usando IA en su trabajo.\n\nPromedio: 4,7.\n\n9 semanas después, la misma pregunta: 8,6.\n\nEse número me importa tanto como las horas recuperadas. Porque una persona que no confía en la herramienta no la usa, aunque la empresa haya pagado la licencia.\n\nLa confianza no llega con un curso de un día. Llega cuando la persona resuelve una tarea real de su trabajo, ve el resultado y lo repite.\n\n⭕ Semana 1: miedo a equivocarse.\n⭕ Semana 5: \"esto me ahorra tiempo\".\n⭕ Semana 9: \"ya no trabajo sin esto\".\n\nSi tu equipo no está usando la IA, quizás no es un problema de herramienta. Es un problema de confianza.\n\n¿Ya mediste qué tan seguro se siente tu equipo usando IA?\n\n{hashtag|\\#|IAEmpresarial} {hashtag|\\#|AdopcionDeIA} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
+  },
+  "nota": "Texto aprobado el 10 nov. Formato: imagen dato 4,7 a 8,6 por crear. Sin primer comentario aún."
+}

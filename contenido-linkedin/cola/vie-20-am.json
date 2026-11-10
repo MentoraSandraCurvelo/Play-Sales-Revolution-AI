@@ -1,0 +1,21 @@
+{
+  "id": "vie-20-am",
+  "estado": "aprobado",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-10",
+  "programado_bogota": "2026-11-20 07:30",
+  "urn": null,
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "Así se ve un piloto de IA por área, semana a semana.\n\nSemana 1: medimos. Cuánto tarda hoy cada tarea que se repite, cuántas veces al mes se hace y quién la hace. Sin esa línea base, después no hay forma de demostrar nada.\n\nSemana 5: ya hay tareas reales resueltas con IA. Aparecen los primeros agentes y las primeras horas recuperadas. Y aparecen los que no avanzan: ahí se acompaña, no se castiga.\n\nSemana 9: cada área presenta su resultado ante la gerencia. Horas antes, horas después, qué cambió y qué sigue.\n\n⭕ No se compran licencias para todos el mismo día.\n⭕ No se empieza por la herramienta, se empieza por la tarea.\n⭕ Y todo se mide en el IAE™, el Índice de Actividad de Inteligencia Artificial Empresarial.\n\nAsí lo hicimos en un programa con más de 50 personas de 18 áreas.\n\n¿Tu empresa está comprando IA o está instalando un sistema para usarla?\n\n{hashtag|\\#|IAEmpresarial} {hashtag|\\#|TransformacionDigital} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
+  },
+  "nota": "Texto aprobado el 10 nov. Formato: imagen de tablero (datos de ejemplo) por crear. Sin primer comentario aún."
+}

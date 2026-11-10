@@ -1,0 +1,21 @@
+{
+  "id": "sab-21",
+  "estado": "aprobado",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-10",
+  "programado_bogota": "2026-11-21 09:00",
+  "urn": null,
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "Más de 1.500 personas mentoreadas.\n\nY si tuviera que resumir lo que aprendí en una frase sería esta: casi nadie necesita más información. Necesita claridad para dar el siguiente paso.\n\nLo que más se repite en mis mentorías:\n\n⭕ Personas brillantes que no saben contar lo que hacen.\n⭕ Vendedores con talento que no tienen tiempo para vender.\n⭕ Líderes que compraron tecnología y no saben si funcionó.\n\nEn los 3 casos la respuesta no fue un curso más. Fue un método, acompañamiento y una forma de medir el avance.\n\nPor eso hago lo que hago: no enseño herramientas, instalo sistemas que la gente puede sostener cuando yo ya no estoy.\n\n¿Cuál ha sido el mejor consejo que te dio un mentor?\n\n{hashtag|\\#|Mentoria} {hashtag|\\#|MarcaProfesional} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
+  },
+  "nota": "Texto aprobado el 10 nov. Formato: foto de Jürgen por elegir. Sin primer comentario aún."
+}
