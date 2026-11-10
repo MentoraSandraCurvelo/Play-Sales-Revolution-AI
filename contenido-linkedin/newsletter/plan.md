@@ -40,3 +40,6 @@
 
 ## Nombre confirmado (5 nov 2026)
 Sandra confirma "Lo que nadie te dice de la IA" para la newsletter de LinkedIn. "IA sin rodeos" es solo de Instagram. Del estilo "sin rodeos" se toma el tono (frases cortas y directas), no el nombre. Revisión con datos después de 3 ediciones (12 nov, 26 nov, 10 dic): suscriptores nuevos, lectura y comentarios.
+
+## Aprobado (10 nov 2026)
+Sandra aprobó el esquema de la edición 2 (26 nov) y mover métricas a la edición 3 (10 dic).
