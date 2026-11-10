@@ -1,9 +1,9 @@
 {
   "id": "mar-10-md",
-  "estado": "aprobado",
+  "estado": "publicado",
   "programado_bogota": "2026-11-10 12:30",
   "archivo_video": "contenido-linkedin/videos/tablero-ciudadano-pqrsdf.mp4",
-  "urn": null,
+  "urn": "urn:li:ugcPost:7525973313228111872",
   "primer_comentario": "Lo que más me gusta de este tablero: el ciudadano no tiene que llamar a preguntar cómo va su solicitud. La entidad ya sabe, antes que él, qué está por vencer.",
   "nota": "Aprobado por Sandra el 10 nov (texto, video, primer comentario, hoy 12:30). 10 nov 7:45: video re-cortado sin la portada (salía un nombre propio en el primer segundo); re-subido.",
   "payload": {
@@ -22,5 +22,6 @@
   "aprobado_el": "2026-11-10",
   "primer_comentario_aprobado_el": "2026-11-10",
   "titulo_video": "El tablero que ve el ciudadano",
-  "video": "urn:li:video:D4E10AQFzUoUgzHDGNQ"
+  "video": "urn:li:video:D4E10AQFzUoUgzHDGNQ",
+  "publicado_utc": "2026-11-10T17:31:04+00:00"
 }
