@@ -1,0 +1,80 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1920px;overflow:hidden;font-family:Inter,Arial,sans-serif;color:#e9eef3;
+ background:radial-gradient(900px 700px at 10% 0%,#13233a 0,transparent 60%),radial-gradient(900px 700px at 100% 100%,#2a0b0e 0,transparent 60%),#05070a}
+.mono{font-family:"JetBrains Mono",monospace}
+.top{position:absolute;top:60px;left:60px;right:60px;display:flex;justify-content:space-between;align-items:center;font:800 24px/1 "JetBrains Mono";letter-spacing:.18em}
+.top .ring{display:inline-block;width:22px;height:22px;border-radius:50%;border:5px solid #ff2d2d;vertical-align:-4px;margin-right:12px}
+.demo{color:#ffb020}
+.hook{position:absolute;top:130px;left:60px;right:60px;transition:opacity .6s}
+.hook h1{font-family:Georgia,serif;font-weight:400;font-size:84px;line-height:1.04}
+em{font-style:normal;background:linear-gradient(90deg,#ff2d2d,#ffb020);-webkit-background-clip:text;background-clip:text;color:transparent}
+/* app window */
+.win{position:absolute;left:50px;right:50px;top:440px;height:1340px;border-radius:30px;background:#0c1118;border:1px solid #1f2b38;box-shadow:0 40px 90px rgba(0,0,0,.5);overflow:hidden}
+.bar{height:64px;display:flex;align-items:center;gap:12px;padding:0 24px;background:#0e151e;border-bottom:1px solid #1f2b38;font:700 22px/1 "JetBrains Mono";color:#9aa6b2}
+.dot{width:14px;height:14px;border-radius:50%;background:#2a3847}
+.cols{display:grid;grid-template-columns:1fr;height:calc(100% - 64px)}
+.agent{padding:26px 28px;border-bottom:1px solid #1f2b38;height:470px}
+.agent .who{font:800 22px/1 "JetBrains Mono";letter-spacing:.14em;color:#ff4d4d;margin-bottom:16px}
+.ask{background:#151e29;border:1px solid #2a3a4c;border-radius:18px;padding:16px 20px;font-size:30px;line-height:1.35;margin-bottom:16px}
+.steps{display:grid;gap:10px}
+.st{display:flex;justify-content:space-between;align-items:center;font-size:29px;padding:12px 18px;border-radius:14px;background:#0f1620;border:1px solid #1c2633;opacity:.25;transition:opacity .4s}
+.st.on{opacity:1}.st b{font:700 20px/1 "JetBrains Mono";color:#19e28b}
+.net{padding:26px 28px;position:relative}
+.prof{display:flex;gap:22px;align-items:center;background:#111923;border:1px solid #233142;border-radius:22px;padding:22px}
+.av{width:110px;height:110px;border-radius:50%;background:linear-gradient(135deg,#3a4b5e,#1b2633);display:grid;place-items:center;font:800 40px/1 Inter;color:#c4cfda;flex:none}
+.blur{filter:blur(9px)}.prof h3{font-size:36px}.prof p{font-size:25px;color:#9aa6b2;margin-top:6px}
+.card{margin-top:22px;background:#111923;border:1px solid #233142;border-radius:22px;padding:22px;opacity:0;transform:translateY(20px);transition:all .5s}
+.card.on{opacity:1;transform:none}
+.card .lbl{font:800 20px/1 "JetBrains Mono";letter-spacing:.14em;color:#ffb020;margin-bottom:12px;display:flex;justify-content:space-between}
+.txt{font-size:31px;line-height:1.4;min-height:120px;white-space:pre-wrap}
+.cnt{color:#19e28b}
+.btns{display:flex;gap:16px;margin-top:18px}
+.btn{font:800 24px/1 "JetBrains Mono";padding:18px 26px;border-radius:999px;border:2px solid #2a3a4c;color:#9aa6b2}
+.btn.ok{border-color:#ff2d2d;color:#fff;background:linear-gradient(90deg,#c00000,#7a0f16)}
+.btn.press{transform:scale(.94);box-shadow:0 0 0 8px rgba(255,45,45,.25)}
+.sent{align-self:center;margin-left:8px;font:800 30px/1 "JetBrains Mono";letter-spacing:.1em;color:#19e28b;opacity:0;transition:opacity .5s}
+.foot{position:absolute;bottom:60px;left:60px;right:60px;text-align:center;font:700 24px/1.4 "JetBrains Mono";letter-spacing:.14em;color:#9aa6b2}
+.end{position:absolute;inset:0;background:#05070a;display:flex;flex-direction:column;justify-content:center;padding:0 90px;opacity:0;transition:opacity .8s}
+.end h1{font-family:Georgia,serif;font-weight:400;font-size:120px;line-height:1.02}
+</style></head><body>
+<div class="top"><span><span class="ring"></span>IAM™</span><span class="demo">DEMO SIMULADA</span></div>
+<div class="hook" id="hook"><h1>Tu agente prospecta. <em>Tú solo apruebas.</em></h1></div>
+<div class="win">
+ <div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span>&nbsp; RED PROFESIONAL · SIMULADA</div>
+ <div class="cols">
+  <div class="agent"><p class="who">✶ AGENTE CON CLAUDE</p>
+   <div class="ask" id="ask"></div>
+   <div class="steps">
+    <div class="st" id="s1">Leyendo el perfil <b>✓</b></div>
+    <div class="st" id="s2">Buscando un punto en común <b>✓</b></div>
+    <div class="st" id="s3">Nota de invitación ≤ 200 caracteres <b>✓</b></div>
+    <div class="st" id="s4">Esperando tu aprobación <b style="color:#ffb020">●</b></div>
+   </div></div>
+  <div class="net">
+   <div class="prof"><div class="av"><span class="blur">LM</span></div><div><h3 class="blur">Laura Méndez</h3><p>Gerente Comercial · <span class="blur">Empresa Demo S.A.S.</span></p></div></div>
+   <div class="card" id="c1"><p class="lbl"><span>PUNTO EN COMÚN</span></p><div class="txt" id="t1" style="min-height:70px"></div></div>
+   <div class="card" id="c2"><p class="lbl"><span>NOTA DE INVITACIÓN</span><span class="cnt" id="cnt">0 / 200</span></p><div class="txt" id="t2"></div>
+    <div class="btns"><span class="btn ok" id="ap">✓ APROBAR</span><span class="btn">EDITAR</span><span class="sent" id="sent">✓ ENVIADA</span></div></div>
+  </div>
+ </div>
+</div>
+<p class="foot">HECHO CON CLAUDE · PERFILES Y DATOS FICTICIOS</p>
+<div class="end" id="end"><p class="mono" style="font-size:32px;letter-spacing:.24em;color:#ff2d2d;font-weight:800">⭕ IAM™ · DEMO SIMULADA</p>
+ <h1 style="margin-top:30px">El agente propone. <em>Tú apruebas.</em></h1>
+ <p class="mono" style="margin-top:40px;font-size:30px;letter-spacing:.16em;color:#9aa6b2">SANDRA CURVELO · IAM™</p></div>
+<script>
+const $=id=>document.getElementById(id);
+const type=(el,s,ms,cb,cnt)=>{let i=0;const t=setInterval(()=>{el.textContent=s.slice(0,++i);if(cnt)cnt.textContent=i+' / 200';if(i>=s.length){clearInterval(t);cb&&cb()}},ms)};
+const ASK="Prepara la invitación para conectar con este perfil, con una nota de máximo 200 caracteres. No envíes nada sin mi aprobación.";
+const MAIL="Lidera un equipo comercial y publicó sobre productividad con IA.";
+const NOTE="Leí tu publicación sobre productividad con IA en equipos comerciales. Trabajo en eso con equipos de ventas y me encantaría conectar e intercambiar ideas.";
+setTimeout(()=>type($('ask'),ASK,28),900);
+setTimeout(()=>$('s1').classList.add('on'),4200);
+setTimeout(()=>{$('s2').classList.add('on');$('c1').classList.add('on');type($('t1'),MAIL,22)},5200);
+setTimeout(()=>{$('s3').classList.add('on');$('c2').classList.add('on');$('t2').innerHTML='Hola, <span class="blur">Laura</span>. <span id="t2b"></span>';const c=$('cnt');type($('t2b'),NOTE,24,null,{set textContent(v){c.textContent=(parseInt(v)+13)+' / 200'}})},9800);
+setTimeout(()=>$('s4').classList.add('on'),14300);
+setTimeout(()=>$('ap').classList.add('press'),15800);
+setTimeout(()=>{$('ap').classList.remove('press');$('sent').style.opacity=1;$('s4').querySelector('b').textContent='✓';$('s4').querySelector('b').style.color='#19e28b'},16300);
+setTimeout(()=>$('end').style.opacity=1,19000);
+</script></body></html>
