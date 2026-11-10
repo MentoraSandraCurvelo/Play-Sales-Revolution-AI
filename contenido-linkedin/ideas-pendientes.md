@@ -41,3 +41,12 @@
 ## Videos de Instagram para LinkedIn (aprobado por Sandra, 8 nov 2026)
 - Gorra roja (videos/ventas-borrador.mp4): cambiar la lámina final "IA SIN RODEOS · Comenta VENTA" por la marca de LinkedIn; revisar la notificación de Instagram. Semana del 16, al mediodía.
 - Gorra negra (videos/agente-borrador.mp4): el audio pide "CONECTA"; Chrome responde con el link del tablero. Cambiar la lámina final de "mensaje directo". Semana del 16, al mediodía.
+
+## Guía "La semana del vendedor con IA" (idea de Sandra, 10 nov 2026) · PRIORIDAD
+- Guía descargable (PDF) con la semana de un vendedor que trabaja con agentes de IA, de lunes a viernes. Ataca 2 dolores que Sandra siempre nombra: el síndrome de la hoja en blanco del lunes y el ghosting después de enviar la propuesta.
+- Lunes, agente de pipeline: revisa el CRM, resume pipeline y forecast, marca negocios en riesgo y propone las 10 acciones de la semana.
+- Martes, agente de prospección: segmentación por industria, cuentas ideales, decisores en LinkedIn e invitaciones con nota personal (la persona envía).
+- Miércoles, agente de correo: secuencias por segmento con el formato de la empresa; la persona revisa y envía.
+- Jueves, agente de contenido: publicaciones y comentarios de valor en posts de prospectos (social selling).
+- Viernes, agente anti-ghosting: propuestas sin respuesta, mensaje de reactivación con algo de valor nuevo; reporte semanal y preparación del lunes.
+- Secuencia propuesta: carrusel "comprar tiempo" (mié 18, el problema) → lanzamiento de la guía con palabra clave (vie 20, la solución) → newsletter ed. 2 (26 nov).

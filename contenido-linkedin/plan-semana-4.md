@@ -18,6 +18,6 @@ Mezcla: IA empresarial 8 (47%), ventas con IA y social selling 5 (29%), marca pr
 | Jue 19 | 5:30 | IA | Encuesta | ¿En qué invertirías las horas que te devuelve la IA? | Nuevo |
 | Vie 20 | 7:30 | IA | Texto + tablero | Piloto por área: así se ve la semana 1, la 5 y la 9 | Nuevo |
 | Vie 20 | 12:30 | IA | Video gorra negra | Agente que actualiza el CRM (cambiar lámina final) | Aprobado, falta lámina |
-| Vie 20 | 5:30 | Ventas | Texto | Tu CRM no se llena solo… o sí | Nuevo |
+| Vie 20 | 5:30 | Ventas + IA | Video o PDF | Lanzamiento de la guía "La semana del vendedor con IA" (idea de Sandra, 10 nov), con palabra clave | Nuevo, prioridad |
 | Sáb 21 | 9:00 | Marca | Foto Jürgen | Lo que aprendí con más de 1.500 mentoreados | Nuevo |
 | Dom 22 | 5:00 | Marca | Texto | Domingo: escribe el logro de tu semana, no la tarea | Nuevo |
