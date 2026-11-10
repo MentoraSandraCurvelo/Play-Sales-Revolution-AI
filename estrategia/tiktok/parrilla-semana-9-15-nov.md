@@ -17,4 +17,4 @@ Fuente: agenda real de Isaía (9 nov, 11:55 UTC). Regla: TikTok sale después de
 - Video IAE™ cuando Sandra lo grabe (teleprompter de Demetri) → TikTok también.
 
 ## Agregado 10 nov
-| Sáb 14 (propuesto) | IAE™ (2:08, video de Demetri) | Vie 13 en Instagram, jue 12 en LinkedIn | iae/ | Pendiente de Sandra (fecha y texto) |
+| Sáb 14 (propuesto) | IAE™ (2:08, video de Demetri) | Vie 13 en Instagram, jue 12 en LinkedIn | iae/ | Aprobado (10 nov) |
