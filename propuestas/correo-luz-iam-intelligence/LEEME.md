@@ -1,11 +1,10 @@
-# BRISA · Correo masivo IAM™ Intelligence
+# Correo masivo IAM™ Intelligence
 
 **Para:** Luz, aliada comercial IAM™ en Barranquilla.
 **Objetivo:** presentar IAM™ Intelligence y llevar a la persona a agendar la sesión exploratoria en Calendly.
-**Por qué "Brisa":** la brisa de Barranquilla, el correo que llega fresco a la bandeja.
 
 ## Archivo
-`brisa-correo.html`, HTML para correo (tablas, estilos en línea, 600 px, botón que funciona aunque se bloqueen las imágenes).
+`correo-iam-intelligence.html`, HTML para correo (tablas, estilos en línea, 600 px, botón que funciona aunque se bloqueen las imágenes).
 
 ## Antes de enviar, reemplaza
 - `{{nombre}}` por la etiqueta de nombre de la herramienta (Mailchimp usa `*|FNAME|*`, Brevo usa `{{ contact.FIRSTNAME }}`; verifícalo en la herramienta que use Luz).
@@ -20,4 +19,4 @@ C) IA que se mide en horas recuperadas, no en promesas
 **Preheader:** Te presento IAM™ Intelligence. Agenda una sesión exploratoria sin costo con Sandra Curvelo.
 
 ## Medición
-El botón lleva UTM `utm_medium=brisa&utm_campaign=iam_intelligence_barranquilla` para saber en Calendly cuántas citas vienen de Luz.
+El botón lleva UTM `utm_medium=correo_luz&utm_campaign=iam_intelligence_barranquilla` para saber en Calendly cuántas citas vienen de Luz.

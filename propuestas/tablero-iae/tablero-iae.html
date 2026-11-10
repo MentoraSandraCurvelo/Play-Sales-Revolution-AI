@@ -1,0 +1,335 @@
+<title>Tablero IAE™</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: sala de control. Barra de mando (sector + semana), índice global con su curva a la izquierda, ranking de áreas que sube y baja a la derecha, lectura automática y CTA abajo. Estética IAM™: negro, rojo #C00000, Playfair + Outfit. Un solo look oscuro, elegido a propósito. */
+:root{
+  --bg:#0A0A0A; --panel:#121212; --panel-2:#181818; --line:#262626;
+  --fg:#F4F4F4; --muted:#9A9A9A; --dim:#5E5E5E;
+  --red:#C00000; --red-hi:#FF3B3B; --red-deep:#8B0000;
+  --up:#3DDC97; --down:#FF5A5A; --flat:#B8B8B8;
+  --display:'Playfair Display',Georgia,serif;
+  --body:'Outfit',Arial,Helvetica,sans-serif;
+  --mono:'JetBrains Mono',ui-monospace,Menlo,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 40px}
+.wrap{max-width:1180px;margin:0 auto;display:grid;gap:18px}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--red-hi);outline-offset:2px}
+
+/* Cabecera */
+.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:14px;border-bottom:1px solid var(--line);padding-bottom:16px}
+.brand{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.wm{font-family:var(--display);font-weight:900;font-size:38px;line-height:1;letter-spacing:-1px}
+.wm sup{font-size:12px;vertical-align:top;position:relative;top:4px;letter-spacing:0}
+.line-tag{font-weight:600;font-size:12px;letter-spacing:3px;color:var(--red-hi);text-transform:uppercase}
+.top h1{font-family:var(--display);font-weight:900;font-size:clamp(24px,3.4vw,34px);line-height:1.1;margin:8px 0 0;text-wrap:balance}
+.top h1 span{color:var(--red-hi)}
+.demo{display:inline-flex;align-items:center;gap:8px;font-size:12px;color:var(--muted);border:1px solid var(--line);padding:6px 10px;border-radius:999px}
+.demo i{width:8px;height:8px;border-radius:50%;background:var(--red-hi);box-shadow:0 0 0 0 rgba(255,59,59,.6);animation:pulse 1.8s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 8px rgba(255,59,59,0)}100%{box-shadow:0 0 0 0 rgba(255,59,59,0)}}
+
+/* Mando */
+.controls{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+.seg{display:inline-flex;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:3px}
+.seg button{font:600 14px var(--body);color:var(--muted);background:none;border:0;padding:9px 16px;border-radius:4px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--red);color:#fff}
+.timeline{display:flex;align-items:center;gap:12px;flex:1;min-width:260px;max-width:560px}
+.play{flex:none;width:40px;height:40px;border-radius:50%;border:1px solid var(--red);background:transparent;color:var(--fg);cursor:pointer;display:grid;place-items:center}
+.play:hover{background:var(--red)}
+.play svg{width:14px;height:14px;fill:currentColor}
+input[type=range]{flex:1;accent-color:var(--red);min-width:0}
+.wk{font-family:var(--mono);font-size:13px;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+.wk b{color:var(--fg);font-weight:500}
+
+/* Grid principal */
+.main{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:18px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:20px;min-width:0}
+.eyebrow{font-size:11px;font-weight:600;letter-spacing:2.4px;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+
+/* Índice global */
+.score{display:flex;align-items:flex-end;gap:14px;flex-wrap:wrap}
+.score .n{font-family:var(--display);font-weight:900;font-size:clamp(72px,10vw,110px);line-height:.85;font-variant-numeric:tabular-nums;letter-spacing:-2px}
+.score .of{font-size:15px;color:var(--muted);padding-bottom:8px}
+.chip{display:inline-flex;align-items:center;gap:4px;font:500 13px var(--mono);padding:4px 9px;border-radius:999px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.chip.up{background:rgba(61,220,151,.12);color:var(--up)}
+.chip.down{background:rgba(255,90,90,.12);color:var(--down)}
+.chip.flat{background:rgba(184,184,184,.12);color:var(--flat)}
+.kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:18px}
+.kpi{border-top:2px solid var(--red);padding-top:8px}
+.kpi .v{font-family:var(--display);font-weight:900;font-size:26px;line-height:1.1;font-variant-numeric:tabular-nums}
+.kpi .l{font-size:12px;color:var(--muted);line-height:1.35}
+.chart{margin-top:18px}
+.chart svg{width:100%;height:auto;display:block}
+.chart text{font-family:var(--mono);font-size:10px;fill:var(--dim)}
+
+/* Ranking de áreas */
+.rank{display:grid;gap:8px}
+.row{display:grid;grid-template-columns:22px minmax(0,1.3fr) minmax(0,2fr) 44px 66px;align-items:center;gap:10px;padding:8px 10px;border-radius:6px;background:var(--panel-2);transition:transform .5s ease}
+.row .pos{font-family:var(--mono);font-size:12px;color:var(--dim);text-align:right}
+.row .name{font-weight:500;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar{height:10px;background:#222;border-radius:5px;overflow:hidden;position:relative}
+.bar i{position:absolute;inset:0 auto 0 0;background:linear-gradient(90deg,var(--red-deep),var(--red-hi));border-radius:5px;transition:width .7s cubic-bezier(.4,0,.2,1)}
+.row .val{font-family:var(--mono);font-size:14px;text-align:right;font-variant-numeric:tabular-nums}
+.row .chip{justify-content:center}
+.row.alert{box-shadow:inset 3px 0 0 var(--down)}
+.row.star{box-shadow:inset 3px 0 0 var(--up)}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:12px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:10px;height:10px;border-radius:2px;display:inline-block}
+
+/* Lectura + CTA */
+.bottom{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:18px}
+.read ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.read li{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:start;font-size:15px}
+.read li b{font-weight:600}
+.dot{width:10px;height:10px;border-radius:50%;border:2.5px solid var(--red-hi);margin-top:6px}
+.cta{background:var(--red);border-color:var(--red);display:flex;flex-direction:column;justify-content:space-between;gap:14px}
+.cta h2{font-family:var(--display);font-weight:900;font-size:26px;line-height:1.15;margin:0;text-wrap:balance}
+.cta p{margin:0;color:#FFE3E3;font-size:14px}
+.btn{display:inline-block;background:#0A0A0A;color:#fff;text-decoration:none;font-weight:600;padding:14px 22px;border-radius:4px;text-align:center}
+.btn:hover{background:#000}
+.method{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.method div{border-left:2px solid var(--red);padding:4px 0 4px 12px}
+.method b{font-family:var(--display);font-size:18px;color:var(--red-hi);display:block}
+.method span{font-size:13px;color:var(--muted)}
+.foot{font-size:12px;color:var(--dim);display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:space-between;border-top:1px solid var(--line);padding-top:14px}
+
+@media (max-width:860px){
+  .main,.bottom{grid-template-columns:1fr}
+  .method{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:520px){
+  .row{grid-template-columns:minmax(0,1fr) 40px 62px;row-gap:6px}
+  .row .pos{display:none}
+  .row .bar{grid-column:1 / -1;grid-row:2}
+  .kpis{grid-template-columns:1fr 1fr 1fr}
+  .kpi .v{font-size:20px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="brand"><div class="wm">IAM<sup>™</sup></div><div class="line-tag">Intelligence</div></div>
+      <h1>IAE™ · Índice de IA Empresarial. <span>Mira qué área sube y cuál se queda.</span></h1>
+    </div>
+    <div class="demo"><i></i>Demostración con datos simulados</div>
+  </header>
+
+  <div class="controls">
+    <div class="seg" role="group" aria-label="Sector">
+      <button id="b-privado" type="button" aria-pressed="true">Sector privado</button>
+      <button id="b-publico" type="button" aria-pressed="false">Sector público</button>
+    </div>
+    <div class="timeline">
+      <button class="play" id="play" type="button" aria-label="Reproducir 12 semanas"><svg viewBox="0 0 14 14" id="ico"><path d="M2 1l11 6-11 6z"/></svg></button>
+      <input type="range" id="week" min="1" max="12" step="1" value="12" aria-label="Semana del programa">
+      <div class="wk">Semana <b id="wkn">12</b> de 12</div>
+    </div>
+  </div>
+
+  <section class="main">
+    <div class="panel">
+      <p class="eyebrow" id="orgname">IAE™ global · Empresa demo</p>
+      <div class="score">
+        <div class="n" id="gscore">0</div>
+        <div class="of">/ 100</div>
+        <div class="chip up" id="gdelta">▲ 0</div>
+      </div>
+      <div class="kpis">
+        <div class="kpi"><div class="v" id="k-hrs">0</div><div class="l">horas recuperadas esta semana</div></div>
+        <div class="kpi"><div class="v" id="k-adop">0%</div><div class="l">del equipo usa IA cada semana</div></div>
+        <div class="kpi"><div class="v" id="k-acc">0</div><div class="l">horas acumuladas del programa</div></div>
+      </div>
+      <div class="chart" id="chart" aria-label="Evolución del IAE global por semana"></div>
+    </div>
+
+    <div class="panel">
+      <p class="eyebrow">Ranking de áreas · cambio vs. semana anterior</p>
+      <div class="rank" id="rank"></div>
+      <div class="legend">
+        <span><i style="background:var(--up)"></i>Área líder de la semana</span>
+        <span><i style="background:var(--down)"></i>Área que baja: requiere refuerzo</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="bottom">
+    <div class="panel read">
+      <p class="eyebrow">Lectura de la semana · lo que haría la gerencia</p>
+      <ul id="read"></ul>
+    </div>
+    <div class="panel cta">
+      <div>
+        <p class="eyebrow" style="color:#FFD0D0">Tu tablero real</p>
+        <h2 id="cta-h">¿Cuánto marcaría tu empresa hoy?</h2>
+      </div>
+      <p>En una sesión exploratoria sin costo, Sandra Curvelo revisa contigo qué áreas pueden subir primero y cómo medirlas cada semana.</p>
+      <a class="btn" id="cta" target="_blank" rel="noopener" href="https://calendly.com/sandracurvelo-mentoraventasdigitales-ia/sesio-exploratoria-ventas-digitales-con-ia?utm_source=tablero&utm_medium=pulso&utm_campaign=iam_intelligence">Agendar mi sesión exploratoria →</a>
+    </div>
+  </section>
+
+  <section class="panel">
+    <p class="eyebrow">Cómo se instala · Método DIAL-3R™</p>
+    <div class="method">
+      <div><b>Diagnosticar</b><span>Qué áreas pierden más horas y dónde la IA rinde primero.</span></div>
+      <div><b>Instruir</b><span>Cada rol aprende con plantillas propias, no con tutoriales.</span></div>
+      <div><b>Aplicar</b><span>La IA entra a los procesos reales del día a día.</span></div>
+      <div><b>Liberar</b><span>Las horas recuperadas se miden con el IAE™ cada semana.</span></div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <span>Demostración con datos simulados. El tablero real se construye con los datos de tu organización.</span>
+    <span>IAM™ · Sandra Curvelo, Founder &amp; CSO · iamlatam.co</span>
+  </footer>
+</div>
+
+<script>
+(function(){
+  var SECTORS={
+    privado:{org:'Empresa demo',cta:'¿Cuánto marcaría tu empresa hoy?',people:120,
+      areas:[['Comercial',22,84],['Servicio al cliente',25,78],['Marketing',30,81],['Finanzas',18,66],['Talento humano',16,61],['Operaciones',14,58],['Gerencia',20,72],['Jurídica',10,44]]},
+    publico:{org:'Entidad demo',cta:'¿Cuánto marcaría tu entidad hoy?',people:180,
+      areas:[['Atención al ciudadano',20,80],['Comunicaciones',26,79],['Planeación',18,70],['Gestión documental',12,68],['Contratación',14,60],['Talento humano',15,57],['Financiera y presupuesto',16,55],['Jurídica',9,42]]}
+  };
+  var W=12, sector='privado', week=12, timer=null, cache={};
+
+  function rng(seed){return function(){seed=(seed*16807)%2147483647;return (seed-1)/2147483646;};}
+  function build(key){
+    if(cache[key])return cache[key];
+    var s=SECTORS[key], r=rng(key==='privado'?7:13), out=[];
+    s.areas.forEach(function(a,i){
+      var vals=[], dipW=3+Math.floor(r()*8);
+      for(var w=1;w<=W;w++){
+        var t=(w-1)/(W-1), ease=1-Math.pow(1-t,1.6);
+        var v=a[1]+(a[2]-a[1])*ease+(r()-.5)*5;
+        if(w===dipW||w===dipW+1) v-=6+r()*5;          /* caída real: el área se estanca */
+        vals.push(Math.max(4,Math.min(96,Math.round(v))));
+      }
+      out.push({name:a[0],vals:vals,k:2.2+r()*1.6});
+    });
+    return cache[key]=out;
+  }
+  function g(areas,w){var s=0;areas.forEach(function(a){s+=a.vals[w-1];});return Math.round(s/areas.length);}
+  function hrs(areas,w){var s=0;areas.forEach(function(a){s+=a.vals[w-1]*a.k/10;});return Math.round(s);}
+  function fmt(n){return n.toLocaleString('es-CO');}
+  function chip(el,d){el.className='chip '+(d>0?'up':d<0?'down':'flat');el.textContent=(d>0?'▲ +':d<0?'▼ ':'● ')+d;}
+
+  function tween(el,to,suffix){
+    var from=parseFloat(el.dataset.v||'0'), t0=null, dur=matchMedia('(prefers-reduced-motion: reduce)').matches?0:600;
+    el.dataset.v=to;
+    if(!dur){el.textContent=fmt(to)+(suffix||'');return;}
+    function step(ts){if(!t0)t0=ts;var p=Math.min(1,(ts-t0)/dur);el.textContent=fmt(Math.round(from+(to-from)*p))+(suffix||'');if(p<1)requestAnimationFrame(step);}
+    requestAnimationFrame(step);
+  }
+
+  function drawChart(areas){
+    var w=520,h=170,pl=28,pr=12,pt=12,pb=24, series=[];
+    for(var i=1;i<=W;i++)series.push(g(areas,i));
+    var x=function(i){return pl+(i-1)*(w-pl-pr)/(W-1);}, y=function(v){return pt+(h-pt-pb)*(1-v/100);};
+    var s='<svg viewBox="0 0 '+w+' '+h+'" role="img">';
+    [0,25,50,75,100].forEach(function(v){s+='<line x1="'+pl+'" x2="'+(w-pr)+'" y1="'+y(v)+'" y2="'+y(v)+'" stroke="#222" stroke-width="1"/><text x="'+(pl-6)+'" y="'+(y(v)+3)+'" text-anchor="end">'+v+'</text>';});
+    var pts=series.slice(0,week).map(function(v,i){return x(i+1)+','+y(v);});
+    var ghost=series.map(function(v,i){return x(i+1)+','+y(v);});
+    s+='<polyline points="'+ghost.join(' ')+'" fill="none" stroke="#2E2E2E" stroke-width="2" stroke-dasharray="3 4"/>';
+    s+='<polygon points="'+x(1)+','+y(0)+' '+pts.join(' ')+' '+x(week)+','+y(0)+'" fill="rgba(192,0,0,.18)"/>';
+    s+='<polyline points="'+pts.join(' ')+'" fill="none" stroke="#FF3B3B" stroke-width="2.5" stroke-linejoin="round"/>';
+    s+='<circle cx="'+x(week)+'" cy="'+y(series[week-1])+'" r="5" fill="#FF3B3B" stroke="#0A0A0A" stroke-width="2"/>';
+    for(var k=1;k<=W;k+=1){ if(k===1||k%3===0) s+='<text x="'+x(k)+'" y="'+(h-6)+'" text-anchor="middle">S'+k+'</text>'; }
+    s+='</svg>';
+    document.getElementById('chart').innerHTML=s;
+  }
+
+  function render(){
+    var areas=build(sector), cfg=SECTORS[sector];
+    document.getElementById('wkn').textContent=week;
+    document.getElementById('week').value=week;
+    document.getElementById('orgname').textContent='IAE™ global · '+cfg.org;
+    document.getElementById('cta-h').textContent=cfg.cta;
+    var gs=g(areas,week), gp=week>1?g(areas,week-1):gs;
+    tween(document.getElementById('gscore'),gs);
+    chip(document.getElementById('gdelta'),gs-gp);
+    tween(document.getElementById('k-hrs'),hrs(areas,week));
+    var acc=0;for(var i=1;i<=week;i++)acc+=hrs(areas,i);
+    tween(document.getElementById('k-acc'),acc);
+    tween(document.getElementById('k-adop'),Math.min(92,Math.round(12+gs*0.95)),'%');
+    drawChart(areas);
+
+    var rows=areas.map(function(a){var v=a.vals[week-1],p=week>1?a.vals[week-2]:v;return {name:a.name,v:v,d:v-p};});
+    var sorted=rows.slice().sort(function(a,b){return b.v-a.v;});
+    var best=rows.slice().sort(function(a,b){return b.d-a.d;})[0];
+    var worst=rows.slice().sort(function(a,b){return a.d-b.d;})[0];
+    var rank=document.getElementById('rank');
+    if(!rank.children.length||rank.dataset.sector!==sector){
+      rank.innerHTML='';rank.dataset.sector=sector;
+      rows.forEach(function(r){
+        var el=document.createElement('div');el.className='row';el.dataset.name=r.name;
+        el.innerHTML='<div class="pos"></div><div class="name"></div><div class="bar"><i style="width:0"></i></div><div class="val"></div><div class="chip"></div>';
+        el.querySelector('.name').textContent=r.name;rank.appendChild(el);
+      });
+    }
+    var els={};Array.prototype.forEach.call(rank.children,function(el){els[el.dataset.name]=el;});
+    var first=Array.prototype.map.call(rank.children,function(el){return el.getBoundingClientRect().top;});
+    var before={};Array.prototype.forEach.call(rank.children,function(el,i){before[el.dataset.name]=first[i];});
+    sorted.forEach(function(r,i){
+      var el=els[r.name];rank.appendChild(el);
+      el.querySelector('.pos').textContent=i+1;
+      el.querySelector('.bar i').style.width=r.v+'%';
+      el.querySelector('.val').textContent=r.v;
+      chip(el.querySelector('.chip'),r.d);
+      el.classList.toggle('star',week>1&&r.name===best.name&&best.d>0);
+      el.classList.toggle('alert',week>1&&r.name===worst.name&&worst.d<0);
+    });
+    Array.prototype.forEach.call(rank.children,function(el){       /* FLIP: las filas se reordenan con movimiento */
+      var dy=(before[el.dataset.name]||0)-el.getBoundingClientRect().top;
+      if(dy&&!matchMedia('(prefers-reduced-motion: reduce)').matches){
+        el.style.transition='none';el.style.transform='translateY('+dy+'px)';
+        requestAnimationFrame(function(){el.style.transition='';el.style.transform='';});
+      }
+    });
+
+    var lead=sorted[0], h=hrs(areas,week), people=cfg.people;
+    var items=[];
+    if(week===1){items.push('<b>Semana 1:</b> línea base. Se mide el uso actual de IA por área antes de instalar el método.');}
+    else{
+      if(best.d>0)items.push('<b>'+best.name+' sube '+best.d+' puntos.</b> Su rutina con IA ya se sostiene; documentarla y replicarla en otras áreas.');
+      if(worst.d<0)items.push('<b>'+worst.name+' baja '+Math.abs(worst.d)+' puntos.</b> Alerta temprana: sesión de refuerzo antes de que el hábito se pierda.');
+      else items.push('<b>Ninguna área baja esta semana.</b> El ciclo Rutina, Resultado y Repetición está funcionando.');
+    }
+    items.push('<b>'+lead.name+' lidera con '+lead.v+'/100.</b> Es el área modelo para mostrar resultados a la dirección.');
+    items.push('<b>'+fmt(h)+' horas recuperadas esta semana</b> en un equipo simulado de '+people+' personas: tiempo que vuelve a '+(sector==='publico'?'la atención al ciudadano.':'vender y atender clientes.'));
+    document.getElementById('read').innerHTML=items.map(function(t){return '<li><span class="dot"></span><span>'+t+'</span></li>';}).join('');
+  }
+
+  function setSector(k,keepHash){
+    sector=k;
+    document.getElementById('b-privado').setAttribute('aria-pressed',k==='privado');
+    document.getElementById('b-publico').setAttribute('aria-pressed',k==='publico');
+    if(!keepHash){try{history.replaceState(null,'','#'+k);}catch(e){location.hash=k;}}
+    render();
+  }
+  function stop(){clearInterval(timer);timer=null;document.getElementById('ico').innerHTML='<path d="M2 1l11 6-11 6z"/>';}
+  function play(){
+    stop();if(week>=W)week=0;
+    document.getElementById('ico').innerHTML='<path d="M2 1h3.5v12H2zM8.5 1H12v12H8.5z"/>';
+    timer=setInterval(function(){week++;render();if(week>=W)stop();},1100);
+    week++;render();
+  }
+  document.getElementById('play').addEventListener('click',function(){timer?stop():play();});
+  document.getElementById('week').addEventListener('input',function(e){stop();week=+e.target.value;render();});
+  document.getElementById('b-privado').addEventListener('click',function(){setSector('privado');});
+  document.getElementById('b-publico').addEventListener('click',function(){setSector('publico');});
+  window.addEventListener('hashchange',function(){var h=location.hash.slice(1);if(SECTORS[h]&&h!==sector)setSector(h,true);});
+
+  var h0=location.hash.slice(1);
+  setSector(SECTORS[h0]?h0:'privado',true);
+  if(!matchMedia('(prefers-reduced-motion: reduce)').matches){setTimeout(function(){week=0;play();},1400);}
+})();
+</script>
