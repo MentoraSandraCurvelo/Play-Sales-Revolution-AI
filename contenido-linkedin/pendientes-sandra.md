@@ -15,11 +15,12 @@ Actualizado: 10 nov 2026, 7:15 a. m.
 - [Sandra] Fernando Barraza (Alcaldía de Cali): si respondió, enviar mensaje interno.
 
 ## Contenido por aprobar
-- 11 temas nuevos de la semana del 16 (plan-semana-4.md).
+- Textos 1, 2, 5, 6, 7, 8, 10 y 11 de la página de borradores (aprobados: 3 con su primer comentario, el carrusel 4 y el lanzamiento 9).
 - Carrusel "comprar tiempo" (mié 18, 7:30) y si se busca el dato de Salesforce.
-- Guía "La semana del vendedor con IA": palabra clave (SEMANA) y entrega por mensaje directo; video de lanzamiento.
-- Post "El vendedor que hace caso" (mar 17, 5:30): texto, primer comentario y si va en video.
+- Guía "La semana del vendedor con IA": aprobada y pública dentro del post (sin palabra clave). Falta decidir si además va como PDF descargable.
 - Fotos reales: las de SAP 2017 son de una cata de vinos de SAP Business One (Medellín, Seidor); Sandra no aparece clara. Preguntar su historia y buscar fotos donde salga ella.
 
-## Por grabar
-- Video de los 5 ajustes (mié 18, 12:30).
+## Videos por grabar (recordar siempre)
+- Nota de voz "El vendedor que hace caso" (mar 17, 5:30 p. m.): guion "Voz" en el teleprompter. Antes del sáb 14 para editar con subtítulos.
+- Video 5 ajustes (mié 18, 12:30 p. m.): guion "5 ajustes". Falta definir el ajuste 5 y la palabra clave.
+- Video guía "La semana del vendedor con IA" (vie 20, 5:30 p. m.): guion "Video guía". Pantalla dividida con la guía arriba. Antes del mié 18.

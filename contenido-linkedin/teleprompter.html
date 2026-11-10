@@ -37,6 +37,8 @@ body{background:var(--bg);color:var(--fg);font-family:var(--f)}
   <select id="pick" aria-label="Guion">
     <option value="iae">Video IAE™ (índice)</option>
     <option value="ajustes">Video 5 ajustes</option>
+    <option value="guia">Video guía: semana del vendedor con IA</option>
+    <option value="voz">Voz: el vendedor que hace caso</option>
   </select>
   <button id="play" type="button">▶ Iniciar</button>
   <button id="top" type="button">Inicio</button>
@@ -68,7 +70,24 @@ body{background:var(--bg);color:var(--fg);font-family:var(--f)}
 <p>Cinco: programa las tareas que se hacen solas. <span class="fill">[por confirmar]</span></p>
 <p><span class="cue">Consejo</span>No tienes que activar los 5 hoy. Empieza con uno.</p>
 <p><span class="cue">Empresas</span>Y si lo vas a llevar a tu empresa, hazlo con licencias empresariales y reglas claras. Tu información lo vale.</p>
-<p><span class="cue">Cierre · a cámara</span>Comenta <span class="fill">[palabra clave]</span> y te dejo la guía.</p>`
+<p><span class="cue">Cierre · a cámara</span>Comenta <span class="fill">[palabra clave]</span> y te dejo la guía.</p>`,
+    guia:`<p><span class="cue">Gancho · a cámara</span>Llega el lunes, abres el computador y piensas: ¿y ahora yo qué hago?</p>
+<p><span class="cue">El problema</span>Eso tiene nombre: el síndrome de la hoja en blanco. Y el viernes llega el otro: el cliente que dejó de responder después de la propuesta.</p>
+<p><span class="cue">La guía · arriba se ve cada día</span>Por eso armé esta guía: la semana de un vendedor que trabaja con inteligencia artificial.</p>
+<p>Lunes: el agente revisa tu CRM, tu pipeline y tu forecast, y te dice tus 10 acciones de la semana.</p>
+<p>Martes: segmenta por industria y te encuentra los prospectos ideales en LinkedIn.</p>
+<p>Miércoles: te deja listos los correos por segmento, para que los revises y los envíes.</p>
+<p>Jueves: prepara tu publicación y tus comentarios de la semana.</p>
+<p>Viernes: reactiva las propuestas sin respuesta y te deja listo el lunes.</p>
+<p><span class="cue">La regla</span>La inteligencia artificial prepara. Tú decides y envías.</p>
+<p><span class="cue">Cierre · a cámara</span>La guía completa está en este post. Guárdala y compártela con tu equipo comercial.</p>`,
+    voz:`<p><span class="cue">Solo voz · graba una nota de voz en un lugar sin eco</span>Le pidieron una propuesta. La envió el mismo día, con el precio que le pidieron. Y perdió. O peor: ganó sin rentabilidad.</p>
+<p>En las mentorías con equipos comerciales siempre hago la misma pregunta antes de que alguien envíe una cotización: ¿cuál es tu estrategia comercial?</p>
+<p>Casi siempre hay silencio. Nos acostumbramos a ser vendedores que hacen caso: el cliente dice "dame tu mejor precio" y salimos corriendo a bajarlo.</p>
+<p><span class="cue">Los 5 vectores · despacio</span>Antes de cotizar, en la reunión inicial, reviso 5 vectores. Uno, el presupuesto. Dos, los tomadores de decisión. Tres, la competencia. Cuatro, la forma de compra. Y cinco, el tiempo: para cuándo lo necesita de verdad.</p>
+<p>Si el cliente se quiere ir de su proveedor por mal servicio, tienes todas las de ganar. No lleves el mejor precio: lleva tu oferta de valor.</p>
+<p>Y el descuento llega al final, cuando el cliente negocia. Nunca regalado: si quieres este descuento, algo sale de la oferta, y lo tengo que pedir a gerencia.</p>
+<p><span class="cue">Cierre</span>Cuando la venta se vuelve una subasta, la empresa pierde rentabilidad. ¿Tu equipo cotiza con estrategia o porque se lo pidieron?</p>`
   };
   const stage=document.getElementById('stage'),box=document.getElementById('script'),
         pick=document.getElementById('pick'),play=document.getElementById('play'),
