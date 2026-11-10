@@ -9,10 +9,10 @@ Actualizado: 10 nov 2026, 7:15 a. m.
 
 ## Prospección (prioridad 1)
 - [Chrome] Lista de hasta 30 directivos de cámaras de comercio: pedida el 4 nov, sin entregar. Sandra debe escribir "rutina IAM" con Chrome abierto.
-- [Chrome] Reporte de conexiones, invitaciones y SSI: pedido el 10 nov.
+- [Sandra] Aprobar nota de invitación a Fernando Barraza (no están conectados).
+- [Sandra] 0 invitaciones enviadas en 7 días: aprobar ritmo de 15 al día cuando llegue la lista de cámaras.
 - [Chrome] Identificar directivos de ProBarranquilla y ProColombia: pedido el 10 nov.
 - [Sandra] Aprobar las plantillas de mensajes de prospección (pendientes desde el 3 nov).
-- [Sandra] Fernando Barraza (Alcaldía de Cali): si respondió, enviar mensaje interno.
 
 ## Contenido por aprobar
 - Textos 1, 2, 5, 6, 7, 8, 10 y 11 de la página de borradores (aprobados: 3 con su primer comentario, el carrusel 4 y el lanzamiento 9).

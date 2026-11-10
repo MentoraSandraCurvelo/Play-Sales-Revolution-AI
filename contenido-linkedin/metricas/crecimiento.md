@@ -7,6 +7,7 @@ Fuente de cada cifra: lo que Sandra o Claude en Chrome leyeron en LinkedIn. "Por
 | 28 oct 2026 | 7.453 | por confirmar (Chrome, Analíticas de la página, rango desde 28 oct) | por confirmar | métricas Chrome |
 | 3 nov 2026 | 7.461 | 105 (antes de las 200 invitaciones, pantallazo de Sandra) | 1.875 (Sandra) | Sandra / Chrome |
 | 9 nov 2026 | 7.474 | 122 | 1.881 | Chrome (Parte 3) |
+| 10 nov 2026 | 7.478 (6.407 conexiones, +14 en 7 días) | por confirmar | por confirmar | Chrome (reporte de red) |
 
 ## Metas
 - Perfil: 10.000 seguidores.
