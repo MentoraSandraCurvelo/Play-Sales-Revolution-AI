@@ -9,7 +9,7 @@ Mezcla: IA empresarial 8 (47%), ventas con IA y social selling 5 (29%), marca pr
 | Lun 16 | 5:30 | IA | Texto + imagen | Fase 2: recuperaste horas, ¿en qué las inviertes para que se vean en el EBITDA? (cumple la promesa del video del jueves 12) | Nuevo |
 | Mar 17 | 7:30 | Marca | Texto + foto | Títulos vs. logros: "Hice [qué] para [quién] y eso cambió [resultado]" (sin nombrar a Paola) | Nuevo |
 | Mar 17 | 12:30 | Ventas | Video panel | No es interrupción, es intención | Aprobado |
-| Mar 17 | 5:30 | IA | Carrusel | 5 tareas que cualquier área puede pasarle a la IA esta semana (la persona revisa y firma) | Nuevo |
+| Mar 17 | 5:30 | Ventas | Texto (o video de Sandra) | El vendedor que hace caso: los 5 vectores antes de cotizar (idea de Sandra, 10 nov; borrador en borradores/vendedor-que-hace-caso.md) | Borrador listo |
 | Mié 18 | 7:30 | Ventas + IA | Carrusel 7 láminas | Idea de Sandra (10 nov): los vendedores no necesitan otro curso de ventas, necesitan comprar tiempo. El tiempo se compra con IA y productividad | Nuevo, prioridad |
 | Mié 18 | 12:30 | IA | Video 5 ajustes | 5 ajustes para que Claude trabaje contigo | Falta grabar |
 | Mié 18 | 5:30 | IA | Imagen dato | La confianza también se mide: de 4,7 a 8,6 en 9 semanas | Nuevo |
@@ -21,3 +21,5 @@ Mezcla: IA empresarial 8 (47%), ventas con IA y social selling 5 (29%), marca pr
 | Vie 20 | 5:30 | Ventas + IA | Video o PDF | Lanzamiento de la guía "La semana del vendedor con IA" (idea de Sandra, 10 nov), con palabra clave | Nuevo, prioridad |
 | Sáb 21 | 9:00 | Marca | Foto Jürgen | Lo que aprendí con más de 1.500 mentoreados | Nuevo |
 | Dom 22 | 5:00 | Marca | Texto | Domingo: escribe el logro de tu semana, no la tarea | Nuevo |
+
+Pasa a la semana 5: carrusel "5 tareas que cualquier área puede pasarle a la IA" y la serie del vendedor estratega (plantilla 5 vectores, descuento con contrapartida, tu número).
