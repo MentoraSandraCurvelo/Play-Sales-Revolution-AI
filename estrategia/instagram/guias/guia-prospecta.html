@@ -1,0 +1,206 @@
+<title>Agente que prospecta</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=IBM+Plex+Sans:wght@400;600&family=JetBrains+Mono:wght@400;700&display=swap">
+<style>
+/* Terminal de Wall Street de una sola página: cinta arriba, portada, fichas de misión con botón Copiar, regla de oro y cierre. Diseño oscuro deliberado (estándar Claude Design de Sandra). */
+:root{
+  --bg:#05070a; --panel:#0c1118; --panel2:#111923; --line:#1f2b38;
+  --fg:#e9eef3; --muted:#9aa6b2; --dim:#6c7986;
+  --iam:#ff2d2d; --iam-deep:#c00000; --up:#19e28b; --amb:#ffb020; --down:#ff4d5e;
+  --serif:"Fraunces",Georgia,"Times New Roman",serif;
+  --sans:"IBM Plex Sans","Helvetica Neue",Arial,sans-serif;
+  --mono:"JetBrains Mono",Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:16px;line-height:1.55;
+  background-image:radial-gradient(900px 520px at 10% -5%,#13233a 0,transparent 60%),radial-gradient(800px 600px at 105% 30%,#2a0b0e 0,transparent 55%)}
+.mono{font-family:var(--mono)}
+.tape{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;overflow:hidden;white-space:nowrap;background:#07090d;border-bottom:1px solid var(--line);font-family:var(--mono);font-size:12px;letter-spacing:.08em;
+  mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:#07090d}
+.track{display:inline-flex;gap:32px;padding:10px 0}
+.track span b{color:var(--fg);font-weight:700}
+.up{color:var(--up)} .amb{color:var(--amb)} .down{color:var(--down)}
+.wrap{max-width:860px;margin:0 auto;padding-block:40px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:28px}
+.brandrow{display:flex;align-items:center;gap:12px;font-family:var(--mono);font-size:12px;letter-spacing:.16em;color:var(--muted)}
+.ring{width:18px;height:18px;border-radius:50%;border:4px solid var(--iam);box-shadow:0 0 14px var(--iam);flex:none}
+.eyebrow{margin:0;font-family:var(--mono);font-size:12px;letter-spacing:.22em;color:var(--iam);font-weight:700;text-transform:uppercase}
+h1{margin:6px 0 0;font-family:var(--serif);font-weight:400;font-size:clamp(36px,7vw,64px);line-height:1.02;letter-spacing:-.01em;text-wrap:balance}
+h1 em,h2 em{font-style:normal;background:linear-gradient(90deg,var(--iam),var(--amb));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{margin:0;max-width:62ch;color:#c4cfda;font-size:17px}
+.lead b{color:#fff}
+.how{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,13rem),1fr));gap:12px}
+.how div{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;font-size:14px;color:var(--muted)}
+.how b{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.16em;color:var(--amb);margin-bottom:4px}
+.how strong{color:var(--fg)}
+h2{margin:18px 0 0;font-family:var(--serif);font-weight:400;font-size:clamp(26px,4.4vw,36px);line-height:1.1;text-wrap:balance}
+.group{display:grid;gap:14px}
+.prompt{position:relative;background:linear-gradient(160deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:14px;overflow:hidden;transition:transform .25s,border-color .25s,box-shadow .25s;transform-style:preserve-3d}
+.prompt:hover{border-color:#2f3f52;box-shadow:0 18px 40px rgba(0,0,0,.45)}
+.p-head{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;padding:12px 16px;border-bottom:1px solid var(--line);background:#0e151e}
+.p-num{font-family:var(--mono);font-weight:700;color:var(--iam);font-size:15px}
+.p-title{font-weight:600;font-size:16px;min-width:0}
+.p-tag{margin-left:auto;font-family:var(--mono);font-size:11px;letter-spacing:.12em}
+.p-body{margin:0;padding:16px 18px 6px;font-family:var(--mono);font-size:14px;line-height:1.65;color:var(--fg);white-space:pre-wrap;overflow-wrap:anywhere}
+.p-body .fill{color:var(--amb)}
+.p-foot{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;padding:8px 18px 16px}
+.p-why{margin:0;flex:1 1 18rem;min-width:0;font-size:14px;color:var(--muted)}
+.p-why b{color:var(--fg)}
+.copy{font:700 12px/1 var(--mono);letter-spacing:.12em;color:var(--fg);background:transparent;border:1px solid var(--iam);border-radius:999px;padding:10px 16px;cursor:pointer;transition:background .2s,color .2s}
+.copy:hover{background:var(--iam);color:#fff}
+.copy:focus-visible{outline:2px solid var(--amb);outline-offset:3px}
+.copy.done{border-color:var(--up);color:var(--up);background:transparent}
+.rule{display:grid;gap:10px;background:linear-gradient(120deg,#1a0a0d,var(--panel));border:1px solid #4a1a20;border-radius:16px;padding:22px}
+.rule p{margin:0;color:#c4cfda;max-width:62ch}
+.rule b{color:#fff}
+.stage{position:relative;height:118px;margin-top:6px}
+.isaia{position:absolute;bottom:0;left:0;display:grid;justify-items:center;gap:6px;width:220px}
+.say{position:relative;background:#0b1118;border:1px solid #2a3847;border-radius:12px;padding:8px 12px;font-size:13px;line-height:1.35;width:220px;box-shadow:0 8px 20px rgba(0,0,0,.45)}
+.say::after{content:"";position:absolute;bottom:-6px;left:50%;width:10px;height:10px;background:#0b1118;border-right:1px solid #2a3847;border-bottom:1px solid #2a3847;transform:translateX(-50%) rotate(45deg)}
+.say p{margin:0}.say p[hidden]{display:none}
+.say b{color:var(--up)}
+.bot{width:42px;height:42px}
+.end{display:grid;gap:12px;text-align:left;border-top:1px solid var(--line);padding-top:24px}
+.end p{margin:0;color:#c4cfda;max-width:62ch}
+.end b{color:#fff}
+.sign{font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:var(--dim)}
+@media (prefers-reduced-motion:no-preference){
+  .track{animation:tape 40s linear infinite}
+  .isaia{animation:walk 20s ease-in-out infinite}
+  .bot{animation:bob .9s ease-in-out infinite}
+  .face{animation:face 20s steps(1) infinite;transform-box:fill-box;transform-origin:center}
+  .prompt{animation:rise .6s cubic-bezier(.2,.8,.2,1) both}
+  .say p:not([hidden]){animation:fade .4s ease-out}
+}
+@keyframes tape{to{transform:translateX(-50%)}}
+@keyframes walk{0%{left:0;transform:translateX(0)}50%{left:100%;transform:translateX(-100%)}100%{left:0;transform:translateX(0)}}
+@keyframes bob{50%{transform:translateY(-3px)}}
+@keyframes face{0%{transform:scaleX(1)}50%{transform:scaleX(-1)}}
+@keyframes rise{from{transform:translateY(10px)}to{transform:none}}
+@keyframes fade{from{opacity:.2}to{opacity:1}}
+</style>
+
+<div class="tape" aria-hidden="true"><div class="track">
+  <span><b>LINKEDIN</b> <span class="up">▲ PERFIL LEÍDO</span></span><span><b>PUNTO EN COMÚN</b> <span class="up">▲ ENCONTRADO</span></span><span><b>NOTA ≤ 200</b> <span class="amb">● LISTA</span></span><span><b>MENSAJE GENÉRICO</b> <span class="down">▼ EN BAJA</span></span><span><b>APROBACIÓN</b> <span class="amb">● SIEMPRE TÚ</span></span>
+  <span><b>LINKEDIN</b> <span class="up">▲ PERFIL LEÍDO</span></span><span><b>PUNTO EN COMÚN</b> <span class="up">▲ ENCONTRADO</span></span><span><b>NOTA ≤ 200</b> <span class="amb">● LISTA</span></span><span><b>MENSAJE GENÉRICO</b> <span class="down">▼ EN BAJA</span></span><span><b>APROBACIÓN</b> <span class="amb">● SIEMPRE TÚ</span></span>
+</div></div>
+
+<main class="wrap">
+  <div class="brandrow"><span class="ring"></span>SANDRA CURVELO · IAM™ · IA SIN RODEOS</div>
+  <header>
+    <p class="eyebrow">Tu agente ya construido · Comenta PROSPECTA</p>
+    <h1>Tu agente prospecta en LinkedIn. <em>Tú solo apruebas.</em></h1>
+  </header>
+  <p class="lead">Esto no es un PDF para leer: <b>es tu agente ya construido.</b> Lo copias, lo pegas en Claude en Chrome y empieza a trabajar contigo: lee el perfil, encuentra un punto en común y te prepara la invitación con una nota de máximo 200 caracteres. <b>Nada se envía sin tu aprobación.</b></p>
+
+  <div class="how">
+    <div><b>PASO 1</b><strong>Instala Claude en Chrome.</strong> La extensión de Claude para tu navegador.</div>
+    <div><b>PASO 2</b><strong>Pega tu agente.</strong> Copiar y pegar, una sola vez por sesión.</div>
+    <div><b>PASO 3</b><strong>Abre un perfil y dile "prepara la invitación".</strong> Y apruebas.</div>
+  </div>
+
+  <h2>Paso 1. <em>Instala Claude en Chrome.</em></h2>
+  <div class="how">
+    <div><b>DÓNDE</b><strong>Busca "Claude" en la tienda de extensiones de Chrome</strong> e instala la de Anthropic.</div>
+    <div><b>ENTRA</b><strong>Inicia sesión</strong> con tu cuenta de Claude.</div>
+    <div><b>ABRE</b><strong>Tu LinkedIn en otra pestaña</strong>, con tu sesión iniciada.</div>
+  </div>
+  <p class="lead" style="font-size:14px;color:var(--dim)">La disponibilidad de Claude en Chrome, sus menús y lo que permite pueden cambiar con las actualizaciones y según tu plan. LinkedIn limita las invitaciones y, según tu tipo de cuenta, las notas personalizadas: revisa tus límites y prospecta poco y bien, nunca en masa.</p>
+
+  <h2>Paso 2. <em>Pega tu agente.</em></h2>
+  <p class="lead">Abre el panel de Claude en Chrome y pega esto al empezar. Cambia lo que está en <span class="fill">[corchetes]</span>.</p>
+  <section class="group">
+    <article class="prompt"><div class="p-head"><span class="p-num">TU AGENTE</span><span class="p-title">Instrucciones del agente que prospecta</span><span class="p-tag amb">● COPIAR Y PEGAR</span></div>
+      <p class="p-body">Eres mi agente de prospección en LinkedIn. Trabajas en mi navegador, sobre la pestaña de LinkedIn que yo tenga abierta.
+Soy <span class="fill">[tu nombre]</span>, <span class="fill">[tu cargo]</span> en <span class="fill">[tu empresa]</span>. Ayudo a <span class="fill">[tu cliente ideal]</span> a <span class="fill">[el resultado que logras]</span>.
+
+Cuando te diga "prepara la invitación":
+1. Lee el perfil que tengo abierto: cargo, empresa, acerca de y sus publicaciones recientes.
+2. Encuentra un punto en común real (un tema que publicó, un logro, su sector) y muéstramelo en una línea.
+3. Redacta la nota de invitación: máximo 200 caracteres, en mi voz <span class="fill">[cercana y directa / ejecutiva]</span>, que mencione ese punto en común. Sin vender, sin enlaces y sin frases genéricas.
+4. Muéstrame la nota con su conteo de caracteres y espera mi respuesta.
+5. Solo si te digo "envíala", haz clic en Conectar, agrega la nota y envía.
+
+Reglas que no se rompen:
+· Nunca envías una invitación ni un mensaje sin mi "envíala".
+· Una invitación a la vez. Nada en masa.
+· Si LinkedIn muestra una alerta, un captcha o un límite, te detienes y me avisas.
+· Si no encuentras un punto en común real, me lo dices en vez de inventarlo.</p>
+      <div class="p-foot"><p class="p-why"><b>Por qué funciona:</b> el agente ya sabe quién eres, a quién le vendes y qué no puede hacer sin ti. Tú pones el criterio, él hace la investigación.</p><button class="copy" type="button">COPIAR</button></div></article>
+  </section>
+
+  <h2>Paso 3. <em>Ponlo a trabajar.</em></h2>
+  <p class="lead">Con el perfil abierto, usa estas misiones.</p>
+  <section class="group">
+    <article class="prompt"><div class="p-head"><span class="p-num">01</span><span class="p-title">Invitación con nota</span><span class="p-tag up">▲ DIARIO</span></div>
+      <p class="p-body">Prepara la invitación.</p>
+      <div class="p-foot"><p class="p-why"><b>Por qué funciona:</b> con tres palabras corre todo: leer el perfil, buscar el punto en común y redactar la nota.</p><button class="copy" type="button">COPIAR</button></div></article>
+
+    <article class="prompt"><div class="p-head"><span class="p-num">02</span><span class="p-title">¿Vale la pena este perfil?</span><span class="p-tag up">▲ VENTAS</span></div>
+      <p class="p-body">Antes de invitar, dime en 3 líneas si este perfil encaja con mi cliente ideal y por qué. Si no encaja, dímelo.</p>
+      <div class="p-foot"><p class="p-why"><b>Por qué funciona:</b> inviertes tus invitaciones solo en quien sí puede comprar.</p><button class="copy" type="button">COPIAR</button></div></article>
+
+    <article class="prompt"><div class="p-head"><span class="p-num">03</span><span class="p-title">Comentario antes de invitar</span><span class="p-tag amb">● CALIENTA</span></div>
+      <p class="p-body">Lee su última publicación y propónme un comentario de 2 líneas que aporte una idea, sin vender. Muéstramelo antes de publicarlo.</p>
+      <div class="p-foot"><p class="p-why"><b>Por qué funciona:</b> cuando llega tu invitación, ya te vio aportar en su publicación.</p><button class="copy" type="button">COPIAR</button></div></article>
+
+    <article class="prompt"><div class="p-head"><span class="p-num">04</span><span class="p-title">Mensaje después de aceptar</span><span class="p-tag amb">● SEGUIMIENTO</span></div>
+      <p class="p-body">Esta persona aceptó mi invitación. Propónme un primer mensaje de máximo 3 líneas que agradezca, retome el punto en común y deje una pregunta abierta. Sin vender todavía.</p>
+      <div class="p-foot"><p class="p-why"><b>Por qué funciona:</b> la conversación empieza por ella, no por tu producto.</p><button class="copy" type="button">COPIAR</button></div></article>
+  </section>
+
+  <section class="rule">
+    <p class="eyebrow">La regla de oro</p>
+    <h2 style="margin:0">El agente propone. <em>Tú apruebas.</em></h2>
+    <p>Ninguna invitación sale sin tu "envíala". <b>Lo que sale a tu nombre lleva tu criterio.</b></p>
+    <div class="stage" aria-label="Isaía, asistente de Sandra">
+      <div class="isaia">
+        <div class="say">
+          <p>Empieza con <b>"prepara la invitación"</b>.</p>
+          <p hidden>Nada se envía <b>sin tu "envíala"</b>.</p>
+          <p hidden>Una invitación a la vez, <b>nunca en masa</b>.</p>
+          <p hidden>Lo que está en <b>[corchetes]</b> lo cambias tú.</p>
+        </div>
+        <svg class="bot" viewBox="0 0 44 44" role="img" aria-label="Isaía"><g class="face">
+          <line x1="22" y1="3" x2="22" y2="9" stroke="#ff2d2d" stroke-width="2" stroke-linecap="round"/><circle cx="22" cy="3" r="2.5" fill="#ff2d2d"/>
+          <rect x="7" y="9" width="30" height="24" rx="9" fill="#1b2633" stroke="#3a4b5e" stroke-width="1.5"/><rect x="11" y="14" width="22" height="12" rx="5" fill="#06080b"/>
+          <circle cx="17" cy="20" r="2.4" fill="#19e28b"/><circle cx="27" cy="20" r="2.4" fill="#19e28b"/><circle cx="22" cy="38" r="5" fill="none" stroke="#ff2d2d" stroke-width="2.5"/></g></svg>
+      </div>
+    </div>
+  </section>
+
+  <footer class="end">
+    <p><b>¿Quieres que todo tu equipo comercial prospecte así en LinkedIn?</b> Escríbeme por mensaje directo en Instagram o en LinkedIn y lo conversamos.</p>
+    <p class="sign">⭕ SANDRA CURVELO · MENTORA EN VENTAS DIGITALES Y MARCA PROFESIONAL · @SANDRACURVELO_IAM</p>
+  </footer>
+</main>
+
+<script>
+(() => {
+  const calm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.prompt').forEach((card, i) => {
+    if (!calm) card.style.animationDelay = (i * 50) + 'ms';
+    if (calm) return;
+    card.addEventListener('pointermove', (e) => {
+      const r = card.getBoundingClientRect();
+      const x = (e.clientX - r.left) / r.width - .5, y = (e.clientY - r.top) / r.height - .5;
+      card.style.transform = `perspective(900px) rotateX(${(-y * 3).toFixed(2)}deg) rotateY(${(x * 4).toFixed(2)}deg)`;
+    });
+    card.addEventListener('pointerleave', () => { card.style.transform = ''; });
+  });
+  document.querySelectorAll('.copy').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const body = btn.closest('.prompt').querySelector('.p-body');
+      const text = body.innerText.trim();
+      const ok = () => { btn.textContent = 'COPIADO ✓'; btn.classList.add('done'); setTimeout(() => { btn.textContent = 'COPIAR'; btn.classList.remove('done'); }, 1800); };
+      const fallback = () => { const s = window.getSelection(), rg = document.createRange(); rg.selectNodeContents(body); s.removeAllRanges(); s.addRange(rg); btn.textContent = 'SELECCIONADO'; };
+      try { navigator.clipboard.writeText(text).then(ok, fallback); } catch (e) { fallback(); }
+    });
+  });
+  const lines = [...document.querySelectorAll('.say p')];
+  let ix = 0;
+  setInterval(() => { ix = (ix + 1) % lines.length; lines.forEach((p, i) => { p.hidden = i !== ix; }); }, 4500);
+})();
+</script>
