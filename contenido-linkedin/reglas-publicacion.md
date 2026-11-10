@@ -171,3 +171,7 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 ## 27. Oportunidades comerciales (10 nov 2026, decisión de Sandra)
 
 - En cada ronda Chrome reporta primero las convocatorias, licitaciones o publicaciones donde busquen consultor, conferencista, formador o proveedor en IA, ventas, marca, productividad o capacitación, incluso las cerradas hace menos de 15 días. Sandra pone sus servicios a disposición aunque la convocatoria haya cerrado.
+
+## 28. Nombre de Comfacesar en correos privados (10 nov 2026, decisión de Sandra)
+
+- En correos comerciales privados a prospectos se puede nombrar a Comfacesar como caso real. En publicaciones públicas sigue sin nombrarse.

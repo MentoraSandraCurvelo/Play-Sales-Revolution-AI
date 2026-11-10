@@ -1,9 +1,26 @@
 {
   "id": "mar-10-md",
-  "estado": "propuesta",
+  "estado": "aprobado",
   "programado_bogota": "2026-11-10 12:30",
   "archivo_video": "contenido-linkedin/videos/tablero-ciudadano-pqrsdf.mp4",
   "urn": null,
   "primer_comentario": "Lo que más me gusta de este tablero: el ciudadano no tiene que llamar a preguntar cómo va su solicitud. La entidad ya sabe, antes que él, qué está por vencer.",
-  "nota": "Propuesta del 10 nov: tablero ciudadano (centro de control PQRSDF) de la propuesta para una entidad pública, sin nombres. Sandra pidió publicarlo lo antes posible. Falta su sí al texto, video, primer comentario y hora."
+  "nota": "Aprobado por Sandra el 10 nov (texto, video, primer comentario, hoy 12:30).",
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "¿Sabes cuántas peticiones de los ciudadanos están a punto de vencerse hoy en tu entidad?\n\nEn muchas entidades nadie lo sabe hasta que llega la tutela.\n\nEste es el tablero que diseñé para que eso no pase: el centro de control de PQRSDF.\n\n⭕ Cada solicitud entra y la IA la clasifica y le calcula el plazo de la Ley 1755.\n⭕ El semáforo muestra cuántas están en término, cuántas por vencer y cuántas vencidas.\n⭕ Las alertas avisan lo que vence hoy y dónde hay riesgo de tutela.\n⭕ La IA propone el borrador. El servidor público revisa, decide y firma.\n\nLa meta: que ninguna PQRSDF se venza y que el cumplimiento de términos pase del 95%.\n\nLo que ves es una simulación con datos de ejemplo de cómo se ve el sistema funcionando.\n\n¿Tu entidad sabe hoy cuántas PQRSDF le vencen esta semana?\n\n{hashtag|\\#|GobiernoDigital} {hashtag|\\#|SectorPublico} {hashtag|\\#|IAEmpresarial} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
+  },
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-10",
+  "primer_comentario_aprobado_el": "2026-11-10",
+  "titulo_video": "El tablero que ve el ciudadano",
+  "video": "urn:li:video:D4E10AQH-L5czePs6Pw"
 }
