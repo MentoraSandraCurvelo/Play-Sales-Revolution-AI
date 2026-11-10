@@ -177,3 +177,9 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 ## 28. Nombre de Comfacesar en correos privados (10 nov 2026, decisión de Sandra)
 
 - En correos comerciales privados a prospectos se puede nombrar a Comfacesar como caso real. En publicaciones públicas sigue sin nombrarse.
+
+## 29. Notas de invitación (10 nov 2026)
+
+- Máximo 200 caracteres (límite de LinkedIn). Claude cuenta los caracteres antes de proponerla.
+- A Sandra le quedan pocas invitaciones con nota al mes (3 al 10 nov): se reservan para los prospectos más valiosos; al resto, comentar primero e invitar sin nota.
+- Antes de mandar o publicar un video, revisarlo fotograma por fotograma: nunca nombres de personas de equipos cliente ni de entidades.
