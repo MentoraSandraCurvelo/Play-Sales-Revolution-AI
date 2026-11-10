@@ -13,9 +13,12 @@ Actualizado: 10 nov 2026, 7:15 a. m.
 - [Sandra] Aprobar las plantillas de mensajes de prospección (pendientes desde el 3 nov).
 
 ## Contenido por aprobar
-- Textos 1, 2, 5, 6, 7, 8, 10 y 11 de la página de borradores (aprobados: 3 con su primer comentario, el carrusel 4 y el lanzamiento 9).
+- (Claude) Hacer imágenes y mostrarlas: lun-16-pm, mie-18-pm, vie-20-am; elegir fotos para mar-17-am y sab-21; diseñar el carrusel mie-18-am (textos aprobados el 10 nov).
+- (Claude) Proponer primeros comentarios de los 8 posts aprobados el 10 nov.
+- (Claude) Guía en PDF "La semana del vendedor con IA" para la newsletter del 26 nov (aprobado el 10 nov).
+- (Claude) Desde la semana 5: 2 posts al mes de IA en el sector público (aprobado el 10 nov).
 - Carrusel "comprar tiempo" (mié 18, 7:30) y si se busca el dato de Salesforce.
-- Guía "La semana del vendedor con IA": aprobada y pública dentro del post (sin palabra clave). Falta decidir si además va como PDF descargable.
+- Guía "La semana del vendedor con IA": aprobada, pública dentro del post y en PDF para la newsletter del 26.
 - Fotos reales: las de SAP 2017 son de una cata de vinos de SAP Business One (Medellín, Seidor); Sandra no aparece clara. Preguntar su historia y buscar fotos donde salga ella.
 
 ## Videos por grabar (recordar siempre)
