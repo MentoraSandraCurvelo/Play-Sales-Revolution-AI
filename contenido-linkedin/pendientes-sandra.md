@@ -3,11 +3,11 @@
 Actualizado: 10 nov 2026, 7:15 a. m.
 
 ## Automatización (urgente, 10 nov)
-- [Sandra] Crear en la app de escritorio de Claude (Cowork) la tarea programada "rutina IAM" a las 7:35 a. m. y 5:35 p. m., con el texto que le dio Demetri. Computador encendido y Chrome abierto con LinkedIn.
+- [Sandra] Tarea programada "rutina IAM" creada en Cowork el 10 nov (según Sandra). Verificar en la lista de programadas la próxima ejecución; prueba real: 5:35 p. m. del 10 nov.
 
 ## Prospección (prioridad 1)
 - [Chrome] Lista de hasta 30 directivos de cámaras de comercio: pedida el 4 nov, sin entregar. Sandra debe escribir "rutina IAM" con Chrome abierto.
-- [Sandra] Aprobar nota de invitación a Fernando Barraza (no están conectados).
+- [Chrome] Enviar invitación a Fernando Barraza con la nota aprobada (10 nov); confirmar envío.
 - [Sandra] 0 invitaciones enviadas en 7 días: aprobar ritmo de 15 al día cuando llegue la lista de cámaras.
 - [Chrome] Identificar directivos de ProBarranquilla y ProColombia: pedido el 10 nov.
 - [Sandra] Aprobar las plantillas de mensajes de prospección (pendientes desde el 3 nov).

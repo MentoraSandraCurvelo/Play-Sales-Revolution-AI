@@ -1,0 +1,16 @@
+¿Sabes cuántas peticiones de los ciudadanos están a punto de vencerse hoy en tu entidad?
+
+En muchas entidades nadie lo sabe hasta que llega la tutela.
+
+Este es el tablero que diseñé para que eso no pase: el centro de control de PQRSDF.
+
+⭕ Cada solicitud entra y la IA la clasifica y le calcula el plazo de la Ley 1755.
+⭕ El semáforo muestra cuántas están en término, cuántas por vencer y cuántas vencidas.
+⭕ Las alertas avisan lo que vence hoy y dónde hay riesgo de tutela.
+⭕ La IA propone el borrador. El servidor público revisa, decide y firma.
+
+La meta: que ninguna PQRSDF se venza y que el cumplimiento de términos pase del 95%.
+
+Lo que ves es una simulación con datos de ejemplo de cómo se ve el sistema funcionando.
+
+¿Tu entidad sabe hoy cuántas PQRSDF le vencen esta semana?
