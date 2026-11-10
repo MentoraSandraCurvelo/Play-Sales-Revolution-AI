@@ -8,7 +8,7 @@ f=os.path.join(REPO,q['archivo_video']); n=os.path.getsize(f)
 H=['-H','Content-Type: application/json','-H','LinkedIn-Version: 202601','-H','X-Restli-Protocol-Version: 2.0.0']
 def post(url,body):
     r=subprocess.run(['curl','-sS','-X','POST',url,*H,'--data',json.dumps(body)],capture_output=True,text=True); return r.stdout
-init=json.loads(post('https://api.linkedin.com/rest/videos?action=initializeUpload',{"initializeUploadRequest":{"owner":"urn:li:person:tsJbwdb3B2","fileSizeBytes":n,"uploadCaptions":False,"uploadThumbnail":False}}))
+init=json.loads(post('https://api.linkedin.com/rest/videos?action=initializeUpload',{"initializeUploadRequest":{"owner":"urn:li:person:tsJbwdb3B2","fileSizeBytes":n,"uploadCaptions":False,"uploadThumbnail":bool(q.get('portada'))}}))
 v=init['value']; urn=v['video']; etags=[]
 with open(f,'rb') as fh:
     data=fh.read()
@@ -21,5 +21,11 @@ for ins in v['uploadInstructions']:
     if not et: sys.exit('Falló la subida de una parte: '+r.stdout[:300])
     etags.append(et[0])
 fin=post('https://api.linkedin.com/rest/videos?action=finalizeUpload',{"finalizeUploadRequest":{"video":urn,"uploadToken":v.get('uploadToken',''),"uploadedPartIds":etags}})
+if q.get('portada'):
+    tu=v.get('thumbnailUploadUrl')
+    if not tu: print('AVISO: LinkedIn no devolvió thumbnailUploadUrl; el video queda con la miniatura automática')
+    else:
+        r=subprocess.run(['curl','-sS','-o','/dev/null','-w','%{http_code}','-X','PUT',tu,'-H','Content-Type: image/jpeg','--data-binary','@'+os.path.join(REPO,q['portada'])],capture_output=True,text=True)
+        print('Portada subida, HTTP',r.stdout)
 q['video']=urn; json.dump(q,open(P,'w',encoding='utf-8'),ensure_ascii=False,indent=2)
 print('Video subido:',urn,fin[:200])
