@@ -159,6 +159,8 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 
 ## 25. Objetivos ProBarranquilla y ProColombia (10 nov 2026, decisión de Sandra)
 
+- Ampliado el 10 nov: Comfama, Comfandi y la ANDI con sus directivos (al menos 1 comentario entre las 3 por ronda si publicaron en 72 horas).
+
 - En cada ronda de comentarios, primero ProBarranquilla, ProColombia y sus directivos (al menos 2 de cada lista de 10 si publicaron en las últimas 72 horas).
 
 ## 26. Respuestas automáticas y cuentas prioritarias (10 nov 2026, decisión de Sandra)
