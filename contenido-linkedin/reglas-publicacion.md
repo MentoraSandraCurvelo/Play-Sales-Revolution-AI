@@ -167,3 +167,7 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - En hilos de cuentas prioritarias (Vicepresidente José Manuel Restrepo, Presidente de la República, ProBarranquilla, ProColombia, cámaras de comercio) siempre muestra el texto y espera el sí.
 - Al final de cada ronda, reporte con todo lo publicado (texto, link y antigüedad).
 - Objetivo con el Vicepresidente: que vea a Sandra como autoridad en IA para el gobierno. Comentar todas sus publicaciones con aportes de fondo sobre IA en el sector público.
+
+## 27. Oportunidades comerciales (10 nov 2026, decisión de Sandra)
+
+- En cada ronda Chrome reporta primero las convocatorias, licitaciones o publicaciones donde busquen consultor, conferencista, formador o proveedor en IA, ventas, marca, productividad o capacitación, incluso las cerradas hace menos de 15 días. Sandra pone sus servicios a disposición aunque la convocatoria haya cerrado.
