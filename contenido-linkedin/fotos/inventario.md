@@ -35,3 +35,9 @@ Sandra agregó el dominio de Dropbox y las descargas funcionan.
   - No usar: las capturas PNG `IMG_82xx` (fotos grupales de 2018 y 2019 con banderas de SAP y Seidor, en formato pantallazo), `UDES/SÁBADO/FOTOS/IMG_4293.jpg` (sale con otra persona; pedir permiso antes).
   - Falta revisar: `DRUMMOND/FOTOS` (DSC05041 a DSC05255) y el resto de UDES.
 - Foto de perfil actual de LinkedIn: no se pudo ver (la red bloquea media.licdn.com).
+
+## Google Fotos · álbum privado "Fotos LinkedIn IAM" (10 nov 2026, Chrome)
+- 40 fotos de Sandra en talleres, charlas y paneles (2018 a 2026). Lista completa en el reporte de Chrome del 10 nov (chat de Demetri).
+- Destacadas: 1 a 3 taller Cali 2018; 14 tarima "Decisión en el éxito" 2019; 18 a 20 charla Marca Profesional 2021; 22 U. Sergio Arboleda 2023; 23 a 25 auditorio con chaqueta amarilla, diapositiva "La IA" 2023; 30 evento TIC, podio, traje rojo 2025; 31 a 36 y 39 paneles mayo y junio 2026 (36 y 39 panel "Roma del Caribe", Barranquilla).
+- Con otras personas reconocibles (pedir visto bueno o etiquetar): 26, 29, 33, 38, 40. No son fotos directas: 28 (gráfica editada) y 38 (captura de Instagram).
+- Pendiente: Sandra descarga el álbum y lo sube a Dropbox /2-Contenido/Fotos LinkedIn.
