@@ -17,5 +17,7 @@
     "lifecycleState": "PUBLISHED",
     "isReshareDisabledByAuthor": false
   },
-  "nota": "Texto aprobado el 10 nov. Formato: foto de Sandra por elegir. Sin primer comentario aún."
+  "nota": "Texto aprobado el 10 nov. Formato: foto aprobada el 10 nov (certificado 2018). Sin primer comentario aún.",
+  "imagen": "contenido-linkedin/imagenes/mar-17-am.jpg",
+  "alt": "Sandra Curvelo sosteniendo un certificado con su nombre, de 2018."
 }
