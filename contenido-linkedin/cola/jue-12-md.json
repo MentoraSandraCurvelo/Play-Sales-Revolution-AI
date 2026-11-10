@@ -1,6 +1,6 @@
 {
   "id": "jue-12-md",
-  "estado": "propuesta",
+  "estado": "aprobado",
   "programado_bogota": "2026-11-12 12:30",
   "archivo_video": "contenido-linkedin/videos/iae-scifi.mp4",
   "tags": [
@@ -9,6 +9,24 @@
     "Productividad"
   ],
   "primer_comentario": "Si quieres ver cómo se vería el IAE™ en tu empresa, agenda 30 minutos conmigo aquí: https://calendly.com/sandracurvelo-mentoraventasdigitales-ia",
-  "nota": "Fecha aprobada por Sandra el 9 nov: jueves 12 nov 12:30 p. m. Falta su sí al video versión nave (iae-scifi), al texto nuevo (jue-12-md.txt) y al primer comentario. Al aprobar: archivo_video -> videos/iae-scifi.mp4, construir payload y estado aprobado.",
-  "portada": "contenido-linkedin/imagenes/portada-iae-scifi.jpg"
+  "nota": "Aprobado por Sandra el 10 nov (video nave v3, portada con título detrás, texto y primer comentario). Fecha: jue 12 nov 12:30.",
+  "portada": "contenido-linkedin/imagenes/portada-iae-scifi.jpg",
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "El viernes les prometí que cada semana iba a mostrar un tablero del IAE™. Hoy lo abro por dentro.\n\nEn el video te explico de dónde salen los datos del IAE™, el Índice de Actividad de Inteligencia Artificial Empresarial. No es una encuesta de \"¿sí estás usando la IA?\". Son 4 fuentes que se cruzan:\n\n⭕ Adopción: el uso real de las licencias, que llega solo, semana a semana.\n⭕ Horas recuperadas: una línea base por persona, tarea por tarea, validada en sesión.\n⭕ Agentes y tableros que cada área tiene funcionando, verificados cada 15 días.\n⭕ Calidad: una encuesta anónima y el visto bueno del jefe a los entregables.\n\nAl final te muestro los 2 tableros que salen de ahí, con datos de ejemplo: las horas que ahorra cada área y los procesos que van al día o en riesgo.\n\nY me quedó una pregunta para el próximo post: si ya recuperaste esas horas, ¿en qué las estás invirtiendo para que se vean en el EBITDA?\n\n¿Cuál de estas 4 fuentes es la que tu empresa todavía no mide?\n\n{hashtag|\\#|IAEmpresarial} {hashtag|\\#|IA} {hashtag|\\#|Productividad} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
+  },
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-10",
+  "urn": null,
+  "titulo_video": "¿Quién usa de verdad la IA?",
+  "primer_comentario_aprobado_el": "2026-11-10",
+  "video": "urn:li:video:D4E10AQGF2A9gRE7HnQ"
 }
