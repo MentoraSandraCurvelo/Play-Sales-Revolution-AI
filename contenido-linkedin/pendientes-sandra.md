@@ -3,7 +3,7 @@
 Actualizado: 10 nov 2026, 7:15 a. m.
 
 ## Automatización (urgente, 10 nov)
-- ✅ Rutina IAM programada en Cowork (confirmado 11 nov): lun a vie 7:35 a. m. y 5:35 p. m., sáb 9:05 a. m., dom 5:05 p. m. Solo en el MacBook Air. Primera corrida con la versión nueva: 11 nov 7:35 a. m.
+- ✅ Rutina IAM en Cowork (confirmado 11 nov, horario nuevo): lun a vie 7:35 a. m. y 3:05 p. m.; todos los días 11:35 a. m. (solo si salió post entre 11:00 y 11:35); sáb 9:05 a. m.; dom 5:05 p. m. 5 tareas. La de 3:05 p. m. quedó en el computador desde el que Sandra usa Chrome: confirmar que sea el MacBook Air.
 
 ## Prospección (prioridad 1)
 - Cámara de Comercio de Barranquilla: correo ENVIADO el 10 nov. Seguimiento el lun 16 si no responden.
