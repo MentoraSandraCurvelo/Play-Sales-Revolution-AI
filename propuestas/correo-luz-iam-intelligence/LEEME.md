@@ -5,12 +5,12 @@
 
 ## Archivos
 - `correo-iam-intelligence.html`: el correo para cargar en la herramienta de envío masivo.
-- `tablero-preview.jpg`: imagen del tablero IAE™ que va dentro del correo.
+- `tablero-iae.gif`: animación del tablero IAE™ (289 KB) que va dentro del correo. Outlook de escritorio en Windows muestra solo el primer cuadro (semana 12), que ya se entiende solo.
 
 ## Orden del correo
 1. Titular: "Tu empresa ya tiene IA. Le falta un sistema."
 2. Luz se presenta y presenta a IAM™.
-3. Tablero IAE™ (imagen clicable + botones empresa / entidad pública).
+3. Tablero IAE™ en GIF animado (clic lleva a Calendly) + enlace pequeño al tablero interactivo.
 4. Botón: Agendar mi sesión exploratoria.
 5. Dato McKinsey (60% a 70%).
 6. Método DIAL-3R™.
@@ -20,7 +20,7 @@
 10. Firma de Luz y pie con enlace de baja.
 
 ## Antes de enviar
-1. Subir `tablero-preview.jpg` a la herramienta de envío y reemplazar `src="tablero-preview.jpg"` por la URL que entregue.
+1. Subir `tablero-iae.gif` a la herramienta de envío y reemplazar `src="tablero-iae.gif"` por la URL que entregue.
 2. Reemplazar `{{nombre}}` por la etiqueta de nombre de la herramienta, `[Apellido]` y `[WhatsApp de Luz]` por sus datos, y `{{unsubscribe}}` por el enlace de baja.
 3. Activar el enlace público del tablero (menú Compartir en https://claude.ai/artifact/V4eeegecLF5s1NyW9WcZEF).
 
