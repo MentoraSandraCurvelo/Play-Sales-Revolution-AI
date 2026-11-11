@@ -188,3 +188,10 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 
 - Desde el 10 nov se puede nombrar a Comfacesar como cliente en publicaciones públicas (Sandra ya publicó foto con ellos). Sigue sin nombrarse la Alcaldía de Valledupar ni personas de los equipos cliente. Las cifras siguen siendo solo las verificadas.
 - (10 nov, precisión de Sandra) Los posts ya aprobados no se cambian. En adelante se nombra a Comfacesar solo de vez en cuando, no en todos los posts, para que no parezca que siempre se usa el mismo ejemplo: alternar con Klaren's, Novasoft, Drummond, sector público y casos de mentoría (siempre con cifras verificadas y permiso).
+
+## 31. Comentarios que venden (10 nov 2026, decisión de Sandra)
+
+- No se piden comentarios a conocidos para inflar un post. Lo que importa son comentarios de decisores (gerentes, directores, cámaras, gremios, entidades) que se convierten en conversación y reunión.
+- Los llamados a comentar se dirigen a quien compra ("si lideras un equipo…").
+- Cada palabra clave se entrega por mensaje directo con una pregunta que califique (tamaño del equipo, qué usan hoy).
+- Métrica principal: conversaciones con decisores y reuniones agendadas por semana, no comentarios ni likes.
