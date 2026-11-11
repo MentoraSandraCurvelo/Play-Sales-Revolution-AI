@@ -1,22 +1,32 @@
-# Correo masivo IAM™ Intelligence
+# Correo masivo IAM™ Intelligence (versión final aprobada)
 
-**Para:** Luz, aliada comercial IAM™ en Barranquilla.
-**Objetivo:** presentar IAM™ Intelligence y llevar a la persona a agendar la sesión exploratoria en Calendly.
+**Lo envía:** Luz, Business Developer IAM™ · Zona Atlántico · Región Norte.
+**Objetivo:** presentar IAM™ a empresas y entidades que no la conocen y llevarlas a agendar con Sandra en Calendly.
 
-## Archivo
-`correo-iam-intelligence.html`, HTML para correo (tablas, estilos en línea, 600 px, botón que funciona aunque se bloqueen las imágenes).
+## Archivos
+- `correo-iam-intelligence.html`: el correo para cargar en la herramienta de envío masivo.
+- `tablero-preview.jpg`: imagen del tablero IAE™ que va dentro del correo.
 
-## Antes de enviar, reemplaza
-- `{{nombre}}` por la etiqueta de nombre de la herramienta (Mailchimp usa `*|FNAME|*`, Brevo usa `{{ contact.FIRSTNAME }}`; verifícalo en la herramienta que use Luz).
-- `[Apellido]` y `[WhatsApp de Luz]` (en el enlace va el número sin espacios: 57XXXXXXXXXX).
-- `{{unsubscribe}}` por el enlace de baja de la herramienta. En Colombia la Ley 1581 de 2012 exige tratar datos con autorización; el enlace de baja es obligatorio en envíos masivos.
+## Orden del correo
+1. Titular: "Tu empresa ya tiene IA. Le falta un sistema."
+2. Luz se presenta y presenta a IAM™.
+3. Tablero IAE™ (imagen clicable + botones empresa / entidad pública).
+4. Botón: Agendar mi sesión exploratoria.
+5. Dato McKinsey (60% a 70%).
+6. Método DIAL-3R™.
+7. Lo que medimos (-40%, +80%, IAE™).
+8. Quiénes somos.
+9. Frase de Sandra + segundo botón a Calendly.
+10. Firma de Luz y pie con enlace de baja.
+
+## Antes de enviar
+1. Subir `tablero-preview.jpg` a la herramienta de envío y reemplazar `src="tablero-preview.jpg"` por la URL que entregue.
+2. Reemplazar `{{nombre}}` por la etiqueta de nombre de la herramienta, `[Apellido]` y `[WhatsApp de Luz]` por sus datos, y `{{unsubscribe}}` por el enlace de baja.
+3. Activar el enlace público del tablero (menú Compartir en https://claude.ai/artifact/V4eeegecLF5s1NyW9WcZEF).
 
 ## Asuntos para prueba A/B
-A) {{nombre}}, ¿cuántas horas a la semana le está regalando tu equipo al trabajo manual?
+A) {{nombre}}, ¿qué área de tu empresa subiría primero con IA?
 B) Tu empresa ya tiene IA. Lo que le falta es un sistema.
 C) IA que se mide en horas recuperadas, no en promesas
 
-**Preheader:** Te presento IAM™ Intelligence. Agenda una sesión exploratoria sin costo con Sandra Curvelo.
-
-## Medición
-El botón lleva UTM `utm_medium=correo_luz&utm_campaign=iam_intelligence_barranquilla` para saber en Calendly cuántas citas vienen de Luz.
+**Preheader:** Mira en un tablero cómo suben las áreas de una empresa con IA. Sesión exploratoria sin costo.
