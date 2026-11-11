@@ -44,6 +44,11 @@ h2 span,h1 span{color:var(--red-hi)}
 .fact .n{font-family:var(--display);font-weight:900;font-size:32px;line-height:1.05}
 .fact .l{font-size:14px;color:var(--muted);margin-top:6px}
 .fact .s{font-size:11px;color:var(--dim);margin-top:8px}
+.bgrid2{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.bgrid2 div{border-left:2px solid var(--red);padding:4px 0 4px 12px;display:grid;gap:4px}
+.bgrid2 b{font-family:var(--display);font-size:18px}
+.bgrid2 span{font-size:14px;color:var(--muted)}
+@media (max-width:880px){.bgrid2{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
 /* Tablero */
 .board{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:20px;display:grid;gap:16px}
@@ -88,6 +93,7 @@ input[type=range]{flex:1;accent-color:var(--red);min-width:0}
 .pocs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:16px}
 .poc{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:20px;display:grid;gap:12px;align-content:start}
 .poc.hr{border-color:#3a1414}
+.poc[hidden]{display:none}
 .poc .head{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
 .poc .area{font-size:12px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--red-hi)}
 .poc .tag{font:500 11px var(--mono);color:var(--muted);border:1px solid var(--line);padding:3px 8px;border-radius:999px;white-space:nowrap}
@@ -153,11 +159,11 @@ input[type=range]{flex:1;accent-color:var(--red);min-width:0}
       <div class="src">Documento de conversación · 11 de noviembre de 2026</div>
     </div>
     <h1>Coquecol <span class="x">×</span> <span>IA empresarial</span></h1>
-    <p class="thesis">Una minera que exporta carbón y coque a varios países ya mide toneladas, calidad y embarques. La propuesta: medir también las horas que su gente recupera con IA, área por área, empezando por Gestión Humana.</p>
+    <p class="thesis">Coquecol ya mide toneladas, calidad, embarques y hasta su sostenibilidad en MERO. La propuesta: medir también las horas que sus 965 colaboradores recuperan con IA, área por área, empezando por Gestión Humana y Sostenibilidad.</p>
     <div class="meta">
-      <span>Para <b>Ángela Garcés</b>, Dirección de Gestión Humana</span>
+      <span>Para <b>Ángela María Garcés Jaramillo</b>, Gerente de Gestión Humana y Sostenibilidad</span>
       <span>Presenta <b>Sandra Curvelo</b>, Founder &amp; CSO · IAM™</span>
-      <span>Referido por <b>Armando Baute</b></span>
+      <span>Contacto: <b>Armando Baute</b></span>
     </div>
   </header>
 
@@ -165,12 +171,22 @@ input[type=range]{flex:1;accent-color:var(--red);min-width:0}
   <section>
     <p class="eyebrow">Lo que sabemos de Coquecol</p>
     <h2>Un líder del coque metalúrgico colombiano, <span>con la reputación en ascenso.</span></h2>
-    <p class="lead">Grupo Coquecol nació en Boyacá en 1992 y produce y exporta carbón metalúrgico y coque. Su principal cliente es la siderúrgica brasileña Gerdau. Su operación toca minas, plantas de coquización, puertos y clientes en el exterior: muchos procesos, muchos reportes y mucha gente en campo.</p>
+    <p class="lead">Grupo Coquecol nació en Boyacá en 1992 y lo integran Coquecol, Intercarbon, Incolmine, RC Carga, Multinexa y la Fundación Coquecol. Produce y exporta carbón y coque metalúrgico a Latinoamérica, Europa, Asia y Estados Unidos, con operación en Cundinamarca, Boyacá, Norte de Santander y Atlántico. Su propósito: "contribuir al progreso humano generando confianza y sostenibilidad desde el origen del acero".</p>
     <div class="facts">
-      <div class="fact"><div class="n">1992</div><div class="l">Fundado en Boyacá</div><div class="s">The Energy Year, entrevista al CEO, 2025</div></div>
-      <div class="fact"><div class="n">Top 10</div><div class="l">Ranking de reputación del sector minero 2025: del puesto 25 al 9</div><div class="s">Brújula Minera, vía Yahoo Noticias</div></div>
-      <div class="fact"><div class="n">96.251 t</div><div class="l">Embarque récord de carbón y coque metalúrgico a Brasil desde Puerto Brisa</div><div class="s">Valora Analitik</div></div>
-      <div class="fact"><div class="n">59.197</div><div class="l">Personas impactadas por la Fundación Coquecol en 8 años</div><div class="s">Pacto Global Red Colombia</div></div>
+      <div class="fact"><div class="n">965</div><div class="l">colaboradores directos en 4 departamentos; 36% de mujeres en el equipo directivo</div><div class="s">Informe de Gestión y Sostenibilidad 2023</div></div>
+      <div class="fact"><div class="n">694.635 t</div><div class="l">exportadas en 2023, con 14% de participación de mercado</div><div class="s">Informe de Gestión y Sostenibilidad 2023</div></div>
+      <div class="fact"><div class="n">93%</div><div class="l">de orgullo por la compañía en la encuesta de colaboradores de Brújula Minera 2023</div><div class="s">Informe de Gestión y Sostenibilidad 2023</div></div>
+      <div class="fact"><div class="n">Top 10</div><div class="l">en reputación del sector minero 2025: del puesto 25 al 9</div><div class="s">Brújula Minera, vía Yahoo Noticias</div></div>
+    </div>
+    <div class="built">
+      <p class="eyebrow" style="margin-top:28px">Lo que Coquecol ya construyó</p>
+      <div class="bgrid2">
+        <div><b>Talento Exponencial</b><span>Plataforma de comunicación interna, competencias, estructura y reportes en tiempo real, con LMS.</span></div>
+        <div><b>Embajadores Grupo Coquecol</b><span>20 embajadores formados en comunicación con grupos de interés.</span></div>
+        <div><b>MERO</b><span>Indicadores de sostenibilidad y estratégicos bajo modelo ASG.</span></div>
+        <div><b>13 proyectos</b><span>de innovación y transformación digital en 2023, con la Gerencia de Desarrollo Exponencial.</span></div>
+      </div>
+      <p class="lead">La IA no reemplaza nada de esto: lo pone a trabajar. Cada plataforma ya tiene los datos; IAM™ Intelligence le enseña a cada área a convertirlos en decisiones y horas recuperadas.</p>
     </div>
   </section>
 
@@ -241,6 +257,28 @@ input[type=range]{flex:1;accent-color:var(--red);min-width:0}
       </article>
 
       <article class="poc hr" data-g="gh">
+        <div class="head"><span class="area">Embajadores Grupo Coquecol</span><span class="tag">IAM™ Ambassadors</span></div>
+        <h3>Embajadores con IA: de 20 voces a un sistema de contenido</h3>
+        <div class="ba">
+          <div class="antes"><b>Hoy</b>20 embajadores formados en comunicación, cada uno publicando según su tiempo y su inspiración.</div>
+          <div class="con"><b>Con IA</b>Cada embajador tiene su asistente con la voz de Coquecol, calendario editorial y métricas en LinkedIn.</div>
+        </div>
+        <p class="del"><b>Entregable:</b> perfiles optimizados + asistente de contenido + tablero de alcance.</p>
+        <p class="ref">Referencia real: <b>13 perfiles</b> de LinkedIn optimizados y publicados en 45 días en un programa IAM™ Ambassadors 2026.</p>
+      </article>
+
+      <article class="poc hr" data-g="gh">
+        <div class="head"><span class="area">Retención</span><span class="tag">Gestión Humana</span></div>
+        <h3>Radar de rotación: por qué se va la gente y dónde</h3>
+        <div class="ba">
+          <div class="antes"><b>Hoy</b>En 2023 hubo 668 retiros. Las causas viven en entrevistas de salida, novedades y hojas de cálculo separadas.</div>
+          <div class="con"><b>Con IA</b>El agente agrupa causas por sede, cargo y antigüedad y alerta dónde se concentra el riesgo cada mes.</div>
+        </div>
+        <p class="del"><b>Entregable:</b> tablero mensual de rotación con causas y recomendaciones.</p>
+        <p class="ref">Dato de Coquecol: <b>668 retiros</b> en 2023 y una tasa promedio de rotación de 4,67% (Informe 2023).</p>
+      </article>
+
+      <article class="poc hr" data-g="gh">
         <div class="head"><span class="area">Selección</span><span class="tag">Gestión Humana</span></div>
         <h3>Ficha de evaluación de candidatos con puntaje</h3>
         <div class="ba">
@@ -277,7 +315,7 @@ input[type=range]{flex:1;accent-color:var(--red);min-width:0}
         <div class="head"><span class="area">Logística y exportación</span><span class="tag">Por validar</span></div>
         <h3>Lista de chequeo documental por embarque</h3>
         <div class="ba">
-          <div class="antes"><b>Hoy</b>Estoy suponiendo: cada embarque exige reunir y cruzar certificados, análisis de calidad y documentos de transporte.</div>
+          <div class="antes"><b>Hoy</b>Cada embarque exige reunir y cruzar certificados, análisis de calidad y documentos de transporte.</div>
           <div class="con"><b>Con IA</b>El agente revisa que estén todos los documentos, que los datos coincidan y avisa lo que falta.</div>
         </div>
         <p class="del"><b>Entregable:</b> agente revisor de documentos de embarque.</p>
@@ -306,14 +344,14 @@ input[type=range]{flex:1;accent-color:var(--red);min-width:0}
         <p class="ref">Referencia real: informe trimestral para alta gerencia de <b>960 → 10 min</b>.</p>
       </article>
 
-      <article class="poc" data-g="ad" hidden>
+      <article class="poc hr" data-g="gh">
         <div class="head"><span class="area">Sostenibilidad y Fundación</span><span class="tag">Reputación</span></div>
         <h3>Informe de sostenibilidad e indicadores de impacto</h3>
         <div class="ba">
           <div class="antes"><b>Hoy</b>Los datos de comunidades, ambiente y personas viven en archivos distintos y se consolidan una vez al año.</div>
           <div class="con"><b>Con IA</b>Se consolidan durante el año y el informe se arma sobre datos ya ordenados.</div>
         </div>
-        <p class="del"><b>Entregable:</b> estructura de indicadores + borrador automático por capítulo.</p>
+        <p class="del"><b>Entregable:</b> borrador automático por capítulo del informe, conectado a los indicadores que ya viven en MERO.</p>
         <p class="ref">Referencia real: informe de gestión trimestral de <b>720 → 30 min</b>.</p>
       </article>
 
@@ -368,7 +406,7 @@ input[type=range]{flex:1;accent-color:var(--red);min-width:0}
   </section>
 
   <footer class="foot">
-    <span>Fuentes sobre Coquecol: The Energy Year (2025), Valora Analitik, Yahoo Noticias / Brújula Minera (2025), Pacto Global Red Colombia. El tablero usa datos simulados. Las referencias de tiempos provienen de un programa IAM™ Intelligence ejecutado en 2026 y se presentan sin datos identificables del cliente.</span>
+    <span>Fuentes sobre Coquecol: Informe de Gestión y Sostenibilidad 2023 de Grupo Coquecol, grupocoquecol.com, The Energy Year (2025), Yahoo Noticias / Brújula Minera (2025). El tablero usa datos simulados. Las referencias de tiempos provienen de un programa IAM™ Intelligence ejecutado en 2026 y se presentan sin datos identificables del cliente.</span>
     <span>IAM™ · Sandra Curvelo, Founder &amp; CSO · iamlatam.co</span>
   </footer>
 </div>
