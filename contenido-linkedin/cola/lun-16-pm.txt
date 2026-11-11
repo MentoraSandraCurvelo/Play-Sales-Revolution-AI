@@ -1,18 +1,15 @@
-El jueves dejé una pregunta abierta en mi video del IAE™: si ya recuperaste horas con IA, ¿en qué las estás invirtiendo?
+Cada vez que entro a una empresa, el primer día hago la misma pregunta: ¿qué tarea repites cada semana y te quita tiempo para lo importante?
 
-Porque recuperar horas es apenas la fase 1.
+Casi siempre la respuesta es una de estas 5. Y las 5 se le pueden pasar a la IA, en cualquier área:
 
-En un programa con 18 áreas medimos más de 800 horas al mes recuperadas. Es un gran número. Pero una hora recuperada no aparece sola en el EBITDA. Aparece cuando alguien decide qué hacer con ella.
+⭕ 1. El acta de la reunión: la IA resume, asigna responsables y fechas.
+⭕ 2. El informe semanal: consolida los datos y te deja el primer borrador.
+⭕ 3. Los correos que se repiten: respuestas listas para que las revises y las envíes.
+⭕ 4. El tablero del área: cruza los archivos de Excel que hoy se pegan a mano.
+⭕ 5. El primer borrador de la propuesta: tú pones el criterio, la IA pone la estructura.
 
-La fase 2 es esa decisión:
+La regla es la misma en las 5: la IA prepara, la persona revisa y decide.
 
-⭕ Comercial: más horas frente al cliente, menos frente al CRM.
-⭕ Servicio: respuestas más rápidas, clientes que se quedan.
-⭕ Finanzas: cierre del mes en menos días, decisiones con datos frescos.
-⭕ Talento: tiempo para formar al equipo en lo que viene.
+En el carrusel te dejo cada tarea con un ejemplo de instrucción para que tu equipo empiece mañana.
 
-Si las horas recuperadas se van en más reuniones, la IA no movió la utilidad. Solo movió el desorden.
-
-Por eso en cada área cerramos con una pregunta: ¿qué vas a hacer con las horas que te devolvió la IA?
-
-¿Tu empresa ya decidió en qué invierte el tiempo que la IA le está devolviendo?
+Si lideras un área, ¿cuál de las 5 se come más horas de tu equipo?

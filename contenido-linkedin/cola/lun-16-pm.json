@@ -1,13 +1,11 @@
 {
   "id": "lun-16-pm",
-  "estado": "aprobado",
-  "aprobado_por": "Sandra",
-  "aprobado_el": "2026-11-10",
+  "estado": "pendiente_aprobacion",
   "programado_bogota": "2026-11-16 17:30",
   "urn": null,
   "payload": {
     "author": "urn:li:person:tsJbwdb3B2",
-    "commentary": "El jueves dejé una pregunta abierta en mi video del IAE™: si ya recuperaste horas con IA, ¿en qué las estás invirtiendo?\n\nPorque recuperar horas es apenas la fase 1.\n\nEn un programa con 18 áreas medimos más de 800 horas al mes recuperadas. Es un gran número. Pero una hora recuperada no aparece sola en el EBITDA. Aparece cuando alguien decide qué hacer con ella.\n\nLa fase 2 es esa decisión:\n\n⭕ Comercial: más horas frente al cliente, menos frente al CRM.\n⭕ Servicio: respuestas más rápidas, clientes que se quedan.\n⭕ Finanzas: cierre del mes en menos días, decisiones con datos frescos.\n⭕ Talento: tiempo para formar al equipo en lo que viene.\n\nSi las horas recuperadas se van en más reuniones, la IA no movió la utilidad. Solo movió el desorden.\n\nPor eso en cada área cerramos con una pregunta: ¿qué vas a hacer con las horas que te devolvió la IA?\n\n¿Tu empresa ya decidió en qué invierte el tiempo que la IA le está devolviendo?\n\n{hashtag|\\#|IAEmpresarial} {hashtag|\\#|Productividad} {hashtag|\\#|EBITDA} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "commentary": "Cada vez que entro a una empresa, el primer día hago la misma pregunta: ¿qué tarea repites cada semana y te quita tiempo para lo importante?\n\nCasi siempre la respuesta es una de estas 5. Y las 5 se le pueden pasar a la IA, en cualquier área:\n\n⭕ 1. El acta de la reunión: la IA resume, asigna responsables y fechas.\n⭕ 2. El informe semanal: consolida los datos y te deja el primer borrador.\n⭕ 3. Los correos que se repiten: respuestas listas para que las revises y las envíes.\n⭕ 4. El tablero del área: cruza los archivos de Excel que hoy se pegan a mano.\n⭕ 5. El primer borrador de la propuesta: tú pones el criterio, la IA pone la estructura.\n\nLa regla es la misma en las 5: la IA prepara, la persona revisa y decide.\n\nEn el carrusel te dejo cada tarea con un ejemplo de instrucción para que tu equipo empiece mañana.\n\nSi lideras un área, ¿cuál de las 5 se come más horas de tu equipo?\n\n{hashtag|\\#|IAEmpresarial} {hashtag|\\#|Productividad} {hashtag|\\#|Liderazgo} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
     "visibility": "PUBLIC",
     "distribution": {
       "feedDistribution": "MAIN_FEED",
@@ -17,5 +15,5 @@
     "lifecycleState": "PUBLISHED",
     "isReshareDisabledByAuthor": false
   },
-  "nota": "Texto aprobado el 10 nov. Formato: imagen por crear (texto + imagen). Sin primer comentario aún."
+  "nota": "Cambiado el 11 nov (Sandra aprobó el cambio de tema porque repetía mie-11-am). Texto nuevo por aprobar. Formato: carrusel PDF por diseñar."
 }

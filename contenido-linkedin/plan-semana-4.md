@@ -6,7 +6,7 @@ Mezcla: IA empresarial 8 (47%), ventas con IA y social selling 5 (29%), marca pr
 |---|---|---|---|---|---|
 | Lun 16 | 7:30 | IA | Imagen negra | ¿Cuándo uso la IA en mi trabajo? En todo. | Aprobado |
 | Lun 16 | 12:30 | Ventas | Video gorra roja | Ventas con IA (cambiar lámina final) | Aprobado, falta lámina |
-| Lun 16 | 5:30 | IA | Texto + imagen | Fase 2: recuperaste horas, ¿en qué las inviertes para que se vean en el EBITDA? (cumple la promesa del video del jueves 12) | Nuevo |
+| Lun 16 | 5:30 | IA | Carrusel | 5 tareas que cualquier área le puede pasar a la IA (cambiado el 11 nov: el tema fase 2 ya salió el mie 11) | Nuevo |
 | Mar 17 | 7:30 | Marca | Texto + foto | Títulos vs. logros: "Hice [qué] para [quién] y eso cambió [resultado]" (sin nombrar a Paola) | Nuevo |
 | Mar 17 | 12:30 | Ventas | Video panel | No es interrupción, es intención | Aprobado |
 | Mar 17 | 5:30 | Ventas | Texto (o video de Sandra) | El vendedor que hace caso: los 5 vectores antes de cotizar (idea de Sandra, 10 nov; borrador en borradores/vendedor-que-hace-caso.md) | Borrador listo |
