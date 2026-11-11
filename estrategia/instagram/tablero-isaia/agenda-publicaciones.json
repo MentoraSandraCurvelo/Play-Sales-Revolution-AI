@@ -132,18 +132,6 @@
   "enlace_txt": "Ver reel"
  },
  {
-  "id": "s7",
-  "fecha": "2026-11-15",
-  "dia": "Dom 15 nov",
-  "hora": "12:30 p. m.",
-  "formato": "Reel",
-  "pieza": "Panel o Drummond",
-  "responsable": "Claude edita",
-  "estado": "Propuesta",
-  "enlace": "",
-  "enlace_txt": ""
- },
- {
   "id": "s8",
   "fecha": "2026-11-16",
   "dia": "Lun 16 nov",
@@ -178,5 +166,17 @@
   "estado": "Programado (video, portada y texto aprobados 10 nov)",
   "enlace": "https://raw.githubusercontent.com/MentoraSandraCurvelo/Play-Sales-Revolution-AI/claude/ecstatic-hawking-b5uxn3/estrategia/instagram/reel-agente-prospecta/publicar/portada.jpg",
   "enlace_txt": "Ver portada"
+ },
+ {
+  "id": "s7",
+  "fecha": "2026-11-21",
+  "dia": "Sáb 21 nov",
+  "hora": "12:30 p. m.",
+  "formato": "Reel",
+  "pieza": "Panel o Drummond",
+  "responsable": "Claude edita",
+  "estado": "Propuesta (movido del dom 15, aprobado por Sandra 11 nov)",
+  "enlace": "",
+  "enlace_txt": ""
  }
 ]
