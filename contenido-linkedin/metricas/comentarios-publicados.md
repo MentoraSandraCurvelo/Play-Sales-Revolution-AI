@@ -22,4 +22,4 @@ Sin resultados: MinTIC y líderes de IA de Latinoamérica (últimas 48 horas).
 - Respuesta a Carlos Eduardo Hurtado Vela en el hilo del Vicepresidente: https://lnkd.in/p/eia5dw9B
 
 ## 11 nov 2026 · Comentarios de visibilidad
-- Rodrigo Estrada Reveiz (Presidente Ejecutivo, Cámara de Comercio de Armenia y Quindío), post sobre uso de IA en empresas colombianas (34 % a 42 %). Comentario aprobado por Sandra y enviado a Chrome. Link: pendiente de confirmar por Chrome. Medir impresiones el lun 16.
+- Rodrigo Estrada Reveiz (Presidente Ejecutivo, Cámara de Comercio de Armenia y Quindío), post sobre uso de IA en empresas colombianas (34 % a 42 %). PUBLICADO 11 nov con reacción Interesante, texto exacto. Link: https://www.linkedin.com/feed/update/urn:li:ugcPost:7526298541657604096?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7526298541657604096%2C7526331534388346881%29 Medir impresiones el lun 16.
