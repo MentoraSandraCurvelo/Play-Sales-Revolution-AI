@@ -1,6 +1,6 @@
 {
   "id": "mie-11-md",
-  "estado": "aprobado",
+  "estado": "publicado",
   "programado_bogota": "2026-11-11 11:30",
   "archivo_video": "contenido-linkedin/videos/reunion-mie-11.mp4",
   "tags": [
@@ -25,7 +25,8 @@
     "isReshareDisabledByAuthor": false
   },
   "titulo_video": "Antes de la reunión",
-  "urn": null,
+  "urn": "urn:li:ugcPost:7526320435618103296",
   "primer_comentario": "El cuarto pedido es el que más me cambia la reunión: saber la objeción antes de que la digan. ¿Cuál es la objeción que más escuchas en tu sector?",
-  "primer_comentario_aprobado_el": "2026-11-08"
+  "primer_comentario_aprobado_el": "2026-11-08",
+  "publicado_utc": "2026-11-11T16:30:24+00:00"
 }
