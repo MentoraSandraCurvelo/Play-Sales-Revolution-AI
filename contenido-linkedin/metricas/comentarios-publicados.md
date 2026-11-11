@@ -20,3 +20,6 @@ Sin resultados: MinTIC y líderes de IA de Latinoamérica (últimas 48 horas).
 - 7:30 "¿Quién es el responsable de la IA?": primer comentario https://lnkd.in/p/eJGn3RDA, compartido IAM™ frase 1.
 - 12:30 "El tablero que ve el ciudadano": primer comentario https://lnkd.in/p/epyrHN5c ("now"), compartido IAM™ frase 2.
 - Respuesta a Carlos Eduardo Hurtado Vela en el hilo del Vicepresidente: https://lnkd.in/p/eia5dw9B
+
+## 11 nov 2026 · Comentarios de visibilidad
+- Rodrigo Estrada Reveiz (Presidente Ejecutivo, Cámara de Comercio de Armenia y Quindío), post sobre uso de IA en empresas colombianas (34 % a 42 %). Comentario aprobado por Sandra y enviado a Chrome. Link: pendiente de confirmar por Chrome. Medir impresiones el lun 16.
