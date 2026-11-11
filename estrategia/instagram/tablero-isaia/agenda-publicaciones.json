@@ -84,18 +84,6 @@
   "enlace_txt": "Ver en Instagram"
  },
  {
-  "id": "s3",
-  "fecha": "2026-11-11",
-  "dia": "Mié 11 nov",
-  "hora": "12:30 p. m.",
-  "formato": "Reel",
-  "pieza": "Recuerdo UDES: No es interrupción, es intención",
-  "responsable": "Claude edita",
-  "estado": "Programado",
-  "enlace": "https://raw.githubusercontent.com/MentoraSandraCurvelo/Play-Sales-Revolution-AI/claude/ecstatic-hawking-b5uxn3/estrategia/instagram/reel-recuerdo-udes/publicar/reel_recuerdo_udes.mp4",
-  "enlace_txt": "Ver reel"
- },
- {
   "id": "s4",
   "fecha": "2026-11-12",
   "dia": "Jue 12 nov",
@@ -129,6 +117,18 @@
   "responsable": "Claude edita",
   "estado": "Programado",
   "enlace": "https://raw.githubusercontent.com/MentoraSandraCurvelo/Play-Sales-Revolution-AI/claude/ecstatic-hawking-b5uxn3/estrategia/instagram/reel-recuerdo-alpina/publicar/reel_recuerdo_alpina.mp4",
+  "enlace_txt": "Ver reel"
+ },
+ {
+  "id": "s3",
+  "fecha": "2026-11-15",
+  "dia": "Dom 15 nov",
+  "hora": "12:30 p. m.",
+  "formato": "Reel",
+  "pieza": "Recuerdo UDES: No es interrupción, es intención",
+  "responsable": "Claude edita",
+  "estado": "Programado (movido del mié 11 por publicación de Giovanni)",
+  "enlace": "https://raw.githubusercontent.com/MentoraSandraCurvelo/Play-Sales-Revolution-AI/claude/ecstatic-hawking-b5uxn3/estrategia/instagram/reel-recuerdo-udes/publicar/reel_recuerdo_udes.mp4",
   "enlace_txt": "Ver reel"
  },
  {
