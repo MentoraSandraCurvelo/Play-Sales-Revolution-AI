@@ -23,3 +23,6 @@ Sin resultados: MinTIC y líderes de IA de Latinoamérica (últimas 48 horas).
 
 ## 11 nov 2026 · Comentarios de visibilidad
 - Rodrigo Estrada Reveiz (Presidente Ejecutivo, Cámara de Comercio de Armenia y Quindío), post sobre uso de IA en empresas colombianas (34 % a 42 %). PUBLICADO 11 nov con reacción Interesante, texto exacto. Link: https://www.linkedin.com/feed/update/urn:li:ugcPost:7526298541657604096?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7526298541657604096%2C7526331534388346881%29 Medir impresiones el lun 16.
+- Luz Adriana Buitrago Suárez (VP Ejecutiva, Cámara de Armenia), columna competitividad Confecámaras. PUBLICADO 11 nov, reacción Interesante: https://www.linkedin.com/feed/update/urn:li:ugcPost:7524143372547198976?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7524143372547198976%2C7526354766860427265%29
+- Jorge Iván Ramírez Cadavid (Presidente Ejecutivo, Cámara de Pereira), Feria del Libro (texto acortado por Claude, aprobado). PUBLICADO 11 nov, reacción Interesante: https://www.linkedin.com/feed/update/urn:li:ugcPost:7525228354648727552?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7525228354648727552%2C7526355458895507457%29
+- Propuesto: Liliana Gómez Arenas (CEO GreenSQA, 1º grado), Valle Inspira 2026: https://www.linkedin.com/feed/update/urn:li:activity:7525014174163386368/
