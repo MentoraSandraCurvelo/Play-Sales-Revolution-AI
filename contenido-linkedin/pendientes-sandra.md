@@ -8,7 +8,7 @@ Actualizado: 10 nov 2026, 7:15 a. m.
 ## Prospección (prioridad 1)
 - Cámara de Comercio de Barranquilla: correo ENVIADO el 10 nov. Seguimiento el lun 16 si no responden.
 - [Chrome] Lista de hasta 30 directivos de cámaras de comercio: pedida el 4 nov, sin entregar. Sandra debe escribir "rutina IAM" con Chrome abierto.
-- [Chrome] Enviar invitación a Fernando Barraza con la nota aprobada (10 nov); confirmar envío.
+- ✅ Fernando Barraza (CDO Alcaldía de Cali) aceptó reunión para la semana del 23 nov. [Sandra] Responderle con día y hora. [Claude] Preparar la reunión antes del 23.
 - [Sandra] 0 invitaciones enviadas en 7 días: aprobar ritmo de 15 al día cuando llegue la lista de cámaras.
 - [Chrome] Identificar directivos de ProBarranquilla y ProColombia: pedido el 10 nov.
 - [Sandra] Aprobar las plantillas de mensajes de prospección (pendientes desde el 3 nov).
