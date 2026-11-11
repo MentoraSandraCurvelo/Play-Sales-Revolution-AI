@@ -134,6 +134,17 @@ input[type=range]{flex:1;accent-color:var(--red);min-width:0}
 .btn{display:inline-block;justify-self:start;background:#0A0A0A;color:#fff;text-decoration:none;font-weight:600;padding:14px 22px;border-radius:4px}
 .foot{font-size:12px;color:var(--dim);border-top:1px solid var(--line);padding-top:14px;display:grid;gap:6px}
 
+.reach{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:20px;margin-top:22px}
+.reachrow{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);font-size:15px;color:#DADADA}
+.reachrow b{font-family:var(--mono);font-weight:500;color:var(--fg);white-space:nowrap}
+.reachrow.total{border-bottom:0;border-top:2px solid var(--red);margin-top:4px}
+.reachrow.total b{font-family:var(--display);font-weight:900;font-size:30px;color:var(--red-hi)}
+.phases{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.phases div{background:var(--panel);border-top:3px solid var(--red);padding:14px;display:grid;gap:6px}
+.phases b{font-family:var(--display);font-size:18px}
+.phases span{font-size:14px;color:var(--muted)}
+@media (max-width:880px){.reach{grid-template-columns:1fr}}
+@media (max-width:520px){.phases{grid-template-columns:1fr}}
 @media (max-width:880px){
   .facts{grid-template-columns:repeat(2,minmax(0,1fr))}
   .bgrid,.case{grid-template-columns:1fr}
@@ -159,7 +170,7 @@ input[type=range]{flex:1;accent-color:var(--red);min-width:0}
       <div class="src">Documento de conversación · 11 de noviembre de 2026</div>
     </div>
     <h1>Coquecol <span class="x">×</span> <span>IA empresarial</span></h1>
-    <p class="thesis">Coquecol ya mide toneladas, calidad, embarques y hasta su sostenibilidad en MERO. La propuesta: medir también las horas que sus 965 colaboradores recuperan con IA, área por área, empezando por Gestión Humana y Sostenibilidad.</p>
+    <p class="thesis">Coquecol ya mide toneladas, calidad, embarques y hasta su sostenibilidad en MERO. La propuesta: medir también las horas que sus 965 colaboradores recuperan con IA, en todas las áreas: operación, logística, comercial, finanzas, jurídica, gestión humana y sostenibilidad.</p>
     <div class="meta">
       <span>Para <b>Ángela María Garcés Jaramillo</b>, Gerente de Gestión Humana y Sostenibilidad</span>
       <span>Presenta <b>Sandra Curvelo</b>, Founder &amp; CSO · IAM™</span>
@@ -194,7 +205,7 @@ input[type=range]{flex:1;accent-color:var(--red);min-width:0}
   <section>
     <p class="eyebrow">Así se vería · simulación</p>
     <h2>El IAE™ de una operación como la de Coquecol, <span>12 semanas después.</span></h2>
-    <p class="lead">El IAE™ (Índice de IA Empresarial) mide cada semana el uso de IA y las horas recuperadas por área. Dale play: Gestión Humana arranca como piloto y empuja a las demás.</p>
+    <p class="lead">El IAE™ (Índice de IA Empresarial) mide cada semana el uso de IA y las horas recuperadas por área. Dale play: tres áreas piloto arrancan primero y empujan a las demás.</p>
     <div class="board" style="margin-top:18px">
       <div class="bar-top">
         <div class="timeline">
@@ -227,8 +238,8 @@ input[type=range]{flex:1;accent-color:var(--red);min-width:0}
     <h2>Qué podríamos construir, <span>área por área.</span></h2>
     <p class="lead">Cada prueba se arma en 1 o 2 sesiones con el equipo del área, sobre sus documentos reales, y se mide antes y después. Las referencias son resultados registrados en un programa IAM™ Intelligence de 2026; en Coquecol se validan en el diagnóstico.</p>
     <div class="filters" role="group" aria-label="Filtrar por área">
-      <button type="button" id="f-all" data-f="all" aria-pressed="false">Todas</button>
-      <button type="button" id="f-gh" data-f="gh" aria-pressed="true">Gestión Humana y SST</button>
+      <button type="button" id="f-all" data-f="all" aria-pressed="true">Todas</button>
+      <button type="button" id="f-gh" data-f="gh" aria-pressed="false">Personas, SST y reputación</button>
       <button type="button" id="f-op" data-f="op" aria-pressed="false">Operación y exportación</button>
       <button type="button" id="f-ad" data-f="ad" aria-pressed="false">Finanzas, jurídica y sostenibilidad</button>
     </div>
@@ -300,7 +311,7 @@ input[type=range]{flex:1;accent-color:var(--red);min-width:0}
         <p class="ref">Referencia real: presentaciones de capacitación de <b>90 → 5 min</b> de preparación.</p>
       </article>
 
-      <article class="poc" data-g="op" hidden>
+      <article class="poc" data-g="op">
         <div class="head"><span class="area">Operación</span><span class="tag">Minas y plantas</span></div>
         <h3>Informe de producción consolidado, sin copiar y pegar</h3>
         <div class="ba">
@@ -311,7 +322,18 @@ input[type=range]{flex:1;accent-color:var(--red);min-width:0}
         <p class="ref">Referencia real: seguimiento de indicadores por servicio y sede de <b>480 → 40 min</b> (−92%).</p>
       </article>
 
-      <article class="poc" data-g="op" hidden>
+      <article class="poc" data-g="op">
+        <div class="head"><span class="area">Comercial internacional</span><span class="tag">Ventas</span></div>
+        <h3>Inteligencia de clientes y propuestas en tres idiomas</h3>
+        <div class="ba">
+          <div class="antes"><b>Hoy</b>Cada cliente siderúrgico se prepara a mano: noticias, volúmenes, especificaciones y propuestas en inglés o portugués.</div>
+          <div class="con"><b>Con IA</b>Un agente arma la ficha de cada cliente y prospecto, prepara la reunión y redacta la propuesta en su idioma.</div>
+        </div>
+        <p class="del"><b>Entregable:</b> fichas de cuenta + plantilla de propuesta comercial multilingüe.</p>
+        <p class="ref">Referencia real: informes para empresas con análisis y respuesta proyectada, de <b>240 → 30 min</b>.</p>
+      </article>
+
+      <article class="poc" data-g="op">
         <div class="head"><span class="area">Logística y exportación</span><span class="tag">Por validar</span></div>
         <h3>Lista de chequeo documental por embarque</h3>
         <div class="ba">
@@ -322,7 +344,7 @@ input[type=range]{flex:1;accent-color:var(--red);min-width:0}
         <p class="ref">Referencia real: revisión de minutas y documentos contractuales de <b>30 → 5 min</b> por caso.</p>
       </article>
 
-      <article class="poc" data-g="ad" hidden>
+      <article class="poc" data-g="ad">
         <div class="head"><span class="area">Tesorería</span><span class="tag">Finanzas</span></div>
         <h3>Saldos bancarios y programación de pagos en un tablero</h3>
         <div class="ba">
@@ -333,7 +355,7 @@ input[type=range]{flex:1;accent-color:var(--red);min-width:0}
         <p class="ref">Referencia real: proyección de <b>30-45 → 2-5 min</b> diarios en consulta de saldos.</p>
       </article>
 
-      <article class="poc" data-g="ad" hidden>
+      <article class="poc" data-g="ad">
         <div class="head"><span class="area">Jurídica y ambiental</span><span class="tag">Cumplimiento</span></div>
         <h3>Revisión de contratos y seguimiento de obligaciones</h3>
         <div class="ba">
@@ -355,6 +377,35 @@ input[type=range]{flex:1;accent-color:var(--red);min-width:0}
         <p class="ref">Referencia real: informe de gestión trimestral de <b>720 → 30 min</b>.</p>
       </article>
 
+    </div>
+  </section>
+
+  <!-- REPUTACIÓN DIGITAL -->
+  <section>
+    <p class="eyebrow">Reputación digital · LinkedIn · IAM™ Ambassadors</p>
+    <h2>La reputación ya se ganó en el sector. <span>Falta que se vea en LinkedIn.</span></h2>
+    <p class="lead">Coquecol está en el top 10 de reputación del sector minero y sus colaboradores dicen sentirse orgullosos de la compañía. En LinkedIn esa historia todavía no se cuenta con la misma fuerza: la página tiene audiencia, pero conversa poco, y las voces de sus líderes y embajadores aún no aparecen.</p>
+    <div class="facts">
+      <div class="fact"><div class="n">15.000</div><div class="l">seguidores en la página de LinkedIn de Coquecol</div><div class="s">Observado en LinkedIn, noviembre 2026</div></div>
+      <div class="fact"><div class="n">Baja</div><div class="l">interacción en las publicaciones frente al tamaño de la audiencia</div><div class="s">Observado en LinkedIn, noviembre 2026</div></div>
+      <div class="fact"><div class="n">20</div><div class="l">embajadores formados en 2023, todavía sin una identidad visual común en sus perfiles</div><div class="s">Informe 2023 y observación en LinkedIn</div></div>
+      <div class="fact"><div class="n">965</div><div class="l">colaboradores que pueden multiplicar el alcance de cada publicación</div><div class="s">Informe de Gestión y Sostenibilidad 2023</div></div>
+    </div>
+    <div class="reach">
+      <div>
+        <p class="eyebrow" style="color:var(--muted)">Alcance potencial · ejercicio ilustrativo</p>
+        <div class="reachrow"><span>Página de Coquecol hoy</span><b>15.000</b></div>
+        <div class="reachrow"><span>+ 20 embajadores activos × 500 contactos cada uno</span><b>+10.000</b></div>
+        <div class="reachrow"><span>+ 60 líderes y profesionales × 500 contactos cada uno</span><b>+30.000</b></div>
+        <div class="reachrow total"><span>Audiencia que puede ver cada mensaje de Coquecol</span><b>55.000</b></div>
+        <p class="src">Supuesto: 500 contactos promedio por perfil, a validar en el diagnóstico. Cálculo: 15.000 + (20 × 500) + (60 × 500) = 55.000, es decir, 3,7 veces la audiencia actual. No descuenta contactos repetidos.</p>
+      </div>
+      <div class="phases">
+        <div><b>1 · Perfil</b><span>Líderes y embajadores con foto, portada y titular alineados a la marca Coquecol, empezando por la gerencia.</span></div>
+        <div><b>2 · Red</b><span>Conexión estratégica con clientes siderúrgicos, proveedores, gremios, comunidades y talento minero.</span></div>
+        <div><b>3 · Contenido con IA</b><span>Cada embajador con un asistente que escribe con la voz de Coquecol: seguridad, sostenibilidad, gente y exportación.</span></div>
+        <div><b>4 · Medición</b><span>Alcance, interacción e índice SSI de LinkedIn por embajador, cada mes, en el mismo tablero del IAE™.</span></div>
+      </div>
     </div>
   </section>
 
@@ -390,9 +441,9 @@ input[type=range]{flex:1;accent-color:var(--red);min-width:0}
   <!-- RUTA -->
   <section>
     <p class="eyebrow">Cómo empezamos · Método DIAL-3R™</p>
-    <h2>Un piloto en Gestión Humana <span>que se gana el resto de la empresa.</span></h2>
+    <h2>Un piloto con tres áreas <span>que se gana al resto de la empresa.</span></h2>
     <div class="route">
-      <div class="step"><div class="w">Semana 1</div><h3>Diagnóstico</h3><p>Mapeamos con Gestión Humana y SST sus 10 tareas que más horas consumen y medimos el tiempo actual.</p></div>
+      <div class="step"><div class="w">Semana 1</div><h3>Diagnóstico</h3><p>Elegimos con la gerencia 3 áreas piloto, por ejemplo Operación, Comercial y Gestión Humana, y medimos el tiempo de sus 10 tareas más pesadas.</p></div>
       <div class="step"><div class="w">Semanas 2 a 6</div><h3>Pruebas de concepto</h3><p>Construimos 2 o 3 agentes sobre sus documentos reales, con sesiones semanales y acompañamiento entre sesiones.</p></div>
       <div class="step"><div class="w">Semana 8</div><h3>IAE™ y expansión</h3><p>Presentamos a la gerencia las horas recuperadas y el plan para llevarlo a operación, logística y finanzas.</p></div>
     </div>
@@ -400,8 +451,8 @@ input[type=range]{flex:1;accent-color:var(--red);min-width:0}
   </section>
 
   <section class="cta">
-    <h2>Próximo paso: <span>un diagnóstico de 1 semana en Gestión Humana.</span></h2>
-    <p>Elegimos juntos las tareas, medimos el tiempo de hoy y en la semana 2 ya hay un agente funcionando con documentos de Coquecol.</p>
+    <h2>Próximo paso: <span>un diagnóstico de 1 semana en 3 áreas piloto.</span></h2>
+    <p>Elegimos juntos las tareas, medimos el tiempo de hoy y en la semana 2 ya hay agentes funcionando con documentos de Coquecol.</p>
     <a class="btn" target="_blank" rel="noopener" href="https://calendly.com/sandracurvelo-mentoraventasdigitales-ia/sesio-exploratoria-ventas-digitales-con-ia?utm_source=coquecol&amp;utm_medium=reunion&amp;utm_campaign=iam_intelligence">Agendar la sesión de diagnóstico →</a>
   </section>
 
@@ -413,7 +464,7 @@ input[type=range]{flex:1;accent-color:var(--red);min-width:0}
 
 <script>
 (function(){
-  var AREAS=[['Gestión Humana',14,86,1],['Seguridad y Salud en el Trabajo',12,82,1],['Comercial internacional',20,74,0],['Finanzas y tesorería',16,70,0],['Logística y exportación',10,66,0],['Jurídica y ambiental',9,63,0],['Operación minas y plantas',8,58,0],['Compras',12,55,0],['Sostenibilidad y Fundación',15,61,0]];
+  var AREAS=[['Operación minas y plantas',10,84,1],['Comercial internacional',18,86,1],['Gestión Humana',14,82,1],['Logística y exportación',10,72,0],['Finanzas y tesorería',16,70,0],['Seguridad y Salud en el Trabajo',12,68,0],['Jurídica y ambiental',9,63,0],['Compras',12,58,0],['Sostenibilidad y Fundación',15,64,0]];
   var W=12, week=12, timer=null;
   function rng(s){return function(){s=(s*16807)%2147483647;return (s-1)/2147483646;};}
   var r=rng(29), data=AREAS.map(function(a,i){
@@ -451,8 +502,8 @@ input[type=range]{flex:1;accent-color:var(--red);min-width:0}
       var dy=(before[el.dataset.name]||0)-el.getBoundingClientRect().top;if(dy){el.style.transition='none';el.style.transform='translateY('+dy+'px)';
       requestAnimationFrame(function(){el.style.transition='';el.style.transform='';});}});}
     var t;
-    if(week===1) t='<b>Semana 1:</b> línea base. Gestión Humana y SST arrancan el piloto; las demás áreas todavía no usan IA con método.';
-    else if(week<=4) t='<b>Semana '+week+':</b> el piloto de Gestión Humana y SST toma ventaja. '+(best.d>0?'<b>'+best.name+'</b> sube '+best.d+' puntos esta semana.':'');
+    if(week===1) t='<b>Semana 1:</b> línea base. Operación, Comercial y Gestión Humana arrancan como piloto; las demás áreas todavía no usan IA con método.';
+    else if(week<=4) t='<b>Semana '+week+':</b> las tres áreas piloto toman ventaja. '+(best.d>0?'<b>'+best.name+'</b> sube '+best.d+' puntos esta semana.':'');
     else t='<b>Semana '+week+':</b> '+(best.d>0?'<b>'+best.name+'</b> sube '+best.d+' puntos. ':'')+(worst.d<0?'<b>'+worst.name+'</b> baja '+Math.abs(worst.d)+': sesión de refuerzo. ':'')+'Lidera <b>'+sorted[0].name+'</b> con '+sorted[0].v+'/100.';
     document.getElementById('readout').innerHTML=t;
   }
