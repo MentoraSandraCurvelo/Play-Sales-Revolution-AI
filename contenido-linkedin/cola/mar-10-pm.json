@@ -1,9 +1,9 @@
 {
   "id": "mar-10-pm",
-  "estado": "aprobado",
+  "estado": "publicado",
   "programado_bogota": "2026-11-10 17:30",
   "imagen": "contenido-linkedin/imagenes/mar-10-pm.jpg",
-  "urn": null,
+  "urn": "urn:li:share:7526050318649044992",
   "payload": {
     "author": "urn:li:person:tsJbwdb3B2",
     "commentary": "Tus próximos clientes ya te están escribiendo. Solo que lo hacen en los comentarios.\n\nEntre los \"felicitaciones\" y los \"excelente aporte\", a veces aparece alguien que pregunta cómo se hace. O que cuenta que tiene el mismo problema.\n\nEso no es un comentario. Es una señal de compra.\n\nAsí lo trabajo con la {hashtag|\\#|IA}:\n\n1. Le paso los comentarios de mi publicación.\n2. Los ordena por intención: interés comercial, conversación o saludo.\n3. Me explica por qué cada persona podría ser un cliente.\n4. Me propone la respuesta, y yo decido si sale.\n\nLa IA no vende por mí. Me ayuda a no dejar a nadie esperando.\n\nEso es {hashtag|\\#|SocialSelling} con método.\n\n¿Cuántos posibles clientes se quedaron sin respuesta en tus comentarios el último mes?\n\nSígueme si quieres ver cómo uso la IA para vender en LinkedIn sin perder el criterio.\n\n{hashtag|\\#|SocialSelling} {hashtag|\\#|Ventas} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
@@ -20,5 +20,6 @@
   "alt": "Tus próximos clientes ya te están escribiendo. Solo que lo hacen en los comentarios.",
   "foto_origen": "Dropbox /1-IAM™/Fotos Profesionales (4675)",
   "aprobado_por": "Sandra",
-  "aprobado_el": "2026-11-05"
+  "aprobado_el": "2026-11-05",
+  "publicado_utc": "2026-11-10T22:37:03+00:00"
 }
