@@ -1,6 +1,6 @@
 {
   "id": "jue-19-pm",
-  "estado": "pendiente_aprobacion",
+  "estado": "aprobado",
   "programado_bogota": "2026-11-19 17:30",
   "urn": null,
   "encuesta": {
@@ -25,5 +25,7 @@
     "lifecycleState": "PUBLISHED",
     "isReshareDisabledByAuthor": false
   },
-  "nota": "Cambiado el 11 nov (Sandra aprobó el cambio de tema porque repetía mie-11-am). Texto nuevo por aprobar. Encuesta nueva."
+  "nota": "Encuesta nueva aprobada el 11 nov.",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-11"
 }

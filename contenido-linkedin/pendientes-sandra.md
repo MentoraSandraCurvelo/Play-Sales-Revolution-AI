@@ -14,7 +14,7 @@ Actualizado: 10 nov 2026, 7:15 a. m.
 - [Sandra] Aprobar las plantillas de mensajes de prospección (pendientes desde el 3 nov).
 
 ## Contenido por aprobar
-- (Claude) Diseñar carrusel lun-16-pm (5 tareas, cambiado 11 nov) y textos nuevos lun-16-pm y jue-19-pm por aprobar; hacer imágenes y mostrarlas: mie-18-pm, vie-20-am; elegir fotos para mar-17-am y sab-21; diseñar el carrusel mie-18-am (textos aprobados el 10 nov).
+- (Claude) Diseñar carrusel lun-16-pm (5 tareas, cambiado 11 nov) (textos aprobados 11 nov, mostrar carrusel antes del dom 15); hacer imágenes y mostrarlas: mie-18-pm, vie-20-am; elegir fotos para mar-17-am y sab-21; diseñar el carrusel mie-18-am (textos aprobados el 10 nov).
 - (Claude) Proponer primeros comentarios de los 8 posts aprobados el 10 nov.
 - (Claude) Guía en PDF "La semana del vendedor con IA" para la newsletter del 26 nov (aprobado el 10 nov).
 - (Claude) Desde la semana 5: 2 posts al mes de IA en el sector público (aprobado el 10 nov).

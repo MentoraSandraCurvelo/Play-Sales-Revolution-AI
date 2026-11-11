@@ -1,6 +1,6 @@
 {
   "id": "lun-16-pm",
-  "estado": "pendiente_aprobacion",
+  "estado": "texto_aprobado_falta_carrusel",
   "programado_bogota": "2026-11-16 17:30",
   "urn": null,
   "payload": {
@@ -15,5 +15,7 @@
     "lifecycleState": "PUBLISHED",
     "isReshareDisabledByAuthor": false
   },
-  "nota": "Cambiado el 11 nov (Sandra aprobó el cambio de tema porque repetía mie-11-am). Texto nuevo por aprobar. Formato: carrusel PDF por diseñar."
+  "nota": "Texto aprobado el 11 nov. No publicar hasta tener el carrusel PDF aprobado por Sandra (entonces pasa a 'aprobado'). Sin primer comentario aún.",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-11"
 }
