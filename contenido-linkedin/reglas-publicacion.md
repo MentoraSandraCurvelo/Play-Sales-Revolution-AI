@@ -113,7 +113,7 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 
 ## 16. Calendario de lunes a domingo, todas las semanas (3 nov 2026, decisión de Sandra)
 
-- Lunes a viernes: 2 posts (7:30 a. m. y 5:30 p. m.). Sábado: 1 post (9:00 a. m.). Domingo: 1 post (5:00 p. m.). Hora Bogotá.
+- Lunes a viernes: 2 posts (7:30 a. m. y 3:30 p. m.; el de la tarde pasó de 5:30 a 3:30 el 11 nov 2026, decisión de Sandra; algunos días un tercero a las 12:30 p. m.). Medir del 11 al 27 nov y comparar interacción contra los posts de las 5:30. Sábado: 1 post (9:00 a. m.). Domingo: 1 post (5:00 p. m.). Hora Bogotá.
 - Cada jueves Claude arma el calendario completo de la semana siguiente (lunes a domingo) con textos, imágenes y primeros comentarios, para que Sandra lo apruebe el jueves o el viernes. Nada sale sin su sí.
 - Mezcla semanal: casos privados, sector público (sin mezclar en un mismo post), método (IAE™, DIAL-3R™), tableros con datos de ejemplo, historia de Sandra, IA práctica, fin de semana más cercano.
 - Colores en rotación (regla 15).
