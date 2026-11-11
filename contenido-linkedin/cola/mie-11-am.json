@@ -1,9 +1,9 @@
 {
   "id": "mie-11-am",
-  "estado": "aprobado",
+  "estado": "publicado",
   "programado_bogota": "2026-11-11 07:30",
   "imagen": "contenido-linkedin/imagenes/mie-11-am.jpg",
-  "urn": null,
+  "urn": "urn:li:share:7526261760077721600",
   "payload": {
     "author": "urn:li:person:tsJbwdb3B2",
     "commentary": "Recuperar horas con IA es la fase 1.\n\nLa fase 2 es la que casi nadie planea: ¿en qué se van a usar esas horas?\n\nSi no se decide, pasa lo de siempre: el tiempo libre se llena con más reuniones, más correos y más pendientes. Y la gerencia pregunta, con razón, dónde está el retorno.\n\nPor eso, cuando un área recupera horas, trabajo con el líder 3 preguntas:\n\n⭕ ¿Qué tarea de más valor se deja de hacer hoy por falta de tiempo?\n\n⭕ ¿Cuántas de las horas recuperadas van a ir ahí?\n\n⭕ ¿Cómo se va a ver eso en ventas, servicio o costos?\n\nAsí la conversación pasa de \"ahorramos tiempo\" a \"esto se ve en el {hashtag|\\#|EBIT}\".\n\nLas horas recuperadas son la materia prima. La {hashtag|\\#|Productividad} real está en lo que haces con ellas.\n\n¿En qué invertiría tu equipo 4 horas más a la semana?\n\nSígueme si quieres ver cómo se conecta la IA con los resultados financieros.\n\n{hashtag|\\#|EBIT} {hashtag|\\#|Productividad} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
@@ -19,5 +19,6 @@
   "primer_comentario": "Un ejercicio sencillo: al cierre de cada mes, pídele a cada área que escriba en una línea en qué usó el tiempo que le devolvió la IA. En 3 meses tienes la historia que tu gerencia quiere escuchar.",
   "alt": "Recuperar horas con IA es la fase 1.",
   "aprobado_por": "Sandra",
-  "aprobado_el": "2026-11-05"
+  "aprobado_el": "2026-11-05",
+  "publicado_utc": "2026-11-11T12:37:15+00:00"
 }
