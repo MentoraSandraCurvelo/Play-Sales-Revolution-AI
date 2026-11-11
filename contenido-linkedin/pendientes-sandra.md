@@ -24,5 +24,5 @@ Actualizado: 10 nov 2026, 7:15 a. m.
 
 ## Videos por grabar (recordar siempre)
 - ✅ Nota de voz "El vendedor que hace caso" GRABADA el 10 nov (Dropbox, quedó como "Calle 109.m4a" en /0-Contabilidad/0. Facturas/01. Servicios Públicos/Emdupar Agua/2026/). Claude arma el video con subtítulos. Cortes: 34.3 a 107.9 s y cierre 117.2 a 121 s ("¿o le hace caso al cliente?").
-- Video 5 ajustes (mié 18, 12:30 p. m.): guion listo (ajuste 5 y AJUSTES aprobados el 10 nov). Grabar el 11 nov. Claude: guía PDF de los 5 ajustes.
-- Video guía "La semana del vendedor con IA" (vie 20, 5:30 p. m.): guion "Video guía". Pantalla dividida con la guía arriba. Antes del mié 18.
+- Video 5 ajustes (mié 18, 11:30 a. m.): guion listo (ajuste 5 y AJUSTES aprobados el 10 nov). Grabar el 11 nov. Claude: guía PDF de los 5 ajustes.
+- Video guía "La semana del vendedor con IA" (vie 20, 3:00 p. m.): guion "Video guía". Pantalla dividida con la guía arriba. Antes del mié 18.
