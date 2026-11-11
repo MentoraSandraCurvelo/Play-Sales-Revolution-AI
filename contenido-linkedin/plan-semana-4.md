@@ -15,7 +15,7 @@ Mezcla: IA empresarial 8 (47%), ventas con IA y social selling 5 (29%), marca pr
 | Mié 18 | 5:30 | IA | Imagen dato | La confianza también se mide: de 4,7 a 8,6 en 9 semanas | Nuevo |
 | Jue 19 | 7:30 | Embajadores | Texto | Tu empresa tiene cientos de empleados en LinkedIn y solo publica la página | Nuevo |
 | Jue 19 | 12:30 | Ventas | Video Alpina | No llames en frío, llega sabiendo | Aprobado |
-| Jue 19 | 5:30 | IA | Encuesta | ¿En qué invertirías las horas que te devuelve la IA? | Nuevo |
+| Jue 19 | 5:30 | IA | Encuesta | ¿Qué frena la IA en tu empresa? (cambiado el 11 nov) | Nuevo |
 | Vie 20 | 7:30 | IA | Texto + tablero | Piloto por área: así se ve la semana 1, la 5 y la 9 | Nuevo |
 | Vie 20 | 12:30 | IA | Video gorra negra | Agente que actualiza el CRM (cambiar lámina final) | Aprobado, falta lámina |
 | Vie 20 | 5:30 | Ventas + IA | Video o PDF | Lanzamiento de la guía "La semana del vendedor con IA" (idea de Sandra, 10 nov), con palabra clave | Nuevo, prioridad |
