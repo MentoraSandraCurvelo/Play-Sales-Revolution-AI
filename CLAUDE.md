@@ -27,6 +27,7 @@ Siempre que una pieza pida comentar una palabra clave, antes de publicarla:
 3. Recordarle a Sandra que comparta la guía con "cualquier persona con el enlace".
 
 ## Publicación
+**PAUSA TOTAL (11 nov 2026, 4:30 p. m.):** Sandra pidió no publicar nada en Instagram (feed, reels, carruseles ni historias) hasta que ella lo diga. Todas las publicaciones programadas quedaron desactivadas. No reactivar ninguna sin su orden explícita.
 Todo reel lleva portada propia (7 nov 2026): foto de Sandra del mismo video con el título en Claude Design. Se le muestran 2 opciones, ella escoge y la portada se publica con `cover_url`. Ningún reel sale con la portada automática de Instagram.
 Sandra graba y aprueba el material; Claude decide la fecha y la hora de publicación de las piezas aprobadas, las programa y le avisa cada vez (4 nov 2026). Lo que no ha visto Sandra no se publica.
 
