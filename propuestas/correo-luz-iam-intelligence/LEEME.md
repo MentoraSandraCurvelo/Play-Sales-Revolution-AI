@@ -21,7 +21,7 @@
 
 ## Antes de enviar
 1. Subir `tablero-iae.gif` a la herramienta de envío y reemplazar `src="tablero-iae.gif"` por la URL que entregue.
-2. Reemplazar `{{nombre}}` por la etiqueta de nombre de la herramienta, `[Apellido]` y `[WhatsApp de Luz]` por sus datos, y `{{unsubscribe}}` por el enlace de baja.
+2. Reemplazar `{{nombre}}` por la etiqueta de nombre de la herramienta, `[WhatsApp de Luz]` por su número (el apellido Amaya ya está puesto), y `{{unsubscribe}}` por el enlace de baja.
 3. Activar el enlace público del tablero (menú Compartir en https://claude.ai/artifact/V4eeegecLF5s1NyW9WcZEF).
 
 ## Asuntos para prueba A/B
