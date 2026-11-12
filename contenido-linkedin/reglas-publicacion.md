@@ -200,3 +200,7 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Cuando un post hable a un sector (cámaras, gremios, cajas, entidades), etiquetar las páginas de 3 a 5 organizaciones relevantes. Máximo 5 por post para no verse como spam.
 - Para posts que publica Claude por API: dejar en el JSON el campo "etiquetar" con las páginas; Chrome edita el post apenas sale y agrega las menciones (deben quedar en azul, enlazadas a la página).
 - Primer caso: jue-12-pm (cámaras y gremios), etiquetas agregadas por Chrome después de publicado.
+
+## 33. Aprobación de comentarios de visibilidad (12 nov 2026, Sandra: opción 1)
+- Todo comentario en cuentas de otros necesita el sí de Sandra. Chrome no publica ninguno por su cuenta.
+- Flujo: lun a vie 9:07 a. m. Claude le recuerda a Sandra pegar en Chrome el pedido de 5 comentarios; Sandra pega la lista aquí, Claude la revisa y Sandra aprueba.
