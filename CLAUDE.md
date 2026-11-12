@@ -28,6 +28,7 @@ Siempre que una pieza pida comentar una palabra clave, antes de publicarla:
 
 ## Publicación
 **PAUSA TOTAL (11 nov 2026, 4:30 p. m.):** Sandra pidió no publicar nada en Instagram (feed, reels, carruseles ni historias) hasta que ella lo diga. Todas las publicaciones programadas quedaron desactivadas. No reactivar ninguna sin su orden explícita.
+**Prueba de alcance (12 nov 2026):** los reels nuevos no se publican por la API. Claude le entrega a Sandra el paquete (video, portada aprobada y texto) en `estrategia/instagram/para-subir-app/` y ella los sube desde la app. Se compara el alcance a 48 h contra los 3 reels publicados por API (promedio 71) y contra la mediana histórica (411). La pausa total sigue hasta que Sandra diga la fecha.
 Todo reel lleva portada propia (7 nov 2026): foto de Sandra del mismo video con el título en Claude Design. Se le muestran 2 opciones, ella escoge y la portada se publica con `cover_url`. Ningún reel sale con la portada automática de Instagram.
 Sandra graba y aprueba el material; Claude decide la fecha y la hora de publicación de las piezas aprobadas, las programa y le avisa cada vez (4 nov 2026). Lo que no ha visto Sandra no se publica.
 
