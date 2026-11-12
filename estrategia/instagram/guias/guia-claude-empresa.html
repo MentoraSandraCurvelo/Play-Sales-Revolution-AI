@@ -1,0 +1,201 @@
+<title>Claude para tu empresa</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=IBM+Plex+Sans:wght@400;600&family=JetBrains+Mono:wght@400;700&display=swap">
+<style>
+/* Terminal de Wall Street de una sola página: cinta arriba, portada, fichas de misión con botón Copiar, regla de oro y cierre. Diseño oscuro deliberado (estándar Claude Design de Sandra). */
+:root{
+  --bg:#05070a; --panel:#0c1118; --panel2:#111923; --line:#1f2b38;
+  --fg:#e9eef3; --muted:#9aa6b2; --dim:#6c7986;
+  --iam:#ff2d2d; --iam-deep:#c00000; --up:#19e28b; --amb:#ffb020; --down:#ff4d5e;
+  --serif:"Fraunces",Georgia,"Times New Roman",serif;
+  --sans:"IBM Plex Sans","Helvetica Neue",Arial,sans-serif;
+  --mono:"JetBrains Mono",Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:16px;line-height:1.55;
+  background-image:radial-gradient(900px 520px at 10% -5%,#13233a 0,transparent 60%),radial-gradient(800px 600px at 105% 30%,#2a0b0e 0,transparent 55%)}
+.mono{font-family:var(--mono)}
+.tape{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;overflow:hidden;white-space:nowrap;background:#07090d;border-bottom:1px solid var(--line);font-family:var(--mono);font-size:12px;letter-spacing:.08em;
+  mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:#07090d}
+.track{display:inline-flex;gap:32px;padding:10px 0}
+.track span b{color:var(--fg);font-weight:700}
+.up{color:var(--up)} .amb{color:var(--amb)} .down{color:var(--down)}
+.wrap{max-width:860px;margin:0 auto;padding-block:40px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:28px}
+.brandrow{display:flex;align-items:center;gap:12px;font-family:var(--mono);font-size:12px;letter-spacing:.16em;color:var(--muted)}
+.ring{width:18px;height:18px;border-radius:50%;border:4px solid var(--iam);box-shadow:0 0 14px var(--iam);flex:none}
+.eyebrow{margin:0;font-family:var(--mono);font-size:12px;letter-spacing:.22em;color:var(--iam);font-weight:700;text-transform:uppercase}
+h1{margin:6px 0 0;font-family:var(--serif);font-weight:400;font-size:clamp(36px,7vw,64px);line-height:1.02;letter-spacing:-.01em;text-wrap:balance}
+h1 em,h2 em{font-style:normal;background:linear-gradient(90deg,var(--iam),var(--amb));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{margin:0;max-width:62ch;color:#c4cfda;font-size:17px}
+.lead b{color:#fff}
+.how{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,13rem),1fr));gap:12px}
+.how div{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;font-size:14px;color:var(--muted)}
+.how b{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.16em;color:var(--amb);margin-bottom:4px}
+.how strong{color:var(--fg)}
+h2{margin:18px 0 0;font-family:var(--serif);font-weight:400;font-size:clamp(26px,4.4vw,36px);line-height:1.1;text-wrap:balance}
+.group{display:grid;gap:14px}
+.prompt{position:relative;background:linear-gradient(160deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:14px;overflow:hidden;transition:transform .25s,border-color .25s,box-shadow .25s;transform-style:preserve-3d}
+.prompt:hover{border-color:#2f3f52;box-shadow:0 18px 40px rgba(0,0,0,.45)}
+.p-head{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;padding:12px 16px;border-bottom:1px solid var(--line);background:#0e151e}
+.p-num{font-family:var(--mono);font-weight:700;color:var(--iam);font-size:15px}
+.p-title{font-weight:600;font-size:16px;min-width:0}
+.p-tag{margin-left:auto;font-family:var(--mono);font-size:11px;letter-spacing:.12em}
+.p-body{margin:0;padding:16px 18px 6px;font-family:var(--mono);font-size:14px;line-height:1.65;color:var(--fg);white-space:pre-wrap;overflow-wrap:anywhere}
+.p-body .fill{color:var(--amb)}
+.p-foot{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;padding:8px 18px 16px}
+.p-why{margin:0;flex:1 1 18rem;min-width:0;font-size:14px;color:var(--muted)}
+.p-why b{color:var(--fg)}
+.copy{font:700 12px/1 var(--mono);letter-spacing:.12em;color:var(--fg);background:transparent;border:1px solid var(--iam);border-radius:999px;padding:10px 16px;cursor:pointer;transition:background .2s,color .2s}
+.copy:hover{background:var(--iam);color:#fff}
+.copy:focus-visible{outline:2px solid var(--amb);outline-offset:3px}
+.copy.done{border-color:var(--up);color:var(--up);background:transparent}
+.rule{display:grid;gap:10px;background:linear-gradient(120deg,#1a0a0d,var(--panel));border:1px solid #4a1a20;border-radius:16px;padding:22px}
+.rule p{margin:0;color:#c4cfda;max-width:62ch}
+.rule b{color:#fff}
+.stage{position:relative;height:118px;margin-top:6px}
+.isaia{position:absolute;bottom:0;left:0;display:grid;justify-items:center;gap:6px;width:220px}
+.say{position:relative;background:#0b1118;border:1px solid #2a3847;border-radius:12px;padding:8px 12px;font-size:13px;line-height:1.35;width:220px;box-shadow:0 8px 20px rgba(0,0,0,.45)}
+.say::after{content:"";position:absolute;bottom:-6px;left:50%;width:10px;height:10px;background:#0b1118;border-right:1px solid #2a3847;border-bottom:1px solid #2a3847;transform:translateX(-50%) rotate(45deg)}
+.say p{margin:0}.say p[hidden]{display:none}
+.say b{color:var(--up)}
+.bot{width:42px;height:42px}
+.end{display:grid;gap:12px;text-align:left;border-top:1px solid var(--line);padding-top:24px}
+.end p{margin:0;color:#c4cfda;max-width:62ch}
+.end b{color:#fff}
+.sign{font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:var(--dim)}
+@media (prefers-reduced-motion:no-preference){
+  .track{animation:tape 40s linear infinite}
+  .isaia{animation:walk 20s ease-in-out infinite}
+  .bot{animation:bob .9s ease-in-out infinite}
+  .face{animation:face 20s steps(1) infinite;transform-box:fill-box;transform-origin:center}
+  .prompt{animation:rise .6s cubic-bezier(.2,.8,.2,1) both}
+  .say p:not([hidden]){animation:fade .4s ease-out}
+}
+@keyframes tape{to{transform:translateX(-50%)}}
+@keyframes walk{0%{left:0;transform:translateX(0)}50%{left:100%;transform:translateX(-100%)}100%{left:0;transform:translateX(0)}}
+@keyframes bob{50%{transform:translateY(-3px)}}
+@keyframes face{0%{transform:scaleX(1)}50%{transform:scaleX(-1)}}
+@keyframes rise{from{transform:translateY(10px)}to{transform:none}}
+@keyframes fade{from{opacity:.2}to{opacity:1}}
+</style>
+
+<div class="tape" aria-hidden="true"><div class="track">
+  <span><b>PROYECTOS</b> <span class="up">▲ MEMORIA DE TU NEGOCIO</span></span><span><b>CONECTORES</b> <span class="up">▲ CORREO, CALENDARIO, DRIVE</span></span><span><b>CLAUDE EN CHROME</b> <span class="amb">● TRABAJA EN TU NAVEGADOR</span></span><span><b>TAREAS REPETIDAS</b> <span class="down">▼ EN BAJA</span></span><span><b>APROBACIÓN</b> <span class="amb">● SIEMPRE TÚ</span></span>
+  <span><b>PROYECTOS</b> <span class="up">▲ MEMORIA DE TU NEGOCIO</span></span><span><b>CONECTORES</b> <span class="up">▲ CORREO, CALENDARIO, DRIVE</span></span><span><b>CLAUDE EN CHROME</b> <span class="amb">● TRABAJA EN TU NAVEGADOR</span></span><span><b>TAREAS REPETIDAS</b> <span class="down">▼ EN BAJA</span></span><span><b>APROBACIÓN</b> <span class="amb">● SIEMPRE TÚ</span></span>
+</div></div>
+
+<main class="wrap">
+  <div class="brandrow"><span class="ring"></span>SANDRA CURVELO · IAM™ · LA IA SIN RODEOS</div>
+  <header>
+    <p class="eyebrow">Guía · Comenta CLAUDE</p>
+    <h1>¿Vale la pena Claude para tu empresa? <em>Úsalo una semana y decide tú.</em></h1>
+  </header>
+  <p class="lead">No es un PDF para leer: <b>es una guía para usar hoy.</b> Te explico qué es Claude, cómo elegir el plan, qué herramientas trae y 5 tareas de negocio que copias con un clic. Al final tienes <b>agentes ya construidos</b> para tu correo, tu prospección y tus ventas.</p>
+
+  <h2>1. Qué es <em>y qué no es.</em></h2>
+  <div class="how">
+    <div><b>QUÉ ES</b><strong>Un asistente de IA de Anthropic</strong> que escribe, analiza documentos y datos, y trabaja con tus herramientas cuando lo conectas.</div>
+    <div><b>QUÉ NO ES</b><strong>No reemplaza tu criterio.</strong> Te propone; tú revisas y apruebas lo que sale a tu nombre.</div>
+    <div><b>LA CLAVE</b><strong>Dale contexto.</strong> Mientras más sabe de tu negocio, mejor trabaja.</div>
+  </div>
+
+  <h2>2. Cómo elegir <em>el plan.</em></h2>
+  <div class="how">
+    <div><b>PARA PROBAR</b><strong>Empieza con el plan gratuito</strong> y haz las 5 tareas de esta guía.</div>
+    <div><b>PARA TRABAJAR A DIARIO</b><strong>Los planes pagos individuales</strong> dan más uso y las funciones avanzadas.</div>
+    <div><b>PARA EQUIPOS</b><strong>Los planes de equipo y empresa</strong> suman administración y controles para la compañía.</div>
+  </div>
+  <p class="lead" style="font-size:14px;color:var(--dim)">Los nombres de los planes, sus precios y lo que incluye cada uno cambian con frecuencia. No te doy cifras aquí para no darte un dato viejo: revisa los precios vigentes en claude.com/pricing antes de decidir.</p>
+
+  <h2>3. Las herramientas <em>que más le sirven a un negocio.</em></h2>
+  <div class="how">
+    <div><b>PROYECTOS</b><strong>Guardas instrucciones y documentos</strong> de tu empresa una sola vez y cada chat los recuerda.</div>
+    <div><b>CONECTORES</b><strong>Lo conectas a tu correo, calendario, Drive</strong> y otras herramientas desde Configuración → Conectores.</div>
+    <div><b>CLAUDE EN CHROME</b><strong>Trabaja contigo en el navegador:</strong> lee una página y te prepara la acción para que tú la apruebes.</div>
+  </div>
+  <p class="lead" style="font-size:14px;color:var(--dim)">Lo disponible en cada herramienta depende de tu plan y de las actualizaciones de Claude. Si un menú no aparece igual, búscalo en Configuración.</p>
+
+  <h2>4. Cinco tareas <em>para medir si te sirve.</em></h2>
+  <p class="lead">Hazlas esta semana y anota cuánto tiempo te ahorró cada una. Así decides con tus números, no con los de otro. Cambia lo que está en <span class="fill">[corchetes]</span>.</p>
+  <section class="group">
+    <article class="prompt"><div class="p-head"><span class="p-num">01</span><span class="p-title">Tu negocio en un proyecto</span><span class="p-tag up">▲ BASE</span></div>
+      <p class="p-body">Soy <span class="fill">[tu nombre]</span>, <span class="fill">[tu cargo]</span> en <span class="fill">[tu empresa]</span>. Vendemos <span class="fill">[producto o servicio]</span> a <span class="fill">[cliente ideal]</span>. Nuestro tono es <span class="fill">[cercano / ejecutivo]</span>. Recuerda esto en cada respuesta y, si te falta información, pregúntame antes de inventar.</p>
+      <div class="p-foot"><p class="p-why"><b>Por qué funciona:</b> pegado en las instrucciones de un Proyecto, Claude ya conoce tu negocio en cada chat.</p><button class="copy" type="button">COPIAR</button></div></article>
+    <article class="prompt"><div class="p-head"><span class="p-num">02</span><span class="p-title">Propuesta comercial en minutos</span><span class="p-tag up">▲ VENTAS</span></div>
+      <p class="p-body">Con estas notas de la reunión <span class="fill">[pega tus notas]</span>, escribe una propuesta de una página para <span class="fill">[cliente]</span>: problema, solución, entregables, tiempos y siguiente paso. Tono ejecutivo y sin relleno.</p>
+      <div class="p-foot"><p class="p-why"><b>Por qué funciona:</b> pasas de notas sueltas a un documento listo para revisar.</p><button class="copy" type="button">COPIAR</button></div></article>
+    <article class="prompt"><div class="p-head"><span class="p-num">03</span><span class="p-title">Responder una objeción</span><span class="p-tag up">▲ CIERRE</span></div>
+      <p class="p-body">Un cliente me dijo: "<span class="fill">[objeción]</span>". Dame 3 formas de responder: una con datos, una con un caso y una con una pregunta. Máximo 3 líneas cada una.</p>
+      <div class="p-foot"><p class="p-why"><b>Por qué funciona:</b> llegas a la llamada con respuestas preparadas, no improvisadas.</p><button class="copy" type="button">COPIAR</button></div></article>
+    <article class="prompt"><div class="p-head"><span class="p-num">04</span><span class="p-title">Ordenar un reporte</span><span class="p-tag amb">● ANÁLISIS</span></div>
+      <p class="p-body">Te adjunto <span class="fill">[archivo de ventas o Excel]</span>. Dime en 5 puntos qué subió, qué bajó y qué decisión tomarías. Si un dato no está en el archivo, dímelo en vez de suponerlo.</p>
+      <div class="p-foot"><p class="p-why"><b>Por qué funciona:</b> lees el reporte en 2 minutos y no en una hora.</p><button class="copy" type="button">COPIAR</button></div></article>
+    <article class="prompt"><div class="p-head"><span class="p-num">05</span><span class="p-title">Contenido para LinkedIn</span><span class="p-tag amb">● MARCA</span></div>
+      <p class="p-body">Escribe un post de LinkedIn de máximo 150 palabras sobre <span class="fill">[tema de tu experiencia]</span>, con un gancho en la primera línea, una lección práctica y una pregunta al final. Sin emojis ni hashtags.</p>
+      <div class="p-foot"><p class="p-why"><b>Por qué funciona:</b> mantienes tu marca profesional activa sin quitarle horas a vender.</p><button class="copy" type="button">COPIAR</button></div></article>
+  </section>
+
+  <h2>5. Agentes <em>ya construidos.</em></h2>
+  <p class="lead">Cuando estas tareas te funcionen, da el siguiente paso: <b>agentes que copias y pegas, y quedan trabajando contigo.</b></p>
+  <div class="how">
+    <div><b>CORREO</b><strong>Ordena tu bandeja de Outlook o Gmail</strong> y te deja los borradores. <a href="https://claude.ai/artifact/7VxGosBCqtzQCxnQBxXvLW" style="color:var(--amb)">Abrir el agente</a></div>
+    <div><b>PROSPECTA</b><strong>Prepara tus invitaciones de LinkedIn</strong> con una nota de 200 caracteres. <a href="https://claude.ai/artifact/Tix2SJ7XqErC26XsbkbHt9" style="color:var(--amb)">Abrir el agente</a></div>
+    <div><b>VENTAS</b><strong>Tu agente comercial</strong> con 6 tareas de IA agéntica. <a href="https://claude.ai/artifact/2C6WmB3NDLUKMLLr72xGnB" style="color:var(--amb)">Abrir el agente</a></div>
+  </div>
+
+  <section class="rule">
+    <p class="eyebrow">La regla de oro</p>
+    <h2 style="margin:0">Claude propone. <em>Tú decides.</em></h2>
+    <p>Vale la pena cuando te devuelve horas para lo que nadie más puede hacer por ti: <b>conversar con tus clientes.</b></p>
+    <div class="stage" aria-label="Isaía, asistente de Sandra">
+      <div class="isaia">
+        <div class="say">
+          <p>Empieza por la tarea <b>01</b>.</p>
+          <p hidden>Mide el tiempo que <b>te ahorra</b>.</p>
+          <p hidden>Revisa los precios en <b>claude.com/pricing</b>.</p>
+          <p hidden>Lo que sale a tu nombre <b>lo apruebas tú</b>.</p>
+        </div>
+        <svg class="bot" viewBox="0 0 44 44" role="img" aria-label="Isaía"><g class="face">
+          <line x1="22" y1="3" x2="22" y2="9" stroke="#ff2d2d" stroke-width="2" stroke-linecap="round"/><circle cx="22" cy="3" r="2.5" fill="#ff2d2d"/>
+          <rect x="7" y="9" width="30" height="24" rx="9" fill="#1b2633" stroke="#3a4b5e" stroke-width="1.5"/><rect x="11" y="14" width="22" height="12" rx="5" fill="#06080b"/>
+          <circle cx="17" cy="20" r="2.4" fill="#19e28b"/><circle cx="27" cy="20" r="2.4" fill="#19e28b"/><circle cx="22" cy="38" r="5" fill="none" stroke="#ff2d2d" stroke-width="2.5"/></g></svg>
+      </div>
+    </div>
+  </section>
+
+  <footer class="end">
+    <p><b>¿Quieres implementar Claude en tu equipo comercial?</b> Escríbeme por mensaje directo en Instagram o en LinkedIn y lo conversamos.</p>
+    <p class="sign">⭕ SANDRA CURVELO · MENTORA EN VENTAS DIGITALES Y MARCA PROFESIONAL · @SANDRACURVELO_IAM</p>
+  </footer>
+</main>
+
+<script>
+(() => {
+  const calm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.prompt').forEach((card, i) => {
+    if (!calm) card.style.animationDelay = (i * 50) + 'ms';
+    if (calm) return;
+    card.addEventListener('pointermove', (e) => {
+      const r = card.getBoundingClientRect();
+      const x = (e.clientX - r.left) / r.width - .5, y = (e.clientY - r.top) / r.height - .5;
+      card.style.transform = `perspective(900px) rotateX(${(-y * 3).toFixed(2)}deg) rotateY(${(x * 4).toFixed(2)}deg)`;
+    });
+    card.addEventListener('pointerleave', () => { card.style.transform = ''; });
+  });
+  document.querySelectorAll('.copy').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const body = btn.closest('.prompt').querySelector('.p-body');
+      const text = body.innerText.trim();
+      const ok = () => { btn.textContent = 'COPIADO ✓'; btn.classList.add('done'); setTimeout(() => { btn.textContent = 'COPIAR'; btn.classList.remove('done'); }, 1800); };
+      const fallback = () => { const s = window.getSelection(), rg = document.createRange(); rg.selectNodeContents(body); s.removeAllRanges(); s.addRange(rg); btn.textContent = 'SELECCIONADO'; };
+      try { navigator.clipboard.writeText(text).then(ok, fallback); } catch (e) { fallback(); }
+    });
+  });
+  const lines = [...document.querySelectorAll('.say p')];
+  let ix = 0;
+  setInterval(() => { ix = (ix + 1) % lines.length; lines.forEach((p, i) => { p.hidden = i !== ix; }); }, 4500);
+})();
+</script>
