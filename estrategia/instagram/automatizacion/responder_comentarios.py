@@ -41,7 +41,13 @@ PALABRAS = [
      "¡Hola! Gracias por comentar 🙌 Ya te paso tu tablero para crear tu agente comercial con Claude. No es un PDF: "
      "es una página interactiva con la misión CREA y 6 tareas de IA agéntica que copias con un clic 👉 "
      "https://claude.ai/artifact/2C6WmB3NDLUKMLLr72xGnB Cuéntame cuál te funcionó. Sandra"),
-    (re.compile(r"\b(claude|linkedin)\b", re.I),
+    # CLAUDE (reel "La IA sin rodeos | Claude", 11 nov 2026): guía Claude para empresas. Aprobado por Sandra el 12 nov 2026.
+    (re.compile(r"\bclaude\b", re.I),
+     "¡Hola! Gracias por comentar 🙌 Aquí tienes la información que te prometimos: tu guía para saber si Claude vale la pena para tu empresa, "
+     "qué es, qué planes hay, qué herramientas trae y 5 tareas que puedes copiar con un clic 👉 "
+     "https://claude.ai/artifact/Ng9wvgLnwoH7fGTWQW8GoN Cuéntame qué tarea probaste primero. Sandra",
+     "¡Ya te mandé tu guía por mensaje directo! 📩"),
+    (re.compile(r"\blinkedin\b", re.I),
      "¡Hola! Gracias por comentar 🙌 Ya te paso tu tablero con los prompts que uso con Claude para mi LinkedIn. "
      "No es un PDF: es una página interactiva donde copias cada prompt con un clic 👉 "
      "https://claude.ai/artifact/XMtd5GiGfXSuGePjeaZRmX Cuéntame cuál te funcionó. Sandra"),
