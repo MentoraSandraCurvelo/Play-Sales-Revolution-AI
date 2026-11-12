@@ -47,6 +47,9 @@ No se publica nada en TikTok (videos, comentarios, respuestas, perfil) hasta que
 - Sin "Comenta PALABRA" mientras no exista respuesta automática en TikTok. Cierre propio: seguir, guardar o "parte 2".
 - Sin marcas de agua de otras apps. Audio original de Sandra.
 
+## Comentarios con palabra clave en TikTok (Sandra, 12 nov 2026)
+- No hay respuesta automática en TikTok. Sandra responde a mano y manda el enlace de la guía por mensaje directo (el enlace en un comentario no es clicable). Tikia le deja listo el texto y el enlace correcto de cada palabra (los enlaces salen de PALABRAS en responder_comentarios.py de Isaía).
+
 ## Medición
 - Cortes: 1 hora, 24 horas, 72 horas y 7 días. Tasa = métrica ÷ vistas × 100.
 - Sin "benchmarks de la industria" como meta: la línea base sale de los primeros 10 videos propios. Hasta entonces todo umbral es hipótesis.
