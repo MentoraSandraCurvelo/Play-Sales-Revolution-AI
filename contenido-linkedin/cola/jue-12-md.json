@@ -1,6 +1,6 @@
 {
   "id": "jue-12-md",
-  "estado": "aprobado",
+  "estado": "publicado",
   "programado_bogota": "2026-11-12 11:30",
   "archivo_video": "contenido-linkedin/videos/iae-scifi.mp4",
   "tags": [
@@ -25,8 +25,9 @@
   },
   "aprobado_por": "Sandra",
   "aprobado_el": "2026-11-10",
-  "urn": null,
+  "urn": "urn:li:ugcPost:7526682977511227392",
   "titulo_video": "¿Quién usa de verdad la IA?",
   "primer_comentario_aprobado_el": "2026-11-10",
-  "video": "urn:li:video:D4E10AQEI4nsxz7UvgA"
+  "video": "urn:li:video:D4E10AQEI4nsxz7UvgA",
+  "publicado_utc": "2026-11-12T16:31:01+00:00"
 }
