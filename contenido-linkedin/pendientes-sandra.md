@@ -23,6 +23,7 @@ Actualizado: 10 nov 2026, 7:15 a. m.
 - Fotos reales: las de SAP 2017 son de una cata de vinos de SAP Business One (Medellín, Seidor); Sandra no aparece clara. Preguntar su historia y buscar fotos donde salga ella.
 
 ## Videos por grabar (recordar siempre)
+- (11 nov) Sandra dice que grabará el próximo video en Valledupar. Fecha por confirmar. Si no graba antes del lun 16, mover 5 ajustes (mié 18) y guía (vie 20).
 - ✅ Nota de voz "El vendedor que hace caso" GRABADA el 10 nov (Dropbox, quedó como "Calle 109.m4a" en /0-Contabilidad/0. Facturas/01. Servicios Públicos/Emdupar Agua/2026/). Claude arma el video con subtítulos. Cortes: 34.3 a 107.9 s y cierre 117.2 a 121 s ("¿o le hace caso al cliente?").
 - Video 5 ajustes (mié 18, 11:30 a. m.): guion listo (ajuste 5 y AJUSTES aprobados el 10 nov). Grabar el 11 nov. Claude: guía PDF de los 5 ajustes.
 - Video guía "La semana del vendedor con IA" (vie 20, 3:00 p. m.): guion "Video guía". Pantalla dividida con la guía arriba. Antes del mié 18.
