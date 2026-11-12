@@ -32,4 +32,4 @@ Sin resultados: MinTIC y líderes de IA de Latinoamérica (últimas 48 horas).
 - Like, primer comentario (https://www.linkedin.com/feed/update/urn:li:activity:7526374619809882112?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7526374619809882112%2C7526438893773041665%29) y compartido IAM™ frase 3. Pendiente: Chrome prueba el link de suscripción (slug viejo ia-ventas=-exito-garantizado).
 
 ## 12 nov 2026 · Primer comentario en newsletter edición 1
-- Aprobado por Sandra (prueba para activar AGENTE): "Si lideras un equipo comercial y quieres la guía para montar tu propio agente de LinkedIn, escribe AGENTE aquí abajo y te la envío." Enviado a Chrome. Medir comentarios AGENTE el lun 16.
+- Aprobado por Sandra (prueba para activar AGENTE): "Si lideras un equipo comercial y quieres la guía para montar tu propio agente de LinkedIn, escribe AGENTE aquí abajo y te la envío." PUBLICADO 12 nov desde perfil personal (Author): https://www.linkedin.com/feed/update/urn:li:ugcPost:7523445934811320321?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7523445934811320321%2C7526685534820220929%29 . Medir comentarios AGENTE el lun 16.
