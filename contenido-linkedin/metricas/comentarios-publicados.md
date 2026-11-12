@@ -27,3 +27,6 @@ Sin resultados: MinTIC y líderes de IA de Latinoamérica (últimas 48 horas).
 - Jorge Iván Ramírez Cadavid (Presidente Ejecutivo, Cámara de Pereira), Feria del Libro (texto acortado por Claude, aprobado). PUBLICADO 11 nov, reacción Interesante: https://www.linkedin.com/feed/update/urn:li:ugcPost:7525228354648727552?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7525228354648727552%2C7526355458895507457%29
 - Liliana Gómez Arenas (CEO GreenSQA, 1º grado, aliada potencial), Valle Inspira 2026. PUBLICADO 11 nov, reacción Interesante: https://www.linkedin.com/feed/update/urn:li:activity:7524962070933700608?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7524962070933700608%2C7526356129304481792%29
 - Total 11 nov: 4 comentarios de visibilidad (Estrada, Buitrago, Ramírez, Gómez). Medir el lun 16.
+
+## 11 nov 2026 · Parte 1 post expectativa newsletter (3:00 p. m.)
+- Like, primer comentario (https://www.linkedin.com/feed/update/urn:li:activity:7526374619809882112?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7526374619809882112%2C7526438893773041665%29) y compartido IAM™ frase 3. Pendiente: Chrome prueba el link de suscripción (slug viejo ia-ventas=-exito-garantizado).
