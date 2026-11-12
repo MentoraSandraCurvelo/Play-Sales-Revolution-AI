@@ -62,7 +62,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """ + "\n".join(ev) + "\n")
 inp = ["-i", SRC]
 for f, *_ in OV: inp += ["-loop", "1", "-t", str(TOTAL), "-i", f]
-inp += ["-loop", "1", "-t", str(END), "-i", "o5.png", "-stream_loop", "-1", "-i", f"{S}/video1/musica.mp3"]
+inp += ["-loop", "1", "-t", str(END), "-i", "o5.png", "-stream_loop", "-1", "-i", "../musica/musica_pago_1.mp3"]
 n = 1 + len(OV)
 fc = f"[0:v]trim=0:{BODY},setpts=PTS-STARTPTS,scale=1080:1920:flags=lanczos,fps=30,eq=contrast=1.04:saturation=1.06,unsharp=5:5:0.4,format=yuv420p,fade=t=in:d=0.35[s0];"
 prev = "s0"
