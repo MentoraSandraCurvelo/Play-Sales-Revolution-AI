@@ -201,6 +201,8 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Para posts que publica Claude por API: dejar en el JSON el campo "etiquetar" con las páginas; Chrome edita el post apenas sale y agrega las menciones (deben quedar en azul, enlazadas a la página).
 - Primer caso: jue-12-pm (cámaras y gremios), etiquetas agregadas por Chrome después de publicado.
 
-## 33. Aprobación de comentarios de visibilidad (12 nov 2026, Sandra: opción 1)
-- Todo comentario en cuentas de otros necesita el sí de Sandra. Chrome no publica ninguno por su cuenta.
-- Flujo: lun a vie 9:07 a. m. Claude le recuerda a Sandra pegar en Chrome el pedido de 5 comentarios; Sandra pega la lista aquí, Claude la revisa y Sandra aprueba.
+## 33. Comentarios de visibilidad automáticos (12 nov 2026, Sandra)
+- Lunes a viernes: la corrida de Chrome de las 7:35 a. m. publica sola hasta 5 comentarios en cuentas de otros (al menos 1 al Vicepresidente), con las reglas de la Cola. No comenta posts polémicos, políticos partidistas o de duelo.
+- Sandra revisa después: a las 9:13 a. m. Claude le recuerda pedirle a Chrome la tabla con los links; Sandra la pega aquí y Claude revisa. Si algo está mal, se edita o se borra.
+- Sábado y domingo: Chrome muestra la lista y espera el sí de Sandra.
+- Las respuestas en hilos de cuentas prioritarias siguen necesitando el sí de Sandra.
