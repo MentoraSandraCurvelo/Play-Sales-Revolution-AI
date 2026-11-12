@@ -16,3 +16,7 @@ Fuente de cada cifra: lo que Sandra o Claude en Chrome leyeron en LinkedIn. "Por
 
 ## Cómo se actualiza
 Cada lunes Claude en Chrome lee las 3 cifras (Parte 3, paso 11 de rutina-chrome.md) y Claude agrega una fila.
+
+## 11 nov 2026 (Chrome, página de la newsletter)
+- Newsletter "Lo que nadie te dice de la IA": 1.887 suscriptores, 9 ediciones, quincenal, +8 suscriptores en 7 días. Link con slug viejo funciona (verificado desde la cuenta dueña).
+- Referencia 9 nov: 1.881 suscriptores.
