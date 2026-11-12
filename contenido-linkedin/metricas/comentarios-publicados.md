@@ -37,3 +37,11 @@ Sin resultados: MinTIC y líderes de IA de Latinoamérica (últimas 48 horas).
 ## Corte 12 nov (~24 h) comentarios del 11 nov
 - Estrada 17 impresiones, Buitrago 2, Ramírez sin dato, Gómez 11. 0 reacciones, 0 respuestas.
 - 12 nov: 0 comentarios de visibilidad publicados a mediodía. Las corridas automáticas dejan listas en conversaciones de Cowork que Sandra no ve: falla de proceso.
+
+## 12 nov 2026 · Comentarios de visibilidad (5, aprobados por Sandra)
+1. Vicepresidente José Manuel Restrepo, Plan Destrabe: https://www.linkedin.com/feed/update/urn:li:ugcPost:7526334971054067712?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7526334971054067712%2C7526692767670927360%29
+2. ProBarranquilla / Valora Analitik, Foro Perspectivas Colombia 2027: https://www.linkedin.com/feed/update/urn:li:ugcPost:7526316912004239361?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7526316912004239361%2C7526693457264852992%29
+3. ANDI, nueva presidenta Luz Stella Murgas: https://www.linkedin.com/feed/update/urn:li:activity:7526641474092908544?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7526641474092908544%2C7526694162906148864%29
+4. Comfandi, bienestar y productividad (encuentro 25 nov Cali): https://www.linkedin.com/feed/update/urn:li:activity:7525741139874721793?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7525741139874721793%2C7526694848981286913%29
+5. Rodrigo Estrada Reveiz, formación dual 25 años: https://www.linkedin.com/feed/update/urn:li:ugcPost:7526655396300759041?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7526655396300759041%2C7526695556375588865%29
+Medir el lun 16.
