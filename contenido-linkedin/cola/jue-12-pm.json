@@ -1,9 +1,9 @@
 {
   "id": "jue-12-pm",
-  "estado": "aprobado",
+  "estado": "publicado",
   "programado_bogota": "2026-11-12 15:00",
   "imagen": "contenido-linkedin/imagenes/jue-12-pm.jpg",
-  "urn": null,
+  "urn": "urn:li:share:7526737273954930688",
   "payload": {
     "author": "urn:li:person:tsJbwdb3B2",
     "commentary": "Si diriges una cámara de comercio o un gremio, tienes algo que ninguna empresa tiene sola: muchas empresas afiliadas que confían en lo que les recomiendas.\n\nY hoy casi todas tienen la misma pregunta: ¿por dónde empiezo con la {hashtag|\\#|IA}?\n\nUn curso de herramientas responde el \"cómo\". Pero los afiliados necesitan algo más:\n\n⭕ Saber qué proceso llevar primero a la IA.\n\n⭕ Medir si de verdad les devolvió tiempo.\n\n⭕ Tener reglas claras de uso responsable.\n\nUn programa de formación con medición convierte una charla en un resultado que la cámara puede mostrar.\n\nEsa es la diferencia entre capacitar y transformar.\n\nSi trabajas en una cámara de comercio o un gremio de América Latina, ¿cómo están acompañando a sus afiliados con la IA?\n\nSígueme: voy a compartir cómo se mide la IA en empresas de distintos tamaños y sectores.\n\n{hashtag|\\#|CamarasDeComercio} {hashtag|\\#|IAEmpresarial} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
@@ -20,5 +20,6 @@
   "alt": "Si diriges una cámara de comercio o un gremio, tienes algo que ninguna empresa tiene sola: muchas empresas afiliadas que confían en lo que les recomiendas.",
   "foto_origen": "Dropbox /1-IAM™/Fotos Profesionales (Red Conference)",
   "aprobado_por": "Sandra",
-  "aprobado_el": "2026-11-05"
+  "aprobado_el": "2026-11-05",
+  "publicado_utc": "2026-11-12T20:06:46+00:00"
 }
