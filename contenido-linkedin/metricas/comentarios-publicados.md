@@ -33,3 +33,7 @@ Sin resultados: MinTIC y líderes de IA de Latinoamérica (últimas 48 horas).
 
 ## 12 nov 2026 · Primer comentario en newsletter edición 1
 - Aprobado por Sandra (prueba para activar AGENTE): "Si lideras un equipo comercial y quieres la guía para montar tu propio agente de LinkedIn, escribe AGENTE aquí abajo y te la envío." PUBLICADO 12 nov desde perfil personal (Author): https://www.linkedin.com/feed/update/urn:li:ugcPost:7523445934811320321?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7523445934811320321%2C7526685534820220929%29 . Medir comentarios AGENTE el lun 16.
+
+## Corte 12 nov (~24 h) comentarios del 11 nov
+- Estrada 17 impresiones, Buitrago 2, Ramírez sin dato, Gómez 11. 0 reacciones, 0 respuestas.
+- 12 nov: 0 comentarios de visibilidad publicados a mediodía. Las corridas automáticas dejan listas en conversaciones de Cowork que Sandra no ve: falla de proceso.
