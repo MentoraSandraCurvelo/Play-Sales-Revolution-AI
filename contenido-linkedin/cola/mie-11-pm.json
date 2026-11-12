@@ -1,9 +1,9 @@
 {
   "id": "mie-11-pm",
-  "estado": "aprobado",
+  "estado": "publicado",
   "programado_bogota": "2026-11-11 15:00",
   "imagen": "contenido-linkedin/newsletter/edicion-01-banner.jpg",
-  "urn": null,
+  "urn": "urn:li:share:7526374600876834817",
   "payload": {
     "author": "urn:li:person:tsJbwdb3B2",
     "commentary": "Mañana le cuento a 1.875 personas algo que casi nadie se atreve a decir de la IA.\n\nHace dos semanas le di las llaves de mi LinkedIn a un agente de {hashtag|\\#|IA}.\n\nHoy ese agente escribe mis borradores, diseña mis imágenes y publica a la hora acordada.\n\nPero hay cosas que nunca le dejo hacer. Y una regla que no se negocia.\n\nMañana jueves a las 7:30 a. m. sale la primera edición de mi newsletter con su nombre nuevo:\n\n\"Lo que nadie te dice de la IA\"\n\n⭕ Cómo conecté LinkedIn con un agente, paso a paso\n⭕ Lo que la IA no puede hacer por la puerta oficial\n⭕ El riesgo más grande, que no es la IA\n⭕ Lo que pasó cuando lo medí, incluido lo que no mejoró\n\nAntes se llamaba \"IA + Ventas = Éxito Garantizado\". Cambió porque yo cambié: ya no hablo solo de {hashtag|\\#|Ventas}, hablo de IA que funciona en toda la empresa.\n\nY aprendí algo: en IA nada está garantizado, salvo lo que se mide.\n\n¿Qué es lo que nadie te ha dicho de la IA y te gustaría saber?\n\nSi quieres recibir cada 15 días una verdad nueva sobre la {hashtag|\\#|IAEmpresarial}, sígueme y suscríbete. El link está en el primer comentario.\n\n{hashtag|\\#|AgentesDeIA} {hashtag|\\#|LinkedIn} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
@@ -19,5 +19,6 @@
   "alt": "Portada de la newsletter Lo que nadie te dice de la IA, edición 1, con Sandra Curvelo en tarima",
   "primer_comentario": "Aquí te puedes suscribir para recibirla mañana a las 7:30 a. m.: https://www.linkedin.com/newsletters/ia-ventas=-exito-garantizado-6952337560673157120/ Y si quieres las guías gratuitas de cada edición, están aquí: https://iamlatam.co/guias/",
   "aprobado_por": "Sandra",
-  "aprobado_el": "2026-11-03"
+  "aprobado_el": "2026-11-03",
+  "publicado_utc": "2026-11-11T20:05:38+00:00"
 }
