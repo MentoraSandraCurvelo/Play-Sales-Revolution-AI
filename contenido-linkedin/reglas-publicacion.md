@@ -195,3 +195,8 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Los llamados a comentar se dirigen a quien compra ("si lideras un equipo…").
 - Cada palabra clave se entrega por mensaje directo con una pregunta que califique (tamaño del equipo, qué usan hoy).
 - Métrica principal: conversaciones con decisores y reuniones agendadas por semana, no comentarios ni likes.
+
+## 32. Etiquetar organizaciones (12 nov 2026, Sandra)
+- Cuando un post hable a un sector (cámaras, gremios, cajas, entidades), etiquetar las páginas de 3 a 5 organizaciones relevantes. Máximo 5 por post para no verse como spam.
+- Para posts que publica Claude por API: dejar en el JSON el campo "etiquetar" con las páginas; Chrome edita el post apenas sale y agrega las menciones (deben quedar en azul, enlazadas a la página).
+- Primer caso: jue-12-pm (cámaras y gremios), etiquetas agregadas por Chrome después de publicado.
