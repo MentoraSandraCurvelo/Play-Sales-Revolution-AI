@@ -1,9 +1,9 @@
 {
   "id": "vie-13-pm",
-  "estado": "aprobado",
+  "estado": "publicado",
   "programado_bogota": "2026-11-13 15:00",
   "imagen": null,
-  "urn": null,
+  "urn": "urn:li:ugcPost:7527099674982473728",
   "payload": {
     "author": "urn:li:person:tsJbwdb3B2",
     "commentary": "En una entidad pública, la IA no reemplaza al funcionario. Le quita el trabajo que no lo deja atender al ciudadano.\n\n3 tareas donde la IA puede preparar el trabajo, y el funcionario revisa y firma:\n\n⭕ PQRSDF: clasificar cada solicitud, proponer el borrador de respuesta y alertar las que están por vencer.\n\n⭕ Pliegos: revisar requisitos y señalar riesgos antes de publicar.\n\n⭕ Plan de desarrollo: seguir metas e indicadores en un tablero que se actualiza solo.\n\nEn los 3 casos la regla es la misma: la IA prepara, el funcionario decide.\n\nAsí se ve el tablero que implementamos. Los datos que ves son de ejemplo, para proteger la información de nuestros clientes.\n\nLa {hashtag|\\#|IA} en el {hashtag|\\#|SectorPúblico} no es para hacer menos. Es para atender mejor.\n\n¿Cuál de estas 3 tareas le quitaría más carga a tu entidad?\n\nSígueme si trabajas en el sector público: cada semana muestro cómo se mide la IA en lo real.\n\n{hashtag|\\#|SectorPublico} {hashtag|\\#|GobiernoDigital} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
@@ -22,5 +22,6 @@
   "video": "urn:li:video:D4E10AQFIsaqXBPFEsw",
   "titulo_video": "PQRSD con IA: la IA prepara, el funcionario firma",
   "aprobado_por": "Sandra",
-  "aprobado_el": "2026-11-05"
+  "aprobado_el": "2026-11-05",
+  "publicado_utc": "2026-11-13T20:06:49+00:00"
 }
