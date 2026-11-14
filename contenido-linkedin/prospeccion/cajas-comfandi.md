@@ -1,5 +1,5 @@
 # Estrategia cajas de compensación · Comfandi primero (14 nov 2026)
-Decisión de Sandra: trabajar el encuentro de Comfandi del 25 nov (Cali, bienestar y productividad) solo con comentarios, y sacar reuniones con Comfandi y demás cajas.
+Decisión de Sandra (14 nov): NO va a Cali el 25 nov (no alcanza). El encuentro de Comfandi se trabaja solo con comentarios antes y después, y sacar reuniones con Comfandi y demás cajas.
 
 ## Por qué cajas
 - Caso real del mismo sector: Comfacesar (18 áreas, más de 50 personas, +800 h/mes recuperadas, confianza 4,7 a 8,6). En mensajes privados se puede nombrar (regla 28).
