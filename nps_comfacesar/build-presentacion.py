@@ -157,7 +157,7 @@ s2 = slide("contenido", "Cómo va la jornada", f"""
 
 tiles = "".join([
     tile(f'{P["sesiones"]}', "sesiones verificadas, con grabación, acta y asistencia", "", .05),
-    tile(f'{P["areas"]}<small> / {P["areas"]}</small>', "áreas llegaron al cierre, ninguna quedó por fuera", "", .13),
+    tile(f'{P["areas"]}<small> / {D.POSTULADAS}</small>', "áreas del assessment llegaron al cierre", f"{len(D.NUNCA_EMPEZARON)} nunca tomaron una sesión", .13),
     tile(f'{P["asistencia"]}<small>%</small>',
          f'de asistencia acumulada: {P["asistieron"]} de {P["convocados"]} convocados', "", .21),
     tile(f'{ent(P["horas"])}<small> h</small>', "recuperadas cada semana en toda la Caja", "", .29),
@@ -673,7 +673,50 @@ s4d = slide("retorno", "El retorno", f"""
 # el 14 de noviembre. En la sala está la Caja, que no sabe cuánto costó el
 # programa, así que hablar de en cuántas semanas se paga invita a esa pregunta.
 # Queda construido para la presentación de fase 2, que es la del director.
-SLIDES = [s1, s2, s3, s4, s4b, s4c, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16b, s17, s16]
+
+# ───────── 14b · las 21 áreas que se postularon ─────────
+
+SIGLAS = {
+    "Sub. Admin y Financiera": "SF", "Vivienda": "VI", "Jurídica": "JU",
+    "Subsidio y Aportes": "SA", "IPS": "IPS", "Educación": "ED",
+    "Comunicaciones": "CM", "Servicios Sociales": "SS", "Agencia de Empleo": "AE",
+    "Contabilidad": "CO", "Sub. Operativa": "SO", "Tecnología": "TE",
+    "Mercadeo": "ME", "Talento Humano": "TH", "Cumplimiento": "CU",
+    "Gerencia Financiera": "GF", "Planeación": "PL", "Tesorería": "TS",
+    "Presupuesto": "PR", "Dirección Admin": "DA", "Crédito": "CR",
+}
+_grupos = D.grupos()
+assert all(a in SIGLAS for _, _, g in _grupos for a in g)
+
+_post = [
+    {"g": gi, "n": a, "s": SIGLAS[a],
+     "v": D.HORAS.get(a, 0), "ses": D.SESIONES.get(a, 0)}
+    for gi, (_, _, g) in enumerate(_grupos) for a in g
+]
+
+_leyenda = "".join(
+    f'<div class="col lg3 rv" style="--d:{.15 + i * .18}s">'
+    f'<p class="num2">{len(g)}</p><h3>{t}</h3><p class="hair">{sub}</p></div>'
+    for i, (t, sub, g) in enumerate(_grupos))
+
+s14b = slide("postuladas", "Las 21 que se postularon", f"""
+  <div class="row" style="justify-content:space-between;align-items:flex-end">
+    <div class="col" style="gap:10px">
+      <p class="eb">Las {palabra(D.POSTULADAS)} áreas del assessment</p>
+      <h2>Quién lo aprovechó y quién no</h2>
+    </div>
+    <div class="col" style="text-align:right;gap:4px">
+      <p class="big" style="font-size:74px"><span data-n="{len(_grupos[0][2])}" data-dec="0">{len(_grupos[0][2])}</span><small> de {D.POSTULADAS}</small></p>
+      <p class="hair">áreas con horas recuperadas</p>
+    </div>
+  </div>
+  <div class="f1" style="min-width:0;position:relative">
+    <canvas id="cpost" aria-label="Las 21 áreas que se postularon, en tres grupos: las que recuperaron horas, las que entraron y no midieron, y las que nunca empezaron"></canvas>
+  </div>
+  <div class="row" style="gap:20px">{_leyenda}</div>""",
+             pie="Fuente: el archivo de assessment, una hoja por área · la altura es la recuperación semanal · se mece sola, con la barra espaciadora se detiene")
+
+SLIDES = [s1, s2, s3, s4, s4b, s4c, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s14b, s15, s16b, s17, s16]
 
 # ───────────────────────── CSS ─────────────────────────
 
@@ -863,6 +906,11 @@ td.st{color:var(--red)!important;font-weight:800} .dk td.st{color:var(--red-hi)!
   line-height:1.2;text-align:center;color:var(--mute-l)}
 /* 3D */
 #c3d{width:100%;height:620px;display:block}
+#cpost{width:100%;height:560px;display:block}
+.lg3{flex:1;padding:18px 22px;gap:4px}
+.dk .lg3{background:var(--ink-2);border-top:4px solid var(--red-hi)}
+.lt .lg3{background:var(--card);border-top:4px solid var(--red)}
+.lg3 h3{font-size:23px} .lg3 .num2{font-size:38px}
 #rank3d .rk{display:grid;grid-template-columns:30px 1fr 68px;align-items:center;gap:10px;
   font-size:19px;padding:4px 8px;border-bottom:1px solid var(--rule-d)}
 #rank3d .rk b{font-family:var(--f-h);font-size:21px;color:var(--red-hi);
@@ -937,6 +985,7 @@ function ir(n){
   if(s.id==='indice-3d')arranca3d();else detiene3d();
   if(s.id==='confianza')dibujaConf();
   if(s.id==='antes-hoy')dibujaAcum();\n  if(s.id==='islas')arrancaIslas();else detieneIslas();
+  if(s.id==='postuladas')arrancaPost();else detienePost();
   try{location.hash=s.id}catch(e){}
 }
 document.getElementById('prev').onclick=()=>ir(cur-1);
@@ -1152,6 +1201,133 @@ function pintaBurbujas(t){
     bCx.fillStyle='rgba(255,255,255,.45)'; bCx.fill();
   });
 }
+/* ───── Las 21 áreas que se postularon ─────
+   Columnas en isométrica, en tres filas: las que recuperaron horas, las que
+   entraron sin medir y las que nunca empezaron. La altura es la recuperación
+   semanal, así que las dos últimas filas son planas a propósito: eso es el
+   dato. Motor propio, sin librerías, y se encuadra solo. */
+const POST=__POST__;
+const FILAS=[[],[],[]];
+POST.forEach(d=>FILAS[d.g].push(d));
+FILAS.forEach((f,gi)=>f.forEach((d,i)=>{
+  d.x=(i-(f.length-1)/2)*1.20; d.z=(gi-1)*2.05;
+}));
+const VMAXP=Math.max(1,...POST.map(d=>d.v));
+/* No da la vuelta entera como el índice: se mece entre dos ángulos. Así el
+   encuadre no tiene que reservar sitio para la peor rotación y el modelo sale
+   al doble de tamaño, con las siglas siempre de frente. */
+const ANGA=-0.95, ANGB=-0.12;
+let cvP=null,cxP=null,WP=0,HP=0,angP=(ANGA+ANGB)/2,rafP=0,t0P=0,FITP={k:1,dx:0,dy:0};
+function altP(d){ return d.g===0 ? Math.max(d.v/VMAXP*4.4,.08) : (d.g===1 ? .14 : 0); }
+function crudoP(x,y,z,a){
+  const X=x*Math.cos(a)-z*Math.sin(a), Z=x*Math.sin(a)+z*Math.cos(a);
+  return [X, Z*.46-y*.94, Z];
+}
+function proyP(x,y,z,a){
+  const c=crudoP(x,y,z,a);
+  return [WP/2+(c[0]+FITP.dx)*FITP.k, HP/2+(c[1]+FITP.dy)*FITP.k, c[2]];
+}
+function encuadraP(){
+  let x0=1e9,x1=-1e9,y0=1e9,y1=-1e9;
+  for(let t=0;t<=12;t++){
+    const a=ANGA+(ANGB-ANGA)*t/12;
+    for(const d of POST){
+      const h=altP(d)+.40;
+      for(const sy of [0,h]) for(const dx of [-.56,.56]) for(const dz of [-.56,.56]){
+        const c=crudoP(d.x+dx,sy,d.z+dz,a);
+        if(c[0]<x0)x0=c[0]; if(c[0]>x1)x1=c[0];
+        if(c[1]<y0)y0=c[1]; if(c[1]>y1)y1=c[1];
+      }
+    }
+  }
+  const m=26,k=Math.min((WP-m*2)/(x1-x0),(HP-m*2)/(y1-y0));
+  FITP={k:k,dx:-(x0+x1)/2,dy:-(y0+y1)/2};
+}
+function cajaP(cx,cz,w,h,a){
+  const k=w/2,v=[];
+  for(const sy of [0,h]) for(const [dx,dz] of [[-k,-k],[k,-k],[k,k],[-k,k]])
+    v.push(proyP(cx+dx,sy,cz+dz,a));
+  return [
+    {p:[v[4],v[5],v[6],v[7]],k:1.00},
+    {p:[v[0],v[1],v[5],v[4]],k:0.60},
+    {p:[v[1],v[2],v[6],v[5]],k:0.80},
+    {p:[v[2],v[3],v[7],v[6]],k:0.60},
+    {p:[v[3],v[0],v[4],v[7]],k:0.80},
+  ].map(f=>({...f,z:f.p.reduce((t,q)=>t+q[2],0)/4}));
+}
+function tonoP(d){
+  if(d.g===2) return [58,54,50];
+  if(d.g===1) return [128,122,114];
+  const u=d.v/VMAXP;
+  return [196+Math.round(59*u), 40+Math.round(34*(1-u)), 40+Math.round(34*(1-u))];
+}
+function pintaP(ahora){
+  cxP.clearRect(0,0,WP,HP);
+  const caras=[],etiq=[];
+  POST.forEach((d,i)=>{
+    const t=Math.max(0,Math.min(1,(ahora-t0P)/1000-i*.035));
+    const e=1-Math.pow(1-t,3);
+    const h=altP(d)*e;
+    const col=tonoP(d);
+    if(d.g===2){
+      /* nunca empezaron: solo la huella en el suelo, hueca */
+      const f=cajaP(d.x,d.z,.92,.001,angP)[0];
+      caras.push({...f,col,alpha:.30,hueca:true});
+    }else{
+      cajaP(d.x,d.z,.92,Math.max(h,.02),angP).forEach(f=>caras.push({...f,col,alpha:1}));
+    }
+    const top=proyP(d.x,Math.max(h,0)+.30,d.z,angP);
+    etiq.push({s:d.s,v:d.v,g:d.g,x:top[0],y:top[1],z:top[2]});
+  });
+  caras.sort((a,b)=>b.z-a.z);
+  for(const f of caras){
+    cxP.beginPath();
+    cxP.moveTo(f.p[0][0],f.p[0][1]);
+    for(let q=1;q<4;q++) cxP.lineTo(f.p[q][0],f.p[q][1]);
+    cxP.closePath();
+    if(f.hueca){
+      cxP.setLineDash([7,6]); cxP.lineWidth=2;
+      cxP.strokeStyle='rgba(168,163,154,.75)'; cxP.stroke(); cxP.setLineDash([]);
+    }else{
+      const c=f.col.map(v=>Math.round(v*f.k));
+      cxP.fillStyle='rgba('+c[0]+','+c[1]+','+c[2]+','+f.alpha+')';
+      cxP.fill();
+    }
+  }
+  etiq.sort((a,b)=>b.z-a.z);
+  cxP.textAlign='center';
+  for(const e of etiq){
+    cxP.font='800 19px Montserrat, Arial, sans-serif';
+    cxP.lineWidth=4; cxP.strokeStyle='rgba(8,8,8,.9)';
+    cxP.strokeText(e.s,e.x,e.y);
+    cxP.fillStyle=e.g===2?'rgba(168,163,154,.9)':'rgba(247,245,239,.97)';
+    cxP.fillText(e.s,e.x,e.y);
+    if(e.g===0){
+      cxP.font='700 15px Lato, Arial, sans-serif';
+      cxP.fillStyle='rgba(255,74,74,.95)';
+      cxP.fillText(e.v+' h',e.x,e.y+19);
+    }
+  }
+}
+function lazoP(ahora){
+  const t=ahora||performance.now();
+  if(gira) angP=ANGA+(ANGB-ANGA)*(.5+.5*Math.sin(t*.00032));
+  pintaP(t);
+  rafP=requestAnimationFrame(lazoP);
+}
+function arrancaPost(){
+  if(!cvP){
+    cvP=document.getElementById('cpost');
+    if(!cvP) return;
+    WP=Math.max(cvP.clientWidth||1600,640); HP=cvP.clientHeight||560;
+    cvP.width=WP*2; cvP.height=HP*2;
+    cxP=cvP.getContext('2d'); cxP.scale(2,2);
+    encuadraP();
+  }
+  t0P=performance.now();
+  if(!rafP) lazoP(t0P);
+}
+function detienePost(){ if(rafP){cancelAnimationFrame(rafP);rafP=0;} }
 function lazoBurbujas(t){ pintaBurbujas(t||0); bRaf=requestAnimationFrame(lazoBurbujas); }
 function arrancaIslas(){ initBurbujas(); if(!bRaf) lazoBurbujas(0); }
 function detieneIslas(){ if(bRaf){cancelAnimationFrame(bRaf); bRaf=0;} }
@@ -1245,6 +1421,7 @@ js = (JS.replace("__DATOS__", datos_js)
       .replace("__ANTES__", repr(ANTES))
       .replace("__DESPUES__", repr(DESPUES))
       .replace("__NPS__", json.dumps(NPS_DIST))
+      .replace("__POST__", json.dumps(_post, ensure_ascii=False))
       .replace("__HORAS__", repr(P["horas"])))
 
 HTML = f"""<title>Cierre IAM™ Intelligence Comfacesar</title>

@@ -413,6 +413,38 @@ def por_area():
 assert round(sum(v["min_sem"] for _, v in por_area()) / 60, 1) == PROGRAMA["horas_medidas"]
 
 
+# ───────────── Las 21 áreas que se postularon al programa ─────────────
+#
+# El archivo de assessment de la mentoría, assessment-al-cierre-13oct.xlsx, trae
+# una hoja por área: veintiuna, más INSTRUCCIONES y RESUMEN GLOBAL. Tres de esas
+# veintiuna nunca tuvieron una sola sesión y no aparecen en ninguna ficha de
+# Lucía ni en el archivo de Slack. Son las que el programa nunca alcanzó.
+NUNCA_EMPEZARON = ["Presupuesto", "Dirección Admin", "Crédito"]
+POSTULADAS = len(SESIONES) + len(NUNCA_EMPEZARON)
+assert POSTULADAS == 21, POSTULADAS
+assert not set(NUNCA_EMPEZARON) & set(SESIONES)
+
+
+def grupos():
+    """Las 21 áreas en tres grupos, por lo que dejó cada una en el libro.
+
+    El criterio no es de opinión: o el área tiene horas recuperadas, o entró y
+    no dejó ninguna, o nunca empezó.
+    """
+    con = sorted((a for a in SESIONES if HORAS.get(a, 0) > 0),
+                 key=lambda a: -HORAS[a])
+    sin = sorted((a for a in SESIONES if HORAS.get(a, 0) == 0),
+                 key=lambda a: (-SESIONES[a], a))
+    return [
+        ("Aprovecharon el programa", "horas recuperadas cada semana", con),
+        ("Entraron y no dejaron horas", "sesiones tomadas, nada medido", sin),
+        ("Nunca empezaron", "ni una sesión en once semanas", list(NUNCA_EMPEZARON)),
+    ]
+
+
+assert sum(len(g[2]) for g in grupos()) == POSTULADAS
+
+
 def construir_datos():
     fechas = cargar_fechas()
     cierre = {a: iie(a, fechas) for a in SESIONES}
