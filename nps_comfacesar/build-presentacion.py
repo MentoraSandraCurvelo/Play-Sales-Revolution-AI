@@ -669,7 +669,11 @@ s4d = slide("retorno", "El retorno", f"""
   </div>""", oscura=False,
             pie="Calculado sobre las horas semanales del programa y una tarifa promedio de los perfiles que ejecutan y revisan · 52 semanas al año")
 
-SLIDES = [s1, s2, s3, s4, s4b, s4c, s4d, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16b, s17, s16]
+# s4d, el retorno sobre la inversión, NO entra en el cierre: Sandra lo decidió
+# el 14 de noviembre. En la sala está la Caja, que no sabe cuánto costó el
+# programa, así que hablar de en cuántas semanas se paga invita a esa pregunta.
+# Queda construido para la presentación de fase 2, que es la del director.
+SLIDES = [s1, s2, s3, s4, s4b, s4c, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16b, s17, s16]
 
 # ───────────────────────── CSS ─────────────────────────
 
@@ -1304,6 +1308,12 @@ def anima_numeros(html):
 
 HTML = anima_numeros(HTML)
 assert HTML.count("data-n=") >= 18, HTML.count("data-n=")
+
+# El cierre no habla de retorno sobre la inversión. Si alguna de estas frases
+# aparece, es que s4d volvió a entrar o se escribió a mano en otra parte.
+for _pago in ("se paga lo que se invirtió", "Si la inversión fue", "Se paga en",
+              "en 12 meses devuelve"):
+    assert _pago not in HTML, _pago
 
 # Mientras la jornada no tenga fecha, ninguna fecha concreta puede colarse en
 # la presentación. Comfacesar aplazó la del 6 de noviembre el 4 de noviembre.
