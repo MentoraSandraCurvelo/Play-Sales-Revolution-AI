@@ -148,9 +148,23 @@ JORNADA = [
 # que el tiempo se reparte por complejidad: 20 minutos a las seis que la
 # dirección quiere ver primero y 13 a las cinco siguientes.
 JORNADA_INICIO = 9 * 60 + 15        # tras quince minutos de introducción
-JORNADA_CIERRE = 10                 # minutos de cierre al final
-MINUTOS = {a: (20 if i < 6 else 13) for i, a in enumerate(
-    ['IPS', 'Jurídica', 'Sub. Admin y Financiera', 'Contabilidad', 'Agencia de Empleo', 'Vivienda', 'Subsidio y Aportes', 'Comunicaciones', 'Sub. Operativa', 'Educación', 'Servicios Sociales'])}
+JORNADA_CIERRE = 0                  # Sandra cedió su cierre a IPS el 14 de noviembre
+# IPS abre con media hora, que fue decisión de Sandra el 14 de noviembre. Los
+# diez minutos extra salen de su propio bloque de cierre, que queda en cero, y
+# no de las áreas: las once conservan los minutos que ya tenían.
+MINUTOS = {
+    'IPS': 30,
+    'Jurídica': 20,
+    'Sub. Admin y Financiera': 20,
+    'Contabilidad': 20,
+    'Agencia de Empleo': 20,
+    'Vivienda': 20,
+    'Subsidio y Aportes': 13,
+    'Comunicaciones': 13,
+    'Sub. Operativa': 13,
+    'Educación': 13,
+    'Servicios Sociales': 13,
+}
 assert sum(MINUTOS.values()) + 15 + JORNADA_CIERRE == 210, sum(MINUTOS.values())
 
 

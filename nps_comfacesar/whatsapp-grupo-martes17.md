@@ -11,19 +11,19 @@ anteriores. Para copiar y pegar.
 
 Nos redujeron el tiempo, así que la jornada queda así:
 
-*9:15 · IPS* · 20 min · Danilo Pozo y su equipo
-*9:35 · Jurídica* · 20 min · Carlos Mario Gamarra, Renata Laino y Lilibeth Costa
-*9:55 · Sub. Admin y Financiera* · 20 min · Rafael Solano
-*10:15 · Contabilidad* · 20 min · Carlos Lozano
-*10:35 · Agencia de Empleo* · 20 min · Lina María Rincón y José Jaime Maya
-*10:55 · Vivienda* · 20 min · Cindy Silva
-*11:15 · Subsidio y Aportes* · 13 min · Cindy Rodríguez
-*11:28 · Comunicaciones* · 13 min · por confirmar
-*11:41 · Sub. Operativa* · 13 min · Jennifer
-*11:54 · Educación* · 13 min · Óscar Cotes y Julissa Pérez
-*12:07 · Servicios Sociales* · 13 min · Juan Pablo
+*9:15 · IPS* · 30 min · Danilo Pozo y su equipo
+*9:45 · Jurídica* · 20 min · Carlos Mario Gamarra, Renata Laino y Lilibeth Costa
+*10:05 · Sub. Admin y Financiera* · 20 min · Rafael Solano
+*10:25 · Contabilidad* · 20 min · Carlos Lozano
+*10:45 · Agencia de Empleo* · 20 min · Lina María Rincón y José Jaime Maya
+*11:05 · Vivienda* · 20 min · Cindy Silva
+*11:25 · Subsidio y Aportes* · 13 min · Cindy Rodríguez
+*11:38 · Comunicaciones* · 13 min · por confirmar
+*11:51 · Sub. Operativa* · 13 min · Jennifer
+*12:04 · Educación* · 13 min · Óscar Cotes y Julissa Pérez
+*12:17 · Servicios Sociales* · 13 min · Juan Pablo
 
-De 9:00 a 9:15 va la introducción y de 12:20 a 12:30 el cierre.
+De 9:00 a 9:15 va la introducción. De ahí en adelante el tiempo es todo de las áreas.
 
 Cada área muestra en vivo lo que construyó, con el antes y el después en horas y en pesos. No hay que preparar presentación: con una o dos diapositivas basta.
 
@@ -57,13 +57,23 @@ noviembre: Subsidio, Comunicaciones, Sub. Operativa, Educación y Servicios
 Sociales de último.
 
 **Conviene saberlo aunque no vaya en el mensaje:** Servicios Sociales cierra la
-jornada a las 12:07, con 13 minutos, y es la que más tiene que mostrar de las
+jornada a las 12:17, con 13 minutos, y es la que más tiene que mostrar de las
 cinco últimas. Catorce procesos medidos y la mayor compresión del programa. Si el
-tiempo se corre, es la que lo paga.
+tiempo se corre, es la que lo paga, y ahora sin ningún colchón detrás.
+
+## Media hora para IPS
+
+Sandra se la dio el 14 de noviembre y pidió que saliera de su propio bloque de
+cierre, no de las áreas. Así que las once áreas conservan los minutos que ya
+tenían, IPS pasa de 20 a 30, y todo lo que va después de IPS se corre diez
+minutos.
+
+**El cierre de Sandra queda en cero.** Antes iban diez minutos de 12:20 a 12:30
+para cerrar el programa. Ahora Servicios Sociales termina a las 12:30 en punto y
+no queda nada detrás: ni palabras de cierre ni colchón. Si alguna área se pasa
+dos minutos, se los quita a la que viene, y la última de la fila es Servicios
+Sociales.
 
 ## Lo que sigue abierto
-
-**IPS pasa de una hora a veinte minutos.** Quedó la pregunta de si se le avisa a
-Danilo antes, para que recorte él y no en vivo.
 
 **Comunicaciones sigue sin nombres.**

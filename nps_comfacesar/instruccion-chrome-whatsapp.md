@@ -23,19 +23,19 @@ Reglas, en orden de importancia:
 
 Nos redujeron el tiempo, así que la jornada queda así:
 
-*9:15 · IPS* · 20 min · Danilo Pozo y su equipo
-*9:35 · Jurídica* · 20 min · Carlos Mario Gamarra, Renata Laino y Lilibeth Costa
-*9:55 · Sub. Admin y Financiera* · 20 min · Rafael Solano
-*10:15 · Contabilidad* · 20 min · Carlos Lozano
-*10:35 · Agencia de Empleo* · 20 min · Lina María Rincón y José Jaime Maya
-*10:55 · Vivienda* · 20 min · Cindy Silva
-*11:15 · Subsidio y Aportes* · 13 min · Cindy Rodríguez
-*11:28 · Comunicaciones* · 13 min · por confirmar
-*11:41 · Sub. Operativa* · 13 min · Jennifer
-*11:54 · Educación* · 13 min · Óscar Cotes y Julissa Pérez
-*12:07 · Servicios Sociales* · 13 min · Juan Pablo
+*9:15 · IPS* · 30 min · Danilo Pozo y su equipo
+*9:45 · Jurídica* · 20 min · Carlos Mario Gamarra, Renata Laino y Lilibeth Costa
+*10:05 · Sub. Admin y Financiera* · 20 min · Rafael Solano
+*10:25 · Contabilidad* · 20 min · Carlos Lozano
+*10:45 · Agencia de Empleo* · 20 min · Lina María Rincón y José Jaime Maya
+*11:05 · Vivienda* · 20 min · Cindy Silva
+*11:25 · Subsidio y Aportes* · 13 min · Cindy Rodríguez
+*11:38 · Comunicaciones* · 13 min · por confirmar
+*11:51 · Sub. Operativa* · 13 min · Jennifer
+*12:04 · Educación* · 13 min · Óscar Cotes y Julissa Pérez
+*12:17 · Servicios Sociales* · 13 min · Juan Pablo
 
-De 9:00 a 9:15 va la introducción y de 12:20 a 12:30 el cierre.
+De 9:00 a 9:15 va la introducción. De ahí en adelante el tiempo es todo de las áreas.
 
 Cada área muestra en vivo lo que construyó, con el antes y el después en horas y en pesos. No hay que preparar presentación: con una o dos diapositivas basta.
 
