@@ -68,7 +68,14 @@ def relieve(x,y,t,size,front,depth):
 relieve(56,40,"LAS 3 FASES",128,(255,255,255,255),10)
 relieve(60,190,"DE LA IA EMPRESARIAL",62,(255,70,70,255),6)
 d=ImageDraw.Draw(c)
-d.text((60,1196),"Medir antes. El criterio humano",font=B(40),fill=WH)
-d.text((60,1246),"decide dónde entra la IA.",font=B(40),fill=RED)
-t="Sandra Curvelo · IAM™"; d.text((60,1302),t,font=R(24),fill=(200,196,190))
+band=Image.new("RGBA",(W,H),(0,0,0,0)); bd=ImageDraw.Draw(band)
+y0=1150
+for y in range(y0,H):
+    t=(y-y0)/(H-y0); bd.line([(0,y),(W,y)],fill=(int(226-80*t),0,int(6+4*t),255))
+bd.polygon([(0,y0),(W,y0-40),(W,y0)],fill=(226,0,6,255))
+sh=band.filter(ImageFilter.GaussianBlur(18)); c=Image.alpha_composite(c,sh); c=Image.alpha_composite(c,band)
+d=ImageDraw.Draw(c)
+d.text((60,y0+18),"MEDIR ANTES.",font=B(64),fill=(255,255,255))
+d.text((62,y0+96),"El criterio humano decide dónde entra la IA.",font=B(34),fill=(20,6,8))
+t="Sandra Curvelo · IAM™"; d.text((W-60-d.textlength(t,font=R(24)),y0+42),t,font=R(24),fill=(255,225,225))
 c.convert("RGB").save(D+"/lun-23-am-v5.jpg",quality=92)
