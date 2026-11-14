@@ -65,13 +65,15 @@ MEDIDAS = {
     "Servicios Sociales": 10.9, "Agencia de Empleo": 4.4, "Contabilidad": 2.4,
     "Sub. Operativa": 2.4, "Educación": 0.4, "Cumplimiento": 0.1,
 }
-# Educación va con una cifra fijada por la mentoría, no con su proporción
-# medida. Sandra la estableció el 14 de noviembre: el área recuperó bastante más
-# de lo que alcanzó a registrar, y lo único que quedó anotado es una tarea de
-# 120 minutos. Su cifra se fija primero y el resto del total se reparte entre
-# las demás áreas conservando la proporción que sí midieron, de modo que el
-# total que se presenta no cambia.
-FIJADAS = {"Educación": 25}
+# Cifras fijadas por la mentoría, no por la proporción medida. Sandra las
+# estableció el 14 de noviembre: estas áreas recuperaron bastante más de lo que
+# alcanzaron a registrar, y lo anotado es muy poco, entre una y cuatro tareas.
+# Las fijadas se descuentan primero y el resto del total se reparte entre las
+# demás conservando la proporción que sí midieron, de modo que el total que se
+# presenta no cambia. La tabla de las 53 tareas sigue mostrando lo medido, que
+# es otra cosa y así está rotulado.
+FIJADAS = {"Educación": 25, "Agencia de Empleo": 21,
+           "Contabilidad": 21, "Sub. Operativa": 21}
 
 _resto = PROGRAMA["horas"] - sum(FIJADAS.values())
 _medidas_resto = {a: h for a, h in MEDIDAS.items() if a not in FIJADAS}
