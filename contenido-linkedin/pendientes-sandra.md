@@ -6,6 +6,7 @@ Actualizado: 10 nov 2026, 7:15 a. m.
 - ✅ Rutina IAM en Cowork (confirmado 11 nov, horario nuevo): lun a vie 7:35 a. m. y 3:05 p. m.; todos los días 11:35 a. m. (solo si salió post entre 11:00 y 11:35); sáb 9:05 a. m.; dom 5:05 p. m. 5 tareas. Todas corren en el MacBook Air (confirmado por Sandra 11 nov).
 
 ## Prospección (prioridad 1)
+- Cajas de compensación (Comfandi primero, luego Comfama y Asocajas): plan en prospeccion/cajas-comfandi.md. Meta 2 reuniones antes del 15 dic. [Chrome] Mapear decisores de Comfandi.
 - Foro Perspectivas Colombia 2027 (lun 23 nov, Barranquilla): Sandra no viaja; participa con comentarios y preguntas. Ver prospeccion/foro-barranquilla-23nov.md. Recordatorio 23 nov 7:50 a. m.
 - Cámara de Comercio de Barranquilla: correo ENVIADO el 10 nov. Seguimiento el lun 16 si no responden.
 - ✅ Lista de 24 directivos de cámaras entregada el 11 nov (prospeccion/directivos-11nov.md). Estrategia: comentar primero, invitar después.
