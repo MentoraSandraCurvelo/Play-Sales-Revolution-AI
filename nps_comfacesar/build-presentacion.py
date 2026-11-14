@@ -565,14 +565,14 @@ ss_barras = "".join(
 
 s17 = slide("servicios-sociales", "El área que no expone", f"""
   <p class="eb">Lo que no se va a ver en vivo</p>
-  <h2>Servicios Sociales: {dec(D.MEDIDAS['Servicios Sociales'])} horas a la semana, medidas</h2>
+  <h2>Servicios Sociales: {ent(D.HORAS['Servicios Sociales'])} horas a la semana</h2>
   <p class="lede">El área no alcanza a exponer en la jornada, así que estas cifras
     no las cuenta nadie desde el escenario. Son <b>tres tareas verificadas en
     sesión</b>, con su tiempo de antes y su tiempo de hoy.</p>
   <div class="col" style="gap:14px">{ss_barras}</div>
   <div class="grid3">
-    {tile(f'{dec(D.MEDIDAS["Servicios Sociales"])}<small> h</small>', "a la semana, medidas y verificadas", "suma de las tres tareas", .7)}
-    {tile(f'{ent(D.HORAS["Servicios Sociales"])}<small> h</small>', f"proyectadas, de las {ent(P['horas'])} del programa", "", .8)}
+    {tile(f'{ent(D.HORAS["Servicios Sociales"])}<small> h</small>', f"a la semana, de las {ent(P['horas'])} del programa", "", .7)}
+    {tile(f'{len(SS_MEDIDAS)}', "tareas verificadas en sesión, con su antes y su después", "", .8)}
     {tile("97%", "la baja más profunda del área", "un informe mensual de 24 h a 45 min", .9)}
   </div>
   <p class="note rv" style="--d:1s">El área tiene <b>diez tareas más estimadas</b>,
@@ -596,8 +596,7 @@ _fuera = [(a, v) for a, v in D.por_area() if D.HORAS.get(a, 0) == 0]
 _f = "".join(
     f'<tr><td>{a}</td><td class="num">{v["tareas"]}</td>'
     f'<td class="num">{mil(v["antes"])}</td><td class="num">{mil(v["hoy"])}</td>'
-    f'<td class="num st">{round(100 * (v["antes"] - v["hoy"]) / v["antes"])}%</td>'
-    f'<td class="num">{dec(v["min_sem"] / 60)}</td></tr>'
+    f'<td class="num st">{round(100 * (v["antes"] - v["hoy"]) / v["antes"])}%</td></tr>'
     for a, v in _pa)
 _tt = {k: sum(v[k] for _, v in D.por_area()) for k in ("tareas", "antes", "hoy", "min_sem")}
 _ff = {k: sum(v[k] for _, v in _fuera) for k in ("tareas", "antes", "hoy", "min_sem")}
@@ -605,8 +604,7 @@ _resumen = "" if not _fuera else (
     f'<tr style="opacity:.55"><td>+ {_ff["tareas"]} '
     f'{"tarea" if _ff["tareas"] == 1 else "tareas"}</td>'
     f'<td class="num">{_ff["tareas"]}</td><td class="num">{mil(_ff["antes"])}</td>'
-    f'<td class="num">{mil(_ff["hoy"])}</td><td class="num">·</td>'
-    f'<td class="num">{dec(_ff["min_sem"] / 60)}</td></tr>')
+    f'<td class="num">{mil(_ff["hoy"])}</td><td class="num">·</td></tr>')
 
 s4b = slide("ejercicios", "El tablero de ejercicios", f"""
   <p class="eb">Los ejercicios, uno por uno</p>
@@ -615,16 +613,14 @@ s4b = slide("ejercicios", "El tablero de ejercicios", f"""
     la hace</b>. Los minutos son de una vuelta completa, sin aplicar la frecuencia.</p>
   <table class="t mini">
     <tr><th>Área</th><th class="num">Tareas</th><th class="num">Antes, min</th>
-      <th class="num">Hoy, min</th><th class="num">Baja</th>
-      <th class="num">Horas/semana</th></tr>
+      <th class="num">Hoy, min</th><th class="num">Baja</th></tr>
     {_f}
     {_resumen}
     <tr><td><b>El programa</b></td><td class="num"><b>{_tt["tareas"]}</b></td>
       <td class="num"><b>{mil(_tt["antes"])}</b></td><td class="num"><b>{mil(_tt["hoy"])}</b></td>
-      <td class="num st"><b>{round(100 * (_tt["antes"] - _tt["hoy"]) / _tt["antes"])}%</b></td>
-      <td class="num"><b>{dec(_tt["min_sem"] / 60)}</b></td></tr>
+      <td class="num st"><b>{round(100 * (_tt["antes"] - _tt["hoy"]) / _tt["antes"])}%</b></td></tr>
   </table>""", oscura=False,
-            pie="Sala de Control · las 53 tareas verificadas, con tiempo antes, tiempo hoy y frecuencia declarada por el área · las tareas estimadas no entran")
+            pie="Sala de Control · las 53 tareas verificadas, con su tiempo antes y su tiempo hoy · las horas por semana de cada área van en la diapositiva de horas · las tareas estimadas no entran")
 
 # ───────── 4c · de minutos a personas ─────────
 
