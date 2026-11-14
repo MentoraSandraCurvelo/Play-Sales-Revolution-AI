@@ -1,0 +1,479 @@
+[
+ {
+  "area": "Sub. Admin y Financiera",
+  "tarea": "Pre Validacion precontractual",
+  "frecuencia": "Diaria",
+  "antes_min": 480,
+  "ahora_min": 30,
+  "baja_pct": 94,
+  "ahorro_semanal": "2.250 min"
+ },
+ {
+  "area": "IPS",
+  "tarea": "Alimentación del Sistema de gestión de SST con Comfacesar IPS, conceptos de aptitud para seguimientos y demas actividades del sistema",
+  "frecuencia": "Mensual",
+  "antes_min": 6400,
+  "ahora_min": 480,
+  "baja_pct": 92,
+  "ahorro_semanal": "1.366 min"
+ },
+ {
+  "area": "Vivienda",
+  "tarea": "Analisis a nuevas normas y actualizaciones de las mismas en el Sector Vivienda",
+  "frecuencia": "Diaria",
+  "antes_min": 240,
+  "ahora_min": 15,
+  "baja_pct": 94,
+  "ahorro_semanal": "1.125 min"
+ },
+ {
+  "area": "Subsidio",
+  "tarea": "PRESENTACION CONSEJO",
+  "frecuencia": "Mensual",
+  "antes_min": 2880,
+  "ahora_min": 30,
+  "baja_pct": 99,
+  "ahorro_semanal": "658 min"
+ },
+ {
+  "area": "Subsidio",
+  "tarea": "TABLERO DE AFILIACIONES",
+  "frecuencia": "Diaria",
+  "antes_min": 120,
+  "ahora_min": 20,
+  "baja_pct": 83,
+  "ahorro_semanal": "500 min"
+ },
+ {
+  "area": "Jurídica",
+  "tarea": "Tablero Teresa",
+  "frecuencia": "Quincenal",
+  "antes_min": 960,
+  "ahora_min": 20,
+  "baja_pct": 98,
+  "ahorro_semanal": "470 min"
+ },
+ {
+  "area": "Comunicaciones",
+  "tarea": "Producción de pieza gráfica para canales internos",
+  "frecuencia": "Semanal",
+  "antes_min": 480,
+  "ahora_min": 25,
+  "baja_pct": 95,
+  "ahorro_semanal": "455 min"
+ },
+ {
+  "area": "Servicios Sociales",
+  "tarea": "Informe de Seguimiento No 12 CCF015-05-00033 \"Proyecto Ampliación Cobertura - Segunda Etapa Centro Recreacional Buenavista - Pueblo Bello\"",
+  "frecuencia": "Mensual",
+  "antes_min": 1440,
+  "ahora_min": 45,
+  "baja_pct": 97,
+  "ahorro_semanal": "322 min"
+ },
+ {
+  "area": "Servicios Sociales",
+  "tarea": "Informe de Seguimiento No 4 CCF015-05-00046 \"Proyecto Construccion De Cubierta Para Cancha Sintetica Complejo Deportivo\"",
+  "frecuencia": "Mensual",
+  "antes_min": 1440,
+  "ahora_min": 240,
+  "baja_pct": 83,
+  "ahorro_semanal": "277 min"
+ },
+ {
+  "area": "Jurídica",
+  "tarea": "Seguimiento Asistentes Juridicos",
+  "frecuencia": "Diaria",
+  "antes_min": 60,
+  "ahora_min": 5,
+  "baja_pct": 92,
+  "ahorro_semanal": "275 min"
+ },
+ {
+  "area": "Sub. Admin y Financiera",
+  "tarea": "Automatizacion de correo cuyo asunto: requeriminetos para aprobacion y asigancion de ODR",
+  "frecuencia": "Diaria",
+  "antes_min": 60,
+  "ahora_min": 10,
+  "baja_pct": 83,
+  "ahorro_semanal": "250 min"
+ },
+ {
+  "area": "Subsidio",
+  "tarea": "GESTION CORREO",
+  "frecuencia": "Diaria",
+  "antes_min": 60,
+  "ahora_min": 15,
+  "baja_pct": 75,
+  "ahorro_semanal": "225 min"
+ },
+ {
+  "area": "Vivienda",
+  "tarea": "Seguimiento y reporte a Quejas, DP, tutela, Comunicaciones internas",
+  "frecuencia": "Diaria",
+  "antes_min": 60,
+  "ahora_min": 15,
+  "baja_pct": 75,
+  "ahorro_semanal": "225 min"
+ },
+ {
+  "area": "Vivienda",
+  "tarea": "Planeador Activides Generales Area",
+  "frecuencia": "Diaria",
+  "antes_min": 60,
+  "ahora_min": 15,
+  "baja_pct": 75,
+  "ahorro_semanal": "225 min"
+ },
+ {
+  "area": "Jurídica",
+  "tarea": "Informe Sireci Mensual - Contraloria",
+  "frecuencia": "Mensual",
+  "antes_min": 960,
+  "ahora_min": 10,
+  "baja_pct": 99,
+  "ahorro_semanal": "219 min"
+ },
+ {
+  "area": "Comunicaciones",
+  "tarea": "Creación de piezas gráficas",
+  "frecuencia": "Diaria",
+  "antes_min": 120,
+  "ahora_min": 90,
+  "baja_pct": 25,
+  "ahorro_semanal": "150 min"
+ },
+ {
+  "area": "Agencia de Empleo",
+  "tarea": "Proceso de recobros, creación agente Matías",
+  "frecuencia": "Mensual",
+  "antes_min": 1200,
+  "ahora_min": 600,
+  "baja_pct": 50,
+  "ahorro_semanal": "138 min"
+ },
+ {
+  "area": "Sub. Admin y Financiera",
+  "tarea": "Se implementó la automatización para la elaboración de los formatos de Órdenes de Compra y Servicios.",
+  "frecuencia": "Diaria",
+  "antes_min": 30,
+  "ahora_min": 3,
+  "baja_pct": 90,
+  "ahorro_semanal": "135 min"
+ },
+ {
+  "area": "Jurídica",
+  "tarea": "Revisión Minutas Contractuales",
+  "frecuencia": "Diaria",
+  "antes_min": 30,
+  "ahora_min": 5,
+  "baja_pct": 83,
+  "ahorro_semanal": "125 min"
+ },
+ {
+  "area": "Comunicaciones",
+  "tarea": "Actas y compromisos - Comité de tráfico",
+  "frecuencia": "Semanal",
+  "antes_min": 120,
+  "ahora_min": 5,
+  "baja_pct": 96,
+  "ahorro_semanal": "115 min"
+ },
+ {
+  "area": "Jurídica",
+  "tarea": "Informe Comite Juridico",
+  "frecuencia": "Mensual",
+  "antes_min": 480,
+  "ahora_min": 10,
+  "baja_pct": 98,
+  "ahorro_semanal": "108 min"
+ },
+ {
+  "area": "Vivienda",
+  "tarea": "Presentacion de Gestion General a Nivel Gerencial",
+  "frecuencia": "Semanal",
+  "antes_min": 120,
+  "ahora_min": 15,
+  "baja_pct": 88,
+  "ahorro_semanal": "105 min"
+ },
+ {
+  "area": "Sub. Operativa",
+  "tarea": "Seguimiendo Indicadores",
+  "frecuencia": "Mensual",
+  "antes_min": 480,
+  "ahora_min": 40,
+  "baja_pct": 92,
+  "ahorro_semanal": "102 min"
+ },
+ {
+  "area": "Jurídica",
+  "tarea": "Revisión RequisitosLegales Contratación",
+  "frecuencia": "Diaria",
+  "antes_min": 20,
+  "ahora_min": 4,
+  "baja_pct": 80,
+  "ahorro_semanal": "80 min"
+ },
+ {
+  "area": "Jurídica",
+  "tarea": "Informe Alta Gerencia",
+  "frecuencia": "Trimestral",
+  "antes_min": 960,
+  "ahora_min": 10,
+  "baja_pct": 99,
+  "ahorro_semanal": "73 min"
+ },
+ {
+  "area": "Comunicaciones",
+  "tarea": "Seguimiento solicitudes de diseño",
+  "frecuencia": "Diaria",
+  "antes_min": 15,
+  "ahora_min": 1,
+  "baja_pct": 93,
+  "ahorro_semanal": "70 min"
+ },
+ {
+  "area": "Contabilidad",
+  "tarea": "Conciliaciones bancarias",
+  "frecuencia": "Mensual",
+  "antes_min": 480,
+  "ahora_min": 180,
+  "baja_pct": 62,
+  "ahorro_semanal": "69 min"
+ },
+ {
+  "area": "Sub. Admin y Financiera",
+  "tarea": "Automatización del correo de solicitud de asignación de origen de recursos a la Gerencia Financiera, con revisión y adjunto de los documentos soporte como control del proceso y registro automático de la información en la matriz de seguimiento precontractual. Esta mejora facilita la trazabilidad y reduce los tiempos de gestión.",
+  "frecuencia": "Diaria",
+  "antes_min": 15,
+  "ahora_min": 3,
+  "baja_pct": 80,
+  "ahorro_semanal": "60 min"
+ },
+ {
+  "area": "Contabilidad",
+  "tarea": "Reporte de viáticos",
+  "frecuencia": "Mensual",
+  "antes_min": 240,
+  "ahora_min": 10,
+  "baja_pct": 96,
+  "ahorro_semanal": "53 min"
+ },
+ {
+  "area": "Servicios Sociales",
+  "tarea": "Informe De Gestion Tercer Trimestre Gerencia De Serv Sociales 2026",
+  "frecuencia": "Trimestral",
+  "antes_min": 720,
+  "ahora_min": 30,
+  "baja_pct": 96,
+  "ahorro_semanal": "53 min"
+ },
+ {
+  "area": "Agencia de Empleo",
+  "tarea": "Proceso de intermediación laboral validación de hojas de vida",
+  "frecuencia": "Diaria",
+  "antes_min": 32,
+  "ahora_min": 22,
+  "baja_pct": 31,
+  "ahorro_semanal": "50 min"
+ },
+ {
+  "area": "Agencia de Empleo",
+  "tarea": "Laboratorio de Empleo, ampliación de los resultados a empresarios",
+  "frecuencia": "Diaria",
+  "antes_min": 25,
+  "ahora_min": 15,
+  "baja_pct": 40,
+  "ahorro_semanal": "50 min"
+ },
+ {
+  "area": "Vivienda",
+  "tarea": "Seguimiento a ejecución técnica y jurídica Mejoramiento Rural",
+  "frecuencia": "Semanal",
+  "antes_min": 60,
+  "ahora_min": 15,
+  "baja_pct": 75,
+  "ahorro_semanal": "45 min"
+ },
+ {
+  "area": "Sub. Operativa",
+  "tarea": "Revisión de Costeos",
+  "frecuencia": "Diaria",
+  "antes_min": 10,
+  "ahora_min": 2,
+  "baja_pct": 80,
+  "ahorro_semanal": "40 min"
+ },
+ {
+  "area": "Sub. Admin y Financiera",
+  "tarea": "Automatización de textos de notificación del proceso precontractual.",
+  "frecuencia": "Diaria",
+  "antes_min": 10,
+  "ahora_min": 3,
+  "baja_pct": 70,
+  "ahorro_semanal": "35 min"
+ },
+ {
+  "area": "Comunicaciones",
+  "tarea": "Informe mensual de producción gráfica",
+  "frecuencia": "Mensual",
+  "antes_min": 180,
+  "ahora_min": 30,
+  "baja_pct": 83,
+  "ahorro_semanal": "35 min"
+ },
+ {
+  "area": "Agencia de Empleo",
+  "tarea": "Tablero de indicadores de Agencia de Empleo para Grupo Primario",
+  "frecuencia": "Mensual",
+  "antes_min": 180,
+  "ahora_min": 60,
+  "baja_pct": 67,
+  "ahorro_semanal": "28 min"
+ },
+ {
+  "area": "Educación",
+  "tarea": "Consolidado mensual de subsidios de la Ley 115",
+  "frecuencia": "Mensual",
+  "antes_min": 120,
+  "ahora_min": 10,
+  "baja_pct": 92,
+  "ahorro_semanal": "25 min"
+ },
+ {
+  "area": "Vivienda",
+  "tarea": "seguimiento y notificación a vencimiento del SFV",
+  "frecuencia": "Quincenal",
+  "antes_min": 60,
+  "ahora_min": 15,
+  "baja_pct": 75,
+  "ahorro_semanal": "22 min"
+ },
+ {
+  "area": "Contabilidad",
+  "tarea": "Reporte de retención en la fuente",
+  "frecuencia": "Mensual",
+  "antes_min": 120,
+  "ahora_min": 30,
+  "baja_pct": 75,
+  "ahorro_semanal": "21 min"
+ },
+ {
+  "area": "Jurídica",
+  "tarea": "Presentaciones de capacitacion",
+  "frecuencia": "Mensual",
+  "antes_min": 90,
+  "ahora_min": 5,
+  "baja_pct": 94,
+  "ahorro_semanal": "20 min"
+ },
+ {
+  "area": "Vivienda",
+  "tarea": "Ejecución ficha Tecnica Urbano",
+  "frecuencia": "Mensual",
+  "antes_min": 70,
+  "ahora_min": 10,
+  "baja_pct": 86,
+  "ahorro_semanal": "14 min"
+ },
+ {
+  "area": "Vivienda",
+  "tarea": "Ejecución Ficha Técnica Rural",
+  "frecuencia": "Mensual",
+  "antes_min": 70,
+  "ahora_min": 10,
+  "baja_pct": 86,
+  "ahorro_semanal": "14 min"
+ },
+ {
+  "area": "Vivienda",
+  "tarea": "Data de informe de Gestion trimestral",
+  "frecuencia": "Mensual",
+  "antes_min": 90,
+  "ahora_min": 30,
+  "baja_pct": 67,
+  "ahorro_semanal": "14 min"
+ },
+ {
+  "area": "Sub. Admin y Financiera",
+  "tarea": "Implementación el Portal de Control Precontractual (Dashboard)",
+  "frecuencia": "Mensual",
+  "antes_min": 60,
+  "ahora_min": 1,
+  "baja_pct": 98,
+  "ahorro_semanal": "14 min"
+ },
+ {
+  "area": "Jurídica",
+  "tarea": "Revisión de Solicitudes de elaboracion de convenios de prácticas para los estudiantes de INSTECOM",
+  "frecuencia": "Quincenal",
+  "antes_min": 30,
+  "ahora_min": 4,
+  "baja_pct": 87,
+  "ahorro_semanal": "13 min"
+ },
+ {
+  "area": "Jurídica",
+  "tarea": "Revisión de contratos de bienestar con entidades públicas.",
+  "frecuencia": "Mensual",
+  "antes_min": 45,
+  "ahora_min": 10,
+  "baja_pct": 78,
+  "ahorro_semanal": "8 min"
+ },
+ {
+  "area": "Cumplimiento",
+  "tarea": "Seguimiento de los POAs en la perspectiva de eficiencia",
+  "frecuencia": "Mensual",
+  "antes_min": 32,
+  "ahora_min": 0,
+  "baja_pct": 100,
+  "ahorro_semanal": "7 min"
+ },
+ {
+  "area": "Jurídica",
+  "tarea": "Revisión preliminar de convenios de prácticas con universidades a nivel nacional.",
+  "frecuencia": "Mensual",
+  "antes_min": 30,
+  "ahora_min": 5,
+  "baja_pct": 83,
+  "ahorro_semanal": "6 min"
+ },
+ {
+  "area": "Jurídica",
+  "tarea": "Revisión de solicitudes de elaboración de convenios de descuentos.",
+  "frecuencia": "Mensual",
+  "antes_min": 30,
+  "ahora_min": 5,
+  "baja_pct": 83,
+  "ahorro_semanal": "6 min"
+ },
+ {
+  "area": "Jurídica",
+  "tarea": "Informe denuncias Programa de Transparencia y Ética Empresarial",
+  "frecuencia": "Mensual",
+  "antes_min": 30,
+  "ahora_min": 5,
+  "baja_pct": 83,
+  "ahorro_semanal": "6 min"
+ },
+ {
+  "area": "Jurídica",
+  "tarea": "Revisión de solicitudes de elaboración de convenios de marcos y sus anexos.",
+  "frecuencia": "Mensual",
+  "antes_min": 30,
+  "ahora_min": 10,
+  "baja_pct": 67,
+  "ahorro_semanal": "5 min"
+ },
+ {
+  "area": "Vivienda",
+  "tarea": "Análisis de un informe de interventoría medido en acta",
+  "frecuencia": "Mensual · 11 proyectos",
+  "antes_min": 240,
+  "ahora_min": 30,
+  "baja_pct": 88,
+  "ahorro_semanal": "512 min"
+ }
+]

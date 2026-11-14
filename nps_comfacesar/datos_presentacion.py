@@ -349,6 +349,59 @@ def iie(area, fechas, hasta=None):
             "iie": round(sum(e.values()), 1)}
 
 
+# ─────────────── Las 53 tareas que computan, de la Sala de Control ───────────────
+#
+# Extraídas del tablero publicado de Lucía, de la tabla «Las cincuenta y tres
+# tareas que computan, con su frecuencia». Son las filas verificadas: las
+# estimadas y las de suma quedaron fuera. Es la base medida del programa, y las
+# 250 horas de la presentación son esta medición proyectada para incluir lo que
+# las áreas construyeron sin registrar.
+import json as _json
+import re as _re
+import pathlib as _pl
+
+TAREAS = _json.loads(
+    (_pl.Path(__file__).parent / "tareas-sala-control.json").read_text("utf-8"))
+
+# El tablero de Lucía abrevia un área. Se normaliza al nombre que usa el resto
+# del programa, y se comprueba que no quede ninguna otra sin correspondencia.
+_ALIAS = {"Subsidio": "Subsidio y Aportes"}
+for _t in TAREAS:
+    _t["area"] = _ALIAS.get(_t["area"], _t["area"])
+_huerfanas = {_t["area"] for _t in TAREAS} - set(SESIONES)
+assert not _huerfanas, _huerfanas
+
+VUELTA_ANTES = sum(t["antes_min"] for t in TAREAS)
+VUELTA_HOY = sum(t["ahora_min"] for t in TAREAS)
+
+# Si alguno de estos números se mueve, es que el tablero cambió y hay que
+# volver a extraer: la presentación no debe inventarse una base propia.
+assert len(TAREAS) == 53, len(TAREAS)
+assert (VUELTA_ANTES, VUELTA_HOY) == (22374, 2308), (VUELTA_ANTES, VUELTA_HOY)
+
+
+def _min_sem(t):
+    """Minutos recuperados por semana de una tarea. Las que el tablero dejó en
+    «por confirmar» no suman: no se rellenan con una suposición."""
+    m = _re.match(r"([\d.]+) min", t["ahorro_semanal"])
+    return int(m.group(1).replace(".", "")) if m else 0
+
+
+def por_area():
+    """El tablero de ejercicios agrupado por área, de mayor a menor recuperación."""
+    ag = {}
+    for t in TAREAS:
+        a = ag.setdefault(t["area"], {"tareas": 0, "antes": 0, "hoy": 0, "min_sem": 0})
+        a["tareas"] += 1
+        a["antes"] += t["antes_min"]
+        a["hoy"] += t["ahora_min"]
+        a["min_sem"] += _min_sem(t)
+    return sorted(ag.items(), key=lambda x: -x[1]["min_sem"])
+
+
+assert round(sum(v["min_sem"] for _, v in por_area()) / 60, 1) == PROGRAMA["horas_medidas"]
+
+
 def construir_datos():
     fechas = cargar_fechas()
     cierre = {a: iie(a, fechas) for a in SESIONES}

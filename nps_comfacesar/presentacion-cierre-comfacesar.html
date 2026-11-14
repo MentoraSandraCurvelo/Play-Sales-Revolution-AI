@@ -72,6 +72,9 @@ table.t{border-collapse:collapse;width:100%;font-size:25px}
 table.t th{font-size:20px;letter-spacing:1.5px;text-transform:uppercase;text-align:left;
   padding:14px 18px;background:var(--red);color:#fff}
 table.t td{padding:15px 18px;vertical-align:top}
+/* variante para tablas largas: el tablero de ejercicios lleva doce áreas más el total */
+table.t.mini{font-size:22px} table.t.mini td{padding:7px 18px}
+table.t.mini th{padding:10px 18px;font-size:18px}
 .dk table.t td{border-bottom:1px solid var(--rule-d);color:var(--mute-d)}
 .dk table.t td:first-child{color:var(--on-d);font-weight:700}
 .lt table.t td{border-bottom:1px solid var(--rule-l);color:var(--mute-l)}
@@ -263,6 +266,58 @@ td.st{color:var(--red)!important;font-weight:800} .dk td.st{color:var(--red-hi)!
         registrarlo, y por eso no suman horas aquí. Medir en pesos todavía no es
         costumbre, y es una de las cosas que esta fase deja abiertas.</p>
     </div>
+  </div>
+</section>
+<section class="slide lt" id="ejercicios" data-t="El tablero de ejercicios" data-ft="Sala de Control · las 53 tareas verificadas, con tiempo antes, tiempo hoy y frecuencia declarada por el área · las tareas estimadas no entran">
+
+  <p class="eb">Los ejercicios, uno por uno</p>
+  <h2>53 tareas medidas, en doce áreas</h2>
+  <p class="lede">El área anotó <b>cuánto tardaba, cuánto tarda hoy y cuántas veces
+    la hace</b>. Los minutos son de una vuelta completa, sin aplicar la frecuencia.</p>
+  <table class="t mini">
+    <tr><th>Área</th><th class="num">Tareas</th><th class="num">Antes, min</th>
+      <th class="num">Hoy, min</th><th class="num">Baja</th>
+      <th class="num">Horas/semana</th></tr>
+    <tr><td>Sub. Admin y Financiera</td><td class="num">6</td><td class="num">655</td><td class="num">50</td><td class="num st">92%</td><td class="num">45,7</td></tr><tr><td>Vivienda</td><td class="num">10</td><td class="num">1.070</td><td class="num">170</td><td class="num st">84%</td><td class="num">38,4</td></tr><tr><td>Jurídica</td><td class="num">14</td><td class="num">3.755</td><td class="num">108</td><td class="num st">97%</td><td class="num">23,6</td></tr><tr><td>Subsidio y Aportes</td><td class="num">3</td><td class="num">3.060</td><td class="num">65</td><td class="num st">98%</td><td class="num">23,1</td></tr><tr><td>IPS</td><td class="num">1</td><td class="num">6.400</td><td class="num">480</td><td class="num st">92%</td><td class="num">22,8</td></tr><tr><td>Comunicaciones</td><td class="num">5</td><td class="num">915</td><td class="num">151</td><td class="num st">83%</td><td class="num">13,8</td></tr><tr><td>Servicios Sociales</td><td class="num">3</td><td class="num">3.600</td><td class="num">315</td><td class="num st">91%</td><td class="num">10,9</td></tr><tr><td>Agencia de Empleo</td><td class="num">4</td><td class="num">1.437</td><td class="num">697</td><td class="num st">51%</td><td class="num">4,4</td></tr><tr><td>Contabilidad</td><td class="num">3</td><td class="num">840</td><td class="num">220</td><td class="num st">74%</td><td class="num">2,4</td></tr><tr><td>Sub. Operativa</td><td class="num">2</td><td class="num">490</td><td class="num">42</td><td class="num st">91%</td><td class="num">2,4</td></tr><tr><td>Educación</td><td class="num">1</td><td class="num">120</td><td class="num">10</td><td class="num st">92%</td><td class="num">0,4</td></tr><tr><td>Cumplimiento</td><td class="num">1</td><td class="num">32</td><td class="num">0</td><td class="num st">100%</td><td class="num">0,1</td></tr>
+    <tr><td><b>Las doce áreas</b></td><td class="num"><b>53</b></td>
+      <td class="num"><b>22.374</b></td><td class="num"><b>2.308</b></td>
+      <td class="num st"><b>90%</b></td>
+      <td class="num"><b>187,8</b></td></tr>
+  </table>
+</section>
+<section class="slide dk" id="de-minutos" data-t="De minutos a personas" data-ft="Las dos primeras cifras son una vuelta completa de las 53 tareas · las semanales aplican la frecuencia que declaró cada área">
+
+  <p class="eb">Cómo se llega a la cifra</p>
+  <h2>De 22.374 minutos a 250 horas a la semana</h2>
+  <p class="lede">La cuenta no da un salto: va paso a paso, y cada paso se puede abrir.
+    <b>Las 187,8 horas son las medidas</b>; las 250 son esa
+    medición proyectada, porque seis áreas construyeron sin anotarlo.</p>
+  <div class="grid3" style="grid-template-columns:repeat(4,1fr)"><div class="tile rv" style="--d:0.1s"><p class="big"><span data-n="22374.0" data-dec="0">22.374</span></p><p class="lab">minutos, una vuelta completa de las tareas como se hacían antes</p><p class="src">373 horas</p></div><div class="tile rv" style="--d:0.24000000000000002s"><p class="big"><span data-n="2308.0" data-dec="0">2.308</span><small> min</small></p><p class="lab">las mismas tareas, hoy</p><p class="src">38 horas · 90% menos</p></div><div class="tile rv" style="--d:0.38s"><p class="big"><span data-n="187.8" data-dec="1">187,8</span><small> h</small></p><p class="lab">cada semana, al aplicar cuántas veces se hace cada tarea</p><p class="src">lo que las áreas alcanzaron a registrar</p></div><div class="tile rv" style="--d:0.52s"><p class="big"><span data-n="250.0" data-dec="0">250</span><small> h</small></p><p class="lab">cada semana en toda la Caja</p><p class="src">incluye lo que se construyó sin registrar</p></div></div>
+  <div class="grid3">
+    <div class="tile rv" style="--d:0.6s"><p class="big"><span data-n="13000.0" data-dec="0">13.000</span><small> h</small></p><p class="lab">al año, si nada más cambia</p><p class="src">52 semanas</p></div>
+    <div class="tile rv" style="--d:0.7s"><p class="big"><span data-n="6.0" data-dec="0">6</span></p><p class="lab">personas a tiempo completo que esas horas liberan</p><p class="src">44 h por semana</p></div>
+    <div class="tile rv" style="--d:0.8s"><p class="big"><span data-n="5.0" data-dec="0">5</span></p><p class="lab">jornadas completas recuperadas cada semana</p><p class="src">48 h = 8 h × 6</p></div>
+  </div>
+</section>
+<section class="slide lt" id="retorno" data-t="El retorno" data-ft="Calculado sobre las horas semanales del programa y una tarifa promedio de los perfiles que ejecutan y revisan · 52 semanas al año">
+
+  <div class="col" style="gap:30px;flex:1;justify-content:center">
+  <p class="eb">La proporción</p>
+  <h2>En cuántas semanas se paga lo que se invirtió</h2>
+  <p class="lede"><b>El costo del programa no está en esta presentación.</b> Va la tabla
+    de escenarios, y quien conoce la cifra aplica la que corresponda.</p>
+  <div class="row" style="gap:40px;align-items:center">
+    <table class="t f1">
+      <tr><th>Si la inversión fue</th><th class="num">Se paga en</th>
+        <th class="num">Y en 12 meses devuelve</th></tr>
+      <tr><td>$20 millones</td><td class="num st">1,6 semanas</td><td class="num">32,2 veces</td></tr><tr><td>$40 millones</td><td class="num st">3,2 semanas</td><td class="num">16,1 veces</td></tr><tr><td>$60 millones</td><td class="num st">4,8 semanas</td><td class="num">10,7 veces</td></tr><tr><td>$80 millones</td><td class="num st">6,5 semanas</td><td class="num">8,1 veces</td></tr>
+    </table>
+    <div class="col" style="width:480px;gap:18px">
+      <div class="tile rv" style="--d:.3s"><p class="big" style="font-size:46px;letter-spacing:-1px">$<span data-n="12401625.0" data-dec="0">12.401.625</span></p><p class="lab">recuperado cada semana, y sigue corriendo</p></div>
+      <p class="note">Las horas <b>no se gastan una vez</b>: vuelven cada semana sin
+        volver a invertir, porque lo que cambió fue el proceso.</p>
+    </div>
+  </div>
   </div>
 </section>
 <section class="slide dk" id="indice-que" data-t="El índice, qué mide">

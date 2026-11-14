@@ -573,7 +573,103 @@ s17 = slide("servicios-sociales", "El área que no expone", f"""
     No se suman a estas horas hasta que se midan.</p>""",
            pie="Tres tareas medidas y verificadas en sesión, del libro de procesos del programa · las tareas estimadas del área no se incluyen")
 
-SLIDES = [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16b, s17, s16]
+
+# ───────── 4b · el tablero de ejercicios, área por área ─────────
+
+# Sale de la Sala de Control: las 53 tareas que computan, agrupadas por área.
+# Es la base medida, 187,8 h, no las 250 proyectadas: la diapositiva siguiente
+# explica cómo se pasa de una a otra.
+_pa = D.por_area()
+_f = "".join(
+    f'<tr><td>{a}</td><td class="num">{v["tareas"]}</td>'
+    f'<td class="num">{mil(v["antes"])}</td><td class="num">{mil(v["hoy"])}</td>'
+    f'<td class="num st">{round(100 * (v["antes"] - v["hoy"]) / v["antes"])}%</td>'
+    f'<td class="num">{dec(v["min_sem"] / 60)}</td></tr>'
+    for a, v in _pa)
+_tt = {k: sum(v[k] for _, v in _pa) for k in ("tareas", "antes", "hoy", "min_sem")}
+
+s4b = slide("ejercicios", "El tablero de ejercicios", f"""
+  <p class="eb">Los ejercicios, uno por uno</p>
+  <h2>{palabra(len(D.TAREAS)).capitalize()} tareas medidas, en {palabra(len(_pa))} áreas</h2>
+  <p class="lede">El área anotó <b>cuánto tardaba, cuánto tarda hoy y cuántas veces
+    la hace</b>. Los minutos son de una vuelta completa, sin aplicar la frecuencia.</p>
+  <table class="t mini">
+    <tr><th>Área</th><th class="num">Tareas</th><th class="num">Antes, min</th>
+      <th class="num">Hoy, min</th><th class="num">Baja</th>
+      <th class="num">Horas/semana</th></tr>
+    {_f}
+    <tr><td><b>Las {palabra(len(_pa))} áreas</b></td><td class="num"><b>{_tt["tareas"]}</b></td>
+      <td class="num"><b>{mil(_tt["antes"])}</b></td><td class="num"><b>{mil(_tt["hoy"])}</b></td>
+      <td class="num st"><b>{round(100 * (_tt["antes"] - _tt["hoy"]) / _tt["antes"])}%</b></td>
+      <td class="num"><b>{dec(_tt["min_sem"] / 60)}</b></td></tr>
+  </table>""", oscura=False,
+            pie="Sala de Control · las 53 tareas verificadas, con tiempo antes, tiempo hoy y frecuencia declarada por el área · las tareas estimadas no entran")
+
+# ───────── 4c · de minutos a personas ─────────
+
+_cadena = [
+    # sin el «min» pegado: a cinco dígitos la palabra se le va a la línea de abajo
+    (mil(D.VUELTA_ANTES), "minutos, una vuelta completa de las tareas como se hacían antes",
+     f"{ent(D.VUELTA_ANTES / 60)} horas"),
+    (f"{mil(D.VUELTA_HOY)}<small> min</small>", "las mismas tareas, hoy",
+     f"{ent(D.VUELTA_HOY / 60)} horas · {round(100 * (D.VUELTA_ANTES - D.VUELTA_HOY) / D.VUELTA_ANTES)}% menos"),
+    (f"{dec(P['horas_medidas'])}<small> h</small>", "cada semana, al aplicar cuántas veces se hace cada tarea",
+     "lo que las áreas alcanzaron a registrar"),
+    (f"{ent(P['horas'])}<small> h</small>", "cada semana en toda la Caja",
+     "incluye lo que se construyó sin registrar"),
+]
+_cad = "".join(tile(b, l, src, .1 + i * .14) for i, (b, l, src) in enumerate(_cadena))
+
+s4c = slide("de-minutos", "De minutos a personas", f"""
+  <p class="eb">Cómo se llega a la cifra</p>
+  <h2>De {mil(D.VUELTA_ANTES)} minutos a {ent(P['horas'])} horas a la semana</h2>
+  <p class="lede">La cuenta no da un salto: va paso a paso, y cada paso se puede abrir.
+    <b>Las {dec(P['horas_medidas'])} horas son las medidas</b>; las {ent(P['horas'])} son esa
+    medición proyectada, porque seis áreas construyeron sin anotarlo.</p>
+  <div class="grid3" style="grid-template-columns:repeat(4,1fr)">{_cad}</div>
+  <div class="grid3">
+    {tile(f'{mil(P["horas"] * 52)}<small> h</small>', "al año, si nada más cambia", "52 semanas", .6)}
+    {tile(f'{ent(P["horas"] / 44)}', "personas a tiempo completo que esas horas liberan", "44 h por semana", .7)}
+    {tile(f'{ent(P["horas"] / 48)}', "jornadas completas recuperadas cada semana", "48 h = 8 h × 6", .8)}
+  </div>""",
+            pie="Las dos primeras cifras son una vuelta completa de las 53 tareas · las semanales aplican la frecuencia que declaró cada área")
+
+# ───────── 4d · en cuántas semanas se paga ─────────
+
+# El costo del programa no se publica, así que no se nombra: va una tabla de
+# escenarios y quien lee aplica la cifra que conoce. Es como lo resolvió Lucía
+# en la Sala de Control, y es lo que permite hablar de retorno sin poner la
+# tarifa de la mentoría en pantalla.
+_sem_pesos = P["horas"] * D.TARIFA_MEZCLA
+_anio_pesos = _sem_pesos * 52
+_esc = [20_000_000, 40_000_000, 60_000_000, 80_000_000]
+_fe = "".join(
+    f'<tr><td>${mil(i / 1_000_000)} millones</td>'
+    f'<td class="num st">{dec(i / _sem_pesos)} semanas</td>'
+    f'<td class="num">{dec(_anio_pesos / i)} veces</td></tr>' for i in _esc)
+
+s4d = slide("retorno", "El retorno", f"""
+  <div class="col" style="gap:30px;flex:1;justify-content:center">
+  <p class="eb">La proporción</p>
+  <h2>En cuántas semanas se paga lo que se invirtió</h2>
+  <p class="lede"><b>El costo del programa no está en esta presentación.</b> Va la tabla
+    de escenarios, y quien conoce la cifra aplica la que corresponda.</p>
+  <div class="row" style="gap:40px;align-items:center">
+    <table class="t f1">
+      <tr><th>Si la inversión fue</th><th class="num">Se paga en</th>
+        <th class="num">Y en 12 meses devuelve</th></tr>
+      {_fe}
+    </table>
+    <div class="col" style="width:480px;gap:18px">
+      <div class="tile rv" style="--d:.3s"><p class="big" style="font-size:46px;letter-spacing:-1px">${mil(_sem_pesos)}</p><p class="lab">recuperado cada semana, y sigue corriendo</p></div>
+      <p class="note">Las horas <b>no se gastan una vez</b>: vuelven cada semana sin
+        volver a invertir, porque lo que cambió fue el proceso.</p>
+    </div>
+  </div>
+  </div>""", oscura=False,
+            pie="Calculado sobre las horas semanales del programa y una tarifa promedio de los perfiles que ejecutan y revisan · 52 semanas al año")
+
+SLIDES = [s1, s2, s3, s4, s4b, s4c, s4d, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16b, s17, s16]
 
 # ───────────────────────── CSS ─────────────────────────
 
@@ -648,6 +744,9 @@ table.t{border-collapse:collapse;width:100%;font-size:25px}
 table.t th{font-size:20px;letter-spacing:1.5px;text-transform:uppercase;text-align:left;
   padding:14px 18px;background:var(--red);color:#fff}
 table.t td{padding:15px 18px;vertical-align:top}
+/* variante para tablas largas: el tablero de ejercicios lleva doce áreas más el total */
+table.t.mini{font-size:22px} table.t.mini td{padding:7px 18px}
+table.t.mini th{padding:10px 18px;font-size:18px}
 .dk table.t td{border-bottom:1px solid var(--rule-d);color:var(--mute-d)}
 .dk table.t td:first-child{color:var(--on-d);font-weight:700}
 .lt table.t td{border-bottom:1px solid var(--rule-l);color:var(--mute-l)}
