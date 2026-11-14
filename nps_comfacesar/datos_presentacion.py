@@ -447,6 +447,9 @@ def grupos():
 assert sum(len(g[2]) for g in grupos()) == POSTULADAS
 
 
+dec_medidas = f"{PROGRAMA['horas_medidas']:.1f}".replace(".", ",")
+
+
 def construir_datos():
     fechas = cargar_fechas()
     cierre = {a: iie(a, fechas) for a in SESIONES}

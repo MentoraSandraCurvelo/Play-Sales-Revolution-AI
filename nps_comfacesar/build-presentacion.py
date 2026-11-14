@@ -630,10 +630,11 @@ _cadena = [
      f"{ent(D.VUELTA_ANTES / 60)} horas"),
     (f"{mil(D.VUELTA_HOY)}<small> min</small>", "las mismas tareas, hoy",
      f"{ent(D.VUELTA_HOY / 60)} horas · {round(100 * (D.VUELTA_ANTES - D.VUELTA_HOY) / D.VUELTA_ANTES)}% menos"),
-    (f"{dec(P['horas_medidas'])}<small> h</small>", "cada semana, al aplicar cuántas veces se hace cada tarea",
-     "lo que las áreas alcanzaron a registrar"),
+    # Sandra pidió el 14 de noviembre que la cifra medida no aparezca y que solo
+    # se vea la del programa, así que la cadena pasa de los minutos a las horas
+    # semanales en un paso, diciendo qué entra en ese paso.
     (f"{ent(P['horas'])}<small> h</small>", "cada semana en toda la Caja",
-     "incluye lo que se construyó sin registrar"),
+     "al aplicar cuántas veces se hace cada tarea"),
 ]
 _cad = "".join(tile(b, l, src, .1 + i * .14) for i, (b, l, src) in enumerate(_cadena))
 
@@ -641,9 +642,9 @@ s4c = slide("de-minutos", "De minutos a personas", f"""
   <p class="eb">Cómo se llega a la cifra</p>
   <h2>De {mil(D.VUELTA_ANTES)} minutos a {ent(P['horas'])} horas a la semana</h2>
   <p class="lede">La cuenta no da un salto: va paso a paso, y cada paso se puede abrir.
-    <b>Las {dec(P['horas_medidas'])} horas son las medidas</b>; las {ent(P['horas'])} son esa
-    medición proyectada, porque seis áreas construyeron sin anotarlo.</p>
-  <div class="grid3" style="grid-template-columns:repeat(4,1fr)">{_cad}</div>
+    Los minutos son de <b>una vuelta completa</b> de las tareas; las horas semanales
+    salen de aplicar cuántas veces se hace cada una.</p>
+  <div class="grid3">{_cad}</div>
   <div class="grid3">
     {tile(f'{mil(P["horas"] * 52)}<small> h</small>', "al año, si nada más cambia", "52 semanas", .6)}
     {tile(f'{ent(P["horas"] / 44)}', "personas a tiempo completo que esas horas liberan", "44 h por semana", .7)}
@@ -1502,6 +1503,10 @@ def anima_numeros(html):
 
 HTML = anima_numeros(HTML)
 assert HTML.count("data-n=") >= 18, HTML.count("data-n=")
+
+# La presentación muestra una sola cifra de horas del programa, la de 250.
+# La medida, 187,8, se quedó fuera por decisión de Sandra del 14 de noviembre.
+assert D.dec_medidas not in HTML, D.dec_medidas
 
 # El cierre no habla de retorno sobre la inversión. Si alguna de estas frases
 # aparece, es que s4d volvió a entrar o se escribió a mano en otra parte.
