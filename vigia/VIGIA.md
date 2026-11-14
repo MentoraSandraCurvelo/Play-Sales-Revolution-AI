@@ -7,6 +7,7 @@ Estado: Dropbox y Google Drive activos con la misma estructura (Drive reorganiza
 1. `/Mi Mac (MacBook-Air-de-Sandra.local)/Downloads` (Descargas del Mac sincronizada con Dropbox)
 2. Raíz de Dropbox `/`
 3. `/00-ENTRADA` (y `/00-ENTRADA/Por revisar` para dudas)
+4. `/Email Attachments` (adjuntos que llegan del correo; los ZIP que no se pueden abrir se reportan)
 
 ## Estructura aprobada
 | Carpeta | Contenido |
@@ -35,6 +36,8 @@ Estado: Dropbox y Google Drive activos con la misma estructura (Drive reorganiza
 - Sibruno (herramienta de prospección): `1-IAM™/Herramientas/Sibruno`.
 
 ## Reglas
+- Facturas y extractos a nombre de Sandra con su cédula, o a nombre de I.AM SAS, van a `0-Contabilidad/0. Facturas/<subcarpeta>` (Sandra lleva contabilidad personal y la de IAM).
+- Todo lo relacionado con Carlos Godoy va a `4-Personal/PRUEBAS CONTRA CARLOS GODOY`.
 - No se tocan archivos modificados en los últimos 30 minutos: Sandra puede estar editándolos.
 - Si ya existe una carpeta con lineamiento (sesiones numeradas, años, meses), se respeta tal cual. No se inventa estructura; se sugiere.
 - Nombres sin fecha al inicio: nombre claro + tipo de documento. Los archivos que entran a carpetas con lineamiento propio conservan su nombre original.
