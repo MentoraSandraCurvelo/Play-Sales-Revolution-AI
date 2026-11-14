@@ -153,7 +153,7 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 
 ## 24. Recordar lo pendiente (10 nov 2026, decisión de Sandra)
 
-- Cada vez que Sandra dé una instrucción, al final de la respuesta va el bloque "📌 PILA, SANDRA": lo que está pendiente de su aprobación o de su acción, en una línea cada cosa, empezando por la prospección.
+- Cada vez que Sandra dé una instrucción, al final de la respuesta va el bloque "📌 ACUMULADO SANDRA" (antes "PILA, SANDRA"; renombrado por Sandra el 14 nov 2026): lo que está pendiente de su aprobación o de su acción, en una línea cada cosa, empezando por la prospección.
 - La fuente es pendientes-sandra.md; se actualiza en cada respuesta.
 - Prospección es prioridad 1: si una tarea de prospección lleva más de 2 días sin avanzar, se dice primero y se propone cómo destrabarla.
 
