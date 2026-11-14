@@ -221,3 +221,11 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 ## 36. Verificar antes de atribuir (14 nov 2026)
 - Antes de atribuirle a una persona real una frase, un plan, una cifra o un nombre de programa (sobre todo si se le etiqueta en público), verificar la fuente pública. Si no se encuentra, no se pone; se usa una versión que no atribuya.
 - Caso: "Plan Destrabe" (Vicepresidente) no se pudo verificar; se usó "la meta de un Estado más eficiente", que sí está en su post de las Bases del Plan.
+
+## 37. Seguir y conectar al comentar (14 nov 2026, Sandra)
+- Después de cada comentario en una organización, Chrome sigue la página y conecta con hasta 2 personas clave de ella (dirección ejecutiva, innovación, transformación digital, formación, afiliados; en empresas: gerencia general, comercial, talento humano).
+- Usa las notas de invitación aprobadas el 4 nov (presidente y desarrollo empresarial o formación); solo cambia nombre y ciudad o país.
+- Límites: 10 invitaciones al día, 50 a la semana, 2 minutos entre una y otra. Automático de lunes a viernes; fines de semana con el sí de Sandra.
+- Exclusiones: Presidente, Vicepresidente y ministros (solo seguir); equipos cliente; conexiones existentes o invitaciones pendientes.
+- Sin nota no se envía. Ante cualquier aviso de LinkedIn, se para todo. Los lunes se retiran invitaciones de más de 21 días.
+- Por qué 50 a la semana: LinkedIn no publica su límite oficial; lo que se reporta varía (aprox. 100 a 200 por semana, no verificado). 50 deja margen amplio.
