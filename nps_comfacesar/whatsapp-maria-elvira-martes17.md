@@ -1,5 +1,8 @@
 # Mensaje para María Elvira · WhatsApp · la jornada del martes 17
 
+> **SUPERSEDIDO el 14 de noviembre.** El mensaje vigente es `whatsapp-grupo-martes17.md`,
+> que va al grupo de WhatsApp donde están todos y no a María Elvira aparte.
+
 **IAM™ Intelligence · Comfacesar · 14 de noviembre de 2026**
 
 Sustituye a los dos mensajes anteriores, que iban con la fecha del viernes 6 y

@@ -138,11 +138,11 @@ JORNADA = [
     ("Contabilidad", "CO", "El circuito de conciliaciones probado de punta a punta"),
     ("Agencia de Empleo", "AE", "Matías respondiendo a un ciudadano"),
     ("Vivienda", "VI", "El tablero del mejoramiento rural y el análisis de interventorías"),
-    ("Servicios Sociales", "SS", "El CCT comparado en una noche, de un mes que tardaba"),
     ("Subsidio y Aportes", "SA", "Cinco agentes, y Afilia contestando afiliaciones sola"),
     ("Comunicaciones", "CM", "Tres agentes y el libreto de evento usado en vivo"),
     ("Sub. Operativa", "SO", "Maia, el primer agente del área"),
     ("Educación", "ED", "Dos tableros publicados y su primera cifra medida"),
+    ("Servicios Sociales", "SS", "El CCT comparado en una noche, de un mes que tardaba"),
 ]
 # Minutos por área. La jornada se redujo a 3 horas y media para once áreas, así
 # que el tiempo se reparte por complejidad: 20 minutos a las seis que la
@@ -150,9 +150,7 @@ JORNADA = [
 JORNADA_INICIO = 9 * 60 + 15        # tras quince minutos de introducción
 JORNADA_CIERRE = 10                 # minutos de cierre al final
 MINUTOS = {a: (20 if i < 6 else 13) for i, a in enumerate(
-    ["IPS", "Jurídica", "Sub. Admin y Financiera", "Contabilidad", "Agencia de Empleo",
-     "Vivienda", "Servicios Sociales", "Subsidio y Aportes", "Comunicaciones",
-     "Sub. Operativa", "Educación"])}
+    ['IPS', 'Jurídica', 'Sub. Admin y Financiera', 'Contabilidad', 'Agencia de Empleo', 'Vivienda', 'Subsidio y Aportes', 'Comunicaciones', 'Sub. Operativa', 'Educación', 'Servicios Sociales'])}
 assert sum(MINUTOS.values()) + 15 + JORNADA_CIERRE == 210, sum(MINUTOS.values())
 
 
