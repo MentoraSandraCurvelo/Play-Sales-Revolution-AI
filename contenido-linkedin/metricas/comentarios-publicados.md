@@ -53,4 +53,4 @@ Medir el lun 16.
 4. Cámara Colombiana de Comercio Electrónico, IA para decidir: https://www.linkedin.com/feed/update/urn:li:activity:7526999954238668800?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7526999954238668800%2C7527095444544602112%29
 5. Cámara de Comercio de Santiago (Chile), economía emocional: https://www.linkedin.com/feed/update/urn:li:ugcPost:7526738670696144896?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7526738670696144896%2C7527095749348720640%29
 6. Respuesta a OHPIA: https://www.linkedin.com/feed/update/urn:li:activity:7525522768210219009?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7525522768210219009%2C7527096506345046016%29
-Revisión Claude: los 6 cumplen reglas. 2 de 5 fueron a Chile: priorizar Colombia.
+Revisión Claude: los 6 cumplen reglas. Chile cuenta: Sandra vende en toda LATAM (regla 34).

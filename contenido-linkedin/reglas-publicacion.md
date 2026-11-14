@@ -206,3 +206,7 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Sandra revisa después: a las 9:13 a. m. Claude le recuerda pedirle a Chrome la tabla con los links; Sandra la pega aquí y Claude revisa. Si algo está mal, se edita o se borra.
 - Sábado y domingo: Chrome muestra la lista y espera el sí de Sandra.
 - Las respuestas en hilos de cuentas prioritarias siguen necesitando el sí de Sandra.
+
+## 34. Mercado: toda Latinoamérica (14 nov 2026, Sandra)
+- Sandra vende en toda LATAM. Los comentarios en cámaras de comercio, gremios y empresas de cualquier país de América Latina (Chile, Perú, México, Ecuador, Panamá, República Dominicana, etc.) SÍ son prioridad comercial, no solo Colombia.
+- En la mezcla diaria: mantener al Vicepresidente y las cuentas prioritarias de Colombia, y sumar cámaras y gremios de otros países de LATAM.
