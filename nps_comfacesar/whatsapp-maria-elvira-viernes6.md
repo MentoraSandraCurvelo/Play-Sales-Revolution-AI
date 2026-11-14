@@ -1,5 +1,8 @@
 # Mensaje para María Elvira · WhatsApp · orden de la jornada del viernes 6
 
+> **SUPERSEDIDO el 14 de noviembre.** La jornada se aplazó del viernes 6 al martes 17
+> y cambió el orden. El mensaje vigente es `whatsapp-maria-elvira-martes17.md`.
+
 **IAM™ Intelligence · Comfacesar · 3 de noviembre de 2026**
 
 Para copiar y pegar tal cual en WhatsApp. El bloque de la tabla va entre tildes

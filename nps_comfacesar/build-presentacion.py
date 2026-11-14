@@ -369,31 +369,34 @@ s11 = slide("abierto", "Lo que no se resolvió", f"""
 
 # ───────────────────────── 12 · la jornada, las 12 áreas ─────────────────────────
 
+HORARIO = {a: (i, f, m) for a, i, f, m in D.horario()}
+
+
 def fila_area(i, area, ini, muestra):
     quien = D.PRESENTA.get(area, "")
     iie_a = d["cierre"][area]["iie"]
-    h = D.HORAS.get(area, 0.0)
-    met = f'{horas(area)} h' if area in D.HORAS else "por medir"
+    desde, hasta, mins = HORARIO[area]
+    met = f'{desde}<span class="qm"> · {mins}\u2009min</span>'
     return (f'<div class="row ja rv" style="--d:{.04 * i}s">'
             f'<p class="n">{i + 1:02d}</p>{mono(ini)}'
             f'<p class="an f1">{area}<span class="qm"> · {muestra}</span></p>'
             f'<p class="who pr">{quien}</p>'
-            f'<p class="vl" style="width:110px;text-align:right">{met}</p>'
+            f'<p class="vl" style="width:150px;text-align:right">{met}</p>'
             f'<p class="iie" style="width:84px;text-align:right">{ent(iie_a)}</p></div>')
 
 
 s12 = slide("jornada", "Las áreas de la jornada", f"""
   <p class="eb">Bloque 02 · las áreas, en vivo</p>
-  <h2>{palabra(len(D.JORNADA)).capitalize()} áreas, en este orden</h2>
+  <h2>{palabra(len(D.JORNADA)).capitalize()} áreas, {D.JORNADA_FECHA.split(",")[1].strip()}</h2>
   <div class="col" style="gap:3px;flex:1;justify-content:center">
     <div class="row ja hd"><p class="n">N°</p><span style="width:44px"></span>
       <p class="f1">Área y qué muestra</p>
       <p class="pr">Quién presenta</p>
-      <p style="width:110px;text-align:right">h/semana</p>
+      <p style="width:150px;text-align:right">Hora</p>
       <p style="width:84px;text-align:right">IIE</p></div>
     {"".join(fila_area(i, a, ini, m) for i, (a, ini, m) in enumerate(D.JORNADA))}
   </div>""",
-            pie="El orden lo fijó la dirección · todas tienen procesos medidos en la Sala de Control")
+            pie="El orden lo fijó la dirección, por complejidad del proceso resuelto · 20 minutos las seis primeras y 13 las siguientes")
 
 # ───────────────────────── 13 · las indicaciones ─────────────────────────
 

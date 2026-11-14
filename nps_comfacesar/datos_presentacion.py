@@ -37,9 +37,9 @@ PROGRAMA = {
 #   JORNADA_FECHA   cómo se nombra en los titulares, p. ej. "viernes 6 de noviembre"
 #   JORNADA_CORTA   la forma corta, p. ej. "viernes 6"
 #   JORNADA_FIJADA  False mientras no haya fecha confirmada
-JORNADA_FECHA = "fecha por confirmar"
-JORNADA_CORTA = "la jornada"
-JORNADA_FIJADA = False
+JORNADA_FECHA = "martes 17 de noviembre, de 9:00 a 12:30"
+JORNADA_CORTA = "martes 17"
+JORNADA_FIJADA = True
 
 # sesiones totales al cierre, del tablero de cierre
 SESIONES = {
@@ -132,18 +132,39 @@ TARIFA_MEZCLA = (TARIFAS[0][1] + TARIFAS[1][1]) / 2
 
 # el orden de la jornada, fijado por Sandra
 JORNADA = [
-    ("Agencia de Empleo", "AE", "Matías respondiendo a un ciudadano"),
     ("IPS", "IPS", "La plataforma de capacitaciones, de la firma al certificado"),
-    ("Vivienda", "VI", "El tablero del mejoramiento rural y el análisis de interventorías"),
-    ("Contabilidad", "CO", "El circuito de conciliaciones probado de punta a punta"),
-    ("Sub. Admin y Financiera", "SF", "La prevalidación precontractual y la agenda directiva"),
-    ("Educación", "ED", "Dos tableros publicados y su primera cifra medida"),
     ("Jurídica", "JU", "Cuatro agentes, dos corriendo sobre el correo real"),
-    ("Subsidio y Aportes", "SA", "El circuito completo, de principio a fin"),
-    ("Servicios Sociales", "SS", "Las actas de contrato y el agente que halló errores de origen"),
+    ("Sub. Admin y Financiera", "SF", "La prevalidación precontractual y la agenda directiva"),
+    ("Contabilidad", "CO", "El circuito de conciliaciones probado de punta a punta"),
+    ("Agencia de Empleo", "AE", "Matías respondiendo a un ciudadano"),
+    ("Vivienda", "VI", "El tablero del mejoramiento rural y el análisis de interventorías"),
+    ("Servicios Sociales", "SS", "El CCT comparado en una noche, de un mes que tardaba"),
+    ("Subsidio y Aportes", "SA", "Cinco agentes, y Afilia contestando afiliaciones sola"),
     ("Comunicaciones", "CM", "Tres agentes y el libreto de evento usado en vivo"),
     ("Sub. Operativa", "SO", "Maia, el primer agente del área"),
+    ("Educación", "ED", "Dos tableros publicados y su primera cifra medida"),
 ]
+# Minutos por área. La jornada se redujo a 3 horas y media para once áreas, así
+# que el tiempo se reparte por complejidad: 20 minutos a las seis que la
+# dirección quiere ver primero y 13 a las cinco siguientes.
+JORNADA_INICIO = 9 * 60 + 15        # tras quince minutos de introducción
+JORNADA_CIERRE = 10                 # minutos de cierre al final
+MINUTOS = {a: (20 if i < 6 else 13) for i, a in enumerate(
+    ["IPS", "Jurídica", "Sub. Admin y Financiera", "Contabilidad", "Agencia de Empleo",
+     "Vivienda", "Servicios Sociales", "Subsidio y Aportes", "Comunicaciones",
+     "Sub. Operativa", "Educación"])}
+assert sum(MINUTOS.values()) + 15 + JORNADA_CIERRE == 210, sum(MINUTOS.values())
+
+
+def horario():
+    """Hora de inicio y fin de cada área, en el orden de la jornada."""
+    t = JORNADA_INICIO
+    for a, _, _ in JORNADA:
+        m = MINUTOS[a]
+        yield a, f"{t // 60}:{t % 60:02d}", f"{(t + m) // 60}:{(t + m) % 60:02d}", m
+        t += m
+
+
 # Quién presenta por cada área, en forma corta, que es la que cabe en la columna
 # de la diapositiva. Los nombres completos están en el mensaje a María Elvira,
 # whatsapp-maria-elvira-quien-presenta.md, cruzados contra Slack.
