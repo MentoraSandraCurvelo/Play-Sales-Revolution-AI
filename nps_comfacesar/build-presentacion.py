@@ -179,9 +179,15 @@ s3 = slide("resultados", "Los resultados", f"""
 
 # ───────────────────────── 4 · horas por área ─────────────────────────
 
+# Solo las áreas que dejaron al menos una hora. Un área con menos de una hora
+# ocupa una fila entera para decir que no recuperó nada, y Sandra pidió el 14 de
+# noviembre que no salieran: están en el tablero de las 21, que es donde cuenta.
 hmax = max(D.HORAS.values())
+_conhoras = [(a, h) for a, h in sorted(D.HORAS.items(), key=lambda x: -x[1]) if h > 0]
+_sinhoras = D.grupos()[1][2]
 hb = "".join(barra(a, f'{horas(a)} h', h / hmax * 100, .08 * i)
-             for i, (a, h) in enumerate(sorted(D.HORAS.items(), key=lambda x: -x[1])))
+             for i, (a, h) in enumerate(_conhoras))
+assert len(_conhoras) + len(_sinhoras) == len(D.SESIONES), len(_conhoras)
 
 s4 = slide("horas", "Horas por área", f"""
   <p class="eb">La recuperación</p>
@@ -191,9 +197,10 @@ s4 = slide("horas", "Horas por área", f"""
     <div class="col" style="width:470px;gap:24px">
       <div><p class="big huge">{ent(P['horas'])}</p><p class="sub">horas por semana</p></div>
       <p class="note">Para entrar aquí, el área tuvo que anotar cuánto tardaba la tarea,
-        cuánto tarda hoy y cuántas veces la hace. <b>Seis áreas no lo anotaron.</b></p>
-      <p class="note"><b>Las seis construyeron igual.</b> Lo que no hicieron fue
-        registrarlo, y por eso no suman horas aquí. Medir en pesos todavía no es
+        cuánto tarda hoy y cuántas veces la hace. <b>{palabra(len(_sinhoras)).capitalize()} áreas
+        no dejaron ni una hora.</b></p>
+      <p class="note"><b>Varias de ellas construyeron igual.</b> Lo que no hicieron
+        fue registrarlo, y por eso no suman horas aquí. Medir en pesos todavía no es
         costumbre, y es una de las cosas que esta fase deja abiertas.</p>
     </div>
   </div>""", oscura=False,
