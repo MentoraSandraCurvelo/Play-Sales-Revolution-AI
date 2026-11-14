@@ -210,3 +210,10 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 ## 34. Mercado: toda Latinoamérica (14 nov 2026, Sandra)
 - Sandra vende en toda LATAM. Los comentarios en cámaras de comercio, gremios y empresas de cualquier país de América Latina (Chile, Perú, México, Ecuador, Panamá, República Dominicana, etc.) SÍ son prioridad comercial, no solo Colombia.
 - En la mezcla diaria: mantener al Vicepresidente y las cuentas prioritarias de Colombia, y sumar cámaras y gremios de otros países de LATAM.
+
+## 35. Estilo visual aprobado (14 nov 2026, imagen lun-23-am)
+- Base: foto REAL de Sandra recortada (sin que la IA le cambie la cara) sobre un escenario futurista generado con ElevenLabs. La IA nunca dibuja la cara de Sandra.
+- Textos del escenario integrados como hologramas, numerados cuando hay pasos.
+- Título grande en alto relieve (blanco con profundidad roja y brillo).
+- Cierre en franja roja: frase clave gigante y segunda línea grande con resaltados (palabra en caja negra, palabra en caja blanca con texto rojo).
+- Todo debe leerse en el celular. Script de referencia: imagenes/escalera-lun-23.py.
