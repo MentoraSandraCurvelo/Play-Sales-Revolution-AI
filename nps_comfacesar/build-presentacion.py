@@ -517,7 +517,49 @@ s16b = slide("cronograma", "Los bloques del año", f"""
   </div>""", oscura=False,
              pie="Los frentes de la fase 2 con el rango de meses que trae la propuesta · el alcance y la inversión se tratan aparte")
 
-SLIDES = [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16b, s16]
+
+# ──────────── 17 · Servicios Sociales, para el cierre de Sandra ────────────
+
+# El área no expone en la jornada del martes 17, así que sus cifras no se ven en
+# vivo y Sandra las presenta en su bloque de cierre. Solo van las tres tareas
+# MEDIDAS, verificadas en sesión y que suman las horas del área en el libro. Las
+# otras diez tareas del área están marcadas como estimadas en la Sala de Control
+# y no se cuentan aquí: la comparación de la convención colectiva es una de
+# ellas, y por eso no aparece como cifra de titular.
+SS_MEDIDAS = [
+    ("Informe de Seguimiento N° 12 · Buenavista", "Mensual", 1440, 45, 322),
+    ("Informe de Seguimiento N° 4 · cubierta cancha", "Mensual", 1440, 240, 277),
+    ("Informe de Gestión · tercer trimestre", "Trimestral", 720, 30, 53),
+]
+# Las tres tareas tienen que sumar las horas que el libro le atribuye al área:
+# si alguna cifra se mueve, la diapositiva no se construye.
+assert round(sum(x[4] for x in SS_MEDIDAS) / 60, 1) == round(D.MEDIDAS["Servicios Sociales"], 1), \
+    sum(x[4] for x in SS_MEDIDAS) / 60
+
+ss_barras = "".join(
+    barra(f"{t} <small style='opacity:.6'>· {frec}</small>",
+          f"{mil(antes)} → {mil(ahora)} min",
+          100 * (antes - ahora) / antes, .2 + i * .14, cols="620px 1fr 210px")
+    for i, (t, frec, antes, ahora, _eq) in enumerate(SS_MEDIDAS))
+
+s17 = slide("servicios-sociales", "El área que no expone", f"""
+  <p class="eb">Lo que no se va a ver en vivo</p>
+  <h2>Servicios Sociales: {dec(D.MEDIDAS['Servicios Sociales'])} horas a la semana, medidas</h2>
+  <p class="lede">El área no alcanza a exponer en la jornada, así que estas cifras
+    no las cuenta nadie desde el escenario. Son <b>tres tareas verificadas en
+    sesión</b>, con su tiempo de antes y su tiempo de hoy.</p>
+  <div class="col" style="gap:14px">{ss_barras}</div>
+  <div class="grid3">
+    {tile(f'{dec(D.MEDIDAS["Servicios Sociales"])}<small> h</small>', "a la semana, medidas y verificadas", "suma de las tres tareas", .7)}
+    {tile(f'{ent(D.HORAS["Servicios Sociales"])}<small> h</small>', f"proyectadas, de las {ent(P['horas'])} del programa", "", .8)}
+    {tile("97%", "la baja más profunda del área", "un informe mensual de 24 h a 45 min", .9)}
+  </div>
+  <p class="note rv" style="--d:1s">El área tiene <b>diez tareas más estimadas</b>,
+    pendientes de verificar, entre ellas la comparación de la convención colectiva.
+    No se suman a estas horas hasta que se midan.</p>""",
+           pie="Tres tareas medidas y verificadas en sesión, del libro de procesos del programa · las tareas estimadas del área no se incluyen")
+
+SLIDES = [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16b, s17, s16]
 
 # ───────────────────────── CSS ─────────────────────────
 
