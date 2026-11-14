@@ -1,6 +1,6 @@
 {
   "id": "lun-23-am",
-  "estado": "texto_aprobado_falta_imagen",
+  "estado": "aprobado",
   "aprobado_por": "Sandra",
   "aprobado_el": "2026-11-14",
   "programado_bogota": "2026-11-23 07:30",
@@ -21,5 +21,5 @@
     "lifecycleState": "PUBLISHED",
     "isReshareDisabledByAuthor": false
   },
-  "nota": "Idea de Sandra 14 nov. Día del Foro Perspectivas Colombia 2027. Falta imagen (escalera 3 fases); al aprobarla pasa a 'aprobado'."
+  "nota": "Texto aprobado 14 nov; imagen v5 (foto real + escalera ElevenLabs) aprobada 14 nov. Día del Foro Perspectivas Colombia 2027."
 }
