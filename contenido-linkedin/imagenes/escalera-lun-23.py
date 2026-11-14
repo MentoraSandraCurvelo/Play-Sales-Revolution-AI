@@ -76,6 +76,20 @@ bd.polygon([(0,y0),(W,y0-40),(W,y0)],fill=(226,0,6,255))
 sh=band.filter(ImageFilter.GaussianBlur(18)); c=Image.alpha_composite(c,sh); c=Image.alpha_composite(c,band)
 d=ImageDraw.Draw(c)
 d.text((60,y0+18),"MEDIR ANTES.",font=B(64),fill=(255,255,255))
-d.text((62,y0+96),"El criterio humano decide dónde entra la IA.",font=B(34),fill=(20,6,8))
+sz=40
+while True:
+    f2=B(sz); parts=[("El ",None),("criterio humano","box"),(" decide dónde entra ",None),("la IA","dark")]
+    tw=sum(d.textlength(p,font=f2) for p,_ in parts)+24
+    if tw<=W-120 or sz<=32: break
+    sz-=1
+x=60; y=y0+100
+for p,st in parts:
+    w=d.textlength(p,font=f2)
+    if st=="box":
+        d.rounded_rectangle((x-2,y-4,x+w+22,y+sz+10),radius=10,fill=(14,6,8)); d.text((x+10,y),p,font=f2,fill=(255,255,255)); x+=w+24
+    elif st=="dark":
+        d.rounded_rectangle((x+2,y-4,x+w+24,y+sz+10),radius=10,fill=(255,255,255)); d.text((x+12,y),p,font=f2,fill=(200,0,10)); x+=w+26
+    else:
+        d.text((x,y),p,font=f2,fill=(255,255,255)); x+=w
 t="Sandra Curvelo · IAM™"; d.text((W-60-d.textlength(t,font=R(24)),y0+42),t,font=R(24),fill=(255,225,225))
 c.convert("RGB").save(D+"/lun-23-am-v5.jpg",quality=92)
