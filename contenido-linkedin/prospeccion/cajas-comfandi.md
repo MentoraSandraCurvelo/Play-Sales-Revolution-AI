@@ -18,3 +18,15 @@ Decisión de Sandra: trabajar el encuentro de Comfandi del 25 nov (Cali, bienest
 
 ## Meta
 2 reuniones con cajas antes del 15 dic 2026. Medir cada lunes: decisores mapeados, comentarios, conexiones aceptadas, mensajes, reuniones.
+
+## Mapa Comfandi (Chrome, 14 nov 2026, solo lectura)
+Director General: Jacobo Tovar Caicedo (no aparece en búsqueda de LinkedIn).
+Prioridad A (activos y compran formación/transformación):
+- Giselle Bueno García, Directora de Personas y Cultura, 2º, activa (hace 1 día): https://www.linkedin.com/in/giselle-bueno-garcia-77807b27/
+- Elaine Valencia Guerrero, Gerente Personas y Cultura, Desarrollo Social, 2º (hace 1 mes, futuro del trabajo humano): https://www.linkedin.com/in/elainevalenciaguerrero/
+- Alejandra Jaramillo González, Directora de Desarrollo Social, 2º: https://www.linkedin.com/in/alejandrajaramillogonz%C3%A1lez/
+Prioridad B: María del Mar Palacio Zúñiga (Dir. servicios de salud), Paola de la Roche Molina (Gerente de mercadeo), Andrés Pérez Flórez (Gte Adm. y Financiero Comfandi Salud, 3º), Carlos Alberto Ríos Álvarez (VP comercial, inactivo), Catalina Argote Noriega (por confirmar).
+Sin nombre visible: Directora de Asuntos Corporativos, Gerente de Subsidios y Aportes, Gerente de Riesgos y Cumplimiento, Gerente de Compras, Director de IA/estrategia e innovación. Nota: la cuenta llegó al límite de búsquedas gratuitas.
+
+## Encuentro 25 nov
+"La productividad empieza por la armonía de los trabajadores", mié 25 nov desde 8:00 a. m., Campus E Centro (Calle 8 #6-23, Cali). 9:00 Jacobo Tovar; 9:30 Dra. Lady Ladino; panel de empresarios; networking mediodía; 1:00 p. m. Estrategia IDEAS Comfandi. Solo presencial. Inscripción: https://www.comfandi.com.co/empresas/fomento-empresarial/armonia-de-los-trabajadores#formulario

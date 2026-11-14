@@ -45,3 +45,12 @@ Sin resultados: MinTIC y líderes de IA de Latinoamérica (últimas 48 horas).
 4. Comfandi, bienestar y productividad (encuentro 25 nov Cali): https://www.linkedin.com/feed/update/urn:li:activity:7525741139874721793?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7525741139874721793%2C7526694848981286913%29
 5. Rodrigo Estrada Reveiz, formación dual 25 años: https://www.linkedin.com/feed/update/urn:li:ugcPost:7526655396300759041?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7526655396300759041%2C7526695556375588865%29
 Medir el lun 16.
+
+## 13 nov 2026 · Comentarios de visibilidad (Chrome, 2:44 a 2:54 p. m.)
+1. Vicepresidente Restrepo, Bases del Plan: https://www.linkedin.com/feed/update/urn:li:ugcPost:7526785360438345728?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7526785360438345728%2C7527094169820086272%29
+2. ProBarranquilla, encuesta sector privado: https://www.linkedin.com/feed/update/urn:li:activity:7527025381665832961?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7527025381665832961%2C7527094565267226624%29
+3. Cámara Chileno Suiza, "IA: de la idea al impacto": https://www.linkedin.com/feed/update/urn:li:activity:7527077288732073986?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7527077288732073986%2C7527095023293628416%29
+4. Cámara Colombiana de Comercio Electrónico, IA para decidir: https://www.linkedin.com/feed/update/urn:li:activity:7526999954238668800?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7526999954238668800%2C7527095444544602112%29
+5. Cámara de Comercio de Santiago (Chile), economía emocional: https://www.linkedin.com/feed/update/urn:li:ugcPost:7526738670696144896?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7526738670696144896%2C7527095749348720640%29
+6. Respuesta a OHPIA: https://www.linkedin.com/feed/update/urn:li:activity:7525522768210219009?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7525522768210219009%2C7527096506345046016%29
+Revisión Claude: los 6 cumplen reglas. 2 de 5 fueron a Chile: priorizar Colombia.
