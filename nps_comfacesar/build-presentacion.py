@@ -586,18 +586,31 @@ s17 = slide("servicios-sociales", "El área que no expone", f"""
 # Sale de la Sala de Control: las 53 tareas que computan, agrupadas por área.
 # Es la base medida, 187,8 h, no las 250 proyectadas: la diapositiva siguiente
 # explica cómo se pasa de una a otra.
-_pa = D.por_area()
+# Se listan las áreas que dejaron horas. Las que no, no ocupan una fila con su
+# nombre en una diapositiva de resultados: van en una fila de resumen, como las
+# que usa Lucía en la Sala de Control, para que los totales sigan siendo los
+# verificados y no se esconda nada. El detalle de quién es cada una está en el
+# tablero de las 21.
+_pa = [(a, v) for a, v in D.por_area() if D.HORAS.get(a, 0) > 0]
+_fuera = [(a, v) for a, v in D.por_area() if D.HORAS.get(a, 0) == 0]
 _f = "".join(
     f'<tr><td>{a}</td><td class="num">{v["tareas"]}</td>'
     f'<td class="num">{mil(v["antes"])}</td><td class="num">{mil(v["hoy"])}</td>'
     f'<td class="num st">{round(100 * (v["antes"] - v["hoy"]) / v["antes"])}%</td>'
     f'<td class="num">{dec(v["min_sem"] / 60)}</td></tr>'
     for a, v in _pa)
-_tt = {k: sum(v[k] for _, v in _pa) for k in ("tareas", "antes", "hoy", "min_sem")}
+_tt = {k: sum(v[k] for _, v in D.por_area()) for k in ("tareas", "antes", "hoy", "min_sem")}
+_ff = {k: sum(v[k] for _, v in _fuera) for k in ("tareas", "antes", "hoy", "min_sem")}
+_resumen = "" if not _fuera else (
+    f'<tr style="opacity:.55"><td>+ {_ff["tareas"]} '
+    f'{"tarea" if _ff["tareas"] == 1 else "tareas"}</td>'
+    f'<td class="num">{_ff["tareas"]}</td><td class="num">{mil(_ff["antes"])}</td>'
+    f'<td class="num">{mil(_ff["hoy"])}</td><td class="num">·</td>'
+    f'<td class="num">{dec(_ff["min_sem"] / 60)}</td></tr>')
 
 s4b = slide("ejercicios", "El tablero de ejercicios", f"""
   <p class="eb">Los ejercicios, uno por uno</p>
-  <h2>{palabra(len(D.TAREAS)).capitalize()} tareas medidas, en {palabra(len(_pa))} áreas</h2>
+  <h2>{palabra(len(D.TAREAS)).capitalize()} tareas medidas, en {palabra(len(D.por_area()))} áreas</h2>
   <p class="lede">El área anotó <b>cuánto tardaba, cuánto tarda hoy y cuántas veces
     la hace</b>. Los minutos son de una vuelta completa, sin aplicar la frecuencia.</p>
   <table class="t mini">
@@ -605,7 +618,8 @@ s4b = slide("ejercicios", "El tablero de ejercicios", f"""
       <th class="num">Hoy, min</th><th class="num">Baja</th>
       <th class="num">Horas/semana</th></tr>
     {_f}
-    <tr><td><b>Las {palabra(len(_pa))} áreas</b></td><td class="num"><b>{_tt["tareas"]}</b></td>
+    {_resumen}
+    <tr><td><b>El programa</b></td><td class="num"><b>{_tt["tareas"]}</b></td>
       <td class="num"><b>{mil(_tt["antes"])}</b></td><td class="num"><b>{mil(_tt["hoy"])}</b></td>
       <td class="num st"><b>{round(100 * (_tt["antes"] - _tt["hoy"]) / _tt["antes"])}%</b></td>
       <td class="num"><b>{dec(_tt["min_sem"] / 60)}</b></td></tr>
