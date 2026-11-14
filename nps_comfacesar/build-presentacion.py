@@ -197,7 +197,7 @@ s4 = slide("horas", "Horas por área", f"""
         costumbre, y es una de las cosas que esta fase deja abiertas.</p>
     </div>
   </div>""", oscura=False,
-           pie="Base: Sala de Control · 53 tareas medidas con tiempo antes, tiempo hoy y frecuencia declarada · el total del programa lo establece la mentoría y el reparto por área conserva la proporción medida")
+           pie="Base: Sala de Control · 53 tareas medidas con tiempo antes, tiempo hoy y frecuencia declarada · el total del programa y el reparto por área los establece la mentoría")
 
 # ───────────────────────── 5 · el índice, qué mide ─────────────────────────
 

@@ -65,8 +65,19 @@ MEDIDAS = {
     "Servicios Sociales": 10.9, "Agencia de Empleo": 4.4, "Contabilidad": 2.4,
     "Sub. Operativa": 2.4, "Educación": 0.4, "Cumplimiento": 0.1,
 }
-FACTOR = PROGRAMA["horas"] / sum(MEDIDAS.values())
-CRUDAS = {a: h * FACTOR for a, h in MEDIDAS.items()}
+# Educación va con una cifra fijada por la mentoría, no con su proporción
+# medida. Sandra la estableció el 14 de noviembre: el área recuperó bastante más
+# de lo que alcanzó a registrar, y lo único que quedó anotado es una tarea de
+# 120 minutos. Su cifra se fija primero y el resto del total se reparte entre
+# las demás áreas conservando la proporción que sí midieron, de modo que el
+# total que se presenta no cambia.
+FIJADAS = {"Educación": 25}
+
+_resto = PROGRAMA["horas"] - sum(FIJADAS.values())
+_medidas_resto = {a: h for a, h in MEDIDAS.items() if a not in FIJADAS}
+FACTOR = _resto / sum(_medidas_resto.values())
+CRUDAS = {a: h * FACTOR for a, h in _medidas_resto.items()}
+CRUDAS.update({a: float(h) for a, h in FIJADAS.items()})
 
 # Las horas se presentan en enteros. Redondear cada una por separado deja la
 # suma en 249 o en 251, así que se reparte por resto mayor: cada área se lleva
