@@ -217,3 +217,7 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Título grande en alto relieve (blanco con profundidad roja y brillo).
 - Cierre en franja roja: frase clave gigante y segunda línea grande con resaltados (palabra en caja negra, palabra en caja blanca con texto rojo).
 - Todo debe leerse en el celular. Script de referencia: imagenes/escalera-lun-23.py.
+
+## 36. Verificar antes de atribuir (14 nov 2026)
+- Antes de atribuirle a una persona real una frase, un plan, una cifra o un nombre de programa (sobre todo si se le etiqueta en público), verificar la fuente pública. Si no se encuentra, no se pone; se usa una versión que no atribuya.
+- Caso: "Plan Destrabe" (Vicepresidente) no se pudo verificar; se usó "la meta de un Estado más eficiente", que sí está en su post de las Bases del Plan.
