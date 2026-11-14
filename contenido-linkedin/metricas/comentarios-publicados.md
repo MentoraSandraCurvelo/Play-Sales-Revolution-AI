@@ -59,3 +59,12 @@ Revisión Claude: los 6 cumplen reglas. Chile cuenta: Sandra vende en toda LATAM
 Post: https://www.linkedin.com/feed/update/urn:li:ugcPost:7527099674982473728/
 Línea agregada antes de los hashtags, mención activa (enlaza al perfil): "José Manuel Restrepo, esto conecta con la meta de un Estado más eficiente: medir el tiempo de cada trámite antes y después, con el servidor público revisando y firmando."
 Pendiente: los 5 comentarios de la Parte 2 del sábado (Chrome aún no los publica).
+
+## 14 nov 2026 · Parte 2 sábado, comentarios de visibilidad (Chrome, 11:43 a 11:52 a. m.)
+1. Vicepresidente Restrepo, Metro de Bogotá: https://www.linkedin.com/feed/update/urn:li:ugcPost:7526240251195990016?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7526240251195990016%2C7527410833811738624%29
+2. Cámara de Comercio de Barranquilla, Tech Forum 2026: https://www.linkedin.com/feed/update/urn:li:ugcPost:7527000254899122176?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7527000254899122176%2C7527411390790176768%29
+3. Confecámaras, #CámarasEnBreve: https://www.linkedin.com/feed/update/urn:li:ugcPost:7527036892987555841?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7527036892987555841%2C7527411959961415680%29
+4. Canaco CDMX, Cumbre Empresarial 2026: https://www.linkedin.com/feed/update/urn:li:ugcPost:7526689913304444928?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7526689913304444928%2C7527412509620862976%29
+5. Cámara de Comercio de Panamá, El Niño: https://www.linkedin.com/feed/update/urn:li:activity:7527022460035170305?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7527022460035170305%2C7527413068776062976%29
+Revisión Claude: los 5 con texto aprobado. Medir el lun 16.
+Dato 3b: en 11 posts propios (9 al 14 nov) solo 2 cuentas externas comentaron (Tiago Diaz en 5, Maximum Impact en 1). Señal: falta conversación de terceros.
