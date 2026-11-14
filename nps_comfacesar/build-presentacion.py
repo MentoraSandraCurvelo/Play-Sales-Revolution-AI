@@ -132,13 +132,13 @@ s1 = slide("portada", "Portada", f"""
 bloques = [
     ("01", "Los resultados", "La dirección ve de dónde salió la Caja y dónde está hoy: horas, pesos, "
                              "el índice de inteligencia empresarial y lo que quedó abierto.",
-     "Presenta la mentoría", "25 min"),
+     "Presenta la mentoría", f"{D.JORNADA_INTRO} min"),
     ("02", "Las áreas, en vivo", f"Las {palabra(len(D.JORNADA))} áreas con proceso activo muestran lo que construyeron. "
                                  f"No hay presentación preparada: se muestra funcionando.",
      "Presenta cada área", "Jornada completa"),
     ("03", "Lo que viene", "Hiperconectividad: dejar de tener dieciocho islas que no se hablan. "
                            "El año, trimestre por trimestre.",
-     "Presenta la mentoría", "20 min"),
+     "Presenta la mentoría", f"{D.JORNADA_CIERRE} min"),
 ]
 toc = "".join(
     f'<div class="row toc rv" style="--d:{0.1 + i * .18}s">'

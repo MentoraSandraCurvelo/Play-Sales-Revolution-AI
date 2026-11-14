@@ -164,7 +164,8 @@ MINUTOS = {
     'Sub. Operativa': 13,
     'Educación': 13,
 }
-assert sum(MINUTOS.values()) + 15 + JORNADA_CIERRE == 210, sum(MINUTOS.values())
+JORNADA_INTRO = JORNADA_INICIO - 9 * 60   # lo que Sandra abre, antes de la primera área
+assert sum(MINUTOS.values()) + JORNADA_INTRO + JORNADA_CIERRE == 210, sum(MINUTOS.values())
 
 
 def horario():
