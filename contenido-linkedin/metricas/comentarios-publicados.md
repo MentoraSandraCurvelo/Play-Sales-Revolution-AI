@@ -54,3 +54,8 @@ Medir el lun 16.
 5. Cámara de Comercio de Santiago (Chile), economía emocional: https://www.linkedin.com/feed/update/urn:li:ugcPost:7526738670696144896?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7526738670696144896%2C7527095749348720640%29
 6. Respuesta a OHPIA: https://www.linkedin.com/feed/update/urn:li:activity:7525522768210219009?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7525522768210219009%2C7527096506345046016%29
 Revisión Claude: los 6 cumplen reglas. Chile cuenta: Sandra vende en toda LATAM (regla 34).
+
+## 14 nov 2026 · Edición post PQRSD (vie 13 pm) con mención al Vicepresidente
+Post: https://www.linkedin.com/feed/update/urn:li:ugcPost:7527099674982473728/
+Línea agregada antes de los hashtags, mención activa (enlaza al perfil): "José Manuel Restrepo, esto conecta con la meta de un Estado más eficiente: medir el tiempo de cada trámite antes y después, con el servidor público revisando y firmando."
+Pendiente: los 5 comentarios de la Parte 2 del sábado (Chrome aún no los publica).
