@@ -33,21 +33,23 @@ for y in range(H):
     dy.line([(0,y),(W,y)],fill=v)
 ov=Image.new("RGBA",(W,H),(6,6,8,255)); ov.putalpha(my); c=Image.alpha_composite(c,ov)
 
-def holo(cx,cy,t,size):
+def holo(cx,cy,t,size,n=''):
     global c
-    f=B(size); tw=ImageDraw.Draw(c).textlength(t,font=f)
+    f=B(size); pre=n+'  ' if n else ''; pw=ImageDraw.Draw(c).textlength(pre,font=f); tw=ImageDraw.Draw(c).textlength(pre+t,font=f)
     x0,y0,x1,y1=int(cx-tw/2-22),int(cy-size*0.7),int(cx+tw/2+22),int(cy+size*0.75)
     lay=Image.new("RGBA",(W,H),(0,0,0,0)); ld=ImageDraw.Draw(lay)
     ld.rectangle((x0,y0,x1,y1),fill=(40,4,8,170))
     ld.line([(x0,y0),(x1,y0)],fill=(255,70,70,255),width=2); ld.line([(x0,y1),(x1,y1)],fill=(255,70,70,255),width=2)
     gl=lay.filter(ImageFilter.GaussianBlur(10)); c=Image.alpha_composite(c,gl); c=Image.alpha_composite(c,lay)
     tl=Image.new("RGBA",(W,H),(0,0,0,0)); td=ImageDraw.Draw(tl)
-    td.text((cx-tw/2,cy-size*0.62),t,font=f,fill=(255,90,90,255))
+    td.text((cx-tw/2,cy-size*0.62),pre+t,font=f,fill=(255,90,90,255))
     c=Image.alpha_composite(c,tl.filter(ImageFilter.GaussianBlur(6)))
-    td2=ImageDraw.Draw(c); td2.text((cx-tw/2,cy-size*0.62),t,font=f,fill=(255,236,236))
-holo(650,833,"ADOPCIÓN",46)
-holo(800,680,"CONEXIÓN",46)
-holo(895,549,"GOBERNANZA",40)
+    td2=ImageDraw.Draw(c)
+    if n: td2.text((cx-tw/2,cy-size*0.62),n,font=f,fill=(255,60,60))
+    td2.text((cx-tw/2+pw,cy-size*0.62),t,font=f,fill=(255,236,236))
+holo(655,833,"ADOPCIÓN",44,"1")
+holo(810,680,"CONEXIÓN",44,"2")
+holo(880,549,"GOBERNANZA",38,"3")
 d=ImageDraw.Draw(c)
 WH=(248,246,242); RED=(255,60,60)
 
