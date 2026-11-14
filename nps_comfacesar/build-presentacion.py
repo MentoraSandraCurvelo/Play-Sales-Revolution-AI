@@ -84,6 +84,20 @@ def mono(ini, grande=False):
     return (f'<span class="mono" style="width:{t};height:{t};font-size:{f}">{ini}</span>')
 
 
+def reparto():
+    """Describe el reparto de minutos leyéndolo de MINUTOS, en el orden de la
+    jornada, para que el pie nunca contradiga la tabla."""
+    from itertools import groupby
+    bloques = [(m, len(list(g))) for m, g in groupby(D.MINUTOS[a] for a, _, _ in D.JORNADA)]
+    def trozo(m, n, i):
+        if n == 1 and i == 0:
+            return f"{m} minutos para la primera"
+        cual = "siguientes" if i < len(bloques) - 1 else "últimas"
+        return f"{m} para las {palabra(n)} {cual}"
+    partes = [trozo(m, n, i) for i, (m, n) in enumerate(bloques)]
+    return ", ".join(partes[:-1]) + " y " + partes[-1]
+
+
 def slide(sid, titulo, cuerpo, oscura=True, pie=""):
     cls = "dk" if oscura else "lt"
     ft = f' data-ft="{pie}"' if pie else ""
@@ -396,7 +410,7 @@ s12 = slide("jornada", "Las áreas de la jornada", f"""
       <p style="width:84px;text-align:right">IIE</p></div>
     {"".join(fila_area(i, a, ini, m) for i, (a, ini, m) in enumerate(D.JORNADA))}
   </div>""",
-            pie="El orden lo fijó la dirección, por complejidad del proceso resuelto · 20 minutos las seis primeras y 13 las siguientes")
+            pie=f"El orden lo fijó la dirección, por complejidad del proceso resuelto · {reparto()}")
 
 # ───────────────────────── 13 · las indicaciones ─────────────────────────
 
