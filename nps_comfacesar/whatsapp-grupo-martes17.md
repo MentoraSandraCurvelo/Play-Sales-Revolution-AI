@@ -21,9 +21,8 @@ Nos redujeron el tiempo, así que la jornada queda así:
 *11:38 · Comunicaciones* · 13 min · por confirmar
 *11:51 · Sub. Operativa* · 13 min · Jennifer
 *12:04 · Educación* · 13 min · Óscar Cotes y Julissa Pérez
-*12:17 · Servicios Sociales* · 13 min · Juan Pablo
 
-De 9:00 a 9:15 va la introducción. De ahí en adelante el tiempo es todo de las áreas.
+De 9:00 a 9:15 va la introducción y de 12:17 a 12:30 el cierre.
 
 Cada área muestra en vivo lo que construyó, con el antes y el después en horas y en pesos. No hay que preparar presentación: con una o dos diapositivas basta.
 
@@ -56,23 +55,26 @@ Las seis primeras las fijó ella. De la séptima a la undécima también, el 14 
 noviembre: Subsidio, Comunicaciones, Sub. Operativa, Educación y Servicios
 Sociales de último.
 
-**Conviene saberlo aunque no vaya en el mensaje:** Servicios Sociales cierra la
-jornada a las 12:17, con 13 minutos, y es la que más tiene que mostrar de las
-cinco últimas. Catorce procesos medidos y la mayor compresión del programa. Si el
-tiempo se corre, es la que lo paga, y ahora sin ningún colchón detrás.
+**Servicios Sociales se cayó de la jornada** el 14 de noviembre: Juan Pablo está
+incapacitado. Era la que más tenía que mostrar de las cinco últimas, catorce
+procesos medidos y la mayor compresión de todo el programa, el CCT de 7.200
+minutos a 45. Eso no se va a ver en vivo, así que conviene que quede en el
+informe de cierre, que es donde ya está.
 
-## Media hora para IPS
+## Cómo quedaron los 210 minutos
 
-Sandra se la dio el 14 de noviembre y pidió que saliera de su propio bloque de
-cierre, no de las áreas. Así que las once áreas conservan los minutos que ya
-tenían, IPS pasa de 20 a 30, y todo lo que va después de IPS se corre diez
-minutos.
+Son tres cambios del 14 de noviembre, en este orden.
 
-**El cierre de Sandra queda en cero.** Antes iban diez minutos de 12:20 a 12:30
-para cerrar el programa. Ahora Servicios Sociales termina a las 12:30 en punto y
-no queda nada detrás: ni palabras de cierre ni colchón. Si alguna área se pasa
-dos minutos, se los quita a la que viene, y la última de la fila es Servicios
-Sociales.
+**IPS sube a media hora.** Sandra pidió que los diez minutos extra salieran de su
+propio bloque de cierre, no de las áreas, así que las demás conservaron los
+minutos que ya tenían y todo lo que va después de IPS se corrió diez minutos.
+
+**Servicios Sociales se cae y deja 13 minutos.** Con eso el cierre de Sandra
+vuelve, y vuelve con tres minutos más de los diez que tenía: de 12:17 a 12:30.
+
+**Queda sin colchón igual.** Los 210 minutos están repartidos al minuto, de 9:00
+a 12:30. Si un área se pasa, se los quita al cierre, que es el único bloque que
+tiene de dónde ceder.
 
 ## Lo que sigue abierto
 

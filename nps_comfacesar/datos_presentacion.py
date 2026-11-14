@@ -142,16 +142,16 @@ JORNADA = [
     ("Comunicaciones", "CM", "Tres agentes y el libreto de evento usado en vivo"),
     ("Sub. Operativa", "SO", "Maia, el primer agente del área"),
     ("Educación", "ED", "Dos tableros publicados y su primera cifra medida"),
-    ("Servicios Sociales", "SS", "El CCT comparado en una noche, de un mes que tardaba"),
 ]
-# Minutos por área. La jornada se redujo a 3 horas y media para once áreas, así
-# que el tiempo se reparte por complejidad: 20 minutos a las seis que la
-# dirección quiere ver primero y 13 a las cinco siguientes.
+# Minutos por área. La jornada se redujo a 3 horas y media, y Servicios Sociales
+# se cayó el 14 de noviembre porque Juan Pablo está incapacitado, así que quedan
+# diez áreas. Servicios Sociales sigue en el resto del programa: solo sale de
+# la jornada.
 JORNADA_INICIO = 9 * 60 + 15        # tras quince minutos de introducción
-JORNADA_CIERRE = 0                  # Sandra cedió su cierre a IPS el 14 de noviembre
+JORNADA_CIERRE = 13                 # los minutos que dejó Servicios Sociales al caerse
 # IPS abre con media hora, que fue decisión de Sandra el 14 de noviembre. Los
-# diez minutos extra salen de su propio bloque de cierre, que queda en cero, y
-# no de las áreas: las once conservan los minutos que ya tenían.
+# diez minutos extra salieron de su bloque de cierre, y los 13 que dejó
+# Servicios Sociales se lo devuelven con tres de más.
 MINUTOS = {
     'IPS': 30,
     'Jurídica': 20,
@@ -163,7 +163,6 @@ MINUTOS = {
     'Comunicaciones': 13,
     'Sub. Operativa': 13,
     'Educación': 13,
-    'Servicios Sociales': 13,
 }
 assert sum(MINUTOS.values()) + 15 + JORNADA_CIERRE == 210, sum(MINUTOS.values())
 
@@ -189,7 +188,6 @@ PRESENTA = {
     "Educación": "Óscar Cotes y Julissa Pérez",
     "Jurídica": "Gamarra, Laino y Costa",
     "Subsidio y Aportes": "Cindy Rodríguez",
-    "Servicios Sociales": "Juan Pablo",
     "Comunicaciones": "por confirmar",
     "Sub. Operativa": "Jennifer",
 }

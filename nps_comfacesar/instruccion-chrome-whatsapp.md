@@ -33,9 +33,8 @@ Nos redujeron el tiempo, así que la jornada queda así:
 *11:38 · Comunicaciones* · 13 min · por confirmar
 *11:51 · Sub. Operativa* · 13 min · Jennifer
 *12:04 · Educación* · 13 min · Óscar Cotes y Julissa Pérez
-*12:17 · Servicios Sociales* · 13 min · Juan Pablo
 
-De 9:00 a 9:15 va la introducción. De ahí en adelante el tiempo es todo de las áreas.
+De 9:00 a 9:15 va la introducción y de 12:17 a 12:30 el cierre.
 
 Cada área muestra en vivo lo que construyó, con el antes y el después en horas y en pesos. No hay que preparar presentación: con una o dos diapositivas basta.
 
