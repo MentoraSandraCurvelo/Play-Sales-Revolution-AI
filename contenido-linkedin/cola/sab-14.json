@@ -1,9 +1,9 @@
 {
   "id": "sab-14",
-  "estado": "aprobado",
+  "estado": "publicado",
   "programado_bogota": "2026-11-14 09:00",
   "imagen": "contenido-linkedin/imagenes/sab-14.jpg",
-  "urn": null,
+  "urn": "urn:li:share:7527371228509057024",
   "payload": {
     "author": "urn:li:person:tsJbwdb3B2",
     "commentary": "5 errores que todos cometemos cuando le pedimos algo a la IA, y cómo arreglarlos este fin de semana:\n\n⭕ Pedir sin contexto. Arreglo: dile quién eres y para qué lo necesitas.\n\n⭕ Pedir todo en un solo mensaje. Arreglo: una tarea a la vez.\n\n⭕ Aceptar la primera respuesta. Arreglo: pídele que la mejore o que te dé 3 opciones.\n\n⭕ No darle un ejemplo. Arreglo: muéstrale cómo te gusta que quede.\n\n⭕ Creerle todo. Arreglo: pídele sus fuentes y verifica los datos.\n\nLa {hashtag|\\#|IA} responde tan bien como le preguntas.\n\n¿Cuál de estos errores cometes más?\n\nSígueme si quieres más trucos prácticos para usar la IA en el trabajo y en la vida.\n\n{hashtag|\\#|Productividad} {hashtag|\\#|VidaYTrabajo} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
@@ -19,5 +19,6 @@
   "primer_comentario": "Un prompt para practicar hoy: \"Actúa como [rol]. Necesito [tarea] para [objetivo]. Antes de responder, hazme 3 preguntas para entender mejor lo que necesito.\"",
   "alt": "5 errores que todos cometemos cuando le pedimos algo a la IA, y cómo arreglarlos este fin de semana:",
   "aprobado_por": "Sandra",
-  "aprobado_el": "2026-11-05"
+  "aprobado_el": "2026-11-05",
+  "publicado_utc": "2026-11-14T14:05:53+00:00"
 }
