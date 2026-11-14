@@ -28,7 +28,7 @@ c=bg
 my=Image.new("L",(W,H),0); dy=ImageDraw.Draw(my)
 for y in range(H):
     v=0
-    if y<280: v=int(170*(1-y/280))
+    if y<300: v=int(200*(1-y/300))
     if y>1060: v=min(250,int(250*(y-1060)/120))
     dy.line([(0,y),(W,y)],fill=v)
 ov=Image.new("RGBA",(W,H),(6,6,8,255)); ov.putalpha(my); c=Image.alpha_composite(c,ov)
@@ -50,9 +50,22 @@ holo(800,680,"CONEXIÓN",46)
 holo(895,549,"GOBERNANZA",40)
 d=ImageDraw.Draw(c)
 WH=(248,246,242); RED=(255,60,60)
-d.text((W-60-d.textlength("IAM™ · INTELIGENCIA ARTIFICIAL EMPRESARIAL",font=B(24)),52),"IAM™ · INTELIGENCIA ARTIFICIAL EMPRESARIAL",font=B(24),fill=RED)
-for i,t in enumerate(["Las 3 fases","de la IA empresarial"]):
-    w=d.textlength(t,font=B(66)); d.text((W-60-w,86+i*72),t,font=B(66),fill=WH)
+
+def relieve(x,y,t,size,front,depth):
+    global c
+    f=B(size)
+    gl=Image.new("RGBA",(W,H),(0,0,0,0)); gd=ImageDraw.Draw(gl)
+    gd.text((x,y),t,font=f,fill=(230,0,0,200)); c=Image.alpha_composite(c,gl.filter(ImageFilter.GaussianBlur(18)))
+    ex=Image.new("RGBA",(W,H),(0,0,0,0)); ed=ImageDraw.Draw(ex)
+    for i in range(depth,0,-1):
+        sh=int(70+90*(1-i/depth)); ed.text((x+i,y+i),t,font=f,fill=(sh,0,6,255))
+    c=Image.alpha_composite(c,ex)
+    fr=Image.new("RGBA",(W,H),(0,0,0,0)); fd=ImageDraw.Draw(fr); fd.text((x,y),t,font=f,fill=front)
+    c=Image.alpha_composite(c,fr)
+    hl=Image.new("RGBA",(W,H),(0,0,0,0)); hd=ImageDraw.Draw(hl); hd.text((x-1,y-1),t,font=f,fill=(255,255,255,90)); c=Image.alpha_composite(c,hl)
+relieve(56,40,"LAS 3 FASES",128,(255,255,255,255),10)
+relieve(60,190,"DE LA IA EMPRESARIAL",62,(255,70,70,255),6)
+d=ImageDraw.Draw(c)
 d.text((60,1196),"Medir antes. El criterio humano",font=B(40),fill=WH)
 d.text((60,1246),"decide dónde entra la IA.",font=B(40),fill=RED)
 t="Sandra Curvelo · IAM™"; d.text((60,1302),t,font=R(24),fill=(200,196,190))
