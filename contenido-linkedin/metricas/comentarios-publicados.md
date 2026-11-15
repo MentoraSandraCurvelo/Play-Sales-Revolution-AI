@@ -68,3 +68,10 @@ Pendiente: los 5 comentarios de la Parte 2 del sábado (Chrome aún no los publi
 5. Cámara de Comercio de Panamá, El Niño: https://www.linkedin.com/feed/update/urn:li:activity:7527022460035170305?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7527022460035170305%2C7527413068776062976%29
 Revisión Claude: los 5 con texto aprobado. Medir el lun 16.
 Dato 3b: en 11 posts propios (9 al 14 nov) solo 2 cuentas externas comentaron (Tiago Diaz en 5, Maximum Impact en 1). Señal: falta conversación de terceros.
+
+## 15 nov 2026 · Domingo, comentarios aprobados por Sandra (Chrome)
+2. ProColombia, webinar Reino Unido: https://lnkd.in/p/eX7SqkfE
+3. CAPECE (Perú), confianza y agentes de IA: https://lnkd.in/p/eF3ttWgs
+4. Cámara Ecuatoriano Coreana, visita a SENECA: https://lnkd.in/p/etX8cFX3
+El 1 (Vicepresidente, Plan Destrabe) no se publicó: ya tenía comentario de Sandra de hace 3 días. Bien hecho por Chrome.
+Páginas seguidas: Comfandi, Comfama, CAPECE, Cámara Ecuatoriano Coreana. Búsqueda de personas limitada en cuenta gratuita (solo 3 nombres por búsqueda).
