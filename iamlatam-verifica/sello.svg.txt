@@ -1,0 +1,30 @@
+<svg class="sello sello--sup" viewBox="0 0 200 200" role="img"
+ aria-label="Sello IAM Certification, First Generation"><defs>
+<linearGradient id="oroCanto" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#f6e4b4"/><stop offset=".3" stop-color="#d9b45f"/>
+<stop offset=".58" stop-color="#ab7f26"/><stop offset=".8" stop-color="#e0bd70"/>
+<stop offset="1" stop-color="#8a6115"/></linearGradient>
+<linearGradient id="oroDisco" x1=".14" y1="0" x2=".86" y2="1">
+<stop offset="0" stop-color="#fbf0d2"/><stop offset=".34" stop-color="#e2c179"/>
+<stop offset=".62" stop-color="#c39a3c"/><stop offset=".82" stop-color="#e8cf94"/>
+<stop offset="1" stop-color="#b78c30"/></linearGradient>
+<path id="arcoSup" d="M30,100 A70,70 0 0,1 170,100" fill="none"/>
+<path id="arcoInf" d="M40,100 A60,60 0 0,0 160,100" fill="none"/></defs>
+<path d="M100.00,2.00L106.01,12.21L113.34,2.91L117.90,13.84L126.44,5.63L129.47,17.08L139.04,10.11L140.49,21.87L150.92,16.27L150.75,28.11L161.85,23.98L160.06,35.69L171.62,33.11L168.26,44.46L180.06,43.49L175.19,54.28L187.01,54.91L180.71,64.94L192.34,67.18L184.74,76.26L195.95,80.06L187.18,88.02L197.77,93.31L188.00,100.00L197.77,106.69L187.18,111.98L195.95,119.94L184.74,123.74L192.34,132.82L180.71,135.06L187.01,145.09L175.19,145.72L180.06,156.51L168.26,155.54L171.62,166.89L160.06,164.31L161.85,176.02L150.75,171.89L150.92,183.73L140.49,178.13L139.04,189.89L129.47,182.92L126.44,194.37L117.90,186.16L113.34,197.09L106.01,187.79L100.00,198.00L93.99,187.79L86.66,197.09L82.10,186.16L73.56,194.37L70.53,182.92L60.96,189.89L59.51,178.13L49.08,183.73L49.25,171.89L38.15,176.02L39.94,164.31L28.38,166.89L31.74,155.54L19.94,156.51L24.81,145.72L12.99,145.09L19.29,135.06L7.66,132.82L15.26,123.74L4.05,119.94L12.82,111.98L2.23,106.69L12.00,100.00L2.23,93.31L12.82,88.02L4.05,80.06L15.26,76.26L7.66,67.18L19.29,64.94L12.99,54.91L24.81,54.28L19.94,43.49L31.74,44.46L28.38,33.11L39.94,35.69L38.15,23.98L49.25,28.11L49.08,16.27L59.51,21.87L60.96,10.11L70.53,17.08L73.56,5.63L82.10,13.84L86.66,2.91L93.99,12.21Z" fill="url(#oroCanto)"/>
+<circle cx="100" cy="100" r="85" fill="url(#oroDisco)"/>
+<circle cx="100" cy="100" r="85" fill="none" stroke="#7d5510" stroke-width="1.1" opacity=".5"/>
+<circle cx="100" cy="100" r="74" fill="none" stroke="#7d5510" stroke-width=".9" opacity=".42"/>
+<circle cx="100" cy="100" r="52" fill="none" stroke="#7d5510" stroke-width=".7" opacity=".3"/>
+<text class="s-orla"><textPath href="#arcoSup" startOffset="50%">IAM CERTIFICATION</textPath></text>
+<text class="s-orla"><textPath href="#arcoInf" startOffset="50%">FIRST GENERATION</textPath></text>
+<g fill="#6b4910"><path d="M36 106l1.6 4.4 4.4 1.6-4.4 1.6L36 118l-1.6-4.4-4.4-1.6 4.4-1.6z"/>
+<path d="M164 106l1.6 4.4 4.4 1.6-4.4 1.6-1.6 4.4-1.6-4.4-4.4-1.6 4.4-1.6z"/>
+<path d="M100 46l3.4 6.8 6.8-5.2-2.2 8.2 7.4-1.4-5 6.4h-20.8l-5-6.4 7.4 1.4-2.2-8.2 6.8 5.2z"/>
+<circle cx="100" cy="43" r="2.6"/><circle cx="85.6" cy="46.6" r="2.2"/>
+<circle cx="114.4" cy="46.6" r="2.2"/><rect x="88" y="62" width="24" height="3.4" rx="1.2"/></g>
+<text class="s-marca" x="100" y="107">IAM</text>
+<text class="s-pie" x="100" y="124">CERTIFICATION</text>
+<g stroke="#6b4910" stroke-width="1.1" fill="none" opacity=".8">
+<path d="M78 136c6 4 12 5 22 5s16-1 22-5"/>
+<path d="M82 134c0 3 2 5 5 5.6M90 138c0 3 2 4.6 5 5.2M110 138c0 3-2 4.6-5 5.2M118 134c0 3-2 5-5 5.6"/>
+</g></svg>
