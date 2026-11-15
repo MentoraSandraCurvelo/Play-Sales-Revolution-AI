@@ -1,0 +1,97 @@
+<title>Posts de los embajadores Comfacesar</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+/* Layout: una columna de tarjetas, una por embajador, cada una con su post listo para copiar */
+:root{
+  --bg:#f6f1e7; --card:#fffdf8; --fg:#1b1712; --mute:#62574a; --rule:#e2d5bb;
+  --gold:#8a6115; --gold-soft:#efe1bd; --li:#0a66c2; --ok:#1d7444;
+  --f-d:"Cormorant Garamond",Georgia,serif; --f-b:"Source Sans 3","Segoe UI",Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#141210; --card:#1e1a16; --fg:#f1ebe0; --mute:#b3a794; --rule:#3a3128;
+  --gold:#e3c27e; --gold-soft:#3a2f1c; --li:#5aa2f0; --ok:#6fd39a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141210; --card:#1e1a16; --fg:#f1ebe0; --mute:#b3a794; --rule:#3a3128;
+  --gold:#e3c27e; --gold-soft:#3a2f1c; --li:#5aa2f0; --ok:#6fd39a; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-b);font-size:17px;line-height:1.55}
+.w{max-width:860px;margin:0 auto;padding-block:40px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:28px}
+.eb{font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+h1{font-family:var(--f-d);font-weight:700;font-size:clamp(34px,6vw,52px);line-height:1.05;margin:6px 0 10px;text-wrap:balance}
+.lead{color:var(--mute);max-width:65ch;margin:0}
+.pasos{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:0;padding:0;list-style:none;counter-reset:p}
+.pasos li{background:var(--card);border:1px solid var(--rule);padding:14px 16px;font-size:15px;counter-increment:p;display:flex;gap:10px}
+.pasos li::before{content:counter(p);font-family:var(--f-d);font-weight:700;font-size:26px;line-height:1;color:var(--gold)}
+.card{background:var(--card);border:1px solid var(--rule);display:flex;flex-direction:column}
+.card header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px;padding:18px 20px;border-bottom:1px solid var(--rule)}
+.card h2{font-family:var(--f-d);font-weight:700;font-size:28px;line-height:1.1;margin:0}
+.card .cargo{color:var(--mute);font-size:15px}
+.card .meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.chip{font-size:13px;font-weight:600;padding:4px 10px;border-radius:20px;background:var(--gold-soft);color:var(--gold);font-variant-numeric:tabular-nums;white-space:nowrap}
+.post{margin:0;padding:18px 20px;white-space:pre-wrap;font-family:var(--f-b);font-size:16px;line-height:1.6;min-width:0;overflow-wrap:anywhere}
+.acc{display:flex;flex-wrap:wrap;gap:10px;padding:14px 20px 18px;border-top:1px dashed var(--rule)}
+button,.btn{font:700 14px var(--f-b);padding:10px 16px;border-radius:3px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:8px;border:1px solid var(--fg);background:transparent;color:var(--fg)}
+button.copy{background:var(--fg);color:var(--bg)}
+.btn.li{border-color:var(--li);color:var(--li)}
+button:focus-visible,.btn:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.hecho{color:var(--ok);font-weight:700;font-size:14px;align-self:center}
+.nota{font-size:15px;color:var(--mute);border-left:3px solid var(--gold);padding:4px 0 4px 14px;margin:0;max-width:70ch}
+</style>
+
+<div class="w">
+  <div>
+    <p class="eb">IAM™ Ambassadors · Comfacesar · primera generación</p>
+    <h1>El post de cada embajador</h1>
+    <p class="lead">Once publicaciones listas para compartir el certificado en LinkedIn, cada una con los números reales del líder y el enlace a su página de verificación.</p>
+  </div>
+  <ol class="pasos">
+    <li>Abrir su página de verificación y tocar «Agregar a mi perfil de LinkedIn».</li>
+    <li>Copiar su post con el botón de esta página y pegarlo en una publicación nueva.</li>
+    <li>Cambiar @Sandra Curvelo, @IAM™ Influence y @Comfacesar por las menciones reales: escribir @ y elegir de la lista.</li>
+    <li>Publicar todos el mismo día y comentarse entre ellos en la primera hora.</li>
+  </ol>
+  <p class="nota">Seguidores con corte al 14 de noviembre de 2026, revisión de LinkedIn. Comentarios en los últimos 90 días: conteo aproximado.</p>
+  <div id="lista" style="display:flex;flex-direction:column;gap:22px"></div>
+</div>
+
+<script>
+var CIERRE="Gracias a @Sandra Curvelo y a @IAM™ Influence por la mentoría, y a @Comfacesar por apostarle a que su gente sea su mejor vitrina.";
+var TAGS="#EmbajadoresDeMarca #Comfacesar #IAMAmbassadors #LinkedIn #IA";
+function U(n){return "https://iamlatam.co/verifica/IAM-AMB-CFC-G1-"+n}
+var P=[
+{n:"001",nombre:"Frank Montero",cargo:"Director Administrativo",red:"98 → 740",t:
+"Hace 4 meses tenía 98 seguidores en LinkedIn. Hoy son 740.\n\nPero el número no es lo importante. Lo importante es lo que significa: cuando el director de una caja de compensación decide hablar en LinkedIn, Comfacesar deja de ser un logo y se convierte en personas que dan la cara.\n\nHoy recibo mi certificado de la primera generación de embajadores de marca de Comfacesar, programa IAM™ Ambassadors.\n\nMe llevo tres aprendizajes:\n✅ El perfil es un canal, no una hoja de vida.\n✅ La red se construye con propósito, no por volumen.\n✅ Liderar también es dar ejemplo en lo digital.\n\n"+CIERRE+"\n\nPueden verificar mi certificado aquí 👇\n"+U("001")+"\n\nLíderes: ¿su equipo sabe representar la marca en LinkedIn? 👇\n\n"+TAGS+" #LiderazgoDigital"},
+{n:"002",nombre:"Rosa Elvira Ustáriz",cargo:"Subdirectora Operativa y Comercial",red:"111 → 406",t:
+"33 publicaciones en 90 días.\n\nNo lo hice por cumplir una meta. Lo hice porque descubrí que cada historia que contamos de Comfacesar le llega a una empresa o a una familia que todavía no nos conoce.\n\nHoy recibo mi certificado como embajadora de marca de la primera generación de Comfacesar, programa IAM™ Ambassadors.\n\nMi red pasó de 111 a 406 seguidores, y lo que más valoro son las conversaciones que se abrieron con cada publicación.\n\nAprendí que la constancia vale más que la perfección: publicar, comentar y medir cada semana.\n\n"+CIERRE+"\n\nPueden verificar mi certificado aquí 👇\n"+U("002")+"\n\n¿Cuál es tu excusa para no publicar esta semana? 👇\n\n"+TAGS},
+{n:"003",nombre:"Julio Acosta Felizzola",cargo:"Subdirector Administrativo y Financiero",red:"0 → 121",t:
+"Hace 4 meses no tenía perfil en LinkedIn.\n\nComo financiero, pensaba que LinkedIn era para otros. Hoy entiendo que también es el lugar donde se construye la confianza en una organización.\n\nRecibo mi certificado como embajador de marca de la primera generación de Comfacesar, programa IAM™ Ambassadors.\n\nDe 0 a 121 conexiones, con un perfil profesional completo, de nivel PRO.\n\nAprendí a usar la inteligencia artificial para escribir con mi propia voz, sin perder el rigor que exige mi área.\n\n"+CIERRE+"\n\nPueden verificar mi certificado aquí 👇\n"+U("003")+"\n\n¿Cuántos líderes de finanzas conoces que comuniquen en LinkedIn? 👇\n\n"+TAGS},
+{n:"004",nombre:"Víctor Manuel Rueda",cargo:"Jefe de la Oficina Jurídica y Asuntos Legales",red:"857 → 936",t:
+"Los abogados solemos hablar con documentos. Aprendí que también podemos hablar con personas.\n\nHoy recibo mi certificado como embajador de marca de la primera generación de Comfacesar, programa IAM™ Ambassadors.\n\nMi perfil hoy cuenta qué hace la Oficina Jurídica de Comfacesar por sus afiliados, y mi red llegó a 936 seguidores.\n\nMe llevo una idea: la credibilidad de una institución también se construye explicando con claridad lo que hace.\n\n"+CIERRE+"\n\nPueden verificar mi certificado aquí 👇\n"+U("004")+"\n\n¿Qué tema legal te gustaría que explicáramos de forma sencilla? 👇\n\n"+TAGS},
+{n:"005",nombre:"José Jaime Maya",cargo:"Gerente de Empleo y Productividad",red:"18 → 304",t:
+"De 18 a 304 seguidores. Casi 17 veces más red en 4 meses.\n\nPero lo que más me sorprendió fue otra cosa: una publicación sobre oportunidades para las mipymes del Cesar abrió 14 conversaciones. Ahí entendí que LinkedIn no es para publicar, es para conectar.\n\nHoy recibo mi certificado como embajador de marca de la primera generación de Comfacesar, programa IAM™ Ambassadors.\n\nDesde la Agencia de Empleo y Productividad, cada conexión puede ser una empresa que contrata o una persona que encuentra trabajo.\n\n"+CIERRE+"\n\nPueden verificar mi certificado aquí 👇\n"+U("005")+"\n\n¿Qué necesita hoy una mipyme del Cesar para crecer? Te leo 👇\n\n"+TAGS},
+{n:"006",nombre:"José Luciano Contreras",cargo:"Gerente de Subsidio y Aportes",red:"3 → 83",t:
+"Mi perfil de LinkedIn no tenía ni foto. Hoy es un perfil completo, de nivel PRO.\n\nA veces el primer paso es el más difícil, y lo di.\n\nHoy recibo mi certificado como embajador de marca de la primera generación de Comfacesar, programa IAM™ Ambassadors.\n\nMi red pasó de 3 a 83 seguidores, y sé que este es solo el comienzo: el subsidio familiar toca a miles de familias del Cesar y quiero contarlo.\n\n"+CIERRE+"\n\nPueden verificar mi certificado aquí 👇\n"+U("006")+"\n\n¿Qué te gustaría saber sobre el subsidio familiar? 👇\n\n"+TAGS},
+{n:"007",nombre:"Lacides Daza",cargo:"Gerente de Talento Humano",red:"0 → 201",t:
+"Talento humano que no está en LinkedIn es como una vitrina cerrada.\n\nHace 4 meses no tenía perfil. Hoy tengo 201 seguidores y un perfil profesional completo.\n\nRecibo mi certificado como embajador de marca de la primera generación de Comfacesar, programa IAM™ Ambassadors.\n\nAprendí que la marca empleadora de Comfacesar también se construye con la voz de quienes trabajamos aquí.\n\n"+CIERRE+"\n\nPueden verificar mi certificado aquí 👇\n"+U("007")+"\n\n¿Qué hace que una empresa sea un buen lugar para trabajar? 👇\n\n"+TAGS},
+{n:"009",nombre:"José Jaime Rodríguez",cargo:"Gerente de Educación y Cultura",red:"0 → 684",t:
+"De 0 a 684.\n\nHace 4 meses no tenía perfil en LinkedIn. Hoy soy el embajador que más conexiones nuevas construyó en la primera generación, y superé mi meta.\n\nRecibo mi certificado como embajador de marca de Comfacesar, programa IAM™ Ambassadors.\n\nEducación y cultura son temas que unen, y LinkedIn me mostró que hay una comunidad enorme esperando conversar sobre ellos.\n\n"+CIERRE+"\n\nPueden verificar mi certificado aquí 👇\n"+U("009")+"\n\n¿Qué proyecto educativo del Cesar merece más visibilidad? 👇\n\n"+TAGS},
+{n:"010",nombre:"María Elvira Marulanda",cargo:"Responsable de Comunicaciones",red:"46 → 248",t:
+"Comunicar a una organización desde el escritorio no es lo mismo que hacerlo con tu propia voz.\n\nComo responsable de comunicaciones, este programa me hizo pasar del otro lado: de escribir para la marca a ser parte de su voz.\n\nHoy recibo mi certificado como embajadora de marca de la primera generación de Comfacesar, programa IAM™ Ambassadors.\n\nMi red pasó de 46 a 248 seguidores, y aprendí que comentar también es comunicar: 47 conversaciones en 90 días.\n\n"+CIERRE+"\n\nPueden verificar mi certificado aquí 👇\n"+U("010")+"\n\nColegas de comunicaciones: ¿sus líderes ya son voceros en LinkedIn? 👇\n\n"+TAGS},
+{n:"011",nombre:"Alemar Granadillo",cargo:"Profesional Senior del Despacho de Dirección",red:"457 → 1,084",t:
+"Pasé la barrera de los 1,000 seguidores en LinkedIn. 🎯\n\nEmpecé con 457. Hoy son 1,084, la red más grande de la primera generación de embajadores de Comfacesar.\n\nRecibo mi certificado como embajador de marca, programa IAM™ Ambassadors.\n\nDesde alianzas y proyectos aprendí que cada conexión puede ser el inicio de una alianza que transforma la región.\n\n"+CIERRE+"\n\nPueden verificar mi certificado aquí 👇\n"+U("011")+"\n\n¿Con quién deberíamos estar conectados para hacer más por el Cesar? 👇\n\n"+TAGS},
+{n:"012",nombre:"Claudia Núñez",cargo:"Jefe de la División de Vivienda",red:"0 → 303",t:
+"Una casa se construye ladrillo a ladrillo. Una marca en LinkedIn, conversación a conversación.\n\nFui la embajadora que más conversó en estos 90 días: 57 comentarios. Y mi red pasó de 0 a 303 seguidores.\n\nHoy recibo mi certificado como embajadora de marca de la primera generación de Comfacesar, programa IAM™ Ambassadors.\n\nLa vivienda es uno de los sueños más grandes de las familias del Cesar, y quiero que LinkedIn también hable de eso.\n\n"+CIERRE+"\n\nPueden verificar mi certificado aquí 👇\n"+U("012")+"\n\n¿Qué consejo le darías a una familia que busca su primera vivienda? 👇\n\n"+TAGS}
+];
+var L=document.getElementById('lista');
+P.forEach(function(p){
+  var c=document.createElement('article');c.className='card';
+  c.innerHTML='<header><div><h2></h2><div class="cargo"></div></div><div class="meta"><span class="chip"></span><span class="chip">IAM-AMB-CFC-G1-'+p.n+'</span></div></header><pre class="post" id="post-'+p.n+'"></pre><div class="acc"><button type="button" class="copy" id="copiar-'+p.n+'">Copiar post</button><a class="btn li" target="_blank" rel="noopener">Abrir su verificación</a><span class="hecho" hidden>Copiado</span></div>';
+  c.querySelector('h2').textContent=p.nombre;c.querySelector('.cargo').textContent=p.cargo+' · Comfacesar';
+  c.querySelector('.chip').textContent=p.red+' seguidores';c.querySelector('.post').textContent=p.t;c.querySelector('a').href=U(p.n);
+  var b=c.querySelector('button'),ok=c.querySelector('.hecho'),pre=c.querySelector('.post');
+  b.addEventListener('click',function(){
+    function sel(){var r=document.createRange();r.selectNodeContents(pre);var s=getSelection();s.removeAllRanges();s.addRange(r);ok.textContent='Texto seleccionado: cópialo con Ctrl+C';ok.hidden=false}
+    try{navigator.clipboard.writeText(p.t).then(function(){ok.textContent='Copiado';ok.hidden=false;setTimeout(function(){ok.hidden=true},2500)},sel)}catch(e){sel()}
+  });
+  L.appendChild(c)});
+</script>

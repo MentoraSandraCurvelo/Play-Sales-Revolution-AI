@@ -136,7 +136,7 @@ def pagina(p):
     li_url = 'https://www.linkedin.com/in/' + urllib.parse.quote(li, safe='-')
     add = 'https://www.linkedin.com/profile/add?' + urllib.parse.urlencode({
         'startTask': 'CERTIFICATION_NAME', 'name': 'IAM™ Ambassadors · Embajador de marca en LinkedIn con IA',
-        'organizationName': 'IAM™', 'issueYear': '2026', 'issueMonth': '9', 'certUrl': url, 'certId': code})
+        'organizationName': 'IAM™ Influence', 'issueYear': '2026', 'issueMonth': '9', 'certUrl': url, 'certId': code})
     share = 'https://www.linkedin.com/sharing/share-offsite/?' + urllib.parse.urlencode({'url': url})
     nuevas = hoy - ini
     red = f'<div><b>{fmt(ini)} → {fmt(hoy)}</b><span>seguidores en LinkedIn</span></div>'
