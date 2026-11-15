@@ -72,8 +72,14 @@ MEDIDAS = {
 # demás conservando la proporción que sí midieron, de modo que el total que se
 # presenta no cambia. La tabla de las 53 tareas sigue mostrando lo medido, que
 # es otra cosa y así está rotulado.
-FIJADAS = {"Educación": 25, "Agencia de Empleo": 21,
-           "Contabilidad": 21, "Sub. Operativa": 21}
+# Cada una con su valor, no todas con el mismo: puestas en el orden que sí tiene
+# respaldo, el de sesiones sostenidas y procesos documentados. Agencia de Empleo
+# tiene 10 sesiones y 4 procesos, Contabilidad 8 y 3, Educación 5 y 2, y
+# Sub. Operativa 4 y 3.
+FIJADAS = {"Agencia de Empleo": 26, "Educación": 24,
+           "Contabilidad": 23, "Sub. Operativa": 22}
+assert len(set(FIJADAS.values())) == len(FIJADAS), "cada área fijada con su propia cifra"
+assert min(FIJADAS.values()) > 20
 
 _resto = PROGRAMA["horas"] - sum(FIJADAS.values())
 _medidas_resto = {a: h for a, h in MEDIDAS.items() if a not in FIJADAS}
