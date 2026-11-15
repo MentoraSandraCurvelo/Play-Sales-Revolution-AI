@@ -610,14 +610,16 @@ s4b = slide("ejercicios", "El tablero de ejercicios", f"""
   <p class="eb">Los ejercicios, uno por uno</p>
   <h2>{palabra(len(D.TAREAS)).capitalize()} tareas medidas, en {palabra(len(D.por_area()))} áreas</h2>
   <p class="lede">El área anotó <b>cuánto tardaba, cuánto tarda hoy y cuántas veces
-    la hace</b>. Los minutos son de una vuelta completa, sin aplicar la frecuencia.</p>
+    la hace</b>. Una vuelta completa de las {len(D.TAREAS)} tareas tomaba
+    <b>{ent(D.VUELTA_ANTES / 60)} horas</b> y hoy toma <b>{ent(D.VUELTA_HOY / 60)}</b>.</p>
   <table class="t mini">
     <tr><th>Área</th><th class="num">Tareas</th><th class="num">Antes, min</th>
       <th class="num">Hoy, min</th><th class="num">Baja</th></tr>
     {_f}
     {_resumen}
     <tr><td><b>El programa</b></td><td class="num"><b>{_tt["tareas"]}</b></td>
-      <td class="num"><b>{mil(_tt["antes"])}</b></td><td class="num"><b>{mil(_tt["hoy"])}</b></td>
+      <td class="num"><b>{mil(_tt["antes"])}</b><br><span class="src">{ent(_tt["antes"] / 60)} h</span></td>
+      <td class="num"><b>{mil(_tt["hoy"])}</b><br><span class="src">{ent(_tt["hoy"] / 60)} h</span></td>
       <td class="num st"><b>{round(100 * (_tt["antes"] - _tt["hoy"]) / _tt["antes"])}%</b></td></tr>
   </table>""", oscura=False,
             pie="Sala de Control · las 53 tareas verificadas, con su tiempo antes y su tiempo hoy · las horas por semana de cada área van en la diapositiva de horas · las tareas estimadas no entran")
