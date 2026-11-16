@@ -56,3 +56,8 @@ Microsoft Word, Excel y PowerPoint: NO hay logo oficial disponible desde las fue
 (Simple Icons los retiro y Wikimedia Commons esta bloqueado en este entorno). Se usaron etiquetas
 limpias con el nombre del producto en su color de marca (Word #185ABD, Excel #107C41,
 PowerPoint #C43E1C). No son logos ni imitaciones de logos.
+
+Efectos de humo-ia-no-te-puede-hacer-ver-mediocre-v2.mp4 y guia-semana-vendedor-ia-v2.mp4:
+todos generados por codigo (Python/OpenCV + fuente Outfit): textos animados, icono de grafico,
+efecto de humo procedural, contadores, tachado y tarjeta final; tarjetas del panel de la guia
+dibujadas con el texto de la guia. Sin video de stock ni imagenes de IA nuevas.
