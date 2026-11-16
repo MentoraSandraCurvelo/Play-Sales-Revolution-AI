@@ -1,7 +1,7 @@
 {
   "id": "lun-16-pm",
   "estado": "texto_aprobado_falta_carrusel",
-  "programado_bogota": "2026-11-16 15:00",
+  "programado_bogota": "por_reprogramar (prueba 1 post al día, 17 al 30 nov)",
   "urn": null,
   "payload": {
     "author": "urn:li:person:tsJbwdb3B2",
@@ -17,5 +17,6 @@
   },
   "nota": "Texto aprobado el 11 nov. No publicar hasta tener el carrusel PDF aprobado por Sandra (entonces pasa a 'aprobado'). Sin primer comentario aún.",
   "aprobado_por": "Sandra",
-  "aprobado_el": "2026-11-11"
+  "aprobado_el": "2026-11-11",
+  "programado_anterior": "2026-11-16 15:00"
 }
