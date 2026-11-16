@@ -92,3 +92,8 @@ Pendiente: Parte 3 métricas, invitaciones sin nota.
 - (16 nov, continuación) Juan Valdez Café, Luis Guillermo Quintero CEO: https://lnkd.in/p/gHs6YtDH
 - Invitaciones sin nota (16 nov): Daniela Trejo, Carlos Plata (ProColombia); Helmut Cáceda, Jonathan Ramírez (CAPECE); Jorge Luis Gallegos (Cámara Ecuatoriano Coreana).
 - Oportunidad Grupo ZFB: Juan Pablo Rivera (presidente, linkedin.com/in/jurivera); Isabella Muñoz (gerente general Desarrolladora de Zonas Francas, linkedin.com/in/isamunozm; rol en el Hyperscale deducido de una publicación).
+
+## 16 nov 2026, tarde
+- Grupo ZFB, post Hyperscale Hub con Enel: comentario aprobado por Sandra (primera frase ajustada, sin IVA ni Milagro Week): https://lnkd.in/p/ecQ2VJgx. Reacción Interesante.
+- Invitaciones sin nota: Juan Pablo Rivera (Presidente Grupo ZFB) y Isabella Muñoz (Gerente General Desarrolladora de Zonas Francas), Pending.
+- Newsletter edición 2 programada por Chrome para jue 26 nov, 7:30 a. m.
