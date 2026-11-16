@@ -229,3 +229,8 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Exclusiones: Presidente, Vicepresidente y ministros (solo seguir); equipos cliente; conexiones existentes o invitaciones pendientes.
 - Cuenta gratuita (confirmado por Sandra el 14 nov): la nota se reserva para presidentes y directores de ProBarranquilla, ProColombia, cajas y cámaras. Cuando LinkedIn no deje nota, se envía sin nota solo a personas de organizaciones comentadas ese día, máximo 5 al día. Al aceptar, Claude prepara un mensaje de agradecimiento con contexto (los mensajes a conexiones no tienen ese límite). Ante cualquier aviso de LinkedIn, se para todo. Los lunes se retiran invitaciones de más de 21 días.
 - Por qué 50 a la semana: LinkedIn no publica su límite oficial; lo que se reporta varía (aprox. 100 a 200 por semana, no verificado). 50 deja margen amplio.
+
+## 38. Cuenta estratégica: presidenta de la ANDI (16 nov 2026, Sandra)
+- Luz Stella Murgas, presidenta de la ANDI, entra al mismo nivel que el Vicepresidente. Objetivo: que escuche la propuesta de IAM™ como proveedora de la ANDI (conferencias y formación en IA para afiliados).
+- Chrome comenta todas sus publicaciones nuevas (1 comentario por post, aporte de fondo, sin vender). Respuestas en sus hilos: con el sí de Sandra.
+- Sandra la invitó a conectar el 16 nov. Al aceptar: mensaje de agradecimiento con contexto, y la propuesta solo después de 2 o 3 interacciones públicas.
