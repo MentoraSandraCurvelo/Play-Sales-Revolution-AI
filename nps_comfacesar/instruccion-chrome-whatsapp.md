@@ -1,8 +1,8 @@
-# Instrucción para Claude en Chrome · publicar la jornada en el grupo
+# Instrucción para Claude en Chrome · recordatorio de la víspera
 
-**IAM™ Intelligence · Comfacesar · 14 de noviembre de 2026**
+**IAM™ Intelligence · Comfacesar · 16 de noviembre de 2026**
 
-Prueba del uso de Claude en Chrome sobre WhatsApp Web. **Escribe pero no envía:**
+Recordatorio de que mañana es la jornada, para el mismo grupo. **Escribe pero no envía:**
 el envío lo da Sandra. Antes de pegarla, abrir `web.whatsapp.com` y dejar el grupo
 correcto abierto en pantalla.
 
@@ -19,26 +19,24 @@ Reglas, en orden de importancia:
 5. Si no logras escribir el emoji del principio, deja el resto igual y avísame cuál faltó.
 
 === INICIO DEL MENSAJE ===
-⭕️ Buenos días a todos. Ya tenemos fecha para el cierre de IAM™ Intelligence: martes 17 de noviembre, de 9:00 a 12:30.
+⭕️ Buenas tardes a todos. Recordatorio: *mañana martes 17 nos vemos a las 9:00* para el cierre de IAM™ Intelligence. Vamos hasta las 12:30.
 
-Nos redujeron el tiempo, así que la jornada queda así:
+Este es el orden en el que pasan:
 
-*9:15 · IPS* · 30 min · Danilo Pozo y su equipo
-*9:45 · Jurídica* · 20 min · Carlos Mario Gamarra, Renata Laino y Lilibeth Costa
-*10:05 · Sub. Admin y Financiera* · 20 min · Rafael Solano
-*10:25 · Contabilidad* · 20 min · Carlos Lozano
-*10:45 · Agencia de Empleo* · 20 min · Lina María Rincón y José Jaime Maya
-*11:05 · Vivienda* · 20 min · Cindy Silva
-*11:25 · Subsidio y Aportes* · 13 min · Cindy Rodríguez
-*11:38 · Comunicaciones* · 13 min · por confirmar
-*11:51 · Sub. Operativa* · 13 min · Jennifer
-*12:04 · Educación* · 13 min · Óscar Cotes y Julissa Pérez
+*9:15* · IPS · 30 min
+*9:45* · Jurídica · 20 min
+*10:05* · Sub. Admin y Financiera · 20 min
+*10:25* · Contabilidad · 20 min
+*10:45* · Agencia de Empleo · 20 min
+*11:05* · Vivienda · 20 min
+*11:25* · Subsidio y Aportes · 13 min
+*11:38* · Comunicaciones · 13 min
+*11:51* · Sub. Operativa · 13 min
+*12:04* · Educación · 13 min
 
-De 9:00 a 9:15 va la introducción y de 12:17 a 12:30 el cierre.
+Cada área muestra en vivo lo que construyó, con el antes y el después en horas y en pesos. Con una o dos diapositivas basta.
 
-Cada área muestra en vivo lo que construyó, con el antes y el después en horas y en pesos. No hay que preparar presentación: con una o dos diapositivas basta.
-
-Comunicaciones, nos confirman quiénes pasan por el área.
+Nos vemos mañana.
 
 IAM™ Intelligence
 === FIN DEL MENSAJE ===
