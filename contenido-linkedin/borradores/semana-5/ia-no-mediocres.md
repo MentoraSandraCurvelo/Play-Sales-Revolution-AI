@@ -1,5 +1,5 @@
 # Borrador · "La IA no te puede hacer ver mediocre" (idea de Sandra, 16 nov 2026)
-Estado: borrador, espera aprobación. Fecha propuesta: mié 18 nov 11:30 a. m. (si no hay video de 5 ajustes) o mar 24 nov 7:30 a. m.
+Estado: TEXTO APROBADO por Sandra el 16 nov 2026. Formato: video de Sandra a cámara (40 a 50 s), guion "humo" en el teleprompter. Fecha propuesta: mié 18 nov 11:30 a. m. (si no hay video de 5 ajustes) o mar 24 nov 7:30 a. m.
 
 ## Texto
 La IA no te puede hacer ver mediocre.
