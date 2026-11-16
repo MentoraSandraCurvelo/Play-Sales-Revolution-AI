@@ -43,3 +43,6 @@ Sandra confirma "Lo que nadie te dice de la IA" para la newsletter de LinkedIn. 
 
 ## Aprobado (10 nov 2026)
 Sandra aprobó el esquema de la edición 2 (26 nov) y mover métricas a la edición 3 (10 dic).
+
+## Aprobado (16 nov 2026)
+Sandra aprobó la edición 2 completa (vista previa https://claude.ai/artifact/1CfFbS4UPbjqRNyNvjWdfH). Guía 2 publicada en iamlatam.co/guias (deploy Netlify 6afb44beb3cfe53d7bebb99e). Pendiente antes de publicar: Chrome verifica el dato de Salesforce (40% y 4.050); si no cuadra, se quita la frase.
