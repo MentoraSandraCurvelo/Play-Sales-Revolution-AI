@@ -40,3 +40,19 @@ Panel superior del video "guia": recortes de contenido-linkedin/newsletter/guia-
 (material propio de IAM).
 Recorte de Sandra: segmentacion con Robust Video Matting (PeterL1n, GPL-3.0, modelo mobilenetv3),
 ejecutado localmente. No se genero ni altero su rostro.
+
+----------------------------------------------------------------------
+Logos en ajustes-claude-5-ajustes-v2.mp4 (agregado 2026-11-16)
+----------------------------------------------------------------------
+Logos oficiales (archivos SVG originales de la marca, sin redibujar), tomados del paquete npm
+@iconify-json/logos v1.2.20 (coleccion "SVG Logos" de Gil Barbara, https://github.com/gilbarbara/logos,
+licencia de la coleccion CC0-1.0), descargado de https://registry.npmjs.org/@iconify-json/logos.
+Las marcas pertenecen a sus duenos; se usan solo para nombrar la herramienta que Sandra menciona.
+  - Google Drive: icono "google-drive-2020"
+  - Google Chrome: icono "chrome"
+  - LinkedIn: icono "linkedin-icon" (sobre fondo blanco redondeado)
+  - Claude: icono "claude-icon" (dentro de la etiqueta CLAUDE)
+Microsoft Word, Excel y PowerPoint: NO hay logo oficial disponible desde las fuentes accesibles
+(Simple Icons los retiro y Wikimedia Commons esta bloqueado en este entorno). Se usaron etiquetas
+limpias con el nombre del producto en su color de marca (Word #185ABD, Excel #107C41,
+PowerPoint #C43E1C). No son logos ni imitaciones de logos.
