@@ -27,3 +27,9 @@ Link: https://www.linkedin.com/pulse/le-di-las-llaves-de-mi-linkedin-una-ia-esto
 - Suscriptores 1.885 (−2 vs 11 nov) · +6 en 7 días.
 - Audiencia: Salesperson 43 %, Bogotá 33 %, consultoría 29 %.
 - AGENTE: 0 comentarios. Próximo corte: lun 16.
+
+## Semana 10 al 16 nov 2026 (Parte 3 de Chrome, 16 nov)
+- Impresiones 7 días: 1.914 (+12% vs semana anterior). Alcance: 565 personas. 79% red, 21% fuera de red.
+- Interacciones: 103 (52 reacciones, 32 comentarios, 15 compartidos, 2 guardados, 2 envíos). Tasa: 103 / 1.914 = 5,4%.
+- 13 posts en la vista "Top posts": suman 1.440 impresiones, promedio 111 por post. Mejor: newsletter (220); siguiente: "El cliente nota en el primer minuto" (140).
+- Seguidores perfil: 7.526 (+1% en 7 días). Página IAM™: 126 (+20 en 30 días). Newsletter: 1.888 (+6 en 7 días).

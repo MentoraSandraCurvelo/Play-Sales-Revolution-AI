@@ -89,3 +89,6 @@ Respuestas a Tiago Diaz: sáb https://lnkd.in/p/gGcnHggZ · dom https://lnkd.in/
 Vicepresidente: no se comentó (post Milagro Week con IVA cero y discusión política, regla 33). Revisión Claude: bien omitido.
 Oportunidad: Grupo ZFB, "Hyperscale Hub Bogotá" (zona franca de data centers), comentó en el post del Vicepresidente.
 Pendiente: Parte 3 métricas, invitaciones sin nota.
+- (16 nov, continuación) Juan Valdez Café, Luis Guillermo Quintero CEO: https://lnkd.in/p/gHs6YtDH
+- Invitaciones sin nota (16 nov): Daniela Trejo, Carlos Plata (ProColombia); Helmut Cáceda, Jonathan Ramírez (CAPECE); Jorge Luis Gallegos (Cámara Ecuatoriano Coreana).
+- Oportunidad Grupo ZFB: Juan Pablo Rivera (presidente, linkedin.com/in/jurivera); Isabella Muñoz (gerente general Desarrolladora de Zonas Francas, linkedin.com/in/isamunozm; rol en el Hyperscale deducido de una publicación).
