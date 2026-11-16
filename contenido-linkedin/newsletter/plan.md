@@ -46,3 +46,4 @@ Sandra aprobó el esquema de la edición 2 (26 nov) y mover métricas a la edici
 
 ## Aprobado (16 nov 2026)
 Sandra aprobó la edición 2 completa (vista previa https://claude.ai/artifact/1CfFbS4UPbjqRNyNvjWdfH). Guía 2 publicada en iamlatam.co/guias (deploy Netlify 6afb44beb3cfe53d7bebb99e). Pendiente antes de publicar: Chrome verifica el dato de Salesforce (40% y 4.050); si no cuadra, se quita la frase.
+16 nov 2026: Sandra decidió dejar la frase de Salesforce como está, sin verificarla. Chrome arma el borrador y lo programa para el jueves 26 nov, 7:30 a. m.
