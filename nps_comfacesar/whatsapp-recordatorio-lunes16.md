@@ -2,8 +2,10 @@
 
 **IAM™ Intelligence · Comfacesar · 16 de noviembre de 2026**
 
+> **ENVIADO el 16 de noviembre.** Sandra lo pegó ella misma en el grupo.
+
 Va al mismo grupo. El mensaje largo con los nombres ya se envió, así que este
-solo recuerda la hora y el orden. Para copiar y pegar.
+solo recuerda la hora y el orden.
 
 ---
 
