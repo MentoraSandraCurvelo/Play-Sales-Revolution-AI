@@ -1,0 +1,42 @@
+Fondos de los 3 videos (16 nov 2026)
+====================================
+
+Pexels / Unsplash no fueron accesibles desde el entorno de edicion (red bloqueada),
+y no se uso ElevenLabs (sin creditos). Los 3 fondos se generaron con Canva AI
+(generate-image) en la cuenta de Canva conectada de Sandra. Imagenes generadas por IA,
+sin personas reales identificables en las oficinas y sin logos ni texto.
+Uso: segun los terminos de Canva para contenido generado con sus herramientas de IA.
+
+Nota tecnica: el entorno solo pudo descargar la vista previa de cada imagen (112x200 px),
+no el archivo completo (1536x2720), porque media.canva.com esta bloqueado en la red.
+Por eso los fondos van con desenfoque fuerte (efecto de profundidad de campo).
+Si se quiere mas nitidez, se puede re-componer con la imagen completa desde estos enlaces.
+
+1) Ajustes (IMG_0402) - oficina ejecutiva moderna con vista a la ciudad al atardecer
+   Canva media id: MAHbGc-15GM
+   https://www.canva.com/M/MAHbGc-15GM
+   Prompt: "Photorealistic vertical background photo of an empty modern executive office with
+   floor-to-ceiling windows and a city skyline view at golden hour, walnut desk and leather chair
+   in the background, soft natural light, shallow depth of field, no people, no logos, no text,
+   no screens with content."
+
+2) Guia (IMG_0406) - sala de juntas contemporanea negra con sillas rojas (acentos IAM)
+   Canva media id: MAHbGTXUjJM
+   https://www.canva.com/M/MAHbGTXUjJM
+   Prompt: "Photorealistic vertical background photo of an empty contemporary meeting room with
+   black and deep red accents: black walls panels, a dark glossy table, red upholstered chairs,
+   warm pendant lights, elegant and corporate, shallow depth of field, no people, no logos,
+   no text, no screens with content."
+
+3) Humo (IMG_0409) - auditorio de conferencia con publico (desenfocado, no reconocible)
+   Canva media id: MAHbGYT2uF4
+   https://www.canva.com/M/MAHbGYT2uF4
+   Prompt: "Photorealistic vertical photo taken from a conference stage looking out toward a
+   large auditorium with a seated audience in soft focus, warm stage lighting, dark red and
+   black tones, professional business conference atmosphere, audience blurred and not
+   recognizable, no logos, no text, no banners, no screens with content."
+
+Panel superior del video "guia": recortes de contenido-linkedin/newsletter/guia-semana-vendedor-ia.pdf
+(material propio de IAM).
+Recorte de Sandra: segmentacion con Robust Video Matting (PeterL1n, GPL-3.0, modelo mobilenetv3),
+ejecutado localmente. No se genero ni altero su rostro.

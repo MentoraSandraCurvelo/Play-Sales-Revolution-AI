@@ -31,3 +31,6 @@ Fundadora y CSO de IAM™
 ## Enviado (10 nov 2026)
 - Sandra envió el correo desde sandracurvelo@iamlatam.co a rlara@camarabaq.org.co con 4 adjuntos (PDF, macroprocesos, ciudadano PQRSDF, índice por dependencia).
 - Seguimiento: lunes 16 nov si no hay respuesta (recordatorio programado).
+
+## 16 nov 2026 · Seguimiento enviado
+Claude envió por Outlook (autorizado por Sandra) la respuesta en el hilo del 10 nov a rlara@camarabaq.org.co: confirmar recepción de la propuesta y pedir llamada de 20 minutos esta semana. Próximo paso: si no responden al lun 23 nov, intentar por LinkedIn con María José Vengoechea.
