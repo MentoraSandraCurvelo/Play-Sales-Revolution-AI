@@ -240,3 +240,6 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Medida: impresiones promedio por post frente a la línea base de 111 (semana del 10 al 16 nov, 13 posts, 1.440 impresiones). Se revisa el lun 30 nov.
 - Calendario: mar 17 títulos del perfil · mié 18 video 5 ajustes · jue 19 empleados en LinkedIn · vie 20 video guía SEMANA · sáb 21 · dom 22 · lun 23 3 fases · mar 24 video humo · mié 25 piloto por área · jue 26 newsletter · vie 27 video panel LinkedIn.
 - Por reprogramar desde el 30 nov: mar-17-pm, mie-18-pm, jue-19-md, jue-19-pm (encuesta) y los carruseles.
+
+## 40. Correos aprobados los envía Claude (16 nov 2026, Sandra)
+- Cuando Sandra aprueba el texto de un correo, Claude lo envía directo desde Outlook (sandracurvelo@iamlatam.co), en el hilo correcto, sin pedirle que lo copie. Después le confirma a quién, cuándo y el asunto.
