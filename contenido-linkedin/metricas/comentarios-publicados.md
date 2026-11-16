@@ -75,3 +75,10 @@ Dato 3b: en 11 posts propios (9 al 14 nov) solo 2 cuentas externas comentaron (T
 4. Cámara Ecuatoriano Coreana, visita a SENECA: https://lnkd.in/p/etX8cFX3
 El 1 (Vicepresidente, Plan Destrabe) no se publicó: ya tenía comentario de Sandra de hace 3 días. Bien hecho por Chrome.
 Páginas seguidas: Comfandi, Comfama, CAPECE, Cámara Ecuatoriano Coreana. Búsqueda de personas limitada en cuenta gratuita (solo 3 nombres por búsqueda).
+
+## 15 nov 2026 · Domingo tarde (Chrome)
+- Comfandi, visita Ministra del Trabajo y apuestas 2030: https://lnkd.in/p/ecZqcBGU
+- ANDI, entrevista a Luz Stella Murgas: https://lnkd.in/p/eQC9UUNz
+Páginas seguidas: Cámara Chileno Suiza, Cámara de Comercio de Santiago.
+Invitaciones: 0 enviadas. LinkedIn: "You're out of free custom notes" (notas gratis del mes agotadas). Nota de presidente (4 nov) mide 220 caracteres, supera el límite de 200.
+Posible prospecto: Catalina Giraldo, SVP Falck LATAM (comentó en el post de la ANDI).

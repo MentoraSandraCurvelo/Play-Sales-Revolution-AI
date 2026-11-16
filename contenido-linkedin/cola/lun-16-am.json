@@ -1,6 +1,6 @@
 {
   "id": "lun-16-am",
-  "estado": "aprobado",
+  "estado": "publicado",
   "programado_bogota": "2026-11-16 07:30",
   "tags": [
     "IAEmpresarial",
@@ -25,5 +25,6 @@
   },
   "imagen": "contenido-linkedin/imagenes/lun-16-am.jpg",
   "alt": "Sandra Curvelo con blazer blanco y el texto: ¿Cuándo uso la IA en mi trabajo? En todo.",
-  "urn": null
+  "urn": "urn:li:share:7528073720507236352",
+  "publicado_utc": "2026-11-16T12:37:20+00:00"
 }
