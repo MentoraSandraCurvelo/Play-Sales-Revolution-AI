@@ -82,3 +82,10 @@ Páginas seguidas: Comfandi, Comfama, CAPECE, Cámara Ecuatoriano Coreana. Búsq
 Páginas seguidas: Cámara Chileno Suiza, Cámara de Comercio de Santiago.
 Invitaciones: 0 enviadas. LinkedIn: "You're out of free custom notes" (notas gratis del mes agotadas). Nota de presidente (4 nov) mide 220 caracteres, supera el límite de 200.
 Posible prospecto: Catalina Giraldo, SVP Falck LATAM (comentó en el post de la ANDI).
+
+## 16 nov 2026 · Lunes festivo, rutina 7:35 (Chrome, quedó a medias por errores de la extensión)
+Respuestas a Tiago Diaz: sáb https://lnkd.in/p/gGcnHggZ · dom https://lnkd.in/p/gjW9YayG
+1. LATAM Tech Forum, ILIA de la CEPAL: https://lnkd.in/p/g8HAWCh2
+Vicepresidente: no se comentó (post Milagro Week con IVA cero y discusión política, regla 33). Revisión Claude: bien omitido.
+Oportunidad: Grupo ZFB, "Hyperscale Hub Bogotá" (zona franca de data centers), comentó en el post del Vicepresidente.
+Pendiente: Parte 3 métricas, invitaciones sin nota.
