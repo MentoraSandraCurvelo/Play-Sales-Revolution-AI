@@ -1,0 +1,135 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<title>Guía: La semana del vendedor con IA</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800;900&family=Outfit:wght@400;600;700&display=swap">
+<style>
+@page{size:A4;margin:0}
+*{box-sizing:border-box;margin:0;font-variant-numeric:lining-nums}
+body{font-family:Outfit,Arial,sans-serif;color:#1a1415;font-size:11pt;line-height:1.48}
+.pg{width:210mm;height:297mm;padding:18mm 18mm 16mm 22mm;position:relative;page-break-after:always;overflow:hidden}
+.pg::before{content:"";position:absolute;left:0;top:0;bottom:0;width:6mm;background:#c00000}
+.cover{background:#0a0a0a;color:#f3f1ec;display:flex;flex-direction:column;justify-content:center;gap:7mm}
+.eb{font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#e00000;font-size:10pt}
+h1{font-family:"Playfair Display",Georgia,serif;font-weight:900;font-size:36pt;line-height:1.05}
+h2{font-family:"Playfair Display",Georgia,serif;font-weight:800;font-size:18pt;margin:0 0 3mm}
+h3{font-size:12pt;margin:4mm 0 1.5mm}
+p,li{max-width:165mm}
+ol,ul{padding-left:6mm;}ul{list-style:none;padding-left:0}ol,ul{display:flex;flex-direction:column;gap:1.5mm}
+.red{color:#e00000}
+.box{border-left:4px solid #c00000;background:#f6f1f1;padding:3.5mm 5mm;margin:3.5mm 0}
+.prompt{font-family:ui-monospace,Menlo,monospace;font-size:9.4pt;line-height:1.45;background:#151515;color:#f3f1ec;padding:3.5mm 5mm;border-radius:2mm;margin:2mm 0 3mm;white-space:pre-wrap}
+.ft{position:absolute;left:22mm;right:18mm;bottom:8mm;font-size:8.5pt;color:#7e7a73;display:flex;justify-content:space-between;gap:6mm}
+table{border-collapse:collapse;width:100%;font-size:10pt;margin-top:2mm}
+th{background:#c00000;color:#fff;text-align:left;padding:2mm 3mm}
+td{border-bottom:1px solid #e3dada;padding:2mm 3mm;vertical-align:top}
+.day{display:flex;align-items:baseline;gap:3mm;margin-top:3mm}
+.day .d{background:#c00000;color:#fff;font-weight:700;font-size:9.5pt;letter-spacing:.08em;padding:1mm 3mm;border-radius:1mm}
+.day h2{margin:0}
+.chips{display:flex;gap:3mm;margin-top:4mm}
+.chips span{border:2px solid #e00000;color:#fff;font-weight:700;padding:1.5mm 4mm;border-radius:1.5mm;font-size:11pt}
+.chips span.on{background:#e00000}
+.small{font-size:9pt;color:#6b6560}
+</style></head><body>
+
+<section class="pg cover">
+  <p class="eb">Lo que nadie te dice de la IA · Guía 2</p>
+  <h1>La semana del<br>vendedor con <span class="red">IA</span></h1>
+  <p style="font-size:14pt;color:#bdb8b0;max-width:155mm">Para líderes comerciales. 5 agentes, uno por día, para acabar con la hoja en blanco del lunes y con el ghosting después de la propuesta.</p>
+  <div class="chips"><span class="on">LUN</span><span>MAR</span><span>MIÉ</span><span>JUE</span><span>VIE</span></div>
+  <p style="font-size:12pt;color:#f3f1ec;margin-top:6mm"><b>La regla:</b> la IA prepara. El vendedor revisa, decide y envía.</p>
+  <p style="font-size:11pt;color:#f3f1ec;margin-top:4mm">Sandra Curvelo · Founder &amp; CSO, IAM™</p>
+  <div class="ft"><span>Información verificada en noviembre de 2026. Las herramientas cambian: si una pantalla no coincide, busca la opción equivalente.</span><span>iamlatam.co</span></div>
+</section>
+
+<section class="pg">
+  <h2>1. Por qué un método y no otro curso</h2>
+  <p>Tu vendedor ya sabe vender. Lo que le falta es tiempo. En el informe State of Sales 2026 de Salesforce (4.050 profesionales de ventas encuestados), <b>el vendedor promedio dedica el 40% de su tiempo a vender</b>. El resto se va en informes, CRM, correos y cotizaciones.</p>
+  <p style="margin-top:2mm">Un curso no devuelve esas horas. Un método sí: qué prepara la IA cada día, quién revisa y qué se mide el viernes.</p>
+  <div class="box"><b>Lo instala el líder, no cada vendedor.</b> Si cada persona inventa su propio prompt, tienes 10 formas de trabajar y ninguna se puede medir.</div>
+
+  <h2 style="margin-top:5mm">2. La semana completa</h2>
+  <table>
+    <tr><th style="width:24mm">Día</th><th style="width:36mm">Agente</th><th>Qué deja listo</th><th style="width:36mm">Qué decide el vendedor</th></tr>
+    <tr><td><b>Lunes</b></td><td>Pipeline</td><td>Negocios revisados con los 5 vectores, los que están en riesgo y las 10 acciones de la semana</td><td>Qué acciones hace y en qué orden</td></tr>
+    <tr><td><b>Martes</b></td><td>Prospección</td><td>Segmentos por industria, cuenta ideal, señales en LinkedIn y notas de invitación</td><td>A quién invita y envía cada invitación</td></tr>
+    <tr><td><b>Miércoles</b></td><td>Correo</td><td>Secuencia de 3 correos por segmento con el formato de la empresa</td><td>Ajusta y envía</td></tr>
+    <tr><td><b>Jueves</b></td><td>Contenido</td><td>1 publicación y comentarios de valor en posts de prospectos (social selling)</td><td>Qué publica y qué comenta</td></tr>
+    <tr><td><b>Viernes</b></td><td>Anti-ghosting</td><td>Propuestas sin respuesta, 3 opciones de reactivación con valor nuevo y el lunes preparado</td><td>Cuál mensaje envía</td></tr>
+  </table>
+
+  <h2 style="margin-top:6mm">3. Cómo lo instalas en 3 pasos</h2>
+  <ol>
+    <li><b>Mide la línea base.</b> Durante 1 semana, cada vendedor anota en qué se le van las horas. Sin línea base no sabrás si funcionó.</li>
+    <li><b>Crea un proyecto del equipo comercial.</b> En Claude y en ChatGPT se llama "proyecto": un espacio con sus propias instrucciones y archivos. Sube tu propuesta de valor, el formato de tus correos, tus casos y la lista de 5 vectores. En Claude, los planes Team y Enterprise permiten compartir el proyecto con los miembros de la organización; en ChatGPT los proyectos también se pueden compartir.</li>
+    <li><b>Mira 3 números cada viernes:</b> horas con clientes, propuestas reactivadas y reuniones agendadas.</li>
+  </ol>
+  <div class="ft"><span>Fuente: Salesforce, State of Sales 2026 (7.ª edición). Lo que nadie te dice de la IA · Sandra Curvelo</span><span>2</span></div>
+</section>
+
+<section class="pg">
+  <h2>4. Las instrucciones del proyecto</h2>
+  <p>Pega esto en las instrucciones del proyecto y ajústalo a tu empresa:</p>
+  <div class="prompt">Eres el asistente comercial del equipo de [empresa]. Vendemos [solución] a [cargo] en [industrias].
+Reglas:
+1. Preparas borradores. Nunca envías, publicas ni contactas a nadie: el vendedor revisa, decide y envía.
+2. No inventes cifras, clientes, casos ni fuentes. Si falta un dato, pregúntalo.
+3. Usa el tono y el formato de los archivos del proyecto.
+4. Cada negocio se revisa con 5 vectores: presupuesto, tomadores de decisión, competencia, forma de compra y tiempo.
+5. Mensajes cortos: máximo 4 líneas en LinkedIn y 120 palabras en correo.</div>
+
+  <div class="day"><span class="d">LUNES</span><h2>Agente de pipeline</h2></div>
+  <p>Mata la hoja en blanco. Exporta el pipeline del CRM a Excel o copia la tabla.</p>
+  <div class="prompt">Actúa como gerente comercial. Te pego mi pipeline: [pega la exportación del CRM o el Excel]. Para cada negocio dime cuál de estos 5 vectores no tengo claro: presupuesto, tomadores de decisión, competencia, forma de compra y tiempo. Marca los que llevan más de [número] días sin avance y proponme las 10 acciones de esta semana, en orden de impacto.</div>
+
+  <div class="day"><span class="d">MARTES</span><h2>Agente de prospección</h2></div>
+  <p>Segmenta y prepara. La invitación la envía la persona, desde su perfil.</p>
+  <div class="prompt">Actúa como experto en prospección B2B en [país]. Mi cliente ideal es [cargo] en empresas de [industria] con [tamaño]. Dame 3 segmentos, las señales en LinkedIn que muestran que una cuenta está lista para conversar y una nota de invitación corta para cada segmento. Yo reviso y envío cada invitación.</div>
+  <div class="day"><span class="d">MIÉRCOLES</span><h2>Agente de correo</h2></div>
+  <div class="prompt">Actúa como redactor comercial. Te pego el formato de correo de mi empresa y nuestra propuesta de valor: [pega aquí]. Escribe una secuencia de 3 correos para [segmento]: el primero abre con un problema de su sector, el segundo comparte un caso o un dato con fuente y el tercero propone una reunión de 20 minutos. Máximo 120 palabras cada uno. No inventes cifras ni clientes.</div>
+
+  <div class="ft"><span>Lo que nadie te dice de la IA · Sandra Curvelo</span><span>3</span></div>
+</section>
+
+<section class="pg">
+  <div class="day" style="margin-top:0"><span class="d">JUEVES</span><h2>Agente de contenido</h2></div>
+  <div class="prompt">Actúa como estratega de social selling en LinkedIn. Vendo [tu solución] a [cargo]. Proponme 1 publicación para esta semana con esta historia real: [cuéntala]. Luego, con estos 3 posts de prospectos [pega aquí], redacta un comentario de 3 líneas para cada uno que aporte un dato o una experiencia, sin vender. Yo los reviso antes de publicarlos.</div>
+
+  <div class="day"><span class="d">VIERNES</span><h2>Agente anti-ghosting</h2></div>
+  <p>Nada de "¿pudiste revisar la propuesta?". Se reactiva con algo nuevo.</p>
+  <div class="prompt">Te pego la propuesta que le envié a [cargo] de [tipo de empresa] el [fecha] y lo que hablamos en la reunión: [pega aquí]. Lleva [número] días sin respuesta. Redacta 3 mensajes de reactivación de máximo 4 líneas, cada uno con algo de valor nuevo: un dato de su sector con fuente, una pregunta sobre [presupuesto, decisión o tiempo] o una opción más pequeña para empezar. Sin presionar y sin preguntar si ya la revisó. Yo escojo uno y lo envío.</div>
+  <h3>Y para dejar listo el lunes</h3>
+  <div class="prompt">Con lo que te conté de esta semana [pega tus notas], dame: 3 logros, 3 negocios que se movieron, 3 que siguen en riesgo y las 3 primeras acciones del lunes.</div>
+  <div class="ft"><span>Lo que nadie te dice de la IA · Sandra Curvelo</span><span>4</span></div>
+</section>
+
+<section class="pg">
+  <h2>5. El tablero del líder: 3 números cada viernes</h2>
+  <table>
+    <tr><th>Número</th><th>Cómo se mide</th><th style="width:30mm">Línea base</th><th style="width:30mm">Semana 4</th></tr>
+    <tr><td><b>Horas con clientes</b></td><td>Horas a la semana por vendedor en reuniones, llamadas y visitas con clientes</td><td></td><td></td></tr>
+    <tr><td><b>Propuestas reactivadas</b></td><td>Propuestas sin respuesta que volvieron a tener conversación después del mensaje del viernes</td><td></td><td></td></tr>
+    <tr><td><b>Reuniones agendadas</b></td><td>Reuniones nuevas con decisores en la semana</td><td></td><td></td></tr>
+  </table>
+  <p class="small" style="margin-top:2mm">Llena la línea base antes de empezar y compara en la semana 4. Si los números no se mueven, no es culpa de la IA: el método no se está usando.</p>
+
+  <h2 style="margin-top:7mm">6. Lista para el líder</h2>
+  <ul>
+    <li>☐ Línea base de horas medida con todo el equipo.</li>
+    <li>☐ Proyecto del equipo creado, con instrucciones, propuesta de valor, formato de correos y casos.</li>
+    <li>☐ Cada vendedor sabe qué agente abre cada día.</li>
+    <li>☐ Regla escrita: la IA prepara, el vendedor revisa, decide y envía. Nada sale solo.</li>
+    <li>☐ Sin datos de clientes que no deban salir de la empresa: revisa la política de datos de tu empresa y de la herramienta.</li>
+    <li>☐ Revisión de los 3 números cada viernes, en 15 minutos.</li>
+  </ul>
+  <div class="box" style="margin-top:7mm"><b>Lo que no se mide no se puede mejorar.</b> Y la IA no es la excepción.</div>
+  <div class="ft"><span>Lo que nadie te dice de la IA · Sandra Curvelo</span><span>5</span></div>
+</section>
+
+<section class="pg cover" style="justify-content:center">
+  <p class="eb">Tu vendedor no necesita otro curso</p>
+  <h1 style="font-size:30pt">Necesita trabajar con IA,<br><span class="red">con método.</span></h1>
+  <p style="font-size:13pt;color:#bdb8b0;max-width:150mm">Empieza el próximo lunes con un solo agente, el de pipeline. Cuando el equipo lo use sin pensarlo, suma el siguiente día.</p>
+  <p style="font-size:13pt;color:#f3f1ec;max-width:150mm;margin-top:6mm">¿Quieres instalarlo en tu equipo comercial? Agenda 30 minutos conmigo en <b>iamlatam.co</b></p>
+  <p style="font-size:11pt;color:#bdb8b0;margin-top:4mm">Sígueme en LinkedIn: cada 15 días, lo que nadie te dice de la IA.</p>
+  <div class="ft"><span>Sandra Curvelo · Founder &amp; CSO, IAM™</span><span>6</span></div>
+</section>
+</body></html>

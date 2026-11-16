@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800;900&display=swap");
+@font-face{font-family:Outfit;src:url(/mnt/skills/examples/canvas-design/canvas-fonts/Outfit-Regular.ttf);font-weight:400}
+@font-face{font-family:Outfit;src:url(/mnt/skills/examples/canvas-design/canvas-fonts/Outfit-Bold.ttf);font-weight:700}
+*{margin:0;box-sizing:border-box;font-variant-numeric:lining-nums}
+html,body{width:1600px;height:900px;overflow:hidden;font-family:Outfit,sans-serif}
+.pad{position:absolute;inset:0;padding:70px 90px}
+.eb{font-weight:700;font-size:28px;letter-spacing:.02em;text-transform:uppercase}
+h1{font-family:"Playfair Display",Georgia,serif;font-weight:900;font-size:72px;line-height:1.05;margin-top:14px}
+.ft{position:absolute;left:90px;bottom:44px;font-size:24px}

@@ -1,0 +1,107 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>La semana del vendedor con IA, en un tablero</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800;900&family=Outfit:wght@400;600;700&display=swap">
+<style>
+:root{--red:#E00000;--hi:#ff4747;--ink:#080808;--ink2:#141313;--rule:#2c2a28;--on:#f3f1ec;--mute:#a59e97;--ok:#5fcf8e;--h:"Playfair Display",Georgia,serif;--b:"Outfit",Arial,sans-serif}
+*{box-sizing:border-box;margin:0;font-variant-numeric:lining-nums tabular-nums}
+html,body{width:1280px;height:720px;overflow:hidden;background:var(--ink);color:var(--on);font-family:var(--b)}
+body::before{content:"";position:fixed;left:0;top:0;bottom:0;width:10px;background:var(--red);z-index:5}
+.tag{position:fixed;top:22px;right:28px;z-index:6;background:#FFC400;color:#080808;font:700 15px var(--b);letter-spacing:.08em;padding:7px 12px;border-radius:4px}
+.sc{position:absolute;inset:0;padding:56px 70px;display:flex;flex-direction:column;gap:20px;opacity:0;transition:opacity .45s}.sc.on{opacity:1}
+.eb{font:700 17px var(--b);letter-spacing:3px;color:var(--hi);text-transform:uppercase}
+h1{font:900 60px/1.05 var(--h)}h2{font:900 40px/1.08 var(--h)}.red{color:var(--hi)}
+table{width:100%;border-collapse:collapse;font-size:17px}
+th{font-weight:700;color:var(--mute);text-align:left;padding:8px 10px;border-bottom:1px solid var(--rule);font-size:14px;letter-spacing:.05em;text-transform:uppercase}
+td{padding:9px 10px;border-bottom:1px solid var(--rule);transition:background .4s}
+tr.risk td{background:rgba(224,0,0,.18)}
+.v{display:inline-block;width:20px;height:20px;border-radius:50%;margin-right:5px;border:2px solid #5a5550;font:700 10px/16px var(--b);text-align:center;color:#080808}
+.v.f{background:var(--ok);border-color:var(--ok)}
+.st{font-weight:700;font-size:14px;padding:4px 8px;border-radius:4px;background:#222;color:var(--mute)}
+tr.risk .st{background:var(--red);color:#fff}
+.acts{display:flex;gap:14px;opacity:0;transform:translateY(10px);transition:all .5s}.acts.in{opacity:1;transform:none}
+.act{flex:1;background:var(--ink2);border:1px solid var(--rule);border-left:5px solid var(--red);padding:12px 14px;font-size:16px;line-height:1.3}
+.act b{display:block;font-size:13px;color:var(--hi);letter-spacing:.06em;margin-bottom:4px}
+.week{display:flex;gap:14px;margin-top:10px}
+.d{flex:1;background:var(--ink2);border:1px solid var(--rule);border-top:6px solid #333;padding:18px;min-height:250px;opacity:.25;transition:all .45s}
+.d.in{opacity:1;border-top-color:var(--red)}
+.d .n{font:700 15px var(--b);letter-spacing:.08em;color:var(--hi)}.d b{display:block;font-size:24px;margin:8px 0}.d span{font-size:16px;color:var(--mute);line-height:1.35}
+.d .ok{margin-top:14px;font-size:14px;font-weight:700;color:var(--ok);opacity:0;transition:opacity .4s}.d.in .ok{opacity:1}
+.cols{display:flex;gap:22px;align-items:stretch}
+.list{flex:0 0 380px;display:flex;flex-direction:column;gap:10px}
+.pr{background:var(--ink2);border:1px solid var(--rule);padding:12px 14px;font-size:16px;transition:all .4s}
+.pr.sel{border-color:var(--red);background:#2a0d0d}
+.pr small{display:block;color:var(--mute);font-size:14px;margin-top:3px}
+.msg{flex:1;background:#f6f3ef;color:#1a1415;border-radius:6px;padding:20px 22px;font-size:18px;line-height:1.45;min-height:290px;position:relative}
+.msg .hd{font-size:13px;font-weight:700;letter-spacing:.06em;color:#b30000;margin-bottom:8px}
+.btns{display:flex;gap:12px;margin-top:14px}
+.bt{font-weight:700;font-size:16px;padding:10px 16px;border-radius:5px;border:2px solid #1a1415;background:#fff;color:#1a1415}
+.bt.p{background:var(--red);border-color:var(--red);color:#fff;transition:transform .2s}
+.bt.p.cl{transform:scale(.94)}
+.note{font-size:15px;color:var(--mute)}
+.kp{display:flex;gap:18px;margin-top:6px}
+.k{flex:1;background:var(--ink2);border:1px solid var(--rule);border-top:6px solid var(--red);padding:22px}
+.k .num{font:900 64px/1 var(--h);color:var(--hi)}.k b{display:block;font-size:22px;margin-top:10px}.k span{font-size:15px;color:var(--mute)}
+.big{font:900 54px/1.1 var(--h)}
+</style></head><body>
+<div class="tag">DATOS DE EJEMPLO</div>
+
+<section class="sc" id="a" style="justify-content:center"><p class="eb">Lo que nadie te dice de la IA · Edición 2</p><h1>La semana del vendedor con IA,<br><span class="red">en un tablero.</span></h1><p style="font-size:22px;color:var(--mute)">5 agentes. El vendedor revisa, decide y envía.</p></section>
+
+<section class="sc" id="b"><p class="eb">Lunes · agente de pipeline</p><h2>Los 5 vectores de cada negocio</h2>
+<table><thead><tr><th>Negocio</th><th>Etapa</th><th>Días sin avance</th><th>Presupuesto · Decisión · Competencia · Compra · Tiempo</th><th>Estado</th></tr></thead><tbody>
+<tr id="r1"><td>Cuenta 01 · Manufactura</td><td>Propuesta</td><td>3</td><td><i class="v f"></i><i class="v f"></i><i class="v f"></i><i class="v f"></i><i class="v"></i></td><td><span class="st">Al día</span></td></tr>
+<tr id="r2"><td>Cuenta 02 · Salud</td><td>Reunión inicial</td><td>18</td><td><i class="v f"></i><i class="v"></i><i class="v"></i><i class="v f"></i><i class="v"></i></td><td><span class="st">Al día</span></td></tr>
+<tr id="r3"><td>Cuenta 03 · Logística</td><td>Propuesta</td><td>16</td><td><i class="v f"></i><i class="v f"></i><i class="v"></i><i class="v"></i><i class="v f"></i></td><td><span class="st">Al día</span></td></tr>
+<tr id="r4"><td>Cuenta 04 · Educación</td><td>Negociación</td><td>5</td><td><i class="v f"></i><i class="v f"></i><i class="v f"></i><i class="v f"></i><i class="v f"></i></td><td><span class="st">Al día</span></td></tr>
+<tr id="r5"><td>Cuenta 05 · Comercio</td><td>Propuesta</td><td>21</td><td><i class="v"></i><i class="v f"></i><i class="v"></i><i class="v f"></i><i class="v"></i></td><td><span class="st">Al día</span></td></tr>
+</tbody></table>
+<div class="acts" id="acts"><div class="act"><b>ACCIÓN 1</b>Cuenta 05: confirmar presupuesto y para cuándo lo necesita.</div><div class="act"><b>ACCIÓN 2</b>Cuenta 02: identificar quién decide y pedir la reunión.</div><div class="act"><b>ACCIÓN 3</b>Cuenta 03: reactivar la propuesta el viernes.</div></div>
+</section>
+
+<section class="sc" id="c"><p class="eb">De lunes a viernes</p><h2>Cada día, un agente deja el trabajo <span class="red">listo para revisar.</span></h2>
+<div class="week">
+<div class="d" id="d1"><p class="n">LUNES</p><b>Pipeline</b><span>10 acciones de la semana</span><p class="ok">Listo para revisar</p></div>
+<div class="d" id="d2"><p class="n">MARTES</p><b>Prospección</b><span>3 segmentos y sus invitaciones</span><p class="ok">Listo para revisar</p></div>
+<div class="d" id="d3"><p class="n">MIÉRCOLES</p><b>Correo</b><span>Secuencia de 3 correos por segmento</span><p class="ok">Listo para revisar</p></div>
+<div class="d" id="d4"><p class="n">JUEVES</p><b>Contenido</b><span>1 publicación y comentarios a prospectos</span><p class="ok">Listo para revisar</p></div>
+<div class="d" id="d5"><p class="n">VIERNES</p><b>Anti-ghosting</b><span>Propuestas sin respuesta y el lunes listo</span><p class="ok">Listo para revisar</p></div>
+</div></section>
+
+<section class="sc" id="d"><p class="eb">Viernes · agente anti-ghosting</p><h2>Reactivar con <span class="red">valor nuevo.</span></h2>
+<div class="cols"><div class="list">
+<div class="pr" id="p1">Cuenta 05 · Comercio<small>Propuesta enviada hace 21 días</small></div>
+<div class="pr" id="p2">Cuenta 03 · Logística<small>Propuesta enviada hace 16 días</small></div>
+<div class="pr" id="p3">Cuenta 07 · Agroindustria<small>Propuesta enviada hace 12 días</small></div>
+</div>
+<div class="msg"><p class="hd">BORRADOR · EL VENDEDOR LO REVISA</p><p id="typ"></p>
+<div class="btns"><span class="bt">Editar</span><span class="bt p" id="send">El vendedor aprueba y envía</span></div></div></div>
+<p class="note">Ningún mensaje sale solo.</p></section>
+
+<section class="sc" id="e"><p class="eb">Para el líder · cada viernes</p><h2>3 números del equipo</h2>
+<div class="kp">
+<div class="k"><p class="num" data-to="19" data-suf=" h">0 h</p><b>Horas con clientes</b><span>Por vendedor a la semana. Línea base: 14 h</span></div>
+<div class="k"><p class="num" data-to="4" data-suf=" de 9">0 de 9</p><b>Propuestas reactivadas</b><span>Con respuesta después del viernes</span></div>
+<div class="k"><p class="num" data-to="7" data-suf="">0</p><b>Reuniones agendadas</b><span>Con decisores</span></div>
+</div>
+<p class="note">Datos de ejemplo, para mostrar cómo se ve el tablero. No son datos de ningún cliente.</p></section>
+
+<section class="sc" id="f" style="justify-content:center"><p class="big">La IA prepara.<br><span class="red">El vendedor decide y envía.</span></p><p style="font-size:22px;color:var(--mute)">Sandra Curvelo · Founder &amp; CSO, IAM™</p></section>
+
+<script>
+const $=i=>document.getElementById(i),s=m=>new Promise(r=>setTimeout(r,m));
+const show=i=>document.querySelectorAll('.sc').forEach(e=>e.classList.toggle('on',e.id===i));
+const txt="Hola [nombre], después de nuestra reunión armé 2 ideas para bajar el tiempo de despacho que me contó, y una opción más pequeña para empezar en enero. ¿Le sirven 15 minutos el martes para mostrárselas?";
+window.run=async()=>{
+ show('a');await s(3200);
+ show('b');await s(1600);
+ for(const r of ['r5','r2','r3']){$(r).classList.add('risk');$(r).querySelector('.st').textContent='En riesgo';await s(900)}
+ await s(400);$('acts').classList.add('in');await s(3200);
+ show('c');await s(900);for(const d of ['d1','d2','d3','d4','d5']){$(d).classList.add('in');await s(800)}await s(1800);
+ show('d');await s(700);$('p2').classList.add('sel');await s(500);
+ for(let i=0;i<=txt.length;i+=3){$('typ').textContent=txt.slice(0,i);await s(28)}
+ $('typ').textContent=txt;await s(1300);$('send').classList.add('cl');await s(250);$('send').classList.remove('cl');await s(1600);
+ show('e');await s(600);
+ const ns=[...document.querySelectorAll('.num')];
+ for(let k=0;k<=30;k++){ns.forEach(n=>{const v=Math.round(+n.dataset.to*k/30);n.textContent=v+n.dataset.suf});await s(40)}
+ await s(3200);
+ show('f');await s(3600);window.done=true};
+</script></body></html>
