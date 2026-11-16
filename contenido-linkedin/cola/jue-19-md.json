@@ -3,7 +3,7 @@
   "estado": "aprobado",
   "aprobado_por": "Sandra",
   "aprobado_el": "2026-11-09",
-  "programado_bogota": "2026-11-19 11:30",
+  "programado_bogota": "por_reprogramar (prueba 1 post al día, 17 al 30 nov)",
   "archivo_video": "contenido-linkedin/videos/recuerdo-panel-llega-sabiendo.mp4",
   "titulo_video": "No llames en frío. Llega sabiendo.",
   "urn": null,
@@ -22,5 +22,6 @@
   "nota": "Reel de recuerdos (Isaía). Alpina es un ejemplo hipotético; no se nombra en el texto. Falta primer comentario.",
   "video": "urn:li:video:D4E10AQHRDuzJCWnOug",
   "primer_comentario": "Un truco antes de escribirle a alguien: busca su última publicación y comenta algo con valor. Cuando le escribas, ya no eres un desconocido.",
-  "primer_comentario_aprobado_el": "2026-11-09"
+  "primer_comentario_aprobado_el": "2026-11-09",
+  "programado_anterior": "2026-11-19 11:30"
 }

@@ -1,7 +1,7 @@
 {
   "id": "jue-19-pm",
   "estado": "aprobado",
-  "programado_bogota": "2026-11-19 15:00",
+  "programado_bogota": "por_reprogramar (prueba 1 post al día, 17 al 30 nov)",
   "urn": null,
   "encuesta": {
     "pregunta": "¿Qué frena la IA en tu empresa?",
@@ -27,5 +27,6 @@
   },
   "nota": "Encuesta nueva aprobada el 11 nov.",
   "aprobado_por": "Sandra",
-  "aprobado_el": "2026-11-11"
+  "aprobado_el": "2026-11-11",
+  "programado_anterior": "2026-11-19 15:00"
 }

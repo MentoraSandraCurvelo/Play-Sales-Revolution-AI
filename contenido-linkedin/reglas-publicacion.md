@@ -234,3 +234,9 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Luz Stella Murgas, presidenta de la ANDI, entra al mismo nivel que el Vicepresidente. Objetivo: que escuche la propuesta de IAM™ como proveedora de la ANDI (conferencias y formación en IA para afiliados).
 - Chrome comenta todas sus publicaciones nuevas (1 comentario por post, aporte de fondo, sin vender). Respuestas en sus hilos: con el sí de Sandra.
 - Sandra la invitó a conectar el 16 nov. Al aceptar: mensaje de agradecimiento con contexto, y la propuesta solo después de 2 o 3 interacciones públicas.
+
+## 39. Prueba de cadencia: 1 post al día (16 nov 2026, Sandra)
+- Del 17 al 30 nov: 1 solo post al día. Lunes a viernes 7:30 a. m.; sábado 9:00 a. m.; domingo 5:00 p. m. El jueves 26 el único contenido es la newsletter.
+- Medida: impresiones promedio por post frente a la línea base de 111 (semana del 10 al 16 nov, 13 posts, 1.440 impresiones). Se revisa el lun 30 nov.
+- Calendario: mar 17 títulos del perfil · mié 18 video 5 ajustes · jue 19 empleados en LinkedIn · vie 20 video guía SEMANA · sáb 21 · dom 22 · lun 23 3 fases · mar 24 video humo · mié 25 piloto por área · jue 26 newsletter · vie 27 video panel LinkedIn.
+- Por reprogramar desde el 30 nov: mar-17-pm, mie-18-pm, jue-19-md, jue-19-pm (encuesta) y los carruseles.

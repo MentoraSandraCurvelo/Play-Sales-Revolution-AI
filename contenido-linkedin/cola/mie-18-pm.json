@@ -3,7 +3,7 @@
   "estado": "aprobado",
   "aprobado_por": "Sandra",
   "aprobado_el": "2026-11-10",
-  "programado_bogota": "2026-11-18 15:00",
+  "programado_bogota": "por_reprogramar (prueba 1 post al día, 17 al 30 nov)",
   "urn": null,
   "payload": {
     "author": "urn:li:person:tsJbwdb3B2",
@@ -17,5 +17,6 @@
     "lifecycleState": "PUBLISHED",
     "isReshareDisabledByAuthor": false
   },
-  "nota": "Texto aprobado el 10 nov. Formato: imagen dato 4,7 a 8,6 por crear. Sin primer comentario aún."
+  "nota": "Texto aprobado el 10 nov. Formato: imagen dato 4,7 a 8,6 por crear. Sin primer comentario aún.",
+  "programado_anterior": "2026-11-18 15:00"
 }
