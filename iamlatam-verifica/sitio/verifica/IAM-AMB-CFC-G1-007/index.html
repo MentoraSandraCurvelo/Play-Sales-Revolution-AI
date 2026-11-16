@@ -104,7 +104,11 @@ h1{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:54px;line-he
  h1{font-size:38px}.datos,.kpi{grid-template-columns:1fr}.datos div{border-right:0;border-bottom:1px solid #e1d3b5}
  .firma{grid-template-columns:1fr}.firma .logo{justify-self:center}.prog{font-size:19px}}
 @media (prefers-reduced-motion:reduce){.velo .anillo,.cft{animation:none}.sello{opacity:1;transform:none}.listo .sello{animation:none}.check path{stroke-dashoffset:0}}
-@media print{body{background:#fff;padding:0}.velo,.acc,.top .seg,.pie{display:none}.hoja{box-shadow:none}}
+.kit{margin-top:22px;border:1px solid #d9c49a;border-radius:4px;background:#fffdf8}
+.kit summary{cursor:pointer;padding:14px 18px;font-family:Montserrat,Arial,sans-serif;font-weight:700;font-size:14px;letter-spacing:.04em;color:var(--tinta)}
+.kit pre{margin:0 18px;max-height:340px;overflow:auto;white-space:pre-wrap;font:16px/1.5 'Open Sans',Arial,sans-serif;color:var(--tinta);background:#f6efe1;padding:16px;border-radius:3px}
+.kit .kb{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:14px 18px}.kit .kb span{font-size:14px;color:var(--ok)}
+@media print{body{background:#fff;padding:0}.velo,.acc,.kit,.top .seg,.pie{display:none}.hoja{box-shadow:none}}
 </style></head>
 <body>
 <div class="velo" aria-hidden="true"><div class="c"><div class="anillo"></div>Verificando certificado<code>IAM-AMB-CFC-G1-007</code></div></div>
@@ -163,6 +167,27 @@ h1{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:54px;line-he
   <a class="btn" href="https://www.linkedin.com/in/lacides-daza-gestionhumana-comfacesar-seleccion" target="_blank" rel="noopener">Ver su perfil</a>
   <button class="btn au" type="button" onclick="window.print()">Descargar en PDF</button>
  </div>
+ <details class="kit"><summary>¿Eres Lacides? Tu publicación para LinkedIn ya está lista</summary>
+  <pre id="post">Talento humano que no está en LinkedIn es como una vitrina cerrada.
+
+Hace 4 meses no tenía perfil. Hoy tengo 201 seguidores y un perfil profesional completo.
+
+Recibo mi certificado como embajador de marca de la primera generación de Comfacesar, programa IAM™ Ambassadors.
+
+Aprendí que la marca empleadora de Comfacesar también se construye con la voz de quienes trabajamos aquí.
+
+Gracias a @Sandra Curvelo y a @IAM™ (Influence, Inteligencia Artificial, Monetization) por la mentoría, y a @Comfacesar por apostarle a que su gente sea su mejor vitrina.
+
+Pueden verificar mi certificado aquí 👇
+https://iamlatam.co/verifica/IAM-AMB-CFC-G1-007
+
+¿Qué hace que una empresa sea un buen lugar para trabajar? 👇
+
+#EmbajadoresDeMarca #Comfacesar #IAMAmbassadors #LinkedIn #IA</pre>
+  <div class="kb"><button class="btn li" type="button" id="cp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>Copiar y abrir LinkedIn</button><span id="ok" role="status"></span></div>
+  <script>document.getElementById('cp').onclick=function(){var t=document.getElementById('post').textContent,o=document.getElementById('ok');function ir(){o.textContent='Copiado. Pégalo en LinkedIn y cambia cada @ por la mención real.';window.open("https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fiamlatam.co%2Fverifica%2FIAM-AMB-CFC-G1-007",'_blank','noopener')}
+  try{navigator.clipboard.writeText(t).then(ir,function(){o.textContent='Selecciona el texto y cópialo.'})}catch(x){o.textContent='Selecciona el texto y cópialo.'}};</script>
+ </details>
  <div class="huella"><span>Huella del registro (SHA-256): <code>9aeb140f51d50c030a6527474c8d065591a30309f78ac1cb9eeb18c8dd17100d</code></span><span id="cuando"></span></div>
 </div></main>
 <p class="pie">Este registro confirma que el certificado IAM-AMB-CFC-G1-007 fue emitido por IAM™ a nombre de Lacides Daza.<br>¿Tienes dudas sobre un certificado? Escríbenos desde <a href="/">iamlatam.co</a>.</p>

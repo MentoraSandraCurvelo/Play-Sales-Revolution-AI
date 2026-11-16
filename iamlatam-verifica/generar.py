@@ -117,7 +117,11 @@ h1{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:54px;line-he
  h1{font-size:38px}.datos,.kpi{grid-template-columns:1fr}.datos div{border-right:0;border-bottom:1px solid #e1d3b5}
  .firma{grid-template-columns:1fr}.firma .logo{justify-self:center}.prog{font-size:19px}}
 @media (prefers-reduced-motion:reduce){.velo .anillo,.cft{animation:none}.sello{opacity:1;transform:none}.listo .sello{animation:none}.check path{stroke-dashoffset:0}}
-@media print{body{background:#fff;padding:0}.velo,.acc,.top .seg,.pie{display:none}.hoja{box-shadow:none}}
+.kit{margin-top:22px;border:1px solid #d9c49a;border-radius:4px;background:#fffdf8}
+.kit summary{cursor:pointer;padding:14px 18px;font-family:Montserrat,Arial,sans-serif;font-weight:700;font-size:14px;letter-spacing:.04em;color:var(--tinta)}
+.kit pre{margin:0 18px;max-height:340px;overflow:auto;white-space:pre-wrap;font:16px/1.5 'Open Sans',Arial,sans-serif;color:var(--tinta);background:#f6efe1;padding:16px;border-radius:3px}
+.kit .kb{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:14px 18px}.kit .kb span{font-size:14px;color:var(--ok)}
+@media print{body{background:#fff;padding:0}.velo,.acc,.kit,.top .seg,.pie{display:none}.hoja{box-shadow:none}}
 '''
 
 FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=EB+Garamond:wght@400;600&family=Montserrat:wght@600;700&display=swap">'
@@ -125,6 +129,8 @@ FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="p
 LOCK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>'
 CHECK = '<svg class="check" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>'
 LI = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>'
+
+POSTS = json.load(open(BASE + '/posts.json', encoding='utf-8'))
 
 def fmt(n): return f'{n:,}'
 
@@ -189,6 +195,12 @@ def pagina(p):
   <a class="btn" href="{e(li_url)}" target="_blank" rel="noopener">Ver su perfil</a>
   <button class="btn au" type="button" onclick="window.print()">Descargar en PDF</button>
  </div>
+ <details class="kit"><summary>¿Eres {e(nombre.split()[0])}? Tu publicación para LinkedIn ya está lista</summary>
+  <pre id="post">{e(POSTS[num])}</pre>
+  <div class="kb"><button class="btn li" type="button" id="cp">{LI}Copiar y abrir LinkedIn</button><span id="ok" role="status"></span></div>
+  <script>document.getElementById('cp').onclick=function(){{var t=document.getElementById('post').textContent,o=document.getElementById('ok');function ir(){{o.textContent='Copiado. Pégalo en LinkedIn y cambia cada @ por la mención real.';window.open({json.dumps(share)},'_blank','noopener')}}
+  try{{navigator.clipboard.writeText(t).then(ir,function(){{o.textContent='Selecciona el texto y cópialo.'}})}}catch(x){{o.textContent='Selecciona el texto y cópialo.'}}}};</script>
+ </details>
  <div class="huella"><span>Huella del registro (SHA-256): <code>{huella}</code></span><span id="cuando"></span></div>
 </div></main>
 <p class="pie">Este registro confirma que el certificado {code} fue emitido por IAM™ a nombre de {e(nombre)}.<br>¿Tienes dudas sobre un certificado? Escríbenos desde <a href="/">iamlatam.co</a>.</p>
