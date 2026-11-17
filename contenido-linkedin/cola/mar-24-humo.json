@@ -1,0 +1,26 @@
+{
+  "id": "mar-24-humo",
+  "estado": "aprobado",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-16",
+  "video_aprobado_el": "2026-11-17",
+  "programado_bogota": "2026-11-24 07:30",
+  "urn": null,
+  "archivo_video": "contenido-linkedin/videos/2026-11-16/humo-ia-no-te-puede-hacer-ver-mediocre-v3.mp4",
+  "titulo_video": "La IA no te puede hacer ver mediocre",
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "La IA no te puede hacer ver mediocre.\n\nY a muchos ya se lo está haciendo.\n\nLo veo cada semana: tableros espectaculares, análisis de 40 páginas, presentaciones impecables.\n\nY llega la pregunta del gerente: \"¿Qué significa esta cifra?\"\n\nSilencio.\n\nNo sabe qué dice el tablero. No sabe de dónde salió el análisis. No son sus palabras. No es su voz.\n\nEso no es usar IA. Eso es vender humo con empaque sofisticado. Y el que está al otro lado de la mesa lo nota de inmediato.\n\nDescrestar con conocimiento está bien. Pero con TU conocimiento, perfilado con la IA de forma responsable.\n\nMi regla antes de presentar cualquier cosa hecha con IA:\n\n⭕ Si no lo puedes explicar sin la pantalla, no lo presentes.\n\n⭕ Si no sabes de dónde salió cada cifra, no la muestres.\n\n⭕ Si no suena a ti, reescríbelo con tus palabras.\n\nLa IA tiene que hacerte ver más preparado, no más falso.\n\nNo usemos la IA en contra nuestra.\n\n¿Te ha tocado una reunión donde alguien presentó algo que claramente no entendía?\n\n{hashtag|\\#|IAEmpresarial} {hashtag|\\#|MarcaProfesional} {hashtag|\\#|Liderazgo} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
+  },
+  "primer_comentario": "Un ejercicio antes de tu próxima presentación: pégale tu análisis a la IA y pídele \"Hazme las 5 preguntas más difíciles que me haría un gerente sobre esto\". Si no puedes responderlas sin mirar la pantalla, todavía no está listo.",
+  "primer_comentario_aprobado_el": "2026-11-16",
+  "nota": "Texto y primer comentario aprobados el 16 nov; video v3 aprobado el 17 nov."
+}
