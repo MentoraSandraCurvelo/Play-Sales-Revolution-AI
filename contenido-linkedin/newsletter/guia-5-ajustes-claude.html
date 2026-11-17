@@ -1,0 +1,199 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<title>Guía: 5 ajustes para que Claude trabaje contigo</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800;900&family=Outfit:wght@400;600;700&display=swap">
+<style>
+@page{size:A4;margin:0}
+*{box-sizing:border-box;margin:0;font-variant-numeric:lining-nums}
+body{font-family:Outfit,Arial,sans-serif;color:#1a1415;font-size:12pt;line-height:1.5}
+.pg{width:210mm;height:297mm;padding:18mm 18mm 16mm 22mm;position:relative;page-break-after:always;overflow:hidden}
+.pg::before{content:"";position:absolute;left:0;top:0;bottom:0;width:6mm;background:#c00000}
+.cover{background:#0a0a0a;color:#f3f1ec;display:flex;flex-direction:column;justify-content:center;gap:7mm}
+.eb{font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#e00000;font-size:10pt}
+h1{font-family:"Playfair Display",Georgia,serif;font-weight:900;font-size:36pt;line-height:1.05}
+h2{font-family:"Playfair Display",Georgia,serif;font-weight:800;font-size:18pt;margin:0 0 3mm}
+h3{font-size:13pt;margin:7mm 0 2mm}
+p,li{max-width:165mm}
+ol,ul{padding-left:6mm;}ul{list-style:none;padding-left:0}ol,ul{display:flex;flex-direction:column;gap:2.5mm}
+.red{color:#e00000}
+a{color:inherit;text-decoration:none}
+.box{border-left:4px solid #c00000;background:#f6f1f1;padding:4mm 5.5mm;margin:6mm 0}
+.prompt{font-family:ui-monospace,Menlo,monospace;font-size:10.2pt;line-height:1.5;background:#151515;color:#f3f1ec;padding:4.5mm 5.5mm;border-radius:2mm;margin:2mm 0 3mm;white-space:pre-wrap}
+.ft{position:absolute;left:22mm;right:18mm;bottom:8mm;font-size:8.5pt;color:#7e7a73;display:flex;justify-content:space-between;gap:6mm}
+table{border-collapse:collapse;width:100%;font-size:11pt;margin-top:2mm}
+th{background:#c00000;color:#fff;text-align:left;padding:2mm 3mm}
+td{border-bottom:1px solid #e3dada;padding:3mm 3mm;vertical-align:top}
+.day{display:flex;align-items:baseline;gap:3mm;margin:0 0 6mm}
+.day .d{background:#c00000;color:#fff;font-weight:700;font-size:9.5pt;letter-spacing:.08em;padding:1mm 3mm;border-radius:1mm;white-space:nowrap}
+.day h2{margin:0}
+.lead{font-size:13pt}
+.chips{display:flex;gap:3mm;margin-top:4mm}
+.chips span{border:2px solid #e00000;color:#fff;font-weight:700;padding:1.5mm 4mm;border-radius:1.5mm;font-size:11pt}
+.chips span.on{background:#e00000}
+.small{font-size:9pt;color:#6b6560}
+.dot li{padding-left:7mm;position:relative}
+.dot li::before{content:"⭕";position:absolute;left:0;top:0;font-size:9pt}
+.cover .dot li{font-size:12.5pt;color:#f3f1ec}
+.cta{font-size:13pt;color:#f3f1ec;max-width:155mm}
+.cta a{color:#e00000;font-weight:700;border-bottom:1px solid #e00000}
+</style></head><body>
+
+<section class="pg cover">
+  <p class="eb">Guía práctica · Claude</p>
+  <h1>5 ajustes para que<br>Claude trabaje <span class="red">contigo</span></h1>
+  <p style="font-size:14pt;color:#bdb8b0;max-width:155mm">Para equipos que hoy usan la IA como buscador: preguntan, copian la respuesta y cierran la ventana. 5 ajustes para que deje de responder y empiece a trabajar con tu equipo.</p>
+  <div class="chips"><span class="on">1</span><span>2</span><span>3</span><span>4</span><span>5</span></div>
+  <p style="font-size:12pt;color:#f3f1ec;margin-top:6mm"><b>La regla:</b> no tienes que activar los 5 hoy. Empieza con uno.</p>
+  <p style="font-size:11pt;color:#f3f1ec;margin-top:4mm">Sandra Curvelo · Founder &amp; CSO, IAM™</p>
+  <div class="ft"><span>Información revisada en noviembre de 2026. La disponibilidad de cada función depende de tu plan y puede cambiar: verifícala en tu cuenta.</span><span>iamlatam.co</span></div>
+</section>
+
+<section class="pg">
+  <div class="day"><span class="d">AJUSTE 1</span><h2>Usa la app de escritorio, no solo el navegador</h2></div>
+  <p class="lead">Claude tiene una app de escritorio para tu computador. Además de conversar como en el navegador, desde ahí puedes usar <b>Cowork</b>: un modo en el que Claude trabaja con los archivos de una carpeta que tú le autorizas y hace tareas de varios pasos, como ordenar documentos o armar un informe.</p>
+
+  <h3>Por qué le sirve a tu equipo</h3>
+  <p>En el navegador, la IA responde y tú copias y pegas. En el escritorio, trabaja sobre los archivos reales y te entrega el resultado terminado: un documento, una tabla, una carpeta ordenada. Menos copiar y pegar, más trabajo hecho.</p>
+
+  <h3>Cómo empezar en 3 pasos</h3>
+  <ol>
+    <li><b>Descarga la app</b> desde la página oficial de Claude e inicia sesión con tu misma cuenta.</li>
+    <li><b>Crea una carpeta de prueba</b> con copias de 3 o 4 archivos que no sean confidenciales.</li>
+    <li><b>Abre Cowork,</b> dale acceso solo a esa carpeta y pídele una tarea pequeña. Revisa el resultado antes de usarlo.</li>
+  </ol>
+
+  <h3>Ejemplo listo para copiar</h3>
+  <div class="prompt">En la carpeta [nombre de la carpeta] hay [tipo de archivos: actas, cotizaciones, informes]. Léelos y crea un documento de 1 página con [lo que necesitas: los compromisos pendientes, los valores por cliente, las fechas clave]. Guárdalo en la misma carpeta con el nombre [nombre del archivo]. No borres ni modifiques los archivos originales.</div>
+
+  <div class="box"><b>Dale acceso solo a la carpeta que necesita.</b> Lo que no tiene que ver con la tarea, no se comparte.</div>
+  <div class="ft"><span>5 ajustes para que Claude trabaje contigo · Sandra Curvelo</span><span>2</span></div>
+</section>
+
+<section class="pg">
+  <div class="day"><span class="d">AJUSTE 2</span><h2>Crea un proyecto por área</h2></div>
+  <p class="lead">Un proyecto es un espacio de trabajo dentro de Claude con sus propias instrucciones y sus propios archivos. Las conversaciones que abres dentro del proyecto parten de ese contexto, así no tienes que explicar lo mismo cada vez.</p>
+
+  <h3>Por qué le sirve a tu equipo</h3>
+  <p>Cada área trabaja distinto: ventas tiene su propuesta de valor, talento humano sus políticas, finanzas sus formatos. Un proyecto por área hace que todos reciban respuestas con el mismo tono, los mismos documentos y las mismas reglas. Según tu plan, también puedes compartir el proyecto con tu equipo.</p>
+
+  <h3>Cómo empezar en 3 pasos</h3>
+  <ol>
+    <li><b>Escoge un área</b> y crea un proyecto con su nombre.</li>
+    <li><b>Sube los 3 a 5 documentos</b> que más se consultan: formatos, políticas, preguntas frecuentes.</li>
+    <li><b>Escribe las instrucciones</b> del proyecto con el ejemplo de abajo y pruébalo con una tarea real de esta semana.</li>
+  </ol>
+
+  <h3>Ejemplo listo para copiar (instrucciones del proyecto)</h3>
+  <div class="prompt">Eres el asistente del área de [área] de [empresa]. Ayudas a [quiénes: el equipo comercial, los analistas, los coordinadores] con [tareas: propuestas, informes, respuestas a clientes].
+Reglas:
+1. Usa el tono y los formatos de los archivos del proyecto.
+2. No inventes cifras, nombres ni fuentes. Si falta un dato, pregúntalo.
+3. Entregas borradores. La persona revisa y decide antes de enviar.
+4. [Una regla propia del área].</div>
+
+  <div class="box"><b>Un proyecto por área, no uno por persona.</b> Así el método es del equipo y no depende de quién escribió el mejor prompt.</div>
+  <div class="ft"><span>5 ajustes para que Claude trabaje contigo · Sandra Curvelo</span><span>3</span></div>
+</section>
+
+<section class="pg">
+  <div class="day"><span class="d">AJUSTE 3</span><h2>Conéctala a tus herramientas</h2></div>
+  <p class="lead">Los <b>conectores</b> le dan a Claude acceso, con tu permiso, a herramientas que ya usas: correo, Drive, calendario y otras. Así puede buscar un correo, leer un documento o revisar tu agenda sin que tengas que copiar y pegar.</p>
+
+  <h3>Por qué le sirve a tu equipo</h3>
+  <p>Buena parte del contexto de un equipo vive en el correo, en los documentos compartidos y en la agenda. Con los conectores, Claude prepara la reunión, resume el hilo o encuentra el documento con la información real, no con lo que alguien recordó pegar en el chat.</p>
+
+  <h3>Cómo empezar en 3 pasos</h3>
+  <ol>
+    <li><b>En la configuración de Claude busca la sección de conectores</b> y revisa cuáles están disponibles para tu cuenta.</li>
+    <li><b>Conecta una sola herramienta,</b> por ejemplo el calendario, y lee qué permisos te pide antes de aceptar.</li>
+    <li><b>Pídele una tarea de solo lectura:</b> preparar tu día o resumir un hilo. Cuando confíes en el resultado, suma la siguiente herramienta.</li>
+  </ol>
+
+  <h3>Ejemplo listo para copiar</h3>
+  <div class="prompt">Revisa mi calendario de [día] y, para cada reunión con [clientes, proveedores, mi equipo], busca en mi correo los últimos mensajes con esas personas y en Drive los documentos sobre [tema]. Dame por cada reunión: objetivo, lo último que hablamos, lo que quedó pendiente y 2 preguntas para hacer. No envíes ni modifiques nada.</div>
+
+  <div class="box"><b>Si es la cuenta de la empresa,</b> conecta solo lo que la política de datos de tu empresa permite. Antes de conectar, pregúntale al área de tecnología.</div>
+  <div class="ft"><span>5 ajustes para que Claude trabaje contigo · Sandra Curvelo</span><span>4</span></div>
+</section>
+
+<section class="pg">
+  <div class="day"><span class="d">AJUSTE 4</span><h2>Crea una habilidad para lo que repites</h2></div>
+  <p class="lead">Una <b>habilidad</b> (en Claude se llama skill) es un paquete de instrucciones, y si hace falta de archivos de apoyo, que le enseña a Claude a hacer una tarea a tu manera. Claude la usa cuando la tarea lo pide, sin que tengas que volver a explicarle el paso a paso.</p>
+
+  <h3>Por qué le sirve a tu equipo</h3>
+  <p>Las tareas que se repiten cada semana, como el informe del lunes, el acta del comité o la respuesta a una solicitud, salen distintas según quién las haga. Una habilidad deja el método escrito una sola vez y todos lo aplican igual.</p>
+
+  <h3>Cómo empezar en 3 pasos</h3>
+  <ol>
+    <li><b>Escoge una tarea</b> que hagas cada semana y que siempre siga los mismos pasos.</li>
+    <li><b>Escribe cómo la haces,</b> paso a paso, y guarda un ejemplo de un resultado que te haya quedado bien.</li>
+    <li><b>Pídele a Claude que te ayude a convertirla en habilidad</b> con el ejemplo de abajo. Después, en la configuración de Claude busca la sección de habilidades para revisarla y activarla.</li>
+  </ol>
+
+  <h3>Ejemplo listo para copiar</h3>
+  <div class="prompt">Quiero crear una habilidad para [tarea: el informe semanal de ventas, el acta del comité, la respuesta a solicitudes de cotización]. Así la hago hoy: [pega tus pasos]. Este es un ejemplo de un resultado que me gustó: [pega el ejemplo]. Hazme las preguntas que necesites y luego arma la habilidad con: cuándo usarla, los pasos, el formato de entrega y lo que nunca debe hacer.</div>
+
+  <div class="box"><b>Empieza por la tarea más aburrida de la semana.</b> Esa es la que más rápido se nota cuando sale sola y bien hecha.</div>
+  <div class="ft"><span>5 ajustes para que Claude trabaje contigo · Sandra Curvelo</span><span>5</span></div>
+</section>
+
+<section class="pg">
+  <div class="day"><span class="d">AJUSTE 5</span><h2>Programa las tareas que se hacen solas</h2></div>
+  <p class="lead">Una <b>tarea programada</b> es una instrucción que Claude ejecuta por su cuenta, con la frecuencia que tú eliges: cada mañana, cada lunes, cada fin de mes. Esta opción existe en herramientas como Cowork, en la app de escritorio, y Claude en Chrome, según tu plan.</p>
+
+  <h3>Por qué le sirve a tu equipo</h3>
+  <p>Lo que se repite no debería depender de que alguien se acuerde. La tarea corre a la hora definida y deja el trabajo preparado para revisar. El equipo empieza el día decidiendo, no buscando información.</p>
+  <div class="box"><b>Mi ejemplo:</b> tengo programada mi rutina de LinkedIn cada mañana. Claude revisa mis publicaciones y las de las personas que sigo, y me deja propuestas de comentarios. Yo leo, ajusto y apruebo. Nada sale sin mi aprobación.</div>
+
+  <h3>Cómo empezar en 3 pasos</h3>
+  <ol>
+    <li><b>Escoge una tarea que ya te funcione bien a mano,</b> ideal si ya vive en un proyecto o en una habilidad.</li>
+    <li><b>Escribe la instrucción completa:</b> qué revisa, qué te entrega, con qué frecuencia y a qué hora.</li>
+    <li><b>Prográmala y revisa los resultados la primera semana.</b> Verifica en tu cuenta si la tarea necesita que el computador y la app estén abiertos para ejecutarse.</li>
+  </ol>
+
+  <h3>Ejemplo listo para copiar</h3>
+  <div class="prompt">Cada [lunes a viernes] a las [hora], revisa [fuente: mi correo, mi calendario, la carpeta de ventas] y prepárame [resultado: las 5 prioridades del día, los correos que necesitan respuesta, el resumen de pendientes]. Entrégamelo en [formato: lista, tabla, documento]. No envíes, publiques ni borres nada: yo reviso y decido.</div>
+  <div class="ft"><span>5 ajustes para que Claude trabaje contigo · Sandra Curvelo</span><span>6</span></div>
+</section>
+
+<section class="pg">
+  <h2>Empieza con uno</h2>
+  <p class="lead">No tienes que activar los 5 hoy. Escoge el ajuste que resuelve el problema que más tiempo le quita a tu equipo esta semana.</p>
+  <table style="margin-top:4mm">
+    <tr><th>Si en tu equipo pasa esto</th><th style="width:62mm">Empieza por</th></tr>
+    <tr><td>Copian respuestas del chat a documentos y hojas de cálculo</td><td><b>Ajuste 1:</b> app de escritorio</td></tr>
+    <tr><td>Explican el mismo contexto en cada conversación</td><td><b>Ajuste 2:</b> un proyecto por área</td></tr>
+    <tr><td>Copian y pegan información del correo, Drive o la agenda</td><td><b>Ajuste 3:</b> conectores</td></tr>
+    <tr><td>La misma tarea semanal sale distinta según quién la haga</td><td><b>Ajuste 4:</b> una habilidad</td></tr>
+    <tr><td>Una tarea depende de que alguien se acuerde de hacerla</td><td><b>Ajuste 5:</b> una tarea programada</td></tr>
+  </table>
+  <p style="margin-top:4mm">Si empiezas de cero, sigue el orden 1, 2, 3, 4 y 5. Cada ajuste se apoya en el anterior: la tarea que programas en el ajuste 5 funciona mejor si ya tiene su proyecto, sus conectores y su habilidad.</p>
+
+  <h2 style="margin-top:7mm">Antes de empezar</h2>
+  <ul class="dot">
+    <li>Escogí 1 ajuste y 1 tarea real para probarlo esta semana.</li>
+    <li>Revisé qué funciones tiene mi plan.</li>
+    <li>Uso cuentas y datos que mi empresa permite usar.</li>
+    <li>La regla está clara: Claude prepara, la persona revisa y decide.</li>
+    <li>En 2 semanas reviso qué cambió y sumo el siguiente ajuste.</li>
+  </ul>
+  <div class="box" style="margin-top:7mm"><b>La disponibilidad de cada función depende de tu plan y puede cambiar.</b> Verifícala en tu cuenta antes de armar el proceso del equipo. Si una pantalla no coincide con esta guía, busca la opción equivalente.</div>
+  <div class="ft"><span>5 ajustes para que Claude trabaje contigo · Sandra Curvelo</span><span>7</span></div>
+</section>
+
+<section class="pg cover" style="justify-content:center">
+  <p class="eb">Si lo vas a llevar a tu empresa</p>
+  <h1 style="font-size:30pt">Licencias empresariales<br><span class="red">y reglas claras.</span></h1>
+  <p style="font-size:13pt;color:#bdb8b0;max-width:150mm">Una cosa es usar Claude con tu cuenta personal. Otra es ponerlo a trabajar con la información de tu empresa. Tu información lo vale.</p>
+  <ul class="dot" style="margin-top:2mm">
+    <li>Licencias empresariales administradas por la empresa, no cuentas personales.</li>
+    <li>Reglas escritas: qué información entra, qué no entra y quién aprueba lo que sale.</li>
+    <li>Conectores y permisos definidos por área.</li>
+    <li>Un responsable que revise si está funcionando.</li>
+  </ul>
+  <p class="cta" style="margin-top:6mm">¿Quieres instalarlo en tu equipo? Agenda una conversación conmigo:<br><a href="https://calendly.com/sandracurvelo-mentoraventasdigitales-ia">calendly.com/sandracurvelo-mentoraventasdigitales-ia</a></p>
+  <p class="cta">Conoce IAM™ en <a href="https://iamlatam.co">iamlatam.co</a></p>
+  <p style="font-size:11pt;color:#bdb8b0;margin-top:4mm">Sígueme en LinkedIn si quieres que la IA trabaje con tu equipo, no solo para responder preguntas.</p>
+  <div class="ft"><span>Sandra Curvelo · Founder &amp; CSO, IAM™</span><span>8</span></div>
+</section>
+</body></html>
