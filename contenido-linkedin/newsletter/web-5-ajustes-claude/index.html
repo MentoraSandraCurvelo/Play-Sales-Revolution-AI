@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>5 ajustes para que Claude trabaje contigo · Sandra Curvelo</title>
+<meta name="description" content="Para equipos que hoy usan la IA como buscador. 5 ajustes para que Claude deje de responder y empiece a trabajar con tu equipo. Guía práctica de Sandra Curvelo, IAM™.">
+<link rel="canonical" href="https://iamlatam.co/guias/5-ajustes-claude/">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://iamlatam.co/guias/5-ajustes-claude/">
+<meta property="og:title" content="5 ajustes para que Claude trabaje contigo">
+<meta property="og:description" content="Para equipos que hoy usan la IA como buscador: preguntan, copian la respuesta y cierran la ventana. 5 ajustes para que deje de responder y empiece a trabajar con tu equipo.">
+<meta property="og:image" content="https://iamlatam.co/guias/5-ajustes-claude/portada.jpg">
+<meta property="og:image:width" content="954">
+<meta property="og:image:height" content="1349">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#080808">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Outfit:wght@300;400;500;600&display=swap">
+<style>
+/* Mismos tokens de iamlatam.co y de /guias/ */
+:root{--red:#C00000;--red-hi:#E00000;--black:#080808;--dark:#161616;--carbon:#1e1e1e;--smoke:#2a2a2a;--silver:#888;--mist:#bbb;--white:#fff;
+--display:'Playfair Display',Georgia,serif;--body:'Outfit',system-ui,sans-serif;--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--black);color:var(--white);font-family:var(--body);font-weight:300;font-size:18px;line-height:1.65;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1140px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.read{max-width:820px}
+a{color:inherit}
+b,strong{font-weight:600}
+.top{border-bottom:1px solid var(--smoke)}
+.top .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-block:18px}
+.logo{font-family:var(--display);font-weight:900;font-size:24px;text-decoration:none;letter-spacing:.5px}
+.logo span{color:var(--red-hi)}
+.back{font-size:14px;color:var(--mist);text-decoration:none;letter-spacing:.04em}
+.back:hover{color:var(--white)}
+.eb{font-weight:600;font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--red-hi)}
+
+/* Hero */
+.hero{padding-block:52px 44px}
+.hero-in{border-left:6px solid var(--red);padding-left:18px;display:grid;gap:40px;align-items:center}
+h1{font-family:var(--display);font-weight:900;font-size:clamp(40px,8vw,76px);line-height:1.04;margin-top:16px;text-wrap:balance}
+h1 em,.hl{font-style:normal;color:var(--red-hi)}
+.lede{font-size:clamp(19px,2.2vw,22px);color:var(--mist);max-width:620px;margin-top:20px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
+.chips a{flex:1 1 0;max-width:76px;font-weight:600;font-size:14px;letter-spacing:.06em;text-decoration:none;border:2px solid var(--red-hi);padding:7px 4px;text-align:center}
+.chips a:first-child{background:var(--red-hi)}
+.chips a:hover{background:var(--red-hi)}
+.rule{margin-top:24px;font-size:19px}
+.by{margin-top:10px;font-size:15px;color:var(--mist)}
+.note{margin-top:18px;font-size:14px;color:var(--silver);max-width:600px}
+.pdf{display:inline-block;margin-top:16px;font-size:15px;font-weight:500;color:var(--mist);text-decoration:none;border-bottom:1px solid var(--red-hi);padding-bottom:2px}
+.pdf:hover{color:var(--white)}
+.hero-cover{display:none}
+.hero-cover img{width:100%;height:auto;box-shadow:0 30px 60px rgba(0,0,0,.6);transform:rotate(-2deg)}
+
+/* Índice fijo */
+.toc{position:sticky;top:0;z-index:10;background:rgba(8,8,8,.94);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border-block:1px solid var(--smoke)}
+.toc-in{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-block:10px;-webkit-overflow-scrolling:touch}
+.toc-in::-webkit-scrollbar{display:none}
+.toc a{flex:0 0 auto;font-size:14px;font-weight:500;color:var(--mist);text-decoration:none;padding:7px 12px;border:1px solid var(--smoke);white-space:nowrap}
+.toc a:hover,.toc a.on{color:var(--white);border-color:var(--red-hi);background:var(--red)}
+
+/* Secciones */
+.sec{padding-block:48px;border-bottom:1px solid var(--smoke);scroll-margin-top:60px}
+.flow>*+*{margin-top:18px}
+h2{font-family:var(--display);font-weight:700;font-size:clamp(28px,6vw,40px);line-height:1.15;text-wrap:balance}
+h3{font-size:20px;font-weight:600;line-height:1.35;margin-top:32px!important}
+.badge{display:inline-block;background:var(--red);color:var(--white);font-weight:600;font-size:13px;letter-spacing:.16em;padding:5px 11px}
+.badge+h2{margin-top:12px}
+.box{border-left:4px solid var(--red-hi);background:var(--dark);padding:18px 20px}
+.small{font-size:14px;color:var(--silver)}
+ol.steps{list-style:none;counter-reset:n;display:flex;flex-direction:column;gap:18px}
+ol.steps li{counter-increment:n;position:relative;padding-left:46px}
+ol.steps li::before{content:counter(n);position:absolute;left:0;top:1px;width:31px;height:31px;border-radius:50%;background:var(--red);color:var(--white);font-weight:600;font-size:15px;display:grid;place-items:center;line-height:1}
+
+/* Prompts copiables */
+.prompt{background:var(--carbon);border:1px solid var(--smoke);border-top:3px solid var(--red-hi)}
+.prompt-h{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 12px 10px 18px;border-bottom:1px solid var(--smoke)}
+.prompt-h span{font-size:12px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--silver)}
+.copy{font:600 15px/1 var(--body);color:var(--white);background:var(--red);border:0;padding:11px 18px;min-height:42px;cursor:pointer;letter-spacing:.03em}
+.copy:hover{background:var(--red-hi)}
+.copy:focus-visible,.btn:focus-visible,.toc a:focus-visible{outline:2px solid var(--white);outline-offset:3px}
+.prompt pre{font-family:var(--mono);font-size:16px;line-height:1.6;color:#f3f1ec;white-space:pre-wrap;overflow-wrap:anywhere;padding:16px 18px 20px}
+
+/* Tablas que se vuelven tarjetas en el teléfono */
+.rt{width:100%;border-collapse:collapse}
+.rt th{background:var(--red);color:var(--white);text-align:left;font-weight:600;font-size:15px;padding:10px 14px}
+.rt td{border-bottom:1px solid var(--smoke);padding:12px 14px;vertical-align:top;font-size:17px}
+.rt td.blank{min-width:110px}
+@media (max-width:759px){
+  .rt thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .rt,.rt tbody,.rt tr,.rt td{display:block;width:100%}
+  .rt tr{background:var(--dark);border:1px solid var(--smoke);border-left:4px solid var(--red-hi);padding:16px 18px;margin-bottom:12px}
+  .rt td{border:0;padding:0;font-size:17px}
+  .rt td+td{margin-top:12px}
+  .rt td:first-child{font-size:19px}
+  .rt td[data-label]::before{content:attr(data-label);display:block;font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--silver);margin-bottom:2px}
+  .rt td.blank::after{content:"";display:block;height:30px;border-bottom:1px dashed var(--silver)}
+}
+
+/* Lista para marcar */
+.check{list-style:none;display:flex;flex-direction:column;gap:14px}
+.check label{display:flex;gap:14px;align-items:flex-start;cursor:pointer}
+.check input{flex:0 0 auto;width:22px;height:22px;margin-top:4px;accent-color:var(--red-hi)}
+
+.lead{font-size:20px}
+ul.dot{list-style:none;display:flex;flex-direction:column;gap:12px}
+ul.dot li{padding-left:32px;position:relative}
+ul.dot li::before{content:"⭕";position:absolute;left:0;top:1px;font-size:16px}
+.closing .dot{margin-top:24px}
+.closing .dot li{color:var(--white)}
+.closing .line a{color:var(--white);font-weight:500;text-decoration:none;border-bottom:1px solid var(--red-hi)}
+/* Cierre, CTA y pie */
+.closing{padding-block:64px}
+.closing-in{border-left:6px solid var(--red);padding-left:18px}
+.closing h2{font-weight:900;font-size:clamp(32px,7vw,56px);margin-top:14px}
+.closing p{color:var(--mist);max-width:620px;margin-top:20px}
+.btns{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}
+.btn{display:inline-block;font-weight:600;font-size:15px;letter-spacing:.04em;text-decoration:none;padding:15px 26px;border:1.5px solid var(--red-hi);transition:background .2s,color .2s;text-align:center}
+.btn:hover{background:var(--red-hi)}
+.cta{background:var(--red);padding-block:64px}
+.cta .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:28px}
+.cta h2{max-width:620px}
+.cta .btn{border-color:var(--white);background:var(--black)}
+.cta .btn:hover{background:var(--white);color:var(--black)}
+footer{padding-block:36px;color:var(--silver);font-size:14px;border-top:1px solid var(--smoke)}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+@media (min-width:760px){
+  body{font-size:18px}
+  .wrap{padding-left:max(32px,env(safe-area-inset-left,0px));padding-right:max(32px,env(safe-area-inset-right,0px))}
+  .hero{padding-block:88px 72px}
+  .hero-in{grid-template-columns:minmax(0,1fr) 280px;padding-left:36px}
+  .hero-cover{display:block}
+  .sec{padding-block:64px}
+  .closing-in{padding-left:36px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav class="top" aria-label="Sitio"><div class="wrap"><a class="logo" href="https://iamlatam.co/">IAM<span>™</span></a><a class="back" href="https://iamlatam.co/">Volver a iamlatam.co</a></div></nav>
+
+<header class="wrap hero">
+  <div class="hero-in">
+    <div>
+      <p class="eb">Guía práctica · Claude</p>
+      <h1>5 ajustes para que Claude trabaje <em>contigo</em></h1>
+      <p class="lede">Para equipos que hoy usan la IA como buscador: preguntan, copian la respuesta y cierran la ventana. 5 ajustes para que deje de responder y empiece a trabajar con tu equipo.</p>
+      <div class="chips" aria-label="Los 5 ajustes">
+        <a href="#ajuste-1">1</a><a href="#ajuste-2">2</a><a href="#ajuste-3">3</a><a href="#ajuste-4">4</a><a href="#ajuste-5">5</a>
+      </div>
+      <p class="rule"><b>La regla:</b> no tienes que activar los 5 hoy. Empieza con uno.</p>
+      <p class="by">Sandra Curvelo · Founder &amp; CSO, IAM™</p>
+      <p class="note">Información revisada en noviembre de 2026. La disponibilidad de cada función depende de tu plan y puede cambiar: verifícala en tu cuenta.</p>
+    </div>
+    <div class="hero-cover"><img src="portada.jpg" alt="Portada de la guía: 5 ajustes para que Claude trabaje contigo" width="954" height="1349"></div>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Contenido de la guía">
+  <div class="wrap toc-in">
+    <a href="#ajuste-1">Ajuste 1</a>
+    <a href="#ajuste-2">Ajuste 2</a>
+    <a href="#ajuste-3">Ajuste 3</a>
+    <a href="#ajuste-4">Ajuste 4</a>
+    <a href="#ajuste-5">Ajuste 5</a>
+    <a href="#empieza">Empieza con uno</a>
+    <a href="#antes">Antes de empezar</a>
+    <a href="#empresa">Tu empresa</a>
+  </div>
+</nav>
+
+<main>
+<section class="sec" id="ajuste-1" aria-labelledby="h-ajuste-1"><div class="wrap read flow">
+  <span class="badge">AJUSTE 1</span>
+  <h2 id="h-ajuste-1">Usa la app de escritorio, no solo el navegador</h2>
+  <p class="lead">Claude tiene una app de escritorio para tu computador. Además de conversar como en el navegador, desde ahí puedes usar <b>Cowork</b>: un modo en el que Claude trabaja con los archivos de una carpeta que tú le autorizas y hace tareas de varios pasos, como ordenar documentos o armar un informe.</p>
+  <h3>Por qué le sirve a tu equipo</h3>
+  <p>En el navegador, la IA responde y tú copias y pegas. En el escritorio, trabaja sobre los archivos reales y te entrega el resultado terminado: un documento, una tabla, una carpeta ordenada. Menos copiar y pegar, más trabajo hecho.</p>
+  <h3>Cómo empezar en 3 pasos</h3>
+  <ol class="steps">
+    <li><b>Descarga la app</b> desde la página oficial de Claude e inicia sesión con tu misma cuenta.</li>
+    <li><b>Crea una carpeta de prueba</b> con copias de 3 o 4 archivos que no sean confidenciales.</li>
+    <li><b>Abre Cowork,</b> dale acceso solo a esa carpeta y pídele una tarea pequeña. Revisa el resultado antes de usarlo.</li>
+  </ol>
+  <h3>Ejemplo listo para copiar</h3>
+  <div class="prompt"><div class="prompt-h"><span>Prompt</span><button class="copy" type="button">Copiar</button></div><pre>En la carpeta [nombre de la carpeta] hay [tipo de archivos: actas, cotizaciones, informes]. Léelos y crea un documento de 1 página con [lo que necesitas: los compromisos pendientes, los valores por cliente, las fechas clave]. Guárdalo en la misma carpeta con el nombre [nombre del archivo]. No borres ni modifiques los archivos originales.</pre></div>
+  <div class="box"><b>Dale acceso solo a la carpeta que necesita.</b> Lo que no tiene que ver con la tarea, no se comparte.</div>
+</div></section>
+
+<section class="sec" id="ajuste-2" aria-labelledby="h-ajuste-2"><div class="wrap read flow">
+  <span class="badge">AJUSTE 2</span>
+  <h2 id="h-ajuste-2">Crea un proyecto por área</h2>
+  <p class="lead">Un proyecto es un espacio de trabajo dentro de Claude con sus propias instrucciones y sus propios archivos. Las conversaciones que abres dentro del proyecto parten de ese contexto, así no tienes que explicar lo mismo cada vez.</p>
+  <h3>Por qué le sirve a tu equipo</h3>
+  <p>Cada área trabaja distinto: ventas tiene su propuesta de valor, talento humano sus políticas, finanzas sus formatos. Un proyecto por área hace que todos reciban respuestas con el mismo tono, los mismos documentos y las mismas reglas. Según tu plan, también puedes compartir el proyecto con tu equipo.</p>
+  <h3>Cómo empezar en 3 pasos</h3>
+  <ol class="steps">
+    <li><b>Escoge un área</b> y crea un proyecto con su nombre.</li>
+    <li><b>Sube los 3 a 5 documentos</b> que más se consultan: formatos, políticas, preguntas frecuentes.</li>
+    <li><b>Escribe las instrucciones</b> del proyecto con el ejemplo de abajo y pruébalo con una tarea real de esta semana.</li>
+  </ol>
+  <h3>Ejemplo listo para copiar (instrucciones del proyecto)</h3>
+  <div class="prompt"><div class="prompt-h"><span>Instrucciones</span><button class="copy" type="button">Copiar</button></div><pre>Eres el asistente del área de [área] de [empresa]. Ayudas a [quiénes: el equipo comercial, los analistas, los coordinadores] con [tareas: propuestas, informes, respuestas a clientes].
+Reglas:
+1. Usa el tono y los formatos de los archivos del proyecto.
+2. No inventes cifras, nombres ni fuentes. Si falta un dato, pregúntalo.
+3. Entregas borradores. La persona revisa y decide antes de enviar.
+4. [Una regla propia del área].</pre></div>
+  <div class="box"><b>Un proyecto por área, no uno por persona.</b> Así el método es del equipo y no depende de quién escribió el mejor prompt.</div>
+</div></section>
+
+<section class="sec" id="ajuste-3" aria-labelledby="h-ajuste-3"><div class="wrap read flow">
+  <span class="badge">AJUSTE 3</span>
+  <h2 id="h-ajuste-3">Conéctala a tus herramientas</h2>
+  <p class="lead">Los <b>conectores</b> le dan a Claude acceso, con tu permiso, a herramientas que ya usas: correo, Drive, calendario y otras. Así puede buscar un correo, leer un documento o revisar tu agenda sin que tengas que copiar y pegar.</p>
+  <h3>Por qué le sirve a tu equipo</h3>
+  <p>Buena parte del contexto de un equipo vive en el correo, en los documentos compartidos y en la agenda. Con los conectores, Claude prepara la reunión, resume el hilo o encuentra el documento con la información real, no con lo que alguien recordó pegar en el chat.</p>
+  <h3>Cómo empezar en 3 pasos</h3>
+  <ol class="steps">
+    <li><b>En la configuración de Claude busca la sección de conectores</b> y revisa cuáles están disponibles para tu cuenta.</li>
+    <li><b>Conecta una sola herramienta,</b> por ejemplo el calendario, y lee qué permisos te pide antes de aceptar.</li>
+    <li><b>Pídele una tarea de solo lectura:</b> preparar tu día o resumir un hilo. Cuando confíes en el resultado, suma la siguiente herramienta.</li>
+  </ol>
+  <h3>Ejemplo listo para copiar</h3>
+  <div class="prompt"><div class="prompt-h"><span>Prompt</span><button class="copy" type="button">Copiar</button></div><pre>Revisa mi calendario de [día] y, para cada reunión con [clientes, proveedores, mi equipo], busca en mi correo los últimos mensajes con esas personas y en Drive los documentos sobre [tema]. Dame por cada reunión: objetivo, lo último que hablamos, lo que quedó pendiente y 2 preguntas para hacer. No envíes ni modifiques nada.</pre></div>
+  <div class="box"><b>Si es la cuenta de la empresa,</b> conecta solo lo que la política de datos de tu empresa permite. Antes de conectar, pregúntale al área de tecnología.</div>
+</div></section>
+
+<section class="sec" id="ajuste-4" aria-labelledby="h-ajuste-4"><div class="wrap read flow">
+  <span class="badge">AJUSTE 4</span>
+  <h2 id="h-ajuste-4">Crea una habilidad para lo que repites</h2>
+  <p class="lead">Una <b>habilidad</b> (en Claude se llama skill) es un paquete de instrucciones, y si hace falta de archivos de apoyo, que le enseña a Claude a hacer una tarea a tu manera. Claude la usa cuando la tarea lo pide, sin que tengas que volver a explicarle el paso a paso.</p>
+  <h3>Por qué le sirve a tu equipo</h3>
+  <p>Las tareas que se repiten cada semana, como el informe del lunes, el acta del comité o la respuesta a una solicitud, salen distintas según quién las haga. Una habilidad deja el método escrito una sola vez y todos lo aplican igual.</p>
+  <h3>Cómo empezar en 3 pasos</h3>
+  <ol class="steps">
+    <li><b>Escoge una tarea</b> que hagas cada semana y que siempre siga los mismos pasos.</li>
+    <li><b>Escribe cómo la haces,</b> paso a paso, y guarda un ejemplo de un resultado que te haya quedado bien.</li>
+    <li><b>Pídele a Claude que te ayude a convertirla en habilidad</b> con el ejemplo de abajo. Después, en la configuración de Claude busca la sección de habilidades para revisarla y activarla.</li>
+  </ol>
+  <h3>Ejemplo listo para copiar</h3>
+  <div class="prompt"><div class="prompt-h"><span>Prompt</span><button class="copy" type="button">Copiar</button></div><pre>Quiero crear una habilidad para [tarea: el informe semanal de ventas, el acta del comité, la respuesta a solicitudes de cotización]. Así la hago hoy: [pega tus pasos]. Este es un ejemplo de un resultado que me gustó: [pega el ejemplo]. Hazme las preguntas que necesites y luego arma la habilidad con: cuándo usarla, los pasos, el formato de entrega y lo que nunca debe hacer.</pre></div>
+  <div class="box"><b>Empieza por la tarea más aburrida de la semana.</b> Esa es la que más rápido se nota cuando sale sola y bien hecha.</div>
+</div></section>
+
+<section class="sec" id="ajuste-5" aria-labelledby="h-ajuste-5"><div class="wrap read flow">
+  <span class="badge">AJUSTE 5</span>
+  <h2 id="h-ajuste-5">Programa las tareas que se hacen solas</h2>
+  <p class="lead">Una <b>tarea programada</b> es una instrucción que Claude ejecuta por su cuenta, con la frecuencia que tú eliges: cada mañana, cada lunes, cada fin de mes. Esta opción existe en herramientas como Cowork, en la app de escritorio, y Claude en Chrome, según tu plan.</p>
+  <h3>Por qué le sirve a tu equipo</h3>
+  <p>Lo que se repite no debería depender de que alguien se acuerde. La tarea corre a la hora definida y deja el trabajo preparado para revisar. El equipo empieza el día decidiendo, no buscando información.</p>
+  <div class="box"><b>Mi ejemplo:</b> tengo programada mi rutina de LinkedIn cada mañana. Claude revisa mis publicaciones y las de las personas que sigo, y me deja propuestas de comentarios. Yo leo, ajusto y apruebo. Nada sale sin mi aprobación.</div>
+  <h3>Cómo empezar en 3 pasos</h3>
+  <ol class="steps">
+    <li><b>Escoge una tarea que ya te funcione bien a mano,</b> ideal si ya vive en un proyecto o en una habilidad.</li>
+    <li><b>Escribe la instrucción completa:</b> qué revisa, qué te entrega, con qué frecuencia y a qué hora.</li>
+    <li><b>Prográmala y revisa los resultados la primera semana.</b> Verifica en tu cuenta si la tarea necesita que el computador y la app estén abiertos para ejecutarse.</li>
+  </ol>
+  <h3>Ejemplo listo para copiar</h3>
+  <div class="prompt"><div class="prompt-h"><span>Prompt</span><button class="copy" type="button">Copiar</button></div><pre>Cada [lunes a viernes] a las [hora], revisa [fuente: mi correo, mi calendario, la carpeta de ventas] y prepárame [resultado: las 5 prioridades del día, los correos que necesitan respuesta, el resumen de pendientes]. Entrégamelo en [formato: lista, tabla, documento]. No envíes, publiques ni borres nada: yo reviso y decido.</pre></div>
+  
+</div></section>
+
+<section class="sec" id="empieza" aria-labelledby="h-empieza"><div class="wrap read flow">
+  <h2 id="h-empieza">Empieza con uno</h2>
+  <p class="lead">No tienes que activar los 5 hoy. Escoge el ajuste que resuelve el problema que más tiempo le quita a tu equipo esta semana.</p>
+  <table class="rt">
+    <thead><tr><th>Si en tu equipo pasa esto</th><th>Empieza por</th></tr></thead>
+    <tbody>
+      <tr><td>Copian respuestas del chat a documentos y hojas de cálculo</td><td data-label="Empieza por"><a href="#ajuste-1"><b>Ajuste 1:</b> app de escritorio</a></td></tr>
+      <tr><td>Explican el mismo contexto en cada conversación</td><td data-label="Empieza por"><a href="#ajuste-2"><b>Ajuste 2:</b> un proyecto por área</a></td></tr>
+      <tr><td>Copian y pegan información del correo, Drive o la agenda</td><td data-label="Empieza por"><a href="#ajuste-3"><b>Ajuste 3:</b> conectores</a></td></tr>
+      <tr><td>La misma tarea semanal sale distinta según quién la haga</td><td data-label="Empieza por"><a href="#ajuste-4"><b>Ajuste 4:</b> una habilidad</a></td></tr>
+      <tr><td>Una tarea depende de que alguien se acuerde de hacerla</td><td data-label="Empieza por"><a href="#ajuste-5"><b>Ajuste 5:</b> una tarea programada</a></td></tr>
+    </tbody>
+  </table>
+  <p>Si empiezas de cero, sigue el orden 1, 2, 3, 4 y 5. Cada ajuste se apoya en el anterior: la tarea que programas en el ajuste 5 funciona mejor si ya tiene su proyecto, sus conectores y su habilidad.</p>
+</div></section>
+
+<section class="sec" id="antes" aria-labelledby="h-antes"><div class="wrap read flow">
+  <h2 id="h-antes">Antes de empezar</h2>
+  <ul class="dot">
+    <li>Escogí 1 ajuste y 1 tarea real para probarlo esta semana.</li>
+    <li>Revisé qué funciones tiene mi plan.</li>
+    <li>Uso cuentas y datos que mi empresa permite usar.</li>
+    <li>La regla está clara: Claude prepara, la persona revisa y decide.</li>
+    <li>En 2 semanas reviso qué cambió y sumo el siguiente ajuste.</li>
+  </ul>
+  <div class="box"><b>La disponibilidad de cada función depende de tu plan y puede cambiar.</b> Verifícala en tu cuenta antes de armar el proceso del equipo. Si una pantalla no coincide con esta guía, busca la opción equivalente.</div>
+</div></section>
+
+<section class="wrap closing" id="empresa" aria-labelledby="h-cierre"><div class="closing-in">
+  <p class="eb">Si lo vas a llevar a tu empresa</p>
+  <h2 id="h-cierre">Licencias empresariales <span class="hl">y reglas claras.</span></h2>
+  <p>Una cosa es usar Claude con tu cuenta personal. Otra es ponerlo a trabajar con la información de tu empresa. Tu información lo vale.</p>
+  <ul class="dot">
+    <li>Licencias empresariales administradas por la empresa, no cuentas personales.</li>
+    <li>Reglas escritas: qué información entra, qué no entra y quién aprueba lo que sale.</li>
+    <li>Conectores y permisos definidos por área.</li>
+    <li>Un responsable que revise si está funcionando.</li>
+  </ul>
+  <p class="line">Conoce IAM™ en <a href="https://iamlatam.co/">iamlatam.co</a></p>
+  <p>Sígueme en LinkedIn si quieres que la IA trabaje con tu equipo, no solo para responder preguntas.</p>
+  <div class="btns">
+    <a class="btn" href="https://www.linkedin.com/newsletters/ia-ventas=-exito-garantizado-6952337560673157120/" target="_blank" rel="noopener">Suscribirme a la newsletter</a>
+  </div>
+</div></section>
+</main>
+
+<section class="cta" aria-labelledby="cta">
+  <div class="wrap">
+    <h2 id="cta">¿Quieres instalarlo en tu equipo? Agenda una conversación conmigo.</h2>
+    <a class="btn" href="https://calendly.com/sandracurvelo-mentoraventasdigitales-ia" target="_blank" rel="noopener">Agenda 30 minutos con Sandra</a>
+  </div>
+</section>
+
+<footer><div class="wrap"><span>Sandra Curvelo · Founder &amp; CSO, IAM™ · Lo que no se mide no puede ser mejorado.</span><a href="https://iamlatam.co/">iamlatam.co</a></div></footer>
+
+<p class="sr" role="status" aria-live="polite" id="copy-status"></p>
+<script>
+(function(){
+  var status=document.getElementById('copy-status');
+  function selectText(el){
+    try{var r=document.createRange();r.selectNodeContents(el);var s=window.getSelection();s.removeAllRanges();s.addRange(r);}catch(e){}
+  }
+  function legacyCopy(el){
+    selectText(el);
+    try{return document.execCommand('copy');}catch(e){return false;}
+  }
+  function done(btn,ok){
+    btn.textContent=ok?'Copiado':'Texto seleccionado';
+    status.textContent=ok?'Prompt copiado':'Texto seleccionado. Cópialo con tu teléfono o con Ctrl+C.';
+    clearTimeout(btn._t);btn._t=setTimeout(function(){btn.textContent='Copiar';},2200);
+  }
+  document.addEventListener('click',function(ev){
+    var btn=ev.target.closest&&ev.target.closest('.copy');
+    if(!btn)return;
+    var pre=btn.closest('.prompt').querySelector('pre');
+    var text=pre.textContent;
+    try{
+      navigator.clipboard.writeText(text).then(function(){done(btn,true);},function(){done(btn,legacyCopy(pre));});
+    }catch(e){
+      done(btn,legacyCopy(pre));
+    }
+  });
+  /* Marca en el índice la sección visible */
+  try{
+    var links=[].slice.call(document.querySelectorAll('.toc a'));
+    var bar=document.querySelector('.toc-in');
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(!en.isIntersecting)return;
+        links.forEach(function(a){
+          var on=a.getAttribute('href')==='#'+en.target.id;
+          a.classList.toggle('on',on);
+          if(on){bar.scrollTo({left:a.offsetLeft-bar.clientWidth/2+a.offsetWidth/2,behavior:'smooth'});}
+        });
+      });
+    },{rootMargin:'-45% 0px -50% 0px'});
+    links.forEach(function(a){var t=document.querySelector(a.getAttribute('href'));if(t)io.observe(t);});
+  }catch(e){}
+})();
+</script>
+</body>
+</html>

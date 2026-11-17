@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>La semana del vendedor con IA · Guía 2 · Sandra Curvelo</title>
+<meta name="description" content="Para líderes comerciales. 5 agentes, uno por día, para acabar con la hoja en blanco del lunes y con el ghosting después de la propuesta. Guía 2 de Sandra Curvelo, IAM™.">
+<link rel="canonical" href="https://iamlatam.co/guias/semana-vendedor-ia/">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://iamlatam.co/guias/semana-vendedor-ia/">
+<meta property="og:title" content="La semana del vendedor con IA · Guía 2">
+<meta property="og:description" content="5 agentes, uno por día, para acabar con la hoja en blanco del lunes y con el ghosting después de la propuesta. La IA prepara. El vendedor revisa, decide y envía.">
+<meta property="og:image" content="https://iamlatam.co/guias/semana-vendedor-ia/portada.jpg">
+<meta property="og:image:width" content="954">
+<meta property="og:image:height" content="1349">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#080808">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Outfit:wght@300;400;500;600&display=swap">
+<style>
+/* Mismos tokens de iamlatam.co y de /guias/ */
+:root{--red:#C00000;--red-hi:#E00000;--black:#080808;--dark:#161616;--carbon:#1e1e1e;--smoke:#2a2a2a;--silver:#888;--mist:#bbb;--white:#fff;
+--display:'Playfair Display',Georgia,serif;--body:'Outfit',system-ui,sans-serif;--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--black);color:var(--white);font-family:var(--body);font-weight:300;font-size:18px;line-height:1.65;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1140px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.read{max-width:820px}
+a{color:inherit}
+b,strong{font-weight:600}
+.top{border-bottom:1px solid var(--smoke)}
+.top .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-block:18px}
+.logo{font-family:var(--display);font-weight:900;font-size:24px;text-decoration:none;letter-spacing:.5px}
+.logo span{color:var(--red-hi)}
+.back{font-size:14px;color:var(--mist);text-decoration:none;letter-spacing:.04em}
+.back:hover{color:var(--white)}
+.eb{font-weight:600;font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--red-hi)}
+
+/* Hero */
+.hero{padding-block:52px 44px}
+.hero-in{border-left:6px solid var(--red);padding-left:18px;display:grid;gap:40px;align-items:center}
+h1{font-family:var(--display);font-weight:900;font-size:clamp(40px,8vw,76px);line-height:1.04;margin-top:16px;text-wrap:balance}
+h1 em,.hl{font-style:normal;color:var(--red-hi)}
+.lede{font-size:clamp(19px,2.2vw,22px);color:var(--mist);max-width:620px;margin-top:20px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
+.chips a{flex:1 1 0;max-width:76px;font-weight:600;font-size:14px;letter-spacing:.06em;text-decoration:none;border:2px solid var(--red-hi);padding:7px 4px;text-align:center}
+.chips a:first-child{background:var(--red-hi)}
+.chips a:hover{background:var(--red-hi)}
+.rule{margin-top:24px;font-size:19px}
+.by{margin-top:10px;font-size:15px;color:var(--mist)}
+.note{margin-top:18px;font-size:14px;color:var(--silver);max-width:600px}
+.pdf{display:inline-block;margin-top:16px;font-size:15px;font-weight:500;color:var(--mist);text-decoration:none;border-bottom:1px solid var(--red-hi);padding-bottom:2px}
+.pdf:hover{color:var(--white)}
+.hero-cover{display:none}
+.hero-cover img{width:100%;height:auto;box-shadow:0 30px 60px rgba(0,0,0,.6);transform:rotate(-2deg)}
+
+/* Índice fijo */
+.toc{position:sticky;top:0;z-index:10;background:rgba(8,8,8,.94);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border-block:1px solid var(--smoke)}
+.toc-in{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-block:10px;-webkit-overflow-scrolling:touch}
+.toc-in::-webkit-scrollbar{display:none}
+.toc a{flex:0 0 auto;font-size:14px;font-weight:500;color:var(--mist);text-decoration:none;padding:7px 12px;border:1px solid var(--smoke);white-space:nowrap}
+.toc a:hover,.toc a.on{color:var(--white);border-color:var(--red-hi);background:var(--red)}
+
+/* Secciones */
+.sec{padding-block:48px;border-bottom:1px solid var(--smoke);scroll-margin-top:60px}
+.flow>*+*{margin-top:18px}
+h2{font-family:var(--display);font-weight:700;font-size:clamp(28px,6vw,40px);line-height:1.15;text-wrap:balance}
+h3{font-size:20px;font-weight:600;line-height:1.35;margin-top:32px!important}
+.badge{display:inline-block;background:var(--red);color:var(--white);font-weight:600;font-size:13px;letter-spacing:.16em;padding:5px 11px}
+.badge+h2{margin-top:12px}
+.box{border-left:4px solid var(--red-hi);background:var(--dark);padding:18px 20px}
+.small{font-size:14px;color:var(--silver)}
+ol.steps{list-style:none;counter-reset:n;display:flex;flex-direction:column;gap:18px}
+ol.steps li{counter-increment:n;position:relative;padding-left:46px}
+ol.steps li::before{content:counter(n);position:absolute;left:0;top:1px;width:31px;height:31px;border-radius:50%;background:var(--red);color:var(--white);font-weight:600;font-size:15px;display:grid;place-items:center;line-height:1}
+
+/* Prompts copiables */
+.prompt{background:var(--carbon);border:1px solid var(--smoke);border-top:3px solid var(--red-hi)}
+.prompt-h{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 12px 10px 18px;border-bottom:1px solid var(--smoke)}
+.prompt-h span{font-size:12px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--silver)}
+.copy{font:600 15px/1 var(--body);color:var(--white);background:var(--red);border:0;padding:11px 18px;min-height:42px;cursor:pointer;letter-spacing:.03em}
+.copy:hover{background:var(--red-hi)}
+.copy:focus-visible,.btn:focus-visible,.toc a:focus-visible{outline:2px solid var(--white);outline-offset:3px}
+.prompt pre{font-family:var(--mono);font-size:16px;line-height:1.6;color:#f3f1ec;white-space:pre-wrap;overflow-wrap:anywhere;padding:16px 18px 20px}
+
+/* Tablas que se vuelven tarjetas en el teléfono */
+.rt{width:100%;border-collapse:collapse}
+.rt th{background:var(--red);color:var(--white);text-align:left;font-weight:600;font-size:15px;padding:10px 14px}
+.rt td{border-bottom:1px solid var(--smoke);padding:12px 14px;vertical-align:top;font-size:17px}
+.rt td.blank{min-width:110px}
+@media (max-width:759px){
+  .rt thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .rt,.rt tbody,.rt tr,.rt td{display:block;width:100%}
+  .rt tr{background:var(--dark);border:1px solid var(--smoke);border-left:4px solid var(--red-hi);padding:16px 18px;margin-bottom:12px}
+  .rt td{border:0;padding:0;font-size:17px}
+  .rt td+td{margin-top:12px}
+  .rt td:first-child{font-size:19px}
+  .rt td[data-label]::before{content:attr(data-label);display:block;font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--silver);margin-bottom:2px}
+  .rt td.blank::after{content:"";display:block;height:30px;border-bottom:1px dashed var(--silver)}
+}
+
+/* Lista para marcar */
+.check{list-style:none;display:flex;flex-direction:column;gap:14px}
+.check label{display:flex;gap:14px;align-items:flex-start;cursor:pointer}
+.check input{flex:0 0 auto;width:22px;height:22px;margin-top:4px;accent-color:var(--red-hi)}
+
+/* Cierre, CTA y pie */
+.closing{padding-block:64px}
+.closing-in{border-left:6px solid var(--red);padding-left:18px}
+.closing h2{font-weight:900;font-size:clamp(32px,7vw,56px);margin-top:14px}
+.closing p{color:var(--mist);max-width:620px;margin-top:20px}
+.btns{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}
+.btn{display:inline-block;font-weight:600;font-size:15px;letter-spacing:.04em;text-decoration:none;padding:15px 26px;border:1.5px solid var(--red-hi);transition:background .2s,color .2s;text-align:center}
+.btn:hover{background:var(--red-hi)}
+.cta{background:var(--red);padding-block:64px}
+.cta .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:28px}
+.cta h2{max-width:620px}
+.cta .btn{border-color:var(--white);background:var(--black)}
+.cta .btn:hover{background:var(--white);color:var(--black)}
+footer{padding-block:36px;color:var(--silver);font-size:14px;border-top:1px solid var(--smoke)}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+@media (min-width:760px){
+  body{font-size:18px}
+  .wrap{padding-left:max(32px,env(safe-area-inset-left,0px));padding-right:max(32px,env(safe-area-inset-right,0px))}
+  .hero{padding-block:88px 72px}
+  .hero-in{grid-template-columns:minmax(0,1fr) 280px;padding-left:36px}
+  .hero-cover{display:block}
+  .sec{padding-block:64px}
+  .closing-in{padding-left:36px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav class="top" aria-label="Sitio"><div class="wrap"><a class="logo" href="https://iamlatam.co/">IAM<span>™</span></a><a class="back" href="https://iamlatam.co/">Volver a iamlatam.co</a></div></nav>
+
+<header class="wrap hero">
+  <div class="hero-in">
+    <div>
+      <p class="eb">Lo que nadie te dice de la IA · Guía 2</p>
+      <h1>La semana del vendedor con <em>IA</em></h1>
+      <p class="lede">Para líderes comerciales. 5 agentes, uno por día, para acabar con la hoja en blanco del lunes y con el ghosting después de la propuesta.</p>
+      <div class="chips" aria-label="Días de la semana">
+        <a href="#lunes">LUN</a><a href="#martes">MAR</a><a href="#miercoles">MIÉ</a><a href="#jueves">JUE</a><a href="#viernes">VIE</a>
+      </div>
+      <p class="rule"><b>La regla:</b> la IA prepara. El vendedor revisa, decide y envía.</p>
+      <p class="by">Sandra Curvelo · Founder &amp; CSO, IAM™</p>
+      <p class="note">Información verificada en noviembre de 2026. Las herramientas cambian: si una pantalla no coincide, busca la opción equivalente.</p>
+      <a class="pdf" href="../guia-2-semana-vendedor-ia.pdf" download>Descargar PDF</a>
+    </div>
+    <div class="hero-cover"><img src="portada.jpg" alt="Portada de la guía: La semana del vendedor con IA" width="954" height="1349"></div>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Contenido de la guía">
+  <div class="wrap toc-in">
+    <a href="#por-que">Por qué</a>
+    <a href="#semana">La semana</a>
+    <a href="#pasos">3 pasos</a>
+    <a href="#instrucciones">Instrucciones</a>
+    <a href="#lunes">Lunes</a>
+    <a href="#martes">Martes</a>
+    <a href="#miercoles">Miércoles</a>
+    <a href="#jueves">Jueves</a>
+    <a href="#viernes">Viernes</a>
+    <a href="#tablero">Tablero</a>
+    <a href="#lista">Lista</a>
+  </div>
+</nav>
+
+<main>
+<section class="sec" id="por-que" aria-labelledby="h-por-que"><div class="wrap read flow">
+  <h2 id="h-por-que">1. Por qué un método y no otro curso</h2>
+  <p>Tu vendedor ya sabe vender. Lo que le falta es tiempo. En el informe State of Sales 2026 de Salesforce (4.050 profesionales de ventas encuestados), <b>el vendedor promedio dedica el 40% de su tiempo a vender</b>. El resto se va en informes, CRM, correos y cotizaciones.</p>
+  <p>Un curso no devuelve esas horas. Un método sí: qué prepara la IA cada día, quién revisa y qué se mide el viernes.</p>
+  <div class="box"><b>Lo instala el líder, no cada vendedor.</b> Si cada persona inventa su propio prompt, tienes 10 formas de trabajar y ninguna se puede medir.</div>
+  <p class="small">Fuente: Salesforce, State of Sales 2026 (7.ª edición).</p>
+</div></section>
+
+<section class="sec" id="semana" aria-labelledby="h-semana"><div class="wrap read flow">
+  <h2 id="h-semana">2. La semana completa</h2>
+  <table class="rt">
+    <thead><tr><th>Día</th><th>Agente</th><th>Qué deja listo</th><th>Qué decide el vendedor</th></tr></thead>
+    <tbody>
+      <tr><td><b>Lunes</b></td><td data-label="Agente">Pipeline</td><td data-label="Qué deja listo">Negocios revisados con los 5 vectores, los que están en riesgo y las 10 acciones de la semana</td><td data-label="Qué decide el vendedor">Qué acciones hace y en qué orden</td></tr>
+      <tr><td><b>Martes</b></td><td data-label="Agente">Prospección</td><td data-label="Qué deja listo">Segmentos por industria, cuenta ideal, señales en LinkedIn y notas de invitación</td><td data-label="Qué decide el vendedor">A quién invita y envía cada invitación</td></tr>
+      <tr><td><b>Miércoles</b></td><td data-label="Agente">Correo</td><td data-label="Qué deja listo">Secuencia de 3 correos por segmento con el formato de la empresa</td><td data-label="Qué decide el vendedor">Ajusta y envía</td></tr>
+      <tr><td><b>Jueves</b></td><td data-label="Agente">Contenido</td><td data-label="Qué deja listo">1 publicación y comentarios de valor en posts de prospectos (social selling)</td><td data-label="Qué decide el vendedor">Qué publica y qué comenta</td></tr>
+      <tr><td><b>Viernes</b></td><td data-label="Agente">Anti-ghosting</td><td data-label="Qué deja listo">Propuestas sin respuesta, 3 opciones de reactivación con valor nuevo y el lunes preparado</td><td data-label="Qué decide el vendedor">Cuál mensaje envía</td></tr>
+    </tbody>
+  </table>
+</div></section>
+
+<section class="sec" id="pasos" aria-labelledby="h-pasos"><div class="wrap read flow">
+  <h2 id="h-pasos">3. Cómo lo instalas en 3 pasos</h2>
+  <ol class="steps">
+    <li><b>Mide la línea base.</b> Durante 1 semana, cada vendedor anota en qué se le van las horas. Sin línea base no sabrás si funcionó.</li>
+    <li><b>Crea un proyecto del equipo comercial.</b> En Claude y en ChatGPT se llama "proyecto": un espacio con sus propias instrucciones y archivos. Sube tu propuesta de valor, el formato de tus correos, tus casos y la lista de 5 vectores. En Claude, los planes Team y Enterprise permiten compartir el proyecto con los miembros de la organización; en ChatGPT los proyectos también se pueden compartir.</li>
+    <li><b>Mira 3 números cada viernes:</b> horas con clientes, propuestas reactivadas y reuniones agendadas.</li>
+  </ol>
+</div></section>
+
+<section class="sec" id="instrucciones" aria-labelledby="h-instrucciones"><div class="wrap read flow">
+  <h2 id="h-instrucciones">4. Las instrucciones del proyecto</h2>
+  <p>Pega esto en las instrucciones del proyecto y ajústalo a tu empresa:</p>
+  <div class="prompt"><div class="prompt-h"><span>Instrucciones</span><button class="copy" type="button">Copiar</button></div><pre>Eres el asistente comercial del equipo de [empresa]. Vendemos [solución] a [cargo] en [industrias].
+Reglas:
+1. Preparas borradores. Nunca envías, publicas ni contactas a nadie: el vendedor revisa, decide y envía.
+2. No inventes cifras, clientes, casos ni fuentes. Si falta un dato, pregúntalo.
+3. Usa el tono y el formato de los archivos del proyecto.
+4. Cada negocio se revisa con 5 vectores: presupuesto, tomadores de decisión, competencia, forma de compra y tiempo.
+5. Mensajes cortos: máximo 4 líneas en LinkedIn y 120 palabras en correo.</pre></div>
+</div></section>
+
+<section class="sec" id="lunes" aria-labelledby="h-lunes"><div class="wrap read flow">
+  <span class="badge">LUNES</span>
+  <h2 id="h-lunes">Agente de pipeline</h2>
+  <p>Mata la hoja en blanco. Exporta el pipeline del CRM a Excel o copia la tabla.</p>
+  <div class="prompt"><div class="prompt-h"><span>Prompt</span><button class="copy" type="button">Copiar</button></div><pre>Actúa como gerente comercial. Te pego mi pipeline: [pega la exportación del CRM o el Excel]. Para cada negocio dime cuál de estos 5 vectores no tengo claro: presupuesto, tomadores de decisión, competencia, forma de compra y tiempo. Marca los que llevan más de [número] días sin avance y proponme las 10 acciones de esta semana, en orden de impacto.</pre></div>
+</div></section>
+
+<section class="sec" id="martes" aria-labelledby="h-martes"><div class="wrap read flow">
+  <span class="badge">MARTES</span>
+  <h2 id="h-martes">Agente de prospección</h2>
+  <p>Segmenta y prepara. La invitación la envía la persona, desde su perfil.</p>
+  <div class="prompt"><div class="prompt-h"><span>Prompt</span><button class="copy" type="button">Copiar</button></div><pre>Actúa como experto en prospección B2B en [país]. Mi cliente ideal es [cargo] en empresas de [industria] con [tamaño]. Dame 3 segmentos, las señales en LinkedIn que muestran que una cuenta está lista para conversar y una nota de invitación corta para cada segmento. Yo reviso y envío cada invitación.</pre></div>
+</div></section>
+
+<section class="sec" id="miercoles" aria-labelledby="h-miercoles"><div class="wrap read flow">
+  <span class="badge">MIÉRCOLES</span>
+  <h2 id="h-miercoles">Agente de correo</h2>
+  <div class="prompt"><div class="prompt-h"><span>Prompt</span><button class="copy" type="button">Copiar</button></div><pre>Actúa como redactor comercial. Te pego el formato de correo de mi empresa y nuestra propuesta de valor: [pega aquí]. Escribe una secuencia de 3 correos para [segmento]: el primero abre con un problema de su sector, el segundo comparte un caso o un dato con fuente y el tercero propone una reunión de 20 minutos. Máximo 120 palabras cada uno. No inventes cifras ni clientes.</pre></div>
+</div></section>
+
+<section class="sec" id="jueves" aria-labelledby="h-jueves"><div class="wrap read flow">
+  <span class="badge">JUEVES</span>
+  <h2 id="h-jueves">Agente de contenido</h2>
+  <div class="prompt"><div class="prompt-h"><span>Prompt</span><button class="copy" type="button">Copiar</button></div><pre>Actúa como estratega de social selling en LinkedIn. Vendo [tu solución] a [cargo]. Proponme 1 publicación para esta semana con esta historia real: [cuéntala]. Luego, con estos 3 posts de prospectos [pega aquí], redacta un comentario de 3 líneas para cada uno que aporte un dato o una experiencia, sin vender. Yo los reviso antes de publicarlos.</pre></div>
+</div></section>
+
+<section class="sec" id="viernes" aria-labelledby="h-viernes"><div class="wrap read flow">
+  <span class="badge">VIERNES</span>
+  <h2 id="h-viernes">Agente anti-ghosting</h2>
+  <p>Nada de "¿pudiste revisar la propuesta?". Se reactiva con algo nuevo.</p>
+  <div class="prompt"><div class="prompt-h"><span>Prompt</span><button class="copy" type="button">Copiar</button></div><pre>Te pego la propuesta que le envié a [cargo] de [tipo de empresa] el [fecha] y lo que hablamos en la reunión: [pega aquí]. Lleva [número] días sin respuesta. Redacta 3 mensajes de reactivación de máximo 4 líneas, cada uno con algo de valor nuevo: un dato de su sector con fuente, una pregunta sobre [presupuesto, decisión o tiempo] o una opción más pequeña para empezar. Sin presionar y sin preguntar si ya la revisó. Yo escojo uno y lo envío.</pre></div>
+  <h3>Y para dejar listo el lunes</h3>
+  <div class="prompt"><div class="prompt-h"><span>Prompt</span><button class="copy" type="button">Copiar</button></div><pre>Con lo que te conté de esta semana [pega tus notas], dame: 3 logros, 3 negocios que se movieron, 3 que siguen en riesgo y las 3 primeras acciones del lunes.</pre></div>
+</div></section>
+
+<section class="sec" id="tablero" aria-labelledby="h-tablero"><div class="wrap read flow">
+  <h2 id="h-tablero">5. El tablero del líder: 3 números cada viernes</h2>
+  <table class="rt">
+    <thead><tr><th>Número</th><th>Cómo se mide</th><th>Línea base</th><th>Semana 4</th></tr></thead>
+    <tbody>
+      <tr><td><b>Horas con clientes</b></td><td data-label="Cómo se mide">Horas a la semana por vendedor en reuniones, llamadas y visitas con clientes</td><td class="blank" data-label="Línea base"></td><td class="blank" data-label="Semana 4"></td></tr>
+      <tr><td><b>Propuestas reactivadas</b></td><td data-label="Cómo se mide">Propuestas sin respuesta que volvieron a tener conversación después del mensaje del viernes</td><td class="blank" data-label="Línea base"></td><td class="blank" data-label="Semana 4"></td></tr>
+      <tr><td><b>Reuniones agendadas</b></td><td data-label="Cómo se mide">Reuniones nuevas con decisores en la semana</td><td class="blank" data-label="Línea base"></td><td class="blank" data-label="Semana 4"></td></tr>
+    </tbody>
+  </table>
+  <p class="small">Llena la línea base antes de empezar y compara en la semana 4. Si los números no se mueven, no es culpa de la IA: el método no se está usando.</p>
+</div></section>
+
+<section class="sec" id="lista" aria-labelledby="h-lista"><div class="wrap read flow">
+  <h2 id="h-lista">6. Lista para el líder</h2>
+  <ul class="check">
+    <li><label><input type="checkbox"><span>Línea base de horas medida con todo el equipo.</span></label></li>
+    <li><label><input type="checkbox"><span>Proyecto del equipo creado, con instrucciones, propuesta de valor, formato de correos y casos.</span></label></li>
+    <li><label><input type="checkbox"><span>Cada vendedor sabe qué agente abre cada día.</span></label></li>
+    <li><label><input type="checkbox"><span>Regla escrita: la IA prepara, el vendedor revisa, decide y envía. Nada sale solo.</span></label></li>
+    <li><label><input type="checkbox"><span>Sin datos de clientes que no deban salir de la empresa: revisa la política de datos de tu empresa y de la herramienta.</span></label></li>
+    <li><label><input type="checkbox"><span>Revisión de los 3 números cada viernes, en 15 minutos.</span></label></li>
+  </ul>
+  <div class="box"><b>Lo que no se mide no se puede mejorar.</b> Y la IA no es la excepción.</div>
+</div></section>
+
+<section class="wrap closing" aria-labelledby="h-cierre"><div class="closing-in">
+  <p class="eb">Tu vendedor no necesita otro curso</p>
+  <h2 id="h-cierre">Necesita trabajar con IA, <span class="hl">con método.</span></h2>
+  <p>Empieza el próximo lunes con un solo agente, el de pipeline. Cuando el equipo lo use sin pensarlo, suma el siguiente día.</p>
+  <p>Sígueme en LinkedIn: cada 15 días, lo que nadie te dice de la IA.</p>
+  <div class="btns">
+    <a class="btn" href="https://www.linkedin.com/newsletters/ia-ventas=-exito-garantizado-6952337560673157120/" target="_blank" rel="noopener">Suscribirme a la newsletter</a>
+  </div>
+</div></section>
+</main>
+
+<section class="cta" aria-labelledby="cta">
+  <div class="wrap">
+    <h2 id="cta">¿Quieres instalarlo en tu equipo comercial?</h2>
+    <a class="btn" href="https://calendly.com/sandracurvelo-mentoraventasdigitales-ia" target="_blank" rel="noopener">Agenda 30 minutos con Sandra</a>
+  </div>
+</section>
+
+<footer><div class="wrap"><span>Sandra Curvelo · Founder &amp; CSO, IAM™ · Lo que no se mide no puede ser mejorado.</span><a href="https://iamlatam.co/">iamlatam.co</a></div></footer>
+
+<p class="sr" role="status" aria-live="polite" id="copy-status"></p>
+<script>
+(function(){
+  var status=document.getElementById('copy-status');
+  function selectText(el){
+    try{var r=document.createRange();r.selectNodeContents(el);var s=window.getSelection();s.removeAllRanges();s.addRange(r);}catch(e){}
+  }
+  function legacyCopy(el){
+    selectText(el);
+    try{return document.execCommand('copy');}catch(e){return false;}
+  }
+  function done(btn,ok){
+    btn.textContent=ok?'Copiado':'Texto seleccionado';
+    status.textContent=ok?'Prompt copiado':'Texto seleccionado. Cópialo con tu teléfono o con Ctrl+C.';
+    clearTimeout(btn._t);btn._t=setTimeout(function(){btn.textContent='Copiar';},2200);
+  }
+  document.addEventListener('click',function(ev){
+    var btn=ev.target.closest&&ev.target.closest('.copy');
+    if(!btn)return;
+    var pre=btn.closest('.prompt').querySelector('pre');
+    var text=pre.textContent;
+    try{
+      navigator.clipboard.writeText(text).then(function(){done(btn,true);},function(){done(btn,legacyCopy(pre));});
+    }catch(e){
+      done(btn,legacyCopy(pre));
+    }
+  });
+  /* Marca en el índice la sección visible */
+  try{
+    var links=[].slice.call(document.querySelectorAll('.toc a'));
+    var bar=document.querySelector('.toc-in');
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(!en.isIntersecting)return;
+        links.forEach(function(a){
+          var on=a.getAttribute('href')==='#'+en.target.id;
+          a.classList.toggle('on',on);
+          if(on){bar.scrollTo({left:a.offsetLeft-bar.clientWidth/2+a.offsetWidth/2,behavior:'smooth'});}
+        });
+      });
+    },{rootMargin:'-45% 0px -50% 0px'});
+    links.forEach(function(a){var t=document.querySelector(a.getAttribute('href'));if(t)io.observe(t);});
+  }catch(e){}
+})();
+</script>
+</body>
+</html>
