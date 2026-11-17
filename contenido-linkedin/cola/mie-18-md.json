@@ -8,7 +8,7 @@
   ],
   "aprobado_por": "Sandra",
   "aprobado_el": "2026-11-09",
-  "nota": "Texto aprobado el 9 nov. Pendiente: formato (video de Isaía o imagen de respaldo), primer comentario, verificar ajuste 5 (tareas programadas), palabra clave y link de la guía. 10 nov: Sandra aprobó el ajuste 5 (programar tareas que se repiten; ejemplo: su rutina de LinkedIn cada mañana) y la palabra clave AJUSTES. Claude arma la guía PDF de los 5 ajustes antes del 18; falta definir quién la envía (Sandra por mensaje o Chrome con link). 17 nov: Sandra aprobó el video con el corte después de 'guía' (v5). Primer comentario aprobado el 17 nov. Guía PDF de los 5 ajustes en preparación.",
+  "nota": "Texto aprobado el 9 nov. Pendiente: formato (video de Isaía o imagen de respaldo), primer comentario, verificar ajuste 5 (tareas programadas), palabra clave y link de la guía. 10 nov: Sandra aprobó el ajuste 5 (programar tareas que se repiten; ejemplo: su rutina de LinkedIn cada mañana) y la palabra clave AJUSTES. Claude arma la guía PDF de los 5 ajustes antes del 18; falta definir quién la envía (Sandra por mensaje o Chrome con link). 17 nov: Sandra aprobó el video con el corte después de 'guía' (v5). Primer comentario aprobado el 17 nov. Guía PDF de los 5 ajustes en preparación. 17 nov noche: Sandra rechazó el corte de v5; va la v6 (final completo y tarjeta COMENTA AJUSTES). Publicar solo la v6 y solo si Sandra la ve.",
   "urn": null,
   "payload": {
     "author": "urn:li:person:tsJbwdb3B2",
@@ -22,7 +22,7 @@
     "lifecycleState": "PUBLISHED",
     "isReshareDisabledByAuthor": false
   },
-  "archivo_video": "contenido-linkedin/videos/2026-11-16/ajustes-claude-5-ajustes-v5.mp4",
+  "archivo_video": "contenido-linkedin/videos/2026-11-16/ajustes-claude-5-ajustes-v6.mp4",
   "titulo_video": "5 ajustes para que la IA trabaje contigo",
   "video_aprobado_el": "2026-11-17",
   "primer_comentario": "¿Cuál de los 5 ajustes vas a probar primero?",
