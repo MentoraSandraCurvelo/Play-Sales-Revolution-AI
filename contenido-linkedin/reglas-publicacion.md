@@ -249,3 +249,6 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Guía 2 (SEMANA): iamlatam.co/guias/semana-vendedor-ia/. Guía de los 5 ajustes (AJUSTES): iamlatam.co/guias/5-ajustes-claude/, se publica solo con el sí de Sandra.
 
 ## 17 nov 2026: correo a Luz Stella (ANDI). Sandra aceptó no nombrar la alcaldía: se dice "una alcaldía de la región" (aceptado por el alcalde, adjudicación en trámite). La regla de no nombrar a la Alcaldía de Valledupar sigue sin excepción.
+
+## 42. Milagro Week (17 nov 2026, criterio aplicado)
+- No se comenta ningún post que mencione la Milagro Week (ligada al debate del IVA cero, tema político), aunque el comentario no la nombre. Aplica al Vicepresidente y a cualquier cuenta.
