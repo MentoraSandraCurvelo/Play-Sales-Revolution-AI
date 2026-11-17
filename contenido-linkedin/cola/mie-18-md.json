@@ -1,6 +1,6 @@
 {
   "id": "mie-18-md",
-  "estado": "pendiente_video_v6",
+  "estado": "pendiente_video_v7",
   "programado_bogota": "2026-11-18 07:30",
   "tags": [
     "IA",
@@ -22,7 +22,7 @@
     "lifecycleState": "PUBLISHED",
     "isReshareDisabledByAuthor": false
   },
-  "archivo_video": "contenido-linkedin/videos/2026-11-16/ajustes-claude-5-ajustes-v6.mp4",
+  "archivo_video": "contenido-linkedin/videos/2026-11-16/ajustes-claude-5-ajustes-v7.mp4",
   "titulo_video": "5 ajustes para que la IA trabaje contigo",
   "video_aprobado_el": "2026-11-17",
   "primer_comentario": "¿Cuál de los 5 ajustes vas a probar primero?",
