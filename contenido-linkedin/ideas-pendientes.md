@@ -50,3 +50,8 @@
 - Jueves, agente de contenido: publicaciones y comentarios de valor en posts de prospectos (social selling).
 - Viernes, agente anti-ghosting: propuestas sin respuesta, mensaje de reactivación con algo de valor nuevo; reporte semanal y preparación del lunes.
 - Secuencia propuesta: carrusel "comprar tiempo" (mié 18, el problema) → lanzamiento de la guía con palabra clave (vie 20, la solución) → newsletter ed. 2 (26 nov).
+
+## Idea 17 nov 2026 (Sandra): "El precio solo se discute después del valor, nunca antes."
+- Para LinkedIn. Formato posible: carrusel de aprendizaje o varias fotos de Sandra contando una historia.
+- No desarrollar todavía: se trabaja el 18 nov.
+- Conecta con el guion "voz: el vendedor que hace caso" (5 vectores antes de cotizar, descuento al final y nunca regalado).
