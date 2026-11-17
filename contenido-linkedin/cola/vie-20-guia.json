@@ -1,8 +1,8 @@
 {
   "id": "vie-20-guia",
-  "estado": "pendiente_texto",
-  "aprobado_por": null,
-  "aprobado_el": null,
+  "estado": "aprobado",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-17",
   "video_aprobado_el": "2026-11-17",
   "programado_bogota": "2026-11-20 07:30",
   "urn": null,
@@ -20,6 +20,7 @@
     "lifecycleState": "PUBLISHED",
     "isReshareDisabledByAuthor": false
   },
-  "primer_comentario": "La guía completa, con los prompts de cada día, está aquí: https://iamlatam.co/guias/guia-2-semana-vendedor-ia.pdf",
-  "nota": "Video v3 aprobado por Sandra el 17 nov. Texto de borradores/semana-4/vie-20-pm.txt pendiente de su sí. Palabra clave SEMANA: a quien comente se le responde con el link de la guía."
+  "primer_comentario": "¿Qué día de la semana es el más pesado para tu equipo comercial?",
+  "nota": "Video v3 y texto aprobados por Sandra el 17 nov. Primer comentario: pregunta (sin link) para invitar a comentar. Palabra clave SEMANA: a quien comente se le responde con https://iamlatam.co/guias/guia-2-semana-vendedor-ia.pdf",
+  "primer_comentario_aprobado_el": "2026-11-17"
 }
