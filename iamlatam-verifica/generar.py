@@ -143,7 +143,7 @@ def pagina(p):
     add = 'https://www.linkedin.com/profile/add?' + urllib.parse.urlencode({
         'startTask': 'CERTIFICATION_NAME', 'name': 'IAM™ Ambassadors · Embajador de marca en LinkedIn con IA',
         'organizationName': 'IAM™ Influence', 'issueYear': '2026', 'issueMonth': '9', 'certUrl': url, 'certId': code})
-    share = 'https://www.linkedin.com/sharing/share-offsite/?' + urllib.parse.urlencode({'url': url})
+    share = 'https://www.linkedin.com/feed/?' + urllib.parse.urlencode({'shareActive': 'true', 'text': POSTS[num]}, quote_via=urllib.parse.quote)
     nuevas = hoy - ini
     red = f'<div><b>{fmt(ini)} → {fmt(hoy)}</b><span>seguidores en LinkedIn</span></div>'
     if ini > 0:
@@ -191,20 +191,15 @@ def pagina(p):
  </div>
  <div class="acc">
   <a class="btn li" href="{e(add)}" target="_blank" rel="noopener">{LI}Agregar a mi perfil de LinkedIn</a>
-  <a class="btn" href="{e(share)}" target="_blank" rel="noopener">Compartir en LinkedIn</a>
+  <a class="btn" id="pub" href="{e(share)}" target="_blank" rel="noopener">Compartir en LinkedIn</a>
   <a class="btn" href="{e(li_url)}" target="_blank" rel="noopener">Ver su perfil</a>
   <button class="btn au" type="button" onclick="window.print()">Descargar en PDF</button>
  </div>
- <details class="kit"><summary>¿Eres {e(nombre.split()[0])}? Tu publicación para LinkedIn ya está lista</summary>
-  <pre id="post">{e(POSTS[num])}</pre>
-  <div class="kb"><button class="btn li" type="button" id="cp">{LI}Copiar y abrir LinkedIn</button><span id="ok" role="status"></span></div>
-  <script>document.getElementById('cp').onclick=function(){{var t=document.getElementById('post').textContent,o=document.getElementById('ok');function ir(){{o.textContent='Copiado. Pégalo en LinkedIn y cambia cada @ por la mención real.';window.open({json.dumps(share)},'_blank','noopener')}}
-  try{{navigator.clipboard.writeText(t).then(ir,function(){{o.textContent='Selecciona el texto y cópialo.'}})}}catch(x){{o.textContent='Selecciona el texto y cópialo.'}}}};</script>
- </details>
  <div class="huella"><span>Huella del registro (SHA-256): <code>{huella}</code></span><span id="cuando"></span></div>
 </div></main>
 <p class="pie">Este registro confirma que el certificado {code} fue emitido por IAM™ a nombre de {e(nombre)}.<br>¿Tienes dudas sobre un certificado? Escríbenos desde <a href="/">iamlatam.co</a>.</p>
 <script>
+var POST={json.dumps(POSTS[num]).replace("</","<\\/")};document.getElementById('pub').addEventListener('click',function(){{try{{navigator.clipboard.writeText(POST)}}catch(x){{}}}});
 (function(){{var rm=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
 var d=new Date();try{{document.getElementById('cuando').textContent='Consultado el '+d.toLocaleDateString('es-CO',{{day:'numeric',month:'long',year:'numeric'}})+' a las '+d.toLocaleTimeString('es-CO',{{hour:'2-digit',minute:'2-digit'}});}}catch(e){{}}
 setTimeout(function(){{document.body.classList.add('listo');if(rm)return;
