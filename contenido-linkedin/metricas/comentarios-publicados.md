@@ -97,3 +97,10 @@ Pendiente: Parte 3 métricas, invitaciones sin nota.
 - Grupo ZFB, post Hyperscale Hub con Enel: comentario aprobado por Sandra (primera frase ajustada, sin IVA ni Milagro Week): https://lnkd.in/p/ecQ2VJgx. Reacción Interesante.
 - Invitaciones sin nota: Juan Pablo Rivera (Presidente Grupo ZFB) y Isabella Muñoz (Gerente General Desarrolladora de Zonas Francas), Pending.
 - Newsletter edición 2 programada por Chrome para jue 26 nov, 7:30 a. m.
+
+## 17 nov 2026
+- Post mar-17-am publicado 7:30 (urn:li:share:7528436097605890049): like y compartido desde IAM (frase 2).
+- Comentario CC Bogotá, Red de Inclusión Productiva: https://www.linkedin.com/feed/update/urn:li:ugcPost:7528507286839947265/?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7528507286839947265%2C7528523712057241600%29
+- Comentario CC Barranquilla, SISI Lab: https://www.linkedin.com/feed/update/urn:li:ugcPost:7528443775946391552/?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7528443775946391552%2C7528524074193571840%29
+- Invitaciones sin nota: Efraín Cepeda Tarud (CC Barranquilla) y Juan Esteban Orrego Calle (CC Bogotá), Pending.
+- No publicados: Grupo Plata (regla Milagro Week); ProBarranquilla y ProColombia ya tenían comentario.
