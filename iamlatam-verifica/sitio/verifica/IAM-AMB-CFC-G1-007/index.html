@@ -108,7 +108,13 @@ h1{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:54px;line-he
 .kit summary{cursor:pointer;padding:14px 18px;font-family:Montserrat,Arial,sans-serif;font-weight:700;font-size:14px;letter-spacing:.04em;color:var(--tinta)}
 .kit pre{margin:0 18px;max-height:340px;overflow:auto;white-space:pre-wrap;font:16px/1.5 'Open Sans',Arial,sans-serif;color:var(--tinta);background:#f6efe1;padding:16px;border-radius:3px}
 .kit .kb{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:14px 18px}.kit .kb span{font-size:14px;color:var(--ok)}
-@media print{body{background:#fff;padding:0}.velo,.acc,.kit,.top .seg,.pie{display:none}.hoja{box-shadow:none}}
+.pk{position:fixed;inset:0;z-index:40;background:rgba(20,17,13,.72);display:flex;align-items:center;justify-content:center;padding:16px}.pk[hidden]{display:none}
+.pkc{position:relative;background:#fffdf8;border-radius:6px;max-width:460px;width:100%;padding:26px 22px;display:flex;flex-direction:column;gap:12px;font-size:16px;color:var(--tinta);max-height:92vh;overflow:auto}
+.pkc>b{font-family:Montserrat,Arial,sans-serif;font-size:20px}.pkok{color:var(--ok);font-weight:600}.pkc ol{margin:0;padding-left:20px;line-height:1.5}
+.pkc .btn{justify-content:center}.pkotra{background:none;border:0;color:var(--tinta7);text-decoration:underline;font-size:14px;cursor:pointer}
+.pkx{position:absolute;top:8px;right:12px;background:none;border:0;font-size:28px;cursor:pointer;color:var(--tinta7)}
+.pkc pre{white-space:pre-wrap;font:14px/1.5 'Open Sans',Arial,sans-serif;background:#f6efe1;padding:12px;border-radius:3px;max-height:200px;overflow:auto}
+@media print{body{background:#fff;padding:0}.pk,.velo,.acc,.kit,.top .seg,.pie{display:none}.hoja{box-shadow:none}}
 </style></head>
 <body>
 <div class="velo" aria-hidden="true"><div class="c"><div class="anillo"></div>Verificando certificado<code>IAM-AMB-CFC-G1-007</code></div></div>
@@ -163,15 +169,38 @@ h1{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:54px;line-he
  </div>
  <div class="acc">
   <a class="btn li" href="https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&amp;name=IAM%E2%84%A2+Ambassadors+%C2%B7+Embajador+de+marca+en+LinkedIn+con+IA&amp;organizationName=IAM%E2%84%A2+Influence&amp;issueYear=2026&amp;issueMonth=9&amp;certUrl=https%3A%2F%2Fiamlatam.co%2Fverifica%2FIAM-AMB-CFC-G1-007&amp;certId=IAM-AMB-CFC-G1-007" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>Agregar a mi perfil de LinkedIn</a>
-  <a class="btn" id="pub" href="https://www.linkedin.com/feed/?shareActive=true&amp;text=Talento%20humano%20que%20no%20est%C3%A1%20en%20LinkedIn%20es%20como%20una%20vitrina%20cerrada.%0A%0AHace%204%20meses%20no%20ten%C3%ADa%20perfil.%20Hoy%20tengo%20201%20seguidores%20y%20un%20perfil%20profesional%20completo.%0A%0ARecibo%20mi%20certificado%20como%20embajador%20de%20marca%20de%20la%20primera%20generaci%C3%B3n%20de%20Comfacesar%2C%20programa%20IAM%E2%84%A2%20Ambassadors.%0A%0AAprend%C3%AD%20que%20la%20marca%20empleadora%20de%20Comfacesar%20tambi%C3%A9n%20se%20construye%20con%20la%20voz%20de%20quienes%20trabajamos%20aqu%C3%AD.%0A%0AGracias%20a%20%40Sandra%20Curvelo%20y%20a%20%40IAM%E2%84%A2%20%28Influence%2C%20Inteligencia%20Artificial%2C%20Monetization%29%20por%20la%20mentor%C3%ADa%2C%20y%20a%20%40Comfacesar%20por%20apostarle%20a%20que%20su%20gente%20sea%20su%20mejor%20vitrina.%0A%0A%C2%BFQu%C3%A9%20hace%20que%20una%20empresa%20sea%20un%20buen%20lugar%20para%20trabajar%3F%20%F0%9F%91%87%0A%0A%23EmbajadoresDeMarca%20%23Comfacesar%20%23IAMAmbassadors%20%23LinkedIn%20%23IA%0A%0Ahttps%3A%2F%2Fiamlatam.co%2Fverifica%2FIAM-AMB-CFC-G1-007" target="_blank" rel="noopener">Compartir en LinkedIn</a>
+  <a class="btn" id="pub" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fiamlatam.co%2Fverifica%2FIAM-AMB-CFC-G1-007" target="_blank" rel="noopener">Compartir en LinkedIn</a>
   <a class="btn" href="https://www.linkedin.com/in/lacides-daza-gestionhumana-comfacesar-seleccion" target="_blank" rel="noopener">Ver su perfil</a>
   <button class="btn au" type="button" onclick="window.print()">Descargar en PDF</button>
  </div>
+ <div id="pk" class="pk" hidden><div class="pkc" role="dialog" aria-modal="true" aria-labelledby="pk-t">
+  <button type="button" id="pk-x" class="pkx" aria-label="Cerrar">×</button>
+  <b id="pk-t">Tu publicación está lista</b><span id="pk-ok" class="pkok"></span>
+  <ol><li>Toca <b>Abrir LinkedIn</b>: sale la tarjeta de tu certificado.</li><li>Toca el cuadro de texto, mantén presionado y elige <b>Pegar</b>.</li><li>Corrige las @ eligiéndolas de la lista y publica.</li></ol>
+  <a class="btn li" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fiamlatam.co%2Fverifica%2FIAM-AMB-CFC-G1-007" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>Abrir LinkedIn</a>
+  <button type="button" class="pkotra" id="pk-otra">Copiar el post otra vez</button>
+  <details><summary>Ver el texto</summary><pre>Talento humano que no está en LinkedIn es como una vitrina cerrada.
+
+Hace 4 meses no tenía perfil. Hoy tengo 201 seguidores y un perfil profesional completo.
+
+Recibo mi certificado como embajador de marca de la primera generación de Comfacesar, programa IAM™ Ambassadors.
+
+Aprendí que la marca empleadora de Comfacesar también se construye con la voz de quienes trabajamos aquí.
+
+Gracias a @Sandra Curvelo y a @IAM™ (Influence, Inteligencia Artificial, Monetization) por la mentoría, y a @Comfacesar por apostarle a que su gente sea su mejor vitrina.
+
+¿Qué hace que una empresa sea un buen lugar para trabajar? 👇
+
+#EmbajadoresDeMarca #Comfacesar #IAMAmbassadors #LinkedIn #IA</pre></details>
+ </div></div>
  <div class="huella"><span>Huella del registro (SHA-256): <code>9aeb140f51d50c030a6527474c8d065591a30309f78ac1cb9eeb18c8dd17100d</code></span><span id="cuando"></span></div>
 </div></main>
 <p class="pie">Este registro confirma que el certificado IAM-AMB-CFC-G1-007 fue emitido por IAM™ a nombre de Lacides Daza.<br>¿Tienes dudas sobre un certificado? Escríbenos desde <a href="/">iamlatam.co</a>.</p>
 <script>
-var POST="Talento humano que no est\u00e1 en LinkedIn es como una vitrina cerrada.\n\nHace 4 meses no ten\u00eda perfil. Hoy tengo 201 seguidores y un perfil profesional completo.\n\nRecibo mi certificado como embajador de marca de la primera generaci\u00f3n de Comfacesar, programa IAM\u2122 Ambassadors.\n\nAprend\u00ed que la marca empleadora de Comfacesar tambi\u00e9n se construye con la voz de quienes trabajamos aqu\u00ed.\n\nGracias a @Sandra Curvelo y a @IAM\u2122 (Influence, Inteligencia Artificial, Monetization) por la mentor\u00eda, y a @Comfacesar por apostarle a que su gente sea su mejor vitrina.\n\n\u00bfQu\u00e9 hace que una empresa sea un buen lugar para trabajar? \ud83d\udc47\n\n#EmbajadoresDeMarca #Comfacesar #IAMAmbassadors #LinkedIn #IA\n\nhttps://iamlatam.co/verifica/IAM-AMB-CFC-G1-007";document.getElementById('pub').addEventListener('click',function(){try{navigator.clipboard.writeText(POST)}catch(x){}});
+var POST="Talento humano que no est\u00e1 en LinkedIn es como una vitrina cerrada.\n\nHace 4 meses no ten\u00eda perfil. Hoy tengo 201 seguidores y un perfil profesional completo.\n\nRecibo mi certificado como embajador de marca de la primera generaci\u00f3n de Comfacesar, programa IAM\u2122 Ambassadors.\n\nAprend\u00ed que la marca empleadora de Comfacesar tambi\u00e9n se construye con la voz de quienes trabajamos aqu\u00ed.\n\nGracias a @Sandra Curvelo y a @IAM\u2122 (Influence, Inteligencia Artificial, Monetization) por la mentor\u00eda, y a @Comfacesar por apostarle a que su gente sea su mejor vitrina.\n\n\u00bfQu\u00e9 hace que una empresa sea un buen lugar para trabajar? \ud83d\udc47\n\n#EmbajadoresDeMarca #Comfacesar #IAMAmbassadors #LinkedIn #IA";
+function copiar(){var ok=document.getElementById('pk-ok');try{navigator.clipboard.writeText(POST).then(function(){ok.textContent='✓ Tu post quedó copiado'},function(){ok.textContent='Selecciona el texto de abajo y cópialo'})}catch(x){ok.textContent='Selecciona el texto de abajo y cópialo'}}
+document.getElementById('pub').addEventListener('click',function(ev){ev.preventDefault();copiar();document.getElementById('pk').hidden=false});
+document.getElementById('pk-otra').onclick=copiar;document.getElementById('pk-x').onclick=function(){document.getElementById('pk').hidden=true};
 (function(){var rm=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
 var d=new Date();try{document.getElementById('cuando').textContent='Consultado el '+d.toLocaleDateString('es-CO',{day:'numeric',month:'long',year:'numeric'})+' a las '+d.toLocaleTimeString('es-CO',{hour:'2-digit',minute:'2-digit'});}catch(e){}
 setTimeout(function(){document.body.classList.add('listo');if(rm)return;

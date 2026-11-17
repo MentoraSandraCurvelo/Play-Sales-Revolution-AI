@@ -121,7 +121,13 @@ h1{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:54px;line-he
 .kit summary{cursor:pointer;padding:14px 18px;font-family:Montserrat,Arial,sans-serif;font-weight:700;font-size:14px;letter-spacing:.04em;color:var(--tinta)}
 .kit pre{margin:0 18px;max-height:340px;overflow:auto;white-space:pre-wrap;font:16px/1.5 'Open Sans',Arial,sans-serif;color:var(--tinta);background:#f6efe1;padding:16px;border-radius:3px}
 .kit .kb{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:14px 18px}.kit .kb span{font-size:14px;color:var(--ok)}
-@media print{body{background:#fff;padding:0}.velo,.acc,.kit,.top .seg,.pie{display:none}.hoja{box-shadow:none}}
+.pk{position:fixed;inset:0;z-index:40;background:rgba(20,17,13,.72);display:flex;align-items:center;justify-content:center;padding:16px}.pk[hidden]{display:none}
+.pkc{position:relative;background:#fffdf8;border-radius:6px;max-width:460px;width:100%;padding:26px 22px;display:flex;flex-direction:column;gap:12px;font-size:16px;color:var(--tinta);max-height:92vh;overflow:auto}
+.pkc>b{font-family:Montserrat,Arial,sans-serif;font-size:20px}.pkok{color:var(--ok);font-weight:600}.pkc ol{margin:0;padding-left:20px;line-height:1.5}
+.pkc .btn{justify-content:center}.pkotra{background:none;border:0;color:var(--tinta7);text-decoration:underline;font-size:14px;cursor:pointer}
+.pkx{position:absolute;top:8px;right:12px;background:none;border:0;font-size:28px;cursor:pointer;color:var(--tinta7)}
+.pkc pre{white-space:pre-wrap;font:14px/1.5 'Open Sans',Arial,sans-serif;background:#f6efe1;padding:12px;border-radius:3px;max-height:200px;overflow:auto}
+@media print{body{background:#fff;padding:0}.pk,.velo,.acc,.kit,.top .seg,.pie{display:none}.hoja{box-shadow:none}}
 '''
 
 FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=EB+Garamond:wght@400;600&family=Montserrat:wght@600;700&display=swap">'
@@ -143,7 +149,8 @@ def pagina(p):
     add = 'https://www.linkedin.com/profile/add?' + urllib.parse.urlencode({
         'startTask': 'CERTIFICATION_NAME', 'name': 'IAM™ Ambassadors · Embajador de marca en LinkedIn con IA',
         'organizationName': 'IAM™ Influence', 'issueYear': '2026', 'issueMonth': '9', 'certUrl': url, 'certId': code})
-    share = 'https://www.linkedin.com/feed/?' + urllib.parse.urlencode({'shareActive': 'true', 'text': POSTS[num]}, quote_via=urllib.parse.quote)
+    share = 'https://www.linkedin.com/sharing/share-offsite/?' + urllib.parse.urlencode({'url': url})
+    texto = POSTS[num].rsplit('\n\nhttps://', 1)[0]
     nuevas = hoy - ini
     red = f'<div><b>{fmt(ini)} → {fmt(hoy)}</b><span>seguidores en LinkedIn</span></div>'
     if ini > 0:
@@ -195,11 +202,22 @@ def pagina(p):
   <a class="btn" href="{e(li_url)}" target="_blank" rel="noopener">Ver su perfil</a>
   <button class="btn au" type="button" onclick="window.print()">Descargar en PDF</button>
  </div>
+ <div id="pk" class="pk" hidden><div class="pkc" role="dialog" aria-modal="true" aria-labelledby="pk-t">
+  <button type="button" id="pk-x" class="pkx" aria-label="Cerrar">×</button>
+  <b id="pk-t">Tu publicación está lista</b><span id="pk-ok" class="pkok"></span>
+  <ol><li>Toca <b>Abrir LinkedIn</b>: sale la tarjeta de tu certificado.</li><li>Toca el cuadro de texto, mantén presionado y elige <b>Pegar</b>.</li><li>Corrige las @ eligiéndolas de la lista y publica.</li></ol>
+  <a class="btn li" href="{e(share)}" target="_blank" rel="noopener">{LI}Abrir LinkedIn</a>
+  <button type="button" class="pkotra" id="pk-otra">Copiar el post otra vez</button>
+  <details><summary>Ver el texto</summary><pre>{e(texto)}</pre></details>
+ </div></div>
  <div class="huella"><span>Huella del registro (SHA-256): <code>{huella}</code></span><span id="cuando"></span></div>
 </div></main>
 <p class="pie">Este registro confirma que el certificado {code} fue emitido por IAM™ a nombre de {e(nombre)}.<br>¿Tienes dudas sobre un certificado? Escríbenos desde <a href="/">iamlatam.co</a>.</p>
 <script>
-var POST={json.dumps(POSTS[num]).replace("</","<\\/")};document.getElementById('pub').addEventListener('click',function(){{try{{navigator.clipboard.writeText(POST)}}catch(x){{}}}});
+var POST={json.dumps(texto).replace("</","<\\/")};
+function copiar(){{var ok=document.getElementById('pk-ok');try{{navigator.clipboard.writeText(POST).then(function(){{ok.textContent='✓ Tu post quedó copiado'}},function(){{ok.textContent='Selecciona el texto de abajo y cópialo'}})}}catch(x){{ok.textContent='Selecciona el texto de abajo y cópialo'}}}}
+document.getElementById('pub').addEventListener('click',function(ev){{ev.preventDefault();copiar();document.getElementById('pk').hidden=false}});
+document.getElementById('pk-otra').onclick=copiar;document.getElementById('pk-x').onclick=function(){{document.getElementById('pk').hidden=true}};
 (function(){{var rm=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
 var d=new Date();try{{document.getElementById('cuando').textContent='Consultado el '+d.toLocaleDateString('es-CO',{{day:'numeric',month:'long',year:'numeric'}})+' a las '+d.toLocaleTimeString('es-CO',{{hour:'2-digit',minute:'2-digit'}});}}catch(e){{}}
 setTimeout(function(){{document.body.classList.add('listo');if(rm)return;
