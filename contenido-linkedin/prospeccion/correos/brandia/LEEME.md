@@ -30,3 +30,5 @@ B) Tu empresa ya tiene IA. Lo que le falta es un sistema.
 C) IA que se mide en horas recuperadas, no en promesas
 
 **Preheader:** Mira en un tablero cómo suben las áreas de una empresa con IA. Sesión exploratoria sin costo.
+
+## 17 nov 2026: Sandra aprobó los 4 correos con tablero GIF (ANDI a Luz Stella Murgas, Comfandi, ProBarranquilla, CCB). Comfacesar se nombra como cliente, sin cifras. Falta: destinatarios (Chrome), GIF alojado en iamlatam.co y prueba de envío a Sandra.
