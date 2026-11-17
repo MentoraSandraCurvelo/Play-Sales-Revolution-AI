@@ -1,6 +1,6 @@
 {
   "id": "mie-18-md",
-  "estado": "pendiente_formato",
+  "estado": "aprobado",
   "programado_bogota": "2026-11-18 07:30",
   "tags": [
     "IA",
@@ -8,5 +8,22 @@
   ],
   "aprobado_por": "Sandra",
   "aprobado_el": "2026-11-09",
-  "nota": "Texto aprobado el 9 nov. Pendiente: formato (video de Isaía o imagen de respaldo), primer comentario, verificar ajuste 5 (tareas programadas), palabra clave y link de la guía. 10 nov: Sandra aprobó el ajuste 5 (programar tareas que se repiten; ejemplo: su rutina de LinkedIn cada mañana) y la palabra clave AJUSTES. Claude arma la guía PDF de los 5 ajustes antes del 18; falta definir quién la envía (Sandra por mensaje o Chrome con link)."
+  "nota": "Texto aprobado el 9 nov. Pendiente: formato (video de Isaía o imagen de respaldo), primer comentario, verificar ajuste 5 (tareas programadas), palabra clave y link de la guía. 10 nov: Sandra aprobó el ajuste 5 (programar tareas que se repiten; ejemplo: su rutina de LinkedIn cada mañana) y la palabra clave AJUSTES. Claude arma la guía PDF de los 5 ajustes antes del 18; falta definir quién la envía (Sandra por mensaje o Chrome con link). 17 nov: Sandra aprobó el video con el corte después de 'guía' (v5). Primer comentario propuesto, pendiente de su sí. Guía PDF de los 5 ajustes en preparación.",
+  "urn": null,
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "¿Usas la IA como buscador? Preguntas, copias la respuesta y cierras la ventana.\n\nAsí la mayoría de los equipos están desperdiciando la herramienta que más productividad les puede dar.\n\n5 ajustes para que Claude deje de ser un buscador y empiece a trabajar contigo:\n\n⭕ Usa la app de escritorio, no solo el navegador.\n⭕ Crea un proyecto por área, con sus archivos y sus instrucciones.\n⭕ Conéctala a tus herramientas: correo, Drive, calendario.\n⭕ Crea una habilidad para las tareas que repites cada semana.\n⭕ Programa las tareas que se hacen solas.\n\nNo tienes que activar los 5 hoy. Empieza con uno.\n\nY si lo vas a llevar a tu empresa, hazlo con licencias empresariales y reglas claras. Tu información lo vale.\n\nComenta AJUSTES y te dejo la guía.\n\nSígueme si quieres que la IA trabaje con tu equipo, no solo para responder preguntas.\n\n{hashtag|\\#|IA} {hashtag|\\#|Productividad} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
+  },
+  "archivo_video": "contenido-linkedin/videos/2026-11-16/ajustes-claude-5-ajustes-v5.mp4",
+  "titulo_video": "5 ajustes para que la IA trabaje contigo",
+  "video_aprobado_el": "2026-11-17",
+  "primer_comentario_propuesto": "¿Cuál de los 5 ajustes vas a probar primero?"
 }
