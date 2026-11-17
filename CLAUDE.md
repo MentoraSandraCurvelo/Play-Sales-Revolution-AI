@@ -23,6 +23,13 @@ Sandra no quiere hacer tareas manuales. Antes de pedirle que suba, descargue, co
 - **LinkedIn (API conectada):** solo ve el perfil personal de Sandra. No da acceso de administradora a páginas de compañía ni a perfiles de terceros. Para Analytics de páginas y perfiles de embajadores: Claude in Chrome desde el computador de Sandra.
 - **Claude in Chrome:** solo funciona desde el computador de Sandra con la extensión conectada; no desde sesiones en la nube.
 
+## Sitio iamlatam.co (Netlify): cuidado al publicar
+
+- Cada publicación en Netlify **reemplaza el sitio completo**. Lo que no esté en la carpeta que se sube, desaparece.
+- La carpeta `/verifica/` (certificados IAM™ Ambassadors con QR impreso en los diplomas) y el archivo `_redirects` **siempre** deben ir en cada publicación. Fuente: `iamlatam-verifica/` en este repositorio (`generar.py` la regenera).
+- Antes de publicar, descargar lo que está en línea (index, `/guias/`, videos, `/verifica/`) y publicar la suma, nunca solo la parte que se editó.
+- El 17 de noviembre de 2026 una publicación de `/guias/` borró `/verifica/` y los QR de los diplomas dieron "página no encontrada".
+
 ## Fotos de Sandra (uso libre, se pueden editar con IA)
 
 - Dropbox `/Fotos Profesionales` (212 archivos, alta resolución). Favorita para presentaciones ejecutivas: `Foto Red Conference.png` (blazer rojo).
