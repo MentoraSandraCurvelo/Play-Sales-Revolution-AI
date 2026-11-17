@@ -1,0 +1,25 @@
+{
+  "id": "vie-20-guia",
+  "estado": "pendiente_texto",
+  "aprobado_por": null,
+  "aprobado_el": null,
+  "video_aprobado_el": "2026-11-17",
+  "programado_bogota": "2026-11-20 07:30",
+  "urn": null,
+  "archivo_video": "contenido-linkedin/videos/2026-11-16/guia-semana-vendedor-ia-v3.mp4",
+  "titulo_video": "La semana del vendedor con IA",
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "Lunes, 8 de la mañana. El vendedor abre el computador y piensa: \"¿y ahora yo qué hago?\".\n\nEl síndrome de la hoja en blanco.\n\nY el viernes, otra escena: la propuesta enviada hace 2 semanas y el cliente que no responde. Ghosting.\n\nArmé una guía para esas 2 escenas: \"La semana del vendedor con IA\". De lunes a viernes, qué hace cada agente y qué decide el vendedor:\n\n⭕ Lunes: el agente revisa el CRM, el pipeline y el forecast, y te dice tus 10 acciones de la semana.\n⭕ Martes: segmentación por industria y prospectos ideales en LinkedIn.\n⭕ Miércoles: correos por segmento, listos para revisar y enviar.\n⭕ Jueves: tu publicación y tus comentarios de la semana.\n⭕ Viernes: reactivar las propuestas sin respuesta y dejar listo el lunes.\n\nLa IA prepara. Tú decides y envías.\n\nComenta SEMANA y te la envío por mensaje directo.\n\n{hashtag|\\#|Ventas} {hashtag|\\#|IA} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
+  },
+  "primer_comentario": "La guía completa, con los prompts de cada día, está aquí: https://iamlatam.co/guias/guia-2-semana-vendedor-ia.pdf",
+  "nota": "Video v3 aprobado por Sandra el 17 nov. Texto de borradores/semana-4/vie-20-pm.txt pendiente de su sí. Palabra clave SEMANA: a quien comente se le responde con el link de la guía."
+}
