@@ -248,4 +248,4 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - A quien comente la palabra clave se le envía el link de una página HTML en iamlatam.co/guias/, no un PDF. El PDF queda solo como respaldo.
 - Guía 2 (SEMANA): iamlatam.co/guias/semana-vendedor-ia/. Guía de los 5 ajustes (AJUSTES): iamlatam.co/guias/5-ajustes-claude/, se publica solo con el sí de Sandra.
 
-## Excepción 17 nov 2026 (Sandra): en el correo a Luz Stella Murgas (ANDI) sí se nombra a la Alcaldía de Valledupar como primera alcaldía en implementar el IAE™ desde enero de 2027. Solo en ese correo; la regla general de no nombrarla sigue igual.
+## 17 nov 2026: correo a Luz Stella (ANDI). Sandra aceptó no nombrar la alcaldía: se dice "una alcaldía de la región" (aceptado por el alcalde, adjudicación en trámite). La regla de no nombrar a la Alcaldía de Valledupar sigue sin excepción.
