@@ -10,3 +10,7 @@ Fuente de verdad: esta tabla y la sección "Lista de prospectos" de la página C
 | 10 nov 2026 | María José Vengoechea Devis | Presidenta Ejecutiva (por verificar) | Cámara de Comercio de Barranquilla | Cámaras | 2º | Invitación con nota enviada 10 nov (Pending) | Al aceptar, mensaje interno ligado al correo enviado a rlara@ |
 | 10 nov 2026 | Nicolás Botero Páramo | Presidente | Confecámaras | Cámaras | 2º | Invitación con nota enviada 10 nov (Pending) | Al aceptar, mensaje interno |
 | 10 nov 2026 | Vicky Osorio S. | Directora Ejecutiva | ProBarranquilla | Agencias de promoción | 1º | Mensaje directo ENVIADO 10 nov 8:08 a. m. (ojo: no respondió mensajes anteriores desde 2022) | Esperar; si no responde en 7 días, comentar sus publicaciones antes de otro intento |
+
+## Gustavo Eduardo Mendez Wiesner (Nebo Data Analysis, Cartagena)
+- 17 nov 2026: escribió proponiendo sinergias y preguntando por presencia/expansión de IAM en el Caribe. Lectura: posible aliado, no cliente (operación de 1 persona, sin casos publicados).
+- 17 nov 1:45 p. m.: Sandra respondió (presencia en el Caribe con Comfacesar, Drummond, Klarens; le preguntó qué empresas atiende en Cartagena y qué sinergia concreta ve). Llamada solo si responde algo concreto.
