@@ -104,3 +104,7 @@ Pendiente: Parte 3 métricas, invitaciones sin nota.
 - Comentario CC Barranquilla, SISI Lab: https://www.linkedin.com/feed/update/urn:li:ugcPost:7528443775946391552/?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7528443775946391552%2C7528524074193571840%29
 - Invitaciones sin nota: Efraín Cepeda Tarud (CC Barranquilla) y Juan Esteban Orrego Calle (CC Bogotá), Pending.
 - No publicados: Grupo Plata (regla Milagro Week); ProBarranquilla y ProColombia ya tenían comentario.
+
+## 18 nov, regla 43 aplicada
+- Enrique Ivorra: comentario con pedido de 20 min eliminado; respuesta de valor publicada (https://lnkd.in/p/ecZQKzDQ); invitación sin nota, aceptada el mismo día; mensaje interno con Calendly enviado 1:50 p. m. La tarea de mañana solo revisa si respondió y se lo muestra a Sandra, sin contestar.
+- Primeros comentarios con Calendly público editados (no borrados): video IAE™ jue 12 nov y post lun 16 nov. Respuestas de Enrique intactas.

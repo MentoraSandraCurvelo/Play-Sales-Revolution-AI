@@ -8,8 +8,8 @@
     "IA",
     "Productividad"
   ],
-  "primer_comentario": "Si quieres ver cómo se vería el IAE™ en tu empresa, agenda 30 minutos conmigo aquí: https://calendly.com/sandracurvelo-mentoraventasdigitales-ia",
-  "nota": "Aprobado por Sandra el 10 nov (video nave v3, portada con título detrás, texto y primer comentario). Fecha: jue 12 nov 12:30. 10 nov: v4 con IAE™ grande al decir el nombre del índice (pedido de Sandra); video re-subido, urn nuevo.",
+  "primer_comentario": "Una pregunta para gerentes: ¿hoy pueden decir cuántas horas les recuperó la IA el mes pasado? Si la respuesta es 'más o menos', ahí empieza el IAE™.",
+  "nota": "Aprobado por Sandra el 10 nov (video nave v3, portada con título detrás, texto y primer comentario). Fecha: jue 12 nov 12:30. 10 nov: v4 con IAE™ grande al decir el nombre del índice (pedido de Sandra); video re-subido, urn nuevo. | 18 nov: primer comentario editado en LinkedIn por Chrome (aprobado por Sandra) para quitar el Calendly público, regla 43. NO volver a publicar el texto anterior.",
   "portada": "contenido-linkedin/imagenes/portada-iae-scifi.jpg",
   "payload": {
     "author": "urn:li:person:tsJbwdb3B2",
@@ -29,5 +29,6 @@
   "titulo_video": "¿Quién usa de verdad la IA?",
   "primer_comentario_aprobado_el": "2026-11-10",
   "video": "urn:li:video:D4E10AQEI4nsxz7UvgA",
-  "publicado_utc": "2026-11-12T16:31:01+00:00"
+  "publicado_utc": "2026-11-12T16:31:01+00:00",
+  "primer_comentario_anterior_retirado": "Si quieres ver cómo se vería el IAE™ en tu empresa, agenda 30 minutos conmigo aquí: https://calendly.com/sandracurvelo-mentoraventasdigitales-ia"
 }
