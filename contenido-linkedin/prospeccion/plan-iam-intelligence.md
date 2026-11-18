@@ -55,3 +55,9 @@ Sandra escribe "rutina IAM" en Chrome; Chrome abre la página Cola IAM LinkedIn 
 ## Cargos objetivo (18 nov 2026, Sandra)
 - SÍ: gerentes generales, presidentes, vicepresidentes (no de tecnología), directores comerciales, directores de marketing, directores de comunicación.
 - NO: directores de tecnología, TI o transformación digital; talento humano o gestión humana; formación.
+
+## Envíos mensaje 1 (18 nov 2026, 9:07 a 9:36 a. m., Chrome)
+Paula Sandoval Ruiz (GG Sarupetrol), Andrés Arredondo López (GG Texproinn), Gabriel Quevedo Rivera (Dir. Comercial y Marketing Sigma Asistencia), Ricardo Meza (Dir. Comercial MASGROUP), Joaquín Llano (Dir. Comercial Manitoba), Obet Taborda (Gte. Comercial Layher), Juan David Cadavid Gómez (Gte. Comercial Café Quindío), Gonzalo Lara García (Gte. Comercial GSC Nutresa), Carlos Blanco Sposito (Presidente Tigo Colombia), Germán Rodríguez Perdomo (Presidente Banco Pichincha), Luis Fernando Jaramillo Ceballos (Presidente Heinsohn), Carolina Salcedo (GG Busch Colombia).
+Enviados antes de la regla de cargos y FUERA del objetivo (no se les mandan mensajes 2 y 3): Juan Carlos Torres Londoño (Talento Humano Coltanques), María Fernanda Palacio Sánchez (Talento Humano ORF), Luis Alberto Galindo Aguilar (Talento Humano PAN PA' YA).
+Mensaje 2 el 23 nov y mensaje 3 el 30 nov para quien no responda.
+Excluido: Juan Carlos Duque Gómez (Asequimicos), conversación en curso desde junio.
