@@ -255,3 +255,8 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 
 ## 43. Reuniones solo por mensaje interno (18 nov 2026, Sandra)
 - Nunca se pide una reunión ni se pone el link de agenda en un comentario público. En público: solo valor y preguntas. La reunión se pide por mensaje interno.
+
+## 0. REGLA PRINCIPAL: cuidar la imagen de Sandra (18 nov 2026)
+- Todo comentario, mensaje o acción debe hacer ver a Sandra como autoridad, nunca como alguien que necesita vender.
+- Nada que ponga en aprietos a otra persona en público. Nada que Sandra no diría frente a presidentes de empresa.
+- Ante la duda, no se publica: se le pregunta a Sandra.
