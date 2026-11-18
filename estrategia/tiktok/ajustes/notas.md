@@ -3,3 +3,4 @@
 - LinkedIn lo estrena mié 18 nov 7:30 a. m. Solo TikTok (no va a Instagram, según Demetri).
 - Palabra AJUSTES: respuesta manual por mensaje directo con la guía https://iamlatam.co/guias/5-ajustes-claude/ (verificada 200 OK el 18 nov).
 - Estado: pendiente de aprobación de fecha y texto.
+- APROBADO por Sandra el 18 nov: publica mié 18 a las 6:30 p. m.
