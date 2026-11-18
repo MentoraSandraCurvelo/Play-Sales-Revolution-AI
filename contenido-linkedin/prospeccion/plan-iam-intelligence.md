@@ -51,3 +51,7 @@ Sandra escribe "rutina IAM" en Chrome; Chrome abre la página Cola IAM LinkedIn 
 - Mensaje 2 (día 5, si no respondió): "[Nombre], te dejo una guía que armé: [link de la guía según su área]. Es gratis y práctica. Si te sirve, me cuentas."
 - Mensaje 3 (día 12, si no respondió): "[Nombre], último mensaje para no llenarte la bandeja: si en algún momento quieres ver cómo se vería el IAE™ en [empresa], aquí agendas 20 minutos conmigo: https://calendly.com/sandracurvelo-mentoraventasdigitales-ia"
 - Medición cada lunes: enviados, respuestas, reuniones agendadas, propuestas.
+
+## Cargos objetivo (18 nov 2026, Sandra)
+- SÍ: gerentes generales, presidentes, vicepresidentes (no de tecnología), directores comerciales, directores de marketing, directores de comunicación.
+- NO: directores de tecnología, TI o transformación digital; talento humano o gestión humana; formación.
