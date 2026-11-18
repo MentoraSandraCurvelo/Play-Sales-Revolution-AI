@@ -20,4 +20,4 @@ Fuente de verdad: esta tabla y la sección "Lista de prospectos" de la página C
 - Paso 1 (Chrome, solo lectura): mapear decisores en LinkedIn: gerente o presidente, VP o director comercial y de ventas, gestión humana o talento, transformación digital o TI, y trade marketing. Grado de conexión y publicaciones recientes de cada uno.
 - Paso 2: seguir páginas y comentar publicaciones de la empresa y sus directivos.
 - Paso 3: conexiones de 1.er grado, mensaje directo; de 2.º grado, invitación sin nota el día en que se comenta a la empresa.
-- Paso 4: preguntar a Sandra quién de Bimbo puede presentarla.
+- (18 nov) Sandra NO quiere pedir presentaciones ni referidos a su red: toda la prospección va en frío, hecha por los agentes.
