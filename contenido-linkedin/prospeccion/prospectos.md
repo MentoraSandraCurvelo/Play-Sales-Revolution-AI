@@ -14,3 +14,10 @@ Fuente de verdad: esta tabla y la sección "Lista de prospectos" de la página C
 ## Gustavo Eduardo Mendez Wiesner (Nebo Data Analysis, Cartagena)
 - 17 nov 2026: escribió proponiendo sinergias y preguntando por presencia/expansión de IAM en el Caribe. Lectura: posible aliado, no cliente (operación de 1 persona, sin casos publicados).
 - 17 nov 1:45 p. m.: Sandra respondió (presencia en el Caribe con Comfacesar, Drummond, Klarens; le preguntó qué empresas atiende en Cartagena y qué sinergia concreta ve). Llamada solo si responde algo concreto.
+
+## Cuentas objetivo: Alquería y Colanta (18 nov 2026, Sandra)
+- Sector: lácteos y consumo masivo, igual que su cliente Grupo Bimbo (referencia principal).
+- Paso 1 (Chrome, solo lectura): mapear decisores en LinkedIn: gerente o presidente, VP o director comercial y de ventas, gestión humana o talento, transformación digital o TI, y trade marketing. Grado de conexión y publicaciones recientes de cada uno.
+- Paso 2: seguir páginas y comentar publicaciones de la empresa y sus directivos.
+- Paso 3: conexiones de 1.er grado, mensaje directo; de 2.º grado, invitación sin nota el día en que se comenta a la empresa.
+- Paso 4: preguntar a Sandra quién de Bimbo puede presentarla.
