@@ -43,3 +43,11 @@ Ver contenido-linkedin/cola-chrome.html, sección "Tareas para Claude en Chrome"
 
 ## Cómo se comunica Claude con Chrome
 Sandra escribe "rutina IAM" en Chrome; Chrome abre la página Cola IAM LinkedIn y ejecuta la sección "Tareas para Claude en Chrome", que Claude mantiene al día.
+
+## Mensajes a conexiones actuales (aprobado por Sandra el 17 nov 2026)
+- Envía Chrome (cambia la regla 14 para estos mensajes): máximo 15 mensajes nuevos al día, lunes a viernes, 2 minutos entre uno y otro, solo a conexiones de primer grado de los grupos A y B, con estas plantillas exactas. Toda respuesta la ve Sandra antes de contestar. Ante cualquier aviso de LinkedIn, se para todo.
+- Base: archivo de conexiones que Sandra descarga de LinkedIn (Connections.csv). Claude segmenta: A decisores, B influenciadores, C no se escribe.
+- Mensaje 1 (día 0): "[Nombre], hace rato estamos conectados y quería saludarte. Una pregunta rápida: en [empresa], ¿ya están midiendo cuántas horas les ahorra la IA, o todavía va por cursos y licencias? Te pregunto porque es justo lo que estoy midiendo con varias empresas."
+- Mensaje 2 (día 5, si no respondió): "[Nombre], te dejo una guía que armé: [link de la guía según su área]. Es gratis y práctica. Si te sirve, me cuentas."
+- Mensaje 3 (día 12, si no respondió): "[Nombre], último mensaje para no llenarte la bandeja: si en algún momento quieres ver cómo se vería el IAE™ en [empresa], aquí agendas 20 minutos conmigo: https://calendly.com/sandracurvelo-mentoraventasdigitales-ia"
+- Medición cada lunes: enviados, respuestas, reuniones agendadas, propuestas.
