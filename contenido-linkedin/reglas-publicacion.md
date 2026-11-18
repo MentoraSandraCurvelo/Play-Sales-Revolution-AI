@@ -252,3 +252,6 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 
 ## 42. Milagro Week (17 nov 2026, criterio aplicado)
 - No se comenta ningún post que mencione la Milagro Week (ligada al debate del IVA cero, tema político), aunque el comentario no la nombre. Aplica al Vicepresidente y a cualquier cuenta.
+
+## 43. Reuniones solo por mensaje interno (18 nov 2026, Sandra)
+- Nunca se pide una reunión ni se pone el link de agenda en un comentario público. En público: solo valor y preguntas. La reunión se pide por mensaje interno.
