@@ -4,8 +4,8 @@ Público: líderes y directores comerciales que deciden por su equipo (regla 31)
 Portada: newsletter/edicion-02-banner.jpg (foto real de Sandra, blazer blanco, recortada sin tocarle la cara)
 Imágenes dentro del artículo (regla 15): ed02-img1-semana.jpg (fondo blanco), ed02-img2-regla.jpg (fondo rojo), ed02-img3-medir.jpg (fondo negro)
 Video en la mitad: ed02-video-semana.mp4 (tablero con datos de ejemplo)
-Guía (palabra clave SEMANA, la misma del post del vie 20): guia-semana-vendedor-ia.pdf. Se entrega con el link https://iamlatam.co/guias/ (antes del 26 nov hay que subir el PDF a la página de guías).
-Respuesta propuesta (misma fórmula aprobada en la ed. 1, con la pregunta que califica de la regla 31): "Hola [nombre], aquí está tu guía: https://iamlatam.co/guias/ ¿Cuántos vendedores tiene tu equipo y qué parte de la semana vas a probar primero?"
+Guía (palabra clave SEMANA, la misma del post del vie 20): página web https://iamlatam.co/guias/semana-vendedor-ia/ (regla 41: guías en HTML, no PDF; ya publicada).
+Respuesta propuesta (misma fórmula aprobada en la ed. 1, con la pregunta que califica de la regla 31): "Hola [nombre], aquí está tu guía: https://iamlatam.co/guias/semana-vendedor-ia/ ¿Cuántos vendedores tiene tu equipo y qué parte de la semana vas a probar primero?"
 Fuentes y verificación: fuentes-ed02.md
 ---
 ## Título
