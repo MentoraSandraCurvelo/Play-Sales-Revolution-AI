@@ -28,3 +28,9 @@ Fuente de verdad: esta tabla y la sección "Lista de prospectos" de la página C
 - Invitaciones (3c) en pausa hasta el lun 23 nov (límite semanal ~50, aprox.). Mensajes a 1.er grado siguen.
 - Luz Stella Murgas: "cargo por confirmar" (perfil dice presidenta de Naturgas, no ANDI). Correo ANDI en pausa hasta que Sandra confirme por teléfono (601 326 8500 ext. 2121) quién es la persona y su correo. Nadie le comenta, reacciona ni escribe.
 - Lista de cámaras de comercio: próxima ronda, solo lectura, máx. 30, solo cargos objetivo (regla 18 nov: sin TI, transformación digital, talento humano ni formación).
+
+## 19 nov, Enrique Ivorra (Avanzadi): NO es prospecto
+- Sandra: está en el mismo campo (IA aplicada para empresas), es competencia. No invitarlo a reuniones ni hacerle seguimiento comercial.
+- Ya pasó: el 18 nov a la 1:50 p. m. Chrome le envió por mensaje interno el texto aprobado con el Calendly (antes de esta decisión). No se le envía nada más.
+- Si responde o agenda: no contestar; mostrarle a Sandra para que decida.
+- Interacción pública: solo si Sandra lo pide; nada de seguimientos.
