@@ -1,0 +1,51 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1080px;height:1350px;background:#0A0A0A;color:#fff;font-family:Arial,Helvetica,sans-serif;padding:60px 64px 0;overflow:hidden}
+.brand{font-family:Georgia,serif;font-size:30px;font-weight:bold}.brand span{color:#FF3B3B}
+h1{font-family:Georgia,serif;font-size:56px;line-height:64px;margin:28px 0 26px}h1 em{font-style:normal;color:#FF3B3B}
+.weeks{display:flex;gap:16px;margin-bottom:26px}
+.wk{flex:1;background:#161616;border-top:6px solid #333;padding:18px 20px;border-radius:6px;opacity:.35;transition:none}
+.wk.on{opacity:1;border-top-color:#FF3B3B;background:#1f1414}
+.wk b{display:block;font-size:30px;color:#FF3B3B;font-family:Georgia,serif}.wk p{font-size:21px;line-height:28px;color:#ddd;margin-top:4px}
+.total{display:flex;align-items:baseline;gap:16px;margin-bottom:18px}
+.total .n{font-family:Georgia,serif;font-size:96px;font-weight:bold;color:#FF3B3B;line-height:1}
+.total .l{font-size:26px;color:#ddd}
+.chart{background:#161616;border-radius:6px;padding:22px 28px}
+.row{display:flex;align-items:center;margin:16px 0}.row .a{width:240px;font-size:24px}
+.track{flex:1;height:30px;background:#262626;border-radius:4px;position:relative;overflow:hidden}
+.fill{position:absolute;left:0;top:0;bottom:0;background:linear-gradient(90deg,#8e2a2a,#FF3B3B);border-radius:4px}
+.v{width:110px;text-align:right;font-size:26px;font-weight:bold}
+.msg{margin-top:26px;font-family:Georgia,serif;font-size:36px;line-height:44px;opacity:0}
+.foot{position:absolute;left:64px;right:64px;bottom:40px;display:flex;justify-content:space-between;font-size:21px;color:#999}
+.sim{color:#FF3B3B;font-weight:bold}
+</style></head><body>
+<div class="brand">IAM™ <span>Intelligence</span> · Tablero IAE™</div>
+<h1>Piloto de IA por área,<br><em>semana a semana.</em></h1>
+<div class="weeks">
+<div class="wk" id="w1"><b>Semana 1</b><p>Línea base: cuánto tarda cada tarea.</p></div>
+<div class="wk" id="w5"><b>Semana 5</b><p>Primeras tareas con IA.</p></div>
+<div class="wk" id="w9"><b>Semana 9</b><p>Cada área presenta su resultado.</p></div>
+</div>
+<div class="total"><span class="n" id="tot">0</span><span class="l">horas recuperadas al mes</span></div>
+<div class="chart" id="chart"></div>
+<div class="msg" id="msg">Sin línea base en la semana 1,<br>no hay nada que demostrar en la semana 9.</div>
+<div class="foot"><span class="sim">Datos simulados de demostración</span><span>iamlatam.co</span></div>
+<script>
+const D=[["Comercial",18,46],["Servicio al cliente",22,52],["Finanzas",9,31],["Operaciones",12,28],["Compras",4,19]];
+const MAX=60;
+document.getElementById('chart').innerHTML=D.map((r,i)=>`<div class="row"><div class="a">${r[0]}</div><div class="track"><div class="fill" id="f${i}"></div></div><div class="v" id="v${i}">0 h</div></div>`).join('');
+const ease=x=>x<0?0:x>1?1:1-Math.pow(1-x,3);
+window.render=function(t){
+  const p5=ease((t-2.6)/2.6), p9=ease((t-6.2)/2.8);
+  document.getElementById('w1').className='wk'+(t>=0.6?' on':'');
+  document.getElementById('w5').className='wk'+(t>=2.6?' on':'');
+  document.getElementById('w9').className='wk'+(t>=6.2?' on':'');
+  let tot=0;
+  D.forEach((r,i)=>{const h=r[1]*p5+(r[2]-r[1])*p9;tot+=h;
+    document.getElementById('f'+i).style.width=(h/MAX*100)+'%';
+    document.getElementById('v'+i).textContent=Math.round(h)+' h';});
+  document.getElementById('tot').textContent=Math.round(tot);
+  document.getElementById('msg').style.opacity=Math.max(0,Math.min(1,(t-9.4)/0.6));
+};
+render(0);
+</script></body></html>
