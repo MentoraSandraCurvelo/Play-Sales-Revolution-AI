@@ -23,3 +23,8 @@ Fuente de verdad: esta tabla y la sección "Lista de prospectos" de la página C
 - (18 nov) Sandra NO quiere pedir presentaciones ni referidos a su red: toda la prospección va en frío, hecha por los agentes.
 - Mapeo 18 nov (Chrome). Alquería (todos 2.º grado): Rafael E. Álvarez (CEO), Andrés Giraldo (CMO), Carlos Iván Barón Gómez (Gte. Sr. Desarrollo Comercial), Adriana Velásquez (Asuntos Corporativos y Sostenibilidad), Pablo Van Delgado (COO, VP Industrial), Carlos Enrique Cavelier (por confirmar), Isak Osoc (VP Operations por confirmar), Jorge Valencia (comunicaciones, por confirmar).
 - Colanta: 1.er grado Julián Eduardo Cardozo Millán (Jefe Nacional de Mercadeo), Juan Camilo Hoyos Cadavid (Jefe de Publicidad), Alejandro López Mejía (Marketing Manager, por confirmar). 2.º grado: David A. Bustamante (Negocio Cárnico), Lorena Bustamante (Canales y Negocios Alternativos). Millerley Manco (Dir. Ventas, 3.er grado). Gerente general y director comercial no visibles.
+
+## 19 nov, decisiones de Sandra (Cola v78)
+- Invitaciones (3c) en pausa hasta el lun 23 nov (límite semanal ~50, aprox.). Mensajes a 1.er grado siguen.
+- Luz Stella Murgas: "cargo por confirmar" (perfil dice presidenta de Naturgas, no ANDI). Correo ANDI en pausa hasta que Sandra confirme por teléfono (601 326 8500 ext. 2121) quién es la persona y su correo. Nadie le comenta, reacciona ni escribe.
+- Lista de cámaras de comercio: próxima ronda, solo lectura, máx. 30, solo cargos objetivo (regla 18 nov: sin TI, transformación digital, talento humano ni formación).
