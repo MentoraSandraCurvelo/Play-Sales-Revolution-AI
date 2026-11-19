@@ -1,0 +1,35 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1080px;height:1350px;background:#0A0A0A;color:#fff;font-family:Arial,Helvetica,sans-serif;padding:64px 64px 0}
+.brand{font-family:Georgia,serif;font-size:30px;font-weight:bold}.brand span{color:#FF3B3B}
+h1{font-family:Georgia,serif;font-size:58px;line-height:66px;margin:34px 0 10px}h1 em{font-style:normal;color:#FF3B3B}
+.sub{font-size:26px;color:#cfcfcf;margin-bottom:34px}
+.weeks{display:flex;gap:18px;margin-bottom:30px}
+.wk{flex:1;background:#161616;border-top:6px solid #C00000;padding:22px;border-radius:6px}
+.wk b{display:block;font-size:30px;color:#FF3B3B;font-family:Georgia,serif}.wk p{font-size:21px;line-height:29px;color:#ddd;margin-top:6px}
+.chart{background:#161616;border-radius:6px;padding:26px 28px}
+.chart h2{font-size:24px;margin-bottom:6px}.chart .leg{font-size:19px;color:#bbb;margin-bottom:16px}
+.leg i{display:inline-block;width:16px;height:16px;vertical-align:-2px;margin:0 6px 0 14px;border-radius:3px}
+.row{display:flex;align-items:center;margin:13px 0}.row .a{width:190px;font-size:22px}
+.bars{flex:1;display:flex;flex-direction:column;gap:5px}.bar{height:15px;border-radius:3px}
+.v{font-size:19px;color:#ddd;width:110px;text-align:right}
+.foot{position:absolute;left:64px;right:64px;bottom:44px;display:flex;justify-content:space-between;font-size:21px;color:#999}
+.sim{color:#FF3B3B;font-weight:bold}
+</style></head><body>
+<div class="brand">IAM™ <span>Intelligence</span> · Tablero IAE™</div>
+<h1>Piloto de IA por área,<br><em>semana a semana.</em></h1>
+<div class="sub">Horas recuperadas al mes por área. Se mide desde la semana 1.</div>
+<div class="weeks">
+<div class="wk"><b>Semana 1</b><p>Línea base: cuánto tarda cada tarea que se repite.</p></div>
+<div class="wk"><b>Semana 5</b><p>Primeras tareas con IA y primeras horas recuperadas.</p></div>
+<div class="wk"><b>Semana 9</b><p>Cada área presenta su resultado ante la gerencia.</p></div>
+</div>
+<div class="chart"><h2>Horas recuperadas al mes</h2>
+<div class="leg"><i style="background:#555"></i>Semana 1 <i style="background:#B35C5C"></i>Semana 5 <i style="background:#FF3B3B"></i>Semana 9</div>
+<div id="rows"></div></div>
+<div class="foot"><span class="sim">Datos simulados de demostración</span><span>iamlatam.co</span></div>
+<script>
+const d=[["Comercial",0,18,46],["Servicio al cliente",0,22,52],["Finanzas",0,9,31],["Operaciones",0,12,28],["Compras",0,4,19]];
+const max=60,c=["#555","#B35C5C","#FF3B3B"];
+document.getElementById('rows').innerHTML=d.map(r=>`<div class="row"><div class="a">${r[0]}</div><div class="bars">${[1,2,3].map(i=>`<div class="bar" style="width:${Math.max(r[i]/max*100,1.2)}%;background:${c[i-1]}"></div>`).join('')}</div><div class="v">${r[3]} h</div></div>`).join('');
+</script></body></html>
