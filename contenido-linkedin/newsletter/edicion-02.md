@@ -1,5 +1,5 @@
 # Edición 2 · jue 26 nov 2026 · Lo que nadie te dice de la IA
-Estado: BORRADOR para revisión de Sandra (preparado el 16 nov 2026). Sale el jue 26 nov 7:30 a. m. hora Bogotá.
+Estado: APROBADA por Sandra el 19 nov 2026 (texto, imágenes, video y guía web). Sale el jue 26 nov 7:30 a. m. hora Bogotá.
 Público: líderes y directores comerciales que deciden por su equipo (regla 31). No le habla al vendedor individual.
 Portada: newsletter/edicion-02-banner.jpg (foto real de Sandra, blazer blanco, recortada sin tocarle la cara)
 Imágenes dentro del artículo (regla 15): ed02-img1-semana.jpg (fondo blanco), ed02-img2-regla.jpg (fondo rojo), ed02-img3-medir.jpg (fondo negro)
