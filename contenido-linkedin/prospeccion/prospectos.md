@@ -33,4 +33,4 @@ Fuente de verdad: esta tabla y la sección "Lista de prospectos" de la página C
 - Sandra: está en el mismo campo (IA aplicada para empresas), es competencia. No invitarlo a reuniones ni hacerle seguimiento comercial.
 - Ya pasó: el 18 nov a la 1:50 p. m. Chrome le envió por mensaje interno el texto aprobado con el Calendly (antes de esta decisión). No se le envía nada más.
 - Si responde o agenda: no contestar; mostrarle a Sandra para que decida.
-- Interacción pública: solo si Sandra lo pide; nada de seguimientos.
+- Interacción pública (ajuste 19 nov): si comenta un post de Sandra, se le responde normal. No se borra el mensaje del 18 nov. Solo no se le insiste en reunión.

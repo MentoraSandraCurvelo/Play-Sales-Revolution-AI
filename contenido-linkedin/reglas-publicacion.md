@@ -267,4 +267,7 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Sí se puede mostrar a los agentes trabajando fuera de LinkedIn (investigación, borradores, la Cola, tablero IAE™, guías), siempre revisado y sin nombres de personas.
 
 ## 45. Enrique Ivorra (Avanzadi) es competencia, no prospecto (19 nov 2026, Sandra)
-- Sin reuniones, sin seguimientos, sin mensajes. Si escribe, se le muestra a Sandra sin responder.
+- No es prospecto. No se le insiste en reuniones ni se le hacen seguimientos comerciales (mensajes 2 y 3 cancelados).
+- El mensaje del 18 nov NO se borra.
+- Si comenta una publicación de Sandra, se le responde normal (valor y pregunta, sin pedir reunión ni links).
+- Si escribe por mensaje interno, se le muestra a Sandra antes de responder.
