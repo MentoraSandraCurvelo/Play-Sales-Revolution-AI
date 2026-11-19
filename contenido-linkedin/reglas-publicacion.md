@@ -260,3 +260,11 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Todo comentario, mensaje o acción debe hacer ver a Sandra como autoridad, nunca como alguien que necesita vender.
 - Nada que ponga en aprietos a otra persona en público. Nada que Sandra no diría frente a presidentes de empresa.
 - Ante la duda, no se publica: se le pregunta a Sandra.
+
+## 44. Nunca mostrar en público que la IA opera LinkedIn (19 nov 2026, Sandra)
+- No se graba, no se muestra ni se cuenta en ningún contenido que publicaciones, comentarios, reacciones, invitaciones o mensajes de LinkedIn los hace un agente de IA o Chrome.
+- Motivo: imagen de Sandra (la gente debe sentir que es ella) y riesgo con las condiciones de uso de LinkedIn sobre automatización.
+- Sí se puede mostrar a los agentes trabajando fuera de LinkedIn (investigación, borradores, la Cola, tablero IAE™, guías), siempre revisado y sin nombres de personas.
+
+## 45. Enrique Ivorra (Avanzadi) es competencia, no prospecto (19 nov 2026, Sandra)
+- Sin reuniones, sin seguimientos, sin mensajes. Si escribe, se le muestra a Sandra sin responder.
