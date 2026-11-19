@@ -108,3 +108,10 @@ Pendiente: Parte 3 métricas, invitaciones sin nota.
 ## 18 nov, regla 43 aplicada
 - Enrique Ivorra: comentario con pedido de 20 min eliminado; respuesta de valor publicada (https://lnkd.in/p/ecZQKzDQ); invitación sin nota, aceptada el mismo día; mensaje interno con Calendly enviado 1:50 p. m. La tarea de mañana solo revisa si respondió y se lo muestra a Sandra, sin contestar.
 - Primeros comentarios con Calendly público editados (no borrados): video IAE™ jue 12 nov y post lun 16 nov. Respuestas de Enrique intactas.
+
+## 19 nov, Claudia Nuñez (certificado I AM AMBASSADOR, Comfacesar fase 1)
+- Post de Claudia: https://lnkd.in/p/eh3zrskM (2 reacciones antes de la actividad de Sandra).
+- Reacción cambiada de Interesante a Me encanta.
+- Comentario: https://www.linkedin.com/feed/update/urn:li:ugcPost:7529048000107593728?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7529048000107593728%2C7529151285414166528%29
+- Republicación con opinión (mención a Claudia): https://www.linkedin.com/feed/update/urn:li:activity:7529151428116877312/
+- Revisar el 20 nov: reacciones e impresiones del post de Claudia y de la republicación. Cuenta dentro de la prueba de cadencia (17 al 30 nov) como publicación extra del 19 nov.
