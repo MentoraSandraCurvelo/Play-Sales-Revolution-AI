@@ -271,3 +271,8 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - El mensaje del 18 nov NO se borra.
 - Si comenta una publicación de Sandra, se le responde normal (valor y pregunta, sin pedir reunión ni links).
 - Si escribe por mensaje interno, se le muestra a Sandra antes de responder.
+
+## 46. Variar el arranque de los comentarios (19 nov 2026)
+- Máximo 1 comentario por ronda con "en las empresas/equipos que acompaño". Alternar: dato del post, pregunta directa, experiencia concreta, contraste. No repetir la misma estructura en todos.
+- La frase de rotación al compartir desde la página IAM™ debe encajar con el tema del post; si no encaja, usar una frase del propio post.
+- Vicepresidente: la meta de 1 comentario diario cede ante la regla 42 (Milagro Week). Si todos sus posts recientes son de Milagro Week, no se comenta y no se fuerza.

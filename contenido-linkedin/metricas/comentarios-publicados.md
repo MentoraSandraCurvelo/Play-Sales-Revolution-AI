@@ -115,3 +115,10 @@ Pendiente: Parte 3 métricas, invitaciones sin nota.
 - Comentario: https://www.linkedin.com/feed/update/urn:li:ugcPost:7529048000107593728?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7529048000107593728%2C7529151285414166528%29
 - Republicación con opinión (mención a Claudia): https://www.linkedin.com/feed/update/urn:li:activity:7529151428116877312/
 - Revisar el 20 nov: reacciones e impresiones del post de Claudia y de la republicación. Cuenta dentro de la prueba de cadencia (17 al 30 nov) como publicación extra del 19 nov.
+
+## 19 nov, corrida 7:35 (4 comentarios de visibilidad, revisados por Demetri: los 4 OK)
+1. CEO Atlántico y Magdalena, Foro CEO 2026 (agroindustria): https://www.linkedin.com/feed/update/urn:li:activity:7528824159553077249?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7528824159553077249%2C7529163246130466816%29
+2. Enrique Chirinos Noves (HR, 2.º grado), IA y burocracia: https://www.linkedin.com/feed/update/urn:li:activity:7529157014523015168?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7529157014523015168%2C7529162926646185984%29
+3. Oscar Tarazona (CRO aluri, 2.º grado), McKinsey percepción vs. utilidad: https://www.linkedin.com/feed/update/urn:li:activity:7528800463513829376?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7528800463513829376%2C7529162671577927680%29
+4. CMIC CDMX, webinar IA en construcción: https://www.linkedin.com/feed/update/urn:li:activity:7528880279877304320?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7528880279877304320%2C7529162388504436736%29
+Observación: los 4 abren con "en las empresas/equipos que acompaño". Variar desde la próxima ronda.
