@@ -17,6 +17,8 @@
     "lifecycleState": "PUBLISHED",
     "isReshareDisabledByAuthor": false
   },
-  "nota": "Texto aprobado el 10 nov. Formato: texto solo. Sin primer comentario aún.",
-  "publicado_utc": "2026-11-19T12:37:09+00:00"
+  "nota": "Texto aprobado el 10 nov. Formato: texto solo. Sin primer comentario aún. | 19 nov: primer comentario aprobado por Sandra (menciona a Claudia, sin link); lo publica Chrome.",
+  "publicado_utc": "2026-11-19T12:37:09+00:00",
+  "primer_comentario": "Un ejemplo de hoy: Claudia acaba de terminar la fase 1 de IAM Ambassadors y ya está contando con su voz lo que aprendió. Así se ve un programa de embajadores funcionando.",
+  "primer_comentario_aprobado_el": "2026-11-19"
 }
