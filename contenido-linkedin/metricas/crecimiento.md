@@ -33,3 +33,9 @@ Link: https://www.linkedin.com/pulse/le-di-las-llaves-de-mi-linkedin-una-ia-esto
 - Interacciones: 103 (52 reacciones, 32 comentarios, 15 compartidos, 2 guardados, 2 envíos). Tasa: 103 / 1.914 = 5,4%.
 - 13 posts en la vista "Top posts": suman 1.440 impresiones, promedio 111 por post. Mejor: newsletter (220); siguiente: "El cliente nota en el primer minuto" (140).
 - Seguidores perfil: 7.526 (+1% en 7 días). Página IAM™: 126 (+20 en 30 días). Newsletter: 1.888 (+6 en 7 días).
+
+## 20 nov 2026 · Página IAM™ (Chrome, rango 20 oct a 18 nov)
+- Seguidores 127 (+20 en 30 días; +2 en 7 días). Visitas 34 (19 únicos). Impresiones de contenido 352; reacciones 5; comentarios 0; compartidos 0.
+- 27 publicaciones, todas compartidos de posts de Sandra; impresiones por compartido de 34 (4 nov) a 2-5 (15-19 nov).
+- Audiencia: Desarrollo de negocios 18,9 %, Ventas 10,2 %; sector principal servicios y consultoría de TI 14,2 %; Bogotá 36,2 %.
+- Créditos de invitación a seguir la página: 71 de 250 (se recargan el 1 dic).
