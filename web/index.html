@@ -499,7 +499,7 @@ footer{background:var(--black);border-top:1px solid rgba(255,255,255,.05);paddin
     <div>
       <div class="s-eye reveal"><span>IAE™ · Índice de IA Empresarial</span></div>
       <h2 class="s-title reveal">Lo que no se mide<br><em>no puede ser mejorado.</em></h2>
-      <p class="iae-lead reveal">El IAE™ es el tablero con el que la gerencia ve, cada semana, cómo avanza la inteligencia artificial dentro de la empresa: un índice de 0 a 100 por área, las horas que recupera el equipo y la alerta temprana del área que se está quedando.</p>
+      <p class="iae-lead reveal">El IAE™, Índice de Actividad de Inteligencia Artificial Empresarial, es el tablero con el que la gerencia ve, cada semana, cómo avanza la inteligencia artificial dentro de la empresa: un índice de 0 a 100 por área, las horas que recupera el equipo y la alerta temprana del área que se está quedando.</p>
     </div>
     <ul class="iae-qs reveal">
       <li><b>01</b><span>¿Qué área usa la IA todas las semanas y cuál la abandonó?</span></li>
@@ -508,35 +508,244 @@ footer{background:var(--black);border-top:1px solid rgba(255,255,255,.05);paddin
     </ul>
   </div>
 
-  <div class="iae-frame reveal">
-    <div class="iae-bar"><i></i><i></i><i></i><span>Tablero IAE™ · IAM™ Intelligence</span><em>Demostración con datos simulados</em></div>
-    <div class="iae-scroll"><img src="assets/tablero-iae-global.webp" width="2000" height="819" loading="lazy"
-         alt="Tablero IAE™ de demostración: índice global de IA empresarial sobre 100, horas recuperadas por semana y ranking de áreas con su cambio frente a la semana anterior"></div>
+  <style>
+  .iaet{--up:#3DDC97;--down:#FF5A5A;--flat:#B8B8B8;--hi:#FF3B3B;--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;max-width:1280px;margin:0 auto;border:1px solid rgba(255,255,255,.1);border-radius:10px;overflow:hidden;background:#0A0A0A;box-shadow:0 40px 120px rgba(192,0,0,.16)}
+  .iaet-bar{display:flex;flex-wrap:wrap;align-items:center;gap:12px 18px;padding:12px 16px;background:#141414;border-bottom:1px solid rgba(255,255,255,.07)}
+  .iaet-seg{display:inline-flex;background:#0A0A0A;border:1px solid rgba(255,255,255,.1);border-radius:6px;padding:3px}
+  .iaet-seg button{font:600 13px var(--body);color:rgba(255,255,255,.55);background:none;border:0;padding:8px 14px;border-radius:4px;cursor:pointer}
+  .iaet-seg button[aria-pressed="true"]{background:var(--red);color:#fff}
+  .iaet-time{display:flex;align-items:center;gap:12px;flex:1;min-width:240px}
+  .iaet-play{flex:none;width:36px;height:36px;border-radius:50%;border:1px solid var(--red);background:transparent;color:#fff;cursor:pointer;display:grid;place-items:center}
+  .iaet-play:hover{background:var(--red)}
+  .iaet-play svg{width:12px;height:12px;fill:currentColor}
+  .iaet-track{flex:1;height:4px;background:#262626;border-radius:2px;overflow:hidden;min-width:60px}
+  .iaet-track i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--red3),var(--hi));transition:width .8s cubic-bezier(.4,0,.2,1)}
+  .iaet-wk{font:500 12px var(--mono);color:rgba(255,255,255,.5);white-space:nowrap;font-variant-numeric:tabular-nums}
+  .iaet-wk b{color:#fff;font-weight:500}
+  .iaet-demo{display:inline-flex;align-items:center;gap:8px;font-size:11px;color:rgba(255,255,255,.55);border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:5px 10px;white-space:nowrap}
+  .iaet-demo i{width:7px;height:7px;border-radius:50%;background:var(--hi);animation:iaetPulse 1.8s infinite}
+  @keyframes iaetPulse{0%{box-shadow:0 0 0 0 rgba(255,59,59,.6)}70%{box-shadow:0 0 0 8px rgba(255,59,59,0)}100%{box-shadow:0 0 0 0 rgba(255,59,59,0)}}
+  .iaet-main{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:16px;padding:16px}
+  .iaet-panel{background:#121212;border:1px solid #262626;border-radius:8px;padding:20px;min-width:0}
+  .iaet-eye{font-size:11px;font-weight:600;letter-spacing:2.4px;text-transform:uppercase;color:#9A9A9A;margin:0 0 12px}
+  .iaet-score{display:flex;align-items:flex-end;gap:14px;flex-wrap:wrap}
+  .iaet-n{font-family:var(--display);font-weight:900;font-size:clamp(72px,9vw,108px);line-height:.85;letter-spacing:-2px;font-variant-numeric:tabular-nums}
+  .iaet-of{font-size:15px;color:#9A9A9A;padding-bottom:8px}
+  .iaet-chip{display:inline-flex;align-items:center;justify-content:center;gap:4px;font:500 13px var(--mono);padding:4px 9px;border-radius:999px;font-variant-numeric:tabular-nums;white-space:nowrap}
+  .iaet-chip.up{background:rgba(61,220,151,.12);color:var(--up)}
+  .iaet-chip.down{background:rgba(255,90,90,.12);color:var(--down)}
+  .iaet-chip.flat{background:rgba(184,184,184,.12);color:var(--flat)}
+  .iaet-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:18px}
+  .iaet-kpi{border-top:2px solid var(--red);padding-top:8px}
+  .iaet-kpi b{display:block;font-family:var(--display);font-weight:900;font-size:26px;line-height:1.1;font-variant-numeric:tabular-nums}
+  .iaet-kpi span{font-size:12px;color:#9A9A9A;line-height:1.35;display:block}
+  .iaet-chart{margin-top:18px}
+  .iaet-chart svg{width:100%;height:auto;display:block}
+  .iaet-chart text{font-family:var(--mono);font-size:10px;fill:#5E5E5E}
+  .iaet-rank{display:grid;gap:8px}
+  .iaet-row{display:grid;grid-template-columns:22px minmax(0,1.3fr) minmax(0,2fr) 40px 66px;align-items:center;gap:10px;padding:8px 10px;border-radius:6px;background:#181818;transition:transform .6s ease,box-shadow .3s}
+  .iaet-row .pos{font:12px var(--mono);color:#5E5E5E;text-align:right}
+  .iaet-row .name{font-weight:500;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .iaet-row .barr{height:10px;background:#222;border-radius:5px;overflow:hidden;position:relative}
+  .iaet-row .barr i{position:absolute;inset:0 auto 0 0;width:0;background:linear-gradient(90deg,var(--red3),var(--hi));border-radius:5px;transition:width .8s cubic-bezier(.4,0,.2,1)}
+  .iaet-row .val{font:14px var(--mono);text-align:right;font-variant-numeric:tabular-nums}
+  .iaet-row.alert{box-shadow:inset 3px 0 0 var(--down)}
+  .iaet-row.star{box-shadow:inset 3px 0 0 var(--up)}
+  .iaet-legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:#9A9A9A;margin-top:12px}
+  .iaet-legend span{display:inline-flex;align-items:center;gap:6px}
+  .iaet-legend i{width:10px;height:10px;border-radius:2px;display:inline-block}
+  .iaet-read{margin:0 16px 16px}
+  .iaet-read ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 28px;min-height:76px}
+  .iaet-read li{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:start;font-size:15px;line-height:1.5;color:rgba(255,255,255,.85);animation:iaetIn .5s ease both}
+  .iaet-read li b{font-weight:600;color:#fff}
+  .iaet-read li:before{content:'';width:10px;height:10px;border-radius:50%;border:2.5px solid var(--hi);margin-top:6px;box-sizing:border-box}
+  @keyframes iaetIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .iae-foot{max-width:1280px;margin:44px auto 0;display:flex;flex-wrap:wrap;gap:24px 32px;align-items:center;justify-content:space-between}
+  @media(max-width:860px){.iaet-main{grid-template-columns:1fr}.iaet-read ul{grid-template-columns:1fr}}
+  @media(max-width:700px){.iaet-main{padding:10px;gap:10px}.iaet-panel{padding:16px}.iaet-read{margin:0 10px 10px}
+    .iaet-row{grid-template-columns:minmax(0,1fr) 36px 62px;row-gap:6px}.iaet-row .pos{display:none}.iaet-row .barr{grid-column:1 / -1;grid-row:2}
+    .iaet-kpi b{font-size:20px}.iaet-demo{order:3}.iae-foot{margin-top:32px}}
+  @media(prefers-reduced-motion:reduce){.iaet *{transition:none!important;animation:none!important}}
+  </style>
+  <div class="iaet reveal" id="iae-tablero" aria-label="Tablero IAE™ de demostración con datos simulados">
+    <div class="iaet-bar">
+      <div class="iaet-seg" role="group" aria-label="Sector">
+        <button type="button" id="iaet-b-privado" aria-pressed="true">Sector privado</button>
+        <button type="button" id="iaet-b-publico" aria-pressed="false">Sector público</button>
+      </div>
+      <div class="iaet-time">
+        <button class="iaet-play" id="iaet-play" type="button" aria-label="Pausar o reproducir las 12 semanas"><svg viewBox="0 0 14 14" id="iaet-ico"><path d="M2 1l11 6-11 6z"/></svg></button>
+        <div class="iaet-track"><i id="iaet-prog"></i></div>
+        <div class="iaet-wk">Semana <b id="iaet-wkn">12</b> de 12</div>
+      </div>
+      <div class="iaet-demo"><i></i>Demostración con datos simulados</div>
+    </div>
+    <div class="iaet-main">
+      <div class="iaet-panel">
+        <p class="iaet-eye" id="iaet-org">IAE™ global · Empresa demo</p>
+        <div class="iaet-score"><div class="iaet-n" id="iaet-g">68</div><div class="iaet-of">/ 100</div><div class="iaet-chip up" id="iaet-gd">▲ +5</div></div>
+        <div class="iaet-kpis">
+          <div class="iaet-kpi"><b id="iaet-hrs">157</b><span>horas recuperadas esta semana</span></div>
+          <div class="iaet-kpi"><b id="iaet-adop">77%</b><span>del equipo usa IA cada semana</span></div>
+          <div class="iaet-kpi"><b id="iaet-acc">1.318</b><span>horas acumuladas del programa</span></div>
+        </div>
+        <div class="iaet-chart" id="iaet-chart" role="img" aria-label="Evolución del IAE global por semana"></div>
+      </div>
+      <div class="iaet-panel">
+        <p class="iaet-eye">Ranking de áreas · cambio vs. semana anterior</p>
+        <div class="iaet-rank" id="iaet-rank"></div>
+        <div class="iaet-legend"><span><i style="background:var(--up)"></i>Área líder de la semana</span><span><i style="background:var(--down)"></i>Área que baja: requiere refuerzo</span></div>
+      </div>
+    </div>
+    <div class="iaet-panel iaet-read">
+      <p class="iaet-eye">Lectura de la semana · lo que haría la gerencia</p>
+      <ul id="iaet-read" aria-live="off"></ul>
+    </div>
+    <noscript><img src="assets/tablero-iae-global.webp" width="2000" height="819" alt="Tablero IAE™ de demostración con datos simulados" style="display:block;width:100%;height:auto"></noscript>
   </div>
 
-  <div class="iae-grid">
-    <div class="iae-col">
-    <figure class="iae-card reveal">
-      <img src="assets/tablero-iae-lectura.webp" width="1200" height="455" loading="lazy"
-           alt="Lectura de la semana del Tablero IAE™: qué área sube, cuál baja y qué decisión tomaría la gerencia">
-      <figcaption><b>Lectura de la semana</b>El tablero no se queda en la cifra: le dice a la gerencia qué área replicar y cuál reforzar.</figcaption>
-    </figure>
   <div class="iae-foot">
-    <p class="iae-note reveal">Pantallazos del tablero de demostración, con datos simulados. El tablero real se construye con los datos de tu organización y se instala con el Método DIAL-3R™.</p>
+    <p class="iae-note reveal">Tablero de demostración con datos simulados: recorre solo las 12 semanas de un programa. El tablero real se construye con los datos de tu organización y se instala con el Método DIAL-3R™.</p>
     <div class="iae-actions reveal">
       <a href="#contacto" class="btn-r">Quiero medir mi empresa</a>
-      <a href="https://claude.ai/artifact/V4eeegecLF5s1NyW9WcZEF" target="_blank" rel="noopener" class="btn-ghost">Explorar el tablero interactivo
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-      </a>
     </div>
   </div>
-    </div>
-    <figure class="iae-card reveal d1">
-      <img src="assets/tablero-iae-sector-publico.webp" width="1200" height="855" loading="lazy"
-           alt="Ranking de áreas del Tablero IAE™ en versión sector público, con atención al ciudadano, planeación, contratación y jurídica">
-      <figcaption><b>Sector privado y sector público</b>El mismo índice, con las áreas reales de cada organización: comercial y finanzas, o atención al ciudadano y contratación.</figcaption>
-    </figure>
-  </div>
+<script>
+(function(){
+  var SECTORS={
+    privado:{org:'Empresa demo',people:120,fin:'vender y atender clientes.',
+      areas:[['Comercial',22,84],['Servicio al cliente',25,78],['Marketing',30,81],['Finanzas',18,66],['Talento humano',16,61],['Operaciones',14,58],['Gerencia',20,72],['Jurídica',10,44]]},
+    publico:{org:'Entidad demo',people:180,fin:'la atención al ciudadano.',
+      areas:[['Atención al ciudadano',20,80],['Comunicaciones',26,79],['Planeación',18,70],['Gestión documental',12,68],['Contratación',14,60],['Talento humano',15,57],['Financiera y presupuesto',16,55],['Jurídica',9,42]]}
+  };
+  var W=12, sector='privado', week=12, timer=null, hold=null, cache={}, visible=false, userPaused=false;
+  var still=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function $(id){return document.getElementById('iaet-'+id);}
+  function rng(seed){return function(){seed=(seed*16807)%2147483647;return (seed-1)/2147483646;};}
+  function build(key){
+    if(cache[key])return cache[key];
+    var s=SECTORS[key], r=rng(key==='privado'?7:13), out=[];
+    s.areas.forEach(function(a){
+      var vals=[], dipW=3+Math.floor(r()*8);
+      for(var w=1;w<=W;w++){
+        var t=(w-1)/(W-1), ease=1-Math.pow(1-t,1.6);
+        var v=a[1]+(a[2]-a[1])*ease+(r()-.5)*5;
+        if(w===dipW||w===dipW+1) v-=6+r()*5;
+        vals.push(Math.max(4,Math.min(96,Math.round(v))));
+      }
+      out.push({name:a[0],vals:vals,k:2.2+r()*1.6});
+    });
+    return cache[key]=out;
+  }
+  function g(areas,w){var s=0;areas.forEach(function(a){s+=a.vals[w-1];});return Math.round(s/areas.length);}
+  function hrs(areas,w){var s=0;areas.forEach(function(a){s+=a.vals[w-1]*a.k/10;});return Math.round(s);}
+  function fmt(n){return n.toLocaleString('es-CO');}
+  function chip(el,d){el.className='iaet-chip '+(d>0?'up':d<0?'down':'flat');el.textContent=(d>0?'▲ +':d<0?'▼ ':'● ')+d;}
+  function tween(el,to,suffix){
+    var from=parseFloat(el.dataset.v||to), t0=null, dur=still?0:700;
+    el.dataset.v=to;
+    if(!dur||from===to){el.textContent=fmt(to)+(suffix||'');return;}
+    function step(ts){if(!t0)t0=ts;var p=Math.min(1,(ts-t0)/dur);el.textContent=fmt(Math.round(from+(to-from)*p))+(suffix||'');if(p<1)requestAnimationFrame(step);}
+    requestAnimationFrame(step);
+  }
+  function drawChart(areas){
+    var w=520,h=170,pl=28,pr=12,pt=12,pb=24, series=[];
+    for(var i=1;i<=W;i++)series.push(g(areas,i));
+    var x=function(i){return pl+(i-1)*(w-pl-pr)/(W-1);}, y=function(v){return pt+(h-pt-pb)*(1-v/100);};
+    var s='<svg viewBox="0 0 '+w+' '+h+'">';
+    [0,25,50,75,100].forEach(function(v){s+='<line x1="'+pl+'" x2="'+(w-pr)+'" y1="'+y(v)+'" y2="'+y(v)+'" stroke="#222" stroke-width="1"/><text x="'+(pl-6)+'" y="'+(y(v)+3)+'" text-anchor="end">'+v+'</text>';});
+    var pts=series.slice(0,week).map(function(v,i){return x(i+1)+','+y(v);});
+    var ghost=series.map(function(v,i){return x(i+1)+','+y(v);});
+    s+='<polyline points="'+ghost.join(' ')+'" fill="none" stroke="#2E2E2E" stroke-width="2" stroke-dasharray="3 4"/>';
+    s+='<polygon points="'+x(1)+','+y(0)+' '+pts.join(' ')+' '+x(week)+','+y(0)+'" fill="rgba(192,0,0,.18)"/>';
+    s+='<polyline points="'+pts.join(' ')+'" fill="none" stroke="#FF3B3B" stroke-width="2.5" stroke-linejoin="round"/>';
+    s+='<circle cx="'+x(week)+'" cy="'+y(series[week-1])+'" r="5" fill="#FF3B3B" stroke="#0A0A0A" stroke-width="2"/>';
+    for(var k=1;k<=W;k++){ if(k===1||k%3===0) s+='<text x="'+x(k)+'" y="'+(h-6)+'" text-anchor="middle">S'+k+'</text>'; }
+    $('chart').innerHTML=s+'</svg>';
+  }
+  function render(){
+    var areas=build(sector), cfg=SECTORS[sector];
+    $('wkn').textContent=week;
+    $('prog').style.width=(week/W*100)+'%';
+    $('org').textContent='IAE™ global · '+cfg.org;
+    var gs=g(areas,week), gp=week>1?g(areas,week-1):gs;
+    tween($('g'),gs); chip($('gd'),gs-gp);
+    tween($('hrs'),hrs(areas,week));
+    var acc=0;for(var i=1;i<=week;i++)acc+=hrs(areas,i);
+    tween($('acc'),acc);
+    tween($('adop'),Math.min(92,Math.round(12+gs*0.95)),'%');
+    drawChart(areas);
+    var rows=areas.map(function(a){var v=a.vals[week-1],p=week>1?a.vals[week-2]:v;return {name:a.name,v:v,d:v-p};});
+    var sorted=rows.slice().sort(function(a,b){return b.v-a.v;});
+    var best=rows.slice().sort(function(a,b){return b.d-a.d;})[0];
+    var worst=rows.slice().sort(function(a,b){return a.d-b.d;})[0];
+    var rank=$('rank');
+    if(!rank.children.length||rank.dataset.sector!==sector){
+      rank.innerHTML='';rank.dataset.sector=sector;
+      rows.forEach(function(r){
+        var el=document.createElement('div');el.className='iaet-row';el.dataset.name=r.name;
+        el.innerHTML='<div class="pos"></div><div class="name"></div><div class="barr"><i></i></div><div class="val"></div><div class="iaet-chip"></div>';
+        el.querySelector('.name').textContent=r.name;rank.appendChild(el);
+      });
+    }
+    var els={},before={};
+    Array.prototype.forEach.call(rank.children,function(el){els[el.dataset.name]=el;before[el.dataset.name]=el.getBoundingClientRect().top;});
+    sorted.forEach(function(r,i){
+      var el=els[r.name];rank.appendChild(el);
+      el.querySelector('.pos').textContent=i+1;
+      el.querySelector('.barr i').style.width=r.v+'%';
+      el.querySelector('.val').textContent=r.v;
+      chip(el.querySelector('.iaet-chip'),r.d);
+      el.classList.toggle('star',week>1&&r.name===best.name&&best.d>0);
+      el.classList.toggle('alert',week>1&&r.name===worst.name&&worst.d<0);
+    });
+    if(!still)Array.prototype.forEach.call(rank.children,function(el){
+      var dy=before[el.dataset.name]-el.getBoundingClientRect().top;
+      if(dy){el.style.transition='none';el.style.transform='translateY('+dy+'px)';
+        requestAnimationFrame(function(){requestAnimationFrame(function(){el.style.transition='';el.style.transform='';});});}
+    });
+    var lead=sorted[0], items=[];
+    if(week===1){items.push('<b>Semana 1: línea base.</b> Se mide el uso actual de IA por área antes de instalar el método.');}
+    else{
+      if(best.d>0)items.push('<b>'+best.name+' sube '+best.d+' puntos.</b> Su rutina con IA ya se sostiene; documentarla y replicarla en otras áreas.');
+      if(worst.d<0)items.push('<b>'+worst.name+' baja '+Math.abs(worst.d)+' puntos.</b> Alerta temprana: sesión de refuerzo antes de que el hábito se pierda.');
+      else items.push('<b>Ninguna área baja esta semana.</b> El ciclo Rutina, Resultado y Repetición está funcionando.');
+    }
+    items.push('<b>'+lead.name+' lidera con '+lead.v+'/100.</b> Es el área modelo para mostrar resultados a la dirección.');
+    items.push('<b>'+fmt(hrs(areas,week))+' horas recuperadas esta semana</b> en un equipo simulado de '+cfg.people+' personas: tiempo que vuelve a '+cfg.fin);
+    $('read').innerHTML=items.map(function(t){return '<li><span>'+t+'</span></li>';}).join('');
+  }
+  function icon(playing){$('ico').innerHTML=playing?'<path d="M2 1h3.5v12H2zM8.5 1H12v12H8.5z"/>':'<path d="M2 1l11 6-11 6z"/>';}
+  function stop(){clearInterval(timer);clearTimeout(hold);timer=hold=null;icon(false);}
+  function play(){
+    if(timer||hold||still)return;
+    icon(true);
+    if(week>=W){week=1;render();}
+    timer=setInterval(function(){
+      week++;render();
+      if(week>=W){clearInterval(timer);timer=null;
+        hold=setTimeout(function(){hold=null;if(visible&&!userPaused){week=1;render();play();}else icon(false);},4500);}
+    },1400);
+  }
+  function setSector(k){
+    sector=k;
+    $('b-privado').setAttribute('aria-pressed',k==='privado');
+    $('b-publico').setAttribute('aria-pressed',k==='publico');
+    stop();week=1;render();if(!userPaused)play();
+  }
+  $('play').addEventListener('click',function(){if(timer||hold){userPaused=true;stop();}else{userPaused=false;play();}});
+  $('b-privado').addEventListener('click',function(){setSector('privado');});
+  $('b-publico').addEventListener('click',function(){setSector('publico');});
+  render();
+  if('IntersectionObserver' in window&&!still){
+    new IntersectionObserver(function(es){
+      visible=es[0].isIntersecting;
+      if(visible&&!userPaused){if(!timer&&!hold){week=1;render();play();}}
+      else if(!visible)stop();
+    },{threshold:.25}).observe(document.getElementById('iae-tablero'));
+  }
+})();
+</script>
 </section>
 
 <!-- SANDRA VIDEO -->

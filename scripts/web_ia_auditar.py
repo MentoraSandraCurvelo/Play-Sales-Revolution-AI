@@ -152,17 +152,20 @@ def auditar(origen, probar_enlaces=False):
     else:
         critico("Mensaje", "No existe una sección propia del IAE™ (ancla #iae).")
     tableros = [s for s, _, _ in p.imgs if "tablero" in s.lower()]
-    if tableros:
-        ok("Mensaje", "Hay %d pantallazos de tableros en la página." % len(tableros))
+    if "iae-tablero" in p.ids:
+        tableros.append("#iae-tablero")
+        ok("Mensaje", "El Tablero IAE™ está en la página y con movimiento (#iae-tablero).")
+    elif tableros:
+        ok("Mensaje", "Hay %d pantallazos de tableros en la página, pero estáticos." % len(tableros))
     else:
-        alerta("Mensaje", "No hay pantallazos de tableros de medición en la página.")
+        alerta("Mensaje", "No hay tableros de medición en la página.")
     menciones = len(re.findall(r"IAE™", html))
     (ok if menciones >= 5 else alerta)("Mensaje", "El IAE™ se menciona %d veces en toda la página." % menciones)
     if re.search(r"datos simulados|demostraci[oó]n", html, re.I) or not tableros:
         if tableros:
-            ok("Mensaje", "Los pantallazos están marcados como demostración con datos simulados.")
+            ok("Mensaje", "El tablero está marcado como demostración con datos simulados.")
     else:
-        critico("Mensaje", "Hay pantallazos de tableros sin aclarar si los datos son reales o simulados.")
+        critico("Mensaje", "Hay tableros sin aclarar si los datos son reales o simulados.")
 
     # ---------- CONVERSIÓN ----------
     internos = [(h, t) for h, t in p.anclas if h.startswith("#")]

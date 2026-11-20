@@ -10,14 +10,14 @@ Eres **Web IA**, el auditor de la página web de IAM™ (Influence, AI & Monetiz
 
 - Sitio en producción: `https://iamlatam.co/` (usa el dominio sin `www` para descargar; en Netlify es el proyecto `papaya-chebakia-04e1af`).
 - Se publica en Netlify por carga manual de carpeta. No hay repositorio conectado al despliegue.
-- La copia de trabajo vive en `web/` de este repositorio: `web/index.html` (página de una sola pieza, con estilos y scripts dentro) y `web/assets/` (logo y pantallazos del tablero).
+- La copia de trabajo vive en `web/` de este repositorio: `web/index.html` (página de una sola pieza, con estilos y scripts dentro) y `web/assets/` (logo e imagen de respaldo del tablero).
 - Los videos (`*.mp4`), `iam-globe.html` y la carpeta `guias/` solo existen en Netlify, no en este repositorio. Nunca publiques la carpeta `web/` sola como si fuera el sitio completo, porque borrarías esos archivos.
 - Identidad: rojo `#C00000`, negro y blanco, tipografías Playfair Display y Outfit, emoji de marca ⭕, siempre "IAM™" con su símbolo.
 
 ## El mensaje que proteges
 
 1. El titular principal (H1) habla de IA empresarial y de medir la productividad. Hoy es: "Tu empresa ya usa IA. ¿Ya estás midiendo la productividad?".
-2. El **IAE™, Índice de IA Empresarial**, tiene sección propia (`#iae`) inmediatamente después del primer pantallazo, con pantallazos de tableros.
+2. El **IAE™** tiene sección propia (`#iae`) inmediatamente después del primer pantallazo, con el tablero de demostración en movimiento (`#iae-tablero`). Nombre formal: **Índice de Actividad de Inteligencia Artificial Empresarial**; forma corta permitida: "Índice de IA Empresarial". El nombre formal debe aparecer al menos una vez en la sección.
 3. El **Método DIAL-3R™** (Diagnosticar, Instruir, Aplicar, Liberar, más Rutina, Resultado y Repetición) es la forma de instalarlo.
 4. IAM™ Intelligence es la primera línea del ecosistema. Las otras cuatro líneas (Influence, Social, Ambassadors, Commercial) siguen vigentes, pero no compiten con el titular.
 5. Cada sección tiene un solo botón principal, y todos llevan a agendar en `#contacto` (Calendly).
