@@ -17,5 +17,7 @@
     "lifecycleState": "PUBLISHED",
     "isReshareDisabledByAuthor": false
   },
-  "nota": "Texto aprobado el 10 nov. Formato: texto solo. Sin primer comentario aún."
+  "nota": "Texto aprobado el 10 nov. Formato: texto solo. Sin primer comentario aún.",
+  "primer_comentario": "Te leo: ¿cuál fue el logro de tu semana?",
+  "primer_comentario_estado": "aprobado 2026-11-20 por Sandra"
 }

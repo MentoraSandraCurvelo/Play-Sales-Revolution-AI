@@ -39,3 +39,9 @@ Link: https://www.linkedin.com/pulse/le-di-las-llaves-de-mi-linkedin-una-ia-esto
 - 27 publicaciones, todas compartidos de posts de Sandra; impresiones por compartido de 34 (4 nov) a 2-5 (15-19 nov).
 - Audiencia: Desarrollo de negocios 18,9 %, Ventas 10,2 %; sector principal servicios y consultoría de TI 14,2 %; Bogotá 36,2 %.
 - Créditos de invitación a seguir la página: 71 de 250 (se recargan el 1 dic).
+
+## Plan página IAM™ APROBADO por Sandra (20 nov 2026)
+1. Usar los 71 créditos de invitación a seguir la página antes del 1 dic, con conexiones del segmento A (unas 15 por día).
+2. 2 publicaciones propias por semana: martes "Tablero de la semana" (datos simulados o casos sin nombre) y jueves "IAM Ambassadors" (con permiso de los egresados).
+3. Compartir desde la página solo los 2 mejores posts de la semana.
+Tablero de la newsletter ed. 2 (ed02-video-semana.mp4): aprobado tal como está.
