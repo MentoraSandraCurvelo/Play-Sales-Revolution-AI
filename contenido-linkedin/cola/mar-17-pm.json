@@ -7,7 +7,7 @@
   "urn": null,
   "primer_comentario": "Y un número que todo vendedor debería tener claro: cuánto tiene que vender este trimestre y cuántos prospectos necesita para llegar. Marketing ayuda, pero en mi experiencia aporta cerca del 30%. El 70% es tuyo.",
   "primer_comentario_aprobado_el": "2026-11-10",
-  "nota": "Texto y primer comentario aprobados el 10 nov. Sandra quiere probar formato de voz en off con subtítulos: si el video está listo y aprobado antes del 17, se agrega archivo_video; si no, sale como texto. | 19 nov: Sandra aprobó salir el sáb 28 9:00 a. m. Formato visual por definir (propuesta: imagen de los 5 vectores).",
+  "nota": "Texto y primer comentario aprobados el 10 nov. Sandra quiere probar formato de voz en off con subtítulos: si el video está listo y aprobado antes del 17, se agrega archivo_video; si no, sale como texto. | 19 nov: Sandra aprobó salir el sáb 28 9:00 a. m. Imagen vectores-b2.jpg (diseño B, póster rojo) APROBADA por Sandra el 20 nov.",
   "payload": {
     "author": "urn:li:person:tsJbwdb3B2",
     "commentary": "Le pidieron una propuesta. La envió el mismo día, con el precio que le pidieron.\n\nY perdió. O peor: ganó sin rentabilidad.\n\nEn las mentorías con equipos comerciales siempre hago la misma pregunta antes de que alguien envíe una cotización:\n\n¿Cuál es tu estrategia comercial?\n\nCasi siempre hay silencio. Nos acostumbramos a ser vendedores que hacen caso: el cliente dice \"dame tu mejor precio\" y salimos corriendo a bajarlo.\n\nAntes de cotizar, en la reunión inicial, reviso 5 vectores:\n\n⭕ Presupuesto: ¿cuánto tiene y quién lo aprueba?\n⭕ Tomadores de decisión: ¿quién decide, quién influye y quién puede frenar?\n⭕ Competencia: ¿con quién te compara y por qué se quiere ir de su proveedor actual?\n⭕ Forma de compra: ¿licitación, comité o compra directa?\n⭕ Tiempo: ¿para cuándo lo necesita de verdad?\n\nCon eso cambia todo. Si el cliente se quiere ir de su proveedor por mal servicio, tienes todas las de ganar. No lleves el mejor precio: lleva tu oferta de valor.\n\nEl descuento llega al final, cuando el cliente negocia, y nunca regalado: \"si quieres este descuento, esto sale de la oferta, y lo tengo que pedir a gerencia\".\n\nCuando la venta se vuelve una subasta, la empresa pierde rentabilidad.\n\n¿Tu equipo cotiza con estrategia o cotiza porque se lo pidieron?\n\n{hashtag|\\#|Ventas} {hashtag|\\#|EstrategiaComercial} {hashtag|\\#|LiderazgoComercial} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
@@ -20,5 +20,7 @@
     "lifecycleState": "PUBLISHED",
     "isReshareDisabledByAuthor": false
   },
-  "programado_anterior": "por_reprogramar (prueba 1 post al día, 17 al 30 nov)"
+  "programado_anterior": "por_reprogramar (prueba 1 post al día, 17 al 30 nov)",
+  "imagen": "contenido-linkedin/imagenes/2026-11-28/vectores-b2.jpg",
+  "alt": "Antes de cotizar: 5 vectores. Presupuesto, quién decide, competencia, forma de compra y tiempo. No lleves precio, lleva valor."
 }
