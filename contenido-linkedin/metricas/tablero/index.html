@@ -1,0 +1,274 @@
+<meta name="dash-one-writer">
+<style>
+.tb{display:flex;flex-direction:column;gap:var(--cds-gap-xl);font-family:var(--font-anthropic-sans);color:var(--color-fg)}
+.tb h1{font-family:var(--font-anthropic-serif);font-weight:400;font-size:var(--cds-font-size-title);margin:0;text-wrap:balance}
+.tb h2{font-size:var(--cds-font-size-heading);font-weight:var(--cds-font-weight-medium);margin:0 0 var(--cds-gap-xs);text-wrap:balance}
+.tb .lead{font-size:var(--cds-font-size-body);color:var(--color-fg);max-width:70ch;margin:var(--cds-gap-sm) 0 0;line-height:1.5}
+.tb .sub{color:var(--color-fg-muted);font-size:var(--cds-font-size-caption);margin:0 0 var(--cds-gap-md)}
+.tb .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:var(--cds-gap-md)}
+.tb .tile{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-lg);min-width:0}
+.tb .tile .k{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);text-transform:uppercase;letter-spacing:.04em}
+.tb .tile .v{font-family:var(--font-anthropic-serif);font-weight:400;font-size:2.1rem;line-height:1.15;margin:var(--cds-gap-xs) 0;font-variant-numeric:tabular-nums}
+.tb .tile .d{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.tb .up{color:var(--color-ok);font-weight:var(--cds-font-weight-medium)}
+.tb .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:var(--cds-gap-lg)}
+.tb .card{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-lg);min-width:0}
+.tb .chart{position:relative;min-height:220px}
+.tb .tip{position:absolute;pointer-events:none;background:var(--cds-surface-popover);border:1px solid var(--cds-border);box-shadow:var(--cds-shadow-popover);border-radius:6px;padding:6px 8px;font-size:var(--cds-font-size-caption);white-space:nowrap;z-index:2}
+.tb .axis text{fill:var(--cds-text-secondary);font-size:var(--cds-font-size-caption)}
+.tb .axis path,.tb .axis line{stroke:var(--cds-chart-axis)}
+.tb .gridl line{stroke:var(--cds-chart-grid)}
+.tb .wrap{overflow-x:auto}
+.tb table{border-collapse:collapse;width:100%;font-size:var(--cds-font-size-caption);font-variant-numeric:tabular-nums}
+.tb th,.tb td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--color-border-line);vertical-align:top}
+.tb th{color:var(--color-fg-muted);font-weight:var(--cds-font-weight-medium)}
+.tb td.n,.tb th.n{text-align:right}
+.tb .pill{display:inline-block;padding:1px 8px;border-radius:999px;font-size:var(--cds-font-size-caption);border:1px solid var(--color-border-line)}
+.tb .pill.aprox{color:var(--color-warn);border-color:var(--color-warn)}
+.tb .pill.ok{color:var(--color-ok);border-color:var(--color-ok)}
+.tb .legend{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);line-height:1.6}
+.tb details{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.tb details li{margin:4px 0}
+</style>
+<div class="tb" data-read lang="es">
+  <header id="titulo">
+    <h1>Tu LinkedIn con IAM™: cómo vamos</h1>
+    <p class="lead">Desde el 28 de octubre tu perfil sumó <b data-draw="segCambio" data-source="resumen" data-field="seg_cambio" data-row="0">—</b> seguidores. La semana del 10 al 16 de noviembre tuvo <b data-source="semana" data-field="impresiones" data-row="0" data-draw="impSemana">—</b> impresiones. El formato con más impresiones por post es <b data-draw="mejorFormato">—</b>. Reuniones agendadas hasta hoy: <b data-draw="reuniones">—</b>.</p>
+  </header>
+
+  <section id="crecimiento">
+    <h2>Tu audiencia</h2>
+    <p class="sub">Desde el 28 de octubre de 2026, cuando empezamos a trabajar juntos.</p>
+    <div class="tiles">
+      <div class="tile" id="t-perfil"><div class="k">Seguidores del perfil</div><div class="v" data-draw="segActual" data-source="resumen" data-field="seg_actual" data-row="0">—</div><div class="d"><span class="up" data-draw="segCambio2" data-source="resumen" data-field="seg_cambio" data-row="0">—</span> desde el 28 oct · meta 10.000</div></div>
+      <div class="tile" id="t-pagina"><div class="k">Seguidores página IAM™</div><div class="v" data-draw="pagActual" data-source="resumen" data-field="pag_actual" data-row="0">—</div><div class="d"><span class="up" data-draw="pagCambio" data-source="resumen" data-field="pag_cambio" data-row="0">—</span> desde el 3 nov</div></div>
+      <div class="tile" id="t-news"><div class="k">Suscriptores newsletter</div><div class="v" data-draw="nlActual" data-source="resumen" data-field="nl_actual" data-row="0">—</div><div class="d"><span class="up" data-draw="nlCambio" data-source="resumen" data-field="nl_cambio" data-row="0">—</span> desde el 3 nov</div></div>
+      <div class="tile" id="t-pubs"><div class="k">Publicaciones desde el 29 oct</div><div class="v" data-draw="pubsTotal" data-source="pubs_total">—</div><div class="d">Posts en el feed, sin contar la newsletter</div></div>
+    </div>
+    <div class="card" id="g-seguidores" style="margin-top:var(--cds-gap-lg)">
+      <h2>Seguidores del perfil, corte a corte</h2>
+      <div class="chart" data-draw="lineaSeg" data-source="crecimiento"></div>
+    </div>
+  </section>
+
+  <section id="semana">
+    <h2>La última semana medida</h2>
+    <p class="sub">Del 10 al 16 de noviembre. Fuente: analíticas de LinkedIn leídas por Chrome.</p>
+    <div class="tiles">
+      <div class="tile"><div class="k">Impresiones</div><div class="v" data-source="semana" data-field="impresiones" data-row="0" data-draw="w-imp">—</div><div class="d"><span class="up" data-source="semana" data-field="cambio_impresiones_pct" data-row="0" data-draw="w-cambio">—</span> vs la semana anterior</div></div>
+      <div class="tile"><div class="k">Personas alcanzadas</div><div class="v" data-source="semana" data-field="alcance" data-row="0" data-draw="w-alc">—</div><div class="d">Únicas en 7 días</div></div>
+      <div class="tile"><div class="k">Interacciones</div><div class="v" data-source="semana" data-field="interacciones" data-row="0" data-draw="w-int">—</div><div class="d"><span data-draw="w-tasa" data-source="tasa">—</span> de las impresiones</div></div>
+      <div class="tile"><div class="k">Impresiones por post</div><div class="v" data-source="semana" data-field="promedio_por_post" data-row="0" data-draw="w-prom">—</div><div class="d">Base para la prueba de 1 post al día</div></div>
+    </div>
+  </section>
+
+  <section id="formatos" class="grid2">
+    <div class="card">
+      <h2>¿Qué formato funciona mejor?</h2>
+      <p class="sub">Promedio de impresiones por post, del 3 al 12 de noviembre. Pocos posts por formato: tómalo como pista, no como regla.</p>
+      <div class="chart" data-draw="barFormatos" data-source="formatos"></div>
+    </div>
+    <div class="card">
+      <h2>Qué publicamos</h2>
+      <p class="sub">Posts publicados en el feed desde el 29 de octubre, por formato.</p>
+      <div class="chart" data-draw="barPubs" data-source="pubs"></div>
+    </div>
+  </section>
+
+  <section id="prospeccion">
+    <h2>Del contacto a la reunión</h2>
+    <p class="sub">Semana del 16 al 20 de noviembre. Suma lo nuestro (Demetri y Chrome) y lo de Bruno, tu agente externo, salvo donde se separa.</p>
+    <div class="card"><div class="chart" data-draw="embudo" data-source="embudo"></div></div>
+    <div class="wrap" style="margin-top:var(--cds-gap-md)">
+      <table data-source="actividad" data-row-key="fecha,etapa,quien" id="tabla-actividad">
+        <thead><tr><th data-field="fecha">Fecha</th><th data-field="etapa">Etapa</th><th class="n" data-field="cantidad">Cantidad</th><th data-field="quien">Quién</th><th data-field="exactitud">Dato</th><th data-field="nota">Nota</th></tr></thead>
+        <tbody data-draw="filasActividad"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="posts">
+    <h2>Post por post</h2>
+    <p class="sub">Los posts con métricas leídas. El del 9 de noviembre no entra porque se midió minutos después de publicarlo.</p>
+    <div class="wrap">
+      <table data-source="posts" data-row-key="fecha,post" id="tabla-posts">
+        <thead><tr><th data-field="fecha">Fecha</th><th data-field="post">Post</th><th data-field="formato">Formato</th><th class="n" data-field="impresiones">Impresiones</th><th class="n" data-field="reacciones">Reacciones</th><th class="n" data-field="comentarios">Comentarios</th><th class="n" data-field="compartidos">Compartidos</th></tr></thead>
+        <tbody data-draw="filasPosts"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <details id="leyenda">
+    <summary>Cómo leer este tablero</summary>
+    <ul>
+      <li><b>Impresiones:</b> veces que tu contenido apareció en pantalla. <b>Alcance:</b> personas distintas que lo vieron.</li>
+      <li><b>Interacciones:</b> reacciones, comentarios, compartidos, guardados y envíos.</li>
+      <li><b>Aproximado:</b> LinkedIn muestra fechas relativas o listas que no cargan completas; esa cifra puede variar un poco.</li>
+      <li><b>Bruno:</b> agente externo que también escribe desde tu cuenta. Sus resultados se muestran aparte cuando se pueden distinguir.</li>
+      <li>Las cifras se actualizan cada lunes con la lectura de Chrome. Lo que falta medir aparece como "—".</li>
+    </ul>
+  </details>
+</div>
+<script>
+const num = (v) => (v === null || v === undefined || v === '' ? null : +v);
+const fmt = (v) => (v === null ? '—' : d3.format(',')(v).replace(/,/g, '.'));
+const pick = (rows, f) => rows.filter((r) => num(r[f]) !== null);
+
+dash.calc('resumen', {
+  title: 'Resumen de crecimiento',
+  description: 'Último corte de cada cifra y su cambio frente al primer corte disponible.',
+  inputs: ['crecimiento'],
+  fn: (crecimiento) => {
+    const s = crecimiento.filter((r) => r.seguidores_perfil !== null && r.seguidores_perfil !== '');
+    const p = crecimiento.filter((r) => r.seguidores_pagina !== null && r.seguidores_pagina !== '');
+    const n = crecimiento.filter((r) => r.suscriptores_newsletter !== null && r.suscriptores_newsletter !== '');
+    const last = (a, f) => +a[a.length - 1][f], first = (a, f) => +a[0][f];
+    return [{
+      seg_actual: last(s, 'seguidores_perfil'), seg_cambio: last(s, 'seguidores_perfil') - first(s, 'seguidores_perfil'),
+      pag_actual: last(p, 'seguidores_pagina'), pag_cambio: last(p, 'seguidores_pagina') - first(p, 'seguidores_pagina'),
+      nl_actual: last(n, 'suscriptores_newsletter'), nl_cambio: last(n, 'suscriptores_newsletter') - first(n, 'suscriptores_newsletter')
+    }];
+  }
+});
+dash.calc('tasa', {
+  title: 'Tasa de interacción de la semana',
+  description: 'Interacciones divididas por impresiones, en porcentaje con un decimal.',
+  inputs: ['semana'],
+  fn: (semana) => Math.round((+semana[0].interacciones / +semana[0].impresiones) * 1000) / 10
+});
+dash.calc('formatos', {
+  title: 'Impresiones promedio por formato',
+  description: 'Promedio de impresiones de los posts medidos, agrupados por formato.',
+  inputs: ['posts'],
+  fn: (posts) => Array.from(d3.group(posts, (r) => r.formato), ([formato, rs]) => ({
+    formato, promedio: Math.round(d3.mean(rs, (r) => +r.impresiones)), posts: rs.length
+  })).sort((a, b) => b.promedio - a.promedio)
+});
+dash.calc('pubs', {
+  title: 'Publicaciones por formato',
+  description: 'Cantidad de posts publicados en el feed por formato.',
+  inputs: ['publicaciones'],
+  fn: (publicaciones) => Array.from(d3.rollup(publicaciones, (v) => v.length, (r) => r.formato), ([formato, cantidad]) => ({formato, cantidad})).sort((a, b) => b.cantidad - a.cantidad)
+});
+dash.calc('pubs_total', {
+  title: 'Total de publicaciones',
+  description: 'Cantidad de posts publicados en el feed.',
+  inputs: ['publicaciones'],
+  fn: (publicaciones) => publicaciones.length
+});
+dash.calc('embudo', {
+  title: 'Embudo de prospección',
+  description: 'Suma de cada etapa de la semana, de la invitación a la reunión.',
+  inputs: ['actividad'],
+  fn: (actividad) => ['Invitaciones enviadas', 'Invitaciones aceptadas', 'Mensajes enviados', 'Respuestas', 'Reuniones agendadas'].map((etapa) => ({
+    etapa, cantidad: d3.sum(actividad.filter((r) => r.etapa === etapa), (r) => +r.cantidad)
+  }))
+});
+
+function val(el, id, f, show) {
+  const d = dash.data(id);
+  if (d.status !== 'ok' || d.data == null) { el.textContent = '—'; return; }
+  const v = f ? d.data[0]?.[f] : d.data;
+  el.textContent = show ? show(v) : fmt(num(v));
+}
+const plus = (v) => (v === null || v === undefined ? '—' : (v >= 0 ? '+' : '') + fmt(+v));
+dash.draw('segCambio', (el) => val(el, 'resumen', 'seg_cambio', plus));
+dash.draw('segCambio2', (el) => val(el, 'resumen', 'seg_cambio', plus));
+dash.draw('segActual', (el) => val(el, 'resumen', 'seg_actual'));
+dash.draw('pagActual', (el) => val(el, 'resumen', 'pag_actual'));
+dash.draw('pagCambio', (el) => val(el, 'resumen', 'pag_cambio', plus));
+dash.draw('nlActual', (el) => val(el, 'resumen', 'nl_actual'));
+dash.draw('nlCambio', (el) => val(el, 'resumen', 'nl_cambio', plus));
+dash.draw('pubsTotal', (el) => val(el, 'pubs_total'));
+dash.draw('impSemana', (el) => val(el, 'semana', 'impresiones'));
+dash.draw('w-imp', (el) => val(el, 'semana', 'impresiones'));
+dash.draw('w-alc', (el) => val(el, 'semana', 'alcance'));
+dash.draw('w-int', (el) => val(el, 'semana', 'interacciones'));
+dash.draw('w-prom', (el) => val(el, 'semana', 'promedio_por_post'));
+dash.draw('w-cambio', (el) => val(el, 'semana', 'cambio_impresiones_pct', (v) => '+' + v + ' %'));
+dash.draw('w-tasa', (el) => val(el, 'tasa', null, (v) => String(v).replace('.', ',') + ' %'));
+dash.draw('mejorFormato', (el) => {
+  const d = dash.data('formatos');
+  el.textContent = d.status === 'ok' && d.data && d.data.length ? d.data[0].formato.toLowerCase() : '—';
+});
+dash.draw('reuniones', (el) => {
+  const d = dash.data('embudo');
+  el.textContent = d.status === 'ok' && d.data ? fmt(d.data[4].cantidad) : '—';
+});
+
+function tipFor(el) {
+  let t = el.querySelector('.tip');
+  if (!t) { t = document.createElement('div'); t.className = 'tip'; t.hidden = true; el.appendChild(t); }
+  return t;
+}
+function bars(el, rows, key, value, label) {
+  el.replaceChildren();
+  const W = el.clientWidth || 320, rowH = 34, H = rows.length * rowH + 10;
+  const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img')
+    .attr('aria-label', rows.map((r) => `${r[key]}: ${r[value]}`).join(', '));
+  const probe = svg.append('text').style('font-size', 'var(--cds-font-size-caption)');
+  const lw = d3.max(rows, (r) => { probe.text(r[key]); return probe.node().getComputedTextLength(); }) || 80;
+  probe.remove();
+  const left = lw + 12, right = 56;
+  const x = d3.scaleLinear().domain([0, d3.max(rows, (r) => +r[value]) || 1]).range([0, Math.max(10, W - left - right)]);
+  const g = svg.selectAll('g').data(rows).join('g').attr('transform', (d, i) => `translate(0,${i * rowH + 4})`);
+  g.append('text').attr('x', 0).attr('y', 17).text((d) => d[key]).style('fill', 'var(--color-fg)').style('font-size', 'var(--cds-font-size-caption)');
+  g.append('rect').attr('x', left).attr('y', 4).attr('height', 18).attr('rx', 3).attr('width', (d) => Math.max(2, x(+d[value]))).style('fill', dash.colors[0]);
+  g.append('text').attr('x', (d) => left + x(+d[value]) + 6).attr('y', 17).text((d) => fmt(+d[value])).style('fill', 'var(--cds-text-secondary)').style('font-size', 'var(--cds-font-size-caption)');
+  const tip = tipFor(el);
+  g.on('pointermove', (ev, d) => { const [mx, my] = d3.pointer(ev, el); tip.hidden = false; tip.textContent = label(d); tip.style.left = Math.min(mx + 10, W - 160) + 'px'; tip.style.top = (my - 30) + 'px'; })
+   .on('pointerleave', () => { tip.hidden = true; });
+}
+dash.draw('barFormatos', (el) => {
+  const d = dash.data('formatos');
+  if (d.status !== 'ok' || !d.data) { el.textContent = d.status === 'error' ? 'No se pudieron cargar los posts.' : '—'; return; }
+  bars(el, d.data, 'formato', 'promedio', (r) => `${r.formato}: ${fmt(r.promedio)} impresiones promedio en ${r.posts} post${r.posts > 1 ? 's' : ''}`);
+});
+dash.draw('barPubs', (el) => {
+  const d = dash.data('pubs');
+  if (d.status !== 'ok' || !d.data) { el.textContent = d.status === 'error' ? 'No se pudieron cargar las publicaciones.' : '—'; return; }
+  bars(el, d.data, 'formato', 'cantidad', (r) => `${r.formato}: ${r.cantidad} posts`);
+});
+dash.draw('embudo', (el) => {
+  const d = dash.data('embudo');
+  if (d.status !== 'ok' || !d.data) { el.textContent = d.status === 'error' ? 'No se pudo cargar la actividad.' : '—'; return; }
+  bars(el, d.data, 'etapa', 'cantidad', (r) => `${r.etapa}: ${r.cantidad}`);
+});
+dash.draw('lineaSeg', (el) => {
+  const d = dash.data('crecimiento');
+  if (d.status !== 'ok') { el.textContent = d.status === 'error' ? 'No se pudo cargar el crecimiento.' : '—'; return; }
+  el.replaceChildren();
+  const rows = pick(d.data, 'seguidores_perfil').map((r) => ({f: new Date(r.fecha + 'T12:00:00Z'), v: +r.seguidores_perfil, fecha: r.fecha}));
+  const W = el.clientWidth || 320, H = 220, m = {t: 16, r: 20, b: 26, l: 48};
+  const x = d3.scaleUtc().domain(d3.extent(rows, (r) => r.f)).range([m.l, W - m.r]);
+  const y = d3.scaleLinear().domain([d3.min(rows, (r) => r.v) - 20, d3.max(rows, (r) => r.v) + 20]).nice().range([H - m.b, m.t]);
+  const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img').attr('aria-label', 'Seguidores del perfil: ' + rows.map((r) => `${r.fecha} ${r.v}`).join(', '));
+  const fd = d3.utcFormat('%d %b');
+  svg.append('g').attr('class', 'gridl').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(W - m.l - m.r)).tickFormat('')).call((g) => g.select('.domain').remove());
+  svg.append('g').attr('class', 'axis').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(Math.min(rows.length, W < 420 ? 3 : 6)).tickFormat(fd));
+  svg.append('g').attr('class', 'axis').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickFormat((v) => fmt(v)));
+  svg.append('path').datum(rows).attr('fill', 'none').style('stroke', dash.colors[0]).attr('stroke-width', 2.5).attr('d', d3.line().x((r) => x(r.f)).y((r) => y(r.v)));
+  const dots = svg.selectAll('circle').data(rows).join('circle').attr('cx', (r) => x(r.f)).attr('cy', (r) => y(r.v)).attr('r', 4).style('fill', dash.colors[0]);
+  const lastR = rows[rows.length - 1];
+  svg.append('text').attr('x', x(lastR.f) - 4).attr('y', y(lastR.v) - 10).attr('text-anchor', 'end').text(fmt(lastR.v)).style('fill', 'var(--color-fg)').style('font-size', 'var(--cds-font-size-caption)');
+  const tip = tipFor(el);
+  dots.on('pointermove', (ev, r) => { const [mx, my] = d3.pointer(ev, el); tip.hidden = false; tip.textContent = `${fd(r.f)}: ${fmt(r.v)} seguidores`; tip.style.left = Math.min(mx + 10, W - 170) + 'px'; tip.style.top = (my - 30) + 'px'; })
+      .on('pointerleave', () => { tip.hidden = true; });
+});
+function rowsTable(el, id, cols) {
+  const d = dash.data(id);
+  if (d.status !== 'ok') { el.replaceChildren(); return; }
+  d3.select(el).selectAll('tr').data(d.data).join('tr').each(function (r) {
+    d3.select(this).selectAll('td').data(cols).join('td').attr('class', (c) => c.n ? 'n' : null).each(function (c) {
+      const td = d3.select(this);
+      td.selectAll('*').remove();
+      if (c.pill) {
+        td.text('');
+        td.append('span').attr('class', 'pill ' + (r[c.f] === 'Exacto' ? 'ok' : 'aprox')).text(r[c.f] ?? '');
+      } else td.text(c.n ? fmt(num(r[c.f])) : (r[c.f] ?? ''));
+    });
+  });
+}
+dash.draw('filasActividad', (el) => rowsTable(el, 'actividad', [{f: 'fecha'}, {f: 'etapa'}, {f: 'cantidad', n: 1}, {f: 'quien'}, {f: 'exactitud', pill: 1}, {f: 'nota'}]));
+dash.draw('filasPosts', (el) => rowsTable(el, 'posts', [{f: 'fecha'}, {f: 'post'}, {f: 'formato'}, {f: 'impresiones', n: 1}, {f: 'reacciones', n: 1}, {f: 'comentarios', n: 1}, {f: 'compartidos', n: 1}]));
+</script>
