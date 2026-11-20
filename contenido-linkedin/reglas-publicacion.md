@@ -282,3 +282,9 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Grupo Abstract: SIEMPRE like en cada publicación nueva (comentario opcional si hay algo valioso que aportar).
 - Comentarios: solo valor, sin vender, sin pedir reunión ni links, sin nombrar personas de los equipos cliente ni revelar cifras o detalles del trabajo con ellos (Comfacesar: nunca 800 h ni $483 M en público). Variar el arranque (regla 46).
 - Si el post es de duelo, crisis o tema sensible: solo like o nada, y avisar a Sandra.
+
+## 48. Agente externo "Bruno" (empresa de Argentina) opera en la misma cuenta (20 nov 2026, Sandra)
+- Sandra tiene contratado un agente externo (Bruno) que también envía invitaciones y mensajes desde su LinkedIn.
+- NO tocar sus conversaciones: no responder, no editar, no borrar, no enviar mensajes 2 o 3 de nuestra secuencia a sus contactos. Sandra quiere medir los resultados de ese aplicativo por separado.
+- Cómo distinguir: es nuestra solo si el texto sale de una plantilla aprobada en la Cola (registro en prospeccion/plan-iam-intelligence.md). Todo lo demás (ej. "gracias por aceptar…", conversación con Jhonny Hoyos de Keralty) es de Bruno: solo lectura.
+- Límites de LinkedIn son por cuenta: las invitaciones y mensajes de Bruno suman con los nuestros. Antes de enviar invitaciones, contar las de la semana (de ambos).
