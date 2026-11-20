@@ -34,3 +34,7 @@ Fuente de verdad: esta tabla y la sección "Lista de prospectos" de la página C
 - Ya pasó: el 18 nov a la 1:50 p. m. Chrome le envió por mensaje interno el texto aprobado con el Calendly (antes de esta decisión). No se le envía nada más.
 - Si responde o agenda: no contestar; mostrarle a Sandra para que decida.
 - Interacción pública (ajuste 19 nov): si comenta un post de Sandra, se le responde normal. No se borra el mensaje del 18 nov. Solo no se le insiste en reunión.
+
+## 20 nov, Luz Stella Murgas: CONFIRMADA presidenta de la ANDI
+- Fuente: web oficial ANDI, 10 nov 2026: https://andi.com.co/Home/Noticia/18107-luz-stella-murgas-es-la-nueva-president (reemplaza a Bruce Mac Master, que renunció el 1 oct 2026). Su LinkedIn aún dice Naturgas (sin actualizar).
+- Se levanta la pausa del 19 nov. Invitación pendiente desde el 16 nov. Correo personal no publicado; contacto ANDI: 601 326 8500 (Presidencia ext. 2121, Transformación Digital ext. 2304). Sin seccional en Cesar; Atlántico-Magdalena: gerente Alberto Vives de la Espriella (605 322 5299); Bolívar: María Claudia Peñas.
