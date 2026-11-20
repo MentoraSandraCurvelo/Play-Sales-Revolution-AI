@@ -15,6 +15,7 @@ IG = "17841448964093245"
 YO = "sandracurvelo_iam"
 # Palabra clave (expresión regular) -> mensaje directo con su guía. La primera que coincida gana.
 PALABRAS = [
+    # AJUSTES: texto aprobado por Sandra el 20 nov 2026 (reel 5 ajustes de Claude).
     (re.compile(r"\bajustes?\b", re.I),
      "¡Hola! Gracias por comentar 🙌 Ya te paso tu guía con los 5 ajustes para que Claude trabaje contigo y no sea solo un buscador. "
      "Es una página con cada ajuste paso a paso 👉 https://iamlatam.co/guias/5-ajustes-claude/ Cuéntame cuál activaste primero. Sandra",
