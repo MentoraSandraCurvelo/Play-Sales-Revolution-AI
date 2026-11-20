@@ -8,6 +8,7 @@ Copia de trabajo de la página principal de IAM™. El sitio en producción est�
 |---|---|
 | `index.html` | Página principal, con el mensaje de IA empresarial y la sección IAE™ |
 | `assets/tablero-iae-*.webp` | Pantallazos del Tablero IAE™ de demostración (datos simulados) |
+| `assets/fotos/` | Las 15 fotos de la página (portada, video y casos), antes incrustadas dentro del HTML |
 | `assets/logo-iam.png` | Logo, antes incrustado 16 veces dentro del HTML |
 | `og-image.png` | Imagen que aparece al compartir el enlace en LinkedIn y WhatsApp |
 | `favicon.ico`, `assets/apple-touch-icon.png` | Ícono de la pestaña del navegador |

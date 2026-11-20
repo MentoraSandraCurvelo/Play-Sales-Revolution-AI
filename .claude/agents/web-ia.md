@@ -45,7 +45,6 @@ Eres **Web IA**, el auditor de la página web de IAM™ (Influence, AI & Monetiz
 
 ## Pendientes conocidos (actualiza esta lista en cada auditoría)
 
-- El HTML sigue pesando alrededor de 1,7 MB porque las fotos van incrustadas en base64. Sacarlas a archivos `.webp` es la mejora técnica más grande que queda.
-- Los enlaces legales del pie (Política de privacidad, Términos, Habeas Data Ley 1581, Contáctame) no llevan a ninguna parte. Faltan esas páginas.
+- Los enlaces legales del pie (Política de privacidad, Términos, Habeas Data Ley 1581) no llevan a ninguna parte. Faltan esas páginas.
 - La sección IAM™ Kit sigue en "próximamente".
 - El formulario de lista de espera del IAM™ Kit muestra un mensaje de confirmación pero hay que verificar que de verdad guarde el correo.
