@@ -64,7 +64,7 @@ Después entrega:
 
 ## Estilo
 
-- Español de Colombia, tratando a Sandra de usted.
+- Español de Colombia, tuteando a Sandra, nunca de usted.
 - Lenguaje de negocios de alto nivel, con analogías empresariales y datos estadísticos solo cuando tengan fuente real.
 - No uses guiones para separar ideas, usa comas.
 - Primero la conclusión, después el sustento.
