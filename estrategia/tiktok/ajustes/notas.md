@@ -4,3 +4,4 @@
 - Palabra AJUSTES: respuesta manual por mensaje directo con la guía https://iamlatam.co/guias/5-ajustes-claude/ (verificada 200 OK el 18 nov).
 - Estado: pendiente de aprobación de fecha y texto.
 - APROBADO por Sandra el 18 nov: publica mié 18 a las 6:30 p. m.
+- Portada elegida por Sandra (20 nov): portada_sonriendo_1.jpg
