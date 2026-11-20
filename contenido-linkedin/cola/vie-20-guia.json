@@ -1,11 +1,11 @@
 {
   "id": "vie-20-guia",
-  "estado": "aprobado",
+  "estado": "publicado",
   "aprobado_por": "Sandra",
   "aprobado_el": "2026-11-17",
   "video_aprobado_el": "2026-11-17",
   "programado_bogota": "2026-11-20 07:30",
-  "urn": null,
+  "urn": "urn:li:ugcPost:7529524614960660480",
   "archivo_video": "contenido-linkedin/videos/2026-11-16/guia-semana-vendedor-ia-v3.mp4",
   "titulo_video": "La semana del vendedor con IA",
   "payload": {
@@ -22,5 +22,7 @@
   },
   "primer_comentario": "¿Qué día de la semana es el más pesado para tu equipo comercial?",
   "nota": "Video v3 y texto aprobados por Sandra el 17 nov. Primer comentario: pregunta (sin link) para invitar a comentar. Palabra clave SEMANA: a quien comente se le responde con https://iamlatam.co/guias/semana-vendedor-ia/",
-  "primer_comentario_aprobado_el": "2026-11-17"
+  "primer_comentario_aprobado_el": "2026-11-17",
+  "video": "urn:li:video:D4E10AQG6kRzWFHhumg",
+  "publicado_utc": "2026-11-20T12:42:40+00:00"
 }
