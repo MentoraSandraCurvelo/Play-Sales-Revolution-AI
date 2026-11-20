@@ -276,3 +276,9 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Máximo 1 comentario por ronda con "en las empresas/equipos que acompaño". Alternar: dato del post, pregunta directa, experiencia concreta, contraste. No repetir la misma estructura en todos.
 - La frase de rotación al compartir desde la página IAM™ debe encajar con el tema del post; si no encaja, usar una frase del propio post.
 - Vicepresidente: la meta de 1 comentario diario cede ante la regla 42 (Milagro Week). Si todos sus posts recientes son de Milagro Week, no se comenta y no se fuerza.
+
+## 47. Clientes: interacción fija (20 nov 2026, Sandra)
+- Comfacesar y Drummond: SIEMPRE like + 1 comentario de valor en cada publicación nueva de su página (no cuenta dentro de los 5 de visibilidad).
+- Grupo Abstract: SIEMPRE like en cada publicación nueva (comentario opcional si hay algo valioso que aportar).
+- Comentarios: solo valor, sin vender, sin pedir reunión ni links, sin nombrar personas de los equipos cliente ni revelar cifras o detalles del trabajo con ellos (Comfacesar: nunca 800 h ni $483 M en público). Variar el arranque (regla 46).
+- Si el post es de duelo, crisis o tema sensible: solo like o nada, y avisar a Sandra.
