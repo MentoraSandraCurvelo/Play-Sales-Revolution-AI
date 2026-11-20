@@ -15,7 +15,7 @@ Copia de trabajo de la página principal de IAM™. El sitio en producción est�
 
 ## Qué NO hay aquí
 
-Los videos (`sandra-curvelo-video.mp4`, `fabian-gonzalez.mp4`, `testimonio-drummond.mp4`), `iam-globe.html` y la carpeta `guias/` solo existen en Netlify.
+Los videos (`sandra-curvelo-video.mp4`, `fabian-gonzalez.mp4`, `testimonio-drummond.mp4`), `iam-globe.html`, la carpeta `guias/`, la carpeta `verifica/` (diplomas de embajadores, no enlazada desde ninguna página) y el archivo `_redirects` solo existen en Netlify. Para tener la carpeta completa: Netlify, Deploys, abrir el deploy Published, Options, descargar el ZIP.
 
 **Para publicar:** copia el contenido de esta carpeta dentro de la carpeta completa del sitio (la que ya tiene los videos y las guías), reemplaza `index.html`, y sube esa carpeta completa a Netlify. Si subes solo esta carpeta, se pierden los videos y las guías.
 

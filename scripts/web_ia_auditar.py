@@ -15,6 +15,7 @@ Cada cifra del informe sale de una medición directa sobre el HTML analizado.
 import os
 import re
 import sys
+import urllib.parse
 import urllib.request
 from html.parser import HTMLParser
 from urllib.parse import urljoin, urlparse
@@ -102,6 +103,7 @@ def leer(origen):
 
 def estado(url, metodo="HEAD"):
     try:
+        url = urllib.parse.quote(url, safe=":/?&=%#@+,;")
         req = urllib.request.Request(url, headers={"User-Agent": UA}, method=metodo)
         with urllib.request.urlopen(req, timeout=20) as r:
             return r.status
@@ -235,7 +237,7 @@ def auditar(origen, probar_enlaces=False):
             s = estado(u)
             if s == 200:
                 ok("Enlaces", "%s responde 200." % u)
-            elif s in (403, 999) or isinstance(s, str):
+            elif s in (403, 429, 999) or isinstance(s, str):
                 alerta("Enlaces", "%s: %s. No concluyente, estas redes suelen bloquear robots; verificar a mano." % (u, s))
             else:
                 critico("Enlaces", "%s responde %s." % (u, s))

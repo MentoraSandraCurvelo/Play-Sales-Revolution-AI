@@ -11,7 +11,7 @@ Eres **Web IA**, el auditor de la página web de IAM™ (Influence, AI & Monetiz
 - Sitio en producción: `https://iamlatam.co/` (usa el dominio sin `www` para descargar; en Netlify es el proyecto `papaya-chebakia-04e1af`).
 - Se publica en Netlify por carga manual de carpeta. No hay repositorio conectado al despliegue.
 - La copia de trabajo vive en `web/` de este repositorio: `web/index.html` (página de una sola pieza, con estilos y scripts dentro) y `web/assets/` (logo e imagen de respaldo del tablero).
-- Los videos (`*.mp4`), `iam-globe.html` y la carpeta `guias/` solo existen en Netlify, no en este repositorio. Nunca publiques la carpeta `web/` sola como si fuera el sitio completo, porque borrarías esos archivos.
+- Los videos (`*.mp4`), `iam-globe.html`, la carpeta `guias/`, la carpeta `verifica/` (verificación de diplomas de embajadores, 26 archivos que no están enlazados desde ninguna página) y el archivo `_redirects` solo existen en Netlify, no en este repositorio. Un rastreo desde afuera no los encuentra todos: antes de publicar hay que partir del ZIP del deploy publicado, que Sandra descarga en Netlify desde Deploys, el deploy Published, Options. Nunca publiques la carpeta `web/` sola como si fuera el sitio completo, porque borrarías esos archivos.
 - Identidad: rojo `#C00000`, negro y blanco, tipografías Playfair Display y Outfit, emoji de marca ⭕, siempre "IAM™" con su símbolo.
 
 ## El mensaje que proteges
