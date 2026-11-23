@@ -10,6 +10,31 @@ recibir y el precio lo sigue.
 
 ---
 
+## Con lo que se abre, antes de hablar de plata
+
+La semana pasada, en el cierre de la fase 1, la Caja **ganó una licitación con la
+Gobernación por $4.000 millones**. Llegaron a tiempo por el tablero de alarmas de
+SECOP que construyó el área Jurídica dentro de este programa.
+
+Así se dice, y no de otra forma:
+
+> El tablero no ganó la licitación. La ganó la Caja. Lo que hizo el tablero fue
+> que la Caja **estuviera a tiempo para competir por ella**. Sin esa alarma, esa
+> licitación no se habría presentado.
+
+Dos cuidados, porque él es el que paga y va a repreguntar:
+
+- **No sumes los $4.000 millones al tablero de ahorros.** Es contrato ganado, no
+  es ahorro de horas, y mezclarlos rompe la credibilidad de las dos cifras. Van
+  separadas, igual que la cifra de la IPS.
+- **No digas que el proyecto se pagó 13 veces.** Di que una sola área, en una
+  sola alarma, le abrió a la Caja una puerta de $4.000 millones. El número habla
+  solo, no hay que ayudarlo.
+
+Y la pregunta que deja servida, que es a donde quieres llegar: **¿cuántas de esas
+alarmas no existen todavía en las otras áreas?** Eso es exactamente lo que
+compra la fase 2.
+
 ## El fee no es una sola cifra, son dos bloques
 
 Esto es lo que hay que decir antes que nada, porque es lo que impide que la
@@ -35,12 +60,16 @@ puerta a la idea de que todo es divisible.
 |---|---|---|---|
 | nada | 18 áreas | $24.300.000 | $291.600.000 |
 | 1 área | 17 | $23.400.000 | $280.800.000 |
-| 2 áreas | 16 | $22.500.000 | $270.000.000 |
-| **3 áreas** | **15** | **$21.600.000** | **$259.200.000** |
+| **2 áreas** | **16** | **$22.500.000** | **$270.000.000** |
+| 3 áreas | 15 | $21.600.000 | $259.200.000 |
 
-**Tu piso de 21,6 son exactamente las tres áreas que él nunca nombró.** No es un
-descuento: es tres áreas menos. Dicho así, no le quita credibilidad a ningún
-otro número tuyo.
+**Donde para la escalera son $22.500.000**, que son las dos únicas áreas que él
+nunca nombró y que se pueden sacar sin desarmar nada: Planeación y Tesorería. No
+es un descuento, es dos áreas menos, y queda por encima de tu piso de 21,6.
+
+El tercer escalón existe en la aritmética, pero para llegar a él habría que
+sacar un área que él sí pidió. Esa no la ofreces tú: si él la nombra, la
+conversación ya es otra.
 
 ## Antes de tocar las áreas, nombra lo que ya le estás regalando
 
@@ -76,16 +105,19 @@ seis meses quedan frentes sin cerrar.
 
 ## Qué ofrecer que salga, y en qué orden
 
-**Primero, las tres que él nunca nombró:** Planeación, Tesorería y Cumplimiento.
-Son las tres que no aparecen en su propio listado de prioridades. Sacarlas lleva
-el fee a **$21.600.000** y el total a **$259.200.000**, y no toca nada de lo que
-él pidió.
+**Las dos que él nunca nombró:** Planeación y Tesorería. No aparecen en su propio
+listado de prioridades. Sacarlas lleva el fee a **$22.500.000** y el total a
+**$270.000.000**, y no toca nada de lo que él pidió.
 
-**Ahí es donde conviene parar.** Las otras dos de esa calle son Talento Humano y
-Gerencia Financiera, y las dos están en el listado que él mismo dio: Gestión
-Humana por selección y clima, Finanzas por los riesgos. Si quiere seguir
-bajando, tiene que empezar a quitar cosas que él pidió, y esa frase la dices tal
-cual.
+**Cumplimiento no está en esa lista, aunque él tampoco la nombró.** La gobernanza
+es entregable de Cumplimiento: es el área dueña de las reglas de uso, la
+trazabilidad y la responsabilidad. Sacarla no es quitar un área, es quitar la
+gobernanza, y eso ya está en el bloque que no baja.
+
+**Ahí es donde se para.** Las otras de esa calle son Talento Humano y Gerencia
+Financiera, y las dos están en el listado que él mismo dio: Gestión Humana por
+selección y clima, Finanzas por los riesgos. Si quiere seguir bajando, tiene que
+empezar a quitar cosas que él pidió, y esa frase la dices tal cual.
 
 ## Lo que no sale del alcance aunque pague menos
 
@@ -112,6 +144,23 @@ $472.563.000 contra $291.600.000, son **1,62 veces**. A la tarifa de jefatura so
 
 ---
 
+## Lo que hay que preguntar hoy, no dejarlo para después
+
+Víctor Hugo, gerente jurídico, dice que de aquí en adelante la gobernanza
+dependerá del área Jurídica y no de Cumplimiento. Hoy la propuesta está escrita
+con Cumplimiento como dueño de la gobernanza, así que esto hay que resolverlo en
+la mesa y no por correo después de firmar.
+
+> Antes de cerrar, una cosa de estructura. La gobernanza del uso de IA está
+> escrita con Cumplimiento como área dueña. Víctor Hugo me plantea que de aquí
+> en adelante eso pase a Jurídica. **¿Con cuál de las dos la dejamos?** Lo
+> pregunto ahora porque es el área que firma las reglas, y prefiero que quede
+> dicho desde el primer mes y no a mitad de camino.
+
+No cambia el precio: la gobernanza está en el bloque de programa con cualquiera
+de las dos. Lo que cambia es quién responde, y eso conviene que lo diga él
+delante de todos.
+
 ## Las tres cosas que no se dicen
 
 **No digas un porcentaje de descuento.** Ni «te hago el 10%». En el momento en
@@ -120,6 +169,9 @@ que sale un porcentaje, el número de partida deja de ser verdad.
 **No bajes el bloque de programa.** Es lo único que sostiene que el precio tenga
 una lógica y no un tanteo.
 
-**No pases de 21,6.** Si llega ahí y sigue empujando, lo que queda no es precio,
-es plazo: seis meses en lugar de doce, y la mitad del alcance sin cerrar, dicho
-con todas sus letras.
+**No ofrezcas Cumplimiento.** Es el área dueña de la gobernanza. Si sale, lo que
+se cae no es un área, es el entregable que le protege el riesgo a la Caja.
+
+**No bajes de 22,5 por tu cuenta.** Si llega ahí y sigue empujando, lo que queda
+no es precio: es el anticipo, y después el plazo, seis meses en lugar de doce y
+la mitad del alcance sin cerrar, dicho con todas sus letras.
