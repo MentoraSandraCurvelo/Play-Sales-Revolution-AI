@@ -67,3 +67,9 @@ Excluido: Juan Carlos Duque Gómez (Asequimicos), conversación en curso desde j
 - Antes de cada envío Chrome revisa el historial: si hay mensaje de Bruno o conversación previa, se salta (regla 48; Sandra no consulta a Sibruno).
 - Lote 1 (lun 23 nov): Miguel Fernando Escobar (Postobón), Juan Fernando Maya Restrepo (Postobón), Francisco Revelo Unigarro (Colácteos), Gabriel Domínguez Silva (Colácteos), Sandra Terranova (Alpina Ecuador), Alejandro Villa Correa (Alpina), Martín Garmendia (Alpina), Harold Celis (Reylácteos), Luis Felipe Hoyos Jaramillo (Comercial Nutresa), Fabio Andrés Parra Osorio (Comercial Nutresa), Fabián Mosquera (Grupo AJE), Camilo Montes (ANDI, Cámara de Industria de Alimentos), Iván Fernando Osuna Díaz (Grupo Diana), Omar Urrea (Quala), Julián Nieto Puyana (Solla).
 - (23 nov 2026, Sandra) NO usar el caso Bimbo como gancho en mensajes. Lácteos y alimentos van con la plantilla estándar del mensaje 1. Lote 1 pegado en Chrome el 23 nov; esperando la tabla de envíos.
+
+## Resultado lote 1 (lun 23 nov 2026, 6:46 a 7:11 a. m., Chrome)
+- Enviados 11/15: Miguel Fernando Escobar, Juan Fernando Maya Restrepo (Postobón); Francisco Revelo Unigarro, Gabriel Domínguez Silva (Colácteos); Sandra Terranova (Alpina Ecuador); Alejandro Villa Correa (Alpina); Luis Felipe Hoyos Jaramillo (Comercial Nutresa, se le escribió "Luis"); Fabián Mosquera (Grupo AJE, perfil ubicado en Indonesia); Camilo Montes (ANDI, el texto dijo "en ANDI"); Omar Urrea (Quala); Julián Nieto Puyana (Solla).
+- No enviados por conversación previa de Sandra (no de Bruno): Martín Garmendia (Alpina, 22 nov 2022), Harold Celis (Reylácteos), Fabio Andrés Parra Osorio (Comercial Nutresa), Iván Fernando Osuna Díaz (Grupo Diana, 27 jul 2021).
+- Sin avisos de LinkedIn. Respuestas: 0 al cierre.
+- Mensaje 2 de este lote: día 5 = sáb 28 nov; propuesto mover a lun 30 nov (pendiente Sandra).
