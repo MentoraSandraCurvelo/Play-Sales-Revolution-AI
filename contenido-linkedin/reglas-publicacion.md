@@ -288,3 +288,8 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - NO tocar sus conversaciones: no responder, no editar, no borrar, no enviar mensajes 2 o 3 de nuestra secuencia a sus contactos. Sandra quiere medir los resultados de ese aplicativo por separado.
 - Cómo distinguir: es nuestra solo si el texto sale de una plantilla aprobada en la Cola (registro en prospeccion/plan-iam-intelligence.md). Todo lo demás (ej. "gracias por aceptar…", conversación con Jhonny Hoyos de Keralty) es de Bruno: solo lectura.
 - Límites de LinkedIn son por cuenta: las invitaciones y mensajes de Bruno suman con los nuestros. Antes de enviar invitaciones, contar las de la semana (de ambos).
+
+## 49. Variar el cierre de los comentarios de visibilidad (23 nov 2026, Sandra)
+- Máximo 1 comentario por ronda puede cerrar con "¿Qué indicador…?".
+- En los demás, la pregunta final alterna entre experiencias, obstáculos, próximos pasos y lo que aprendieron.
+- Chrome la agregó a la Cola IAM LinkedIn (versión en vivo) después de la regla 46. Antes de republicar la Cola, partir de la versión en vivo.
