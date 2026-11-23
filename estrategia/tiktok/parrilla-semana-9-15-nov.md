@@ -26,4 +26,5 @@ Candidatos para TikTok después del estreno en Instagram, cada uno con el sí de
 - Lun 1 dic: reel MATIA con gancho
 - Mié 3 dic: reel PROSPECTA
 - Lun 8 dic: reel recuerdo UDES (en TikTok decir "en este panel", sin nombrar la universidad, el evento ni el año)
-Rama de Isaía: claude/ecstatic-hawking-b5uxn3. Pendientes de Sandra: recuerdo Alpina y agente de correo.
+- Sáb 6 dic: reel recuerdo Alpina (Sandra aclaró que Alpina es solo un ejemplo; texto tal cual)
+Rama de Isaía: claude/ecstatic-hawking-b5uxn3. Pendiente de Sandra: agente de correo.
