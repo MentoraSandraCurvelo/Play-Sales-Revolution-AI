@@ -4,6 +4,6 @@
 - Video: panel_tiktok.mp4 (41 s, 1080x1920).
 - Regla: decir "en este panel". No nombrar el evento, la universidad ni el año.
 - Aprobado por Sandra: 23 nov. Publicar vie 27 nov, 6:30 p. m. (Bogotá).
-- Portadas: portada_panel_1.jpg (segundo 2) y portada_panel_2.jpg (segundo 20). En este video Sandra habla de perfil al panel, no hay un fotograma sonriendo de frente.
+- Portada elegida por Sandra (23 nov): portada_panel_2.jpg (segundo 20).
 - Texto: caption.txt (adaptado del texto de LinkedIn).
 - Medir: 24 h (sáb 28) y 7 días (vie 4 dic).
