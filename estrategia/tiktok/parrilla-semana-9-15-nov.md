@@ -18,3 +18,12 @@ Fuente: agenda real de Isaía (9 nov, 11:55 UTC). Regla: TikTok sale después de
 
 ## Agregado 10 nov
 | Sáb 14 (propuesto) | IAE™ (2:08, video de Demetri) | Vie 13 en Instagram, jue 12 en LinkedIn | iae/ | Aprobado (10 nov) |
+
+## Aviso de Isaía (23 nov): Instagram reactivado, 12:30 p. m. Bogotá
+Candidatos para TikTok después del estreno en Instagram, cada uno con el sí de Sandra:
+- Mié 26 nov: reel IA agéntica
+- Sáb 29 nov: reel IAE™ (ojo: en TikTok ya está programado un IAE™ el lun 23; revisar si es el mismo antes de proponerlo)
+- Lun 1 dic: reel MATIA con gancho
+- Mié 3 dic: reel PROSPECTA
+- Lun 8 dic: reel recuerdo UDES (en TikTok decir "en este panel", sin nombrar la universidad, el evento ni el año)
+Rama de Isaía: claude/ecstatic-hawking-b5uxn3. Pendientes de Sandra: recuerdo Alpina y agente de correo.
