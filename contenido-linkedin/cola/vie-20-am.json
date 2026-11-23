@@ -17,9 +17,10 @@
     "lifecycleState": "PUBLISHED",
     "isReshareDisabledByAuthor": false
   },
-  "nota": "Texto aprobado el 10 nov. Formato: imagen de tablero (datos de ejemplo) por crear. Sin primer comentario aún. | 19 nov: primer comentario aprobado por Sandra. Formato propuesto: video tablero animado (imagenes/2026-11-25/tablero-animado.mp4), APROBADO por Sandra el 19 nov.",
+  "nota": "Texto aprobado el 10 nov. Formato: imagen de tablero (datos de ejemplo) por crear. Sin primer comentario aún. | 19 nov: primer comentario aprobado por Sandra. Formato propuesto: video tablero animado (imagenes/2026-11-25/tablero-animado.mp4), APROBADO por Sandra el 19 nov. | 23 nov: Sandra cambia el video por la imagen fija tablero-piloto.png (opción B), porque el video del 20 nov tuvo solo 29 impresiones.",
   "primer_comentario": "¿En qué semana se rinde tu equipo con un piloto de IA: la 1, la 5 o la 9?",
   "primer_comentario_aprobado_el": "2026-11-19",
-  "archivo_video": "contenido-linkedin/imagenes/2026-11-25/tablero-animado.mp4",
-  "titulo_video": "Piloto de IA por área, semana a semana"
+  "archivo_video_anterior": "contenido-linkedin/imagenes/2026-11-25/tablero-animado.mp4",
+  "imagen": "contenido-linkedin/imagenes/2026-11-25/tablero-piloto.png",
+  "alt": "Tablero de ejemplo: piloto de IA por área en las semanas 1, 5 y 9, con horas recuperadas al mes por área. Datos simulados."
 }
