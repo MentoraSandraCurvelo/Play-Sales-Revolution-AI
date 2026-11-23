@@ -740,52 +740,14 @@ a:hover{color:#ff3b3b}
   </div>
 </section>
 
-<section data-label="Arranque" data-speaker-notes="Cimientos desde el 1 de diciembre de 2026, los doce meses corren de enero a diciembre de 2027. El calendario avanza solo; hacer clic en un mes para verlo." style="background:#F4F3F1;color:#0A0A0A;font-family:Manrope,sans-serif;overflow:hidden">
-  <div style="position:absolute;left:100px;top:100px;right:100px;display:flex;align-items:flex-end;justify-content:space-between;gap:40px">
-    <div style="display:flex;flex-direction:column;gap:20px">
-      <div data-a="rise" style="font-family:'JetBrains Mono',monospace;font-size:24px;letter-spacing:.2em;color:#C00000">CIMIENTOS DESDE EL 1 DE DICIEMBRE DE 2026</div>
-      <h2 data-a="rise" style="margin:0;font-size:76px;font-weight:800;letter-spacing:-0.03em;line-height:1.05;animation-delay:0.10s">El calendario real del año</h2>
-    </div>
-    <div style="display:flex;gap:48px">
-      <div data-a="rise" style="display:flex;flex-direction:column;gap:4px;animation-delay:0.25s"><span style="font-size:56px;font-weight:800;line-height:1;color:#C00000">Diciembre</span><span style="font-family:'JetBrains Mono',monospace;font-size:24px;color:#6b6b6b">CIMENTACIÓN</span></div>
-      <div data-a="rise" style="display:flex;flex-direction:column;gap:4px;animation-delay:0.35s"><span style="font-size:56px;font-weight:800;line-height:1">1 Ene 2027</span><span style="font-family:'JetBrains Mono',monospace;font-size:24px;color:#6b6b6b">ARRANQUE</span></div>
-      <div data-a="rise" style="display:flex;flex-direction:column;gap:4px;animation-delay:0.45s"><span style="font-size:56px;font-weight:800;line-height:1">Dic 2027</span><span style="font-family:'JetBrains Mono',monospace;font-size:24px;color:#6b6b6b">CIERRE</span></div>
-    </div>
-  </div>
-  <div data-a="rise" style="position:absolute;left:100px;right:100px;top:330px;display:grid;grid-template-columns:repeat(13,minmax(0,1fr));gap:6px;animation-delay:0.50s">
-    <sc-for list="{{ cal }}" as="c" hint-placeholder-count="13">
-      <button onClick="{{ c.pick }}" style="position:relative;font-family:Manrope,sans-serif;border:0;cursor:pointer;padding:18px 0 16px;display:flex;flex-direction:column;align-items:center;gap:4px;background:{{ c.bg }};color:{{ c.fg }};transform:{{ c.tf }};box-shadow:{{ c.sh }};transition:transform .35s cubic-bezier(.16,1,.3,1),background .25s,box-shadow .35s">
-        <span style="font-family:'JetBrains Mono',monospace;font-size:24px">{{ c.lbl }}</span>
-        <span style="font-size:24px;font-weight:800">{{ c.tag }}</span>
-        <span style="font-family:'JetBrains Mono',monospace;font-size:24px;opacity:.7">{{ c.yr }}</span>
-        <sc-if value="{{ c.rep }}" hint-placeholder-val="{{ false }}"><span style="position:absolute;top:-12px;left:50%;width:20px;height:20px;margin-left:-10px;background:#C00000;border:3px solid #F4F3F1;transform:rotate(45deg)"></span></sc-if>
-      </button>
-    </sc-for>
-  </div>
-  <div style="position:absolute;left:100px;right:100px;top:500px;height:6px;background:#e2dfda"><div style="height:100%;background:#C00000;width:{{ calPct }};transition:width .6s cubic-bezier(.16,1,.3,1)"></div></div>
-  <div style="position:absolute;left:100px;right:100px;top:560px;bottom:80px;display:grid;grid-template-columns:520px minmax(0,1fr);gap:60px">
-    <div style="display:flex;flex-direction:column;gap:14px">
-      <span style="font-family:'JetBrains Mono',monospace;font-size:26px;color:#C00000">{{ dK }}</span>
-      <span style="font-size:72px;font-weight:800;letter-spacing:-0.03em;line-height:1">{{ dMes }}</span>
-      <span style="font-size:34px;font-weight:800;line-height:1.2;color:#4a4a4a">{{ dT }}</span>
-      <sc-if value="{{ dRep }}" hint-placeholder-val="{{ false }}"><div style="align-self:flex-start;margin-top:10px;background:#C00000;color:#fff;padding:14px 22px;display:flex;align-items:center;gap:14px"><span style="width:14px;height:14px;background:#fff;transform:rotate(45deg)"></span><span style="font-size:26px;font-weight:800">{{ dRep }}</span></div></sc-if>
-    </div>
-    <div style="display:flex;flex-direction:column;border-top:3px solid #0A0A0A">
-      <sc-for list="{{ dItems }}" as="it" hint-placeholder-count="3">
-        <div style="display:flex;gap:20px;align-items:baseline;padding:18px 0;border-bottom:1px solid #d4d2ce"><span style="flex:none;width:14px;height:14px;background:#C00000;transform:rotate(45deg) translateY(-3px)"></span><span style="font-size:30px;line-height:1.35">{{ it.t }}</span></div>
-      </sc-for>
-    </div>
-  </div>
-</section>
-
 <section data-label="Hoja de ruta" data-speaker-notes="Hoja de ruta de 12 meses: cada mes sube el nivel de conexión. Tres reportes al director y el circuito del año." style="background:radial-gradient(ellipse 85% 60% at 50% 72%,#3d0606 0%,#120404 50%,#050505 100%);color:#fff;font-family:Manrope,sans-serif;overflow:hidden">
   <canvas data-net="roadmap" style="position:absolute;inset:0;width:100%;height:100%"></canvas>
   <div style="position:absolute;left:100px;top:100px;display:flex;flex-direction:column;gap:20px">
     <div data-a="rise" style="font-family:'JetBrains Mono',monospace;font-size:24px;letter-spacing:.2em;color:#ff3b3b">CRONOGRAMA · IAM™ INTELLIGENCE 2.0</div>
     <h2 data-a="rise" style="margin:0;font-size:76px;font-weight:800;letter-spacing:-0.03em;animation-delay:.1s">Hoja de ruta de 12 meses</h2>
-    <div data-a="rise" style="display:flex;gap:14px;align-items:baseline;white-space:nowrap;border-left:3px solid #ff2d2d;padding:0 0 0 16px;animation-delay:.25s">
+    <div data-a="rise" style="display:flex;gap:14px;align-items:baseline;max-width:1280px;border-left:3px solid #ff2d2d;padding:0 0 0 16px;animation-delay:.25s">
       <span style="font-family:'JetBrains Mono',monospace;font-size:18px;letter-spacing:.14em;color:#ff3b3b">EL CAMINO</span>
-      <span style="font-size:20px;line-height:1.3;color:#c9c9c9">El orden es el recomendado, <span style="color:#fff;font-weight:700">no es rígido</span>. Todas hay que hacerlas, y cada mes carga con los anteriores.</span>
+      <span style="font-size:20px;line-height:1.3;color:#c9c9c9">El orden es el recomendado, <span style="color:#fff;font-weight:700">no es rígido</span>. Todas hay que hacerlas y cada mes carga con los anteriores.</span>
     </div>
   </div>
   <div data-a="fade" style="position:absolute;right:100px;top:118px;display:flex;gap:28px;align-items:center;animation-delay:.6s">
@@ -836,6 +798,44 @@ a:hover{color:#ff3b3b}
   </div>
 
   </section>
+
+<section data-label="Arranque" data-speaker-notes="Cimientos desde el 1 de diciembre de 2026, los doce meses corren de enero a diciembre de 2027. El calendario avanza solo; hacer clic en un mes para verlo." style="background:#F4F3F1;color:#0A0A0A;font-family:Manrope,sans-serif;overflow:hidden">
+  <div style="position:absolute;left:100px;top:100px;right:100px;display:flex;align-items:flex-end;justify-content:space-between;gap:40px">
+    <div style="display:flex;flex-direction:column;gap:20px">
+      <div data-a="rise" style="font-family:'JetBrains Mono',monospace;font-size:24px;letter-spacing:.2em;color:#C00000">CIMIENTOS DESDE EL 1 DE DICIEMBRE DE 2026</div>
+      <h2 data-a="rise" style="margin:0;font-size:76px;font-weight:800;letter-spacing:-0.03em;line-height:1.05;animation-delay:0.10s">El calendario real del año</h2>
+    </div>
+    <div style="display:flex;gap:48px">
+      <div data-a="rise" style="display:flex;flex-direction:column;gap:4px;animation-delay:0.25s"><span style="font-size:56px;font-weight:800;line-height:1;color:#C00000">Diciembre</span><span style="font-family:'JetBrains Mono',monospace;font-size:24px;color:#6b6b6b">CIMENTACIÓN</span></div>
+      <div data-a="rise" style="display:flex;flex-direction:column;gap:4px;animation-delay:0.35s"><span style="font-size:56px;font-weight:800;line-height:1">1 Ene 2027</span><span style="font-family:'JetBrains Mono',monospace;font-size:24px;color:#6b6b6b">ARRANQUE</span></div>
+      <div data-a="rise" style="display:flex;flex-direction:column;gap:4px;animation-delay:0.45s"><span style="font-size:56px;font-weight:800;line-height:1">Dic 2027</span><span style="font-family:'JetBrains Mono',monospace;font-size:24px;color:#6b6b6b">CIERRE</span></div>
+    </div>
+  </div>
+  <div data-a="rise" style="position:absolute;left:100px;right:100px;top:330px;display:grid;grid-template-columns:repeat(13,minmax(0,1fr));gap:6px;animation-delay:0.50s">
+    <sc-for list="{{ cal }}" as="c" hint-placeholder-count="13">
+      <button onClick="{{ c.pick }}" style="position:relative;font-family:Manrope,sans-serif;border:0;cursor:pointer;padding:18px 0 16px;display:flex;flex-direction:column;align-items:center;gap:4px;background:{{ c.bg }};color:{{ c.fg }};transform:{{ c.tf }};box-shadow:{{ c.sh }};transition:transform .35s cubic-bezier(.16,1,.3,1),background .25s,box-shadow .35s">
+        <span style="font-family:'JetBrains Mono',monospace;font-size:24px">{{ c.lbl }}</span>
+        <span style="font-size:24px;font-weight:800">{{ c.tag }}</span>
+        <span style="font-family:'JetBrains Mono',monospace;font-size:24px;opacity:.7">{{ c.yr }}</span>
+        <sc-if value="{{ c.rep }}" hint-placeholder-val="{{ false }}"><span style="position:absolute;top:-12px;left:50%;width:20px;height:20px;margin-left:-10px;background:#C00000;border:3px solid #F4F3F1;transform:rotate(45deg)"></span></sc-if>
+      </button>
+    </sc-for>
+  </div>
+  <div style="position:absolute;left:100px;right:100px;top:500px;height:6px;background:#e2dfda"><div style="height:100%;background:#C00000;width:{{ calPct }};transition:width .6s cubic-bezier(.16,1,.3,1)"></div></div>
+  <div style="position:absolute;left:100px;right:100px;top:560px;bottom:80px;display:grid;grid-template-columns:520px minmax(0,1fr);gap:60px">
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <span style="font-family:'JetBrains Mono',monospace;font-size:26px;color:#C00000">{{ dK }}</span>
+      <span style="font-size:72px;font-weight:800;letter-spacing:-0.03em;line-height:1">{{ dMes }}</span>
+      <span style="font-size:34px;font-weight:800;line-height:1.2;color:#4a4a4a">{{ dT }}</span>
+      <sc-if value="{{ dRep }}" hint-placeholder-val="{{ false }}"><div style="align-self:flex-start;margin-top:10px;background:#C00000;color:#fff;padding:14px 22px;display:flex;align-items:center;gap:14px"><span style="width:14px;height:14px;background:#fff;transform:rotate(45deg)"></span><span style="font-size:26px;font-weight:800">{{ dRep }}</span></div></sc-if>
+    </div>
+    <div style="display:flex;flex-direction:column;border-top:3px solid #0A0A0A">
+      <sc-for list="{{ dItems }}" as="it" hint-placeholder-count="3">
+        <div style="display:flex;gap:20px;align-items:baseline;padding:18px 0;border-bottom:1px solid #d4d2ce"><span style="flex:none;width:14px;height:14px;background:#C00000;transform:rotate(45deg) translateY(-3px)"></span><span style="font-size:30px;line-height:1.35">{{ it.t }}</span></div>
+      </sc-for>
+    </div>
+  </div>
+</section>
 
 <section data-label="Trimestre 1" data-speaker-notes="Meses 1 a 3: cimientos, mapeo y primera conexión." style="background:#050505;color:#fff;font-family:Manrope,sans-serif;overflow:hidden">
   <div style="position:absolute;left:100px;top:90px;right:100px;display:flex;align-items:flex-end;gap:48px">
