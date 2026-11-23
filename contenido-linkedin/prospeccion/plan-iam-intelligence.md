@@ -73,3 +73,8 @@ Excluido: Juan Carlos Duque Gómez (Asequimicos), conversación en curso desde j
 - No enviados por conversación previa de Sandra (no de Bruno): Martín Garmendia (Alpina, 22 nov 2022), Harold Celis (Reylácteos), Fabio Andrés Parra Osorio (Comercial Nutresa), Iván Fernando Osuna Díaz (Grupo Diana, 27 jul 2021).
 - Sin avisos de LinkedIn. Respuestas: 0 al cierre.
 - Mensaje 2 de este lote: día 5 = sáb 28 nov; propuesto mover a lun 30 nov (pendiente Sandra).
+
+## Decisiones Sandra (23 nov 2026, "sí a todo")
+- Reglas de escritura del mensaje 1 desde el lote 2: artículo con gremios y cámaras ("en la ANDI"); nombre como aparece en el perfil (compuesto si así se presenta); tildes como las escribe la persona. Bloque entregado para Chrome.
+- Mensaje 2 del lote 1: se mueve del sáb 28 al lun 30 nov 2026 (no se envían mensajes comerciales en fin de semana).
+- Conexiones con conversación previa: se les escribe un mensaje de reconexión distinto, que Sandra aprueba antes de enviar (borradores del 23 nov para Martín Garmendia, Harold Celis, Fabio Andrés Parra e Iván Osuna).
