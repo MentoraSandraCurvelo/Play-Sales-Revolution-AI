@@ -14,6 +14,29 @@ filtran.
 Antes de enviar, confirmar desde qué cuenta va a salir. Si la herramienta
 disponible es la de Gmail, **no enviar**: avisarle y buscar la de Outlook.
 
+## Correo: la firma va siempre
+
+**Outlook no adjunta la firma automática.** La herramienta `outlook_send_mail`
+manda solo el cuerpo que se le pasa, así que **hay que pegar la firma al final
+de cada correo, a mano**. No inventar una, no escribir un cierre propio: va esta
+y solo esta.
+
+```html
+<hr />
+<p><b>Sandra Curvelo</b><br />Fundadora y CSO de IAM™ &middot; más de 1.500 profesionales mentoreados<br />sandracurvelo@iamlatam.co &middot; iamlatam.co</p>
+```
+
+En texto plano, cuando no haya HTML:
+
+```
+Sandra Curvelo
+Fundadora y CSO de IAM™ · más de 1.500 profesionales mentoreados
+sandracurvelo@iamlatam.co · iamlatam.co
+```
+
+Si alguna vez ella cambia la firma en Outlook, hay que volver a sacarla de un
+correo enviado reciente y actualizar este bloque.
+
 ## El símbolo
 
 El símbolo de Sandra es **⭕️** (U+2B55). **Nunca 🔴.** Va en los asuntos de
