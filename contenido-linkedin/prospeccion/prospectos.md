@@ -44,3 +44,8 @@ Fuente de verdad: esta tabla y la sección "Lista de prospectos" de la página C
 - Sandra NO le va a preguntar nada a Sibruno ni a Vanina. No se le envía el mensaje propuesto.
 - Por eso el cruce con Bruno se controla desde nuestro lado: antes de escribirle a cualquier conexión del plan de 1.694, Chrome abre el historial de mensajes con esa persona; si ya hay un mensaje que no sale de una plantilla de la Cola (Bruno), se salta y se anota "de Bruno" (regla 48).
 - Plan de mensajes a conexiones objetivo: pendiente de que Sandra apruebe orden y ritmo (15 por día hábil).
+
+## 23 nov 2026, corrida Chrome 4:15 p. m.
+- Alberto Vives (ANDI Atlántico-Magdalena): NO se envió la invitación porque LinkedIn ya no deja notas gratis este mes. Propuesta: invitar sin nota y, si acepta, enviar la nota aprobada como primer mensaje.
+- 13 invitaciones del vie 20 y sáb 21 durante la pausa: probablemente de Bruno.
+- Retiro >30 días: solo Alex Solé (Link360) aparece "hace 1 mes"; no se retiró (no se sabe si pasa de 30 días ni si es de Bruno).
