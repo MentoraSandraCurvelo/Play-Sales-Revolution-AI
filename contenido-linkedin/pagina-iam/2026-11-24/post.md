@@ -1,6 +1,6 @@
 # Página IAM™ · Tablero de la semana 01 · mar 24 nov 2026, 11:30 a. m.
 Estado: APROBADO por Sandra el 23 nov 2026 (imagen con su logo y texto). Publica Chrome desde la página IAM™ el mar 24 nov, 11:30 a. m.
-Imagen: tablero-semana-01.png, fondo blanco con anillos (datos simulados de demostración). Rediseño pedido por Sandra el 23 nov: nada de negro y rojo.
+Imagen FINAL: tablero-semana-01-b.png (versión B elegida por Sandra el 23 nov: IAM™ arriba, logo de Sandra abajo). Antes: tablero-semana-01.png, fondo blanco con anillos (datos simulados de demostración). Rediseño pedido por Sandra el 23 nov: nada de negro y rojo.
 
 Tablero de la semana · 01
 
