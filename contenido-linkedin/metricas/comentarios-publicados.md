@@ -131,3 +131,4 @@ Observación: los 4 abren con "en las empresas/equipos que acompaño". Variar de
 5. Valora Analitik, Foro Perspectivas Colombia 2027, 8:24 a. m. (aprobado por Sandra)
 6. Liliana Tibaquirá, transmisión del foro, 8:27 a. m. (aprobado por Sandra)
 Nota: 2 de 4 automáticos cierran con "¿Qué indicador usa…?"; variar el cierre (regla 46).
+- 23 nov, 5:49 y 5:52 p. m.: respuestas aprobadas a Tiago Díaz en los posts del sáb 21 y dom 22 (texto exacto). Invitación a Alberto Vives sin nota, 4:44 p. m., Pending. 44 invitaciones en los últimos 7 días: no enviar más invitaciones hasta el jue 26 nov.
