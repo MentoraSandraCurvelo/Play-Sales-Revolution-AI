@@ -18,3 +18,4 @@ Publicado: 2026-11-08 17:55:30 UTC (12:55 p. m. Colombia). Fuente: datos públic
 - Edad: 18-24 18% · 25-34 24% · 35-44 25% · 45-54 19% · 55+ 14% · Sexo 50/50
 - Países: Colombia 91,6% · Venezuela 2,1% · Panamá 1,4% · EE. UU. 1,4%
 - Conclusión: TikTok sí lo repartió (Para ti), el gancho de los 2 primeros segundos no retuvo.
+| 14 d | 2026-11-23 11:44 | 220 | 4 | 0 | 0 | 0 | 452 |
