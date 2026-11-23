@@ -39,3 +39,8 @@ Fuente de verdad: esta tabla y la sección "Lista de prospectos" de la página C
 - Fuente: web oficial ANDI, 10 nov 2026: https://andi.com.co/Home/Noticia/18107-luz-stella-murgas-es-la-nueva-president (reemplaza a Bruce Mac Master, que renunció el 1 oct 2026). Su LinkedIn aún dice Naturgas (sin actualizar).
 - Se levanta la pausa del 19 nov. Invitación pendiente desde el 16 nov. Correo personal no publicado; contacto ANDI: 601 326 8500 (Presidencia ext. 2121, Transformación Digital ext. 2304). Sin seccional en Cesar; Atlántico-Magdalena: gerente Alberto Vives de la Espriella (605 322 5299); Bolívar: María Claudia Peñas.
 - 20 nov: Alberto Vives de la Espriella (ANDI Branch Director, Atlántico-Magdalena), https://www.linkedin.com/in/alberto-vives-de-la-espriella-25211737/ , 2.º grado, 89 contactos en común. Seguido. Invitación el lun 23 con nota APROBADA por Sandra el 20 nov: "Alberto, buen día. Acompaño a empresas del Caribe a medir la productividad que les genera la IA. Me encantaría conectar y seguir de cerca la agenda de la ANDI en la región."
+
+## Bruno / Sibruno: decisión de Sandra (23 nov 2026)
+- Sandra NO le va a preguntar nada a Sibruno ni a Vanina. No se le envía el mensaje propuesto.
+- Por eso el cruce con Bruno se controla desde nuestro lado: antes de escribirle a cualquier conexión del plan de 1.694, Chrome abre el historial de mensajes con esa persona; si ya hay un mensaje que no sale de una plantilla de la Cola (Bruno), se salta y se anota "de Bruno" (regla 48).
+- Plan de mensajes a conexiones objetivo: pendiente de que Sandra apruebe orden y ritmo (15 por día hábil).
