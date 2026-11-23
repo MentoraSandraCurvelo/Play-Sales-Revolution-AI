@@ -78,3 +78,4 @@ Excluido: Juan Carlos Duque Gómez (Asequimicos), conversación en curso desde j
 - Reglas de escritura del mensaje 1 desde el lote 2: artículo con gremios y cámaras ("en la ANDI"); nombre como aparece en el perfil (compuesto si así se presenta); tildes como las escribe la persona. Bloque entregado para Chrome.
 - Mensaje 2 del lote 1: se mueve del sáb 28 al lun 30 nov 2026 (no se envían mensajes comerciales en fin de semana).
 - Conexiones con conversación previa: se les escribe un mensaje de reconexión distinto, que Sandra aprueba antes de enviar (borradores del 23 nov para Martín Garmendia, Harold Celis, Fabio Andrés Parra e Iván Osuna).
+- (23 nov 2026) Sandra APROBÓ los 4 mensajes de reconexión; bloque entregado para Chrome (salen hoy: 11 + 4 = 15, el máximo diario).
