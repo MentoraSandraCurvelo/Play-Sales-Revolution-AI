@@ -1,10 +1,10 @@
 {
   "id": "lun-23-am",
-  "estado": "aprobado",
+  "estado": "publicado",
   "aprobado_por": "Sandra",
   "aprobado_el": "2026-11-14",
   "programado_bogota": "2026-11-23 07:30",
-  "urn": null,
+  "urn": "urn:li:share:7530610278892437504",
   "imagen": "contenido-linkedin/imagenes/lun-23-am.jpg",
   "alt": "Escalera de 3 fases de la IA empresarial: adopción, conexión y gobernanza",
   "primer_comentario": "El mejor indicador de la fase 1 no es cuántos tableros tiene el equipo, sino cuántas horas recuperó por persona frente a su línea base. Si quieres ver cómo lo medimos, escríbeme y te muestro el IAE™ con datos de ejemplo.",
@@ -21,5 +21,6 @@
     "lifecycleState": "PUBLISHED",
     "isReshareDisabledByAuthor": false
   },
-  "nota": "Texto aprobado 14 nov; imagen v5 (foto real + escalera ElevenLabs) aprobada 14 nov. Día del Foro Perspectivas Colombia 2027."
+  "nota": "Texto aprobado 14 nov; imagen v5 (foto real + escalera ElevenLabs) aprobada 14 nov. Día del Foro Perspectivas Colombia 2027.",
+  "publicado_utc": "2026-11-23T12:36:43+00:00"
 }
