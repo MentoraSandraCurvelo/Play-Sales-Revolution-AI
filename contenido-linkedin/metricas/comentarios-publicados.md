@@ -122,3 +122,12 @@ Pendiente: Parte 3 métricas, invitaciones sin nota.
 3. Oscar Tarazona (CRO aluri, 2.º grado), McKinsey percepción vs. utilidad: https://www.linkedin.com/feed/update/urn:li:activity:7528800463513829376?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7528800463513829376%2C7529162671577927680%29
 4. CMIC CDMX, webinar IA en construcción: https://www.linkedin.com/feed/update/urn:li:activity:7528880279877304320?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7528880279877304320%2C7529162388504436736%29
 Observación: los 4 abren con "en las empresas/equipos que acompaño". Variar desde la próxima ronda.
+
+## Lun 23 nov 2026 (revisados por Demetri: los 6 OK)
+1. ProBarranquilla, Congreso ICCA Panamá (sin Milagro Week), 7:40 a. m.
+2. ANDI, Procultivos y CropLife, 7:43 a. m.
+3. Cámara de Comercio de Barranquilla, misión a Miami con AmCham, 7:44 a. m.
+4. Cámara de Comercio de Bogotá, Rueda de Negocios de la Economía Creativa, 7:45 a. m.
+5. Valora Analitik, Foro Perspectivas Colombia 2027, 8:24 a. m. (aprobado por Sandra)
+6. Liliana Tibaquirá, transmisión del foro, 8:27 a. m. (aprobado por Sandra)
+Nota: 2 de 4 automáticos cierran con "¿Qué indicador usa…?"; variar el cierre (regla 46).
