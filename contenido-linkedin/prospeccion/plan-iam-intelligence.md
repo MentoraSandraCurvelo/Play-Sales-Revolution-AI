@@ -79,3 +79,4 @@ Excluido: Juan Carlos Duque Gómez (Asequimicos), conversación en curso desde j
 - Mensaje 2 del lote 1: se mueve del sáb 28 al lun 30 nov 2026 (no se envían mensajes comerciales en fin de semana).
 - Conexiones con conversación previa: se les escribe un mensaje de reconexión distinto, que Sandra aprueba antes de enviar (borradores del 23 nov para Martín Garmendia, Harold Celis, Fabio Andrés Parra e Iván Osuna).
 - (23 nov 2026) Sandra APROBÓ los 4 mensajes de reconexión; bloque entregado para Chrome (salen hoy: 11 + 4 = 15, el máximo diario).
+- Reconexión enviada el 23 nov (8:21 a 8:29 a. m.): Martin Garmendia, Harold Celis, Fabio Andrés Parra Osorio, Ivan Fernando Osuna Díaz. 15/15 mensajes del día.

@@ -24,3 +24,5 @@ Decisión de Sandra (12 nov): NO viaja. Participa desde LinkedIn con comentarios
   3. Liliana Tibaquirá (urn:li:activity:7530612583989530624), pregunta c) pymes con método y medición.
 - Quedan libres b) y e) para posts nuevos de ProBarranquilla, Comercio o panelistas sin Milagro Week (con aprobación de Sandra).
 - Liliana Tibaquirá: perfil afín (gobierno corporativo + IA), 2do grado; posible conexión después.
+- Resultado 8:21 a 8:29 a. m.: comentario 1 (Valora) y 3 (Liliana) publicados con "Interesante". Comentario 2 (evento en vivo) NO se publicó: el navegador se colgaba en estado "Prelive"; recomendación: Sandra lo pega a mano.
+- Reconexión enviada: Martin Garmendia 8:21, Harold Celis 8:23, Fabio Andrés Parra 8:25, Ivan Fernando Osuna 8:29. Total del día: 15 mensajes.
