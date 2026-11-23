@@ -293,3 +293,10 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Máximo 1 comentario por ronda puede cerrar con "¿Qué indicador…?".
 - En los demás, la pregunta final alterna entre experiencias, obstáculos, próximos pasos y lo que aprendieron.
 - Chrome la agregó a la Cola IAM LinkedIn (versión en vivo) después de la regla 46. Antes de republicar la Cola, partir de la versión en vivo.
+
+## 50. Comentarios de autoridad en IA a directivos y cámaras (23 nov 2026, Sandra; volumen propuesto, pendiente de su sí)
+- Objetivo: que Sandra sea vista como experta en IA y que los directivos quieran conversar con ella. No solo una lista fija de empresas: todo potencial cliente.
+- Público: cámaras de comercio de Colombia y Latinoamérica, cámaras binacionales y sus directivos; CEOs, presidentes, gerentes generales y vicepresidentes (no de TI ni de talento humano) de empresas que puedan ser clientes; las 1.694 conexiones del segmento A cuando publiquen.
+- Mezcla diaria propuesta: 4 cámaras (al menos 1 binacional), 4 directivos de empresas, 2 cuentas fijas (Vicepresidente, ANDI, Luz Stella, clientes según reglas 45 y 47).
+- Volumen propuesto: hasta 10 comentarios de visibilidad al día de lunes a viernes, 5 a las 7:35 a. m. y 5 a las 3:05 p. m.; fines de semana sigue el máximo de 5 con aprobación.
+- Cada comentario aporta una idea de IA aplicada y medida (método, horas, persona que revisa), sin vender, sin links, sin pedir reunión, con cierre variado (regla 49).
