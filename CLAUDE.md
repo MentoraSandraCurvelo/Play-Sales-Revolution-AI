@@ -29,7 +29,8 @@ Siempre que una pieza pida comentar una palabra clave, antes de publicarla:
 ## Publicación
 **Pausa levantada (23 nov 2026):** Sandra ordenó reactivar las publicaciones en Instagram. La pausa total del 11 nov ya no aplica. Cada pieza sigue necesitando su aprobación y Claude le avisa la fecha y la hora antes de programarla.
 **Revisiones automáticas (23 nov 2026):** la respuesta a comentarios corre 1 vez al día (5:43 p. m.) y el radar de métricas cada 2 semanas (1 y 15 de cada mes, 9:13 a. m.). Nada de seguimiento por horas.
-**Prueba de alcance (12 nov 2026):** los reels nuevos no se publican por la API. Claude le entrega a Sandra el paquete (video, portada aprobada y texto) en `estrategia/instagram/para-subir-app/` y ella los sube desde la app. Se compara el alcance a 48 h contra los 3 reels publicados por API (promedio 71) y contra la mediana histórica (411). La pausa total sigue hasta que Sandra diga la fecha.
+**Publicación automática por API (23 nov 2026):** terminó la prueba de alcance desde la app (67 de alcance contra 71 por API, sin diferencia). Todo se publica automático por la API; Sandra no sube nada desde la app.
+**Ejemplos en los textos (23 nov 2026):** cuando un texto menciona una marca como ejemplo hipotético (por ejemplo, "el presidente de Alpina"), no es un cliente y puede salir tal cual.
 Todo reel lleva portada propia (7 nov 2026): foto de Sandra del mismo video con el título en Claude Design. Se le muestran 2 opciones, ella escoge y la portada se publica con `cover_url`. Ningún reel sale con la portada automática de Instagram.
 Sandra graba y aprueba el material; Claude decide la fecha y la hora de publicación de las piezas aprobadas, las programa y le avisa cada vez (4 nov 2026). Lo que no ha visto Sandra no se publica.
 
