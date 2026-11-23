@@ -61,3 +61,8 @@ Paula Sandoval Ruiz (GG Sarupetrol), Andrés Arredondo López (GG Texproinn), Ga
 Enviados antes de la regla de cargos y FUERA del objetivo (no se les mandan mensajes 2 y 3): Juan Carlos Torres Londoño (Talento Humano Coltanques), María Fernanda Palacio Sánchez (Talento Humano ORF), Luis Alberto Galindo Aguilar (Talento Humano PAN PA' YA).
 Mensaje 2 el 23 nov y mensaje 3 el 30 nov para quien no responda.
 Excluido: Juan Carlos Duque Gómez (Asequimicos), conversación en curso desde junio.
+
+## Plan conexiones objetivo (1.694, segmento A) APROBADO por Sandra (23 nov 2026)
+- 15 mensajes 1 por día hábil, plantilla aprobada del 17 nov. Orden: lácteos y alimentos, cámaras y gremios, resto de A1.
+- Antes de cada envío Chrome revisa el historial: si hay mensaje de Bruno o conversación previa, se salta (regla 48; Sandra no consulta a Sibruno).
+- Lote 1 (lun 23 nov): Miguel Fernando Escobar (Postobón), Juan Fernando Maya Restrepo (Postobón), Francisco Revelo Unigarro (Colácteos), Gabriel Domínguez Silva (Colácteos), Sandra Terranova (Alpina Ecuador), Alejandro Villa Correa (Alpina), Martín Garmendia (Alpina), Harold Celis (Reylácteos), Luis Felipe Hoyos Jaramillo (Comercial Nutresa), Fabio Andrés Parra Osorio (Comercial Nutresa), Fabián Mosquera (Grupo AJE), Camilo Montes (ANDI, Cámara de Industria de Alimentos), Iván Fernando Osuna Díaz (Grupo Diana), Omar Urrea (Quala), Julián Nieto Puyana (Solla).
