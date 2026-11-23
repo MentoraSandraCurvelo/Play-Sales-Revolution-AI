@@ -1,160 +1,128 @@
-# Reunión de licenciamiento con Anthropic · Comfacesar
+# Licenciamiento de Claude · Comfacesar
 
 **IAM™ Intelligence · 23 de noviembre de 2026**
 
-Esto responde al frente F6 de la fase 2, meses 2 a 7: *una reunión con Anthropic
-para responder lo que hoy nadie puede responder, cuánto vale el licenciamiento,
-cuánto se necesita y cuánto se aprueba*. Gestiona IAM™, presenta el sponsor.
+Lo compra la Caja. Esto es para que el director vea de qué tamaño es, cómo se
+constituye y a dónde se toca. Responde al frente F6 de la fase 2.
 
 ---
 
-## Lo que le dices a Frank hoy
+## 1. De dónde salimos: lo que dejó la fase 1
 
-Cuatro frases. No es pedir permiso, es mostrar que el frente ya está levantado.
+**La tabla de licencias de la fase 1 registra 25 personas**, contadas sobre las
+áreas con medición.
 
-> Sobre el licenciamiento, ya lo mapeé. El plan que nos corresponde es
-> **Enterprise, 20 dólares por puesto al mes, facturado anual**. Con las 18 áreas
-> son **54 puestos**, unos **$42.000.000 al año**. Con las 23 áreas, **69
-> puestos**, unos **$53.000.000**.
->
-> Hay dos mínimos: **20 puestos si se compra en autoservicio con tarjeta, 50 si
-> se compra con factura**. Y acá está lo importante: la Caja, como entidad
-> vigilada, **necesita factura y no puede pagar en dólares con tarjeta**, así que
-> entramos obligatoriamente por la vía asistida. Con 69 puestos calificamos
-> holgado; con 54, justo.
->
-> Queda una pregunta abierta y prefiero no darte una cifra falsa: Anthropic cobra
-> **el consumo aparte del puesto**. Cuánto pesa eso con 69 personas es
-> exactamente lo que vamos a resolver en la reunión del frente F6.
->
-> Y para que quede dicho: **esas licencias las compra la Caja, no IAM™**. Nosotros
-> hacemos el levantamiento, armamos la sustentación y acompañamos al sponsor a
-> defenderla.
+Dos advertencias que van dichas, no escondidas:
 
-**Por qué esto te sirve hoy.** No llegas prometiendo una reunión en el mes 2.
-Llegas con el plan identificado, el precio por puesto, el número de puestos, los
-dos mínimos y, sobre todo, **con la trampa de compras ya detectada**: que una
-entidad vigilada no puede comprar esto por autoservicio. Eso es trabajo hecho, y
-es la clase de detalle que a él le cuesta encontrar solo.
+- **Ese número no incluye Tecnología.** Quedó anotado como pendiente en su
+  momento y nunca se cerró.
+- **Son licencias por persona, no por área.** Un área puede tener tres personas
+  trabajando así y otra una sola. Por eso el inventario se hace por nombre.
 
-**Lo que no debes hacer hoy.** No le des un número cerrado del costo total. Falta
-el consumo. Si lo cierras ahora y después sube, pagas tú esa credibilidad.
+**Lo que se hace en la fase 2:** el levantamiento vuelve a contar, área por área
+y persona por persona, y confirma el número. Es trabajo del mes 1, dentro de los
+cimientos de diciembre.
 
----
+## 2. El orden de magnitud, para dimensionar hoy
 
-## 1. Lo que hay que pedir
+No es una cotización, es una escala. El costo por persona es **20 dólares al mes
+con pago anual**, y el programa viene usando **$4.000 por dólar** como supuesto,
+el mismo del tablero de la fase 1.
 
-El plan que le corresponde a la Caja por tamaño es **Claude Enterprise**, no Team.
-
-| | Puestos | Precio de lista |
+| Personas | Al mes | Al año |
 |---|---|---|
-| Team | desde 2, tope 150 | — |
-| **Enterprise** | **mínimo 20** | **$20 USD por puesto al mes**, facturación anual |
+| **25**, lo que dejó la fase 1 | **$2.000.000** | **$24.000.000** |
+| 50 | $4.000.000 | $48.000.000 |
+| 70 | $5.600.000 | $67.000.000 |
 
-**Cuántos puestos.** Con el alcance de 18 áreas y 3 personas por área son **54
-puestos**. Con las 23 áreas del alcance máximo, **69**.
+**La fase 2 va a estar entre 50 y 70**, porque pasa de las 11 áreas que midieron
+a 18, y porque entran personas que hoy no tienen nada. Pero el número firme sale
+del levantamiento, no de esta tabla.
 
-**Hay dos mínimos, y los dos son ciertos.** Autoservicio, 20 puestos. Asistido
-por ventas, **50**. Con 69 la Caja califica para el asistido con holgura; con 54,
-justo. Conviene pedir el alcance de 23 áreas también por esto.
+**Y el retorno ya está calculado en el tablero de la fase 1: las licencias se
+pagan 10,5 y 5,2 veces**, según la tarifa que se use. No es una promesa de la
+fase 2, es una cifra medida.
 
-| Puestos | Al mes, USD | Al mes, COP | Al año, COP |
-|---|---|---|---|
-| 54 | $1.080 | $3.500.000 | $42.000.000 |
-| 69 | $1.380 | $4.400.000 | $53.000.000 |
+## 3. Cómo se constituye
 
-> Los pesos están calculados a una TRM de 3.200 y son **estimados**. El dólar
-> lleva un año volátil, así que la cifra en pesos se confirma el día de la
-> cotización, no antes.
+Hay tres figuras. La que corresponde **no es la empresarial**.
 
-**Esto no es costo de IAM™.** Las licencias las compra la Caja. IAM™ hace el
-levantamiento, arma la sustentación y acompaña al sponsor a defenderla. Conviene
-que quede dicho en voz alta, porque el bloque de programa de la fase 2 menciona
-el licenciamiento y se puede leer mal.
+| | Por persona al mes | Desde | Factura a la Caja | Administración |
+|---|---|---|---|---|
+| Pro, individual | $17 con pago anual, $20 suelto | 1 | **No** | Ninguna |
+| **Team** | **$20 con pago anual**, $25 suelto | 2 | **Sí** | **Sí** |
+| Enterprise | $20, **más el consumo a tarifa de API** | 20 | Sí | Más controles |
 
-## 2. Qué preguntar en la reunión
+> Dólares, sin impuestos. Son los precios publicados por Anthropic.
 
-Las tres de la propuesta, más una cuarta que es colombiana y nadie la hace a
-tiempo:
+**Team es el que corresponde, y por una razón concreta:** cuesta lo mismo por
+persona que el empresarial, pero el empresarial **cobra aparte el consumo, a
+tarifa de API**, que es un costo variable imposible de presupuestar de antemano.
+Team no lo cobra. Y sirve de 2 a 150 personas, así que cubre a la Caja completa.
 
-1. **Cuánto vale.** Precio por puesto para el volumen de la Caja, qué cambia
-   entre 54 y 69, y si hay condiciones por compromiso anual.
-2. **Cuánto se necesita.** Qué plan corresponde, qué incluye cada puesto, y qué
-   pasa con los usuarios que hoy pagan de su bolsillo cuando se migran.
-3. **Cuánto se aprueba.** El mínimo ya está confirmado: 20 en autoservicio, 50
-   asistido por ventas. Lo que queda por preguntar es **qué se factura aparte**:
-   el artículo de Anthropic dice que el consumo se cobra por separado, a tarifas
-   de API. Hay que saber qué significa eso para 69 personas antes de llevar una
-   cifra al presupuesto, porque puede no ser solo el valor del puesto.
-4. **Cómo contrata y cómo paga una entidad colombiana.** Facturación, moneda,
-   IVA y retenciones, y si existe una vía local. La Caja es una entidad vigilada
-   por la Superintendencia del Subsidio Familiar y su conducto de compras no
-   admite improvisación. Si esta pregunta no se hace ahora, la respuesta llega
-   cuando ya hay presupuesto aprobado y no se puede ejecutar.
+Lo que trae y que hoy no existe:
 
-## 3. Por dónde se entra, porque no hay correo
+- **Factura central** a nombre de Comfacesar. Hoy no hay ninguna.
+- **Inicio de sesión único** contra el directorio de la Caja.
+- **Control de quién entra y qué conecta.**
+- **Que el contenido de la Caja no entrene modelos**, por defecto.
 
-**Anthropic no publica ningún correo de ventas.** La página de contacto no tiene
-formulario. Tiene dos caminos:
+**El empresarial solo se justificaría** si Control Interno o Jurídica exigen
+registros de auditoría, aprovisionamiento automático de usuarios o listas de IP
+permitidas. Si nadie los está pidiendo, es pagar más por lo mismo.
 
-| | Para qué sirve |
-|---|---|
-| **Autoservicio**, claude.ai/create/enterprise | Comprar con tarjeta, en dólares, desde 20 puestos |
-| **Chat de ventas**, claude.ai/account-advisor | Cotización y, cuando hace falta, escalamiento a una persona |
+**Pro no sirve como figura institucional.** No factura a la Caja ni se
+administra: cada quien compra la suya con su tarjeta. Es lo que está pasando hoy,
+y es justo el desorden que este frente cierra.
 
-Y una advertencia que está en la propia página: *el equipo de ventas solo atiende
-operaciones complejas, como despliegues de más de 500 puestos*. Con 69, la Caja
-no entra por tamaño.
+Hay un segundo tipo de puesto, premium, a 100 dólares al mes con cinco veces más
+uso. **No se pide para todos**, y se puede mezclar con el estándar en la misma
+cuenta, así que no hay que decidirlo ahora.
 
-**La palanca es la facturación, no los puestos.** El artículo de soporte de
-Anthropic dice que hay que contactar a ventas si la organización **necesita
-factura, gestión dedicada, o pagar en una moneda distinta al dólar**. Una caja de
-compensación vigilada necesita las tres cosas. Ese es el argumento de entrada.
+## 4. A dónde se toca
 
-**Cómo abrir la conversación en el chat:**
+Conviene decirlo tal cual, porque es contraintuitivo: **Anthropic no publica un
+correo de ventas ni asigna un ejecutivo a una cuenta de este tamaño.** Su propia
+página dice que ventas solo atiende operaciones de más de 500 puestos.
 
-> Somos Comfacesar, una caja de compensación familiar en Colombia, una entidad
-> vigilada por la Superintendencia del Subsidio Familiar. Necesitamos un plan
-> Enterprise para entre 54 y 69 puestos, a partir de diciembre.
->
-> Entramos por aquí porque nuestro conducto de compras exige factura y no nos
-> permite pagar en dólares con tarjeta de crédito. Entendemos que eso requiere un
-> plan asistido por ventas. ¿Cómo se tramita?
->
-> Contexto, por si ayuda a dimensionar: venimos de doce meses de adopción medida,
-> con 250 horas de trabajo recuperadas por semana en 21 áreas. Varias personas
-> vienen pagando Claude de su propio bolsillo y queremos formalizarlo.
+Para Team no hace falta ninguno de los dos:
 
-**No abras por el número de licencias.** Por tamaño no califican para atención
-humana. Por requisito de facturación, sí.
+1. **Compra en línea**, con tarjeta corporativa. Inmediato.
+2. **Chat de cuenta**, en claude.ai/account-advisor, si se necesita factura o
+   pago en pesos. Desde ahí escalan a una persona cuando hace falta.
 
-## 4. El caso, por si lo piden
+**La pregunta que decide el camino no es de Anthropic, es de la Caja:**
+¿Tesorería puede pagar una suscripción anual en dólares con tarjeta corporativa,
+o el conducto exige factura y pago en pesos? Esa respuesta define todo lo demás,
+y la tiene él, no nosotros.
 
-Lo que conviene que vean, en una página:
+## 5. Quién hace qué
 
-- **Adopción orgánica comprobada.** Personas pagando de su bolsillo, sin que
-  nadie se los exigiera. Es la señal más difícil de fabricar.
-- **Resultado medido en horas y en pesos.** 250 horas semanales recuperadas,
-  1.083 al mes, valoradas con tres tarifas distintas de la propia Caja.
-- **Un resultado de negocio atribuible.** La Caja ganó una licitación con la
-  Gobernación por $4.000 millones porque llegó a tiempo, gracias a un tablero de
-  alarmas de SECOP que construyó su área Jurídica dentro del programa.
-- **Un plan de doce meses ya presupuestado**, con gobernanza, sponsor y un
-  frente de licenciamiento con fecha.
+- **El levantamiento, el costeo y la sustentación**: IAM™.
+- **La presentación al director**: María Elvira, con acompañamiento de IAM™.
+- **La compra**: Comfacesar.
 
-## 5. El orden de los pasos
-
-1. **Hoy**: Sandra lleva este mapa a la reunión. No se contacta a nadie todavía.
-2. Cuando la Caja dé el visto bueno, **la conversación la abre Comfacesar**, no
-   IAM™. El comprador es la Caja; IAM™ entra como asesora. Esto importa para el
-   precio y para el conducto.
-3. En la sala: el sponsor de la Caja, Tecnología, y Sandra.
-4. De la reunión sale **una propuesta de compra con cifras**, lista para subir
-   por el conducto que la Caja defina.
+**Las licencias no están dentro del fee de IAM™.** Es presupuesto aparte de la
+Caja.
 
 ---
 
-**Una nota sobre los partners.** Existe una red de partners de Anthropic con
-presencia en LATAM. Facturan local y acompañan, lo cual suena cómodo, pero un
-partner de servicios vende lo mismo que IAM™ y entraría directo a esta cuenta.
-Por eso esta ruta va directa con Anthropic.
+## Lo que le dices hoy
+
+> Sobre el licenciamiento ya tengo con qué empezar. **La fase 1 dejó 25 personas
+> con licencia**, y ese número está contado solo sobre las áreas que midieron,
+> sin Tecnología. En la fase 2 el levantamiento lo reconfirma, y por el salto de
+> 11 áreas a 18 calculo que queda **entre 50 y 70 personas**.
+>
+> A 20 dólares por persona al mes, eso es del orden de **$48 a $67 millones al
+> año**. Y en el tablero de la fase 1 el retorno de esas licencias ya está
+> medido: **se pagan entre 5 y 10 veces**.
+>
+> Una cosa que le ahorra plata: **no necesitan el plan empresarial.** El plan
+> Team cuesta lo mismo por persona y no cobra el consumo aparte como sí lo hace
+> el empresarial. Trae factura central, inicio de sesión único y administración,
+> que es lo que hoy no existe porque cada quien paga de su bolsillo.
+>
+> Y hay una sola pregunta que define cómo se compra, y es suya: si Tesorería
+> puede pagar en dólares con tarjeta corporativa, o si el conducto exige factura
+> y pago en pesos.
