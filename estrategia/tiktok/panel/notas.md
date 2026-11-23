@@ -5,5 +5,5 @@
 - Regla: decir "en este panel". No nombrar el evento, la universidad ni el año.
 - Aprobado por Sandra: 23 nov. Publicar vie 27 nov, 6:30 p. m. (Bogotá).
 - Portada elegida por Sandra (23 nov): portada_panel_2.jpg (segundo 20).
-- Texto: caption.txt (adaptado del texto de LinkedIn).
+- Texto: caption.txt (adaptado del texto de LinkedIn). Aprobado por Sandra 23 nov.
 - Medir: 24 h (sáb 28) y 7 días (vie 4 dic).
