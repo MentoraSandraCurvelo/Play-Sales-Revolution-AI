@@ -1,0 +1,57 @@
+{
+  "v": 1,
+  "mode": "omelette",
+  "root": "project/",
+  "title": "Propuesta Fase 2 Comfacesar",
+  "entry": "Fase 2 Hiperconectividad.dc.html",
+  "pages": [
+    {
+      "path": "Fase 2 Hiperconectividad.dc.html",
+      "title": "Fase 2 Hiperconectividad",
+      "kind": "page"
+    },
+    {
+      "path": "Fase 2 · Version corta.dc.html",
+      "title": "Fase 2 · versión corta para dirección",
+      "kind": "page"
+    },
+    {
+      "path": "uploads/propuesta-fase2-comfacesar-4da88186.html",
+      "title": "IAM Intelligence Fase 2",
+      "kind": "plain"
+    },
+    {
+      "path": "uploads/propuesta-fase2-comfacesar.html",
+      "title": "propuesta-fase2-comfacesar",
+      "kind": "plain"
+    }
+  ],
+  "migratorVersion": "artifact-migrator (claude-design-backend ed667f7ac9c1)",
+  "createdAt": "2026-11-09T11:34:28.410Z",
+  "source": {
+    "v": 1,
+    "app": "claude-design",
+    "url": "https://claude.ai/design/p/983137c9-118a-41e5-b26c-465eb68b10d4",
+    "projectId": "983137c9-118a-41e5-b26c-465eb68b10d4",
+    "exportedAt": "2026-11-09T11:34:28.410Z"
+  },
+  "report": {
+    "itemsVersion": 2,
+    "pages": {
+      "total": 4,
+      "ok": 3,
+      "partial": 1,
+      "notMigrated": 0
+    },
+    "items": [
+      {
+        "kind": "needs_capability",
+        "path": "Fase 2 Hiperconectividad.dc.html",
+        "text": "has speaker notes (40 slides): kept, but not shown while presenting in Claude",
+        "capability": "presenter_view"
+      }
+    ],
+    "truncated": 0,
+    "truncatedLeftOut": 0
+  }
+}
