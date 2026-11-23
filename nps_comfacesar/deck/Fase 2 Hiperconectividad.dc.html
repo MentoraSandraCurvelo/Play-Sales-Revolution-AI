@@ -854,7 +854,7 @@ a:hover{color:#ff3b3b}
     </div>
     <div style="display:flex;flex-direction:column;border-top:3px solid #0A0A0A">
       <sc-for list="{{ dItems }}" as="it" hint-placeholder-count="3">
-        <div style="display:flex;gap:20px;align-items:baseline;padding:18px 0;border-bottom:1px solid #d4d2ce"><span style="flex:none;width:14px;height:14px;background:#C00000;transform:rotate(45deg) translateY(-3px)"></span><span style="font-size:30px;line-height:1.35">{{ it.t }}</span></div>
+        <div style="display:flex;gap:16px;align-items:baseline;padding:10px 0;border-bottom:1px solid #d4d2ce"><span style="flex:none;width:12px;height:12px;background:#C00000;transform:rotate(45deg) translateY(-3px)"></span><span style="font-size:24px;line-height:1.35">{{ it.t }}</span></div>
       </sc-for>
     </div>
   </div>
@@ -1282,6 +1282,46 @@ a:hover{color:#ff3b3b}
   </div>
 </section>
 
+<section data-label="Jugar con las cifras" data-speaker-notes="La calculadora de la negociacion, para no tener que salir de la presentacion. Se mueven las areas del alcance y el porcentaje de anticipo, y todo lo demas se recalcula. El bloque de programa no baja: si salieran todas las areas el proyecto aun costaria 8.100.000 al mes. Quince areas es el piso de 21.600.000, que son las tres que el director nunca nombro. Bajar el anticipo del 30 al 20 por ciento le libera caja sin mover el precio." style="background:radial-gradient(ellipse 70% 60% at 70% 45%,#2a0404 0%,#050505 70%);color:#fff;font-family:Manrope,sans-serif;overflow:hidden">
+  <div style="position:absolute;left:100px;top:90px;right:100px;display:flex;align-items:flex-end;justify-content:space-between;gap:40px">
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <div data-a="rise" style="font-family:'JetBrains Mono',monospace;font-size:23px;letter-spacing:.2em;color:#ff2d2d">SIN SALIR DE AQUÍ</div>
+      <h2 data-a="rise" style="margin:0;font-size:66px;font-weight:800;letter-spacing:-0.03em;line-height:1.06;animation-delay:0.10s">Juguemos con las cifras</h2>
+    </div>
+    <button onClick="{{ nReset }}" style="font-family:'JetBrains Mono',monospace;font-size:22px;padding:12px 20px;border:1px solid #555;background:transparent;color:#b8b8b8;cursor:pointer">VOLVER A LA PROPUESTA</button>
+  </div>
+  <div style="position:absolute;left:100px;top:300px;width:720px;display:flex;flex-direction:column;gap:46px">
+    <div data-a="rise" style="display:flex;flex-direction:column;gap:16px;animation-delay:0.28s">
+      <span style="font-family:'JetBrains Mono',monospace;font-size:22px;letter-spacing:.14em;color:#ff2d2d">ÁREAS DEL ALCANCE</span>
+      <div style="display:flex;align-items:center;gap:26px">
+        <button onClick="{{ nAmenos }}" style="width:68px;height:68px;border:2px solid #fff;background:transparent;color:#fff;font-family:Manrope,sans-serif;font-size:38px;font-weight:800;cursor:pointer;display:flex;align-items:center;justify-content:center">−</button>
+        <span style="font-size:104px;font-weight:800;line-height:1;letter-spacing:-0.04em;min-width:160px;text-align:center">{{ nA }}</span>
+        <button onClick="{{ nAmas }}" style="width:68px;height:68px;border:2px solid #fff;background:transparent;color:#fff;font-family:Manrope,sans-serif;font-size:38px;font-weight:800;cursor:pointer;display:flex;align-items:center;justify-content:center">+</button>
+      </div>
+      <span style="font-size:22px;line-height:1.4;color:#8a8a8a">Cada área que sale baja el fee en {{ nArea }} al mes. El alcance base son 18.</span>
+    </div>
+    <div data-a="rise" style="display:flex;flex-direction:column;gap:16px;animation-delay:0.40s">
+      <span style="font-family:'JetBrains Mono',monospace;font-size:22px;letter-spacing:.14em;color:#ff2d2d">ANTICIPO</span>
+      <div style="display:flex;align-items:center;gap:26px">
+        <button onClick="{{ nPmenos }}" style="width:68px;height:68px;border:2px solid #fff;background:transparent;color:#fff;font-family:Manrope,sans-serif;font-size:38px;font-weight:800;cursor:pointer;display:flex;align-items:center;justify-content:center">−</button>
+        <span style="font-size:104px;font-weight:800;line-height:1;letter-spacing:-0.04em;min-width:260px;text-align:center">{{ nPtxt }}</span>
+        <button onClick="{{ nPmas }}" style="width:68px;height:68px;border:2px solid #fff;background:transparent;color:#fff;font-family:Manrope,sans-serif;font-size:38px;font-weight:800;cursor:pointer;display:flex;align-items:center;justify-content:center">+</button>
+      </div>
+      <span style="font-size:22px;line-height:1.4;color:#8a8a8a">Mueve la caja del primer mes, no el precio.</span>
+    </div>
+  </div>
+  <div style="position:absolute;right:100px;top:300px;width:900px;display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:30px;align-items:baseline">
+    <div data-a="rise" style="display:contents"><span style="font-size:25px;line-height:1.3;color:#b8b8b8;padding:15px 0;border-bottom:1px solid rgba(255,255,255,.14);animation-delay:0.5s">Bloque de programa<span style="display:block;font-size:19px;color:#7c7370;margin-top:3px">no baja aunque salgan áreas</span></span><span style="font-family:'JetBrains Mono',monospace;font-size:27px;font-weight:800;color:#fff;text-align:right;white-space:nowrap;padding:15px 0;border-bottom:1px solid rgba(255,255,255,.14);animation-delay:0.5s">{{ nProg }}</span></div>
+    <div data-a="rise" style="display:contents"><span style="font-size:25px;line-height:1.3;color:#b8b8b8;padding:15px 0;border-bottom:1px solid rgba(255,255,255,.14);animation-delay:0.56s">Bloque por área<span style="display:block;font-size:19px;color:#7c7370;margin-top:3px">{{ nA }} áreas a {{ nArea }} al mes</span></span><span style="font-family:'JetBrains Mono',monospace;font-size:27px;font-weight:800;color:#fff;text-align:right;white-space:nowrap;padding:15px 0;border-bottom:1px solid rgba(255,255,255,.14);animation-delay:0.56s">{{ nBloqueAreas }}</span></div>
+    <div data-a="rise" style="display:contents"><span style="font-size:25px;line-height:1.3;color:#b8b8b8;padding:15px 0;border-bottom:2px solid rgba(255,255,255,.35);animation-delay:0.62s">Fee mensual<span style="display:block;font-size:19px;color:#7c7370;margin-top:3px">más IVA</span></span><span style="font-family:'JetBrains Mono',monospace;font-size:40px;font-weight:800;color:#ff2d2d;text-align:right;white-space:nowrap;padding:15px 0;border-bottom:2px solid rgba(255,255,255,.35);animation-delay:0.62s">{{ nFee }}</span></div>
+    <div data-a="rise" style="display:contents"><span style="font-size:25px;line-height:1.3;color:#b8b8b8;padding:15px 0;border-bottom:1px solid rgba(255,255,255,.14);animation-delay:0.7s">Total a 12 meses<span style="display:block;font-size:19px;color:#7c7370;margin-top:3px">más IVA</span></span><span style="font-family:'JetBrains Mono',monospace;font-size:27px;font-weight:800;color:#fff;text-align:right;white-space:nowrap;padding:15px 0;border-bottom:1px solid rgba(255,255,255,.14);animation-delay:0.7s">{{ nTotal }}</span></div>
+    <div data-a="rise" style="display:contents"><span style="font-size:25px;line-height:1.3;color:#b8b8b8;padding:15px 0;border-bottom:1px solid rgba(255,255,255,.14);animation-delay:0.76s">Anticipo al inicio<span style="display:block;font-size:19px;color:#7c7370;margin-top:3px">{{ nPtxt }} del total</span></span><span style="font-family:'JetBrains Mono',monospace;font-size:27px;font-weight:800;color:#fff;text-align:right;white-space:nowrap;padding:15px 0;border-bottom:1px solid rgba(255,255,255,.14);animation-delay:0.76s">{{ nAnt }}</span></div>
+    <div data-a="rise" style="display:contents"><span style="font-size:25px;line-height:1.3;color:#b8b8b8;padding:15px 0;border-bottom:1px solid rgba(255,255,255,.14);animation-delay:0.82s">Cuota mensual<span style="display:block;font-size:19px;color:#7c7370;margin-top:3px">doce cuotas iguales</span></span><span style="font-family:'JetBrains Mono',monospace;font-size:40px;font-weight:800;color:#ff2d2d;text-align:right;white-space:nowrap;padding:15px 0;border-bottom:1px solid rgba(255,255,255,.14);animation-delay:0.82s">{{ nCuota }}</span></div>
+  </div>
+  <div data-a="rise" style="position:absolute;right:100px;top:790px;width:900px;background:#C00000;padding:18px 26px;font-size:24px;font-weight:800;line-height:1.3;animation-delay:0.92s">{{ nAviso }}</div>
+  <div data-a="rise" style="position:absolute;left:100px;top:900px;width:720px;font-size:23px;line-height:1.45;color:#b8b8b8;animation-delay:1.0s">Dentro de cada área, <b style="color:#fff">{{ nPersona }} por persona</b> al mes. Y si salieran todas las áreas, el proyecto <b style="color:#fff">aún costaría {{ nProg }}</b>.</div>
+</section>
+
 <section data-label="Fuera del fee" data-speaker-notes="Lo que el director tiene que presupuestar aparte, para que no haya sorpresas despues. El licenciamiento de Claude, los portatiles y DAPTA los cotiza la Caja; IAM acompana. El mantenimiento de IAM Hello no se cobra el primer ano, ni la implementacion ni el mantenimiento: eso va dentro del fee. Desde el ano 2 se cobra mensualizado, del orden de 320 mil al mes, valor de referencia que se confirma al cierre del ano 1." style="background:#F4F3F1;color:#0A0A0A;font-family:Manrope,sans-serif;overflow:hidden">
   <div style="position:absolute;left:100px;top:100px;right:100px;display:flex;flex-direction:column;gap:20px">
     <div data-a="rise" style="font-family:'JetBrains Mono',monospace;font-size:24px;letter-spacing:.2em;color:#C00000">PARA QUE NO HAYA SORPRESAS</div>
@@ -1434,7 +1474,7 @@ a:hover{color:#ff3b3b}
 </x-dc>
 <script type="text/x-dc" data-dc-script data-props="{&quot;show3D&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;3D&quot;},&quot;rotationSpeed&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:1,&quot;min&quot;:0,&quot;max&quot;:3,&quot;step&quot;:0.1,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;3D&quot;},&quot;showAvatar&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Avatar&quot;}}">
 class Component extends DCLogic {
-  state = { op: 'a', cal: 0, calUser: false, cA: 11, cH: 22.727272727272727 };
+  state = { op: 'a', cal: 0, calUser: true, cA: 11, cH: 22.727272727272727, nA: 18, nP: 30 };
   componentDidMount() {
     this._nets = [];
     this._mouse = { x: 0, y: 0 };
@@ -1755,7 +1795,7 @@ class Component extends DCLogic {
           calcReset: () => this.setState({ cA: 11, cH: 22.727272727272727 })
         };
       })(),
-      ...(() => { const n = Math.ceil((new Date(2026, 11, 1) - new Date(new Date().toDateString())) / 864e5); return n > 0 ? { diasFalta: n, diasTxt: (n === 1 ? 'día' : 'días') + ' para el arranque, 1 de diciembre' } : { diasFalta: '1 dic', diasTxt: 'arrancamos' }; })(),
+      ...(() => { const PROG = 8100000, BASE = 18, FEE0 = 24300000, PERS = 3; const porArea = (FEE0 - PROG) / BASE; const A = this.state.nA, P = this.state.nP; const fee = PROG + porArea * A, total = fee * 12; const ant = total * P / 100, cuota = (total - ant) / 12; const pe = (n) => '$' + Math.round(n).toLocaleString('es-CO'); const cl = (v, lo, hi) => Math.min(hi, Math.max(lo, v)); return { nA: A, nPtxt: P + '%', nProg: pe(PROG), nArea: pe(porArea), nPersona: pe(porArea / PERS), nBloqueAreas: pe(porArea * A), nFee: pe(fee), nTotal: pe(total), nAnt: pe(ant), nCuota: pe(cuota), nPiso: A === 15 ? '#C00000' : 'transparent', nAviso: A < 15 ? 'Por debajo de su piso de $21.600.000' : (A === 15 ? 'Su piso: las tres áreas que él nunca nombró' : (A > 18 ? 'Por encima del alcance base de 18 áreas' : '')), nAmenos: () => this.setState(st => ({ nA: cl(st.nA - 1, 10, 23) })), nAmas: () => this.setState(st => ({ nA: cl(st.nA + 1, 10, 23) })), nPmenos: () => this.setState(st => ({ nP: cl(st.nP - 5, 0, 50) })), nPmas: () => this.setState(st => ({ nP: cl(st.nP + 5, 0, 50) })), nReset: () => this.setState({ nA: 18, nP: 30 }) }; })(), ...(() => { const n = Math.ceil((new Date(2026, 11, 1) - new Date(new Date().toDateString())) / 864e5); return n > 0 ? { diasFalta: n, diasTxt: (n === 1 ? 'día' : 'días') + ' para el arranque, 1 de diciembre' } : { diasFalta: '1 dic', diasTxt: 'arrancamos' }; })(),
       cal, calPct: ((sel + 1) / 13 * 100).toFixed(1) + '%',
       dK: sel < 1 ? 'CIMENTACIÓN · ANTES DEL ARRANQUE' : 'MES ' + String(sel).padStart(2, '0') + ' DE 12',
       dMes: MN[CM[sel][0]] + ' ' + CM[sel][1], dT: DT[sel][0], dItems: DT[sel][1].map(t => ({ t })), dRep: REP[sel] || '',

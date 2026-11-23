@@ -11,11 +11,6 @@
       "kind": "page"
     },
     {
-      "path": "Fase 2 · Version corta.dc.html",
-      "title": "Fase 2 · versión corta para dirección",
-      "kind": "page"
-    },
-    {
       "path": "uploads/propuesta-fase2-comfacesar-4da88186.html",
       "title": "IAM Intelligence Fase 2",
       "kind": "plain"
@@ -38,8 +33,8 @@
   "report": {
     "itemsVersion": 2,
     "pages": {
-      "total": 4,
-      "ok": 3,
+      "total": 3,
+      "ok": 2,
       "partial": 1,
       "notMigrated": 0
     },
