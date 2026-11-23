@@ -1,35 +1,43 @@
 <!doctype html><html><head><meta charset="utf-8"><style>
 *{box-sizing:border-box;margin:0}
-body{width:1080px;height:1350px;background:#f7f3f2;font-family:'Helvetica Neue',Arial,sans-serif;color:#141010;padding:72px 72px 60px;display:flex;flex-direction:column}
-.top{display:flex;justify-content:space-between;align-items:center;font-size:26px;font-weight:700;letter-spacing:.04em}
-.tag{background:#c00000;color:#fff;padding:10px 20px;border-radius:40px;font-size:22px;letter-spacing:.08em}
-h1{font-family:Georgia,serif;font-size:80px;line-height:1.04;margin-top:80px}
-h1 span{color:#c00000}
-.sub{font-size:30px;color:#5c5052;margin-top:22px;line-height:1.35}
-.card{background:#fff;border-radius:22px;padding:44px 48px;margin-top:48px;box-shadow:0 2px 0 #e6dcdc}
-.ct{font-size:26px;font-weight:700;margin-bottom:28px;display:flex;justify-content:space-between}
-.leg{font-size:22px;color:#5c5052;font-weight:400}
-.leg i{display:inline-block;width:18px;height:18px;border-radius:4px;vertical-align:-2px;margin:0 8px 0 18px}
-.row{display:grid;grid-template-columns:290px 1fr 140px;align-items:center;gap:18px;margin:30px 0}
-.lab{font-size:27px}
-.bars div{height:26px;border-radius:6px;margin:5px 0}
-.a{background:#b9adae}.b{background:#c00000}
-.num{white-space:nowrap;font-size:28px;text-align:right;font-weight:700;color:#c00000}
-.tot{margin-top:30px;padding-top:26px;border-top:2px solid #efe6e6;display:flex;justify-content:space-between;font-size:30px;font-weight:700}
-.tot b{color:#c00000}
-.foot{margin-top:auto;display:flex;justify-content:space-between;font-size:24px}
-.foot .s{color:#c00000;font-weight:700}
-</style></head><body>
-<div class="top"><div>IAM™ <span style="color:#c00000">Intelligence</span></div><div class="tag">TABLERO DE LA SEMANA · 01</div></div>
-<h1>¿Dónde se van las horas<br>de un <span>vendedor?</span></h1>
-<p class="sub">Horas a la semana en tareas que se repiten, antes y después de un piloto de IA medido.</p>
-<div class="card">
- <div class="ct">Horas por semana, un vendedor<span class="leg"><i class="a"></i>Antes<i class="b"></i>Semana 9</span></div>
- <div class="row"><div class="lab">Propuestas y cotizaciones</div><div class="bars"><div class="a" style="width:100%"></div><div class="b" style="width:40%"></div></div><div class="num">−3 h</div></div>
- <div class="row"><div class="lab">Reportes y CRM</div><div class="bars"><div class="a" style="width:80%"></div><div class="b" style="width:30%"></div></div><div class="num">−2,5 h</div></div>
- <div class="row"><div class="lab">Correos de seguimiento</div><div class="bars"><div class="a" style="width:60%"></div><div class="b" style="width:25%"></div></div><div class="num">−1,75 h</div></div>
- <div class="row"><div class="lab">Preparar reuniones</div><div class="bars"><div class="a" style="width:40%"></div><div class="b" style="width:20%"></div></div><div class="num">−1 h</div></div>
- <div class="tot"><span>Horas devueltas a vender</span><b>8,25 h por semana</b></div>
+body{width:1080px;height:1350px;background:#fff;font-family:'Helvetica Neue',Arial,sans-serif;color:#16163a;padding:70px 72px 56px;display:flex;flex-direction:column;position:relative;overflow:hidden}
+.glow{position:absolute;width:760px;height:760px;border-radius:50%;background:radial-gradient(circle,#e9e6ff 0%,#fff 70%);right:-260px;top:300px;z-index:0}
+.z{position:relative;z-index:1}
+.top{display:flex;justify-content:space-between;align-items:center;font-size:24px;font-weight:700;letter-spacing:.06em}
+.tag{border:2px solid #16163a;padding:9px 18px;border-radius:40px;font-size:20px}
+h1{font-size:68px;line-height:1.05;margin-top:56px;font-weight:800;letter-spacing:-.02em}
+h1 span{background:linear-gradient(90deg,#5b3df5,#0fb5a6);-webkit-background-clip:text;color:transparent}
+.sub{font-size:28px;color:#5d5d7a;margin-top:18px;line-height:1.35}
+.main{display:flex;align-items:center;gap:30px;margin-top:34px}
+.leg{flex:1}
+.it{display:flex;align-items:center;gap:16px;margin:20px 0;font-size:25px}
+.dot{width:22px;height:22px;border-radius:7px;flex:none}
+.it b{margin-left:auto;font-size:25px;white-space:nowrap}
+.it small{color:#8a8aa3;font-weight:400}
+.foot{margin-top:auto;display:flex;justify-content:space-between;font-size:22px;color:#5d5d7a}
+.foot .s{color:#5b3df5;font-weight:700}
+.rings{font-size:22px;color:#5d5d7a;display:flex;gap:28px;margin-top:6px}
+.strip{margin-top:30px;background:#16163a;color:#fff;border-radius:22px;padding:28px 36px;display:flex;justify-content:space-between;align-items:center}
+.strip .k{font-size:24px;opacity:.75}.strip .v{font-size:42px;font-weight:800}
+.strip .v span{color:#5fe0d2}
+</style></head><body><div class="glow"></div>
+<div class="z top"><div>IAM™ Intelligence</div><div class="tag">TABLERO DE LA SEMANA · 01</div></div>
+<h1 class="z">La semana de un vendedor,<br><span>antes y después de la IA.</span></h1>
+<p class="z sub">Una semana de 40 horas. Anillo exterior: antes. Anillo interior: semana 9 de un piloto medido.</p>
+<div class="z main">
+ <svg id="c" width="470" height="470" viewBox="0 0 470 470"></svg>
+ <div class="leg" id="leg"></div>
 </div>
-<div class="foot"><div class="s">Datos simulados de demostración</div><div>iamlatam.co</div></div>
-</body></html>
+<div class="z strip"><div><div class="k">Tiempo para vender</div><div class="v">26 h <span>→ 34,25 h</span></div></div><div style="text-align:right"><div class="k">Horas devueltas</div><div class="v"><span>+8,25 h</span></div></div></div>
+<div class="z foot"><div class="s">Datos simulados de demostración</div><div>iamlatam.co</div></div>
+<script>
+const T=[["Propuestas y cotizaciones","#5b3df5",5,2],["Reportes y CRM","#0fb5a6",4,1.5],["Correos de seguimiento","#f2a541",3,1.25],["Preparar reuniones","#ef6f6c",2,1]];
+const sell=["Vender y conversar","#e6e6f0"];
+const svg=document.getElementById('c'),C=235;
+function arc(r,a0,a1,w,col){const p=(a)=>[C+r*Math.cos(a-Math.PI/2),C+r*Math.sin(a-Math.PI/2)];const [x0,y0]=p(a0),[x1,y1]=p(a1);const l=(a1-a0)>Math.PI?1:0;const e=document.createElementNS('http://www.w3.org/2000/svg','path');e.setAttribute('d',`M${x0} ${y0} A${r} ${r} 0 ${l} 1 ${x1} ${y1}`);e.setAttribute('stroke',col);e.setAttribute('stroke-width',w);e.setAttribute('fill','none');e.setAttribute('stroke-linecap','butt');svg.appendChild(e)}
+function ring(r,w,idx){let a=0;const g=0.012;let used=0;T.forEach(t=>{const s=t[idx]/40*2*Math.PI;arc(r,a+g,a+s-g,w,t[1]);a+=s;used+=t[idx]});arc(r,a+g,2*Math.PI-g,w,sell[1]);}
+ring(205,46,2);ring(145,46,3);
+const tx=(y,s,t,c,wt)=>{const e=document.createElementNS('http://www.w3.org/2000/svg','text');e.setAttribute('x',C);e.setAttribute('y',y);e.setAttribute('text-anchor','middle');e.setAttribute('font-size',s);e.setAttribute('fill',c);e.setAttribute('font-weight',wt);e.setAttribute('font-family','Helvetica Neue, Arial');e.textContent=t;svg.appendChild(e)};
+tx(222,22,'Tareas que se repiten','#5d5d7a',400);tx(268,44,'14 h → 5,75 h','#16163a',800);
+document.getElementById('leg').innerHTML=T.map(t=>`<div class="it"><div class="dot" style="background:${t[1]}"></div>${t[0]}<b>${String(t[2]).replace('.',',')} → ${String(t[3]).replace('.',',')} h</b></div>`).join('')+`<div class="it"><div class="dot" style="background:${sell[1]}"></div>${sell[0]}<b><small>el resto</small></b></div>`;
+</script></body></html>

@@ -1,6 +1,6 @@
 # Página IAM™ · Tablero de la semana 01 · mar 24 nov 2026, 11:30 a. m.
 Estado: propuesta, espera aprobación de Sandra.
-Imagen: tablero-semana-01.png (datos simulados de demostración).
+Imagen: tablero-semana-01.png, fondo blanco con anillos (datos simulados de demostración). Rediseño pedido por Sandra el 23 nov: nada de negro y rojo.
 
 Tablero de la semana · 01
 
@@ -11,7 +11,7 @@ En un piloto de IA bien medido no empezamos por la herramienta. Empezamos por co
 Semana 1: cuánto tarda hoy cada tarea que se repite.
 Semana 9: cuánto tarda con IA, con la persona revisando.
 
-En este ejemplo, un vendedor recupera 8,25 horas por semana. Son horas que vuelven a lo único que la IA no hace por él: conversar con clientes.
+En este ejemplo, las tareas que se repiten bajan de 14 a 5,75 horas por semana. El tiempo para vender sube de 26 a 34,25 horas: lo único que la IA no hace por el vendedor es conversar con sus clientes.
 
 ⭕ Los datos del tablero son simulados. El método es el mismo que usamos con los equipos que acompañamos.
 
