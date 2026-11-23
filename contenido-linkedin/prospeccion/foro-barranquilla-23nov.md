@@ -15,3 +15,12 @@ Decisión de Sandra (12 nov): NO viaja. Participa desde LinkedIn con comentarios
 - Antes (16 al 22 nov): comentar cada publicación de expectativa del foro (ProBarranquilla, Valora Analitik, panelistas).
 - Día 23: comentarios en vivo en publicaciones y transmisión, si existe. Recordatorio programado 23 nov 7:50 a. m.
 - Después (24 y 25 nov): comentar las conclusiones y escribirle a 2 o 3 panelistas.
+
+## Día 23 nov (Chrome + Sandra)
+- ProBarranquilla y Vicepresidente: sus posts de hoy son de la Milagro Week, no se tocan. Ministros sin publicaciones.
+- Aprobados por Sandra y enviados a Chrome para publicar:
+  1. Valora Analitik "Hoy es el día" (urn:li:activity:7530589496120274944), pregunta a) productividad vs inversión.
+  2. Evento LinkedIn Live (linkedin.com/events/7530384004685025280), pregunta d) Plan Destrabe, texto ajustado sin "Conectada a la transmisión".
+  3. Liliana Tibaquirá (urn:li:activity:7530612583989530624), pregunta c) pymes con método y medición.
+- Quedan libres b) y e) para posts nuevos de ProBarranquilla, Comercio o panelistas sin Milagro Week (con aprobación de Sandra).
+- Liliana Tibaquirá: perfil afín (gobierno corporativo + IA), 2do grado; posible conexión después.
