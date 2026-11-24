@@ -1,0 +1,19 @@
+¿Qué es un plugin en Claude? ⭕
+
+Piénsalo como una app que le instalas a Claude. Igual que tu celular hace más cosas con cada app, Claude sabe hacer más cosas con cada plugin.
+
+Un plugin trae habilidades, conectores a tus herramientas y comandos listos para tu área.
+
+Paso a paso:
+1. En la barra lateral, entra a Plugins.
+2. Busca el de tu área. Para ventas: Sales.
+3. Conecta tus herramientas. Cada una se conecta aparte.
+4. ¿Quieres más? En Agregar sumas fuentes de Anthropic por área.
+
+Un chat responde. Un plugin sabe hacer el trabajo.
+
+Disponible en los planes pagos de Claude.
+
+Comenta CLAUDE y te envío mi guía de Claude para empresas. 📌 Guárdalo.
+
+#TipsDeClaude #Claude #InteligenciaArtificial #VentasConIA #Productividad
