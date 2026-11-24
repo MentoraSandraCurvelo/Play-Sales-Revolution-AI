@@ -1,7 +1,7 @@
 import sys
 P=[
 ("agentica","conectores.jpg","dark","Claude no solo escribe.","Trabaja por ti.","Tips de Claude",(1250,0,50)),
-("iae","iae2.jpg","dark","¿Quién usa","de verdad la IA?","Método IAE™",(1000,0,50)),
+("iae","iae2.jpg","dark","Pagaste la IA.","¿Alguien la usa?","Método IAE™",(1000,0,50)),
 ("matia","robot.jpg","light","Claude actualiza","mi CRM.","Tips de Claude · Demo simulada",(1450,0,62)),
 ("prospecta","gorra.jpg","light","Claude prospecta.","Yo apruebo.","Tips de Claude · Demo simulada",(900,0,50)),
 ("alpina","alpina.jpg","dark","No llames en frío.","Llega sabiendo.","Recuerdos",(1300,-540,50)),
