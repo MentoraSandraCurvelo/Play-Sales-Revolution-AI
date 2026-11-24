@@ -28,3 +28,15 @@ Candidatos para TikTok después del estreno en Instagram, cada uno con el sí de
 - Lun 8 dic: reel recuerdo UDES (en TikTok decir "en este panel", sin nombrar la universidad, el evento ni el año)
 - Sáb 6 dic: reel recuerdo Alpina (Sandra aclaró que Alpina es solo un ejemplo; texto tal cual)
 Rama de Isaía: claude/ecstatic-hawking-b5uxn3. Pendiente de Sandra: agente de correo.
+
+## Agenda final de Instagram (Isaía, 24 nov). Reemplaza la lista de arriba
+- Mié 26 nov 12:30: reel IA agéntica ("Claude no solo escribe. Trabaja por ti.")
+- Vie 28 nov 6:30 p. m.: carrusel "5 tareas que Claude ya hace por ti"
+- Sáb 29 nov 12:30: reel IAE™ ("Pagaste la IA. ¿Alguien la usa?"). Posible repetido: el IAE™ de TikTok arranca igual. Verificar antes de proponerlo.
+- Lun 1 dic 12:30: reel MATIA ("Claude actualiza mi CRM.")
+- Mar 2 dic 6:30 p. m.: carrusel "Así uso Claude en LinkedIn"
+- Mié 3 dic 12:30: reel PROSPECTA ("Claude prospecta. Yo apruebo.")
+- Sáb 6 dic 12:30: reel recuerdo Alpina
+- Lun 8 dic 12:30: reel recuerdo UDES ("Instagram: interrupción. LinkedIn: intención."). Posible repetido: es el mismo tema del Panel que sale en TikTok el vie 27.
+- Mié 10 dic 12:30: reel agente de correo ("Claude lee mi correo. Yo solo apruebo.")
+Portadas con sistema nuevo (estrategia/instagram/diseno-feed/). Sandra quiere títulos enfocados en tips de Claude.
