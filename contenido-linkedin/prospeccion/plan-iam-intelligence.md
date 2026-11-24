@@ -80,3 +80,7 @@ Excluido: Juan Carlos Duque Gómez (Asequimicos), conversación en curso desde j
 - Conexiones con conversación previa: se les escribe un mensaje de reconexión distinto, que Sandra aprueba antes de enviar (borradores del 23 nov para Martín Garmendia, Harold Celis, Fabio Andrés Parra e Iván Osuna).
 - (23 nov 2026) Sandra APROBÓ los 4 mensajes de reconexión; bloque entregado para Chrome (salen hoy: 11 + 4 = 15, el máximo diario).
 - Reconexión enviada el 23 nov (8:21 a 8:29 a. m.): Martin Garmendia, Harold Celis, Fabio Andrés Parra Osorio, Ivan Fernando Osuna Díaz. 15/15 mensajes del día.
+
+## Lote 2 (mar 24 nov 2026): alimentos, bebidas y consumo
+Ricardo Targino (Cervecería Nacional), Felipe Mejía (Central Cervecera de Colombia), Sebastián Mejía Salazar (Juan Valdez Café), Mario Chaves (Joli Foods), Danilo Pineda Palacio (CERCAFE), Luisa Fernanda Vanegas (Alianza Team), Laura Murcia (Mac Pollo), Katherine Cobo Otero (Sucroal), Mauricio Pimienta Bossa (Meals de Colombia), Esteban Rey (Quala), Jorge Hernández (Solla), Pablo Julio Molina (Olímpica), Alejandro Humbser (Cencosud), Jorge Luis Sánchez Garcés (La Alhambra Café), Eric Vivoni (Grupo Éxito, Didetexco).
+Fuera por regla de 2 por empresa o contacto previo: Postobón, Alpina, Café Quindío.
