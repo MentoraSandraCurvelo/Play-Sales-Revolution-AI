@@ -306,3 +306,7 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Comfacesar y Drummond son clientes: seguimiento sí, pero de vez en cuando, no todos los días.
 - Like en sus publicaciones nuevas: sí. Comentario: máximo 1 por semana a cada uno, solo en un post donde haya algo de valor que aportar.
 - Reemplaza el "SIEMPRE like + comentario" de la regla 47. Grupo Abstract sigue solo con like.
+
+## 51. Documentación de Sandra: revisar Dropbox antes de preguntar (24 nov 2026, Sandra)
+- Diplomas, certificaciones y demás documentación de Sandra están en su Dropbox. Antes de preguntarle si tiene un documento, buscarlo en Dropbox y llegar con lo que falta ya identificado.
+- Dato: Sandra es economista.
