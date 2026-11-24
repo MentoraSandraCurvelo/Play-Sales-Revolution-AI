@@ -92,3 +92,7 @@ Fuera por regla de 2 por empresa o contacto previo: Postobón, Alpina, Café Qui
 Uso (recomendación de Demetri, Sandra puede cambiarla):
 1. Mensaje 2 del lun 30 nov para quienes recibieron el mensaje 1 y no respondieron (lotes 1 y 2), en lugar del mensaje de la guía.
 2. Prueba A/B desde el lote 3 (mié 25 nov): mitad con el mensaje 1 actual, mitad con este mensaje historia. Se compara el lun 30 nov.
+
+## Mensaje para cámaras de comercio, APROBADO por Sandra (24 nov 2026)
+"[Nombre], sigo el trabajo de [la Cámara] con sus empresarios. Muchas cámaras traen grandes conferencistas de IA, y eso abre la conversación. Pero una charla enseña a usar una herramienta; lo que cambia la productividad de una empresa es un sistema de trabajo: la IA conectada a las aplicaciones que el equipo ya usa, con procesos definidos, una persona que revisa y una medición del antes y el después. Es la diferencia entre aprender a usar Excel y montar la contabilidad de la empresa. Eso es lo que acompaño a implementar. ¿Les interesaría un programa así para sus afiliados? Me encantaría mostrarte en 20 minutos cómo funciona."
+Uso: lote 3 (cámaras, mié 25 nov), comparado contra el mensaje historia.
