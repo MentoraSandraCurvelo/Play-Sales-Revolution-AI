@@ -33,6 +33,8 @@ print("modulos", n, "longitud path", len("".join(d)))
 rep = [
  ("<title>Diploma IAM™ Ambassadors</title>", "<title>Diploma IAM™ Intelligence</title>"),
  ('</span>LOS CERTIFICA COMO</div>', '</span>CERTIFICA A</div>'),
+ ('<text class="s-marca" x="100" y="107">IAM</text>',
+  '<text class="s-marca" x="100" y="107">IAM<tspan class="s-tm" dy="-13">™</tspan></text>'),
  ('<div class="fila nombre">Frank Montero</div>', f'<div class="fila nombre">{NOMBRE}</div>'),
  ('Por haber cursado exitosamente el programa de &ldquo;<em>IAM<span class="tm">™</span> Ambassadors</em>&rdquo;, '
   'programa de embajadores de marca para LinkedIn con <em>Inteligencia Artificial (IA)</em> aplicada, '
@@ -41,7 +43,7 @@ rep = [
   'programa de <em>Inteligencia Artificial (IA)</em> aplicada a la operación, '
   'durante un periodo de dos meses.'),
  ("<span>Primera generación de embajadores de Comfacesar</span>",
-  "<span>Primera generación de IAM™ Intelligence en Comfacesar</span>"),
+  "<span>Primera generación de IAM<span class=\"tm\">™</span> Intelligence en Comfacesar</span>"),
  ("Expedido en Valledupar, Colombia, a los 28 de septiembre de 2024.",
   "Expedido en Valledupar, Colombia, a los 9 días del mes de octubre de 2026."),
  ('<div class="url izq">www.comfacesar.com</div>',
@@ -60,7 +62,12 @@ css_qr = """
 .sello-qr{position:absolute;left:48px;top:477px;width:86px;height:86px;padding:6px;
   background:var(--papel-100,#fbf8f2);border:1px solid rgba(169,124,34,.55)}
 .qr-dibujo{display:block;width:100%;height:100%}
-.marca-swash .tm{font-size:.3em;vertical-align:1.02em}
+.tm{font-size:.42em;vertical-align:.95em}
+.marca-swash .tm{font-size:.4em;vertical-align:.96em}
+.iam-palabra .tm{font-size:.3em;vertical-align:1.6em}
+.cuerpo .tm{font-size:.42em;vertical-align:.95em;font-style:normal;letter-spacing:0}
+.generacion span.tm{font-size:.42em;vertical-align:.95em;font-style:normal;letter-spacing:0}
+.s-tm{font-size:13px;letter-spacing:0}
 .qr-rotulo{position:absolute;left:49px;top:570px;white-space:nowrap;
   font-family:var(--font-sello,"Cinzel",serif);font-size:7px;font-weight:600;
   letter-spacing:.14em;line-height:1;text-transform:uppercase;color:var(--oro-700,#8a6115)}
