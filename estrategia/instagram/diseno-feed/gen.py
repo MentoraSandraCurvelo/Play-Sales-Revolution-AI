@@ -5,7 +5,7 @@ P=[
 ("matia","robot.jpg","light","Claude actualiza","mi CRM.","Tips de Claude · Demo simulada",(1450,0,62)),
 ("prospecta","gorra.jpg","light","Claude prospecta.","Yo apruebo.","Tips de Claude · Demo simulada",(1080,-170,50)),
 ("alpina","alpina.jpg","dark","No llames en frío.","Llega sabiendo.","Recuerdos",(1300,-540,50)),
-("udes","udes.jpg","light","No es interrupción.","Es intención.","Recuerdos",(1300,-430,58)),
+("udes","udes.jpg","light","Instagram: interrupción.","LinkedIn: intención.","Recuerdos",(1300,-430,58)),
 ("correo","correo.jpg","dark","Claude lee mi correo.","Yo solo apruebo.","Tips de Claude · Demo simulada",(1080,-40,50)),
 ]
 css="""*{margin:0;padding:0;box-sizing:border-box}body{width:1080px}
@@ -27,5 +27,5 @@ css="""*{margin:0;padding:0;box-sizing:border-box}body{width:1080px}
 """
 h="<!doctype html><html><head><meta charset=utf-8><style>"+css+"</style></head><body>"
 for i,img,m,t,e,g,(w,off,lp) in P:
-    h+=f'<div class="c {m}" id="{i}"><div class="ph"><img src="{img}" style="width:{w}px;top:{off}px;left:calc({lp}% - {w*lp/100}px)"></div><div class="f"></div><div class="b"><span class="r"></span>Sandra Curvelo · IAM™</div><div class="l"></div><div class="t">{t}<br><em>{e}</em></div><div class="g">{g}</div><div class="k">Reel</div></div>'
+    h+=f'<div class="c {m}" id="{i}"><div class="ph"><img src="{img}" style="width:{w}px;top:{off}px;left:calc({lp}% - {w*lp/100}px)"></div><div class="f"></div><div class="b"><span class="r"></span>Sandra Curvelo · IAM™</div><div class="l"></div><div class="t" style="{'font-size:66px' if i=='udes' else ''}">{t}<br><em>{e}</em></div><div class="g">{g}</div><div class="k">Reel</div></div>'
 open(sys.argv[1],"w").write(h+"</body></html>")
