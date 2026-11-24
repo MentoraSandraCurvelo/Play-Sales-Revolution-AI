@@ -300,3 +300,4 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Mezcla diaria propuesta: 4 cámaras (al menos 1 binacional), 4 directivos de empresas, 2 cuentas fijas (Vicepresidente, ANDI, Luz Stella, clientes según reglas 45 y 47).
 - Volumen propuesto: hasta 10 comentarios de visibilidad al día de lunes a viernes, 5 a las 7:35 a. m. y 5 a las 3:05 p. m.; fines de semana sigue el máximo de 5 con aprobación.
 - Cada comentario aporta una idea de IA aplicada y medida (método, horas, persona que revisa), sin vender, sin links, sin pedir reunión, con cierre variado (regla 49).
+- APROBADA por Sandra el 23 nov 2026 (ya no es propuesta): 10 comentarios por día hábil; los 5 de las 3:05 p. m. también salen solos y Sandra revisa la tabla después; Comfacesar y Drummond van aparte de los 10 (regla 47); Luz Stella siempre con el sí de Sandra (regla 3a bis). Chrome actualizó la Cola.
