@@ -60,6 +60,14 @@ for a, b in rep:
         raise SystemExit(f"NO ENCONTRADO x1 ({t.count(a)}): {a[:70]}")
     t = t.replace(a, b)
 
+# La rubrica de Frank Montero sale de la pieza: la firma la pone Comfacesar
+# antes de enviar. Se conserva la caja de 76px para que nada se mueva.
+antes = len(t)
+t = re.sub(r'<img src="data:image/png;base64,[^"]+" alt="Firma de Frank Montero">', '', t)
+if len(t) == antes:
+    raise SystemExit("no se encontro la rubrica de Frank Montero")
+print("rubrica retirada,", antes - len(t), "bytes menos")
+
 # --- CSS del bloque QR, pegado al final de la hoja de estilo original ---
 css_qr = """
 .esquina.se{display:none}
