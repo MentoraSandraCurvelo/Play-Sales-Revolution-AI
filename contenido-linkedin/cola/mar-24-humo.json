@@ -1,11 +1,11 @@
 {
   "id": "mar-24-humo",
-  "estado": "aprobado",
+  "estado": "publicado",
   "aprobado_por": "Sandra",
   "aprobado_el": "2026-11-16",
   "video_aprobado_el": "2026-11-17",
   "programado_bogota": "2026-11-24 07:30",
-  "urn": null,
+  "urn": "urn:li:ugcPost:7530972871729385473",
   "archivo_video": "contenido-linkedin/videos/2026-11-16/humo-ia-no-te-puede-hacer-ver-mediocre-v3.mp4",
   "titulo_video": "La IA no te puede hacer ver mediocre",
   "payload": {
@@ -22,5 +22,7 @@
   },
   "primer_comentario": "Un ejercicio antes de tu próxima presentación: pégale tu análisis a la IA y pídele \"Hazme las 5 preguntas más difíciles que me haría un gerente sobre esto\". Si no puedes responderlas sin mirar la pantalla, todavía no está listo.",
   "primer_comentario_aprobado_el": "2026-11-16",
-  "nota": "Texto y primer comentario aprobados el 16 nov; video v3 aprobado el 17 nov."
+  "nota": "Texto y primer comentario aprobados el 16 nov; video v3 aprobado el 17 nov.",
+  "video": "urn:li:video:D4E10AQHer-Th_aYbqQ",
+  "publicado_utc": "2026-11-24T12:37:31+00:00"
 }
