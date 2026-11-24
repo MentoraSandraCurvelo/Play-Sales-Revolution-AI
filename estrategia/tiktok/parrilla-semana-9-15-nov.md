@@ -68,3 +68,8 @@ Parrilla TikTok nueva (6:30 p. m.):
 - Mar 9 dic: recuerdo Alpina
 - Vie 12 dic: agente de correo
 - Mar 16 dic: IA agéntica (después de su estreno en IG el sáb 13)
+
+## Palabra CLAUDE en TikTok ("4 formas", mar 2 dic). 24 nov
+Sandra: "la misma de guías". Revisado iamlatam.co/guias/ (200): tiene 3 guías (5 ajustes, semana del vendedor con IA, agente LinkedIn). No hay una guía "Claude para empresas".
+La guía "Claude para empresas" que Instagram manda con CLAUDE es otra página: https://claude.ai/artifact/Ng9wvgLnwoH7fGTWQW8GoN
+Pendiente: Sandra confirma cuál link va por DM en TikTok.
