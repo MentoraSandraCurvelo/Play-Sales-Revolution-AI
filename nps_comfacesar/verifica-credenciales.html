@@ -66,6 +66,26 @@ body{background:var(--papel);color:var(--tinta);font-family:var(--texto);
   text-transform:uppercase;color:var(--tinta-5)}
 .dato dd{margin-top:5px;font-size:17px;color:var(--tinta)}
 .pie-ficha{margin-top:22px;font-size:15.5px;color:var(--tinta-5)}
+.bloque{margin-top:26px;border-top:1px solid var(--linea);padding-top:22px}
+.bloque h3{font-family:var(--sello);font-size:11px;font-weight:700;letter-spacing:.15em;
+  text-transform:uppercase;color:var(--oro)}
+.bloque .guia{margin-top:8px;font-size:15.5px;color:var(--tinta-7);max-width:56ch}
+.campos{margin-top:14px;display:grid;gap:8px}
+.campo-fila{display:flex;gap:10px;align-items:center;flex-wrap:wrap;min-width:0;
+  background:var(--papel-2);border:1px solid var(--linea);padding:10px 12px}
+.campo-fila .et{flex:none;width:100%;font-family:var(--sello);font-size:9.5px;font-weight:600;
+  letter-spacing:.13em;text-transform:uppercase;color:var(--tinta-5)}
+@media (min-width:600px){.campo-fila .et{width:166px}}
+.campo-fila .va{flex:1 1 180px;min-width:0;font-size:16px;word-break:break-word}
+.copiar{flex:none;font-family:var(--sello);font-size:9.5px;font-weight:600;letter-spacing:.12em;
+  text-transform:uppercase;padding:7px 11px;cursor:pointer;
+  color:var(--oro);background:transparent;border:1px solid var(--oro)}
+.copiar:hover{background:var(--oro);color:var(--papel)}
+.copiar:focus-visible{outline:2px solid var(--oro);outline-offset:2px}
+.copiar[data-hecho="si"]{background:var(--oro);color:var(--papel)}
+.publicacion{margin-top:14px;background:var(--papel-2);border:1px solid var(--linea);
+  padding:16px 18px;white-space:pre-wrap;font-size:16px;line-height:1.55;color:var(--tinta)}
+.bajo-publicacion{margin-top:12px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
 .no-esta{border-top-color:var(--rojo)}
 .no-esta .estado-texto{color:var(--rojo)}
 .buscador{margin-top:40px}
@@ -175,7 +195,58 @@ const SELLO = `<svg class="estado-sello" viewBox="0 0 48 48" role="img" aria-lab
         stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`;
 
+const BASE = "https://claude.ai/artifact/VZzvTXJi4kNFtF6HfNru3w";
+
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function campos(c){
+  const p = PROGRAMAS[c.prog];
+  return [
+    ["Nombre de la certificación", p.nombre],
+    ["Organización emisora", "IAM™"],
+    ["Fecha de expedición", "Octubre de 2026"],
+    ["Vencimiento", "No caduca"],
+    ["ID de la credencial", c.codigo],
+    ["URL de la credencial", `${BASE}#${c.codigo}`]
+  ];
+}
+
+function publicacion(c){
+  const p = PROGRAMAS[c.prog];
+  return `Ya tengo mi certificación en ${p.nombre}.
+
+Durante dos meses, en ${c.area} de ${p.entidad}, dejamos de hablar de inteligencia artificial y la pusimos a trabajar en la operación de todos los días. Medimos lo que hacíamos, y el tiempo que recuperamos volvió al servicio.
+
+Gracias a Sandra Curvelo y a IAM™ por el acompañamiento, y a ${p.entidad} por abrir la puerta.
+
+Credencial: ${c.codigo}
+
+#IAMIntelligence #InteligenciaArtificial #${p.entidad}`;
+}
+
+function paraLinkedIn(c){
+  const filas = campos(c).map(([et, va], i) => `<div class="campo-fila">
+      <span class="et">${esc(et)}</span>
+      <span class="va" id="va-${i}">${esc(va)}</span>
+      <button class="copiar" type="button" data-copiar="va-${i}">Copiar</button>
+    </div>`).join("");
+  return `<section class="bloque">
+    <h3>Añádela a tu LinkedIn</h3>
+    <p class="guia">En tu perfil, entra en <em>Añadir sección</em>, luego <em>Licencias y
+      certificaciones</em>, y copia aquí cada campo. El ID y la URL son los que hacen que
+      cualquiera pueda comprobar que la certificación es real.</p>
+    <div class="campos">${filas}</div>
+  </section>
+  <section class="bloque">
+    <h3>Y cuéntalo</h3>
+    <p class="guia">Un texto para publicar el mismo día, escrito para que lo ajustes a tu voz.</p>
+    <div class="publicacion" id="pub">${esc(publicacion(c))}</div>
+    <div class="bajo-publicacion">
+      <button class="copiar" type="button" data-copiar="pub">Copiar la publicación</button>
+      <span class="guia" style="margin:0">Súbela con la foto de tu diploma.</span>
+    </div>
+  </section>`;
+}
 
 function ficha(c){
   const p = PROGRAMAS[c.prog];
@@ -193,6 +264,7 @@ function ficha(c){
       <div class="dato"><dt>Lugar</dt><dd>${esc(p.lugar)}</dd></div>
     </dl>
     <p class="pie-ficha">Programa impartido por ${esc(p.imparte)}</p>
+    ${paraLinkedIn(c)}
   </article>`;
 }
 
@@ -242,6 +314,32 @@ function pintaLista(filtro){
     ? `${filas.length} de ${CREDENCIALES.length} credenciales coinciden.`
     : `${CREDENCIALES.length} credenciales emitidas, una por persona certificada.`;
 }
+
+salida.addEventListener("click", ev => {
+  const b = ev.target.closest("[data-copiar]");
+  if (!b) return;
+  const origen = document.getElementById(b.dataset.copiar);
+  if (!origen) return;
+  const texto = origen.textContent;
+  const marca = () => {
+    const antes = b.textContent;
+    b.textContent = "Copiado";
+    b.dataset.hecho = "si";
+    setTimeout(() => { b.textContent = antes; delete b.dataset.hecho; }, 1800);
+  };
+  const seleccionar = () => {
+    const r = document.createRange();
+    r.selectNodeContents(origen);
+    const s = window.getSelection();
+    s.removeAllRanges();
+    s.addRange(r);
+    b.textContent = "Selecciónalo y cópialo";
+    setTimeout(() => { b.textContent = "Copiar"; }, 2600);
+  };
+  try {
+    navigator.clipboard.writeText(texto).then(marca, seleccionar);
+  } catch (e) { seleccionar(); }
+});
 
 q.addEventListener("input", () => pintaLista(q.value));
 window.addEventListener("hashchange", () => { pinta(); window.scrollTo({top:0,behavior:"smooth"}); });
