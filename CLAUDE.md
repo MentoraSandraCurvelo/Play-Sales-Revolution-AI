@@ -50,7 +50,8 @@ Español de Colombia, tuteo. Sin guiones para separar ideas. Números y signos e
 ## Historias y comentarios (aprobado 5 nov 2026)
 - Claude publica historias por la API: una después de cada publicación del feed (aviso "Nuevo reel" o "Nuevo carrusel") y una de detrás de cámaras los domingos, con fotos y videos reales de Sandra de Dropbox. Fondos alternados y difuminar a otras personas reconocibles.
 - La API no permite stickers ni compartir la publicación con enlace; eso lo hace Sandra en la app si quiere.
-- Claude no comenta en cuentas ajenas (la API no lo permite y Instagram lo castiga como spam). Cada mañana le deja a Sandra 5 publicaciones de cuentas de su tema con un comentario sugerido para que ella lo pegue.
+- Claude no comenta en cuentas ajenas (la API no lo permite y Instagram lo castiga como spam).
+- Comentarios sugeridos en cuentas ajenas: suspendidos (24 nov 2026). Sandra no ve resultado porque en esas cuentas siempre responde un bot. No se le vuelven a sugerir salvo que ella lo pida.
 
 ## Lineamientos de Denny, community manager (5 nov 2026)
 Detalle en `estrategia/instagram/lineamientos-denny.md`. Resumen:
