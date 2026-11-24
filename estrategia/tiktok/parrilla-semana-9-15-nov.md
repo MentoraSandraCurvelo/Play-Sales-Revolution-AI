@@ -58,3 +58,13 @@ Van a TikTok las 4 nuevas, 2 por semana, a las 6:30 p. m., siempre después de s
 No van: IAE™ y UDES (mismo archivo ya en TikTok), MATIA, carrusel LinkedIn y carrusel 5 tareas (tema parecido).
 Cada pieza igual pasa por el sí final de Sandra (texto y portada) antes de que la programe.
 Se ajusta si la medición de Humo y Panel dice otra cosa.
+
+## Ajuste (24 nov, aviso de Isaía): IG mueve IA agéntica al sáb 13 dic y estrena "Claude: 4 formas de usarla" el mié 26 nov
+"4 formas" revisado: 55.8 s, md5 b187fd22, pantallas con la voz de Sandra. Es nuevo para TikTok (no coincide con ningún archivo ni tema publicado; es lista práctica como "5 ajustes").
+Pide comentar CLAUDE: en TikTok se responde a mano por mensaje directo; falta confirmar el link de la guía de Claude para empresas.
+Parrilla TikTok nueva (6:30 p. m.):
+- Mar 2 dic: 4 formas de usar Claude
+- Vie 5 dic: PROSPECTA
+- Mar 9 dic: recuerdo Alpina
+- Vie 12 dic: agente de correo
+- Mar 16 dic: IA agéntica (después de su estreno en IG el sáb 13)
