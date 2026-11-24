@@ -40,3 +40,11 @@ Rama de Isaía: claude/ecstatic-hawking-b5uxn3. Pendiente de Sandra: agente de c
 - Lun 8 dic 12:30: reel recuerdo UDES ("Instagram: interrupción. LinkedIn: intención."). Posible repetido: es el mismo tema del Panel que sale en TikTok el vie 27.
 - Mié 10 dic 12:30: reel agente de correo ("Claude lee mi correo. Yo solo apruebo.")
 Portadas con sistema nuevo (estrategia/instagram/diseno-feed/). Sandra quiere títulos enfocados en tips de Claude.
+
+## Revisión de repetidos (24 nov), comparando archivo (md5), duración, fotogramas y texto
+- IGUAL, NO va a TikTok: reel IAE™ (md5 1a3193d7, 128 s) = iae_tiktok.mp4 ya en TikTok.
+- IGUAL, NO va a TikTok: reel recuerdo UDES (md5 318ec9ef, 41 s) = panel_tiktok.mp4, programado vie 27.
+- TEMA PARECIDO, decide Sandra: reel MATIA (pantallas, agente que escribe correos y registra en CRM) vs "gorra negra" (agente que escribe el correo y lo registra en el CRM).
+- TEMA PARECIDO, decide Sandra: carrusel "Así uso Claude en LinkedIn" abre con "Instagram es interrupción. LinkedIn es intención." = mensaje del Panel.
+- TEMA PARECIDO, decide Sandra: carrusel "5 tareas" pide comentar VENTAS, la misma palabra del video "Ventas"; los temas se tocan (seguimiento, pipeline) pero el formato es distinto.
+- NUEVOS: reel IA agéntica (72 s, Sandra en cámara), reel PROSPECTA (22 s, pantallas), reel agente de correo (23 s, pantallas), reel recuerdo Alpina (18 s, mismo panel pero otro mensaje: "No llames en frío. Llega sabiendo.").
