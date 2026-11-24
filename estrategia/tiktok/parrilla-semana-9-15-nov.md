@@ -48,3 +48,13 @@ Portadas con sistema nuevo (estrategia/instagram/diseno-feed/). Sandra quiere t�
 - TEMA PARECIDO, decide Sandra: carrusel "Así uso Claude en LinkedIn" abre con "Instagram es interrupción. LinkedIn es intención." = mensaje del Panel.
 - TEMA PARECIDO, decide Sandra: carrusel "5 tareas" pide comentar VENTAS, la misma palabra del video "Ventas"; los temas se tocan (seguimiento, pipeline) pero el formato es distinto.
 - NUEVOS: reel IA agéntica (72 s, Sandra en cámara), reel PROSPECTA (22 s, pantallas), reel agente de correo (23 s, pantallas), reel recuerdo Alpina (18 s, mismo panel pero otro mensaje: "No llames en frío. Llega sabiendo.").
+
+## Decisión de Tikia (24 nov). Sandra delegó la selección ("esas decisiones tómalas tú")
+Van a TikTok las 4 nuevas, 2 por semana, a las 6:30 p. m., siempre después de su estreno en Instagram:
+- Mar 2 dic: IA agéntica (IG mié 26 nov). Sandra en cámara: la más fuerte.
+- Vie 5 dic: PROSPECTA (IG mié 3 dic).
+- Mar 9 dic: recuerdo Alpina (IG sáb 6 dic).
+- Vie 12 dic: agente de correo (IG mié 10 dic).
+No van: IAE™ y UDES (mismo archivo ya en TikTok), MATIA, carrusel LinkedIn y carrusel 5 tareas (tema parecido).
+Cada pieza igual pasa por el sí final de Sandra (texto y portada) antes de que la programe.
+Se ajusta si la medición de Humo y Panel dice otra cosa.
