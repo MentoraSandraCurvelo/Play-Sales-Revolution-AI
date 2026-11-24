@@ -1,12 +1,12 @@
 import sys
 P=[
 ("agentica","conectores.jpg","dark","Claude no solo escribe.","Trabaja por ti.","Tips de Claude",(1250,0,50)),
-("iae","iae2.jpg","dark","Pagaste la IA.","¿Alguien la usa?","Método IAE™",(1000,0,50)),
+("iae","iae2.jpg","dark","Pagaste la IA.","¿Alguien la usa?","Método IAE™",(1080,-40,50)),
 ("matia","robot.jpg","light","Claude actualiza","mi CRM.","Tips de Claude · Demo simulada",(1450,0,62)),
-("prospecta","gorra.jpg","light","Claude prospecta.","Yo apruebo.","Tips de Claude · Demo simulada",(900,0,50)),
+("prospecta","gorra.jpg","light","Claude prospecta.","Yo apruebo.","Tips de Claude · Demo simulada",(1080,-170,50)),
 ("alpina","alpina.jpg","dark","No llames en frío.","Llega sabiendo.","Recuerdos",(1300,-540,50)),
 ("udes","udes.jpg","light","No es interrupción.","Es intención.","Recuerdos",(1300,-430,58)),
-("correo","correo.jpg","dark","Claude lee mi correo.","Yo solo apruebo.","Tips de Claude · Demo simulada",(1000,0,50)),
+("correo","correo.jpg","dark","Claude lee mi correo.","Yo solo apruebo.","Tips de Claude · Demo simulada",(1080,-40,50)),
 ]
 css="""*{margin:0;padding:0;box-sizing:border-box}body{width:1080px}
 .c{position:relative;width:1080px;height:1920px;overflow:hidden;margin-bottom:10px}
