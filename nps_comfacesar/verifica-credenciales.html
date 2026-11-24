@@ -1,0 +1,250 @@
+<title>Verificación de credenciales IAM™</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..700&family=Cormorant+Garamond:ital,wght@0,400..700;1,400..600&family=EB+Garamond:ital,wght@0,400..600;1,400..500&display=swap">
+<style>
+/* Columna única sobre papel: cabecera con filete de oro, ficha de la credencial, índice de la serie debajo. */
+:root{
+  --papel:#faf7f1; --papel-2:#f2ebdf; --ficha:#fffdf8;
+  --tinta:#14110d; --tinta-7:#3b332a; --tinta-5:#6d6354;
+  --oro:#a97c22; --oro-claro:#c19a3f; --rojo:#c00000;
+  --linea:rgba(20,17,13,.13); --sombra:rgba(48,34,10,.12);
+  --display:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+  --texto:"EB Garamond",Georgia,"Times New Roman",serif;
+  --sello:"Cinzel",Georgia,serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --papel:#13110d; --papel-2:#1b1813; --ficha:#1e1a14;
+  --tinta:#f4efe4; --tinta-7:#cdc2ae; --tinta-5:#9b9180;
+  --oro:#d9b45f; --oro-claro:#e8cf94; --rojo:#e8706a;
+  --linea:rgba(244,239,228,.16); --sombra:rgba(0,0,0,.45);
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --papel:#13110d; --papel-2:#1b1813; --ficha:#1e1a14;
+  --tinta:#f4efe4; --tinta-7:#cdc2ae; --tinta-5:#9b9180;
+  --oro:#d9b45f; --oro-claro:#e8cf94; --rojo:#e8706a;
+  --linea:rgba(244,239,228,.16); --sombra:rgba(0,0,0,.45);
+  color-scheme:dark;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--papel);color:var(--tinta);font-family:var(--texto);
+  font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.envoltura{max-width:720px;margin:0 auto;
+  padding-left:max(16px,env(safe-area-inset-left,0px));
+  padding-right:max(16px,env(safe-area-inset-right,0px));
+  padding-block:40px 64px}
+.marca{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.marca-palabra{font-family:var(--sello);font-size:30px;font-weight:700;letter-spacing:.02em;
+  line-height:1;color:var(--rojo)}
+.tm{font-size:.3em;vertical-align:.95em;letter-spacing:0;font-weight:600}
+.marca-que-es{font-family:var(--display);font-style:italic;font-size:19px;color:var(--tinta-7)}
+.filete{height:2px;margin:18px 0 0;
+  background:linear-gradient(90deg,var(--oro) 0%,var(--oro-claro) 45%,transparent 100%)}
+.ficha{margin-top:32px;background:var(--ficha);border:1px solid var(--linea);
+  border-top:3px solid var(--oro);box-shadow:0 10px 30px var(--sombra);padding:28px}
+@media (min-width:560px){.ficha{padding:34px 38px}}
+.estado{display:flex;align-items:center;gap:12px}
+.estado-sello{width:40px;height:40px;flex:none}
+.estado-texto{font-family:var(--sello);font-size:13px;font-weight:700;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--oro)}
+.codigo{margin-top:20px;font-family:var(--sello);font-size:clamp(17px,4.6vw,22px);font-weight:700;
+  letter-spacing:.09em;color:var(--tinta);font-variant-numeric:tabular-nums;word-break:break-word}
+.nombre{margin-top:14px;font-family:var(--display);font-size:clamp(30px,8vw,44px);font-weight:700;
+  line-height:1.05;letter-spacing:.01em;text-wrap:balance}
+.programa{margin-top:10px;font-family:var(--display);font-style:italic;
+  font-size:clamp(19px,4.6vw,23px);color:var(--tinta-7)}
+.datos{margin-top:26px;border-top:1px solid var(--linea);display:grid;gap:0}
+@media (min-width:560px){.datos{grid-template-columns:1fr 1fr}}
+.dato{padding:14px 0;border-bottom:1px solid var(--linea);min-width:0}
+@media (min-width:560px){
+  .dato{padding:14px 20px 14px 0}
+  .dato:nth-child(even){padding-right:0;padding-left:20px}
+}
+.dato dt{font-family:var(--sello);font-size:10.5px;font-weight:600;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--tinta-5)}
+.dato dd{margin-top:5px;font-size:17px;color:var(--tinta)}
+.pie-ficha{margin-top:22px;font-size:15.5px;color:var(--tinta-5)}
+.no-esta{border-top-color:var(--rojo)}
+.no-esta .estado-texto{color:var(--rojo)}
+.buscador{margin-top:40px}
+.buscador h2,.serie h2{font-family:var(--display);font-size:25px;font-weight:600;line-height:1.2}
+.buscador p{margin-top:8px;color:var(--tinta-7);max-width:58ch}
+.campo{margin-top:16px;display:flex;gap:10px;flex-wrap:wrap}
+.campo input{flex:1 1 240px;min-width:0;font-family:var(--sello);font-size:15px;letter-spacing:.06em;
+  padding:12px 14px;color:var(--tinta);background:var(--ficha);
+  border:1px solid var(--linea);border-radius:0}
+.campo input:focus-visible{outline:2px solid var(--oro);outline-offset:1px}
+.serie{margin-top:44px}
+.lista{margin-top:16px;border-top:1px solid var(--linea);list-style:none}
+.lista li{border-bottom:1px solid var(--linea)}
+.lista a{display:flex;gap:14px;align-items:baseline;flex-wrap:wrap;
+  padding:11px 2px;text-decoration:none;color:inherit}
+.lista a:hover,.lista a:focus-visible{background:var(--papel-2);outline:none}
+.lista a:focus-visible{box-shadow:inset 3px 0 0 var(--oro)}
+.lista .cod{font-family:var(--sello);font-size:12.5px;font-weight:600;letter-spacing:.07em;
+  color:var(--tinta-5);font-variant-numeric:tabular-nums;flex:none}
+.lista .per{font-size:17px}
+.lista .ar{font-size:14.5px;color:var(--tinta-5);margin-left:auto;text-align:right}
+.vacio{padding:14px 2px;color:var(--tinta-5)}
+.pie{margin-top:48px;padding-top:20px;border-top:1px solid var(--linea);
+  font-size:14.5px;color:var(--tinta-5)}
+.pie a{color:var(--oro);text-decoration:none;border-bottom:1px solid var(--linea)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="envoltura">
+  <header>
+    <div class="marca">
+      <span class="marca-palabra">IAM<span class="tm">™</span></span>
+      <span class="marca-que-es">Verificación de credenciales</span>
+    </div>
+    <div class="filete"></div>
+  </header>
+
+  <main id="salida" aria-live="polite"></main>
+
+  <section class="buscador">
+    <h2>Buscar una credencial</h2>
+    <p>Escribe el número que aparece en el diploma, debajo del código QR.
+      También puedes elegirlo del listado.</p>
+    <div class="campo">
+      <label for="q" hidden>Número de credencial</label>
+      <input id="q" type="search" inputmode="latin" autocomplete="off"
+             placeholder="IAM-INT-CFC-G1-001" aria-describedby="cuenta">
+    </div>
+  </section>
+
+  <section class="serie">
+    <h2 id="titulo-serie">Primera generación de IAM™ Intelligence en Comfacesar</h2>
+    <p id="cuenta" style="margin-top:8px;color:var(--tinta-7)"></p>
+    <ul class="lista" id="lista"></ul>
+  </section>
+
+  <footer class="pie">
+    Programa impartido por Sandra Curvelo, Fundadora y CSO de IAM™.
+    <a href="https://iamlatam.co">iamlatam.co</a>
+  </footer>
+</div>
+
+<script>
+const PROGRAMAS = {
+  INT: {
+    nombre: "IAM™ Intelligence",
+    descripcion: "Inteligencia artificial aplicada a la operación",
+    entidad: "Comfacesar",
+    cohorte: "Primera generación",
+    periodo: "11 de agosto al 9 de octubre de 2026",
+    expedicion: "9 de octubre de 2026",
+    lugar: "Valledupar, Colombia",
+    imparte: "Sandra Curvelo, Fundadora y CSO de IAM™"
+  }
+};
+
+const CREDENCIALES = [
+  ["IAM-INT-CFC-G1-001","Carlos Mario Gamarra","Jurídica","INT"],
+  ["IAM-INT-CFC-G1-002","Lilibeth Costa","Jurídica","INT"],
+  ["IAM-INT-CFC-G1-003","Renata Laino","Jurídica","INT"],
+  ["IAM-INT-CFC-G1-004","Cindy Marcela Silva Ibarra","Vivienda","INT"],
+  ["IAM-INT-CFC-G1-005","Rafael Solano","Subdirección Administrativa y Financiera","INT"],
+  ["IAM-INT-CFC-G1-006","María Elvira Marulanda","Comunicaciones","INT"],
+  ["IAM-INT-CFC-G1-007","César Reyes","Comunicaciones","INT"],
+  ["IAM-INT-CFC-G1-008","Vidiana Bendeck","Comunicaciones","INT"],
+  ["IAM-INT-CFC-G1-009","Sandra Machado","Comunicaciones","INT"],
+  ["IAM-INT-CFC-G1-010","Julio César Pérez Ramos","Comunicaciones","INT"],
+  ["IAM-INT-CFC-G1-011","Lina María Rincón","Agencia de Empleo","INT"],
+  ["IAM-INT-CFC-G1-012","Ana María Meza","Agencia de Empleo","INT"],
+  ["IAM-INT-CFC-G1-013","José Jaime Maya","Agencia de Empleo","INT"],
+  ["IAM-INT-CFC-G1-014","Cindy Rodríguez","Subsidio y Aportes","INT"],
+  ["IAM-INT-CFC-G1-015","José Luciano Contreras","Subsidio y Aportes","INT"],
+  ["IAM-INT-CFC-G1-016","Juan Pablo Curvelo","Servicios Sociales","INT"],
+  ["IAM-INT-CFC-G1-017","Lilian Paola Ramos","Servicios Sociales","INT"],
+  ["IAM-INT-CFC-G1-018","Carlos Lozano","Contabilidad","INT"],
+  ["IAM-INT-CFC-G1-019","Gennifer Mira","Subdirección Operativa","INT"],
+  ["IAM-INT-CFC-G1-020","Danilo Pozo","IPS","INT"],
+  ["IAM-INT-CFC-G1-021","Jurgen Saurith Araujo","IPS","INT"],
+  ["IAM-INT-CFC-G1-022","Óscar Cotes","Educación","INT"],
+  ["IAM-INT-CFC-G1-023","Julissa Pérez","Educación","INT"]
+].map(([codigo,persona,area,prog]) => ({codigo,persona,area,prog}));
+
+const SELLO = `<svg class="estado-sello" viewBox="0 0 48 48" role="img" aria-label="Sello de verificación IAM™">
+  <circle cx="24" cy="24" r="22" fill="none" stroke="var(--oro-claro)" stroke-width="1.2" opacity=".7"/>
+  <circle cx="24" cy="24" r="18" fill="none" stroke="var(--oro)" stroke-width="1.6"/>
+  <path d="M15.5 24.6l5.6 5.4L33 18.4" fill="none" stroke="var(--oro)" stroke-width="3"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>`;
+
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function ficha(c){
+  const p = PROGRAMAS[c.prog];
+  return `<article class="ficha">
+    <div class="estado">${SELLO}<span class="estado-texto">Credencial verificada</span></div>
+    <p class="codigo">${esc(c.codigo)}</p>
+    <h1 class="nombre">${esc(c.persona)}</h1>
+    <p class="programa">${esc(p.nombre)} &middot; ${esc(p.descripcion)}</p>
+    <dl class="datos">
+      <div class="dato"><dt>Entidad</dt><dd>${esc(p.entidad)}</dd></div>
+      <div class="dato"><dt>Área</dt><dd>${esc(c.area)}</dd></div>
+      <div class="dato"><dt>Cohorte</dt><dd>${esc(p.cohorte)}</dd></div>
+      <div class="dato"><dt>Periodo del programa</dt><dd>${esc(p.periodo)}</dd></div>
+      <div class="dato"><dt>Fecha de expedición</dt><dd>${esc(p.expedicion)}</dd></div>
+      <div class="dato"><dt>Lugar</dt><dd>${esc(p.lugar)}</dd></div>
+    </dl>
+    <p class="pie-ficha">Programa impartido por ${esc(p.imparte)}</p>
+  </article>`;
+}
+
+function noEsta(codigo){
+  return `<article class="ficha no-esta">
+    <div class="estado"><span class="estado-texto">Credencial no encontrada</span></div>
+    <p class="codigo">${esc(codigo)}</p>
+    <p class="pie-ficha" style="margin-top:14px">Este número no corresponde a ninguna credencial
+      emitida por IAM™. Revisa que esté completo, tal como aparece en el diploma, o búscalo
+      en el listado de abajo.</p>
+  </article>`;
+}
+
+function portada(){
+  return `<article class="ficha">
+    <div class="estado">${SELLO}<span class="estado-texto">Registro oficial IAM™</span></div>
+    <p class="programa" style="margin-top:18px">Aquí se comprueba que un diploma de IAM™ es auténtico.</p>
+    <p class="pie-ficha" style="margin-top:12px">Cada diploma lleva un número de credencial y su
+      código QR. Al leerlo se abre esta página con el nombre de la persona, el programa que cursó,
+      el área y las fechas.</p>
+  </article>`;
+}
+
+const salida = document.getElementById("salida");
+const lista = document.getElementById("lista");
+const cuenta = document.getElementById("cuenta");
+const q = document.getElementById("q");
+
+function pinta(){
+  const h = decodeURIComponent(location.hash.slice(1)).trim().toUpperCase();
+  if (!h) { salida.innerHTML = portada(); return; }
+  const c = CREDENCIALES.find(x => x.codigo === h);
+  salida.innerHTML = c ? ficha(c) : noEsta(h);
+}
+
+function pintaLista(filtro){
+  const f = (filtro || "").trim().toLowerCase();
+  const filas = CREDENCIALES.filter(c =>
+    !f || c.codigo.toLowerCase().includes(f) || c.persona.toLowerCase().includes(f)
+       || c.area.toLowerCase().includes(f));
+  lista.innerHTML = filas.length
+    ? filas.map(c => `<li><a href="#${c.codigo}"><span class="cod">${esc(c.codigo.slice(-3))}</span>
+        <span class="per">${esc(c.persona)}</span>
+        <span class="ar">${esc(c.area)}</span></a></li>`).join("")
+    : `<li class="vacio">Ningún nombre ni número coincide con lo que escribiste.</li>`;
+  cuenta.textContent = f
+    ? `${filas.length} de ${CREDENCIALES.length} credenciales coinciden.`
+    : `${CREDENCIALES.length} credenciales emitidas, una por persona certificada.`;
+}
+
+q.addEventListener("input", () => pintaLista(q.value));
+window.addEventListener("hashchange", () => { pinta(); window.scrollTo({top:0,behavior:"smooth"}); });
+pinta();
+pintaLista("");
+</script>
