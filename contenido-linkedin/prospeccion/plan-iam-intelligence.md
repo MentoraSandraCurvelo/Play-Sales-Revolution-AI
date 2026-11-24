@@ -86,3 +86,9 @@ Ricardo Targino (Cervecería Nacional), Felipe Mejía (Central Cervecera de Colo
 Fuera por regla de 2 por empresa o contacto previo: Postobón, Alpina, Café Quindío.
 - Resultado lote 2 (24 nov, 8:39 a 8:50 a. m.): 7/15 enviados (Mario Chaves, Luisa Vanegas, Mauricio Pimienta, Esteban Rey, Pablo Julio Molina, Alejandro Humbser, Jorge Luis Sánchez). Conversación previa de Sandra: Ricardo Targino, Felipe Mejía, Sebastián Mejía, Laura Murcia, Katherine Cobo, Jorge Hernández, Eric Vivoni (candidatos a reconexión). Danilo Pineda ya no está en CERCAFE (fuera). Bruno envió 3 "gracias por aceptar" a las 7:24 a. m.
 - Aprendizaje: en directivos de alto nivel, cerca de la mitad ya tuvo conversación con Sandra. Son contactos tibios: reconexión personalizada en vez de mensaje 1.
+
+## Mensaje historia, APROBADO por Sandra (24 nov 2026)
+"[Nombre], en las empresas donde he trabajado veo lo mismo: cada persona usa la IA por su cuenta y nadie sabe cuánto tiempo se ahorra. Cuando implementamos una metodología de trabajo con IA, todo cambia: medimos la línea base y el antes y el después, definimos qué herramientas usa cada proceso y dónde revisa la persona, y lo gobernamos de la mano del área de cumplimiento. Hasta los mismos usuarios terminan creando apps para sus propios procesos. ¿En [empresa] ya lo están haciendo así? Si no, me encantaría mostrarte en 20 minutos, a ti o a alguien de tu equipo, lo que ya hemos hecho en grandes organizaciones."
+Uso (recomendación de Demetri, Sandra puede cambiarla):
+1. Mensaje 2 del lun 30 nov para quienes recibieron el mensaje 1 y no respondieron (lotes 1 y 2), en lugar del mensaje de la guía.
+2. Prueba A/B desde el lote 3 (mié 25 nov): mitad con el mensaje 1 actual, mitad con este mensaje historia. Se compara el lun 30 nov.
