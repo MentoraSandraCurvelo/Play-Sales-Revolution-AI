@@ -315,3 +315,4 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Página del Ministerio de Tecnologías de la Información y las Comunicaciones (MinTIC) y su ministro(a): comentar sus publicaciones sobre IA, transformación digital, gobierno digital, conectividad y talento digital. Cuenta dentro de las "cuentas fijas" de la regla 50.
 - Ángulo: IA en el sector público con método (medir antes de automatizar, la persona revisa y firma, horas devueltas al ciudadano, gobernanza y datos). Nunca elogio vacío ni venta.
 - Si el post es del Presidente o tiene tono político o de campaña, o menciona la Milagro Week: no comentar en automático; mostrarle el texto a Sandra y esperar su sí (o no comentar si es partidista).
+- (24 nov) Precisión regla 52: la regla de la Milagro Week (17 y 18 nov) manda sobre la 52. Post de MinTIC que mencione la Milagro Week: no se comenta ni se reacciona.
