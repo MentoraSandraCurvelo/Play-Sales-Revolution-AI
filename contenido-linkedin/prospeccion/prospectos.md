@@ -49,3 +49,8 @@ Fuente de verdad: esta tabla y la sección "Lista de prospectos" de la página C
 - Alberto Vives (ANDI Atlántico-Magdalena): NO se envió la invitación porque LinkedIn ya no deja notas gratis este mes. Propuesta: invitar sin nota y, si acepta, enviar la nota aprobada como primer mensaje.
 - 13 invitaciones del vie 20 y sáb 21 durante la pausa: probablemente de Bruno.
 - Retiro >30 días: solo Alex Solé (Link360) aparece "hace 1 mes"; no se retiró (no se sabe si pasa de 30 días ni si es de Bruno).
+
+## 24 nov 2026: oportunidades en bandejas de páginas
+- Banco Mundo Mujer: Sandra Milena Garzón Méndez (Procurement) escribió a la página IAM™ el 19 ene (año probable 2026) con una invitación a licitar; la página respondió el 22 ene con el número de Sandra; no hubo más mensajes. Pendiente: Sandra confirma si avanzó; si no, seguimiento (borrador del 24 nov).
+- Bandejas sin leer: Klaren's 14, Escandón Abogados 1 (no abiertas). Pendiente: Sandra dice si las administra como servicio.
+- Respuestas a los 33 mensajes del 23 y 24 nov: 0 a las 9:50 a. m. del 24 nov.
