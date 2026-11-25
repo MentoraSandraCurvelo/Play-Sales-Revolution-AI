@@ -132,3 +132,12 @@ Observación: los 4 abren con "en las empresas/equipos que acompaño". Variar de
 6. Liliana Tibaquirá, transmisión del foro, 8:27 a. m. (aprobado por Sandra)
 Nota: 2 de 4 automáticos cierran con "¿Qué indicador usa…?"; variar el cierre (regla 46).
 - 23 nov, 5:49 y 5:52 p. m.: respuestas aprobadas a Tiago Díaz en los posts del sáb 21 y dom 22 (texto exacto). Invitación a Alberto Vives sin nota, 4:44 p. m., Pending. 44 invitaciones en los últimos 7 días: no enviar más invitaciones hasta el jue 26 nov.
+
+## Mié 25 nov 2026, corrida 7:35 a. m. (revisados por Claude: todos OK)
+- 7:42 Vicepresidente José Manuel Restrepo, interconexión Colombia y Panamá (sin Milagro Week). OK.
+- 7:43 ProBarranquilla, panel Caribe Imparable. OK.
+- 7:45 Cámara de Comercio de Bogotá, clúster de seguridad alimentaria (cifra 4.385 empresas tomada del post). OK.
+- 7:50 Cámara Colombiana de Comercio Electrónico, informe 2026-III. OK.
+- Respuestas: 7:38 Domingos Esteves (FWD Advisors), 7:39 Diego Freire S. OK.
+- Comfandi 7:47: solo reacción "Interesante", sin comentario visible.
+- Faltó: 1 comentario (4/5) y la cámara binacional de la regla 50; se compensa en la corrida de las 3:05 p. m.
