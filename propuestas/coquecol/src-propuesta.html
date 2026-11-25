@@ -233,6 +233,12 @@ table{border-collapse:collapse;width:100%}
 .applink:hover{background:#4F8A50}
 .appwrap iframe{display:block;width:100%;height:600px;border:0}
 @media (max-width:600px){.appwrap iframe{height:640px}}
+.stack{display:flex;height:56px;border:1px solid var(--line);overflow:hidden}
+.stack div{width:var(--w);display:flex;align-items:center;padding:0 14px;color:#fff;font-weight:700;font-size:16px;white-space:nowrap;overflow:hidden;transition:width 1.2s cubic-bezier(.2,.7,.2,1)}
+.sfix{background:var(--ink)}.svar{background:var(--red)}
+.anim .stack div{width:0}.anim.on .stack div{width:var(--w)}
+@media (prefers-reduced-motion:reduce){.anim .stack div{width:var(--w)}}
+@media (max-width:600px){.stack{flex-direction:column;height:auto}.stack div{width:100%!important;padding:10px 14px;white-space:normal}}
 .progress{position:fixed;top:0;left:0;right:0;height:5px;background:rgba(10,10,10,.08);z-index:50}
 .progress i{display:block;height:100%;width:0;background:var(--red)}
 .nav{position:fixed;right:max(14px,env(safe-area-inset-right,0px));bottom:16px;z-index:50;display:flex;gap:8px;align-items:center;background:var(--ink);color:#fff;border-radius:999px;padding:6px 8px 6px 16px;box-shadow:0 8px 24px rgba(0,0,0,.25);font-size:15px}
@@ -277,7 +283,7 @@ table{border-collapse:collapse;width:100%}
 <div class="progress" aria-hidden="true"><i id="prog"></i></div>
 <nav class="nav" aria-label="Navegación de la presentación">
   <button type="button" id="prev" aria-label="Diapositiva anterior">‹</button>
-  <b id="count">1 / 18</b>
+  <b id="count">1 / 19</b>
   <button type="button" id="next" aria-label="Diapositiva siguiente">›</button>
 </nav>
 
@@ -573,7 +579,7 @@ table{border-collapse:collapse;width:100%}
     <div class="pbox">
       <span class="lab">PROGRAMA IAM INTELLIGENCE™</span>
       <span class="v">$72.600.000</span>
-      <p>COP más IVA (19%: $13.794.000) · Total <b style="color:#fff">$86.394.000</b></p>
+      <p>COP + IVA</p>
       <p>Incluye: 48 sesiones individuales de diagnóstico · 96 sesiones individuales de mentoría · 11 sesiones grupales por frente · 4 sesiones directivas y de comité · plan de gobernanza · 7 pruebas de concepto agénticas · 11 tableros · 2 aplicaciones prototipo · tablero IAE™ en vivo · informe final.</p>
       <p>Estabilización del 15 de febrero al 12 de marzo sin costo, si se requiere.</p>
     </div>
@@ -590,7 +596,46 @@ table{border-collapse:collapse;width:100%}
     </div>
   </div>
   <p class="roi"><b>Retorno estimado:</b> 48 líderes × 2,5 h recuperadas por semana (la mitad de las ≈5 h por persona medidas en Comfacesar) × 44 semanas = <b>5.280 horas al año</b>. Con un costo hora de $60.000 son <b>$316.800.000</b> de capacidad liberada; la inversión se recupera en cerca de 10 semanas. <span style="opacity:.9">Supuesto de IAM™; el costo hora real lo certifica Gestión Humana.</span></p>
-  <p class="src" style="padding:12px 28px 20px">Valores antes de IVA salvo donde se indica. <b style="color:#fff">Vigencia de la propuesta: hasta el 31 de diciembre de 2026.</b></p>
+  <p class="src" style="padding:12px 28px 20px">Todos los valores + IVA. <b style="color:#fff">Vigencia de la propuesta: hasta el 31 de diciembre de 2026.</b></p>
+  <span class="pageno"></span>
+</section>
+
+<section class="slide reveal anim">
+  <div class="bar"><h2>De dónde sale el valor: componente fijo IAM™ + componente variable por líder</h2><span class="tag"><img src="{{GLOBITO}}" alt="">IAM Intelligence™ · Coquecol 2026</span></div>
+  <div class="body">
+    <p class="callout">El valor no es proporcional al número de personas. Tiene un <b>componente fijo</b>, que IAM™ instala sin importar cuántos líderes participen, y un <b>componente variable</b> por cada líder.</p>
+    <div class="stack" role="img" aria-label="Componente fijo 24,6 millones, 34%; componente variable 48 millones, 66%">
+      <div class="sfix" style="--w:33.9%"><span>Fijo · $24.600.000</span></div>
+      <div class="svar" style="--w:66.1%"><span>Variable · 48 × $1.000.000 = $48.000.000</span></div>
+    </div>
+    <div class="cards c2">
+      <div class="card"><h3>Componente fijo IAM™ · $24.600.000</h3>
+        <p>• Dirección del programa y mentoría de Sandra Curvelo</p>
+        <p>• Plan de gobernanza: comité de IA, política de uso, registro de agentes y niveles de autonomía</p>
+        <p>• Metodología DIAL-3R™ y sistema de medición con tablero IAE™ en vivo y semaforización por macroprocesos</p>
+        <p>• Prototipos de aplicación, tableros por frente y biblioteca de instrucciones</p>
+        <p>• Gerencia del proyecto, canal del programa e informe final al comité directivo</p>
+      </div>
+      <div class="card"><h3>Componente variable · $1.000.000 por líder</h3>
+        <p>• 1 sesión individual de diagnóstico y línea base</p>
+        <p>• 2 sesiones individuales de mentoría para construir su agente o tablero</p>
+        <p>• Participación en la sesión grupal de su frente</p>
+        <p>• Seguimiento de su adopción y horas recuperadas en el IAE™</p>
+        <p style="margin-top:6px"><b>48 líderes × $1.000.000 = $48.000.000</b></p>
+      </div>
+    </div>
+    <div class="scroll"><table class="tbl" style="min-width:700px">
+      <thead><tr><th>Concepto</th><th>Valor + IVA</th><th>Cálculo</th></tr></thead>
+      <tbody>
+        <tr><td>Componente fijo IAM™</td><td><b>$24.600.000</b></td><td>Independiente del número de líderes</td></tr>
+        <tr><td>Componente variable</td><td><b>$48.000.000</b></td><td>48 líderes × $1.000.000</td></tr>
+        <tr><td><b>Total del programa</b></td><td><b style="color:var(--red)">$72.600.000</b></td><td>$24.600.000 + $48.000.000</td></tr>
+        <tr><td>Equivalente por sesión</td><td>$456.604</td><td>$72.600.000 ÷ 159 sesiones</td></tr>
+        <tr><td>Equivalente por frente</td><td>$6.600.000</td><td>$72.600.000 ÷ 11 frentes</td></tr>
+      </tbody>
+    </table></div>
+    <p class="alert">⭕ Si Grupo Coquecol suma o retira líderes, solo cambia el componente variable ($1.000.000 por líder). El componente fijo se mantiene.</p>
+  </div>
   <span class="pageno"></span>
 </section>
 
@@ -604,8 +649,8 @@ table{border-collapse:collapse;width:100%}
       <p>El Acta de Avance deberá ser suscrita dentro de los cinco (5) días hábiles anteriores al vencimiento del plazo. Vencido dicho plazo sin observaciones escritas, el pago se entenderá exigible en los términos acordados. Esta forma de pago se ajusta a las políticas de Grupo Coquecol.</p>
     </div>
     <div class="paygrid">
-      <div class="card k"><span class="big" style="font-size:44px">50%</span><p>Anticipo, firma del contrato y acta de inicio (14 de diciembre): $36.300.000 + IVA = <b>$43.197.000</b></p></div>
-      <div class="card k"><span class="big" style="font-size:44px">50%</span><p>A los 45 días de iniciado (28 de enero de 2027), con Acta de Avance firmada por el sponsor: $36.300.000 + IVA = <b>$43.197.000</b></p></div>
+      <div class="card k"><span class="big" style="font-size:44px">50%</span><p>Anticipo, firma del contrato y acta de inicio (14 de diciembre): <b>$36.300.000 + IVA</b></p></div>
+      <div class="card k"><span class="big" style="font-size:44px">50%</span><p>A los 45 días de iniciado (28 de enero de 2027), con Acta de Avance firmada por el sponsor: <b>$36.300.000 + IVA</b></p></div>
     </div>
   </div>
   <span class="pageno"></span>
