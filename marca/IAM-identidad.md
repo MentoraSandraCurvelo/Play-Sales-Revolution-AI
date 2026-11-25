@@ -37,10 +37,11 @@
 - **Texto:** Outfit 300/400/500/600. Respaldo: Arial / Helvetica, sans-serif.
 - Google Fonts: `https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Outfit:wght@300;400;500;600&display=swap`
 
-## Logo
+## Logo (OBLIGATORIO en toda pieza)
 
+- Isotipo: globo de diálogo rojo con comillas blancas. Versión lista para usar, recortada y con fondo transparente: `marca/iam-globito.png`. Logo completo: `logo.png` en la raíz.
 - Wordmark: **IAM** en Playfair Display 900 + ™ en superíndice. Sobre negro en blanco; sobre blanco en negro.
-- Isotipo: globo de diálogo rojo con comillas blancas (`logo.png` en la raíz del repo).
+- Regla: todo reporte, tablero, propuesta o documento lleva al menos el globito en el encabezado y en el pie, y la tipografía de la marca (Playfair Display + Outfit).
 
 ## Las 5 líneas IAM™ (según iamlatam.co)
 
