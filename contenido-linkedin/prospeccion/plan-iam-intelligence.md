@@ -110,3 +110,4 @@ A, mensaje cámaras: Jorge Iván Ramírez Cadavid (CC Pereira), María del Mar P
 B, mensaje historia: Victor Castro (ANDI, Cámara de Proveedores), Javier Diaz Molina (Analdex), Paola Andrea Muñoz Jurado (asociación de grasas y aceites), Paula Ocampo Seferian (Acoplásticos), Isis Duran (Invest in Bogotá), Andres Tellez Luque (CC Bogotá, mercadeo), Jorge Ortiz (CCCE).
 Fuera: Carlos Eduardo Hurtado y Vicky Osorio (ya contactados el 10 nov), Camilo Montes (lote 1), Raúl Zuleta (gestión humana), perfiles que no son cámara ni gremio.
 Formato 3 párrafos. Comparación A vs B el lun 30 nov.
+- (25 nov 2026, Sandra: "sí") Quienes del lote 3 salgan como "reconexión" reciben un mensaje personalizado que Claude redacta según la conversación previa; Sandra lo aprueba antes de enviar.
