@@ -1,683 +1,578 @@
 <title>Coquecol × IAM™ Intelligence</title>
-<meta name="description" content="Propuesta IAM™ Intelligence para Grupo Coquecol: IA agéntica con gobierno en 11 frentes, del 14 de diciembre de 2026 al 12 de febrero de 2027.">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Outfit:wght@300;400;500;600&display=swap">
+<meta name="description" content="Programa IAM™ Intelligence para Grupo Coquecol: 48 líderes, 11 frentes, 159 sesiones, del 14 de diciembre de 2026 al 12 de febrero de 2027.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Outfit:wght@300;400;500;600;700&display=swap">
 <style>
-/* Propuesta tipo presentación: cada sección es una diapositiva numerada (barra de progreso + flechas del teclado).
-   Tema claro para lectura de directivos, portada y cifras en bandas negras cortas. Identidad IAM™: rojo #C00000, negro, Playfair + Outfit. */
+/* Formato de diapositivas 16:9 igual a la propuesta IAM™ Intelligence Comfacesar Fase 1:
+   barra negra de título con rótulo a la derecha, filete rojo a la izquierda, tarjetas blancas con borde superior rojo,
+   cifras grandes en rojo, portada, inversión y cierre en negro. Identidad IAM™ (CLAUDE.md): globito, Playfair + Outfit, sin beige. */
 :root{
-  --bg:#FFFFFF; --panel:#FFFFFF; --panel-2:#F7F7F8; --line:#E4E4E7;
-  --fg:#111111; --fg2:#2A2A2A; --muted:#444444; --dim:#5A5A5A;
-  --red:#C00000; --red-deep:#8B0000; --red-soft:#FFF5F5;
-  --shadow:0 1px 2px rgba(10,10,10,.05),0 10px 30px rgba(10,10,10,.07);
-  --display:'Playfair Display',Georgia,serif;
-  --body:'Outfit',Arial,Helvetica,sans-serif;
+  --red:#C00000; --red-deep:#8B0000; --red-soft:#FDE8E8; --red-tint:#FFF5F5;
+  --ink:#0A0A0A; --coal:#161616; --coal2:#1F1F1F; --paper:#FFFFFF; --panel:#F7F7F8; --line:#E4E4E7;
+  --fg:#111111; --fg2:#2A2A2A; --muted:#4A4A4A; --dim:#5A5A5A;
+  --display:'Playfair Display',Georgia,serif; --body:'Outfit',Arial,Helvetica,sans-serif;
   color-scheme:light;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:18px;line-height:1.6;margin:0;
-  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:14px 48px}
-.wrap{max-width:1120px;margin:0 auto;display:grid;gap:40px;grid-template-columns:minmax(0,1fr)}
-.wrap>*{min-width:0}
-:focus-visible{outline:2px solid var(--red);outline-offset:2px}
-h1,h2,h3{font-family:var(--display);font-weight:900;margin:0;text-wrap:balance}
-h2{font-size:clamp(28px,3.6vw,42px);line-height:1.1}
-h2 span,h1 span{color:var(--red)}
-h3{font-size:22px;line-height:1.2}
+body{margin:0;background:#E9E9EC;color:var(--fg);font-family:var(--body);font-size:18px;line-height:1.5;
+  padding:14px max(16px,env(safe-area-inset-right,0px)) 60px max(16px,env(safe-area-inset-left,0px))}
+.deck{max-width:1180px;margin:0 auto;display:grid;gap:28px;grid-template-columns:minmax(0,1fr)}
+.deck>*{min-width:0}
 p{margin:0}
-.eyebrow{font-size:14px;font-weight:600;letter-spacing:2.4px;text-transform:uppercase;color:var(--red);margin:0 0 10px}
-.lead{color:var(--fg2);font-size:20px;max-width:70ch;margin-top:14px}
+h1,h2,h3{margin:0;text-wrap:balance}
+:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+
+.slide{position:relative;background:var(--paper);min-height:min(664px,calc((100vw - 32px)*9/16));box-shadow:0 2px 6px rgba(0,0,0,.08),0 18px 40px rgba(0,0,0,.10);
+  display:flex;flex-direction:column;overflow:hidden;scroll-margin-top:16px;border-left:8px solid var(--red)}
+.slide.dark{background:var(--ink);color:#fff}
+.bar{background:var(--ink);color:#fff;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;padding:16px 28px}
+.bar h2{font-family:var(--display);font-weight:700;font-size:clamp(22px,2.3vw,28px);line-height:1.2}
+.bar .tag{font-size:14px;letter-spacing:.6px;color:#CFCFCF;display:flex;align-items:center;gap:10px;white-space:nowrap}
+.bar .tag img{width:22px;height:auto}
+.body{padding:22px 28px 30px;display:flex;flex-direction:column;gap:18px;flex:1}
 .src{font-size:14px;color:var(--dim)}
-.wm{font-family:var(--display);font-weight:900;font-size:30px;letter-spacing:-1px;line-height:1}
-.wm sup{font-size:12px;vertical-align:top;position:relative;top:2px}
+.dark .src{color:#BDBDBD}
+.callout{background:var(--ink);color:#fff;padding:16px 20px;font-size:20px;border-left:6px solid var(--red)}
+.callout b{color:#FF5A5A;font-weight:600}
+.alert{background:var(--red-soft);border:1px solid #F3B4B4;padding:12px 18px;font-weight:600;color:var(--red-deep);font-size:18px}
+.pageno{position:absolute;right:14px;bottom:8px;font-size:13px;color:var(--dim)}
+.dark .pageno{color:#9A9A9A}
 
-/* Barra de progreso de la presentación */
-.progress{position:fixed;top:0;left:0;right:0;height:5px;background:rgba(10,10,10,.06);z-index:50}
-.progress i{display:block;height:100%;width:0;background:var(--red);transition:width .2s linear}
-.nav{position:fixed;right:max(14px,env(safe-area-inset-right,0px));bottom:16px;z-index:50;display:flex;gap:8px;align-items:center;
-  background:#0A0A0A;color:#fff;border-radius:999px;padding:6px 8px 6px 16px;box-shadow:0 8px 24px rgba(0,0,0,.25);font-size:15px}
-.nav button{width:38px;height:38px;border-radius:50%;border:0;background:#262626;color:#fff;font-size:18px;cursor:pointer}
-.nav button:hover{background:var(--red)}
-.nav b{font-weight:600;min-width:62px;text-align:center}
+.cards{display:grid;gap:14px}
+.c2{grid-template-columns:repeat(2,minmax(0,1fr))}.c3{grid-template-columns:repeat(3,minmax(0,1fr))}.c4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.card{background:#fff;border:1px solid var(--line);border-top:6px solid var(--red);padding:16px 18px;display:grid;gap:8px;align-content:start}
+.card h3{font-family:var(--display);font-weight:700;font-size:21px;line-height:1.2}
+.card p{font-size:17px;color:var(--fg2)}
+.card.k{border-top:1px solid var(--line);border-left:6px solid var(--red)}
+.big{font-family:var(--display);font-weight:900;color:var(--red);font-size:clamp(44px,5.4vw,68px);line-height:1}
+.card .s{font-size:14px;color:var(--dim);font-style:italic}
 
-/* Diapositiva */
-.slide{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);
-  padding:clamp(24px,4vw,52px);scroll-margin-top:18px}
-.slide .num{position:absolute;top:18px;right:22px;font-size:14px;font-weight:600;color:var(--dim);letter-spacing:1px}
-.slide .num b{color:var(--red)}
+.strip{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));border:1px solid var(--line);background:#fff}
+.strip div{padding:14px 8px;text-align:center;border-right:1px solid var(--line)}
+.strip div:last-child{border-right:0}
+.strip b{display:block;font-family:var(--display);font-weight:900;color:var(--red);font-size:clamp(30px,3.6vw,44px);line-height:1}
+.strip span{font-size:15px;color:var(--muted)}
 
-/* Portada */
-.hero{background:#0A0A0A;color:#fff;border:0;overflow:hidden;isolation:isolate;display:grid;gap:26px;min-height:min(86vh,760px);align-content:space-between}
-.hero::before{content:"";position:absolute;inset:-40%;z-index:-1;background:radial-gradient(40% 40% at 25% 30%,rgba(192,0,0,.55),transparent 70%),radial-gradient(35% 35% at 80% 75%,rgba(192,0,0,.32),transparent 70%);animation:glow 14s ease-in-out infinite alternate}
-@keyframes glow{from{transform:translate(-4%,-3%) rotate(0deg)}to{transform:translate(4%,3%) rotate(8deg)}}
-.hero .num{color:#BDBDBD}
-.logos{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
-.brand{display:flex;align-items:center;gap:12px}
-.brand img{width:56px;height:auto;filter:drop-shadow(0 6px 14px rgba(0,0,0,.45));animation:bob 5s ease-in-out infinite}
+.cover{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:28px;padding:34px 34px 26px;flex:1;position:relative;isolation:isolate}
+.cover::before{content:"IAM";position:absolute;left:16%;top:16%;font:900 clamp(160px,26vw,330px)/1 var(--body);color:rgba(255,255,255,.035);z-index:-1;letter-spacing:-6px}
+.logo-row{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.logo-row .glob{width:64px;animation:bob 5s ease-in-out infinite;filter:drop-shadow(0 6px 14px rgba(0,0,0,.5))}
 @keyframes bob{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-6px) rotate(2deg)}}
-.hero .wm{color:#fff}
-.times{font-family:var(--display);font-size:30px;color:#8A8A8A}
-.clientchip{background:#fff;border-radius:12px;padding:10px 16px;display:flex;align-items:center}
-.clientchip img{height:44px;width:auto;display:block}
-.hero h1{font-size:clamp(40px,6.6vw,78px);line-height:1;letter-spacing:-1px;color:#fff;max-width:15ch}
-.hero h1 span{color:#FF4545}
-.hero .thesis{font-size:clamp(20px,2.3vw,24px);color:#EDEDED;max-width:60ch}
-.meta{display:flex;flex-wrap:wrap;gap:10px 30px;font-size:17px;color:#D4D4D4;border-top:1px solid rgba(255,255,255,.2);padding-top:18px}
-.meta b{color:#fff;font-weight:600}
+.wm{font-family:var(--display);font-weight:900;color:var(--red);font-size:clamp(64px,9vw,110px);line-height:.9;letter-spacing:-2px}
+.wm sup{font-size:.38em;vertical-align:top;position:relative;top:.12em}
+.coqchip{background:#fff;padding:8px 14px;display:flex;align-items:center}
+.coqchip img{height:42px;width:auto;display:block}
+.spaced{letter-spacing:6px;font-size:14px;color:#D9D9D9;text-transform:uppercase;margin-top:14px}
+.redline{width:160px;height:5px;background:var(--red);margin:14px 0 22px}
+.cover h1{font-family:var(--display);font-weight:900;font-size:clamp(34px,4.4vw,54px);line-height:1.08;color:#fff}
+.cover .meta{color:#E2E2E2;font-size:18px;margin-top:16px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.chips span{background:rgba(192,0,0,.28);border:1px solid var(--red);color:#fff;font-size:15px;font-weight:600;padding:6px 12px}
+.lines{display:grid;gap:10px;align-content:center;border-left:1px solid #333;padding-left:24px}
+.lines div{background:var(--coal2);padding:12px 16px}
+.lines b{display:block;font-size:17px}
+.lines span{font-size:14px;color:#BDBDBD}
+.lines .on{background:var(--red)}
+.lines .on span{color:#fff}
+.sign{font-size:14px;color:#9A9A9A;padding:0 34px 18px}
 
-/* Tarjetas */
-.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:26px}
-.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:26px}
-.card{background:var(--panel-2);border:1px solid var(--line);border-radius:14px;padding:22px;display:grid;gap:10px;align-content:start}
-.card p{font-size:18px;color:var(--fg2)}
-.tag{display:inline-block;font-size:14px;font-weight:600;padding:3px 10px;border-radius:999px;background:var(--red-soft);color:var(--red-deep);justify-self:start}
-.tag.ok{background:#EAF6EF;color:#17603C}
-.tag.gray{background:#EDEDEF;color:#333}
+.dial{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.dial .L{width:64px;height:64px;background:var(--red);display:grid;place-items:center;font:900 38px var(--display);color:#fff}
+.dial .col{display:grid;gap:10px;align-content:start}
+.dial .box{background:var(--coal2);border-top:4px solid var(--red);padding:14px 16px;display:grid;gap:8px}
+.dial .box b{color:#FF5A5A;letter-spacing:3px;font-size:14px}
+.dial .box p{font-size:17px;color:#E6E6E6}
+.cycle{display:grid;grid-template-columns:auto repeat(3,minmax(0,1fr));gap:14px;align-items:center;background:#1A0000;border:1px solid var(--red-deep);padding:14px 18px;font-size:16px;color:#E6E6E6}
+.cycle b{color:#fff}
+.cycle .t{color:#FF5A5A;font-weight:700;letter-spacing:1px}
 
-/* Barras de madurez */
-.mat{display:grid;gap:16px;margin-top:28px}
-.mrow{display:grid;grid-template-columns:200px minmax(0,1fr) 150px;gap:14px;align-items:center}
-.mrow .lbl{font-weight:600}
-.mrow .val{font-size:16px;color:var(--muted)}
-.track{height:22px;background:var(--panel-2);border:1px solid var(--line);border-radius:999px;overflow:hidden}
-.track i{display:block;height:100%;width:var(--w);background:linear-gradient(90deg,var(--red-deep),var(--red));border-radius:999px;transition:width 1.4s cubic-bezier(.2,.7,.2,1)}
-.anim .track i{width:0}
-.anim.on .track i{width:var(--w)}
-.analogy{margin-top:26px;border-left:4px solid var(--red);background:var(--red-soft);padding:18px 22px;border-radius:0 12px 12px 0;font-size:19px}
+table{border-collapse:collapse;width:100%}
+.tbl th{background:var(--ink);color:#fff;font-size:15px;font-weight:600;text-align:left;padding:10px 12px}
+.tbl td{border-bottom:1px solid var(--line);padding:9px 12px;font-size:16px;vertical-align:top}
+.tbl td.n{font-family:var(--display);font-weight:900;color:var(--red);font-size:22px;text-align:center}
+.tbl tr:nth-child(even) td{background:#FAFAFB}
+.scroll{overflow-x:auto}
 
-/* Banda de cifras */
-.band{background:#0A0A0A;color:#fff;border-radius:16px;padding:28px clamp(20px,3vw,36px);display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;margin-top:26px}
-.band .n{font-family:var(--display);font-weight:900;font-size:clamp(34px,4.4vw,52px);line-height:1;color:#fff}
-.band .n em{font-style:normal;color:#FF4545}
-.band .l{font-size:17px;color:#E0E0E0;margin-top:8px}
-.band .s{font-size:14px;color:#BDBDBD;margin-top:6px}
+.tracks{display:grid;gap:10px}
+.track{display:grid;grid-template-columns:56px 42px minmax(0,300px) minmax(0,1fr);gap:14px;align-items:center;background:#fff;border:1px solid var(--line);border-left:6px solid var(--red);padding:10px 14px}
+.track .no{width:46px;height:46px;background:var(--red);color:#fff;display:grid;place-items:center;font:900 24px var(--display)}
+.track img{width:38px}
+.track h3{font-family:var(--body);font-weight:600;font-size:19px}
+.track .pills{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.pill{font-size:13px;font-weight:600;padding:3px 10px;background:var(--red-soft);border:1px solid #F0B0B0;color:var(--red-deep)}
+.pill.d{background:var(--ink);border-color:var(--ink);color:#fff}
+.track p{font-size:17px;color:var(--fg2)}
+.track p::before{content:"→ ";color:var(--red)}
 
-/* Participantes */
-.frentes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:26px}
-.fr{border:1px solid var(--line);border-radius:14px;padding:18px;background:#fff;display:grid;gap:10px;align-content:start;border-top:4px solid var(--red)}
-.fr .hd{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
-.fr h3{font-size:20px}
-.fr .c{font-family:var(--display);font-weight:900;font-size:30px;color:var(--red);line-height:1}
-.fr ul{margin:0;padding:0;list-style:none;display:grid;gap:4px}
-.fr li{font-size:15px;color:var(--fg2);padding-left:14px;position:relative;line-height:1.4}
-.fr li::before{content:"";position:absolute;left:0;top:.55em;width:6px;height:6px;border-radius:50%;background:var(--red)}
+.heat{border-collapse:separate;border-spacing:4px;min-width:820px}
+.heat th{font-size:14px;font-weight:600;color:#fff;background:var(--ink);padding:10px 6px;text-align:center}
+.heat th small{display:block;font-weight:400;color:#BDBDBD;font-size:12px}
+.heat th.c{background:var(--red-deep)}
+.heat td{height:50px;text-align:center;font-size:14px;font-weight:600;transition:opacity .5s ease}
+.heat td.rl{background:#fff;border-left:5px solid var(--red);text-align:left;padding:6px 10px;font-size:15px;color:var(--fg);font-weight:600;width:210px}
+.heat td.rl small{display:block;font-weight:400;color:var(--dim);font-size:13px}
+.v0{background:#EEEEF0;color:#888}.v1{background:#FBD3D3;color:#7A0000}.v2{background:#F28B8B;color:#4A0000}.v3{background:#D10000;color:#fff}.v4{background:#7A0000;color:#fff}
+.vg{background:repeating-linear-gradient(135deg,#FFF5F5 0 8px,#FBD3D3 8px 16px);color:var(--red-deep);outline:2px dashed var(--red);outline-offset:-2px}
+.anim td.cl{opacity:0}.anim.on td.cl{opacity:1}
+.legend{display:flex;gap:16px;flex-wrap:wrap;justify-content:flex-end;font-size:14px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:6px}.legend i{width:22px;height:14px;display:inline-block}
+.phases{display:grid;grid-template-columns:214px minmax(0,3fr) minmax(0,6fr) minmax(0,1fr);gap:4px;min-width:820px}
+.phases div{padding:9px;font-size:13px;font-weight:700;text-align:center;color:#fff}
+.heat tfoot td{height:auto;padding:9px 6px;font-size:13px;font-weight:700}.ph1{background:#F28B8B;color:#4A0000}.ph2{background:var(--red);color:#fff}.ph3{background:#fff;color:var(--red-deep);outline:2px dashed var(--red);outline-offset:-2px}
+.phases .p1{background:#F28B8B;color:#4A0000}.phases .p2{background:var(--red)}.phases .p3{border:2px dashed var(--red);color:var(--red-deep);background:#fff}
 
-/* Mapa de calor */
-.heatwrap{margin-top:24px;overflow-x:auto;border:1px solid var(--line);border-radius:14px}
-table.heat{border-collapse:separate;border-spacing:4px;width:100%;min-width:760px;font-size:16px}
-.heat th{font-weight:600;text-align:left;padding:10px;font-size:15px;color:var(--muted);vertical-align:bottom}
-.heat td{padding:0;text-align:center}
-.heat td.name{text-align:left;font-weight:600;padding:10px;font-size:17px;white-space:nowrap}
-.cell{width:100%;min-height:48px;border:0;border-radius:8px;font:600 18px var(--body);cursor:pointer;color:#fff;transition:transform .2s,opacity .6s,filter .2s}
-.cell:hover{transform:scale(1.05);filter:brightness(1.05)}
-.cell[aria-pressed="true"]{outline:3px solid #0A0A0A;outline-offset:1px}
-.h1c{background:#F2F2F3;color:#333}.h2c{background:#F6C7C7;color:#5A0000}.h3c{background:#E57373;color:#fff}.h4c{background:#C62828;color:#fff}.h5c{background:#7A0000;color:#fff}
-.anim .cell{opacity:0}
-.anim.on .cell{opacity:1}
-.ola{display:inline-block;font-size:14px;font-weight:600;padding:5px 10px;border-radius:999px;white-space:nowrap}
-.ola.o1{background:#0A0A0A;color:#fff}.ola.o2{background:#EDEDEF;color:#111}.ola.ot{background:var(--red-soft);color:var(--red-deep)}
-.legend{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-top:14px;font-size:15px;color:var(--muted)}
-.legend span{display:inline-flex;align-items:center;gap:6px}
-.legend i{width:18px;height:18px;border-radius:4px;display:inline-block}
-.heatnote{margin-top:16px;background:var(--panel-2);border:1px solid var(--line);border-radius:12px;padding:16px 18px;font-size:18px;min-height:64px}
-.heatnote b{color:var(--red)}
+.hb{display:grid;grid-template-columns:200px minmax(0,1fr) 60px;gap:12px;align-items:center;font-size:17px}
+.hb .t{height:22px;background:var(--panel);border:1px solid var(--line)}
+.hb .t i{display:block;height:100%;width:var(--w);background:var(--red);transition:width 1.3s cubic-bezier(.2,.7,.2,1)}
+.anim .hb .t i{width:0}.anim.on .hb .t i{width:var(--w)}
+.hb b{font-family:var(--display);font-weight:900;color:var(--red);font-size:22px;text-align:right}
 
-/* PoCs */
-.pocs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:26px}
-.poc{border:1px solid var(--line);border-radius:14px;padding:20px;display:grid;gap:8px;align-content:start;background:#fff;box-shadow:var(--shadow)}
-.poc .top{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}
-.poc .area{font-size:14px;font-weight:600;letter-spacing:1.6px;text-transform:uppercase;color:var(--red)}
-.poc h3{font-size:21px}
-.poc p{font-size:18px;color:var(--fg2)}
-.poc .kpi{font-size:16px;color:var(--muted);border-top:1px dashed var(--line);padding-top:8px}
-.poc .kpi b{color:var(--fg)}
+.levels{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+.levels div{padding:16px 18px;display:grid;gap:6px}
+.levels .l1{background:var(--red-tint);border:1px solid #F3C4C4}.levels .l2{background:#F9CFCF}.levels .l3{background:var(--ink);color:#fff}
+.levels b{font:900 30px var(--display);color:var(--red)}
+.levels .l3 b{color:#FF5A5A}
+.levels h3{font-size:19px;font-family:var(--body);font-weight:600}
+.levels p{font-size:16px}
+.levels .l3 p{color:#E6E6E6}
 
-/* Gobernanza */
-.ladder{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin-top:26px;border-radius:14px;overflow:hidden;border:1px solid var(--line)}
-.step{padding:22px;display:grid;gap:8px;align-content:start}
-.step:nth-child(1){background:#FFF5F5}.step:nth-child(2){background:#F9D5D5}.step:nth-child(3){background:#0A0A0A;color:#fff}
-.step:nth-child(3) p{color:#E6E6E6}
-.step .lv{font-family:var(--display);font-weight:900;font-size:34px;line-height:1;color:var(--red)}
-.step:nth-child(3) .lv{color:#FF4545}
-.step p{font-size:18px}
-.gov{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:22px}
-.gov .card h3{font-size:20px}
-.gov .card .i{font-family:var(--display);font-weight:900;color:var(--red);font-size:26px;line-height:1}
+.inv{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:20px;padding:6px 28px 0}
+.pbox{border:1px solid var(--red-deep);border-top:6px solid var(--red);background:var(--coal);padding:20px 22px;display:grid;gap:10px;align-content:start}
+.lab{color:#FF5A5A;letter-spacing:3px;font-size:14px;font-weight:700}
+.pbox .v{font-family:var(--display);font-weight:900;font-size:clamp(40px,5vw,62px);line-height:1;color:#fff}
+.pbox p{color:#E0E0E0;font-size:17px}
+.why{background:var(--coal);border:1px solid #2E2E2E;padding:20px 22px;display:grid;gap:12px;align-content:start}
+.why ul{margin:0;padding:0;display:grid;gap:10px}
+.why li{list-style:none;display:grid;grid-template-columns:24px minmax(0,1fr);gap:10px;font-size:17px;color:#EDEDED}
+.why li::before{content:"";width:16px;height:16px;border:3px solid var(--red);border-radius:50%;margin-top:4px}
+.roi{margin:18px 28px 0;background:var(--red);color:#fff;padding:16px 20px;font-size:19px}
 
-/* Método */
-.dial{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:26px}
-.dial .card .l{font-family:var(--display);font-weight:900;font-size:44px;color:var(--red);line-height:1}
-.iae{display:grid;gap:12px;margin-top:22px}
+.pago{max-width:900px;margin:0 auto;background:#fff;border:1px solid var(--line);border-left:10px solid #6B6B6B;border-right:10px solid var(--red);padding:24px 30px;display:grid;gap:14px}
+.pago h3{color:var(--red);font-family:var(--display);font-size:28px}
+.pago p{font-size:19px;color:var(--fg2);line-height:1.6}
+.paygrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;max-width:900px;margin:0 auto;width:100%}
 
-/* Gantt */
-.gantt{margin-top:24px;overflow-x:auto;border:1px solid var(--line);border-radius:14px;padding:16px}
-.g{display:grid;grid-template-columns:250px repeat(13,minmax(46px,1fr));gap:6px 4px;min-width:920px;align-items:center}
-.bar.pause{background:#EDEDEF;color:#444}
-.g .wk{font-size:14px;font-weight:600;color:var(--muted);text-align:center;padding-bottom:4px}
-.g .wk.c{color:var(--red)}
-.g .ph{font-size:17px;font-weight:600;line-height:1.3;padding-right:8px}
-.g .ph small{display:block;font-weight:400;font-size:14px;color:var(--dim)}
-.bar{height:34px;border-radius:8px;background:linear-gradient(90deg,var(--red-deep),var(--red));transform-origin:left center;transition:transform 1s cubic-bezier(.2,.7,.2,1);display:flex;align-items:center;padding:0 10px;color:#fff;font-size:14px;font-weight:600;white-space:nowrap;overflow:hidden}
-.bar.blk{background:#0A0A0A}
-.bar.gift{background:repeating-linear-gradient(135deg,#FFF5F5 0 10px,#F6C7C7 10px 20px);color:var(--red-deep);border:2px dashed var(--red)}
-.anim .bar{transform:scaleX(0)}
-.anim.on .bar{transform:scaleX(1)}
-.gsep{grid-column:1/-1;height:1px;background:var(--line)}
+.close{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;padding:30px 34px;flex:1}
+.auth{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:18px}
+.auth div{background:var(--coal2);padding:14px;text-align:center}
+.auth b{display:block;font:900 clamp(30px,3.6vw,44px)/1 var(--display);color:var(--red)}
+.auth span{font-size:14px;color:#CFCFCF}
+.progs{margin-top:20px;display:grid;gap:8px;font-size:17px;color:#E0E0E0}
+.steps{border-left:1px solid #333;padding-left:26px;display:grid;gap:18px;align-content:start}
+.steps h2{font-family:var(--display);font-weight:900;color:#FF3A3A;font-size:clamp(30px,3.4vw,42px)}
+.step{display:grid;grid-template-columns:56px minmax(0,1fr);gap:14px}
+.step .n{width:52px;height:52px;background:var(--red);display:grid;place-items:center;font:900 22px var(--display)}
+.step b{font-size:19px}
+.step p{font-size:16px;color:#D6D6D6}
+.foot{background:var(--red);color:#fff;text-align:center;font-size:15px;padding:12px;display:flex;justify-content:center;align-items:center;gap:10px;flex-wrap:wrap}
+.foot img{width:26px}
 
-/* Caso */
-.case{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:24px;margin-top:24px;align-items:center}
-.bignum{font-family:var(--display);font-weight:900;font-size:clamp(64px,9vw,108px);line-height:.9;color:var(--red)}
-.cmp{display:grid;gap:14px}
-.cmp .row{display:grid;grid-template-columns:130px minmax(0,1fr);gap:12px;align-items:center;font-size:17px}
-.cmp .t{height:40px;border-radius:8px;background:var(--panel-2);border:1px solid var(--line);overflow:hidden}
-.cmp .t i{display:flex;align-items:center;justify-content:flex-end;height:100%;width:var(--w);padding-right:10px;color:#fff;font-weight:600;font-size:16px;background:#0A0A0A;transition:width 1.4s cubic-bezier(.2,.7,.2,1);white-space:nowrap}
-.cmp .t i.r{background:var(--red);min-width:72px}
-.anim .cmp .t i{width:0}
-.anim.on .cmp .t i{width:var(--w)}
-.agents{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
-.agents span{font-size:16px;font-weight:600;border:1px solid var(--line);background:var(--panel-2);border-radius:999px;padding:5px 12px}
+.progress{position:fixed;top:0;left:0;right:0;height:5px;background:rgba(10,10,10,.08);z-index:50}
+.progress i{display:block;height:100%;width:0;background:var(--red)}
+.nav{position:fixed;right:max(14px,env(safe-area-inset-right,0px));bottom:16px;z-index:50;display:flex;gap:8px;align-items:center;background:var(--ink);color:#fff;border-radius:999px;padding:6px 8px 6px 16px;box-shadow:0 8px 24px rgba(0,0,0,.25);font-size:15px}
+.nav button{width:38px;height:38px;border-radius:50%;border:0;background:#2A2A2A;color:#fff;font-size:18px;cursor:pointer}
+.nav button:hover{background:var(--red)}
+.nav b{min-width:62px;text-align:center;font-weight:600}
 
-/* Entregables */
-.deliv{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:24px}
-.deliv div{display:grid;grid-template-columns:40px minmax(0,1fr);gap:12px;align-items:start;padding:14px 0;border-bottom:1px solid var(--line)}
-.deliv .ck{width:32px;height:32px;border-radius:50%;background:var(--red);color:#fff;display:grid;place-items:center;font-weight:600}
-.deliv b{display:block;font-size:19px}
-.deliv span{font-size:17px;color:var(--muted)}
-.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:22px}
-.kpis .card{background:#fff;border-top:4px solid var(--red)}
-.kpis .card .v{font-family:var(--display);font-weight:900;font-size:30px;line-height:1}
-
-/* Inversión */
-.invest{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;margin-top:24px}
-.price{background:#0A0A0A;color:#fff;border-radius:16px;padding:28px;display:grid;gap:12px;align-content:start}
-.price .v{font-family:var(--display);font-weight:900;font-size:clamp(30px,4vw,44px);line-height:1.05;color:#fff}
-.price p{color:#E0E0E0}
-.pay{display:grid;gap:12px}
-.pay .p{display:grid;grid-template-columns:92px minmax(0,1fr);gap:14px;align-items:center;background:var(--panel-2);border:1px solid var(--line);border-radius:12px;padding:16px}
-.pay .p b{font-family:var(--display);font-weight:900;font-size:36px;color:var(--red);line-height:1}
-.next{margin-top:24px;border:2px solid var(--red);border-radius:16px;padding:24px;display:grid;gap:10px}
-.next ol{margin:0;padding-left:22px;display:grid;gap:6px;font-size:19px}
-
-
-/* Desglose de sesiones y calculadora */
-.sess{display:grid;gap:12px;align-content:start;background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:22px}
-.srow{display:grid;grid-template-columns:190px minmax(0,1fr) 48px;gap:12px;align-items:center;font-size:17px}
-.srow b{font-family:var(--display);font-weight:900;font-size:26px;color:var(--red);text-align:right}
-.srow.tot{border-top:1px solid var(--line);padding-top:10px}
-.srow.tot b{color:var(--fg);font-size:32px}
-.srow.tot span:empty{display:none}
-.unit{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:22px}
-.unit div{border-top:4px solid var(--red);background:#fff;border-radius:0 0 12px 12px;box-shadow:var(--shadow);padding:16px;display:grid;gap:4px}
-.unit .v{font-family:var(--display);font-weight:900;font-size:clamp(24px,2.6vw,32px);line-height:1.05}
-.unit .l{font-size:17px;color:var(--fg2)}
-.unit .f{font-size:14px;color:var(--dim)}
-.calc{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px;margin-top:24px}
-.ctrl{display:grid;gap:10px;align-content:start;background:var(--panel-2);border:1px solid var(--line);border-radius:16px;padding:22px}
-.ctrl label{font-size:18px;font-weight:500}
-.ctrl label b{color:var(--red)}
-.ctrl input[type=range]{width:100%;accent-color:var(--red);height:28px;margin-bottom:8px}
-.out{background:#0A0A0A;color:#fff;border-radius:16px;padding:22px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;align-content:start}
-.out .v{display:block;font-family:var(--display);font-weight:900;font-size:clamp(26px,2.8vw,36px);white-space:nowrap;line-height:1;color:#fff}
-.out div:nth-child(2) .v{color:#FF4545}
-.out .l{display:block;font-size:16px;color:#E0E0E0;margin-top:6px}
-.out .src{grid-column:1/-1;color:#C9C9C9}
-@media (max-width:900px){.unit{grid-template-columns:repeat(2,minmax(0,1fr))}.calc{grid-template-columns:minmax(0,1fr)}}
-@media (max-width:640px){.srow{grid-template-columns:minmax(0,1fr) 48px}.srow .track{grid-column:1/-1;grid-row:2}.out{grid-template-columns:minmax(0,1fr)}.unit{grid-template-columns:minmax(0,1fr)}}
-
-footer{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:22px;font-size:15px;color:var(--muted)}
-footer .brand img{width:40px;animation:none;filter:none}
-footer .wm{font-size:24px;color:#0A0A0A}
-
-.reveal{opacity:0;transform:translateY(18px);transition:opacity .8s ease,transform .8s ease}
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .7s ease,transform .7s ease}
 .reveal.on{opacity:1;transform:none}
 
 @media (max-width:900px){
-  .grid3,.frentes,.gov{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .band,.kpis,.dial{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .case,.invest{grid-template-columns:minmax(0,1fr)}
+  .cover,.close,.inv{grid-template-columns:minmax(0,1fr)}
+  .lines,.steps{border-left:0;padding-left:0}
+  .c3,.c4,.dial{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .strip{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .strip div:nth-child(3){border-right:0}
+  .track{grid-template-columns:48px minmax(0,1fr)}
+  .track img{display:none}
+  .track p{grid-column:1/-1}
+  .levels,.cycle{grid-template-columns:minmax(0,1fr)}
+  .slide{min-height:auto}
 }
-@media (max-width:640px){
-  .grid3,.grid2,.frentes,.gov,.pocs,.deliv,.ladder{grid-template-columns:minmax(0,1fr)}
-  .mrow{grid-template-columns:minmax(0,1fr)}
-  .mrow .val{margin-top:-8px}
-  .hero{min-height:auto}
-  .nav b{min-width:52px}
-  .slide .num{position:static;margin-bottom:8px}
+@media (max-width:600px){
+  .c2,.c3,.c4,.dial,.paygrid{grid-template-columns:minmax(0,1fr)}
+  .strip{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .strip div{border-right:0!important;border-bottom:1px solid var(--line)}
+  .auth{grid-template-columns:minmax(0,1fr)}
+  .bar,.body{padding-left:18px;padding-right:18px}
+  .inv{padding:6px 18px 0}.roi{margin:16px 18px 0}
+  .cover,.close{padding:24px 18px}
+  .hb{grid-template-columns:minmax(0,1fr) 54px}.hb .t{grid-column:1/-1;grid-row:2}
+  .pago{padding:20px}
 }
 @media (prefers-reduced-motion:reduce){
   *,*::before{animation:none!important;transition:none!important;scroll-behavior:auto!important}
   .reveal{opacity:1;transform:none}
-  .anim .track i,.anim .cmp .t i{width:var(--w)}
-  .anim .bar{transform:none}
-  .anim .cell{opacity:1}
+  .anim td.cl{opacity:1}.anim .hb .t i{width:var(--w)}
 }
-@media print{
-  .progress,.nav{display:none}
-  .slide{break-inside:avoid;box-shadow:none}
-  .reveal{opacity:1;transform:none}
-  .anim .track i,.anim .cmp .t i{width:var(--w)}.anim .bar{transform:none}.anim .cell{opacity:1}
-}
+@media print{.progress,.nav{display:none}.slide{break-after:page;box-shadow:none}.reveal{opacity:1;transform:none}.anim td.cl{opacity:1}.anim .hb .t i{width:var(--w)}}
 </style>
 
 <div class="progress" aria-hidden="true"><i id="prog"></i></div>
 <nav class="nav" aria-label="Navegación de la presentación">
   <button type="button" id="prev" aria-label="Diapositiva anterior">‹</button>
-  <b id="count">1 / 13</b>
+  <b id="count">1 / 15</b>
   <button type="button" id="next" aria-label="Diapositiva siguiente">›</button>
 </nav>
 
-<main class="wrap">
+<main class="deck">
 
-<!-- 01 PORTADA -->
-<section class="slide hero" id="s1" aria-label="Portada">
-  <div class="num">01 / 13</div>
-  <div class="logos">
-    <div class="brand"><img src="{{GLOBITO}}" alt="Globito IAM™"><span class="wm">IAM<sup>™</sup></span></div>
-    <span class="times" aria-hidden="true">×</span>
-    <div class="clientchip"><img src="{{COQ}}" alt="Grupo Coquecol"></div>
-  </div>
-  <div style="display:grid;gap:18px">
-    <p class="eyebrow" style="color:#FF7A7A">Propuesta IAM™ Intelligence · Inteligencia artificial empresarial</p>
-    <h1>De la IA que escribe a la IA que <span>trabaja</span>, con gobierno.</h1>
-    <p class="thesis">Grupo Coquecol ya domina la IA generativa. El siguiente salto es poner agentes a ejecutar procesos completos en cada área, con reglas claras de quién decide, qué datos usan y cómo se mide el resultado.</p>
-  </div>
-  <div class="meta">
-    <span>Para <b>Ángela Garcés</b> y el comité directivo</span>
-    <span><b>48</b> líderes · <b>11</b> frentes</span>
-    <span>Arranque <b>14 de diciembre de 2026</b></span>
-    <span>Cierre <b>12 de febrero de 2027</b></span>
-    <span>Propuesta de noviembre 2026</span>
-  </div>
-</section>
-
-<!-- 02 LO QUE ESCUCHAMOS -->
-<section class="slide reveal anim" id="s2" aria-labelledby="t2">
-  <div class="num"><b>02</b> / 13</div>
-  <p class="eyebrow">Lo que escuchamos en la reunión</p>
-  <h2 id="t2">Tienen el motor encendido. Falta la <span>caja de cambios y los frenos</span>.</h2>
-  <div class="mat" role="img" aria-label="Lectura cualitativa: IA generativa alta, IA agéntica baja, gobernanza prioritaria por construir">
-    <div class="mrow"><span class="lbl">IA generativa</span><div class="track"><i style="--w:85%"></i></div><span class="val">Muy desarrollada</span></div>
-    <div class="mrow"><span class="lbl">IA agéntica</span><div class="track"><i style="--w:22%"></i></div><span class="val">Por desarrollar</span></div>
-    <div class="mrow"><span class="lbl">Gobernanza de IA</span><div class="track"><i style="--w:35%"></i></div><span class="val">Prioridad #1</span></div>
-  </div>
-  <p class="src" style="margin-top:10px">Lectura cualitativa de IAM™ a partir de la conversación con Coquecol, no es una medición. La línea base real sale de las sesiones de diagnóstico de diciembre.</p>
-  <div class="grid3">
-    <div class="card"><span class="tag ok">Fortaleza</span><h3>Generativa madura</h3><p>Los equipos ya redactan, resumen y analizan con IA. No arrancamos de cero: arrancamos desde la segunda marcha.</p></div>
-    <div class="card"><span class="tag">Brecha</span><h3>Agéntica incipiente</h3><p>La IA todavía responde preguntas, pero no ejecuta flujos: conciliar, consolidar, comparar cotizaciones, preparar reportes de embarque.</p></div>
-    <div class="card"><span class="tag gray">Condición</span><h3>Gobernanza primero</h3><p>Un agente sin reglas es un empleado sin manual de funciones. El plan de gobierno se instala en la semana 1, no al final.</p></div>
-  </div>
-</section>
-
-<!-- 03 POR QUÉ AHORA -->
-<section class="slide reveal" id="s3" aria-labelledby="t3">
-  <div class="num"><b>03</b> / 13</div>
-  <p class="eyebrow">Por qué ahora y por qué con gobierno</p>
-  <h2 id="t3">La escala de Coquecol multiplica <span>cada hora ganada</span> y también cada error sin control.</h2>
-  <div class="band">
-    <div><div class="n" data-count="965">965</div><div class="l">colaboradores en el grupo</div><div class="s">Informe Anual 2023 Coquecol</div></div>
-    <div><div class="n" data-count="694635" data-fmt="miles">694.635</div><div class="l">toneladas exportadas</div><div class="s">Informe Anual 2023 Coquecol</div></div>
-    <div><div class="n"><span data-count="14">14</span><em>%</em></div><div class="l">participación de mercado</div><div class="s">Informe Anual 2023 Coquecol</div></div>
-    <div><div class="n"><em>+</em><span data-count="40">40</span><em>%</em></div><div class="l">de proyectos de IA agéntica serán cancelados a 2027</div><div class="s">Predicción de Gartner, junio 2025: por costos, valor poco claro o controles de riesgo insuficientes</div></div>
-  </div>
-  <p class="lead">La diferencia entre el proyecto que escala y el que se cancela no es la herramienta: es el sistema. Por eso IAM™ Intelligence no entrega capacitaciones sueltas, instala un sistema de trabajo con IA, con dueños, reglas y medición semanal.</p>
-</section>
-
-<!-- 04 PARTICIPANTES -->
-<section class="slide reveal" id="s4" aria-labelledby="t4">
-  <div class="num"><b>04</b> / 13</div>
-  <p class="eyebrow">Quiénes participan</p>
-  <h2 id="t4"><span data-count="48">48</span> líderes de <span data-count="25">25</span> áreas, organizados en <span>11 frentes de trabajo</span>.</h2>
-  <p class="lead">Ordenamos el listado que compartió Ángela por afinidad de procesos. Cada frente trabaja sus propias tareas y construye sus agentes con IAM™.</p>
-  <div class="frentes">
-    <div class="fr"><div class="hd"><h3>Finanzas, contabilidad e impuestos</h3><span class="c">7</span></div><ul><li>Gerente Financiero</li><li>Jefe de Contabilidad y Costos</li><li>Jefe de Tesorería</li><li>Analista Sr. de Contabilidad</li><li>Analista Sr. de Costos</li><li>2 Analistas Sr. de Impuestos</li></ul></div>
-    <div class="fr"><div class="hd"><h3>Logística, puertos y Multinexa</h3><span class="c">8</span></div><ul><li>Gerente de Operaciones Multinexa</li><li>Coord. Operaciones Portuarias</li><li>Coord. Administrativo</li><li>Coord. de Gestión y Sostenibilidad</li><li>Oficial de Cumplimiento</li><li>Analista de Logística</li><li>2 Analistas Administrativos</li></ul></div>
-    <div class="fr"><div class="hd"><h3>Compras, materias primas y abastecimiento</h3><span class="c">7</span></div><ul><li>Gerente de Materias Primas</li><li>Jefe de Abastecimiento</li><li>Coord. e Ing. de Desarrollo Técnico</li><li>Analista de Materias Primas</li><li>Analista Sr. de Compras</li><li>Analista Sr. de Contratación</li></ul></div>
-    <div class="fr"><div class="hd"><h3>Operación industrial, calidad y mantenimiento</h3><span class="c">6</span></div><ul><li>Gerente Industrial y de Logística</li><li>Gerente de Calidad</li><li>Coord. de Laboratorio</li><li>Supervisor Sr. de Laboratorio</li><li>Coord. de Planta (patios)</li><li>Coord. Mantenimiento Electromecánico</li></ul></div>
-    <div class="fr"><div class="hd"><h3>Comercial e inteligencia de mercados</h3><span class="c">4</span></div><ul><li>Gerente Comercial</li><li>Jefe Comercial</li><li>Analista Sr. Inteligencia de Mercados</li><li>Analista Comercial</li></ul></div>
-    <div class="fr"><div class="hd"><h3>Gente, SST y administración</h3><span class="c">4</span></div><ul><li>Jefe de Compensación y Beneficios</li><li>Coord. de Relaciones Laborales</li><li>Jefe SST</li><li>Jefe Administrativa</li></ul></div>
-    <div class="fr"><div class="hd"><h3>Tecnología, SAP y procesos</h3><span class="c">4</span></div><ul><li>Coordinador SAP</li><li>Analista Sr. de Soporte</li><li>Analista de Procesos</li><li>Coordinador de Procesos</li></ul></div>
-    <div class="fr"><div class="hd"><h3>S&amp;OP</h3><span class="c">3</span></div><ul><li>Jefe de S&amp;OP</li><li>Analista Sr. de S&amp;OP</li><li>Analista de S&amp;OP</li></ul></div>
-    <div class="fr"><div class="hd"><h3>Jurídico</h3><span class="c">2</span></div><ul><li>Gerente Jurídico</li><li>Abogado</li></ul></div>
-    <div class="fr"><div class="hd"><h3>Ambiental y minería</h3><span class="c">2</span></div><ul><li>Jefe Ambiental</li><li>Interventor de Minería</li></ul></div>
-    <div class="fr"><div class="hd"><h3>Dirección general</h3><span class="c">1</span></div><ul><li>Gerente General, patrocinador del programa</li></ul></div>
-  </div>
-  <p class="src" style="margin-top:14px">Fuente: formato de participantes diligenciado por Coquecol (25 de noviembre de 2026), 48 registros con área y cargo. Los nombres se completan en el arranque.</p>
-</section>
-
-<!-- 05 MAPA DE CALOR -->
-<section class="slide reveal anim" id="s5" aria-labelledby="t5">
-  <div class="num"><b>05</b> / 13</div>
-  <p class="eyebrow">Mapa de calor · cómo lo vamos a hacer</p>
-  <h2 id="t5">Dónde la IA agéntica <span>rinde primero</span> y dónde pide más control.</h2>
-  <p class="lead">Toca cualquier celda para ver el porqué. A mayor intensidad del rojo, mayor el valor (o el riesgo) de ese frente.</p>
-  <div class="heatwrap">
-    <table class="heat" id="heat">
-      <thead><tr><th>Frente</th><th>Tareas repetitivas</th><th>Potencial agéntico</th><th>Datos listos</th><th>Riesgo a gobernar</th><th>Ola</th></tr></thead>
-      <tbody></tbody>
-    </table>
-  </div>
-  <div class="legend"><span><i class="h1c"></i>1 bajo</span><span><i class="h2c"></i>2</span><span><i class="h3c"></i>3</span><span><i class="h4c"></i>4</span><span><i class="h5c"></i>5 alto</span><span><span class="ola o1">Ola 1</span> 4 al 22 de enero</span><span><span class="ola o2">Ola 2</span> 18 de enero al 5 de febrero</span></div>
-  <div class="heatnote" id="heatnote" aria-live="polite">Toca una celda del mapa para ver la lectura de IAM™.</div>
-  <p class="src" style="margin-top:10px">Hipótesis de IAM™ construida con los cargos del formato y el Informe Anual 2023. Se valida y recalifica con cada líder en las 48 sesiones individuales de diagnóstico (14 al 24 de diciembre), igual que en Comfacesar.</p>
-</section>
-
-<!-- 06 POCs -->
-<section class="slide reveal" id="s6" aria-labelledby="t6">
-  <div class="num"><b>06</b> / 13</div>
-  <p class="eyebrow">Pruebas de concepto agénticas</p>
-  <h2 id="t6">Un agente por frente, construido <span>con el equipo que lo va a usar</span>.</h2>
-  <p class="lead">Propuestas iniciales para validar en el diagnóstico. Cada prueba tiene dueño, nivel de autonomía y un indicador de antes y después.</p>
-  <div class="pocs">
-    <div class="poc"><div class="top"><span class="area">Finanzas</span><span class="ola o1">Ola 1 · N2</span></div><h3>Agente de cierre y conciliación</h3><p>Cruza extractos, auxiliares y cartera, señala diferencias y deja el borrador del cierre para revisión del analista.</p><div class="kpi"><b>Indicador:</b> horas de cierre mensual y partidas sin conciliar.</div></div>
-    <div class="poc"><div class="top"><span class="area">Impuestos</span><span class="ola o1">Ola 1 · N1</span></div><h3>Agente de calendario y soporte tributario</h3><p>Arma el calendario de obligaciones, prepara las listas de soportes y alerta vencimientos con anticipación.</p><div class="kpi"><b>Indicador:</b> vencimientos cubiertos a tiempo y horas de preparación.</div></div>
-    <div class="poc"><div class="top"><span class="area">Compras</span><span class="ola o1">Ola 1 · N2</span></div><h3>Agente comparador de cotizaciones</h3><p>Lee cotizaciones en PDF, arma el cuadro comparativo con las condiciones y sugiere la mejor opción con su justificación.</p><div class="kpi"><b>Indicador:</b> tiempo por proceso de compra.</div></div>
-    <div class="poc"><div class="top"><span class="area">S&amp;OP</span><span class="ola o1">Ola 1 · N2</span></div><h3>Agente de consolidación S&amp;OP</h3><p>Reúne demanda, inventario y producción en el informe semanal y redacta los puntos de decisión para el comité.</p><div class="kpi"><b>Indicador:</b> horas para preparar el comité semanal.</div></div>
-    <div class="poc"><div class="top"><span class="area">Logística y puertos</span><span class="ola o1">Ola 1 · N2</span></div><h3>Agente de seguimiento de embarques</h3><p>Verifica la documentación de exportación contra una lista de chequeo y prepara el reporte diario de estado de embarques.</p><div class="kpi"><b>Indicador:</b> errores documentales y tiempo de reporte.</div></div>
-    <div class="poc"><div class="top"><span class="area">Comercial</span><span class="ola o1">Ola 1 · N1</span></div><h3>Agente de inteligencia de mercados</h3><p>Resume cada semana noticias y reportes del mercado del carbón y el coque en un boletín para la gerencia comercial.</p><div class="kpi"><b>Indicador:</b> horas de investigación y uso del boletín.</div></div>
-    <div class="poc"><div class="top"><span class="area">Calidad y laboratorio</span><span class="ola o2">Ola 2 · N1</span></div><h3>Agente de informes de laboratorio</h3><p>Convierte resultados de análisis en informes y certificados en formato estándar, listos para firma del responsable.</p><div class="kpi"><b>Indicador:</b> tiempo por certificado emitido.</div></div>
-    <div class="poc"><div class="top"><span class="area">Jurídico</span><span class="ola o2">Ola 2 · N1</span></div><h3>Agente de revisión contractual</h3><p>Revisa contratos contra la lista de cláusulas de la casa y marca riesgos y faltantes. El abogado siempre decide.</p><div class="kpi"><b>Indicador:</b> tiempo de primera revisión.</div></div>
-    <div class="poc"><div class="top"><span class="area">Gente y SST</span><span class="ola o2">Ola 2 · N1</span></div><h3>Agente de indicadores SST y beneficios</h3><p>Consolida indicadores de SST y responde preguntas frecuentes de compensación con base en las políticas internas aprobadas.</p><div class="kpi"><b>Indicador:</b> horas de reporte y consultas resueltas.</div></div>
-    <div class="poc"><div class="top"><span class="area">Ambiental y minería</span><span class="ola o2">Ola 2 · N1</span></div><h3>Agente de obligaciones e interventoría</h3><p>Ordena compromisos ambientales y hallazgos de interventoría en una matriz con responsables y fechas.</p><div class="kpi"><b>Indicador:</b> obligaciones con seguimiento al día.</div></div>
-    <div class="poc"><div class="top"><span class="area">Tecnología y SAP</span><span class="ola ot">Transversal · N1</span></div><h3>Agente de mesa de ayuda SAP y procesos</h3><p>Responde dudas de uso de SAP con los manuales internos y documenta procesos a partir de una grabación o descripción.</p><div class="kpi"><b>Indicador:</b> tickets repetitivos evitados.</div></div>
-    <div class="poc"><div class="top"><span class="area">Dirección general</span><span class="ola ot">Transversal</span></div><h3>Tablero IAE™ para la Gerencia</h3><p>Una sola vista semanal: adopción por frente, horas recuperadas, agentes activos y calidad. La Gerencia gobierna con datos.</p><div class="kpi"><b>Indicador:</b> IAE™ del grupo, semana a semana.</div></div>
-  </div>
-  <p class="src" style="margin-top:12px">N1, N2 y N3 son los niveles de autonomía del plan de gobernanza (diapositiva 07). En la fase piloto ningún agente opera en N3.</p>
-</section>
-
-<!-- 07 GOBERNANZA -->
-<section class="slide reveal" id="s7" aria-labelledby="t7">
-  <div class="num"><b>07</b> / 13</div>
-  <p class="eyebrow">Plan de gobernanza de IA</p>
-  <h2 id="t7">Cada agente con <span>dueño, reglas y freno de mano</span>.</h2>
-  <p class="lead">Un agente sin gobierno es como un tractomula sin conductor asignado: puede mover mucha carga, pero nadie responde por la ruta. Por eso definimos cuánto puede hacer solo cada agente.</p>
-  <div class="ladder">
-    <div class="step"><span class="lv">N1</span><h3>Asiste</h3><p>Prepara borradores, resúmenes y análisis. La persona revisa todo antes de usarlo.</p></div>
-    <div class="step"><span class="lv">N2</span><h3>Propone</h3><p>Ejecuta el flujo completo y deja la propuesta lista. Una persona aprueba antes de que salga.</p></div>
-    <div class="step"><span class="lv">N3</span><h3>Ejecuta</h3><p>Actúa solo en tareas de bajo riesgo, con revisión por muestreo. Solo después del piloto y con aval del comité.</p></div>
-  </div>
-  <div class="gov">
-    <div class="card"><span class="i">1</span><h3>Comité de IA</h3><p>Gerencia, Tecnología y SAP, Jurídico, Cumplimiento y Procesos. Aprueba agentes y niveles de autonomía.</p></div>
-    <div class="card"><span class="i">2</span><h3>Política de uso</h3><p>Qué herramientas están aprobadas, qué datos sí y qué datos no se pueden usar, y cómo se cita la IA en los entregables.</p></div>
-    <div class="card"><span class="i">3</span><h3>Registro de agentes</h3><p>Ficha por agente: dueño, propósito, datos que usa, nivel de autonomía, indicador y fecha de revisión.</p></div>
-    <div class="card"><span class="i">4</span><h3>Datos y seguridad</h3><p>Clasificación de la información, cuentas empresariales y protección de datos personales según la Ley 1581 de 2012.</p></div>
-    <div class="card"><span class="i">5</span><h3>Humano en el ciclo</h3><p>Toda decisión con impacto financiero, legal o en personas la firma una persona. El agente prepara, la persona decide.</p></div>
-    <div class="card"><span class="i">6</span><h3>Medición y auditoría</h3><p>Tablero IAE™ semanal, revisión mensual del comité y bitácora de incidentes y ajustes.</p></div>
-  </div>
-  <p class="src" style="margin-top:14px">Marcos de referencia: ISO/IEC 42001:2023 (sistema de gestión de IA), NIST AI RMF 1.0 (2023) y la política nacional de IA de Colombia, CONPES 4144 de 2025. IAM™ adapta su lógica a la realidad de Coquecol; no es una certificación.</p>
-</section>
-
-<!-- 08 MÉTODO -->
-<section class="slide reveal anim" id="s8" aria-labelledby="t8">
-  <div class="num"><b>08</b> / 13</div>
-  <p class="eyebrow">Método DIAL-3R™ e índice IAE™</p>
-  <h2 id="t8">No enseñamos herramientas: <span>instalamos un sistema</span> y lo medimos.</h2>
-  <div class="dial">
-    <div class="card"><span class="l">D</span><h3>Diagnosticar</h3><p>Assessment por frente: tareas, frecuencia y minutos actuales. Mapa de calor validado.</p></div>
-    <div class="card"><span class="l">I</span><h3>Instruir</h3><p>De la generativa a la agéntica: método CREA, diseño de agentes y política de uso.</p></div>
-    <div class="card"><span class="l">A</span><h3>Aplicar</h3><p>Construcción de las pruebas de concepto con los documentos reales de cada frente.</p></div>
-    <div class="card"><span class="l">L</span><h3>Liberar</h3><p>Agentes en uso controlado, horas recuperadas y ciclo 3R: Rutina, Resultado, Repetición.</p></div>
-  </div>
-  <h3 style="margin-top:30px">IAE™, Índice de IA Empresarial</h3>
-  <div class="iae">
-    <div class="mrow"><span class="lbl">Adopción</span><div class="track"><i style="--w:40%"></i></div><span class="val">40%</span></div>
-    <div class="mrow"><span class="lbl">Horas recuperadas</span><div class="track"><i style="--w:30%"></i></div><span class="val">30%</span></div>
-    <div class="mrow"><span class="lbl">Tableros y agentes</span><div class="track"><i style="--w:20%"></i></div><span class="val">20%</span></div>
-    <div class="mrow"><span class="lbl">Calidad</span><div class="track"><i style="--w:10%"></i></div><span class="val">10%</span></div>
-  </div>
-</section>
-
-<!-- 09 CRONOGRAMA -->
-<section class="slide reveal anim" id="s9" aria-labelledby="t9">
-  <div class="num"><b>09</b> / 13</div>
-  <p class="eyebrow">Cronograma</p>
-  <h2 id="t9">Arrancamos el 14 de diciembre y <span>cerramos el 12 de febrero</span>.</h2>
-  <p class="lead">Dos meses de implementación con 8 semanas efectivas de trabajo y la semana de Año Nuevo en receso. Si al cierre algún frente necesita más sesiones, las hacemos sin costo entre el 15 de febrero y el 12 de marzo: es el mes de estabilización, opcional y de cortesía.</p>
-  <div class="gantt">
-    <div class="g" id="gantt">
-      <span></span>
-      <span class="wk">14 dic</span><span class="wk">21 dic</span><span class="wk">28 dic</span><span class="wk">4 ene</span><span class="wk">11 ene</span><span class="wk">18 ene</span><span class="wk">25 ene</span><span class="wk">1 feb</span><span class="wk">8 feb</span>
-      <span class="wk c">15 feb</span><span class="wk c">22 feb</span><span class="wk c">1 mar</span><span class="wk c">8 mar</span>
-    </div>
-  </div>
-  <p class="src" style="margin-top:10px">Columnas = semana que inicia ese lunes. Festivos en Colombia dentro del plazo: 25 de diciembre, 1 de enero y 11 de enero. Las fechas se ajustan si Coquecol tiene vacaciones colectivas.</p>
-</section>
-
-<!-- 10 CASO -->
-<section class="slide reveal anim" id="s10" aria-labelledby="t10">
-  <div class="num"><b>10</b> / 13</div>
-  <p class="eyebrow">Caso real · Comfacesar 2026</p>
-  <h2 id="t10">Misma secuencia, resultado medido: <span>−92% de tiempo</span> en las tareas llevadas a IA.</h2>
-  <div class="case">
+<section class="slide dark" aria-label="Portada">
+  <div class="cover">
     <div>
-      <div class="bignum"><span data-count="762">762</span><span style="font-size:.4em"> h/sem</span></div>
-      <p class="lead" style="margin-top:8px">liberadas en las 86 tareas que mapearon 48 colaboradores de 18 áreas de la Caja de Compensación Familiar del Cesar.</p>
-      <div class="agents" aria-label="Agentes creados por los equipos"><span>marIA</span><span>Requi</span><span>Harvey S IA</span><span>sofIA</span><span>afilIA</span><span>Agente INFRA</span><span>Matías</span><span>matIA</span><span>mIA Reports</span></div>
+      <div class="logo-row">
+        <img class="glob" src="{{GLOBITO}}" alt="Globito IAM™">
+        <span class="wm">IAM<sup>™</sup></span>
+        <span class="coqchip"><img src="{{COQ}}" alt="Grupo Coquecol"></span>
+      </div>
+      <p class="spaced">Intelligence · IA empresarial por roles</p>
+      <div class="redline"></div>
+      <h1>Programa de Inteligencia Artificial Empresarial para Grupo Coquecol</h1>
+      <p class="meta">48 líderes · 11 frentes · 159 sesiones · 14 de diciembre de 2026 al 12 de febrero de 2027</p>
+      <div class="chips"><span>Finanzas</span><span>Logística y puertos</span><span>Compras</span><span>Operación y calidad</span><span>S&amp;OP</span><span>Comercial</span><span>Jurídico</span><span>Gente y SST</span><span>Tecnología</span><span>Ambiental</span><span>Dirección</span></div>
     </div>
-    <div class="cmp" role="img" aria-label="Horas por semana: 828,5 antes y 66,3 con IA">
-      <div class="row"><span>Antes</span><div class="t"><i style="--w:100%">828,5 h/sem</i></div></div>
-      <div class="row"><span>Con IA</span><div class="t"><i class="r" style="--w:8%">66,3</i></div></div>
-      <p class="src">Cálculo: 828,5 − 66,3 = 762,2 h/sem; 762,2 ÷ 828,5 = 92%. Fuente: tablero de seguimiento IAM™ Intelligence Comfacesar, registrado por cada área durante el programa.</p>
+    <div class="lines" aria-label="Líneas IAM™">
+      <div><b>IAM™ Influence</b><span>Marca profesional</span></div>
+      <div><b>IAM™ Social</b><span>Social Selling B2B</span></div>
+      <div><b>IAM™ Ambassadors</b><span>Embajadores de marca</span></div>
+      <div class="on"><b>IAM™ Intelligence ◀</b><span>IA empresarial</span></div>
+      <div><b>IAM™ Commercial</b><span>Dirección comercial</span></div>
     </div>
   </div>
+  <p class="sign">Sandra Curvelo · Founder &amp; CSO, IAM™ · Preparada para Ángela Garcés y el comité directivo de Grupo Coquecol · Noviembre 2026</p>
+  <span class="pageno">1</span>
 </section>
 
-<!-- 11 ENTREGABLES -->
-<section class="slide reveal" id="s11" aria-labelledby="t11">
-  <div class="num"><b>11</b> / 13</div>
-  <p class="eyebrow">Entregables e indicadores</p>
-  <h2 id="t11">Lo que Coquecol <span>recibe y conserva</span>.</h2>
-  <div class="deliv">
-    <div><span class="ck">✓</span><p><b>Diagnóstico y mapa de calor validado</b><span>Inventario de tareas por frente con minutos actuales y potencial con IA.</span></p></div>
-    <div><span class="ck">✓</span><p><b>Plan de gobernanza de IA</b><span>Comité, política de uso, niveles de autonomía y registro de agentes.</span></p></div>
-    <div><span class="ck">✓</span><p><b>Pruebas de concepto agénticas</b><span>Un agente por frente, documentado y en uso controlado.</span></p></div>
-    <div><span class="ck">✓</span><p><b>Biblioteca de instrucciones</b><span>Prompts y fichas de cada agente, propiedad de Coquecol.</span></p></div>
-    <div><span class="ck">✓</span><p><b>Tablero IAE™</b><span>Medición semanal por frente para la Gerencia.</span></p></div>
-    <div><span class="ck">✓</span><p><b>Presentación final de resultados</b><span>Cada frente presenta su antes y después a la dirección.</span></p></div>
+<section class="slide reveal">
+  <div class="bar"><h2>El momento de Grupo Coquecol: de la IA generativa a la IA agéntica</h2><span class="tag"><img src="{{GLOBITO}}" alt="">IAM Intelligence™ · Coquecol 2026</span></div>
+  <div class="body">
+    <p class="callout"><b>El 72%</b> de las organizaciones ya usa IA en al menos una función del negocio. La diferencia ahora está en pasar de usarla para redactar a usarla para <b>ejecutar procesos con control</b>.</p>
+    <div class="cards c3">
+      <div class="card k"><span class="big"><span data-count="33">33</span>%</span><p><b>de las aplicaciones empresariales</b> incluirá IA agéntica en 2028, frente a menos del 1% en 2024.</p><span class="s">Gartner, octubre 2024</span></div>
+      <div class="card k"><span class="big"><span data-count="15">15</span>%</span><p><b>de las decisiones operativas</b> del día a día las tomarán agentes de IA de forma autónoma en 2028.</p><span class="s">Gartner, octubre 2024</span></div>
+      <div class="card k"><span class="big">+<span data-count="40">40</span>%</span><p><b>de los proyectos de IA agéntica</b> se cancelará a 2027 por costos, valor poco claro o controles de riesgo insuficientes.</p><span class="s">Gartner, junio 2025</span></div>
+    </div>
+    <p class="alert">⭕ El agente que no tiene dueño, reglas y medición se cancela. El que los tiene, se queda en la operación.</p>
+    <div class="cards c3">
+      <div class="card"><h3>IA generativa: desarrollada</h3><p>Los equipos de Grupo Coquecol ya redactan, resumen y analizan con IA.</p></div>
+      <div class="card"><h3>IA agéntica: por desarrollar</h3><p>Aún no hay agentes que ejecuten flujos completos en cada área.</p></div>
+      <div class="card"><h3>Gobernanza: prioridad</h3><p>Comité, política de uso y niveles de autonomía desde la primera semana.</p></div>
+    </div>
+    <p class="src">Fuentes: McKinsey, The State of AI, 2024 · Gartner, comunicados de octubre 2024 y junio 2025 · Reunión IAM™ con Grupo Coquecol, noviembre 2026.</p>
   </div>
-  <div class="kpis">
-    <div class="card"><span class="v">≥ 80%</span><p>adopción del equipo, meta publicada de IAM™ Intelligence</p></div>
-    <div class="card"><span class="v">11</span><p>pruebas de concepto, una por frente</p></div>
-    <div class="card"><span class="v">100%</span><p>de agentes en el registro con dueño y nivel</p></div>
-    <div class="card"><span class="v">h/sem</span><p>horas recuperadas, línea base en diciembre</p></div>
-  </div>
+  <span class="pageno">2</span>
 </section>
 
-<!-- 12 INVERSIÓN DESGLOSADA -->
-<section class="slide reveal anim" id="s12" aria-labelledby="t12">
-  <div class="num"><b>12</b> / 13</div>
-  <p class="eyebrow">Inversión</p>
-  <h2 id="t12">No son 48 personas en un salón: son <span>159 sesiones</span>, la mayoría uno a uno.</h2>
-  <p class="lead">El valor no es proporcional al número de participantes. Tiene un componente fijo (dirección del programa, plan de gobernanza, metodología DIAL-3R™ y tablero IAE™) y un componente de sesiones con cada líder.</p>
-  <div class="invest">
-    <div class="price">
-      <span class="tag" style="background:#2A0000;color:#FFB3B3">IAM™ Intelligence · Grupo Coquecol</span>
+<section class="slide reveal">
+  <div class="bar"><h2>IAM Intelligence™: qué es y qué instala en Grupo Coquecol</h2><span class="tag"><img src="{{GLOBITO}}" alt="">IAM Intelligence™ · Coquecol 2026</span></div>
+  <div class="body">
+    <p class="callout"><b>IAM Intelligence™</b> es un programa de mentoría estratégica en IA aplicada para equipos directivos. No enseña tecnología: <b>instala sistemas de trabajo con agentes, gobierno y medición.</b></p>
+    <div class="cards c4">
+      <div class="card"><h3>Agentes por frente</h3><p>Cada frente construye su agente sobre sus procesos y documentos reales, no genéricos.</p></div>
+      <div class="card" style="border-top-color:#0A0A0A"><h3>Plan de gobernanza</h3><p>Comité de IA, política de uso, registro de agentes y niveles de autonomía.</p></div>
+      <div class="card" style="border-top-color:#8B0000"><h3>Flujos ejecutados</h3><p>Conciliaciones, consolidaciones, comparativos y reportes preparados por agentes y aprobados por personas.</p></div>
+      <div class="card" style="border-top-color:#6B6B6B"><h3>Medición continua</h3><p>Índice IAE™ semanal por frente para la Gerencia: adopción, horas recuperadas y calidad.</p></div>
+    </div>
+    <div class="strip">
+      <div><b data-count="48">48</b><span>líderes</span></div>
+      <div><b data-count="11">11</b><span>frentes</span></div>
+      <div><b data-count="159">159</b><span>sesiones</span></div>
+      <div><b data-count="144">144</b><span>individuales</span></div>
+      <div><b data-count="11">11</b><span>pruebas de concepto</span></div>
+      <div><b>1</b><span>plan de gobernanza</span></div>
+    </div>
+  </div>
+  <span class="pageno">3</span>
+</section>
+
+<section class="slide dark reveal">
+  <div class="bar" style="background:#000"><h2>Metodología propia: Método DIAL-3R™</h2><span class="tag"><img src="{{GLOBITO}}" alt="">IAM Intelligence™</span></div>
+  <div class="body">
+    <div><span class="wm" style="font-size:clamp(56px,7vw,92px)">DIAL-3R<sup>™</sup></span><p style="color:#D6D6D6;margin-top:6px">El método que instala la competencia · El ciclo que la vuelve ventaja permanente</p></div>
+    <div class="dial">
+      <div class="col"><span class="L">D</span><div class="box"><b>DIAGNOSTICAR</b><p>Sesión individual con cada líder: tareas, frecuencia y minutos actuales. Línea base y mapa de calor validado.</p></div></div>
+      <div class="col"><span class="L">I</span><div class="box"><b>INSTRUIR</b><p>Sesión grupal por frente: de la IA generativa a la agéntica, diseño de agentes y política de uso.</p></div></div>
+      <div class="col"><span class="L">A</span><div class="box"><b>APLICAR</b><p>Mentoría individual: cada líder construye su agente con sus datos reales y con aprobación humana definida.</p></div></div>
+      <div class="col"><span class="L">L</span><div class="box"><b>LIBERAR</b><p>El agente opera en el proceso, registrado y medido. El líder tiene su playbook y sus rutinas activas.</p></div></div>
+    </div>
+    <div class="cycle"><span class="t">CICLO 3R™ →</span><span>⭕ <b>RUTINA</b>, convierte el aprendizaje en hábito diario por rol</span><span>⭕ <b>RESULTADO</b>, mide el impacto de cada agente frente a la línea base</span><span>⭕ <b>REPETICIÓN</b>, itera y mejora con cada ciclo de uso</span></div>
+  </div>
+  <span class="pageno">4</span>
+</section>
+
+<section class="slide reveal">
+  <div class="bar"><h2>Participantes: 48 líderes de 25 áreas en 11 frentes de trabajo</h2><span class="tag"><img src="{{GLOBITO}}" alt="">IAM Intelligence™ · Coquecol 2026</span></div>
+  <div class="body">
+    <div class="scroll"><table class="tbl" style="min-width:760px">
+      <thead><tr><th style="width:40px">#</th><th style="width:250px">Frente</th><th>Cargos</th><th style="width:76px;text-align:center">Líderes</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td><b>Finanzas, contabilidad e impuestos</b></td><td>Gerente Financiero · Jefe de Contabilidad y Costos · Jefe de Tesorería · Analista Sr. de Contabilidad · Analista Sr. de Costos · 2 Analistas Sr. de Impuestos</td><td class="n">7</td></tr>
+        <tr><td>2</td><td><b>Logística, puertos y Multinexa</b></td><td>Gerente de Operaciones Multinexa · Coord. Operaciones Portuarias · Coord. Administrativo · Coord. de Gestión y Sostenibilidad · Oficial de Cumplimiento · Analista de Logística · 2 Analistas Administrativos</td><td class="n">8</td></tr>
+        <tr><td>3</td><td><b>Compras, materias primas y abastecimiento</b></td><td>Gerente de Materias Primas · Jefe de Abastecimiento · Coord. y Ing. de Desarrollo Técnico · Analista de Materias Primas · Analista Sr. de Compras · Analista Sr. de Contratación</td><td class="n">7</td></tr>
+        <tr><td>4</td><td><b>Operación industrial, calidad y mantenimiento</b></td><td>Gerente Industrial y de Logística · Gerente de Calidad · Coord. de Laboratorio · Supervisor Sr. de Laboratorio · Coord. de Planta · Coord. Mantenimiento Electromecánico</td><td class="n">6</td></tr>
+        <tr><td>5</td><td><b>Comercial e inteligencia de mercados</b></td><td>Gerente Comercial · Jefe Comercial · Analista Sr. Inteligencia de Mercados · Analista Comercial</td><td class="n">4</td></tr>
+        <tr><td>6</td><td><b>Gente, SST y administración</b></td><td>Jefe de Compensación y Beneficios · Coord. de Relaciones Laborales · Jefe SST · Jefe Administrativa</td><td class="n">4</td></tr>
+        <tr><td>7</td><td><b>Tecnología, SAP y procesos</b></td><td>Coordinador SAP · Analista Sr. de Soporte · Analista de Procesos · Coordinador de Procesos</td><td class="n">4</td></tr>
+        <tr><td>8</td><td><b>S&amp;OP</b></td><td>Jefe de S&amp;OP · Analista Sr. de S&amp;OP · Analista de S&amp;OP</td><td class="n">3</td></tr>
+        <tr><td>9</td><td><b>Jurídico</b></td><td>Gerente Jurídico · Abogado</td><td class="n">2</td></tr>
+        <tr><td>10</td><td><b>Ambiental y minería</b></td><td>Jefe Ambiental · Interventor de Minería</td><td class="n">2</td></tr>
+        <tr><td>11</td><td><b>Dirección general</b></td><td>Gerente General, patrocinador del programa</td><td class="n">1</td></tr>
+      </tbody>
+    </table></div>
+    <p class="src">Fuente: formato de participantes diligenciado por Grupo Coquecol, 25 de noviembre de 2026 (48 registros con área y cargo). Los nombres se confirman en la reunión de alineación.</p>
+  </div>
+  <span class="pageno">5</span>
+</section>
+
+<section class="slide reveal anim">
+  <div class="bar"><h2>Mapa de calor de priorización: dónde la IA agéntica rinde primero</h2><span class="tag"><img src="{{GLOBITO}}" alt="">IAM Intelligence™ · Coquecol 2026</span></div>
+  <div class="body">
+    <div class="legend"><span><i class="v1"></i>Bajo</span><span><i class="v2"></i>Medio</span><span><i class="v3"></i>Alto</span><span><i class="v4"></i>Muy alto</span></div>
+    <div class="scroll"><table class="heat" id="prio"><thead><tr><th style="text-align:left;padding-left:10px">Frente</th><th>Tareas repetitivas</th><th>Potencial agéntico</th><th>Datos disponibles</th><th>Riesgo a gobernar</th><th class="c">Ola</th></tr></thead><tbody></tbody></table></div>
+    <p class="src">Hipótesis de IAM™ construida con los cargos del formato y el Informe Anual 2023 de Grupo Coquecol. Se valida con cada líder en las 48 sesiones individuales de diagnóstico (14 al 24 de diciembre). Ola 1: 4 al 22 de enero. Ola 2: 18 de enero al 5 de febrero.</p>
+  </div>
+  <span class="pageno">6</span>
+</section>
+
+<section class="slide reveal">
+  <div class="bar"><h2>Pruebas de concepto agénticas · Ola 1</h2><span class="tag"><img src="{{GLOBITO}}" alt="">IAM Intelligence™ · Coquecol 2026</span></div>
+  <div class="body">
+    <div class="tracks">
+      <div class="track"><span class="no">1</span><img src="{{GLOBITO}}" alt=""><div><h3>Finanzas y contabilidad</h3><div class="pills"><span class="pill d">Nivel N2</span><span class="pill">Agente de cierre y conciliación</span></div></div><p>Cruza extractos, auxiliares y cartera, señala diferencias y deja el borrador del cierre para aprobación del analista.</p></div>
+      <div class="track"><span class="no">2</span><img src="{{GLOBITO}}" alt=""><div><h3>Impuestos</h3><div class="pills"><span class="pill d">Nivel N1</span><span class="pill">Agente de calendario tributario</span></div></div><p>Arma el calendario de obligaciones y las listas de soportes, y alerta vencimientos con anticipación.</p></div>
+      <div class="track"><span class="no">3</span><img src="{{GLOBITO}}" alt=""><div><h3>Logística, puertos y Multinexa</h3><div class="pills"><span class="pill d">Nivel N2</span><span class="pill">Agente de seguimiento de embarques</span></div></div><p>Verifica la documentación de exportación contra la lista de chequeo y prepara el reporte diario de estado.</p></div>
+      <div class="track"><span class="no">4</span><img src="{{GLOBITO}}" alt=""><div><h3>Compras y abastecimiento</h3><div class="pills"><span class="pill d">Nivel N2</span><span class="pill">Agente comparador de cotizaciones</span></div></div><p>Lee cotizaciones, arma el cuadro comparativo con condiciones y sugiere la mejor opción con su justificación.</p></div>
+      <div class="track"><span class="no">5</span><img src="{{GLOBITO}}" alt=""><div><h3>S&amp;OP</h3><div class="pills"><span class="pill d">Nivel N2</span><span class="pill">Agente de consolidación S&amp;OP</span></div></div><p>Reúne demanda, inventario y producción en el informe semanal y resalta las decisiones para el comité.</p></div>
+      <div class="track"><span class="no">6</span><img src="{{GLOBITO}}" alt=""><div><h3>Comercial e inteligencia de mercados</h3><div class="pills"><span class="pill d">Nivel N1</span><span class="pill">Agente de inteligencia de mercados</span></div></div><p>Resume cada semana noticias y reportes del mercado del carbón y el coque en un boletín para la gerencia comercial.</p></div>
+    </div>
+    <p class="src">Propuestas iniciales que se ajustan en el diagnóstico. Herramientas a nivel usuario ejecutivo, sin desarrollo de software ni intervención de los sistemas de Grupo Coquecol.</p>
+  </div>
+  <span class="pageno">7</span>
+</section>
+
+<section class="slide reveal">
+  <div class="bar"><h2>Pruebas de concepto agénticas · Ola 2 y transversales</h2><span class="tag"><img src="{{GLOBITO}}" alt="">IAM Intelligence™ · Coquecol 2026</span></div>
+  <div class="body">
+    <div class="tracks">
+      <div class="track"><span class="no">7</span><img src="{{GLOBITO}}" alt=""><div><h3>Calidad y laboratorio</h3><div class="pills"><span class="pill d">Nivel N1</span><span class="pill">Agente de informes de laboratorio</span></div></div><p>Convierte resultados de análisis en informes y certificados en formato estándar, listos para firma del responsable.</p></div>
+      <div class="track"><span class="no">8</span><img src="{{GLOBITO}}" alt=""><div><h3>Jurídico</h3><div class="pills"><span class="pill d">Nivel N1</span><span class="pill">Agente de revisión contractual</span></div></div><p>Revisa contratos contra la lista de cláusulas de la casa y marca riesgos y faltantes. El abogado siempre decide.</p></div>
+      <div class="track"><span class="no">9</span><img src="{{GLOBITO}}" alt=""><div><h3>Gente, SST y administración</h3><div class="pills"><span class="pill d">Nivel N1</span><span class="pill">Agente de indicadores SST y beneficios</span></div></div><p>Consolida indicadores de SST y responde consultas de compensación con base en las políticas aprobadas.</p></div>
+      <div class="track"><span class="no">10</span><img src="{{GLOBITO}}" alt=""><div><h3>Ambiental y minería</h3><div class="pills"><span class="pill d">Nivel N1</span><span class="pill">Agente de obligaciones e interventoría</span></div></div><p>Ordena compromisos ambientales y hallazgos de interventoría en una matriz con responsables y fechas.</p></div>
+      <div class="track"><span class="no">11</span><img src="{{GLOBITO}}" alt=""><div><h3>Tecnología, SAP y procesos</h3><div class="pills"><span class="pill d">Transversal</span><span class="pill">Mesa de ayuda SAP y documentación</span></div></div><p>Responde dudas de uso de SAP con los manuales internos y documenta procesos a partir de una descripción.</p></div>
+      <div class="track"><span class="no">12</span><img src="{{GLOBITO}}" alt=""><div><h3>Dirección general</h3><div class="pills"><span class="pill d">Transversal</span><span class="pill">Tablero IAE™ de la Gerencia</span></div></div><p>Una vista semanal de adopción por frente, horas recuperadas, agentes activos y calidad.</p></div>
+    </div>
+  </div>
+  <span class="pageno">8</span>
+</section>
+
+<section class="slide reveal">
+  <div class="bar"><h2>Plan de gobernanza de la IA</h2><span class="tag"><img src="{{GLOBITO}}" alt="">IAM Intelligence™ · Coquecol 2026</span></div>
+  <div class="body">
+    <p class="callout">Cada agente tiene <b>un dueño, unas reglas y un nivel de autonomía aprobado</b> por el comité. En la fase piloto ningún agente opera en N3.</p>
+    <div class="levels">
+      <div class="l1"><b>N1</b><h3>Asiste</h3><p>Prepara borradores, resúmenes y análisis. La persona revisa todo antes de usarlo.</p></div>
+      <div class="l2"><b>N2</b><h3>Propone</h3><p>Ejecuta el flujo completo y deja la propuesta lista. Una persona aprueba antes de que salga.</p></div>
+      <div class="l3"><b>N3</b><h3>Ejecuta</h3><p>Actúa solo en tareas de bajo riesgo con revisión por muestreo. Solo después del piloto y con aval del comité.</p></div>
+    </div>
+    <div class="cards c3">
+      <div class="card"><h3>1. Comité de IA</h3><p>Gerencia General, Tecnología y SAP, Jurídico, Cumplimiento y Procesos. Aprueba agentes y niveles.</p></div>
+      <div class="card"><h3>2. Política de uso</h3><p>Herramientas aprobadas, datos permitidos y no permitidos, y uso de la IA en los entregables.</p></div>
+      <div class="card"><h3>3. Registro de agentes</h3><p>Ficha por agente: dueño, propósito, datos, nivel de autonomía, indicador y fecha de revisión.</p></div>
+      <div class="card"><h3>4. Datos y seguridad</h3><p>Clasificación de la información, cuentas empresariales y protección de datos personales (Ley 1581 de 2012).</p></div>
+      <div class="card"><h3>5. Humano en el ciclo</h3><p>Toda decisión con impacto financiero, legal o en personas la firma una persona.</p></div>
+      <div class="card"><h3>6. Medición y auditoría</h3><p>Tablero IAE™ semanal, revisión del comité y bitácora de ajustes.</p></div>
+    </div>
+    <p class="src">Marcos de referencia: ISO/IEC 42001:2023, NIST AI RMF 1.0 (2023) y CONPES 4144 de 2025, Política Nacional de IA de Colombia. IAM™ adapta su lógica a Grupo Coquecol; no es una certificación.</p>
+  </div>
+  <span class="pageno">9</span>
+</section>
+
+<section class="slide reveal anim">
+  <div class="bar"><h2>Cronograma 2 meses · Mapa de calor por actividad</h2><span class="tag"><img src="{{GLOBITO}}" alt="">IAM Intelligence™ · Coquecol 2026</span></div>
+  <div class="body">
+    <div class="legend"><span><i class="v0"></i>Sin actividad</span><span><i class="v1"></i>Baja</span><span><i class="v2"></i>Media</span><span><i class="v3"></i>Alta</span><span><i class="v4"></i>Pico / cierre</span><span><i class="vg"></i>Opcional, cortesía</span></div>
+    <div class="scroll">
+      <table class="heat" id="crono"><thead><tr><th style="text-align:left;padding-left:10px">Actividad</th></tr></thead><tbody></tbody>
+      <tfoot><tr><td></td><td colspan="4" class="ph1">FASE 1 · DIAGNÓSTICO Y GOBIERNO</td><td colspan="5" class="ph2">FASE 2 · AGENTES EN OPERACIÓN · CIERRE 12 DE FEBRERO</td><td class="ph3">ESTABILIZACIÓN</td></tr></tfoot></table>
+    </div>
+    <p class="src">Columnas = semana que inicia ese lunes. Receso del 28 de diciembre al 1 de enero. Festivos: 25 de diciembre, 1 y 11 de enero. Estabilización del 15 de febrero al 12 de marzo, opcional y sin costo, si algún frente necesita más sesiones.</p>
+  </div>
+  <span class="pageno">10</span>
+</section>
+
+<section class="slide reveal anim">
+  <div class="bar"><h2>Sistema de medición: Índice IAE™ para la Gerencia de Grupo Coquecol</h2><span class="tag"><img src="{{GLOBITO}}" alt="">IAM Intelligence™ · Coquecol 2026</span></div>
+  <div class="body">
+    <div class="cards c4">
+      <div class="card k"><span class="big" style="font-size:clamp(36px,4.2vw,52px)">≥85%</span><p><b>Asistencia</b></p><span class="s">Meta del programa</span></div>
+      <div class="card k"><span class="big" style="font-size:clamp(36px,4.2vw,52px)">≥80%</span><p><b>Adopción</b></p><span class="s">Meta publicada IAM™ Intelligence</span></div>
+      <div class="card k"><span class="big" style="font-size:clamp(36px,4.2vw,52px)">≥8</span><p><b>Satisfacción</b></p><span class="s">Escala 0 a 10</span></div>
+      <div class="card k"><span class="big" style="font-size:clamp(36px,4.2vw,52px)">11</span><p><b>Agentes registrados</b></p><span class="s">Uno por frente, con dueño y nivel</span></div>
+    </div>
+    <div class="cards c2" style="align-items:start">
+      <div style="display:grid;gap:12px">
+        <h3 style="font-family:var(--display);font-size:22px">Componentes del IAE™ (0 a 100)</h3>
+        <div class="hb"><span>Adopción</span><div class="t"><i style="--w:40%"></i></div><b>40%</b></div>
+        <div class="hb"><span>Horas recuperadas</span><div class="t"><i style="--w:30%"></i></div><b>30%</b></div>
+        <div class="hb"><span>Tableros y agentes</span><div class="t"><i style="--w:20%"></i></div><b>20%</b></div>
+        <div class="hb"><span>Calidad</span><div class="t"><i style="--w:10%"></i></div><b>10%</b></div>
+      </div>
+      <div class="card"><h3>Cómo se lee</h3><p>De 0 a 40, el frente está arrancando. De 40 a 70, está adoptando. De 70 a 100, la IA está instalada y operando.</p><p>La línea base se levanta en las sesiones de diagnóstico de diciembre y las horas se registran al ejecutar cada proceso.</p></div>
+    </div>
+    <p class="alert">⭕ Cada frente recibe su reporte con adopción, agentes activos, horas recuperadas y satisfacción del equipo.</p>
+  </div>
+  <span class="pageno">11</span>
+</section>
+
+<section class="slide reveal">
+  <div class="bar"><h2>Experiencia: IAM™ Intelligence en Comfacesar 2026</h2><span class="tag"><img src="{{GLOBITO}}" alt="">IAM Intelligence™ · Coquecol 2026</span></div>
+  <div class="body">
+    <div class="cards c4">
+      <div class="card k"><span class="big" data-count="18">18</span><p><b>áreas</b> intervenidas</p></div>
+      <div class="card k"><span class="big" data-count="48">48</span><p><b>colaboradores</b> en el programa</p></div>
+      <div class="card k"><span class="big" data-count="86">86</span><p><b>tareas</b> mapeadas y llevadas a IA</p></div>
+      <div class="card k"><span class="big">−<span data-count="92">92</span>%</span><p><b>de tiempo</b> en las tareas llevadas a IA</p></div>
+    </div>
+    <div class="scroll"><table class="tbl" style="min-width:640px">
+      <thead><tr><th>Indicador</th><th>Antes</th><th>Con IA</th><th>Cálculo</th></tr></thead>
+      <tbody>
+        <tr><td>Horas semanales en las 86 tareas</td><td><b>828,5 h</b></td><td><b style="color:var(--red)">66,3 h</b></td><td>828,5 − 66,3 = 762,2 h liberadas; 762,2 ÷ 828,5 = 92%</td></tr>
+        <tr><td>Agentes creados por los equipos</td><td colspan="3">marIA · Requi · Harvey S IA · sofIA · afilIA · Agente INFRA · Matías · matIA · mIA Reports</td></tr>
+      </tbody>
+    </table></div>
+    <p class="src">Fuente: tablero de seguimiento IAM™ Intelligence Comfacesar, registrado por cada área durante el programa. Misma secuencia de diagnóstico, mentoría y medición que se propone para Grupo Coquecol.</p>
+  </div>
+  <span class="pageno">12</span>
+</section>
+
+<section class="slide dark reveal">
+  <div style="padding:26px 28px 6px"><h2 style="font-family:var(--display);font-weight:900;font-size:clamp(36px,4.4vw,54px)">La Inversión</h2><p style="color:#CFCFCF;margin-top:4px">IAM Intelligence™ · Grupo Coquecol · 14 de diciembre de 2026 al 12 de febrero de 2027</p></div>
+  <div class="inv">
+    <div class="pbox">
+      <span class="lab">PROGRAMA IAM INTELLIGENCE™</span>
       <span class="v">$72.600.000</span>
-      <p>más IVA (19%: $13.794.000). Total <b style="color:#fff">$86.394.000</b>.</p>
-      <p>14 de diciembre de 2026 al 12 de febrero de 2027. Estabilización hasta el 12 de marzo sin costo.</p>
+      <p>COP más IVA (19%: $13.794.000) · Total <b style="color:#fff">$86.394.000</b></p>
+      <p>Incluye: 48 sesiones individuales de diagnóstico · 96 sesiones individuales de mentoría · 11 sesiones grupales por frente · 4 sesiones directivas y de comité · plan de gobernanza · 11 pruebas de concepto · tablero IAE™ · informe final.</p>
+      <p>Estabilización del 15 de febrero al 12 de marzo sin costo, si se requiere.</p>
     </div>
-    <div class="sess" role="img" aria-label="159 sesiones: 48 de diagnóstico individual, 96 de mentoría individual, 11 grupales por frente y 4 directivas">
-      <div class="srow"><span class="sl">Diagnóstico individual</span><div class="track"><i style="--w:30.2%"></i></div><b>48</b></div>
-      <div class="srow"><span class="sl">Mentoría individual</span><div class="track"><i style="--w:60.4%"></i></div><b>96</b></div>
-      <div class="srow"><span class="sl">Grupales por frente</span><div class="track"><i style="--w:6.9%"></i></div><b>11</b></div>
-      <div class="srow"><span class="sl">Directivas y comité</span><div class="track"><i style="--w:2.5%"></i></div><b>4</b></div>
-      <div class="srow tot"><span class="sl">Total</span><span></span><b>159</b></div>
-      <p class="src">Cada líder recibe 3 sesiones individuales de una hora (1 de diagnóstico y 2 de mentoría para construir su agente), más la sesión grupal de su frente. Las 4 directivas: arranque, 2 comités de gobernanza y presentación final.</p>
+    <div class="why">
+      <span class="lab">¿POR QUÉ VALE ESTA INVERSIÓN?</span>
+      <ul>
+        <li><span><b>159 sesiones</b>, 144 de ellas uno a uno: $456.604 por sesión ($72.600.000 ÷ 159).</span></li>
+        <li><span><b>48 líderes</b> a $1.512.500 cada uno por todo el programa, $756.250 al mes ($72.600.000 ÷ 48 ÷ 2).</span></li>
+        <li><span><b>11 frentes</b> a $6.600.000 cada uno, con su agente construido, registrado y medido.</span></li>
+        <li><span>El valor no es proporcional al número de personas: incluye un componente fijo de dirección, gobernanza, metodología y medición.</span></li>
+        <li><span>Metodología DIAL-3R™ y tablero IAE™ propios de IAM™.</span></li>
+        <li><span>Al cierre, los agentes, el plan de gobernanza y la biblioteca de instrucciones quedan en Grupo Coquecol.</span></li>
+      </ul>
     </div>
   </div>
-  <div class="unit">
-    <div><span class="v">$456.604</span><span class="l">por sesión</span><span class="f">$72.600.000 ÷ 159</span></div>
-    <div><span class="v">$1.512.500</span><span class="l">por líder, por todo el programa</span><span class="f">$72.600.000 ÷ 48</span></div>
-    <div><span class="v">$6.600.000</span><span class="l">por frente de trabajo</span><span class="f">$72.600.000 ÷ 11</span></div>
-    <div><span class="v">$756.250</span><span class="l">por líder al mes</span><span class="f">$1.512.500 ÷ 2 meses</span></div>
-  </div>
-  <p class="src" style="margin-top:10px">Valores antes de IVA. El cupo por líder incluye además el sistema completo: gobierno, registro de agentes, tablero IAE™ y acompañamiento por el canal del proyecto.</p>
-  <div class="pay" style="margin-top:22px">
-    <div class="p"><b>30%</b><span>a la firma: $21.780.000 + IVA = <b style="font-family:var(--body);font-size:18px;color:var(--fg)">$25.918.200</b></span></div>
-    <div class="p"><b>70%</b><span>contra la presentación final del 12 de febrero: $50.820.000 + IVA = <b style="font-family:var(--body);font-size:18px;color:var(--fg)">$60.475.800</b></span></div>
-  </div>
+  <p class="roi"><b>Retorno estimado:</b> 48 líderes × 2,5 h recuperadas por semana × 44 semanas = <b>5.280 horas al año</b>. Con un costo hora de $60.000 son <b>$316.800.000</b> de capacidad liberada; la inversión se recupera en cerca de 10 semanas. <span style="opacity:.9">Supuesto conservador de IAM™; el costo hora real lo certifica Gestión Humana.</span></p>
+  <p class="src" style="padding:12px 28px 20px">Valores antes de IVA salvo donde se indica.</p>
+  <span class="pageno">13</span>
 </section>
 
-<!-- 13 RETORNO Y SIGUIENTE PASO -->
-<section class="slide reveal" id="s13" aria-labelledby="t13">
-  <div class="num"><b>13</b> / 13</div>
-  <p class="eyebrow">Retorno de la inversión</p>
-  <h2 id="t13">¿En cuántas semanas <span>se paga solo</span>?</h2>
-  <p class="lead">Mueva las dos variables. Los valores de partida son un supuesto conservador de IAM™; la cifra real se establece con la línea base de diciembre y el costo hora que certifique Gestión Humana.</p>
-  <div class="calc">
-    <div class="ctrl">
-      <label for="hrs">Horas recuperadas por líder a la semana: <b id="hrsv">2,5</b></label>
-      <input type="range" id="hrs" min="1" max="10" step="0.5" value="2.5">
-      <label for="cost">Costo hora promedio de un líder: <b id="costv">$60.000</b></label>
-      <input type="range" id="cost" min="30000" max="150000" step="5000" value="60000">
-      <p class="src">Valor de ejemplo, no es un dato de Coquecol. Como referencia, en Comfacesar el equipo pasó de 828,5 a 66,3 horas semanales en las tareas llevadas a IA.</p>
+<section class="slide reveal">
+  <div class="bar"><h2>Forma de pago</h2><span class="tag"><img src="{{GLOBITO}}" alt="">IAM Intelligence™ · Coquecol 2026</span></div>
+  <div class="body" style="background:#F4F4F5;justify-content:center">
+    <div class="pago">
+      <h3>Forma de Pago</h3>
+      <p>El valor total del contrato se pagará en <b>dos desembolsos</b>: <b>el 30%</b> a la firma del contrato como anticipo para el inicio de la ejecución, y <b>el 70% restante</b> contra la presentación final de resultados del 12 de febrero de 2027, previa suscripción de un Acta de Cierre firmada por el supervisor del proyecto designado por Grupo Coquecol.</p>
+      <p>El Acta de Cierre deberá ser suscrita dentro de los cinco (5) días hábiles siguientes a la presentación final. Vencido dicho plazo sin observaciones escritas, el pago se entenderá exigible en los términos acordados.</p>
     </div>
-    <div class="out">
-      <div><span class="v" id="o-h">120</span><span class="l">horas por semana para el grupo</span></div>
-      <div><span class="v" id="o-w">10,1</span><span class="l">semanas para recuperar la inversión</span></div>
-      <div><span class="v" id="o-y">$316,8 M</span><span class="l">de capacidad liberada al año</span></div>
-      <p class="src" id="o-f">48 líderes × 2,5 h × $60.000 = $7.200.000 por semana. $72.600.000 ÷ $7.200.000 = 10,1 semanas. Año de 44 semanas laborales.</p>
+    <div class="paygrid">
+      <div class="card k"><span class="big" style="font-size:44px">30%</span><p>A la firma: $21.780.000 + IVA = <b>$25.918.200</b></p></div>
+      <div class="card k"><span class="big" style="font-size:44px">70%</span><p>Al cierre, 12 de febrero: $50.820.000 + IVA = <b>$60.475.800</b></p></div>
     </div>
   </div>
-  <div class="next">
-    <h3>Siguiente paso</h3>
-    <ol>
-      <li>Aprobación de la propuesta antes del 10 de diciembre.</li>
-      <li>Arranque el lunes 14 de diciembre con la Gerencia General e instalación del comité de IA.</li>
-      <li>Agenda de las 48 sesiones individuales de diagnóstico entre el 14 y el 24 de diciembre.</li>
-    </ol>
-  </div>
+  <span class="pageno">14</span>
 </section>
 
+<section class="slide dark reveal">
+  <div class="close">
+    <div>
+      <div class="logo-row"><img class="glob" src="{{GLOBITO}}" alt="Globito IAM™"><span class="wm" style="font-size:clamp(56px,7vw,88px)">IAM<sup>™</sup></span></div>
+      <p style="color:#CFCFCF;margin-top:6px">Influence, AI &amp; Monetization</p>
+      <div class="auth">
+        <div><b>1.500+</b><span>profesionales mentoreados</span></div>
+        <div><b>40+</b><span>empresas</span></div>
+        <div><b>8</b><span>países LATAM</span></div>
+      </div>
+      <div class="progs">
+        <span class="lab">CLIENTES IAM™</span>
+        <span>→ Comfacesar · IAM™ Intelligence e IAM™ Ambassadors, 2026</span>
+        <span>→ Drummond · Grupo Bimbo · Bavaria · Grupo Abstract</span>
+      </div>
+    </div>
+    <div class="steps">
+      <h2>¿Qué sigue?</h2>
+      <div class="step"><span class="n">01</span><div><b>Reunión de alineación</b><p>30 minutos con el comité directivo para confirmar frentes, líderes y fechas.</p></div></div>
+      <div class="step"><span class="n">02</span><div><b>Firma y anticipo antes del 10 de diciembre</b><p>30% de anticipo para reservar las fechas y preparar el diagnóstico.</p></div></div>
+      <div class="step"><span class="n">03</span><div><b>Arranque el lunes 14 de diciembre</b><p>Sesión con la Gerencia General, instalación del comité de IA y agenda de las 48 sesiones individuales.</p></div></div>
+    </div>
+  </div>
+  <div class="foot"><img src="{{GLOBITO}}" alt="">Sandra Curvelo · Founder &amp; CSO, IAM™ · linkedin.com/in/sandra-curvelo-iam · iamlatam.co</div>
+  <span class="pageno" style="color:#fff">15</span>
+</section>
 
-<footer>
-  <div class="brand"><img src="{{GLOBITO}}" alt="Globito IAM™"><span class="wm">IAM<sup>™</sup></span></div>
-  <span>Sandra Curvelo · Founder &amp; CSO · iamlatam.co</span>
-  <span>Lo que no se mide no puede ser mejorado.</span>
-</footer>
 </main>
 
 <script>
 (function(){
   var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  /* Mapa de calor */
-  var H = [
-    ['Finanzas, contabilidad e impuestos',[5,5,4,4],'o1',['Cierres, conciliaciones e impuestos se repiten cada mes con las mismas reglas.','Flujos con pasos claros: ideal para agentes que proponen y una persona aprueba.','La información vive en SAP y en Excel con estructura estable.','Impacto financiero y tributario: todo pasa por aprobación humana (N2).']],
-    ['Logística, puertos y Multinexa',[5,4,3,3],'o1',['Reportes diarios de embarque, documentos de exportación y seguimiento operativo.','Listas de chequeo documentales que un agente puede verificar sin descanso.','Parte de la información llega por correo y PDF: se ordena en el diagnóstico.','Errores documentales cuestan dinero en puerto: control N2.']],
-    ['Compras y abastecimiento',[4,5,4,3],'o1',['Cotizaciones, cuadros comparativos y seguimiento a proveedores.','Comparar ofertas y justificar la decisión es un flujo agéntico natural.','Cotizaciones en PDF y órdenes en SAP.','La adjudicación siempre la firma una persona.']],
-    ['S&OP',[4,4,4,2],'o1',['Consolidación semanal de demanda, inventario y producción.','Un agente arma el informe y resalta las decisiones para el comité.','Datos estructurados de planeación.','Riesgo bajo: el agente prepara, el comité decide.']],
-    ['Comercial e inteligencia de mercados',[3,4,3,3],'o1',['Investigación de mercado y reportes para la gerencia.','Boletines de mercado y preparación de visitas con información pública.','Mezcla de fuentes externas e internas.','Cuidado con información confidencial de clientes y precios.']],
-    ['Calidad y laboratorio',[4,4,3,3],'o2',['Informes y certificados de análisis repetitivos.','Plantillas estándar que un agente puede llenar desde los resultados.','Resultados en formatos de laboratorio por normalizar.','El certificado lo firma el responsable técnico.']],
-    ['Jurídico',[3,4,3,5],'o2',['Revisiones contractuales con criterios recurrentes.','Lectura contra listas de cláusulas: alto ahorro en la primera revisión.','Contratos en Word y PDF.','Riesgo legal máximo: solo N1, el abogado siempre decide.']],
-    ['Gente, SST y administración',[4,3,3,5],'o2',['Indicadores SST, consultas de beneficios y reportes administrativos.','Respuestas con base en políticas aprobadas y consolidación de indicadores.','Información de personas dispersa en varios sistemas.','Datos personales: aplica la Ley 1581 de 2012. Control estricto.']],
-    ['Tecnología, SAP y procesos',[3,4,4,4],'ot',['Soporte repetitivo y documentación de procesos.','Mesa de ayuda con manuales internos y documentación automática.','Manuales y procesos documentados.','Es el habilitador: define accesos, seguridad e integraciones de todos los agentes.']],
-    ['Ambiental y minería',[3,3,2,4],'o2',['Seguimiento de obligaciones e informes de interventoría.','Matrices de compromisos con fechas y responsables.','Información en informes de campo poco estructurados.','Obligaciones regulatorias: trazabilidad completa.']],
-    ['Dirección general',[2,3,3,3],'ot',['Pocas tareas operativas, muchas decisiones.','Tablero IAE™ y resúmenes ejecutivos semanales.','Depende de que los frentes alimenten el tablero.','Patrocina y preside el comité de IA.']]
+  var P=[['Finanzas, contabilidad e impuestos',[4,4,3,3],'Ola 1'],['Logística, puertos y Multinexa',[4,3,2,2],'Ola 1'],['Compras y abastecimiento',[3,4,3,2],'Ola 1'],['S&amp;OP',[3,3,3,1],'Ola 1'],['Comercial e inteligencia de mercados',[2,3,2,2],'Ola 1'],['Calidad y laboratorio',[3,3,2,2],'Ola 2'],['Jurídico',[2,3,2,4],'Ola 2'],['Gente, SST y administración',[3,2,2,4],'Ola 2'],['Ambiental y minería',[2,2,1,3],'Ola 2'],['Tecnología, SAP y procesos',[2,3,3,3],'Transversal'],['Dirección general',[1,2,2,2],'Transversal']];
+  var LBL=['','Bajo','Medio','Alto','Muy alto'], k=0;
+  var tb=document.querySelector('#prio tbody');
+  P.forEach(function(r){
+    var tr=document.createElement('tr'), h='<td class="rl">'+r[0]+'</td>';
+    r[1].forEach(function(v){ h+='<td class="cl v'+v+'" style="transition-delay:'+(reduce?0:(k++*30))+'ms">'+LBL[v]+'</td>'; });
+    h+='<td class="cl '+(r[2]==='Ola 1'?'v4':r[2]==='Ola 2'?'v2':'v1')+'">'+r[2]+'</td>';
+    tr.innerHTML=h; tb.appendChild(tr);
+  });
+
+  var W=[['14 dic','Sem 1'],['21 dic','Sem 2'],['28 dic','Receso'],['4 ene','Sem 3'],['11 ene','Sem 4'],['18 ene','Sem 5'],['25 ene','Sem 6'],['1 feb','Sem 7'],['8 feb','Sem 8'],['15 feb a 12 mar','Opcional']];
+  var A=[
+    ['Diagnóstico individual','48 sesiones',[[3,'24 ses.'],[3,'24 ses.'],0,0,0,0,0,0,0,'g']],
+    ['Sesión grupal por frente','11 sesiones',[0,0,0,[3,'11 ses.'],0,0,0,0,0,0]],
+    ['Mentoría individual','96 sesiones',[0,0,0,[1,'8 ses.'],[3,'18 ses.'],[3,'18 ses.'],[3,'18 ses.'],[3,'18 ses.'],[2,'16 ses.'],'g']],
+    ['Directivas y comité de IA','4 sesiones',[[4,'Arranque'],0,0,[2,'Comité 1'],0,0,[2,'Comité 2'],0,[4,'Cierre 12 feb'],0]],
+    ['Entregables','Gobierno y resultados',[0,[2,'Mapa de calor'],0,[2,'Política de uso'],0,0,[2,'Registro'],0,[4,'Informe final'],0]],
+    ['Medición IAE™','Semanal',[0,[1,'Línea base'],0,[1,'IAE'],[1,'IAE'],[2,'IAE'],[2,'IAE'],[2,'IAE'],[4,'IAE final'],'g']]
   ];
-  var COLS = ['Tareas repetitivas','Potencial agéntico','Datos listos','Riesgo a gobernar'];
-  var OLA = {o1:'Ola 1',o2:'Ola 2',ot:'Transversal'};
-  var tb = document.querySelector('#heat tbody'), note = document.getElementById('heatnote'), k = 0;
-  H.forEach(function(r){
-    var tr = document.createElement('tr');
-    var td = document.createElement('td'); td.className='name'; td.textContent=r[0]; tr.appendChild(td);
-    r[1].forEach(function(v,j){
-      var c = document.createElement('td'), b = document.createElement('button');
-      b.type='button'; b.className='cell h'+v+'c'; b.textContent=v; b.setAttribute('aria-pressed','false');
-      b.setAttribute('aria-label', r[0]+', '+COLS[j]+': '+v+' de 5');
-      b.style.transitionDelay = (reduce?0:(k++*35))+'ms';
-      b.addEventListener('click',function(){
-        document.querySelectorAll('.cell[aria-pressed="true"]').forEach(function(x){x.setAttribute('aria-pressed','false')});
-        b.setAttribute('aria-pressed','true');
-        note.innerHTML = '<b>'+r[0]+' · '+COLS[j]+' ('+v+'/5):</b> '+r[3][j];
-      });
-      c.appendChild(b); tr.appendChild(c);
+  var th=document.querySelector('#crono thead tr');
+  W.forEach(function(w,i){ var c=document.createElement('th'); if(i===9) c.className='c'; c.innerHTML=w[0]+'<small>'+w[1]+'</small>'; th.appendChild(c); });
+  var cb=document.querySelector('#crono tbody'); k=0;
+  A.forEach(function(r){
+    var tr=document.createElement('tr'), h='<td class="rl">'+r[0]+'<small>'+r[1]+'</small></td>';
+    r[2].forEach(function(c,i){
+      var d='transition-delay:'+(reduce?0:(k++*18))+'ms';
+      if(c==='g') h+='<td class="cl vg" style="'+d+'">Si se requiere</td>';
+      else if(!c) h+='<td class="cl v0" style="'+d+'">'+(i===2?'Receso':'')+'</td>';
+      else h+='<td class="cl v'+c[0]+'" style="'+d+'">'+c[1]+'</td>';
     });
-    var o = document.createElement('td'); o.innerHTML='<span class="ola '+r[2]+'">'+OLA[r[2]]+'</span>'; tr.appendChild(o);
-    tb.appendChild(tr);
+    tr.innerHTML=h; cb.appendChild(tr);
   });
 
-  /* Gantt */
-  var G = [
-    ['Arranque y comité de IA','14 dic · Gerencia + comité',1,1,'blk','Inicio'],
-    ['Diagnosticar','48 sesiones individuales, 14 al 24 dic',1,2,'','48 individuales'],
-    ['Receso de Año Nuevo','28 dic al 1 ene',3,3,'pause',''],
-    ['Instruir','11 grupales por frente, 4 al 8 ene',4,4,'',''],
-    ['Aplicar · Ola 1','Finanzas, logística, compras, S&OP, comercial',4,6,'','Mentoría ola 1'],
-    ['Aplicar · Ola 2','Calidad, jurídico, gente, ambiental, TI',6,8,'','Mentoría ola 2'],
-    ['Gobernanza continua','Comités 8 ene y 29 ene',2,9,'blk','Comité y registro'],
-    ['Liberar y cerrar','Presentación final, 12 feb',8,9,'','Cierre 12 feb'],
-    ['Estabilización 3R','Opcional, si faltan sesiones',10,13,'gift','Cortesía · sin costo']
-  ];
-  var g = document.getElementById('gantt');
-  G.forEach(function(r,i){
-    var sep = document.createElement('span'); sep.className='gsep'; g.appendChild(sep);
-    var ph = document.createElement('span'); ph.className='ph'; ph.innerHTML=r[0]+'<small>'+r[1]+'</small>'; g.appendChild(ph);
-    var bar = document.createElement('span'); bar.className='bar '+r[4]; bar.textContent=r[5];
-    bar.style.gridColumn = (r[2]+1)+' / '+(r[3]+2);
-    bar.style.transitionDelay = (reduce?0:i*160)+'ms';
-    g.appendChild(bar);
-  });
-
-  /* Contadores */
   function fmt(n){ return n.toLocaleString('es-CO'); }
   function count(el){
-    var to = +el.getAttribute('data-count');
-    if(reduce){ el.textContent = fmt(to); return; }
-    var t0 = null, d = 1400;
-    function step(t){ if(!t0) t0=t; var p=Math.min(1,(t-t0)/d), e=1-Math.pow(1-p,3); el.textContent=fmt(Math.round(to*e)); if(p<1) requestAnimationFrame(step); }
-    el.textContent = '0'; requestAnimationFrame(step);
+    var to=+el.getAttribute('data-count');
+    if(reduce){ el.textContent=fmt(to); return; }
+    var t0=null,d=1300;
+    function st(t){ if(!t0)t0=t; var p=Math.min(1,(t-t0)/d); el.textContent=fmt(Math.round(to*(1-Math.pow(1-p,3)))); if(p<1) requestAnimationFrame(st); }
+    el.textContent='0'; requestAnimationFrame(st);
   }
+  var io=('IntersectionObserver' in window)?new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ var s=e.target; s.classList.add('on'); s.querySelectorAll('[data-count]').forEach(function(c){ if(!c.dataset.done){c.dataset.done=1;count(c);} }); io.unobserve(s);} });
+  },{threshold:.12}):null;
+  document.querySelectorAll('.reveal').forEach(function(s){ io?io.observe(s):s.classList.add('on'); });
 
-  /* Aparición por diapositiva */
-  var io = ('IntersectionObserver' in window) ? new IntersectionObserver(function(es){
-    es.forEach(function(e){
-      if(e.isIntersecting){
-        var s=e.target; s.classList.add('on');
-        s.querySelectorAll('[data-count]').forEach(function(c){ if(!c.dataset.done){ c.dataset.done=1; count(c); } });
-        io.unobserve(s);
-      }
-    });
-  },{threshold:.18}) : null;
-  document.querySelectorAll('.reveal').forEach(function(s){ io ? io.observe(s) : s.classList.add('on'); });
-  if(!io) document.querySelectorAll('[data-count]').forEach(function(c){ c.textContent = fmt(+c.getAttribute('data-count')); });
-
-
-  /* Calculadora de retorno */
-  var hrs=document.getElementById('hrs'), cost=document.getElementById('cost');
-  function money(n){ return '$'+Math.round(n).toLocaleString('es-CO'); }
-  function dec(n){ return n.toLocaleString('es-CO',{maximumFractionDigits:1}); }
-  function calc(){
-    var h=+hrs.value, c=+cost.value, wk=48*h*c, weeks=72600000/wk, yr=48*h*44*c;
-    document.getElementById('hrsv').textContent=dec(h);
-    document.getElementById('costv').textContent=money(c);
-    document.getElementById('o-h').textContent=dec(48*h);
-    document.getElementById('o-w').textContent=dec(weeks);
-    document.getElementById('o-y').textContent='$'+dec(yr/1e6)+' M';
-    document.getElementById('o-f').textContent='48 líderes × '+dec(h)+' h × '+money(c)+' = '+money(wk)+' por semana. $72.600.000 ÷ '+money(wk)+' = '+dec(weeks)+' semanas. Año de 44 semanas laborales.';
-  }
-  hrs.addEventListener('input',calc); cost.addEventListener('input',calc); calc();
-
-  /* Navegación tipo presentación */
-  var slides = Array.prototype.slice.call(document.querySelectorAll('.slide'));
-  var cnt = document.getElementById('count'), prog = document.getElementById('prog');
-  function current(){
-    var y = window.innerHeight*0.35, idx = 0;
-    slides.forEach(function(s,i){ if(s.getBoundingClientRect().top <= y) idx = i; });
-    return idx;
-  }
-  function update(){
-    var i = current(); cnt.textContent = (i+1)+' / '+slides.length;
-    var h = document.documentElement.scrollHeight - window.innerHeight;
-    prog.style.width = (h>0 ? (window.scrollY/h*100) : 0)+'%';
-  }
-  function go(d){ var i = Math.max(0,Math.min(slides.length-1,current()+d)); slides[i].scrollIntoView({behavior: reduce?'auto':'smooth', block:'start'}); }
-  document.getElementById('prev').addEventListener('click',function(){go(-1)});
-  document.getElementById('next').addEventListener('click',function(){go(1)});
-  document.addEventListener('keydown',function(e){
-    if(e.target.closest && e.target.closest('button,input,textarea')) return;
-    if(e.key==='ArrowRight'||e.key==='PageDown'){ e.preventDefault(); go(1); }
-    if(e.key==='ArrowLeft'||e.key==='PageUp'){ e.preventDefault(); go(-1); }
-  });
-  window.addEventListener('scroll',update,{passive:true}); window.addEventListener('resize',update); update();
+  var slides=[].slice.call(document.querySelectorAll('.slide')), cnt=document.getElementById('count'), prog=document.getElementById('prog');
+  function cur(){ var y=innerHeight*.35, i=0; slides.forEach(function(s,j){ if(s.getBoundingClientRect().top<=y) i=j; }); return i; }
+  function upd(){ cnt.textContent=(cur()+1)+' / '+slides.length; var h=document.documentElement.scrollHeight-innerHeight; prog.style.width=(h>0?scrollY/h*100:0)+'%'; }
+  function go(d){ var i=Math.max(0,Math.min(slides.length-1,cur()+d)); slides[i].scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'}); }
+  document.getElementById('prev').onclick=function(){go(-1)}; document.getElementById('next').onclick=function(){go(1)};
+  document.addEventListener('keydown',function(e){ if(e.key==='ArrowRight'||e.key==='PageDown'){e.preventDefault();go(1)} if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();go(-1)} });
+  addEventListener('scroll',upd,{passive:true}); addEventListener('resize',upd); upd();
 })();
 </script>
