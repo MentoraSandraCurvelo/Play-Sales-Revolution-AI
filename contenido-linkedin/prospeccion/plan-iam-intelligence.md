@@ -98,3 +98,9 @@ Uso (recomendación de Demetri, Sandra puede cambiarla):
 Uso: lote 3 (cámaras, mié 25 nov), comparado contra el mensaje historia.
 - Reconexión con mensaje historia (24 nov, 9:21 a 9:33 a. m.): Ricardo Targino, Felipe Mejía, Sebastián Mejía, Laura Murcia, Katherine Cobo, Jorge Hernández, Eric Vivoni. Formato: 3 párrafos cortos (el de Ricardo salió en 1 bloque). Total del día: 14 nuestros + 3 de Bruno.
 - Regla de formato desde hoy: mensajes largos en 3 párrafos cortos (saludo y problema; metodología; pregunta e invitación).
+
+## Corte mié 25 nov 2026, 9:05 a. m. (reporte de Chrome, solo lectura)
+- 29 conversaciones nuestras (lote 1: 11, reconexión 23 nov: 4, lote 2: 7, reconexión 24 nov: 7): 0 respuestas; el último mensaje sigue siendo de Sandra. Other: nada nuevo.
+- Bruno escribió el 24 nov a 8 personas (Alfonso Prieto Gomez, Andres Arias Vives, Cristian Satizábal, Johnny Fayad, Carolina Molano, Miguel Bernal, Victor Fajardo, Fabian Ricardo Rincon): solo lectura, regla 48.
+- Corrida del 24 nov a las 3:05 p. m.: NO se hizo (0 de 5 comentarios). Solo hubo una respuesta en el post propio a las 3:07 p. m.
+- Alberto Vives y Luz Stella Murgas: siguen Pending (2.º grado). Banco Mundo Mujer: cerrado, no aplica.
