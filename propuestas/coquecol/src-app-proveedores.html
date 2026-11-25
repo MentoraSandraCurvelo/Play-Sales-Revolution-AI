@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Portal de Proveedores · Grupo Coquecol</title>
+<title>Centro de Agentes de Abastecimiento · Grupo Coquecol</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Carlito:wght@400;700&display=swap">
 <style>
 /* Prototipo navegable de app externa para Grupo Coquecol: portal de proveedores mineros de carbón.
@@ -75,6 +75,48 @@ input,select{font:inherit;font-weight:400;padding:10px 12px;border:1px solid var
 .sugs button{background:#fff;border:1px solid #CFE3CF;color:var(--green2);border-radius:999px;padding:6px 12px;font-size:15px;font-weight:700}
 .foot{display:flex;align-items:center;gap:8px;justify-content:center;font-size:14px;color:var(--muted);padding:10px}
 .foot img{width:20px}
+
+/* Centro de control agéntico tipo bolsa */
+.view.dark{background:#0E1A2B;color:#E8EEF5;margin:-22px calc(-1*clamp(16px,3vw,34px)) 0;padding:22px clamp(16px,3vw,34px) 26px}
+.view.dark .top h1{color:#fff}.view.dark .top p{color:#9FB0C3}
+.live{display:inline-flex;align-items:center;gap:8px;background:#3A0D0D;color:#FF6B6B;border:1px solid #7A1F1F;border-radius:999px;padding:6px 12px;font-weight:700;font-size:14px;letter-spacing:1px}
+.live i{width:10px;height:10px;border-radius:50%;background:#FF4D4D;animation:pulse 1.2s infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.7)}}
+.tape{overflow:hidden;white-space:nowrap;background:#0A1320;border-top:1px solid #1F3047;border-bottom:1px solid #1F3047}
+.tapein{display:inline-block;padding:8px 0;font:700 16px var(--h);animation:tape 34s linear infinite}
+.tapein span{margin:0 20px;color:#DCE6F0}.tapein .u{color:#4BE07A}.tapein .d{color:#FF5C5C}
+@keyframes tape{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.view.dark .card{background:#13233A;border-color:#22385A;box-shadow:none}
+.view.dark .kpi .v{color:#fff;font-variant-numeric:tabular-nums;transition:color .3s}
+.view.dark .kpi .l{color:#9FB0C3}
+.kpi .v.flashu{color:#4BE07A!important}.kpi .v.flashd{color:#FF5C5C!important}
+.mini{width:100%;height:34px}
+.cc{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:14px}
+.panel{background:#13233A;border:1px solid #22385A;border-radius:12px;padding:14px 16px;display:grid;gap:10px;align-content:start}
+.ph{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center;font-size:16px}
+.ph b{color:#fff}.muted{color:#9FB0C3;font-size:14px}
+.spark{width:100%;height:auto;display:block}
+.spark text{font:600 12px var(--b);fill:#7F93AA}
+.agents{display:grid;gap:10px}
+.ag{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:center;background:#0E1A2B;border:1px solid #22385A;border-radius:10px;padding:10px 12px}
+.ag .dot{width:12px;height:12px;border-radius:50%;background:#4BE07A;box-shadow:0 0 0 0 rgba(75,224,122,.6);animation:ring 1.6s infinite}
+.ag.wait .dot{background:#F2B233;animation:none}
+@keyframes ring{0%{box-shadow:0 0 0 0 rgba(75,224,122,.6)}100%{box-shadow:0 0 0 10px rgba(75,224,122,0)}}
+.ag b{color:#fff;font-size:16px;display:block}
+.ag span{color:#AFC0D2;font-size:14px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ag .n{font:700 20px var(--h);color:#8FD18F}
+.agbar{grid-column:1/-1;height:5px;background:#1F3047;border-radius:999px;overflow:hidden}
+.agbar i{display:block;height:100%;width:0;background:#71A971;transition:width .4s linear}
+.log{display:grid;gap:6px;max-height:300px;overflow-y:auto}
+.ev{display:grid;grid-template-columns:62px 150px minmax(0,1fr) auto;gap:10px;align-items:center;padding:8px 10px;border-radius:8px;background:#0E1A2B;border-left:4px solid #71A971;font-size:15px;animation:in .4s ease}
+.ev.n2{border-left-color:#F2B233}.ev.al{border-left-color:#FF5C5C}
+.ev time{color:#7F93AA;font-variant-numeric:tabular-nums}
+.ev .who{color:#8FD18F;font-weight:700}
+.ev.n2 .who{color:#F2B233}.ev.al .who{color:#FF7A7A}
+.ev button{background:#71A971;color:#0F2010;border:0;border-radius:6px;padding:6px 10px;font-weight:700;font-size:14px}
+.ev button.done{background:#22385A;color:#9FB0C3;cursor:default}
+@media (max-width:860px){.cc{grid-template-columns:minmax(0,1fr)}.ev{grid-template-columns:54px minmax(0,1fr) auto}.ev .who{grid-column:2}.ev .what{grid-column:1/-1}}
+@media (prefers-reduced-motion:reduce){.tapein,.live i,.ag .dot{animation:none}}
 @media (max-width:860px){
   .app{grid-template-columns:minmax(0,1fr)}
   .side{flex-direction:row;overflow-x:auto;position:sticky;top:0;z-index:5;padding:8px;gap:4px}
@@ -91,19 +133,43 @@ input,select{font:inherit;font-weight:400;padding:10px 12px;border:1px solid var
 <div class="app">
   <nav class="side" aria-label="Menú del portal">
     <div class="brand"><img src="{{COQ}}" alt="Grupo Coquecol"></div>
-    <button data-v="inicio" aria-current="page"><span class="ic">⌂</span>Inicio</button>
+    <button data-v="control" aria-current="page"><span class="ic">◉</span>Centro de control</button>
+    <button data-v="inicio"><span class="ic">⌂</span>Proveedor destacado</button>
     <button data-v="entregas"><span class="ic">⛟</span>Mis entregas</button>
     <button data-v="calidad"><span class="ic">◎</span>Calidad</button>
     <button data-v="pagos"><span class="ic">$</span>Pagos</button>
     <button data-v="docs"><span class="ic">▤</span>Documentos</button>
     <button data-v="agendar"><span class="ic">◷</span>Agendar entrega</button>
     <button data-v="asistente"><span class="ic">✦</span>Asistente IA</button>
-    <div class="user"><b>Carbones del Valle S.A.S.</b>Proveedor · Boyacá<br>NIT 900.000.000-0</div>
+    <div class="user"><b>Laura Rincón</b>Analista Sr. de Compras<br>Contacto ficticio</div>
   </nav>
 
   <main class="main">
-    <section class="view on" id="v-inicio">
-      <div class="top"><div><h1>Hola, Carbones del Valle</h1><p>Resumen de noviembre 2026</p></div><span class="pill">● Proveedor prioritario · puntaje 92</span></div>
+    <section class="view on dark" id="v-control">
+      <div class="top"><div><h1>Centro de control agéntico</h1><p>4 agentes trabajando sobre el abastecimiento de carbón · <span id="clock"></span></p></div><span class="live"><i></i>EN VIVO</span></div>
+      <div class="tape" aria-hidden="true"><div class="tapein" id="tape"></div></div>
+      <div class="grid k4" id="kpis"></div>
+      <div class="cc">
+        <div class="panel">
+          <div class="ph"><b>Toneladas recibidas hoy · 3 plantas</b><span id="tt" class="up">▲</span></div>
+          <svg viewBox="0 0 600 300" class="spark" id="chart" role="img" aria-label="Toneladas recibidas hoy, gráfico en tiempo real con datos simulados">
+            <defs><linearGradient id="gg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#71A971" stop-opacity=".55"/><stop offset="1" stop-color="#71A971" stop-opacity="0"/></linearGradient></defs>
+            <g id="cg"></g><path id="ca" fill="url(#gg)"/><path id="cl" fill="none" stroke="#8FD18F" stroke-width="3" stroke-linejoin="round"/><circle id="cd" r="5" fill="#fff" stroke="#8FD18F" stroke-width="3"/>
+          </svg>
+        </div>
+        <div class="panel">
+          <div class="ph"><b>Agentes en ejecución</b><span class="muted" id="tasks">0 tareas hoy</span></div>
+          <div id="agents" class="agents"></div>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="ph"><b>Bitácora de acciones de los agentes</b><span class="muted">N2 = requiere aprobación humana</span></div>
+        <div id="log" class="log" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="view" id="v-inicio">
+      <div class="top"><div><h1>Carbones del Valle S.A.S.</h1><p>Proveedor de Boyacá · resumen de noviembre 2026</p></div><span class="pill">● Proveedor prioritario · puntaje 92</span></div>
       <div class="grid k4">
         <div class="card kpi"><span class="v">4.210 t</span><span class="l">Entregadas en el mes</span><span class="d up">▲ 6% vs octubre</span></div>
         <div class="card kpi"><span class="v">8,9%</span><span class="l">Cenizas promedio</span><span class="d up">Dentro de especificación</span></div>
@@ -178,6 +244,76 @@ input,select{font:inherit;font-weight:400;padding:10px 12px;border:1px solid var
 </div>
 <script>
 (function(){
+
+  /* ===== Centro de control agéntico (datos simulados) ===== */
+  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function nf(v,d){ return v.toLocaleString('es-CO',{minimumFractionDigits:d||0,maximumFractionDigits:d||0}); }
+  var K=[{l:'Toneladas recibidas hoy',v:1184,d:0,s:'t',step:[8,40]},{l:'Cenizas promedio del día',v:9.4,d:2,s:'%',step:[-0.06,0.05]},{l:'Proveedores en cumplimiento',v:87,d:0,s:'%',step:[-1,1]},{l:'Horas ahorradas hoy',v:31.5,d:1,s:'h',step:[0.2,0.9]}];
+  var kp=document.getElementById('kpis');
+  K.forEach(function(k,i){ k.h=[]; for(var j=0;j<24;j++) k.h.push(k.v*(0.9+0.1*j/23)+(Math.random()-0.5)*k.v*0.03); var c=document.createElement('div'); c.className='card kpi';
+    c.innerHTML='<span class="v" id="kv'+i+'">'+nf(k.v,k.d)+' '+k.s+'</span><span class="l">'+k.l+'</span><svg class="mini" viewBox="0 0 120 34" preserveAspectRatio="none"><path id="ks'+i+'" fill="none" stroke="#71A971" stroke-width="2"/></svg>'; kp.appendChild(c); });
+  function mini(i){ var k=K[i], mn=Math.min.apply(null,k.h), mx=Math.max.apply(null,k.h), r=(mx-mn)||1, d='';
+    k.h.forEach(function(v,j){ d+=(j?'L':'M')+(j*120/23).toFixed(1)+' '+(30-(v-mn)/r*26).toFixed(1); });
+    var el=document.getElementById('ks'+i); el.setAttribute('d',d); el.setAttribute('stroke', k.h[23]>=k.h[22]?'#4BE07A':'#FF5C5C'); }
+  function tickK(){ K.forEach(function(k,i){ var old=k.v; k.v=Math.max(0,k.v+k.step[0]+Math.random()*(k.step[1]-k.step[0])); if(k.s==='%'&&k.d===0) k.v=Math.min(99,Math.max(70,k.v));
+    k.h.push(k.v); k.h.shift(); var el=document.getElementById('kv'+i); el.textContent=nf(k.v,k.d)+' '+k.s;
+    var better=(i===1)?(k.v<old):(k.v>old); el.className='v '+(better?'flashu':'flashd'); setTimeout(function(){ el.className='v'; },700); mini(i); }); }
+  K.forEach(function(k,i){ mini(i); });
+
+  // cinta
+  var T=[['Castilla t/h',48.2,1.6],['Andalucía t/h',36.4,-0.8],['Salamanca t/h',29.1,0.9],['Cenizas %',9.4,-0.12],['Azufre %',0.68,-0.02],['Volátiles %',29.6,0.3],['Cupos libres',14,-2],['Embarques activos',4,1],['Docs por vencer',6,-1],['Pagos N2 pendientes',3,1]];
+  function tape(){ var h=''; T.forEach(function(x){ var up=x[2]>=0; h+='<span>'+x[0].toUpperCase()+' '+nf(x[1],x[1]%1?2:0)+' <b class="'+(up?'u':'d')+'">'+(up?'▲ +':'▼ ')+nf(x[2],Math.abs(x[2])%1?2:0)+'</b></span>'; }); document.getElementById('tape').innerHTML=h+h; }
+  tape();
+
+  // gráfico en vivo
+  var N=48, S=[], acc=0; for(var i=0;i<N;i++){ acc+=12+Math.random()*30; S.push(acc); }
+  var X0=40,X1=590,Y0=12,Y1=286;
+  function draw(){ var mx=Math.max.apply(null,S)*1.08, mn=Math.min.apply(null,S)*0.9, d='', g='';
+    for(var q=0;q<4;q++){ var val=mn+(mx-mn)*q/3, y=Y1-(Y1-Y0)*q/3; g+='<line x1="'+X0+'" x2="'+X1+'" y1="'+y+'" y2="'+y+'" stroke="#1F3047"/><text x="2" y="'+(y+4)+'">'+nf(val)+'</text>'; }
+    S.forEach(function(v,j){ var x=X0+(X1-X0)*j/(N-1), y=Y1-(Y1-Y0)*(v-mn)/(mx-mn); d+=(j?'L':'M')+x.toFixed(1)+' '+y.toFixed(1); });
+    document.getElementById('cg').innerHTML=g; document.getElementById('cl').setAttribute('d',d); document.getElementById('ca').setAttribute('d',d+'L'+X1+' '+Y1+'L'+X0+' '+Y1+'Z');
+    var ly=Y1-(Y1-Y0)*(S[N-1]-mn)/(mx-mn); var c=document.getElementById('cd'); c.setAttribute('cx',X1); c.setAttribute('cy',ly); }
+  function tickC(){ S.push(S[N-1]+8+Math.random()*34); S.shift(); draw(); }
+  draw();
+
+  // agentes
+  var AG=[['Agente de Recepción',['Registrando remisión de Carbones del Valle','Cruzando báscula con remisión','Asignando cupo en Planta Castilla']],
+          ['Agente de Calidad',['Comparando muestreo con especificación','Calculando mezcla para lote L-1191','Emitiendo certificado L-1190']],
+          ['Agente de Documentos',['Verificando RUCOM en registro de la ANM','Revisando vencimiento de pólizas','Enviando recordatorio a proveedor']],
+          ['Agente de Pagos',['Conciliando facturas contra recepción','Preparando lote de pagos del viernes','Esperando aprobación humana (N2)']]];
+  var agEl=document.getElementById('agents'), cnt=[37,52,19,11];
+  AG.forEach(function(a,i){ var d=document.createElement('div'); d.className='ag'; d.id='ag'+i;
+    d.innerHTML='<span class="dot"></span><div><b>'+a[0]+'</b><span id="agt'+i+'">'+a[1][0]+'</span></div><span class="n" id="agn'+i+'">'+cnt[i]+'</span><div class="agbar"><i id="agb'+i+'"></i></div>'; agEl.appendChild(d); });
+  var prog=[10,45,70,25], step=[0,0,0,0];
+  function total(){ document.getElementById('tasks').textContent=nf(cnt.reduce(function(a,b){return a+b},0))+' tareas hoy'; }
+  total();
+  function tickA(){ for(var i=0;i<4;i++){ prog[i]+=6+Math.random()*14; if(prog[i]>=100){ prog[i]=0; cnt[i]++; step[i]=(step[i]+1)%3; document.getElementById('agt'+i).textContent=AG[i][1][step[i]]; document.getElementById('agn'+i).textContent=cnt[i];
+      document.getElementById('ag'+i).classList.toggle('wait', /aprobación/.test(AG[i][1][step[i]])); total(); }
+    document.getElementById('agb'+i).style.width=prog[i]+'%'; } }
+
+  // bitácora
+  var EV=[['Recepción','Registró remisión R-88431 · 34,1 t · Planta Castilla',''],
+          ['Calidad','Lote L-1190 cumple especificación; certificado listo para firma',''],
+          ['Documentos','Póliza de Carbones del Valle vence en 18 días; recordatorio enviado',''],
+          ['Pagos','Lote de pagos del viernes: 6 facturas por $2.814 M','n2'],
+          ['Calidad','Remisión R-88440 con humedad 9,2% fuera de especificación','al'],
+          ['Recepción','Cupo martes 6:00 asignado a Minerales del Norte (ficticio)',''],
+          ['Documentos','RUCOM de Proveedor C por renovar; proveedor bloqueado para nuevas entregas','n2'],
+          ['Pagos','Factura FE-3420 conciliada con 3 remisiones; diferencia $0',''],
+          ['Calidad','Mezcla sugerida para L-1191: 60% Castilla + 40% Salamanca','n2'],
+          ['Recepción','Planta Andalucía al 92% de capacidad de patio','al']];
+  var log=document.getElementById('log'), e=0;
+  function hhmm(){ var d=new Date(); return ('0'+d.getHours()).slice(-2)+':'+('0'+d.getMinutes()).slice(-2)+':'+('0'+d.getSeconds()).slice(-2); }
+  function addEv(){ var x=EV[e%EV.length]; e++; var d=document.createElement('div'); d.className='ev '+x[2];
+    d.innerHTML='<time>'+hhmm()+'</time><span class="who">Agente de '+x[0]+'</span><span class="what">'+x[1]+'</span>'+(x[2]==='n2'?'<button type="button">Aprobar</button>':'');
+    var b=d.querySelector('button'); if(b) b.onclick=function(){ b.textContent='Aprobado por L. Rincón'; b.className='done'; b.disabled=true; };
+    log.insertBefore(d,log.firstChild); while(log.children.length>14) log.removeChild(log.lastChild); }
+  for(var z=0;z<5;z++) addEv();
+  function clock(){ document.getElementById('clock').textContent='Actualizado '+hhmm(); }
+  clock();
+  if(!reduce){ setInterval(tickK,1800); setInterval(tickC,1500); setInterval(tickA,450); setInterval(addEv,3200); setInterval(clock,1000);
+    setInterval(function(){ T.forEach(function(x){ var dlt=(Math.random()-0.45)*(Math.abs(x[1])*0.03+0.05); x[2]=Math.round(dlt*100)/100; x[1]=Math.max(0,x[1]+x[2]); }); tape(); },6000); }
+
   var D=[['R-88412','24 nov','Castilla','SXT-412','34,2','ok','Recibida'],['R-88377','22 nov','Castilla','TKM-118','33,8','ok','Recibida'],['R-88301','20 nov','Andalucía','SXT-412','34,0','w','En muestreo'],['R-88254','18 nov','Castilla','WPN-903','33,5','ok','Recibida'],['R-88190','15 nov','Salamanca','TKM-118','32,9','ok','Recibida'],['R-88122','13 nov','Castilla','SXT-412','34,4','b','Rechazo parcial']];
   function row(d,full){ return '<tr>'+(full?'<td>'+d[0]+'</td>':'')+'<td>'+d[1]+'</td><td>'+d[2]+'</td>'+(full?'<td>'+d[3]+'</td>':'')+'<td>'+d[4]+' t</td><td><span class="st '+d[5]+'"><i></i>'+d[6]+'</span></td></tr>'; }
   document.getElementById('lastdel').innerHTML=D.slice(0,4).map(function(d){return row(d,false)}).join('');
