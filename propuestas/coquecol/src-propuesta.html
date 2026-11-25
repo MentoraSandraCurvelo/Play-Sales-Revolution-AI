@@ -227,6 +227,12 @@ table{border-collapse:collapse;width:100%}
 @media (prefers-reduced-motion:reduce){.tk{animation:none}.b3{transition:none}.anim .mpbar i{width:var(--w)}}
 @media print{.ppanel[hidden]{display:grid}.tabs{display:none}}
 
+.appwrap{border:1px solid var(--line);background:#fff;box-shadow:0 10px 30px rgba(0,0,0,.12)}
+.apphead{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center;background:#243854;color:#fff;padding:10px 14px;font-size:16px}
+.applink{color:#fff;background:#71A971;padding:6px 12px;font-weight:700;text-decoration:none}
+.applink:hover{background:#4F8A50}
+.appwrap iframe{display:block;width:100%;height:600px;border:0}
+@media (max-width:600px){.appwrap iframe{height:640px}}
 .progress{position:fixed;top:0;left:0;right:0;height:5px;background:rgba(10,10,10,.08);z-index:50}
 .progress i{display:block;height:100%;width:0;background:var(--red)}
 .nav{position:fixed;right:max(14px,env(safe-area-inset-right,0px));bottom:16px;z-index:50;display:flex;gap:8px;align-items:center;background:var(--ink);color:#fff;border-radius:999px;padding:6px 8px 6px 16px;box-shadow:0 8px 24px rgba(0,0,0,.25);font-size:15px}
@@ -271,7 +277,7 @@ table{border-collapse:collapse;width:100%}
 <div class="progress" aria-hidden="true"><i id="prog"></i></div>
 <nav class="nav" aria-label="Navegación de la presentación">
   <button type="button" id="prev" aria-label="Diapositiva anterior">‹</button>
-  <b id="count">1 / 17</b>
+  <b id="count">1 / 18</b>
   <button type="button" id="next" aria-label="Diapositiva siguiente">›</button>
 </nav>
 
@@ -339,7 +345,7 @@ table{border-collapse:collapse;width:100%}
       <div><b data-count="159">159</b><span>sesiones</span></div>
       <div><b data-count="144">144</b><span>individuales</span></div>
       <div><b data-count="7">7</b><span>pruebas de concepto</span></div>
-      <div><b>1</b><span>plan de gobernanza</span></div>
+      <div><b data-count="2">2</b><span>apps prototipo</span></div>
     </div>
   </div>
   <span class="pageno"></span>
@@ -417,6 +423,24 @@ table{border-collapse:collapse;width:100%}
     <div class="tabs" role="tablist" aria-label="Pruebas de concepto" id="poctabs"></div>
     <div id="pocpanels"></div>
     <p class="src">Datos simulados con la estructura real de la operación de Grupo Coquecol (plantas, lotes, embarques y permisos citados en su Informe Anual 2023). Los tiempos de antes y después se miden con la línea base de diciembre.</p>
+  </div>
+  <span class="pageno"></span>
+</section>
+
+<section class="slide reveal">
+  <div class="bar"><h2>Productos que construyen los equipos: tableros, agentes y aplicaciones</h2><span class="tag"><img src="{{GLOBITO}}" alt="">IAM Intelligence™ · Coquecol 2026</span></div>
+  <div class="body">
+    <p class="callout">En Grupo Coquecol un directivo ya creó con IA una aplicación que reemplazó un sistema de información local. Esa es la versión asistida. IAM™ Intelligence lleva esa capacidad a la <b>versión agéntica</b> y la convierte en un sistema de trabajo: cada área construye sus productos con mentoría y con el aval de Tecnología y del comité de IA.</p>
+    <div class="cards c3">
+      <div class="card k"><span class="big" data-count="11">11</span><p><b>tableros de seguimiento</b>, uno por frente, alimentados por sus propios procesos.</p></div>
+      <div class="card k"><span class="big" data-count="7">7</span><p><b>agentes piloto</b> en operación controlada, con dueño, nivel de autonomía y medición.</p></div>
+      <div class="card k"><span class="big" data-count="2">2</span><p><b>aplicaciones prototipo</b>: una externa (portal de proveedores) y una interna que define el comité.</p></div>
+    </div>
+    <div class="appwrap">
+      <div class="apphead"><span><b>Prototipo navegable:</b> Portal de Proveedores de Carbón · Grupo Coquecol</span><a class="applink" href="app-proveedores.html" target="_blank" rel="noopener">Abrir en pantalla completa ↗</a></div>
+      <iframe src="app-proveedores.html" title="Prototipo Portal de Proveedores Grupo Coquecol" loading="lazy"></iframe>
+    </div>
+    <p class="src">Prototipo con datos simulados, construido por IAM™ para ilustrar el alcance. Los proveedores consultan entregas, calidad, pagos y documentos (RUCOM, título minero, póliza), agendan su cupo de descargue y preguntan a un asistente de IA. El producto final lo construye el equipo de Grupo Coquecol durante el programa.</p>
   </div>
   <span class="pageno"></span>
 </section>
@@ -548,7 +572,7 @@ table{border-collapse:collapse;width:100%}
       <span class="lab">PROGRAMA IAM INTELLIGENCE™</span>
       <span class="v">$72.600.000</span>
       <p>COP más IVA (19%: $13.794.000) · Total <b style="color:#fff">$86.394.000</b></p>
-      <p>Incluye: 48 sesiones individuales de diagnóstico · 96 sesiones individuales de mentoría · 11 sesiones grupales por frente · 4 sesiones directivas y de comité · plan de gobernanza · 7 pruebas de concepto agénticas · tablero IAE™ en vivo · informe final.</p>
+      <p>Incluye: 48 sesiones individuales de diagnóstico · 96 sesiones individuales de mentoría · 11 sesiones grupales por frente · 4 sesiones directivas y de comité · plan de gobernanza · 7 pruebas de concepto agénticas · 11 tableros · 2 aplicaciones prototipo · tablero IAE™ en vivo · informe final.</p>
       <p>Estabilización del 15 de febrero al 12 de marzo sin costo, si se requiere.</p>
     </div>
     <div class="why">

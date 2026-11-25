@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Portal de Proveedores · Grupo Coquecol</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Carlito:wght@400;700&display=swap">
+<style>
+/* Prototipo navegable de app externa para Grupo Coquecol: portal de proveedores mineros de carbón.
+   Colorimetría del logo Coquecol (azul #243854, verde #71A971). Letra de Sandra: Arial Bold + Calibri. Datos simulados. */
+:root{--navy:#243854;--navy2:#1A2A40;--green:#71A971;--green2:#4F8A50;--soft:#EEF5EE;--bg:#F4F6F9;--line:#DDE3EA;--fg:#14202E;--muted:#4C5A6A;
+  --ok:#2E8B46;--warn:#C98A00;--bad:#C62828;--h:Arial,'Arimo',Helvetica,sans-serif;--b:Calibri,'Carlito',Arial,sans-serif;color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--b);font-size:18px;line-height:1.45}
+h1,h2,h3{font-family:var(--h);margin:0}
+button{font:inherit;cursor:pointer}
+.proto{background:#FFF4CC;color:#6A5200;text-align:center;font-size:14px;padding:6px 10px;font-weight:700}
+.app{display:grid;grid-template-columns:240px minmax(0,1fr);min-height:calc(100vh - 32px)}
+.side{background:var(--navy);color:#fff;display:flex;flex-direction:column;gap:6px;padding:18px 12px}
+.brand{background:#fff;border-radius:10px;padding:10px;display:grid;place-items:center;margin-bottom:12px}
+.brand img{height:34px}
+.side button{display:flex;align-items:center;gap:10px;background:none;border:0;color:#D7E0EA;text-align:left;padding:11px 12px;border-radius:8px;font-size:17px}
+.side button:hover{background:rgba(255,255,255,.08)}
+.side button[aria-current="page"]{background:var(--green);color:#0F2010;font-weight:700}
+.side .ic{width:22px;text-align:center}
+.side .user{margin-top:auto;border-top:1px solid rgba(255,255,255,.15);padding:12px 6px 0;font-size:15px;color:#C5D0DC}
+.side .user b{color:#fff;display:block}
+.main{padding:22px clamp(16px,3vw,34px) 40px;display:grid;gap:18px;align-content:start;min-width:0}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.top h1{font-size:clamp(24px,2.6vw,30px);color:var(--navy)}
+.top p{margin:4px 0 0;color:var(--muted)}
+.pill{display:inline-flex;align-items:center;gap:6px;background:var(--soft);color:var(--green2);border:1px solid #CFE3CF;border-radius:999px;padding:5px 12px;font-weight:700;font-size:15px}
+.grid{display:grid;gap:14px}
+.k4{grid-template-columns:repeat(4,minmax(0,1fr))}.k2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 18px;display:grid;gap:8px;align-content:start;box-shadow:0 1px 2px rgba(20,32,46,.05)}
+.card h3{font-size:18px;color:var(--navy)}
+.kpi .v{font-family:var(--h);font-weight:700;font-size:32px;color:var(--navy);line-height:1}
+.kpi .l{color:var(--muted);font-size:16px}
+.kpi .d{font-size:14px;font-weight:700}
+.up{color:var(--ok)}.dn{color:var(--bad)}
+table{width:100%;border-collapse:collapse}
+th{background:var(--navy);color:#fff;text-align:left;font-size:15px;padding:10px 12px}
+td{padding:10px 12px;border-bottom:1px solid var(--line);font-size:16px}
+tr:nth-child(even) td{background:#F8FAFC}
+.scroll{overflow-x:auto;border-radius:10px;border:1px solid var(--line);background:#fff}
+.st{display:inline-flex;align-items:center;gap:6px;font-weight:700;font-size:15px}
+.st i{width:11px;height:11px;border-radius:50%;display:inline-block}
+.st.ok{color:var(--ok)}.st.ok i{background:var(--ok)}.st.w{color:var(--warn)}.st.w i{background:var(--warn)}.st.b{color:var(--bad)}.st.b i{background:var(--bad)}
+.bars{display:grid;gap:12px}
+.br{display:grid;grid-template-columns:150px minmax(0,1fr) 110px;gap:10px;align-items:center;font-size:16px}
+.tr{height:16px;background:#EDF1F5;border-radius:999px;position:relative;overflow:visible}
+.tr i{position:absolute;left:0;top:0;bottom:0;border-radius:999px;background:var(--green);width:0;transition:width 1s ease}
+.tr b{position:absolute;top:-4px;width:3px;height:24px;background:var(--navy)}
+.view{display:none;gap:18px;align-content:start}
+.view.on{display:grid;animation:in .35s ease}
+@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+form{display:grid;gap:12px}
+label{display:grid;gap:4px;font-weight:700;font-size:16px;color:var(--navy)}
+input,select{font:inherit;font-weight:400;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--fg)}
+.btn{background:var(--green);color:#0F2010;border:0;border-radius:8px;padding:12px 18px;font-weight:700;justify-self:start}
+.btn:hover{background:var(--green2);color:#fff}
+.slots{display:flex;flex-wrap:wrap;gap:8px}
+.slots button{border:1px solid var(--line);background:#fff;border-radius:8px;padding:8px 12px;font-size:16px}
+.slots button[aria-pressed="true"]{background:var(--navy);color:#fff;border-color:var(--navy)}
+.slots button:disabled{opacity:.45;cursor:not-allowed;text-decoration:line-through}
+.ok-msg{background:var(--soft);border:1px solid #CFE3CF;color:var(--green2);border-radius:10px;padding:12px 14px;font-weight:700}
+.chat{background:#fff;border:1px solid var(--line);border-radius:12px;display:grid;grid-template-rows:minmax(260px,1fr) auto;min-height:420px}
+.msgs{padding:16px;display:flex;flex-direction:column;gap:10px;overflow-y:auto;max-height:440px}
+.m{max-width:80%;padding:10px 14px;border-radius:14px;font-size:17px}
+.m.bot{background:var(--soft);align-self:flex-start;border-bottom-left-radius:4px}
+.m.me{background:var(--navy);color:#fff;align-self:flex-end;border-bottom-right-radius:4px}
+.ask{display:flex;gap:8px;padding:12px;border-top:1px solid var(--line)}
+.ask input{flex:1;min-width:0}
+.sugs{display:flex;flex-wrap:wrap;gap:8px}
+.sugs button{background:#fff;border:1px solid #CFE3CF;color:var(--green2);border-radius:999px;padding:6px 12px;font-size:15px;font-weight:700}
+.foot{display:flex;align-items:center;gap:8px;justify-content:center;font-size:14px;color:var(--muted);padding:10px}
+.foot img{width:20px}
+@media (max-width:860px){
+  .app{grid-template-columns:minmax(0,1fr)}
+  .side{flex-direction:row;overflow-x:auto;position:sticky;top:0;z-index:5;padding:8px;gap:4px}
+  .brand,.side .user{display:none}
+  .side button{white-space:nowrap;font-size:15px;padding:8px 10px}
+  .k4{grid-template-columns:repeat(2,minmax(0,1fr))}.k2{grid-template-columns:minmax(0,1fr)}
+  .br{grid-template-columns:minmax(0,1fr) 100px}.br .tr{grid-column:1/-1;grid-row:2}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="proto">PROTOTIPO CON DATOS SIMULADOS · construido con la metodología IAM™ Intelligence</div>
+<div class="app">
+  <nav class="side" aria-label="Menú del portal">
+    <div class="brand"><img src="{{COQ}}" alt="Grupo Coquecol"></div>
+    <button data-v="inicio" aria-current="page"><span class="ic">⌂</span>Inicio</button>
+    <button data-v="entregas"><span class="ic">⛟</span>Mis entregas</button>
+    <button data-v="calidad"><span class="ic">◎</span>Calidad</button>
+    <button data-v="pagos"><span class="ic">$</span>Pagos</button>
+    <button data-v="docs"><span class="ic">▤</span>Documentos</button>
+    <button data-v="agendar"><span class="ic">◷</span>Agendar entrega</button>
+    <button data-v="asistente"><span class="ic">✦</span>Asistente IA</button>
+    <div class="user"><b>Carbones del Valle S.A.S.</b>Proveedor · Boyacá<br>NIT 900.000.000-0</div>
+  </nav>
+
+  <main class="main">
+    <section class="view on" id="v-inicio">
+      <div class="top"><div><h1>Hola, Carbones del Valle</h1><p>Resumen de noviembre 2026</p></div><span class="pill">● Proveedor prioritario · puntaje 92</span></div>
+      <div class="grid k4">
+        <div class="card kpi"><span class="v">4.210 t</span><span class="l">Entregadas en el mes</span><span class="d up">▲ 6% vs octubre</span></div>
+        <div class="card kpi"><span class="v">8,9%</span><span class="l">Cenizas promedio</span><span class="d up">Dentro de especificación</span></div>
+        <div class="card kpi"><span class="v">$1.284 M</span><span class="l">Pagado en el mes</span><span class="d">Próximo pago: 5 dic</span></div>
+        <div class="card kpi"><span class="v">1</span><span class="l">Documento por vencer</span><span class="d dn">Póliza en 18 días</span></div>
+      </div>
+      <div class="grid k2">
+        <div class="card"><h3>Últimas entregas</h3><div class="scroll" style="border:0"><table><thead><tr><th>Fecha</th><th>Planta</th><th>Toneladas</th><th>Estado</th></tr></thead><tbody id="lastdel"></tbody></table></div></div>
+        <div class="card"><h3>Avisos de Grupo Coquecol</h3>
+          <p>⚠ Su póliza de cumplimiento vence en 18 días. Cárguela en <b>Documentos</b>.</p>
+          <p>✓ Su lote del 18 de noviembre cumplió especificación. Certificado disponible en <b>Calidad</b>.</p>
+          <p>◷ Hay cupos de descargue disponibles en Planta Castilla la próxima semana.</p>
+          <button class="btn" data-go="agendar">Agendar entrega</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="view" id="v-entregas">
+      <div class="top"><div><h1>Mis entregas</h1><p>Historial de recepción en planta</p></div></div>
+      <div class="scroll"><table><thead><tr><th>Remisión</th><th>Fecha</th><th>Planta</th><th>Placa</th><th>Toneladas</th><th>Estado</th></tr></thead><tbody id="alldel"></tbody></table></div>
+    </section>
+
+    <section class="view" id="v-calidad">
+      <div class="top"><div><h1>Calidad de mi carbón</h1><p>Promedio del mes frente a la especificación de compra</p></div><span class="pill">● Cumple 4 de 4</span></div>
+      <div class="card bars" id="qbars"></div>
+      <p style="color:var(--muted);font-size:15px">La raya azul marca el límite de la especificación. Especificación simulada para el prototipo.</p>
+    </section>
+
+    <section class="view" id="v-pagos">
+      <div class="top"><div><h1>Pagos</h1><p>Facturas y estado de pago</p></div></div>
+      <div class="scroll"><table><thead><tr><th>Factura</th><th>Fecha</th><th>Valor</th><th>Estado</th></tr></thead><tbody>
+        <tr><td>FE-3381</td><td>4 nov 2026</td><td>$ 642.000.000</td><td><span class="st ok"><i></i>Pagada 19 nov</span></td></tr>
+        <tr><td>FE-3392</td><td>11 nov 2026</td><td>$ 642.500.000</td><td><span class="st ok"><i></i>Pagada 24 nov</span></td></tr>
+        <tr><td>FE-3407</td><td>20 nov 2026</td><td>$ 598.300.000</td><td><span class="st w"><i></i>Programada 5 dic</span></td></tr>
+        <tr><td>FE-3415</td><td>24 nov 2026</td><td>$ 311.900.000</td><td><span class="st w"><i></i>En revisión de calidad</span></td></tr>
+      </tbody></table></div>
+    </section>
+
+    <section class="view" id="v-docs">
+      <div class="top"><div><h1>Documentos</h1><p>Requisitos para mantener su cupo de proveedor</p></div></div>
+      <div class="scroll"><table><thead><tr><th>Documento</th><th>Entidad</th><th>Vence</th><th>Estado</th></tr></thead><tbody>
+        <tr><td>Inscripción RUCOM</td><td>Agencia Nacional de Minería</td><td>12 ago 2027</td><td><span class="st ok"><i></i>Vigente</span></td></tr>
+        <tr><td>Título minero</td><td>Agencia Nacional de Minería</td><td>Vigente</td><td><span class="st ok"><i></i>Verificado</span></td></tr>
+        <tr><td>Póliza de cumplimiento</td><td>Aseguradora</td><td>13 dic 2026</td><td><span class="st w"><i></i>Vence en 18 días</span></td></tr>
+        <tr><td>Certificado de seguridad social</td><td>Proveedor</td><td>30 nov 2026</td><td><span class="st b"><i></i>Cargar este mes</span></td></tr>
+      </tbody></table></div>
+      <label style="max-width:460px">Cargar documento<input type="file" aria-label="Seleccionar archivo"></label>
+    </section>
+
+    <section class="view" id="v-agendar">
+      <div class="top"><div><h1>Agendar entrega</h1><p>Reserve su cupo de descargue en planta</p></div></div>
+      <div class="card">
+        <form id="fagenda">
+          <label>Planta<select id="fplanta"><option>Planta Castilla</option><option>Planta Andalucía</option><option>Planta Salamanca</option></select></label>
+          <label>Toneladas estimadas<input id="ftons" type="number" min="10" max="600" value="120"></label>
+          <div><b style="color:var(--navy)">Cupo disponible (semana del 30 de noviembre)</b><div class="slots" id="slots" style="margin-top:8px"></div></div>
+          <button class="btn" type="submit">Confirmar entrega</button>
+          <div id="okmsg" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="view" id="v-asistente">
+      <div class="top"><div><h1>Asistente IA del proveedor</h1><p>Respuestas con la información de su cuenta y las políticas de compra de Grupo Coquecol</p></div></div>
+      <div class="sugs" id="sugs"><button>¿Cuándo me pagan la factura FE-3407?</button><button>¿Cómo va mi calidad este mes?</button><button>¿Qué documento tengo pendiente?</button><button>¿Hay cupo en Castilla el martes?</button></div>
+      <div class="chat"><div class="msgs" id="msgs" aria-live="polite"></div>
+        <form class="ask" id="fask"><input id="q" placeholder="Escriba su pregunta…" aria-label="Pregunta"><button class="btn" type="submit">Enviar</button></form></div>
+    </section>
+
+    <div class="foot"><img src="{{GLOBITO}}" alt="IAM™">Prototipo construido con IAM™ Intelligence · Datos simulados</div>
+  </main>
+</div>
+<script>
+(function(){
+  var D=[['R-88412','24 nov','Castilla','SXT-412','34,2','ok','Recibida'],['R-88377','22 nov','Castilla','TKM-118','33,8','ok','Recibida'],['R-88301','20 nov','Andalucía','SXT-412','34,0','w','En muestreo'],['R-88254','18 nov','Castilla','WPN-903','33,5','ok','Recibida'],['R-88190','15 nov','Salamanca','TKM-118','32,9','ok','Recibida'],['R-88122','13 nov','Castilla','SXT-412','34,4','b','Rechazo parcial']];
+  function row(d,full){ return '<tr>'+(full?'<td>'+d[0]+'</td>':'')+'<td>'+d[1]+'</td><td>'+d[2]+'</td>'+(full?'<td>'+d[3]+'</td>':'')+'<td>'+d[4]+' t</td><td><span class="st '+d[5]+'"><i></i>'+d[6]+'</span></td></tr>'; }
+  document.getElementById('lastdel').innerHTML=D.slice(0,4).map(function(d){return row(d,false)}).join('');
+  document.getElementById('alldel').innerHTML=D.map(function(d){return row(d,true)}).join('');
+  var Q=[['Cenizas',8.9,12,'%'],['Azufre',0.62,0.8,'%'],['Materia volátil',28,32,'%'],['Humedad',6.1,8,'%']];
+  document.getElementById('qbars').innerHTML=Q.map(function(q){ var max=q[2]*1.25; return '<div class="br"><span>'+q[0]+'</span><div class="tr"><i data-w="'+(q[1]/max*100)+'"></i><b style="left:'+(q[2]/max*100)+'%"></b></div><span><b>'+String(q[1]).replace('.',',')+q[3]+'</b> / ≤ '+String(q[2]).replace('.',',')+q[3]+'</span></div>'; }).join('');
+  function show(v){ document.querySelectorAll('.view').forEach(function(s){ s.classList.toggle('on', s.id==='v-'+v); });
+    document.querySelectorAll('.side button').forEach(function(b){ if(b.dataset.v===v) b.setAttribute('aria-current','page'); else b.removeAttribute('aria-current'); });
+    if(v==='calidad') setTimeout(function(){ document.querySelectorAll('#qbars i').forEach(function(i){ i.style.width=i.dataset.w+'%'; }); },60);
+    window.scrollTo(0,0); }
+  document.querySelectorAll('[data-v],[data-go]').forEach(function(b){ b.addEventListener('click',function(){ show(b.dataset.v||b.dataset.go); }); });
+  var SL=['Lun 30 · 6:00','Lun 30 · 10:00','Mar 1 · 6:00','Mar 1 · 14:00','Mié 2 · 8:00','Jue 3 · 6:00','Vie 4 · 10:00'], taken=[1,4], pick=null, sl=document.getElementById('slots');
+  SL.forEach(function(s,i){ var b=document.createElement('button'); b.type='button'; b.textContent=s; b.setAttribute('aria-pressed','false'); if(taken.indexOf(i)>=0) b.disabled=true;
+    b.onclick=function(){ sl.querySelectorAll('button').forEach(function(x){x.setAttribute('aria-pressed','false')}); b.setAttribute('aria-pressed','true'); pick=s; }; sl.appendChild(b); });
+  document.getElementById('fagenda').onsubmit=function(e){ e.preventDefault(); var m=document.getElementById('okmsg');
+    if(!pick){ m.innerHTML='<p style="color:var(--bad);font-weight:700">Seleccione un cupo.</p>'; return; }
+    m.innerHTML='<div class="ok-msg">✓ Entrega confirmada: '+document.getElementById('fplanta').value+', '+pick+', '+document.getElementById('ftons').value+' t. Código de ingreso: CQ-'+(4000+Math.floor(Math.random()*900))+'. Recibirá la confirmación por correo.</div>'; };
+  var A=[[/pag|factura|3407/i,'La factura FE-3407 por $598.300.000 está programada para pago el 5 de diciembre. La FE-3415 está en revisión de calidad y se libera cuando el laboratorio cierre el muestreo.'],
+         [/calidad|ceniza|azufre/i,'Este mes su carbón cumple la especificación en los 4 parámetros: cenizas 8,9%, azufre 0,62%, volátiles 28% y humedad 6,1%. El 13 de noviembre hubo un rechazo parcial por humedad en la remisión R-88122.'],
+         [/document|pendiente|póliza|poliza|rucom/i,'Tiene 2 pendientes: el certificado de seguridad social de noviembre (cargar antes del 30) y la póliza de cumplimiento, que vence el 13 de diciembre. Su RUCOM está vigente hasta agosto de 2027.'],
+         [/cupo|castilla|martes|agendar|entrega/i,'En Planta Castilla el martes 1 de diciembre hay cupo a las 6:00 y a las 14:00. ¿Quiere que lo lleve a Agendar entrega?']];
+  var msgs=document.getElementById('msgs');
+  function add(t,who){ var d=document.createElement('div'); d.className='m '+who; d.textContent=t; msgs.appendChild(d); msgs.scrollTop=msgs.scrollHeight; }
+  add('Hola, soy el asistente de proveedores de Grupo Coquecol. Puedo consultar sus entregas, calidad, pagos, documentos y cupos de descargue.','bot');
+  function ask(q){ if(!q) return; add(q,'me'); var r='Puedo ayudarle con entregas, calidad, pagos, documentos y cupos. Para otros temas lo comunico con el analista de compras.'; A.forEach(function(a){ if(a[0].test(q) && r.indexOf('Puedo ayudarle')===0) r=a[1]; }); setTimeout(function(){ add(r,'bot'); },500); }
+  document.getElementById('fask').onsubmit=function(e){ e.preventDefault(); var q=document.getElementById('q'); ask(q.value.trim()); q.value=''; };
+  document.querySelectorAll('#sugs button').forEach(function(b){ b.onclick=function(){ ask(b.textContent); }; });
+})();
+</script>
+</body>
+</html>
