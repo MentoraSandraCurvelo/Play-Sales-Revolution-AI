@@ -120,3 +120,4 @@ Formato 3 párrafos. Comparación A vs B el lun 30 nov.
 - Bavaria y Brinsa fueron clientes de la etapa Apasiona-T (no de IAM™): no se nombran como clientes de IAM™.
 - Mensaje Barranquilla (versión C, basada en el mensaje de Isa, tuteo, 3 párrafos): ver respuesta a Sandra del 25 nov.
 - Flujo: Chrome lista conexiones de 1.er grado en Barranquilla con cargos objetivo (solo lectura) → Claude cruza con lotes previos y base Sibruno → Sandra aprueba → envío jue 26 y vie 27 (máx. 15/día).
+- Fechas del viaje (Sandra, 25 nov): martes 1 y miércoles 2 de diciembre de 2026 en Barranquilla.
