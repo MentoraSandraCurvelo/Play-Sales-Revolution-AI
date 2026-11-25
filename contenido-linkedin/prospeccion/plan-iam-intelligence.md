@@ -114,3 +114,9 @@ Formato 3 párrafos. Comparación A vs B el lun 30 nov.
 - Resultado lote 3 (25 nov, 9:19 a 9:28 a. m.): 6/15 enviados. A: Jorge Iván Ramírez, Juan Carlos Gonzalez, Santiago Martínez Crespo, Carolina Santana, Helmut Cáceda (5). B: Paola Andrea Muñoz (Asograsas) (1). Reconexión: María del Mar Palau, Bruno Zavala, Victor Castro, Paula Ocampo, Isis Duran, Andres Tellez, Jorge Ortiz. Fuera: Maria Alejandra Sampayo (Bruno, 15 nov), Javier Diaz Molina (ex presidente de Analdex; candidato de reemplazo: Diego Rengifo, VP Analdex). Posible espacio menor de 2 min entre 9:21 y 9:23.
 - Borradores de reconexión del lote 3 entregados a Sandra el 25 nov (pendientes de su sí).
 - Reconexiones lote 3 ENVIADAS el 25 nov (9:56 a 10:09 a. m.): María del Mar Palau, Victor Castro (como "Víctor"), Paula Ocampo, Isis Duran, Andres Tellez, Jorge Ortiz, Bruno Zavala. Total del día: 13/15. Sin avisos. Seguimiento: lun 30 nov (comparación A, B y reconexión).
+
+## Campaña Barranquilla (aprobada por Sandra 25 nov 2026; viaja la semana del 30 nov)
+- Cifras: "más de 40 clientes en Latinoamérica" (IAM™, dato de Sandra 25 nov; en Dropbox /3-Clientes/1.Cerradas/2. IAM Social hay unas 25 carpetas de clientes únicos, el resto por confirmar) y "más de 800 horas al mes en una caja de compensación con 18 áreas".
+- Bavaria y Brinsa fueron clientes de la etapa Apasiona-T (no de IAM™): no se nombran como clientes de IAM™.
+- Mensaje Barranquilla (versión C, basada en el mensaje de Isa, tuteo, 3 párrafos): ver respuesta a Sandra del 25 nov.
+- Flujo: Chrome lista conexiones de 1.er grado en Barranquilla con cargos objetivo (solo lectura) → Claude cruza con lotes previos y base Sibruno → Sandra aprueba → envío jue 26 y vie 27 (máx. 15/día).
