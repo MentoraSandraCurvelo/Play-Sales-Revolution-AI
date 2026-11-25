@@ -111,3 +111,5 @@ B, mensaje historia: Victor Castro (ANDI, Cámara de Proveedores), Javier Diaz M
 Fuera: Carlos Eduardo Hurtado y Vicky Osorio (ya contactados el 10 nov), Camilo Montes (lote 1), Raúl Zuleta (gestión humana), perfiles que no son cámara ni gremio.
 Formato 3 párrafos. Comparación A vs B el lun 30 nov.
 - (25 nov 2026, Sandra: "sí") Quienes del lote 3 salgan como "reconexión" reciben un mensaje personalizado que Claude redacta según la conversación previa; Sandra lo aprueba antes de enviar.
+- Resultado lote 3 (25 nov, 9:19 a 9:28 a. m.): 6/15 enviados. A: Jorge Iván Ramírez, Juan Carlos Gonzalez, Santiago Martínez Crespo, Carolina Santana, Helmut Cáceda (5). B: Paola Andrea Muñoz (Asograsas) (1). Reconexión: María del Mar Palau, Bruno Zavala, Victor Castro, Paula Ocampo, Isis Duran, Andres Tellez, Jorge Ortiz. Fuera: Maria Alejandra Sampayo (Bruno, 15 nov), Javier Diaz Molina (ex presidente de Analdex; candidato de reemplazo: Diego Rengifo, VP Analdex). Posible espacio menor de 2 min entre 9:21 y 9:23.
+- Borradores de reconexión del lote 3 entregados a Sandra el 25 nov (pendientes de su sí).
