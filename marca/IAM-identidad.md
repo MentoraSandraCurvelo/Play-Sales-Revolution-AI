@@ -33,15 +33,16 @@
 
 ## Tipografía
 
-- **Display (titulares, wordmark IAM™):** Playfair Display 700/900. Respaldo: Georgia, serif.
-- **Texto:** Outfit 300/400/500/600. Respaldo: Arial / Helvetica, sans-serif.
-- Google Fonts: `https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Outfit:wght@300;400;500;600&display=swap`
+- **Titulares, wordmark IAM™ y cifras:** Arial Bold. Respaldo web: Arimo (Google Fonts), Helvetica.
+- **Texto:** Calibri. Respaldo web: Carlito (Google Fonts), Arial.
+- Google Fonts (solo respaldo): `https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Carlito:ital,wght@0,400;0,700;1,400&display=swap`
+- No usar Playfair Display ni Outfit (decisión de Sandra, 25-nov-2026).
 
 ## Logo (OBLIGATORIO en toda pieza)
 
 - Isotipo: globo de diálogo rojo con comillas blancas. Versión lista para usar, recortada y con fondo transparente: `marca/iam-globito.png`. Logo completo: `logo.png` en la raíz.
-- Wordmark: **IAM** en Playfair Display 900 + ™ en superíndice. Sobre negro en blanco; sobre blanco en negro.
-- Regla: todo reporte, tablero, propuesta o documento lleva al menos el globito en el encabezado y en el pie, y la tipografía de la marca (Playfair Display + Outfit).
+- Wordmark: **IAM** en Arial Bold + ™ en superíndice. Sobre negro en blanco; sobre blanco en negro.
+- Regla: todo reporte, tablero, propuesta o documento lleva al menos el globito en el encabezado y en el pie, y la tipografía de la marca (Arial Bold + Calibri).
 
 ## Las 5 líneas IAM™ (según iamlatam.co)
 
