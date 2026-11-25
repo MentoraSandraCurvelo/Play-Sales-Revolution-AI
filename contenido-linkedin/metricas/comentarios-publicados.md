@@ -141,3 +141,4 @@ Nota: 2 de 4 automáticos cierran con "¿Qué indicador usa…?"; variar el cier
 - Respuestas: 7:38 Domingos Esteves (FWD Advisors), 7:39 Diego Freire S. OK.
 - Comfandi 7:47: solo reacción "Interesante", sin comentario visible.
 - Faltó: 1 comentario (4/5) y la cámara binacional de la regla 50; se compensa en la corrida de las 3:05 p. m.
+- (25 nov, tarde) Comentario CCB EDITADO por Chrome: primera frase ahora "4.385 empresas y emprendedores beneficiados este año, y 1.003 con acompañamiento a profundidad, es una base muy valiosa para lo que viene." Cifras verificadas en el post de la CCB (pantallazo de Sandra).
