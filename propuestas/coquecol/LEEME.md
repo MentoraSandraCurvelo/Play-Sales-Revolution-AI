@@ -9,4 +9,5 @@
 - Fechas: arranque 14-dic-2026, cierre 12-feb-2027, estabilización opcional de cortesía 15-feb a 12-mar-2027.
 - PoC: 7 priorizadas (logística, calidad, compras, finanzas, S&OP, ambiental/jurídico, SST) con demo en pestañas; tablero IAE tipo bolsa y semaforización por macroprocesos (datos simulados).
 - Productos: 11 tableros, 7 agentes piloto, 2 apps prototipo. Prototipo navegable: app-proveedores.html (fuente src-app-proveedores.html), colores Coquecol #243854 y #71A971, datos simulados.
+- Comfacesar en la propuesta: ≈256 h/sem recuperadas (255,5), 51 colaboradores, ≈5 h por persona. Vigencia: 31-dic-2026. Valor más IVA confirmado.
 - Falta: nombres de los participantes; confirmar vacaciones colectivas de Coquecol.
