@@ -331,3 +331,6 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Antecedente: propuesta de Apasiona-T "Transformación Digital Comercial Satena" (descartada; Dropbox /3-Clientes/4. Descartadas/Satena/). No mencionarla en comentarios.
 - Mensaje directo a Oscar Zuluaga: lo prepara Claude después de 2 o 3 comentarios, y Sandra lo aprueba. Antes, revisar que Bruno no le haya escrito (regla 48).
 - Va aparte de los 10 comentarios diarios de la regla 50, como Comfacesar y Drummond.
+
+## Regla 55 (25 nov 2026, Sandra) Siempre tutear
+- Todos los mensajes, comentarios, respuestas y textos a nombre de Sandra van en "tú", nunca en "usted". Aplica también a Sibruno (hoy su bot escribe "su mirada", "Cómo le va?", "Un gusto saludarlo"): pedir al equipo de Sibruno que cambie sus plantillas a tuteo.
