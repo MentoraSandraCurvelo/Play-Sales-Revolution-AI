@@ -321,3 +321,13 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Sibruno envió 65 invitaciones en 7 días desde la cuenta de Sandra. Límite nuevo en Sibruno (lo cambia Chrome): 5 invitaciones al día (2 por corrida) y 10 mensajes al día.
 - Tope semanal total de invitaciones (Sibruno + nosotros): 50. Sibruno usa hasta 35; las nuestras quedan en máximo 3 al día de lunes a viernes (15 a la semana) desde el jue 26 nov.
 - Mensajes totales al día: nuestros 15 + Sibruno 10 = 25 como máximo.
+
+## Regla 54 (25 nov 2026, Sandra) Satena y su presidente
+- Objetivo: que Satena y su presidente, Oscar Zuluaga Castaño (Sandra le dice "el general Óscar"; conexión de 1.er grado desde el 30 sep 2024, linkedin.com/in/oscar-zuluaga-casta%C3%B1o-3544711a5), vean a Sandra como experta en IA y la reciban con un proyecto de IA.
+- Cuenta fija en todas las corridas: página de Satena y perfil de Oscar Zuluaga. Comentar sus publicaciones nuevas, idealmente en las primeras 2 horas, 1 comentario por post.
+- Página de Satena: Chrome publica solo, con las reglas 46, 49 y 50. Perfil de Oscar Zuluaga: los primeros 3 comentarios se le muestran a Sandra y esperan su sí.
+- Enfoque: conectividad regional, operación, atención al pasajero, PQRS, mantenimiento y documentación técnica, ventas corporativas; IA aplicada y medida en horas, con la persona que revisa y decide. Sin vender, sin links, sin pedir reunión, sin cifras inventadas.
+- No comentar posts políticos, de duelo, de accidentes o incidentes, ni de la Milagro Week. Satena es entidad del Estado: tono institucional.
+- Antecedente: propuesta de Apasiona-T "Transformación Digital Comercial Satena" (descartada; Dropbox /3-Clientes/4. Descartadas/Satena/). No mencionarla en comentarios.
+- Mensaje directo a Oscar Zuluaga: lo prepara Claude después de 2 o 3 comentarios, y Sandra lo aprueba. Antes, revisar que Bruno no le haya escrito (regla 48).
+- Va aparte de los 10 comentarios diarios de la regla 50, como Comfacesar y Drummond.
