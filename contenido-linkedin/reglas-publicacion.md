@@ -316,3 +316,8 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 - Ángulo: IA en el sector público con método (medir antes de automatizar, la persona revisa y firma, horas devueltas al ciudadano, gobernanza y datos). Nunca elogio vacío ni venta.
 - Si el post es del Presidente o tiene tono político o de campaña, o menciona la Milagro Week: no comentar en automático; mostrarle el texto a Sandra y esperar su sí (o no comentar si es partidista).
 - (24 nov) Precisión regla 52: la regla de la Milagro Week (17 y 18 nov) manda sobre la 52. Post de MinTIC que mencione la Milagro Week: no se comenta ni se reacciona.
+
+## Regla 53 (25 nov 2026, Sandra: "bajemos el límite nosotros")
+- Sibruno envió 65 invitaciones en 7 días desde la cuenta de Sandra. Límite nuevo en Sibruno (lo cambia Chrome): 5 invitaciones al día (2 por corrida) y 10 mensajes al día.
+- Tope semanal total de invitaciones (Sibruno + nosotros): 50. Sibruno usa hasta 35; las nuestras quedan en máximo 3 al día de lunes a viernes (15 a la semana) desde el jue 26 nov.
+- Mensajes totales al día: nuestros 15 + Sibruno 10 = 25 como máximo.
