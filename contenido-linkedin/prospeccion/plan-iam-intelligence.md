@@ -104,3 +104,9 @@ Uso: lote 3 (cámaras, mié 25 nov), comparado contra el mensaje historia.
 - Bruno escribió el 24 nov a 8 personas (Alfonso Prieto Gomez, Andres Arias Vives, Cristian Satizábal, Johnny Fayad, Carolina Molano, Miguel Bernal, Victor Fajardo, Fabian Ricardo Rincon): solo lectura, regla 48.
 - Corrida del 24 nov a las 3:05 p. m.: NO se hizo (0 de 5 comentarios). Solo hubo una respuesta en el post propio a las 3:07 p. m.
 - Alberto Vives y Luz Stella Murgas: siguen Pending (2.º grado). Banco Mundo Mujer: cerrado, no aplica.
+
+## Lote 3 (mié 25 nov 2026): cámaras y gremios, prueba A/B (aprobado por Sandra: "si arma el lote")
+A, mensaje cámaras: Jorge Iván Ramírez Cadavid (CC Pereira), María del Mar Palau (CC Cali), Maria Alejandra Sampayo Guerrero (CC Bucaramanga), Juan Carlos Gonzalez Vergara (CC Bogotá), Santiago Martínez Crespo (Cámara Ecuatoriano Coreana), Carolina Santana (AHK Colombia, binacional), Helmut Cáceda Salazar (CAPECE, Perú), Bruno Zavala Intriago (Cámara de Centros Comerciales de Ecuador).
+B, mensaje historia: Victor Castro (ANDI, Cámara de Proveedores), Javier Diaz Molina (Analdex), Paola Andrea Muñoz Jurado (asociación de grasas y aceites), Paula Ocampo Seferian (Acoplásticos), Isis Duran (Invest in Bogotá), Andres Tellez Luque (CC Bogotá, mercadeo), Jorge Ortiz (CCCE).
+Fuera: Carlos Eduardo Hurtado y Vicky Osorio (ya contactados el 10 nov), Camilo Montes (lote 1), Raúl Zuleta (gestión humana), perfiles que no son cámara ni gremio.
+Formato 3 párrafos. Comparación A vs B el lun 30 nov.
