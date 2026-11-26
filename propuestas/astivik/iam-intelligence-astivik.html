@@ -518,7 +518,7 @@ table{border-collapse:collapse;width:100%}
   FR.forEach(function(f){ var c=semc(f[1]), col=document.createElement('div'); col.className='b3col';
     col.innerHTML='<span class="v">'+f[1]+'</span><div class="b3" data-h="'+(f[1]*2.2)+'" style="--c1:'+c[0]+';--c2:'+c[1]+';--c3:'+c[2]+';--c4:'+c[3]+'"></div><small>'+f[0]+'</small>'; b3.appendChild(col); });
   var N=40, pts=[], v=20, seed=11; function rnd(){ seed=(seed*9301+49297)%233280; return seed/233280; }
-  for(var i=0;i<N;i++){ v+=(64-20)/N+(rnd()-0.45)*3.2; if(i===N-1) v=64.4; pts.push(v); }
+  for(var i=0;i<N;i++){ v=20+(64.4-20)*i/(N-1)+(i===N-1?0:(rnd()-0.5)*3); pts.push(v); }
   var x0=36,y0=14,x1=628,y1=236; function X(i){ return x0+(x1-x0)*i/(N-1); } function Yv(val){ return y1-(y1-y0)*(val-10)/80; }
   var gh=''; [20,40,60,80].forEach(function(g){ gh+='<line x1="'+x0+'" x2="'+x1+'" y1="'+Yv(g)+'" y2="'+Yv(g)+'" stroke="#2A2A2A"/><text x="4" y="'+(Yv(g)+4)+'">'+g+'</text>'; });
   for(var s=1;s<=8;s++){ gh+='<text x="'+(X(Math.round((N-1)*s/8))-12)+'" y="254">S'+s+'</text>'; }
