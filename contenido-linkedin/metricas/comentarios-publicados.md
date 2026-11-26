@@ -142,3 +142,8 @@ Nota: 2 de 4 automáticos cierran con "¿Qué indicador usa…?"; variar el cier
 - Comfandi 7:47: solo reacción "Interesante", sin comentario visible.
 - Faltó: 1 comentario (4/5) y la cámara binacional de la regla 50; se compensa en la corrida de las 3:05 p. m.
 - (25 nov, tarde) Comentario CCB EDITADO por Chrome: primera frase ahora "4.385 empresas y emprendedores beneficiados este año, y 1.003 con acompañamiento a profundidad, es una base muy valiosa para lo que viene." Cifras verificadas en el post de la CCB (pantallazo de Sandra).
+
+## Jue 26 nov 2026 (revisados por Claude: OK)
+- 8:53 SATENA, MRO República Dominicana (regla 54, aprobado por Sandra). OK.
+- 8:56 SATENA, primer año Contact Center Medellín (regla 54, aprobado por Sandra). OK.
+- La corrida automática de las 7:35 (5 comentarios de la regla 50) NO se hizo: Chrome estuvo en Barranquilla y SATENA. Se compensa a las 3:05 p. m. (máximo 10 al día).
