@@ -17,7 +17,7 @@
   "lifecycleState": "PUBLISHED",
   "isReshareDisabledByAuthor": false
  },
- "nota": "Post crítico 'vitrina o sistema', solo texto. Sandra aprobó el texto el 26 nov y pidió círculos rojos y hashtags a su estilo. Primer comentario pendiente de su sí.",
+ "nota": "Post crítico 'vitrina o sistema', solo texto. Sandra aprobó el texto el 26 nov y pidió círculos rojos y hashtags a su estilo. Primer comentario aprobado por Sandra el 26 nov.",
  "primer_comentario": "Una prueba rápida para el lunes: pregúntale a cada jefe de área cuántas horas le ahorró la IA el mes pasado. Si las respuestas son \"muchas\", \"más o menos\" o \"no sé\", ahí está el punto de partida.",
- "primer_comentario_estado": "pendiente_aprobacion"
+ "primer_comentario_estado": "aprobado"
 }
