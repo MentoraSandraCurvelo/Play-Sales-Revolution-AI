@@ -131,3 +131,5 @@ Formato 3 párrafos. Comparación A vs B el lun 30 nov.
 - (26 nov, 8:48 a 8:58 a. m.) Lote Barranquilla 1: 5/15 enviados (Diany Aris, Pedro De La Ossa, Jairo Duran, Daniel Navarro, Orlando López). Pausa por aviso "You're out of free custom notes" al invitar a Mateo Arjona (perfil linkedin.com/in/mateoarjona, CEO SATENA, 2.º grado). Ese aviso es del cupo de notas de invitación de la cuenta gratuita, no de actividad ni restricción.
 - Comentarios SATENA publicados: MRO (8:53 a. m.) y Contact Center Medellín (8:56 a. m.).
 - (26 nov) WhatsApp a Zuleima Radi (Cruz Roja Atlántico) ENVIADO por Sandra. Patricia Torres: Sandra lo envía hoy.
+- (26 nov, 9:00 a 9:17 a. m.) Lote Barranquilla 1 COMPLETO: 14/15 enviados. Katherine Castillo fuera (hoy es Comercial Senior TI en E-GLOBAL; además Sandra Bermudez, CEO de E-GLOBAL, está en el grupo B). Claudia Fuentes Alcántara aparece como Presidente CD ProBarranquilla y miembro de juntas (Grupo Su Servicio, Solmex, Viaservin): contacto de altísimo valor. MetLife: Roberto Trujillo y Cindy Rodriguez.
+- Invitación SIN nota a Mateo Arjona (CEO SATENA) enviada 9:17 a. m., Pending. 1/3 invitaciones del día.
