@@ -127,3 +127,4 @@ Formato 3 párrafos. Comparación A vs B el lun 30 nov.
 - (26 nov) Lote Barranquilla 1 (15) APROBADO por Sandra y pegado en Chrome; esperando tabla de envíos.
 - (26 nov) Zuleima Radi Sagbini (Directora Ejecutiva, Cruz Roja Atlántico): Sandra la aborda por WhatsApp con mensaje de IA (borrador entregado); no se le escribe por LinkedIn.
 - (26 nov) Aprobados por Sandra los 2 comentarios para la página de SATENA (MRO República Dominicana y Contact Center Medellín).
+- (26 nov) Sandra APROBÓ la nota de invitación a Mateo Arjona y el mensaje para cuando acepte. Sin juegos de palabras con "mate" (malentendido: Sandra nunca lo pidió).
