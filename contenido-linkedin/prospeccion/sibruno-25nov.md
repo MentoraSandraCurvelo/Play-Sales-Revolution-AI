@@ -8,3 +8,8 @@
   - Jhonny Hoyos (Keralty): usan KAI, Workspace, Gemini y Claude; sin respuesta a cómo miden.
   - Luis Felipe Quintero (Fondo Adaptación): solo saludo.
 - Alertas: 65 invitaciones en 7 días solo de Sibruno (> límite de 50 a la semana de la regla 48); escribe a cargos de RR. HH. (Gina Ramirez, Marisol Tamayo, Laura Cubides); Abelardo De La Espriella aparece como invitado (regla: al Presidente solo se le sigue).
+
+## Respuestas al 25 nov (reporte de Chrome)
+- Nuestras (42 enviados): 0 respuestas.
+- Sibruno: Fabian Ricardo Rincon (Allianz): 24 nov "etapa inicial, priorizando foco 2027"; 25 nov 1:11 p. m. "varias áreas que generan procesos manuales de reportes". Johnny Fayad (Terpel, Dir. Nacional Ventas EDS Propias): "Hola, SANDRA". Victor Fajardo Pizarro (Astivik, compras y cadena de suministro): pide brochure al correo de compras de Astivik (dato en LinkedIn).
+- No hay brochure genérico de IAM™ en Dropbox (solo propuestas de clientes, que no se envían).
