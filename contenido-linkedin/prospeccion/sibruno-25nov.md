@@ -13,3 +13,4 @@
 - Nuestras (42 enviados): 0 respuestas.
 - Sibruno: Fabian Ricardo Rincon (Allianz): 24 nov "etapa inicial, priorizando foco 2027"; 25 nov 1:11 p. m. "varias áreas que generan procesos manuales de reportes". Johnny Fayad (Terpel, Dir. Nacional Ventas EDS Propias): "Hola, SANDRA". Victor Fajardo Pizarro (Astivik, compras y cadena de suministro): pide brochure al correo de compras de Astivik (dato en LinkedIn).
 - No hay brochure genérico de IAM™ en Dropbox (solo propuestas de clientes, que no se envían).
+- (26 nov) Sandra tomó las 3 conversaciones: respuestas tuteadas ENVIADAS a Fabian Rincon (Allianz), Victor Fajardo (Astivik) y Johnny Fayad (Terpel). A Victor se le envió el brochure por correo (hecho con Brandia). Seguimiento: si no responden, recordatorio corto el lun 30 nov. Pedir al equipo de Sibruno que el bot no escriba más en estas 3 conversaciones.
