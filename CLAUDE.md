@@ -68,5 +68,5 @@ De aquí en adelante (5 nov 2026): presencia en 8 países (Colombia, México, Pe
 ## Conferencias y casos que sí se nombran (9 nov 2026)
 Drummond (caso de éxito, publicado en su web), la UDES / iTech 2025 (conferencia pública), Mujer Radiante (400 mujeres) y la conferencia de Jelou en Bogotá se pueden nombrar. Serie "recuerdos" de conferencias: se editan piezas nuevas desde el material en crudo; nunca se repite un video ya publicado en el feed (antes de programar, cruzar con el feed). En los textos de los recuerdos no se nombra el evento ni el año ("en el panel de la UDES"); se dice "en este panel…" (9 nov 2026).
 
-## Cliente privado
-Comfacesar no se nombra en público: "una caja de compensación muy grande en Colombia". Cifras de cierre: 140 horas por semana, $255 millones a 12 meses.
+## Comfacesar (actualizado 25 nov 2026)
+Sandra autorizó nombrar a Comfacesar en público (antes era "una caja de compensación muy grande en Colombia"). Programas: IAM™ Intelligence e IAM™ Ambassadors. Cifras de cierre: 140 horas por semana, $255 millones a 12 meses. Sus documentos, tableros y datos internos siguen siendo privados: no se muestran en pantalla.
