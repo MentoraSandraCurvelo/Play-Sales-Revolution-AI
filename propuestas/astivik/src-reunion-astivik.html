@@ -1,0 +1,559 @@
+<title>Astivik × IAM™ Intelligence</title>
+<meta name="description" content="IAM™ Intelligence para Astivik: pruebas de concepto con IA entre compras y las demás áreas, índice de actividad de IA en vivo y caso documentado.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Carlito:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+/* Formato de diapositivas 16:9 igual a la propuesta IAM™ Intelligence Comfacesar Fase 1:
+   barra negra de título con rótulo a la derecha, filete rojo a la izquierda, tarjetas blancas con borde superior rojo,
+   cifras grandes en rojo, portada, inversión y cierre en negro. Letra de Sandra: Arial Bold en títulos y cifras, Calibri en texto (igual a Comfacesar). Globito IAM™, sin beige. */
+:root{
+  --red:#C00000; --red-deep:#8B0000; --red-soft:#FDE8E8; --red-tint:#FFF5F5;
+  --ink:#0A0A0A; --coal:#161616; --coal2:#1F1F1F; --paper:#FFFFFF; --panel:#F7F7F8; --line:#E4E4E7;
+  --fg:#111111; --fg2:#2A2A2A; --muted:#4A4A4A; --dim:#5A5A5A;
+  --display:Arial,'Arimo',Helvetica,sans-serif; --body:Calibri,'Carlito',Arial,Helvetica,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#E9E9EC;color:var(--fg);font-family:var(--body);font-size:18px;line-height:1.5;
+  padding:14px max(16px,env(safe-area-inset-right,0px)) 60px max(16px,env(safe-area-inset-left,0px))}
+.deck{max-width:1180px;margin:0 auto;display:grid;gap:28px;grid-template-columns:minmax(0,1fr)}
+.deck>*{min-width:0}
+p{margin:0}
+h1,h2,h3{margin:0;text-wrap:balance}
+:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+
+.slide{position:relative;background:var(--paper);min-height:min(664px,calc((100vw - 32px)*9/16));box-shadow:0 2px 6px rgba(0,0,0,.08),0 18px 40px rgba(0,0,0,.10);
+  display:flex;flex-direction:column;overflow:hidden;scroll-margin-top:16px;border-left:8px solid var(--red)}
+.slide.dark{background:var(--ink);color:#fff}
+.bar{background:var(--ink);color:#fff;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;padding:16px 28px}
+.bar h2{font-family:var(--display);font-weight:700;font-size:clamp(22px,2.3vw,28px);line-height:1.2}
+.bar .tag{font-size:14px;letter-spacing:.6px;color:#CFCFCF;display:flex;align-items:center;gap:10px;white-space:nowrap}
+.bar .tag img{width:22px;height:auto}
+.body{padding:22px 28px 30px;display:flex;flex-direction:column;gap:18px;flex:1}
+.src{font-size:14px;color:var(--dim)}
+.dark .src{color:#BDBDBD}
+.callout{background:var(--ink);color:#fff;padding:16px 20px;font-size:20px;border-left:6px solid var(--red)}
+.callout b{color:#FF5A5A;font-weight:700}
+.alert{background:var(--red-soft);border:1px solid #F3B4B4;padding:12px 18px;font-weight:700;color:var(--red-deep);font-size:18px}
+.pageno{position:absolute;right:14px;bottom:8px;font-size:13px;color:var(--dim)}
+.dark .pageno{color:#9A9A9A}
+
+.cards{display:grid;gap:14px}
+.c2{grid-template-columns:repeat(2,minmax(0,1fr))}.c3{grid-template-columns:repeat(3,minmax(0,1fr))}.c4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.card{background:#fff;border:1px solid var(--line);border-top:6px solid var(--red);padding:16px 18px;display:grid;gap:8px;align-content:start}
+.card h3{font-family:var(--display);font-weight:700;font-size:21px;line-height:1.2}
+.card p{font-size:17px;color:var(--fg2)}
+.card.k{border-top:1px solid var(--line);border-left:6px solid var(--red)}
+.big{font-family:var(--display);font-weight:700;color:var(--red);font-size:clamp(44px,5.4vw,68px);line-height:1}
+.card .s{font-size:14px;color:var(--dim);font-style:italic}
+
+.strip{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));border:1px solid var(--line);background:#fff}
+.strip div{padding:14px 8px;text-align:center;border-right:1px solid var(--line)}
+.strip div:last-child{border-right:0}
+.strip b{display:block;font-family:var(--display);font-weight:700;color:var(--red);font-size:clamp(30px,3.6vw,44px);line-height:1}
+.strip span{font-size:15px;color:var(--muted)}
+
+.cover{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:28px;padding:34px 34px 26px;flex:1;position:relative;isolation:isolate}
+.cover::before{content:"IAM";position:absolute;left:16%;top:16%;font:700 clamp(160px,26vw,330px)/1 var(--body);color:rgba(255,255,255,.035);z-index:-1;letter-spacing:-6px}
+.logo-row{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.logo-row .glob{width:64px;animation:bob 5s ease-in-out infinite;filter:drop-shadow(0 6px 14px rgba(0,0,0,.5))}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-6px) rotate(2deg)}}
+.wm{font-family:var(--display);font-weight:700;color:var(--red);font-size:clamp(64px,9vw,110px);line-height:.9;letter-spacing:-2px}
+.wm sup{font-size:.38em;vertical-align:top;position:relative;top:.12em}
+.coqchip{background:#fff;padding:8px 14px;display:flex;align-items:center}
+.coqchip img{height:42px;width:auto;display:block}
+.spaced{letter-spacing:6px;font-size:14px;color:#D9D9D9;text-transform:uppercase;margin-top:14px}
+.redline{width:160px;height:5px;background:var(--red);margin:14px 0 22px}
+.cover h1{font-family:var(--display);font-weight:700;font-size:clamp(34px,4.4vw,54px);line-height:1.08;color:#fff}
+.cover .meta{color:#E2E2E2;font-size:18px;margin-top:16px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.chips span{background:rgba(192,0,0,.28);border:1px solid var(--red);color:#fff;font-size:15px;font-weight:700;padding:6px 12px}
+.lines{display:grid;gap:10px;align-content:center;border-left:1px solid #333;padding-left:24px}
+.lines div{background:var(--coal2);padding:12px 16px}
+.lines b{display:block;font-size:17px}
+.lines span{font-size:14px;color:#BDBDBD}
+.lines .on{background:var(--red)}
+.lines .on span{color:#fff}
+.sign{font-size:14px;color:#9A9A9A;padding:0 34px 18px}
+
+.dial{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.dial .L{width:64px;height:64px;background:var(--red);display:grid;place-items:center;font:700 38px var(--display);color:#fff}
+.dial .col{display:grid;gap:10px;align-content:start}
+.dial .box{background:var(--coal2);border-top:4px solid var(--red);padding:14px 16px;display:grid;gap:8px}
+.dial .box b{color:#FF5A5A;letter-spacing:3px;font-size:14px}
+.dial .box p{font-size:17px;color:#E6E6E6}
+.cycle{display:grid;grid-template-columns:auto repeat(3,minmax(0,1fr));gap:14px;align-items:center;background:#1A0000;border:1px solid var(--red-deep);padding:14px 18px;font-size:16px;color:#E6E6E6}
+.cycle b{color:#fff}
+.cycle .t{color:#FF5A5A;font-weight:700;letter-spacing:1px}
+
+table{border-collapse:collapse;width:100%}
+.tbl th{background:var(--ink);color:#fff;font-size:15px;font-weight:700;text-align:left;padding:10px 12px}
+.tbl td{border-bottom:1px solid var(--line);padding:9px 12px;font-size:16px;vertical-align:top}
+.tbl td.n{font-family:var(--display);font-weight:700;color:var(--red);font-size:22px;text-align:center}
+.tbl tr:nth-child(even) td{background:#FAFAFB}
+.scroll{overflow-x:auto}
+
+.tracks{display:grid;gap:10px}
+.track{display:grid;grid-template-columns:56px 42px minmax(0,300px) minmax(0,1fr);gap:14px;align-items:center;background:#fff;border:1px solid var(--line);border-left:6px solid var(--red);padding:10px 14px}
+.track .no{width:46px;height:46px;background:var(--red);color:#fff;display:grid;place-items:center;font:700 24px var(--display)}
+.track img{width:38px}
+.track h3{font-family:var(--body);font-weight:700;font-size:19px}
+.track .pills{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.pill{font-size:13px;font-weight:700;padding:3px 10px;background:var(--red-soft);border:1px solid #F0B0B0;color:var(--red-deep)}
+.pill.d{background:var(--ink);border-color:var(--ink);color:#fff}
+.track p{font-size:17px;color:var(--fg2)}
+.track p::before{content:"→ ";color:var(--red)}
+
+.heat{border-collapse:separate;border-spacing:4px;min-width:820px}
+.heat th{font-size:14px;font-weight:700;color:#fff;background:var(--ink);padding:10px 6px;text-align:center}
+.heat th small{display:block;font-weight:400;color:#BDBDBD;font-size:12px}
+.heat th.c{background:var(--red-deep)}
+.heat td{height:50px;text-align:center;font-size:14px;font-weight:700;transition:opacity .5s ease}
+.heat td.rl{background:#fff;border-left:5px solid var(--red);text-align:left;padding:6px 10px;font-size:15px;color:var(--fg);font-weight:700;width:210px}
+.heat td.rl small{display:block;font-weight:400;color:var(--dim);font-size:13px}
+.v0{background:#EEEEF0;color:#888}.v1{background:#FBD3D3;color:#7A0000}.v2{background:#F28B8B;color:#4A0000}.v3{background:#D10000;color:#fff}.v4{background:#7A0000;color:#fff}
+.vg{background:repeating-linear-gradient(135deg,#FFF5F5 0 8px,#FBD3D3 8px 16px);color:var(--red-deep);outline:2px dashed var(--red);outline-offset:-2px}
+.anim td.cl{opacity:0}.anim.on td.cl{opacity:1}
+.legend{display:flex;gap:16px;flex-wrap:wrap;justify-content:flex-end;font-size:14px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:6px}.legend i{width:22px;height:14px;display:inline-block}
+.phases{display:grid;grid-template-columns:214px minmax(0,3fr) minmax(0,6fr) minmax(0,1fr);gap:4px;min-width:820px}
+.phases div{padding:9px;font-size:13px;font-weight:700;text-align:center;color:#fff}
+.heat tfoot td{height:auto;padding:9px 6px;font-size:13px;font-weight:700}.ph1{background:#F28B8B;color:#4A0000}.ph2{background:var(--red);color:#fff}.ph3{background:#fff;color:var(--red-deep);outline:2px dashed var(--red);outline-offset:-2px}
+.phases .p1{background:#F28B8B;color:#4A0000}.phases .p2{background:var(--red)}.phases .p3{border:2px dashed var(--red);color:var(--red-deep);background:#fff}
+
+.hb{display:grid;grid-template-columns:200px minmax(0,1fr) 60px;gap:12px;align-items:center;font-size:17px}
+.hb .t{height:22px;background:var(--panel);border:1px solid var(--line)}
+.hb .t i{display:block;height:100%;width:var(--w);background:var(--red);transition:width 1.3s cubic-bezier(.2,.7,.2,1)}
+.anim .hb .t i{width:0}.anim.on .hb .t i{width:var(--w)}
+.hb b{font-family:var(--display);font-weight:700;color:var(--red);font-size:22px;text-align:right}
+
+.levels{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+.levels div{padding:16px 18px;display:grid;gap:6px}
+.levels .l1{background:var(--red-tint);border:1px solid #F3C4C4}.levels .l2{background:#F9CFCF}.levels .l3{background:var(--ink);color:#fff}
+.levels b{font:700 30px var(--display);color:var(--red)}
+.levels .l3 b{color:#FF5A5A}
+.levels h3{font-size:19px;font-family:var(--body);font-weight:700}
+.levels p{font-size:16px}
+.levels .l3 p{color:#E6E6E6}
+
+.inv{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:20px;padding:6px 28px 0}
+.pbox{border:1px solid var(--red-deep);border-top:6px solid var(--red);background:var(--coal);padding:20px 22px;display:grid;gap:10px;align-content:start}
+.lab{color:#FF5A5A;letter-spacing:3px;font-size:14px;font-weight:700}
+.pbox .v{font-family:var(--display);font-weight:700;font-size:clamp(40px,5vw,62px);line-height:1;color:#fff}
+.pbox p{color:#E0E0E0;font-size:17px}
+.why{background:var(--coal);border:1px solid #2E2E2E;padding:20px 22px;display:grid;gap:12px;align-content:start}
+.why ul{margin:0;padding:0;display:grid;gap:10px}
+.why li{list-style:none;display:grid;grid-template-columns:24px minmax(0,1fr);gap:10px;font-size:17px;color:#EDEDED}
+.why li::before{content:"";width:16px;height:16px;border:3px solid var(--red);border-radius:50%;margin-top:4px}
+.roi{margin:18px 28px 0;background:var(--red);color:#fff;padding:16px 20px;font-size:19px}
+
+.pago{max-width:900px;margin:0 auto;background:#fff;border:1px solid var(--line);border-left:10px solid #6B6B6B;border-right:10px solid var(--red);padding:24px 30px;display:grid;gap:14px}
+.pago h3{color:var(--red);font-family:var(--display);font-size:28px}
+.pago p{font-size:19px;color:var(--fg2);line-height:1.6}
+.paygrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;max-width:900px;margin:0 auto;width:100%}
+
+.close{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;padding:30px 34px;flex:1}
+.auth{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:18px}
+.auth div{background:var(--coal2);padding:14px;text-align:center}
+.auth b{display:block;font:700 clamp(30px,3.6vw,44px)/1 var(--display);color:var(--red)}
+.auth span{font-size:14px;color:#CFCFCF}
+.progs{margin-top:20px;display:grid;gap:8px;font-size:17px;color:#E0E0E0}
+.steps{border-left:1px solid #333;padding-left:26px;display:grid;gap:18px;align-content:start}
+.steps h2{font-family:var(--display);font-weight:700;color:#FF3A3A;font-size:clamp(30px,3.4vw,42px)}
+.step{display:grid;grid-template-columns:56px minmax(0,1fr);gap:14px}
+.step .n{width:52px;height:52px;background:var(--red);display:grid;place-items:center;font:700 22px var(--display)}
+.step b{font-size:19px}
+.step p{font-size:16px;color:#D6D6D6}
+.foot{background:var(--red);color:#fff;text-align:center;font-size:15px;padding:12px;display:flex;justify-content:center;align-items:center;gap:10px;flex-wrap:wrap}
+.foot img{width:26px}
+
+
+/* Pestañas de pruebas de concepto */
+.tabs{display:flex;flex-wrap:wrap;gap:6px}
+.tabs button{font:700 15px var(--body);border:1px solid var(--line);background:#fff;color:var(--fg);padding:9px 14px;cursor:pointer;border-top:4px solid #D4D4D8}
+.tabs button[aria-selected="true"]{background:var(--ink);color:#fff;border-top-color:var(--red)}
+.tabs button:hover{border-top-color:var(--red)}
+.ppanel{display:grid;gap:12px;animation:fadein .5s ease}
+.ppanel[hidden]{display:none}
+@keyframes fadein{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.phead{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center;background:var(--ink);color:#fff;padding:10px 16px;font-size:16px}
+.phead b{color:#FF5A5A}
+.out{background:var(--red);color:#fff;font-weight:700;font-size:13px;letter-spacing:2px;padding:6px 12px}
+.st{display:inline-flex;align-items:center;gap:6px;font-weight:700;font-size:15px}
+.st i{width:12px;height:12px;border-radius:50%;display:inline-block}
+.st.g i{background:#1E9E4A}.st.g{color:#17703A}.st.y i{background:#E5A800}.st.y{color:#8A6400}.st.r i{background:#E02020}.st.r{color:#B00000}
+.exec{background:#fff;border:1px solid var(--line);border-left:6px solid var(--red);padding:12px 16px;display:grid;gap:6px}
+.exec .lab{color:var(--red)}
+.exec li{font-size:17px;list-style:none}
+.exec li::before{content:"→ ";color:var(--red);font-weight:700}
+.exec ul{margin:0;padding:0;display:grid;gap:4px}
+.ba{display:flex;gap:10px;flex-wrap:wrap;font-size:16px;font-weight:700;color:var(--red-deep);font-style:italic}
+
+/* Tablero tipo bolsa */
+.ticker{background:#111;border-top:1px solid #2A2A2A;border-bottom:1px solid #2A2A2A;overflow:hidden;white-space:nowrap}
+.tk{display:inline-block;padding:8px 0;font:700 16px var(--display);animation:tick 38s linear infinite}
+.tk span{margin:0 22px;color:#EDEDED}
+.tk .up{color:#2BD46A}.tk .dn{color:#FF4D4D}
+@keyframes tick{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.wall{display:grid;grid-template-columns:minmax(0,1fr);gap:16px}
+.idx{grid-template-columns:minmax(0,300px) minmax(0,1fr);column-gap:24px;align-items:center}
+.idx .lab,.idx .idxv,.idx .src{grid-column:1}
+.idx .chart{grid-column:2;grid-row:1 / span 3}
+.idx,.bars3{background:#141414;border:1px solid #2A2A2A;padding:16px 18px;display:grid;gap:8px;align-content:start}
+.idxv{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap}
+#iv{font:700 clamp(54px,7vw,84px)/1 var(--display);color:#fff;font-variant-numeric:tabular-nums}
+.chg{font:700 24px var(--display);color:#2BD46A}
+.chg.dn{color:#FF4D4D}
+.chart{width:100%;height:auto;display:block}
+.chart text{font:600 12px var(--body);fill:#9A9A9A}
+.b3wrap{height:250px;display:flex;align-items:flex-end;justify-content:space-around;gap:8px;padding:30px 14px 0 4px;border-bottom:2px solid #333}
+.b3col{display:grid;justify-items:center;gap:6px;flex:1;min-width:0}
+.b3col .v{font:700 15px var(--display);color:#fff;margin-bottom:12px}
+.b3{position:relative;width:min(34px,70%);height:0;transition:height 1.4s cubic-bezier(.2,.7,.2,1);background:linear-gradient(90deg,var(--c1),var(--c2));margin-right:10px}
+.b3::before{content:"";position:absolute;left:0;top:-10px;width:100%;height:10px;background:var(--c3);transform:skewX(-45deg);transform-origin:bottom left}
+.b3::after{content:"";position:absolute;right:-10px;top:-10px;width:10px;height:100%;background:var(--c4);transform:skewY(-45deg);transform-origin:bottom left;top:0}
+.b3col small{font-size:13px;color:#CFCFCF;text-align:center;line-height:1.2;height:32px}
+.sem{display:flex;gap:14px;flex-wrap:wrap;font-size:14px;color:#CFCFCF}
+.sem span{display:inline-flex;gap:6px;align-items:center}.sem i{width:12px;height:12px;border-radius:50%;display:inline-block}
+
+/* Macroprocesos */
+.mp td{vertical-align:middle}
+.mp .grp td{background:var(--ink)!important;color:#fff;font-weight:700;letter-spacing:2px;font-size:13px;padding:6px 12px}
+.mpbar{height:16px;background:var(--panel);border:1px solid var(--line);position:relative}
+.mpbar i{position:absolute;left:0;top:0;bottom:0;width:var(--w);background:var(--red);transition:width 1.2s ease}
+.anim .mpbar i{width:0}.anim.on .mpbar i{width:var(--w)}
+.tr-up{color:#17703A;font-weight:700}.tr-dn{color:#B00000;font-weight:700}
+@media (max-width:900px){.idx{grid-template-columns:minmax(0,1fr)}.idx .chart{grid-column:1;grid-row:auto}.b3col small{font-size:11px}.b3{width:min(22px,60%)}}
+@media (prefers-reduced-motion:reduce){.tk{animation:none}.b3{transition:none}.anim .mpbar i{width:var(--w)}}
+@media print{.ppanel[hidden]{display:grid}.tabs{display:none}}
+
+.appwrap{border:1px solid var(--line);background:#fff;box-shadow:0 10px 30px rgba(0,0,0,.12)}
+.apphead{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center;background:#243854;color:#fff;padding:10px 14px;font-size:16px}
+.applink{color:#fff;background:#71A971;padding:6px 12px;font-weight:700;text-decoration:none}
+.applink:hover{background:#4F8A50}
+.appwrap iframe{display:block;width:100%;height:600px;border:0}
+@media (max-width:600px){.appwrap iframe{height:640px}}
+.stack{display:flex;height:56px;border:1px solid var(--line);overflow:hidden}
+.stack div{width:var(--w);display:flex;align-items:center;padding:0 14px;color:#fff;font-weight:700;font-size:16px;white-space:nowrap;overflow:hidden;transition:width 1.2s cubic-bezier(.2,.7,.2,1)}
+.sfix{background:var(--ink)}.svar{background:var(--red)}
+.anim .stack div{width:0}.anim.on .stack div{width:var(--w)}
+@media (prefers-reduced-motion:reduce){.anim .stack div{width:var(--w)}}
+@media (max-width:600px){.stack{flex-direction:column;height:auto}.stack div{width:100%!important;padding:10px 14px;white-space:normal}}
+.progress{position:fixed;top:0;left:0;right:0;height:5px;background:rgba(10,10,10,.08);z-index:50}
+.progress i{display:block;height:100%;width:0;background:var(--red)}
+.nav{position:fixed;right:max(14px,env(safe-area-inset-right,0px));bottom:16px;z-index:50;display:flex;gap:8px;align-items:center;background:var(--ink);color:#fff;border-radius:999px;padding:6px 8px 6px 16px;box-shadow:0 8px 24px rgba(0,0,0,.25);font-size:15px}
+.nav button{width:38px;height:38px;border-radius:50%;border:0;background:#2A2A2A;color:#fff;font-size:18px;cursor:pointer}
+.nav button:hover{background:var(--red)}
+.nav b{min-width:62px;text-align:center;font-weight:700}
+
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .7s ease,transform .7s ease}
+.reveal.on{opacity:1;transform:none}
+
+@media (max-width:900px){
+  .cover,.close,.inv{grid-template-columns:minmax(0,1fr)}
+  .lines,.steps{border-left:0;padding-left:0}
+  .c3,.c4,.dial{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .strip{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .strip div:nth-child(3){border-right:0}
+  .track{grid-template-columns:48px minmax(0,1fr)}
+  .track img{display:none}
+  .track p{grid-column:1/-1}
+  .levels,.cycle{grid-template-columns:minmax(0,1fr)}
+  .slide{min-height:auto}
+}
+@media (max-width:600px){
+  .c2,.c3,.c4,.dial,.paygrid{grid-template-columns:minmax(0,1fr)}
+  .strip{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .strip div{border-right:0!important;border-bottom:1px solid var(--line)}
+  .auth{grid-template-columns:minmax(0,1fr)}
+  .bar,.body{padding-left:18px;padding-right:18px}
+  .inv{padding:6px 18px 0}.roi{margin:16px 18px 0}
+  .cover,.close{padding:24px 18px}
+  .hb{grid-template-columns:minmax(0,1fr) 54px}.hb .t{grid-column:1/-1;grid-row:2}
+  .pago{padding:20px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .reveal{opacity:1;transform:none}
+  .anim td.cl{opacity:1}.anim .hb .t i{width:var(--w)}
+}
+@media print{.progress,.nav{display:none}.slide{break-after:page;box-shadow:none}.reveal{opacity:1;transform:none}.anim td.cl{opacity:1}.anim .hb .t i{width:var(--w)}}
+</style>
+<div class="progress" aria-hidden="true"><i id="prog"></i></div>
+<nav class="nav" aria-label="Navegación de la presentación">
+  <button type="button" id="prev" aria-label="Diapositiva anterior">‹</button>
+  <b id="count">1 / 10</b>
+  <button type="button" id="next" aria-label="Diapositiva siguiente">›</button>
+</nav>
+
+<main class="deck">
+
+<section class="slide dark" aria-label="Portada">
+  <div class="cover">
+    <div>
+      <div class="logo-row">
+        <img class="glob" src="{{GLOBITO}}" alt="Globito IAM™">
+        <span class="wm">IAM<sup>™</sup></span>
+        <span class="times" style="font-size:34px;color:#8A8A8A">×</span>
+        <img src="{{ASTIVIK}}" alt="Astivik Shipyard" style="height:54px;width:auto">
+      </div>
+      <p class="spaced">Intelligence · IA empresarial por áreas</p>
+      <div class="redline"></div>
+      <h1>De "ya tenemos IA" a resultados medibles en compras y cadena de suministro</h1>
+      <p class="meta">Investigación digital, pruebas de concepto entre áreas e índice de actividad de IA para Astivik</p>
+      <div class="chips"><span>Compras</span><span>Planeación de varadas</span><span>Producción</span><span>Calidad</span><span>Almacén</span><span>Finanzas</span><span>Contratistas</span><span>Comercial</span></div>
+    </div>
+    <div class="lines" aria-label="Líneas IAM™">
+      <div><b>IAM™ Influence</b><span>Marca profesional</span></div>
+      <div><b>IAM™ Social</b><span>Social Selling B2B</span></div>
+      <div><b>IAM™ Ambassadors</b><span>Embajadores de marca</span></div>
+      <div class="on"><b>IAM™ Intelligence ◀</b><span>IA empresarial</span></div>
+      <div><b>IAM™ Commercial</b><span>Dirección comercial</span></div>
+    </div>
+  </div>
+  <p class="sign">Sandra Curvelo · Founder &amp; CSO, IAM™ · Preparada para Víctor Fajardo Pizarro, Director de Compras de Astivik · Noviembre 2026</p>
+  <span class="pageno"></span>
+</section>
+
+<section class="slide reveal">
+  <div class="bar"><h2>Lo que encontramos de Astivik en la investigación digital</h2><span class="tag"><img src="{{GLOBITO}}" alt="">IAM Intelligence™ · Astivik 2026</span></div>
+  <div class="body">
+    <div class="strip">
+      <div><b data-count="52">52</b><span>años de operación (desde 1972)</span></div>
+      <div><b data-count="4000">4.000</b><span>toneladas de levante, la mayor de Colombia</span></div>
+      <div><b data-count="4">4</b><span>posiciones de varada</span></div>
+      <div><b data-count="660">660</b><span>metros de muelle</span></div>
+      <div><b data-count="2620">2.620</b><span>m² de área cubierta</span></div>
+      <div><b>+30</b><span>países con clientes</span></div>
+    </div>
+    <div class="cards c3">
+      <div class="card"><h3>Operación</h3><p>Reparación, mantenimiento, modernización, diseño y construcción de buques tanqueros, remolcadores, cargueros, barcazas, dragas y supply. Único constructor de diques flotantes en el Caribe.</p></div>
+      <div class="card"><h3>Estándares</h3><p>ISO 9001:2015, Código PBIP (ISPS) y procedimientos aprobados por casas clasificadoras como ABS y Lloyd's Register para reemplazo de acero, tubería y trabajos mecánicos.</p></div>
+      <div class="card"><h3>Ecosistema de proveedores</h3><p>Ventas de $82.938 millones en 2024. Alrededor de 2.400 empleos directos e indirectos y un programa de transformación productiva para formalizar contratistas, con la Cámara de Comercio de Cartagena.</p></div>
+    </div>
+    <p class="alert">⭕ Cada varada es un proyecto distinto: el alcance cambia cuando el buque sube al dique. Ahí compras se vuelve el área que más decide sobre el tiempo y el margen de cada proyecto.</p>
+    <p class="src">Fuentes: astivik.com (cifras de capacidad, certificaciones y servicios, consultado en noviembre 2026) · Las2orillas, 12 de abril de 2026 (ventas 2024) · El Universal, 28 de mayo de 2020 (empleos, clientes en +30 países, transformación productiva). Las cifras de terceros pueden haber cambiado.</p>
+  </div>
+  <span class="pageno"></span>
+</section>
+
+<section class="slide reveal">
+  <div class="bar"><h2>Dónde se va el tiempo de compras en un astillero</h2><span class="tag"><img src="{{GLOBITO}}" alt="">IAM Intelligence™ · Astivik 2026</span></div>
+  <div class="body">
+    <p class="callout">Usar IA para redactar un correo o resumir una cotización es la <b>versión asistida</b>. Que un agente ejecute el flujo de compras completo y una persona apruebe es la <b>versión agéntica</b>: ahí aparecen las horas recuperadas y el resultado medible.</p>
+    <div class="cards c2">
+      <div class="card"><h3>1. Compras urgentes por hallazgos en dique</h3><p>Cuando el buque sube, aparecen acero, tubería o piezas de propulsión que no estaban en el alcance. Cotizar, comparar y aprobar contra reloj.</p></div>
+      <div class="card"><h3>2. Cotizaciones en pesos y dólares</h3><p>Proveedores nacionales e importados, tiempos de entrega distintos y condiciones que hay que comparar a mano en cada pedido.</p></div>
+      <div class="card"><h3>3. Trazabilidad para la casa clasificadora</h3><p>Certificados de material, de soldadores y de pintura que deben coincidir con lo comprado y lo instalado en cada buque.</p></div>
+      <div class="card"><h3>4. Contratistas y costo por proyecto</h3><p>Documentación de contratistas al día y la factura, la orden y la recepción cruzadas para saber el costo real de cada varada.</p></div>
+    </div>
+    <p class="src">Hipótesis de IAM™ construida con la información pública de Astivik. Se valida con usted y su equipo en la reunión.</p>
+  </div>
+  <span class="pageno"></span>
+</section>
+
+<section class="slide reveal">
+  <div class="bar"><h2>Pruebas de concepto con IA entre áreas · ejemplos de salida del agente</h2><span class="tag"><img src="{{GLOBITO}}" alt="">IAM Intelligence™ · Astivik 2026</span></div>
+  <div class="body">
+    <div class="tabs" role="tablist" aria-label="Pruebas de concepto" id="poctabs"></div>
+    <div id="pocpanels"></div>
+    <p class="src">Datos simulados con la estructura real de un astillero de reparación. Buques, proveedores y cifras son ficticios. Los tiempos de antes y después se miden con la línea base de cada área.</p>
+  </div>
+  <span class="pageno"></span>
+</section>
+
+<section class="slide dark reveal" id="bolsa">
+  <div class="bar" style="background:#000"><h2>Índice de actividad de IA de Astivik · en vivo</h2><span class="tag"><img src="{{GLOBITO}}" alt="">Ejemplo con datos simulados</span></div>
+  <div class="ticker" aria-hidden="true"><div class="tk" id="tk"></div></div>
+  <div class="body">
+    <div class="wall">
+      <div class="idx">
+        <span class="lab">ÍNDICE IAE™ ASTIVIK</span>
+        <div class="idxv"><span id="iv">0,0</span><span class="chg" id="ic">▲ 0,0</span></div>
+        <p class="src">Semana 8 de 8 · 0 a 100 · actualización semanal</p>
+        <svg viewBox="0 0 640 260" class="chart" role="img" aria-label="Evolución simulada del índice IAE de 20 a 64 puntos en 8 semanas">
+          <defs><linearGradient id="ga" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C00000" stop-opacity=".55"/><stop offset="1" stop-color="#C00000" stop-opacity="0"/></linearGradient></defs>
+          <g id="grid"></g><path id="area" fill="url(#ga)"></path><path id="line" fill="none" stroke="#FF3B3B" stroke-width="3" stroke-linejoin="round"></path><circle id="dot" r="6" fill="#fff" stroke="#FF3B3B" stroke-width="3"></circle>
+        </svg>
+      </div>
+      <div class="bars3">
+        <span class="lab">IAE™ POR ÁREA</span>
+        <div class="b3wrap" id="b3"></div>
+        <div class="sem"><span><i style="background:#1E9E4A"></i>70 a 100 instalada</span><span><i style="background:#E5A800"></i>40 a 70 adoptando</span><span><i style="background:#E02020"></i>0 a 40 arrancando</span></div>
+      </div>
+    </div>
+  </div>
+  <span class="pageno"></span>
+</section>
+
+<section class="slide reveal anim">
+  <div class="bar"><h2>Semaforización por macroprocesos · vista de la dirección</h2><span class="tag"><img src="{{GLOBITO}}" alt="">Ejemplo con datos simulados</span></div>
+  <div class="body">
+    <div class="scroll"><table class="tbl mp" style="min-width:860px">
+      <thead><tr><th>Macroproceso</th><th>Procesos</th><th style="width:220px">Procesos habilitados con IA</th><th>Horas/sem recuperadas</th><th>IAE™</th><th>Tendencia</th><th>Estado</th></tr></thead>
+      <tbody id="mpb"></tbody>
+    </table></div>
+    <p class="alert">⭕ La dirección ve en una sola pantalla qué proceso avanza, cuál se estanca y dónde decidir.</p>
+  </div>
+  <span class="pageno"></span>
+</section>
+
+<section class="slide reveal">
+  <div class="bar"><h2>Caso documentado: IAM™ Intelligence en Comfacesar 2026</h2><span class="tag"><img src="{{GLOBITO}}" alt="">IAM Intelligence™ · Astivik 2026</span></div>
+  <div class="body">
+    <div class="cards c4">
+      <div class="card k"><span class="big" data-count="18">18</span><p><b>áreas</b> intervenidas</p></div>
+      <div class="card k"><span class="big" data-count="51">51</span><p><b>colaboradores</b> en el programa</p></div>
+      <div class="card k"><span class="big">≈<span data-count="256">256</span></span><p><b>horas por semana</b> recuperadas frente a la línea base</p></div>
+      <div class="card k"><span class="big">≈<span data-count="5">5</span></span><p><b>horas por semana</b> por persona</p></div>
+    </div>
+    <div class="scroll"><table class="tbl" style="min-width:640px">
+      <thead><tr><th>Indicador</th><th>Resultado</th><th>Cálculo</th></tr></thead>
+      <tbody>
+        <tr><td>Horas recuperadas por semana</td><td><b style="color:var(--red)">≈ 256 h</b></td><td>255,5 h medidas frente a la línea base, redondeado</td></tr>
+        <tr><td>Horas por persona a la semana</td><td><b>≈ 5 h</b></td><td>255,5 h ÷ 51 colaboradores = 5,0 h</td></tr>
+        <tr><td>Agentes creados por los equipos</td><td colspan="2">marIA · Requi · Harvey S IA · sofIA · afilIA · Agente INFRA · Matías · matIA · mIA Reports</td></tr>
+      </tbody>
+    </table></div>
+    <p class="src">Fuente: medición IAM™ Intelligence Comfacesar 2026, horas recuperadas por semana frente a la línea base.</p>
+  </div>
+  <span class="pageno"></span>
+</section>
+
+<section class="slide dark reveal">
+  <div class="bar" style="background:#000"><h2>Cómo trabajamos: Método DIAL-3R™ e índice IAE™</h2><span class="tag"><img src="{{GLOBITO}}" alt="">IAM Intelligence™</span></div>
+  <div class="body">
+    <p style="color:#E6E6E6;font-size:19px">La IA empresarial es personalizada: se trabaja 1 a 1 con cada área, porque cada una ve su proceso de una forma distinta. No es un curso de herramientas, es instalar un sistema de trabajo.</p>
+    <div class="dial">
+      <div class="col"><span class="L">D</span><div class="box"><b>DIAGNOSTICAR</b><p>Sesión individual con cada líder: tareas, frecuencia y minutos actuales. Línea base.</p></div></div>
+      <div class="col"><span class="L">I</span><div class="box"><b>INSTRUIR</b><p>De la IA generativa a la agéntica, diseño de agentes y política de uso.</p></div></div>
+      <div class="col"><span class="L">A</span><div class="box"><b>APLICAR</b><p>Mentoría 1 a 1: cada líder construye su agente con sus documentos reales.</p></div></div>
+      <div class="col"><span class="L">L</span><div class="box"><b>LIBERAR</b><p>El agente opera en el proceso, con aprobación humana, registrado y medido en el IAE™.</p></div></div>
+    </div>
+    <div class="cycle"><span class="t">IAE™ →</span><span>⭕ <b>Adopción</b> 40%</span><span>⭕ <b>Horas recuperadas</b> 30%</span><span>⭕ <b>Tableros y agentes</b> 20% · <b>Calidad</b> 10%</span></div>
+  </div>
+  <span class="pageno"></span>
+</section>
+
+<section class="slide dark reveal">
+  <div class="close">
+    <div>
+      <div class="logo-row"><img class="glob" src="{{GLOBITO}}" alt="Globito IAM™"><span class="wm" style="font-size:clamp(56px,7vw,88px)">IAM<sup>™</sup></span></div>
+      <p style="color:#CFCFCF;margin-top:6px">Influence, AI &amp; Monetization</p>
+      <div class="auth">
+        <div><b>1.500+</b><span>profesionales mentoreados</span></div>
+        <div><b>40+</b><span>empresas</span></div>
+        <div><b>8</b><span>países LATAM</span></div>
+      </div>
+      <div class="progs">
+        <span class="lab">CLIENTES IAM™</span>
+        <span>→ Comfacesar · IAM™ Intelligence e IAM™ Ambassadors, 2026</span>
+        <span>→ Drummond · Grupo Bimbo · Bavaria · Grupo Abstract</span>
+      </div>
+    </div>
+    <div class="steps">
+      <h2>¿Qué sigue?</h2>
+      <div class="step"><span class="n">01</span><div><b>Un espacio de 45 minutos</b><p>Revisamos juntos estas pruebas de concepto y escogemos las 2 que más le sirven a compras.</p></div></div>
+      <div class="step"><span class="n">02</span><div><b>Validación con su equipo</b><p>Las ajustamos con los datos reales de una varada y el tablero queda con las áreas de Astivik.</p></div></div>
+      <div class="step"><span class="n">03</span><div><b>Propuesta a la medida</b><p>Alcance, áreas, cronograma y medición del retorno para la dirección.</p></div></div>
+      <p style="color:#D6D6D6;font-size:16px">Agenda: <a style="color:#fff" href="https://calendly.com/sandracurvelo-mentoraventasdigitales-ia/sesio-exploratoria-ventas-digitales-con-ia" target="_blank" rel="noopener">calendly.com/sandracurvelo</a> · WhatsApp: <a style="color:#fff" href="https://wa.me/573165327227" target="_blank" rel="noopener">+57 316 532 7227</a></p>
+    </div>
+  </div>
+  <div class="foot"><img src="{{GLOBITO}}" alt="">Sandra Curvelo · Founder &amp; CSO, IAM™ · linkedin.com/in/sandra-curvelo-iam · iamlatam.co</div>
+  <span class="pageno" style="color:#fff"></span>
+</section>
+
+</main>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.slide').forEach(function(s,i){ var n=s.querySelector('.pageno'); if(n) n.textContent=i+1; });
+  var G='<span class="st g"><i></i>', Y='<span class="st y"><i></i>', R='<span class="st r"><i></i>', E='</span>';
+
+  var POC=[
+   {t:'Compras · cotizaciones',h:'CUADRO COMPARATIVO DE COTIZACIONES · Agente cotizador (Compras)',ba:'Antes: medio día por cuadro comparativo · Con el agente: 20 min de revisión',
+    th:['Ítem','Proveedor','Precio','Moneda','Entrega','Certificado','Recomendación'],
+    rows:[['Lámina naval ASTM A131 grado A, 12 mm · 18 t','Proveedor 1 · nacional','$ 5.940.000 / t','COP','5 días',G+'Mill certificate'+E,'Recomendado'],['Lámina naval ASTM A131 grado A, 12 mm · 18 t','Proveedor 2 · importado','US$ 1.310 / t','USD','21 días',G+'Mill certificate'+E,'Más barato, no llega a tiempo'],['Lámina naval ASTM A131 grado A, 12 mm · 18 t','Proveedor 3 · nacional','$ 5.720.000 / t','COP','4 días',R+'Sin certificado'+E,'Descartado']],
+    ex:['Recomienda el Proveedor 1: cumple la fecha de la varada y trae certificado para la casa clasificadora.','El Proveedor 2 sale ≈20% más barato con el dólar a $3.630, pero llega 16 días después de la fecha de entrega del buque.','Orden de compra preparada para aprobación del Director de Compras (nivel N2).']},
+   {t:'Compras + Producción',h:'REQUISICIÓN DESDE EL ALCANCE DE LA VARADA · Agente de requisiciones',ba:'Antes: 1 día para armar la lista de materiales · Con el agente: 1 hora',
+    th:['Partida del alcance','Material calculado','Cantidad','En almacén','A comprar','Estado'],
+    rows:[['Reemplazo de acero en fondo, 42 m²','Lámina naval 12 mm','4,0 t','1,2 t','2,8 t',Y+'Cotizando'+E],['Renovación de tubería de lastre','Tubo SCH 40, 6 pulgadas','36 m','36 m','0',G+'Disponible'+E],['Pintura del casco, 1.850 m²','Sistema de pintura silicona','740 L','200 L','540 L',Y+'Cotizando'+E],['Hélice: reparación de palas','Servicio de taller','1','N/A','1 servicio',R+'Sin proveedor asignado'+E]],
+    ex:['El agente leyó el alcance de la varada del remolcador RM-07 (ficticio) y generó 4 requisiciones.','Cruzó contra el almacén: se evitan comprar 36 m de tubería que ya estaban en inventario.','Alerta: el servicio de reparación de hélice no tiene proveedor y define la fecha de salida del buque.']},
+   {t:'Compras + Calidad',h:'TRAZABILIDAD DE MATERIALES PARA LA CASA CLASIFICADORA · Agente de certificados',ba:'Antes: 2 días reuniendo soportes al cierre · Con el agente: el dossier se arma a diario',
+    th:['Material instalado','Orden de compra','Certificado','Colada / lote','Coincide','Estado'],
+    rows:[['Lámina naval 12 mm','OC-5521','Mill certificate 3.1','H-77812','Sí',G+'Listo para el inspector'+E],['Electrodo E7018','OC-5530','Certificado del fabricante','L-2291','Sí',G+'Listo'+E],['Tubo SCH 40, 6 pulgadas','OC-5498','Certificado de material','Falta','No',R+'Solicitar al proveedor'+E],['Pintura silicona','OC-5540','Ficha técnica y lote','P-0912','Parcial',Y+'Falta hoja de seguridad'+E]],
+    ex:['El dossier del buque queda armado durante la varada, no al final.','El agente ya redactó la solicitud del certificado faltante al proveedor de tubería.']},
+   {t:'Compras + Finanzas',h:'CRUCE ORDEN, RECEPCIÓN Y FACTURA · Agente de conciliación',ba:'Antes: revisión manual al cierre del mes · Con el agente: diaria',
+    th:['Orden de compra','Recepción','Factura','Diferencia','Proyecto','Estado'],
+    rows:[['OC-5521 · $ 106.920.000','18 t recibidas','$ 106.920.000','$ 0','Varada RM-07',G+'Conciliada'+E],['OC-5530 · $ 8.400.000','Completa','$ 9.150.000','$ 750.000','Varada BZ-12',R+'Sobrecosto'+E],['OC-5540 · US$ 14.800','Parcial 60%','US$ 14.800','40% sin recibir','Varada SP-03',Y+'Retener pago'+E]],
+    ex:['Costo real acumulado por proyecto: la dirección ve el margen de cada varada mientras ocurre.','2 facturas retenidas hasta aclarar diferencias, con el borrador de la comunicación al proveedor.']},
+   {t:'Contratistas y SST',h:'CONTROL DOCUMENTAL DE CONTRATISTAS · Agente de contratistas',ba:'Antes: revisión en portería cada mañana · Con el agente: semáforo antes del turno',
+    th:['Contratista','Personas','Seguridad social','Certificados de soldadura','Trabajo en altura','Estado'],
+    rows:[['Contratista A · pailería','14','Al día','14 de 14 vigentes','Vigente',G+'Puede ingresar'+E],['Contratista B · pintura','9','Al día','N/A','2 vencidos',Y+'Ingreso parcial'+E],['Contratista C · mecánica','6','Pendiente noviembre','3 de 4 vigentes','Vigente',R+'Bloqueado'+E]],
+    ex:['El agente avisa a cada contratista lo que le falta antes de que llegue al astillero.','Ningún trabajador entra a dique sin documentos vigentes; la evidencia queda lista para auditoría.']},
+   {t:'Comercial + Compras',h:'PRESUPUESTO DE VARADA PARA EL ARMADOR · Agente de presupuestos',ba:'Antes: 3 días para responder al armador · Con el agente: 1 día',
+    th:['Partida','Costo con precios reales de compras','Margen','Precio al armador','Fuente del costo'],
+    rows:[['Reemplazo de acero, 4 t','$ 23.760.000','30%','$ 30.888.000','Última OC de lámina'],['Chorreado SA 2½, 1.850 m²','$ 27.750.000','28%','$ 35.520.000','Tarifa contratista vigente'],['Pintura silicona, 740 L','$ 66.600.000','25%','$ 83.250.000','Cotización de noviembre']],
+    ex:['El presupuesto sale con los precios que compras acaba de negociar, no con los del año pasado.','Comercial responde más rápido y con margen protegido.']}
+  ];
+  var tabs=document.getElementById('poctabs'), pans=document.getElementById('pocpanels');
+  POC.forEach(function(p,i){
+    var b=document.createElement('button'); b.type='button'; b.setAttribute('role','tab'); b.id='pt'+i; b.setAttribute('aria-controls','pp'+i); b.setAttribute('aria-selected',i===0?'true':'false'); b.textContent=(i+1)+'. '+p.t; tabs.appendChild(b);
+    var d=document.createElement('div'); d.className='ppanel'; d.id='pp'+i; d.setAttribute('role','tabpanel'); d.setAttribute('aria-labelledby','pt'+i); if(i) d.hidden=true;
+    var h='<div class="phead"><span>'+p.h+'</span><span class="out">EJEMPLO DE SALIDA · SIMULADO</span></div><div class="scroll"><table class="tbl" style="min-width:760px"><thead><tr>';
+    p.th.forEach(function(x){ h+='<th>'+x+'</th>'; }); h+='</tr></thead><tbody>';
+    p.rows.forEach(function(r){ h+='<tr>'+r.map(function(c){return '<td>'+c+'</td>';}).join('')+'</tr>'; });
+    h+='</tbody></table></div><div class="exec"><span class="lab">RESUMEN EJECUTIVO DEL AGENTE</span><ul>'+p.ex.map(function(x){return '<li>'+x+'</li>';}).join('')+'</ul></div><p class="ba">'+p.ba+' (simulado)</p>';
+    d.innerHTML=h; pans.appendChild(d);
+    b.addEventListener('click',function(){ tabs.querySelectorAll('button').forEach(function(x){x.setAttribute('aria-selected','false')}); pans.querySelectorAll('.ppanel').forEach(function(x){x.hidden=true}); b.setAttribute('aria-selected','true'); d.hidden=false; });
+  });
+
+  var FR=[['Compras',76,+3.4],['Planeación',68,+2.1],['Producción',52,+1.6],['Calidad',71,+2.9],['Almacén',63,+1.8],['Finanzas',74,+2.5],['Contratistas',58,-0.7],['Comercial',61,+1.2],['Talento',45,+0.9]];
+  function semc(v){ return v>=70?['#2BD46A','#17853D','#5BE08C','#0F5C2A']:v>=40?['#FFC93A','#C99300','#FFDA70','#8A6400']:['#FF5050','#B00000','#FF8080','#700000']; }
+  function f1(x){ return x.toFixed(1).replace('.',','); }
+  var th=''; FR.forEach(function(f){ th+='<span>'+f[0].toUpperCase()+' '+f1(f[1])+' <b class="'+(f[2]>=0?'up':'dn')+'">'+(f[2]>=0?'▲ +':'▼ ')+f1(f[2])+'</b></span>'; });
+  document.getElementById('tk').innerHTML=th+th;
+  var b3=document.getElementById('b3');
+  FR.forEach(function(f){ var c=semc(f[1]), col=document.createElement('div'); col.className='b3col';
+    col.innerHTML='<span class="v">'+f[1]+'</span><div class="b3" data-h="'+(f[1]*2.2)+'" style="--c1:'+c[0]+';--c2:'+c[1]+';--c3:'+c[2]+';--c4:'+c[3]+'"></div><small>'+f[0]+'</small>'; b3.appendChild(col); });
+  var N=40, pts=[], v=20, seed=11; function rnd(){ seed=(seed*9301+49297)%233280; return seed/233280; }
+  for(var i=0;i<N;i++){ v+=(64-20)/N+(rnd()-0.45)*3.2; if(i===N-1) v=64.4; pts.push(v); }
+  var x0=36,y0=14,x1=628,y1=236; function X(i){ return x0+(x1-x0)*i/(N-1); } function Yv(val){ return y1-(y1-y0)*(val-10)/80; }
+  var gh=''; [20,40,60,80].forEach(function(g){ gh+='<line x1="'+x0+'" x2="'+x1+'" y1="'+Yv(g)+'" y2="'+Yv(g)+'" stroke="#2A2A2A"/><text x="4" y="'+(Yv(g)+4)+'">'+g+'</text>'; });
+  for(var s=1;s<=8;s++){ gh+='<text x="'+(X(Math.round((N-1)*s/8))-12)+'" y="254">S'+s+'</text>'; }
+  document.getElementById('grid').innerHTML=gh;
+  var line=document.getElementById('line'), area=document.getElementById('area'), dot=document.getElementById('dot'), iv=document.getElementById('iv'), ic=document.getElementById('ic');
+  function draw(n,last){ var d=''; for(var i=0;i<n;i++){ var val=(i===n-1&&last!=null)?last:pts[i]; d+=(i?'L':'M')+X(i).toFixed(1)+' '+Yv(val).toFixed(1); }
+    line.setAttribute('d',d); area.setAttribute('d',d+'L'+X(n-1).toFixed(1)+' '+y1+'L'+x0+' '+y1+'Z');
+    var lv=(last!=null?last:pts[n-1]); dot.setAttribute('cx',X(n-1)); dot.setAttribute('cy',Yv(lv)); iv.textContent=f1(lv);
+    var ch=lv-pts[Math.max(0,n-6)]; ic.textContent=(ch>=0?'▲ +':'▼ ')+f1(ch); ic.className='chg'+(ch<0?' dn':''); }
+  var started=false;
+  function start(){ if(started) return; started=true; b3.querySelectorAll('.b3').forEach(function(b){ b.style.height=b.getAttribute('data-h')+'px'; });
+    if(reduce){ draw(N); return; } var n=2, t1=setInterval(function(){ draw(n); n++; if(n>N){ clearInterval(t1); setInterval(function(){ draw(N,pts[N-1]+(Math.random()-0.5)*1.2); },1600); } },70); }
+  draw(2);
+  if('IntersectionObserver' in window){ new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting) start(); }); },{threshold:.3}).observe(document.getElementById('bolsa')); } else start();
+
+  var MP=[['COMERCIALES'],['Cotización de varadas al armador','Comercial',5,3,9,61,+1],
+          ['OPERATIVOS'],['Planeación de varadas','Planeación',6,4,14,68,+2],['Compras y abastecimiento','Compras',9,7,38,76,+3],['Almacén e inventarios','Almacén',5,3,11,63,+2],['Ejecución en dique','Producción',8,3,12,52,+1],['Calidad y certificación','Calidad',6,5,21,71,+3],
+          ['DE APOYO'],['Costos y facturación por proyecto','Finanzas',7,5,24,74,+2],['Gestión de contratistas y SST','Contratistas',6,3,10,58,-1],['Talento humano','Talento',5,2,6,45,+1]];
+  var mh=''; MP.forEach(function(m){ if(m.length===1){ mh+='<tr class="grp"><td colspan="7">PROCESOS '+m[0]+'</td></tr>'; return; }
+    var pct=Math.round(m[3]/m[2]*100), st=m[5]>=70?G+'Instalada'+E:m[5]>=40?Y+'Adoptando'+E:R+'Arrancando'+E;
+    mh+='<tr><td><b>'+m[0]+'</b><br><span class="src">'+m[1]+'</span></td><td>'+m[2]+'</td><td><div class="mpbar"><i style="--w:'+pct+'%"></i></div><span class="src">'+m[3]+' de '+m[2]+' · '+pct+'%</span></td><td>'+m[4]+' h</td><td><b>'+m[5]+'</b></td><td class="'+(m[6]>=0?'tr-up':'tr-dn')+'">'+(m[6]>=0?'▲ +':'▼ ')+m[6]+'</td><td>'+st+'</td></tr>'; });
+  document.getElementById('mpb').innerHTML=mh;
+
+  function fmt(n){ return n.toLocaleString('es-CO'); }
+  function count(el){ var to=+el.getAttribute('data-count'); if(reduce){ el.textContent=fmt(to); return; } var t0=null;
+    function st(t){ if(!t0)t0=t; var p=Math.min(1,(t-t0)/1300); el.textContent=fmt(Math.round(to*(1-Math.pow(1-p,3)))); if(p<1) requestAnimationFrame(st); } el.textContent='0'; requestAnimationFrame(st); }
+  var io=('IntersectionObserver' in window)?new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ var s=e.target; s.classList.add('on'); s.querySelectorAll('[data-count]').forEach(function(c){ if(!c.dataset.done){c.dataset.done=1;count(c);} }); io.unobserve(s);} }); },{threshold:.12}):null;
+  document.querySelectorAll('.reveal').forEach(function(s){ io?io.observe(s):s.classList.add('on'); });
+
+  var slides=[].slice.call(document.querySelectorAll('.slide')), cnt=document.getElementById('count'), prog=document.getElementById('prog');
+  function cur(){ var y=innerHeight*.35, i=0; slides.forEach(function(s,j){ if(s.getBoundingClientRect().top<=y) i=j; }); return i; }
+  function upd(){ cnt.textContent=(cur()+1)+' / '+slides.length; var h=document.documentElement.scrollHeight-innerHeight; prog.style.width=(h>0?scrollY/h*100:0)+'%'; }
+  function go(d){ var i=Math.max(0,Math.min(slides.length-1,cur()+d)); slides[i].scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'}); }
+  document.getElementById('prev').onclick=function(){go(-1)}; document.getElementById('next').onclick=function(){go(1)};
+  document.addEventListener('keydown',function(e){ if(e.target.closest&&e.target.closest('button')) return; if(e.key==='ArrowRight'||e.key==='PageDown'){e.preventDefault();go(1)} if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();go(-1)} });
+  addEventListener('scroll',upd,{passive:true}); addEventListener('resize',upd); upd();
+})();
+</script>
