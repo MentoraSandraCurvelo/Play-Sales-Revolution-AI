@@ -1,0 +1,23 @@
+{
+ "id": "lun-30-am",
+ "estado": "aprobado",
+ "aprobado_por": "Sandra",
+ "aprobado_el": "2026-11-26",
+ "programado_bogota": "2026-11-30 07:30",
+ "urn": null,
+ "payload": {
+  "author": "urn:li:person:tsJbwdb3B2",
+  "commentary": "¿Crees que porque tu equipo hizo un tablero bonito con IA ya entraste en la era de la inteligencia artificial?\n\nTe equivocas.\n\nY lo digo yo, que publico tableros casi todas las semanas.\n\nUn tablero es la vitrina. No es el almacén.\n\nLo veo todos los días: alguien hace una app en una tarde, un resumen en 30 segundos, una presentación en 5 minutos, y todo el mundo aplaude. Me parece genial. Pero eso no es inteligencia artificial empresarial. Eso es una persona usando una herramienta.\n\nLa IA empresarial empieza cuando en tu empresa pueden responder esto:\n\n⭕ ¿Cuántas horas le devolvió la IA a cada área el mes pasado?\n⭕ ¿Qué procesos cambiaron, no qué herramientas compraron?\n⭕ ¿Quién revisa lo que produce la IA antes de que llegue a un cliente?\n⭕ ¿Qué pasa con la información confidencial que el equipo pega todos los días en un chat?\n⭕ ¿En qué se están usando las horas que se ahorraron?\n\nSi nadie puede responder eso, no tienes IA empresarial. Tienes a cada persona jugando por su cuenta.\n\nY eso cuesta. Licencias que nadie mide. Datos que salen de la empresa sin control. Equipos que se descrestan un mes y al siguiente vuelven a trabajar igual.\n\nLo que cambia una empresa no es la herramienta más rápida. Es el sistema: procesos definidos, una línea base, una persona que revisa y decide, y una medición del antes y el después.\n\nUna app bonita impresiona en una reunión.\nUn sistema medido cambia el estado de resultados.\n\n¿Tú qué tienes hoy en tu empresa: una vitrina o un sistema?\n\n{hashtag|\\#|IAEmpresarial} {hashtag|\\#|Productividad} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+  "visibility": "PUBLIC",
+  "distribution": {
+   "feedDistribution": "MAIN_FEED",
+   "targetEntities": [],
+   "thirdPartyDistributionChannels": []
+  },
+  "lifecycleState": "PUBLISHED",
+  "isReshareDisabledByAuthor": false
+ },
+ "nota": "Post crítico 'vitrina o sistema', solo texto. Sandra aprobó el texto el 26 nov y pidió círculos rojos y hashtags a su estilo. Primer comentario pendiente de su sí.",
+ "primer_comentario": "Una prueba rápida para el lunes: pregúntale a cada jefe de área cuántas horas le ahorró la IA el mes pasado. Si las respuestas son \"muchas\", \"más o menos\" o \"no sé\", ahí está el punto de partida.",
+ "primer_comentario_estado": "pendiente_aprobacion"
+}
