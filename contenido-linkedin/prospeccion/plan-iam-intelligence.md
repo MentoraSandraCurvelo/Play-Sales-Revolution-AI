@@ -130,3 +130,4 @@ Formato 3 párrafos. Comparación A vs B el lun 30 nov.
 - (26 nov) Sandra APROBÓ la nota de invitación a Mateo Arjona y el mensaje para cuando acepte. Sin juegos de palabras con "mate" (malentendido: Sandra nunca lo pidió).
 - (26 nov, 8:48 a 8:58 a. m.) Lote Barranquilla 1: 5/15 enviados (Diany Aris, Pedro De La Ossa, Jairo Duran, Daniel Navarro, Orlando López). Pausa por aviso "You're out of free custom notes" al invitar a Mateo Arjona (perfil linkedin.com/in/mateoarjona, CEO SATENA, 2.º grado). Ese aviso es del cupo de notas de invitación de la cuenta gratuita, no de actividad ni restricción.
 - Comentarios SATENA publicados: MRO (8:53 a. m.) y Contact Center Medellín (8:56 a. m.).
+- (26 nov) WhatsApp a Zuleima Radi (Cruz Roja Atlántico) ENVIADO por Sandra. Patricia Torres: Sandra lo envía hoy.
