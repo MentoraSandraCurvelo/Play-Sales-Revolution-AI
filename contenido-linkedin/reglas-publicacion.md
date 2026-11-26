@@ -334,3 +334,4 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 
 ## Regla 55 (25 nov 2026, Sandra) Siempre tutear
 - Todos los mensajes, comentarios, respuestas y textos a nombre de Sandra van en "tú", nunca en "usted". Aplica también a Sibruno (hoy su bot escribe "su mirada", "Cómo le va?", "Un gusto saludarlo"): pedir al equipo de Sibruno que cambie sus plantillas a tuteo.
+- (26 nov, precisión regla 54) Chrome encontró que la página de Satena nombra como presidente a Mateo Arjona y que Oscar Zuluaga escribe en pasado sobre su presidencia (sep 2022). Pendiente que Sandra confirme. Mientras tanto: solo página de Satena; Oscar no se comenta como presidente.

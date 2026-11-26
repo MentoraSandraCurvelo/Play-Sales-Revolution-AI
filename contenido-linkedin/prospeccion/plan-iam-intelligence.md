@@ -121,3 +121,6 @@ Formato 3 párrafos. Comparación A vs B el lun 30 nov.
 - Mensaje Barranquilla (versión C, basada en el mensaje de Isa, tuteo, 3 párrafos): ver respuesta a Sandra del 25 nov.
 - Flujo: Chrome lista conexiones de 1.er grado en Barranquilla con cargos objetivo (solo lectura) → Claude cruza con lotes previos y base Sibruno → Sandra aprueba → envío jue 26 y vie 27 (máx. 15/día).
 - Fechas del viaje (Sandra, 25 nov): martes 1 y miércoles 2 de diciembre de 2026 en Barranquilla.
+- (26 nov) Chrome: 43 conexiones de 1.er grado en Barranquilla con cargo objetivo (24 sin conversación previa, 19 con conversación previa de Sandra). Fuera por Sibruno: Yenis Ramirez, Johnny Fayad.
+- Plan propuesto: jue 26, 15 mensajes grupo A; vie 27, 7 del grupo A + reconexiones grupo B; lun 30, resto y seguimientos.
+- Fuera por ahora: Vicky Osorio (escrita el 10 nov), Milton Torres (hilo de selección), Silena Severini (Social Selling, posible aliada), Patricia Torres (Sandra por WhatsApp), Ana Maria Charris (CC Barranquilla, conversación con Rina en curso), Jose Luis Sarmiento (Muebles Jamar: Sibruno ya escribe al CFO), Andrea Farah, Julian Eslait, Zuleima Radi.
