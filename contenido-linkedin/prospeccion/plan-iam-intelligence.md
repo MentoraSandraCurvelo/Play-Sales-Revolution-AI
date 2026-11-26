@@ -124,3 +124,6 @@ Formato 3 párrafos. Comparación A vs B el lun 30 nov.
 - (26 nov) Chrome: 43 conexiones de 1.er grado en Barranquilla con cargo objetivo (24 sin conversación previa, 19 con conversación previa de Sandra). Fuera por Sibruno: Yenis Ramirez, Johnny Fayad.
 - Plan propuesto: jue 26, 15 mensajes grupo A; vie 27, 7 del grupo A + reconexiones grupo B; lun 30, resto y seguimientos.
 - Fuera por ahora: Vicky Osorio (escrita el 10 nov), Milton Torres (hilo de selección), Silena Severini (Social Selling, posible aliada), Patricia Torres (Sandra por WhatsApp), Ana Maria Charris (CC Barranquilla, conversación con Rina en curso), Jose Luis Sarmiento (Muebles Jamar: Sibruno ya escribe al CFO), Andrea Farah, Julian Eslait, Zuleima Radi.
+- (26 nov) Lote Barranquilla 1 (15) APROBADO por Sandra y pegado en Chrome; esperando tabla de envíos.
+- (26 nov) Zuleima Radi Sagbini (Directora Ejecutiva, Cruz Roja Atlántico): Sandra la aborda por WhatsApp con mensaje de IA (borrador entregado); no se le escribe por LinkedIn.
+- (26 nov) Aprobados por Sandra los 2 comentarios para la página de SATENA (MRO República Dominicana y Contact Center Medellín).
