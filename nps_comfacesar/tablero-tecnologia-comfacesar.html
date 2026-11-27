@@ -76,6 +76,14 @@ a.tarjeta:hover{border-color:var(--rojo)}
 a.tarjeta:focus-visible{outline:2px solid var(--rojo);outline-offset:2px}
 .ir{display:inline-block;margin-left:9px;font-size:11.5px;font-weight:700;letter-spacing:.09em;
   text-transform:uppercase;color:var(--rojo);vertical-align:middle;white-space:nowrap}
+.chips{margin-top:18px;display:flex;gap:9px;flex-wrap:wrap;align-items:center}
+.chips .et-chips{font-size:13px;font-weight:600;color:var(--tinta-3);margin-right:2px}
+.chip{font-size:14px;font-weight:600;text-decoration:none;color:var(--tinta);
+  background:var(--panel);border:1px solid var(--borde);border-radius:999px;
+  padding:8px 15px;white-space:nowrap}
+.chip:hover{border-color:var(--rojo);color:var(--rojo)}
+.chip:focus-visible{outline:2px solid var(--rojo);outline-offset:2px}
+.chip span{color:var(--rojo);font-weight:700}
 .destacada .dato{color:var(--rojo)}
 
 .antes-despues{margin-top:24px;background:var(--panel);border:1px solid var(--borde);padding:24px}
@@ -189,18 +197,26 @@ ul.lista li strong{color:var(--tinta);font-weight:600}
         le tomaba, con qué herramienta la haría y cuántos minutos tomaría después. El ahorro
         y el porcentaje de reducción se calculan solos.</p>
     </a>
-    <div class="tarjeta">
-      <h3>La Sala de Control</h3>
+    <a class="tarjeta" href="https://claude.ai/artifact/YWpdmWuHVi4jXYW94duVqp" target="_blank" rel="noopener">
+      <h3>La Sala de Control <span class="ir">Abrirla ↗</span></h3>
       <p>Comunicaciones y la dirección tienen su propio tablero de seguimiento: sesiones por
         área, procesos documentados y horas recuperadas, actualizado durante todo el
         programa. El avance se veía sin tener que preguntarle a nadie.</p>
-    </div>
+    </a>
     <div class="tarjeta">
       <h3>Los reportes de la dirección</h3>
       <p>Lo que el director iba pidiendo se entregaba con corte y fecha, sobre los mismos
         datos del tablero, no sobre una presentación aparte.</p>
     </div>
   </div>
+  <div class="chips">
+    <span class="et-chips">Los tableros, uno por uno:</span>
+    <a class="chip" href="https://claude.ai/artifact/YWpdmWuHVi4jXYW94duVqp" target="_blank" rel="noopener">Sala de Control <span>↗</span></a>
+    <a class="chip" href="https://claude.ai/artifact/MhJTwMjwSshsUMYy1gQteg" target="_blank" rel="noopener">KPIs <span>↗</span></a>
+    <a class="chip" href="https://claude.ai/artifact/HxGTyCeLnuvk9oHEtHLh8Z" target="_blank" rel="noopener">Termómetro <span>↗</span></a>
+    <a class="chip" href="https://claude.ai/artifact/RWnw1JHHd47GBVSpKEtDqH" target="_blank" rel="noopener">Cierre del programa <span>↗</span></a>
+  </div>
+
   <h2>Por qué esto importa para la fase 2</h2>
   <p class="cuerpo">El conocimiento del proyecto <strong>no se fue con nadie</strong>: está
     en los canales, en los tableros y en los procesos documentados, todo dentro de
