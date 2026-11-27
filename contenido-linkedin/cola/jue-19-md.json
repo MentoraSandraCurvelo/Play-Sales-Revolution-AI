@@ -1,28 +1,29 @@
 {
- "id": "jue-19-md",
- "estado": "aprobado",
- "aprobado_por": "Sandra",
- "aprobado_el": "2026-11-09",
- "programado_bogota": "2026-11-27 15:00",
- "archivo_video": "contenido-linkedin/videos/recuerdo-panel-llega-sabiendo.mp4",
- "titulo_video": "No llames en frío. Llega sabiendo.",
- "urn": null,
- "payload": {
-  "author": "urn:li:person:tsJbwdb3B2",
-  "commentary": "En este panel di un ejemplo sencillo.\n\nSi quieres venderle al presidente de una gran empresa, no lo llames en frío.\n\nPrimero buscas su contacto. Después averiguas quién es. Y miras qué ha hecho.\n\nCuando llegas sabiendo, no estás interrumpiendo. Estás aportando.\n\nEso es autoridad.\n\n¿Cuánto investigas antes de escribirle a un cliente nuevo?\n\nSígueme si quieres vender en LinkedIn con método.\n\n{hashtag|\\#|SocialSelling} {hashtag|\\#|Ventas} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
-  "visibility": "PUBLIC",
-  "distribution": {
-   "feedDistribution": "MAIN_FEED",
-   "targetEntities": [],
-   "thirdPartyDistributionChannels": []
+  "id": "jue-19-md",
+  "estado": "publicado",
+  "aprobado_por": "Sandra",
+  "aprobado_el": "2026-11-09",
+  "programado_bogota": "2026-11-27 15:00",
+  "archivo_video": "contenido-linkedin/videos/recuerdo-panel-llega-sabiendo.mp4",
+  "titulo_video": "No llames en frío. Llega sabiendo.",
+  "urn": "urn:li:ugcPost:7532172937639100416",
+  "payload": {
+    "author": "urn:li:person:tsJbwdb3B2",
+    "commentary": "En este panel di un ejemplo sencillo.\n\nSi quieres venderle al presidente de una gran empresa, no lo llames en frío.\n\nPrimero buscas su contacto. Después averiguas quién es. Y miras qué ha hecho.\n\nCuando llegas sabiendo, no estás interrumpiendo. Estás aportando.\n\nEso es autoridad.\n\n¿Cuánto investigas antes de escribirle a un cliente nuevo?\n\nSígueme si quieres vender en LinkedIn con método.\n\n{hashtag|\\#|SocialSelling} {hashtag|\\#|Ventas} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+    "visibility": "PUBLIC",
+    "distribution": {
+      "feedDistribution": "MAIN_FEED",
+      "targetEntities": [],
+      "thirdPartyDistributionChannels": []
+    },
+    "lifecycleState": "PUBLISHED",
+    "isReshareDisabledByAuthor": false
   },
-  "lifecycleState": "PUBLISHED",
-  "isReshareDisabledByAuthor": false
- },
- "nota": "Reel de recuerdos (Isaía). Alpina es un ejemplo hipotético; no se nombra en el texto. Falta primer comentario. | 27 nov: Sandra terminó la prueba de 1 post al día; se programa hoy 3:00 p. m. Primer comentario aprobado por Sandra el 27 nov.",
- "video": "urn:li:video:D4E10AQHRDuzJCWnOug",
- "primer_comentario": "¿Cuánto tiempo dedicas a investigar a alguien antes de escribirle por primera vez?",
- "primer_comentario_aprobado_el": "2026-11-09",
- "programado_anterior": "2026-11-19 11:30",
- "primer_comentario_estado": "aprobado"
+  "nota": "Reel de recuerdos (Isaía). Alpina es un ejemplo hipotético; no se nombra en el texto. Falta primer comentario. | 27 nov: Sandra terminó la prueba de 1 post al día; se programa hoy 3:00 p. m. Primer comentario aprobado por Sandra el 27 nov.",
+  "video": "urn:li:video:D4E10AQHRDuzJCWnOug",
+  "primer_comentario": "¿Cuánto tiempo dedicas a investigar a alguien antes de escribirle por primera vez?",
+  "primer_comentario_aprobado_el": "2026-11-09",
+  "programado_anterior": "2026-11-19 11:30",
+  "primer_comentario_estado": "aprobado",
+  "publicado_utc": "2026-11-27T20:06:09+00:00"
 }
