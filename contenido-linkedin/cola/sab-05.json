@@ -1,0 +1,23 @@
+{
+ "id": "sab-05",
+ "estado": "texto_aprobado_verificar_viernes",
+ "aprobado_por": "Sandra",
+ "aprobado_el": "2026-11-27",
+ "programado_bogota": "2026-12-05 09:00",
+ "urn": null,
+ "payload": {
+  "author": "urn:li:person:tsJbwdb3B2",
+  "commentary": "Esta semana estuve en Barranquilla tomándome cafés con empresarios.\n\nNinguno me preguntó qué herramienta de IA usar.\n\nTodos me preguntaron lo mismo: \"¿por dónde empiezo?\"\n\nMi respuesta siempre es igual: por la tarea que más se repite y más tiempo le quita a tu equipo. Ahí está tu primer resultado.\n\n¿Cuál es esa tarea en tu empresa?\n\n{hashtag|\\#|IAEmpresarial} {hashtag|\\#|Productividad} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+  "visibility": "PUBLIC",
+  "distribution": {
+   "feedDistribution": "MAIN_FEED",
+   "targetEntities": [],
+   "thirdPartyDistributionChannels": []
+  },
+  "lifecycleState": "PUBLISHED",
+  "isReshareDisabledByAuthor": false
+ },
+ "primer_comentario": null,
+ "primer_comentario_estado": null,
+ "nota": "Aprobado 27 nov, PERO el texto describe lo que pasará en Barranquilla: el vie 4 Claude le pregunta a Sandra si fue así y lo ajusta; solo entonces pasa a 'aprobado'. No se inventa lo que dijeron."
+}

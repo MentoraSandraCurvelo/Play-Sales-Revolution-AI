@@ -1,0 +1,33 @@
+{
+ "id": "jue-03-pm",
+ "estado": "aprobado",
+ "aprobado_por": "Sandra",
+ "aprobado_el": "2026-11-27",
+ "programado_bogota": "2026-12-03 15:00",
+ "urn": null,
+ "payload": {
+  "author": "urn:li:person:tsJbwdb3B2",
+  "commentary": "En muchas empresas la IA llegó sin dueño. Unos creen que es tema de TI, otros de Talento Humano, otros de la gerencia. Y mientras tanto, cada persona la usa a su manera.\n\nQuiero saber cómo es en la tuya. Vota y cuéntame en los comentarios por qué.\n\n{hashtag|\\#|IAEmpresarial} {hashtag|\\#|Liderazgo} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+  "visibility": "PUBLIC",
+  "distribution": {
+   "feedDistribution": "MAIN_FEED",
+   "targetEntities": [],
+   "thirdPartyDistributionChannels": []
+  },
+  "lifecycleState": "PUBLISHED",
+  "isReshareDisabledByAuthor": false
+ },
+ "primer_comentario": "Mi opinión: la IA empresarial la debe liderar la gerencia, con TI como aliado y cada área como dueña de sus procesos. Cuando es de un solo departamento, se queda en ese departamento.",
+ "primer_comentario_estado": "aprobado",
+ "nota": "Encuesta semana 6. Aprobada 27 nov.",
+ "encuesta": {
+  "pregunta": "¿Quién lidera la IA en tu empresa?",
+  "opciones": [
+   "TI o tecnología",
+   "Talento Humano",
+   "La gerencia",
+   "Nadie todavía"
+  ],
+  "duracion": "ONE_WEEK"
+ }
+}

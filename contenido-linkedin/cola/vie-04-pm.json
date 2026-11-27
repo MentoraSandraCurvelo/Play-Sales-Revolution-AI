@@ -1,0 +1,23 @@
+{
+ "id": "vie-04-pm",
+ "estado": "texto_aprobado_falta_foto",
+ "aprobado_por": "Sandra",
+ "aprobado_el": "2026-11-27",
+ "programado_bogota": "2026-12-04 15:00",
+ "urn": null,
+ "payload": {
+  "author": "urn:li:person:tsJbwdb3B2",
+  "commentary": "Muchas empresas me preguntan qué hicimos distinto en el proyecto con Comfacesar para llegar a casi 1.100 horas al mes.\n\nNo fue la herramienta. Fueron 3 decisiones:\n\n⭕ 1. Medimos antes de automatizar. Cada área registró cuánto le tomaban sus tareas antes de usar IA. Sin línea base, no hay forma de demostrar nada.\n⭕ 2. La IA se metió en los procesos, no en un curso. Cada área trabajó sus propias tareas reales, con una persona que revisa y decide.\n⭕ 3. La gente contó su propia historia. Los embajadores llevaron el cambio a LinkedIn con su voz, y eso convirtió un proyecto interno en orgullo de marca.\n\nNinguna de las 3 requiere una tecnología especial. Requieren método y liderazgo.\n\n¿Cuál de las 3 te parece más difícil de aplicar en tu empresa?\n\n{hashtag|\\#|Comfacesar} {hashtag|\\#|IAEmpresarial} {hashtag|\\#|IAMIntelligence} {hashtag|\\#|IAMAmbassadors} {hashtag|\\#|IAM}",
+  "visibility": "PUBLIC",
+  "distribution": {
+   "feedDistribution": "MAIN_FEED",
+   "targetEntities": [],
+   "thirdPartyDistributionChannels": []
+  },
+  "lifecycleState": "PUBLISHED",
+  "isReshareDisabledByAuthor": false
+ },
+ "primer_comentario": "La que más resistencia genera al principio es la 1: medir. Nadie quiere ver cuánto tiempo se le va en tareas repetitivas. Pero es la que después más se agradece.",
+ "primer_comentario_estado": "aprobado",
+ "nota": "Caso Comfacesar 3. Texto y comentario aprobados 27 nov. Falta elegir foto (gente trabajando) de la carpeta de Giovanni; pasa a 'aprobado' cuando Sandra vea la foto."
+}

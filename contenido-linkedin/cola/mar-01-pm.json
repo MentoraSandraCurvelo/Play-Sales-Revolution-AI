@@ -1,0 +1,23 @@
+{
+ "id": "mar-01-pm",
+ "estado": "aprobado",
+ "aprobado_por": "Sandra",
+ "aprobado_el": "2026-11-27",
+ "programado_bogota": "2026-12-01 15:00",
+ "urn": null,
+ "payload": {
+  "author": "urn:li:person:tsJbwdb3B2",
+  "commentary": "Las horas recuperadas con IA no valen nada si no sabes en qué las usas.\n\nRecuperarlas es la parte fácil.\n\nLo difícil es responder la pregunta que viene después: ¿en qué las vamos a usar?\n\nPorque si nadie lo decide, pasa lo de siempre: la agenda se vuelve a llenar de reuniones, correos y urgencias, y a los 3 meses nadie recuerda que hubo horas libres.\n\nEn los programas que acompaño, cada área responde 3 preguntas antes de empezar:\n\n⭕ ¿Qué tarea vamos a soltarle a la IA?\n⭕ ¿Cuántas horas nos toma hoy?\n⭕ ¿En qué vamos a invertir las horas que recuperemos?\n\nLa tercera es la que cambia todo. Una hora recuperada que se invierte en analizar datos, atender mejor a un cliente o pensar la estrategia vale más que la hora que se ahorró.\n\nLas horas recuperadas no son el resultado. Son la materia prima.\n\n¿Si tu equipo recuperara 10 horas a la semana, en qué las invertirías?\n\n{hashtag|\\#|IAEmpresarial} {hashtag|\\#|Productividad} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+  "visibility": "PUBLIC",
+  "distribution": {
+   "feedDistribution": "MAIN_FEED",
+   "targetEntities": [],
+   "thirdPartyDistributionChannels": []
+  },
+  "lifecycleState": "PUBLISHED",
+  "isReshareDisabledByAuthor": false
+ },
+ "primer_comentario": "Un ejercicio para el lunes: pídele a cada líder que escriba en una línea en qué usaría 5 horas extra a la semana. Las respuestas te dicen mucho de las prioridades de tu equipo.",
+ "primer_comentario_estado": "aprobado",
+ "nota": "Semana 6. Aprobado 27 nov."
+}

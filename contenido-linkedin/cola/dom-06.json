@@ -1,0 +1,33 @@
+{
+ "id": "dom-06",
+ "estado": "aprobado",
+ "aprobado_por": "Sandra",
+ "aprobado_el": "2026-11-27",
+ "programado_bogota": "2026-12-06 17:00",
+ "urn": null,
+ "payload": {
+  "author": "urn:li:person:tsJbwdb3B2",
+  "commentary": "Diciembre en LinkedIn: fotos de fiestas de fin de año, equipos sonriendo, \"¡la mejor empresa para trabajar!\".\n\nY está bien celebrar. Pero me hago una pregunta:\n\n¿La foto de la fiesta mide el clima laboral?\n\nPorque conozco empresas donde las áreas no se hablan en todo el año y en diciembre se toman la foto juntas.\n\nUna fiesta no es un indicador. Es un momento.\n\nLo que sí dice cómo está tu gente se mide el resto del año:\n\n⭕ ¿Cuántas horas a la semana pierde tu equipo en tareas que nadie valora?\n⭕ ¿Cuánto creció cada persona en lo que sabe hacer?\n⭕ ¿Cuántos se quedarían si mañana les ofrecen otro trabajo?\n\nCelebra en diciembre. Pero mide en enero.\n\n{hashtag|\\#|Productividad} {hashtag|\\#|CulturaOrganizacional} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+  "visibility": "PUBLIC",
+  "distribution": {
+   "feedDistribution": "MAIN_FEED",
+   "targetEntities": [],
+   "thirdPartyDistributionChannels": []
+  },
+  "lifecycleState": "PUBLISHED",
+  "isReshareDisabledByAuthor": false
+ },
+ "primer_comentario": "Una idea para enero: haz la misma pregunta de clima en la primera semana del año y repítela cada trimestre. La tendencia te dice más que cualquier foto.",
+ "primer_comentario_estado": "pendiente_aprobacion",
+ "nota": "Serie 'Lo que no se mide' 2. Aprobado 27 nov. Primer comentario: Sandra lo dio por aprobado pero no se había escrito; propuesto el 27 nov, pendiente de su sí.",
+ "encuesta": {
+  "pregunta": "¿La fiesta de fin de año de tu empresa refleja el clima del resto del año?",
+  "opciones": [
+   "Sí, totalmente",
+   "Más o menos",
+   "Para nada",
+   "Prefiero no decir"
+  ],
+  "duracion": "ONE_WEEK"
+ }
+}
