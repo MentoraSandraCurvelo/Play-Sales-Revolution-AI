@@ -345,3 +345,7 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 
 ## Regla 57 (27 nov 2026, Sandra) Paleta de marca en todos los visuales
 - Solo los colores de la marca de Sandra: rojo (#d4141c y rojo oscuro #7a0a0f), negro (#141414) y blanco, con grises neutros. Nada de azules, morados ni turquesas (el Tablero 01 usó morado y turquesa: no repetir).
+
+## Regla 58 (27 nov 2026, Sandra): agenda en Outlook de IAM™
+- Toda reunión o bloqueo se agenda en el calendario de Outlook de sandracurvelo@iamlatam.co (el que bloquea el Calendly), NUNCA en Gmail.
+- Formato de Valeria: título "⭕️Empresa | Persona o tema | Tipo | Ciudad o programa" (ej. "⭕️RCN | Reunión Presencial | Barranquilla"). Presencial: ubicación "Ciudad (presencial)" y cuerpo "Reunión presencial con X en Ciudad a las H. Bloqueo de A a B. Bloqueo personal, sin invitados." El desplazamiento va dentro del mismo bloque.
