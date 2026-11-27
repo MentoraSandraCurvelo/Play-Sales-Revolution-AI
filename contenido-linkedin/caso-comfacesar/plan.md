@@ -10,3 +10,7 @@ Material en Drive (carpeta de Giovanni, id 1tncjzi9Zo8u80Z1BJV3k27nQL-9mjb0B): ~
 | 3 | Vie 4 dic, 3:00 p. m. | "3 cosas que hicimos distinto" (texto + 1 foto) | 1 foto | Texto |
 | 4 | Jue 10 dic, 7:30 a. m. | Newsletter edición 3: el caso completo | Fotos | Texto |
 | 5 | Semana del 7 dic | Página IAM™: compartir + tablero "caso real" | Foto | Diseño |
+
+## Permisos (Sandra, 27 nov 2026)
+- TODO el material de Comfacesar (fotos y videos del cierre, incluidas personas que aparecen hablando) tiene permiso para salir en LinkedIn.
+- Sigue vigente: no escribir nombres de personas del equipo cliente en los textos (salvo que Sandra lo indique) y no usar la cifra en dinero hasta que esté confirmada.
