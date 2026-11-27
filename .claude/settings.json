@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 estrategia/instagram/herramientas/bajar_media_ig.py:*)"
+    ]
+  }
+}
