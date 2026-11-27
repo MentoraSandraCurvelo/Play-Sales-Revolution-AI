@@ -142,3 +142,4 @@ Formato 3 párrafos. Comparación A vs B el lun 30 nov.
 - (26 nov) WhatsApp a Patricia Torres (CC Barranquilla) ENVIADO por Sandra; sin respuesta al 27 nov. Seguimiento corto el lun 30 si no responde.
 - (27 nov) Sandra pide enviar a Oscar Zuluaga el mensaje aprobado por LinkedIn (vía Chrome).
 - (27 nov, 6:41 a. m.) Mensaje a Oscar Zuluaga ENVIADO por LinkedIn (texto aprobado). Si responde, Chrome avisa sin contestar.
+- (27 nov, 7:59 a. m.) Zuleima Radi respondió por WhatsApp: tiene reunión a las 11:30; si aplaza el lanzamiento del miércoles 2 dic, se ven ese día. Sandra: "conversamos al final del día". Claude propone mensaje de cierre con hora concreta el mié 2 (9:00 a. m.) que no choque con Yamil (11 a. m. o tarde del mié 2), y plan B martes 1. Pendiente aprobación de Sandra.
