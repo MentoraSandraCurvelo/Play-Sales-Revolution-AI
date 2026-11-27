@@ -342,3 +342,6 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 ## Regla 56 (27 nov 2026) Exalumnos de Sandra
 - Hayza Padilla es exalumna de Sandra y le llegó el mensaje comercial del lote Barranquilla 2 (27 nov). Se deja así (es cordial); si responde, se trata como alumna.
 - Antes de cada lote: toda persona con conversación previa con Sandra se le muestra a Sandra para que diga si es exalumna. Los exalumnos NO reciben mensajes de prospección en frío ni plantillas comerciales; se manejan aparte (segmento exalumnos, mensaje propio aprobado por Sandra).
+
+## Regla 57 (27 nov 2026, Sandra) Paleta de marca en todos los visuales
+- Solo los colores de la marca de Sandra: rojo (#d4141c y rojo oscuro #7a0a0f), negro (#141414) y blanco, con grises neutros. Nada de azules, morados ni turquesas (el Tablero 01 usó morado y turquesa: no repetir).
