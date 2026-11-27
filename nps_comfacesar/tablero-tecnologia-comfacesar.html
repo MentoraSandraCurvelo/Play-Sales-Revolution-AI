@@ -71,6 +71,11 @@ p.cuerpo strong{color:var(--tinta);font-weight:600}
 .tarjeta h3{font-size:16.5px;font-weight:700}
 .tarjeta p{margin-top:8px;font-size:15px;color:var(--tinta-2)}
 .destacada{background:var(--rojo-tenue);border-color:var(--rojo-claro)}
+a.tarjeta{display:block;text-decoration:none;color:inherit;transition:border-color .15s}
+a.tarjeta:hover{border-color:var(--rojo)}
+a.tarjeta:focus-visible{outline:2px solid var(--rojo);outline-offset:2px}
+.ir{display:inline-block;margin-left:9px;font-size:11.5px;font-weight:700;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--rojo);vertical-align:middle;white-space:nowrap}
 .destacada .dato{color:var(--rojo)}
 
 .antes-despues{margin-top:24px;background:var(--panel);border:1px solid var(--borde);padding:24px}
@@ -178,12 +183,12 @@ ul.lista li strong{color:var(--tinta);font-weight:600}
         corporativo, uno por cada área. Todo archivado, con fecha, autor y soporte. Nada
         del proyecto vive en un chat privado.</p>
     </div>
-    <div class="tarjeta">
-      <h3>El dashboard de productividad</h3>
+    <a class="tarjeta" href="https://drive.google.com/file/d/15MttClb8I_USqiJ537Ne_huySFnzF2Gg/view" target="_blank" rel="noopener">
+      <h3>El dashboard de productividad <span class="ir">Abrirlo ↗</span></h3>
       <p>Cada área registraba en su hoja la tarea, cada cuánto la repetía, cuántos minutos
         le tomaba, con qué herramienta la haría y cuántos minutos tomaría después. El ahorro
         y el porcentaje de reducción se calculan solos.</p>
-    </div>
+    </a>
     <div class="tarjeta">
       <h3>La Sala de Control</h3>
       <p>Comunicaciones y la dirección tienen su propio tablero de seguimiento: sesiones por
