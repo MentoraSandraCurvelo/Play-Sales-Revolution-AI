@@ -3,7 +3,7 @@
  "estado": "aprobado",
  "aprobado_por": "Sandra",
  "aprobado_el": "2026-11-10",
- "programado_bogota": "por_reprogramar (prueba 1 post al día, 17 al 30 nov)",
+ "programado_bogota": "2026-11-28 09:00",
  "urn": null,
  "payload": {
   "author": "urn:li:person:tsJbwdb3B2",
@@ -17,9 +17,11 @@
   "lifecycleState": "PUBLISHED",
   "isReshareDisabledByAuthor": false
  },
- "nota": "Texto aprobado el 10 nov. Formato: imagen dato 4,7 a 8,6 por crear. Sin primer comentario aún.",
+ "nota": "Texto aprobado el 10 nov. Formato: imagen dato 4,7 a 8,6 por crear. Sin primer comentario aún. | 27 nov: Sandra aprueba imagen (rojo y negro) y primer comentario; sale sáb 28 nov 9:00 a. m.",
  "programado_anterior": "2026-11-18 15:00",
  "imagen": "contenido-linkedin/imagenes/semana-6/confianza.png",
  "alt": "Gráfico: la confianza del equipo para usar IA pasó de 4,7 a 8,6 sobre 10 en 9 semanas",
- "nota_visual": "27 nov: imagen propuesta, pendiente visto bueno de Sandra"
+ "nota_visual": "27 nov: imagen propuesta, pendiente visto bueno de Sandra",
+ "primer_comentario": "La pregunta fue una sola, igual al inicio y en la semana 9: del 1 al 10, ¿qué tan seguro te sientes usando IA en tu trabajo diario? Si quieres, cópiala y pruébala con tu equipo.",
+ "primer_comentario_estado": "aprobado"
 }
