@@ -14,3 +14,4 @@ Material en Drive (carpeta de Giovanni, id 1tncjzi9Zo8u80Z1BJV3k27nQL-9mjb0B): ~
 ## Permisos (Sandra, 27 nov 2026)
 - TODO el material de Comfacesar (fotos y videos del cierre, incluidas personas que aparecen hablando) tiene permiso para salir en LinkedIn.
 - Sigue vigente: no escribir nombres de personas del equipo cliente en los textos (salvo que Sandra lo indique) y no usar la cifra en dinero hasta que esté confirmada.
+- (27 nov) Sandra autoriza etiquetar a Comfacesar y a personas de su equipo en la serie del caso de éxito. Nada se publica sin su visto bueno del borrador.
