@@ -147,3 +147,4 @@ Formato 3 párrafos. Comparación A vs B el lun 30 nov.
 - (27 nov) Comentarios de visibilidad de la corrida 7:35 (5): VP José Manuel Restrepo (Talento ColombIA), MinTIC (UTP Pereira), Holland House (binacional), Mónica Patiño (Servinformación), CC Cali (PreZent). Revisados por Claude: todos cumplen; para la próxima ronda variar más el cierre de ideas ("cuánto tiempo ahorra" se repitió en 4 de 5).
 - (27 nov, 11:03 a. m.) AGENDADO por decisión de Sandra: llamada a Julián Vásquez (Ultracem) el mar 1 dic, 9:00 a 9:30 a. m. (Google Calendar, recordatorios 1 día y 30 min antes). Se agenda aunque él no confirme la hora.
 - (27 nov) Julián (Ultracem) pidió las 11 a. m. por WhatsApp. AGENDADO: reunión presencial mar 1 dic 11:00 a 12:00 y bloque de desplazamiento 10:00 a 11:00. Falta dirección y correo. Zule ya no puede el martes 1 a las 10 a. m.
+- (27 nov) Dirección de la reunión con Julián: Cementos Ultracem, Km 2.5 Vía La Cordialidad, Barranquilla (puesta en el evento).
