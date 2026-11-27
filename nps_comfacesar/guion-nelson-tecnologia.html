@@ -1,0 +1,228 @@
+<title>Guion Nelson, Tecnología</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap">
+<style>
+/* Columna única para leer en el teléfono: bloques numerados por minuto de la reunión. */
+:root{
+  --fondo:#fbfaf9; --tarjeta:#ffffff; --tinta:#16130f; --tinta-2:#4a433c; --tinta-3:#857c72;
+  --rojo:#c00000; --rojo-suave:#fdf0ef; --linea:#e6e1db; --marca:#16130f;
+  --ok:#2f6b3f; --ok-fondo:#eef5ef; --alerta:#8a5a00; --alerta-fondo:#fdf5e6;
+  --display:"Fraunces",Georgia,serif; --texto:"Inter",system-ui,-apple-system,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --fondo:#121011; --tarjeta:#1b1818; --tinta:#f3efe9; --tinta-2:#c8c0b6; --tinta-3:#938a7f;
+  --rojo:#ef6b63; --rojo-suave:#2a1a19; --linea:#312c2a; --marca:#f3efe9;
+  --ok:#8fcf9f; --ok-fondo:#17241a; --alerta:#e8bc6a; --alerta-fondo:#262013;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --fondo:#121011; --tarjeta:#1b1818; --tinta:#f3efe9; --tinta-2:#c8c0b6; --tinta-3:#938a7f;
+  --rojo:#ef6b63; --rojo-suave:#2a1a19; --linea:#312c2a; --marca:#f3efe9;
+  --ok:#8fcf9f; --ok-fondo:#17241a; --alerta:#e8bc6a; --alerta-fondo:#262013;
+  color-scheme:dark;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--fondo);color:var(--tinta);font-family:var(--texto);
+  font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.hoja{max-width:680px;margin:0 auto;
+  padding-left:max(16px,env(safe-area-inset-left,0px));
+  padding-right:max(16px,env(safe-area-inset-right,0px));
+  padding-block:28px 56px}
+.cabeza{border-bottom:3px solid var(--rojo);padding-bottom:16px}
+.marca{font-weight:700;letter-spacing:.02em;color:var(--rojo);font-size:15px}
+.tm{font-size:.62em;vertical-align:.5em}
+h1{margin-top:8px;font-family:var(--display);font-size:clamp(28px,7.5vw,38px);
+  font-weight:600;line-height:1.1;letter-spacing:-.01em;text-wrap:balance}
+.entradilla{margin-top:10px;color:var(--tinta-2);font-size:16.5px}
+.paso{margin-top:30px}
+.paso-num{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--rojo);background:var(--rojo-suave);
+  padding:4px 9px;border-radius:2px}
+.paso h2{margin-top:10px;font-family:var(--display);font-size:22px;font-weight:600;
+  line-height:1.25;text-wrap:balance}
+.paso p{margin-top:9px;color:var(--tinta-2)}
+.paso p strong,li strong{color:var(--tinta);font-weight:600}
+.decir{margin-top:12px;background:var(--tarjeta);border:1px solid var(--linea);
+  border-left:3px solid var(--marca);padding:14px 16px;
+  font-family:var(--display);font-size:17.5px;line-height:1.45;color:var(--tinta)}
+.decir + .decir{margin-top:8px}
+.et{display:block;font-family:var(--texto);font-size:10.5px;font-weight:700;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--tinta-3);margin-bottom:7px}
+ul{margin-top:10px;padding-left:0;list-style:none;display:grid;gap:7px}
+li{padding-left:17px;position:relative;color:var(--tinta-2)}
+li::before{content:"";position:absolute;left:3px;top:.62em;width:5px;height:5px;
+  border-radius:50%;background:var(--rojo)}
+.cifras{margin-top:14px;display:grid;gap:9px}
+@media (min-width:520px){.cifras{grid-template-columns:1fr 1fr}}
+.cifra{background:var(--tarjeta);border:1px solid var(--linea);padding:13px 15px;min-width:0}
+.cifra b{display:block;font-family:var(--display);font-size:25px;font-weight:600;
+  line-height:1.1;color:var(--tinta);font-variant-numeric:tabular-nums}
+.cifra span{display:block;margin-top:4px;font-size:14px;color:var(--tinta-3)}
+.obj{margin-top:12px;background:var(--tarjeta);border:1px solid var(--linea);padding:15px 16px}
+.obj .dice{font-weight:600;color:var(--tinta)}
+.obj .dice::before{content:"“"}.obj .dice::after{content:"”"}
+.obj .resp{margin-top:9px;color:var(--tinta-2);font-size:15.5px}
+.aviso{margin-top:14px;background:var(--alerta-fondo);border:1px solid var(--linea);
+  border-left:3px solid var(--alerta);padding:14px 16px;font-size:15.5px;color:var(--tinta-2)}
+.aviso b{color:var(--tinta)}
+.cierre{margin-top:14px;background:var(--ok-fondo);border:1px solid var(--linea);
+  border-left:3px solid var(--ok);padding:14px 16px;font-size:15.5px;color:var(--tinta-2)}
+.cierre b{color:var(--tinta)}
+.pie{margin-top:40px;padding-top:18px;border-top:1px solid var(--linea);
+  font-size:14px;color:var(--tinta-3)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="hoja">
+<header class="cabeza">
+  <div class="marca">IAM<span class="tm">™</span> Intelligence · Comfacesar</div>
+  <h1>Reunión con Nelson, Tecnología</h1>
+  <p class="entradilla">Viernes 27 de noviembre, 11:00. Una hora. El objetivo no es que
+    apruebe nada hoy, es que llegue a la mesa de la próxima semana sintiendo que la fase 2
+    también es suya.</p>
+</header>
+
+<section class="paso">
+  <span class="paso-num">Minuto 0 a 5 · Cómo abrir</span>
+  <h2>Reconoce primero lo que le pasó, antes de mostrarle nada</h2>
+  <p>Él no es un obstructor porque sí. Un proyecto recorrió 21 áreas de la Caja, tocó
+    herramientas, licencias, datos y nube, y él se enteró desde afuera. Cualquier jefe de
+    tecnología bloquearía eso. <strong>Si abres vendiendo, confirmas el problema.</strong>
+    Si abres reconociéndolo, lo desarmas en dos minutos.</p>
+  <div class="decir">
+    <span class="et">Dilo así</span>
+    Nelson, vengo porque Fran me pidió que te involucrara, y porque creo que en la fase 1
+    nos faltó hacer esto antes. El proyecto tocó temas que son tuyos y tú no estuviste en
+    la mesa. Hoy vengo a que me digas qué hicimos mal desde tu lado, y a enseñarte lo que
+    sigue antes de que se decida, no después.
+  </div>
+  <p>Y después <strong>te callas</strong>. Que hable él. Lo que diga en esos primeros
+    minutos es el mapa de toda la reunión, y seguramente es la primera vez que alguien se
+    lo pregunta.</p>
+  <div class="aviso">
+    <b>Olga Lucía Barros</b> es la de su área que sí estuvo en el proyecto. Nómbrala con
+    reconocimiento, nunca como queja, y jamás menciones las sesiones que se cancelaron.
+    Si lo haces, él la regaña a ella y tú pierdes a los dos.
+  </div>
+</section>
+
+<section class="paso">
+  <span class="paso-num">Minuto 5 a 20 · Los resultados</span>
+  <h2>Tres cifras, no veinte. Él es técnico, va a creerle al método, no al entusiasmo</h2>
+  <p>Lo que lo convence no es cuánto se ganó, es <strong>cómo se midió</strong>. Explícale
+    la línea base antes que el resultado: cuánto tardaba cada tarea antes, y la misma
+    medición otra vez al final con el mismo metro.</p>
+  <div class="cifras">
+    <div class="cifra"><b>119</b><span>sesiones verificadas, del 11 de agosto al 8 de octubre</span></div>
+    <div class="cifra"><b>187 h</b><span>recuperadas por semana en toda la Caja</span></div>
+    <div class="cifra"><b>6.400 → 480</b><span>minutos al mes en un solo proceso de reportería</span></div>
+    <div class="cifra"><b>4 ejes</b><span>del Índice de Inteligencia Empresarial: adopción, producción, impacto y autonomía</span></div>
+  </div>
+  <p>Y el dato que a un jefe de tecnología le importa más que todos los anteriores:
+    <strong>cuando el programa cerró el 9 de octubre, hubo áreas que siguieron construyendo
+    solas.</strong> Eso significa que no quedó una dependencia de un proveedor, que es
+    exactamente lo que él teme.</p>
+</section>
+
+<section class="paso">
+  <span class="paso-num">Minuto 20 a 40 · La propuesta</span>
+  <h2>Enséñale solo los cuatro bloques donde él decide. Sin cifras de inversión</h2>
+  <p>No le pases la propuesta completa ni hables de plata. Si pregunta por el valor,
+    le dices que eso lo ve Fran y que tú vienes por lo técnico. Muéstrale estos cuatro,
+    y en cada uno <strong>pregúntale a él, no le expliques tú</strong>.</p>
+  <ul>
+    <li><strong>La arquitectura y los tableros conectados.</strong> Hoy son islas que no se
+      hablan. La pregunta para él: cómo conectarlos con lo que ya existe, SISU incluido,
+      sin romper nada.</li>
+    <li><strong>La nube.</strong> Está en el inventario de lo que se cotiza aparte, Azure o
+      AWS. La pregunta: qué tiene la Caja hoy y qué recomienda él.</li>
+    <li><strong>Los equipos.</strong> No se puede seguir operando con computadores de mesa.
+      Esto ya quedó entre Julio y él, tú solo lo pones sobre la mesa.</li>
+    <li><strong>El licenciamiento.</strong> Individual por persona, con control de uso desde
+      Cumplimiento. La pregunta: cómo lo administra él.</li>
+  </ul>
+  <div class="aviso">
+    <b>El backup técnico, con cuidado.</b> Julio dijo que pone a una persona de tecnología
+    como tu apoyo. Si eso le llega a Nelson por fuera, lo vuelves a pasar por encima.
+    Preséntalo al revés: <i>esa persona debería salir de tu equipo y responderte a ti,
+    ¿a quién me recomiendas?</i>
+  </div>
+</section>
+
+<section class="paso">
+  <span class="paso-num">Lo que va a salir · Prepáralo</span>
+  <h2>Las cuatro objeciones, con respuesta</h2>
+
+  <div class="obj">
+    <p class="dice">Eso que ustedes hacen se puede hacer en Google Workspace, que ya lo tenemos pago y subutilizado.</p>
+    <p class="resp">Esta es la de Fran, palabra por palabra, en la reunión del 23. Va a salir
+      hoy otra vez. <strong>No la pelees, dale la razón primero:</strong> parte de lo que
+      hacen sí se puede hacer en Workspace, y lo que se pueda hacer ahí, se hace ahí.
+      Ofrécele algo concreto: que él y tú revisen juntos, proceso por proceso, qué resuelve
+      Workspace y qué no, y que esa lista la firmen los dos. Así él deja de ser el que
+      frena y pasa a ser el que decide.</p>
+  </div>
+
+  <div class="obj">
+    <p class="dice">¿Y la seguridad de la información? ¿Dónde quedan los datos de los afiliados?</p>
+    <p class="resp">Dile la verdad: en la fase 1 se trabajó sobre procesos, no sobre bases de
+      datos de afiliados. Y pásale la pelota, que es lo que quiere oír:
+      <strong>la política de qué dato entra y cuál no la escribe él</strong>, y tú la aplicas
+      en cada área. Eso no te cuesta nada y le devuelve el control.</p>
+  </div>
+
+  <div class="obj">
+    <p class="dice">A mí nadie me consultó nada de esto.</p>
+    <p class="resp">No te defiendas ni expliques. <i>Tienes razón, por eso estoy aquí hoy y
+      no la semana entrante.</i> Y sigues.</p>
+  </div>
+
+  <div class="obj">
+    <p class="dice">¿Esto no nos deja dependiendo de ti?</p>
+    <p class="resp">Es su miedo real y tienes la mejor respuesta del proyecto: áreas que
+      siguieron construyendo solas después del cierre, sin ti en la sala. Y la fase 2 nace
+      justamente con un backup técnico de la Caja, formado por ti, para que la capacidad
+      no dependa de nadie de afuera.</p>
+  </div>
+</section>
+
+<section class="paso">
+  <span class="paso-num">Minuto 40 a 55 · El cierre</span>
+  <h2>Sal con un compromiso concreto, no con buena química</h2>
+  <p>Una reunión agradable con un stopper no sirve de nada. Necesitas que salga
+    con una tarea suya, porque quien tiene una tarea defiende el proyecto en la mesa.</p>
+  <div class="decir">
+    <span class="et">Pídeselo así</span>
+    El viernes está la mesa con los directivos. Me sirve mucho más que la parte técnica
+    la presentes tú y no yo. ¿Te mando el bloque de arquitectura y licenciamiento el lunes
+    para que lo revises y lo ajustes a tu manera?
+  </div>
+  <div class="cierre">
+    <b>Si dice que sí</b>, ganaste la mesa de la próxima semana. <b>Si dice que no</b>,
+    baja a algo que nadie rechaza: que te mande por escrito las tres condiciones técnicas
+    que él pondría. Con eso también llegas a la mesa con su nombre adentro.
+  </div>
+</section>
+
+<section class="paso">
+  <span class="paso-num">Lo que no debes hacer</span>
+  <h2>Cuatro cosas</h2>
+  <ul>
+    <li><strong>No hables de plata.</strong> Ni del fee, ni del anticipo, ni de escenarios.
+      Eso es de Fran.</li>
+    <li><strong>No saques los números de su propia área.</strong> Tecnología tiene pocas
+      sesiones y nada medido en horas. Si él no lo menciona, tú tampoco.</li>
+    <li><strong>No lo compares con Jurídica</strong> ni con ninguna área que le fue bien.
+      Humillas y pierdes.</li>
+    <li><strong>No cites a Fran como autoridad</strong> más de una vez, y solo al abrir.
+      Si repites <i>el director dijo</i>, lo conviertes en un mandado y se te cierra.</li>
+  </ul>
+</section>
+
+<footer class="pie">
+  Preparado para Sandra Curvelo · IAM<span class="tm">™</span> · 27 de noviembre de 2026.
+  Documento interno de trabajo, no se comparte con el cliente.
+</footer>
+</div>
