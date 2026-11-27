@@ -148,3 +148,4 @@ Formato 3 párrafos. Comparación A vs B el lun 30 nov.
 - (27 nov, 11:03 a. m.) AGENDADO por decisión de Sandra: llamada a Julián Vásquez (Ultracem) el mar 1 dic, 9:00 a 9:30 a. m. (Google Calendar, recordatorios 1 día y 30 min antes). Se agenda aunque él no confirme la hora.
 - (27 nov) Julián (Ultracem) pidió las 11 a. m. por WhatsApp. AGENDADO: reunión presencial mar 1 dic 11:00 a 12:00 y bloque de desplazamiento 10:00 a 11:00. Falta dirección y correo. Zule ya no puede el martes 1 a las 10 a. m.
 - (27 nov) Dirección de la reunión con Julián: Cementos Ultracem, Km 2.5 Vía La Cordialidad, Barranquilla (puesta en el evento).
+- (27 nov, tarde) Sandra le envió a Zuleima el WhatsApp con opciones (mié 2, 9 a. m.; mar 1, 10 a. m. o 3 p. m.). Zule: "lo coordino y te contesto al final de la tarde a qué hora puedo". OJO: mar 1, 10 a. m. ya no sirve (desplazamiento a Ultracem 10 a 11 y reunión 11 a 12).
