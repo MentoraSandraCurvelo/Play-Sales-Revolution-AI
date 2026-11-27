@@ -1,22 +1,25 @@
 {
-  "id": "lun-16-pm",
-  "estado": "texto_aprobado_falta_carrusel",
-  "programado_bogota": "por_reprogramar (prueba 1 post al día, 17 al 30 nov)",
-  "urn": null,
-  "payload": {
-    "author": "urn:li:person:tsJbwdb3B2",
-    "commentary": "Cada vez que entro a una empresa, el primer día hago la misma pregunta: ¿qué tarea repites cada semana y te quita tiempo para lo importante?\n\nCasi siempre la respuesta es una de estas 5. Y las 5 se le pueden pasar a la IA, en cualquier área:\n\n⭕ 1. El acta de la reunión: la IA resume, asigna responsables y fechas.\n⭕ 2. El informe semanal: consolida los datos y te deja el primer borrador.\n⭕ 3. Los correos que se repiten: respuestas listas para que las revises y las envíes.\n⭕ 4. El tablero del área: cruza los archivos de Excel que hoy se pegan a mano.\n⭕ 5. El primer borrador de la propuesta: tú pones el criterio, la IA pone la estructura.\n\nLa regla es la misma en las 5: la IA prepara, la persona revisa y decide.\n\nEn el carrusel te dejo cada tarea con un ejemplo de instrucción para que tu equipo empiece mañana.\n\nSi lideras un área, ¿cuál de las 5 se come más horas de tu equipo?\n\n{hashtag|\\#|IAEmpresarial} {hashtag|\\#|Productividad} {hashtag|\\#|Liderazgo} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
-    "visibility": "PUBLIC",
-    "distribution": {
-      "feedDistribution": "MAIN_FEED",
-      "targetEntities": [],
-      "thirdPartyDistributionChannels": []
-    },
-    "lifecycleState": "PUBLISHED",
-    "isReshareDisabledByAuthor": false
+ "id": "lun-16-pm",
+ "estado": "texto_aprobado_falta_carrusel",
+ "programado_bogota": "por_reprogramar (prueba 1 post al día, 17 al 30 nov)",
+ "urn": null,
+ "payload": {
+  "author": "urn:li:person:tsJbwdb3B2",
+  "commentary": "Cada vez que entro a una empresa, el primer día hago la misma pregunta: ¿qué tarea repites cada semana y te quita tiempo para lo importante?\n\nCasi siempre la respuesta es una de estas 5. Y las 5 se le pueden pasar a la IA, en cualquier área:\n\n⭕ 1. El acta de la reunión: la IA resume, asigna responsables y fechas.\n⭕ 2. El informe semanal: consolida los datos y te deja el primer borrador.\n⭕ 3. Los correos que se repiten: respuestas listas para que las revises y las envíes.\n⭕ 4. El tablero del área: cruza los archivos de Excel que hoy se pegan a mano.\n⭕ 5. El primer borrador de la propuesta: tú pones el criterio, la IA pone la estructura.\n\nLa regla es la misma en las 5: la IA prepara, la persona revisa y decide.\n\nEn el carrusel te dejo cada tarea con un ejemplo de instrucción para que tu equipo empiece mañana.\n\nSi lideras un área, ¿cuál de las 5 se come más horas de tu equipo?\n\n{hashtag|\\#|IAEmpresarial} {hashtag|\\#|Productividad} {hashtag|\\#|Liderazgo} {hashtag|\\#|IAM} {hashtag|\\#|IAMIntelligent} {hashtag|\\#|IAMInfluence} {hashtag|\\#|IAMCommercial} {hashtag|\\#|IAMSocial} {hashtag|\\#|IAMAmbassadors}",
+  "visibility": "PUBLIC",
+  "distribution": {
+   "feedDistribution": "MAIN_FEED",
+   "targetEntities": [],
+   "thirdPartyDistributionChannels": []
   },
-  "nota": "Texto aprobado el 11 nov. No publicar hasta tener el carrusel PDF aprobado por Sandra (entonces pasa a 'aprobado'). Sin primer comentario aún.",
-  "aprobado_por": "Sandra",
-  "aprobado_el": "2026-11-11",
-  "programado_anterior": "2026-11-16 15:00"
+  "lifecycleState": "PUBLISHED",
+  "isReshareDisabledByAuthor": false
+ },
+ "nota": "Texto aprobado el 11 nov. No publicar hasta tener el carrusel PDF aprobado por Sandra (entonces pasa a 'aprobado'). Sin primer comentario aún.",
+ "aprobado_por": "Sandra",
+ "aprobado_el": "2026-11-11",
+ "programado_anterior": "2026-11-16 15:00",
+ "documento": "contenido-linkedin/imagenes/semana-6/carrusel-5-tareas.pdf",
+ "titulo_documento": "5 tareas que la IA puede preparar",
+ "nota_visual": "27 nov: carrusel propuesto, pendiente visto bueno de Sandra"
 }
