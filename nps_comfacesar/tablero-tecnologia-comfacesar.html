@@ -99,6 +99,22 @@ ul.lista li::before{content:"";position:absolute;left:3px;top:.62em;width:6px;he
   border-radius:50%;background:var(--rojo)}
 ul.lista li strong{color:var(--tinta);font-weight:600}
 
+.ruta{margin-top:22px;display:grid;gap:12px}
+@media (min-width:760px){.ruta{grid-template-columns:repeat(4,1fr)}}
+.tri{background:var(--panel);border:1px solid var(--borde);padding:16px;min-width:0}
+.tri-et{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.tri-n{font-size:13px;font-weight:800;letter-spacing:.1em;color:var(--rojo)}
+.tri-t{font-size:15.5px;font-weight:700}
+.tri ol{margin-top:13px;list-style:none;display:grid;gap:10px}
+.tri li{display:flex;gap:9px;font-size:14.5px;line-height:1.35;color:var(--tinta-2)}
+.tri li b{flex:none;font-weight:800;color:var(--tinta-3);font-variant-numeric:tabular-nums}
+.tri li.suyo{color:var(--tinta);font-weight:600}
+.tri li.suyo b{color:var(--rojo)}
+.enlace{display:inline-block;margin-top:22px;font-size:15.5px;font-weight:600;
+  color:var(--rojo);text-decoration:none;border-bottom:2px solid var(--rojo-claro);
+  padding-bottom:3px}
+.enlace:hover{border-bottom-color:var(--rojo)}
+.enlace:focus-visible{outline:2px solid var(--rojo);outline-offset:3px}
 .cita{margin-top:26px;border-left:3px solid var(--rojo);padding:4px 0 4px 20px;
   font-size:clamp(19px,2.8vw,25px);font-weight:600;line-height:1.35;letter-spacing:-.015em;
   max-width:60ch;text-wrap:balance}
@@ -291,8 +307,48 @@ ul.lista li strong{color:var(--tinta);font-weight:600}
         dependa de un proveedor externo.</p>
     </div>
   </div>
-  <p class="cuerpo">Los doce meses se cuentan desde el día que se arranque. No hay prisa
-    por el calendario, hay orden en la secuencia.</p>
+  <h2>Los doce meses, bloque por bloque</h2>
+  <div class="ruta">
+    <div class="tri">
+      <div class="tri-et"><span class="tri-n">T1</span><span class="tri-t">Estabilización</span></div>
+      <ol>
+        <li><b>01</b>Procesos, licencias, hardware y mercadeo</li>
+        <li class="suyo"><b>02</b>Mapeo de sistemas actuales</li>
+        <li class="suyo"><b>03</b>Tableros por área y web app con IA</li>
+      </ol>
+    </div>
+    <div class="tri">
+      <div class="tri-et"><span class="tri-n">T2</span><span class="tri-t">Gobernanza</span></div>
+      <ol>
+        <li><b>04</b>Gobernanza de la IA</li>
+        <li><b>05</b>IAM™ Hello: una sola conversación</li>
+        <li><b>06</b>Segundo reporte a la dirección</li>
+      </ol>
+    </div>
+    <div class="tri">
+      <div class="tri-et"><span class="tri-n">T3</span><span class="tri-t">Integración y nube</span></div>
+      <ol>
+        <li class="suyo"><b>07</b>Tableau con los tableros de IA</li>
+        <li class="suyo"><b>08</b>Migración a la nube</li>
+        <li class="suyo"><b>09</b>Circuito completo y apps con IA</li>
+      </ol>
+    </div>
+    <div class="tri">
+      <div class="tri-et"><span class="tri-n">T4</span><span class="tri-t">Operación</span></div>
+      <ol>
+        <li><b>10</b>Cultura cero papel</li>
+        <li><b>11</b>Puesta en marcha</li>
+        <li><b>12</b>Observatorio 360 con IA</li>
+      </ol>
+    </div>
+  </div>
+  <p class="cuerpo">El orden es el recomendado, <strong>no es rígido</strong>. Todas hay que
+    hacerlas y cada mes carga con el anterior. Los doce se cuentan desde el día que se
+    arranque: no hay prisa por el calendario, hay orden en la secuencia.</p>
+  <p class="cuerpo">En rojo, <strong>los cinco meses que no se pueden hacer sin
+    Tecnología</strong>: el mapeo de sistemas, los tableros, Tableau, la nube y el circuito
+    completo. Son casi la mitad del año.</p>
+  <a class="enlace" href="https://claude.ai/artifact/TJVAhHvzcErLtPbuJjgSks" target="_blank" rel="noopener">Abrir la propuesta completa ↗</a>
 </section>
 
 <section id="tecnologia" hidden>
