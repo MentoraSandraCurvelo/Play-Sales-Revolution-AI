@@ -17,7 +17,7 @@
  },
  "documento": "contenido-linkedin/caso-comfacesar/carrusel-cierre-comfacesar.pdf",
  "titulo_documento": "Así cerramos IAM™ con Comfacesar",
- "nota": "Carrusel de cierre Comfacesar (excepción aprobada 27 nov: se nombra a Comfacesar y van las horas). Falta: etiquetas (nombres de Sandra), decisión INNOVAR, visto bueno final de Sandra. Pasa a 'aprobado' solo con su sí. | 27 nov: texto reescrito más profesional por pedido de Sandra (agradecimientos a Fran Montero y María Elvira, proyecto de todos). Etiquetas: Comfacesar, Fran Montero, María Elvira (apellido por confirmar). | 27 nov: Sandra no quiere el CTA \"Comenta INNOVAR\": se quitó de la lámina 7 (slide7-sin-cta.jpg) y va primer comentario según la regla. | 27 nov: Sandra aprobó la intro. Etiquetas: Comfacesar, Fran Montero (director de Comfacesar), María Elvira Marulanda (sponsor), Claudia Núñez, Rosa Elvira (apellido por confirmar), Luciano y José Jaime (apellidos por confirmar), Dr. Julio Acosta (financiero). Las etiquetas las pone Chrome al editar tras publicar. | 27 nov: Sandra aclaró que NO lo ha aprobado; vuelve a borrador hasta que vea la versión final. | 27 nov: Sandra APROBÓ texto y PDF. Primer comentario pendiente de su sí.",
+ "nota": "Carrusel de cierre Comfacesar (excepción aprobada 27 nov: se nombra a Comfacesar y van las horas). Falta: etiquetas (nombres de Sandra), decisión INNOVAR, visto bueno final de Sandra. Pasa a 'aprobado' solo con su sí. | 27 nov: texto reescrito más profesional por pedido de Sandra (agradecimientos a Fran Montero y María Elvira, proyecto de todos). Etiquetas: Comfacesar, Fran Montero, María Elvira (apellido por confirmar). | 27 nov: Sandra no quiere el CTA \"Comenta INNOVAR\": se quitó de la lámina 7 (slide7-sin-cta.jpg) y va primer comentario según la regla. | 27 nov: Sandra aprobó la intro. Etiquetas: Comfacesar, Fran Montero (director de Comfacesar), María Elvira Marulanda (sponsor), Claudia Núñez, Rosa Elvira (apellido por confirmar), Luciano y José Jaime (apellidos por confirmar), Dr. Julio Acosta (financiero). Las etiquetas las pone Chrome al editar tras publicar. | 27 nov: Sandra aclaró que NO lo ha aprobado; vuelve a borrador hasta que vea la versión final. | 27 nov: Sandra APROBÓ texto y PDF. Primer comentario pendiente de su sí. | 27 nov: segundo comentario aprobado (sin Carlos Alfonso Echeverri).",
  "primer_comentario": "Lo que más me enseñó este proyecto: la IA se adopta área por área, con una línea base al inicio y una persona que revisa y decide. ¿Por qué área empezarías tú en tu empresa?",
  "primer_comentario_estado": "pendiente_aprobacion",
  "etiquetas": {
@@ -34,12 +34,14 @@
   "segundo_comentario_propuesto": [
    "Víctor Manuel Rueda Rodríguez linkedin.com/in/vmrabogado",
    "Lacides Daza (buscar)",
-   "Carlos Alfonso Echeverri Herrera (buscar)",
    "José Jaime Rodríguez (buscar)",
    "Alemar Andrés Granadillo Vidal linkedin.com/in/alemar-andre-granadillo-vidal-736253b3"
   ],
-  "fuente": "Dropbox /3-Clientes/1.Cerradas/2. IAM Social/2026/Comfacesar/Documentos Proveedores/Comfacesar - Embajadores de Marca.xlsx"
+  "fuente": "Dropbox /3-Clientes/1.Cerradas/2. IAM Social/2026/Comfacesar/Documentos Proveedores/Comfacesar - Embajadores de Marca.xlsx",
+  "nota_excluidos": "Carlos Alfonso Echeverri Herrera NO se etiqueta: nunca asistió al proyecto (Sandra, 27 nov)."
  },
  "aprobado_por": "Sandra",
- "aprobado_el": "2026-11-27"
+ "aprobado_el": "2026-11-27",
+ "segundo_comentario": "Y a todo nuestro equipo de embajadores, que también levantó su voz por la marca: Víctor Manuel Rueda, Lacides Daza, José Jaime Rodríguez y Alemar Andrés Granadillo. ¡Gracias por hacerlo posible!",
+ "segundo_comentario_estado": "aprobado"
 }
