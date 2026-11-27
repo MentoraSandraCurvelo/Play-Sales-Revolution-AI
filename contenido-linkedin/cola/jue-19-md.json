@@ -1,6 +1,6 @@
 {
  "id": "jue-19-md",
- "estado": "por_confirmar",
+ "estado": "descartado",
  "aprobado_por": "Sandra",
  "aprobado_el": "2026-11-09",
  "programado_bogota": "2026-11-27 15:00",
@@ -19,7 +19,7 @@
   "lifecycleState": "PUBLISHED",
   "isReshareDisabledByAuthor": false
  },
- "nota": "Reel de recuerdos (Isaía). Alpina es un ejemplo hipotético; no se nombra en el texto. Falta primer comentario. | 27 nov: Sandra terminó la prueba de 1 post al día; se programa hoy 3:00 p. m. Primer comentario aprobado por Sandra el 27 nov. | 27 nov 3:00 p. m.: publicado (urn:li:ugcPost:7532172937639100416) y BORRADO por Sandra: le pareció el mismo video del panel. Se reinicia: video nuevo y espera su visto bueno antes de relanzar.",
+ "nota": "Reel de recuerdos (Isaía). Alpina es un ejemplo hipotético; no se nombra en el texto. Falta primer comentario. | 27 nov: Sandra terminó la prueba de 1 post al día; se programa hoy 3:00 p. m. Primer comentario aprobado por Sandra el 27 nov. | 27 nov 3:00 p. m.: publicado (urn:li:ugcPost:7532172937639100416) y BORRADO por Sandra: le pareció el mismo video del panel. Se reinicia: video nuevo y espera su visto bueno antes de relanzar. | 27 nov: Sandra lo DESCARTA (muy parecido al del panel de la mañana). No se publica.",
  "video": null,
  "primer_comentario": "¿Cuánto tiempo dedicas a investigar a alguien antes de escribirle por primera vez?",
  "primer_comentario_aprobado_el": "2026-11-09",
