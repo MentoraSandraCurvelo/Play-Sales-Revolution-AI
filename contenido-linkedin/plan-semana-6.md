@@ -1,11 +1,11 @@
 # Plan semana 6 · lun 30 nov a dom 6 dic 2026 (PROPUESTA, pendiente del sí de Sandra)
-Cadencia: la prueba de 1 post al día termina el lun 30; ese día se evalúa contra la línea base de 111. Mientras tanto se propone 1 post al día.
+Cadencia: prueba terminada el 27 nov (Sandra). Vuelven 2 posts al día de lunes a viernes.
 Contexto: Sandra en Barranquilla mar 1 y mié 2. Newsletter: no hay edición esta semana (la 3 es el jue 10 dic).
 
 | Día | Post | Estado | Falta |
 |---|---|---|---|
 | Lun 30 7:30 | lun-30-am "¿Vitrina o sistema?" | Aprobado, primer comentario aprobado | Nada |
-| Mar 1 7:30 | jue-19-md video "Llega sabiendo" (investigar antes de escribirle a un presidente) | Aprobado | Primer comentario (propuesto) |
+| Mar 1 7:30 | Por definir (jue-19-md se adelantó al vie 27 3:00 p. m.) | | Post nuevo |
 | Mar 1 11:30 | Página IAM™: Tablero de la semana 02 | Por definir | Tema, texto y diseño |
 | Mié 2 7:30 | mie-18-pm "La confianza también se mide" (4,7 a 8,6) | Texto aprobado 10 nov | Imagen del dato y primer comentario |
 | Jue 3 7:30 | Serie "Lo que no se mide" 1: eventos (Día 1 / Día 90) | Texto y video recap aprobados | Foto de Sandra en feria o video recap; primer comentario |
