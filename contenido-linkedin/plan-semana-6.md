@@ -1,4 +1,4 @@
-# Plan semana 6 · lun 30 nov a dom 6 dic 2026 (PROPUESTA v2, 2 posts al día L-V)
+# Plan semana 6 · lun 30 nov a dom 6 dic 2026 (APROBADO por Sandra el 27 nov, 2 posts al día L-V)
 Cadencia: prueba terminada el 27 nov. L-V 7:30 a. m. y 3:00 p. m.; mar 11:30 a. m. página IAM™; sáb 9:00 a. m.; dom 5:00 p. m.
 Contexto: Sandra en Barranquilla mar 1 y mié 2. Serie "Caso Comfacesar" aprobada. Newsletter edición 3: jue 10 dic.
 
