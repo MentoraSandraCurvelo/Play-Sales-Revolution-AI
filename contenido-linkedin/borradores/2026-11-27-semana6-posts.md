@@ -1,7 +1,9 @@
 # Borradores semana 6 (27 nov 2026, pendientes de aprobación)
 
-## Mar 1 dic 3:00 p. m. · "Las horas no valen nada si no sabes en qué las usas"
-Recuperar horas con IA es la parte fácil.
+## Mar 1 dic 3:00 p. m. · "Las horas recuperadas con IA no valen nada si no sabes en qué las usas"
+Las horas recuperadas con IA no valen nada si no sabes en qué las usas.
+
+Recuperarlas es la parte fácil.
 
 Lo difícil es responder la pregunta que viene después: ¿en qué las vamos a usar?
 
