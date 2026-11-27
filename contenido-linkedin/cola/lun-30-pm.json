@@ -1,6 +1,6 @@
 {
  "id": "lun-30-pm",
- "estado": "borrador",
+ "estado": "aprobado",
  "programado_bogota": "2026-11-30 15:00",
  "urn": null,
  "payload": {
@@ -17,20 +17,29 @@
  },
  "documento": "contenido-linkedin/caso-comfacesar/carrusel-cierre-comfacesar.pdf",
  "titulo_documento": "Así cerramos IAM™ con Comfacesar",
- "nota": "Carrusel de cierre Comfacesar (excepción aprobada 27 nov: se nombra a Comfacesar y van las horas). Falta: etiquetas (nombres de Sandra), decisión INNOVAR, visto bueno final de Sandra. Pasa a 'aprobado' solo con su sí. | 27 nov: texto reescrito más profesional por pedido de Sandra (agradecimientos a Fran Montero y María Elvira, proyecto de todos). Etiquetas: Comfacesar, Fran Montero, María Elvira (apellido por confirmar). | 27 nov: Sandra no quiere el CTA \"Comenta INNOVAR\": se quitó de la lámina 7 (slide7-sin-cta.jpg) y va primer comentario según la regla. | 27 nov: Sandra aprobó la intro. Etiquetas: Comfacesar, Fran Montero (director de Comfacesar), María Elvira Marulanda (sponsor), Claudia Núñez, Rosa Elvira (apellido por confirmar), Luciano y José Jaime (apellidos por confirmar), Dr. Julio Acosta (financiero). Las etiquetas las pone Chrome al editar tras publicar. | 27 nov: Sandra aclaró que NO lo ha aprobado; vuelve a borrador hasta que vea la versión final.",
+ "nota": "Carrusel de cierre Comfacesar (excepción aprobada 27 nov: se nombra a Comfacesar y van las horas). Falta: etiquetas (nombres de Sandra), decisión INNOVAR, visto bueno final de Sandra. Pasa a 'aprobado' solo con su sí. | 27 nov: texto reescrito más profesional por pedido de Sandra (agradecimientos a Fran Montero y María Elvira, proyecto de todos). Etiquetas: Comfacesar, Fran Montero, María Elvira (apellido por confirmar). | 27 nov: Sandra no quiere el CTA \"Comenta INNOVAR\": se quitó de la lámina 7 (slide7-sin-cta.jpg) y va primer comentario según la regla. | 27 nov: Sandra aprobó la intro. Etiquetas: Comfacesar, Fran Montero (director de Comfacesar), María Elvira Marulanda (sponsor), Claudia Núñez, Rosa Elvira (apellido por confirmar), Luciano y José Jaime (apellidos por confirmar), Dr. Julio Acosta (financiero). Las etiquetas las pone Chrome al editar tras publicar. | 27 nov: Sandra aclaró que NO lo ha aprobado; vuelve a borrador hasta que vea la versión final. | 27 nov: Sandra APROBÓ texto y PDF. Primer comentario pendiente de su sí.",
  "primer_comentario": "Lo que más me enseñó este proyecto: la IA se adopta área por área, con una línea base al inicio y una persona que revisa y decide. ¿Por qué área empezarías tú en tu empresa?",
  "primer_comentario_estado": "pendiente_aprobacion",
  "etiquetas": {
   "organizacion": "Comfacesar",
-  "personas": [
-   "Fran Montero (director de Comfacesar)",
-   "María Elvira Marulanda (sponsor)",
-   "Julio Acosta (área financiera)",
-   "Claudia Núñez (embajadora; Sandra dictó 'Nuche', confirmar en LinkedIn)",
-   "Rosa Elvira (embajadora; Sandra dictó 'Ochustari', confirmar apellido en LinkedIn)",
-   "Luciano Contreras (embajador)",
-   "José Jaime Maya (embajador)"
+  "en_el_post": [
+   "Frank David Montero (CEO; en el texto 'Fran Montero') linkedin.com/in/frank-david-m-67b51069",
+   "María Elvira Marulanda Fernández linkedin.com/in/maría-elvira-marulanda-fernández-258a33212",
+   "Julio Acosta Felizzola (sin URL en la lista; buscar)",
+   "Claudia Núñez linkedin.com/in/claudia-nuñez-2428741b7",
+   "Rosa Elvira Ustáriz Martínez linkedin.com/in/rosa-elvira-ustariz-martinez-87067285",
+   "José Luciano Contreras Jaime linkedin.com/in/jose-luciano-contreras-jaime-4951291b3",
+   "José Jaime Maya López linkedin.com/in/josé-jaime-maya-lópez-4163a2335"
   ],
-  "como": "Chrome edita el post justo después de publicarlo y convierte cada nombre en etiqueta; si no encuentra un perfil, no lo inventa y avisa a Sandra."
- }
+  "segundo_comentario_propuesto": [
+   "Víctor Manuel Rueda Rodríguez linkedin.com/in/vmrabogado",
+   "Lacides Daza (buscar)",
+   "Carlos Alfonso Echeverri Herrera (buscar)",
+   "José Jaime Rodríguez (buscar)",
+   "Alemar Andrés Granadillo Vidal linkedin.com/in/alemar-andre-granadillo-vidal-736253b3"
+  ],
+  "fuente": "Dropbox /3-Clientes/1.Cerradas/2. IAM Social/2026/Comfacesar/Documentos Proveedores/Comfacesar - Embajadores de Marca.xlsx"
+ },
+ "aprobado_por": "Sandra",
+ "aprobado_el": "2026-11-27"
 }
