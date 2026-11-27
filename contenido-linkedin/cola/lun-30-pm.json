@@ -1,0 +1,22 @@
+{
+ "id": "lun-30-pm",
+ "estado": "borrador",
+ "programado_bogota": "2026-11-30 15:00",
+ "urn": null,
+ "payload": {
+  "author": "urn:li:person:tsJbwdb3B2",
+  "commentary": "⭕ Así cerramos IAM™️ Intelligence e IAM™️ Ambassadors con Comfacesar.\n\nNo es lo mismo usar una herramienta de IA que trabajar con un método con IA para medir la productividad y verlo en el EBIT de la empresa.\n\nHoy Comfacesar tiene un equipo que trabaja con IA en sus procesos del día a día, y embajadores que llevan la marca a LinkedIn con su propia voz.\n\nCasi 1.100 horas al mes recuperadas.\nLa IA no reemplaza a tu gente. La vuelve imparable.\n\nGracias a cada persona que se atrevió a hacerlo distinto.\n\n{hashtag|\\#|Comfacesar} {hashtag|\\#|IAMIntelligence} {hashtag|\\#|IAMAmbassadors} {hashtag|\\#|IAEmpresarial} {hashtag|\\#|EmbajadoresDeMarca} {hashtag|\\#|SocialSelling} {hashtag|\\#|MarcaProfesional} {hashtag|\\#|ProductividadConIA} {hashtag|\\#|IAM}",
+  "visibility": "PUBLIC",
+  "distribution": {
+   "feedDistribution": "MAIN_FEED",
+   "targetEntities": [],
+   "thirdPartyDistributionChannels": []
+  },
+  "lifecycleState": "PUBLISHED",
+  "isReshareDisabledByAuthor": false
+ },
+ "documento": "contenido-linkedin/caso-comfacesar/carrusel-cierre-comfacesar.pdf",
+ "titulo_documento": "Así cerramos IAM™ con Comfacesar",
+ "nota": "Carrusel de cierre Comfacesar (excepción aprobada 27 nov: se nombra a Comfacesar y van las horas). Falta: etiquetas (nombres de Sandra), decisión INNOVAR, visto bueno final de Sandra. Pasa a 'aprobado' solo con su sí.",
+ "primer_comentario": null
+}

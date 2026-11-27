@@ -28,8 +28,32 @@ if q.get("encuesta"):
     p["content"] = {"poll": {"question": e["pregunta"], "options": [{"text": o} for o in e["opciones"]], "settings": {"duration": e.get("duracion", "THREE_DAYS")}}}
 json.dump(p, open(sys.argv[2], 'w', encoding='utf-8'), ensure_ascii=False)
 open(sys.argv[2] + '.imagen', 'w').write(q.get("imagen") or "")
+open(sys.argv[2] + '.documento', 'w').write(q.get("documento") or "")
+open(sys.argv[2] + '.doctitulo', 'w', encoding='utf-8').write(q.get("titulo_documento") or "IAM™")
 open(sys.argv[2] + '.alt', 'w', encoding='utf-8').write(q.get("alt") or "Sandra Curvelo · IAM™")
 EOF
+
+# Si el post lleva documento PDF (carrusel deslizable): se sube con /rest/documents y se adjunta
+DOC="$(cat "$TMP/payload.json.documento")"
+if [ -n "$DOC" ]; then
+  REPO="$(cd "$DIR/.." && pwd)"
+  [ -f "$REPO/$DOC" ] || { echo "No existe el documento $DOC"; exit 1; }
+  curl -sS -o "$TMP/dinit.json" -X POST "https://api.linkedin.com/rest/documents?action=initializeUpload" \
+    -H "Content-Type: application/json" \
+    -H "LinkedIn-Version: 202601" \
+    -H "X-Restli-Protocol-Version: 2.0.0" \
+    --data '{"initializeUploadRequest":{"owner":"urn:li:person:tsJbwdb3B2"}}'
+  DUP_URL=$(python3 -I -c "import json,sys;print(json.load(open(sys.argv[1]))['value']['uploadUrl'])" "$TMP/dinit.json") || { echo "Error iniciando la subida del documento:"; cat "$TMP/dinit.json"; exit 1; }
+  DOC_URN=$(python3 -I -c "import json,sys;print(json.load(open(sys.argv[1]))['value']['document'])" "$TMP/dinit.json")
+  UP=$(curl -sS -o /dev/null -w "%{http_code}" -X PUT "$DUP_URL" -H "Content-Type: application/pdf" --data-binary @"$REPO/$DOC")
+  [ "$UP" = "201" ] || [ "$UP" = "200" ] || { echo "Error subiendo el documento: HTTP $UP"; exit 1; }
+  python3 -I - "$TMP/payload.json" "$DOC_URN" "$TMP/payload.json.doctitulo" <<'PYEOF'
+import json, sys
+p = json.load(open(sys.argv[1], encoding='utf-8'))
+p["content"] = {"media": {"id": sys.argv[2], "title": open(sys.argv[3], encoding='utf-8').read()}}
+json.dump(p, open(sys.argv[1], 'w', encoding='utf-8'), ensure_ascii=False)
+PYEOF
+fi
 
 # Si el post lleva foto: se sube primero al almacenamiento privado de LinkedIn y se adjunta
 IMG="$(cat "$TMP/payload.json.imagen")"
