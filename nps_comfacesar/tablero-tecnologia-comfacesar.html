@@ -1,0 +1,362 @@
+<title>IAM™ Intelligence en Comfacesar</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<style>
+/* Tablero de recorrido: barra de secciones arriba, una sección a la vez, para proyectar. */
+:root{
+  --fondo:#ffffff; --panel:#f7f6f5; --borde:#e5e1dd;
+  --tinta:#0f0d0c; --tinta-2:#4c4540; --tinta-3:#8a817a;
+  --rojo:#c00000; --rojo-claro:#f5e2e1; --rojo-tenue:#fbf2f1;
+  --texto:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --fondo:#0e0d0d; --panel:#181616; --borde:#2d2a28;
+  --tinta:#f6f3f0; --tinta-2:#c5bdb6; --tinta-3:#8f867f;
+  --rojo:#ef6158; --rojo-claro:#3a1e1c; --rojo-tenue:#1f1413;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --fondo:#0e0d0d; --panel:#181616; --borde:#2d2a28;
+  --tinta:#f6f3f0; --tinta-2:#c5bdb6; --tinta-3:#8f867f;
+  --rojo:#ef6158; --rojo-claro:#3a1e1c; --rojo-tenue:#1f1413;
+  color-scheme:dark;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--fondo);color:var(--tinta);font-family:var(--texto);
+  font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);
+  z-index:10;background:var(--fondo)}
+
+.barra{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;
+  background:var(--fondo);border-bottom:1px solid var(--borde)}
+.barra-in{max-width:1100px;margin:0 auto;
+  padding-left:max(16px,env(safe-area-inset-left,0px));
+  padding-right:max(16px,env(safe-area-inset-right,0px));
+  padding-block:12px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.logo{font-weight:800;font-size:17px;letter-spacing:-.01em;color:var(--rojo);flex:none}
+.tm{font-size:.6em;vertical-align:.55em;font-weight:700}
+nav{display:flex;gap:4px;flex-wrap:wrap;min-width:0}
+nav button{font:inherit;font-size:13.5px;font-weight:600;color:var(--tinta-2);
+  background:transparent;border:1px solid transparent;border-radius:999px;
+  padding:7px 13px;cursor:pointer;white-space:nowrap}
+nav button:hover{background:var(--panel);color:var(--tinta)}
+nav button[aria-current="true"]{background:var(--rojo);color:#fff;border-color:var(--rojo)}
+nav button:focus-visible{outline:2px solid var(--rojo);outline-offset:2px}
+
+main{max-width:1100px;margin:0 auto;
+  padding-left:max(16px,env(safe-area-inset-left,0px));
+  padding-right:max(16px,env(safe-area-inset-right,0px));
+  padding-block:38px 72px}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;
+  color:var(--rojo)}
+h1{margin-top:12px;font-size:clamp(30px,5.6vw,52px);font-weight:800;line-height:1.05;
+  letter-spacing:-.025em;text-wrap:balance}
+.bajada{margin-top:16px;font-size:clamp(17px,2.3vw,21px);line-height:1.45;
+  color:var(--tinta-2);max-width:62ch}
+h2{margin-top:36px;font-size:clamp(20px,2.6vw,25px);font-weight:700;letter-spacing:-.015em;
+  text-wrap:balance}
+p.cuerpo{margin-top:12px;color:var(--tinta-2);max-width:66ch}
+p.cuerpo strong{color:var(--tinta);font-weight:600}
+
+.rejilla{margin-top:24px;display:grid;gap:12px}
+@media (min-width:560px){.rejilla.c2{grid-template-columns:1fr 1fr}}
+@media (min-width:780px){.rejilla.c3{grid-template-columns:repeat(3,1fr)}
+  .rejilla.c4{grid-template-columns:repeat(4,1fr)}}
+.tarjeta{background:var(--panel);border:1px solid var(--borde);padding:20px;min-width:0}
+.tarjeta .dato{font-size:clamp(30px,5vw,42px);font-weight:800;line-height:1;
+  letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.tarjeta .rot{margin-top:9px;font-size:14.5px;color:var(--tinta-3);line-height:1.4}
+.tarjeta h3{font-size:16.5px;font-weight:700}
+.tarjeta p{margin-top:8px;font-size:15px;color:var(--tinta-2)}
+.destacada{background:var(--rojo-tenue);border-color:var(--rojo-claro)}
+.destacada .dato{color:var(--rojo)}
+
+.antes-despues{margin-top:24px;background:var(--panel);border:1px solid var(--borde);padding:24px}
+.ad-fila{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.ad-bloque{min-width:0}
+.ad-bloque .et{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--tinta-3)}
+.ad-bloque .v{font-size:clamp(28px,5vw,44px);font-weight:800;line-height:1.05;
+  letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.flecha{font-size:28px;color:var(--rojo);font-weight:700;line-height:1}
+.ad-pie{margin-top:14px;font-size:14.5px;color:var(--tinta-3)}
+
+.barras{margin-top:20px;display:grid;gap:11px}
+.barra-fila{display:grid;grid-template-columns:minmax(0,1fr);gap:5px}
+@media (min-width:520px){.barra-fila{grid-template-columns:150px minmax(0,1fr) 52px;
+  align-items:center;gap:12px}}
+.barra-nom{font-size:14.5px;font-weight:600;min-width:0}
+.barra-pista{height:10px;background:var(--borde);border-radius:999px;overflow:hidden}
+.barra-val{height:100%;background:var(--rojo);border-radius:999px}
+.barra-num{font-size:14px;font-weight:700;color:var(--tinta-2);
+  font-variant-numeric:tabular-nums;text-align:right}
+
+ul.lista{margin-top:16px;list-style:none;display:grid;gap:10px}
+ul.lista li{padding-left:20px;position:relative;color:var(--tinta-2);max-width:66ch}
+ul.lista li::before{content:"";position:absolute;left:3px;top:.62em;width:6px;height:6px;
+  border-radius:50%;background:var(--rojo)}
+ul.lista li strong{color:var(--tinta);font-weight:600}
+
+.cita{margin-top:26px;border-left:3px solid var(--rojo);padding:4px 0 4px 20px;
+  font-size:clamp(19px,2.8vw,25px);font-weight:600;line-height:1.35;letter-spacing:-.015em;
+  max-width:60ch;text-wrap:balance}
+.pie-pag{margin-top:48px;padding-top:18px;border-top:1px solid var(--borde);
+  font-size:13.5px;color:var(--tinta-3)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="barra">
+  <div class="barra-in">
+    <span class="logo">IAM<span class="tm">™</span></span>
+    <nav id="nav" aria-label="Secciones">
+      <button data-s="proyecto" aria-current="true">El proyecto</button>
+      <button data-s="medicion">Cómo se midió</button>
+      <button data-s="resultados">Resultados</button>
+      <button data-s="retorno">El retorno</button>
+      <button data-s="hoy">Dónde estamos</button>
+      <button data-s="fase2">Lo que viene</button>
+      <button data-s="tecnologia">Tecnología</button>
+    </nav>
+  </div>
+</div>
+
+<main id="main">
+
+<section id="proyecto">
+  <p class="eyebrow">Fase 1 · agosto a octubre de 2026</p>
+  <h1>Un proyecto empresarial, no un proyecto de tecnología</h1>
+  <p class="bajada">IAM™ Intelligence entró por los procesos de cada área, no por la
+    infraestructura. Durante dos meses, los equipos de Comfacesar mapearon lo que hacen
+    todos los días, midieron cuánto les tomaba, y rediseñaron ese trabajo con inteligencia
+    artificial aplicada.</p>
+  <div class="rejilla c4">
+    <div class="tarjeta"><div class="dato">119</div><div class="rot">sesiones verificadas, del 11 de agosto al 8 de octubre</div></div>
+    <div class="tarjeta"><div class="dato">18</div><div class="rot">áreas con proceso activo</div></div>
+    <div class="tarjeta"><div class="dato">47</div><div class="rot">funcionarios en las mesas de trabajo</div></div>
+    <div class="tarjeta"><div class="dato">91%</div><div class="rot">de asistencia a lo largo del programa</div></div>
+  </div>
+  <h2>Qué se trabajó, área por área</h2>
+  <ul class="lista">
+    <li><strong>El proceso real</strong>, el que ya existe y se repite cada semana, no un caso de ejemplo.</li>
+    <li><strong>El criterio</strong> para decidir cuándo la IA aporta y cuándo no.</li>
+    <li><strong>La documentación</strong>, para que el proceso quede escrito y no en la cabeza de una persona.</li>
+  </ul>
+  <p class="cuerpo">Por eso la fase 1 no pasó por Tecnología: no se instaló nada, no se
+    integró nada y no se tocó ninguna base de datos. <strong>La fase 2 sí, y por eso esta
+    conversación empieza aquí.</strong></p>
+</section>
+
+<section id="medicion" hidden>
+  <p class="eyebrow">El método</p>
+  <h1>Lo que no se mide no puede ser mejorado</h1>
+  <p class="bajada">Todo el programa se sostiene sobre una medición hecha dos veces, con
+    el mismo metro, por las mismas personas.</p>
+  <div class="rejilla c3">
+    <div class="tarjeta">
+      <h3>1 · Línea base</h3>
+      <p>Antes de tocar nada, cada equipo registró cuánto tardaba cada tarea y cada cuánto
+        la repetía. Sin eso no hay con qué comparar después.</p>
+    </div>
+    <div class="tarjeta">
+      <h3>2 · Método CREA</h3>
+      <p>El estándar con que se construye y se documenta cada proceso, para que cualquier
+        persona del área pueda repetirlo sin depender de quien lo creó.</p>
+    </div>
+    <div class="tarjeta">
+      <h3>3 · Medición de cierre</h3>
+      <p>La misma tarea, medida otra vez al final del programa. La diferencia es el
+        resultado, y queda documentada proceso por proceso.</p>
+    </div>
+  </div>
+  <h2>El Índice de Inteligencia Empresarial</h2>
+  <p class="cuerpo">Un número por área, de 0 a 100, construido sobre <strong>cuatro ejes de
+    25 puntos</strong> con umbrales fijos y declarados, para que el resultado se lea solo,
+    sin compararse con nadie.</p>
+  <div class="rejilla c4">
+    <div class="tarjeta"><h3>Adopción</h3><p>Constancia del área en las mesas de trabajo.</p></div>
+    <div class="tarjeta"><h3>Producción</h3><p>Procesos documentados en firme.</p></div>
+    <div class="tarjeta"><h3>Impacto</h3><p>Horas recuperadas cada semana.</p></div>
+    <div class="tarjeta"><h3>Autonomía</h3><p>Lo que el área sostiene sin acompañamiento.</p></div>
+  </div>
+</section>
+
+<section id="resultados" hidden>
+  <p class="eyebrow">Resultados verificados al 9 de octubre</p>
+  <h1>De cuánto tardaba antes, a cuánto tarda hoy</h1>
+  <div class="antes-despues">
+    <div class="ad-fila">
+      <div class="ad-bloque"><div class="et">Antes</div><div class="v">6.400 min</div></div>
+      <div class="flecha" aria-hidden="true">→</div>
+      <div class="ad-bloque"><div class="et">Hoy</div><div class="v" style="color:var(--rojo)">480 min</div></div>
+    </div>
+    <p class="ad-pie">Un solo proceso de alimentación y reportería, medido al mes. El área
+      lo volvió a medir sola después del cierre del programa.</p>
+  </div>
+  <div class="rejilla c3">
+    <div class="tarjeta destacada"><div class="dato">187 h</div><div class="rot">recuperadas por semana en toda la Caja</div></div>
+    <div class="tarjeta"><div class="dato">58</div><div class="rot">procesos documentados en firme</div></div>
+    <div class="tarjeta"><div class="dato">13</div><div class="rot">agentes construidos por las áreas</div></div>
+  </div>
+  <h2>Hasta dónde llegó el área que más lejos llegó</h2>
+  <div class="barras">
+    <div class="barra-fila">
+      <span class="barra-nom">Adopción</span>
+      <span class="barra-pista"><span class="barra-val" style="width:100%"></span></span>
+      <span class="barra-num">25/25</span>
+    </div>
+    <div class="barra-fila">
+      <span class="barra-nom">Producción</span>
+      <span class="barra-pista"><span class="barra-val" style="width:100%"></span></span>
+      <span class="barra-num">25/25</span>
+    </div>
+    <div class="barra-fila">
+      <span class="barra-nom">Impacto</span>
+      <span class="barra-pista"><span class="barra-val" style="width:100%"></span></span>
+      <span class="barra-num">25/25</span>
+    </div>
+    <div class="barra-fila">
+      <span class="barra-nom">Autonomía</span>
+      <span class="barra-pista"><span class="barra-val" style="width:100%"></span></span>
+      <span class="barra-num">25/25</span>
+    </div>
+  </div>
+  <p class="cuerpo">Jurídica cerró el programa con <strong>índice 100</strong>: 13 sesiones,
+    11 procesos documentados, 23,6 horas recuperadas por semana y 4 agentes construidos, 2
+    de ellos corriendo en producción.</p>
+</section>
+
+<section id="retorno" hidden>
+  <p class="eyebrow">El retorno</p>
+  <h1>El retorno se mide en horas que vuelven al servicio</h1>
+  <p class="bajada">No son horas ahorradas en el papel: son horas de personal que dejaron
+    de irse en tareas repetitivas y volvieron a la atención del afiliado.</p>
+  <div class="rejilla c3">
+    <div class="tarjeta destacada"><div class="dato">187 h</div><div class="rot">por semana</div></div>
+    <div class="tarjeta"><div class="dato">813 h</div><div class="rot">por mes, al mismo ritmo</div></div>
+    <div class="tarjeta"><div class="dato">9.766 h</div><div class="rot">proyectadas a doce meses</div></div>
+  </div>
+  <p class="cuerpo">Cada hora está soportada por un proceso documentado, con su medición
+    antes y después. <strong>Ninguna cifra de este tablero es una estimación:</strong>
+    todas salen de la Sala de Control, que las áreas alimentaron ellas mismas y que se
+    recalculó al cierre.</p>
+  <div class="cita">La capacidad quedó instalada. Se nota porque siguió andando sola.</div>
+</section>
+
+<section id="hoy" hidden>
+  <p class="eyebrow">Hoy, 27 de noviembre</p>
+  <h1>El programa cerró el 9 de octubre y hay áreas que siguieron solas</h1>
+  <p class="bajada">Ese es el resultado que más importa, porque es el que demuestra que no
+    quedó una dependencia de nadie de afuera.</p>
+  <div class="rejilla c2">
+    <div class="tarjeta">
+      <h3>Lo que pasó después del cierre</h3>
+      <p>Un área construyó una aplicación más, por su cuenta, y la midió con su propio
+        método. Nadie de IAM™ estuvo en esa sala.</p>
+    </div>
+    <div class="tarjeta">
+      <h3>Lo que queda abierto</h3>
+      <p>Los tableros de las áreas funcionan, pero no se hablan entre ellos. Cada uno vive
+        en su isla y la información no viaja.</p>
+    </div>
+  </div>
+  <h2>Por eso la fase 2 se llama hiperconectividad</h2>
+  <p class="cuerpo">La fase 1 dejó procesos que funcionan dentro de cada área. Lo que sigue
+    es <strong>conectarlos entre sí y con los sistemas que la Caja ya tiene</strong>, y eso
+    ya no es un asunto de procesos. Es de arquitectura.</p>
+</section>
+
+<section id="fase2" hidden>
+  <p class="eyebrow">Fase 2 · doce meses</p>
+  <h1>Dejar de tener islas que no se hablan</h1>
+  <div class="rejilla c2">
+    <div class="tarjeta">
+      <h3>Estabilización</h3>
+      <p>El primer mes se dedica a revisar que todo lo de la fase 1 siga funcionando antes
+        de montar nada encima.</p>
+    </div>
+    <div class="tarjeta">
+      <h3>Tableros conectados</h3>
+      <p>Que el tablero de un área se alimente del de otra, y que la dirección vea una sola
+        foto en vez de dieciocho.</p>
+    </div>
+    <div class="tarjeta">
+      <h3>Observatorio 360</h3>
+      <p>Una vista única de la operación, construida sobre lo que las áreas ya alimentan.</p>
+    </div>
+    <div class="tarjeta">
+      <h3>Capacidad propia</h3>
+      <p>Un referente técnico de la Caja, formado durante el año, para que la operación no
+        dependa de un proveedor externo.</p>
+    </div>
+  </div>
+  <p class="cuerpo">Los doce meses se cuentan desde el día que se arranque. No hay prisa
+    por el calendario, hay orden en la secuencia.</p>
+</section>
+
+<section id="tecnologia" hidden>
+  <p class="eyebrow">Lo que decide Tecnología</p>
+  <h1>Cuatro decisiones que no son nuestras, son suyas</h1>
+  <p class="bajada">La fase 2 toca infraestructura, y ahí la palabra la tiene Tecnología.
+    Estas cuatro quedan abiertas a propósito, para que las defina el área y no la mentoría.</p>
+  <div class="rejilla c2">
+    <div class="tarjeta">
+      <h3>1 · Arquitectura e integración</h3>
+      <p>Cómo se conectan los tableros entre sí y con los sistemas que ya existen, SISU
+        incluido, sin romper nada de lo que hoy funciona.</p>
+    </div>
+    <div class="tarjeta">
+      <h3>2 · Lo que ya está pago</h3>
+      <p>Revisar proceso por proceso qué se resuelve con las licencias que la Caja ya tiene,
+        y qué realmente necesita algo distinto. Esa lista la firmamos los dos.</p>
+    </div>
+    <div class="tarjeta">
+      <h3>3 · Nube y equipos</h3>
+      <p>Qué se queda donde está y qué sube, y con qué equipos se opera. Va cotizado aparte,
+        no dentro del acompañamiento.</p>
+    </div>
+    <div class="tarjeta">
+      <h3>4 · Licenciamiento y control de uso</h3>
+      <p>Licencia por persona, con trazabilidad de uso. Quién administra, cómo se audita y
+        qué política de datos aplica.</p>
+    </div>
+  </div>
+  <h2>Lo que le pedimos a Tecnología</h2>
+  <ul class="lista">
+    <li><strong>Que la política de datos la escriba el área.</strong> Qué información entra
+      a una herramienta de IA y cuál no sale de la Caja. Nosotros la aplicamos en cada mesa.</li>
+    <li><strong>Que el referente técnico salga de su equipo</strong> y le responda a
+      Tecnología, no a la mentoría.</li>
+    <li><strong>Que la parte técnica de la propuesta la presente Tecnología</strong> en la
+      mesa de directivos.</li>
+  </ul>
+  <div class="cita">Una herramienta acelera el proceso. Un sistema de trabajo entrega un resultado.</div>
+</section>
+
+<footer class="pie-pag">
+  IAM<span class="tm">™</span> Intelligence · Comfacesar · Cifras verificadas al cierre del
+  9 de octubre de 2026, recalculadas sobre la Sala de Control.
+</footer>
+</main>
+
+<script>
+const nav = document.getElementById("nav");
+const secciones = [...document.querySelectorAll("main > section")];
+const botones = [...nav.querySelectorAll("button")];
+function mostrar(id){
+  secciones.forEach(s => { s.hidden = (s.id !== id); });
+  botones.forEach(b => b.setAttribute("aria-current", String(b.dataset.s === id)));
+  window.scrollTo({top:0, behavior:"smooth"});
+}
+nav.addEventListener("click", ev => {
+  const b = ev.target.closest("button[data-s]");
+  if (b) mostrar(b.dataset.s);
+});
+document.addEventListener("keydown", ev => {
+  if (ev.target.closest("input, textarea")) return;
+  const i = botones.findIndex(b => b.getAttribute("aria-current") === "true");
+  if (ev.key === "ArrowRight" && i < botones.length - 1) mostrar(botones[i+1].dataset.s);
+  if (ev.key === "ArrowLeft" && i > 0) mostrar(botones[i-1].dataset.s);
+});
+</script>
