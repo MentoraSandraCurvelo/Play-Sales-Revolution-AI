@@ -19,9 +19,10 @@
   "lifecycleState": "PUBLISHED",
   "isReshareDisabledByAuthor": false
  },
- "nota": "Reel de recuerdos (Isaía). Alpina es un ejemplo hipotético; no se nombra en el texto. Falta primer comentario. | 27 nov: Sandra terminó la prueba de 1 post al día; se programa hoy 3:00 p. m. Primer comentario pendiente de su sí.",
+ "nota": "Reel de recuerdos (Isaía). Alpina es un ejemplo hipotético; no se nombra en el texto. Falta primer comentario. | 27 nov: Sandra terminó la prueba de 1 post al día; se programa hoy 3:00 p. m. Primer comentario aprobado por Sandra el 27 nov.",
  "video": "urn:li:video:D4E10AQHRDuzJCWnOug",
- "primer_comentario": "Un truco antes de escribirle a alguien: busca su última publicación y comenta algo con valor. Cuando le escribas, ya no eres un desconocido.",
+ "primer_comentario": "¿Cuánto tiempo dedicas a investigar a alguien antes de escribirle por primera vez?",
  "primer_comentario_aprobado_el": "2026-11-09",
- "programado_anterior": "2026-11-19 11:30"
+ "programado_anterior": "2026-11-19 11:30",
+ "primer_comentario_estado": "aprobado"
 }
