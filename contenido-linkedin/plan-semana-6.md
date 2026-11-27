@@ -1,14 +1,19 @@
-# Plan semana 6 · lun 30 nov a dom 6 dic 2026 (PROPUESTA, pendiente del sí de Sandra)
-Cadencia: prueba terminada el 27 nov (Sandra). Vuelven 2 posts al día de lunes a viernes.
-Contexto: Sandra en Barranquilla mar 1 y mié 2. Newsletter: no hay edición esta semana (la 3 es el jue 10 dic).
+# Plan semana 6 · lun 30 nov a dom 6 dic 2026 (PROPUESTA v2, 2 posts al día L-V)
+Cadencia: prueba terminada el 27 nov. L-V 7:30 a. m. y 3:00 p. m.; mar 11:30 a. m. página IAM™; sáb 9:00 a. m.; dom 5:00 p. m.
+Contexto: Sandra en Barranquilla mar 1 y mié 2. Serie "Caso Comfacesar" aprobada. Newsletter edición 3: jue 10 dic.
 
-| Día | Post | Estado | Falta |
-|---|---|---|---|
-| Lun 30 7:30 | lun-30-am "¿Vitrina o sistema?" | Aprobado, primer comentario aprobado | Nada |
-| Mar 1 7:30 | Por definir (jue-19-md se adelantó al vie 27 3:00 p. m.) | | Post nuevo |
-| Mar 1 11:30 | Página IAM™: Tablero de la semana 02 | Por definir | Tema, texto y diseño |
-| Mié 2 7:30 | mie-18-pm "La confianza también se mide" (4,7 a 8,6) | Texto aprobado 10 nov | Imagen del dato y primer comentario |
-| Jue 3 7:30 | Serie "Lo que no se mide" 1: eventos (Día 1 / Día 90) | Texto y video recap aprobados | Foto de Sandra en feria o video recap; primer comentario |
-| Vie 4 7:30 | lun-16-pm "Las 5 tareas" | Texto aprobado 11 nov | Carrusel PDF y primer comentario |
-| Sáb 5 9:00 | Lo que aprendí en Barranquilla (texto corto, sin nombrar empresas) | Propuesta | Texto (se escribe el vie 4 con lo que pase en el viaje) |
-| Dom 6 5:00 p. m. | Serie "Lo que no se mide" 2: la fiesta de fin de año, texto + encuesta | Propuesta | Texto y opciones de la encuesta |
+| Día | Hora | Post | Estado | Falta |
+|---|---|---|---|---|
+| Lun 30 | 7:30 | "¿Vitrina o sistema?" | Aprobado | Nada |
+| Lun 30 | 3:00 | Caso Comfacesar 1: carrusel de cierre | Texto y PDF aprobados | Primer y segundo comentario |
+| Mar 1 | 7:30 | "La confianza también se mide" (4,7 a 8,6) | Texto aprobado | Imagen y primer comentario |
+| Mar 1 | 11:30 | Página IAM™: Tablero de la semana 02 "Horas recuperadas por área" | Propuesta | Diseño |
+| Mar 1 | 3:00 | NUEVO: "Las horas no valen nada si no sabes en qué las usas" | Propuesta | Texto |
+| Mié 2 | 7:30 | Serie "Lo que no se mide" 1: eventos (Día 1 / Día 90) | Texto aprobado | Imagen o video |
+| Mié 2 | 3:00 | Caso Comfacesar 2: video recap "El contador de horas" | Concepto propuesto | Videos (descarga) |
+| Jue 3 | 7:30 | "Las 5 tareas" | Texto aprobado | Carrusel |
+| Jue 3 | 3:00 | NUEVO: encuesta "¿Quién lidera la IA en tu empresa?" | Propuesta | Texto y opciones |
+| Vie 4 | 7:30 | NUEVO: lo que me preguntaron los empresarios en Barranquilla | Propuesta | Se escribe el jue 3 |
+| Vie 4 | 3:00 | Caso Comfacesar 3: "3 cosas que hicimos distinto" | Aprobado (plan) | Texto y foto |
+| Sáb 5 | 9:00 | Lección corta de la semana | Propuesta | Texto |
+| Dom 6 | 5:00 p. m. | Serie "Lo que no se mide" 2: fiesta de fin de año + encuesta | Propuesta | Texto |
