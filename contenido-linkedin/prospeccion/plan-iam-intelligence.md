@@ -141,3 +141,4 @@ Formato 3 párrafos. Comparación A vs B el lun 30 nov.
 - (27 nov) Zuleima Radi: Sandra le propuso el mar 1 dic con 2 horas concretas (o enero si no puede por el lanzamiento de la carrera del 2 dic). Esperando respuesta.
 - (26 nov) WhatsApp a Patricia Torres (CC Barranquilla) ENVIADO por Sandra; sin respuesta al 27 nov. Seguimiento corto el lun 30 si no responde.
 - (27 nov) Sandra pide enviar a Oscar Zuluaga el mensaje aprobado por LinkedIn (vía Chrome).
+- (27 nov, 6:41 a. m.) Mensaje a Oscar Zuluaga ENVIADO por LinkedIn (texto aprobado). Si responde, Chrome avisa sin contestar.
