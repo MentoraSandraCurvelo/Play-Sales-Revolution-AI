@@ -1,4 +1,4 @@
-# Plan "Caso Comfacesar" en LinkedIn (propuesta 27 nov 2026)
+# Plan "Caso Comfacesar" en LinkedIn (APROBADO por Sandra el 27 nov 2026, piezas 1 a 5)
 Excepción aprobada por Sandra (27 nov): en esta serie SÍ se nombra a Comfacesar y van las cifras de horas oficiales de cierre (255 h/semana, casi 1.100 h/mes). Dinero: NO (no confirmado). Nunca nombrar personas del equipo cliente en el texto.
 
 Material en Drive (carpeta de Giovanni, id 1tncjzi9Zo8u80Z1BJV3k27nQL-9mjb0B): ~94 fotos (DSC/CDS, 7 a 34 MB) y 10 videos .MOV (25 MB a 983 MB).
