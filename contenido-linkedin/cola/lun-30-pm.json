@@ -1,11 +1,11 @@
 {
  "id": "lun-30-pm",
- "estado": "borrador",
+ "estado": "aprobado",
  "programado_bogota": "2026-11-30 15:00",
  "urn": null,
  "payload": {
   "author": "urn:li:person:tsJbwdb3B2",
-  "commentary": "⭕ Una caja de compensación decidió que su gente no solo aprendiera IA, sino que trabajara con ella. Resultado: casi 1.100 horas al mes.\n\nHace unos meses, Fran Montero, director de Comfacesar, tomó una decisión que pocas organizaciones se atreven a tomar: invertir en sus profesionales para convertirlos en los profesionales del futuro.\n\nNo un curso más de IA. Un sistema de trabajo: más tiempo de calidad, más capacidad de análisis y decisiones co-creadas con inteligencia artificial, con la persona siempre al mando.\n\nHoy cerramos esa etapa con dos programas:\n\n⭕ IAM™ Intelligence, inteligencia artificial empresarial: 18 áreas trabajando con IA en sus procesos del día a día, con una línea base al inicio y una medición al cierre. 255 horas por semana, casi 1.100 horas al mes.\n⭕ IAM™ Ambassadors, embajadores de marca: colaboradores que fortalecen la narrativa corporativa y cuentan en LinkedIn, con su propia voz, lo que hace su organización.\n\nLo que no se ve en las fotos: este no fue el proyecto de un área. Fue el proyecto de todos.\n\nGracias, Fran, por creer en tu gente y liderarlo desde el primer día.\nGracias a María Elvira Marulanda, sponsor del proyecto, por abrir el camino.\nAl doctor Julio Acosta, que lo impulsó desde el área financiera.\nA nuestros embajadores Claudia Núñez, Rosa Elvira, Luciano y José Jaime, que levantaron su voz por la marca.\nY a cada persona de las 18 áreas que se atrevió a hacerlo distinto.\n\nLa IA no reemplaza a tu gente. La vuelve imparable.\n\n¿En tu organización, quién está tomando la decisión de preparar a su gente para lo que viene?\n\n{hashtag|\\#|Comfacesar} {hashtag|\\#|CajasDeCompensacion} {hashtag|\\#|IAMIntelligence} {hashtag|\\#|IAMAmbassadors} {hashtag|\\#|IAEmpresarial} {hashtag|\\#|EmbajadoresDeMarca} {hashtag|\\#|IAM}",
+  "commentary": "⭕ Una caja de compensación decidió que su gente no solo aprendiera IA, sino que trabajara con ella. Resultado: casi 1.100 horas al mes.\n\nHace unos meses, Fran Montero, director de Comfacesar, tomó una decisión que pocas organizaciones se atreven a tomar: invertir en sus profesionales para convertirlos en los profesionales del futuro.\n\nNo un curso más de IA. Un sistema de trabajo: más tiempo de calidad, más capacidad de análisis y decisiones co-creadas con inteligencia artificial, con la persona siempre al mando.\n\nHoy cerramos esa etapa con dos programas:\n\n⭕ IAM™ Intelligence, inteligencia artificial empresarial: 18 áreas trabajando con IA en sus procesos del día a día, con una línea base al inicio y una medición al cierre. 255 horas por semana, casi 1.100 horas al mes.\n⭕ IAM™ Ambassadors, embajadores de marca: colaboradores que fortalecen la narrativa corporativa y cuentan en LinkedIn, con su propia voz, lo que hace su organización.\n\nLo que no se ve en las fotos: este no fue el proyecto de un área. Fue el proyecto de todos.\n\nGracias, Fran, por creer en tu gente y liderarlo desde el primer día.\nGracias a María Elvira Marulanda, sponsor del proyecto, por abrir el camino.\nAl doctor Julio Acosta, que lo impulsó desde el área financiera.\nA nuestros embajadores Claudia Núñez, Rosa Elvira, Luciano Contreras y José Jaime Maya, que levantaron su voz por la marca.\nY a cada persona de las 18 áreas que se atrevió a hacerlo distinto.\n\nLa IA no reemplaza a tu gente. La vuelve imparable.\n\n¿En tu organización, quién está tomando la decisión de preparar a su gente para lo que viene?\n\n{hashtag|\\#|Comfacesar} {hashtag|\\#|CajasDeCompensacion} {hashtag|\\#|IAMIntelligence} {hashtag|\\#|IAMAmbassadors} {hashtag|\\#|IAEmpresarial} {hashtag|\\#|EmbajadoresDeMarca} {hashtag|\\#|IAM}",
   "visibility": "PUBLIC",
   "distribution": {
    "feedDistribution": "MAIN_FEED",
@@ -19,5 +19,20 @@
  "titulo_documento": "Así cerramos IAM™ con Comfacesar",
  "nota": "Carrusel de cierre Comfacesar (excepción aprobada 27 nov: se nombra a Comfacesar y van las horas). Falta: etiquetas (nombres de Sandra), decisión INNOVAR, visto bueno final de Sandra. Pasa a 'aprobado' solo con su sí. | 27 nov: texto reescrito más profesional por pedido de Sandra (agradecimientos a Fran Montero y María Elvira, proyecto de todos). Etiquetas: Comfacesar, Fran Montero, María Elvira (apellido por confirmar). | 27 nov: Sandra no quiere el CTA \"Comenta INNOVAR\": se quitó de la lámina 7 (slide7-sin-cta.jpg) y va primer comentario según la regla. | 27 nov: Sandra aprobó la intro. Etiquetas: Comfacesar, Fran Montero (director de Comfacesar), María Elvira Marulanda (sponsor), Claudia Núñez, Rosa Elvira (apellido por confirmar), Luciano y José Jaime (apellidos por confirmar), Dr. Julio Acosta (financiero). Las etiquetas las pone Chrome al editar tras publicar.",
  "primer_comentario": "Lo que más me enseñó este proyecto: la IA se adopta área por área, con una línea base al inicio y una persona que revisa y decide. ¿Por qué área empezarías tú en tu empresa?",
- "primer_comentario_estado": "pendiente_aprobacion"
+ "primer_comentario_estado": "aprobado",
+ "aprobado_por": "Sandra",
+ "aprobado_el": "2026-11-27",
+ "etiquetas": {
+  "organizacion": "Comfacesar",
+  "personas": [
+   "Fran Montero (director de Comfacesar)",
+   "María Elvira Marulanda (sponsor)",
+   "Julio Acosta (área financiera)",
+   "Claudia Núñez (embajadora; Sandra dictó 'Nuche', confirmar en LinkedIn)",
+   "Rosa Elvira (embajadora; Sandra dictó 'Ochustari', confirmar apellido en LinkedIn)",
+   "Luciano Contreras (embajador)",
+   "José Jaime Maya (embajador)"
+  ],
+  "como": "Chrome edita el post justo después de publicarlo y convierte cada nombre en etiqueta; si no encuentra un perfil, no lo inventa y avisa a Sandra."
+ }
 }
