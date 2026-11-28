@@ -349,3 +349,8 @@ Los tableros de las POC (PQRSDF, radar de pliegos, Plan de Desarrollo) son el si
 ## Regla 58 (27 nov 2026, Sandra): agenda en Outlook de IAM™
 - Toda reunión o bloqueo se agenda en el calendario de Outlook de sandracurvelo@iamlatam.co (el que bloquea el Calendly), NUNCA en Gmail.
 - Formato de Valeria: título "⭕️Empresa | Persona o tema | Tipo | Ciudad o programa" (ej. "⭕️RCN | Reunión Presencial | Barranquilla"). Presencial: ubicación "Ciudad (presencial)" y cuerpo "Reunión presencial con X en Ciudad a las H. Bloqueo de A a B. Bloqueo personal, sin invitados." El desplazamiento va dentro del mismo bloque.
+
+## Regla 59 (28 nov 2026, Sandra): oportunidades en respuestas a sus comentarios se trabajan de inmediato
+- En CADA corrida, Chrome revisa las respuestas a los comentarios de Sandra (en posts de otros y en los suyos).
+- Si una respuesta muestra oportunidad (alianza, interés en los servicios, "hablemos", "escríbeme", pregunta por cómo trabajan, invitación a evento o reunión, pide contacto), Chrome NO contesta: solo da "Recomendar" y la pone de PRIMERA en el reporte como "🔴 OPORTUNIDAD", con nombre, cargo, empresa, grado de conexión, texto completo, link del comentario y link del post.
+- Sandra la pega a Claude enseguida; Claude prepara la respuesta pública (valor, sin vender, sin pedir reunión) y el mensaje interno con 2 horas concretas, y Sandra aprueba.
